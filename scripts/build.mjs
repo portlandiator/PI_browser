@@ -5,6 +5,7 @@ import {gzipSync} from 'node:zlib';
 import {execFileSync} from 'node:child_process';
 import {randomUUID} from 'node:crypto';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
+import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
@@ -19,11 +20,18 @@ try{await fs.access(path.join(root,sources[0]));}catch{
 }
 async function readText(file){const bytes=await fs.readFile(file);try{const text=new TextDecoder('utf-8',{fatal:true}).decode(bytes);report.encodings.utf8++;return text;}catch{report.encodings.windows1252.push(path.relative(root,file));return new TextDecoder('windows-1252').decode(bytes);}}
 const metadata=new Map();
-for(const filename of (await fs.readdir(path.join(root,sources[2]))).filter(n=>n.endsWith('.csv')).sort()){
-  for(const row of parseCsv(await readText(path.join(root,sources[2],filename)))){
-    if(!/^[\w-]+$/.test(row.ID))throw new Error(`Unsafe ID: ${row.ID}`);
-    if(metadata.has(row.ID)){report.duplicateMetadata.push(row.ID);throw new Error(`Duplicate metadata ${row.ID}`);}
-    metadata.set(row.ID,row);report.metadataRows++;
+const metadataFiles=(await fs.readdir(path.join(root,sources[2]))).filter(n=>n.endsWith('.csv')).sort();
+if(metadataFiles.length!==1)throw new Error(`Expected one enhanced metadata CSV, found ${metadataFiles.length}.`);
+let schema;
+for(const filename of metadataFiles){
+  report.metadataFile=filename;
+  const rows=parseCsv(await readText(path.join(root,sources[2],filename)));
+  if(!rows.length||!Object.hasOwn(rows[0],'PIN'))throw new Error('Enhanced metadata must contain a PIN column.');
+  schema=describeFields(rows);report.metadataFields=schema.map(field=>field.name);
+  for(const row of rows){
+    if(!/^[\w-]+$/.test(row.PIN))throw new Error(`Unsafe PIN: ${row.PIN}`);
+    if(metadata.has(row.PIN)){report.duplicateMetadata.push(row.PIN);throw new Error(`Duplicate metadata ${row.PIN}`);}
+    metadata.set(row.PIN,row);report.metadataRows++;
   }
 }
 const files=await Promise.all(sources.slice(0,2).map(async folder=>new Set((await fs.readdir(path.join(root,folder))).filter(n=>n.endsWith('.txt')).map(n=>n.slice(0,-4)))));
@@ -32,7 +40,7 @@ for(const id of ids)if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error(`Unsafe
 await fs.mkdir(out,{recursive:true});
 // Every build has an immutable dataset path, preventing stale browsers from mixing
 // a previous catalogue with a new positional index. CI starts with an empty dist.
-for(const folder of ['data','index'])await fs.mkdir(path.join(corpus,folder),{recursive:true});
+for(const folder of ['data','index','facets'])await fs.mkdir(path.join(corpus,folder),{recursive:true});
 await fs.cp(path.join(root,'src'),out,{recursive:true});
 await fs.writeFile(path.join(out,'.nojekyll'),'');
 const catalog=[],indices={en:Array.from({length:1024},()=>new Map()),original:Array.from({length:1024},()=>new Map())};
@@ -41,7 +49,7 @@ const zipWrite=(file,value)=>fs.writeFile(file,gzipSync(JSON.stringify(value),{l
 
 for(let doc=0;doc<ids.length;doc++){
   const id=ids[doc],row=metadata.get(id)||{};
-  const record={id,author:authorNames[id.slice(0,2)]||'Other',title:row.Title||'',date:row.Date||'',volume:row.volume_number||'',volumeTitle:row.volume_title||'',addressee:row.Addressee||'',place:row.Place||'',hasOriginal:files[0].has(id),hasEnglish:files[1].has(id)};
+  const record={id,author:authorNames[id.slice(0,2)]||'Other',title:metadataPlain(row.Title||''),date:row.Date||'',volume:row.Volume||'',addressee:row.Recipient||'',place:row.Place||'',hasOriginal:files[0].has(id),hasEnglish:files[1].has(id)};
   if(!record.hasOriginal)report.missingOriginal.push(id);
   if(!record.hasEnglish)report.missingEnglish.push(id);
   if(!record.hasOriginal&&!record.hasEnglish)report.metadataOnly.push(id);
@@ -61,7 +69,7 @@ for(let doc=0;doc<ids.length;doc++){
       position++; // A phrase may not cross paragraph or footnote boundaries.
     }
   }
-  record.excerpt=(versions.en.paragraphs[0]?.plain||versions.original.paragraphs[0]?.plain||row.Abstract||'').slice(0,190);
+  record.excerpt=(versions.en.paragraphs[0]?.plain||versions.original.paragraphs[0]?.plain||row['First line (translated)']||row['First line (original)']||row.Abstracts||'').slice(0,190);
   const equal=versions.en.paragraphs.length===versions.original.paragraphs.length;
   if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
   catalog.push(record);
@@ -70,6 +78,8 @@ for(let doc=0;doc<ids.length;doc++){
 }
 const stats={dataset,records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length};
 await zipWrite(path.join(corpus,'catalog.json.gz'),catalog);
+await fs.writeFile(path.join(corpus,'metadata-schema.json'),JSON.stringify(schema));
+for(const field of schema)await zipWrite(path.join(corpus,'facets',`${field.key}.json.gz`),ids.map(id=>metadataSearchText(metadata.get(id)?.[field.name]||'')));
 for(const language of ['en','original']){
   await fs.mkdir(path.join(corpus,'index',language),{recursive:true});
   let terms=0;

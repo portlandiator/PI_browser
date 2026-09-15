@@ -23,7 +23,7 @@ jobs:
       - name: Build full corpus and search index
         run: node --max-old-space-size=6144 scripts/build.mjs
       - name: Verify generated collection
-        run: node --test tests/collection.test.mjs
+        run: node --test tests/*.test.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
