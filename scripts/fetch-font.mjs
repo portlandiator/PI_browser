@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+const folder=new URL('../src/fonts/',import.meta.url);
+await fs.mkdir(folder,{recursive:true});
+const font=await fetch('https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5krA.ttf');
+if(!font.ok)throw new Error('Font download failed');
+await fs.writeFile(new URL('naskh.ttf',folder),Buffer.from(await font.arrayBuffer()));
+const license=await fetch('https://raw.githubusercontent.com/google/fonts/main/ofl/notonaskharabic/OFL.txt');
+if(!license.ok)throw new Error('Font license download failed');
+await fs.writeFile(new URL('OFL.txt',folder),await license.text());
+console.log('Downloaded Noto Naskh Arabic and its SIL Open Font License.');

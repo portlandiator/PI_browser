@@ -1,0 +1,14 @@
+{
+  "name": "partial-inventory-browser",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A static bilingual reader for the Partial Inventory of Baha'i texts",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
