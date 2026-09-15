@@ -28,8 +28,8 @@ try {
     $python = Find-Tool 'python' @((Join-Path $runtime 'python/python.exe'))
     $git = Find-Tool 'git' @((Join-Path $runtime 'native/git/cmd/git.exe'))
     $gh = Find-Tool 'gh' @((Join-Path $root '.tools/gh/bin/gh.exe'))
-    $version = Run $node @('-p', 'process.versions.node.split(".")[0]')
-    if ([int]$version -lt 22) { throw 'Node.js 22 or newer is required.' }
+    $version = Run $node @('--version')
+    if ([int](($version.TrimStart('v') -split '\.')[0]) -lt 22) { throw 'Node.js 22 or newer is required.' }
     Run $python @('--version')
     $top = Run $git @('-C', $root, 'rev-parse', '--show-toplevel')
     if ([IO.Path]::GetFullPath($top) -ne [IO.Path]::GetFullPath($root)) { throw 'This folder must be the repository root.' }
