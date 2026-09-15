@@ -7,7 +7,8 @@ import {fileURLToPath} from 'node:url';
 import {parseText,tokenize,parseQuery,shardKey,unpackPosting,matchPostings} from '../src/text.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
-const load=async file=>JSON.parse(gunzipSync(await fs.readFile(path.join(out,file))));
+const stats=JSON.parse(await fs.readFile(path.join(out,'stats.json'),'utf8'));
+const load=async file=>JSON.parse(gunzipSync(await fs.readFile(path.join(out,stats.dataset||'',file))));
 let catalog;
 try{catalog=await load('catalog.json.gz');}catch{}
 

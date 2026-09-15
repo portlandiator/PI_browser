@@ -3,10 +3,13 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gzipSync} from 'node:zlib';
 import {execFileSync} from 'node:child_process';
+import {randomUUID} from 'node:crypto';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
+const dataset=`collections/${randomUUID().slice(0,12)}/`;
+const corpus=path.join(out,dataset);
 const report={encodings:{utf8:0,windows1252:[]},metadataRows:0,duplicateMetadata:[],missingOriginal:[],missingEnglish:[],metadataOnly:[],textWithoutMetadata:[],unequalParagraphCounts:[],unknownCommands:[]};
 const sources=['original_texts - copy','translated_texts - copy','metadata - copy'];
 try{await fs.access(path.join(root,sources[0]));}catch{
@@ -27,8 +30,9 @@ const files=await Promise.all(sources.slice(0,2).map(async folder=>new Set((awai
 const ids=[...new Set([...metadata.keys(),...files[0],...files[1]])].sort();
 for(const id of ids)if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error(`Unsafe filename ${id}`);
 await fs.mkdir(out,{recursive:true});
-// Only remove generated output within the fixed dist directory.
-for(const folder of ['data','index']){const target=path.resolve(out,folder);if(!target.startsWith(out+path.sep))throw new Error('Invalid output');await fs.rm(target,{recursive:true,force:true});await fs.mkdir(target,{recursive:true});}
+// Every build has an immutable dataset path, preventing stale browsers from mixing
+// a previous catalogue with a new positional index. CI starts with an empty dist.
+for(const folder of ['data','index'])await fs.mkdir(path.join(corpus,folder),{recursive:true});
 await fs.cp(path.join(root,'src'),out,{recursive:true});
 await fs.writeFile(path.join(out,'.nojekyll'),'');
 const catalog=[],indices={en:Array.from({length:1024},()=>new Map()),original:Array.from({length:1024},()=>new Map())};
@@ -61,19 +65,19 @@ for(let doc=0;doc<ids.length;doc++){
   const equal=versions.en.paragraphs.length===versions.original.paragraphs.length;
   if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
   catalog.push(record);
-  await zipWrite(path.join(out,'data',`${id}.json.gz`),{...record,metadata:row,en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
+  await zipWrite(path.join(corpus,'data',`${id}.json.gz`),{...record,metadata:row,en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
   if(doc%3000===0)console.log(`Imported ${doc.toLocaleString()} / ${ids.length.toLocaleString()} records`);
 }
-const stats={records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length};
-await zipWrite(path.join(out,'catalog.json.gz'),catalog);
+const stats={dataset,records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length};
+await zipWrite(path.join(corpus,'catalog.json.gz'),catalog);
 for(const language of ['en','original']){
-  await fs.mkdir(path.join(out,'index',language),{recursive:true});
+  await fs.mkdir(path.join(corpus,'index',language),{recursive:true});
   let terms=0;
   for(let bucket=0;bucket<1024;bucket++){
     const serialized=Object.create(null);
     for(const [word,posting] of indices[language][bucket])serialized[word]=Buffer.from(packPosting(posting)).toString('base64');
     terms+=indices[language][bucket].size;
-    await zipWrite(path.join(out,'index',language,`${bucket}.json.gz`),serialized);
+    await zipWrite(path.join(corpus,'index',language,`${bucket}.json.gz`),serialized);
     indices[language][bucket].clear();
   }
   console.log(`${language}: ${terms.toLocaleString()} indexed terms`);

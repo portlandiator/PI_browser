@@ -1,12 +1,13 @@
 import {normalize,parseQuery,shardKey,unpackPosting,matchPostings} from './text.mjs';
 import {loadCompressed} from './data.mjs';
 let catalogPromise;
+let datasetBase;
 const shards=new Map();
-const getCatalog=()=>catalogPromise??=loadCompressed(new URL('./catalog.json.gz',import.meta.url)).catch(error=>{catalogPromise=null;throw error;});
+const getCatalog=()=>catalogPromise??=loadCompressed(new URL('catalog.json.gz',datasetBase)).catch(error=>{catalogPromise=null;throw error;});
 async function getShard(language,key){
   const cacheKey=`${language}/${key}`;
   if(shards.has(cacheKey)){const value=shards.get(cacheKey);shards.delete(cacheKey);shards.set(cacheKey,value);return value;}
-  const promise=loadCompressed(new URL(`./index/${cacheKey}.json.gz`,import.meta.url)).catch(error=>{shards.delete(cacheKey);throw error;});
+  const promise=loadCompressed(new URL(`index/${cacheKey}.json.gz`,datasetBase)).catch(error=>{shards.delete(cacheKey);throw error;});
   shards.set(cacheKey,promise);
   if(shards.size>32)shards.delete(shards.keys().next().value);
   return promise;
@@ -33,6 +34,7 @@ function allowed(row,filters){
 self.onmessage=async({data})=>{
   const {type,requestId}=data;
   try{
+    if(type==='init')datasetBase=new URL(data.dataset,import.meta.url);
     const catalog=await getCatalog();
     if(type==='init'){
       const unique=key=>[...new Set(catalog.map(r=>r[key]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
