@@ -1,6 +1,6 @@
 {
-  "dataset": "collections/44d33536-bd4/",
-  "records": 29119,
+  "dataset": "collections/3ed36ec4-68b/",
+  "records": 29118,
   "pairs": 28695,
   "original": 28759,
   "english": 28949,
@@ -109,8 +109,7 @@
     "BH11595",
     "BH11601",
     "BH11685",
-    "BH11692",
-    "MAF0001"
+    "BH11692"
   ],
   "unequalParagraphCounts": [
     {
@@ -20335,11 +20334,8 @@
     }
   ],
   "encodings": {
-    "utf8": 57407,
+    "utf8": 57408,
     "windows1252": [
-      "metadata - copy\\metadata_for_pdfs_abd.csv",
-      "metadata - copy\\metadata_for_pdfs_bab.csv",
-      "metadata - copy\\metadata_for_pdfs_bah.csv",
       "translated_texts - copy\\AB00011.txt",
       "translated_texts - copy\\AB00030.txt",
       "translated_texts - copy\\AB00045.txt",
@@ -20643,7 +20639,7 @@
       "translated_texts - copy\\BH11759.txt"
     ]
   },
-  "metadataRows": 29029,
+  "metadataRows": 29028,
   "duplicateMetadata": [],
   "missingOriginal": [
     "AB00047",
@@ -21004,7 +21000,6 @@
     "BHU0076",
     "BHU0077",
     "BHU0078",
-    "MAF0001",
     "MAF0001 trans"
   ],
   "missingEnglish": [
@@ -21157,7 +21152,6 @@
     "BH11917",
     "I--II",
     "Ibrahim",
-    "MAF0001",
     "MAF0001 orig",
     "bh02702",
     "bh05036",
@@ -21271,5 +21265,26 @@
     "جناب",
     "عجب"
   ],
-  "unknownCommands": []
+  "unknownCommands": [],
+  "metadataFile": "Partial Inventory v6.01.csv",
+  "metadataFields": [
+    "PIN",
+    "Title",
+    "Word count",
+    "Language",
+    "First line (original)",
+    "First line (translated)",
+    "Manuscripts",
+    "Publications",
+    "Translations",
+    "Musical interpretations",
+    "Notes",
+    "Abstracts",
+    "Subjects",
+    "Volume",
+    "Date",
+    "Period",
+    "Recipient",
+    "Place"
+  ]
 }

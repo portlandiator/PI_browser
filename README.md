@@ -2,7 +2,7 @@
 
 A static bilingual reading room for a collection of Baha'i texts. English and Persian/Arabic originals are displayed together, with word and phrase search, exact filename lookup, and metadata filters.
 
-The initial import contains **29,119 records**, including **28,695 bilingual pairs**, 318 single-language texts, and 106 metadata-only records. The deployed artifact is approximately 130 MB. The 13 automated checks cover parsing, search semantics, sampled source preservation, and full-corpus structure. Desktop and 390px/320px mobile layouts have also been checked in the browser.
+The collection contains over 29,000 records. Build statistics are recorded in `build-report.json`; automated checks cover parsing, search semantics, source preservation, metadata and hyperlinks.
 
 ## Public site, or run locally
 
@@ -23,9 +23,9 @@ Open http://localhost:4173/PI_browser/. The server deliberately tests the same p
 - Whole-word search in English, Persian/Arabic, or both; quoted exact phrases.
 - All query terms must occur in the same language version. Diacritics, Arabic/Persian yeh and kaf variants, and Persian/Arabic digits are normalized for search only. There is no stemming or fuzzy matching.
 - Exact filename IDs, including `.txt` and duplicate-file suffixes, are supported.
-- Filter by author, volume, date, addressee, place, and text availability. Date sorting is by the source string, not a cross-calendar chronological conversion.
+- Filter by all 18 metadata fields, author and text availability. Combine multiple categorical values, numeric word-count bounds, text matching and recorded/missing values. Date sorting is by the source string, not a cross-calendar chronological conversion.
 - Default parallel reading, English on the left. Matching-count paragraphs pair in source order; unequal counts use independent columns. Mobile displays each matched pair vertically.
-- Accessible footnotes, italics and transliteration accents; all source HTML is escaped.
+- Accessible footnotes, italics and transliteration accents; source HTML is escaped; metadata web links are safely reconstructed.
 - Adjustable reading size, single-language modes, contextual snippets, pagination, persistent URLs, and copyable reading links.
 - No accounts, analytics, external search service, or runtime server.
 
@@ -56,3 +56,7 @@ The published artifact must remain under GitHub Pages' 1 GB limit. Run the colle
 ## Design and maintenance
 
 See `DESIGN.md`, `AGENTS.md`, and the project `SKILL.md`. Noto Naskh Arabic is bundled under the SIL Open Font License; see `src/fonts/OFL.txt`. Source-text rights and translation provenance remain those of their respective sources; this project does not assign a new license to the collection.
+
+## Enhanced catalogue metadata
+
+Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.

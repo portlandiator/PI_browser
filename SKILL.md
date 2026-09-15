@@ -9,7 +9,7 @@ Read [DESIGN.md](DESIGN.md) for the visual system. This project adapts the typog
 
 ## Corpus work
 
-Inspect build-report.json after import. The supplied CSVs use Windows-1252; text files are predominantly UTF-8 with some Windows-1252 translations. Strictly attempt UTF-8 before a Windows-1252 fallback and report every fallback. Parse quoted, multiline CSV values correctly. Preserve missing fields and ambiguous dates as supplied.
+Inspect build-report.json after import. The enhanced metadata CSV uses UTF-8; text files are predominantly UTF-8 with some Windows-1252 translations. Strictly attempt UTF-8 before a Windows-1252 fallback and report every fallback. Parse quoted, multiline CSV values correctly. Preserve missing fields and ambiguous dates as supplied.
 
 File basenames are the IDs. Join metadata by the full ID. Include the union of source and metadata IDs. Missing counterparts and differing paragraph counts are data conditions to present honestly. Never infer paragraph correspondence by splitting prose at sentence boundaries.
 
@@ -26,3 +26,7 @@ Keep search in a worker. Fetch only relevant compressed index shards and display
 English appears first in DOM order and on the left in desktop parallel mode. Original paragraphs have explicit RTL direction. Mobile pairs remain consecutive. Unequal paragraph counts require independent flows and a notice; do not present them as aligned rows. Provide single-language modes and adjustable text size without hiding access to the other version.
 
 Use warm paper backgrounds, dark green navigation, thin rules, readable serif text, and restrained sans-serif controls. Ensure keyboard focus, contrast, reduced motion, useful error states, and accessible form labels. Validate using actual long texts and actual footnotes, not only short invented examples.
+
+## Enhanced catalogue metadata
+
+Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.

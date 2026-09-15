@@ -27,3 +27,7 @@ The 161 MB source corpus benefits from a build-time index and on-demand retrieva
 
 ## Verification
 Inspect the full collection import report; measure output size against the 1 GB GitHub Pages limit. Test whole-word and phrase semantics, RTL normalization, paragraph boundaries, malformed/nested LaTeX, metadata CSV quoting, direct ID lookup, missing counterparts, filter combinations, URL back/forward, desktop and narrow layouts, and note navigation.
+
+## Enhanced catalogue metadata
+
+Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.
