@@ -29,7 +29,7 @@ Open http://localhost:4173/PI_browser/. The server deliberately tests the same p
 
 ## Technology
 
-Native browser ES modules and CSS keep the interface small. A Node build imports CSV and text files, produces a gzip-compressed catalogue, and compresses every document separately. A positional inverted index is split into 1,024 shards per language. Each term maps to delta-encoded document IDs and word positions. A Web Worker fetches only the required shards, intersects whole-word postings, and verifies phrase positions. Index and document caches are bounded.
+Native browser ES modules and CSS keep the interface small. A Node build imports CSV and text files, produces a gzip-compressed catalogue, and compresses every document separately. A positional inverted index is split into 1,024 shards per language. Each term maps to delta-encoded document IDs and word positions. A Web Worker fetches only the required shards, intersects whole-word postings, and verifies phrase positions. Index and document caches are bounded. Each build uses a new dataset directory, and the reader and worker share one manifest version, preventing cached data from different deployments being combined. GitHub Actions builds from a clean checkout; local builds retain older dataset directories so already-open readers can finish their session.
 
 This is a purpose-built search index with deliberately explicit semantics. Unit tests cover normalization and phrase boundaries; corpus tests check generated records against the source and run searches against the actual compressed index. Older browsers without `DecompressionStream` show an upgrade message. A current Chrome, Edge, Firefox, or Safari is recommended.
 

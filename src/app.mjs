@@ -4,6 +4,7 @@ const $=id=>document.getElementById(id);
 const filters=['author','volume','date','addressee','place','availability'];
 const labels={author:'Author',volume:'Volume',date:'Date',addressee:'Addressee',place:'Place',availability:'Availability'};
 let worker,requestId=0,currentSearch=0,readerRequest=0,facets={},lastResults=null,reading=null;
+let datasetBase,datasetPath;
 const recordCache=new Map();
 let preferences={mode:'parallel',scale:1};
 try{preferences={...preferences,...JSON.parse(localStorage.getItem('pi-reading')||'{}')};}catch{}
@@ -36,7 +37,7 @@ function setupWorker(){
     if(data.type==='error'){$('results-heading').textContent='Search unavailable';showError($('results'),data.message,runSearch);return;}
     lastResults=data;state.page=data.page;updateUrl(true);renderResults(data);
   };
-  worker.postMessage({type:'init',requestId:++requestId});
+  worker.postMessage({type:'init',requestId:++requestId,dataset:datasetPath});
 }
 function updateSuggestions(key){const q=normalize($(key).value);const choices=(facets[key]||[]).filter(value=>!q||normalize(value).includes(q)).slice(0,100);$(key+'-options').innerHTML=choices.map(value=>`<option value="${esc(value)}"></option>`).join('');}
 function displayTitle(record){if(record.title)return record.title;if(record.addressee)return `To ${record.addressee}`;return record.excerpt?record.excerpt.slice(0,85)+(record.excerpt.length>85?'…':''):record.id;}
@@ -56,7 +57,7 @@ function renderResults(data){
 async function getRecord(id){
   if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error('Invalid text ID. Use a filename such as BH00001.');
   if(recordCache.has(id))return recordCache.get(id);
-  const promise=loadCompressed(new URL(`./data/${encodeURIComponent(id)}.json.gz`,import.meta.url)).catch(error=>{recordCache.delete(id);throw error;});
+  const promise=loadCompressed(new URL(`data/${encodeURIComponent(id)}.json.gz`,datasetBase)).catch(error=>{recordCache.delete(id);throw error;});
   recordCache.set(id,promise);if(recordCache.size>30)recordCache.delete(recordCache.keys().next().value);return promise;
 }
 async function loadExcerpts(rows,searchId){
@@ -74,6 +75,7 @@ async function loadExcerpts(rows,searchId){
   }catch{/* Catalogue opening words remain usable if an excerpt fails. */}}}));
 }
 function runSearch(){
+  if(!worker)return;
   currentSearch=++requestId;$('results').setAttribute('aria-busy','true');$('results-heading').textContent='Searching…';$('pagination').hidden=true;
   worker.postMessage({type:'search',requestId:currentSearch,...state});
 }
@@ -179,5 +181,11 @@ $('about-dialog').onclick=event=>{if(event.target===$('about-dialog')){const rec
 window.addEventListener('popstate',()=>{const next=stateFromUrl();if(urlFor(next)===urlFor(state)){jumpToHash();return;}state=next;syncControls();if(state.id)openReader(state.id,{push:false});else{showCollection();runSearch();}});
 window.addEventListener('hashchange',jumpToHash);
 document.addEventListener('click',event=>{const link=event.target.closest('a[href^="#"]');if(link&&reading){const hash=link.getAttribute('href');if(hash.startsWith('#ref-')&&!document.querySelector(hash)){visibleParagraphs=Math.max(reading.en.paragraphs.length,reading.original.paragraphs.length);renderReading();}}});
-syncControls();setupWorker();runSearch();if(state.id)openReader(state.id,{push:false});
-fetch(new URL('./stats.json',import.meta.url)).then(r=>r.json()).then(stats=>{$('about-stats').textContent=`The collection contains ${stats.records.toLocaleString()} catalogue records, including ${stats.pairs.toLocaleString()} texts with both language versions. ${stats.metadataOnly.toLocaleString()} records have metadata only.`;}).catch(()=>{});
+syncControls();
+try{
+  const response=await fetch(new URL('./stats.json',import.meta.url),{cache:'no-cache'});
+  if(!response.ok)throw new Error('The collection manifest could not be loaded. Please reload the page.');
+  const stats=await response.json();datasetPath=stats.dataset||'./';datasetBase=new URL(datasetPath,import.meta.url);
+  $('about-stats').textContent=`The collection contains ${stats.records.toLocaleString()} catalogue records, including ${stats.pairs.toLocaleString()} texts with both language versions. ${stats.metadataOnly.toLocaleString()} records have metadata only.`;
+  setupWorker();runSearch();if(state.id)openReader(state.id,{push:false});
+}catch(error){showError($('results'),error.message,()=>location.reload());$('results').setAttribute('aria-busy','false');$('results-heading').textContent='Collection unavailable';}
