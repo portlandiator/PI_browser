@@ -60,3 +60,19 @@ See `DESIGN.md`, `AGENTS.md`, and the project `SKILL.md`. Noto Naskh Arabic is b
 ## Enhanced catalogue metadata
 
 Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.
+
+## One-click Windows updates
+
+After replacing source files, double-click **Update-Collection.cmd** in the project folder. Keep exactly one CSV (with a `PIN` column) in `metadata - copy`, and keep all current `.txt` files in the two source-text folders. Wait for Dropbox to finish syncing and avoid editing those files during the update.
+
+The utility checks GitHub access, fast-forwards `main`, packages every current source file into `data/collection.tar.gz`, builds and tests a separate snapshot, commits only the tested archive and build report, pushes, waits for GitHub Pages, and verifies the public collection counts. Files removed from the source folders are omitted from the next archive. It preserves the current preview server and refreshes its built files after successful publication. The window stays open to show success or errors.
+
+Requires Node.js 22+, Python 3, Git, GitHub CLI (`gh`), and Windows `tar`. It automatically finds the tools already installed on this computer, including the bundled runtimes; otherwise it uses PATH. On another computer, install those tools and run `gh auth login` and `gh auth setup-git` once. Run from a clean `main` checkout; source-folder edits are expected and are ignored by Git. The script uses your authenticated GitHub account's public no-reply address for update commits.
+
+To validate without uploading:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\update-collection.ps1 -ValidateOnly
+```
+
+ExecutionPolicy Bypass applies only to that process; it does not change Windows settings. Failures stop publication, return a nonzero exit code, and leave source folders untouched. If a commit or push fails after validation, resolve the reported Git changes or unpublished commit before retrying. If GitHub deployment fails after a successful push, inspect the linked Actions run and rerun the failed job after correcting its cause. Concurrent updates are blocked. Temporary snapshots are removed on normal completion or failure; logs remain visible in the window.
