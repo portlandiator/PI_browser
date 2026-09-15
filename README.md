@@ -4,9 +4,11 @@ A static bilingual reading room for a collection of Baha'i texts. English and Pe
 
 The initial import contains **29,119 records**, including **28,695 bilingual pairs**, 318 single-language texts, and 106 metadata-only records. The deployed artifact is approximately 130 MB. The 13 automated checks cover parsing, search semantics, sampled source preservation, and full-corpus structure. Desktop and 390px/320px mobile layouts have also been checked in the browser.
 
-## Run locally
+## Public site, or run locally
 
-Requires **Node.js 22 or newer** and a `tar` command (included in current Windows, macOS, and Linux). No package installation or API keys are needed.
+To access the public version open https://portlandiator.github.io/PI_browser/.
+
+Running locally requires **Node.js 22 or newer** and a `tar` command (included in current Windows, macOS, and Linux). No package installation or API keys are needed.
 
 ```sh
 node --max-old-space-size=6144 scripts/build.mjs
