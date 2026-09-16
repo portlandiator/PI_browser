@@ -60,6 +60,13 @@ test('build remains inside GitHub Pages size limit and shards are bounded',async
   if(!catalog)return;
   let size=0,maxShard=0;
   async function walk(folder){for(const entry of await fs.readdir(folder,{withFileTypes:true})){const file=path.join(folder,entry.name);if(entry.isDirectory())await walk(file);else{const bytes=(await fs.stat(file)).size;size+=bytes;if(file.includes(path.sep+'index'+path.sep))maxShard=Math.max(maxShard,bytes);}}}
-  await walk(out);assert.ok(size<1_000_000_000,`Output size ${size}`);assert.ok(maxShard<5_000_000,`Largest shard ${maxShard}`);
+  // Local builds retain earlier datasets for open readers; CI deploys a clean build.
+  for(const entry of await fs.readdir(out,{withFileTypes:true})){
+    const file=path.join(out,entry.name);
+    if(entry.name==='collections')await walk(path.join(out,stats.dataset));
+    else if(entry.isDirectory())await walk(file);
+    else size+=(await fs.stat(file)).size;
+  }
+  assert.ok(size<1_000_000_000,`Output size ${size}`);assert.ok(maxShard<5_000_000,`Largest shard ${maxShard}`);
   console.log(`Site size: ${(size/1e6).toFixed(1)} MB; largest index shard: ${(maxShard/1000).toFixed(1)} KB`);
 });

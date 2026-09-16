@@ -6,6 +6,7 @@ import {execFileSync} from 'node:child_process';
 import {randomUUID} from 'node:crypto';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
+import {buildVolumes} from './build-volumes.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
@@ -43,6 +44,8 @@ await fs.mkdir(out,{recursive:true});
 for(const folder of ['data','index','facets'])await fs.mkdir(path.join(corpus,folder),{recursive:true});
 await fs.cp(path.join(root,'src'),out,{recursive:true});
 await fs.writeFile(path.join(out,'.nojekyll'),'');
+const volumes=await buildVolumes(root,out);
+for(const row of metadata.values())if(row.Volume&&!volumes[String(Number(row.Volume))])throw new Error(`No PDF for volume ${row.Volume}`);
 const catalog=[],indices={en:Array.from({length:1024},()=>new Map()),original:Array.from({length:1024},()=>new Map())};
 const authorNames={AB:'‘Abdu’l-Bahá',BB:'The Báb',BH:'Bahá’u’lláh'};
 const zipWrite=(file,value)=>fs.writeFile(file,gzipSync(JSON.stringify(value),{level:9}));
