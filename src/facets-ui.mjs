@@ -8,7 +8,10 @@ export class FacetPanel {
     const preferred=['date','volume','recipient','place','language','period','word-count'];
     const ordered=[...fields].sort((a,b)=>{const x=preferred.indexOf(a.key),y=preferred.indexOf(b.key);return (x<0?100:x)-(y<0?100:y);});
     container.innerHTML=`<div class="metadata-filter-heading"><h3>Metadata fields <span>${fields.length}</span></h3><label class="sr-only" for="find-filter">Find a metadata filter</label><input id="find-filter" type="search" placeholder="Find a filter…" autocomplete="off"></div><p class="facet-help">Combine fields to narrow results. Choose multiple values within a field to match any of them.</p>${ordered.map(field=>this.fieldMarkup(field)).join('')}<p id="no-filter-fields" class="facet-help" hidden>No field names match.</p>`;
-    container.querySelector('#find-filter').oninput=event=>{let visible=0;for(const field of fields){const show=normalize(field.name).includes(normalize(event.target.value));this.node(field.key).hidden=!show;if(show)visible++;}container.querySelector('#no-filter-fields').hidden=Boolean(visible);};
+    const author=document.getElementById('author-field');
+    container.insertBefore(author,container.querySelector('.metadata-facet'));
+    container.querySelector('h3 span').textContent=fields.length+1;
+    container.querySelector('#find-filter').oninput=event=>{const needle=normalize(event.target.value);author.hidden=!normalize('Author').includes(needle);let visible=author.hidden?0:1;for(const field of fields){const show=normalize(field.name).includes(needle);this.node(field.key).hidden=!show;if(show)visible++;}container.querySelector('#no-filter-fields').hidden=Boolean(visible);};
     for(const field of fields){
       const root=this.node(field.key),key=field.key;
       root.ontoggle=()=>{if(root.open)this.load(key);};
