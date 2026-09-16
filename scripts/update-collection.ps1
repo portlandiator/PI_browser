@@ -74,8 +74,12 @@ try {
     $deadline = (Get-Date).AddMinutes(3)
     $runId = $null
     do {
-        $runs = @(Run $gh @('run','list','--repo',$repo,'--workflow','pages.yml','--commit',$sha,'--event','push','--limit','1','--json','databaseId') | Out-String | ConvertFrom-Json)
-        if ($runs.Count) { $runId = $runs[0].databaseId; break }
+        $runJson = & $gh 'run' 'list' '--repo' $repo '--workflow' 'pages.yml' '--commit' $sha '--event' 'push' '--limit' '1' '--json' 'databaseId'
+        if ($LASTEXITCODE -ne 0) { throw "GitHub could not list the deployment run." }
+        $runData = $runJson | ConvertFrom-Json
+        if ($runData -is [array] -and $runData.Count) { $runId = $runData[0].databaseId }
+        elseif ($runData -and $runData.databaseId) { $runId = $runData.databaseId }
+        if ($runId) { break }
         Start-Sleep -Seconds 5
     } while ((Get-Date) -lt $deadline)
     if (-not $runId) { throw "GitHub has not started a deployment for $sha. Check the repository Actions page." }
@@ -102,7 +106,8 @@ try {
         $resolvedStage = [IO.Path]::GetFullPath($stage)
         $allowedParent = [IO.Path]::GetFullPath((Join-Path $root '.qa')) + [IO.Path]::DirectorySeparatorChar
         if ($resolvedStage.StartsWith($allowedParent,[StringComparison]::OrdinalIgnoreCase) -and (Split-Path -Leaf $resolvedStage) -match '^update-[a-f0-9]{32}$') {
-            Remove-Item -LiteralPath $resolvedStage -Recurse -Force
+            try { Remove-Item -LiteralPath $resolvedStage -Recurse -Force -ErrorAction Stop }
+            catch { Write-Warning "Temporary snapshot could not be removed because Windows still has a file open: $resolvedStage" }
         }
     }
 }
