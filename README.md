@@ -55,6 +55,8 @@ The published artifact must remain under GitHub Pages' 1 GB limit. Run the colle
 
 ## Design and maintenance
 
+The `pdf_volumes - copy/` folder contains the published volume PDFs and is versioned directly in Git. Filenames begin with `volume_` and the volume number. The build verifies every metadata volume has a corresponding PDF, copies the files without modifying their contents, and links the catalogue's Volume field to the PDF in a new tab. The Windows updater carries these PDFs into its validation build. The complete deployed site, including PDFs, must remain below the size limit checked by the collection tests.
+
 See `DESIGN.md`, `AGENTS.md`, and the project `SKILL.md`. Noto Naskh Arabic is bundled under the SIL Open Font License; see `src/fonts/OFL.txt`. Source-text rights and translation provenance remain those of their respective sources; this project does not assign a new license to the collection.
 
 ## Enhanced catalogue metadata
