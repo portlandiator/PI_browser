@@ -6,6 +6,7 @@ import {execFileSync} from 'node:child_process';
 import {randomUUID} from 'node:crypto';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
+import {citationCount} from '../src/citations.mjs';
 import {buildVolumes} from './build-volumes.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -52,7 +53,7 @@ const zipWrite=(file,value)=>fs.writeFile(file,gzipSync(JSON.stringify(value),{l
 
 for(let doc=0;doc<ids.length;doc++){
   const id=ids[doc],row=metadata.get(id)||{};
-  const record={id,author:authorNames[id.slice(0,2)]||'Other',title:metadataPlain(row.Title||''),date:row.Date||'',volume:row.Volume||'',addressee:row.Recipient||'',place:row.Place||'',hasOriginal:files[0].has(id),hasEnglish:files[1].has(id)};
+  const record={id,citationCount:citationCount(row),author:authorNames[id.slice(0,2)]||'Other',title:metadataPlain(row.Title||''),date:row.Date||'',volume:row.Volume||'',addressee:row.Recipient||'',place:row.Place||'',hasOriginal:files[0].has(id),hasEnglish:files[1].has(id)};
   if(!record.hasOriginal)report.missingOriginal.push(id);
   if(!record.hasEnglish)report.missingEnglish.push(id);
   if(!record.hasOriginal&&!record.hasEnglish)report.metadataOnly.push(id);
