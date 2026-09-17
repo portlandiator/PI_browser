@@ -1,9 +1,11 @@
+import {recordFilename} from '../src/record-file.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gzipSync} from 'node:zlib';
 import {execFileSync} from 'node:child_process';
-import {randomUUID} from 'node:crypto';
+import {randomUUID,createHash} from 'node:crypto';
+import {buildSubjects} from './build-subjects.mjs';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
 import {citationCount} from '../src/citations.mjs';
@@ -59,8 +61,10 @@ for(let doc=0;doc<ids.length;doc++){
   if(!record.hasOriginal&&!record.hasEnglish)report.metadataOnly.push(id);
   if(!metadata.has(id))report.textWithoutMetadata.push(id);
   const versions={};
+  let enVersion;
   for(const [language,fileSet,folder] of [['original',files[0],sources[0]],['en',files[1],sources[1]]]){
     const text=fileSet.has(id)?await readText(path.join(root,folder,`${id}.txt`)):'';
+    if(language==='en'&&fileSet.has(id))enVersion=createHash('sha256').update(await fs.readFile(path.join(root,folder,`${id}.txt`))).digest('hex');
     const version=parseText(text,language);versions[language]=version;
     let position=0;
     for(const part of [...version.paragraphs,...version.notes]){
@@ -77,7 +81,7 @@ for(let doc=0;doc<ids.length;doc++){
   const equal=versions.en.paragraphs.length===versions.original.paragraphs.length;
   if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
   catalog.push(record);
-  await zipWrite(path.join(corpus,'data',`${id}.json.gz`),{...record,metadata:row,en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
+  await zipWrite(path.join(corpus,'data',recordFilename(id)),{...record,enVersion,metadata:row,en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
   if(doc%3000===0)console.log(`Imported ${doc.toLocaleString()} / ${ids.length.toLocaleString()} records`);
 }
 const stats={dataset,records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length};
@@ -96,6 +100,7 @@ for(const language of ['en','original']){
   }
   console.log(`${language}: ${terms.toLocaleString()} indexed terms`);
 }
+await buildSubjects(root,out,dataset);
 await fs.writeFile(path.join(out,'stats.json'),JSON.stringify(stats));
 await fs.writeFile(path.join(root,'build-report.json'),JSON.stringify({...stats,...report},null,2));
 console.log('Build complete',stats);

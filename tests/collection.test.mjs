@@ -1,3 +1,4 @@
+import {recordFilename} from '../src/record-file.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -28,7 +29,7 @@ test('sampled generated paragraphs preserve source text through encoding and ren
   if(!catalog)return;
   const ids=['AB00001','AB00011','BB00151','BH00001','AB00292 (2)',...catalog.filter((r,i)=>i%1500===0).map(r=>r.id)];
   for(const id of new Set(ids)){
-    const record=await load(`data/${id}.json.gz`);
+    const record=await load(`data/${recordFilename(id)}`);
     for(const [lang,folder] of [['en','translated_texts - copy'],['original','original_texts - copy']]){
       let bytes;try{bytes=await fs.readFile(path.join(root,folder,id+'.txt'));}catch{assert.equal(record[lang].paragraphs.length,0);continue;}
       let text;try{text=new TextDecoder('utf-8',{fatal:true}).decode(bytes);}catch{text=new TextDecoder('windows-1252').decode(bytes);}
@@ -45,7 +46,7 @@ async function search(language,query){
 test('actual compressed indices find sampled phrases and honor whole words',async()=>{
   if(!catalog)return;
   for(const id of ['AB00001','BH00001','BB00151']){
-    const record=await load(`data/${id}.json.gz`);
+    const record=await load(`data/${recordFilename(id)}`);
     for(const language of ['en','original']){
       const part=record[language].paragraphs.find(p=>tokenize(p.plain).length>=8);if(!part)continue;
       const words=tokenize(part.plain).slice(2,7),query='"'+words.join(' ')+'"';
@@ -54,7 +55,15 @@ test('actual compressed indices find sampled phrases and honor whole words',asyn
   }
   assert.deepEqual(await search('en','nonexistentword987zyx'),[]);
   const matches=await search('en','"the love of god"');assert.ok(matches.length>10);
-  for(const id of matches.slice(0,15)){const record=await load(`data/${id}.json.gz`);assert.ok([...record.en.paragraphs,...record.en.notes].some(p=>(' '+tokenize(p.plain).join(' ')+' ').includes(' the love of god ')));}
+  for(const id of matches.slice(0,15)){const record=await load(`data/${recordFilename(id)}`);assert.ok([...record.en.paragraphs,...record.en.notes].some(p=>(' '+tokenize(p.plain).join(' ')+' ').includes(' the love of god ')));}
+});
+test('case-distinct catalogue identities have separate generated records',async()=>{
+  if(!catalog)return;
+  const filenames=catalog.map(r=>recordFilename(r.id).toLowerCase());assert.equal(new Set(filenames).size,catalog.length);
+  for(const id of ['BH05388','bh05388','BH03974x']){
+    const expected=catalog.find(r=>r.id===id);assert.ok(expected);
+    const record=await load('data/'+recordFilename(id));assert.equal(record.id,id);assert.equal(record.hasEnglish,expected.hasEnglish);assert.equal(Boolean(record.en.paragraphs.length),expected.hasEnglish);
+  }
 });
 test('build remains inside GitHub Pages size limit and shards are bounded',async()=>{
   if(!catalog)return;

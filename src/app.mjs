@@ -1,3 +1,4 @@
+import {recordFilename} from './record-file.mjs';
 import {citationCount} from './citations.mjs';
 import {escapeHtml as esc,normalize,tokenize,parseQuery,matchRanges} from './text.mjs';
 import {loadCompressed} from './data.mjs';
@@ -31,9 +32,9 @@ function readMetadataFilters(params){
   for(const [old,key] of [['volume','volume'],['date','date'],['addressee','recipient'],['place','place']])if(params.has(old)&&!clean[key]){const value=params.get(old);if(value)clean[key]=value==='[missing]'?{presence:'missing'}:old==='volume'?{values:[value]}:{text:value};}
   return clean;
 }
-function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
+function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',passage:params.get('passage')||'',subject:params.get('subject')||'',filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
 let state=stateFromUrl();
-function urlFor(next){const params=new URLSearchParams();if(next.query)params.set('q',next.query);for(const key of filters)if(next.filters[key])params.set(key,next.filters[key]);if(Object.keys(next.metadataFilters||{}).length)params.set('mf',JSON.stringify(next.metadataFilters));if(next.sort!=='citations')params.set('sort',next.sort);if(next.page>1)params.set('page',next.page);if(next.id)params.set('id',next.id);return `${location.pathname}${params.size?'?'+params:''}`;}
+function urlFor(next){const params=new URLSearchParams();if(next.query)params.set('q',next.query);for(const key of filters)if(next.filters[key])params.set(key,next.filters[key]);if(Object.keys(next.metadataFilters||{}).length)params.set('mf',JSON.stringify(next.metadataFilters));if(next.sort!=='citations')params.set('sort',next.sort);if(next.page>1)params.set('page',next.page);if(next.id)params.set('id',next.id);if(next.id&&next.passage)params.set('passage',next.passage);if(next.id&&next.subject)params.set('subject',next.subject);return `${location.pathname}${params.size?'?'+params:''}`;}
 function updateUrl(replace=false){history[replace?'replaceState':'pushState']({},'',urlFor(state));}
 function syncControls(){
   $('query').value=state.query;$('sort').value=state.sort;
@@ -81,7 +82,7 @@ function renderResults(data){
 async function getRecord(id){
   if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error('Invalid text ID. Use a filename such as BH00001.');
   if(recordCache.has(id))return recordCache.get(id);
-  const promise=loadCompressed(new URL(`data/${encodeURIComponent(id)}.json.gz`,datasetBase)).catch(error=>{recordCache.delete(id);throw error;});
+  const promise=loadCompressed(new URL(`data/${encodeURIComponent(recordFilename(id))}`,datasetBase)).catch(error=>{recordCache.delete(id);throw error;});
   recordCache.set(id,promise);if(recordCache.size>30)recordCache.delete(recordCache.keys().next().value);return promise;
 }
 async function loadExcerpts(rows,searchId){
@@ -113,6 +114,16 @@ function paragraphHtml(part,i,language){return `<div class="paragraph-cell ${lan
 function notesHtml(record){if(!record.en.notes.length&&!record.original.notes.length)return '';return `<section class="footnotes" aria-label="Footnotes"><h2>Notes</h2>${['en','original'].map(lang=>record[lang].notes.length?`<div class="${lang==='en'?'english':'original'}-notes" dir="${lang==='en'?'ltr':'rtl'}"><h3>${lang==='en'?'English translation':'فارسی / العربية'}</h3><ol>${record[lang].notes.map(note=>`<li id="note-${lang}-${note.number}">${note.html} <a href="#ref-${lang}-${note.number}" aria-label="Return to footnote ${note.number}">↩</a></li>`).join('')}</ol></div>`:'').join('')}</section>`;}
 let visibleParagraphs=100;
 let readerMatches=[],matchCursor=-1;
+let selectedPassage=null;
+function highlightPassage(){
+  if(!selectedPassage||selectedPassage.source!==reading?.id)return;
+  for(const range of selectedPassage.ranges){
+    const element=document.querySelector(`#p-en-${range.paragraph} > p`);if(!element)continue;
+    const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('sup')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT}),nodes=[];let offset=0;
+    while(walker.nextNode()){const node=walker.currentNode;nodes.push({node,offset});offset+=node.textContent.length;}
+    for(const {node,offset} of nodes){const text=node.textContent,a=Math.max(0,range.start-offset),b=Math.min(text.length,range.end-offset);if(b<=a||node.parentElement.closest('mark'))continue;const fragment=document.createDocumentFragment(),mark=document.createElement('mark');mark.className='subject-highlight';mark.textContent=text.slice(a,b);fragment.append(text.slice(0,a),mark,text.slice(b));node.replaceWith(fragment);}
+  }
+}
 function collectReadingMatches(record){
   const groups=parseQuery(state.query);
   if(!groups.length||state.query.replace(/\.txt$/i,'').toUpperCase()===record.id.toUpperCase())return [];
@@ -157,26 +168,30 @@ function renderReading(){
   if($('more-paragraphs'))$('more-paragraphs').onclick=()=>{visibleParagraphs+=100;renderReading();};
   applyReadingPreferences();
   highlightReading();
+  highlightPassage();
 }
 function applyReadingPreferences(){const view=$('reading-view');if(!view)return;view.dataset.mode=preferences.mode;view.style.setProperty('--scale',preferences.scale);document.querySelectorAll('[data-mode-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.modeButton===preferences.mode)));$('size-label').textContent=`${Math.round(preferences.scale*100)}%`;$('size-down').disabled=preferences.scale<=.85;$('size-up').disabled=preferences.scale>=1.35;}
 async function openReader(id,{push=true}={}){
-  id=id.replace(/\.txt$/i,'').toUpperCase();state.id=id;if(push)updateUrl();const token=++readerRequest;
+  id=id.replace(/\.txt$/i,'');if(push){state.passage='';state.subject='';}state.id=id;if(push)updateUrl();const token=++readerRequest;
   $('collection').hidden=true;$('reader').hidden=false;$('reader-id').textContent=id;$('reader-content').innerHTML='<div class="loading-state"><div class="loading-line"></div><p>Opening text…</p></div>';window.scrollTo(0,0);
   try{
-    const record=await getRecord(id);if(token!==readerRequest)return;reading=record;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;
+    const record=await getRecord(id);if(token!==readerRequest)return;reading=record;selectedPassage=null;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;
+    const passageId=new URLSearchParams(location.search).get('passage');
+    if(passageId){if(!/^[a-f\d]{24}$/.test(passageId))throw Error('Invalid passage ID');const passage=await loadCompressed(new URL(`subjects/passages/${passageId}.json.gz`,datasetBase));if(token!==readerRequest)return;if(passage.source!==record.id||passage.version!==record.enVersion)throw Error('Passage source version has changed; reopen the subject to locate the current selection.');selectedPassage=passage;visibleParagraphs=Math.max(100,...passage.ranges.map(r=>Math.ceil(r.paragraph/100)*100));}
     const title=record.title||(record.addressee?`To ${record.addressee}`:record.id);
     document.title=`${record.id} · ${title} — Partial Inventory browser`;
     const extra=[['Citation count',String(citationCount(record.metadata))],...metadataFields.map(field=>[field.name,record.metadata[field.name]||''])];
     const notice=record.paired?'Paragraphs paired by source order. Matching paragraph counts do not certify alignment.':record.hasOriginal&&record.hasEnglish?`Paragraph counts differ (${record.en.paragraphs.length} English / ${record.original.paragraphs.length} original). Each language follows its own source order.`:'This record does not have both language versions available.';
     $('reader-content').innerHTML=`<header class="reader-header"><div class="eyebrow">${esc(record.id)}${record.volume?' · Volume '+esc(record.volume):''}</div><h1 id="reader-title" tabindex="-1">${esc(title)}</h1><div class="reader-author">${esc(record.author)}</div><dl class="reader-metadata">${metadataValue('Date',record.date)}${metadataValue('Recipient',record.addressee)}${metadataValue('Place',record.place)}</dl>${extra.length?`<details class="source-details"><summary>Catalogue details &amp; source notes</summary><dl>${extra.map(([key,value])=>`<dt>${esc(key)}</dt><dd>${value?catalogueValue(key,value):'<span class="metadata-missing">Not recorded</span>'}</dd>`).join('')}</dl></details>`:''}</header><div class="reader-controls"><div class="segmented" role="group" aria-label="Reading language"><button data-mode-button="parallel" aria-pressed="true">Parallel</button><button data-mode-button="en" aria-pressed="false">English</button><button data-mode-button="original" aria-pressed="false">Original</button></div><div class="type-controls" role="group" aria-label="Text size"><button id="size-down" aria-label="Decrease text size">A−</button><span id="size-label">100%</span><button id="size-up" aria-label="Increase text size">A+</button></div></div><p class="alignment-note">${notice}</p><div id="reading-view" class="reading-view" data-mode="parallel"><div class="language-headings"><span class="english-heading">English translation</span><span class="original-heading">Original · فارسی / العربية</span></div><article class="reading-paper" aria-label="Text and translation"><div id="reading-paragraphs"></div><div id="reading-more" class="load-more-reading"></div>${notesHtml(record)}</article></div><div class="reader-end" aria-label="End of text">❧</div>`;
     renderReading();
+    if(selectedPassage){const subjectId=new URLSearchParams(location.search).get('subject')||selectedPassage.subjects[0];const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<a href="./subjects.html?subject=${encodeURIComponent(subjectId)}">← Return to subject</a><span>Selected wording highlighted · ${selectedPassage.ranges.length} source ranges</span>`;document.querySelector('.reader-controls').after(bar);}
     if(readerMatches.length){const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<span>Search: <strong>${esc(state.query)}</strong></span><span id="match-label">${readerMatches.length} matching passages</span><button class="text-button" id="next-match">Next match ↓</button>`;document.querySelector('.reader-controls').after(bar);$('next-match').onclick=nextMatch;}
     document.querySelectorAll('[data-mode-button]').forEach(button=>button.onclick=()=>{preferences.mode=button.dataset.modeButton;savePreferences();applyReadingPreferences();});
     $('size-down').onclick=()=>{preferences.scale=Math.max(.85,Math.round((preferences.scale-.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('size-up').onclick=()=>{preferences.scale=Math.min(1.35,Math.round((preferences.scale+.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('reader-title').focus({preventScroll:true});
-    jumpToHash();
-  }catch(error){if(token!==readerRequest)return;$('reader-content').innerHTML=`<div class="empty-state"><h1 id="reader-title">Text unavailable</h1><p>We couldn’t open ${esc(id)}. Check the ID and your connection.</p><button class="secondary" id="retry-reader">Try again</button></div>`;$('retry-reader').onclick=()=>openReader(id,{push:false});}
+    jumpToHash();if(selectedPassage)document.getElementById(`p-en-${selectedPassage.ranges[0].paragraph}`)?.scrollIntoView({block:'center'});
+  }catch(error){if(token!==readerRequest)return;$('reader-content').innerHTML=`<div class="empty-state"><h1 id="reader-title">Text unavailable</h1><p>We couldn’t open ${esc(id)}. Check the ID and your connection.</p><p>${esc(error.message)}</p><button class="secondary" id="retry-reader">Try again</button></div>`;$('retry-reader').onclick=()=>openReader(id,{push:false});}
 }
 function jumpToHash(){
   if(!location.hash)return;
