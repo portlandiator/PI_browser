@@ -75,9 +75,9 @@ self.onmessage=async({data})=>{
       const summary=facetSummary(values,rows.map(row=>row.doc),{query:data.optionQuery||'',limit:Math.min(500,data.limit||40),selected:data.metadataFilters?.[data.field]?.values||[]});
       self.postMessage({type,requestId,field:data.field,...summary});return;
     }
-    const {sort='id',page=1}=data;
+    const {sort='citations',page=1}=data;
     const rows=await filteredResults(data);
-    rows.sort((a,b)=>sort==='title'?(a.title||a.excerpt||a.id).localeCompare(b.title||b.excerpt||b.id):sort==='volume'?(Number(a.volume||99999)-Number(b.volume||99999)||a.id.localeCompare(b.id)):sort==='date'?(a.date?b.date?a.date.localeCompare(b.date,undefined,{numeric:true}):-1:b.date?1:a.id.localeCompare(b.id)):a.id.localeCompare(b.id));
+    rows.sort((a,b)=>sort==='citations'?((b.citationCount??0)-(a.citationCount??0)||a.id.localeCompare(b.id)):sort==='volume'?(Number(a.volume||99999)-Number(b.volume||99999)||a.id.localeCompare(b.id)):sort==='date'?(a.date?b.date?a.date.localeCompare(b.date,undefined,{numeric:true}):-1:b.date?1:a.id.localeCompare(b.id)):a.id.localeCompare(b.id));
     const total=rows.length,lastPage=Math.max(1,Math.ceil(total/20)),current=Math.max(1,Math.min(page,lastPage));
     self.postMessage({type,requestId,total,page:current,pages:lastPage,rows:rows.slice((current-1)*20,current*20)});
   }catch(error){self.postMessage({type:'error',operation:type,field:data.field,requestId,message:error.message});}
