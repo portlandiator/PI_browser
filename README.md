@@ -20,6 +20,8 @@ Open http://localhost:4173/PI_browser/. The server deliberately tests the same p
 
 ## Features
 
+- **Catalog view** retains the existing search and metadata filters. **Subject view** browses the 661 CSV subject entries, selected source passages, optional originals, and a local subject graph. See [SUBJECTS.md](SUBJECTS.md) for the reproducible import, matching evidence, editorial workflow, and limitations.
+
 - Whole-word search in English, Persian/Arabic, or both; quoted exact phrases.
 - All query terms must occur in the same language version. Diacritics, Arabic/Persian yeh and kaf variants, and Persian/Arabic digits are normalized for search only. There is no stemming or fuzzy matching.
 - Exact filename IDs, including `.txt` and duplicate-file suffixes, are supported.

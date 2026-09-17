@@ -1,3 +1,4 @@
+import {recordFilename} from '../src/record-file.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -18,7 +19,7 @@ test('all metadata columns preserve the full CSV in catalogue order',()=>{
 });
 test('PIN joins preserve raw rich metadata and current catalogue aliases',()=>{
  for(const id of ['AB00016','BH00386','AB00001','BB00001']){
- const record=load('data/'+id+'.json.gz'),row=byId.get(id);
+ const record=load('data/'+recordFilename(id)),row=byId.get(id);
  assert.deepEqual(record.metadata,row);assert.equal(record.volume,row.Volume);assert.equal(record.addressee,row.Recipient);assert.equal(record.date,row.Date);
  }
 });

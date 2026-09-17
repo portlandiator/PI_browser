@@ -1,5 +1,13 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
+import {recordFilename} from '../src/record-file.mjs';
+
+test('generated filenames preserve case-distinct source IDs on Windows',()=>{
+  const ids=['BH05388','bh05388','BH03974x','BH03974X','MAF0001 trans','BH03636_start'];
+  assert.equal(new Set(ids.map(id=>recordFilename(id).toLowerCase())).size,ids.length);
+  assert.equal(recordFilename('BH05388'),'BH05388.json.gz');
+  assert.equal(recordFilename('bh05388'),'~62~6805388.json.gz');
+});
 import {parseCsv,parseText,renderInline,normalize,tokenize,packPosting,unpackPosting,matchPostings,parseQuery,shardKey,matchRanges} from '../src/text.mjs';
 
 test('CSV preserves quoted commas, escaped quotes, and multiline metadata',()=>{

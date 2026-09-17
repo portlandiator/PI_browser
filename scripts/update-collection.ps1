@@ -53,6 +53,9 @@ try {
     $stage = Join-Path $root ('.qa/update-' + [Guid]::NewGuid().ToString('N'))
     New-Item -ItemType Directory -Path $stage | Out-Null
     foreach ($folder in @('src','scripts','tests')) { Copy-Item -LiteralPath (Join-Path $root $folder) -Destination $stage -Recurse }
+    New-Item -ItemType Directory -Force -Path (Join-Path $stage 'data') | Out-Null
+    foreach ($file in @('subject-edits.json','subjects-snapshot.json.gz','subject-source-exceptions.json')) { Copy-Item -LiteralPath (Join-Path $root ('data/' + $file)) -Destination (Join-Path $stage 'data') }
+    Copy-Item -LiteralPath (Join-Path $root '14-colors_and_hyperlinks.csv') -Destination $stage
     Copy-Item -LiteralPath (Join-Path $root 'pdf_volumes - copy') -Destination $stage -Recurse
     Run $python @((Join-Path $root 'scripts/archive-sources.py'),'--output',(Join-Path $stage 'data/collection.tar.gz'))
     Write-Host "`n3/5 Building and testing the exact upload snapshot..." -ForegroundColor Cyan
@@ -65,8 +68,9 @@ try {
     # Only tested snapshot files are committed; source folders are never edited.
     Copy-Item -LiteralPath (Join-Path $stage 'data/collection.tar.gz') -Destination (Join-Path $root 'data/collection.tar.gz')
     Copy-Item -LiteralPath (Join-Path $stage 'build-report.json') -Destination (Join-Path $root 'build-report.json')
+    Copy-Item -LiteralPath (Join-Path $stage 'subject-import-report.json') -Destination (Join-Path $root 'subject-import-report.json')
     Write-Host "`n4/5 Uploading the complete source archive..." -ForegroundColor Cyan
-    Run $git @('-C',$root,'add','--','data/collection.tar.gz','build-report.json','pdf_volumes - copy')
+    Run $git @('-C',$root,'add','--','data/collection.tar.gz','build-report.json','subject-import-report.json','pdf_volumes - copy')
     $account = (Run $gh @('api','user') | Out-String | ConvertFrom-Json)
     Run $git @('-C',$root,'-c',('user.name='+$account.login),'-c',('user.email='+$account.id+'+'+$account.login+'@users.noreply.github.com'),'commit','-m',('Refresh collection sources '+(Get-Date -Format 'yyyy-MM-dd HH:mm')))
     $sha = Run $git @('-C',$root,'rev-parse','HEAD')
