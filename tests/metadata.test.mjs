@@ -31,6 +31,17 @@ test('facet counts use candidate documents and retain zero-count selections',()=
   assert.deepEqual(Object.fromEntries(summary.options.map(x=>[x.value,x.count])),{mixed:0,Ara:1,Per:1});
   assert.equal(facetSummary(values,[0,1,2,3,4],{query:'pe'}).options[0].count,2);
 });
+
+test('explicit facet order survives counts, searching, limits, and zero-count selections',()=>{
+  const values=['Akka','Akka','Maku?','Shiraz','Maku'];
+  const order=['Shiraz','Maku','Akka','Unknown'];
+  const summary=options=>facetSummary(values,[0,1,2,3,4],{order,...options}).options;
+  assert.deepEqual(summary().map(x=>x.value),['Shiraz','Maku','Maku?','Akka']);
+  assert.deepEqual(summary({query:'maku'}).map(x=>x.value),['Maku','Maku?']);
+  assert.deepEqual(summary({limit:2,selected:['Unknown','Akka']}).map(x=>x.value),['Shiraz','Maku','Akka','Unknown']);
+  assert.equal(summary({selected:['Unknown']}).at(-1).count,0);
+  assert.equal(facetSummary(values,[0,1,2,3,4]).options[0].value,'Akka');
+});
 const metadataFolder=new URL('../metadata - copy/',import.meta.url);
 const files=fs.readdirSync(metadataFolder).filter(n=>n.endsWith('.csv'));
 const rows=parseCsv(fs.readFileSync(new URL(files[0],metadataFolder),'utf8'));

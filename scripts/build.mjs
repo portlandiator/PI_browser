@@ -37,6 +37,7 @@ for(const filename of metadataFiles){
   requireCompletePeriodRenaming(periods.report);
   if(!rows.length||!Object.hasOwn(rows[0],'PIN'))throw new Error('Enhanced metadata must contain a PIN column.');
   schema=describeFields(rows);report.metadataFields=schema.map(field=>field.name);
+  schema.find(field=>field.name==='Period').valueOrder=[...new Set(periodMapping.rows.map(row=>metadataSearchText(row.New)))];
   for(const row of rows){
     if(!/^[\w-]+$/.test(row.PIN))throw new Error(`Unsafe PIN: ${row.PIN}`);
     if(metadata.has(row.PIN)){report.duplicateMetadata.push(row.PIN);throw new Error(`Duplicate metadata ${row.PIN}`);}
