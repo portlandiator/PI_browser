@@ -50,6 +50,18 @@ function linkifyText(value){
 }
 const anchor=(url,label)=>`<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label||url)}</a>`;
 export const renderMetadata=value=>metadataParts(value).map(part=>part.url?anchor(part.url,part.text):linkifyText(part.text)).join('');
+export function renderReferenceList(value){
+  // Clean separators only after safe rendering, protecting complete links:
+  // commas inside link labels and destinations are part of their content.
+  const parts=renderMetadata(value).split(/(<a\b[^>]*>[\s\S]*?<\/a>)/gi);
+  return parts.map((part,i)=>{
+    if(i%2)return part;
+    let text=part.replace(/,(?:\s*,)+/g,',');
+    if(i===0)text=text.replace(/^\s*(?:,\s*)+/,'');
+    if(i===parts.length-1)text=text.replace(/(?:,\s*)+$/,'');
+    return text;
+  }).join('').trim();
+}
 export const metadataPlain=value=>metadataParts(value).map(part=>part.text).join('');
 export const metadataSearchText=value=>metadataParts(value).map(part=>part.text+(part.url?' '+part.url:'')).join('');
 export const fieldKey=name=>name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
