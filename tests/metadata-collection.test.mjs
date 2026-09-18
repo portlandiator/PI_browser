@@ -26,3 +26,13 @@ test('PIN joins preserve rich metadata, original Period provenance, and catalogu
  assert.deepEqual(record.metadata,row);assert.equal(record.metadataOriginalValues?.Period||record.metadata.Period,rawById.get(id).Period);assert.equal(record.volume,row.Volume);assert.equal(record.addressee,row.Recipient);assert.equal(record.date,row.Date);
  }
 });
+
+test('every nonempty imported Period changes and no old Period code remains in facets',()=>{
+ const values=load('facets/period.json.gz');
+ for(let i=0;i<catalog.length;i++){
+  const original=rawById.get(catalog[i].id)?.Period||'';
+  if(!original)continue;
+  assert.notEqual(values[i],metadataSearchText(original),catalog[i].id);
+  assert.ok(!/^[A-Z]-/.test(values[i]),catalog[i].id+': '+values[i]);
+ }
+});

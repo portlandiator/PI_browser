@@ -9,7 +9,7 @@ import {buildSubjects} from './build-subjects.mjs';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
 import {citationCount} from '../src/citations.mjs';
-import {parsePeriodRenaming,renamePeriods} from './period-renaming.mjs';
+import {parsePeriodRenaming,renamePeriods,requireCompletePeriodRenaming} from './period-renaming.mjs';
 import {buildVolumes} from './build-volumes.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -34,6 +34,7 @@ for(const filename of metadataFiles){
   report.metadataFile=filename;
   let rows=parseCsv(await readText(path.join(root,sources[2],filename)));
   const periods=renamePeriods(rows,periodMapping);rows=periods.rows;metadataOriginalValues=periods.originalValues;report.periodRenaming=periods.report;
+  requireCompletePeriodRenaming(periods.report);
   if(!rows.length||!Object.hasOwn(rows[0],'PIN'))throw new Error('Enhanced metadata must contain a PIN column.');
   schema=describeFields(rows);report.metadataFields=schema.map(field=>field.name);
   for(const row of rows){

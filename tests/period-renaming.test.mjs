@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parsePeriodRenaming,renamePeriods} from '../scripts/period-renaming.mjs';
+import {parsePeriodRenaming,renamePeriods,requireCompletePeriodRenaming} from '../scripts/period-renaming.mjs';
 
 test('Period replacements preserve uncertainty, untouched fields, and imported values',()=>{
   const mapping=parsePeriodRenaming('Old,New\r\nC-Maku,Maku (1847)\r\nG-‘Akka,Akka (1868-1892)\r\n');
@@ -14,6 +14,8 @@ test('Period replacements preserve uncertainty, untouched fields, and imported v
   assert.equal(result.report.changed,2);
   assert.deepEqual(result.report.unmapped,{"G-'Akka":1});
   assert.equal(result.rows[3].Period,'');
+  assert.throws(()=>requireCompletePeriodRenaming(result.report),/still unchanged/);
+  assert.doesNotThrow(()=>requireCompletePeriodRenaming({unmapped:{}}));
 });
 
 test('Period mapping is literal and simultaneous, and rejects ambiguous mapping files',()=>{

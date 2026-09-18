@@ -26,3 +26,7 @@ export function renamePeriods(rows,mapping){
   });
   return {rows:renamed,originalValues,report:{file:'period_renaming.csv',mappings:mapping.rows,changed,unmapped:Object.fromEntries(unmapped)}};
 }
+
+export function requireCompletePeriodRenaming(report){
+  if(Object.keys(report.unmapped).length)throw Error(`Period values still unchanged; update period_renaming.csv: ${JSON.stringify(report.unmapped)}`);
+}
