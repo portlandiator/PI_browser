@@ -213,9 +213,6 @@ for(const [id,delta] of [['prev-page',-1],['next-page',1]])$(id).onclick=()=>{st
 $('filter-toggle').onclick=()=>{const expanded=$('filter-fields').classList.toggle('expanded');$('filter-toggle').setAttribute('aria-expanded',String(expanded));$('filter-toggle').lastElementChild.textContent=expanded?'−':'+';};
 $('back-results').onclick=backToCollection;
 $('copy-link').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('Link copied');}catch{toast('Copy the link from your browser’s address bar.');}};
-for(const id of ['about-open','footer-about'])$(id).onclick=()=>$('about-dialog').showModal();
-$('about-close').onclick=()=>$('about-dialog').close();
-$('about-dialog').onclick=event=>{if(event.target===$('about-dialog')){const rect=event.target.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)event.target.close();}};
 window.addEventListener('popstate',()=>{const next=stateFromUrl();if(urlFor(next)===urlFor(state)){jumpToHash();return;}state=next;syncControls();if(state.id)openReader(state.id,{push:false});else{showCollection();runSearch();}});
 window.addEventListener('hashchange',jumpToHash);
 document.addEventListener('click',event=>{const link=event.target.closest('a[href^="#"]');if(link&&reading){const hash=link.getAttribute('href');if(hash.startsWith('#ref-')&&!document.querySelector(hash)){visibleParagraphs=Math.max(reading.en.paragraphs.length,reading.original.paragraphs.length);renderReading();}}});
