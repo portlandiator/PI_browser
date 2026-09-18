@@ -6,3 +6,5 @@
 
 .provenance-raw{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.6 monospace}
 #subject-content{min-width:0}
+
+.subject-section h3{font-size:18px;line-height:1.4;font-weight:600;color:var(--ink);margin:24px 0 10px;padding:12px 0 0;border-top:1px solid var(--rule)}.subject-section:first-child h3{margin-top:8px;border-top:0;padding-top:0}

@@ -40,7 +40,7 @@ function syncControls(){
   $('query').value=state.query;$('sort').value=state.sort;
   for(const key of filters){if($(key).tagName==='SELECT'&&state.filters[key]&&![...$(key).options].some(o=>o.value===state.filters[key]))$(key).add(new Option(state.filters[key],state.filters[key]));$(key).value=state.filters[key];}
   $('query-clear').hidden=!state.query;
-  facetPanel?.sync(true);
+  facetPanel?.sync();
 }
 function toast(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,2800);}
 function showError(container,message,retry){container.innerHTML=`<div class="empty-state"><h3>We couldn’t open this just yet.</h3><p>${esc(message)}</p><button class="secondary" data-retry>Try again</button></div>`;container.querySelector('[data-retry]').onclick=retry;}
