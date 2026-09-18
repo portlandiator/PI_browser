@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {parseCsv} from '../src/text.mjs';
-import {sourceExternalUrl,metadataParts,renderMetadata,metadataSearchText,safeExternalUrl,describeFields,matchesMetadata,facetSummary} from '../src/metadata.mjs';
+import {sourceExternalUrl,metadataParts,renderMetadata,renderReferenceList,metadataSearchText,safeExternalUrl,describeFields,matchesMetadata,facetSummary} from '../src/metadata.mjs';
 
 test('metadata retains link labels, query strings and fragments safely',()=>{
   const source='See <a href="https://example.org/book?a=1&amp;b=2#page=8" onclick="bad()"><em>Source A</em></a>, https://example.org/other.';
@@ -30,6 +30,16 @@ test('facet counts use candidate documents and retain zero-count selections',()=
   assert.equal(summary.present,2);assert.equal(summary.missing,1);
   assert.deepEqual(Object.fromEntries(summary.options.map(x=>[x.value,x.count])),{mixed:0,Ara:1,Per:1});
   assert.equal(facetSummary(values,[0,1,2,3,4],{query:'pe'}).options[0].count,2);
+});
+
+test('reference lists remove empty separators without altering links or their commas',()=>{
+  const link='<a href="https://example.org/a,b?q=x,,y">Book, section 2</a>';
+  const source=' , '+link+', ,  Plain reference,  ,\n Last reference, ,  ';
+  const html=renderReferenceList(source);
+  assert.equal(html,renderMetadata(link)+',  Plain reference,\n Last reference');
+  assert.equal(renderReferenceList(' , ,  '),'');
+  assert.equal(renderReferenceList(link+', , '),renderMetadata(link));
+  assert.ok(!renderReferenceList('<a href="javascript:bad()">Bad</a>, ,').includes('<a '));
 });
 
 test('explicit facet order survives counts, searching, limits, and zero-count selections',()=>{
