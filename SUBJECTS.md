@@ -67,8 +67,8 @@ The first three real subjects were used for the prototype. Manually inspected ex
 Push tested changes to the existing repository's `main` branch. The existing GitHub Pages workflow builds offline from the versioned corpus and subject snapshot, tests the output, and deploys `dist/`. Query-string links and relative assets work under `/PI_browser/`. The Windows source updater carries the subject snapshot and edits into its validation build. It does not refresh remote subject selections automatically. Keep the total published artifact below the collection test's 1 GB bound.
 # Subject directory order
 
-The directory offers alphabetical order (default) and canonical order from
-`subjects - reference.docx`. The `order=canonical` URL parameter survives subject
+The directory offers alphabetical order (default) and Thematic order from
+`subjects - reference.docx`. The `order=thematic` URL parameter (and legacy `order=canonical` links) survives subject
 navigation and browser history. All subject labels retain their CSV text color
 on the same light paper background.
 
@@ -78,6 +78,6 @@ After updating the reference document, run
 paragraphs in order, matches names after Unicode normalization and removal of
 punctuation/spacing, and fails if any CSV subject is missing. It preserves the
 exact CSV names, retains both punctuation variants in CSV order at their shared
-reference position, and ignores document headings and entries absent from the
+reference position, and imports the 19 main document headings as unlinked sections and ignores entries absent from the
 authoritative CSV. The JSON records the reference file's SHA-256 digest; ordinary
 site builds copy this small asset without requiring Word or PowerShell.
