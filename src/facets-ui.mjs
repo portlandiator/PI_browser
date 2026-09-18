@@ -14,7 +14,6 @@ export class FacetPanel {
     for(const field of fields){
       const root=this.node(field.key),key=field.key;
       root.ontoggle=()=>{if(root.open)this.load(key);};
-      root.querySelector('[data-presence]').onchange=event=>{const presence=event.target.value;this.change(key,presence==='missing'?{presence}:{...this.getFilters()[key],presence},true);};
       const text=root.querySelector('[data-filter-text]');
       if(text)text.oninput=()=>this.change(key,{...this.getFilters()[key],text:text.value},false);
       const optionSearch=root.querySelector('[data-option-search]');
@@ -29,14 +28,13 @@ export class FacetPanel {
   node(key){return this.container.querySelector(`[data-field="${key}"]`);}
   fieldMarkup(field){
     const key=field.key;
-    return `<details class="metadata-facet" data-field="${key}" ><summary><span>${esc(field.name)}</span><span class="facet-selected" data-selected></span></summary><div class="facet-body"><label class="sr-only" for="presence-${key}">${esc(field.name)} availability</label><select id="presence-${key}" data-presence><option value="">Any record</option><option value="present">Recorded</option><option value="missing">Not recorded</option></select>${field.kind==='categorical'?`<label class="sr-only" for="options-${key}">Find ${esc(field.name)} values</label><input id="options-${key}" data-option-search type="search" placeholder="Find a value…" autocomplete="off"><div class="facet-options" data-facet-options aria-label="${esc(field.name)} values"><p class="facet-status">Open to load values.</p></div>`:field.kind==='number'?`<div class="facet-range"><label for="min-${key}">Minimum<input id="min-${key}" data-bound="min" type="number" min="0" step="1" placeholder="Any"></label><span aria-hidden="true">–</span><label for="max-${key}">Maximum<input id="max-${key}" data-bound="max" type="number" min="0" step="1" placeholder="Any"></label></div><p class="facet-help">Uses the supplied word count. Unknown counts are excluded from ranges.</p>`:`<label class="sr-only" for="text-${key}">Search ${esc(field.name)}</label><input id="text-${key}" data-filter-text type="search" dir="auto" placeholder="Contains…" autocomplete="off"><p class="facet-help">${['manuscripts','publications','translations','musical-interpretations','notes'].includes(key)?'Search reference text or a link address.':'Matches text in this metadata field.'}</p>`}<div class="facet-bottom"><span data-facet-status class="facet-status">${field.populated?field.populated.toLocaleString()+' recorded':'Not populated in this file'}</span><button class="text-button" data-clear-field type="button" aria-label="Clear ${esc(field.name)} filter">Clear</button></div></div></details>`;
+    return `<details class="metadata-facet" data-field="${key}" ><summary><span>${esc(field.name)}</span><span class="facet-selected" data-selected></span></summary><div class="facet-body">${field.kind==='categorical'?`<label class="sr-only" for="options-${key}">Find ${esc(field.name)} values</label><input id="options-${key}" data-option-search type="search" placeholder="Find a value…" autocomplete="off"><div class="facet-options" data-facet-options aria-label="${esc(field.name)} values"><p class="facet-status">Open to load values.</p></div>`:field.kind==='number'?`<div class="facet-range"><label for="min-${key}">Minimum<input id="min-${key}" data-bound="min" type="number" min="0" step="1" placeholder="Any"></label><span aria-hidden="true">–</span><label for="max-${key}">Maximum<input id="max-${key}" data-bound="max" type="number" min="0" step="1" placeholder="Any"></label></div><p class="facet-help">Uses the supplied word count. Unknown counts are excluded from ranges.</p>`:`<label class="sr-only" for="text-${key}">Search ${esc(field.name)}</label><input id="text-${key}" data-filter-text type="search" dir="auto" placeholder="Contains…" autocomplete="off"><p class="facet-help">${['manuscripts','publications','translations','musical-interpretations','notes'].includes(key)?'Search reference text or a link address.':'Matches text in this metadata field.'}</p>`}<div class="facet-bottom"><span data-facet-status class="facet-status">${field.populated?field.populated.toLocaleString()+' recorded':'Not populated in this file'}</span><button class="text-button" data-clear-field type="button" aria-label="Clear ${esc(field.name)} filter">Clear</button></div></div></details>`;
   }
   change(key,value,immediate){const next={...this.getFilters()};if(hasFilter(value))next[key]=value;else delete next[key];this.onChange(next,immediate);this.sync();}
   sync(){
     for(const field of this.fields){
       const root=this.node(field.key),filter=this.getFilters()[field.key]||{};
       root.querySelector('[data-selected]').textContent=hasFilter(filter)?filter.values?.length||'•':'';
-      root.querySelector('[data-presence]').value=filter.presence||'';
       const text=root.querySelector('[data-filter-text]');if(text&&text.value!==(filter.text||''))text.value=filter.text||'';
       for(const bound of ['min','max']){const input=root.querySelector(`[data-bound="${bound}"]`);if(input&&input.value!==String(filter[bound]??''))input.value=filter[bound]??'';}
       for(const input of root.querySelectorAll('input[type=checkbox]'))input.checked=filter.values?.includes(input.value)||false;
@@ -48,8 +46,6 @@ export class FacetPanel {
   receive(data){
     const root=this.node(data.field);if(!root)return;
     if(data.type==='error'){root.querySelector('[data-facet-status]').textContent='Could not load values.';return;}
-    const presence=root.querySelector('[data-presence]');
-    presence.options[0].text=`Any record (${data.total.toLocaleString()})`;presence.options[1].text=`Recorded (${data.present.toLocaleString()})`;presence.options[2].text=`Not recorded (${data.missing.toLocaleString()})`;
     root.querySelector('[data-facet-status]').textContent=`${data.present.toLocaleString()} recorded · ${data.missing.toLocaleString()} missing`;
     const options=root.querySelector('[data-facet-options]');
     if(options){const selected=this.getFilters()[data.field]?.values||[];options.innerHTML=data.options.map(({value,count},i)=>`<label class="facet-option"><input type="checkbox" value="${esc(value)}" ${selected.includes(value)?'checked':''}><span dir="auto">${esc(value)}</span><span class="facet-count">${count.toLocaleString()}</span></label>`).join('')||'<p class="facet-status">No values match these filters.</p>';
