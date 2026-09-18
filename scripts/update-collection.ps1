@@ -56,6 +56,7 @@ try {
     New-Item -ItemType Directory -Force -Path (Join-Path $stage 'data') | Out-Null
     foreach ($file in @('subject-edits.json','subjects-snapshot.json.gz','subject-source-exceptions.json')) { Copy-Item -LiteralPath (Join-Path $root ('data/' + $file)) -Destination (Join-Path $stage 'data') }
     Copy-Item -LiteralPath (Join-Path $root '14-colors_and_hyperlinks.csv') -Destination $stage
+    Copy-Item -LiteralPath (Join-Path $root 'subjects - reference.docx') -Destination $stage
     Copy-Item -LiteralPath (Join-Path $root 'pdf_volumes - copy') -Destination $stage -Recurse
     Run $python @((Join-Path $root 'scripts/archive-sources.py'),'--output',(Join-Path $stage 'data/collection.tar.gz'))
     Write-Host "`n3/5 Building and testing the exact upload snapshot..." -ForegroundColor Cyan
