@@ -65,3 +65,19 @@ Add conceptual connections by choosing another subject, relationship type, statu
 The first three real subjects were used for the prototype. Manually inspected examples include BH11400 paragraph 1 (exact excerpt), BH00002 paragraph 12 (punctuation boundary), AB04760 paragraphs 1–3 (one excerpt spans three paragraphs), AB01183 paragraph 2 (translation wording differs, stays approximate), and ABU1737 (unmatched). A real repeated-wording example, “We testify that He is One…”, occurs in BH00005 paragraph 156 and BH00336 paragraph 14; both source files were checked and the selection remains ambiguous. `tests/subjects.test.mjs` exercises repeated text, Unicode/punctuation offsets, missing IDs, cross-paragraph matching, omissions, source citation parsing, and outline/cross-reference import. Generated-data tests validate all stored accepted ranges against actual source text and version hashes.
 
 Push tested changes to the existing repository's `main` branch. The existing GitHub Pages workflow builds offline from the versioned corpus and subject snapshot, tests the output, and deploys `dist/`. Query-string links and relative assets work under `/PI_browser/`. The Windows source updater carries the subject snapshot and edits into its validation build. It does not refresh remote subject selections automatically. Keep the total published artifact below the collection test's 1 GB bound.
+# Subject directory order
+
+The directory offers alphabetical order (default) and canonical order from
+`subjects - reference.docx`. The `order=canonical` URL parameter survives subject
+navigation and browser history. All subject labels retain their CSV text color
+on the same light paper background.
+
+After updating the reference document, run
+`powershell -File scripts/extract-subject-order.ps1` and commit the regenerated
+`src/subject-order.json` alongside the reference. The extractor reads document
+paragraphs in order, matches names after Unicode normalization and removal of
+punctuation/spacing, and fails if any CSV subject is missing. It preserves the
+exact CSV names, retains both punctuation variants in CSV order at their shared
+reference position, and ignores document headings and entries absent from the
+authoritative CSV. The JSON records the reference file's SHA-256 digest; ordinary
+site builds copy this small asset without requiring Word or PowerShell.
