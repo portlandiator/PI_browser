@@ -7,10 +7,10 @@ export class FacetPanel {
     this.limits=new Map();
     const preferred=['date','volume','recipient','place','language','period','word-count'];
     const ordered=[...fields].sort((a,b)=>{const x=preferred.indexOf(a.key),y=preferred.indexOf(b.key);return (x<0?100:x)-(y<0?100:y);});
-    container.innerHTML=`<div class="metadata-filter-heading"><h3>Metadata fields <span>${fields.length}</span></h3></div>${ordered.map(field=>this.fieldMarkup(field)).join('')}`;
+    container.innerHTML=`<div class="metadata-filter-heading"><h3>Refine search</h3></div>${ordered.map(field=>this.fieldMarkup(field)).join('')}`;
     const author=document.getElementById('author-field');
     container.insertBefore(author,container.querySelector('.metadata-facet'));
-    container.querySelector('h3 span').textContent=fields.length+1;
+    container.querySelector('.metadata-filter-heading').append(document.getElementById('reset-filters'));
     for(const field of fields){
       const root=this.node(field.key),key=field.key;
       root.ontoggle=()=>{if(root.open)this.load(key);};
