@@ -5,3 +5,4 @@
 .subject-graph text{stroke:none}.subject-heading:focus{outline:none}.subject-filters input[type=checkbox],.graph-controls input[type=checkbox]{width:18px;height:18px;min-height:0;accent-color:#203a32}.subject-filters label:has(input[type=checkbox]){flex-direction:row;align-items:center;min-height:40px}
 
 .provenance-raw{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.6 monospace}
+#subject-content{min-width:0}
