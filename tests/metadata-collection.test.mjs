@@ -16,7 +16,9 @@ const byId=new Map(rows.map(r=>[r.PIN,r]));
 const catalog=load('catalog.json.gz');
 test('all metadata columns preserve the CSV with supplied Period replacements in catalogue order',()=>{
  const fields=JSON.parse(fs.readFileSync(base+'/metadata-schema.json','utf8'));
- assert.deepEqual(fields,describeFields(rows));
+ const expected=describeFields(rows);
+ expected.find(field=>field.name==='Period').valueOrder=[...new Set(periodMapping.map(row=>metadataSearchText(row.New)))];
+ assert.deepEqual(fields,expected);
  for(const field of fields){const values=load('facets/'+field.key+'.json.gz');assert.deepEqual(values,catalog.map(r=>metadataSearchText(byId.get(r.id)?.[field.name]||'')),field.name);}
  const ids=new Set(catalog.map(r=>r.id));for(const row of rows)assert.ok(ids.has(row.PIN),row.PIN);
 });

@@ -72,7 +72,8 @@ self.onmessage=async({data})=>{
     }
     if(type==='facet'){
       const rows=await filteredResults(data,data.field),values=await getColumn(data.field);
-      const summary=facetSummary(values,rows.map(row=>row.doc),{query:data.optionQuery||'',limit:Math.min(500,data.limit||40),selected:data.metadataFilters?.[data.field]?.values||[]});
+      const order=(await getSchema()).find(field=>field.key===data.field)?.valueOrder||[];
+      const summary=facetSummary(values,rows.map(row=>row.doc),{query:data.optionQuery||'',limit:Math.min(500,data.limit||40),selected:data.metadataFilters?.[data.field]?.values||[],order});
       self.postMessage({type,requestId,field:data.field,...summary});return;
     }
     const {sort='citations',page=1}=data;
