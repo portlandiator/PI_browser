@@ -9,6 +9,7 @@ import {buildSubjects} from './build-subjects.mjs';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
 import {citationCount} from '../src/citations.mjs';
+import {parsePeriodRenaming,renamePeriods} from './period-renaming.mjs';
 import {buildVolumes} from './build-volumes.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -24,12 +25,15 @@ try{await fs.access(path.join(root,sources[0]));}catch{
 }
 async function readText(file){const bytes=await fs.readFile(file);try{const text=new TextDecoder('utf-8',{fatal:true}).decode(bytes);report.encodings.utf8++;return text;}catch{report.encodings.windows1252.push(path.relative(root,file));return new TextDecoder('windows-1252').decode(bytes);}}
 const metadata=new Map();
+let metadataOriginalValues=new Map();
+const periodMapping=parsePeriodRenaming(await readText(path.join(root,'period_renaming.csv')));
 const metadataFiles=(await fs.readdir(path.join(root,sources[2]))).filter(n=>n.endsWith('.csv')).sort();
 if(metadataFiles.length!==1)throw new Error(`Expected one enhanced metadata CSV, found ${metadataFiles.length}.`);
 let schema;
 for(const filename of metadataFiles){
   report.metadataFile=filename;
-  const rows=parseCsv(await readText(path.join(root,sources[2],filename)));
+  let rows=parseCsv(await readText(path.join(root,sources[2],filename)));
+  const periods=renamePeriods(rows,periodMapping);rows=periods.rows;metadataOriginalValues=periods.originalValues;report.periodRenaming=periods.report;
   if(!rows.length||!Object.hasOwn(rows[0],'PIN'))throw new Error('Enhanced metadata must contain a PIN column.');
   schema=describeFields(rows);report.metadataFields=schema.map(field=>field.name);
   for(const row of rows){
@@ -81,7 +85,7 @@ for(let doc=0;doc<ids.length;doc++){
   const equal=versions.en.paragraphs.length===versions.original.paragraphs.length;
   if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
   catalog.push(record);
-  await zipWrite(path.join(corpus,'data',recordFilename(id)),{...record,enVersion,metadata:row,en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
+  await zipWrite(path.join(corpus,'data',recordFilename(id)),{...record,enVersion,metadata:row,...(metadataOriginalValues.has(id)?{metadataOriginalValues:metadataOriginalValues.get(id)}:{}),en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
   if(doc%3000===0)console.log(`Imported ${doc.toLocaleString()} / ${ids.length.toLocaleString()} records`);
 }
 const stats={dataset,records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length};

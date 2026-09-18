@@ -9,17 +9,20 @@ const stats=JSON.parse(fs.readFileSync('dist/stats.json','utf8'));
 const base='dist/'+stats.dataset;
 const load=p=>JSON.parse(gunzipSync(fs.readFileSync(base+'/'+p)));
 const rows=parseCsv(fs.readFileSync('metadata - copy/'+fs.readdirSync('metadata - copy').find(f=>f.endsWith('.csv')),'utf8'));
+const rawById=new Map(rows.map(r=>[r.PIN,{...r}]));
+const periodMapping=parseCsv(fs.readFileSync('period_renaming.csv','utf8'));
+for(const row of rows)for(const {Old,New} of periodMapping)row.Period=row.Period.replaceAll(Old,New);
 const byId=new Map(rows.map(r=>[r.PIN,r]));
 const catalog=load('catalog.json.gz');
-test('all metadata columns preserve the full CSV in catalogue order',()=>{
+test('all metadata columns preserve the CSV with supplied Period replacements in catalogue order',()=>{
  const fields=JSON.parse(fs.readFileSync(base+'/metadata-schema.json','utf8'));
  assert.deepEqual(fields,describeFields(rows));
  for(const field of fields){const values=load('facets/'+field.key+'.json.gz');assert.deepEqual(values,catalog.map(r=>metadataSearchText(byId.get(r.id)?.[field.name]||'')),field.name);}
  const ids=new Set(catalog.map(r=>r.id));for(const row of rows)assert.ok(ids.has(row.PIN),row.PIN);
 });
-test('PIN joins preserve raw rich metadata and current catalogue aliases',()=>{
+test('PIN joins preserve rich metadata, original Period provenance, and catalogue aliases',()=>{
  for(const id of ['AB00016','BH00386','AB00001','BB00001']){
  const record=load('data/'+recordFilename(id)),row=byId.get(id);
- assert.deepEqual(record.metadata,row);assert.equal(record.volume,row.Volume);assert.equal(record.addressee,row.Recipient);assert.equal(record.date,row.Date);
+ assert.deepEqual(record.metadata,row);assert.equal(record.metadataOriginalValues?.Period||record.metadata.Period,rawById.get(id).Period);assert.equal(record.volume,row.Volume);assert.equal(record.addressee,row.Recipient);assert.equal(record.date,row.Date);
  }
 });

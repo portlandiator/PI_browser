@@ -47,6 +47,8 @@ The original folders are immutable inputs:
 
 The versioned `data/collection.tar.gz` contains these inputs exactly, avoiding tens of thousands of small source files in Git. If the source folders are absent, the build extracts the archive. To update the corpus, edit the source collection intentionally, run `python scripts/archive-sources.py`, rebuild, and review `build-report.json`. The importer strictly attempts UTF-8, then Windows-1252; fallback filenames and missing/unpaired records are recorded in the report.
 
+Period labels are replaced during import using the versioned `period_renaming.csv` (`Old,New`). Replacements are literal, case-sensitive, and applied in one pass only to Period; suffixes such as `?` remain. Unlisted values remain unchanged. The input CSV is untouched, and changed records retain their imported Period in `metadataOriginalValues.Period`. The build report lists mappings, the changed record count, and unmapped values. Update the mapping file and rebuild to change the labels in filters and readers.
+
 Metadata is not invented. In particular, uncertain dates and original translation-status codes are retained. Text IDs without metadata remain accessible. Matching paragraph counts are not proof of semantic alignment. Original-language paragraphs may contain both Persian and Arabic; their script is displayed RTL.
 
 ## Deployment
