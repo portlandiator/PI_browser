@@ -1,3 +1,4 @@
+import {externalPdfUrl,pdfLinkBoxes,pdfDestinationPage} from './pdf-links.mjs';
 const $=id=>document.getElementById(id);
 const wide=matchMedia('(min-width:1100px)');
 let directory={},titles={},pdf,task,lib,volume='',page=1,epoch=0,renderEpoch=0,renders=[];
@@ -13,10 +14,32 @@ function controls(){
   $('previous').disabled=!pdf||page<=1;$('next').disabled=!pdf||page+count()>pdf.numPages;
   if(volume)$('pdf-link').href=`./${directory[volume]}#page=${page}`;
 }
-function clear(){for(const render of renders)render.cancel();renders=[];$('pdf-pages').replaceChildren();$('page-text').replaceChildren();}
+function clear(){for(const render of renders)render.cancel();renders=[];$('pdf-pages').replaceChildren();}
+async function pageLinks(sheet,current,viewport,number){
+  const layer=document.createElement('div');layer.className='pdf-links';
+  for(const annotation of await sheet.getAnnotations({intent:'display'})){
+    if(annotation.subtype!=='Link'||(annotation.annotationFlags&35))continue;
+    const external=externalPdfUrl(annotation.url);
+    let target=null;
+    if(!external){
+      try{target=await pdfDestinationPage(current,annotation.dest);}catch{continue;}
+      const actions={FirstPage:1,LastPage:current.numPages,NextPage:Math.min(number+1,current.numPages),PrevPage:Math.max(number-1,1)};
+      if(!target&&Object.hasOwn(actions,annotation.action))target=actions[annotation.action];
+      if(!target)continue;
+    }
+    for(const box of pdfLinkBoxes(annotation,viewport)){
+      const link=document.createElement('a');link.className='pdf-page-link';
+      for(const [key,value] of Object.entries(box))link.style[key]=`${value}%`;
+      if(external){link.href=external;link.target='_blank';link.rel='noopener noreferrer';link.title=`${external} (opens in a new tab)`;}
+      else{const url=new URL(location.href);url.searchParams.set('page',target);link.href=url.href;link.title=`Go to page ${target}`;link.addEventListener('click',event=>{if(event.button||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();if(pdf===current)move(target);});}
+      link.setAttribute('aria-label',link.title);layer.append(link);
+    }
+  }
+  return layer;
+}
 async function draw(){
   if(!pdf)return;const current=pdf,version=++renderEpoch;for(const render of renders)render.cancel();renders=[];controls();
-  const figures=document.createDocumentFragment(),transcript=document.createDocumentFragment();
+  const figures=document.createDocumentFragment();
   $('pdf-reader').setAttribute('aria-busy','true');$('volume-status').textContent='Rendering pages…';$('retry').hidden=true;
   const start=page,end=Math.min(start+count()-1,current.numPages),gap=wide.matches?16:8;
   const width=Math.max(100,($('pdf-reader').clientWidth-(wide.matches?40:16)-gap*(count()-1))/count())*Number($('zoom').value);
@@ -27,15 +50,14 @@ async function draw(){
       const ratio=Math.min(devicePixelRatio||1,2,Math.sqrt(12000000/(width*width*base.height/base.width)));
       const viewport=sheet.getViewport({scale:scale*ratio});
       const figure=document.createElement('figure');figure.className='pdf-page';figure.style.width=`${width}px`;
-      const canvas=document.createElement('canvas');canvas.width=Math.floor(viewport.width);canvas.height=Math.floor(viewport.height);canvas.setAttribute('role','img');canvas.setAttribute('aria-label',`Volume ${volume}, page ${number}. Extracted text is available below the reader.`);
-      const caption=document.createElement('figcaption');caption.textContent=`Page ${number}`;figure.append(canvas,caption);figures.append(figure);
+      const canvas=document.createElement('canvas');canvas.width=Math.floor(viewport.width);canvas.height=Math.floor(viewport.height);canvas.setAttribute('role','img');canvas.setAttribute('aria-label',`Volume ${volume}, page ${number}`);
+      const surface=document.createElement('div');surface.className='pdf-page-surface';surface.append(canvas);
+      const caption=document.createElement('figcaption');caption.textContent=`Page ${number}`;figure.append(surface,caption);figures.append(figure);
       const render=sheet.render({canvasContext:canvas.getContext('2d'),viewport});renders.push(render);await render.promise;
-      const content=await sheet.getTextContent();if(version!==renderEpoch)return;
-      const heading=document.createElement('h2');heading.textContent=`Page ${number}`;
-      const text=document.createElement('pre');text.textContent=content.items.map(item=>item.str+(item.hasEOL?'\n':' ')).join('');transcript.append(heading,text);sheet.cleanup();
+      surface.append(await pageLinks(sheet,current,base,number));if(version!==renderEpoch)return;sheet.cleanup();
     }
     if(version!==renderEpoch)return;
-    $('pdf-pages').replaceChildren(figures);$('page-text').replaceChildren(transcript);
+    $('pdf-pages').replaceChildren(figures);
     $('volume-status').textContent='';
   }catch(error){if(version!==renderEpoch)return;$('volume-status').textContent='These pages could not be rendered. Try again or open the PDF directly.';$('retry').hidden=false;}
   finally{if(version===renderEpoch)$('pdf-reader').setAttribute('aria-busy','false');}
