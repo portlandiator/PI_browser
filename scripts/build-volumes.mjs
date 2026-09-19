@@ -1,12 +1,13 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {volumeTitle} from './volume-title.mjs';
 
 export async function buildVolumes(root,out){
   const source=path.join(root,'pdf_volumes - copy');
   const files=(await fs.readdir(source)).filter(name=>/\.pdf$/i.test(name)).sort();
   if(!files.length)throw new Error('No volume PDFs were found.');
-  const volumes={};
+  const volumes={},titles={};
   await fs.mkdir(path.join(out,'pdf-volumes'),{recursive:true});
   for(const name of files){
     const match=/^volume_(\d+)\b.*\.pdf$/i.exec(name);
@@ -18,8 +19,10 @@ export async function buildVolumes(root,out){
     const destination=`pdf-volumes/volume-${number}.pdf`;
     await fs.copyFile(file,path.join(out,destination));
     volumes[number]=destination;
+    titles[number]=volumeTitle(name);
   }
   await fs.writeFile(path.join(out,'volumes.json'),JSON.stringify(volumes));
+  await fs.writeFile(path.join(out,'volume-titles.json'),JSON.stringify(titles));
   console.log(`Published ${files.length} volume PDFs`);
   return volumes;
 }

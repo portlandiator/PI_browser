@@ -1,6 +1,6 @@
 const $=id=>document.getElementById(id);
 const wide=matchMedia('(min-width:1100px)');
-let directory={},pdf,task,lib,volume='',page=1,epoch=0,renderEpoch=0,renders=[];
+let directory={},titles={},pdf,task,lib,volume='',page=1,epoch=0,renderEpoch=0,renders=[];
 const count=()=> $('layout').value==='spread'||($('layout').value==='auto'&&wide.matches)?2:1;
 function save(replace=false){
   const url=new URL(location.href);url.searchParams.set('volume',volume);url.searchParams.set('page',page);
@@ -47,7 +47,7 @@ async function openVolume(id,requestedPage=1){
   if(!Object.hasOwn(directory,id)){
     volume='';$('volume').value='';$('pdf-link').hidden=true;$('volume-status').textContent='That volume is unavailable. Choose a volume from the menu.';$('pdf-reader').setAttribute('aria-busy','false');return;
   }
-  volume=id;$('volume').value=id;$('pdf-link').hidden=false;controls();$('volume-status').textContent=`Opening volume ${id}…`;
+  volume=id;$('volume').value=id;$('volume').title=titles[id];$('pdf-link').hidden=false;controls();$('volume-status').textContent=`Opening volume ${id}…`;
   try{
     lib ||= await import('./vendor/pdfjs/pdf.mjs');if(version!==epoch)return;
     lib.GlobalWorkerOptions.workerSrc=new URL('./vendor/pdfjs/pdf.worker.mjs',import.meta.url).href;
@@ -69,8 +69,8 @@ for(const id of ['layout','zoom'])$(id).onchange=()=>{if(volume)save();draw();};
 $('pdf-reader').onkeydown=event=>{if(event.altKey||event.ctrlKey||event.metaKey)return;if(['ArrowLeft','ArrowRight'].includes(event.key)){event.preventDefault();move(page+(event.key==='ArrowRight'?count():-count()));}};
 let resizeTimer,lastWidth=0;new ResizeObserver(([entry])=>{const width=entry.contentRect.width;if(width===lastWidth)return;lastWidth=width;clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>draw(),150);}).observe($('pdf-reader'));
 window.addEventListener('popstate',restore);
-async function init(){try{const response=await fetch('./volumes.json');if(!response.ok)throw new Error();directory=await response.json();
+async function init(){try{const responses=await Promise.all([fetch('./volumes.json'),fetch('./volume-titles.json')]);if(responses.some(response=>!response.ok))throw new Error();[directory,titles]=await Promise.all(responses.map(response=>response.json()));
   const entries=Object.entries(directory).filter(([id,file])=>/^\d+$/.test(id)&&/^pdf-volumes\/volume-\d+\.pdf$/.test(file)).sort((a,b)=>Number(a[0])-Number(b[0]));
-  if(!entries.length)throw new Error();directory=Object.fromEntries(entries);$('volume').replaceChildren(...entries.map(([id])=>new Option(`Volume ${id}`,id)));$('volume').disabled=false;$('volume-count').textContent=entries.length;await restore();
+  if(!entries.length||entries.some(([id])=>typeof titles[id]!=='string'||!titles[id].trim()))throw new Error();directory=Object.fromEntries(entries);$('volume').replaceChildren(...entries.map(([id])=>new Option(titles[id],id)));$('volume').disabled=false;$('volume-count').textContent=entries.length;await restore();
 }catch{$('volume-status').textContent='The volume directory could not be loaded. Please try again.';$('retry').hidden=false;$('pdf-reader').setAttribute('aria-busy','false');}}
 $('retry').onclick=()=>volume?openVolume(volume,page):init();init();
