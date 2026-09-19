@@ -24,8 +24,8 @@ test('theme persists across pages, switches both ways, and follows other tabs',(
 test('theme control still works when browser storage is blocked',()=>{
   const page=setup(undefined,true);page.clicks['theme-toggle:click']();assert.equal(page.root.dataset.theme,'dark');
 });
-test('catalog and subject pages share header geometry and About content',()=>{
-  const pages=['index.html','subjects.html','relationships.html'].map(name=>readFileSync(new URL('../src/'+name,import.meta.url),'utf8'));
+test('catalog, subject and volume pages share header geometry and About content',()=>{
+  const pages=['index.html','subjects.html','relationships.html','volume-view.html'].map(name=>readFileSync(new URL('../src/'+name,import.meta.url),'utf8'));
   const header=html=>html.match(/<header class="masthead">[\s\S]*?<\/header>/)[0].replace(/ class="active"| aria-current="page"/g,'');
   for(const page of pages.slice(1))assert.equal(header(pages[0]),header(page));
   for(const page of pages.slice(1))assert.equal(pages[0].match(/<dialog[\s\S]*?<\/dialog>/)[0],page.match(/<dialog[\s\S]*?<\/dialog>/)[0]);
