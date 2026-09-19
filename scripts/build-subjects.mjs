@@ -88,6 +88,7 @@ export async function writeSubjectOutputs({root,out,dataset,subjects,bySubject,r
   report.passages=passages.size;report.relationships={imported:edges.filter(e=>e.status==='imported').length,suggested:edges.filter(e=>e.status==='suggested').length,reviewed:edits.relationships.length};
   report.emptySubjects=subjects.filter(s=>!s.unavailable&&s.selections===0).map(s=>({id:s.id,name:s.name}));
   await zip(path.join(base,'index.json.gz'),{subjects,edges,report,hierarchy:hierarchy.nodes});
+  await zip(path.join(base,'editorial-decisions.json.gz'),edits);
   await fs.writeFile(path.join(base,'report.json'),JSON.stringify(report,null,2));
   await fs.writeFile(path.join(root,limit===subjects.length?'subject-import-report.json':'subject-prototype-report.json'),JSON.stringify(report,null,2));
   console.log(JSON.stringify(report.counts));

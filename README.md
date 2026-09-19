@@ -82,3 +82,11 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\update-collect
 ```
 
 ExecutionPolicy Bypass applies only to that process; it does not change Windows settings. Failures stop publication, return a nonzero exit code, and leave source folders untouched. If a commit or push fails after validation, resolve the reported Git changes or unpublished commit before retrying. If GitHub deployment fails after a successful push, inspect the linked Actions run and rerun the failed job after correcting its cause. Concurrent updates are blocked. Temporary snapshots are removed on normal completion or failure; logs remain visible in the window.
+
+## Review subject connections
+
+Open `relationships.html` (the **Review subject connections** link at the bottom of Subject view). The thematic directory covers all 661 subjects and shows pending proposal counts. Search, switch to alphabetical order, filter unfinished subjects, or use **Next with proposals**. Imported connections, overlap proposals, accepted decisions, and rejected decisions are labeled separately. **Inspect shared passages** loads a bounded set of source examples on demand. Broader means the other subject is more general; narrower means it is more specific. Editing a connection's type rejects its old form and accepts the replacement. Marking a subject reviewed tracks your progress without accepting its proposals.
+
+Drafts share the existing passage editor's browser storage. Use **Export decisions** regularly; clearing browser data removes local drafts. **Import decisions** merges a backup, with incoming decisions winning conflicts. Exports include existing published passage corrections and relationship decisions, local updates, and subject review progress. **Undo last change** works within the current page session; **Restore published version** removes a local override.
+
+To publish, provide the exported `subject-edits.json` to the project maintainer (or Codex), replace `data/subject-edits.json` with that complete merged export, run the standard build and tests, and commit/push. The public graph changes only after this rebuild. GitHub Pages has no write-back service or reviewer accounts. The build publishes an editorial baseline alongside the subject index so later exports retain earlier decisions.
