@@ -65,5 +65,6 @@ test('export shares identical passages, preserves associations and applies relat
   const a=await load('a'),b=await load('b');assert.equal(a.selections[0].passage,b.selections[0].passage);assert.deepEqual(a.selections[0].otherSubjects,['a','b']);
   const p=await load('passages/'+a.selections[0].passage);assert.deepEqual(p.selections,[{id:'a-selection',subject:'a'},{id:'b-selection',subject:'b'}]);
   const index=await load('index');assert.equal(index.report.duplicateRanges,1);assert.equal(index.report.passages,1);assert.equal(index.report.selections,2);assert.equal(index.report.counts.exact,2);
+  const decisions=await load('editorial-decisions');assert.deepEqual(decisions.relationships,[{source:'b',target:'a',type:'related',status:'rejected',note:'Distinct concepts'}]);
   assert.ok(index.edges.some(e=>e.type==='broader'&&e.status==='imported'));assert.equal(index.edges.filter(e=>e.type==='related').length,1);assert.equal(index.edges.find(e=>e.type==='related').status,'rejected');
 });
