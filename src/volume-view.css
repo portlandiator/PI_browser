@@ -1,4 +1,5 @@
 .volume-controls{display:flex;align-items:end;gap:20px;padding:20px 0;border-block:1px solid var(--rule)}
+#volume-status:empty{display:none}
 .volume-controls label{display:flex;flex-direction:column;gap:8px}.volume-choice{flex:1;min-width:0}.volume-choice select{width:100%}
 .volume-navigation{position:sticky;top:0;z-index:2;background:var(--paper);padding:12px 0;display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin:8px 0 0}.volume-navigation form{display:flex;align-items:center;gap:10px}.volume-navigation input{width:85px}#pdf-link{margin-left:auto}
 #pdf-reader{scroll-margin-top:120px;overflow:auto;padding:20px;background:var(--selection);border:1px solid var(--rule);border-radius:4px;min-height:240px}#pdf-reader:focus-visible{outline:2px solid var(--gold);outline-offset:4px}

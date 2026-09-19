@@ -36,7 +36,7 @@ async function draw(){
     }
     if(version!==renderEpoch)return;
     $('pdf-pages').replaceChildren(figures);$('page-text').replaceChildren(transcript);
-    $('volume-status').textContent=`Volume ${volume} · ${start===end?`Page ${start}`:`Pages ${start}–${end}`} of ${current.numPages}`;
+    $('volume-status').textContent='';
   }catch(error){if(version!==renderEpoch)return;$('volume-status').textContent='These pages could not be rendered. Try again or open the PDF directly.';$('retry').hidden=false;}
   finally{if(version===renderEpoch)$('pdf-reader').setAttribute('aria-busy','false');}
 }
@@ -59,7 +59,8 @@ async function openVolume(id,requestedPage=1){
 function restore(){const params=new URLSearchParams(location.search);
   $('layout').value=['auto','single','spread'].includes(params.get('layout'))?params.get('layout'):'auto';
   $('zoom').value=['1','1.25','1.5','2'].includes(params.get('zoom'))?params.get('zoom'):'1';
-  return openVolume(params.get('volume')||Object.keys(directory)[0],params.get('page'));
+  const id=params.get('volume')||'30';
+  return openVolume(id,params.get('page')??(id==='30'?14:1));
 }
 function move(number){if(!pdf)return;page=Math.max(1,Math.min(pdf.numPages,number));save();draw().then(()=>{if($('pdf-reader').getBoundingClientRect().top<0)$('pdf-reader').scrollIntoView({block:'start'});});}
 $('previous').onclick=()=>move(page-count());$('next').onclick=()=>move(page+count());
