@@ -27,5 +27,6 @@ textarea{background:var(--white);color:var(--ink);border:1px solid var(--control
   .nav-button{font-size:16px;max-width:none;text-align:left;line-height:1.3}
   .theme-toggle{grid-column:2;grid-row:1;font-size:15px;gap:6px}
 }
+@media(max-width:520px){.theme-toggle{grid-column:1/-1;grid-row:2}.masthead nav{grid-row:3}}
 @media(max-width:360px){.brand{font-size:19px;gap:7px}.theme-toggle{font-size:14px}.masthead nav,.nav-button{font-size:14px}}
 @media print{:root[data-theme]{color-scheme:light;--paper:#fff;--white:#fff;--ink:#000;--muted:#444;--rule:#bbb;--highlight:#eee;--target:#eee;--gold:#555}.theme-toggle{display:none}}
