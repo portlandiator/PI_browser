@@ -47,3 +47,5 @@ Reuse the published volume PDFs and volume manifest. The dropdown includes the v
 The volume reader omits the extracted-text disclosure below the page images. PDF link annotations remain clickable at every zoom: HTTP(S) destinations open in a new tab, while internal destinations navigate within the reader.
 
 On portrait phones up to 520px wide, the masthead uses Night / Day beside the book brand and About in the navigation row. Wider and landscape layouts retain full labels. Subject introduction totals are hidden at 700px and below, matching the Catalog introduction.
+
+Catalog details place Extract immediately after Word count, displaying x as Yes and blank as No. Authorized retains its source declaration: Y authorizes the whole English translation; a Y followed by paragraph numbers, inclusive ranges, or open-ended ranges authorizes only those English source paragraphs. Authorized paragraphs use dark blue (#163f80), with other English paragraphs in near-black; night mode uses readable light blue (#9ec5ff). Original paragraphs retain their existing styling.

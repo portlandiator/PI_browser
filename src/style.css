@@ -9,3 +9,10 @@ dialog{border:1px solid var(--rule);border-radius:8px;padding:45px;max-width:620
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.masthead nav,.masthead-note,.reader-navigation,.reader-controls,.site-footer,.source-details,.load-more-reading{display:none}body,.reading-paper{background:white}main{padding:0;max-width:none}.masthead{height:70px}.paragraph-cell p{font-size:12pt}.paragraph-cell[dir=rtl] p{font-size:14pt}.paragraph-pair{break-inside:avoid}.paragraph-cell{padding:10px 25px}.reading-paper{border:0}.reader-header{margin-top:20px}}
 .reader-search{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;background:var(--target);font-size:11px;color:var(--ink)}.reader-search strong{font-weight:500}.reader-search span:first-child{overflow-wrap:anywhere;min-width:0}.reader-search span:nth-child(2){color:var(--muted);white-space:nowrap}.reader-search button{white-space:nowrap}.paragraph-cell{scroll-margin-top:90px}@media(max-width:700px){.reader-search{flex-wrap:wrap;font-size:10px}.reader-search span:first-child{flex-basis:100%}}
+
+/* Translation authorization follows English source paragraph numbers. */
+#reading-paragraphs .english-cell > p{color:#202020}
+#reading-paragraphs .authorized-translation > p{color:#163f80}
+:root[data-theme=dark] #reading-paragraphs .english-cell > p{color:var(--ink)}
+:root[data-theme=dark] #reading-paragraphs .authorized-translation > p{color:#9ec5ff}
+@media print{#reading-paragraphs .english-cell > p{color:#202020!important}#reading-paragraphs .authorized-translation > p{color:#163f80!important}}

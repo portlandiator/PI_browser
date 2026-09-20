@@ -1,3 +1,4 @@
+import {authorizedRanges,isAuthorizedParagraph,catalogueDetails} from './translation-status.mjs';
 import {recordFilename} from './record-file.mjs';
 import {escapeHtml as esc,normalize,tokenize,parseQuery,matchRanges} from './text.mjs';
 import {loadCompressed} from './data.mjs';
@@ -8,6 +9,7 @@ const $=id=>document.getElementById(id);
 const filters=['author'];
 const labels={author:'Author'};
 let metadataFields=[],facetPanel,metadataTimer;
+let translationRanges=[];
 let volumePdfs={};
 const facetRequests=new Map();
 let worker,requestId=0,currentSearch=0,readerRequest=0,facets={},lastResults=null,reading=null;
@@ -109,7 +111,7 @@ function showCollection(){readerRequest++;$('collection').hidden=false;$('reader
 function backToCollection(){state.id='';updateUrl();showCollection();syncControls();if(!lastResults)runSearch();$('results-heading').scrollIntoView({block:'start'});$('query').focus({preventScroll:true});}
 function metadataValue(label,value){return `<div><dt>${label}</dt><dd>${esc(value||'Not recorded')}</dd></div>`;}
 function catalogueValue(key,value){return key==='Volume'?renderVolume(value,volumePdfs):['Manuscripts','Publications','Translations'].includes(key)?renderReferenceList(value):renderMetadata(value);}
-function paragraphHtml(part,i,language){return `<div class="paragraph-cell ${language==='en'?'english-cell':'original-cell'}" dir="${language==='en'?'ltr':'rtl'}" lang="${language==='en'?'en':'fa'}" id="p-${language}-${i+1}"><a class="paragraph-number" href="#p-${language}-${i+1}" aria-label="${language==='en'?'English':'Original'} paragraph ${i+1}">${String(i+1).padStart(2,'0')}</a><p>${part.html}</p></div>`;}
+function paragraphHtml(part,i,language){return `<div class="paragraph-cell ${language==='en'?'english-cell':'original-cell'}${language==='en'&&isAuthorizedParagraph(translationRanges,i+1)?' authorized-translation':''}" dir="${language==='en'?'ltr':'rtl'}" lang="${language==='en'?'en':'fa'}" id="p-${language}-${i+1}"><a class="paragraph-number" href="#p-${language}-${i+1}" aria-label="${language==='en'?'English':'Original'} paragraph ${i+1}">${String(i+1).padStart(2,'0')}</a><p>${part.html}</p></div>`;}
 function notesHtml(record){if(!record.en.notes.length&&!record.original.notes.length)return '';return `<section class="footnotes" aria-label="Footnotes"><h2>Notes</h2>${['en','original'].map(lang=>record[lang].notes.length?`<div class="${lang==='en'?'english':'original'}-notes" dir="${lang==='en'?'ltr':'rtl'}"><h3>${lang==='en'?'English translation':'فارسی / العربية'}</h3><ol>${record[lang].notes.map(note=>`<li id="note-${lang}-${note.number}">${note.html} <a href="#ref-${lang}-${note.number}" aria-label="Return to footnote ${note.number}">↩</a></li>`).join('')}</ol></div>`:'').join('')}</section>`;}
 let visibleParagraphs=100;
 let readerMatches=[],matchCursor=-1;
@@ -174,12 +176,12 @@ async function openReader(id,{push=true}={}){
   id=id.replace(/\.txt$/i,'');if(push){state.passage='';state.subject='';}state.id=id;if(push)updateUrl();const token=++readerRequest;
   $('collection').hidden=true;$('reader').hidden=false;$('reader-id').textContent=id;$('reader-content').innerHTML='<div class="loading-state"><div class="loading-line"></div><p>Opening text…</p></div>';window.scrollTo(0,0);
   try{
-    const record=await getRecord(id);if(token!==readerRequest)return;reading=record;selectedPassage=null;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;
+    const record=await getRecord(id);if(token!==readerRequest)return;reading=record;translationRanges=authorizedRanges(record.metadata?.Authorized);selectedPassage=null;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;
     const passageId=new URLSearchParams(location.search).get('passage');
     if(passageId){if(!/^[a-f\d]{24}$/.test(passageId))throw Error('Invalid passage ID');const passage=await loadCompressed(new URL(`subjects/passages/${passageId}.json.gz`,datasetBase));if(token!==readerRequest)return;if(passage.source!==record.id||passage.version!==record.enVersion)throw Error('Passage source version has changed; reopen the subject to locate the current selection.');selectedPassage=passage;visibleParagraphs=Math.max(100,...passage.ranges.map(r=>Math.ceil(r.paragraph/100)*100));}
     const title=record.title||(record.addressee?`To ${record.addressee}`:record.id);
     document.title=`${record.id} · ${title} — Partial Inventory browser`;
-    const extra=metadataFields.filter(field=>!['Citation count','Subjects'].includes(field.name)).map(field=>[field.name,record.metadata[field.name]||'']);
+    const extra=catalogueDetails(metadataFields,record.metadata);
     const usePeriod=!record.date?.trim()&&record.metadata.Period?.trim();
     const notice=record.paired?'':record.hasOriginal&&record.hasEnglish?`Paragraph counts differ (${record.en.paragraphs.length} English / ${record.original.paragraphs.length} original). Each language follows its own source order.`:'This record does not have both language versions available.';
     $('reader-content').innerHTML=`<header class="reader-header"><div class="eyebrow">${esc(record.id)}${record.volume?' · Volume '+esc(record.volume):''}</div><h1 id="reader-title" tabindex="-1">${esc(title)}</h1><div class="reader-author">${esc(record.author)}</div><dl class="reader-metadata">${metadataValue(usePeriod?'Period':'Date',usePeriod?record.metadata.Period:record.date)}${metadataValue('Recipient',record.addressee)}${metadataValue('Place',record.place)}</dl>${extra.length?`<details class="source-details"><summary>Catalog details &amp; source notes</summary><dl>${extra.map(([key,value])=>`<dt>${esc(key)}</dt><dd>${value?catalogueValue(key,value):'<span class="metadata-missing">Not recorded</span>'}</dd>`).join('')}</dl></details>`:''}</header><div class="reader-controls"><div class="segmented" role="group" aria-label="Reading language"><button data-mode-button="parallel" aria-pressed="true">Parallel</button><button data-mode-button="en" aria-pressed="false">English</button><button data-mode-button="original" aria-pressed="false">Original</button></div><div class="type-controls" role="group" aria-label="Text size"><button id="size-down" aria-label="Decrease text size">A−</button><span id="size-label">100%</span><button id="size-up" aria-label="Increase text size">A+</button></div></div>${notice?`<p class="alignment-note">${notice}</p>`:''}<div id="reading-view" class="reading-view" data-mode="parallel"><article class="reading-paper" aria-label="Text and translation"><div id="reading-paragraphs"></div><div id="reading-more" class="load-more-reading"></div>${notesHtml(record)}</article></div><div class="reader-end" aria-label="End of text">❧</div>`;

@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {parseCsv} from '../src/text.mjs';
 import {describeFields,metadataSearchText} from '../src/metadata.mjs';
+import {authorizedRanges,isAuthorizedParagraph} from '../src/translation-status.mjs';
 const stats=JSON.parse(fs.readFileSync('dist/stats.json','utf8'));
 const base='dist/'+stats.dataset;
 const load=p=>JSON.parse(gunzipSync(fs.readFileSync(base+'/'+p)));
@@ -14,6 +15,16 @@ const periodMapping=parseCsv(fs.readFileSync('period_renaming.csv','utf8'));
 for(const row of rows)for(const {Old,New} of periodMapping)row.Period=row.Period.replaceAll(Old,New);
 const byId=new Map(rows.map(r=>[r.PIN,r]));
 const catalog=load('catalog.json.gz');
+
+test('updated translation metadata reaches records without changing its paragraph declarations',()=>{
+ const mixed=load('data/'+recordFilename('BB00262'));
+ assert.equal(mixed.metadata.Authorized,'Y2,4-5,7-9,12-');
+ const ranges=authorizedRanges(mixed.metadata.Authorized);
+ assert.deepEqual(mixed.en.paragraphs.map((_,i)=>i+1).filter(n=>isAuthorizedParagraph(ranges,n)),
+   mixed.en.paragraphs.map((_,i)=>i+1).filter(n=>[2,4,5,7,8,9].includes(n)||n>=12));
+ assert.equal(load('data/'+recordFilename('BB00004')).metadata.Extract,'x');
+ for(const row of rows)if(row.Authorized&&row.Authorized!=='N')assert.ok(authorizedRanges(row.Authorized).length,row.PIN+': '+row.Authorized);
+});
 test('all metadata columns preserve the CSV with supplied Period replacements in catalogue order',()=>{
  const fields=JSON.parse(fs.readFileSync(base+'/metadata-schema.json','utf8'));
  const expected=describeFields(rows);
