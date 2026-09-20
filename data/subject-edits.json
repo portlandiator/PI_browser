@@ -20,15 +20,18 @@
       "source": "6B2E2534F05E41069B3E1A18F5B552D4",
       "target": "F3B3303C979E42428EFC5629B545E4E4",
       "type": "related",
-      "status": "accepted",
+      "status": "rejected",
       "note": ""
     },
     {
       "source": "F3B3303C979E42428EFC5629B545E4E4",
       "target": "82A5773ED5884220A919FDF77F608B7B",
       "type": "related",
-      "status": "accepted",
-      "note": ""
+      "status": "rejected",
+      "score": 0.0029,
+      "sharedParagraphs": 5,
+      "provenance": "Overlapping accepted ranges; Jaccard over distinct selected source paragraphs",
+      "note": "Replaced by an edited connection."
     },
     {
       "source": "0DD5324F4D5F4083B4CAA0D5360C7218",
@@ -232,7 +235,2348 @@
       "type": "related",
       "status": "accepted",
       "note": ""
+    },
+    {
+      "source": "82A5773ED5884220A919FDF77F608B7B",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "82A5773ED5884220A919FDF77F608B7B",
+      "target": "183823600ED74219B463809E7A4803D6",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "82A5773ED5884220A919FDF77F608B7B",
+      "target": "F3B3303C979E42428EFC5629B545E4E4",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "592F9B4AA5B5491F827732B4D4675681",
+      "target": "552E8D5180B04AAB91BE86621F37CD9B",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "592F9B4AA5B5491F827732B4D4675681",
+      "target": "04F924E0CC51EDF12DBB02871348AD74",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "592F9B4AA5B5491F827732B4D4675681",
+      "target": "3ED3EB2EFEBF43C9A36134E26FDB38EE",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "592F9B4AA5B5491F827732B4D4675681",
+      "target": "C470397E9BCC44ECB45F21E1521E18C1",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "04F924E0CC51EDF12DBB02871348AD74",
+      "target": "221CD3663B0740D49344F071233D1C5F",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "04F924E0CC51EDF12DBB02871348AD74",
+      "target": "183823600ED74219B463809E7A4803D6",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "04F924E0CC51EDF12DBB02871348AD74",
+      "target": "C470397E9BCC44ECB45F21E1521E18C1",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "04F924E0CC51EDF12DBB02871348AD74",
+      "target": "C213F67401F9445F8429A5F2621563E5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "42BF27EF1B5543078EA9B3F7DF6B586C",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "41DF1CE89518406AB97E142EE368CE54",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "879087898C9746AA88A2BE11CA9F1331",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "BFA8DCA4C0C24066BAF0F869C88CF522",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "F3B3303C979E42428EFC5629B545E4E4",
+      "type": "narrower",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0905F934B5D4402E84FCD0F0E325E0A7",
+      "target": "183823600ED74219B463809E7A4803D6",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "173632E7BF104AB486EFBB383AF8DEAD",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "B996EA76F6EC401A9148E1F0507C179A",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "183823600ED74219B463809E7A4803D6",
+      "target": "221CD3663B0740D49344F071233D1C5F",
+      "type": "narrower",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0905F934B5D4402E84FCD0F0E325E0A7",
+      "target": "183823600ED74219B463809E7A4803D6",
+      "type": "broader",
+      "status": "rejected",
+      "provenance": "Loom outline",
+      "note": "Replaced by an edited connection."
+    },
+    {
+      "source": "0905F934B5D4402E84FCD0F0E325E0A7",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0905F934B5D4402E84FCD0F0E325E0A7",
+      "target": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "173632E7BF104AB486EFBB383AF8DEAD",
+      "target": "F3B3303C979E42428EFC5629B545E4E4",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "173632E7BF104AB486EFBB383AF8DEAD",
+      "target": "0DD5324F4D5F4083B4CAA0D5360C7218",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "173632E7BF104AB486EFBB383AF8DEAD",
+      "target": "7329FDEC013DEAD42EBB1EE8D4348E33",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "173632E7BF104AB486EFBB383AF8DEAD",
+      "target": "048D1BC9980545A2BF50BCE956D33C2C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "6F48F0918CDBEBB76DD545292C255B68",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "14BC9A91715CE69B9FADD0DC5735323F",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0137285CF3DEE3ABF3193E5E857AE7DB",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "A73492EB36754162BEE9588EF11F2FD9",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "A61D5813EBB7E2C5981ECFA84987639B",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "034E6E7433614B24B4A7683E29D0C241",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "6DFF61AF1A174D40865772C3AB40FF7E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "68137F318C6144AAAF17C8290F33061E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "BE8FE142DAF5EE1D0C63BB50722C39AF",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "AC6D3AECF43E478BB1E3EC19DB04E992",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "BD4052A3136042C4B86176AB2F552C55",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "BF2B7E937407E648DD80C2528263A450",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "79CD788B08C5E8B37070B3DD452FB313",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "3B0211B4DCD4EA86BB1FC4BB6ADCD7C3",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5065428F8D47E024C04F5AB4E31112CA",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "AEF71C54D9B047EB8B92DBF1831755FA",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "1AD5A5F58C9D4D80A982ED7AA5435D7E",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "FE19F5905B90E62AF750E4476660CAEC",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "1026FD55727C4292B730BB0C841E20E7",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "738F8F7E4890E6B818B5ACE3C3036604",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "BB202C3CE69D47D19B5138D2E2FFE802",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "618FD8010F10E760CBC53B05C0F1DC25",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "7A8DB05467DBEF2954FD9B30F84AA0E8",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "26E85C22B274E5695DA94BA1A3A0A343",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "CF9408FBB1DDEA91EBA67EA2F1C015D8",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "DBB07A9A48FD421E8F6E02D219149549",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "D9EB77409AAAEE3EEEBB51E542688C78",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "8677D5CBAD964C7F95A61AF10D5EB72D",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "4E323D7B85E34704B18BD5AB68F84E22",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "370AC40D2874E1246B99EB8122E23C9A",
+      "target": "5CF47B6B008F461986A90EF7E6BF176E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "D3D5A6BA921F4EFD915F7B12D2779668",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "F28151459776E3BE109C95C138177810",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "9AB88215A3AC410692D350AE3BEB3A54",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "target": "9418F5521D7B489CA21A536FB126B118",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "8B74AA4BF06FE197BC2DFCF83BE17C14",
+      "target": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "target": "E3503B9BB6424884B3157B754204073E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "target": "CC093CE37A394C1F81BEAF67251D3FC4",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "target": "9DEC6BF8F69A406FADF3FCA1C4BFAE33",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "target": "8CDDA7D99E83E1421D3C3542A49272FA",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9170438CF5C0E2D84968B1DE41C36F0F",
+      "target": "9EC159259B874FABB63915C45183582D",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "4E323D7B85E34704B18BD5AB68F84E22",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "CBBEF627F45A45E7850653204203438C",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "F9036AE7751AE9E7820A58D34211FEFC",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "618FD8010F10E760CBC53B05C0F1DC25",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "A61D5813EBB7E2C5981ECFA84987639B",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "D1CA07BA971AE54EB4BCE0ABB94841E7",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "AEF71C54D9B047EB8B92DBF1831755FA",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "3C7DBDDAC30A4CEDA9AF6EA4D195C374",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "E7BFAD48788E4AFE9B6EA752F7671AB1",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "14BC9A91715CE69B9FADD0DC5735323F",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "3B0211B4DCD4EA86BB1FC4BB6ADCD7C3",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6DFF61AF1A174D40865772C3AB40FF7E",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "DF7D0EA999F44DBCA4F5C695B3851674",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "E3503B9BB6424884B3157B754204073E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "370AC40D2874E1246B99EB8122E23C9A",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "42BA11FC5FE24CBEA769298634A7FA42",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "CF9408FBB1DDEA91EBA67EA2F1C015D8",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "034E6E7433614B24B4A7683E29D0C241",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "752881F17C2B4EE0BDA239B9D6517A45",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55581A433C3D45CEB183D21F214B5DB3",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B31B67349BA147D8A57CDBAF1EDE3B35",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "26E85C22B274E5695DA94BA1A3A0A343",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "DBB07A9A48FD421E8F6E02D219149549",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "D3D5A6BA921F4EFD915F7B12D2779668",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "9418F5521D7B489CA21A536FB126B118",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "379BEFFCBC0C4B9683034D7269624B3C",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6BB666C0D9224ED7AE3400FC770A3496",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6193A5AE5579E4039E4D0589AE21DACA",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "D0935698C4CEEBA12E206FCBCA340547",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "EE2AA5032CD445FFB209041F23A8D80A",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "84AD735BE35249BCBFC3DE87B796C72C",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "FDA358C85EABE1A21EBBED1872E92D55",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6259D6333FC7EE132D6AD0D77800E8FC",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "10C0903A3A7048C193248AAA8629D4D4",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "FE19F5905B90E62AF750E4476660CAEC",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0CA85F9D98D4467C8454CE42CA5BB10D",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "FAF773D669C84BC49FB837C8DC094417",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "494449F7A4D0EFBD315D4C3846620994",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "738F8F7E4890E6B818B5ACE3C3036604",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "C22A37A43832E506617EB2F4434E855F",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "7A2DA22B0196E4813CDC85DB1C970313",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "A72CD9234D5E4386A7C153F8E08CF797",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "22EED87D5EEC4CA68E16AB238733762E",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "F21CB46DB1E7424F8F52EA6E0C61DD3B",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "1026FD55727C4292B730BB0C841E20E7",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "BD4052A3136042C4B86176AB2F552C55",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "64297813E037448AB17A91940A7008DE",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B4480B0CDB52EF0534E437134978DC1E",
+      "target": "B8ED66ABF42C4C94B1950954F56B46F0",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "D49918E5C4014E13A7AD43BCB1E89561",
+      "target": "B8ED66ABF42C4C94B1950954F56B46F0",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "D49918E5C4014E13A7AD43BCB1E89561",
+      "target": "50E64D5F25E34797A55642F2919C4317",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "D49918E5C4014E13A7AD43BCB1E89561",
+      "target": "7A7BDCD83AE14B19B4D78332D456B1D3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9AB88215A3AC410692D350AE3BEB3A54",
+      "target": "7A7BDCD83AE14B19B4D78332D456B1D3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9AB88215A3AC410692D350AE3BEB3A54",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "9AB88215A3AC410692D350AE3BEB3A54",
+      "target": "F3B3303C979E42428EFC5629B545E4E4",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9AB88215A3AC410692D350AE3BEB3A54",
+      "target": "B4480B0CDB52EF0534E437134978DC1E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9AB88215A3AC410692D350AE3BEB3A54",
+      "target": "B996EA76F6EC401A9148E1F0507C179A",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "9AB88215A3AC410692D350AE3BEB3A54",
+      "target": "50E64D5F25E34797A55642F2919C4317",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9AB88215A3AC410692D350AE3BEB3A54",
+      "target": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B8ED66ABF42C4C94B1950954F56B46F0",
+      "target": "9AB88215A3AC410692D350AE3BEB3A54",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B8ED66ABF42C4C94B1950954F56B46F0",
+      "target": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B996EA76F6EC401A9148E1F0507C179A",
+      "target": "221CD3663B0740D49344F071233D1C5F",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B996EA76F6EC401A9148E1F0507C179A",
+      "target": "26BFCA2FC4E44906BAAB903F56228AB0",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B996EA76F6EC401A9148E1F0507C179A",
+      "target": "2FC11A99D6A34DFD93993D59F31450E8",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "50E64D5F25E34797A55642F2919C4317",
+      "target": "68137F318C6144AAAF17C8290F33061E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "50E64D5F25E34797A55642F2919C4317",
+      "target": "B8ED66ABF42C4C94B1950954F56B46F0",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "50E64D5F25E34797A55642F2919C4317",
+      "target": "7A7BDCD83AE14B19B4D78332D456B1D3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "C306A880A1774D0FBF02956CCEAF45FF",
+      "target": "7A7BDCD83AE14B19B4D78332D456B1D3",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "7A7BDCD83AE14B19B4D78332D456B1D3",
+      "target": "B996EA76F6EC401A9148E1F0507C179A",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "target": "CF9408FBB1DDEA91EBA67EA2F1C015D8",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "target": "A61D5813EBB7E2C5981ECFA84987639B",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "target": "D94FA897F92748119D02B1738E91BD1C",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "target": "5F1349F0A072481181E9D852C41EC6BD",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "target": "0CA85F9D98D4467C8454CE42CA5BB10D",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0CA85F9D98D4467C8454CE42CA5BB10D",
+      "target": "2E899D7A2A2DE9B09ABA9A4160C9D3F8",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0CA85F9D98D4467C8454CE42CA5BB10D",
+      "target": "3633354029CFE10F551F7CA219518DAC",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0CA85F9D98D4467C8454CE42CA5BB10D",
+      "target": "B31B67349BA147D8A57CDBAF1EDE3B35",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0CA85F9D98D4467C8454CE42CA5BB10D",
+      "target": "4E323D7B85E34704B18BD5AB68F84E22",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0CA85F9D98D4467C8454CE42CA5BB10D",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "41DF1CE89518406AB97E142EE368CE54",
+      "target": "7AE1A354F2A3406393A8279C473B7B9D",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "41DF1CE89518406AB97E142EE368CE54",
+      "target": "12FD56FFF2C74384AF52D04E7CEE255F",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "41DF1CE89518406AB97E142EE368CE54",
+      "target": "4D77315AED654CCC921D8BAC5B21A41C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5C9B2EC0371C49F7A3566365EC1285B8",
+      "target": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5C9B2EC0371C49F7A3566365EC1285B8",
+      "target": "50E64D5F25E34797A55642F2919C4317",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5C9B2EC0371C49F7A3566365EC1285B8",
+      "target": "592F9B4AA5B5491F827732B4D4675681",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "221CD3663B0740D49344F071233D1C5F",
+      "target": "A73492EB36754162BEE9588EF11F2FD9",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "80687FE0F2F74ECB82AD3E83C0CBC790",
+      "target": "A73492EB36754162BEE9588EF11F2FD9",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "A73492EB36754162BEE9588EF11F2FD9",
+      "target": "68137F318C6144AAAF17C8290F33061E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "A73492EB36754162BEE9588EF11F2FD9",
+      "target": "B31B67349BA147D8A57CDBAF1EDE3B35",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "A73492EB36754162BEE9588EF11F2FD9",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "1026FD55727C4292B730BB0C841E20E7",
+      "target": "A73492EB36754162BEE9588EF11F2FD9",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "A61D5813EBB7E2C5981ECFA84987639B",
+      "target": "A73492EB36754162BEE9588EF11F2FD9",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "A73492EB36754162BEE9588EF11F2FD9",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "5CF47B6B008F461986A90EF7E6BF176E",
+      "target": "A73492EB36754162BEE9588EF11F2FD9",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "A73492EB36754162BEE9588EF11F2FD9",
+      "target": "B996EA76F6EC401A9148E1F0507C179A",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "A73492EB36754162BEE9588EF11F2FD9",
+      "target": "26BFCA2FC4E44906BAAB903F56228AB0",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B5A1748B3FB14D8EA1B9992E6E0409BF",
+      "target": "A73492EB36754162BEE9588EF11F2FD9",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B5A1748B3FB14D8EA1B9992E6E0409BF",
+      "target": "592F9B4AA5B5491F827732B4D4675681",
+      "type": "narrower",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B5A1748B3FB14D8EA1B9992E6E0409BF",
+      "target": "6B2E2534F05E41069B3E1A18F5B552D4",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B5A1748B3FB14D8EA1B9992E6E0409BF",
+      "target": "B8ED66ABF42C4C94B1950954F56B46F0",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B5A1748B3FB14D8EA1B9992E6E0409BF",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "68137F318C6144AAAF17C8290F33061E",
+      "target": "BFA8DCA4C0C24066BAF0F869C88CF522",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "6BB666C0D9224ED7AE3400FC770A3496",
+      "target": "68137F318C6144AAAF17C8290F33061E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "68137F318C6144AAAF17C8290F33061E",
+      "target": "C213F67401F9445F8429A5F2621563E5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "68137F318C6144AAAF17C8290F33061E",
+      "target": "26BFCA2FC4E44906BAAB903F56228AB0",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "26BFCA2FC4E44906BAAB903F56228AB0",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "26BFCA2FC4E44906BAAB903F56228AB0",
+      "target": "B5A1748B3FB14D8EA1B9992E6E0409BF",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "26BFCA2FC4E44906BAAB903F56228AB0",
+      "target": "9D9002D8700F4A2D893B0869236D586F",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9D9002D8700F4A2D893B0869236D586F",
+      "target": "C470397E9BCC44ECB45F21E1521E18C1",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "3FF051A223694384AA2AA4EDE96BC144",
+      "target": "9D9002D8700F4A2D893B0869236D586F",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9D9002D8700F4A2D893B0869236D586F",
+      "target": "E7BFAD48788E4AFE9B6EA752F7671AB1",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9D9002D8700F4A2D893B0869236D586F",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "9D9002D8700F4A2D893B0869236D586F",
+      "target": "2AEC483F2F894D19A2807A453EDF46DA",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9D9002D8700F4A2D893B0869236D586F",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9D9002D8700F4A2D893B0869236D586F",
+      "target": "879087898C9746AA88A2BE11CA9F1331",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "2AEC483F2F894D19A2807A453EDF46DA",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "2AEC483F2F894D19A2807A453EDF46DA",
+      "target": "3C7DBDDAC30A4CEDA9AF6EA4D195C374",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "2AEC483F2F894D19A2807A453EDF46DA",
+      "target": "04F924E0CC51EDF12DBB02871348AD74",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "2AEC483F2F894D19A2807A453EDF46DA",
+      "target": "3633354029CFE10F551F7CA219518DAC",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "2AEC483F2F894D19A2807A453EDF46DA",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "C470397E9BCC44ECB45F21E1521E18C1",
+      "target": "BFA8DCA4C0C24066BAF0F869C88CF522",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "C470397E9BCC44ECB45F21E1521E18C1",
+      "target": "E7BFAD48788E4AFE9B6EA752F7671AB1",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "B3EA44B110164A69A3BD4B928633F1E3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "AE0799C6978C430E8B793BC7101E1A12",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "108A205E354349B7B235F2EDB2FD6A52",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "FEC1A5C44287454E9CA7BCBB4E5EC15C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "FAF773D669C84BC49FB837C8DC094417",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "2A6D62207284EAED0144C1FDBFABE5CD",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "E928CB27776B41508EE8B5DE01F40D61",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "294776C0D86D489387DACD94A9927CEB",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "E8C84F900ED34DA98391B4A8593684E1",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "97E01B3F4DF6EC02175D948C7567769E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "C7824F7FB65A4B75A74AC15AFD08EC5C",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "112D55EA871649C98F620B987B18D623",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "6DFF61AF1A174D40865772C3AB40FF7E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "8AC80D4CBCF3EC2FB87444DBA8BEBD67",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "14C5477A6EE041A3B19DAD048E3FBB5B",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "AB07CB83562E4E8FB296FD5FA74B7DB3",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "374926D1B4A0440A807608CC09170687",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "B002D95B61D1427697DF9636DF3B6E0A",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "22EED87D5EEC4CA68E16AB238733762E",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "48991B831FEB414988B143D181EB0DEF",
+      "target": "55CE96F733184F5FBA91482E85085853",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "DBB07A9A48FD421E8F6E02D219149549",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "64297813E037448AB17A91940A7008DE",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55CE96F733184F5FBA91482E85085853",
+      "target": "2AEC483F2F894D19A2807A453EDF46DA",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "B31B67349BA147D8A57CDBAF1EDE3B35",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "618FD8010F10E760CBC53B05C0F1DC25",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "E8BF9EC5D142EF326540C7ED4200001D",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "55581A433C3D45CEB183D21F214B5DB3",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "4657EFC24412422099AA26E26F483158",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "3E78A8B4557E4886A5D3BC8F84BFB09E",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "D941821F406B4A20B1E60AD343B49717",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "10C0903A3A7048C193248AAA8629D4D4",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "C7CC32A1E2224C06A744204F2B89557C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "370AC40D2874E1246B99EB8122E23C9A",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "A72CD9234D5E4386A7C153F8E08CF797",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "1026FD55727C4292B730BB0C841E20E7",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "9418F5521D7B489CA21A536FB126B118",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "E3503B9BB6424884B3157B754204073E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "64297813E037448AB17A91940A7008DE",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "4E323D7B85E34704B18BD5AB68F84E22",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "A61D5813EBB7E2C5981ECFA84987639B",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "B492C6CABFF847E5814269886AE0C4E9",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "AAC65ADBDE024CAFA9F155EDDCCA0C1F",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "703AB631CB76E66408E7D6F7160F01F5",
+      "target": "568978583E424499943612635F17DB7F",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "1026FD55727C4292B730BB0C841E20E7",
+      "target": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "4E323D7B85E34704B18BD5AB68F84E22",
+      "target": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "64297813E037448AB17A91940A7008DE",
+      "target": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "379BEFFCBC0C4B9683034D7269624B3C",
+      "target": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "target": "3491B0317F6A4084995CD331AD2C278E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "C01E406DEFE6475ABF35B7FABEA3D636",
+      "target": "2F9E3A01AFCCEAC5262DC3738E50F13A",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "D941821F406B4A20B1E60AD343B49717",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "618FD8010F10E760CBC53B05C0F1DC25",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "D94FA897F92748119D02B1738E91BD1C",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "B492C6CABFF847E5814269886AE0C4E9",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "82D2161C8BB4E087647B84F29B41D6D3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "target": "B31B67349BA147D8A57CDBAF1EDE3B35",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B492C6CABFF847E5814269886AE0C4E9",
+      "target": "797723473B3647F38FDE65C86DBE2669",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "B492C6CABFF847E5814269886AE0C4E9",
+      "target": "12119CC76EF849FF97AEEF4858C87628",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B492C6CABFF847E5814269886AE0C4E9",
+      "target": "048D1BC9980545A2BF50BCE956D33C2C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "AAC65ADBDE024CAFA9F155EDDCCA0C1F",
+      "target": "10C0903A3A7048C193248AAA8629D4D4",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "AAC65ADBDE024CAFA9F155EDDCCA0C1F",
+      "target": "523CD2C496054AA682E01449BD6EE537",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "AAC65ADBDE024CAFA9F155EDDCCA0C1F",
+      "target": "EFDFB11C5F3247618BA648A0DD0EB4B3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5F1349F0A072481181E9D852C41EC6BD",
+      "target": "D94FA897F92748119D02B1738E91BD1C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "D94FA897F92748119D02B1738E91BD1C",
+      "target": "F115687B598B470AB058ADEDD3C97F66",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "797723473B3647F38FDE65C86DBE2669",
+      "target": "A868B8CCFDF44B2890211A0FAFE9F2B9",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "5F1349F0A072481181E9D852C41EC6BD",
+      "target": "797723473B3647F38FDE65C86DBE2669",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "549FF19A14C34681BDC8A37E58CDEDB8",
+      "target": "797723473B3647F38FDE65C86DBE2669",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "797723473B3647F38FDE65C86DBE2669",
+      "target": "1026FD55727C4292B730BB0C841E20E7",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "12119CC76EF849FF97AEEF4858C87628",
+      "target": "797723473B3647F38FDE65C86DBE2669",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "E8BF9EC5D142EF326540C7ED4200001D",
+      "target": "797723473B3647F38FDE65C86DBE2669",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "797723473B3647F38FDE65C86DBE2669",
+      "target": "F115687B598B470AB058ADEDD3C97F66",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "797723473B3647F38FDE65C86DBE2669",
+      "target": "D94FA897F92748119D02B1738E91BD1C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "568978583E424499943612635F17DB7F",
+      "target": "F115687B598B470AB058ADEDD3C97F66",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "568978583E424499943612635F17DB7F",
+      "target": "10C0903A3A7048C193248AAA8629D4D4",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "568978583E424499943612635F17DB7F",
+      "target": "00BA6D4E6EF645E480AB0B732786C2BB",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "568978583E424499943612635F17DB7F",
+      "target": "618FD8010F10E760CBC53B05C0F1DC25",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "568978583E424499943612635F17DB7F",
+      "target": "797723473B3647F38FDE65C86DBE2669",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "77E5DDB689E847A198C9D181A95A2B27",
+      "target": "4657EFC24412422099AA26E26F483158",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "DBA5068DF2C24AE6A61E7337FF0B529D",
+      "target": "77E5DDB689E847A198C9D181A95A2B27",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "77E5DDB689E847A198C9D181A95A2B27",
+      "target": "703AB631CB76E66408E7D6F7160F01F5",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "77E5DDB689E847A198C9D181A95A2B27",
+      "target": "E500F3DB980EEA00468CEB52774C33B7",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "618FD8010F10E760CBC53B05C0F1DC25",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "4FAFE46E3FC7417BAC3D18A3C7D260C2",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "1DECA0446C2D4E74BF311F15691FB7A7",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "55581A433C3D45CEB183D21F214B5DB3",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "95E0DCD23ED9E61EE2BC99ECDBC8D8C0",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "8B68A1DE8700E8697ABFF0E02CF7F845",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "1026FD55727C4292B730BB0C841E20E7",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "370AC40D2874E1246B99EB8122E23C9A",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "14C5477A6EE041A3B19DAD048E3FBB5B",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "4E323D7B85E34704B18BD5AB68F84E22",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "A61D5813EBB7E2C5981ECFA84987639B",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0E46A9D425ED4F89AB54563B472E6EF6",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "46FD5CCF1C43454DB91FC516E5D3B7F7",
+      "target": "A801789EBB804ABB86C36BB8CAB50FED",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "46FD5CCF1C43454DB91FC516E5D3B7F7",
+      "target": "4D2AFD7905384761BB166DCD6782B315",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "46FD5CCF1C43454DB91FC516E5D3B7F7",
+      "target": "10C0903A3A7048C193248AAA8629D4D4",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "46FD5CCF1C43454DB91FC516E5D3B7F7",
+      "target": "77E5DDB689E847A198C9D181A95A2B27",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "46FD5CCF1C43454DB91FC516E5D3B7F7",
+      "target": "E500F3DB980EEA00468CEB52774C33B7",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "10C0903A3A7048C193248AAA8629D4D4",
+      "target": "E9694E11B244E2587DE1BB0F8D416710",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "10C0903A3A7048C193248AAA8629D4D4",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "10C0903A3A7048C193248AAA8629D4D4",
+      "target": "D3D5A6BA921F4EFD915F7B12D2779668",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "4657EFC24412422099AA26E26F483158",
+      "target": "10C0903A3A7048C193248AAA8629D4D4",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "8C7168F542A84B6CB338D26C0D301AC9",
+      "target": "10C0903A3A7048C193248AAA8629D4D4",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "B596151C89A441D493D3B839D8579C43",
+      "target": "10C0903A3A7048C193248AAA8629D4D4",
+      "type": "broader",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "10C0903A3A7048C193248AAA8629D4D4",
+      "target": "54135CB53EEE434D8B77F1C91F81A26C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "4657EFC24412422099AA26E26F483158",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "7329FDEC013DEAD42EBB1EE8D4348E33",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0DD5324F4D5F4083B4CAA0D5360C7218",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "D941821F406B4A20B1E60AD343B49717",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "72E10246A92341B09224346EC3B1C47C",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "108A205E354349B7B235F2EDB2FD6A52",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "6D7204B00C3E4F1B99909ABBFDE53798",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "9D3855920D804CC38601F6D85145019F",
+      "target": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "83C2E82C31DB4115A3CDF5884D0CB19E",
+      "target": "82D2161C8BB4E087647B84F29B41D6D3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "E500F3DB980EEA00468CEB52774C33B7",
+      "target": "108A205E354349B7B235F2EDB2FD6A52",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "108A205E354349B7B235F2EDB2FD6A52",
+      "target": "618FD8010F10E760CBC53B05C0F1DC25",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "108A205E354349B7B235F2EDB2FD6A52",
+      "target": "72E10246A92341B09224346EC3B1C47C",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "7A7BDCD83AE14B19B4D78332D456B1D3",
+      "target": "9D3855920D804CC38601F6D85145019F",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "82D2161C8BB4E087647B84F29B41D6D3",
+      "target": "9D3855920D804CC38601F6D85145019F",
+      "type": "broader",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "82D2161C8BB4E087647B84F29B41D6D3",
+      "target": "C22A37A43832E506617EB2F4434E855F",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "79CD788B08C5E8B37070B3DD452FB313",
+      "target": "82D2161C8BB4E087647B84F29B41D6D3",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "0DD5324F4D5F4083B4CAA0D5360C7218",
+      "target": "82D2161C8BB4E087647B84F29B41D6D3",
+      "type": "related",
+      "status": "accepted",
+      "note": ""
+    },
+    {
+      "source": "82D2161C8BB4E087647B84F29B41D6D3",
+      "target": "C068EBF06ABC4693BF6C2868E2385C69",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
+    },
+    {
+      "source": "82D2161C8BB4E087647B84F29B41D6D3",
+      "target": "A61D5813EBB7E2C5981ECFA84987639B",
+      "type": "related",
+      "status": "rejected",
+      "note": ""
     }
   ],
-  "reviewedSubjects": {}
+  "reviewedSubjects": {
+    "F3B3303C979E42428EFC5629B545E4E4": true,
+    "82A5773ED5884220A919FDF77F608B7B": true,
+    "592F9B4AA5B5491F827732B4D4675681": true,
+    "04F924E0CC51EDF12DBB02871348AD74": true,
+    "183823600ED74219B463809E7A4803D6": true,
+    "0905F934B5D4402E84FCD0F0E325E0A7": true,
+    "173632E7BF104AB486EFBB383AF8DEAD": true,
+    "5CF47B6B008F461986A90EF7E6BF176E": true,
+    "9170438CF5C0E2D84968B1DE41C36F0F": true,
+    "B4480B0CDB52EF0534E437134978DC1E": true,
+    "D49918E5C4014E13A7AD43BCB1E89561": true,
+    "9AB88215A3AC410692D350AE3BEB3A54": true,
+    "B8ED66ABF42C4C94B1950954F56B46F0": true,
+    "B996EA76F6EC401A9148E1F0507C179A": true,
+    "50E64D5F25E34797A55642F2919C4317": true,
+    "7A7BDCD83AE14B19B4D78332D456B1D3": true,
+    "6B2E2534F05E41069B3E1A18F5B552D4": true,
+    "0CA85F9D98D4467C8454CE42CA5BB10D": true,
+    "41DF1CE89518406AB97E142EE368CE54": true,
+    "5C9B2EC0371C49F7A3566365EC1285B8": true,
+    "A73492EB36754162BEE9588EF11F2FD9": true,
+    "B5A1748B3FB14D8EA1B9992E6E0409BF": true,
+    "68137F318C6144AAAF17C8290F33061E": true,
+    "26BFCA2FC4E44906BAAB903F56228AB0": true,
+    "9D9002D8700F4A2D893B0869236D586F": true,
+    "2AEC483F2F894D19A2807A453EDF46DA": true,
+    "C470397E9BCC44ECB45F21E1521E18C1": true,
+    "55CE96F733184F5FBA91482E85085853": true,
+    "703AB631CB76E66408E7D6F7160F01F5": true,
+    "C01E406DEFE6475ABF35B7FABEA3D636": true,
+    "00BA6D4E6EF645E480AB0B732786C2BB": true,
+    "B492C6CABFF847E5814269886AE0C4E9": true,
+    "AAC65ADBDE024CAFA9F155EDDCCA0C1F": true,
+    "D94FA897F92748119D02B1738E91BD1C": true,
+    "797723473B3647F38FDE65C86DBE2669": true,
+    "568978583E424499943612635F17DB7F": true,
+    "77E5DDB689E847A198C9D181A95A2B27": true,
+    "0E46A9D425ED4F89AB54563B472E6EF6": true,
+    "46FD5CCF1C43454DB91FC516E5D3B7F7": true,
+    "10C0903A3A7048C193248AAA8629D4D4": true,
+    "83C2E82C31DB4115A3CDF5884D0CB19E": true,
+    "108A205E354349B7B235F2EDB2FD6A52": true,
+    "9D3855920D804CC38601F6D85145019F": true
+  }
 }
