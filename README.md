@@ -53,7 +53,7 @@ Metadata is not invented. In particular, uncertain dates and original translatio
 
 ## Deployment
 
-`.github/workflows/pages.yml` builds and deploys on pushes to `main`. In repository Settings → Pages, select **GitHub Actions** as the source. The intended URL is `https://portlandiator.github.io/PI_browser/`. GitHub Pages for a private source repository requires an eligible GitHub plan; do not make a repository public implicitly. The workflow deploys only `dist/`, not raw inputs or project guidance.
+`.github/workflows/pages.yml` builds and deploys on pushes to `main`. In repository Settings â†’ Pages, select **GitHub Actions** as the source. The intended URL is `https://portlandiator.github.io/PI_browser/`. GitHub Pages for a private source repository requires an eligible GitHub plan; do not make a repository public implicitly. The workflow deploys only `dist/`, not raw inputs or project guidance.
 
 The published artifact must remain under GitHub Pages' 1 GB limit. Run the collection tests to check the artifact size and index integrity. Deployment is complete only after the workflow succeeds and the public URL is verified.
 
@@ -61,7 +61,7 @@ Interface-only deployments reuse an exact-match GitHub Actions cache of the gene
 
 The cache fingerprint covers every file in `data/` and `pdf_volumes - copy/`, root CSVs, the subject reference document, and the builder's recursive local module imports (including shared parsers). It includes the Node major version. Source text, translations, and metadata reach CI through `data/collection.tar.gz`; update that archive with the Windows updater when changing the source folders. The first deployment, changed build inputs, or an evicted cache trigger a full build. Only successfully tested output is cached; partial cache matches are never used. Browser-only HTML, CSS, fonts, and JavaScript changes reuse data unless that JavaScript is also imported by the builder.
 
-Documentation-only pushes do not deploy. To rebuild manually, use **Actions → Build and deploy Partial Inventory browser → Run workflow → Force full rebuild**. This bypasses cache restoration and saving for that run; delete a suspect entry in Actions caches if it should also be replaced for later runs. GitHub Pages requires a complete artifact on every deployment, so this optimization removes repeated computation, not the final whole-site upload. It preserves the existing site URL and all data paths.
+Documentation-only pushes do not deploy. To rebuild manually, use **Actions â†’ Build and deploy Partial Inventory browser â†’ Run workflow â†’ Force full rebuild**. This bypasses cache restoration and saving for that run; delete a suspect entry in Actions caches if it should also be replaced for later runs. GitHub Pages requires a complete artifact on every deployment, so this optimization removes repeated computation, not the final whole-site upload. It preserves the existing site URL and all data paths.
 
 ## Design and maintenance
 
@@ -71,7 +71,7 @@ See `DESIGN.md`, `AGENTS.md`, and the project `SKILL.md`. Noto Naskh Arabic is b
 
 ## Enhanced catalogue metadata
 
-Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records, except that denied originals must have an empty First line (original) in public copies. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.
+Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current fieldâ€™s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records, except that denied originals must have an empty First line (original) in public copies. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.
 
 ## One-click Windows updates
 
@@ -102,6 +102,6 @@ Volume view (`volume-view.html`) provides a dropdown for all published PDFs, pag
 
 Records with no Manuscripts or Publications entries retain their catalogue identity and English translation, but their original text is excluded from the source archive, generated record downloads, excerpts and search index. Their public `First line (original)` field is empty. Local source files remain unchanged. Missing metadata also means the original is withheld.
 
-Volumes 166 and 193 are withheld from GitHub and Pages because they contain restricted original wording or incipits. Their local source PDFs remain intact. `data/withheld-pdf-volumes.json` controls the exclusion, including removal of stale PDF copies during local builds. Catalogue records retain their volume numbers without a download link.
+All supplied volume PDFs, including volumes 166 and 193, are published with the owner’s explicit authorization. The original-text restriction applies to the source archive, generated records, metadata incipits, and search index. `data/withheld-pdf-volumes.json` remains available for any future PDF exclusions and is currently empty.
 
 `python scripts/archive-sources.py` packages only permitted originals. Use `--from-archive data/collection.tar.gz` to filter the existing archive without importing local source changes. `--check` rejects an unsafe archive; deployment runs this check before building or restoring cached output. Removed original-only IDs survive in an ID-only manifest.
