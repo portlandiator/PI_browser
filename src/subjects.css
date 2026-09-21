@@ -28,3 +28,6 @@
 .continuous-passages .passage-pair:last-child p{margin-bottom:0}
 .passage-controls .type-controls span{display:inline;min-width:3ch}
 @media(max-width:700px){.passage-reader .passage-pair p{font-size:calc(19px * var(--scale))}.passage-reader .passage-pair [dir=rtl]{font-size:calc(23px * var(--scale))}.passage-controls{gap:8px}.passage-controls .segmented button{padding-inline:10px}.continuous-passages .passage-original{margin-top:12px}.passage-reader[data-mode=original] .passage-original{margin-top:0}}
+
+.passage-reference{white-space:pre-wrap;overflow-wrap:anywhere;font-size:calc(16px * var(--scale));line-height:1.6;margin:12px 0 0;color:var(--muted)}
+.passage-translation p{white-space:pre-wrap}

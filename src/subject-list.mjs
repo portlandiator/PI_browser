@@ -4,8 +4,20 @@ export function publicSelections(selections,sources){
   return [...selections].sort((a,b)=>Boolean(b.passage)-Boolean(a.passage)||(a.passage&&b.passage?compareSelections(a,b,sources):0));
 }
 
+// The imported original contains the citation that the matching excerpt omits.
+// Keep it verbatim; tentative catalog candidates are never source references.
 export function unlinkedPassage(selection){
-  return `<p class="passage-meta">Source ID not linked</p><div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(selection.excerpt)}</p></div><div class="passage-original"><p dir="ltr" lang="en">Original text unavailable</p></div></div>`;
+  const excerpt=selection.excerpt||'',original=selection.original||excerpt;
+  const reference=original.startsWith(excerpt)?original.slice(excerpt.length).trim():'';
+  const text=reference?excerpt:original;
+  const provenance=selection.provenance||{};
+  let source=reference||((selection.suppliedIds||[]).join(', '));
+  if(!source){
+    const label=`Source collection · selection ${provenance.selectionParagraph||selection.id||'unidentified'}`;
+    let href;try{const url=new URL(provenance.subjectUrl);if(['http:','https:'].includes(url.protocol))href=url.href;}catch{}
+    source=href?`<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`:escapeHtml(label);
+  }else source=escapeHtml(source);
+  return `<p class="passage-meta">Source ID not linked</p><div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(text)}</p></div><div class="passage-original"><p dir="ltr" lang="en">Original text unavailable</p></div></div><p class="passage-reference" dir="ltr">${source}</p>`;
 }
 
 // Citation totals use the same source metadata as Catalog view.
