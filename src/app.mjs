@@ -1,6 +1,6 @@
 import {authorizedRanges,isAuthorizedParagraph,catalogueDetails} from './translation-status.mjs';
 import {recordFilename} from './record-file.mjs';
-import {countReferences} from './citations.mjs';
+import {mayPublishOriginal} from './original-publication.mjs';
 import {escapeHtml as esc,normalize,tokenize,parseQuery,matchRanges} from './text.mjs';
 import {loadCompressed} from './data.mjs';
 import {renderMetadata,renderReferenceList,hasFilter} from './metadata.mjs';
@@ -178,7 +178,7 @@ async function openReader(id,{push=true}={}){
   $('collection').hidden=true;$('reader').hidden=false;$('reader-id').textContent=id;$('reader-content').innerHTML='<div class="loading-state"><div class="loading-line"></div><p>Opening text…</p></div>';window.scrollTo(0,0);
   try{
     const sourceRecord=await getRecord(id);if(token!==readerRequest)return;
-    const hasOriginalReferences=['Manuscripts','Publications'].some(field=>countReferences(sourceRecord.metadata?.[field]||'')>0);
+    const hasOriginalReferences=mayPublishOriginal(sourceRecord.metadata);
     // Apply catalogue availability only to this reading view; preserve cached source content.
     const record=hasOriginalReferences?sourceRecord:{...sourceRecord,hasOriginal:false,paired:false,original:{...sourceRecord.original,paragraphs:[],notes:[]}};
     reading=record;translationRanges=authorizedRanges(record.metadata?.Authorized);selectedPassage=null;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;

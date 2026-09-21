@@ -5,9 +5,12 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {gunzipSync} from 'node:zlib';
 import {fileURLToPath} from 'node:url';
-import {parseText,tokenize,parseQuery,shardKey,unpackPosting,matchPostings} from '../src/text.mjs';
+import {parseCsv,parseText,tokenize,parseQuery,shardKey,unpackPosting,matchPostings} from '../src/text.mjs';
+import {mayPublishOriginal} from '../src/original-publication.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
+const metadataFolder=path.join(root,'metadata - copy');
+const sourceMetadata=new Map(parseCsv(await fs.readFile(path.join(metadataFolder,(await fs.readdir(metadataFolder)).find(n=>n.endsWith('.csv'))),'utf8')).map(row=>[row.PIN,row]));
 const stats=JSON.parse(await fs.readFile(path.join(out,'stats.json'),'utf8'));
 const load=async file=>JSON.parse(gunzipSync(await fs.readFile(path.join(out,stats.dataset||'',file))));
 let catalog;
@@ -20,9 +23,9 @@ test('catalogue includes all input IDs and expected languages',async()=>{
   const english=new Set((await fs.readdir(path.join(root,'translated_texts - copy'))).filter(n=>n.endsWith('.txt')).map(n=>n.slice(0,-4)));
   const records=new Map(catalog.map(row=>[row.id,row]));
   assert.equal(records.size,catalog.length);
-  for(const id of originals)assert.ok(records.get(id)?.hasOriginal,id);
+  for(const id of originals)assert.ok(records.has(id),id);
   for(const id of english)assert.ok(records.get(id)?.hasEnglish,id);
-  for(const row of catalog){assert.equal(row.hasOriginal,originals.has(row.id));assert.equal(row.hasEnglish,english.has(row.id));}
+  for(const row of catalog){assert.equal(row.hasOriginal,originals.has(row.id)&&mayPublishOriginal(sourceMetadata.get(row.id)),row.id);assert.equal(row.hasEnglish,english.has(row.id));}
   assert.ok(catalog.length>=28949);
 });
 test('sampled generated paragraphs preserve source text through encoding and rendering',async()=>{
@@ -31,6 +34,7 @@ test('sampled generated paragraphs preserve source text through encoding and ren
   for(const id of new Set(ids)){
     const record=await load(`data/${recordFilename(id)}`);
     for(const [lang,folder] of [['en','translated_texts - copy'],['original','original_texts - copy']]){
+      if(lang==='original'&&!mayPublishOriginal(sourceMetadata.get(id))){assert.deepEqual(record.original,parseText('','original'));continue;}
       let bytes;try{bytes=await fs.readFile(path.join(root,folder,id+'.txt'));}catch{assert.equal(record[lang].paragraphs.length,0);continue;}
       let text;try{text=new TextDecoder('utf-8',{fatal:true}).decode(bytes);}catch{text=new TextDecoder('windows-1252').decode(bytes);}
       assert.deepEqual(record[lang],parseText(text,lang),`${id} ${lang}`);

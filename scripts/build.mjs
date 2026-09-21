@@ -9,6 +9,7 @@ import {buildSubjects} from './build-subjects.mjs';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
 import {citationCount} from '../src/citations.mjs';
+import {mayPublishOriginal,publicMetadata} from '../src/original-publication.mjs';
 import {parsePeriodRenaming,renamePeriods,requireCompletePeriodRenaming} from './period-renaming.mjs';
 import {buildVolumes} from './build-volumes.mjs';
 
@@ -32,7 +33,7 @@ if(metadataFiles.length!==1)throw new Error(`Expected one enhanced metadata CSV,
 let schema;
 for(const filename of metadataFiles){
   report.metadataFile=filename;
-  let rows=parseCsv(await readText(path.join(root,sources[2],filename)));
+  let rows=parseCsv(await readText(path.join(root,sources[2],filename))).map(publicMetadata);
   const periods=renamePeriods(rows,periodMapping);rows=periods.rows;metadataOriginalValues=periods.originalValues;report.periodRenaming=periods.report;
   requireCompletePeriodRenaming(periods.report);
   if(!rows.length||!Object.hasOwn(rows[0],'PIN'))throw new Error('Enhanced metadata must contain a PIN column.');
@@ -45,7 +46,12 @@ for(const filename of metadataFiles){
   }
 }
 const files=await Promise.all(sources.slice(0,2).map(async folder=>new Set((await fs.readdir(path.join(root,folder))).filter(n=>n.endsWith('.txt')).map(n=>n.slice(0,-4)))));
-const ids=[...new Set([...metadata.keys(),...files[0],...files[1]])].sort();
+let withheld=[];
+try{withheld=JSON.parse(await fs.readFile(path.join(root,sources[2],'withheld-original-ids.json'),'utf8'));}catch(error){if(error.code!=='ENOENT')throw error;}
+if(!Array.isArray(withheld)||withheld.some(id=>typeof id!=='string'))throw Error('Invalid withheld-original ID manifest');
+const ids=[...new Set([...metadata.keys(),...files[0],...files[1],...withheld])].sort();
+report.withheldOriginal=[...new Set([...withheld,...[...files[0]].filter(id=>!mayPublishOriginal(metadata.get(id)))])].sort();
+files[0]=new Set([...files[0]].filter(id=>mayPublishOriginal(metadata.get(id))));
 for(const id of ids)if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error(`Unsafe filename ${id}`);
 await fs.mkdir(out,{recursive:true});
 // Every build has an immutable dataset path, preventing stale browsers from mixing

@@ -9,6 +9,8 @@ Read [DESIGN.md](DESIGN.md) for the visual system. This project adapts the typog
 
 ## Corpus work
 
+Original text is publishable only when Manuscripts or Publications contains an entry. Apply `src/original-publication.mjs` before generating records, excerpts, facets or search indices. `scripts/archive-sources.py` excludes denied original files and clears their First line (original) metadata in public copies; local inputs remain immutable. Its ID-only manifest preserves records whose only input was a withheld original. Never upload an unfiltered archive. Validate it with `python scripts/archive-sources.py --check`.
+
 Inspect build-report.json after import. The enhanced metadata CSV uses UTF-8; text files are predominantly UTF-8 with some Windows-1252 translations. Strictly attempt UTF-8 before a Windows-1252 fallback and report every fallback. Parse quoted, multiline CSV values correctly. Preserve missing fields and ambiguous dates as supplied.
 
 File basenames are the IDs. Join metadata by the full ID. Include the union of source and metadata IDs. Missing counterparts and differing paragraph counts are data conditions to present honestly. Never infer paragraph correspondence by splitting prose at sentence boundaries.
@@ -29,4 +31,4 @@ Use warm paper backgrounds, dark green navigation, thin rules, readable serif te
 
 ## Enhanced catalogue metadata
 
-Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.
+Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records, except that denied originals must have an empty First line (original) in public copies. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.

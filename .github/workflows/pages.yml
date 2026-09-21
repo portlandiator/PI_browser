@@ -44,6 +44,10 @@ jobs:
           node-version: 22
       - name: Test parser and search semantics
         run: node --test tests/core.test.mjs tests/subjects.test.mjs
+      - name: Verify source publication policy
+        run: |
+          python -m unittest discover -s tests -p test_archive_sources.py
+          python scripts/archive-sources.py --check
       - name: Fingerprint source data and build dependencies
         id: inputs
         run: node scripts/deployment-cache.mjs key >> "$GITHUB_OUTPUT"

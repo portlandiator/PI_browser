@@ -45,7 +45,7 @@ The original folders are immutable inputs:
 - `translated_texts - copy/`
 - `metadata - copy/`
 
-The versioned `data/collection.tar.gz` contains these inputs exactly, avoiding tens of thousands of small source files in Git. If the source folders are absent, the build extracts the archive. To update the corpus, edit the source collection intentionally, run `python scripts/archive-sources.py`, rebuild, and review `build-report.json`. The importer strictly attempts UTF-8, then Windows-1252; fallback filenames and missing/unpaired records are recorded in the report.
+The versioned `data/collection.tar.gz` contains publishable source inputs, avoiding tens of thousands of small source files in Git. If the source folders are absent, the build extracts the archive. To update the corpus, edit the source collection intentionally, run `python scripts/archive-sources.py`, rebuild, and review `build-report.json`. The importer strictly attempts UTF-8, then Windows-1252; fallback filenames and missing/unpaired records are recorded in the report.
 
 Period labels are replaced during import using the versioned `period_renaming.csv` (`Old,New`). Replacements are literal, case-sensitive, and applied in one pass only to Period; suffixes such as `?` remain. Every nonempty Period must change; the build fails with the remaining values and counts if the mapping is incomplete. The input CSV is untouched, and changed records retain their imported Period in `metadataOriginalValues.Period`. The build report lists mappings, the changed record count, and unmapped values. Update the mapping file and rebuild to change the labels in filters and readers.
 
@@ -71,13 +71,13 @@ See `DESIGN.md`, `AGENTS.md`, and the project `SKILL.md`. Noto Naskh Arabic is b
 
 ## Enhanced catalogue metadata
 
-Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.
+Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. All source columns generate filter controls and appear in catalogue details, including empty values. Categorical selections use OR within a field and AND across fields; counts exclude the current field’s own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records, except that denied originals must have an empty First line (original) in public copies. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.
 
 ## One-click Windows updates
 
 After replacing source files, double-click **Update-Collection.cmd** in the project folder. Keep exactly one CSV (with a `PIN` column) in `metadata - copy`, and keep all current `.txt` files in the two source-text folders. Wait for Dropbox to finish syncing and avoid editing those files during the update.
 
-The utility checks GitHub access, fast-forwards `main`, packages every current source file into `data/collection.tar.gz`, builds and tests a separate snapshot, commits only the tested archive and build report, pushes, waits for GitHub Pages, and verifies the public collection counts. Files removed from the source folders are omitted from the next archive. It preserves the current preview server and refreshes its built files after successful publication. The window stays open to show success or errors.
+The utility checks GitHub access, fast-forwards `main`, packages the current publishable source files into `data/collection.tar.gz`, builds and tests a separate snapshot, commits only the tested archive and build report, pushes, waits for GitHub Pages, and verifies the public collection counts. Files removed from the source folders are omitted from the next archive. It preserves the current preview server and refreshes its built files after successful publication. The window stays open to show success or errors.
 
 Requires Node.js 22+, Python 3, Git, GitHub CLI (`gh`), and Windows `tar`. It automatically finds the tools already installed on this computer, including the bundled runtimes; otherwise it uses PATH. On another computer, install those tools and run `gh auth login` and `gh auth setup-git` once. Run from a clean `main` checkout; source-folder edits are expected and are ignored by Git. The script uses your authenticated GitHub account's public no-reply address for update commits.
 
@@ -98,3 +98,8 @@ Drafts share the existing passage editor's browser storage. Use **Export decisio
 To publish, provide the exported `subject-edits.json` to the project maintainer (or Codex), replace `data/subject-edits.json` with that complete merged export, run the standard build and tests, and commit/push. The public graph changes only after this rebuild. GitHub Pages has no write-back service or reviewer accounts. The build publishes an editorial baseline alongside the subject index so later exports retain earlier decisions.
 
 Volume view (`volume-view.html`) provides a dropdown for all published PDFs, page navigation, zoom, active PDF hyperlinks, and single/two-page layouts. Automatic uses two pages on screens at least 1100px wide. Volume, page, layout and zoom are shareable URL parameters. PDF.js 6.3.289 is bundled under `src/vendor/pdfjs/` with its license; no CDN or package install is needed.
+# Original-text publication policy
+
+Records with no Manuscripts or Publications entries retain their catalogue identity and English translation, but their original text is excluded from the source archive, generated record downloads, excerpts and search index. Their public `First line (original)` field is empty. Local source files remain unchanged. Missing metadata also means the original is withheld.
+
+`python scripts/archive-sources.py` packages only permitted originals. Use `--from-archive data/collection.tar.gz` to filter the existing archive without importing local source changes. `--check` rejects an unsafe archive; deployment runs this check before building or restoring cached output. Removed original-only IDs survive in an ID-only manifest.

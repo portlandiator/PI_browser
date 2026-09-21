@@ -49,7 +49,7 @@ try {
     $ahead = @(Run $git @('-C',$root,'log','--format=%H','origin/main..HEAD'))
     if ($ahead.Count) { throw 'There are unpublished local commits. Push or resolve them before running the updater.' }
     Run $git @('-C',$root,'merge','--ff-only','origin/main')
-    Write-Host "`n2/5 Snapshotting every source text and the metadata CSV..." -ForegroundColor Cyan
+    Write-Host "`n2/5 Snapshotting publishable sources and filtered metadata..." -ForegroundColor Cyan
     $stage = Join-Path $root ('.qa/update-' + [Guid]::NewGuid().ToString('N'))
     New-Item -ItemType Directory -Path $stage | Out-Null
     foreach ($folder in @('src','scripts','tests')) { Copy-Item -LiteralPath (Join-Path $root $folder) -Destination $stage -Recurse }
@@ -71,7 +71,7 @@ try {
     Copy-Item -LiteralPath (Join-Path $stage 'data/collection.tar.gz') -Destination (Join-Path $root 'data/collection.tar.gz')
     Copy-Item -LiteralPath (Join-Path $stage 'build-report.json') -Destination (Join-Path $root 'build-report.json')
     Copy-Item -LiteralPath (Join-Path $stage 'subject-import-report.json') -Destination (Join-Path $root 'subject-import-report.json')
-    Write-Host "`n4/5 Uploading the complete source archive..." -ForegroundColor Cyan
+    Write-Host "`n4/5 Uploading the filtered source archive..." -ForegroundColor Cyan
     Run $git @('-C',$root,'add','--','data/collection.tar.gz','build-report.json','subject-import-report.json','pdf_volumes - copy')
     $account = (Run $gh @('api','user') | Out-String | ConvertFrom-Json)
     Run $git @('-C',$root,'-c',('user.name='+$account.login),'-c',('user.email='+$account.id+'+'+$account.login+'@users.noreply.github.com'),'commit','-m',('Refresh collection sources '+(Get-Date -Format 'yyyy-MM-dd HH:mm')))
