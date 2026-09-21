@@ -102,4 +102,6 @@ Volume view (`volume-view.html`) provides a dropdown for all published PDFs, pag
 
 Records with no Manuscripts or Publications entries retain their catalogue identity and English translation, but their original text is excluded from the source archive, generated record downloads, excerpts and search index. Their public `First line (original)` field is empty. Local source files remain unchanged. Missing metadata also means the original is withheld.
 
+Volumes 166 and 193 are withheld from GitHub and Pages because they contain restricted original wording or incipits. Their local source PDFs remain intact. `data/withheld-pdf-volumes.json` controls the exclusion, including removal of stale PDF copies during local builds. Catalogue records retain their volume numbers without a download link.
+
 `python scripts/archive-sources.py` packages only permitted originals. Use `--from-archive data/collection.tar.gz` to filter the existing archive without importing local source changes. `--check` rejects an unsafe archive; deployment runs this check before building or restoring cached output. Removed original-only IDs survive in an ID-only manifest.

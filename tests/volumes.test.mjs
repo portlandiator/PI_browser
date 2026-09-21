@@ -6,10 +6,15 @@ import {gunzipSync} from 'node:zlib';
 import {renderVolume} from '../src/volumes.mjs';
 import {volumeTitle} from '../scripts/volume-title.mjs';
 
-test('each supplied PDF is published byte-for-byte with a unique volume link',async()=>{
+test('permitted PDFs are published byte-for-byte and withheld PDFs have no public files or links',async()=>{
+  const withheld=JSON.parse(await fs.readFile('data/withheld-pdf-volumes.json','utf8'));
   const manifest=JSON.parse(await fs.readFile('dist/volumes.json','utf8'));
   const titles=JSON.parse(await fs.readFile('dist/volume-titles.json','utf8'));
-  const names=(await fs.readdir('pdf_volumes - copy')).filter(name=>/\.pdf$/i.test(name));
+  const names=(await fs.readdir('pdf_volumes - copy')).filter(name=>/\.pdf$/i.test(name)&&!Object.hasOwn(withheld,String(Number(/^volume_(\d+)\b/i.exec(name)[1]))));
+  for(const key of Object.keys(withheld)){
+    assert.ok(!manifest[key]);
+    await assert.rejects(fs.access(`dist/pdf-volumes/volume-${key}.pdf`));
+  }
   assert.equal(Object.keys(manifest).length,names.length);
   assert.deepEqual(Object.keys(titles),Object.keys(manifest));
   const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
@@ -22,7 +27,7 @@ test('each supplied PDF is published byte-for-byte with a unique volume link',as
   }
   const stats=JSON.parse(await fs.readFile('dist/stats.json','utf8'));
   const catalog=JSON.parse(gunzipSync(await fs.readFile(`dist/${stats.dataset}catalog.json.gz`)));
-  for(const record of catalog)if(record.volume)assert.ok(manifest[String(Number(record.volume))],record.id);
+  for(const record of catalog)if(record.volume&&!Object.hasOwn(withheld,String(Number(record.volume))))assert.ok(manifest[String(Number(record.volume))],record.id);
 });
 
 test('volume titles distinguish filename separators from names, compounds and date ranges',()=>{
