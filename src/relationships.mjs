@@ -1,3 +1,4 @@
+import {subjectColorStyle} from './subject-colors.mjs';
 import {escapeHtml as esc} from './text.mjs';
 import {loadCompressed} from './data.mjs';
 import {relationKey} from './subject-relations.mjs';
@@ -6,8 +7,7 @@ const $=id=>document.getElementById(id),storageKey='pi-subject-edits';
 let index,base,published,local=emptyDraft(),ids,byId,ordered=[],groups=[],active,edges=[],undo,ready=false;
 const cache=new Map();
 const message=(text,error=false)=>{$('review-message').textContent=text;$('review-message').className=error?'review-error':'';};
-const color=s=>/^#[a-f\d]{6}$/i.test(s.color)?s.color:'#203a32';
-const subjectLabel=s=>`<span style="color:${color(s)}">${esc(s.name)}</span>`;
+const subjectLabel=s=>`<span class="subject-label" style="${subjectColorStyle(s)};color:var(--subject-color);background:var(--subject-bg)">${esc(s.name)}</span>`;
 const draft=()=>mergeDrafts(published,local);
 const typeLabels={related:'Related subject',broader:'Broader subject',narrower:'Narrower subject'};
 const typeOptions=value=>Object.entries(typeLabels).map(([key,label])=>`<option value="${key}" ${key===value?'selected':''}>${label}</option>`).join('');

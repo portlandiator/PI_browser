@@ -37,3 +37,8 @@ textarea{background:var(--white);color:var(--ink);border:1px solid var(--control
 @media print{:root[data-theme]{color-scheme:light;--paper:#fff;--white:#fff;--ink:#000;--muted:#444;--rule:#bbb;--highlight:#eee;--target:#eee;--gold:#555}.theme-toggle{display:none}}
 
 @media(max-width:360px) and (orientation:portrait){.masthead nav,.masthead .nav-button{font-size:13px}}
+
+/* Display shades preserve the original subject palette and category assignments. */
+:root{--subject-d32b1e:#D32B1E;--subject-ffc000:#946F00;--subject-7e1510:#7E1510;--subject-7f7e80:#747375;--subject-cc9900:#886600;--subject-702c8c:#702C8C;--subject-ba1c30:#BA1C30;--subject-ed7d31:#B35514;--subject-cc0099:#CC0099;--subject-000000:#000000;--subject-4277b6:#4277B6;--subject-00b050:#007D39;--subject-cccc00:#777700;--subject-538135:#538135;--subject-2b3514:#2B3514;--subject-91218c:#91218C;--subject-00b0f0:#007DAA;--subject-2f5496:#2F5496}
+:root[data-theme=dark]{--subject-d32b1e:#F16B60;--subject-ffc000:#FFC000;--subject-7e1510:#C7807C;--subject-7f7e80:#A3A2A4;--subject-cc9900:#CC9900;--subject-702c8c:#B98BCC;--subject-ba1c30:#E86373;--subject-ed7d31:#ED7D31;--subject-cc0099:#E75BC4;--subject-000000:#C9CECA;--subject-4277b6:#78A1D2;--subject-00b050:#00B050;--subject-cccc00:#CCCC00;--subject-538135:#88AE68;--subject-2b3514:#97A66A;--subject-91218c:#C877C3;--subject-00b0f0:#00B0F0;--subject-2f5496:#7295D2}
+@media print{.subject-label{color:#000!important}.subject-graph text{fill:#000!important}}
