@@ -1,3 +1,13 @@
+import {escapeHtml} from './text.mjs';
+
+export function publicSelections(selections,sources){
+  return [...selections].sort((a,b)=>Boolean(b.passage)-Boolean(a.passage)||(a.passage&&b.passage?compareSelections(a,b,sources):0));
+}
+
+export function unlinkedPassage(selection){
+  return `<p class="passage-meta">Source ID not linked</p><div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(selection.excerpt)}</p></div><div class="passage-original"><p dir="ltr" lang="en">Original text unavailable</p></div></div>`;
+}
+
 // Citation totals use the same source metadata as Catalog view.
 export function compareSelections(a,b,sources){
   const sourceA=a.candidates[0]?.source||a.suppliedIds[0]||'~';
