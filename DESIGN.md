@@ -23,7 +23,10 @@ Use the same reading-room typography and paper. The introduction follows Catalog
 ## Reader
 Back-to-results navigation retains query, filters, sort, and pagination. The expandable metadata heading reads “Catalog details & source notes”. Manuscripts, Publications, and Translations omit empty comma-separated entries and trailing commas at display time, preserving links and source metadata. Header presents the ID, supplied title or a transparent fallback, author, and metadata. The Date / Recipient / Place summary substitutes Period for an absent Date when Period is available. Parallel / English / Original controls and text-size controls remain easy to reach. English is left; original is right, without an extra language-heading row above the columns. Equal-count documents pair paragraphs with subtle numbers and a central rule. Matching counts are not asserted to be editorially verified alignment; the equal-count explanatory line is omitted. Unequal-count documents use two independent columns and state why. On narrow screens, matching pairs stack English then original; unequal flows are separate language sections. Footnotes appear in a dedicated section with backlinks.
 
+In the Catalog reader, when both Manuscripts and Publications have no entries, suppress the original-language paragraphs and footnotes and display “The original text is not available for this record.” Empty comma-separated entries do not count. This display rule preserves the source record.
+
 ## State and accessibility
+
 Deep links use query parameters so GitHub Pages can serve every state without server routing. Results announce completion to assistive technology. Labels remain visible; controls have at least 40px hit areas. Focus is visible. Loading, unavailable text, no matches, invalid IDs, and failed fetches have distinct messages and recovery actions. User text-size and language display preferences are stored locally; no visitor tracking.
 
 ## Architecture choice

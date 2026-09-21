@@ -1,5 +1,6 @@
 import {authorizedRanges,isAuthorizedParagraph,catalogueDetails} from './translation-status.mjs';
 import {recordFilename} from './record-file.mjs';
+import {countReferences} from './citations.mjs';
 import {escapeHtml as esc,normalize,tokenize,parseQuery,matchRanges} from './text.mjs';
 import {loadCompressed} from './data.mjs';
 import {renderMetadata,renderReferenceList,hasFilter} from './metadata.mjs';
@@ -176,7 +177,11 @@ async function openReader(id,{push=true}={}){
   id=id.replace(/\.txt$/i,'');if(push){state.passage='';state.subject='';}state.id=id;if(push)updateUrl();const token=++readerRequest;
   $('collection').hidden=true;$('reader').hidden=false;$('reader-id').textContent=id;$('reader-content').innerHTML='<div class="loading-state"><div class="loading-line"></div><p>Opening text…</p></div>';window.scrollTo(0,0);
   try{
-    const record=await getRecord(id);if(token!==readerRequest)return;reading=record;translationRanges=authorizedRanges(record.metadata?.Authorized);selectedPassage=null;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;
+    const sourceRecord=await getRecord(id);if(token!==readerRequest)return;
+    const hasOriginalReferences=['Manuscripts','Publications'].some(field=>countReferences(sourceRecord.metadata?.[field]||'')>0);
+    // Apply catalogue availability only to this reading view; preserve cached source content.
+    const record=hasOriginalReferences?sourceRecord:{...sourceRecord,hasOriginal:false,paired:false,original:{...sourceRecord.original,paragraphs:[],notes:[]}};
+    reading=record;translationRanges=authorizedRanges(record.metadata?.Authorized);selectedPassage=null;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;
     const passageId=new URLSearchParams(location.search).get('passage');
     if(passageId){if(!/^[a-f\d]{24}$/.test(passageId))throw Error('Invalid passage ID');const passage=await loadCompressed(new URL(`subjects/passages/${passageId}.json.gz`,datasetBase));if(token!==readerRequest)return;if(passage.source!==record.id||passage.version!==record.enVersion)throw Error('Passage source version has changed; reopen the subject to locate the current selection.');selectedPassage=passage;visibleParagraphs=Math.max(100,...passage.ranges.map(r=>Math.ceil(r.paragraph/100)*100));}
     const title=record.title||(record.addressee?`To ${record.addressee}`:record.id);

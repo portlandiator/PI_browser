@@ -15,4 +15,5 @@ dialog{border:1px solid var(--rule);border-radius:8px;padding:45px;max-width:620
 #reading-paragraphs .authorized-translation > p{color:#163f80}
 :root[data-theme=dark] #reading-paragraphs .english-cell > p{color:var(--ink)}
 :root[data-theme=dark] #reading-paragraphs .authorized-translation > p{color:#9ec5ff}
+.paragraph-cell:has(>.missing-version)::before{display:none}
 @media print{#reading-paragraphs .english-cell > p{color:#202020!important}#reading-paragraphs .authorized-translation > p{color:#163f80!important}}
