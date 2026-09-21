@@ -87,14 +87,14 @@ export function matchesMetadata(value,filter){
   }
   return true;
 }
-export function facetSummary(values,indices,{query='',limit=40,selected=[],order=[]}={}){
+export function facetSummary(values,indices,{query='',limit=40,selected=[],order=[],label=value=>value}={}){
   const counts=new Map();let present=0;
   for(const index of indices){const value=values[index]||'';if(value.trim()){present++;counts.set(value,(counts.get(value)||0)+1);}}
   const needle=normalize(query);
   const ranks=new Map(order.map((value,i)=>[value,i]));
   const rank=value=>ranks.get(value)??ranks.get(value.replace(/\?$/,''))??Number.MAX_SAFE_INTEGER;
   const compare=(a,b)=>(order.length?rank(a[0])-rank(b[0]):b[1]-a[1])||a[0].localeCompare(b[0],undefined,{numeric:true});
-  const all=[...counts].filter(([value])=>!needle||normalize(value).includes(needle)).sort(compare);
+  const all=[...counts].filter(([value])=>!needle||normalize(value).includes(needle)||normalize(label(value)).includes(needle)).sort(compare);
   const visible=all.slice(0,limit),included=new Set(visible.map(([value])=>value));
   for(const value of selected)if(!included.has(value))visible.unshift([value,counts.get(value)||0]);
   if(order.length)visible.sort(compare);

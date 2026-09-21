@@ -1,15 +1,16 @@
 import {escapeHtml as esc} from './text.mjs';
 import {hasFilter} from './metadata.mjs';
+import {catalogFilterFields,volumeFilterLabel} from './catalog-filters.mjs';
 
 export class FacetPanel {
-  constructor({container,fields,getFilters,onChange,request}){
-    Object.assign(this,{container,fields,getFilters,onChange,request});
+  constructor({container,fields,getFilters,onChange,request,volumeTitles={}}){
+    fields=catalogFilterFields(fields);
+    Object.assign(this,{container,fields,getFilters,onChange,request,volumeTitles});
     this.limits=new Map();
-    const preferred=['date','volume','recipient','place','language','period','word-count'];
-    const ordered=[...fields].sort((a,b)=>{const x=preferred.indexOf(a.key),y=preferred.indexOf(b.key);return (x<0?100:x)-(y<0?100:y);});
+    const ordered=fields;
     container.innerHTML=`<div class="metadata-filter-heading"><h3>Refine search</h3></div>${ordered.map(field=>this.fieldMarkup(field)).join('')}`;
     const author=document.getElementById('author-field');
-    container.insertBefore(author,container.querySelector('.metadata-facet'));
+    container.insertBefore(author,this.node('pin')?.nextSibling||container.querySelector('.metadata-facet'));
     container.querySelector('.metadata-filter-heading').append(document.getElementById('reset-filters'));
     for(const field of fields){
       const root=this.node(field.key),key=field.key;
@@ -48,7 +49,7 @@ export class FacetPanel {
     if(data.type==='error'){root.querySelector('[data-facet-status]').textContent='Could not load values.';return;}
     root.querySelector('[data-facet-status]').textContent=`${data.present.toLocaleString()} recorded · ${data.missing.toLocaleString()} missing`;
     const options=root.querySelector('[data-facet-options]');
-    if(options){const selected=this.getFilters()[data.field]?.values||[];options.innerHTML=data.options.map(({value,count},i)=>`<label class="facet-option"><input type="checkbox" value="${esc(value)}" ${selected.includes(value)?'checked':''}><span dir="auto">${esc(value)}</span><span class="facet-count">${count.toLocaleString()}</span></label>`).join('')||'<p class="facet-status">No values match these filters.</p>';
+    if(options){const selected=this.getFilters()[data.field]?.values||[];options.innerHTML=data.options.map(({value,count},i)=>`<label class="facet-option"><input type="checkbox" value="${esc(value)}" ${selected.includes(value)?'checked':''}><span dir="auto">${esc(data.field==='volume'?volumeFilterLabel(value,this.volumeTitles):value)}</span><span class="facet-count">${count.toLocaleString()}</span></label>`).join('')||'<p class="facet-status">No values match these filters.</p>';
       const limit=this.limits.get(data.field)||40;if(data.optionCount>limit){if(limit<500){const button=document.createElement('button');button.className='text-button facet-more';button.textContent=`Show more (${data.optionCount.toLocaleString()} values)`;button.onclick=()=>{this.limits.set(data.field,Math.min(limit+60,500));this.load(data.field);};options.append(button);}else{const hint=document.createElement('p');hint.className='facet-help';hint.textContent='Type above to find more values.';options.append(hint);}}
     }
   }

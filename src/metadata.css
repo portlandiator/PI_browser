@@ -8,3 +8,24 @@
 /* Match the Subject view directory's 18px reading size on every screen. */
 .filter-rail .metadata-facet>summary,.filter-rail .facet-option,.filter-rail input:not([type=checkbox]),.filter-rail select,.filter-rail .metadata-filter-heading h3,.filter-rail .text-button,.filter-rail .facet-more,.filter-rail .facet-range label,.filter-rail .facet-status,.filter-rail .facet-help,.filter-rail .facet-count,.filter-rail .facet-selected{font-size:1rem}
 .filter-rail .facet-option{min-height:40px}.filter-rail .facet-option input{width:18px;height:18px;margin-top:4px}.filter-rail .facet-count{padding-top:0}.filter-rail .facet-selected{line-height:1.4;padding-inline:6px}.filter-rail .facet-bottom{flex-wrap:wrap}.filter-rail .metadata-filter-heading h3{line-height:1.4}.filter-rail #filter-toggle{font-size:1rem}
+/* Catalog results: one typographic point above the original sizes. */
+.results-panel{font-size:calc(18px + 1pt)}
+.results-panel .results-toolbar h2{font-size:calc(13px + 1pt)}
+.results-panel .results-toolbar label,.results-panel .results-toolbar select,.results-panel .result-code,.results-panel .filter-chip,.results-panel .pagination>span{font-size:calc(11px + 1pt)}
+.results-panel .result-title{font-size:calc(22px + 1pt)}
+.results-panel .result-author,.results-panel .result-meta{font-size:calc(10px + 1pt)}
+.results-panel .result-excerpt{font-size:calc(14px + 1pt)}
+.results-panel .result-excerpt[dir=rtl]{font-size:calc(18px + 1pt)}
+.results-panel .result-arrow{font-size:calc(20px + 1pt)}
+.results-panel .availability-label{font-size:calc(9px + 1pt)}
+.results-panel .secondary{font-size:calc(12px + 1pt)}
+.results-panel .empty-state h3{font-size:calc(26px + 1pt)}
+.results-panel .empty-state p,.results-panel .loading-state p{font-size:calc(13px + 1pt)}
+@media(max-width:1000px){.results-panel .result-title{font-size:calc(20px + 1pt)}}
+@media(max-width:700px){
+  .results-panel .results-toolbar h2{font-size:calc(12px + 1pt)}
+  .results-panel .results-toolbar label,.results-panel .results-toolbar select,.results-panel .result-code{font-size:calc(10px + 1pt)}
+  .results-panel .result-title{font-size:calc(21px + 1pt)}
+  .results-panel .pagination .secondary{font-size:calc(11px + 1pt)}
+  .results-panel .empty-state h3{font-size:calc(23px + 1pt)}
+}

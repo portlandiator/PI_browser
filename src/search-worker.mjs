@@ -1,6 +1,8 @@
 import {normalize,parseQuery,shardKey,unpackPosting,matchPostings} from './text.mjs';
 import {loadCompressed} from './data.mjs';
 import {hasFilter,matchesMetadata,facetSummary} from './metadata.mjs';
+import {volumeFilterLabel} from './catalog-filters.mjs';
+let volumeTitles={};
 let catalogPromise;
 let datasetBase;
 let schemaPromise,baseCache;
@@ -64,7 +66,7 @@ async function filteredResults(data,exceptField){
 self.onmessage=async({data})=>{
   const {type,requestId}=data;
   try{
-    if(type==='init')datasetBase=new URL(data.dataset,import.meta.url);
+    if(type==='init'){datasetBase=new URL(data.dataset,import.meta.url);volumeTitles=data.volumeTitles||{};}
     const catalog=await getCatalog();
     if(type==='init'){
       const unique=key=>[...new Set(catalog.map(r=>r[key]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
@@ -73,7 +75,7 @@ self.onmessage=async({data})=>{
     if(type==='facet'){
       const rows=await filteredResults(data,data.field),values=await getColumn(data.field);
       const order=(await getSchema()).find(field=>field.key===data.field)?.valueOrder||[];
-      const summary=facetSummary(values,rows.map(row=>row.doc),{query:data.optionQuery||'',limit:Math.min(500,data.limit||40),selected:data.metadataFilters?.[data.field]?.values||[],order});
+      const summary=facetSummary(values,rows.map(row=>row.doc),{query:data.optionQuery||'',limit:Math.min(500,data.limit||40),selected:data.metadataFilters?.[data.field]?.values||[],order,label:value=>data.field==='volume'?volumeFilterLabel(value,volumeTitles):value});
       self.postMessage({type,requestId,field:data.field,...summary});return;
     }
     const {sort='citations',page=1}=data;

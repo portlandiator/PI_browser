@@ -5,13 +5,14 @@ import {escapeHtml as esc,normalize,tokenize,parseQuery,matchRanges} from './tex
 import {loadCompressed} from './data.mjs';
 import {renderMetadata,renderReferenceList,hasFilter} from './metadata.mjs';
 import {FacetPanel} from './facets-ui.mjs';
+import {catalogFilterLabel} from './catalog-filters.mjs';
 import {renderVolume} from './volumes.mjs';
 const $=id=>document.getElementById(id);
 const filters=['author'];
 const labels={author:'Author'};
 let metadataFields=[],facetPanel,metadataTimer;
 let translationRanges=[];
-let volumePdfs={};
+let volumePdfs={},volumeTitles={};
 const facetRequests=new Map();
 let worker,requestId=0,currentSearch=0,readerRequest=0,facets={},lastResults=null,reading=null;
 let datasetBase,datasetPath;
@@ -62,7 +63,7 @@ function setupWorker(){
     if(data.type==='error'){$('results-heading').textContent='Search unavailable';showError($('results'),data.message,runSearch);return;}
     lastResults=data;state.page=data.page;updateUrl(true);renderResults(data);facetPanel?.refresh();
   };
-  worker.postMessage({type:'init',requestId:++requestId,dataset:datasetPath});
+  worker.postMessage({type:'init',requestId:++requestId,dataset:datasetPath,volumeTitles});
 }
 function requestFacet(field,optionQuery,limit){if(!worker)return;const id=++requestId;facetRequests.set(field,id);worker.postMessage({type:'facet',requestId:id,...state,field,optionQuery,limit});}
 function changeMetadata(next,immediate=true){state.metadataFilters=next;clearTimeout(metadataTimer);if(immediate)submitSearch();else metadataTimer=setTimeout(submitSearch,400);}
@@ -73,7 +74,7 @@ function highlight(text){
 }
 function renderResults(data){
   $('results-heading').textContent=`${data.total.toLocaleString()} ${data.total===1?'text':'texts'}${state.query?' found':''}`;
-  $('active-filters').innerHTML=filters.filter(key=>state.filters[key]).map(key=>`<button class="filter-chip" data-remove="${key}" aria-label="Remove ${labels[key]} filter">${labels[key]}: ${esc(state.filters[key])}<span aria-hidden="true">×</span></button>`).join('')+Object.entries(state.metadataFilters).filter(([,value])=>hasFilter(value)).map(([key,value])=>{const label=metadataFields.find(f=>f.key===key)?.name||key;return `<button class="filter-chip" data-remove-meta="${key}" aria-label="Remove ${esc(label)} filter">${esc(label)}: ${esc(filterDescription(value))}<span aria-hidden="true">×</span></button>`;}).join('');
+  $('active-filters').innerHTML=filters.filter(key=>state.filters[key]).map(key=>`<button class="filter-chip" data-remove="${key}" aria-label="Remove ${labels[key]} filter">${labels[key]}: ${esc(state.filters[key])}<span aria-hidden="true">×</span></button>`).join('')+Object.entries(state.metadataFilters).filter(([,value])=>hasFilter(value)).map(([key,value])=>{const label=catalogFilterLabel(key,metadataFields.find(f=>f.key===key)?.name||key);return `<button class="filter-chip" data-remove-meta="${key}" aria-label="Remove ${esc(label)} filter">${esc(label)}: ${esc(filterDescription(value))}<span aria-hidden="true">×</span></button>`;}).join('');
   if(!data.total){$('results').innerHTML=`<div class="empty-state"><h3>No texts found.</h3><p>Try another spelling, fewer words, or a different filter.<br>For an ID, use the complete filename, such as BH00001.</p><button id="clear-all" class="secondary">Clear search and filters</button></div>`;$('clear-all').onclick=resetAll;}
   else{
     $('results').innerHTML=data.rows.map(row=>`<a class="result-row" href="${esc(urlFor({...state,id:row.id}))}" data-id="${esc(row.id)}"><div class="result-code">${esc(row.id)}</div><div class="result-body"><div class="result-author">${esc(row.author)}${row.matches?' · '+(row.matches.length===2?'Both languages':row.matches[0]==='en'?'English match':'Original match'):''}</div><h3 class="result-title" dir="auto">${esc(displayTitle(row))}</h3><p class="result-excerpt" data-excerpt="${esc(row.id)}" dir="${!row.hasEnglish&&row.hasOriginal?'rtl':'ltr'}">${highlight(row.excerpt)}</p><div class="result-meta"><span>${row.citationCount??0} citations</span><span>${esc(row.date||'Date not recorded')}</span>${row.volume?`<span>Vol. ${esc(row.volume)}</span>`:''}${row.place?`<span>${esc(row.place)}</span>`:''}${!(row.hasEnglish&&row.hasOriginal)?`<span class="availability-label">${row.hasEnglish?'English only':row.hasOriginal?'Original only':'Catalogue record'}</span>`:''}</div></div><span class="result-arrow" aria-hidden="true">↗</span></a>`).join('');
@@ -233,7 +234,10 @@ try{
   const volumesResponse=await fetch(new URL('./volumes.json',import.meta.url));
   if(!volumesResponse.ok)throw new Error('Volume PDFs could not be loaded. Please reload the page.');
   volumePdfs=await volumesResponse.json();
-  facetPanel=new FacetPanel({container:$('metadata-facets'),fields:metadataFields,getFilters:()=>state.metadataFilters,onChange:changeMetadata,request:requestFacet});
+  const titlesResponse=await fetch(new URL('./volume-titles.json',import.meta.url));
+  if(!titlesResponse.ok)throw new Error('Volume titles could not be loaded. Please reload the page.');
+  volumeTitles=await titlesResponse.json();
+  facetPanel=new FacetPanel({container:$('metadata-facets'),fields:metadataFields,volumeTitles,getFilters:()=>state.metadataFilters,onChange:changeMetadata,request:requestFacet});
   $('about-stats').textContent=`The collection contains ${stats.records.toLocaleString()} catalogue records, including ${stats.pairs.toLocaleString()} texts with both language versions. ${stats.metadataOnly.toLocaleString()} records have metadata only.`;
   setupWorker();runSearch();if(state.id)openReader(state.id,{push:false});
 }catch(error){showError($('results'),error.message,()=>location.reload());$('results').setAttribute('aria-busy','false');$('results-heading').textContent='Collection unavailable';}
