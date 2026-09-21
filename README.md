@@ -57,6 +57,12 @@ Metadata is not invented. In particular, uncertain dates and original translatio
 
 The published artifact must remain under GitHub Pages' 1 GB limit. Run the collection tests to check the artifact size and index integrity. Deployment is complete only after the workflow succeeds and the public URL is verified.
 
+Interface-only deployments reuse an exact-match GitHub Actions cache of the generated collection, search shards, subject passages, PDF copies, manifests, and import reports. They copy the current `src/` files into the site and run the complete test suite against the restored data. The source archive is extracted for validation, but records, indexes, subject matches, and PDFs are not rebuilt or recopied from their sources. Interface files are never cached, so removed pages cannot survive from an earlier deployment.
+
+The cache fingerprint covers every file in `data/` and `pdf_volumes - copy/`, root CSVs, the subject reference document, and the builder's recursive local module imports (including shared parsers). It includes the Node major version. Source text, translations, and metadata reach CI through `data/collection.tar.gz`; update that archive with the Windows updater when changing the source folders. The first deployment, changed build inputs, or an evicted cache trigger a full build. Only successfully tested output is cached; partial cache matches are never used. Browser-only HTML, CSS, fonts, and JavaScript changes reuse data unless that JavaScript is also imported by the builder.
+
+Documentation-only pushes do not deploy. To rebuild manually, use **Actions → Build and deploy Partial Inventory browser → Run workflow → Force full rebuild**. This bypasses cache restoration and saving for that run; delete a suspect entry in Actions caches if it should also be replaced for later runs. GitHub Pages requires a complete artifact on every deployment, so this optimization removes repeated computation, not the final whole-site upload. It preserves the existing site URL and all data paths.
+
 ## Design and maintenance
 
 The `pdf_volumes - copy/` folder contains the published volume PDFs and is versioned directly in Git. Filenames begin with `volume_` and the volume number. The build verifies every metadata volume has a corresponding PDF, copies the files without modifying their contents, and links the catalogue's Volume field to the PDF in a new tab. The Windows updater carries these PDFs into its validation build. The complete deployed site, including PDFs, must remain below the size limit checked by the collection tests.
