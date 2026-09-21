@@ -13,3 +13,18 @@
 .subject-section h3{font-size:18px;line-height:1.4;font-weight:600;color:var(--ink);margin:24px 0 10px;padding:12px 0 0;border-top:1px solid var(--rule)}.subject-section:first-child h3{margin-top:8px;border-top:0;padding-top:0}
 
 @media(max-width:700px){.subject-totals{display:none}}
+
+/* Shared reader controls above a continuous sequence of selected extracts. */
+.passage-reader .passage-pair p{font-size:calc(20px * var(--scale));line-height:1.9}
+.passage-reader .passage-pair [dir=rtl]{font-size:calc(23px * var(--scale));line-height:2.05}
+.passage-reader .passage-pair>div{min-width:0}
+.passage-reader[data-mode=en] .passage-original,.passage-reader[data-mode=original] .passage-translation{display:none}
+.passage-reader:not([data-mode=parallel]) .passage-pair{grid-template-columns:minmax(0,1fr)}
+.passage-reader:not([data-mode=parallel]) .passage-pair [dir=rtl]{border:0;padding:0}
+.continuous-passages .subject-passage{background:none;border:0;border-radius:0;margin:0;padding:24px 0}
+.continuous-passages .subject-passage+.subject-passage{border-top:1px solid var(--rule)}
+.continuous-passages .subject-passage h3{margin:0 0 16px}
+.continuous-passages .passage-pair p{margin:0 0 20px}
+.continuous-passages .passage-pair:last-child p{margin-bottom:0}
+.passage-controls .type-controls span{display:inline;min-width:3ch}
+@media(max-width:700px){.passage-reader .passage-pair p{font-size:calc(19px * var(--scale))}.passage-reader .passage-pair [dir=rtl]{font-size:calc(23px * var(--scale))}.passage-controls{gap:8px}.passage-controls .segmented button{padding-inline:10px}.continuous-passages .passage-original{margin-top:12px}.passage-reader[data-mode=original] .passage-original{margin-top:0}}
