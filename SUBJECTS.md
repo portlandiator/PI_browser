@@ -2,7 +2,7 @@
 
 ## Architecture
 
-The existing Node 22+ static pipeline and browser ES modules also power Subject view. No new framework, Python environment, API key, database service, or paid hosting is required. Next.js/React static export and Cytoscape would work, but add dependencies without removing the main work: provenance, matching, and editorial decisions. A deterministic SVG neighborhood supports keyboard links and zoom; ordinary related links expose the same relationships. A future larger graph can replace this renderer without changing the data model. Semantic/AI matching is not used by this importer.
+The existing Node 22+ static pipeline and browser ES modules also power Subject view. No new framework, Python environment, API key, database service, or paid hosting is required. Next.js/React static export and Cytoscape would work, but add dependencies without removing the main work: provenance, matching, and editorial decisions. A deterministic SVG neighborhood graph renders each subject's connections; its nodes are keyboard-accessible links. The public graph has no zoom buttons, legend, or duplicate related-subject list (see DESIGN.md). A future larger graph can replace this renderer without changing the data model. Semantic/AI matching is not used by this importer.
 
 The authoritative CSV has 661 rows, 18 literal colors, and 660 distinct Loom category URLs. Two differently punctuated “serving humanity…” rows reference the same category. Both remain separate subjects. The second receives a name-hash suffix; the duplicate is reported. Color names and descriptions are not invented.
 
@@ -67,10 +67,13 @@ The first three real subjects were used for the prototype. Manually inspected ex
 Push tested changes to the existing repository's `main` branch. The existing GitHub Pages workflow builds offline from the versioned corpus and subject snapshot, tests the output, and deploys `dist/`. Query-string links and relative assets work under `/PI_browser/`. The Windows source updater carries the subject snapshot and edits into its validation build. It does not refresh remote subject selections automatically. Keep the total published artifact below the collection test's 1 GB bound.
 # Subject directory order
 
-The directory offers alphabetical order (default) and Thematic order from
-`subjects - reference.docx`. The `order=thematic` URL parameter (and legacy `order=canonical` links) survives subject
-navigation and browser history. All subject labels retain their CSV text color
-on the same light paper background.
+The directory defaults to Thematic order from `subjects - reference.docx` and
+also offers Alphabetical order. `order=alphabetical` in the URL selects
+alphabetical order and survives subject navigation and browser history; an
+absent or any other value (including legacy `order=thematic` and
+`order=canonical` links) shows Thematic order. Subject labels keep their CSV
+colour family; `src/theme.css` supplies the approved day and night display
+shades, each with at least 4.5:1 contrast on the theme's paper (see DESIGN.md).
 
 After updating the reference document, run
 `powershell -File scripts/extract-subject-order.ps1` and commit the regenerated
