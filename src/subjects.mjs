@@ -2,6 +2,7 @@ import {subjectColorStyle as colorStyle} from './subject-colors.mjs';
 import {readingPreferences,passageControls,wirePassageReading} from './passage-reading.mjs';
 import {circularLayout} from './subject-graph.mjs';
 import {recordFilename} from './record-file.mjs';
+import {passageCitation} from './passage-citation.mjs';
 import {loadCompressed} from './data.mjs';
 import {escapeHtml as esc} from './text.mjs';
 import {compareSelections,publicSelections,unlinkedPassage} from './subject-list.mjs';
@@ -77,8 +78,11 @@ async function render(){
       html+=`<article class="subject-passage" id="selection-${s.id}">`;
       if(review)html+=`<div class="passage-meta">${esc(s.status)} · selection ${s.provenance.selectionParagraph}</div><blockquote>${esc(s.excerpt)}</blockquote>`;
       if(!review&&!r)html+=unlinkedPassage(s);
-      if(r){const nums=[...new Set(c.ranges.map(range=>range.paragraph))];html+=`<h3 class="source-group-title"><a href="./?id=${encodeURIComponent(r.id)}&passage=${s.passage}&subject=${subject.id}#p-en-${nums[0]}">${esc(r.id)}</a></h3>`;
-        html+=nums.map(n=>`<div class="passage-pair"><div class="passage-translation" aria-label="English paragraph ${n}"><p>${highlight(r.en.paragraphs[n-1]?.plain||'',c.ranges.filter(range=>range.paragraph===n))}</p></div><div class="passage-original" aria-label="Original paragraph ${n}">${r.original.paragraphs[n-1]?.plain?`<p dir="rtl">${esc(r.original.paragraphs[n-1].plain)}</p>`:'<p dir="ltr" lang="en">Original text unavailable</p>'}</div></div>`).join('');}
+      if(r){const nums=[...new Set(c.ranges.map(range=>range.paragraph))];
+        const reference=passageCitation(r,`./?id=${encodeURIComponent(r.id)}&passage=${encodeURIComponent(s.passage)}&subject=${encodeURIComponent(subject.id)}#p-en-${nums[0]}`);
+        html+=nums.map((n,i)=>{const citation=i===nums.length-1?' '+reference:'';
+          return `<div class="passage-pair"><div class="passage-translation" aria-label="English paragraph ${n}"><p>${highlight(r.en.paragraphs[n-1]?.plain||'',c.ranges.filter(range=>range.paragraph===n))}${citation}</p></div><div class="passage-original" aria-label="Original paragraph ${n}">${r.original.paragraphs[n-1]?.plain?`<p dir="rtl">${esc(r.original.paragraphs[n-1].plain)}${citation}</p>`:`<p dir="ltr" lang="en">Original text unavailable${citation}</p>`}</div></div>`;
+        }).join('');}
       if(review)html+=`<details><summary>Selection provenance</summary><p>${esc(s.original)}</p><p class="passage-meta">Quote ${esc(s.provenance.quoteId)} · block ${s.provenance.blockPosition}${s.provenance.segment?" · segment "+s.provenance.segment:""} · ${esc(s.provenance.subjectFilename)} row ${s.provenance.subjectRow} · source ID ${esc(s.suppliedIds.join(', ')||'not supplied')}</p>${s.provenance.sourceBlockRaw?`<details><summary>Original combined source block</summary><pre class="provenance-raw">${esc(s.provenance.sourceBlockRaw)}</pre></details>`:""}${data.notices.filter(n=>n.quoteId===s.provenance.quoteId).map(n=>`<p class="subject-note">${esc(n.text)}</p>`).join('')}</details>${reviewHtml(s)}`;
       html+='</article>';
       $('passage-results').insertAdjacentHTML('beforeend',html);

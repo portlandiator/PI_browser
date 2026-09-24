@@ -31,3 +31,5 @@
 
 .passage-reference{white-space:pre-wrap;overflow-wrap:anywhere;font-size:calc(16px * var(--scale));line-height:1.6;margin:12px 0 0;color:var(--muted)}
 .passage-translation p{white-space:pre-wrap}
+.passage-citation{unicode-bidi:isolate;font-family:"EB Garamond",serif;font-size:calc(18px * var(--scale));color:var(--muted)}
+.passage-reader:not([data-mode=original]) .passage-original .passage-citation{display:none}
