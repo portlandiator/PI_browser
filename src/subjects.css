@@ -31,7 +31,7 @@
 
 .passage-reference{white-space:pre-wrap;overflow-wrap:anywhere;font-size:calc(16px * var(--scale));line-height:1.6;margin:12px 0 0;color:var(--muted)}
 .passage-translation p{white-space:pre-wrap}
-.passage-citation{unicode-bidi:isolate;font-family:"EB Garamond",serif;font-size:calc(18px * var(--scale));color:var(--muted)}
+.passage-citation{display:inline;white-space:normal;unicode-bidi:isolate;font-family:"EB Garamond",serif;font-size:calc(18px * var(--scale));color:var(--muted)}
 .passage-reader:not([data-mode=original]) .passage-original .passage-citation{display:none}
 
 .graph-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:28px 0 16px}
@@ -70,9 +70,9 @@
 .subject-title-row #subject-pdf{flex-shrink:0;margin-left:auto}
 .subject-print-view .subject-directory,.subject-print-view .subject-intro,.subject-print-view .subject-pagination,.subject-print-view .graph-scroll,.subject-print-view #subject-content>h2:not(.subject-heading){display:none}
 .subject-print-view .subject-layout{display:block}
-.subject-print-view .passage-reader .passage-pair p{line-height:1;font-size:12pt;margin:0 0 6pt}
+.subject-print-view .passage-reader .passage-pair p{line-height:1.2;font-size:12pt;margin:0 0 6pt}
 .subject-print-view .passage-citation{font-size:11pt;line-height:1}
-.subject-print-view .passage-reference,.subject-print-view .passage-meta{font-size:11pt;line-height:1;margin:3pt 0}
+.subject-print-view .passage-reference,.subject-print-view .passage-meta{font-size:11pt;line-height:1.2;margin:3pt 0}
 .subject-print-view .type-controls{display:none}
 .subject-print-view .continuous-passages .subject-passage{padding:8pt 0}
 @media print{

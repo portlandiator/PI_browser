@@ -44,6 +44,6 @@ export function renderSourceGroup(group,record,subject){
     const citation=i===paragraphs.length-1?' '+reference:'';
     const separator=i&&number>paragraphs[i-1].number+1?'<span class="passage-gap" aria-label="Passages omitted">…</span> ':'';
     const original=record.original.paragraphs[number-1]?.plain;
-    return `<div class="passage-pair"><div class="passage-translation" aria-label="English paragraph ${number}"><p>${separator}${highlight(record.en.paragraphs[number-1]?.plain||'',ranges)}${citation}</p></div><div class="passage-original" aria-label="Original paragraph ${number}"><p dir="${original?'rtl':'ltr'}">${original?separator+esc(original):'Original text unavailable'}${citation}</p></div></div>`;
+    return `<div class="passage-pair"><div class="passage-translation" aria-label="English paragraph ${number}"><p>${separator}${highlight((record.en.paragraphs[number-1]?.plain||'').trimEnd(),ranges)}${citation}</p></div><div class="passage-original" aria-label="Original paragraph ${number}"><p dir="${original?'rtl':'ltr'}">${original?separator+esc(original.trimEnd()):'Original text unavailable'}${citation}</p></div></div>`;
   }).join('')}</article>`;
 }

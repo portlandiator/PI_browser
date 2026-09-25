@@ -17,7 +17,8 @@ export function unlinkedPassage(selection){
     let href;try{const url=new URL(provenance.subjectUrl);if(['http:','https:'].includes(url.protocol))href=url.href;}catch{}
     source=href?`<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`:escapeHtml(label);
   }else source=escapeHtml(source);
-  return `<p class="passage-meta">Source ID not linked</p><div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(text)}</p></div><div class="passage-original"><p dir="ltr" lang="en">Original text unavailable</p></div></div><p class="passage-reference" dir="ltr">${source}</p>`;
+  const citation=`<span class="passage-citation" dir="ltr" lang="en">${source.startsWith('(')&&source.endsWith(')')?source:'('+source+')'}</span>`;
+  return `<div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(text.trimEnd())} ${citation}</p></div><div class="passage-original"><p dir="ltr" lang="en">Original text unavailable ${citation}</p></div></div>`;
 }
 
 // Citation totals use the same source metadata as Catalog view.
