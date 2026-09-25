@@ -80,9 +80,12 @@ async function render(){
     wirePassageReading($('subject-content'),reading,rememberReading);
     if(!review){
       const controls=document.querySelector('.passage-controls');
-      const heading=document.querySelector(printView?'.subject-heading':'#selected-passages-heading'),titleRow=document.createElement('div');
-      titleRow.className='subject-title-row';heading.before(titleRow);titleRow.append(heading);
-      titleRow.insertAdjacentHTML('beforeend',`<button id="subject-pdf" type="button" ${printView?'disabled':''}>${printView?'Preparing passages…':'Open as PDF'}</button>`);
+      const pdfButton=`<button id="subject-pdf" type="button" ${printView?'disabled':''}>${printView?'Preparing passages…':'Open as PDF'}</button>`;
+      if(printView){
+        const heading=document.querySelector('.subject-heading'),titleRow=document.createElement('div');
+        titleRow.className='subject-title-row';heading.before(titleRow);titleRow.append(heading);
+        titleRow.insertAdjacentHTML('beforeend',pdfButton);
+      }else controls.querySelector('.type-controls').insertAdjacentHTML('afterbegin',pdfButton);
       if(printView){
         controls.insertAdjacentHTML('beforeend','<p class="print-help" role="status">All passages for this subject. Choose Save as PDF in the print dialog. Preparing text…</p>');
         $('subject-pdf').onclick=()=>window.print();
