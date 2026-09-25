@@ -57,7 +57,7 @@
 .graph-panel.graph-expanded{position:fixed;inset:0;z-index:10000;background:var(--paper,#f7f6f0);padding:20px;display:flex;flex-direction:column;overflow:auto;box-sizing:border-box}
 .graph-expanded .graph-heading{margin:0 0 12px;flex-shrink:0}
 .graph-expanded .graph-body{display:flex;flex-direction:column;flex:1;min-height:0}
-.graph-expanded .global-graph{flex:1;min-height:150px;height:auto}
+.graph-expanded .global-graph{flex:1;min-height:150px;height:auto!important}
 .graph-expanded .global-tools,.graph-expanded .global-help,.graph-expanded .global-status{flex-shrink:0}
 @media(max-width:700px){.subject-graph.global-graph{height:65vh;min-height:320px}.graph-panel.graph-expanded{padding:12px}.graph-expanded .global-graph{height:auto;min-height:120px}.global-help{font-size:13px}.graph-heading h2{font-size:24px}}
 .passage-gap{padding-inline-end:.4em}
