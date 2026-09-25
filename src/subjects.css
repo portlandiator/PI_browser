@@ -37,6 +37,7 @@
 .graph-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:28px 0 16px}
 #subject-content .graph-heading h2{margin:0}
 .graph-view-switch{display:flex;margin-left:auto}
+.graph-depth{display:inline-flex;align-items:center;justify-content:center;min-width:70px;padding:0 10px;color:var(--muted)}
 .graph-view-switch button,.global-tools button{min-height:40px;min-width:40px;border:1px solid var(--control-rule);background:var(--white);padding:8px 12px;border-radius:4px}
 .graph-view-switch button[aria-pressed=true]{background:var(--selection);box-shadow:inset 0 -3px var(--ink)}
 .global-tools{display:flex;gap:8px;align-items:end;flex-wrap:wrap}

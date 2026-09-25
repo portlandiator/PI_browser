@@ -1,28 +1,34 @@
+import {circularLayout} from './subject-graph.mjs';
 import {escapeHtml as esc} from './text.mjs';
 import {subjectColorStyle} from './subject-colors.mjs';
-import {publicGraphEdges,zoomCamera} from './global-graph-layout.mjs';
+import {zoomCamera} from './global-graph-layout.mjs';
 let cached, savedCamera;
 
-export function graphShell(local,global){
-  return `<section class="graph-panel" aria-label="Knowledge graph"><div class="graph-heading"><h2>Connected subjects</h2><div class="graph-view-switch" role="group" aria-label="Graph view"><button type="button" data-graph-view="local" aria-pressed="${!global}">Local</button><button type="button" data-graph-view="global" aria-pressed="${global}">Global</button></div></div><div class="graph-body">${global?'<p role="status">Arranging the complete knowledge graph…</p>':local}</div></section>`;
+export function graphShell(neighborhood){
+  const {depth,maxDepth}=neighborhood;
+  return `<section class="graph-panel" aria-label="Knowledge graph"><div class="graph-heading"><h2>Connected subjects</h2><div class="graph-view-switch" role="group" aria-label="Network depth"><button type="button" data-depth="${depth+1}" aria-label="Show one more hop" title="Show one more hop" ${depth>=maxDepth?'disabled':''}>−</button><span class="graph-depth" role="status">${depth} ${depth===1?'hop':'hops'}</span><button type="button" data-depth="${depth-1}" aria-label="Show one fewer hop" title="Show one fewer hop" ${depth<=1?'disabled':''}>+</button></div></div><div class="graph-body"><p role="status">Arranging subjects within ${depth} ${depth===1?'hop':'hops'}…</p></div></section>`;
 }
 
-export function mountGraph(panel,{index,subject,global,lines,url,onView,suggestions=true}){
+export function mountGraph(panel,{neighborhood,subject,lines,url,onDepth}){
   const abort=new AbortController(),signal=abort.signal;
   let worker,disposed=false,frame=0,resize,expanded=false;
   const listen=(el,type,fn,options={})=>el.addEventListener(type,fn,{...options,signal});
-  panel.querySelectorAll('[data-graph-view]').forEach(b=>listen(b,'click',()=>onView(b.dataset.graphView)));
+  panel.querySelectorAll('[data-depth]').forEach(b=>listen(b,'click',()=>onDepth(Number(b.dataset.depth))));
   const body=panel.querySelector('.graph-body');
   function collapse(){expanded=false;panel.classList.remove('graph-expanded');document.body.classList.remove('graph-open');panel.removeAttribute('role');panel.removeAttribute('aria-modal');if(document.fullscreenElement===panel)document.exitFullscreen?.().catch(()=>{});const b=panel.querySelector('[data-fullscreen]');if(b){b.textContent='Fullscreen';b.setAttribute('aria-pressed','false');}}
-  if(global)load();
+  load();
   async function load(){
     try{
-      const edges=publicGraphEdges(index.edges,index.subjects,suggestions);
-      const nodes=index.subjects.map(s=>({...s,lines:lines(s.name),width:170})).map(s=>({...s,height:Math.max(48,s.lines.length*16+24)}));
-      const key=JSON.stringify([nodes.map(s=>s.id),edges]);
+      const {edges,depth}=neighborhood;
+      const nodes=neighborhood.nodes.map(s=>({...s,lines:lines(s.name),width:170})).map(s=>({...s,height:Math.max(48,s.lines.length*16+24)}));
+      const key=JSON.stringify([subject.id,depth,nodes.map(s=>s.id),edges]);
       let layout;
       if(cached?.key===key)layout=cached.layout;
-      else{
+      else if(depth===1){
+        const focus=nodes.find(n=>n.id===subject.id),others=nodes.filter(n=>n.id!==subject.id),height=Math.max(...nodes.map(n=>n.height));
+        const circle=circularLayout(others.length,170,height);
+        layout={width:circle.width,height:circle.height,nodes:[{...focus,x:circle.center[0],y:circle.center[1]},...others.map((n,i)=>({...n,x:circle.neighbors[i][0],y:circle.neighbors[i][1]}))]};cached={key,layout};savedCamera=null;
+      }else{
         layout=await new Promise((resolve,reject)=>{
           worker=new Worker(new URL('./global-graph-worker.mjs',import.meta.url),{type:'module'});
           worker.onmessage=e=>{worker.terminate();e.data.error?reject(Error(e.data.error)):resolve(e.data.layout);};
@@ -32,11 +38,11 @@ export function mountGraph(panel,{index,subject,global,lines,url,onView,suggesti
       }
       if(disposed)return;
       draw(layout,edges);
-    }catch(e){if(!disposed)body.innerHTML=`<p role="alert">${esc(e.message)} Switch to Local, or try Global again.</p>`;}
+    }catch(e){if(!disposed)body.innerHTML=`<p role="alert">${esc(e.message)} Change the hop depth or reload to try again.</p>`;}
   }
   function draw(layout,edges){
     const positions=new Map(layout.nodes.map(n=>[n.id,n]));
-    body.innerHTML=`<div class="global-tools"><label>Find subject <input type="search" list="global-subject-options" placeholder="Subject name…" aria-label="Find subject in graph"></label><datalist id="global-subject-options">${layout.nodes.map(n=>`<option value="${esc(n.name)}"></option>`).join('')}</datalist><button data-find>Find</button><button data-current>Current subject</button><button data-fit>Fit all</button><button data-zoom="1.4" aria-label="Zoom in">+</button><button data-zoom="0.7142857" aria-label="Zoom out">−</button><button data-fullscreen aria-pressed="false">Fullscreen</button></div><p class="global-help" id="global-help">Drag to move · scroll or pinch to zoom · select a subject to read. Keyboard: arrows to move, +/− to zoom, 0 to fit, Escape to exit fullscreen.</p><p class="global-status" role="status">${layout.nodes.length} subjects · ${edges.length} connections</p><svg class="subject-graph global-graph" tabindex="0" role="group" aria-label="Entire knowledge graph" aria-describedby="global-help"><g class="graph-camera"><g class="global-edges">${edges.map(e=>{const a=positions.get(e.source),b=positions.get(e.target);return `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" ${e.status==='suggested'?'stroke-dasharray="8 6"':''}><title>${esc(a.name)} — ${esc(e.type)} — ${esc(b.name)} (${esc(e.status)})</title></line>`;}).join('')}</g>${layout.nodes.map(n=>`<a data-node="${n.id}" href="${esc(url({subject:n.id,page:null}))}" aria-label="${esc(n.name)}" ${n.id===subject.id?'aria-current="true"':''} style="${subjectColorStyle(n)}"><title>${esc(n.name)}</title><rect x="${n.x-n.width/2}" y="${n.y-n.height/2}" width="${n.width}" height="${n.height}" rx="6"/><text x="${n.x}" y="${n.y}" text-anchor="middle">${n.lines.map((line,i)=>`<tspan x="${n.x}" y="${n.y-(n.lines.length-1)*8+4+i*16}">${esc(line)}</tspan>`).join('')}</text></a>`).join('')}</g></svg>`;
+    body.innerHTML=`<div class="global-tools"><label>Find subject <input type="search" list="global-subject-options" placeholder="Subject name…" aria-label="Find subject in graph"></label><datalist id="global-subject-options">${layout.nodes.map(n=>`<option value="${esc(n.name)}"></option>`).join('')}</datalist><button data-find>Find</button><button data-current>Current subject</button><button data-fit>Fit all</button><button data-zoom="1.4" aria-label="Zoom in">Zoom in</button><button data-zoom="0.7142857" aria-label="Zoom out">Zoom out</button><button data-fullscreen aria-pressed="false">Fullscreen</button></div><p class="global-help" id="global-help">Drag to move · scroll or pinch to zoom · select a subject to read. Keyboard: arrows to move, +/− to zoom, 0 to fit, Escape to exit fullscreen.</p><p class="global-status" role="status">${layout.nodes.length} subjects · ${edges.length} connections</p><svg class="subject-graph global-graph" tabindex="0" role="group" aria-label="Subject network within ${neighborhood.depth} ${neighborhood.depth===1?'hop':'hops'}" aria-describedby="global-help"><g class="graph-camera"><g class="global-edges">${edges.map(e=>{const a=positions.get(e.source),b=positions.get(e.target);return `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" ${e.status==='suggested'?'stroke-dasharray="8 6"':''}><title>${esc(a.name)} — ${esc(e.type)} — ${esc(b.name)} (${esc(e.status)})</title></line>`;}).join('')}</g>${layout.nodes.map(n=>`<a data-node="${n.id}" href="${esc(url({subject:n.id,page:null}))}" aria-label="${esc(n.name)}" ${n.id===subject.id?'aria-current="true"':''} style="${subjectColorStyle(n)}"><title>${esc(n.name)}</title><rect x="${n.x-n.width/2}" y="${n.y-n.height/2}" width="${n.width}" height="${n.height}" rx="6"/><text x="${n.x}" y="${n.y}" text-anchor="middle">${n.lines.map((line,i)=>`<tspan x="${n.x}" y="${n.y-(n.lines.length-1)*8+4+i*16}">${esc(line)}</tspan>`).join('')}</text></a>`).join('')}</g></svg>`;
     const svg=body.querySelector('svg'),cameraGroup=svg.querySelector('.graph-camera'),status=body.querySelector('.global-status');
     let camera=savedCamera?{...savedCamera}:null,minScale=0.01,fitted=!savedCamera;
     const size=()=>({width:svg.clientWidth,height:svg.clientHeight});

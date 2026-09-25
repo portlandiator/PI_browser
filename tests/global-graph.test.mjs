@@ -1,6 +1,28 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {globalLayout,publicGraphEdges,zoomCamera} from '../src/global-graph-layout.mjs';
+import {globalLayout,publicGraphEdges,zoomCamera,graphNeighborhood} from '../src/global-graph-layout.mjs';
+
+test('hop neighborhoods include all cross-links and expand by shortest undirected distance',()=>{
+  const subjects=['a','b','c','d','e','f','isolated'].map(id=>({id}));
+  const edges=[['a','b'],['a','c'],['b','c'],['d','b'],['c','d'],['d','e'],['e','f']].map(([source,target])=>({source,target,type:'related',status:'accepted'}));
+  edges.push({source:'a',target:'f',type:'related',status:'rejected'});
+  const at=depth=>graphNeighborhood(subjects,edges,'a',depth);
+  assert.deepEqual(at(1).nodes.map(s=>s.id),['a','b','c']);
+  assert.equal(at(1).edges.length,3); // b–c is included despite not touching a.
+  assert.deepEqual(at(2).nodes.map(s=>s.id),['a','b','c','d']);
+  assert.equal(at(2).edges.length,5);
+  assert.deepEqual(at(3).nodes.map(s=>s.id),['a','b','c','d','e']);
+  assert.equal(at(99).depth,4);assert.equal(at(99).maxDepth,4);
+  assert.equal(at(0).depth,1);assert.equal(at('invalid').depth,1);
+  assert.deepEqual(graphNeighborhood(subjects,edges,'isolated',2).nodes,[{id:'isolated'}]);
+  assert.equal(graphNeighborhood(subjects,edges,'isolated',2).maxDepth,1);
+});
+
+test('one-hop neighborhood is not truncated to twelve neighbors',()=>{
+  const subjects=Array.from({length:30},(_,i)=>({id:String(i)}));
+  const edges=subjects.slice(1).map(s=>({source:'0',target:s.id,type:'broader',status:'imported'}));
+  assert.equal(graphNeighborhood(subjects,edges,'0').nodes.length,30);
+});
 
 test('global edges retain reviewed connections, suppress rejections, and collapse inverse duplicates',()=>{
   const subjects=['a','b','c'].map(id=>({id}));

@@ -1,5 +1,18 @@
 import {relationKey} from './subject-relations.mjs';
 
+// Connections are traversable in either direction. Return the induced graph:
+// every public edge whose endpoints fall within the requested hop distance.
+export function graphNeighborhood(subjects, edges, focus, requested=1, suggestions=true){
+  const publicEdges=publicGraphEdges(edges,subjects,suggestions),adj=new Map(subjects.map(s=>[s.id,[]]));
+  for(const e of publicEdges){adj.get(e.source).push(e.target);adj.get(e.target).push(e.source);}
+  const distances=new Map(),queue=[];
+  if(adj.has(focus)){distances.set(focus,0);queue.push(focus);}
+  for(let i=0;i<queue.length;i++)for(const id of adj.get(queue[i]))if(!distances.has(id)){distances.set(id,distances.get(queue[i])+1);queue.push(id);}
+  const maxDepth=Math.max(1,...distances.values()),parsed=Number(requested),depth=Math.min(maxDepth,Number.isFinite(parsed)?Math.max(1,Math.floor(parsed)):1);
+  const nodes=subjects.filter(s=>distances.has(s.id)&&distances.get(s.id)<=depth),ids=new Set(nodes.map(s=>s.id));
+  return {nodes,edges:publicEdges.filter(e=>ids.has(e.source)&&ids.has(e.target)),depth,maxDepth};
+}
+
 export function publicGraphEdges(edges, subjects, suggestions=true) {
   const ids=new Set(subjects.map(s=>s.id)), unique=new Map();
   for(const e of edges) {
