@@ -4,6 +4,7 @@ import {readingPreferences,passageControls,wirePassageReading} from './passage-r
 import {graphNeighborhood} from './global-graph-layout.mjs';
 import {recordFilename} from './record-file.mjs';
 import {passageCitation} from './passage-citation.mjs';
+import {groupSelections,renderSourceGroup} from './subject-groups.mjs';
 import {loadCompressed} from './data.mjs';
 import {escapeHtml as esc} from './text.mjs';
 import {compareSelections,publicSelections,unlinkedPassage} from './subject-list.mjs';
@@ -58,10 +59,12 @@ async function render(){
     if(!subject){$('subject-content').innerHTML=`<h2>Browse ${index.subjects.length} subjects</h2><p>Choose a subject from the directory to explore its passages and connections.</p><p>${index.report.selections.toLocaleString()} selections imported; ${index.report.passages.toLocaleString()} distinct matched passages.</p><p class="subject-note">Source wording and existing subject associations are retained. Excerpts without a linked source ID appear after linked passages.</p>`;return;}
     $('subject-content').innerHTML='<p role="status">Opening selected passages…</p>';
     const data=await loadCompressed(new URL(`subjects/${subject.id}.json.gz`,base));if(token!==epoch)return;selected=data;document.title=subject.name+' · Subject view';
-    const review=p.get('review')==='1';let rows=review?[...data.selections]:publicSelections(data.selections,data.sources);
+    const review=p.get('review')==='1',printView=!review&&p.get('print')==='1';
+    document.body.classList.toggle('subject-print-view',printView);
+    let rows=review?[...data.selections]:groupSelections(data.selections,data.sources);
     if(review){const status=p.get('status')||'pending';rows=rows.filter(s=>status==='all'||(status==='pending'?['approximate','ambiguous','unmatched'].includes(s.status):s.status===status));}
     if(review)rows.sort((a,b)=>compareSelections(a,b,data.sources));
-    const size=10,pages=Math.max(1,Math.ceil(rows.length/size)),linkedIndex=rows.findIndex(s=>'#selection-'+s.id===location.hash),page=linkedIndex>=0?Math.floor(linkedIndex/size)+1:Math.min(pages,Math.max(1,parseInt(p.get('page'))||1)),visible=rows.slice((page-1)*size,page*size);
+    const size=printView?Math.max(1,rows.length):10,pages=Math.max(1,Math.ceil(rows.length/size)),linkedIndex=rows.findIndex(s=>review?'#selection-'+s.id===location.hash:s.selections.some(item=>'#selection-'+item.id===location.hash)),page=linkedIndex>=0?Math.floor(linkedIndex/size)+1:Math.min(pages,Math.max(1,parseInt(p.get('page'))||1)),visible=rows.slice((page-1)*size,page*size);
     $('subject-content').innerHTML=`<h2 class="subject-heading" tabindex="-1"><span class="subject-label" style="${colorStyle(subject)}">${esc(subject.name)}</span></h2>${graph(subject)}${review?editor():''}<h2>Selected passages</h2>${data.unavailable?'<p class="graph-empty" role="status">Selections unavailable. The supplied source URL could not be retrieved. This subject is retained in the directory; a corrected source URL is needed to import its passages.</p>':''}${review?'<div class="subject-filters"></div>':''}<p role="status">${rows.length.toLocaleString()} selections · page ${page} of ${pages}</p>${review&&data.notices.length?'<p class="subject-note">The selection source includes research notices; expand selection provenance to inspect them.</p>':''}${passageControls()}<div id="passage-results" class="passage-reader ${review?'':'continuous-passages'}"></div><div class="subject-pagination"><button id="subject-prev" ${page===1?'disabled':''}>← Previous</button><span>${page} / ${pages}</span><button id="subject-next" ${page===pages?'disabled':''}>Next →</button></div>`;
     disposeGraph=mountGraph(document.querySelector('.graph-panel'),{neighborhood:neighborhood(subject),subject,lines:graphLines,url,onDepth:async depth=>{await go({hops:depth===1?null:depth,graph:null});document.querySelector(depth===1?'[aria-label="Show one more hop"]':'[aria-label="Show one fewer hop"]')?.focus({preventScroll:true});}});
     if(review){document.querySelector('.subject-filters').insertAdjacentHTML('afterbegin',`<label>Match status<select id="passage-status">${[['pending','Needs review'],['all','All statuses'],['approximate','Approximate'],['ambiguous','Ambiguous'],['unmatched','Unmatched'],['exact','Exact'],['normalized','Normalized'],['confirmed','Confirmed'],['rejected','Rejected']].map(([value,label])=>`<option value="${value}" ${(p.get('status')||'pending')===value?'selected':''}>${label}</option>`).join('')}</select></label>`);$('passage-status').onchange=e=>go({status:e.target.value,page:null});}
@@ -75,8 +78,22 @@ async function render(){
       for(const a of document.querySelectorAll('.subject-graph a')){const u=new URL(a.href.baseVal||a.getAttribute('href'),location.href);u.searchParams.set('mode',next.mode);u.searchParams.set('size',Math.round(next.scale*100));a.setAttribute('href',u.pathname+u.search+u.hash);}
     };
     wirePassageReading($('subject-content'),reading,rememberReading);
+    if(!review){
+      const controls=document.querySelector('.passage-controls');
+      const heading=document.querySelector('.subject-heading'),titleRow=document.createElement('div');
+      titleRow.className='subject-title-row';heading.before(titleRow);titleRow.append(heading);
+      titleRow.insertAdjacentHTML('beforeend',`<button id="subject-pdf" type="button" ${printView?'disabled':''}>${printView?'Preparing passages…':'Open as PDF'}</button>`);
+      if(printView){
+        controls.insertAdjacentHTML('beforeend','<p class="print-help" role="status">All passages for this subject. Choose Save as PDF in the print dialog. Preparing text…</p>');
+        $('subject-pdf').onclick=()=>window.print();
+      }else $('subject-pdf').onclick=()=>window.open(url({print:'1',page:null,mode:$('passage-results').dataset.mode}), '_blank','noopener');
+      const status=document.querySelector('#subject-content > p[role="status"]');
+      if(status)status.textContent=`${data.selections.length.toLocaleString()} selections · ${rows.length.toLocaleString()} source groups${printView?' · all passages':` · page ${page} of ${pages}`}`;
+    }
     if(review)wireEditor(subject);
-    for(const s of visible){let html='',r,c=s.candidates[0];if(s.passage){r=await record(c.source);if(token!==epoch)return;}
+    for(const s of visible){
+      if(!review){const r=s.source?await record(s.source):null;if(token!==epoch)return;$('passage-results').insertAdjacentHTML('beforeend',renderSourceGroup(s,r,subject.id));continue;}
+      let html='',r,c=s.candidates[0];if(s.passage){r=await record(c.source);if(token!==epoch)return;}
       html+=`<article class="subject-passage" id="selection-${s.id}">`;
       if(review)html+=`<div class="passage-meta">${esc(s.status)} · selection ${s.provenance.selectionParagraph}</div><blockquote>${esc(s.excerpt)}</blockquote>`;
       if(!review&&!r)html+=unlinkedPassage(s);
@@ -90,6 +107,7 @@ async function render(){
       $('passage-results').insertAdjacentHTML('beforeend',html);
     }
     if(!visible.length)$('passage-results').innerHTML=subject.selections===0&&!subject.unavailable?'<p>No selections are assigned directly to this subject. Explore its connected subjects.</p>':'<p>No selections to display.</p>';
+    if(printView){await document.fonts.ready;if(token!==epoch)return;$('subject-pdf').disabled=false;$('subject-pdf').textContent='Print / Save as PDF';document.querySelector('.print-help').textContent='All passages are ready. Choose Save as PDF in the print dialog.';}
     if(review){wireSelections();wireLookups();}(document.getElementById(activeId)||document.querySelector('.subject-heading'))?.focus({preventScroll:true});if(location.hash)document.getElementById(location.hash.slice(1))?.scrollIntoView({block:'start'});
   }catch(e){if(token===epoch)$('subject-content').innerHTML=`<h2>Subject unavailable</h2><p>${esc(e.message)}</p><button id="subject-retry">Try again</button>`;if($('subject-retry'))$('subject-retry').onclick=render;}
 }
