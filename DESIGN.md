@@ -18,7 +18,7 @@ Identical masthead geometry on both pages: book icon and wordmark, Catalog view 
 
 ## Subject view
 
-Group linked selections by exact source ID before pagination. Display each source paragraph once with merged highlights and one final citation; use ellipses between nonconsecutive paragraphs. Keep unlinked selections independent. Open as PDF sits right-aligned beside the subject title and opens all passages for the current subject. Its print view uses 1.2 line spacing and compact margins, preserves the selected language mode, and keeps parallel English/original columns side by side on paper at any screen width. Enable Print / Save as PDF only after every passage and the fonts are ready. Hide the action and other controls on paper.
+Group linked selections by exact source ID before pagination. Display each source paragraph once with merged highlights and one final citation; use ellipses between nonconsecutive paragraphs. Keep unlinked selections independent. Open as PDF sits right-aligned beside Selected passages below the knowledge graph and opens all passages for the current subject. Its print view uses 1.2 line spacing, portrait orientation, and 15 mm margins, preserves the selected language mode, and keeps parallel English/original columns side by side on paper at any screen width. Enable Print / Save as PDF only after every passage and the fonts are ready. Hide the action and other controls on paper.
 
 Selected passage references follow the final quotation paragraph inline, in parentheses, replacing the separate source-ID heading. Include available Author, Title, Date, and Recipient (prefixed by “to”), followed by -- and the linked ID. Preserve source wording and omit missing fields. Original-only mode places the same left-to-right reference after the original passage.
 
@@ -67,3 +67,5 @@ The upper-right controls show −, the current hop count, and +. Default is one 
 One hop retains the circular local arrangement. Larger neighborhoods use the bounded worker layout with full-label separation. All depths retain mouse/touch pan and zoom, Fit all, Find subject, Current subject, and fullscreen. Separate magnification buttons are explicitly labeled Zoom in and Zoom out so they cannot be mistaken for hop controls. Keyboard arrows/+/-/0 operate magnification and panning; hop buttons support ordinary keyboard activation. Fullscreen uses the browser API where available and a viewport-filling fallback, with an exit button and Escape.
 
 Unlinked selected passages omit the source-link status label and keep their supplied attribution inline in parentheses, with normal wrapping.
+
+PDF printing renders highlighted wording in bold.
