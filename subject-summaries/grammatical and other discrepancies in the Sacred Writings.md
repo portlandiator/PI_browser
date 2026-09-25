@@ -1,0 +1,5 @@
+# grammatical and other discrepancies in the Sacred Writings
+
+Revelation claims an authority beyond the grammatical conventions by which its opponents judge it. The Báb’s departures from Arabic usage challenged clerical assumptions; Bahá’u’lláh also permitted wording to be conformed to common grammar for clarity without treating the original revelation as erroneous. Textual discrepancies can involve other questions, including variant dates in recorded talks and differing biblical chronologies. These require attention to transmission, historical context, and the distinction between outward expression and spiritual truth.
+
+The debate engages [Judaism, the Torah, and the Jewish people](https://portlandiator.github.io/PI_browser/subjects.html?subject=93585856EDADED995488E210D42FFF2E) through comparisons with scriptural claims, and depends on [interpretation of words and passages in scripture](https://portlandiator.github.io/PI_browser/subjects.html?subject=58B72013D935E92718D07A6AB1DCFB78) to understand why linguistic forms or discrepancies carry meaning.

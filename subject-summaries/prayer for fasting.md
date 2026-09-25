@@ -1,0 +1,5 @@
+# prayer for fasting
+
+Fasting is an appointed discipline observed for love of God and in obedience to divine command. Its prayers mark the beginning and end of the fast, ask that abstention be accepted, and seek purification from attachment to anything that competes with God. The practice gives a shared rhythm to the sacred days, joining bodily restraint with remembrance, spiritual preparation, and hope for renewed capacity to live by the teachings.
+
+Fasting prayer relies on the [power of prayer](https://portlandiator.github.io/PI_browser/subjects.html?subject=374926D1B4A0440A807608CC09170687) and makes detachment from worldly appetite a deliberate practice, linking it to [severance and patience](https://portlandiator.github.io/PI_browser/subjects.html?subject=379BEFFCBC0C4B9683034D7269624B3C). These devotional petitions accompany the [law of fasting](https://portlandiator.github.io/PI_browser/subjects.html?subject=0C5DDE6CAB1F402695B2717CF1EC0833), which gives the observance its prescribed form.

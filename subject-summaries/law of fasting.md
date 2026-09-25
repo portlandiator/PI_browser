@@ -1,0 +1,5 @@
+# law of fasting
+
+Fasting is a prescribed period of abstinence that disciplines the body and focuses the heart on God. The material fast is treated as an outward sign of a deeper practice: restraining selfish appetites, loosening attachment, and increasing remembrance, prayer, and love. Its physical form has specified limits and exceptions, while its spiritual aim is purification and renewal. Fasting therefore joins personal devotion with empathy for those who experience hunger and hardship.
+
+Fasting is paired with the [importance of prayer](https://portlandiator.github.io/PI_browser/subjects.html?subject=AAA2181CBE0F4BFFAAFD92CC0FCB75B4), occurs within the rhythm of [holy days and the calendar](https://portlandiator.github.io/PI_browser/subjects.html?subject=1FED56E998B24C76A6E68CC456452598), and is accompanied by [prayer for fasting](https://portlandiator.github.io/PI_browser/subjects.html?subject=1B02DA4EAB17EE61A864DE2EB70F4D52) and the [law of obligatory prayer](https://portlandiator.github.io/PI_browser/subjects.html?subject=B7A38539E06DEF99A0FEFEB648DF4ABB).

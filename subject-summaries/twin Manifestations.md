@@ -1,0 +1,5 @@
+# twin Manifestations
+
+Twin Manifestations are two divine messengers whose revelations are closely connected in purpose and historical sequence. Bahá’í usage often refers to the Báb and Bahá’u’lláh, whose missions are distinct yet related in the renewal of religion. The concept does not make the two figures identical; each has a specific station and revelation. Their relationship involves unity of purpose, succession, and complementary spiritual roles.
+
+[Proclamation to people of the Bayan](https://portlandiator.github.io/PI_browser/subjects.html?subject=E24FE7CCD7B1E27FD3CD60548C20CE2D) addresses the community shaped by the Báb’s revelation and called to recognize the next Manifestation. [The Báb; the Primal Point; station and claims of the Báb](https://portlandiator.github.io/PI_browser/subjects.html?subject=3633354029CFE10F551F7CA219518DAC) focuses on one of the twin figures and his distinct station. Together these links connect the paired concept with the Báb’s mission and the response expected from his followers.

@@ -1,0 +1,5 @@
+# miracles and their interpretation
+
+Miracles may be understood as extraordinary events, but their interpretation depends on context and on the purpose of religious signs. They are not treated as the only or universal proof of revelation, since those absent from an event cannot verify it directly. Spiritual meaning and the transformative power of revelation matter more than marvel alone.
+
+Miracles in scripture connect with [Biblical interpretation](https://portlandiator.github.io/PI_browser/subjects.html?subject=1EBA961BF35048008A08B489196F1A6E), [stories and anecdotes](https://portlandiator.github.io/PI_browser/subjects.html?subject=7A8DB05467DBEF2954FD9B30F84AA0E8), and cautions against [testing God](https://portlandiator.github.io/PI_browser/subjects.html?subject=68DBD6552521E579B6ED5287D91C6F54). Their symbolic dimensions are explored in [symbolism](https://portlandiator.github.io/PI_browser/subjects.html?subject=BF2B7E937407E648DD80C2528263A450), while [literal interpretation](https://portlandiator.github.io/PI_browser/subjects.html?subject=87CAE620F6194480B20F2C8B053A5841) addresses how scriptural wonders are read.

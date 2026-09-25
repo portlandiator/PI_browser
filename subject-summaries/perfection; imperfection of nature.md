@@ -1,0 +1,5 @@
+# perfection; imperfection of nature
+
+Nature is described in two apparently opposing ways: as an ordered, complete creation, and as an incomplete realm whose capacities need development. Perfection can refer to fulfillment within a created degree, while further perfection may come through growth, education, or spiritual influence. Some accounts focus on the limits of material nature compared with the Kingdom. These formulations retain different emphases rather than treating nature as simply perfect or defective.
+
+The link to [diversity an attribute; requirement of existence](https://portlandiator.github.io/PI_browser/subjects.html?subject=D311B27723C741DCB7348644B473637F) helps explain why different forms and degrees belong within an ordered creation. Variety and limitation can be necessary features of created life, even where individual beings are called perfect in their own station. The connection clarifies how claims about nature’s order can coexist with accounts of incompleteness and development.

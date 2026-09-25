@@ -1,0 +1,5 @@
+# prayer for forgiveness
+
+Forgiveness is sought as divine mercy that can cover faults, release a person from guilt, and open a way back to spiritual life. The prayers speak frankly of human weakness and wrongdoing while refusing to measure hope by merit alone: they ask God to look upon grace rather than failure. Some petitions seek pardon for oneself; many include parents, relatives, departed believers, or a whole community in that appeal.
+
+Prayer for forgiveness draws on the [power of prayer](https://portlandiator.github.io/PI_browser/subjects.html?subject=374926D1B4A0440A807608CC09170687), and naturally includes those who have died, as in [prayer for the departed](https://portlandiator.github.io/PI_browser/subjects.html?subject=6F48F0918CDBEBB76DD545292C255B68). Its penitential language often begins in [humility](https://portlandiator.github.io/PI_browser/subjects.html?subject=F98B57795BFF4F67AF474B13EE107703), while the appeal rests on the wider qualities of divine [forgiveness, grace, and mercy](https://portlandiator.github.io/PI_browser/subjects.html?subject=5CF47B6B008F461986A90EF7E6BF176E).

@@ -1,0 +1,5 @@
+# universal human capacity for spiritual recognition
+
+Every human being has a capacity to recognize spiritual truth, though that capacity may remain undeveloped or be expressed in different ways. Recognition involves more than accumulating information: it can require attention, receptivity, and the cultivation of inner qualities. Universal capacity does not mean identical understanding or response. The distinction between having a potential and realizing it helps explain how spiritual recognition can be shared in possibility while varied in expression.
+
+[Fulfillment of true potential](https://portlandiator.github.io/PI_browser/subjects.html?subject=F3B8DE63C198457A85B3CC5F45B32149) describes education and nurture as ways to bring forth what is latent within human beings. [The Word of God; influence and centrality of](https://portlandiator.github.io/PI_browser/subjects.html?subject=4E323D7B85E34704B18BD5AB68F84E22) connects recognition with a spiritual source of illumination for human thought and morals. Together these links relate an innate human capacity to both its development and the influence that awakens it.

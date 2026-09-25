@@ -1,0 +1,5 @@
+# call to acquire knowledge; sciences
+
+The call to acquire knowledge includes both sacred learning and the sciences that investigate the natural world. Education is treated as a human need and a source of individual and social advancement, while study of scripture seeks understanding beyond memorized words. Knowledge is valued when it develops sound judgment, service, and understanding of reality.
+
+The value of knowledge connects to [the high station of arts and sciences](https://portlandiator.github.io/PI_browser/subjects.html?subject=E8D8CB2AB7034F7DB07173698FD9C979), [study and deepening](https://portlandiator.github.io/PI_browser/subjects.html?subject=FAA956A41DDB45EEBE390F1FD8D20C55), and [the high station of learning](https://portlandiator.github.io/PI_browser/subjects.html?subject=25BCE94ADDAF4B1B89551A0B5A85DE9C). Its broad social reach appears in [universal education](https://portlandiator.github.io/PI_browser/subjects.html?subject=94AE855C19A34B0D9F7D09FA46079FB3). Together these topics link individual study with education for all and with the application of learning to human needs.

@@ -1,0 +1,5 @@
+# freedom of thought and action
+
+Freedom of thought includes the individual’s right to express conscience and offer frank criticism, including suggestions to improve community institutions. That right is paired with respect, consultation, and responsibility: criticism should help remedy conditions, not undermine an elected Assembly or sow discord. Conscience itself requires education and investigation, since it can reflect either a sincere search for truth or inherited prejudice.
+
+[Independent investigation of truth; reality](https://portlandiator.github.io/PI_browser/subjects.html?subject=30A42A15DD044876BA9A0BA8D1D60330) describes the freedom to examine beliefs and seek truth without inherited prejudice. [Personal instructions](https://portlandiator.github.io/PI_browser/subjects.html?subject=D639D12CD679E3ED02A0F7A8D7835DB2) shows that guidance can still address particular situations. Together these links distinguish independent judgment from unbounded action: people can investigate freely while considering counsel and responsibility.

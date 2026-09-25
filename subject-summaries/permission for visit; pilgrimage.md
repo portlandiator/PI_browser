@@ -1,0 +1,5 @@
+# permission for visit; pilgrimage
+
+Permission for a visit or pilgrimage balances the longing to reach a sacred place with the circumstances that make travel wise and possible. Permission may be granted when the time is suitable; the longing for presence encourages visits to a Friend’s dwelling or the Holy Land. Pilgrimage is therefore both an inward aspiration and a journey governed by practical judgment.
+
+The destination is linked to [shrines and holy places](https://portlandiator.github.io/PI_browser/subjects.html?subject=69863262A551E3763501D5846A98329B), while delay or difficulty may involve [tests and sacrifice](https://portlandiator.github.io/PI_browser/subjects.html?subject=CC093CE37A394C1F81BEAF67251D3FC4). Individual travel is handled through [personal instructions](https://portlandiator.github.io/PI_browser/subjects.html?subject=D639D12CD679E3ED02A0F7A8D7835DB2), and sound timing reflects [wisdom](https://portlandiator.github.io/PI_browser/subjects.html?subject=F21CB46DB1E7424F8F52EA6E0C61DD3B).

@@ -1,0 +1,5 @@
+# authentication; disposition of the Sacred Writings
+
+Authentication and disposition of the Sacred Writings concern how revealed words are transmitted faithfully and how doubtful reports are handled. Packets of Tablets must not be lost; a letter’s wording should be preserved where it has purpose; unsupported accounts that could confuse readers are set apart from documented sacred texts. Transmission depends on trustworthy custodians and careful attention to what was actually written or revealed.
+
+Questions of authentication intersect with [‘Abdu’l-Baha’s station, mission, and authority](https://portlandiator.github.io/PI_browser/subjects.html?subject=4D2AFD7905384761BB166DCD6782B315), his role in preserving the Covenant. The issue also sits within the [duration of the Bahá’í cycle and future revelations](https://portlandiator.github.io/PI_browser/subjects.html?subject=1DECA0446C2D4E74BF311F15691FB7A7), where textual transmission carries claims across dispensations, and depends on the [proofs of the Manifestations of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=55581A433C3D45CEB183D21F214B5DB3), rather than unsupported documentation.

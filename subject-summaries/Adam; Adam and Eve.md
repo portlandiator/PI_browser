@@ -1,0 +1,5 @@
+# Adam; Adam and Eve
+
+Adam and Eve stand at the beginning of biblical and Qur’anic narratives about humanity, creation, and moral choice. Bahá’í interpretation often treats their story symbolically, relating it to spiritual truths rather than only to a literal chronology. The figures also belong to a shared scriptural inheritance across religions. Their significance therefore depends on how a text reads the narrative and what human condition it uses the story to illuminate.
+
+[Stories; anecdotes](https://portlandiator.github.io/PI_browser/subjects.html?subject=7A8DB05467DBEF2954FD9B30F84AA0E8) situates Adam and Eve within sacred narrative. [Birth of Christ; purity; virginity of Mary](https://portlandiator.github.io/PI_browser/subjects.html?subject=B34A98AB07FA4A878A55CB4FA12363CC) connects the subject to another scriptural account whose meaning is interpreted beyond simple historical description. Together these links illustrate how religious narratives can carry symbolic meaning across traditions.

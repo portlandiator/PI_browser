@@ -1,0 +1,5 @@
+# holy war [jihad]; violence in the name of God
+
+Bahá’u’lláh abolished the law of the sword as a means of advancing religion and appointed utterance, teaching, and loving-kindness in its place. The historical selections also discuss circumstances in which earlier religions sanctioned defensive warfare and distinguish physical struggle from the inward struggle against the self. These contexts should not be collapsed into a timeless authorization of violence: the Bahá’í principle in this Revelation is that faith is not spread by force.
+
+[Justice and social justice](https://portlandiator.github.io/PI_browser/subjects.html?subject=1021657B1CF64AAB90EC9FBF7FC73B34) frame the need for order and the welfare of humanity, while [the power of words and speech](https://portlandiator.github.io/PI_browser/subjects.html?subject=2F9E3A01AFCCEAC5262DC3738E50F13A) offers peaceful means of persuasion. [Walking the spiritual path](https://portlandiator.github.io/PI_browser/subjects.html?subject=DBB07A9A48FD421E8F6E02D219149549) likewise turns religious commitment toward virtuous action rather than violence.

@@ -1,0 +1,5 @@
+# maintainance of degrees in society
+
+Bahá’í writings distinguish social roles and levels of capacity from moral superiority: difference in degree is not itself good or evil. Society needs varied functions, like the parts of a body, but each rank carries duties and no one should exploit position or regard themselves as superior. The ideal is an ordered community that preserves useful distinctions while affirming equal rights and the dignity of all.
+
+[Differences in human capacity](https://portlandiator.github.io/PI_browser/subjects.html?subject=80687FE0F2F74ECB82AD3E83C0CBC790) recognizes variation in ability and aptitude, while [Labor and management; labor relations; profit sharing](https://portlandiator.github.io/PI_browser/subjects.html?subject=7494D3CC7B7FE1DCACD73621D5B5AE75) addresses differentiated roles in economic life. Together these links distinguish differences of capacity and function from unjust inequality, and point toward fair relations among people whose responsibilities differ.

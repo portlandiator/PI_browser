@@ -1,0 +1,5 @@
+# Ottoman commissions of investigation
+
+Ottoman commissions of investigation examined accusations against Bahá’u’lláh and the Bahá’í community during the period of exile. The inquiries formed part of a larger effort by officials to monitor and restrict the movement of the exiles, amid pressure from opponents. These were specific episodes of state scrutiny, distinct from every instance of popular hostility or the broader history of Ottoman rule.
+
+Bahá’u’lláh’s exile is the setting for the commissions, and the linked subject of rejection and persecution connects the official inquiries with the wider opposition faced by Him and His followers. The relationship is specific: state investigations were one form of pressure within a broader history of conflict, not proof that every authority or individual acted alike. [Covenant-breaking and Covenant-breakers](https://portlandiator.github.io/PI_browser/subjects.html?subject=42BA11FC5FE24CBEA769298634A7FA42) [rejection, opposition and persecution](https://portlandiator.github.io/PI_browser/subjects.html?subject=E3503B9BB6424884B3157B754204073E)

@@ -1,0 +1,5 @@
+# seven stages of creation
+
+Will, Purpose, predestination, fate, permission, fixed time, and the Book distinguish stages or aspects of creative action. Together they express how a thing receives existence, definition, measure, and fulfillment. Different arrangements and symbolic correspondences emphasize particular features of this unfolding. The sequence invites reflection on the relation between divine command and the ordered appearance of created realities, rather than treating creation as an unexplained leap from possibility to completion.
+
+The sequence begins with [The Primal Will](https://portlandiator.github.io/PI_browser/subjects.html?subject=9D9002D8700F4A2D893B0869236D586F), which supplies the first principle in the movement from divine intention toward created form. The stages that follow describe specification, relation, timing, and completion. This connection focuses on the Will as the beginning of a more detailed account of causation, while preserving the distinctions among the stages.

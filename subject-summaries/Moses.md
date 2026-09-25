@@ -1,0 +1,5 @@
+# Moses
+
+Moses is a prophet, lawgiver, and central figure in Jewish scripture whose story also holds a place in Christian, Muslim, and Bahá’í understandings of religious history. His mission joins spiritual leadership with guidance for a community. Bahá’í writings refer to Moses within the succession of divine messengers and the renewal of religious life, while biblical passages about him may carry symbolic meanings as well as historical ones.
+
+[Manifestation of God as educator](https://portlandiator.github.io/PI_browser/subjects.html?subject=54135CB53EEE434D8B77F1C91F81A26C) connects Moses’ mission with the spiritual education of humanity. [Historical episodes and the lessons of the past](https://portlandiator.github.io/PI_browser/subjects.html?subject=EFCE6C7ADF264310AFD8C5A360881252) places his story within religious history and its continuing lessons. [Quotation from or interpretation of the Bible](https://portlandiator.github.io/PI_browser/subjects.html?subject=1EBA961BF35048008A08B489196F1A6E) relates the subject to scriptural interpretation. Together these links connect Moses with guidance, history, and the reading of sacred texts.

@@ -1,0 +1,5 @@
+# confirmations and rewards in teaching the Cause
+
+Teaching is joined to divine confirmation: effort, devotion, and a life aligned with the message can draw spiritual assistance and strengthen the teacher. Rewards are described in spiritual rather than merely material terms, and results need not appear immediately. Perseverance, purity, wisdom, and tolerance matter even amid opposition. Confirmation does not remove the teacher’s responsibility to act; it accompanies wholehearted service and encourages others to teach with kindness and good character.
+
+Confirmations and rewards strengthen the [call to teach](https://portlandiator.github.io/PI_browser/subjects.html?subject=48991B831FEB414988B143D181EB0DEF) and illuminate the [station of teachers](https://portlandiator.github.io/PI_browser/subjects.html?subject=0620D9E3C183E6CF5D3FD17DD58C9ABC). This aid is understood as [divine grace and spiritual capacity](https://portlandiator.github.io/PI_browser/subjects.html?subject=6DFF61AF1A174D40865772C3AB40FF7E), expressed through [service to others](https://portlandiator.github.io/PI_browser/subjects.html?subject=75315FCCBA5D4B54A22808A1159B1775).

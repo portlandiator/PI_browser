@@ -1,0 +1,5 @@
+# entry by troops
+
+Entry by troops refers to a widening flow of people from many nations and backgrounds embracing the Bahá’í Faith. Bahá’í guidance presents it as a process communities can help prepare through unity, love, teaching, and a visible pattern of service. It is distinct from a sudden mass conversion, which some writings describe as a later and separate possibility. The emphasis is on sustained, receptive growth rather than pressure or imposed belief.
+
+Growth of the Cause provides the broader setting: entry by troops is one form of expansion, supported by community development and teaching. The greatness and influence of the Day connects this growth with the spiritual message people are responding to. The texts also stress that attraction depends on the community’s own unity and demonstrated conduct, not simply on external circumstances. [growth of the Cause](https://portlandiator.github.io/PI_browser/subjects.html?subject=22EED87D5EEC4CA68E16AB238733762E) [greatness and influence of the Cause; of this Day](https://portlandiator.github.io/PI_browser/subjects.html?subject=1026FD55727C4292B730BB0C841E20E7)

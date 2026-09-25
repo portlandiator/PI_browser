@@ -1,0 +1,5 @@
+# Abraham; Isaac; Ishmael
+
+Abraham, Isaac, and Ishmael are central figures in traditions shared across Judaism, Christianity, and Islam. Their stories concern covenant, family, faith, and sacrifice, and their different scriptural tellings have shaped religious identity. Bahá’í references place these figures within a broader history of revelation while recognizing the significance of their narratives in each tradition. Comparison should preserve the distinct accounts rather than flattening them into one.
+
+[Sacrifice of self; mystery of sacrifice](https://portlandiator.github.io/PI_browser/subjects.html?subject=2BEF6248EF094C6E9F1AE87D842D03E0) connects Abrahamic narrative with the spiritual meaning of surrender and devotion. [Spiritual transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69) relates sacrifice to a life turned toward service and the betterment of others. Together these links move from a specific sacred story to the broader ethical and spiritual themes it has inspired.

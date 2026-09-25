@@ -1,0 +1,5 @@
+# praise of Western values; culture
+
+Bahá’í writings praise qualities found among Western peoples, including openness to new ideas, education, fairness, industry, and the capacity to organize social life. They also describe receptivity to spiritual teachings in particular communities and individuals. Such praise is specific rather than absolute: it points to real capacities and achievements without claiming that every Western society or person displays them equally.
+
+The linked subject of material progress places Western achievements in learning and civilization alongside the need for moral and spiritual development. Growth of the Cause connects this receptivity with the spread of Bahá’í teachings and institutions, not with an unqualified endorsement of every Western custom. [growth of the Cause](https://portlandiator.github.io/PI_browser/subjects.html?subject=22EED87D5EEC4CA68E16AB238733762E) [progress and the continual ascent of material civilization](https://portlandiator.github.io/PI_browser/subjects.html?subject=15E8B3AB36AF495684116E6C5150950A)

@@ -1,0 +1,5 @@
+# the state of prayer; dynamics of prayer
+
+Prayer joins the heart to God through attention, humility, love, and supplication. Words can give that inward movement form, yet prayer also describes a sustained orientation of the soul and may be silent. Its effects include spiritual composure and a widened capacity to receive; requests, meanwhile, are answered according to wisdom rather than guaranteed in the form a person expects. Prescribed prayer and spontaneous devotion belong to this wider life of communion.
+
+The [power of prayer](https://portlandiator.github.io/PI_browser/subjects.html?subject=374926D1B4A0440A807608CC09170687) describes its capacity to deepen spiritual life, while the [importance of prayer](https://portlandiator.github.io/PI_browser/subjects.html?subject=AAA2181CBE0F4BFFAAFD92CC0FCB75B4) also includes its place among religious obligations. This account of prayer’s inner state is distinct from, yet related to, the question of the [impossibility of true worship of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=173632E7BF104AB486EFBB383AF8DEAD).

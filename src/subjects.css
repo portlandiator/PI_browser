@@ -99,3 +99,18 @@
 .subject-print-view .graph-panel{display:none}
 
 @media screen{.subject-print-view main{box-sizing:border-box;width:100%;max-width:210mm;margin:24px auto;padding:15mm;background:var(--white);box-shadow:0 1px 8px #0002}.subject-print-view .subject-layout{margin:0}}
+
+#subject-content{min-width:0}
+.subject-overview{display:grid;gap:24px;align-items:start}
+.subject-overview-graph{min-width:0}
+.subject-overview-summary{min-width:0;font:20px/1.65 "EB Garamond","Scheherazade New",serif;overflow-wrap:anywhere}
+.subject-overview-summary p{margin:0 0 1em}
+.subject-overview-summary p:last-child{margin-bottom:0}
+.summary-subject-link,.summary-subject-link:visited{color:var(--subject-color);text-decoration:underline;text-underline-offset:3px}
+@media(min-width:1400px){
+.subject-overview{grid-template-columns:minmax(0,1.9fr) minmax(280px,1fr)}
+.subject-overview-summary{margin-top:78px;padding-left:24px;border-left:1px solid var(--rule)}
+.subject-overview .subject-graph{min-width:0}
+}
+.subject-print-view .subject-overview{display:none}
+@media print{.subject-overview{display:block}.subject-overview-summary{height:auto;overflow:visible}}

@@ -1,0 +1,5 @@
+# useful occupation; acquisition of a craft; trade; profession
+
+Useful occupation joins livelihood with contribution. A craft, profession, trade, or other productive work can provide dignity and self-reliance while benefiting others; work is elevated to worship when performed with the right spirit. Children should gain practical skills alongside literary learning, and society should value artists and craftspeople whose abilities advance human welfare. Idleness is discouraged, but occupation is not measured only by income: its worth also lies in service and meaningful use of one’s capacities.
+
+Work can itself be [worship](https://portlandiator.github.io/PI_browser/subjects.html?subject=CB73A56CDCC6E0484B0C8324B42C7E3D), and useful occupations support [humanity’s progress and betterment](https://portlandiator.github.io/PI_browser/subjects.html?subject=5A637BBBB913426BA5FEBBC58E0A6BF2), echoed by a closely related entry on [serving humanity](https://portlandiator.github.io/PI_browser/subjects.html?subject=5A637BBBB913426BA5FEBBC58E0A6BF2-09862a80).

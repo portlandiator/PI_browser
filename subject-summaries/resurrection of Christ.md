@@ -1,0 +1,5 @@
+# resurrection of Christ
+
+Christ’s resurrection signifies the renewal of His Cause and the awakening of faith, rather than the reanimation of a physical body. This spiritual meaning affirms the reality of Christ’s continuing life and influence while distinguishing it from bodily return. Resurrection thus marks the victory of His Revelation after His followers’ initial grief and uncertainty.
+
+[Mary Magdalene](https://portlandiator.github.io/PI_browser/subjects.html?subject=042B3F5C87F541728495F9973A5F53AC) is associated with the discovery and witness of the resurrection narrative. [Crucifixion; ascension of Christ](https://portlandiator.github.io/PI_browser/subjects.html?subject=48B550F0BB80EEB2A03AF8999B747FFE) connects resurrection with the events of Christ’s death and exaltation. [Interpretation of words and passages in scripture](https://portlandiator.github.io/PI_browser/subjects.html?subject=58B72013D935E92718D07A6AB1DCFB78) addresses the symbolic reading through which resurrection language is understood. Together these links connect the narrative’s witnesses, its sequence of events, and its theological interpretation.

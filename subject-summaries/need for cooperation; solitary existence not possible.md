@@ -1,0 +1,5 @@
+# need for cooperation; solitary existence not possible
+
+Living beings depend on relationships and shared functions; complete self-sufficiency is not a condition of ordinary created life. The need for cooperation appears in the interdependence of individuals and in the practical work of social existence. Cooperation here is more than convenience: it expresses a pattern in which each contributes to needs that cannot be met alone. The idea also opens an ethical question about how people should act within a mutually dependent community.
+
+[Characteristics and conduct of true believers](https://portlandiator.github.io/PI_browser/subjects.html?subject=0DB1352636234AF3A5E69C0111872F10) turns interdependence toward conduct, with its example defining faith through action in accordance with teachings. This connection gives cooperation an ethical dimension: shared life depends not only on recognizing need but on acting in ways that support others. The subject’s emphasis on dependence thus meets a practical account of responsibility.

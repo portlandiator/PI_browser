@@ -1,0 +1,5 @@
+# matter; essence; substance and form
+
+Matter, essence, substance, and form are used to ask what a thing is and how it appears in different conditions. Some accounts distinguish a thing’s underlying reality from the forms or attributes through which it is known; others discuss substance and matter as what receives or supports form. Philosophical accounts vary in how they explain the relation between existence and essence. These distinctions help separate identity from visible change.
+
+The proposed link to the [return of the Manifestations of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=4723FB63AE3C460CB0D434538890EED6) reflects a shared distinction between enduring qualities and changing outward forms. Some passages describe a spiritual reality or set of perfections recurring through different appearances, while this topic examines substance, essence, and form more broadly. The connection is analogical: the two subjects address continuity through change at different levels.

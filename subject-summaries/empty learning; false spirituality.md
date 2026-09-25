@@ -1,0 +1,5 @@
+# empty learning; false spirituality
+
+Learning loses its worth when it becomes a performance of status, a store of useless disputation, or a claim to secret spiritual authority. Bahá’í guidance values knowledge that serves truth and humanity while warning against scholarship detached from humility, recognition, and beneficial action. The danger is not learning itself, but empty learning that feeds vanity or misleads others under the appearance of spiritual insight.
+
+Real learning is joined to the [spiritual prerequisites of teaching](https://portlandiator.github.io/PI_browser/subjects.html?subject=8AC80D4CBCF3EC2FB87444DBA8BEBD67), rather than used to claim superiority. The warning against [hypocrisy](https://portlandiator.github.io/PI_browser/subjects.html?subject=51967056B127E9B5141EB6C5BDB5ECAF) addresses the gap between outward piety and inward motive, and [rejection, opposition, and persecution](https://portlandiator.github.io/PI_browser/subjects.html?subject=E3503B9BB6424884B3157B754204073E) shows how false authority can obstruct recognition of a new religious message.

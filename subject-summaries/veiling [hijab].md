@@ -1,0 +1,5 @@
+# veiling [hijab]
+
+Veiling appears both as an outward custom and as a metaphor for inward spiritual barriers. Bahá’í passages recall that Táhirih unveiled among intimate friends but not publicly, and counsel that decisions about unveiling require wisdom and attention to local conditions. They caution against turning the act into a source of disorder or political faction. These historical statements address particular circumstances, not a universal rule for every community or era.
+
+[Corruption and decline of Islam; of the Shi’ih](https://portlandiator.github.io/PI_browser/subjects.html?subject=219279DFECFA48B88656EECEC4290CA7) relates veiling to wider critiques of religious institutions and practices, while [Critique of Eastern values; culture](https://portlandiator.github.io/PI_browser/subjects.html?subject=F9C794BCA51BED7F0C2DC8620BC743F9) places it within discussions of cultural norms and women’s status. Together these links show veiling as both a religious practice and a subject of cultural debate.

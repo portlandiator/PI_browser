@@ -1,0 +1,5 @@
+# call to unity; prohibition of disunity
+
+Unifying hearts is a central spiritual duty. Discord weakens communities and frustrates the very purpose of religion, while reconciliation releases strength for service and progress. The call to unity requires sustained effort: removing prejudice, correcting misunderstandings, speaking respectfully, and replacing estrangement with genuine affection. Those who seek harmony among peoples must cultivate it in their own relationships, making their conduct part of the remedy for a divided world.
+
+[Love, unity, and fellowship among the friends](https://portlandiator.github.io/PI_browser/subjects.html?subject=B002D95B61D1427697DF9636DF3B6E0A) provide the immediate setting in which this duty is practiced: a community cannot persuasively call others to reconciliation while remaining divided itself. The [oneness of humanity](https://portlandiator.github.io/PI_browser/subjects.html?subject=8677D5CBAD964C7F95A61AF10D5EB72D) gives the obligation its full reach. Unity among believers thus becomes preparation for, and a contribution to, cooperation among all peoples, rather than an end confined to a single religious community.

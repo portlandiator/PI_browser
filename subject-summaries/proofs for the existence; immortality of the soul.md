@@ -1,0 +1,5 @@
+# proofs for the existence; immortality of the soul
+
+Arguments for the soul’s existence and immortality draw on its powers of thought, perception, and spiritual awareness, which are not reducible to bodily processes. The distinction between reliable spiritual insight and ordinary imagination is important: not every dream or impression proves a spiritual reality. Philosophical reasoning must therefore respect the limits of experience.
+
+The distinction between true visions and imagination is discussed in [the meaning of dreams and visions](https://portlandiator.github.io/PI_browser/subjects.html?subject=3F5DFEF17B6E4935A76DA6520A5504AE) and [the realm of similitudes](https://portlandiator.github.io/PI_browser/subjects.html?subject=4B07E7C749314DBEB8C4158C26A02453). [The relationship of the soul to the body](https://portlandiator.github.io/PI_browser/subjects.html?subject=52B1C3F2B9574C37BAF0ECCC8D5AB8C1) addresses the soul’s independence from bodily form, while [the soul after death](https://portlandiator.github.io/PI_browser/subjects.html?subject=79CD788B08C5E8B37070B3DD452FB313) considers its continuing existence.

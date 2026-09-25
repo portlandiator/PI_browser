@@ -1,0 +1,5 @@
+# Zoroastrianism; Mahabad and Zoroaster
+
+Zoroaster is honored as a Manifestation of God who brought divine guidance and laws to ancient Iran. Bahá’í texts name the Avesta and Zend, recall the support of rulers such as Gushtasp, and describe Zoroastrian prophecies as pointing toward later divine guidance. Parsi communities preserved traditions and writings after migration to India. The historical dates remain uncertain, and references to Mahabad belong to less securely established traditions.
+
+[Praise and encouragement](https://portlandiator.github.io/PI_browser/subjects.html?subject=A61D5813EBB7E2C5981ECFA84987639B) reflects devotional language directed toward believers and religious figures. [Predictions and prophecies](https://portlandiator.github.io/PI_browser/subjects.html?subject=FF9A4A182AA5EB45D01627817D176E5E) connects Zoroastrian tradition with expectations about future events and fulfillment. These links situate the topic within religious memory and prophecy while leaving differences in historical certainty intact.

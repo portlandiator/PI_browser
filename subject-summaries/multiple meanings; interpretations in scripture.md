@@ -1,0 +1,5 @@
+# multiple meanings; interpretations in scripture
+
+Scriptural passages can bear multiple meanings, including literal, historical, symbolic, and spiritual interpretations. The meanings are not necessarily contradictory; different levels may illuminate distinct dimensions of a text. Interpretation therefore depends on context and on recognizing how a passage functions within a larger revelation.
+
+Multiple meanings relate to [the Word’s incomparability](https://portlandiator.github.io/PI_browser/subjects.html?subject=CFB58B5793CB4B10BCCDDE3EC1B51C19) and to [quotations from or interpretations of the Bible](https://portlandiator.github.io/PI_browser/subjects.html?subject=1EBA961BF35048008A08B489196F1A6E). The centrality of revelation appears in [the Word of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=4E323D7B85E34704B18BD5AB68F84E22), while [literal interpretation](https://portlandiator.github.io/PI_browser/subjects.html?subject=87CAE620F6194480B20F2C8B053A5841) marks one approach that must be considered alongside symbolic and inward readings.

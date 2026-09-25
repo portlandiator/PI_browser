@@ -1,0 +1,5 @@
+# belief and denial
+
+Belief and denial describe responses to spiritual truth and revelation. Belief involves recognition and commitment, while denial may arise from doubt, attachment, or refusal to reconsider inherited assumptions. These terms concern both intellectual judgment and the orientation of the heart, expressed through conduct as well as words.
+
+The contrast appears in [light and darkness](https://portlandiator.github.io/PI_browser/subjects.html?subject=8B68A1DE8700E8697ABFF0E02CF7F845), while [prayer for spiritual recognition](https://portlandiator.github.io/PI_browser/subjects.html?subject=CF9408FBB1DDEA91EBA67EA2F1C015D8) and [living waters](https://portlandiator.github.io/PI_browser/subjects.html?subject=AC6D3AECF43E478BB1E3EC19DB04E992) describe movement toward belief and spiritual life. [Detachment and patience](https://portlandiator.github.io/PI_browser/subjects.html?subject=379BEFFCBC0C4B9683034D7269624B3C) relate to the conditions that can help a person examine and respond to truth.

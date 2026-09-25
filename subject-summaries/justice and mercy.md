@@ -1,0 +1,5 @@
+# justice and mercy
+
+Justice and mercy work together when people respond to wrongdoing, hardship, and conflict. Justice protects rights and sets fair standards; mercy makes room for patience, forgiveness, and the possibility of change. Either value can be distorted when separated from the other: severity without compassion harms, while leniency without fairness may fail those who were wronged. Their balance supports humane relationships and legitimate authority.
+
+[Forgiveness; a sin-covering eye; patience and forbearance](https://portlandiator.github.io/PI_browser/subjects.html?subject=F28151459776E3BE109C95C138177810) expresses mercy as tolerance and restraint. [Relationship between government and people](https://portlandiator.github.io/PI_browser/subjects.html?subject=8DB0F6A838C1E54167E1BBF27836246B) applies the pair to public life, where cooperation and fair treatment matter. [Reward and punishment](https://portlandiator.github.io/PI_browser/subjects.html?subject=FF5256DAFAB846958221CF1F4616DFCA) considers accountability and consequence. Together these links show justice and mercy operating in personal conduct, governance, and moral judgment.

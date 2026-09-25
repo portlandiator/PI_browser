@@ -1,0 +1,5 @@
+# Mary Magdalene
+
+Mary Magdalene is held up in Bahá’í writings as an example of spiritual recognition and steadfastness. Though remembered as a humble and unlearned woman, she recognized Christ and remained firm after His Ascension, becoming a model of faithfulness. Her elevated spiritual station challenges assumptions that status or education determines a person’s capacity for faith.
+
+[Resurrection of Christ](https://portlandiator.github.io/PI_browser/subjects.html?subject=46F9949EEF0B4004B93D712D5C0A4366) connects Mary Magdalene with the central event she is remembered for witnessing. [Spiritual transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69) relates discipleship to a changed life and service to others. [Steadfastness; perseverance; faithfulness](https://portlandiator.github.io/PI_browser/subjects.html?subject=D3D5A6BA921F4EFD915F7B12D2779668) emphasizes the fidelity and persistence associated with devoted followers. Together these links connect her narrative with witness, spiritual growth, and constancy.

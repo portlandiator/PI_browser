@@ -1,0 +1,5 @@
+# occult sciences; psychic phenomena
+
+Fortune-telling, geomancy, séances, and spirit-rapping do not provide dependable access to hidden knowledge. Some apparent psychic effects are attributed to imagination, contrivance, or the mind’s own activity; tampering with such powers is discouraged. Yet spiritual influence is not reduced to material spectacle: souls may communicate through character, heart, and the sharing of ideas, without mediums moving objects or producing physical signs.
+
+The treatment of [demons and evil spirits](https://portlandiator.github.io/PI_browser/subjects.html?subject=4CB7B206ED48ED717EB75A017F7D6FFF) similarly rejects imagined or superstitious control. [The soul and spirit after death](https://portlandiator.github.io/PI_browser/subjects.html?subject=79CD788B08C5E8B37070B3DD452FB313) provide the larger setting for questions about departed souls, while [spiritual communication and connections of the heart](https://portlandiator.github.io/PI_browser/subjects.html?subject=63ABB434FE01EB0C75DABE2680B7A71E) name the nonmaterial form of influence distinguished from séance effects.

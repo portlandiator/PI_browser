@@ -1,0 +1,5 @@
+# realm of similitudes ['alam-i-mithal]
+
+‘Alam-i-mithal, the realm of similitudes, is an intermediate spiritual domain in which realities may appear through forms and images. It offers a framework for distinguishing true spiritual disclosure from ordinary dreams, without treating every dream as a prophetic vision. The concept connects symbolic perception with the layered structure of existence.
+
+The realm’s place among spiritual worlds connects to [the Kingdom of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=FAF773D669C84BC49FB837C8DC094417), while [the human soul as an isthmus](https://portlandiator.github.io/PI_browser/subjects.html?subject=388C5CE1497248D8AB59AE07C7B12BBE) describes the human capacity to encounter realities across material and immaterial domains. [Proofs for the soul’s immortality](https://portlandiator.github.io/PI_browser/subjects.html?subject=9776E3373AB6EADEF00584AE6CE4505D) relate visions and spiritual perception to questions about the soul’s continuing existence.

@@ -1,0 +1,5 @@
+# high station of teachers of the Cause
+
+Teaching the Faith is an exalted service, entrusted to those who arise with devotion, wise speech, and a life that reflects the message. Its honor lies not in status over others but in responsibility: guiding seekers, serving neighbors, and helping awaken spiritual life. Divine assistance and lasting reward accompany teaching, and good deeds and holy character must accompany proclamation. This calling asks for sacrifice, courage, and humility.
+
+The station of teachers belongs to the wider [call to teach](https://portlandiator.github.io/PI_browser/subjects.html?subject=48991B831FEB414988B143D181EB0DEF), and is related to the [high station of the true believer](https://portlandiator.github.io/PI_browser/subjects.html?subject=9A8742BB523FE7870795B9A71B370B0A). Teaching is associated with [divine confirmations and reward](https://portlandiator.github.io/PI_browser/subjects.html?subject=7CD2FD413A26449884C53C73A2482877) and can foster [spiritual transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69).

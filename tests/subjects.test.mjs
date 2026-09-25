@@ -57,12 +57,17 @@ test('export shares identical passages, preserves associations and applies relat
   const out=path.join(root,'dist'),dataset='fixture/';await fs.mkdir(path.join(out,dataset),{recursive:true});
   await fs.writeFile(path.join(out,dataset,'catalog.json.gz'),gzipSync(JSON.stringify([{id:'BH00001',author:'A'}])));
   const subjects=[{id:'a',name:'A'},{id:'b',name:'B'}];
+  await fs.mkdir(path.join(root,'subject-summaries'));
+  await fs.writeFile(path.join(root,'subject-summaries','A.md'),'# A\n\nIntroduction A.\n\nRelated to [B](https://portlandiator.github.io/PI_browser/subjects.html?subject=b).');
+  await fs.writeFile(path.join(root,'subject-summaries','B.md'),'# B\n\nIntroduction B.\n\nRelated to [A](https://portlandiator.github.io/PI_browser/subjects.html?subject=a).');
   const candidate={source:'BH00001',version:'v1',ranges:[{paragraph:1,start:0,end:5,text:'alpha'},{paragraph:2,start:0,end:4,text:'beta'}],method:'exact',score:1};
   const bySubject=new Map(subjects.map(s=>[s.id,{subject:s,selections:[{id:s.id+'-selection',subject:s.id,status:'exact',candidates:[structuredClone(candidate)],suppliedIds:['BH00001']}],notices:[]}]));
   const report={counts:{exact:0,normalized:0,approximate:0,ambiguous:0,unmatched:0,confirmed:0,rejected:0}};
   await writeSubjectOutputs({root,out,dataset,subjects,bySubject,report,edits:{relationships:[{source:'b',target:'a',type:'related',status:'rejected',note:'Distinct concepts'}]},hierarchyHtml:'<li id="b"><a>B</a><ul><li id="a"><a>A</a></li></ul></li>'});
   const load=async name=>JSON.parse(gunzipSync(await fs.readFile(path.join(out,dataset,'subjects',name+'.json.gz'))));
   const a=await load('a'),b=await load('b');assert.equal(a.selections[0].passage,b.selections[0].passage);assert.deepEqual(a.selections[0].otherSubjects,['a','b']);
+  assert.deepEqual(a.summary,[[{text:'Introduction A.'}],[{text:'Related to '},{text:'B',subject:'b'},{text:'.'}]]);
+  assert.equal(b.summary[1][1].subject,'a');
   const p=await load('passages/'+a.selections[0].passage);assert.deepEqual(p.selections,[{id:'a-selection',subject:'a'},{id:'b-selection',subject:'b'}]);
   const index=await load('index');assert.equal(index.report.duplicateRanges,1);assert.equal(index.report.passages,1);assert.equal(index.report.selections,2);assert.equal(index.report.counts.exact,2);
   const decisions=await load('editorial-decisions');assert.deepEqual(decisions.relationships,[{source:'b',target:'a',type:'related',status:'rejected',note:'Distinct concepts'}]);

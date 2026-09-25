@@ -1,0 +1,5 @@
+# Muhammad; Islam
+
+Muhammad is revered in Islam as the Prophet who received the Qur’an and established a religious community whose teachings shaped world history. Bahá’í writings affirm Muhammad’s prophetic station and engage the Qur’an as sacred scripture. His mission appears within the principle of progressive revelation, which recognizes the unity of divine religion while acknowledging each revelation’s distinct laws and historical setting.
+
+[Historical episodes and the lessons of the past](https://portlandiator.github.io/PI_browser/subjects.html?subject=EFCE6C7ADF264310AFD8C5A360881252) provides context for Muhammad’s life and the emergence of Islam. [Religion as source; stimulus of knowledge and science](https://portlandiator.github.io/PI_browser/subjects.html?subject=6280A04C18E1EDA8175C748BAC2D2A19) connects Islamic civilization with learning, while [Justice](https://portlandiator.github.io/PI_browser/subjects.html?subject=1021657B1CF64AAB90EC9FBF7FC73B34) relates the social and moral teachings of Islam to public life. Together these links connect Muhammad’s religious mission with history, scholarship, and justice.

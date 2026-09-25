@@ -1,0 +1,5 @@
+# means of establishment of future civilization
+
+A future civilization must be built around the oneness of humanity and a new pattern of social organization. Bahá’í writings envision institutions that coordinate community life and international affairs while preserving freedom and local autonomy. The transformation is meant to be constructive and peaceful, grounded in cooperation rather than violent ideologies. It unfolds over time as people develop the capacities and structures needed to serve a unified world.
+
+Universal peace gives the central aim of this future order: a secure world in which humanity’s members cooperate. A universal language is one practical means of communication within it. These connections link social organization with the goal of unity without reducing civilization to institutions alone. [universal language](https://portlandiator.github.io/PI_browser/subjects.html?subject=30894349063B41739E0027F705C40651) [universal peace; world unity](https://portlandiator.github.io/PI_browser/subjects.html?subject=91BFC765953C4C6D9943AF7361ADD675)

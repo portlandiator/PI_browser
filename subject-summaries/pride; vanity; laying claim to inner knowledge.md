@@ -1,0 +1,5 @@
+# pride; vanity; laying claim to inner knowledge
+
+Pride can grow from learning, lineage, wealth, religious office, or claims to hidden spiritual knowledge. None of these grants a person superiority over others: confidence in one’s own rank can obscure personal faults, damage trust, and turn religious service into a bid for fame or control. Humility is not self-contempt; it is honest self-knowledge, gratitude, and respect for the dignity of others.
+
+[Knowledge of self](https://portlandiator.github.io/PI_browser/subjects.html?subject=3ED3EB2EFEBF43C9A36134E26FDB38EE) helps distinguish genuine insight from self-deception, while [humility and meekness](https://portlandiator.github.io/PI_browser/subjects.html?subject=F98B57795BFF4F67AF474B13EE107703) counter the urge to elevate oneself. [Heedlessness and ignorance](https://portlandiator.github.io/PI_browser/subjects.html?subject=9EC159259B874FABB63915C45183582D) can persist even beneath confident claims, making modesty and continual learning essential.

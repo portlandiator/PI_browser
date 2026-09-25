@@ -1,0 +1,5 @@
+# power; influence of a single soul in teaching the Cause
+
+One person can exert wide influence through sincere, sustained teaching. The individual builds relationships, notices opportunities, and turns consultation into action—capacities no institution can exercise on another’s behalf. Love, dedication, and service can make a single teacher a channel for spiritual influence, and historical anecdotes describe far-reaching results from solitary effort. Success is not a promise of immediate numbers or fame; the emphasis is on faithful initiative and reliance on divine assistance.
+
+This individual responsibility is a direct [call to action](https://portlandiator.github.io/PI_browser/subjects.html?subject=64297813E037448AB17A91940A7008DE) and part of [teaching the Cause](https://portlandiator.github.io/PI_browser/subjects.html?subject=48991B831FEB414988B143D181EB0DEF), while the effort depends on [divine grace and capacity](https://portlandiator.github.io/PI_browser/subjects.html?subject=6DFF61AF1A174D40865772C3AB40FF7E).

@@ -1,0 +1,5 @@
+# prayer for purity; chastity
+
+Purity is an inward clarity of heart and intention, freed from self-absorption, vanity, and desires that pull a person away from God. These prayers ask for a tranquil conscience, a sincere purpose, and a life cleansed of whatever obstructs remembrance or right action. Water, light, and a clean garment express renewal. A purified heart can become more attentive, trustworthy, and devoted, turning inward discipline toward a life of ethical conduct and service.
+
+Prayer is one means of seeking this cleansing, drawing on the [power of prayer](https://portlandiator.github.io/PI_browser/subjects.html?subject=374926D1B4A0440A807608CC09170687). The requests overlap with [purity of heart and sincerity](https://portlandiator.github.io/PI_browser/subjects.html?subject=98B67B70516949FD856C36A52AE23098), while their hope for renewed character points toward [spiritual transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69).

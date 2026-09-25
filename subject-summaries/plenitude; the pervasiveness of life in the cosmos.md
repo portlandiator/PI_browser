@@ -1,0 +1,5 @@
+# plenitude; the pervasiveness of life in the cosmos
+
+Life is treated as pervasive across the cosmos rather than confined to familiar human experience. The topic evokes a creation abundant with forms and degrees of existence, including realities beyond what people can directly observe. Such plenitude supports a sense of scale and wonder, while leaving questions about the nature of other worlds open. The idea is a broad theological vision of abundant creation, not a catalogue of empirically verified life beyond Earth.
+
+[Present and future expansion of arts and sciences; of technology](https://portlandiator.github.io/PI_browser/subjects.html?subject=BB8A8971F2EF480B9179519B95690878) connects cosmic plenitude with the expectation that further inquiry may disclose more of creation. Its cited example anticipates continued progress in knowledge, including the uncovering of mysteries. Read alongside this subject, the connection joins wonder at a vast living cosmos with confidence in expanding human understanding, without claiming that every unknown has already been demonstrated.

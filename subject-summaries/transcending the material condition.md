@@ -1,0 +1,5 @@
+# transcending the material condition
+
+Transcending the material condition means responding to the human spirit’s reach toward eternity, divine signs, and ultimate reality. Material progress can benefit humanity but cannot by itself satisfy this longing. Wisdom, detachment, and the Kingdom of God point beyond earthly aims; transcendence takes form in service and continual inner transformation.
+
+Transcendence involves [spiritual transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69), [healing](https://portlandiator.github.io/PI_browser/subjects.html?subject=FDA358C85EABE1A21EBBED1872E92D55), and [spiritual wayfaring](https://portlandiator.github.io/PI_browser/subjects.html?subject=DBB07A9A48FD421E8F6E02D219149549). It requires [detachment](https://portlandiator.github.io/PI_browser/subjects.html?subject=379BEFFCBC0C4B9683034D7269624B3C) and opens toward [the Kingdom of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=FAF773D669C84BC49FB837C8DC094417).

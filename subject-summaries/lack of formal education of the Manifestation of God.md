@@ -1,0 +1,5 @@
+# lack of formal education of the Manifestation of God
+
+Revealed knowledge does not depend on formal schooling or instruction from human teachers. The appearance of extraordinary wisdom and fluent revelation without the usual preparation challenges the assumption that learning alone explains a Manifestation's insight. This contrast directs attention toward the divine origin of His mission. It does not diminish the value of useful education: arts and sciences that promote human well-being remain distinct from empty verbal learning and the pursuit of scholarly prestige.
+
+The contrast between no formal schooling and extraordinary insight serves as one proposed [proof of the Manifestations of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=55581A433C3D45CEB183D21F214B5DB3). The cited example of knowledge flowing without instruction is treated as evidence of a source beyond ordinary learning. That evidentiary role should be understood as the connection suggested here, rather than as a claim that all readers or sources frame the example identically.

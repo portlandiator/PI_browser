@@ -1,0 +1,5 @@
+# birth of Christ; purity; virginity of Mary
+
+Mary’s pregnancy exposed her to social suspicion, yet Bahá’í teachings affirm her purity and Christ’s divine station. The birth is understood as a prophetic mystery, not merely a question of biological explanation. The birth carries prophetic mystery as well as spiritual significance, while raising questions shaped by its historical setting.
+
+[Adam; Adam and Eve](https://portlandiator.github.io/PI_browser/subjects.html?subject=6B2378895BCC48AEB5D0E7EA6B70D626) places the birth narrative beside another scriptural account interpreted in more than one way. [Christ; Christianity](https://portlandiator.github.io/PI_browser/subjects.html?subject=0FA444A710AD4FADBE7A093449A77252) provides its theological context, while [Interpretation of words and passages in scripture](https://portlandiator.github.io/PI_browser/subjects.html?subject=58B72013D935E92718D07A6AB1DCFB78) addresses how scriptural events can carry symbolic and spiritual meaning. Together these links connect the narrative to broader questions of scripture and interpretation.

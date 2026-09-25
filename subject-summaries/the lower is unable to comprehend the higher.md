@@ -1,0 +1,5 @@
+# the lower is unable to comprehend the higher
+
+A reality of lower degree cannot fully comprehend one that exceeds its own powers. The principle distinguishes partial knowledge of attributes or effects from knowledge of an essence in itself. It is applied most strongly to the limits of human understanding before divine reality, while also describing wider relations between levels of existence. The point is not that nothing can be known, but that knowledge remains bounded by the knower’s station.
+
+[God as immanent vs. transcendent reality](https://portlandiator.github.io/PI_browser/subjects.html?subject=183823600ED74219B463809E7A4803D6) explores how divine reality may be known through attributes while remaining unknowable in essence. [Transcendence; unknowability of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=F3B3303C979E42428EFC5629B545E4E4) develops the related limit between created understanding and what exceeds it. These subjects make clear that human knowledge can recognize signs and effects without claiming to contain the reality they point toward.

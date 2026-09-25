@@ -1,0 +1,5 @@
+# the Bayan, its laws and their abrogation
+
+The Persian Bayan contains laws and teachings revealed by the Báb, along with a strong emphasis on the coming of “Him Whom God shall make manifest.” Bahá’í writings explain that many Bayan laws were superseded by the Kitáb-i-Aqdas, while some remain confirmed where explicitly retained. This relationship illustrates progressive revelation: a later Manifestation renews religious law while honoring the earlier dispensation and its preparatory purpose.
+
+[Translation; publication of the Sacred Writings](https://portlandiator.github.io/PI_browser/subjects.html?subject=E9239F2F8F30E75D30C97D5222058E75) connects the Bayan’s laws with the work of making scripture accessible. [Superiority; incomparability of the Word of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=CFB58B5793CB4B10BCCDDE3EC1B51C19) provides a theological frame for the authority of a later revelation. Together these links connect the Bayan’s text and its supersession with the continuing interpretation and transmission of sacred writings.

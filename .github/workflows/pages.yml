@@ -8,6 +8,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'data/**'
+      - 'subject-summaries/**'
       - 'pdf_volumes - copy/**'
       - '*.csv'
       - 'subjects - reference.docx'

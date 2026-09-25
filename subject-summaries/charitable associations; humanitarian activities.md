@@ -1,0 +1,5 @@
+# charitable associations; humanitarian activities
+
+Bahá’í guidance calls for organized relief as well as personal generosity: societies for healing, hospitals, dispensaries, schools for orphans, and homes for people with disabilities are named as practical needs. Donations and charitable proceeds should reach the poor, and aid is to be given without distinction of race. Acts such as relieving hardship and gladdening the hearts of the poor are treated as spiritually consequential forms of service.
+
+[House of Worship](https://portlandiator.github.io/PI_browser/subjects.html?subject=E52E5452873A452AA14119AAB8CFFC41) connects worship with the inspiration and steadfastness of a community. [Service to others; to the Cause of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=75315FCCBA5D4B54A22808A1159B1775) expresses the practical principle underlying humanitarian work. Together these links join spiritual gathering with outward service, showing how devotion can animate organized efforts for human well-being.

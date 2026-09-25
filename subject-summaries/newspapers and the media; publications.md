@@ -1,0 +1,5 @@
+# newspapers and the media; publications
+
+Bahá’u’lláh calls newspapers a mirror of the world because they reflect and reveal the actions of peoples. He therefore charges writers to investigate circumstances, verify facts, and write with justice rather than passion. Other passages mention newspapers and magazines as channels for both rumor and useful articles about the Faith. Publication carries power to inform, but that power brings a duty of accuracy and fairness.
+
+[The power of words; of speech](https://portlandiator.github.io/PI_browser/subjects.html?subject=2F9E3A01AFCCEAC5262DC3738E50F13A) focuses on the influence language can have on people and communities. [Review of publications](https://portlandiator.github.io/PI_browser/subjects.html?subject=B362A06F749D49B8A9B4080391A83C2E) concerns the processes that guide published material, while [Teaching the Cause; call to teach](https://portlandiator.github.io/PI_browser/subjects.html?subject=48991B831FEB414988B143D181EB0DEF) connects communication with sharing ideas. Together these links relate media’s reach to speech, editorial responsibility, and the purposes of communication.

@@ -1,0 +1,5 @@
+# many are called but few are chosen
+
+The saying “many are called, but few are chosen” points to the difference between an invitation widely offered and the spiritual bounty actually received. Divine grace is abundant, yet people may remain veiled or fail to respond; recognition and transformation depend on both God’s favor and the person’s receptivity. The image of hidden jewels suggests that potential can be discovered widely, without making spiritual attainment automatic or a ground for human superiority.
+
+Being among the chosen is associated with seeking [God’s good pleasure](https://portlandiator.github.io/PI_browser/subjects.html?subject=034E6E7433614B24B4A7683E29D0C241). The phrase’s [biblical origin and interpretation](https://portlandiator.github.io/PI_browser/subjects.html?subject=1EBA961BF35048008A08B489196F1A6E) gives it a wider scriptural context, while [praise and encouragement](https://portlandiator.github.io/PI_browser/subjects.html?subject=A61D5813EBB7E2C5981ECFA84987639B) affirm those who respond to the invitation.

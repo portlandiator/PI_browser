@@ -1,0 +1,5 @@
+# interpretation of dreams and visions
+
+Interpreting dreams and visions requires distinguishing symbolic meaning from literal prediction, and spiritual disclosure from the ordinary activity of sleep. Some visions may be understood as true, while others arise from memory, fear, or imagination. Interpretation therefore calls for discernment and should not turn every image into a forecast.
+
+Interpretive discernment is connected to [teaching the Cause](https://portlandiator.github.io/PI_browser/subjects.html?subject=48991B831FEB414988B143D181EB0DEF), [opposition and persecution](https://portlandiator.github.io/PI_browser/subjects.html?subject=E3503B9BB6424884B3157B754204073E), and [predictions and prophecies](https://portlandiator.github.io/PI_browser/subjects.html?subject=FF9A4A182AA5EB45D01627817D176E5E). [Steadfastness](https://portlandiator.github.io/PI_browser/subjects.html?subject=D3D5A6BA921F4EFD915F7B12D2779668) is also linked to how people respond to uncertain or difficult experiences. Together these topics emphasize patience and care in interpreting visions and acting on them.

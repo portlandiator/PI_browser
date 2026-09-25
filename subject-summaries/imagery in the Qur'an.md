@@ -1,0 +1,5 @@
+# imagery in the Qur'an
+
+Qur’anic imagery conveys spiritual realities through symbols, comparisons, and vivid scenes. Light, gardens, scales, journeys, and other images can make abstract truths accessible while preserving meanings that exceed a literal description. Reading such imagery requires attention to context and interpretive tradition. The images do not simply decorate the text; they shape how readers understand revelation, human conduct, and spiritual transformation.
+
+[Spiritual transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69) connects scriptural imagery with changes in human conduct and orientation. [The Word of God; influence and centrality of](https://portlandiator.github.io/PI_browser/subjects.html?subject=4E323D7B85E34704B18BD5AB68F84E22) relates the Qur’an’s images to the illuminating function of divine revelation. Together these links connect figurative language with spiritual influence and the transformation of life.

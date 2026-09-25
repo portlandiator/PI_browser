@@ -1,0 +1,5 @@
+# the Adamic cycle and the Baha'i cycle
+
+Bahá’í writings divide the Faith’s history into successive ages, including a Heroic or Apostolic Age, a Formative Age, and a future Golden Age. Each period has a distinct character: the first centers on the Founders and early believers, the next on the development of institutions, and the last on the emergence of a world civilization. The Adamic cycle is a larger framework within which these historical stages are situated.
+
+The spiritual transformation of humanity gives the ages their wider purpose, and the greatness of the Day concerns the Revelation that began this era. These links connect historical periodization with the spiritual and social development expected across the cycle. [spiritual transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69) [greatness and influence of the Cause; of this Day](https://portlandiator.github.io/PI_browser/subjects.html?subject=1026FD55727C4292B730BB0C841E20E7)

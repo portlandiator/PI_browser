@@ -1,0 +1,5 @@
+# role of the Covenant in preserving unity
+
+The Covenant preserves the unity and integrity of the Bahá’í Faith by establishing a shared center of authority and preventing individual interpretations from dividing the community. Its provisions are embedded in Bahá’u’lláh’s writings and are treated as inseparable from acceptance of His message. The Covenant provides continuity after the Manifestation’s passing, safeguards the Faith from schism, and supports its expansion. Obedience is therefore framed as a protection of collective unity, not merely a private act of loyalty.
+
+This role continues the [primordial Covenant](https://portlandiator.github.io/PI_browser/subjects.html?subject=32700D0B9FBB474CA2DF2E334114BC5B), calls believers to [firmness](https://portlandiator.github.io/PI_browser/subjects.html?subject=1A99E9F886AA4DB89E927820FA635633), and defines boundaries against [Covenant-breaking](https://portlandiator.github.io/PI_browser/subjects.html?subject=42BA11FC5FE24CBEA769298634A7FA42). It is tied to the [mission and authority of ‘Abdu’l‑Bahá](https://portlandiator.github.io/PI_browser/subjects.html?subject=4D2AFD7905384761BB166DCD6782B315).

@@ -1,0 +1,5 @@
+# apostles; early disciples of Christ
+
+The apostles and early disciples carried the teachings of Christ beyond his lifetime and helped form the first Christian communities. Their devotion, diversity, and varied responses to challenge shaped the transmission of the Gospel. They are remembered as witnesses and teachers whose work depended on faith and courage. Their history also illustrates how a religious movement grows through the service of individuals and communities.
+
+[Growth of the Cause](https://portlandiator.github.io/PI_browser/subjects.html?subject=22EED87D5EEC4CA68E16AB238733762E) connects early discipleship with the development of a religious community. [Stories; anecdotes](https://portlandiator.github.io/PI_browser/subjects.html?subject=7A8DB05467DBEF2954FD9B30F84AA0E8) reflects the narratives through which the disciples’ lives are remembered, while [Historical episodes and the lessons of the past](https://portlandiator.github.io/PI_browser/subjects.html?subject=EFCE6C7ADF264310AFD8C5A360881252) places their actions within a longer religious history. Together these links connect witness, community growth, and historical memory.

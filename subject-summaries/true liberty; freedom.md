@@ -1,0 +1,5 @@
+# true liberty; freedom
+
+Bahá’u’lláh distinguishes true liberty from license. Freedom from every restraint can leave people captive to instinct and harm; liberty instead means release from the lower nature and willing adherence to principles that protect human dignity and society. The writings also warn that even valued freedoms can become harmful when carried to excess, and call for moderation rather than arbitrary control.
+
+[Universal peace; world unity](https://portlandiator.github.io/PI_browser/subjects.html?subject=91BFC765953C4C6D9943AF7361ADD675) connects freedom with a social order in which humanity can live securely together. [Status of kings; future of monarchy](https://portlandiator.github.io/PI_browser/subjects.html?subject=2CA524B216BC4EB4BA63A2832033F918) addresses authority and the responsibilities attached to it. [Purpose of religion in the world](https://portlandiator.github.io/PI_browser/subjects.html?subject=29AF567C76864D208EA3BD39BC5CC7CF) relates personal and social life through religion’s aim of unity. Together these links place freedom within questions of governance, shared well-being, and the purpose of religion.

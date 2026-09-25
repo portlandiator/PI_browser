@@ -1,0 +1,5 @@
+# nature and God's will
+
+Nature may be understood as the ordered process through which forms and phenomena appear, but it is not treated uniformly as an independent power. Some accounts call it an expression of God’s will or creative name; others stress that nature itself lacks consciousness and operates under divine governance. These formulations resist both worshipping nature as ultimate and dismissing the regularities observed in it. The relation between natural law and divine agency remains central.
+
+The distinction between nature and its source connects to [God as immanent vs. transcendent reality](https://portlandiator.github.io/PI_browser/subjects.html?subject=183823600ED74219B463809E7A4803D6): divine power is present through creation, yet the divine Essence is not reduced to natural phenomena. [The Primal Will](https://portlandiator.github.io/PI_browser/subjects.html?subject=9D9002D8700F4A2D893B0869236D586F) supplies a related account of the creative agency expressed through the world. The links show two ways the material order can be related to divine action while preserving distinctions between God, Will, and nature.

@@ -1,3 +1,4 @@
+import {parseSubjectSummary} from '../src/subject-summary.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -79,6 +80,7 @@ export async function writeSubjectOutputs({root,out,dataset,subjects,bySubject,r
   for(const edit of edits.relationships){if(!sets.has(edit.source)||!sets.has(edit.target)||edit.source===edit.target||!['broader','narrower','related'].includes(edit.type)||!['accepted','rejected'].includes(edit.status))throw Error('Invalid relationship edit');for(let i=edges.length-1;i>=0;i--)if(relationKey(edges[i])===relationKey(edit))edges.splice(i,1);edges.push({...edit,provenance:edit.note||'Editorial decision'});}
   for(const data of bySubject.values()){
     const sourceIds=new Set(data.selections.flatMap(s=>[...s.candidates.map(c=>c.source),...s.suppliedIds]));
+    data.summary=parseSubjectSummary(await fs.readFile(path.join(root,'subject-summaries',data.subject.name+'.md'),'utf8'),data.subject,subjects);
     data.sources=Object.fromEntries([...sourceIds].map(id=>[id,metadata.get(id)]));
     for(const s of data.selections)if(s.passage)s.otherSubjects=passages.get(s.passage).subjects;
     await zip(path.join(base,data.subject.id+'.json.gz'),data);

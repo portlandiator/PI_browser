@@ -1,0 +1,5 @@
+# rebellion and misdeeds of Mirza Yahya; the Azalis
+
+Mirza Yahya, known as Subh-i-Azal, was Bahá’u’lláh’s half-brother and a rival claimant to leadership of the Bábí community. Their followers’ conflict intensified during the Adrianople exile and produced a lasting division between Bahá’ís and Azalis. Bahá’í accounts accuse Mirza Yahya of serious misconduct and opposition; this contested history should be read with awareness of its differing perspectives.
+
+[Bahá’u’lláh](https://portlandiator.github.io/PI_browser/subjects.html?subject=3491B0317F6A4084995CD331AD2C278E) provides the central context for the conflict over leadership. [Covenant-breaking and Covenant-breakers](https://portlandiator.github.io/PI_browser/subjects.html?subject=42BA11FC5FE24CBEA769298634A7FA42) connects the dispute to later Bahá’í concepts of loyalty and community unity, while [Suffering and imprisonment](https://portlandiator.github.io/PI_browser/subjects.html?subject=370AC40D2874E1246B99EB8122E23C9A) reflects the broader hardship surrounding the conflict. These links place the episode within the history of Bahá’u’lláh’s mission and the consequences of division.

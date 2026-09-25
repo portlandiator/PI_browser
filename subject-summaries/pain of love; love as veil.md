@@ -1,0 +1,5 @@
+# pain of love; love as veil
+
+Pain of love arises when longing for the Beloved meets distance, loss, or the limits of what can be disclosed. The saying that love is a veil between lover and beloved captures the paradox: love draws the soul near while also making it acutely aware of separation. Grief and trial can deepen spiritual transformation, and poetry gives voice to this inward tension.
+
+Love’s pain may appear as [grief](https://portlandiator.github.io/PI_browser/subjects.html?subject=8B74AA4BF06FE197BC2DFCF83BE17C14), but it is rooted in [love of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=410D6617D11A4266BA52B4B00A48D649) and can bring [transformation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C068EBF06ABC4693BF6C2868E2385C69). [Poetry](https://portlandiator.github.io/PI_browser/subjects.html?subject=F91840AE122AEC232D80E33023EC88DF) expresses the longing, while [tests and suffering](https://portlandiator.github.io/PI_browser/subjects.html?subject=CC093CE37A394C1F81BEAF67251D3FC4) may accompany it.

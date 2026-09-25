@@ -1,0 +1,5 @@
+# supreme tribunal
+
+A supreme tribunal is envisioned as a representative international court able to arbitrate disputes among nations and issue binding decisions. Bahá’í writings present it as an essential institution for universal peace, supported by all governments and peoples. It is one part of a wider world commonwealth, alongside a legislature and executive; its specific role is adjudication, not lawmaking or day-to-day administration.
+
+Political unity among governments provides the commonwealth in which the tribunal would operate. Enumerations of Bahá’í principles place it among proposed means of preventing war. The tribunal’s jurisdiction over international disputes complements the world legislature and executive, whose roles are distinct. [unity of governments; political unity](https://portlandiator.github.io/PI_browser/subjects.html?subject=05BF59468BDB4AE8988D540CBE8E5C2B) [lists; enumerations of Baha'i principles](https://portlandiator.github.io/PI_browser/subjects.html?subject=10F20171888446BAB9501BF1262D49C7)

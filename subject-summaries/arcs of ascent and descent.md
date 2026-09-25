@@ -1,0 +1,5 @@
+# arcs of ascent and descent
+
+Existence is pictured as a circle with a descending arc through material kingdoms and an ascending arc of spiritual development. Human life occupies the turning point: people inherit material conditions yet can move toward greater understanding, virtue, and spiritual awareness. The image describes a change in direction and kind, not a return along the same path. It frames human capacity as open to growth, while stressing the role of education and choice.
+
+The ascending arc leads toward [continual renewal of creation](https://portlandiator.github.io/PI_browser/subjects.html?subject=C213F67401F9445F8429A5F2621563E5), since creation is described as continually renewed rather than fixed in a single completed state. The link to [the Bab; the Primal Point; station and claims of the Bab](https://portlandiator.github.io/PI_browser/subjects.html?subject=3633354029CFE10F551F7CA219518DAC) brings the image into a context of revelation and spiritual renewal. These relations emphasize different aspects of movement: one concerns the world’s ongoing renewal, the other a prophetic station associated with a new spiritual cycle.

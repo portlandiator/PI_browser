@@ -1,0 +1,5 @@
+# elections
+
+Bahá’í elections are conducted without nominations or campaigning, emphasizing prayerful reflection, informed choice, and freedom from factionalism. Voters consider the qualities needed for service and elect members by secret ballot. The process is meant to protect unity and encourage participation rather than competition for office. Elected bodies then serve the community through consultation and responsibility, not personal authority.
+
+[House of Justice](https://portlandiator.github.io/PI_browser/subjects.html?subject=A801789EBB804ABB86C36BB8CAB50FED) is an institution formed through election and entrusted with collective responsibilities. [Spiritual assemblies; administrative matters](https://portlandiator.github.io/PI_browser/subjects.html?subject=6DE6DED75D254D59BFF16E8CEE21F305) describes the local and national bodies whose members are elected. Together these links connect the electoral process to the institutions it sustains and the service those institutions provide.

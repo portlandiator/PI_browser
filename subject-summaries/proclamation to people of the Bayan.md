@@ -1,0 +1,5 @@
+# proclamation to people of the Bayan
+
+Proclamation to the people of the Bayan urges the Bábís to recognize the fulfillment of what was treasured in divine knowledge. They are called to fear God, set aside what they possess, and receive the new gift of the Day with fairness. The appeal acknowledges that some followers faulted the new community, but insists that inherited loyalties and concealment must not obstruct recognition of the promised Manifestation.
+
+The community’s reception includes [rejection by the people of the Bayan](https://portlandiator.github.io/PI_browser/subjects.html?subject=1219A74FADB7E7059B143DAF131CB386), while its expectations relate to [prophecy and fulfillment](https://portlandiator.github.io/PI_browser/subjects.html?subject=A72CD9234D5E4386A7C153F8E08CF797) and the station of the [twin Manifestations](https://portlandiator.github.io/PI_browser/subjects.html?subject=F115687B598B470AB058ADEDD3C97F66). Recognition can involve [tests, sacrifice, and suffering](https://portlandiator.github.io/PI_browser/subjects.html?subject=CC093CE37A394C1F81BEAF67251D3FC4).

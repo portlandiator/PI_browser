@@ -1,0 +1,5 @@
+# contention and conflict
+
+Contention, violence, and dispute are barred because they wound people and erode the unity religious life should build. Bahá’í teachings call for answering hatred with love and thoughts of war with peace, replacing argument with calm counsel and association in concord. The prohibition extends beyond physical harm to bitter disputes among believers, while the natural competition found in material life is not a model for human relations.
+
+The alternative to conflict is active fellowship: [consorting with all and being kind](https://portlandiator.github.io/PI_browser/subjects.html?subject=F8339A44D4ED49B8A05EF89719DBCE80) carries love across religious lines, while [exhortations and counsels](https://portlandiator.github.io/PI_browser/subjects.html?subject=3186621C7B97EB4AAD2CCA81C1358C2B) offer a constructive way to address disagreement. Where injury has occurred, [forgiveness, patience, and forbearance](https://portlandiator.github.io/PI_browser/subjects.html?subject=F28151459776E3BE109C95C138177810) help restore trust and keep a dispute from hardening into lasting estrangement.

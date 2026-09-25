@@ -1,0 +1,5 @@
+# changing and unchanging parts of religion
+
+Religion has enduring spiritual principles and time-bound social laws. Justice, truthfulness, compassion, faith, and love recur across dispensations, while rules of conduct and forms of worship can change with humanity’s needs. Change is not a contradiction of divine wisdom: like remedies adapted to different conditions, religious teachings address the requirements of each age. Distinguishing the essential from the contingent allows continuity without rigidity and renewal without dismissing the truth of earlier revelations.
+
+The distinction clarifies the need to abandon [corrupted dogmas](https://portlandiator.github.io/PI_browser/subjects.html?subject=A3B6DA84931BE1A9E2A91755E047538C) and fits within [progressive revelation](https://portlandiator.github.io/PI_browser/subjects.html?subject=A868B8CCFDF44B2890211A0FAFE9F2B9). It also helps preserve the [truth of earlier religions and scriptures](https://portlandiator.github.io/PI_browser/subjects.html?subject=193E825FA96F443BBA9ABC0E163E0F11) while recognizing change in social provisions.

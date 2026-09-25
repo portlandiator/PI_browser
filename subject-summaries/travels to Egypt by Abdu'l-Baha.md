@@ -1,0 +1,5 @@
+# travels to Egypt by Abdu'l-Baha
+
+After His release from long confinement in ‘Akká, ‘Abdu’l‑Bahá traveled to Egypt, where He resided, recovered, and met visitors from varied backgrounds before journeying farther west. These travels carried the Bahá’í teachings to new audiences and opened channels for conversation, even as His life remained shaped by earlier imprisonment.
+
+‘Abdu’l‑Bahá’s autobiographical narratives provide personal context for the Egyptian period, while the linked subject of suffering and imprisonment recalls the long confinement that preceded His freedom to travel. The Egypt journey thus belongs both to the history of release from restriction and to the wider pattern of His later public encounters. [autobiographical account; narrative of Abdu'l-Baha](https://portlandiator.github.io/PI_browser/subjects.html?subject=E9694E11B244E2587DE1BB0F8D416710) [suffering and imprisonment](https://portlandiator.github.io/PI_browser/subjects.html?subject=370AC40D2874E1246B99EB8122E23C9A)

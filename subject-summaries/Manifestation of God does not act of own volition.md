@@ -1,0 +1,5 @@
+# Manifestation of God does not act of own volition
+
+A Manifestation gives voice to divine revelation rather than pursuing a mission of personal invention. His words and actions express obedience to God's will, even when that calling brings rejection, imprisonment, or suffering. Images of a reed moved by its player or a leaf stirred by wind convey this dependence. They direct attention beyond personal ambition toward the authority and purpose of the revelation entrusted to Him.
+
+The theme takes a relational form in the [Manifestation of God as mediator](https://portlandiator.github.io/PI_browser/subjects.html?subject=83C2E82C31DB4115A3CDF5884D0CB19E): the Manifestation conveys divine guidance to the world, while the passages here stress that the message originates in God rather than in an independent human will. The reed and wind images emphasize receptivity and transmission; the mediator image emphasizes the role that transmission plays between the unknowable divine reality and created life.

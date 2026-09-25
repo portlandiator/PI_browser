@@ -1,0 +1,5 @@
+# courtesy; culture [adab]
+
+Courtesy gives respect a visible form: it shapes speech, manners, hospitality, and regard for another person’s dignity. Bahá’u’lláh calls it a mark of spiritual nearness and a virtue suitable to everyone, while linking it with truthfulness, justice, and forbearance. Courtesy is not merely polish or deference; it restrains offense, honors a guest, keeps promises, and helps communities live together in harmony. Children, too, are urged to learn it early.
+
+Courtesy belongs to the [virtuous spiritual path](https://portlandiator.github.io/PI_browser/subjects.html?subject=DBB07A9A48FD421E8F6E02D219149549), where [wisdom](https://portlandiator.github.io/PI_browser/subjects.html?subject=F21CB46DB1E7424F8F52EA6E0C61DD3B) guides considerate conduct. It is joined with [honesty and trustworthiness](https://portlandiator.github.io/PI_browser/subjects.html?subject=EF0FF1BFD66BE7BE40FF7CAA4012DDF3), and can shape how the Faith is taught through suitable [methods of teaching](https://portlandiator.github.io/PI_browser/subjects.html?subject=369DAA81C51F4587B8F070614833A216).

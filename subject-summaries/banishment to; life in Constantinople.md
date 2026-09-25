@@ -1,0 +1,5 @@
+# banishment to; life in Constantinople
+
+Bahá’u’lláh lived in Constantinople (Istanbul) from 1863 to 1868 after his declaration in Baghdad. The period was marked by formal exile, correspondence with officials, and the growing visibility of his claim. The Ottoman government’s decision to transfer him to Adrianople followed soon afterward. This brief stage connects the declaration of his mission with the more severe exile that followed.
+
+[Bahá’u’lláh](https://portlandiator.github.io/PI_browser/subjects.html?subject=3491B0317F6A4084995CD331AD2C278E) provides the wider account of his life. [Declaration of Bahá’u’lláh](https://portlandiator.github.io/PI_browser/subjects.html?subject=3411B39633A8E7CBBEE7284A878D8283) precedes this period, while [Banishment to; life in Adrianople](https://portlandiator.github.io/PI_browser/subjects.html?subject=6580A1098A7242F9B29D4916F5B4F414) follows it. Together these links trace the transition from declaration in Baghdad through Constantinople to Adrianople.

@@ -1,0 +1,5 @@
+# greed; envy; covetousness; attachment to the world
+
+Greed and envy distort both inward life and social relations. Coveting another’s wealth breeds jealousy, while pursuit of possessions, rank, and fame can lead people to trample others’ rights and neglect spiritual purpose. Detachment does not demand poverty or deny material needs; it frees a person to use resources justly without making accumulation the measure of happiness.
+
+The counsel is set against the [transience and limited worth of the physical world](https://portlandiator.github.io/PI_browser/subjects.html?subject=CBBEF627F45A45E7850653204203438C), and the contrast between [worldliness and other-worldliness](https://portlandiator.github.io/PI_browser/subjects.html?subject=BD88D70EC7AEE658A00C66FE24E0CA85) asks where lasting value lies. [Detachment and renunciation](https://portlandiator.github.io/PI_browser/subjects.html?subject=379BEFFCBC0C4B9683034D7269624B3C) describe the inward freedom needed to use material things without becoming ruled by desire.

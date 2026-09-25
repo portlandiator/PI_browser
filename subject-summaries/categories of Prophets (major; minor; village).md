@@ -1,0 +1,5 @@
+# categories of Prophets (major; minor; village)
+
+Prophets differ in the scope and character of their missions. Independent Prophets establish a new dispensation, while dependent Prophets uphold and spread the teachings of a preceding revelation. A further distinction concerns the reach of a mission, from a particular community to humanity as a whole. These distinctions help explain the different spiritual stations and functions that the word “prophet” can signify, while recognizing the common purpose of divine guidance.
+
+These classifications prepare for the [differences between the Manifestations; station of distinction](https://portlandiator.github.io/PI_browser/subjects.html?subject=797723473B3647F38FDE65C86DBE2669): the cited discussions distinguish universal founders and lawgivers from other prophetic figures, while also emphasizing the particular mission and limits of each Manifestation. The link concerns a shared question of station and scope. The formulations vary between passages, so the categories here should be read as the distinctions those sources make, rather than collapsed into a single definitive taxonomy.

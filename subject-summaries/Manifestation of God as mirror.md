@@ -1,0 +1,5 @@
+# Manifestation of God as mirror
+
+The Manifestation of God is likened to a mirror that reflects the light and attributes of God without containing or becoming the divine Essence. The mirror’s purity represents its capacity to reveal divine qualities fully, while the sun remains at its own station. The image makes both perfect reflection and continued distinction intelligible.
+
+The mirror metaphor links the Manifestation’s station in [the Manifestation of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=703AB631CB76E66408E7D6F7160F01F5) and [relationship to God](https://portlandiator.github.io/PI_browser/subjects.html?subject=00BA6D4E6EF645E480AB0B732786C2BB) with [mediation](https://portlandiator.github.io/PI_browser/subjects.html?subject=83C2E82C31DB4115A3CDF5884D0CB19E). It also contrasts with the human soul as a mirror in [the soul and divine light](https://portlandiator.github.io/PI_browser/subjects.html?subject=221CD3663B0740D49344F071233D1C5F): the Manifestation reflects divine attributes uniquely, while human receptivity develops through spiritual refinement.

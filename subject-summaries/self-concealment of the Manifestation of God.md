@@ -1,0 +1,5 @@
+# self-concealment of the Manifestation of God
+
+A Manifestation may live among people before His identity is recognized or His mission openly declared. His spiritual glory can remain veiled even when He is outwardly present, awaiting an appointed time or a receptive heart. Concealment concerns both the unfolding of revelation and the limits of human perception. The image of a face behind veils invites seekers to look beyond familiar appearances and remain open to a greatness they have not yet discerned.
+
+The theme touches the [Manifestation of God speaking in the voice of Divinity](https://portlandiator.github.io/PI_browser/subjects.html?subject=618FD8010F10E760CBC53B05C0F1DC25), because the veiled figure is also described as the channel through whom a divine voice becomes manifest. Recognition and concealment are paired: some passages present the same figure as hidden from ordinary sight yet speaking with divine authority. The connection highlights that visibility, identity, and the source of utterance are treated as related but distinct questions.

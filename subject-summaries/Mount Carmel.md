@@ -1,0 +1,5 @@
+# Mount Carmel
+
+Mount Carmel is a landscape of striking natural beauty and deep religious association. Bahá’í recollections describe prophets and seekers praying on the mountain, while accounts of Bahá’u’lláh’s journeys recall His tent being pitched there during His imprisonment near ‘Akká. The mountain thus joins the region’s spiritual memory with the lived geography of exile; later, the Shrine of the Báb became a visible sacred landmark on its slope.
+
+[Bahá’u’lláh](https://portlandiator.github.io/PI_browser/subjects.html?subject=3491B0317F6A4084995CD331AD2C278E)’s connection to Mount Carmel is both historical and symbolic: He visited and camped on the mountain while still a prisoner, and passages associate His presence with the fulfillment of scriptural expectations. The related subject of [suffering and imprisonment](https://portlandiator.github.io/PI_browser/subjects.html?subject=370AC40D2874E1246B99EB8122E23C9A) keeps that setting in view as part of a life under confinement, rather than treating the mountain only as scenery. Together the topics link natural landscape, religious memory, and the physical circumstances of exile.

@@ -1,0 +1,5 @@
+# Nineteen-Day Feast
+
+The Nineteen-Day Feast is a Bahá’í gathering held once in each nineteen-day month, combining devotional readings and prayer, administrative consultation, and fellowship. Bahá’u’lláh and ‘Abdu’l‑Bahá encouraged its regular observance, and later guidance emphasizes preparation, courtesy, and participation. It is intended to nourish spiritual life and unity while giving community members a structured occasion to discuss collective affairs.
+
+[Love, unity, and fellowship among the friends](https://portlandiator.github.io/PI_browser/subjects.html?subject=B002D95B61D1427697DF9636DF3B6E0A) describes the bonds that give the gathering warmth and purpose. [Spiritual meetings; gatherings; devotional gatherings; feasts](https://portlandiator.github.io/PI_browser/subjects.html?subject=53AFF53F02514681A22F4E2FAB467483) places the Feast within the wider practice of communal worship and consultation. Together these links connect a specific recurring institution with the relationships and spiritual life it nurtures.

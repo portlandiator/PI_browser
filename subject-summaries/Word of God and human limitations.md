@@ -1,0 +1,5 @@
+# Word of God and human limitations
+
+The Word of God conveys guidance within human limits: people can recognize its signs and attributes without comprehending the divine Essence. Revelation is adapted to human capacity, and not every spiritual reality can be disclosed or understood at once. The Word therefore illuminates while also marking the boundary between what can be known and what remains beyond finite understanding.
+
+The limits of the Word’s reception connect with [the limits of the intellect](https://portlandiator.github.io/PI_browser/subjects.html?subject=048D1BC9980545A2BF50BCE956D33C2C) and [God’s transcendence and immanence](https://portlandiator.github.io/PI_browser/subjects.html?subject=183823600ED74219B463809E7A4803D6). Its illuminating role appears in [the Word’s centrality and influence](https://portlandiator.github.io/PI_browser/subjects.html?subject=4E323D7B85E34704B18BD5AB68F84E22). Together these subjects distinguish the knowledge made available through revelation from direct comprehension of divine Essence.

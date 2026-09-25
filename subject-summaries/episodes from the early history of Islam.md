@@ -1,0 +1,5 @@
+# episodes from the early history of Islam
+
+Early Islamic history includes Muhammad’s migration and battles, the succession dispute over ‘Alí, the event of Ghadir Khumm, and the tragedy of Karbala. Accounts differ in perspective and include provisional translation, polemical judgments, and anecdotes about historical figures. Sunni and Shi‘i questions of authority and memory appear alongside moral lessons about loyalty, courage, and hypocrisy; these episodes do not form one neutral chronicle.
+
+[Imam Husayn](https://portlandiator.github.io/PI_browser/subjects.html?subject=B08DD762C73AED1C83EAE3215CED1D53) focuses on a central figure and episode in early Islamic history, associated with sacrifice and martyrdom. [Stories; anecdotes](https://portlandiator.github.io/PI_browser/subjects.html?subject=7A8DB05467DBEF2954FD9B30F84AA0E8) points to the narrative forms that carry these memories. Together these links connect specific historical events with the broader traditions through which they are remembered.

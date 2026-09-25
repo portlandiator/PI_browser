@@ -1,0 +1,5 @@
+# teleology; goal-directed motion
+
+Purposeful motion describes change directed toward an end or fuller state. Growth, development, and movement through degrees can be understood as more than random displacement when they tend toward a characteristic completion. The idea also has a spiritual register, where movement toward higher states is linked with aspiration and transformation. These uses are related by direction but should remain distinct: a physical process and a moral or spiritual aim are not the same kind of explanation.
+
+[One universal law; attractive power of love](https://portlandiator.github.io/PI_browser/subjects.html?subject=D190D773F56F4F3CBA7AD064E2098780) relates order and attraction to the coordination of natural processes. [Evolution; human evolution](https://portlandiator.github.io/PI_browser/subjects.html?subject=F7EC8954BFA749B4ACA3C4353E8A96CB) connects development through stages with changing human capacities. Together these links place goal-directed motion beside both universal order and gradual development, while leaving open whether a given passage is making a physical, ethical, or spiritual claim.

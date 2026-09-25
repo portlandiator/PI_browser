@@ -71,3 +71,7 @@ Unlinked selected passages omit the source-link status label and keep their supp
 PDF printing renders highlighted wording in bold.
 
 The PDF preparation view shows a paper-width surface with visible 15 mm padding; printed pages use a named page rule with the same margins.
+
+## Subject summaries
+
+Each subject has an editable Markdown file in `subject-summaries/`, named exactly for the subject. It contains a concise introduction followed by a paragraph connecting adjacent subjects through hyperlinks. The introductory paragraph appears in full beside the knowledge graph, without a scrollbar or height limit. On narrower screens it flows below the graph. The second paragraph remains in the editable file and generated data but is hidden while it is being revised. Related-subject links use their subject colors when rendered.

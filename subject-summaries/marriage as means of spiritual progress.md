@@ -1,0 +1,5 @@
+# marriage as means of spiritual progress
+
+Marriage can be a setting for mutual support, spiritual growth, and a lasting friendship between partners. A strong union joins physical companionship with shared spiritual purpose and care for one another. The idea of marriage as a means of progress does not promise effortless harmony; it places responsibility on both partners to cultivate love, trust, and service. A lasting bond is built through a life of mutual regard.
+
+[Characteristics and conduct of true believers](https://portlandiator.github.io/PI_browser/subjects.html?subject=0DB1352636234AF3A5E69C0111872F10) connects marriage with the conduct expected in a life shaped by faith. [Unity in diversity](https://portlandiator.github.io/PI_browser/subjects.html?subject=A20E909C76AB45A7A3B172F91D3C4D97) offers a wider image of unity that preserves difference, relevant to partnership between two distinct people. Together these links show marriage as both a personal relationship and a practice of living out spiritual principles.

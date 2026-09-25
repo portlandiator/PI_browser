@@ -1,0 +1,5 @@
+# theodicy; the mystery of evil; of suffering
+
+The problem of evil and suffering asks how hardship can exist under divine justice and goodness. Suffering may result from human injustice, natural conditions, or tests that prompt spiritual growth; these causes should not be collapsed into one explanation. Some cases, especially the suffering of the innocent, exceed easy human understanding and invite reflection on recompense beyond this life.
+
+The spiritual role of hardship is explored in [tests, trials, and sacrifice](https://portlandiator.github.io/PI_browser/subjects.html?subject=CC093CE37A394C1F81BEAF67251D3FC4), while [free will and predestination](https://portlandiator.github.io/PI_browser/subjects.html?subject=61112CABECB646B7A648800B633240E7) bears on responsibility for suffering. [Justice and wrath of God](https://portlandiator.github.io/PI_browser/subjects.html?subject=9170438CF5C0E2D84968B1DE41C36F0F) concerns divine judgment and the moral order. These connections distinguish avoidable harm caused by people from trials whose full meaning may not be apparent in this life.
