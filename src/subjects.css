@@ -103,7 +103,7 @@
 #subject-content{min-width:0}
 .subject-overview{display:grid;gap:24px;align-items:start}
 .subject-overview-graph{min-width:0}
-.subject-overview-summary{min-width:0;font:20px/1.65 "EB Garamond","Scheherazade New",serif;overflow-wrap:anywhere}
+.subject-overview-summary{min-width:0;font:14px/1.65 "EB Garamond","Scheherazade New",serif;overflow-wrap:anywhere}
 .subject-overview-summary p{margin:0 0 1em}
 .subject-overview-summary p:last-child{margin-bottom:0}
 .summary-subject-link,.summary-subject-link:visited{color:var(--subject-color);text-decoration:underline;text-underline-offset:3px}
