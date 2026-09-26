@@ -18,7 +18,11 @@
     });
     const dialog = document.getElementById('about-dialog');
     for (const id of ['about-open', 'footer-about']) {
-      document.getElementById(id)?.addEventListener('click', () => dialog.showModal());
+      document.getElementById(id)?.addEventListener('click', () => {
+        dialog.showModal();
+        const stats=document.getElementById('about-stats');
+        import('./about-stats.mjs').then(module=>module.showAboutStats(stats)).catch(()=>{stats.textContent='Collection statistics are temporarily unavailable.';});
+      });
     }
     document.getElementById('about-close').addEventListener('click', () => dialog.close());
     dialog.addEventListener('click', event => {

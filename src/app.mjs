@@ -238,6 +238,6 @@ try{
   if(!titlesResponse.ok)throw new Error('Volume titles could not be loaded. Please reload the page.');
   volumeTitles=await titlesResponse.json();
   facetPanel=new FacetPanel({container:$('metadata-facets'),fields:metadataFields,volumeTitles,getFilters:()=>state.metadataFilters,onChange:changeMetadata,request:requestFacet});
-  $('about-stats').textContent=`The collection contains ${stats.records.toLocaleString()} catalogue records, including ${stats.pairs.toLocaleString()} texts with both language versions. ${stats.metadataOnly.toLocaleString()} records have metadata only.`;
+
   setupWorker();runSearch();if(state.id)openReader(state.id,{push:false});
 }catch(error){showError($('results'),error.message,()=>location.reload());$('results').setAttribute('aria-busy','false');$('results-heading').textContent='Collection unavailable';}
