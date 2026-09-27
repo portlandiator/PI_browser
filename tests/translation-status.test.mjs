@@ -18,7 +18,7 @@ test('missing and malformed declarations never imply authorization',()=>{
 test('Extract follows Word count and displays Yes or No without mutating metadata',()=>{
   const fields=['PIN','Extract','Authorized','Word count','Subjects','Date','Citation count'].map(name=>({name}));
   const metadata={PIN:'AB1',Extract:'x',Authorized:'Y2-',Subjects:'test'};
-  assert.deepEqual(catalogueDetails(fields,metadata),[['PIN','AB1'],['Authorized','Y2-'],['Word count',''],['Extract','Yes'],['Date','']]);
+  assert.deepEqual(catalogueDetails(fields,metadata),[['PIN','AB1'],['Translation authorized','Y (paragraphs 2-)'],['Word count',''],['Extract','Yes'],['Date','']]);
   assert.equal(metadata.Extract,'x');
   assert.equal(catalogueDetails(fields,{Extract:''}).find(([name])=>name==='Extract')[1],'No');
 });
