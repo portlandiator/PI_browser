@@ -19,8 +19,9 @@ export function renamePeriods(rows,mapping){
   const originalValues=new Map(),unmapped=new Map();
   let changed=0;
   const renamed=rows.map(row=>{
-    const old=row.Period||'',value=mapping.rename(old);
-    if(old===value){if(old)unmapped.set(old,(unmapped.get(old)||0)+1);return row;}
+    const old=row.Period||'',base=old.replace(/\d+$/, ''),value=mapping.rename(base);
+    if(base&&base===value)unmapped.set(old,(unmapped.get(old)||0)+1);
+    if(old===value)return row;
     originalValues.set(row.PIN,{Period:old});changed++;
     return {...row,Period:value};
   });

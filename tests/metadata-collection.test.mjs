@@ -13,6 +13,7 @@ const load=p=>JSON.parse(gunzipSync(fs.readFileSync(base+'/'+p)));
 const rows=parseCsv(fs.readFileSync('metadata - copy/'+fs.readdirSync('metadata - copy').find(f=>f.endsWith('.csv')),'utf8')).map(publicMetadata);
 const rawById=new Map(rows.map(r=>[r.PIN,{...r}]));
 const periodMapping=parseCsv(fs.readFileSync('period_renaming.csv','utf8'));
+for(const row of rows)row.Period=row.Period.replace(/\d+$/, '');
 for(const row of rows)for(const {Old,New} of periodMapping)row.Period=row.Period.replaceAll(Old,New);
 const byId=new Map(rows.map(r=>[r.PIN,r]));
 const catalog=load('catalog.json.gz');

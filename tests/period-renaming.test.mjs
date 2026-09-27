@@ -25,3 +25,13 @@ test('Period mapping is literal and simultaneous, and rejects ambiguous mapping 
   assert.throws(()=>parsePeriodRenaming('Old,New\nA,'),/Empty/);
   assert.throws(()=>parsePeriodRenaming('Wrong,New\nA,B'),/columns/);
 });
+
+test('numeric suffixes are removed before mapping while raw periods stay intact',()=>{
+  const mapping=parsePeriodRenaming('Old,New\nAkka,Akka renamed\nBaghdad,Baghdad renamed\nEdirne,Edirne renamed');
+  const rows=['Akka2','Baghdad1','Edirne4','Akka12','Unknown7'].map((Period,i)=>({PIN:String(i),Period}));
+  const result=renamePeriods(rows,mapping);
+  assert.deepEqual(result.rows.map(r=>r.Period),['Akka renamed','Baghdad renamed','Edirne renamed','Akka renamed','Unknown']);
+  for(const row of rows)assert.equal(result.originalValues.get(row.PIN).Period,row.Period);
+  assert.deepEqual(result.report.unmapped,{Unknown7:1});
+  assert.throws(()=>requireCompletePeriodRenaming(result.report),/Unknown7/);
+});
