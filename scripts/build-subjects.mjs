@@ -6,6 +6,7 @@ import {gzipSync,gunzipSync} from 'node:zlib';
 import {parseCsv,parseText} from '../src/text.mjs';
 import {digest,selectionBlocks,parseSelection,prepareSource,Matcher,hierarchyEdges,validateConfirmedMatch} from './subject-core.mjs';
 import {relationKey} from '../src/subject-relations.mjs';
+import {writeReviewIndex} from './build-passage-review.mjs';
 const zip=(file,data)=>fs.writeFile(file,gzipSync(JSON.stringify(data),{level:9}));
 export async function buildSubjects(root,out,dataset){
   const snapshotBytes=await fs.readFile(path.join(root,'data/subjects-snapshot.json.gz'));
@@ -13,6 +14,7 @@ export async function buildSubjects(root,out,dataset){
   const csv=await fs.readFile(path.join(root,'14-colors_and_hyperlinks.csv'),'utf8');
   const edits=JSON.parse(await fs.readFile(path.join(root,'data/subject-edits.json'),'utf8'));
   const sourceExceptions=JSON.parse(await fs.readFile(path.join(root,'data/subject-source-exceptions.json'),'utf8'));
+  const reviewSuggestions=JSON.parse(await fs.readFile(path.join(root,'data/subject-review-candidates.json'),'utf8')).selections;
   const seenSubjects=new Set(),duplicateSubjectUrls=[];
   const subjects=parseCsv(csv).map((row,i)=>{const categoryId=new URLSearchParams(new URL(row.hyperlink).hash.replace(/^#\??/,'')).get('category');if(!/^[a-f\d]{32}$/i.test(categoryId)||!/^#[a-f\d]{6}$/i.test(row.color))throw Error('Invalid subject CSV row '+(i+2));const duplicate=seenSubjects.has(categoryId),id=duplicate?categoryId+'-'+digest(row.subject).slice(0,8):categoryId;if(duplicate)duplicateSubjectUrls.push({row:i+2,categoryId,name:row.subject,id});seenSubjects.add(categoryId);if(!['http:','https:'].includes(new URL(row.hyperlink).protocol))throw Error('Subject links must use HTTP(S)');return {id,categoryId,name:row.subject,color:row.color,url:row.hyperlink,row:i+2};});
   const limit=Number(process.env.SUBJECT_LIMIT)||subjects.length,active=subjects.slice(0,limit);
@@ -38,6 +40,15 @@ export async function buildSubjects(root,out,dataset){
           const chosen=validateConfirmedMatch(edit.candidate,matcher.sources);
           match={...match,status:'confirmed',candidates:[chosen],review:edit.note||''};
         }else throw Error('Invalid editorial status '+id);}
+        if(!edit&&reviewSuggestions[id]){
+          const proposed=reviewSuggestions[id].flatMap(item=>{
+            const source=matcher.sources.get(item.source);if(!source||!Array.isArray(item.paragraphs)||item.paragraphs.length!==2)return [];
+            const [first,last]=item.paragraphs;if(!Number.isInteger(first)||!Number.isInteger(last)||first<1||last<first||last>source.paragraphs.length)return [];
+            const ranges=[];for(let paragraph=first;paragraph<=last;paragraph++){const text=source.paragraphs[paragraph-1].plain;ranges.push({paragraph,paragraphId:`${source.id}@${source.version}:en:${paragraph}`,start:0,end:text.length,text});}
+            return [{source:source.id,version:source.version,ranges,method:'corpus-wide-fuzzy',score:item.score,evidence:item.evidence||'Corpus-wide fuzzy candidate; verify before confirming.'}];
+          });
+          if(proposed.length)match={...match,status:'unmatched',candidates:proposed,candidateSourcesTruncated:false,candidateLocationsTruncated:false,reason:'Corpus-wide candidates prepared for editorial passage review.'};
+        }
         report.selections++;report.counts[match.status]++;
         const s={id,subject:subject.id,original:selection.text,raw:selection.raw,excerpt:selection.excerpt,suppliedIds:selection.suppliedIds,provenance,...match};
         selections.push(s);
@@ -91,6 +102,7 @@ export async function writeSubjectOutputs({root,out,dataset,subjects,bySubject,r
   report.emptySubjects=subjects.filter(s=>!s.unavailable&&s.selections===0).map(s=>({id:s.id,name:s.name}));
   await zip(path.join(base,'index.json.gz'),{subjects,edges,report,hierarchy:hierarchy.nodes});
   await zip(path.join(base,'editorial-decisions.json.gz'),edits);
+  await writeReviewIndex(base,subjects,bySubject);
   await fs.writeFile(path.join(base,'report.json'),JSON.stringify(report,null,2));
   await fs.writeFile(path.join(root,limit===subjects.length?'subject-import-report.json':'subject-prototype-report.json'),JSON.stringify(report,null,2));
   console.log(JSON.stringify(report.counts));

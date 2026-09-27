@@ -12,9 +12,9 @@
     "normalized": 10712,
     "approximate": 20009,
     "ambiguous": 121,
-    "unmatched": 3371,
-    "confirmed": 246,
-    "rejected": 5076
+    "unmatched": 1924,
+    "confirmed": 741,
+    "rejected": 6028
   },
   "encodingFallbacks": [
     "AB00011.txt",
@@ -319,8 +319,8 @@
     "BH11518.txt",
     "BH11759.txt"
   ],
-  "duplicateRanges": 2982,
-  "overlappingRanges": 9726,
+  "duplicateRanges": 3126,
+  "overlappingRanges": 10098,
   "missingCategories": [
     "61CA06C3639D42A789B6DBF5E2F86E6C"
   ],
@@ -340,10 +340,10 @@
       "reason": "The supplied category endpoint repeatedly timed out and the category ID was absent from the current Loom outline. The user requested retaining the subject with an unavailable notice on 2026-09-17."
     }
   },
-  "passages": 98149,
+  "passages": 98500,
   "relationships": {
     "imported": 12,
-    "suggested": 30,
+    "suggested": 148,
     "reviewed": 3356
   },
   "emptySubjects": [
