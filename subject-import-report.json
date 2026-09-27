@@ -12,9 +12,9 @@
     "normalized": 10712,
     "approximate": 20009,
     "ambiguous": 121,
-    "unmatched": 8693,
-    "confirmed": 0,
-    "rejected": 0
+    "unmatched": 3371,
+    "confirmed": 246,
+    "rejected": 5076
   },
   "encodingFallbacks": [
     "AB00011.txt",
@@ -319,8 +319,8 @@
     "BH11518.txt",
     "BH11759.txt"
   ],
-  "duplicateRanges": 2972,
-  "overlappingRanges": 9552,
+  "duplicateRanges": 2982,
+  "overlappingRanges": 9726,
   "missingCategories": [
     "61CA06C3639D42A789B6DBF5E2F86E6C"
   ],
@@ -333,19 +333,19 @@
       "id": "5A637BBBB913426BA5FEBBC58E0A6BF2-09862a80"
     }
   ],
+  "splitSelectionBlocks": 2,
   "sourceExceptions": {
     "61CA06C3639D42A789B6DBF5E2F86E6C": {
       "name": "the human body",
       "reason": "The supplied category endpoint repeatedly timed out and the category ID was absent from the current Loom outline. The user requested retaining the subject with an unavailable notice on 2026-09-17."
     }
   },
-  "passages": 97913,
+  "passages": 98149,
   "relationships": {
-    "imported": 242,
-    "suggested": 2037,
-    "reviewed": 0
+    "imported": 12,
+    "suggested": 30,
+    "reviewed": 3356
   },
-  "splitSelectionBlocks": 2,
   "emptySubjects": [
     {
       "id": "19BF26DB7B3FE2CF0ECEEB58485A8C6D",

@@ -43,7 +43,7 @@ export async function buildSubjects(root,out,dataset){
         selections.push(s);
       }
     }
-    subject.selections=selections.length;subject.matched=selections.filter(s=>['exact','normalized','confirmed'].includes(s.status)).length;
+    subject.selections=selections.filter(s=>s.status!=='rejected').length;subject.matched=selections.filter(s=>['exact','normalized','confirmed'].includes(s.status)).length;
     bySubject.set(subject.id,{subject,selections,notices});console.log(`Matched ${bySubject.size}/${active.length}: ${subject.name} (${subject.matched}/${subject.selections})`);
   }
   report.sourceExceptions=sourceExceptions;
@@ -70,7 +70,7 @@ export async function writeSubjectOutputs({root,out,dataset,subjects,bySubject,r
 
       if(s.passage)subject.matched++;
     }
-    subject.selections=data.selections.length;
+    subject.selections=data.selections.filter(s=>s.status!=='rejected').length;
   }
   const units=new Map(),sets=new Map(subjects.map(s=>[s.id,new Set()]));
   for(const p of passages.values())for(const r of p.ranges){const key=`${p.source}:${r.paragraph}`;if(!units.has(key))units.set(key,[]);units.get(key).push({passage:p,range:r});for(const s of p.subjects)sets.get(s)?.add(key);}
