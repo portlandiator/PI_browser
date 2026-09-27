@@ -73,3 +73,4 @@ The PDF preparation view shows a paper-width surface with visible 15 mm padding;
 ## Subject summaries
 
 Each subject has an editable Markdown file in `subject-summaries/`, named exactly for the subject. It contains a concise introduction followed by a paragraph connecting adjacent subjects through hyperlinks. The introductory paragraph appears in full beside the knowledge graph, without a scrollbar or height limit. On narrower screens it flows below the graph. The second paragraph remains in the editable file and generated data but is hidden while it is being revised. Related-subject links use their subject colors when rendered.
+For selected-passage references whose exact ID starts with ABU, show Author, Title, and ID only; omit separate Date, Recipient, and Place because the title already incorporates them.
