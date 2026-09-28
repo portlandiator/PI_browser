@@ -19,6 +19,7 @@ export async function buildInputs(root){
   }
   await collect('data');
   await collect('subject-summaries');
+  await collect('subject_extracts');
   await collect('pdf_volumes - copy');
   for(const name of await fs.readdir(root))if(name.endsWith('.csv'))await collect(name);
   await collect('subjects - reference.docx');

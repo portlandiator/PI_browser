@@ -47,3 +47,13 @@ test('full imported wording is preserved if excerpt is not its exact prefix',()=
   assert.ok(html.includes('Original wording and full reference'));
   assert.ok(html.includes('>(AB00123)</span></p>'));
 });
+
+test('verified supplied IDs link without implying a paragraph match',()=>{
+ const html=unlinkedPassage({excerpt:'Variant.',original:'Variant. BH00001',suppliedIds:['BH00001'],catalogIds:['BH00001']});
+ assert.ok(html.includes('href="./?id=BH00001"'));assert.ok(!html.includes('passage='));
+});
+
+test('local excerpts without a separated reference do not invent a Loom source link',()=>{
+ const html=unlinkedPassage({excerpt:'Full quotation and its inline reference',original:'Full quotation and its inline reference',provenance:{sourceFilename:'subject_extracts/Evernote_scrape/topic.txt',subjectUrl:'https://loom.loomofreality.org/',selectionParagraph:1}});
+ assert.ok(html.includes('Full quotation and its inline reference'));assert.ok(!html.includes('<a '));assert.ok(!html.includes('Source collection'));assert.ok(!html.includes('()'));
+});

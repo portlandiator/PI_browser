@@ -1,0 +1,3 @@
+# Supplied extracts and review exports retain their exact bytes across platforms.
+subject_extracts/** -text
+extract-review/*.csv -text

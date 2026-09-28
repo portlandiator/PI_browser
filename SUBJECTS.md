@@ -1,3 +1,19 @@
+# Local extract replacement (September 2026)
+
+The active importer uses only the supplied text files in subject_extracts/subjects_inv_length_ordered (653 files) and subject_extracts/Evernote_scrape (471 files). It never imports quotations from the old Loom snapshot. That snapshot supplies the existing relationship outline only. The sections below describing website quote fetching document the historical import, not the active source pipeline.
+
+The two punctuation variants of serving humanity are now one subject, leaving 660 subjects. Both filenames feed its canonical comma-name subject; the old suffixed subject URL redirects to its surviving category ID. Subject summaries, thematic ordering and reviewed relationships use that surviving ID. data/extract-subject-aliases.json records the other filename mappings, including the two choices supplied by the owner.
+
+Strict UTF-8 decoding is attempted first, with every Windows-1252 fallback recorded in the input report. scripts/extract-inputs.mjs preserves raw quotations, references, file hashes, block numbers and line numbers. Terminal Inventory IDs constrain matching to those exact records. Evernote references are separated from quotation wording. Explicit outside-author attributions remain unlinked. Unique exact or normalized matches and uniquely placed ordered omission fragments in one paragraph receive character-level highlights. Fuzzy, repeated, short and unlocated matches remain reviewable; proposed candidates never create public paragraph links. Valid supplied Inventory IDs still link to their Catalog records when the paragraph needs review.
+
+Merge within each subject by complete normalized wording or identical accepted source ranges, preferring Evernote. Distinct passages in the same paragraph are retained and the reader combines their highlights. Removed duplicates retain their raw wording and provenance in the surviving selection. Old website selection IDs and review decisions are not silently applied to new file-based IDs; unused decisions are reported.
+
+Each full build generates extract-review/subjects_inv_length_ordered-review.csv and extract-review/Evernote_scrape-review.csv. These contain every retained unresolved quotation, including outside authors, with candidate IDs/paragraphs and blank Assign ID, Assign paragraph and Notes columns. The accompanying input-report.json records filename mappings, missing files, unusual input blocks and duplicate removals. The browser Passage review queue provides interactive confirmation and precise highlight editing. Citation count remains the default public order; unlinked passages follow in source order.
+
+GitHub Actions fingerprints the two extract folders and builds offline from the tracked files and publication-safe collection archive. Original extract files remain unchanged.
+
+---
+
 # Subject import and maintenance
 
 ## Architecture

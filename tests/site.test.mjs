@@ -4,15 +4,17 @@ import {readFileSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 
 const script=readFileSync(new URL('../src/site.js',import.meta.url),'utf8');
-function setup(saved, blocked=false){
+function setup(saved, blocked=false,href='https://example.org/PI_browser/subjects.html'){
   const events={},clicks={},root={dataset:{}},values=new Map(saved?[['pi-theme',saved]]:[]),attributes={};
   const element=id=>({addEventListener:(event,fn)=>{clicks[id+':'+event]=fn;},setAttribute:(key,value)=>{attributes[id+':'+key]=value;}});
+  let redirected;
   runInNewContext(script,{
+    URL,location:{href},history:{replaceState:(_state,_title,url)=>{redirected=String(url);}},
     document:{documentElement:root,getElementById:element,querySelector:()=>element('meta'),addEventListener:(event,fn)=>{events[event]=fn;}},
     window:{addEventListener:(event,fn)=>{events[event]=fn;}},
     localStorage:{getItem:key=>{if(blocked)throw Error('Blocked');return values.get(key);},setItem:(key,value)=>{if(blocked)throw Error('Blocked');values.set(key,value);}}
   });
-  events.DOMContentLoaded();return {events,clicks,root,values,attributes};
+  events.DOMContentLoaded();return {events,clicks,root,values,attributes,redirected};
 }
 test('theme persists across pages, switches both ways, and follows other tabs',()=>{
   const page=setup();assert.equal(page.root.dataset.theme,'light');
@@ -29,4 +31,9 @@ test('catalog, subject and volume pages share header geometry and About content'
   const header=html=>html.match(/<header class="masthead">[\s\S]*?<\/header>/)[0].replace(/ class="active"| aria-current="page"/g,'');
   for(const page of pages.slice(1))assert.equal(header(pages[0]),header(page));
   for(const page of pages.slice(1))assert.equal(pages[0].match(/<dialog[\s\S]*?<\/dialog>/)[0],page.match(/<dialog[\s\S]*?<\/dialog>/)[0]);
+});
+
+test('merged subject bookmarks preserve reading preferences and anchors',()=>{
+ const page=setup(undefined,false,'https://example.org/PI_browser/subjects.html?subject=5A637BBBB913426BA5FEBBC58E0A6BF2-09862a80&mode=en#selection');
+ const url=new URL(page.redirected);assert.equal(url.searchParams.get('subject'),'5A637BBBB913426BA5FEBBC58E0A6BF2');assert.equal(url.searchParams.get('mode'),'en');assert.equal(url.hash,'#selection');
 });

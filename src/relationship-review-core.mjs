@@ -3,6 +3,15 @@ import {relationKey} from './subject-relations.mjs';
 export const emptyDraft=()=>({format:1,matches:{},relationships:[],reviewedSubjects:{}});
 export function validateDraft(value,ids){
   if(!value||value.format!==1||!value.matches||typeof value.matches!=='object'||Array.isArray(value.matches)||!Array.isArray(value.relationships))throw Error('Choose a format 1 subject-edits.json file.');
+  // Migrate backups and browser drafts for the explicitly merged subject.
+  const old='5A637BBBB913426BA5FEBBC58E0A6BF2-09862a80',canonical='5A637BBBB913426BA5FEBBC58E0A6BF2';
+  if(!ids.has(old)&&ids.has(canonical)&&(Object.hasOwn(value.reviewedSubjects||{},old)||value.relationships.some(e=>e.source===old||e.target===old))){
+    value=structuredClone(value);
+    const edges=new Map();
+    for(const edge of value.relationships){for(const end of ['source','target'])if(edge[end]===old)edge[end]=canonical;if(edge.source!==edge.target)edges.set(relationKey(edge),edge);}
+    value.relationships=[...edges.values()];
+    if(Object.hasOwn(value.reviewedSubjects||{},old)){value.reviewedSubjects[canonical]=Boolean(value.reviewedSubjects[canonical]&&value.reviewedSubjects[old]);delete value.reviewedSubjects[old];}
+  }
   for(const edge of value.relationships){
     if(!ids.has(edge.source)||!ids.has(edge.target)||edge.source===edge.target||!['related','broader','narrower'].includes(edge.type)||!['accepted','rejected'].includes(edge.status)||edge.note!==undefined&&typeof edge.note!=='string')throw Error('Invalid connection or unknown subject in the decisions file.');
   }

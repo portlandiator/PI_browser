@@ -1,12 +1,13 @@
-import {parseSubjectSummary} from '../src/subject-summary.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gzipSync,gunzipSync} from 'node:zlib';
 import {parseCsv,parseText} from '../src/text.mjs';
-import {digest,selectionBlocks,parseSelection,prepareSource,Matcher,hierarchyEdges,validateConfirmedMatch} from './subject-core.mjs';
+import {digest,prepareSource,Matcher,hierarchyEdges,validateConfirmedMatch} from './subject-core.mjs';
 import {relationKey} from '../src/subject-relations.mjs';
 import {writeReviewIndex} from './build-passage-review.mjs';
+import {parseSubjectSummary} from '../src/subject-summary.mjs';
+import {readExtractInputs,mergeExtracts,writeExtractReview,matchExtract} from './extract-inputs.mjs';
 const zip=(file,data)=>fs.writeFile(file,gzipSync(JSON.stringify(data),{level:9}));
 export async function buildSubjects(root,out,dataset){
   const snapshotBytes=await fs.readFile(path.join(root,'data/subjects-snapshot.json.gz'));
@@ -14,51 +15,39 @@ export async function buildSubjects(root,out,dataset){
   const csv=await fs.readFile(path.join(root,'14-colors_and_hyperlinks.csv'),'utf8');
   const edits=JSON.parse(await fs.readFile(path.join(root,'data/subject-edits.json'),'utf8'));
   const sourceExceptions=JSON.parse(await fs.readFile(path.join(root,'data/subject-source-exceptions.json'),'utf8'));
-  const reviewSuggestions=JSON.parse(await fs.readFile(path.join(root,'data/subject-review-candidates.json'),'utf8')).selections;
   const seenSubjects=new Set(),duplicateSubjectUrls=[];
   const subjects=parseCsv(csv).map((row,i)=>{const categoryId=new URLSearchParams(new URL(row.hyperlink).hash.replace(/^#\??/,'')).get('category');if(!/^[a-f\d]{32}$/i.test(categoryId)||!/^#[a-f\d]{6}$/i.test(row.color))throw Error('Invalid subject CSV row '+(i+2));const duplicate=seenSubjects.has(categoryId),id=duplicate?categoryId+'-'+digest(row.subject).slice(0,8):categoryId;if(duplicate)duplicateSubjectUrls.push({row:i+2,categoryId,name:row.subject,id});seenSubjects.add(categoryId);if(!['http:','https:'].includes(new URL(row.hyperlink).protocol))throw Error('Subject links must use HTTP(S)');return {id,categoryId,name:row.subject,color:row.color,url:row.hyperlink,row:i+2};});
   const limit=Number(process.env.SUBJECT_LIMIT)||subjects.length,active=subjects.slice(0,limit);
   const report={format:1,snapshotVersion:digest(snapshotBytes),snapshotDate:snapshot.fetchedAt,coordinateSystem:'UTF-16 offsets in unmodified rendered English paragraph plain text; source archive retains original bytes and markup',subjects:subjects.length,processedSubjects:active.length,selections:0,notices:0,counts:{exact:0,normalized:0,approximate:0,ambiguous:0,unmatched:0,confirmed:0,rejected:0},encodingFallbacks:[],duplicateRanges:0,overlappingRanges:0,missingCategories:[],unusedMatchEdits:[]};
   report.duplicateSubjectUrls=duplicateSubjectUrls;report.splitSelectionBlocks=0;
+  const inputs=await readExtractInputs(root,subjects);
+  report.extractImport=inputs.report;report.snapshotVersion=inputs.version;report.snapshotDate=null;
+  report.selectionSource='Local Inventory and Evernote extract files; no website quotations';
   const sourceFiles=(await fs.readdir(path.join(root,'translated_texts - copy'))).filter(f=>f.endsWith('.txt')).sort(),sources=[];
   for(const file of sourceFiles){const bytes=await fs.readFile(path.join(root,'translated_texts - copy',file));let text;try{text=new TextDecoder('utf8',{fatal:true}).decode(bytes);}catch{text=new TextDecoder('windows-1252').decode(bytes);report.encodingFallbacks.push(file);}sources.push(prepareSource(file.slice(0,-4),digest(bytes),parseText(text,'en').paragraphs));}
   console.log(`Subject matching: indexing ${sources.length} English sources`);
   const matcher=new Matcher(sources),bySubject=new Map(),usedEdits=new Set(),memo=new Map();
   for(const subject of active){
-    const input=snapshot.categories[subject.categoryId];if(!input){report.missingCategories.push(subject.id);if(!sourceExceptions[subject.categoryId])throw Error('Unexpected missing subject response: '+subject.name);subject.selections=0;subject.matched=0;subject.unavailable=sourceExceptions[subject.categoryId].reason;bySubject.set(subject.id,{subject,selections:[],notices:[],unavailable:subject.unavailable});continue;}
-    const selections=[],notices=[];let ordinal=0;
-    for(const [groupIndex,group] of JSON.parse(input.raw).entries())for(const [quoteIndex,quote] of group.quotes.entries()){
-      for(const block of selectionBlocks(quote.text)){
-        if(block.segment===1)report.splitSelectionBlocks++;
-        const selection=parseSelection(block);ordinal++;
-        if(selection.kind==='notice'){notices.push({...selection,quoteId:quote.id});report.notices++;continue;}
-        const id=digest(`${subject.id}:${quote.id}:${quoteIndex}:${block.position}:${block.raw}`).slice(0,24);
-        const provenance={subjectFilename:'14-colors_and_hyperlinks.csv',subjectRow:subject.row,subjectUrl:subject.url,snapshotVersion:report.snapshotVersion,quoteId:quote.id,quoteIndex,groupIndex,selectionParagraph:ordinal,blockPosition:block.position,segment:block.segment,sourceBlockRaw:block.parentRaw,work:quote.work||'',provis:quote.provis||'',originalCategories:quote.categories||[]};
-        const key=JSON.stringify([selection.excerpt,selection.suppliedIds]);let match=memo.get(key);if(!match){match=matcher.match(selection);memo.set(key,match);}
+    const selections=[],notices=[];
+    for(const selection of inputs.bySubject.get(subject.id)){
+        const {id}=selection;
+        const key=JSON.stringify([selection.excerpt,selection.suppliedIds,selection.outsideAuthor]);let match=memo.get(key);if(!match){match=matchExtract(selection,matcher);memo.set(key,match);}
         match=structuredClone(match);
         const edit=edits.matches[id];if(edit){usedEdits.add(id);if(edit.status==='rejected')match={...match,status:'rejected'};else if(edit.status==='confirmed'){
           const chosen=validateConfirmedMatch(edit.candidate,matcher.sources);
           match={...match,status:'confirmed',candidates:[chosen],review:edit.note||''};
         }else throw Error('Invalid editorial status '+id);}
-        if(!edit&&reviewSuggestions[id]){
-          const proposed=reviewSuggestions[id].flatMap(item=>{
-            const source=matcher.sources.get(item.source);if(!source||!Array.isArray(item.paragraphs)||item.paragraphs.length!==2)return [];
-            const [first,last]=item.paragraphs;if(!Number.isInteger(first)||!Number.isInteger(last)||first<1||last<first||last>source.paragraphs.length)return [];
-            const ranges=[];for(let paragraph=first;paragraph<=last;paragraph++){const text=source.paragraphs[paragraph-1].plain;ranges.push({paragraph,paragraphId:`${source.id}@${source.version}:en:${paragraph}`,start:0,end:text.length,text});}
-            return [{source:source.id,version:source.version,ranges,method:'corpus-wide-fuzzy',score:item.score,evidence:item.evidence||'Corpus-wide fuzzy candidate; verify before confirming.'}];
-          });
-          if(proposed.length)match={...match,status:'unmatched',candidates:proposed,candidateSourcesTruncated:false,candidateLocationsTruncated:false,reason:'Corpus-wide candidates prepared for editorial passage review.'};
-        }
         report.selections++;report.counts[match.status]++;
-        const s={id,subject:subject.id,original:selection.text,raw:selection.raw,excerpt:selection.excerpt,suppliedIds:selection.suppliedIds,provenance,...match};
+        const s={...selection,...match};
         selections.push(s);
-      }
     }
-    subject.selections=selections.filter(s=>s.status!=='rejected').length;subject.matched=selections.filter(s=>['exact','normalized','confirmed'].includes(s.status)).length;
-    bySubject.set(subject.id,{subject,selections,notices});console.log(`Matched ${bySubject.size}/${active.length}: ${subject.name} (${subject.matched}/${subject.selections})`);
+    const merged=mergeExtracts(selections,inputs.report.duplicates);
+    subject.selections=merged.filter(s=>s.status!=='rejected').length;subject.matched=merged.filter(s=>['exact','normalized','confirmed'].includes(s.status)).length;
+    bySubject.set(subject.id,{subject,selections:merged,notices});console.log(`Matched ${bySubject.size}/${active.length}: ${subject.name} (${subject.matched}/${subject.selections})`);
   }
   report.sourceExceptions=sourceExceptions;
   report.unusedMatchEdits=Object.keys(edits.matches).filter(id=>!usedEdits.has(id));
+  await writeExtractReview(root,bySubject,inputs.report);
   await writeSubjectOutputs({root,out,dataset,subjects,bySubject,report,edits,hierarchyHtml:snapshot.hierarchy,limit});
 }
 // Derive the shared passage registry and graph from the final, reviewable mappings.
@@ -72,6 +61,7 @@ export async function writeSubjectOutputs({root,out,dataset,subjects,bySubject,r
   for(const data of bySubject.values()){
     const subject=data.subject;subject.matched=0;
     for(const s of data.selections){
+      s.catalogIds=s.suppliedIds.filter(id=>metadata.has(id));
       delete s.passage;delete s.otherSubjects;report.selections++;report.counts[s.status]++;
         if(['exact','normalized','confirmed'].includes(s.status)){
           const c=s.candidates[0],passageId=digest(JSON.stringify([c.source,c.version,c.ranges.map(r=>[r.paragraph,r.start,r.end])])).slice(0,24);s.passage=passageId;

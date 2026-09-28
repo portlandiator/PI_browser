@@ -52,9 +52,9 @@ try {
     Write-Host "`n2/5 Snapshotting publishable sources and filtered metadata..." -ForegroundColor Cyan
     $stage = Join-Path $root ('.qa/update-' + [Guid]::NewGuid().ToString('N'))
     New-Item -ItemType Directory -Path $stage | Out-Null
-    foreach ($folder in @('src','scripts','tests')) { Copy-Item -LiteralPath (Join-Path $root $folder) -Destination $stage -Recurse }
+    foreach ($folder in @('src','scripts','tests','subject_extracts','subject-summaries')) { Copy-Item -LiteralPath (Join-Path $root $folder) -Destination $stage -Recurse }
     New-Item -ItemType Directory -Force -Path (Join-Path $stage 'data') | Out-Null
-    foreach ($file in @('subject-edits.json','subjects-snapshot.json.gz','subject-source-exceptions.json')) { Copy-Item -LiteralPath (Join-Path $root ('data/' + $file)) -Destination (Join-Path $stage 'data') }
+    foreach ($file in @('subject-edits.json','subjects-snapshot.json.gz','subject-source-exceptions.json','extract-subject-aliases.json')) { Copy-Item -LiteralPath (Join-Path $root ('data/' + $file)) -Destination (Join-Path $stage 'data') }
     Copy-Item -LiteralPath (Join-Path $root 'period_renaming.csv') -Destination $stage
     Copy-Item -LiteralPath (Join-Path $root '14-colors_and_hyperlinks.csv') -Destination $stage
     Copy-Item -LiteralPath (Join-Path $root 'subjects - reference.docx') -Destination $stage

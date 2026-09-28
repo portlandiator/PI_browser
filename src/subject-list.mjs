@@ -12,12 +12,17 @@ export function unlinkedPassage(selection){
   const text=reference?excerpt:original;
   const provenance=selection.provenance||{};
   let source=reference||((selection.suppliedIds||[]).join(', '));
-  if(!source){
+  if(!source&&provenance.sourceFilename){
+    source=''; // Local file text without a separated reference stays verbatim.
+  }else if(!source){
     const label=`Source collection · selection ${provenance.selectionParagraph||selection.id||'unidentified'}`;
     let href;try{const url=new URL(provenance.subjectUrl);if(['http:','https:'].includes(url.protocol))href=url.href;}catch{}
     source=href?`<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`:escapeHtml(label);
-  }else source=escapeHtml(source);
-  const citation=`<span class="passage-citation" dir="ltr" lang="en">${source.startsWith('(')&&source.endsWith(')')?source:'('+source+')'}</span>`;
+  }else {
+    const ids=new Set(selection.catalogIds||[]);
+    source=source.split(/((?:AB|BH|BB)[A-Z]?\d{4,5}[a-z]?|A\d{5})/g).map(part=>ids.has(part)?`<a href="./?id=${encodeURIComponent(part)}">${escapeHtml(part)}</a>`:escapeHtml(part)).join('');
+  }
+  const citation=source?`<span class="passage-citation" dir="ltr" lang="en">${source.startsWith('(')&&source.endsWith(')')?source:'('+source+')'}</span>`:'';
   return `<div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(text.trimEnd())} ${citation}</p></div><div class="passage-original"><p dir="ltr" lang="en">Original text unavailable ${citation}</p></div></div>`;
 }
 

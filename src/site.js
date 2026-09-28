@@ -1,3 +1,11 @@
+// Preserve bookmarks for the merged punctuation variant of serving humanity.
+(() => {
+  const url=new URL(location.href);
+  if(url.searchParams.get('subject')==='5A637BBBB913426BA5FEBBC58E0A6BF2-09862a80'){
+    url.searchParams.set('subject','5A637BBBB913426BA5FEBBC58E0A6BF2');
+    history.replaceState({},'',url);
+  }
+})();
 // Apply a saved preference before styles paint, on every page.
 (() => {
   const root = document.documentElement;

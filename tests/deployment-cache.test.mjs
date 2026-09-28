@@ -13,6 +13,7 @@ async function fixture(t){
     'data/collection.tar.gz':'source, translation and metadata bytes',
     'data/subject-edits.json':'{}',
     'subject-summaries/A.md':'# A\n\nIntroduction.\n\nConnections.',
+    'subject_extracts/Evernote_scrape/A.txt':'Quoted words. Reference',
     'pdf_volumes - copy/volume_01.pdf':'%PDF-1.7 fixture',
     'period_renaming.csv':'Old,New',
     'subjects - reference.docx':'reference',
@@ -33,7 +34,7 @@ test('interface and documentation changes reuse data, but every source and trans
   const initial=await fingerprint(root);
   for(const name of ['src/app.mjs','src/index.html','src/style.css','README.md'])await write(name,'changed interface or documentation');
   assert.equal(await fingerprint(root),initial);
-  for(const name of ['subject-summaries/A.md','data/collection.tar.gz','data/subject-edits.json','pdf_volumes - copy/volume_01.pdf','period_renaming.csv','subjects - reference.docx','src/normalization.mjs','scripts/deployment-cache.mjs']){
+  for(const name of ['subject_extracts/Evernote_scrape/A.txt','subject-summaries/A.md','data/collection.tar.gz','data/subject-edits.json','pdf_volumes - copy/volume_01.pdf','period_renaming.csv','subjects - reference.docx','src/normalization.mjs','scripts/deployment-cache.mjs']){
     const before=await fingerprint(root);
     await fs.appendFile(path.join(root,name),'\n// changed');
     assert.notEqual(await fingerprint(root),before,name);

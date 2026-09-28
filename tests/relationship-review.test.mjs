@@ -36,3 +36,9 @@ test('evidence requires overlapping source offsets and bounds the examples',()=>
   assert.deepEqual(sharedEvidence(left,right),{total:1,examples:[{source:'A',paragraph:1,passage:'p',text:'fghij'}]});
   assert.deepEqual(sharedEvidence(left,right,0),{total:1,examples:[]});
 });
+
+test('merged subject backups migrate relationships and review progress without mutating the backup',()=>{
+ const old='5A637BBBB913426BA5FEBBC58E0A6BF2-09862a80',canonical='5A637BBBB913426BA5FEBBC58E0A6BF2',other='other';
+ const backup={format:1,matches:{},relationships:[{source:old,target:other,type:'related',status:'accepted'}],reviewedSubjects:{[old]:true,[canonical]:true}};
+ const migrated=validateDraft(backup,new Set([canonical,other]));assert.equal(migrated.relationships[0].source,canonical);assert.equal(migrated.reviewedSubjects[canonical],true);assert.ok(!Object.hasOwn(migrated.reviewedSubjects,old));assert.equal(backup.relationships[0].source,old);
+});
