@@ -21,7 +21,8 @@ export async function buildSubjects(root,out,dataset){
   const limit=Number(process.env.SUBJECT_LIMIT)||subjects.length,active=subjects.slice(0,limit);
   const report={format:1,snapshotVersion:digest(snapshotBytes),snapshotDate:snapshot.fetchedAt,coordinateSystem:'UTF-16 offsets in unmodified rendered English paragraph plain text; source archive retains original bytes and markup',subjects:subjects.length,processedSubjects:active.length,selections:0,notices:0,counts:{exact:0,normalized:0,approximate:0,ambiguous:0,unmatched:0,confirmed:0,rejected:0},encodingFallbacks:[],duplicateRanges:0,overlappingRanges:0,missingCategories:[],unusedMatchEdits:[]};
   report.duplicateSubjectUrls=duplicateSubjectUrls;report.splitSelectionBlocks=0;
-  const inputs=await readExtractInputs(root,subjects);
+  const decisions=JSON.parse(await fs.readFile(path.join(root,'data/extract-review-decisions.json'),'utf8'));
+  const inputs=await readExtractInputs(root,subjects,decisions);
   report.extractImport=inputs.report;report.snapshotVersion=inputs.version;report.snapshotDate=null;
   report.selectionSource='Local Inventory and Evernote extract files; no website quotations';
   const sourceFiles=(await fs.readdir(path.join(root,'translated_texts - copy'))).filter(f=>f.endsWith('.txt')).sort(),sources=[];
@@ -34,6 +35,10 @@ export async function buildSubjects(root,out,dataset){
         const {id}=selection;
         const key=JSON.stringify([selection.excerpt,selection.suppliedIds,selection.outsideAuthor]);let match=memo.get(key);if(!match){match=matchExtract(selection,matcher);memo.set(key,match);}
         match=structuredClone(match);
+        const hint=decisions.hints?.[id]; if(hint)match={status:'unmatched',candidates:hint.candidates.map(c=>validateConfirmedMatch(c,matcher.sources)),reason:hint.reason,referenceIds:hint.referenceIds};
+        const reviewed=decisions.matches[id];
+        if(reviewed){if(!['confirmed','approximate'].includes(reviewed.status))throw Error('Invalid extract review status '+id);const chosen=validateConfirmedMatch(reviewed.candidate,matcher.sources);match={status:reviewed.status,candidates:[chosen],review:reviewed.evidence};}
+
         const edit=edits.matches[id];if(edit){usedEdits.add(id);if(edit.status==='rejected')match={...match,status:'rejected'};else if(edit.status==='confirmed'){
           const chosen=validateConfirmedMatch(edit.candidate,matcher.sources);
           match={...match,status:'confirmed',candidates:[chosen],review:edit.note||''};

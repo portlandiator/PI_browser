@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {parseCsv} from '../src/text.mjs';
 import {digest,tokens,mappedTokens,locateRanges} from './subject-core.mjs';
 
 export const extractFolders=['subjects_inv_length_ordered','Evernote_scrape'];
@@ -7,11 +8,11 @@ export const accepted=s=>['exact','normalized','confirmed'].includes(s.status);
 export const wordingKey=s=>tokens(s).map(t=>t.word).join(' ');
 
 // These aliases are explicit editorial filename mappings, never fuzzy topic guesses.
-export async function readExtractInputs(root,subjects){
+export async function readExtractInputs(root,subjects,decisions={}){
   const aliases=JSON.parse(await fs.readFile(path.join(root,'data/extract-subject-aliases.json'),'utf8'));
   const byName=new Map(subjects.map(s=>[s.name,s])),bySubject=new Map(subjects.map(s=>[s.id,[]]));
   const report={files:{},blocks:{},filenameAliases:[],unknownSubjects:[],missingFiles:{},encodingFallbacks:[],inputIssues:[],duplicates:[]};
-  const hashes=[];
+  const hashes=[],deletedIds=new Set(decisions.deletedIds||[]);report.deletedSelections=[];
   for(const folder of extractFolders){
     const files=(await fs.readdir(path.join(root,'subject_extracts',folder))).filter(f=>f.endsWith('.txt')).sort();
     report.files[folder]=files.length;report.blocks[folder]=0;const covered=new Set();
@@ -28,14 +29,16 @@ export async function readExtractInputs(root,subjects){
         const selection=parseExtract(block.raw,folder);
         report.blocks[folder]++;
         if(folder===extractFolders[0]&&!selection.suppliedIds.length)report.inputIssues.push({folder,filename,block:block.ordinal,line:block.line,reason:'No terminal Inventory ID'});
-        bySubject.get(subject.id).push({...selection,id:digest(JSON.stringify([subject.id,folder,filename,block.ordinal,block.raw])).slice(0,24),subject:subject.id,
+        const id=digest(JSON.stringify([subject.id,folder,filename,block.ordinal,block.raw])).slice(0,24);
+        if(deletedIds.has(id)){report.deletedSelections.push(id);continue;}
+        bySubject.get(subject.id).push({...selection,id,subject:subject.id,reviewNote:decisions.notes?.[id]||'',
           provenance:{sourceCollection:folder,sourceFilename:`subject_extracts/${folder}/${filename}`,sourceVersion:version,sourceLine:block.line,selectionParagraph:block.ordinal,subjectFilename:'14-colors_and_hyperlinks.csv',subjectRow:subject.row,subjectUrl:subject.url}});
       }
     }
     report.missingFiles[folder]=subjects.filter(s=>!covered.has(s.name)).map(s=>s.name);
   }
   if(report.unknownSubjects.length)throw Error('Unmapped extract filenames: '+JSON.stringify(report.unknownSubjects));
-  return {bySubject,report,version:digest(JSON.stringify(hashes))};
+  return {bySubject,report,version:digest(JSON.stringify([hashes,decisions]))};
 }
 
 export function extractBlocks(text){
@@ -121,18 +124,28 @@ export function mergeExtracts(selections,duplicates){
 }
 
 export async function writeExtractReview(root,bySubject,report){
+  const metadataFiles=(await fs.readdir(path.join(root,'metadata - copy'))).filter(f=>f.toLowerCase().endsWith('.csv'));
+  if(metadataFiles.length!==1)throw Error('Expected one item metadata CSV for extract review');
+  const metadata=parseCsv(await fs.readFile(path.join(root,'metadata - copy',metadataFiles[0]),'utf8'));
+  const extracts=new Map(metadata.map(row=>[row.PIN,row.Extract]));
+  if(extracts.size!==metadata.length)throw Error('Duplicate item metadata IDs');
   const dir=path.join(root,'extract-review');await fs.mkdir(dir,{recursive:true});
   const headers=['Selection ID','Subject','Source file','Block','Line','Status','Reason','Supplied ID','Quotation','Reference','Candidate IDs and paragraphs','Assign ID','Assign paragraph','Notes'];
   const csv=value=>'"'+String(value??'').replaceAll('"','""')+'"';
   report.reviewCounts={};
   for(const folder of extractFolders){
-    const rows=[];
+    const rows=[],folderHeaders=[...headers];
+    if(folder===extractFolders[0])folderHeaders.splice(folderHeaders.indexOf('Quotation')+1,0,'extract');
     for(const data of bySubject.values())for(const s of data.selections)if(s.provenance.sourceCollection===folder&&!accepted(s)){
-      rows.push([s.id,data.subject.name,s.provenance.sourceFilename,s.provenance.selectionParagraph,s.provenance.sourceLine,s.status,s.reason,s.suppliedIds.join('; '),s.excerpt,s.reference,s.candidates.map(c=>`${c.source}: ${[...new Set(c.ranges.map(r=>r.paragraph))].join(',')} (${c.score})`).join('; '),'','','']);
+      rows.push([s.id,data.subject.name,s.provenance.sourceFilename,s.provenance.selectionParagraph,s.provenance.sourceLine,s.status,s.reason,s.suppliedIds.join('; '),s.excerpt,s.reference,s.candidates.map(c=>`${c.source}: ${[...new Set(c.ranges.map(r=>r.paragraph))].join(',')} (${c.score})`).join('; '),'','',s.reviewNote||'']);
+    }
+    if(folder===extractFolders[0])for(const row of rows){
+      const ids=row[7].split('; ').filter(Boolean);
+      row.splice(headers.indexOf('Quotation')+1,0,ids.length===1?(extracts.get(ids[0])??''):ids.map(id=>`${id}: ${extracts.get(id)??''}`).join('\n\n'));
     }
     report.reviewCounts[folder]=rows.length;
-    await fs.writeFile(path.join(dir,folder+'-review.csv'),'\uFEFF'+[headers,...rows].map(row=>row.map(csv).join(',')).join('\r\n')+'\r\n');
+    await fs.writeFile(path.join(dir,folder+'-review.csv'),'\uFEFF'+[folderHeaders,...rows].map(row=>row.map(csv).join(',')).join('\r\n')+'\r\n');
   }
   await fs.writeFile(path.join(dir,'input-report.json'),JSON.stringify(report,null,2));
-  await fs.writeFile(path.join(dir,'README.md'),'# Extract review\n\nEach CSV includes every retained selection from that source without an accepted paragraph mapping, including outside-author quotations. Fill in **Assign ID**, **Assign paragraph** (one-based, as in the Catalog reader), and **Notes**. Leave outside-catalogue quotations blank. Candidate scores are lexical coverage, not probabilities. Original files are unchanged. Duplicates removed from these queues remain recorded in input-report.json and the retained selection provenance.\n\nFor exact highlight selection, use the website’s Passage review utility and export its decisions. CSV assignments can be returned for incorporation with paragraph/range validation.\n');
+  await fs.writeFile(path.join(dir,'README.md'),'# Extract review\n\nEach CSV includes every retained selection from that source without an accepted paragraph mapping, including outside-author quotations. The Inventory review CSV includes an **extract** column from item metadata, joined by Supplied ID to PIN. Blank values mean no metadata extract is available for that ID. Fill in **Assign ID**, **Assign paragraph** (one-based, as in the Catalog reader), and **Notes**. Leave outside-catalogue quotations blank. Candidate scores are lexical coverage, not probabilities. Original files are unchanged. Duplicates removed from these queues remain recorded in input-report.json and the retained selection provenance.\n\nThe September 2026 Evernote review decisions are preserved in data/extract-review-decisions.json. Entries marked delete are excluded before matching and deduplication, so rebuilding cannot restore them. Remaining review notes survive regeneration. Evernote_scrape-resolved.csv records newly assigned IDs, paragraphs, and supporting evidence. Reference leads in unresolved rows are suggestions only; they are not accepted mappings. References were compared with both Translations and Publications metadata, followed by phrase searches and comparison with the English source paragraphs.\n\nFor exact highlight selection, use the website’s Passage review utility and export its decisions. CSV assignments can be returned for incorporation with paragraph/range validation.\n');
 }

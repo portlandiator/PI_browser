@@ -1,0 +1,28 @@
+{
+  "reviewedRows": 1212,
+  "deletedRows": 28,
+  "resolvedRows": 174,
+  "remainingMarkedRows": 1038,
+  "referenceLeads": 631,
+  "methods": {
+    "direct": 128,
+    "strongPhraseAlignment": 46
+  },
+  "examples": [
+    {
+      "reference": "GWB#005",
+      "source": "BH01034",
+      "paragraphs": [
+        6
+      ]
+    },
+    {
+      "reference": "AvK1.103–104",
+      "source": "BB00017",
+      "paragraphs": [
+        51,
+        52
+      ]
+    }
+  ]
+}

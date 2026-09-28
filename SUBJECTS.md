@@ -100,3 +100,9 @@ exact CSV names, retains both punctuation variants in CSV order at their shared
 reference position, and imports the 19 main document headings as unlinked sections and ignores entries absent from the
 authoritative CSV. The JSON records the reference file's SHA-256 digest; ordinary
 site builds copy this small asset without requiring Word or PowerShell.
+
+## Annotated extract review
+
+The September 2026 Evernote review decisions are preserved in data/extract-review-decisions.json. Entries marked delete are excluded before matching and deduplication, so rebuilding cannot restore them. Remaining review notes survive regeneration. Evernote_scrape-resolved.csv records newly assigned IDs, paragraphs, and supporting evidence. Reference leads in unresolved rows are suggestions only; they are not accepted mappings. References were compared with both Translations and Publications metadata, followed by phrase searches and comparison with the English source paragraphs.
+
+Confirmed mappings retain source-version hashes and exact character ranges. The build validates these against the current English corpus. Weak reference or phrase candidates remain unmatched even when an item ID is suggested. The original extract files remain immutable; exclusions, notes, and mappings are reproducible build inputs.

@@ -1,19 +1,19 @@
 {
   "format": 1,
-  "snapshotVersion": "36645f07ad940b9716f373498ccad16c6cc608e4770dd53939ae6c6db5981dc9",
+  "snapshotVersion": "1534c43beb6aa9dacafe39ef5d202818b9c796ffbc8c1b2c15aaf41f207339c2",
   "snapshotDate": null,
   "coordinateSystem": "UTF-16 offsets in unmodified rendered English paragraph plain text; source archive retains original bytes and markup",
   "subjects": 660,
   "processedSubjects": 660,
-  "selections": 131138,
+  "selections": 131110,
   "notices": 0,
   "counts": {
     "exact": 88230,
     "normalized": 16216,
     "approximate": 17485,
     "ambiguous": 133,
-    "unmatched": 9074,
-    "confirmed": 0,
+    "unmatched": 8872,
+    "confirmed": 174,
     "rejected": 0
   },
   "encodingFallbacks": [
@@ -319,8 +319,8 @@
     "BH11518.txt",
     "BH11759.txt"
   ],
-  "duplicateRanges": 4011,
-  "overlappingRanges": 11347,
+  "duplicateRanges": 4075,
+  "overlappingRanges": 11471,
   "missingCategories": [],
   "unusedMatchEdits": [
     "70a2c3693b414d5eb5a6a8af",
@@ -11426,9 +11426,39 @@
         "removedSource": "subjects_inv_length_ordered"
       }
     ],
+    "deletedSelections": [
+      "8330632173f07dc51beb170c",
+      "fe588a5938fa6b5a0e0bab58",
+      "2afe97b64cdfebb522b270f9",
+      "673744eb2f218882f335e14b",
+      "184a01e589714d2522711b98",
+      "28bfbb8f4e1eaf819795048c",
+      "765f3e69c7f26714382c2879",
+      "5d785df9e3ff6505493ebb65",
+      "bbd1966b917ccad9b2abd542",
+      "e64a8e0500bf407aac906dc2",
+      "abbe36818db7224705ddf640",
+      "e552834bc8e4da74c3955e9a",
+      "91734313eef8466301f219ae",
+      "5f6d9be6bc0431f26d00a5d9",
+      "d6f06a438b25ac09a757ade3",
+      "ee5fc43e28bc07f1b6392131",
+      "b35fe060e336fa8f471dc8b4",
+      "8d3de20083c8d655d40eb93c",
+      "dce1d45ef9a4c0c28613a800",
+      "308f38adfd5e0cc67a5f3b6e",
+      "6f99a61aa85105741fc57208",
+      "6de082e8b0c8c7814a9a827e",
+      "a37e21198f69bd80e42230f9",
+      "088f378f11cc7034197802f9",
+      "f039d3389b9ede31f175f55d",
+      "efb962b1092520f74c57bacb",
+      "006e8bd6a3363a263a705b9b",
+      "c32bb56fa2a41b841b81d42e"
+    ],
     "reviewCounts": {
       "subjects_inv_length_ordered": 21845,
-      "Evernote_scrape": 4847
+      "Evernote_scrape": 4645
     }
   },
   "selectionSource": "Local Inventory and Evernote extract files; no website quotations",
@@ -11438,12 +11468,12 @@
       "reason": "The supplied category endpoint repeatedly timed out and the category ID was absent from the current Loom outline. The user requested retaining the subject with an unavailable notice on 2026-09-17."
     }
   },
-  "passages": 117920,
+  "publicSelections": 124933,
+  "passages": 118030,
   "relationships": {
     "imported": 12,
-    "suggested": 348,
+    "suggested": 400,
     "reviewed": 3326
   },
-  "emptySubjects": [],
-  "publicSelections": 124961
+  "emptySubjects": []
 }
