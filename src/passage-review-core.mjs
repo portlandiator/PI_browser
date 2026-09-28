@@ -7,6 +7,14 @@ export function inQueue(selection, draft, filter='pending') {
   const status=reviewStatus(selection,draft);
   return filter==='all'||filter==='pending'&&pendingStatuses.includes(status)||filter==='reviewed'&&['confirmed','rejected'].includes(status)||status===filter;
 }
+export function reviewKeyAction(event={}, {editable=false,canConfirm=true}={}) {
+  if(editable||event.repeat||!event.altKey||event.ctrlKey||event.metaKey||event.shiftKey)return '';
+  if(event.key==='ArrowRight')return 'next';
+  if(event.key==='ArrowLeft')return 'previous';
+  if(event.key?.toLowerCase()==='c'&&canConfirm)return 'confirm';
+  if(event.key?.toLowerCase()==='r')return 'reject';
+  return '';
+}
 export function validateMatchEdits(draft) {
   for(const [id,edit] of Object.entries(draft.matches)) {
     if(!/^[a-f\d]{24}$/.test(id)||!edit||!['confirmed','rejected'].includes(edit.status)||edit.note!==undefined&&typeof edit.note!=='string')throw Error('Invalid passage decision.');

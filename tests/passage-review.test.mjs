@@ -1,12 +1,22 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {reviewSummary,inQueue,confirmedCandidate,paragraphCandidate,validateMatchEdits} from '../src/passage-review-core.mjs';
+import {reviewSummary,inQueue,confirmedCandidate,paragraphCandidate,validateMatchEdits,reviewKeyAction} from '../src/passage-review-core.mjs';
 import {emptyDraft,mergeDrafts} from '../src/relationship-review-core.mjs';
 const version='a'.repeat(64),id='1'.repeat(24);
 const record={id:'BH00001',enVersion:version,en:{paragraphs:[{plain:'A 😀 quotation.'},{plain:'Second paragraph.'}]}};
 test('review index retains unresolved and decided selections without full corpus text',()=>{
   const summary=reviewSummary('subject',['exact','approximate','ambiguous','unmatched','confirmed','rejected'].map((status,i)=>({id:String(i),status,excerpt:'private long excerpt'})));
   assert.equal(summary.items.length,5);assert.ok(summary.items.every(s=>!Object.hasOwn(s,'excerpt')));
+});
+test('review shortcuts confirm or reject safely without firing during edits or key repeats',()=>{
+  assert.equal(reviewKeyAction({key:'c',altKey:true}), 'confirm');
+  assert.equal(reviewKeyAction({key:'R',altKey:true}), 'reject');
+  assert.equal(reviewKeyAction({key:'ArrowRight',altKey:true}), 'next');
+  assert.equal(reviewKeyAction({key:'ArrowLeft',altKey:true}), 'previous');
+  assert.equal(reviewKeyAction({key:'c',altKey:true},{canConfirm:false}), '');
+  assert.equal(reviewKeyAction({key:'r',altKey:true},{editable:true}), '');
+  assert.equal(reviewKeyAction({key:'r',altKey:true,repeat:true}), '');
+  assert.equal(reviewKeyAction({key:'r',altKey:true,ctrlKey:true}), '');
 });
 test('local decisions leave pending queue, appear in decided queue, and retain connections',()=>{
   const initial={...emptyDraft(),relationships:[{source:'a',target:'b',type:'related',status:'accepted'}]};
