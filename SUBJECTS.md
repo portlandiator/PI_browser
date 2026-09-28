@@ -12,6 +12,12 @@ Each full build generates extract-review/subjects_inv_length_ordered-review.csv 
 
 GitHub Actions fingerprints the two extract folders and builds offline from the tracked files and publication-safe collection archive. Original extract files remain unchanged.
 
+## Focused reference review (GWB, SWAB, PT and COC)
+
+The September 28 reference pass covers only the 243 remaining `use Reference` rows whose Candidate IDs and paragraphs were blank and whose references contain these four codes. Catalogue Translation entries narrow the search; quotation phrases and variant translations establish the actual paragraph. Reference typos and catalogue associations can point at the wrong record, so a reference hit alone is not confirmation. The pass adds 231 confirmed mappings and six approximate mappings with source-version-checked highlight ranges. All prior decisions, deletion instructions and notes are preserved.
+
+`extract-review/Evernote_scrape-reference-pass-results.csv` records every result and its evidence. Confirmed rows join the cumulative `Evernote_scrape-resolved.csv`; approximate rows remain in the normal review queue with active public links. `Evernote_scrape-reference-exceptions.csv` isolates six remaining rows: three substantially different local English versions, two quotations present in the original but omitted from the local English version, and one quotation combining three records. These retain candidate paragraph leads without claiming that a context-only highlight is a confirmed quotation match. Original source files are unchanged.
+
 ---
 
 # Subject import and maintenance
