@@ -1,3 +1,4 @@
+import {isPublicSelection,hasPublicMatch} from '../src/selection-policy.mjs';
 import {recordFilename} from '../src/record-file.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
@@ -9,10 +10,10 @@ test('full subject import preserves rows, statuses, source versions and highligh
   const index=await load('subjects/index.json.gz');assert.equal(index.subjects.length,660);assert.equal(new Set(index.subjects.map(s=>s.id)).size,660);assert.equal(index.report.processedSubjects,660);for(const id of index.report.missingCategories)assert.ok(index.report.sourceExceptions[id]);
   assert.equal(Object.values(index.report.counts).reduce((a,b)=>a+b,0),index.report.selections);
   const records=new Map(),seen=new Set(),passageIds=new Set();let count=0,accepted=0;
-  for(const subject of index.subjects){const data=await load(`subjects/${subject.id}.json.gz`);assert.equal(data.subject.id,subject.id);assert.equal(subject.selections,data.selections.filter(s=>s.status!=='rejected').length);
-    for(const s of data.selections){count++;assert.ok(!seen.has(s.id));seen.add(s.id);assert.equal(s.subject,subject.id);assert.ok(s.raw);assert.ok(s.provenance.subjectUrl);if(!s.passage){assert.ok(!['exact','normalized','confirmed'].includes(s.status));continue;}accepted++;passageIds.add(s.passage);assert.ok(['exact','normalized','confirmed'].includes(s.status));const c=s.candidates[0];if(!records.has(c.source))records.set(c.source,await load(`data/${recordFilename(c.source)}`));const r=records.get(c.source);assert.equal(r.enVersion,c.version);for(const range of c.ranges){const p=r.en.paragraphs[range.paragraph-1];assert.ok(p,`${s.id}: ${c.source} paragraph ${range.paragraph}, record ${r.id} has ${r.en.paragraphs.length}`);assert.ok(range.start>=0&&range.end>range.start&&range.end<=p.plain.length);assert.equal(p.plain.slice(range.start,range.end),range.text);assert.equal(range.paragraphId,`${c.source}@${c.version}:en:${range.paragraph}`);}assert.ok(s.otherSubjects.includes(subject.id));}
+  for(const subject of index.subjects){const data=await load(`subjects/${subject.id}.json.gz`);assert.equal(data.subject.id,subject.id);assert.equal(subject.selections,data.selections.filter(isPublicSelection).length);
+    for(const s of data.selections){count++;assert.ok(!seen.has(s.id));seen.add(s.id);assert.equal(s.subject,subject.id);assert.ok(s.raw);assert.ok(s.provenance.subjectUrl);if(!s.passage){assert.ok(!hasPublicMatch(s));continue;}accepted++;passageIds.add(s.passage);assert.ok(hasPublicMatch(s));const c=s.candidates[0];if(!records.has(c.source))records.set(c.source,await load(`data/${recordFilename(c.source)}`));const r=records.get(c.source);assert.equal(r.enVersion,c.version);for(const range of c.ranges){const p=r.en.paragraphs[range.paragraph-1];assert.ok(p,`${s.id}: ${c.source} paragraph ${range.paragraph}, record ${r.id} has ${r.en.paragraphs.length}`);assert.ok(range.start>=0&&range.end>range.start&&range.end<=p.plain.length);assert.equal(p.plain.slice(range.start,range.end),range.text);assert.equal(range.paragraphId,`${c.source}@${c.version}:en:${range.paragraph}`);}assert.ok(s.otherSubjects.includes(subject.id));}
   }
-  assert.equal(count,index.report.selections);
+  assert.equal(count,index.report.selections);assert.equal(index.subjects.reduce((n,s)=>n+s.selections,0),index.report.publicSelections);
   assert.equal(index.report.extractImport.files.subjects_inv_length_ordered,653);
   assert.equal(index.report.extractImport.files.Evernote_scrape,471);
   assert.equal(index.report.extractImport.blocks.subjects_inv_length_ordered,123155);

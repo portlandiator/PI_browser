@@ -8,6 +8,7 @@ import {relationKey} from '../src/subject-relations.mjs';
 import {writeReviewIndex} from './build-passage-review.mjs';
 import {parseSubjectSummary} from '../src/subject-summary.mjs';
 import {readExtractInputs,mergeExtracts,writeExtractReview,matchExtract} from './extract-inputs.mjs';
+import {isPublicSelection,hasPublicMatch,isVerifiedMatch} from '../src/selection-policy.mjs';
 const zip=(file,data)=>fs.writeFile(file,gzipSync(JSON.stringify(data),{level:9}));
 export async function buildSubjects(root,out,dataset){
   const snapshotBytes=await fs.readFile(path.join(root,'data/subjects-snapshot.json.gz'));
@@ -56,25 +57,28 @@ export async function buildSubjects(root,out,dataset){
 export async function writeSubjectOutputs({root,out,dataset,subjects,bySubject,report,edits,hierarchyHtml,limit=subjects.length}){
   const base=path.join(out,dataset,'subjects');await fs.mkdir(base,{recursive:true});await fs.mkdir(path.join(base,'passages'),{recursive:true});
   const catalog=JSON.parse(gunzipSync(await fs.readFile(path.join(out,dataset,'catalog.json.gz'))));const metadata=new Map(catalog.map(r=>[r.id,r]));
-  const passages=new Map();report.duplicateRanges=0;report.overlappingRanges=0;report.selections=0;
+  const passages=new Map(),verifiedSubjects=new Map();report.publicSelections=0;report.duplicateRanges=0;report.overlappingRanges=0;report.selections=0;
   for(const status of Object.keys(report.counts))report.counts[status]=0;
   for(const data of bySubject.values()){
     const subject=data.subject;subject.matched=0;
     for(const s of data.selections){
       s.catalogIds=s.suppliedIds.filter(id=>metadata.has(id));
       delete s.passage;delete s.otherSubjects;report.selections++;report.counts[s.status]++;
-        if(['exact','normalized','confirmed'].includes(s.status)){
+        if(hasPublicMatch(s)){
           const c=s.candidates[0],passageId=digest(JSON.stringify([c.source,c.version,c.ranges.map(r=>[r.paragraph,r.start,r.end])])).slice(0,24);s.passage=passageId;
           if(!passages.has(passageId))passages.set(passageId,{id:passageId,...c,subjects:[],selections:[]});else report.duplicateRanges++;
+          if(isVerifiedMatch(s)){if(!verifiedSubjects.has(passageId))verifiedSubjects.set(passageId,new Set());verifiedSubjects.get(passageId).add(subject.id);}
           const p=passages.get(passageId);if(!p.subjects.includes(subject.id))p.subjects.push(subject.id);p.selections.push({id:s.id,subject:subject.id});
         }
 
       if(s.passage)subject.matched++;
     }
-    subject.selections=data.selections.filter(s=>s.status!=='rejected').length;
+    subject.selections=data.selections.filter(isPublicSelection).length;report.publicSelections+=subject.selections;
   }
   const units=new Map(),sets=new Map(subjects.map(s=>[s.id,new Set()]));
-  for(const p of passages.values())for(const r of p.ranges){const key=`${p.source}:${r.paragraph}`;if(!units.has(key))units.set(key,[]);units.get(key).push({passage:p,range:r});for(const s of p.subjects)sets.get(s)?.add(key);}
+  // Approximate references do not supply evidence for suggested subject relationships.
+  const graphPassages=[...passages.values()].filter(p=>verifiedSubjects.has(p.id)).map(p=>({...p,subjects:[...verifiedSubjects.get(p.id)]}));
+  for(const p of graphPassages)for(const r of p.ranges){const key=`${p.source}:${r.paragraph}`;if(!units.has(key))units.set(key,[]);units.get(key).push({passage:p,range:r});for(const s of p.subjects)sets.get(s)?.add(key);}
   const shared=new Map();for(const [unit,entries] of units){const pairs=new Set();for(let i=0;i<entries.length;i++)for(let j=i+1;j<entries.length;j++){const a=entries[i],b=entries[j];if(a.passage.id!==b.passage.id&&Math.min(a.range.end,b.range.end)>Math.max(a.range.start,b.range.start)){report.overlappingRanges++;for(const s of a.passage.subjects)for(const t of b.passage.subjects)if(s!==t)pairs.add([s,t].sort().join(':'));}}for(const {passage} of entries)for(const s of passage.subjects)for(const t of passage.subjects)if(s<t)pairs.add(s+':'+t);for(const key of pairs)shared.set(key,(shared.get(key)||0)+1);}
   const hierarchy=hierarchyEdges(hierarchyHtml,subjects);const edges=[...hierarchy.edges];
   for(const [key,n] of shared){const [source,target]=key.split(':'),score=n/(sets.get(source).size+sets.get(target).size-n);if(n>=2)edges.push({source,target,type:'related',status:'suggested',score:Number(score.toFixed(5)),sharedParagraphs:n,provenance:'Overlapping accepted ranges; Jaccard over distinct selected source paragraphs'});}

@@ -72,4 +72,15 @@ test('export shares identical passages, preserves associations and applies relat
   const index=await load('index');assert.equal(index.report.duplicateRanges,1);assert.equal(index.report.passages,1);assert.equal(index.report.selections,2);assert.equal(index.report.counts.exact,2);
   const decisions=await load('editorial-decisions');assert.deepEqual(decisions.relationships,[{source:'b',target:'a',type:'related',status:'rejected',note:'Distinct concepts'}]);
   assert.ok(index.edges.some(e=>e.type==='broader'&&e.status==='imported'));assert.equal(index.edges.filter(e=>e.type==='related').length,1);assert.equal(index.edges.find(e=>e.type==='related').status,'rejected');
+  // Approximate mappings get working reader references while retaining review status.
+  bySubject.get('b').selections[0].status='approximate';
+  bySubject.get('a').selections.push({id:'hidden',subject:'a',status:'unmatched',candidates:[],suppliedIds:[],provenance:{sourceCollection:'subjects_inv_length_ordered'}});
+  await writeSubjectOutputs({root,out,dataset,subjects,bySubject,report,edits:{relationships:[]},hierarchyHtml:''});
+  const updated=await load('index'),approximate=(await load('b')).selections[0];
+  assert.equal(approximate.status,'approximate');assert.equal(approximate.passage,a.selections[0].passage);
+  assert.equal((await load('passages/'+approximate.passage)).source,'BH00001');
+  assert.equal(updated.report.publicSelections,2);assert.equal(updated.report.selections,3);
+  assert.equal(updated.edges.filter(e=>e.status==='suggested').length,0);
+  const review=await load('review-index');assert.ok(review.subjects.find(s=>s.subject==='b')?.items.some(s=>s.id===approximate.id));
+
 });

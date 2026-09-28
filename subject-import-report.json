@@ -319,7 +319,7 @@
     "BH11518.txt",
     "BH11759.txt"
   ],
-  "duplicateRanges": 3116,
+  "duplicateRanges": 4011,
   "overlappingRanges": 11347,
   "missingCategories": [],
   "unusedMatchEdits": [
@@ -11438,11 +11438,12 @@
       "reason": "The supplied category endpoint repeatedly timed out and the category ID was absent from the current Loom outline. The user requested retaining the subject with an unavailable notice on 2026-09-17."
     }
   },
-  "passages": 101330,
+  "passages": 117920,
   "relationships": {
     "imported": 12,
     "suggested": 348,
     "reviewed": 3326
   },
-  "emptySubjects": []
+  "emptySubjects": [],
+  "publicSelections": 124961
 }

@@ -1,7 +1,8 @@
+import {isPublicSelection} from './selection-policy.mjs';
 import {escapeHtml} from './text.mjs';
 
 export function publicSelections(selections,sources){
-  return selections.filter(selection=>selection.status!=='rejected').sort((a,b)=>Boolean(b.passage)-Boolean(a.passage)||(a.passage&&b.passage?compareSelections(a,b,sources):0));
+  return selections.filter(isPublicSelection).sort((a,b)=>Boolean(b.passage)-Boolean(a.passage)||(a.passage&&b.passage?compareSelections(a,b,sources):0));
 }
 
 // The imported original contains the citation that the matching excerpt omits.

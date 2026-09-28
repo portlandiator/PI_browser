@@ -57,3 +57,12 @@ test('local excerpts without a separated reference do not invent a Loom source l
  const html=unlinkedPassage({excerpt:'Full quotation and its inline reference',original:'Full quotation and its inline reference',provenance:{sourceFilename:'subject_extracts/Evernote_scrape/topic.txt',subjectUrl:'https://loom.loomofreality.org/',selectionParagraph:1}});
  assert.ok(html.includes('Full quotation and its inline reference'));assert.ok(!html.includes('<a '));assert.ok(!html.includes('Source collection'));assert.ok(!html.includes('()'));
 });
+
+test('only unmatched Inventory extracts are withheld from public selections',()=>{
+  const rows=['subjects_inv_length_ordered','Evernote_scrape'].flatMap(sourceCollection=>['exact','approximate','ambiguous','unmatched'].map(status=>({id:sourceCollection+status,status,provenance:{sourceCollection},candidates:[],suppliedIds:[]})));
+  const visible=publicSelections(rows,{});
+  assert.equal(visible.length,7);
+  assert.ok(!visible.some(s=>s.id==='subjects_inv_length_orderedunmatched'));
+  assert.ok(visible.some(s=>s.id==='Evernote_scrapeunmatched'));
+  assert.equal(rows.length,8);
+});
