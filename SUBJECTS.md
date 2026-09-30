@@ -10,7 +10,7 @@ Merge within each subject by complete normalized wording or identical accepted s
 
 Each full build generates extract-review/subjects_inv_length_ordered-review.csv and extract-review/Evernote_scrape-review.csv. These contain every retained unresolved quotation, including outside authors, with candidate IDs/paragraphs and blank Assign ID, Assign paragraph and Notes columns. The accompanying input-report.json records filename mappings, missing files, unusual input blocks and duplicate removals. The browser Passage review queue provides interactive confirmation and precise highlight editing. Citation count remains the default public order; unlinked passages follow in source order.
 
-GitHub Actions fingerprints the two extract folders and builds offline from the tracked files and publication-safe collection archive. Original extract files remain unchanged.
+GitHub Actions fingerprints the filtered extract archive and builds offline from it and the publication-safe collection archive. Original extract files remain private and unchanged.
 
 ## Focused reference review (GWB, SWAB, PT and COC)
 
@@ -112,3 +112,9 @@ site builds copy this small asset without requiring Word or PowerShell.
 The September 2026 Evernote review decisions are preserved in data/extract-review-decisions.json. Entries marked delete are excluded before matching and deduplication, so rebuilding cannot restore them. Remaining review notes survive regeneration. Evernote_scrape-resolved.csv records newly assigned IDs, paragraphs, and supporting evidence. Reference leads in unresolved rows are suggestions only; they are not accepted mappings. References were compared with both Translations and Publications metadata, followed by phrase searches and comparison with the English source paragraphs.
 
 Confirmed mappings retain source-version hashes and exact character ranges. The build validates these against the current English corpus. Weak reference or phrase candidates remain unmatched even when an item ID is suggested. The original extract files remain immutable; exclusions, notes, and mappings are reproducible build inputs.
+
+## Inventory review publication (September 29, 2026)
+
+The owner-reviewed Inventory CSV approves its highest-scoring candidate where present; explicit ID/paragraph assignments override candidates. Equal-score ties keep the first listed candidate. The 21,845-row review produced 15,668 accepted candidate choices, 145 complete owner assignments, and two owner-authorized incomplete-assignment follow-ups. The interview reference was corrected to ABU0365 paragraphs 21–22; AB04126 paragraph 1 remains approximate because its wording differs. The other 6,030 rows and 13 previously suppressed duplicate copies (all without candidates or assignments) are excluded before matching and deduplication. The publication summary records the reviewed file digest; the retained-row CSV records the actual choices and evidence.
+
+Raw `subject_extracts/` files are private immutable inputs and no longer tracked. `node scripts/archive-extracts.mjs` deliberately regenerates `data/subject-extracts-public.json.gz` from local originals and current exclusions. Ordinary builds always prefer this filtered archive, whose records preserve original selection IDs, file hashes, block numbers and line numbers. The archive physically omits excluded rows; their IDs alone remain in the exclusion list so future refreshes cannot restore them. Do not publish the annotated input CSV or an unfiltered extract archive. Removing files from current Git does not erase earlier repository history.

@@ -19,7 +19,8 @@ export async function buildInputs(root){
   }
   await collect('data');
   await collect('subject-summaries');
-  await collect('subject_extracts');
+  // Public builds use only the filtered archive; private raw extracts never affect them.
+  try{await fs.access(path.join(root,'data/subject-extracts-public.json.gz'));}catch(error){if(error.code!=='ENOENT')throw error;await collect('subject_extracts');}
   await collect('pdf_volumes - copy');
   for(const name of await fs.readdir(root))if(name.endsWith('.csv'))await collect(name);
   await collect('subjects - reference.docx');

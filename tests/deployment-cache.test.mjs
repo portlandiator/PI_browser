@@ -90,3 +90,12 @@ test('incomplete or unsafe cached data fails before copying the interface',async
   await assert.rejects(refreshSite(root),/overwrite generated data/);
   await assert.rejects(fs.access(path.join(root,'dist/index.html')));
 });
+
+test('filtered extract archive replaces private raw inputs in deployment fingerprints',async t=>{
+  const {root,write}=await fixture(t);
+  await write('data/subject-extracts-public.json.gz','filtered public extract fixture');
+  const initial=await fingerprint(root),inputs=await buildInputs(root);
+  assert.ok(inputs.includes('data/subject-extracts-public.json.gz'));assert.ok(!inputs.some(f=>f.startsWith('subject_extracts/')));
+  await write('subject_extracts/Evernote_scrape/A.txt','Private changes must not leak or change the public build');assert.equal(await fingerprint(root),initial);
+  await write('data/subject-extracts-public.json.gz','updated filtered extract fixture');assert.notEqual(await fingerprint(root),initial);
+});

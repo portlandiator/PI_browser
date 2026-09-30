@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {parseCsv} from '../src/text.mjs';
+import {readPublicExtracts} from './public-extracts.mjs';
 import {digest,tokens,mappedTokens,locateRanges} from './subject-core.mjs';
 
 export const extractFolders=['subjects_inv_length_ordered','Evernote_scrape'];
@@ -8,7 +9,8 @@ export const accepted=s=>['exact','normalized','confirmed'].includes(s.status);
 export const wordingKey=s=>tokens(s).map(t=>t.word).join(' ');
 
 // These aliases are explicit editorial filename mappings, never fuzzy topic guesses.
-export async function readExtractInputs(root,subjects,decisions={}){
+export async function readExtractInputs(root,subjects,decisions={},options={}){
+  if(!options.sourceFiles){const published=await readPublicExtracts(root,subjects,decisions);if(published)return published;}
   const aliases=JSON.parse(await fs.readFile(path.join(root,'data/extract-subject-aliases.json'),'utf8'));
   const byName=new Map(subjects.map(s=>[s.name,s])),bySubject=new Map(subjects.map(s=>[s.id,[]]));
   const report={files:{},blocks:{},filenameAliases:[],unknownSubjects:[],missingFiles:{},encodingFallbacks:[],inputIssues:[],duplicates:[]};
