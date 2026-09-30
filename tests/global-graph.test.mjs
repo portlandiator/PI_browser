@@ -27,8 +27,8 @@ test('one-hop neighborhood is not truncated to twelve neighbors',()=>{
 test('global edges retain reviewed connections, suppress rejections, and collapse inverse duplicates',()=>{
   const subjects=['a','b','c'].map(id=>({id}));
   const edges=[{source:'a',target:'b',type:'related',status:'suggested'},{source:'b',target:'a',type:'related',status:'rejected'},{source:'a',target:'c',type:'broader',status:'imported'},{source:'c',target:'a',type:'narrower',status:'accepted'},{source:'b',target:'c',type:'related',status:'suggested'},{source:'a',target:'missing',type:'related',status:'accepted'}];
-  assert.equal(publicGraphEdges(edges,subjects).length,2);
-  assert.deepEqual(publicGraphEdges(edges,subjects,false),[edges[3]]);
+  assert.equal(publicGraphEdges(edges,subjects,true).length,2);
+  assert.deepEqual(publicGraphEdges(edges,subjects),[edges[3]]);
 });
 test('global layout preserves every subject including isolates with finite bounded positions',()=>{
   const nodes=Array.from({length:80},(_,i)=>({id:String(i),width:170,height:48+i%5*16}));
@@ -48,4 +48,13 @@ test('zoom stays anchored under the pointer and clamps its scale',()=>{
   assert.equal((anchor.y-z.y)/z.scale,(anchor.y-c.y)/c.scale);
   assert.equal(zoomCamera(c,100,anchor,.1,4).scale,4);
   assert.equal(zoomCamera(c,.001,anchor,.1,4).scale,.1);
+});
+
+test('public neighborhoods exclude suggested edges and paths through them at every depth',()=>{
+  const subjects=['a','b','c','d'].map(id=>({id}));
+  const edges=[{source:'a',target:'b',type:'related',status:'imported'},{source:'b',target:'c',type:'related',status:'accepted'},{source:'a',target:'c',type:'related',status:'suggested'},{source:'c',target:'d',type:'related',status:'suggested'}];
+  assert.deepEqual(graphNeighborhood(subjects,edges,'a',1).nodes.map(s=>s.id),['a','b']);
+  const graph=graphNeighborhood(subjects,edges,'a',99);
+  assert.deepEqual(graph.nodes.map(s=>s.id),['a','b','c']);
+  assert.deepEqual(graph.edges,edges.slice(0,2));
 });

@@ -2,7 +2,7 @@ import {relationKey} from './subject-relations.mjs';
 
 // Connections are traversable in either direction. Return the induced graph:
 // every public edge whose endpoints fall within the requested hop distance.
-export function graphNeighborhood(subjects, edges, focus, requested=1, suggestions=true){
+export function graphNeighborhood(subjects, edges, focus, requested=1, suggestions=false){
   const publicEdges=publicGraphEdges(edges,subjects,suggestions),adj=new Map(subjects.map(s=>[s.id,[]]));
   for(const e of publicEdges){adj.get(e.source).push(e.target);adj.get(e.target).push(e.source);}
   const distances=new Map(),queue=[];
@@ -13,7 +13,7 @@ export function graphNeighborhood(subjects, edges, focus, requested=1, suggestio
   return {nodes,edges:publicEdges.filter(e=>ids.has(e.source)&&ids.has(e.target)),depth,maxDepth};
 }
 
-export function publicGraphEdges(edges, subjects, suggestions=true) {
+export function publicGraphEdges(edges, subjects, suggestions=false) {
   const ids=new Set(subjects.map(s=>s.id)), unique=new Map();
   for(const e of edges) {
     if(!ids.has(e.source)||!ids.has(e.target)||e.source===e.target)continue;
