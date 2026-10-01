@@ -65,6 +65,7 @@ for(const row of metadata.values())if(row.Volume&&!volumes[String(Number(row.Vol
 const catalog=[],indices={en:Array.from({length:1024},()=>new Map()),original:Array.from({length:1024},()=>new Map())};
 const authorNames={AB:'‘Abdu’l-Bahá',BB:'The Báb',BH:'Bahá’u’lláh'};
 const zipWrite=(file,value)=>fs.writeFile(file,gzipSync(JSON.stringify(value),{level:9}));
+let translationWordCount=0;
 
 for(let doc=0;doc<ids.length;doc++){
   const id=ids[doc],row=metadata.get(id)||{};
@@ -82,6 +83,7 @@ for(let doc=0;doc<ids.length;doc++){
     let position=0;
     for(const part of [...version.paragraphs,...version.notes]){
       for(const word of tokenize(part.plain)){
+        if(language==='en')translationWordCount++;
         const bucket=indices[language][shardKey(word)];
         if(!bucket.has(word))bucket.set(word,new Map());
         const posting=bucket.get(word);if(!posting.has(doc))posting.set(doc,[]);
@@ -97,7 +99,7 @@ for(let doc=0;doc<ids.length;doc++){
   await zipWrite(path.join(corpus,'data',recordFilename(id)),{...record,enVersion,metadata:row,...(metadataOriginalValues.has(id)?{metadataOriginalValues:metadataOriginalValues.get(id)}:{}),en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
   if(doc%3000===0)console.log(`Imported ${doc.toLocaleString()} / ${ids.length.toLocaleString()} records`);
 }
-const stats={dataset,records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length};
+const stats={dataset,translationWordCount,records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length};
 await zipWrite(path.join(corpus,'catalog.json.gz'),catalog);
 await fs.writeFile(path.join(corpus,'metadata-schema.json'),JSON.stringify(schema));
 for(const field of schema)await zipWrite(path.join(corpus,'facets',`${field.key}.json.gz`),ids.map(id=>metadataSearchText(metadata.get(id)?.[field.name]||'')));

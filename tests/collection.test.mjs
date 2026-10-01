@@ -83,3 +83,13 @@ test('build remains inside GitHub Pages size limit and shards are bounded',async
   assert.ok(size<1_000_000_000,`Output size ${size}`);assert.ok(maxShard<5_000_000,`Largest shard ${maxShard}`);
   console.log(`Site size: ${(size/1e6).toFixed(1)} MB; largest index shard: ${(maxShard/1000).toFixed(1)} KB`);
 });
+
+test('translation word total agrees with the complete English positional index',async()=>{
+  let total=0;
+  for(let bucket=0;bucket<1024;bucket++){
+    const shard=await load('index/en/'+bucket+'.json.gz');
+    for(const encoded of Object.values(shard))for(const positions of unpackPosting(Buffer.from(encoded,'base64')).values())total+=positions.length;
+  }
+  assert.ok(total>0);
+  assert.equal(stats.translationWordCount,total);
+});

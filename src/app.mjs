@@ -229,6 +229,7 @@ try{
   const response=await fetch(new URL('./stats.json',import.meta.url),{cache:'no-cache'});
   if(!response.ok)throw new Error('The collection manifest could not be loaded. Please reload the page.');
   const stats=await response.json();datasetPath=stats.dataset||'./';datasetBase=new URL(datasetPath,import.meta.url);
+  $('translation-word-count').textContent=stats.translationWordCount.toLocaleString();
   const fieldsResponse=await fetch(new URL('metadata-schema.json',datasetBase));if(!fieldsResponse.ok)throw new Error('The metadata schema could not be loaded. Please reload the page.');
   metadataFields=await fieldsResponse.json();
   const volumesResponse=await fetch(new URL('./volumes.json',import.meta.url));
