@@ -58,6 +58,7 @@ test('added, removed, and renamed inputs invalidate the cache even with identica
 });
 
 async function cachedData(write){
+  await write('dist/build-state.json','{}');
   await write('dist/stats.json',JSON.stringify({dataset:'collections/example/',records:1}));
   await write('dist/collections/example/catalog.json.gz','catalog bytes');
   await write('dist/collections/example/metadata-schema.json','[]');

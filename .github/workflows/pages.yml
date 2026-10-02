@@ -34,6 +34,7 @@ jobs:
       GENERATED_PATHS: |
         dist/collections
         dist/pdf-volumes
+        dist/build-state.json
         dist/stats.json
         dist/volumes.json
         dist/volume-titles.json
@@ -49,6 +50,7 @@ jobs:
       - name: Verify source publication policy
         run: |
           python -m unittest discover -s tests -p test_archive_sources.py
+          python -m unittest discover -s tests -p test_patch_item.py
           python scripts/archive-sources.py --check
       - name: Fingerprint source data and build dependencies
         id: inputs
@@ -59,23 +61,27 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ${{ env.GENERATED_PATHS }}
-          key: pages-data-v1-${{ runner.os }}-${{ steps.inputs.outputs.key }}
+          key: pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-${{ steps.inputs.outputs.key }}
+          restore-keys: |
+            pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-
       - name: Extract source archive for validation of cached data
         if: steps.generated.outputs.cache-hit == 'true'
         run: tar -xzf data/collection.tar.gz
       - name: Build full corpus and search index
         if: steps.generated.outputs.cache-hit != 'true'
-        run: node --max-old-space-size=6144 scripts/build.mjs
+        run: PI_INCREMENTAL=1 node --max-old-space-size=6144 scripts/build.mjs
       - name: Apply current interface to generated collection
         run: node scripts/deployment-cache.mjs refresh
       - name: Verify generated collection
         run: node --test tests/*.test.mjs
+      - name: Keep only the verified active dataset in the deployment
+        run: node scripts/deployment-cache.mjs prune
       - name: Cache successfully verified collection and PDFs
         if: steps.generated.outputs.cache-hit != 'true' && !inputs.force_rebuild
         uses: actions/cache/save@v4
         with:
           path: ${{ env.GENERATED_PATHS }}
-          key: pages-data-v1-${{ runner.os }}-${{ steps.inputs.outputs.key }}
+          key: pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-${{ steps.inputs.outputs.key }}
       - name: Summarize deployment path
         env:
           CACHE_HIT: ${{ steps.generated.outputs.cache-hit }}
@@ -83,7 +89,7 @@ jobs:
           if [ "$CACHE_HIT" = "true" ]; then
             echo 'Reused verified collection and PDFs; refreshed interface; all tests passed.' >> "$GITHUB_STEP_SUMMARY"
           else
-            echo 'Built and verified the full collection; all tests passed.' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Rebuilt changed records when compatible cached data was available; otherwise rebuilt the full collection. All tests passed.' >> "$GITHUB_STEP_SUMMARY"
           fi
           echo 'GitHub Pages still requires one complete site artifact per deployment.' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/configure-pages@v5

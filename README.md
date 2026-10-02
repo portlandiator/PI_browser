@@ -106,3 +106,17 @@ Records with no Manuscripts or Publications entries retain their catalogue ident
 All supplied volume PDFs, including volumes 166 and 193, are published with the owner’s explicit authorization. The original-text restriction applies to the source archive, generated records, metadata incipits, and search index. `data/withheld-pdf-volumes.json` remains available for any future PDF exclusions and is currently empty.
 
 `python scripts/archive-sources.py` packages only permitted originals. Use `--from-archive data/collection.tar.gz` to filter the existing archive without importing local source changes. `--check` rejects an unsafe archive; deployment runs this check before building or restoring cached output. Removed original-only IDs survive in an ID-only manifest.
+
+## Correct one catalog item
+
+Double-click **Edit-Catalog-Item.cmd** in the source project folder. A private local browser editor opens; keep its command window open until you finish. Enter an exact, case-sensitive ID, edit its source metadata, original text or English translation, then select **Save on this computer**. Select **Publish saved item** to upload only that item. The ID cannot be changed in this editor. Use the full updater for additions, deletions, renames or a changed metadata schema.
+
+Saving preserves all other metadata values and stores byte-exact backups in .qa/item-backups/. Each backup has a manifest listing the source filenames and numbered files containing their previous bytes. Unchanged source texts keep their original encoding. Changed text is saved in UTF-8. Concurrent file edits stop the save rather than overwrite newer work. The editor exposes no public editing endpoint: it listens on loopback with a private token and checks the request origin.
+
+Publication creates an isolated sparse checkout of current main, patches only the selected item in the source archive, applies the existing original-text publication policy, and uses an ordinary fast-forward push. Unrelated local changes are not uploaded. A conflicting remote push stops publication. Failed jobs remain under .qa/item-publish-* for diagnosis; source edits and backups remain intact. Publication needs Git, Python 3, GitHub CLI authentication and Node 22+. The bundled Windows tools are detected automatically.
+
+Compatible generated data is reused automatically: unchanged records and word postings are preserved, changed records and affected search shards are rebuilt, metadata facets are refreshed, and subject citation metadata is updated. English changes rebuild subject matches, because paragraph offsets and translation versions may change. If the English source is used in reviewed subject decisions, the utility stops before pushing; review those references against the correction using the established passage-review process. It never silently promotes an old quotation alignment to a new source version.
+
+Changed IDs, parser/build dependencies, PDFs, subject inputs, an unavailable cache, or a forced rebuild use the full build. Every deployment runs the full verification suite. GitHub Pages still requires uploading one complete site artifact; this optimization avoids unnecessary parsing, indexing, and subject matching, not that final upload. New immutable dataset URLs keep readers from mixing old and new records. CI prunes obsolete cached datasets after validation; local builds preserve earlier datasets.
+
+For a compatible local rebuild after editing inputs, set PI_INCREMENTAL=1 when running scripts/build.mjs. The normal command remains a full rebuild.

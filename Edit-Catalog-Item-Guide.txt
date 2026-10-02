@@ -1,0 +1,30 @@
+EDIT ONE CATALOG ITEM
+
+1. Double-click Edit-Catalog-Item.cmd in this folder.
+2. Enter the exact catalog ID and click Open item.
+3. Correct any metadata, original text, or English translation.
+4. Click Save on this computer. The previous files are backed up automatically.
+5. Click Publish saved item to upload this item and wait for the website checks.
+   Keep the command window open until publication finishes.
+
+Other local items are not included in a single-item publication. The utility
+starts from the latest published collection and applies only the selected item.
+The public catalog remains read-only.
+
+Backups are stored under .qa/item-backups. The displayed backup folder contains
+a manifest identifying each original file and its numbered backup. Keep these
+files if you may want to undo the correction.
+
+Compatible builds reuse unchanged records and search indexes. Metadata-only
+corrections do not rebuild the text indexes. Text corrections update affected
+search shards. English corrections also recheck subject matches. If the text
+is used by reviewed subject quotations, publication stops until those quotation
+references have been reviewed against the corrected text.
+
+GitHub Pages still requires uploading the complete resulting site. A missing
+compatible cache, changes to the build tools, or changes to the set of catalog
+IDs require a full build. Use the full updater to add, delete, or rename items.
+
+Publication requires internet access and the existing GitHub sign-in. The
+launcher uses the installed Node runtime; publishing also uses Git, GitHub CLI,
+and Python. No new service, account, or public editing interface is required.

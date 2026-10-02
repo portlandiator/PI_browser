@@ -12,6 +12,8 @@ import {citationCount} from '../src/citations.mjs';
 import {mayPublishOriginal,publicMetadata} from '../src/original-publication.mjs';
 import {parsePeriodRenaming,renamePeriods,requireCompletePeriodRenaming} from './period-renaming.mjs';
 import {buildVolumes} from './build-volumes.mjs';
+import {fingerprint} from './deployment-cache.mjs';
+import {reusableBuild,unzip,affectedBuckets,mergeShard,refreshSubjectMetadata} from './incremental-build.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
@@ -53,13 +55,19 @@ const ids=[...new Set([...metadata.keys(),...files[0],...files[1],...withheld])]
 report.withheldOriginal=[...new Set([...withheld,...[...files[0]].filter(id=>!mayPublishOriginal(metadata.get(id)))])].sort();
 files[0]=new Set([...files[0]].filter(id=>mayPublishOriginal(metadata.get(id))));
 for(const id of ids)if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error(`Unsafe filename ${id}`);
+const compatibility=await fingerprint(root,true);
+const reuse=process.env.PI_INCREMENTAL==='1'?await reusableBuild(out,ids,compatibility):null;
+if(reuse)await fs.cp(reuse.corpus,corpus,{recursive:true});
+console.log(reuse?'Reusing unchanged records and search shards':'Building the complete collection');
+const items=[],changedDocs=new Set(),changedRecords=new Map(),affected={en:new Set(),original:new Set()};
+let englishChanged=false;
 await fs.mkdir(out,{recursive:true});
 // Every build has an immutable dataset path, preventing stale browsers from mixing
 // a previous catalogue with a new positional index. CI starts with an empty dist.
 for(const folder of ['data','index','facets'])await fs.mkdir(path.join(corpus,folder),{recursive:true});
 await fs.cp(path.join(root,'src'),out,{recursive:true});
 await fs.writeFile(path.join(out,'.nojekyll'),'');
-const volumes=await buildVolumes(root,out);
+const volumes=reuse?JSON.parse(await fs.readFile(path.join(out,'volumes.json'),'utf8')):await buildVolumes(root,out);
 const withheldVolumes=JSON.parse(await fs.readFile(path.join(root,'data','withheld-pdf-volumes.json'),'utf8'));
 for(const row of metadata.values())if(row.Volume&&!volumes[String(Number(row.Volume))]&&!Object.hasOwn(withheldVolumes,String(Number(row.Volume))))throw new Error(`No PDF for volume ${row.Volume}`);
 const catalog=[],indices={en:Array.from({length:1024},()=>new Map()),original:Array.from({length:1024},()=>new Map())};
@@ -74,11 +82,22 @@ for(let doc=0;doc<ids.length;doc++){
   if(!record.hasEnglish)report.missingEnglish.push(id);
   if(!record.hasOriginal&&!record.hasEnglish)report.metadataOnly.push(id);
   if(!metadata.has(id))report.textWithoutMetadata.push(id);
+  const texts={};
+  for(const [language,fileSet,folder] of [['original',files[0],sources[0]],['en',files[1],sources[1]]])texts[language]=fileSet.has(id)?await readText(path.join(root,folder,`${id}.txt`)):'';
+  const enVersion=files[1].has(id)?createHash('sha256').update(await fs.readFile(path.join(root,sources[1],`${id}.txt`))).digest('hex'):undefined;
+  const signature=createHash('sha256').update(JSON.stringify([record,row,metadataOriginalValues.get(id),texts,enVersion])).digest('hex');
+  const previous=reuse?.state.items[doc];
+  if(previous?.signature===signature){
+    items.push(previous);catalog.push(reuse.catalog[doc]);translationWordCount+=previous.words;
+    if(record.hasEnglish&&record.hasOriginal&&previous.en!==previous.original)report.unequalParagraphCounts.push({id,en:previous.en,original:previous.original});
+    continue;
+  }
+  const before=reuse?await unzip(path.join(reuse.corpus,'data',recordFilename(id))):null;
+  if(reuse&&before.enVersion!==enVersion)englishChanged=true;
+  const wordsBefore=translationWordCount;
   const versions={};
-  let enVersion;
   for(const [language,fileSet,folder] of [['original',files[0],sources[0]],['en',files[1],sources[1]]]){
-    const text=fileSet.has(id)?await readText(path.join(root,folder,`${id}.txt`)):'';
-    if(language==='en'&&fileSet.has(id))enVersion=createHash('sha256').update(await fs.readFile(path.join(root,folder,`${id}.txt`))).digest('hex');
+    const text=texts[language];
     const version=parseText(text,language);versions[language]=version;
     let position=0;
     for(const part of [...version.paragraphs,...version.notes]){
@@ -96,6 +115,12 @@ for(let doc=0;doc<ids.length;doc++){
   const equal=versions.en.paragraphs.length===versions.original.paragraphs.length;
   if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
   catalog.push(record);
+  items.push({signature,words:translationWordCount-wordsBefore,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
+  changedRecords.set(id,record);
+  if(reuse){
+    changedDocs.add(doc);
+    for(const language of ['en','original'])if(JSON.stringify(before[language])!==JSON.stringify(versions[language]))for(const bucket of affectedBuckets(before[language],versions[language]))affected[language].add(bucket);
+  }
   await zipWrite(path.join(corpus,'data',recordFilename(id)),{...record,enVersion,metadata:row,...(metadataOriginalValues.has(id)?{metadataOriginalValues:metadataOriginalValues.get(id)}:{}),en:versions.en,original:versions.original,paired:equal&&record.hasEnglish&&record.hasOriginal});
   if(doc%3000===0)console.log(`Imported ${doc.toLocaleString()} / ${ids.length.toLocaleString()} records`);
 }
@@ -107,15 +132,21 @@ for(const language of ['en','original']){
   await fs.mkdir(path.join(corpus,'index',language),{recursive:true});
   let terms=0;
   for(let bucket=0;bucket<1024;bucket++){
+    if(reuse&&!affected[language].has(bucket))continue;
+    const current=reuse?mergeShard(await unzip(path.join(reuse.corpus,'index',language,`${bucket}.json.gz`)),indices[language][bucket],changedDocs):indices[language][bucket];
     const serialized=Object.create(null);
-    for(const [word,posting] of indices[language][bucket])serialized[word]=Buffer.from(packPosting(posting)).toString('base64');
+    for(const [word,posting] of current)serialized[word]=Buffer.from(packPosting(posting)).toString('base64');
     terms+=indices[language][bucket].size;
     await zipWrite(path.join(corpus,'index',language,`${bucket}.json.gz`),serialized);
     indices[language][bucket].clear();
   }
   console.log(`${language}: ${terms.toLocaleString()} indexed terms`);
 }
-await buildSubjects(root,out,dataset);
+if(!reuse||englishChanged)await buildSubjects(root,out,dataset);
+else if(changedRecords.size)await refreshSubjectMetadata(corpus,changedRecords,zipWrite);
+const buildMode=reuse?'incremental':'full';
+await fs.writeFile(path.join(out,'build-state.json'),JSON.stringify({format:1,dataset,compatibility,ids,items}));
+console.log(`Build mode: ${buildMode}; regenerated ${changedRecords.size} records; subject rebuild: ${!reuse||englishChanged}`);
 await fs.writeFile(path.join(out,'stats.json'),JSON.stringify(stats));
-await fs.writeFile(path.join(root,'build-report.json'),JSON.stringify({...stats,...report},null,2));
+await fs.writeFile(path.join(root,'build-report.json'),JSON.stringify({...stats,...report,buildMode,regeneratedRecords:changedRecords.size},null,2));
 console.log('Build complete',stats);

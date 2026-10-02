@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 
 // Only generated assets belong in the cache. Browser code always comes from src/.
-export const generatedPaths=['collections','pdf-volumes','stats.json','volumes.json','volume-titles.json'];
+export const generatedPaths=['collections','pdf-volumes','stats.json','volumes.json','volume-titles.json','build-state.json'];
 const rootDirectory=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 
 export async function buildInputs(root){
@@ -45,10 +45,11 @@ export async function buildInputs(root){
   return [...files].sort();
 }
 
-export async function fingerprint(root){
+export async function fingerprint(root,compatible=false){
   const hash=createHash('sha256');
   hash.update(`pages-data-v1\0node-${process.versions.node.split('.')[0]}\0`);
   for(const relative of await buildInputs(root)){
+    if(compatible&&relative==='data/collection.tar.gz')continue;
     const content=createHash('sha256');
     for await(const chunk of createReadStream(path.join(root,relative)))content.update(chunk);
     hash.update(relative+'\0'+content.digest('hex')+'\0');
@@ -71,7 +72,13 @@ export async function refreshSite(root){
 }
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
-  if(process.argv[2]==='key')console.log(`key=${await fingerprint(rootDirectory)}`);
+  if(process.argv[2]==='key'){console.log(`key=${await fingerprint(rootDirectory)}`);console.log(`compatible=${await fingerprint(rootDirectory,true)}`);}
+  else if(process.argv[2]==='prune'){
+    const out=path.join(rootDirectory,'dist'),stats=JSON.parse(await fs.readFile(path.join(out,'stats.json'),'utf8'));
+    if(!/^collections\/[\w-]+\/$/.test(stats.dataset))throw Error('Invalid dataset path');
+    const parent=path.resolve(out,'collections'),active=stats.dataset.split('/')[1];
+    for(const entry of await fs.readdir(parent,{withFileTypes:true}))if(entry.name!==active){const target=path.resolve(parent,entry.name);if(path.dirname(target)!==parent)throw Error('Unsafe obsolete dataset');await fs.rm(target,{recursive:true,force:true});}
+  }
   else if(process.argv[2]==='refresh')console.log('Refreshed interface over existing dataset:',(await refreshSite(rootDirectory)).dataset);
   else throw Error('Usage: node scripts/deployment-cache.mjs key|refresh');
 }
