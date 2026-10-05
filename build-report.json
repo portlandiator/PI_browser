@@ -1,9 +1,10 @@
 {
-  "dataset": "collections/b2a1a061-7bf/",
-  "records": 29118,
-  "pairs": 24513,
+  "dataset": "collections/ab31945e-349/",
+  "translationWordCount": 14303523,
+  "records": 29114,
+  "pairs": 24514,
   "original": 24520,
-  "english": 28949,
+  "english": 28956,
   "metadataOnly": [
     "AB00649",
     "AB00692",
@@ -145,9 +146,6 @@
     "BH11692",
     "BH11916",
     "BH11917",
-    "I--II",
-    "Ibrahim",
-    "MAF0001 orig",
     "bh02702",
     "bh05036",
     "bh05049",
@@ -159,14 +157,7 @@
     "bh05388",
     "bh05393",
     "bh05686",
-    "bh05838",
-    "caption",
-    "thee",
-    "xx",
-    "اطراف",
-    "امور",
-    "جناب",
-    "عجب"
+    "bh05838"
   ],
   "unequalParagraphCounts": [
     {
@@ -4766,7 +4757,7 @@
     }
   ],
   "encodings": {
-    "utf8": 53170,
+    "utf8": 53177,
     "windows1252": [
       "translated_texts - copy\\AB00011.txt",
       "translated_texts - copy\\AB00030.txt",
@@ -5071,7 +5062,7 @@
       "translated_texts - copy\\BH11759.txt"
     ]
   },
-  "metadataRows": 29028,
+  "metadataRows": 29029,
   "duplicateMetadata": [],
   "missingOriginal": [
     "AB00047",
@@ -6919,6 +6910,8 @@
     "AB12855",
     "AB12861",
     "AB12864",
+    "AB12891",
+    "AB12892",
     "ABU0003",
     "ABU0004",
     "ABU0011",
@@ -9351,6 +9344,11 @@
     "ABU3767",
     "ABU3769",
     "ABU3770",
+    "ABU3771",
+    "ABU3772",
+    "ABU3773",
+    "ABU3774",
+    "ABU3775",
     "ABU4611",
     "ABU4777",
     "ABu0195",
@@ -9649,10 +9647,6 @@
     "BHU0076",
     "BHU0077",
     "BHU0078",
-    "I--II",
-    "Ibrahim",
-    "MAF0001 orig",
-    "MAF0001 trans",
     "bh02702",
     "bh05036",
     "bh05049",
@@ -9664,14 +9658,7 @@
     "bh05388",
     "bh05393",
     "bh05686",
-    "bh05838",
-    "caption",
-    "thee",
-    "xx",
-    "اطراف",
-    "امور",
-    "جناب",
-    "عجب"
+    "bh05838"
   ],
   "missingEnglish": [
     "AB00649",
@@ -9693,7 +9680,6 @@
     "AB11247",
     "AB11328",
     "AB12273",
-    "AB12890",
     "ABU01363",
     "ABU0640",
     "ABU0907",
@@ -9821,9 +9807,6 @@
     "BH11692",
     "BH11916",
     "BH11917",
-    "I--II",
-    "Ibrahim",
-    "MAF0001 orig",
     "bh02702",
     "bh05036",
     "bh05049",
@@ -9835,14 +9818,7 @@
     "bh05388",
     "bh05393",
     "bh05686",
-    "bh05838",
-    "caption",
-    "thee",
-    "xx",
-    "اطراف",
-    "امور",
-    "جناب",
-    "عجب"
+    "bh05838"
   ],
   "textWithoutMetadata": [
     "AB00047",
@@ -9858,6 +9834,7 @@
     "AB11413",
     "AB11616",
     "AB12030",
+    "AB12892",
     "ABU01363",
     "ABU0795",
     "ABU0907",
@@ -9871,6 +9848,11 @@
     "ABU3382",
     "ABU3638",
     "ABU3763",
+    "ABU3771",
+    "ABU3772",
+    "ABU3773",
+    "ABU3774",
+    "ABU3775",
     "ABU4611",
     "ABU4777",
     "ABu0195",
@@ -9912,10 +9894,6 @@
     "BH11675",
     "BH11916",
     "BH11917",
-    "I--II",
-    "Ibrahim",
-    "MAF0001 orig",
-    "MAF0001 trans",
     "bh02702",
     "bh05036",
     "bh05049",
@@ -9927,14 +9905,7 @@
     "bh05388",
     "bh05393",
     "bh05686",
-    "bh05838",
-    "caption",
-    "thee",
-    "xx",
-    "اطراف",
-    "امور",
-    "جناب",
-    "عجب"
+    "bh05838"
   ],
   "unknownCommands": [],
   "metadataFile": "Partial Inventory v6.01.csv",
@@ -10022,7 +9993,7 @@
         "New": "Maku or Chihriq (uncertain)"
       }
     ],
-    "changed": 29028,
+    "changed": 29029,
     "unmapped": {}
   },
   "metadataFields": [
@@ -14266,9 +14237,6 @@
     "BHU0058",
     "BHU0062",
     "BHU0065",
-    "I--II",
-    "Ibrahim",
-    "MAF0001 orig",
     "bh02702",
     "bh05036",
     "bh05049",
@@ -14280,13 +14248,8 @@
     "bh05388",
     "bh05393",
     "bh05686",
-    "bh05838",
-    "caption",
-    "thee",
-    "xx",
-    "اطراف",
-    "امور",
-    "جناب",
-    "عجب"
-  ]
+    "bh05838"
+  ],
+  "buildMode": "full",
+  "regeneratedRecords": 29114
 }

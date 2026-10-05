@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-05",
+  "sourceReview": "Evernote_scrape-review-updated.csv",
+  "inputRows": 4414,
+  "priority": [
+    "first candidate",
+    "assigned ID within supplied paragraph constraint",
+    "delete",
+    "retain unmatched"
+  ],
+  "counts": {
+    "Retained unmatched": 1707,
+    "First candidate accepted": 2091,
+    "Assigned ID located": 524,
+    "Assignment needs review; retained unlinked": 62,
+    "deletedRows": 28,
+    "First candidate ID located": 2
+  },
+  "additionalIdenticalCopiesRemoved": 0,
+  "addedEnglishSources": [
+    "AB12892",
+    "ABU3771",
+    "ABU3772",
+    "ABU3773",
+    "ABU3774",
+    "ABU3775"
+  ],
+  "exceptionsUniqueQuotations": 51,
+  "deletionAudit": [
+    {
+      "id": "018210442ed9bf55a2fc39fe",
+      "reason": "Owner delete",
+      "subject": "3B0B2077A5A44699B8F756D6A1F5CC7D"
+    },
+    {
+      "id": "202af1c857a86d1ab12034e5",
+      "reason": "Owner delete",
+      "subject": "A8FA3FC94D38433295A413FBDA06FC3D"
+    },
+    {
+      "id": "2b1a99580654e9d348c306e5",
+      "reason": "Owner delete",
+      "subject": "752881F17C2B4EE0BDA239B9D6517A45"
+    },
+    {
+      "id": "2db9326e2204977b868510dc",
+      "reason": "Owner delete",
+      "subject": "65B32249C87F46A6BEA80B4FE5F9C1EE"
+    },
+    {
+      "id": "38550a1cef86796b1de8083c",
+      "reason": "Owner delete",
+      "subject": "C470397E9BCC44ECB45F21E1521E18C1"
+    },
+    {
+      "id": "401eedcb86f7b05302315bab",
+      "reason": "Owner delete",
+      "subject": "C6BB86F3DB8D4B58AF903A5ABB8B052F"
+    },
+    {
+      "id": "43d8b15953514b8db6971f6f",
+      "reason": "Owner delete",
+      "subject": "5C9B2EC0371C49F7A3566365EC1285B8"
+    },
+    {
+      "id": "5549023941f75da489254ee1",
+      "reason": "Owner delete",
+      "subject": "173632E7BF104AB486EFBB383AF8DEAD"
+    },
+    {
+      "id": "57672d157f2dcce218ba37e2",
+      "reason": "Owner delete",
+      "subject": "BFA8DCA4C0C24066BAF0F869C88CF522"
+    },
+    {
+      "id": "68cd56737afaf29b302c41a0",
+      "reason": "Owner delete",
+      "subject": "55D2FC30AFA84B35ACE7F2ADC2E8DD0E"
+    },
+    {
+      "id": "6f522749b75611f6bd6db40f",
+      "reason": "Owner delete",
+      "subject": "5C9B2EC0371C49F7A3566365EC1285B8"
+    },
+    {
+      "id": "74a58ed97d8a38d31a0d152d",
+      "reason": "Owner delete",
+      "subject": "29AF567C76864D208EA3BD39BC5CC7CF"
+    },
+    {
+      "id": "790f3377d6c791bb5330cc2a",
+      "reason": "Owner delete",
+      "subject": "E0C67E8BCD98E16FC59F299D4772672E"
+    },
+    {
+      "id": "7a814f6c3e3dcc351fd14122",
+      "reason": "Owner delete",
+      "subject": "344830F10FF3E024ED058D859E65EC8D"
+    },
+    {
+      "id": "7d2a3f7c9063648bdb2e2c0e",
+      "reason": "Owner delete",
+      "subject": "A801789EBB804ABB86C36BB8CAB50FED"
+    },
+    {
+      "id": "833e7d78ba349273db155e78",
+      "reason": "Owner delete",
+      "subject": "00BA6D4E6EF645E480AB0B732786C2BB"
+    },
+    {
+      "id": "84841d3d3cf5e9c1d9278636",
+      "reason": "Owner delete",
+      "subject": "879087898C9746AA88A2BE11CA9F1331"
+    },
+    {
+      "id": "8b2170bd116136b9d3eb0438",
+      "reason": "Owner delete",
+      "subject": "D941821F406B4A20B1E60AD343B49717"
+    },
+    {
+      "id": "9709c9e13b35644a01111d61",
+      "reason": "Owner delete",
+      "subject": "3E78A8B4557E4886A5D3BC8F84BFB09E"
+    },
+    {
+      "id": "9af1ba779410e3a4026a073e",
+      "reason": "Owner delete",
+      "subject": "5410D4DAE5454E8D81B13EC3E9DA2F23"
+    },
+    {
+      "id": "a1dcb553a5106a4da974c275",
+      "reason": "Owner delete",
+      "subject": "9D3855920D804CC38601F6D85145019F"
+    },
+    {
+      "id": "a21bd37ddbe1bcf7b0e81e1f",
+      "reason": "Owner delete",
+      "subject": "1A11545F6FCC460995486A8C10B9506C"
+    },
+    {
+      "id": "c43aed5650f916b04344c303",
+      "reason": "Owner delete",
+      "subject": "52B1C3F2B9574C37BAF0ECCC8D5AB8C1"
+    },
+    {
+      "id": "c7a9d17fddc448947c327108",
+      "reason": "Owner delete",
+      "subject": "C068EBF06ABC4693BF6C2868E2385C69"
+    },
+    {
+      "id": "e7b49da0f520912eb666302e",
+      "reason": "Owner delete",
+      "subject": "DAE90333756E439B9E3B55F9D3EC62CA"
+    },
+    {
+      "id": "f373ff39036b59ea55cc42f0",
+      "reason": "Owner delete",
+      "subject": "C068EBF06ABC4693BF6C2868E2385C69"
+    },
+    {
+      "id": "f5ba6512d0ba1651563fc56c",
+      "reason": "Owner delete",
+      "subject": "EFDFB11C5F3247618BA648A0DD0EB4B3"
+    },
+    {
+      "id": "fed4c040ae692a8c6de0a05d",
+      "reason": "Owner delete",
+      "subject": "5410D4DAE5454E8D81B13EC3E9DA2F23"
+    }
+  ],
+  "notes": "Candidate scores are lexical coverage, not probabilities. Approximate mappings are active references. Unlocated assignments remain visible and unlinked. Historical Git commits and immutable local input files are preserved.",
+  "prunedHistoricalReportRows": {
+    "Evernote_scrape-review.csv": 28
+  },
+  "legacySnapshotCopiesRemoved": 12,
+  "legacySnapshotDeletionAudit": [
+    {
+      "selection": "5549023941f75da489254ee1",
+      "category": "173632E7BF104AB486EFBB383AF8DEAD",
+      "quote": "0FC0AE8A07934D4DA8D0C316F9A0F66E"
+    },
+    {
+      "selection": "6f522749b75611f6bd6db40f",
+      "category": "5C9B2EC0371C49F7A3566365EC1285B8",
+      "quote": "62C1524F56B1EFF9F81691E74E0B723C"
+    },
+    {
+      "selection": "2b1a99580654e9d348c306e5",
+      "category": "752881F17C2B4EE0BDA239B9D6517A45",
+      "quote": "1D400B394102E68D773F720FD61AF6CC"
+    },
+    {
+      "selection": "7d2a3f7c9063648bdb2e2c0e",
+      "category": "A801789EBB804ABB86C36BB8CAB50FED",
+      "quote": "19D254F23F4A4590B164173D93D2F579"
+    },
+    {
+      "selection": "7d2a3f7c9063648bdb2e2c0e",
+      "category": "A801789EBB804ABB86C36BB8CAB50FED",
+      "quote": "21502AFACFC8413387BFA6D9A53F332A"
+    },
+    {
+      "selection": "7d2a3f7c9063648bdb2e2c0e",
+      "category": "A801789EBB804ABB86C36BB8CAB50FED",
+      "quote": "FFFF789EBB804ABB86C36BB8CAB02185"
+    },
+    {
+      "selection": "c7a9d17fddc448947c327108",
+      "category": "C068EBF06ABC4693BF6C2868E2385C69",
+      "quote": "DD2E2A50200141A6B7778BB1F6A37462"
+    },
+    {
+      "selection": "8b2170bd116136b9d3eb0438",
+      "category": "D941821F406B4A20B1E60AD343B49717",
+      "quote": "5FE2A8448E5140ABA3949F6566F7806E"
+    },
+    {
+      "selection": "e7b49da0f520912eb666302e",
+      "category": "DAE90333756E439B9E3B55F9D3EC62CA",
+      "quote": "75D524CBDCB4406AB26A5399576CCF09"
+    },
+    {
+      "selection": "e7b49da0f520912eb666302e",
+      "category": "DAE90333756E439B9E3B55F9D3EC62CA",
+      "quote": "789697807927486FAAA276B0CBBEBE78"
+    },
+    {
+      "selection": "e7b49da0f520912eb666302e",
+      "category": "DAE90333756E439B9E3B55F9D3EC62CA",
+      "quote": "FFFF0333756E439B9E3B55F9D3EEDD47"
+    },
+    {
+      "selection": "790f3377d6c791bb5330cc2a",
+      "category": "E0C67E8BCD98E16FC59F299D4772672E",
+      "quote": "8DDF855E8160E256722778AA27913C4E"
+    }
+  ]
+}
