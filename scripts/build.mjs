@@ -1,4 +1,5 @@
 import {recordFilename} from '../src/record-file.mjs';
+import {alignmentCounts} from '../src/paragraph-alignment.mjs';
 import {copyViewDefaults} from './copy-view-defaults.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -114,10 +115,10 @@ for(let doc=0;doc<ids.length;doc++){
     }
   }
   record.excerpt=(versions.en.paragraphs[0]?.plain||versions.original.paragraphs[0]?.plain||row['First line (translated)']||row['First line (original)']||row.Abstracts||'').slice(0,190);
-  const equal=versions.en.paragraphs.length===versions.original.paragraphs.length;
-  if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
+  const counts=alignmentCounts(versions),equal=counts.en===counts.original;
+  if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,...counts});
   catalog.push(record);
-  items.push({signature,words:translationWordCount-wordsBefore,en:versions.en.paragraphs.length,original:versions.original.paragraphs.length});
+  items.push({signature,words:translationWordCount-wordsBefore,...counts});
   changedRecords.set(id,record);
   if(reuse){
     changedDocs.add(doc);

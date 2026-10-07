@@ -1,3 +1,4 @@
+import {readingSlots,alignmentCounts,readingPosition} from './paragraph-alignment.mjs';
 import {authorizedRanges,isAuthorizedParagraph,catalogueDetails} from './translation-status.mjs';
 import {recordFilename} from './record-file.mjs';
 import {mayPublishOriginal} from './original-publication.mjs';
@@ -113,7 +114,7 @@ function showCollection(){readerRequest++;$('collection').hidden=false;$('reader
 function backToCollection(){state.id='';updateUrl();showCollection();syncControls();if(!lastResults)runSearch();$('results-heading').scrollIntoView({block:'start'});$('query').focus({preventScroll:true});}
 function metadataValue(label,value){return `<div><dt>${label}</dt><dd>${esc(value||'Not recorded')}</dd></div>`;}
 function catalogueValue(key,value){return key==='Volume'?renderVolume(value,volumePdfs,volumeTitles):['Manuscripts','Publications','Translations'].includes(key)?renderReferenceList(value):renderMetadata(value);}
-function paragraphHtml(part,i,language){return `<div class="paragraph-cell ${language==='en'?'english-cell':'original-cell'}${language==='en'&&isAuthorizedParagraph(translationRanges,i+1)?' authorized-translation':''}" dir="${language==='en'?'ltr':'rtl'}" lang="${language==='en'?'en':'fa'}" id="p-${language}-${i+1}"><a class="paragraph-number" href="#p-${language}-${i+1}" aria-label="${language==='en'?'English':'Original'} paragraph ${i+1}">${String(i+1).padStart(2,'0')}</a><p>${part.html}</p></div>`;}
+function paragraphHtml(part,i,language){if(i===null)return `<div class="paragraph-cell alignment-blank ${language==='en'?'english-cell':'original-cell'}" aria-hidden="true"></div>`;return `<div class="paragraph-cell ${language==='en'?'english-cell':'original-cell'}${language==='en'&&isAuthorizedParagraph(translationRanges,i+1)?' authorized-translation':''}" dir="${language==='en'?'ltr':'rtl'}" lang="${language==='en'?'en':'fa'}" id="p-${language}-${i+1}"><a class="paragraph-number" href="#p-${language}-${i+1}" aria-label="${language==='en'?'English':'Original'} paragraph ${i+1}">${String(i+1).padStart(2,'0')}</a><p>${part.html}</p></div>`;}
 function notesHtml(record){if(!record.en.notes.length&&!record.original.notes.length)return '';return `<section class="footnotes" aria-label="Footnotes"><h2>Notes</h2>${['en','original'].map(lang=>record[lang].notes.length?`<div class="${lang==='en'?'english':'original'}-notes" dir="${lang==='en'?'ltr':'rtl'}"><h3>${lang==='en'?'English translation':'فارسی / العربية'}</h3><ol>${record[lang].notes.map(note=>`<li id="note-${lang}-${note.number}">${note.html} <a href="#ref-${lang}-${note.number}" aria-label="Return to footnote ${note.number}">↩</a></li>`).join('')}</ol></div>`:'').join('')}</section>`;}
 let visibleParagraphs=100;
 let readerMatches=[],matchCursor=-1;
@@ -153,17 +154,17 @@ function nextMatch(){
   if(!readerMatches.length)return;
   matchCursor=(matchCursor+1)%readerMatches.length;const match=readerMatches[matchCursor];
   if(preferences.mode!=='parallel'&&preferences.mode!==match.language){preferences.mode='parallel';applyReadingPreferences();}
-  if(match.kind==='paragraphs'&&match.index>=visibleParagraphs){visibleParagraphs=Math.ceil((match.index+1)/100)*100;renderReading();}
+  if(match.kind==='paragraphs'){const position=readingPosition(reading[match.language],match.index);if(position>=visibleParagraphs){visibleParagraphs=Math.ceil((position+1)/100)*100;renderReading();}}
   document.getElementById(match.id)?.scrollIntoView({block:'center'});
   $('match-label').textContent=`Match ${matchCursor+1} of ${readerMatches.length}`;
 }
 function renderReading(){
   if(!reading)return;
-  const record=reading;const n=Math.max(record.en.paragraphs.length,record.original.paragraphs.length);
+  const record=reading,slots={en:readingSlots(record.en),original:readingSlots(record.original)};const n=Math.max(slots.en.length,slots.original.length);
   let html='';
-  if(record.paired){for(let i=0;i<Math.min(n,visibleParagraphs);i++)html+=`<div class="paragraph-pair">${paragraphHtml(record.en.paragraphs[i],i,'en')}${paragraphHtml(record.original.paragraphs[i],i,'original')}</div>`;}
+  if(record.paired){for(let i=0;i<Math.min(n,visibleParagraphs);i++)html+=`<div class="paragraph-pair">${paragraphHtml(record.en.paragraphs[slots.en[i]],slots.en[i],'en')}${paragraphHtml(record.original.paragraphs[slots.original[i]],slots.original[i],'original')}</div>`;}
   else{
-    html='<div class="independent-columns">'+['en','original'].map(lang=>`<div class="${lang==='en'?'english-cell':'original-cell'}">${record[lang].paragraphs.length?record[lang].paragraphs.slice(0,visibleParagraphs).map((p,i)=>paragraphHtml(p,i,lang)).join(''):`<div class="paragraph-cell"><p class="missing-version">${lang==='en'?'An English translation':'The original text'} is not available for this record.</p></div>`}</div>`).join('')+'</div>';
+    html='<div class="independent-columns">'+['en','original'].map(lang=>`<div class="${lang==='en'?'english-cell':'original-cell'}">${record[lang].paragraphs.length?slots[lang].slice(0,visibleParagraphs).map(i=>paragraphHtml(record[lang].paragraphs[i],i,lang)).join(''):`<div class="paragraph-cell"><p class="missing-version">${lang==='en'?'An English translation':'The original text'} is not available for this record.</p></div>`}</div>`).join('')+'</div>';
   }
   $('reading-paragraphs').innerHTML=html;
   $('reading-more').innerHTML=n>visibleParagraphs?`<button class="secondary" id="more-paragraphs">Continue reading · ${Math.min(n-visibleParagraphs,100)} more paragraphs</button>`:'';
@@ -181,15 +182,16 @@ async function openReader(id,{push=true}={}){
     const sourceRecord=await getRecord(id);if(token!==readerRequest)return;
     const hasOriginalReferences=mayPublishOriginal(sourceRecord.metadata);
     // Apply catalogue availability only to this reading view; preserve cached source content.
-    const record=hasOriginalReferences?sourceRecord:{...sourceRecord,hasOriginal:false,paired:false,original:{...sourceRecord.original,paragraphs:[],notes:[]}};
+    const record=hasOriginalReferences?{...sourceRecord}:{...sourceRecord,hasOriginal:false,paired:false,original:{...sourceRecord.original,paragraphs:[],notes:[]}};
+    const counts=alignmentCounts(record);record.paired=record.hasEnglish&&record.hasOriginal&&counts.en===counts.original;
     reading=record;translationRanges=authorizedRanges(record.metadata?.Authorized);selectedPassage=null;visibleParagraphs=100;readerMatches=collectReadingMatches(record);matchCursor=-1;
     const passageId=new URLSearchParams(location.search).get('passage');
-    if(passageId){if(!/^[a-f\d]{24}$/.test(passageId))throw Error('Invalid passage ID');const passage=await loadCompressed(new URL(`subjects/passages/${passageId}.json.gz`,datasetBase));if(token!==readerRequest)return;if(passage.source!==record.id||passage.version!==record.enVersion)throw Error('Passage source version has changed; reopen the subject to locate the current selection.');selectedPassage=passage;visibleParagraphs=Math.max(100,...passage.ranges.map(r=>Math.ceil(r.paragraph/100)*100));}
+    if(passageId){if(!/^[a-f\d]{24}$/.test(passageId))throw Error('Invalid passage ID');const passage=await loadCompressed(new URL(`subjects/passages/${passageId}.json.gz`,datasetBase));if(token!==readerRequest)return;if(passage.source!==record.id||passage.version!==record.enVersion)throw Error('Passage source version has changed; reopen the subject to locate the current selection.');selectedPassage=passage;visibleParagraphs=Math.max(100,...passage.ranges.map(r=>Math.ceil((readingPosition(record.en,r.paragraph-1)+1)/100)*100));}
     const title=record.title||(record.addressee?`To ${record.addressee}`:record.id);
     document.title=`${record.id} · ${title} — Partial Inventory browser`;
     const extra=catalogueDetails(metadataFields,record.metadata);
     const usePeriod=!record.date?.trim()&&record.metadata.Period?.trim();
-    const notice=record.paired?'':record.hasOriginal&&record.hasEnglish?`Paragraph counts differ (${record.en.paragraphs.length} English / ${record.original.paragraphs.length} original). Each language follows its own source order.`:'This record does not have both language versions available.';
+    const notice=record.paired?'':record.hasOriginal&&record.hasEnglish?`Paragraph counts differ (${counts.en} English / ${counts.original} original, including blank alignment paragraphs). Each language follows its own source order.`:'This record does not have both language versions available.';
     $('reader-content').innerHTML=`<header class="reader-header"><div class="eyebrow">${esc(record.id)}${record.volume?' · Volume '+esc(record.volume):''}</div><h1 id="reader-title" tabindex="-1">${esc(title)}</h1><div class="reader-author">${esc(record.author)}</div><dl class="reader-metadata">${metadataValue(usePeriod?'Period':'Date',usePeriod?record.metadata.Period:record.date)}${metadataValue('Recipient',record.addressee)}${metadataValue('Place',record.place)}</dl>${extra.length?`<details class="source-details"><summary>Catalog details &amp; source notes</summary><dl>${extra.map(([key,value])=>`<dt>${esc(key)}</dt><dd>${value?catalogueValue(key,value):'<span class="metadata-missing">Not recorded</span>'}</dd>`).join('')}</dl></details>`:''}</header><div class="reader-controls"><div class="segmented" role="group" aria-label="Reading language"><button data-mode-button="parallel" aria-pressed="true">Parallel</button><button data-mode-button="en" aria-pressed="false">English</button><button data-mode-button="original" aria-pressed="false">Original</button></div><div class="type-controls" role="group" aria-label="Text size"><button id="size-down" aria-label="Decrease text size">A−</button><span id="size-label">100%</span><button id="size-up" aria-label="Increase text size">A+</button></div></div>${notice?`<p class="alignment-note">${notice}</p>`:''}<div id="reading-view" class="reading-view" data-mode="parallel"><article class="reading-paper" aria-label="Text and translation"><div id="reading-paragraphs"></div><div id="reading-more" class="load-more-reading"></div>${notesHtml(record)}</article></div><div class="reader-end" aria-label="End of text">❧</div>`;
     renderReading();
     if(selectedPassage){const subjectId=new URLSearchParams(location.search).get('subject')||selectedPassage.subjects[0];const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<a href="./subjects.html?subject=${encodeURIComponent(subjectId)}">← Return to subject</a><span>Selected wording highlighted · ${selectedPassage.ranges.length} source ranges</span>`;document.querySelector('.reader-controls').after(bar);}
@@ -205,9 +207,9 @@ function jumpToHash(){
   if(!location.hash)return;
   const hash=decodeURIComponent(location.hash.slice(1));
   const paragraph=/^p-(en|original)-(\d+)$/.exec(hash);
-  if(paragraph&&Number(paragraph[2])>visibleParagraphs){visibleParagraphs=Math.ceil(Number(paragraph[2])/100)*100;renderReading();}
+  if(paragraph&&reading){const position=readingPosition(reading[paragraph[1]],Number(paragraph[2])-1);if(position>=visibleParagraphs){visibleParagraphs=Math.ceil((position+1)/100)*100;renderReading();}}
   // Notes may link back to a paragraph beyond the initially rendered section.
-  if(/^ref-(en|original)-\d+$/.test(hash)&&!document.getElementById(hash)&&reading){visibleParagraphs=Math.max(reading.en.paragraphs.length,reading.original.paragraphs.length);renderReading();}
+  if(/^ref-(en|original)-\d+$/.test(hash)&&!document.getElementById(hash)&&reading){visibleParagraphs=Math.max(readingSlots(reading.en).length,readingSlots(reading.original).length);renderReading();}
   document.getElementById(hash)?.scrollIntoView({block:'center'});
 }
 $('search-form').onsubmit=event=>{event.preventDefault();submitSearch();};

@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "snapshotVersion": "2135645f5b318ae21b7505f7baaadb348c2c3628dc92cfa19bb6ea451c461e85",
+  "snapshotVersion": "060cf4f631c10312808e7b734f5b3229c9fad6aff7ab4141b665fa497bd7e66f",
   "snapshotDate": null,
   "coordinateSystem": "UTF-16 offsets in unmodified rendered English paragraph plain text; source archive retains original bytes and markup",
   "subjects": 660,
@@ -8,9 +8,9 @@
   "selections": 124985,
   "notices": 0,
   "counts": {
-    "exact": 88203,
-    "normalized": 16215,
-    "approximate": 541,
+    "exact": 88158,
+    "normalized": 16234,
+    "approximate": 567,
     "ambiguous": 0,
     "unmatched": 1719,
     "confirmed": 18307,
@@ -320,7 +320,7 @@
     "BH11759.txt"
   ],
   "duplicateRanges": 4355,
-  "overlappingRanges": 22374,
+  "overlappingRanges": 22367,
   "missingCategories": [],
   "unusedMatchEdits": [
     "70a2c3693b414d5eb5a6a8af",
@@ -17882,7 +17882,7 @@
       "8855e9458b2cef094657cc6e"
     ],
     "reviewCounts": {
-      "subjects_inv_length_ordered": 8,
+      "subjects_inv_length_ordered": 34,
       "Evernote_scrape": 2252
     }
   },
@@ -17897,7 +17897,7 @@
   "passages": 118911,
   "relationships": {
     "imported": 12,
-    "suggested": 1812,
+    "suggested": 1811,
     "reviewed": 3326
   },
   "emptySubjects": []

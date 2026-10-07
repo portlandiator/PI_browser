@@ -1,3 +1,5 @@
+import {alignmentSlots} from './paragraph-alignment.mjs';
+
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 export function normalize(value) {
@@ -83,7 +85,8 @@ export function renderInline(text, context={language:'en',notes:[]}, depth=0) {
 export function parseText(text, language) {
   const context={language,notes:[]};
   const paragraphs=text.replace(/^\uFEFF/,'').replace(/\r\n?/g,'\n').trim().split(/\n[\t ]*\n+/).filter(p=>p.trim()).map(p=>renderInline(p.trim(),context));
-  return {paragraphs,notes:context.notes};
+  const alignment=alignmentSlots(text);
+  return {paragraphs,notes:context.notes,...(alignment.includes(null)?{alignment}:{})};
 }
 
 export function parseQuery(query) {
