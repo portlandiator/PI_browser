@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "snapshotVersion": "afe1f720c63e7b989f2f9f266e0c4c8ce2fadf71bb6ae870073b8b654422a5d7",
+  "snapshotVersion": "2135645f5b318ae21b7505f7baaadb348c2c3628dc92cfa19bb6ea451c461e85",
   "snapshotDate": null,
   "coordinateSystem": "UTF-16 offsets in unmodified rendered English paragraph plain text; source archive retains original bytes and markup",
   "subjects": 660,
@@ -8,12 +8,12 @@
   "selections": 124985,
   "notices": 0,
   "counts": {
-    "exact": 88208,
+    "exact": 88203,
     "normalized": 16215,
-    "approximate": 536,
+    "approximate": 541,
     "ambiguous": 0,
-    "unmatched": 1723,
-    "confirmed": 18303,
+    "unmatched": 1719,
+    "confirmed": 18307,
     "rejected": 0
   },
   "encodingFallbacks": [
@@ -319,7 +319,7 @@
     "BH11518.txt",
     "BH11759.txt"
   ],
-  "duplicateRanges": 4351,
+  "duplicateRanges": 4355,
   "overlappingRanges": 22374,
   "missingCategories": [],
   "unusedMatchEdits": [
@@ -17882,8 +17882,8 @@
       "8855e9458b2cef094657cc6e"
     ],
     "reviewCounts": {
-      "subjects_inv_length_ordered": 3,
-      "Evernote_scrape": 2256
+      "subjects_inv_length_ordered": 8,
+      "Evernote_scrape": 2252
     }
   },
   "selectionSource": "Local Inventory and Evernote extract files; no website quotations",
@@ -17893,11 +17893,11 @@
       "reason": "The supplied category endpoint repeatedly timed out and the category ID was absent from the current Loom outline. The user requested retaining the subject with an unavailable notice on 2026-09-17."
     }
   },
-  "publicSelections": 124985,
+  "publicSelections": 124980,
   "passages": 118911,
   "relationships": {
     "imported": 12,
-    "suggested": 1811,
+    "suggested": 1812,
     "reviewed": 3326
   },
   "emptySubjects": []

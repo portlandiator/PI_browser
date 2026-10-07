@@ -3,9 +3,9 @@
   "sourceReview": "Evernote_scrape-october-assignment-exceptions.csv",
   "inputRows": 62,
   "counts": {
-    "Assigned quotation linked": 43,
+    "Assigned quotation linked": 52,
     "Pass — retained unmatched": 7,
-    "Assigned text requires correction — retained unmatched": 9
+    "Assigned text requires correction — retained unmatched": 0
   },
   "deletedRows": 3,
   "additionalIdenticalCopiesRemoved": 1,
@@ -21,7 +21,7 @@
     "Evernote_scrape-october-results.csv": 3,
     "Evernote_scrape-review.csv": 3
   },
-  "remainingExceptions": 9,
+  "remainingExceptions": 0,
   "partialMappings": [
     "3d03a3675199ea5ba75cee2b",
     "5bc79d0f7ee48483c16311ca",
@@ -38,6 +38,43 @@
       "paragraphs": [
         3
       ]
+    },
+    {
+      "selectionId": "c86ca0eea8931f4451f1044b",
+      "from": "BH00409",
+      "to": "BB00036",
+      "paragraphs": [
+        56,
+        57
+      ]
+    },
+    {
+      "selectionId": "f7d26852fec53a7977277874",
+      "from": "BH00409",
+      "to": "BB00036",
+      "paragraphs": [
+        56,
+        57
+      ]
+    },
+    {
+      "selectionId": "6ffd3df7b732125723541370",
+      "from": "BH00409",
+      "to": "BB00036",
+      "paragraphs": [
+        56,
+        57
+      ]
+    },
+    {
+      "selectionId": "b8bab801f55c1476fb82ea51",
+      "from": "ABU0478 paragraph 7",
+      "to": "ABU0478",
+      "paragraphs": [
+        12
+      ]
     }
-  ]
+  ],
+  "followUpReview": "Evernote_scrape-october-final-exceptions.csv (final nine assignments)",
+  "finalNineSummary": "final-nine-summary.json"
 }
