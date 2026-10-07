@@ -1,3 +1,4 @@
+import {copyViewDefaults} from './copy-view-defaults.mjs';
 import fs from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
 import path from 'node:path';
@@ -67,6 +68,7 @@ export async function refreshSite(root){
     if(generatedPaths.includes(name))throw Error(`Interface would overwrite generated data: ${name}`);
   }
   await fs.cp(path.join(root,'src'),out,{recursive:true});
+  await copyViewDefaults(root,out);
   await fs.writeFile(path.join(out,'.nojekyll'),'');
   return stats;
 }

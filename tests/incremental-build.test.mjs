@@ -22,6 +22,8 @@ test('incremental metadata, original, translation and availability corrections m
   const root=await fs.mkdtemp(path.join(os.tmpdir(),'pi-incremental-'));
   t.after(()=>fs.rm(root,{recursive:true,force:true}));
   const write=async(name,value)=>{await fs.mkdir(path.dirname(path.join(root,name)),{recursive:true});await fs.writeFile(path.join(root,name),value);};
+  await write('knowledge_graph_defaults.csv','The Primal Will');
+  await write('volume_view_defaults.csv','volume,page\n30,14');
   await fs.cp(path.join(project,'src'),path.join(root,'src'),{recursive:true});
   await fs.cp(path.join(project,'scripts'),path.join(root,'scripts'),{recursive:true});
   // Keep real corpus/index/metadata building; isolate subject matching and PDF volume data.

@@ -1,3 +1,4 @@
+import {loadDefaults,randomDefault} from './view-defaults.mjs';
 import {renderSubjectSummary} from './subject-summary.mjs';
 import {graphShell,mountGraph} from './global-graph.mjs';
 import {subjectColorStyle as colorStyle} from './subject-colors.mjs';
@@ -56,7 +57,7 @@ function neighborhood(subject){return graphNeighborhood(index.subjects,index.edg
 function graph(subject){return graphShell(neighborhood(subject));}
 async function render(){
   disposeGraph();
-  const token=++epoch,activeId=document.activeElement?.id;try{if(!params().get('subject')){const initial=index.subjects.find(s=>s.name==='oneness; unity of religion');if(initial)history.replaceState({},'',url({subject:initial.id})+location.hash);}directory();const p=params(),subject=index.subjects.find(s=>s.id===p.get('subject'));
+  const token=++epoch,activeId=document.activeElement?.id;try{if(!params().has('subject')){const names=await loadDefaults('subject');if(token!==epoch)return;const choices=names.map(name=>index.subjects.find(s=>s.name===name)).filter(Boolean);const initial=randomDefault(choices);history.replaceState({},'',url({subject:initial.id})+location.hash);}directory();const p=params(),subject=index.subjects.find(s=>s.id===p.get('subject'));
     if(!subject){$('subject-content').innerHTML=`<h2>Browse ${index.subjects.length} subjects</h2><p>Choose a subject from the directory to explore its passages and connections.</p><p>${(index.report.publicSelections??index.report.selections).toLocaleString()} selections displayed; ${index.report.passages.toLocaleString()} distinct matched passages.</p><p class="subject-note">Source wording and existing subject associations are retained. Excerpts without a linked source ID appear after linked passages.</p>`;return;}
     $('subject-content').innerHTML='<p role="status">Opening selected passages…</p>';
     const data=await loadCompressed(new URL(`subjects/${subject.id}.json.gz`,base));if(token!==epoch)return;selected=data;document.title=subject.name+' · Subject view';

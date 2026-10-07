@@ -1,4 +1,5 @@
 import {recordFilename} from '../src/record-file.mjs';
+import {copyViewDefaults} from './copy-view-defaults.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -66,6 +67,7 @@ await fs.mkdir(out,{recursive:true});
 // a previous catalogue with a new positional index. CI starts with an empty dist.
 for(const folder of ['data','index','facets'])await fs.mkdir(path.join(corpus,folder),{recursive:true});
 await fs.cp(path.join(root,'src'),out,{recursive:true});
+await copyViewDefaults(root,out);
 await fs.writeFile(path.join(out,'.nojekyll'),'');
 const volumes=reuse?JSON.parse(await fs.readFile(path.join(out,'volumes.json'),'utf8')):await buildVolumes(root,out);
 const withheldVolumes=JSON.parse(await fs.readFile(path.join(root,'data','withheld-pdf-volumes.json'),'utf8'));

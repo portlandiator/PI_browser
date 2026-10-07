@@ -1,3 +1,4 @@
+import {loadDefaults,volumeStart} from './view-defaults.mjs';
 import {externalPdfUrl,pdfLinkBoxes,pdfDestinationPage} from './pdf-links.mjs';
 const $=id=>document.getElementById(id);
 const wide=matchMedia('(min-width:1100px)');
@@ -78,11 +79,17 @@ async function openVolume(id,requestedPage=1){
     page=Math.max(1,Math.min(pdf.numPages,Math.trunc(Number(requestedPage))||1));save(true);await draw();
   }catch(error){if(version!==epoch)return;$('volume-status').textContent='This volume could not be opened. Try again or open the PDF directly.';$('retry').hidden=false;$('pdf-reader').setAttribute('aria-busy','false');}
 }
-function restore(){const params=new URLSearchParams(location.search);
+async function restore(){const version=++epoch;const params=new URLSearchParams(location.search);
   $('layout').value=['auto','single','spread'].includes(params.get('layout'))?params.get('layout'):'auto';
   $('zoom').value=['1','1.25','1.5','2'].includes(params.get('zoom'))?params.get('zoom'):'1';
-  const id=params.get('volume')||'30';
-  return openVolume(id,params.get('page')??(id==='30'?14:1));
+  try{
+    const defaults=!params.has('volume')&&!params.has('page')?(await loadDefaults('volume')).filter(entry=>Object.hasOwn(directory,entry.volume)):[];
+    if(version!==epoch)return;
+    const initial=volumeStart(params,defaults);
+    volume=initial.volume;page=initial.page;save(true);
+    return openVolume(volume,page);
+  }catch{if(version!==epoch)return;$('volume-status').textContent='The default view list could not be loaded. Choose a volume from the menu.';$('pdf-reader').setAttribute('aria-busy','false');}
+
 }
 function move(number){if(!pdf)return;page=Math.max(1,Math.min(pdf.numPages,number));save();draw().then(()=>{if($('pdf-reader').getBoundingClientRect().top<0)$('pdf-reader').scrollIntoView({block:'start'});});}
 $('previous').onclick=()=>move(page-count());$('next').onclick=()=>move(page+count());

@@ -15,6 +15,8 @@ async function fixture(t){
     'subject-summaries/A.md':'# A\n\nIntroduction.\n\nConnections.',
     'subject_extracts/Evernote_scrape/A.txt':'Quoted words. Reference',
     'pdf_volumes - copy/volume_01.pdf':'%PDF-1.7 fixture',
+    'knowledge_graph_defaults.csv':'The Primal Will',
+    'volume_view_defaults.csv':'volume,page\n30,14',
     'period_renaming.csv':'Old,New',
     'subjects - reference.docx':'reference',
     'scripts/build.mjs':"import {parse} from '../src/parser.mjs';",
