@@ -24,7 +24,7 @@ export function unlinkedPassage(selection){
     source=source.split(/((?:AB|BH|BB)[A-Z]?\d{4,5}[a-z]?|A\d{5})/g).map(part=>ids.has(part)?`<a href="./?id=${encodeURIComponent(part)}">${escapeHtml(part)}</a>`:escapeHtml(part)).join('');
   }
   const citation=source?`<span class="passage-citation" dir="ltr" lang="en">${source.startsWith('(')&&source.endsWith(')')?source:'('+source+')'}</span>`:'';
-  return `<div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(text.trimEnd())} ${citation}</p></div><div class="passage-original"><p dir="ltr" lang="en">Original text unavailable ${citation}</p></div></div>`;
+  return `<div class="passage-pair"><div class="passage-translation" aria-label="English excerpt"><p>${escapeHtml(text.trimEnd())} ${citation}</p></div><div class="passage-original"><p class="passage-original-unavailable" dir="ltr" lang="en">Original text unavailable ${citation}</p></div></div>`;
 }
 
 // Citation totals use the same source metadata as Catalog view.

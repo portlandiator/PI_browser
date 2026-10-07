@@ -18,6 +18,7 @@
 .passage-reader .passage-pair p{font-size:calc(20px * var(--scale));line-height:1.9}
 .passage-reader .passage-pair [dir=rtl]{font-size:calc(23px * var(--scale));line-height:2.05}
 .passage-reader .passage-pair>div{min-width:0}
+.passage-reader[data-mode=parallel] .passage-original-unavailable{display:none}
 .passage-reader[data-mode=en] .passage-original,.passage-reader[data-mode=original] .passage-translation{display:none}
 .passage-reader:not([data-mode=parallel]) .passage-pair{grid-template-columns:minmax(0,1fr)}
 .passage-reader:not([data-mode=parallel]) .passage-pair [dir=rtl]{border:0;padding:0}
