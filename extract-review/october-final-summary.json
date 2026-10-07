@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-06",
+  "sourceReview": "Evernote_scrape-october-assignment-exceptions.csv",
+  "inputRows": 62,
+  "counts": {
+    "Assigned quotation linked": 43,
+    "Pass — retained unmatched": 7,
+    "Assigned text requires correction — retained unmatched": 9
+  },
+  "deletedRows": 3,
+  "additionalIdenticalCopiesRemoved": 1,
+  "legacyCopiesRemoved": 1,
+  "deletedIds": [
+    "6c50659e35ca268db5f17685",
+    "76c90a3db53be80e53c2c2e3",
+    "86794d93a46c0919bc76fa36",
+    "8855e9458b2cef094657cc6e"
+  ],
+  "prunedReportRows": {
+    "Evernote_scrape-october-assignment-exceptions.csv": 3,
+    "Evernote_scrape-october-results.csv": 3,
+    "Evernote_scrape-review.csv": 3
+  },
+  "remainingExceptions": 9,
+  "partialMappings": [
+    "3d03a3675199ea5ba75cee2b",
+    "5bc79d0f7ee48483c16311ca",
+    "93f247bde58d83c1cbb0b5d5",
+    "d0663541de303fae5cfb4149",
+    "376c1a41a16502360510c48c",
+    "9f40085a082332619535371e"
+  ],
+  "correctedAssignedIds": [
+    {
+      "selectionId": "51969218727cc5be86a9eb2a",
+      "from": "AB00653",
+      "to": "AB00998",
+      "paragraphs": [
+        3
+      ]
+    }
+  ]
+}
