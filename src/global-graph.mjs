@@ -1,4 +1,5 @@
 import {ovalLayout} from './subject-graph.mjs';
+import {transitionGraph} from './graph-transition.mjs';
 import {escapeHtml as esc} from './text.mjs';
 import {subjectColorStyle} from './subject-colors.mjs';
 import {zoomCamera} from './global-graph-layout.mjs';
@@ -9,9 +10,9 @@ export function graphShell(neighborhood){
   return `<section class="graph-panel" aria-label="Knowledge graph"><div class="graph-heading"><h2>Connected subjects</h2></div><div class="graph-body"><p role="status">Arranging subjects within ${depth} ${depth===1?'hop':'hops'}…</p></div></section>`;
 }
 
-export function mountGraph(panel,{neighborhood,subject,lines,url}){
+export function mountGraph(panel,{neighborhood,subject,lines,url,previousGraph}){
   const abort=new AbortController(),signal=abort.signal;
-  let worker,disposed=false,frame=0,resize;
+  let worker,disposed=false,resize,stopTransition=()=>{};
   const listen=(el,type,fn,options={})=>el.addEventListener(type,fn,{...options,signal});
   const body=panel.querySelector('.graph-body');
   load();
@@ -43,11 +44,11 @@ export function mountGraph(panel,{neighborhood,subject,lines,url}){
     // Suggested connections belong only in the editorial review, never the public graph.
     edges=edges.filter(edge=>edge.status!=='suggested');
     const positions=new Map(layout.nodes.map(n=>[n.id,n]));
-    body.innerHTML=`<svg class="subject-graph global-graph" tabindex="0" role="group" aria-label="Subject network within ${neighborhood.depth} ${neighborhood.depth===1?'hop':'hops'}" aria-description="Drag to move; scroll or pinch to zoom. Keyboard: arrows to move, plus or minus to zoom, 0 to fit. Select a subject to read."><g class="graph-camera"><g class="global-edges">${edges.map(e=>{const a=positions.get(e.source),b=positions.get(e.target);return `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}"><title>${esc(a.name)} — ${esc(e.type)} — ${esc(b.name)} (${esc(e.status)})</title></line>`;}).join('')}</g>${layout.nodes.map(n=>`<a data-node="${n.id}" href="${esc(url({subject:n.id,page:null}))}" aria-label="${esc(n.name)}" ${n.id===subject.id?'aria-current="true"':''} style="${subjectColorStyle(n)}"><title>${esc(n.name)}</title><rect x="${n.x-n.width/2}" y="${n.y-n.height/2}" width="${n.width}" height="${n.height}" rx="6"/><text x="${n.x}" y="${n.y}" text-anchor="middle">${n.lines.map((line,i)=>`<tspan x="${n.x}" y="${n.y-(n.lines.length-1)*8+4+i*16}">${esc(line)}</tspan>`).join('')}</text></a>`).join('')}</g></svg>`;
+    body.innerHTML=`<svg class="subject-graph global-graph" tabindex="0" role="group" aria-label="Subject network within ${neighborhood.depth} ${neighborhood.depth===1?'hop':'hops'}" aria-description="Drag to move; scroll or pinch to zoom. Keyboard: arrows to move, plus or minus to zoom, 0 to fit. Select a subject to read."><g class="graph-camera"><g class="global-edges">${edges.map(e=>{const a=positions.get(e.source),b=positions.get(e.target);return `<line data-source="${esc(e.source)}" data-target="${esc(e.target)}" x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}"><title>${esc(a.name)} — ${esc(e.type)} — ${esc(b.name)} (${esc(e.status)})</title></line>`;}).join('')}</g>${layout.nodes.map(n=>`<a data-node="${n.id}" href="${esc(url({subject:n.id,page:null}))}" aria-label="${esc(n.name)}" ${n.id===subject.id?'aria-current="true"':''} style="${subjectColorStyle(n)}"><title>${esc(n.name)}</title><rect x="${n.x-n.width/2}" y="${n.y-n.height/2}" width="${n.width}" height="${n.height}" rx="6"/><text x="${n.x}" y="${n.y}" text-anchor="middle">${n.lines.map((line,i)=>`<tspan x="${n.x}" y="${n.y-(n.lines.length-1)*8+4+i*16}">${esc(line)}</tspan>`).join('')}</text></a>`).join('')}</g></svg>`;
     const svg=body.querySelector('svg'),cameraGroup=svg.querySelector('.graph-camera');
     let camera=savedCamera?{...savedCamera}:null,minScale=0.01,fitted=false;
     const size=()=>({width:svg.clientWidth,height:svg.clientHeight});
-    function paint(){savedCamera={...camera};if(frame)return;frame=requestAnimationFrame(()=>{frame=0;cameraGroup.setAttribute('transform',`translate(${camera.x} ${camera.y}) scale(${camera.scale})`);});}
+    function paint(){savedCamera={...camera};cameraGroup.setAttribute('transform',`translate(${camera.x} ${camera.y}) scale(${camera.scale})`);}
     function fit(){fitted=true;const {width,height}=size();minScale=Math.min(width/layout.width,height/layout.height)*0.92;camera={scale:minScale,x:(width-layout.width*minScale)/2,y:(height-layout.height*minScale)/2};paint();}
     function zoom(factor,anchor){fitted=false;const {width,height}=size();camera=zoomCamera(camera,factor,anchor||{x:width/2,y:height/2},minScale*0.5,4);paint();}
     function center(id){fitted=false;const n=positions.get(id);if(!n)return;const {width,height}=size(),scale=Math.min(1.3,width/(n.width+70),height/(n.height+70));camera={scale,x:width/2-n.x*scale,y:height/2-n.y*scale};paint();}
@@ -66,6 +67,9 @@ export function mountGraph(panel,{neighborhood,subject,lines,url}){
     }
     let previousSize=size();
     resize=new ResizeObserver(()=>{const next=size();reflowOval(next.width,next.height);minScale=Math.min(next.width/layout.width,next.height/layout.height)*0.92;if(fitted)fit();else{camera.x+=(next.width-previousSize.width)/2;camera.y+=(next.height-previousSize.height)/2;paint();}previousSize=next;});resize.observe(svg);
+    // Resolve the initial responsive layout before measuring the transition.
+    reflowOval(svg.clientWidth,svg.clientHeight);paint();
+    stopTransition=transitionGraph(svg,previousGraph);
     const point=e=>{const r=svg.getBoundingClientRect();return {x:e.clientX-r.left,y:e.clientY-r.top};};
     listen(svg,'wheel',e=>{e.preventDefault();zoom(Math.exp(-Math.max(-200,Math.min(200,e.deltaY))*0.005),point(e));},{passive:false});
     const pointers=new Map();let previous,dragged=false,start,suppressUntil=0;
@@ -78,5 +82,5 @@ export function mountGraph(panel,{neighborhood,subject,lines,url}){
     listen(svg,'keydown',e=>{if(['+','=','-','0','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();if(e.key==='0')fit();else if(['+','=','-'].includes(e.key))zoom(e.key==='-'?1/1.4:1.4);else{fitted=false;camera.x+=e.key==='ArrowLeft'?60:e.key==='ArrowRight'?-60:0;camera.y+=e.key==='ArrowUp'?60:e.key==='ArrowDown'?-60:0;paint();}}});
     listen(svg,'focusin',e=>{const a=e.target.closest('[data-node]');if(a&&a.matches(':focus-visible'))center(a.dataset.node);});
   }
-  return ()=>{disposed=true;worker?.terminate();abort.abort();resize?.disconnect();cancelAnimationFrame(frame);};
+  return ()=>{disposed=true;stopTransition();worker?.terminate();abort.abort();resize?.disconnect();};
 }

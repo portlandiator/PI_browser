@@ -1,6 +1,7 @@
 import {loadDefaults,randomDefault} from './view-defaults.mjs';
 import {renderSubjectSummary} from './subject-summary.mjs';
 import {graphShell,mountGraph} from './global-graph.mjs';
+import {captureGraph} from './graph-transition.mjs';
 import {subjectColorStyle as colorStyle} from './subject-colors.mjs';
 import {readingPreferences,passageControls,wirePassageReading} from './passage-reading.mjs';
 import {graphNeighborhood} from './global-graph-layout.mjs';
@@ -56,11 +57,12 @@ function reviewHtml(s){return `<details class="subject-review"><summary>Review $
 function neighborhood(subject){return graphNeighborhood(index.subjects,index.edges,subject.id,params().get('hops')||1,false);}
 function graph(subject){return graphShell(neighborhood(subject));}
 async function render(){
-  disposeGraph();
   const token=++epoch,activeId=document.activeElement?.id;try{if(!params().has('subject')){const names=await loadDefaults('subject');if(token!==epoch)return;const choices=names.map(name=>index.subjects.find(s=>s.name===name)).filter(Boolean);const initial=randomDefault(choices);history.replaceState({},'',url({subject:initial.id})+location.hash);}directory();const p=params(),subject=index.subjects.find(s=>s.id===p.get('subject'));
     if(!subject){$('subject-content').innerHTML=`<h2>Browse ${index.subjects.length} subjects</h2><p>Choose a subject from the directory to explore its passages and connections.</p><p>${(index.report.publicSelections??index.report.selections).toLocaleString()} selections displayed; ${index.report.passages.toLocaleString()} distinct matched passages.</p><p class="subject-note">Source wording and existing subject associations are retained. Excerpts without a linked source ID appear after linked passages.</p>`;return;}
-    $('subject-content').innerHTML='<p role="status">Opening selected passages…</p>';
+    if(!document.querySelector('.graph-panel'))$('subject-content').innerHTML='<p role="status">Opening selected passages…</p>';
     const data=await loadCompressed(new URL(`subjects/${subject.id}.json.gz`,base));if(token!==epoch)return;selected=data;document.title=subject.name+' · Subject view';
+    const previousGraph=captureGraph(document.querySelector('.graph-body > svg'));
+    disposeGraph();
     const review=p.get('review')==='1',printView=!review&&p.get('print')==='1';
     document.body.classList.toggle('subject-print-view',printView);
     let rows=review?[...data.selections]:groupSelections(data.selections,data.sources);
@@ -68,7 +70,7 @@ async function render(){
     if(review)rows.sort((a,b)=>compareSelections(a,b,data.sources));
     const size=printView?Math.max(1,rows.length):10,pages=Math.max(1,Math.ceil(rows.length/size)),linkedIndex=rows.findIndex(s=>review?'#selection-'+s.id===location.hash:s.selections.some(item=>'#selection-'+item.id===location.hash)),page=linkedIndex>=0?Math.floor(linkedIndex/size)+1:Math.min(pages,Math.max(1,parseInt(p.get('page'))||1)),visible=rows.slice((page-1)*size,page*size);
     $('subject-content').innerHTML=`<h2 class="subject-heading" tabindex="-1"><span class="subject-label" style="${colorStyle(subject)}">${esc(subject.name)}</span></h2><div class="subject-overview"><div class="subject-overview-graph">${graph(subject)}</div><section class="subject-overview-summary" aria-label="Subject summary">${renderSubjectSummary(data.summary?.slice(0,1),index.subjects,id=>url({subject:id,page:null,author:null,volume:null,availability:null}))}</section></div>${review?editor():''}<h2 id="selected-passages-heading">Selected passages</h2>${data.unavailable?'<p class="graph-empty" role="status">Selections unavailable. The supplied source URL could not be retrieved. This subject is retained in the directory; a corrected source URL is needed to import its passages.</p>':''}${review?'<div class="subject-filters"></div>':''}<p role="status">${rows.length.toLocaleString()} selections · page ${page} of ${pages}</p>${review&&data.notices.length?'<p class="subject-note">The selection source includes research notices; expand selection provenance to inspect them.</p>':''}${passageControls()}<div id="passage-results" class="passage-reader ${review?'':'continuous-passages'}"></div><div class="subject-pagination"><button id="subject-prev" ${page===1?'disabled':''}>← Previous</button><span>${page} / ${pages}</span><button id="subject-next" ${page===pages?'disabled':''}>Next →</button></div>`;
-    disposeGraph=mountGraph(document.querySelector('.graph-panel'),{neighborhood:neighborhood(subject),subject,lines:graphLines,url});
+    disposeGraph=mountGraph(document.querySelector('.graph-panel'),{neighborhood:neighborhood(subject),subject,lines:graphLines,url,previousGraph});
     if(review){document.querySelector('.subject-filters').insertAdjacentHTML('afterbegin',`<label>Match status<select id="passage-status">${[['pending','Needs review'],['all','All statuses'],['approximate','Approximate'],['ambiguous','Ambiguous'],['unmatched','Unmatched'],['exact','Exact'],['normalized','Normalized'],['confirmed','Confirmed'],['rejected','Rejected']].map(([value,label])=>`<option value="${value}" ${(p.get('status')||'pending')===value?'selected':''}>${label}</option>`).join('')}</select></label>`);$('passage-status').onchange=e=>go({status:e.target.value,page:null});}
     $('subject-prev').onclick=()=>go({page:page-1});$('subject-next').onclick=()=>go({page:page+1});
     let savedReading={};try{savedReading=JSON.parse(localStorage.getItem('pi-reading')||'{}')||{};}catch{}
