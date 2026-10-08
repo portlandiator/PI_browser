@@ -48,7 +48,7 @@
 .subject-graph.global-graph{display:block;width:100%;min-width:0;height:560px;touch-action:none;cursor:grab;user-select:none}
 .global-graph:active{cursor:grabbing}
 .global-edges line{stroke:var(--graph-edge);stroke-width:.7;opacity:.4;vector-effect:non-scaling-stroke}
-.global-graph a rect{fill:var(--subject-bg,var(--white));stroke:var(--subject-color);stroke-width:.6;vector-effect:non-scaling-stroke}
+.global-graph a rect{fill:var(--graph-node-bg);stroke:var(--subject-color);stroke-width:.6;vector-effect:non-scaling-stroke}
 .global-graph a text{fill:var(--subject-color)}
 .global-graph a[aria-current] rect{stroke:var(--ink);stroke-width:4}
 .global-graph a:hover,.global-graph a:focus-visible{transform:none}
