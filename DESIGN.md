@@ -92,3 +92,7 @@ The single-item editor is a local-only utility opened by Edit-Catalog-Item.cmd. 
 Catalog parallel alignment treats any internal run of four or more consecutive logical line breaks as exactly one blank paragraph slot. CRLF counts as one line break; CR and LF are also supported. Leading and trailing runs never add blank slots, and an entirely blank file remains unavailable. Blank slots preserve source paragraph IDs, quotation ranges, search positions, and translation authorization numbering. Alignment counts include the slots; single-language views hide them.
 
 Subject graph navigation animates over 500 ms: shared subjects move without fading, departing subjects travel with the old center as they fade out, and new subjects travel with the incoming center as they fade in. Gentle curved paths and subtle depth scaling suggest rotation through a larger connected space; connection lines follow their moving endpoints. Keep the current graph visible while fetching the next subject. Respect reduced-motion preferences.
+
+Subject headings above the graph and in the PDF preparation view capitalize their first letter for display. The graph heading has a transparent background in both themes. The PDF title occupies its own centered first line; printed pages have centered bottom-margin numbering in the form “Page # of #”.
+
+The printed first page has no running header. Subsequent pages show the local print date/time on the left and the subject name on the right, without “Subject view”; keep the title 15 mm below the first page edge.

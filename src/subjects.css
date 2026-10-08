@@ -67,8 +67,9 @@
 .passage-controls{flex-wrap:wrap}
 #subject-pdf{white-space:nowrap;font-size:15px;width:auto}
 .passage-controls #subject-pdf{min-height:34px;padding:6px 12px}
-.subject-title-row{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
-.subject-title-row h2{min-width:0;margin:0;overflow-wrap:anywhere}
+.subject-heading .subject-label{background:transparent}
+.subject-title-row{display:flex;flex-direction:column;align-items:stretch;gap:16px;margin-bottom:16px}
+.subject-title-row h2{min-width:0;margin:0;text-align:center;overflow-wrap:anywhere}
 .subject-title-row #subject-pdf{flex-shrink:0;margin-left:auto}
 .subject-print-view .subject-directory,.subject-print-view .subject-intro,.subject-print-view .subject-pagination,.subject-print-view .graph-scroll,.subject-print-view #subject-content>h2:not(.subject-heading){display:none}
 .subject-print-view .subject-layout{display:block}
@@ -78,7 +79,16 @@
 .subject-print-view .type-controls{display:none}
 .subject-print-view .continuous-passages .subject-passage{padding:8pt 0}
 @media print{
-  @page subject-passages{size:A4 portrait;margin:15mm}
+  @page subject-passages{
+    size:A4 portrait;margin:15mm;
+    @top-left{content:var(--subject-print-date, "");font:10pt "EB Garamond",serif;color:black;text-align:left}
+    @top-right{content:var(--subject-print-title, "");font:10pt "EB Garamond",serif;color:black;text-align:right}
+    @bottom-center{content:"Page " counter(page) " of " counter(pages);font:10pt "EB Garamond",serif;color:black;text-align:center}
+  }
+  /* A zero first-page top margin suppresses Chromium's automatic headers.
+     Restore the title's reading margin inside the document on page one. */
+  @page subject-passages:first{margin-top:0;@top-left{content:none}@top-right{content:none}}
+  .subject-print-view .subject-title-row{padding-top:15mm}
   body.subject-print-view{page:subject-passages;margin:0!important}
   .subject-print-view #subject-pdf{display:none!important}
   body.subject-print-view{background:white!important;color:black!important}
