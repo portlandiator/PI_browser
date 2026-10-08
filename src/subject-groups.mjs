@@ -1,6 +1,7 @@
 import {escapeHtml as esc} from './text.mjs';
 import {passageCitation} from './passage-citation.mjs';
 import {publicSelections,unlinkedPassage} from './subject-list.mjs';
+import {authorizedRanges,isAuthorizedParagraph} from './translation-status.mjs';
 
 export function groupSelections(selections,sources){
   const groups=[],bySource=new Map();
@@ -39,11 +40,12 @@ export function renderSourceGroup(group,record,subject){
   const anchors=group.selections.slice(1).map(s=>`<span id="selection-${esc(s.id)}"></span>`).join('');
   if(!record)return `<article class="subject-passage" id="selection-${esc(group.id)}">${unlinkedPassage(group.selections[0])}</article>`;
   const paragraphs=groupedParagraphs(group),first=group.selections[0];
+  const authorization=authorizedRanges(record.metadata?.Authorized);
   const reference=passageCitation(record,`./?id=${encodeURIComponent(record.id)}&passage=${encodeURIComponent(first.passage)}&subject=${encodeURIComponent(subject)}#p-en-${paragraphs[0].number}`);
   return `<article class="subject-passage" id="selection-${esc(group.id)}">${anchors}${paragraphs.map(({number,ranges},i)=>{
     const citation=i===paragraphs.length-1?' '+reference:'';
     const separator=i&&number>paragraphs[i-1].number+1?'<span class="passage-gap" aria-label="Passages omitted">…</span> ':'';
     const original=record.original.paragraphs[number-1]?.plain;
-    return `<div class="passage-pair"><div class="passage-translation" aria-label="English paragraph ${number}"><p>${separator}${highlight((record.en.paragraphs[number-1]?.plain||'').trimEnd(),ranges)}${citation}</p></div><div class="passage-original" aria-label="Original paragraph ${number}"><p${original?'':' class="passage-original-unavailable"'} dir="${original?'rtl':'ltr'}">${original?separator+esc(original.trimEnd()):'Original text unavailable'}${citation}</p></div></div>`;
+    return `<div class="passage-pair"><div class="passage-translation${isAuthorizedParagraph(authorization,number)?' authorized-translation':''}" aria-label="English paragraph ${number}"><p>${separator}${highlight((record.en.paragraphs[number-1]?.plain||'').trimEnd(),ranges)}${citation}</p></div><div class="passage-original" aria-label="Original paragraph ${number}"><p${original?'':' class="passage-original-unavailable"'} dir="${original?'rtl':'ltr'}">${original?separator+esc(original.trimEnd()):'Original text unavailable'}${citation}</p></div></div>`;
   }).join('')}</article>`;
 }

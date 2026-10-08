@@ -3,6 +3,18 @@ import assert from 'node:assert/strict';
 import {groupSelections,groupedParagraphs,renderSourceGroup} from '../src/subject-groups.mjs';
 
 const selection=(id,source,paragraph,start=0,end=3)=>({id,passage:id,suppliedIds:[source],candidates:[{source,ranges:[{paragraph,start,end}]}]});
+test('authorization follows source paragraph numbers in grouped subject and PDF passages',()=>{
+  const group=groupSelections([selection('a','BH1',2),selection('b','BH1',4)],{})[0];
+  const record={id:'BH1',metadata:{Authorized:'Y4-'},en:{paragraphs:Array.from({length:4},()=>({plain:'Text'}))},original:{paragraphs:[]}};
+  const html=renderSourceGroup(group,record,'topic');
+  assert.match(html,/class="passage-translation" aria-label="English paragraph 2"/);
+  assert.match(html,/class="passage-translation authorized-translation" aria-label="English paragraph 4"/);
+  assert.equal((html.match(/authorized-translation/g)||[]).length,1);
+  record.metadata.Authorized='Y';
+  assert.equal((renderSourceGroup(group,record,'topic').match(/authorized-translation/g)||[]).length,2);
+  record.metadata.Authorized='Y4,bad';
+  assert.doesNotMatch(renderSourceGroup(group,record,'topic'),/authorized-translation/);
+});
 test('group before pagination, preserving exact source identity and independent unlinked excerpts',()=>{
   const groups=groupSelections([selection('a','BH1',4),selection('b','BH1',2),selection('c','BH1x',1),{id:'d',suppliedIds:['BH1'],candidates:[]}],{});
   assert.deepEqual(groups.map(g=>[g.source,g.selections.length]),[['BH1',2],['BH1x',1],[null,1]]);

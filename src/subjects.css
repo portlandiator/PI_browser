@@ -115,3 +115,12 @@
 }
 .subject-print-view .subject-overview{display:none}
 @media print{.subject-overview{display:block}.subject-overview-summary{height:auto;overflow:visible}}
+
+/* Use the catalog's authorization colors, including highlighted quotations and PDF output. */
+.subject-passage .passage-translation.authorized-translation > p{color:#163f80}
+:root[data-theme=dark] .subject-passage .passage-translation.authorized-translation > p{color:#9ec5ff}
+.subject-passage .authorized-translation mark{color:inherit}
+@media print{
+  .subject-passage .passage-translation.authorized-translation > p{color:#163f80!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .subject-passage .authorized-translation mark{color:inherit!important}
+}
