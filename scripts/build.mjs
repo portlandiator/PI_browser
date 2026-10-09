@@ -8,6 +8,8 @@ import {gzipSync} from 'node:zlib';
 import {execFileSync} from 'node:child_process';
 import {randomUUID,createHash} from 'node:crypto';
 import {buildSubjects} from './build-subjects.mjs';
+import {buildStudyGuides} from './build-compilation-pilot.mjs';
+import {packStudyGuides} from './pack-study-guides.mjs';
 import {parseCsv,parseText,tokenize,shardKey,packPosting} from '../src/text.mjs';
 import {describeFields,metadataPlain,metadataSearchText} from '../src/metadata.mjs';
 import {citationCount} from '../src/citations.mjs';
@@ -147,6 +149,8 @@ for(const language of ['en','original']){
 }
 if(!reuse||englishChanged)await buildSubjects(root,out,dataset);
 else if(changedRecords.size)await refreshSubjectMetadata(corpus,changedRecords,zipWrite);
+await buildStudyGuides(root,out,dataset);
+await packStudyGuides(root,out);
 const buildMode=reuse?'incremental':'full';
 await fs.writeFile(path.join(out,'build-state.json'),JSON.stringify({format:1,dataset,compatibility,ids,items}));
 console.log(`Build mode: ${buildMode}; regenerated ${changedRecords.size} records; subject rebuild: ${!reuse||englishChanged}`);

@@ -26,6 +26,8 @@ test('incremental metadata, original, translation and availability corrections m
   await write('volume_view_defaults.csv','volume,page\n30,14');
   await fs.cp(path.join(project,'src'),path.join(root,'src'),{recursive:true});
   await fs.cp(path.join(project,'scripts'),path.join(root,'scripts'),{recursive:true});
+  await write('study-guides/editorial.json',JSON.stringify({subjects:[],method:'Incremental build fixture'}));
+  await write('study-guides/sentence-paragraphs.json',JSON.stringify({entries:[]}));
   // Keep real corpus/index/metadata building; isolate subject matching and PDF volume data.
   await write('scripts/build-subjects.mjs',`import fs from 'node:fs/promises';import path from 'node:path';import {gzipSync,gunzipSync} from 'node:zlib';
 export async function buildSubjects(root,out,dataset){const base=path.join(out,dataset,'subjects');await fs.mkdir(base,{recursive:true});const catalog=JSON.parse(gunzipSync(await fs.readFile(path.join(out,dataset,'catalog.json.gz'))));const zip=(file,value)=>fs.writeFile(path.join(base,file),gzipSync(JSON.stringify(value)));await zip('index.json.gz',{subjects:[{id:'subject'}]});await zip('subject.json.gz',{sources:Object.fromEntries(catalog.map(r=>[r.id,r]))});await fs.writeFile(path.join(root,'subject-import-report.json'),'{}');}`);

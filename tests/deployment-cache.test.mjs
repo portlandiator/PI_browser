@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
+import {gzipSync} from 'node:zlib';
 import {buildInputs,fingerprint,refreshSite,generatedPaths} from '../scripts/deployment-cache.mjs';
 
 async function fixture(t){
@@ -12,6 +13,15 @@ async function fixture(t){
   for(const [name,value] of Object.entries({
     'data/collection.tar.gz':'source, translation and metadata bytes',
     'data/subject-edits.json':'{}',
+    'study-guides/editorial.json':JSON.stringify({subjects:[],method:'Fixture'}),
+    'scripts/compilation-pilot.css':'body {}',
+    'scripts/compilation-pilot-view.js':'// fixture',
+    'scripts/compilation-guide-loader.mjs':'// fixture',
+    'src/fonts/eb-garamond.ttf':'font fixture',
+    'src/fonts/eb-garamond-italic.ttf':'font fixture',
+    'src/fonts/scheherazade-new.ttf':'font fixture',
+    'src/fonts/EB-Garamond-OFL.txt':'license fixture',
+    'src/fonts/Scheherazade-New-OFL.txt':'license fixture',
     'subject-summaries/A.md':'# A\n\nIntroduction.\n\nConnections.',
     'subject_extracts/Evernote_scrape/A.txt':'Quoted words. Reference',
     'pdf_volumes - copy/volume_01.pdf':'%PDF-1.7 fixture',
@@ -36,7 +46,7 @@ test('interface and documentation changes reuse data, but every source and trans
   const initial=await fingerprint(root);
   for(const name of ['src/app.mjs','src/index.html','src/style.css','README.md'])await write(name,'changed interface or documentation');
   assert.equal(await fingerprint(root),initial);
-  for(const name of ['subject_extracts/Evernote_scrape/A.txt','subject-summaries/A.md','data/collection.tar.gz','data/subject-edits.json','pdf_volumes - copy/volume_01.pdf','period_renaming.csv','subjects - reference.docx','src/normalization.mjs','scripts/deployment-cache.mjs']){
+  for(const name of ['subject_extracts/Evernote_scrape/A.txt','subject-summaries/A.md','study-guides/editorial.json','data/collection.tar.gz','data/subject-edits.json','pdf_volumes - copy/volume_01.pdf','period_renaming.csv','subjects - reference.docx','src/normalization.mjs','scripts/deployment-cache.mjs']){
     const before=await fingerprint(root);
     await fs.appendFile(path.join(root,name),'\n// changed');
     assert.notEqual(await fingerprint(root),before,name);
@@ -64,7 +74,7 @@ async function cachedData(write){
   await write('dist/stats.json',JSON.stringify({dataset:'collections/example/',records:1}));
   await write('dist/collections/example/catalog.json.gz','catalog bytes');
   await write('dist/collections/example/metadata-schema.json','[]');
-  await write('dist/collections/example/subjects/index.json.gz','subject bytes');
+  await write('dist/collections/example/subjects/index.json.gz',gzipSync(JSON.stringify({subjects:[],edges:[]})));
   await write('dist/pdf-volumes/volume-1.pdf','PDF bytes');
   await write('dist/volumes.json','{"1":"pdf-volumes/volume-1.pdf"}');
   await write('dist/volume-titles.json','{"1":"Volume 1"}');
@@ -81,6 +91,7 @@ test('fresh interface overlays cached output without changing dataset URLs or ge
   await write('src/index.html','new interface');await refreshSite(root);
   assert.equal(await fs.readFile(path.join(root,'dist/index.html'),'utf8'),'new interface');
   assert.ok(!generatedPaths.includes('index.html'));
+  assert.deepEqual(JSON.parse(await fs.readFile(path.join(root,'dist/study-guides/manifest.json'),'utf8')),{format:1,dataset:stats.dataset,subjects:{}});
 });
 
 test('incomplete or unsafe cached data fails before copying the interface',async t=>{

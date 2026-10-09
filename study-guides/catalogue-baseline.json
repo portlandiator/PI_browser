@@ -1,0 +1,2648 @@
+{
+  "format": 1,
+  "dataset": "collections/390a77fa-5b4/",
+  "sourceCommit": "edbd584e227978691b52bc96280eba80515d177b",
+  "verifiedAt": "2026-10-09T06:23:07.275Z",
+  "subjects": {
+    "0FDA9B7CC77849A9B4E383D68116F833": {
+      "fingerprint": "7a485ac8609071d4d632d19c718c7e29cf203ec87612f96022a9f7b556fb49fb",
+      "publicSelections": 39
+    },
+    "6B2378895BCC48AEB5D0E7EA6B70D626": {
+      "fingerprint": "eb6f024f026b8a14c9b85bbb89f32b8b149331423a12ecebfdd90e693cada59f",
+      "publicSelections": 39
+    },
+    "2E0BDF1117A9E8E28B95887851BB65EC": {
+      "fingerprint": "6f590257a042f568be7042ef2cdc25feff8099d7f46855cc83565997f666eacc",
+      "publicSelections": 27
+    },
+    "3491B0317F6A4084995CD331AD2C278E": {
+      "fingerprint": "b7add5e0f79d9be28c8ec520082c9efcef0e218af62874d6c9a337f22cd136be",
+      "publicSelections": 21
+    },
+    "81056F52133146DC9ED2FCA3A4D36D9E": {
+      "fingerprint": "101dc75a93cd748cc725d2a64c2f5fa428ae9d0a72c565c40a2f62dcb380cae2",
+      "publicSelections": 21
+    },
+    "3923920E5182EE6A6F0687657820B538": {
+      "fingerprint": "35925e339eccd38aa5601184fc3b39fe5d708e0fe6decc9ca3962de90e8ed5e2",
+      "publicSelections": 30
+    },
+    "C4984637D6BEEC4DAFE3870A9B894F83": {
+      "fingerprint": "b019a35bb34bb52963a62b29e2be368ffeaba7584823f99f122f17e9d44804fc",
+      "publicSelections": 18
+    },
+    "A93782333D92EAE03CD81416F31AA617": {
+      "fingerprint": "8d9de319579c5c3d7524a9a32dccb19c496dd434bd0134f93f1e0c59a1208b66",
+      "publicSelections": 46
+    },
+    "108EE115E5F8E2EBA9E19453C6181C23": {
+      "fingerprint": "02331ede5f1e17c73ffb7bdbc4afd3896207987a490127be44e016c351459a4a",
+      "publicSelections": 62
+    },
+    "0FA444A710AD4FADBE7A093449A77252": {
+      "fingerprint": "1d74ef4da1a2d6c898e4bb5c1ee66b3518356f6e4083e83cb7c76c0e497e2482",
+      "publicSelections": 177
+    },
+    "0905F934B5D4402E84FCD0F0E325E0A7": {
+      "fingerprint": "ef61fbefbe8915d93ebea63b52439e72e9a006cd76ffb854110847ee6c38ab0b",
+      "publicSelections": 7
+    },
+    "50E64D5F25E34797A55642F2919C4317": {
+      "fingerprint": "a859dd0547611118c2882b178345de876d3caf5ce3e046cd8f3a070d18cb2c86",
+      "publicSelections": 28
+    },
+    "D49918E5C4014E13A7AD43BCB1E89561": {
+      "fingerprint": "3fb0d023afd45d6b32cb6df42b92cb23f1d0b0c9254b0b134002cf4211112a62",
+      "publicSelections": 15
+    },
+    "183823600ED74219B463809E7A4803D6": {
+      "fingerprint": "72f864572069a5d53dfb56f4411cbb43962bc1859d20d0d2eba72f57ef4f3bf3",
+      "publicSelections": 113
+    },
+    "592F9B4AA5B5491F827732B4D4675681": {
+      "fingerprint": "2eed598ef1f3c938569a22a2089965b67551201da3e6f326a93c34322b7feb5c",
+      "publicSelections": 36
+    },
+    "3411B39633A8E7CBBEE7284A878D8283": {
+      "fingerprint": "61ad788e4c33de50571460687120004db15abb0c3a93b3b2512138f3d986017a",
+      "publicSelections": 40
+    },
+    "34A3FA09461A48D6B1F6B3D25BBA965F": {
+      "fingerprint": "004c73f797faacd68c4ba02cb62474189533757267ba4d7832e31493add6b5fb",
+      "publicSelections": 34
+    },
+    "DDED88E95778E61DFBBBA823FAF0AE38": {
+      "fingerprint": "3d523dc6ec4eafebb66ea58536f9de130ba177ada8a25a4cc115b19de8d16c90",
+      "publicSelections": 136
+    },
+    "0E72B50E6B2AE34489CE39A75BE041F5": {
+      "fingerprint": "039734958e978a8d9548bf98d748eaa264567f1473a998662c445ae19e6d9160",
+      "publicSelections": 2
+    },
+    "42BA11FC5FE24CBEA769298634A7FA42": {
+      "fingerprint": "ce81682a3df93543761b157fc78e9644d3698f9c4c1f002c8747ff573b304f71",
+      "publicSelections": 997
+    },
+    "2AA92E315F90E73014DE6159A4A9C633": {
+      "fingerprint": "1a67b1bec792a54c48c3f88e8bf2caa98dcd5a46314a2c1c1e40aa31f7c070e8",
+      "publicSelections": 41
+    },
+    "129EDBCF7ED2E0B8513EF2AAE612D9C6": {
+      "fingerprint": "428360c99ab254baed4bd2539254bead05ffcff1b75ad414dff38665b29dcb10",
+      "publicSelections": 13
+    },
+    "6B2E2534F05E41069B3E1A18F5B552D4": {
+      "fingerprint": "40eef7a0bc3e0955c3dc131e7b31918002f5aa17ef5b04da88b427e7145cb266",
+      "publicSelections": 217
+    },
+    "4EC3B48779BCE95B8D63B0C30835E863": {
+      "fingerprint": "6d9d34efad5c25f78a8df0e153660705db399acd9930c451fdee3f46c7fec12f",
+      "publicSelections": 10
+    },
+    "A2D5016F2A87467E87D0D1509478C894": {
+      "fingerprint": "8e6101b9703b7ea8c5b39ff578d1cfb3f3821ff4ef60546e088121a3bd3fe6d6",
+      "publicSelections": 87
+    },
+    "335D74632561E2EEA7E795D40A3FECE9": {
+      "fingerprint": "a14808c193893ac732be29836954c3212db34d35473e29794e49bc01f098a12a",
+      "publicSelections": 9
+    },
+    "1FED56E998B24C76A6E68CC456452598": {
+      "fingerprint": "008b52f1da7e7d52c220e5cc83045f390ecf15d9c4dbca4f2f9dd4b02fc9cd5e",
+      "publicSelections": 87
+    },
+    "F0EB2ED42499EBA2278AA145E8D4C11A": {
+      "fingerprint": "52f55f662b62827409b042876ea562cb72e87b5ca40b8be3c5dfbcdf8ec30e7d",
+      "publicSelections": 20
+    },
+    "1BD3D83CFE5BED467DA6187D16824CF5": {
+      "fingerprint": "9fa3597c22a9cf2d70931337ae1f8daae7ed3e87fdd6122a3e87eb9fc8347999",
+      "publicSelections": 92
+    },
+    "DC052035304CEABF417ECFC688C5A234": {
+      "fingerprint": "a7b23267592bd45cdcbc465baddecdd27f8244be7e316653bdaf8f58e0fd474e",
+      "publicSelections": 13
+    },
+    "633923C55D8AEAECA4874A15A969CCE5": {
+      "fingerprint": "3af6d2a4d2cd4afbd5307cc3d0bb985cc7ee430c46d12ebef9bffba26f0f1f2d",
+      "publicSelections": 20
+    },
+    "C01E406DEFE6475ABF35B7FABEA3D636": {
+      "fingerprint": "e8e838f3b4a8c2d90a96700fb09dee5b1e2bd8120e32533f96f9428940c3674b",
+      "publicSelections": 135
+    },
+    "E52E5452873A452AA14119AAB8CFFC41": {
+      "fingerprint": "5877158999378fed6366b891e6eb258cd3a32b67aa47d7acc1b24b193cef5ae0",
+      "publicSelections": 344
+    },
+    "B08DD762C73AED1C83EAE3215CED1D53": {
+      "fingerprint": "e1fbc01b97a79d09d811f737d0f826a55d4fcceb1c10c8a4b84cc21371c27e52",
+      "publicSelections": 78
+    },
+    "A801789EBB804ABB86C36BB8CAB50FED": {
+      "fingerprint": "f52a2b97241c6319c765aaa7a17e2115bd0b9940a1702d7e8d2c030742c99e0e",
+      "publicSelections": 173
+    },
+    "72E10246A92341B09224346EC3B1C47C": {
+      "fingerprint": "386fd002658c9219589ba51277d0e4b87b4d416a4752a0f1454d268765126df6",
+      "publicSelections": 11
+    },
+    "108A205E354349B7B235F2EDB2FD6A52": {
+      "fingerprint": "2b0d3b44586c003b6c2d53139f60795624bd4da6c04847c0bb8d62702c0fae5e",
+      "publicSelections": 33
+    },
+    "7BD7CC169D32E75C6079CAD5883AFA43": {
+      "fingerprint": "e7e3e85eba665312cecfba007ab676df85d9d32bf9fee70c7e801fef2f42f7cf",
+      "publicSelections": 43
+    },
+    "4C00027D22054CDE8AACBF0F817122C2": {
+      "fingerprint": "a0bd66e2a84c5677775711b19ca7bfda0f0214ab1df79a98a753a0a507ec3579",
+      "publicSelections": 65
+    },
+    "6D7204B00C3E4F1B99909ABBFDE53798": {
+      "fingerprint": "5825edd74c3674c8b07c54dd7d1393e9c8823ddf1a2b4d2d536cfc7e7a0f1cfa",
+      "publicSelections": 16
+    },
+    "54135CB53EEE434D8B77F1C91F81A26C": {
+      "fingerprint": "17d857f2993db17921b07e18d80353d8c519a42ab3c2d9512428e50a8097ef44",
+      "publicSelections": 79
+    },
+    "DD46AC953147458BAB7F06770FD865D5": {
+      "fingerprint": "66ce8919ab64df24d0be070f9e5deed904a3551c962b4c13509686df0c2c7f8b",
+      "publicSelections": 99
+    },
+    "9D3855920D804CC38601F6D85145019F": {
+      "fingerprint": "4a278aac3478516ed697d32cca790821eedf3d3a58483a2ee46cb2c194201828",
+      "publicSelections": 39
+    },
+    "93585856EDADED995488E210D42FFF2E": {
+      "fingerprint": "bdb4a7e29d0479bd110b81ca53b53f5f46a9f1502bfc34273d68c7e21b1713b3",
+      "publicSelections": 98
+    },
+    "042B3F5C87F541728495F9973A5F53AC": {
+      "fingerprint": "4f679e054f6b870540b83dde859399dc2822d34bf6a938784e3ac5f54c0b373d",
+      "publicSelections": 30
+    },
+    "924E29A008BEE398A06D6EE4C7284B14": {
+      "fingerprint": "8a916456304fbbdeb2704d9906a546ca0c546de36095fb2968e1192df73f5ffc",
+      "publicSelections": 38
+    },
+    "DB38CEAE0E40EAE9C4AAFC8ADE5D2C13": {
+      "fingerprint": "354075bd9320a2d722f0428d82ad65c6d43727fdbf26e74250462e97316ddbc2",
+      "publicSelections": 16
+    },
+    "FB0CCE58F8F7E6416F1C170BAB27C374": {
+      "fingerprint": "d42566fe45ddeebc5a37a828b3a044be5c52fbf2ea5a1737c7b13a02bf8308a5",
+      "publicSelections": 5
+    },
+    "57BF058414414E9B8ADC4026619BDFCB": {
+      "fingerprint": "5553fdfe8a1052a639626758b9cb59264acc32623d17185355e98809ce95cd7d",
+      "publicSelections": 20
+    },
+    "88066A5833DD4297B92D9E222AC2FDE7": {
+      "fingerprint": "95f1e97b357fba102a72de3e488edad227d20a0a0b64ff5b6ace910930a78135",
+      "publicSelections": 9
+    },
+    "8766D94FDC82E2B41C7E6A2CA0AE8C69": {
+      "fingerprint": "0d3ebc76d46bcffe6f114d6dfc9226439f0934e558bc17e3afac0e6dcd6d98b7",
+      "publicSelections": 27
+    },
+    "77E5DDB689E847A198C9D181A95A2B27": {
+      "fingerprint": "4ed1838e8f4a65862de736af6f81f2881a2dda3f0173f9b7d3137ee8b2f91113",
+      "publicSelections": 13
+    },
+    "83C2E82C31DB4115A3CDF5884D0CB19E": {
+      "fingerprint": "d347bcf3f59ec1bdcd6b329ed0776284cb87ec000543b21d2634ab72f3cdcc23",
+      "publicSelections": 103
+    },
+    "00BF08BD4956E5654A7316968B4444DD": {
+      "fingerprint": "7888687283397ebe7efb349bfe32270f69ffb23f7ee4792b0f726e7003c7d4a4",
+      "publicSelections": 7
+    },
+    "D941821F406B4A20B1E60AD343B49717": {
+      "fingerprint": "d8cc32ec49a2a2106c48bb6b1124ebef4a9ecad50e978493cc851e5a0f6843d5",
+      "publicSelections": 85
+    },
+    "C7CC32A1E2224C06A744204F2B89557C": {
+      "fingerprint": "8c78ab9aa3147ecb182ec188aa9e4813c0957318e9c85962a00c6b0cba62ccd3",
+      "publicSelections": 160
+    },
+    "193C91CD0633EC4761A43270D9F9E963": {
+      "fingerprint": "334ffe168edc10b6bd2cde7b500e6e1d5b28f4a07b8debf3161581910e1aa3fe",
+      "publicSelections": 36
+    },
+    "B550C93F4C28EFA9AAAACB38F0F99623": {
+      "fingerprint": "e2560d913308ba1df7e4e9689ca6771bf3f5b8211194ac2534cf84029dde65ea",
+      "publicSelections": 24
+    },
+    "B31B67349BA147D8A57CDBAF1EDE3B35": {
+      "fingerprint": "6baf9e200e7ecb0e0c8ec4bd1123b4053405587bb0c4cf58efb11b6cfbd545f7",
+      "publicSelections": 312
+    },
+    "40999490B5634E129BEF0B616CF2D758": {
+      "fingerprint": "558e26711a70e57aa917a172c184621a3c588b5e6648023ae2d7ede9dc1aed2b",
+      "publicSelections": 12
+    },
+    "618FD8010F10E760CBC53B05C0F1DC25": {
+      "fingerprint": "819db126f7ef6d27c36080f7e6b77ceb2c817e00c5b796720431269b7b9841b8",
+      "publicSelections": 445
+    },
+    "39795FE0FF8AE70BF2A0D5EF2720675C": {
+      "fingerprint": "d761bafc226c47fa842abf6f8e68e117512e8d571005a896e271aa054db3a559",
+      "publicSelections": 52
+    },
+    "FEC8373274E6EBEF66637D65D1974647": {
+      "fingerprint": "ffd767e440ae4f3237c4744511d150f8d3ab6a3c2aed90e628354d57a79316a4",
+      "publicSelections": 18
+    },
+    "CCF2AE9DD9D04057AF9F40C129F86467": {
+      "fingerprint": "a87cbf8b9ebd9b7c692144ae9009529bfe6d2f31a68874a89a3d0446f9ba2d4e",
+      "publicSelections": 87
+    },
+    "2AEC483F2F894D19A2807A453EDF46DA": {
+      "fingerprint": "0d56d5135f63df04cbfd4882bc87754b50004ae2f69cdf0a9ff35e3908c5dbc8",
+      "publicSelections": 91
+    },
+    "EE2AA5032CD445FFB209041F23A8D80A": {
+      "fingerprint": "b06d8fb8e0e994a3e6062c8d7385692611e4f7d4e3c5db090fa3cab101e71b4f",
+      "publicSelections": 18
+    },
+    "9FA6AD866A4C4579AB7D06AFE744DE67": {
+      "fingerprint": "6a2090c76e09b531e77efb02d9bec92460be408b2d23b18d07ff32e5981d4101",
+      "publicSelections": 14
+    },
+    "19377C1C79EB4023BAD88C9FEA93B741": {
+      "fingerprint": "2450132f7786323cd49aa51d8353b7f679835b45f83d149674f59cdcabecdf1c",
+      "publicSelections": 162
+    },
+    "4A93A1AFA0B44305BB29CFD7BF83CFC4": {
+      "fingerprint": "aee3f58a19977aced17036c08687cf23bc78510300723056c14b62b5f8373a38",
+      "publicSelections": 52
+    },
+    "523CD2C496054AA682E01449BD6EE537": {
+      "fingerprint": "d580fcb64c8a4b193dcb35f1bd3e546c925d970145295bb7634e23f5c7210c7a",
+      "publicSelections": 21
+    },
+    "DAE90333756E439B9E3B55F9D3EC62CA": {
+      "fingerprint": "be630742d6a77c37d423af31c3838be45dd31b6f771a29ef76e226d6d574c4bc",
+      "publicSelections": 36
+    },
+    "8B1D9153E2094E73B802A8F5BA05D083": {
+      "fingerprint": "58ce846a2cb3525a302da3cf7fe9b53d184596b3bb9e7a6d930966c7f3058004",
+      "publicSelections": 38
+    },
+    "69863262A551E3763501D5846A98329B": {
+      "fingerprint": "bb016bd1f54dbbb9324ba7334d269d3c09abc5be53baf279f9207b4326a18076",
+      "publicSelections": 245
+    },
+    "3B57EEE27265EC0B9258A2C095E271E7": {
+      "fingerprint": "f61ee0cc6300403c11d1f914b8471775fc80516146a22e1859a51d17c4b75237",
+      "publicSelections": 30
+    },
+    "C470397E9BCC44ECB45F21E1521E18C1": {
+      "fingerprint": "b11edcdcb407eaf3d788d97e57103cbd18f6654967265d8f089b6207a2df0736",
+      "publicSelections": 86
+    },
+    "9D9002D8700F4A2D893B0869236D586F": {
+      "fingerprint": "f9275ea4b3928ee221245470e0ccadfc59bc65e2bd50b99cc9f50fa1173d1538",
+      "publicSelections": 82
+    },
+    "A867E142C1FC454488A95DEED1B39E95": {
+      "fingerprint": "eb7a6091fcd52fa42b340034e547aeedbb8cee9ccc6cbd7dff5255910790378c",
+      "publicSelections": 187
+    },
+    "3DE707E957524AA9917CF7260E04198D": {
+      "fingerprint": "c06becbe14372dca00f98698dc1ad55ccf0e6d618c640eeb54aac6e2516650f5",
+      "publicSelections": 26
+    },
+    "55CE96F733184F5FBA91482E85085853": {
+      "fingerprint": "649a9143ad26bda685a4dcf82356bef04bbbd2d036f2adc100af341698ff12d0",
+      "publicSelections": 458
+    },
+    "BCBBE51E0C534AA7A0EF24D3B5C199CD": {
+      "fingerprint": "a44dea127056da99c1f5739d1589b5bace4b8d4f508ea0302fc22e9067a0513d",
+      "publicSelections": 16
+    },
+    "476749D229DA473E89464763E1955D51": {
+      "fingerprint": "67e24f78538fc7af4718f333e37139d3a2b37466e5af63897a0e15b08b2b79d8",
+      "publicSelections": 46
+    },
+    "B71A5AD3EFDF459695EBD1C1B11C18F6": {
+      "fingerprint": "3fd26c85730de8670f4008fc81cbd5e88c4e534384e030046cb6aa11336750d0",
+      "publicSelections": 11
+    },
+    "3C7DBDDAC30A4CEDA9AF6EA4D195C374": {
+      "fingerprint": "541b9d4ea987c104dc8a816e4f111b9119c091d32598c2a430210993a658aa7a",
+      "publicSelections": 110
+    },
+    "EB1FDEB2D7B0ED8972715774FF0928FD": {
+      "fingerprint": "28b15e258d3ccfddf6a21133549cf2b0912bd9f565bb9a9f4d933a2c608ef247",
+      "publicSelections": 3
+    },
+    "82A5773ED5884220A919FDF77F608B7B": {
+      "fingerprint": "42d32181f980749cf2950544d7333b4d932c57836f9bfbf8b900de45d64346b5",
+      "publicSelections": 101
+    },
+    "8143807DA046EA3DD9AFADD97E824E93": {
+      "fingerprint": "034c98d3194a223250dc38b542277766edc1d8dcb4e080e4c8282957e53f89d1",
+      "publicSelections": 130
+    },
+    "8CDBF5DFF3E24FB1AAF00AA7099BA2CE": {
+      "fingerprint": "2b3c7566a5abefca3d1e76173b50feae02dad082ad58955b34c498295e09e5fc",
+      "publicSelections": 40
+    },
+    "4CB12B78171B4DC2A79D934CD45898C5": {
+      "fingerprint": "6778391d7f23a4b4b3e894734acb0dda8558feebe5528c091039f79047f357cc",
+      "publicSelections": 73
+    },
+    "80A27A174ADBEBDDDCB2D427A7812EEC": {
+      "fingerprint": "b8922a674f02ee53b291f0df859dfc3a5c656cc47969584ead0dd2f6d163ee5e",
+      "publicSelections": 12
+    },
+    "2A6D62207284EAED0144C1FDBFABE5CD": {
+      "fingerprint": "eda5b0c415f615710eb5136d8f57a4afce67c001f4ecb71d34f1f84eb2d9443f",
+      "publicSelections": 51
+    },
+    "D9EB77409AAAEE3EEEBB51E542688C78": {
+      "fingerprint": "a6681bae5c5618cc047c2a1ea506add1891d9424d2adf4f64d4d596b17527042",
+      "publicSelections": 1267
+    },
+    "CC665A6DF13F47FDAD2C8D96DC8A012E": {
+      "fingerprint": "a20205c27d8fa5d987aec80972295ca0798bd8782ea6cf56d448ba68319fb259",
+      "publicSelections": 9
+    },
+    "97D363B457A646108D4A51A115461DA8": {
+      "fingerprint": "8016ec3890dff215a8219ce0fec62221a9eb6c08c75a35a8e8c690ca1c1ec35c",
+      "publicSelections": 56
+    },
+    "7D29F9186A9D4091811A4EA61499CEC8": {
+      "fingerprint": "c1f784d76a9198b2ba77b67c82b4b15d35bc4e0eb9ebcc3be0a653f2d200c374",
+      "publicSelections": 44
+    },
+    "A0576BEEDEFBE1D30BDBD486E037E8EB": {
+      "fingerprint": "3fcf860aa47312b6935dcd8379736212c74f07eeb67531a3a65fc4933a2f098b",
+      "publicSelections": 50
+    },
+    "7A570AC34964ECA1A57B62D65E2D5D29": {
+      "fingerprint": "e12cbb781d53ec3c43884ee63460c0ec593300ffc20c8c292910f616582d02f3",
+      "publicSelections": 75
+    },
+    "6580A1098A7242F9B29D4916F5B4F414": {
+      "fingerprint": "7ee0f452fa79a0d913d8ab81446fe8a9cdd03a2de1de69bc2cea43185d83767f",
+      "publicSelections": 20
+    },
+    "B118E279E521421DA6DE76C3D326B7A6": {
+      "fingerprint": "1435e06dcaa7dd31ba655b225ea6ab748e1596f72d48d317e850a8c3973b7421",
+      "publicSelections": 67
+    },
+    "034E6E7433614B24B4A7683E29D0C241": {
+      "fingerprint": "74db2cd6c528574ef4bad588630b00f30ab315a0328ca20db0ed0041f5f31693",
+      "publicSelections": 73
+    },
+    "5DC49AA51AAA48EFACCCC2272661585B": {
+      "fingerprint": "a64f0240eef8b8c04a3f6080039727ddda717e6de5a995aad8cd61057574618c",
+      "publicSelections": 93
+    },
+    "78DB0A81C7FFE1423784B68876BBD5D4": {
+      "fingerprint": "91359d8bf593e2f5fd61d9f5d58f0d00017d0dfa51625ead1ffb94afca7ef5d7",
+      "publicSelections": 24
+    },
+    "05E420B98BD2E4B67D13B89EF7D1AFDF": {
+      "fingerprint": "4bf47e868eacc4eb8644d753c2b5753da9434c40cb64088b88f8a712087cda34",
+      "publicSelections": 3
+    },
+    "7A8829E6EC2442739DC33E5133C1D8EB": {
+      "fingerprint": "1fafd35a6cc790d0e1d433aa35ebba8a3843d33eb783ac946afc353bdba20864",
+      "publicSelections": 15
+    },
+    "FEC1A5C44287454E9CA7BCBB4E5EC15C": {
+      "fingerprint": "347c05ae238d3cba841fc88fdfedad8e35c62abf13b75272ef56ed254f31bca7",
+      "publicSelections": 31
+    },
+    "DA0726CDD9B147D4BF61D51E98631079": {
+      "fingerprint": "d4c0724327b19d21b541d668a408eb45163acd06abb1407d5e196828574e712e",
+      "publicSelections": 11
+    },
+    "AE0799C6978C430E8B793BC7101E1A12": {
+      "fingerprint": "5c8cc4c62347bd92d3a89185247d4b2b5ef4d624cf60271fd56e1ee27e1c8d66",
+      "publicSelections": 58
+    },
+    "E9694E11B244E2587DE1BB0F8D416710": {
+      "fingerprint": "352e7caa49cb9d226c36f2406f553a98eab4e7119976f106c4d87d947b955b35",
+      "publicSelections": 162
+    },
+    "4FAFE46E3FC7417BAC3D18A3C7D260C2": {
+      "fingerprint": "3f7bb1464a50956045e43c8f3de93fe9adb4b0a96c423f409c5309bc1f46b438",
+      "publicSelections": 106
+    },
+    "9F5C99BFEC18E75332DC80B41D791C09": {
+      "fingerprint": "db9c93c51e7316fa88c0f749aa2dbc456584c13fea4851df9a2e581d8300c7cd",
+      "publicSelections": 6
+    },
+    "BD6AD7D972DCE3881CF23778EE78C347": {
+      "fingerprint": "ba4babb58bae1d00be2d4d103c156e8bf8e31b612b008d315098006d51608640",
+      "publicSelections": 42
+    },
+    "9F73D0D4B3B142C4AFD0C88C471AA8EA": {
+      "fingerprint": "e554ddd1c6b8fdce8cf5ce21266e9a73df89c45e630c56cdcde22599c3bfcdee",
+      "publicSelections": 14
+    },
+    "2D710809ABBEE0A86D74432B30AF72EC": {
+      "fingerprint": "d1d447133594850502a66c2352d018309a1af65f5c049dc31b86f6fdcbc3c3f0",
+      "publicSelections": 11
+    },
+    "7F59847655ADEAE2D09CC9CC9F5F4DE1": {
+      "fingerprint": "e7b9a64ce41fadb29bc4c2519bd1b1bce0d51a7d0231c5293708354b57707407",
+      "publicSelections": 50
+    },
+    "B1D5DEBD4BDBE604BF563353CF2199E1": {
+      "fingerprint": "e6a269e92d501fbd5f3e6abbc2277ca26b7b86f718530916ac825449748bc671",
+      "publicSelections": 250
+    },
+    "1B9173457DB3E756B5CA9F035EFD7CC9": {
+      "fingerprint": "b149e2ab4b86bea6bb4f36ec63891fae14c886b60a4380c037e39721993e6d89",
+      "publicSelections": 112
+    },
+    "3E0F43FD317AEC54131AD435E2317B05": {
+      "fingerprint": "6a7430fa1e37b417d66384fc183faf5508eee83fc2010288c884a7067b494e0f",
+      "publicSelections": 64
+    },
+    "549FF19A14C34681BDC8A37E58CDEDB8": {
+      "fingerprint": "2346c8acef6245d7a14fcf983e7fc61775874080a99cb366d9037f6579072d76",
+      "publicSelections": 10
+    },
+    "8C309A3E20044543A9A72F36981F7D2A": {
+      "fingerprint": "90242b667ccf8d52732ee691b1d4e64bc25f3d75f8a32dadd040ca8fb51b88d1",
+      "publicSelections": 425
+    },
+    "B34A98AB07FA4A878A55CB4FA12363CC": {
+      "fingerprint": "cda816399677b8a998bc6af500dded45dea3fc136bc4c0838480d198e7f02bd6",
+      "publicSelections": 46
+    },
+    "F2018257FF444B239E26ECE36E0BBD84": {
+      "fingerprint": "52126da54720549bcd05e5aeb4b850b5564ab0498913464e17aea195b2f929ff",
+      "publicSelections": 17
+    },
+    "48DEE65D2ED14EB091B457DDD6377B17": {
+      "fingerprint": "0e2171a969baa381713a40643f43584f09a1c11d433e2439e2a200db790e601c",
+      "publicSelections": 65
+    },
+    "157B1606343947178806DFE21D30B32B": {
+      "fingerprint": "7e1f74a343b2ca8f66b84b7b952cf2388409e93637348926e09b9989f59d91ca",
+      "publicSelections": 56
+    },
+    "FEC681A8D62B4EA3B73B57371D4A34C7": {
+      "fingerprint": "ab9af7c1088f9fca3bb266afa3745da523fb48f0c57c618f2f7cc4364f730ad5",
+      "publicSelections": 35
+    },
+    "75A9D94E0E8246BB9A1ABA6AC13D6E04": {
+      "fingerprint": "1a4ac5b6e7615a5a6f6e0099697462f12d32f295e1240afb486a39b4f4f34dd5",
+      "publicSelections": 13
+    },
+    "D91EA8A9A1D8EBDA0B482B71D1923543": {
+      "fingerprint": "c7dbdbae9a89bb34de8f337ce8d4d7e26347fe5da1e4644452a6f84fe13d72d7",
+      "publicSelections": 4
+    },
+    "930E4F8D8225422881E16A841A80DE02": {
+      "fingerprint": "6554c2b00a5daf892eaa506070cf842015d0316136c9c2ed245721fda31f63a7",
+      "publicSelections": 28
+    },
+    "503D834854BDEB5CCD97EE019214285C": {
+      "fingerprint": "0010636fb6d6946a338f3857dd2023eb203e628a15290410105e1426b4101d33",
+      "publicSelections": 12
+    },
+    "FA54B06FDFAEE43C8FE0DBD8E1679105": {
+      "fingerprint": "b39b1977ebdc6e67fd8e9a8f99b30dbbe189f88a9d630b47b35e3296a1f9e85c",
+      "publicSelections": 32
+    },
+    "210D276A06CCE27ECA75FDC0B8F5205C": {
+      "fingerprint": "27574b821a575d48747e5a52399c7c1f2d39853f6510241dc3f925d3593338b6",
+      "publicSelections": 40
+    },
+    "4608855BEE32ECCA93D8AEDDC59A08B9": {
+      "fingerprint": "189b74500c569a36c26e2d896c6ea196410e1f16af730243b0d981f30d05c28b",
+      "publicSelections": 18
+    },
+    "EC85462E1B8045CBBD2710350E2D29CD": {
+      "fingerprint": "3ef2232444b65115df07cd4238d2eba72ae03fdfdf8c1887a5fed4854a401a42",
+      "publicSelections": 57
+    },
+    "FE8395896269EDE56E9A05BA5E15262E": {
+      "fingerprint": "5ce287b6e7712d33a96e966872bbb2a664c938314c81ecb9ba56369ade940970",
+      "publicSelections": 62
+    },
+    "A3B4B220998C46ED868D97D28B10F856": {
+      "fingerprint": "f4e90c7bf147e1973655c81b4ea3add2b7bb12d8af607eb71fec2d52bf56ee9a",
+      "publicSelections": 60
+    },
+    "654F0A9EF8A7EEFDC749F4577396E5B5": {
+      "fingerprint": "5f3881de4e1c797a97181ab898eecad34763225f79c68021de99c233de4644b7",
+      "publicSelections": 55
+    },
+    "8EDE6B0C407DE4EE770AB1CEFF0BCA15": {
+      "fingerprint": "558f257573d820bb496c5e012cb659ebddd2ffe9ace0e48b76d90ca10e37adf1",
+      "publicSelections": 22
+    },
+    "236E360BA2B3E9C4DB95B63DD7CD0BD8": {
+      "fingerprint": "ae316aa1c1fef4d9aa1b7e449b6cd466a6501cc8a5c7bfcf757e14c189026407",
+      "publicSelections": 8
+    },
+    "E9ADCFE0C5C74BF7819BA274BBF6D654": {
+      "fingerprint": "c80dbaf1d4c0a6ad95d2d6e853be0fe4eacd2db0eac74ffd0f81dfb0b476cf5c",
+      "publicSelections": 5
+    },
+    "9224074A0D154DCA8D3FE6E6AB21DB6A": {
+      "fingerprint": "7bca00c0f705bb7d0bef078ddc853f96cd4b3d997f943e910c8c2d92166b65a2",
+      "publicSelections": 11
+    },
+    "1A971A1344BAEBC011C3866BFE27B179": {
+      "fingerprint": "de3295fa8cb2e4cc04a2a87853888e3cdf9ae85438ba13d80439daf2f554f839",
+      "publicSelections": 70
+    },
+    "64297813E037448AB17A91940A7008DE": {
+      "fingerprint": "aa3cb756722a948753dce4a0d282f91886ff35eaacfe919ae027ed6b8c1566b0",
+      "publicSelections": 2080
+    },
+    "7AE1A354F2A3406393A8279C473B7B9D": {
+      "fingerprint": "5e6ed11b86347621d93a60a404a7ac63f18f9049e42979e150b3ee29f0b66f3e",
+      "publicSelections": 75
+    },
+    "3BE6E42E9BA44C61A8C86EA2B6F82BEA": {
+      "fingerprint": "7550513dffc38794c05a4bb806eca95eaa0f53f3cea21d71bd58cde6113a13e7",
+      "publicSelections": 54
+    },
+    "E928CB27776B41508EE8B5DE01F40D61": {
+      "fingerprint": "3badd67a772f08c3f1695fa74bb38f82107565047f87597c971887427b1c917f",
+      "publicSelections": 60
+    },
+    "7E47D15B29E2E0A0D13CF981131C65BF": {
+      "fingerprint": "b6570e91aabe8ea2e19296be68c6594ce8f77b127a039bf85a75343b178af79e",
+      "publicSelections": 49
+    },
+    "48621AD544B8E82577AB10138F095714": {
+      "fingerprint": "54e8b8ad05f582d98aa4d2b607dfdb3adbccf637505d4c1c5240a8c0c1c9cec8",
+      "publicSelections": 22
+    },
+    "DA67DEF4ED6E470BA9C5A666A3697E80": {
+      "fingerprint": "27088963e8f153e8e0e39c4d7add58bad9cfebe43acff32939cf55d272484804",
+      "publicSelections": 33
+    },
+    "9418F5521D7B489CA21A536FB126B118": {
+      "fingerprint": "f2647e0aa701b3cc8a6bef6fec97de97eb3700ae0d4745a35873f8bf68701d70",
+      "publicSelections": 1257
+    },
+    "C213F67401F9445F8429A5F2621563E5": {
+      "fingerprint": "aff03f55cd4f164612974083a2551026cb6723a2f2fd6f63cab2066168f08b4c",
+      "publicSelections": 16
+    },
+    "7CD2FD413A26449884C53C73A2482877": {
+      "fingerprint": "3afd6033f96144c20efff866228f271d75aa3eb13ea945bf8af06d6927007bd3",
+      "publicSelections": 126
+    },
+    "A25CD3C8159CEB118B7B8E04471AF21A": {
+      "fingerprint": "8b21a2048a4924517f8effdad51014ef9d3d058eb3a56d2bbef0b1628aff4be5",
+      "publicSelections": 42
+    },
+    "91DA577AA068EEADBB6D0F598A93F0CC": {
+      "fingerprint": "cf241528a378d4c55b62b386a53700e9f517cec9c082fd8a475c5f63fa2cea94",
+      "publicSelections": 9
+    },
+    "25A32FCFEDFE4DDF82D196BFF21A9DFC": {
+      "fingerprint": "7fccce0d57529133279cb1fb9ef48f0e3c4fda4cee89e4afe4436c9d1c6191aa",
+      "publicSelections": 130
+    },
+    "14BC9A91715CE69B9FADD0DC5735323F": {
+      "fingerprint": "d2b53bc060a09719215fca355c9230b234b7411e511c9063ccc05a3622dfe665",
+      "publicSelections": 1941
+    },
+    "C607ACD036BEE32B103A75FD10883CF2": {
+      "fingerprint": "2c226ba8894402fe0a8e9f994f5c22342097841252f2a7ee0607c6ae8377d6aa",
+      "publicSelections": 9
+    },
+    "F8339A44D4ED49B8A05EF89719DBCE80": {
+      "fingerprint": "daa57d80b1e63faf9c2c2eb692937ab65b92e577a21f71e00859c91d830cb373",
+      "publicSelections": 188
+    },
+    "48768953025E40D1B1F978FF61180A24": {
+      "fingerprint": "2cac2c57f5df8592e769c5aab42c9c8f0a3c230a894c06d98967912f7c2ca20f",
+      "publicSelections": 174
+    },
+    "A3B6DA84931BE1A9E2A91755E047538C": {
+      "fingerprint": "68d2499b075ddc77e671f56d7cbc454353b07579aebd5aab37fb8499ba163715",
+      "publicSelections": 139
+    },
+    "FC432E0A92F54E1C92D817DB8FCBC332": {
+      "fingerprint": "4733da177d85c6c7c11434949a4f8ca087283310d13d5e4ee21ce3a01ea28107",
+      "publicSelections": 23
+    },
+    "E0C67E8BCD98E16FC59F299D4772672E": {
+      "fingerprint": "36a53a546d96b062d0b8c53ef3e7c8c1f1268d2cd3fe66ae1e25b0675415b450",
+      "publicSelections": 10
+    },
+    "219279DFECFA48B88656EECEC4290CA7": {
+      "fingerprint": "664624190197ff4787a7a3a4d2ef4742aebe832e6944503f7fb2c5183d5571f2",
+      "publicSelections": 162
+    },
+    "48B550F0BB80EEB2A03AF8999B747FFE": {
+      "fingerprint": "b437c46f0c66e5451d69bc461e5f3957a59deb8129d01ad01cf3420779cc9a98",
+      "publicSelections": 39
+    },
+    "790E35DDA6D9EA7C9052453004D7161B": {
+      "fingerprint": "27458697db5e13b46f56039cd41acd9bb9351597e4c462a6fca59404fe46414e",
+      "publicSelections": 10
+    },
+    "11125D8F1B304196A35D82E2DD0EBFBF": {
+      "fingerprint": "95b9d854f421d867b0a4661e4da9267735f2745248c66f2ba608407bbebbbb2a",
+      "publicSelections": 6
+    },
+    "A4A06D2046A34125BE345C7E50F25812": {
+      "fingerprint": "810876e04db585183a40f17472a6144e8311ce2001ffce87352e58b155c7fa7e",
+      "publicSelections": 139
+    },
+    "CF1F45263A44466C9655EE1714DE1B33": {
+      "fingerprint": "51a6053b5a0c9629be553f33646611e58aad61bab9653b5b520e1950ad0ed3dc",
+      "publicSelections": 62
+    },
+    "E7BFAD48788E4AFE9B6EA752F7671AB1": {
+      "fingerprint": "1c72596af0ba138cef0573f62059d2dec8450fd52e027322760bc986b8f2391a",
+      "publicSelections": 109
+    },
+    "F9C794BCA51BED7F0C2DC8620BC743F9": {
+      "fingerprint": "f3e772f8e833df56a5a7db98ffff961599c0807b7decb0cb2dfa1bf70a23ee5e",
+      "publicSelections": 48
+    },
+    "4CB7B206ED48ED717EB75A017F7D6FFF": {
+      "fingerprint": "2d76a29c5cc8e97ab1027f38ee9339fb9a4b75bff19e192c6da0932071556235",
+      "publicSelections": 10
+    },
+    "3352E8B99ABAE6574A08BB29E7109D71": {
+      "fingerprint": "27433feff7cdb391eeecbe1f8081306a0eb2226fdf7cf15e3a7e906ed4afbf54",
+      "publicSelections": 4
+    },
+    "5074FD02BF4C47E68CE9773D10D7AB7C": {
+      "fingerprint": "9e8c75f5a77ebd4460a75a95ae15ae2eb3769aee433e645666e2e8cf01f7033a",
+      "publicSelections": 14
+    },
+    "AC28DBB6808BE947DE1EE25ECB14F544": {
+      "fingerprint": "2d8e526d02a8b69e5e1e80392f1804a98fb7a0f857d72ce316f326cab76a5862",
+      "publicSelections": 68
+    },
+    "50E10CB3367945B283E91F7CC23BFD22": {
+      "fingerprint": "e74c21b3f7450c0edb0c0ee87bcedaa94fdcc03b6f8bab597d79228fc27649ab",
+      "publicSelections": 65
+    },
+    "2D12EEDFF50D4948A08373A17486D04A": {
+      "fingerprint": "263abe61021e1d8fa4661b2bb12a6bbe348bcdcf7fea2068e283a6a4a8c78bc7",
+      "publicSelections": 27
+    },
+    "797723473B3647F38FDE65C86DBE2669": {
+      "fingerprint": "fd16403fddcca740157d81b87aa0679bdec0220e05b7a06d2df27c1eb86a0f70",
+      "publicSelections": 29
+    },
+    "AE513863B45CE049600364AD783BC0EF": {
+      "fingerprint": "edb852616c22273802bd6048a4fbc1e17f3fe108f17f7ad93a782248b2a9e885",
+      "publicSelections": 114
+    },
+    "6ACA0A9D5724EB78D1F8FF7F8B25248F": {
+      "fingerprint": "23f72211aeeba4d94557ecb115b980c95c35dfb1feed7e62c95775a18940225f",
+      "publicSelections": 12
+    },
+    "AD7F1E7F696842D3B9D7E108934676B7": {
+      "fingerprint": "992742a999f7c8df2b0e47731224253a35705290aff50f6f5eb7c5d7a6b33fb5",
+      "publicSelections": 57
+    },
+    "07D20A3AD4B944BD8CF60BEE1C34CE61": {
+      "fingerprint": "18bc8cc2a816084d02f79274d8a2c6406e8b891d7fa5cb3a515f4cecd15518ed",
+      "publicSelections": 33
+    },
+    "9BFC206319554532B734279F1627E279": {
+      "fingerprint": "061b7bd228756588da0ebf96c5b90bb068e377890aa8e57d71e81cba7db59548",
+      "publicSelections": 11
+    },
+    "4A0212925E1641028AE59AFCC9784431": {
+      "fingerprint": "9f885f957d65e81821355119bb4f5c9808380fa1b9a995c5af1f257603957750",
+      "publicSelections": 53
+    },
+    "C306A880A1774D0FBF02956CCEAF45FF": {
+      "fingerprint": "b55eefd554cf8172578e3e6a367958e2a5774d1f9d289f1517b0a62711af4224",
+      "publicSelections": 42
+    },
+    "1D83C2845EC949C38F5C60A09DF26805": {
+      "fingerprint": "a885dd5ad1d3c43785f279d54359b756730d2c08b5d7aa8546d7e524a9afe825",
+      "publicSelections": 5
+    },
+    "D03BB2731AA9495289A5738021BFA48E": {
+      "fingerprint": "9669c5673bb1d6bf861eaa8843c5a74dbd88f45ba78877adf7a2c8106bd19be9",
+      "publicSelections": 117
+    },
+    "80687FE0F2F74ECB82AD3E83C0CBC790": {
+      "fingerprint": "a2a302eeeba429b93a0403933ac79b9fd0a70711c87a5015d61e54fc901d8793",
+      "publicSelections": 148
+    },
+    "DF5AB62FC672E0C0F4E413C12B784E5E": {
+      "fingerprint": "aef066deb23f70d2d32663ffd68d15d40ff830feca1e90e69348565306d153eb",
+      "publicSelections": 37
+    },
+    "8867A9B4875C48BB846B800856E218D7": {
+      "fingerprint": "cdac986d61617ffdd10f4112e7f317719853b866d3808fec2c1a9ddfe9e3f6a5",
+      "publicSelections": 177
+    },
+    "379BEFFCBC0C4B9683034D7269624B3C": {
+      "fingerprint": "0a951dfc5469499a2ab56763491d767e0b8bc076ae0590fa1820942ac4946928",
+      "publicSelections": 2877
+    },
+    "D311B27723C741DCB7348644B473637F": {
+      "fingerprint": "7f803673ba96e57cfce695e8683fcffd49b691f67cd105bdfc06129654381ba6",
+      "publicSelections": 47
+    },
+    "68137F318C6144AAAF17C8290F33061E": {
+      "fingerprint": "331791d15ca9dbf729a461e0fe7b3e298f66f2f305aa5525271c129b27375d78",
+      "publicSelections": 48
+    },
+    "8D2A3C574FE5EDD77156FE2FD3CEE657": {
+      "fingerprint": "44ce93884c1f080731e24de91695c52c2d944696ff1285ea3c327e531e5f96f7",
+      "publicSelections": 25
+    },
+    "B996EA76F6EC401A9148E1F0507C179A": {
+      "fingerprint": "71af368a5cd9d6d09b687d659c4ce317e8230d123056c1affd306440d5206152",
+      "publicSelections": 103
+    },
+    "5F8F9C8FC270E02F85790BAA9EAE1BDE": {
+      "fingerprint": "c5dcad7dbb15a512374b0960f490f9486afc7d42fc14ea90a5c9bf354865648c",
+      "publicSelections": 26
+    },
+    "43F0402F0B1F4706BC577B7A7A79BFFD": {
+      "fingerprint": "b79fb59833fe08c5254cce07e52a92acaef776a48a1187c4b74514300c17e159",
+      "publicSelections": 42
+    },
+    "DA23248649CEE53DD015F93A520C3B49": {
+      "fingerprint": "1b41ae896e4f47105ac7c4ca8ad7c0018ce5707ca63df0dd0d54c66d3c801f2c",
+      "publicSelections": 20
+    },
+    "0CA85F9D98D4467C8454CE42CA5BB10D": {
+      "fingerprint": "74504f2611c30bf85350ad66add2b0bf954852543e374bcd7ecef8df5cc27750",
+      "publicSelections": 268
+    },
+    "6DFF61AF1A174D40865772C3AB40FF7E": {
+      "fingerprint": "ae63754d63aded414af16219fa0cb4ae756bc1c1bc1dd1df2732f2940d8171ba",
+      "publicSelections": 2880
+    },
+    "2C48E4DA524C42328C7C0ADBBA685C0E": {
+      "fingerprint": "0b15b2d5154d746630ef25f3063a99f15d935495b634e700ca990b32c2dc7a8d",
+      "publicSelections": 22
+    },
+    "26BFCA2FC4E44906BAAB903F56228AB0": {
+      "fingerprint": "23039477f829417ef3c36236f1aad20f2c9968d3a060103551eeb81c93a24d0e",
+      "publicSelections": 18
+    },
+    "1DECA0446C2D4E74BF311F15691FB7A7": {
+      "fingerprint": "2815b93abb20f6c6fa18952e96c35b8bcc1795fd563d5fa4c43cfdbaa02878a6",
+      "publicSelections": 61
+    },
+    "D976C103EF6FE9FEFBD2EB9D09BC8863": {
+      "fingerprint": "37eb3f24616f696fd7498c1f30017511c14a237cc1bd5cb91e97b23c21b2dd0c",
+      "publicSelections": 1
+    },
+    "7224C128FE3EED201628A9AF51BCF757": {
+      "fingerprint": "ee0a2b3ec6ea251155e9c8eae38a2d5028ffea6ab436709bfe229258e1d232c2",
+      "publicSelections": 36
+    },
+    "4657EFC24412422099AA26E26F483158": {
+      "fingerprint": "64e5a93528d310844f06e55f775ad2e9cb48507900f21bd8335d24f3e3317c7a",
+      "publicSelections": 24
+    },
+    "BB047A0483F7446F98969E0BB0A9A2A0": {
+      "fingerprint": "6d722881ef864cba933427d699b0f606a356e7866b89d7c4d15ca29be373a7d6",
+      "publicSelections": 91
+    },
+    "EB5F4540A0394BA99D1146B7A7D5216C": {
+      "fingerprint": "395832b62da90a925734946b17a22dcd594e16ded945b257d58e35cebb0cb240",
+      "publicSelections": 13
+    },
+    "5C9B2EC0371C49F7A3566365EC1285B8": {
+      "fingerprint": "87192161d9670d09664eaa7742383486283344db995628c10cf31cda9f375b1b",
+      "publicSelections": 29
+    },
+    "BFA8DCA4C0C24066BAF0F869C88CF522": {
+      "fingerprint": "6acb194d3b6494deb56375dae029f3e8bcbc7eff5b5a7e251af8c3ed5e35bcba",
+      "publicSelections": 31
+    },
+    "1DADF08CF0244AD19C8296CF92A08546": {
+      "fingerprint": "f56721453bdb25e21e665ae6993c5bfaffe32424236056ed45b169da9e7b7d3d",
+      "publicSelections": 22
+    },
+    "EEEFCF8268224145B6028CD4848913D1": {
+      "fingerprint": "6a0bc8e8073fd2bf029c36d939534dc8662c4f77f554c79715e09678e792360b",
+      "publicSelections": 51
+    },
+    "8E30B938D8A9455F8C4FABC5769EBBF4": {
+      "fingerprint": "a826cea4f5a71b772478d9b05d53dd8d3d04314187893b49c8446c7f0a1ca925",
+      "publicSelections": 49
+    },
+    "9205A8E9160E4C7B9641A2DB4D58E877": {
+      "fingerprint": "b4a3c12315d7275254b1e80c774c17887256f51f7e81028fea44f4c74faa8b99",
+      "publicSelections": 23
+    },
+    "4527819F4272482F94777C3D36326FD4": {
+      "fingerprint": "b9b045ecd6c1dd9e1eec2e0790061ebe51901a0135ef40cf7aec1c7e4ce3ef94",
+      "publicSelections": 439
+    },
+    "93ADDD447B4E489DB8D200F294BCBEF8": {
+      "fingerprint": "598f7ad2ed36676b066d56ec39623bddb1947cceba8d9c6bfbd2ba97866cc8dc",
+      "publicSelections": 27
+    },
+    "7BE0AAF756CD4A81AE847980637B8C7F": {
+      "fingerprint": "65a264445b2fd989a899b7a041c850f17fec1e84820e57b322a65be265e32b94",
+      "publicSelections": 34
+    },
+    "E003A2891F2142D087E529A04B7BC8F7": {
+      "fingerprint": "560eae6d6b94a7981b16874bbb3db2bcb8555a74c08fa87e7849780538bdaac5",
+      "publicSelections": 5
+    },
+    "2A60928585F2ED134ACCA47EE14C6A73": {
+      "fingerprint": "930029db33ce8811f50af1116a3676989d162ea06f64dae1242a3a0a91b70499",
+      "publicSelections": 119
+    },
+    "B8ED66ABF42C4C94B1950954F56B46F0": {
+      "fingerprint": "1b3891a60f87701c549730c81d2a38a2d2c11ceb9f0b36be5b02c78ea8f73021",
+      "publicSelections": 75
+    },
+    "C691C4FF81064ADC8EE804AF197F35A9": {
+      "fingerprint": "ce3269667a2752e8c6fcd45254264cd5892316b2ae2982065bb9c748d3fd674e",
+      "publicSelections": 37
+    },
+    "55D2FC30AFA84B35ACE7F2ADC2E8DD0E": {
+      "fingerprint": "a0c3e1e71b6ded1ec7dc3b68c45e235fd982b80fc84ea7025a900912df7b6ec9",
+      "publicSelections": 149
+    },
+    "82455B2C114D470186777AA5E2D9F29B": {
+      "fingerprint": "8a2f4f36b49b4c65b2bc46e1c9ff41574e60dae7ae18c60fc84534bacebf0e05",
+      "publicSelections": 30
+    },
+    "9F2E188A76D8EB43AE22B4F563C85137": {
+      "fingerprint": "c614ae8c20461b93166f1a8b8bfd14daccb1af996c5a7578c4f1c0e1bacd9a81",
+      "publicSelections": 546
+    },
+    "F7EC8954BFA749B4ACA3C4353E8A96CB": {
+      "fingerprint": "5d60c42d822a080773505b753538575c285eeeeb10f7cdd2ddf85313c88f0444",
+      "publicSelections": 68
+    },
+    "70850E6FB45E400FA41773E2557B5CF3": {
+      "fingerprint": "3ac6502ecc7ebc5c230a60ac2fe44d0acfef537c2f94996a702c87301174f029",
+      "publicSelections": 95
+    },
+    "316E9F3A39B1EA9AF16462804C054A9E": {
+      "fingerprint": "354b9afceb8ade4295f7ca000e5744cf5a0a19364760767a21ad38da43c1d81b",
+      "publicSelections": 3
+    },
+    "EFDFB11C5F3247618BA648A0DD0EB4B3": {
+      "fingerprint": "bde19e38a3417ca15bb83ab5f009ba89a16c7acd2619df1f7d3bcf87b0dd3874",
+      "publicSelections": 42
+    },
+    "3186621C7B97EB4AAD2CCA81C1358C2B": {
+      "fingerprint": "a70b98172a201d00e303a6207d5d40e35a10cd0df218ec9c0b38e459d52e6c74",
+      "publicSelections": 495
+    },
+    "5B4432116D03EDAB41C16C80226D731C": {
+      "fingerprint": "bc1d7ca75641d364f5a68bad00620c12be48887b248ad90c422921aa6f81e081",
+      "publicSelections": 60
+    },
+    "A8A268456D19E3888627BDEB1F3317E5": {
+      "fingerprint": "06e158ebe43fb54649946f938732236fe18e6feb0ef87d5fae8cfe13fff4f089",
+      "publicSelections": 76
+    },
+    "9D847C787D6FEA9EBEB20CB63CD11BDC": {
+      "fingerprint": "79a507e966acff02504d70c16575c6ba6941756bc6e946fbc0d7b3c8ae4ffd92",
+      "publicSelections": 63
+    },
+    "B4B44DC18C4C4966909308D87AC31945": {
+      "fingerprint": "18ca778bb899af817c61faddaeab9442af011d8667afa3260b38ede4bdd8fd1d",
+      "publicSelections": 5
+    },
+    "DBB5EC5C96FE46669738E999DA08B541": {
+      "fingerprint": "775227beb52089128e58323d9568cb943d7e1292fa32947edd744dc6f33bcb1c",
+      "publicSelections": 26
+    },
+    "24036FC18E7148F7B77AFAD9C5485720": {
+      "fingerprint": "2774d250ebd773adbac69077aa88ef79993443137737251a5f8ba3f082a3c1b1",
+      "publicSelections": 16
+    },
+    "F319A9BB1373EFF520FB12E50FEAA26B": {
+      "fingerprint": "644bdcd03df0ba5fc1fe35108bf3b8b5a0c6b5fac20ead0c3acbde5ba70e45cd",
+      "publicSelections": 8
+    },
+    "C8C2297FED2AE873B7C3387A09CF2ADB": {
+      "fingerprint": "ed559f098d6c1baaf8e7799fcdff4e68812546a0ff686fa03b66e29eb55502f3",
+      "publicSelections": 63
+    },
+    "8B74AA4BF06FE197BC2DFCF83BE17C14": {
+      "fingerprint": "33595fb219a356939f909b7886625ba96e2dd4b97970b91a35c5f6fc1f953950",
+      "publicSelections": 1571
+    },
+    "7112D8A18D3C4C7BB98681C6DE3D94E0": {
+      "fingerprint": "c26508f73db68da53602fbf56341558d3ef00e4c2cef5402f5b16205b6172032",
+      "publicSelections": 62
+    },
+    "F3B8DE63C198457A85B3CC5F45B32149": {
+      "fingerprint": "59971494b2f451e8ec4ea1632b3a70895a64309bda4fd15c46b41584d41506ce",
+      "publicSelections": 34
+    },
+    "5AC79BF370C1E403616347F043187025": {
+      "fingerprint": "3c9cde019259434a93d96755897a629a8b6af20aef1bee4d772422a462456136",
+      "publicSelections": 27
+    },
+    "F28151459776E3BE109C95C138177810": {
+      "fingerprint": "8644e655c871b7a09398f79338fad1a1b6be3df80fa2b424b265fc322d480eec",
+      "publicSelections": 235
+    },
+    "BF0ECD50DBFC42C3A855CE24E0DCAABD": {
+      "fingerprint": "6c57c3ca48d6ee1a803195a2aeb846046eeff18e4275b354007496521d70d3ed",
+      "publicSelections": 3
+    },
+    "531C2217F0C1EC4A8750BEC3A0B284AA": {
+      "fingerprint": "ad558202706eaaaf4ceddbacef979777b9175df16ab67d38a5f17bfa9bd96a64",
+      "publicSelections": 17
+    },
+    "897DD84096DC4E809E4ED2D3637A0FD0": {
+      "fingerprint": "8b9725af12e6767176fcf3d6db76fef9b68992863e8b19ad86e351c856bb219c",
+      "publicSelections": 9
+    },
+    "462DD0A3384CEC88D53CB4DF6993BEF2": {
+      "fingerprint": "82ce3aa849f93251ec3aeda76fc0e7babf8ef75dc1cde3e912fff8dab66f1418",
+      "publicSelections": 18
+    },
+    "A1F5E22D1649ECA14B265BA4AE195779": {
+      "fingerprint": "9e42cef49870a509f3a65175f67ddf9a98cf4cddda9da0437aad19b2948b8251",
+      "publicSelections": 10
+    },
+    "552E8D5180B04AAB91BE86621F37CD9B": {
+      "fingerprint": "e4fa19ce8f5a95962eda58460c67a218d7a065ca4d8a9eefe8198fa3bc36a2f3",
+      "publicSelections": 59
+    },
+    "61112CABECB646B7A648800B633240E7": {
+      "fingerprint": "91c322e374ccc1e888d5523222c31326340631b25355fae9de961a61eedec007",
+      "publicSelections": 114
+    },
+    "494449F7A4D0EFBD315D4C3846620994": {
+      "fingerprint": "a25165d7c09ce739be52bfbe3b7771024af030660b411134bb9d87198028d4e2",
+      "publicSelections": 293
+    },
+    "3AF5CD058F82471FA2236DF51BDF9F38": {
+      "fingerprint": "2f5863e9ef221b04d7db97a434e5c8d74fc794fa310279b91e10fb5b8b63207c",
+      "publicSelections": 81
+    },
+    "5CF47B6B008F461986A90EF7E6BF176E": {
+      "fingerprint": "89fa095958a6f4939c0c5f6a18eab3d710bd06eb7698fd0d1e495b77d35f1998",
+      "publicSelections": 1569
+    },
+    "318AF6512E454733BC17A1B298A41946": {
+      "fingerprint": "507ba0f1c26b298470540891a439c33c580ea41820c89b8ca13a2118a6bf8295",
+      "publicSelections": 209
+    },
+    "E6C0C39827F843698AC33F901392B995": {
+      "fingerprint": "2b92e16b1f5bed658c7f693c61bcfe5a79dd0cee5efe976b74a02580cc0769ca",
+      "publicSelections": 57
+    },
+    "7D483E56354A41E7BBF405202EC78AAE": {
+      "fingerprint": "3efea25fe03fc12457288f4ba1ba1ea60da5f9865a3dff30e43fa59591028607",
+      "publicSelections": 47
+    },
+    "50ABBFF644124BF0AD0846FDCB67B56C": {
+      "fingerprint": "7b58ee595d70f98f9345f7a45e3db7f2fd2884e84c1216e430cbf1733e953940",
+      "publicSelections": 19
+    },
+    "1026FD55727C4292B730BB0C841E20E7": {
+      "fingerprint": "ed326ef6b2fd2a6fc0a7242e73dee4f39fe2d892a2c6b0829c075616f0dfe0f1",
+      "publicSelections": 965
+    },
+    "22EED87D5EEC4CA68E16AB238733762E": {
+      "fingerprint": "484ef8cade516855de7875f469875d676d00e20287c8654f73914c18e023c90f",
+      "publicSelections": 732
+    },
+    "0620D9E3C183E6CF5D3FD17DD58C9ABC": {
+      "fingerprint": "523f41f8c64f407b88b43bcd180c90d04db193551e30aa366a4d65660b4194ce",
+      "publicSelections": 19
+    },
+    "1A99E9F886AA4DB89E927820FA635633": {
+      "fingerprint": "86b53077fabdd011730bd95db959d52fe204e2e309d5d957c3d884a21a4a55dc",
+      "publicSelections": 1225
+    },
+    "9896C9E13B524C0CB5F9770FF41B6D26": {
+      "fingerprint": "15c495f7c88a4b13fcd69112e69f9801fcd972bd23c5880f06b4bdc719233158",
+      "publicSelections": 158
+    },
+    "99656E1B1D7344D8930ACA530FDE210B": {
+      "fingerprint": "262423f606be89591aee478b84d5254744497882a932f11461f9bbf6f8e3623f",
+      "publicSelections": 138
+    },
+    "9EEB404CCE8EE5B1086AFCD6BB4247E4": {
+      "fingerprint": "7379ea72b975c326b7144f50e0cc12edae964a9db2b278d0bb25383b52261122",
+      "publicSelections": 64
+    },
+    "B5A1748B3FB14D8EA1B9992E6E0409BF": {
+      "fingerprint": "7e732882304e69b001a5b284fd35ee863184e16683ea74132790d75ce03c719f",
+      "publicSelections": 12
+    },
+    "E8D8CB2AB7034F7DB07173698FD9C979": {
+      "fingerprint": "37783339abe6e7903b41f925c9ebc0545ef56601cc9de8eedb146b9f6e484cb2",
+      "publicSelections": 53
+    },
+    "42BF27EF1B5543078EA9B3F7DF6B586C": {
+      "fingerprint": "289ef868d0492254dc0ff64ca6458446cb5f67d59fb6c0cb88d7e5381bff1f96",
+      "publicSelections": 46
+    },
+    "02AB9A3E1C13E61D5B0AE0F70778680D": {
+      "fingerprint": "3e67e2682033707586b283e20f5908a84bc7cd072533bbac405af2ad97363fd9",
+      "publicSelections": 25
+    },
+    "FDA358C85EABE1A21EBBED1872E92D55": {
+      "fingerprint": "e2a39a4698760d48dd52d6985e1540f6ae88799ff53a0aa63cd9dc30e4b26f11",
+      "publicSelections": 186
+    },
+    "EFCE6C7ADF264310AFD8C5A360881252": {
+      "fingerprint": "409c8ef5f5809fc176d050235cf7b4974794d18ece8860e105f7ca4faf8fd423",
+      "publicSelections": 205
+    },
+    "25BCE94ADDAF4B1B89551A0B5A85DE9C": {
+      "fingerprint": "8fb0041d0971e1107c3f6a05bca8481ab0fa4d6c4dd161fcbeca6305d8799200",
+      "publicSelections": 67
+    },
+    "8EEDB198EF554EDAA21873DEC17AF79C": {
+      "fingerprint": "a041393fc0beaeb38511696578bc4ae2f44647b98a93c74461e0305d228b2a35",
+      "publicSelections": 63
+    },
+    "51967056B127E9B5141EB6C5BDB5ECAF": {
+      "fingerprint": "a6cdbb92f491f8ad9cc5325c4eec049d36d6943bf677b023fd3150a0a2dfc627",
+      "publicSelections": 16
+    },
+    "221CD3663B0740D49344F071233D1C5F": {
+      "fingerprint": "d9066e3e1d477e3273d8acb9a62324f42caa47d025f557e8264cd2d7de26c755",
+      "publicSelections": 183
+    },
+    "F98B57795BFF4F67AF474B13EE107703": {
+      "fingerprint": "efb1d681596595239a02ab0458ac0545ff3ba9fc1019644e7c59ac76046933e3",
+      "publicSelections": 510
+    },
+    "C22F29949870425F8FF923F17E47096D": {
+      "fingerprint": "f00234a4c842dddf8a06821b8c9a2d9bf6573b8eae096fb64774b32273865580",
+      "publicSelections": 38
+    },
+    "00BA6D4E6EF645E480AB0B732786C2BB": {
+      "fingerprint": "acaafa77a3da4a13864e138c068f6615437c6a86dda3615b056c23fc8e69125a",
+      "publicSelections": 72
+    },
+    "9EC159259B874FABB63915C45183582D": {
+      "fingerprint": "4e16150a857d7d7d51766f202d074b033e6fa51e70b2e7a6259ee0038225d4c0",
+      "publicSelections": 629
+    },
+    "C327BE1851D4E7A34A2B583BE79B608F": {
+      "fingerprint": "e77544a0bf24ce4fd5855b13c3b40ab70b47184658c87e73208e2b89f50a0ab6",
+      "publicSelections": 34
+    },
+    "E0C43F3240E54029AC674467FFE368F4": {
+      "fingerprint": "b61f783be6195dbaf5655a52f8749a39949762d546a4adc0fa8c90db146393ca",
+      "publicSelections": 41
+    },
+    "1512FD2C8B8042FA84CBA88AE4FD2A7C": {
+      "fingerprint": "8c1a142abc568bd26889ed62563f9db9271743a3d6b20ea53575e9b98a568e23",
+      "publicSelections": 26
+    },
+    "9A8742BB523FE7870795B9A71B370B0A": {
+      "fingerprint": "5db78968ea7436fccccce7eef55c245366979078a9b28717a0c8f567bf11e257",
+      "publicSelections": 271
+    },
+    "0336DB4B36D442E99D8E5873DEB6A033": {
+      "fingerprint": "286e85c3b5d63f51937506bb9782df0fe7ed2c13680ea8ceaadb714e620d9df9",
+      "publicSelections": 43
+    },
+    "EF0FF1BFD66BE7BE40FF7CAA4012DDF3": {
+      "fingerprint": "25e3e0fafbac84890eec49aba5857455485ed3710fb97f03fc4062f9627a55aa",
+      "publicSelections": 234
+    },
+    "B492C6CABFF847E5814269886AE0C4E9": {
+      "fingerprint": "5b584bb64f440b79ef516ee6f22f9f328fa96572881c4d850737526e1f7e318f",
+      "publicSelections": 10
+    },
+    "8D9F026E4760E4C06FB3125FB37BD27E": {
+      "fingerprint": "57bffed66666c69b5f6ccdb79d8c39452e848a690600e5ac769ef90072376843",
+      "publicSelections": 116
+    },
+    "90B7CCAFB2E14F19A4CF9A3759256B07": {
+      "fingerprint": "f7f52aa0d27380e7189969e7a18b423cfeacb1b4fd740425e3a6057db12acb24",
+      "publicSelections": 49
+    },
+    "6342253C2012E68DB1F250FB4CDDD104": {
+      "fingerprint": "a60dd07ed4792711deaebb124827086dfeae8b15719134f832f76f05b3d1113f",
+      "publicSelections": 73
+    },
+    "6843E7D91F1248EE96FCE5A4E6B06155": {
+      "fingerprint": "3290b175e2876fa949b251a07a7eefa8d0252ec75e02e56d8417861decfbc2fb",
+      "publicSelections": 20
+    },
+    "8C7168F542A84B6CB338D26C0D301AC9": {
+      "fingerprint": "eda859c83f92c0c97a943af162613e4ff60b29344ef20a88c52094808cea39c1",
+      "publicSelections": 20
+    },
+    "D2EADC40CD574D5F829C038D7AA42B76": {
+      "fingerprint": "9572233b71cc2a0993e6d4fff021a221f97f7eb90a528d241c7afd1076a439bb",
+      "publicSelections": 16
+    },
+    "DFD7CEB3B4E44FA3B8BE8B17E353D434": {
+      "fingerprint": "60645a2b8ba3a0efb8ac9b84a356f89018f51e6d181f5b56e68b211094c982fe",
+      "publicSelections": 12
+    },
+    "D2A37FC072734EADAA2D0F4A2BC2B5B0": {
+      "fingerprint": "b4bd832335906a392996992c656e3829cafb32ed8aea06491d0530f31a48306b",
+      "publicSelections": 85
+    },
+    "AAA2181CBE0F4BFFAAFD92CC0FCB75B4": {
+      "fingerprint": "9bdf61895014a29b6e4a1e995038f1b47d5dbdef6a334b564c2d7d03f246c640",
+      "publicSelections": 78
+    },
+    "DB9913EDE9DAEFE01D3272B608032691": {
+      "fingerprint": "c33d73a049f75136df3de2196577f429473f5e169ec92e4145ffc301a9b4708e",
+      "publicSelections": 74
+    },
+    "F9048B210D354CDE8C29D32A2F92E9B1": {
+      "fingerprint": "1342aeb76ab9bf80b9af2d61729af72354931d9a4e5de1428e06b3c3808c3d8a",
+      "publicSelections": 24
+    },
+    "6BB666C0D9224ED7AE3400FC770A3496": {
+      "fingerprint": "b2b07a7f5ba231bdf18090d9c41f2167bfb4b4007dbfceedb3f85ee85b2b62ed",
+      "publicSelections": 59
+    },
+    "173632E7BF104AB486EFBB383AF8DEAD": {
+      "fingerprint": "ec4575723bba640614bd33d37fcd8f0907138e3b50c9fda18b6fb4ecc94f5c78",
+      "publicSelections": 39
+    },
+    "30A42A15DD044876BA9A0BA8D1D60330": {
+      "fingerprint": "70408630a603ad17c9e88b5dc7010c816720ac26515f024e921d2aeaa1e83f8f",
+      "publicSelections": 134
+    },
+    "F7D359A1DBBF46B08E7168C2272A3D99": {
+      "fingerprint": "52603560b1d06a8c2737ac4cce2e595c0279669473cbf12bf3b2d5ef36b3c5fc",
+      "publicSelections": 12
+    },
+    "484B9ADCF51B49ABAC2901C126EE1E4E": {
+      "fingerprint": "3b0c0189d355a7ec1395acefd6b8cec500f58ee788da0e550461c182fac7654c",
+      "publicSelections": 23
+    },
+    "7A7BDCD83AE14B19B4D78332D456B1D3": {
+      "fingerprint": "071bb078017d8c887b97e37027b2bd3dfd66361309d704a6262eba0cfd55888f",
+      "publicSelections": 15
+    },
+    "46FD5CCF1C43454DB91FC516E5D3B7F7": {
+      "fingerprint": "40942cb1514dd1850f8cd7015021eaa1153423e027dcf7bbc7ac078617f65f78",
+      "publicSelections": 63
+    },
+    "2FC11A99D6A34DFD93993D59F31450E8": {
+      "fingerprint": "847819e7cb38c34bba76337ba1aa5365a30c92414383c6b76de476aae5988792",
+      "publicSelections": 88
+    },
+    "7494D3CC7B7FE1DCACD73621D5B5AE75": {
+      "fingerprint": "e78168d29ed327b30f009c9590395f45a275132b947314e98161cda6525b00ad",
+      "publicSelections": 23
+    },
+    "4D23BC811AC9E800B36CF057A7209E03": {
+      "fingerprint": "2d26eb19b660bbd74711ee85cca508f05fc47e788e815d2d6712070d2a34ba16",
+      "publicSelections": 78
+    },
+    "E846CC474C3649F5A86C027F93FA44B2": {
+      "fingerprint": "5a429b7f6b9d908fe996e647d4b909f4bcac4aebe3fa179a12ddbf353b6814d7",
+      "publicSelections": 17
+    },
+    "58B72013D935E92718D07A6AB1DCFB78": {
+      "fingerprint": "e6b545039d6b8777f7969b1597e5e7c95eb233c23596e876626aaf887836d260",
+      "publicSelections": 253
+    },
+    "9D225CE8D12B4E9A839E9EB4935226A2": {
+      "fingerprint": "c7c8897e7ae8e7bdbdf75233d50cbc336cde5f2892c03351b8663b296518e935",
+      "publicSelections": 28
+    },
+    "1021657B1CF64AAB90EC9FBF7FC73B34": {
+      "fingerprint": "d7fce3b48ba6664c72d99abd6f524702f0c59660570d0467797c4bffc7af78e6",
+      "publicSelections": 228
+    },
+    "199944841572430A878E76F5DDAC07BD": {
+      "fingerprint": "63c9411dd24e6f12f80d2a413931b08d3c4478e480d8ed86a627f59404b207db",
+      "publicSelections": 17
+    },
+    "BE8FE142DAF5EE1D0C63BB50722C39AF": {
+      "fingerprint": "9438c300fd1b3765d8347f6466a3a7f4d6705c7d536f593b2b93829659c940b9",
+      "publicSelections": 54
+    },
+    "3ED3EB2EFEBF43C9A36134E26FDB38EE": {
+      "fingerprint": "a16724cf94bcd38fbf75c3d31c05cff103d9fb5c947e00daef8cce80d46660e4",
+      "publicSelections": 67
+    },
+    "ABCDEC1823254906B8333F43C16877E4": {
+      "fingerprint": "c5f4576c643c47bbf54ea2193f2b7cc47a8aa649603fa18f00af4dc2cc13b705",
+      "publicSelections": 53
+    },
+    "0DD5324F4D5F4083B4CAA0D5360C7218": {
+      "fingerprint": "6a1367eb5c150806b268e5d6f014990e64e4b2ab7b30665d5c7d826563d5410f",
+      "publicSelections": 949
+    },
+    "E1B9B332AC67E6035B1C4BC3B01EA8BB": {
+      "fingerprint": "b8c3e8067e8d6ae400bbcb712eaa0d3bfc85f50d663064b77d3ee7d60c9c104f",
+      "publicSelections": 8
+    },
+    "9170438CF5C0E2D84968B1DE41C36F0F": {
+      "fingerprint": "69df72f39deeaa679d79ef4a004bc2ba798f7f10f1c8aaf1f418194e16e05e63",
+      "publicSelections": 348
+    },
+    "D60E2E5B3B2C4B2796B8B06FF4D08157": {
+      "fingerprint": "9fcb33bbcdb05b04bab267bf636ddc4b8f99a04802a2010e81afc38a4fac8279",
+      "publicSelections": 65
+    },
+    "DF7D0EA999F44DBCA4F5C695B3851674": {
+      "fingerprint": "5009527067257638184c82e6f9623fe0935ff6aac8eccad2c33faef2483c7e92",
+      "publicSelections": 47
+    },
+    "064A242494DCE29D5CBAA6D792D7670B": {
+      "fingerprint": "5e7a2e8c065fbdc54c62a1319bc6062c62ea02c85e47e94f9042b7fab5cfbea9",
+      "publicSelections": 23
+    },
+    "0C5DDE6CAB1F402695B2717CF1EC0833": {
+      "fingerprint": "e7aa4cc3db18227f4ad5188b533385e911e017f394b9cd3b4f143be3a03ba75f",
+      "publicSelections": 81
+    },
+    "D52576587DA0EB888F569679044D948D": {
+      "fingerprint": "c8287c4729a2f6618256ba74808ff33cd558559ba16532fc9d685aa60619b36f",
+      "publicSelections": 22
+    },
+    "45F19A41FDE542EAA950F0554A7B175A": {
+      "fingerprint": "4b184f1e924b7b08473d6983eee02f4941be01f088ce0fb1647f9a3b4694d8db",
+      "publicSelections": 39
+    },
+    "77FE3431893F4FD6A31E4BC04DA1BEFC": {
+      "fingerprint": "b65427807afd1612b5b58d615394c915c1ab2db69a9ef34828a2bf0bcbab5bf4",
+      "publicSelections": 50
+    },
+    "DEE255C5CCCC4F548E258C3E5E1B450C": {
+      "fingerprint": "ad7ead6c0a07ff9e3ead7609535f1ad40a6d39384a7df65ef3efd95f424d2dae",
+      "publicSelections": 90
+    },
+    "752881F17C2B4EE0BDA239B9D6517A45": {
+      "fingerprint": "0122346813d7b6fcce80d7d008f5fe077adfa8fc0face985012139022a24016a",
+      "publicSelections": 102
+    },
+    "B596151C89A441D493D3B839D8579C43": {
+      "fingerprint": "e0cbdc098624c55996b7d458a8230021a5de38ff277b74dd0901b8a7bd75588c",
+      "publicSelections": 33
+    },
+    "B7A38539E06DEF99A0FEFEB648DF4ABB": {
+      "fingerprint": "9f7012de6b712e76b6aee07f5d977ab980c340fb1f7dc6fabe803dd69434b380",
+      "publicSelections": 63
+    },
+    "8B68A1DE8700E8697ABFF0E02CF7F845": {
+      "fingerprint": "cc2d341c9b99d24d7203189734cb7359ed2079739bcde2f4ade098b4e8851b7f",
+      "publicSelections": 207
+    },
+    "FE310A28E520E13E6B27445A16249BA5": {
+      "fingerprint": "fa704cf25afba1f5df022acfd91ffd28410ff0c752111e48230d341a584caa84",
+      "publicSelections": 64
+    },
+    "048D1BC9980545A2BF50BCE956D33C2C": {
+      "fingerprint": "ee9a2436d217fab78fdd44ae1b1deabd8029edb4a5078881e994acaa44b46592",
+      "publicSelections": 66
+    },
+    "10F20171888446BAB9501BF1262D49C7": {
+      "fingerprint": "e063d24393d3ed0b0d0ec87bad1a2f8f46dab2b076c723091629f265d1c5f54e",
+      "publicSelections": 45
+    },
+    "F7AA5CD08D094314848E6B2A95A5DFF4": {
+      "fingerprint": "3eed7da49e6dd22f41703f90b472ece7178a76720cd45294972d69ba8858fdb7",
+      "publicSelections": 10
+    },
+    "87CAE620F6194480B20F2C8B053A5841": {
+      "fingerprint": "bc1b135f7e5ca9ccba6a715235f8527d9d68c335036611ec531d5156b2a39ab5",
+      "publicSelections": 96
+    },
+    "9BC3001DE5AA410BA0865211BE374327": {
+      "fingerprint": "f834ba6a49ff1ba9ef8de812a971d8d39431f88e378f206f176a55a63faff8cf",
+      "publicSelections": 3
+    },
+    "DDA2B50C1774485DAFFBA307BEC98470": {
+      "fingerprint": "fe73ed66a8d086e6f8a4f39c770ae20403216490370de26faf81398d6bfd4866",
+      "publicSelections": 21
+    },
+    "9C38FD1F89964E0D9E88ADF23045DB9D": {
+      "fingerprint": "a5a625e7f137e25932065037c1e5073e6d935b12310dbd912d462ff99614479a",
+      "publicSelections": 123
+    },
+    "79CCBA0D8726E9D920DC566B92556700": {
+      "fingerprint": "f17a17b8e56bf071a55dd0e5b126dab1370a2f2531664adc2b9df3b6d9f0abf6",
+      "publicSelections": 329
+    },
+    "AC6D3AECF43E478BB1E3EC19DB04E992": {
+      "fingerprint": "c9d5128668ea1e138dd1bbb9bf321fd0c8676f56ffe042555507db93a074a3d6",
+      "publicSelections": 247
+    },
+    "C7824F7FB65A4B75A74AC15AFD08EC5C": {
+      "fingerprint": "9a184d864990340f2c67f80a3f14c30b85a7bef64ac056648db2ce91c5599819",
+      "publicSelections": 127
+    },
+    "00C41080E8DDED8D3092DBDA9483EDF1": {
+      "fingerprint": "885c79009472881d24809f90f2c41c5e3ec1080fcca5e4ab9f874906372c55b3",
+      "publicSelections": 34
+    },
+    "B002D95B61D1427697DF9636DF3B6E0A": {
+      "fingerprint": "e21eb5201b134afa35209b839084e46cdb869cd14160e76a9d4e1bed2b719588",
+      "publicSelections": 683
+    },
+    "4D614A134412E9DA43B77542E47091BD": {
+      "fingerprint": "cc75ea07eb62f6cec880ebd5e89a18944c63a2e41a82fd55a3e4721d4abc4cf7",
+      "publicSelections": 113
+    },
+    "1AD5A5F58C9D4D80A982ED7AA5435D7E": {
+      "fingerprint": "0beeed3bd133d53080a4593b8f8c83b5b27154d3b8efc5679bed29b54bce01b1",
+      "publicSelections": 50
+    },
+    "6615BDF38C0B46B9960CFA282715258D": {
+      "fingerprint": "74f9c6a35e2c8ab6849403aedf97950888e7deec94b3ee46c4bdde78c9aac856",
+      "publicSelections": 54
+    },
+    "A8FA3FC94D38433295A413FBDA06FC3D": {
+      "fingerprint": "da0eda168e7bf57cb8e08adeb4d8877057c0558790516eab704ed6e85375ef38",
+      "publicSelections": 17
+    },
+    "3F5DFEF17B6E4935A76DA6520A5504AE": {
+      "fingerprint": "33ef33463c9ee8e5b3d3ad72f4c06ed31079e8fce48fe4a0de796c4cb490cd16",
+      "publicSelections": 37
+    },
+    "DBA5068DF2C24AE6A61E7337FF0B529D": {
+      "fingerprint": "196392653598e22dddce18856ca8fee10755093b0a9f7503fb942708ceab5074",
+      "publicSelections": 70
+    },
+    "22163AE55B8C4896A94CFA8EC0CB10C3": {
+      "fingerprint": "e27b8c894ed9db31bf7a2cbcaddf8f52d63a221ca8a3990720e8fe33f1a62a99",
+      "publicSelections": 42
+    },
+    "19BF26DB7B3FE2CF0ECEEB58485A8C6D": {
+      "fingerprint": "301e8644b53adce3495817f8e3e8318e3b8780a2f814f0f996c2e13fe0100052",
+      "publicSelections": 26
+    },
+    "24DDFF54E54FEFEC3C845D83F3A3E0E8": {
+      "fingerprint": "6882d12af753cd433e9f3ba6bac003b9b18be2caa8cadde68363e565bef5d342",
+      "publicSelections": 6
+    },
+    "02605DD1AB7442E19B540C97BE1DD0DB": {
+      "fingerprint": "f9dfc01930c47847feab6b87179df44e9c3f728ec7283ae88765bdcb2379add8",
+      "publicSelections": 134
+    },
+    "410D6617D11A4266BA52B4B00A48D649": {
+      "fingerprint": "9c51710d2ba50d91c168e04b901e85a5a657a60836b0763607c21135215c41b8",
+      "publicSelections": 1442
+    },
+    "20396F06B6514E5EAF60E9440C8F2B5B": {
+      "fingerprint": "58284c74c92c5609f300e8e12dad06d6d19acc05d3fd918700a9c565181051e9",
+      "publicSelections": 225
+    },
+    "F97B3874575041F7B031336C8EEF15B5": {
+      "fingerprint": "0d23516ae2d89118b20380a5a428f6e70ca3d4d39dd7511ef06858a85c523157",
+      "publicSelections": 28
+    },
+    "6D2F37920646424E8CC0A9ECB49AC676": {
+      "fingerprint": "781940ef890d89b33616667a2f7cfebdf5e876fc5704811d381b3fd5cbd84a71",
+      "publicSelections": 21
+    },
+    "3E78A8B4557E4886A5D3BC8F84BFB09E": {
+      "fingerprint": "45495b1ea28b055364d73153dc4e662962779d42a549e7ad8537c481bf417f0c",
+      "publicSelections": 40
+    },
+    "C32DCE1484C6E34B581C0D0C738B7E27": {
+      "fingerprint": "2d5cfe19ba7d72319ffe4eabc9d841e1d4e6847d52131c087ba560658635f992",
+      "publicSelections": 114
+    },
+    "A7271C05C12E4A3180E1E00F1DEBF977": {
+      "fingerprint": "38260ef5c7771ec8b3c913965a79aa5a95bf0303f0a718346765043ca58867b2",
+      "publicSelections": 1215
+    },
+    "03732171C89EE6423D686FB6C1E39F42": {
+      "fingerprint": "bae1a45278db2feee1dcaf7dbb6a4b987110cdfe239b60a2e92f0fd1206e23a8",
+      "publicSelections": 103
+    },
+    "EA626E1123AE4CA9BDB62193BD55DE62": {
+      "fingerprint": "f2f9ed79d18707749b5d591129224fbd1ba6ff61de987275d582b0641cd5b41b",
+      "publicSelections": 68
+    },
+    "2863570D944B4AFB91F6F5A9413971B7": {
+      "fingerprint": "e8fdb35586f0f239e46b7132f9df7a2c2eeb37967995a17174206a93e4748730",
+      "publicSelections": 95
+    },
+    "369DAA81C51F4587B8F070614833A216": {
+      "fingerprint": "8d7e2b5f12399a04b928a9b231073cab365a7fe63ca9b95aa9e5cfde48f6b96f",
+      "publicSelections": 216
+    },
+    "70B67FBB46F446D9835324D644050094": {
+      "fingerprint": "01ff2bbf1eebf41dfea79bcc8ea1ffccb1fd661344dd65eb357786b728dada53",
+      "publicSelections": 35
+    },
+    "FB433C213FDF4FE7AD1CECE5C661D18D": {
+      "fingerprint": "49aba1c9563701a31a05c8f57655273ef251a87dcaafa823dcecb636deeb0561",
+      "publicSelections": 18
+    },
+    "370C070CD04CE2B909AA07135BAE9BC3": {
+      "fingerprint": "d3613a68de8fd872bc50a572de274911d0cd10403d356ed78b9703845945b200",
+      "publicSelections": 6
+    },
+    "3E5D97C507CBE9BC48712BC3E937BE35": {
+      "fingerprint": "c50fe4d4dc80a2c5596871a5780616209d93e9ba46a7c64a1fbefdc33b7d328a",
+      "publicSelections": 55
+    },
+    "25E17ABCAE6B4195844602A0178DB4E5": {
+      "fingerprint": "2fd1e160039cad3a6e25f1159f48e3ae8f5961ec8020488a53cdb61ecefd8115",
+      "publicSelections": 114
+    },
+    "02B4E611F3EC4C52AD11023CE5588FA7": {
+      "fingerprint": "81738ecaf403beeaafe87cf6e2c339086f5bcb3c3d5a179c649d11b54ebecfbe",
+      "publicSelections": 48
+    },
+    "E5EFFF9275424573B014771437ACCE2C": {
+      "fingerprint": "9187ddf73b8bfbbb6be6a3b2510bee50c661e47e918c97d8f2e774dd0f7253e8",
+      "publicSelections": 38
+    },
+    "879087898C9746AA88A2BE11CA9F1331": {
+      "fingerprint": "9f02cc4a087dc79ccc70bb293b048be7f260347746bff68220d7c78cee2d699d",
+      "publicSelections": 20
+    },
+    "5B93ADAC08EC4BAABE2190E8FEC71C01": {
+      "fingerprint": "c8bb633d521b533e44b276761e1ddbb7e47e42286ae1d7b1c747d82da6fc7080",
+      "publicSelections": 47
+    },
+    "618F635CCD66E2DF15781AE191ACE8AE": {
+      "fingerprint": "643ca58aeaa7a9a1714414367893790b9ddb9d3c4b6284538a20fbbd450051a6",
+      "publicSelections": 20
+    },
+    "78550822F6B44C78B39854DB6CA87FAF": {
+      "fingerprint": "80ab3d3a911d407354c95066cfdbbab2f6635b9a2eb86a67895dd29de2eb42e1",
+      "publicSelections": 13
+    },
+    "BB987894E7264233BA0C0C5DAB4D3C5F": {
+      "fingerprint": "4b3ede864710de6de3074e3ea9f2e174d81f9b968529552001804b05c123e8aa",
+      "publicSelections": 96
+    },
+    "B5CA8DC45DCC48AABFC267FC9214C6E2": {
+      "fingerprint": "9d9a9a8adbc1caf31b90f3bb40b72d67be90e94024e6fa2ab8f37cdd564fd949",
+      "publicSelections": 17
+    },
+    "112D55EA871649C98F620B987B18D623": {
+      "fingerprint": "642c4a1b836af6adc5f86e334d5b26cf89f2f7b93ff74275ac8fcb64cc7321ed",
+      "publicSelections": 379
+    },
+    "4027C84B01D8438E9C7D92535DF6BAB7": {
+      "fingerprint": "c30f685f803574ac9e456f769e7fb7b0cdaf4b621d398eab3632edc5436b6f13",
+      "publicSelections": 189
+    },
+    "1D75B1F61DB2465E983CD5EC6C16C77A": {
+      "fingerprint": "6dd08107979f0910106efccbf23c3fb689489254009e23be5c050037188a7e94",
+      "publicSelections": 32
+    },
+    "9AB88215A3AC410692D350AE3BEB3A54": {
+      "fingerprint": "0e249c7f008d4925d9fdeaa37320729f82351abb5353b0b2bd6e65151559925d",
+      "publicSelections": 43
+    },
+    "6259D6333FC7EE132D6AD0D77800E8FC": {
+      "fingerprint": "cd4f27ff16a95b7bb6406b9ba44caa1295555452d5e3f2aaf8540468f9f88f1b",
+      "publicSelections": 162
+    },
+    "666ED6B326A8EDED8D4E3FF383F97184": {
+      "fingerprint": "efe3cfaee847a68ef490d15b5519191ee053b251192ec7c0b1508813967ae2c5",
+      "publicSelections": 16
+    },
+    "B71D6E7CFCC8E05A303BFE9F83981E31": {
+      "fingerprint": "0f76980f3f80752d2867a217d71016d1f734f5b9314cf173e3a7513a1cdf322b",
+      "publicSelections": 92
+    },
+    "A9FB0DFA63874B4E9177CA70ED30CFEA": {
+      "fingerprint": "3d6205eb583972b089a4118895a7fdfb77336dc7259de652e3110137dbd90119",
+      "publicSelections": 40
+    },
+    "DBB0490F3653EEB9948DF8F6B543DC7C": {
+      "fingerprint": "e9bef1a3384c734da2f3963be67d9882004d2d9c4cbb0ecb93f0d116a33c3b30",
+      "publicSelections": 145
+    },
+    "F9C86676F30D4FBC8FA75C7F25536147": {
+      "fingerprint": "df1d273bd19072aed8d77e9bd6577dc680ad69a41900bd78dcf9a0caed24b043",
+      "publicSelections": 132
+    },
+    "9A628005EF1D41DBB6DECA0975FD85FD": {
+      "fingerprint": "66516b9081e4ca7f31018ef5f03a8ac71c74e06ad607dad7e89cf27a07d3c751",
+      "publicSelections": 18
+    },
+    "46995D011114EF274DD2927A84E31B16": {
+      "fingerprint": "130b0efcc9efb0812cfb9d73b99196d0c0e65f6f437fdc3f37f128e784cfd90e",
+      "publicSelections": 149
+    },
+    "3B82BF1535D8E057003BB1BA09CF4C23": {
+      "fingerprint": "dd7975e8c82afa03b027f46aa4fa63c155a82300d437e9c7e262222cc39e93f0",
+      "publicSelections": 3
+    },
+    "D190D773F56F4F3CBA7AD064E2098780": {
+      "fingerprint": "ef98ecb4118d4e7a44e363ebab7031601df68baad5d40e5bf163b7ced2b8b628",
+      "publicSelections": 58
+    },
+    "7DFA549A017149A38B04AB7D3DAF87FC": {
+      "fingerprint": "39424a18f10af793d4025eb0cdcf8975d7ca7d38582168bafcc425ed0aaf027a",
+      "publicSelections": 39
+    },
+    "EDC6DF43384BE2AA8442091F0CC6BE13": {
+      "fingerprint": "d4190efea24677ca4d0a6eb901f48d5fb42bea2b01fa448f44c2951992393188",
+      "publicSelections": 3
+    },
+    "10C0903A3A7048C193248AAA8629D4D4": {
+      "fingerprint": "a8a0fe42c2ce715b5b75289a16b214650f3841a6ca3c15957b192efcd647e60d",
+      "publicSelections": 170
+    },
+    "E044C256CB5C4D72999B0C5C614438D8": {
+      "fingerprint": "b97e46d046d5ed930a2252d2d0a25c62bdbd95786b07c4d9338b777d58cc1441",
+      "publicSelections": 32
+    },
+    "34D3884EDFE04E158B8879D2E51BA67A": {
+      "fingerprint": "d68ce0667832c4b4524ab93da1f3beb6bf19c6456538f75b3322ea6121bd41cc",
+      "publicSelections": 32
+    },
+    "2D71B43F6FD6403083AC1BCB025C195E": {
+      "fingerprint": "3fa4d9d9f904f02977aeed0d1ba143d0b02f4c9a43e470033d5fd1c00c7457a1",
+      "publicSelections": 71
+    },
+    "D94FA897F92748119D02B1738E91BD1C": {
+      "fingerprint": "2222b0703bda7e615e13d00c80a1d8176cc41267891a4be57af73108d64d5275",
+      "publicSelections": 82
+    },
+    "5F1349F0A072481181E9D852C41EC6BD": {
+      "fingerprint": "08f988410750880844bf683ae9f743f4bb458fb9ccf051a6f0799a39fd866a5f",
+      "publicSelections": 302
+    },
+    "4925B84D51C04E3DB0D1AB40021DA116": {
+      "fingerprint": "7fa2c22af5031476a804cd4bec0e8920d476308d39663fc1a2c0f50aa305ab94",
+      "publicSelections": 48
+    },
+    "A230B24E88D943A79A527E42B4172FE0": {
+      "fingerprint": "476e44fdb3880c8466c62fdd35c0f3a06a989be429e7acc2c1e289e75ce0bc1f",
+      "publicSelections": 72
+    },
+    "79B6F204399AE4F22739206947ECBC2A": {
+      "fingerprint": "805460f6e567ae04ccecd88365b9481c956677d5abd58bc60fa50ec62e28c189",
+      "publicSelections": 7
+    },
+    "12119CC76EF849FF97AEEF4858C87628": {
+      "fingerprint": "443ec980c0fbf7ee54d311b77d59c2ad7278811eadcfb5e3ad2bf832efac08fb",
+      "publicSelections": 15
+    },
+    "45752F5987764F209FE2DC935C9B797C": {
+      "fingerprint": "320f0c196bbd1b55f17def0c4fb71d94854ffd197be3914dd5ce34f8aa987ea7",
+      "publicSelections": 60
+    },
+    "BC1DA81F657CE31747E11326EF6838A7": {
+      "fingerprint": "bae5df0af889c5619db629b66443aafcb8ed644e6218fda9ee9a47b7e83660fa",
+      "publicSelections": 14
+    },
+    "41B13322CE5A471693055025FB15BA97": {
+      "fingerprint": "af79b76a5fff79de30fa4a04c14606ceecd579eb75a46ecd2c85302ce630b62e",
+      "publicSelections": 13
+    },
+    "C400E4C4C1B54C2BA5A393FC9A9A2CC0": {
+      "fingerprint": "c64aa2ce7dccc3bdec1bf7aecb1a9b5529748a1d9c5edbea7e2cc2b345240ec7",
+      "publicSelections": 40
+    },
+    "4B7D2672283AE883B6CC489FBC7D4E7A": {
+      "fingerprint": "f3f867be939ecb54a72669a6407686f8a04edb370cb7f823d6a2c271d0e2c1d2",
+      "publicSelections": 129
+    },
+    "3568B942A8FE439CBD3238E92AE8D80E": {
+      "fingerprint": "62c95c0f762689504ab0d0e09d75c3fc54ce5b6a6e924cc963e9365c205102f1",
+      "publicSelections": 90
+    },
+    "C6BB86F3DB8D4B58AF903A5ABB8B052F": {
+      "fingerprint": "8e895268a142cf8da1934bf05f8611c50edb6cf8a104f1df653270b75d2c9f22",
+      "publicSelections": 52
+    },
+    "1AC9EC501387E272EE69865BCB498963": {
+      "fingerprint": "b25b2db6f8fac599e85430a1b71e90d85b292c4ff80da60f557f57573eb250cb",
+      "publicSelections": 20
+    },
+    "92FAB05B93EAEA7C6C668DD0C91ADFB1": {
+      "fingerprint": "a422419f9b54d314c8ebf7c9058d242c7e8a37f3b5886f3fa0ed975e580f28f1",
+      "publicSelections": 90
+    },
+    "D639D12CD679E3ED02A0F7A8D7835DB2": {
+      "fingerprint": "8a1c3e2215b56b8a5459c3a263d59ede2908411f8ce3c9948068d14014df6fa5",
+      "publicSelections": 683
+    },
+    "71CA0BAD93CAE678CC1BA773DF8A5EC8": {
+      "fingerprint": "73b2f7ec881a4319b4ae50e8aa44d754ee127ea4347f5aee19f5d5c097ab4ae3",
+      "publicSelections": 416
+    },
+    "E5E0436334E8467AA2757EF389C2161A": {
+      "fingerprint": "d1eb11cee45a76f98f14054769db6f64799e4c3c2d796a016df67a4b447b2e15",
+      "publicSelections": 117
+    },
+    "D64346EB795847B3817AB6A1A38C8ED9": {
+      "fingerprint": "c39f5cb70cdb8768a7e5065e6038da9d1d6aae556a6704d352105e2b936d5967",
+      "publicSelections": 69
+    },
+    "F91840AE122AEC232D80E33023EC88DF": {
+      "fingerprint": "1fd8adb7f64f2cb773bd064adb4128cc3fb2474949443bf36bfd23e209faeae1",
+      "publicSelections": 194
+    },
+    "F91D7DB188F74200962A9A9F8446281D": {
+      "fingerprint": "0fc29269984ba4b27378a95835ab0150a86b88f6f9f51b6d1ce9e4d4c5e42fe7",
+      "publicSelections": 66
+    },
+    "AECD255E0A17E60EF9B3EAFAE4522D5C": {
+      "fingerprint": "0dd2223cf1be024fc413d5f61350b47770ea6e0f1d281346dfc508b4d0c0c51a",
+      "publicSelections": 28
+    },
+    "0E46A9D425ED4F89AB54563B472E6EF6": {
+      "fingerprint": "572a08bd29130df40d5131982f50101df58ee0e9b9e38f2f12994356f9b4887e",
+      "publicSelections": 418
+    },
+    "374926D1B4A0440A807608CC09170687": {
+      "fingerprint": "11bff09bb29e7bc164187d9d431719b93c7cdb39b3fb2ac4cef7c3a21b4f350a",
+      "publicSelections": 515
+    },
+    "9239D6E43FFEECDA3B3AC738EC10194E": {
+      "fingerprint": "ac52bc4194de66252d10fbda9592edb20a1b113a76c47416ea299835acfd59bb",
+      "publicSelections": 54
+    },
+    "B4480B0CDB52EF0534E437134978DC1E": {
+      "fingerprint": "0b2a261cbe8893eeb3c4565b44d88220a1d778a04fb96d173902aae47410a8b0",
+      "publicSelections": 3892
+    },
+    "E595DD9F357AECF340185AD122E7AB99": {
+      "fingerprint": "b1dfcdc6887aef27fdc720912296b69acdbee9fe3e997e47b59f800e052ba67a",
+      "publicSelections": 6
+    },
+    "52F3B40CB9B8EA39DE0F1D7A99B41677": {
+      "fingerprint": "74e600e54cf327cd0962dfb0c9211f3810b65fedf2f5fcd4cf684a65a076bd4c",
+      "publicSelections": 33
+    },
+    "0932600F9AFF44C2B17210548E889F44": {
+      "fingerprint": "63c6db76596bf27054321efb824bf08d046dbbc89cb1944ff63ffc11d953e84e",
+      "publicSelections": 61
+    },
+    "0948136C6D64E09F1F3FE2F80C9585D3": {
+      "fingerprint": "f4579a17c8cefd574ece32c8c1e3dd808423c2aabd30ae2958c4e0e574b7c336",
+      "publicSelections": 62
+    },
+    "628D2EB989914C2DBBDDFEB888CA31CA": {
+      "fingerprint": "683b651f6e60d4811b9c749a4c4c10e721a63f3894507192c85bb9785c77664b",
+      "publicSelections": 686
+    },
+    "FA7F518560E2EA0BDBF743A1577F0DDB": {
+      "fingerprint": "574a68a7e5a78e917f49688c77b160ee0c25cd428e7941ac88b15a4734ff85d8",
+      "publicSelections": 71
+    },
+    "1B02DA4EAB17EE61A864DE2EB70F4D52": {
+      "fingerprint": "a5481cea924f1551fa30c4dc51f0cd8bfc36c27673febbc6568a706a16840260",
+      "publicSelections": 16
+    },
+    "4F7E7C7A3965E2CD5F3E4D4F82C1F9A7": {
+      "fingerprint": "142f5467bd460d3928e5333e2a5cb3882d4ed567da34dc0bec726824145f3ff4",
+      "publicSelections": 20
+    },
+    "7CD9F612D69EEFF922C3F271E2BA1D72": {
+      "fingerprint": "daa43fbe4179c224a90567766f6401a8a1e3c3ae3e03faf066c369556cde871f",
+      "publicSelections": 29
+    },
+    "6193A5AE5579E4039E4D0589AE21DACA": {
+      "fingerprint": "9c71319e8f6e60563a19f100b681005091d5da2e3f5a1d070c416183171a0571",
+      "publicSelections": 62
+    },
+    "39A6111CF5A6EBBD996B089FFCD3EB9C": {
+      "fingerprint": "0bd66e52988142f1bd414180c133802c6000bd758fe914cfe76f9d378cda13fa",
+      "publicSelections": 8
+    },
+    "406F202A72F6E8F14E1C2FC471A82F70": {
+      "fingerprint": "94521822b3ad5baa3ac84ef1d72f5a6619e0dfdc69ca5e0bafc24eec4fa14fb1",
+      "publicSelections": 14
+    },
+    "A67CE51FE17BE08F286E8F8342D4C327": {
+      "fingerprint": "44436013354b75add101bd86921a3fb4938320fd9f653c3fc366c2eda983f4cb",
+      "publicSelections": 26
+    },
+    "7D9F01BD2688EBCE4F9DF73ACFC6D66C": {
+      "fingerprint": "3d5bc7a025f1986ea7732a87a9cb054bec47be42c94328a09324baa79bc5f4fd",
+      "publicSelections": 26
+    },
+    "18CFB0820CB9EDDECA02DE0F382EE721": {
+      "fingerprint": "8a2e2c60fd7824b193d236862c1f960f2aa226f9de3910b6995a04e11413eec0",
+      "publicSelections": 20
+    },
+    "84FA7180FA61EE9BC41E9406386C89E8": {
+      "fingerprint": "ac473cfb0734e642dc4879cdc545defba5fe27cc0e981237cb2dd1f6109be01e",
+      "publicSelections": 9
+    },
+    "C988A6875D85E5BE715D95DDF7075DB4": {
+      "fingerprint": "71ac78430238a49ff355922fe84b72f429bd0d34eb1bf54a269b9201e1d477fe",
+      "publicSelections": 148
+    },
+    "D0935698C4CEEBA12E206FCBCA340547": {
+      "fingerprint": "90c087746ee2ad1e6ebb4b3096877df6df45c94d95591fbdb1fe236d72198c76",
+      "publicSelections": 61
+    },
+    "0137285CF3DEE3ABF3193E5E857AE7DB": {
+      "fingerprint": "542ffaa19270515d026787e61b766b0458370b2a7fff5fc2328034ad085c9e95",
+      "publicSelections": 394
+    },
+    "BDF8B75365C1E9D95EAB6706CE6373DF": {
+      "fingerprint": "24f23ac10cac73604f1a7c12d65e9e9815ee3491996657be6a8fe688ef6e9172",
+      "publicSelections": 23
+    },
+    "30C2D59E16E1E7182E7735000387E1F7": {
+      "fingerprint": "4b58bf11acdc81625792c33852c861358656d094a256657eb82f7139fa0da194",
+      "publicSelections": 48
+    },
+    "5AE6D14C9140E489E748811532B8AAE1": {
+      "fingerprint": "a3a564dbd6273ce0b207f6d4bf694d31d3aee4e600c39ad574896faec78e2fe0",
+      "publicSelections": 8
+    },
+    "F353B58A110DE0D7DCBD2457A3797197": {
+      "fingerprint": "9a0b2ba6b063743a85583a61a1b234293ce91e3ece530d703078d7f03a9a5bc3",
+      "publicSelections": 60
+    },
+    "C22A37A43832E506617EB2F4434E855F": {
+      "fingerprint": "23017efb9322869c86f37d19e143edcf88846e73b459eff089033047a5232e95",
+      "publicSelections": 419
+    },
+    "A507E7D3A781E22F35AB894700017D84": {
+      "fingerprint": "a2a241d7ae5d4bc7e41e5bbe3a987dc16806a8766c2fd02de47268b800070a29",
+      "publicSelections": 169
+    },
+    "3FE1E7AD528FE2A75CD3483C385076C4": {
+      "fingerprint": "48350a51becb1faa5fee1b91bdf95ab372dc8bc2523c336e03847670be7202e2",
+      "publicSelections": 6
+    },
+    "F4149E168A75E0609E7D38FC1193D523": {
+      "fingerprint": "1860b518017ee4240cafaad2b1c8ca8b1ed089c48afabaa5005115e29ace5682",
+      "publicSelections": 60
+    },
+    "5065428F8D47E024C04F5AB4E31112CA": {
+      "fingerprint": "862aee075adf54635dd326348474c6cf0f8988222f78413be7ac61767c65bec7",
+      "publicSelections": 33
+    },
+    "C3C780B59A3CE6204AC35349FEC37394": {
+      "fingerprint": "6eb69dd70fc2cd7ef49791571e8ccca21a96b0e22e53ff68f33cd5ce7ae92439",
+      "publicSelections": 4
+    },
+    "3B0211B4DCD4EA86BB1FC4BB6ADCD7C3": {
+      "fingerprint": "bce96dfc95e05bdc3291950aaee3d13515da20bfa864c1a3509d7f7e6569f56a",
+      "publicSelections": 513
+    },
+    "62A8DB017E8EEB11B3A3991393795E72": {
+      "fingerprint": "13e8d99e0ba6f247bf51b2ff3e40f68e6ad6ddfe967e2620be002bf48578f97f",
+      "publicSelections": 53
+    },
+    "26E85C22B274E5695DA94BA1A3A0A343": {
+      "fingerprint": "b83646f39b047bdb7e83d48cb4115b083a2416820a40389e74a7c36b382fdb05",
+      "publicSelections": 622
+    },
+    "CF9408FBB1DDEA91EBA67EA2F1C015D8": {
+      "fingerprint": "a810b5f7b7a5ed61e53fbb9ba882157e45f578a95744758826213b9ec05e014c",
+      "publicSelections": 1104
+    },
+    "7A2DA22B0196E4813CDC85DB1C970313": {
+      "fingerprint": "6a22ab6dfac57414eb0c4bc260321eeb25e60bbc7aa408b84911bfe51aefef2b",
+      "publicSelections": 487
+    },
+    "A61D5813EBB7E2C5981ECFA84987639B": {
+      "fingerprint": "02fb2ac2beed3547db757f01d5fe2ca68d496ef9123626a2d94dc41437e4bdf2",
+      "publicSelections": 6143
+    },
+    "7F0EB703B6D6E3DF376EE1FB68894FF6": {
+      "fingerprint": "a9b32cc2def2d54ae6d3e1f8b73f60c4cadd20af4cb8de3af70a00733aa0a359",
+      "publicSelections": 99
+    },
+    "F58FC1908933E457851D1AF37E09301E": {
+      "fingerprint": "0585df32d7dcd8ad3dc2943301b265fcfcbe3fd2b54c7cf0dbc22dcc5899581e",
+      "publicSelections": 4
+    },
+    "AB07CB83562E4E8FB296FD5FA74B7DB3": {
+      "fingerprint": "d532887419de6ff426026c0fb93ca58eb408f566f4f5bea88edc739a3a394c67",
+      "publicSelections": 365
+    },
+    "305409983B8AE48709C636EE4005F04A": {
+      "fingerprint": "d3480666a7b6369f142cca2793a09a33a3b5e9ede34f2ae2c73f760e160e441f",
+      "publicSelections": 43
+    },
+    "ED6C3071A4A0E93BF1941116B45ED745": {
+      "fingerprint": "cd26cfc38127fa1304b032d17b7b405fcb2c90e4a5531a6fd858cc61bc67ced3",
+      "publicSelections": 94
+    },
+    "6F48F0918CDBEBB76DD545292C255B68": {
+      "fingerprint": "799296b515d5d0d19ae7b2b9c7499b3fcd4ce1253787f55a6dc1a73e94caa6d7",
+      "publicSelections": 318
+    },
+    "AAC65ADBDE024CAFA9F155EDDCCA0C1F": {
+      "fingerprint": "9cc89e741fdf35e706f23aba638b7c9f40004df0ad850593d004b8c7868c5f67",
+      "publicSelections": 9
+    },
+    "738F8F7E4890E6B818B5ACE3C3036604": {
+      "fingerprint": "0e6d2a087a4d9c60ef2d5e9d483d932cf8a5bb61d849a892bb92e6741e3bc805",
+      "publicSelections": 286
+    },
+    "FE19F5905B90E62AF750E4476660CAEC": {
+      "fingerprint": "6158bd157aa2072d7b41fc61e3be079d4e22de81b451e44a00ff00a9ea1e109d",
+      "publicSelections": 166
+    },
+    "FF9A4A182AA5EB45D01627817D176E5E": {
+      "fingerprint": "f67ee081a3c467fe01fb5955a82a2f443115b724a1746523d373f1033649c61b",
+      "publicSelections": 507
+    },
+    "4D5490992BA8448D9D69A7F746351B89": {
+      "fingerprint": "147471054118702cfd2c85143eaef7211f082a9ede6f221f03feb73295e9ecda",
+      "publicSelections": 19
+    },
+    "BB202C3CE69D47D19B5138D2E2FFE802": {
+      "fingerprint": "6ed5f85abc9a012ac5d4e4412a926f6d3d0f4fb5779f57577ecadbfd8a13a750",
+      "publicSelections": 264
+    },
+    "32700D0B9FBB474CA2DF2E334114BC5B": {
+      "fingerprint": "c690dfdd0c3e3de2e387d6ceab4881214efe49d5bd530d9d50db3ac4ee5295ac",
+      "publicSelections": 25
+    },
+    "CD9C3EBD7DB44EFF9DDFF8598C7369FF": {
+      "fingerprint": "7b0a4e71ca8ae7a9cb780e11154ddc9145d6320941c2bfd136f7daf9b8085416",
+      "publicSelections": 22
+    },
+    "8CDDA7D99E83E1421D3C3542A49272FA": {
+      "fingerprint": "611ce86449469a774f5992fd8f672b4227dceffcb10319e0a76f43a7c5851a26",
+      "publicSelections": 177
+    },
+    "A166913AB8014C26ABA2279F5D0A710F": {
+      "fingerprint": "ee81c264e164289551d4d7988dc8575cb41ebf00e698908679e1577a91970162",
+      "publicSelections": 25
+    },
+    "5D0661E7A082478AAC52AD8BC761FD50": {
+      "fingerprint": "7b25a4ee26c4c1287e9e1ef8b783f0abc7610ef0652bac2b7802f992fdbc4c35",
+      "publicSelections": 9
+    },
+    "191AFB3E5AAB4E3BB80BBCC24D349113": {
+      "fingerprint": "ed02d95bd234885a17ee6f4e838f34fe63179a1ae17ba902ac2facd1675fa2da",
+      "publicSelections": 18
+    },
+    "FBC0677BCD52E3EDFAD2C9B0B4645D86": {
+      "fingerprint": "c224b2cfb7e969f41f4b8210ebd42bd30a76f19d92ed2713a74731428d76fd63",
+      "publicSelections": 21
+    },
+    "39B470D27D3AE7BE36C2A15CB15E5476": {
+      "fingerprint": "d4f627a46d98d6fd3d4ddd68176ab07d70e18e3c38e9838139a23c154d65bdc6",
+      "publicSelections": 20
+    },
+    "BB8A8971F2EF480B9179519B95690878": {
+      "fingerprint": "c1cab21b316292472da55ea5baafa29e9eee75fcabef0102a45b6c797ac4614d",
+      "publicSelections": 69
+    },
+    "82D2161C8BB4E087647B84F29B41D6D3": {
+      "fingerprint": "cb33dc00903c15ce186244299e73e902cac23e8aacf96b991632bc3d19a3d747",
+      "publicSelections": 181
+    },
+    "F32AE3C8F2A5ED7A0BC0D546E923B492": {
+      "fingerprint": "8b8ef11ac5b0dcdce8825044f8ac03e1b22ae5bb287dc5de6537b512f06aa6fb",
+      "publicSelections": 19
+    },
+    "9D6982B984B945D3A13E98CA9FB0FE57": {
+      "fingerprint": "eab87ef14f590686093304942088f222a5bb76168a042e90f4a88d8c0846087a",
+      "publicSelections": 106
+    },
+    "432DEC8FB4F94515B86F2E5396D09FB4": {
+      "fingerprint": "3715528698b94332d7aec6901fa622293f894d001bb5ebe2cb97ab78ad46d09c",
+      "publicSelections": 90
+    },
+    "9155EB028D2B4FB3BD41D535FAA264A2": {
+      "fingerprint": "2d10484a5f38452ef49c76813d18e97645f80b7ca859eb2b5c4ee3e29520a1fd",
+      "publicSelections": 42
+    },
+    "E24FE7CCD7B1E27FD3CD60548C20CE2D": {
+      "fingerprint": "ab229acfd34966c713f24cda8c1b1ec454f4799502b8749034ee543a5996bf0b",
+      "publicSelections": 176
+    },
+    "B8AD755DDAEBE3A45D40D6E7D974637B": {
+      "fingerprint": "cc3a841cb26d47ea8e5976577587685e5176e3fc739ebf042bb007deb654be8e",
+      "publicSelections": 13
+    },
+    "6206D325290FE8E7EC332EBD6D88A238": {
+      "fingerprint": "967407a2e5dc82cf63952047e8ecc4d0b171f7baa6d339326ad612a6688cf04e",
+      "publicSelections": 68
+    },
+    "F9036AE7751AE9E7820A58D34211FEFC": {
+      "fingerprint": "0d04becfe5fd8db81b28b5c0389f7dfbc197c47e3688cea0262309f2f570c82c",
+      "publicSelections": 191
+    },
+    "3CD1B6C1EA79E50DBEE4211DC6F9A186": {
+      "fingerprint": "1490f611a34167ad58d2301f0544c64115544f5180c33e38f87da01cb9959021",
+      "publicSelections": 62
+    },
+    "15E8B3AB36AF495684116E6C5150950A": {
+      "fingerprint": "83b5a9a4310c1428deb61956562fba21f462118497f5251e5862041a4b4beb4f",
+      "publicSelections": 90
+    },
+    "93D1005763EE41F7B571D3F007DF5704": {
+      "fingerprint": "8430010f8adc6f12d5636bb5d36572d10122364292bc068bbac5767b2b746525",
+      "publicSelections": 7
+    },
+    "9A79D4C03ECA48FB9544B12169798732": {
+      "fingerprint": "c1d55848bd89d2e7112f3a626e621e9f14cd12b4e32037432fba471b1109d979",
+      "publicSelections": 60
+    },
+    "AE4F63731543ED0CE9AA73EB1E73B3FF": {
+      "fingerprint": "bb4016794bc0a302d4e4dc17e80078435f67da2c040b0d254defe0f571cae412",
+      "publicSelections": 41
+    },
+    "A868B8CCFDF44B2890211A0FAFE9F2B9": {
+      "fingerprint": "f208c478839df59f9d2e37877dffc94a32680698fd6e2a0a87430e809e91a77a",
+      "publicSelections": 310
+    },
+    "9776E3373AB6EADEF00584AE6CE4505D": {
+      "fingerprint": "d7a093237f07b9fd570f5f5582b9840891fd2ce397fbe0c271c4e4728a2fc3dd",
+      "publicSelections": 129
+    },
+    "41DF1CE89518406AB97E142EE368CE54": {
+      "fingerprint": "b4c8a3aac1b7fb63391fba4d75991f60e2f6a8f4b69a7fcc44b6f0d32813ab02",
+      "publicSelections": 52
+    },
+    "55581A433C3D45CEB183D21F214B5DB3": {
+      "fingerprint": "309d0352b580732214c006fbfc06b3d62328c2fbb2f74d30e36c82ef7ef20839",
+      "publicSelections": 293
+    },
+    "12FD56FFF2C74384AF52D04E7CEE255F": {
+      "fingerprint": "04f731aa9230e5411e7c52dbcd32e6ff4fbace45b1e150ca6d27a2acb4bc121b",
+      "publicSelections": 29
+    },
+    "98B67B70516949FD856C36A52AE23098": {
+      "fingerprint": "25b0d1bd1fe99886a4bac1166fa2b333f2aaf22532d5422820d13ff59eee32be",
+      "publicSelections": 295
+    },
+    "4B07E7C749314DBEB8C4158C26A02453": {
+      "fingerprint": "f90d29ce41dda54ccaa54decbb675722ee0d353a2eafdc8abdd8ffaa94988f48",
+      "publicSelections": 10
+    },
+    "A72CD9234D5E4386A7C153F8E08CF797": {
+      "fingerprint": "00a4336f54a832c353d046a6bdee6e252cf70a60b43b9e2cca22a0e892a6f7fe",
+      "publicSelections": 616
+    },
+    "6DBDC002A7C1430CA4C3526C86651659": {
+      "fingerprint": "dfab0127f2ee3c0777daa5f1f020a0ff71d5ae1bfcc1dae3a78018186065268b",
+      "publicSelections": 7
+    },
+    "29AF567C76864D208EA3BD39BC5CC7CF": {
+      "fingerprint": "122b13d1763d7fcb9543cb76aece07b1dd53cb42742dc671de92964eed1a39ad",
+      "publicSelections": 173
+    },
+    "E4AA65F7BC3348DEAA1A405FBF359592": {
+      "fingerprint": "fa18dd1ddc4e97b89e72bd3c319122c17c0eb8b0242369c839bcb180f8cc6ec4",
+      "publicSelections": 42
+    },
+    "B22DAF556BE4E92527A7407F3DDC5630": {
+      "fingerprint": "308ecaee34af2bdc82ca44619efa782c850ffd20f06d25cdf138f4eb1c42cd1c",
+      "publicSelections": 26
+    },
+    "5F501A1D6AA54C2E8306ED06B66657A5": {
+      "fingerprint": "c83fe4827d86cc6206c5676466600ab14ef974c093ce9e8c1e7061f3f67683e0",
+      "publicSelections": 54
+    },
+    "97E01B3F4DF6EC02175D948C7567769E": {
+      "fingerprint": "b9897e0797013ea64ba4dbed44840df5095a177b6218a0b111c7ff5502b38c0b",
+      "publicSelections": 96
+    },
+    "1EBA961BF35048008A08B489196F1A6E": {
+      "fingerprint": "4b2c6707df60a9fb427542726baaaeb4663bd07239eb9282c6b5dbb46ed51491",
+      "publicSelections": 105
+    },
+    "53907D2638954598879977C301F16196": {
+      "fingerprint": "39d9c4097a3e86ba1019ee2da45845be36d91adf454b962b65601b397b6bfdca",
+      "publicSelections": 96
+    },
+    "161EB5A0748AED25642FA886964B6304": {
+      "fingerprint": "10394e8c0a5380d3e93885a3bbb572c388392c48e5458615bf115b95ff412b74",
+      "publicSelections": 108
+    },
+    "70243FE151214450B3A87930FD5DF192": {
+      "fingerprint": "860ce4c554be1697f5d7c393732a9761b7ddacac90cc3474f987d6e00ec102ed",
+      "publicSelections": 54
+    },
+    "FF9BE206BB4D4228B5B3EB5F00D5E670": {
+      "fingerprint": "176480e86eb9f089d64be2fb7bce87ac93a5b183dbf6a55674f870da6d02e741",
+      "publicSelections": 17
+    },
+    "1219A74FADB7E7059B143DAF131CB386": {
+      "fingerprint": "e22a102d9a8ed554de6716f23228bdfb8dd798fdef9db45f097c5ad67116dba9",
+      "publicSelections": 333
+    },
+    "78EEE69EFBD4EAB9E0EF7A643386FA7E": {
+      "fingerprint": "b9553357df4b208d13899e747ff04e01d9d90164156dbac53f76855194112425",
+      "publicSelections": 70
+    },
+    "8DB0F6A838C1E54167E1BBF27836246B": {
+      "fingerprint": "873c40a134d61bf869ae3cdb9ab5cba20cf885ded61218f316e6c5200dd3c489",
+      "publicSelections": 61
+    },
+    "18E039299C01E45D0C6F1E640C94B63F": {
+      "fingerprint": "947a7ce30b5d215c77cbbe09a9310f60770ebd7da6a447bc138067d96ff75cf4",
+      "publicSelections": 12
+    },
+    "52B1C3F2B9574C37BAF0ECCC8D5AB8C1": {
+      "fingerprint": "a9d25e93c38dece704b0f6942ccfead60e1f37a8c86c846ac0df2397bcaea024",
+      "publicSelections": 89
+    },
+    "46F9949EEF0B4004B93D712D5C0A4366": {
+      "fingerprint": "f858a093b261d690e2bef046a4b05f424dd0dba25cd8f571358d64cd509aa3dc",
+      "publicSelections": 10
+    },
+    "116AC160B794E2A177E06FB91E766778": {
+      "fingerprint": "fedf9746f74f3694645258e0c204d33130dcb1ca20b38702e45dac6fb7e25c56",
+      "publicSelections": 23
+    },
+    "4D8130F061AE4BE9B77AA065ABD01E64": {
+      "fingerprint": "4c3e0d1c8580b0a6edf2f20c5b7c04cb62e717d99b290371414bc95501309ef6",
+      "publicSelections": 47
+    },
+    "4F32835BDB1F4C02956E92DB1AE38C5F": {
+      "fingerprint": "e3b0af9a2e42f6f5d738ade444a6c1da4d866919957a2615a4efe5faaf2b035c",
+      "publicSelections": 48
+    },
+    "DDEEC1B26F36E7A24978B407110501F7": {
+      "fingerprint": "985a2a9b8efcf66871d659a9c87cde5a7a74a779305a1764f3cda9c0dacd4609",
+      "publicSelections": 4
+    },
+    "D4AC8AC892DBEE1800F948B10F205B56": {
+      "fingerprint": "7e7679eb04c3a8cf8080080a8a4bf2aa155c40a670cf0f6fbd3a4dd0098d1a4d",
+      "publicSelections": 2
+    },
+    "9D3C0575BFA942CA95AB98EA453F1294": {
+      "fingerprint": "0142536ac1716f99682c5cbb391c6d12c77a3c83ba1f975d881d3425d4621ab8",
+      "publicSelections": 81
+    },
+    "857627CDE8FBEF82708BB212CB362A7F": {
+      "fingerprint": "bbd7d40ccbb3533d0a039334015ada74d7fb92aa918b5bdebc280f33f600f758",
+      "publicSelections": 110
+    },
+    "51F55B9A3EECE5C74C07866CC5F2D02D": {
+      "fingerprint": "b59754e2a8d0a4568592883a07b6f3f7ae625aa56af5a76950728d8019609413",
+      "publicSelections": 17
+    },
+    "FFC8B795919D48FD82F6DD702B6A4A3E": {
+      "fingerprint": "3303e1b420822b7ebe22e25dc131f566c8d638b947b3f48da7633130af94b1ad",
+      "publicSelections": 48
+    },
+    "FF5256DAFAB846958221CF1F4616DFCA": {
+      "fingerprint": "fd0d5e9f131071b51e80b1b3b748567a7cc2f981283032add0d0b7a5e39e3b3e",
+      "publicSelections": 43
+    },
+    "F8C2BCC87103ECC20416229ED5DCB87C": {
+      "fingerprint": "30b06462ef5ce514931ddc10d9fd8d834b6242e6ba729fe34ca2d24028f85a80",
+      "publicSelections": 6
+    },
+    "52916DEE454DE059DE9ED16FAC28EFA1": {
+      "fingerprint": "a365b98c9f560c485b2afa24c701e4f7e136c4b5f42ea4da73854184ccde1403",
+      "publicSelections": 31
+    },
+    "4723FB63AE3C460CB0D434538890EED6": {
+      "fingerprint": "136807eb3457914b4633e47f8e8a5a63649b38bf47dd5d6eb5fba82588947298",
+      "publicSelections": 52
+    },
+    "0205C34A1561E7B0B0C576B17640B5A9": {
+      "fingerprint": "38546ccc94d6652a22e5025cbfe4dd463c7a1029747be59774df01d08a4f2b93",
+      "publicSelections": 9
+    },
+    "B362A06F749D49B8A9B4080391A83C2E": {
+      "fingerprint": "302e25d33c399cca2d6f6e39c924ed9b3cba450f174a5f1c55269a32749def85",
+      "publicSelections": 223
+    },
+    "04F924E0CC51EDF12DBB02871348AD74": {
+      "fingerprint": "5be82b95bf18b290a0b8465c404363157052f60d6e1b0ac7c4278717e49807b3",
+      "publicSelections": 24
+    },
+    "95E0DCD23ED9E61EE2BC99ECDBC8D8C0": {
+      "fingerprint": "84fed9c4e4f39d30f27388364c06409dc91c1e60ea36d958f536011afdfcceea",
+      "publicSelections": 148
+    },
+    "E521EAE548DE4A4B9E087A00963908D0": {
+      "fingerprint": "0b4d1baa309510652451dddf0087276335efa59a43fcfc8826f56faf1f91632b",
+      "publicSelections": 64
+    },
+    "2BEF6248EF094C6E9F1AE87D842D03E0": {
+      "fingerprint": "6941454290496625fd47dc1f56b5fc1856aee359f257a8190d36766bc5fb622e",
+      "publicSelections": 423
+    },
+    "E8BF9EC5D142EF326540C7ED4200001D": {
+      "fingerprint": "22f4ae807b7e6f2393de3bdd4554a2585acfbb995c1c4cd1c9f668f04ce6b2c4",
+      "publicSelections": 66
+    },
+    "E3503B9BB6424884B3157B754204073E": {
+      "fingerprint": "d92d4b3b87a9d1bddbb0649d69ab1c1997185da11bb1f5161b72647f5d540d8a",
+      "publicSelections": 2872
+    },
+    "4B803FE7ECD54DB8A0941F918BB42943": {
+      "fingerprint": "7d89989265fa0522eaa6c65ee110e07dd610f896173fcbf31cb072976c62b775",
+      "publicSelections": 51
+    },
+    "3FF051A223694384AA2AA4EDE96BC144": {
+      "fingerprint": "a9951caaf4b9da68fdbb2564bfe6fa62968540829d2c90d7897504e08acedd0a",
+      "publicSelections": 36
+    },
+    "B06717AAA123E08900D241D1781A5E55": {
+      "fingerprint": "aa7ef0b20122243a199925d7b4dda30fa3e775c9576391b53187b05b9610e16e",
+      "publicSelections": 7
+    },
+    "9C1D65E1D0354A79817EF2304DA940E8": {
+      "fingerprint": "1897aee350929afe09fd8d8fd7dd537c20a6376ae378fe327d07af9470547022",
+      "publicSelections": 52
+    },
+    "E8C84F900ED34DA98391B4A8593684E1": {
+      "fingerprint": "071575b61136da70bfb7ff3f559539e304d88310f4973b1060d762c1277f3d97",
+      "publicSelections": 64
+    },
+    "5270E6EC14D143038B715776C1D3521E": {
+      "fingerprint": "f383f454f80963da58badb676d842b0dd30da76a4aff1314b56d1794f0c16bee",
+      "publicSelections": 1
+    },
+    "3D34A773F3074B92A5DBA1CCBC9DAE75": {
+      "fingerprint": "dc4ddf13c39296993c2c7dad47ec496636483635030c9838bdc977eeb073592a",
+      "publicSelections": 8
+    },
+    "4D9D74C90C8344208B1361977A8FC544": {
+      "fingerprint": "eb4e7c9a1109e511d5718c94987065e6104194b2d4240c3d23b6879c329bbb22",
+      "publicSelections": 27
+    },
+    "E500F3DB980EEA00468CEB52774C33B7": {
+      "fingerprint": "f13a30f836f55fb06f4b01d5fa955ef737c87a7949bc5e10b4bb7ba0684e164f",
+      "publicSelections": 23
+    },
+    "5A637BBBB913426BA5FEBBC58E0A6BF2": {
+      "fingerprint": "c9d43e46465b9f8ff2d3a5ec8ef6af4098589de4580316601664ccb1a1a42a9f",
+      "publicSelections": 335
+    },
+    "3B33E14F5074E73B319D8CE6A17DDFAC": {
+      "fingerprint": "7bcbbb40f999460190bc64675baa0bef7a49a966a9fa5c1561d03ea4250c25bb",
+      "publicSelections": 72
+    },
+    "B3EA44B110164A69A3BD4B928633F1E3": {
+      "fingerprint": "0ed2af008cb59a922561e2a918dd3a4cade1ab5ff26b577c04de7297fb21461f",
+      "publicSelections": 44
+    },
+    "79CD788B08C5E8B37070B3DD452FB313": {
+      "fingerprint": "9561509e1c0b86b80df795c167b9381f951b9669371a16288adfc44d43104927",
+      "publicSelections": 509
+    },
+    "AEF71C54D9B047EB8B92DBF1831755FA": {
+      "fingerprint": "63840d892c3d3cbe7a82a82946a5f8c09f51642d3f5946059e13ed8cbb398fae",
+      "publicSelections": 809
+    },
+    "1AA38915869D4AD5856F5B367531CA0E": {
+      "fingerprint": "77ca13e1281936c52ef3b4c44bdd59e175b99ffb6d45b3a0c08d573edca05051",
+      "publicSelections": 47
+    },
+    "63ABB434FE01EB0C75DABE2680B7A71E": {
+      "fingerprint": "ee7799ba2511f80c7ac7be6dde6663d8267a0398c7384d9957b94aa37c46a870",
+      "publicSelections": 338
+    },
+    "DCE69779238D4AA9B45463FD5A3BCEF7": {
+      "fingerprint": "39bfd18bbf21a0950311cb270401f5ac4a2e3de14aefa9214233034b1c685c5a",
+      "publicSelections": 67
+    },
+    "14C5477A6EE041A3B19DAD048E3FBB5B": {
+      "fingerprint": "ce52bafa9c1dcc317fe8e40923c58c4538ed761558a2ceb707d063193b83f48e",
+      "publicSelections": 1770
+    },
+    "6DE6DED75D254D59BFF16E8CEE21F305": {
+      "fingerprint": "d97f4cd12bc835b8fabe9c12569f55eef9e6003b6b1c3465598c2b973e1d5bd1",
+      "publicSelections": 138
+    },
+    "294776C0D86D489387DACD94A9927CEB": {
+      "fingerprint": "179f486330043513016a4ea3c9f61d3a2de0524135359d4036ce4a4f96f043a4",
+      "publicSelections": 63
+    },
+    "C068EBF06ABC4693BF6C2868E2385C69": {
+      "fingerprint": "ec14595888fdc3bc51f6bea6aeeab3fad640e5a6628396d9c62d1582aba96852",
+      "publicSelections": 3496
+    },
+    "1CCF69C3D48F493F8D2F9C43A2A04CD4": {
+      "fingerprint": "7a04e9fa94ab78fa7ac60a395aeaad74f11368fb33901ed8065be0ac586049bd",
+      "publicSelections": 80
+    },
+    "53AFF53F02514681A22F4E2FAB467483": {
+      "fingerprint": "195c43896818808b59224376d115f029cc374a2bccd8df7126e068b640238c7c",
+      "publicSelections": 792
+    },
+    "703AB631CB76E66408E7D6F7160F01F5": {
+      "fingerprint": "8483f37a2ce414d5f6c602b5130652dcc4d1e69dec46f69a8041ae731e68bfe5",
+      "publicSelections": 605
+    },
+    "8AC80D4CBCF3EC2FB87444DBA8BEBD67": {
+      "fingerprint": "94a627ce9e8cafd1ef687d4013bfadd011b6e7d2ff950701a89aa085129b6c62",
+      "publicSelections": 971
+    },
+    "75315FCCBA5D4B54A22808A1159B1775": {
+      "fingerprint": "5b5b91508d834f827b92071d4b2d1f6a8cca1f24b787488901a1feb70fbf8859",
+      "publicSelections": 1661
+    },
+    "7FD4EDEC44AD46EFB11981D4CAC32114": {
+      "fingerprint": "deb1a467d412143276df28c9d901b41ecfc773201add4d5d8ba648ac325ba211",
+      "publicSelections": 64
+    },
+    "2CA524B216BC4EB4BA63A2832033F918": {
+      "fingerprint": "626bd678ec5d7fab9191a9130ee7c28df1658175eeddcacdfbe82fa227280d27",
+      "publicSelections": 80
+    },
+    "9FA2AFFA723749029F6D6AF04C6D117A": {
+      "fingerprint": "45c10faadbe5d92658dc66313bf66000f063a23329a3aa3655dc19fb0f0c0627",
+      "publicSelections": 8
+    },
+    "4D2AFD7905384761BB166DCD6782B315": {
+      "fingerprint": "c18bfdc9a77a4032c8441395c2945e72cc03edcb1a92a598b5a4a7b73763979b",
+      "publicSelections": 274
+    },
+    "D620FD6DAD8CE0263CC82E624719AE3D": {
+      "fingerprint": "1812ceb6f321e8b6ec8014e86c08ca66b9ca0a50e9053b6e94a688fd43bc7d87",
+      "publicSelections": 3
+    },
+    "A34C2D89A870E552CC295C80AFFD6794": {
+      "fingerprint": "5ef220213545e89876b8011560a5b069c7f6d34d4bc26acfbdcfa195d1774cf4",
+      "publicSelections": 29
+    },
+    "FAA956A41DDB45EEBE390F1FD8D20C55": {
+      "fingerprint": "ec5f5c00e76941629933312544a496d946994cb126eaa13fe5110e5912b74672",
+      "publicSelections": 49
+    },
+    "5DF1FBB2026CE6E1050C257923FD3853": {
+      "fingerprint": "9e74502dd0deeb931081fa9d25ea7ebb266eae316319b4ce9cf54699bc3de89b",
+      "publicSelections": 35
+    },
+    "7A8DB05467DBEF2954FD9B30F84AA0E8": {
+      "fingerprint": "5095d5b3f6ad3d0e12b1d0294288e2cde6e94dbb4dc6fcd487053d1da55f0a23",
+      "publicSelections": 408
+    },
+    "CFB58B5793CB4B10BCCDDE3EC1B51C19": {
+      "fingerprint": "149b34e1d43f9dda49c7af9ba372e3351ebf4ee96f41e111de84b041380668f4",
+      "publicSelections": 97
+    },
+    "C265864F8406449F9A2770021D2BBB3C": {
+      "fingerprint": "88e8ab0a4bf58088724f9a670c4c364d30ed44861406e008495495a7ca750a06",
+      "publicSelections": 127
+    },
+    "B2340566123BECE11972A4501C75B8C1": {
+      "fingerprint": "bca3351061d16dc79c92af8a626a1c481ebf59a5b9045109b668b8f78423cda4",
+      "publicSelections": 214
+    },
+    "370AC40D2874E1246B99EB8122E23C9A": {
+      "fingerprint": "4a79e04a87876e2c723d2e752b1c8b2b74757a2f16e9ee0a658999a9ccf473ee",
+      "publicSelections": 2888
+    },
+    "342F898B5918E013D0EFAF5D187CAC22": {
+      "fingerprint": "061a6b80124431bf3a3ed13666e6f8a365334b5b0a3422beafbfdece1fa856fb",
+      "publicSelections": 21
+    },
+    "3B0B2077A5A44699B8F756D6A1F5CC7D": {
+      "fingerprint": "ce76c9345260f0e544afbcb944674b60d5bc1fa08dd51c7b4e7befda50733414",
+      "publicSelections": 42
+    },
+    "68DBD6552521E579B6ED5287D91C6F54": {
+      "fingerprint": "de3d5be3bb91c3b497b185fb288b8984be278d4e35ee58b739f44f35a9dc0c61",
+      "publicSelections": 6
+    },
+    "D3D5A6BA921F4EFD915F7B12D2779668": {
+      "fingerprint": "2db3a3bc939387a28881c2739f9fa272ea9d6f4527d59b1875cdf831204dd69a",
+      "publicSelections": 4321
+    },
+    "61B15DDE5810E15045F8152D76DE89FD": {
+      "fingerprint": "5bae8f7aa0c176e075071869baca46de2afc428f4f02a8038fbd7b79023277cf",
+      "publicSelections": 53
+    },
+    "22A64E95F7C0475F838AD67011654D49": {
+      "fingerprint": "605d0af77792ecb12f97c301de8d27c1a8e27f7cee1cbb0e4da1b355d44330e4",
+      "publicSelections": 36
+    },
+    "03AC86CF18154B14AB43126BC79D41F8": {
+      "fingerprint": "8d7b954188a940b5829e664c18d3f459dbdf5410bfb8d7f1bb5307f323cb1970",
+      "publicSelections": 17
+    },
+    "48991B831FEB414988B143D181EB0DEF": {
+      "fingerprint": "c6a4d6474b46efecc4e47b187ffd91fec027bf1b64795700ba1bf7b60505297f",
+      "publicSelections": 3500
+    },
+    "A462380470A140999D0AD4E11BEF52BE": {
+      "fingerprint": "7314d4bcab764fdf7e8fcac8eb11e1555fe38b4498282aa424f9c0269ff2ff4e",
+      "publicSelections": 35
+    },
+    "6BA5086EF7E2E1DCF1B4CEEC0DBB4B55": {
+      "fingerprint": "9430330a9a62222df5fe29f6e4982060a2e093c2736447633654cd3a3b8d4d58",
+      "publicSelections": 20
+    },
+    "CC093CE37A394C1F81BEAF67251D3FC4": {
+      "fingerprint": "94679541841f81c0c9cc68cebfc55ac2f8dda07991090d499a5ab80039797064",
+      "publicSelections": 1860
+    },
+    "BD4052A3136042C4B86176AB2F552C55": {
+      "fingerprint": "c089f9764cb6f7b1d018e115c8dbc58627cad0357806abb9d4dfd52a2104e05e",
+      "publicSelections": 890
+    },
+    "2E53F4A56442E16B5B7BC0902E36C585": {
+      "fingerprint": "4dc18c00ddfe0fd889ee2ea0267141ae1372521fdd9a258e12040aebfc78bf63",
+      "publicSelections": 6
+    },
+    "C8C084ECDBD341D0AA2C1FA5716E66E3": {
+      "fingerprint": "6b3c276021318c071ad4dc26640ea353d4c3921eba30a944407efa0e7a05dd3b",
+      "publicSelections": 25
+    },
+    "BF2B7E937407E648DD80C2528263A450": {
+      "fingerprint": "a0add80e5716ade17d1126fa0db4a42f8be142d5d174b11258db307e5652c578",
+      "publicSelections": 329
+    },
+    "3633354029CFE10F551F7CA219518DAC": {
+      "fingerprint": "1212db472587e12601eb77fd7dc55b4f3a064af03a4b3da027e4c0e624c21ba3",
+      "publicSelections": 108
+    },
+    "0C9ECE2BFDC3E344AC68F7EF3A7101F5": {
+      "fingerprint": "887f173de547f2b24220ea8c322476e03472a622b104dc54c099214afce6bf23",
+      "publicSelections": 34
+    },
+    "2E899D7A2A2DE9B09ABA9A4160C9D3F8": {
+      "fingerprint": "0ad1e2924452e5ef9a95b153fac416964f2323b8c1c76415f33168cef47e272e",
+      "publicSelections": 12
+    },
+    "BD766C442B19416EA9D42C62C5DA721A": {
+      "fingerprint": "ab47ddfead9cc2ab7563b2a5e8de5343a9772c56d0a2b9c12d9cf018555b5fe5",
+      "publicSelections": 10
+    },
+    "9E2097943E7F4A8AB3F8A1B03D1E644D": {
+      "fingerprint": "23f749b7a7c5f43b656d50cc9b52c6c2dd755320425a810a1c3f97f51fdc9517",
+      "publicSelections": 41
+    },
+    "61CA06C3639D42A789B6DBF5E2F86E6C": {
+      "fingerprint": "3a1abe92f29f1150577c0c4b6058d351bf6a1e5bea90903e91b18025df6e3e2d",
+      "publicSelections": 2
+    },
+    "A545543411D4E74FDD22583EED5DCD87": {
+      "fingerprint": "11629fbdc3ce814fb1fb8ac3bb6171e048ef7cccc4dbe13175560c6bdc966c63",
+      "publicSelections": 51
+    },
+    "388C5CE1497248D8AB59AE07C7B12BBE": {
+      "fingerprint": "8cca88880e2a9d06a9190ff08e74043543a4353e10006708bf780beb878cf9ff",
+      "publicSelections": 9
+    },
+    "FAF773D669C84BC49FB837C8DC094417": {
+      "fingerprint": "7e225b316a65b3927fe9d8748bafdce07762ec8094478e4a6e3fc91346ed0a30",
+      "publicSelections": 257
+    },
+    "FC3291E97A2B4A1FB2A2B664AB345C85": {
+      "fingerprint": "42b3fe53c4cc5db4e7a86c783a11e82fb74580186b4faf30383710e93c3898ac",
+      "publicSelections": 43
+    },
+    "B73760379052E56FB65E6087189A0312": {
+      "fingerprint": "984dae9809c941156ef4ffa4d2343fb8ec5e15f99ffc7999bb976abad7d8545e",
+      "publicSelections": 40
+    },
+    "DB53ABF4937F457EBF7432583E55A26C": {
+      "fingerprint": "447ac7693c05d104d426e8600551ad28130db130a115226d160ff09ee73c66b2",
+      "publicSelections": 15
+    },
+    "A73492EB36754162BEE9588EF11F2FD9": {
+      "fingerprint": "65d7c64f98f60ed836c59213e0924a4a125bc54e4f3c061b71134f509865b446",
+      "publicSelections": 405
+    },
+    "9C2659CEFAA5E6114DDA8A2D71F13AF2": {
+      "fingerprint": "a95be8075cd95dbd6385f0b2ef68ee11bc9a9b6e1865a630e0fcac7184d9b0b8",
+      "publicSelections": 126
+    },
+    "65B32249C87F46A6BEA80B4FE5F9C1EE": {
+      "fingerprint": "ec3e139e81f96d0e2138604577e27216b723da971e5252f195cf56b9901adcce",
+      "publicSelections": 108
+    },
+    "4D77315AED654CCC921D8BAC5B21A41C": {
+      "fingerprint": "f86f67c5650f0f0930aa278c9df0f1d6689eb7c6c43e5579b439842453907aa9",
+      "publicSelections": 60
+    },
+    "ACE872F0F216E74E3C232830B6081C4F": {
+      "fingerprint": "fb242a20a5d4e5e1db9f27b0e561ec73d21d3e67e534e31096390e377d4d5463",
+      "publicSelections": 5
+    },
+    "C957F3FF62F84A3A8DBA4B23EA26E8CC": {
+      "fingerprint": "d35c1375b836fc8d80d72e1b5f0e85d85cd5d2b1bd516f1e01dfd713e7dc4a3e",
+      "publicSelections": 44
+    },
+    "6333FDFFA1A7E1E6F2E6E954BADDF7DE": {
+      "fingerprint": "8de0ff537deea096153e219b78c9a89658c4009334cdb5b4dcd919d8a9d62cb0",
+      "publicSelections": 13
+    },
+    "D5D98C8A2EDA475EBC48A0E84E2AFE1D": {
+      "fingerprint": "1c98c8180cc2ba9829f4594a800a0036f0cdec28cd7a7134ac901996361e5a85",
+      "publicSelections": 111
+    },
+    "023F2C5312FE4C9BA59624CDFA1998E1": {
+      "fingerprint": "dba7112b1765dd6e36d8aaf8caa7209f4469bb4b83705c7edbd2c3d6f1aa6023",
+      "publicSelections": 41
+    },
+    "7329FDEC013DEAD42EBB1EE8D4348E33": {
+      "fingerprint": "4725771dfb0de5743dc9baa4df859fc95515eac874b53cefc81c421b78597d39",
+      "publicSelections": 58
+    },
+    "193E825FA96F443BBA9ABC0E163E0F11": {
+      "fingerprint": "f2f9b61f4eb9c7a6993f4d6d8d671e6f6cfabdda998347ab555ebb1dc07accaf",
+      "publicSelections": 66
+    },
+    "43395CA160734AE8BF30EBF8DDA8BB1F": {
+      "fingerprint": "65590d92b2f1259bec34d6d209e84fd9a233a81f5eac54ffa6ae6fc3abe522f1",
+      "publicSelections": 17
+    },
+    "2F9E3A01AFCCEAC5262DC3738E50F13A": {
+      "fingerprint": "bac1d51775c47e0eb59660b74421eb75c58c2aa4ca6f612f328eb3bceb4c6bf2",
+      "publicSelections": 356
+    },
+    "F3B3303C979E42428EFC5629B545E4E4": {
+      "fingerprint": "86e54963c0c68d5c733aec55ef981cf9954e75f273c0e469c9c5e1410247fa3e",
+      "publicSelections": 2097
+    },
+    "344830F10FF3E024ED058D859E65EC8D": {
+      "fingerprint": "88c66fc88df2e99d701fa63a606c6acc905f39fbfc83995fdff19a5b6219ad97",
+      "publicSelections": 32
+    },
+    "9DEC6BF8F69A406FADF3FCA1C4BFAE33": {
+      "fingerprint": "e8045a19517cd29a4dad0f144247dd807761f4683dcf1a0cb0c5a5411c49b385",
+      "publicSelections": 43
+    },
+    "73709CA9F1694378BFE128A306C8D7CC": {
+      "fingerprint": "b340f8fcf9920e0f5ca6300752dcc056f2d483ac819df4cfe4a910e66cb03c89",
+      "publicSelections": 105
+    },
+    "CBBEF627F45A45E7850653204203438C": {
+      "fingerprint": "7ba7f57ef3258f6414c10843f7431376df680c130d21ce9f3611e8c7c5a10c33",
+      "publicSelections": 1253
+    },
+    "E9239F2F8F30E75D30C97D5222058E75": {
+      "fingerprint": "d1872b30a6a54bc93ef50a4eed1224dd4076644ae912d88c95b102f84d3fd3d0",
+      "publicSelections": 53
+    },
+    "EF1460687A9249CCAFEDE564FF3B9F06": {
+      "fingerprint": "a22f0ccd5d12f24ac926acbc3bd03ffe1f88558236172a775e039931fd118825",
+      "publicSelections": 36
+    },
+    "C065A79DAC15E74803C67A77D6F255E4": {
+      "fingerprint": "ab2bd1a23773c4566f15922a28473f7f524f22eba8d2b3837b94753471240fc9",
+      "publicSelections": 39
+    },
+    "568978583E424499943612635F17DB7F": {
+      "fingerprint": "6f5dddfd8b6ce8ce43a227c8c7aecb49eeec94f898515ae03448c9412872c701",
+      "publicSelections": 36
+    },
+    "64A81CD1014F40F9A26937FA27715202": {
+      "fingerprint": "91b1c067996ae66c8c4628da4b03691a003e6c968be34540ca7f57f23098ac06",
+      "publicSelections": 10
+    },
+    "C0EDDD3E844E4114A8D00103258F7A8F": {
+      "fingerprint": "7ac9a295e6de5406a8cb38b71817419d6d6aa89f33c75fa2652129661113d65b",
+      "publicSelections": 14
+    },
+    "4E323D7B85E34704B18BD5AB68F84E22": {
+      "fingerprint": "3457fdbf3fa84437ebbd052dcefe4563c0fcec0d4b98eb1a42596ddd380dfa65",
+      "publicSelections": 3075
+    },
+    "6E786EE894E9EA130794C22592689E71": {
+      "fingerprint": "9b0e9f2d909443536e325878a313bd51de0570411d51ed708a68df08cb2caabd",
+      "publicSelections": 219
+    },
+    "F115687B598B470AB058ADEDD3C97F66": {
+      "fingerprint": "45f6ce42c191f9b0f24943c2e1e053a372ab462a9a6b584445fad48f56a2b579",
+      "publicSelections": 54
+    },
+    "D1CA07BA971AE54EB4BCE0ABB94841E7": {
+      "fingerprint": "b96b55eb2bf8ca1d6b94b4ec3d2383a3e903821d31c445c035b964a262276425",
+      "publicSelections": 630
+    },
+    "05BF59468BDB4AE8988D540CBE8E5C2B": {
+      "fingerprint": "8862a024e1caf3fdb8393373dca416a24c850e63763e00338067c90a1cfe4fa1",
+      "publicSelections": 43
+    },
+    "5410D4DAE5454E8D81B13EC3E9DA2F23": {
+      "fingerprint": "0fddccd3d799a481d4346ce846056e92b70d0c80d6b92dc988ec0b25f4433385",
+      "publicSelections": 94
+    },
+    "1A11545F6FCC460995486A8C10B9506C": {
+      "fingerprint": "e4f6f58767ca4b4087f1dec848076957d01112f7d5a0815e1e5f000784e6b36c",
+      "publicSelections": 118
+    },
+    "84AD735BE35249BCBFC3DE87B796C72C": {
+      "fingerprint": "8f05aa0677474d90fba0f50b6d57d93080cab61e47c19c7dc1f60a87ea12fc78",
+      "publicSelections": 72
+    },
+    "58CCB959C2C14BCA91979DA42D866EC8": {
+      "fingerprint": "acdfc0ee739ddbde326cfdd27ee954015db14595fa021f6d83b2085b39e2a82e",
+      "publicSelections": 23
+    },
+    "A20E909C76AB45A7A3B172F91D3C4D97": {
+      "fingerprint": "d088904086c6b87b2fc6ed504ee70b136e7e2742fadd4b63c371e95c9168dbf1",
+      "publicSelections": 258
+    },
+    "0858B3C3177BE8300A0B98D4DF4EBB10": {
+      "fingerprint": "91c3845d3468637747784535b03986973823bedbde56ce3b48c0f1c8970d3f9c",
+      "publicSelections": 57
+    },
+    "7A3285F9D060E1FFC9B67CEF57102DA7": {
+      "fingerprint": "dc8e2b86e2c53bd33ddfaf93fa96a7567682a4f56eb7e996bccf9dc869212e0f",
+      "publicSelections": 12
+    },
+    "A4AA0909671F483EB793112083AAB33D": {
+      "fingerprint": "fc3bf27aa874aa68fa6c2f6b372a4869f376372ea77fb8ebf1bc86f4cc211bfb",
+      "publicSelections": 75
+    },
+    "94AE855C19A34B0D9F7D09FA46079FB3": {
+      "fingerprint": "11274a09ec6040a47062250cbfa50511a32ac0b07899d03c2c253b546dd6ee87",
+      "publicSelections": 80
+    },
+    "30894349063B41739E0027F705C40651": {
+      "fingerprint": "772d953f87040466f2152181c4193d90fc96c852a5e051591ba9ba18954e4b0a",
+      "publicSelections": 64
+    },
+    "91BFC765953C4C6D9943AF7361ADD675": {
+      "fingerprint": "b25a2f9b9eb5559fadcb65a01bfca291123160145672582191a4f7d6cd801812",
+      "publicSelections": 276
+    },
+    "25D5D8F955CC436AA7A1B20E51D912F3": {
+      "fingerprint": "7fbdfe7b96ba45a69645bee27786312a02be1f1870c7afa4950b756724427196",
+      "publicSelections": 80
+    },
+    "C307803DE6C7E45E17BD19C083DE4620": {
+      "fingerprint": "4ee1cb45fc31f59ec178ca94fd935ce4c22f31422b51b78c7ef9516323e788d4",
+      "publicSelections": 44
+    },
+    "987EF0C27231E82F60711CF5B59C8BBF": {
+      "fingerprint": "705621176e4d0417795339737f0a39aa3a886bc18c1bb8412e0fd738f873b11a",
+      "publicSelections": 63
+    },
+    "A8B7BAB865C1EDFF1E086B0B1C1C8B38": {
+      "fingerprint": "386937b6347d034e22c6b4e8c5483870b4ff638dd3e51c8009ff32d323283cf1",
+      "publicSelections": 62
+    },
+    "8677D5CBAD964C7F95A61AF10D5EB72D": {
+      "fingerprint": "11c019733699d19b59bb8d5417091777435a9f218a05a491c246d49a87852fff",
+      "publicSelections": 1319
+    },
+    "B09DF372555FE0EF51DAE5C0119AD51E": {
+      "fingerprint": "f8ac8258eef886e47a9b95fd3e8866c5fc13a5681607e68a76ca4784796c80de",
+      "publicSelections": 11
+    },
+    "50D596B8CDE8EE327D4667F516197AF2": {
+      "fingerprint": "6ef56401fa7f080ffb9e6071dc0631f7115174dab4484a43846fc12613736da5",
+      "publicSelections": 217
+    },
+    "DBB07A9A48FD421E8F6E02D219149549": {
+      "fingerprint": "6316ee6bc74ea2c58f6a43541ab0649d72c4ce3e6b70943108ed7ec18b0fd3f7",
+      "publicSelections": 1132
+    },
+    "5C70FAED65314EFAA8B49E0D3FEC8102": {
+      "fingerprint": "f2b32e79f5f664dba460be18dfa7c70c6ca1341cd69682762f3a2f6241b3be05",
+      "publicSelections": 247
+    },
+    "91D833BA584F4D1D93358168C049C525": {
+      "fingerprint": "c5999ef22cb9e5300c1c678e8293f405345e3dadb7ac48f657ffac58c6f4ce88",
+      "publicSelections": 16
+    },
+    "938239E920FD40BEAE2E8DD30528D54A": {
+      "fingerprint": "5cd48ffbb38fc137aadace09f8b376dc6e1c510a942192d1e5e2a6484638249c",
+      "publicSelections": 158
+    },
+    "E5B7CD1735F6E8500A618FCAEDB19771": {
+      "fingerprint": "04d111ed1b70f4b1f5b2711ba6b5910142a8f449daace3872e295e09fe0f1928",
+      "publicSelections": 9
+    },
+    "F21CB46DB1E7424F8F52EA6E0C61DD3B": {
+      "fingerprint": "c3f154b35b59fa8dd0eab772a6552a16a1164e7c2f6c39bb7ca27c1bb8db929a",
+      "publicSelections": 774
+    },
+    "183275A5B837E5FF68BAE9DBF2B22BFE": {
+      "fingerprint": "581e6afa0e8f5af016f9bec1fe1ec5e6959d62d416bbab5596bba267ced51167",
+      "publicSelections": 10
+    },
+    "6280A04C18E1EDA8175C748BAC2D2A19": {
+      "fingerprint": "e84f014f2655c2f8001d3268640ab2206a27af9431f8ef9aeca136de63a437c7",
+      "publicSelections": 10
+    },
+    "1F941B251E10EA4F406FDD64819512C9": {
+      "fingerprint": "91ca963aec5edad78b816c305e40bc244e0d99eea671204913094cb6a18b6573",
+      "publicSelections": 13
+    },
+    "C64E94C9365DEE106495D05F1FA8AEA1": {
+      "fingerprint": "da62dd540cb1bafd05d4bb14a73e4f32ec74730bdc10192b1a440172a640b65f",
+      "publicSelections": 23
+    },
+    "CB73A56CDCC6E0484B0C8324B42C7E3D": {
+      "fingerprint": "70a3bde29cfa45363f9f6e08043770d129a99749ab9ca8f94f19afdc7dea144e",
+      "publicSelections": 98
+    },
+    "33935FBED9F0E410656C9D3DE991FA40": {
+      "fingerprint": "1d6eb38b4661f6027912a3a4482a30315ddc17c5b2dff17a73ce08bbed7e57a1",
+      "publicSelections": 113
+    },
+    "0DB1352636234AF3A5E69C0111872F10": {
+      "fingerprint": "18f018dd4827bbe333dc1c48449c9125a276c571f270b4d1816fc0ec283102c1",
+      "publicSelections": 396
+    },
+    "BD88D70EC7AEE658A00C66FE24E0CA85": {
+      "fingerprint": "4ad13612944cc0d32789dd92f4d649ef8fcf6c29fea3cc6009ff7f14a71f21f9",
+      "publicSelections": 325
+    }
+  }
+}

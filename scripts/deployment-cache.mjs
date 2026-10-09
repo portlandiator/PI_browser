@@ -1,3 +1,5 @@
+import {buildStudyGuides} from './build-compilation-pilot.mjs';
+import {packStudyGuides} from './pack-study-guides.mjs';
 import {copyViewDefaults} from './copy-view-defaults.mjs';
 import fs from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
@@ -20,6 +22,7 @@ export async function buildInputs(root){
   }
   await collect('data');
   await collect('subject-summaries');
+  await collect('study-guides');
   // Public builds use only the filtered archive; private raw extracts never affect them.
   try{await fs.access(path.join(root,'data/subject-extracts-public.json.gz'));}catch(error){if(error.code!=='ENOENT')throw error;await collect('subject_extracts');}
   await collect('pdf_volumes - copy');
@@ -70,6 +73,8 @@ export async function refreshSite(root){
   await fs.cp(path.join(root,'src'),out,{recursive:true});
   await copyViewDefaults(root,out);
   await fs.writeFile(path.join(out,'.nojekyll'),'');
+  await buildStudyGuides(root,out,stats.dataset);
+  await packStudyGuides(root,out);
   return stats;
 }
 

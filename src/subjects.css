@@ -134,3 +134,6 @@
   .subject-passage .passage-translation.authorized-translation > p{color:#163f80!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}
   .subject-passage .authorized-translation mark{color:inherit!important}
 }
+
+#subject-study-guide{display:inline-flex;align-items:center;min-height:34px;padding:6px 12px;border:1px solid var(--control-rule);border-radius:4px;background:var(--white);color:var(--ink);font-size:15px;white-space:nowrap;text-decoration:none}
+#subject-study-guide:hover{text-decoration:underline}

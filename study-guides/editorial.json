@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "status": "editorial pilot — unpublished",
+  "dataset": "collections/390a77fa-5b4/",
+  "date": "2026-10-08",
+  "method": "Read each pilot compilation and its source contexts, then arrange all current public source groups by an editorial reading arc. Retain every public selection; merge overlapping linked ranges within their original source paragraphs. Keep unlinked quotations distinct and after linked passages. Neither citation counts nor match scores determine the reading order. Introductions and questions are editorial interpretation, not authoritative statements. Comparative references suggest avenues of inquiry, not equivalence or historical influence.",
+  "subjects": [
+    {
+      "id": "05E420B98BD2E4B67D13B89EF7D1AFDF",
+      "slug": "beauty",
+      "displayTitle": "Beauty, grace, and aesthetics",
+      "introduction": "Beauty can arrest our attention in a moment; these passages ask what could make it deepen over a lifetime. Bahá’u’lláh begins with the attraction of outward beauty and directs attention toward the beauty expressed in deeds, speech, and spiritual qualities. ‘Abdu’l-Bahá places the fragility of physical loveliness beside an inward radiance capable of continual growth, and identifies faith as a source of that radiance. Read alongside the neighboring subjects of cleanliness and artistic creativity, this movement invites care for both character and the forms through which it becomes perceptible: a gracious encounter, a tended garden, a thoughtfully made object. Plato’s account of an ascent from bodily beauty toward beauty of soul offers a fruitful comparison [1]; here, the emphasis falls on a life whose conduct attracts and nourishes others. The invitation is to cultivate a beauty that time can enrich, and to discover how love changes what we learn to see.",
+      "arc": "Begin with the attraction of beauty, confront its impermanence, and end with the inward source of a beauty that can grow.",
+      "order": [
+        {
+          "key": "source:BH03182",
+          "why": "The direct invitation to observe beauty provides the most immediate entrance. Its movement from attraction to conduct gives the reader a question to carry forward."
+        },
+        {
+          "key": "source:AB08855",
+          "why": "Introduce the tension of impermanence, then the possibility of a radiance that increases. Keeping its two source paragraphs together preserves that turn."
+        },
+        {
+          "key": "source:AB10652",
+          "why": "Close with the shortest, most concentrated statement: faith as the essence of beauty. It returns the reader to the question of how inward life becomes visible."
+        }
+      ],
+      "questions": [
+        "How might a person’s beauty deepen over a lifetime through the relationship between faith, character, and deeds described in these passages?",
+        "What might the cultivation of inner beauty bring to our understanding of art, outward refinement, and the people whose beauty we have yet to recognize?"
+      ],
+      "neighbors": [
+        {
+          "id": "930E4F8D8225422881E16A841A80DE02",
+          "relationship": "recorded neighbor",
+          "invitation": "Follow the relationship between inward qualities and outward care.",
+          "evidence": [
+            "ef9eaeb191dde5802fb561fb",
+            "e35042dc16e6af41d0f28308"
+          ]
+        },
+        {
+          "id": "C607ACD036BEE32B103A75FD10883CF2",
+          "relationship": "editorial exploration",
+          "invitation": "Explore the gardener’s inner garden and the cultivation of creative capacity.",
+          "evidence": [
+            "36d11d9b34f7b61e9a8c303f",
+            "0888bf89ab1f499fe88a19eb"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "1 · Plato’s Aesthetics, §1.2 — the Symposium’s ascent of beauty",
+          "url": "https://plato.stanford.edu/entries/plato-aesthetics/#BeauArt",
+          "note": "Comparative context for the introduction and final question; no claim of identity or influence."
+        }
+      ]
+    },
+    {
+      "id": "24036FC18E7148F7B77AFAD9C5485720",
+      "slug": "knowledge",
+      "displayTitle": "Four methods of acquiring knowledge",
+      "introduction": "Certainty is easy to feel and harder to justify. These passages invite us to examine the instruments with which we judge reality: sense perception, reason, received religious testimony, and inward inspiration. Their images of light and faulty balances turn an abstract problem into a personal inquiry: how do we recognize the limits of the very faculties on which recognition depends? Philosophical debates about perception, reason, and testimony offer a neighboring conversation [1]. Within this compilation, some accounts emphasize the agreement of several criteria, while others locate certitude in the confirmations of the Holy Spirit or the illumination of the inmost heart. Reading them together invites patient attention to these different emphases. The adjacent topics of independent investigation and intuition deepen the challenge: freedom from inherited prejudice must be accompanied by scrutiny of our own inward impressions. The reader is left with a demanding possibility—that spiritual receptivity and intellectual humility might strengthen one another as we learn how to seek.",
+      "arc": "Open with light and perception; establish the available methods; unsettle easy confidence; then place converging evidence and spiritual assurance in conversation.",
+      "order": [
+        {
+          "key": "source:ABU0971",
+          "why": "The sequence of light, eyesight, intellect, and divine light opens a concrete distinction between seeing and understanding."
+        },
+        {
+          "key": "source:AB00520",
+          "why": "This brief statement supplies a clear signpost after the imaginative opening. Return to the Four Criteria of Comprehension with its fuller critique and account of spiritual assurance."
+        },
+        {
+          "key": "source:ABU0608",
+          "why": "Let the reader meet the different approaches to knowledge before examining their limitations. Begin the unlinked quotations with a recognizable map of the methods, preserving this separately supplied wording."
+        },
+        {
+          "key": "source:ABU0251",
+          "why": "Add a related formulation, including its use of revelation, to encourage attention to differences in terminology."
+        },
+        {
+          "key": "source:AB00223",
+          "why": "Move into the explicit critique of each faculty. Its complete paragraph, available under source context, ends with a question about inward impressions. The mirage and moving point make fallibility vivid. Retain its explicit provisional-translation attribution."
+        },
+        {
+          "key": "source:ABU0484",
+          "why": "The image of a boat crossing from earthly to spiritual truth opens a new horizon while retaining this account’s threefold formulation."
+        },
+        {
+          "key": "source:ABU0029",
+          "why": "Focus the challenge on perception and reason before considering all four criteria together."
+        },
+        {
+          "key": "source:ABU0004",
+          "why": "Introduce the constructive proposal that several forms of evidence can test a conclusion together."
+        },
+        {
+          "key": "source:ABU0648",
+          "why": "Develop the proposal of convergence while introducing a distinction between human confidence and the Holy Spirit. Keep this parallel extract beside the related account and preserve its explicit pilgrim-note attribution."
+        },
+        {
+          "key": "source:ABU0300",
+          "why": "Let the question of how knowledge is attained become explicit and urgent."
+        },
+        {
+          "key": "source:AB00207",
+          "why": "Introduce the inmost heart as a bridge to the final, more developed account. End with the fullest exploration of the balances and the inmost heart, leaving discernment as an active question."
+        }
+      ],
+      "questions": [
+        "Which ways of knowing do you rely on most readily, and what experiences have revealed their limits? How might another way of knowing help you examine a belief you usually take for granted?",
+        "What would it mean for observation, reasoning, testimony, and inward conviction to support one conclusion? What difficulties arise when they disagree—or when their apparent agreement rests on the same assumption?",
+        "The compilation describes both fallible inward impressions and spiritual assurance. How might a seeker explore that distinction without treating a strong feeling as sufficient proof?",
+        "How do the accounts of converging evidence and the accounts of the Holy Spirit or inmost heart illuminate one another? What differences should remain open for further study?",
+        "How might independent investigation become a shared practice in which people help one another notice prejudice and error? What could the neighboring subjects of intuition and the harmony of science and religion contribute?"
+      ],
+      "neighbors": [
+        {
+          "id": "30A42A15DD044876BA9A0BA8D1D60330",
+          "relationship": "editorial exploration",
+          "invitation": "Follow the challenge to inherited prejudice and imagination in the search for truth.",
+          "evidence": [
+            "23a3db28b47f14a7450df20c"
+          ]
+        },
+        {
+          "id": "F9048B210D354CDE8C29D32A2F92E9B1",
+          "relationship": "editorial exploration",
+          "invitation": "Compare the cultivation of intuition with the problem of discerning an inward impression.",
+          "evidence": [
+            "c0b7a574ee9dc7a27de70588",
+            "d976861cf1b76e9661cda634"
+          ]
+        },
+        {
+          "id": "99656E1B1D7344D8930ACA530FDE210B",
+          "relationship": "further reading",
+          "invitation": "Carry the questions about inquiry and spiritual understanding into a larger conversation.",
+          "evidence": [
+            "52c2281e6afb5f216b210487"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "1 · Epistemology — sources of knowledge",
+          "url": "https://plato.stanford.edu/archives/fall2021/entries/epistemology/",
+          "note": "Philosophical context for perception, reason, and testimony; this is not an identical fourfold scheme."
+        }
+      ]
+    },
+    {
+      "id": "B5CA8DC45DCC48AABFC267FC9214C6E2",
+      "slug": "cooperation",
+      "displayTitle": "Need for cooperation; solitary existence not possible",
+      "introduction": "A lamp in an empty room offers a searching image of unused capacity: its light needs a relationship in which to become a gift. From that intimate starting point, these passages widen the field of attention to fellowship, work, the exchange between communities, and the interdependence of nations. They distinguish the cooperation compelled by material necessity from the willing service that engages heart and soul. Read beside the subjects of the struggle for existence and the conduct of believers, dependence becomes an ethical question: how shall we live within relationships that already sustain us? Paul’s image of a body whose members share one another’s suffering offers a resonant comparison [1]; the Bahá’í horizon here extends toward the unity of the human family. The closing passages widen reciprocity still further, into thought, feeling, and understanding. They invite us to ask what becomes possible when another person’s flourishing enters into our understanding of our own.",
+      "arc": "Start with an unforgettable image of useful light; move through fellowship and willing service; broaden into social responsibility, world interdependence, and reciprocity of mind and heart.",
+      "order": [
+        {
+          "key": "source:ABU1794",
+          "why": "The empty room and the inaccessible tree turn an abstract principle into an immediate human question: who benefits from our capacities?"
+        },
+        {
+          "key": "source:AB11082",
+          "why": "Keep this separately catalogued version adjacent, preserving both source identities and allowing comparison in context."
+        },
+        {
+          "key": "source:AB02048",
+          "why": "Move from the solitary person to ordinary practices of gathering and conversation."
+        },
+        {
+          "key": "source:ABU0885",
+          "why": "Introduce the important difference between necessary economic cooperation and willing service of heart and soul."
+        },
+        {
+          "key": "source:ABU0448",
+          "why": "Include the compilation’s animal imagery before widening its account of relationships; leave its historical generalizations visible for reflection."
+        },
+        {
+          "key": "source:AB00446",
+          "why": "Expand the field from association within a species to reciprocal relationships across created life. Finish by extending reciprocity into minds, feelings, and understanding, opening the discussion beyond material exchange."
+        },
+        {
+          "key": "source:AB00362",
+          "why": "Draw out mutual aid as a foundation of life and a principle to cultivate deliberately."
+        },
+        {
+          "key": "source:ABU0042",
+          "why": "Raise the ethical stakes: dependence entails concern for the distress of others. Retain the source’s separated paragraphs and explicit omission marks."
+        },
+        {
+          "key": "source:ABU0987",
+          "why": "Move from personal obligation to the problem of a unifying social force."
+        },
+        {
+          "key": "source:ABU0057",
+          "why": "Bring cooperation into conversation with altruism and the religious purpose of unity."
+        },
+        {
+          "key": "source:ABU0404",
+          "why": "Widen the scale step by step, from villages to cities to countries, keeping overlapping selections together."
+        },
+        {
+          "key": "source:AB00143",
+          "why": "Give the linked sequence its broadest horizon: world interdependence makes a new degree of unity possible."
+        },
+        {
+          "key": "source:ABU0866",
+          "why": "The first unlinked quotation brings the global vision back to the contribution of an individual worker."
+        }
+      ],
+      "questions": [
+        "What capacities in your own life resemble a lamp in an empty room or a tree whose fruit cannot be reached? What relationships could allow those capacities to become useful to others?",
+        "How does cooperation undertaken for livelihood differ from cooperation offered willingly from heart and soul? What helps necessary exchanges grow into relationships of genuine mutual care?",
+        "What do the compilation’s images from nature help us notice about human relationships? Where do those images leave questions unanswered, especially when read beside the subject of competition and the struggle for existence?",
+        "If our lives already depend on people we will never meet, what might reciprocity require of a neighborhood, an institution, or a nation? How could that responsibility take form without erasing individual initiative?",
+        "What would cooperation in thoughts, feelings, and understanding look like during a serious disagreement? How might the closing passage and Paul’s image of shared suffering deepen our idea of unity?"
+      ],
+      "neighbors": [
+        {
+          "id": "0DB1352636234AF3A5E69C0111872F10",
+          "relationship": "recorded neighbor",
+          "invitation": "Explore how conviction becomes visible in conduct toward other people.",
+          "evidence": [
+            "43bb8038a220cc463be0422b",
+            "7ad61bb5f24e87e60466fdbf"
+          ]
+        },
+        {
+          "id": "4608855BEE32ECCA93D8AEDDC59A08B9",
+          "relationship": "editorial exploration",
+          "invitation": "Examine the tension between competitive struggle and the deliberate cultivation of mutual care.",
+          "evidence": [
+            "da662f86d5b4d359e2f20ac0",
+            "e3d975ea82de02adb2bb7b78"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "1 · 1 Corinthians 12:12–27 — members of one body",
+          "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+12%3A12-27&version=NIV%3BNLT",
+          "note": "A comparison of images of shared life, while retaining their different immediate contexts."
+        }
+      ]
+    }
+  ]
+}

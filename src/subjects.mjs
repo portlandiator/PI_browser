@@ -1,3 +1,4 @@
+import {loadStudyGuides,studyGuideButton} from './study-guide.mjs';
 import {loadDefaults,randomDefault} from './view-defaults.mjs';
 import {renderSubjectSummary} from './subject-summary.mjs';
 import {graphShell,mountGraph} from './global-graph.mjs';
@@ -13,6 +14,7 @@ import {escapeHtml as esc} from './text.mjs';
 import {compareSelections,publicSelections,unlinkedPassage} from './subject-list.mjs';
 import {relationKey} from './subject-relations.mjs';
 const $=id=>document.getElementById(id),params=()=>new URLSearchParams(location.search);
+let studyGuides={};
 let index,base,selected,epoch=0;const cache=new Map();
 let thematicGroups=[];
 let disposeGraph=()=>{};
@@ -95,7 +97,7 @@ async function render(){
         const heading=document.querySelector('.subject-heading'),titleRow=document.createElement('div');
         titleRow.className='subject-title-row';heading.before(titleRow);titleRow.append(heading);
         titleRow.insertAdjacentHTML('beforeend',pdfButton);
-      }else controls.querySelector('.type-controls').insertAdjacentHTML('afterbegin',pdfButton);
+      }else controls.querySelector('.type-controls').insertAdjacentHTML('afterbegin',pdfButton+studyGuideButton(studyGuides,subject.id));
       if(printView){
         controls.insertAdjacentHTML('beforeend','<p class="print-help" role="status">All passages for this subject. Choose Save as PDF in the print dialog. Preparing text…</p>');
         $('subject-pdf').onclick=()=>window.print();
@@ -129,4 +131,4 @@ function wireEditor(subject){$('save-edge').onclick=()=>{try{const d=getDraft(),
 function wireSelections(){document.querySelectorAll('[data-candidate]').forEach(b=>b.onclick=()=>{$('edit-'+b.dataset.selection).value=JSON.stringify(selected.selections.find(s=>s.id===b.dataset.selection).candidates[Number(b.dataset.candidate)],null,2);});for(const action of ['confirm','reject'])document.querySelectorAll('[data-'+action+']').forEach(b=>b.onclick=async()=>{try{const id=b.dataset[action],d=getDraft();if(action==='reject')d.matches[id]={status:'rejected'};else{const c=JSON.parse($('edit-'+id).value),r=await record(c.source);if(!c.ranges?.length)throw Error('At least one range is required.');if(c.version!==r.enVersion)throw Error('Source version differs. Use the version from a current candidate.');for(const range of c.ranges){const p=r.en.paragraphs[range.paragraph-1];if(!p||!Number.isInteger(range.start)||!Number.isInteger(range.end)||range.start<0||range.end<=range.start||range.end>p.plain.length)throw Error('Invalid paragraph or character range.');range.text=p.plain.slice(range.start,range.end);range.paragraphId=`${c.source}@${c.version}:en:${range.paragraph}`;}d.matches[id]={status:'confirmed',candidate:c};}saveDraft(d);b.textContent='Decision saved';}catch(e){$('editor-result').textContent=e.message;}});}
 document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a||a.getAttribute('href').startsWith('#')||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;const u=new URL(a.getAttribute('href'),location.href);if(u.origin===location.origin&&u.pathname===location.pathname){e.preventDefault();history.pushState({},'',u);render();}});
 window.addEventListener('popstate',render);
-try{await document.fonts.load('14px "EB Garamond"');const response=await fetch('./stats.json',{cache:'no-cache'});if(!response.ok)throw Error('Collection manifest unavailable');const stats=await response.json();base=new URL(stats.dataset,location.href);index=await loadCompressed(new URL('subjects/index.json.gz',base));index.subjects.sort((a,b)=>a.name.localeCompare(b.name));const orderResponse=await fetch('./subject-order.json');if(!orderResponse.ok)throw Error('Subject order unavailable');const orderData=await orderResponse.json();thematicGroups=orderData.groups;$('subject-query').oninput=directory;$('subject-order').onchange=()=>go({order:$('subject-order').value==='thematic'?null:'alphabetical'});$('subject-total').textContent=index.subjects.length.toLocaleString();$('selection-total').textContent=(index.report.publicSelections??index.report.selections).toLocaleString();$('subject-status').hidden=true;await render();}catch(e){$('subject-status').hidden=false;$('subject-status').className='subject-status-error';$('subject-status').textContent=e.message+' Reload to try again.';}
+try{await document.fonts.load('14px "EB Garamond"');const response=await fetch('./stats.json',{cache:'no-cache'});if(!response.ok)throw Error('Collection manifest unavailable');const stats=await response.json();studyGuides=await loadStudyGuides(stats.dataset);base=new URL(stats.dataset,location.href);index=await loadCompressed(new URL('subjects/index.json.gz',base));index.subjects.sort((a,b)=>a.name.localeCompare(b.name));const orderResponse=await fetch('./subject-order.json');if(!orderResponse.ok)throw Error('Subject order unavailable');const orderData=await orderResponse.json();thematicGroups=orderData.groups;$('subject-query').oninput=directory;$('subject-order').onchange=()=>go({order:$('subject-order').value==='thematic'?null:'alphabetical'});$('subject-total').textContent=index.subjects.length.toLocaleString();$('selection-total').textContent=(index.report.publicSelections??index.report.selections).toLocaleString();$('subject-status').hidden=true;await render();}catch(e){$('subject-status').hidden=false;$('subject-status').className='subject-status-error';$('subject-status').textContent=e.message+' Reload to try again.';}

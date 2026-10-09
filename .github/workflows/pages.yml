@@ -9,6 +9,7 @@ on:
       - 'tests/**'
       - 'data/**'
       - 'subject-summaries/**'
+      - 'study-guides/**'
       - 'subject_extracts/**'
       - 'pdf_volumes - copy/**'
       - '*.csv'
