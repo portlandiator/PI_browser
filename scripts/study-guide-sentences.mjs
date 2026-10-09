@@ -7,7 +7,7 @@ const terminal=/[.!?][\s‘’“”"')\]}]*(?:\[\d+\][\s‘’“”"')\]}]*)*$
 // A quoted address following a colon is an introduction to the words that
 // follow, even when the address itself has an exclamation mark.
 const trailingAddress=/(?:^|[:\n]\s*)[“"‘']*(?:O\s+[^.!?;:\n]{1,100}|By God|My God(?:,\s*my God)?)![”"’']*$/u;
-const answerOpening=/^[\s‘’“”"'([{]*(?:Answer\s*[:.–—-]|A[.:]\s)/iu;
+const answerOpening=/^[\s‘’“”"'([{]*(?:Answer(?:\s+by\s+[\p{L}‘’' -]{1,80}(?=:))?\s*[:.–—-]|A[.:]\s)/iu;
 
 // Include the immediately preceding prompt, never an earlier question across
 // an intervening answer or unrelated paragraph. A labeled prompt may contain
@@ -20,7 +20,7 @@ function precedingQuestionStart(text,start,spans){
  const separator=text.lastIndexOf('\n\n',end-1);
  const from=separator<0?0:separator+2;
  const prefix=text.slice(from,end);
- const labels=[...prefix.matchAll(/(?:^|[.!?][‘’“”"')\]]*\s+)([‘’“”"'[(]*(?:(?:\d+(?:st|nd|rd|th)?\s+)?Question|Answer|Q|A)\s*[:.–—-])/giu)];
+ const labels=[...prefix.matchAll(/(?:^|[.!?][‘’“”"')\]]*\s+)([‘’“”"'[(]*(?:(?:\d+(?:st|nd|rd|th)?\s+)?Question|Answer(?:\s+by\s+[\p{L}‘’' -]{1,80}(?=:))?|Q|A)\s*[:.–—-])/giu)];
  const last=labels.at(-1);
  if(last){
   if(!/^[‘’“”"'[(]*(?:(?:\d+(?:st|nd|rd|th)?\s+)?Question|Q)\s*[:.–—-]/iu.test(last[1]))return start;

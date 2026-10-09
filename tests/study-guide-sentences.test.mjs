@@ -173,3 +173,14 @@ test('a trailing attribution does not make a complete quotation a fragment or hi
  assert.ok(boundaryConcerns('A supplied omission... (A cited book)').includes('boundary contains an omission'));
  assert.ok(boundaryConcerns('"O people! (A cited book)').includes('ending is an address without its following statement'));
 });
+
+test('named Answer headings restore the adjacent question but never cross another answer',()=>{
+ const r=record('Question asked by Mrs. Dixon:','Will you ever return to America again?','Answer by Abdul Baha:',"It is in God's hands. Pray for me to return.");
+ const selected=[select(r,4,"God's hands")],before=JSON.stringify({r,selected});
+ assert.deepEqual(texts(r,completeSentenceParagraphs(r,selected)),['Will you ever return to America again?','Answer by Abdul Baha:',"It is in God's hands."]);
+ assert.equal(JSON.stringify({r,selected}),before);
+ const intervening=record('Question: What is the meaning?','Answer by Abdul Baha: Have you considered this?','Answer: The later reply.');
+ assert.deepEqual(texts(intervening,completeSentenceParagraphs(intervening,[select(intervening,3,'later')])),['Answer: The later reply.']);
+ const imperative=record('What should we do?','Answer by showing kindness to others.');
+ assert.deepEqual(texts(imperative,completeSentenceParagraphs(imperative,[select(imperative,2,'kindness')])),['Answer by showing kindness to others.']);
+});
