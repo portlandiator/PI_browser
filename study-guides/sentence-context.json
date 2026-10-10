@@ -356,6 +356,31 @@
       "suppliedSha256": "a9e8447b25ff8cef6b2333793d4f42abc6ef0164e91c7d3fae70f0919b1b17ed",
       "referenceBasis": "published-approximate-reference",
       "reason": "The published approximate catalogue reference identifies AB00104. Every supplied segment matches uniquely and in order in paragraph 1 of the exact version. Restore the sentence context, retaining the supplied text, citation, intentional internal gap, and approximate status."
+    },
+    {
+      "slug": "powerofmanifestation",
+      "key": "selection:cdd6ac647fecaf0a955cddd2",
+      "source": "BH04507",
+      "sourceVersion": "7a59a8617b21c0cb3b4501866330666edf481992f147a724d59de19a0048c22d",
+      "suppliedSha256": "4bd52cdf367ba9e90d7990cafa6e487f3bfaf357f77f1357c64e050dca1f4b74",
+      "reason": "Read both source paragraphs. The two supplied fragments match uniquely and in order in the explicitly cited record; restore surrounding complete sentences while retaining the supplied wording, attribution and approximate catalogue status."
+    },
+    {
+      "slug": "voiceofdivinity",
+      "key": "selection:c6a26e5459b056d237b1a04f",
+      "source": "BH08797",
+      "sourceVersion": "2da398a020081f3395124e341ca23d2c46c2e98013cf3132b4af71077d829ed9",
+      "suppliedSha256": "5f04ce9a7f802c7ca48f8acec28c1cb5833f55b9eb7fade8c1403f6a7f980cbf",
+      "reason": "Both supplied segments occur uniquely and in order in the explicitly cited BH08797. All three source paragraphs read. Add exact surrounding sentence context while preserving supplied wording, reference and approximate catalogue status."
+    },
+    {
+      "slug": "prayersteadfastness",
+      "key": "selection:bc822eabe74f2b22558450c9",
+      "source": "BH07994",
+      "sourceVersion": "7f9dae9ea0919184f43657dca3668dddb1bc60cd16b6a17ffce3c15c2d21fb3b",
+      "suppliedSha256": "b29cbdfa611d69c72642513a583440bcae164399928a27263ccd9f939831ad9b",
+      "referenceBasis": "published-approximate-reference",
+      "reason": "Read the full cited record and verified every supplied fragment uniquely and in order. Restore the omitted prayer wording across paragraphs3–4 and its immediate introduction; retain the supplied identity, approximate catalogue status and translation authority."
     }
   ]
 }

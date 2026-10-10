@@ -13,12 +13,33 @@ const answerOpening=/^[\s‘’“”"'([{]*(?:Answer(?:\s+by\s+[\p{L}‘’' -]
 // an intervening answer or unrelated paragraph. A labeled prompt may contain
 // several sentences, or a quotation without a question mark.
 function precedingQuestionStart(text,start,spans){
- if(!answerOpening.test(text.slice(start)))return start;
- let end=start;
+ let answerStart=start;
+ if(!answerOpening.test(text.slice(answerStart))){
+  const prior=spans.findLast(s=>s.end<=start);
+  if(!prior||!answerOpening.test(text.slice(prior.start,prior.end)))return start;
+  answerStart=prior.start;
+ }
+ let end=answerStart;
  while(end>0&&/\s/u.test(text[end-1]))end--;
  if(!end)return start;
- const separator=text.lastIndexOf('\n\n',end-1);
+ const separator=text.lastIndexOf('\n\n',end);
  const from=separator<0?0:separator+2;
+ // A catalogue answer often occupies its own paragraph immediately after a
+ // labelled question.  Keep that prompt with the answer when it is complete;
+ // this is the same explicit question-and-answer boundary used for inline
+ // exchanges below, extended across one paragraph break.
+ if(separator>=0){
+  const previousSeparator=text.lastIndexOf('\n\n',separator-1);
+  const previousFrom=previousSeparator<0?0:previousSeparator+2;
+  const previous=text.slice(previousFrom,separator).trim();
+  const labelledQuestion=/^[‘’“”"'[(]*(?:(?:\d+(?:st|nd|rd|th)?\s+)?Question|Q)\s*[:.–—-]/iu.test(previous);
+  // Named answer headings are also commonly preceded by an unlabelled
+  // question.  Treat a complete adjacent paragraph ending in a question mark
+  // as that prompt, while refusing to cross another answer heading.
+  const unlabelledQuestion=/\?[\s‘’“”"')\]}]*$/u.test(previous)
+   && !answerOpening.test(previous);
+  if(labelledQuestion||unlabelledQuestion)return previousFrom;
+ }
  const prefix=text.slice(from,end);
  const labels=[...prefix.matchAll(/(?:^|[.!?][‘’“”"')\]]*\s+)([‘’“”"'[(]*(?:(?:\d+(?:st|nd|rd|th)?\s+)?Question|Answer(?:\s+by\s+[\p{L}‘’' -]{1,80}(?=:))?|Q|A)\s*[:.–—-])/giu)];
  const last=labels.at(-1);
@@ -47,7 +68,10 @@ export function sentenceSpans(text){
   // heading/signature into the following paragraph merely for lacking a stop.
   const prior=previous?text.slice(previous.start,previous.end):'';
   const paragraphBreak=previous&&/\n\s*\n/u.test(text.slice(previous.end,start));
-  const continuation=!opening.test(text.slice(start,end));
+  // A new paragraph whose opening was explicitly omitted is not evidence
+  // that the preceding completed sentence continues into that paragraph.
+  const omittedOpening=paragraphBreak&&terminal.test(prior)&&/^\[\s*(?:\.{3}|…)\s*\]/u.test(text.slice(start,end));
+  const continuation=!omittedOpening&&!opening.test(text.slice(start,end));
   const unfinished=!terminal.test(prior)&&(!paragraphBreak||continuation||/[,;:–—-]$/u.test(prior));
   // A numbered item within a sentence is not a full stop ("in three respects: 1.").
   const numberedItem=!paragraphBreak&&/(?:^|[,:;]\s+|\b(?:and|or)\s+)\d+\.$/u.test(prior);
@@ -76,14 +100,14 @@ export function boundaryConcerns(text){
  return issues;
 }
 
-export function completeSentenceParagraphs(record,selected){
+export function completeSentenceParagraphs(record,selected,reviews=reviewedParagraphs.entries){
  const offsets=[];let text='';
  for(const p of record.en.paragraphs){offsets.push(text.length);text+=p.plain+'\n\n';}
  const spans=sentenceSpans(text),expanded=[];
  // A reviewed source can contain a full stop between a dependent clause and
  // its main clause. Keep that exact paragraph together, failing on any change
  // of source version or wording instead of guessing a general grammar rule.
- for(const entry of reviewedParagraphs.entries.filter(e=>e.source===record.id)){
+ for(const entry of reviews.filter(e=>e.source===record.id)){
   const paragraph=record.en.paragraphs[entry.paragraph-1];
   if(record.enVersion!==entry.sourceVersion||paragraph?.plain!==entry.text)throw Error(`Stale reviewed sentence paragraph: ${record.id}:${entry.paragraph}`);
   const start=offsets[entry.paragraph-1];

@@ -67,21 +67,34 @@ test('reviewed cross-paragraph brackets include their exact continuation and rej
  paragraphs[1882]=entry.text;paragraphs[1883]=entry.continuation.text;
  const r=record(...paragraphs);r.id=entry.source;r.enVersion=entry.sourceVersion;
  const selected=[select(r,1883,'Were it not for the ink')],before=JSON.stringify({r,selected});
- const result=completeSentenceParagraphs(r,selected);
+ const result=completeSentenceParagraphs(r,selected,[entry]);
  assert.deepEqual(result.paragraphs.map(p=>p.number),[1883,1884]);
  assert.deepEqual(texts(r,result),[entry.text,entry.continuation.text]);
  assert.ok(!result.issues.some(i=>i.issue==='ending contains an unfinished bracketed note'));
  assert.ok(result.issues.some(i=>i.issue==='supplied omission needs review'));
  assert.equal(JSON.stringify({r,selected}),before);
  const changed=structuredClone(r);changed.en.paragraphs[1883].plain+=' Another sentence.';
- assert.throws(()=>completeSentenceParagraphs(changed,selected),/Stale reviewed sentence continuation/);
- assert.throws(()=>completeSentenceParagraphs({...r,enVersion:'changed'},selected),/Stale reviewed/);
+ assert.throws(()=>completeSentenceParagraphs(changed,selected,[entry]),/Stale reviewed sentence continuation/);
+ assert.throws(()=>completeSentenceParagraphs({...r,enVersion:'changed'},selected,[entry]),/Stale reviewed/);
 });
 test('continuing sentences span paragraphs without changing their words or paragraph identities',()=>{
  const r=record('A first sentence. Though thou didst not succeed','in seeing thy friend, the fragrances','of the garden reached thee. Another sentence.');
  const result=completeSentenceParagraphs(r,[select(r,2,'seeing thy friend')]);
  assert.deepEqual(texts(r,result),['Though thou didst not succeed','in seeing thy friend, the fragrances','of the garden reached thee.']);
  assert.deepEqual(result.paragraphs.map(p=>p.number),[1,2,3]);assert.deepEqual(result.issues,[]);
+});
+
+test('a new paragraph with an omitted opening does not extend a completed sentence',()=>{
+ for(const omission of ['[...]','[…]']){
+  const r=record('Preserve the life entrusted to you. End.',omission+' was submitted before the Throne. A separate request follows.');
+  const selected=[select(r,1,'life entrusted')],before=JSON.stringify({r,selected});
+  assert.deepEqual(texts(r,completeSentenceParagraphs(r,selected)),['Preserve the life entrusted to you.']);
+  assert.deepEqual(texts(r,completeSentenceParagraphs(r,[select(r,1,'End.')])),['End.']);
+  const fragment=completeSentenceParagraphs(r,[select(r,2,'submitted')]);
+  assert.deepEqual(texts(r,fragment),[omission+' was submitted before the Throne.']);
+  assert.ok(fragment.issues.some(i=>i.issue==='supplied omission needs review'));
+  assert.equal(JSON.stringify({r,selected}),before);
+ }
 });
 test('honorifics, initials, and a quoted prayer introduction do not create false cuts',()=>{
  const r=record('Dr. J. Smith said:','“O Lord! Help us understand.” A final sentence.');

@@ -2,19 +2,41 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {gzipSync,gunzipSync} from 'node:zlib';
 
-// Publication packaging only: editorial checks still use the complete originals.
-// A round trip must reproduce every byte before an original is replaced.
+// Store quotation HTML once for both views. Verify exact reconstruction before
+// replacing a page payload; the reader receives the same escaped HTML as before.
 export async function packStudyGuides(root,out){
-  const directory=path.join(out,'study-guides');
+  const directory=path.join(out,'study-guides'),pages=new Map();
+  const marker='<template id="guide-shared-quotations"></template>';
+  const pack=bytes=>{const zipped=gzipSync(bytes,{level:9});if(!gunzipSync(zipped).equals(bytes))throw Error('Guide packaging changed content');return zipped;};
   for(const name of await fs.readdir(directory)){
     if(name==='index.html'||!name.endsWith('.html'))continue;
     const file=path.join(directory,name),html=await fs.readFile(file,'utf8');
-    if(html.includes('src="guide-loader.mjs"'))continue;
     const match=/^([\s\S]*?<body[^>]*>)([\s\S]*)(<\/body><\/html>\s*)$/.exec(html);
     if(!match)throw Error('Unexpected guide document: '+name);
-    const payload=Buffer.from(match[2]),packed=gzipSync(payload,{level:9});
-    if(!gunzipSync(packed).equals(payload))throw Error('Guide packaging changed wording: '+name);
-    await fs.writeFile(file+'.gz',packed);
+    const packed=html.includes('src="guide-loader.mjs"');
+    const body=packed?gunzipSync(await fs.readFile(file+'.gz')).toString():match[2];
+    if(body.includes(marker))continue;
+    pages.set(name,{file,html,match,body,packed});
+  }
+  for(const [name,page]of pages){
+    if(!name.endsWith('-pdf.html'))continue;
+    const ordinary=pages.get(name.replace(/-pdf\.html$/,'.html'));if(!ordinary)continue;
+    const first=page.body.indexOf('<article class="quotation"'),last=page.body.lastIndexOf('</article>')+'</article>'.length;
+    if(first<0||last<=first)continue;
+    const quotes=page.body.slice(first,last),otherFirst=ordinary.body.indexOf('<article class="quotation"'),otherLast=ordinary.body.lastIndexOf('</article>')+'</article>'.length;
+    if(otherFirst<0||ordinary.body.slice(otherFirst,otherLast)!==quotes)throw Error('Guide views disagree on quotation text: '+name);
+    const sharedName=name.replace(/-pdf\.html$/,'.quotations.html.gz');
+    await fs.writeFile(path.join(directory,sharedName),pack(Buffer.from(quotes)));
+    for(const [p,start,end]of [[page,first,last],[ordinary,otherFirst,otherLast]]){
+      const template=p.body.slice(0,start)+marker+p.body.slice(end);
+      if(template.replace(marker,()=>quotes)!==p.body)throw Error('Shared quotations changed page: '+name);
+      p.body=template;
+    }
+  }
+  for(const page of pages.values()){
+    const {file,match,body,packed}=page;
+    await fs.writeFile(file+'.gz',pack(Buffer.from(body)));
+    if(packed)continue;
     const heading=match[2].match(/<h1>[\s\S]*?<\/h1>/)?.[0]||'<h1>Study guide</h1>';
     const header=match[2].match(/<header>[\s\S]*?<\/header>/)?.[0]||'';
     const head=match[1].replace('<script src="pilot-view.js" defer></script>','').replace('</head>','<script type="module" src="guide-loader.mjs"></script></head>');
@@ -23,9 +45,7 @@ export async function packStudyGuides(root,out){
   for(const name of ['compiled.json','validation.json','sentence-review.json']){
     const file=path.join(directory,name);let bytes;
     try{bytes=await fs.readFile(file);}catch(error){if(error.code==='ENOENT')continue;throw error;}
-    const packed=gzipSync(bytes,{level:9});
-    if(!gunzipSync(packed).equals(bytes))throw Error('Guide export changed during packaging');
-    await fs.writeFile(file+'.gz',packed);await fs.unlink(file);
+    await fs.writeFile(file+'.gz',pack(bytes));await fs.unlink(file);
   }
   await fs.copyFile(path.join(root,'scripts/compilation-guide-loader.mjs'),path.join(directory,'guide-loader.mjs'));
 }
