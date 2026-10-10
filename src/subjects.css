@@ -15,7 +15,8 @@
 @media(max-width:700px){.subject-totals{display:none}}
 
 /* Shared reader controls above a continuous sequence of selected extracts. */
-.passage-reader .passage-pair p{font-size:calc(20px * var(--scale));line-height:1.9}
+.passage-reader .passage-pair p{font-size:calc(20px * var(--scale));line-height:1.9;text-align:justify}
+.passage-reader .passage-pair .passage-original-unavailable{text-align:start}
 .passage-reader .passage-pair [dir=rtl]{font-size:calc(23px * var(--scale));line-height:2.05}
 .passage-reader .passage-pair>div{min-width:0}
 .passage-reader[data-mode=parallel] .passage-original-unavailable{display:none}

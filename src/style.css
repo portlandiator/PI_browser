@@ -20,6 +20,8 @@ dialog{border:1px solid var(--rule);border-radius:8px;padding:45px;max-width:620
 
 .catalog-totals{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:16px 30px;margin-left:24px}@media(max-width:700px){.catalog-totals{display:none}}
 
+.paragraph-cell p:not(.missing-version),.footnotes li{text-align:justify}
+
 .alignment-blank{min-height:1.85em}
 .alignment-blank:before{display:none}
 .reading-view:not([data-mode=parallel]) .alignment-blank{display:none}

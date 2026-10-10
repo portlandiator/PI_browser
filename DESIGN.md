@@ -35,6 +35,8 @@ In the Catalog reader, when both Manuscripts and Publications have no entries, s
 
 ## State and accessibility
 
+Catalog reader paragraphs and footnotes and Subject view's selected passages are fully justified in both languages, including single-language modes and print. Final lines retain their natural reading-direction alignment.
+
 Deep links use query parameters so GitHub Pages can serve every state without server routing. Results announce completion to assistive technology. Labels remain visible; controls have at least 40px hit areas. Focus is visible. Loading, unavailable text, no matches, invalid IDs, and failed fetches have distinct messages and recovery actions. User text-size and language display preferences are stored locally; no visitor tracking.
 
 ## Architecture choice
