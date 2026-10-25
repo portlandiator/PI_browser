@@ -24,7 +24,7 @@ export async function prepareRepository(root,files){
   gitPath=await tool('git',root);
   const top=await git(['rev-parse','--show-toplevel'],root);
   if(path.resolve(top)!==path.resolve(root))throw Error('Run this from the project folder (the Git repository root).');
-  if(await git(['branch','--show-current'],root)!=='main')throw Error('Switch this folder to the main branch first.');
+  if(await git(['rev-parse','--abbrev-ref','HEAD'],root)!=='main')throw Error('Switch this folder to the main branch first.');
   console.log('Checking GitHub for newer changes…');
   await git(['fetch','--quiet','origin','main'],root);
   if(await git(['log','--format=%H','origin/main..HEAD'],root))throw Error('This folder has local commits that are not on GitHub. Push or resolve them first.');

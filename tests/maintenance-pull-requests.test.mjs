@@ -43,7 +43,9 @@ test('a proposal commits only the named files and leaves the folder on main; mer
   git(stage,'init','--bare','--quiet',origin);
   git(stage,'clone','--quiet',origin,work);
   for(const name of ['a.json','b.json','c.json'])await fs.writeFile(path.join(work,name),'{}\n');
-  git(work,'add','.');git(work,'commit','--quiet','-m','start');git(work,'push','--quiet','origin','HEAD:main');
+  // Name the branch explicitly: Git before 2.28 ignores init.defaultBranch.
+  git(work,'add','.');git(work,'commit','--quiet','-m','start');git(work,'branch','-M','main');git(work,'push','--quiet','origin','HEAD:main');
+  git(stage,'--git-dir',origin,'symbolic-ref','HEAD','refs/heads/main');
   const start=git(work,'rev-parse','HEAD');
   await fs.writeFile(path.join(work,'a.json'),'{"a":1}\n');
   await fs.writeFile(path.join(work,'c.json'),'{"unrelated":true}\n');
@@ -51,7 +53,7 @@ test('a proposal commits only the named files and leaves the folder on main; mer
   const {sha,proposed}=await proposalCommit(work,['a.json'],'Propose a',{login:'editor',id:7});
   assert.deepEqual(proposed,['a.json']);
   assert.equal(git(work,'rev-parse','HEAD'),start);
-  assert.equal(git(work,'branch','--show-current'),'main');
+  assert.equal(git(work,'rev-parse','--abbrev-ref','HEAD'),'main');
   assert.equal(git(work,'diff','--cached','--name-only'),'');
   assert.equal(git(work,'diff','--name-only'),'a.json\nc.json');
   assert.equal(git(work,'show',sha+':a.json'),'{"a":1}');

@@ -34,7 +34,7 @@ try {
     Run $python @('--version')
     $top = Run $git @('-C', $root, 'rev-parse', '--show-toplevel')
     if ([IO.Path]::GetFullPath($top) -ne [IO.Path]::GetFullPath($root)) { throw 'This folder must be the repository root.' }
-    $branch = Run $git @('-C', $root, 'branch', '--show-current')
+    $branch = Run $git @('-C', $root, 'rev-parse', '--abbrev-ref', 'HEAD')
     if ($branch -ne 'main') { throw 'Switch this repository to main before updating.' }
     $remote = Run $git @('-C', $root, 'remote', 'get-url', 'origin')
     # Publish to whichever GitHub repository this checkout's origin names.
