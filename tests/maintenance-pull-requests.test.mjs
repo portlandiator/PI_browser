@@ -12,8 +12,8 @@ import {describeSubjectOrder} from '../scripts/describe-subject-order.mjs';
 import {describeGuideChanges} from '../scripts/edit-study-guide-server.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-// The same Git the tools use: another installed Git can be too old for
-// init.defaultBranch or have different line-ending settings.
+// The Git the tools use, so both sides share its line-ending settings: the
+// bundled Git converts line endings, another installed Git may not.
 const gitPath=await tool('git',root);
 const git=(cwd,...args)=>execFileSync(gitPath,['-c','user.name=t','-c','user.email=t@example.org','-c','init.defaultBranch=main',...args],{cwd,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim();
 
