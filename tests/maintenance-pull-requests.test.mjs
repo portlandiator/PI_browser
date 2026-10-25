@@ -5,14 +5,17 @@ import os from 'node:os';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
-import {openPullRequest} from '../scripts/publish-item.mjs';
+import {openPullRequest,tool} from '../scripts/publish-item.mjs';
 import {prepareRepository,proposalCommit,pullRequestBody} from '../scripts/publish-changes.mjs';
 import {decisionsBody} from '../scripts/publish-editorial-decisions.mjs';
 import {describeSubjectOrder} from '../scripts/describe-subject-order.mjs';
 import {describeGuideChanges} from '../scripts/edit-study-guide-server.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const git=(cwd,...args)=>execFileSync('git',['-c','user.name=t','-c','user.email=t@example.org','-c','init.defaultBranch=main',...args],{cwd,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim();
+// The same Git the tools use: another installed Git can be too old for
+// init.defaultBranch or have different line-ending settings.
+const gitPath=await tool('git',root);
+const git=(cwd,...args)=>execFileSync(gitPath,['-c','user.name=t','-c','user.email=t@example.org','-c','init.defaultBranch=main',...args],{cwd,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim();
 
 test('no maintenance tool pushes to main; each opens a pull request',async()=>{
   for(const name of ['publish-changes.mjs','update-collection.ps1','publish-item.mjs','publish-deletion.mjs']){
