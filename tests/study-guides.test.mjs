@@ -26,11 +26,16 @@ test('Subject view shows a guide’s first quotation in quotation marks with its
   const requested=[],request=body=>async url=>{requested.push(url);return {ok:true,json:async()=>body};};
   const guides={[id]:'courage-pdf.html'},paragraphs=['<First> reading.','… Second paragraph.'],opening={format:1,dataset,paragraphs,source:'AB<1>'};
   const loaded=await loadGuideOpening(guides,dataset,id,request(opening));
-  assert.deepEqual(loaded,{paragraphs,source:'AB<1>'});assert.deepEqual(requested,[`./study-guides/openings/${id}.json`]);
+  assert.deepEqual(loaded,{paragraphs,authorized:[false,false],source:'AB<1>'});assert.deepEqual(requested,[`./study-guides/openings/${id}.json`]);
   assert.equal(await loadGuideOpening({},dataset,id,request(opening)),null);assert.equal(requested.length,1);
   assert.equal(await loadGuideOpening(guides,dataset,id,request({...opening,paragraphs:[]})),null);
   assert.equal(await loadGuideOpening(guides,dataset,id,request({...opening,paragraphs:[3]})),null);
-  assert.deepEqual(await loadGuideOpening(guides,dataset,id,request({...opening,source:undefined})),{paragraphs,source:''});
+  assert.deepEqual(await loadGuideOpening(guides,dataset,id,request({...opening,source:undefined})),{paragraphs,authorized:[false,false],source:''});
+  // Only paragraphs the build declares authorized are blue.
+  const marked=await loadGuideOpening(guides,dataset,id,request({...opening,authorized:[false,true,true]}));
+  assert.deepEqual(marked.authorized,[false,true]);
+  assert.deepEqual((await loadGuideOpening(guides,dataset,id,request({...opening,authorized:['yes',1]}))).authorized,[false,false]);
+  assert.match(studyGuideQuotation(guides,marked,id),/<blockquote><p>“&lt;First&gt; reading\.<\/p><p class="authorized-translation">… Second paragraph\.” <span/);
   const html=studyGuideQuotation(guides,loaded,id);
   assert.match(html,/^<a class="subject-guide-quotation" href="\.\/study-guides\/courage-pdf.html" target="_blank" rel="noopener"/);
   assert.match(html,/<blockquote><p>“&lt;First&gt; reading\.<\/p><p>… Second paragraph\.” <span class="quotation-source">AB&lt;1&gt;<\/span><\/p><\/blockquote>/);
@@ -50,6 +55,9 @@ test('a quotation taller than the graph keeps the most whole words that fit, end
   assert.equal(fitQuotation(quote,opening,30),true);assert.equal(quote.innerHTML,`<p>“One two three.</p><p>Four five…”${cite}</p>`);
   assert.equal(fitQuotation(quote,opening,12),true);assert.equal(quote.innerHTML,`<p>“One…”${cite}</p>`);
   assert.equal(fitQuotation(quote,{paragraphs:['<a> b c'],source:''},5),true);assert.equal(quote.innerHTML,'<p>“&lt;a&gt;…”</p>');
+  // A shortened quotation keeps each remaining paragraph's authorization colour.
+  const counted={innerHTML:'',getBoundingClientRect(){return {height:this.innerHTML.replace(/<[^>]+>/g,'').length};}};
+  assert.equal(fitQuotation(counted,{...opening,authorized:[true,false]},30),true);assert.equal(counted.innerHTML,`<p class="authorized-translation">“One two three.</p><p>Four five…”${cite}</p>`);
 });
 
 async function fixture(t){
@@ -141,7 +149,7 @@ test('guide build preserves all selections, merges overlaps, escapes text, and c
   assert.match(pdf,/&lt;Word&gt;/);assert.doesNotMatch(pdf,/<Word>/);
   assert.match(pdf,/A supplied quotation\./);
   // The first reading is published for Subject view as unescaped plain text.
-  assert.deepEqual(JSON.parse(await read(`openings/${id}.json`)),{format:1,dataset,paragraphs:['<Word> in context.'],source:'FIXTURE00001'});
+  assert.deepEqual(JSON.parse(await read(`openings/${id}.json`)),{format:1,dataset,paragraphs:['<Word> in context.'],authorized:[true],source:'FIXTURE00001'});
   const compiled=JSON.parse(await read('compiled.json')).subjects[0].compiled;
   assert.deepEqual(compiled.flatMap(g=>g.selectionIds).sort(),['linked','overlap','unlinked']);
   assert.equal(compiled[0].paragraphs[0].text,'<Word> in context.');
