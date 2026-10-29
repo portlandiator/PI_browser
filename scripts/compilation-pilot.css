@@ -36,3 +36,5 @@ html.guide-busy,html.guide-busy *{cursor:progress}
 .reading-room:before{margin-top:-55px}.reading-room>:is(.eyebrow,h1,.lead){text-shadow:0 0 12px var(--paper),0 0 3px var(--paper)}.reading-room>.guide-list-heading{margin-top:max(42px,calc(var(--room-clear) - var(--room-intro)))}.reading-room{--room-intro:210px}
 @media(max-width:650px){.reading-room{--room-intro:195px}.reading-room:before{margin-top:-32px}}
 @media print{.reading-room:before{display:none}}
+.translation-key{font-size:16px;line-height:1.5;color:var(--muted);margin:0 0 12px}
+@media print{.translation-key{font-size:10pt}}
