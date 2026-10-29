@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {ItemStore,csvText} from '../scripts/item-store.mjs';
+import {readZip} from '../scripts/zip-archive.mjs';
 import {CatalogEdits,pendingFile} from '../scripts/catalog-edits.mjs';
 import {parseCsv} from '../src/text.mjs';
 import {startEditor} from '../scripts/edit-item-server.mjs';
@@ -24,7 +25,9 @@ test('one-item writes preserve other metadata rows and unchanged source bytes, w
   const saved=await store.save(item);assert.ok(saved.backup);
   const fresh=parseCsv(await fs.readFile(path.join(root,'metadata - copy/items.csv'),'utf8'));
   assert.deepEqual(fresh[1],rows[1]);assert.equal(fresh[0].Title,'A <new> title');
-  assert.equal(await fs.readFile(path.join(saved.backup,'0'),'utf8'),csv);
+  assert.match(saved.backup,/item-backups[\\/][^\\/]+\.zip$/);
+  assert.equal((await readZip(saved.backup)).get('metadata - copy/items.csv').toString('utf8'),csv);
+  assert.deepEqual([...(await readZip(saved.backup)).keys()],['manifest.json','metadata - copy/items.csv']);
   assert.deepEqual(await fs.readFile(path.join(root,'translated_texts - copy/AB00001.txt')),Buffer.from([0x93,0x48,0x69,0x94]));
   assert.equal((await store.save(saved)).backup,null);
 });
@@ -33,7 +36,7 @@ test('original and translation writes retain paragraph breaks; removed text rema
   item.original='فارسی\n\nجدید';item.english='First paragraph.\n\nSecond. \\footnote{Note.}';
   const saved=await store.save(item);assert.equal(saved.original,item.original);assert.equal(saved.english,item.english);
   saved.original=null;const removed=await store.save(saved);
-  assert.equal(removed.original,null);assert.equal(await fs.readFile(path.join(removed.backup,'1'),'utf8'),item.original);
+  assert.equal(removed.original,null);assert.equal((await readZip(removed.backup)).get('original_texts - copy/AB00001.txt').toString('utf8'),item.original);
   await assert.rejects(fs.access(path.join(root,'original_texts - copy/AB00001.txt')));
 });
 test('a changed item is not overwritten; changes to other items do not block; unsafe input cannot change sources',async t=>{
@@ -97,7 +100,9 @@ test('a published deletion removes only that item from the local sources, with a
   const backup=await store.remove('AB00001');
   assert.deepEqual(parseCsv(await fs.readFile(path.join(root,'metadata - copy/items.csv'),'utf8')),[rows[1]]);
   for(const folder of ['original_texts - copy','translated_texts - copy'])await assert.rejects(fs.access(path.join(root,folder,'AB00001.txt')));
-  assert.equal(await fs.readFile(path.join(backup,'0'),'utf8'),csv);
-  assert.equal(JSON.parse(await fs.readFile(path.join(backup,'manifest.json'),'utf8')).deleted,true);
+  const archive=await readZip(backup);
+  assert.equal(archive.get('metadata - copy/items.csv').toString('utf8'),csv);
+  assert.equal(JSON.parse(archive.get('manifest.json')).deleted,true);
+  assert.deepEqual((await fs.readdir(path.join(root,'.qa','item-backups'))).map(name=>path.extname(name)),['.zip']);
   assert.equal(await store.remove('AB00001'),null);
 });

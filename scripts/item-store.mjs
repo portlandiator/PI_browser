@@ -3,10 +3,12 @@ import path from 'node:path';
 import {createHash,randomUUID} from 'node:crypto';
 import {parseCsv} from '../src/text.mjs';
 import {decodeSource} from './source-encoding.mjs';
+import {writeZip} from './zip-archive.mjs';
 
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 export const sourceFolders=['metadata - copy','original_texts - copy','translated_texts - copy'];
 const folders=sourceFolders.slice(1);
+const archiveName=name=>name.split(path.sep).join('/');
 export const validId=id=>typeof id==='string'&&/^[\p{L}\p{N}_ ()-]+$/u.test(id)&&id.length<=160;
 export function csvText(rows,fields){
   const cell=value=>'"'+String(value??'').replaceAll('"','""')+'"';
@@ -83,10 +85,11 @@ export class ItemStore{
   async replace(s,next,note={}){
     const changed=next.map((value,i)=>value===null?s.bytes[i]!==null:s.bytes[i]===null||!value.equals(s.bytes[i]));
     if(!changed.some(Boolean))return null;
-    const backup=path.join(this.root,'.qa','item-backups',new Date().toISOString().replaceAll(':','-')+'-'+randomUUID().slice(0,8));
-    await fs.mkdir(backup,{recursive:true});
-    await fs.writeFile(path.join(backup,'manifest.json'),JSON.stringify({id:s.id,...note,files:s.names.map((name,i)=>({name,existed:s.bytes[i]!==null,changed:changed[i]}))},null,2));
-    for(const [i,bytes] of s.bytes.entries())if(bytes!==null&&changed[i])await fs.writeFile(path.join(backup,String(i)),bytes);
+    // One ZIP per backup (Dropbox syncs the project folder): manifest.json and
+    // the previous bytes of each changed file under its source path.
+    const backup=await writeZip(path.join(this.root,'.qa','item-backups',new Date().toISOString().replaceAll(':','-')+'-'+randomUUID().slice(0,8)+'.zip'),[
+      {name:'manifest.json',bytes:JSON.stringify({id:s.id,...note,files:s.names.map((name,i)=>({name:archiveName(name),existed:s.bytes[i]!==null,changed:changed[i]}))},null,2)},
+      ...s.bytes.flatMap((bytes,i)=>bytes!==null&&changed[i]?[{name:archiveName(s.names[i]),bytes}]:[])]);
     // Stage every changed file before replacing any source. Preserve byte-exact backups.
     const staged=[];
     try{

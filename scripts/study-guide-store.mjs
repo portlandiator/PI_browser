@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createHash,randomUUID} from 'node:crypto';
+import {writeZip} from './zip-archive.mjs';
 
 // Editorial text of the study guides lives in study-guides/editorial.json and
 // the numbered *-batch.json files. The editor changes the wording, the reading
@@ -142,9 +143,8 @@ export class GuideStore{
     const original=current.bytes.toString('utf8'),newline=original.includes('\r\n')?'\r\n':'\n';
     const data=structuredClone(current.data);data.subjects[current.index]=updated;
     const output=(JSON.stringify(data,null,2)+'\n').replaceAll('\n',newline);
-    const backup=path.join(this.root,'.qa','guide-backups',new Date().toISOString().replaceAll(':','-')+'-'+randomUUID().slice(0,8));
-    await fs.mkdir(backup,{recursive:true});
-    await fs.writeFile(path.join(backup,current.name),current.bytes);
+    // One ZIP per backup (Dropbox syncs the project folder), holding the previous file under study-guides/.
+    const backup=await writeZip(path.join(this.root,'.qa','guide-backups',new Date().toISOString().replaceAll(':','-')+'-'+randomUUID().slice(0,8)+'.zip'),[{name:'study-guides/'+current.name,bytes:current.bytes}]);
     // Write beside the file, then rename, so an interrupted save cannot leave half a file.
     const target=path.join(this.directory,current.name),temporary=target+'.'+randomUUID().slice(0,8)+'.tmp';
     await fs.writeFile(temporary,output,'utf8');

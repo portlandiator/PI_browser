@@ -6,6 +6,7 @@ import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import {GuideStore,checkGuide} from '../scripts/study-guide-store.mjs';
+import {readZip} from '../scripts/zip-archive.mjs';
 import {guideQuotations} from '../scripts/study-guide-quotations.mjs';
 import {startGuideEditor,pendingGuideFiles} from '../scripts/edit-study-guide-server.mjs';
 
@@ -108,7 +109,8 @@ test('saving rewrites only the edited guide, keeps line endings, and backs up th
   assert.ok(!/[^\r]\n/.test(text));
   const expected=structuredClone(batch);expected.subjects[0].introduction=edited.introduction;expected.subjects[0].order=edited.order;
   assert.deepEqual(JSON.parse(text),expected);
-  assert.equal(await fs.readFile(path.join(root,saved.backup,'second-batch.json'),'utf8'),(JSON.stringify(batch,null,2)+'\n').replaceAll('\n','\r\n'));
+  assert.match(saved.backup,/^\.qa[\\/]guide-backups[\\/][^\\/]+\.zip$/);
+  assert.equal((await readZip(path.join(root,saved.backup))).get('study-guides/second-batch.json').toString('utf8'),(JSON.stringify(batch,null,2)+'\n').replaceAll('\n','\r\n'));
   assert.deepEqual(JSON.parse(await fs.readFile(path.join(root,'study-guides/editorial.json'),'utf8')),editorial);
   // A stale revision or invalid edit writes nothing.
   await assert.rejects(store.save('sample',loaded.revision,edited),/changed since you opened it/);
