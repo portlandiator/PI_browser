@@ -63,8 +63,8 @@ Publish-Editorial-Decisions.cmd
   guides itself and adds the result to the pull request. Merge it on GitHub
   to publish.
   Once the pull request is open, the edits are written to the source folders
-  here (backups under .qa\item-backups) so that Update-Collection.cmd cannot
-  undo them, and deleted items are removed. The edits stay listed in the
+  here (backups under .qa\item-backups, one .zip per change) so that
+  Update-Collection.cmd cannot undo them, and deleted items are removed. The edits stay listed in the
   editor until the pull request is merged; if it is closed without merging,
   the next publication proposes them again (restore the backups to undo them
   here instead). An edit that cannot be published yet (for example an English
@@ -116,7 +116,8 @@ Edit-Study-Guide.cmd
   2. Make the changes and click Save on this computer. The tool checks them
      against the website's rules (for example, the number of questions a guide
      may have, and that [1], [2] ... in the introduction match the comparative
-     readings). The previous file is backed up under .qa\guide-backups.
+     readings). The previous file is backed up under .qa\guide-backups (one
+     .zip per save).
   3. Save other guides if you like, then click Propose saved guides. All
      saved guides go into one pull request, whose description says what
      changed in each guide. Merge it on GitHub to publish.
@@ -144,3 +145,21 @@ which includes them in its pull request (or propose them with Git or the
 GitHub website). After merging, the deployment copies changed PDFs to the
 separate PDF site automatically; see "Volume PDF site" in README.md for its
 one-time setup.
+
+
+BACKUPS AND THE .qa FOLDER
+
+.qa holds the tools' working files: the pending catalog edits and the backups
+that Edit-Catalog-Item and Edit-Study-Guide write. Each backup is one .zip
+named by date and time, so Dropbox syncs one file per change. To undo a
+change, open the .zip in File Explorer and copy its files back into this
+project folder (they keep their folder names, for example "metadata - copy"
+or "study-guides"); an item backup's manifest.json lists which files existed.
+
+Tidy-QA-Folder.cmd
+  Run once after updating the tools. It turns older backup folders into one
+  .zip each and removes the copies of the whole project that earlier
+  versions of the tools left in .qa (deletion previews and pull request
+  checkouts), which hold most of its files. A copy whose Git history or files
+  are not on GitHub is kept and named. It shows what it will do and changes
+  nothing until you type Y.
