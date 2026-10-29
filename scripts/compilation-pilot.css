@@ -30,6 +30,9 @@ html.guide-busy,html.guide-busy *{cursor:progress}
 /* Reading-room banner beneath the masthead of the Study guides overview, as in the other main views (src/theme.css); the guide list starts below the lamp and open book. */
 .reading-room{--room-clear:max(15vw,190px);isolation:isolate;display:flow-root}.reading-room:before{content:'';position:absolute;z-index:-1;left:0;right:0;height:max(15vw,200px);background:linear-gradient(to bottom,transparent 88%,var(--paper)),linear-gradient(to right,var(--paper),transparent 35%),url(../reading-room-day.webp) 76% bottom/cover no-repeat;pointer-events:none}
 :root[data-theme=dark] .reading-room:before{background-image:linear-gradient(to bottom,transparent 88%,var(--paper)),linear-gradient(to right,var(--paper),transparent 35%),url(../reading-room-night.webp)}
+/* The Study guides overview shows the ocean shore in place of the reading room. */
+.shore-banner:before{background-image:linear-gradient(to bottom,transparent 88%,var(--paper)),linear-gradient(to right,var(--paper),transparent 35%),url(../ocean-shore-day.webp)}
+:root[data-theme=dark] .shore-banner:before{background-image:linear-gradient(to bottom,transparent 88%,var(--paper)),linear-gradient(to right,var(--paper),transparent 35%),url(../ocean-shore-night.webp)}
 .reading-room:before{margin-top:-55px}.reading-room>:is(.eyebrow,h1,.lead){text-shadow:0 0 12px var(--paper),0 0 3px var(--paper)}.reading-room>.guide-list-heading{margin-top:max(42px,calc(var(--room-clear) - var(--room-intro)))}.reading-room{--room-intro:210px}
 @media(max-width:650px){.reading-room{--room-intro:195px}.reading-room:before{margin-top:-32px}}
 @media print{.reading-room:before{display:none}}
