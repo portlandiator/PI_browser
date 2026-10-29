@@ -25,3 +25,7 @@ dialog{border:1px solid var(--rule);border-radius:8px;padding:45px;max-width:620
 .alignment-blank{min-height:1.85em}
 .alignment-blank:before{display:none}
 .reading-view:not([data-mode=parallel]) .alignment-blank{display:none}
+
+.translation-key{font-size:13px;line-height:1.6;color:var(--muted);margin:6px 0 14px}
+.reader-controls+.translation-key{font-size:11px;line-height:1.7;text-align:center;padding:13px 10px;margin:0;border-bottom:1px solid var(--rule)}
+.translation-key[hidden]{display:none}
