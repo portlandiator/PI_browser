@@ -3,8 +3,10 @@ import {readingSlots,alignmentCounts,readingPosition} from './paragraph-alignmen
 import {authorizedRanges,isAuthorizedParagraph,catalogueDetails} from './translation-status.mjs';
 import {recordFilename} from './record-file.mjs';
 import {mayPublishOriginal} from './original-publication.mjs';
-import {escapeHtml as esc,matchRanges} from './text.mjs';
-import {matchingPassages,resultExcerpts,excerptHtml} from './search-passages.mjs';
+import {escapeHtml as esc} from './text.mjs';
+import {searchHighlightRanges,searchHighlightHtml} from './search-highlights.mjs';
+import {matchingPassages} from './search-passages.mjs';
+import {resultMode,groupedResultPassages,resultPassagePage,resultMetadataHtml} from './search-results.mjs';
 import {loadCompressed} from './data.mjs';
 import {renderMetadata,renderReferenceList,hasFilter} from './metadata.mjs';
 import {FacetPanel} from './facets-ui.mjs';
@@ -21,6 +23,7 @@ const facetRequests=new Map();
 let worker,requestId=0,currentSearch=0,readerRequest=0,facets={},lastResults=null,reading=null;
 let datasetBase,datasetPath;
 const recordCache=new Map();
+const resultViews=new Map();
 let preferences={mode:'parallel',scale:1};
 try{preferences={...preferences,...JSON.parse(localStorage.getItem('pi-reading')||'{}')};}catch{}
 if(!['parallel','en','original'].includes(preferences.mode))preferences.mode='parallel';
@@ -39,15 +42,15 @@ function readMetadataFilters(params){
   for(const [old,key] of [['volume','volume'],['date','date'],['addressee','recipient'],['place','place']])if(params.has(old)&&!clean[key]){const value=params.get(old);if(value)clean[key]=value==='[missing]'?{presence:'missing'}:old==='volume'?{values:[value]}:{text:value};}
   return clean;
 }
-function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',paragraph:params.get('paragraph')||'',paragraphLanguage:params.get('lang')||'en',passage:params.get('passage')||'',subject:params.get('subject')||'',filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
+function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',resultMode:resultMode(params.get('view'),preferences.mode),sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',paragraph:params.get('paragraph')||'',paragraphLanguage:params.get('lang')||'en',passage:params.get('passage')||'',subject:params.get('subject')||'',filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
 let state=stateFromUrl();
-function urlFor(next){const params=new URLSearchParams();if(next.query)params.set('q',next.query);for(const key of filters)if(next.filters[key])params.set(key,next.filters[key]);if(Object.keys(next.metadataFilters||{}).length)params.set('mf',JSON.stringify(next.metadataFilters));if(next.sort!=='citations')params.set('sort',next.sort);if(next.page>1)params.set('page',next.page);if(next.id)params.set('id',next.id);if(next.id&&next.paragraph){params.set('paragraph',next.paragraph);if(next.paragraphLanguage!=='en')params.set('lang',next.paragraphLanguage);}if(next.id&&next.passage)params.set('passage',next.passage);if(next.id&&next.subject)params.set('subject',next.subject);return `${location.pathname}${params.size?'?'+params:''}`;}
+function urlFor(next){const params=new URLSearchParams();params.set('view',resultMode(next.resultMode,preferences.mode));if(next.query)params.set('q',next.query);for(const key of filters)if(next.filters[key])params.set(key,next.filters[key]);if(Object.keys(next.metadataFilters||{}).length)params.set('mf',JSON.stringify(next.metadataFilters));if(next.sort!=='citations')params.set('sort',next.sort);if(next.page>1)params.set('page',next.page);if(next.id)params.set('id',next.id);if(next.id&&next.paragraph){params.set('paragraph',next.paragraph);if(next.paragraphLanguage!=='en')params.set('lang',next.paragraphLanguage);}if(next.id&&next.passage)params.set('passage',next.passage);if(next.id&&next.subject)params.set('subject',next.subject);return `${location.pathname}${params.size?'?'+params:''}`;}
 function updateUrl(replace=false){history[replace?'replaceState':'pushState']({},'',urlFor(state)+(replace&&state.id?location.hash:''));}
 function syncControls(){
   $('query').value=state.query;$('sort').value=state.sort;
   for(const key of filters){if($(key).tagName==='SELECT'&&state.filters[key]&&![...$(key).options].some(o=>o.value===state.filters[key]))$(key).add(new Option(state.filters[key],state.filters[key]));$(key).value=state.filters[key];}
   $('query-clear').hidden=!state.query;
-  facetPanel?.sync();
+  facetPanel?.sync();syncResultMode();
 }
 function toast(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,2800);}
 function showError(container,message,retry){container.innerHTML=`<div class="empty-state"><h3>We couldn’t open this just yet.</h3><p>${esc(message)}</p><button class="secondary" data-retry>Try again</button></div>`;container.querySelector('[data-retry]').onclick=retry;}
@@ -73,15 +76,20 @@ function requestFacet(field,optionQuery,limit){if(!worker)return;const id=++requ
 function changeMetadata(next,immediate=true){state.metadataFilters=next;clearTimeout(metadataTimer);if(immediate)submitSearch();else metadataTimer=setTimeout(submitSearch,400);}
 function filterDescription(filter){return [filter.values?.join(' or '),filter.text?`contains “${filter.text}”`:'',filter.presence==='missing'?'not recorded':filter.presence==='present'?'recorded':'',filter.min!==undefined&&filter.min!==''?'≥ '+filter.min:'',filter.max!==undefined&&filter.max!==''?'≤ '+filter.max:''].filter(Boolean).join(' · ');}
 function displayTitle(record){if(record.title)return record.title;if(record.addressee)return `To ${record.addressee}`;return record.excerpt?record.excerpt.slice(0,85)+(record.excerpt.length>85?'…':''):record.id;}
-function highlight(text){
-  let result='',end=0;for(const [start,stop] of matchRanges(text,state.query)){result+=esc(text.slice(end,start))+`<mark>${esc(text.slice(start,stop))}</mark>`;end=stop;}return result+esc(text.slice(end));
+function highlight(text){return searchHighlightHtml(text,state.query);}
+function syncResultMode(){
+  document.querySelectorAll('[data-result-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.resultMode===state.resultMode)));
+  document.querySelectorAll('#results a[data-id]').forEach(link=>link.href=urlFor({...state,id:link.dataset.id,paragraph:'',passage:'',subject:''}));
+  for(const render of resultViews.values())render();
 }
 function renderResults(data){
+  resultViews.clear();
+  $('results-language').hidden=!data.rows.some(row=>row.matches);syncResultMode();
   $('results-heading').textContent=`${data.total.toLocaleString()} ${data.total===1?'text':'texts'}${state.query?' found':''}`;
   $('active-filters').innerHTML=filters.filter(key=>state.filters[key]).map(key=>`<button class="filter-chip" data-remove="${key}" aria-label="Remove ${labels[key]} filter">${labels[key]}: ${esc(state.filters[key])}<span aria-hidden="true">×</span></button>`).join('')+Object.entries(state.metadataFilters).filter(([,value])=>hasFilter(value)).map(([key,value])=>{const label=catalogFilterLabel(key,metadataFields.find(f=>f.key===key)?.name||key);return `<button class="filter-chip" data-remove-meta="${key}" aria-label="Remove ${esc(label)} filter">${esc(label)}: ${esc(filterDescription(value))}<span aria-hidden="true">×</span></button>`;}).join('');
   if(!data.total){$('results').innerHTML=`<div class="empty-state"><h3>No texts found.</h3><p>Try another spelling, fewer words, or a different filter.<br>For an ID, use the complete filename, such as BH00001.</p><button id="clear-all" class="secondary">Clear search and filters</button></div>`;$('clear-all').onclick=resetAll;}
   else{
-    $('results').innerHTML=data.rows.map(row=>`<article class="result-row"><div class="result-code">${esc(row.id)}</div><div class="result-body"><div class="result-author">${esc(row.author)}${row.matches?' · '+(row.matches.length===2?'Both languages':row.matches[0]==='en'?'English match':'Original match'):''}</div><h3 class="result-title" dir="auto"><a href="${esc(urlFor({...state,id:row.id,paragraph:'',passage:'',subject:''}))}" data-id="${esc(row.id)}">${esc(displayTitle(row))}</a></h3><div data-excerpt="${esc(row.id)}">${row.matches?'<p class="excerpt-status">Loading matching passages…</p>':`<p class="result-excerpt" dir="${!row.hasEnglish&&row.hasOriginal?'rtl':'ltr'}">${highlight(row.excerpt)}</p>`}</div><div class="result-meta"><span>${row.citationCount??0} citations</span><span>${esc(row.date||'Date not recorded')}</span>${row.volume?`<span>Vol. ${esc(row.volume)}</span>`:''}${row.place?`<span>${esc(row.place)}</span>`:''}${!(row.hasEnglish&&row.hasOriginal)?`<span class="availability-label">${row.hasEnglish?'English only':row.hasOriginal?'Original only':'Catalogue record'}</span>`:''}</div></div><span class="result-arrow" aria-hidden="true">↗</span></article>`).join('');
+    $('results').innerHTML=data.rows.map(row=>`<article class="result-row"><div class="result-code">${esc(row.id)}</div><div class="result-body"><div class="result-author">${esc(row.author)}${row.matches?' · '+(row.matches.length===2?'Both languages':row.matches[0]==='en'?'English match':'Original match'):''}</div><h3 class="result-title" dir="auto"><a href="${esc(urlFor({...state,id:row.id,paragraph:'',passage:'',subject:''}))}" data-id="${esc(row.id)}">${esc(displayTitle(row))}</a></h3><div data-excerpt="${esc(row.id)}">${row.matches?'<p class="excerpt-status">Loading matching passages…</p>':`<p class="result-excerpt" dir="${!row.hasEnglish&&row.hasOriginal?'rtl':'ltr'}">${highlight(row.excerpt)}</p>`}</div><div class="result-meta">${resultMetadataHtml(row)}</div></div><span class="result-arrow" aria-hidden="true">↗</span></article>`).join('');
     if(data.rows.some(row=>row.matches))loadExcerpts(data.rows.filter(row=>row.matches),currentSearch);
   }
   $('pagination').hidden=data.pages<=1;$('prev-page').disabled=data.page<=1;$('next-page').disabled=data.page>=data.pages;$('page-status').textContent=`Page ${data.page.toLocaleString()} of ${data.pages.toLocaleString()}`;
@@ -99,23 +107,24 @@ async function loadExcerpts(rows,searchId){
     const node=document.querySelector(`[data-excerpt="${CSS.escape(row.id)}"]`);
     try{
       const record=await getRecord(row.id);if(searchId!==currentSearch||!node?.isConnected)return;
-      const excerpts=resultExcerpts(record,query,row.matches);
+      const model=groupedResultPassages(record,query,row.matches);
       node.replaceChildren();
+      const notice=document.createElement('p');notice.className='excerpt-status';
       const list=document.createElement('div');list.id=`excerpts-${encodeURIComponent(row.id)}`;list.className='result-passages';
       const status=document.createElement('p');status.className='excerpt-status';status.setAttribute('role','status');
       const more=document.createElement('button');more.className='text-button';more.type='button';more.setAttribute('aria-controls',list.id);
-      let shown=0;
-      const append=()=>{
-        const end=Math.min(shown+8,excerpts.length);
-        for(;shown<end;shown++)list.insertAdjacentHTML('beforeend',(shown?'<div class="excerpt-separator" aria-hidden="true">…</div>':'')+excerptHtml(excerpts[shown],query));
-        status.textContent=`${shown} of ${excerpts.length} matching excerpts shown`;
-        more.textContent=shown<excerpts.length?'Show more passages':'All passages shown';
+      let limit=8;
+      const render=()=>{
+        const page=resultPassagePage(model,query,state.resultMode,limit);
+        list.innerHTML=page.html;notice.textContent=page.notice;notice.hidden=!page.notice;
+        status.textContent=`${page.shown} of ${page.total} passage groups shown`;
+        more.hidden=!page.hasMore&&limit===8;
+        more.textContent=page.hasMore?'Show more passages':'All passages shown';
         more.setAttribute('aria-label',`${more.textContent} for ${row.id}`);
-        // Keep focus on the control after the final keyboard activation.
-        more.setAttribute('aria-disabled',String(shown===excerpts.length));
+        more.setAttribute('aria-disabled',String(!page.hasMore));
       };
-      more.onclick=()=>{if(shown<excerpts.length)append();};
-      node.append(list,status);if(excerpts.length>8)node.append(more);append();
+      more.onclick=()=>{if(more.getAttribute('aria-disabled')!=='true'){limit+=8;render();}};
+      node.append(notice,list,status,more);resultViews.set(row.id,render);render();
     }catch{
       if(searchId!==currentSearch||!node?.isConnected)return;
       node.innerHTML='<p class="excerpt-status">Matching passages could not be loaded.</p>';
@@ -130,7 +139,7 @@ function runSearch(){
   worker.postMessage({type:'search',requestId:currentSearch,...state});
 }
 function submitSearch(){clearTimeout(metadataTimer);state={...state,query:$('query').value.trim(),language:'both',sort:$('sort').value,page:1,id:'',paragraph:'',passage:'',subject:'',filters:Object.fromEntries(filters.map(key=>[key,$(key).value.trim()]))};updateUrl();showCollection();runSearch();$('query-clear').hidden=!state.query;}
-function resetAll(){state={query:'',language:'both',sort:'citations',page:1,id:'',filters:Object.fromEntries(filters.map(k=>[k,''])),metadataFilters:{}};clearTimeout(metadataTimer);syncControls();updateUrl();runSearch();}
+function resetAll(){state={query:'',language:'both',resultMode:state.resultMode,sort:'citations',page:1,id:'',filters:Object.fromEntries(filters.map(k=>[k,''])),metadataFilters:{}};clearTimeout(metadataTimer);syncControls();updateUrl();runSearch();}
 function showCollection(){readerRequest++;$('collection').hidden=false;$('reader').hidden=true;document.title='Partial Inventory browser';}
 function backToCollection(){state.id='';state.paragraph='';state.passage='';state.subject='';updateUrl();showCollection();syncControls();if(!lastResults)runSearch();$('results-heading').scrollIntoView({block:'start'});$('query').focus({preventScroll:true});}
 function metadataValue(label,value){return `<div><dt>${label}</dt><dd>${esc(value||'Not recorded')}</dd></div>`;}
@@ -159,7 +168,7 @@ function highlightReading(){
     const element=document.getElementById(match.id);if(!element||element.querySelector('mark'))continue;
     const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT),nodes=[];let text='';
     while(walker.nextNode())if(walker.currentNode.parentElement.tagName!=='A'){nodes.push({node:walker.currentNode,start:text.length});text+=walker.currentNode.textContent;}
-    const ranges=matchRanges(text,state.query);
+    const ranges=searchHighlightRanges(text,state.query);
     for(const {node,start} of nodes){const value=node.textContent,local=ranges.filter(([a,b])=>b>start&&a<start+value.length).map(([a,b])=>[Math.max(0,a-start),Math.min(value.length,b-start)]);if(!local.length)continue;const fragment=document.createDocumentFragment();let end=0;for(const [a,b] of local){fragment.append(document.createTextNode(value.slice(end,a)));const mark=document.createElement('mark');mark.textContent=value.slice(a,b);fragment.append(mark);end=b;}fragment.append(document.createTextNode(value.slice(end)));node.replaceWith(fragment);}
   }
 }
@@ -190,6 +199,7 @@ function renderReading(){
 }
 function applyReadingPreferences(){const view=$('reading-view');if(!view)return;view.dataset.mode=preferences.mode;$('translation-key').hidden=preferences.mode==='original';view.style.setProperty('--scale',preferences.scale);document.querySelectorAll('[data-mode-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.modeButton===preferences.mode)));$('size-label').textContent=`${Math.round(preferences.scale*100)}%`;$('size-down').disabled=preferences.scale<=.85;$('size-up').disabled=preferences.scale>=1.35;}
 async function openReader(id,{push=true}={}){
+  preferences.mode=state.resultMode;
   id=id.replace(/\.txt$/i,'');if(push){state.paragraph='';state.passage='';state.subject='';}state.id=id;if(push)updateUrl();const token=++readerRequest;
   $('collection').hidden=true;$('reader').hidden=false;$('reader-id').textContent=id;$('reader-content').innerHTML='<div class="loading-state"><div class="loading-line"></div><p>Opening text…</p></div>';window.scrollTo(0,0);
   try{
@@ -210,7 +220,7 @@ async function openReader(id,{push=true}={}){
     renderReading();
     if(selectedPassage){const subjectId=new URLSearchParams(location.search).get('subject')||selectedPassage.subjects[0];const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<a href="./subjects.html?subject=${encodeURIComponent(subjectId)}">← Return to subject</a><span>Selected wording highlighted · ${selectedPassage.ranges.length} source ranges</span>`;document.querySelector('.reader-controls').after(bar);}
     if(readerMatches.length){const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<span>Search: <strong>${esc(state.query)}</strong></span><span id="match-label">${readerMatches.length} matching passages</span><button class="text-button" id="next-match">Next match ↓</button>`;document.querySelector('.reader-controls').after(bar);$('next-match').onclick=nextMatch;}
-    document.querySelectorAll('[data-mode-button]').forEach(button=>button.onclick=()=>{preferences.mode=button.dataset.modeButton;savePreferences();applyReadingPreferences();});
+    document.querySelectorAll('[data-mode-button]').forEach(button=>button.onclick=()=>{preferences.mode=button.dataset.modeButton;state.resultMode=preferences.mode;savePreferences();updateUrl(true);syncResultMode();applyReadingPreferences();});
     $('size-down').onclick=()=>{preferences.scale=Math.max(.85,Math.round((preferences.scale-.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('size-up').onclick=()=>{preferences.scale=Math.min(1.35,Math.round((preferences.scale+.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('reader-title').focus({preventScroll:true});
@@ -240,6 +250,7 @@ function jumpToHash(){
   if(/^ref-(en|original)-\d+$/.test(hash)&&!document.getElementById(hash)&&reading){visibleParagraphs=Math.max(readingSlots(reading.en).length,readingSlots(reading.original).length);renderReading();}
   document.getElementById(hash)?.scrollIntoView({block:'center'});
 }
+document.querySelectorAll('[data-result-mode]').forEach(button=>button.onclick=()=>{state.resultMode=button.dataset.resultMode;preferences.mode=state.resultMode;savePreferences();updateUrl();syncResultMode();});
 $('search-form').onsubmit=event=>{event.preventDefault();submitSearch();};
 $('query').oninput=()=>{$('query-clear').hidden=!$('query').value;};
 $('query-clear').onclick=()=>{$('query').value='';submitSearch();$('query').focus();};
