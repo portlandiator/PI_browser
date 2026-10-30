@@ -6,6 +6,17 @@ import {searchHighlightHtml} from './search-highlights.mjs';
 
 export const resultMode=(value,fallback='parallel')=>['parallel','en','original'].includes(value)?value:fallback;
 
+// Infer only the display language. Retrieval still searches both versions.
+export function defaultResultMode(query,parallel=false){
+  if(parallel)return 'parallel';
+  const letters=[...query].filter(char=>/\p{L}/u.test(char));
+  const original=letters.some(char=>/\p{Script=Arabic}/u.test(char));
+  const english=letters.some(char=>/\p{Script=Latin}/u.test(char));
+  return original?(english?'parallel':'original'):'en';
+}
+
+export const resultParagraphState=(state,id,reference)=>({...state,id,paragraph:String(reference.number),paragraphLanguage:reference.language,passage:'',subject:''});
+
 export function resultMetadataHtml(row){
   return `<span>${escapeHtml(row.date||'Date not recorded')}</span>${row.volume?`<span>Vol. ${escapeHtml(row.volume)}</span>`:''}`;
 }
@@ -47,29 +58,31 @@ export function groupedResultPassages(source,query,languages=['en','original']){
     notice:unequal?'Paragraph counts differ. These columns follow independent source order and are not aligned. A version without matching paragraphs is shown in full.':''};
 }
 
-function cellHtml(cell,query){
+function cellHtml(cell,query,paragraphHref){
   const {language,kind,index,texts,matched}=cell;
   // All context windows for one paragraph stay together under one label.
   const html=texts.map((part,i)=>i?part.replace(/^…\s*/,''):part).map((part,i)=>i<texts.length-1?part.replace(/\s*…$/,''):part).map(part=>matched?searchHighlightHtml(part,query):escapeHtml(part)).join(' … ');
-  return `<div class="result-passage" data-passage="${language}-${kind}-${index+1}"><span class="passage-label" dir="ltr">${language==='en'?'English':'Original'} · ${kind==='notes'?'Footnote':'Paragraph'} ${index+1}</span><p class="passage-text" dir="${language==='en'?'ltr':'rtl'}">${html}</p></div>`;
+  const name=language==='en'?'English':'Original',number=index+1;
+  const label=kind==='paragraphs'&&paragraphHref?`<a href="${escapeHtml(paragraphHref({number,language}))}" data-result-paragraph="${number}" data-paragraph-language="${language}" aria-label="Open ${name} paragraph ${number}">${number}</a>`:number;
+  return `<div class="result-passage" data-passage="${language}-${kind}-${number}"><span class="passage-label" dir="ltr">${name} · ${kind==='notes'?'Footnote':'Paragraph'} ${label}</span><p class="passage-text" dir="${language==='en'?'ltr':'rtl'}">${html}</p></div>`;
 }
-const separated=(cells,query)=>cells.map(cell=>cellHtml(cell,query)).join('<div class="excerpt-separator" aria-hidden="true">…</div>');
+const separated=(cells,query,paragraphHref)=>cells.map(cell=>cellHtml(cell,query,paragraphHref)).join('<div class="excerpt-separator" aria-hidden="true">…</div>');
 
 // Each independent language flow advances in bounded batches. Footnotes are
 // never paired by number; only source-layout paragraph slots may form pairs.
-export function resultPassagePage(model,query,mode='parallel',limit=8){
+export function resultPassagePage(model,query,mode='parallel',limit=8,paragraphHref){
   mode=resultMode(mode);
   const languages=mode==='parallel'?['en','original']:[mode];
   const pairs=model.pairs.filter(pair=>languages.some(language=>pair[language]));
   const visible=pairs.slice(0,limit);
   let shown=visible.length,total=pairs.length;
-  let html=visible.map(pair=>`<div class="${mode==='parallel'?'result-pair':'result-single'}">${languages.map(language=>`<div class="result-language">${pair[language]?cellHtml(pair[language],query):'<p class="excerpt-status">No paragraph at this source position.</p>'}</div>`).join('')}</div>`).join('<div class="excerpt-separator" aria-hidden="true">…</div>');
+  let html=visible.map(pair=>`<div class="${mode==='parallel'?'result-pair':'result-single'}">${languages.map(language=>`<div class="result-language">${pair[language]?cellHtml(pair[language],query,paragraphHref):'<p class="excerpt-status">No paragraph at this source position.</p>'}</div>`).join('')}</div>`).join('<div class="excerpt-separator" aria-hidden="true">…</div>');
   const hasIndependent=languages.some(language=>model.independent[language].length);
   if(hasIndependent){
     html+=`<div class="${mode==='parallel'?'result-independent':'result-single'}">`+languages.map(language=>{
       const cells=model.independent[language];total+=cells.length;shown+=Math.min(limit,cells.length);
       const empty=model.available[language]?'No matching passages in this language.':`${language==='en'?'English':'Original'} text unavailable.`;
-      return `<div class="result-language">${cells.length?separated(cells.slice(0,limit),query):`<p class="excerpt-status">${empty}</p>`}</div>`;
+      return `<div class="result-language">${cells.length?separated(cells.slice(0,limit),query,paragraphHref):`<p class="excerpt-status">${empty}</p>`}</div>`;
     }).join('')+'</div>';
   }
   if(!total)html=`<p class="excerpt-status">${languages.some(language=>model.available[language])?'No matching passages in this language. Choose Parallel to see the matches.':`${mode==='en'?'English':'Original'} text unavailable.`}</p>`;

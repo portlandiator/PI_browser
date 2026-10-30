@@ -46,6 +46,8 @@ dialog{border:1px solid var(--rule);border-radius:8px;padding:45px;max-width:620
 [data-excerpt]>.text-button[aria-disabled=true]{color:var(--muted);cursor:default}
 .results-language{width:max-content;margin:4px 0 18px}.results-language[hidden]{display:none}
 .results-language button{min-height:40px}
+.passage-label a{position:relative;display:inline-block;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.passage-label a::before{content:"";position:absolute;width:40px;height:40px;left:50%;top:50%;transform:translate(-50%,-50%)}
 .result-pair,.result-independent{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
 .result-language{min-width:0}.result-language+.result-language{border-left:1px solid var(--rule);padding-left:24px}
 .result-passage .passage-text{margin:0;white-space:normal}
