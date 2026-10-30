@@ -20,6 +20,7 @@ import {fingerprint} from './deployment-cache.mjs';
 import {reusableBuild,unzip,affectedBuckets,mergeShard,refreshSubjectMetadata} from './incremental-build.mjs';
 import {decodeSource} from './source-encoding.mjs';
 import {countVolumePages} from './volume-pages.mjs';
+import {indexedUnits,unitShard} from '../src/search-passages.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
@@ -81,6 +82,7 @@ const withheldVolumes=JSON.parse(await fs.readFile(path.join(root,'data','withhe
 for(const row of metadata.values())if(row.Volume&&!volumes[String(Number(row.Volume))]&&!Object.hasOwn(withheldVolumes,String(Number(row.Volume))))throw new Error(`No PDF for volume ${row.Volume}`);
 const volumePages=await countVolumePages(root,volumes);
 const catalog=[],indices={en:Array.from({length:1024},()=>new Map()),original:Array.from({length:1024},()=>new Map())};
+const unitUpdates=new Map();
 const authorNames={AB:'‘Abdu’l-Bahá',BB:'The Báb',BH:'Bahá’u’lláh'};
 const zipWrite=(file,value)=>fs.writeFile(file,gzipSync(JSON.stringify(value),{level:9}));
 let translationWordCount=0;
@@ -106,21 +108,26 @@ for(let doc=0;doc<ids.length;doc++){
   if(reuse&&before.enVersion!==enVersion)englishChanged=true;
   const wordsBefore=translationWordCount;
   const versions={};
+  const boundaries={};
   for(const [language,fileSet,folder] of [['original',files[0],sources[0]],['en',files[1],sources[1]]]){
     const text=texts[language];
     const version=parseText(text,language);versions[language]=version;
-    let position=0;
-    for(const part of [...version.paragraphs,...version.notes]){
-      for(const word of tokenize(part.plain)){
+    boundaries[language]=[];
+    for(const {words,start,end} of indexedUnits(version)){
+      boundaries[language].push(end);
+      let position=start;
+      for(const word of words){
         if(language==='en')translationWordCount++;
         const bucket=indices[language][shardKey(word)];
         if(!bucket.has(word))bucket.set(word,new Map());
         const posting=bucket.get(word);if(!posting.has(doc))posting.set(doc,[]);
         posting.get(doc).push(position++);
       }
-      position++; // A phrase may not cross paragraph or footnote boundaries.
     }
   }
+  const key=unitShard(doc);
+  if(!unitUpdates.has(key))unitUpdates.set(key,{});
+  unitUpdates.get(key)[doc]=boundaries;
   record.excerpt=(versions.en.paragraphs[0]?.plain||versions.original.paragraphs[0]?.plain||row['First line (translated)']||row['First line (original)']||row.Abstracts||'').slice(0,190);
   const counts=alignmentCounts(versions),equal=counts.en===counts.original;
   if(record.hasEnglish&&record.hasOriginal&&!equal)report.unequalParagraphCounts.push({id,...counts});
@@ -137,6 +144,11 @@ for(let doc=0;doc<ids.length;doc++){
 const stats={dataset,translationWordCount,records:ids.length,pairs:ids.filter(id=>files[0].has(id)&&files[1].has(id)).length,original:files[0].size,english:files[1].size,metadataOnly:report.metadataOnly.length,unequalParagraphCounts:report.unequalParagraphCounts.length,volumePages:volumePages.total};
 await zipWrite(path.join(corpus,'catalog.json.gz'),catalog);
 await fs.writeFile(path.join(corpus,'metadata-schema.json'),JSON.stringify(schema));
+await fs.mkdir(path.join(corpus,'index/units'),{recursive:true});
+for(const [key,updates] of unitUpdates){
+  const file=path.join(corpus,'index/units',`${key}.json.gz`);
+  await zipWrite(file,reuse?{...await unzip(file),...updates}:updates);
+}
 for(const field of schema)await zipWrite(path.join(corpus,'facets',`${field.key}.json.gz`),ids.map(id=>metadataSearchText(metadata.get(id)?.[field.name]||'')));
 for(const language of ['en','original']){
   await fs.mkdir(path.join(corpus,'index',language),{recursive:true});

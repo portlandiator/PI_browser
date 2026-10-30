@@ -1,4 +1,5 @@
-import {normalize,parseQuery,shardKey,unpackPosting,matchPostings} from './text.mjs';
+import {parseQuery,shardKey,unpackPosting,matchPostings} from './text.mjs';
+import {matchingUnits,unitShard} from './search-passages.mjs';
 import {loadCompressed} from './data.mjs';
 import {hasFilter,matchesMetadata,facetSummary} from './metadata.mjs';
 import {volumeFilterLabel} from './catalog-filters.mjs';
@@ -29,7 +30,18 @@ async function searchLanguage(language,groups){
     const bucket=await getShard(language,shardKey(word));
     if(Object.hasOwn(bucket,word)){const bytes=Uint8Array.from(atob(bucket[word]),c=>c.charCodeAt(0));postings.set(word,unpackPosting(bytes));}
   }));
-  return matchPostings(groups,postings);
+  const candidates=matchPostings(groups,postings);
+  // One phrase already respects the index's separating position. Multiple
+  // words/components need the unit boundaries, fetched only for candidate IDs.
+  if(groups.length===1&&(groups[0].phrase||groups[0].words.length===1))return candidates;
+  const batches=new Map(),matched=new Set();
+  for(const doc of candidates){const key=unitShard(doc);if(!batches.has(key))batches.set(key,[]);batches.get(key).push(doc);}
+  const pending=[...batches];let next=0;
+  await Promise.all(Array.from({length:4},async()=>{while(next<pending.length){
+    const [key,docs]=pending[next++],units=await getShard('units',key);
+    for(const doc of docs)if(matchingUnits(groups,postings,doc,units[doc]?.[language]).length)matched.add(doc);
+  }}));
+  return candidates.filter(doc=>matched.has(doc));
 }
 function allowed(row,filters){
   if(filters.author&&row.author!==filters.author)return false;
