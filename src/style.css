@@ -29,3 +29,8 @@ dialog{border:1px solid var(--rule);border-radius:8px;padding:45px;max-width:620
 .translation-key{font-size:13px;line-height:1.6;color:var(--muted);margin:6px 0 14px}
 .reader-controls+.translation-key{font-size:11px;line-height:1.7;text-align:center;padding:13px 10px;margin:0;border-bottom:1px solid var(--rule)}
 .translation-key[hidden]{display:none}
+
+.paragraph-cell.referenced-paragraph{background:var(--target)}
+.paragraph-link-help{font-size:13px;color:var(--muted);text-align:center;margin:12px 0}
+.paragraph-number::before{content:"";position:absolute;min-width:40px;min-height:40px;left:50%;top:50%;transform:translate(-50%,-50%)}
+@media print{.paragraph-link-help,#paragraph-link-status{display:none}.paragraph-cell.referenced-paragraph{background:transparent}}

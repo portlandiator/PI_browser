@@ -29,6 +29,7 @@ Open http://localhost:4173/PI_browser/. The server deliberately tests the same p
 - Default parallel reading, English on the left. Matching-count paragraphs pair in source order; unequal counts use independent columns. Mobile displays each matched pair vertically.
 - Accessible footnotes, italics and transliteration accents; source HTML is escaped; metadata web links are safely reconstructed.
 - Adjustable reading size, single-language modes, contextual snippets, pagination, persistent URLs, and copyable reading links.
+- Share a Catalog paragraph by selecting its number and choosing **Copy link**, or copying the number's link directly. English links use `?id=BH00001&paragraph=12`; original-language links add `&lang=original`. Numbers match the source paragraphs displayed in that language, including in texts with unequal paragraph counts. Existing subject/study-guide passage links and `#p-en-12` / `#p-original-12` anchors remain supported.
 - No accounts, analytics, external search service, or runtime server.
 
 ## Technology

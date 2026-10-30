@@ -35,6 +35,8 @@ In the Catalog reader, when both Manuscripts and Publications have no entries, s
 
 ## State and accessibility
 
+Catalog paragraph numbers link to readable query URLs: `?id=BH00001&paragraph=12` for English and `?id=BH00001&paragraph=12&lang=original` for the original. Selecting a number retains the current catalogue search for Back to collection; Copy link shares only the item, paragraph and language. Opening a reference reveals and highlights that source paragraph, including beyond the initial reading batch, and makes its language visible. Unavailable or invalid paragraph references leave the record readable with a notice. Existing version-checked quotation links and paragraph/footnote anchors remain supported; quotation targets take precedence when both forms occur.
+
 Catalog reader paragraphs and footnotes and Subject view's selected passages are fully justified in both languages, including single-language modes and print. Final lines retain their natural reading-direction alignment.
 
 Deep links use query parameters so GitHub Pages can serve every state without server routing. Results announce completion to assistive technology. Labels remain visible; controls have at least 40px hit areas. Focus is visible. Loading, unavailable text, no matches, invalid IDs, and failed fetches have distinct messages and recovery actions. User text-size and language display preferences are stored locally; no visitor tracking.
