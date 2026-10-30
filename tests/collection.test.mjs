@@ -8,6 +8,7 @@ import {fileURLToPath} from 'node:url';
 import {parseCsv,parseText,tokenize,parseQuery,shardKey,unpackPosting,matchPostings} from '../src/text.mjs';
 import {mayPublishOriginal} from '../src/original-publication.mjs';
 import {decodeSource} from '../scripts/source-encoding.mjs';
+import {indexedUnits,unitShard,matchingUnits,matchingPassages} from '../src/search-passages.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
 const metadataFolder=path.join(root,'metadata - copy');
@@ -46,8 +47,31 @@ test('sampled generated paragraphs preserve source text through encoding and ren
 async function search(language,query){
   const groups=parseQuery(query),postings=new Map();
   for(const word of new Set(groups.flatMap(g=>g.words))){const bucket=await load(`index/${language}/${shardKey(word)}.json.gz`);if(Object.hasOwn(bucket,word))postings.set(word,unpackPosting(Buffer.from(bucket[word],'base64')));}
-  return matchPostings(groups,postings).map(index=>catalog[index].id);
+  const units=new Map(),matches=[];
+  for(const doc of matchPostings(groups,postings)){
+    const key=unitShard(doc);if(!units.has(key))units.set(key,await load(`index/units/${key}.json.gz`));
+    if(matchingUnits(groups,postings,doc,units.get(key)[doc][language]).length)matches.push(catalog[doc].id);
+  }
+  return matches;
 }
+test('generated boundaries and complete-query matches agree with source paragraphs and notes',async()=>{
+  for(const id of ['AB00001','BH00001','BB00151','BH00004','AB00292 (2)']){
+    const doc=catalog.findIndex(row=>row.id===id),record=await load(`data/${recordFilename(id)}`);
+    const boundaries=(await load(`index/units/${unitShard(doc)}.json.gz`))[doc];
+    for(const language of ['en','original'])assert.deepEqual(boundaries[language],[...indexedUnits(record[language])].map(unit=>unit.end),`${id} ${language}`);
+  }
+  for(const [language,query] of [['en','"love of God" peace'],['en','love justice'],['en','love God'],['original','کتاب الله']]){
+    const matches=await search(language,query);assert.ok(matches.length>0,query);
+    // This source has love and God in separate paragraphs, catching the former
+    // document-wide AND while still deriving expectations from current sources.
+    const sample=await load('data/BH00386.json.gz');
+    assert.equal(matches.includes(sample.id),matchingPassages(sample,query,[language]).length>0);
+    for(const id of matches.slice(0,30)){
+      const record=await load(`data/${recordFilename(id)}`);
+      assert.ok(matchingPassages(record,query,[language]).length,`${id}: ${query}`);
+    }
+  }
+});
 test('actual compressed indices find sampled phrases and honor whole words',async()=>{
   if(!catalog)return;
   for(const id of ['AB00001','BH00001','BB00151']){

@@ -3,7 +3,8 @@ import {readingSlots,alignmentCounts,readingPosition} from './paragraph-alignmen
 import {authorizedRanges,isAuthorizedParagraph,catalogueDetails} from './translation-status.mjs';
 import {recordFilename} from './record-file.mjs';
 import {mayPublishOriginal} from './original-publication.mjs';
-import {escapeHtml as esc,normalize,tokenize,parseQuery,matchRanges} from './text.mjs';
+import {escapeHtml as esc,matchRanges} from './text.mjs';
+import {matchingPassages,resultExcerpts,excerptHtml} from './search-passages.mjs';
 import {loadCompressed} from './data.mjs';
 import {renderMetadata,renderReferenceList,hasFilter} from './metadata.mjs';
 import {FacetPanel} from './facets-ui.mjs';
@@ -80,8 +81,8 @@ function renderResults(data){
   $('active-filters').innerHTML=filters.filter(key=>state.filters[key]).map(key=>`<button class="filter-chip" data-remove="${key}" aria-label="Remove ${labels[key]} filter">${labels[key]}: ${esc(state.filters[key])}<span aria-hidden="true">×</span></button>`).join('')+Object.entries(state.metadataFilters).filter(([,value])=>hasFilter(value)).map(([key,value])=>{const label=catalogFilterLabel(key,metadataFields.find(f=>f.key===key)?.name||key);return `<button class="filter-chip" data-remove-meta="${key}" aria-label="Remove ${esc(label)} filter">${esc(label)}: ${esc(filterDescription(value))}<span aria-hidden="true">×</span></button>`;}).join('');
   if(!data.total){$('results').innerHTML=`<div class="empty-state"><h3>No texts found.</h3><p>Try another spelling, fewer words, or a different filter.<br>For an ID, use the complete filename, such as BH00001.</p><button id="clear-all" class="secondary">Clear search and filters</button></div>`;$('clear-all').onclick=resetAll;}
   else{
-    $('results').innerHTML=data.rows.map(row=>`<a class="result-row" href="${esc(urlFor({...state,id:row.id,paragraph:'',passage:'',subject:''}))}" data-id="${esc(row.id)}"><div class="result-code">${esc(row.id)}</div><div class="result-body"><div class="result-author">${esc(row.author)}${row.matches?' · '+(row.matches.length===2?'Both languages':row.matches[0]==='en'?'English match':'Original match'):''}</div><h3 class="result-title" dir="auto">${esc(displayTitle(row))}</h3><p class="result-excerpt" data-excerpt="${esc(row.id)}" dir="${!row.hasEnglish&&row.hasOriginal?'rtl':'ltr'}">${highlight(row.excerpt)}</p><div class="result-meta"><span>${row.citationCount??0} citations</span><span>${esc(row.date||'Date not recorded')}</span>${row.volume?`<span>Vol. ${esc(row.volume)}</span>`:''}${row.place?`<span>${esc(row.place)}</span>`:''}${!(row.hasEnglish&&row.hasOriginal)?`<span class="availability-label">${row.hasEnglish?'English only':row.hasOriginal?'Original only':'Catalogue record'}</span>`:''}</div></div><span class="result-arrow" aria-hidden="true">↗</span></a>`).join('');
-    if(state.query&&!/^[a-z]{2}\d/i.test(state.query))loadExcerpts(data.rows,currentSearch);
+    $('results').innerHTML=data.rows.map(row=>`<article class="result-row"><div class="result-code">${esc(row.id)}</div><div class="result-body"><div class="result-author">${esc(row.author)}${row.matches?' · '+(row.matches.length===2?'Both languages':row.matches[0]==='en'?'English match':'Original match'):''}</div><h3 class="result-title" dir="auto"><a href="${esc(urlFor({...state,id:row.id,paragraph:'',passage:'',subject:''}))}" data-id="${esc(row.id)}">${esc(displayTitle(row))}</a></h3><div data-excerpt="${esc(row.id)}">${row.matches?'<p class="excerpt-status">Loading matching passages…</p>':`<p class="result-excerpt" dir="${!row.hasEnglish&&row.hasOriginal?'rtl':'ltr'}">${highlight(row.excerpt)}</p>`}</div><div class="result-meta"><span>${row.citationCount??0} citations</span><span>${esc(row.date||'Date not recorded')}</span>${row.volume?`<span>Vol. ${esc(row.volume)}</span>`:''}${row.place?`<span>${esc(row.place)}</span>`:''}${!(row.hasEnglish&&row.hasOriginal)?`<span class="availability-label">${row.hasEnglish?'English only':row.hasOriginal?'Original only':'Catalogue record'}</span>`:''}</div></div><span class="result-arrow" aria-hidden="true">↗</span></article>`).join('');
+    if(data.rows.some(row=>row.matches))loadExcerpts(data.rows.filter(row=>row.matches),currentSearch);
   }
   $('pagination').hidden=data.pages<=1;$('prev-page').disabled=data.page<=1;$('next-page').disabled=data.page>=data.pages;$('page-status').textContent=`Page ${data.page.toLocaleString()} of ${data.pages.toLocaleString()}`;
 }
@@ -92,18 +93,36 @@ async function getRecord(id){
   recordCache.set(id,promise);if(recordCache.size>30)recordCache.delete(recordCache.keys().next().value);return promise;
 }
 async function loadExcerpts(rows,searchId){
-  let next=0;const groups=parseQuery(state.query),words=new Set(groups.flatMap(g=>g.words));
-  await Promise.all(Array.from({length:4},async()=>{while(next<rows.length){const row=rows[next++];if(searchId!==currentSearch)return;try{
-    const record=await getRecord(row.id);if(searchId!==currentSearch)return;
-    const language=row.matches?.includes('en')?'en':'original';
-    const parts=[...record[language].paragraphs,...record[language].notes];
-    const locate=part=>{const chunks=[...part.plain.matchAll(/[\p{L}\p{N}\p{M}]+/gu)],normalized=chunks.map(c=>normalize(c[0]));let found=-1;for(const group of groups.filter(g=>g.phrase)){found=normalized.findIndex((_,i)=>group.words.every((w,j)=>normalized[i+j]===w));if(found>=0)return {part,score:1000+group.words.length,first:chunks[found].index};}found=normalized.findIndex(w=>words.has(w));return {part,score:found<0?0:1,first:found<0?0:chunks[found].index};};
-    const scored=parts.map(locate).sort((a,b)=>b.score-a.score);
-    let text=scored[0]?.part.plain||row.excerpt;
-    const first=scored[0]?.first||0;
-    const start=Math.max(0,first-65);text=(start?'…':'')+text.slice(start,start+270)+(text.length>start+270?'…':'');
-    const node=document.querySelector(`[data-excerpt="${CSS.escape(row.id)}"]`);if(node){node.innerHTML=highlight(text);node.dir=language==='original'?'rtl':'ltr';}
-  }catch{/* Catalogue opening words remain usable if an excerpt fails. */}}}));
+  let next=0;const query=state.query;
+  await Promise.all(Array.from({length:4},async()=>{while(next<rows.length){
+    const row=rows[next++];if(searchId!==currentSearch)return;
+    const node=document.querySelector(`[data-excerpt="${CSS.escape(row.id)}"]`);
+    try{
+      const record=await getRecord(row.id);if(searchId!==currentSearch||!node?.isConnected)return;
+      const excerpts=resultExcerpts(record,query,row.matches);
+      node.replaceChildren();
+      const list=document.createElement('div');list.id=`excerpts-${encodeURIComponent(row.id)}`;list.className='result-passages';
+      const status=document.createElement('p');status.className='excerpt-status';status.setAttribute('role','status');
+      const more=document.createElement('button');more.className='text-button';more.type='button';more.setAttribute('aria-controls',list.id);
+      let shown=0;
+      const append=()=>{
+        const end=Math.min(shown+8,excerpts.length);
+        for(;shown<end;shown++)list.insertAdjacentHTML('beforeend',(shown?'<div class="excerpt-separator" aria-hidden="true">…</div>':'')+excerptHtml(excerpts[shown],query));
+        status.textContent=`${shown} of ${excerpts.length} matching excerpts shown`;
+        more.textContent=shown<excerpts.length?'Show more passages':'All passages shown';
+        more.setAttribute('aria-label',`${more.textContent} for ${row.id}`);
+        // Keep focus on the control after the final keyboard activation.
+        more.setAttribute('aria-disabled',String(shown===excerpts.length));
+      };
+      more.onclick=()=>{if(shown<excerpts.length)append();};
+      node.append(list,status);if(excerpts.length>8)node.append(more);append();
+    }catch{
+      if(searchId!==currentSearch||!node?.isConnected)return;
+      node.innerHTML='<p class="excerpt-status">Matching passages could not be loaded.</p>';
+      const retry=document.createElement('button');retry.type='button';retry.className='text-button';retry.textContent='Retry passages';
+      retry.onclick=()=>{retry.disabled=true;loadExcerpts([row],searchId);};node.append(retry);
+    }
+  }}));
 }
 function runSearch(){
   if(!worker)return;
@@ -131,16 +150,8 @@ function highlightPassage(){
   }
 }
 function collectReadingMatches(record){
-  const groups=parseQuery(state.query);
-  if(!groups.length||state.query.replace(/\.txt$/i,'').toUpperCase()===record.id.toUpperCase())return [];
-  const matches=[];
-  for(const language of state.language==='both'?['en','original']:[state.language]){
-    for(const kind of ['paragraphs','notes'])record[language][kind].forEach((part,index)=>{
-      const tokens=tokenize(part.plain);
-      if(groups.some(g=>g.phrase?tokens.some((_,i)=>g.words.every((w,j)=>tokens[i+j]===w)):g.words.some(w=>tokens.includes(w))))matches.push({language,kind,index,id:kind==='paragraphs'?`p-${language}-${index+1}`:`note-${language}-${index+1}`});
-    });
-  }
-  return matches;
+  if(!state.query.trim()||state.query.replace(/\.txt$/i,'').toUpperCase()===record.id.toUpperCase())return [];
+  return matchingPassages(record,state.query,state.language==='both'?['en','original']:[state.language]);
 }
 function highlightReading(){
   if(!readerMatches.length)return;

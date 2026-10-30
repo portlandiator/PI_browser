@@ -100,7 +100,7 @@ export function parseQuery(query) {
 }
 
 export function matchRanges(text,query){
-  const spans=[...text.matchAll(/[\p{L}\p{N}\p{M}]+/gu)].map(m=>({word:normalize(m[0]),start:m.index,end:m.index+m[0].length}));
+  const spans=[...text.matchAll(/[\p{L}\p{N}\p{M}]+/gu)].flatMap(m=>tokenize(m[0]).map(word=>({word,start:m.index,end:m.index+m[0].length})));
   const ranges=[];
   for(const group of parseQuery(query))for(let i=0;i<spans.length;i++){
     if(group.phrase){if(group.words.every((word,j)=>spans[i+j]?.word===word))ranges.push([spans[i].start,spans[i+group.words.length-1].end]);}
