@@ -3,10 +3,45 @@ import assert from 'node:assert/strict';
 import {parseText} from '../src/text.mjs';
 import {matchingPassages} from '../src/search-passages.mjs';
 import {searchHighlightRanges,searchHighlightHtml} from '../src/search-highlights.mjs';
-import {groupedResultPassages,resultPassagePage,resultMetadataHtml,resultMode} from '../src/search-results.mjs';
+import {groupedResultPassages,resultPassagePage,resultMetadataHtml,resultMode,defaultResultMode,resultParagraphState} from '../src/search-results.mjs';
+import {paragraphUrl,paragraphReference,paragraphTarget} from '../src/paragraph-links.mjs';
 
 const record=(en='',original='')=>({metadata:{Manuscripts:'M'},en:parseText(en,'en'),original:parseText(original,'original')});
 const marks=(text,query)=>searchHighlightRanges(text,query).map(([a,b])=>text.slice(a,b));
+
+test('new searches follow their script unless Parallel was explicitly selected',()=>{
+  for(const query of ['love God','"the love of God"','Bahá’u’lláh','BH00001','123','۱۲۳',''])assert.equal(defaultResultMode(query),'en',query);
+  for(const query of ['"من الله"','کتاب خدا','إِنَّ في هذا كِتاب','\uFEFF«اللّه»'])assert.equal(defaultResultMode(query),'original',query);
+  assert.equal(defaultResultMode('love خدا'),'parallel');
+  assert.equal(defaultResultMode('love',true),'parallel');
+  assert.equal(defaultResultMode('خدا',true),'parallel');
+  assert.equal(defaultResultMode('خدا',false),'original');
+  assert.equal(resultMode('en',defaultResultMode('خدا',true)),'en');
+});
+
+test('result paragraph links preserve source numbering, exact IDs, subpaths and language',()=>{
+  const source=record('first\n\n\n\nlove \\footnote{love note}','اول\n\nدوم\n\nسوم');
+  const calls=[];
+  const page=resultPassagePage(groupedResultPassages(source,'love'),'love','parallel',8,reference=>{
+    calls.push(reference);assert.ok(paragraphTarget(source,reference));
+    return paragraphUrl('/PI_browser/index.html','AB00292 (2)',reference);
+  });
+  assert.deepEqual(calls,[{number:2,language:'en'},{number:3,language:'original'}]);
+  assert.match(page.html,/href="\/PI_browser\/index.html\?id=AB00292\+%282%29&amp;paragraph=2"/);
+  assert.match(page.html,/paragraph=3&amp;lang=original" data-result-paragraph="3" data-paragraph-language="original"/);
+  assert.match(page.html,/aria-label="Open English paragraph 2">2<\/a>/);
+  assert.match(page.html,/English · Footnote 1<\/span>/);
+  const deep=record(Array.from({length:150},()=> 'love').join('\n\n'));
+  const expanded=resultPassagePage(groupedResultPassages(deep,'love'),'love','en',152,reference=>paragraphUrl('/PI_browser/','bh05388',reference));
+  assert.match(expanded.html,/id=bh05388&amp;paragraph=150/);
+});
+
+test('opening a result paragraph retains the catalogue context and clears unrelated quotation targets',()=>{
+  const state={query:'love God',resultMode:'parallel',sort:'volume',page:3,filters:{author:'Bahá’u’lláh'},metadataFilters:{volume:{values:['50']}},id:'other',paragraph:'1',paragraphLanguage:'original',passage:'old',subject:'old'};
+  const next=resultParagraphState(state,'BH00001',paragraphReference(150));
+  assert.deepEqual(next,{...state,id:'BH00001',paragraph:'150',paragraphLanguage:'en',passage:'',subject:''});
+  assert.equal(state.id,'other');assert.equal(state.paragraph,'1');
+});
 
 test('stop words remain required for retrieval but are not highlighted inside phrases',()=>{
   assert.deepEqual(marks('The love of God, a gift and an answer.','"the love of God" a an and'),['love','God']);

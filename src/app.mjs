@@ -6,7 +6,7 @@ import {mayPublishOriginal} from './original-publication.mjs';
 import {escapeHtml as esc} from './text.mjs';
 import {searchHighlightRanges,searchHighlightHtml} from './search-highlights.mjs';
 import {matchingPassages} from './search-passages.mjs';
-import {resultMode,groupedResultPassages,resultPassagePage,resultMetadataHtml} from './search-results.mjs';
+import {resultMode,defaultResultMode,resultParagraphState,groupedResultPassages,resultPassagePage,resultMetadataHtml} from './search-results.mjs';
 import {loadCompressed} from './data.mjs';
 import {renderMetadata,renderReferenceList,hasFilter} from './metadata.mjs';
 import {FacetPanel} from './facets-ui.mjs';
@@ -24,9 +24,10 @@ let worker,requestId=0,currentSearch=0,readerRequest=0,facets={},lastResults=nul
 let datasetBase,datasetPath;
 const recordCache=new Map();
 const resultViews=new Map();
-let preferences={mode:'parallel',scale:1};
+let preferences={mode:'parallel',scale:1,parallelResults:false};
 try{preferences={...preferences,...JSON.parse(localStorage.getItem('pi-reading')||'{}')};}catch{}
 if(!['parallel','en','original'].includes(preferences.mode))preferences.mode='parallel';
+preferences.parallelResults=preferences.parallelResults===true;
 preferences.scale=Math.max(.85,Math.min(1.35,Number(preferences.scale)||1));
 function savePreferences(){try{localStorage.setItem('pi-reading',JSON.stringify(preferences));}catch{}}
 function readMetadataFilters(params){
@@ -42,7 +43,7 @@ function readMetadataFilters(params){
   for(const [old,key] of [['volume','volume'],['date','date'],['addressee','recipient'],['place','place']])if(params.has(old)&&!clean[key]){const value=params.get(old);if(value)clean[key]=value==='[missing]'?{presence:'missing'}:old==='volume'?{values:[value]}:{text:value};}
   return clean;
 }
-function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',resultMode:resultMode(params.get('view'),preferences.mode),sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',paragraph:params.get('paragraph')||'',paragraphLanguage:params.get('lang')||'en',passage:params.get('passage')||'',subject:params.get('subject')||'',filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
+function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',resultMode:resultMode(params.get('view'),params.get('q')?defaultResultMode(params.get('q'),preferences.parallelResults):preferences.mode),sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',paragraph:params.get('paragraph')||'',paragraphLanguage:params.get('lang')||'en',passage:params.get('passage')||'',subject:params.get('subject')||'',filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
 let state=stateFromUrl();
 function urlFor(next){const params=new URLSearchParams();params.set('view',resultMode(next.resultMode,preferences.mode));if(next.query)params.set('q',next.query);for(const key of filters)if(next.filters[key])params.set(key,next.filters[key]);if(Object.keys(next.metadataFilters||{}).length)params.set('mf',JSON.stringify(next.metadataFilters));if(next.sort!=='citations')params.set('sort',next.sort);if(next.page>1)params.set('page',next.page);if(next.id)params.set('id',next.id);if(next.id&&next.paragraph){params.set('paragraph',next.paragraph);if(next.paragraphLanguage!=='en')params.set('lang',next.paragraphLanguage);}if(next.id&&next.passage)params.set('passage',next.passage);if(next.id&&next.subject)params.set('subject',next.subject);return `${location.pathname}${params.size?'?'+params:''}`;}
 function updateUrl(replace=false){history[replace?'replaceState':'pushState']({},'',urlFor(state)+(replace&&state.id?location.hash:''));}
@@ -115,7 +116,7 @@ async function loadExcerpts(rows,searchId){
       const more=document.createElement('button');more.className='text-button';more.type='button';more.setAttribute('aria-controls',list.id);
       let limit=8;
       const render=()=>{
-        const page=resultPassagePage(model,query,state.resultMode,limit);
+        const page=resultPassagePage(model,query,state.resultMode,limit,reference=>urlFor(resultParagraphState(state,row.id,reference)));
         list.innerHTML=page.html;notice.textContent=page.notice;notice.hidden=!page.notice;
         status.textContent=`${page.shown} of ${page.total} passage groups shown`;
         more.hidden=!page.hasMore&&limit===8;
@@ -138,7 +139,7 @@ function runSearch(){
   currentSearch=++requestId;$('results').setAttribute('aria-busy','true');$('results-heading').textContent='Searching…';$('pagination').hidden=true;
   worker.postMessage({type:'search',requestId:currentSearch,...state});
 }
-function submitSearch(){clearTimeout(metadataTimer);state={...state,query:$('query').value.trim(),language:'both',sort:$('sort').value,page:1,id:'',paragraph:'',passage:'',subject:'',filters:Object.fromEntries(filters.map(key=>[key,$(key).value.trim()]))};updateUrl();showCollection();runSearch();$('query-clear').hidden=!state.query;}
+function submitSearch(){clearTimeout(metadataTimer);const query=$('query').value.trim();state={...state,resultMode:query===state.query?state.resultMode:defaultResultMode(query,preferences.parallelResults),query,language:'both',sort:$('sort').value,page:1,id:'',paragraph:'',passage:'',subject:'',filters:Object.fromEntries(filters.map(key=>[key,$(key).value.trim()]))};updateUrl();showCollection();runSearch();$('query-clear').hidden=!state.query;}
 function resetAll(){state={query:'',language:'both',resultMode:state.resultMode,sort:'citations',page:1,id:'',filters:Object.fromEntries(filters.map(k=>[k,''])),metadataFilters:{}};clearTimeout(metadataTimer);syncControls();updateUrl();runSearch();}
 function showCollection(){readerRequest++;$('collection').hidden=false;$('reader').hidden=true;document.title='Partial Inventory browser';}
 function backToCollection(){state.id='';state.paragraph='';state.passage='';state.subject='';updateUrl();showCollection();syncControls();if(!lastResults)runSearch();$('results-heading').scrollIntoView({block:'start'});$('query').focus({preventScroll:true});}
@@ -220,7 +221,7 @@ async function openReader(id,{push=true}={}){
     renderReading();
     if(selectedPassage){const subjectId=new URLSearchParams(location.search).get('subject')||selectedPassage.subjects[0];const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<a href="./subjects.html?subject=${encodeURIComponent(subjectId)}">← Return to subject</a><span>Selected wording highlighted · ${selectedPassage.ranges.length} source ranges</span>`;document.querySelector('.reader-controls').after(bar);}
     if(readerMatches.length){const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<span>Search: <strong>${esc(state.query)}</strong></span><span id="match-label">${readerMatches.length} matching passages</span><button class="text-button" id="next-match">Next match ↓</button>`;document.querySelector('.reader-controls').after(bar);$('next-match').onclick=nextMatch;}
-    document.querySelectorAll('[data-mode-button]').forEach(button=>button.onclick=()=>{preferences.mode=button.dataset.modeButton;state.resultMode=preferences.mode;savePreferences();updateUrl(true);syncResultMode();applyReadingPreferences();});
+    document.querySelectorAll('[data-mode-button]').forEach(button=>button.onclick=()=>{preferences.mode=button.dataset.modeButton;state.resultMode=preferences.mode;preferences.parallelResults=state.resultMode==='parallel';savePreferences();updateUrl(true);syncResultMode();applyReadingPreferences();});
     $('size-down').onclick=()=>{preferences.scale=Math.max(.85,Math.round((preferences.scale-.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('size-up').onclick=()=>{preferences.scale=Math.min(1.35,Math.round((preferences.scale+.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('reader-title').focus({preventScroll:true});
@@ -250,14 +251,24 @@ function jumpToHash(){
   if(/^ref-(en|original)-\d+$/.test(hash)&&!document.getElementById(hash)&&reading){visibleParagraphs=Math.max(readingSlots(reading.en).length,readingSlots(reading.original).length);renderReading();}
   document.getElementById(hash)?.scrollIntoView({block:'center'});
 }
-document.querySelectorAll('[data-result-mode]').forEach(button=>button.onclick=()=>{state.resultMode=button.dataset.resultMode;preferences.mode=state.resultMode;savePreferences();updateUrl();syncResultMode();});
+document.querySelectorAll('[data-result-mode]').forEach(button=>button.onclick=()=>{state.resultMode=button.dataset.resultMode;preferences.mode=state.resultMode;preferences.parallelResults=state.resultMode==='parallel';savePreferences();updateUrl();syncResultMode();});
 $('search-form').onsubmit=event=>{event.preventDefault();submitSearch();};
 $('query').oninput=()=>{$('query-clear').hidden=!$('query').value;};
 $('query-clear').onclick=()=>{$('query').value='';submitSearch();$('query').focus();};
 for(const key of ['author','sort'])$(key).onchange=submitSearch;
 $('reset-filters').onclick=()=>{for(const key of filters)$(key).value='';state.metadataFilters={};facetPanel?.sync();submitSearch();};
 $('active-filters').onclick=event=>{const button=event.target.closest('[data-remove]');if(button){$(button.dataset.remove).value='';submitSearch();}const metadataButton=event.target.closest('[data-remove-meta]');if(metadataButton){const next={...state.metadataFilters};delete next[metadataButton.dataset.removeMeta];changeMetadata(next);facetPanel?.sync();}};
-$('results').onclick=event=>{const row=event.target.closest('[data-id]');if(row&&!event.ctrlKey&&!event.metaKey&&!event.shiftKey){event.preventDefault();openReader(row.dataset.id);}};
+$('results').onclick=event=>{
+  if(event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  const link=event.target.closest('a[data-result-paragraph]');
+  if(link){
+    const reference=paragraphReference(link.dataset.resultParagraph,link.dataset.paragraphLanguage);
+    if(!reference)return;
+    event.preventDefault();state=resultParagraphState(state,link.closest('[data-excerpt]').dataset.excerpt,reference);
+    updateUrl();openReader(state.id,{push:false});return;
+  }
+  const row=event.target.closest('[data-id]');if(row){event.preventDefault();openReader(row.dataset.id);}
+};
 for(const [id,delta] of [['prev-page',-1],['next-page',1]])$(id).onclick=()=>{state.page+=delta;updateUrl();runSearch();$('results-heading').scrollIntoView({block:'start'});};
 $('filter-toggle').onclick=()=>{const expanded=$('filter-fields').classList.toggle('expanded');$('filter-toggle').setAttribute('aria-expanded',String(expanded));$('filter-toggle').lastElementChild.textContent=expanded?'−':'+';};
 $('back-results').onclick=backToCollection;
