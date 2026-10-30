@@ -141,7 +141,7 @@ for(const config of editorial.subjects){
   const rendered=[],printed=[],compiled=[];
   let paragraphCount=0,rangeCount=0;
   for(const [position,g] of ordered.entries()){
-    let quote='',context='',citation='',note='',opening=[],openingSource='';
+    let quote='',context='',citation='',note='',opening=[],openingAuthorized=[],openingSource='';
     const entry={position:position+1,key:key(g),selectionIds:g.selections.map(s=>s.id),source:g.source,paragraphs:[]};
     const shortened=shownOrder[position].shortened,label=`${config.slug} reading ${position+1}`;
     const restoration=sentenceContext.find(x=>x.slug===config.slug&&x.key===key(g));
@@ -188,7 +188,7 @@ for(const config of editorial.subjects){
         const gap=i&&(p.gap||p.number>paragraphs[i-1].number+1)?'… ':'';
         const authorized=isAuthorizedParagraph(authorization,p.number);
         quote+=`<p${authorized?' class="authorized"':''}>${gap}${parts.map(esc).join(' … ')}</p>`;
-        opening.push(gap+parts.join(' … '));openingSource=record.id;
+        opening.push(gap+parts.join(' … '));openingAuthorized.push(authorized);openingSource=record.id;
         entry.paragraphs.push({number:p.number,ranges:p.ranges,text:parts.join(' … '),authorized});
         paragraphCount++;
       }
@@ -225,7 +225,7 @@ for(const config of editorial.subjects){
     }else{
       const s=g.selections[0];
       const wording=s.excerpt||s.original||'';
-      opening=[shortened?shortenSupplied(wording,shortened,label).join(' … '):wording];openingSource=(s.status==='approximate'&&s.candidates?.[0]?.source)||s.suppliedIds?.[0]||'';
+      opening=[shortened?shortenSupplied(wording,shortened,label).join(' … '):wording];openingAuthorized=[false];openingSource=(s.status==='approximate'&&s.candidates?.[0]?.source)||s.suppliedIds?.[0]||'';
       quote=`<p>${opening.map(esc).join('')}</p>`;
       if(shortened)entry.shortened=true;
       citation=`<span class="passage-citation">${esc(s.reference||(s.suppliedIds||[]).join(', ')||'Source reference not supplied')}</span>`;
@@ -246,7 +246,7 @@ for(const config of editorial.subjects){
     }
     const unlinkedStart=!g.source&&(position===0||ordered[position-1].source)?'<p class="section-label">Further quotations · supplied wording and references</p>':'';
     const article=details=>`${unlinkedStart}<article class="quotation" id="reading-${position+1}"><span class="sequence" aria-label="Reading position ${position+1}">${String(position+1).padStart(2,'0')}</span><div class="quote-body"><blockquote>${quote}</blockquote><div class="citation">${citation}</div>${note}${details}</div></article>`;
-    if(position===0)openings[config.id]={paragraphs:opening,source:openingSource};
+    if(position===0)openings[config.id]={paragraphs:opening,authorized:openingAuthorized,source:openingSource};
     rendered.push(article(context));printed.push(article(''));
     compiled.push(entry);
   }

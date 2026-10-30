@@ -28,26 +28,28 @@ export async function loadGuideOpening(guides,dataset,subjectId,request=fetch){
     const opening=await response.json();
     if(opening.format!==1||opening.dataset!==dataset||!Array.isArray(opening.paragraphs)||!opening.paragraphs.length||!opening.paragraphs.every(p=>typeof p==='string'&&p.trim()))return null;
     const source=typeof opening.source==='string'&&opening.source.length<=40?opening.source.trim():'';
-    return {paragraphs:opening.paragraphs,source};
+    // Authorized paragraphs are blue, as in the guide; anything undeclared is provisional.
+    const authorized=opening.paragraphs.map((p,i)=>Array.isArray(opening.authorized)&&opening.authorized[i]===true);
+    return {paragraphs:opening.paragraphs,authorized,source};
   }catch{return null;}
 }
 
 // The quotation sits within quotation marks; its catalog number follows the closing mark.
-function quotationHtml(paragraphs,source){
-  return paragraphs.map((p,i)=>`<p>${i?'':'“'}${esc(p)}${i===paragraphs.length-1?`”${source?` <span class="quotation-source">${esc(source)}</span>`:''}`:''}</p>`).join('');
+function quotationHtml(paragraphs,source,authorized=[]){
+  return paragraphs.map((p,i)=>`<p${authorized[i]?' class="authorized-translation"':''}>${i?'':'“'}${esc(p)}${i===paragraphs.length-1?`”${source?` <span class="quotation-source">${esc(source)}</span>`:''}`:''}</p>`).join('');
 }
 
 export function studyGuideQuotation(guides,opening,subjectId){
   const file=guides[subjectId];
   if(typeof file!=='string'||!/^[a-z]+-pdf\.html$/.test(file)||!opening?.paragraphs?.length)return '';
-  return `<a class="subject-guide-quotation" href="./study-guides/${esc(file)}" target="_blank" rel="noopener" title="Open this subject’s study guide in a new tab"><blockquote>${quotationHtml(opening.paragraphs,opening.source)}</blockquote></a>`;
+  return `<a class="subject-guide-quotation" href="./study-guides/${esc(file)}" target="_blank" rel="noopener" title="Open this subject’s study guide in a new tab"><blockquote>${quotationHtml(opening.paragraphs,opening.source,opening.authorized)}</blockquote></a>`;
 }
 
 // Shortens a quotation to the most whole words that fit within `limit`
 // pixels, ending in an ellipsis inside the closing quotation mark; the
 // catalog number always stays. A quotation that fits is shown in full.
-export function fitQuotation(quote,{paragraphs,source},limit){
-  const show=parts=>{quote.innerHTML=quotationHtml(parts,source);};
+export function fitQuotation(quote,{paragraphs,source,authorized},limit){
+  const show=parts=>{quote.innerHTML=quotationHtml(parts,source,authorized);};
   show(paragraphs);
   if(!(limit>0)||quote.getBoundingClientRect().height<=limit)return false;
   const words=paragraphs.map(p=>p.split(/\s+/).filter(Boolean));
