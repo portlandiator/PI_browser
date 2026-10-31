@@ -1,6 +1,4 @@
-import {buildStudyGuides} from './build-compilation-pilot.mjs';
-import {packStudyGuides} from './pack-study-guides.mjs';
-import {copyViewDefaults} from './copy-view-defaults.mjs';
+import {beginCollectionUpdate,pruneCollections} from './collection-storage.mjs';
 import fs from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
 import path from 'node:path';
@@ -63,6 +61,8 @@ export async function fingerprint(root,compatible=false){
 }
 
 export async function refreshSite(root){
+  const collectionUpdate=await beginCollectionUpdate(root);
+  try{
   const out=path.join(root,'dist');
   const stats=JSON.parse(await fs.readFile(path.join(out,'stats.json'),'utf8'));
   if(!/^collections\/[\w-]+\/$/.test(stats.dataset||''))throw Error('Invalid cached dataset path');
@@ -72,21 +72,21 @@ export async function refreshSite(root){
     if(generatedPaths.includes(name))throw Error(`Interface would overwrite generated data: ${name}`);
   }
   await fs.cp(path.join(root,'src'),out,{recursive:true});
+  const {copyViewDefaults}=await import('./copy-view-defaults.mjs');
   await copyViewDefaults(root,out);
   await fs.writeFile(path.join(out,'.nojekyll'),'');
+  const {buildStudyGuides}=await import('./build-compilation-pilot.mjs');
+  const {packStudyGuides}=await import('./pack-study-guides.mjs');
   await buildStudyGuides(root,out,stats.dataset);
   await packStudyGuides(root,out);
+  await collectionUpdate.prune();
   return stats;
+  }finally{await collectionUpdate.close();}
 }
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   if(process.argv[2]==='key'){console.log(`key=${await fingerprint(rootDirectory)}`);console.log(`compatible=${await fingerprint(rootDirectory,true)}`);}
-  else if(process.argv[2]==='prune'){
-    const out=path.join(rootDirectory,'dist'),stats=JSON.parse(await fs.readFile(path.join(out,'stats.json'),'utf8'));
-    if(!/^collections\/[\w-]+\/$/.test(stats.dataset))throw Error('Invalid dataset path');
-    const parent=path.resolve(out,'collections'),active=stats.dataset.split('/')[1];
-    for(const entry of await fs.readdir(parent,{withFileTypes:true}))if(entry.name!==active){const target=path.resolve(parent,entry.name);if(path.dirname(target)!==parent)throw Error('Unsafe obsolete dataset');await fs.rm(target,{recursive:true,force:true});}
-  }
+  else if(process.argv[2]==='prune')console.log('Collection cleanup:',await pruneCollections(rootDirectory));
   else if(process.argv[2]==='refresh')console.log('Refreshed interface over existing dataset:',(await refreshSite(rootDirectory)).dataset);
-  else throw Error('Usage: node scripts/deployment-cache.mjs key|refresh');
+  else throw Error('Usage: node scripts/deployment-cache.mjs key|refresh|prune');
 }

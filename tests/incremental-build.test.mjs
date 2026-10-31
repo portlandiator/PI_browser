@@ -40,7 +40,13 @@ export async function buildSubjects(root,out,dataset){const base=path.join(out,d
   const metadata=()=>write('metadata - copy/items.csv',csvText(rows,Object.keys(rows[0])));
   await metadata();await write('original_texts - copy/AB1.txt','اول متن');await write('original_texts - copy/AB2.txt','دوم متن');
   await write('translated_texts - copy/AB1.txt','One first phrase.\n\nAnother paragraph.');await write('translated_texts - copy/AB2.txt','One shared word.');
-  const build=async incremental=>exec(process.execPath,['scripts/build.mjs'],{cwd:root,env:{...process.env,PI_INCREMENTAL:incremental?'1':'0'},maxBuffer:1024*1024});
+  const build=async incremental=>{
+    const result=await exec(process.execPath,['scripts/build.mjs'],{cwd:root,env:{...process.env,PI_INCREMENTAL:incremental?'1':'0'},maxBuffer:1024*1024});
+    const {dataset}=JSON.parse(await fs.readFile(path.join(root,'dist/stats.json')));
+    assert.deepEqual(await fs.readdir(path.join(root,'dist/collections')),[path.basename(dataset)],'Every successful full or incremental build retains only its active collection');
+    await assert.rejects(fs.access(path.join(root,'dist/.collection-update.lock')));
+    return result;
+  };
   async function output(){
     const stats=JSON.parse(await fs.readFile(path.join(root,'dist/stats.json'))),files=new Map();
     const base=path.join(root,'dist',stats.dataset);
@@ -66,4 +72,9 @@ export async function buildSubjects(root,out,dataset){const base=path.join(out,d
   assert.match((await build(true)).stdout,/Build mode: full/,'Changing IDs must not reuse numeric postings');
   await fs.appendFile(path.join(root,'src/text.mjs'),'\n// parser change');
   assert.match((await build(true)).stdout,/Build mode: full/,'Parser changes must invalidate reuse');
+  const before=await output();
+  await write('period_renaming.csv','Old,New\nold,First\nold,Conflicting\n');
+  await assert.rejects(build(false));
+  assert.deepEqual(await output(),before,'A failed build preserves the active collection');
+  await assert.rejects(fs.access(path.join(root,'dist/.collection-update.lock')));
 });

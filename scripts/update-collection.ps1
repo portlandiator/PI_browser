@@ -109,9 +109,8 @@ try {
     Run $python @((Join-Path $root 'scripts/archive-sources.py'),'--from-archive',(Join-Path $stage 'data/collection'),'--output',(Join-Path $root 'data/collection'))
     Copy-Item -LiteralPath (Join-Path $stage 'build-report.json') -Destination (Join-Path $root 'build-report.json')
     Copy-Item -LiteralPath (Join-Path $stage 'subject-import-report.json') -Destination (Join-Path $root 'subject-import-report.json')
-    # Add the tested build alongside existing datasets so an open preview keeps working.
-    New-Item -ItemType Directory -Force -Path (Join-Path $root 'dist') | Out-Null
-    Copy-Item -Path (Join-Path $stage 'dist/*') -Destination (Join-Path $root 'dist') -Recurse -Force
+    # Install the tested preview under the collection lock and retire old datasets.
+    Run $node @((Join-Path $root 'scripts/install-built-site.mjs'),(Join-Path $stage 'dist'))
     $paths = @('data/collection','build-report.json','subject-import-report.json','pdf_volumes - copy')
     $sources = @(Run $git (@('-C',$root,'-c','core.quotePath=false','status','--porcelain','--untracked-files=all','--','data/collection','pdf_volumes - copy')))
     if (-not $sources.Count) {

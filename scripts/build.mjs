@@ -1,3 +1,4 @@
+import {beginCollectionUpdate} from './collection-storage.mjs';
 import {recordFilename} from '../src/record-file.mjs';
 import {alignmentCounts} from '../src/paragraph-alignment.mjs';
 import {copyViewDefaults} from './copy-view-defaults.mjs';
@@ -24,6 +25,8 @@ import {indexedUnits,unitShard} from '../src/search-passages.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
+const collectionUpdate=await beginCollectionUpdate(root);
+try{
 const dataset=`collections/${randomUUID().slice(0,12)}/`;
 const corpus=path.join(out,dataset);
 const report={encodings:{utf8:0,windows1252:[]},metadataRows:0,duplicateMetadata:[],missingOriginal:[],missingEnglish:[],metadataOnly:[],textWithoutMetadata:[],unequalParagraphCounts:[],unknownCommands:[]};
@@ -174,3 +177,5 @@ console.log(`Build mode: ${buildMode}; regenerated ${changedRecords.size} record
 await fs.writeFile(path.join(out,'stats.json'),JSON.stringify(stats));
 await fs.writeFile(path.join(root,'build-report.json'),JSON.stringify({...stats,...report,buildMode,regeneratedRecords:changedRecords.size},null,2));
 console.log('Build complete',stats);
+console.log('Collection cleanup:',await collectionUpdate.prune());
+}finally{await collectionUpdate.close();}
