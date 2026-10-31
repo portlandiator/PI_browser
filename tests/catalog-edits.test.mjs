@@ -48,24 +48,24 @@ test('changes are described by metadata column and text',()=>{
   assert.equal(describeCause({deleted:[],changed:['AB2']}),'catalog item AB2 was corrected');
 });
 
-test('the pending file is written atomically and removed when empty',async t=>{
+test('the pending section is written atomically and retained empty without deleting subject decisions',async t=>{
   const stage=await fs.mkdtemp(path.join(os.tmpdir(),'pi-pending-'));t.after(()=>fs.rm(stage,{recursive:true,force:true}));
-  const pending=new PendingCatalogEdits(stage);
+  const pending=new PendingCatalogEdits(stage,{file:path.join(stage,'Downloads/subject-edits.json')});
   assert.deepEqual(await pending.read(),{format:1,items:{}});
   await pending.set('AB1',entry('edit'));
   assert.equal((await pending.get('AB1')).action,'edit');
-  assert.deepEqual((await fs.readdir(path.join(stage,'.qa'))),['pending-catalog-edits.json']);
+  assert.deepEqual((await fs.readdir(path.join(stage,'Downloads'))),['subject-edits.json']);
   await pending.write({format:1,items:{},pullRequest:{number:1}});
   assert.equal((await pending.read()).pullRequest.number,1);
   await pending.update(data=>{delete data.pullRequest;});
-  await assert.rejects(fs.access(pending.file));
+  assert.deepEqual((await pending.read()).items,{});
   await fs.writeFile(pending.file,'{"format":2}');
-  await assert.rejects(pending.read(),/pending-edits file/);
+  await assert.rejects(pending.read(),/subject-edits.json file/);
 });
 
 test('a previous pull request is settled before publishing again',async t=>{
   const stage=await fs.mkdtemp(path.join(os.tmpdir(),'pi-settle-'));t.after(()=>fs.rm(stage,{recursive:true,force:true}));
-  const pending=new PendingCatalogEdits(stage),pr={number:5,url:'https://github.com/o/r/pull/5',branch:'maintenance/catalog-edits-1',openedAt:'t',ids:['AB1','AB2']};
+  const pending=new PendingCatalogEdits(stage,{file:path.join(stage,'Downloads/subject-edits.json')}),pr={number:5,url:'https://github.com/o/r/pull/5',branch:'maintenance/catalog-edits-1',openedAt:'t',ids:['AB1','AB2']};
   const start=async()=>pending.write({format:1,items:{AB1:entry('edit',{publishedIn:{number:5}}),AB2:entry('delete',{publishedIn:{number:5}}),AB3:entry('edit')},pullRequest:pr});
   const gh=state=>async(command,args)=>{assert.deepEqual(args.slice(0,3),['pr','view','5']);return JSON.stringify({state});};
   await start();

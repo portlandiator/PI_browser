@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {ItemStore,csvText} from '../scripts/item-store.mjs';
 import {readZip} from '../scripts/zip-archive.mjs';
-import {CatalogEdits,pendingFile} from '../scripts/catalog-edits.mjs';
+import {CatalogEdits} from '../scripts/catalog-edits.mjs';
 import {parseCsv} from '../src/text.mjs';
 import {startEditor} from '../scripts/edit-item-server.mjs';
 
@@ -52,13 +52,13 @@ test('a changed item is not overwritten; changes to other items do not block; un
   await assert.rejects(store.save(item),/changed since/);
 });
 test('saving in the editor records a pending edit and leaves the source files alone',async t=>{
-  const {root,csv}=await fixture(t),edits=new CatalogEdits(root),file=path.join(root,pendingFile);
+  const {root,csv}=await fixture(t),file=path.join(root,'Downloads/subject-edits.json'),edits=new CatalogEdits(root,{file});
   const item=await edits.load('AB00001');assert.equal(item.pending,null);
   item.metadata.Title='Pending title';item.english='New English.';
   const saved=await edits.save(item);
   assert.deepEqual(saved.pending.changed,['Title','English translation changed']);assert.equal(saved.pending.action,'edit');
   assert.equal(await fs.readFile(path.join(root,'metadata - copy/items.csv'),'utf8'),csv);
-  const recorded=JSON.parse(await fs.readFile(file,'utf8')).items.AB00001;
+  const recorded=JSON.parse(await fs.readFile(file,'utf8')).catalogEdits.items.AB00001;
   assert.equal(recorded.english,'New English.');assert.deepEqual(recorded.unchanged,['original']);
   // Reloading shows the pending version; `state` still describes the source files.
   const again=await edits.load('AB00001');
@@ -66,7 +66,7 @@ test('saving in the editor records a pending edit and leaves the source files al
   // Saving the source content again clears the pending edit.
   const cleared=await edits.save({...item,metadata:{...item.metadata,Title:'Quoted "title"'},english:'“Hi”'});
   assert.equal(cleared.pending,null);assert.match(cleared.note,/matches the source files/);
-  await assert.rejects(fs.access(file));
+  assert.deepEqual(JSON.parse(await fs.readFile(file,'utf8')).catalogEdits.items,{});
   await assert.rejects(edits.save({...item,state:'stale'}),/changed since/);
   const marked=await edits.markDeletion('AB00001');assert.equal(marked.pending.action,'delete');
   assert.deepEqual((await edits.list()).items.map(x=>[x.id,x.action]),[['AB00001','delete']]);
@@ -74,7 +74,7 @@ test('saving in the editor records a pending edit and leaves the source files al
   assert.deepEqual((await edits.list()).items,[]);
 });
 test('the local editor requires its token, exact host and same origin; Unicode survives split chunks',async t=>{
-  const {root}=await fixture(t),{server,url,token}=await startEditor({root,open:false});
+  const {root}=await fixture(t),pendingPath=path.join(root,'Downloads/subject-edits.json'),{server,url,token}=await startEditor({root,open:false,pendingPath});
   t.after(()=>new Promise(resolve=>server.close(resolve)));
   const origin=new URL(url).origin;
   assert.equal((await fetch(origin+'/load',{method:'POST',body:'{}'})).status,403);
@@ -87,7 +87,8 @@ test('the local editor requires its token, exact host and same origin; Unicode s
   assert.equal(response.status,200);const saved=await response.json();assert.equal(saved.original,'سلام 😀');assert.equal(saved.pending.action,'edit');
   assert.equal(await fs.readFile(path.join(root,'original_texts - copy/AB00001.txt'),'utf8'),'متن اصلی\n\nپاراگراف');
   const pending=await (await fetch(origin+'/pending',{method:'POST',headers,body:'{}'})).json();
-  assert.deepEqual(pending.items.map(x=>x.id),['AB00001']);assert.ok(pending.file.endsWith('pending-catalog-edits.json'));
+  assert.deepEqual(pending.items.map(x=>x.id),['AB00001']);assert.equal(pending.file,pendingPath);
+  assert.equal(JSON.parse(await fs.readFile(pendingPath,'utf8')).catalogEdits.items.AB00001.original,'سلام 😀');
   // A deletion needs the typed ID; marking it replaces the pending correction.
   for(const body of [{id:'AB00001',confirm:'AB00002'},{id:'AB00001'},{id:'../x',confirm:'../x'}])assert.equal((await fetch(origin+'/delete',{method:'POST',headers,body:JSON.stringify(body)})).status,400);
   const marked=await (await fetch(origin+'/delete',{method:'POST',headers,body:JSON.stringify({id:'AB00001',confirm:'AB00001'})})).json();

@@ -6,7 +6,7 @@
 // repository, no volume PDF and no local rebuild is involved: only the archive
 // shards and data files that actually change are committed.
 //
-// Pending file (.qa/pending-catalog-edits.json):
+// Pending entries live in Downloads/subject-edits.json under `catalogEdits`:
 //   {format: 1,
 //    items: {ID: {action: 'edit', savedAt, state, fields, metadata, original, english, changed, unchanged}
 //                | {action: 'delete', savedAt, state}},
@@ -23,26 +23,34 @@ import {ItemStore,itemState,checkItemInput,validId,decode} from './item-store.mj
 import {tool,run,capture,jobFolder} from './publish-tools.mjs';
 import {githubTarget} from './github-target.mjs';
 import {planDeletion,liveSite} from './catalog-deletion.mjs';
+import {editorialFile,readEditorialExport} from './editorial-exports.mjs';
 
 const codeRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-export const pendingFile='.qa/pending-catalog-edits.json';
+export const pendingFile=editorialFile;
+export const legacyPendingFile='.qa/pending-catalog-edits.json';
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const languages=[['original','original_texts - copy','original text'],['english','translated_texts - copy','English translation']];
 
 export class PendingCatalogEdits{
-  constructor(root){this.root=path.resolve(root);this.file=path.join(this.root,pendingFile);}
+  constructor(root,{file=pendingFile}={}){this.root=path.resolve(root);this.file=path.resolve(file);}
   async read(){
-    let text;
-    try{text=await fs.readFile(this.file,'utf8');}catch(error){if(error.code==='ENOENT')return {format:1,items:{}};throw error;}
-    const data=JSON.parse(text);
-    if(data.format!==1||!data.items||typeof data.items!=='object')throw Error(`${pendingFile} is not a pending-edits file this tool understands.`);
+    const exported=await readEditorialExport(this.file,true);
+    let data=exported?.value.catalogEdits;
+    if(data===undefined){
+      try{data=JSON.parse(await fs.readFile(path.join(this.root,legacyPendingFile),'utf8'));}
+      catch(error){if(error.code==='ENOENT')return {format:1,items:{}};throw error;}
+    }
+    if(data?.format!==1||!data.items||typeof data.items!=='object'||Array.isArray(data.items))throw Error(`${this.file} contains a pending-edits file this tool does not understand.`);
     return data;
   }
   async write(data){
-    if(!Object.keys(data.items).length&&!data.pullRequest){await fs.rm(this.file,{force:true});return;}
+    const exported=await readEditorialExport(this.file,true);
+    const value={...(exported?.value||{format:1,matches:{},relationships:[]}),catalogEdits:data,subjectDecisionsModifiedAt:exported?.time??0};
+    // Keep an empty catalogEdits section: discarding the last edit must not
+    // delete subject decisions or reimport the unchanged legacy pending file.
     await fs.mkdir(path.dirname(this.file),{recursive:true});
     const temporary=this.file+'.'+randomUUID().slice(0,8)+'.tmp';
-    await fs.writeFile(temporary,JSON.stringify(data,null,2)+'\n');
+    await fs.writeFile(temporary,JSON.stringify(value,null,2)+'\n');
     // A sync client may hold a freshly written file for a moment.
     for(let attempt=0;;attempt++){
       try{await fs.rename(temporary,this.file);return;}
@@ -72,7 +80,7 @@ const pendingView=entry=>entry?{action:entry.action,savedAt:entry.savedAt,change
 
 // The editor's view of the catalog: source items with their pending edits.
 export class CatalogEdits{
-  constructor(root){this.root=path.resolve(root);this.store=new ItemStore(root);this.pending=new PendingCatalogEdits(root);}
+  constructor(root,options){this.root=path.resolve(root);this.store=new ItemStore(root);this.pending=new PendingCatalogEdits(root,options);}
   view(current,entry){
     const item={...current,pending:pendingView(entry)};
     return entry?.action==='edit'?{...item,metadata:entry.metadata,original:entry.original,english:entry.english}:item;
