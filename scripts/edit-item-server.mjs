@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {randomBytes,timingSafeEqual} from 'node:crypto';
 import {spawn} from 'node:child_process';
 import {requireSourceFolders,validId} from './item-store.mjs';
-import {CatalogEdits,previewDeletion,pendingFile} from './catalog-edits.mjs';
+import {CatalogEdits,previewDeletion} from './catalog-edits.mjs';
 import {githubTarget} from './github-target.mjs';
 import {tool} from './publish-tools.mjs';
 
@@ -13,12 +13,12 @@ const directory=path.dirname(fileURLToPath(import.meta.url));
 // A private local page for one item at a time. Saving records the change in
 // the pending file; Publish-Editorial-Decisions.cmd publishes everything
 // pending as one pull request.
-export async function startEditor({root=path.resolve(directory,'..'),port=0,open=true}={}){
+export async function startEditor({root=path.resolve(directory,'..'),port=0,open=true,pendingPath}={}){
   await requireSourceFolders(root);
-  const edits=new CatalogEdits(root),token=randomBytes(32).toString('hex');let busy=false;
+  const edits=new CatalogEdits(root,{file:pendingPath}),token=randomBytes(32).toString('hex');let busy=false;
   // The live-site link follows this checkout's GitHub origin.
   const site=await githubTarget(root,{gh:await tool('gh',root),git:await tool('git',root)}).then(target=>target.site,()=>'');
-  const page=(await fs.readFile(path.join(directory,'item-editor.html'),'utf8')).replace('%SITE%',site.replace(/[^\w:/.~-]/g,'')).replaceAll('%PENDING_FILE%',pendingFile.replaceAll('/','\\'));
+  const page=(await fs.readFile(path.join(directory,'item-editor.html'),'utf8')).replace('%SITE%',site.replace(/[^\w:/.~-]/g,''));
   const server=http.createServer(async(req,res)=>{
     const send=(status,value)=>{res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(value));};
     const address=`127.0.0.1:${server.address().port}`,origin='http://'+address;
@@ -38,6 +38,10 @@ export async function startEditor({root=path.resolve(directory,'..'),port=0,open
       try{
         if(req.url==='/save')send(200,await edits.save(input));
         else if(req.url==='/discard')send(200,await edits.discard(input.id));
+        else if(req.url==='/clear'){
+          if(input.confirm!==true)throw Error('Confirm clearing all pending catalog edits.');
+          send(200,await edits.clear());
+        }
         else if(req.url==='/delete-preview')send(200,await previewDeletion(root,input.id));
         else if(req.url==='/delete'){
           if(!validId(input.id)||input.confirm!==input.id)throw Error('Type the exact ID to confirm the deletion.');

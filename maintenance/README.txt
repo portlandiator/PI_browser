@@ -38,10 +38,16 @@ Edit-Catalog-Item.cmd
   delete an item. Nothing is changed until you publish.
   1. Enter the exact catalog ID (case-sensitive) and click Open item.
   2. Make the correction and click Save as pending edit. The edit is recorded
-     in .qa\pending-catalog-edits.json; the source folders and GitHub are not
-     touched. Open other items and save more edits; the page lists everything
+     in %USERPROFILE%\Downloads\subject-edits.json; existing subject decisions
+     are preserved, and the source folders and GitHub are not touched. Open
+     other items and save more edits; the page lists everything
      pending. Opening an item shows its pending version; Discard pending edit
-     forgets it.
+     forgets it. Earlier .qa\pending-catalog-edits.json entries carry over
+     on the next save, including their publication status. The older file
+     remains as a recovery copy.
+     Clear all pending edits removes every queued correction and deletion
+     after confirmation. Subject decisions and existing pull-request tracking
+     are kept; changes already applied to source files or GitHub are not undone.
   3. Run Publish-Editorial-Decisions.cmd (below) to publish all pending edits
      as one pull request.
   To delete an item, enter its ID and click Preview deletion (at the end of
@@ -95,7 +101,8 @@ To publish your decisions:
      Export decisions. This saves subject-edits.json (all published decisions
      plus your drafts) to your Downloads folder.
   2. Double-click Publish-Editorial-Decisions.cmd (or drag the exported file
-     onto it; otherwise it uses the newest subject-edits*.json in Downloads).
+     onto it; otherwise it reads subject-edits.json and the newest numbered
+     subject-decisions export in Downloads).
      It checks the file, shows how many decisions are new or changed, and
      opens a pull request after you type Y, together with any pending catalog
      edits. Published decisions are never dropped, even if the export is
@@ -149,7 +156,7 @@ one-time setup.
 
 BACKUPS AND THE .qa FOLDER
 
-.qa holds the tools' working files: the pending catalog edits and the backups
+.qa holds the tools' working files: legacy pending edits and the backups
 that Edit-Catalog-Item and Edit-Study-Guide write. Each backup is one .zip
 named by date and time, so Dropbox syncs one file per change. To undo a
 change, open the .zip in File Explorer and copy its files back into this

@@ -4,11 +4,11 @@
 :root{color-scheme:light;font:17px/1.5 Georgia,serif;color:#203a32;background:#f7f6f0}*{box-sizing:border-box}body{max-width:1100px;margin:32px auto;padding:0 24px}h1{font-size:36px;margin-bottom:8px}h2{font-size:24px}h3{font-size:20px;margin:12px 0 4px}p{max-width:80ch}.note{color:#627069;font-size:15px}button,input,textarea{font:inherit;color:inherit}input,textarea{background:#fffefa;border:1px solid #afb7aa;border-radius:4px;padding:9px;width:100%}textarea{resize:vertical}button{min-height:44px;border:1px solid #839585;background:#203a32;color:white;border-radius:4px;padding:8px 18px;cursor:pointer}button.secondary{background:transparent;color:#203a32}button.danger{background:#962f27;border-color:#962f27}button.small{min-height:32px;padding:2px 10px;font-size:15px}button:disabled{opacity:.45;cursor:default}button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #8b6c36;outline-offset:3px}.lookup,.actions{display:flex;gap:12px;align-items:end;flex-wrap:wrap}.lookup label{width:260px}.actions{position:sticky;bottom:0;background:#f7f6f0;padding:18px 0;border-top:1px solid #dddfd4;margin-top:24px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px}label{display:block}label span{display:block;margin-bottom:4px}details{border-top:1px solid #dddfd4;padding:18px 0}summary{font-size:23px;cursor:pointer}#status{white-space:pre-wrap;padding:12px 0}#status.error{color:#962f27}input[type=checkbox]{width:auto}.version-toggle{margin:12px 0}#original{font-size:22px;line-height:1.65}#english{line-height:1.6}.badge{font:14px system-ui;color:#627069}.banner{background:#fff4d6;border:1px solid #e3cf98;border-radius:4px;padding:10px 14px;margin:12px 0}.banner.delete{background:#f9e3e0;border-color:#d9a5a0}#pending{border:1px solid #dddfd4;border-radius:4px;padding:14px 18px;margin:20px 0;background:#fbfaf5}#pending ul,#delete ul{padding-left:22px}#pending li{margin:4px 0}#delete{border-top:1px solid #dddfd4;margin-top:32px}#delete .lookup{margin-top:16px}code{font:15px ui-monospace,Consolas,monospace}a{color:#365c8f}@media(max-width:650px){.fields{grid-template-columns:1fr}body{padding:0 16px}h1{font-size:30px}}
 </style>
 <h1>Edit a catalog item</h1>
-<p>Correct one item’s metadata, original text or English translation, or delete an item. Each saved edit waits in a pending file on this computer; nothing else changes. When you are ready, run <strong>Publish-Editorial-Decisions.cmd</strong> (maintenance folder): it publishes every pending edit, with any exported subject decisions, as one pull request on GitHub, and then writes the edits to the source folders here with backups.</p>
+<p>Correct one item’s metadata, original text or English translation, or delete an item. Each saved edit waits in <code>Downloads/subject-edits.json</code> on this computer, alongside any subject decisions; nothing else changes. When you are ready, run <strong>Publish-Editorial-Decisions.cmd</strong> (maintenance folder): it publishes every pending edit, with any exported subject decisions, as one pull request on GitHub, and then writes the edits to the source folders here with backups.</p>
 <p class="note">Use this editor for existing IDs. To add or rename a catalog item, use Update-Collection.cmd. The public website remains read-only.</p>
 <form id="lookup" class="lookup"><label><span>Exact catalog ID</span><input id="id" placeholder="For example, AB12891" required autocomplete="off"></label><button id="load">Open item</button></form>
 <p id="status" role="status" aria-live="polite">Enter an ID to begin.</p>
-<section id="pending" hidden><h2 id="pending-title">Pending edits</h2><div id="pending-list"></div><p class="note" id="pending-note"></p></section>
+<section id="pending" hidden><h2 id="pending-title">Pending edits</h2><div id="pending-list"></div><p class="note" id="pending-note"></p><button type="button" class="danger" id="clear-pending" disabled>Clear all pending edits</button></section>
 <main id="editor" hidden>
 <h2 id="heading"></h2><p><a id="live" target="_blank" rel="noopener">View published item ↗</a> <span id="dirty" class="badge"></span></p>
 <div id="banner" class="banner" hidden></div>
@@ -21,13 +21,13 @@
 <div id="delete-plan" hidden><div id="delete-summary"></div><div class="lookup"><label><span>Type the ID again to confirm</span><input id="delete-confirm" autocomplete="off"></label><button class="danger" id="delete-run" disabled>Mark for deletion</button></div></div></section>
 <script>
 const $=id=>document.getElementById(id),token=new URLSearchParams(location.hash.slice(1)).get('token');
-let current=null,dirty=false,busy=false,plan=null;
+let current=null,dirty=false,busy=false,plan=null,pendingCount=0;
 function status(text,error=false){$('status').textContent=text;$('status').classList.toggle('error',error);}
 async function api(operation,body){const response=await fetch('/'+operation,{method:'POST',headers:{'Content-Type':'application/json','X-Editor-Token':token||''},body:JSON.stringify(body)});const value=await response.json();if(!response.ok)throw Error(value.error||'Operation failed.');return value;}
 function element(tag,text,className){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(className)node.className=className;return node;}
 function when(iso){try{return new Date(iso).toLocaleString();}catch{return iso;}}
 const deleting=()=>current?.pending?.action==='delete';
-function buttons(){for(const id of ['load','reload','delete-preview'])$(id).disabled=busy;$('save').disabled=busy||!current||deleting();$('discard').hidden=!current?.pending;$('discard').disabled=busy;$('delete-run').disabled=busy||!plan||$('delete-confirm').value.trim()!==plan.id;$('dirty').textContent=dirty?'Unsaved changes':'';for(const input of $('editor').querySelectorAll('textarea,input'))input.disabled=busy||deleting();for(const language of ['original','english'])$(language).disabled=!$(language+'-present').checked||busy||deleting();}
+function buttons(){for(const id of ['load','reload','delete-preview'])$(id).disabled=busy;$('clear-pending').disabled=busy||!pendingCount;$('save').disabled=busy||!current||deleting();$('discard').hidden=!current?.pending;$('discard').disabled=busy;$('delete-run').disabled=busy||!plan||$('delete-confirm').value.trim()!==plan.id;$('dirty').textContent=dirty?'Unsaved changes':'';for(const input of $('editor').querySelectorAll('textarea,input'))input.disabled=busy||deleting();for(const language of ['original','english'])$(language).disabled=!$(language+'-present').checked||busy||deleting();}
 function banner(item){
   const box=$('banner'),p=item.pending;box.replaceChildren();box.hidden=!p;box.classList.toggle('delete',p?.action==='delete');
   if(!p)return;
@@ -41,7 +41,8 @@ function edited(){dirty=true;buttons();}
 $('editor').addEventListener('input',event=>{if(event.target.matches('textarea,input')){event.target.dataset.changed='true';edited();}});
 async function refreshPending(){
   try{
-    const {items,pullRequest}=await api('pending',{});
+    const {items,pullRequest,file}=await api('pending',{});
+    pendingCount=items.length;buttons();
     $('pending').hidden=!items.length&&!pullRequest;$('pending-title').textContent=`Pending edits (${items.length})`;
     const list=element('ul');
     for(const item of items){
@@ -50,13 +51,24 @@ async function refreshPending(){
       const open=element('button','Open','secondary small');open.type='button';open.onclick=()=>{$('id').value=item.id;load();};li.append(open);list.append(li);
     }
     $('pending-list').replaceChildren(items.length?list:element('p','No edits are waiting.'));
-    $('pending-note').textContent=pullRequest?`Pull request #${pullRequest.number} (${pullRequest.url}) holds the edits marked above; merge it on GitHub, or close it to propose them again. New edits are published once it is merged or closed.`:items.length?`Kept in %PENDING_FILE% in the project folder. Run Publish-Editorial-Decisions.cmd to publish them all as one pull request.`:'';
+    $('pending-note').textContent=`Saved in ${file}. `+(pullRequest?(items.length?`Pull request #${pullRequest.number} (${pullRequest.url}) holds the edits marked above; merge it on GitHub, or close it to propose them again. New edits are published once it is merged or closed.`:`Pull request #${pullRequest.number} (${pullRequest.url}) is still tracked. Clearing the list does not close or undo it. Merge or close it on GitHub before publishing new edits.`):items.length?'Run Publish-Editorial-Decisions.cmd to publish them all as one pull request.':'');
   }catch(error){status('Could not read the pending edits: '+error.message,true);}
 }
 async function load(){if(dirty&&!confirm('Discard unsaved edits and reload?'))return;busy=true;buttons();try{fill(await api('load',{id:$('id').value.trim()}));status(current.pending?'Item loaded with its pending edit.':'Item loaded from the source files.');$('save-note').textContent='';}catch(error){status(error.message,true);}finally{busy=false;buttons();}}
 $('lookup').onsubmit=event=>{event.preventDefault();load();};$('reload').onclick=()=>{if(current)$('id').value=current.id;load();};
 $('save').onclick=async()=>{const metadata=Object.fromEntries([...$('fields').querySelectorAll('textarea')].map(input=>[input.dataset.field,input.dataset.changed==='true'?input.value:current.metadata[input.dataset.field]]));const input={id:current.id,state:current.state,metadata};for(const language of ['original','english'])input[language]=$(language+'-present').checked?($(language).dataset.changed==='true'?$(language).value:(current[language]??'')):null;if(['original','english'].some(language=>current[language]!==null&&input[language]===null)&&!confirm('Remove the unchecked text file from the catalog when this edit is published?'))return;busy=true;buttons();try{const result=await api('save',input);fill(result);status(result.note||'Saved as a pending edit. Publish it with Publish-Editorial-Decisions.cmd.');$('save-note').textContent=result.pending?'Pending':'';await refreshPending();}catch(error){status(error.message,true);}finally{busy=false;buttons();}};
 $('discard').onclick=async()=>{const p=current.pending;if(!confirm(p.action==='delete'?'Undo the pending deletion of '+current.id+'?':'Discard the pending correction of '+current.id+'? The source files are not changed.'+(p.applied?.backup?' The source folders already hold it; restore the backup to undo it there.':'')))return;busy=true;buttons();try{const result=await api('discard',{id:current.id});fill(result);status('Pending edit discarded.');await refreshPending();}catch(error){status(error.message,true);}finally{busy=false;buttons();}};
+$('clear-pending').onclick=async()=>{
+  if(busy||!pendingCount)return;
+  if(!confirm(`Clear all ${pendingCount} pending catalog edits, including corrections and deletions? Subject decisions, source files and existing pull requests will stay unchanged.`+(dirty?' Unsaved changes in the open item will also be discarded.':'')))return;
+  busy=true;buttons();
+  try{
+    const {cleared}=await api('clear',{confirm:true});
+    current=null;dirty=false;plan=null;pendingCount=0;
+    $('editor').hidden=true;$('delete-plan').hidden=true;$('delete-confirm').value='';$('save-note').textContent='';
+    await refreshPending();status(`Cleared ${cleared} pending catalog edit${cleared===1?'':'s'}.`);$('id').focus();
+  }catch(error){status(error.message,true);}finally{busy=false;buttons();}
+};
 function list(items){const ul=element('ul');for(const item of items)ul.append(item instanceof Node?item:element('li',item));return ul;}
 function showPlan(p){
   const box=$('delete-summary');box.replaceChildren(element('h3',p.id+(p.title?' · '+p.title:'')));
