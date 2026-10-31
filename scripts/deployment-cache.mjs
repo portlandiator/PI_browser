@@ -1,7 +1,4 @@
 import {beginCollectionUpdate,pruneCollections} from './collection-storage.mjs';
-import {buildStudyGuides} from './build-compilation-pilot.mjs';
-import {packStudyGuides} from './pack-study-guides.mjs';
-import {copyViewDefaults} from './copy-view-defaults.mjs';
 import fs from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
 import path from 'node:path';
@@ -75,8 +72,11 @@ export async function refreshSite(root){
     if(generatedPaths.includes(name))throw Error(`Interface would overwrite generated data: ${name}`);
   }
   await fs.cp(path.join(root,'src'),out,{recursive:true});
+  const {copyViewDefaults}=await import('./copy-view-defaults.mjs');
   await copyViewDefaults(root,out);
   await fs.writeFile(path.join(out,'.nojekyll'),'');
+  const {buildStudyGuides}=await import('./build-compilation-pilot.mjs');
+  const {packStudyGuides}=await import('./pack-study-guides.mjs');
   await buildStudyGuides(root,out,stats.dataset);
   await packStudyGuides(root,out);
   await collectionUpdate.prune();

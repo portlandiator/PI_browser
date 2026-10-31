@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
 import {beginCollectionUpdate,pruneCollections} from '../scripts/collection-storage.mjs';
 import {installBuiltSite} from '../scripts/install-built-site.mjs';
 
@@ -97,4 +99,15 @@ test('installing a tested updater build retires previous datasets under the shar
   await assert.rejects(installBuiltSite(root,path.join(stage.root,'missing')));
   assert.deepEqual(await fs.readdir(collections),['updated']);
   await assert.rejects(fs.access(path.join(root,'dist/.collection-update.lock')));
+});
+
+test('standalone cleanup works without the source corpus or study-guide inputs',async t=>{
+  const {root,collections}=await fixture(t);
+  for(const name of ['scripts/deployment-cache.mjs','scripts/collection-storage.mjs']){
+    const target=path.join(root,name);await fs.mkdir(path.dirname(target),{recursive:true});
+    await fs.copyFile(new URL('../'+name,import.meta.url),target);
+  }
+  const {stdout}=await promisify(execFile)(process.execPath,['scripts/deployment-cache.mjs','prune'],{cwd:root});
+  assert.match(stdout,/Collection cleanup:/);
+  assert.deepEqual(await fs.readdir(collections),['current']);
 });
