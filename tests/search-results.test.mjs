@@ -30,7 +30,7 @@ test('result paragraph links preserve source numbering, exact IDs, subpaths and 
   assert.match(page.html,/href="\/PI_browser\/index.html\?id=AB00292\+%282%29&amp;paragraph=2"/);
   assert.match(page.html,/paragraph=3&amp;lang=original" data-result-paragraph="3" data-paragraph-language="original"/);
   assert.match(page.html,/aria-label="Open English paragraph 2">2<\/a>/);
-  assert.match(page.html,/English · Footnote 1<\/span>/);
+  assert.match(page.html,/>Footnote 1<\/span>/);
   const deep=record(Array.from({length:150},()=> 'love').join('\n\n'));
   const expanded=resultPassagePage(groupedResultPassages(deep,'love'),'love','en',152,reference=>paragraphUrl('/PI_browser/','bh05388',reference));
   assert.match(expanded.html,/id=bh05388&amp;paragraph=150/);
@@ -65,7 +65,7 @@ test('distant matches are grouped once per paragraph with every occurrence retai
   const model=groupedResultPassages(record(text+'\n\nlove'),'love');
   assert.equal(model.independent.en.length,2);assert.equal(model.independent.en[0].texts.length,3);
   const page=resultPassagePage(model,'love','en');
-  assert.equal(page.total,2);assert.equal((page.html.match(/English · Paragraph 1/g)||[]).length,1);
+  assert.equal(page.total,2);assert.equal((page.html.match(/>Paragraph 1<\/span>/g)||[]).length,1);
   assert.equal((page.html.match(/<mark>love<\/mark>/g)||[]).length,4);
   assert.match(page.html,/ … /);
 });
@@ -75,10 +75,10 @@ test('parallel rows include counterparts and merge matches from both languages i
   assert.equal(model.pairs.length,2);assert.equal(model.pairs[0].en.matched,true);assert.equal(model.pairs[0].original.matched,true);
   assert.equal(model.pairs[1].original.matched,false);assert.deepEqual(model.pairs[1].original.texts,['دوم']);
   const parallel=resultPassagePage(model,'love','parallel');
-  assert.equal(parallel.total,2);assert.ok(parallel.html.indexOf('English · Paragraph 1')<parallel.html.indexOf('Original · Paragraph 1'));
+  assert.equal(parallel.total,2);assert.ok(parallel.html.indexOf('data-passage="en-paragraphs-1"')<parallel.html.indexOf('data-passage="original-paragraphs-1"'));
   assert.match(parallel.html,/dir="rtl"/);
   const original=resultPassagePage(model,'love','original');
-  assert.equal(original.total,2);assert.match(original.html,/دوم/);assert.ok(!original.html.includes('English ·'));
+  assert.equal(original.total,2);assert.match(original.html,/دوم/);assert.ok(!original.html.includes('data-passage="en-'));
 });
 
 test('pairing uses blank alignment slots rather than fabricated paragraph-number matches',()=>{

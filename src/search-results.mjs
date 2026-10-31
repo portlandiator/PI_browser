@@ -64,7 +64,7 @@ function cellHtml(cell,query,paragraphHref){
   const html=texts.map((part,i)=>i?part.replace(/^…\s*/,''):part).map((part,i)=>i<texts.length-1?part.replace(/\s*…$/,''):part).map(part=>matched?searchHighlightHtml(part,query):escapeHtml(part)).join(' … ');
   const name=language==='en'?'English':'Original',number=index+1;
   const label=kind==='paragraphs'&&paragraphHref?`<a href="${escapeHtml(paragraphHref({number,language}))}" data-result-paragraph="${number}" data-paragraph-language="${language}" aria-label="Open ${name} paragraph ${number}">${number}</a>`:number;
-  return `<div class="result-passage" data-passage="${language}-${kind}-${number}"><span class="passage-label" dir="ltr">${name} · ${kind==='notes'?'Footnote':'Paragraph'} ${label}</span><p class="passage-text" dir="${language==='en'?'ltr':'rtl'}">${html}</p></div>`;
+  return `<div class="result-passage" data-passage="${language}-${kind}-${number}"><span class="passage-label" dir="ltr">${kind==='notes'?'Footnote':'Paragraph'} ${label}</span><p class="passage-text" dir="${language==='en'?'ltr':'rtl'}">${html}</p></div>`;
 }
 const separated=(cells,query,paragraphHref)=>cells.map(cell=>cellHtml(cell,query,paragraphHref)).join('<div class="excerpt-separator" aria-hidden="true">…</div>');
 
