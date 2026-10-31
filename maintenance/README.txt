@@ -45,6 +45,9 @@ Edit-Catalog-Item.cmd
      forgets it. Earlier .qa\pending-catalog-edits.json entries carry over
      on the next save, including their publication status. The older file
      remains as a recovery copy.
+     Clear all pending edits removes every queued correction and deletion
+     after confirmation. Subject decisions and existing pull-request tracking
+     are kept; changes already applied to source files or GitHub are not undone.
   3. Run Publish-Editorial-Decisions.cmd (below) to publish all pending edits
      as one pull request.
   To delete an item, enter its ID and click Preview deletion (at the end of

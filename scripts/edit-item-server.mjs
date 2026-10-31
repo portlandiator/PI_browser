@@ -38,6 +38,10 @@ export async function startEditor({root=path.resolve(directory,'..'),port=0,open
       try{
         if(req.url==='/save')send(200,await edits.save(input));
         else if(req.url==='/discard')send(200,await edits.discard(input.id));
+        else if(req.url==='/clear'){
+          if(input.confirm!==true)throw Error('Confirm clearing all pending catalog edits.');
+          send(200,await edits.clear());
+        }
         else if(req.url==='/delete-preview')send(200,await previewDeletion(root,input.id));
         else if(req.url==='/delete'){
           if(!validId(input.id)||input.confirm!==input.id)throw Error('Type the exact ID to confirm the deletion.');

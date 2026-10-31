@@ -110,6 +110,15 @@ export class CatalogEdits{
     let current=null;try{current=await this.store.load(id);}catch{}
     return {...(current?this.view(current,null):{id,pending:null}),discarded:pendingView(entry)};
   }
+  async clear(){
+    return this.pending.update(data=>{
+      const cleared=Object.keys(data.items).length;
+      data.items={};
+      // Keep publication tracking: clearing drafts cannot undo a pull request
+      // or the changes already applied to the source folders.
+      return {cleared};
+    });
+  }
   // Record a deletion. The source files are not changed.
   async markDeletion(id){
     if(!validId(id))throw Error('Enter an exact catalog ID, without a file extension.');

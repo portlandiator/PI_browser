@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {ItemStore,csvText} from '../scripts/item-store.mjs';
 import {readZip} from '../scripts/zip-archive.mjs';
-import {CatalogEdits} from '../scripts/catalog-edits.mjs';
+import {CatalogEdits,legacyPendingFile} from '../scripts/catalog-edits.mjs';
 import {parseCsv} from '../src/text.mjs';
 import {startEditor} from '../scripts/edit-item-server.mjs';
 
@@ -96,6 +96,36 @@ test('the local editor requires its token, exact host and same origin; Unicode s
   const discarded=await (await fetch(origin+'/discard',{method:'POST',headers,body:JSON.stringify({id:'AB00001'})})).json();
   assert.equal(discarded.pending,null);
 });
+test('clearing all edits requires confirmation and preserves subjects, sources, legacy recovery and publication tracking',async t=>{
+  const {root,store}=await fixture(t),pendingPath=path.join(root,'Downloads/subject-edits.json'),edits=new CatalogEdits(root,{file:pendingPath});
+  const original=await store.load('AB00001');
+  await edits.save({...original,english:'Pending replacement'});await edits.markDeletion('AB00002');
+  const pullRequest={number:42,url:'https://example.com/pull/42',ids:['AB00001']};
+  await edits.pending.update(data=>{data.pullRequest=pullRequest;data.items.AB00001.publishedIn={number:42};});
+  const legacy=path.join(root,legacyPendingFile),legacyBytes=JSON.stringify(await edits.pending.read());
+  await fs.mkdir(path.dirname(legacy));await fs.writeFile(legacy,legacyBytes);
+  const decisions={format:1,matches:{keep:{status:'rejected'}},relationships:[{source:'one',target:'two',status:'confirmed'}],reviewedSubjects:{one:true},subjectDecisionsModifiedAt:123};
+  await fs.writeFile(pendingPath,JSON.stringify({...decisions,catalogEdits:await edits.pending.read()}));
+  const sources=['metadata - copy/items.csv','original_texts - copy/AB00001.txt','translated_texts - copy/AB00001.txt'];
+  const before=await Promise.all(sources.map(name=>fs.readFile(path.join(root,name))));
+  const {server,url,token}=await startEditor({root,open:false,pendingPath});
+  t.after(()=>new Promise(resolve=>server.close(resolve)));
+  const origin=new URL(url).origin,headers={Origin:origin,'Content-Type':'application/json','X-Editor-Token':token};
+  assert.equal((await fetch(origin+'/clear',{method:'POST',body:'{"confirm":true}'})).status,403);
+  for(const body of [{},{confirm:false},{confirm:'true'}])assert.equal((await fetch(origin+'/clear',{method:'POST',headers,body:JSON.stringify(body)})).status,400);
+  assert.equal((await edits.list()).items.length,2);
+  const cleared=await fetch(origin+'/clear',{method:'POST',headers,body:'{"confirm":true}'});
+  assert.equal(cleared.status,200);assert.deepEqual(await cleared.json(),{cleared:2});
+  const fresh=new CatalogEdits(root,{file:pendingPath});
+  assert.deepEqual(await fresh.list(),{file:pendingPath,pullRequest,items:[]});
+  assert.deepEqual(await fresh.load('AB00001'),{...original,pending:null});
+  const {catalogEdits,...remaining}=JSON.parse(await fs.readFile(pendingPath,'utf8'));
+  assert.deepEqual(remaining,decisions);assert.deepEqual(catalogEdits,{format:1,items:{},pullRequest});
+  assert.equal(await fs.readFile(legacy,'utf8'),legacyBytes);
+  assert.deepEqual(await Promise.all(sources.map(name=>fs.readFile(path.join(root,name)))),before);
+  assert.deepEqual(await fresh.clear(),{cleared:0});
+});
+
 test('a published deletion removes only that item from the local sources, with a backup',async t=>{
   const {root,rows,csv,store}=await fixture(t);
   const backup=await store.remove('AB00001');
