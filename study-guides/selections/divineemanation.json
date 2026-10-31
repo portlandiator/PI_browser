@@ -8,7 +8,7 @@
   "candidateCount": 406,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 69,
+  "mandatoryAuthorizedCount": 70,
   "selectionBeforeAnalysis": true,
   "method": "Complete candidate survey followed by individual editorial choices and written reasons, applied to the existing complete guide to keep it within 300 quotations. All verified authorized selections included. Priority given to foundational teachings, substantive explanations, necessary qualifications, distinctive applications, narrative examples and thematic breadth across the sea of bounty in which all things live, emanation from a source that does not become what it sustains, Will and Word in the coming of existence, the unceasing gift, revelation and the renewal of the world, universal bounty and differing receptivity, light within the human reality, kinds of light and spiritual speech, prayer, gratitude and return, becoming a source of help to others, and the supplied philosophical voices. Neither citation count nor source order used as a ranking rule. Imported wording checked separately; version differences remain explicit. The existing reading arc is retained.",
   "selected": [
@@ -7463,19 +7463,23 @@
       "sourceVersion": "a350c58e017ec4e2ac4e4b93e35316c3493a87d38500d73999e0c534c64fa593",
       "status": "confirmed",
       "reference": "GWB#153 p325",
-      "authorization": "Y3-4,8,14-16,20-23,27-28",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
+      "authorization": "Y3-4,8,14-17,21-25,29-30",
+      "authorizedParagraphs": [
+        17
+      ],
+      "mandatoryAuthorized": true,
       "paragraphs": [
         17
       ],
       "text": "Though the wonders of My mercy have encompassed all created things, both visible and invisible, and though the revelations of My grace and bounty have permeated every atom of the universe, yet the rod with which I can chastise the wicked is grievous, and the fierceness of Mine anger against them terrible.",
       "reason": "Bahá’u’lláh declaring that though His mercy encompasses all and His grace permeates every atom, His chastisement of the wicked is grievous; necessary qualification of all-pervading grace.",
       "authorityEvidence": {
-        "kind": "no_authorized_selected_paragraph",
-        "metadata": "Y3-4,8,14-16,20-23,27-28",
+        "kind": "exact_version_authorized_paragraphs",
+        "metadata": "Y3-4,8,14-17,21-25,29-30",
         "sourceVersion": "a350c58e017ec4e2ac4e4b93e35316c3493a87d38500d73999e0c534c64fa593",
-        "paragraphs": []
+        "paragraphs": [
+          17
+        ]
       }
     },
     {

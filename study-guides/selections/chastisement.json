@@ -8,7 +8,7 @@
   "candidateCount": 1258,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 36,
+  "mandatoryAuthorizedCount": 37,
   "selectionBeforeAnalysis": true,
   "retroactiveRevision": true,
   "method": "Editorial survey of candidate wording and metadata; all verified authorized translations retained. Remaining choices prioritize central teachings, substantive explanations, qualifications and complementary applications across the subject. Selected and omitted IDs are explicit. Existing full-context reviews are preserved and may be reused after this selection is finalized. Citation counts and source order do not determine selection.",
@@ -1722,9 +1722,11 @@
       "sourceVersion": "a350c58e017ec4e2ac4e4b93e35316c3493a87d38500d73999e0c534c64fa593",
       "status": "confirmed",
       "reference": "GWB#153 p325",
-      "authorization": "Y3-4,8,14-16,20-23,27-28",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
+      "authorization": "Y3-4,8,14-17,21-25,29-30",
+      "authorizedParagraphs": [
+        17
+      ],
+      "mandatoryAuthorized": true,
       "paragraphs": [
         17
       ],
@@ -1733,10 +1735,12 @@
       "previousPosition": 1070,
       "reason": "Important qualifications concerning mercy, leadership, service over lineage, social conduct, preservation of writings and meanings of paradise.",
       "authorityEvidence": {
-        "kind": "no_authorized_selected_paragraph",
-        "metadata": "Y3-4,8,14-16,20-23,27-28",
+        "kind": "exact_version_authorized_paragraphs",
+        "metadata": "Y3-4,8,14-17,21-25,29-30",
         "sourceVersion": "a350c58e017ec4e2ac4e4b93e35316c3493a87d38500d73999e0c534c64fa593",
-        "paragraphs": []
+        "paragraphs": [
+          17
+        ]
       }
     },
     {

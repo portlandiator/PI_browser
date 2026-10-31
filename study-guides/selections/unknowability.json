@@ -8,7 +8,7 @@
   "candidateCount": 2098,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 150,
+  "mandatoryAuthorizedCount": 149,
   "selectionBeforeAnalysis": true,
   "method": "Complete candidate survey followed by individual editorial choices and written reasons. All verified authorized selections included. Priority given to foundational teachings, substantive explanations, necessary qualifications, distinctive applications and thematic breadth. Neither citation count nor source order used as a ranking rule. Imported wording checked separately; version differences remain explicit.",
   "selected": [
@@ -304,23 +304,19 @@
       "sourceVersion": "a350c58e017ec4e2ac4e4b93e35316c3493a87d38500d73999e0c534c64fa593",
       "status": "exact",
       "reference": "BH00249",
-      "authorization": "Y3-4,8,14-16,20-23,27-28",
-      "authorizedParagraphs": [
-        20
-      ],
-      "mandatoryAuthorized": true,
+      "authorization": "Y3-4,8,14-17,21-25,29-30",
+      "authorizedParagraphs": [],
+      "mandatoryAuthorized": false,
       "paragraphs": [
         20
       ],
       "text": "My Beauty is sanctified above the vision of the mystics, and My Glory is exalted beyond the comprehension of those who have attained.",
-      "reason": "Mandatory inclusion: exact selected wording lies in a catalogue-authorized paragraph of this translation version.",
+      "reason": "Retained for its direct statement that the divine Beauty and Glory transcend mystical vision and human comprehension; paragraph 20 is not designated authorized in the corrected catalogue ranges.",
       "authorityEvidence": {
-        "kind": "exact_version_authorized_paragraphs",
-        "metadata": "Y3-4,8,14-16,20-23,27-28",
+        "kind": "no_authorized_selected_paragraph",
+        "metadata": "Y3-4,8,14-17,21-25,29-30",
         "sourceVersion": "a350c58e017ec4e2ac4e4b93e35316c3493a87d38500d73999e0c534c64fa593",
-        "paragraphs": [
-          20
-        ]
+        "paragraphs": []
       }
     },
     {
