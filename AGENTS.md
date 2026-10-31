@@ -10,6 +10,12 @@ This is a dependency-free static web application for GitHub Pages. Node 22+ buil
 - `node scripts/serve.mjs`: serve dist/ at http://localhost:4173/PI_browser/.
 - `.github/workflows/pages.yml`: test, build, and deploy to GitHub Pages.
 
+## Generated storage
+
+Keep only the active dataset named by `dist/stats.json` in `dist/collections/`. Successful builds and interface refreshes automatically remove older generated collections after checking the manifests. Use `node scripts/deployment-cache.mjs prune` for a standalone cleanup. Build, refresh and cleanup share an exclusive lock; after an interrupted process, verify that it has stopped before removing `dist/.collection-update.lock`.
+
+For interface-only work, reuse a verified compatible dataset with `node scripts/deployment-cache.mjs refresh`. Use `PI_INCREMENTAL=1` for compatible corpus updates. Do not keep generated collections as archival copies, duplicate them into QA folders, or copy them to another checkout just for convenience. Keep small logs and checksum reports for validation. Rebuild disposable output from the immutable source folders or `data/collection/`; never delete those source inputs. Prepare publication output only when needed, reusing verified files where supported.
+
 ## Invariants
 - English is the left column; the original is right-to-left on the right. Narrow screens preserve paragraph pairs in a vertical flow.
 - Never manufacture titles, dates, translation authority, or semantic alignments. Equal paragraph counts permit positional pairing, not a claim of verified alignment. Unequal counts use independent columns with a clear notice.
