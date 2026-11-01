@@ -27,6 +27,9 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
 const collectionUpdate=await beginCollectionUpdate(root);
 try{
+const reconciliationFile=path.join(out,'study-guide-reconciliation.json');
+// Never let a later failure reconcile against an earlier build attempt.
+await fs.rm(reconciliationFile,{force:true});
 const dataset=`collections/${randomUUID().slice(0,12)}/`;
 const corpus=path.join(out,dataset);
 const report={encodings:{utf8:0,windows1252:[]},metadataRows:0,duplicateMetadata:[],missingOriginal:[],missingEnglish:[],metadataOnly:[],textWithoutMetadata:[],unequalParagraphCounts:[],unknownCommands:[]};
@@ -169,7 +172,13 @@ for(const language of ['en','original']){
 }
 if(!reuse||englishChanged)await buildSubjects(root,out,dataset);
 else if(changedRecords.size)await refreshSubjectMetadata(corpus,changedRecords,zipWrite);
-await buildStudyGuides(root,out,dataset);
+try{await buildStudyGuides(root,out,dataset);}
+catch(error){
+  // stats.json still names the verified active collection until this build
+  // succeeds. Reconciliation must inspect the new, fully matched subjects.
+  if(error.code==='STUDY_GUIDE_CATALOGUE_CHANGED')await fs.writeFile(reconciliationFile,JSON.stringify({format:1,dataset}));
+  throw error;
+}
 await packStudyGuides(root,out);
 const buildMode=reuse?'incremental':'full';
 await fs.writeFile(path.join(out,'build-state.json'),JSON.stringify({format:1,dataset,compatibility,ids,items}));
