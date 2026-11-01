@@ -15,5 +15,5 @@ export function catalogueFingerprint(selections){
 export function verifyCatalogueBaseline(data,baseline){
  if(!baseline)return;
  const expected=baseline.subjects[data.subject.id];
- if(!expected||catalogueFingerprint(data.selections)!==expected.fingerprint)throw Error(`Catalogue review data changed for ${data.subject.name}. Reconcile the published matches, removals, and versioned source text before rebuilding study guides; do not fall back to the older automatic matches.`);
+ if(!expected||catalogueFingerprint(data.selections)!==expected.fingerprint)throw Object.assign(Error(`Catalogue review data changed for ${data.subject.name}. Reconcile the published matches, removals, and versioned source text before rebuilding study guides; do not fall back to the older automatic matches.`),{code:'STUDY_GUIDE_CATALOGUE_CHANGED'});
 }

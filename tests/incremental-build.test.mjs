@@ -10,6 +10,7 @@ import {gunzipSync} from 'node:zlib';
 import {mergeShard} from '../scripts/incremental-build.mjs';
 import {packPosting,unpackPosting} from '../src/text.mjs';
 import {csvText} from '../scripts/item-store.mjs';
+import {reconciliationDataset} from '../scripts/reconcile-study-guides.mjs';
 const exec=promisify(execFile),project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 test('shard replacement removes obsolete tokens and preserves other documents and position order',()=>{
   const before={old:Buffer.from(packPosting(new Map([[1,[2]],[3,[9]]]))).toString('base64'),stay:Buffer.from(packPosting(new Map([[2,[5]]]))).toString('base64')};
@@ -30,7 +31,7 @@ test('incremental metadata, original, translation and availability corrections m
   await write('study-guides/sentence-paragraphs.json',JSON.stringify({format:2,reasons:[],sources:{}}));
   // Keep real corpus/index/metadata building; isolate subject matching and PDF volume data.
   await write('scripts/build-subjects.mjs',`import fs from 'node:fs/promises';import path from 'node:path';import {gzipSync,gunzipSync} from 'node:zlib';
-export async function buildSubjects(root,out,dataset){const base=path.join(out,dataset,'subjects');await fs.mkdir(base,{recursive:true});const catalog=JSON.parse(gunzipSync(await fs.readFile(path.join(out,dataset,'catalog.json.gz'))));const zip=(file,value)=>fs.writeFile(path.join(base,file),gzipSync(JSON.stringify(value)));await zip('index.json.gz',{subjects:[{id:'subject'}]});await zip('subject.json.gz',{sources:Object.fromEntries(catalog.map(r=>[r.id,r]))});await fs.writeFile(path.join(root,'subject-import-report.json'),'{}');}`);
+export async function buildSubjects(root,out,dataset){const base=path.join(out,dataset,'subjects');await fs.mkdir(base,{recursive:true});const catalog=JSON.parse(gunzipSync(await fs.readFile(path.join(out,dataset,'catalog.json.gz'))));const zip=(file,value)=>fs.writeFile(path.join(base,file),gzipSync(JSON.stringify(value)));await zip('index.json.gz',{subjects:[{id:'subject'}]});await zip('subject.json.gz',{subject:{id:'subject',name:'fixture'},selections:[],sources:Object.fromEntries(catalog.map(r=>[r.id,r]))});await fs.writeFile(path.join(root,'subject-import-report.json'),'{}');}`);
   await write('data/collection.tar.gz','fingerprint fixture');await write('data/subject-extracts-public.json.gz','fixture');
   await write('data/withheld-pdf-volumes.json','{}');await write('subject-summaries/A.md','fixture');
   await write('subjects - reference.docx','fixture');await write('period_renaming.csv','Old,New\nold,Period\n');
@@ -72,9 +73,23 @@ export async function buildSubjects(root,out,dataset){const base=path.join(out,d
   assert.match((await build(true)).stdout,/Build mode: full/,'Changing IDs must not reuse numeric postings');
   await fs.appendFile(path.join(root,'src/text.mjs'),'\n// parser change');
   assert.match((await build(true)).stdout,/Build mode: full/,'Parser changes must invalidate reuse');
+  const active=JSON.parse(await fs.readFile(path.join(root,'dist/stats.json'))).dataset;
+  await write('study-guides/editorial.json',JSON.stringify({subjects:[{id:'subject',slug:'fixture'}]}));
+  await write('study-guides/catalogue-baseline.json',JSON.stringify({subjects:{subject:{fingerprint:'outdated'}}}));
+  await assert.rejects(build(true),/Catalogue review data changed for fixture/);
+  const pending=await reconciliationDataset(root);
+  assert.notEqual(pending,path.join(root,'dist',active),'Reconciliation must use the failed build, not the active dataset');
+  assert.equal(JSON.parse(await fs.readFile(path.join(root,'dist/stats.json'))).dataset,active);
+  await fs.access(path.join(pending,'subjects/subject.json.gz'));
+  await write('study-guides/editorial.json',JSON.stringify({subjects:[]}));
+  await fs.unlink(path.join(root,'study-guides/catalogue-baseline.json'));
+  await build(true);
+  await assert.rejects(reconciliationDataset(root),/No failed study-guide build/);
   const before=await output();
+  await write('dist/study-guide-reconciliation.json',JSON.stringify({format:1,dataset:active}));
   await write('period_renaming.csv','Old,New\nold,First\nold,Conflicting\n');
   await assert.rejects(build(false));
+  await assert.rejects(reconciliationDataset(root),/No failed study-guide build/,'An earlier failed build must not survive a fresh attempt');
   assert.deepEqual(await output(),before,'A failed build preserves the active collection');
   await assert.rejects(fs.access(path.join(root,'dist/.collection-update.lock')));
 });
