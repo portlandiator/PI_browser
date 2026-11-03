@@ -176,7 +176,7 @@ export async function planTranslationCorrection({id,before,after,read,list,site}
   // paragraphs. Keep the existing reasons and renew their source fingerprints.
   const sentenceFile='study-guides/sentence-paragraphs.json',sentences=await json(sentenceFile);
   if(sentences&&(sentences.sources?.[id]||sentences.entries?.some(e=>e.source===id))){
-    const compact=compactSentenceParagraphs(sentences),old=compact.sources[id],rows=new Map();
+    const compact=sentences.entries?.length?compactSentenceParagraphs(sentences):structuredClone(sentences),old=compact.sources[id],rows=new Map();
     const paragraph=n=>correction.candidate({source:id,version:old.version,ranges:[{paragraph:n,start:0,end:correction.old.paragraphs[n-1].plain.length,text:correction.old.paragraphs[n-1].plain}]})?.ranges.map(r=>r.paragraph)||[];
     for(const [n,,reason,continuation] of old.paragraphs){
       const mapped=paragraph(n),next=continuation?paragraph(continuation[0])[0]:null;
