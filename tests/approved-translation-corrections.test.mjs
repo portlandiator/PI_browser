@@ -50,6 +50,15 @@ test('reconciliation replaces stale literal shortenings and reveals newly author
   assert.equal(result.guide.order[0].shortened,undefined);assert.equal(result.guide.order[0].omitted,undefined);
   assert.deepEqual(guide.order[0].shortened,['Old.']);
 });
+test('a formerly omitted supplied quotation becomes visible when linked to authorized corrected wording',()=>{
+  const kept={id:'keep',status:'confirmed',passage:'keep',candidates:[{source:'KEEP',version:'v',ranges:[{paragraph:1,start:0,end:5,text:'Kept.'}]}]};
+  const supplied={id:'q',status:'unmatched',excerpt:'Corrected words.',suppliedIds:['BH00001'],candidates:[]};
+  const before={selections:[kept,supplied],sources:{KEEP:{id:'KEEP'},BH00001:{id:'BH00001'}}};
+  const after={...before,selections:[kept,{...supplied,status:'confirmed',passage:'q',candidates:[{source:'BH00001',version:'new',ranges:[{paragraph:1,start:0,end:16,text:'Corrected words.'}]}]}]};
+  const guide={slug:'test',displayTitle:'Test',order:[{key:'source:KEEP',why:'Keep.'},{key:'selection:q',why:'Optional before correction.',omitted:true}],questions:[]};
+  const result=reconcileGuide(guide,before,after,{item:'BH00001',authorized:g=>g.source==='BH00001'});
+  assert.equal(result.guide.order.find(e=>e.key==='source:BH00001').omitted,undefined);
+});
 test('stale or malformed references are data errors, never blindly relabeled',()=>{
   const {correction,candidate}=fixture('Old words.','New words.',[{paragraph:1,start:0,end:10,text:'Old words.'}]);
   assert.throws(()=>correction.candidate({...candidate,version:'0'.repeat(64)}),/Stale/);

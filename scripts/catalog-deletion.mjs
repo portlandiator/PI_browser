@@ -147,7 +147,7 @@ export function reconcileGuide(guide,before,after,{item,cause=`catalog item ${it
     const key=keyOf(g);if(kept.has(key))continue;
     const previous=g.selections.map(s=>entryOf.get(s.id)).find(Boolean);
     const entry={key,why:previous?.why||`Added when ${cause}.`};
-    if(previous?previous.omitted:!authorized(g))entry.omitted=true;
+    if(!authorized(g)&&(previous?previous.omitted:true))entry.omitted=true;
     // Linked readings come before unlinked ones.
     order.splice(g.source?order.findLastIndex(x=>x.key.startsWith('source:'))+1:order.length,0,entry);
     if(previous&&!kept.has(previous.key)){moved.add(previous.key);notes.push(`Reading now linked to ${g.source||'no record'}: ${label(previous)}`);}
