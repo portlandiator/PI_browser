@@ -1,7 +1,7 @@
 // After a build stopped with "Catalogue review data changed for …" because a
 // pull request from the catalog tools deleted or corrected items, bring the
-// study guides in line with the rebuilt subject data identified by that failed
-// build, as the deletion plan does for the changes it can predict: baselines
+// study guides in line with the rebuilt subject data (the newest dataset under
+// dist/), as the deletion plan does for the changes it can predict: baselines
 // are updated for the subjects whose quotations changed, readings whose
 // quotations moved to another record keep their place, and new quotations are
 // added as left out (or shown, when they carry authorized wording). The
@@ -23,14 +23,14 @@ import {catalogueFingerprint} from './study-guide-catalogue.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 
-export async function reconciliationDataset(project){
-  let pending;
-  try{pending=JSON.parse(await fs.readFile(path.join(project,'dist/study-guide-reconciliation.json'),'utf8'));}
-  catch(error){if(error.code==='ENOENT')throw Error('No failed study-guide build is recorded. Run the collection build before reconciling.');throw error;}
-  if(pending.format!==1||!/^collections\/[\w-]+\/$/.test(pending.dataset||''))throw Error('Invalid study-guide reconciliation dataset.');
-  const dataset=path.resolve(project,'dist',pending.dataset);
-  await fs.access(path.join(dataset,'subjects/index.json.gz'));
-  return dataset;
+export async function newestDataset(directory=root){
+  // A failed build has already written new subjects but has not advanced
+  // stats.json. Reconcile those new subjects, not the restored deployment.
+  const parent=path.join(directory,'dist/collections');
+  const entries=await Promise.all((await fs.readdir(parent)).map(async name=>({name,time:(await fs.stat(path.join(parent,name,'subjects/index.json.gz')).catch(()=>({mtimeMs:0}))).mtimeMs})));
+  const newest=entries.sort((a,b)=>b.time-a.time)[0];
+  if(!newest?.time)throw Error('The build stopped before it wrote the subject data; nothing to reconcile against.');
+  return path.join(parent,newest.name);
 }
 
 // Catalog IDs the pull request removes or changes in the metadata, read from
@@ -54,8 +54,7 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
   let change={deleted:[],changed:[]};
   try{change=catalogChange();}catch(error){console.log('Could not list the changed catalog items: '+error.message);}
   const cause=describeCause(change);
-  const dataset=await reconciliationDataset(root);
-  console.log('Reconciling study guides against '+path.relative(root,dataset)+'.');
+  const dataset=await newestDataset();
   const read=async name=>JSON.parse(gunzipSync(await fs.readFile(path.join(dataset,name))));
   const files={read:name=>fs.readFile(path.join(root,name)).catch(error=>error.code==='ENOENT'?null:Promise.reject(error)),list:directory=>fs.readdir(path.join(root,directory))};
   const baseline=JSON.parse(await files.read('study-guides/catalogue-baseline.json'));

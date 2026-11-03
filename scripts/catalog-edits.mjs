@@ -24,6 +24,7 @@ import {tool,run,capture,jobFolder} from './publish-tools.mjs';
 import {githubTarget} from './github-target.mjs';
 import {planDeletion,liveSite} from './catalog-deletion.mjs';
 import {editorialFile,readEditorialExport} from './editorial-exports.mjs';
+import {planTranslationCorrection} from './approved-translation-corrections.mjs';
 
 const codeRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export const pendingFile=editorialFile;
@@ -164,14 +165,6 @@ export async function previewDeletion(root,id){
 const shardDigit=name=>sha(Buffer.from(name,'utf8'))[0];
 const b64=bytes=>Buffer.from(bytes).toString('base64');
 const fromB64=text=>Buffer.from(text,'base64');
-// Reviewed quotations refer to an English text by the version (SHA-256) of its
-// bytes; a correction that leaves them behind needs review first.
-function referencedVersions(decisions,id,versions=new Set()){
-  if(!decisions||typeof decisions!=='object')return versions;
-  if(decisions.source===id&&Array.isArray(decisions.ranges)&&typeof decisions.version==='string')versions.add(decisions.version);
-  for(const value of Object.values(decisions))if(value&&typeof value==='object')referencedVersions(value,id,versions);
-  return versions;
-}
 
 // Everything the pending edits change in the published repository: the
 // patched archive shards and, for deletions, the quotation and study-guide
@@ -192,8 +185,7 @@ export async function prepareCatalogProposal({root,git,python,entries,files,site
   await fs.writeFile(batchFile,JSON.stringify({items:Object.fromEntries(ids.map(id=>[id,{action:entries[id].action}]))}));
   await run(python,[patcher,'--archive',collection,'--batch',batchFile,'--inspect',publishedFile],stage,true);
   const published=JSON.parse(await fs.readFile(publishedFile,'utf8'));
-  const decisions=await Promise.all(['data/subject-edits.json','data/extract-review-decisions.json'].map(async name=>JSON.parse((await files.read(name))?.toString('utf8')||'{}')));
-  const batch={items:{}},edits=[],deletions=[],skipped=[],blobs=new Map();
+  const batch={items:{}},edits=[],deletions=[],skipped=[],blobs=new Map(),corrections=new Map();
   const blob=async(name,value)=>{const file=path.join(changes,name.replaceAll('/','__'));await fs.writeFile(file,value);blobs.set(name,file);files.overlay.set(name,value);};
   // An item as the archive holds it, decoded for comparison.
   const view=(id,p)=>({metadata:p.metadata||Object.fromEntries(published.fields.map(field=>[field,field==='PIN'?id:''])),original:p.original===null?null:decode(fromB64(p.original)),english:p.english===null?null:decode(fromB64(p.english))});
@@ -219,9 +211,10 @@ export async function prepareCatalogProposal({root,git,python,entries,files,site
       if(entry.unchanged?.includes(language)&&p[language]!==null){texts[language]=p[language];continue;}
       texts[language]=entry[language]===null?null:p[language]!==null&&before[language]===entry[language]?p[language]:b64(Buffer.from(entry[language],'utf8'));
     }
-    if(texts.english!==p.english&&texts.english!==null){
-      const version=sha(fromB64(texts.english)),referenced=[...referencedVersions(decisions,id)];
-      if(referenced.some(v=>v!==version)){skipped.push({id,reason:'its English text is quoted by reviewed subject quotations, which need review against the correction before it can be published. This edit stays pending.'});continue;}
+    if(texts.english!==p.english&&texts.english!==null&&p.english!==null){
+      const correction=await planTranslationCorrection({id,before:fromB64(p.english),after:fromB64(texts.english),read:files.read,list:files.list,site});
+      for(const [name,value] of correction.changes)await blob(name,value);
+      corrections.set(id,correction);
     }
     batch.items[id]={action:'edit',metadata:entry.metadata,...texts};
   }
@@ -235,7 +228,7 @@ export async function prepareCatalogProposal({root,git,python,entries,files,site
     for(const [id,item] of Object.entries(batch.items)){
       if(item.action!=='edit')continue;
       const changed=describeChanges(view(id,published.items[id]),view(id,after.items[id]));
-      if(changed.length)edits.push({id,changed});else skipped.push({id,reason:'already matches the published catalog.',applyOnly:true});
+      if(changed.length)edits.push({id,changed,...corrections.has(id)&&{quotations:corrections.get(id).quotations}});else skipped.push({id,reason:'already matches the published catalog.',applyOnly:true});
     }
   }
   const byId=(a,b)=>a.id.localeCompare(b.id);
@@ -246,7 +239,7 @@ export async function prepareCatalogProposal({root,git,python,entries,files,site
 export function catalogBody({edits,deletions,skipped}){
   const plural=(n,word)=>`${n} ${word}${n===1?'':'s'}`;
   const lines=['Catalog edits saved with Edit-Catalog-Item.cmd on the editor’s computer and published with Publish-Editorial-Decisions.cmd. Only these items change in the source archive (`data/collection`); the original-text publication policy was applied. Volume PDFs are unchanged.'];
-  if(edits.length)lines.push(`**Corrections (${edits.length}):**\n`+edits.map(e=>`- \`${e.id}\`: ${e.changed.join('; ')}`).join('\n'));
+  if(edits.length)lines.push(`**Corrections (${edits.length}):**\n`+edits.map(e=>`- \`${e.id}\`: ${e.changed.join('; ')}${e.quotations?`; ${plural(e.quotations,'quotation reference')} updated with the approved translation correction`:''}`).join('\n'));
   const removed=deletions.map(d=>{
     const head=`- \`${d.id}\`${d.title?' ('+d.title+')':''}: `;
     if(!d.archived)return head+'not in the published catalog; only the source files on the editor’s computer are removed.';
@@ -256,7 +249,7 @@ export function catalogBody({edits,deletions,skipped}){
   });
   if(removed.length)lines.push(`**Deletions (${removed.length}):**\n`+removed.join('\n'));
   if(skipped.length)lines.push('Not included (still pending on the editor’s computer):\n'+skipped.map(s=>`- \`${s.id}\`: ${s.reason}`).join('\n'));
-  lines.push('GitHub builds and tests this pull request before it is merged. If a deletion changes other quotation matches, the check reconciles the study guides and pushes the result to this pull request.');
+  lines.push('Translation corrections are approved for propagation to existing subject quotations and study guides. GitHub builds and tests this pull request before it is merged, reconciles the affected study guides, and pushes their refreshed references to this pull request.');
   return lines.join('\n\n');
 }
 

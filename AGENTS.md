@@ -28,6 +28,8 @@ For interface-only work, reuse a verified compatible dataset with `node scripts/
 
 The owner authorized publishing this collection to the GitHub repository named by the checkout's `origin` remote, its GitHub Pages site, and the volume PDF site named in `src/pdf-hosting.json`. Preserve existing remote history. Never force-push or change repository visibility without an explicit request.
 
+Catalog translation corrections are reviewed and approved for propagation to every existing subject compilation and study guide that quotes the corrected text. Publish the corrected source and renewed quotation versions, ranges, and study-guide references together; do not leave a correction pending merely because reviewed quotations refer to the earlier translation. Preserve imported extract provenance and existing review status.
+
 ## Enhanced catalogue metadata
 
 Import the single UTF-8 CSV in `metadata - copy/`, joining its `PIN` column to full text filenames. The Catalog filter rail shows a curated set of 18 fields in a fixed order (listed at the end of DESIGN.md); there are no availability dropdowns. Catalogue details show every source column, including empty values, except Subjects and the derived Citation count; Extract follows Word count. Categorical selections use OR within a field and AND across fields; counts exclude the current field's own selection. Word count supports numeric bounds; dates remain source strings. Field columns load on demand in the search worker. Preserve raw metadata in records, except that denied originals must have an empty First line (original) in public copies. Render only reconstructed HTTP(S) anchors with escaped labels; retain local drive references as visible text. Source hyperlink labels and destinations are searchable.

@@ -30,8 +30,8 @@ const projectRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'
 const target='data/subject-edits.json';
 const plural=(n,word)=>`${n} ${word}${n===1?'':'s'}`;
 
-export async function subjectIds(root){
-  const rows=parseCsv(await fs.readFile(path.join(root,'14-colors_and_hyperlinks.csv'),'utf8'));
+export async function subjectIds(root,read=name=>fs.readFile(path.join(root,name),'utf8')){
+  const rows=parseCsv(String(await read('14-colors_and_hyperlinks.csv')));
   return new Set(rows.map(row=>new URLSearchParams(new URL(row.hyperlink).hash.replace(/^#\??/,'')).get('category')));
 }
 
@@ -105,8 +105,22 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
       const conflicts=await conflictingEntries(projectRoot,waiting);
       const entries=Object.fromEntries(Object.entries(waiting).filter(([id])=>!conflicts.some(c=>c.id===id)));
       const files=publishedFiles(projectRoot,git,'HEAD');
+      // Merge exports first. Catalog corrections then renew these decisions;
+      // an older browser export must not put obsolete ranges back afterwards.
+      let decisions=null;
+      if(exports.length){
+        const publishedText=await files.read(target);
+        if(!publishedText)throw Error('The published repository has no '+target+'.');
+        const {merged,summary}=mergeExportedDecisions(JSON.parse(String(publishedText)),exports,await subjectIds(projectRoot,files.read));
+        if(summary.total){files.overlay.set(target,JSON.stringify(merged,null,2)+'\n');decisions=summary;}
+        console.log(`\nChanges compared with the published decisions:
+  passage decisions: ${summary.newPassages} new, ${summary.changedPassages} changed
+  subject connections: ${summary.newConnections} new, ${summary.changedConnections} changed
+  subjects marked reviewed/unreviewed: ${summary.reviewProgress}`);
+      }
       if(Object.keys(entries).length)console.log('Reading the published source archive…');
       const catalog=Object.keys(entries).length?await prepareCatalogProposal({root:projectRoot,git,python,entries,files,site:liveSite(repository.site),stage}):{edits:[],deletions:[],skipped:[],blobs:new Map(),overlay:files.overlay};
+      if(decisions&&!catalog.blobs.has(target)){const file=path.join(stage,'subject-edits.json');await fs.writeFile(file,await files.read(target));catalog.blobs.set(target,file);}
       catalog.skipped.push(...conflicts);
       // Items with nothing to publish still go to the source folders (an edit
       // matching the published catalog, a deletion of an unpublished item).
@@ -117,18 +131,6 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
         for(const e of catalog.edits)console.log(`  ${e.id}: ${e.changed.join('; ')}`);
         for(const d of catalog.deletions)console.log(d.archived?`  ${d.id}: deleted (${plural(d.quotations,'quotation')} from ${plural(d.subjects.length,'subject')}; ${plural(d.guides.length,'study guide')} changed)`:`  ${d.id}: not in the published catalog; removed from the source folders only`);
         for(const s of catalog.skipped)console.log(`  ${s.id}: ${s.applyOnly?'already matches the published catalog; written to the source folders only':'not included: '+s.reason}`);
-      }
-      let decisions=null;
-      if(exports.length){
-        const publishedText=catalog.overlay.get(target)??await fs.readFile(path.join(projectRoot,target),'utf8');
-        const {merged,summary}=mergeExportedDecisions(JSON.parse(String(publishedText)),exports,await subjectIds(projectRoot));
-        // Quotations removed by a deletion above stay removed.
-        for(const id of catalog.deletions.flatMap(d=>d.removedIds||[]))if(merged.matches&&Object.hasOwn(merged.matches,id))delete merged.matches[id];
-        console.log(`\nChanges compared with the published decisions:
-  passage decisions: ${summary.newPassages} new, ${summary.changedPassages} changed
-  subject connections: ${summary.newConnections} new, ${summary.changedConnections} changed
-  subjects marked reviewed/unreviewed: ${summary.reviewProgress}`);
-        if(summary.total){const file=path.join(stage,'subject-edits.json');await fs.writeFile(file,JSON.stringify(merged,null,2)+'\n');catalog.blobs.set(target,file);decisions=summary;}
       }
       if(!catalog.blobs.size){
         console.log('\nNothing new to publish.');
