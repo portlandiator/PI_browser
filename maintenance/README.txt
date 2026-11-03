@@ -73,9 +73,11 @@ Publish-Editorial-Decisions.cmd
   Update-Collection.cmd cannot undo them, and deleted items are removed. The edits stay listed in the
   editor until the pull request is merged; if it is closed without merging,
   the next publication proposes them again (restore the backups to undo them
-  here instead). An edit that cannot be published yet (for example an English
-  text that reviewed quotations refer to) stays pending and is named in the
-  tool's output.
+  here instead). Translation corrections are approved for propagation to the
+  subject compilations and study guides that quote them. Their quoted wording,
+  source versions and references are updated together; these corrections are
+  included in the pull request rather than held pending for another review.
+  New IDs still need Update-Collection.cmd before their corrections can publish.
 
 Update-Collection.cmd
   Propose the whole collection after replacing or adding source files. Keep

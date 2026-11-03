@@ -69,7 +69,7 @@ const label=x=>x.why.length>90?x.why.slice(0,89)+'…':x.why;
 // the reading its quotations came from, otherwise it is added as left out (or
 // shown, when it has authorized wording, which may not be left out). Returns
 // guide null when nothing remains to read.
-export function reconcileGuide(guide,before,after,{item,cause=`catalog item ${item} was deleted`,review=null,authorized=()=>false}={}){
+export function reconcileGuide(guide,before,after,{item,cause=`catalog item ${item} was deleted`,review=null,authorized=()=>false,authority=new Map()}={}){
   guide=structuredClone(guide);review=review&&structuredClone(review);
   const notes=[],oldIds=guide.selection?.ids;
   const beforePool=studyGuideSelections(before.selections),afterPool=studyGuideSelections(after.selections);
@@ -78,7 +78,7 @@ export function reconcileGuide(guide,before,after,{item,cause=`catalog item ${it
     if(!review)throw Error(`The curated selection review for ${guide.slug} is missing.`);
     const chosen=new Set(oldIds),gone=beforePool.filter(s=>!afterIds.has(s.id)).map(s=>s.id);
     for(const s of afterPool.filter(s=>!beforeIds.has(s.id))){
-      if(!s.passage||authorized({source:s.candidates[0].source,selections:[s]}))throw Error(`The catalog change (${cause}) gives “${guide.displayTitle}” a new candidate quotation (${s.id}) that needs an editorial decision. Nothing was published.`);
+      if(!s.passage||(authorized({source:s.candidates[0].source,selections:[s]})&&!authority.has(s.id)))throw Error(`The catalog change (${cause}) gives “${guide.displayTitle}” a new candidate quotation (${s.id}) that needs an editorial decision. Nothing was published.`);
       review.omitted.push({id:s.id,source:s.candidates[0].source,reason:`Became a candidate when ${cause}; not yet reviewed for this guide.`});
       notes.push('New candidate quotation left out: '+s.id);
     }
@@ -88,10 +88,13 @@ export function reconcileGuide(guide,before,after,{item,cause=`catalog item ${it
     const afterById=new Map(afterPool.map(s=>[s.id,s]));
     for(const entry of review.selected){
       const candidate=afterById.get(entry.id).candidates?.[0];
-      if(!entry.sourceVersion||candidate?.source!==entry.source||!candidate.version||candidate.version===entry.sourceVersion)continue;
-      entry.sourceVersion=candidate.version;
-      if(entry.authorityEvidence?.sourceVersion)entry.authorityEvidence.sourceVersion=candidate.version;
-      notes.push(`Chosen quotation ${entry.id} now cites the corrected text of ${entry.source}.`);
+      if(entry.sourceVersion&&candidate?.source===entry.source&&candidate.version&&candidate.version!==entry.sourceVersion){
+        entry.sourceVersion=candidate.version;
+        if(entry.authorityEvidence?.sourceVersion)entry.authorityEvidence.sourceVersion=candidate.version;
+        notes.push(`Chosen quotation ${entry.id} now cites the corrected text of ${entry.source}.`);
+      }
+      const current=authority.get(entry.id);
+      if(current){Object.assign(entry,current);entry.mandatoryAuthorized=current.authorizedParagraphs.length>0;if(entry.authorityEvidence)Object.assign(entry.authorityEvidence,{sourceVersion:current.sourceVersion,paragraphs:current.authorizedParagraphs});}
     }
     review.omitted=review.omitted.filter(s=>afterIds.has(s.id));
     review.importedAuthorityReview=(review.importedAuthorityReview||[]).filter(s=>afterIds.has(s.id));
@@ -104,17 +107,47 @@ export function reconcileGuide(guide,before,after,{item,cause=`catalog item ${it
     review.mandatoryAuthorizedCount-=lostMandatory;
     review.candidateFingerprint=catalogueFingerprint(after.selections);
     guide.selection.ids=oldIds.filter(id=>afterIds.has(id));
+    if(authority.size){
+      const imported=new Set((review.importedAuthorityReview||[]).filter(s=>s.mandatoryAuthorized).map(s=>s.id));
+      const mandatory=new Set(afterPool.filter(s=>authority.get(s.id)?.authorizedParagraphs.length||imported.has(s.id)).map(s=>s.id));
+      for(const id of mandatory){
+        if(guide.selection.ids.includes(id))continue;
+        // Preserve the fixed-size curated selection. Its last optional choice
+        // yields to wording the corrected catalog now marks as authorized.
+        const replace=[...review.selected].reverse().find(s=>!mandatory.has(s.id));
+        if(!replace)throw Error(`Authorized quotation overflow in ${guide.slug}.`);
+        review.selected=review.selected.filter(s=>s.id!==replace.id);
+        review.omitted=review.omitted.filter(s=>s.id!==id);
+        review.omitted.push({id:replace.id,source:replace.source,reason:`Replaced by mandatory authorized quotation ${id} after ${cause}; the fixed-size selection is retained.`});
+        const current=authority.get(id);
+        review.selected.push({id,...current,mandatoryAuthorized:true,reason:`Included with the approved catalog correction: its wording is now marked authorized after ${cause}.`,authorityEvidence:{kind:'catalogue_authorized_paragraphs',sourceVersion:current.sourceVersion,paragraphs:current.authorizedParagraphs}});
+        guide.selection.ids=guide.selection.ids.filter(x=>x!==replace.id);guide.selection.ids.push(id);
+        notes.push(`Authorized quotation ${id} included; optional quotation ${replace.id} moved out to retain the selection limit.`);
+      }
+      review.mandatoryAuthorizedCount=mandatory.size;
+    }
   }
   const groups=groupSelections(guidePool(after,guide.selection?.ids),after.sources);
   const oldGroups=groupSelections(guidePool(before,oldIds),before.sources);
   const byKey=new Map(groups.map(g=>[keyOf(g),g])),oldEntries=new Map(guide.order.map(x=>[x.key,x])),entryOf=new Map();
   for(const g of oldGroups){const x=oldEntries.get(keyOf(g));if(x)for(const s of g.selections)entryOf.set(s.id,x);}
   const order=guide.order.filter(x=>byKey.has(x.key)),kept=new Set(order.map(x=>x.key)),moved=new Set();
+  for(const entry of order){
+    const group=byKey.get(entry.key);
+    if(entry.omitted&&authorized(group)){delete entry.omitted;notes.push(`Reading ${group.source} is now shown because the corrected catalog marks its wording authorized.`);}
+    if(!entry.shortened||!group?.source)continue;
+    const previous=oldGroups.find(g=>keyOf(g)===entry.key);
+    const oldVersions=new Set(previous?.selections.map(s=>s.candidates?.[0]?.version));
+    if(group.selections.some(s=>s.candidates?.[0]?.correction&&!oldVersions.has(s.candidates[0].version))){
+      delete entry.shortened;
+      notes.push(`Reading ${group.source} now uses the corrected complete selected sentences; its old literal shortening was removed.`);
+    }
+  }
   for(const g of groups){
     const key=keyOf(g);if(kept.has(key))continue;
     const previous=g.selections.map(s=>entryOf.get(s.id)).find(Boolean);
     const entry={key,why:previous?.why||`Added when ${cause}.`};
-    if(previous?previous.omitted:!authorized(g))entry.omitted=true;
+    if(!authorized(g)&&(previous?previous.omitted:true))entry.omitted=true;
     // Linked readings come before unlinked ones.
     order.splice(g.source?order.findLastIndex(x=>x.key.startsWith('source:'))+1:order.length,0,entry);
     if(previous&&!kept.has(previous.key)){moved.add(previous.key);notes.push(`Reading now linked to ${g.source||'no record'}: ${label(previous)}`);}
@@ -131,17 +164,25 @@ export function reconcileGuide(guide,before,after,{item,cause=`catalog item ${it
 
 // Authorized wording in a linked group, read from the item records of a build.
 export function authorizedGroups(readRecord){
-  return async g=>{
+  const records=new Map();
+  const record=async source=>{if(!records.has(source))records.set(source,await readRecord(source));return records.get(source);};
+  const authorized=async g=>{
     if(!g.source)return false;
-    const record=await readRecord(g.source),authorization=authorizedRanges(record?.metadata?.Authorized);
+    const source=await record(g.source),authorization=authorizedRanges(source?.metadata?.Authorized);
     return groupedParagraphs(g).some(p=>isAuthorizedParagraph(authorization,p.number));
   };
+  authorized.selection=async s=>{
+    if(!s.passage)return null;
+    const c=s.candidates[0],source=await record(c.source),authorization=authorizedRanges(source?.metadata?.Authorized);
+    return {source:c.source,sourceVersion:c.version,authorizedParagraphs:[...new Set(c.ranges.filter(r=>isAuthorizedParagraph(authorization,r.paragraph)).map(r=>r.paragraph))].sort((a,b)=>a-b)};
+  };
+  return authorized;
 }
 
 // Apply new subject data to every study-guide file. `subjects` maps a subject
 // ID to {before, after}; `evidenceGone(subjectId, selectionId)` tells whether
 // a neighbor's evidence quotation no longer exists.
-export async function updateGuides({read,list,item,cause=`catalog item ${item} was deleted`,subjects,evidenceGone,authorized=async()=>false}){
+export async function updateGuides({read,list,item,cause=`catalog item ${item} was deleted`,subjects,evidenceGone,authorized=async()=>false,removedSources=[item]}){
   const changes=new Map(),guides=[],text=async name=>(await read(name))?.toString('utf8');
   const baselineText=await text('study-guides/catalogue-baseline.json'),baseline=baselineText&&JSON.parse(baselineText);
   for(const [id,{after}] of subjects)if(baseline?.subjects[id]){
@@ -161,7 +202,9 @@ export async function updateGuides({read,list,item,cause=`catalog item ${item} w
         // Authorized wording is looked up before reconciling, which is synchronous.
         const flags=new Map();
         for(const g of groupSelections(studyGuideSelections(subject.after.selections),subject.after.sources))flags.set(keyOf(g),await authorized(g));
-        const result=reconcileGuide(guide,subject.before,subject.after,{item,cause,review:reviewText&&JSON.parse(reviewText),authorized:g=>flags.get(keyOf(g))??false});
+        const authority=new Map();
+        if(guide.selection&&authorized.selection)for(const s of studyGuideSelections(subject.after.selections)){const evidence=await authorized.selection(s);if(evidence)authority.set(s.id,evidence);}
+        const result=reconcileGuide(guide,subject.before,subject.after,{item,cause,review:reviewText&&JSON.parse(reviewText),authorized:g=>flags.get(keyOf(g))??false,authority});
         notes.push(...result.notes);updated=result.guide;
         for(const x of guide.order)if(!updated?.order.some(y=>y.key===x.key))removedReadings.push({slug:guide.slug,key:x.key});
         if(updated&&reviewFile&&JSON.stringify(result.review)!==JSON.stringify(JSON.parse(reviewText))){
@@ -181,15 +224,18 @@ export async function updateGuides({read,list,item,cause=`catalog item ${item} w
     if(changed)changes.set(file,jsonText(original,{...data,subjects:next}));
   }
   const contextText=await text('study-guides/sentence-context.json');
+  const deletedSources=new Set(removedSources);
   if(contextText){
     const context=JSON.parse(contextText);
-    const entries=context.entries.filter(x=>x.source!==item&&!removedGuides.has(x.slug)&&!removedReadings.some(r=>r.slug===x.slug&&r.key===x.key));
+    const entries=context.entries.filter(x=>!deletedSources.has(x.source)&&!removedGuides.has(x.slug)&&!removedReadings.some(r=>r.slug===x.slug&&r.key===x.key));
     if(entries.length!==context.entries.length)changes.set('study-guides/sentence-context.json',jsonText(contextText,{...context,entries}));
   }
   const paragraphsText=await text('study-guides/sentence-paragraphs.json');
   if(paragraphsText){
     const paragraphs=JSON.parse(paragraphsText);
-    if(paragraphs.sources&&Object.hasOwn(paragraphs.sources,item)){delete paragraphs.sources[item];changes.set('study-guides/sentence-paragraphs.json',formatSentenceParagraphs(paragraphs).replaceAll('\n',paragraphsText.includes('\r\n')?'\r\n':'\n'));}
+    let changed=false;
+    for(const source of deletedSources)if(paragraphs.sources&&Object.hasOwn(paragraphs.sources,source)){delete paragraphs.sources[source];changed=true;}
+    if(changed)changes.set('study-guides/sentence-paragraphs.json',formatSentenceParagraphs(paragraphs).replaceAll('\n',paragraphsText.includes('\r\n')?'\r\n':'\n'));
   }
   return {changes,guides};
 }

@@ -73,6 +73,16 @@ test('a corrected record moves chosen quotations to its new version so the selec
   assert.equal(result.notes.filter(n=>/cites the corrected text of KEEP/.test(n)).length,300);
   const text=raw(result.review),chosen=await selectStudyGuideQuotations(after,{...result.guide.selection,sha256:digest(text)},{readReview:async()=>text,readRecord:async()=>record});
   assert.equal(chosen.length,300);
+  // A corrected authorization field can make an omitted quotation mandatory.
+  // Include it, renew its authority evidence, and retain the 300-choice limit.
+  const changed=structuredClone(after);changed.selections[300].candidates[0].ranges[0].paragraph=2;
+  const authority=new Map(changed.selections.map(s=>[s.id,{source:'KEEP',sourceVersion:'v2',authorizedParagraphs:s.id==='300'?[2]:[]}]));
+  const promoted=reconcileGuide(guide,before,changed,{item:'KEEP',review,authority,authorized:()=>true});
+  assert.ok(promoted.guide.selection.ids.includes('300'));assert.ok(!promoted.guide.selection.ids.includes('299'));
+  assert.equal(promoted.review.mandatoryAuthorizedCount,1);
+  const updatedRecord={...record,metadata:{Authorized:'Y2'},en:{paragraphs:[{plain:'Text.'},{plain:'Text.'}]}};
+  const promotedText=raw(promoted.review);
+  assert.equal((await selectStudyGuideQuotations(changed,{...promoted.guide.selection,sha256:digest(promotedText)},{readReview:async()=>promotedText,readRecord:async()=>updatedRecord})).length,300);
 });
 
 test('guide files, neighbors, baselines and sentence context are updated together',async()=>{

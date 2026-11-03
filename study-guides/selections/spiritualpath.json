@@ -4,11 +4,11 @@
   "status": "finalized_before_analysis",
   "subject": "DBB07A9A48FD421E8F6E02D219149549",
   "dataset": "collections/editorial-83f59e6ea2d8/",
-  "candidateFingerprint": "84219e2edd6b3aeac88bc2df3acbffa6ae5daf93d7c192654632d3e015ef995e",
+  "candidateFingerprint": "3bf66f326db64e5d88be6f0f5ca905be949cfab409277c0c5012af890925b806",
   "candidateCount": 1133,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 129,
+  "mandatoryAuthorizedCount": 130,
   "selectionBeforeAnalysis": true,
   "retroactiveRevision": true,
   "method": "Editorial survey of candidate wording and metadata; all verified authorized translations retained. Remaining choices prioritize central teachings, substantive explanations, qualifications and complementary applications across the subject. Selected and omitted IDs are explicit. Existing full-context reviews are preserved and may be reused after this selection is finalized. Citation counts and source order do not determine selection.",
@@ -9892,26 +9892,20 @@
       }
     },
     {
-      "n": 1132,
-      "group": 1034,
-      "id": "e13178722ad9ff9a7b6351e6",
-      "key": "selection:e13178722ad9ff9a7b6351e6",
-      "source": null,
-      "status": "unmatched",
-      "reference": "M63-86 126.4 (6 Feb. 1973 from the Universal House of Justice)",
-      "authorization": "",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
-      "paragraphs": [],
-      "text": "In considering the effect of obedience to the laws on individual lives, one must remember that the purpose of this life is to prepare the soul for the next. Here one must learn to control and direct one's animal impulses, not to be a slave to them. Life in this world is a succession of tests and achievements, of falling short and of making new spiritual advances. Sometimes the course may seem very hard, but one can witness, again and again, that the soul who steadfastly obeys the law of Baha'u'llah, however hard it may seem, grows spiritually, while the one who compromises with the law for the sake of his own apparent happiness is seen to have been following a chimera: he does not attain the happiness he sought, he retards his spiritual advance and often brings new problems upon himself.",
-      "original": "In considering the effect of obedience to the laws on individual lives, one must remember that the purpose of this life is to prepare the soul for the next. Here one must learn to control and direct one's animal impulses, not to be a slave to them. Life in this world is a succession of tests and achievements, of falling short and of making new spiritual advances. Sometimes the course may seem very hard, but one can witness, again and again, that the soul who steadfastly obeys the law of Baha'u'llah, however hard it may seem, grows spiritually, while the one who compromises with the law for the sake of his own apparent happiness is seen to have been following a chimera: he does not attain the happiness he sought, he retards his spiritual advance and often brings new problems upon himself. M63-86 126.4 (6 Feb. 1973 from the Universal House of Justice)",
-      "stage": 8,
-      "previousPosition": 1034,
-      "reason": "Retain supplied extract conservatively, including any authorized wording, while preserving its catalogue status; check saved imported-source review before finalization.",
+      "id": "581e9c396767adcf99d49f09",
+      "source": "BH02699",
+      "sourceVersion": "9b82429a46df5566937932917edb079597ddbe261bcba4ddba01a66ceb2862e0",
+      "authorizedParagraphs": [
+        5
+      ],
+      "mandatoryAuthorized": true,
+      "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog items BH02699, BH11924 were corrected.",
       "authorityEvidence": {
-        "kind": "reviewed_import_retained",
-        "metadata": "",
-        "paragraphs": []
+        "kind": "catalogue_authorized_paragraphs",
+        "sourceVersion": "9b82429a46df5566937932917edb079597ddbe261bcba4ddba01a66ceb2862e0",
+        "paragraphs": [
+          5
+        ]
       }
     }
   ],
@@ -10064,11 +10058,6 @@
     {
       "id": "bf8dad318ef7a2359e689a63",
       "source": "BB00004",
-      "reason": "Not retained in the limited selection: complementary coverage and substantive subject treatment are supplied by the explicitly chosen quotations; no verified authorized quotation omitted."
-    },
-    {
-      "id": "581e9c396767adcf99d49f09",
-      "source": "BH02699",
       "reason": "Not retained in the limited selection: complementary coverage and substantive subject treatment are supplied by the explicitly chosen quotations; no verified authorized quotation omitted."
     },
     {
@@ -14080,6 +14069,11 @@
       "id": "176da0dac8e5a6ffc6d8550c",
       "source": "ABU0930",
       "reason": "Keep the explicit purification counsel and memorable cloud image; the new broad list of principles does not clearly strengthen the chosen wayfaring sequence."
+    },
+    {
+      "id": "e13178722ad9ff9a7b6351e6",
+      "source": null,
+      "reason": "Replaced by mandatory authorized quotation 581e9c396767adcf99d49f09 after catalog items BH02699, BH11924 were corrected; the fixed-size selection is retained."
     }
   ],
   "importedAuthorityReview": [

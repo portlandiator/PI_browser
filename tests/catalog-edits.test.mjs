@@ -5,6 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {gzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {csvText,ItemStore} from '../scripts/item-store.mjs';
 import {PendingCatalogEdits,describeChanges,publishedFiles,prepareCatalogProposal,catalogBody,conflictingEntries,applyLocally,settlePullRequest} from '../scripts/catalog-edits.mjs';
@@ -109,7 +110,8 @@ test('pending edits and deletions become patched archive shards and deletion cha
   await fs.rm(path.join(folder,'translated_texts - copy/AB00003.txt'));
   await fs.writeFile(path.join(repo,'data/subject-edits.json'),JSON.stringify({format:1,matches:{},relationships:[]})+'\n');
   // A reviewed quotation refers to AB00001's English text by its version.
-  await fs.writeFile(path.join(repo,'data/extract-review-decisions.json'),JSON.stringify({matches:{q1:{status:'confirmed',candidate:{source:'AB00001',version:'0'.repeat(64),ranges:[{paragraph:1,start:0,end:2,text:'Hi'}]}}}})+'\n');
+  const version=createHash('sha256').update(Buffer.from([0x93,0x48,0x69,0x94])).digest('hex');
+  await fs.writeFile(path.join(repo,'data/extract-review-decisions.json'),JSON.stringify({matches:{q1:{status:'confirmed',candidate:{source:'AB00001',version,ranges:[{paragraph:1,start:1,end:3,text:'Hi'}]}}}})+'\n');
   await fs.writeFile(path.join(repo,'data/subject-extracts-public.json.gz'),gzipSync(JSON.stringify({selections:[],report:{}})));
   git(repo,'init','--quiet');git(repo,'add','.');git(repo,'commit','--quiet','-m','published');
   const start=git(repo,'rev-parse','HEAD');
@@ -144,10 +146,12 @@ test('pending edits and deletions become patched archive shards and deletion cha
   // Texts the editor left alone keep their published bytes, whatever this folder holds.
   assert.equal((await archived(tar('original','AB00001')))['original_texts - copy/AB00001.txt'],'متن');
   assert.equal((await archived(tar('translated','AB00003')))['translated_texts - copy/AB00003.txt'],'Third text.');
-  // Changing English text that reviewed quotations refer to waits for their review;
-  // the unchanged text kept its published bytes, so the metadata-only edit above went through.
+  // Approved English corrections renew the quotation in the same proposal.
   const second=await prepareCatalogProposal({root:repo,git:gitPath,python:py,entries:{AB00001:entry('edit',{fields,metadata:rows[0],original:'متن',english:'Changed.'})},files:publishedFiles(repo,gitPath,'HEAD'),site:async()=>null,stage:path.join(stage,'work2')});
-  assert.deepEqual(second.edits,[]);assert.match(second.skipped[0].reason,/reviewed subject quotations/);assert.equal(second.blobs.size,0);
+  assert.deepEqual(second.skipped,[]);assert.equal(second.edits[0].id,'AB00001');
+  const renewed=JSON.parse(await fs.readFile(second.blobs.get('data/extract-review-decisions.json'),'utf8')).matches.q1;
+  assert.equal(renewed.status,'confirmed');assert.equal(renewed.candidate.version,createHash('sha256').update('Changed.').digest('hex'));
+  assert.equal(renewed.candidate.ranges[0].text,'Changed.');
   // The description names every item and what happens to it.
   const body=catalogBody(result);
   assert.match(body,/\*\*Corrections \(1\):\*\*\n- `AB00001`: Title/);assert.match(body,/\*\*Deletions \(1\):\*\*\n- `AB00002`: no subject compilation quoted it/);

@@ -4,11 +4,11 @@
   "status": "finalized_before_analysis",
   "subject": "8677D5CBAD964C7F95A61AF10D5EB72D",
   "dataset": "collections/editorial-83f59e6ea2d8/",
-  "candidateFingerprint": "975f11567f5309a83dd621f03176aceda98f21b54dcd69595533f4597a3905f9",
+  "candidateFingerprint": "545ba8a5dde35cac0688d1e31706b807635d2eaaa2929d739d0873bbc653fe09",
   "candidateCount": 1320,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 170,
+  "mandatoryAuthorizedCount": 171,
   "selectionBeforeAnalysis": true,
   "method": "Complete candidate survey followed by individual editorial choices and written reasons. All verified authorized selections included. Priority given to foundational teachings, substantive explanations, necessary qualifications, distinctive applications and thematic breadth. Neither citation count nor source order used as a ranking rule. Imported wording checked separately; version differences remain explicit.",
   "selected": [
@@ -7974,35 +7974,22 @@
       }
     },
     {
-      "n": 1319,
-      "group": 1261,
-      "id": "64c12bcc3c025814f7a94ba6",
-      "key": "selection:64c12bcc3c025814f7a94ba6",
-      "source": null,
-      "status": "approximate",
-      "reference": "AB08065",
-      "authorization": "",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
-      "paragraphs": [],
-      "text": "The underlying foundation upon which the Kingdom rests is love and this must be securely established among the friends and must be widely spread so that it may become the cause of the establishment of the oneness of mankind. This love must be so intensified among the friends as to make of them true servants of one another expending their wealth and sacrificing their lives for one another and consecrating their being to the existence of other souls. Then ye shall observe how people will flock and gather under the shade of the pavilion of the oneness of mankind. SW_v13#12 p.343x,",
-      "original": "The underlying foundation upon which the Kingdom rests is love and this must be securely established among the friends and must be widely spread so that it may become the cause of the establishment of the oneness of mankind. This love must be so intensified among the friends as to make of them true servants of one another expending their wealth and sacrificing their lives for one another and consecrating their being to the existence of other souls. Then ye shall observe how people will flock and gather under the shade of the pavilion of the oneness of mankind. SW_v13#12 p.343x, AB08065",
-      "candidateReference": {
-        "source": "AB08065",
-        "version": "82114313ec8a6817ed41cdafddc5944648c78d2de919c843ad9147a5d21b7ce1",
-        "paragraphs": [
-          1
-        ]
-      },
-      "reason": "Retain the imported account of love as the foundation of the Kingdom; verify its exact historic translation.",
+      "id": "e88783f4b784c85f3fec33a0",
+      "source": "BH02699",
+      "sourceVersion": "9b82429a46df5566937932917edb079597ddbe261bcba4ddba01a66ceb2862e0",
+      "authorizedParagraphs": [
+        4,
+        5
+      ],
+      "mandatoryAuthorized": true,
+      "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog items BH02699, BH11924 were corrected.",
       "authorityEvidence": {
-        "n": 1319,
-        "url": "https://bahai.works/Star_of_the_West/Volume_13/Issue_12",
-        "authorization": "Historical published translation; authorized status not established.",
-        "finding": "Import explicitly cites Star of the West13:12 p343. Current AB08065 is a different wording and has blank Authorized metadata. Preserve historical version and approximate catalogue status; no cross-version restoration.",
-        "id": "64c12bcc3c025814f7a94ba6",
-        "reviewedAt": "2026-10-11T17:54:31.040Z",
-        "contextRestored": false
+        "kind": "catalogue_authorized_paragraphs",
+        "sourceVersion": "9b82429a46df5566937932917edb079597ddbe261bcba4ddba01a66ceb2862e0",
+        "paragraphs": [
+          4,
+          5
+        ]
       }
     }
   ],
@@ -8077,12 +8064,6 @@
       "id": "ae875a248736608c2c9d1c49",
       "n": 36,
       "source": "BH00077",
-      "reason": "Surveyed before analysis; selected complementary passages state the subject’s central teachings, qualifications or practical applications more substantively or with less repetition. No verified authorized quotation omitted."
-    },
-    {
-      "id": "e88783f4b784c85f3fec33a0",
-      "n": 42,
-      "source": "BH02699",
       "reason": "Surveyed before analysis; selected complementary passages state the subject’s central teachings, qualifications or practical applications more substantively or with less repetition. No verified authorized quotation omitted."
     },
     {
@@ -14125,6 +14106,11 @@
       "id": "6c1bad5fb2919ffad3643c5c",
       "source": "ABU0318",
       "reason": "Preserve the concrete marital application and the link between unity and deliberation; the new broad appeal beyond nationality does not justify replacing these."
+    },
+    {
+      "id": "64c12bcc3c025814f7a94ba6",
+      "source": null,
+      "reason": "Replaced by mandatory authorized quotation e88783f4b784c85f3fec33a0 after catalog items BH02699, BH11924 were corrected; the fixed-size selection is retained."
     }
   ],
   "importedAuthorityReview": [

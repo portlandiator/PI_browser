@@ -70,7 +70,7 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
   }
   if(!subjects.size)throw Error('Every study-guide baseline matches the build; the build stopped for another reason.');
   const exists=new Map([...subjects].map(([id,{after}])=>[id,new Set(after.selections.map(s=>s.id))]));
-  const result=await updateGuides({...files,item:change.deleted.join(', ')||change.changed.join(', ')||'catalog change',cause,subjects,evidenceGone:(subjectId,selection)=>exists.has(subjectId)&&!exists.get(subjectId).has(selection),authorized:authorizedGroups(source=>read('data/'+recordFilename(source)).catch(()=>null))});
+  const result=await updateGuides({...files,item:change.deleted.join(', ')||change.changed.join(', ')||'catalog change',removedSources:change.deleted,cause,subjects,evidenceGone:(subjectId,selection)=>exists.has(subjectId)&&!exists.get(subjectId).has(selection),authorized:authorizedGroups(source=>read('data/'+recordFilename(source)).catch(()=>null))});
   for(const [name,value] of result.changes)await fs.writeFile(path.join(root,name),value);
   const notes=[`Study guides reconciled after ${cause}: the quotations of ${subjects.size} subject${subjects.size===1?'':'s'} changed when the collection was rebuilt (${[...subjects.values()].map(s=>'“'+s.after.subject.name+'”').join(', ')}).`,
     ...result.guides.map(g=>`- **${g.title}**\n${g.notes.map(n=>'  - '+n).join('\n')}`),
