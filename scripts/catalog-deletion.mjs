@@ -182,7 +182,7 @@ export function authorizedGroups(readRecord){
 // Apply new subject data to every study-guide file. `subjects` maps a subject
 // ID to {before, after}; `evidenceGone(subjectId, selectionId)` tells whether
 // a neighbor's evidence quotation no longer exists.
-export async function updateGuides({read,list,item,cause=`catalog item ${item} was deleted`,subjects,evidenceGone,authorized=async()=>false}){
+export async function updateGuides({read,list,item,cause=`catalog item ${item} was deleted`,subjects,evidenceGone,authorized=async()=>false,removedSources=[item]}){
   const changes=new Map(),guides=[],text=async name=>(await read(name))?.toString('utf8');
   const baselineText=await text('study-guides/catalogue-baseline.json'),baseline=baselineText&&JSON.parse(baselineText);
   for(const [id,{after}] of subjects)if(baseline?.subjects[id]){
@@ -224,15 +224,18 @@ export async function updateGuides({read,list,item,cause=`catalog item ${item} w
     if(changed)changes.set(file,jsonText(original,{...data,subjects:next}));
   }
   const contextText=await text('study-guides/sentence-context.json');
+  const deletedSources=new Set(removedSources);
   if(contextText){
     const context=JSON.parse(contextText);
-    const entries=context.entries.filter(x=>x.source!==item&&!removedGuides.has(x.slug)&&!removedReadings.some(r=>r.slug===x.slug&&r.key===x.key));
+    const entries=context.entries.filter(x=>!deletedSources.has(x.source)&&!removedGuides.has(x.slug)&&!removedReadings.some(r=>r.slug===x.slug&&r.key===x.key));
     if(entries.length!==context.entries.length)changes.set('study-guides/sentence-context.json',jsonText(contextText,{...context,entries}));
   }
   const paragraphsText=await text('study-guides/sentence-paragraphs.json');
   if(paragraphsText){
     const paragraphs=JSON.parse(paragraphsText);
-    if(paragraphs.sources&&Object.hasOwn(paragraphs.sources,item)){delete paragraphs.sources[item];changes.set('study-guides/sentence-paragraphs.json',formatSentenceParagraphs(paragraphs).replaceAll('\n',paragraphsText.includes('\r\n')?'\r\n':'\n'));}
+    let changed=false;
+    for(const source of deletedSources)if(paragraphs.sources&&Object.hasOwn(paragraphs.sources,source)){delete paragraphs.sources[source];changed=true;}
+    if(changed)changes.set('study-guides/sentence-paragraphs.json',formatSentenceParagraphs(paragraphs).replaceAll('\n',paragraphsText.includes('\r\n')?'\r\n':'\n'));
   }
   return {changes,guides};
 }

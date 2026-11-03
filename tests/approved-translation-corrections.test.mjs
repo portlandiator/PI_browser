@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {approvedTranslation,correctDecisionFile,planTranslationCorrection} from '../scripts/approved-translation-corrections.mjs';
 import {validateConfirmedMatch} from '../scripts/subject-core.mjs';
-import {reconcileGuide} from '../scripts/catalog-deletion.mjs';
+import {reconcileGuide,updateGuides} from '../scripts/catalog-deletion.mjs';
 import {textSha} from '../scripts/sentence-paragraphs.mjs';
 
 function fixture(before,after,ranges){
@@ -69,6 +69,16 @@ test('a removed quotation is retired, while unrelated decisions remain unchanged
   const other={status:'rejected'};
   const result=correctDecisionFile({matches:{q:{status:'confirmed',candidate},other}},correction);
   assert.deepEqual([...result.removed],['q']);assert.deepEqual(result.data.matches.other,other);
+});
+test('reconciling a single correction preserves its renewed sentence reviews; deletion removes them',async()=>{
+  const files={
+    'study-guides/sentence-context.json':{entries:[{slug:'test',key:'source:BH00001',source:'BH00001',sourceVersion:'new'}]},
+    'study-guides/sentence-paragraphs.json':{format:2,reasons:['Reviewed'],sources:{BH00001:{version:'new',paragraphs:[[1,textSha('Corrected.'),0]]}}},
+  };
+  const options={item:'BH00001',read:async name=>files[name]?Buffer.from(JSON.stringify(files[name])):null,list:async()=>[],subjects:new Map(),evidenceGone:()=>false};
+  assert.equal((await updateGuides({...options,removedSources:[]})).changes.size,0);
+  const deleted=await updateGuides(options);
+  assert.equal(deleted.changes.size,2);
 });
 test('automatic matches and sentence context travel with a correction; rejected decisions stay rejected',async()=>{
   const before='We seek peace today.',after='We seek lasting peace today.';
