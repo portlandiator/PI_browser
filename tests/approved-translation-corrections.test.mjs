@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {approvedTranslation,correctDecisionFile,planTranslationCorrection} from '../scripts/approved-translation-corrections.mjs';
 import {validateConfirmedMatch} from '../scripts/subject-core.mjs';
 import {reconcileGuide} from '../scripts/catalog-deletion.mjs';
+import {textSha} from '../scripts/sentence-paragraphs.mjs';
 
 function fixture(before,after,ranges){
   const correction=approvedTranslation('BH00001',Buffer.from(before),Buffer.from(after));
@@ -74,4 +75,9 @@ test('automatic matches and sentence context travel with a correction; rejected 
   assert.equal(edits.matches.q.candidate.version,correction.next.version);assert.equal(edits.matches.rejected.status,'rejected');
   assert.equal(JSON.parse(result.changes.get('study-guides/sentence-paragraphs.json')).sources.BH00001.version,correction.next.version);
   assert.equal(result.changes.has('study-guides/editorial.json'),false);
+  const compact={format:2,reasons:['An unrelated review','Reviewed context'],sources:{OTHER:{version:'v1',paragraphs:[[1,'0'.repeat(16),0]]},BH00001:{version:correction.old.version,paragraphs:[[1,textSha(before),1]]}}};
+  values.set('study-guides/sentence-paragraphs.json',compact);
+  const again=await planTranslationCorrection({id:'BH00001',before:Buffer.from(before),after:Buffer.from(after),read:async name=>values.has(name)?Buffer.from(JSON.stringify(values.get(name))):null,list:async()=>[],site:async()=>null});
+  const renewed=JSON.parse(again.changes.get('study-guides/sentence-paragraphs.json'));
+  assert.deepEqual(renewed.reasons,compact.reasons);assert.deepEqual(renewed.sources.OTHER,compact.sources.OTHER);
 });
