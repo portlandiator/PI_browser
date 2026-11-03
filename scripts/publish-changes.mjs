@@ -110,6 +110,9 @@ export async function proposalCommit(root,files,message,account,blobs=new Map())
   return {sha,proposed:await changedFiles(root,'HEAD',sha)};
 }
 
+// The GitHub account that signs the proposal commit.
+export async function githubAccount(root,gh){return JSON.parse(await run(gh,['api','user','--jq','{login,id}'],root,true));}
+
 // Pull requests the maintenance tools opened that are still open on GitHub.
 // Two of them could change the same files, so a tool waits for the earlier one
 // to be merged or closed.
@@ -122,15 +125,16 @@ export async function requireNoOpenProposals(root,target){
   if(open.length)throw Error(`A pull request from the maintenance tools is still open: #${open[0].number} “${open[0].title}”\n  ${open[0].url}\nMerge or close it on GitHub first, so that two pull requests cannot change the same files.`);
 }
 
-export async function publishChanges(root,files,message,{kind='change',body='',toolName,blobs=new Map()}={}){
+// `target` and `account` may be passed when the caller already asked GitHub.
+export async function publishChanges(root,files,message,{kind='change',body='',toolName,blobs=new Map(),target=null,account=null}={}){
   const gh=await tool('gh',root);
-  const target=await githubTarget(root,{gh,git:gitPath});
+  target||=await githubTarget(root,{gh,git:gitPath});
   if(target.renamedFrom)console.log(`Note: GitHub now calls this repository ${target.repository}. Update this folder with:\n  git remote set-url origin ${target.remote}`);
   if(!blobs.size){
     const changed=files.length?(await git(['status','--porcelain','--',...files],root)).trim():'';
     if(!changed){console.log('Nothing to propose: these files already match GitHub.');return null;}
   }
-  const account=JSON.parse(await run(gh,['api','user','--jq','{login,id}'],root,true));
+  account||=await githubAccount(root,gh);
   const {sha,proposed}=await proposalCommit(root,files,message,account,blobs);
   if(!proposed.length){console.log('Nothing to propose: these files already match GitHub.');return null;}
   console.log('Uploading to a new branch and opening a pull request…');
