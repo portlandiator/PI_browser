@@ -9,8 +9,8 @@ import {gunzipSync} from 'node:zlib';
 import {recordFilename} from '../src/record-file.mjs';
 import {textSha,formatSentenceParagraphs,compactSentenceParagraphs} from './sentence-paragraphs.mjs';
 
-// Ordered common word runs describe a textual edit, not a new semantic match.
-// Frequent words are excluded as anchors for long texts (as in SequenceMatcher),
+// Ordered unchanged paragraphs anchor the textual edit.
+// Frequent paragraphs are excluded as anchors for long texts (as in SequenceMatcher),
 // but included when extending a run. Memory is bounded by the token arrays.
 function matchingBlocks(a,b){
   const positions=new Map();
@@ -38,7 +38,7 @@ function matchingBlocks(a,b){
   return blocks.sort((x,y)=>x[0]-y[0]);
 }
 
-// Align edited paragraph blocks before mapping character offsets. Unchanged
+// Align edited paragraph blocks before choosing corrected context. Unchanged
 // paragraphs are hard anchors; ordered word overlap resolves intervening edits
 // and paragraph splits/joins. This prevents repeated words in a later paragraph
 // from pulling a quotation out of its original context.
@@ -47,6 +47,7 @@ function paragraphEdits(old,next){
   const words=text=>text.toLowerCase().match(/[\p{L}\p{M}\p{N}]+/gu)||[];
   const gap=(a0,a1,b0,b1)=>{
     const n=a1-a0,m=b1-b0;if(!n||!m)return;
+    if(n===1||m===1){groups.push([a0,a1,b0,b1]);return;}
     const aa=a.slice(a0,a1).map(words),bb=b.slice(b0,b1).map(words);
     const counts=items=>{const map=new Map();for(const word of items)map.set(word,(map.get(word)||0)+1);return map;};
     const width=m+1,score=new Float64Array((n+1)*width).fill(-Infinity),steps=new Uint8Array(score.length);score[0]=0;
