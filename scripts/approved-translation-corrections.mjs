@@ -7,6 +7,7 @@ import {digest,prepareSource,locateRanges,validateConfirmedMatch,Matcher} from '
 import {revalidateItemQuotes} from './revalidate-item-quotes.mjs';
 import {gunzipSync} from 'node:zlib';
 import {recordFilename} from '../src/record-file.mjs';
+import {siteFiles} from './catalog-deletion.mjs';
 import {textSha,formatSentenceParagraphs,compactSentenceParagraphs} from './sentence-paragraphs.mjs';
 
 // Ordered unchanged paragraphs anchor the textual edit.
@@ -156,8 +157,9 @@ export async function planTranslationCorrection({id,before,after,read,list,site}
   // decisions too, so a rebuild cannot drop a quotation just because it changed.
   const passages=await site('subjects/passages/'+recordFilename(id)),subjects=new Set();
   for(const p of Object.values(passages?.passages||{}))for(const subject of p.subjects)subjects.add(subject);
-  for(const subject of subjects){
-    const data=await site('subjects/'+subject+'.json.gz');
+  const compilations=await siteFiles(site,[...subjects].map(subject=>'subjects/'+subject+'.json.gz'));
+  for(const [index,subject] of [...subjects].entries()){
+    const data=compilations[index];
     if(!data)throw Error(`Missing published subject ${subject} while propagating ${id}.`);
     for(const s of data.selections){
       if(!['exact','normalized','confirmed'].includes(s.status)||s.candidates?.[0]?.source!==id)continue;

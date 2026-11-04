@@ -3,8 +3,9 @@
 Reads the shards present in --archive (a part of the archive is enough, as long
 as metadata.tar and every shard an item's texts belong to are there), applies
 the items in --batch and rewrites only the shards whose bytes change, printing
-them as JSON. With --inspect FILE it instead writes the published state of the
-batch's items to FILE and changes nothing.
+them as JSON; with --report FILE it also writes the batch items' state after
+the change (as --inspect describes it) to FILE. With --inspect FILE it instead
+writes the published state of the batch's items to FILE and changes nothing.
 
 Batch file: {"items": {ID: {"action": "edit", "metadata": {column: value},
 "original": base64 or null, "english": base64 or null} | {"action": "delete"}}}
@@ -82,6 +83,7 @@ def main():
     parser.add_argument('--archive', type=Path, required=True, help='Directory holding the published shards to change')
     parser.add_argument('--batch', type=Path, required=True, help='JSON file of edits and deletions')
     parser.add_argument('--inspect', type=Path, help='Write the published state of the batch items here and change nothing')
+    parser.add_argument('--report', type=Path, help='After applying the batch, write the new state of its items here')
     options=parser.parse_args()
     spec=importlib.util.spec_from_file_location('archive_sources', Path(__file__).with_name('archive-sources.py'))
     policy=importlib.util.module_from_spec(spec); spec.loader.exec_module(policy)
@@ -95,6 +97,9 @@ def main():
     present={p.name for p in options.archive.iterdir()}
     missing=sorted({policy.shard_name(n) for n in result}-present)
     if missing: raise SystemExit('Archive shards missing for this change: '+', '.join(missing))
-    print(json.dumps({'changed': policy.write_shards(options.archive, result, only=present)}))
+    changed=policy.write_shards(options.archive, result, only=present)
+    if options.report:
+        options.report.write_text(json.dumps(published_state(result, list(batch['items']), policy), ensure_ascii=False), encoding='utf-8')
+    print(json.dumps({'changed': changed}))
 
 if __name__=='__main__': main()

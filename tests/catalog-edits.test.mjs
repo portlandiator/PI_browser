@@ -67,16 +67,23 @@ test('the pending section is written atomically and retained empty without delet
 test('a previous pull request is settled before publishing again',async t=>{
   const stage=await fs.mkdtemp(path.join(os.tmpdir(),'pi-settle-'));t.after(()=>fs.rm(stage,{recursive:true,force:true}));
   const pending=new PendingCatalogEdits(stage,{file:path.join(stage,'Downloads/subject-edits.json')}),pr={number:5,url:'https://github.com/o/r/pull/5',branch:'maintenance/catalog-edits-1',openedAt:'t',ids:['AB1','AB2']};
-  const start=async()=>pending.write({format:1,items:{AB1:entry('edit',{publishedIn:{number:5}}),AB2:entry('delete',{publishedIn:{number:5}}),AB3:entry('edit')},pullRequest:pr});
+  const applied={at:'t',backup:'b.zip',failed:false};
+  const start=async()=>pending.write({format:1,items:{AB1:entry('edit',{publishedIn:{number:5},applied}),AB2:entry('delete',{publishedIn:{number:5},applied}),AB3:entry('edit'),
+    AB4:entry('edit',{publishedIn:{number:5},applied:{...applied,failed:true}}),AB5:entry('edit',{publishedIn:{number:5}})},pullRequest:{...pr,decisions:['d2']},publishedDecisions:['d1']});
   const gh=state=>async(command,args)=>{assert.deepEqual(args.slice(0,3),['pr','view','5']);return JSON.stringify({state});};
   await start();
   await assert.rejects(settlePullRequest(pending,{gh:'gh',repository:'o/r',root:stage,execute:gh('OPEN')}),/still open/);
   assert.equal(await settlePullRequest(pending,{gh:'gh',repository:'o/r',root:stage,execute:gh('MERGED')}),'MERGED');
-  assert.deepEqual(Object.keys((await pending.read()).items),['AB3']);assert.equal((await pending.read()).pullRequest,undefined);
+  // Edits this computer's source folders did not take (or never reached) stay pending, so the next run writes them there.
+  const merged=await pending.read();
+  assert.deepEqual(Object.keys(merged.items),['AB3','AB4','AB5']);assert.equal(merged.pullRequest,undefined);
+  assert.equal(merged.items.AB4.publishedIn,undefined);assert.equal(merged.items.AB4.applied,undefined);
+  assert.deepEqual(merged.publishedDecisions,['d1','d2']);
   await start();
   assert.equal(await settlePullRequest(pending,{gh:'gh',repository:'o/r',root:stage,execute:gh('CLOSED')}),'CLOSED');
   const data=await pending.read();
-  assert.deepEqual(Object.keys(data.items),['AB1','AB2','AB3']);assert.equal(data.items.AB1.publishedIn,undefined);
+  assert.deepEqual(Object.keys(data.items),['AB1','AB2','AB3','AB4','AB5']);assert.equal(data.items.AB1.publishedIn,undefined);
+  assert.deepEqual(data.publishedDecisions,['d1']);
   assert.equal(await settlePullRequest(pending,{gh:'gh',repository:'o/r',root:stage,execute:async()=>{throw Error('no');}}),null);
 });
 

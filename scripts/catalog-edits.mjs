@@ -10,17 +10,19 @@
 //   {format: 1,
 //    items: {ID: {action: 'edit', savedAt, state, fields, metadata, original, english, changed, unchanged}
 //                | {action: 'delete', savedAt, state}},
-//    pullRequest: {number, url, branch, openedAt, ids}}      (after publishing)
+//    pullRequest: {number, url, branch, openedAt, ids, decisions},   (after publishing)
+//    publishedDecisions: [digest]}   (exported decisions already published)
 // `state` is the content of the source files the entry was based on, and
 // `unchanged` names the texts left as those files have them. After
 // publishing, an entry carries `publishedIn` and `applied`, and stays until the
 // pull request is merged (it is proposed again if the pull request is closed).
 import fs from 'node:fs/promises';
+import os from 'node:os';
 import path from 'node:path';
 import {createHash,randomUUID} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {ItemStore,itemState,checkItemInput,validId,decode} from './item-store.mjs';
-import {tool,run,capture,jobFolder} from './publish-tools.mjs';
+import {tool,run,capture,jobFolder,withLock,retryBusy} from './publish-tools.mjs';
 import {githubTarget} from './github-target.mjs';
 import {planDeletion,liveSite} from './catalog-deletion.mjs';
 import {editorialFile,readEditorialExport} from './editorial-exports.mjs';
@@ -53,15 +55,15 @@ export class PendingCatalogEdits{
     const temporary=this.file+'.'+randomUUID().slice(0,8)+'.tmp';
     await fs.writeFile(temporary,JSON.stringify(value,null,2)+'\n');
     // A sync client may hold a freshly written file for a moment.
-    for(let attempt=0;;attempt++){
-      try{await fs.rename(temporary,this.file);return;}
-      catch(error){
-        if(attempt>=5||!['EPERM','EBUSY','EACCES'].includes(error.code)){await fs.rm(temporary,{force:true});throw error;}
-        await new Promise(resolve=>setTimeout(resolve,300*(attempt+1)));
-      }
-    }
+    try{await retryBusy(()=>fs.rename(temporary,this.file));}
+    catch(error){await fs.rm(temporary,{force:true});throw error;}
   }
-  async update(change){const data=await this.read();const result=await change(data);await this.write(data);return result;}
+  // Read, change and write the file as one step. The editor and this tool are
+  // separate processes, so a lock keeps one from overwriting the other's change.
+  async update(change){
+    return withLock(this.lockFile,async()=>{const data=await this.read();const result=await change(data);await this.write(data);return result;},{wait:15000,busy:`Another tool is still writing ${this.file}. Try again in a moment.`});
+  }
+  get lockFile(){return path.join(os.tmpdir(),'pi-browser-locks',sha(Buffer.from(this.file.toLowerCase(),'utf8')).slice(0,16)+'.lock');}
   async get(id){return (await this.read()).items[id]||null;}
   async set(id,entry){await this.update(data=>{data.items[id]=entry;});}
   async remove(id){return this.update(data=>{const had=Boolean(data.items[id]);delete data.items[id];return had;});}
@@ -137,13 +139,23 @@ export class CatalogEdits{
 // Repository files as published on GitHub, read from the fetched branch in
 // Git's object store: no checkout. `overlay` holds files changed earlier in the
 // same plan (null for a removed file).
+// Each file is read from Git once (`ref` names one fixed commit).
 export function publishedFiles(root,git,ref,overlay=new Map()){
-  const read=async name=>{
-    if(overlay.has(name)){const value=overlay.get(name);return value===null?null:Buffer.isBuffer(value)?value:Buffer.from(value,'utf8');}
+  const blobs=new Map(),listings=new Map();
+  const load=async name=>{
     try{return await capture(git,['-C',root,'cat-file','blob',`${ref}:${name}`],root);}
     catch(error){if(/does not exist in|Not a valid object name|not in the tree/i.test(error.message))return null;throw error;}
   };
-  const list=async directory=>(await run(git,['-C',root,'-c','core.quotePath=false','ls-tree','--name-only',ref,directory.replace(/\/?$/,'/')],root,true)).split('\n').filter(Boolean).map(name=>path.posix.basename(name));
+  const read=async name=>{
+    if(overlay.has(name)){const value=overlay.get(name);return value===null?null:Buffer.isBuffer(value)?value:Buffer.from(value,'utf8');}
+    if(!blobs.has(name))blobs.set(name,load(name).catch(error=>{blobs.delete(name);throw error;}));
+    return blobs.get(name);
+  };
+  const list=directory=>{
+    directory=directory.replace(/\/?$/,'/');
+    if(!listings.has(directory))listings.set(directory,run(git,['-C',root,'-c','core.quotePath=false','ls-tree','--name-only',ref,directory],root,true).then(out=>out.split('\n').filter(Boolean).map(name=>path.posix.basename(name))).catch(error=>{listings.delete(directory);throw error;}));
+    return listings.get(directory).then(names=>[...names]);
+  };
   return {read,list,overlay};
 }
 export async function fetchMain(root,git){await run(git,['-C',root,'fetch','--quiet','--no-tags','origin','main'],root,true);return 'origin/main';}
@@ -220,11 +232,12 @@ export async function prepareCatalogProposal({root,git,python,entries,files,site
   }
   if(Object.keys(batch.items).length){
     await fs.writeFile(batchFile,JSON.stringify(batch));
-    const report=JSON.parse(await run(python,[patcher,'--archive',collection,'--batch',batchFile],stage,true));
+    // The patched shards, and what each item holds afterwards (after the
+    // publication policy), in one run.
+    const afterFile=path.join(stage,'after.json');
+    const report=JSON.parse(await run(python,[patcher,'--archive',collection,'--batch',batchFile,'--report',afterFile],stage,true));
     for(const name of report.changed)blobs.set('data/collection/'+name,path.join(collection,name));
-    // What each correction changes in the archive, after the publication policy.
-    await run(python,[patcher,'--archive',collection,'--batch',batchFile,'--inspect',publishedFile],stage,true);
-    const after=JSON.parse(await fs.readFile(publishedFile,'utf8'));
+    const after=JSON.parse(await fs.readFile(afterFile,'utf8'));
     for(const [id,item] of Object.entries(batch.items)){
       if(item.action!=='edit')continue;
       const changed=describeChanges(view(id,published.items[id]),view(id,after.items[id]));
@@ -260,35 +273,39 @@ export async function conflictingEntries(root,entries){
   for(const [id,entry] of Object.entries(entries)){
     if(entry.action!=='edit')continue;
     let current;
-    try{current=await store.load(id);}catch(error){conflicts.push({id,reason:error.message});continue;}
-    if(current.state!==entry.state&&itemState(current)!==itemState(entry))conflicts.push({id,reason:'its source files changed on this computer since the edit was saved. Open it in Edit-Catalog-Item.cmd, check it and save again; this edit stays pending.'});
+    try{current=await store.snapshot(id);}catch(error){conflicts.push({id,reason:error.message});continue;}
+    if(current.state!==entry.state&&current.trimmedState!==entry.state&&itemState(current)!==itemState(entry))conflicts.push({id,reason:'its source files changed on this computer since the edit was saved. Open it in Edit-Catalog-Item.cmd, check it and save again; this edit stays pending.'});
   }
   return conflicts;
 }
 
-// Write the published edits to this computer’s source folders (with backups),
-// so that a later full collection update cannot undo them, and remove deleted
-// items. Returns one line per item.
+// Write the published edits to this computer’s source folders, so that a
+// later full collection update cannot undo them, and remove deleted items. All
+// items go in one write: the metadata CSV is rewritten and backed up once, and
+// if any file cannot be replaced, none is. An edit is written only over the
+// source files it was saved from (or is already there). Returns one note per
+// item; `failed` marks an item that was not written.
 export async function applyLocally(root,entries){
-  const store=new ItemStore(root),notes=[];
-  for(const [id,entry] of Object.entries(entries)){
-    try{
-      if(entry.action==='delete'){
-        const backup=await store.remove(id);
-        notes.push({id,backup,text:backup?`Removed ${id} from the source folders. Backup: ${backup}`:`${id} was not in the source folders.`});
-        continue;
-      }
-      const current=await store.load(id);
-      if(itemState(current)===itemState(entry)){notes.push({id,backup:null,text:`${id} already holds this edit in the source folders.`});continue;}
-      const saved=await store.save({...entry,id,state:current.state});
-      notes.push({id,backup:saved.backup,text:`Wrote ${id} to the source folders. Backup: ${saved.backup}`});
-    }catch(error){notes.push({id,backup:null,failed:true,text:`${id} was not written to the source folders: ${error.message}`});}
-  }
-  return notes;
+  const ids=Object.keys(entries);
+  if(!ids.length)return [];
+  const changes=ids.map(id=>{const e=entries[id];return e.action==='delete'?{id,action:'delete'}:{id,action:'edit',state:e.state,input:{metadata:e.metadata,original:e.original,english:e.english}};});
+  let outcome;
+  try{outcome=await new ItemStore(root).applyBatch(changes);}
+  catch(error){return ids.map(id=>({id,backup:null,failed:true,text:`${id} was not written to the source folders: ${error.message}`}));}
+  const {backup,results}=outcome;
+  return results.map(({id,status,reason})=>{
+    if(status==='written')return {id,backup,text:`Wrote ${id} to the source folders. Backup: ${backup}`};
+    if(status==='removed')return {id,backup,text:`Removed ${id} from the source folders. Backup: ${backup}`};
+    if(status==='unchanged')return {id,backup:null,text:`${id} already holds this edit in the source folders.`};
+    if(status==='absent')return {id,backup:null,text:`${id} was not in the source folders.`};
+    return {id,backup:null,failed:true,text:`${id} was not written to the source folders: ${reason}`};
+  });
 }
 
-// The pull request of the previous publication: merged, its entries are done;
-// closed without merging, they are proposed again; still open, wait for it.
+// The pull request of the previous publication: merged, its entries are done
+// (except an edit this computer's source folders could not take, which stays
+// pending so the next run writes it there) and its exported decisions count as
+// published; closed without merging, they are proposed again; still open, wait.
 export async function settlePullRequest(pending,{gh,repository,root,execute=run}){
   const pr=(await pending.read()).pullRequest;
   if(!pr)return null;
@@ -296,14 +313,23 @@ export async function settlePullRequest(pending,{gh,repository,root,execute=run}
   try{state=JSON.parse(await execute(gh,['pr','view',String(pr.number),'--repo',repository,'--json','state'],root,true)).state;}
   catch(error){throw Error(`Could not check pull request #${pr.number} (${pr.url}): ${error.message}`);}
   if(state==='OPEN')throw Error(`Pull request #${pr.number} with the previous catalog edits is still open:\n  ${pr.url}\nMerge or close it on GitHub first.`);
-  await pending.update(data=>{
+  const kept=await pending.update(data=>{
+    // Settled once, by whichever run gets here first.
+    if(data.pullRequest?.number!==pr.number)return [];
+    const kept=[];
     for(const [id,entry] of Object.entries(data.items)){
       if(entry.publishedIn?.number!==pr.number)continue;
-      if(state==='MERGED')delete data.items[id];else delete entry.publishedIn;
+      // Merged and written here: done. Not (yet) written here: stays pending.
+      if(state==='MERGED'&&entry.applied&&!entry.applied.failed){delete data.items[id];continue;}
+      delete entry.publishedIn;
+      if(state==='MERGED'){delete entry.applied;kept.push(id);}
     }
+    if(state==='MERGED'&&data.pullRequest.decisions)data.publishedDecisions=[...new Set([...(data.publishedDecisions||[]),...data.pullRequest.decisions])];
     delete data.pullRequest;
+    return kept;
   });
-  console.log(state==='MERGED'?`Pull request #${pr.number} was merged; its catalog edits are published.`:`Pull request #${pr.number} was closed without merging; its catalog edits are proposed again.`);
+  console.log(state==='MERGED'?`Pull request #${pr.number} was merged; its changes are published.`:`Pull request #${pr.number} was closed without merging; its changes are proposed again.`);
+  if(kept.length)console.log('Still to be written to this computer’s source folders: '+kept.join(', '));
   return state;
 }
 
@@ -311,7 +337,7 @@ export async function settlePullRequest(pending,{gh,repository,root,execute=run}
 export async function withStage(work){
   const stage=path.join(await jobFolder(),'catalog-edits-'+randomUUID());
   await fs.mkdir(stage,{recursive:true});
-  const result=await work(stage);
-  await fs.rm(stage,{recursive:true,force:true,maxRetries:5,retryDelay:500}).catch(()=>console.log('Temporary files are still in '+stage+' because another program has them open.'));
-  return result;
+  // Removed also when the work fails: the stage holds copies of archive shards.
+  try{return await work(stage);}
+  finally{await fs.rm(stage,{recursive:true,force:true,maxRetries:5,retryDelay:500}).catch(()=>console.log('Temporary files are still in '+stage+' because another program has them open.'));}
 }

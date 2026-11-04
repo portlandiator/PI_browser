@@ -69,8 +69,10 @@ Publish-Editorial-Decisions.cmd
   guides itself and adds the result to the pull request. Merge it on GitHub
   to publish.
   Once the pull request is open, the edits are written to the source folders
-  here (backups under .qa\item-backups, one .zip per change) so that
-  Update-Collection.cmd cannot undo them, and deleted items are removed. The edits stay listed in the
+  here in one step (one backup .zip under .qa\item-backups; only the changed
+  rows of the metadata CSV are rewritten; if any file cannot be replaced,
+  none is) so that Update-Collection.cmd cannot undo them, and deleted items
+  are removed. Only one copy of this tool runs at a time. The edits stay listed in the
   editor until the pull request is merged; if it is closed without merging,
   the next publication proposes them again (restore the backups to undo them
   here instead). Translation corrections are approved for propagation to the

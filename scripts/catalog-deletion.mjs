@@ -25,22 +25,37 @@ const keyOf=g=>g.source?'source:'+g.source:'selection:'+g.id;
 const jsonText=(original,data)=>(JSON.stringify(data,null,2)+'\n').replaceAll('\n',original.includes('\r\n')?'\r\n':'\n');
 
 // The published site, or a local build, read as JSON. Absent files are null.
+// Each file is downloaded once per publication (several items can share
+// subjects) and parsed afresh for every caller, so no caller sees another's
+// changes.
 export function liveSite(base,fetcher=fetch){
-  let dataset;
+  const downloads=new Map();
   const get=async name=>{
     const url=new URL(name,base),response=await fetcher(url,{cache:'no-store'});
     if(response.status===404)return null;
     if(!response.ok)throw Error(`${url} answered ${response.status}.`);
     return Buffer.from(await response.arrayBuffer());
   };
+  const once=(name,load)=>{
+    if(!downloads.has(name))downloads.set(name,load().catch(error=>{downloads.delete(name);throw error;}));
+    return downloads.get(name);
+  };
+  const dataset=()=>once('stats.json',async()=>{
+    const value=JSON.parse((await get('stats.json'))?.toString('utf8')||'{}').dataset;
+    if(!/^collections\/[\w-]+\/$/.test(value||''))throw Error('The website did not report its current dataset.');
+    return value;
+  });
   return async name=>{
-    if(!dataset){
-      dataset=JSON.parse((await get('stats.json'))?.toString('utf8')||'{}').dataset;
-      if(!/^collections\/[\w-]+\/$/.test(dataset||''))throw Error('The website did not report its current dataset.');
-    }
-    const bytes=await get(dataset+name);
+    const folder=await dataset(),bytes=await once(folder+name,()=>get(folder+name));
     return bytes&&JSON.parse(gunzipSync(bytes).toString('utf8'));
   };
+}
+
+// Read several site files at once (a few downloads in parallel), in order.
+export async function siteFiles(site,names,parallel=6){
+  const results=new Array(names.length);let next=0;
+  await Promise.all(Array.from({length:Math.min(parallel,names.length)},async()=>{while(next<names.length){const i=next++;results[i]=await site(names[i]);}}));
+  return results;
 }
 
 // A quotation belongs to the item when the subject shows it from the item's
@@ -256,8 +271,9 @@ export async function planDeletion({id,read,list,site}){
   for(const p of Object.values(passages?.passages||{}))for(const subject of p.subjects)candidates.add(subject);
   const baseline=JSON.parse((await read('study-guides/catalogue-baseline.json'))?.toString('utf8')||'null');
   const subjects=new Map(),removed=new Set(),summary=[];
-  for(const subjectId of [...candidates].sort()){
-    const before=await site(`subjects/${subjectId}.json.gz`);
+  const subjectIds=[...candidates].sort(),compilations=await siteFiles(site,subjectIds.map(subjectId=>`subjects/${subjectId}.json.gz`));
+  for(const [index,subjectId] of subjectIds.entries()){
+    const before=compilations[index];
     if(!before)throw Error(`The website has no compilation for subject ${subjectId}.`);
     const expected=baseline?.subjects[subjectId]?.fingerprint;
     if(expected&&catalogueFingerprint(before.selections)!==expected)throw Error(`The published quotations for “${before.subject.name}” differ from the reviewed study-guide baseline. Publish or resolve that change before deleting an item. Nothing was changed.`);

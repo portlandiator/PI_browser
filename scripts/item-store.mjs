@@ -1,9 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createHash,randomUUID} from 'node:crypto';
-import {parseCsv} from '../src/text.mjs';
 import {decodeSource} from './source-encoding.mjs';
 import {writeZip} from './zip-archive.mjs';
+import {retryBusy} from './publish-tools.mjs';
 
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 export const sourceFolders=['metadata - copy','original_texts - copy','translated_texts - copy'];
@@ -15,6 +15,47 @@ export function csvText(rows,fields){
   return [fields.map(cell).join(','),...rows.map(row=>fields.map(field=>cell(row[field])).join(','))].join('\n')+'\n';
 }
 export function decode(bytes){return decodeSource(bytes).text;}
+// The CSV's records with their exact positions, so that a changed row can be
+// replaced while every other byte of the file stays as it was. Quoting follows
+// parseCsv (src/text.mjs), but values keep their surrounding spaces, as the
+// published archive (Python's csv module) has them.
+export function csvRecords(text){
+  const records=[];let i=text.startsWith('\uFEFF')?1:0;
+  while(i<text.length){
+    const start=i,values=[];let cell='',quoted=false;
+    for(;i<text.length;i++){
+      const c=text[i];
+      if(c==='"'){if(quoted&&text[i+1]==='"'){cell+='"';i++;}else if(quoted||cell==='')quoted=!quoted;else cell+=c;}
+      else if(c===','&&!quoted){values.push(cell);cell='';}
+      else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&text[i+1]==='\n')i++;i++;break;}
+      else cell+=c;
+    }
+    if(quoted)throw Error('Unclosed CSV quotation in the metadata CSV.');
+    values.push(cell);
+    if(values.some(Boolean))records.push({values,start,end:i});
+  }
+  return records;
+}
+// Quoted only when needed, as the published archive writes its CSV.
+const csvCell=value=>{value=String(value??'');return /[",\r\n]/.test(value)?'"'+value.replaceAll('"','""')+'"':value;};
+// The CSV text with some rows replaced (id → row) or removed (id → null) and
+// others appended; untouched rows, blank lines and line endings are unchanged.
+function spliceCsv(meta,changes,appended){
+  const {text,records,fields}=meta,ending=/\r?\n$/.exec(text.slice(records[0].start,records[0].end))?.[0]||'\n';
+  const line=row=>fields.map(field=>csvCell(row[field])).join(',');
+  const pin=fields.indexOf('PIN');
+  let out='',from=0;
+  for(const record of records.slice(1)){
+    const id=record.values[pin];
+    if(!changes.has(id))continue;
+    const row=changes.get(id);
+    out+=text.slice(from,record.start)+(row===null?'':line(row)+(/\r?\n$/.exec(text.slice(record.start,record.end))?.[0]||''));
+    from=record.end;
+  }
+  out+=text.slice(from);
+  if(appended.length){if(out&&!/[\r\n]$/.test(out))out+=ending;for(const row of appended)out+=line(row)+ending;}
+  return out;
+}
 // One item's content: its metadata row and both texts (decoded). Two items
 // with the same content have the same state, whatever the file encodings.
 export const itemContent=item=>({metadata:item.metadata,original:item.original??null,english:item.english??null});
@@ -34,28 +75,48 @@ export async function requireSourceFolders(root){
 }
 export class ItemStore{
   constructor(root){this.root=path.resolve(root);}
-  async snapshot(id){
-    if(!validId(id))throw Error('Enter an exact catalog ID, without a file extension.');
+  // The metadata CSV, read and checked once (it holds every item's row).
+  async readMetadata(){
     const directory=path.join(this.root,'metadata - copy');
     const csvs=(await fs.readdir(directory)).filter(name=>name.endsWith('.csv'));
     if(csvs.length!==1)throw Error('Keep exactly one CSV in metadata - copy.');
-    const names=[path.join('metadata - copy',csvs[0]),...folders.map(folder=>path.join(folder,id+'.txt'))];
-    const bytes=[];
-    for(const name of names){
-      const file=path.join(this.root,name),entries=await fs.readdir(path.dirname(file));
-      if(!entries.includes(path.basename(file))){bytes.push(null);continue;}
+    const name=path.join('metadata - copy',csvs[0]),file=path.join(this.root,name);
+    if((await fs.lstat(file)).isSymbolicLink())throw Error('Source files must not be symbolic links.');
+    const bytes=await fs.readFile(file);
+    const text=new TextDecoder('utf-8',{fatal:true,ignoreBOM:true}).decode(bytes),records=csvRecords(text);
+    const fields=records[0]?.values||[];
+    const rows=records.slice(1).map((record,i)=>{
+      if(record.values.length!==fields.length)throw Error(`Metadata CSV row ${i+2}: expected ${fields.length} columns, found ${record.values.length}.`);
+      return Object.fromEntries(fields.map((field,j)=>[field,record.values[j]]));
+    });
+    if(!rows.length||!fields.includes('PIN')||new Set(rows.map(row=>row.PIN)).size!==rows.length)throw Error('The metadata CSV has missing or duplicate IDs.');
+    return {name,bytes,text,records,rows,fields};
+  }
+  // `metadata` and `listings` (folder name → file names) may be shared by
+  // several snapshots taken together.
+  async snapshot(id,{metadata=null,listings=new Map()}={}){
+    if(!validId(id))throw Error('Enter an exact catalog ID, without a file extension.');
+    const meta=metadata||await this.readMetadata();
+    const names=[meta.name,...folders.map(folder=>path.join(folder,id+'.txt'))],bytes=[meta.bytes];
+    for(const name of names.slice(1)){
+      // Exact, case-sensitive file names, also on Windows.
+      const folder=path.dirname(name);
+      if(!listings.has(folder))listings.set(folder,new Set(await fs.readdir(path.join(this.root,folder))));
+      if(!listings.get(folder).has(path.basename(name))){bytes.push(null);continue;}
+      const file=path.join(this.root,name);
       if((await fs.lstat(file)).isSymbolicLink())throw Error('Source files must not be symbolic links.');
       bytes.push(await fs.readFile(file));
     }
-    const rows=parseCsv(new TextDecoder('utf-8',{fatal:true}).decode(bytes[0]));
-    if(!rows.length||!Object.hasOwn(rows[0],'PIN')||new Set(rows.map(row=>row.PIN)).size!==rows.length)throw Error('The metadata CSV has missing or duplicate IDs.');
-    const row=rows.find(row=>row.PIN===id);
+    const row=meta.rows.find(row=>row.PIN===id);
     if(!row&&!bytes[1]&&!bytes[2])throw Error('No source item has that exact ID. IDs are case-sensitive.');
-    const fields=Object.keys(rows[0]);
+    const fields=meta.fields;
     // The files as a whole, to notice a concurrent write while saving.
     const revision=sha(JSON.stringify(bytes.map(value=>value===null?null:sha(value))));
     const item={id,fields,metadata:row||Object.fromEntries(fields.map(field=>[field,field==='PIN'?id:''])),original:bytes[1]===null?null:decode(bytes[1]),english:bytes[2]===null?null:decode(bytes[2])};
-    return {...item,state:itemState(item),revision,names,bytes,rows,listed:Boolean(row)};
+    // Earlier versions read metadata with surrounding spaces trimmed, so a
+    // pending edit saved then names this content as its base.
+    const trimmed=itemState({...item,metadata:Object.fromEntries(Object.entries(item.metadata).map(([field,value])=>[field,value.trim()]))});
+    return {...item,state:itemState(item),trimmedState:trimmed,revision,names,bytes,rows:meta.rows,listed:Boolean(row)};
   }
   async load(id){
     const {id:itemId,state,fields,metadata,original,english}=await this.snapshot(id);
@@ -64,42 +125,98 @@ export class ItemStore{
   // Write the item as given. `input.state` is the content it was based on: the
   // save stops when the source files hold something else now.
   async save(input){
-    const s=await this.snapshot(input.id);
-    if(s.state!==input.state)throw Error('The source files changed since this item was opened. Reload before saving; your edits have not been written.');
-    checkItemInput(input,s.fields,s.id);
-    const rows=s.rows.map(row=>row.PIN===s.id?input.metadata:row);
-    if(!s.listed)rows.push(input.metadata);
-    const metadataChanged=JSON.stringify(input.metadata)!==JSON.stringify(s.metadata)||!s.listed;
-    const next=[metadataChanged?Buffer.from(csvText(rows,s.fields)):s.bytes[0],...['original','english'].map((language,i)=>input[language]===null?null:s.bytes[i+1]!==null&&input[language]===s[language]?s.bytes[i+1]:Buffer.from(input[language],'utf8'))];
-    const backup=await this.replace(s,next);
-    return {...await this.load(s.id),backup};
+    const {backup}=await this.applyBatch([{id:input.id,action:'edit',state:input.state,input}],{strict:true});
+    return {...await this.load(input.id),backup};
   }
   // Remove the item from the local source folders once its deletion has been
   // proposed, so a later full collection update cannot restore it.
   async remove(id){
-    let s;
-    try{s=await this.snapshot(id);}catch(error){if(/^No source item/.test(error.message))return null;throw error;}
-    const rows=s.rows.filter(row=>row.PIN!==s.id);
-    return this.replace(s,[rows.length===s.rows.length?s.bytes[0]:Buffer.from(csvText(rows,s.fields)),null,null],{deleted:true});
+    return (await this.applyBatch([{id,action:'delete'}],{strict:true})).backup;
   }
-  async replace(s,next,note={}){
-    const changed=next.map((value,i)=>value===null?s.bytes[i]!==null:s.bytes[i]===null||!value.equals(s.bytes[i]));
-    if(!changed.some(Boolean))return null;
-    // One ZIP per backup (Dropbox syncs the project folder): manifest.json and
-    // the previous bytes of each changed file under its source path.
+  // Apply edits and deletions of several items as one change: the metadata
+  // CSV (which holds every row) is read, rewritten and backed up once, and
+  // either every file is replaced or none is.
+  //   changes: [{id, action:'edit', state, input:{metadata, original, english}} | {id, action:'delete'}]
+  // `state` is the item content the edit was based on. Returns the backup and
+  // one result per item: status written, removed, unchanged (already holds the
+  // edit), absent (nothing to delete) or failed (with the reason; with
+  // `strict` the first failure throws instead and nothing is written).
+  async applyBatch(changes,{strict=false}={}){
+    const metadata=await this.readMetadata(),listings=new Map(),results=[],files=new Map();
+    const rowChanges=new Map(),appended=[];
+    const fail=(id,error)=>{if(strict)throw error;results.push({id,status:'failed',reason:error.message});};
+    const seen=new Set();
+    for(const change of changes){
+      const id=change.id;
+      if(seen.has(id)){fail(id,Error(`${id} is listed twice.`));continue;}
+      seen.add(id);
+      let s;
+      try{s=await this.snapshot(id,{metadata,listings});}
+      catch(error){if(change.action==='delete'&&/^No source item/.test(error.message)){results.push({id,status:'absent'});continue;}fail(id,error);continue;}
+      const replaceText=(i,next)=>{const name=s.names[i],before=s.bytes[i];if(next===null?before!==null:before===null||!next.equals(before))files.set(name,{before,after:next});};
+      if(change.action==='delete'){
+        if(s.listed)rowChanges.set(id,null);
+        replaceText(1,null);replaceText(2,null);
+        results.push({id,status:'removed'});
+        continue;
+      }
+      if(change.action!=='edit'){fail(id,Error(`Unknown action for ${id}.`));continue;}
+      const input=change.input;
+      if(itemState(input)===s.state){results.push({id,status:'unchanged'});continue;}
+      if(change.state!==s.state&&change.state!==s.trimmedState){fail(id,Error('The source files changed since this item was opened. Reload before saving; your edits have not been written.'));continue;}
+      try{checkItemInput(input,s.fields,s.id);}catch(error){fail(id,error);continue;}
+      if(JSON.stringify(input.metadata)!==JSON.stringify(s.metadata)||!s.listed){
+        if(s.listed)rowChanges.set(id,input.metadata);else appended.push(input.metadata);
+      }
+      ['original','english'].forEach((language,i)=>replaceText(i+1,input[language]===null?null:s.bytes[i+1]!==null&&input[language]===s[language]?s.bytes[i+1]:Buffer.from(input[language],'utf8')));
+      results.push({id,status:'written'});
+    }
+    if(rowChanges.size||appended.length){
+      const next=Buffer.from(spliceCsv(metadata,rowChanges,appended),'utf8');
+      if(!next.equals(metadata.bytes))files.set(metadata.name,{before:metadata.bytes,after:next});
+    }
+    if(!files.size)return {backup:null,results};
+    const changed=results.filter(r=>r.status==='written'||r.status==='removed');
+    const backup=await this.replaceFiles(files,{
+      ...changed.length===1&&{id:changed[0].id,...changed[0].status==='removed'&&{deleted:true}},
+      items:changed.map(r=>({id:r.id,...r.status==='removed'&&{deleted:true}})),
+    });
+    return {backup,results};
+  }
+  // Replace source files (name → {before, after}; after null removes the file).
+  // One ZIP backup first (Dropbox syncs the project folder): manifest.json and
+  // the previous bytes of each file under its source path. Every new file is
+  // written beside its target before any target is replaced; the targets must
+  // still hold the bytes read, and a failure part-way puts back those already
+  // replaced.
+  async replaceFiles(files,note={}){
     const backup=await writeZip(path.join(this.root,'.qa','item-backups',new Date().toISOString().replaceAll(':','-')+'-'+randomUUID().slice(0,8)+'.zip'),[
-      {name:'manifest.json',bytes:JSON.stringify({id:s.id,...note,files:s.names.map((name,i)=>({name:archiveName(name),existed:s.bytes[i]!==null,changed:changed[i]}))},null,2)},
-      ...s.bytes.flatMap((bytes,i)=>bytes!==null&&changed[i]?[{name:archiveName(s.names[i]),bytes}]:[])]);
-    // Stage every changed file before replacing any source. Preserve byte-exact backups.
-    const staged=[];
+      {name:'manifest.json',bytes:JSON.stringify({...note,files:[...files].map(([name,f])=>({name:archiveName(name),existed:f.before!==null,changed:true}))},null,2)},
+      ...[...files].flatMap(([name,f])=>f.before!==null?[{name:archiveName(name),bytes:f.before}]:[])]);
+    const staged=new Map();
     try{
-      for(let i=0;i<next.length;i++)if(changed[i]&&next[i]!==null){const file=path.join(this.root,s.names[i]+'.item-'+randomUUID()+'.tmp');await fs.writeFile(file,next[i],{flag:'wx'});staged[i]=file;}
-      if((await this.snapshot(s.id)).revision!==s.revision)throw Error('Sources changed during save. Reload and try again.');
+      for(const [name,f] of files)if(f.after!==null){const file=path.join(this.root,name+'.item-'+randomUUID()+'.tmp');await fs.writeFile(file,f.after,{flag:'wx'});staged.set(name,file);}
+      for(const [name,f] of files){
+        let now=null;try{now=await fs.readFile(path.join(this.root,name));}catch(error){if(error.code!=='ENOENT')throw error;}
+        if(now===null?f.before!==null:f.before===null||!now.equals(f.before))throw Error('Sources changed during save. Reload and try again.');
+      }
       const committed=[];
       try{
-        for(let i=0;i<next.length;i++)if(changed[i]){if(next[i]===null)await fs.unlink(path.join(this.root,s.names[i]));else await fs.rename(staged[i],path.join(this.root,s.names[i]));committed.push(i);}
-      }catch(error){for(const i of committed){if(s.bytes[i]===null)await fs.rm(path.join(this.root,s.names[i]),{force:true});else await fs.writeFile(path.join(this.root,s.names[i]),s.bytes[i]);}throw error;}
-    }finally{for(const file of staged)if(file)await fs.rm(file,{force:true});}
+        for(const [name,f] of files){
+          const file=path.join(this.root,name);
+          await retryBusy(()=>f.after===null?fs.unlink(file):fs.rename(staged.get(name),file));
+          committed.push(name);
+        }
+      }catch(error){
+        const lost=[];
+        for(const name of committed.reverse()){
+          const file=path.join(this.root,name),before=files.get(name).before;
+          try{await retryBusy(()=>before===null?fs.rm(file,{force:true}):fs.writeFile(file,before));}catch{lost.push(name);}
+        }
+        if(lost.length)error.message+=` Could not put back ${lost.join(', ')}; restore them from ${backup}.`;
+        throw error;
+      }
+    }finally{for(const file of staged.values())await fs.rm(file,{force:true}).catch(()=>{});}
     return backup;
   }
 }

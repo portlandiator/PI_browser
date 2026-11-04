@@ -13,14 +13,15 @@
 // An explicitly supplied export wins subject-decision conflicts. Legacy catalog
 // edits are still readable until they are saved into the Downloads file.
 import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 import path from 'node:path';
 import readline from 'node:readline/promises';
 import {fileURLToPath} from 'node:url';
 import {parseCsv} from '../src/text.mjs';
 import {validateDraft,mergeDrafts} from '../src/relationship-review-core.mjs';
 import {relationKey} from '../src/subject-relations.mjs';
-import {prepareRepository,publishChanges,requireNoOpenProposals} from './publish-changes.mjs';
-import {tool} from './publish-tools.mjs';
+import {prepareRepository,publishChanges,requireNoOpenProposals,githubAccount} from './publish-changes.mjs';
+import {tool,withLock,jobFolder} from './publish-tools.mjs';
 import {githubTarget} from './github-target.mjs';
 import {liveSite} from './catalog-deletion.mjs';
 import {PendingCatalogEdits,publishedFiles,prepareCatalogProposal,catalogBody,conflictingEntries,applyLocally,settlePullRequest,withStage} from './catalog-edits.mjs';
@@ -80,93 +81,178 @@ export function publicationTitle({corrections=0,deletions=0,decisions=0}){
   return {title:'Publish '+parts.join(', '),kind:corrections||deletions?'catalog-edits':'editorial-decisions'};
 }
 
-export function mergeExportedDecisions(published,exports,ids){
+// Every decision in an export, by key, with a digest of the key and value.
+// Browser exports keep every decision ever made, so a decision that has been
+// published once (its digest is in `publishedDecisions`) is not proposed
+// again: otherwise an old export would undo what was published after it, such
+// as quotation ranges renewed by an approved translation correction.
+const digest=(key,value)=>createHash('sha256').update(key+'\n'+JSON.stringify(value)).digest('hex').slice(0,20);
+export function decisionDigests(value){
+  return [
+    ...Object.entries(value.matches||{}).map(([id,match])=>digest('match:'+id,match)),
+    ...(value.relationships||[]).map(edge=>digest('connection:'+relationKey(edge),edge)),
+    ...Object.entries(value.reviewedSubjects||{}).map(([id,reviewed])=>digest('reviewed:'+id,reviewed)),
+  ];
+}
+export function withoutPublished(value,published=[]){
+  const done=new Set(published);
+  if(!done.size)return value;
+  return {...value,
+    matches:Object.fromEntries(Object.entries(value.matches||{}).filter(([id,match])=>!done.has(digest('match:'+id,match)))),
+    relationships:(value.relationships||[]).filter(edge=>!done.has(digest('connection:'+relationKey(edge),edge))),
+    ...value.reviewedSubjects&&{reviewedSubjects:Object.fromEntries(Object.entries(value.reviewedSubjects).filter(([id,reviewed])=>!done.has(digest('reviewed:'+id,reviewed))))},
+  };
+}
+// Digests of export decisions that the published file already holds as they are.
+export function alreadyPublished(published,exports){
+  const current=new Set(decisionDigests(published));
+  return [...new Set(exports.flatMap(entry=>decisionDigests(entry.value)).filter(d=>current.has(d)))];
+}
+
+// How many export decisions are left out as published although the published
+// file now holds something else for them.
+export function supersededDecisions(published,exports,done){
+  const current=new Set(decisionDigests(published)),left=new Set(done);
+  return new Set(exports.flatMap(entry=>decisionDigests(entry.value)).filter(d=>left.has(d)&&!current.has(d))).size;
+}
+
+export function mergeExportedDecisions(published,exports,ids,done=[]){
   let merged=published;
-  for(const exported of exports)merged=mergeDecisions(merged,exported.value,ids).merged;
+  for(const exported of exports)merged=mergeDecisions(merged,withoutPublished(exported.value,done),ids).merged;
   return mergeDecisions(published,merged,ids);
 }
 
-if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
-  const args=process.argv.slice(2),yes=args.includes('--yes'),dry=args.includes('--dry-run');
-  try{
-    const pending=new PendingCatalogEdits(projectRoot);
-    const exports=await editorialExports({file:args.find(arg=>!arg.startsWith('--')),pendingPath:pending.file});
-    console.log(exports.length?'Decisions files: '+exports.map(entry=>entry.file).join(', '):'No exported subject-edits.json in Downloads; publishing the pending catalog edits only.');
-    await prepareRepository(projectRoot,[target]);
-    const git=await tool('git',projectRoot),gh=await tool('gh',projectRoot),python=await tool('python',projectRoot);
-    const repository=await githubTarget(projectRoot,{gh,git});
-    await settlePullRequest(pending,{gh,repository:repository.repository,root:projectRoot});
-    const waiting=(await pending.read()).items;
-    const ids=Object.keys(waiting);
-    console.log(ids.length?`Pending catalog edits (${pending.file}): ${ids.length}`:'No catalog edits are pending.');
-    if(!exports.length&&!ids.length)throw Error('Nothing to publish: no catalog edits are pending (save them with Edit-Catalog-Item.cmd) and no exported subject-edits.json was found in Downloads (use "Export decisions" on a review page, or drag the file onto this tool).');
-    await requireNoOpenProposals(projectRoot,{gh,repository:repository.repository});
-    await withStage(async stage=>{
-      const conflicts=await conflictingEntries(projectRoot,waiting);
-      const entries=Object.fromEntries(Object.entries(waiting).filter(([id])=>!conflicts.some(c=>c.id===id)));
-      const files=publishedFiles(projectRoot,git,'HEAD');
-      // Merge exports first. Catalog corrections then renew these decisions;
-      // an older browser export must not put obsolete ranges back afterwards.
-      let decisions=null;
-      if(exports.length){
-        const publishedText=await files.read(target);
-        if(!publishedText)throw Error('The published repository has no '+target+'.');
-        const {merged,summary}=mergeExportedDecisions(JSON.parse(String(publishedText)),exports,await subjectIds(projectRoot,files.read));
-        if(summary.total){files.overlay.set(target,JSON.stringify(merged,null,2)+'\n');decisions=summary;}
-        console.log(`\nChanges compared with the published decisions:
+const describe=(catalog)=>{
+  console.log('\nCatalog edits compared with the published catalog:');
+  for(const e of catalog.edits)console.log(`  ${e.id}: ${e.changed.join('; ')}`);
+  for(const d of catalog.deletions)console.log(d.archived?`  ${d.id}: deleted (${plural(d.quotations,'quotation')} from ${plural(d.subjects.length,'subject')}; ${plural(d.guides.length,'study guide')} changed)`:`  ${d.id}: not in the published catalog; removed from the source folders only`);
+  for(const s of catalog.skipped)console.log(`  ${s.id}: ${s.applyOnly?'already matches the published catalog; written to the source folders only':'not included: '+s.reason}`);
+};
+
+// Write entries to the source folders, then settle them in the pending file:
+// those only applied locally are done; those in the pull request record where
+// they were written. An entry saved again meanwhile is left alone.
+async function applyAndRecord(pending,entries,{included=[],pr=null}={}){
+  const current=(await pending.read()).items;
+  const ids=Object.keys(entries).filter(id=>current[id]?.savedAt===entries[id].savedAt);
+  for(const id of Object.keys(entries))if(!ids.includes(id))console.log(`  ${id}: saved again in Edit-Catalog-Item while publishing; not written to the source folders.`);
+  const notes=await applyLocally(projectRoot,Object.fromEntries(ids.map(id=>[id,entries[id]])));
+  const backups=[...new Set(notes.map(n=>n.backup).filter(Boolean))];
+  for(const note of notes)console.log('  '+(note.backup?note.text.replace(/ Backup: .*$/,''):note.text));
+  if(backups.length)console.log('  Backup of the previous source files: '+backups.join(', '));
+  const at=new Date().toISOString();
+  await pending.update(data=>{
+    for(const note of notes){
+      const entry=data.items[note.id];if(!entry||entry.savedAt!==entries[note.id].savedAt)continue;
+      if(!included.includes(note.id)){if(!note.failed)delete data.items[note.id];continue;}
+      if(entry.publishedIn?.number===pr?.number)entry.applied={at,backup:note.backup||null,failed:note.failed||false};
+    }
+  });
+  return notes;
+}
+
+async function main(args){
+  const yes=args.includes('--yes'),dry=args.includes('--dry-run');
+  const pending=new PendingCatalogEdits(projectRoot);
+  const exports=await editorialExports({file:args.find(arg=>!arg.startsWith('--')),pendingPath:pending.file});
+  console.log(exports.length?'Decisions files: '+exports.map(entry=>entry.file).join(', '):'No exported subject-edits.json in Downloads; publishing the pending catalog edits only.');
+  const [git,gh,python]=await Promise.all(['git','gh','python'].map(name=>tool(name,projectRoot)));
+  // Ask GitHub everything at once, while this folder is brought up to date.
+  let repository,account;
+  const checks=await Promise.allSettled([
+    prepareRepository(projectRoot,[target]),
+    (async()=>{
+      repository=await githubTarget(projectRoot,{gh,git});
+      const github={gh,repository:repository.repository};
+      const results=await Promise.allSettled([githubAccount(projectRoot,gh),settlePullRequest(pending,{...github,root:projectRoot}),requireNoOpenProposals(projectRoot,github)]);
+      const failed=results.find(r=>r.status==='rejected');if(failed)throw failed.reason;
+      account=results[0].value;
+    })(),
+  ]);
+  const failed=checks.find(r=>r.status==='rejected');if(failed)throw failed.reason;
+  const waiting=(await pending.read()).items;
+  const ids=Object.keys(waiting);
+  console.log(ids.length?`Pending catalog edits (${pending.file}): ${ids.length}`:'No catalog edits are pending.');
+  if(!exports.length&&!ids.length)throw Error('Nothing to publish: no catalog edits are pending (save them with Edit-Catalog-Item.cmd) and no exported subject-edits.json was found in Downloads (use "Export decisions" on a review page, or drag the file onto this tool).');
+  return withStage(async stage=>{
+    const conflicts=await conflictingEntries(projectRoot,waiting);
+    const entries=Object.fromEntries(Object.entries(waiting).filter(([id])=>!conflicts.some(c=>c.id===id)));
+    const files=publishedFiles(projectRoot,git,'HEAD');
+    // Merge exports first. Catalog corrections then renew these decisions;
+    // an older browser export must not put obsolete ranges back afterwards.
+    let decisions=null,exported=[];
+    if(exports.length){
+      const publishedText=await files.read(target);
+      if(!publishedText)throw Error('The published repository has no '+target+'.');
+      const published=JSON.parse(String(publishedText));
+      let done=(await pending.read()).publishedDecisions||[];
+      const known=alreadyPublished(published,exports).filter(d=>!done.includes(d));
+      if(known.length&&!dry){await pending.update(data=>{data.publishedDecisions=[...new Set([...(data.publishedDecisions||[]),...known])];});}
+      done=[...done,...known];
+      const {merged,summary}=mergeExportedDecisions(published,exports,await subjectIds(projectRoot,files.read),done);
+      const superseded=supersededDecisions(published,exports,done);
+      if(superseded)console.log(`\n${plural(superseded,'exported decision')} published earlier and changed on GitHub since (for example by a translation correction) ${superseded===1?'was':'were'} not proposed again. To change one, decide it again on the review page and export.`);
+      if(summary.total){files.overlay.set(target,JSON.stringify(merged,null,2)+'\n');decisions=summary;exported=[...new Set(exports.flatMap(entry=>decisionDigests(withoutPublished(entry.value,done))))];}
+      console.log(`\nChanges compared with the published decisions:
   passage decisions: ${summary.newPassages} new, ${summary.changedPassages} changed
   subject connections: ${summary.newConnections} new, ${summary.changedConnections} changed
   subjects marked reviewed/unreviewed: ${summary.reviewProgress}`);
+    }
+    if(Object.keys(entries).length)console.log('Reading the published source archive…');
+    const catalog=Object.keys(entries).length?await prepareCatalogProposal({root:projectRoot,git,python,entries,files,site:liveSite(repository.site),stage}):{edits:[],deletions:[],skipped:[],blobs:new Map(),overlay:files.overlay};
+    if(decisions&&!catalog.blobs.has(target)){const file=path.join(stage,'subject-edits.json');await fs.writeFile(file,await files.read(target));catalog.blobs.set(target,file);}
+    catalog.skipped.push(...conflicts);
+    // Items with nothing to publish still go to the source folders (an edit
+    // matching the published catalog, a deletion of an unpublished item).
+    const localOnly=[...catalog.skipped.filter(s=>s.applyOnly).map(s=>s.id),...catalog.deletions.filter(d=>!d.archived).map(d=>d.id)];
+    const included=[...catalog.edits.map(e=>e.id),...catalog.deletions.filter(d=>d.archived).map(d=>d.id)];
+    if(ids.length)describe(catalog);
+    if(!catalog.blobs.size){
+      console.log('\nNothing new to publish.');
+      if(localOnly.length&&!dry){
+        console.log('\nWriting to this computer’s source folders…');
+        await applyAndRecord(pending,Object.fromEntries(localOnly.map(id=>[id,entries[id]])));
       }
-      if(Object.keys(entries).length)console.log('Reading the published source archive…');
-      const catalog=Object.keys(entries).length?await prepareCatalogProposal({root:projectRoot,git,python,entries,files,site:liveSite(repository.site),stage}):{edits:[],deletions:[],skipped:[],blobs:new Map(),overlay:files.overlay};
-      if(decisions&&!catalog.blobs.has(target)){const file=path.join(stage,'subject-edits.json');await fs.writeFile(file,await files.read(target));catalog.blobs.set(target,file);}
-      catalog.skipped.push(...conflicts);
-      // Items with nothing to publish still go to the source folders (an edit
-      // matching the published catalog, a deletion of an unpublished item).
-      const localOnly=[...catalog.skipped.filter(s=>s.applyOnly).map(s=>s.id),...catalog.deletions.filter(d=>!d.archived).map(d=>d.id)];
-      const included=[...catalog.edits.map(e=>e.id),...catalog.deletions.filter(d=>d.archived).map(d=>d.id)];
-      if(ids.length){
-        console.log('\nCatalog edits compared with the published catalog:');
-        for(const e of catalog.edits)console.log(`  ${e.id}: ${e.changed.join('; ')}`);
-        for(const d of catalog.deletions)console.log(d.archived?`  ${d.id}: deleted (${plural(d.quotations,'quotation')} from ${plural(d.subjects.length,'subject')}; ${plural(d.guides.length,'study guide')} changed)`:`  ${d.id}: not in the published catalog; removed from the source folders only`);
-        for(const s of catalog.skipped)console.log(`  ${s.id}: ${s.applyOnly?'already matches the published catalog; written to the source folders only':'not included: '+s.reason}`);
-      }
-      if(!catalog.blobs.size){
-        console.log('\nNothing new to publish.');
-        if(localOnly.length&&!dry){
-          for(const note of await applyLocally(projectRoot,Object.fromEntries(localOnly.map(id=>[id,entries[id]]))))console.log(note.text);
-          await pending.update(data=>{for(const id of localOnly)if(data.items[id]?.savedAt===entries[id].savedAt)delete data.items[id];});
-        }
-        return;
-      }
-      if(dry){console.log('\nDry run: nothing was changed.');return;}
-      if(!yes){
-        const prompt=readline.createInterface({input:process.stdin,output:process.stdout});
-        const answer=await prompt.question('\nOpen a pull request with these changes? Type Y and press Enter: ');prompt.close();
-        if(!/^y(es)?$/i.test(answer.trim())){console.log('Cancelled. Nothing was changed.');return;}
-      }
-      const {title,kind}=publicationTitle({corrections:catalog.edits.length,deletions:catalog.deletions.filter(d=>d.archived).length,decisions:decisions?.total||0});
-      const body=[included.length||catalog.skipped.length?catalogBody(catalog):'',decisions?decisionsBody(decisions,exports.map(entry=>path.basename(entry.file)).join(', ')):''].filter(Boolean).join('\n\n');
-      const result=await publishChanges(projectRoot,[],title,{kind,toolName:'Publish-Editorial-Decisions.cmd',body,blobs:catalog.blobs});
-      if(!result)return;
+      return;
+    }
+    if(dry){console.log('\nDry run: nothing was changed.');return;}
+    if(!yes){
+      const prompt=readline.createInterface({input:process.stdin,output:process.stdout});
+      const answer=await prompt.question('\nOpen a pull request with these changes? Type Y and press Enter: ');prompt.close();
+      if(!/^y(es)?$/i.test(answer.trim())){console.log('Cancelled. Nothing was changed.');return;}
+    }
+    const {title,kind}=publicationTitle({corrections:catalog.edits.length,deletions:catalog.deletions.filter(d=>d.archived).length,decisions:decisions?.total||0});
+    const body=[included.length||catalog.skipped.length?catalogBody(catalog):'',decisions?decisionsBody(decisions,exports.map(entry=>path.basename(entry.file)).join(', ')):''].filter(Boolean).join('\n\n');
+    const result=await publishChanges(projectRoot,[],title,{kind,toolName:'Publish-Editorial-Decisions.cmd',body,blobs:catalog.blobs,target:repository,account});
+    if(!result)return;
+    // From here on the pull request exists: record it first, so that the next
+    // run knows about it whatever happens while writing the source folders.
+    try{
+      const openedAt=new Date().toISOString(),pr={number:result.number,url:result.url,branch:result.branch,openedAt};
+      await pending.update(data=>{
+        for(const id of included){const entry=data.items[id];if(entry&&entry.savedAt===entries[id].savedAt)entry.publishedIn=pr;}
+        data.pullRequest={...pr,ids:included,...exported.length&&{decisions:exported}};
+      });
       const applied=[...included,...localOnly];
       if(applied.length){
         console.log('\nWriting the published edits to this computer’s source folders…');
-        const notes=await applyLocally(projectRoot,Object.fromEntries(applied.map(id=>[id,entries[id]])));
-        for(const note of notes)console.log('  '+note.text);
-        const openedAt=new Date().toISOString();
-        await pending.update(data=>{
-          for(const id of applied){
-            const entry=data.items[id];if(!entry||entry.savedAt!==entries[id].savedAt)continue;
-            if(!included.includes(id)){delete data.items[id];continue;}
-            entry.publishedIn={number:result.number,url:result.url,branch:result.branch,openedAt};
-            entry.applied={at:openedAt,backup:notes.find(n=>n.id===id)?.backup||null,failed:notes.find(n=>n.id===id)?.failed||false};
-          }
-          if(included.length)data.pullRequest={number:result.number,url:result.url,branch:result.branch,openedAt,ids:included};
-        });
-        if(included.length)console.log('These edits stay listed in Edit-Catalog-Item until the pull request is merged. If it is closed without merging, the next publication proposes them again (restore the backups above to undo them here).');
+        await applyAndRecord(pending,Object.fromEntries(applied.map(id=>[id,entries[id]])),{included,pr});
+        if(included.length)console.log('These edits stay listed in Edit-Catalog-Item until the pull request is merged. If it is closed without merging, the next publication proposes them again (restore the backup above to undo them here).');
       }
-    });
-  }catch(error){console.error('\nNO PULL REQUEST OPENED: '+error.message);process.exitCode=1;}
+    }catch(error){
+      error.opened=result;throw error;
+    }
+  });
+}
+
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
+  try{
+    // One publication at a time on this computer: two runs could otherwise
+    // both open a pull request, or write the source folders together.
+    await withLock(path.join(await jobFolder(),'publish-editorial-decisions.lock'),()=>main(process.argv.slice(2)),{busy:'Publish-Editorial-Decisions is already running in another window. Let it finish first.'});
+  }catch(error){
+    if(error.opened)console.error(`\nThe pull request was opened (${error.opened.url}), but finishing on this computer failed: ${error.message}\nRun this tool again after fixing the problem; it will not open a second pull request while this one is open.`);
+    else console.error('\nNO PULL REQUEST OPENED: '+error.message);
+    process.exitCode=1;
+  }
 }
