@@ -24,8 +24,7 @@ final class ReaderUITests: XCTestCase {
         }
         let search = app.webViews.textFields.matching(NSPredicate(format: "placeholderValue CONTAINS 'Search words'")).firstMatch
         search.tap(); search.typeText("BH00001\n")
-        let result = app.webViews.links.matching(NSPredicate(format: "label CONTAINS %@", "BH00001")).firstMatch
-        if result.waitForExistence(timeout: 15) { result.tap() }
+        openResult("BH00001", in: app)
         XCTAssertTrue(app.webViews.buttons["← Back to collection"].waitForExistence(timeout: 30))
     }
 
@@ -38,8 +37,7 @@ final class ReaderUITests: XCTestCase {
         let search = app.webViews.textFields.matching(NSPredicate(format:"placeholderValue CONTAINS 'Search words'")).firstMatch
         XCTAssertTrue(search.waitForExistence(timeout:30))
         search.tap(); search.typeText("BH00001\n")
-        let result = app.webViews.links.matching(NSPredicate(format:"label CONTAINS %@", "BH00001")).firstMatch
-        if result.waitForExistence(timeout:15) { result.tap() }
+        openResult("BH00001", in: app)
         // Exact-ID lookup must open an actual source, not only display the query text.
         let back = app.webViews.buttons["← Back to collection"]
         XCTAssertTrue(back.waitForExistence(timeout:30))
@@ -52,5 +50,15 @@ final class ReaderUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Available offline"].waitForExistence(timeout:5))
         XCTAssertTrue(app.staticTexts["Volume PDFs"].exists)
         let screenshot = XCTAttachment(screenshot:app.screenshot()); screenshot.lifetime = .keepAlways; add(screenshot)
+    }
+
+    /// A result row shows its ID beside a link named by the source's title, so
+    /// find the row by its ID and open the title link that sits with it.
+    private func openResult(_ id: String, in app: XCUIApplication) {
+        let code = app.webViews.staticTexts[id].firstMatch
+        guard code.waitForExistence(timeout: 15) else { return }
+        let row = code.frame
+        let link = app.webViews.links.allElementsBoundByIndex.first { $0.frame.minY >= row.minY - 10 && $0.frame.minY <= row.maxY + 120 }
+        link?.tap()
     }
 }
