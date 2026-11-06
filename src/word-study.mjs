@@ -110,32 +110,46 @@ export function placement(rect,viewport,measure,widen,margin=8){
 }
 
 // Hover, tap and keyboard access to the tooltip within `container`.
-export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>''}={}){
+// `concordance` ({lookup(word),sectionHtml(result,{word})}) adds what the
+// authorized translations show for an original word below its entries;
+// its Show passages button (or P on a focused word column) calls
+// onOpenConcordance(word,result,{returnFocus}).
+export const passagesKey=event=>(event.key==='p'||event.key==='P')&&!event.shiftKey&&!event.ctrlKey&&!event.altKey&&!event.metaKey&&!event.isComposing;
+export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',concordance=null,onOpenConcordance=null}={}){
   let tooltip=document.getElementById('word-tooltip');
   if(!tooltip){tooltip=document.createElement('div');tooltip.id='word-tooltip';tooltip.className='word-tooltip';tooltip.setAttribute('role','tooltip');tooltip.hidden=true;document.body.append(tooltip);}
   const highlights=typeof CSS!=='undefined'&&CSS.highlights&&typeof Highlight==='function';
-  let current=null,timer=0,request=0,lastPointer='mouse',described=null,anchorRect=null;
+  let current=null,timer=0,request=0,lastPointer='mouse',described=null,anchorRect=null,shown=null;
   // Only the word or note the tooltip currently describes is marked.
   const describe=anchor=>{if(described&&described!==anchor)described.removeAttribute('aria-describedby');described=anchor||null;if(anchor)anchor.setAttribute('aria-describedby','word-tooltip');};
   const info=id=>store.info(id);
 
-  function hide(){clearTimeout(timer);request++;current=null;anchorRect=null;tooltip.hidden=true;describe(null);if(highlights)CSS.highlights.delete('word-hover');}
+  function hide(){clearTimeout(timer);request++;current=null;shown=null;anchorRect=null;tooltip.hidden=true;describe(null);if(highlights)CSS.highlights.delete('word-hover');}
   function place(rect){
     tooltip.style.left='0px';tooltip.style.top='0px';tooltip.style.maxHeight='';tooltip.classList.remove('word-tooltip-wide');tooltip.hidden=false;
     const box=placement(rect,{width:document.documentElement.clientWidth,height:innerHeight},()=>({width:tooltip.offsetWidth,height:tooltip.offsetHeight}),()=>tooltip.classList.add('word-tooltip-wide'));
     if(box.maxHeight)tooltip.style.maxHeight=`${box.maxHeight}px`;
     tooltip.style.left=`${box.left+scrollX}px`;tooltip.style.top=`${box.top+scrollY}px`;
   }
-  async function show(word,rect,anchor,range){
-    const token=++request;
+  // The concordance section comes after the entries, if the tooltip still shows this word.
+  async function addConcordance(token,word,rect,anchor,keyboard){
+    if(!concordance||!isOriginalScript(word))return;
+    let result=null;try{result=await concordance.lookup(word);}catch{}
+    if(token!==request||!result)return;
+    const html=concordance.sectionHtml(result,{word,shortcut:keyboard});if(!html)return;
+    shown={word,result,anchor,keyboard};tooltip.insertAdjacentHTML('beforeend',html);place(anchorRect?anchorRect():rect);
+  }
+  async function show(word,rect,anchor,range,keyboard=false){
+    const token=++request;shown=null;
     describe(anchor);anchorRect=()=>(anchor||range)?.getBoundingClientRect()||rect;
     if(highlights){if(range)CSS.highlights.set('word-hover',new Highlight(range));else CSS.highlights.delete('word-hover');}
     // Wait for the dictionary list on the first lookup of a visit.
     await store.ready();if(token!==request)return;
-    if(!store.hasActive()){tooltip.innerHTML=`<div class="word-tooltip-word" dir="auto">${esc(word)}</div><p class="word-tooltip-empty">No dictionaries are turned on. Choose Dictionaries to add or turn one on.</p>`;place(rect);return;}
+    if(!store.hasActive()){tooltip.innerHTML=`<div class="word-tooltip-word" dir="auto">${esc(word)}</div><p class="word-tooltip-empty">No dictionaries are turned on. Choose Dictionaries to add or turn one on.</p>`;place(rect);addConcordance(token,word,rect,anchor,keyboard);return;}
     const result=await store.lookup(word,{target:target(),prefer:prefer()});
     if(token!==request)return;
     tooltip.innerHTML=tooltipHtml(result,info);place(rect);
+    addConcordance(token,word,rect,anchor,keyboard);
   }
   // The word under a point in published paragraph text, as a DOM range.
   function wordRangeAt(x,y){
@@ -184,7 +198,12 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>''}=
   container.addEventListener('focusin',event=>{const link=noteLink(event.target);if(link)showNote(link);});
   container.addEventListener('focusout',event=>{const link=noteLink(event.target);if(link&&!tooltip.contains(event.relatedTarget))hide();});
   container.addEventListener('click',event=>{const link=noteLink(event.target);if(link&&lastPointer!=='mouse'&&current!==link&&showNote(link))event.preventDefault();},true);
-  tooltip.addEventListener('click',event=>{if(event.target.closest('.word-tooltip-note-link'))hide();});
+  tooltip.addEventListener('click',event=>{
+    if(event.target.closest('.word-tooltip-note-link'))hide();
+    if(event.target.closest('.concordance-open')&&shown&&container.isConnected)openPassages();
+  });
+  // Focus returns to the word column after the dialog when the keyboard opened it.
+  function openPassages(){const {word,result,anchor,keyboard}=shown;hide();onOpenConcordance?.(word,result,{returnFocus:keyboard&&anchor?.matches?.('.ilw')?anchor:null});}
   // Touch and pen: a tap opens the entry; tapping elsewhere closes it.
   container.addEventListener('click',event=>{
     if(lastPointer==='mouse'||event.target.closest('a,button'))return;
@@ -193,16 +212,18 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>''}=
   });
   document.addEventListener('pointerdown',event=>{if(!tooltip.hidden&&!tooltip.contains(event.target)&&!container.contains(event.target))hide();});
   // Keyboard: one tab stop per interlinear paragraph; arrows move by word.
-  container.addEventListener('focusin',event=>{const column=event.target.closest?.('.ilw');if(column){current=column;show(column.dataset.word,column.getBoundingClientRect(),column);}});
+  const focusVisible=element=>{try{return element.matches(':focus-visible');}catch{return lastPointer!=='mouse';}};
+  container.addEventListener('focusin',event=>{const column=event.target.closest?.('.ilw');if(column){current=column;show(column.dataset.word,column.getBoundingClientRect(),column,null,focusVisible(column));}});
   container.addEventListener('focusout',event=>{if(event.target.closest?.('.ilw')&&!event.relatedTarget?.closest?.('.ilw'))hide();});
   container.addEventListener('keydown',event=>{
     if(event.key==='Escape'&&!tooltip.hidden){hide();return;}
-    const column=event.target.closest?.('.ilw');if(!column)return;
+    const column=event.target.closest?.('.ilw');if(!column||!container.contains(column))return;
+    if(passagesKey(event)){if(shown?.anchor===column&&!tooltip.hidden&&container.isConnected){event.preventDefault();openPassages();}return;}
     const line=column.parentElement,columns=[...line.children],i=columns.indexOf(column),rtl=line.dir==='rtl';
     const step={ArrowRight:rtl?-1:1,ArrowLeft:rtl?1:-1}[event.key];
     let next=null;
     if(step)next=columns[i+step];else if(event.key==='Home')next=columns[0];else if(event.key==='End')next=columns.at(-1);
-    else if(event.key==='Enter'||event.key===' '){event.preventDefault();if(tooltip.hidden)show(column.dataset.word,column.getBoundingClientRect(),column);else hide();return;}
+    else if(event.key==='Enter'||event.key===' '){event.preventDefault();if(tooltip.hidden)show(column.dataset.word,column.getBoundingClientRect(),column,null,true);else hide();return;}
     if(!next)return;
     event.preventDefault();column.tabIndex=-1;next.tabIndex=0;next.focus();
   });

@@ -114,3 +114,19 @@
   .reader-controls.menu-open .reader-menu{display:flex;flex-wrap:wrap;align-items:center;gap:10px;position:absolute;top:100%;left:0;right:0;z-index:5;padding:12px;background:var(--paper);border-bottom:1px solid var(--rule);box-shadow:0 6px 14px #203a3218;max-height:calc(100vh - 120px);overflow:auto}
   .reader-menu [hidden]{display:none!important}
 }
+/* Concordance: what the authorized translations show for an original word (statistics, not a translation). */
+.word-tooltip-concordance{border-top:1px solid var(--rule);margin-top:10px;padding-top:8px}
+.concordance-heading{font:11px/1.5 "EB Garamond",serif;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin:0 0 3px}
+.concordance-count,.concordance-often{margin:2px 0 0;font-size:13px;line-height:1.5}
+.concordance-note{margin:2px 0 0;font-size:11px;line-height:1.5;color:var(--muted)}
+.word-tooltip-concordance .concordance-open{margin-top:6px;min-height:32px;color:var(--link);text-decoration:underline}
+.concordance-dialog{max-width:760px}
+.concordance-list{list-style:none;padding:0;margin:16px 0}
+.concordance-item{border-top:1px solid var(--rule);padding:12px 0}
+.concordance-link{display:block;font-size:15px;color:var(--link)}
+.concordance-ref{font-size:11px;color:var(--muted);margin-inline-start:6px}
+.concordance-original{font:19px/1.8 "Scheherazade New",serif;margin:6px 0 4px;text-align:justify}
+.concordance-english{font:15px/1.65 "EB Garamond",serif;margin:0;text-align:justify}
+.concordance-original mark,.concordance-english mark{background:var(--highlight);color:inherit}
+.concordance-error{font-size:13px;color:var(--error);margin:0}
+.concordance-dialog .dictionary-close{gap:10px}

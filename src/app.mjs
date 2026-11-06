@@ -17,6 +17,7 @@ import {createDictionaryStore} from './dictionary-store.mjs';
 import {textLanguage} from './dictionary.mjs';
 import {studyMode,glossTarget,glossStyle,interlinearBlockHtml,fillInterlinear,attachWordTooltip,openDictionaryDialog} from './word-study.mjs';
 import {openPronunciationGuide} from './pronunciation-guide.mjs';
+import {createConcordance,concordanceSectionHtml,openConcordanceDialog} from './concordance-view.mjs';
 const $=id=>document.getElementById(id);
 const filters=['author'];
 const labels={author:'Author'};
@@ -37,7 +38,10 @@ preferences.to=glossTarget(preferences.to);
 preferences.vowels=preferences.vowels===true;
 preferences.gloss=glossStyle(preferences.gloss);
 const dictionaries=createDictionaryStore(new URL('./',location.href));
-let wordTooltip=null;
+let wordTooltip=null,concordance=null;
+// Created once the dataset is known; until then tooltips have no concordance section.
+const concordanceView={lookup:word=>concordance?concordance.lookup(word):Promise.resolve(null),sectionHtml:concordanceSectionHtml};
+const openConcordance=(word,result,{returnFocus=null}={})=>openConcordanceDialog({word,result,returnFocus,getRecord,paragraphUrl:(id,reference)=>paragraphUrl(location.pathname,id,reference)});
 dictionaries.onChange(()=>{if(reading&&activeStudy(reading))renderReading();});
 preferences.scale=Math.max(.85,Math.min(1.35,Number(preferences.scale)||1));
 function savePreferences(){try{localStorage.setItem('pi-reading',JSON.stringify(preferences));}catch{}}
@@ -263,7 +267,7 @@ async function openReader(id,{push=true}={}){
     $('pronunciation-button').onclick=()=>{setReaderMenu(false);openPronunciationGuide(activeStudy(reading)==='en'?(activeTarget()==='ar'?'arabic':'persian'):'transliteration');}
     document.querySelectorAll('[data-gloss-button]').forEach(button=>button.onclick=()=>{preferences.gloss=glossStyle(button.dataset.glossButton);state.gloss=preferences.gloss;savePreferences();updateUrl(true);wordTooltip?.hide();renderReading();});
     document.querySelectorAll('[data-target-button]').forEach(button=>button.onclick=()=>{preferences.to=button.dataset.targetButton;state.to=preferences.to;savePreferences();updateUrl(true);wordTooltip?.hide();renderReading();});
-    wordTooltip=attachWordTooltip($('reading-view'),dictionaries,{target:activeTarget,prefer:activeLanguage});
+    wordTooltip=attachWordTooltip($('reading-view'),dictionaries,{target:activeTarget,prefer:activeLanguage,concordance:concordanceView,onOpenConcordance:openConcordance});
     $('size-down').onclick=()=>{preferences.scale=Math.max(.85,Math.round((preferences.scale-.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('size-up').onclick=()=>{preferences.scale=Math.min(1.35,Math.round((preferences.scale+.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('reader-title').focus({preventScroll:true});
@@ -330,6 +334,7 @@ try{
   const response=await fetch(new URL('./stats.json',import.meta.url),{cache:'no-cache'});
   if(!response.ok)throw new Error('The collection manifest could not be loaded. Please reload the page.');
   const stats=await response.json();datasetPath=stats.dataset||'./';datasetBase=new URL(datasetPath,import.meta.url);
+  concordance=createConcordance(new URL('./',location.href),datasetPath);
   $('translation-word-count').textContent=stats.translationWordCount.toLocaleString();
   const fieldsResponse=await fetch(new URL('metadata-schema.json',datasetBase));if(!fieldsResponse.ok)throw new Error('The metadata schema could not be loaded. Please reload the page.');
   metadataFields=await fieldsResponse.json();
