@@ -1,0 +1,30 @@
+{
+  "dictionaries": [
+    {
+      "id": "sample-volume-164",
+      "name": "Sample: Volume 164 vocabulary",
+      "file": "sample-volume-164.tsv",
+      "description": "Every word form in the original texts of Volume 164 (Writings and Utterances of ‘Abdu’l-Bahá, 1914, part II), with pronunciation, a one-word gloss and a short definition. A test dictionary for word study; readings marked uncertain in the notes need review.",
+      "source": "AI-generated from the Volume 164 texts in November 2026; not reviewed by a translator.",
+      "aiGenerated": true
+    },
+    {
+      "id": "sample-volume-164-en-fa",
+      "name": "Sample: Volume 164 English → Persian",
+      "file": "sample-volume-164-en-fa.tsv",
+      "description": "Every English word form in the Volume 164 translations, with its pronunciation written in Persian script, a Persian equivalent, and a definition in Persian. Used by Words: English and the tooltip on English words.",
+      "source": "AI-generated from the Volume 164 English texts in November 2026; not reviewed by a translator.",
+      "aiGenerated": true,
+      "target": "fa"
+    },
+    {
+      "id": "sample-volume-164-en-ar",
+      "name": "Sample: Volume 164 English → Arabic",
+      "file": "sample-volume-164-en-ar.tsv",
+      "description": "Every English word form in the Volume 164 translations, with its pronunciation written in Arabic script, an Arabic equivalent, and a definition in Arabic. Used by Words: English with العربية and the tooltip on English words.",
+      "source": "AI-generated from the Volume 164 English texts in November 2026; not reviewed by a translator.",
+      "aiGenerated": true,
+      "target": "ar"
+    }
+  ]
+}
