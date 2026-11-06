@@ -10,6 +10,8 @@ export const dictionaryShards=64;
 export const dictionaryColumns=['form','vocalized','lemma','lang','translit','gloss','definition','notes','rendering','register','status','reviewer'];
 const aliases={vowelled:'vocalized',voweled:'vocalized',vocalised:'vocalized',harakat:'vocalized',diacritized:'vocalized',headword:'form',word:'form',transliteration:'translit',pronunciation:'translit',meaning:'gloss',translation:'gloss',language:'lang',note:'notes',bahai:'rendering',"bahá'í english":'rendering',"bahai english":'rendering',elevated:'rendering',style:'register',review:'status','review status':'status'};
 const arabicScript=/\p{Script=Arabic}/u;
+// The column a header name stands for (case-insensitive, with aliases).
+export const dictionaryColumn=name=>{const key=String(name).trim().toLowerCase();return aliases[key]||key;};
 
 // The lookup key of a word: the search normalization (diacritics, Arabic and
 // Persian letter variants, digits) without punctuation, spaces or joiners.
@@ -60,6 +62,8 @@ export function applyVowels(written,vocalized){
 // unreviewed, uncertain or reviewed; strict also rejects a `reviewer` on an
 // entry that is not reviewed.
 export const reviewStatuses=['unreviewed','uncertain','reviewed'];
+// Review counts per status; an empty status counts as unreviewed.
+export const reviewCounts=entries=>{const counts=Object.fromEntries(reviewStatuses.map(s=>[s,0]));for(const e of entries)counts[reviewStatuses.includes(e.status)?e.status:'unreviewed']++;return counts;};
 export function parseDictionary(source,{strict=false}={}){
   source=String(source).replace(/^﻿/,'');
   const header=source.split(/\r?\n/,1)[0]||'';
@@ -72,7 +76,7 @@ export function parseDictionary(source,{strict=false}={}){
   const entries=[];
   for(const [i,row] of rows.entries()){
     const entry={};
-    for(const [name,value] of Object.entries(row)){const key=name.trim().toLowerCase();const column=aliases[key]||key;if(dictionaryColumns.includes(column)&&value&&!entry[column])entry[column]=value;}
+    for(const [name,value] of Object.entries(row)){const column=dictionaryColumn(name);if(dictionaryColumns.includes(column)&&value&&!entry[column])entry[column]=value;}
     if(!entry.form&&!entry.lemma)continue;
     entry.form||=entry.lemma;
     if(!entry.gloss&&!entry.definition)throw Error(`Row ${i+2} (${entry.form}): needs a gloss or definition`);

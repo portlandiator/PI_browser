@@ -1,11 +1,12 @@
 // Publish the dictionaries listed in dictionaries/dictionaries.json as small
 // lookup shards in <out>/dictionaries/, read on demand by the reader's word
 // tooltip and interlinear word study. Dictionary changes need no collection
-// rebuild: this runs on every build and interface refresh.
+// rebuild: this runs on every build and interface refresh. Each source file
+// is also published unchanged for the dictionary review page.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {reviewStatuses,parseDictionary,shardDictionary,dictionaryShards,dictionaryTarget} from '../src/dictionary.mjs';
+import {reviewCounts,parseDictionary,shardDictionary,dictionaryShards,dictionaryTarget} from '../src/dictionary.mjs';
 
 const idPattern=/^[a-z0-9][a-z0-9-]{0,63}$/;
 
@@ -23,8 +24,10 @@ export async function readDictionaryCatalog(root){
   });
 }
 
-// Review counts per status; an empty status counts as unreviewed.
-export const reviewCounts=entries=>{const counts=Object.fromEntries(reviewStatuses.map(s=>[s,0]));for(const e of entries)counts[e.status||'unreviewed']++;return counts;};
+export {reviewCounts};
+// The source file is published unchanged as <id>.tsv (or .csv) for the
+// dictionary review page, which needs every row in its original order.
+export const publishedSourceName=item=>`${item.id}${path.extname(item.file).toLowerCase()==='.csv'?'.csv':'.tsv'}`;
 
 export async function buildDictionaries(root,out){
   const target=path.join(out,'dictionaries');
@@ -32,7 +35,8 @@ export async function buildDictionaries(root,out){
   const catalog=await readDictionaryCatalog(root);
   const published=[];
   for(const item of catalog){
-    const entries=parseDictionary(await fs.readFile(path.join(root,'dictionaries',item.file),'utf8'),{strict:true});
+    const source=await fs.readFile(path.join(root,'dictionaries',item.file));
+    const entries=parseDictionary(source.toString('utf8'),{strict:true});
     const shards=shardDictionary(entries,item.id),present={original:[],english:[]};
     await fs.mkdir(path.join(target,item.id),{recursive:true});
     for(const side of ['original','english'])for(let n=0;n<dictionaryShards;n++){
@@ -40,7 +44,8 @@ export async function buildDictionaries(root,out){
       present[side].push(n);
       await fs.writeFile(path.join(target,item.id,`${side[0]}-${n}.json`),JSON.stringify(shards[side][n]));
     }
-    published.push({id:item.id,name:item.name,description:item.description||'',source:item.source||'',aiGenerated:item.aiGenerated===true,target:['en','fa','ar'].includes(item.target)?item.target:dictionaryTarget(entries),entries:entries.length,review:reviewCounts(entries),shards:present});
+    await fs.writeFile(path.join(target,publishedSourceName(item)),source);
+    published.push({id:item.id,name:item.name,description:item.description||'',source:item.source||'',aiGenerated:item.aiGenerated===true,target:['en','fa','ar'].includes(item.target)?item.target:dictionaryTarget(entries),entries:entries.length,review:reviewCounts(entries),file:publishedSourceName(item),sourceFile:item.file,shards:present});
   }
   if(published.length){await fs.mkdir(target,{recursive:true});await fs.writeFile(path.join(target,'index.json'),JSON.stringify({format:1,dictionaries:published}));}
   return published.map(({id,entries})=>({id,entries}));

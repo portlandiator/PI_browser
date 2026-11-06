@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {parseDictionary,dictionaryKey,candidateKeys,indexEntries,lookupWord,textLanguage,textWords,wordAt,interlinearTokens,shardDictionary,dictionaryShard,reverseKeys} from '../src/dictionary.mjs';
-import {interlinearCells,tooltipHtml,interlinearBlockHtml,interlinearColumnsHtml,boundedCache,studyMode,glossStyle,tooltipMode} from '../src/word-study.mjs';
+import {interlinearCells,reviewLabelHtml,dictionaryDialogHtml,tooltipHtml,interlinearBlockHtml,interlinearColumnsHtml,boundedCache,studyMode,glossStyle,tooltipMode} from '../src/word-study.mjs';
 import {buildDictionaries,readDictionaryCatalog} from '../scripts/build-dictionaries.mjs';
 
 const root=path.resolve(import.meta.dirname,'..');
@@ -271,9 +271,24 @@ test('Bahá\'í English marks a word only when its rendering differs from the pl
   assert.equal(interlinearCells(await find('شمس'),'bahai').elevated,false);
 });
 
-test('tooltip mode is hover unless click is chosen',()=>{
+test('tooltips label uncertain and reviewed entries, escaping the reviewer',()=>{
+  const result=status=>({word:'نور',side:'original',via:'',matched:'نور',entries:[{form:'نور',gloss:'light',dictionary:'t',...status}]});
+  const tip=status=>tooltipHtml(result(status),()=>({name:'Test',aiGenerated:true}));
+  assert.match(tip({status:'uncertain'}),/<div class="word-tooltip-head">.*<span class="word-tooltip-status status-uncertain">Uncertain reading<\/span><\/div>/);
+  assert.match(tip({status:'reviewed',reviewer:'SL 2026-11-05'}),/<span class="word-tooltip-status status-reviewed">Reviewed by SL 2026-11-05<\/span>/);
+  assert.match(tip({status:'reviewed'}),/status-reviewed">Reviewed<\/span>/);
+  for(const status of [{},{status:'unreviewed'},{status:''}])assert.doesNotMatch(tip(status),/word-tooltip-status/);
+  const hostile=reviewLabelHtml({status:'reviewed',reviewer:'<img src=x onerror=alert(1)> & "q"'});
+  assert.ok(hostile.includes('by &lt;img src=x onerror=alert(1)&gt; &amp; &quot;q&quot;')&&!hostile.includes('<img'));
+  assert.equal(reviewLabelHtml({status:'Reviewed'}),'');
+  const dialog=dictionaryDialogHtml([{id:'sample-volume-164',name:'Sample',kind:'published',entries:2},{id:'mine',name:'Mine',kind:'personal',entries:1}]);
+  assert.match(dialog,/href="\.\/dictionary-review\.html\?dict=sample-volume-164">Review entries →<\/a>/);
+  assert.equal(dialog.match(/Review entries/g).length,1);
+});
+
+test('tooltip mode is click unless hover is chosen',()=>{
   assert.equal(tooltipMode('click'),'click');
   assert.equal(tooltipMode('hover'),'hover');
-  for(const value of [undefined,null,'','Click','focus',1])assert.equal(tooltipMode(value),'hover');
+  for(const value of [undefined,null,'','Hover','focus',1])assert.equal(tooltipMode(value),'click');
 });
 

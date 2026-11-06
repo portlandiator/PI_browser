@@ -15,10 +15,10 @@ export const glossTarget=value=>glossTargets.includes(value)?value:'fa';
 // gloss, or the word as the authorized (Bahá'í English) translations render it.
 export const glossStyles=['plain','bahai'];
 export const glossStyle=value=>glossStyles.includes(value)?value:'plain';
-// When word tooltips open: on hover (and keyboard focus), or only on a click,
-// tap or Enter/Space.
+// When word tooltips open: only on a click, tap or Enter/Space (the default),
+// or on hover and keyboard focus.
 export const tooltipModes=['hover','click'];
-export const tooltipMode=value=>tooltipModes.includes(value)?value:'hover';
+export const tooltipMode=value=>value==='hover'?'hover':'click';
 
 // Bahá'í English marks a word only when its rendering actually differs from
 // the plain gloss (ignoring case, hyphens and punctuation).
@@ -41,6 +41,14 @@ export function interlinearCells(result,style='plain'){
   return {pronunciation:entry.reverse?'':entry.translit||'',gloss:target,target,partial};
 }
 
+// An entry's review label: uncertain readings and reviewed entries (with the
+// reviewer when known). Unreviewed entries need none: the dictionary's
+// AI-generated label already covers them.
+export function reviewLabelHtml(entry){
+  if(entry?.status==='uncertain')return '<span class="word-tooltip-status status-uncertain">Uncertain reading</span>';
+  if(entry?.status==='reviewed')return `<span class="word-tooltip-status status-reviewed">Reviewed${entry.reviewer?` by ${esc(entry.reviewer)}`:''}</span>`;
+  return '';
+}
 export function tooltipHtml(result,info){
   const word=`<div class="word-tooltip-word" dir="auto">${esc(result.word)}</div>`;
   if(!result.entries.length)return `${word}<p class="word-tooltip-empty">No dictionary entry for this word.</p>`;
@@ -50,7 +58,7 @@ export function tooltipHtml(result,info){
     const vowelled=entry.vocalized&&!entry.reverse?`<span class="word-tooltip-vocalized" dir="rtl" lang="fa" title="With vowel marks">${esc(entry.vocalized)}</span>`:'';
     const head=entry.reverse?`<span class="word-tooltip-lemma" dir="rtl" lang="fa">${esc(entry.lemma||entry.form)}</span>`:(entry.lemma&&dictionaryKey(entry.lemma)!==dictionaryKey(entry.form)?`<span class="word-tooltip-lemma" dir="auto">${esc(entry.lemma)}</span>`:'');
     const script=value=>isOriginalScript(value)?' dir="rtl" lang="fa"':' dir="auto"';
-    return `<li>${entry.part?`<div class="word-tooltip-part" dir="auto">${esc(entry.part)}</div>`:''}<div class="word-tooltip-head">${vowelled}${head}${entry.translit?`<span class="word-tooltip-translit${isOriginalScript(entry.translit)?' in-script':''}"${script(entry.translit)}>${esc(entry.translit)}</span>`:''}${entry.lang?`<span class="word-tooltip-lang">${esc(entry.lang)}</span>`:''}${entry.register==='elevated'?'<span class="word-tooltip-register">elevated style</span>':''}</div><div class="word-tooltip-gloss"${script(entry.gloss||'')}>${esc(entry.gloss||'')}</div>${entry.rendering&&entry.rendering!==entry.gloss?`<div class="word-tooltip-rendering" dir="auto">Bahá'í English: ${esc(entry.rendering)}</div>`:''}${entry.definition?`<p class="word-tooltip-definition"${script(entry.definition)}>${esc(entry.definition)}</p>`:''}${entry.notes?`<p class="word-tooltip-notes"${script(entry.notes)}>${esc(entry.notes)}</p>`:''}<div class="word-tooltip-source">${esc(source?.name||entry.dictionary)}${source?.aiGenerated?' · AI-generated':''}${source?.kind==='personal'?' · your dictionary':''}</div></li>`;
+    return `<li>${entry.part?`<div class="word-tooltip-part" dir="auto">${esc(entry.part)}</div>`:''}<div class="word-tooltip-head">${vowelled}${head}${entry.translit?`<span class="word-tooltip-translit${isOriginalScript(entry.translit)?' in-script':''}"${script(entry.translit)}>${esc(entry.translit)}</span>`:''}${entry.lang?`<span class="word-tooltip-lang">${esc(entry.lang)}</span>`:''}${entry.register==='elevated'?'<span class="word-tooltip-register">elevated style</span>':''}${reviewLabelHtml(entry)}</div><div class="word-tooltip-gloss"${script(entry.gloss||'')}>${esc(entry.gloss||'')}</div>${entry.rendering&&entry.rendering!==entry.gloss?`<div class="word-tooltip-rendering" dir="auto">Bahá'í English: ${esc(entry.rendering)}</div>`:''}${entry.definition?`<p class="word-tooltip-definition"${script(entry.definition)}>${esc(entry.definition)}</p>`:''}${entry.notes?`<p class="word-tooltip-notes"${script(entry.notes)}>${esc(entry.notes)}</p>`:''}<div class="word-tooltip-source">${esc(source?.name||entry.dictionary)}${source?.aiGenerated?' · AI-generated':''}${source?.kind==='personal'?' · your dictionary':''}</div></li>`;
   }).join('');
   const more=result.entries.length>8?`<p class="word-tooltip-via">${result.entries.length-8} more entries not shown.</p>`:'';
   return `${word}${via}<ol class="word-tooltip-entries">${items}</ol>${more}`;
@@ -188,7 +196,7 @@ export function placement(rect,viewport,measure,widen,margin=8){
 // top layer above anything appended to the page.
 export const passagesKey=event=>(event.key==='p'||event.key==='P')&&!event.shiftKey&&!event.ctrlKey&&!event.altKey&&!event.metaKey&&!event.isComposing;
 const tooltips=new Set();
-export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',concordance=null,onOpenConcordance=null,mode=()=>'hover',layer=null}={}){
+export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',concordance=null,onOpenConcordance=null,mode=()=>'click',layer=null}={}){
   const id=layer?`${layer.id||'layer'}-word-tooltip`:'word-tooltip';
   let tooltip=layer?null:document.getElementById(id);
   if(!tooltip){tooltip=document.createElement('div');tooltip.id=id;tooltip.className=`word-tooltip${layer?' word-tooltip-fixed':''}`;tooltip.setAttribute('role','tooltip');tooltip.hidden=true;(layer||document.body).append(tooltip);}
@@ -331,7 +339,7 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
 // The dictionaries dialog: turn dictionaries on or off, order them, and add
 // or remove personal dictionary files.
 export function dictionaryDialogHtml(list){
-  const rows=list.map((item,i)=>`<li class="dictionary-row"><label><input type="checkbox" data-dictionary-toggle="${esc(item.id)}"${item.enabled?' checked':''}> <span class="dictionary-name">${esc(item.name)}</span></label><span class="dictionary-meta">${item.kind==='personal'?'Your dictionary (kept in this browser)':'Published'}${item.aiGenerated?' · AI-generated':''} · ${Number(item.entries||0).toLocaleString('en-US')} entries</span>${item.description?`<span class="dictionary-description">${esc(item.description)}</span>`:''}<span class="dictionary-actions"><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="-1"${i?'':' disabled'} aria-label="Move ${esc(item.name)} up">↑</button><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="1"${i<list.length-1?'':' disabled'} aria-label="Move ${esc(item.name)} down">↓</button>${item.kind==='personal'?`<button type="button" class="text-button" data-dictionary-remove="${esc(item.id)}">Remove</button>`:''}</span></li>`).join('');
+  const rows=list.map((item,i)=>`<li class="dictionary-row"><label><input type="checkbox" data-dictionary-toggle="${esc(item.id)}"${item.enabled?' checked':''}> <span class="dictionary-name">${esc(item.name)}</span></label><span class="dictionary-meta">${item.kind==='personal'?'Your dictionary (kept in this browser)':'Published'}${item.aiGenerated?' · AI-generated':''} · ${Number(item.entries||0).toLocaleString('en-US')} entries</span>${item.description?`<span class="dictionary-description">${esc(item.description)}</span>`:''}${item.kind==='published'?`<a class="dictionary-review-link" href="./dictionary-review.html?dict=${encodeURIComponent(item.id)}">Review entries →</a>`:''}<span class="dictionary-actions"><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="-1"${i?'':' disabled'} aria-label="Move ${esc(item.name)} up">↑</button><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="1"${i<list.length-1?'':' disabled'} aria-label="Move ${esc(item.name)} down">↓</button>${item.kind==='personal'?`<button type="button" class="text-button" data-dictionary-remove="${esc(item.id)}">Remove</button>`:''}</span></li>`).join('');
   return `<h2 id="dictionary-dialog-title">Dictionaries</h2><p class="dictionary-help">Word tooltips and interlinear rows use the dictionaries turned on below, in this order. Pronunciations and one-word glosses come from the dictionaries, not from the translation shown beneath each paragraph.</p>${rows?`<ol class="dictionary-list">${rows}</ol>`:'<p class="dictionary-help">No dictionaries are available yet.</p>'}<div class="dictionary-add"><label class="secondary-button" for="dictionary-file">Add a dictionary file…</label><input type="file" id="dictionary-file" accept=".tsv,.csv,.txt,text/tab-separated-values,text/csv"><p class="dictionary-help">A spreadsheet saved as TSV or CSV. The first row names the columns: <code>form</code> and <code>gloss</code> are required; <code>lemma</code>, <code>lang</code>, <code>translit</code>, <code>definition</code> and <code>notes</code> are optional. The file stays in this browser and is not uploaded.</p><p id="dictionary-status" class="dictionary-status" role="status"></p></div><div class="dictionary-close"><button type="button" class="secondary" id="dictionary-close">Close</button></div>`;
 }
 

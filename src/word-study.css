@@ -44,6 +44,12 @@
 .word-tooltip-translit{font-style:normal;font-weight:500}
 .word-tooltip-lang{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
 .word-tooltip-register{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+/* Review status of a dictionary entry: amber for an uncertain reading, green once reviewed (at least 4.5:1 in both themes). */
+:root{--status-uncertain-ink:#7a4b00;--status-uncertain-bg:#fbefd2;--status-reviewed-ink:#22603a;--status-reviewed-bg:#e2f0e3}
+:root[data-theme=dark]{--status-uncertain-ink:#f3c56b;--status-uncertain-bg:#3d2f12;--status-reviewed-ink:#9fd9ad;--status-reviewed-bg:#1c3a26}
+.word-tooltip-status{font-size:11px;line-height:1.4;padding:1px 6px;border-radius:3px;letter-spacing:.3px}
+.status-uncertain{color:var(--status-uncertain-ink);background:var(--status-uncertain-bg)}
+.status-reviewed{color:var(--status-reviewed-ink);background:var(--status-reviewed-bg)}
 .word-tooltip-rendering{margin:3px 0 0;font-size:13px;color:var(--gold)}
 .word-tooltip-gloss{font-weight:600;color:var(--gold)}
 .word-tooltip-definition,.word-tooltip-notes,.word-tooltip-via,.word-tooltip-empty{margin:3px 0 0;font-size:13px}
@@ -60,6 +66,7 @@
 .dictionary-meta,.dictionary-description{grid-column:1;font-size:12px;color:var(--muted)}
 .dictionary-actions{grid-column:2;grid-row:1/span 3;display:flex;gap:10px;align-items:center}
 .dictionary-actions .text-button{margin:0;min-height:40px;min-width:32px}
+.dictionary-review-link{grid-column:1;display:inline-flex;align-items:center;min-height:40px;width:max-content;font-size:13px;color:var(--link);text-decoration:underline;text-underline-offset:3px}
 .dictionary-add{border-top:1px solid var(--rule);padding-top:14px}
 .dictionary-add input[type=file]{position:absolute;opacity:0;width:1px;height:1px}
 .dictionary-add .secondary-button{display:inline-flex;align-items:center;border:1px solid var(--control-rule,var(--rule));border-radius:4px;padding:9px 15px;min-height:40px;font-size:12px;cursor:pointer}

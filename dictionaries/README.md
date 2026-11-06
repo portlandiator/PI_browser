@@ -31,7 +31,9 @@ When a word is not listed as written, the reader tries it with one common prefix
 
 ## Reviewing entries
 
-To review an entry, correct any field that is wrong, set `status` to `reviewed` and put your name or initials and the date in `reviewer`. Review `uncertain` entries first: they mark readings the author was unsure of. The build counts entries per status in `index.json` (`review`). Keep `aiGenerated: true` in `dictionaries.json` (the reader's AI-generated label) until the whole dictionary has been reviewed.
+To review an entry, correct any field that is wrong, set `status` to `reviewed` and put your name or initials and the date in `reviewer`. Review `uncertain` entries first: they mark readings the author was unsure of. The reader's tooltip labels uncertain readings and reviewed entries (with the reviewer).
+
+The site's review page, `dictionary-review.html?dict=<id>` (**Review entries →** in the reader's Dictionaries dialog), does this without a spreadsheet: choose a dictionary, enter your name or initials once, then work through the entries (uncertain first, 50 per page), edit any field, and use **Mark reviewed** (records your name and today's date) or **Mark uncertain**. Persian/Arabic entries can show their context in authorized translations. Edits stay in your browser as drafts until you choose **Download reviewed TSV**, which gives the whole file with only your edited rows changed. Replace the file of the same name here with it and open a pull request; the site publishes it once the pull request is merged. The build publishes each dictionary's source file unchanged as `<id>.tsv` (listed as `file` in `index.json`) for this page. The build counts entries per status in `index.json` (`review`). Keep `aiGenerated: true` in `dictionaries.json` (the reader's AI-generated label) until the whole dictionary has been reviewed.
 
 ## Adding a published dictionary
 

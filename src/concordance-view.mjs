@@ -104,7 +104,7 @@ export function openConcordanceDialog(options){
   if(!dialog){dialog=document.createElement('dialog');dialog.id='concordance-dialog';dialog.className='dictionary-dialog concordance-dialog';dialog.setAttribute('aria-labelledby','concordance-dialog-title');document.body.append(dialog);}
   const reopened=dialog.open;
   if(!reopened)outerFocus=returnFocus;
-  if(tools?.store&&!dialogTooltip)dialogTooltip=attachWordTooltip(dialog,tools.store,{layer:dialog,target:()=>tools.target?.()||'',prefer:anchor=>anchor?.closest?.('[data-language]')?.dataset.language||'',concordance:tools.concordance||null,mode:()=>tools.mode?.()||'hover',onOpenConcordance:(next,nextResult)=>openConcordanceDialog({...dialog.lastOptions,word:next,result:nextResult,returnFocus:null})});
+  if(tools?.store&&!dialogTooltip)dialogTooltip=attachWordTooltip(dialog,tools.store,{layer:dialog,target:()=>tools.target?.()||'',prefer:anchor=>anchor?.closest?.('[data-language]')?.dataset.language||'',concordance:tools.concordance||null,mode:()=>tools.mode?.()||'click',onOpenConcordance:(next,nextResult)=>openConcordanceDialog({...dialog.lastOptions,word:next,result:nextResult,returnFocus:null})});
   dialog.lastOptions=options;
   dialogTooltip?.hide();
   const views=tools?.store?passageViews:passageViews.filter(view=>view!=='words');
