@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import {parseDictionary,dictionaryKey,candidateKeys,indexEntries,lookupWord,textLanguage,textWords,wordAt,interlinearTokens,shardDictionary,dictionaryShard,reverseKeys} from '../src/dictionary.mjs';
-import {interlinearCells,reviewLabelHtml,dictionaryDialogHtml,tooltipHtml,interlinearBlockHtml,interlinearColumnsHtml,boundedCache,studyMode,glossStyle,tooltipMode} from '../src/word-study.mjs';
+import {parseDictionary,dictionaryKey,candidateKeys,indexEntries,lookupWord,textLanguage,textWords,wordAt,interlinearTokens,shardDictionary,dictionaryShard,reverseKeys,wordTags,tagLabels,entryTags} from '../src/dictionary.mjs';
+import {interlinearCells,reviewLabelHtml,dictionaryDialogHtml,tooltipHtml,interlinearBlockHtml,interlinearColumnsHtml,boundedCache,studyMode,glossStyle,tooltipMode,wordMark,markedWord} from '../src/word-study.mjs';
 import {buildDictionaries,readDictionaryCatalog} from '../scripts/build-dictionaries.mjs';
 
 const root=path.resolve(import.meta.dirname,'..');
@@ -219,26 +219,36 @@ test('vowel marks are laid on the letters as written and never change them',asyn
 
 test('the Bahá\'í English gloss style shows renderings and marks elevated words',()=>{
   const rows=parseDictionary('form\tgloss\tBahai English\tstyle\nامر\tcause\tthe-Cause\tElevated\nخانه\thouse\t\tplain\nبشارت\tgood news\tglad-tidings\tformal\n');
-  assert.equal(rows[0].rendering,'the-Cause');assert.equal(rows[0].register,'elevated');
-  assert.equal(rows[1].rendering,undefined);assert.equal(rows[1].register,'plain');
-  assert.equal(rows[2].rendering,'glad-tidings');assert.equal(rows[2].register,undefined);
+  // The legacy register column becomes the elevated tag; plain and other values are dropped.
+  assert.equal(rows[0].rendering,'the-Cause');assert.equal(rows[0].tags,'elevated');assert.equal(rows[0].register,undefined);
+  assert.equal(rows[1].rendering,undefined);assert.equal(rows[1].register,undefined);assert.equal(rows[1].tags,undefined);
+  assert.equal(rows[2].rendering,'glad-tidings');assert.equal(rows[2].register,undefined);assert.equal(rows[2].tags,undefined);
+  assert.equal(parseDictionary('form\tgloss\tregister\ttags\nامر\tcause\tELEVATED\tbahai,elevated\n')[0].tags,'bahai,elevated');
+  assert.equal(parseDictionary('form\tgloss\tregister\ttags\nامر\tcause\televated\tbahai\n',{strict:true})[0].tags,'elevated,bahai');
   assert.equal(parseDictionary('form,gloss,elevated,register\nانّ,indeed,verily,elevated\n')[0].rendering,'verily');
   assert.equal(parseDictionary("form\tgloss\tbahá'í english\nگردد\tbecomes\tbecometh\n")[0].rendering,'becometh');
-  assert.throws(()=>parseDictionary('form\tgloss\tregister\nامر\tcause\tformal\n',{strict:true}),/Row 2 \(امر\): register must be elevated or plain/);
-  const entry={form:'امر',gloss:'cause',rendering:'the-Cause',register:'elevated',translit:'amr',dictionary:'test'};
+  assert.deepEqual(parseDictionary('form\tgloss\tregister\nامر\tcause\tformal\n',{strict:true}),[{form:'امر',gloss:'cause',lang:'fa/ar'}]);
+  const entry={form:'امر',gloss:'cause',rendering:'the-Cause',tags:'elevated',translit:'amr',dictionary:'test'};
   const result={word:'امر',side:'original',via:'',matched:'امر',entries:[entry]};
   assert.equal(interlinearCells(result).gloss,'cause');
   assert.equal(interlinearCells(result,'plain').gloss,'cause');
   assert.equal(interlinearCells(result,'bahai').gloss,'the-Cause');
   assert.equal(interlinearCells(result,'bahai').elevated,true);
-  assert.equal(interlinearCells({...result,entries:[{form:'خانه',gloss:'house',register:'plain'}]},'bahai').gloss,'house');
-  assert.equal(interlinearCells({...result,entries:[{form:'خانه',gloss:'house',register:'plain'}]},'bahai').elevated,false);
+  assert.equal(interlinearCells({...result,entries:[{form:'خانه',gloss:'house'}]},'bahai').gloss,'house');
+  assert.equal(interlinearCells({...result,entries:[{form:'خانه',gloss:'house',tags:'archaic'}]},'bahai').elevated,false);
   assert.equal(interlinearCells({word:'cause',side:'english',via:'',entries:[{...entry,reverse:true}]},'bahai').gloss,'امر');
   const html=tooltipHtml(result,()=>({name:'Test'}));
-  assert.match(html,/<div class="word-tooltip-rendering" dir="auto">Bahá'í English: the-Cause<\/div>/);
-  assert.match(html,/<span class="word-tooltip-register">elevated style<\/span>/);
-  const same=tooltipHtml({...result,entries:[{...entry,rendering:'cause',register:'plain'}]},()=>({name:'Test'}));
-  assert.doesNotMatch(same,/word-tooltip-rendering|word-tooltip-register/);
+  assert.match(html,/<div class="word-tooltip-gloss" dir="auto">cause<span class="word-tooltip-rendering" dir="ltr" lang="en"> · Bahá&#39;í English: the Cause<\/span><\/div>/);
+  assert.match(html,/<div class="word-tooltip-tags"><span class="word-tag tag-elevated">Elevated style<\/span><\/div>/);
+  assert.match(tooltipHtml({...result,entries:[{...entry,tags:'bahai,elevated'}]},()=>null),/<div class="word-tooltip-tags"><span class="word-tag tag-elevated">Elevated style<\/span><span class="word-tag tag-bahai">/,'Elevated style first');
+  assert.doesNotMatch(html,/word-tooltip-register/);
+  const same=tooltipHtml({...result,entries:[{...entry,rendering:'cause',tags:''}]},()=>({name:'Test'}));
+  assert.doesNotMatch(same,/word-tooltip-rendering|tag-elevated/);
+  // The Bahá'í English style puts the rendering first and the plain gloss after it.
+  const bahai=tooltipHtml(result,()=>({name:'Test'}),{style:'bahai'});
+  assert.match(bahai,/<div class="word-tooltip-gloss" dir="auto">the Cause<span class="word-tooltip-rendering" dir="ltr" lang="en"> · Plain: cause<\/span><\/div>/);
+  assert.doesNotMatch(tooltipHtml({...result,entries:[{...entry,rendering:'Cause'}]},()=>null,{style:'bahai'}),/Plain:|word-tooltip-rendering/);
+  assert.match(tooltipHtml({...result,entries:[{form:'خانه',gloss:'house'}]},()=>null,{style:'bahai'}),/word-tooltip-gloss" dir="auto">house<\/div>/);
   const escaped=tooltipHtml({...result,entries:[{...entry,rendering:'<b>x</b>'}]},()=>({name:'Test'}));
   assert.ok(escaped.includes('&lt;b&gt;x&lt;/b&gt;')&&!escaped.includes('<b>x</b>'));
   assert.equal(glossStyle('x'),'plain');assert.equal(glossStyle('bahai'),'bahai');
@@ -274,10 +284,10 @@ test('Bahá\'í English marks a word only when its rendering differs from the pl
 test('tooltips label uncertain and reviewed entries, escaping the reviewer',()=>{
   const result=status=>({word:'نور',side:'original',via:'',matched:'نور',entries:[{form:'نور',gloss:'light',dictionary:'t',...status}]});
   const tip=status=>tooltipHtml(result(status),()=>({name:'Test',aiGenerated:true}));
-  assert.match(tip({status:'uncertain'}),/<div class="word-tooltip-head">.*<span class="word-tooltip-status status-uncertain">Uncertain reading<\/span><\/div>/);
+  assert.match(tip({status:'uncertain'}),/<div class="word-tooltip-source">Test · AI-generated · <span class="word-tooltip-status status-uncertain">Uncertain reading<\/span><\/div>/);
   assert.match(tip({status:'reviewed',reviewer:'SL 2026-11-05'}),/<span class="word-tooltip-status status-reviewed">Reviewed by SL 2026-11-05<\/span>/);
   assert.match(tip({status:'reviewed'}),/status-reviewed">Reviewed<\/span>/);
-  for(const status of [{},{status:'unreviewed'},{status:''}])assert.doesNotMatch(tip(status),/word-tooltip-status/);
+  for(const status of [{},{status:'unreviewed'},{status:''}]){assert.doesNotMatch(tip(status),/word-tooltip-status /);assert.match(tip(status),/AI-generated · <span class="word-tooltip-status-plain">Unreviewed<\/span><\/div>$/);}
   const hostile=reviewLabelHtml({status:'reviewed',reviewer:'<img src=x onerror=alert(1)> & "q"'});
   assert.ok(hostile.includes('by &lt;img src=x onerror=alert(1)&gt; &amp; &quot;q&quot;')&&!hostile.includes('<img'));
   assert.equal(reviewLabelHtml({status:'Reviewed'}),'');
@@ -292,3 +302,92 @@ test('tooltip mode is click unless hover is chosen',()=>{
   for(const value of [undefined,null,'','Hover','focus',1])assert.equal(tooltipMode(value),'click');
 });
 
+
+test('part of speech, root, tags, modern equivalent and usage columns parse with aliases and normalized tags',()=>{
+  const source='form\tgloss\tPart of speech\troot\tCategories\tModern equivalent\tBahai usage\nاحبّای\tbeloved-ones\tnoun pl.\tح-ب-ب\t Bahai, Religious ,bahai,,Archaic\tدوستان\tThe believers, as in «احبّای الهی».\nشمس\tsun\tnoun\tش-م-س\tsun, mystical\t\t\n';
+  const [beloved,sun]=parseDictionary(source);
+  assert.deepEqual(beloved,{form:'احبّای',gloss:'beloved-ones',pos:'noun pl.',root:'ح-ب-ب',tags:'bahai,religious,archaic',modern:'دوستان',usage:'The believers, as in «احبّای الهی».',lang:'fa/ar'});
+  assert.equal(sun.tags,'mystical');
+  assert.deepEqual(parseDictionary('form\tgloss\tcategory\tusage note\nنور\tlight\tsun\tA symbol.\n')[0],{form:'نور',gloss:'light',usage:'A symbol.',lang:'fa/ar'});
+  assert.throws(()=>parseDictionary(source,{strict:true}),/Row 3 \(شمس\): unknown tag "sun"/);
+  assert.equal(parseDictionary(source.replace('sun, mystical','MYSTICAL'),{strict:true})[1].tags,'mystical');
+  assert.deepEqual(wordTags,['elevated','archaic','literary','religious','bahai','quranic','mystical','honorific','meaning-shift','arabic-loan']);
+  assert.equal(tagLabels.elevated,'Elevated style');assert.equal(tagLabels.bahai,"Bahá'í term");assert.equal(tagLabels['meaning-shift'],'Meaning shifted');
+  assert.deepEqual(entryTags(beloved),['bahai','religious','archaic']);
+  assert.deepEqual(entryTags({tags:'Quranic, made-up'}),['quranic']);
+  assert.deepEqual(entryTags({}),[]);
+  const shards=shardDictionary([beloved],'t');
+  assert.equal(shards.original[dictionaryShard(dictionaryKey('احبّای'))][dictionaryKey('احبّای')][0].tags,'bahai,religious,archaic');
+});
+
+test('tooltips show part of speech, tag chips, root, modern equivalent and Bahá\'í usage, escaped',()=>{
+  const entry={form:'احبّای',gloss:'beloved-ones',pos:'noun <pl.>',root:'ح-ب-ب',tags:'meaning-shift,bahai',modern:'دوستان',modern_translit:'dústán',modern_gloss:'<friends>',shift:'Here: the <believers>. Today: friends.',definition:'Plural of habib.',usage:'The <b>believers</b> & friends.',lang:'fa/ar',dictionary:'t'};
+  const html=tooltipHtml({word:'احبّای',entries:[entry]},()=>({name:'T'}));
+  assert.match(html,/<span class="word-tooltip-pos">noun &lt;pl\.&gt;<\/span>/);
+  assert.match(html,/<div class="word-tooltip-tags"><span class="word-tag tag-meaning-shift">Meaning shifted<\/span><span class="word-tag tag-bahai">Bahá&#39;í term<\/span><\/div>/);
+  assert.match(html,/<div class="word-tooltip-facts"><span>Root <span class="word-tooltip-root" dir="rtl" lang="ar">ح-ب-ب<\/span><\/span> · <span>Modern: <span class="word-tooltip-modern" dir="rtl" lang="fa">دوستان<\/span> <span class="word-tooltip-modern-note" dir="ltr">\(dústán, &lt;friends&gt;\)<\/span><\/span><\/div>/);
+  assert.match(html,/<div class="word-tooltip-usage"><p dir="ltr" lang="en"><span class="word-tooltip-usage-label">In the Writings:<\/span> The &lt;b&gt;believers&lt;\/b&gt; &amp; friends\.<\/p><\/div>/);
+  assert.match(html,/<p class="word-tooltip-shift" dir="auto"><span class="word-tooltip-shift-label">Meaning shift:<\/span> Here: the &lt;believers&gt;\. Today: friends\.<\/p>/);
+  const order=['word-tooltip-head','word-tooltip-gloss','word-tooltip-tags','word-tooltip-shift','word-tooltip-definition','word-tooltip-usage','word-tooltip-facts','word-tooltip-concordance-slot','word-tooltip-source'].map(name=>html.indexOf(`class="${name}`));
+  assert.deepEqual(order,[...order].sort((a,b)=>a-b));assert.ok(!order.includes(-1));
+  assert.match(html,/<div class="word-tooltip-gloss" dir="auto">beloved ones<\/div>/,'hyphens read as spaces');
+  // Only what is present: a modern word without pronunciation or gloss has no parentheses.
+  assert.match(tooltipHtml({word:'x',entries:[{...entry,modern_translit:'',modern_gloss:'',shift:''}]},()=>null),/دوستان<\/span><\/span><\/div>/);
+  assert.match(tooltipHtml({word:'x',entries:[{...entry,modern_translit:''}]},()=>null),/\(&lt;friends&gt;\)/);
+  assert.doesNotMatch(html,/<b>/);
+  const plain=tooltipHtml({word:'نور',entries:[{form:'نور',gloss:'light',dictionary:'t'}]},()=>null);
+  assert.doesNotMatch(plain,/word-tooltip-(pos|tags|facts|usage|shift|senses)/);
+  assert.match(plain,/^<div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-word">نور<\/span><\/div><div class="word-tooltip-gloss"/);
+});
+
+test('Mark picks words whose shown entry has the chosen tag',()=>{
+  assert.equal(wordMark('archaic'),'archaic');assert.equal(wordMark('Archaic'),'');assert.equal(wordMark('x'),'');assert.equal(wordMark(undefined),'');
+  const result={entries:[{form:'a',tags:'literary,archaic'},{form:'b',tags:'bahai'}]};
+  assert.equal(markedWord(result,'archaic'),true);
+  assert.equal(markedWord(result,'bahai'),false,'only the first (shown) entry counts');
+  assert.equal(markedWord(result,''),false);
+  assert.equal(markedWord({entries:[]},'archaic'),false);
+  assert.equal(markedWord(undefined,'archaic'),false);
+});
+
+test('a long usage note gets a more toggle and other senses fold under N more',()=>{
+  const long='In the Writings '+'often the believers, '.repeat(10);
+  const entries=[{form:'من',vocalized:'مَنْ',translit:'man',gloss:'I',lang:'fa',usage:long,dictionary:'a'},{form:'من',vocalized:'مِنْ',translit:'min',gloss:'from',rendering:'out-of',lang:'ar',definition:'Preposition <of>.',status:'uncertain',dictionary:'b'},{form:'من',translit:'man',gloss:'whoever',lang:'ar',tags:'elevated',dictionary:'a'}];
+  const html=tooltipHtml({word:'من',entries},id=>({name:id==='b'?'Other <dict>':'First'}));
+  assert.match(html,/<div class="word-tooltip-usage clamped"><p dir="ltr" lang="en">.*<\/p><button type="button" class="text-button word-tooltip-more" aria-expanded="false">more<\/button><\/div>/);
+  assert.doesNotMatch(tooltipHtml({word:'من',entries:[{...entries[0],usage:'Short.'}]},()=>null),/word-tooltip-more|clamped/);
+  assert.match(html,/<details class="word-tooltip-senses"><summary>2 more<\/summary><ol class="word-tooltip-entries"><li>/);
+  const senses=html.slice(html.indexOf('<details'),html.indexOf('</details>'));
+  assert.ok(senses.indexOf('from')<senses.indexOf('whoever'),'order kept');
+  assert.match(senses,/<li><div class="word-tooltip-script" dir="rtl" lang="ar"><span class="word-tooltip-vocalized" dir="rtl" lang="ar" title="With vowel marks">مِنْ<\/span><\/div><div class="word-tooltip-head" dir="ltr"><span class="word-tooltip-translit" dir="auto">min<\/span>/);
+  assert.match(senses,/<div class="word-tooltip-script" dir="rtl" lang="ar"><span class="word-tooltip-lemma">من<\/span><\/div>/,'a sense without a vowelled form shows its headword');
+  // The main entry: the word and its vowelled spelling on one right-to-left line, pronunciation and part of speech beneath.
+  assert.match(html,/^<div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-word">من<\/span><span class="word-tooltip-vocalized" dir="rtl" lang="fa" title="With vowel marks">مَنْ<\/span><\/div><div class="word-tooltip-head" dir="ltr"><span class="word-tooltip-translit" dir="auto">man<\/span><span class="word-tooltip-lang">fa<\/span><\/div>/);
+  assert.match(senses,/status-uncertain">Uncertain reading<\/span><span class="word-tooltip-lang">Other &lt;dict&gt;<\/span>/);
+  assert.match(senses,/word-tooltip-gloss" dir="auto">from<span class="word-tooltip-rendering" dir="ltr" lang="en"> · Bahá&#39;í English: out of<\/span>/);
+  assert.match(senses,/Preposition &lt;of&gt;\./);
+  assert.doesNotMatch(senses,/word-tooltip-usage|word-tooltip-source/);
+  assert.match(html,/<div class="word-tooltip-source">First · <span class="word-tooltip-status-plain">Unreviewed<\/span><\/div>$/,'footer names the first entry');
+  assert.doesNotMatch(tooltipHtml({word:'من',entries:[entries[0]]},()=>null),/<details/);
+  const vowelledSame=tooltipHtml({word:'مَنْ',entries:[entries[0]]},()=>null);
+  assert.doesNotMatch(vowelledSame,/word-tooltip-vocalized/,'the vocalized form shows only when it differs from the word');
+});
+
+test('the shift, modern_translit and modern_gloss columns parse with aliases and stay in shards',async()=>{
+  for(const name of ['shift','Meaning shift','shift note'])assert.equal(parseDictionary(`form\tgloss\t${name}\nملت\treligion\tHere: a religious community. Today: a nation.\n`)[0].shift,'Here: a religious community. Today: a nation.');
+  const [entry]=parseDictionary('form\tgloss\tmodern\tModern pronunciation\tmodern meaning\tshift\nملت\treligion\tدین\tdín\treligion\tHere: x.\n',{strict:true});
+  assert.deepEqual([entry.modern_translit,entry.modern_gloss,entry.shift],['dín','religion','Here: x.']);
+  assert.equal(parseDictionary('form\tgloss\tmodern translit\nملت\treligion\tdín\n')[0].modern_translit,'dín');
+  const shards=shardDictionary([entry],'t'),key=dictionaryKey('ملت');
+  const stored=shards.original[dictionaryShard(key)][key][0];
+  assert.deepEqual([stored.modern_translit,stored.modern_gloss,stored.shift],['dín','religion','Here: x.']);
+});
+
+test('an English word heads its tooltip left to right, with the Persian/Arabic on its own right-to-left line',()=>{
+  const html=tooltipHtml({word:'God',side:'english',entries:[{form:'god',translit:'گاد',gloss:'خدا',pos:'noun',dictionary:'d'},{form:'الهی',vocalized:'اِلٰهی',translit:'iláhí',gloss:'divine',reverse:true,dictionary:'d'}]},()=>null);
+  assert.match(html,/^<div class="word-tooltip-english"><span class="word-tooltip-word" dir="ltr" lang="en">God<\/span><\/div><div class="word-tooltip-head" dir="ltr"><span class="word-tooltip-translit in-script" dir="rtl" lang="fa">گاد<\/span><span class="word-tooltip-pos">noun<\/span><\/div><div class="word-tooltip-gloss" dir="rtl" lang="fa">خدا<\/div>/);
+  assert.match(html,/<li><div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-vocalized" dir="rtl" lang="fa" title="With vowel marks">اِلٰهی<\/span><\/div><div class="word-tooltip-head" dir="ltr"><span class="word-tooltip-translit" dir="auto">iláhí<\/span><\/div><div class="word-tooltip-gloss" dir="auto">divine<\/div>/);
+  const reverse=tooltipHtml({word:'divine',side:'english',entries:[{form:'الهی',translit:'iláhí',gloss:'divine',reverse:true,dictionary:'d'}]},()=>null);
+  assert.match(reverse,/^<div class="word-tooltip-english">.*<\/div><div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-lemma">الهی<\/span><\/div>/);
+  assert.match(tooltipHtml({word:'<x>',entries:[]},()=>null),/^<div class="word-tooltip-english"><span class="word-tooltip-word" dir="ltr" lang="en">&lt;x&gt;<\/span><\/div><p class="word-tooltip-empty">No dictionary entry/);
+});

@@ -1,14 +1,16 @@
 // Word dictionaries for the reader's word tooltip and interlinear word study.
 // A dictionary is a table of entries (form, lemma, lang, translit, gloss,
-// definition, notes, and optionally rendering and register for the Bahá'í
-// English gloss style). Published dictionaries are split into small shards by
+// definition, notes, and optionally rendering for the Bahá'í English gloss
+// style; pos, root, tags, modern (with modern_translit and modern_gloss), shift (what a meaning-shift
+// word means here against today) and usage describe the word and how it is
+// generally used in the Bahá'í Writings). Published dictionaries are split into small shards by
 // lookup key; dictionaries a reader loads stay in that reader's browser.
 // Glosses are dictionary lookups, never a claimed word-for-word alignment.
 import {normalize,parseCsv,shardKey} from './text.mjs';
 
 export const dictionaryShards=64;
-export const dictionaryColumns=['form','vocalized','lemma','lang','translit','gloss','definition','notes','rendering','register','status','reviewer'];
-const aliases={vowelled:'vocalized',voweled:'vocalized',vocalised:'vocalized',harakat:'vocalized',diacritized:'vocalized',headword:'form',word:'form',transliteration:'translit',pronunciation:'translit',meaning:'gloss',translation:'gloss',language:'lang',note:'notes',bahai:'rendering',"bahá'í english":'rendering',"bahai english":'rendering',elevated:'rendering',style:'register',review:'status','review status':'status'};
+export const dictionaryColumns=['form','vocalized','lemma','lang','translit','gloss','definition','notes','rendering','register','status','reviewer','pos','root','tags','modern','modern_translit','modern_gloss','shift','usage'];
+const aliases={vowelled:'vocalized',voweled:'vocalized',vocalised:'vocalized',harakat:'vocalized',diacritized:'vocalized',headword:'form',word:'form',transliteration:'translit',pronunciation:'translit',meaning:'gloss',translation:'gloss',language:'lang',note:'notes',bahai:'rendering',"bahá'í english":'rendering',"bahai english":'rendering',elevated:'rendering',style:'register',review:'status','review status':'status','part of speech':'pos',category:'tags',categories:'tags','modern equivalent':'modern','modern translit':'modern_translit','modern pronunciation':'modern_translit','modern meaning':'modern_gloss','meaning shift':'shift','shift note':'shift','bahai usage':'usage','usage note':'usage'};
 const arabicScript=/\p{Script=Arabic}/u;
 // The column a header name stands for (case-insensitive, with aliases).
 export const dictionaryColumn=name=>{const key=String(name).trim().toLowerCase();return aliases[key]||key;};
@@ -58,10 +60,17 @@ export function applyVowels(written,vocalized){
 // otherwise comma-separated with quoting. Header names are case-insensitive;
 // `form` and `gloss` are required. A `vocalized` value whose letters differ
 // from the form is an error with `strict`, otherwise it is left out; so is a
-// `register` other than elevated or plain, or a `status` other than
+// `status` other than
 // unreviewed, uncertain or reviewed; strict also rejects a `reviewer` on an
 // entry that is not reviewed.
+// `tags` are comma-separated categories from wordTags (lower-cased, without
+// repeats, in the file's order); strict rejects any other, lenient drops it.
 export const reviewStatuses=['unreviewed','uncertain','reviewed'];
+export const wordTags=['elevated','archaic','literary','religious','bahai','quranic','mystical','honorific','meaning-shift','arabic-loan'];
+export const tagLabels={elevated:'Elevated style',archaic:'Archaic',literary:'Literary',religious:'Religious',bahai:"Bahá'í term",quranic:"Qur'anic",mystical:'Mystical',honorific:'Honorific','meaning-shift':'Meaning shifted','arabic-loan':'Arabic loan'};
+const splitTags=value=>[...new Set(String(value||'').split(',').map(tag=>tag.trim().toLowerCase()).filter(Boolean))];
+// An entry's tags as a list (entries keep them as one comma-joined string).
+export const entryTags=entry=>splitTags(entry?.tags).filter(tag=>wordTags.includes(tag));
 // Review counts per status; an empty status counts as unreviewed.
 export const reviewCounts=entries=>{const counts=Object.fromEntries(reviewStatuses.map(s=>[s,0]));for(const e of entries)counts[reviewStatuses.includes(e.status)?e.status:'unreviewed']++;return counts;};
 export function parseDictionary(source,{strict=false}={}){
@@ -81,8 +90,10 @@ export function parseDictionary(source,{strict=false}={}){
     entry.form||=entry.lemma;
     if(!entry.gloss&&!entry.definition)throw Error(`Row ${i+2} (${entry.form}): needs a gloss or definition`);
     entry.lang||=(isOriginalScript(entry.form)?'fa/ar':'en');
-    if(entry.register){const register=entry.register.toLowerCase();if(register==='elevated'||register==='plain')entry.register=register;else{if(strict)throw Error(`Row ${i+2} (${entry.form}): register must be elevated or plain`);delete entry.register;}}
+    // Legacy `register` column: elevated becomes the elevated tag; plain or anything else is dropped.
+    if(entry.register){if(entry.register.trim().toLowerCase()==='elevated'&&!splitTags(entry.tags).includes('elevated'))entry.tags=['elevated',...splitTags(entry.tags)].join(',');delete entry.register;}
     if(entry.status){const status=entry.status.toLowerCase();if(reviewStatuses.includes(status))entry.status=status;else{if(strict)throw Error(`Row ${i+2} (${entry.form}): status must be unreviewed, uncertain or reviewed`);delete entry.status;}}
+    if(entry.tags){const tags=splitTags(entry.tags),unknown=tags.find(tag=>!wordTags.includes(tag));if(unknown&&strict)throw Error(`Row ${i+2} (${entry.form}): unknown tag "${unknown}"`);const known=tags.filter(tag=>wordTags.includes(tag));if(known.length)entry.tags=known.join(',');else delete entry.tags;}
     if(strict&&entry.reviewer&&entry.status!=='reviewed')throw Error(`Row ${i+2} (${entry.form}): reviewer is set but status is not reviewed`);
     if(entry.vocalized&&!sameLetters(entry.vocalized,entry.form)){if(strict)throw Error(`Row ${i+2} (${entry.form}): vocalized form ${entry.vocalized} has different letters`);delete entry.vocalized;}
     entries.push(entry);

@@ -23,18 +23,18 @@ const entry={n:1234,r:[['BH00001',3],['AB00002',1]],w:[['love',.5,10],['God',.4,
 
 test('the tooltip section shows counts and frequent words as statistics, escaped',()=>{
   const html=concordanceSectionHtml({key:'k',matched:'k"x',via:'',entry},{word:'<w>'});
-  assert.match(html,/^<section class="word-tooltip-concordance">/);
-  assert.match(html,/In authorized translations/);
-  assert.match(html,/Found in 1,234 paragraphs/);
-  assert.match(html,/Often appears with: love · God · &lt;b&gt; · a · b · c<\/p>/);
-  assert.doesNotMatch(html,/seventh/);
-  assert.match(html,/statistics from authorized paragraphs, not a word-for-word translation/);
+  assert.match(html,/^<section class="word-tooltip-concordance" title=/);
+  assert.match(html,/Authorized translations:<\/span> <span class="concordance-count">1,234<span aria-hidden="true"> ¶<\/span><span class="sr-only"> paragraphs<\/span>/);
+  assert.match(html,/ · <span class="concordance-often"><span class="sr-only">often appears with <\/span>love, God, &lt;b&gt;, a<\/span><\/p>/);
+  assert.doesNotMatch(html,/, b|seventh/);
+  assert.match(html,/title="Statistics from authorized paragraphs, not a word-for-word translation"/);
+  assert.match(html,/<span class="concordance-note">statistics, not a translation<\/span>/);
   assert.match(html,/<button type="button" class="text-button concordance-open" data-concordance-key="k&quot;x"/);
   assert.doesNotMatch(html,/<w>|<b>/);
   assert.equal(concordanceSectionHtml(null),'');
   const single=concordanceSectionHtml({key:'k',matched:'k',via:'',entry:{n:1,r:[],w:[]}});
-  assert.match(single,/Found in 1 paragraph</);
-  assert.doesNotMatch(single,/concordance-open|Often appears/);
+  assert.match(single,/>1<span aria-hidden="true"> ¶<\/span><span class="sr-only"> paragraph<\/span>/);
+  assert.doesNotMatch(single,/concordance-open|concordance-often/);
 });
 
 test('the P shortcut is named only for keyboard-opened tooltips',()=>{
@@ -68,7 +68,7 @@ test('lookup falls back through candidate keys',async()=>{
   assert.equal(result.matched,stem.key);
   assert.equal(result.via,'وال–');
   assert.equal(await concordance.lookup('ناموجود'),null);
-  assert.match(concordanceSectionHtml(result),/Counted as/);
+  assert.match(concordanceSectionHtml(result),/\(counted as <span dir="auto">/);
 });
 
 test('the shard cache is bounded and least recently used shards are evicted',async()=>{

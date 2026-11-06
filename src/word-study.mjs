@@ -4,7 +4,7 @@
 // paragraph as published. Glosses are dictionary lookups: they do not claim
 // that the published translation renders the text word for word.
 import {escapeHtml as esc} from './text.mjs';
-import {applyVowels,dictionaryKey,interlinearTokens,isOriginalScript,textWords,wordAt} from './dictionary.mjs';
+import {applyVowels,dictionaryKey,entryTags,interlinearTokens,isOriginalScript,tagLabels,textWords,wordAt,wordTags} from './dictionary.mjs';
 
 export const studyModes=['original','en'];
 export const studyMode=value=>studyModes.includes(value)?value:'';
@@ -19,6 +19,9 @@ export const glossStyle=value=>glossStyles.includes(value)?value:'plain';
 // or on hover and keyboard focus.
 export const tooltipModes=['hover','click'];
 export const tooltipMode=value=>value==='hover'?'hover':'click';
+// Words: original can mark the words whose shown (first) entry has one tag.
+export const wordMark=value=>wordTags.includes(value)?value:'';
+export const markedWord=(result,mark)=>!!mark&&entryTags(result?.entries?.[0]).includes(mark);
 
 // Bahá'í English marks a word only when its rendering actually differs from
 // the plain gloss (ignoring case, hyphens and punctuation).
@@ -27,13 +30,13 @@ export const renderingDiffers=entry=>!!entry.rendering&&glossKey(entry.rendering
 
 // The text each interlinear row shows for a lookup result.
 // In the Bahá'í English style an original word shows its `rendering` when
-// the entry has one, and `elevated` marks a word of the elevated register.
+// the entry has one, and `elevated` marks a word with the elevated tag.
 export function interlinearCells(result,style='plain'){
   const entry=result?.entries?.[0];
   if(!entry)return {pronunciation:'',gloss:'',target:'',partial:false};
   const partial=!!result.via;
   // The fully vowelled spelling applies only to the word exactly as listed.
-  if(result.side==='original')return {pronunciation:entry.translit||'',gloss:(style==='bahai'&&entry.rendering)||entry.gloss||'',target:'',partial,vocalized:partial?'':entry.vocalized||'',elevated:entry.register==='elevated'&&renderingDiffers(entry)};
+  if(result.side==='original')return {pronunciation:entry.translit||'',gloss:(style==='bahai'&&entry.rendering)||entry.gloss||'',target:'',partial,vocalized:partial?'':entry.vocalized||'',elevated:entryTags(entry).includes('elevated')&&renderingDiffers(entry)};
   // English words: how the English word sounds (in the script an English to
   // Persian/Arabic dictionary writes it) and its equivalent. An entry found
   // only through a Persian/Arabic gloss gives the equivalent, not a sound.
@@ -49,19 +52,80 @@ export function reviewLabelHtml(entry){
   if(entry?.status==='reviewed')return `<span class="word-tooltip-status status-reviewed">Reviewed${entry.reviewer?` by ${esc(entry.reviewer)}`:''}</span>`;
   return '';
 }
-export function tooltipHtml(result,info){
-  const word=`<div class="word-tooltip-word" dir="auto">${esc(result.word)}</div>`;
+// The compact word tooltip. The first (best) entry shows a head row (the word
+// as written, its vowelled spelling, pronunciation and part of speech), one
+// gloss line in the chosen gloss style with the other style after it when it
+// differs, category chips, the definition, the Bahá'í usage (clamped to three
+// lines), one line of facts and a footer naming the dictionary and review
+// status. Other senses and dictionaries are folded under "N more".
+const script=value=>isOriginalScript(value)?' dir="rtl" lang="fa"':' dir="auto"';
+// Hyphens joining the words of an English gloss read as spaces ("the-Cause").
+const readable=value=>isOriginalScript(value)?String(value):String(value).replace(/(\p{L})-(?=\p{L})/gu,'$1 ');
+// Tags as one row of chips, Elevated style first.
+const tagChipsHtml=entry=>{const tags=entryTags(entry).sort((a,b)=>(b==='elevated')-(a==='elevated'));return tags.length?`<div class="word-tooltip-tags">${tags.map(tag=>`<span class="word-tag tag-${tag}">${esc(tagLabels[tag])}</span>`).join('')}</div>`:'';};
+// The head is two lines: the Persian/Arabic on its own right-to-left line
+// (the word as written in the main entry, then the vowelled spelling when it
+// differs; a folded sense or an entry found from English shows its own
+// headword), then pronunciation, part of speech and language left to right.
+const scriptLang=entry=>entry.lang==='ar'?'ar':'fa';
+function scriptLineHtml(entry,word,main){
+  const original=isOriginalScript(word);
+  const vocalized=entry.vocalized&&entry.vocalized!==word?entry.vocalized:'';
+  const own=!main||!original||entry.reverse?(vocalized?'':entry.lemma||entry.form):'';
+  const items=[main&&original?`<span class="word-tooltip-word">${esc(word)}</span>`:'',own&&isOriginalScript(own)?`<span class="word-tooltip-lemma">${esc(own)}</span>`:'',vocalized&&isOriginalScript(entry.form)?`<span class="word-tooltip-vocalized" dir="rtl" lang="${scriptLang(entry)}" title="With vowel marks">${esc(vocalized)}</span>`:''].filter(Boolean);
+  return items.length?`<div class="word-tooltip-script" dir="rtl" lang="${scriptLang(entry)}">${items.join('')}</div>`:'';
+}
+function metaHtml(entry,extra=''){
+  const translit=entry.translit?`<span class="word-tooltip-translit${isOriginalScript(entry.translit)?' in-script':''}"${script(entry.translit)}>${esc(entry.translit)}</span>`:'';
+  const items=`${entry.part?`<span class="word-tooltip-part" dir="auto">${esc(entry.part)}</span>`:''}${translit}${entry.pos?`<span class="word-tooltip-pos">${esc(entry.pos)}</span>`:''}${entry.lang?`<span class="word-tooltip-lang">${esc(entry.lang)}</span>`:''}${extra}`;
+  return items?`<div class="word-tooltip-head" dir="ltr">${items}</div>`:'';
+}
+// What a meaning-shift word means here against its usual modern meaning.
+const shiftHtml=entry=>entry.shift?`<p class="word-tooltip-shift" dir="auto"><span class="word-tooltip-shift-label">Meaning shift:</span> ${esc(entry.shift)}</p>`:'';
+// The gloss in the chosen style first; the other style follows only when it differs.
+function glossLineHtml(entry,style){
+  const original=isOriginalScript(entry.form)&&!entry.reverse;
+  const bahai=original&&style==='bahai'&&entry.rendering;
+  const first=bahai?entry.rendering:entry.gloss||'';
+  const other=!original||!renderingDiffers(entry)?'':bahai?(entry.gloss?`Plain: ${entry.gloss}`:''):`Bahá'í English: ${entry.rendering}`;
+  if(!first&&!other)return '';
+  return `<div class="word-tooltip-gloss"${script(first)}>${esc(readable(first))}${other?`<span class="word-tooltip-rendering" dir="ltr" lang="en"> · ${esc(readable(other))}</span>`:''}</div>`;
+}
+const definitionHtml=entry=>entry.definition?`<p class="word-tooltip-definition"${script(entry.definition)}>${esc(entry.definition)}</p>`:'';
+// Usage longer than about three lines gets a "more" toggle; the tooltip
+// removes it again when the text turns out to fit.
+const usageHtml=entry=>{if(!entry.usage)return '';const long=entry.usage.length>150;return `<div class="word-tooltip-usage${long?' clamped':''}"><p dir="ltr" lang="en"><span class="word-tooltip-usage-label">In the Writings:</span> ${esc(entry.usage)}</p>${long?'<button type="button" class="text-button word-tooltip-more" aria-expanded="false">more</button>':''}</div>`;};
+function wordFactsHtml(entry){
+  const lang=entry.lang==='ar'?'ar':'fa';
+  const extra=[entry.modern_translit,entry.modern_gloss].filter(Boolean).map(esc).join(', ');
+  const facts=[
+    !entry.reverse&&entry.lemma&&dictionaryKey(entry.lemma)!==dictionaryKey(entry.form)?`<span>Lemma <span class="word-tooltip-lemma" dir="auto">${esc(entry.lemma)}</span></span>`:'',
+    entry.root?`<span>Root <span class="word-tooltip-root" dir="rtl" lang="ar">${esc(entry.root)}</span></span>`:'',
+    entry.modern?`<span>Modern: <span class="word-tooltip-modern"${isOriginalScript(entry.modern)?` dir="rtl" lang="${lang}"`:' dir="auto"'}>${esc(entry.modern)}</span>${extra?` <span class="word-tooltip-modern-note" dir="ltr">(${extra})</span>`:''}</span>`:'',
+    entry.notes?`<span class="word-tooltip-notes"${script(entry.notes)}>${esc(entry.notes)}</span>`:''].filter(Boolean);
+  return facts.length?`<div class="word-tooltip-facts">${facts.join(' · ')}</div>`:'';
+}
+function sourceHtml(entry,info){
+  const source=info(entry.dictionary);
+  const status=reviewLabelHtml(entry)||'<span class="word-tooltip-status-plain">Unreviewed</span>';
+  return `<div class="word-tooltip-source">${[esc(source?.name||entry.dictionary),source?.aiGenerated?'AI-generated':'',source?.kind==='personal'?'your dictionary':'',status].filter(Boolean).join(' · ')}</div>`;
+}
+export function tooltipHtml(result,info,{style='plain'}={}){
+  const original=isOriginalScript(result.word);
+  // An original word heads its own right-to-left line; an English word heads the tooltip left to right.
+  const word=original?`<div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-word">${esc(result.word)}</span></div>`:`<div class="word-tooltip-english"><span class="word-tooltip-word" dir="ltr" lang="en">${esc(result.word)}</span></div>`;
   if(!result.entries.length)return `${word}<p class="word-tooltip-empty">No dictionary entry for this word.</p>`;
+  style=glossStyle(style);
   const via=result.via==='parts'?'<p class="word-tooltip-via">Shown by its parts.</p>':result.via?`<p class="word-tooltip-via">Found as <span dir="auto">${esc(result.matched)}</span> (${esc(result.via.replace(/–/g,''))} removed).</p>`:'';
-  const items=result.entries.slice(0,8).map(entry=>{
-    const source=info(entry.dictionary);
-    const vowelled=entry.vocalized&&!entry.reverse?`<span class="word-tooltip-vocalized" dir="rtl" lang="fa" title="With vowel marks">${esc(entry.vocalized)}</span>`:'';
-    const head=entry.reverse?`<span class="word-tooltip-lemma" dir="rtl" lang="fa">${esc(entry.lemma||entry.form)}</span>`:(entry.lemma&&dictionaryKey(entry.lemma)!==dictionaryKey(entry.form)?`<span class="word-tooltip-lemma" dir="auto">${esc(entry.lemma)}</span>`:'');
-    const script=value=>isOriginalScript(value)?' dir="rtl" lang="fa"':' dir="auto"';
-    return `<li>${entry.part?`<div class="word-tooltip-part" dir="auto">${esc(entry.part)}</div>`:''}<div class="word-tooltip-head">${vowelled}${head}${entry.translit?`<span class="word-tooltip-translit${isOriginalScript(entry.translit)?' in-script':''}"${script(entry.translit)}>${esc(entry.translit)}</span>`:''}${entry.lang?`<span class="word-tooltip-lang">${esc(entry.lang)}</span>`:''}${entry.register==='elevated'?'<span class="word-tooltip-register">elevated style</span>':''}${reviewLabelHtml(entry)}</div><div class="word-tooltip-gloss"${script(entry.gloss||'')}>${esc(entry.gloss||'')}</div>${entry.rendering&&entry.rendering!==entry.gloss?`<div class="word-tooltip-rendering" dir="auto">Bahá'í English: ${esc(entry.rendering)}</div>`:''}${entry.definition?`<p class="word-tooltip-definition"${script(entry.definition)}>${esc(entry.definition)}</p>`:''}${entry.notes?`<p class="word-tooltip-notes"${script(entry.notes)}>${esc(entry.notes)}</p>`:''}<div class="word-tooltip-source">${esc(source?.name||entry.dictionary)}${source?.aiGenerated?' · AI-generated':''}${source?.kind==='personal'?' · your dictionary':''}</div></li>`;
-  }).join('');
-  const more=result.entries.length>8?`<p class="word-tooltip-via">${result.entries.length-8} more entries not shown.</p>`:'';
-  return `${word}${via}<ol class="word-tooltip-entries">${items}</ol>${more}`;
+  const [entry,...others]=result.entries.slice(0,8);
+  const main=`${original?'':word}${scriptLineHtml(entry,result.word,true)}${metaHtml(entry)}${via}${glossLineHtml(entry,style)}${tagChipsHtml(entry)}${shiftHtml(entry)}${definitionHtml(entry)}${usageHtml(entry)}${wordFactsHtml(entry)}`;
+  // Other senses: head row, gloss line and definition, with their source when it differs.
+  const sense=other=>`<li>${scriptLineHtml(other,result.word,false)}${metaHtml(other,`${reviewLabelHtml(other)}${other.dictionary!==entry.dictionary?`<span class="word-tooltip-lang">${esc(info(other.dictionary)?.name||other.dictionary)}</span>`:''}`)}${glossLineHtml(other,style)}${definitionHtml(other)}</li>`;
+  const hidden=result.entries.length-8;
+  const more=others.length?`<details class="word-tooltip-senses"><summary>${others.length} more</summary><ol class="word-tooltip-entries">${others.map(sense).join('')}</ol>${hidden>0?`<p class="word-tooltip-via">${hidden} more entries not shown.</p>`:''}</details>`:'';
+  // The full entry, its word family and its filters are in the dictionary browser.
+  const open=info(entry.dictionary)?.kind==='personal'?'':`<a class="word-tooltip-dict-link" href="./dictionary-browser.html?q=${encodeURIComponent(entry.form)}&amp;dict=${encodeURIComponent(entry.dictionary)}">Open in dictionary</a>`;
+  return `${main}<div class="word-tooltip-concordance-slot"></div>${more}${open}${sourceHtml(entry,info)}`;
 }
 
 // Interlinear markup for one paragraph: word columns (filled in later by
@@ -105,7 +169,8 @@ const nextFrame=()=>new Promise(resolve=>typeof requestAnimationFrame==='functio
 
 // Look up every word column under `root` and fill its rows: all lookups at
 // once, then every column written in one frame.
-export async function fillInterlinear(root,store,isCurrent=()=>true,target='',vowels=false,style='plain',prefer=''){
+// `mark` (a tag) marks columns whose shown entry has it with ilw-tagged.
+export async function fillInterlinear(root,store,isCurrent=()=>true,target='',vowels=false,style='plain',prefer='',mark=''){
   const columns=[...root.querySelectorAll('.ilw:not([data-filled])')];
   if(!columns.length)return;
   const words=[...new Set(columns.map(column=>column.dataset.word))];
@@ -122,6 +187,7 @@ export async function fillInterlinear(root,store,isCurrent=()=>true,target='',vo
     if(style==='bahai'&&cells.elevated)column.classList.add('ilw-elevated');
     if(!cells.gloss&&!cells.pronunciation)column.classList.add('ilw-unknown');
     if(cells.partial)column.classList.add('ilw-partial');
+    if(markedWord(results.get(word),mark))column.classList.add('ilw-tagged',`tag-${mark}`);
     const pronunciation=column.children[1];
     pronunciation.textContent=cells.pronunciation||'·';
     if(isOriginalScript(cells.pronunciation)){pronunciation.dir='rtl';pronunciation.lang='fa';pronunciation.classList.add('in-script');}
@@ -193,10 +259,11 @@ export function placement(rect,viewport,measure,widen,margin=8){
 // click, tap or Enter/Space does. `prefer(anchor)` names the language whose
 // entries come first. `layer` (a modal dialog) gets its own tooltip inside
 // it, fixed to the viewport, because a modal dialog sits in the browser's
-// top layer above anything appended to the page.
+// top layer above anything appended to the page. `gloss()` is the gloss
+// style ('plain' or 'bahai') whose gloss the tooltip shows first.
 export const passagesKey=event=>(event.key==='p'||event.key==='P')&&!event.shiftKey&&!event.ctrlKey&&!event.altKey&&!event.metaKey&&!event.isComposing;
 const tooltips=new Set();
-export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',concordance=null,onOpenConcordance=null,mode=()=>'click',layer=null}={}){
+export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',concordance=null,onOpenConcordance=null,mode=()=>'click',gloss=()=>'plain',layer=null}={}){
   const id=layer?`${layer.id||'layer'}-word-tooltip`:'word-tooltip';
   let tooltip=layer?null:document.getElementById(id);
   if(!tooltip){tooltip=document.createElement('div');tooltip.id=id;tooltip.className=`word-tooltip${layer?' word-tooltip-fixed':''}`;tooltip.setAttribute('role','tooltip');tooltip.hidden=true;(layer||document.body).append(tooltip);}
@@ -216,6 +283,8 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     // A dialog may have replaced its contents, tooltip included.
     if(layer&&tooltip.parentNode!==layer)layer.append(tooltip);
     tooltip.style.left='0px';tooltip.style.top='0px';tooltip.style.maxHeight='';tooltip.classList.remove('word-tooltip-wide');tooltip.hidden=false;
+    // A usage note that fits in its three lines needs no "more".
+    for(const box of tooltip.querySelectorAll('.word-tooltip-usage.clamped:not(.expanded)')){const text=box.firstElementChild;if(text.scrollHeight<=text.clientHeight+1){box.classList.remove('clamped');box.querySelector('.word-tooltip-more')?.remove();}}
     const box=placement(rect,{width:document.documentElement.clientWidth,height:innerHeight},()=>({width:tooltip.offsetWidth,height:tooltip.offsetHeight}),()=>tooltip.classList.add('word-tooltip-wide'));
     if(box.maxHeight)tooltip.style.maxHeight=`${box.maxHeight}px`;
     tooltip.style.left=`${box.left+(layer?0:scrollX)}px`;tooltip.style.top=`${box.top+(layer?0:scrollY)}px`;
@@ -226,7 +295,7 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     let result=null;try{result=await concordance.lookup(word);}catch{}
     if(token!==request||!result)return;
     const html=concordance.sectionHtml(result,{word,shortcut:keyboard});if(!html)return;
-    shown={word,result,anchor,keyboard};tooltip.insertAdjacentHTML('beforeend',html);place(anchorRect?anchorRect():rect);
+    shown={word,result,anchor,keyboard};const slot=tooltip.querySelector('.word-tooltip-concordance-slot');if(slot)slot.outerHTML=html;else tooltip.insertAdjacentHTML('beforeend',html);place(anchorRect?anchorRect():rect);
   }
   async function show(word,rect,anchor,range,keyboard=false){
     const token=++request;shown=null;claim();
@@ -237,7 +306,7 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     if(!store.hasActive()){tooltip.innerHTML=`<div class="word-tooltip-word" dir="auto">${esc(word)}</div><p class="word-tooltip-empty">No dictionaries are turned on. Choose Dictionaries to add or turn one on.</p>`;place(rect);addConcordance(token,word,rect,anchor,keyboard);return;}
     const result=await store.lookup(word,{target:target(),prefer:prefer(anchor||range?.startContainer?.parentElement)});
     if(token!==request)return;
-    tooltip.innerHTML=tooltipHtml(result,info);place(rect);
+    tooltip.innerHTML=tooltipHtml(result,info,{style:gloss()});place(rect);
     addConcordance(token,word,rect,anchor,keyboard);
   }
   // The word under a point in published paragraph text, as a DOM range.
@@ -291,7 +360,16 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
   tooltip.addEventListener('click',event=>{
     if(event.target.closest('.word-tooltip-note-link'))hide();
     if(event.target.closest('.concordance-open')&&shown&&container.isConnected)openPassages();
+    // The page's tooltip element is shared by every reader attached to it; only the one describing a word acts.
+    const more=event.target.closest('.word-tooltip-more');
+    if(more&&described&&container.isConnected){const open=more.getAttribute('aria-expanded')!=='true';more.setAttribute('aria-expanded',String(open));more.textContent=open?'less':'more';more.parentElement.classList.toggle('expanded',open);if(anchorRect)place(anchorRect());}
   });
+  // Opening or closing the other senses keeps the tooltip beside its word.
+  tooltip.addEventListener('toggle',()=>{if(!tooltip.hidden&&anchorRect&&container.isConnected)place(anchorRect());},true);
+  // Tab from the described word column enters the tooltip's controls; Tab
+  // past the last one closes it and returns to the word, Shift+Tab from the
+  // first goes back to the word with the tooltip still open.
+  const controls=()=>[...tooltip.querySelectorAll('button,summary,a[href]')].filter(control=>control.getClientRects().length);
   // Focus returns to the word column after the dialog when the keyboard opened it.
   function openPassages(){const {word,result,anchor,keyboard}=shown;hide();onOpenConcordance?.(word,result,{returnFocus:keyboard&&anchor?.matches?.('.ilw')?anchor:null});}
   // Touch and pen (and the mouse in click mode): a tap opens the entry;
@@ -315,10 +393,16 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
   container.addEventListener('focusout',event=>{if(event.target.closest?.('.ilw')&&!event.relatedTarget?.closest?.('.ilw')&&!tooltip.contains(event.relatedTarget))hide();});
   // Escape closes the tooltip first (in a dialog, before the dialog itself).
   const escape=event=>{if(event.key==='Escape'&&!tooltip.hidden){event.preventDefault();event.stopPropagation();const anchor=described;hide();if(tooltip.contains(document.activeElement)||!document.activeElement||document.activeElement===document.body)anchor?.focus?.({preventScroll:true});return true;}return false;};
-  tooltip.addEventListener('keydown',event=>{escape(event);});
+  tooltip.addEventListener('keydown',event=>{
+    if(escape(event)||event.key!=='Tab'||!described?.matches?.('.ilw')||!container.isConnected)return;
+    const list=controls(),i=list.indexOf(document.activeElement);
+    if(event.shiftKey&&i===0){event.preventDefault();described.focus({preventScroll:true});}
+    else if(!event.shiftKey&&i===list.length-1){event.preventDefault();const anchor=described;hide();current=anchor;anchor.focus({preventScroll:true});}
+  });
   container.addEventListener('keydown',event=>{
     if(inTooltip(event)||escape(event))return;
     const column=event.target.closest?.('.ilw');if(!column||!container.contains(column))return;
+    if(event.key==='Tab'&&!event.shiftKey&&!tooltip.hidden&&described===column){const first=controls()[0];if(first){event.preventDefault();first.focus({preventScroll:true});}return;}
     if(passagesKey(event)){if(shown?.anchor===column&&!tooltip.hidden&&container.isConnected){event.preventDefault();openPassages();}return;}
     const line=column.parentElement,columns=[...line.children],i=columns.indexOf(column),rtl=line.dir==='rtl';
     const step={ArrowRight:rtl?-1:1,ArrowLeft:rtl?1:-1}[event.key];
@@ -339,8 +423,8 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
 // The dictionaries dialog: turn dictionaries on or off, order them, and add
 // or remove personal dictionary files.
 export function dictionaryDialogHtml(list){
-  const rows=list.map((item,i)=>`<li class="dictionary-row"><label><input type="checkbox" data-dictionary-toggle="${esc(item.id)}"${item.enabled?' checked':''}> <span class="dictionary-name">${esc(item.name)}</span></label><span class="dictionary-meta">${item.kind==='personal'?'Your dictionary (kept in this browser)':'Published'}${item.aiGenerated?' · AI-generated':''} · ${Number(item.entries||0).toLocaleString('en-US')} entries</span>${item.description?`<span class="dictionary-description">${esc(item.description)}</span>`:''}${item.kind==='published'?`<a class="dictionary-review-link" href="./dictionary-review.html?dict=${encodeURIComponent(item.id)}">Review entries →</a>`:''}<span class="dictionary-actions"><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="-1"${i?'':' disabled'} aria-label="Move ${esc(item.name)} up">↑</button><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="1"${i<list.length-1?'':' disabled'} aria-label="Move ${esc(item.name)} down">↓</button>${item.kind==='personal'?`<button type="button" class="text-button" data-dictionary-remove="${esc(item.id)}">Remove</button>`:''}</span></li>`).join('');
-  return `<h2 id="dictionary-dialog-title">Dictionaries</h2><p class="dictionary-help">Word tooltips and interlinear rows use the dictionaries turned on below, in this order. Pronunciations and one-word glosses come from the dictionaries, not from the translation shown beneath each paragraph.</p>${rows?`<ol class="dictionary-list">${rows}</ol>`:'<p class="dictionary-help">No dictionaries are available yet.</p>'}<div class="dictionary-add"><label class="secondary-button" for="dictionary-file">Add a dictionary file…</label><input type="file" id="dictionary-file" accept=".tsv,.csv,.txt,text/tab-separated-values,text/csv"><p class="dictionary-help">A spreadsheet saved as TSV or CSV. The first row names the columns: <code>form</code> and <code>gloss</code> are required; <code>lemma</code>, <code>lang</code>, <code>translit</code>, <code>definition</code> and <code>notes</code> are optional. The file stays in this browser and is not uploaded.</p><p id="dictionary-status" class="dictionary-status" role="status"></p></div><div class="dictionary-close"><button type="button" class="secondary" id="dictionary-close">Close</button></div>`;
+  const rows=list.map((item,i)=>`<li class="dictionary-row"><label><input type="checkbox" data-dictionary-toggle="${esc(item.id)}"${item.enabled?' checked':''}> <span class="dictionary-name">${esc(item.name)}</span></label><span class="dictionary-meta">${item.kind==='personal'?'Your dictionary (kept in this browser)':'Published'}${item.aiGenerated?' · AI-generated':''} · ${Number(item.entries||0).toLocaleString('en-US')} entries</span>${item.description?`<span class="dictionary-description">${esc(item.description)}</span>`:''}${item.kind==='published'?`<a class="dictionary-review-link" href="./dictionary-browser.html?dict=${encodeURIComponent(item.id)}">Browse entries →</a><a class="dictionary-review-link" href="./dictionary-review.html?dict=${encodeURIComponent(item.id)}">Review entries →</a>`:''}<span class="dictionary-actions"><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="-1"${i?'':' disabled'} aria-label="Move ${esc(item.name)} up">↑</button><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="1"${i<list.length-1?'':' disabled'} aria-label="Move ${esc(item.name)} down">↓</button>${item.kind==='personal'?`<button type="button" class="text-button" data-dictionary-remove="${esc(item.id)}">Remove</button>`:''}</span></li>`).join('');
+  return `<h2 id="dictionary-dialog-title">Dictionaries</h2><p class="dictionary-help">Word tooltips and interlinear rows use the dictionaries turned on below, in this order. Pronunciations and one-word glosses come from the dictionaries, not from the translation shown beneath each paragraph.</p>${rows?`<ol class="dictionary-list">${rows}</ol>`:'<p class="dictionary-help">No dictionaries are available yet.</p>'}<div class="dictionary-add"><label class="secondary-button" for="dictionary-file">Add a dictionary file…</label><input type="file" id="dictionary-file" accept=".tsv,.csv,.txt,text/tab-separated-values,text/csv"><p class="dictionary-help">A spreadsheet saved as TSV or CSV. The first row names the columns: <code>form</code> and <code>gloss</code> are required; <code>lemma</code>, <code>lang</code>, <code>translit</code>, <code>definition</code>, <code>notes</code>, <code>pos</code>, <code>root</code>, <code>tags</code>, <code>modern</code>, <code>modern_translit</code>, <code>modern_gloss</code>, <code>shift</code> and <code>usage</code> are optional. The file stays in this browser and is not uploaded.</p><p id="dictionary-status" class="dictionary-status" role="status"></p></div><div class="dictionary-close"><button type="button" class="secondary" id="dictionary-close">Close</button></div>`;
 }
 
 export function openDictionaryDialog(store){

@@ -147,3 +147,19 @@ test('the published sample dictionary round-trips unchanged and reports its coun
   assert.equal(filterRows(source,{})[0].entry.status,'uncertain');
   assert.ok(hasContext(source.rows[0].entry));assert.equal(hasContext({form:'light'}),false);
 });
+
+test('part of speech, root, tags, modern and usage are editable when the file has them, and bad tags fail the check',()=>{
+  const text='form\tgloss\tpos\troot\ttags\tmodern\tusage\nاحبّای\tbeloved-ones\tnoun pl.\tح-ب-ب\tbahai\tدوستان\tThe believers.\n';
+  const source=readReviewSource(text);
+  assert.deepEqual(editableColumns(source),['form','pos','root','gloss','tags','modern','usage','status','reviewer']);
+  assert.deepEqual(source.rows[0].entry,{form:'احبّای',gloss:'beloved-ones',pos:'noun pl.',root:'ح-ب-ب',tags:'bahai',modern:'دوستان',usage:'The believers.'});
+  const drafts=setDraft({},source.rows[0],{tags:'bahai,archaic',usage:'The believers, the friends.'});
+  const out=exportTsv(source,drafts);
+  assert.equal(out,'form\tgloss\tpos\troot\ttags\tmodern\tusage\nاحبّای\tbeloved-ones\tnoun pl.\tح-ب-ب\tbahai,archaic\tدوستان\tThe believers, the friends.\n');
+  assert.equal(parseDictionary(out,{strict:true})[0].tags,'bahai,archaic');
+  assert.throws(()=>parseDictionary(exportTsv(source,setDraft({},source.rows[0],{tags:'bahai, holy'})),{strict:true}),/unknown tag "holy"/);
+  const added=exportTsv(readReviewSource('form\tgloss\nنور\tlight\n'),{'0:نور':{tags:'mystical'}});
+  assert.equal(added,'form\tgloss\ttags\nنور\tlight\tmystical\n');
+  assert.ok(!editableColumns(source).includes('register'),'no register field without a register column');
+  assert.ok(editableColumns(readReviewSource('form\tgloss\tregister\nامر\tcause\televated\n')).includes('register'),'legacy files keep theirs');
+});

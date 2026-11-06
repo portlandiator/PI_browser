@@ -30,7 +30,8 @@
 .review-field input,.review-field select,.review-field textarea{width:100%;font-size:16px;min-height:40px;padding:7px 9px;border-radius:4px}
 .review-field textarea{resize:vertical;line-height:1.5}
 .review-field [lang=fa]{font-family:'Scheherazade New',serif;font-size:19px}
-.field-definition,.field-notes{grid-column:1/-1}
+.field-definition,.field-notes,.field-usage,.field-tags{grid-column:1/-1}
+.review-hint{font-size:11px;color:var(--muted)}
 .review-field textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 .review-entry-actions{display:flex;flex-wrap:wrap;gap:8px}
 .review-context{border-top:1px solid var(--rule);margin-top:12px;padding-top:10px}

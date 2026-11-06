@@ -51,11 +51,12 @@ export function createConcordance(base,datasetPath,{fetchJson=fetchJsonDefault,s
 export function concordanceSectionHtml(result,{word='',shortcut=false}={}){
   if(!result?.entry)return '';
   const {n,r=[],w=[]}=result.entry;
-  const via=result.via?`<p class="word-tooltip-via">Counted as <span dir="auto">${esc(result.matched)}</span> (${esc(String(result.via).replace(/–/g,''))} removed).</p>`:'';
-  const words=w.slice(0,6).map(item=>esc(item[0])).filter(Boolean);
-  const often=words.length?`<p class="concordance-often">Often appears with: ${words.join(' · ')}</p><p class="concordance-note">${statisticsNote}</p>`:'';
+  const via=result.via?` <span class="concordance-via">(counted as <span dir="auto">${esc(result.matched)}</span>, ${esc(String(result.via).replace(/–/g,''))} removed)</span>`:'';
+  const words=w.slice(0,4).map(item=>esc(item[0])).filter(Boolean);
+  const often=words.length?` · <span class="concordance-often"><span class="sr-only">often appears with </span>${words.join(', ')}</span>`:'';
   const open=r.length?`<button type="button" class="text-button concordance-open" data-concordance-key="${esc(result.matched)}"${word?` aria-label="Show passages with ${esc(word)}"`:''}${shortcut?' aria-keyshortcuts="P"':''}>Show passages${shortcut?' (P)':''}</button>`:'';
-  return `<section class="word-tooltip-concordance"><h3 class="concordance-heading">In authorized translations</h3>${via}<p class="concordance-count">Found in ${count(n)} paragraph${Number(n)===1?'':'s'}</p>${often}${open}</section>`;
+  // One or two lines: the count and frequent words, then Show passages and the statistics note.
+  return `<section class="word-tooltip-concordance" title="${statisticsNote[0].toUpperCase()+statisticsNote.slice(1)}"><p class="concordance-line"><span class="concordance-heading">Authorized translations:</span> <span class="concordance-count">${count(n)}<span aria-hidden="true"> ¶</span><span class="sr-only"> paragraph${Number(n)===1?'':'s'}</span></span>${via}${often}</p><p class="concordance-actions">${open}<span class="concordance-note">statistics, not a translation</span></p></section>`;
 }
 
 // Original paragraph text with every word of this key marked.
@@ -104,7 +105,7 @@ export function openConcordanceDialog(options){
   if(!dialog){dialog=document.createElement('dialog');dialog.id='concordance-dialog';dialog.className='dictionary-dialog concordance-dialog';dialog.setAttribute('aria-labelledby','concordance-dialog-title');document.body.append(dialog);}
   const reopened=dialog.open;
   if(!reopened)outerFocus=returnFocus;
-  if(tools?.store&&!dialogTooltip)dialogTooltip=attachWordTooltip(dialog,tools.store,{layer:dialog,target:()=>tools.target?.()||'',prefer:anchor=>anchor?.closest?.('[data-language]')?.dataset.language||'',concordance:tools.concordance||null,mode:()=>tools.mode?.()||'click',onOpenConcordance:(next,nextResult)=>openConcordanceDialog({...dialog.lastOptions,word:next,result:nextResult,returnFocus:null})});
+  if(tools?.store&&!dialogTooltip)dialogTooltip=attachWordTooltip(dialog,tools.store,{layer:dialog,target:()=>tools.target?.()||'',prefer:anchor=>anchor?.closest?.('[data-language]')?.dataset.language||'',concordance:tools.concordance||null,mode:()=>tools.mode?.()||'click',gloss:()=>tools.gloss?.()||'plain',onOpenConcordance:(next,nextResult)=>openConcordanceDialog({...dialog.lastOptions,word:next,result:nextResult,returnFocus:null})});
   dialog.lastOptions=options;
   dialogTooltip?.hide();
   const views=tools?.store?passageViews:passageViews.filter(view=>view!=='words');
