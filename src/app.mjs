@@ -17,7 +17,7 @@ import {createDictionaryStore} from './dictionary-store.mjs';
 import {textLanguage,wordTags,tagLabels} from './dictionary.mjs';
 import {studyMode,glossTarget,glossStyle,tooltipMode,wordMark,interlinearBlockHtml,fillInterlinear,lazyInterlinear,attachWordTooltip,openDictionaryDialog} from './word-study.mjs';
 import {openHelp} from './help.mjs';
-import {createConcordance,concordanceSectionHtml,openConcordanceDialog} from './concordance-view.mjs';
+import {createConcordance,concordanceTools,openConcordanceDialog} from './concordance-view.mjs';
 const $=id=>document.getElementById(id);
 const filters=['author'];
 const labels={author:'Author'};
@@ -42,8 +42,10 @@ preferences.mark=wordMark(preferences.mark);
 const activeTooltips=()=>preferences.tooltips;
 const dictionaries=createDictionaryStore(new URL('./',location.href));
 let wordTooltip=null,concordance=null,studyBlocks=null;
-// Created once the dataset is known; until then tooltips have no concordance section.
-const concordanceView={lookup:word=>concordance?concordance.lookup(word):Promise.resolve(null),sectionHtml:concordanceSectionHtml};
+// Created once the dataset is known; until then tooltips have no concordance
+// section. Original words show their English co-occurrences, English words
+// the original words usually found with them.
+const concordanceView=concordanceTools(()=>concordance,dictionaries);
 // The passages dialog offers the reader's word tools: the Words view and word tooltips.
 const openConcordance=(word,result,{returnFocus=null}={})=>openConcordanceDialog({word,result,returnFocus,getRecord,paragraphUrl:(id,reference)=>paragraphUrl(location.pathname,id,reference),tools:{store:dictionaries,concordance:concordanceView,mode:activeTooltips,vowels:activeVowels,gloss:activeGloss,target:activeTarget}});
 dictionaries.onChange(()=>{if(reading&&activeStudy(reading))renderReading();});

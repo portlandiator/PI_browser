@@ -30,7 +30,7 @@ test('authorized pairs follow ranges, layouts and publication rules',()=>{
 
 test('concordance counts paragraphs, orders references and scores co-occurrence',()=>{
   const result=buildConcordance(records);
-  assert.deepEqual(result.index,{paragraphs:4,records:2,keys:3});
+  assert.deepEqual(result.index,{paragraphs:4,records:2,keys:3,englishKeys:5});
   assert.equal(result.shards.length,concordanceShards);
   const glory=entry(result,'بهاء');
   assert.equal(glory.n,4);
@@ -91,7 +91,9 @@ test('writeConcordance publishes index and shards from a dataset',async t=>{
   const summary=await writeConcordance(root,out,dataset);
   assert.equal(summary.paragraphs,4);
   const index=JSON.parse(await fs.readFile(path.join(out,'concordance','index.json'),'utf8'));
-  assert.deepEqual(index,{format:1,dataset,shards:256,paragraphs:4,records:2,keys:3});
+  assert.deepEqual(index,{format:1,dataset,shards:256,english:true,paragraphs:4,records:2,keys:3,englishKeys:5});
+  const english=JSON.parse(await fs.readFile(path.join(out,'concordance',`e-${concordanceShard('glory')}.json`),'utf8'));
+  assert.equal(english.glory.n,4);assert.deepEqual(english.glory.o[0],['بهاء',1,4]);
   const key=dictionaryKey('بهاء');
   const shard=JSON.parse(await fs.readFile(path.join(out,'concordance',`o-${concordanceShard(key)}.json`),'utf8'));
   assert.equal(shard[key].n,4);
@@ -104,4 +106,35 @@ test('a word mostly written with a capital keeps it; a mixed one is lower-cased'
   assert.equal(displayForm(new Map([['God',9614],['god',3]])),'God');
   assert.equal(displayForm(new Map([['Cause',1125],['cause',652]])),'cause');
   assert.equal(displayForm(new Map([['friends',60]])),'friends');
+});
+
+test('the reverse concordance lists English words with the original words found with them',()=>{
+  const result=buildConcordance(records);
+  const english=word=>result.english[concordanceShard(word)][word];
+  assert.equal(result.english.length,concordanceShards);
+  // English paragraph numbers, ordered like the forward index (citations, id, number).
+  const glory=english('glory');
+  assert.equal(glory.n,4);
+  assert.deepEqual(glory.r,[['AB002',1],['AB002',2],['BH001',1],['BH001',2]]);
+  // بهاء in all 4 pairs: dice 1; نور in 3: 2*3/(4+3). عباد (one pair) is left out.
+  assert.deepEqual(glory.o,[['بهاء',1,4],['نور',0.857,3]]);
+  assert.deepEqual(english('light').o,[['نور',1,3],['بهاء',0.857,3]]);
+  assert.deepEqual(english('servants'),{n:1,r:[['AB002',2]],o:[]});
+  // Stopwords and short words have no entry.
+  for(const word of ['the','and','of','upon'])assert.equal(english(word),undefined,word);
+});
+
+test('the reverse concordance needs a joint count of two, caps and shows usual spellings',()=>{
+  const letters=n=>String.fromCharCode(...[...String(n).padStart(2,'0')].map(d=>97+Number(d)));
+  // "word" is in 30 pairs; کلمه in all, each other original word in 2 or 3.
+  const many=Array.from({length:30},(_,i)=>record(`X${String(i).padStart(3,'0')}`,{citationCount:i%3,en:['word','word'],original:[`کلمهٔ ${'ب'.repeat(2+(i%10))}`,`کلمه ${'ت'.repeat(2+(i%12))}`]}));
+  const result=buildConcordance(many),word=result.english[concordanceShard('word')].word;
+  assert.equal(word.n,60);assert.equal(word.r.length,40);
+  assert.deepEqual(word.r[0],['X002',1]);
+  assert.equal(word.o.length,8);
+  // The most frequent spelling of کلمه is shown (30 each: the first seen wins).
+  assert.deepEqual(word.o[0],['کلمهٔ',1,60]);
+  assert.ok(word.o.every(([,,joint])=>joint>=2));
+  const few=buildConcordance([record('Y1',{en:['rare word','other word'],original:['الف','باء']})]);
+  assert.deepEqual(few.english[concordanceShard('word')].word.o,[]);
 });

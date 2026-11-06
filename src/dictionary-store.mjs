@@ -7,7 +7,10 @@ import {indexEntries,parseDictionary,dictionaryShard,lookupWord,dictionaryTarget
 
 const settingsKey='pi-dictionaries';
 const database='pi-dictionaries',storeName='personal';
-const shardLimit=256;
+const shardLimit=1024;
+// At most a few shard requests at once: a long word-study view can need hundreds.
+const maxFetches=6;let activeFetches=0;const fetchQueue=[];
+const limitedFetch=url=>new Promise((resolve,reject)=>{const run=()=>{activeFetches++;fetch(url).then(resolve,reject).finally(()=>{activeFetches--;fetchQueue.shift()?.();});};activeFetches<maxFetches?run():fetchQueue.push(run);});
 
 function readSettings(){try{const value=JSON.parse(localStorage.getItem(settingsKey)||'{}');return {order:Array.isArray(value.order)?value.order.filter(id=>typeof id==='string'):[],disabled:Array.isArray(value.disabled)?value.disabled.filter(id=>typeof id==='string'):[]};}catch{return {order:[],disabled:[]};}}
 function writeSettings(settings){try{localStorage.setItem(settingsKey,JSON.stringify(settings));}catch{}}
@@ -48,7 +51,7 @@ export function createDictionaryStore(base){
   async function shard(item,side,n){
     const key=`${item.id}/${side}/${n}`;
     if(shards.has(key)){const value=shards.get(key);shards.delete(key);shards.set(key,value);return value;}
-    const promise=item.shards[side].includes(n)?fetch(new URL(`dictionaries/${item.id}/${side[0]}-${n}.json`,base)).then(r=>r.ok?r.json():{}).catch(()=>{shards.delete(key);return {};}):Promise.resolve({});
+    const promise=item.shards[side].includes(n)?limitedFetch(new URL(`dictionaries/${item.id}/${side[0]}-${n}.json`,base)).then(r=>r.ok?r.json():{}).catch(()=>{shards.delete(key);return {};}):Promise.resolve({});
     shards.set(key,promise);if(shards.size>shardLimit)shards.delete(shards.keys().next().value);
     return promise;
   }
@@ -60,7 +63,7 @@ export function createDictionaryStore(base){
   return {
     ready(){return ready||=load();},
     onChange(listener){listeners.add(listener);return ()=>listeners.delete(listener);},
-    list(){return all().map(item=>({id:item.id,name:item.name,kind:item.kind,description:item.description||'',aiGenerated:!!item.aiGenerated,target:item.target||'',entries:item.entries,enabled:!settings.disabled.includes(item.id)}));},
+    list(){return all().map(item=>({id:item.id,name:item.name,kind:item.kind,description:item.description||'',aiGenerated:!!item.aiGenerated,target:item.target||'',entries:item.entries,forms:item.forms,uncertain:item.uncertain,about:Array.isArray(item.about)?item.about:[],enabled:!settings.disabled.includes(item.id)}));},
     info(id){const item=published.get(id)||personal.get(id);return item?{id,name:item.name,kind:item.kind,aiGenerated:!!item.aiGenerated,target:item.target||''}:null;},
     active(){return all().filter(item=>!settings.disabled.includes(item.id));},
     hasActive(){return this.active().length>0;},

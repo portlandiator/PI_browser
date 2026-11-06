@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createConcordance,concordanceSectionHtml,markedText,pairedEnglish,passageHtml,passageView} from '../src/concordance-view.mjs';
+import {createConcordance,concordanceSectionHtml,concordanceTools,englishPassageHtml,englishSectionHtml,fillTransliterations,markedText,pairedEnglish,pairedOriginal,passageHtml,passageView} from '../src/concordance-view.mjs';
 import {dictionaryKey,candidateKeys} from '../src/dictionary.mjs';
 import {concordanceShard} from '../src/concordance.mjs';
 import {passagesKey} from '../src/word-study.mjs';
@@ -9,13 +9,13 @@ const base='https://example.org/PI_browser/';
 const dataset='collections/abc/';
 const index={format:1,dataset,shards:256,paragraphs:10,records:2,keys:3};
 // Published shard files for a set of entries, recording each fetch.
-function source(entries,{indexValue=index}={}){
+function source(entries,{indexValue=index,english={}}={}){
   const files=new Map(),fetched=[];
-  for(const [key,value] of Object.entries(entries)){const n=concordanceShard(key);files.set(n,{...files.get(n),[key]:value});}
+  for(const [prefix,list] of [['o',entries],['e',english]])for(const [key,value] of Object.entries(list)){const file=`${prefix}-${concordanceShard(key)}`;files.set(file,{...files.get(file),[key]:value});}
   const fetchJson=async url=>{
     const path=String(url).slice(base.length);fetched.push(path);
     if(path==='concordance/index.json')return indexValue;
-    return files.get(Number(path.match(/^concordance\/o-(\d+)\.json$/)?.[1]))||null;
+    return files.get(path.match(/^concordance\/([oe]-\d+)\.json$/)?.[1])||null;
   };
   return {fetchJson,fetched};
 }
@@ -118,4 +118,73 @@ test('passages show in Parallel, Original or Words view',()=>{
   assert.match(words,/class="paragraph-cell interlinear-free english-cell" dir="ltr" lang="en"><p>The light &lt;of&gt; God\.<\/p>/);
   const unequal={...record,en:{paragraphs:[{plain:'Only one.'}]}};
   assert.match(passageHtml(unequal,['BH1',2],key,'#','words'),/No English paragraph is paired/);
+});
+
+const divers={n:46,r:[['AB00016',2],['BH00002',7]],o:[['مختلفه',0.219,15],['متعدّده',0.143,5],['<b>',0.12,4],['الوان',0.1,3],['سبل',0.1,3]]};
+
+test('the English section shows counts and likely original words as statistics, escaped',()=>{
+  const html=englishSectionHtml({key:'divers',matched:'divers',via:'',entry:divers,english:true},{word:'<divers>'});
+  assert.match(html,/^<section class="word-tooltip-concordance concordance-english-section" title="Statistics from authorized paragraphs, not a word-for-word translation">/);
+  assert.match(html,/In authorized translations:<\/span> <span class="concordance-count">Found in 46 paragraphs<\/span>/);
+  assert.match(html,/Usually renders: <span class="concordance-source-item" title="Found together in 15 of 46 paragraphs"><span class="concordance-source" dir="rtl" lang="fa" data-concordance-source="مختلفه">مختلفه<\/span><span class="concordance-translit" dir="ltr"><\/span><\/span>/);
+  assert.match(html,/data-concordance-source="&lt;b&gt;">&lt;b&gt;</);
+  assert.ok(html.includes('الوان')&&!html.includes('سبل'),'four at most');
+  assert.match(html,/<span class="concordance-note">statistics from authorized paragraphs, not a word-for-word translation<\/span>/);
+  assert.match(html,/aria-label="Show passages with &lt;divers&gt;">Show passages<\/button>/);
+  assert.doesNotMatch(html,/<b>|<divers>/);
+  assert.match(englishSectionHtml({key:'k',matched:'k',via:'',entry:{n:1,r:[['A',1]],o:[]}}),/Found in 1 paragraph<\/span>/);
+  assert.doesNotMatch(englishSectionHtml({key:'k',matched:'k',via:'',entry:{n:1,r:[['A',1]],o:[]}}),/Usually renders/);
+  assert.equal(englishSectionHtml(null),'');
+});
+
+test('transliterations are filled from the dictionaries, when there are any',async()=>{
+  const html=englishSectionHtml({key:'divers',matched:'divers',via:'',entry:divers});
+  // A minimal element tree for the section.
+  const items=[...html.matchAll(/data-concordance-source="([^"]*)"/g)].map(match=>{const target={textContent:'',classList:{contains:name=>name==='concordance-translit'}};return {dataset:{concordanceSource:match[1]},nextElementSibling:target};});
+  const root={querySelectorAll:()=>items};
+  const store={lookup:async word=>word==='مختلفه'?{entries:[{reverse:true,translit:'x'},{translit:'mukhtalifih'}]}:word==='الوان'?Promise.reject(Error('x')):{entries:[]}};
+  assert.equal(await fillTransliterations(root,store),true);
+  assert.deepEqual(items.map(item=>item.nextElementSibling.textContent),[' mukhtalifih','','','']);
+  assert.equal(await fillTransliterations(root,null),false);
+  assert.equal(await fillTransliterations(root,store,()=>false),false);
+});
+
+test('English lookups use the e- shards, fall back to simple stems and need the english index flag',async()=>{
+  const fake=source({},{english:{divers,shade:{n:3,r:[],o:[]}},indexValue:{...index,english:true}});
+  const concordance=createConcordance(base,dataset,fake);
+  assert.deepEqual(await concordance.lookupEnglish('Divers'),{key:'divers',matched:'divers',via:'',entry:divers,english:true});
+  const shades=await concordance.lookupEnglish('shades');
+  assert.equal(shades.matched,'shade');assert.equal(shades.via,'s');assert.equal(shades.english,true);
+  assert.ok(fake.fetched.includes(`concordance/e-${concordanceShard('divers')}.json`));
+  assert.ok(!fake.fetched.some(path=>/\/o-/.test(path)));
+  assert.equal(await concordance.lookupEnglish('نور'),null);
+  assert.equal((await concordance.lookupAny('divers')).english,true);
+  const old=createConcordance(base,dataset,source({},{english:{divers}}));
+  assert.equal(await old.lookupEnglish('divers'),null);
+  // The tooltip tools choose the section for each direction.
+  const tools=concordanceTools(()=>concordance);
+  assert.equal(tools.english,true);
+  assert.match(tools.sectionHtml(await tools.lookup('divers'),{word:'divers'}),/Usually renders/);
+  assert.match(tools.sectionHtml({key:'k',matched:'k',via:'',entry},{word:'w'}),/Authorized translations:<\/span> <span class="concordance-count">1,234/);
+  assert.equal(await concordanceTools(()=>null).lookup('divers'),null);
+});
+
+test('English passages mark the word in English and likely sources in the original',()=>{
+  const record={id:'AB1',title:'T',en:{paragraphs:[{plain:'Intro.'},{plain:'Divers shades of <thought>, divers ways.'}]},original:{paragraphs:[{plain:'اول'},{plain:'افکار مختلفه و سبل متعدّده'}]}};
+  assert.equal(pairedOriginal(record,2).plain,'افکار مختلفه و سبل متعدّده');
+  const sources=['مختلفه','متعدّده'].map(dictionaryKey);
+  const html=englishPassageHtml(record,['AB1',2],'divers',sources,'?id=AB1&paragraph=2');
+  assert.match(html,/<p class="concordance-english" dir="ltr" lang="en" data-word-text><mark>Divers<\/mark> shades of &lt;thought&gt;, <mark>divers<\/mark> ways\.<\/p><p class="concordance-original"/);
+  assert.match(html,/افکار <mark class="likely-source">مختلفه<\/mark> و سبل <mark class="likely-source">متعدّده<\/mark>/);
+  const original=englishPassageHtml(record,['AB1',2],'divers',sources,'#','original');
+  assert.match(original,/likely-source/);assert.doesNotMatch(original,/Divers/);
+  const words=englishPassageHtml(record,['AB1',2],'divers',sources,'#','words');
+  assert.match(words,/<span class="ilw ilw-likely" tabindex="-1" data-word="مختلفه">/);
+  assert.match(words,/<span class="ilw" tabindex="0" data-word="افکار">/);
+  assert.match(words,/english-cell" dir="ltr" lang="en"><p><mark>Divers<\/mark> shades/);
+  const unequal={...record,original:{paragraphs:[{plain:'اول'}]}};
+  assert.match(englishPassageHtml(unequal,['AB1',2],'divers',sources,'#'),/<mark>Divers<\/mark>.*No original paragraph is paired/);
+  assert.match(englishPassageHtml(unequal,['AB1',2],'divers',sources,'#','words'),/No original paragraph is paired/);
+  assert.match(englishPassageHtml(record,['AB1',9],'divers',sources,'#'),/could not be loaded/);
+  assert.equal(markedText('a <b> c',new Set(['b']),'x'),'a &lt;<mark class="x">b</mark>&gt; c');
 });

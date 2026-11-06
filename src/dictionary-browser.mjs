@@ -5,7 +5,9 @@
 // The dictionaries are AI-generated samples; the review page edits them.
 import {escapeHtml as esc} from './text.mjs';
 import {parseDictionary,wordTags,tagLabels,dictionaryKey} from './dictionary.mjs';
-import {createConcordance,openConcordanceDialog} from './concordance-view.mjs';
+import {createConcordance,englishSectionHtml,fillTransliterations,openConcordanceDialog} from './concordance-view.mjs';
+import {createDictionaryStore} from './dictionary-store.mjs';
+import {dictionaryAboutHtml} from './word-study.mjs';
 import {concordanceShards} from './concordance.mjs';
 import {paragraphUrl} from './paragraph-links.mjs';
 import {recordFilename} from './record-file.mjs';
@@ -16,7 +18,7 @@ const $=id=>document.getElementById(id);
 const base=new URL('./',location.href);
 let index=[],state=stateFromParams(location.search),shown=[],searchTimer=0,run=0;
 const loaded=new Map(),records=new Map();
-let manifest=null,concordance=null,datasetBase=null,frequencies=null,frequencyLoad=null;
+let transliterations=null,manifest=null,concordance=null,datasetBase=null,frequencies=null,frequencyLoad=null;
 
 // Published dictionaries, each parsed once, its search keys prepared once.
 function loadDictionary(info){
@@ -101,7 +103,17 @@ function resultCount(){
   const n=shown.length;
   return n?`${count(n)} entr${n===1?'y matches':'ies match'}`:'No entries match';
 }
+// With exactly one dictionary chosen, its About box shows above the results
+// (open when the URL says about=1, as the tooltip's dictionary link does).
+function renderAbout(){
+  const box=$('dict-about'),info=state.dict.length===1?index.find(item=>item.id===state.dict[0]):null;
+  const html=info?dictionaryAboutHtml(info,{summary:`About ${info.name}`,open:state.about,className:'dict-about-box'}):'';
+  if(box.dataset.for!==(info?.id||'')||!html){box.innerHTML=html;box.dataset.for=info?.id||'';}
+  else box.querySelector('details').open=state.about;
+  box.hidden=!html;
+}
 function render(){
+  renderAbout();
   const total=pages(shown.length);state.page=Math.min(state.page,total);
   const slice=shown.slice((state.page-1)*pageSize,state.page*pageSize);
   $('dict-count').textContent=resultCount();
@@ -145,9 +157,11 @@ async function fillConcordance(item,box){
   try{
     await collection();
     if(!await concordance.ready()){box.innerHTML='<p class="concordance-note">No concordance is published for this collection.</p>';return;}
-    const word=item.entry.form,result=await concordance.lookup(word);
+    const word=item.entry.form,result=item.original?await concordance.lookup(word):await concordance.lookupEnglish(word);
     if(!box.isConnected)return;
     if(!result){box.innerHTML='<p class="concordance-note">Not found in any authorized-translation paragraph.</p>';return;}
+    // An English headword: the original words usually found with it, with their transliterations.
+    if(!item.original){box.innerHTML=englishSectionHtml(result,{word});box.lastResult=result;transliterations??=createDictionaryStore(base);fillTransliterations(box,transliterations,()=>box.isConnected).catch(()=>{});return;}
     const {n,r=[],w=[]}=result.entry,often=w.slice(0,8).map(pair=>esc(pair[0])).filter(Boolean);
     const via=result.via?` (counted as <span dir="auto">${esc(result.matched)}</span>, ${esc(String(result.via).replace(/–/g,''))} removed)`:'';
     box.innerHTML=`<h3 class="concordance-heading">In authorized translations</h3><p class="concordance-count">Found in ${count(n)} paragraph${Number(n)===1?'':'s'}${via}</p>${often.length?`<p class="concordance-often">Often appears with: ${often.join(' · ')}</p>`:''}<p class="concordance-actions">${r.length?`<button type="button" class="secondary" data-action="passages" aria-label="Show passages with ${esc(word)}">Show passages</button>`:''}<span class="concordance-note">Statistics from authorized paragraphs, not a word-for-word translation.</span></p>`;
@@ -170,11 +184,12 @@ function onResultsClick(event){
   const action=event.target.closest('[data-action]');
   if(action?.dataset.action==='clear'){Object.assign(state,stateFromParams(''));change();$('dict-q').focus();return;}
   if(action?.dataset.action==='close-entry'){state.entry='';commit(false);standalone(null);return;}
-  if(action?.dataset.action==='passages'){
-    const box=action.closest('.dict-concordance'),item=action.closest('.dict-item');
+  const passages=action?.dataset.action==='passages'?action:event.target.closest('.dict-concordance .concordance-open');
+  if(passages){
+    const box=passages.closest('.dict-concordance'),item=passages.closest('.dict-item');
     if(!box?.lastResult)return;
     const form=item.querySelector('.dict-word').textContent;
-    openConcordanceDialog({word:form,result:box.lastResult,getRecord,paragraphUrl:(id,reference)=>paragraphUrl('./',id,reference),returnFocus:action});
+    openConcordanceDialog({word:form,result:box.lastResult,getRecord,paragraphUrl:(id,reference)=>paragraphUrl('./',id,reference),returnFocus:passages});
     return;
   }
   const root=event.target.closest('.dict-root-link');
@@ -190,7 +205,7 @@ function onResultsKey(event){
 }
 
 function setUp(){
-  $('dict-dicts').innerHTML=index.map(info=>`<label class="dict-check"><input type="checkbox" value="${esc(info.id)}"> <span>${esc(info.name.replace(/^Sample:\s*/,''))} <small>${count(info.entries)}${info.aiGenerated?' · AI-generated':''}</small></span></label>`).join('');
+  $('dict-dicts').innerHTML=index.map(info=>`<div class="dict-check-row"><label class="dict-check"><input type="checkbox" value="${esc(info.id)}"> <span>${esc(info.name.replace(/^Sample:\s*/,''))} <small>${count(info.entries)}${info.aiGenerated?' · AI-generated':''}</small></span></label>${dictionaryAboutHtml(info,{summary:'About',className:'dict-filter-about'})}</div>`).join('');
   $('dict-tags').innerHTML=wordTags.map(tag=>`<label class="dict-check dict-tag-check"><input type="checkbox" value="${tag}"> <span class="word-tag tag-${tag}">${esc(tagLabels[tag])}</span></label>`).join('');
   $('dict-pos').innerHTML='<option value="">Any part of speech</option>'+posGroups.map(group=>`<option value="${group}">${posLabels[group]}</option>`).join('');
   $('dict-sort').innerHTML=sorts.map(sort=>`<option value="${sort}">${sortLabels[sort]}</option>`).join('');
@@ -202,6 +217,7 @@ function setUp(){
   $('dict-search-form').onsubmit=event=>{event.preventDefault();clearTimeout(searchTimer);state.q=$('dict-q').value;state.page=1;state.entry='';commit(true);apply();};
   $('dict-prev').onclick=()=>{state.page--;state.entry='';commit(true);render();$('dict-count').scrollIntoView({block:'start'});$('dict-results').querySelector('.dict-row')?.focus({preventScroll:true});};
   $('dict-next').onclick=()=>{state.page++;state.entry='';commit(true);render();$('dict-count').scrollIntoView({block:'start'});$('dict-results').querySelector('.dict-row')?.focus({preventScroll:true});};
+  $('dict-about').addEventListener('toggle',event=>{state.about=event.target.open;commit(false);},true);
   $('dict-results').addEventListener('click',onResultsClick);$('dict-standalone').addEventListener('click',onResultsClick);
   $('dict-results').addEventListener('keydown',onResultsKey);
   window.addEventListener('popstate',()=>{state=stateFromParams(location.search);fillControls();apply({reveal:true});});

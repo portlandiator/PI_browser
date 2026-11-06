@@ -162,6 +162,16 @@
 .concordance-dialog .interlinear-free p{font-size:15px;line-height:1.65}
 .concordance-dialog .paragraph-cell:before{display:none}
 .ilw-match .ilw-text{background:var(--highlight);border-radius:2px}
+/* Reverse concordance (English words): the original words usually found with the word, and likely sources marked in the original with a dashed, differently coloured mark so they never read as the word itself. */
+.concordance-renders{margin:2px 0 0;line-height:1.5}
+.concordance-source-item{unicode-bidi:isolate;white-space:nowrap}
+.concordance-source{font:18px/1.3 "Scheherazade New",serif}
+.concordance-translit{color:var(--muted);font-style:italic;font-size:12px}
+.concordance-sep{color:var(--muted)}
+mark.likely-source,.ilw-likely .ilw-text{background:var(--tag-bahai-bg);color:inherit;border-bottom:2px dashed var(--tag-bahai-ink);border-radius:2px}
+.concordance-legend{margin-top:4px}
+.dict-concordance .word-tooltip-concordance{border-top:0;margin-top:0;padding-top:0;font-size:14px}
+.dict-concordance .concordance-open{color:var(--link);text-decoration:underline}
 @media print{.tooltip-controls{display:none}}
 /* With word-study options added, tighter segmented buttons keep the reader toolbar on one row on wide screens. */
 @media(min-width:1280px){.reader-controls .segmented button{padding-inline:12px}.reader-controls .dictionary-button{padding-inline:12px}}
@@ -214,3 +224,10 @@
 
 .reader-controls .help-button-toolbar{min-width:40px;padding-inline:0;font-size:16px;font-weight:600}
 .word-tooltip-dict-link{display:block;margin-top:4px;font-size:12px}
+/* A dictionary's About: what it covers, what an entry is, how it was made (Dictionaries dialog, dictionary browser, review page). */
+.dictionary-about{grid-column:1/-1;font-size:13px;line-height:1.5}
+.dictionary-about summary{cursor:pointer;color:var(--link);width:max-content;max-width:100%}
+.dictionary-about-body{max-width:68ch}
+.dictionary-about-body p{margin:6px 0}
+.dictionary-about-facts{color:var(--muted);font-size:12px}
+.word-tooltip-about-link{color:inherit;text-decoration:underline;text-decoration-color:var(--rule)}

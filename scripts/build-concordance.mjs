@@ -1,5 +1,6 @@
 // Publish the concordance of authorized renderings as <out>/concordance/:
-// index.json and up to 256 shards o-<n>.json keyed by original word form, read
+// index.json, up to 256 shards o-<n>.json keyed by original word form and up to
+// 256 shards e-<n>.json keyed by English word (the reverse concordance), read
 // on demand by the reader. Built from the dataset's records on every build and
 // interface refresh.
 import fs from 'node:fs/promises';
@@ -29,18 +30,18 @@ async function readRecords(folder){
 
 export async function writeConcordance(root,out,dataset){
   if(!/^collections\/[\w-]+\/$/.test(dataset||''))throw Error(`Invalid dataset path: ${dataset}`);
-  const {index,shards}=buildConcordance(await readRecords(path.join(out,dataset,'data')));
+  const {index,shards,english}=buildConcordance(await readRecords(path.join(out,dataset,'data')));
   const target=path.join(out,'concordance');
   await fs.rm(target,{recursive:true,force:true});
   await fs.mkdir(target,{recursive:true});
   let files=0,bytes=0;
-  for(let n=0;n<concordanceShards;n++){
-    if(!Object.keys(shards[n]).length)continue;
-    const text=JSON.stringify(shards[n]);
-    await fs.writeFile(path.join(target,`o-${n}.json`),text);
+  for(const [prefix,list] of [['o',shards],['e',english]])for(let n=0;n<concordanceShards;n++){
+    if(!Object.keys(list[n]).length)continue;
+    const text=JSON.stringify(list[n]);
+    await fs.writeFile(path.join(target,`${prefix}-${n}.json`),text);
     files++;bytes+=Buffer.byteLength(text);
   }
-  const summary={format:1,dataset,shards:concordanceShards,...index};
+  const summary={format:1,dataset,shards:concordanceShards,english:true,...index};
   await fs.writeFile(path.join(target,'index.json'),JSON.stringify(summary));
   return {...index,files,bytes};
 }

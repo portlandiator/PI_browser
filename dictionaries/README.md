@@ -46,4 +46,4 @@ The site's review page, `dictionary-review.html?dict=<id>` (**Review entries →
 
 ## Adding a published dictionary
 
-Put the file here and add an entry to `dictionaries.json`: `id` (lower-case letters, digits and hyphens), `name`, `file`, and optionally `description`, `source` and `aiGenerated: true` for machine-generated content, which the reader labels as AI-generated.
+Put the file here and add an entry to `dictionaries.json`: `id` (lower-case letters, digits and hyphens), `name`, `file`, and optionally `description`, `source`, `aiGenerated: true` for machine-generated content, which the reader labels as AI-generated, and `about`: a list of 3–4 plain-text paragraphs (scope, what an entry is, contents, how it was made and its limits) that the build passes to `index.json` with the dictionary's counts of entries, distinct forms and uncertain entries (`entries`, `forms`, `uncertain`), shown as “About this dictionary” in the Dictionaries dialog, the dictionary browser and the review page.

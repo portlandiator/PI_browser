@@ -6,7 +6,7 @@
 import {escapeHtml as esc} from './text.mjs';
 import {parseDictionary,isOriginalScript,wordTags} from './dictionary.mjs';
 import {readReviewSource,editableColumns,reviewFilter,filterRows,statusCounts,draftFor,draftKey,setDraft,draftCount,storageKey,reviewerStamp,markReviewed,markUncertain,exportTsv,hasContext,entryStatus} from './dictionary-review-core.mjs';
-import {reviewLabelHtml} from './word-study.mjs';
+import {dictionaryAboutHtml,reviewLabelHtml} from './word-study.mjs';
 import {createConcordance,passageHtml} from './concordance-view.mjs';
 import {paragraphUrl} from './paragraph-links.mjs';
 import {recordFilename} from './record-file.mjs';
@@ -192,6 +192,8 @@ async function open(id){
   if(saveTimer)saveDrafts();
   const token=++opening;
   item=index.find(entry=>entry.id===id)||index[0];source=null;$('review-dictionary').value=item.id;
+  // What the chosen dictionary covers and how it was made.
+  const about=dictionaryAboutHtml(item,{summary:`About ${item.name}`});$('review-about').innerHTML=about;$('review-about').hidden=!about;
   $('review-entries').innerHTML='';$('review-download').disabled=true;$('review-discard').disabled=true;
   if(!item.file){message(`${item.name} has no published source file yet; rebuild the site to review it.`,true);return;}
   message(`Loading ${item.name}…`);

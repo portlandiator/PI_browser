@@ -86,7 +86,7 @@ export function matchRank(item,search){
 }
 
 // The page state, read from and written to the URL query.
-export const defaultState=()=>({q:'',dict:[],lang:'',tag:[],pos:'',status:'',modern:false,shifted:false,usage:false,root:'',sort:'alpha',page:1,entry:''});
+export const defaultState=()=>({q:'',dict:[],lang:'',tag:[],pos:'',status:'',modern:false,shifted:false,usage:false,root:'',sort:'alpha',page:1,entry:'',about:false});
 const list=value=>[...new Set(String(value||'').split(',').map(item=>item.trim()).filter(Boolean))];
 export function stateFromParams(params){
   params=params instanceof URLSearchParams?params:new URLSearchParams(params);
@@ -97,7 +97,7 @@ export function stateFromParams(params){
   state.tag=list(params.get('tag')).filter(tag=>wordTags.includes(tag));
   state.pos=posGroups.includes(params.get('pos'))?params.get('pos'):'';
   state.status=reviewStatuses.includes(params.get('status'))?params.get('status'):'';
-  for(const flag of ['modern','shifted','usage'])state[flag]=params.get(flag)==='1';
+  for(const flag of ['modern','shifted','usage','about'])state[flag]=params.get(flag)==='1';
   state.root=params.get('root')||'';
   state.sort=sorts.includes(params.get('sort'))?params.get('sort'):'alpha';
   state.page=Math.max(1,Math.floor(Number(params.get('page')))||1);
@@ -117,6 +117,8 @@ export function stateToParams(state){
   if(state.sort!=='alpha')params.set('sort',state.sort);
   if(state.page>1)params.set('page',String(state.page));
   if(state.entry)params.set('entry',state.entry);
+  // The About box of the one chosen dictionary is open.
+  if(state.about&&state.dict.length===1)params.set('about','1');
   return params;
 }
 export const stateQuery=state=>{const params=stateToParams(state);return params.size?`?${params}`:'';};
@@ -203,7 +205,8 @@ export function rowHtml(item,{expanded=false,frequency=0}={}){
 
 // Everything an entry says, labelled. `info` is the dictionary's index entry;
 // `rootHref` gives the link that shows the entry's word family; the
-// concordance section is filled in afterwards.
+// concordance section (English co-occurrences for an original headword, the
+// original words usually found with an English one) is filled in afterwards.
 export function detailHtml(item,info,{rootHref=()=>'#'}={}){
   const e=item.entry,lang=item.scriptLang;
   const field=(label,html,cls='')=>html?`<div class="dict-field${cls?' '+cls:''}"><dt>${label}</dt><dd>${html}</dd></div>`:'';
@@ -220,5 +223,5 @@ export function detailHtml(item,info,{rootHref=()=>'#'}={}){
     field('Tags',tagChipsHtml(item.tags)),field('Modern equivalent',modern),field('Meaning shift',text(e.shift),'dict-wide dict-shift'),
     field('Definition',text(e.definition),'dict-wide'),field('In the Writings',text(e.usage),'dict-wide'),field('Notes',text(e.notes),'dict-wide'),
     field('Review',status),field('Dictionary',source),
-  ].join('')}</dl>${item.original?'<div class="dict-concordance" aria-live="polite"></div>':''}<p class="dict-detail-links"><a class="secondary" href="./?q=${encodeURIComponent(e.form)}&amp;view=${view}">Search the Catalog for this word</a></p>`;
+  ].join('')}</dl><div class="dict-concordance" aria-live="polite"></div><p class="dict-detail-links"><a class="secondary" href="./?q=${encodeURIComponent(e.form)}&amp;view=${view}">Search the Catalog for this word</a></p>`;
 }

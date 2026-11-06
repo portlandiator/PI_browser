@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {parseDictionary,dictionaryKey,candidateKeys,indexEntries,lookupWord,textLanguage,textWords,wordAt,interlinearTokens,shardDictionary,dictionaryShard,reverseKeys,wordTags,tagLabels,entryTags} from '../src/dictionary.mjs';
-import {interlinearCells,reviewLabelHtml,dictionaryDialogHtml,tooltipHtml,interlinearBlockHtml,interlinearColumnsHtml,boundedCache,studyMode,glossStyle,tooltipMode,wordMark,markedWord} from '../src/word-study.mjs';
+import {interlinearCells,reviewLabelHtml,dictionaryAboutHtml,dictionaryDialogHtml,tooltipHtml,interlinearBlockHtml,interlinearColumnsHtml,boundedCache,studyMode,glossStyle,tooltipMode,wordMark,markedWord} from '../src/word-study.mjs';
 import {buildDictionaries,readDictionaryCatalog} from '../scripts/build-dictionaries.mjs';
 
 const root=path.resolve(import.meta.dirname,'..');
@@ -390,4 +390,39 @@ test('an English word heads its tooltip left to right, with the Persian/Arabic o
   const reverse=tooltipHtml({word:'divine',side:'english',entries:[{form:'الهی',translit:'iláhí',gloss:'divine',reverse:true,dictionary:'d'}]},()=>null);
   assert.match(reverse,/^<div class="word-tooltip-english">.*<\/div><div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-lemma">الهی<\/span><\/div>/);
   assert.match(tooltipHtml({word:'<x>',entries:[]},()=>null),/^<div class="word-tooltip-english"><span class="word-tooltip-word" dir="ltr" lang="en">&lt;x&gt;<\/span><\/div><p class="word-tooltip-empty">No dictionary entry/);
+});
+
+test('the build passes each dictionary\'s About paragraphs and counts through, and rejects other types',async()=>{
+  const temp=await fs.mkdtemp(path.join(os.tmpdir(),'pi-dictionaries-'));
+  const catalog=about=>fs.writeFile(path.join(temp,'dictionaries','dictionaries.json'),JSON.stringify({dictionaries:[{id:'t',name:'Test',file:'t.tsv',...(about===undefined?{}:{about})}]}));
+  try{
+    await fs.mkdir(path.join(temp,'dictionaries'));
+    await fs.writeFile(path.join(temp,'dictionaries','t.tsv'),tsv);
+    await catalog([' Scope <b>. ','','How it was made.']);
+    await buildDictionaries(temp,path.join(temp,'out'));
+    const [info]=JSON.parse(await fs.readFile(path.join(temp,'out','dictionaries','index.json'),'utf8')).dictionaries;
+    assert.deepEqual(info.about,['Scope <b>.','How it was made.']);
+    const entries=parseDictionary(tsv);
+    assert.equal(info.entries,entries.length);
+    assert.equal(info.forms,new Set(entries.map(entry=>dictionaryKey(entry.form))).size);
+    assert.equal(info.uncertain,info.review.uncertain);
+    await catalog(undefined);await buildDictionaries(temp,path.join(temp,'out'));
+    assert.equal(JSON.parse(await fs.readFile(path.join(temp,'out','dictionaries','index.json'),'utf8')).dictionaries[0].about,undefined);
+    for(const bad of ['text',[1],[['x']],{a:'b'},null]){await catalog(bad);await assert.rejects(buildDictionaries(temp,path.join(temp,'out')),/about must be a list of paragraphs/,JSON.stringify(bad));}
+  }finally{await fs.rm(temp,{recursive:true,force:true});}
+});
+
+test('a dictionary\'s About is escaped paragraphs with its counts, linked from the tooltip footer',()=>{
+  const info={id:'d',name:'D',kind:'published',entries:2372,forms:2355,uncertain:25,aiGenerated:true,about:['Scope <script>alert(1)</script> & more.','How it was made.']};
+  const html=dictionaryAboutHtml(info);
+  assert.match(html,/^<details class="dictionary-about"><summary>About this dictionary<\/summary><div class="dictionary-about-body"><p>Scope &lt;script&gt;alert\(1\)&lt;\/script&gt; &amp; more\.<\/p><p>How it was made\.<\/p>/);
+  assert.match(html,/<p class="dictionary-about-facts">2,372 entries · 2,355 distinct forms · 25 marked uncertain · AI-generated<\/p><\/div><\/details>$/);
+  assert.doesNotMatch(html,/<script>/);
+  assert.match(dictionaryAboutHtml(info,{summary:'About <D>',open:true,className:'x'}),/^<details class="dictionary-about x" open><summary>About &lt;D&gt;<\/summary>/);
+  for(const none of [{},{about:[]},{about:'text'},null])assert.equal(dictionaryAboutHtml(none),'');
+  const dialog=dictionaryDialogHtml([{...info,enabled:true},{id:'mine',name:'Mine',kind:'personal',entries:1,about:['Not shown']}]);
+  assert.equal(dialog.match(/class="dictionary-about"/g).length,1);
+  const result={word:'نور',side:'original',via:'',matched:'نور',entries:[{form:'نور',gloss:'light',dictionary:'d&x'}]};
+  assert.match(tooltipHtml(result,()=>info),/<div class="word-tooltip-source"><a class="word-tooltip-about-link" href="\.\/dictionary-browser\.html\?dict=d%26x&amp;about=1">D<\/a> · AI-generated/);
+  assert.doesNotMatch(tooltipHtml(result,()=>({...info,kind:'personal'})),/word-tooltip-about-link/);
 });

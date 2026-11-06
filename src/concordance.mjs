@@ -54,10 +54,13 @@ export function authorizedPairs(record){
 const byText=(a,b)=>a<b?-1:a>b?1:0;
 
 // Build the concordance from records (pure). Returns index counts and 256 shard
-// objects keyed by dictionary key.
+// objects keyed by dictionary key: `shards` for original word forms (English
+// words that co-occur) and `english` for English words (original word forms
+// that co-occur, the reverse statistic over the same pairs).
+const ranked=(found,limit)=>found.sort((a,b)=>b[1]-a[1]||b[2]-a[2]||byText(a[0],b[0])).slice(0,limit);
 export function buildConcordance(records){
-  const keyIds=new Map(),keys=[],keyPairs=[];
-  const wordIds=new Map(),words=[],wordDf=[],spellings=[];
+  const keyIds=new Map(),keys=[],keyPairs=[],keySpellings=[];
+  const wordIds=new Map(),words=[],wordPairs=[],spellings=[];
   const pairs=[];let recordCount=0;
   for(const record of records){
     const list=authorizedPairs(record);
@@ -68,43 +71,53 @@ export function buildConcordance(records){
       const p=pairs.length,seenKeys=new Set(),seenWords=new Set();
       for(const {text} of textWords(pair.original.plain||'')){
         const key=dictionaryKey(text);
-        if(!key||seenKeys.has(key))continue;
-        seenKeys.add(key);
+        if(!key)continue;
         let id=keyIds.get(key);
-        if(id===undefined){id=keys.length;keyIds.set(key,id);keys.push(key);keyPairs.push([]);}
-        keyPairs[id].push(p);
+        if(id===undefined){id=keys.length;keyIds.set(key,id);keys.push(key);keyPairs.push([]);keySpellings.push(new Map());}
+        keySpellings[id].set(text,(keySpellings[id].get(text)||0)+1);
+        if(seenKeys.has(id))continue;
+        seenKeys.add(id);keyPairs[id].push(p);
       }
       const english=pair.english.plain||'';
       for(const found of textWords(english)){
         const word=englishWord(found.text);
         if(!word)continue;
         let id=wordIds.get(word);
-        if(id===undefined){id=words.length;wordIds.set(word,id);words.push(word);wordDf.push(0);spellings.push(new Map());}
+        if(id===undefined){id=words.length;wordIds.set(word,id);words.push(word);wordPairs.push([]);spellings.push(new Map());}
         const surface=surfaceOf(english,found);spellings[id].set(surface,(spellings[id].get(surface)||0)+1);
-        if(seenWords.has(word))continue;
-        seenWords.add(word);wordDf[id]++;
+        if(seenWords.has(id))continue;
+        seenWords.add(id);wordPairs[id].push(p);
       }
-      pairs.push({id:record.id,citations,number:pair.originalNumber,words:Int32Array.from(seenWords,word=>wordIds.get(word))});
+      pairs.push({id:record.id,citations,number:pair.originalNumber,englishNumber:pair.englishNumber,words:Int32Array.from(seenWords),keys:Int32Array.from(seenKeys)});
     }
   }
-  const display=new Map(),shown=id=>{if(!display.has(id))display.set(id,displayForm(spellings[id]));return display.get(id);};
-  const shards=Array.from({length:concordanceShards},()=>({}));
-  const joint=new Int32Array(words.length),touched=[];
-  const reference=(a,b)=>pairs[b].citations-pairs[a].citations||byText(pairs[a].id,pairs[b].id)||pairs[a].number-pairs[b].number;
+  const memo=list=>{const cache=new Map();return id=>{if(!cache.has(id))cache.set(id,displayForm(list[id]));return cache.get(id);};};
+  const shown=memo(spellings),shownKey=memo(keySpellings);
+  const order=number=>(a,b)=>pairs[b].citations-pairs[a].citations||byText(pairs[a].id,pairs[b].id)||pairs[a][number]-pairs[b][number];
+  const references=(list,number)=>[...list].sort(order(number)).slice(0,concordanceLimits.references).map(p=>[pairs[p].id,pairs[p][number]]);
+  // Items of `field` co-occurring with a list of pairs, as [id, dice, joint]
+  // (both sides in at least two pairs, together in at least minJoint).
+  // One counter array per side, reset after each use, keeps this linear.
+  const counters={words:new Int32Array(words.length),keys:new Int32Array(keys.length)};
+  function together(list,field,counts){
+    const joint=counters[field],touched=[],df=list.length;
+    for(const p of list)for(const x of pairs[p][field]){if(counts[x].length<2)continue;if(!joint[x]++)touched.push(x);}
+    const found=[];
+    for(const x of touched){if(joint[x]>=concordanceLimits.minJoint)found.push([x,Math.round(2000*joint[x]/(df+counts[x].length))/1000,joint[x]]);joint[x]=0;}
+    return found;
+  }
+  // Ranked by dice, then joint count, then key; shown in display form.
+  const top=(found,names,display)=>ranked(found.map(([x,dice,n])=>[names[x],dice,n,x]),concordanceLimits.words).map(([,dice,n,x])=>[display(x),dice,n]);
+  const shards=Array.from({length:concordanceShards},()=>({})),english=Array.from({length:concordanceShards},()=>({}));
   for(let k=0;k<keys.length;k++){
-    const list=keyPairs[k],df=list.length;
-    const entry={n:df,r:[...list].sort(reference).slice(0,concordanceLimits.references).map(p=>[pairs[p].id,pairs[p].number]),w:[]};
-    if(df>=2){
-      for(const p of list)for(const w of pairs[p].words){if(wordDf[w]<2)continue;if(!joint[w]++)touched.push(w);}
-      const found=[];
-      for(const w of touched){
-        if(joint[w]>=concordanceLimits.minJoint)found.push([words[w],Math.round(2000*joint[w]/(df+wordDf[w]))/1000,joint[w]]);
-        joint[w]=0;
-      }
-      touched.length=0;
-      entry.w=found.sort((a,b)=>b[1]-a[1]||b[2]-a[2]||byText(a[0],b[0])).slice(0,concordanceLimits.words).map(([word,dice,n])=>[shown(wordIds.get(word)),dice,n]);
-    }
+    const list=keyPairs[k],entry={n:list.length,r:references(list,'number'),w:[]};
+    if(list.length>=2)entry.w=top(together(list,'words',wordPairs),words,shown);
     shards[concordanceShard(keys[k])][keys[k]]=entry;
   }
-  return {index:{paragraphs:pairs.length,records:recordCount,keys:keys.length},shards};
+  for(let w=0;w<words.length;w++){
+    const list=wordPairs[w],entry={n:list.length,r:references(list,'englishNumber'),o:[]};
+    if(list.length>=2)entry.o=top(together(list,'keys',keyPairs),keys,shownKey);
+    english[concordanceShard(words[w])][words[w]]=entry;
+  }
+  return {index:{paragraphs:pairs.length,records:recordCount,keys:keys.length,englishKeys:words.length},shards,english};
 }

@@ -13,7 +13,7 @@ test('help has the four sections with stable anchors, linked from its tabs',()=>
   assert.deepEqual([...tabs.matchAll(/href="#([^"]+)"/g)].map(m=>m[1]),ids);
   assert.equal(helpSections.length,4);
   for(const id of ['guide-transliteration','guide-persian','guide-arabic'])assert.match(html,new RegExp(`<section id="${id}"`));
-  for(const text of ['Plain','Bahá’í English','Root','Meaning shift','In the Writings','Authorized translations','Show passages','Uncertain reading','Reviewed by','AI-generated','Words: original','Words: English','Vowel marks','Mark','Hover','Click'])assert.ok(html.includes(text),text);
+  for(const text of ['Plain','Bahá’í English','Root','Meaning shift','In the Writings','Authorized translations','Usually renders','Show passages','Uncertain reading','Reviewed by','AI-generated','Words: original','Words: English','Vowel marks','Mark','Hover','Click'])assert.ok(html.includes(text),text);
 });
 
 test('the tag list is one list of the ten tags in wordTags order, with tooltip chips and meanings',()=>{

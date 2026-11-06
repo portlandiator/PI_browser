@@ -103,6 +103,10 @@ test('the URL state round-trips and rejects unknown values',()=>{
   assert.deepEqual(stateFromParams(stateToParams(state)),state);
   assert.deepEqual(stateFromParams(new URL(`http://x/d.html${stateQuery(state)}`).search),state);
   assert.equal(stateQuery(defaultState()),'');
+  // about=1 opens the About box of the one chosen dictionary.
+  assert.equal(stateFromParams('dict=core&about=1').about,true);
+  assert.equal(stateQuery({...defaultState(),dict:['core'],about:true}),'?dict=core&about=1');
+  assert.equal(stateQuery({...defaultState(),dict:['core','en-fa'],about:true}),'?dict=core%2Cen-fa');
   assert.deepEqual(stateFromParams('lang=xx&tag=bogus,archaic&pos=thing&status=done&sort=random&page=-4&entry=<b>'),{...defaultState(),tag:['archaic']});
   const index=[{id:'core',target:'en'},{id:'en-fa',target:'fa'},{id:'en-ar',target:'ar'}];
   assert.deepEqual(neededDictionaries(index,defaultState()).map(item=>item.id),['core','en-fa','en-ar']);
@@ -130,7 +134,7 @@ test('rows and details escape source text and label every field',()=>{
   assert.match(detail,/href="\.\/\?q=%D8%A7%D9%85%D8%B1&amp;view=original">Search the Catalog/);
   assert.match(detail,/class="dict-concordance"/);
   const en=detailHtml(by('cause'),{name:'EN'});
-  assert.match(en,/view=en">/);assert.ok(!en.includes('dict-concordance'));
+  assert.match(en,/view=en">/);assert.match(en,/class="dict-concordance"/);
   assert.match(rowHtml(by('cause')),/dir="rtl" lang="fa" class="dict-translit">کاز/);
   assert.match(detailHtml(by('احباء'),{}),/Uncertain reading/);
   const mixed=prepareEntry({form:'امر',gloss:'command',usage:'Usually امر الله, the Cause.'},'core',0,'en');

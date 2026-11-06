@@ -23,6 +23,7 @@ ${item('Modern','The everyday modern equivalent, with its pronunciation and mean
 ${item('Meaning shift','For a word whose usual meaning has changed: “Here …” is its meaning in this text, “Today …” its usual modern meaning.')}
 ${item('In the Writings','A note on how the word is generally used in the Bahá’í Writings.')}
 ${item('Authorized translations','How often the word occurs in paragraphs that have an authorized translation, with English words that often appear there. These are statistics, not a translation. <b>Show passages</b> lists those paragraphs.')}
+${item('Usually renders','For an English word: the Persian/Arabic words most often found in the original paragraphs paired with it in authorized translations, with their transliterations. They are likely sources, not certain ones; <b>Show passages</b> marks them in each original paragraph.')}
 ${item('Review status','<b>Unreviewed</b>, <b>Uncertain reading</b> (a reviewer doubts the entry) or <b>Reviewed by …</b> (with the reviewer’s name). The sample dictionaries are AI-generated and may contain mistakes.')}
 </dl>
 <h4>Reader controls</h4>

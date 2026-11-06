@@ -105,10 +105,12 @@ function wordFactsHtml(entry){
     entry.notes?`<span class="word-tooltip-notes"${script(entry.notes)}>${esc(entry.notes)}</span>`:''].filter(Boolean);
   return facts.length?`<div class="word-tooltip-facts">${facts.join(' · ')}</div>`:'';
 }
+// A published dictionary's name links to its About box in the dictionary browser.
 function sourceHtml(entry,info){
   const source=info(entry.dictionary);
   const status=reviewLabelHtml(entry)||'<span class="word-tooltip-status-plain">Unreviewed</span>';
-  return `<div class="word-tooltip-source">${[esc(source?.name||entry.dictionary),source?.aiGenerated?'AI-generated':'',source?.kind==='personal'?'your dictionary':'',status].filter(Boolean).join(' · ')}</div>`;
+  const name=esc(source?.name||entry.dictionary);
+  return `<div class="word-tooltip-source">${[source?.kind==='published'?`<a class="word-tooltip-about-link" href="./dictionary-browser.html?dict=${encodeURIComponent(entry.dictionary)}&amp;about=1">${name}</a>`:name,source?.aiGenerated?'AI-generated':'',source?.kind==='personal'?'your dictionary':'',status].filter(Boolean).join(' · ')}</div>`;
 }
 export function tooltipHtml(result,info,{style='plain'}={}){
   const original=isOriginalScript(result.word);
@@ -131,10 +133,10 @@ export function tooltipHtml(result,info,{style='plain'}={}){
 // Interlinear markup for one paragraph: word columns (filled in later by
 // fillInterlinear) and, below, the counterpart paragraph as published.
 // `topId` '' leaves the word rows without an id; `match(word)` marks columns
-// with ilw-match. `lazy` renders the words as plain text (ids, number and the
+// with ilw-match (true) or with the class it returns. `lazy` renders the words as plain text (ids, number and the
 // paragraph beneath already final) until buildInterlinear makes the columns.
 export function interlinearColumnsHtml(plain,rtl,match=null){
-  return interlinearTokens(plain||'').map((token,i)=>`<span class="ilw${match?.(token.word)?' ilw-match':''}" tabindex="${i?-1:0}" data-word="${esc(token.word)}"><span class="ilw-word"${rtl?' lang="fa"':''}>${esc(token.lead)}<span class="ilw-text">${esc(token.word)}</span>${esc(token.trail)}</span><span class="ilw-pron"></span><span class="ilw-gloss"${rtl?'':' dir="rtl" lang="fa"'}></span></span>`).join('');
+  return interlinearTokens(plain||'').map((token,i)=>{const hit=match?.(token.word);return `<span class="ilw${hit===true?' ilw-match':hit?` ${hit}`:''}" tabindex="${i?-1:0}" data-word="${esc(token.word)}"><span class="ilw-word"${rtl?' lang="fa"':''}>${esc(token.lead)}<span class="ilw-text">${esc(token.word)}</span>${esc(token.trail)}</span><span class="ilw-pron"></span><span class="ilw-gloss"${rtl?'':' dir="rtl" lang="fa"'}></span></span>`;}).join('');
 }
 export function interlinearBlockHtml({top,topLanguage,number,numberHtml,bottomHtml,bottomId,bottomLanguage,bottomClass='',topId=`p-${topLanguage}-${number}`,match=null,lazy=false}){
   const rtl=topLanguage==='original';
@@ -251,8 +253,10 @@ export function placement(rect,viewport,measure,widen,margin=8){
 }
 
 // Hover, tap and keyboard access to the tooltip within `container`.
-// `concordance` ({lookup(word),sectionHtml(result,{word})}) adds what the
-// authorized translations show for an original word below its entries;
+// `concordance` ({lookup(word),sectionHtml(result,{word}),english,fill})
+// adds what the authorized translations show for an original word (and, when
+// `english` is set, for an English word) below its entries; `fill(section,
+// isCurrent)` may complete the section later (true when it changed);
 // its Show passages button (or P on a focused word column) calls
 // onOpenConcordance(word,result,{returnFocus}). `mode()` is 'hover' or
 // 'click': in click mode neither hovering nor focusing opens a tooltip; a
@@ -291,11 +295,13 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
   }
   // The concordance section comes after the entries, if the tooltip still shows this word.
   async function addConcordance(token,word,rect,anchor,keyboard){
-    if(!concordance||!isOriginalScript(word))return;
+    if(!concordance||!(isOriginalScript(word)||concordance.english))return;
     let result=null;try{result=await concordance.lookup(word);}catch{}
     if(token!==request||!result)return;
     const html=concordance.sectionHtml(result,{word,shortcut:keyboard});if(!html)return;
     shown={word,result,anchor,keyboard};const slot=tooltip.querySelector('.word-tooltip-concordance-slot');if(slot)slot.outerHTML=html;else tooltip.insertAdjacentHTML('beforeend',html);place(anchorRect?anchorRect():rect);
+    const section=tooltip.querySelector('.word-tooltip-concordance');
+    if(section&&concordance.fill)Promise.resolve(concordance.fill(section,()=>token===request)).then(changed=>{if(changed&&token===request)place(anchorRect?anchorRect():rect);},()=>{});
   }
   async function show(word,rect,anchor,range,keyboard=false){
     const token=++request;shown=null;claim();
@@ -420,10 +426,20 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
   return handle;
 }
 
+// What a published dictionary covers and how it was made: its `about`
+// paragraphs (plain text, escaped) and its counts, folded under `summary`.
+export function dictionaryAboutHtml(info,{summary='About this dictionary',open=false,className=''}={}){
+  const about=Array.isArray(info?.about)?info.about.filter(text=>typeof text==='string'&&text.trim()):[];
+  if(!about.length)return '';
+  const number=n=>Number(n||0).toLocaleString('en-US');
+  const facts=[info.entries!==undefined?`${number(info.entries)} entries`:'',info.forms!==undefined?`${number(info.forms)} distinct forms`:'',info.uncertain!==undefined?`${number(info.uncertain)} marked uncertain`:'',info.aiGenerated?'AI-generated':''].filter(Boolean).join(' · ');
+  return `<details class="dictionary-about${className?` ${className}`:''}"${open?' open':''}><summary>${esc(summary)}</summary><div class="dictionary-about-body">${about.map(text=>`<p>${esc(text)}</p>`).join('')}${facts?`<p class="dictionary-about-facts">${facts}</p>`:''}</div></details>`;
+}
+
 // The dictionaries dialog: turn dictionaries on or off, order them, and add
 // or remove personal dictionary files.
 export function dictionaryDialogHtml(list){
-  const rows=list.map((item,i)=>`<li class="dictionary-row"><label><input type="checkbox" data-dictionary-toggle="${esc(item.id)}"${item.enabled?' checked':''}> <span class="dictionary-name">${esc(item.name)}</span></label><span class="dictionary-meta">${item.kind==='personal'?'Your dictionary (kept in this browser)':'Published'}${item.aiGenerated?' · AI-generated':''} · ${Number(item.entries||0).toLocaleString('en-US')} entries</span>${item.description?`<span class="dictionary-description">${esc(item.description)}</span>`:''}${item.kind==='published'?`<a class="dictionary-review-link" href="./dictionary-browser.html?dict=${encodeURIComponent(item.id)}">Browse entries →</a><a class="dictionary-review-link" href="./dictionary-review.html?dict=${encodeURIComponent(item.id)}">Review entries →</a>`:''}<span class="dictionary-actions"><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="-1"${i?'':' disabled'} aria-label="Move ${esc(item.name)} up">↑</button><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="1"${i<list.length-1?'':' disabled'} aria-label="Move ${esc(item.name)} down">↓</button>${item.kind==='personal'?`<button type="button" class="text-button" data-dictionary-remove="${esc(item.id)}">Remove</button>`:''}</span></li>`).join('');
+  const rows=list.map((item,i)=>`<li class="dictionary-row"><label><input type="checkbox" data-dictionary-toggle="${esc(item.id)}"${item.enabled?' checked':''}> <span class="dictionary-name">${esc(item.name)}</span></label><span class="dictionary-meta">${item.kind==='personal'?'Your dictionary (kept in this browser)':'Published'}${item.aiGenerated?' · AI-generated':''} · ${Number(item.entries||0).toLocaleString('en-US')} entries</span>${item.description?`<span class="dictionary-description">${esc(item.description)}</span>`:''}${item.kind==='published'?`<a class="dictionary-review-link" href="./dictionary-browser.html?dict=${encodeURIComponent(item.id)}">Browse entries →</a><a class="dictionary-review-link" href="./dictionary-review.html?dict=${encodeURIComponent(item.id)}">Review entries →</a>${dictionaryAboutHtml(item)}`:''}<span class="dictionary-actions"><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="-1"${i?'':' disabled'} aria-label="Move ${esc(item.name)} up">↑</button><button type="button" class="text-button" data-dictionary-move="${esc(item.id)}" data-delta="1"${i<list.length-1?'':' disabled'} aria-label="Move ${esc(item.name)} down">↓</button>${item.kind==='personal'?`<button type="button" class="text-button" data-dictionary-remove="${esc(item.id)}">Remove</button>`:''}</span></li>`).join('');
   return `<h2 id="dictionary-dialog-title">Dictionaries</h2><p class="dictionary-help">Word tooltips and interlinear rows use the dictionaries turned on below, in this order. Pronunciations and one-word glosses come from the dictionaries, not from the translation shown beneath each paragraph.</p>${rows?`<ol class="dictionary-list">${rows}</ol>`:'<p class="dictionary-help">No dictionaries are available yet.</p>'}<div class="dictionary-add"><label class="secondary-button" for="dictionary-file">Add a dictionary file…</label><input type="file" id="dictionary-file" accept=".tsv,.csv,.txt,text/tab-separated-values,text/csv"><p class="dictionary-help">A spreadsheet saved as TSV or CSV. The first row names the columns: <code>form</code> and <code>gloss</code> are required; <code>lemma</code>, <code>lang</code>, <code>translit</code>, <code>definition</code>, <code>notes</code>, <code>pos</code>, <code>root</code>, <code>tags</code>, <code>modern</code>, <code>modern_translit</code>, <code>modern_gloss</code>, <code>shift</code> and <code>usage</code> are optional. The file stays in this browser and is not uploaded.</p><p id="dictionary-status" class="dictionary-status" role="status"></p></div><div class="dictionary-close"><button type="button" class="secondary" id="dictionary-close">Close</button></div>`;
 }
 

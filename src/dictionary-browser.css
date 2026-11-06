@@ -75,3 +75,9 @@
 @media(max-width:700px){.dict-intro{max-width:none!important}.dict-word{font-size:25px}.dict-row{padding:10px 4px}.dict-detail{padding:4px 4px 14px}.dict-family-heading{font-size:22px}}
 @media print{.dict-rail,.pagination,.search-form{display:none}.dict-layout{grid-template-columns:1fr}}
 #dict-sort{min-height:40px;font-size:13px;max-width:220px}
+/* A dictionary's About: beside its filter checkbox, and above the results when it is the only one chosen. */
+.dict-check-row{display:flex;flex-direction:column}
+.dict-filter-about{margin:-6px 0 6px 26px;font-size:12px}
+.dict-filter-about .dictionary-about-body p{font-size:12px}
+.dict-about-box{border:1px solid var(--rule);border-radius:4px;padding:10px 14px;margin:0 0 14px;background:var(--white)}
+.dict-about-box summary{font-size:14px}
