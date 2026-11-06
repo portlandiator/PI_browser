@@ -12,7 +12,7 @@ import {concordanceShards} from './concordance.mjs';
 import {paragraphUrl} from './paragraph-links.mjs';
 import {recordFilename} from './record-file.mjs';
 import {loadCompressed} from './data.mjs';
-import {prepareEntry,stateFromParams,stateQuery,neededDictionaries,filterItems,sortMatches,groupByLemma,frequencyOf,rowHtml,detailHtml,domId,count,pages,pageSize,posGroups,posLabels,sorts,sortLabels} from './dictionary-browser-core.mjs';
+import {prepareEntry,stateFromParams,stateQuery,neededDictionaries,filterItems,sortMatches,groupByLemma,frequencyOf,rowHtml,detailHtml,domId,count,pages,pageSize,posGroups,posLabels,sortChoices} from './dictionary-browser-core.mjs';
 
 const $=id=>document.getElementById(id);
 const base=new URL('./',location.href);
@@ -65,11 +65,17 @@ function fillControls(){
   $('dict-q').value=state.q;
   for(const box of document.querySelectorAll('#dict-dicts input'))box.checked=state.dict.includes(box.value);
   for(const box of document.querySelectorAll('#dict-tags input'))box.checked=state.tag.includes(box.value);
+  fillSorts();
   $('dict-lang').value=state.lang;$('dict-pos').value=state.pos;$('dict-status').value=state.status;$('dict-sort').value=state.sort;
   for(const flag of ['modern','shifted','usage'])$(`dict-${flag}`).checked=state[flag];
   $('dict-root-control').hidden=!state.root;$('dict-root-value').textContent=state.root;
   const active=state.dict.length+state.tag.length+[state.lang,state.pos,state.status,state.modern,state.shifted,state.usage,state.root].filter(Boolean).length;
   $('dict-filter-count').textContent=active?`(${active})`:'';
+}
+// Sort choices fit the chosen dictionaries (plain A–Z for English headwords only).
+function fillSorts(){
+  const html=sortChoices(neededDictionaries(index,state),state.sort).map(([sort,label])=>`<option value="${sort}">${esc(label)}</option>`).join('');
+  if($('dict-sort').innerHTML!==html)$('dict-sort').innerHTML=html;
 }
 function readControls(){
   state.dict=[...document.querySelectorAll('#dict-dicts input:checked')].map(box=>box.value);
@@ -208,7 +214,6 @@ function setUp(){
   $('dict-dicts').innerHTML=index.map(info=>`<div class="dict-check-row"><label class="dict-check"><input type="checkbox" value="${esc(info.id)}"> <span>${esc(info.name.replace(/^Sample:\s*/,''))} <small>${count(info.entries)}${info.aiGenerated?' · AI-generated':''}</small></span></label>${dictionaryAboutHtml(info,{summary:'About',className:'dict-filter-about'})}</div>`).join('');
   $('dict-tags').innerHTML=wordTags.map(tag=>`<label class="dict-check dict-tag-check"><input type="checkbox" value="${tag}"> <span class="word-tag tag-${tag}">${esc(tagLabels[tag])}</span></label>`).join('');
   $('dict-pos').innerHTML='<option value="">Any part of speech</option>'+posGroups.map(group=>`<option value="${group}">${posLabels[group]}</option>`).join('');
-  $('dict-sort').innerHTML=sorts.map(sort=>`<option value="${sort}">${sortLabels[sort]}</option>`).join('');
   for(const id of ['dict-dicts','dict-tags'])$(id).addEventListener('change',()=>{readControls();change();});
   for(const id of ['dict-lang','dict-pos','dict-status','dict-modern','dict-shifted','dict-usage','dict-sort'])$(id).addEventListener('change',()=>{readControls();change();});
   $('dict-root-clear').onclick=()=>{state.root='';change();$('dict-q').focus();};

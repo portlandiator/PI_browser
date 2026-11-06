@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {parseDictionary} from '../src/dictionary.mjs';
-import {prepareEntry,parseSearch,matchRank,posGroup,filterItems,sortMatches,groupByLemma,frequencyOf,stateFromParams,stateToParams,stateQuery,defaultState,neededDictionaries,rowHtml,detailHtml,foldLatin,rootKey} from '../src/dictionary-browser-core.mjs';
+import {prepareEntry,parseSearch,matchRank,posGroup,filterItems,sortMatches,groupByLemma,frequencyOf,stateFromParams,stateToParams,stateQuery,defaultState,neededDictionaries,rowHtml,detailHtml,foldLatin,rootKey,sortChoices,englishHeadwords} from '../src/dictionary-browser-core.mjs';
 
 const tsv=`form	vocalized	lemma	lang	translit	pos	root	gloss	rendering	tags	modern	modern_translit	modern_gloss	shift	definition	usage	notes	status	reviewer
 امر	أَمْر	امر	ar	amr	noun	ء-م-ر	command	the-Cause	bahai,meaning-shift	دستور	dastúr	order	In the Writings mostly the Cause of God.	A command; an affair.	The Cause of God.		reviewed	SL 2026-11-05
@@ -139,6 +139,33 @@ test('rows and details escape source text and label every field',()=>{
   assert.match(detailHtml(by('احباء'),{}),/Uncertain reading/);
   const mixed=prepareEntry({form:'امر',gloss:'command',usage:'Usually امر الله, the Cause.'},'core',0,'en');
   assert.match(detailHtml(mixed,{}),/<dd><span dir="ltr" lang="en">Usually امر الله/,'English text quoting Arabic reads left to right');
+});
+
+test('English headwords read from the left and sort as English',()=>{
+  const cause=rowHtml(by('cause')),amr=rowHtml(by('امر'));
+  assert.match(cause,/^<li class="dict-item dict-item-ltr"/,'an English headword gets the left-to-right row');
+  assert.match(cause,/class="dict-word" dir="ltr" lang="en">cause/);
+  assert.match(cause,/class="dict-gloss"><span dir="rtl" lang="fa">امر/,'its Persian gloss still reads right to left');
+  assert.match(amr,/^<li class="dict-item"/);assert.doesNotMatch(amr,/dict-item-ltr/);
+  const numeral=prepareEntry({form:'1332',lang:'fa/ar',gloss:'1332'},'core',9,'en');
+  assert.equal(numeral.ltr,false,'a numeral in a Persian/Arabic dictionary keeps the right-to-left row');
+  assert.equal(prepareEntry({form:'hath',lemma:'have',gloss:'has'},'archaic',0,'modern').ltr,true);
+  const archaic=['Zeal','abide','Abase','10','9'].map((form,row)=>prepareEntry({form,lang:'en',gloss:'x'},'archaic',row,'modern'));
+  const sorted=sortMatches(filterItems(archaic,stateFromParams('')),'alpha').map(item=>item.entry.form);
+  assert.deepEqual(sorted,['9','10','Abase','abide','Zeal'],'English order, case aside, numbers by value');
+  assert.deepEqual(run('').slice(-2),['beloved','cause'],'mixed results: Persian/Arabic headwords first, then English');
+});
+
+test('the sort choices fit the chosen dictionaries',()=>{
+  const index=[{id:'core',target:'en'},{id:'en-fa',target:'fa'},{id:'archaic',target:'modern'}];
+  const pick=params=>neededDictionaries(index,stateFromParams(params));
+  assert.equal(englishHeadwords(pick('')),false);
+  assert.equal(englishHeadwords(pick('dict=archaic,en-fa')),true);
+  assert.equal(englishHeadwords(pick('lang=en')),true);
+  assert.deepEqual(sortChoices(pick('')).map(([sort,label])=>label),['Persian/Arabic A–Z','By root','Frequency in authorized translations','English A–Z']);
+  assert.deepEqual(sortChoices(pick('dict=archaic')),[['alpha','A–Z']],'English headwords only: plain A–Z');
+  assert.deepEqual(sortChoices(pick('dict=archaic'),'english'),[['alpha','A–Z'],['english','English A–Z']],'a sort in use stays listed');
+  assert.deepEqual(sortChoices(pick('dict=core,archaic')).length,4);
 });
 
 test('the page shares the site masthead and links the review page',()=>{

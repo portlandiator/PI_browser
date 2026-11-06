@@ -13,9 +13,18 @@ export const posGroups=['noun','verb','adjective','adverb','particle','pronoun',
 export const posLabels={noun:'Noun',verb:'Verb',adjective:'Adjective',adverb:'Adverb',particle:'Preposition / particle',pronoun:'Pronoun',proper:'Proper noun',other:'Other'};
 export const sorts=['alpha','root','frequency','english'];
 export const sortLabels={alpha:'Persian/Arabic A–Z',root:'By root',frequency:'Frequency in authorized translations',english:'English A–Z'};
+// The sort choices for the dictionaries a state needs. When they all have
+// English headwords the order is plain A–Z: root and frequency apply only to
+// Persian/Arabic headwords and English A–Z would repeat it (a choice in use
+// stays listed).
+export const englishHeadwords=infos=>infos.length>0&&infos.every(info=>info.target&&info.target!=='en');
+export function sortChoices(infos,current='alpha'){
+  if(!englishHeadwords(infos))return sorts.map(sort=>[sort,sortLabels[sort]]);
+  return sorts.filter(sort=>sort==='alpha'||sort===current).map(sort=>[sort,sort==='alpha'?'A–Z':sortLabels[sort]]);
+}
 export const statusLabels={unreviewed:'Unreviewed',uncertain:'Uncertain reading',reviewed:'Reviewed'};
 
-const faCollator=new Intl.Collator('fa'),enCollator=new Intl.Collator('en',{sensitivity:'base'});
+const faCollator=new Intl.Collator('fa'),enCollator=new Intl.Collator('en',{sensitivity:'base',numeric:true});
 // Transliteration without accents, dots, ‘ayn/hamza marks or case.
 export const foldLatin=value=>String(value||'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[‘’'ʼʻ`´]/g,'');
 const words=value=>normalize(String(value||'')).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
@@ -52,6 +61,9 @@ export function prepareEntry(entry,dictionary,row,target=''){
     words:new Set(words(english)),wordList:null,
     tags:entryTags(entry),pos:posGroup(entry.pos),status:entryStatus(entry),root:rootKey(entry.root),
     lang:entry.lang||(original?'fa/ar':'en'),
+    // The headword reads left to right: an English entry or a Latin-letter form
+    // (a numeral in a Persian/Arabic dictionary keeps the right-to-left layout).
+    ltr:!original&&((entry.lang||'en')==='en'||/\p{Script=Latin}/u.test(entry.form)),
     scriptLang:original?(entry.lang==='ar'?'ar':'fa'):(target==='ar'?'ar':'fa'),
   };
 }
@@ -158,7 +170,9 @@ export function frequencyOf(form,counts){
 }
 
 const englishKey=item=>item.original?(item.entry.gloss||item.entry.rendering||''):item.entry.form;
-const byForm=(a,b)=>faCollator.compare(a.entry.form,b.entry.form)||a.row-b.row||a.dictionary.localeCompare(b.dictionary);
+// English headwords compare as English (case aside); otherwise the Persian
+// order, which puts Persian/Arabic headwords before English ones.
+const byForm=(a,b)=>(a.ltr&&b.ltr?enCollator:faCollator).compare(a.entry.form,b.entry.form)||a.row-b.row||a.dictionary.localeCompare(b.dictionary);
 const comparators={
   alpha:byForm,
   root:(a,b)=>(!a.root)-(!b.root)||faCollator.compare(a.entry.root||'',b.entry.root||'')||faCollator.compare(a.entry.lemma||a.entry.form,b.entry.lemma||b.entry.form)||byForm(a,b),
@@ -194,14 +208,16 @@ export const domId=item=>`e-${item.id.replace(/[^\w-]/g,'-')}`;
 const differs=(a,b)=>String(a||'').toLowerCase().replace(/[-\s\p{P}]+/gu,'')!==String(b||'').toLowerCase().replace(/[-\s\p{P}]+/gu,'');
 
 // One compact result row: the word with its vowelled spelling, pronunciation ·
-// part of speech, gloss / Bahá'í English, and tag chips.
+// part of speech, gloss / Bahá'í English, and tag chips. A Persian/Arabic
+// headword sits on the right; an English one (class dict-item-ltr) reads from
+// the left, its Persian/Arabic gloss or pronunciation still right to left.
 export function rowHtml(item,{expanded=false,frequency=0}={}){
   const e=item.entry,lang=item.scriptLang;
   const vocal=e.vocalized&&e.vocalized!==e.form?` <span class="dict-vocalized"${langAttrs(e.vocalized,lang)}>${esc(e.vocalized)}</span>`:'';
   const meta=[e.translit?`<span${langAttrs(e.translit,lang)} class="dict-translit">${esc(e.translit)}</span>`:'',e.pos?esc(e.pos):'',frequency?`${count(frequency)} ¶`:''].filter(Boolean).join(' · ');
   const rendering=e.rendering&&differs(e.rendering,e.gloss)?` <span class="dict-rendering">/ Bahá'í English: ${esc(e.rendering)}</span>`:'';
   const gloss=e.gloss||e.definition||'';
-  return `<li class="dict-item${expanded?' is-open':''}" data-id="${esc(item.id)}"><button type="button" class="dict-row" id="${domId(item)}" aria-expanded="${expanded}" aria-controls="${domId(item)}-detail"><span class="dict-head"><span class="dict-word"${langAttrs(e.form,lang)}>${esc(e.form)}</span>${vocal}</span>${meta?`<span class="dict-meta">${meta}</span>`:''}<span class="dict-gloss"><span${langAttrs(gloss,lang)}>${esc(gloss)}</span>${rendering}</span>${tagChipsHtml(item.tags)}</button><div class="dict-detail" id="${domId(item)}-detail"${expanded?'':' hidden'}></div></li>`;
+  return `<li class="dict-item${item.ltr?' dict-item-ltr':''}${expanded?' is-open':''}" data-id="${esc(item.id)}"><button type="button" class="dict-row" id="${domId(item)}" aria-expanded="${expanded}" aria-controls="${domId(item)}-detail"><span class="dict-head"><span class="dict-word"${langAttrs(e.form,lang)}>${esc(e.form)}</span>${vocal}</span>${meta?`<span class="dict-meta">${meta}</span>`:''}<span class="dict-gloss"><span${langAttrs(gloss,lang)}>${esc(gloss)}</span>${rendering}</span>${tagChipsHtml(item.tags)}</button><div class="dict-detail" id="${domId(item)}-detail"${expanded?'':' hidden'}></div></li>`;
 }
 
 // Everything an entry says, labelled. `info` is the dictionary's index entry;

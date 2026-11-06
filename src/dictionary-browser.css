@@ -39,6 +39,9 @@
 .dict-rendering{color:var(--gold)}
 .dict-row .word-tooltip-tags{margin-top:2px}
 @media(min-width:701px){.dict-row{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:24px;row-gap:2px;padding:10px 12px}.dict-head{grid-column:2;grid-row:1/span 3;align-self:center}.dict-row>:not(.dict-head){grid-column:1}}
+/* An English headword reads from the left: headword first, then pronunciation, gloss and tags. */
+.dict-item-ltr .dict-head{direction:ltr;text-align:left;overflow-wrap:anywhere}
+@media(min-width:701px){.dict-item-ltr .dict-row{grid-template-columns:minmax(0,11rem) minmax(0,1fr)}.dict-item-ltr .dict-head{grid-column:1}.dict-item-ltr .dict-row>:not(.dict-head){grid-column:2}}
 .dict-detail{padding:4px 10px 16px;border-top:1px dashed var(--rule)}
 .dict-fields{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,190px),1fr));gap:10px 18px;margin:12px 0}
 .dict-field{min-width:0}
