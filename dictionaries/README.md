@@ -27,6 +27,8 @@ A spreadsheet saved as tab-separated (TSV, preferred) or comma-separated (CSV) U
 | `definition` | | A fuller learner's definition. |
 | `usage` | | One or two sentences on how the word is generally used in the Bahá'í Writings. |
 | `notes` | | Grammar, sources, or "uncertain reading". |
+| `kjv` | | For an archaic English word: a King James Bible verse where it occurs, as `Book chapter:verse` with the book's full name, e.g. `Matthew 4:24` (`bible`, `bible verse`, `bible reference`, `kjv verse` and `kjv reference` are accepted). |
+| `kjv_text` | | A short verbatim excerpt of that verse containing the word (about 15 words at most), e.g. `sick people that were taken with divers diseases and torments`. Shown in the tooltip as “King James Bible: “…excerpt…” — reference”. Only allowed with `kjv`: published dictionaries are rejected otherwise and personal ones drop it (`kjv text`, `kjv excerpt`, `kjv quote`, `bible text` and `bible excerpt` are accepted). |
 | `status` | | `unreviewed`, `uncertain` or `reviewed` (any case; `review` and `review status` are accepted as column names). Empty counts as unreviewed. Published dictionaries are rejected for any other value. |
 | `reviewer` | | Who reviewed the entry, with initials or a name and optionally a date, e.g. `SL 2026-11-05`. Only allowed when `status` is `reviewed`. |
 
@@ -34,7 +36,9 @@ Column names are case-insensitive; `part of speech` is accepted for `pos`, `cate
 
 A form may have several rows, one per meaning; the first row is the one shown in word study and all of them appear in the tooltip.
 
-Persian/Arabic rows are also found from the English side through the words of their gloss, so one dictionary serves both directions. Rows whose `form` is English are English → Persian/Arabic entries, used first for English words: put the Persian/Arabic equivalent in `gloss`, the English word's pronunciation written in Persian script in `translit` (God → گاد), and a definition in that language in `definition`. A dictionary's target language (Persian or Arabic) is detected from its letters, or set with `target` (`fa`, `ar`) in `dictionaries.json`; the reader's فارسی / العربية choice puts that language's dictionaries first.
+Persian/Arabic rows are also found from the English side through the words of their gloss, so one dictionary serves both directions. Rows whose `form` is English are English → Persian/Arabic entries, used first for English words: put the Persian/Arabic equivalent in `gloss`, the English word's pronunciation written in Persian script in `translit` (God → گاد), and a definition in that language in `definition`. A dictionary's target language (Persian or Arabic) is detected from its letters, or set with `target` (`fa`, `ar`) in `dictionaries.json`; the reader's فارسی / العربية choice puts that language's dictionaries first. (`target` `en` marks a Persian/Arabic → English dictionary.)
+
+English words can also be explained in modern English: a dictionary with `target` `modern` (detected when English headwords have glosses and definitions without Persian or Arabic letters) gives each archaic or literary English form its modern meaning in `gloss` (divers → various), and may add `kjv` and `kjv_text`. Its entries are looked up only for the word exactly as written, come first in the tooltip of an English word with “Modern: <gloss>”, the usage introduced by “In the translations:” and the King James Bible line, and are never used for the Words: English row, which keeps its Persian/Arabic equivalents. `archaic-english.tsv` is such a dictionary: the King James–style English of the authorized translations, its example verses checked against the eBible.org King James text (see its `source` in `dictionaries.json`).
 
 When a word is not listed as written, the reader tries it with one common prefix and/or suffix removed (و، ب، ال، می، ها، ان، ات، ی …; English -s, -ed, -ing …) and says so in the tooltip.
 

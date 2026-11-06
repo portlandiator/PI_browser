@@ -6,7 +6,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {dictionaryKey,reviewCounts,parseDictionary,shardDictionary,dictionaryShards,dictionaryTarget} from '../src/dictionary.mjs';
+import {dictionaryKey,reviewCounts,parseDictionary,shardDictionary,dictionaryShards,dictionaryTarget,dictionaryTargets} from '../src/dictionary.mjs';
 
 const idPattern=/^[a-z0-9][a-z0-9-]{0,63}$/;
 
@@ -20,6 +20,8 @@ export async function readDictionaryCatalog(root){
     if(seen.has(item.id))throw Error(`Duplicate dictionary id: ${item.id}`);seen.add(item.id);
     if(!item.name||!item.file)throw Error(`Dictionary ${item.id} needs a name and a file`);
     if(path.basename(item.file)!==item.file)throw Error(`Dictionary ${item.id}: file must be in dictionaries/`);
+    // `target`: optional 'en', 'fa', 'ar' or 'modern' (detected when absent).
+    if(item.target!==undefined&&!dictionaryTargets.includes(item.target))throw Error(`Dictionary ${item.id}: target must be one of ${dictionaryTargets.join(', ')}`);
     // `about`: optional paragraphs of plain text (scope, entries, contents, how it was made).
     if(item.about!==undefined&&!(Array.isArray(item.about)&&item.about.every(text=>typeof text==='string')))throw Error(`Dictionary ${item.id}: about must be a list of paragraphs (strings)`);
     return item;
@@ -48,7 +50,7 @@ export async function buildDictionaries(root,out){
     }
     await fs.writeFile(path.join(target,publishedSourceName(item)),source);
     const review=reviewCounts(entries),about=(item.about||[]).map(text=>text.trim()).filter(Boolean);
-    published.push({id:item.id,name:item.name,description:item.description||'',source:item.source||'',aiGenerated:item.aiGenerated===true,target:['en','fa','ar'].includes(item.target)?item.target:dictionaryTarget(entries),entries:entries.length,forms:new Set(entries.map(entry=>dictionaryKey(entry.form)).filter(Boolean)).size,uncertain:review.uncertain,review,...(about.length?{about}:{}),file:publishedSourceName(item),sourceFile:item.file,shards:present});
+    published.push({id:item.id,name:item.name,description:item.description||'',source:item.source||'',aiGenerated:item.aiGenerated===true,target:dictionaryTargets.includes(item.target)?item.target:dictionaryTarget(entries),entries:entries.length,forms:new Set(entries.map(entry=>dictionaryKey(entry.form)).filter(Boolean)).size,uncertain:review.uncertain,review,...(about.length?{about}:{}),file:publishedSourceName(item),sourceFile:item.file,shards:present});
   }
   if(published.length){await fs.mkdir(target,{recursive:true});await fs.writeFile(path.join(target,'index.json'),JSON.stringify({format:1,dictionaries:published}));}
   return published.map(({id,entries})=>({id,entries}));

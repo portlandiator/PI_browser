@@ -3,14 +3,16 @@
 // definition, notes, and optionally rendering for the Bahá'í English gloss
 // style; pos, root, tags, modern (with modern_translit and modern_gloss), shift (what a meaning-shift
 // word means here against today) and usage describe the word and how it is
-// generally used in the Bahá'í Writings). Published dictionaries are split into small shards by
+// generally used in the Bahá'í Writings); kjv and kjv_text give a King James
+// Bible reference and a short verbatim excerpt of that verse for archaic
+// English words. Published dictionaries are split into small shards by
 // lookup key; dictionaries a reader loads stay in that reader's browser.
 // Glosses are dictionary lookups, never a claimed word-for-word alignment.
 import {normalize,parseCsv,shardKey} from './text.mjs';
 
 export const dictionaryShards=64;
-export const dictionaryColumns=['form','vocalized','lemma','lang','translit','gloss','definition','notes','rendering','register','status','reviewer','pos','root','tags','modern','modern_translit','modern_gloss','shift','usage'];
-const aliases={vowelled:'vocalized',voweled:'vocalized',vocalised:'vocalized',harakat:'vocalized',diacritized:'vocalized',headword:'form',word:'form',transliteration:'translit',pronunciation:'translit',meaning:'gloss',translation:'gloss',language:'lang',note:'notes',bahai:'rendering',"bahá'í english":'rendering',"bahai english":'rendering',elevated:'rendering',style:'register',review:'status','review status':'status','part of speech':'pos',category:'tags',categories:'tags','modern equivalent':'modern','modern translit':'modern_translit','modern pronunciation':'modern_translit','modern meaning':'modern_gloss','meaning shift':'shift','shift note':'shift','bahai usage':'usage','usage note':'usage'};
+export const dictionaryColumns=['form','vocalized','lemma','lang','translit','gloss','definition','notes','rendering','register','status','reviewer','pos','root','tags','modern','modern_translit','modern_gloss','shift','usage','kjv','kjv_text'];
+const aliases={vowelled:'vocalized',voweled:'vocalized',vocalised:'vocalized',harakat:'vocalized',diacritized:'vocalized',headword:'form',word:'form',transliteration:'translit',pronunciation:'translit',meaning:'gloss',translation:'gloss',language:'lang',note:'notes',bahai:'rendering',"bahá'í english":'rendering',"bahai english":'rendering',elevated:'rendering',style:'register',review:'status','review status':'status','part of speech':'pos',category:'tags',categories:'tags','modern equivalent':'modern','modern translit':'modern_translit','modern pronunciation':'modern_translit','modern meaning':'modern_gloss','meaning shift':'shift','shift note':'shift','bahai usage':'usage','usage note':'usage',bible:'kjv','kjv verse':'kjv','kjv reference':'kjv','bible verse':'kjv','bible reference':'kjv','kjv text':'kjv_text','kjv excerpt':'kjv_text','kjv quote':'kjv_text','bible text':'kjv_text','bible excerpt':'kjv_text'};
 const arabicScript=/\p{Script=Arabic}/u;
 // The column a header name stands for (case-insensitive, with aliases).
 export const dictionaryColumn=name=>{const key=String(name).trim().toLowerCase();return aliases[key]||key;};
@@ -62,7 +64,8 @@ export function applyVowels(written,vocalized){
 // from the form is an error with `strict`, otherwise it is left out; so is a
 // `status` other than
 // unreviewed, uncertain or reviewed; strict also rejects a `reviewer` on an
-// entry that is not reviewed.
+// entry that is not reviewed, and a `kjv_text` excerpt without its `kjv`
+// reference (lenient parsing drops such an excerpt).
 // `tags` are comma-separated categories from wordTags (lower-cased, without
 // repeats, in the file's order); strict rejects any other, lenient drops it.
 export const reviewStatuses=['unreviewed','uncertain','reviewed'];
@@ -94,6 +97,7 @@ export function parseDictionary(source,{strict=false}={}){
     if(entry.register){if(entry.register.trim().toLowerCase()==='elevated'&&!splitTags(entry.tags).includes('elevated'))entry.tags=['elevated',...splitTags(entry.tags)].join(',');delete entry.register;}
     if(entry.status){const status=entry.status.toLowerCase();if(reviewStatuses.includes(status))entry.status=status;else{if(strict)throw Error(`Row ${i+2} (${entry.form}): status must be unreviewed, uncertain or reviewed`);delete entry.status;}}
     if(entry.tags){const tags=splitTags(entry.tags),unknown=tags.find(tag=>!wordTags.includes(tag));if(unknown&&strict)throw Error(`Row ${i+2} (${entry.form}): unknown tag "${unknown}"`);const known=tags.filter(tag=>wordTags.includes(tag));if(known.length)entry.tags=known.join(',');else delete entry.tags;}
+    if(entry.kjv_text&&!entry.kjv){if(strict)throw Error(`Row ${i+2} (${entry.form}): kjv_text needs a kjv reference`);delete entry.kjv_text;}
     if(strict&&entry.reviewer&&entry.status!=='reviewed')throw Error(`Row ${i+2} (${entry.form}): reviewer is set but status is not reviewed`);
     if(entry.vocalized&&!sameLetters(entry.vocalized,entry.form)){if(strict)throw Error(`Row ${i+2} (${entry.form}): vocalized form ${entry.vocalized} has different letters`);delete entry.vocalized;}
     entries.push(entry);
@@ -103,8 +107,11 @@ export function parseDictionary(source,{strict=false}={}){
 }
 
 // The language a dictionary translates into: English for Persian/Arabic
-// headwords; for English headwords, Persian or Arabic by the letters its
-// glosses use (Persian پ چ ژ گ ک ی against Arabic ي ك ة).
+// headwords ('en'); for English headwords, Persian or Arabic by the letters its
+// glosses use (Persian پ چ ژ گ ک ی against Arabic ي ك ة), or 'modern' when
+// they use none: English words explained in modern English (the archaic
+// English dictionary). 'modern' dictionaries explain English words in the
+// tooltip only; they never supply the Words: English row.
 export function dictionaryTarget(entries){
   let original=0,persian=0,arabic=0;
   for(const entry of entries){
@@ -113,7 +120,22 @@ export function dictionaryTarget(entries){
     persian+=(text.match(/[پچژگکی]/g)||[]).length;arabic+=(text.match(/[يكة]/g)||[]).length;
   }
   if(original>=entries.length/2)return 'en';
-  return persian||arabic?(persian>=arabic?'fa':'ar'):'';
+  return persian||arabic?(persian>=arabic?'fa':'ar'):entries.some(entry=>/[\p{Script=Arabic}]/u.test(`${entry.gloss||''}${entry.definition||''}`))?'':'modern';
+}
+export const dictionaryTargets=['en','fa','ar','modern'];
+
+// An entry that explains an English word in English (an English → modern
+// English entry such as divers → various), as opposed to an English →
+// Persian/Arabic entry or a Persian/Arabic entry found through its gloss.
+export const explainsEnglish=entry=>!!entry&&!entry.reverse&&!isOriginalScript(entry.form||'')&&!isOriginalScript(entry.gloss||entry.definition||'');
+
+// Put English explanations (from 'modern' dictionaries, looked up exactly as
+// written) before the result of the usual lookup. Entries the usual lookup
+// found through a removed prefix or suffix keep that as `foundAs`.
+export function withExplanations(result,explained){
+  if(!explained?.entries?.length)return result;
+  const entries=result.entries.map(entry=>result.via&&result.via!=='parts'?{...entry,foundAs:result.matched}:entry);
+  return {...result,matched:explained.matched,via:explained.via,entries:[...explained.entries,...entries]};
 }
 
 const stopGloss=new Set(['a','an','the','of','to','be','is','ones','one','oneself','thing','things','s']);
@@ -179,9 +201,10 @@ export function preferLanguage(entries,language){
 // `get(dictionary,side,key)` returns that dictionary's entries for a key
 // (published dictionaries load their shard first). An exact match in any
 // dictionary wins over a match through a removed prefix or suffix.
-export async function lookupWord(word,dictionaries,get,{prefer=''}={}){
+// With `exact` only the word as written is looked up.
+export async function lookupWord(word,dictionaries,get,{prefer='',exact=false}={}){
   const side=isOriginalScript(word)?'original':'english';
-  const candidates=candidateKeys(word),key=candidates[0]?.key||'';
+  const candidates=candidateKeys(word).slice(0,exact?1:undefined),key=candidates[0]?.key||'';
   const find=async candidate=>{const found=[];for(const dictionary of dictionaries){const entries=await get(dictionary,side,candidate);if(entries?.length)found.push(...entries);}return found;};
   // A Persian word written with a zero-width non-joiner (mi + ZWNJ + shavad)
   // is looked up whole first, then by its parts, before any prefix or suffix
@@ -191,7 +214,7 @@ export async function lookupWord(word,dictionaries,get,{prefer=''}={}){
   for(const [i,candidate] of candidates.entries()){
     const found=await find(candidate.key);
     if(found.length)return {word,key,side,matched:candidate.key,via:candidate.stripped,entries:order(found)};
-    if(i===0&&parts.length>1){
+    if(i===0&&parts.length>1&&!exact){
       const byParts=[];
       for(const part of parts){const result=await lookupWord(part,dictionaries,get);byParts.push(...result.entries.map(entry=>({...entry,part})));}
       if(byParts.length)return {word,key,side,matched:'',via:'parts',entries:order(byParts)};

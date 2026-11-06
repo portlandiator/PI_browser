@@ -4,7 +4,7 @@
 // paragraph as published. Glosses are dictionary lookups: they do not claim
 // that the published translation renders the text word for word.
 import {escapeHtml as esc} from './text.mjs';
-import {applyVowels,dictionaryKey,entryTags,interlinearTokens,isOriginalScript,tagLabels,textWords,wordAt,wordTags} from './dictionary.mjs';
+import {applyVowels,dictionaryKey,entryTags,explainsEnglish,interlinearTokens,isOriginalScript,tagLabels,textWords,wordAt,wordTags} from './dictionary.mjs';
 
 export const studyModes=['original','en'];
 export const studyMode=value=>studyModes.includes(value)?value:'';
@@ -82,8 +82,10 @@ function metaHtml(entry,extra=''){
 }
 // What a meaning-shift word means here against its usual modern meaning.
 const shiftHtml=entry=>entry.shift?`<p class="word-tooltip-shift" dir="auto"><span class="word-tooltip-shift-label">Meaning shift:</span> ${esc(entry.shift)}</p>`:'';
-// The gloss in the chosen style first; the other style follows only when it differs.
+// The gloss in the chosen style first; the other style follows only when it
+// differs. An English word explained in English shows its modern meaning.
 function glossLineHtml(entry,style){
+  if(explainsEnglish(entry))return entry.gloss?`<div class="word-tooltip-gloss word-tooltip-modern-gloss" dir="ltr" lang="en"><span class="word-tooltip-gloss-label">Modern:</span> ${esc(entry.gloss)}</div>`:'';
   const original=isOriginalScript(entry.form)&&!entry.reverse;
   const bahai=original&&style==='bahai'&&entry.rendering;
   const first=bahai?entry.rendering:entry.gloss||'';
@@ -94,7 +96,8 @@ function glossLineHtml(entry,style){
 const definitionHtml=entry=>entry.definition?`<p class="word-tooltip-definition"${script(entry.definition)}>${esc(entry.definition)}</p>`:'';
 // Usage longer than about three lines gets a "more" toggle; the tooltip
 // removes it again when the text turns out to fit.
-const usageHtml=entry=>{if(!entry.usage)return '';const long=entry.usage.length>150;return `<div class="word-tooltip-usage${long?' clamped':''}"><p dir="ltr" lang="en"><span class="word-tooltip-usage-label">In the Writings:</span> ${esc(entry.usage)}</p>${long?'<button type="button" class="text-button word-tooltip-more" aria-expanded="false">more</button>':''}</div>`;};
+// For an English word explained in English the usage is that of the authorized translations.
+const usageHtml=entry=>{if(!entry.usage)return '';const long=entry.usage.length>150;return `<div class="word-tooltip-usage${long?' clamped':''}"><p dir="ltr" lang="en"><span class="word-tooltip-usage-label">${explainsEnglish(entry)?'In the translations:':'In the Writings:'}</span> ${esc(entry.usage)}</p>${long?'<button type="button" class="text-button word-tooltip-more" aria-expanded="false">more</button>':''}</div>`;};
 function wordFactsHtml(entry){
   const lang=entry.lang==='ar'?'ar':'fa';
   const extra=[entry.modern_translit,entry.modern_gloss].filter(Boolean).map(esc).join(', ');
@@ -105,6 +108,8 @@ function wordFactsHtml(entry){
     entry.notes?`<span class="word-tooltip-notes"${script(entry.notes)}>${esc(entry.notes)}</span>`:''].filter(Boolean);
   return facts.length?`<div class="word-tooltip-facts">${facts.join(' · ')}</div>`:'';
 }
+// A King James Bible example: the excerpt (verbatim from the verse) and its reference.
+export const kjvHtml=entry=>entry.kjv&&entry.kjv_text?`<p class="word-tooltip-kjv" dir="ltr" lang="en"><span class="word-tooltip-kjv-label">King James Bible:</span> “…${esc(entry.kjv_text)}…” — <span class="word-tooltip-kjv-ref">${esc(entry.kjv)}</span></p>`:'';
 // A published dictionary's name links to its About box in the dictionary browser.
 function sourceHtml(entry,info){
   const source=info(entry.dictionary);
@@ -120,9 +125,9 @@ export function tooltipHtml(result,info,{style='plain'}={}){
   style=glossStyle(style);
   const via=result.via==='parts'?'<p class="word-tooltip-via">Shown by its parts.</p>':result.via?`<p class="word-tooltip-via">Found as <span dir="auto">${esc(result.matched)}</span> (${esc(result.via.replace(/–/g,''))} removed).</p>`:'';
   const [entry,...others]=result.entries.slice(0,8);
-  const main=`${original?'':word}${scriptLineHtml(entry,result.word,true)}${metaHtml(entry)}${via}${glossLineHtml(entry,style)}${tagChipsHtml(entry)}${shiftHtml(entry)}${definitionHtml(entry)}${usageHtml(entry)}${wordFactsHtml(entry)}`;
+  const main=`${original?'':word}${scriptLineHtml(entry,result.word,true)}${metaHtml(entry)}${via}${glossLineHtml(entry,style)}${tagChipsHtml(entry)}${shiftHtml(entry)}${definitionHtml(entry)}${usageHtml(entry)}${kjvHtml(entry)}${wordFactsHtml(entry)}`;
   // Other senses: head row, gloss line and definition, with their source when it differs.
-  const sense=other=>`<li>${scriptLineHtml(other,result.word,false)}${metaHtml(other,`${reviewLabelHtml(other)}${other.dictionary!==entry.dictionary?`<span class="word-tooltip-lang">${esc(info(other.dictionary)?.name||other.dictionary)}</span>`:''}`)}${glossLineHtml(other,style)}${definitionHtml(other)}</li>`;
+  const sense=other=>`<li>${scriptLineHtml(other,result.word,false)}${metaHtml(other,`${other.foundAs?`<span class="word-tooltip-lang">as <span dir="auto">${esc(other.foundAs)}</span></span>`:''}${reviewLabelHtml(other)}${other.dictionary!==entry.dictionary?`<span class="word-tooltip-lang">${esc(info(other.dictionary)?.name||other.dictionary)}</span>`:''}`)}${glossLineHtml(other,style)}${definitionHtml(other)}</li>`;
   const hidden=result.entries.length-8;
   const more=others.length?`<details class="word-tooltip-senses"><summary>${others.length} more</summary><ol class="word-tooltip-entries">${others.map(sense).join('')}</ol>${hidden>0?`<p class="word-tooltip-via">${hidden} more entries not shown.</p>`:''}</details>`:'';
   // The full entry, its word family and its filters are in the dictionary browser.
@@ -310,7 +315,7 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     // Wait for the dictionary list on the first lookup of a visit.
     await store.ready();if(token!==request)return;
     if(!store.hasActive()){tooltip.innerHTML=`<div class="word-tooltip-word" dir="auto">${esc(word)}</div><p class="word-tooltip-empty">No dictionaries are turned on. Choose Dictionaries to add or turn one on.</p>`;place(rect);addConcordance(token,word,rect,anchor,keyboard);return;}
-    const result=await store.lookup(word,{target:target(),prefer:prefer(anchor||range?.startContainer?.parentElement)});
+    const result=await store.lookup(word,{target:target(),prefer:prefer(anchor||range?.startContainer?.parentElement),explain:true});
     if(token!==request)return;
     tooltip.innerHTML=tooltipHtml(result,info,{style:gloss()});place(rect);
     addConcordance(token,word,rect,anchor,keyboard);

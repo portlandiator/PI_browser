@@ -55,6 +55,21 @@
         "Contents: the English base form, its pronunciation written in Arabic letters (God → غاد), an Arabic equivalent in Modern Standard or classical Arabic, preferring the vocabulary of Bahá'í Arabic writings (friends → أحبّاء), and a definition in Arabic.",
         "How it was made: generated with AI in November 2026 from each word's context in the Volume 164 translations; not reviewed; 12 entries are marked as uncertain. It does not yet cover the English of the Hidden Words, Kitáb-i-Íqán or Kitáb-i-Aqdas."
       ]
+    },
+    {
+      "id": "archaic-english",
+      "name": "Archaic English of the authorized translations",
+      "file": "archaic-english.tsv",
+      "description": "The archaic and King James–style English words of the authorized translations (thou, hath, divers, verily, wherefore, the -eth and -est verb forms …), each with its modern meaning, tags, a note on how the translations use it and, where the word occurs there, a short example verse from the King James Bible. Shown first in the tooltip of an English word; it never supplies Words: English.",
+      "source": "AI-generated in November 2026 from the English of the authorized translations; not reviewed. Example verses are excerpts of the King James Version (1769 standard text) from eBible.org, https://ebible.org/Scriptures/eng-kjv_vpl.zip (public domain), each checked by a script to be a verbatim part of its verse.",
+      "aiGenerated": true,
+      "target": "modern",
+      "about": [
+        "Scope: the archaic, biblical and markedly literary English of the authorized translations. Shoghi Effendi's translations deliberately echo the King James Bible, so a present-day reader meets words such as thou, ye, hath, divers, verily, wherefore, peradventure and verb forms in -eth and -est. The word list was drawn from the English of every authorized, positionally paired paragraph of the collection, and covers every such form found three or more times (the -est forms of verbs from two).",
+        "What an entry is: one entry per written form, exactly as it appears in the text (hath and hast, becometh and becomest each have their own), with the dictionary form in Lemma. It explains the English word in modern English; it does not translate it into Persian or Arabic, so it appears only in word tooltips, before the English → Persian/Arabic entries, and never supplies the Words: English row.",
+        "Contents: part of speech, the modern meaning (divers → various, hath → has), tags (Archaic, Literary, Religious, Meaning shifted), a Meaning shift note for words whose meaning has changed (divers, suffer, meet, quicken), a definition, a note on how the authorized translations use the word with a typical phrase quoted from them, and a King James Bible reference with a short verbatim excerpt of that verse when the word occurs in the King James Bible.",
+        "How it was made: generated with AI in November 2026. The verb forms in -eth and -est were listed and given their modern forms by rule from the corpus counts and checked by hand; the other words were written individually. Typical phrases are the most frequent short sequences around each word in the translations, and every King James excerpt was checked by a script against the eBible.org King James text (whitespace aside, word for word). Not yet reviewed; 11 entries are marked uncertain because the word also has its modern sense in some passages (save, suffer, meet, art, mine)."
+      ]
     }
   ]
 }

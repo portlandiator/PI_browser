@@ -14,7 +14,7 @@ import {loadCompressed} from './data.mjs';
 
 const $=id=>document.getElementById(id);
 const pageSize=50,base=new URL('./',location.href),reviewerKey='pi-dictionary-reviewer';
-const labels={modern_translit:'Modern pronunciation',modern_gloss:'Modern meaning',shift:'Meaning shift',form:'Form',vocalized:'Vocalized (vowel marks)',lemma:'Lemma',lang:'Language',translit:'Pronunciation',gloss:'Gloss',rendering:"Bahá'í English",register:'Register',definition:'Definition',notes:'Notes',status:'Status',reviewer:'Reviewer',pos:'Part of speech',root:'Root',tags:'Tags',modern:'Modern equivalent',usage:"Bahá'í usage"};
+const labels={modern_translit:'Modern pronunciation',modern_gloss:'Modern meaning',shift:'Meaning shift',form:'Form',vocalized:'Vocalized (vowel marks)',lemma:'Lemma',lang:'Language',translit:'Pronunciation',gloss:'Gloss',rendering:"Bahá'í English",register:'Register',definition:'Definition',notes:'Notes',status:'Status',reviewer:'Reviewer',pos:'Part of speech',root:'Root',tags:'Tags',modern:'Modern equivalent',usage:"Bahá'í usage",kjv:'King James Bible reference',kjv_text:'King James Bible excerpt'};
 const count=n=>Number(n||0).toLocaleString('en-US');
 const params=new URLSearchParams(location.search);
 let index=[],item=null,source=null,drafts={},rows=[],page=Math.max(1,Number(params.get('page'))||1),storageOk=true,saveTimer=0;
@@ -57,7 +57,7 @@ function fieldHtml(row,column,entry){
   if(column==='status'){const status=String(value).toLowerCase();return `<div class="review-field field-status">${label}<select ${attrs}>${['unreviewed','uncertain','reviewed'].map(option=>`<option value="${option}"${(status||'unreviewed')===option?' selected':''}>${option[0].toUpperCase()+option.slice(1)}</option>`).join('')}${status&&!['unreviewed','uncertain','reviewed'].includes(status)?`<option value="${esc(value)}" selected>${esc(value)} (invalid)</option>`:''}</select></div>`;}
   if(column==='register')return `<div class="review-field field-register">${label}<select ${attrs}>${['','plain','elevated'].map(option=>`<option value="${option}"${value===option?' selected':''}>${option?option[0].toUpperCase()+option.slice(1):'—'}</option>`).join('')}${value&&!['plain','elevated'].includes(value)?`<option value="${esc(value)}" selected>${esc(value)} (invalid)</option>`:''}</select></div>`;
   if(column==='tags')return `<div class="review-field field-tags">${label}<input type="text" ${attrs} value="${esc(value)}" aria-describedby="${id}-hint" spellcheck="false"><span class="review-hint" id="${id}-hint">Comma-separated: ${wordTags.join(', ')}</span></div>`;
-  if(column==='definition'||column==='notes'||column==='usage')return `<div class="review-field field-${column}">${label}<textarea ${attrs} rows="2">${esc(value)}</textarea></div>`;
+  if(column==='definition'||column==='notes'||column==='usage'||column==='kjv_text')return `<div class="review-field field-${column}">${label}<textarea ${attrs} rows="2">${esc(value)}</textarea></div>`;
   return `<div class="review-field field-${column}">${label}<input type="text" ${attrs} value="${esc(value)}"></div>`;
 }
 function cardHtml(row){

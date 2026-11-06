@@ -4,7 +4,7 @@
 // render result rows and entry details with every source value escaped.
 // Entries are AI-generated dictionary lookups, never a translation.
 import {escapeHtml as esc,normalize} from './text.mjs';
-import {candidateKeys,dictionaryKey,entryTags,isOriginalScript,reviewStatuses,tagLabels,wordTags} from './dictionary.mjs';
+import {candidateKeys,dictionaryKey,entryTags,explainsEnglish,isOriginalScript,reviewStatuses,tagLabels,wordTags} from './dictionary.mjs';
 
 export const pageSize=50;
 export const languages=['fa','ar','fa/ar','en'];
@@ -43,7 +43,7 @@ export function posGroup(pos){
 // an English-headword dictionary translates into (its script text's language).
 export function prepareEntry(entry,dictionary,row,target=''){
   const original=isOriginalScript(entry.form);
-  const english=[entry.gloss,entry.rendering,entry.definition,entry.usage,entry.modern_gloss,entry.shift].filter(Boolean).join(' ');
+  const english=[entry.gloss,entry.rendering,entry.definition,entry.usage,entry.modern_gloss,entry.shift,entry.kjv_text].filter(Boolean).join(' ');
   return {
     id:`${dictionary}:${row}`,dictionary,row,entry,original,
     formKeys:[...new Set([entry.form,entry.lemma,entry.vocalized].filter(Boolean).map(dictionaryKey).filter(Boolean))],
@@ -124,7 +124,8 @@ export function stateToParams(state){
 export const stateQuery=state=>{const params=stateToParams(state);return params.size?`?${params}`:'';};
 
 // Dictionaries a state needs: the chosen ones (or all), limited by language:
-// English headwords are in dictionaries that translate into Persian or Arabic.
+// English headwords are in dictionaries that translate into Persian or Arabic
+// or explain English in modern English (target 'modern').
 export function neededDictionaries(index,state){
   return index.filter(item=>(!state.dict.length||state.dict.includes(item.id))&&(!state.lang||(state.lang==='en'?item.target!=='en':item.target==='en')));
 }
@@ -221,7 +222,8 @@ export function detailHtml(item,info,{rootHref=()=>'#'}={}){
     field('Language',esc(languageLabels[item.lang]||item.lang)),field('Pronunciation',text(e.translit)),field('Part of speech',esc(e.pos||'')),
     field('Root',root),field('Gloss',text(e.gloss)),field("Bahá'í English",e.rendering?esc(e.rendering):''),
     field('Tags',tagChipsHtml(item.tags)),field('Modern equivalent',modern),field('Meaning shift',text(e.shift),'dict-wide dict-shift'),
-    field('Definition',text(e.definition),'dict-wide'),field('In the Writings',text(e.usage),'dict-wide'),field('Notes',text(e.notes),'dict-wide'),
+    field('Definition',text(e.definition),'dict-wide'),field(explainsEnglish(e)?'In the translations':'In the Writings',text(e.usage),'dict-wide'),
+    field('King James Bible',e.kjv?`${e.kjv_text?`“…${esc(e.kjv_text)}…” — `:''}${esc(e.kjv)}`:'','dict-wide dict-kjv'),field('Notes',text(e.notes),'dict-wide'),
     field('Review',status),field('Dictionary',source),
   ].join('')}</dl><div class="dict-concordance" aria-live="polite"></div><p class="dict-detail-links"><a class="secondary" href="./?q=${encodeURIComponent(e.form)}&amp;view=${view}">Search the Catalog for this word</a></p>`;
 }

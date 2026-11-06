@@ -3,7 +3,7 @@
 // stay in this browser (IndexedDB) and are never uploaded. Storage can be
 // unavailable (private windows, blocked site data); everything then still
 // works for the current visit.
-import {indexEntries,parseDictionary,dictionaryShard,lookupWord,dictionaryTarget} from './dictionary.mjs';
+import {indexEntries,parseDictionary,dictionaryShard,lookupWord,dictionaryTarget,isOriginalScript,withExplanations} from './dictionary.mjs';
 
 const settingsKey='pi-dictionaries';
 const database='pi-dictionaries',storeName='personal';
@@ -68,7 +68,20 @@ export function createDictionaryStore(base){
     active(){return all().filter(item=>!settings.disabled.includes(item.id));},
     hasActive(){return this.active().length>0;},
     // English words: dictionaries into the chosen language (fa or ar) first.
-    async lookup(word,{target='',prefer=''}={}){await this.ready();const active=this.active();const rank=item=>item.target===target?0:item.target==='en'?1:2;const order=target?active.map((item,i)=>({item,i})).sort((a,b)=>rank(a.item)-rank(b.item)||a.i-b.i).map(({item})=>item):active;return lookupWord(word,order,get,{prefer});},
+    // Dictionaries that explain English in modern English (target 'modern')
+    // never take part in that lookup, so they cannot supply the Words: English
+    // row; with `explain` (the word tooltip) their entries for the word exactly
+    // as written come first.
+    async lookup(word,{target='',prefer='',explain=false}={}){
+      await this.ready();const english=!isOriginalScript(word);
+      const active=this.active(),modern=item=>item.target==='modern';
+      const usual=english?active.filter(item=>!modern(item)):active;
+      const rank=item=>item.target===target?0:item.target==='en'?1:2;
+      const order=target?usual.map((item,i)=>({item,i})).sort((a,b)=>rank(a.item)-rank(b.item)||a.i-b.i).map(({item})=>item):usual;
+      const result=await lookupWord(word,order,get,{prefer});
+      const explainers=english&&explain?active.filter(modern):[];
+      return explainers.length?withExplanations(result,await lookupWord(word,explainers,get,{exact:true})):result;
+    },
     // Fetch every shard a set of words needs, so a paragraph renders at once.
     async prefetch(keys){await this.ready();const jobs=[];for(const item of this.active())if(item.kind==='published')for(const side of ['original','english'])for(const n of new Set(keys.map(dictionaryShard)))jobs.push(shard(item,side,n));await Promise.all(jobs);},
     setEnabled(id,enabled){settings.disabled=settings.disabled.filter(x=>x!==id);if(!enabled)settings.disabled.push(id);writeSettings(settings);changed();},

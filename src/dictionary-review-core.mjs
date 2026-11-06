@@ -6,7 +6,7 @@ import {dictionaryColumn,dictionaryKey,reviewStatuses,isOriginalScript} from './
 import {parseCsv} from './text.mjs';
 
 // Published column order; a download includes only the columns in use.
-export const reviewColumns=['form','vocalized','lemma','lang','translit','pos','root','gloss','rendering','register','tags','modern','modern_translit','modern_gloss','shift','definition','usage','notes','status','reviewer'];
+export const reviewColumns=['form','vocalized','lemma','lang','translit','pos','root','gloss','rendering','register','tags','modern','modern_translit','modern_gloss','shift','definition','usage','kjv','kjv_text','notes','status','reviewer'];
 // Default order: uncertain readings first, then unreviewed, then reviewed.
 export const statusOrder=['uncertain','unreviewed','reviewed'];
 export const reviewFilters=['pending','uncertain','unreviewed','reviewed','all'];

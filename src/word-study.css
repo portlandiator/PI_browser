@@ -231,3 +231,8 @@ mark.likely-source,.ilw-likely .ilw-text{background:var(--tag-bahai-bg);color:in
 .dictionary-about-body p{margin:6px 0}
 .dictionary-about-facts{color:var(--muted);font-size:12px}
 .word-tooltip-about-link{color:inherit;text-decoration:underline;text-decoration-color:var(--rule)}
+/* An English word explained in modern English (archaic English dictionary): "Modern: various" and a King James Bible example, set upright. */
+.word-tooltip-gloss-label{font-weight:400;font-size:12px;color:var(--muted)}
+.word-tooltip-kjv{margin:3px 0 0;font-size:13px;line-height:1.45;font-style:normal}
+.word-tooltip-kjv-label{font-size:12px;color:var(--muted)}
+.word-tooltip-kjv-ref{color:var(--muted);white-space:nowrap}

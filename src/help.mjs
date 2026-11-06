@@ -22,6 +22,7 @@ ${item('Root','The Arabic root letters the word is built from.')}
 ${item('Modern','The everyday modern equivalent, with its pronunciation and meaning, for archaic, literary and meaning-shifted words.')}
 ${item('Meaning shift','For a word whose usual meaning has changed: “Here …” is its meaning in this text, “Today …” its usual modern meaning.')}
 ${item('In the Writings','A note on how the word is generally used in the Bahá’í Writings.')}
+${item('Archaic English','For an English word of the King James–style English of the authorized translations (<i>divers</i>, <i>hath</i>, <i>verily</i>, <i>-eth</i> verbs): its modern meaning (“Modern: various”), a note on how the translations use it and an example verse from the King James Bible, from the Archaic English dictionary. It comes before the word’s Persian/Arabic equivalents and never supplies Words: English.')}
 ${item('Authorized translations','How often the word occurs in paragraphs that have an authorized translation, with English words that often appear there. These are statistics, not a translation. <b>Show passages</b> lists those paragraphs.')}
 ${item('Usually renders','For an English word: the Persian/Arabic words most often found in the original paragraphs paired with it in authorized translations, with their transliterations. They are likely sources, not certain ones; <b>Show passages</b> marks them in each original paragraph.')}
 ${item('Review status','<b>Unreviewed</b>, <b>Uncertain reading</b> (a reviewer doubts the entry) or <b>Reviewed by …</b> (with the reviewer’s name). The sample dictionaries are AI-generated and may contain mistakes.')}
@@ -39,7 +40,7 @@ ${item('Tooltips','<b>Hover</b> opens a tooltip when you point at or focus a wor
 // What each tag means, in wordTags order (Elevated style first).
 export const tagMeanings={
   elevated:'The original word belongs to the elevated register of these texts: formal, literary, Arabic-learned or honorific words, scriptural formulas, and formal verb forms such as <span lang="fa" dir="rtl">گردد، نماید، فرمود</span>. In the Bahá’í English gloss style, words with this tag whose rendering differs from the plain gloss are underlined.',
-  archaic:'Rare or obsolete in modern Persian or Arabic; typical of 19th-century usage.',
+  archaic:'Rare or obsolete in modern Persian or Arabic; typical of 19th-century usage. For English words: archaic or King James–style English (<i>hath</i>, <i>divers</i>).',
   literary:'Still understood, but bookish; not used in speech.',
   religious:'General religious or theological vocabulary.',
   bahai:'A term or sense specific to the Bahá’í Faith.',
