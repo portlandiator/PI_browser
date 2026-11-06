@@ -83,6 +83,7 @@ for(const folder of ['data','index','facets'])await fs.mkdir(path.join(corpus,fo
 await fs.cp(path.join(root,'src'),out,{recursive:true});
 await copyViewDefaults(root,out);
 await fs.writeFile(path.join(out,'.nojekyll'),'');
+console.log('Dictionaries:',await (await import('./build-dictionaries.mjs')).buildDictionaries(root,out));
 const volumes=reuse?JSON.parse(await fs.readFile(path.join(out,'volumes.json'),'utf8')):await buildVolumes(root,out);
 const withheldVolumes=JSON.parse(await fs.readFile(path.join(root,'data','withheld-pdf-volumes.json'),'utf8'));
 for(const row of metadata.values())if(row.Volume&&!volumes[String(Number(row.Volume))]&&!Object.hasOwn(withheldVolumes,String(Number(row.Volume))))throw new Error(`No PDF for volume ${row.Volume}`);
