@@ -4,7 +4,8 @@
 // in those paragraphs. These are statistics only: never present them as the
 // word's translation or as a word-for-word alignment.
 import {escapeHtml as esc} from './text.mjs';
-import {candidateKeys,dictionaryKey,textWords} from './dictionary.mjs';
+import {candidateKeys,dictionaryKey,textLanguage,textWords} from './dictionary.mjs';
+import {attachWordTooltip,fillInterlinear,interlinearBlockHtml} from './word-study.mjs';
 import {readingSlots,alignmentCounts} from './paragraph-alignment.mjs';
 import {concordanceShard} from './concordance.mjs';
 
@@ -74,38 +75,69 @@ export function pairedEnglish(record,number){
   return index===null||index===undefined?null:record.en.paragraphs[index]||null;
 }
 
-export function passageHtml(record,[id,number],key,href){
+// Passage views in the dialog: the original paragraph above its authorized
+// English (parallel), the original alone, or the original word by word.
+export const passageViews=['parallel','original','words'];
+export const passageView=value=>passageViews.includes(value)?value:'parallel';
+
+export function passageHtml(record,[id,number],key,href,view='parallel'){
   const original=record?.original?.paragraphs?.[number-1];
   if(!original)return '<p class="concordance-error">This passage could not be loaded.</p>';
-  const english=pairedEnglish(record,number);
-  return `<a class="concordance-link" href="${esc(href)}">${esc(record.title||id)} <span class="concordance-ref">${esc(id)} · ¶${count(number)}</span></a><p class="concordance-original" dir="rtl" lang="fa">${markedText(original.plain,key)}</p>${english?`<p class="concordance-english" dir="ltr" lang="en">${esc(english.plain)}</p>`:'<p class="concordance-note">No English paragraph is paired with this paragraph.</p>'}`;
+  view=passageView(view);
+  const english=view==='original'?null:pairedEnglish(record,number);
+  const link=`<a class="concordance-link" href="${esc(href)}">${esc(record.title||id)} <span class="concordance-ref">${esc(id)} · ¶${count(number)}</span></a>`;
+  if(view==='words')return link+interlinearBlockHtml({top:original,topLanguage:'original',topId:'',number,numberHtml:'',bottomLanguage:'en',bottomHtml:english?esc(english.plain):undefined,bottomId:'',match:word=>dictionaryKey(word)===key});
+  const englishHtml=view==='original'?'':english?`<p class="concordance-english" dir="ltr" lang="en" data-word-text>${esc(english.plain)}</p>`:'<p class="concordance-note">No English paragraph is paired with this paragraph.</p>';
+  return `${link}<p class="concordance-original" dir="rtl" lang="fa" data-word-text>${markedText(original.plain,key)}</p>${englishHtml}`;
 }
 
 const batch=8;
-let generation=0;
-// The passages dialog: references load 8 at a time.
-export function openConcordanceDialog({word,result,getRecord,paragraphUrl,returnFocus=null}){
+let generation=0,chosenView='parallel',outerFocus=null,dialogTooltip=null;
+// The passages dialog: references load 8 at a time. `tools` ({store,
+// concordance,mode,vowels,gloss,target}) adds the Words view and word
+// tooltips; Show passages in a tooltip there replaces the dialog's contents.
+export function openConcordanceDialog(options){
+  const {word,result,getRecord,paragraphUrl,returnFocus=null,tools=null}=options;
   if(!result?.entry)return;
   const run=++generation,key=result.matched,refs=result.entry.r||[];
   let dialog=document.getElementById('concordance-dialog');
   if(!dialog){dialog=document.createElement('dialog');dialog.id='concordance-dialog';dialog.className='dictionary-dialog concordance-dialog';dialog.setAttribute('aria-labelledby','concordance-dialog-title');document.body.append(dialog);}
+  const reopened=dialog.open;
+  if(!reopened)outerFocus=returnFocus;
+  if(tools?.store&&!dialogTooltip)dialogTooltip=attachWordTooltip(dialog,tools.store,{layer:dialog,target:()=>tools.target?.()||'',prefer:anchor=>anchor?.closest?.('[data-language]')?.dataset.language||'',concordance:tools.concordance||null,mode:()=>tools.mode?.()||'hover',onOpenConcordance:(next,nextResult)=>openConcordanceDialog({...dialog.lastOptions,word:next,result:nextResult,returnFocus:null})});
+  dialog.lastOptions=options;
+  dialogTooltip?.hide();
+  const views=tools?.store?passageViews:passageViews.filter(view=>view!=='words');
+  if(!views.includes(chosenView))chosenView='parallel';
+  const names={parallel:'Parallel',original:'Original',words:'Words'};
   const listed=refs.length<Number(result.entry.n)?` The first ${count(refs.length)} are listed.`:'';
-  dialog.innerHTML=`<h2 id="concordance-dialog-title">“<span dir="auto">${esc(word)}</span>” in authorized translations</h2><p class="dictionary-help">Found in ${count(result.entry.n)} paragraph${Number(result.entry.n)===1?'':'s'} of authorized translations.${listed} Beneath each original paragraph is its authorized English paragraph as published; the counts are ${statisticsNote}.</p><ol class="concordance-list"></ol><div class="dictionary-close"><button type="button" class="secondary" id="concordance-more" hidden>Show more</button><button type="button" class="secondary" id="concordance-close">Close</button></div>`;
+  dialog.innerHTML=`<h2 id="concordance-dialog-title" tabindex="-1">“<span dir="auto">${esc(word)}</span>” in authorized translations</h2><div class="segmented concordance-views" role="group" aria-label="Passage view">${views.map(view=>`<button type="button" data-concordance-view="${view}" aria-pressed="${view===chosenView}">${names[view]}</button>`).join('')}</div><p class="dictionary-help">Found in ${count(result.entry.n)} paragraph${Number(result.entry.n)===1?'':'s'} of authorized translations.${listed} Beneath each original paragraph is its authorized English paragraph as published; the counts are ${statisticsNote}.${tools?.store?' In Words, glosses are dictionary lookups, not the translation.':''}</p><ol class="concordance-list"></ol><div class="dictionary-close"><button type="button" class="secondary" id="concordance-more" hidden>Show more</button><button type="button" class="secondary" id="concordance-close">Close</button></div>`;
   const list=dialog.querySelector('.concordance-list'),more=dialog.querySelector('#concordance-more');
+  const loaded=new Map();
+  function render(item){
+    const {record,ref}=loaded.get(item);
+    item.dataset.language=textLanguage(record?.metadata?.Language)||'';
+    item.innerHTML=passageHtml(record,ref,key,paragraphUrl(String(ref[0]),{number:Number(ref[1]),language:'original'}),chosenView);
+    if(chosenView==='words')fillInterlinear(item,tools.store,()=>run===generation&&item.isConnected,'',!!tools.vowels?.(),tools.gloss?.()||'plain',item.dataset.language).catch(()=>{});
+  }
   let shown=0;
   async function next(){
     const slice=refs.slice(shown,shown+batch);shown+=slice.length;more.hidden=shown>=refs.length;
     await Promise.all(slice.map(async ref=>{
       const item=document.createElement('li');item.className='concordance-item';item.innerHTML='<p class="concordance-note">Loading…</p>';list.append(item);
-      try{const record=await getRecord(String(ref[0]));if(run!==generation)return;item.innerHTML=passageHtml(record,ref,key,paragraphUrl(String(ref[0]),{number:Number(ref[1]),language:'original'}));}
+      try{const record=await getRecord(String(ref[0]));if(run!==generation)return;loaded.set(item,{record,ref});render(item);}
       catch{if(run===generation)item.innerHTML='<p class="concordance-error">This passage could not be loaded.</p>';}
     }));
   }
   dialog.onclick=event=>{
+    const choice=event.target.closest('[data-concordance-view]');
+    if(choice){chosenView=passageView(choice.dataset.concordanceView);dialogTooltip?.hide();dialog.querySelectorAll('[data-concordance-view]').forEach(button=>button.setAttribute('aria-pressed',String(button===choice)));for(const item of loaded.keys())render(item);return;}
     if(event.target.id==='concordance-more'){next();return;}
     if(event.target.id==='concordance-close'||event.target===dialog||event.target.closest('.concordance-link'))dialog.close();
   };
-  dialog.onclose=()=>{if(run===generation&&returnFocus?.isConnected)returnFocus.focus({preventScroll:true});};
+  // Escape closes an open word tooltip before the dialog.
+  dialog.oncancel=event=>{if(dialogTooltip?.isOpen()){event.preventDefault();dialogTooltip.hide();}};
+  dialog.onclose=()=>{dialogTooltip?.hide();if(run===generation&&outerFocus?.isConnected)outerFocus.focus({preventScroll:true});outerFocus=null;};
   next();
-  if(!dialog.open)dialog.showModal();
+  if(!reopened)dialog.showModal();else dialog.querySelector('#concordance-dialog-title').focus({preventScroll:true});
 }

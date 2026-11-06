@@ -15,6 +15,10 @@ export const glossTarget=value=>glossTargets.includes(value)?value:'fa';
 // gloss, or the word as the authorized (Bahá'í English) translations render it.
 export const glossStyles=['plain','bahai'];
 export const glossStyle=value=>glossStyles.includes(value)?value:'plain';
+// When word tooltips open: on hover (and keyboard focus), or only on a click,
+// tap or Enter/Space.
+export const tooltipModes=['hover','click'];
+export const tooltipMode=value=>tooltipModes.includes(value)?value:'hover';
 
 // Bahá'í English marks a word only when its rendering actually differs from
 // the plain gloss (ignoring case, hyphens and punctuation).
@@ -54,12 +58,14 @@ export function tooltipHtml(result,info){
 
 // Interlinear markup for one paragraph: word columns (filled in later by
 // fillInterlinear) and, below, the counterpart paragraph as published.
-export function interlinearBlockHtml({top,topLanguage,number,numberHtml,bottomHtml,bottomId,bottomLanguage,bottomClass=''}){
+// `topId` '' leaves the word rows without an id; `match(word)` marks columns
+// with ilw-match.
+export function interlinearBlockHtml({top,topLanguage,number,numberHtml,bottomHtml,bottomId,bottomLanguage,bottomClass='',topId=`p-${topLanguage}-${number}`,match=null}){
   const rtl=topLanguage==='original';
   const tokens=interlinearTokens(top.plain||'');
-  const columns=tokens.map((token,i)=>`<span class="ilw" tabindex="${i?-1:0}" data-word="${esc(token.word)}"><span class="ilw-word"${rtl?' lang="fa"':''}>${esc(token.lead)}<span class="ilw-text">${esc(token.word)}</span>${esc(token.trail)}</span><span class="ilw-pron"></span><span class="ilw-gloss"${rtl?'':' dir="rtl" lang="fa"'}></span></span>`).join('');
-  const bottom=bottomHtml===null?'':bottomHtml===undefined?`<p class="interlinear-missing">${bottomLanguage==='en'?'No English paragraph is paired with this paragraph.':'No original paragraph is paired with this paragraph.'}</p>`:`<div class="paragraph-cell interlinear-free ${bottomLanguage==='en'?'english-cell':'original-cell'}${bottomClass}" id="${bottomId}" dir="${bottomLanguage==='en'?'ltr':'rtl'}" lang="${bottomLanguage==='en'?'en':'fa'}"><p>${bottomHtml}</p></div>`;
-  return `<section class="interlinear-block"><div class="interlinear-top" id="p-${topLanguage}-${number}" data-top-language="${topLanguage}">${numberHtml}<div class="interlinear-line" role="group" aria-label="Paragraph ${number}, word by word" dir="${rtl?'rtl':'ltr'}">${columns}</div></div>${bottom}</section>`;
+  const columns=tokens.map((token,i)=>`<span class="ilw${match?.(token.word)?' ilw-match':''}" tabindex="${i?-1:0}" data-word="${esc(token.word)}"><span class="ilw-word"${rtl?' lang="fa"':''}>${esc(token.lead)}<span class="ilw-text">${esc(token.word)}</span>${esc(token.trail)}</span><span class="ilw-pron"></span><span class="ilw-gloss"${rtl?'':' dir="rtl" lang="fa"'}></span></span>`).join('');
+  const bottom=bottomHtml===null?'':bottomHtml===undefined?`<p class="interlinear-missing">${bottomLanguage==='en'?'No English paragraph is paired with this paragraph.':'No original paragraph is paired with this paragraph.'}</p>`:`<div class="paragraph-cell interlinear-free ${bottomLanguage==='en'?'english-cell':'original-cell'}${bottomClass}"${bottomId?` id="${bottomId}"`:''} dir="${bottomLanguage==='en'?'ltr':'rtl'}" lang="${bottomLanguage==='en'?'en':'fa'}"><p>${bottomHtml}</p></div>`;
+  return `<section class="interlinear-block"><div class="interlinear-top"${topId?` id="${topId}"`:''} data-top-language="${topLanguage}">${numberHtml}<div class="interlinear-line" role="group" aria-label="Paragraph ${number}, word by word" dir="${rtl?'rtl':'ltr'}">${columns}</div></div>${bottom}</section>`;
 }
 
 // Look up every word column under `root` and fill its rows.
@@ -113,23 +119,37 @@ export function placement(rect,viewport,measure,widen,margin=8){
 // `concordance` ({lookup(word),sectionHtml(result,{word})}) adds what the
 // authorized translations show for an original word below its entries;
 // its Show passages button (or P on a focused word column) calls
-// onOpenConcordance(word,result,{returnFocus}).
+// onOpenConcordance(word,result,{returnFocus}). `mode()` is 'hover' or
+// 'click': in click mode neither hovering nor focusing opens a tooltip; a
+// click, tap or Enter/Space does. `prefer(anchor)` names the language whose
+// entries come first. `layer` (a modal dialog) gets its own tooltip inside
+// it, fixed to the viewport, because a modal dialog sits in the browser's
+// top layer above anything appended to the page.
 export const passagesKey=event=>(event.key==='p'||event.key==='P')&&!event.shiftKey&&!event.ctrlKey&&!event.altKey&&!event.metaKey&&!event.isComposing;
-export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',concordance=null,onOpenConcordance=null}={}){
-  let tooltip=document.getElementById('word-tooltip');
-  if(!tooltip){tooltip=document.createElement('div');tooltip.id='word-tooltip';tooltip.className='word-tooltip';tooltip.setAttribute('role','tooltip');tooltip.hidden=true;document.body.append(tooltip);}
+const tooltips=new Set();
+export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',concordance=null,onOpenConcordance=null,mode=()=>'hover',layer=null}={}){
+  const id=layer?`${layer.id||'layer'}-word-tooltip`:'word-tooltip';
+  let tooltip=layer?null:document.getElementById(id);
+  if(!tooltip){tooltip=document.createElement('div');tooltip.id=id;tooltip.className=`word-tooltip${layer?' word-tooltip-fixed':''}`;tooltip.setAttribute('role','tooltip');tooltip.hidden=true;(layer||document.body).append(tooltip);}
   const highlights=typeof CSS!=='undefined'&&CSS.highlights&&typeof Highlight==='function';
   let current=null,timer=0,request=0,lastPointer='mouse',described=null,anchorRect=null,shown=null;
+  const hovering=()=>tooltipMode(mode())==='hover';
   // Only the word or note the tooltip currently describes is marked.
-  const describe=anchor=>{if(described&&described!==anchor)described.removeAttribute('aria-describedby');described=anchor||null;if(anchor)anchor.setAttribute('aria-describedby','word-tooltip');};
+  const describe=anchor=>{if(described&&described!==anchor)described.removeAttribute('aria-describedby');described=anchor||null;if(anchor)anchor.setAttribute('aria-describedby',id);};
   const info=id=>store.info(id);
+  const handle={hide,isOpen:()=>!tooltip.hidden};
+  // One tooltip shows at a time, in the page or in a dialog.
+  const claim=()=>{for(const other of tooltips){if(other===handle)continue;if(!other.container.isConnected)tooltips.delete(other);else other.hide();}};
+  handle.container=container;tooltips.add(handle);
 
   function hide(){clearTimeout(timer);request++;current=null;shown=null;anchorRect=null;tooltip.hidden=true;describe(null);if(highlights)CSS.highlights.delete('word-hover');}
   function place(rect){
+    // A dialog may have replaced its contents, tooltip included.
+    if(layer&&tooltip.parentNode!==layer)layer.append(tooltip);
     tooltip.style.left='0px';tooltip.style.top='0px';tooltip.style.maxHeight='';tooltip.classList.remove('word-tooltip-wide');tooltip.hidden=false;
     const box=placement(rect,{width:document.documentElement.clientWidth,height:innerHeight},()=>({width:tooltip.offsetWidth,height:tooltip.offsetHeight}),()=>tooltip.classList.add('word-tooltip-wide'));
     if(box.maxHeight)tooltip.style.maxHeight=`${box.maxHeight}px`;
-    tooltip.style.left=`${box.left+scrollX}px`;tooltip.style.top=`${box.top+scrollY}px`;
+    tooltip.style.left=`${box.left+(layer?0:scrollX)}px`;tooltip.style.top=`${box.top+(layer?0:scrollY)}px`;
   }
   // The concordance section comes after the entries, if the tooltip still shows this word.
   async function addConcordance(token,word,rect,anchor,keyboard){
@@ -140,13 +160,13 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     shown={word,result,anchor,keyboard};tooltip.insertAdjacentHTML('beforeend',html);place(anchorRect?anchorRect():rect);
   }
   async function show(word,rect,anchor,range,keyboard=false){
-    const token=++request;shown=null;
+    const token=++request;shown=null;claim();
     describe(anchor);anchorRect=()=>(anchor||range)?.getBoundingClientRect()||rect;
     if(highlights){if(range)CSS.highlights.set('word-hover',new Highlight(range));else CSS.highlights.delete('word-hover');}
     // Wait for the dictionary list on the first lookup of a visit.
     await store.ready();if(token!==request)return;
     if(!store.hasActive()){tooltip.innerHTML=`<div class="word-tooltip-word" dir="auto">${esc(word)}</div><p class="word-tooltip-empty">No dictionaries are turned on. Choose Dictionaries to add or turn one on.</p>`;place(rect);addConcordance(token,word,rect,anchor,keyboard);return;}
-    const result=await store.lookup(word,{target:target(),prefer:prefer()});
+    const result=await store.lookup(word,{target:target(),prefer:prefer(anchor||range?.startContainer?.parentElement)});
     if(token!==request)return;
     tooltip.innerHTML=tooltipHtml(result,info);place(rect);
     addConcordance(token,word,rect,anchor,keyboard);
@@ -158,7 +178,7 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     else if(document.caretRangeFromPoint){const range=document.caretRangeFromPoint(x,y);node=range?.startContainer;offset=range?.startOffset;}
     if(!node||node.nodeType!==3)return null;
     const parent=node.parentElement;
-    if(!parent?.closest('.paragraph-cell > p')||!container.contains(parent)||parent.closest('a,sup,.paragraph-number'))return null;
+    if(!parent?.closest('.paragraph-cell > p,[data-word-text]')||!container.contains(parent)||tooltip.contains(parent)||parent.closest('a,sup,.paragraph-number'))return null;
     const word=wordAt(node.textContent,offset);if(!word)return null;
     const range=document.createRange();range.setStart(node,word.start);range.setEnd(node,word.end);
     const rect=range.getBoundingClientRect();
@@ -171,31 +191,32 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     const hit=wordRangeAt(event.clientX,event.clientY);
     return hit?{...hit,key:`${hit.word}@${Math.round(hit.rect.left)},${Math.round(hit.rect.top)}`}:null;
   }
+  const inTooltip=event=>tooltip.contains(event.target);
 
   container.addEventListener('pointerdown',event=>{lastPointer=event.pointerType||'mouse';});
   container.addEventListener('pointermove',event=>{
     if(event.pointerType&&event.pointerType!=='mouse')return;
-    if(noteLink(event.target))return;
+    if(!hovering()||inTooltip(event)||noteLink(event.target))return;
     const hit=fromEvent(event);
     if(!hit){if(current&&!tooltip.matches(':hover')){clearTimeout(timer);timer=setTimeout(()=>{if(!tooltip.matches(':hover'))hide();},250);}return;}
     if(current===hit.key)return;
     clearTimeout(timer);timer=setTimeout(()=>{current=hit.key;show(hit.word,hit.rect,hit.anchor,hit.range);},90);
   });
-  container.addEventListener('pointerleave',event=>{if(event.pointerType&&event.pointerType!=='mouse')return;clearTimeout(timer);timer=setTimeout(()=>{if(!tooltip.matches(':hover'))hide();},250);});
-  tooltip.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'&&!container.contains(event.relatedTarget))hide();});
+  container.addEventListener('pointerleave',event=>{if(event.pointerType&&event.pointerType!=='mouse')return;if(!hovering())return;clearTimeout(timer);timer=setTimeout(()=>{if(!tooltip.matches(':hover'))hide();},250);});
+  tooltip.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'&&hovering()&&!container.contains(event.relatedTarget))hide();});
   // Footnote numbers show their note in place, so readers need not jump to
   // the notes and back. A tap previews the note; the preview links to it.
   const noteFor=link=>{const note=document.getElementById(decodeURIComponent((link.getAttribute('href')||'').slice(1)));if(!note)return null;const copy=note.cloneNode(true);copy.querySelectorAll('a[href^="#ref-"]').forEach(back=>back.remove());copy.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));return copy.innerHTML.trim();};
   function showNote(link){
     const html=noteFor(link);if(!html)return false;
-    request++;current=link;if(highlights)CSS.highlights.delete('word-hover');
+    request++;current=link;claim();if(highlights)CSS.highlights.delete('word-hover');
     const rtl=link.closest('[dir=rtl]');
     tooltip.innerHTML=`<div class="word-tooltip-note-label">Note ${esc(link.textContent.trim())}</div><div class="word-tooltip-note"${rtl?' dir="rtl" lang="fa"':''}>${html}</div><a class="word-tooltip-note-link" href="${esc(link.getAttribute('href'))}">Go to the note</a>`;
     describe(link);anchorRect=()=>link.getBoundingClientRect();place(anchorRect());return true;
   }
-  const noteLink=target=>{const link=target.closest?.('a.note-ref');return link&&container.contains(link)?link:null;};
-  container.addEventListener('pointerover',event=>{if(event.pointerType&&event.pointerType!=='mouse')return;const link=noteLink(event.target);if(link&&current!==link){clearTimeout(timer);showNote(link);}});
-  container.addEventListener('focusin',event=>{const link=noteLink(event.target);if(link)showNote(link);});
+  const noteLink=target=>{const link=target.closest?.('a.note-ref');return link&&container.contains(link)&&!tooltip.contains(link)?link:null;};
+  container.addEventListener('pointerover',event=>{if(event.pointerType&&event.pointerType!=='mouse')return;if(!hovering())return;const link=noteLink(event.target);if(link&&current!==link){clearTimeout(timer);showNote(link);}});
+  container.addEventListener('focusin',event=>{if(!hovering())return;const link=noteLink(event.target);if(link)showNote(link);});
   container.addEventListener('focusout',event=>{const link=noteLink(event.target);if(link&&!tooltip.contains(event.relatedTarget))hide();});
   container.addEventListener('click',event=>{const link=noteLink(event.target);if(link&&lastPointer!=='mouse'&&current!==link&&showNote(link))event.preventDefault();},true);
   tooltip.addEventListener('click',event=>{
@@ -204,34 +225,46 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
   });
   // Focus returns to the word column after the dialog when the keyboard opened it.
   function openPassages(){const {word,result,anchor,keyboard}=shown;hide();onOpenConcordance?.(word,result,{returnFocus:keyboard&&anchor?.matches?.('.ilw')?anchor:null});}
-  // Touch and pen: a tap opens the entry; tapping elsewhere closes it.
+  // Touch and pen (and the mouse in click mode): a tap opens the entry;
+  // tapping elsewhere closes it. In click mode a second click closes it.
   container.addEventListener('click',event=>{
-    if(lastPointer==='mouse'||event.target.closest('a,button'))return;
+    const mouse=lastPointer==='mouse';
+    if((mouse&&hovering())||inTooltip(event)||event.target.closest('a,button'))return;
+    if(mouse&&!getSelection()?.isCollapsed)return;
     const hit=fromEvent(event);if(!hit){hide();return;}
+    if(mouse&&current===hit.key&&!tooltip.hidden){hide();return;}
     current=hit.key;show(hit.word,hit.rect,hit.anchor,hit.range);
   });
   document.addEventListener('pointerdown',event=>{if(!tooltip.hidden&&!tooltip.contains(event.target)&&!container.contains(event.target))hide();});
   // Keyboard: one tab stop per interlinear paragraph; arrows move by word.
   const focusVisible=element=>{try{return element.matches(':focus-visible');}catch{return lastPointer!=='mouse';}};
-  container.addEventListener('focusin',event=>{const column=event.target.closest?.('.ilw');if(column){current=column;show(column.dataset.word,column.getBoundingClientRect(),column,null,focusVisible(column));}});
-  container.addEventListener('focusout',event=>{if(event.target.closest?.('.ilw')&&!event.relatedTarget?.closest?.('.ilw'))hide();});
+  container.addEventListener('focusin',event=>{
+    const column=event.target.closest?.('.ilw');if(!column||current===column)return;
+    if(hovering()){current=column;show(column.dataset.word,column.getBoundingClientRect(),column,null,focusVisible(column));}
+    else if(!tooltip.hidden&&shown?.anchor!==column&&described!==column)hide();
+  });
+  container.addEventListener('focusout',event=>{if(event.target.closest?.('.ilw')&&!event.relatedTarget?.closest?.('.ilw')&&!tooltip.contains(event.relatedTarget))hide();});
+  // Escape closes the tooltip first (in a dialog, before the dialog itself).
+  const escape=event=>{if(event.key==='Escape'&&!tooltip.hidden){event.preventDefault();event.stopPropagation();const anchor=described;hide();if(tooltip.contains(document.activeElement)||!document.activeElement||document.activeElement===document.body)anchor?.focus?.({preventScroll:true});return true;}return false;};
+  tooltip.addEventListener('keydown',event=>{escape(event);});
   container.addEventListener('keydown',event=>{
-    if(event.key==='Escape'&&!tooltip.hidden){hide();return;}
+    if(inTooltip(event)||escape(event))return;
     const column=event.target.closest?.('.ilw');if(!column||!container.contains(column))return;
     if(passagesKey(event)){if(shown?.anchor===column&&!tooltip.hidden&&container.isConnected){event.preventDefault();openPassages();}return;}
     const line=column.parentElement,columns=[...line.children],i=columns.indexOf(column),rtl=line.dir==='rtl';
     const step={ArrowRight:rtl?-1:1,ArrowLeft:rtl?1:-1}[event.key];
     let next=null;
     if(step)next=columns[i+step];else if(event.key==='Home')next=columns[0];else if(event.key==='End')next=columns.at(-1);
-    else if(event.key==='Enter'||event.key===' '){event.preventDefault();if(tooltip.hidden)show(column.dataset.word,column.getBoundingClientRect(),column,null,true);else hide();return;}
+    else if(event.key==='Enter'||event.key===' '){event.preventDefault();if(tooltip.hidden||described!==column){current=column;show(column.dataset.word,column.getBoundingClientRect(),column,null,true);}else hide();return;}
     if(!next)return;
     event.preventDefault();column.tabIndex=-1;next.tabIndex=0;next.focus();
   });
   // Scrolling keeps the tooltip beside its word; it closes once the word has
-  // left the viewport.
+  // left the viewport. In a dialog its own scrolling counts too.
   let frame=0;
-  addEventListener('scroll',()=>{if(tooltip.hidden||!anchorRect||frame)return;frame=requestAnimationFrame(()=>{frame=0;if(tooltip.hidden||!anchorRect)return;const rect=anchorRect();if(rect.bottom<0||rect.top>innerHeight||!rect.width)hide();else place(rect);});},{passive:true});
-  return {hide};
+  const follow=event=>{if(tooltip.hidden||!anchorRect||frame||tooltip.contains(event.target))return;frame=requestAnimationFrame(()=>{frame=0;if(tooltip.hidden||!anchorRect)return;const rect=anchorRect();if(rect.bottom<0||rect.top>innerHeight||!rect.width)hide();else place(rect);});};
+  if(layer)layer.addEventListener('scroll',follow,{passive:true,capture:true});else addEventListener('scroll',follow,{passive:true});
+  return handle;
 }
 
 // The dictionaries dialog: turn dictionaries on or off, order them, and add

@@ -130,3 +130,13 @@
 .concordance-original mark,.concordance-english mark{background:var(--highlight);color:inherit}
 .concordance-error{font-size:13px;color:var(--error);margin:0}
 .concordance-dialog .dictionary-close{gap:10px}
+/* Tooltip mode (hover or click), and the passages dialog's views. A dialog's own tooltip is fixed to the viewport inside the dialog's top layer. */
+.word-tooltip.word-tooltip-fixed{position:fixed}
+.tooltip-controls button{white-space:nowrap}
+.concordance-dialog{--scale:1}
+.concordance-views{width:max-content;max-width:100%;margin:6px 0 2px}
+.concordance-dialog .interlinear-block{padding:8px 0 0;border-bottom:0}
+.concordance-dialog .interlinear-free p{font-size:15px;line-height:1.65}
+.concordance-dialog .paragraph-cell:before{display:none}
+.ilw-match .ilw-text{background:var(--highlight);border-radius:2px}
+@media print{.tooltip-controls{display:none}}

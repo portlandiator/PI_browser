@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {parseDictionary,dictionaryKey,candidateKeys,indexEntries,lookupWord,textLanguage,textWords,wordAt,interlinearTokens,shardDictionary,dictionaryShard,reverseKeys} from '../src/dictionary.mjs';
-import {interlinearCells,tooltipHtml,interlinearBlockHtml,studyMode,glossStyle} from '../src/word-study.mjs';
+import {interlinearCells,tooltipHtml,interlinearBlockHtml,studyMode,glossStyle,tooltipMode} from '../src/word-study.mjs';
 import {buildDictionaries,readDictionaryCatalog} from '../scripts/build-dictionaries.mjs';
 
 const root=path.resolve(import.meta.dirname,'..');
@@ -259,3 +259,10 @@ test('Bahá\'í English marks a word only when its rendering differs from the pl
   assert.equal(interlinearCells(await find('امر'),'bahai').elevated,true);
   assert.equal(interlinearCells(await find('شمس'),'bahai').elevated,false);
 });
+
+test('tooltip mode is hover unless click is chosen',()=>{
+  assert.equal(tooltipMode('click'),'click');
+  assert.equal(tooltipMode('hover'),'hover');
+  for(const value of [undefined,null,'','Click','focus',1])assert.equal(tooltipMode(value),'hover');
+});
+

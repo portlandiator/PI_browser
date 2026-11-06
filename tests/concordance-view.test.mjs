@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createConcordance,concordanceSectionHtml,markedText,pairedEnglish,passageHtml} from '../src/concordance-view.mjs';
+import {createConcordance,concordanceSectionHtml,markedText,pairedEnglish,passageHtml,passageView} from '../src/concordance-view.mjs';
 import {dictionaryKey,candidateKeys} from '../src/dictionary.mjs';
 import {concordanceShard} from '../src/concordance.mjs';
 import {passagesKey} from '../src/word-study.mjs';
@@ -93,10 +93,29 @@ test('passages mark the word and show the paired authorized English paragraph',(
   const html=passageHtml(record,['BH1',2],key,'?id=BH1&paragraph=2&lang=original');
   assert.match(html,/href="\?id=BH1&amp;paragraph=2&amp;lang=original"/);
   assert.match(html,/A &lt;title&gt;/);
-  assert.match(html,/<p class="concordance-original" dir="rtl" lang="fa"><mark>نور<\/mark> خدا<\/p>/);
+  assert.match(html,/<p class="concordance-original" dir="rtl" lang="fa" data-word-text><mark>نور<\/mark> خدا<\/p>/);
   assert.match(html,/The light &lt;of&gt; God\./);
   const unequal={...record,en:{paragraphs:[{plain:'Only one.'}]}};
   assert.equal(pairedEnglish(unequal,2),null);
   assert.match(passageHtml(unequal,['BH1',2],key,'#'),/No English paragraph is paired/);
   assert.match(passageHtml(record,['BH1',9],key,'#'),/could not be loaded/);
+});
+
+test('passages show in Parallel, Original or Words view',()=>{
+  const key=dictionaryKey('نور');
+  const record={id:'BH1',title:'T',en:{paragraphs:[{plain:'First.'},{plain:'The light <of> God.'}]},original:{paragraphs:[{plain:'اول'},{plain:'نور خدا'}]}};
+  assert.equal(passageView('words'),'words');assert.equal(passageView('original'),'original');
+  assert.equal(passageView('other'),'parallel');assert.equal(passageView(undefined),'parallel');
+  assert.equal(passageHtml(record,['BH1',2],key,'#','unknown'),passageHtml(record,['BH1',2],key,'#'));
+  const original=passageHtml(record,['BH1',2],key,'#','original');
+  assert.match(original,/<mark>نور<\/mark> خدا/);
+  assert.doesNotMatch(original,/The light|No English paragraph/);
+  const words=passageHtml(record,['BH1',2],key,'#','words');
+  assert.match(words,/class="concordance-link"/);
+  assert.match(words,/<span class="ilw ilw-match" tabindex="0" data-word="نور">/);
+  assert.match(words,/<span class="ilw" tabindex="-1" data-word="خدا">/);
+  assert.doesNotMatch(words,/<mark>| id="/);
+  assert.match(words,/class="paragraph-cell interlinear-free english-cell" dir="ltr" lang="en"><p>The light &lt;of&gt; God\.<\/p>/);
+  const unequal={...record,en:{paragraphs:[{plain:'Only one.'}]}};
+  assert.match(passageHtml(unequal,['BH1',2],key,'#','words'),/No English paragraph is paired/);
 });
