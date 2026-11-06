@@ -38,3 +38,4 @@ html.guide-busy,html.guide-busy *{cursor:progress}
 @media print{.reading-room:before{display:none}}
 .translation-key{font-size:16px;line-height:1.5;color:var(--muted);margin:0 0 12px}
 @media print{.translation-key{font-size:10pt}}
+.translation-key-blue{color:var(--authorized)}
