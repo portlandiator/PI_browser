@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {parseDictionary,dictionaryKey,candidateKeys,indexEntries,lookupWord,textLanguage,textWords,wordAt,interlinearTokens,shardDictionary,dictionaryShard,reverseKeys} from '../src/dictionary.mjs';
-import {interlinearCells,tooltipHtml,interlinearBlockHtml,studyMode,glossStyle,tooltipMode} from '../src/word-study.mjs';
+import {interlinearCells,tooltipHtml,interlinearBlockHtml,interlinearColumnsHtml,boundedCache,studyMode,glossStyle,tooltipMode} from '../src/word-study.mjs';
 import {buildDictionaries,readDictionaryCatalog} from '../scripts/build-dictionaries.mjs';
 
 const root=path.resolve(import.meta.dirname,'..');
@@ -80,6 +80,17 @@ test('interlinear and tooltip markup escape dictionary and source text',async()=
   assert.match(block,/id="p-original-3"/);assert.match(block,/id="p-en-3"/);assert.doesNotMatch(block,/<i>/);
   assert.match(interlinearBlockHtml({top:{plain:'نور'},topLanguage:'original',number:1,numberHtml:'',bottomLanguage:'en',bottomHtml:undefined}),/No English paragraph is paired/);
   assert.equal(studyMode('original'),'original');assert.equal(studyMode('javascript:'),'');
+});
+
+test('lazy interlinear blocks keep their ids and plain text until built, and lookups are cached within a bound',()=>{
+  const lazy=interlinearBlockHtml({top:{plain:'<i>نور</i> الهی'},topLanguage:'original',number:3,numberHtml:'',bottomLanguage:'en',bottomHtml:'Light',bottomId:'p-en-3',lazy:true});
+  assert.match(lazy,/data-lazy/);assert.match(lazy,/id="p-original-3"/);assert.match(lazy,/id="p-en-3"/);
+  assert.doesNotMatch(lazy,/class="ilw"/);assert.match(lazy,/class="ilw-pending" lang="fa">&lt;i&gt;نور&lt;\/i&gt; الهی</);assert.match(lazy,/tabindex="0"/);
+  const columns=interlinearColumnsHtml('نور الهی',true);
+  assert.equal((columns.match(/class="ilw"/g)||[]).length,2);assert.equal((columns.match(/tabindex="0"/g)||[]).length,1);
+  assert.equal(interlinearBlockHtml({top:{plain:'نور الهی'},topLanguage:'original',number:1,numberHtml:'',bottomLanguage:'en',bottomHtml:null}).includes(columns),true);
+  const cache=boundedCache(2);cache.set('a',1);cache.set('b',2);cache.get('a');cache.set('c',3);
+  assert.equal(cache.get('b'),undefined);assert.equal(cache.get('a'),1);assert.equal(cache.get('c'),3);assert.equal(cache.size,2);
 });
 
 test('published dictionaries are sharded by lookup key and listed with their labels',async()=>{

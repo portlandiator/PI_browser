@@ -6,10 +6,13 @@
 
 .reading-view[data-mode=study] .reading-paper{max-width:900px;margin:auto}
 .interlinear-key{font-size:11px;line-height:1.7;color:var(--muted);text-align:center;padding:13px 16px;margin:0;border-bottom:1px solid var(--rule)}
-.interlinear-block{border-bottom:1px solid var(--rule);padding:18px 36px 22px 55px;position:relative}
+.interlinear-block{border-bottom:1px solid var(--rule);padding:18px 36px 22px 55px;position:relative;content-visibility:auto;contain-intrinsic-size:auto 400px}
 .interlinear-top{position:relative}
 .interlinear-top .paragraph-number{position:absolute;left:-42px;top:6px}
 .interlinear-line{display:flex;flex-wrap:wrap;gap:14px 16px;align-items:flex-start}
+/* A paragraph not yet built into word columns: its words as plain text, spaced to about the columns' height. */
+.ilw-pending{font:calc(20px * var(--scale))/5.4 "EB Garamond","Scheherazade New",serif;color:var(--muted);word-spacing:1.1em}
+.interlinear-line[dir=rtl] .ilw-pending{font:calc(23px * var(--scale))/3.9 "Scheherazade New",serif;word-spacing:.9em}
 .ilw{display:inline-flex;flex-direction:column;align-items:center;text-align:center;padding:2px 3px;border-radius:4px;cursor:help;outline-offset:2px}
 .ilw:hover,.ilw:focus-visible,.ilw[aria-describedby]{background:var(--selection)}
 .ilw-word{font:calc(20px * var(--scale))/1.5 "EB Garamond","Scheherazade New",serif}
@@ -22,6 +25,8 @@
 .word-tooltip [lang=fa]{font-family:"Scheherazade New",serif}
 .word-tooltip-definition[lang=fa],.word-tooltip-notes[lang=fa]{font-size:16px;line-height:1.7}
 .word-tooltip-gloss[lang=fa]{font-size:18px}
+/* Rows keep their height until a column is filled. */
+.ilw-pron:empty:before,.ilw-gloss:empty:before{content:"\a0"}
 .ilw-unknown .ilw-pron,.ilw-unknown .ilw-gloss{opacity:.45}
 .ilw-partial .ilw-gloss:after{content:"≈";margin-inline-start:2px;font-size:.8em;opacity:.7}
 .interlinear-free{border-top:1px dashed var(--rule);margin-top:14px;padding:12px 0 0!important}
@@ -102,10 +107,10 @@
 .reader-controls .dictionary-button{box-sizing:border-box;height:40px;min-height:40px;padding-block:0;line-height:1}
 .ilw-vowelled .ilw-text{line-height:1.9}
 .word-tooltip-vocalized{font:22px/1.6 "Scheherazade New",serif}
-/* Reader menu: on wide screens the menu is transparent to layout; up to 700px the toolbar is one row and the menu (☰) opens a panel under it. */
+/* Reader menu: on wide screens the menu is transparent to layout; up to 1279px the toolbar is one row and the menu (☰) opens a panel under it. */
 .reader-menu-button{display:none}
 .reader-menu{display:contents}
-@media(max-width:700px){
+@media(max-width:1279px){
   .reader-controls{flex-wrap:nowrap;justify-content:space-between}
   .reader-controls>.segmented:first-child{min-width:0}
   .reader-menu-button{display:inline-flex;align-items:center;justify-content:center;flex:none;width:40px;height:40px;min-height:40px;padding:0;border:1px solid var(--rule);border-radius:4px;color:var(--ink)}
@@ -140,3 +145,5 @@
 .concordance-dialog .paragraph-cell:before{display:none}
 .ilw-match .ilw-text{background:var(--highlight);border-radius:2px}
 @media print{.tooltip-controls{display:none}}
+/* With word-study options added, tighter segmented buttons keep the reader toolbar on one row on wide screens. */
+@media(min-width:1280px){.reader-controls .segmented button{padding-inline:12px}.reader-controls .dictionary-button{padding-inline:12px}}

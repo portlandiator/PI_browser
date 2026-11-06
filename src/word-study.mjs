@@ -59,40 +59,101 @@ export function tooltipHtml(result,info){
 // Interlinear markup for one paragraph: word columns (filled in later by
 // fillInterlinear) and, below, the counterpart paragraph as published.
 // `topId` '' leaves the word rows without an id; `match(word)` marks columns
-// with ilw-match.
-export function interlinearBlockHtml({top,topLanguage,number,numberHtml,bottomHtml,bottomId,bottomLanguage,bottomClass='',topId=`p-${topLanguage}-${number}`,match=null}){
+// with ilw-match. `lazy` renders the words as plain text (ids, number and the
+// paragraph beneath already final) until buildInterlinear makes the columns.
+export function interlinearColumnsHtml(plain,rtl,match=null){
+  return interlinearTokens(plain||'').map((token,i)=>`<span class="ilw${match?.(token.word)?' ilw-match':''}" tabindex="${i?-1:0}" data-word="${esc(token.word)}"><span class="ilw-word"${rtl?' lang="fa"':''}>${esc(token.lead)}<span class="ilw-text">${esc(token.word)}</span>${esc(token.trail)}</span><span class="ilw-pron"></span><span class="ilw-gloss"${rtl?'':' dir="rtl" lang="fa"'}></span></span>`).join('');
+}
+export function interlinearBlockHtml({top,topLanguage,number,numberHtml,bottomHtml,bottomId,bottomLanguage,bottomClass='',topId=`p-${topLanguage}-${number}`,match=null,lazy=false}){
   const rtl=topLanguage==='original';
-  const tokens=interlinearTokens(top.plain||'');
-  const columns=tokens.map((token,i)=>`<span class="ilw${match?.(token.word)?' ilw-match':''}" tabindex="${i?-1:0}" data-word="${esc(token.word)}"><span class="ilw-word"${rtl?' lang="fa"':''}>${esc(token.lead)}<span class="ilw-text">${esc(token.word)}</span>${esc(token.trail)}</span><span class="ilw-pron"></span><span class="ilw-gloss"${rtl?'':' dir="rtl" lang="fa"'}></span></span>`).join('');
+  const columns=lazy?`<span class="ilw-pending"${rtl?' lang="fa"':''}>${esc(top.plain||'')}</span>`:interlinearColumnsHtml(top.plain,rtl,match);
   const bottom=bottomHtml===null?'':bottomHtml===undefined?`<p class="interlinear-missing">${bottomLanguage==='en'?'No English paragraph is paired with this paragraph.':'No original paragraph is paired with this paragraph.'}</p>`:`<div class="paragraph-cell interlinear-free ${bottomLanguage==='en'?'english-cell':'original-cell'}${bottomClass}"${bottomId?` id="${bottomId}"`:''} dir="${bottomLanguage==='en'?'ltr':'rtl'}" lang="${bottomLanguage==='en'?'en':'fa'}"><p>${bottomHtml}</p></div>`;
-  return `<section class="interlinear-block"><div class="interlinear-top"${topId?` id="${topId}"`:''} data-top-language="${topLanguage}">${numberHtml}<div class="interlinear-line" role="group" aria-label="Paragraph ${number}, word by word" dir="${rtl?'rtl':'ltr'}">${columns}</div></div>${bottom}</section>`;
+  return `<section class="interlinear-block"${lazy?' data-lazy':''}><div class="interlinear-top"${topId?` id="${topId}"`:''} data-top-language="${topLanguage}">${numberHtml}<div class="interlinear-line" role="group" aria-label="Paragraph ${number}, word by word" dir="${rtl?'rtl':'ltr'}"${lazy?' tabindex="0"':''}>${columns}</div></div>${bottom}</section>`;
+}
+// Make the word columns of a lazy block; true if it was still plain text.
+export function buildInterlinear(block){
+  if(!block?.hasAttribute('data-lazy'))return false;
+  const line=block.querySelector('.interlinear-line');
+  block.removeAttribute('data-lazy');line.removeAttribute('tabindex');
+  line.innerHTML=interlinearColumnsHtml(line.textContent,line.dir==='rtl');
+  return true;
 }
 
-// Look up every word column under `root` and fill its rows.
+// Lookup results for the visit, per dictionary set, word, target and
+// preferred language, so a word repeated across paragraphs is filled at once.
+export function boundedCache(limit){
+  const map=new Map();
+  return {get(key){if(!map.has(key))return undefined;const value=map.get(key);map.delete(key);map.set(key,value);return value;},set(key,value){map.delete(key);map.set(key,value);if(map.size>limit)map.delete(map.keys().next().value);return value;},get size(){return map.size;}};
+}
+const lookups=new WeakMap();
+function cachedLookup(store,word,target,prefer){
+  if(!lookups.has(store))lookups.set(store,boundedCache(20000));
+  const cache=lookups.get(store),key=`${(store.active?.()||[]).map(item=>item.id).join(',')}\u0001${target}\u0001${prefer}\u0001${word}`;
+  let value=cache.get(key);
+  if(!value){value=store.lookup(word,{target,prefer});cache.set(key,value);value.catch(()=>{if(cache.get(key)===value)cache.set(key,undefined);});}
+  return value;
+}
+const nextFrame=()=>new Promise(resolve=>typeof requestAnimationFrame==='function'&&!document.hidden?requestAnimationFrame(()=>resolve()):setTimeout(resolve,0));
+
+// Look up every word column under `root` and fill its rows: all lookups at
+// once, then every column written in one frame.
 export async function fillInterlinear(root,store,isCurrent=()=>true,target='',vowels=false,style='plain',prefer=''){
   const columns=[...root.querySelectorAll('.ilw:not([data-filled])')];
   if(!columns.length)return;
-  await store.prefetch([...new Set(columns.flatMap(column=>[dictionaryKey(column.dataset.word),...column.dataset.word.split('\u200c').map(dictionaryKey)]))].filter(Boolean));
-  const cache=new Map();
+  const words=[...new Set(columns.map(column=>column.dataset.word))];
+  await store.prefetch([...new Set(words.flatMap(word=>[dictionaryKey(word),...word.split('\u200c').map(dictionaryKey)]))].filter(Boolean));
+  if(!isCurrent())return;
+  const results=new Map(await Promise.all(words.map(async word=>[word,await cachedLookup(store,word,target,prefer)])));
+  await nextFrame();
+  if(!isCurrent())return;
   for(const column of columns){
-    if(!isCurrent())return;
+    if(column.hasAttribute('data-filled')||!column.isConnected)continue;
     const word=column.dataset.word;
-    if(!cache.has(word))cache.set(word,await store.lookup(word,{target,prefer}));
-    const cells=interlinearCells(cache.get(word),style);
+    const cells=interlinearCells(results.get(word),style);
     column.dataset.filled='';
-    column.classList.toggle('ilw-elevated',style==='bahai'&&cells.elevated);
-    column.classList.toggle('ilw-unknown',!cells.gloss&&!cells.pronunciation);
-    column.classList.toggle('ilw-partial',cells.partial);
-    const pronunciation=column.querySelector('.ilw-pron');
+    if(style==='bahai'&&cells.elevated)column.classList.add('ilw-elevated');
+    if(!cells.gloss&&!cells.pronunciation)column.classList.add('ilw-unknown');
+    if(cells.partial)column.classList.add('ilw-partial');
+    const pronunciation=column.children[1];
     pronunciation.textContent=cells.pronunciation||'·';
     if(isOriginalScript(cells.pronunciation)){pronunciation.dir='rtl';pronunciation.lang='fa';pronunciation.classList.add('in-script');}
-    column.querySelector('.ilw-gloss').textContent=cells.gloss||'·';
+    column.children[2].textContent=cells.gloss||'·';
     // Vowel marks come from the dictionary and are laid on the letters as
     // written (applyVowels); the dictionary's own spelling stays in the tooltip.
-    const text=column.querySelector('.ilw-text');
-    const shown=vowels&&cells.vocalized?applyVowels(word,cells.vocalized):word;
-    text.textContent=shown;column.classList.toggle('ilw-vowelled',shown!==word);
+    if(vowels&&cells.vocalized){const shown=applyVowels(word,cells.vocalized);if(shown!==word){column.querySelector('.ilw-text').textContent=shown;column.classList.add('ilw-vowelled');}}
   }
+}
+
+// Word study over a long text: blocks rendered lazy become word columns once
+// they come within about 1.5 screens of the viewport (all at once without
+// IntersectionObserver), and stay built. `fill(root)` fills new columns.
+// Where the browser has no scroll anchoring, a block growing above the
+// viewport scrolls the page by as much, so the text being read stays put.
+export function lazyInterlinear(root,fill){
+  const pending=new Set(),blocks=()=>root.querySelectorAll('.interlinear-block[data-lazy]');
+  let frame=0,observer=null,resizer=null,kept=null;
+  // A paragraph jumped to stays in view while blocks near it are built and
+  // filled, until the reader scrolls, types or taps, or two seconds pass.
+  const keep=()=>{if(!kept)return;if(Date.now()>kept.until||!kept.element.isConnected){kept=null;return;}kept.element.scrollIntoView({block:kept.block});};
+  const release=()=>{kept=null;};
+  const flush=()=>{frame=0;const built=[...pending].filter(buildInterlinear);pending.clear();for(const block of built)observer?.unobserve(block);if(!built.length)return;keep();Promise.resolve(fill(built.length===1?built[0]:{querySelectorAll:selector=>built.flatMap(block=>[...block.querySelectorAll(selector)])})).then(keep);};
+  const build=block=>{if(!block?.hasAttribute('data-lazy'))return;pending.add(block);flush();};
+  const reveal=(element,{block='start'}={})=>{build(element.closest('.interlinear-block'));element.scrollIntoView({block});kept={element,block,until:Date.now()+2000};};
+  const events=['wheel','touchstart','keydown','pointerdown'];
+  for(const type of events)addEventListener(type,release,{passive:true,capture:true});
+  const stop=()=>{for(const type of events)removeEventListener(type,release,{capture:true});};
+  if(typeof IntersectionObserver!=='function'){for(const block of blocks())pending.add(block);flush();return {build,reveal,disconnect:stop};}
+  observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting)pending.add(entry.target);if(pending.size&&!frame)frame=requestAnimationFrame(flush);},{rootMargin:'150% 0px'});
+  for(const block of blocks())observer.observe(block);
+  if(typeof ResizeObserver==='function'&&typeof CSS!=='undefined'&&!CSS.supports?.('overflow-anchor','auto')){
+    const heights=new WeakMap();
+    resizer=new ResizeObserver(entries=>{let delta=0;for(const entry of entries){const height=entry.target.offsetHeight,before=heights.get(entry.target);heights.set(entry.target,height);if(before===undefined)continue;const rect=entry.target.getBoundingClientRect();if(rect.top<0&&rect.bottom-(height-before)<=0)delta+=height-before;}if(delta)scrollBy(0,delta);});
+    for(const block of root.querySelectorAll('.interlinear-block'))resizer.observe(block);
+  }
+  // A keyboard user tabbing into a block not yet built lands on its first word.
+  const focus=event=>{const line=event.target;if(!line.matches?.('.interlinear-line[tabindex]'))return;const block=line.closest('.interlinear-block');build(block);block.querySelector('.ilw')?.focus();};
+  root.addEventListener('focusin',focus);
+  return {build,reveal,disconnect(){stop();observer.disconnect();resizer?.disconnect();cancelAnimationFrame(frame);root.removeEventListener('focusin',focus);}};
 }
 
 // Where a tooltip goes, in viewport coordinates, so its whole content shows
