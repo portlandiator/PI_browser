@@ -7,8 +7,8 @@
 import {normalize,parseCsv,shardKey} from './text.mjs';
 
 export const dictionaryShards=64;
-export const dictionaryColumns=['form','vocalized','lemma','lang','translit','gloss','definition','notes','rendering','register'];
-const aliases={vowelled:'vocalized',voweled:'vocalized',vocalised:'vocalized',harakat:'vocalized',diacritized:'vocalized',headword:'form',word:'form',transliteration:'translit',pronunciation:'translit',meaning:'gloss',translation:'gloss',language:'lang',note:'notes',bahai:'rendering',"bahá'í english":'rendering',"bahai english":'rendering',elevated:'rendering',style:'register'};
+export const dictionaryColumns=['form','vocalized','lemma','lang','translit','gloss','definition','notes','rendering','register','status','reviewer'];
+const aliases={vowelled:'vocalized',voweled:'vocalized',vocalised:'vocalized',harakat:'vocalized',diacritized:'vocalized',headword:'form',word:'form',transliteration:'translit',pronunciation:'translit',meaning:'gloss',translation:'gloss',language:'lang',note:'notes',bahai:'rendering',"bahá'í english":'rendering',"bahai english":'rendering',elevated:'rendering',style:'register',review:'status','review status':'status'};
 const arabicScript=/\p{Script=Arabic}/u;
 
 // The lookup key of a word: the search normalization (diacritics, Arabic and
@@ -56,7 +56,10 @@ export function applyVowels(written,vocalized){
 // otherwise comma-separated with quoting. Header names are case-insensitive;
 // `form` and `gloss` are required. A `vocalized` value whose letters differ
 // from the form is an error with `strict`, otherwise it is left out; so is a
-// `register` other than elevated or plain.
+// `register` other than elevated or plain, or a `status` other than
+// unreviewed, uncertain or reviewed; strict also rejects a `reviewer` on an
+// entry that is not reviewed.
+export const reviewStatuses=['unreviewed','uncertain','reviewed'];
 export function parseDictionary(source,{strict=false}={}){
   source=String(source).replace(/^﻿/,'');
   const header=source.split(/\r?\n/,1)[0]||'';
@@ -75,6 +78,8 @@ export function parseDictionary(source,{strict=false}={}){
     if(!entry.gloss&&!entry.definition)throw Error(`Row ${i+2} (${entry.form}): needs a gloss or definition`);
     entry.lang||=(isOriginalScript(entry.form)?'fa/ar':'en');
     if(entry.register){const register=entry.register.toLowerCase();if(register==='elevated'||register==='plain')entry.register=register;else{if(strict)throw Error(`Row ${i+2} (${entry.form}): register must be elevated or plain`);delete entry.register;}}
+    if(entry.status){const status=entry.status.toLowerCase();if(reviewStatuses.includes(status))entry.status=status;else{if(strict)throw Error(`Row ${i+2} (${entry.form}): status must be unreviewed, uncertain or reviewed`);delete entry.status;}}
+    if(strict&&entry.reviewer&&entry.status!=='reviewed')throw Error(`Row ${i+2} (${entry.form}): reviewer is set but status is not reviewed`);
     if(entry.vocalized&&!sameLetters(entry.vocalized,entry.form)){if(strict)throw Error(`Row ${i+2} (${entry.form}): vocalized form ${entry.vocalized} has different letters`);delete entry.vocalized;}
     entries.push(entry);
   }

@@ -5,7 +5,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {parseDictionary,shardDictionary,dictionaryShards,dictionaryTarget} from '../src/dictionary.mjs';
+import {reviewStatuses,parseDictionary,shardDictionary,dictionaryShards,dictionaryTarget} from '../src/dictionary.mjs';
 
 const idPattern=/^[a-z0-9][a-z0-9-]{0,63}$/;
 
@@ -23,6 +23,9 @@ export async function readDictionaryCatalog(root){
   });
 }
 
+// Review counts per status; an empty status counts as unreviewed.
+export const reviewCounts=entries=>{const counts=Object.fromEntries(reviewStatuses.map(s=>[s,0]));for(const e of entries)counts[e.status||'unreviewed']++;return counts;};
+
 export async function buildDictionaries(root,out){
   const target=path.join(out,'dictionaries');
   await fs.rm(target,{recursive:true,force:true});
@@ -37,7 +40,7 @@ export async function buildDictionaries(root,out){
       present[side].push(n);
       await fs.writeFile(path.join(target,item.id,`${side[0]}-${n}.json`),JSON.stringify(shards[side][n]));
     }
-    published.push({id:item.id,name:item.name,description:item.description||'',source:item.source||'',aiGenerated:item.aiGenerated===true,target:['en','fa','ar'].includes(item.target)?item.target:dictionaryTarget(entries),entries:entries.length,shards:present});
+    published.push({id:item.id,name:item.name,description:item.description||'',source:item.source||'',aiGenerated:item.aiGenerated===true,target:['en','fa','ar'].includes(item.target)?item.target:dictionaryTarget(entries),entries:entries.length,review:reviewCounts(entries),shards:present});
   }
   if(published.length){await fs.mkdir(target,{recursive:true});await fs.writeFile(path.join(target,'index.json'),JSON.stringify({format:1,dictionaries:published}));}
   return published.map(({id,entries})=>({id,entries}));
@@ -45,5 +48,5 @@ export async function buildDictionaries(root,out){
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-  console.log('Dictionaries:',await buildDictionaries(root,path.join(root,process.argv[2]||'dist')));
+  console.log('Dictionaries:',await buildDictionaries(root,path.resolve(root,process.argv[2]||'dist')));
 }
