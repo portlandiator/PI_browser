@@ -23,16 +23,17 @@ How the reader's translator tools should work, based on how Bahá'í translation
 
 | Resource | Use | Terms |
 |---|---|---|
-| This collection's authorized texts (1,413 paired with originals; 9,893 paragraphs; ~913k English words) | Concordance and attested renderings | Already published on this site |
+| This collection's authorized texts (1,413 paired with originals; 9,893 paragraphs; ~913k English words; see also the [Bahá'í Reference Library](https://www.bahai.org/library/)) | Concordance and attested renderings | Already published on this site |
 | Lane, *Arabic–English Lexicon*, Perseus/Alpheios TEI XML ([lexicon_xml](https://github.com/laneslexicon/lexicon_xml)) | Arabic dictionary entries, cited per entry | Free with attribution; Alpheios copy CC BY-SA 3.0 US |
 | Wiktionary via [Kaikki](https://kaikki.org/dictionary/rawdata.html) | Persian/Arabic glosses and forms | CC BY-SA 4.0: attribution, share-alike, kept in its own folder |
 | Steingass (1892) | Persian dictionary | Book is public domain, but the [DSAL digitization](https://dsal.uchicago.edu/dictionaries/steingass/) is CC BY-NC-ND (no derived data); a fresh OCR of the book would be needed |
-| Hazm (MIT), CAMeL Tools (MIT; default morphology DB GPL v2), Stanza (Apache-2.0) | Build-time lemmas and analysis | Run at build time; do not commit large models |
-| Bahá'í World Centre transliteration list (~480 terms) | Transliteration checks | BIC copyright: ask before shipping derived data |
-| Gail, *Bahá'í Glossary* (1955) | Term glosses | Copyright status unclear: ask the National Spiritual Assembly of the US |
-| Hans Wehr, Dehkhoda, Mo'in, Farasa, Ocean | — | Not usable for bundled data; outbound links at most |
+| [Hazm](https://github.com/roshan-research/hazm) (MIT), [CAMeL Tools](https://github.com/CAMeL-Lab/camel_tools) (MIT; default morphology DB GPL v2), [Stanza](https://github.com/stanfordnlp/stanza) (Apache-2.0) | Build-time lemmas and analysis | Run at build time; do not commit large models |
+| [Bahá'í World Centre transliteration list](https://www.bahai.org/library/transliteration/) (~480 terms) | Transliteration checks | BIC copyright ([terms](https://www.bahai.org/legal)): ask before shipping derived data |
+| Gail, [*Bahá'í Glossary*](https://bahai-library.com/3498) (1955) | Term glosses | Copyright status unclear: ask the National Spiritual Assembly of the US |
+| Hans Wehr (in copyright), [Dehkhoda](https://dehkhoda.ut.ac.ir/fa/dictionary), [Mo'in](https://abadis.ir/moeen/), [Farasa](https://farasa-api.qcri.org/) (research use only; the site may refuse automated visits), [Ocean and other tools](https://bahai-education.org/categories/tools) | — | Not usable for bundled data; outbound links at most |
+| [Arabic and Persian transcription list](https://bahai-library.com/4763) (M. W. Thomas) | Transliteration reference | Ask the compiler |
 
-Detailed findings and sources: the research notes behind this page (translation practice; resources and licensing), kept with the pull request that added it.
+Detailed findings, with a source for every claim: [translation practice](research/translation-practice.md) and [resources and licensing](research/resources-licensing.md).
 
 ## Build order
 
