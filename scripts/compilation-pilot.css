@@ -39,3 +39,6 @@ html.guide-busy,html.guide-busy *{cursor:progress}
 .translation-key{font-size:16px;line-height:1.5;color:var(--muted);margin:0 0 12px}
 @media print{.translation-key{font-size:10pt}}
 .translation-key-blue{color:var(--authorized)}
+/* The (?) beside the overview heading opens Help at the subject colour key (src/help.css has the same control). */
+.guide-list-title{display:flex;align-items:center;gap:4px}.help-button{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:40px;color:var(--link);text-decoration:none}.help-button>span{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:1px solid currentColor;border-radius:50%;font-size:13px;font-weight:600;line-height:1}.help-button:hover{color:var(--link)}.help-button:hover>span{background:var(--selection)}.help-button:focus-visible{outline:3px solid #8b6c36;outline-offset:0;border-radius:4px}
+@media print{.help-button{display:none}}

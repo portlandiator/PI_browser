@@ -1,6 +1,7 @@
 // A general pronunciation guide for word study: how to read the Bahá'í
 // transliteration of Persian and Arabic, and how English sounds are written
 // and said for Persian and Arabic speakers. Static reference content.
+import {openHelp} from './help.mjs';
 
 const row=(...cells)=>`<tr>${cells.map(cell=>`<td>${cell}</td>`).join('')}</tr>`;
 const fa=text=>`<span lang="fa" dir="rtl">${text}</span>`;
@@ -70,24 +71,15 @@ ${row('o (go), ay (day)','صوتان متتابعان: «أو» و«إي»','<sp
 <p>تُنطق الكلمات التي تبدأ بحرفين ساكنين دون همزة قبلها: <span lang="en" dir="ltr">street, spirit</span> «ستريت»، «سبيريت»، لا «إستريت». كثير من الحروف الإنجليزية لا يُنطق (<span lang="en" dir="ltr">knight, write, hour</span>)، والنبر غالباً على المقطع الأول.</p>
 </section>`;
 
+// The guide's three parts with their links, shown in the Help dialog's
+// Pronunciation section (src/help.mjs).
 export function pronunciationGuideHtml(){
-  return `<h2 id="pronunciation-guide-title">Pronunciation guide</h2>
-<nav class="guide-tabs" aria-label="Guide sections"><a href="#guide-transliteration">Transliteration</a><a href="#guide-persian" lang="fa">فارسی</a><a href="#guide-arabic" lang="ar">العربية</a></nav>
+  return `<nav class="guide-tabs" aria-label="Pronunciation guide parts"><a href="#guide-transliteration">Transliteration</a><a href="#guide-persian" lang="fa">فارسی</a><a href="#guide-arabic" lang="ar">العربية</a></nav>
 ${transliteration}${persian}${arabic}
-<p class="guide-note">A general guide to approximate sounds; dialects and individual words vary. Dictionary pronunciations are approximate too.</p>
-<div class="dictionary-close"><button type="button" class="secondary" id="pronunciation-guide-close">Close</button></div>`;
+<p class="guide-note">A general guide to approximate sounds; dialects and individual words vary. Dictionary pronunciations are approximate too.</p>`;
 }
 
+// Opens Help at the pronunciation part: 'transliteration', 'persian' or 'arabic'.
 export function openPronunciationGuide(section=''){
-  let dialog=document.getElementById('pronunciation-guide');
-  if(!dialog){
-    dialog=document.createElement('dialog');dialog.id='pronunciation-guide';dialog.className='dictionary-dialog pronunciation-guide';dialog.setAttribute('aria-labelledby','pronunciation-guide-title');
-    dialog.innerHTML=pronunciationGuideHtml();document.body.append(dialog);
-    dialog.addEventListener('click',event=>{
-      if(event.target.id==='pronunciation-guide-close'||event.target===dialog){dialog.close();return;}
-      const tab=event.target.closest('.guide-tabs a');if(tab){event.preventDefault();dialog.querySelector(tab.getAttribute('href'))?.scrollIntoView({block:'start'});}
-    });
-  }
-  dialog.showModal();
-  if(section)dialog.querySelector('#guide-'+section)?.scrollIntoView({block:'start'});
+  return openHelp(['transliteration','persian','arabic'].includes(section)?'guide-'+section:'pronunciation');
 }

@@ -147,3 +147,5 @@
 
 #subject-study-guide{display:inline-flex;align-items:center;min-height:34px;padding:6px 12px;border:1px solid var(--control-rule);border-radius:4px;background:var(--white);color:var(--ink);font-size:15px;white-space:nowrap;text-decoration:none}
 #subject-study-guide:hover{text-decoration:underline}
+/* Subject order label with the (?) that opens Help at the subject colour key. */
+.subject-order-label{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:6px 0 2px}.subject-directory .subject-order-label label{margin:0}.subject-order-label .help-button{margin-right:-9px}
