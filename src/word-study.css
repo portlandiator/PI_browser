@@ -1,0 +1,240 @@
+/* Word tooltip, word study (interlinear) and the dictionaries dialog. */
+.reader-controls{flex-wrap:wrap}
+.study-controls button[disabled]{opacity:.45;cursor:not-allowed}
+.dictionary-button{min-height:34px}
+::highlight(word-hover){background-color:var(--highlight,#f6e5aa)}
+
+.reading-view[data-mode=study] .reading-paper{max-width:900px;margin:auto}
+.interlinear-key{font-size:11px;line-height:1.7;color:var(--muted);text-align:center;padding:13px 16px;margin:0;border-bottom:1px solid var(--rule)}
+.interlinear-block{border-bottom:1px solid var(--rule);padding:18px 36px 22px 55px;position:relative;content-visibility:auto;contain-intrinsic-size:auto 400px}
+.interlinear-top{position:relative}
+.interlinear-top .paragraph-number{position:absolute;left:-42px;top:6px}
+.interlinear-line{display:flex;flex-wrap:wrap;gap:14px 16px;align-items:flex-start}
+/* A paragraph not yet built into word columns: its words as plain text, spaced to about the columns' height. */
+.ilw-pending{font:calc(20px * var(--scale))/5.4 "EB Garamond","Scheherazade New",serif;color:var(--muted);word-spacing:1.1em}
+.interlinear-line[dir=rtl] .ilw-pending{font:calc(23px * var(--scale))/3.9 "Scheherazade New",serif;word-spacing:.9em}
+.ilw{display:inline-flex;flex-direction:column;align-items:center;text-align:center;padding:2px 3px;border-radius:4px;cursor:help;outline-offset:2px}
+.ilw:hover,.ilw:focus-visible,.ilw[aria-describedby]{background:var(--selection)}
+.ilw-word{font:calc(20px * var(--scale))/1.5 "EB Garamond","Scheherazade New",serif}
+.interlinear-line[dir=rtl] .ilw-word{font:calc(23px * var(--scale))/1.6 "Scheherazade New",serif}
+.ilw-pron{font:calc(14px * var(--scale))/1.4 "EB Garamond",serif;color:var(--muted)}
+.ilw-gloss{font:calc(14px * var(--scale))/1.4 "EB Garamond","Scheherazade New",serif;color:var(--gold)}
+.interlinear-line[dir=ltr] .ilw-gloss{font-family:"Scheherazade New",serif;font-size:calc(17px * var(--scale))}
+.ilw-pron.in-script{font:calc(16px * var(--scale))/1.5 "Scheherazade New",serif}
+.word-tooltip-translit.in-script{font:17px/1.3 "Scheherazade New",serif;font-style:normal}
+.word-tooltip [lang=fa]{font-family:"Scheherazade New",serif}
+.word-tooltip-definition[lang=fa]{font-size:16px;line-height:1.6}
+.word-tooltip-gloss[lang=fa]{font-size:18px;line-height:1.4}
+/* Rows keep their height until a column is filled. */
+.ilw-pron:empty:before,.ilw-gloss:empty:before{content:"\a0"}
+.ilw-unknown .ilw-pron,.ilw-unknown .ilw-gloss{opacity:.45}
+.ilw-partial .ilw-gloss:after{content:"≈";margin-inline-start:2px;font-size:.8em;opacity:.7}
+.interlinear-free{border-top:1px dashed var(--rule);margin-top:14px;padding:12px 0 0!important}
+.interlinear-free p{text-align:justify}
+.interlinear-missing{font-size:11px;color:var(--muted);margin:14px 0 0}
+
+/* Compact word tooltip: head row, one gloss line, chips, definition, usage (3 lines), facts line, folded senses, footer. */
+.word-tooltip{position:absolute;z-index:50;max-width:min(380px,calc(100vw - 16px));overflow:auto;overscroll-behavior:contain;background:var(--white);color:var(--ink);border:1px solid var(--rule);border-radius:6px;box-shadow:0 10px 40px #10251c33;padding:9px 12px 8px;font:14px/1.45 "EB Garamond","Scheherazade New",serif}
+.word-tooltip[hidden]{display:none}
+.word-tooltip.word-tooltip-wide{max-width:min(600px,calc(100vw - 16px))}
+.word-tooltip-head{display:flex;flex-wrap:wrap;gap:0 9px;align-items:baseline}
+.word-tooltip-word{font:22px/1.35 "Scheherazade New","EB Garamond",serif}
+.word-tooltip-entries{list-style:none;margin:4px 0 0;padding:0}
+.word-tooltip-entries li+li{border-top:1px solid var(--rule);margin-top:5px;padding-top:5px}
+.word-tooltip-lemma{font:17px/1.35 "Scheherazade New",serif}
+.word-tooltip-translit{font-style:normal;font-weight:500}
+.word-tooltip-lang{font-size:11px;color:var(--muted);letter-spacing:.3px}
+/* Review status of a dictionary entry: amber for an uncertain reading, green once reviewed (at least 4.5:1 in both themes). */
+:root{--status-uncertain-ink:#7a4b00;--status-uncertain-bg:#fbefd2;--status-reviewed-ink:#22603a;--status-reviewed-bg:#e2f0e3}
+:root[data-theme=dark]{--status-uncertain-ink:#f3c56b;--status-uncertain-bg:#3d2f12;--status-reviewed-ink:#9fd9ad;--status-reviewed-bg:#1c3a26}
+.word-tooltip-status{font-size:11px;line-height:1.4;padding:0 5px;border-radius:3px;letter-spacing:.3px}
+.status-uncertain{color:var(--status-uncertain-ink);background:var(--status-uncertain-bg)}
+.status-reviewed{color:var(--status-reviewed-ink);background:var(--status-reviewed-bg)}
+.word-tooltip-gloss{font-weight:600;color:var(--gold);margin:1px 0 0}
+.word-tooltip-rendering{font-weight:400;font-size:13px;color:var(--muted)}
+.word-tooltip-definition,.word-tooltip-via,.word-tooltip-empty{margin:3px 0 0;font-size:13px;line-height:1.45}
+.word-tooltip-via,.word-tooltip-empty{color:var(--muted)}
+.word-tooltip-part-entry+.word-tooltip-part-entry{border-top:1px dotted var(--rule);margin-top:6px;padding-top:4px}
+.word-tooltip-part{font:15px "Scheherazade New",serif;color:var(--muted)}
+.word-tooltip-source{font-size:11px;line-height:1.5;color:var(--muted);margin-top:5px}
+.word-tooltip-senses{margin:5px 0 0;font-size:13px}
+.word-tooltip-senses>summary{cursor:pointer;color:var(--link);font-size:12px;list-style:none;display:inline-block;min-height:24px;line-height:24px}
+.word-tooltip-senses>summary::-webkit-details-marker{display:none}
+.word-tooltip-senses>summary:before{content:"▸ "}
+.word-tooltip-senses[open]>summary:before{content:"▾ "}
+.word-tooltip-senses .word-tooltip-gloss{font-size:13px}
+.word-tooltip-senses .word-tooltip-definition{font-size:12px;margin-top:1px}
+.word-tooltip .text-button.word-tooltip-more{min-height:24px;margin:0;padding:0;font-size:12px;color:var(--link);text-decoration:underline}
+
+.dictionary-dialog{max-width:680px}
+.dictionary-help{font-size:13px;color:var(--muted);line-height:1.6}
+.dictionary-list{list-style:none;padding:0;margin:16px 0}
+.dictionary-row{display:grid;gap:2px 10px;grid-template-columns:1fr auto;border-top:1px solid var(--rule);padding:10px 0}
+.dictionary-row label{display:flex;gap:8px;align-items:center;font-size:16px}
+.dictionary-row input{width:18px;height:18px}
+.dictionary-meta,.dictionary-description{grid-column:1;font-size:12px;color:var(--muted)}
+.dictionary-actions{grid-column:2;grid-row:1/span 3;display:flex;gap:10px;align-items:center}
+.dictionary-actions .text-button{margin:0;min-height:40px;min-width:32px}
+.dictionary-review-link{grid-column:1;display:inline-flex;align-items:center;min-height:40px;width:max-content;font-size:13px;color:var(--link);text-decoration:underline;text-underline-offset:3px}
+.dictionary-add{border-top:1px solid var(--rule);padding-top:14px}
+.dictionary-add input[type=file]{position:absolute;opacity:0;width:1px;height:1px}
+.dictionary-add .secondary-button{display:inline-flex;align-items:center;border:1px solid var(--control-rule,var(--rule));border-radius:4px;padding:9px 15px;min-height:40px;font-size:12px;cursor:pointer}
+.dictionary-add input[type=file]:focus-visible~.secondary-button,.dictionary-add:has(input[type=file]:focus-visible) .secondary-button{outline:2px solid var(--gold);outline-offset:2px}
+.dictionary-status{font-size:13px;min-height:1.5em}
+.dictionary-close{display:flex;justify-content:flex-end;margin-top:10px}
+
+@media(max-width:700px){
+  .interlinear-block{padding:14px 16px 18px 16px}
+  .interlinear-top{padding-top:22px}
+  .interlinear-top .paragraph-number{left:0;top:0}
+  .interlinear-line{gap:10px 10px}
+  .dictionary-dialog{padding:24px}
+}
+@media print{.word-tooltip,.study-controls,.dictionary-button{display:none}}
+
+.target-controls[hidden]{display:none}
+.gloss-controls[hidden]{display:none}
+/* Bahá'í English glosses: words with the elevated tag in small capitals with a dotted gold underline. */
+.ilw-elevated .ilw-gloss{font-style:normal;font-variant:small-caps;text-decoration:underline dotted var(--gold);text-decoration-thickness:1px;text-underline-offset:3px}
+.target-controls button{font-family:"Scheherazade New",serif;font-size:15px;line-height:1;box-sizing:border-box;height:34px;min-height:34px;padding-block:0}
+.word-tooltip-note-label{font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted)}
+.word-tooltip-note{font-size:15px;line-height:1.6;margin:4px 0 6px}
+.word-tooltip-note[dir=rtl]{font:18px/1.8 "Scheherazade New",serif}
+.word-tooltip-note-link{font-size:12px}
+.pronunciation-guide{max-width:760px}
+.guide-tabs{display:flex;gap:18px;margin:6px 0 10px;font-size:14px}
+.guide-tabs a[lang]{font-family:"Scheherazade New",serif;font-size:17px}
+.guide-section{border-top:1px solid var(--rule);padding-top:10px;margin-top:14px}
+.guide-section h3{font-size:18px;margin:6px 0 8px}
+.guide-section p{font-size:14px;line-height:1.7}
+.guide-section[dir=rtl] h3,.guide-section[dir=rtl] p,.guide-section[dir=rtl] td,.guide-section[dir=rtl] th{font-family:"Scheherazade New",serif;font-size:17px;line-height:1.8}
+.guide-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5}
+.guide-table th{text-align:start;font-weight:600;border-bottom:1px solid var(--rule);padding:4px 8px 4px 0}
+.guide-table td{border-bottom:1px solid var(--rule);padding:6px 8px 6px 0;vertical-align:top}
+.guide-table td:first-child{white-space:nowrap;font-weight:600}
+.guide-section [lang=en]{font-family:"EB Garamond",serif;font-size:15px}
+.guide-note{font-size:12px;color:var(--muted)}
+@media(max-width:700px){.guide-table{font-size:13px}.guide-table td:first-child{white-space:normal}}
+
+.vowel-button[hidden]{display:none}
+.vowel-button[aria-pressed=true]{background:var(--selection);border-color:var(--gold)}
+.vowel-button span{font-family:"Scheherazade New",serif;font-size:15px;line-height:1;margin-inline-start:4px}
+/* Word-study buttons match the 40px segmented groups beside them. */
+.reader-controls .dictionary-button{box-sizing:border-box;height:40px;min-height:40px;padding-block:0;line-height:1}
+.ilw-vowelled .ilw-text{line-height:1.9}
+.word-tooltip-vocalized{font:20px/1.35 "Scheherazade New",serif}
+/* Reader menu: on wide screens the menu is transparent to layout; up to 1279px the toolbar is one row and the menu (☰) opens a panel under it. */
+.reader-menu-button{display:none}
+.reader-menu{display:contents}
+@media(max-width:1279px){
+  .reader-controls{flex-wrap:nowrap;justify-content:space-between}
+  .reader-controls>.segmented:first-child{min-width:0}
+  .reader-menu-button{display:inline-flex;align-items:center;justify-content:center;flex:none;width:40px;height:40px;min-height:40px;padding:0;border:1px solid var(--rule);border-radius:4px;color:var(--ink)}
+  .reader-controls.menu-open .reader-menu-button{background:var(--selection);border-color:var(--gold)}
+  .reader-controls .reader-menu{display:none}
+  .reader-controls.menu-open .reader-menu{display:flex;flex-wrap:wrap;align-items:center;gap:10px;position:absolute;top:100%;left:0;right:0;z-index:5;padding:12px;background:var(--paper);border-bottom:1px solid var(--rule);box-shadow:0 6px 14px #203a3218;max-height:calc(100vh - 120px);overflow:auto}
+  .reader-menu [hidden]{display:none!important}
+}
+/* Concordance: what the authorized translations show for an original word (statistics, not a translation). */
+.word-tooltip-concordance{border-top:1px solid var(--rule);margin-top:6px;padding-top:4px;font-size:13px;line-height:1.45}
+.concordance-line,.concordance-actions{margin:0;line-height:1.45}
+.concordance-heading{color:var(--muted)}
+.concordance-via{color:var(--muted);font-size:12px}
+.concordance-actions{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 10px}
+.concordance-note{margin:2px 0 0;font-size:11px;line-height:1.5;color:var(--muted)}
+.concordance-actions .concordance-note{margin:0}
+.word-tooltip-concordance.concordance-none{font-size:12px;color:var(--muted)}
+.word-tooltip-concordance .concordance-open{margin:0;padding:0;min-height:24px;font-size:13px;color:var(--link);text-decoration:underline}
+.concordance-dialog{max-width:760px}
+.concordance-list{list-style:none;padding:0;margin:16px 0}
+.concordance-item{border-top:1px solid var(--rule);padding:12px 0}
+.concordance-link{display:block;font-size:15px;color:var(--link)}
+.concordance-ref{font-size:11px;color:var(--muted);margin-inline-start:6px}
+.concordance-original{font:19px/1.8 "Scheherazade New",serif;margin:6px 0 4px;text-align:justify}
+.concordance-english{font:15px/1.65 "EB Garamond",serif;margin:0;text-align:justify}
+.concordance-original mark,.concordance-english mark{background:var(--highlight);color:inherit}
+.concordance-error{font-size:13px;color:var(--error);margin:0}
+.concordance-dialog .dictionary-close{gap:10px}
+/* Tooltip mode (hover or click), and the passages dialog's views. A dialog's own tooltip is fixed to the viewport inside the dialog's top layer. */
+.word-tooltip.word-tooltip-fixed{position:fixed}
+.tooltip-controls button{white-space:nowrap}
+.concordance-dialog{--scale:1}
+.concordance-views{width:max-content;max-width:100%;margin:6px 0 2px}
+.concordance-dialog .interlinear-block{padding:8px 0 0;border-bottom:0}
+.concordance-dialog .interlinear-free p{font-size:15px;line-height:1.65}
+.concordance-dialog .paragraph-cell:before{display:none}
+.ilw-match .ilw-text{background:var(--highlight);border-radius:2px}
+/* Reverse concordance (English words): the original words usually found with the word, and likely sources marked in the original with a dashed, differently coloured mark so they never read as the word itself. */
+.concordance-renders{margin:2px 0 0;line-height:1.5}
+.concordance-source-item{unicode-bidi:isolate;white-space:nowrap}
+.concordance-source{font:18px/1.3 "Scheherazade New",serif}
+.concordance-translit{color:var(--muted);font-style:italic;font-size:12px}
+.concordance-sep{color:var(--muted)}
+mark.likely-source,.ilw-likely .ilw-text{background:var(--tag-bahai-bg);color:inherit;border-bottom:2px dashed var(--tag-bahai-ink);border-radius:2px}
+.concordance-legend{margin-top:4px}
+.dict-concordance .word-tooltip-concordance{border-top:0;margin-top:0;padding-top:0;font-size:14px}
+.dict-concordance .concordance-open{color:var(--link);text-decoration:underline}
+@media print{.tooltip-controls{display:none}}
+/* With word-study options added, tighter segmented buttons keep the reader toolbar on one row on wide screens. */
+@media(min-width:1280px){.reader-controls .segmented button{padding-inline:12px}.reader-controls .dictionary-button{padding-inline:12px}}
+/* Part of speech, categories (tags), root, modern equivalent and Bahá'í usage in the tooltip. Archaic and meaning-shift chips have a border so they stand out. */
+:root{--tag-elevated-ink:#7a5c14;--tag-elevated-bg:#f5ecd3;--tag-archaic-ink:#8a4a0b;--tag-archaic-bg:#fbe6cf;--tag-literary-ink:#5a3d8a;--tag-literary-bg:#ebe2f6;--tag-religious-ink:#4d5a1e;--tag-religious-bg:#ebefd6;--tag-bahai-ink:#145a6a;--tag-bahai-bg:#d9eef2;--tag-quranic-ink:#1d4f91;--tag-quranic-bg:#dde8f7;--tag-mystical-ink:#7a2f7a;--tag-mystical-bg:#f3e0f1;--tag-honorific-ink:#8a3b52;--tag-honorific-bg:#f6e1e7;--tag-meaning-shift-ink:#a3241c;--tag-meaning-shift-bg:#fbe0dc;--tag-arabic-loan-ink:#4a5560;--tag-arabic-loan-bg:#e6e9ec}
+:root[data-theme=dark]{--tag-elevated-ink:#e2c47e;--tag-elevated-bg:#3a3016;--tag-archaic-ink:#f5b072;--tag-archaic-bg:#43290f;--tag-literary-ink:#c8b0ee;--tag-literary-bg:#2f2242;--tag-religious-ink:#c9d68f;--tag-religious-bg:#2c3216;--tag-bahai-ink:#8fd3e2;--tag-bahai-bg:#12363e;--tag-quranic-ink:#9cc0f0;--tag-quranic-bg:#182c47;--tag-mystical-ink:#e3a8e0;--tag-mystical-bg:#3a1d38;--tag-honorific-ink:#f0a9bd;--tag-honorific-bg:#3d1d27;--tag-meaning-shift-ink:#ff9e93;--tag-meaning-shift-bg:#45201c;--tag-arabic-loan-ink:#c1cad3;--tag-arabic-loan-bg:#2a3138}
+.tag-elevated{--tag-ink:var(--tag-elevated-ink);--tag-bg:var(--tag-elevated-bg)}.tag-archaic{--tag-ink:var(--tag-archaic-ink);--tag-bg:var(--tag-archaic-bg)}.tag-literary{--tag-ink:var(--tag-literary-ink);--tag-bg:var(--tag-literary-bg)}.tag-religious{--tag-ink:var(--tag-religious-ink);--tag-bg:var(--tag-religious-bg)}.tag-bahai{--tag-ink:var(--tag-bahai-ink);--tag-bg:var(--tag-bahai-bg)}.tag-quranic{--tag-ink:var(--tag-quranic-ink);--tag-bg:var(--tag-quranic-bg)}.tag-mystical{--tag-ink:var(--tag-mystical-ink);--tag-bg:var(--tag-mystical-bg)}.tag-honorific{--tag-ink:var(--tag-honorific-ink);--tag-bg:var(--tag-honorific-bg)}.tag-meaning-shift{--tag-ink:var(--tag-meaning-shift-ink);--tag-bg:var(--tag-meaning-shift-bg)}.tag-arabic-loan{--tag-ink:var(--tag-arabic-loan-ink);--tag-bg:var(--tag-arabic-loan-bg)}
+.word-tooltip-pos{font-size:12px;color:var(--muted);font-style:italic}
+.word-tooltip-status-plain{color:var(--muted)}
+.word-tooltip-tags{display:flex;flex-wrap:wrap;gap:3px;margin:3px 0 0}
+.word-tag{font-size:11px;line-height:1.4;padding:0 7px;border-radius:9px;color:var(--tag-ink);background:var(--tag-bg);border:1px solid transparent}
+.word-tag.tag-archaic,.word-tag.tag-meaning-shift{border-color:currentColor;font-weight:600}
+.word-tooltip-facts{margin:3px 0 0;font-size:13px;line-height:1.5;color:var(--muted)}
+.word-tooltip-facts [dir=rtl]{font:16px/1.3 "Scheherazade New",serif;color:var(--ink)}
+.word-tooltip-modern-note{color:var(--ink)}
+.word-tooltip [lang=ar]{font-family:"Scheherazade New",serif}
+.word-tooltip-usage{margin:3px 0 0;padding-inline-start:7px;border-inline-start:2px solid var(--rule)}
+.word-tooltip-usage-label{font-size:12px;color:var(--muted);font-style:italic}
+.word-tooltip-usage p{margin:0;font-size:13px;line-height:1.45}
+.word-tooltip-usage.clamped:not(.expanded) p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden}
+/* Mark (Words: original): words whose shown entry has the chosen category get a ring in that category's colour. */
+.ilw-tagged{box-shadow:inset 0 0 0 2px var(--tag-ink)}
+.ilw-tagged .ilw-gloss{color:var(--tag-ink)}
+.mark-controls{display:inline-flex;align-items:center;gap:6px;font-size:11px}
+.mark-controls[hidden]{display:none}
+.mark-controls select{box-sizing:border-box;height:40px;min-height:40px;padding:0 8px;font-size:12px}
+/* Word options (Words: original): one toolbar button opening a small panel with Vowel marks, the gloss style and Mark; inside the ☰ menu it opens in place. */
+.word-options{position:relative;display:inline-flex}
+.word-options[hidden]{display:none}
+.word-options-button[aria-expanded=true]{background:var(--selection);border-color:var(--gold)}
+.word-options-button span{margin-inline-start:4px;font-size:11px}
+.word-options-panel{position:absolute;top:calc(100% + 6px);left:0;z-index:30;display:grid;gap:10px;min-width:max-content;padding:12px 14px;background:var(--white);color:var(--ink);border:1px solid var(--rule);border-radius:6px;box-shadow:0 10px 30px #10251c33}
+.word-options-panel[hidden]{display:none}
+.word-options-panel .word-option{display:grid;grid-template-columns:4.5em auto;align-items:center;gap:10px;font-size:12px}
+.word-option-label{color:var(--muted);font-size:12px}
+.word-options-panel .mark-controls select{width:100%}
+@media(max-width:1279px){
+  .word-options{flex-wrap:wrap;gap:10px;flex-basis:100%}
+  .word-options-panel{position:static;box-shadow:none;border-width:0 0 0 2px;border-radius:0;padding:4px 0 4px 12px;background:none}
+}
+.word-tooltip-shift{margin:3px 0 0;font-size:13px;line-height:1.45}
+.word-tooltip-shift-label{color:var(--tag-meaning-shift-ink);font-weight:600}
+/* Head: the Persian/Arabic on its own right-aligned line, then pronunciation and part of speech left to right. */
+.word-tooltip-script{display:flex;flex-wrap:wrap;gap:0 12px;align-items:baseline;font:22px/1.35 "Scheherazade New",serif}
+.word-tooltip-script .word-tooltip-word{font-size:24px}
+.word-tooltip-script .word-tooltip-vocalized,.word-tooltip-script .word-tooltip-lemma{font-size:21px;line-height:1.35}
+.word-tooltip-english .word-tooltip-word{font:20px/1.35 "EB Garamond",serif}
+.word-tooltip-senses .word-tooltip-script{font-size:18px}
+.word-tooltip-senses .word-tooltip-script .word-tooltip-vocalized,.word-tooltip-senses .word-tooltip-script .word-tooltip-lemma{font-size:18px}
+
+.reader-controls .help-button-toolbar{min-width:40px;padding-inline:0;font-size:16px;font-weight:600}
+.word-tooltip-dict-link{display:block;margin-top:4px;font-size:12px}
+/* A dictionary's About: what it covers, what an entry is, how it was made (Dictionaries dialog, dictionary browser, review page). */
+.dictionary-about{grid-column:1/-1;font-size:13px;line-height:1.5}
+.dictionary-about summary{cursor:pointer;color:var(--link);width:max-content;max-width:100%}
+.dictionary-about-body{max-width:68ch}
+.dictionary-about-body p{margin:6px 0}
+.dictionary-about-facts{color:var(--muted);font-size:12px}
+.word-tooltip-about-link{color:inherit;text-decoration:underline;text-decoration-color:var(--rule)}
+/* An English word explained in modern English (archaic English dictionary): "Modern: various" and a King James Bible example, set upright. */
+.word-tooltip-gloss-label{font-weight:400;font-size:12px;color:var(--muted)}
+.word-tooltip-kjv{margin:3px 0 0;font-size:13px;line-height:1.45;font-style:normal}
+.word-tooltip-kjv-label{font-size:12px;color:var(--muted)}
+.word-tooltip-kjv-ref{color:var(--muted);white-space:nowrap}

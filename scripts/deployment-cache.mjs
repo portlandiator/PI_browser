@@ -75,6 +75,10 @@ export async function refreshSite(root){
   const {copyViewDefaults}=await import('./copy-view-defaults.mjs');
   await copyViewDefaults(root,out);
   await fs.writeFile(path.join(out,'.nojekyll'),'');
+  const {buildDictionaries}=await import('./build-dictionaries.mjs');
+  await buildDictionaries(root,out);
+  const {writeConcordance}=await import('./build-concordance.mjs');
+  await writeConcordance(root,out,stats.dataset);
   const {buildStudyGuides}=await import('./build-compilation-pilot.mjs');
   const {packStudyGuides}=await import('./pack-study-guides.mjs');
   await buildStudyGuides(root,out,stats.dataset);

@@ -11,5 +11,5 @@ http.createServer((req,res)=>{
   if(name==='/'||name==='')name='/index.html';
   const file=path.resolve(root,'.'+name);
   if(!file.startsWith(root+path.sep)){res.writeHead(403);res.end();return;}
-  fs.stat(file,(error,stat)=>{if(error||!stat.isFile()){res.writeHead(404);res.end('Not found');return;}res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Content-Length':stat.size,'Cache-Control':'no-cache'});if(req.method==='HEAD'){res.end();return;}fs.createReadStream(file).pipe(res);});
+  fs.stat(file,(error,stat)=>{if(error||!stat.isFile()){res.writeHead(404);res.end('Not found');return;}res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Content-Length':stat.size,'Cache-Control':'no-store'});if(req.method==='HEAD'){res.end();return;}fs.createReadStream(file).pipe(res);});
 }).listen(Number(process.env.PORT)||4173,'127.0.0.1',()=>console.log(`Partial Inventory browser: http://localhost:${Number(process.env.PORT)||4173}/PI_browser/`));

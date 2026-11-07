@@ -13,6 +13,11 @@ import {FacetPanel} from './facets-ui.mjs';
 import {catalogFilterLabel} from './catalog-filters.mjs';
 import {renderVolume} from './volumes.mjs';
 import {loadPdfBase} from './pdf-hosting.mjs';
+import {createDictionaryStore} from './dictionary-store.mjs';
+import {textLanguage,wordTags,tagLabels} from './dictionary.mjs';
+import {studyMode,glossTarget,glossStyle,tooltipMode,wordMark,interlinearBlockHtml,fillInterlinear,lazyInterlinear,attachWordTooltip,openDictionaryDialog} from './word-study.mjs';
+import {openHelp} from './help.mjs';
+import {createConcordance,concordanceTools,openConcordanceDialog} from './concordance-view.mjs';
 const $=id=>document.getElementById(id);
 const filters=['author'];
 const labels={author:'Author'};
@@ -24,10 +29,26 @@ let worker,requestId=0,currentSearch=0,readerRequest=0,facets={},lastResults=nul
 let datasetBase,datasetPath;
 const recordCache=new Map();
 const resultViews=new Map();
-let preferences={mode:'parallel',scale:1,parallelResults:false};
+let preferences={mode:'parallel',scale:1,parallelResults:false,study:'',to:'fa',vowels:false,gloss:'plain',tooltips:'click',mark:''};
 try{preferences={...preferences,...JSON.parse(localStorage.getItem('pi-reading')||'{}')};}catch{}
 if(!['parallel','en','original'].includes(preferences.mode))preferences.mode='parallel';
 preferences.parallelResults=preferences.parallelResults===true;
+preferences.study=studyMode(preferences.study);
+preferences.to=glossTarget(preferences.to);
+preferences.vowels=preferences.vowels===true;
+preferences.gloss=glossStyle(preferences.gloss);
+preferences.tooltips=tooltipMode(preferences.tooltips);
+preferences.mark=wordMark(preferences.mark);
+const activeTooltips=()=>preferences.tooltips;
+const dictionaries=createDictionaryStore(new URL('./',location.href));
+let wordTooltip=null,concordance=null,studyBlocks=null;
+// Created once the dataset is known; until then tooltips have no concordance
+// section. Original words show their English co-occurrences, English words
+// the original words usually found with them.
+const concordanceView=concordanceTools(()=>concordance,dictionaries);
+// The passages dialog offers the reader's word tools: the Words view and word tooltips.
+const openConcordance=(word,result,{returnFocus=null}={})=>openConcordanceDialog({word,result,returnFocus,getRecord,paragraphUrl:(id,reference)=>paragraphUrl(location.pathname,id,reference),tools:{store:dictionaries,concordance:concordanceView,mode:activeTooltips,vowels:activeVowels,gloss:activeGloss,target:activeTarget}});
+dictionaries.onChange(()=>{if(reading&&activeStudy(reading))renderReading();});
 preferences.scale=Math.max(.85,Math.min(1.35,Number(preferences.scale)||1));
 function savePreferences(){try{localStorage.setItem('pi-reading',JSON.stringify(preferences));}catch{}}
 function readMetadataFilters(params){
@@ -43,9 +64,9 @@ function readMetadataFilters(params){
   for(const [old,key] of [['volume','volume'],['date','date'],['addressee','recipient'],['place','place']])if(params.has(old)&&!clean[key]){const value=params.get(old);if(value)clean[key]=value==='[missing]'?{presence:'missing'}:old==='volume'?{values:[value]}:{text:value};}
   return clean;
 }
-function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',resultMode:resultMode(params.get('view'),params.get('q')?defaultResultMode(params.get('q'),preferences.parallelResults):preferences.mode),sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',paragraph:params.get('paragraph')||'',paragraphLanguage:params.get('lang')||'en',passage:params.get('passage')||'',subject:params.get('subject')||'',filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
+function stateFromUrl(){const params=new URLSearchParams(location.search);return {query:params.get('q')||'',language:'both',resultMode:resultMode(params.get('view'),params.get('q')?defaultResultMode(params.get('q'),preferences.parallelResults):preferences.mode),sort:['id','citations','volume','date'].includes(params.get('sort'))?params.get('sort'):'citations',page:Math.max(1,parseInt(params.get('page'))||1),id:params.get('id')||'',paragraph:params.get('paragraph')||'',paragraphLanguage:params.get('lang')||'en',passage:params.get('passage')||'',subject:params.get('subject')||'',study:params.has('study')?studyMode(params.get('study')):null,to:params.has('to')?glossTarget(params.get('to')):null,vowels:params.has('vowels')?params.get('vowels')==='1':null,gloss:params.has('gloss')?glossStyle(params.get('gloss')):null,mark:params.has('mark')?wordMark(params.get('mark')):null,filters:Object.fromEntries(filters.map(key=>[key,params.get(key)||''])),metadataFilters:readMetadataFilters(params)};}
 let state=stateFromUrl();
-function urlFor(next){const params=new URLSearchParams();params.set('view',resultMode(next.resultMode,preferences.mode));if(next.query)params.set('q',next.query);for(const key of filters)if(next.filters[key])params.set(key,next.filters[key]);if(Object.keys(next.metadataFilters||{}).length)params.set('mf',JSON.stringify(next.metadataFilters));if(next.sort!=='citations')params.set('sort',next.sort);if(next.page>1)params.set('page',next.page);if(next.id)params.set('id',next.id);if(next.id&&next.paragraph){params.set('paragraph',next.paragraph);if(next.paragraphLanguage!=='en')params.set('lang',next.paragraphLanguage);}if(next.id&&next.passage)params.set('passage',next.passage);if(next.id&&next.subject)params.set('subject',next.subject);return `${location.pathname}${params.size?'?'+params:''}`;}
+function urlFor(next){const params=new URLSearchParams();params.set('view',resultMode(next.resultMode,preferences.mode));if(next.query)params.set('q',next.query);for(const key of filters)if(next.filters[key])params.set(key,next.filters[key]);if(Object.keys(next.metadataFilters||{}).length)params.set('mf',JSON.stringify(next.metadataFilters));if(next.sort!=='citations')params.set('sort',next.sort);if(next.page>1)params.set('page',next.page);if(next.id)params.set('id',next.id);if(next.id&&next.paragraph){params.set('paragraph',next.paragraph);if(next.paragraphLanguage!=='en')params.set('lang',next.paragraphLanguage);}if(next.id&&next.passage)params.set('passage',next.passage);if(next.id&&next.subject)params.set('subject',next.subject);if(next.id&&next.study){params.set('study',next.study);if(next.study==='en'&&next.to)params.set('to',next.to);if(next.study==='original'&&next.vowels)params.set('vowels','1');if(next.study==='original'&&next.gloss==='bahai')params.set('gloss','bahai');if(next.study==='original'&&next.mark)params.set('mark',next.mark);}return `${location.pathname}${params.size?'?'+params:''}`;}
 function updateUrl(replace=false){history[replace?'replaceState':'pushState']({},'',urlFor(state)+(replace&&state.id?location.hash:''));}
 function syncControls(){
   $('query').value=state.query;$('sort').value=state.sort;
@@ -145,6 +166,7 @@ function showCollection(){readerRequest++;$('collection').hidden=false;$('reader
 function backToCollection(){state.id='';state.paragraph='';state.passage='';state.subject='';updateUrl();showCollection();syncControls();if(!lastResults)runSearch();$('results-heading').scrollIntoView({block:'start'});$('query').focus({preventScroll:true});}
 function metadataValue(label,value){return `<div><dt>${label}</dt><dd>${esc(value||'Not recorded')}</dd></div>`;}
 function catalogueValue(key,value){return key==='Volume'?renderVolume(value,volumePdfs,volumeTitles,volumePdfBase):['Manuscripts','Publications','Translations'].includes(key)?renderReferenceList(value):renderMetadata(value);}
+function numberLinkHtml(i,language){return `<a class="paragraph-number" href="${esc(paragraphUrl(location.pathname,reading.id,{number:i+1,language}))}" data-paragraph="${i+1}" data-paragraph-language="${language}" aria-label="Link to ${language==='en'?'English':'Original'} paragraph ${i+1}" title="Link to ${language==='en'?'English':'Original'} paragraph ${i+1}">${String(i+1).padStart(2,'0')}</a>`;}
 function paragraphHtml(part,i,language){if(i===null)return `<div class="paragraph-cell alignment-blank ${language==='en'?'english-cell':'original-cell'}" aria-hidden="true"></div>`;return `<div class="paragraph-cell ${language==='en'?'english-cell':'original-cell'}${language==='en'&&isAuthorizedParagraph(translationRanges,i+1)?' authorized-translation':''}" dir="${language==='en'?'ltr':'rtl'}" lang="${language==='en'?'en':'fa'}" id="p-${language}-${i+1}"><a class="paragraph-number" href="${esc(paragraphUrl(location.pathname,reading.id,{number:i+1,language}))}" data-paragraph="${i+1}" data-paragraph-language="${language}" aria-label="Link to ${language==='en'?'English':'Original'} paragraph ${i+1}" title="Link to ${language==='en'?'English':'Original'} paragraph ${i+1}">${String(i+1).padStart(2,'0')}</a><p>${part.html}</p></div>`;}
 function notesHtml(record){if(!record.en.notes.length&&!record.original.notes.length)return '';return `<section class="footnotes" aria-label="Footnotes"><h2>Notes</h2>${['en','original'].map(lang=>record[lang].notes.length?`<div class="${lang==='en'?'english':'original'}-notes" dir="${lang==='en'?'ltr':'rtl'}"><h3>${lang==='en'?'English translation':'فارسی / العربية'}</h3><ol>${record[lang].notes.map(note=>`<li id="note-${lang}-${note.number}">${note.html} <a href="#ref-${lang}-${note.number}" aria-label="Return to footnote ${note.number}">↩</a></li>`).join('')}</ol></div>`:'').join('')}</section>`;}
 let visibleParagraphs=100;
@@ -166,7 +188,7 @@ function collectReadingMatches(record){
 function highlightReading(){
   if(!readerMatches.length)return;
   for(const match of readerMatches){
-    const element=document.getElementById(match.id);if(!element||element.querySelector('mark'))continue;
+    const element=document.getElementById(match.id);if(!element||element.classList.contains('interlinear-top')||element.querySelector('mark'))continue;
     const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT),nodes=[];let text='';
     while(walker.nextNode())if(walker.currentNode.parentElement.tagName!=='A'){nodes.push({node:walker.currentNode,start:text.length});text+=walker.currentNode.textContent;}
     const ranges=searchHighlightRanges(text,state.query);
@@ -178,27 +200,62 @@ function nextMatch(){
   matchCursor=(matchCursor+1)%readerMatches.length;const match=readerMatches[matchCursor];
   if(preferences.mode!=='parallel'&&preferences.mode!==match.language){preferences.mode='parallel';applyReadingPreferences();}
   if(match.kind==='paragraphs'){const position=readingPosition(reading[match.language],match.index);if(position>=visibleParagraphs){visibleParagraphs=Math.ceil((position+1)/100)*100;renderReading();}}
-  document.getElementById(match.id)?.scrollIntoView({block:'center'});
+  reveal(document.getElementById(match.id),'center');
   $('match-label').textContent=`Match ${matchCursor+1} of ${readerMatches.length}`;
+}
+// Word study shows one language word by word with dictionary rows, and the
+// other language's paired paragraph beneath it (only when counts match).
+function activeTarget(){return state.to??preferences.to;}
+function activeLanguage(){return reading?textLanguage(reading.metadata?.Language):'';}
+function activeVowels(){return state.vowels??preferences.vowels;}
+function activeGloss(){return state.gloss??preferences.gloss;}
+function activeMark(){return state.mark??preferences.mark;}
+function activeStudy(record){const study=state.study??preferences.study;if(study==='original'&&record.hasOriginal&&record.original.paragraphs.length)return 'original';if(study==='en'&&record.hasEnglish&&record.en.paragraphs.length)return 'en';return '';}
+function interlinearHtml(record,slots,top){
+  const bottom=top==='en'?'original':'en',hasBottom=record[bottom].paragraphs.length>0;
+  const block=(i,j)=>interlinearBlockHtml({top:record[top].paragraphs[i],topLanguage:top,number:i+1,numberHtml:numberLinkHtml(i,top),bottomLanguage:bottom,bottomHtml:!hasBottom||!record.paired?null:j===null?undefined:record[bottom].paragraphs[j].html,bottomId:j===null?'':`p-${bottom}-${j+1}`,bottomClass:bottom==='en'&&j!==null&&isAuthorizedParagraph(translationRanges,j+1)?' authorized-translation':'',lazy:true});
+  const note=!hasBottom?`<p class="alignment-note">${bottom==='en'?'An English translation':'The original text'} is not available for this record, so only the word-by-word rows are shown.</p>`:!record.paired?'<p class="alignment-note">The paragraph counts differ, so each paragraph is shown without its translation beneath it.</p>':'';
+  const rows=[];
+  for(let n=0;n<Math.min(slots[top].length,visibleParagraphs);n++){const i=slots[top][n];if(i===null)continue;rows.push(block(i,record.paired?slots[bottom][n]:null));}
+  return `<p class="interlinear-key">Word study: each word shows its pronunciation and a one-word gloss from the dictionaries you have turned on. The ${bottom==='en'?'English translation':'original text'} beneath is the published paragraph, not a word-for-word rendering. Click, tap or press Enter on a word for its full entry.</p>${note}${rows.join('')}`;
 }
 function renderReading(){
   if(!reading)return;
   const record=reading,slots={en:readingSlots(record.en),original:readingSlots(record.original)};const n=Math.max(slots.en.length,slots.original.length);
   let html='';
-  if(record.paired){for(let i=0;i<Math.min(n,visibleParagraphs);i++)html+=`<div class="paragraph-pair">${paragraphHtml(record.en.paragraphs[slots.en[i]],slots.en[i],'en')}${paragraphHtml(record.original.paragraphs[slots.original[i]],slots.original[i],'original')}</div>`;}
+  const study=activeStudy(record);
+  if(study){html=interlinearHtml(record,slots,study);}
+  else if(record.paired){for(let i=0;i<Math.min(n,visibleParagraphs);i++)html+=`<div class="paragraph-pair">${paragraphHtml(record.en.paragraphs[slots.en[i]],slots.en[i],'en')}${paragraphHtml(record.original.paragraphs[slots.original[i]],slots.original[i],'original')}</div>`;}
   else{
     html='<div class="independent-columns">'+['en','original'].map(lang=>`<div class="${lang==='en'?'english-cell':'original-cell'}">${record[lang].paragraphs.length?slots[lang].slice(0,visibleParagraphs).map(i=>paragraphHtml(record[lang].paragraphs[i],i,lang)).join(''):`<div class="paragraph-cell"><p class="missing-version">${lang==='en'?'An English translation':'The original text'} is not available for this record.</p></div>`}</div>`).join('')+'</div>';
   }
-  $('reading-paragraphs').innerHTML=html;
+  // Word study builds paragraphs lazily, so a re-render keeps the paragraph being read in place.
+  const previous=$('reading-paragraphs'),anchor=study||previous.querySelector('.interlinear-block')?[...previous.querySelectorAll('[id^="p-"]')].find(element=>element.getBoundingClientRect().bottom>0):null,offset=anchor?.getBoundingClientRect().top;
+  previous.innerHTML=html;
   $('reading-more').innerHTML=n>visibleParagraphs?`<button class="secondary" id="more-paragraphs">Continue reading · ${Math.min(n-visibleParagraphs,100)} more paragraphs</button>`:'';
   document.querySelector('.reader-end').hidden=n>visibleParagraphs;
   if($('more-paragraphs'))$('more-paragraphs').onclick=()=>{visibleParagraphs+=100;renderReading();};
   applyReadingPreferences();
+  studyBlocks?.disconnect();studyBlocks=null;
+  // Word columns are built and filled only near the viewport (lazyInterlinear).
+  if(study){const token=readerRequest,target=study==='en'?activeTarget():'',vowels=study==='original'&&activeVowels(),gloss=study==='original'?activeGloss():'plain',mark=study==='original'?activeMark():'',language=activeLanguage();studyBlocks=lazyInterlinear($('reading-paragraphs'),root=>fillInterlinear(root,dictionaries,()=>token===readerRequest&&reading===record,target,vowels,gloss,language,mark).catch(()=>{}));}
+  const next=anchor&&document.getElementById(anchor.id);if(next){studyBlocks?.build(next.closest('.interlinear-block'));scrollBy(0,next.getBoundingClientRect().top-offset);}
   highlightReading();
   highlightPassage();
   if(!selectedPassage){const target=paragraphTarget(reading,paragraphReference(state.paragraph,state.paragraphLanguage));if(target)document.getElementById(target.id)?.classList.add('referenced-paragraph');}
 }
-function applyReadingPreferences(){const view=$('reading-view');if(!view)return;view.dataset.mode=preferences.mode;$('translation-key').hidden=preferences.mode==='original';view.style.setProperty('--scale',preferences.scale);document.querySelectorAll('[data-mode-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.modeButton===preferences.mode)));$('size-label').textContent=`${Math.round(preferences.scale*100)}%`;$('size-down').disabled=preferences.scale<=.85;$('size-up').disabled=preferences.scale>=1.35;}
+// Scroll to a paragraph; in word study its block is built first and kept in
+// place while the paragraphs around it are built and filled.
+function reveal(element,block){if(!element)return;if(studyBlocks)studyBlocks.reveal(element,{block});else element.scrollIntoView({block});}
+function applyReadingPreferences(){const view=$('reading-view');if(!view)return;const study=reading?activeStudy(reading):'';view.dataset.mode=study?'study':preferences.mode;document.querySelectorAll('[data-study-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.studyButton===study)));document.querySelectorAll('.target-controls').forEach(group=>group.hidden=study!=='en');if($('vowel-button')){$('vowel-button').hidden=study!=='original';$('vowel-button').setAttribute('aria-pressed',String(activeVowels()));}document.querySelectorAll('.gloss-controls,.mark-controls').forEach(group=>group.hidden=study!=='original');if($('word-options-group')){$('word-options-group').hidden=study!=='original';if(study!=='original')setWordOptions(false);}if($('mark-select'))$('mark-select').value=activeMark();document.querySelectorAll('[data-gloss-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.glossButton===activeGloss())));document.querySelectorAll('[data-target-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.targetButton===activeTarget())));document.querySelectorAll('[data-tooltip-button]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.tooltipButton===activeTooltips())));$('translation-key').hidden=preferences.mode==='original';view.style.setProperty('--scale',preferences.scale);document.querySelectorAll('[data-mode-button]').forEach(button=>button.setAttribute('aria-pressed',String(!study&&button.dataset.modeButton===preferences.mode)));$('size-label').textContent=`${Math.round(preferences.scale*100)}%`;$('size-down').disabled=preferences.scale<=.85;$('size-up').disabled=preferences.scale>=1.35;}
+// Narrow screens: the reader toolbar keeps the language group in one row and puts the other controls in a menu.
+// Word options (Words: original): a button that opens a small panel with Vowel marks, the gloss style and Mark.
+function setWordOptions(open,focus=false){const button=$('word-options-button'),panel=$('word-options');if(!button||!panel)return;if(!open&&panel.hidden)return;panel.hidden=!open;button.setAttribute('aria-expanded',String(open));if(focus&&!open&&button.getClientRects().length)button.focus();}
+function setReaderMenu(open,focus=false){const bar=document.querySelector('.reader-controls'),button=$('reader-menu-button');if(!bar||!button)return;if(!open&&!bar.classList.contains('menu-open'))return;bar.classList.toggle('menu-open',open);button.setAttribute('aria-expanded',String(open));if(!focus)return;if(open)[...$('reader-menu').querySelectorAll('button,a[href],input,select,[tabindex]:not([tabindex="-1"])')].find(control=>!control.disabled&&control.getClientRects().length)?.focus();else if(button.getClientRects().length)button.focus();}
+document.addEventListener('pointerdown',event=>{const group=$('word-options-group');if(group&&!group.contains(event.target))setWordOptions(false);});
+document.addEventListener('focusin',event=>{const group=$('word-options-group');if(group&&!group.contains(event.target))setWordOptions(false);});
+document.addEventListener('pointerdown',event=>{const bar=document.querySelector('.reader-controls.menu-open');if(bar&&!bar.contains(event.target))setReaderMenu(false);});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&$('word-options')&&!$('word-options').hidden){event.preventDefault();setWordOptions(false,true);return;}if(event.key==='Escape'&&document.querySelector('.reader-controls.menu-open')){event.preventDefault();setReaderMenu(false,true);}});
 async function openReader(id,{push=true}={}){
   preferences.mode=state.resultMode;
   id=id.replace(/\.txt$/i,'');if(push){state.paragraph='';state.passage='';state.subject='';}state.id=id;if(push)updateUrl();const token=++readerRequest;
@@ -217,16 +274,27 @@ async function openReader(id,{push=true}={}){
     const extra=catalogueDetails(metadataFields,record.metadata);
     const usePeriod=!record.date?.trim()&&record.metadata.Period?.trim();
     const notice=record.paired?'':record.hasOriginal&&record.hasEnglish?`Paragraph counts differ (${counts.en} English / ${counts.original} original, including blank alignment paragraphs). Each language follows its own source order.`:'This record does not have both language versions available.';
-    $('reader-content').innerHTML=`<header class="reader-header"><div class="eyebrow">${esc(record.id)}${record.volume?' · Volume '+esc(record.volume):''}</div><h1 id="reader-title" tabindex="-1">${esc(title)}</h1><div class="reader-author">${esc(record.author)}</div><dl class="reader-metadata">${metadataValue(usePeriod?'Period':'Date',usePeriod?record.metadata.Period:record.date)}${metadataValue('Recipient',record.addressee)}${metadataValue('Place',record.place)}</dl>${extra.length?`<details class="source-details"><summary>Catalog details &amp; source notes</summary><dl>${extra.map(([key,value])=>`<dt>${esc(key)}</dt><dd>${value?catalogueValue(key,value):'<span class="metadata-missing">Not recorded</span>'}</dd>`).join('')}</dl></details>`:''}</header><div class="reader-controls"><div class="segmented" role="group" aria-label="Reading language"><button data-mode-button="parallel" aria-pressed="true">Parallel</button><button data-mode-button="en" aria-pressed="false">English</button><button data-mode-button="original" aria-pressed="false">Original</button></div><div class="type-controls" role="group" aria-label="Text size"><button id="size-down" aria-label="Decrease text size">A−</button><span id="size-label">100%</span><button id="size-up" aria-label="Increase text size">A+</button></div></div><p id="translation-key" class="translation-key">Authorized translations are displayed in blue text while provisional translations, which may be AI-generated and lightly vetted, are in black and white.  AI-generated translations may contain inaccuracies; the final authority is always the original text.</p>${notice?`<p class="alignment-note">${notice}</p>`:''}<p class="paragraph-link-help">Select a paragraph number, then Copy link to share that paragraph.</p><p id="paragraph-link-status" class="alignment-note" role="status" hidden></p><div id="reading-view" class="reading-view" data-mode="parallel"><article class="reading-paper" aria-label="Text and translation"><div id="reading-paragraphs"></div><div id="reading-more" class="load-more-reading"></div>${notesHtml(record)}</article></div><div class="reader-end" aria-label="End of text">❧</div>`;
+    $('reader-content').innerHTML=`<header class="reader-header"><div class="eyebrow">${esc(record.id)}${record.volume?' · Volume '+esc(record.volume):''}</div><h1 id="reader-title" tabindex="-1">${esc(title)}</h1><div class="reader-author">${esc(record.author)}</div><dl class="reader-metadata">${metadataValue(usePeriod?'Period':'Date',usePeriod?record.metadata.Period:record.date)}${metadataValue('Recipient',record.addressee)}${metadataValue('Place',record.place)}</dl>${extra.length?`<details class="source-details"><summary>Catalog details &amp; source notes</summary><dl>${extra.map(([key,value])=>`<dt>${esc(key)}</dt><dd>${value?catalogueValue(key,value):'<span class="metadata-missing">Not recorded</span>'}</dd>`).join('')}</dl></details>`:''}</header><div class="reader-controls"><div class="segmented" role="group" aria-label="Reading language"><button data-mode-button="parallel" aria-pressed="true">Parallel</button><button data-mode-button="en" aria-pressed="false">English</button><button data-mode-button="original" aria-pressed="false">Original</button></div><button type="button" class="reader-menu-button" id="reader-menu-button" aria-expanded="false" aria-controls="reader-menu" aria-label="More reading options"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="reader-menu" id="reader-menu"><div class="segmented study-controls" role="group" aria-label="Word study"><button data-study-button="original" aria-pressed="false"${record.hasOriginal&&record.original.paragraphs.length?'':' disabled'} title="Original words with pronunciation and gloss, English beneath">Words: original</button><button data-study-button="en" aria-pressed="false"${record.hasEnglish&&record.en.paragraphs.length?'':' disabled'} title="English words with their dictionary equivalents, original beneath">Words: English</button></div><div class="segmented target-controls" role="group" aria-label="English words glossed in"><button data-target-button="fa" aria-pressed="false" lang="fa">فارسی</button><button data-target-button="ar" aria-pressed="false" lang="ar">العربية</button></div><div class="word-options" id="word-options-group" hidden><button type="button" class="secondary dictionary-button word-options-button" id="word-options-button" aria-expanded="false" aria-controls="word-options">Word options <span aria-hidden="true">▾</span></button><div class="word-options-panel" id="word-options" role="group" aria-label="Word options" hidden><div class="word-option"><span class="word-option-label" id="vowel-label">Vowels</span><button class="secondary dictionary-button vowel-button" id="vowel-button" type="button" aria-pressed="false" title="Show the dictionary's vowel marks on original words">Vowel marks <span lang="fa">حرکات</span></button></div><div class="word-option"><span class="word-option-label" id="gloss-label">Gloss</span><div class="segmented gloss-controls" role="group" aria-labelledby="gloss-label"><button data-gloss-button="plain" aria-pressed="false" title="Plain modern English glosses">Plain</button><button data-gloss-button="bahai" aria-pressed="false" title="Glosses in the style of the authorized translations; elevated words are marked">Bahá'í English</button></div></div><label class="word-option mark-controls" title="Mark the words whose dictionary entry has this category"><span class="word-option-label">Mark</span><select id="mark-select"><option value="">None</option>${wordTags.map(tag=>`<option value="${tag}">${esc(tagLabels[tag])}</option>`).join('')}</select></label></div></div><div class="segmented tooltip-controls" role="group" aria-label="Word tooltips"><button data-tooltip-button="hover" aria-pressed="false" title="Word tooltips open when you point at or focus a word" aria-label="Tooltips on hover">Hover</button><button data-tooltip-button="click" aria-pressed="true" title="Word tooltips open only when you click or tap a word, or press Enter" aria-label="Tooltips on click">Click</button></div><button class="secondary dictionary-button" id="dictionary-button" type="button">Dictionaries</button><button class="secondary dictionary-button help-button-toolbar" id="help-button" type="button" aria-label="Help: word study, tags and pronunciation" title="Help">?</button><div class="type-controls" role="group" aria-label="Text size"><button id="size-down" aria-label="Decrease text size">A−</button><span id="size-label">100%</span><button id="size-up" aria-label="Increase text size">A+</button></div></div></div><p id="translation-key" class="translation-key">Authorized translations are displayed in <span class="translation-key-blue">blue text</span> while provisional translations, which may be AI-generated and lightly vetted, are in black and white.  AI-generated translations may contain inaccuracies; the final authority is always the original text.</p>${notice?`<p class="alignment-note">${notice}</p>`:''}<p class="paragraph-link-help">Select a paragraph number, then Copy link to share that paragraph.</p><p id="paragraph-link-status" class="alignment-note" role="status" hidden></p><div id="reading-view" class="reading-view" data-mode="parallel"><article class="reading-paper" aria-label="Text and translation"><div id="reading-paragraphs"></div><div id="reading-more" class="load-more-reading"></div>${notesHtml(record)}</article></div><div class="reader-end" aria-label="End of text">❧</div>`;
     renderReading();
     if(selectedPassage){const subjectId=new URLSearchParams(location.search).get('subject')||selectedPassage.subjects[0];const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<a href="./subjects.html?subject=${encodeURIComponent(subjectId)}">← Return to subject</a><span>Selected wording highlighted · ${selectedPassage.ranges.length} source ranges</span>`;document.querySelector('.reader-controls').after(bar);}
     if(readerMatches.length){const bar=document.createElement('div');bar.className='reader-search';bar.innerHTML=`<span>Search: <strong>${esc(state.query)}</strong></span><span id="match-label">${readerMatches.length} matching passages</span><button class="text-button" id="next-match">Next match ↓</button>`;document.querySelector('.reader-controls').after(bar);$('next-match').onclick=nextMatch;}
-    document.querySelectorAll('[data-mode-button]').forEach(button=>button.onclick=()=>{preferences.mode=button.dataset.modeButton;state.resultMode=preferences.mode;preferences.parallelResults=state.resultMode==='parallel';savePreferences();updateUrl(true);syncResultMode();applyReadingPreferences();});
+    document.querySelectorAll('[data-mode-button]').forEach(button=>button.onclick=()=>{const hadStudy=!!activeStudy(reading);preferences.study='';state.study=null;if(hadStudy){savePreferences();renderReading();}preferences.mode=button.dataset.modeButton;state.resultMode=preferences.mode;preferences.parallelResults=state.resultMode==='parallel';savePreferences();updateUrl(true);syncResultMode();applyReadingPreferences();});
+    document.querySelectorAll('[data-study-button]').forEach(button=>button.onclick=()=>{const next=activeStudy(reading)===button.dataset.studyButton?'':button.dataset.studyButton;preferences.study=next;state.study=next||null;savePreferences();updateUrl(true);wordTooltip?.hide();renderReading();});
+    $('reader-menu-button').onclick=()=>setReaderMenu(!document.querySelector('.reader-controls').classList.contains('menu-open'),true);
+    $('dictionary-button').onclick=()=>{setReaderMenu(false);openDictionaryDialog(dictionaries);};
+    $('word-options-button').onclick=()=>setWordOptions($('word-options').hidden);
+    $('vowel-button').onclick=()=>{preferences.vowels=!activeVowels();state.vowels=preferences.vowels;savePreferences();updateUrl(true);wordTooltip?.hide();renderReading();};
+    $('help-button').onclick=()=>{setReaderMenu(false);openHelp(activeStudy(reading)==='en'?(activeTarget()==='ar'?'guide-arabic':'guide-persian'):'word-study');}
+    document.querySelectorAll('[data-gloss-button]').forEach(button=>button.onclick=()=>{preferences.gloss=glossStyle(button.dataset.glossButton);state.gloss=preferences.gloss;savePreferences();updateUrl(true);wordTooltip?.hide();renderReading();});
+    $('mark-select').onchange=event=>{preferences.mark=wordMark(event.target.value);state.mark=preferences.mark;savePreferences();updateUrl(true);wordTooltip?.hide();renderReading();};
+    document.querySelectorAll('[data-target-button]').forEach(button=>button.onclick=()=>{preferences.to=button.dataset.targetButton;state.to=preferences.to;savePreferences();updateUrl(true);wordTooltip?.hide();renderReading();});
+    document.querySelectorAll('[data-tooltip-button]').forEach(button=>button.onclick=()=>{preferences.tooltips=tooltipMode(button.dataset.tooltipButton);savePreferences();wordTooltip?.hide();applyReadingPreferences();});
+    wordTooltip=attachWordTooltip($('reading-view'),dictionaries,{target:activeTarget,prefer:activeLanguage,concordance:concordanceView,onOpenConcordance:openConcordance,mode:activeTooltips,gloss:activeGloss});
     $('size-down').onclick=()=>{preferences.scale=Math.max(.85,Math.round((preferences.scale-.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('size-up').onclick=()=>{preferences.scale=Math.min(1.35,Math.round((preferences.scale+.05)*100)/100);savePreferences();applyReadingPreferences();};
     $('reader-title').focus({preventScroll:true});
     if(!selectedPassage&&!location.hash)jumpToParagraph();
-    jumpToHash();if(selectedPassage)document.getElementById(`p-en-${selectedPassage.ranges[0].paragraph}`)?.scrollIntoView({block:'center'});
+    jumpToHash();if(selectedPassage)reveal(document.getElementById(`p-en-${selectedPassage.ranges[0].paragraph}`),'center');
   }catch(error){if(token!==readerRequest)return;$('reader-content').innerHTML=`<div class="empty-state"><h1 id="reader-title">Text unavailable</h1><p>We couldn’t open ${esc(id)}. Check the ID and your connection.</p><p>${esc(error.message)}</p><button class="secondary" id="retry-reader">Try again</button></div>`;$('retry-reader').onclick=()=>openReader(id,{push:false});}
 }
 function jumpToParagraph(){
@@ -240,7 +308,7 @@ function jumpToParagraph(){
   if(target.visibleParagraphs>visibleParagraphs){visibleParagraphs=target.visibleParagraphs;renderReading();}
   const element=document.getElementById(target.id);
   element?.querySelector('.paragraph-number')?.focus({preventScroll:true});
-  element?.scrollIntoView({block:'start'});
+  reveal(element,'start');
 }
 function jumpToHash(){
   if(!location.hash)return;
@@ -249,7 +317,7 @@ function jumpToHash(){
   if(paragraph&&reading){const position=readingPosition(reading[paragraph[1]],Number(paragraph[2])-1);if(position>=visibleParagraphs){visibleParagraphs=Math.ceil((position+1)/100)*100;renderReading();}}
   // Notes may link back to a paragraph beyond the initially rendered section.
   if(/^ref-(en|original)-\d+$/.test(hash)&&!document.getElementById(hash)&&reading){visibleParagraphs=Math.max(readingSlots(reading.en).length,readingSlots(reading.original).length);renderReading();}
-  document.getElementById(hash)?.scrollIntoView({block:'center'});
+  reveal(document.getElementById(hash),'center');
 }
 document.querySelectorAll('[data-result-mode]').forEach(button=>button.onclick=()=>{state.resultMode=button.dataset.resultMode;preferences.mode=state.resultMode;preferences.parallelResults=state.resultMode==='parallel';savePreferences();updateUrl();syncResultMode();});
 $('search-form').onsubmit=event=>{event.preventDefault();submitSearch();};
@@ -288,6 +356,7 @@ try{
   const response=await fetch(new URL('./stats.json',import.meta.url),{cache:'no-cache'});
   if(!response.ok)throw new Error('The collection manifest could not be loaded. Please reload the page.');
   const stats=await response.json();datasetPath=stats.dataset||'./';datasetBase=new URL(datasetPath,import.meta.url);
+  concordance=createConcordance(new URL('./',location.href),datasetPath);
   $('translation-word-count').textContent=stats.translationWordCount.toLocaleString();
   const fieldsResponse=await fetch(new URL('metadata-schema.json',datasetBase));if(!fieldsResponse.ok)throw new Error('The metadata schema could not be loaded. Please reload the page.');
   metadataFields=await fieldsResponse.json();

@@ -83,6 +83,7 @@ for(const folder of ['data','index','facets'])await fs.mkdir(path.join(corpus,fo
 await fs.cp(path.join(root,'src'),out,{recursive:true});
 await copyViewDefaults(root,out);
 await fs.writeFile(path.join(out,'.nojekyll'),'');
+console.log('Dictionaries:',await (await import('./build-dictionaries.mjs')).buildDictionaries(root,out));
 const volumes=reuse?JSON.parse(await fs.readFile(path.join(out,'volumes.json'),'utf8')):await buildVolumes(root,out);
 const withheldVolumes=JSON.parse(await fs.readFile(path.join(root,'data','withheld-pdf-volumes.json'),'utf8'));
 for(const row of metadata.values())if(row.Volume&&!volumes[String(Number(row.Volume))]&&!Object.hasOwn(withheldVolumes,String(Number(row.Volume))))throw new Error(`No PDF for volume ${row.Volume}`);
@@ -183,6 +184,7 @@ await packStudyGuides(root,out);
 const buildMode=reuse?'incremental':'full';
 await fs.writeFile(path.join(out,'build-state.json'),JSON.stringify({format:1,dataset,compatibility,ids,items}));
 console.log(`Build mode: ${buildMode}; regenerated ${changedRecords.size} records; subject rebuild: ${!reuse||englishChanged}`);
+console.log('Concordance:',await (await import('./build-concordance.mjs')).writeConcordance(root,out,dataset));
 await fs.writeFile(path.join(out,'stats.json'),JSON.stringify(stats));
 await fs.writeFile(path.join(root,'build-report.json'),JSON.stringify({...stats,...report,buildMode,regeneratedRecords:changedRecords.size},null,2));
 console.log('Build complete',stats);

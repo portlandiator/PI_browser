@@ -18,7 +18,7 @@ For interface-only work, reuse a verified compatible dataset with `node scripts/
 
 ## Invariants
 - English is the left column; the original is right-to-left on the right. Narrow screens preserve paragraph pairs in a vertical flow.
-- Never manufacture titles, dates, translation authority, or semantic alignments. Equal paragraph counts permit positional pairing, not a claim of verified alignment. Unequal counts use independent columns with a clear notice.
+- Never manufacture titles, dates, translation authority, or semantic alignments. Word-study glosses are labelled dictionary lookups shown beside the published text; never present them as the translation's word-for-word alignment. Equal paragraph counts permit positional pairing, not a claim of verified alignment. Unequal counts use independent columns with a clear notice.
 - Preserve source content. Normalize only search keys. Dates can include uncertainty, multiple calendars, and ranges; do not silently convert them to Gregorian dates.
 - Keep every ID, including metadata-only and single-language records. Use filenames as exact document identity. Do not silently merge alternate suffixes.
 - Treat source text as untrusted: escape HTML and render only the explicit LaTeX allowlist.

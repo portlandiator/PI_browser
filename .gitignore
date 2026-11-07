@@ -14,3 +14,6 @@ __pycache__/
 # Private immutable extract inputs; publish the filtered archive instead.
 subject_extracts/
 extract-review/*-with-extract.csv
+
+# macOS Finder metadata
+.DS_Store

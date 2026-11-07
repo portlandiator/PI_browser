@@ -1,0 +1,45 @@
+/* Help dialog and page (src/help.mjs): word study, tags, pronunciation and the subject colour key. Chips use word-study.css; colours use the subject shades in theme.css. */
+.help-dialog{max-width:780px}
+.help-dialog[open]{display:flex;flex-direction:column;overflow:hidden;padding:28px 36px 24px}
+.help-head{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 16px;border-bottom:1px solid var(--rule);padding-bottom:4px}
+.help-head h2{margin:0;font-size:26px}
+.help-body{overflow:auto;min-height:0;overscroll-behavior:contain;padding-bottom:8px}
+.help-body:focus{outline:none}
+.help-tabs{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:0 18px;font-size:14px}
+.help-tabs a{display:inline-flex;align-items:center;min-height:40px;color:var(--link);text-underline-offset:3px}
+.help-tabs a[aria-current]{color:var(--ink);font-weight:600;text-decoration:none}
+.help-section{scroll-margin-top:8px;padding-top:6px}
+.help-section+.help-section{border-top:1px solid var(--rule);margin-top:18px}
+.help-section h3{font-size:21px;margin:10px 0 8px}
+.help-section h4{font-size:16px;margin:16px 0 6px}
+.help-section>p{font-size:14px;line-height:1.7}
+.help-list{display:grid;grid-template-columns:minmax(120px,max-content) minmax(0,1fr);gap:7px 16px;margin:8px 0;font-size:14px;line-height:1.6}
+.help-list dt{font-weight:600}.help-list dd{margin:0}
+.help-tags{list-style:none;padding:0;margin:8px 0;font-size:14px;line-height:1.6}
+.help-tags li{display:grid;grid-template-columns:9.5em minmax(0,1fr);gap:12px;align-items:baseline;border-top:1px solid var(--rule);padding:7px 0}
+.help-tags .word-tag{justify-self:start;font-size:12px}
+.help-colours{list-style:none;padding:0;margin:8px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:4px 18px;font-size:14px;line-height:1.4}
+.help-colours li{display:flex;align-items:center;gap:10px;min-height:32px}
+.help-swatch{flex:none;width:22px;height:22px;border-radius:50%;background:var(--subject-color);border:1px solid color-mix(in srgb,var(--ink) 25%,transparent)}
+.help-colour-title{color:var(--subject-color);font-weight:600}
+.help-loading{color:var(--muted);font-size:14px}
+.help-section .guide-section{margin-top:10px}
+.help-section [lang=fa],.help-section [lang=ar]{font-family:"Scheherazade New",serif}
+/* The (?) that opens help: a 40px hit area around a small circled question mark. */
+.help-button{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:40px;padding:0;border:0;background:none;color:var(--link);cursor:pointer;font:inherit;text-decoration:none;vertical-align:middle}
+.help-button>span{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:1px solid currentColor;border-radius:50%;font-size:13px;font-weight:600;line-height:1}
+.help-button:hover>span{background:var(--selection)}
+.help-button:focus-visible{outline:2px solid var(--gold);outline-offset:0;border-radius:4px}
+/* Standalone page. */
+.help-page{max-width:860px;margin:0 auto;padding:10px 20px 60px}
+.help-page .help-tabs{position:sticky;top:0;z-index:1;background:var(--paper);border-bottom:1px solid var(--rule);margin-bottom:6px}
+.help-page .help-section{scroll-margin-top:52px}
+.help-page .help-section>p,.help-page .help-list,.help-page .help-tags,.help-page .help-colours{font-size:16px}
+@media(max-width:700px){
+  .help-dialog[open]{padding:20px 16px 16px}
+  .help-list{grid-template-columns:1fr;gap:0 0}.help-list dd{margin-bottom:8px}
+  .help-tags li{grid-template-columns:1fr;gap:3px}
+  .help-colours{grid-template-columns:1fr}
+  .help-page{padding:6px 16px 40px}
+}
+.help-section .guide-tabs{flex-wrap:wrap;align-items:center}.help-section .guide-tabs a{display:inline-flex;align-items:center;min-height:40px}
