@@ -143,7 +143,7 @@ test('the published sample dictionary round-trips unchanged and reports its coun
   const text=await fs.readFile(path.join(root,'dictionaries','sample-volume-164.tsv'),'utf8');
   const source=readReviewSource(text);
   assert.equal(exportTsv(source,{}),text);
-  assert.deepEqual(statusCounts(source,{}),{unreviewed:2347,uncertain:25,reviewed:0});
+  assert.deepEqual(statusCounts(source,{}),{unreviewed:2349,uncertain:25,reviewed:0});
   assert.equal(filterRows(source,{})[0].entry.status,'uncertain');
   assert.ok(hasContext(source.rows[0].entry));assert.equal(hasContext({form:'light'}),false);
 });

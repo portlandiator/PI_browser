@@ -54,6 +54,7 @@
 .word-tooltip-rendering{font-weight:400;font-size:13px;color:var(--muted)}
 .word-tooltip-definition,.word-tooltip-via,.word-tooltip-empty{margin:3px 0 0;font-size:13px;line-height:1.45}
 .word-tooltip-via,.word-tooltip-empty{color:var(--muted)}
+.word-tooltip-part-entry+.word-tooltip-part-entry{border-top:1px dotted var(--rule);margin-top:6px;padding-top:4px}
 .word-tooltip-part{font:15px "Scheherazade New",serif;color:var(--muted)}
 .word-tooltip-source{font-size:11px;line-height:1.5;color:var(--muted);margin-top:5px}
 .word-tooltip-senses{margin:5px 0 0;font-size:13px}
@@ -142,6 +143,7 @@
 .concordance-actions{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 10px}
 .concordance-note{margin:2px 0 0;font-size:11px;line-height:1.5;color:var(--muted)}
 .concordance-actions .concordance-note{margin:0}
+.word-tooltip-concordance.concordance-none{font-size:12px;color:var(--muted)}
 .word-tooltip-concordance .concordance-open{margin:0;padding:0;min-height:24px;font-size:13px;color:var(--link);text-decoration:underline}
 .concordance-dialog{max-width:760px}
 .concordance-list{list-style:none;padding:0;margin:16px 0}

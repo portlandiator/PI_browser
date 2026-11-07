@@ -35,6 +35,13 @@ export function interlinearCells(result,style='plain'){
   const entry=result?.entries?.[0];
   if(!entry)return {pronunciation:'',gloss:'',target:'',partial:false};
   const partial=!!result.via;
+  // A compound found by its parts shows every part, joined with +, each by its
+  // first entry (? for a part no dictionary lists): never one part alone.
+  if(result.via==='parts'&&result.parts){
+    const firsts=result.parts.map(piece=>piece.entries[0]);
+    const join=value=>firsts.map(entry=>entry?value(entry)||'?':'?').join(' + ');
+    return {pronunciation:join(entry=>entry.translit),gloss:join(entry=>(style==='bahai'&&entry.rendering)||entry.gloss),target:'',partial,parts:true,vocalized:'',elevated:false};
+  }
   // The fully vowelled spelling applies only to the word exactly as listed.
   if(result.side==='original')return {pronunciation:entry.translit||'',gloss:(style==='bahai'&&entry.rendering)||entry.gloss||'',target:'',partial,vocalized:partial?'':entry.vocalized||'',elevated:entryTags(entry).includes('elevated')&&renderingDiffers(entry)};
   // English words: how the English word sounds (in the script an English to
@@ -123,7 +130,8 @@ export function tooltipHtml(result,info,{style='plain'}={}){
   const word=original?`<div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-word">${esc(result.word)}</span></div>`:`<div class="word-tooltip-english"><span class="word-tooltip-word" dir="ltr" lang="en">${esc(result.word)}</span></div>`;
   if(!result.entries.length)return `${word}<p class="word-tooltip-empty">No dictionary entry for this word.</p>`;
   style=glossStyle(style);
-  const via=result.via==='parts'?'<p class="word-tooltip-via">Shown by its parts.</p>':result.via?`<p class="word-tooltip-via">Found as <span dir="auto">${esc(result.matched)}</span> (${esc(result.via.replace(/–/g,''))} removed).</p>`:'';
+  if(result.via==='parts'&&result.parts)return partsTooltipHtml(result,info,word,style);
+  const via=result.via?`<p class="word-tooltip-via">Found as <span dir="auto">${esc(result.matched)}</span> (${esc(result.via.replace(/–/g,''))} removed).</p>`:'';
   const [entry,...others]=result.entries.slice(0,8);
   const main=`${original?'':word}${scriptLineHtml(entry,result.word,true)}${metaHtml(entry)}${via}${glossLineHtml(entry,style)}${tagChipsHtml(entry)}${shiftHtml(entry)}${definitionHtml(entry)}${usageHtml(entry)}${kjvHtml(entry)}${wordFactsHtml(entry)}`;
   // Other senses: head row, gloss line and definition, with their source when it differs.
@@ -133,6 +141,24 @@ export function tooltipHtml(result,info,{style='plain'}={}){
   // The full entry, its word family and its filters are in the dictionary browser.
   const open=info(entry.dictionary)?.kind==='personal'?'':`<a class="word-tooltip-dict-link" href="./dictionary-browser.html?q=${encodeURIComponent(entry.form)}&amp;dict=${encodeURIComponent(entry.dictionary)}">Open in dictionary</a>`;
   return `${main}<div class="word-tooltip-concordance-slot"></div>${more}${open}${sourceHtml(entry,info)}`;
+}
+// A compound no dictionary lists whole (written with a zero-width
+// non-joiner): the word, a note that it is shown by its parts, then each part
+// with its first entry (head row, gloss line, tags, definition); the parts'
+// other entries are folded under "N more", each labelled with its part.
+function partsTooltipHtml(result,info,word,style){
+  const names=result.parts.map(piece=>`<span dir="auto">${esc(piece.part)}</span>`).join(' + ');
+  const note=`<p class="word-tooltip-via">Not listed as one word; shown by its parts: ${names}.</p>`;
+  const block=piece=>{
+    const [entry]=piece.entries;
+    if(!entry)return `<div class="word-tooltip-part-entry">${scriptLineHtml({},piece.part,true)}<p class="word-tooltip-empty">No dictionary entry for this part.</p></div>`;
+    const found=piece.via?`<p class="word-tooltip-via">Found as <span dir="auto">${esc(piece.matched)}</span> (${esc(piece.via.replace(/–/g,''))} removed).</p>`:'';
+    return `<div class="word-tooltip-part-entry">${scriptLineHtml(entry,piece.part,true)}${metaHtml({...entry,part:''})}${found}${glossLineHtml(entry,style)}${tagChipsHtml(entry)}${definitionHtml(entry)}</div>`;
+  };
+  const first=result.entries[0];
+  const others=result.parts.flatMap(piece=>piece.entries.slice(1)).slice(0,7);
+  const more=others.length?`<details class="word-tooltip-senses"><summary>${others.length} more</summary><ol class="word-tooltip-entries">${others.map(other=>`<li>${scriptLineHtml(other,other.part,false)}${metaHtml(other,reviewLabelHtml(other))}${glossLineHtml(other,style)}${definitionHtml(other)}</li>`).join('')}</ol></details>`:'';
+  return `${isOriginalScript(result.word)?`<div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-word">${esc(result.word)}</span></div>`:word}${note}${result.parts.map(block).join('')}<div class="word-tooltip-concordance-slot"></div>${more}${sourceHtml(first,info)}`;
 }
 
 // Interlinear markup for one paragraph: word columns (filled in later by
@@ -194,11 +220,16 @@ export async function fillInterlinear(root,store,isCurrent=()=>true,target='',vo
     if(style==='bahai'&&cells.elevated)column.classList.add('ilw-elevated');
     if(!cells.gloss&&!cells.pronunciation)column.classList.add('ilw-unknown');
     if(cells.partial)column.classList.add('ilw-partial');
+    if(cells.parts)column.classList.add('ilw-parts');
     if(markedWord(results.get(word),mark))column.classList.add('ilw-tagged',`tag-${mark}`);
     const pronunciation=column.children[1];
     pronunciation.textContent=cells.pronunciation||'·';
+    // A Latin pronunciation or gloss reads left to right even under a
+    // right-to-left word (‘ala'l-khuṣúṣ, not ala'l-khuṣúṣ‘).
     if(isOriginalScript(cells.pronunciation)){pronunciation.dir='rtl';pronunciation.lang='fa';pronunciation.classList.add('in-script');}
+    else if(cells.pronunciation)pronunciation.dir='ltr';
     column.children[2].textContent=cells.gloss||'·';
+    if(cells.gloss&&!isOriginalScript(cells.gloss))column.children[2].dir='ltr';
     // Vowel marks come from the dictionary and are laid on the letters as
     // written (applyVowels); the dictionary's own spelling stays in the tooltip.
     if(vowels&&cells.vocalized){const shown=applyVowels(word,cells.vocalized);if(shown!==word){column.querySelector('.ilw-text').textContent=shown;column.classList.add('ilw-vowelled');}}
@@ -304,7 +335,8 @@ export function attachWordTooltip(container,store,{target=()=>'',prefer=()=>'',c
     let result=null;try{result=await concordance.lookup(word);}catch{}
     if(token!==request||!result)return;
     const html=concordance.sectionHtml(result,{word,shortcut:keyboard});if(!html)return;
-    shown={word,result,anchor,keyboard};const slot=tooltip.querySelector('.word-tooltip-concordance-slot');if(slot)slot.outerHTML=html;else tooltip.insertAdjacentHTML('beforeend',html);place(anchorRect?anchorRect():rect);
+    // Show passages needs a result with paragraphs; a "not found" line has none.
+    shown=result.entry?{word,result,anchor,keyboard}:null;const slot=tooltip.querySelector('.word-tooltip-concordance-slot');if(slot)slot.outerHTML=html;else tooltip.insertAdjacentHTML('beforeend',html);place(anchorRect?anchorRect():rect);
     const section=tooltip.querySelector('.word-tooltip-concordance');
     if(section&&concordance.fill)Promise.resolve(concordance.fill(section,()=>token===request)).then(changed=>{if(changed&&token===request)place(anchorRect?anchorRect():rect);},()=>{});
   }

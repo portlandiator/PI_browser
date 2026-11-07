@@ -206,18 +206,24 @@ export async function lookupWord(word,dictionaries,get,{prefer='',exact=false}={
   const side=isOriginalScript(word)?'original':'english';
   const candidates=candidateKeys(word).slice(0,exact?1:undefined),key=candidates[0]?.key||'';
   const find=async candidate=>{const found=[];for(const dictionary of dictionaries){const entries=await get(dictionary,side,candidate);if(entries?.length)found.push(...entries);}return found;};
-  // A Persian word written with a zero-width non-joiner (mi + ZWNJ + shavad)
-  // is looked up whole first, then by its parts, before any prefix or suffix
-  // is removed.
+  // A Persian word written with a zero-width non-joiner (mi + ZWNJ + shavad,
+  // ‘alá + ZWNJ + al-khuṣúṣ) is looked up whole first, then by its parts,
+  // before any prefix or suffix is removed. A compound found by its parts
+  // keeps every part (`parts`: each part with its own entries, in order), so
+  // it is never shown as just one of them. Each part's entries stay in
+  // dictionary order (the reading that fits these texts first): such
+  // compounds are often Arabic phrases inside Persian text, so the record's
+  // language says little about each part (علی is ‘alá "upon" here, not ‘Alí).
+  // `entries` lists the parts' entries one part after another.
   const order=entries=>side==='original'?preferLanguage(entries,prefer):entries;
   const parts=String(word).split(/\u200c/).filter(part=>dictionaryKey(part));
   for(const [i,candidate] of candidates.entries()){
     const found=await find(candidate.key);
     if(found.length)return {word,key,side,matched:candidate.key,via:candidate.stripped,entries:order(found)};
     if(i===0&&parts.length>1&&!exact){
-      const byParts=[];
-      for(const part of parts){const result=await lookupWord(part,dictionaries,get);byParts.push(...result.entries.map(entry=>({...entry,part})));}
-      if(byParts.length)return {word,key,side,matched:'',via:'parts',entries:order(byParts)};
+      const pieces=[];
+      for(const part of parts){const result=await lookupWord(part,dictionaries,get);pieces.push({part,matched:result.matched,via:result.via,entries:result.entries.map(entry=>({...entry,part}))});}
+      if(pieces.some(piece=>piece.entries.length))return {word,key,side,matched:'',via:'parts',parts:pieces,entries:pieces.flatMap(piece=>piece.entries)};
     }
   }
   return {word,key,side,matched:'',via:'',entries:[]};

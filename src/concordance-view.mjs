@@ -10,12 +10,14 @@ import {escapeHtml as esc} from './text.mjs';
 import {candidateKeys,dictionaryKey,isOriginalScript,textLanguage,textWords} from './dictionary.mjs';
 import {attachWordTooltip,fillInterlinear,interlinearBlockHtml} from './word-study.mjs';
 import {readingSlots,alignmentCounts} from './paragraph-alignment.mjs';
-import {concordanceShard} from './concordance.mjs';
+import {concordanceShard,englishWord} from './concordance.mjs';
 
 const shardLimit=64;
 const statisticsNote='statistics from authorized paragraphs, not a word-for-word translation';
 const count=n=>Number(n||0).toLocaleString('en-US');
-const fetchJsonDefault=url=>fetch(url).then(response=>response.ok?response.json():null);
+// A missing file (404: a shard with no words is not written) is null; any
+// other failure rejects, so a shard that failed to load never reads as "not found".
+const fetchJsonDefault=url=>fetch(url).then(response=>{if(response.ok)return response.json();if(response.status===404)return null;throw Error(`${url}: ${response.status}`);});
 
 // Concordance data published at <base>/concordance/. It is used only when its
 // index names the dataset the reader shows, so stale data never mixes with a
@@ -27,7 +29,7 @@ export function createConcordance(base,datasetPath,{fetchJson=fetchJsonDefault,s
   const usable=()=>index||=Promise.resolve().then(()=>fetchJson(url('index.json'))).then(value=>value?.format===1&&value.dataset===datasetPath?value:null,()=>null);
   async function load(file){
     if(shards.has(file)){const value=shards.get(file);shards.delete(file);shards.set(file,value);return value;}
-    const promise=Promise.resolve().then(()=>fetchJson(url(file))).then(value=>value&&typeof value==='object'?value:{},()=>{shards.delete(file);return {};});
+    const promise=Promise.resolve().then(()=>fetchJson(url(file))).then(value=>value&&typeof value==='object'?value:{},error=>{if(shards.get(file)===promise)shards.delete(file);throw error;});
     shards.set(file,promise);if(shards.size>shardLimit)shards.delete(shards.keys().next().value);
     return promise;
   }
@@ -50,14 +52,35 @@ export function createConcordance(base,datasetPath,{fetchJson=fetchJsonDefault,s
     // An English word (plural, -ed, -ing … removed when needed).
     async lookupEnglish(word){if(isOriginalScript(word)||!(await usable())?.english)return null;return find(word,'e',{english:true});},
     lookupAny(word){return isOriginalScript(word)?api.lookup(word):api.lookupEnglish(word);},
+    // The lookup, telling apart why nothing is shown: null when there is no
+    // usable concordance for the word's side, {unindexed:true} for an English
+    // word never counted (stopwords and words under three letters, also with
+    // a common ending removed), {missing:true} when the lookup completed and
+    // no authorized paragraph has the word; otherwise the result. A shard
+    // that fails to load rejects.
+    async lookupStatus(word){
+      const ready=await usable(),english=!isOriginalScript(word);
+      if(!ready||english&&!ready.english||!dictionaryKey(word))return null;
+      if(english&&!candidateKeys(word).some(candidate=>englishWord(candidate.key)===candidate.key))return {word,english,unindexed:true};
+      return await (english?api.lookupEnglish(word):api.lookup(word))||{word,english,missing:true};
+    },
   };
   return api;
 }
 
 // The tooltip section for a lookup result ('' when there is none). `shortcut`
 // (the tooltip was opened from the keyboard) names the P key on the button.
+// A muted line for a word with no result: "not found" once the lookup has
+// completed, "not counted" for an English word the concordance leaves out.
+export function concordanceNoneHtml(result){
+  if(!result?.missing&&!result?.unindexed)return '';
+  const heading=result.english?'In authorized translations:':'Authorized translations:';
+  const text=result.unindexed?'not counted (very common or short word)':'not found';
+  const title=result.unindexed?'The concordance leaves out very common English words and words under three letters':'No authorized-translation paragraph of this collection contains this word';
+  return `<section class="word-tooltip-concordance concordance-none" title="${title}"><p class="concordance-line"><span class="concordance-heading">${heading}</span> <span class="concordance-count">${text}</span></p></section>`;
+}
 export function concordanceSectionHtml(result,{word='',shortcut=false}={}){
-  if(!result?.entry)return '';
+  if(!result?.entry)return concordanceNoneHtml(result);
   const {n,r=[],w=[]}=result.entry;
   const via=result.via?` <span class="concordance-via">(counted as <span dir="auto">${esc(result.matched)}</span>, ${esc(String(result.via).replace(/–/g,''))} removed)</span>`:'';
   const words=w.slice(0,4).map(item=>esc(item[0])).filter(Boolean);
@@ -72,7 +95,7 @@ export function concordanceSectionHtml(result,{word='',shortcut=false}={}){
 // (up to 4, right to left, each followed by its transliteration once
 // fillTransliterations has looked it up).
 export function englishSectionHtml(result,{word='',shortcut=false}={}){
-  if(!result?.entry)return '';
+  if(!result?.entry)return concordanceNoneHtml(result);
   const {n,r=[],o=[]}=result.entry;
   const via=result.via?` <span class="concordance-via">(counted as <span dir="auto">${esc(result.matched)}</span>, ${esc(String(result.via).replace(/–/g,''))} removed)</span>`:'';
   const sources=o.slice(0,4).filter(item=>item?.[0]).map(([form,,joint])=>`<span class="concordance-source-item" title="Found together in ${count(joint)} of ${count(n)} paragraphs"><span class="concordance-source" dir="rtl" lang="fa" data-concordance-source="${esc(form)}">${esc(form)}</span><span class="concordance-translit" dir="ltr"></span></span>`);
@@ -96,9 +119,11 @@ export async function fillTransliterations(root,store,isCurrent=()=>true){
 
 // What the reader's word tooltips need for both directions: `get()` gives
 // the concordance once the dataset is known; `store` supplies transliterations.
+// A word with no result gets a "not found" (or "not counted") line only once
+// the concordance has loaded and the lookup completed.
 export function concordanceTools(get,store=null){
   return {english:true,
-    lookup:word=>get()?.lookupAny(word)||Promise.resolve(null),
+    lookup:word=>get()?.lookupStatus(word)||Promise.resolve(null),
     sectionHtml:(result,options)=>result?.english?englishSectionHtml(result,options):concordanceSectionHtml(result,options),
     fill:(section,isCurrent)=>fillTransliterations(section,store,isCurrent)};
 }

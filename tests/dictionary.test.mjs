@@ -43,6 +43,44 @@ test('exact entries win; affixed forms are found through a removed prefix or suf
   assert.deepEqual((await find('ناشناخته')).entries,[]);
 });
 
+test('a compound written with a zero-width non-joiner and not listed whole shows every part, never one alone',async()=>{
+  // The Volume 164 rows for علی (‘alá upon; ‘Alí, a name) and الخصوص, without the compound.
+  const rows='form\tlang\ttranslit\tgloss\trendering\tdefinition\nعلی\tar\t‘alá\tupon\tupon\tArabic preposition\nعلی\tfa/ar\t‘Alí\t‘Alí\t‘Alí\tProper name\nالخصوص\tar\tal-khuṣúṣ\tespecially\tespecially\tthe particular\nمی\tfa\tmí\t(continuous)\t\tverbal prefix\n';
+  const index=indexEntries(parseDictionary(rows),'test');
+  const find=(word,prefer='fa')=>lookupWord(word,[{id:'test'}],(_,side,key)=>index[side].get(key)||[],{prefer});
+  assert.equal(dictionaryKey('علی‌الخصوص'),'علیالخصوص');
+  const result=await find('علی‌الخصوص');
+  assert.equal(result.via,'parts');
+  assert.deepEqual(result.parts.map(piece=>[piece.part,piece.entries.map(entry=>entry.gloss)]),[['علی',['upon','‘Alí']],['الخصوص',['especially']]],'each part keeps dictionary order, even in a Persian text');
+  assert.deepEqual(result.entries.map(entry=>entry.gloss),['upon','‘Alí','especially']);
+  assert.deepEqual(interlinearCells(result),{pronunciation:'‘alá + al-khuṣúṣ',gloss:'upon + especially',target:'',partial:true,parts:true,vocalized:'',elevated:false});
+  assert.equal(interlinearCells(result,'bahai').gloss,'upon + especially');
+  // A part no dictionary lists is a ?, not left out.
+  const half=await find('می‌ناشناخته');
+  assert.equal(half.via,'parts');assert.deepEqual(interlinearCells(half),{pronunciation:'mí + ?',gloss:'(continuous) + ?',target:'',partial:true,parts:true,vocalized:'',elevated:false});
+  assert.deepEqual((await find('ناشناخته‌دیگر')).entries,[]);
+  // The tooltip names the parts and shows each with its first entry; other senses fold under "N more".
+  const html=tooltipHtml(result,()=>({name:'Test'}));
+  assert.match(html,/^<div class="word-tooltip-script" dir="rtl" lang="fa"><span class="word-tooltip-word">علی‌الخصوص<\/span><\/div><p class="word-tooltip-via">Not listed as one word; shown by its parts: <span dir="auto">علی<\/span> \+ <span dir="auto">الخصوص<\/span>\.<\/p>/);
+  assert.equal(html.match(/class="word-tooltip-part-entry"/g).length,2);
+  assert.ok(html.indexOf('>upon<')<html.indexOf('>especially<')&&html.indexOf('>especially<')<html.indexOf('1 more'),'parts in order, the name folded');
+  assert.match(html,/<summary>1 more<\/summary>.*‘Alí/s);
+  assert.match(html,/<div class="word-tooltip-concordance-slot"><\/div>/);
+  assert.match(tooltipHtml(half,()=>null),/No dictionary entry for this part\./);
+  // Listed whole, the compound is an exact match.
+  const listed=indexEntries(parseDictionary(rows+'علیالخصوص\tfa/ar\t‘ala\'l-khuṣúṣ\tespecially\tespecially\tArabic phrase\n'),'test');
+  const whole=await lookupWord('علی‌الخصوص',[{id:'test'}],(_,side,key)=>listed[side].get(key)||[],{prefer:'fa'});
+  assert.equal(whole.via,'');assert.equal(interlinearCells(whole).pronunciation,"‘ala'l-khuṣúṣ");assert.equal(interlinearCells(whole).partial,false);
+});
+
+test('the Volume 164 dictionary lists علی‌الخصوص and الی‌الأبد whole',async()=>{
+  const index=indexEntries(parseDictionary(await fs.readFile(path.join(root,'dictionaries/sample-volume-164.tsv'),'utf8'),{strict:true}),'v');
+  for(const [word,translit] of [['علی‌الخصوص',"‘ala'l-khuṣúṣ"],['الی‌الأبد',"ila'l-abad"]]){
+    const result=await lookupWord(word,[{id:'v'}],(_,side,key)=>index[side].get(key)||[],{prefer:'fa'});
+    assert.equal(result.via,'',word);assert.equal(result.entries[0].translit,translit);
+  }
+});
+
 test('English words find original-language entries through their glosses',async()=>{
   const find=lookup(parseDictionary(tsv));
   assert.deepEqual(reverseKeys({gloss:'beloved-ones'}),['beloved']);

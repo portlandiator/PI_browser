@@ -17,7 +17,9 @@ export const englishStopwords=new Set(('the and that which with from this these 
   'has had having being let say said saith doth did does done its itself himself herself themselves ourselves yourself yourselves myself how why when where whereby wherein whereof thereof therein thereby hence thus yet nor now nay yea very more most much many other others both either neither only same about above below under again against among amongst between within without toward towards while whilst until till because though although whether lest unless once here whoso whosoever whoever whatever whatsoever whereas therefore wherefore shalt wilt hast art dost canst mayest wouldst couldst shouldst')
   .split(' '));
 const latin=/^\p{Script=Latin}+$/u;
-const englishWord=word=>{const key=dictionaryKey(word);return [...key].length>=3&&latin.test(key)&&!englishStopwords.has(key)?key:'';};
+// The key an English word is counted under, or '' for words the reverse
+// concordance leaves out (stopwords, words under three letters, non-Latin).
+export const englishWord=word=>{const key=dictionaryKey(word);return [...key].length>=3&&latin.test(key)&&!englishStopwords.has(key)?key:'';};
 // A word as written, with a directly preceding ‘ (the ayn of transliterated
 // names such as ‘Abdu’l-Bahá; a quotation mark loses to the bare spelling).
 const surfaceOf=(text,{text:word,start})=>/[‘ʻʿ]/.test(text[start-1]||'')?text[start-1]+word:word;

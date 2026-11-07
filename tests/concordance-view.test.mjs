@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createConcordance,concordanceSectionHtml,concordanceTools,englishPassageHtml,englishSectionHtml,fillTransliterations,markedText,pairedEnglish,pairedOriginal,passageHtml,passageView} from '../src/concordance-view.mjs';
+import {createConcordance,concordanceNoneHtml,concordanceSectionHtml,concordanceTools,englishPassageHtml,englishSectionHtml,fillTransliterations,markedText,pairedEnglish,pairedOriginal,passageHtml,passageView} from '../src/concordance-view.mjs';
 import {dictionaryKey,candidateKeys} from '../src/dictionary.mjs';
 import {concordanceShard} from '../src/concordance.mjs';
 import {passagesKey} from '../src/word-study.mjs';
@@ -167,6 +167,39 @@ test('English lookups use the e- shards, fall back to simple stems and need the 
   assert.match(tools.sectionHtml(await tools.lookup('divers'),{word:'divers'}),/Usually renders/);
   assert.match(tools.sectionHtml({key:'k',matched:'k',via:'',entry},{word:'w'}),/Authorized translations:<\/span> <span class="concordance-count">1,234/);
   assert.equal(await concordanceTools(()=>null).lookup('divers'),null);
+});
+
+test('a word with no result says so only once the lookup has completed',async()=>{
+  const fake=source({[dictionaryKey('نور')]:entry},{english:{divers},indexValue:{...index,english:true}});
+  const concordance=createConcordance(base,dataset,fake),tools=concordanceTools(()=>concordance);
+  // Found words keep their sections.
+  assert.equal((await concordance.lookupStatus('divers')).entry,divers);
+  assert.match(tools.sectionHtml(await tools.lookup('divers'),{word:'divers'}),/Found in 46 paragraphs/);
+  // Not found in any authorized paragraph (the shard file is absent: 404 is an empty shard).
+  const diver=await tools.lookup('diver');
+  assert.deepEqual(diver,{word:'diver',english:true,missing:true});
+  const none=tools.sectionHtml(diver,{word:'diver'});
+  assert.match(none,/^<section class="word-tooltip-concordance concordance-none" title="No authorized-translation paragraph of this collection contains this word"><p class="concordance-line"><span class="concordance-heading">In authorized translations:<\/span> <span class="concordance-count">not found<\/span><\/p><\/section>$/);
+  assert.doesNotMatch(none,/concordance-open|Show passages/);
+  const original=await tools.lookup('ناموجود');
+  assert.deepEqual(original,{word:'ناموجود',english:false,missing:true});
+  assert.match(tools.sectionHtml(original,{word:'ناموجود'}),/<span class="concordance-heading">Authorized translations:<\/span> <span class="concordance-count">not found<\/span>/);
+  // Words the reverse concordance never counts: stopwords and words under three letters.
+  for(const word of ['the','of','unto','Hath'])assert.deepEqual(await tools.lookup(word),{word,english:true,unindexed:true},word);
+  assert.match(tools.sectionHtml(await tools.lookup('the')),/not counted \(very common or short word\)/);
+  assert.equal((await tools.lookup('shades')).missing,true,'a word counted under a stem is looked up');
+  // No section while the data is unusable: no concordance, another dataset, no English index, punctuation.
+  assert.equal(await concordanceTools(()=>null).lookup('diver'),null);
+  assert.equal(await createConcordance(base,dataset,source({},{indexValue:{...index,dataset:'collections/old/'}})).lookupStatus('نور'),null);
+  assert.equal(await createConcordance(base,dataset,source({})).lookupStatus('diver'),null);
+  assert.equal(await concordance.lookupStatus('—'),null);
+  assert.equal(concordanceNoneHtml(null),'');assert.equal(concordanceSectionHtml(null),'');assert.equal(englishSectionHtml(null),'');
+  // A shard that fails to load rejects instead of reading as "not found", and is fetched again next time.
+  let fail=true;
+  const flaky=createConcordance(base,dataset,{fetchJson:async url=>{if(String(url).endsWith('index.json'))return {...index,english:true};if(fail)throw Error('offline');return null;}});
+  await assert.rejects(flaky.lookupStatus('diver'),/offline/);
+  fail=false;
+  assert.equal((await flaky.lookupStatus('diver')).missing,true);
 });
 
 test('English passages mark the word in English and likely sources in the original',()=>{

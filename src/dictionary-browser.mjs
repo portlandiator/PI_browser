@@ -163,9 +163,13 @@ async function fillConcordance(item,box){
   try{
     await collection();
     if(!await concordance.ready()){box.innerHTML='<p class="concordance-note">No concordance is published for this collection.</p>';return;}
-    const word=item.entry.form,result=item.original?await concordance.lookup(word):await concordance.lookupEnglish(word);
+    // As in the word tooltip: "not found" only once the lookup has completed,
+    // "not counted" for an English word the concordance leaves out.
+    const word=item.entry.form,result=await concordance.lookupStatus(word);
     if(!box.isConnected)return;
-    if(!result){box.innerHTML='<p class="concordance-note">Not found in any authorized-translation paragraph.</p>';return;}
+    if(!result){box.innerHTML=`<p class="concordance-note">No concordance is published for ${item.original?'this collection':'English words in this collection'}.</p>`;return;}
+    if(result.unindexed){box.innerHTML='<p class="concordance-note">Not counted in authorized translations: the concordance leaves out very common English words and words under three letters.</p>';return;}
+    if(result.missing){box.innerHTML='<p class="concordance-note">Not found in any authorized-translation paragraph.</p>';return;}
     // An English headword: the original words usually found with it, with their transliterations.
     if(!item.original){box.innerHTML=englishSectionHtml(result,{word});box.lastResult=result;transliterations??=createDictionaryStore(base);fillTransliterations(box,transliterations,()=>box.isConnected).catch(()=>{});return;}
     const {n,r=[],w=[]}=result.entry,often=w.slice(0,8).map(pair=>esc(pair[0])).filter(Boolean);
