@@ -44267,6 +44267,145 @@
         }
       },
       "note": "Existing quotation carried forward with the approved catalog translation correction."
+    },
+    "31b06712bdf3d159abc4924b": {
+      "status": "confirmed",
+      "candidate": {
+        "source": "AB11815",
+        "version": "3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd",
+        "ranges": [
+          {
+            "paragraph": 1,
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:1",
+            "start": 0,
+            "end": 363,
+            "text": "Represent unto that honoured personage that for a long season the instruments of destruction have been in preparation in Persia, and that sore troubles have sprung up between the people and the Government; and yet, so long as Government and people are not mingled together even as milk and honey, felicity and success must remain unattainable and beyond all hope."
+          },
+          {
+            "paragraph": 2,
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:2",
+            "start": 0,
+            "end": 257,
+            "text": "A constitutional government is a legitimate government and one of the immediate requirements of this luminous age. Therefore all the governments of the world have become, or will continue to become, constitutional governments. There is no other alternative."
+          }
+        ],
+        "method": "normalized",
+        "score": 1,
+        "evidence": "65 consecutive normalized words",
+        "correction": {
+          "fromVersion": "478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954",
+          "scope": "complete-corrected-paragraphs",
+          "approval": "Catalog correction approved for propagation to existing quotations."
+        }
+      },
+      "note": "Existing quotation carried forward with the approved catalog translation correction."
+    },
+    "102f908a1a3d37f41e139da1": {
+      "status": "confirmed",
+      "candidate": {
+        "source": "AB11815",
+        "version": "3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd",
+        "ranges": [
+          {
+            "paragraph": 1,
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:1",
+            "start": 0,
+            "end": 363,
+            "text": "Represent unto that honoured personage that for a long season the instruments of destruction have been in preparation in Persia, and that sore troubles have sprung up between the people and the Government; and yet, so long as Government and people are not mingled together even as milk and honey, felicity and success must remain unattainable and beyond all hope."
+          }
+        ],
+        "method": "exact",
+        "score": 1,
+        "evidence": "29 consecutive normalized words",
+        "correction": {
+          "fromVersion": "478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954",
+          "scope": "complete-corrected-paragraphs",
+          "approval": "Catalog correction approved for propagation to existing quotations."
+        }
+      },
+      "note": "Existing quotation carried forward with the approved catalog translation correction."
+    },
+    "4a66810d90b3cf7645b1817a": {
+      "status": "confirmed",
+      "candidate": {
+        "source": "AB11815",
+        "version": "3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd",
+        "ranges": [
+          {
+            "paragraph": 3,
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:3",
+            "start": 0,
+            "end": 404,
+            "text": "Witness how the Mikado, Emperor of Japan, and the Prince of Montenegro, having recognised the benefits of constitutional rule, by their own choice, unpressed and uncompelled by any man, exchanged their absolute sovereignty for constitutional government; whereupon their peoples, filled with gladness, rose up to serve the State and progressed day after day until they reached the eminence they now enjoy."
+          },
+          {
+            "paragraph": 4,
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:4",
+            "start": 0,
+            "end": 393,
+            "text": "For this is what the age demandeth, and to resist the demand of the age is barren of fruit and can never bear any result. The States of Europe were each of them absolute to the last degree, and strove with every power at their command against those who sought a constitution; yet in the end their striving profited them nothing, and their absolute dominion was turned into constitutional rule."
+          }
+        ],
+        "method": "normalized",
+        "score": 1,
+        "evidence": "35 consecutive normalized words",
+        "correction": {
+          "fromVersion": "478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954",
+          "scope": "complete-corrected-paragraphs",
+          "approval": "Catalog correction approved for propagation to existing quotations."
+        }
+      },
+      "note": "Existing quotation carried forward with the approved catalog translation correction."
+    },
+    "8c22d7aad7d2e3194a308a2b": {
+      "status": "confirmed",
+      "candidate": {
+        "source": "AB11815",
+        "version": "3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd",
+        "ranges": [
+          {
+            "paragraph": 7,
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:7",
+            "start": 0,
+            "end": 375,
+            "text": "Therefore, if that honoured personage wisheth endurance and stability for the Government of Persia, and advancement and prosperity for her people, he must of a certainty foster constitutional government. These representations are made out of pure goodwill; beyond this, whatsoever that august and venerated personage may purpose is itself the thing to be heeded and accepted."
+          }
+        ],
+        "method": "exact",
+        "score": 1,
+        "evidence": "35 consecutive normalized words",
+        "correction": {
+          "fromVersion": "478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954",
+          "scope": "complete-corrected-paragraphs",
+          "approval": "Catalog correction approved for propagation to existing quotations."
+        }
+      },
+      "note": "Existing quotation carried forward with the approved catalog translation correction."
+    },
+    "09541bc0e3cb6246bb302e11": {
+      "status": "confirmed",
+      "candidate": {
+        "source": "AB11815",
+        "version": "3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd",
+        "ranges": [
+          {
+            "paragraph": 6,
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:6",
+            "start": 0,
+            "end": 603,
+            "text": "Let him reflect that His Majesty the King of England dwelleth in his palace in the fullness of joy, repose, comfort and good fortune; that he is the most exalted of the kings of the earth; that in no affair whatsoever is he held responsible or brought to account; that the nation’s Parliament and the ministers of State serve their king with perfect loyalty and shoulder every burden; that the Crown waxeth stronger day by day and the people rise ever higher. What could surpass this? For the throne is preserved and sheltered from harm, and the nation at the same time advanceth with every passing day."
+          }
+        ],
+        "method": "exact",
+        "score": 1,
+        "evidence": "68 consecutive normalized words",
+        "correction": {
+          "fromVersion": "478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954",
+          "scope": "complete-corrected-paragraphs",
+          "approval": "Catalog correction approved for propagation to existing quotations."
+        }
+      },
+      "note": "Existing quotation carried forward with the approved catalog translation correction."
     }
   },
   "relationships": [
