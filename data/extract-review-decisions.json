@@ -275558,19 +275558,24 @@
       "status": "confirmed",
       "candidate": {
         "source": "AB11815",
-        "version": "478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954",
+        "version": "3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd",
         "ranges": [
           {
             "paragraph": 6,
-            "paragraphId": "AB11815@478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954:en:6",
+            "paragraphId": "AB11815@3723232f000cdb45cbb16933280c15d5a4fde2a362d90da02f74f481f17011cd:en:6",
             "start": 0,
-            "end": 353,
-            "text": "Consider how his royal highness, the King of England, spendeth his days, in the plenitude of happiness, of tranquility, of peace and prosperity, and is the most exalted Monarch among the kings of the world. Neither is he responsible for a matter, nor doth he take any blame. The assemblage of the people and the pillars of the government render to their"
+            "end": 603,
+            "text": "Let him reflect that His Majesty the King of England dwelleth in his palace in the fullness of joy, repose, comfort and good fortune; that he is the most exalted of the kings of the earth; that in no affair whatsoever is he held responsible or brought to account; that the nation’s Parliament and the ministers of State serve their king with perfect loyalty and shoulder every burden; that the Crown waxeth stronger day by day and the people rise ever higher. What could surpass this? For the throne is preserved and sheltered from harm, and the nation at the same time advanceth with every passing day."
           }
         ],
         "method": "approximate",
         "score": 0.6094,
-        "evidence": "Distinct excerpt-word coverage within one paragraph; proposed range needs editorial correction"
+        "evidence": "Distinct excerpt-word coverage within one paragraph; proposed range needs editorial correction",
+        "correction": {
+          "fromVersion": "478e8cb0d46ed4a7aaec709a609bfa18fa05e869a9cf0b18808c172d901d3954",
+          "scope": "complete-corrected-paragraphs",
+          "approval": "Catalog correction approved for propagation to existing quotations."
+        }
       },
       "evidence": "Owner accepted the highest-scoring candidate in the reviewed Inventory CSV. Score is lexical similarity, not a calibrated probability; equal-score ties retain CSV order."
     },
