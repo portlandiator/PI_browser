@@ -8,7 +8,7 @@ import {GuideStore,guideFiles} from './study-guide-store.mjs';
 import {siteReader,guideQuotations} from './study-guide-quotations.mjs';
 import {readingPassage} from './study-guide-passage.mjs';
 import {githubTarget} from './github-target.mjs';
-import {tool,run} from './publish-tools.mjs';
+import {tool,run,openInBrowser} from './publish-tools.mjs';
 
 const directory=path.dirname(fileURLToPath(import.meta.url));
 const exec=(command,args,cwd)=>new Promise((resolve,reject)=>execFile(command,args,{cwd,windowsHide:true},(error,stdout,stderr)=>error?reject(Error(String(stderr||error.message).trim())):resolve(String(stdout))));
@@ -119,7 +119,10 @@ export async function startGuideEditor({root=path.resolve(directory,'..'),port=0
   await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(port,'127.0.0.1',resolve);});
   const url=`http://127.0.0.1:${server.address().port}/#token=${token}`;
   console.log('Study guide editor: '+url);console.log('Keep this window open while editing or publishing. Project folder: '+root);
-  if(open&&process.platform==='win32')spawn('powershell.exe',['-NoProfile','-Command',`Start-Process '${url}'`],{windowsHide:true,stdio:'ignore'}).on('error',()=>{});
+  if(open){
+    console.log('Opening the editor in your browser. If no browser page appears, copy the link above into the address bar of your browser.');
+    openInBrowser(url).then(opened=>{if(!opened)console.log('The browser could not be started from here. Copy the link above into your browser.');});
+  }
   return {server,url,token};
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))startGuideEditor({root:process.argv[2]||path.resolve(directory,'..'),open:!process.env.PI_EDITOR_NO_OPEN}).catch(error=>{console.error(error.message);process.exitCode=1;});

@@ -15,7 +15,10 @@ export function targetFor(owner,name){
   return {repository:`${owner}/${name}`,remote:`https://github.com/${owner}/${name}.git`,site:`https://${owner.toLowerCase()}.github.io/${name}/`};
 }
 
-const exec=(command,args)=>new Promise((resolve,reject)=>execFile(command,args,{windowsHide:true},(error,stdout)=>error?reject(error):resolve(String(stdout).trim())));
+// A command that hangs (GitHub CLI waiting on a blocked network, for example)
+// is given up after `timeout` ms so that the tools fall back to the origin
+// address instead of never starting.
+const exec=(command,args)=>new Promise((resolve,reject)=>execFile(command,args,{windowsHide:true,timeout:20000},(error,stdout)=>error?reject(error):resolve(String(stdout).trim())));
 
 // gh: path to GitHub CLI, or null to skip the online check.
 export async function githubTarget(root,{gh=null,git='git',execute=exec}={}){
