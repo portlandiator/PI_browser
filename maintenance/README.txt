@@ -35,7 +35,10 @@ your master copy first; both tools stop with an explanation if they are absent.
 
 Edit-Catalog-Item.cmd
   Correct one item's metadata, original text or English translation, or
-  delete an item. Nothing is changed until you publish.
+  delete an item. Nothing is changed until you publish. The window prints
+  the editor's private link and opens it in your browser; if no browser
+  page appears, copy that link into your browser's address bar. Keep the
+  window open while editing.
   1. Enter the exact catalog ID (case-sensitive) and click Open item.
   2. Make the correction and click Save as pending edit. The edit is recorded
      in %USERPROFILE%\Downloads\subject-edits.json; existing subject decisions

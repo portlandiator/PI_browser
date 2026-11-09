@@ -13,6 +13,23 @@ export async function tool(name,root){
   for(const candidate of candidates.filter(Boolean))try{await fs.access(candidate);return candidate;}catch{}
   return name;
 }
+// Open a page in the default browser; resolves to false when no launcher
+// accepted the address, so the caller can tell the user to copy the link.
+// On Windows the address goes to Start-Process in PowerShell (cmd.exe's start
+// would reinterpret & and # in it); rundll32's FileProtocolHandler is the
+// second try. Neither waits for the browser.
+export async function openInBrowser(url){
+  const attempt=(command,args)=>new Promise(resolve=>{
+    let child;
+    try{child=spawn(command,args,{windowsHide:true,stdio:'ignore'});}catch{resolve(false);return;}
+    child.on('error',()=>resolve(false)).on('exit',code=>resolve(code===0));
+  });
+  if(process.platform==='win32'){
+    if(await attempt('powershell.exe',['-NoProfile','-NonInteractive','-Command',`Start-Process -FilePath '${url.replace(/'/g,"''")}'`]))return true;
+    return attempt('rundll32.exe',['url.dll,FileProtocolHandler',url]);
+  }
+  return attempt(process.platform==='darwin'?'open':'xdg-open',[url]);
+}
 // Temporary files live outside the project folder. Inside a Dropbox (or
 // OneDrive) folder the sync client briefly locks files Git has just written,
 // so Git's next write to the same file fails with "Permission denied", and
