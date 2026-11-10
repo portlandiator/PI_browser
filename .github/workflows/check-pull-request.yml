@@ -84,7 +84,7 @@ jobs:
         run: |
           if ! grep -q 'Catalogue review data changed for' build.log; then echo 'The build failed; see the log above.'; exit 1; fi
           case "$HEAD_BRANCH" in
-            maintenance/catalog-edits-*) ;;
+            maintenance/catalog-edits-*|maintenance/passage-additions-*) ;;
             *) echo 'Study guides are reconciled automatically only for pull requests from Publish-Editorial-Decisions.cmd. Review the changed quotations and run scripts/refresh-catalogue-baseline.mjs.'; exit 1;;
           esac
           git fetch --depth=1 origin main

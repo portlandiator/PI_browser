@@ -9,6 +9,7 @@ import {gunzipSync} from 'node:zlib';
 import {recordFilename} from '../src/record-file.mjs';
 import {siteFiles} from './catalog-deletion.mjs';
 import {textSha,formatSentenceParagraphs,compactSentenceParagraphs} from './sentence-paragraphs.mjs';
+import {additionsFile} from './subject-additions.mjs';
 
 // Ordered unchanged paragraphs anchor the textual edit.
 // Frequent paragraphs are excluded as anchors for long texts (as in SequenceMatcher),
@@ -143,6 +144,8 @@ export async function planTranslationCorrection({id,before,after,read,list,site}
   const save=(name,value)=>changes.set(name,JSON.stringify(value,null,2)+'\n');
   const archive=await read('data/subject-extracts-public.json.gz');
   const extracts=new Map((archive?JSON.parse(gunzipSync(archive)).selections:[]).map(s=>[s.id,s]));
+  const additions=await read(additionsFile);
+  for(const s of additions?JSON.parse(additions.toString('utf8')).selections:[])extracts.set(s.id,s);
   const edits=await json('data/subject-edits.json')||{format:1,matches:{},relationships:[]};
   const reviewed=await json('data/extract-review-decisions.json')||{matches:{}};
   const removed=new Set();let quotations=0;

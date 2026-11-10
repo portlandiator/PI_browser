@@ -1,6 +1,6 @@
 import {relationKey} from './subject-relations.mjs';
 
-export const emptyDraft=()=>({format:1,matches:{},relationships:[],reviewedSubjects:{}});
+export const emptyDraft=()=>({format:1,matches:{},relationships:[],reviewedSubjects:{},additions:{}});
 export function validateDraft(value,ids){
   if(!value||value.format!==1||!value.matches||typeof value.matches!=='object'||Array.isArray(value.matches)||!Array.isArray(value.relationships))throw Error('Choose a format 1 subject-edits.json file.');
   // Migrate backups and browser drafts for the explicitly merged subject.
@@ -16,12 +16,14 @@ export function validateDraft(value,ids){
     if(!ids.has(edge.source)||!ids.has(edge.target)||edge.source===edge.target||!['related','broader','narrower'].includes(edge.type)||!['accepted','rejected'].includes(edge.status)||edge.note!==undefined&&typeof edge.note!=='string')throw Error('Invalid connection or unknown subject in the decisions file.');
   }
   if(value.reviewedSubjects&&(!Object.keys(value.reviewedSubjects).every(id=>ids.has(id))||!Object.values(value.reviewedSubjects).every(v=>typeof v==='boolean')))throw Error('Invalid subject review progress.');
+  // Passages added to a subject (see passage-review-core.mjs) until they are published.
+  if(value.additions!==undefined&&(!value.additions||typeof value.additions!=='object'||Array.isArray(value.additions)||!Object.values(value.additions).every(a=>a&&typeof a==='object'&&ids.has(a.subject))))throw Error('Invalid added passage or unknown subject in the decisions file.');
   return value;
 }
 export function mergeDrafts(base,incoming){
   const edges=new Map(base.relationships.map(e=>[relationKey(e),e]));
   for(const edge of incoming.relationships)edges.set(relationKey(edge),edge);
-  return {format:1,matches:{...base.matches,...incoming.matches},relationships:[...edges.values()],reviewedSubjects:{...base.reviewedSubjects,...incoming.reviewedSubjects}};
+  return {format:1,matches:{...base.matches,...incoming.matches},relationships:[...edges.values()],reviewedSubjects:{...base.reviewedSubjects,...incoming.reviewedSubjects},additions:{...base.additions,...incoming.additions}};
 }
 export function effectiveEdges(edges,draft){
   const map=new Map();
