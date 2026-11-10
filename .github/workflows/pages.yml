@@ -121,3 +121,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        # The site is close to 1 GB; when GitHub Pages syncs slowly the
+        # default 10-minute wait is too short (two timeouts on 2026-11-10).
+        with:
+          timeout: 1800000
