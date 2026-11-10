@@ -34,24 +34,28 @@ export async function reconciliationDataset(project){
 }
 
 // Catalog IDs the pull request removes or changes in the metadata, read from
-// the published and the proposed metadata shard (Linux tar).
+// the published and the proposed metadata shard (Linux tar), and the passages
+// it adds to subject compilations (data/subject-additions.json).
 export function catalogChange(base='origin/main'){
   const csv=ref=>parseCsv(execFileSync('sh',['-c',`git show ${ref}:data/collection/metadata.tar | tar -xO --wildcards '*.csv'`],{cwd:root,encoding:'utf8',maxBuffer:256*1024*1024}));
   const before=new Map(csv(base).map(row=>[row.PIN,JSON.stringify(row)])),after=new Map(csv('HEAD').map(row=>[row.PIN,JSON.stringify(row)]));
   const deleted=[...before.keys()].filter(id=>!after.has(id)),changed=[...after].filter(([id,row])=>before.has(id)&&before.get(id)!==row).map(([id])=>id);
-  return {deleted,changed};
+  const additions=ref=>{try{return JSON.parse(execFileSync('git',['show',`${ref}:data/subject-additions.json`],{cwd:root,encoding:'utf8',stdio:['ignore','pipe','ignore']})).selections.map(s=>s.id);}catch{return [];}};
+  const previous=new Set(additions(base)),added=additions('HEAD').filter(id=>!previous.has(id));
+  return {deleted,changed,added};
 }
-export function describeCause({deleted,changed}){
+export function describeCause({deleted,changed,added=[]}){
   const list=ids=>ids.length>3?`${ids.slice(0,3).join(', ')} and ${ids.length-3} more`:ids.join(', ');
   if(deleted.length)return deleted.length===1?`catalog item ${deleted[0]} was deleted`:`catalog items ${list(deleted)} were deleted`;
   if(changed.length)return changed.length===1?`catalog item ${changed[0]} was corrected`:`catalog items ${list(changed)} were corrected`;
+  if(added.length)return added.length===1?'a passage was added to a subject compilation':`${added.length} passages were added to subject compilations`;
   return 'the catalog texts were corrected';
 }
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const args=process.argv.slice(2),output=args[args.indexOf('--output')+1];
   const target=await githubTarget(root),site=liveSite(target.site);
-  let change={deleted:[],changed:[]};
+  let change={deleted:[],changed:[],added:[]};
   try{change=catalogChange();}catch(error){console.log('Could not list the changed catalog items: '+error.message);}
   const cause=describeCause(change);
   const dataset=await reconciliationDataset(root);
@@ -70,7 +74,7 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
   }
   if(!subjects.size)throw Error('Every study-guide baseline matches the build; the build stopped for another reason.');
   const exists=new Map([...subjects].map(([id,{after}])=>[id,new Set(after.selections.map(s=>s.id))]));
-  const result=await updateGuides({...files,item:change.deleted.join(', ')||change.changed.join(', ')||'catalog change',removedSources:change.deleted,cause,subjects,evidenceGone:(subjectId,selection)=>exists.has(subjectId)&&!exists.get(subjectId).has(selection),authorized:authorizedGroups(source=>read('data/'+recordFilename(source)).catch(()=>null))});
+  const result=await updateGuides({...files,item:change.deleted.join(', ')||change.changed.join(', ')||(change.added.length?'added passages':'catalog change'),removedSources:change.deleted,cause,subjects,evidenceGone:(subjectId,selection)=>exists.has(subjectId)&&!exists.get(subjectId).has(selection),authorized:authorizedGroups(source=>read('data/'+recordFilename(source)).catch(()=>null))});
   for(const [name,value] of result.changes)await fs.writeFile(path.join(root,name),value);
   const notes=[`Study guides reconciled after ${cause}: the quotations of ${subjects.size} subject${subjects.size===1?'':'s'} changed when the collection was rebuilt (${[...subjects.values()].map(s=>'“'+s.after.subject.name+'”').join(', ')}).`,
     ...result.guides.map(g=>`- **${g.title}**\n${g.notes.map(n=>'  - '+n).join('\n')}`),

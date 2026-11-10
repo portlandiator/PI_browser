@@ -15,17 +15,34 @@ export function reviewKeyAction(event={}, {editable=false,canConfirm=true}={}) {
   if(event.key?.toLowerCase()==='r')return 'reject';
   return '';
 }
+function checkRanges(c, error) {
+  if(!c||typeof c.source!=='string'||!c.source||!/^[a-f\d]{64}$/.test(c.version)||!Array.isArray(c.ranges)||!c.ranges.length)throw Error(error);
+  for(const r of c.ranges)if(!Number.isInteger(r.paragraph)||r.paragraph<1||!Number.isInteger(r.start)||!Number.isInteger(r.end)||r.start<0||r.end<=r.start)throw Error('Invalid passage range.');
+}
 export function validateMatchEdits(draft) {
   for(const [id,edit] of Object.entries(draft.matches)) {
     if(!/^[a-f\d]{24}$/.test(id)||!edit||!['confirmed','rejected'].includes(edit.status)||edit.note!==undefined&&typeof edit.note!=='string')throw Error('Invalid passage decision.');
-    if(edit.status==='confirmed') {
-      const c=edit.candidate;
-      if(!c||typeof c.source!=='string'||!c.source||!/^[a-f\d]{64}$/.test(c.version)||!Array.isArray(c.ranges)||!c.ranges.length)throw Error('A confirmed passage needs a source version and ranges.');
-      for(const r of c.ranges)if(!Number.isInteger(r.paragraph)||r.paragraph<1||!Number.isInteger(r.start)||!Number.isInteger(r.end)||r.start<0||r.end<=r.start)throw Error('Invalid passage range.');
-    }
+    if(edit.status==='confirmed')checkRanges(edit.candidate,'A confirmed passage needs a source version and ranges.');
+  }
+  for(const [id,addition] of Object.entries(draft.additions||{})) {
+    if(!/^[a-f\d]{24}$/.test(id)||!addition||typeof addition.subject!=='string'||!addition.subject||addition.note!==undefined&&typeof addition.note!=='string')throw Error('Invalid added passage.');
+    checkRanges(addition.candidate,'An added passage needs a source version and ranges.');
+    if(!addition.candidate.ranges.every(r=>typeof r.text==='string'&&r.text))throw Error('An added passage needs the quoted text of each range.');
   }
   return draft;
 }
+// A passage an editor adds to a subject, kept in the draft under `additions`
+// until Publish-Editorial-Decisions.cmd publishes it as an editorial selection.
+// Its identity comes from the subject and the exact ranges, so adding the same
+// passage twice yields the same ID, and the publisher recognizes a published one.
+export const additionKey=(subject,candidate)=>JSON.stringify(['editorial',subject,candidate.source,candidate.ranges.map(r=>[r.paragraph,r.start,r.end])]);
+export async function additionId(subject,candidate) {
+  const hash=await globalThis.crypto.subtle.digest('SHA-256',new TextEncoder().encode(additionKey(subject,candidate)));
+  return [...new Uint8Array(hash)].map(b=>b.toString(16).padStart(2,'0')).join('').slice(0,24);
+}
+// The quotation as the compilation shows it: the chosen ranges in reading order,
+// with an ellipsis where wording between them is left out.
+export const additionExcerpt=candidate=>candidate.ranges.map(r=>r.text).join(' … ');
 export function confirmedCandidate(candidate, record) {
   if(!candidate||candidate.source!==record.id||candidate.version!==record.enVersion)throw Error('Source version differs. Load a current source before confirming.');
   if(!Array.isArray(candidate.ranges)||!candidate.ranges.length)throw Error('Choose at least one passage range.');

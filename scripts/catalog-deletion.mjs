@@ -18,6 +18,7 @@ import {authorizedRanges,isAuthorizedParagraph} from '../src/translation-status.
 import {studyGuideSelections,catalogueFingerprint} from './study-guide-catalogue.mjs';
 import {formatSentenceParagraphs} from './sentence-paragraphs.mjs';
 import {publicExtractArchive} from './public-extracts.mjs';
+import {additionsFile} from './subject-additions.mjs';
 
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const keyOf=g=>g.source?'source:'+g.source:'selection:'+g.id;
@@ -260,13 +261,15 @@ export async function planDeletion({id,read,list,site}){
   const text=async name=>{const bytes=await read(name);if(!bytes)throw Error(`The repository has no ${name}.`);return bytes.toString('utf8');};
   const [record,passages]=await Promise.all([site('data/'+recordFilename(id)),site('subjects/passages/'+recordFilename(id))]);
   const archive=JSON.parse(gunzipSync(await read(publicExtractArchive)));
+  const additionsText=(await read(additionsFile))?.toString('utf8'),additions=additionsText?JSON.parse(additionsText):null;
   const decisionsText=await text('data/extract-review-decisions.json'),editsText=await text('data/subject-edits.json');
   const decisions=JSON.parse(decisionsText),edits=JSON.parse(editsText);
   // Subjects that can hold a quotation from the item: those with a published
   // passage from it, and those with a quotation citing it or reviewed onto it.
-  const subjectOf=new Map(archive.selections.map(s=>[s.id,s.subject])),candidates=new Set();
+  const selections=[...archive.selections,...(additions?.selections||[])];
+  const subjectOf=new Map(selections.map(s=>[s.id,s.subject])),candidates=new Set();
   const onItem=value=>JSON.stringify(value).includes('"source":'+JSON.stringify(id));
-  for(const s of archive.selections)if(s.suppliedIds?.includes(id))candidates.add(s.subject);
+  for(const s of selections)if(s.suppliedIds?.includes(id))candidates.add(s.subject);
   for(const entries of [decisions.matches,decisions.hints,edits.matches])for(const [selection,value] of Object.entries(entries||{}))if(subjectOf.has(selection)&&onItem(value))candidates.add(subjectOf.get(selection));
   for(const p of Object.values(passages?.passages||{}))for(const subject of p.subjects)candidates.add(subject);
   const baseline=JSON.parse((await read('study-guides/catalogue-baseline.json'))?.toString('utf8')||'null');
@@ -291,14 +294,21 @@ export async function planDeletion({id,read,list,site}){
   const changes=new Map();
   // The public archive physically omits deleted quotations (as archive-extracts
   // does), and their IDs are excluded before matching, so a rebuild cannot
-  // restore them.
-  if(removed.size){
+  // restore them. Passages added on the review page live only in their own
+  // file, so removing them there is enough; the archive's exclusion list names
+  // only its own rows.
+  const additionIds=new Set((additions?.selections||[]).map(s=>s.id)),archived=[...removed].filter(x=>!additionIds.has(x));
+  if(archived.length){
     archive.selections=archive.selections.filter(s=>!removed.has(s.id));
-    archive.report.deletedSelections=[...new Set([...(archive.report.deletedSelections||[]),...removed])];
+    archive.report.deletedSelections=[...new Set([...(archive.report.deletedSelections||[]),...archived])];
     changes.set(publicExtractArchive,gzipSync(JSON.stringify(archive),{level:9}));
   }
+  if(additions?.selections.some(s=>removed.has(s.id))){
+    additions.selections=additions.selections.filter(s=>!removed.has(s.id));
+    changes.set(additionsFile,jsonText(additionsText,additions));
+  }
   const decisionsBefore=JSON.stringify(decisions),deleted=new Set(decisions.deletedIds||[]);
-  if(removed.size)decisions.deletedIds=[...(decisions.deletedIds||[]),...[...removed].filter(x=>!deleted.has(x)).sort()];
+  if(archived.length)decisions.deletedIds=[...(decisions.deletedIds||[]),...archived.filter(x=>!deleted.has(x)).sort()];
   for(const x of removed)for(const field of ['matches','notes','hints'])if(decisions[field])delete decisions[field][x];
   for(const hint of Object.values(decisions.hints||{}))if(hint.candidates?.some(c=>c.source===id)){hint.candidates=hint.candidates.filter(c=>c.source!==id);hint.referenceIds=(hint.referenceIds||[]).filter(x=>x!==id);}
   if(JSON.stringify(decisions)!==decisionsBefore)changes.set('data/extract-review-decisions.json',jsonText(decisionsText,decisions));

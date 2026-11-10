@@ -100,7 +100,8 @@ browser until you export it. Use the same browser for a review session.
 
 Review-Subject-Connections.cmd   Review and edit connections between subjects.
 Review-Subject-Passages.cmd      Confirm or reject the passages quoted under
-                                 each subject (the unresolved queue).
+                                 each subject (the unresolved queue), and add
+                                 a passage to a subject's compilation.
 Open-Editorial-Workspace.cmd     The Subject view with editorial controls.
 
 To publish your decisions:
@@ -116,6 +117,22 @@ To publish your decisions:
      older.
   3. Merge the pull request on GitHub to publish the decisions.
   Export regularly as a backup: clearing browser data removes drafts.
+
+To add a passage to a subject's compilation, open the subject on Review quoted
+passages and open "Add a passage to this subject" below the queue. Enter the
+filename ID and the paragraph numbers and click Load passage, highlight the
+wording in a paragraph and click "Use selected text" (complete sentences read
+best in the study guides), add a note if you like, and click "Add passage to
+this subject". The page lists the passages added in this browser and refuses
+one the subject already quotes. Export decisions includes them, and
+Publish-Editorial-Decisions.cmd checks each against the website (the source
+text must be unchanged since it was chosen, and the subject must not quote it
+yet), then publishes it as an editorial selection in
+data/subject-additions.json with its exact ranges as a confirmed decision.
+GitHub reconciles the subject's study guide, which receives the passage as a
+reading that is left out; show it with Edit-Study-Guide.cmd once the pull
+request is merged. Added passages leave the browser's draft by themselves
+once the website shows them.
 
 
 STUDY GUIDES

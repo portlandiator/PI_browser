@@ -3,7 +3,9 @@
 // the decisions exported from the website's editorial pages (Review subject
 // connections, Review quoted passages, Editorial workspace). The exported
 // subject-edits.json is checked, merged onto the published decisions (the
-// export wins where both have an entry, and nothing published is lost); the
+// export wins where both have an entry, and nothing published is lost);
+// passages added on the Review quoted passages page become editorial
+// selections (data/subject-additions.json) with confirmed decisions; the
 // catalog edits are applied to the published source archive. Everything is
 // shown as a summary, then proposed as a pull request; merging it publishes
 // them, after GitHub has built and tested the result.
@@ -26,6 +28,7 @@ import {githubTarget} from './github-target.mjs';
 import {liveSite} from './catalog-deletion.mjs';
 import {PendingCatalogEdits,publishedFiles,prepareCatalogProposal,catalogBody,conflictingEntries,applyLocally,settlePullRequest,withStage} from './catalog-edits.mjs';
 import {editorialExports} from './editorial-exports.mjs';
+import {additionsFile,planAdditions,subjectTable,additionsBody} from './subject-additions.mjs';
 
 const projectRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const target='data/subject-edits.json';
@@ -51,6 +54,8 @@ function checkMatches(matches){
 export function mergeDecisions(published,incoming,ids){
   const checked=validateDraft(incoming,ids);checkMatches(checked.matches);
   const merged=mergeDrafts({reviewedSubjects:{},...published},{reviewedSubjects:{},...checked});
+  // Added passages are published as selections (planAdditions), not kept as drafts.
+  delete merged.additions;
   const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
   const before=new Map(published.relationships.map(e=>[relationKey(e),e]));
   const summary={
@@ -72,13 +77,16 @@ export function decisionsBody(summary,file){
 | --- | ---: | ---: |
 | Quoted passages (confirmed or rejected) | ${summary.newPassages} | ${summary.changedPassages} |
 | Subject connections | ${summary.newConnections} | ${summary.changedConnections} |
-| Subjects marked reviewed or unreviewed | ${summary.reviewProgress} | |`;
+| Subjects marked reviewed or unreviewed | ${summary.reviewProgress} | |${summary.addedPassages?`
+| Passages added to subject compilations | ${summary.addedPassages} | |`:''}`;
 }
 
 // The title and branch kind of a publication, from what it contains.
-export function publicationTitle({corrections=0,deletions=0,decisions=0}){
-  const parts=[corrections&&plural(corrections,'catalog correction'),deletions&&plural(deletions,'catalog deletion'),decisions&&plural(decisions,'editorial decision')].filter(Boolean);
-  return {title:'Publish '+parts.join(', '),kind:corrections||deletions?'catalog-edits':'editorial-decisions'};
+// Added passages change the quotations of their subjects, so their pull
+// request gets the study-guide reconciliation that catalog edits get.
+export function publicationTitle({corrections=0,deletions=0,decisions=0,additions=0}){
+  const parts=[corrections&&plural(corrections,'catalog correction'),deletions&&plural(deletions,'catalog deletion'),additions&&plural(additions,'added passage'),decisions&&plural(decisions,'editorial decision')].filter(Boolean);
+  return {title:'Publish '+parts.join(', '),kind:corrections||deletions?'catalog-edits':additions?'passage-additions':'editorial-decisions'};
 }
 
 // Every decision in an export, by key, with a digest of the key and value.
@@ -94,6 +102,10 @@ export function decisionDigests(value){
     ...Object.entries(value.reviewedSubjects||{}).map(([id,reviewed])=>digest('reviewed:'+id,reviewed)),
   ];
 }
+// Added passages are recorded the same way once their pull request is merged.
+export function additionDigests(value){
+  return Object.entries(value.additions||{}).map(([id,addition])=>digest('addition:'+id,addition));
+}
 export function withoutPublished(value,published=[]){
   const done=new Set(published);
   if(!done.size)return value;
@@ -101,6 +113,7 @@ export function withoutPublished(value,published=[]){
     matches:Object.fromEntries(Object.entries(value.matches||{}).filter(([id,match])=>!done.has(digest('match:'+id,match)))),
     relationships:(value.relationships||[]).filter(edge=>!done.has(digest('connection:'+relationKey(edge),edge))),
     ...value.reviewedSubjects&&{reviewedSubjects:Object.fromEntries(Object.entries(value.reviewedSubjects).filter(([id,reviewed])=>!done.has(digest('reviewed:'+id,reviewed))))},
+    ...value.additions&&{additions:Object.fromEntries(Object.entries(value.additions).filter(([id,addition])=>!done.has(digest('addition:'+id,addition))))},
   };
 }
 // Digests of export decisions that the published file already holds as they are.
@@ -180,7 +193,8 @@ async function main(args){
     const files=publishedFiles(projectRoot,git,'HEAD');
     // Merge exports first. Catalog corrections then renew these decisions;
     // an older browser export must not put obsolete ranges back afterwards.
-    let decisions=null,exported=[];
+    const site=liveSite(repository.site);
+    let decisions=null,exported=[],additions=null,additionsBlob=null;
     if(exports.length){
       const publishedText=await files.read(target);
       if(!publishedText)throw Error('The published repository has no '+target+'.');
@@ -192,15 +206,35 @@ async function main(args){
       const {merged,summary}=mergeExportedDecisions(published,exports,await subjectIds(projectRoot,files.read),done);
       const superseded=supersededDecisions(published,exports,done);
       if(superseded)console.log(`\n${plural(superseded,'exported decision')} published earlier and changed on GitHub since (for example by a translation correction) ${superseded===1?'was':'were'} not proposed again. To change one, decide it again on the review page and export.`);
-      if(summary.total){files.overlay.set(target,JSON.stringify(merged,null,2)+'\n');decisions=summary;exported=[...new Set(exports.flatMap(entry=>decisionDigests(withoutPublished(entry.value,done))))];}
+      exported=[...new Set(exports.flatMap(entry=>decisionDigests(withoutPublished(entry.value,done))))];
+      // Passages added on the review page: checked against the website, then
+      // selections in their own file with confirmed decisions among the others.
+      const proposed=Object.assign({},...exports.map(entry=>withoutPublished(entry.value,done).additions||{}));
+      if(Object.keys(proposed).length){
+        console.log('\nChecking the added passages against the website…');
+        additions=await planAdditions({additions:proposed,subjects:subjectTable(String(await files.read('14-colors_and_hyperlinks.csv'))),site,read:files.read});
+        Object.assign(merged.matches,additions.matches);
+        summary.addedPassages=additions.added.length;summary.total+=additions.added.length;
+        if(additions.text){files.overlay.set(additionsFile,additions.text);additionsBlob=path.join(stage,'subject-additions.json');await fs.writeFile(additionsBlob,additions.text);}
+        const digestsOf=entry=>Object.entries(withoutPublished(entry.value,done).additions||{}).filter(([id])=>additions.done.includes(id)).map(([id,addition])=>digest('addition:'+id,addition));
+        exported.push(...new Set(exports.flatMap(digestsOf)));
+      }
+      if(summary.total){files.overlay.set(target,JSON.stringify(merged,null,2)+'\n');decisions=summary;}
+      else exported=[];
       console.log(`\nChanges compared with the published decisions:
   passage decisions: ${summary.newPassages} new, ${summary.changedPassages} changed
   subject connections: ${summary.newConnections} new, ${summary.changedConnections} changed
   subjects marked reviewed/unreviewed: ${summary.reviewProgress}`);
+      if(additions){
+        console.log(`  passages added to subject compilations: ${additions.added.length}`);
+        for(const a of additions.summary)console.log(`    ${a.subject}: ${a.source} ¶${a.paragraphs.join(', ')} “${a.excerpt.length>90?a.excerpt.slice(0,89)+'…':a.excerpt}”`);
+        for(const s of additions.skipped)console.log(`    not included, ${s.subject} (${s.source}): ${s.reason}`);
+      }
     }
     if(Object.keys(entries).length)console.log('Reading the published source archive…');
-    const catalog=Object.keys(entries).length?await prepareCatalogProposal({root:projectRoot,git,python,entries,files,site:liveSite(repository.site),stage}):{edits:[],deletions:[],skipped:[],blobs:new Map(),overlay:files.overlay};
+    const catalog=Object.keys(entries).length?await prepareCatalogProposal({root:projectRoot,git,python,entries,files,site,stage}):{edits:[],deletions:[],skipped:[],blobs:new Map(),overlay:files.overlay};
     if(decisions&&!catalog.blobs.has(target)){const file=path.join(stage,'subject-edits.json');await fs.writeFile(file,await files.read(target));catalog.blobs.set(target,file);}
+    if(additionsBlob&&!catalog.blobs.has(additionsFile))catalog.blobs.set(additionsFile,additionsBlob);
     catalog.skipped.push(...conflicts);
     // Items with nothing to publish still go to the source folders (an edit
     // matching the published catalog, a deletion of an unpublished item).
@@ -221,8 +255,9 @@ async function main(args){
       const answer=await prompt.question('\nOpen a pull request with these changes? Type Y and press Enter: ');prompt.close();
       if(!/^y(es)?$/i.test(answer.trim())){console.log('Cancelled. Nothing was changed.');return;}
     }
-    const {title,kind}=publicationTitle({corrections:catalog.edits.length,deletions:catalog.deletions.filter(d=>d.archived).length,decisions:decisions?.total||0});
-    const body=[included.length||catalog.skipped.length?catalogBody(catalog):'',decisions?decisionsBody(decisions,exports.map(entry=>path.basename(entry.file)).join(', ')):''].filter(Boolean).join('\n\n');
+    const added=additions?.added.length||0;
+    const {title,kind}=publicationTitle({corrections:catalog.edits.length,deletions:catalog.deletions.filter(d=>d.archived).length,additions:added,decisions:(decisions?.total||0)-added});
+    const body=[included.length||catalog.skipped.length?catalogBody(catalog):'',decisions?decisionsBody(decisions,exports.map(entry=>path.basename(entry.file)).join(', ')):'',additions?additionsBody(additions):''].filter(Boolean).join('\n\n');
     const result=await publishChanges(projectRoot,[],title,{kind,toolName:'Publish-Editorial-Decisions.cmd',body,blobs:catalog.blobs,target:repository,account});
     if(!result)return;
     // From here on the pull request exists: record it first, so that the next

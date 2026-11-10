@@ -4,6 +4,7 @@ import {parseCsv} from '../src/text.mjs';
 import {readPublicExtracts} from './public-extracts.mjs';
 import {digest,tokens,mappedTokens,locateRanges} from './subject-core.mjs';
 import {decodeSource} from './source-encoding.mjs';
+import {additionsFile,parseAdditions} from './subject-additions.mjs';
 
 export const extractFolders=['subjects_inv_length_ordered','Evernote_scrape'];
 export const accepted=s=>['exact','normalized','confirmed'].includes(s.status);
@@ -11,7 +12,7 @@ export const wordingKey=s=>tokens(s).map(t=>t.word).join(' ');
 
 // These aliases are explicit editorial filename mappings, never fuzzy topic guesses.
 export async function readExtractInputs(root,subjects,decisions={},options={}){
-  if(!options.sourceFiles){const published=await readPublicExtracts(root,subjects,decisions);if(published)return published;}
+  if(!options.sourceFiles){const published=await readPublicExtracts(root,subjects,decisions);if(published)return withAdditions(root,published,subjects,decisions);}
   const aliases=JSON.parse(await fs.readFile(path.join(root,'data/extract-subject-aliases.json'),'utf8'));
   const byName=new Map(subjects.map(s=>[s.name,s])),bySubject=new Map(subjects.map(s=>[s.id,[]]));
   const report={files:{},blocks:{},filenameAliases:[],unknownSubjects:[],missingFiles:{},encodingFallbacks:[],inputIssues:[],duplicates:[]};
@@ -41,7 +42,21 @@ export async function readExtractInputs(root,subjects,decisions={},options={}){
     report.missingFiles[folder]=subjects.filter(s=>!covered.has(s.name)).map(s=>s.name);
   }
   if(report.unknownSubjects.length)throw Error('Unmapped extract filenames: '+JSON.stringify(report.unknownSubjects));
-  return {bySubject,report,version:digest(JSON.stringify([hashes,decisions]))};
+  const inputs={bySubject,report,version:digest(JSON.stringify([hashes,decisions]))};
+  return options.sourceFiles?inputs:withAdditions(root,inputs,subjects,decisions);
+}
+
+// Passages added on the review page (data/subject-additions.json) join the
+// imported selections of their subjects. Regenerating the archive from the raw
+// files (`sourceFiles`) leaves them where they are.
+async function withAdditions(root,inputs,subjects,decisions){
+  let text;
+  try{text=await fs.readFile(path.join(root,additionsFile),'utf8');}catch(error){if(error.code==='ENOENT')return inputs;throw error;}
+  const {selections,deleted}=parseAdditions(text,subjects,decisions,new Set(inputs.report.deletedSelections||[]));
+  for(const s of selections)inputs.bySubject.get(s.subject).push(s);
+  inputs.report.additions=selections.length;
+  inputs.report.deletedSelections=[...new Set([...(inputs.report.deletedSelections||[]),...deleted])];
+  return {...inputs,version:digest(JSON.stringify([inputs.version,digest(text)]))};
 }
 
 export function extractBlocks(text){
