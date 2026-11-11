@@ -11,7 +11,8 @@ const subjectCache=new Map(),recordCache=new Map();
 let draftCache,draftLocal,draftPublished;
 const message=(text,error=false)=>{$('review-message').textContent=text;$('review-message').className=error?'review-error':'';};
 const validate=d=>validateMatchEdits(validateDraft(d,ids));
-const readLocal=()=>{const text=localStorage.getItem(storageKey);return text?validate(JSON.parse(text)):emptyDraft();};
+// A draft saved by an earlier version of the page lacks `additions`.
+const readLocal=()=>{const text=localStorage.getItem(storageKey);return text?validate({...emptyDraft(),...JSON.parse(text)}):emptyDraft();};
 const draft=()=>{if(draftLocal!==local||draftPublished!==published){draftCache=mergeDrafts(published,local);draftLocal=local;draftPublished=published;}return draftCache;};
 const queueFilter=()=>$('review-queue').value;
 const items=id=>summaries.get(id)?.items||[];
