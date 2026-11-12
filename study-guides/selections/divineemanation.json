@@ -4,11 +4,11 @@
   "status": "finalized_before_analysis",
   "subject": "A73492EB36754162BEE9588EF11F2FD9",
   "dataset": "collections/editorial-83f59e6ea2d8/",
-  "candidateFingerprint": "434068186d91ce2afa2fdbf00904ecf82cf47aa3ceef3ebd64aa1729f5ed3416",
+  "candidateFingerprint": "b4e5b9ec0260ebbc4a6ff0536da48a9e0bafa0373cf9fa9026019fe9f06c9d3a",
   "candidateCount": 406,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 70,
+  "mandatoryAuthorizedCount": 75,
   "selectionBeforeAnalysis": true,
   "method": "Complete candidate survey followed by individual editorial choices and written reasons, applied to the existing complete guide to keep it within 300 quotations. All verified authorized selections included. Priority given to foundational teachings, substantive explanations, necessary qualifications, distinctive applications, narrative examples and thematic breadth across the sea of bounty in which all things live, emanation from a source that does not become what it sustains, Will and Word in the coming of existence, the unceasing gift, revelation and the renewal of the world, universal bounty and differing receptivity, light within the human reality, kinds of light and spiritual speech, prayer, gratitude and return, becoming a source of help to others, and the supplied philosophical voices. Neither citation count nor source order used as a ranking rule. Imported wording checked separately; version differences remain explicit. The existing reading arc is retained.",
   "selected": [
@@ -5909,12 +5909,14 @@
       "id": "eab745ec1900e001c219fe55",
       "key": "source:BH00245",
       "source": "BH00245",
-      "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
+      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
       "status": "confirmed",
       "reference": "GWB#093 p184",
       "authorization": "Y10,26",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
+      "authorizedParagraphs": [
+        6
+      ],
+      "mandatoryAuthorized": true,
       "paragraphs": [
         3
       ],
@@ -5923,8 +5925,10 @@
       "authorityEvidence": {
         "kind": "no_authorized_selected_paragraph",
         "metadata": "Y10,26",
-        "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
-        "paragraphs": []
+        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "paragraphs": [
+          6
+        ]
       }
     },
     {
@@ -6563,12 +6567,14 @@
       "id": "c1926499612578345b29907a",
       "key": "source:BH00245",
       "source": "BH00245",
-      "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
+      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
       "status": "confirmed",
       "reference": "GWB#093 p184",
       "authorization": "Y10,26",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
+      "authorizedParagraphs": [
+        4
+      ],
+      "mandatoryAuthorized": true,
       "paragraphs": [
         3
       ],
@@ -6577,8 +6583,10 @@
       "authorityEvidence": {
         "kind": "no_authorized_selected_paragraph",
         "metadata": "Y10,26",
-        "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
-        "paragraphs": []
+        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "paragraphs": [
+          4
+        ]
       }
     },
     {
@@ -6587,12 +6595,14 @@
       "id": "43d8ea0827990b06b55e2a26",
       "key": "source:BH00245",
       "source": "BH00245",
-      "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
+      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
       "status": "confirmed",
       "reference": "GWB#093 p189",
       "authorization": "Y10,26",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
+      "authorizedParagraphs": [
+        28
+      ],
+      "mandatoryAuthorized": true,
       "paragraphs": [
         22
       ],
@@ -6601,8 +6611,10 @@
       "authorityEvidence": {
         "kind": "no_authorized_selected_paragraph",
         "metadata": "Y10,26",
-        "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
-        "paragraphs": []
+        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "paragraphs": [
+          28
+        ]
       }
     },
     {
@@ -7111,12 +7123,14 @@
       "id": "39d55c515acf0e57234d1a41",
       "key": "source:BH00245",
       "source": "BH00245",
-      "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
+      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
       "status": "confirmed",
       "reference": "GWB#093 p190",
       "authorization": "Y10,26",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
+      "authorizedParagraphs": [
+        32
+      ],
+      "mandatoryAuthorized": true,
       "paragraphs": [
         23,
         24
@@ -7126,8 +7140,10 @@
       "authorityEvidence": {
         "kind": "no_authorized_selected_paragraph",
         "metadata": "Y10,26",
-        "sourceVersion": "9f07d46a4458b832179ccd66a3ce122253fb1fbdf3fcac44a15e98db44521b46",
-        "paragraphs": []
+        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "paragraphs": [
+          32
+        ]
       }
     },
     {
@@ -7508,19 +7524,23 @@
       }
     },
     {
-      "id": "40174413b74c1123617a9ea1",
-      "key": "source:AB05728",
-      "source": "AB05728",
-      "sourceVersion": "855374b11dd4b8c7cba921c0438d636f074c8d7351674248a5271223944bcad1",
-      "status": "confirmed",
-      "reference": "AB05728",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
-      "paragraphs": [
-        2
+      "id": "a0313a3b1d1ebd2c8a8e44bc",
+      "source": "BH00245",
+      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+      "authorizedParagraphs": [
+        30,
+        31
       ],
-      "text": "The mighty sun is the source of all physical light and the growth and development of all things depend upon its munificent heat, its radiant emanations. Likewise, spiritual bounty too requires a mighty source, an ancient and eternal origin. That sacred reality, the Sun of Truth, that divine Daystar of the world is the Cause of God itself. All true development in the spiritual kingdom depends upon the transcendent emanations of His Word. Know, verily, that even the smallest atom in that realm circles around the Cause of God and seeks its light of mystery from His Word. Without His effulgent appearance, the horizons cannot be illumined; without the aid of the munificent heat of His Word spiritual beings cannot grow or develop.",
-      "reason": "Uses the sun’s radiance to explain spiritual growth through divine emanation."
+      "mandatoryAuthorized": true,
+      "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog item BH00245 was corrected.",
+      "authorityEvidence": {
+        "kind": "catalogue_authorized_paragraphs",
+        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "paragraphs": [
+          30,
+          31
+        ]
+      }
     }
   ],
   "omitted": [
@@ -8121,12 +8141,6 @@
       "reason": "Imported elided composite of separate sentences; its central clause on grace permeating every atom is retained with its context in #402. No verified authorized quotation omitted."
     },
     {
-      "id": "a0313a3b1d1ebd2c8a8e44bc",
-      "n": 384,
-      "source": "BH00245",
-      "reason": "Surveyed before analysis; selected complementary passages state the subject’s central teachings, qualifications or practical applications more substantively or with less repetition. No verified authorized quotation omitted."
-    },
-    {
       "id": "370bac65edd40ebd7861b7e6",
       "n": 393,
       "reason": "Imported Qur’anic fragment on God originating and repeating creation; #396 states that every created thing is continually brought forth and returned. No verified authorized quotation omitted."
@@ -8169,6 +8183,11 @@
         "sourceVersion": "bd7fc5791f9c76a687146adbfb7b37253c621bdf4b19f56a2f8a706059a70098",
         "paragraphs": []
       }
+    },
+    {
+      "id": "40174413b74c1123617a9ea1",
+      "source": "AB05728",
+      "reason": "Replaced by mandatory authorized quotation a0313a3b1d1ebd2c8a8e44bc after catalog item BH00245 was corrected; the fixed-size selection is retained."
     }
   ],
   "importedAuthorityReview": [
