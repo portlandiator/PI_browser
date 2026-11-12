@@ -31,6 +31,10 @@ import {planTranslationCorrection} from './approved-translation-corrections.mjs'
 const codeRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export const pendingFile=editorialFile;
 export const legacyPendingFile='.qa/pending-catalog-edits.json';
+// A copy of the pending edits outside Downloads. A browser export saved over
+// Downloads/subject-edits.json (same name) or a tidied Downloads folder would
+// otherwise take the pending catalog edits with it, without a word.
+export const recoveryFile='.qa/catalog-edits-recovery.json';
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const languages=[['original','original_texts - copy','original text'],['english','translated_texts - copy','English translation']];
 
@@ -40,8 +44,19 @@ export class PendingCatalogEdits{
     const exported=await readEditorialExport(this.file,true);
     let data=exported?.value.catalogEdits;
     if(data===undefined){
-      try{data=JSON.parse(await fs.readFile(path.join(this.root,legacyPendingFile),'utf8'));}
-      catch(error){if(error.code==='ENOENT')return {format:1,items:{}};throw error;}
+      // The Downloads file is new, was replaced or is gone: the copy this tool
+      // keeps is the latest state. Before any copy exists, the legacy file.
+      const kept=await this.recovery();
+      if(kept){
+        data=kept;
+        if(!this.restored&&(Object.keys(kept.items||{}).length||kept.pullRequest)){
+          this.restored=true;
+          console.log(`${this.file} no longer holds the pending catalog edits (a browser export saved over it, or it was removed). They were restored from ${path.join(this.root,recoveryFile)}: ${Object.keys(kept.items||{}).join(', ')||'publication tracking only'}.`);
+        }
+      }else{
+        try{data=JSON.parse(await fs.readFile(path.join(this.root,legacyPendingFile),'utf8'));}
+        catch(error){if(error.code==='ENOENT')return {format:1,items:{}};throw error;}
+      }
     }
     if(data?.format!==1||!data.items||typeof data.items!=='object'||Array.isArray(data.items))throw Error(`${this.file} contains a pending-edits file this tool does not understand.`);
     return data;
@@ -57,6 +72,21 @@ export class PendingCatalogEdits{
     // A sync client may hold a freshly written file for a moment.
     try{await retryBusy(()=>fs.rename(temporary,this.file));}
     catch(error){await fs.rm(temporary,{force:true});throw error;}
+    // Keep the recovery copy in step. It is a safeguard: failing to write it
+    // (a sync client holding the file) must not undo the save itself.
+    const copy=path.join(this.root,recoveryFile),draft=copy+'.'+randomUUID().slice(0,8)+'.tmp';
+    try{
+      await fs.mkdir(path.dirname(copy),{recursive:true});
+      await fs.writeFile(draft,JSON.stringify({format:1,savedAt:new Date().toISOString(),catalogEdits:data})+'\n');
+      await retryBusy(()=>fs.rename(draft,copy));
+    }catch(error){await fs.rm(draft,{force:true}).catch(()=>{});console.log(`Could not update the recovery copy ${copy}: ${error.message}`);}
+  }
+  // The pending edits as last written by this tool, or null when no copy exists.
+  async recovery(){
+    try{
+      const value=JSON.parse(await fs.readFile(path.join(this.root,recoveryFile),'utf8'));
+      return value?.format===1&&value.catalogEdits&&typeof value.catalogEdits==='object'?value.catalogEdits:null;
+    }catch(error){if(error.code==='ENOENT'||error instanceof SyntaxError)return null;throw error;}
   }
   // Read, change and write the file as one step. The editor and this tool are
   // separate processes, so a lock keeps one from overwriting the other's change.

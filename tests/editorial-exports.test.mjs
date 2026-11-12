@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {editorialFile,editorialExports} from '../scripts/editorial-exports.mjs';
-import {PendingCatalogEdits,legacyPendingFile} from '../scripts/catalog-edits.mjs';
+import {PendingCatalogEdits,legacyPendingFile,recoveryFile} from '../scripts/catalog-edits.mjs';
 import {mergeExportedDecisions} from '../scripts/publish-editorial-decisions.mjs';
 
 const draft=()=>({format:1,matches:{},relationships:[],reviewedSubjects:{}});
@@ -77,4 +77,39 @@ test('invalid existing exports are never overwritten and a fresh catalog export 
   assert.equal(await fs.readFile(file,'utf8'),invalid);
   await fs.writeFile(file,JSON.stringify({...draft(),catalogEdits:{format:2,items:{}}}));
   await assert.rejects(pending.read(),/does not understand/);
+});
+
+test('pending catalog edits survive a browser export saved over the Downloads file, or its removal',async t=>{
+  const {root,file,pending}=await fixture(t),copy=path.join(root,recoveryFile);
+  await fs.writeFile(file,JSON.stringify({...draft(),matches:{old:{status:'rejected'}}}));
+  await pending.set('AB1',item);
+  await pending.update(data=>{data.pullRequest={number:7,ids:[]};data.publishedDecisions=['digest'];});
+  assert.deepEqual(JSON.parse(await fs.readFile(copy,'utf8')).catalogEdits.items.AB1,item);
+  // The browser saves its export under the same name: no catalogEdits section.
+  const exported={...draft(),matches:{fresh:{status:'rejected'}},additions:{}};
+  await fs.writeFile(file,JSON.stringify(exported));
+  const restored=new PendingCatalogEdits(root,{file}),data=await restored.read();
+  assert.deepEqual(data.items.AB1,item);assert.equal(data.pullRequest.number,7);assert.deepEqual(data.publishedDecisions,['digest']);
+  assert.equal(restored.restored,true);
+  // The next save puts them back into the Downloads file beside the export's decisions.
+  await restored.set('AB2',item);
+  const merged=JSON.parse(await fs.readFile(file,'utf8'));
+  assert.deepEqual(Object.keys(merged.catalogEdits.items),['AB1','AB2']);assert.deepEqual(merged.matches,exported.matches);
+  // Removing the file loses nothing either, and a discard is final: the copy follows every save.
+  await fs.rm(file);
+  assert.deepEqual(Object.keys((await new PendingCatalogEdits(root,{file}).read()).items),['AB1','AB2']);
+  const again=new PendingCatalogEdits(root,{file});
+  await again.remove('AB1');await again.remove('AB2');await fs.rm(file);
+  assert.deepEqual((await new PendingCatalogEdits(root,{file}).read()).items,{});
+});
+
+test('the recovery copy outranks the older legacy file, and a damaged copy is ignored',async t=>{
+  const {root,file,pending}=await fixture(t),legacy=path.join(root,legacyPendingFile),copy=path.join(root,recoveryFile);
+  await fs.mkdir(path.dirname(legacy));await fs.writeFile(legacy,JSON.stringify({format:1,items:{OLD:item}}));
+  assert.deepEqual(Object.keys((await pending.read()).items),['OLD']);
+  await pending.update(data=>{delete data.items.OLD;});
+  await fs.rm(file);
+  assert.deepEqual((await new PendingCatalogEdits(root,{file}).read()).items,{},'a settled legacy edit does not come back');
+  await fs.writeFile(copy,'{not json');
+  assert.deepEqual(Object.keys((await new PendingCatalogEdits(root,{file}).read()).items),['OLD']);
 });
