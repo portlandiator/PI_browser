@@ -133,6 +133,16 @@ GitHub reconciles the subject's study guide, which receives the passage as a
 reading that is left out; show it with Edit-Study-Guide.cmd once the pull
 request is merged. Added passages leave the browser's draft by themselves
 once the website shows them.
+An added passage exists only in the browser until you click Export decisions:
+the page marks each one "not exported yet" or "exported", and shows an Export
+decisions button while any is waiting. The publisher reads exported files
+only, and says so when a file holds no added passage.
+
+The export is named subject-edits.json, like the file in Downloads that holds
+the pending catalog edits. If the browser saves the export over that file, or
+the file is removed, the pending catalog edits are not lost: the tools keep a
+copy in .qa\catalog-edits-recovery.json, restore the edits from it and say
+that they did.
 
 
 STUDY GUIDES

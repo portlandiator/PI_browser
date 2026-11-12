@@ -103,7 +103,7 @@ test('clearing all edits requires confirmation and preserves subjects, sources, 
   const pullRequest={number:42,url:'https://example.com/pull/42',ids:['AB00001']};
   await edits.pending.update(data=>{data.pullRequest=pullRequest;data.items.AB00001.publishedIn={number:42};});
   const legacy=path.join(root,legacyPendingFile),legacyBytes=JSON.stringify(await edits.pending.read());
-  await fs.mkdir(path.dirname(legacy));await fs.writeFile(legacy,legacyBytes);
+  await fs.mkdir(path.dirname(legacy),{recursive:true});await fs.writeFile(legacy,legacyBytes);
   const decisions={format:1,matches:{keep:{status:'rejected'}},relationships:[{source:'one',target:'two',status:'confirmed'}],reviewedSubjects:{one:true},subjectDecisionsModifiedAt:123};
   await fs.writeFile(pendingPath,JSON.stringify({...decisions,catalogEdits:await edits.pending.read()}));
   const sources=['metadata - copy/items.csv','original_texts - copy/AB00001.txt','translated_texts - copy/AB00001.txt'];

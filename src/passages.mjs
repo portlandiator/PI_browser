@@ -5,7 +5,11 @@ import {recordFilename} from './record-file.mjs';
 import {emptyDraft,validateDraft,mergeDrafts} from './relationship-review-core.mjs';
 import {pendingStatuses,reviewStatus,inQueue,validateMatchEdits,confirmedCandidate,paragraphCandidate,reviewKeyAction,additionId,additionExcerpt} from './passage-review-core.mjs';
 
-const $=id=>document.getElementById(id),storageKey='pi-subject-edits';
+const $=id=>document.getElementById(id),storageKey='pi-subject-edits',exportedKey='pi-subject-additions-exported';
+// Added passages that an export from this browser already carried. The
+// publisher sees a passage only in an exported file, so the page says which
+// ones still have to be exported.
+const exportedAdditions=()=>{try{return new Set(JSON.parse(localStorage.getItem(exportedKey)||'[]'));}catch{return new Set();}};
 let base,index,summaries,ids,published,local=emptyDraft(),ordered=[],active='',selectionId='',currentData,currentSelection,undo,ready=false,epoch=0;
 const subjectCache=new Map(),recordCache=new Map();
 let draftCache,draftLocal,draftPublished;
@@ -125,8 +129,12 @@ async function addPassage(){
 function renderAdditions(){
   const box=$('add-list');if(!box||!currentData)return;
   const entries=Object.entries(draft().additions).filter(([,a])=>a.subject===active);
-  box.innerHTML=entries.length?'<h3>Passages added to this subject</h3>'+entries.map(([id,a])=>{const excerpt=additionExcerpt(a.candidate),state=currentData.selections.some(s=>s.id===id)||published.matches[id]?'published':'waiting to be exported and published';return `<div class="passage-addition"><p class="passage-citation"><strong>${esc(a.candidate.source)}</strong> · ¶${esc([...new Set(a.candidate.ranges.map(r=>r.paragraph))].join(', '))} · ${state}</p><blockquote>${esc(excerpt.length>240?excerpt.slice(0,239)+'…':excerpt)}</blockquote>${a.note?`<p>${esc(a.note)}</p>`:''}<button type="button" data-remove-addition="${id}">Remove from the local draft</button></div>`;}).join(''):'<p class="review-help">No passages have been added to this subject in this browser.</p>';
+  const exported=exportedAdditions(),isPublished=id=>currentData.selections.some(s=>s.id===id)||Boolean(published.matches[id]);
+  const waiting=entries.filter(([id])=>!isPublished(id)&&!exported.has(id)).length;
+  const reminder=waiting?`<p class="passage-add-reminder" role="status">${waiting===1?'1 added passage is':waiting+' added passages are'} only in this browser. <button type="button" id="export-additions">Export decisions</button> Then run Publish-Editorial-Decisions.cmd.</p>`:'';
+  box.innerHTML=entries.length?'<h3>Passages added to this subject</h3>'+reminder+entries.map(([id,a])=>{const excerpt=additionExcerpt(a.candidate),state=isPublished(id)?'published':exported.has(id)?'exported · run Publish-Editorial-Decisions.cmd to publish it':'not exported yet';return `<div class="passage-addition"><p class="passage-citation"><strong>${esc(a.candidate.source)}</strong> · ¶${esc([...new Set(a.candidate.ranges.map(r=>r.paragraph))].join(', '))} · ${state}</p><blockquote>${esc(excerpt.length>240?excerpt.slice(0,239)+'…':excerpt)}</blockquote>${a.note?`<p>${esc(a.note)}</p>`:''}<button type="button" data-remove-addition="${id}">Remove from the local draft</button></div>`;}).join(''):'<p class="review-help">No passages have been added to this subject in this browser.</p>';
   for(const button of box.querySelectorAll('[data-remove-addition]'))button.onclick=()=>save(d=>{delete d.additions[button.dataset.removeAddition];return d;},false,{focus:''});
+  if($('export-additions'))$('export-additions').onclick=()=>{try{download();}catch(e){message(e.message,true);}};
 }
 // Added passages that are published now leave the local draft quietly.
 function prunePublished(done){
@@ -148,7 +156,11 @@ async function verifyImport(incoming){
   const work=[...grouped.entries()];let cursor=0,done=0;
   await Promise.all(Array.from({length:Math.min(4,work.length)},async()=>{while(cursor<work.length){const [id,entries]=work[cursor++],r=await record(id);for(const holder of entries)holder.candidate=confirmedCandidate(holder.candidate,r);done++;message(`Checking imported source versions: ${done} of ${work.length}…`);}}));
 }
-function download(){const value=mergeDrafts(published,readLocal()),text=JSON.stringify(value,null,2);$('export-preview').value=text;const url=URL.createObjectURL(new Blob([text],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='subject-edits.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);message('Export prepared, including passage and connection decisions and added passages.');}
+function download(){const value=mergeDrafts(published,readLocal()),text=JSON.stringify(value,null,2);$('export-preview').value=text;const url=URL.createObjectURL(new Blob([text],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='subject-edits.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const added=Object.keys(value.additions||{});
+  try{localStorage.setItem(exportedKey,JSON.stringify(added));}catch{}
+  renderAdditions();
+  message(`Export prepared${added.length?`, including ${added.length} added passage${added.length===1?'':'s'}`:''}. If the browser asks, keep the name subject-edits.json in Downloads, then run Publish-Editorial-Decisions.cmd.`);}
 async function restoreUrl(){const p=new URLSearchParams(location.search);$('review-search').value=p.get('q')||'';$('review-order').value=p.get('order')==='alphabetical'?'alphabetical':'thematic';$('review-queue').value=['pending','approximate','ambiguous','unmatched','reviewed','all'].includes(p.get('status'))?p.get('status'):'pending';const subject=ids.has(p.get('subject'))?p.get('subject'):ordered.find(s=>available(s.id).length)?.id||ordered[0].id;await openSubject(subject,p.get('selection')||'',false);}
 document.addEventListener('click',e=>{const link=e.target.closest('[data-subject]');if(link&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey){e.preventDefault();openSubject(link.dataset.subject);}});
 document.addEventListener('keydown',e=>{if(!ready)return;const editable=!!e.target?.closest?.('input,textarea,select,[contenteditable="true"]'),action=reviewKeyAction(e,{editable,canConfirm:!$('confirm-next')?.disabled});if(!action)return;e.preventDefault();if(action==='next')step(1);else if(action==='previous')step(-1);else $(action==='confirm'?'confirm-next':'reject-next')?.click();});

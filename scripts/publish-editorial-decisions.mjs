@@ -185,7 +185,7 @@ async function main(args){
   const failed=checks.find(r=>r.status==='rejected');if(failed)throw failed.reason;
   const waiting=(await pending.read()).items;
   const ids=Object.keys(waiting);
-  console.log(ids.length?`Pending catalog edits (${pending.file}): ${ids.length}`:'No catalog edits are pending.');
+  console.log(ids.length?`Pending catalog edits (${pending.file}): ${ids.join(', ')}`:'No catalog edits are pending (Edit-Catalog-Item.cmd lists them; an edit is pending once it is saved there).');
   if(!exports.length&&!ids.length)throw Error('Nothing to publish: no catalog edits are pending (save them with Edit-Catalog-Item.cmd) and no exported subject-edits.json was found in Downloads (use "Export decisions" on a review page, or drag the file onto this tool).');
   return withStage(async stage=>{
     const conflicts=await conflictingEntries(projectRoot,waiting);
@@ -229,7 +229,7 @@ async function main(args){
         console.log(`  passages added to subject compilations: ${additions.added.length}`);
         for(const a of additions.summary)console.log(`    ${a.subject}: ${a.source} ¶${a.paragraphs.join(', ')} “${a.excerpt.length>90?a.excerpt.slice(0,89)+'…':a.excerpt}”`);
         for(const s of additions.skipped)console.log(`    not included, ${s.subject} (${s.source}): ${s.reason}`);
-      }
+      }else console.log(`  passages added to subject compilations: none in ${exports.length===1?'this file':'these files'}. A passage added on the Review quoted passages page stays in the browser until you click Export decisions there.`);
     }
     if(Object.keys(entries).length)console.log('Reading the published source archive…');
     const catalog=Object.keys(entries).length?await prepareCatalogProposal({root:projectRoot,git,python,entries,files,site,stage}):{edits:[],deletions:[],skipped:[],blobs:new Map(),overlay:files.overlay};
