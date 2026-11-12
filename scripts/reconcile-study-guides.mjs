@@ -6,7 +6,9 @@
 // quotations moved to another record keep their place, and new quotations are
 // added as left out (or shown, when they carry authorized wording). The
 // GitHub check runs this and pushes the result to the pull request; a change
-// that needs an editorial decision stops it instead.
+// that needs an editorial decision stops it instead. A correction of an item's
+// Authorized field changes no quotation, but it changes which wording a guide
+// must show; the subjects quoting such an item are reconciled as well.
 //
 //   node scripts/reconcile-study-guides.mjs [--output NOTES.md]
 // The published subject data comes from this checkout's GitHub Pages site.
@@ -42,7 +44,9 @@ export function catalogChange(base='origin/main'){
   const deleted=[...before.keys()].filter(id=>!after.has(id)),changed=[...after].filter(([id,row])=>before.has(id)&&before.get(id)!==row).map(([id])=>id);
   const additions=ref=>{try{return JSON.parse(execFileSync('git',['show',`${ref}:data/subject-additions.json`],{cwd:root,encoding:'utf8',stdio:['ignore','pipe','ignore']})).selections.map(s=>s.id);}catch{return [];}};
   const previous=new Set(additions(base)),added=additions('HEAD').filter(id=>!previous.has(id));
-  return {deleted,changed,added};
+  const field=row=>JSON.parse(row).Authorized??'';
+  const reauthorized=changed.filter(id=>field(before.get(id))!==field(after.get(id)));
+  return {deleted,changed,added,reauthorized};
 }
 export function describeCause({deleted,changed,added=[]}){
   const list=ids=>ids.length>3?`${ids.slice(0,3).join(', ')} and ${ids.length-3} more`:ids.join(', ');
@@ -55,7 +59,7 @@ export function describeCause({deleted,changed,added=[]}){
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const args=process.argv.slice(2),output=args[args.indexOf('--output')+1];
   const target=await githubTarget(root),site=liveSite(target.site);
-  let change={deleted:[],changed:[],added:[]};
+  let change={deleted:[],changed:[],added:[],reauthorized:[]};
   try{change=catalogChange();}catch(error){console.log('Could not list the changed catalog items: '+error.message);}
   const cause=describeCause(change);
   const dataset=await reconciliationDataset(root);
@@ -63,20 +67,26 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
   const read=async name=>JSON.parse(gunzipSync(await fs.readFile(path.join(dataset,name))));
   const files={read:name=>fs.readFile(path.join(root,name)).catch(error=>error.code==='ENOENT'?null:Promise.reject(error)),list:directory=>fs.readdir(path.join(root,directory))};
   const baseline=JSON.parse(await files.read('study-guides/catalogue-baseline.json'));
-  const subjects=new Map();
+  const subjects=new Map(),reauthorized=new Set(change.reauthorized);
   for(const [id,expected] of Object.entries(baseline.subjects)){
     const after=await read(`subjects/${id}.json.gz`);
-    if(catalogueFingerprint(after.selections)===expected.fingerprint)continue;
+    const quotations=catalogueFingerprint(after.selections)!==expected.fingerprint;
+    if(!quotations&&!after.selections.some(s=>s.passage&&reauthorized.has(s.candidates?.[0]?.source)))continue;
     const before=await site(`subjects/${id}.json.gz`);
     if(!before)throw Error(`The website has no compilation for subject ${id}.`);
     subjects.set(id,{before,after});
-    console.log(`Quotations changed in “${after.subject.name}”.`);
+    console.log(quotations?`Quotations changed in “${after.subject.name}”.`:`“${after.subject.name}” quotes an item whose authorized paragraphs changed.`);
   }
-  if(!subjects.size)throw Error('Every study-guide baseline matches the build; the build stopped for another reason.');
+  if(!subjects.size)throw Error('Every study-guide baseline matches the build and no quoted item changed its authorized paragraphs; the build stopped for another reason.');
   const exists=new Map([...subjects].map(([id,{after}])=>[id,new Set(after.selections.map(s=>s.id))]));
   const result=await updateGuides({...files,item:change.deleted.join(', ')||change.changed.join(', ')||(change.added.length?'added passages':'catalog change'),removedSources:change.deleted,cause,subjects,evidenceGone:(subjectId,selection)=>exists.has(subjectId)&&!exists.get(subjectId).has(selection),authorized:authorizedGroups(source=>read('data/'+recordFilename(source)).catch(()=>null))});
-  for(const [name,value] of result.changes)await fs.writeFile(path.join(root,name),value);
-  const notes=[`Study guides reconciled after ${cause}: the quotations of ${subjects.size} subject${subjects.size===1?'':'s'} changed when the collection was rebuilt (${[...subjects.values()].map(s=>'“'+s.after.subject.name+'”').join(', ')}).`,
+  // A guide that needed nothing comes back byte for byte; leave it out.
+  for(const [name,value] of [...result.changes]){
+    const current=await files.read(name);
+    if(current&&Buffer.compare(current,Buffer.from(value))===0)result.changes.delete(name);
+    else await fs.writeFile(path.join(root,name),value);
+  }
+  const notes=[`Study guides reconciled after ${cause}: the quotations of ${subjects.size} subject${subjects.size===1?'':'s'}, or the authorized paragraphs they quote, changed when the collection was rebuilt (${[...subjects.values()].map(s=>'“'+s.after.subject.name+'”').join(', ')}).`,
     ...result.guides.map(g=>`- **${g.title}**\n${g.notes.map(n=>'  - '+n).join('\n')}`),
     result.guides.length?'':'- No study guide needed changes beyond its catalogue baseline.',
     `Files changed: ${[...result.changes.keys()].map(name=>'`'+name+'`').join(', ')}.`].filter(Boolean);

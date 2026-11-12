@@ -78,7 +78,11 @@ Publish-Editorial-Decisions.cmd
   are removed. Only one copy of this tool runs at a time. The edits stay listed in the
   editor until the pull request is merged; if it is closed without merging,
   the next publication proposes them again (restore the backups to undo them
-  here instead). Translation corrections are approved for propagation to the
+  here instead). Changing an item's Authorized field changes which wording the
+  study guides must show: GitHub's check then adjusts the guides that quote the
+  item (a newly authorized quotation joins a guide with a fixed number of
+  quotations in place of its last optional one) and lists what it did in a
+  comment on the pull request. Translation corrections are approved for propagation to the
   subject compilations and study guides that quote them. Their quoted wording,
   source versions and references are updated together; these corrections are
   included in the pull request rather than held pending for another review.

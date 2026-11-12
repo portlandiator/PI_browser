@@ -54,6 +54,9 @@ async function withAdditions(root,inputs,subjects,decisions){
   try{text=await fs.readFile(path.join(root,additionsFile),'utf8');}catch(error){if(error.code==='ENOENT')return inputs;throw error;}
   const {selections,deleted}=parseAdditions(text,subjects,decisions,new Set(inputs.report.deletedSelections||[]));
   for(const s of selections)inputs.bySubject.get(s.subject).push(s);
+  // Counted like the archive's own collections, so that the import totals
+  // (blocks less duplicates and deletions) still equal the selections built.
+  inputs.report.blocks={...inputs.report.blocks,additions:selections.length+deleted.length};
   inputs.report.additions=selections.length;
   inputs.report.deletedSelections=[...new Set([...(inputs.report.deletedSelections||[]),...deleted])];
   return {...inputs,version:digest(JSON.stringify([inputs.version,digest(text)]))};

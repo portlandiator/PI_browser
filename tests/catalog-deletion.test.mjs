@@ -67,7 +67,7 @@ test('a corrected record moves chosen quotations to its new version so the selec
   const raw=r=>JSON.stringify(r),digest=text=>createHash('sha256').update(text).digest('hex');
   // Refreshing only the fingerprint, as before, leaves the old version behind.
   const stale={...review,candidateFingerprint:catalogueFingerprint(corrected)};
-  await assert.rejects(selectStudyGuideQuotations(after,{...guide.selection,sha256:digest(raw(stale))},{readReview:async()=>raw(stale),readRecord:async()=>record}),/source authority evidence changed/);
+  await assert.rejects(selectStudyGuideQuotations(after,{...guide.selection,sha256:digest(raw(stale))},{readReview:async()=>raw(stale),readRecord:async()=>record}),error=>/source authority evidence changed/.test(error.message)&&error.code==='STUDY_GUIDE_AUTHORITY_CHANGED');
   const result=reconcileGuide(guide,before,after,{item:'KEEP',cause:'catalog item KEEP was corrected',review});
   assert.ok(result.review.selected.every(s=>s.sourceVersion==='v2'&&s.authorityEvidence.sourceVersion==='v2'));
   assert.equal(result.notes.filter(n=>/cites the corrected text of KEEP/.test(n)).length,300);
@@ -83,6 +83,17 @@ test('a corrected record moves chosen quotations to its new version so the selec
   const updatedRecord={...record,metadata:{Authorized:'Y2'},en:{paragraphs:[{plain:'Text.'},{plain:'Text.'}]}};
   const promotedText=raw(promoted.review);
   assert.equal((await selectStudyGuideQuotations(changed,{...promoted.guide.selection,sha256:digest(promotedText)},{readReview:async()=>promotedText,readRecord:async()=>updatedRecord})).length,300);
+  // The Authorized field alone changed (no text, so no new version or fingerprint):
+  // the build reports it as reconcilable, and reconciling makes the selection valid again.
+  const reviewed=reconcileGuide(guide,before,after,{item:'KEEP',review}),reviewedText=raw(reviewed.review);
+  const sameText={...record,metadata:{Authorized:'Y1'}};
+  await assert.rejects(selectStudyGuideQuotations(after,{...reviewed.guide.selection,sha256:digest(reviewedText)},{readReview:async()=>reviewedText,readRecord:async()=>sameText}),error=>error.code==='STUDY_GUIDE_AUTHORITY_CHANGED');
+  const nowAuthorized=new Map(corrected.map(s=>[s.id,{source:'KEEP',sourceVersion:'v2',authorizedParagraphs:[1]}]));
+  await assert.rejects(Promise.resolve().then(()=>reconcileGuide(reviewed.guide,after,after,{item:'KEEP',cause:'catalog item KEEP was corrected',review:reviewed.review,authority:nowAuthorized,authorized:()=>true})),/Authorized quotation overflow/,'301 mandatory quotations cannot fit 300 places');
+  const fits={...after,selections:corrected.slice(0,300)},fitsReview={...reviewed.review,omitted:[],candidateCount:300,candidateFingerprint:catalogueFingerprint(fits.selections)};
+  const renewed=reconcileGuide(reviewed.guide,fits,fits,{item:'KEEP',cause:'catalog item KEEP was corrected',review:fitsReview,authority:new Map(fits.selections.map(s=>[s.id,{source:'KEEP',sourceVersion:'v2',authorizedParagraphs:[1]}])),authorized:()=>true}),renewedText=raw(renewed.review);
+  assert.equal(renewed.review.mandatoryAuthorizedCount,300);assert.ok(renewed.review.selected.every(s=>s.mandatoryAuthorized&&s.authorizedParagraphs[0]===1));
+  assert.equal((await selectStudyGuideQuotations(fits,{...renewed.guide.selection,sha256:digest(renewedText)},{readReview:async()=>renewedText,readRecord:async()=>sameText})).length,300);
 });
 
 test('guide files, neighbors, baselines and sentence context are updated together',async()=>{

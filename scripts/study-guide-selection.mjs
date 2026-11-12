@@ -8,6 +8,9 @@ export async function selectStudyGuideQuotations(data,selection,{readReview,read
  const pool=studyGuideSelections(data.selections);
  if(selection===undefined)return pool;
  const fail=message=>{throw Error(`Invalid study-guide selection: ${message}`);};
+ // The catalogue's Authorized field changed under a reviewed choice. The pull
+ // request check renews the review from the rebuilt records (reconcile-study-guides.mjs).
+ const authority=message=>{throw Object.assign(Error(`Invalid study-guide selection: ${message}`),{code:'STUDY_GUIDE_AUTHORITY_CHANGED'});};
  if(!selection||!/^selections\/[a-z]+\.json$/.test(selection.review||''))fail('unsafe review path');
  const raw=await readReview(selection.review);
  if(createHash('sha256').update(raw).digest('hex')!==selection.sha256)fail('review hash mismatch');
@@ -48,11 +51,11 @@ export async function selectStudyGuideQuotations(data,selection,{readReview,read
   if(chosen.has(s.id)){
    const entry=selected.get(s.id);
    if(!entry.reason?.trim())fail(`missing reason ${s.id}`);
-   if(record&&(entry.source!==record.id||entry.sourceVersion!==record.enVersion||JSON.stringify(entry.authorizedParagraphs)!==JSON.stringify(authorized)))fail(`source authority evidence changed ${s.id}`);
+   if(record&&(entry.source!==record.id||entry.sourceVersion!==record.enVersion||JSON.stringify(entry.authorizedParagraphs)!==JSON.stringify(authorized)))authority(`source authority evidence changed ${s.id}`);
   }
  }
  if(mandatory.length>300)fail('authorized quotation overflow');
- if(mandatory.some(id=>!chosen.has(id)))fail('missing mandatory authorized quotation');
- if(review.mandatoryAuthorizedCount!==mandatory.length)fail('authorized count mismatch');
+ if(mandatory.some(id=>!chosen.has(id)))authority('missing mandatory authorized quotation');
+ if(review.mandatoryAuthorizedCount!==mandatory.length)authority('authorized count mismatch');
  return pool.filter(s=>chosen.has(s.id));
 }

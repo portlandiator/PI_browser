@@ -128,7 +128,7 @@ for(const config of editorial.subjects){
     if(g.source){
       const record=await read('data/'+recordFilename(g.source));
       const authorization=authorizedRanges(record.metadata?.Authorized);
-      if(groupedParagraphs(g).some(p=>isAuthorizedParagraph(authorization,p.number)))throw Error(`Omitted reading has authorized wording: ${label}`);
+      if(groupedParagraphs(g).some(p=>isAuthorizedParagraph(authorization,p.number)))throw Object.assign(Error(`Omitted reading has authorized wording: ${label}`),{code:'STUDY_GUIDE_AUTHORITY_CHANGED'});
     }else if(config.selection){
       review??=JSON.parse(await fs.readFile(path.join(configDirectory,config.selection.review),'utf8'));
       if(g.selections.some(s=>(review.importedAuthorityReview||[]).some(r=>r.id===s.id&&r.mandatoryAuthorized===true)))throw Error(`Omitted reading has authorized wording: ${label}`);
