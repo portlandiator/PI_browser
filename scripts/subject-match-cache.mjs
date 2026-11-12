@@ -13,8 +13,10 @@ import {tokens,mappedTokens} from './subject-core.mjs';
 //     and changes only if one of them changes or a changed text now contains
 //     the wording;
 //   - a match restricted to the extract's supplied IDs depends on those sources;
-//   - an approximate search of the whole collection ranks sources by how rare
-//     the extract's words are, so it is repeated whenever any text changes.
+//   - an approximate search of the whole collection picks its sources by how
+//     many texts contain each of the extract's words, so it depends on the
+//     sources it examined and on which texts contain those words. It is
+//     repeated when a changed text gained or lost one of the words.
 // A reused match is the one a complete build would compute; tests compare them.
 export const matchCacheFile=out=>path.join(out,'subject-match-state.json.gz');
 const format=1;
@@ -23,11 +25,12 @@ const format=1;
 export function trackedMatcher(sources,full){
   let calls=[];
   const matcher={sources,match(selection){
-    const result=full().match(selection),words=tokens(selection.excerpt).map(t=>t.word),supplied=selection.suppliedIds||[];
+    const index=full();index.examined=undefined;
+    const result=index.match(selection),words=tokens(selection.excerpt).map(t=>t.word),supplied=selection.suppliedIds||[];
     if(!words.length)calls.push({constant:true});
     else{
       const exact=['exact','normalized','ambiguous'].includes(result.status);
-      calls.push({needle:words.join(' '),supplied,exact,...(exact?{sources:[...new Set(result.candidates.map(c=>c.source))]}:{})});
+      calls.push({needle:words.join(' '),supplied,exact,sources:exact?[...new Set(result.candidates.map(c=>c.source))]:[...(index.examined||[])]});
     }
     return result;
   }};
@@ -35,12 +38,25 @@ export function trackedMatcher(sources,full){
 }
 
 // versions: Map of source ID to the version (digest) of its English text.
-export function reusableMatches(previous,versions,sources){
+// previousWords(id) returns the set of words of a changed source's earlier
+// text, or null when that text is not available (every collection-wide
+// approximate search is then repeated).
+export async function reusableMatches(previous,versions,sources,previousWords=()=>null){
   const changed=new Set();
   for(const [id,version] of versions)if(previous.versions[id]!==version)changed.add(id);
   for(const id of Object.keys(previous.versions))if(!versions.has(id))changed.add(id);
   if(!changed.size)return {entries:previous.entries,changed};
-  const texts=[...changed].filter(id=>sources.has(id)).map(id=>{const m=mappedTokens(sources.get(id).text);return {normalized:m.normalized,words:new Set(m.spans.map(t=>t.word))};});
+  const texts=[...changed].filter(id=>sources.has(id)).map(id=>{const m=mappedTokens(sources.get(id).text);return {id,normalized:m.normalized,words:new Set(m.spans.map(t=>t.word))};});
+  // Words that some changed text gained or lost: the only words whose list of
+  // containing texts differs from the previous build.
+  let moved=new Set();
+  const current=new Map(texts.map(text=>[text.id,text.words]));
+  for(const id of changed){
+    const before=Object.hasOwn(previous.versions,id)?await previousWords(id,previous.versions[id]):new Set(),after=current.get(id)||new Set();
+    if(!before){moved=null;break;}
+    for(const word of before)if(!after.has(word))moved.add(word);
+    for(const word of after)if(!before.has(word))moved.add(word);
+  }
   const appears=needle=>{
     const words=needle.split(' ');
     return texts.some(text=>{
@@ -55,7 +71,8 @@ export function reusableMatches(previous,versions,sources){
   const unaffected=call=>{
     if(call.constant)return true;
     if(call.supplied.length)return !call.supplied.some(id=>changed.has(id));
-    return call.exact&&!call.sources.some(id=>changed.has(id))&&!appears(call.needle);
+    if(call.sources.some(id=>changed.has(id))||appears(call.needle))return false;
+    return call.exact||(moved!==null&&!call.needle.split(' ').some(word=>moved.has(word)));
   };
   const entries=new Map();
   for(const [key,entry] of previous.entries)if(entry.calls.every(unaffected))entries.set(key,entry);

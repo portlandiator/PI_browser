@@ -63,7 +63,9 @@ export class Matcher {
     // Approximate locations are proposals only. Rare-word source retrieval is bounded
     // and the bound is reported, never represented as exhaustive identification.
     let candidateSourcesTruncated=false;
-    if(!supplied.length){const scores=new Map();for(const [,list] of rare.filter(([,l])=>l.length).slice(0,8))for(const id of list)scores.set(id,(scores.get(id)||0)+1);const ranked=[...scores].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));candidateSourcesTruncated=ranked.length>12;ids=ranked.slice(0,12).map(x=>x[0]);}
+    // The sources examined below, for callers that record what a result depended on.
+    this.examined=ids;
+    if(!supplied.length){const scores=new Map();for(const [,list] of rare.filter(([,l])=>l.length).slice(0,8))for(const id of list)scores.set(id,(scores.get(id)||0)+1);const ranked=[...scores].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));candidateSourcesTruncated=ranked.length>12;ids=ranked.slice(0,12).map(x=>x[0]);this.examined=ids;}
     const fragments=query.split(/\.{3,}|…|\[\s*(?:\.\s*){3}\]/).map(s=>tokens(s).map(t=>t.word).join(' ')).filter(Boolean);
     for(const id of ids){const source=this.sources.get(id),m=this.mapped(source);
       if(fragments.length>1){let cursor=0,segments=[];for(const f of fragments){const pos=m.normalized.indexOf(f,cursor);if(pos<0){segments=[];break;}const first=m.offsets.indexOf(pos),count=f.split(' ').length;if(first<0){segments=[];break;}segments.push(...locateRanges(source,m.spans[first].start,m.spans[first+count-1].end));cursor=pos+f.length;}if(segments.length)candidates.push({source:id,version:source.version,ranges:segments,method:'approximate',score:1,evidence:'Ordered exact fragments separated by omission marks; gaps require review'});}

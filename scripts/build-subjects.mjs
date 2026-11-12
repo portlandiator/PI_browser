@@ -3,7 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gzipSync,gunzipSync} from 'node:zlib';
 import {parseCsv,parseText} from '../src/text.mjs';
-import {digest,prepareSource,Matcher,hierarchyEdges,validateConfirmedMatch} from './subject-core.mjs';
+import {digest,prepareSource,tokens,Matcher,hierarchyEdges,validateConfirmedMatch} from './subject-core.mjs';
 import {relationKey} from '../src/subject-relations.mjs';
 import {recordFilename} from '../src/record-file.mjs';
 import {writeReviewIndex} from './build-passage-review.mjs';
@@ -14,7 +14,7 @@ import {decodeSource} from './source-encoding.mjs';
 import {codeFingerprint} from './deployment-cache.mjs';
 import {trackedMatcher,reusableMatches,loadMatchCache,saveMatchCache} from './subject-match-cache.mjs';
 const zip=(file,data)=>fs.writeFile(file,gzipSync(JSON.stringify(data),{level:9}));
-export async function buildSubjects(root,out,dataset,{reuseMatches=false}={}){
+export async function buildSubjects(root,out,dataset,{reuseMatches=false,previousCorpus}={}){
   const snapshotBytes=await fs.readFile(path.join(root,'data/subjects-snapshot.json.gz'));
   const snapshot=JSON.parse(gunzipSync(snapshotBytes));
   const csv=await fs.readFile(path.join(root,'14-colors_and_hyperlinks.csv'),'utf8');
@@ -41,7 +41,16 @@ export async function buildSubjects(root,out,dataset,{reuseMatches=false}={}){
   let memo=new Map();
   const previous=reuseMatches?await loadMatchCache(out,matchCode):null;
   if(previous){
-    const reusable=reusableMatches(previous,versions,sourceMap);memo=reusable.entries;
+    // The earlier wording of a changed text comes from the previous build's record.
+    const previousWords=async(id,version)=>{
+      if(!previousCorpus)return null;
+      try{
+        const record=JSON.parse(gunzipSync(await fs.readFile(path.join(previousCorpus,'data',recordFilename(id)))));
+        if(record.enVersion!==version)return null;
+        return new Set(tokens(prepareSource(id,version,record.en.paragraphs).text).map(t=>t.word));
+      }catch{return null;}
+    };
+    const reusable=await reusableMatches(previous,versions,sourceMap,previousWords);memo=reusable.entries;
     console.log(`Subject matching: ${reusable.changed.size} changed English sources; reusing ${memo.size} of ${previous.entries.size} earlier matches`);
   }else console.log('Subject matching: matching every extract');
   let matched=0;

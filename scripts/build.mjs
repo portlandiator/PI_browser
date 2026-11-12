@@ -73,6 +73,10 @@ for(const id of ids)if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error(`Unsafe
 // Records are reused while the code and the record-level inputs are the same;
 // the subject compilations have their own inputs (editorial decisions, extracts).
 const compatibility=await fingerprint(root,'records'),subjectInputs=await fingerprint(root,'subjects');
+// The collection of the previous build, while it exists: subject matching reads
+// the earlier wording of changed texts from it, even when records are rebuilt.
+let previousCorpus;
+try{const earlier=JSON.parse(await fs.readFile(path.join(out,'stats.json'),'utf8')).dataset;if(/^collections\/[\w-]+\/$/.test(earlier))previousCorpus=path.join(out,earlier);}catch{}
 const reuse=process.env.PI_INCREMENTAL==='1'?await reusableBuild(out,ids,compatibility):null;
 if(reuse)await fs.cp(reuse.corpus,corpus,{recursive:true});
 console.log(reuse?'Reusing unchanged records and search shards':'Building the complete collection');
@@ -177,7 +181,7 @@ if(subjectRebuild){
   // Start from no subject files, as a complete build does; matches of unchanged
   // texts are reused inside buildSubjects.
   await fs.rm(path.join(corpus,'subjects'),{recursive:true,force:true});
-  await buildSubjects(root,out,dataset,{reuseMatches:process.env.PI_INCREMENTAL==='1'});
+  await buildSubjects(root,out,dataset,{reuseMatches:process.env.PI_INCREMENTAL==='1',previousCorpus});
 }else if(changedRecords.size)await refreshSubjectMetadata(corpus,changedRecords,zipWrite);
 try{await buildStudyGuides(root,out,dataset);}
 catch(error){
