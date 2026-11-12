@@ -4,11 +4,11 @@
   "status": "finalized_before_analysis",
   "subject": "D3D5A6BA921F4EFD915F7B12D2779668",
   "dataset": "collections/editorial-83f59e6ea2d8/",
-  "candidateFingerprint": "08ec75525142029ad1fbb4e72be62fa9304a23d7e93d4eb09547c7f1f7e891d2",
+  "candidateFingerprint": "b6f02273187a07e5c517a8fbcd69817d74019e5012163cddc8aa912ae6e61186",
   "candidateCount": 4322,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 114,
+  "mandatoryAuthorizedCount": 116,
   "selectionBeforeAnalysis": true,
   "method": "Complete candidate survey followed by individual editorial choices and written reasons. All verified authorized selections included. Priority given to foundational teachings, substantive explanations, necessary qualifications, distinctive applications, narrative examples and thematic breadth across the station and reward of steadfastness, what steadfastness is and how it is attained, firmness like the mountain and the rooted tree, the winds of tests, patience and forbearance, steadfastness in love, firmness in the Covenant, faithfulness, perseverance in effort and service, trust in God, the steadfastness of the Manifestations and the Master, the believers who stood firm, and supplication. Neither citation count nor source order used as a ranking rule. Imported wording checked separately; version differences remain explicit.",
   "selected": [
@@ -7687,44 +7687,44 @@
       }
     },
     {
-      "n": 4321,
-      "group": 4271,
-      "id": "bdb5bdf8e916873868e21c6d",
-      "key": "selection:bdb5bdf8e916873868e21c6d",
-      "source": null,
-      "status": "unmatched",
-      "reference": "",
-      "authorization": "",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
-      "paragraphs": [],
-      "text": "Though he be ever so tired by repeated failure, let him begin his operations again and again; for fortune greatly favors the man who perseveres in his undertakings. Laws of Manu 9.300",
-      "original": "Though he be ever so tired by repeated failure, let him begin his operations again and again; for fortune greatly favors the man who perseveres in his undertakings. Laws of Manu 9.300",
-      "reason": "Supplied verse from the Laws of Manu that one wearied by repeated failure should begin again, for fortune favours the persevering; retained as a comparative text with its unmatched status.",
+      "id": "b3943fecd0d35f270354038e",
+      "source": "BH00245",
+      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+      "authorizedParagraphs": [
+        15
+      ],
+      "mandatoryAuthorized": true,
+      "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog item BH00245 was corrected.",
       "authorityEvidence": {
-        "n": 4321,
-        "url": "https://portlandiator.github.io/PI_browser/subjects.html?subject=D3D5A6BA921F4EFD915F7B12D2779668",
-        "authorization": "No catalogue record; supplied comparative text cited as Laws of Manu 9.300, translator not identified.",
-        "finding": "Whole supplied extract read, cited as Laws of Manu 9.300. No candidate record was supplied and the translation is not identified. The passage counsels one tired by repeated failure to begin again and again, for fortune favours the one who perseveres. Retain the supplied wording and unmatched status; no context restored and no authority asserted.",
-        "id": "bdb5bdf8e916873868e21c6d",
-        "reviewedAt": "2026-10-13T20:57:30.791Z",
-        "contextRestored": false
+        "kind": "catalogue_authorized_paragraphs",
+        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "paragraphs": [
+          15
+        ]
       }
     },
     {
-      "id": "ebe8cc848d49035c75aad3cc",
-      "key": "source:AB07542",
-      "source": "AB07542",
-      "sourceVersion": "460f945595a37e40275377f78791b2135e684e944e33136d0dc06434cb268e1e",
-      "status": "confirmed",
-      "reference": "AB07542",
-      "authorizedParagraphs": [],
-      "mandatoryAuthorized": false,
-      "paragraphs": [
-        3
+      "id": "2e4f560dafdfda5f8dd04583",
+      "source": "BH00245",
+      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+      "authorizedParagraphs": [
+        37,
+        38,
+        39,
+        40
       ],
-      "text": "But undoubtedly, what is most certain, most sure and incontrovertible, what the People of God cling to most confidently is that the true cause of salvation is none other than steadfastness in the Testament and firmness in the Covenant of the All-Merciful. This faithfulness is the particular characteristic of our belief in the Manifestation of God in this Day. This is the truth enshrined in the safeguarded Mystery of this Cause and verily, in this faithfulness can be found all the other grades and standards of salvation.",
-      "reason": "Connects steadfastness in the Covenant with the standards of salvation."
+      "mandatoryAuthorized": true,
+      "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog item BH00245 was corrected.",
+      "authorityEvidence": {
+        "kind": "catalogue_authorized_paragraphs",
+        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "paragraphs": [
+          37,
+          38,
+          39,
+          40
+        ]
+      }
     }
   ],
   "omitted": [
@@ -31783,21 +31783,9 @@
       "reason": "Surveyed before analysis; selected complementary passages state the subject’s central teachings, qualifications or practical applications more substantively or with less repetition. No verified authorized quotation omitted."
     },
     {
-      "id": "b3943fecd0d35f270354038e",
-      "n": 4289,
-      "source": "BH00245",
-      "reason": "Surveyed before analysis; selected complementary passages state the subject’s central teachings, qualifications or practical applications more substantively or with less repetition. No verified authorized quotation omitted."
-    },
-    {
       "id": "2363807267df0f2fdbce8e3c",
       "n": 4293,
       "source": "AB07837",
-      "reason": "Surveyed before analysis; selected complementary passages state the subject’s central teachings, qualifications or practical applications more substantively or with less repetition. No verified authorized quotation omitted."
-    },
-    {
-      "id": "2e4f560dafdfda5f8dd04583",
-      "n": 4295,
-      "source": "BH00245",
       "reason": "Surveyed before analysis; selected complementary passages state the subject’s central teachings, qualifications or practical applications more substantively or with less repetition. No verified authorized quotation omitted."
     },
     {
@@ -31869,6 +31857,16 @@
         "sourceVersion": "d39f193f28ef2634234c76ed99c80566694c6fa8103adea470feb163e3a5cc8f",
         "paragraphs": []
       }
+    },
+    {
+      "id": "ebe8cc848d49035c75aad3cc",
+      "source": "AB07542",
+      "reason": "Replaced by mandatory authorized quotation b3943fecd0d35f270354038e after catalog item BH00245 was corrected; the fixed-size selection is retained."
+    },
+    {
+      "id": "bdb5bdf8e916873868e21c6d",
+      "source": null,
+      "reason": "Replaced by mandatory authorized quotation 2e4f560dafdfda5f8dd04583 after catalog item BH00245 was corrected; the fixed-size selection is retained."
     }
   ],
   "importedAuthorityReview": [
