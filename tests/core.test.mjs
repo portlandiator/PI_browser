@@ -48,6 +48,13 @@ test('phrase search enforces order, repeated words, and gaps',()=>{
   assert.deepEqual(matchPostings(parseQuery('loved'),postings),[]);
   assert.deepEqual(matchPostings(parseQuery('"love of god" missing'),postings),[]);
 });
+test('typographic quotes from phone keyboards delimit a phrase like straight quotes',()=>{
+  const straight=parseQuery('"holy light" love');
+  assert.deepEqual(straight,[{words:['holy','light'],phrase:true},{words:['love'],phrase:false}]);
+  for(const query of ['\u201choly light\u201d love','\u201eholy light\u201c love','\u00abholy light\u00bb love','\u201dholy light\u201d love'])assert.deepEqual(parseQuery(query),straight,query);
+  const text='A light most holy, the holy light.';
+  assert.deepEqual(matchRanges(text,'\u201choly light\u201d').map(([a,b])=>text.slice(a,b)),['holy light']);
+});
 test('original-language exact phrases use the same token normalization',()=>{
   const postings=new Map([['کتاب',new Map([[7,[0]],[8,[2]]])],['الله',new Map([[7,[1]],[8,[0]]])]]);
   assert.deepEqual(matchPostings(parseQuery('"كِتاب اللَّه"'),postings),[7]);

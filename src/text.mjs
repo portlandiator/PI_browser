@@ -90,9 +90,13 @@ export function parseText(text, language) {
   return {paragraphs,notes:context.notes,...(alignment.includes(null)?{alignment}:{})};
 }
 
+// Phone keyboards ("smart punctuation" on iOS, and several keyboard layouts)
+// replace typed straight quotes with typographic ones; all of them delimit a phrase.
+const straightQuotes=query=>String(query).replace(/[\u201c\u201d\u201e\u201f\u00ab\u00bb\uff02]/g,'"');
+
 export function parseQuery(query) {
   const groups=[];
-  for(const match of query.matchAll(/"([^"]+)"|([^"\s]+)/g)){
+  for(const match of straightQuotes(query).matchAll(/"([^"]+)"|([^"\s]+)/g)){
     const words=tokenize(match[1]||match[2]);
     if(words.length)groups.push({words,phrase:Boolean(match[1])});
   }
