@@ -61,7 +61,21 @@ function precedingQuestionStart(text,start,spans){
  return prior&&/\?[\s‘’“”"')\]}]*$/u.test(text.slice(prior.start,end))?prior.start:start;
 }
 
+// Guides quote the same long records many times; segmenting a whole record is
+// the costly step, so recent results are kept. Callers get their own copies.
+const spanCache=new Map();let spanCacheLength=0;
 export function sentenceSpans(text){
+ const cached=spanCache.get(text);
+ if(cached){spanCache.delete(text);spanCache.set(text,cached);return cached.map(s=>({...s}));}
+ const spans=segmentSentences(text);
+ if(text.length>=2000){
+  spanCache.set(text,spans);spanCacheLength+=text.length;
+  while(spanCacheLength>96*1024*1024){const [oldest]=spanCache.keys();spanCacheLength-=oldest.length;spanCache.delete(oldest);}
+  return spans.map(s=>({...s}));
+ }
+ return spans;
+}
+function segmentSentences(text){
  const spans=[];
  for(const part of segmenter.segment(text)){
   let start=part.index,end=start+part.segment.length;

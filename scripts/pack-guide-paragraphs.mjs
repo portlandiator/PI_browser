@@ -5,7 +5,7 @@ const paragraphs=/<p(?:\s[^>]*)?>[\s\S]*?<\/p>/g;
 export async function packGuideParagraphs(directory){
  const names=(await fs.readdir(directory)).filter(n=>n.endsWith('.quotations.html.gz')).sort(),counts=new Map(),cache=new Map();
  const dictionaries=path.join(directory,'shared-paragraphs');await fs.mkdir(dictionaries,{recursive:true});
- async function readDictionary(hash){if(!cache.has(hash)){const value=JSON.parse(gunzipSync(await fs.readFile(path.join(dictionaries,hash+'.json.gz'))));cache.set(hash,value);if(cache.size>8)cache.delete(cache.keys().next().value);}return cache.get(hash);}
+ async function readDictionary(hash){if(!cache.has(hash)){const value=JSON.parse(gunzipSync(await fs.readFile(path.join(dictionaries,hash+'.json.gz'))));cache.set(hash,value);}return cache.get(hash);}
  const read=async name=>decodeGuideHtmlPayload(gunzipSync(await fs.readFile(path.join(directory,name))).toString(),readDictionary);
  for(const name of names)for(const m of (await read(name)).matchAll(paragraphs))if(m[0].length>=250&&Buffer.byteLength(JSON.stringify(m[0]))<=32768)counts.set(m[0],(counts.get(m[0])||0)+1);
  const shared=[...counts].filter(([,count])=>count>1).map(([text])=>text).sort(),references=new Map(),used=new Set();

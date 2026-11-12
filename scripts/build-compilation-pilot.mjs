@@ -43,15 +43,16 @@ editorial.dataset=datasetName;
 if(new Set(editorial.subjects.map(s=>s.id)).size!==editorial.subjects.length||new Set(editorial.subjects.map(s=>s.slug)).size!==editorial.subjects.length)throw Error('Duplicate study guide');
 await fs.mkdir(output,{recursive:true});
 const dataset=path.join(out,datasetName);
-// Records recur across many guides. Keep a bounded build-local cache so a
-// collection-wide rebuild does not repeatedly decompress the same source.
-const recordCache=new Map();let recordCacheBytes=0;
+// Records recur across many guides, the longest ones most of all. Keep a
+// bounded build-local cache so a collection-wide rebuild does not repeatedly
+// decompress the same source (decompression was a third of the guide build).
+const recordCache=new Map(),recordCacheLimit=384*1024*1024;let recordCacheBytes=0;
 const read=async name=>{
   if(recordCache.has(name)){const hit=recordCache.get(name);recordCache.delete(name);recordCache.set(name,hit);return hit.value;}
   const bytes=gunzipSync(await fs.readFile(path.join(dataset,name))),value=JSON.parse(bytes);
-  if(name.startsWith('data/')&&bytes.length<=64*1024*1024){
+  if(name.startsWith('data/')&&bytes.length<=recordCacheLimit){
     recordCache.set(name,{value,bytes:bytes.length});recordCacheBytes+=bytes.length;
-    while(recordCache.size>512||recordCacheBytes>64*1024*1024){const oldest=recordCache.keys().next().value;recordCacheBytes-=recordCache.get(oldest).bytes;recordCache.delete(oldest);}
+    while(recordCache.size>4096||recordCacheBytes>recordCacheLimit){const oldest=recordCache.keys().next().value;recordCacheBytes-=recordCache.get(oldest).bytes;recordCache.delete(oldest);}
   }
   return value;
 };
@@ -256,7 +257,8 @@ for(const config of editorial.subjects){
   // public one-hop graph as Subject view, including neighbors without a guide.
   for(const neighbor of config.neighbors){
     const subject=subjectMap.get(neighbor.id);if(!subject)throw Error('Unknown neighbor');
-    const neighborData=await read(`subjects/${neighbor.id}.json.gz`);
+    // A neighbor with its own guide was read above; reading it again is the same file.
+    const neighborData=subjectData.get(neighbor.id)??await read(`subjects/${neighbor.id}.json.gz`);
     if(!neighbor.evidence.length)throw Error(`Missing neighboring evidence for ${config.slug}`);
     for(const evidence of neighbor.evidence)if(!neighborData.selections.some(s=>s.id===evidence))throw Error('Missing neighboring evidence');
   }
