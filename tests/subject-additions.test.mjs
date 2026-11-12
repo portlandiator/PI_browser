@@ -61,6 +61,9 @@ test('the build reads added passages beside the archive and honours deletions',a
   assert.deepEqual(inputs.bySubject.get(subject).map(s=>s.id),[imported.id,one]);
   assert.equal(inputs.bySubject.get(subject)[1].reviewNote,'noted');
   assert.equal(inputs.report.additions,1);assert.deepEqual(inputs.report.deletedSelections,['d'.repeat(24),two]);
+  // The import totals stay consistent: blocks less deletions equal the selections built.
+  assert.deepEqual(inputs.report.blocks,{Evernote_scrape:1,additions:2});
+  assert.equal(Object.values(inputs.report.blocks).reduce((a,b)=>a+b,0)-1,inputs.bySubject.get(subject).length,'one deleted addition; the archive fixture lists its own exclusion without a block');
   const without=await readExtractInputs(root,subjects,{deletedIds:['d'.repeat(24)]});
   assert.notEqual(without.version,inputs.version);
   assert.throws(()=>parseAdditions(JSON.stringify({format:1,selections:[added('d'.repeat(24))]}),subjects,{},new Set(['d'.repeat(24)])),/Excluded quotation remains/);

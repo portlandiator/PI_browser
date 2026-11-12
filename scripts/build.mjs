@@ -176,7 +176,7 @@ try{await buildStudyGuides(root,out,dataset);}
 catch(error){
   // stats.json still names the verified active collection until this build
   // succeeds. Reconciliation must inspect the new, fully matched subjects.
-  if(error.code==='STUDY_GUIDE_CATALOGUE_CHANGED')await fs.writeFile(reconciliationFile,JSON.stringify({format:1,dataset}));
+  if(['STUDY_GUIDE_CATALOGUE_CHANGED','STUDY_GUIDE_AUTHORITY_CHANGED'].includes(error.code))await fs.writeFile(reconciliationFile,JSON.stringify({format:1,dataset}));
   throw error;
 }
 await packStudyGuides(root,out);
