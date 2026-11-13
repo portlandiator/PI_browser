@@ -23,7 +23,7 @@ import {parseCsv} from '../src/text.mjs';
 import {validateDraft,mergeDrafts} from '../src/relationship-review-core.mjs';
 import {relationKey} from '../src/subject-relations.mjs';
 import {prepareRepository,publishChanges,requireNoOpenProposals,githubAccount} from './publish-changes.mjs';
-import {tool,withLock,jobFolder} from './publish-tools.mjs';
+import {tool,withLock,jobFolder,withProgress} from './publish-tools.mjs';
 import {githubTarget} from './github-target.mjs';
 import {liveSite} from './catalog-deletion.mjs';
 import {PendingCatalogEdits,publishedFiles,prepareCatalogProposal,catalogBody,conflictingEntries,applyLocally,settlePullRequest,withStage} from './catalog-edits.mjs';
@@ -177,7 +177,7 @@ async function main(args){
     (async()=>{
       repository=await githubTarget(projectRoot,{gh,git});
       const github={gh,repository:repository.repository};
-      const results=await Promise.allSettled([githubAccount(projectRoot,gh),settlePullRequest(pending,{...github,root:projectRoot}),requireNoOpenProposals(projectRoot,github)]);
+      const results=await Promise.allSettled([withProgress('asking GitHub who is signed in',githubAccount(projectRoot,gh)),withProgress('checking the earlier pull request on GitHub',settlePullRequest(pending,{...github,root:projectRoot})),withProgress('checking GitHub for open pull requests',requireNoOpenProposals(projectRoot,github))]);
       const failed=results.find(r=>r.status==='rejected');if(failed)throw failed.reason;
       account=results[0].value;
     })(),

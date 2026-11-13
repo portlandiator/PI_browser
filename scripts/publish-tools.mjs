@@ -78,6 +78,20 @@ export async function withLock(file,work,{wait=0,busy='Another run holds '+file}
   try{return await work();}
   finally{if((await lockHolder(file))?.token===token)await fs.rm(file,{force:true}).catch(()=>{});}
 }
+// A step that can take long says so while it runs, so a slow fetch or a busy
+// disk is not mistaken for a tool that has stopped: after `first` seconds, and
+// then every `every` seconds, it prints what it is still doing and for how long.
+export async function withProgress(label,work,{first=15,every=30,log=console.log}={}){
+  const started=Date.now();let timer;
+  const report=()=>{const seconds=Math.round((Date.now()-started)/1000);log(`  …still ${label} (${seconds<90?seconds+' s':Math.round(seconds/60)+' min'}). Please keep this window open.`);timer=setTimeout(report,every*1000);};
+  timer=setTimeout(report,first*1000);
+  try{return await (typeof work==='function'?work():work);}finally{clearTimeout(timer);}
+}
+// Git tidies a repository ("auto gc") after a fetch or merge once enough loose
+// objects or packs have collected. On Windows that runs in the foreground, and
+// in this project it repacks about 750 MB (mostly volume PDFs) inside a Dropbox
+// folder, silently, for many minutes. The tools never start it.
+export const noAutoMaintenance=['-c','gc.auto=0','-c','maintenance.auto=false'];
 export async function run(command,args,cwd,quiet=false,env=null){
   return new Promise((resolve,reject)=>{
     const child=spawn(command,args,{cwd,windowsHide:true,stdio:['ignore','pipe','pipe'],...env&&{env:{...process.env,...env}}});let result='',diagnostic='';

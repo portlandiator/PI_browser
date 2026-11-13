@@ -59,7 +59,9 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Could not list the open pull requests on GitHub.' }
     $open = @(($openJson | Out-String | ConvertFrom-Json) | Where-Object { $_.headRefName -match '^(maintenance|catalog)/' })
     if ($open.Count) { throw "A pull request from the maintenance tools is still open: #$($open[0].number) $($open[0].title) ($($open[0].url)). Merge or close it on GitHub first, so that two pull requests cannot change the same files." }
-    Run $git @('-C',$root,'fetch','origin')
+    # Never let Git start its automatic repack here: on Windows it runs in the
+    # foreground and repacks the whole repository inside Dropbox for many minutes.
+    Run $git @('-C',$root,'-c','gc.auto=0','-c','maintenance.auto=false','fetch','origin')
     $ahead = @(Run $git @('-C',$root,'log','--format=%H','origin/main..HEAD'))
     if ($ahead.Count) { throw 'There are unpublished local commits. Push or resolve them before running the updater.' }
     # Volume PDFs proposed by an earlier update stay in this folder as local
@@ -77,7 +79,7 @@ try {
     }
     $dirty = @(Run $git @('-C', $root, '-c', 'core.quotePath=false', 'status', '--porcelain', '--untracked-files=no'))
     if ($dirty.Count) { throw "Commit or resolve tracked-file changes before updating (if they belong to a pull request that is still open, merge or close it on GitHub first): $(($dirty | Select-Object -First 5) -join '; '). Your source folders are ignored by Git and may contain your edits." }
-    Run $git @('-C',$root,'merge','--ff-only','origin/main')
+    Run $git @('-C',$root,'-c','gc.auto=0','-c','maintenance.auto=false','merge','--ff-only','origin/main')
     Write-Host "`n2/4 Snapshotting publishable sources and filtered metadata..." -ForegroundColor Cyan
     # Build outside the project folder: a Dropbox folder would sync gigabytes of
     # throwaway output, and its sync client can lock files Git has just written.

@@ -55,3 +55,20 @@ test('exported editorial decisions merge without dropping published ones',async(
   assert.throws(()=>mergeDecisions(published,{...incoming,matches:{bad:{status:'confirmed',candidate:{source:'X'}}}},ids),/Invalid confirmed passage/);
   assert.throws(()=>mergeDecisions(published,{matches:{}},ids),/format 1/);
 });
+
+test('a slow step reports that it is still working, and the tools never start Git’s automatic repack',async()=>{
+  const {withProgress,noAutoMaintenance}=await import('../scripts/publish-tools.mjs');
+  const lines=[];
+  const value=await withProgress('downloading',new Promise(resolve=>setTimeout(()=>resolve('done'),130)),{first:0.03,every:0.04,log:line=>lines.push(line)});
+  assert.equal(value,'done');
+  assert.ok(lines.length>=2&&lines.every(line=>/still downloading \(\d+ s\)/.test(line)),lines.join('|'));
+  const count=lines.length;await new Promise(resolve=>setTimeout(resolve,80));
+  assert.equal(lines.length,count,'nothing is printed after the step ends');
+  await assert.rejects(withProgress('failing',()=>Promise.reject(Error('stopped')),{log(){}}),/stopped/);
+  assert.equal(await withProgress('quick',Promise.resolve(1),{log(){throw Error('not printed');}}),1);
+  assert.deepEqual(noAutoMaintenance,['-c','gc.auto=0','-c','maintenance.auto=false']);
+  const read=name=>fs.readFile(new URL('../scripts/'+name,import.meta.url),'utf8');
+  assert.match(await read('publish-changes.mjs'),/run\(gitPath,\['-C',root,\.\.\.noAutoMaintenance,\.\.\.args\]/);
+  const updater=await read('update-collection.ps1');
+  for(const command of ["'fetch','origin'","'merge','--ff-only','origin/main'"])assert.ok(updater.includes("'-c','gc.auto=0','-c','maintenance.auto=false',"+command),command);
+});

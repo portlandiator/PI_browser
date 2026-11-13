@@ -9,12 +9,12 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {randomUUID} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-import {run,capture,tool,openPullRequest,jobFolder} from './publish-tools.mjs';
+import {run,capture,tool,openPullRequest,jobFolder,withProgress,noAutoMaintenance} from './publish-tools.mjs';
 import {githubTarget} from './github-target.mjs';
 
 const projectRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 let gitPath='git';
-const git=(args,root,quiet=true,env=null)=>run(gitPath,['-C',root,...args],root,quiet,env);
+const git=(args,root,quiet=true,env=null)=>run(gitPath,['-C',root,...noAutoMaintenance,...args],root,quiet,env);
 const changedFiles=async(root,...range)=>(await git(['-c','core.quotePath=false','diff','--name-only',...range],root)).split('\n').filter(Boolean);
 
 // Before changing anything: on main, no local commits, up to date with GitHub.
@@ -28,11 +28,11 @@ export async function prepareRepository(root,files){
   if(path.resolve(top)!==path.resolve(root))throw Error('Run this from the project folder (the Git repository root).');
   if(await git(['rev-parse','--abbrev-ref','HEAD'],root)!=='main')throw Error('Switch this folder to the main branch first.');
   console.log('Checking GitHub for newer changes…');
-  await git(['fetch','--quiet','origin','main'],root);
+  await withProgress('downloading the newer changes from GitHub',git(['fetch','--quiet','origin','main'],root));
   if(await git(['log','--format=%H','origin/main..HEAD'],root))throw Error('This folder has local commits that are not on GitHub. Push or resolve them first.');
   const upstream=new Set(await changedFiles(root,'HEAD..origin/main'));
   const merged=[],edited=[];
-  for(const file of (await changedFiles(root,'HEAD')).filter(file=>upstream.has(file))){
+  for(const file of (await withProgress('comparing this folder’s files with Git',changedFiles(root,'HEAD'))).filter(file=>upstream.has(file))){
     try{await git(['diff','--quiet','origin/main','--',file],root);merged.push(file);}catch{edited.push(file);}
   }
   const blocking=[],rebased=new Map();
@@ -43,7 +43,7 @@ export async function prepareRepository(root,files){
   if(blocking.length)throw Error('GitHub has newer versions of files that also have unpublished changes here:\n  '+blocking.slice(0,10).join('\n  ')+'\nIf a pull request for them is still open, merge or close it on GitHub first.');
   if(merged.length||rebased.size)await git(['checkout','HEAD','--',...merged,...rebased.keys()],root);
   let updated=false;
-  try{await git(['merge','--ff-only','--quiet','origin/main'],root);updated=true;}
+  try{await withProgress('bringing this folder up to date',git(['merge','--ff-only','--quiet','origin/main'],root));updated=true;}
   catch{
     const remaining=(await changedFiles(root,'HEAD')).filter(file=>upstream.has(file));
     throw Error('GitHub has newer versions of files that also have unpublished changes here:\n  '+remaining.slice(0,10).join('\n  ')+'\nIf a pull request for them is still open, merge or close it on GitHub first.');
