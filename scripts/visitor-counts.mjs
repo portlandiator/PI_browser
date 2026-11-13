@@ -39,7 +39,7 @@ export function writeNotes(history,current,site){
   return [
     `Unique visitors of the four main pages of the [Partial Inventory browser](${site}) in each week, Monday to Sunday (UTC).`,
     '',
-    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time in the week that its visitor does something on that page, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html). The website draws these totals as a [graph](${site}${graphPage}).`,
+    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time in the week that its visitor is still doing something on that page ten seconds after first doing something there, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html). The website draws these totals as a [graph](${site}${graphPage}).`,
     '',
     'Please do not download the files (each download is counted as a visitor) and do not edit this text: the "Keep the weekly visitor counters" workflow rewrites it every day and removes the files of earlier weeks once their counts are in the table.',
     '',

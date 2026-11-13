@@ -9,7 +9,8 @@
 //    counted on this week.
 // Once a visitor has done something in a view (moved the pointer, touched,
 // typed), the view reads the week's download counts for the foot of the page.
-// The first time in a week, it also asks GitHub for that week's file, without
+// A visitor who is still doing something there ten seconds later is counted,
+// the first time in a week: the view asks GitHub for that week's file, without
 // cookies or a referrer, which adds one to the file's count.
 // Nothing is sent to anyone but GitHub, which already serves the site. The
 // number at the foot of the page leads to a graph of every week's counts
@@ -160,6 +161,13 @@ const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|h
 // pointer is reported again whenever the page under it changes. Only a
 // pointer that travels is a hand.
 const signs=['pointerdown','pointermove','keydown','wheel','touchstart'],travel=8;
+// Some automated browsers do those things too. With that rule alone Catalog
+// still gained two dozen "visitors" in a burst every hour (24, then 22 an hour
+// later, 2026-11-13) while the other views had none: programs that move a
+// pointer or scroll when a page has loaded, and go. Someone who has come to
+// read is still there, and still doing something, ten seconds later, so that
+// is when a visitor is counted. People who look and leave at once are not.
+export const stay=10*1000;
 
 // Counts this browser once for the page and week, and shows the week's total
 // in every element marked data-visitor-count, as a link to the graph of every
@@ -190,12 +198,14 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   // The study guides replace the page body in place, footer included.
   document.addEventListener('pi-guide-page',render);
 
-  // Nothing is asked of GitHub and nothing is counted until the visitor does
-  // something in the page while it is being looked at.
-  await new Promise(resolve=>{
+  // Resolves when the visitor does something in the page while it is being
+  // looked at. `ready` passes over what comes too soon, so a pointer's travel
+  // is measured from where it is first seen once the time has come: a pointer
+  // left lying is reported at the same place again and never counts.
+  const acts=(ready=()=>true)=>new Promise(resolve=>{
     let rest;
     const acted=event=>{
-      if(!event.isTrusted||document.visibilityState!=='visible')return;
+      if(!event.isTrusted||document.visibilityState!=='visible'||!ready())return;
       if(event.type==='pointermove'){
         rest??=[event.clientX,event.clientY];
         if(!(Math.abs(event.clientX-rest[0])+Math.abs(event.clientY-rest[1])>=travel))return;
@@ -205,41 +215,55 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
     };
     for(const sign of signs)document.addEventListener(sign,acted,{capture:true,passive:true});
   });
-  const week=weekOf(new Date(now()));
+
+  // Nothing is asked of GitHub until the visitor does something.
+  await acts();
+  const began=now(),week=weekOf(new Date(began));
 
   // Notes that this browser is counted on the page this week; false when it
-  // already is (another tab may have counted it while GitHub was being asked)
-  // or when the browser cannot keep the note. A browser that cannot remember
-  // being counted would be counted on every visit, so it is left out.
+  // already is (another tab may have counted it meanwhile) or when the browser
+  // cannot keep the note. A browser that cannot remember being counted would
+  // be counted on every visit, so it is left out.
   function note(){
     const seen=seenPages(week);
     return !seen.includes(page)&&write(seenKey,{week,pages:[...seen,page]});
   }
 
-  const earlier=seenPages(week).includes(page),online=navigator.onLine!==false;
+  const earlier=seenPages(week).includes(page);
   const answer=await readTotals({store,fetch,repository,week,now});
-  const known=answer.totals,reachable=online&&answer.reachable;
+  const known=answer.totals,total=known?.counts[page];
+  // Without a number the page keeps its own footer wording.
+  const numbered=Number.isSafeInteger(total)&&total>=0;
+  // The number shown is kept with GitHub's answer, so the next page opened,
+  // and the graph, show the same.
+  const show=count=>{
+    shown=count;
+    if(count!==total)write(cacheKey,{...known,counts:{...known.counts,[page]:count}});
+    render();
+  };
+  // An earlier visit by this browser may not be in GitHub's answer yet: a
+  // counted visitor is never shown zero.
+  if(numbered)show(Math.max(total,earlier?1:0));
+  if(earlier)return;
+
+  // The visitor is counted when still doing something `stay` after that first
+  // action.
+  await acts(()=>now()-began>=stay);
   // Before the week's file exists there is nothing to add to, and while GitHub
   // cannot be reached the request would be lost: the visit is counted later.
-  // When GitHub only refused to say, the file is taken to exist.
-  const added=!earlier&&reachable&&(!known||Object.hasOwn(known.counts,page))&&note();
+  // When GitHub only refused to say, the file is taken to exist. A week that
+  // ended while the page was open is left to the next visit.
+  if(weekOf(new Date(now()))!==week||!answer.reachable||navigator.onLine===false)return;
+  if((known&&!Object.hasOwn(known.counts,page))||!note())return;
   // Asking for the week's file adds one to its download count. The note comes
   // first and stands whatever becomes of the request: it can be cut short by
   // leaving the page after GitHub has counted it, and a browser may refuse to
   // show a page the answer, so a failure is no reason to count a second time.
   // GitHub answers with cookies of its own; omitting credentials means the
   // browser neither sends nor keeps any, which an image element would.
-  if(added)fetch(hitUrl(repository,page,week),{mode:'no-cors',credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store',keepalive:true}).catch(()=>{});
-  const total=known?.counts[page];
-  // Without a number the page keeps its own footer wording.
-  if(!Number.isSafeInteger(total)||total<0)return;
-  // GitHub's answer was given before this visit was added, and an earlier
-  // visit may not be in it yet: a counted visitor is never shown zero.
-  shown=Math.max(total+(added?1:0),seenPages(week).includes(page)?1:0);
-  // The kept answer follows, so the next page opened, and the graph, show the
-  // same number.
-  write(cacheKey,{...known,counts:{...known.counts,[page]:shown}});
-  render();
+  fetch(hitUrl(repository,page,week),{mode:'no-cors',credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store',keepalive:true}).catch(()=>{});
+  // GitHub's answer was given before this visit was added.
+  if(numbered)show(total+1);
 }
 
 if(typeof document!=='undefined'){
