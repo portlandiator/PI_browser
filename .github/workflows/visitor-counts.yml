@@ -1,0 +1,40 @@
+name: Keep the weekly visitor counters
+# The website counts each week's visitors of its four main pages through the
+# download counts of small files attached to the "Visitor counts" release
+# (src/visitor-count.mjs). This adds the files for the coming weeks, writes the
+# weekly totals into the release notes and removes the files of past weeks.
+# Nothing is committed and no other workflow is started.
+on:
+  schedule:
+    - cron: '23 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visitor-counts.yml'
+      - 'scripts/visitor-counts.mjs'
+      - 'src/visitor-count.mjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visitor-counts
+  cancel-in-progress: false
+jobs:
+  counters:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Only the two scripts are needed, not the collection and its PDFs.
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts/visitor-counts.mjs
+            src/visitor-count.mjs
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Add the coming weeks' files and record the weekly totals
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/visitor-counts.mjs

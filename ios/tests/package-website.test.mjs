@@ -5,7 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import {gzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
-import {packageWebsite,safePath} from '../scripts/package-website.mjs';
+import {packageWebsite,safePath,visitorCountModule,withoutVisitorCount} from '../scripts/package-website.mjs';
 const sha=x=>createHash('sha256').update(x).digest('hex');
 async function fixture(t) {
   const root=await fs.mkdtemp(path.join(os.tmpdir(),'pi-ios-test-'));
@@ -14,7 +14,8 @@ async function fixture(t) {
   for(const folder of [site,audit,pdfs])await fs.mkdir(folder);
   const dataset='collections/test/',commit='a'.repeat(40);
   const files={
-    'publication.json':JSON.stringify({commit,dataset}), 'index.html':'<h1>Collection</h1>',
+    'publication.json':JSON.stringify({commit,dataset}), 'index.html':'<script type="module" src="./visitor-count.mjs" data-visitor-page="catalog"></script><h1>Collection</h1><footer><span data-visitor-count>Partial Inventory browser</span></footer>',
+    'visitor-count.mjs':await fs.readFile(new URL('../../src/visitor-count.mjs',import.meta.url)),
     'subjects.html':'<h1>Subjects</h1>', 'volume-view.html':'<h1>Volumes</h1>',
     'stats.json':JSON.stringify({dataset,records:29114}), 'volumes.json':JSON.stringify({'1':'pdf-volumes/volume-1.pdf'}),
     'pdf-hosting.json':JSON.stringify({url:'https://example.com/pdfs/'}),
@@ -38,6 +39,26 @@ test('packages the complete audited release and moves PDF hosting offline',async
   assert.equal(result.records,29114);assert.equal(result.volumes,1);
   assert.equal(JSON.parse(await fs.readFile(path.join(args.output,'pdf-hosting.json'))).url,'');
   assert.equal((await fs.readFile(path.join(args.output,'pdf-volumes/volume-1.pdf'))).subarray(0,5).toString(),'%PDF-');
+});
+test('leaves the website\'s visitor count out of the app',async t=>{
+  const args=await fixture(t);
+  // The website's module counts a visit through GitHub.
+  const published=await fs.readFile(path.join(args.site,visitorCountModule),'utf8');
+  assert.match(published,/github\.com/);assert.match(published,/showVisitorCount/);
+  await packageWebsite(args);
+  // The app's copy is empty: the page loads it, nothing is counted and the footer keeps its wording.
+  const packaged=await fs.readFile(path.join(args.output,visitorCountModule),'utf8');
+  assert.equal(packaged,withoutVisitorCount);
+  assert.doesNotMatch(packaged,/github|fetch|import|export|localStorage/);
+  assert.match(await fs.readFile(path.join(args.output,'index.html'),'utf8'),/<span data-visitor-count>Partial Inventory browser<\/span>/);
+  // The packaged checksum is that of the empty module, so the app verifies what it ships.
+  const listed=JSON.parse(await fs.readFile(path.join(args.output,'offline-files.json'),'utf8')).files.find(file=>file.path===visitorCountModule);
+  assert.deepEqual(listed,{path:visitorCountModule,bytes:Buffer.byteLength(withoutVisitorCount),sha256:sha(withoutVisitorCount)});
+  // Nothing else in the package can count a visit.
+  for(const file of await fs.readdir(args.output,{recursive:true})){
+    if(!/\.(?:html|js|mjs)$/.test(file))continue;
+    assert.doesNotMatch(await fs.readFile(path.join(args.output,file),'utf8'),/releases\/download|api\.github\.com/,file);
+  }
 });
 test('rejects changed source bytes before publishing any output',async t=>{
   const args=await fixture(t);await fs.writeFile(path.join(args.site,'index.html'),'tampered');

@@ -30,7 +30,7 @@ Open http://localhost:4173/PI_browser/. The server deliberately tests the same p
 - Accessible footnotes, italics and transliteration accents; source HTML is escaped; metadata web links are safely reconstructed.
 - Adjustable reading size, single-language modes, contextual snippets, pagination, persistent URLs, and copyable reading links.
 - Share a Catalog paragraph by selecting its number and choosing **Copy link**, or copying the number's link directly. English links use `?id=BH00001&paragraph=12`; original-language links add `&lang=original`. Numbers match the source paragraphs displayed in that language, including in texts with unequal paragraph counts. Existing subject/study-guide passage links and `#p-en-12` / `#p-original-12` anchors remain supported.
-- No accounts, analytics, external search service, or runtime server.
+- No accounts, analytics service, external search service, or runtime server. The four main views show an anonymous count of the week's visitors (see [Visitor counts](#visitor-counts)).
 
 ## Technology
 
@@ -91,6 +91,23 @@ One-time setup:
 3. In this repository, add it under Settings → Secrets and variables → Actions as `PDF_SITE_TOKEN`.
 4. Run this repository's deployment workflow once. It creates the PDF repository's `main` branch.
 5. In the PDF repository, open Settings → Pages and choose **Deploy from a branch**, `main`, `/ (root)`. Then re-run the deployment workflow; it waits for the PDF site and checks it before publishing this site.
+
+## Visitor counts
+
+The Catalog, Volumes, Subjects and Study guides pages show, at the left of their footer, how many unique visitors the page has had in the current week ("37 unique visitors this week"). Weeks run from Monday to Sunday in UTC. Opening a text, a subject or a single study guide belongs to its page; the editorial pages, the privacy policy and the support page are not counted.
+
+GitHub Pages keeps no visitor log and the site collects no personal information, so the count is built from two things that identify nobody (`src/visitor-count.mjs`):
+
+- GitHub counts the downloads of every file attached to a release. The repository's **Visitor counts** release (tag `visitor-counts`) holds one small file (a one-pixel image) for each page and week, for example `catalog-2026-11-09.gif`.
+- The browser notes in its local storage which of the four pages it has been counted on this week.
+
+The first time a browser opens a page in a week, the page reads the week's counts from `api.github.com` and then requests that week's file from `github.com`, without cookies or a referrer, which adds one to the file's download count. It shows its own count; an answer is kept for ten minutes, because GitHub answers 60 such questions an hour per network address. The browser is noted as counted before the request is sent and is never asked again that week, whatever becomes of the request, so a visitor cannot be counted twice; a browser that cannot reach GitHub at that moment is counted on a later visit. Nothing else is sent, no analytics service is involved, and GitHub, the only party contacted, already serves the site. When no number can be read, Catalog and Volumes keep the words "Partial Inventory browser" and the other two pages show nothing in its place. `src/privacy.html` describes the count for visitors.
+
+The numbers are approximate in the usual ways: someone using two browsers or a private window is counted more than once; a browser that blocks site storage, or whose content blocker stops the script or its request, is not counted; crawlers that identify themselves are left out; and anyone who downloads the files by hand adds to the count. The files and the script keep plain names (`visitor-count`), so that a visitor's blocker can recognise them.
+
+`.github/workflows/visitor-counts.yml` runs `scripts/visitor-counts.mjs` every day and whenever those scripts change. It creates the release on its first run, adds the files for the current week and the next four, writes every week's totals into the release notes, and removes the files of the weeks before last once their totals are recorded there. The release notes are the lasting record of weekly visitors: open **Releases → Visitor counts** in the repository. A file is never replaced, because its download count is the week's count; do not delete or re-upload the files, and leave the release published (the files of a draft cannot be downloaded). The repository must stay public for the count to work. GitHub pauses scheduled workflows after 60 days without repository activity; the files prepared ahead cover a month, and **Actions → Keep the weekly visitor counters → Run workflow** starts it by hand.
+
+Only the site's GitHub Pages address counts (`https://OWNER.github.io/REPOSITORY/`, from which the repository is taken), so local previews and copies served elsewhere do nothing. The iOS app is built without the feature: `ios/scripts/package-website.mjs` packages `visitor-count.mjs` as an empty module, and the app's footers keep their own wording. To stop counting altogether, remove the `visitor-count.mjs` script elements from `src/index.html`, `src/volume-view.html`, `src/subjects.html` and the page template in `scripts/build-compilation-pilot.mjs`, and disable the workflow.
 
 ## Enhanced catalogue metadata
 
