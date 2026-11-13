@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#203a32">
+  <meta name="description" content="How many visitors the four main views of the Partial Inventory browser have had in each week, counted without collecting personal information.">
+  <title>Weekly visitors · Partial Inventory browser</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <script src="./site.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./theme.css">
+  <link rel="stylesheet" href="./visitors.css">
+  <script type="module" src="./visitor-graph.mjs"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Partial Inventory browser home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 10c-5-4-11-4-16-3v24c6-1 11 0 16 4 5-4 10-5 16-4V7c-5-1-11-1-16 3Zm0 0v25M9 13c3 0 5 1 7 2m-7 5c3 0 5 1 7 2m8-7c2-1 4-2 7-2m-7 9c2-1 4-2 7-2"/></svg><span>Partial Inventory<span class="brand-sub">BROWSER</span></span></a>
+    <nav aria-label="Main navigation"><a href="./">Catalog</a><a href="./volume-view.html">Volumes</a><a href="./subjects.html">Subjects</a><a href="./study-guides/index.html">Study guides</a></nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Darkest night"><span class="wide-label">Darkest night</span><span class="phone-label">Night</span><span class="theme-track" aria-hidden="true"><span></span></span><span class="wide-label">Midday</span><span class="phone-label">Day</span></button>
+  </header>
+  <main id="main" tabindex="-1" class="visitors-page">
+    <div class="eyebrow">Visitor counts</div>
+    <h1>Unique visitors each week.</h1>
+    <p class="visitors-intro">How many visitors each of the four main views has had, week by week. A visitor is counted once for a view in a week, without collecting any personal information; the <a href="./privacy.html">privacy policy</a> explains how.</p>
+    <figure class="visitors-figure">
+      <p class="visitors-status" id="visitors-status" role="status" hidden></p>
+      <button class="text-button" id="visitors-retry" type="button" hidden>Try again</button>
+      <ul class="visitors-legend" id="visitors-legend" aria-label="The four lines" hidden></ul>
+      <div class="visitors-plot" id="visitors-plot" tabindex="0" role="group" aria-label="Graph of weekly visitors. The left and right arrow keys read it week by week." hidden>
+        <svg class="visitors-chart" id="visitors-chart" role="img"></svg>
+        <div class="visitors-tip" id="visitors-tip" role="status" hidden></div>
+      </div>
+      <figcaption id="visitors-caption" hidden></figcaption>
+      <details class="visitors-table" id="visitors-table" hidden>
+        <summary>The numbers as a table</summary>
+        <div class="visitors-scroll"><table id="visitors-numbers"></table></div>
+      </details>
+    </figure>
+    <noscript><p>Enable JavaScript to see the graph.</p></noscript>
+  </main>
+  <footer class="site-footer"><span>Partial Inventory browser</span><span><a href="./privacy.html">Privacy policy</a> · <a href="./support.html">Support</a></span></footer>
+</body>
+</html>

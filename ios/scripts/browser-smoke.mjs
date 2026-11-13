@@ -52,7 +52,9 @@ try{
   // The website's weekly visitor count is not part of the app.
   assert.doesNotMatch(await fs.readFile(path.join(root,'visitor-count.mjs'),'utf8'),/github|fetch/);
   assert.equal(await page.locator('.site-footer [data-visitor-count]').innerText(),'Partial Inventory browser');
-  checks.push('No visitor counting in the packaged site');
+  assert.equal(await page.locator('.site-footer [data-visitor-count] a').count(),0);
+  for(const file of ['visitors.html','visitor-graph.mjs','visitors.css'])await assert.rejects(fs.access(path.join(root,file)),{code:'ENOENT'},file);
+  checks.push('No visitor counting and no visitor graph in the packaged site');
   await page.locator('#query').fill('God');await page.locator('#search-form button[type=submit]').click();
   await page.waitForFunction(()=>document.querySelector('#results')?.getAttribute('aria-busy')==='false'&&document.querySelectorAll('.result-row').length>0);
   checks.push('Full-text search via local Web Worker and index shards');

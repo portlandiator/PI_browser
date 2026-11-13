@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
-import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,siteRepository,hitUrl,countsUrl,weekCounts,countLabel,showVisitorCount} from '../src/visitor-count.mjs';
+import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,siteRepository,hitUrl,countsUrl,weekCounts,countLabel,readHistory,weeklyTotals,browserStore,readTotals,graphPage,stay,showVisitorCount} from '../src/visitor-count.mjs';
 
 // A Windows checkout may hold these files with CRLF line endings.
 const source=name=>readFileSync(new URL('../'+name,import.meta.url),'utf8').replaceAll('\r\n','\n');
@@ -11,14 +11,19 @@ const hit=page=>`https://github.com/portlandiator/PI_browser/releases/download/v
 const question='https://api.github.com/repos/portlandiator/PI_browser/releases/tags/visitor-counts';
 const release=(counts,of=week)=>({tag_name:releaseTag,assets:Object.entries(counts).map(([page,download_count],id)=>({id,name:assetName(page,of),download_count}))});
 
+// A stand-in for an element at the foot of a page: the count is put there as a link.
+function foot(textContent='Partial Inventory browser',hidden=false){
+  return {textContent,hidden,children:[],replaceChildren(...nodes){this.children=nodes;this.textContent=nodes.map(node=>node.textContent).join('');}};
+}
 // A stand-in for the page, its storage and GitHub.
 function browser({site=publicSite,page='catalog',values=new Map(),github={catalog:41,volumes:7,subjects:12,'study-guides':3},status=200,delivered=true,blocked=false,visible=true,onLine=true,acts=true,userAgent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',webdriver=false,time=friday}={}){
-  const footer={textContent:'Partial Inventory browser',hidden:false},listeners={},requests=[];
+  const footer=foot(),listeners={},requests=[];
   const state={time,github,status,delivered,visible};
   const document={
     get visibilityState(){return state.visible?'visible':'hidden';},
     querySelector:selector=>selector==='script[data-visitor-page]'&&page?{dataset:{visitorPage:page}}:null,
     querySelectorAll:selector=>selector==='[data-visitor-count]'?state.footers||[footer]:[],
+    createElement:name=>({tagName:name.toUpperCase(),textContent:'',href:'',title:''}),
     addEventListener:(type,listener)=>{(listeners[type]||=[]).push(listener);},
     removeEventListener:(type,listener)=>{listeners[type]=(listeners[type]||[]).filter(item=>item!==listener);},
   };
@@ -37,12 +42,21 @@ function browser({site=publicSite,page='catalog',values=new Map(),github={catalo
   };
   const emit=(type,event={})=>{for(const listener of [...(listeners[type]||[])])listener({type,isTrusted:true,...event});};
   // The pointer travels across the page, as a hand moves it.
-  const move=()=>{emit('pointermove',{clientX:300,clientY:200});emit('pointermove',{clientX:312,clientY:204});};
-  return {document,navigator:{userAgent,webdriver,onLine},storage,fetch,site:new URL(site),now:()=>state.time,footer,requests,values,state,emit,move,listeners,
+  const move=(x=300,y=200)=>{emit('pointermove',{clientX:x,clientY:y});emit('pointermove',{clientX:x+12,clientY:y+4});};
+  // Time passes in the page.
+  const wait=milliseconds=>{state.time+=milliseconds;};
+  return {document,navigator:{userAgent,webdriver,onLine},storage,fetch,site:new URL(site),now:()=>state.time,footer,requests,values,state,emit,move,wait,listeners,
     urls:()=>requests.map(request=>request.url),
-    // A visitor moves the pointer soon after the page opens, unless a test says otherwise.
-    run(){const running=showVisitorCount(this);if(acts)move();return running;}};
+    // A visitor moves the pointer soon after the page opens and is still moving it ten seconds
+    // later, unless a test says otherwise.
+    async run(){
+      const running=showVisitorCount(this);
+      if(acts){move();await turn();wait(stay);move(420,260);}
+      return running;
+    }};
 }
+// Lets the page finish what it is waiting for (GitHub's answer).
+const turn=()=>new Promise(resolve=>setImmediate(resolve));
 
 test('weeks run from Monday in UTC and name the counting files',()=>{
   assert.equal(weekOf(new Date('2026-11-09T00:00:00Z')),'2026-11-09');
@@ -88,6 +102,76 @@ test('a week\'s counts are read from GitHub\'s description of the release',()=>{
   assert.equal(countLabel(0),'0 unique visitors this week');
   assert.equal(countLabel(1),'1 unique visitor this week');
   assert.equal(countLabel(12345),'12,345 unique visitors this week');
+});
+
+test('every week\'s totals are read from the release notes and the files still attached',()=>{
+  const notes=['Unique visitors…','','| Week from | Catalog | Volumes | Subjects | Study guides |','| --- | ---: | ---: | ---: | ---: |',
+    '| 2026-11-09 (so far) | 30 | 2 | 9 | 1 |','| 2026-11-02 | 1,204 | 31 | 80 | – |','| 2026-10-26 | 164 | 23 | 59 | 34 |','| 2026-10-20 | 5 | 5 | 5 | 5 |','| soon | 1 | 1 | 1 | 1 |',''].join('\r\n');
+  // Rows that are not weeks are passed over; a dash is a count that was never recorded.
+  assert.deepEqual([...readHistory(notes)],[['2026-11-09',{catalog:30,volumes:2,subjects:9,'study-guides':1}],['2026-11-02',{catalog:1204,volumes:31,subjects:80}],['2026-10-26',{catalog:164,volumes:23,subjects:59,'study-guides':34}]]);
+  for(const nothing of [undefined,null,'','No table here.','| Week from | Catalog |'])assert.equal(readHistory(nothing).size,0);
+  // The files are newer than the notes, which are written once a day: the higher number stands.
+  const described={body:notes,assets:[
+    {name:assetName('catalog',week),download_count:41},{name:assetName('volumes',week),download_count:1},{name:assetName('study-guides','2026-11-02'),download_count:44},
+    // Files prepared for the coming weeks have no visitors yet, and other files are not counts.
+    {name:assetName('catalog','2026-11-16'),download_count:0},{name:'notes.txt',download_count:9},{name:assetName('subjects',week),download_count:-1},null]};
+  assert.deepEqual([...weeklyTotals(described,week)].sort(([a],[b])=>a<b?-1:1),[
+    ['2026-10-26',{catalog:164,volumes:23,subjects:59,'study-guides':34}],
+    ['2026-11-02',{catalog:1204,volumes:31,subjects:80,'study-guides':44}],
+    ['2026-11-09',{catalog:41,volumes:2,subjects:9,'study-guides':1}]]);
+  // Without notes the files alone say what is known; without a release nothing is.
+  assert.deepEqual([...weeklyTotals(release({catalog:3}),week)],[[week,{catalog:3}]]);
+  for(const nothing of [null,{},{assets:'none',body:7}])assert.equal(weeklyTotals(nothing,week).size,0);
+});
+
+test('GitHub\'s answer is kept for a quarter of an hour, with every week\'s totals',async()=>{
+  const values=new Map(),store=browserStore({getItem:key=>values.get(key)??null,setItem:(key,value)=>{values.set(key,String(value));}});
+  const repository=siteRepository(new URL(publicSite)),asked=[];
+  let answer={ok:true,status:200,json:async()=>({body:'| Week from | Catalog |\n| --- | ---: |\n| 2026-11-02 | 7 |',assets:[{name:assetName('catalog',week),download_count:5}]})};
+  const fetch=async(url,options)=>{asked.push([url,options]);if(answer instanceof Error)throw answer;return answer;};
+  const read=time=>readTotals({store,fetch,repository,week,now:()=>time});
+  const first=await read(friday);
+  assert.deepEqual(first,{totals:{week,at:friday,counts:{catalog:5},weeks:[['2026-11-02',{catalog:7}],[week,{catalog:5}]]},reachable:true});
+  assert.deepEqual(asked,[[question,{credentials:'omit',referrerPolicy:'no-referrer',headers:{Accept:'application/vnd.github+json'}}]]);
+  // Within the quarter of an hour nothing more is asked.
+  assert.deepEqual(await read(friday+14*60*1000),first);assert.equal(asked.length,1);
+  // After it, a refusal or a silence falls back to the answer kept; only a silence means GitHub was not reached.
+  answer={ok:false,status:403};
+  assert.deepEqual(await read(friday+16*60*1000),first);
+  answer=new TypeError('Failed to fetch');
+  assert.deepEqual(await read(friday+17*60*1000),{...first,reachable:false});
+  assert.equal(asked.length,3);
+  // A release that does not exist is an answer: there is nothing to count with.
+  answer={ok:false,status:404};
+  assert.deepEqual((await read(friday+18*60*1000)).totals,{week,at:friday+18*60*1000,counts:{},weeks:[]});
+  // An answer kept by an earlier version of the page, without the weekly totals, is asked for again.
+  values.set('pi-visitor-counts',JSON.stringify({week,at:friday,counts:{catalog:5}}));
+  answer={ok:true,status:200,json:async()=>release({catalog:6})};
+  assert.deepEqual((await read(friday+60*1000)).totals,{week,at:friday+60*1000,counts:{catalog:6},weeks:[[week,{catalog:6}]]});
+  // Nothing kept and no answer: there are no totals.
+  values.clear();answer={ok:false,status:500};
+  assert.deepEqual(await read(friday),{totals:null,reachable:true});
+  // Storage that cannot be used reads as empty and refuses to write.
+  const none=browserStore(undefined);
+  assert.equal(none.read('pi-visitor-counts'),null);assert.equal(none.write('pi-visitor-counts',{}),false);
+});
+
+test('the count at the foot of a page is the link to the graph of every week',async()=>{
+  assert.equal(graphPage,'visitors.html');
+  const visit=browser();
+  await visit.run();
+  assert.equal(visit.footer.children.length,1);
+  const [link]=visit.footer.children;
+  assert.deepEqual({...link},{tagName:'A',textContent:'42 unique visitors this week',href:publicSite+'visitors.html',title:'See the weekly counts as a graph'});
+  // The words kept when there is no number are not a link.
+  const silent=browser({status:403});
+  await silent.run();
+  assert.deepEqual([silent.footer.textContent,silent.footer.children.length],['Partial Inventory browser',0]);
+  // The link is as easy to hit as the About link beside it, on the main views and the study guides alike.
+  assert(source('src/style.css').includes('.site-footer [data-visitor-count] a{display:inline-flex;align-items:center;min-height:40px;text-underline-offset:3px}'));
+  assert(source('scripts/compilation-pilot.css').includes('.site-footer [data-visitor-count] a{display:inline-flex;align-items:center;min-height:40px;text-decoration:none;text-underline-offset:3px}'));
+  // A study guide's own loader leaves the link alone: the graph is not one of its pages.
+  assert.match(source('scripts/compilation-guide-loader.mjs'),/if\(url\.origin!==base\.origin\|\|!url\.pathname\.startsWith\(base\.pathname\)\)return null;/);
 });
 
 test('a first visit of the week is counted once and shown at the foot of the page',async()=>{
@@ -147,7 +231,8 @@ test('nothing that identifies a visitor is sent or kept',async()=>{
   // The browser keeps only the week, the pages counted in it and the public totals.
   assert.deepEqual([...visit.values.keys()].sort(),['pi-visitor-counts','pi-visitor-week']);
   assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-week')),{week,pages:['study-guides']});
-  assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-counts')),{week,at:friday,counts:{catalog:41,volumes:7,subjects:12,'study-guides':4}});
+  // (GitHub's own answer for the week is kept beside the number shown, for the graph of every week.)
+  assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-counts')),{week,at:friday,counts:{catalog:41,volumes:7,subjects:12,'study-guides':4},weeks:[[week,{catalog:41,volumes:7,subjects:12,'study-guides':3}]]});
   // Comments aside, the module knows no address but GitHub's and reads nothing about the visitor.
   const code=source('src/visitor-count.mjs').split('\n').filter(line=>!line.trim().startsWith('//')).join('\n');
   assert.doesNotMatch(code,/cookie|document\.referrer|sessionStorage|indexedDB|randomUUID|getRandomValues|Math\.random|screen\.|language|platform|sendBeacon|navigator\.(?!webdriver|userAgent|onLine)/);
@@ -209,7 +294,7 @@ test('while GitHub cannot be reached the visit is left to be counted later',asyn
     assert.equal(online.footer.textContent,'42 unique visitors this week');
   }
   // With a fresh answer in hand, a browser that reports no connection still waits.
-  const values=new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-60*1000,counts:{catalog:41}})]]);
+  const values=new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-60*1000,counts:{catalog:41},weeks:[]})]]);
   const waiting=browser({values,onLine:false});
   await waiting.run();
   assert.deepEqual(waiting.urls(),[]);assert.equal(waiting.footer.textContent,'41 unique visitors this week');
@@ -246,7 +331,7 @@ test('when GitHub gives no number the page keeps its own footer wording',async()
   assert.equal(limited.footer.textContent,'Partial Inventory browser');
   assert.deepEqual(JSON.parse(limited.values.get('pi-visitor-week')),{week,pages:['catalog']});
   // An earlier answer for the same week is better than none.
-  const stale=browser({status:500,values:new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-3600_000,counts:{catalog:30}})],['pi-visitor-week',JSON.stringify({week,pages:['catalog']})]])});
+  const stale=browser({status:500,values:new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-3600_000,counts:{catalog:30},weeks:[]})],['pi-visitor-week',JSON.stringify({week,pages:['catalog']})]])});
   await stale.run();
   assert.deepEqual(stale.urls(),[question]);assert.equal(stale.footer.textContent,'30 unique visitors this week');
   // Before the week's file exists, or the release itself, there is nothing to count with: the browser stays uncounted.
@@ -280,8 +365,7 @@ test('a counted visitor is never shown zero, and a second tab does not count twi
   assert.equal([...one.urls(),...two.urls()].filter(url=>url===hit('catalog')).length,1);
 });
 
-test('nothing is asked or counted until the visitor does something a person does',async()=>{
-  const turn=()=>new Promise(resolve=>setImmediate(resolve));
+test('nothing is asked of GitHub until the visitor does something a person does',async()=>{
   // A crawler, or a scanner that opens the links of an e-mail, loads the page and does nothing.
   const loaded=browser({acts:false});
   const running=loaded.run();
@@ -298,32 +382,125 @@ test('nothing is asked or counted until the visitor does something a person does
   loaded.emit('pointermove',{clientX:3,clientY:2});loaded.emit('pointermove',{clientX:undefined,clientY:undefined});
   await turn();
   assert.deepEqual(loaded.urls(),[]);
-  // Nor does anything count in a page that is not being looked at.
+  // Nor does anything happen in a page that is not being looked at.
   loaded.state.visible=false;loaded.emit('keydown');
   await turn();
   assert.deepEqual(loaded.urls(),[]);
+  // The first thing a person does has the week's total read and shown; the visitor is not counted yet.
   loaded.state.visible=true;loaded.emit('keydown');
-  await running;
-  assert.deepEqual(loaded.urls(),[question,hit('catalog')]);
-  assert.equal(loaded.footer.textContent,'42 unique visitors this week');
-  // The page then stops listening.
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(loaded.listeners[sign],[],sign);
-  // Pressing the pointer, typing, turning the wheel and touching each count at once.
+  await turn();
+  assert.deepEqual(loaded.urls(),[question]);
+  assert.equal(loaded.footer.textContent,'41 unique visitors this week');
+  assert.equal(loaded.values.has('pi-visitor-week'),false);
+  // Pressing the pointer, typing, turning the wheel and touching each do as much at once.
   for(const sign of ['pointerdown','keydown','wheel','touchstart']){
     const visitor=browser({acts:false});
-    const counting=visitor.run();
+    visitor.run();
     visitor.emit(sign,{clientX:0,clientY:0});
-    await counting;
-    assert.deepEqual(visitor.urls(),[question,hit('catalog')],sign);
+    await turn();
+    assert.deepEqual(visitor.urls(),[question],sign);
   }
   // So does a pointer that travels, measured from where it was first seen.
   const hand=browser({acts:false});
-  const counting=hand.run();
+  hand.run();
   hand.emit('pointermove',{clientX:0,clientY:0});hand.emit('pointermove',{clientX:5,clientY:2});
   await turn();assert.deepEqual(hand.urls(),[]);
   hand.emit('pointermove',{clientX:6,clientY:3});
-  await counting;
-  assert.deepEqual(hand.urls(),[question,hit('catalog')]);
+  await turn();
+  assert.deepEqual(hand.urls(),[question]);
+  // (The first page goes on to be counted, so that nothing is left waiting.)
+  loaded.wait(stay);loaded.emit('keydown');
+  await running;
+});
+
+test('a visitor is counted when still doing something ten seconds after the first action',async()=>{
+  assert.equal(stay,10_000);
+  const hit1=hit('catalog');
+  // A program that moves a pointer, scrolls or types when the page has loaded, and goes, is not counted:
+  // whatever it does in the first ten seconds only repeats the first sign.
+  const quick=browser({acts:false});
+  const waiting=quick.run();
+  quick.move();
+  await turn();
+  for(const seconds of [1,3,3,2.999]){
+    quick.wait(seconds*1000);
+    quick.move(500,500);quick.emit('wheel');quick.emit('keydown');quick.emit('pointerdown');quick.emit('touchstart');
+    await turn();
+  }
+  assert.deepEqual(quick.urls(),[question]);
+  assert.equal(quick.footer.textContent,'41 unique visitors this week');
+  assert.equal(quick.values.has('pi-visitor-week'),false);assert.equal(quick.state.github.catalog,41);
+  // It is still listening, and one more sign once the ten seconds are up counts the visitor.
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.equal(quick.listeners[sign].length,1,sign);
+  quick.wait(1);quick.emit('wheel');
+  await waiting;
+  assert.deepEqual(quick.urls(),[question,hit1]);
+  assert.equal(quick.state.github.catalog,42);
+  // The number at the foot of the page then includes the visitor, and so does the answer kept for the next page.
+  assert.equal(quick.footer.textContent,'42 unique visitors this week');
+  assert.deepEqual(JSON.parse(quick.values.get('pi-visitor-week')),{week,pages:['catalog']});
+  assert.equal(JSON.parse(quick.values.get('pi-visitor-counts')).counts.catalog,42);
+  // The page then stops listening.
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(quick.listeners[sign],[],sign);
+
+  // Each kind of sign counts as the later one.
+  for(const sign of ['pointerdown','keydown','wheel','touchstart']){
+    const visitor=browser({acts:false});
+    const counting=visitor.run();
+    visitor.emit('keydown');await turn();
+    visitor.wait(stay);visitor.emit(sign,{clientX:0,clientY:0});
+    await counting;
+    assert.deepEqual(visitor.urls(),[question,hit1],sign);
+  }
+  // A pointer left lying is reported again, at the same place, whenever the page under it changes. That is
+  // nobody: after the ten seconds the pointer has to travel anew, however far it went before.
+  const resting=browser({acts:false});
+  const idle=resting.run();
+  resting.move();await turn();
+  resting.emit('pointermove',{clientX:900,clientY:700});
+  resting.wait(60_000);
+  for(let again=0;again<3;again++)resting.emit('pointermove',{clientX:900,clientY:700});
+  resting.emit('pointermove',{clientX:903,clientY:702});
+  await turn();
+  assert.deepEqual(resting.urls(),[question]);
+  resting.emit('pointermove',{clientX:910,clientY:706});
+  await idle;
+  assert.deepEqual(resting.urls(),[question,hit1]);
+  // Nor is anyone counted while the page is not being looked at, or by a script's own events.
+  const hidden=browser({acts:false});
+  const away=hidden.run();
+  hidden.emit('keydown');await turn();
+  hidden.wait(stay);hidden.state.visible=false;hidden.emit('keydown');hidden.emit('wheel');
+  hidden.state.visible=true;hidden.emit('keydown',{isTrusted:false});
+  await turn();
+  assert.deepEqual(hidden.urls(),[question]);
+  // Coming back to the page later and going on reading is the same visitor, still there.
+  hidden.wait(30*60*1000);hidden.emit('touchstart');
+  await away;
+  assert.deepEqual(hidden.urls(),[question,hit1]);
+
+  // A browser already counted this week is shown the total at its first action and has nothing more to wait for.
+  const back=browser({acts:false,values:quick.values,github:quick.state.github,time:friday+60*1000});
+  const again=back.run();
+  back.emit('keydown');
+  await again;
+  assert.deepEqual(back.urls(),[]);assert.equal(back.footer.textContent,'42 unique visitors this week');
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(back.listeners[sign],[],sign);
+  // A connection lost in those ten seconds leaves the visit to be counted another time, and so does a week
+  // that ended while the page was open: its total belongs to the week before.
+  const lost=browser({acts:false});
+  const offline=lost.run();
+  lost.emit('keydown');await turn();
+  lost.wait(stay);lost.navigator.onLine=false;lost.emit('keydown');
+  await offline;
+  assert.deepEqual(lost.urls(),[question]);assert.equal(lost.values.has('pi-visitor-week'),false);
+  const sunday=Date.UTC(2026,10,15,23,59,55),late=browser({acts:false,time:sunday});
+  const midnight=late.run();
+  late.emit('keydown');await turn();
+  late.wait(stay);late.emit('keydown');
+  await midnight;
+  assert.deepEqual(late.urls(),[question]);assert.equal(late.values.has('pi-visitor-week'),false);
+  assert.equal(late.footer.textContent,'41 unique visitors this week');
 });
 
 test('study guides keep the count when a guide replaces the page in place',async()=>{
@@ -332,14 +509,16 @@ test('study guides keep the count when a guide replaces the page in place',async
   guide.state.footers=[];
   await guide.run();
   assert.deepEqual(guide.urls(),[question,hit('study-guides')]);
-  const footer={textContent:'',hidden:true};
+  const footer=foot('',true);
   guide.state.footers=[footer];guide.emit('pi-guide-page');
-  assert.deepEqual(footer,{textContent:'4 unique visitors this week',hidden:false});
+  assert.deepEqual([footer.textContent,footer.hidden],['4 unique visitors this week',false]);
   // Moving on to another guide is the same visitor of the same view.
-  const next={textContent:'',hidden:true};
+  const next=foot('',true);
   guide.state.footers=[next];guide.emit('pi-guide-page');
-  assert.deepEqual(next,{textContent:'4 unique visitors this week',hidden:false});
+  assert.deepEqual([next.textContent,next.hidden],['4 unique visitors this week',false]);
   assert.equal(guide.requests.length,2);
+  // From a guide, one folder down, the count still leads to the graph beside the main views.
+  assert.equal(next.children[0].href,publicSite+'visitors.html');
 });
 
 test('the four main views share one footer: the count at the left, the About link at the right',()=>{
@@ -372,13 +551,14 @@ test('the four main views share one footer: the count at the left, the About lin
 test('the privacy policy and the About dialog describe the count',()=>{
   const policy=source('src/privacy.html');
   assert.match(policy,/<h2>How the website counts visitors<\/h2>/);
-  assert.match(policy,/The first time in a week that you do something on one of them \(move the pointer, touch the screen or press a key\), the page asks GitHub, which hosts the website, for a small file\./);
-  assert.match(policy,/what you did is not recorded or sent/);
+  assert.match(policy,/When you do something on one of them \(move the pointer, touch the screen or press a key\), the page reads the week&rsquo;s totals from GitHub, which hosts the website\./);
+  assert.match(policy,/If you are still doing something there ten seconds later, the page also asks GitHub for a small file, the first time in a week\./);
+  assert.match(policy,/what you did, and when, is not recorded or sent/);
   assert.match(policy,/It carries no cookies, no name or other identifier, nothing about what you read, and no record of the page you came from\./);
   assert.match(policy,/a note of which main pages it has been counted on this week and the latest visitor totals/);
   assert.match(policy,/<p>The app does not take part in this count\.<\/p>/);
   assert.match(policy,/<h2>What we collect<\/h2>\s*<p>No personal information\./);
   // The earlier wording would no longer be true of the website.
-  assert.doesNotMatch(policy,/runs no analytics|<p>Nothing\. There are no accounts, analytics|nothing is collected/);
+  assert.doesNotMatch(policy,/runs no analytics|<p>Nothing\. There are no accounts, analytics|nothing is collected|The first time in a week that you do something/);
   for(const file of ['src/index.html','src/subjects.html','src/volume-view.html'])assert(source(file).includes('The website’s only measurement is an anonymous count of each week’s visitors, described in the <a href="./privacy.html">privacy policy</a>.'),file);
 });

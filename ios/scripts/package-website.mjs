@@ -42,6 +42,9 @@ async function verifiedFile(root, entry) {
 // it keep their own footer wording and nothing is counted or asked of GitHub.
 export const visitorCountModule = 'visitor-count.mjs';
 export const withoutVisitorCount = '// The website counts its weekly visitors here. The app does not.\n';
+// The website's count is the link to a graph of every week's counts. Nothing
+// in the app leads to that page, so it is left out with its script and styles.
+export const visitorGraphFiles = ['visitors.html', 'visitor-graph.mjs', 'visitors.css'];
 
 export async function packageWebsite({site, audit, pdfs, output, bibliography, expectedCommit}) {
   for (const value of [site, audit, output]) assert(value, 'site, audit and output are required');
@@ -80,6 +83,7 @@ export async function packageWebsite({site, audit, pdfs, output, bibliography, e
   // Copy exactly the allowlisted public artifact; never copy raw inputs or the dist audit exports.
   await parallelFiles(inventory, async entry => {
     const bytes = await verifiedFile(site, entry);
+    if (visitorGraphFiles.includes(entry.path)) return;
     let packaged = bytes;
     if (entry.path === 'pdf-hosting.json') packaged = Buffer.from('{"url":"","repository":""}\n');
     if (entry.path === visitorCountModule) packaged = Buffer.from(withoutVisitorCount);
