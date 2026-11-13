@@ -7,9 +7,10 @@
 //    view and week; scripts/visitor-counts.mjs keeps them there.
 //  - The browser notes, in its own storage, the views it has already been
 //    counted on this week.
-// A view reads the week's download counts for the foot of the page. The first
-// time a browser opens the view in a week, it also asks GitHub for that week's
-// file, without cookies or a referrer, which adds one to the file's count.
+// Once a visitor has done something in a view (moved the pointer, touched,
+// typed), the view reads the week's download counts for the foot of the page.
+// The first time in a week, it also asks GitHub for that week's file, without
+// cookies or a referrer, which adds one to the file's count.
 // Nothing is sent to anyone but GitHub, which already serves the site. The iOS
 // app is packaged without this module (ios/scripts/package-website.mjs).
 
@@ -63,7 +64,19 @@ export const countLabel=count=>`${count.toLocaleString('en-US')} unique visitor$
 // so an answer is kept a little longer: the next one includes the visit.
 const seenKey='pi-visitor-week',cacheKey='pi-visitor-counts',cacheTime=15*60*1000;
 // Crawlers and test browsers that run scripts are not visitors.
-const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|headless|lighthouse|pagespeed|phantomjs|ptst\//i;
+const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|headless|lighthouse|pagespeed|phantomjs|ptst\/|preview|external(?:agent|hit|fetcher)/i;
+// Most automated browsers do not say what they are: crawlers and the scanners
+// that open the links in e-mails load a page like anyone else, from many
+// addresses. On its first day (2026-11-13) Catalog was "visited" 157 times in
+// the five minutes after it went live, the other views one to six times. What
+// those loads never do is what a person does within moments: move the
+// pointer, touch the screen, press a key or turn the wheel. Scrolling is left
+// out, because a script can scroll. So is a pointer that merely appears: an
+// automated Chromium gives the first page of a tab a pointer event at its
+// corner with nobody there (6 of 8 fresh browsers, 2026-11-13), and a resting
+// pointer is reported again whenever the page under it changes. Only a
+// pointer that travels is a hand.
+const signs=['pointerdown','pointermove','keydown','wheel','touchstart'],travel=8;
 
 // Counts this browser once for the page and week, and shows the week's total
 // in every element marked data-visitor-count. The page is named by the
@@ -89,13 +102,20 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   // The study guides replace the page body in place, footer included.
   document.addEventListener('pi-guide-page',render);
 
-  // A view opened in a background tab is counted when it is first looked at.
-  if(document.visibilityState!=='visible')await new Promise(resolve=>{
-    const looked=()=>{
-      if(document.visibilityState!=='visible')return;
-      document.removeEventListener('visibilitychange',looked);resolve();
+  // Nothing is asked of GitHub and nothing is counted until the visitor does
+  // something in the page while it is being looked at.
+  await new Promise(resolve=>{
+    let rest;
+    const acted=event=>{
+      if(!event.isTrusted||document.visibilityState!=='visible')return;
+      if(event.type==='pointermove'){
+        rest??=[event.clientX,event.clientY];
+        if(!(Math.abs(event.clientX-rest[0])+Math.abs(event.clientY-rest[1])>=travel))return;
+      }
+      for(const sign of signs)document.removeEventListener(sign,acted,true);
+      resolve();
     };
-    document.addEventListener('visibilitychange',looked);
+    for(const sign of signs)document.addEventListener(sign,acted,{capture:true,passive:true});
   });
   const week=weekOf(new Date(now()));
 

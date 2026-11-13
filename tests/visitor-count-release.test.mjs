@@ -122,6 +122,27 @@ test('after weeks without a run, counts are recorded before any file is removed'
   assert.equal(unsaved.state.assets.filter(asset=>asset.name.includes('2026-10-26')).length,4);
 });
 
+test('a spoiled week can be set back to zero by hand, and only that week',async()=>{
+  const lastWeek=weekFiles('2026-11-02',[120,31,58,44]),spoiled=weekFiles(week,[157,1,6,1]),ahead=[1,2,3,4].flatMap(n=>weekFiles(addWeeks(week,n)));
+  const notes=plan({notes:'',assets:[...lastWeek,...spoiled]},friday,site).notes;
+  assert.match(notes,/\| 2026-11-09 \(so far\) \| 157 \| 1 \| 6 \| 1 \|/);
+  const github=fakeGitHub({release:{id:7,body:notes,upload_url:'https://uploads.github.com/x{?name,label}'},assets:[...lastWeek,...spoiled,...ahead]});
+  // An ordinary run never lowers a count, even one that is plainly wrong.
+  await maintain({github,site,now:friday,log:quiet});
+  assert.deepEqual(github.calls,[]);
+  const result=await maintain({github,site,now:friday,log:quiet,resetWeek:true});
+  const names=pageNames.map(page=>assetName(page,week));
+  assert.deepEqual(result.reset,names);assert.deepEqual(result.added,names);assert.deepEqual(result.removed,[]);
+  // The week's files are deleted first, added again, and then the notes are rewritten.
+  assert.deepEqual(github.calls,[...names.map(name=>'remove '+name),...names.map(name=>'add '+name),'notes']);
+  const now=new Map(github.state.assets.map(asset=>[asset.name,asset]));
+  for(const old of spoiled){assert.equal(now.get(old.name).download_count,0);assert.notEqual(now.get(old.name).id,old.id);}
+  // Every other week keeps its files, their counts and its row.
+  for(const kept of [...lastWeek,...ahead])assert.deepEqual(now.get(kept.name),kept);
+  assert.match(github.state.release.body,/\| 2026-11-09 \(so far\) \| 0 \| 0 \| 0 \| 0 \|\n\| 2026-11-02 \| 120 \| 31 \| 58 \| 44 \|/);
+  assert.equal(github.state.assets.length,24);
+});
+
 test('GitHub is asked through its release API with the workflow\'s token',async()=>{
   const requests=[];
   const answers=[];
@@ -179,7 +200,9 @@ test('the workflow runs the script daily with only the access it needs',async()=
   assert.match(workflow,/\n  schedule:\n    - cron: '\d+ \d+ \* \* \*'\n/);
   assert.match(workflow,/\n  push:\n    branches: \[main\]\n/);assert.match(workflow,/\n  workflow_dispatch:\n/);
   assert.match(workflow,/\npermissions:\n  contents: write\n(?! )/);
-  assert.match(workflow,/GITHUB_TOKEN: \$\{\{ github\.token \}\}\n\s+run: node scripts\/visitor-counts\.mjs\n/);
+  assert.match(workflow,/GITHUB_TOKEN: \$\{\{ github\.token \}\}\n\s+run: node scripts\/visitor-counts\.mjs \$\{\{ inputs\.reset_this_week && '--reset-week' \|\| '' \}\}\n/);
+  // Setting a week back to zero is offered only to a person starting the workflow, and is off unless chosen.
+  assert.match(workflow,/\n  workflow_dispatch:\n    inputs:\n      reset_this_week:\n        description: [^\n]+\n        type: boolean\n        default: false\n/);
   assert.doesNotMatch(workflow,/pull_request|secrets\./);
   // The sparse checkout holds everything the script imports, and a change to any of it starts a run.
   const needed=await codeDependencies(root,['scripts/visitor-counts.mjs']);

@@ -12,7 +12,7 @@ const question='https://api.github.com/repos/portlandiator/PI_browser/releases/t
 const release=(counts,of=week)=>({tag_name:releaseTag,assets:Object.entries(counts).map(([page,download_count],id)=>({id,name:assetName(page,of),download_count}))});
 
 // A stand-in for the page, its storage and GitHub.
-function browser({site=publicSite,page='catalog',values=new Map(),github={catalog:41,volumes:7,subjects:12,'study-guides':3},status=200,delivered=true,blocked=false,visible=true,onLine=true,userAgent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',webdriver=false,time=friday}={}){
+function browser({site=publicSite,page='catalog',values=new Map(),github={catalog:41,volumes:7,subjects:12,'study-guides':3},status=200,delivered=true,blocked=false,visible=true,onLine=true,acts=true,userAgent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',webdriver=false,time=friday}={}){
   const footer={textContent:'Partial Inventory browser',hidden:false},listeners={},requests=[];
   const state={time,github,status,delivered,visible};
   const document={
@@ -35,9 +35,13 @@ function browser({site=publicSite,page='catalog',values=new Map(),github={catalo
     if(file&&file.week===week&&Object.hasOwn(state.github,file.page))state.github[file.page]++;
     return {type:'opaque',ok:false,status:0};
   };
-  const emit=type=>{for(const listener of [...(listeners[type]||[])])listener();};
-  return {document,navigator:{userAgent,webdriver,onLine},storage,fetch,site:new URL(site),now:()=>state.time,footer,requests,values,state,emit,
-    urls:()=>requests.map(request=>request.url),run(){return showVisitorCount(this);}};
+  const emit=(type,event={})=>{for(const listener of [...(listeners[type]||[])])listener({type,isTrusted:true,...event});};
+  // The pointer travels across the page, as a hand moves it.
+  const move=()=>{emit('pointermove',{clientX:300,clientY:200});emit('pointermove',{clientX:312,clientY:204});};
+  return {document,navigator:{userAgent,webdriver,onLine},storage,fetch,site:new URL(site),now:()=>state.time,footer,requests,values,state,emit,move,listeners,
+    urls:()=>requests.map(request=>request.url),
+    // A visitor moves the pointer soon after the page opens, unless a test says otherwise.
+    run(){const running=showVisitorCount(this);if(acts)move();return running;}};
 }
 
 test('weeks run from Monday in UTC and name the counting files',()=>{
@@ -276,18 +280,50 @@ test('a counted visitor is never shown zero, and a second tab does not count twi
   assert.equal([...one.urls(),...two.urls()].filter(url=>url===hit('catalog')).length,1);
 });
 
-test('a page opened in the background is counted when it is first looked at',async()=>{
-  const tab=browser({visible:false});
-  const running=tab.run();
-  await new Promise(resolve=>setImmediate(resolve));
-  assert.deepEqual(tab.urls(),[]);
-  tab.emit('visibilitychange');
-  await new Promise(resolve=>setImmediate(resolve));
-  assert.deepEqual(tab.urls(),[]);
-  tab.state.visible=true;tab.emit('visibilitychange');
+test('nothing is asked or counted until the visitor does something a person does',async()=>{
+  const turn=()=>new Promise(resolve=>setImmediate(resolve));
+  // A crawler, or a scanner that opens the links of an e-mail, loads the page and does nothing.
+  const loaded=browser({acts:false});
+  const running=loaded.run();
+  await turn();
+  assert.deepEqual(loaded.urls(),[]);assert.equal(loaded.footer.textContent,'Partial Inventory browser');assert.equal(loaded.values.size,0);
+  // Events made by a script are not a person's, and scrolling is not listened for, since a script can scroll.
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])loaded.emit(sign,{isTrusted:false,clientX:500,clientY:500});
+  loaded.emit('scroll');loaded.emit('visibilitychange');loaded.emit('load');
+  await turn();
+  assert.deepEqual(loaded.urls(),[]);
+  // An automated browser puts its pointer at the corner of a new page by itself, and a resting pointer
+  // is reported again when the page under it changes; a pointer that has not travelled is not a hand.
+  loaded.emit('pointermove',{clientX:0,clientY:0});loaded.emit('pointermove',{clientX:0,clientY:0});
+  loaded.emit('pointermove',{clientX:3,clientY:2});loaded.emit('pointermove',{clientX:undefined,clientY:undefined});
+  await turn();
+  assert.deepEqual(loaded.urls(),[]);
+  // Nor does anything count in a page that is not being looked at.
+  loaded.state.visible=false;loaded.emit('keydown');
+  await turn();
+  assert.deepEqual(loaded.urls(),[]);
+  loaded.state.visible=true;loaded.emit('keydown');
   await running;
-  assert.deepEqual(tab.urls(),[question,hit('catalog')]);
-  assert.equal(tab.footer.textContent,'42 unique visitors this week');
+  assert.deepEqual(loaded.urls(),[question,hit('catalog')]);
+  assert.equal(loaded.footer.textContent,'42 unique visitors this week');
+  // The page then stops listening.
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(loaded.listeners[sign],[],sign);
+  // Pressing the pointer, typing, turning the wheel and touching each count at once.
+  for(const sign of ['pointerdown','keydown','wheel','touchstart']){
+    const visitor=browser({acts:false});
+    const counting=visitor.run();
+    visitor.emit(sign,{clientX:0,clientY:0});
+    await counting;
+    assert.deepEqual(visitor.urls(),[question,hit('catalog')],sign);
+  }
+  // So does a pointer that travels, measured from where it was first seen.
+  const hand=browser({acts:false});
+  const counting=hand.run();
+  hand.emit('pointermove',{clientX:0,clientY:0});hand.emit('pointermove',{clientX:5,clientY:2});
+  await turn();assert.deepEqual(hand.urls(),[]);
+  hand.emit('pointermove',{clientX:6,clientY:3});
+  await counting;
+  assert.deepEqual(hand.urls(),[question,hit('catalog')]);
 });
 
 test('study guides keep the count when a guide replaces the page in place',async()=>{
@@ -306,20 +342,28 @@ test('study guides keep the count when a guide replaces the page in place',async
   assert.equal(guide.requests.length,2);
 });
 
-test('the four main views carry the count in place of their footer wording',()=>{
+test('the four main views share one footer: the count at the left, the About link at the right',()=>{
   const tag=(page,base='./')=>`<script type="module" src="${base}visitor-count.mjs" data-visitor-page="${page}"></script>`;
+  // The count stands where "Partial Inventory browser" stood, and those words remain without a number.
+  const footer='<footer class="site-footer"><span data-visitor-count>Partial Inventory browser</span><button class="text-button" id="footer-about">About this collection ↗</button></footer>';
   for(const [file,page] of [['src/index.html','catalog'],['src/volume-view.html','volumes'],['src/subjects.html','subjects']]){
     const html=source(file);
     assert(html.includes(tag(page)+'</head>'),file);
     assert.equal(html.match(/data-visitor-page/g).length,1,file);assert.equal(html.match(/data-visitor-count/g).length,1,file);
+    // Nothing else is in the footer: no language list, editorial links or notes.
+    assert.equal(html.match(/<footer[\s\S]*?<\/footer>/)[0],footer,file);
   }
-  // Catalog and Volumes show the count where "Partial Inventory browser" stood, and keep those words without it.
-  for(const file of ['src/index.html','src/volume-view.html'])assert(source(file).includes('<footer class="site-footer"><span data-visitor-count>Partial Inventory browser</span>'),file);
-  // Subjects and the study guides gain it at the left of their footer, hidden until there is a number.
-  assert(source('src/subjects.html').includes('<footer class="site-footer"><span data-visitor-count hidden></span><a href="./relationships.html">'));
   const guides=source('scripts/build-compilation-pilot.mjs');
   assert(guides.includes('<script type="module" src="${esc(base)}visitor-count.mjs" data-visitor-page="study-guides"></script></head>'));
-  assert(guides.includes('<footer><span data-visitor-count hidden></span><span class="footer-note">'));
+  assert(guides.includes('</main>'+footer+'${about}</body></html>'));
+  // On small screens the two share one line; the policy and support pages keep their own footer.
+  const style=source('src/style.css');
+  assert(style.includes('.site-footer>span:first-child:not([data-visitor-count]){width:100%}'));
+  assert.doesNotMatch(style,/\.site-footer>span:first-child\{width:100%\}/);
+  const guideStyle=source('scripts/compilation-pilot.css');
+  assert.match(guideStyle,/\.site-footer\{[^}]*font-size:10px;[^}]*display:flex;justify-content:space-between;[^}]*\}/);
+  assert.doesNotMatch(guideStyle,/footer-note|flex-wrap:wrap[^}]*\}\.site-footer/);
+  for(const file of ['src/privacy.html','src/support.html'])assert(source(file).includes('<footer class="site-footer"><span>Partial Inventory browser</span><span><a href="./privacy.html">Privacy policy</a>'),file);
   // No other page counts its visitors.
   for(const file of readdirSync(new URL('../src/',import.meta.url)).filter(name=>name.endsWith('.html')&&!['index.html','volume-view.html','subjects.html'].includes(name)))assert.doesNotMatch(source('src/'+file),/visitor-count/,file);
   for(const file of ['scripts/item-editor.html','scripts/study-guide-editor.html'])assert.doesNotMatch(source(file),/visitor-count/,file);
@@ -328,7 +372,8 @@ test('the four main views carry the count in place of their footer wording',()=>
 test('the privacy policy and the About dialog describe the count',()=>{
   const policy=source('src/privacy.html');
   assert.match(policy,/<h2>How the website counts visitors<\/h2>/);
-  assert.match(policy,/The first time you open one of them in a week, the page asks GitHub, which hosts the website, for a small file\./);
+  assert.match(policy,/The first time in a week that you do something on one of them \(move the pointer, touch the screen or press a key\), the page asks GitHub, which hosts the website, for a small file\./);
+  assert.match(policy,/what you did is not recorded or sent/);
   assert.match(policy,/It carries no cookies, no name or other identifier, nothing about what you read, and no record of the page you came from\./);
   assert.match(policy,/a note of which main pages it has been counted on this week and the latest visitor totals/);
   assert.match(policy,/<p>The app does not take part in this count\.<\/p>/);
