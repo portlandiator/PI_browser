@@ -1,7 +1,8 @@
 // The site masthead's light/dark switch and About dialog, as on the main
 // pages. The guide loader replaces the page body in place, so controls are
 // found when used rather than bound once. The saved theme itself is applied
-// by each page's inline script before styles paint.
+// by each page's inline script before styles paint; that script also shows it
+// on the switch and theme-color while the page loads.
 (()=>{
   const root=document.documentElement;
   const sync=()=>{

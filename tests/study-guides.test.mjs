@@ -6,7 +6,7 @@ import path from 'node:path';
 import {gzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 import {loadStudyGuides,loadGuideOpening,studyGuideButton,studyGuideQuotation,fitQuotation} from '../src/study-guide.mjs';
-import {buildStudyGuides} from '../scripts/build-compilation-pilot.mjs';
+import {buildStudyGuides,guideThemeScript} from '../scripts/build-compilation-pilot.mjs';
 import {recordFilename} from '../src/record-file.mjs';
 import {catalogueFingerprint} from '../scripts/study-guide-catalogue.mjs';
 
@@ -266,6 +266,9 @@ test('the overview lists one line per guide, by centrality and then title, with 
   assert.match(guide,/<h1>third guide<\/h1><p class="guide-subtitle">third<\/p>/);
   assert.match(overview,/<select id="guide-sort"><option value="centrality" selected>Graph centrality<\/option><option value="thematic">Thematic<\/option><option value="alphabetical">Alphabetical<\/option><option value="quotations">Number of quotations<\/option><\/select>/);
   assert.match(overview,/src="guide-index.js"/);assert.match(overview,/localStorage\.getItem\('pi-theme'\)/);
+  // The head script (its behaviour is tested in site.test.mjs) runs after the theme-color element it updates and before the stylesheet.
+  const head=overview.slice(0,overview.indexOf('</head>')),themeColor=head.indexOf('<meta name="theme-color"');
+  assert.ok(themeColor>0&&themeColor<head.indexOf(`<script>${guideThemeScript}</script><link rel="stylesheet" href="pilot.css">`));
   assert.match(overview,/<h1 class="overview-title">Ways into deeper reading<\/h1>/);
   assert.doesNotMatch(overview,/· New|class="sample"|These guides contain|class="intro-note"|About these study guides/);
 });

@@ -17,7 +17,17 @@
     document.getElementById('theme-toggle')?.setAttribute('aria-checked', String(dark));
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#151d19' : '#f7f6f0');
   };
+  // DOMContentLoaded waits for the page's modules, which can be after the first
+  // frame: set theme-color now and the switch, parsed later, as soon as it exists.
+  sync();
+  const parsed = new MutationObserver(() => {
+    if (!document.getElementById('theme-toggle')) return;
+    parsed.disconnect();
+    sync();
+  });
+  parsed.observe(root, {childList: true, subtree: true});
   document.addEventListener('DOMContentLoaded', () => {
+    parsed.disconnect();
     const toggle = document.getElementById('theme-toggle');
     toggle.addEventListener('click', () => {
       root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';

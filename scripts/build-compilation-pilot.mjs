@@ -17,6 +17,12 @@ import {shortenParagraphs,shortenSupplied} from './study-guide-shortening.mjs';
 import {subjectColorStyle} from '../src/subject-colors.mjs';
 import {withSourceQuestion} from './study-guide-question-context.mjs';
 
+// The script in the head of every guide page: follow the main pages' saved
+// light or dark choice before styles paint. As in src/site.js, theme-color is
+// set at once and the switch as soon as it is parsed, so the first frame is
+// right; the deferred site.js handles later changes.
+export const guideThemeScript=`(()=>{const root=document.documentElement,sync=()=>{const dark=root.dataset.theme==='dark';document.getElementById('theme-toggle')?.setAttribute('aria-checked',String(dark));document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#151d19':'#f7f6f0');},apply=value=>{root.dataset.theme=value==='dark'?'dark':'light';sync();};let saved;try{saved=localStorage.getItem('pi-theme');}catch{}apply(saved);const parsed=new MutationObserver(()=>{if(!document.getElementById('theme-toggle'))return;parsed.disconnect();sync();});parsed.observe(root,{childList:true,subtree:true});addEventListener('storage',event=>{if(event.key==='pi-theme')apply(event.newValue);});})();`;
+
 // Generate against the same versioned records used by the subject reader. A
 // changed quotation or subject membership must be reviewed before rebuilding.
 export async function buildStudyGuides(root,out,datasetName,{output=path.join(out,'study-guides'),base='../'}={}){
@@ -88,8 +94,7 @@ const masthead=sitePart(/<header class="masthead">[\s\S]*?<\/header>/).replace(/
 if(!masthead.includes(studyGuidesLink))throw Error('Catalog view masthead has no Study guides link');
 const header=masthead.replace(studyGuidesLink,'<a href="index.html" class="active" aria-current="page">Study guides</a>');
 const about=sitePart(/<dialog id="about-dialog"[\s\S]*?<\/dialog>/).replace('<dialog id="about-dialog"',`<dialog id="about-dialog" data-stats="${esc(base)}about-stats.mjs"`);
-// Follow the main page's saved light or dark choice, before styles paint.
-const theme=`<script>(()=>{const root=document.documentElement,apply=value=>{root.dataset.theme=value==='dark'?'dark':'light';};let saved;try{saved=localStorage.getItem('pi-theme');}catch{}apply(saved);addEventListener('storage',event=>{if(event.key==='pi-theme')apply(event.newValue);});})();</script>`;
+const theme=`<script>${guideThemeScript}</script>`;
 const document=(title,body,active,pdf=false)=>correctDisplayHtml(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#203a32"><title>${esc(title)}${pdf?' · Study guide':''} · Partial Inventory browser</title><link rel="icon" href="${esc(base)}favicon.svg">${theme}<link rel="stylesheet" href="pilot.css"><script src="site.js" defer></script>${pdf?'<script src="pilot-view.js" defer></script>':''}${active==='index'?'<script src="guide-index.js" defer></script>':''}</head><body${pdf?' class="pdf-view"':''}><a class="skip" href="#main">Skip to reading</a>${header}<main id="main"${active==='index'?' class="reading-room"':''}>${body}</main><footer>Study guide sample · Introductions, sequence notes, and questions are editorial contributions.</footer>${about}</body></html>`);
 const validation={format:1,dataset:editorial.dataset,editorialSha256:digest(JSON.stringify(editorial)),subjects:[]};
 const exportData={format:1,dataset:editorial.dataset,subjects:[]};
