@@ -23,6 +23,7 @@ on:
         default: false
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -39,6 +40,7 @@ jobs:
         dist/stats.json
         dist/volumes.json
         dist/volume-titles.json
+        dist/subject-match-state.json.gz
         build-report.json
         subject-import-report.json
     steps:
@@ -46,6 +48,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # The pull request check uploads the site it built and tested, named after
+      # its content. A merge that leaves main with exactly that content is
+      # published from it, without building everything a second time.
+      - name: Look for the build verified by the pull request check
+        id: verified
+        if: ${{ !inputs.force_rebuild }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/verified-build.mjs find >> "$GITHUB_OUTPUT"
+      - name: Download the verified build
+        if: steps.verified.outputs.run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.verified.outputs.name }}
+          run-id: ${{ steps.verified.outputs.run_id }}
+          github-token: ${{ github.token }}
+          path: .
+      - name: Add the volume PDFs to the verified build
+        if: steps.verified.outputs.run_id != ''
+        run: node scripts/build-volumes.mjs
       - name: Test parser and search semantics
         run: node --test tests/core.test.mjs tests/subjects.test.mjs
       - name: Verify source publication policy
@@ -59,21 +81,25 @@ jobs:
         run: node scripts/deployment-cache.mjs key >> "$GITHUB_OUTPUT"
       - name: Restore unchanged generated collection and PDFs
         id: generated
-        if: ${{ !inputs.force_rebuild }}
+        if: ${{ !inputs.force_rebuild && steps.verified.outputs.run_id == '' }}
         uses: actions/cache/restore@v4
         with:
           path: ${{ env.GENERATED_PATHS }}
-          key: pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-${{ steps.inputs.outputs.key }}
+          key: pages-data-v3-${{ runner.os }}-${{ steps.inputs.outputs.key }}
+          # Any earlier collection will do: the build reuses each record, search
+          # shard and subject match that is still valid and rebuilds the rest.
           restore-keys: |
-            pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-
+            pages-data-v3-${{ runner.os }}-
       - name: Extract source archive for validation of cached data
-        if: steps.generated.outputs.cache-hit == 'true'
+        if: steps.generated.outputs.cache-hit == 'true' || steps.verified.outputs.run_id != ''
         run: for shard in data/collection/*.tar; do tar -xf "$shard"; done
-      - name: Build full corpus and search index
-        if: steps.generated.outputs.cache-hit != 'true'
-        run: PI_INCREMENTAL=1 node --max-old-space-size=6144 scripts/build.mjs
+      - name: Build the changed records, search index and subjects
+        if: steps.generated.outputs.cache-hit != 'true' && steps.verified.outputs.run_id == ''
+        run: PI_INCREMENTAL=${{ inputs.force_rebuild && '0' || '1' }} node --max-old-space-size=6144 scripts/build.mjs
+      # The build above already applies the interface and builds the study guides.
       - name: Apply current interface to generated collection
-        run: node scripts/deployment-cache.mjs refresh
+        if: steps.generated.outputs.cache-hit == 'true'
+        run: node --max-old-space-size=6144 scripts/deployment-cache.mjs refresh
       - name: Prepare public files and retain separate audit records
         run: node scripts/prepare-pages.mjs
       - name: Verify generated collection
@@ -89,7 +115,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: ${{ env.GENERATED_PATHS }}
-          key: pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-${{ steps.inputs.outputs.key }}
+          key: pages-data-v3-${{ runner.os }}-${{ steps.inputs.outputs.key }}
       - name: Preserve publication audit independently of the hosted site
         uses: actions/upload-artifact@v4
         with:
@@ -100,11 +126,14 @@ jobs:
       - name: Summarize deployment path
         env:
           CACHE_HIT: ${{ steps.generated.outputs.cache-hit }}
+          VERIFIED_RUN: ${{ steps.verified.outputs.run_id }}
         run: |
-          if [ "$CACHE_HIT" = "true" ]; then
+          if [ -n "$VERIFIED_RUN" ]; then
+            echo "Published the build verified by pull request check run $VERIFIED_RUN; all tests passed again here." >> "$GITHUB_STEP_SUMMARY"
+          elif [ "$CACHE_HIT" = "true" ]; then
             echo 'Reused verified collection and PDFs; refreshed interface; all tests passed.' >> "$GITHUB_STEP_SUMMARY"
           else
-            echo 'Rebuilt changed records when compatible cached data was available; otherwise rebuilt the full collection. All tests passed.' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Rebuilt the changed records, subject matches and study guides (the complete collection when no earlier one could be reused). All tests passed.' >> "$GITHUB_STEP_SUMMARY"
           fi
           echo 'GitHub Pages still requires one complete site artifact per deployment.' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/configure-pages@v5

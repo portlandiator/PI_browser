@@ -29,6 +29,13 @@ export async function buildInputs(root){
   await collect('subjects - reference.docx');
   // Follow build-time imports so a new shared parser/helper cannot silently reuse
   // stale data. Interface-only modules, HTML, CSS and fonts do not affect the key.
+  for(const relative of await codeDependencies(root,['scripts/build.mjs','scripts/deployment-cache.mjs']))files.add(relative);
+  return [...files].sort();
+}
+
+// The modules an entry script imports, directly or indirectly, itself included.
+export async function codeDependencies(root,entries){
+  const files=new Set();
   async function dependency(relative){
     if(files.has(relative))return;
     const absolute=path.resolve(root,relative);
@@ -43,20 +50,39 @@ export async function buildInputs(root){
       await dependency(path.posix.normalize(path.posix.join(path.posix.dirname(relative),specifier)));
     }
   }
-  await dependency('scripts/build.mjs');
-  await dependency('scripts/deployment-cache.mjs');
+  for(const entry of entries)await dependency(entry);
   return [...files].sort();
 }
 
-export async function fingerprint(root,compatible=false){
+// What each stage of the build reads, so a change rebuilds only the stages it
+// can affect. Every scope includes the build's code.
+//   (none)     every input: the cache key of a finished collection
+//   'records'  records, search index and volumes, without the source archive
+//              (build.mjs compares each record's own signature)
+//   'subjects' everything the subject compilations read besides the texts
+const recordInputs=name=>name.startsWith('pdf_volumes - copy/')||name==='data/withheld-pdf-volumes.json'||name==='data/volume-front-matter.json'||(!name.includes('/')&&name.endsWith('.csv'));
+export async function fingerprint(root,scope){
+  if(scope!==undefined&&!['records','subjects'].includes(scope))throw Error('Unknown fingerprint scope: '+scope);
+  const code=new Set(await codeDependencies(root,['scripts/build.mjs','scripts/deployment-cache.mjs']));
   const hash=createHash('sha256');
-  hash.update(`pages-data-v1\0node-${process.versions.node.split('.')[0]}\0`);
+  hash.update(`pages-data-v1\0node-${process.versions.node.split('.')[0]}\0${scope||''}\0`);
   for(const relative of await buildInputs(root)){
-    if(compatible&&relative.startsWith('data/collection/'))continue;
-    const content=createHash('sha256');
-    for await(const chunk of createReadStream(path.join(root,relative)))content.update(chunk);
-    hash.update(relative+'\0'+content.digest('hex')+'\0');
+    if(scope&&relative.startsWith('data/collection/'))continue;
+    if(scope==='records'&&!code.has(relative)&&!recordInputs(relative))continue;
+    hash.update(relative+'\0'+await fileDigest(path.join(root,relative))+'\0');
   }
+  return hash.digest('hex');
+}
+async function fileDigest(file){
+  const content=createHash('sha256');
+  for await(const chunk of createReadStream(file))content.update(chunk);
+  return content.digest('hex');
+}
+// The code of one stage, for caches that stay valid across other code changes.
+export async function codeFingerprint(root,entries){
+  const hash=createHash('sha256');
+  hash.update(`node-${process.versions.node.split('.')[0]}\0`);
+  for(const relative of await codeDependencies(root,entries))hash.update(relative+'\0'+await fileDigest(path.join(root,relative))+'\0');
   return hash.digest('hex');
 }
 
@@ -85,7 +111,7 @@ export async function refreshSite(root){
 }
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
-  if(process.argv[2]==='key'){console.log(`key=${await fingerprint(rootDirectory)}`);console.log(`compatible=${await fingerprint(rootDirectory,true)}`);}
+  if(process.argv[2]==='key')console.log(`key=${await fingerprint(rootDirectory)}`);
   else if(process.argv[2]==='prune')console.log('Collection cleanup:',await pruneCollections(rootDirectory));
   else if(process.argv[2]==='refresh')console.log('Refreshed interface over existing dataset:',(await refreshSite(rootDirectory)).dataset);
   else throw Error('Usage: node scripts/deployment-cache.mjs key|refresh|prune');

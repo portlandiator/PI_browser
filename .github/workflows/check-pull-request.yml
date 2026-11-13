@@ -37,6 +37,7 @@ jobs:
         dist/stats.json
         dist/volumes.json
         dist/volume-titles.json
+        dist/subject-match-state.json.gz
         build-report.json
         subject-import-report.json
     steps:
@@ -62,9 +63,11 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ${{ env.GENERATED_PATHS }}
-          key: pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-${{ steps.inputs.outputs.key }}
+          key: pages-data-v3-${{ runner.os }}-${{ steps.inputs.outputs.key }}
+          # Any earlier collection will do: the build reuses each record, search
+          # shard and subject match that is still valid and rebuilds the rest.
           restore-keys: |
-            pages-data-v2-${{ runner.os }}-${{ steps.inputs.outputs.compatible }}-
+            pages-data-v3-${{ runner.os }}-
       - name: Extract source archive for validation of cached data
         if: steps.generated.outputs.cache-hit == 'true'
         run: for shard in data/collection/*.tar; do tar -xf "$shard"; done
@@ -97,12 +100,37 @@ jobs:
           git push origin "HEAD:refs/heads/$HEAD_BRANCH"
           { echo 'The study guides were reconciled with this catalog change and pushed to this pull request; the collection was then rebuilt and tested with them.'; echo; cat reconcile.md; } > comment.md
           PI_INCREMENTAL=1 node --max-old-space-size=6144 scripts/build.mjs
+      # The build above already applies the interface and builds the study guides.
       - name: Apply current interface to generated collection
-        run: node scripts/deployment-cache.mjs refresh
+        if: steps.generated.outputs.cache-hit == 'true'
+        run: node --max-old-space-size=6144 scripts/deployment-cache.mjs refresh
       - name: Prepare public files and retain separate audit records
         run: node scripts/prepare-pages.mjs
       - name: Verify generated collection
         run: node --test tests/*.test.mjs
+      # Named after the content it was built from (including study guides
+      # reconciled above), so the deployment can publish this build when the
+      # merge leaves main with exactly that content. Volume PDFs are left out:
+      # the deployment takes them from its own checkout.
+      - name: Name the verified build after its content
+        id: verified
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        run: node scripts/verified-build.mjs name >> "$GITHUB_OUTPUT"
+      - name: Keep the verified build for the deployment
+        if: steps.verified.outputs.name != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.verified.outputs.name }}
+          path: |
+            dist
+            !dist/pdf-volumes
+            build-report.json
+            subject-import-report.json
+          include-hidden-files: true
+          compression-level: 1
+          retention-days: 5
+          overwrite: true
+          if-no-files-found: error
       - name: Report the reconciled study guides on the pull request
         if: hashFiles('comment.md') != ''
         env:
@@ -116,6 +144,6 @@ jobs:
           if [ "$CACHE_HIT" = "true" ]; then
             echo 'Reused the deployed collection; refreshed interface; all tests passed.' >> "$GITHUB_STEP_SUMMARY"
           else
-            echo 'Rebuilt the changed records (or the complete collection when no compatible cached data existed); all tests passed.' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Rebuilt the changed records, subject matches and study guides (the complete collection when no earlier one could be reused); all tests passed.' >> "$GITHUB_STEP_SUMMARY"
           fi
           if [ -f comment.md ]; then cat comment.md >> "$GITHUB_STEP_SUMMARY"; fi

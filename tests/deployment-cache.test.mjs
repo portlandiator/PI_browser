@@ -63,6 +63,28 @@ test('interface, documentation and study-guide changes reuse data, but every sou
   assert.notEqual(await fingerprint(root),before);
 });
 
+test('each build stage is invalidated only by what it reads',async t=>{
+  const {root,write}=await fixture(t);
+  await write('data/collection/original-0.tar','archive shard');
+  const scopes=async()=>({records:await fingerprint(root,'records'),subjects:await fingerprint(root,'subjects')});
+  const expected={
+    // The archive is compared record by record inside the build.
+    'data/collection/original-0.tar':[],
+    // Editorial decisions, summaries and the subject list reach only the subject compilations.
+    'data/subject-edits.json':['subjects'],'subject-summaries/A.md':['subjects'],'subjects - reference.docx':['subjects'],'subject_extracts/Evernote_scrape/A.txt':['subjects'],
+    'pdf_volumes - copy/volume_01.pdf':['records','subjects'],'period_renaming.csv':['records','subjects'],
+    'src/normalization.mjs':['records','subjects'],'scripts/deployment-cache.mjs':['records','subjects'],
+    'src/app.mjs':[],'study-guides/editorial.json':[],
+  };
+  for(const [name,changed] of Object.entries(expected)){
+    const before=await scopes();
+    await fs.appendFile(path.join(root,name),'\n// changed');
+    const after=await scopes();
+    assert.deepEqual(Object.keys(after).filter(scope=>after[scope]!==before[scope]),changed,name);
+  }
+  await assert.rejects(fingerprint(root,true),/Unknown fingerprint scope/);
+});
+
 test('added, removed, and renamed inputs invalidate the cache even with identical contents',async t=>{
   const {root,write}=await fixture(t);
   const initial=await fingerprint(root);

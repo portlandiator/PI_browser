@@ -70,7 +70,13 @@ const ids=[...new Set([...metadata.keys(),...files[0],...files[1],...withheld])]
 report.withheldOriginal=[...new Set([...withheld,...[...files[0]].filter(id=>!mayPublishOriginal(metadata.get(id)))])].sort();
 files[0]=new Set([...files[0]].filter(id=>mayPublishOriginal(metadata.get(id))));
 for(const id of ids)if(!/^[\p{L}\p{N}_ ()-]+$/u.test(id))throw new Error(`Unsafe filename ${id}`);
-const compatibility=await fingerprint(root,true);
+// Records are reused while the code and the record-level inputs are the same;
+// the subject compilations have their own inputs (editorial decisions, extracts).
+const compatibility=await fingerprint(root,'records'),subjectInputs=await fingerprint(root,'subjects');
+// The collection of the previous build, while it exists: subject matching reads
+// the earlier wording of changed texts from it, even when records are rebuilt.
+let previousCorpus;
+try{const earlier=JSON.parse(await fs.readFile(path.join(out,'stats.json'),'utf8')).dataset;if(/^collections\/[\w-]+\/$/.test(earlier))previousCorpus=path.join(out,earlier);}catch{}
 const reuse=process.env.PI_INCREMENTAL==='1'?await reusableBuild(out,ids,compatibility):null;
 if(reuse)await fs.cp(reuse.corpus,corpus,{recursive:true});
 console.log(reuse?'Reusing unchanged records and search shards':'Building the complete collection');
@@ -170,8 +176,13 @@ for(const language of ['en','original']){
   }
   console.log(`${language}: ${terms.toLocaleString()} indexed terms`);
 }
-if(!reuse||englishChanged)await buildSubjects(root,out,dataset);
-else if(changedRecords.size)await refreshSubjectMetadata(corpus,changedRecords,zipWrite);
+const subjectRebuild=!reuse||englishChanged||reuse.state.subjectInputs!==subjectInputs;
+if(subjectRebuild){
+  // Start from no subject files, as a complete build does; matches of unchanged
+  // texts are reused inside buildSubjects.
+  await fs.rm(path.join(corpus,'subjects'),{recursive:true,force:true});
+  await buildSubjects(root,out,dataset,{reuseMatches:process.env.PI_INCREMENTAL==='1',previousCorpus});
+}else if(changedRecords.size)await refreshSubjectMetadata(corpus,changedRecords,zipWrite);
 try{await buildStudyGuides(root,out,dataset);}
 catch(error){
   // stats.json still names the verified active collection until this build
@@ -181,8 +192,8 @@ catch(error){
 }
 await packStudyGuides(root,out);
 const buildMode=reuse?'incremental':'full';
-await fs.writeFile(path.join(out,'build-state.json'),JSON.stringify({format:1,dataset,compatibility,ids,items}));
-console.log(`Build mode: ${buildMode}; regenerated ${changedRecords.size} records; subject rebuild: ${!reuse||englishChanged}`);
+await fs.writeFile(path.join(out,'build-state.json'),JSON.stringify({format:1,dataset,compatibility,subjectInputs,ids,items}));
+console.log(`Build mode: ${buildMode}; regenerated ${changedRecords.size} records; subject rebuild: ${subjectRebuild}`);
 await fs.writeFile(path.join(out,'stats.json'),JSON.stringify(stats));
 await fs.writeFile(path.join(root,'build-report.json'),JSON.stringify({...stats,...report,buildMode,regeneratedRecords:changedRecords.size},null,2));
 console.log('Build complete',stats);

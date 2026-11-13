@@ -3,7 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gzipSync,gunzipSync} from 'node:zlib';
 import {parseCsv,parseText} from '../src/text.mjs';
-import {digest,prepareSource,Matcher,hierarchyEdges,validateConfirmedMatch} from './subject-core.mjs';
+import {digest,prepareSource,tokens,Matcher,hierarchyEdges,validateConfirmedMatch} from './subject-core.mjs';
 import {relationKey} from '../src/subject-relations.mjs';
 import {recordFilename} from '../src/record-file.mjs';
 import {writeReviewIndex} from './build-passage-review.mjs';
@@ -11,8 +11,10 @@ import {parseSubjectSummary} from '../src/subject-summary.mjs';
 import {readExtractInputs,mergeExtracts,writeExtractReview,matchExtract} from './extract-inputs.mjs';
 import {isPublicSelection,hasPublicMatch,isVerifiedMatch} from '../src/selection-policy.mjs';
 import {decodeSource} from './source-encoding.mjs';
+import {codeFingerprint} from './deployment-cache.mjs';
+import {trackedMatcher,reusableMatches,loadMatchCache,saveMatchCache} from './subject-match-cache.mjs';
 const zip=(file,data)=>fs.writeFile(file,gzipSync(JSON.stringify(data),{level:9}));
-export async function buildSubjects(root,out,dataset){
+export async function buildSubjects(root,out,dataset,{reuseMatches=false,previousCorpus}={}){
   const snapshotBytes=await fs.readFile(path.join(root,'data/subjects-snapshot.json.gz'));
   const snapshot=JSON.parse(gunzipSync(snapshotBytes));
   const csv=await fs.readFile(path.join(root,'14-colors_and_hyperlinks.csv'),'utf8');
@@ -29,14 +31,35 @@ export async function buildSubjects(root,out,dataset){
   report.selectionSource='Local Inventory and Evernote extract files; no website quotations';
   const sourceFiles=(await fs.readdir(path.join(root,'translated_texts - copy'))).filter(f=>f.endsWith('.txt')).sort(),sources=[];
   for(const file of sourceFiles){const bytes=await fs.readFile(path.join(root,'translated_texts - copy',file));const {text,fallback}=decodeSource(bytes);if(fallback)report.encodingFallbacks.push(file);sources.push(prepareSource(file.slice(0,-4),digest(bytes),parseText(text,'en').paragraphs));}
-  console.log(`Subject matching: indexing ${sources.length} English sources`);
-  const matcher=new Matcher(sources),bySubject=new Map(),usedEdits=new Set(),memo=new Map();
+  // Matches of unchanged texts are reused from the previous build (subject-match-cache.mjs);
+  // the collection-wide index is built only when something has to be matched again.
+  const sourceMap=new Map(sources.map(s=>[s.id,s])),versions=new Map(sources.map(s=>[s.id,s.version]));
+  const matchCode=await codeFingerprint(root,['scripts/build-subjects.mjs']);
+  let index;
+  const tracked=trackedMatcher(sourceMap,()=>{if(!index){console.log(`Subject matching: indexing ${sources.length} English sources`);index=new Matcher(sources);}return index;});
+  const matcher=tracked.matcher,bySubject=new Map(),usedEdits=new Set(),used=new Map();
+  let memo=new Map();
+  const previous=reuseMatches?await loadMatchCache(out,matchCode):null;
+  if(previous){
+    // The earlier wording of a changed text comes from the previous build's record.
+    const previousWords=async(id,version)=>{
+      if(!previousCorpus)return null;
+      try{
+        const record=JSON.parse(gunzipSync(await fs.readFile(path.join(previousCorpus,'data',recordFilename(id)))));
+        if(record.enVersion!==version)return null;
+        return new Set(tokens(prepareSource(id,version,record.en.paragraphs).text).map(t=>t.word));
+      }catch{return null;}
+    };
+    const reusable=await reusableMatches(previous,versions,sourceMap,previousWords);memo=reusable.entries;
+    console.log(`Subject matching: ${reusable.changed.size} changed English sources; reusing ${memo.size} of ${previous.entries.size} earlier matches`);
+  }else console.log('Subject matching: matching every extract');
+  let matched=0;
   for(const subject of active){
     const selections=[],notices=[];
     for(const selection of inputs.bySubject.get(subject.id)){
         const {id}=selection;
-        const key=JSON.stringify([selection.excerpt,selection.suppliedIds,selection.outsideAuthor]);let match=memo.get(key);if(!match){match=matchExtract(selection,matcher);memo.set(key,match);}
-        match=structuredClone(match);
+        const key=JSON.stringify([selection.excerpt,selection.suppliedIds,selection.outsideAuthor]);let entry=memo.get(key);if(!entry){entry=tracked.run(matcher=>matchExtract(selection,matcher));memo.set(key,entry);matched++;}
+        used.set(key,entry);let match=structuredClone(entry.match);
         const hint=decisions.hints?.[id]; if(hint)match={status:'unmatched',candidates:hint.candidates.map(c=>validateConfirmedMatch(c,matcher.sources)),reason:hint.reason,referenceIds:hint.referenceIds};
         const reviewed=decisions.matches[id];
         if(reviewed){if(!['confirmed','approximate'].includes(reviewed.status))throw Error('Invalid extract review status '+id);const chosen=validateConfirmedMatch(reviewed.candidate,matcher.sources);match={status:reviewed.status,candidates:[chosen],review:reviewed.evidence};}
@@ -53,6 +76,9 @@ export async function buildSubjects(root,out,dataset){
     subject.selections=merged.filter(s=>s.status!=='rejected').length;subject.matched=merged.filter(s=>['exact','normalized','confirmed'].includes(s.status)).length;
     bySubject.set(subject.id,{subject,selections:merged,notices});console.log(`Matched ${bySubject.size}/${active.length}: ${subject.name} (${subject.matched}/${subject.selections})`);
   }
+  console.log(`Subject matching: matched ${matched} extracts, reused ${used.size-matched}`);
+  // A partial run (SUBJECT_LIMIT) must not replace the matches of the whole collection.
+  if(limit===subjects.length)await saveMatchCache(out,matchCode,versions,used);
   report.sourceExceptions=sourceExceptions;
   report.unusedMatchEdits=Object.keys(edits.matches).filter(id=>!usedEdits.has(id));
   await writeExtractReview(root,bySubject,inputs.report);

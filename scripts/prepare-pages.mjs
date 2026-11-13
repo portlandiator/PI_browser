@@ -114,7 +114,7 @@ export async function preparePages(root,{commit='local',reuseVerifiedFiles=false
     const entry={path:name,bytes:bytes.length,sha256:sha256(bytes)};
     let reason;
     if(auditFiles.includes(name))reason='retained audit';
-    else if(name==='build-state.json')reason='build cache only';
+    else if(name==='build-state.json'||name==='subject-match-state.json.gz')reason='build cache only';
     else if(expectedFonts.includes(name))reason='identical shared font';
     else if(name.startsWith('collections/')&&!name.startsWith(stats.dataset))reason='obsolete dataset';
     else if(hostedPdf(name))reason='hosted on PDF site';
