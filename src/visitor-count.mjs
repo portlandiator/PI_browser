@@ -5,8 +5,8 @@
 //  - GitHub counts the downloads of every file attached to a release. The
 //    "Visitor counts" release of this repository holds one tiny image for each
 //    view and week; scripts/visitor-counts.mjs keeps them there.
-//  - The browser notes, in its own storage, the views it has already been
-//    counted on this week.
+//  - The browser notes, in its own storage, the files it has asked for this
+//    week, which is to say the views it has already been counted on.
 // Once a visitor has done something in a view (moved the pointer, touched,
 // typed), the view reads the week's download counts for the foot of the page.
 // A visitor who is still doing something there ten seconds later is counted,
@@ -31,12 +31,25 @@ export function addWeeks(week,count){
   day.setUTCDate(day.getUTCDate()+7*count);
   return day.toISOString().slice(0,10);
 }
-export const assetName=(page,week)=>`${page}-${week}.gif`;
+// A file is named for its week and its page: week-2026-11-09-catalog.gif. In
+// their first week (that of 2026-11-09) the files were named page first,
+// catalog-2026-11-09.gif, and Catalog's gained two dozen "visitors" in a burst
+// about every hour, whatever a visitor had to do in the page to be counted
+// (see `stay` below). Either programs pass for visitors, or the file's
+// address, which every page load asked for during the first hours, had been
+// collected and was being requested from GitHub directly, which nothing in a
+// page can prevent. New names tell the two apart and end the second: pages
+// ask only for files named like this, and scripts/visitor-counts.mjs leaves
+// that week's first files attached, uncounted, to show where the bursts go.
+// GitHub lists a release's files by name, and Catalog's first file headed the
+// list. The present names come after the first ones, so that a program taking
+// the first file of the list would not be mistaken for a visitor either.
+export const assetName=(page,week)=>`week-${week}-${page}.gif`;
 export function parseAssetName(name){
-  const match=/^([a-z-]+)-(\d{4}-\d{2}-\d{2})\.gif$/.exec(name);
-  if(!match||!Object.hasOwn(pages,match[1]))return null;
-  const day=new Date(match[2]+'T00:00:00Z');
-  return !Number.isNaN(day.getTime())&&weekOf(day)===match[2]?{page:match[1],week:match[2]}:null;
+  const match=/^week-(\d{4}-\d{2}-\d{2})-([a-z-]+)\.gif$/.exec(name);
+  if(!match||!Object.hasOwn(pages,match[2]))return null;
+  const day=new Date(match[1]+'T00:00:00Z');
+  return !Number.isNaN(day.getTime())&&weekOf(day)===match[1]?{page:match[2],week:match[1]}:null;
 }
 
 // The repository behind a GitHub Pages project address,
@@ -161,12 +174,12 @@ const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|h
 // pointer is reported again whenever the page under it changes. Only a
 // pointer that travels is a hand.
 const signs=['pointerdown','pointermove','keydown','wheel','touchstart'],travel=8;
-// Some automated browsers do those things too. With that rule alone Catalog
-// still gained two dozen "visitors" in a burst every hour (24, then 22 an hour
-// later, 2026-11-13) while the other views had none: programs that move a
-// pointer or scroll when a page has loaded, and go. Someone who has come to
-// read is still there, and still doing something, ten seconds later, so that
-// is when a visitor is counted. People who look and leave at once are not.
+// A program can do those things too, the moment a page has loaded. Someone
+// who has come to read is still there, and still doing something, ten seconds
+// later, so that is when a visitor is counted. People who look and leave at
+// once are not. (The wait was added for the hourly bursts described at
+// `assetName`, on the guess that programs touched the page and went. The
+// bursts went on as before, 28 and 22 and 21 in the next three hours.)
 export const stay=10*1000;
 
 // Counts this browser once for the page and week, and shows the week's total
@@ -180,7 +193,9 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   if(navigator.webdriver||automated.test(navigator.userAgent||''))return;
 
   const store=browserStore(storage),{read,write}=store;
-  const seenPages=week=>{const seen=read(seenKey);return seen?.week===week&&Array.isArray(seen.pages)?seen.pages:[];};
+  // The note names the files asked for, not the pages: a browser counted in a
+  // file that pages have since stopped using is counted again in the new one.
+  const askedFor=week=>{const seen=read(seenKey);return seen?.week===week&&Array.isArray(seen.files)?seen.files:[];};
 
   let shown;
   const graph=new URL(graphPage,site).href;
@@ -218,18 +233,18 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
 
   // Nothing is asked of GitHub until the visitor does something.
   await acts();
-  const began=now(),week=weekOf(new Date(began));
+  const began=now(),week=weekOf(new Date(began)),file=assetName(page,week);
 
   // Notes that this browser is counted on the page this week; false when it
   // already is (another tab may have counted it meanwhile) or when the browser
   // cannot keep the note. A browser that cannot remember being counted would
   // be counted on every visit, so it is left out.
   function note(){
-    const seen=seenPages(week);
-    return !seen.includes(page)&&write(seenKey,{week,pages:[...seen,page]});
+    const seen=askedFor(week);
+    return !seen.includes(file)&&write(seenKey,{week,files:[...seen,file]});
   }
 
-  const earlier=seenPages(week).includes(page);
+  const earlier=askedFor(week).includes(file);
   const answer=await readTotals({store,fetch,repository,week,now});
   const known=answer.totals,total=known?.counts[page];
   // Without a number the page keeps its own footer wording.

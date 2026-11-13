@@ -7,9 +7,11 @@ import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,siteRepository
 const source=name=>readFileSync(new URL('../'+name,import.meta.url),'utf8').replaceAll('\r\n','\n');
 const publicSite='https://portlandiator.github.io/PI_browser/';
 const friday=Date.UTC(2026,10,13,4,30),week='2026-11-09';
-const hit=page=>`https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/${page}-${week}.gif`;
+const hit=page=>`https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/week-${week}-${page}.gif`;
 const question='https://api.github.com/repos/portlandiator/PI_browser/releases/tags/visitor-counts';
 const release=(counts,of=week)=>({tag_name:releaseTag,assets:Object.entries(counts).map(([page,download_count],id)=>({id,name:assetName(page,of),download_count}))});
+// The browser's note of the files it has asked for this week.
+const noted=(...counted)=>({week,files:counted.map(page=>assetName(page,week))});
 
 // A stand-in for an element at the foot of a page: the count is put there as a link.
 function foot(textContent='Partial Inventory browser',hidden=false){
@@ -68,9 +70,11 @@ test('weeks run from Monday in UTC and name the counting files',()=>{
   assert.equal(addWeeks('2026-12-28',1),'2027-01-04');assert.equal(addWeeks('2026-11-09',-1),'2026-11-02');
   assert.deepEqual(Object.keys(pages),['catalog','volumes','subjects','study-guides']);
   for(const page of Object.keys(pages))assert.deepEqual(parseAssetName(assetName(page,week)),{page,week});
-  assert.equal(assetName('study-guides',week),'study-guides-2026-11-09.gif');
+  assert.equal(assetName('study-guides',week),'week-2026-11-09-study-guides.gif');
   // Not a Monday, not a date, not a counted page, or not a counting file at all.
-  for(const name of ['catalog-2026-11-10.gif','catalog-2026-02-31.gif','catalog-2026-13-01.gif','reader-2026-11-09.gif','catalog-2026-11-09.txt','catalog-2026-11-09.gif.zip','notes.gif',undefined])assert.equal(parseAssetName(name),null,String(name));
+  for(const name of ['week-2026-11-10-catalog.gif','week-2026-02-31-catalog.gif','week-2026-13-01-catalog.gif','week-2026-11-09-reader.gif','week-2026-11-09-catalog.txt','week-2026-11-09-catalog.gif.zip','2026-11-09-catalog.gif','notes.gif',undefined])assert.equal(parseAssetName(name),null,String(name));
+  // Nor a file of the first naming, page first, which pages no longer ask for.
+  for(const page of Object.keys(pages))assert.equal(parseAssetName(`${page}-${week}.gif`),null,page);
 });
 
 test('only the published GitHub Pages address has a repository to count with',()=>{
@@ -96,6 +100,8 @@ test('only the published GitHub Pages address has a repository to count with',()
 test('a week\'s counts are read from GitHub\'s description of the release',()=>{
   const described=release({catalog:41,volumes:0,subjects:12});
   described.assets.push({name:assetName('study-guides','2026-11-02'),download_count:99},{name:assetName('study-guides',week),download_count:'7'},{name:'other.zip',download_count:5},null);
+  // The files of the first naming are still attached for a time, whatever is requesting them.
+  described.assets.push({name:'catalog-2026-11-09.gif',download_count:5986},{name:'study-guides-2026-11-09.gif',download_count:28});
   assert.deepEqual(weekCounts(described,week),{catalog:41,volumes:0,subjects:12});
   assert.deepEqual(weekCounts(described,'2026-11-02'),{'study-guides':99});
   for(const nothing of [null,{},{assets:'none'},{assets:[]}])assert.deepEqual(weekCounts(nothing,week),{});
@@ -114,7 +120,9 @@ test('every week\'s totals are read from the release notes and the files still a
   const described={body:notes,assets:[
     {name:assetName('catalog',week),download_count:41},{name:assetName('volumes',week),download_count:1},{name:assetName('study-guides','2026-11-02'),download_count:44},
     // Files prepared for the coming weeks have no visitors yet, and other files are not counts.
-    {name:assetName('catalog','2026-11-16'),download_count:0},{name:'notes.txt',download_count:9},{name:assetName('subjects',week),download_count:-1},null]};
+    {name:assetName('catalog','2026-11-16'),download_count:0},{name:'notes.txt',download_count:9},{name:assetName('subjects',week),download_count:-1},null,
+    // Nor are the files of the first naming, for this week or the last.
+    {name:'catalog-2026-11-09.gif',download_count:5986},{name:'volumes-2026-11-02.gif',download_count:77}]};
   assert.deepEqual([...weeklyTotals(described,week)].sort(([a],[b])=>a<b?-1:1),[
     ['2026-10-26',{catalog:164,volumes:23,subjects:59,'study-guides':34}],
     ['2026-11-02',{catalog:1204,volumes:31,subjects:80,'study-guides':44}],
@@ -206,15 +214,31 @@ test('each page is counted separately, and again in a new week',async()=>{
   assert.deepEqual(subjects.urls(),[hit('subjects')]);
   assert.equal(subjects.footer.textContent,'13 unique visitors this week');
   assert.deepEqual(github,{catalog:42,volumes:7,subjects:13,'study-guides':3});
-  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week,pages:['catalog','subjects']});
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),noted('catalog','subjects'));
   // The following Monday the browser is a new visitor of the new week.
   const monday=Date.UTC(2026,10,16,0,5);
   const next=browser({values,github:{catalog:0},time:monday});
   next.fetch=async(url,options)=>{next.requests.push({url,options});return url===question?{ok:true,status:200,json:async()=>release({catalog:0},'2026-11-16')}:{type:'opaque'};};
   await next.run();
-  assert.deepEqual(next.urls(),[question,'https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/catalog-2026-11-16.gif']);
+  assert.deepEqual(next.urls(),[question,'https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/week-2026-11-16-catalog.gif']);
   assert.equal(next.footer.textContent,'1 unique visitor this week');
-  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week:'2026-11-16',pages:['catalog']});
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week:'2026-11-16',files:['week-2026-11-16-catalog.gif']});
+});
+
+test('a browser counted in a file of the first naming is counted again in its successor',async()=>{
+  // Before the files were renamed the note named the pages counted, and the files those pages
+  // asked for are no longer counted: the browser is a new visitor to the new file, once.
+  const values=new Map([['pi-visitor-week',JSON.stringify({week,pages:['catalog','subjects']})]]);
+  const back=browser({values});
+  await back.run();
+  assert.deepEqual(back.urls(),[question,hit('catalog')]);
+  assert.equal(back.state.github.catalog,42);assert.equal(back.footer.textContent,'42 unique visitors this week');
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),noted('catalog'));
+  const again=browser({values,github:back.state.github,time:friday+60*1000});
+  await again.run();
+  assert.deepEqual(again.urls(),[]);assert.equal(back.state.github.catalog,42);
+  // No page asks for a file named page first.
+  for(const page of Object.keys(pages))assert.match(hitUrl(siteRepository(new URL(publicSite)),page,week),new RegExp(`/visitor-counts/week-${week}-${page}\\.gif$`));
 });
 
 test('nothing that identifies a visitor is sent or kept',async()=>{
@@ -228,9 +252,9 @@ test('nothing that identifies a visitor is sent or kept',async()=>{
     assert(!('body' in request.options)&&!('method' in request.options));
     assert.doesNotMatch(request.url,/[?#]/);
   }
-  // The browser keeps only the week, the pages counted in it and the public totals.
+  // The browser keeps only the week, the files asked for in it and the public totals.
   assert.deepEqual([...visit.values.keys()].sort(),['pi-visitor-counts','pi-visitor-week']);
-  assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-week')),{week,pages:['study-guides']});
+  assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-week')),{week,files:['week-2026-11-09-study-guides.gif']});
   // (GitHub's own answer for the week is kept beside the number shown, for the graph of every week.)
   assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-counts')),{week,at:friday,counts:{catalog:41,volumes:7,subjects:12,'study-guides':4},weeks:[[week,{catalog:41,volumes:7,subjects:12,'study-guides':3}]]});
   // Comments aside, the module knows no address but GitHub's and reads nothing about the visitor.
@@ -317,7 +341,7 @@ test('the total is shown without waiting for the counting request, whatever beco
   cut.fetch=(url,options)=>url===question?reply(url,options):(cut.requests.push({url,options}),Promise.reject(new TypeError('Failed to fetch')));
   await cut.run();
   await new Promise(resolve=>setImmediate(resolve));
-  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week,pages:['catalog']});
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),noted('catalog'));
   assert.equal(cut.footer.textContent,'42 unique visitors this week');
   const next=browser({values,time:friday+60*1000});await next.run();
   assert.deepEqual(next.urls(),[]);assert.equal(next.footer.textContent,'42 unique visitors this week');
@@ -329,9 +353,9 @@ test('when GitHub gives no number the page keeps its own footer wording',async()
   await limited.run();
   assert.deepEqual(limited.urls(),[question,hit('catalog')]);
   assert.equal(limited.footer.textContent,'Partial Inventory browser');
-  assert.deepEqual(JSON.parse(limited.values.get('pi-visitor-week')),{week,pages:['catalog']});
+  assert.deepEqual(JSON.parse(limited.values.get('pi-visitor-week')),noted('catalog'));
   // An earlier answer for the same week is better than none.
-  const stale=browser({status:500,values:new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-3600_000,counts:{catalog:30},weeks:[]})],['pi-visitor-week',JSON.stringify({week,pages:['catalog']})]])});
+  const stale=browser({status:500,values:new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-3600_000,counts:{catalog:30},weeks:[]})],['pi-visitor-week',JSON.stringify(noted('catalog'))]])});
   await stale.run();
   assert.deepEqual(stale.urls(),[question]);assert.equal(stale.footer.textContent,'30 unique visitors this week');
   // Before the week's file exists, or the release itself, there is nothing to count with: the browser stays uncounted.
@@ -355,7 +379,7 @@ test('when GitHub gives no number the page keeps its own footer wording',async()
 
 test('a counted visitor is never shown zero, and a second tab does not count twice',async()=>{
   // GitHub has not yet included an earlier visit by this browser.
-  const lagging=browser({github:{catalog:0},values:new Map([['pi-visitor-week',JSON.stringify({week,pages:['catalog']})]])});
+  const lagging=browser({github:{catalog:0},values:new Map([['pi-visitor-week',JSON.stringify(noted('catalog'))]])});
   await lagging.run();
   assert.deepEqual(lagging.urls(),[question]);assert.equal(lagging.footer.textContent,'1 unique visitor this week');
   // Two tabs of one page open together: the second finds the first one's note.
@@ -438,7 +462,7 @@ test('a visitor is counted when still doing something ten seconds after the firs
   assert.equal(quick.state.github.catalog,42);
   // The number at the foot of the page then includes the visitor, and so does the answer kept for the next page.
   assert.equal(quick.footer.textContent,'42 unique visitors this week');
-  assert.deepEqual(JSON.parse(quick.values.get('pi-visitor-week')),{week,pages:['catalog']});
+  assert.deepEqual(JSON.parse(quick.values.get('pi-visitor-week')),noted('catalog'));
   assert.equal(JSON.parse(quick.values.get('pi-visitor-counts')).counts.catalog,42);
   // The page then stops listening.
   for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(quick.listeners[sign],[],sign);

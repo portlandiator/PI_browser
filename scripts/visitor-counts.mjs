@@ -28,14 +28,26 @@ export function siteAddress(repository){
   const [owner,name]=repository.split('/');
   return `https://${owner.toLowerCase()}.github.io/${name}/`;
 }
+// In their first week the files were named page first (catalog-2026-11-09.gif;
+// why that was changed is told at `assetName` in src/visitor-count.mjs). Pages
+// no longer ask for a file of that name, and it is never counted, set back to
+// zero or added again. Those of the week in progress and of last week stay
+// attached, so that their download counts show whether anything still requests
+// them; the others are removed.
+export function formerFile(name){
+  const match=/^([a-z-]+)-(\d{4}-\d{2}-\d{2})\.gif$/.exec(name);
+  return match?parseAssetName(assetName(match[1],match[2])):null;
+}
+export const downloads=count=>Number.isSafeInteger(count)?`${count} download${count===1?'':'s'}`:'downloads unknown';
 
 // The weekly totals recorded in the release notes, week → page → count, are
 // read by the website's graph as well, so the reader is in its module.
 export {readHistory};
 
-export function writeNotes(history,current,site){
+export function writeNotes(history,current,site,former=[]){
   const weeks=[...history.keys()].filter(week=>week<=current).sort().reverse();
   const cell=count=>Number.isSafeInteger(count)?String(count):'–';
+  const formerWeeks=[...new Set(former.map(file=>file.week))].sort();
   return [
     `Unique visitors of the four main pages of the [Partial Inventory browser](${site}) in each week, Monday to Sunday (UTC).`,
     '',
@@ -43,6 +55,7 @@ export function writeNotes(history,current,site){
     '',
     'Please do not download the files (each download is counted as a visitor) and do not edit this text: the "Keep the weekly visitor counters" workflow rewrites it every day and removes the files of earlier weeks once their counts are in the table.',
     '',
+    ...(former.length?[`The week${formerWeeks.length>1?'s':''} from ${formerWeeks.join(' and ')} ha${formerWeeks.length>1?'ve':'s'} two files for each page. Those whose names begin with the page (for example \`${former[0].name}\`) were the first ones: pages no longer ask for them and they are not counted. They stay for a time, to show whether anything still requests them, and are then removed.`,'']:[]),
     `| ${notesColumn} | ${pageNames.map(page=>pages[page]).join(' | ')} |`,
     `| --- |${pageNames.map(()=>' ---: |').join('')}`,
     ...weeks.map(week=>`| ${week}${week===current?notesInProgress:''} | ${pageNames.map(page=>cell(history.get(week)[page])).join(' | ')} |`),
@@ -51,13 +64,15 @@ export function writeNotes(history,current,site){
 }
 
 // What a run changes, from the release as it stands: the files to add, the
-// notes, and the files of past weeks that the notes now make redundant.
+// notes, the files of past weeks that the notes now make redundant, and the
+// files of the first naming that need watching no longer.
 export function plan({notes,assets},now,site){
   const current=weekOf(now),lastWeek=addWeeks(current,-1);
-  const files=[];
+  const files=[],former=[];
   for(const asset of assets){
-    const file=parseAssetName(asset.name);
+    const file=parseAssetName(asset.name),first=file?null:formerFile(asset.name);
     if(file)files.push({...file,name:asset.name,id:asset.id,count:asset.download_count});
+    if(first)former.push({...first,name:asset.name,id:asset.id,count:asset.download_count});
   }
   const present=new Set(files.map(file=>file.name));
   const add=[];
@@ -71,7 +86,10 @@ export function plan({notes,assets},now,site){
   const recorded=file=>Number.isSafeInteger(file.count)&&file.count>=0;
   // Last week's files stay for a week, for the visits GitHub adds late.
   const remove=files.filter(file=>file.week<lastWeek&&recorded(file));
-  return {add,remove,notes:writeNotes(history,current,site),history};
+  // Files of the first naming (see formerFile): watched for two weeks, then gone.
+  const watched=former.filter(file=>file.week===current||file.week===lastWeek);
+  const retire=former.filter(file=>!watched.includes(file));
+  return {add,remove,watched,retire,notes:writeNotes(history,current,site,watched),history};
 }
 
 const sameText=(a,b)=>String(a||'').replaceAll('\r\n','\n').trim()===String(b||'').replaceAll('\r\n','\n').trim();
@@ -125,7 +143,13 @@ export async function maintain({github,site,now=new Date(),log=console.log,reset
     await github.removeFile(file.id);
     log(`Removed ${file.name} (${file.count} recorded in the notes).`);
   }
-  return {release,added,reset,removed:changes.remove.map(file=>file.name),notes:changes.notes};
+  for(const file of changes.retire){
+    await github.removeFile(file.id);
+    log(`Removed ${file.name}, which pages no longer ask for (${downloads(file.count)}).`);
+  }
+  // Each run's log is a reading of the files still watched.
+  for(const file of changes.watched)log(`${file.name} is no longer counted: ${downloads(file.count)} so far.`);
+  return {release,added,reset,removed:changes.remove.map(file=>file.name),retired:changes.retire.map(file=>file.name),watched:changes.watched.map(({name,count})=>({name,count})),notes:changes.notes};
 }
 
 // GitHub's REST API for the one release, with the workflow's token.
@@ -175,6 +199,7 @@ export function githubRelease({repository,token,fetch=globalThis.fetch,api=proce
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const repository=process.env.GITHUB_REPOSITORY;
   const result=await maintain({github:githubRelease({repository,token:process.env.GITHUB_TOKEN}),site:siteAddress(repository||''),resetWeek:process.argv.includes('--reset-week')});
-  console.log(`${result.added.length} files added, ${result.removed.length} removed${result.reset.length?`, ${result.reset.length} reset to zero`:''}.`);
-  if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,`${result.notes}\n[${releaseName} release](${result.release.html_url})\n`);
+  console.log(`${result.added.length} files added, ${result.removed.length} removed${result.retired.length?`, ${result.retired.length} of the first naming removed`:''}${result.reset.length?`, ${result.reset.length} reset to zero`:''}.`);
+  const watched=result.watched.length?`Files that pages no longer ask for and that are not counted:\n\n${result.watched.map(file=>`- \`${file.name}\`: ${downloads(file.count)} so far`).join('\n')}\n\n`:'';
+  if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,`${result.notes}\n${watched}[${releaseName} release](${result.release.html_url})\n`);
 }
