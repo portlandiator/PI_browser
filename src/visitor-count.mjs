@@ -59,7 +59,9 @@ export function weekCounts(release,week){
 }
 export const countLabel=count=>`${count.toLocaleString('en-US')} unique visitor${count===1?'':'s'} this week`;
 
-const seenKey='pi-visitor-week',cacheKey='pi-visitor-counts',cacheTime=10*60*1000;
+// GitHub adds a request to a file's count about ten minutes after it was made,
+// so an answer is kept a little longer: the next one includes the visit.
+const seenKey='pi-visitor-week',cacheKey='pi-visitor-counts',cacheTime=15*60*1000;
 // Crawlers and test browsers that run scripts are not visitors.
 const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|headless|lighthouse|pagespeed|phantomjs|ptst\//i;
 
@@ -98,7 +100,8 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   const week=weekOf(new Date(now()));
 
   // GitHub allows few unsigned questions an hour from one address, so an
-  // answer is kept for ten minutes and a refused question falls back to it.
+  // answer is kept for a quarter of an hour and a refused question falls back
+  // to it.
   // Null when GitHub gave no answer.
   let reachable=navigator.onLine!==false;
   async function counts(){
@@ -140,8 +143,8 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   const total=known?.counts[page];
   // Without a number the page keeps its own footer wording.
   if(!Number.isSafeInteger(total)||total<0)return;
-  // GitHub's answer was given before this visit was added, and it can take a
-  // moment to include an earlier one: a counted visitor is never shown zero.
+  // GitHub's answer was given before this visit was added, and an earlier
+  // visit may not be in it yet: a counted visitor is never shown zero.
   shown=Math.max(total+(added?1:0),seenPages(week).includes(page)?1:0);
   // The kept answer follows, so the next page opened shows the same number.
   write(cacheKey,{...known,counts:{...known.counts,[page]:shown}});

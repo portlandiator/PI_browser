@@ -8,9 +8,7 @@ on:
   schedule:
     - cron: '23 0 * * *'
   push:
-    # The second branch is temporary: one run from the feature branch creates the
-    # release so that counting can be tested against GitHub before the merge.
-    branches: [main, claude/nifty-faraday-wo2kk1]
+    branches: [main]
     paths:
       - '.github/workflows/visitor-counts.yml'
       - 'scripts/visitor-counts.mjs'

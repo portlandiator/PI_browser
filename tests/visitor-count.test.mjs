@@ -97,8 +97,13 @@ test('a first visit of the week is counted once and shown at the foot of the pag
   await again.run();
   assert.deepEqual(again.urls(),[]);
   assert.equal(again.footer.textContent,'42 unique visitors this week');
-  // After ten minutes the total is asked for again, and the visitor is still counted once.
-  const later=browser({values:first.values,github:{...first.state.github,catalog:57},time:friday+11*60*1000});
+  // GitHub adds a visit to its count about ten minutes later, so the answer is kept for fifteen:
+  // within that time nothing is asked, even after eleven minutes.
+  const kept=browser({values:first.values,github:first.state.github,time:friday+11*60*1000});
+  await kept.run();
+  assert.deepEqual(kept.urls(),[]);
+  // After that the total is asked for again, and the visitor is still counted once.
+  const later=browser({values:first.values,github:{...first.state.github,catalog:57},time:friday+16*60*1000});
   await later.run();
   assert.deepEqual(later.urls(),[question]);
   assert.equal(later.footer.textContent,'57 unique visitors this week');
