@@ -4,7 +4,7 @@
   "status": "finalized_before_analysis",
   "subject": "D3D5A6BA921F4EFD915F7B12D2779668",
   "dataset": "collections/editorial-83f59e6ea2d8/",
-  "candidateFingerprint": "b6f02273187a07e5c517a8fbcd69817d74019e5012163cddc8aa912ae6e61186",
+  "candidateFingerprint": "b4c4c670e75aa03691d45e9b38cd6c5c96264ceacb2536ede04a75cd1982fe10",
   "candidateCount": 4322,
   "target": 300,
   "selectedCount": 300,
@@ -7689,40 +7689,38 @@
     {
       "id": "b3943fecd0d35f270354038e",
       "source": "BH00245",
-      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+      "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
       "authorizedParagraphs": [
-        15
+        14
       ],
       "mandatoryAuthorized": true,
       "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog item BH00245 was corrected.",
       "authorityEvidence": {
         "kind": "catalogue_authorized_paragraphs",
-        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
         "paragraphs": [
-          15
+          14
         ]
       }
     },
     {
       "id": "2e4f560dafdfda5f8dd04583",
       "source": "BH00245",
-      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+      "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
       "authorizedParagraphs": [
         37,
         38,
-        39,
-        40
+        39
       ],
       "mandatoryAuthorized": true,
       "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog item BH00245 was corrected.",
       "authorityEvidence": {
         "kind": "catalogue_authorized_paragraphs",
-        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
         "paragraphs": [
           37,
           38,
-          39,
-          40
+          39
         ]
       }
     }
