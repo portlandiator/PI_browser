@@ -5,7 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import {gzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
-import {packageWebsite,safePath,visitorCountModule,withoutVisitorCount} from '../scripts/package-website.mjs';
+import {packageWebsite,safePath,visitorCountModule,withoutVisitorCount,visitorGraphFiles} from '../scripts/package-website.mjs';
 const sha=x=>createHash('sha256').update(x).digest('hex');
 async function fixture(t) {
   const root=await fs.mkdtemp(path.join(os.tmpdir(),'pi-ios-test-'));
@@ -16,6 +16,9 @@ async function fixture(t) {
   const files={
     'publication.json':JSON.stringify({commit,dataset}), 'index.html':'<script type="module" src="./visitor-count.mjs" data-visitor-page="catalog"></script><h1>Collection</h1><footer><span data-visitor-count>Partial Inventory browser</span></footer>',
     'visitor-count.mjs':await fs.readFile(new URL('../../src/visitor-count.mjs',import.meta.url)),
+    'visitors.html':await fs.readFile(new URL('../../src/visitors.html',import.meta.url)),
+    'visitor-graph.mjs':await fs.readFile(new URL('../../src/visitor-graph.mjs',import.meta.url)),
+    'visitors.css':await fs.readFile(new URL('../../src/visitors.css',import.meta.url)),
     'subjects.html':'<h1>Subjects</h1>', 'volume-view.html':'<h1>Volumes</h1>',
     'stats.json':JSON.stringify({dataset,records:29114}), 'volumes.json':JSON.stringify({'1':'pdf-volumes/volume-1.pdf'}),
     'pdf-hosting.json':JSON.stringify({url:'https://example.com/pdfs/'}),
@@ -59,6 +62,29 @@ test('leaves the website\'s visitor count out of the app',async t=>{
     if(!/\.(?:html|js|mjs)$/.test(file))continue;
     assert.doesNotMatch(await fs.readFile(path.join(args.output,file),'utf8'),/releases\/download|api\.github\.com/,file);
   }
+});
+test('leaves the website\'s graph of visitor counts out of the app',async t=>{
+  const args=await fixture(t);
+  // The website publishes the page, its script and its styles.
+  assert.deepEqual(visitorGraphFiles,['visitors.html','visitor-graph.mjs','visitors.css']);
+  for(const file of visitorGraphFiles)await fs.access(path.join(args.site,file));
+  assert.match(await fs.readFile(path.join(args.site,'visitors.html'),'utf8'),/src="\.\/visitor-graph\.mjs"/);
+  await packageWebsite(args);
+  // The app has none of them, and does not list them among the files it verifies.
+  const listed=JSON.parse(await fs.readFile(path.join(args.output,'offline-files.json'),'utf8')).files.map(file=>file.path);
+  for(const file of visitorGraphFiles){
+    await assert.rejects(fs.access(path.join(args.output,file)),{code:'ENOENT'},file);
+    assert(!listed.includes(file),file);
+  }
+  // Everything else is packaged as before, and nothing packaged refers to the graph.
+  assert(listed.includes('index.html')&&listed.includes(visitorCountModule)&&listed.includes('subjects.html'));
+  for(const file of await fs.readdir(args.output,{recursive:true})){
+    if(/\.(?:html|js|mjs|css)$/.test(file))assert.doesNotMatch(await fs.readFile(path.join(args.output,file),'utf8'),/visitors\.html|visitor-graph|visitors\.css/,file);
+  }
+  // A changed graph file still stops the package: every published file is verified before any is left out.
+  const again=await fixture(t);
+  await fs.appendFile(path.join(again.site,'visitor-graph.mjs'),'\n// changed');
+  await assert.rejects(packageWebsite(again),/Length|Hash/);
 });
 test('rejects changed source bytes before publishing any output',async t=>{
   const args=await fixture(t);await fs.writeFile(path.join(args.site,'index.html'),'tampered');

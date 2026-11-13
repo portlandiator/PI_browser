@@ -4,9 +4,9 @@ import {readFileSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 
 const script=readFileSync(new URL('../src/site.js',import.meta.url),'utf8');
-function setup(saved, blocked=false,href='https://example.org/PI_browser/subjects.html'){
+function setup(saved, blocked=false,href='https://example.org/PI_browser/subjects.html',absent=[]){
   const events={},clicks={},root={dataset:{}},values=new Map(saved?[['pi-theme',saved]]:[]),attributes={};
-  const element=id=>({addEventListener:(event,fn)=>{clicks[id+':'+event]=fn;},setAttribute:(key,value)=>{attributes[id+':'+key]=value;}});
+  const element=id=>absent.includes(id)?null:({addEventListener:(event,fn)=>{clicks[id+':'+event]=fn;},setAttribute:(key,value)=>{attributes[id+':'+key]=value;}});
   let redirected;
   runInNewContext(script,{
     URL,location:{href},history:{replaceState:(_state,_title,url)=>{redirected=String(url);}},
@@ -25,6 +25,21 @@ test('theme persists across pages, switches both ways, and follows other tabs',(
 });
 test('theme control still works when browser storage is blocked',()=>{
   const page=setup(undefined,true);page.clicks['theme-toggle:click']();assert.equal(page.root.dataset.theme,'dark');
+});
+test('pages without the About dialog still show and switch the theme',()=>{
+  // The policy, support and visitor-graph pages have a theme switch but no dialog.
+  const absent=['about-dialog','about-open','footer-about','about-close','about-stats'];
+  for(const name of ['privacy.html','support.html','visitors.html']){
+    const html=readFileSync(new URL('../src/'+name,import.meta.url),'utf8');
+    assert(html.includes('<script src="./site.js"></script>')&&html.includes('id="theme-toggle"')&&!html.includes('about-dialog'),name);
+  }
+  const page=setup('dark',false,'https://example.org/PI_browser/visitors.html',absent);
+  // Opened in the dark theme, the switch says so at once.
+  assert.equal(page.root.dataset.theme,'dark');
+  assert.equal(page.attributes['theme-toggle:aria-checked'],'true');assert.equal(page.attributes['meta:content'],'#151d19');
+  page.clicks['theme-toggle:click']();
+  assert.equal(page.attributes['theme-toggle:aria-checked'],'false');assert.equal(page.values.get('pi-theme'),'light');
+  assert.deepEqual(Object.keys(page.clicks),['theme-toggle:click']);
 });
 test('catalog, subject and volume pages share header geometry and About content',()=>{
   const pages=['index.html','subjects.html','relationships.html','passages.html','volume-view.html'].map(name=>readFileSync(new URL('../src/'+name,import.meta.url),'utf8'));

@@ -11,8 +11,10 @@
 // typed), the view reads the week's download counts for the foot of the page.
 // The first time in a week, it also asks GitHub for that week's file, without
 // cookies or a referrer, which adds one to the file's count.
-// Nothing is sent to anyone but GitHub, which already serves the site. The iOS
-// app is packaged without this module (ios/scripts/package-website.mjs).
+// Nothing is sent to anyone but GitHub, which already serves the site. The
+// number at the foot of the page leads to a graph of every week's counts
+// (visitors.html, src/visitor-graph.mjs). The iOS app is packaged without this
+// module and without the graph (ios/scripts/package-website.mjs).
 
 export const releaseTag='visitor-counts';
 export const pages={catalog:'Catalog',volumes:'Volumes',subjects:'Subjects','study-guides':'Study guides'};
@@ -60,9 +62,90 @@ export function weekCounts(release,week){
 }
 export const countLabel=count=>`${count.toLocaleString('en-US')} unique visitor${count===1?'':'s'} this week`;
 
+// The release notes hold every week's totals as a table that
+// scripts/visitor-counts.mjs writes: a row for each week, a column for each
+// page. Read back here: week → page → count.
+const notesColumn='Week from',notesInProgress=' (so far)';
+export {notesColumn,notesInProgress};
+export function readHistory(notes){
+  const history=new Map(),names=Object.keys(pages);
+  let columns;
+  for(const line of String(notes||'').split(/\r?\n/)){
+    const row=/^\s*\|(.*)\|\s*$/.exec(line);
+    if(!row)continue;
+    const cells=row[1].split('|').map(cell=>cell.trim());
+    if(cells[0]===notesColumn){columns=cells.slice(1).map(label=>names.find(page=>pages[page]===label));continue;}
+    const week=cells[0].endsWith(notesInProgress)?cells[0].slice(0,-notesInProgress.length):cells[0];
+    if(!columns||!/^\d{4}-\d{2}-\d{2}$/.test(week))continue;
+    const day=new Date(week+'T00:00:00Z');
+    if(Number.isNaN(day.getTime())||weekOf(day)!==week)continue;
+    const counts={};
+    columns.forEach((page,index)=>{
+      const text=(cells[index+1]||'').replaceAll(',','');
+      if(page&&/^\d+$/.test(text))counts[page]=Number(text);
+    });
+    history.set(week,counts);
+  }
+  return history;
+}
+// Every week's totals up to the current one, from GitHub's description of the
+// release: the table in its notes, and the download counts of the files still
+// attached (this week's and last week's), which are newer. The higher number
+// stands, so a count once recorded is never lowered.
+export function weeklyTotals(release,current){
+  const history=readHistory(release?.body);
+  for(const asset of Array.isArray(release?.assets)?release.assets:[]){
+    const file=parseAssetName(asset?.name);
+    if(!file||!Number.isSafeInteger(asset.download_count)||asset.download_count<0)continue;
+    const counts=history.get(file.week)||{};
+    counts[file.page]=Math.max(counts[file.page]??0,asset.download_count);
+    history.set(file.week,counts);
+  }
+  // Files are prepared for the coming weeks; those have no visitors yet.
+  for(const week of [...history.keys()])if(week>current)history.delete(week);
+  return history;
+}
+
 // GitHub adds a request to a file's count about ten minutes after it was made,
 // so an answer is kept a little longer: the next one includes the visit.
-const seenKey='pi-visitor-week',cacheKey='pi-visitor-counts',cacheTime=15*60*1000;
+const seenKey='pi-visitor-week',cacheKey='pi-visitor-counts';
+export const cacheTime=15*60*1000;
+// The page with the graph of every week's counts, beside this module.
+export const graphPage='visitors.html';
+
+// The browser's own storage. Unavailable storage reads as empty and refuses
+// to write.
+export function browserStore(storage){
+  return {
+    read:key=>{try{return JSON.parse(storage.getItem(key));}catch{return null;}},
+    write:(key,value)=>{
+      try{const text=JSON.stringify(value);storage.setItem(key,text);return storage.getItem(key)===text;}catch{return false;}
+    },
+  };
+}
+// The totals GitHub holds: this week's counts by page (`counts`, absent for a
+// page whose file is missing) and every week's totals, oldest first (`weeks`).
+// GitHub allows few unsigned questions an hour from one address, so an answer
+// is kept for a quarter of an hour and a refused question falls back to it.
+// `totals` is null when GitHub gave no answer and none was kept; `reachable`
+// is false when GitHub could not be asked at all.
+export async function readTotals({store,fetch,repository,week,now}){
+  const cached=store.read(cacheKey);
+  const kept=cached?.week===week&&cached.counts&&typeof cached.counts==='object'&&Array.isArray(cached.weeks)?cached:null;
+  const age=kept?now()-kept.at:NaN;
+  if(age>=0&&age<cacheTime)return {totals:kept,reachable:true};
+  let response;
+  try{response=await fetch(countsUrl(repository),{credentials:'omit',referrerPolicy:'no-referrer',headers:{Accept:'application/vnd.github+json'}});}
+  catch{return {totals:kept,reachable:false};}
+  try{
+    // Without the release there are no files to count with.
+    if(!response.ok&&response.status!==404)return {totals:kept,reachable:true};
+    const release=response.ok?await response.json():null;
+    const totals={week,at:now(),counts:weekCounts(release,week),weeks:[...weeklyTotals(release,week)].sort(([a],[b])=>a<b?-1:1)};
+    store.write(cacheKey,totals);
+    return {totals,reachable:true};
+  }catch{return {totals:kept,reachable:true};}
+}
 // Crawlers and test browsers that run scripts are not visitors.
 const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|headless|lighthouse|pagespeed|phantomjs|ptst\/|preview|external(?:agent|hit|fetcher)/i;
 // Most automated browsers do not say what they are: crawlers and the scanners
@@ -79,25 +162,30 @@ const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|h
 const signs=['pointerdown','pointermove','keydown','wheel','touchstart'],travel=8;
 
 // Counts this browser once for the page and week, and shows the week's total
-// in every element marked data-visitor-count. The page is named by the
-// data-visitor-page attribute of the script element that loads this module.
+// in every element marked data-visitor-count, as a link to the graph of every
+// week's counts. The page is named by the data-visitor-page attribute of the
+// script element that loads this module.
 export async function showVisitorCount({document,navigator,storage,fetch,site,now=()=>Date.now()}){
   const repository=siteRepository(site);
   const page=document.querySelector('script[data-visitor-page]')?.dataset.visitorPage;
   if(!repository||!Object.hasOwn(pages,page))return;
   if(navigator.webdriver||automated.test(navigator.userAgent||''))return;
 
-  // Unavailable storage reads as empty and refuses to write.
-  const read=key=>{try{return JSON.parse(storage.getItem(key));}catch{return null;}};
-  const write=(key,value)=>{
-    try{const text=JSON.stringify(value);storage.setItem(key,text);return storage.getItem(key)===text;}catch{return false;}
-  };
+  const store=browserStore(storage),{read,write}=store;
   const seenPages=week=>{const seen=read(seenKey);return seen?.week===week&&Array.isArray(seen.pages)?seen.pages:[];};
 
   let shown;
+  const graph=new URL(graphPage,site).href;
   const render=()=>{
     if(shown===undefined)return;
-    for(const element of document.querySelectorAll('[data-visitor-count]')){element.textContent=countLabel(shown);element.hidden=false;}
+    for(const element of document.querySelectorAll('[data-visitor-count]')){
+      const link=document.createElement('a');
+      link.href=graph;
+      link.title='See the weekly counts as a graph';
+      link.textContent=countLabel(shown);
+      element.replaceChildren(link);
+      element.hidden=false;
+    }
   };
   // The study guides replace the page body in place, footer included.
   document.addEventListener('pi-guide-page',render);
@@ -119,26 +207,6 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   });
   const week=weekOf(new Date(now()));
 
-  // GitHub allows few unsigned questions an hour from one address, so an
-  // answer is kept for a quarter of an hour and a refused question falls back
-  // to it.
-  // Null when GitHub gave no answer.
-  let reachable=navigator.onLine!==false;
-  async function counts(){
-    const cached=read(cacheKey),kept=cached?.week===week&&cached.counts&&typeof cached.counts==='object'?cached:null;
-    const age=kept?now()-kept.at:NaN;
-    if(age>=0&&age<cacheTime)return kept;
-    let response;
-    try{response=await fetch(countsUrl(repository),{credentials:'omit',referrerPolicy:'no-referrer',headers:{Accept:'application/vnd.github+json'}});}
-    catch{reachable=false;return kept;}
-    try{
-      // Without the release there are no files to count with.
-      if(!response.ok&&response.status!==404)return kept;
-      const answer={week,at:now(),counts:response.ok?weekCounts(await response.json(),week):{}};
-      write(cacheKey,answer);
-      return answer;
-    }catch{return kept;}
-  }
   // Notes that this browser is counted on the page this week; false when it
   // already is (another tab may have counted it while GitHub was being asked)
   // or when the browser cannot keep the note. A browser that cannot remember
@@ -148,7 +216,9 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
     return !seen.includes(page)&&write(seenKey,{week,pages:[...seen,page]});
   }
 
-  const earlier=seenPages(week).includes(page),known=await counts();
+  const earlier=seenPages(week).includes(page),online=navigator.onLine!==false;
+  const answer=await readTotals({store,fetch,repository,week,now});
+  const known=answer.totals,reachable=online&&answer.reachable;
   // Before the week's file exists there is nothing to add to, and while GitHub
   // cannot be reached the request would be lost: the visit is counted later.
   // When GitHub only refused to say, the file is taken to exist.
@@ -166,7 +236,8 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   // GitHub's answer was given before this visit was added, and an earlier
   // visit may not be in it yet: a counted visitor is never shown zero.
   shown=Math.max(total+(added?1:0),seenPages(week).includes(page)?1:0);
-  // The kept answer follows, so the next page opened shows the same number.
+  // The kept answer follows, so the next page opened, and the graph, show the
+  // same number.
   write(cacheKey,{...known,counts:{...known.counts,[page]:shown}});
   render();
 }

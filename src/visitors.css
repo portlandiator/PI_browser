@@ -1,0 +1,78 @@
+/* The graph of weekly visitor counts (visitors.html, visitor-graph.mjs).
+   The four line colours were chosen as a set and checked pair by pair on the
+   day and night paper: lightness, at least 3:1 against the paper, and a clear
+   difference for readers with any of the three kinds of colour blindness.
+   Change them only as a set, and check the new set the same way. Print uses
+   the day colours, like the rest of the site. */
+:root{--visitors-catalog:#2347ae;--visitors-volumes:#8c3019;--visitors-subjects:#38a017;--visitors-study-guides:#b576c3}
+:root[data-theme=dark]{--visitors-catalog:#445dd8;--visitors-volumes:#a35303;--visitors-subjects:#57a45b;--visitors-study-guides:#bb70b5}
+@media print{:root[data-theme]{--visitors-catalog:#2347ae;--visitors-volumes:#8c3019;--visitors-subjects:#38a017;--visitors-study-guides:#b576c3}}
+.visitors-catalog{--series:var(--visitors-catalog)}.visitors-volumes{--series:var(--visitors-volumes)}.visitors-subjects{--series:var(--visitors-subjects)}.visitors-study-guides{--series:var(--visitors-study-guides)}
+
+.visitors-page{max-width:1080px;padding-top:48px;padding-bottom:64px}
+.visitors-intro{max-width:660px;font-size:15px;line-height:1.75;color:var(--muted);margin-bottom:0}
+.visitors-intro a,.visitors-status a{color:var(--link);text-decoration:underline;text-underline-offset:3px}
+.visitors-figure{margin:38px 0 0}
+.visitors-status{font-size:15px;color:var(--muted);margin:0 0 6px}
+#visitors-retry{font-size:14px;color:var(--link);text-decoration:underline}
+
+/* Names are in the ink of the page; the colour is carried by the key beside
+   them: a short stroke with a dot, as the lines are drawn. */
+.visitors-legend{list-style:none;display:flex;flex-wrap:wrap;gap:6px 28px;margin:0 0 18px;padding:0;font-size:15px}
+.visitors-legend li{display:flex;align-items:center;gap:9px}
+.visitors-key{position:relative;flex:none;width:24px;height:2px;border-radius:1px;background:var(--series)}
+.visitors-key:after{content:'';position:absolute;left:8px;top:-3px;width:8px;height:8px;border-radius:50%;background:var(--series)}
+
+.visitors-plot{position:relative;touch-action:pan-y;-webkit-user-select:none;user-select:none}
+.visitors-plot:focus-visible{outline:2px solid var(--gold);outline-offset:6px}
+/* The site gives every drawing an outline stroke; here each mark sets its own. */
+.visitors-chart{display:block;fill:none;stroke:none;overflow:visible}
+.visitors-chart text{font-family:'EB Garamond',serif}
+.visitors-grid{stroke:var(--rule);stroke-width:1}
+.visitors-base{stroke:var(--control-rule)}
+.visitors-axis{fill:var(--muted);font-size:12.5px;font-variant-numeric:lining-nums tabular-nums}
+.visitors-line{stroke:var(--series);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.visitors-pending{stroke-dasharray:1 6}
+/* A ring of paper keeps a dot legible where lines cross it. */
+.visitors-dot{fill:var(--series);stroke:var(--paper);stroke-width:2}
+.visitors-open{fill:var(--paper);stroke:var(--series);stroke-width:2}
+.visitors-end{fill:var(--ink);font-size:14px}
+.visitors-end-value{font-weight:600;font-variant-numeric:lining-nums}
+.visitors-leader{stroke:var(--control-rule);stroke-width:1}
+.visitors-cross{stroke:var(--muted);stroke-width:1;opacity:.6}
+.visitors-mark{fill:var(--series);stroke:var(--paper);stroke-width:2}
+.visitors-mark.visitors-open{fill:var(--paper);stroke:var(--series);stroke-width:2.5}
+
+.visitors-tip{position:absolute;z-index:2;pointer-events:none;min-width:158px;padding:10px 14px 11px;border:1px solid var(--rule);border-radius:6px;background:var(--white);color:var(--ink);box-shadow:0 8px 28px #10251c26;font-size:14px;line-height:1.5;white-space:nowrap}
+.visitors-tip-week{font-size:12.5px;color:var(--muted);margin-bottom:5px}
+.visitors-tip-row{display:flex;align-items:center;gap:9px}
+.visitors-tip-row strong{min-width:2ch;font-weight:600;font-variant-numeric:lining-nums tabular-nums;text-align:right}
+.visitors-tip-row span:last-child{color:var(--muted)}
+.visitors-so-far{color:var(--muted);font-style:italic;font-weight:400}
+
+.visitors-figure figcaption{max-width:660px;margin-top:16px;font-size:13.5px;line-height:1.65;color:var(--muted)}
+.visitors-table{margin-top:26px;border-top:1px solid var(--rule);padding-top:6px;font-size:15px}
+.visitors-table summary{cursor:pointer;min-height:40px;display:list-item;align-content:center;color:var(--link)}
+.visitors-scroll{overflow-x:auto;margin-top:6px}
+.visitors-table table{border-collapse:collapse;min-width:min(100%,560px);font-variant-numeric:lining-nums tabular-nums}
+.visitors-table th,.visitors-table td{padding:8px 0 8px 28px;border-bottom:1px solid var(--rule);text-align:right;font-weight:400;white-space:nowrap}
+.visitors-table th:first-child{padding-left:0;text-align:left}
+.visitors-table thead th{font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+.visitors-brief{display:none}
+
+@media(max-width:700px){
+  .visitors-page{padding-top:31px;padding-bottom:44px}
+  .visitors-figure{margin-top:28px}
+  .visitors-legend{gap:4px 20px;font-size:14px}
+  .visitors-end{font-size:13px}
+  /* Five columns in the width of a phone: short dates, and headings and the
+     note of the week in progress may take a second line. */
+  .visitors-long{display:none}.visitors-brief{display:inline}
+  .visitors-table{font-size:14px}
+  .visitors-table table{width:100%}
+  .visitors-table th,.visitors-table td{padding-left:10px}
+  .visitors-table th{white-space:normal}
+  .visitors-table thead th{font-size:10.5px;letter-spacing:.3px;vertical-align:bottom}
+  .visitors-table .visitors-so-far{display:block;font-size:12px}
+}
+@media print{.visitors-tip,.visitors-cross,.visitors-mark,#visitors-retry{display:none}.visitors-table[hidden]{display:none}}

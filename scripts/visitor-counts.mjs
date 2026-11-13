@@ -12,15 +12,13 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName} from '../src/visitor-count.mjs';
+import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,notesColumn,notesInProgress,readHistory,weeklyTotals,graphPage} from '../src/visitor-count.mjs';
 
 // Files are prepared this many weeks ahead, so counting continues through a
 // month in which this script does not run.
 export const weeksAhead=4;
 export const releaseName='Visitor counts';
 const pageNames=Object.keys(pages);
-const firstColumn='Week from';
-const inProgress=' (so far)';
 
 export const fileLabel=(page,week)=>`${pages[page]}, week from ${week}`;
 // A transparent one-pixel image: every browser accepts an image from another
@@ -31,28 +29,9 @@ export function siteAddress(repository){
   return `https://${owner.toLowerCase()}.github.io/${name}/`;
 }
 
-// The weekly totals recorded in the release notes: week → page → count.
-export function readHistory(notes){
-  const history=new Map();
-  let columns;
-  for(const line of String(notes||'').split(/\r?\n/)){
-    const row=/^\s*\|(.*)\|\s*$/.exec(line);
-    if(!row)continue;
-    const cells=row[1].split('|').map(cell=>cell.trim());
-    if(cells[0]===firstColumn){columns=cells.slice(1).map(label=>pageNames.find(page=>pages[page]===label));continue;}
-    const week=cells[0].endsWith(inProgress)?cells[0].slice(0,-inProgress.length):cells[0];
-    if(!columns||!/^\d{4}-\d{2}-\d{2}$/.test(week))continue;
-    const day=new Date(week+'T00:00:00Z');
-    if(Number.isNaN(day.getTime())||weekOf(day)!==week)continue;
-    const counts={};
-    columns.forEach((page,index)=>{
-      const text=(cells[index+1]||'').replaceAll(',','');
-      if(page&&/^\d+$/.test(text))counts[page]=Number(text);
-    });
-    history.set(week,counts);
-  }
-  return history;
-}
+// The weekly totals recorded in the release notes, week → page → count, are
+// read by the website's graph as well, so the reader is in its module.
+export {readHistory};
 
 export function writeNotes(history,current,site){
   const weeks=[...history.keys()].filter(week=>week<=current).sort().reverse();
@@ -60,13 +39,13 @@ export function writeNotes(history,current,site){
   return [
     `Unique visitors of the four main pages of the [Partial Inventory browser](${site}) in each week, Monday to Sunday (UTC).`,
     '',
-    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time in the week that its visitor does something on that page, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html).`,
+    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time in the week that its visitor does something on that page, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html). The website draws these totals as a [graph](${site}${graphPage}).`,
     '',
     'Please do not download the files (each download is counted as a visitor) and do not edit this text: the "Keep the weekly visitor counters" workflow rewrites it every day and removes the files of earlier weeks once their counts are in the table.',
     '',
-    `| ${firstColumn} | ${pageNames.map(page=>pages[page]).join(' | ')} |`,
+    `| ${notesColumn} | ${pageNames.map(page=>pages[page]).join(' | ')} |`,
     `| --- |${pageNames.map(()=>' ---: |').join('')}`,
-    ...weeks.map(week=>`| ${week}${week===current?inProgress:''} | ${pageNames.map(page=>cell(history.get(week)[page])).join(' | ')} |`),
+    ...weeks.map(week=>`| ${week}${week===current?notesInProgress:''} | ${pageNames.map(page=>cell(history.get(week)[page])).join(' | ')} |`),
     '',
   ].join('\n');
 }
@@ -86,16 +65,10 @@ export function plan({notes,assets},now,site){
     const week=addWeeks(current,ahead),name=assetName(page,week);
     if(!present.has(name))add.push({page,week,name});
   }
-  const history=readHistory(notes);
+  // A count already in the notes is never lowered.
+  const history=weeklyTotals({body:notes,assets},current);
   if(!history.has(current))history.set(current,{});
   const recorded=file=>Number.isSafeInteger(file.count)&&file.count>=0;
-  for(const file of files){
-    if(file.week>current||!recorded(file))continue;
-    const counts=history.get(file.week)||{};
-    // A count already in the notes is never lowered.
-    counts[file.page]=Math.max(counts[file.page]??0,file.count);
-    history.set(file.week,counts);
-  }
   // Last week's files stay for a week, for the visits GitHub adds late.
   const remove=files.filter(file=>file.week<lastWeek&&recorded(file));
   return {add,remove,notes:writeNotes(history,current,site),history};

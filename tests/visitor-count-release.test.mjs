@@ -39,6 +39,8 @@ test('the release notes hold every week\'s totals, newest first',()=>{
   // Weeks that have not begun are not listed.
   assert.doesNotMatch(notes,/2026-11-16/);
   assert(notes.includes(`[Partial Inventory browser](${site})`)&&notes.includes(`(${site}privacy.html)`));
+  // The notes point to the website's graph of the same totals.
+  assert(notes.includes(`The website draws these totals as a [graph](${site}visitors.html).`));
   assert.deepEqual(Object.fromEntries(readHistory(notes)),{[week]:{catalog:41,volumes:7,subjects:12,'study-guides':3},'2026-11-02':{catalog:120,volumes:31,subjects:58,'study-guides':44}});
   // The notes read back to themselves, also after an edit on GitHub's website (CRLF, thousands separators).
   const history=readHistory(notes.replaceAll('\n','\r\n').replace('| 120 |','| 1,120 |'));
