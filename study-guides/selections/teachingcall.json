@@ -4,7 +4,7 @@
   "status": "finalized_before_analysis",
   "subject": "48991B831FEB414988B143D181EB0DEF",
   "dataset": "collections/editorial-83f59e6ea2d8/",
-  "candidateFingerprint": "8f4b12fb9484495aae06af0e2ff848624cda64ecace059ffacff778ee361cef4",
+  "candidateFingerprint": "bb3e18777555576982612f8e86d3611c5fe8996c5a0b31d61c9778d08ff9808c",
   "candidateCount": 3501,
   "target": 300,
   "selectedCount": 300,
@@ -7774,42 +7774,38 @@
     {
       "id": "a1b4c588e1857fd88b50ca3a",
       "source": "BH00245",
-      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+      "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
       "authorizedParagraphs": [
-        37,
-        38
+        37
       ],
       "mandatoryAuthorized": true,
       "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog item BH00245 was corrected.",
       "authorityEvidence": {
         "kind": "catalogue_authorized_paragraphs",
-        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
         "paragraphs": [
-          37,
-          38
+          37
         ]
       }
     },
     {
       "id": "0c7a48c04d401f288056a554",
       "source": "BH00245",
-      "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+      "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
       "authorizedParagraphs": [
         37,
         38,
-        39,
-        40
+        39
       ],
       "mandatoryAuthorized": true,
       "reason": "Included with the approved catalog correction: its wording is now marked authorized after catalog item BH00245 was corrected.",
       "authorityEvidence": {
         "kind": "catalogue_authorized_paragraphs",
-        "sourceVersion": "caf8f0e1d596c7520c4df1efad11d5eb5eb836d407712f9d0b3af5e6ca3d1656",
+        "sourceVersion": "5ad99d087c9f125e49fc7cbd4a14a406f9523b011102b2ce2f719f92d67bcf75",
         "paragraphs": [
           37,
           38,
-          39,
-          40
+          39
         ]
       }
     }
