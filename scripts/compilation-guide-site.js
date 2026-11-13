@@ -15,7 +15,7 @@
       root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';
       try{localStorage.setItem('pi-theme',root.dataset.theme);}catch{}
       sync();
-    }else if(target.id==='about-open'&&dialog){
+    }else if((target.id==='about-open'||target.id==='footer-about')&&dialog){
       dialog.showModal();
       const stats=document.getElementById('about-stats');
       import(new URL(dialog.dataset.stats,location.href).href).then(module=>module.showAboutStats(stats)).catch(()=>{stats.textContent='Collection statistics are temporarily unavailable.';});

@@ -264,10 +264,11 @@ test('the overview lists one line per guide, by centrality and then title, with 
   assert.match(overview,/<dialog id="about-dialog" data-stats="\.\.\/about-stats\.mjs"/);assert.match(overview,/<script src="site\.js" defer>/);
   const guide=await fs.readFile(path.join(f.out,'study-guides/third-pdf.html'),'utf8');
   assert.match(guide,/<h1>third guide<\/h1><p class="guide-subtitle">third<\/p>/);
-  // Every page counts its visitor for the Study guides view and shows the week's total at the left of the footer.
+  // Every page counts its visitor for the Study guides view. The footer is the main views' own:
+  // the week's total at the left and the About link at the right, nothing else.
   for(const built of [overview,guide]){
     assert.match(built,/<script type="module" src="\.\.\/visitor-count\.mjs" data-visitor-page="study-guides"><\/script><\/head>/);
-    assert.match(built,/<footer><span data-visitor-count hidden><\/span><span class="footer-note">Study guide sample · [^<]+<\/span><\/footer>/);
+    assert.equal(built.match(/<footer[\s\S]*?<\/footer>/)[0],'<footer class="site-footer"><span data-visitor-count>Partial Inventory browser</span><button class="text-button" id="footer-about">About this collection ↗</button></footer>');
   }
   assert.match(overview,/<select id="guide-sort"><option value="centrality" selected>Graph centrality<\/option><option value="thematic">Thematic<\/option><option value="alphabetical">Alphabetical<\/option><option value="quotations">Number of quotations<\/option><\/select>/);
   assert.match(overview,/src="guide-index.js"/);assert.match(overview,/localStorage\.getItem\('pi-theme'\)/);

@@ -37,3 +37,22 @@ test('merged subject bookmarks preserve reading preferences and anchors',()=>{
  const page=setup(undefined,false,'https://example.org/PI_browser/subjects.html?subject=5A637BBBB913426BA5FEBBC58E0A6BF2-09862a80&mode=en#selection');
  const url=new URL(page.redirected);assert.equal(url.searchParams.get('subject'),'5A637BBBB913426BA5FEBBC58E0A6BF2');assert.equal(url.searchParams.get('mode'),'en');assert.equal(url.hash,'#selection');
 });
+
+test('on the study guides the masthead and the footer both open the About dialog',()=>{
+  const guideScript=readFileSync(new URL('../scripts/compilation-guide-site.js',import.meta.url),'utf8');
+  const listeners={},opened=[],stats={textContent:''};
+  const dialog={dataset:{stats:'../about-stats.mjs'},showModal:()=>opened.push('opened'),close:()=>opened.push('closed'),getBoundingClientRect:()=>({left:0,right:10,top:0,bottom:10})};
+  const elements={'about-dialog':dialog,'about-stats':stats};
+  runInNewContext(guideScript,{
+    URL,location:{href:'https://example.org/PI_browser/study-guides/index.html'},localStorage:{setItem(){},getItem:()=>null},
+    document:{documentElement:{dataset:{theme:'light'}},getElementById:id=>elements[id]||null,querySelector:()=>null,addEventListener:(type,listener)=>{listeners[type]=listener;}},
+    addEventListener(){},
+  });
+  // A click may land on the button itself or on text inside it.
+  const click=id=>listeners.click({target:{id:'',closest:()=>({id})},clientX:5,clientY:5});
+  click('about-open');click('footer-about');
+  assert.deepEqual(opened,['opened','opened']);
+  click('about-close');assert.deepEqual(opened,['opened','opened','closed']);
+  // Any other button leaves the dialog alone.
+  click('guide-sort');assert.equal(opened.length,3);
+});

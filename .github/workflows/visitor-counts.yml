@@ -3,7 +3,8 @@ name: Keep the weekly visitor counters
 # download counts of small files attached to the "Visitor counts" release
 # (src/visitor-count.mjs). This adds the files for the coming weeks, writes the
 # weekly totals into the release notes and removes the files of past weeks.
-# Nothing is committed and no other workflow is started.
+# Nothing is committed and no other workflow is started. Started by hand, it
+# can also set the current week's counts back to zero.
 on:
   schedule:
     - cron: '23 0 * * *'
@@ -14,6 +15,11 @@ on:
       - 'scripts/visitor-counts.mjs'
       - 'src/visitor-count.mjs'
   workflow_dispatch:
+    inputs:
+      reset_this_week:
+        description: Set this week's four counts back to zero (for a week spoiled by automated visits)
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -37,4 +43,4 @@ jobs:
       - name: Add the coming weeks' files and record the weekly totals
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/visitor-counts.mjs
+        run: node scripts/visitor-counts.mjs ${{ inputs.reset_this_week && '--reset-week' || '' }}

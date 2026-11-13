@@ -7,6 +7,8 @@
 //
 // Run every day by .github/workflows/visitor-counts.yml:
 //   GITHUB_REPOSITORY=owner/name GITHUB_TOKEN=… node scripts/visitor-counts.mjs
+// With --reset-week (only when the workflow is started by hand with that
+// choice) the current week's counts are set back to zero first.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -58,7 +60,7 @@ export function writeNotes(history,current,site){
   return [
     `Unique visitors of the four main pages of the [Partial Inventory browser](${site}) in each week, Monday to Sunday (UTC).`,
     '',
-    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time it opens that page in the week, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html).`,
+    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time in the week that its visitor does something on that page, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html).`,
     '',
     'Please do not download the files (each download is counted as a visitor) and do not edit this text: the "Keep the weekly visitor counters" workflow rewrites it every day and removes the files of earlier weeks once their counts are in the table.',
     '',
@@ -102,14 +104,33 @@ export function plan({notes,assets},now,site){
 const sameText=(a,b)=>String(a||'').replaceAll('\r\n','\n').trim()===String(b||'').replaceAll('\r\n','\n').trim();
 
 // One run against GitHub (or, in tests, a stand-in for it).
-export async function maintain({github,site,now=new Date(),log=console.log}){
+export async function maintain({github,site,now=new Date(),log=console.log,resetWeek=false}){
   let release=await github.release();
   if(!release){
     release=await github.createRelease({name:releaseName,notes:writeNotes(new Map(),weekOf(now),site)});
     log(`Created the "${releaseName}" release.`);
   }
   let assets=await github.assets(release.id);
-  let changes=plan({notes:release.body,assets},now,site);
+  let notes=release.body;
+  const reset=[];
+  if(resetWeek){
+    // Asked for by hand when a week's counts were spoiled, for example by a
+    // burst of automated page loads: a count can only be cleared by deleting
+    // the file, so this week's files go, the run adds them again at zero, and
+    // the week's row in the notes is forgotten. Other weeks are not touched.
+    const current=weekOf(now);
+    for(const asset of assets){
+      if(parseAssetName(asset.name)?.week!==current)continue;
+      await github.removeFile(asset.id);
+      reset.push(asset.name);
+      log(`Reset ${asset.name} (was ${asset.download_count}).`);
+    }
+    assets=await github.assets(release.id);
+    const history=readHistory(notes);
+    history.delete(current);
+    notes=writeNotes(history,current,site);
+  }
+  let changes=plan({notes,assets},now,site);
   const added=changes.add.map(file=>file.name);
   for(const file of changes.add){
     await github.addFile(release,{name:file.name,label:fileLabel(file.page,file.week),bytes:fileBytes});
@@ -117,7 +138,7 @@ export async function maintain({github,site,now=new Date(),log=console.log}){
   }
   if(added.length){
     assets=await github.assets(release.id);
-    changes=plan({notes:release.body,assets},now,site);
+    changes=plan({notes,assets},now,site);
     if(changes.add.length)throw Error('GitHub does not list the files just added: '+changes.add.map(file=>file.name).join(', '));
   }
   if(!sameText(release.body,changes.notes)){
@@ -131,7 +152,7 @@ export async function maintain({github,site,now=new Date(),log=console.log}){
     await github.removeFile(file.id);
     log(`Removed ${file.name} (${file.count} recorded in the notes).`);
   }
-  return {release,added,removed:changes.remove.map(file=>file.name),notes:changes.notes};
+  return {release,added,reset,removed:changes.remove.map(file=>file.name),notes:changes.notes};
 }
 
 // GitHub's REST API for the one release, with the workflow's token.
@@ -180,7 +201,7 @@ export function githubRelease({repository,token,fetch=globalThis.fetch,api=proce
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const repository=process.env.GITHUB_REPOSITORY;
-  const result=await maintain({github:githubRelease({repository,token:process.env.GITHUB_TOKEN}),site:siteAddress(repository||'')});
-  console.log(`${result.added.length} files added, ${result.removed.length} removed.`);
+  const result=await maintain({github:githubRelease({repository,token:process.env.GITHUB_TOKEN}),site:siteAddress(repository||''),resetWeek:process.argv.includes('--reset-week')});
+  console.log(`${result.added.length} files added, ${result.removed.length} removed${result.reset.length?`, ${result.reset.length} reset to zero`:''}.`);
   if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,`${result.notes}\n[${releaseName} release](${result.release.html_url})\n`);
 }
