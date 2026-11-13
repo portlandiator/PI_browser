@@ -37,6 +37,12 @@ async function verifiedFile(root, entry) {
   return bytes;
 }
 
+// The website counts its weekly visitors with src/visitor-count.mjs. The app
+// takes no part in that: the module is packaged empty, so the pages that load
+// it keep their own footer wording and nothing is counted or asked of GitHub.
+export const visitorCountModule = 'visitor-count.mjs';
+export const withoutVisitorCount = '// The website counts its weekly visitors here. The app does not.\n';
+
 export async function packageWebsite({site, audit, pdfs, output, bibliography, expectedCommit}) {
   for (const value of [site, audit, output]) assert(value, 'site, audit and output are required');
   site = path.resolve(site); audit = path.resolve(audit); output = path.resolve(output);
@@ -76,6 +82,7 @@ export async function packageWebsite({site, audit, pdfs, output, bibliography, e
     const bytes = await verifiedFile(site, entry);
     let packaged = bytes;
     if (entry.path === 'pdf-hosting.json') packaged = Buffer.from('{"url":"","repository":""}\n');
+    if (entry.path === visitorCountModule) packaged = Buffer.from(withoutVisitorCount);
     if (bibliography && entry.path.endsWith('.html')) {
       packaged = Buffer.from(bytes.toString('utf8').replaceAll(/https:\/\/github\.com\/(?:portlandiator|loomofreality)\/PI_browser\/raw\/refs\/heads\/main\/docs\/Bibliography(?:%2C|,)\s?(?:%20| )Source(?:%20| )Codes(?:%20| )and(?:%20| )Subject(?:%20| )Schema\.pdf/g, '/PI_browser/bibliography.pdf'));
     }

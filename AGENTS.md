@@ -25,6 +25,7 @@ For interface-only work, reuse a verified compatible dataset with `node scripts/
 - Do not load the complete corpus into the browser. Load records and index shards on demand, and bound cache sizes.
 - Keep deep links and all assets compatible with the /PI_browser/ project subpath. Store filter and reader state in the URL.
 - Verify the full corpus build, semantic search tests, keyboard interaction, and desktop/mobile reader before publishing.
+- Collect no personal information and add no analytics service. The only measurement is the anonymous weekly visitor count of the four main views (README, Visitor counts); keep it out of the iOS package and keep `src/privacy.html` true.
 
 The owner authorized publishing this collection to the GitHub repository named by the checkout's `origin` remote, its GitHub Pages site, and the volume PDF site named in `src/pdf-hosting.json`. Preserve existing remote history. Never force-push or change repository visibility without an explicit request.
 

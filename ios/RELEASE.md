@@ -50,6 +50,7 @@ Run these checks on an actual iPhone and iPad, not only a simulator:
 - Open several PDFs including the first and last listed volume, jump to a late page, change zoom, and follow an internal PDF link. Confirm no PDF-host request is needed.
 - Add bookmarks with paragraph anchors and volume/page selections, force-quit, and reopen. Install an updated build and check that bookmarks still resolve.
 - Check Copy link and the native share sheet: links must start with the public website address, never `127.0.0.1`.
+- Scroll to the foot of Catalog and Volumes: it reads “Partial Inventory browser”, with no visitor count. The website's count is not part of the app.
 - Check print/save-to-Files, selection/copy, native find, iPad split view, rotation, keyboard navigation, VoiceOver, text sizes, day/night themes, and back/forward gestures.
 - Open an external reference offline and online. Offline failure must not make the local reader unavailable. Open **Collection and updates** offline and confirm the installed reader remains usable.
 - Interrupt an App Store/TestFlight update and confirm the previous installed app is still usable; then complete the update and confirm the collection version changes.

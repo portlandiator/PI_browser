@@ -49,6 +49,10 @@ try{
   await page.waitForFunction(()=>document.querySelector('#results')?.getAttribute('aria-busy')==='false');
   assert.equal(await page.locator('#collection-count').innerText(),installed.records.toLocaleString('en-US'));
   checks.push('Cold catalog load with every external request blocked');
+  // The website's weekly visitor count is not part of the app.
+  assert.doesNotMatch(await fs.readFile(path.join(root,'visitor-count.mjs'),'utf8'),/github|fetch/);
+  assert.equal(await page.locator('.site-footer [data-visitor-count]').innerText(),'Partial Inventory browser');
+  checks.push('No visitor counting in the packaged site');
   await page.locator('#query').fill('God');await page.locator('#search-form button[type=submit]').click();
   await page.waitForFunction(()=>document.querySelector('#results')?.getAttribute('aria-busy')==='false'&&document.querySelectorAll('.result-row').length>0);
   checks.push('Full-text search via local Web Worker and index shards');
