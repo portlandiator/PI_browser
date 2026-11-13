@@ -24,23 +24,24 @@
       try { localStorage.setItem('pi-theme', root.dataset.theme); } catch {}
       sync();
     });
-    sync();
-    // The policy, support and visitor-graph pages have no About dialog.
+    // privacy.html and support.html have the theme switch but no About dialog.
     const dialog = document.getElementById('about-dialog');
-    if (!dialog) return;
-    for (const id of ['about-open', 'footer-about']) {
-      document.getElementById(id)?.addEventListener('click', () => {
-        dialog.showModal();
-        const stats=document.getElementById('about-stats');
-        import('./about-stats.mjs').then(module=>module.showAboutStats(stats)).catch(()=>{stats.textContent='Collection statistics are temporarily unavailable.';});
+    if (dialog) {
+      for (const id of ['about-open', 'footer-about']) {
+        document.getElementById(id)?.addEventListener('click', () => {
+          dialog.showModal();
+          const stats=document.getElementById('about-stats');
+          import('./about-stats.mjs').then(module=>module.showAboutStats(stats)).catch(()=>{stats.textContent='Collection statistics are temporarily unavailable.';});
+        });
+      }
+      document.getElementById('about-close')?.addEventListener('click', () => dialog.close());
+      dialog.addEventListener('click', event => {
+        if (event.target !== dialog) return;
+        const rect = dialog.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
       });
     }
-    document.getElementById('about-close').addEventListener('click', () => dialog.close());
-    dialog.addEventListener('click', event => {
-      if (event.target !== dialog) return;
-      const rect = dialog.getBoundingClientRect();
-      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
-    });
+    sync();
   });
   window.addEventListener('storage', event => {
     if (event.key !== 'pi-theme') return;

@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {runInNewContext} from 'node:vm';
 import {pages,assetName} from '../src/visitor-count.mjs';
 import {weeklyRows,axis,spread,chartLayout,nearestWeek,caption,weekName,number,messages,showVisitorGraph} from '../src/visitor-graph.mjs';
 
@@ -364,6 +365,29 @@ test('the graph page counts nobody and collects nothing',()=>{
   const policy=source('src/privacy.html');
   assert.match(policy,/a <a href="\.\/visitors\.html">graph of the weekly totals<\/a>/);
   assert.match(policy,/Opening the graph counts nothing/);
+});
+
+test('the graph page, which has no About dialog, still shows and switches the theme',()=>{
+  // The site's shared script serves every page; this one, like the policy and support pages, has a theme switch only.
+  const html=source('src/visitors.html');
+  assert(html.includes('id="theme-toggle"')&&!html.includes('about-dialog')&&!html.includes('about-open'));
+  const events={},clicks={},attributes={},values=new Map([['pi-theme','dark']]),root={dataset:{}};
+  const present=['theme-toggle','meta'];
+  const part=id=>present.includes(id)?{addEventListener:(type,listener)=>{clicks[id+':'+type]=listener;},setAttribute:(key,value)=>{attributes[id+':'+key]=value;}}:null;
+  runInNewContext(source('src/site.js'),{
+    URL,location:{href:publicSite+'visitors.html'},history:{replaceState(){}},
+    // A browser of any age: the script may watch the page being read, or wait for it.
+    MutationObserver:class{observe(){}disconnect(){}},
+    document:{documentElement:root,getElementById:part,querySelector:()=>part('meta'),addEventListener:(type,listener)=>{events[type]=listener;}},
+    window:{addEventListener(){}},
+    localStorage:{getItem:key=>values.get(key),setItem:(key,value)=>{values.set(key,value);}},
+  });
+  events.DOMContentLoaded();
+  // Opened in the dark theme, the switch says so, and it still switches.
+  assert.equal(root.dataset.theme,'dark');
+  assert.equal(attributes['theme-toggle:aria-checked'],'true');assert.equal(attributes['meta:content'],'#151d19');
+  clicks['theme-toggle:click']();
+  assert.deepEqual([root.dataset.theme,attributes['theme-toggle:aria-checked'],values.get('pi-theme')],['light','false','light']);
 });
 
 test('the four line colours stand out from the day and the night paper',()=>{
