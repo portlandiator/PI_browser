@@ -9,7 +9,8 @@
 //    week, which is to say the views it has already been counted on.
 // Once a visitor has done something in a view (moved the pointer, touched,
 // typed), the view reads the week's download counts for the foot of the page.
-// A visitor who is still doing something there ten seconds later is counted,
+// A visitor who has pressed something there (clicked, touched the screen or
+// typed) and is still doing something ten seconds after beginning is counted,
 // the first time in a week: the view asks GitHub for that week's file, without
 // cookies or a referrer, which adds one to the file's count.
 // Nothing is sent to anyone but GitHub, which already serves the site. The
@@ -173,14 +174,22 @@ const automated=/bot[\/;]|adsbot|googleother|inspectiontool|crawl|spider|slurp|h
 // corner with nobody there (6 of 8 fresh browsers, 2026-11-13), and a resting
 // pointer is reported again whenever the page under it changes. Only a
 // pointer that travels is a hand.
-const signs=['pointerdown','pointermove','keydown','wheel','touchstart'],travel=8;
+const signs=['pointerdown','pointermove','keydown','wheel','touchstart','click'],travel=8;
 // A program can do those things too, the moment a page has loaded. Someone
 // who has come to read is still there, and still doing something, ten seconds
-// later, so that is when a visitor is counted. People who look and leave at
-// once are not. (The wait was added for the hourly bursts described at
-// `assetName`, on the guess that programs touched the page and went. The
+// later, so that is the earliest a visitor is counted. People who look and
+// leave at once are not. (The wait was added for the hourly bursts described
+// at `assetName`, on the guess that programs touched the page and went. The
 // bursts went on as before, 28 and 22 and 21 in the next three hours.)
 export const stay=10*1000;
+// Moving a pointer, turning the wheel and pressing the keys that scroll are
+// also what a program does to look like a reader, for as long as it likes. A
+// visitor is therefore counted only after pressing something in the page: a
+// mouse button, a finger or a pen put down, a link or button worked from the
+// keyboard (which arrives as a click), or a key that types. Somebody who reads
+// a page by scrolling alone, with a wheel or the keyboard, is not counted.
+const types=key=>key==='Enter'||(typeof key==='string'&&key.length===1&&key!==' ');
+export const presses=event=>event.type==='pointerdown'||event.type==='touchstart'||event.type==='click'||(event.type==='keydown'&&types(event.key));
 
 // Counts this browser once for the page and week, and shows the week's total
 // in every element marked data-visitor-count, as a link to the graph of every
@@ -213,23 +222,28 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   // The study guides replace the page body in place, footer included.
   document.addEventListener('pi-guide-page',render);
 
-  // Resolves when the visitor does something in the page while it is being
-  // looked at. `ready` passes over what comes too soon, so a pointer's travel
-  // is measured from where it is first seen once the time has come: a pointer
-  // left lying is reported at the same place again and never counts.
-  const acts=(ready=()=>true)=>new Promise(resolve=>{
-    let rest;
-    const acted=event=>{
-      if(!event.isTrusted||document.visibilityState!=='visible'||!ready())return;
-      if(event.type==='pointermove'){
-        rest??=[event.clientX,event.clientY];
-        if(!(Math.abs(event.clientX-rest[0])+Math.abs(event.clientY-rest[1])>=travel))return;
-      }
-      for(const sign of signs)document.removeEventListener(sign,acted,true);
-      resolve();
-    };
-    for(const sign of signs)document.addEventListener(sign,acted,{capture:true,passive:true});
-  });
+  // What the visitor does in the page while it is being looked at. `acts`
+  // resolves at the next sign that `ready` lets through. `ready` passes over
+  // what comes too soon, so a pointer's travel is measured from where it is
+  // first seen once the time has come: a pointer left lying is reported at the
+  // same place again and never counts. Whether anything has been pressed is
+  // remembered from the start, also while GitHub is being asked.
+  let pressed=false,waiting=null;
+  const acted=event=>{
+    if(!event.isTrusted||document.visibilityState!=='visible')return;
+    if(presses(event))pressed=true;
+    if(!waiting||!waiting.ready())return;
+    if(event.type==='pointermove'){
+      waiting.rest??=[event.clientX,event.clientY];
+      if(!(Math.abs(event.clientX-waiting.rest[0])+Math.abs(event.clientY-waiting.rest[1])>=travel))return;
+    }
+    const {resolve}=waiting;
+    waiting=null;
+    resolve();
+  };
+  const acts=(ready=()=>true)=>new Promise(resolve=>{waiting={ready,resolve};});
+  for(const sign of signs)document.addEventListener(sign,acted,{capture:true,passive:true});
+  const stopListening=()=>{for(const sign of signs)document.removeEventListener(sign,acted,true);};
 
   // Nothing is asked of GitHub until the visitor does something.
   await acts();
@@ -259,11 +273,13 @@ export async function showVisitorCount({document,navigator,storage,fetch,site,no
   // An earlier visit by this browser may not be in GitHub's answer yet: a
   // counted visitor is never shown zero.
   if(numbered)show(Math.max(total,earlier?1:0));
-  if(earlier)return;
+  if(earlier)return stopListening();
 
-  // The visitor is counted when still doing something `stay` after that first
-  // action.
-  await acts(()=>now()-began>=stay);
+  // The visitor is counted at the first sign that comes `stay` or more after
+  // that first action, once something has been pressed: the press may come
+  // before the ten seconds are up, or be that sign itself.
+  await acts(()=>pressed&&now()-began>=stay);
+  stopListening();
   // Before the week's file exists there is nothing to add to, and while GitHub
   // cannot be reached the request would be lost: the visit is counted later.
   // When GitHub only refused to say, the file is taken to exist. A week that

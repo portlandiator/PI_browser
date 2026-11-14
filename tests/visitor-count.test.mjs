@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
-import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,siteRepository,hitUrl,countsUrl,weekCounts,countLabel,readHistory,weeklyTotals,browserStore,readTotals,graphPage,stay,showVisitorCount} from '../src/visitor-count.mjs';
+import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,siteRepository,hitUrl,countsUrl,weekCounts,countLabel,readHistory,weeklyTotals,browserStore,readTotals,graphPage,stay,presses,showVisitorCount} from '../src/visitor-count.mjs';
 
 // A Windows checkout may hold these files with CRLF line endings.
 const source=name=>readFileSync(new URL('../'+name,import.meta.url),'utf8').replaceAll('\r\n','\n');
@@ -49,11 +49,11 @@ function browser({site=publicSite,page='catalog',values=new Map(),github={catalo
   const wait=milliseconds=>{state.time+=milliseconds;};
   return {document,navigator:{userAgent,webdriver,onLine},storage,fetch,site:new URL(site),now:()=>state.time,footer,requests,values,state,emit,move,wait,listeners,
     urls:()=>requests.map(request=>request.url),
-    // A visitor moves the pointer soon after the page opens and is still moving it ten seconds
-    // later, unless a test says otherwise.
+    // A visitor moves the pointer and clicks soon after the page opens, and is still moving the
+    // pointer ten seconds later, unless a test says otherwise.
     async run(){
       const running=showVisitorCount(this);
-      if(acts){move();await turn();wait(stay);move(420,260);}
+      if(acts){move();emit('pointerdown');await turn();wait(stay);move(420,260);}
       return running;
     }};
 }
@@ -396,7 +396,7 @@ test('nothing is asked of GitHub until the visitor does something a person does'
   await turn();
   assert.deepEqual(loaded.urls(),[]);assert.equal(loaded.footer.textContent,'Partial Inventory browser');assert.equal(loaded.values.size,0);
   // Events made by a script are not a person's, and scrolling is not listened for, since a script can scroll.
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])loaded.emit(sign,{isTrusted:false,clientX:500,clientY:500});
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])loaded.emit(sign,{isTrusted:false,clientX:500,clientY:500,key:'a'});
   loaded.emit('scroll');loaded.emit('visibilitychange');loaded.emit('load');
   await turn();
   assert.deepEqual(loaded.urls(),[]);
@@ -416,8 +416,8 @@ test('nothing is asked of GitHub until the visitor does something a person does'
   assert.deepEqual(loaded.urls(),[question]);
   assert.equal(loaded.footer.textContent,'41 unique visitors this week');
   assert.equal(loaded.values.has('pi-visitor-week'),false);
-  // Pressing the pointer, typing, turning the wheel and touching each do as much at once.
-  for(const sign of ['pointerdown','keydown','wheel','touchstart']){
+  // Pressing the pointer, any key, turning the wheel, touching and a click each do as much at once.
+  for(const sign of ['pointerdown','keydown','wheel','touchstart','click']){
     const visitor=browser({acts:false});
     visitor.run();
     visitor.emit(sign,{clientX:0,clientY:0});
@@ -433,7 +433,7 @@ test('nothing is asked of GitHub until the visitor does something a person does'
   await turn();
   assert.deepEqual(hand.urls(),[question]);
   // (The first page goes on to be counted, so that nothing is left waiting.)
-  loaded.wait(stay);loaded.emit('keydown');
+  loaded.wait(stay);loaded.emit('pointerdown');
   await running;
 });
 
@@ -454,8 +454,8 @@ test('a visitor is counted when still doing something ten seconds after the firs
   assert.deepEqual(quick.urls(),[question]);
   assert.equal(quick.footer.textContent,'41 unique visitors this week');
   assert.equal(quick.values.has('pi-visitor-week'),false);assert.equal(quick.state.github.catalog,41);
-  // It is still listening, and one more sign once the ten seconds are up counts the visitor.
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.equal(quick.listeners[sign].length,1,sign);
+  // It is still listening, and one more sign once the ten seconds are up counts the visitor, who has clicked meanwhile.
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])assert.equal(quick.listeners[sign].length,1,sign);
   quick.wait(1);quick.emit('wheel');
   await waiting;
   assert.deepEqual(quick.urls(),[question,hit1]);
@@ -465,13 +465,13 @@ test('a visitor is counted when still doing something ten seconds after the firs
   assert.deepEqual(JSON.parse(quick.values.get('pi-visitor-week')),noted('catalog'));
   assert.equal(JSON.parse(quick.values.get('pi-visitor-counts')).counts.catalog,42);
   // The page then stops listening.
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(quick.listeners[sign],[],sign);
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])assert.deepEqual(quick.listeners[sign],[],sign);
 
-  // Each kind of sign counts as the later one.
-  for(const sign of ['pointerdown','keydown','wheel','touchstart']){
+  // Each kind of sign counts as the later one, for a visitor who has pressed something.
+  for(const sign of ['pointerdown','keydown','wheel','touchstart','click']){
     const visitor=browser({acts:false});
     const counting=visitor.run();
-    visitor.emit('keydown');await turn();
+    visitor.emit('pointerdown');await turn();
     visitor.wait(stay);visitor.emit(sign,{clientX:0,clientY:0});
     await counting;
     assert.deepEqual(visitor.urls(),[question,hit1],sign);
@@ -480,7 +480,7 @@ test('a visitor is counted when still doing something ten seconds after the firs
   // nobody: after the ten seconds the pointer has to travel anew, however far it went before.
   const resting=browser({acts:false});
   const idle=resting.run();
-  resting.move();await turn();
+  resting.move();resting.emit('pointerdown');await turn();
   resting.emit('pointermove',{clientX:900,clientY:700});
   resting.wait(60_000);
   for(let again=0;again<3;again++)resting.emit('pointermove',{clientX:900,clientY:700});
@@ -509,22 +509,87 @@ test('a visitor is counted when still doing something ten seconds after the firs
   back.emit('keydown');
   await again;
   assert.deepEqual(back.urls(),[]);assert.equal(back.footer.textContent,'42 unique visitors this week');
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(back.listeners[sign],[],sign);
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])assert.deepEqual(back.listeners[sign],[],sign);
   // A connection lost in those ten seconds leaves the visit to be counted another time, and so does a week
   // that ended while the page was open: its total belongs to the week before.
   const lost=browser({acts:false});
   const offline=lost.run();
   lost.emit('keydown');await turn();
-  lost.wait(stay);lost.navigator.onLine=false;lost.emit('keydown');
+  lost.wait(stay);lost.navigator.onLine=false;lost.emit('pointerdown');
   await offline;
   assert.deepEqual(lost.urls(),[question]);assert.equal(lost.values.has('pi-visitor-week'),false);
   const sunday=Date.UTC(2026,10,15,23,59,55),late=browser({acts:false,time:sunday});
   const midnight=late.run();
   late.emit('keydown');await turn();
-  late.wait(stay);late.emit('keydown');
+  late.wait(stay);late.emit('pointerdown');
   await midnight;
   assert.deepEqual(late.urls(),[question]);assert.equal(late.values.has('pi-visitor-week'),false);
   assert.equal(late.footer.textContent,'41 unique visitors this week');
+});
+
+test('only a visitor who has pressed something is counted: moving and scrolling are not enough',async()=>{
+  const hit1=hit('catalog');
+  // A program that keeps a pointer moving, turns the wheel and presses the keys that scroll, for as
+  // long as it likes, is shown the total and never counted. Nor is a person who reads by scrolling alone.
+  const drifting=browser({acts:false});
+  const waiting=drifting.run();
+  drifting.move();
+  await turn();
+  for(const seconds of [5,10,30,600]){
+    drifting.wait(seconds*1000);
+    drifting.move(500+seconds,500);drifting.emit('wheel');
+    for(const key of ['End','Home','PageDown','PageUp','ArrowDown','ArrowUp',' ','Tab','Escape','Shift','Control','F5','Unidentified','Process',undefined])drifting.emit('keydown',{key});
+    await turn();
+  }
+  assert.deepEqual(drifting.urls(),[question]);
+  assert.equal(drifting.footer.textContent,'41 unique visitors this week');
+  assert.equal(drifting.values.has('pi-visitor-week'),false);assert.equal(drifting.state.github.catalog,41);
+  // A script's own events are not presses, and nothing is pressed in a page that nobody is looking at.
+  for(const sign of ['pointerdown','touchstart','click','keydown'])drifting.emit(sign,{isTrusted:false,key:'a'});
+  drifting.state.visible=false;drifting.emit('pointerdown');drifting.emit('keydown',{key:'a'});drifting.state.visible=true;
+  drifting.emit('wheel');
+  await turn();
+  assert.deepEqual(drifting.urls(),[question]);
+  // The first click counts the visitor at once: the ten seconds are long past.
+  drifting.emit('pointerdown');
+  await waiting;
+  assert.deepEqual(drifting.urls(),[question,hit1]);
+  assert.equal(drifting.footer.textContent,'42 unique visitors this week');
+
+  // What is a press: a mouse button, a finger, a link or button worked from the keyboard, a key that types.
+  assert.deepEqual(['pointerdown','touchstart','click','pointermove','wheel','scroll'].map(type=>presses({type})),[true,true,true,false,false,false]);
+  assert.deepEqual(['a','Z','7','é','/','Enter'].map(key=>presses({type:'keydown',key})),[true,true,true,true,true,true]);
+  assert.deepEqual([' ','End','Home','PageDown','PageUp','ArrowDown','ArrowLeft','Tab','Escape','Backspace','Shift','Control','Alt','Meta','Unidentified','Dead',undefined].map(key=>presses({type:'keydown',key})).includes(true),false);
+  // Each of them, as the first thing done, counts a visitor who is still scrolling ten seconds later.
+  for(const press of [['pointerdown'],['touchstart'],['click'],['keydown',{key:'a'}],['keydown',{key:'Enter'}],['keydown',{key:'f',ctrlKey:true}]]){
+    const visitor=browser({acts:false});
+    const counting=visitor.run();
+    visitor.emit(...press);await turn();
+    assert.deepEqual(visitor.urls(),[question],JSON.stringify(press));
+    visitor.wait(stay);visitor.emit('wheel');
+    await counting;
+    assert.deepEqual(visitor.urls(),[question,hit1],JSON.stringify(press));
+  }
+  // The press may come at any time: here while GitHub is still being asked for the totals.
+  const prompt=browser({acts:false});
+  const reply=prompt.fetch;
+  let answer;
+  prompt.fetch=(url,options)=>url===question?new Promise(resolve=>{answer=()=>resolve(reply(url,options));}):reply(url,options);
+  const counting=prompt.run();
+  prompt.move();await turn();
+  assert.deepEqual(prompt.urls(),[]);assert.equal(typeof answer,'function');
+  prompt.emit('pointerdown');
+  answer();await turn();
+  prompt.wait(stay);prompt.move(700,300);
+  await counting;
+  assert.deepEqual(prompt.urls(),[question,hit1]);
+  // And a press within the first ten seconds, with nothing after it, is a program that clicked and went.
+  const gone=browser({acts:false});
+  gone.run();
+  gone.emit('pointerdown');await turn();
+  gone.wait(stay-1);gone.emit('click');gone.emit('keydown',{key:'a'});
+  await turn();
+  assert.deepEqual(gone.urls(),[question]);assert.equal(gone.values.has('pi-visitor-week'),false);
 });
 
 test('study guides keep the count when a guide replaces the page in place',async()=>{
@@ -576,13 +641,14 @@ test('the privacy policy and the About dialog describe the count',()=>{
   const policy=source('src/privacy.html');
   assert.match(policy,/<h2>How the website counts visitors<\/h2>/);
   assert.match(policy,/When you do something on one of them \(move the pointer, touch the screen or press a key\), the page reads the week&rsquo;s totals from GitHub, which hosts the website\./);
-  assert.match(policy,/If you are still doing something there ten seconds later, the page also asks GitHub for a small file, the first time in a week\./);
+  assert.match(policy,/Once you have clicked, touched the screen or typed something there, and are still using the page ten seconds after you began, the page also asks GitHub for a small file, the first time in a week\./);
+  assert.match(policy,/Reading a page by scrolling alone is not counted\./);
   assert.match(policy,/what you did, and when, is not recorded or sent/);
   assert.match(policy,/It carries no cookies, no name or other identifier, nothing about what you read, and no record of the page you came from\./);
   assert.match(policy,/a note of which main pages it has been counted on this week and the latest visitor totals/);
   assert.match(policy,/<p>The app does not take part in this count\.<\/p>/);
   assert.match(policy,/<h2>What we collect<\/h2>\s*<p>No personal information\./);
   // The earlier wording would no longer be true of the website.
-  assert.doesNotMatch(policy,/runs no analytics|<p>Nothing\. There are no accounts, analytics|nothing is collected|The first time in a week that you do something/);
+  assert.doesNotMatch(policy,/runs no analytics|<p>Nothing\. There are no accounts, analytics|nothing is collected|The first time in a week that you do something|If you are still doing something there ten seconds later/);
   for(const file of ['src/index.html','src/subjects.html','src/volume-view.html'])assert(source(file).includes('The website’s only measurement is an anonymous count of each week’s visitors, described in the <a href="./privacy.html">privacy policy</a>.'),file);
 });
