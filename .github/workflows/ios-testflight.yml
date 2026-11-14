@@ -7,7 +7,7 @@ on:
         required: true
       version:
         description: App marketing version
-        default: '1.0'
+        default: '1.0.2'
         required: true
 permissions:
   contents: read
