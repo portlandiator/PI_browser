@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {plan,maintain,readHistory,writeNotes,githubRelease,siteAddress,fileLabel,fileBytes,weeksAhead,releaseName} from '../scripts/visitor-counts.mjs';
+import {plan,maintain,readHistory,writeNotes,githubRelease,siteAddress,fileLabel,fileBytes,weeksAhead,releaseName,formerFile,downloads} from '../scripts/visitor-counts.mjs';
 import {pages,assetName,addWeeks,weekOf,releaseTag,hitUrl,siteRepository} from '../src/visitor-count.mjs';
 import {codeDependencies} from '../scripts/deployment-cache.mjs';
 
@@ -29,7 +29,7 @@ test('the files of this week and the next four are prepared, and none is added t
   assert.deepEqual(next.remove,[]);
   // One missing file is added without touching its neighbours.
   const gap=assets.filter(asset=>asset.name!==assetName('volumes','2026-11-23'));
-  assert.deepEqual(plan({notes:'',assets:gap},friday,site).add,[{page:'volumes',week:'2026-11-23',name:'volumes-2026-11-23.gif'}]);
+  assert.deepEqual(plan({notes:'',assets:gap},friday,site).add,[{page:'volumes',week:'2026-11-23',name:'week-2026-11-23-volumes.gif'}]);
 });
 
 test('the release notes hold every week\'s totals, newest first',()=>{
@@ -41,7 +41,7 @@ test('the release notes hold every week\'s totals, newest first',()=>{
   assert(notes.includes(`[Partial Inventory browser](${site})`)&&notes.includes(`(${site}privacy.html)`));
   // The notes point to the website's graph of the same totals, and say who is counted.
   assert(notes.includes(`The website draws these totals as a [graph](${site}visitors.html).`));
-  assert(notes.includes('the first time in the week that its visitor is still doing something on that page ten seconds after first doing something there'));
+  assert(notes.includes('the first time in the week that its visitor has pressed something on that page (clicked, touched the screen or typed) and is still doing something there ten seconds after beginning'));
   assert.deepEqual(Object.fromEntries(readHistory(notes)),{[week]:{catalog:41,volumes:7,subjects:12,'study-guides':3},'2026-11-02':{catalog:120,volumes:31,subjects:58,'study-guides':44}});
   // The notes read back to themselves, also after an edit on GitHub's website (CRLF, thousands separators).
   const history=readHistory(notes.replaceAll('\n','\r\n').replace('| 120 |','| 1,120 |'));
@@ -69,8 +69,8 @@ test('earlier weeks stay in the notes after their files are removed',()=>{
   const replaced=plan({notes:earlier.notes,assets:weekFiles('2026-11-02',[2,31,58,44])},friday,site);
   assert.equal(replaced.history.get('2026-11-02').catalog,120);
   // A file whose count GitHub did not give is neither recorded nor removed, and other files are never touched.
-  const unknown=plan({notes:'',assets:[{id:1,name:assetName('catalog','2026-10-05')},{id:2,name:'backup.zip',download_count:4},{id:3,name:'catalog-2026-10-06.gif',download_count:4}]},friday,site);
-  assert.deepEqual(unknown.remove,[]);assert.equal(unknown.history.has('2026-10-05'),false);
+  const unknown=plan({notes:'',assets:[{id:1,name:assetName('catalog','2026-10-05')},{id:2,name:'backup.zip',download_count:4},{id:3,name:'week-2026-10-06-catalog.gif',download_count:4},{id:4,name:'catalog-2026-10-06.gif',download_count:4}]},friday,site);
+  assert.deepEqual(unknown.remove,[]);assert.deepEqual(unknown.retire,[]);assert.equal(unknown.history.has('2026-10-05'),false);
 });
 
 // GitHub's side of one release, as the script uses it.
@@ -146,6 +146,93 @@ test('a spoiled week can be set back to zero by hand, and only that week',async(
   assert.equal(github.state.assets.length,24);
 });
 
+test('the files of the first naming stay attached and are never counted, nor is what they had recorded',async()=>{
+  const first=(page,of,download_count=0)=>({id:nextId++,name:`${page}-${of}.gif`,download_count});
+  const firstFiles=(of,counts=[0,0,0,0])=>pageNames.map((page,index)=>first(page,of,counts[index]));
+  const firstNames=of=>pageNames.map(page=>`${page}-${of}.gif`);
+  const asset=(github,name)=>github.state.assets.find(item=>item.name===name);
+  // The notes as the script wrote them while the first files were the counted ones.
+  const notesOf=files=>plan({notes:'',assets:files.filter(item=>formerFile(item.name).week<=week).map(item=>({...item,name:assetName(formerFile(item.name).page,formerFile(item.name).week)}))},friday,site).notes;
+  for(const page of pageNames)assert.deepEqual(formerFile(`${page}-${week}.gif`),{page,week});
+  // Not a file of the present naming, a day that is no Monday, another page or another kind of file.
+  for(const name of [assetName('catalog',week),'catalog-2026-11-10.gif','reader-2026-11-09.gif','catalog-2026-11-09.zip','notes.gif',undefined])assert.equal(formerFile(name),null,String(name));
+  assert.deepEqual([downloads(0),downloads(1),downloads(84),downloads(undefined)],['0 downloads','1 download','84 downloads','downloads unknown']);
+
+  // The release as the renaming finds it: twenty files named page first, this week's with what they collected.
+  const found=[...firstFiles(week,[909,1,2,2]),...[1,2,3,4].flatMap(ahead=>firstFiles(addWeeks(week,ahead)))];
+  const notes=notesOf(found);
+  assert.match(notes,/\| 2026-11-09 \(so far\) \| 909 \| 1 \| 2 \| 2 \|/);assert.doesNotMatch(notes,/first ones the website used/);
+  const github=fakeGitHub({release:{id:7,body:notes,upload_url:'https://uploads.github.com/x{?name,label}'},assets:found});
+  const lines=[];
+  const renamed=await maintain({github,site,now:friday,log:line=>lines.push(line)});
+  // Every file of the present naming is added. The first files of the coming weeks, which no page
+  // ever asked for, go; this week's four stay as they are.
+  assert.deepEqual(renamed.added,[0,1,2,3,4].flatMap(ahead=>pageNames.map(page=>assetName(page,addWeeks(week,ahead)))));
+  assert.deepEqual(renamed.retired,[1,2,3,4].flatMap(ahead=>firstNames(addWeeks(week,ahead))));
+  assert.deepEqual(renamed.watched,[{name:'catalog-2026-11-09.gif',count:909},{name:'volumes-2026-11-09.gif',count:1},{name:'subjects-2026-11-09.gif',count:2},{name:'study-guides-2026-11-09.gif',count:2}]);
+  assert.deepEqual(renamed.removed,[]);assert.deepEqual(renamed.reset,[]);
+  assert.equal(github.state.assets.length,24);
+  for(const kept of found.slice(0,4))assert.deepEqual(asset(github,kept.name),kept);
+  for(const line of ['catalog-2026-11-09.gif is no longer counted: 909 downloads so far.','volumes-2026-11-09.gif is no longer counted: 1 download so far.','Removed catalog-2026-11-16.gif, which pages no longer ask for (0 downloads).'])assert(lines.includes(line),line);
+  // GitHub lists a release's files by name. Every present file comes after every first one, so the file
+  // at the head of the list is still one that no page asks for: a program that takes the first file
+  // listed shows there, not among the visitors.
+  assert.equal(github.state.assets.map(item=>item.name).sort()[0],'catalog-2026-11-09.gif');
+  assert(pageNames.every(page=>assetName(page,'2026-01-05')>`volumes-2099-12-28.gif`));
+  // The notes say what the first files are, and the week begins again with the present ones: what the
+  // first files had recorded is not kept, without anybody setting the week back by hand.
+  assert(github.state.release.body.includes('\n\nThe files whose names begin with the page (for example `catalog-2026-11-09.gif`) are the first ones the website used. Pages no longer ask for them and they are not counted; they stay attached to show whether anything still requests them.\n\n| Week from |'));
+  assert.deepEqual(Object.fromEntries(readHistory(github.state.release.body)),{[week]:{catalog:0,volumes:0,subjects:0,'study-guides':0}});
+  github.calls.length=0;
+  await maintain({github,site,now:friday,log:quiet});
+  assert.deepEqual(github.calls,[]);
+
+  // Whatever goes on asking for a first file is reported in each run's log and counted nowhere;
+  // visitors are counted in the present files.
+  asset(github,'catalog-2026-11-09.gif').download_count=1131;asset(github,assetName('catalog',week)).download_count=5;
+  lines.length=0;
+  await maintain({github,site,now:new Date('2026-11-14T23:00:00Z'),log:line=>lines.push(line)});
+  assert.deepEqual(github.calls,['notes']);assert(lines.includes('catalog-2026-11-09.gif is no longer counted: 1131 downloads so far.'));
+  assert.match(github.state.release.body,/\| 2026-11-09 \(so far\) \| 5 \| 0 \| 0 \| 0 \|/);
+  // Setting the week back to zero by hand works as before and leaves the first files as they are.
+  const reset=await maintain({github,site,now:new Date('2026-11-15T01:00:00Z'),log:quiet,resetWeek:true});
+  assert.deepEqual(reset.reset,pageNames.map(page=>assetName(page,week)));assert.deepEqual(reset.retired,[]);
+  assert.deepEqual(reset.watched.map(item=>item.name),firstNames(week));
+  assert.equal(asset(github,'catalog-2026-11-09.gif').download_count,1131);assert.equal(asset(github,'catalog-2026-11-09.gif').id,found[0].id);
+  assert.match(github.state.release.body,/\| 2026-11-09 \(so far\) \| 0 \| 0 \| 0 \| 0 \|/);
+
+  // The next week the first files are still there, and the week's final numbers are those of its present files.
+  asset(github,assetName('catalog',week)).download_count=7;asset(github,'catalog-2026-11-09.gif').download_count=5200;
+  const monday=await maintain({github,site,now:new Date('2026-11-16T00:23:00Z'),log:quiet});
+  assert.deepEqual(monday.retired,[]);assert.deepEqual(monday.watched[0],{name:'catalog-2026-11-09.gif',count:5200});
+  assert.match(github.state.release.body,/first ones the website used[^]*\| 2026-11-16 \(so far\) \| 0 \| 0 \| 0 \| 0 \|\n\| 2026-11-09 \| 7 \| 0 \| 0 \| 0 \|/);
+  // A week later the week's counted files go as every week's do. Its row stays, and so do the first
+  // files, at the head of the list.
+  const later=await maintain({github,site,now:new Date('2026-11-23T00:23:00Z'),log:quiet});
+  assert.deepEqual(later.removed,pageNames.map(page=>assetName(page,week)));
+  assert.deepEqual(later.retired,[]);assert.deepEqual(later.watched.map(item=>item.name),firstNames(week));
+  assert.match(github.state.release.body,/first ones the website used[^]*\| 2026-11-09 \| 7 \| 0 \| 0 \| 0 \|/);
+  assert.equal(github.state.assets.map(item=>item.name).sort()[0],'catalog-2026-11-09.gif');
+  // The week is then neither this one nor the last, and its row is as safe as any other.
+  asset(github,'catalog-2026-11-09.gif').download_count=9000;
+  await maintain({github,site,now:new Date('2026-11-24T00:23:00Z'),log:quiet});
+  assert.match(github.state.release.body,/\| 2026-11-09 \| 7 \| 0 \| 0 \| 0 \|/);
+
+  // Had the renaming reached the release a week later, the first week would have no present files:
+  // its numbers are then unknown, not those of its first files, and the week in progress starts again.
+  const tuesday=new Date('2026-11-17T10:00:00Z');
+  const late=[...firstFiles(week,[5200,1,2,2]),...firstFiles('2026-11-16',[40,0,1,0]),...[2,3,4,5].flatMap(ahead=>firstFiles(addWeeks(week,ahead)))];
+  const lateNotes=plan({notes:'',assets:late.slice(0,8).map(item=>({...item,name:assetName(formerFile(item.name).page,formerFile(item.name).week)}))},tuesday,site).notes;
+  assert.match(lateNotes,/\| 2026-11-16 \(so far\) \| 40 \| 0 \| 1 \| 0 \|\n\| 2026-11-09 \| 5200 \| 1 \| 2 \| 2 \|/);
+  const after=fakeGitHub({release:{id:7,body:lateNotes,upload_url:'https://uploads.github.com/x{?name,label}'},assets:late});
+  const caught=await maintain({github:after,site,now:tuesday,log:quiet});
+  assert.deepEqual(caught.added,[1,2,3,4,5].flatMap(ahead=>pageNames.map(page=>assetName(page,addWeeks(week,ahead)))));
+  assert.deepEqual(caught.retired,[2,3,4,5].flatMap(ahead=>firstNames(addWeeks(week,ahead))));
+  assert.deepEqual(caught.watched.map(item=>item.name),[...firstNames(week),...firstNames('2026-11-16')]);
+  assert.match(after.state.release.body,/\| 2026-11-16 \(so far\) \| 0 \| 0 \| 0 \| 0 \|\n\| 2026-11-09 \| – \| – \| – \| – \|/);
+  assert.deepEqual(Object.fromEntries(readHistory(after.state.release.body)),{'2026-11-16':{catalog:0,volumes:0,subjects:0,'study-guides':0},[week]:{}});
+});
+
 test('GitHub is asked through its release API with the workflow\'s token',async()=>{
   const requests=[];
   const answers=[];
@@ -166,15 +253,15 @@ test('GitHub is asked through its release API with the workflow\'s token',async(
   assert.match(requests[2].url,/\/releases\/7\/assets\?per_page=100&page=1$/);assert.match(requests[3].url,/page=2$/);
   answers.push([201,{id:9}]);
   await github.addFile(created,{name:assetName('study-guides',week),label:fileLabel('study-guides',week),bytes:fileBytes});
-  assert.equal(requests[4].url,'https://uploads.github.com/repos/portlandiator/PI_browser/releases/7/assets?name=study-guides-2026-11-09.gif&label=Study%20guides%2C%20week%20from%202026-11-09');
+  assert.equal(requests[4].url,'https://uploads.github.com/repos/portlandiator/PI_browser/releases/7/assets?name=week-2026-11-09-study-guides.gif&label=Study%20guides%2C%20week%20from%202026-11-09');
   assert.equal(requests[4].headers['Content-Type'],'image/gif');assert.equal(requests[4].body,fileBytes);
   // A one-pixel image, which a browser accepts from another site without complaint.
   assert(fileBytes.length<64);assert.equal(fileBytes.subarray(0,6).toString('latin1'),'GIF89a');assert.deepEqual([fileBytes.readUInt16LE(6),fileBytes.readUInt16LE(8),fileBytes.at(-1)],[1,1,0x3b]);
   // A file another run added meanwhile keeps its count; any other refusal stops the run.
   answers.push([422,{message:'Validation Failed',errors:[{resource:'ReleaseAsset',code:'already_exists',field:'name'}]}]);
-  await github.addFile(created,{name:'catalog-2026-11-09.gif',label:'x',bytes:fileBytes});
+  await github.addFile(created,{name:'week-2026-11-09-catalog.gif',label:'x',bytes:fileBytes});
   answers.push([403,{message:'Resource not accessible by integration'}]);
-  await assert.rejects(github.addFile(created,{name:'catalog-2026-11-09.gif',label:'x',bytes:fileBytes}),/GitHub answered 403 to POST https:\/\/uploads\.github\.com\/repos\/portlandiator\/PI_browser\/releases\/7\/assets: Resource not accessible by integration/);
+  await assert.rejects(github.addFile(created,{name:'week-2026-11-09-catalog.gif',label:'x',bytes:fileBytes}),/GitHub answered 403 to POST https:\/\/uploads\.github\.com\/repos\/portlandiator\/PI_browser\/releases\/7\/assets: Resource not accessible by integration/);
   answers.push([200,{id:7,body:'new'}]);
   assert.deepEqual(await github.setNotes(7,'new'),{id:7,body:'new'});
   assert.equal(requests.at(-1).method,'PATCH');assert.deepEqual(JSON.parse(requests.at(-1).body),{body:'new'});

@@ -1,15 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
-import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,siteRepository,hitUrl,countsUrl,weekCounts,countLabel,readHistory,weeklyTotals,browserStore,readTotals,graphPage,stay,showVisitorCount} from '../src/visitor-count.mjs';
+import {releaseTag,pages,weekOf,addWeeks,assetName,parseAssetName,siteRepository,hitUrl,countsUrl,weekCounts,countLabel,readHistory,weeklyTotals,browserStore,readTotals,graphPage,stay,presses,showVisitorCount} from '../src/visitor-count.mjs';
 
 // A Windows checkout may hold these files with CRLF line endings.
 const source=name=>readFileSync(new URL('../'+name,import.meta.url),'utf8').replaceAll('\r\n','\n');
 const publicSite='https://portlandiator.github.io/PI_browser/';
 const friday=Date.UTC(2026,10,13,4,30),week='2026-11-09';
-const hit=page=>`https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/${page}-${week}.gif`;
+const hit=page=>`https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/week-${week}-${page}.gif`;
 const question='https://api.github.com/repos/portlandiator/PI_browser/releases/tags/visitor-counts';
 const release=(counts,of=week)=>({tag_name:releaseTag,assets:Object.entries(counts).map(([page,download_count],id)=>({id,name:assetName(page,of),download_count}))});
+// The browser's note of the files it has asked for this week.
+const noted=(...counted)=>({week,files:counted.map(page=>assetName(page,week))});
 
 // A stand-in for an element at the foot of a page: the count is put there as a link.
 function foot(textContent='Partial Inventory browser',hidden=false){
@@ -47,11 +49,11 @@ function browser({site=publicSite,page='catalog',values=new Map(),github={catalo
   const wait=milliseconds=>{state.time+=milliseconds;};
   return {document,navigator:{userAgent,webdriver,onLine},storage,fetch,site:new URL(site),now:()=>state.time,footer,requests,values,state,emit,move,wait,listeners,
     urls:()=>requests.map(request=>request.url),
-    // A visitor moves the pointer soon after the page opens and is still moving it ten seconds
-    // later, unless a test says otherwise.
+    // A visitor moves the pointer and clicks soon after the page opens, and is still moving the
+    // pointer ten seconds later, unless a test says otherwise.
     async run(){
       const running=showVisitorCount(this);
-      if(acts){move();await turn();wait(stay);move(420,260);}
+      if(acts){move();emit('pointerdown');await turn();wait(stay);move(420,260);}
       return running;
     }};
 }
@@ -68,9 +70,11 @@ test('weeks run from Monday in UTC and name the counting files',()=>{
   assert.equal(addWeeks('2026-12-28',1),'2027-01-04');assert.equal(addWeeks('2026-11-09',-1),'2026-11-02');
   assert.deepEqual(Object.keys(pages),['catalog','volumes','subjects','study-guides']);
   for(const page of Object.keys(pages))assert.deepEqual(parseAssetName(assetName(page,week)),{page,week});
-  assert.equal(assetName('study-guides',week),'study-guides-2026-11-09.gif');
+  assert.equal(assetName('study-guides',week),'week-2026-11-09-study-guides.gif');
   // Not a Monday, not a date, not a counted page, or not a counting file at all.
-  for(const name of ['catalog-2026-11-10.gif','catalog-2026-02-31.gif','catalog-2026-13-01.gif','reader-2026-11-09.gif','catalog-2026-11-09.txt','catalog-2026-11-09.gif.zip','notes.gif',undefined])assert.equal(parseAssetName(name),null,String(name));
+  for(const name of ['week-2026-11-10-catalog.gif','week-2026-02-31-catalog.gif','week-2026-13-01-catalog.gif','week-2026-11-09-reader.gif','week-2026-11-09-catalog.txt','week-2026-11-09-catalog.gif.zip','2026-11-09-catalog.gif','notes.gif',undefined])assert.equal(parseAssetName(name),null,String(name));
+  // Nor a file of the first naming, page first, which pages no longer ask for.
+  for(const page of Object.keys(pages))assert.equal(parseAssetName(`${page}-${week}.gif`),null,page);
 });
 
 test('only the published GitHub Pages address has a repository to count with',()=>{
@@ -96,6 +100,8 @@ test('only the published GitHub Pages address has a repository to count with',()
 test('a week\'s counts are read from GitHub\'s description of the release',()=>{
   const described=release({catalog:41,volumes:0,subjects:12});
   described.assets.push({name:assetName('study-guides','2026-11-02'),download_count:99},{name:assetName('study-guides',week),download_count:'7'},{name:'other.zip',download_count:5},null);
+  // The files of the first naming are still attached for a time, whatever is requesting them.
+  described.assets.push({name:'catalog-2026-11-09.gif',download_count:5986},{name:'study-guides-2026-11-09.gif',download_count:28});
   assert.deepEqual(weekCounts(described,week),{catalog:41,volumes:0,subjects:12});
   assert.deepEqual(weekCounts(described,'2026-11-02'),{'study-guides':99});
   for(const nothing of [null,{},{assets:'none'},{assets:[]}])assert.deepEqual(weekCounts(nothing,week),{});
@@ -114,7 +120,9 @@ test('every week\'s totals are read from the release notes and the files still a
   const described={body:notes,assets:[
     {name:assetName('catalog',week),download_count:41},{name:assetName('volumes',week),download_count:1},{name:assetName('study-guides','2026-11-02'),download_count:44},
     // Files prepared for the coming weeks have no visitors yet, and other files are not counts.
-    {name:assetName('catalog','2026-11-16'),download_count:0},{name:'notes.txt',download_count:9},{name:assetName('subjects',week),download_count:-1},null]};
+    {name:assetName('catalog','2026-11-16'),download_count:0},{name:'notes.txt',download_count:9},{name:assetName('subjects',week),download_count:-1},null,
+    // Nor are the files of the first naming, for this week or the last.
+    {name:'catalog-2026-11-09.gif',download_count:5986},{name:'volumes-2026-11-02.gif',download_count:77}]};
   assert.deepEqual([...weeklyTotals(described,week)].sort(([a],[b])=>a<b?-1:1),[
     ['2026-10-26',{catalog:164,volumes:23,subjects:59,'study-guides':34}],
     ['2026-11-02',{catalog:1204,volumes:31,subjects:80,'study-guides':44}],
@@ -206,15 +214,31 @@ test('each page is counted separately, and again in a new week',async()=>{
   assert.deepEqual(subjects.urls(),[hit('subjects')]);
   assert.equal(subjects.footer.textContent,'13 unique visitors this week');
   assert.deepEqual(github,{catalog:42,volumes:7,subjects:13,'study-guides':3});
-  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week,pages:['catalog','subjects']});
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),noted('catalog','subjects'));
   // The following Monday the browser is a new visitor of the new week.
   const monday=Date.UTC(2026,10,16,0,5);
   const next=browser({values,github:{catalog:0},time:monday});
   next.fetch=async(url,options)=>{next.requests.push({url,options});return url===question?{ok:true,status:200,json:async()=>release({catalog:0},'2026-11-16')}:{type:'opaque'};};
   await next.run();
-  assert.deepEqual(next.urls(),[question,'https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/catalog-2026-11-16.gif']);
+  assert.deepEqual(next.urls(),[question,'https://github.com/portlandiator/PI_browser/releases/download/visitor-counts/week-2026-11-16-catalog.gif']);
   assert.equal(next.footer.textContent,'1 unique visitor this week');
-  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week:'2026-11-16',pages:['catalog']});
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week:'2026-11-16',files:['week-2026-11-16-catalog.gif']});
+});
+
+test('a browser counted in a file of the first naming is counted again in its successor',async()=>{
+  // Before the files were renamed the note named the pages counted, and the files those pages
+  // asked for are no longer counted: the browser is a new visitor to the new file, once.
+  const values=new Map([['pi-visitor-week',JSON.stringify({week,pages:['catalog','subjects']})]]);
+  const back=browser({values});
+  await back.run();
+  assert.deepEqual(back.urls(),[question,hit('catalog')]);
+  assert.equal(back.state.github.catalog,42);assert.equal(back.footer.textContent,'42 unique visitors this week');
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),noted('catalog'));
+  const again=browser({values,github:back.state.github,time:friday+60*1000});
+  await again.run();
+  assert.deepEqual(again.urls(),[]);assert.equal(back.state.github.catalog,42);
+  // No page asks for a file named page first.
+  for(const page of Object.keys(pages))assert.match(hitUrl(siteRepository(new URL(publicSite)),page,week),new RegExp(`/visitor-counts/week-${week}-${page}\\.gif$`));
 });
 
 test('nothing that identifies a visitor is sent or kept',async()=>{
@@ -228,9 +252,9 @@ test('nothing that identifies a visitor is sent or kept',async()=>{
     assert(!('body' in request.options)&&!('method' in request.options));
     assert.doesNotMatch(request.url,/[?#]/);
   }
-  // The browser keeps only the week, the pages counted in it and the public totals.
+  // The browser keeps only the week, the files asked for in it and the public totals.
   assert.deepEqual([...visit.values.keys()].sort(),['pi-visitor-counts','pi-visitor-week']);
-  assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-week')),{week,pages:['study-guides']});
+  assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-week')),{week,files:['week-2026-11-09-study-guides.gif']});
   // (GitHub's own answer for the week is kept beside the number shown, for the graph of every week.)
   assert.deepEqual(JSON.parse(visit.values.get('pi-visitor-counts')),{week,at:friday,counts:{catalog:41,volumes:7,subjects:12,'study-guides':4},weeks:[[week,{catalog:41,volumes:7,subjects:12,'study-guides':3}]]});
   // Comments aside, the module knows no address but GitHub's and reads nothing about the visitor.
@@ -317,7 +341,7 @@ test('the total is shown without waiting for the counting request, whatever beco
   cut.fetch=(url,options)=>url===question?reply(url,options):(cut.requests.push({url,options}),Promise.reject(new TypeError('Failed to fetch')));
   await cut.run();
   await new Promise(resolve=>setImmediate(resolve));
-  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),{week,pages:['catalog']});
+  assert.deepEqual(JSON.parse(values.get('pi-visitor-week')),noted('catalog'));
   assert.equal(cut.footer.textContent,'42 unique visitors this week');
   const next=browser({values,time:friday+60*1000});await next.run();
   assert.deepEqual(next.urls(),[]);assert.equal(next.footer.textContent,'42 unique visitors this week');
@@ -329,9 +353,9 @@ test('when GitHub gives no number the page keeps its own footer wording',async()
   await limited.run();
   assert.deepEqual(limited.urls(),[question,hit('catalog')]);
   assert.equal(limited.footer.textContent,'Partial Inventory browser');
-  assert.deepEqual(JSON.parse(limited.values.get('pi-visitor-week')),{week,pages:['catalog']});
+  assert.deepEqual(JSON.parse(limited.values.get('pi-visitor-week')),noted('catalog'));
   // An earlier answer for the same week is better than none.
-  const stale=browser({status:500,values:new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-3600_000,counts:{catalog:30},weeks:[]})],['pi-visitor-week',JSON.stringify({week,pages:['catalog']})]])});
+  const stale=browser({status:500,values:new Map([['pi-visitor-counts',JSON.stringify({week,at:friday-3600_000,counts:{catalog:30},weeks:[]})],['pi-visitor-week',JSON.stringify(noted('catalog'))]])});
   await stale.run();
   assert.deepEqual(stale.urls(),[question]);assert.equal(stale.footer.textContent,'30 unique visitors this week');
   // Before the week's file exists, or the release itself, there is nothing to count with: the browser stays uncounted.
@@ -355,7 +379,7 @@ test('when GitHub gives no number the page keeps its own footer wording',async()
 
 test('a counted visitor is never shown zero, and a second tab does not count twice',async()=>{
   // GitHub has not yet included an earlier visit by this browser.
-  const lagging=browser({github:{catalog:0},values:new Map([['pi-visitor-week',JSON.stringify({week,pages:['catalog']})]])});
+  const lagging=browser({github:{catalog:0},values:new Map([['pi-visitor-week',JSON.stringify(noted('catalog'))]])});
   await lagging.run();
   assert.deepEqual(lagging.urls(),[question]);assert.equal(lagging.footer.textContent,'1 unique visitor this week');
   // Two tabs of one page open together: the second finds the first one's note.
@@ -372,7 +396,7 @@ test('nothing is asked of GitHub until the visitor does something a person does'
   await turn();
   assert.deepEqual(loaded.urls(),[]);assert.equal(loaded.footer.textContent,'Partial Inventory browser');assert.equal(loaded.values.size,0);
   // Events made by a script are not a person's, and scrolling is not listened for, since a script can scroll.
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])loaded.emit(sign,{isTrusted:false,clientX:500,clientY:500});
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])loaded.emit(sign,{isTrusted:false,clientX:500,clientY:500,key:'a'});
   loaded.emit('scroll');loaded.emit('visibilitychange');loaded.emit('load');
   await turn();
   assert.deepEqual(loaded.urls(),[]);
@@ -392,8 +416,8 @@ test('nothing is asked of GitHub until the visitor does something a person does'
   assert.deepEqual(loaded.urls(),[question]);
   assert.equal(loaded.footer.textContent,'41 unique visitors this week');
   assert.equal(loaded.values.has('pi-visitor-week'),false);
-  // Pressing the pointer, typing, turning the wheel and touching each do as much at once.
-  for(const sign of ['pointerdown','keydown','wheel','touchstart']){
+  // Pressing the pointer, any key, turning the wheel, touching and a click each do as much at once.
+  for(const sign of ['pointerdown','keydown','wheel','touchstart','click']){
     const visitor=browser({acts:false});
     visitor.run();
     visitor.emit(sign,{clientX:0,clientY:0});
@@ -409,7 +433,7 @@ test('nothing is asked of GitHub until the visitor does something a person does'
   await turn();
   assert.deepEqual(hand.urls(),[question]);
   // (The first page goes on to be counted, so that nothing is left waiting.)
-  loaded.wait(stay);loaded.emit('keydown');
+  loaded.wait(stay);loaded.emit('pointerdown');
   await running;
 });
 
@@ -430,24 +454,24 @@ test('a visitor is counted when still doing something ten seconds after the firs
   assert.deepEqual(quick.urls(),[question]);
   assert.equal(quick.footer.textContent,'41 unique visitors this week');
   assert.equal(quick.values.has('pi-visitor-week'),false);assert.equal(quick.state.github.catalog,41);
-  // It is still listening, and one more sign once the ten seconds are up counts the visitor.
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.equal(quick.listeners[sign].length,1,sign);
+  // It is still listening, and one more sign once the ten seconds are up counts the visitor, who has clicked meanwhile.
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])assert.equal(quick.listeners[sign].length,1,sign);
   quick.wait(1);quick.emit('wheel');
   await waiting;
   assert.deepEqual(quick.urls(),[question,hit1]);
   assert.equal(quick.state.github.catalog,42);
   // The number at the foot of the page then includes the visitor, and so does the answer kept for the next page.
   assert.equal(quick.footer.textContent,'42 unique visitors this week');
-  assert.deepEqual(JSON.parse(quick.values.get('pi-visitor-week')),{week,pages:['catalog']});
+  assert.deepEqual(JSON.parse(quick.values.get('pi-visitor-week')),noted('catalog'));
   assert.equal(JSON.parse(quick.values.get('pi-visitor-counts')).counts.catalog,42);
   // The page then stops listening.
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(quick.listeners[sign],[],sign);
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])assert.deepEqual(quick.listeners[sign],[],sign);
 
-  // Each kind of sign counts as the later one.
-  for(const sign of ['pointerdown','keydown','wheel','touchstart']){
+  // Each kind of sign counts as the later one, for a visitor who has pressed something.
+  for(const sign of ['pointerdown','keydown','wheel','touchstart','click']){
     const visitor=browser({acts:false});
     const counting=visitor.run();
-    visitor.emit('keydown');await turn();
+    visitor.emit('pointerdown');await turn();
     visitor.wait(stay);visitor.emit(sign,{clientX:0,clientY:0});
     await counting;
     assert.deepEqual(visitor.urls(),[question,hit1],sign);
@@ -456,7 +480,7 @@ test('a visitor is counted when still doing something ten seconds after the firs
   // nobody: after the ten seconds the pointer has to travel anew, however far it went before.
   const resting=browser({acts:false});
   const idle=resting.run();
-  resting.move();await turn();
+  resting.move();resting.emit('pointerdown');await turn();
   resting.emit('pointermove',{clientX:900,clientY:700});
   resting.wait(60_000);
   for(let again=0;again<3;again++)resting.emit('pointermove',{clientX:900,clientY:700});
@@ -485,22 +509,87 @@ test('a visitor is counted when still doing something ten seconds after the firs
   back.emit('keydown');
   await again;
   assert.deepEqual(back.urls(),[]);assert.equal(back.footer.textContent,'42 unique visitors this week');
-  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart'])assert.deepEqual(back.listeners[sign],[],sign);
+  for(const sign of ['pointermove','pointerdown','keydown','wheel','touchstart','click'])assert.deepEqual(back.listeners[sign],[],sign);
   // A connection lost in those ten seconds leaves the visit to be counted another time, and so does a week
   // that ended while the page was open: its total belongs to the week before.
   const lost=browser({acts:false});
   const offline=lost.run();
   lost.emit('keydown');await turn();
-  lost.wait(stay);lost.navigator.onLine=false;lost.emit('keydown');
+  lost.wait(stay);lost.navigator.onLine=false;lost.emit('pointerdown');
   await offline;
   assert.deepEqual(lost.urls(),[question]);assert.equal(lost.values.has('pi-visitor-week'),false);
   const sunday=Date.UTC(2026,10,15,23,59,55),late=browser({acts:false,time:sunday});
   const midnight=late.run();
   late.emit('keydown');await turn();
-  late.wait(stay);late.emit('keydown');
+  late.wait(stay);late.emit('pointerdown');
   await midnight;
   assert.deepEqual(late.urls(),[question]);assert.equal(late.values.has('pi-visitor-week'),false);
   assert.equal(late.footer.textContent,'41 unique visitors this week');
+});
+
+test('only a visitor who has pressed something is counted: moving and scrolling are not enough',async()=>{
+  const hit1=hit('catalog');
+  // A program that keeps a pointer moving, turns the wheel and presses the keys that scroll, for as
+  // long as it likes, is shown the total and never counted. Nor is a person who reads by scrolling alone.
+  const drifting=browser({acts:false});
+  const waiting=drifting.run();
+  drifting.move();
+  await turn();
+  for(const seconds of [5,10,30,600]){
+    drifting.wait(seconds*1000);
+    drifting.move(500+seconds,500);drifting.emit('wheel');
+    for(const key of ['End','Home','PageDown','PageUp','ArrowDown','ArrowUp',' ','Tab','Escape','Shift','Control','F5','Unidentified','Process',undefined])drifting.emit('keydown',{key});
+    await turn();
+  }
+  assert.deepEqual(drifting.urls(),[question]);
+  assert.equal(drifting.footer.textContent,'41 unique visitors this week');
+  assert.equal(drifting.values.has('pi-visitor-week'),false);assert.equal(drifting.state.github.catalog,41);
+  // A script's own events are not presses, and nothing is pressed in a page that nobody is looking at.
+  for(const sign of ['pointerdown','touchstart','click','keydown'])drifting.emit(sign,{isTrusted:false,key:'a'});
+  drifting.state.visible=false;drifting.emit('pointerdown');drifting.emit('keydown',{key:'a'});drifting.state.visible=true;
+  drifting.emit('wheel');
+  await turn();
+  assert.deepEqual(drifting.urls(),[question]);
+  // The first click counts the visitor at once: the ten seconds are long past.
+  drifting.emit('pointerdown');
+  await waiting;
+  assert.deepEqual(drifting.urls(),[question,hit1]);
+  assert.equal(drifting.footer.textContent,'42 unique visitors this week');
+
+  // What is a press: a mouse button, a finger, a link or button worked from the keyboard, a key that types.
+  assert.deepEqual(['pointerdown','touchstart','click','pointermove','wheel','scroll'].map(type=>presses({type})),[true,true,true,false,false,false]);
+  assert.deepEqual(['a','Z','7','é','/','Enter'].map(key=>presses({type:'keydown',key})),[true,true,true,true,true,true]);
+  assert.deepEqual([' ','End','Home','PageDown','PageUp','ArrowDown','ArrowLeft','Tab','Escape','Backspace','Shift','Control','Alt','Meta','Unidentified','Dead',undefined].map(key=>presses({type:'keydown',key})).includes(true),false);
+  // Each of them, as the first thing done, counts a visitor who is still scrolling ten seconds later.
+  for(const press of [['pointerdown'],['touchstart'],['click'],['keydown',{key:'a'}],['keydown',{key:'Enter'}],['keydown',{key:'f',ctrlKey:true}]]){
+    const visitor=browser({acts:false});
+    const counting=visitor.run();
+    visitor.emit(...press);await turn();
+    assert.deepEqual(visitor.urls(),[question],JSON.stringify(press));
+    visitor.wait(stay);visitor.emit('wheel');
+    await counting;
+    assert.deepEqual(visitor.urls(),[question,hit1],JSON.stringify(press));
+  }
+  // The press may come at any time: here while GitHub is still being asked for the totals.
+  const prompt=browser({acts:false});
+  const reply=prompt.fetch;
+  let answer;
+  prompt.fetch=(url,options)=>url===question?new Promise(resolve=>{answer=()=>resolve(reply(url,options));}):reply(url,options);
+  const counting=prompt.run();
+  prompt.move();await turn();
+  assert.deepEqual(prompt.urls(),[]);assert.equal(typeof answer,'function');
+  prompt.emit('pointerdown');
+  answer();await turn();
+  prompt.wait(stay);prompt.move(700,300);
+  await counting;
+  assert.deepEqual(prompt.urls(),[question,hit1]);
+  // And a press within the first ten seconds, with nothing after it, is a program that clicked and went.
+  const gone=browser({acts:false});
+  gone.run();
+  gone.emit('pointerdown');await turn();
+  gone.wait(stay-1);gone.emit('click');gone.emit('keydown',{key:'a'});
+  await turn();
+  assert.deepEqual(gone.urls(),[question]);assert.equal(gone.values.has('pi-visitor-week'),false);
 });
 
 test('study guides keep the count when a guide replaces the page in place',async()=>{
@@ -552,13 +641,14 @@ test('the privacy policy and the About dialog describe the count',()=>{
   const policy=source('src/privacy.html');
   assert.match(policy,/<h2>How the website counts visitors<\/h2>/);
   assert.match(policy,/When you do something on one of them \(move the pointer, touch the screen or press a key\), the page reads the week&rsquo;s totals from GitHub, which hosts the website\./);
-  assert.match(policy,/If you are still doing something there ten seconds later, the page also asks GitHub for a small file, the first time in a week\./);
+  assert.match(policy,/Once you have clicked, touched the screen or typed something there, and are still using the page ten seconds after you began, the page also asks GitHub for a small file, the first time in a week\./);
+  assert.match(policy,/Reading a page by scrolling alone is not counted\./);
   assert.match(policy,/what you did, and when, is not recorded or sent/);
   assert.match(policy,/It carries no cookies, no name or other identifier, nothing about what you read, and no record of the page you came from\./);
   assert.match(policy,/a note of which main pages it has been counted on this week and the latest visitor totals/);
   assert.match(policy,/<p>The app does not take part in this count\.<\/p>/);
   assert.match(policy,/<h2>What we collect<\/h2>\s*<p>No personal information\./);
   // The earlier wording would no longer be true of the website.
-  assert.doesNotMatch(policy,/runs no analytics|<p>Nothing\. There are no accounts, analytics|nothing is collected|The first time in a week that you do something/);
+  assert.doesNotMatch(policy,/runs no analytics|<p>Nothing\. There are no accounts, analytics|nothing is collected|The first time in a week that you do something|If you are still doing something there ten seconds later/);
   for(const file of ['src/index.html','src/subjects.html','src/volume-view.html'])assert(source(file).includes('The website’s only measurement is an anonymous count of each week’s visitors, described in the <a href="./privacy.html">privacy policy</a>.'),file);
 });

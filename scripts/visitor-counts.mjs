@@ -28,21 +28,35 @@ export function siteAddress(repository){
   const [owner,name]=repository.split('/');
   return `https://${owner.toLowerCase()}.github.io/${name}/`;
 }
+// In their first week the files were named page first (catalog-2026-11-09.gif;
+// why that was changed is told at `assetName` in src/visitor-count.mjs). Pages
+// no longer ask for a file of that name, and it is never counted, set back to
+// zero or added again. Those of a week that has begun stay attached: their
+// download counts show whether anything still requests them, and the first of
+// them keeps the head of GitHub's list of the release's files, which is by
+// name, so that no counted file stands there. Those prepared for weeks that
+// had not begun are removed.
+export function formerFile(name){
+  const match=/^([a-z-]+)-(\d{4}-\d{2}-\d{2})\.gif$/.exec(name);
+  return match?parseAssetName(assetName(match[1],match[2])):null;
+}
+export const downloads=count=>Number.isSafeInteger(count)?`${count} download${count===1?'':'s'}`:'downloads unknown';
 
 // The weekly totals recorded in the release notes, week → page → count, are
 // read by the website's graph as well, so the reader is in its module.
 export {readHistory};
 
-export function writeNotes(history,current,site){
+export function writeNotes(history,current,site,former=[]){
   const weeks=[...history.keys()].filter(week=>week<=current).sort().reverse();
   const cell=count=>Number.isSafeInteger(count)?String(count):'–';
   return [
     `Unique visitors of the four main pages of the [Partial Inventory browser](${site}) in each week, Monday to Sunday (UTC).`,
     '',
-    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time in the week that its visitor is still doing something on that page ten seconds after first doing something there, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html). The website draws these totals as a [graph](${site}${graphPage}).`,
+    `Each file attached below (a one-pixel image) counts one page in one week. A browser asks for the file the first time in the week that its visitor has pressed something on that page (clicked, touched the screen or typed) and is still doing something there ten seconds after beginning, and GitHub's download count of the file is the number of visitors. No personal information is collected; see the [privacy policy](${site}privacy.html). The website draws these totals as a [graph](${site}${graphPage}).`,
     '',
     'Please do not download the files (each download is counted as a visitor) and do not edit this text: the "Keep the weekly visitor counters" workflow rewrites it every day and removes the files of earlier weeks once their counts are in the table.',
     '',
+    ...(former.length?[`The files whose names begin with the page (for example \`${former[0].name}\`) are the first ones the website used. Pages no longer ask for them and they are not counted; they stay attached to show whether anything still requests them.`,'']:[]),
     `| ${notesColumn} | ${pageNames.map(page=>pages[page]).join(' | ')} |`,
     `| --- |${pageNames.map(()=>' ---: |').join('')}`,
     ...weeks.map(week=>`| ${week}${week===current?notesInProgress:''} | ${pageNames.map(page=>cell(history.get(week)[page])).join(' | ')} |`),
@@ -51,13 +65,15 @@ export function writeNotes(history,current,site){
 }
 
 // What a run changes, from the release as it stands: the files to add, the
-// notes, and the files of past weeks that the notes now make redundant.
+// notes, the files of past weeks that the notes now make redundant, and the
+// files of the first naming that no page ever asked for.
 export function plan({notes,assets},now,site){
   const current=weekOf(now),lastWeek=addWeeks(current,-1);
-  const files=[];
+  const files=[],former=[];
   for(const asset of assets){
-    const file=parseAssetName(asset.name);
+    const file=parseAssetName(asset.name),first=file?null:formerFile(asset.name);
     if(file)files.push({...file,name:asset.name,id:asset.id,count:asset.download_count});
+    if(first)former.push({...first,name:asset.name,id:asset.id,count:asset.download_count});
   }
   const present=new Set(files.map(file=>file.name));
   const add=[];
@@ -65,13 +81,25 @@ export function plan({notes,assets},now,site){
     const week=addWeeks(current,ahead),name=assetName(page,week);
     if(!present.has(name))add.push({page,week,name});
   }
-  // A count already in the notes is never lowered.
-  const history=weeklyTotals({body:notes,assets},current);
-  if(!history.has(current))history.set(current,{});
   const recorded=file=>Number.isSafeInteger(file.count)&&file.count>=0;
+  // A count already in the notes is never lowered, with one exception: what a
+  // week's first files had recorded there is not kept. While such files of
+  // this week or the last are attached, that week's numbers are those of its
+  // present files alone (unknown where it has none).
+  const history=weeklyTotals({body:notes,assets},current);
+  for(const week of [lastWeek,current]){
+    if(!former.some(file=>file.week===week))continue;
+    const counts={};
+    for(const file of files)if(file.week===week&&recorded(file))counts[file.page]=file.count;
+    history.set(week,counts);
+  }
+  if(!history.has(current))history.set(current,{});
   // Last week's files stay for a week, for the visits GitHub adds late.
   const remove=files.filter(file=>file.week<lastWeek&&recorded(file));
-  return {add,remove,notes:writeNotes(history,current,site),history};
+  // Files of the first naming (see formerFile).
+  const watched=former.filter(file=>file.week<=current);
+  const retire=former.filter(file=>file.week>current);
+  return {add,remove,watched,retire,notes:writeNotes(history,current,site,watched),history};
 }
 
 const sameText=(a,b)=>String(a||'').replaceAll('\r\n','\n').trim()===String(b||'').replaceAll('\r\n','\n').trim();
@@ -125,7 +153,13 @@ export async function maintain({github,site,now=new Date(),log=console.log,reset
     await github.removeFile(file.id);
     log(`Removed ${file.name} (${file.count} recorded in the notes).`);
   }
-  return {release,added,reset,removed:changes.remove.map(file=>file.name),notes:changes.notes};
+  for(const file of changes.retire){
+    await github.removeFile(file.id);
+    log(`Removed ${file.name}, which pages no longer ask for (${downloads(file.count)}).`);
+  }
+  // Each run's log is a reading of the files still watched.
+  for(const file of changes.watched)log(`${file.name} is no longer counted: ${downloads(file.count)} so far.`);
+  return {release,added,reset,removed:changes.remove.map(file=>file.name),retired:changes.retire.map(file=>file.name),watched:changes.watched.map(({name,count})=>({name,count})),notes:changes.notes};
 }
 
 // GitHub's REST API for the one release, with the workflow's token.
@@ -175,6 +209,7 @@ export function githubRelease({repository,token,fetch=globalThis.fetch,api=proce
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   const repository=process.env.GITHUB_REPOSITORY;
   const result=await maintain({github:githubRelease({repository,token:process.env.GITHUB_TOKEN}),site:siteAddress(repository||''),resetWeek:process.argv.includes('--reset-week')});
-  console.log(`${result.added.length} files added, ${result.removed.length} removed${result.reset.length?`, ${result.reset.length} reset to zero`:''}.`);
-  if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,`${result.notes}\n[${releaseName} release](${result.release.html_url})\n`);
+  console.log(`${result.added.length} files added, ${result.removed.length} removed${result.retired.length?`, ${result.retired.length} of the first naming removed`:''}${result.reset.length?`, ${result.reset.length} reset to zero`:''}.`);
+  const watched=result.watched.length?`Files that pages no longer ask for and that are not counted:\n\n${result.watched.map(file=>`- \`${file.name}\`: ${downloads(file.count)} so far`).join('\n')}\n\n`:'';
+  if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,`${result.notes}\n${watched}[${releaseName} release](${result.release.html_url})\n`);
 }
