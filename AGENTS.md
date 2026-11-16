@@ -1,6 +1,6 @@
 # Partial Inventory browser
 
-Read DESIGN.md before changing the interface and SKILL.md before changing the corpus pipeline or reader.
+Read DESIGN.md before changing the interface and SKILL.md before changing the corpus pipeline or reader. Read OUTSIDE.md before giving a study guide quotations from beyond the Baha'i writings.
 
 ## Project
 This is a dependency-free static web application for GitHub Pages. Node 22+ builds compressed records and a sharded positional search index. Browser ES modules and a Web Worker provide the interface. The original source folders are immutable inputs. A reproducible source archive in `data/collection/` (uncompressed tar shards) supplies GitHub Actions.

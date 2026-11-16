@@ -16,6 +16,8 @@ import {selectStudyGuideQuotations} from './study-guide-selection.mjs';
 import {shortenParagraphs,shortenSupplied} from './study-guide-shortening.mjs';
 import {subjectColorStyle} from '../src/subject-colors.mjs';
 import {withSourceQuestion} from './study-guide-question-context.mjs';
+import {readOutside} from './study-guide-outside.mjs';
+import {outsideGuideBody,suppliedLabel} from './outside-guide-page.mjs';
 
 // Generate against the same versioned records used by the subject reader. A
 // changed quotation or subject membership must be reviewed before rebuilding.
@@ -28,6 +30,9 @@ catch(error){if(error.code!=='ENOENT')throw error;}
 let sentenceContext=[];
 try{sentenceContext=JSON.parse(await fs.readFile(path.join(configDirectory,'sentence-context.json'),'utf8')).entries;}
 catch(error){if(error.code!=='ENOENT')throw error;}
+// A guide whose plan in study-guides/outside/ is published is read with quotations from
+// beyond the Bahá’í writings: the plan's page takes the place of its study-guide view.
+const outside=await readOutside(root),withOutside=new Map();
 const batchNames=(await fs.readdir(configDirectory)).filter(name=>name.endsWith('-batch.json')).sort();
 const batches=await Promise.all(batchNames.map(async name=>({name,...JSON.parse(await fs.readFile(path.join(configDirectory,name),'utf8'))})));
 batches.sort((a,b)=>(a.batchNumber??0)-(b.batchNumber??0)||a.name.localeCompare(b.name));
@@ -139,7 +144,7 @@ for(const config of editorial.subjects){
   const ordered=shownOrder.map(x=>groupMap.get(x.key));
   const shownSelections=ordered.reduce((n,g)=>n+g.selections.length,0);
   // The PDF view hides source context, so its pages are published without it.
-  const rendered=[],printed=[],compiled=[];
+  const rendered=[],printed=[],compiled=[],firstWords=[];
   let paragraphCount=0,rangeCount=0;
   for(const [position,g] of ordered.entries()){
     let quote='',context='',citation='',note='',opening=[],openingAuthorized=[],openingSource='';
@@ -245,9 +250,9 @@ for(const config of editorial.subjects){
         note+='<p class="meta">Sentence boundary needs source review; the supplied wording is retained.</p>';
       }
     }
-    const unlinkedStart=!g.source&&(position===0||ordered[position-1].source)?'<p class="section-label">Further quotations · supplied wording and references</p>':'';
+    const unlinkedStart=!g.source&&(position===0||ordered[position-1].source)?suppliedLabel:'';
     const article=details=>`${unlinkedStart}<article class="quotation" id="reading-${position+1}"><span class="sequence" aria-label="Reading position ${position+1}">${String(position+1).padStart(2,'0')}</span><div class="quote-body"><blockquote>${quote}</blockquote><div class="citation">${citation}</div>${note}${details}</div></article>`;
-    if(position===0)openings[config.id]={paragraphs:opening,authorized:openingAuthorized,source:openingSource};
+    firstWords.push({paragraphs:opening,authorized:openingAuthorized,source:openingSource});
     rendered.push(article(context));printed.push(article(''));
     compiled.push(entry);
   }
@@ -273,27 +278,39 @@ for(const config of editorial.subjects){
   const heading=`<h1>${esc(config.displayTitle)}</h1><p class="guide-subtitle">${esc(data.subject.name)}</p><p class="meta compilation-count">${counts} · <a href="${esc(linkSubject(config.id))}">Current subject view ↗</a></p>`;
   const sequenceNotes=`<details class="editorial"><summary>About this reading sequence</summary><p>${esc(config.arc)}</p><p>${config.selection?`This guide contains ${shownSelections} chosen quotations from the ${candidateCount} public selections, including every verified authorized translation. The complete original compilation remains available in Subject view.`:omittedIds.length?'Some public selections are left out of this guide by the editor; the complete compilation remains available in Subject view.':'All currently public selections are retained.'} Editor-selected word boundaries are retained. Other linked selections expand to their surrounding sentences in the same source; overlapping sentences appear once. Long passages may be shortened to the sentences that carry their central idea; the wording is unchanged, and the source context shows the full passage. Ellipses mark separated ranges. Distinct records and unlinked quotations remain distinct. Expand a linked passage for its paragraph context. Incomplete source wording and unresolved supplied excerpts are flagged for review. Blue quotation text follows existing catalogue authorization markings.</p><ol>${shownOrder.map(x=>`<li>${esc(x.why)}</li>`).join('')}</ol></details>`;
   const introduction=`<section class="introduction" aria-label="Editorial introduction"><p>${withReferences(config.introduction,config.references)}</p></section>`;
-  const exploration=`<section class="exploration">${neighbors.length?`<h2>Continue exploring</h2><ul class="connected-subjects">${neighbors.join('')}</ul>`:''}${references?`<aside class="comparative"><h3>Comparative reading</h3><ul>${references}</ul></aside>`:''}</section>`;
+  const continued=neighbors.length?`<h2>Continue exploring</h2><ul class="connected-subjects">${neighbors.join('')}</ul>`:'';
+  const exploration=`<section class="exploration">${continued}${references?`<aside class="comparative"><h3>Comparative reading</h3><ul>${references}</ul></aside>`:''}</section>`;
   const questions=config.questions.length?`<section id="questions" class="questions"><p class="eyebrow">For thought and discussion</p><h2>Questions to carry forward</h2><ol>${config.questions.map(q=>`<li>${esc(q)}</li>`).join('')}</ol></section>`:'';
   const controls=`<div class="reading-heading"><h2>Selected passages</h2></div><p class="translation-key">Authorized translations are displayed in blue text while provisional translations, which may be AI-generated and lightly vetted, are in black and white.  AI-generated translations may contain inaccuracies; the final authority is always the original text.</p><div class="view-controls"><a class="action" href="${esc(linkSubject(config.id)+'&print=1')}" target="_blank" rel="noopener">Open as PDF</a><a class="action" href="${config.slug}-pdf.html">Try a study guide</a><span class="meta">The introduction and discussion questions appear only in the study guide’s PDF view.</span></div>`;
   const body=`<p class="eyebrow">Editorial pilot · ${config.selection?'selected compilation':'complete sample'}</p>${heading}${controls}${rendered.join('')}${sequenceNotes}`;
   const pdfControls=`<div class="reading-heading"><h2>Selected passages</h2></div><p class="translation-key">Authorized translations are displayed in blue text while provisional translations, which may be AI-generated and lightly vetted, are in black and white.  AI-generated translations may contain inaccuracies; the final authority is always the original text.</p><div class="view-controls"><button class="action" id="print-compilation" disabled>Print / Save as PDF</button><a href="${esc(linkSubject(config.id))}">Back to subject</a>${questions?'<a href="#questions">Questions for reflection ↓</a>':''}<span id="print-status" class="meta" role="status">Preparing fonts…</span></div>`;
-  const pdfBody=`${heading}<p class="pdf-label">Editorial introduction (AI generated)</p>${introduction}${pdfControls}${printed.join('')}${exploration}${questions}`;
+  // The plan's own introduction and questions go with its readings; the outside quotations
+  // take the place of the comparative readings. A plan never stops the build: readings the
+  // guide has lost since are left out with what followed them, and reported.
+  const plan=outside.plans.get(config.slug);
+  const paired=plan?.status==='published'&&plan.subject===config.id?outsideGuideBody({guide:{...config,order:shownOrder,compiled},articles:new Map(printed.map((html,i)=>[i+1,html])),plan,library:outside.library,subjectName:data.subject.name,links:{subject:linkSubject(config.id),complete:config.slug+'.html'},exploration:continued?`<section class="exploration">${continued}</section>`:''}):null;
+  if(paired)withOutside.set(config.slug,paired);
+  if(plan?.status==='published'&&(!paired||paired.missing.length||paired.unplaced))console.warn(`Outside quotations of ${config.slug} need review: ${!paired?(plan.subject===config.id?'none of the plan’s readings is in the guide':'the plan names another subject'):`${paired.missing.length} of its readings are no longer in the guide and ${paired.unplaced} quotations are left out`}`);
+  openings[config.id]=firstWords[(paired?.first??1)-1];
+  const pdfBody=paired?paired.html:`${heading}<p class="pdf-label">Editorial introduction (AI generated)</p>${introduction}${pdfControls}${printed.join('')}${exploration}${questions}`;
   if(body.includes(config.introduction)||config.questions.some(q=>body.includes(esc(q))))throw Error('Editorial content leaked into regular view');
   await fs.writeFile(path.join(output,config.slug+'.html'),document(config.displayTitle,body,config.slug));
   await fs.writeFile(path.join(output,config.slug+'-pdf.html'),document(config.displayTitle,pdfBody,config.slug,true));
   const result={id:config.id,name:data.subject.name,selections:shownSelections,readingEntries:ordered.length,omittedEntries:config.order.length-ordered.length,questions:config.questions.length,comparativeReadings:config.references.length,editorialContent:'PDF view only',linkedParagraphs:paragraphCount,validatedRanges:rangeCount,unlinkedEntries:ordered.filter(g=>!g.source).length,sourceSelectionsSha256:digest(JSON.stringify(data.selections)),candidateSelections:candidateCount,coverage:config.selection?'every chosen selection exactly once; full catalogue preserved':'every public selection exactly once',sourceText:'all linked ranges equal their versioned source text'};
   validation.subjects.push(result);
+  if(paired)result.outside={readings:paired.readings,quotations:paired.quotations,outsideQuotations:paired.outside,missingReadings:paired.missing,unplacedQuotations:paired.unplaced};
   result.sentenceContextExpanded=compiled.filter(x=>x.sentenceContextExpanded).length;
   result.boundaryReviewEntries=compiled.filter(x=>x.boundaryIssues?.length).length;
   result.connectedSubjects=connectedSubjects.map(s=>s.id);
   exportData.subjects.push({...config,order:shownOrder,omitted:config.order.filter(x=>x.omitted).map(x=>({key:x.key,selectionIds:groupMap.get(x.key).selections.map(s=>s.id)})),sourceName:data.subject.name,connectedSubjects:result.connectedSubjects,compiled});
   // One row per guide; centrality is the subject's number of public graph connections.
   // The total is named only when the guide leaves some of the subject's quotations out.
-  const quotations=`${shownSelections===candidateCount?shownSelections:`${shownSelections} out of ${candidateCount}`} quotation${candidateCount===1?'':'s'}`;
+  // A guide read with outside quotations counts the quotations its page shows, and names the others.
+  const shown=paired?paired.quotations:shownSelections;
+  const quotations=`${shown===candidateCount?shown:`${shown} out of ${candidateCount}`} quotation${candidateCount===1?'':'s'}${paired?`<span class="guide-beyond">${paired.outside} from beyond</span>`:''}`;
   // Thematic follows Subject view's subject order; a subject missing from it sorts last.
   const thematic=thematicOrder.has(data.subject.name)?thematicOrder.get(data.subject.name):thematicOrder.size;
-  cards.push({title:config.displayTitle,centrality:connectedSubjects.length,quotations:shownSelections,html:`<li data-title="${esc(config.displayTitle)}" data-quotations="${shownSelections}" data-total="${candidateCount}" data-centrality="${connectedSubjects.length}" data-thematic="${thematic}" style="${subjectColorStyle(subjectMap.get(config.id))}"><a href="${config.slug}-pdf.html" title="${connectedSubjects.length} connected subject${connectedSubjects.length===1?'':'s'}"><span class="guide-title">${esc(config.displayTitle)}</span><span class="guide-count">${quotations}</span></a></li>`});
+  cards.push({title:config.displayTitle,centrality:connectedSubjects.length,quotations:shown,html:`<li data-title="${esc(config.displayTitle)}" data-quotations="${shown}" data-total="${candidateCount}" data-centrality="${connectedSubjects.length}" data-thematic="${thematic}" style="${subjectColorStyle(subjectMap.get(config.id))}"><a href="${config.slug}-pdf.html" title="${connectedSubjects.length} connected subject${connectedSubjects.length===1?'':'s'}"><span class="guide-title">${esc(config.displayTitle)}</span><span class="guide-count">${quotations}</span></a></li>`});
 }
 await fs.mkdir(path.join(output,'fonts'),{recursive:true});
 for(const font of ['eb-garamond.ttf','eb-garamond-italic.ttf','scheherazade-new.ttf','EB-Garamond-OFL.txt','Scheherazade-New-OFL.txt'])await fs.copyFile(path.join(out,'fonts',font),path.join(output,'fonts',font));
@@ -316,7 +333,8 @@ await fs.writeFile(path.join(output,'validation.json'),JSON.stringify(validation
 const edgeFlags=boundaryReview.filter(r=>r.issues.some(i=>(typeof i==='string'?i:i.issue)!=='supplied omission needs review'));
 const internalOnly=boundaryReview.filter(r=>!edgeFlags.includes(r));
 await fs.writeFile(path.join(output,'sentence-review.json'),JSON.stringify({format:1,dataset:datasetName,guides:exportData.subjects.length,entriesChecked:exportData.subjects.reduce((n,s)=>n+s.compiled.length,0),expandedEntries:validation.subjects.reduce((n,s)=>n+s.sentenceContextExpanded,0),boundaryFlags:edgeFlags.length,internalOmissionOnly:internalOnly.length,review:boundaryReview},null,2)+'\n');
-const reviewCards=rows=>rows.map(r=>`<article class="sample"><h3><a href="${r.slug}-pdf.html#reading-${r.position}">${esc(r.title)} · reading ${r.position}</a></h3><p class="meta">${esc(r.source||r.reference||'Reference not supplied')}</p><p>${esc(r.excerpt||r.issues.map(i=>i.text).join('\n'))}</p><p class="meta">${esc([...new Set(r.issues.map(i=>typeof i==='string'?i:i.issue))].join('; '))}</p></article>`).join('');
+// A guide read with outside quotations keeps all its readings, under their own numbers, in its regular view.
+const reviewCards=rows=>rows.map(r=>`<article class="sample"><h3><a href="${r.slug}${withOutside.has(r.slug)?'':'-pdf'}.html#reading-${r.position}">${esc(r.title)} · reading ${r.position}</a></h3><p class="meta">${esc(r.source||r.reference||'Reference not supplied')}</p><p>${esc(r.excerpt||r.issues.map(i=>i.text).join('\n'))}</p><p class="meta">${esc([...new Set(r.issues.map(i=>typeof i==='string'?i:i.issue))].join('; '))}</p></article>`).join('');
 await fs.writeFile(path.join(output,'sentence-review.html'),document('Sentence boundary review',`<h1>Sentence boundary review</h1><p>Automated checks cover all ${exportData.subjects.length} guides. Linked quotations use surrounding sentences from their versioned sources. There are ${edgeFlags.length} entries with a possible boundary problem or an omission at an edge, and ${internalOnly.length} further entries with internal omissions only. These are review flags, not a count of confirmed errors. Original selections and references remain intact; missing source wording has not been invented.</p><h2>Boundaries requiring source review · ${edgeFlags.length}</h2>${reviewCards(edgeFlags)}<h2>Internal omissions only · ${internalOnly.length}</h2>${reviewCards(internalOnly)}`,'review'));
 return validation;
 }

@@ -35,3 +35,17 @@ html.guide-busy,html.guide-busy *{cursor:progress}
 @media print{.reading-room:before{display:none}}
 .translation-key{font-size:16px;line-height:1.5;color:var(--muted);margin:0 0 12px}
 @media print{.translation-key{font-size:10pt}}
+/* A guide read with quotations from beyond the Bahá’í writings (scripts/outside-guide-page.mjs): its sections are named, the outside quotations stand on a tinted ground, and the reader may show one kind alone. */
+:root{--band:#eef0e4}:root[data-theme=dark]{--band:#232f27}
+h3.section-label{margin:48px 0 0;padding-top:14px;border-top:2px solid var(--ink);font-weight:600}
+.quotation.outside{background:var(--band);margin-inline:-18px;padding-inline:18px}.quotation[hidden]{display:none}
+.outside-label{color:var(--accent);font-size:14px;letter-spacing:1.3px;text-transform:uppercase;margin:0 0 8px}.outside-label a{text-decoration:none;border-bottom:1px solid currentColor}
+blockquote.verse .line{display:block;padding-left:1.4em;text-indent:-1.4em}
+.quotation .why{color:var(--ink);font-size:17px;margin:8px 0 6px}.quotation.outside .meta{margin-bottom:6px}
+.reading-filter{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;margin:0 0 6px;padding:8px 0;position:sticky;top:0;z-index:2;background:var(--sheet);border-bottom:1px solid var(--rule)}
+.chip{font:inherit;font-size:16px;min-height:44px;padding:5px 14px;border:1px solid var(--control-rule);border-radius:3px;background:none;color:var(--ink);cursor:pointer}.chip:hover{background:var(--selection)}.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--paper)}.chip:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.external-sources{margin-top:48px;border-top:1px solid var(--rule);padding-top:16px}
+.guide-beyond:before{content:' · '}
+.wide{overflow-x:auto}.ledger{border-collapse:collapse;width:100%;min-width:600px;font-size:16px;line-height:1.35}.ledger th,.ledger td{text-align:left;font-weight:400;padding:5px 10px 5px 0;border-top:1px solid var(--rule);vertical-align:top}.ledger thead th{color:var(--muted);font-size:14px;border-top:0}.ledger td:first-child{font-variant-numeric:tabular-nums}
+@media(max-width:650px){.reading-filter{position:static}.quotation.outside{margin-inline:-10px;padding-inline:10px}.guide-beyond{display:block}.guide-beyond:before{content:none}}
+@media print{:root[data-theme]{--band:#fff}.reading-filter,.external-sources{display:none}.quotation.outside{margin-inline:0;padding-inline:9pt 0;border-left:1.5pt solid var(--accent)}h3.section-label{margin-top:18pt;break-after:avoid}.outside-label{font-size:8pt}.quotation .why{font-size:10pt}}

@@ -381,3 +381,52 @@ test('explicitly reviewed word boundaries survive guide rendering and source con
  assert.match(html,/<mark>in<\/mark> context\./);
  assert.doesNotMatch(await fs.readFile(path.join(f.out,'study-guides/sample-pdf.html'),'utf8'),/class="context"/);
 });
+
+test('a guide whose plan is published is read with its outside quotations in the study-guide view; a plan never stops the build',async t=>{
+  const f=await fixture(t),warnings=t.mock.method(console,'warn',()=>{});
+  const quotation=text=>({text,author:'John Donne',work:'Devotions',year:'1624',sortYear:1624,tradition:'English literature',kind:'literature',source:{url:'https://example.org/donne',label:'Example library',checked:'2026-11-16',status:'primary'},rights:{status:'public-domain',note:'Published 1624.'}});
+  const why='It says of one death what the reading says of the whole body of humankind, in a single image.',linked='source:FIXTURE00001',unlinked='selection:unlinked';
+  const plan={format:2,slug:'sample',subject:id,status:'published',limit:100,rule:'whole',readings:2,quotations:3,kept:[linked,unlinked],introduction:'The plan’s introduction.',questions:['First?','Second?','Third?'],
+    outside:[{id:'island',after:linked,responds:[linked],relation:'adjacent',why},{id:'bell',after:linked,responds:[linked,unlinked],relation:'contrast',why},{id:'main',after:unlinked,responds:[unlinked],relation:'complement',why}],
+    library:{island:quotation('No <man> is an island.'),bell:quotation('It tolls for thee.'),main:quotation('A part of the main.')}};
+  const save=async value=>{await fs.mkdir(path.join(f.root,'study-guides/outside'),{recursive:true});await fs.writeFile(path.join(f.root,'study-guides/outside/sample.json'),JSON.stringify(value));};
+  const read=name=>fs.readFile(path.join(f.out,'study-guides',name),'utf8');
+  f.config.references=[{label:'A comparison',url:'https://example.org/compare',note:'A comparative reading.'}];await f.saveConfig();
+  // A draft changes nothing.
+  await save({...plan,status:'draft'});
+  let validation=await buildStudyGuides(f.root,f.out,dataset);
+  const standard=await read('sample-pdf.html'),regular=await read('sample.html'),opening=await read(`openings/${id}.json`);
+  assert.ok(standard.includes('Comparative reading')&&standard.includes('One editorial paragraph.')&&!standard.includes('data-kind="outside"'));assert.ok(!('outside' in validation.subjects[0]));
+  await save(plan);
+  validation=await buildStudyGuides(f.root,f.out,dataset);
+  const pdf=await read('sample-pdf.html');
+  assert.deepEqual(validation.subjects[0].outside,{readings:2,quotations:3,outsideQuotations:3,missingReadings:[],unplacedQuotations:0});assert.equal(validation.subjects[0].selections,3);
+  assert.deepEqual([...pdf.matchAll(/<article class="quotation[^"]*" id="reading-(\d)" data-kind="(\w+)"/g)].map(m=>m[1]+m[2]),['1guide','2outside','3outside','4guide','5outside']);
+  assert.match(pdf,/<body class="pdf-view">/);assert.match(pdf,/<main id="main"><h1>Sample<\/h1><p class="guide-subtitle">Sample<\/p><p class="meta compilation-count">3 quotations from the Bahá’í writings · 3 from beyond them · <a href="\.\.\/subjects\.html\?subject=A{32}">Current subject view ↗<\/a><\/p><p class="pdf-label">Editorial introduction \(AI generated\)<\/p><section class="introduction" aria-label="Editorial introduction"><p>The plan’s introduction\.<\/p>/);
+  // The plan's introduction and questions, and its quotations in place of the comparative reading.
+  assert.ok(pdf.includes('No &lt;man&gt; is an island.')&&pdf.includes('<li>Third?</li>')&&pdf.includes('<h2>Behind the external sources</h2>')&&pdf.includes('id="print-compilation"'));
+  assert.ok(!pdf.includes('One editorial paragraph.')&&!pdf.includes('Comparative reading')&&!pdf.includes('How might these passages inform one another?')&&!pdf.includes('class="context"'));
+  assert.match(pdf,/<p class="section-label">Further quotations · supplied wording and references<\/p><article class="quotation" id="reading-4" data-kind="guide"><span class="sequence" aria-label="Reading 4">04<\/span>/);
+  // The regular view keeps the whole guide as it was, and Subject view its first reading.
+  assert.equal(await read('sample.html'),regular);assert.equal(await read(`openings/${id}.json`),opening);
+  assert.deepEqual(JSON.parse(await read('manifest.json')).subjects,{[id]:'sample-pdf.html'});
+  assert.match(await read('index.html'),/data-quotations="3" data-total="3"[^>]*><a href="sample-pdf\.html"[^>]*><span class="guide-title">Sample<\/span><span class="guide-count">3 quotations<span class="guide-beyond">3 from beyond<\/span><\/span>/);
+  assert.equal(warnings.mock.callCount(),0);
+  // The guide has lost a reading the plan keeps: the page is built from what remains, and says so to the builder.
+  await save({...plan,kept:['source:GONE',unlinked],outside:[{id:'island',after:'source:GONE',responds:['source:GONE'],relation:'adjacent',why},plan.outside[2]]});
+  validation=await buildStudyGuides(f.root,f.out,dataset);
+  assert.deepEqual(validation.subjects[0].outside,{readings:1,quotations:1,outsideQuotations:1,missingReadings:['source:GONE'],unplacedQuotations:1});
+  assert.deepEqual([...(await read('sample-pdf.html')).matchAll(/id="reading-(\d)" data-kind="(\w+)"/g)].map(m=>m[1]+m[2]),['1guide','2outside']);
+  assert.match(warnings.mock.calls[0].arguments[0],/Outside quotations of sample need review: 1 of its readings are no longer in the guide and 1 quotations are left out/);
+  // Subject view shows the first reading the guide's page now shows.
+  assert.deepEqual(JSON.parse(await read(`openings/${id}.json`)).paragraphs,['A supplied quotation.']);
+  // A plan for another subject, or with none of its readings left, leaves the guide as it was.
+  for(const [change,message] of [[{subject:'B'.repeat(32)},/the plan names another subject/],[{kept:['source:GONE'],readings:1,outside:[]},/none of the plan’s readings is in the guide/]]){
+    await save({...plan,...change});
+    validation=await buildStudyGuides(f.root,f.out,dataset);
+    assert.equal(await read('sample-pdf.html'),standard);assert.ok(!('outside' in validation.subjects[0]));assert.match(warnings.mock.calls.at(-1).arguments[0],message);
+  }
+  // A library that cannot be read is an error of the data, and stops the build before any page is replaced.
+  await save({...plan,library:{...plan.library,island:{...plan.library.island,rights:{status:'unknown',note:'x'}}}});
+  await assert.rejects(buildStudyGuides(f.root,f.out,dataset),/island: unknown rights status/);assert.equal(await read('sample-pdf.html'),standard);
+});
