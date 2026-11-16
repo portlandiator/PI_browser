@@ -322,8 +322,10 @@ export async function previewDocument(root,view,plan,library,base,fragment=false
   const page=outsideGuideBody({guide:view,articles,plan,library,subjectName:view.subjectName,links:{subject:`${base}subjects.html?subject=${encodeURIComponent(view.id)}`,complete:`${base}study-guides/${view.slug}.html`}});
   if(!page)throw Error(`${view.slug}: none of the plan’s readings is in the guide`);
   // The site's own stylesheet, with the reading face from a public font service and the
-  // night colours following the reader's system where there is no switch.
-  const site=await fs.readFile(path.join(root,'scripts','compilation-pilot.css'),'utf8'),night=[...site.matchAll(/^:root\[data-theme=dark\]\{([^}]*)\}/gm)].map(match=>match[1]).join(';');
+  // night colours following the reader's system where there is no switch: every night
+  // rule of the stylesheet, wherever it stands in a line (the one for the ground of an
+  // outside quotation follows the day rule on the same line).
+  const site=await fs.readFile(path.join(root,'scripts','compilation-pilot.css'),'utf8'),night=[...site.matchAll(/:root\[data-theme=dark\]\{([^}]*)\}/g)].map(match=>match[1]).join(';');
   const css=site.replace(/@font-face\{[^}]*\}\n?/g,'').replaceAll('Reading,Georgia',"'EB Garamond',Georgia")+`\n@media (prefers-color-scheme:dark){:root:not([data-theme=light]){${night}}}\nbody{padding:0 16px}`;
   const script=await fs.readFile(path.join(root,'scripts','compilation-pilot-view.js'),'utf8');
   const head=`<title>${esc(view.displayTitle)}</title><meta name="claude:viewport-fit-sides" content="cover"><link rel="stylesheet" href="${fonts}"><style>${css}</style>`;
