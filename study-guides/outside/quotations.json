@@ -22,55 +22,29 @@
    },
    "caveat": "The words in brackets are the translator’s."
   },
-  "marcus-feet-hands": {
-   "text": "For we are made for co-operation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth. To act against one another, then, is contrary to nature; and it is acting against one another to be vexed and to turn away.",
-   "author": "Marcus Aurelius",
-   "work": "Meditations",
-   "locator": "II.1",
-   "year": "c. 170–180 CE",
-   "sortYear": 175,
-   "translator": "George Long",
-   "translationYear": "1862",
-   "tradition": "Greek and Roman",
-   "kind": "philosophy",
+  "saadi-limbs": {
+   "text": "The sons of Adam are limbs of each other / Having been created of one essence. / When the calamity of time afflicts one limb / The other limbs cannot remain at rest. / If thou hast no sympathy for the troubles of others / Thou art unworthy to be called by the name of a man.",
+   "verse": true,
+   "author": "Saʿdī",
+   "work": "Gulistān",
+   "locator": "I.10",
+   "year": "1258",
+   "sortYear": 1258,
+   "translator": "Edward Rehatsek",
+   "translationYear": "1888",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
    "source": {
-    "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_II",
-    "label": "Wikisource",
+    "url": "https://classics.mit.edu/Sadi/gulistan.mb.txt",
+    "label": "Internet Classics Archive",
     "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\[\\d+\\]"
-    ]
+    "status": "primary"
    },
    "rights": {
     "status": "public-domain",
-    "note": "Translator d. 1879."
-   }
-  },
-  "chandogya-rivers": {
-   "text": "These rivers, my son, run, the eastern (like the Ganga) toward the east, the western (like the Sindhu) toward the west. … They become indeed sea. And as those rivers, when they are in the sea, do not know, I am this or that river, … In the same manner, my son, all these creatures, when they have come back from the True, know not that they have come back from the True.",
-   "work": "Chāndogya Upanishad",
-   "locator": "6.10.1–2",
-   "year": "c. 8th–6th century BCE",
-   "sortYear": -700,
-   "translator": "F. Max Müller",
-   "translationYear": "1879",
-   "tradition": "Hindu scripture",
-   "kind": "sacred",
-   "source": {
-    "url": "https://archive.org/stream/upanishads01mluoft/upanishads01mluoft_djvu.txt",
-    "label": "Internet Archive",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "(?<=crea)- (?=tures)"
-    ]
+    "note": "Translator d. 1891."
    },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1900."
-   },
-   "caveat": "Copied from a scanned book, so the accents on Müller’s Sanskrit names are missing."
+   "currency": "Known wherever Persian is read as Banī Ādam; a carpet bearing the lines was installed at the United Nations in New York in 2005."
   },
   "kabir-one-light": {
    "text": "First, Allah created the Light; then, by His Creative Power, He made all mortal beings. From the One Light, the entire universe welled up. So, who is good, and who is bad?",
@@ -103,7 +77,7 @@
    "sortYear": -500,
    "translator": "King James Version",
    "translationYear": "1611",
-   "tradition": "Hebrew Bible",
+   "tradition": "Hebrew Bible and Apocrypha",
    "kind": "sacred",
    "source": {
     "url": "https://www.biblegateway.com/passage/?search=Leviticus%2019%3A33-34&version=KJV",
@@ -118,6 +92,2174 @@
    "rights": {
     "status": "public-domain",
     "note": "Translation of 1611."
+   }
+  },
+  "kennedy-small-planet": {
+   "text": "For, in the final analysis, our most basic common link is that we all inhabit this small planet. We all breathe the same air. We all cherish our children's future. And we are all mortal.",
+   "author": "John F. Kennedy",
+   "work": "Commencement Address at American University",
+   "locator": "Washington, 10 June 1963",
+   "year": "1963",
+   "sortYear": 1963,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://www.presidency.ucsb.edu/documents/commencement-address-american-university-washington",
+    "label": "The American Presidency Project",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Address of a President of the United States."
+   }
+  },
+  "hobbes-god-and-wolf": {
+   "text": "To speak impartially, both sayings are very true: that man to man is a kind of God; and that man to man is an arrant wolf. The first is true, if we compare citizens amongst themselves; and the second, if we compare cities.",
+   "author": "Thomas Hobbes",
+   "work": "De Cive",
+   "locator": "Epistle Dedicatory",
+   "year": "1642; English version 1651",
+   "sortYear": 1642,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/73906/pg73906.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "_"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "English version of 1651."
+   },
+   "currency": "Hobbes is turning over the Roman proverb homo homini lupus, man is a wolf to man."
+  },
+  "isaiah-wolf-and-lamb": {
+   "text": "The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; and the calf and the young lion and the fatling together; and a little child shall lead them.",
+   "work": "Isaiah 11:6",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2011%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "shakespeare-shylock": {
+   "text": "Hath not a Jew eyes? Hath not a Jew hands, organs, dimensions, senses, affections, passions? Fed with the same food, hurt with the same weapons, subject to the same diseases, healed by the same means, warmed and cooled by the same winter and summer as a Christian is? If you prick us, do we not bleed?",
+   "author": "William Shakespeare",
+   "work": "The Merchant of Venice",
+   "locator": "Act III, scene 1",
+   "year": "c. 1596–98",
+   "sortYear": 1597,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/1515/pg1515.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1600."
+   }
+  },
+  "dostoevsky-humanity": {
+   "text": "The more I love humanity in general, the less I love man in particular.",
+   "author": "Fyodor Dostoevsky",
+   "work": "The Brothers Karamazov",
+   "locator": "Book II, chapter 4",
+   "year": "1880",
+   "sortYear": 1880,
+   "translator": "Constance Garnett",
+   "translationYear": "1912",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/28054/pg28054-images.html",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1946."
+   },
+   "caveat": "A doctor’s confession, as the elder Zossima repeats it."
+  },
+  "augustine-two-cities": {
+   "text": "Accordingly, two cities have been formed by two loves: the earthly by the love of self, even to the contempt of God; the heavenly by the love of God, even to the contempt of self.",
+   "author": "Augustine of Hippo",
+   "work": "The City of God",
+   "locator": "XIV.28",
+   "year": "413–426 CE",
+   "sortYear": 420,
+   "translator": "Marcus Dods",
+   "translationYear": "1871",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/120114.htm",
+    "label": "New Advent",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1909."
+   }
+  },
+  "donne-island": {
+   "text": "No man is an island, entire of itself; every man is a piece of the continent, a part of the main. If a clod be washed away by the sea, Europe is the less, as well as if a promontory were, as well as if a manor of thy friend's or of thine own were: any man's death diminishes me, because I am involved in mankind, and therefore never send to know for whom the bell tolls; it tolls for thee.",
+   "author": "John Donne",
+   "work": "Devotions upon Emergent Occasions",
+   "locator": "Meditation XVII",
+   "year": "1624",
+   "sortYear": 1624,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Meditation_XVII",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1624."
+   }
+  },
+  "marcus-cut-branch": {
+   "text": "A branch cut off from the adjacent branch must of necessity be cut off from the whole tree also. So too a man when he is separated from another man has fallen off from the whole social community. Now as to a branch, another cuts it off; but a man by his own act separates himself from his neighbor when he hates him and turns away from him, and he does not know that he has at the same time cut himself off from the whole social system.",
+   "author": "Marcus Aurelius",
+   "work": "Meditations",
+   "locator": "XI.8",
+   "year": "c. 170–180 CE",
+   "sortYear": 175,
+   "translator": "George Long",
+   "translationYear": "1862",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_XI",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1879."
+   }
+  },
+  "ephesians-one-faith": {
+   "text": "Endeavouring to keep the unity of the Spirit in the bond of peace. There is one body, and one Spirit, even as ye are called in one hope of your calling; One Lord, one faith, one baptism, One God and Father of all, who is above all, and through all, and in you all.",
+   "work": "Ephesians 4:3–6",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%204%3A3-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "gandhi-not-one-religion": {
+   "text": "The need of the moment is not one religion, but mutual respect and tolerance of the devotees of the different religions. We want to reach not the dead level, but unity in diversity.",
+   "author": "M. K. Gandhi",
+   "work": "Young India",
+   "locator": "25 September 1924",
+   "year": "1924",
+   "sortYear": 1924,
+   "tradition": "Modern India",
+   "kind": "public",
+   "source": {
+    "url": "https://www.mkgandhi.org/voiceoftruth/unityofallreligions.php",
+    "label": "mkgandhi.org",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1948."
+   }
+  },
+  "quran-one-community": {
+   "text": "For each We have appointed a divine law and a traced-out way. Had Allah willed He could have made you one community. But that He may try you by that which He hath given you (He hath made you as ye are). So vie one with another in good works. Unto Allah ye will all return, and He will then inform you of that wherein ye differ.",
+   "work": "Qur’an 5:48",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=48",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "rumi-lamps": {
+   "text": "The lamps are different, but the Light is the same: it comes from Beyond. … the disagreement between Moslem, Zoroastrian and Jew depends on the standpoint.",
+   "author": "Jalāl al-Dīn Rūmī",
+   "work": "Mathnawī",
+   "locator": "in R. A. Nicholson, Rūmī: Poet and Mystic, no. CIV",
+   "year": "13th century",
+   "sortYear": 1265,
+   "translator": "Reynold A. Nicholson",
+   "translationYear": "1950",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
+   "source": {
+    "url": "https://archive.org/download/rumipoetandmystic/Rumi_Poet_and_Mystic_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "repair": [
+     [
+      "lamps arc different",
+      "lamps are different"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Translator d. 1945; first published 1950, so copyright may still run in the United States. Twenty-five words."
+   },
+   "caveat": "Copied from a scanned book, which misreads “are” as “arc”; corrected here."
+  },
+  "zeno-one-polity": {
+   "text": "Moreover, the much-admired Republic of Zeno, the founder of the Stoic sect, may be summed up in this one main principle: that all the inhabitants of this world of ours should not live differentiated by their respective rules of justice into separate cities and communities, but that we should consider all men to be of one community and one polity, and that we should have a common life and an order common to us all, even as a herd that feeds together and shares the pasturage of a common field.",
+   "author": "Zeno of Citium, as reported by Plutarch",
+   "work": "On the Fortune or the Virtue of Alexander",
+   "locator": "I.6 (329A–B)",
+   "year": "c. 100 CE, of a work of c. 300 BCE",
+   "sortYear": -300,
+   "translator": "Frank Cole Babbitt",
+   "translationYear": "1936",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Fortuna_Alexandri*/1.html",
+    "label": "LacusCurtius",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "(?<=Republic)[⁠]?\\d+",
+     "(?<=communities, )b(?=but)"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Loeb Classical Library, 1936 (translator d. 1935); reproduced by LacusCurtius as public domain."
+   }
+  },
+  "penn-one-religion": {
+   "text": "The Humble, Meek, Merciful, Just Pious and Devout Souls, are everywhere of one Religion; and when Death has taken off the Mask, they will know one another, tho' the divers Liveries they wear here make them Strangers.",
+   "author": "William Penn",
+   "work": "Some Fruits of Solitude",
+   "locator": "no. 519",
+   "year": "1693",
+   "sortYear": 1693,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://sourcebooks.web.fordham.edu/mod/1682penn-solitude.asp",
+    "label": "Fordham Modern History Sourcebook",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1693."
+   }
+  },
+  "galatians-neither": {
+   "text": "There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.",
+   "work": "Galatians 3:28",
+   "year": "c. 50–55 CE",
+   "sortYear": 52,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%203%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "du-bois-two-names": {
+   "text": "One ever feels his twoness,—an American, a Negro; two souls, two thoughts, two unreconciled strivings; two warring ideals in one dark body, whose dogged strength alone keeps it from being torn asunder. … He simply wishes to make it possible for a man to be both a Negro and an American",
+   "author": "W. E. B. Du Bois",
+   "work": "The Souls of Black Folk",
+   "locator": "chapter 1",
+   "year": "1903",
+   "sortYear": 1903,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/408/pg408.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Published 1903; author d. 1963."
+   }
+  },
+  "analects-reciprocity": {
+   "text": "Tsze-kung asked, saying, 'Is there one word which may serve as a rule of practice for all one's life?' The Master said, 'Is not RECIPROCITY such a word? What you do not want done to yourself, do not do to others.'",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "15.23 (15.24 in most editions)",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/4094/pg4094.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "corinthians-body": {
+   "text": "And the eye cannot say unto the hand, I have no need of thee: nor again the head to the feet, I have no need of you. … That there should be no schism in the body; but that the members should have the same care one for another. And whether one member suffer, all the members suffer with it; or one member be honoured, all the members rejoice with it.",
+   "work": "1 Corinthians 12:21, 25–26",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2012%3A21-26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-attuned-hearts": {
+   "text": "If thou hadst spent all that is in the earth thou couldst not have attuned their hearts, but Allah hath attuned them.",
+   "work": "Qur’an 8:63",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=8&verse=63",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "marx-unite": {
+   "text": "The proletarians have nothing to lose but their chains. They have a world to win. WORKING MEN OF ALL COUNTRIES, UNITE!",
+   "author": "Karl Marx and Friedrich Engels",
+   "work": "Manifesto of the Communist Party",
+   "locator": "closing lines",
+   "year": "1848",
+   "sortYear": 1848,
+   "translator": "Samuel Moore",
+   "translationYear": "1888",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/61/pg61.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1911."
+   }
+  },
+  "revelation-new-jerusalem": {
+   "text": "And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband. And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God.",
+   "work": "Revelation 21:2–3",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2021%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "malachi-one-father": {
+   "text": "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?",
+   "work": "Malachi 2:10",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Malachi%202%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "heschel-no-island": {
+   "text": "No religion is an island. We are all involved with one another. Spiritual betrayal on the part of one of us affects the faith of all of us.",
+   "author": "Abraham Joshua Heschel",
+   "work": "No Religion Is an Island",
+   "locator": "inaugural lecture, Union Theological Seminary, New York",
+   "year": "1965",
+   "sortYear": 1965,
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "public",
+   "source": {
+    "url": "https://cs.auckland.ac.nz/~alan/chaplain/Heschel.html",
+    "label": "University of Auckland (reproduced with permission)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Author d. 1972; three sentences."
+   }
+  },
+  "pascal-religious-conviction": {
+   "text": "Men never do evil so completely and cheerfully as when they do it from religious conviction.",
+   "author": "Blaise Pascal",
+   "work": "Pensées",
+   "locator": "no. 894 (895 in Brunschvicg’s numbering)",
+   "year": "written c. 1657–62; published 1670",
+   "sortYear": 1660,
+   "translator": "W. F. Trotter",
+   "translationYear": "1910",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/18269/pg18269.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published by 1910."
+   }
+  },
+  "john-ball": {
+   "text": "When Adam delved and Eve span, Who was then a gentleman?",
+   "author": "John Ball (attributed)",
+   "work": "Sermon at Blackheath, as the chronicler Thomas Walsingham reports it",
+   "year": "1381",
+   "sortYear": 1381,
+   "tradition": "European literature and thought",
+   "kind": "proverb",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ball,_John_(priest)",
+    "label": "Wikisource (Encyclopaedia Britannica, 11th edition)",
+    "checked": "2026-11-16",
+    "status": "secondary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Rhyme of the 14th century."
+   },
+   "currency": "The best-known slogan of the English Peasants’ Revolt.",
+   "caveat": "No text of the sermon survives; the rhyme is known from chroniclers hostile to the rising. Wording as the Encyclopaedia Britannica of 1911 gives it."
+  },
+  "quran-know-one-another": {
+   "text": "O mankind! Lo! We have created you male and female, and have made you nations and tribes that ye may know one another. Lo! the noblest of you, in the sight of Allah, is the best in conduct. Lo! Allah is Knower, Aware.",
+   "work": "Qur’an 49:13",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=49&verse=13",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   },
+   "caveat": "The published guide carries this verse among its supplied quotations, in an abridged wording. Here it is Pickthall’s."
+  },
+  "zhuangzi-duck-and-crane": {
+   "text": "A duck's legs, for instance, are short, but if we try to lengthen them, it occasions pain; and a crane's legs are long, but if we try to cut off a portion of them, it produces grief. Where a part is by nature long, we are not to amputate, or where it is by nature short, we are not to lengthen it.",
+   "author": "Zhuangzi",
+   "work": "Zhuangzi",
+   "locator": "chapter 8, “Webbed Toes”",
+   "year": "4th–3rd century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://archive.org/stream/sacredbooksofchi01oxfo/sacredbooksofchi01oxfo_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     " (?=;)"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   },
+   "caveat": "Copied from a scanned book."
+  },
+  "blackmun-account-of-race": {
+   "text": "In order to get beyond racism, we must first take account of race. There is no other way. And in order to treat some persons equally, we must treat them differently.",
+   "author": "Justice Harry A. Blackmun",
+   "work": "Regents of the University of California v. Bakke, separate opinion",
+   "locator": "438 U.S. 265 (1978)",
+   "year": "1978",
+   "sortYear": 1978,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/438/265",
+    "label": "Cornell Legal Information Institute",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Opinion of a United States court."
+   }
+  },
+  "zangwill-melting-pot": {
+   "text": "America is God's Crucible, the great Melting-Pot where all the races of Europe are melting and re-forming!",
+   "author": "Israel Zangwill",
+   "work": "The Melting-Pot",
+   "locator": "Act I",
+   "year": "1908",
+   "sortYear": 1908,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/23893/pg23893.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1926."
+   }
+  },
+  "kallen-orchestra": {
+   "text": "As in an orchestra, every type of instrument has its specific timbre and tonality, founded in its substance and form; … so in society each ethnic group is the natural instrument, its spirit and culture are its theme and melody, and the harmony and dissonances and discords of them all make the symphony of civilization",
+   "author": "Horace M. Kallen",
+   "work": "Democracy Versus the Melting-Pot",
+   "locator": "The Nation, 25 February 1915",
+   "year": "1915",
+   "sortYear": 1915,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://archive.org/download/kallen-melting-pot/Kallen-Melting-Pot_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "(?<=har)- (?=mony)"
+    ]
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Published 1915; author d. 1974."
+   },
+   "caveat": "Copied from a scanned article."
+  },
+  "quran-no-rift": {
+   "text": "Who hath created seven heavens in harmony. Thou (Muhammad) canst see no fault in the Beneficent One's creation; then look again: Canst thou see any rifts?",
+   "work": "Qur’an 67:3",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=67&verse=3",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   },
+   "caveat": "Pickthall gives as “fault” the word that the reading’s translation gives as “difference”."
+  },
+  "selassie-race-and-peace": {
+   "text": "that until the philosophy which holds one race superior and another inferior is finally and permanently discredited and abandoned; … that until that day, the dream of lasting peace and world citizenship and the rule of international morality will remain but a fleeting illusion, to be pursued but never attained.",
+   "author": "Haile Selassie I",
+   "work": "Address to the United Nations General Assembly",
+   "locator": "New York, 4 October 1963",
+   "year": "1963",
+   "sortYear": 1963,
+   "tradition": "Africa",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Haile_Selassie%27s_address_to_the_United_Nations%2C_1963",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Address of a head of state (d. 1975); rights not established. Fifty words."
+   },
+   "currency": "The passage became the words of Bob Marley’s song “War” (1976)."
+  },
+  "washington-fingers-and-hand": {
+   "text": "In all things that are purely social we can be as separate as the fingers, yet one as the hand in all things essential to mutual progress.",
+   "author": "Booker T. Washington",
+   "work": "Atlanta Exposition Address",
+   "locator": "18 September 1895; in Up from Slavery, chapter 14",
+   "year": "1895",
+   "sortYear": 1895,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/2376/pg2376.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1915."
+   }
+  },
+  "maha-upanishad-one-family": {
+   "text": "\"This is mine, that is theirs\" — such is the reckoning of the narrow-minded. For those of noble character, the entire world is one family.",
+   "work": "Maha Upanishad",
+   "locator": "6.71–72",
+   "year": "date uncertain",
+   "sortYear": 500,
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Vasudhaiva_Kutumbakam",
+    "label": "Wikipedia",
+    "checked": "2026-11-16",
+    "status": "secondary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "English rendering from Wikipedia (CC BY-SA); no translator is named."
+   },
+   "currency": "The source of the phrase vasudhaiva kuṭumbakam, “the world is one family”; Wikipedia records that the verse is engraved in the entrance hall of the Parliament of India.",
+   "caveat": "The published guide carries this verse among its supplied quotations, in another unattributed wording. Here it is quoted as Wikipedia gives it."
+  },
+  "matthew-inasmuch": {
+   "text": "For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me. … Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.",
+   "work": "Matthew 25:35–36, 40",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A35-40&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "thoreau-doing-me-good": {
+   "text": "If I knew for a certainty that a man was coming to my house with the conscious design of doing me good, I should run for my life",
+   "author": "Henry David Thoreau",
+   "work": "Walden",
+   "locator": "“Economy”",
+   "year": "1854",
+   "sortYear": 1854,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau/Economy",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1862."
+   },
+   "caveat": "The sentence runs on: he would run “as from that dry and parching wind of the African deserts called the simoom”."
+  },
+  "wisdom-made-and-loved": {
+   "text": "For thou lovest all the things that are, and abhorrest nothing which thou hast made: for never wouldest thou have made any thing, if thou hadst hated it. And how could any thing have endured, if it had not been thy will? or been preserved, if not called by thee? But thou sparest all: for they are thine, O Lord, thou lover of souls.",
+   "work": "Wisdom of Solomon 11:24–26",
+   "year": "c. 1st century BCE",
+   "sortYear": -50,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Wisdom_of_Solomon",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   },
+   "caveat": "From the Apocrypha of the King James Bible; Catholic and Orthodox Christians count the book in the Old Testament."
+  },
+  "ezekiel-shepherd": {
+   "text": "I will seek that which was lost, and bring again that which was driven away, and will bind up that which was broken, and will strengthen that which was sick: but I will destroy the fat and the strong; I will feed them with judgment.",
+   "work": "Ezekiel 34:16",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2034%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hadith-wish-for-brother": {
+   "text": "None of you will have faith till he wishes for his (Muslim) brother what he likes for himself.",
+   "author": "Muḥammad",
+   "work": "Ṣaḥīḥ al-Bukhārī",
+   "locator": "no. 13",
+   "year": "7th century; collected in the 9th",
+   "sortYear": 630,
+   "translator": "Muhammad Muhsin Khan",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://sunnah.com/bukhari:13",
+    "label": "Sunnah.com",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "fetch": "browser"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation (translator d. 2021); one sentence."
+   },
+   "caveat": "The word in brackets is the translator’s."
+  },
+  "matthew-golden-rule": {
+   "text": "Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets.",
+   "work": "Matthew 7:12",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%207%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "shaw-golden-rule": {
+   "text": "Do not do unto others as you would that they should do unto you. Their tastes may not be the same.",
+   "author": "George Bernard Shaw",
+   "work": "Maxims for Revolutionists, in Man and Superman",
+   "year": "1903",
+   "sortYear": 1903,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Man_and_Superman/Maxims_for_Revolutionists",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1903; author d. 1950."
+   }
+  },
+  "chandogya-rivers": {
+   "text": "These rivers, my son, run, the eastern (like the Ganga) toward the east, the western (like the Sindhu) toward the west. … They become indeed sea. And as those rivers, when they are in the sea, do not know, I am this or that river, … In the same manner, my son, all these creatures, when they have come back from the True, know not that they have come back from the True.",
+   "work": "Chāndogya Upanishad",
+   "locator": "6.10.1–2",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -700,
+   "translator": "F. Max Müller",
+   "translationYear": "1879",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://archive.org/stream/upanishads01mluoft/upanishads01mluoft_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "(?<=crea)- (?=tures)"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   },
+   "caveat": "Copied from a scanned book, so the accents on Müller’s Sanskrit names are missing."
+  },
+  "vivekananda-own-law": {
+   "text": "The Christian is not to become a Hindu or a Buddhist, nor a Hindu or a Buddhist to become a Christian. But each must assimilate the spirit of the others and yet preserve his individuality and grow according to his own law of growth.",
+   "author": "Swami Vivekananda",
+   "work": "Address at the Final Session, World’s Parliament of Religions",
+   "locator": "Chicago, 27 September 1893",
+   "year": "1893",
+   "sortYear": 1893,
+   "tradition": "Modern India",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Complete_Works_of_Swami_Vivekananda/Volume_1/Addresses_at_The_Parliament_of_Religions/Address_at_the_Final_Session",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1902."
+   }
+  },
+  "dickens-mankind-business": {
+   "text": "“Business!” cried the Ghost, wringing its hands again. “Mankind was my business. The common welfare was my business; charity, mercy, forbearance, and benevolence, were, all, my business. The dealings of my trade were but a drop of water in the comprehensive ocean of my business!”",
+   "author": "Charles Dickens",
+   "work": "A Christmas Carol",
+   "locator": "Stave One",
+   "year": "1843",
+   "sortYear": 1843,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/46/pg46-images.html",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1870."
+   },
+   "caveat": "Marley’s ghost is answering Scrooge, who has called him a good man of business."
+  },
+  "marcus-swarm-and-bee": {
+   "text": "That which is not good for the swarm, neither is it good for the bee.",
+   "author": "Marcus Aurelius",
+   "work": "Meditations",
+   "locator": "VI.54",
+   "year": "c. 170–180 CE",
+   "sortYear": 175,
+   "translator": "George Long",
+   "translationYear": "1862",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_VI",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1879."
+   }
+  },
+  "dhammapada-own-faults": {
+   "text": "Not the perversities of others, not their sins of commission or omission, but his own misdeeds and negligences should a sage take notice of.",
+   "work": "Dhammapada",
+   "locator": "verse 50",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "leviticus-rebuke": {
+   "text": "Thou shalt not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin upon him. Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the Lord.",
+   "work": "Leviticus 19:17–18",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2019%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-133": {
+   "text": "Behold, how good and how pleasant it is for brethren to dwell together in unity!",
+   "work": "Psalm 133:1",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20133%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "gibran-stand-together": {
+   "text": "And stand together yet not too near together: / For the pillars of the temple stand apart, / And the oak tree and the cypress grow not in each other's shadow.",
+   "verse": true,
+   "author": "Kahlil Gibran",
+   "work": "The Prophet",
+   "locator": "“On Marriage”",
+   "year": "1923",
+   "sortYear": 1923,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Prophet_(Gibran)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1931."
+   }
+  },
+  "aesop-wind-and-sun": {
+   "text": "But the harder he blew the more closely did the traveller wrap his cloak round him, till at last the Wind had to give up in despair. Then the Sun came out and shone in all his glory upon the traveller, who soon found it too hot to walk with his cloak on. Kindness effects more than Severity.",
+   "author": "Aesop",
+   "work": "The Wind and the Sun",
+   "year": "traditional Greek fable; this version 1894",
+   "sortYear": -550,
+   "translator": "Joseph Jacobs",
+   "translationYear": "1894",
+   "tradition": "Greek and Roman",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Fables_of_%C3%86sop_(Jacobs)/The_Wind_and_the_Sun",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "​"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Retold by Jacobs, who d. 1916."
+   }
+  },
+  "pope-err-human": {
+   "text": "Good nature and good sense must ever join; / To err is human; to forgive, divine.",
+   "verse": true,
+   "author": "Alexander Pope",
+   "work": "An Essay on Criticism",
+   "locator": "Part II",
+   "year": "1711",
+   "sortYear": 1711,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.poetryfoundation.org/poems/44897/an-essay-on-criticism-part-2",
+    "label": "Poetry Foundation",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "fetch": "browser"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1711."
+   }
+  },
+  "cyprian-rays": {
+   "text": "As there are many rays of the sun, but one light; and many branches of a tree, but one strength based in its tenacious root; and since from one spring flow many streams, although the multiplicity seems diffused in the liberality of an overflowing abundance, yet the unity is still preserved in the source. Separate a ray of the sun from its body of light, its unity does not allow a division of light; break a branch from a tree — when broken, it will not be able to bud; cut off the stream from its fountain, and that which is cut off dries up.",
+   "author": "Cyprian of Carthage",
+   "work": "On the Unity of the Church",
+   "locator": "5",
+   "year": "251 CE",
+   "sortYear": 251,
+   "translator": "Robert Ernest Wallis",
+   "translationYear": "1886",
+   "tradition": "Early Christian",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/050701.htm",
+    "label": "New Advent",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Ante-Nicene Fathers, vol. 5, 1886."
+   }
+  },
+  "aristotle-harmony-unison": {
+   "text": "Unity there should be, both of the family and of the state, but in some respects only. For there is a point at which a state may attain such a degree of unity as to be no longer a state, or at which, without actually ceasing to exist, it will become an inferior state, like harmony passing into unison, or rhythm which has been reduced to a single foot.",
+   "author": "Aristotle",
+   "work": "Politics",
+   "locator": "II.5 (1263b)",
+   "year": "4th century BCE",
+   "sortYear": -335,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1885",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/politics.2.two.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "lincoln-house-divided": {
+   "text": "\"A house divided against itself cannot stand.\" I believe this government cannot endure, permanently half slave and half free.",
+   "author": "Abraham Lincoln",
+   "work": "“House Divided” speech",
+   "locator": "Springfield, Illinois, 16 June 1858",
+   "year": "1858",
+   "sortYear": 1858,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://www.nps.gov/liho/learn/historyculture/housedivided.htm",
+    "label": "National Park Service",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1865."
+   },
+   "caveat": "The first sentence is the Gospel’s (Mark 3:25), and the quotation marks are Lincoln’s."
+  },
+  "quran-cable": {
+   "text": "And hold fast, all of you together, to the cable of Allah, and do not separate. And remember Allah's favour unto you: How ye were enemies and He made friendship between your hearts so that ye became as brothers by His grace",
+   "work": "Qur’an 3:103",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=103",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "madison-multiplicity-of-sects": {
+   "text": "In a free government, the security for civil rights must be the same as that for religious rights. It consists in the one case in the multiplicity of interests, and in the other, in the multiplicity of sects.",
+   "author": "James Madison",
+   "work": "The Federalist",
+   "locator": "no. 51",
+   "year": "1788",
+   "sortYear": 1788,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Federalist_(Gideon)/51",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1788."
+   },
+   "caveat": "Text of the edition of 1818, which names Madison as the author."
+  },
+  "swift-religion-enough": {
+   "text": "We have just enough religion to make us hate, but not enough to make us love one another.",
+   "author": "Jonathan Swift",
+   "work": "Thoughts on Various Subjects",
+   "year": "1711",
+   "sortYear": 1711,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_5/Thoughts_on_Various_Subjects",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\[\\d+\\]"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1711."
+   }
+  },
+  "buddha-divisive-speech": {
+   "text": "Abandoning divisive speech he abstains from divisive speech. What he has heard here he does not tell there to break those people apart from these people here. … Thus reconciling those who have broken apart or cementing those who are united, he loves concord, delights in concord, enjoys concord, speaks things that create concord.",
+   "author": "The Buddha",
+   "work": "Aṅguttara Nikāya",
+   "locator": "10.176 (To Cunda the Silversmith)",
+   "year": "c. 5th century BCE; written down in the 1st",
+   "sortYear": -400,
+   "translator": "Thanissaro Bhikkhu",
+   "translationYear": "1997",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.accesstoinsight.org/tipitaka/an/an10/an10.176.than.html",
+    "label": "Access to Insight",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "Translation © 1997, published by Access to Insight under a Creative Commons licence for non-commercial use (CC BY-NC 4.0)."
+   }
+  },
+  "quran-backbiting": {
+   "text": "O ye who believe! Shun much suspicion; for lo! some suspicion is a crime. And spy not, neither backbite one another. Would one of you love to eat the flesh of his dead brother? Ye abhor that (so abhor the other)!",
+   "work": "Qur’an 49:12",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=49&verse=12",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "milton-knowledge-in-the-making": {
+   "text": "Where there is much desire to learn, there of necessity will be much arguing, much writing, many opinions; for opinion in good men is but knowledge in the making. … A little generous prudence, a little forbearance of one another, and som grain of charity might win all these diligences to joyn, and unite into one generall and brotherly search after Truth",
+   "author": "John Milton",
+   "work": "Areopagitica",
+   "year": "1644",
+   "sortYear": 1644,
+   "tradition": "European literature and thought",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Areopagitica_(1644)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1644."
+   },
+   "caveat": "In the spelling of 1644."
+  },
+  "john-new-commandment": {
+   "text": "A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another. By this shall all men know that ye are my disciples, if ye have love one to another.",
+   "work": "John 13:34–35",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2013%3A34-35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-same-mind": {
+   "text": "Now I beseech you, brethren, by the name of our Lord Jesus Christ, that ye all speak the same thing, and that there be no divisions among you; but that ye be perfectly joined together in the same mind and in the same judgment.",
+   "work": "1 Corinthians 1:10",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A10-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mill-minus-one": {
+   "text": "If all mankind minus one, were of one opinion, and only one person were of the contrary opinion, mankind would be no more justified in silencing that one person, than he, if he had the power, would be justified in silencing mankind.",
+   "author": "John Stuart Mill",
+   "work": "On Liberty",
+   "locator": "chapter 2",
+   "year": "1859",
+   "sortYear": 1859,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/On_Liberty/Chapter_2",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1873."
+   }
+  },
+  "yeats-centre": {
+   "text": "Things fall apart; the centre cannot hold; / Mere anarchy is loosed upon the world,",
+   "verse": true,
+   "author": "W. B. Yeats",
+   "work": "The Second Coming",
+   "year": "1919; printed 1920",
+   "sortYear": 1919,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Second_Coming_(Yeats)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1939."
+   },
+   "currency": "Among the most quoted lines of twentieth-century poetry.",
+   "caveat": "The sentence runs on to the next lines of the poem."
+  },
+  "liji-grand-union": {
+   "text": "When the Grand course was pursued, a public and common spirit ruled all under the sky; they chose men of talents, virtue, and ability; their words were sincere, and what they cultivated was harmony. Thus men did not love their parents only, nor treat as children only their own sons. … hence the outer doors remained open, and were not shut. This was (the period of) what we call the Grand Union.",
+   "work": "Book of Rites (Lî Kî)",
+   "locator": "Book VII (Lî Yun), I.2",
+   "year": "compiled c. 2nd century BCE",
+   "sortYear": -150,
+   "translator": "James Legge",
+   "translationYear": "1885",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_27/The_L%C3%AE_K%C3%AE/Book_VII",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\[\\d+\\]",
+     "​"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   },
+   "caveat": "Words the text gives to Confucius."
+  },
+  "kipling-east-west": {
+   "text": "Oh, East is East, and West is West, and never the twain shall meet, / Till Earth and Sky stand presently at God’s great Judgment Seat; / But there is neither East nor West, Border, nor Breed, nor Birth, / When two strong men stand face to face, tho’ they come from the ends of the earth!",
+   "verse": true,
+   "author": "Rudyard Kipling",
+   "work": "The Ballad of East and West",
+   "year": "1889",
+   "sortYear": 1889,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Ballads_and_Barrack-Room_Ballads/The_Ballad_of_East_and_West",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1936."
+   },
+   "currency": "The first line is commonly quoted alone, as if the poem said that East and West cannot meet."
+  },
+  "quran-kindness-and-justice": {
+   "text": "Allah forbiddeth you not those who warred not against you on account of religion and drove you not out from your homes, that ye should show them kindness and deal justly with them. Lo! Allah loveth the just dealers.",
+   "work": "Qur’an 60:8",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=60&verse=8",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "ruth-thy-people": {
+   "text": "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:",
+   "work": "Ruth 1:16",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ruth%201%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "gandhi-open-windows": {
+   "text": "I do not want my house to be walled in on all sides and my windows to be stuffed. I want the cultures of all the lands to be blown about my house as freely as possible. But I refuse to be blown off my feet by any.",
+   "author": "M. K. Gandhi",
+   "work": "Young India",
+   "locator": "1 June 1921",
+   "year": "1921",
+   "sortYear": 1921,
+   "tradition": "Modern India",
+   "kind": "public",
+   "source": {
+    "url": "https://archive.org/stream/in.ernet.dli.2015.175011/2015.175011.The-Collected-Works-Of-Mahatma-Gandhi-Vol-xxapr-aug-1921_djvu.txt",
+    "label": "Internet Archive (Collected Works of Mahatma Gandhi, vol. 20)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1948."
+   }
+  },
+  "darwin-sympathies": {
+   "text": "As man advances in civilisation, and small tribes are united into larger communities, the simplest reason would tell each individual that he ought to extend his social instincts and sympathies to all the members of the same nation, though personally unknown to him. This point being once reached, there is only an artificial barrier to prevent his sympathies extending to the men of all nations and races.",
+   "author": "Charles Darwin",
+   "work": "The Descent of Man",
+   "locator": "Part I, chapter 4",
+   "year": "1871; second edition 1874",
+   "sortYear": 1871,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/2300/pg2300.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   },
+   "caveat": "Other passages of the book rank “savage” and “civilised” peoples in the manner of its time."
+  },
+  "tennyson-tooth-and-claw": {
+   "text": "Who trusted God was love indeed / And love Creation’s final law— / Tho’ Nature, red in tooth and claw / With ravine, shriek’d against his creed—",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "In Memoriam A.H.H.",
+   "locator": "section LVI",
+   "year": "1850",
+   "sortYear": 1850,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/70950/pg70950-images.html",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\{\\d+\\}"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   },
+   "caveat": "Four lines from the middle of a long question about humankind."
+  },
+  "zamenhof-two-languages": {
+   "text": "How different would the case be, had we but two languages to learn; we should know them infinitely better … difference of speech is a cause of antipathy, nay even of hatred, between people, as being the first thing to strike us on meeting.",
+   "author": "L. L. Zamenhof",
+   "work": "Dr. Esperanto’s International Language",
+   "locator": "Introduction",
+   "year": "1887",
+   "sortYear": 1887,
+   "translator": "R. H. Geoghegan",
+   "translationYear": "1889",
+   "tradition": "European literature and thought",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dr._Esperanto%27s_International_Language_(1889)/Introduction",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1917; translator d. 1943."
+   }
+  },
+  "genesis-babel": {
+   "text": "And the Lord said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do. Go to, let us go down, and there confound their language, that they may not understand one another's speech. So the Lord scattered them abroad from thence upon the face of all the earth: and they left off to build the city.",
+   "work": "Genesis 11:6–8",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2011%3A6-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "goethe-foreign-languages": {
+   "text": "A man who has no acquaintance with foreign languages knows nothing of his own.",
+   "author": "Johann Wolfgang von Goethe",
+   "work": "Maxims and Reflections",
+   "locator": "no. 414",
+   "year": "before 1832",
+   "sortYear": 1825,
+   "translator": "Bailey Saunders",
+   "translationYear": "1893",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://archive.org/stream/maximsreflection00goetuoft/maximsreflection00goetuoft_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1928."
+   },
+   "caveat": "Copied from a scanned book."
+  },
+  "analects-no-distinction": {
+   "text": "In teaching there should be no distinction of classes.",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "15.38 (15.39 in most editions)",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/4094/pg4094.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "ashoka-other-religions": {
+   "text": "Whoever praises his own religion, due to excessive devotion, and condemns others with the thought \"Let me glorify my own religion,\" only harms his own religion. Therefore contact (between religions) is good. One should listen to and respect the doctrines professed by others.",
+   "author": "Aśoka",
+   "work": "Rock Edict XII",
+   "year": "3rd century BCE",
+   "sortYear": -255,
+   "translator": "S. Dhammika",
+   "translationYear": "1993",
+   "tradition": "Buddhist texts",
+   "kind": "public",
+   "source": {
+    "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+    "label": "Access to Insight",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\[\\d+\\]"
+    ]
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Rendering of 1993, offered by its publisher for free distribution; three sentences."
+   }
+  },
+  "garrison-motto": {
+   "text": "Our country is the world—our countrymen are mankind",
+   "author": "William Lloyd Garrison",
+   "work": "Motto of The Liberator",
+   "locator": "Boston, 1 January 1831",
+   "year": "1831",
+   "sortYear": 1831,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Garrison,_William_Lloyd",
+    "label": "Wikisource (Encyclopaedia Britannica, 11th edition)",
+    "checked": "2026-11-16",
+    "status": "secondary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1831."
+   },
+   "caveat": "Wording as the Encyclopaedia Britannica of 1911 reports the motto of the paper’s first number."
+  },
+  "burke-little-platoon": {
+   "text": "To be attached to the subdivision, to love the little platoon we belong to in society, is the first principle (the germ, as it were) of public affections. It is the first link in the series by which we proceed towards a love to our country and to mankind.",
+   "author": "Edmund Burke",
+   "work": "Reflections on the Revolution in France",
+   "year": "1790",
+   "sortYear": 1790,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/15679/pg15679.txt",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1790."
+   }
+  },
+  "kropotkin-mutual-aid": {
+   "text": "\"Don't compete!—competition is always injurious to the species, and you have plenty of resources to avoid it!\" That is the tendency of nature, not always realized in full, but always present. … \"Therefore combine—practise mutual aid! That is the surest means for giving to each and to all the greatest safety, the best guarantee of existence and progress, bodily, intellectual, and moral.\"",
+   "author": "Peter Kropotkin",
+   "work": "Mutual Aid: A Factor of Evolution",
+   "locator": "chapter 2",
+   "year": "1902",
+   "sortYear": 1902,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/4341/pg4341-images.html",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1921."
+   }
+  },
+  "isaiah-house-of-prayer": {
+   "text": "Even them will I bring to my holy mountain, and make them joyful in my house of prayer: their burnt offerings and their sacrifices shall be accepted upon mine altar; for mine house shall be called an house of prayer for all people.",
+   "work": "Isaiah 56:7",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2056%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ibn-arabi-every-form": {
+   "text": "My heart has become capable of every form: it is a pasture for gazelles and a convent for Christian monks, / And a temple for idols and the pilgrim's Kaʿba and the tables of the Tora and the book of the Koran. / I follow the religion of Love: whatever way Love's camels take, that is my religion and my faith.",
+   "verse": true,
+   "author": "Ibn al-ʿArabī",
+   "work": "Tarjumān al-Ashwāq",
+   "locator": "XI.13–15",
+   "year": "c. 1215",
+   "sortYear": 1215,
+   "translator": "Reynold A. Nicholson",
+   "translationYear": "1911",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Tarjum%C3%A1n_al-Ashw%C3%A1q/Poem_11",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\.\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1911; translator d. 1945."
+   }
+  },
+  "diogenes-citizen": {
+   "text": "Asked where he came from, he said, \"I am a citizen of the world.\"",
+   "author": "Diogenes of Sinope, as reported by Diogenes Laërtius",
+   "work": "Lives of the Eminent Philosophers",
+   "locator": "VI.63",
+   "year": "3rd century CE, of a saying of the 4th century BCE",
+   "sortYear": -350,
+   "translator": "R. D. Hicks",
+   "translationYear": "1925",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_VI",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1929."
+   },
+   "currency": "The Greek word in his answer, kosmopolitēs, gives us “cosmopolitan”."
+  },
+  "great-law-tree": {
+   "text": "Roots have spread out from the Tree of the Great Peace, one to the north, one to the east, one to the south and one to the west. … If any man or any nation outside the Five Nations shall obey the laws of the Great Peace and make known their disposition to the Lords of the Confederacy, they may trace the Roots to the Tree … they shall be welcomed to take shelter beneath the Tree of the Long Leaves.",
+   "work": "Gayanashagowa, the Great Law of Peace of the Haudenosaunee (Iroquois Confederacy)",
+   "locator": "The Great Binding Law, 2",
+   "year": "oral tradition of uncertain age",
+   "sortYear": 1500,
+   "tradition": "Indigenous North America",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Iroquois_Constitution",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Traditional law in a long-circulated English version."
+   },
+   "caveat": "An English version of an oral constitution, as transcribed at Wikisource, which names neither its date nor its translator."
+  },
+  "great-learning-widening": {
+   "text": "Their persons being cultivated, their families were regulated. Their families being regulated, their States were rightly governed. Their States being rightly governed, the whole kingdom was made tranquil and happy.",
+   "work": "The Great Learning",
+   "locator": "the text, 5",
+   "year": "5th–3rd century BCE",
+   "sortYear": -400,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://archive.org/stream/chineseclassics0000legg_d3h3/chineseclassics0000legg_d3h3_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "unesco-minds-of-men": {
+   "text": "That since wars begin in the minds of men, it is in the minds of men that the defences of peace must be constructed; That ignorance of each other’s ways and lives has been a common cause, throughout the history of mankind, of that suspicion and mistrust between the peoples of the world through which their differences have all too often broken into war;",
+   "author": "UNESCO",
+   "work": "Constitution of the United Nations Educational, Scientific and Cultural Organization",
+   "locator": "Preamble",
+   "year": "1945",
+   "sortYear": 1945,
+   "tradition": "International declarations",
+   "kind": "public",
+   "source": {
+    "url": "https://www.unesco.org/en/legal-affairs/constitution#preamble",
+    "label": "UNESCO",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "fetch": "browser"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Treaty text."
+   }
+  },
+  "universal-declaration-1": {
+   "text": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+   "author": "United Nations General Assembly",
+   "work": "Universal Declaration of Human Rights",
+   "locator": "Article 1",
+   "year": "1948",
+   "sortYear": 1948,
+   "tradition": "International declarations",
+   "kind": "public",
+   "source": {
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "label": "United Nations",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "United Nations declaration, published for general use."
+   }
+  },
+  "orwell-more-equal": {
+   "text": "ALL ANIMALS ARE EQUAL / BUT SOME ANIMALS ARE MORE EQUAL THAN OTHERS",
+   "verse": true,
+   "author": "George Orwell",
+   "work": "Animal Farm",
+   "locator": "chapter 10",
+   "year": "1945",
+   "sortYear": 1945,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://gutenberg.net.au/ebooks01/0100011h.html",
+    "label": "Project Gutenberg Australia",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Author d. 1950: public domain in many countries, in copyright in the United States. Thirteen words."
+   }
+  },
+  "psalm-shepherd": {
+   "text": "The Lord is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters. He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.",
+   "work": "Psalm 23:1–3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2023%3A1-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hugo-day-will-come": {
+   "text": "A day will come when you, France — you, Russia — you, Italy — you, England — you, Germany — all of you, nations of the Continent, will, without losing your distinctive qualities and your glorious individuality, be blended into a superior unity, and constitute an European fraternity, just as Normandy, Britanny, Burgundy, Lorraine, Alsace, have been blended into France.",
+   "author": "Victor Hugo",
+   "work": "Opening address to the Peace Congress of Paris",
+   "locator": "August 1849",
+   "year": "1849",
+   "sortYear": 1849,
+   "translator": "the congress’s English report",
+   "translationYear": "1849",
+   "tradition": "European literature and thought",
+   "kind": "public",
+   "source": {
+    "url": "https://archive.org/stream/reportproceedin02goog/reportproceedin02goog_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\^",
+     " ?\\.\\]"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1849."
+   },
+   "caveat": "Copied from a scan of the printed report, which spells “Britanny” so."
+  },
+  "kant-universal-monarchy": {
+   "text": "Such a condition of things is, however, better, according to the idea of reason, than the fusion of all the States into a Universal Monarchy by one Power that has overgrown the rest and subjected them to its sway. This is so because the laws lose always something of their definiteness as the range of a government becomes enlarged; and soulless despotism when it has choked the seeds of good, at length lapses into anarchy.",
+   "author": "Immanuel Kant",
+   "work": "Perpetual Peace",
+   "locator": "First Supplement",
+   "year": "1795",
+   "sortYear": 1795,
+   "translator": "W. Hastie",
+   "translationYear": "1891",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Perpetual_Peace/Supplements",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1903."
+   },
+   "caveat": "“Such a condition of things” is the separate existence of many independent states."
+  },
+  "king-mutuality": {
+   "text": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny. Whatever affects one directly, affects all indirectly.",
+   "author": "Martin Luther King Jr.",
+   "work": "Letter from Birmingham Jail",
+   "locator": "16 April 1963",
+   "year": "1963",
+   "sortYear": 1963,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html",
+    "label": "University of Pennsylvania, African Studies Center",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Author d. 1968; three sentences."
+   }
+  },
+  "tao-little-state": {
+   "text": "There should be a neighbouring state within sight, and the voices of the fowls and dogs should be heard all the way from it to us, but I would make the people to old age, even to death, not have any intercourse with it.",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 80",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.gutenberg.org/cache/epub/216/pg216-images.html",
+    "label": "Project Gutenberg",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   },
+   "caveat": "The sage is imagining himself the ruler of a small state."
+  },
+  "micah-vine-and-fig-tree": {
+   "text": "And he shall judge among many people, and rebuke strong nations afar off; and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up a sword against nation, neither shall they learn war any more. But they shall sit every man under his vine and under his fig tree; and none shall make them afraid: for the mouth of the Lord of hosts hath spoken it. For all people will walk every one in the name of his god, and we will walk in the name of the Lord our God for ever and ever.",
+   "work": "Micah 4:3–5",
+   "year": "8th–6th century BCE",
+   "sortYear": -700,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Micah%204%3A3-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-all-one": {
+   "text": "Neither pray I for these alone, but for them also which shall believe on me through their word; That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.",
+   "work": "John 17:20–21",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2017%3A20-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "rigveda-one-accord": {
+   "text": "Assemble, speak together: let your minds be all of one accord, As ancient Gods unanimous sit down to their appointed share. The place is common, common the assembly, common the mind, so be their thought united. A common purpose do I lay before you, and worship with your general oblation. One and the same be your resolve, and be your minds of one accord. United be the thoughts of all that all may happily agree.",
+   "work": "Rig Veda",
+   "locator": "10.191.2–4",
+   "year": "c. 1500–1000 BCE",
+   "sortYear": -1100,
+   "translator": "Ralph T. H. Griffith",
+   "translationYear": "1896",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda/Book_10/Hymn_191",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "[34]\\. "
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1906."
+   },
+   "caveat": "As transcribed at Wikisource."
+  },
+  "matthew-thy-kingdom-come": {
+   "text": "Our Father which art in heaven, Hallowed be thy name. Thy kingdom come, Thy will be done in earth, as it is in heaven.",
+   "work": "Matthew 6:9–10",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%206%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "marcus-feet-hands": {
+   "text": "For we are made for co-operation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth. To act against one another, then, is contrary to nature; and it is acting against one another to be vexed and to turn away.",
+   "author": "Marcus Aurelius",
+   "work": "Meditations",
+   "locator": "II.1",
+   "year": "c. 170–180 CE",
+   "sortYear": 175,
+   "translator": "George Long",
+   "translationYear": "1862",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_II",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\[\\d+\\]"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1879."
    }
   },
   "terence-nothing-human": {
@@ -158,54 +2300,6 @@
    "kind": "sacred",
    "source": {
     "url": "https://www.biblegateway.com/passage/?search=Matthew%2010%3A34-36&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
-   }
-  },
-  "saadi-limbs": {
-   "text": "The sons of Adam are limbs of each other / Having been created of one essence. / When the calamity of time afflicts one limb / The other limbs cannot remain at rest. / If thou hast no sympathy for the troubles of others / Thou art unworthy to be called by the name of a man.",
-   "verse": true,
-   "author": "Saʿdī",
-   "work": "Gulistān",
-   "locator": "I.10",
-   "year": "1258",
-   "sortYear": 1258,
-   "translator": "Edward Rehatsek",
-   "translationYear": "1888",
-   "tradition": "Persian and Sufi poetry",
-   "kind": "literature",
-   "source": {
-    "url": "https://classics.mit.edu/Sadi/gulistan.mb.txt",
-    "label": "Internet Classics Archive",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1891."
-   },
-   "currency": "Known wherever Persian is read as Banī Ādam; a carpet bearing the lines was installed at the United Nations in New York in 2005."
-  },
-  "corinthians-body": {
-   "text": "And the eye cannot say unto the hand, I have no need of thee: nor again the head to the feet, I have no need of you. … That there should be no schism in the body; but that the members should have the same care one for another. And whether one member suffer, all the members suffer with it; or one member be honoured, all the members rejoice with it.",
-   "work": "1 Corinthians 12:21, 25–26",
-   "year": "c. 55 CE",
-   "sortYear": 55,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "New Testament",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2012%3A21-26&version=KJV",
     "label": "Bible Gateway",
     "checked": "2026-11-16",
     "status": "primary",
@@ -265,26 +2359,6 @@
    "currency": "The source of the saying that the whole is greater than the sum of its parts.",
    "caveat": "The sentence goes on to ask what makes such a whole one."
   },
-  "kennedy-small-planet": {
-   "text": "For, in the final analysis, our most basic common link is that we all inhabit this small planet. We all breathe the same air. We all cherish our children's future. And we are all mortal.",
-   "author": "John F. Kennedy",
-   "work": "Commencement Address at American University",
-   "locator": "Washington, 10 June 1963",
-   "year": "1963",
-   "sortYear": 1963,
-   "tradition": "American literature and public life",
-   "kind": "public",
-   "source": {
-    "url": "https://www.presidency.ucsb.edu/documents/commencement-address-american-university-washington",
-    "label": "The American Presidency Project",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Address of a President of the United States."
-   }
-  },
   "schiller-brethren": {
    "text": "Fashion's laws, indeed, may sever, / But thy magic joins again; / All mankind are brethren ever / 'Neath thy mild and gentle reign.",
    "verse": true,
@@ -310,30 +2384,6 @@
    "currency": "Set by Beethoven in his Ninth Symphony; the melody is now the anthem of the European Union.",
    "caveat": "The third line translates the German Alle Menschen werden Brüder."
   },
-  "hobbes-god-and-wolf": {
-   "text": "To speak impartially, both sayings are very true: that man to man is a kind of God; and that man to man is an arrant wolf. The first is true, if we compare citizens amongst themselves; and the second, if we compare cities.",
-   "author": "Thomas Hobbes",
-   "work": "De Cive",
-   "locator": "Epistle Dedicatory",
-   "year": "1642; English version 1651",
-   "sortYear": 1642,
-   "tradition": "European literature and thought",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/73906/pg73906.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "_"
-    ]
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "English version of 1651."
-   },
-   "currency": "Hobbes is turning over the Roman proverb homo homini lupus, man is a wolf to man."
-  },
   "milton-concord": {
    "text": "O shame to men! Devil with devil damned / Firm concord holds; men only disagree / Of creatures rational, though under hope / Of heavenly grace, and, God proclaiming peace, / Yet live in hatred, enmity, and strife / Among themselves, and levy cruel wars / Wasting the earth, each other to destroy",
    "verse": true,
@@ -353,46 +2403,6 @@
    "rights": {
     "status": "public-domain",
     "note": "Published 1667."
-   }
-  },
-  "shakespeare-shylock": {
-   "text": "Hath not a Jew eyes? Hath not a Jew hands, organs, dimensions, senses, affections, passions? Fed with the same food, hurt with the same weapons, subject to the same diseases, healed by the same means, warmed and cooled by the same winter and summer as a Christian is? If you prick us, do we not bleed?",
-   "author": "William Shakespeare",
-   "work": "The Merchant of Venice",
-   "locator": "Act III, scene 1",
-   "year": "c. 1596–98",
-   "sortYear": 1597,
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/1515/pg1515.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "First printed 1600."
-   }
-  },
-  "donne-island": {
-   "text": "No man is an island, entire of itself; every man is a piece of the continent, a part of the main. If a clod be washed away by the sea, Europe is the less, as well as if a promontory were, as well as if a manor of thy friend's or of thine own were: any man's death diminishes me, because I am involved in mankind, and therefore never send to know for whom the bell tolls; it tolls for thee.",
-   "author": "John Donne",
-   "work": "Devotions upon Emergent Occasions",
-   "locator": "Meditation XVII",
-   "year": "1624",
-   "sortYear": 1624,
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/Meditation_XVII",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Published 1624."
    }
   },
   "ubuntu-proverb": {
@@ -433,29 +2443,6 @@
     "status": "public-domain",
     "note": "Author d. 1882."
    }
-  },
-  "dostoevsky-humanity": {
-   "text": "The more I love humanity in general, the less I love man in particular.",
-   "author": "Fyodor Dostoevsky",
-   "work": "The Brothers Karamazov",
-   "locator": "Book II, chapter 4",
-   "year": "1880",
-   "sortYear": 1880,
-   "translator": "Constance Garnett",
-   "translationYear": "1912",
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/28054/pg28054-images.html",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1946."
-   },
-   "caveat": "A doctor’s confession, as the elder Zossima repeats it."
   },
   "muir-hitched": {
    "text": "When we try to pick out anything by itself, we find it hitched to everything else in the universe.",
@@ -524,26 +2511,6 @@
     "note": "Author d. 1931."
    }
   },
-  "great-law-tree": {
-   "text": "Roots have spread out from the Tree of the Great Peace, one to the north, one to the east, one to the south and one to the west. … If any man or any nation outside the Five Nations shall obey the laws of the Great Peace and make known their disposition to the Lords of the Confederacy, they may trace the Roots to the Tree … they shall be welcomed to take shelter beneath the Tree of the Long Leaves.",
-   "work": "Gayanashagowa, the Great Law of Peace of the Haudenosaunee (Iroquois Confederacy)",
-   "locator": "The Great Binding Law, 2",
-   "year": "oral tradition of uncertain age",
-   "sortYear": 1500,
-   "tradition": "Indigenous North America",
-   "kind": "public",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/The_Iroquois_Constitution",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Traditional law in a long-circulated English version."
-   },
-   "caveat": "An English version of an oral constitution, as transcribed at Wikisource, which names neither its date nor its translator."
-  },
   "acts-one-blood": {
    "text": "And hath made of one blood all nations of men for to dwell on all the face of the earth, and hath determined the times before appointed, and the bounds of their habitation; That they should seek the Lord, if haply they might feel after him, and find him, though he be not far from every one of us",
    "work": "Acts 17:26–27",
@@ -567,29 +2534,6 @@
     "status": "public-domain",
     "note": "Translation of 1611."
    }
-  },
-  "diogenes-citizen": {
-   "text": "Asked where he came from, he said, \"I am a citizen of the world.\"",
-   "author": "Diogenes of Sinope, as reported by Diogenes Laërtius",
-   "work": "Lives of the Eminent Philosophers",
-   "locator": "VI.63",
-   "year": "3rd century CE, of a saying of the 4th century BCE",
-   "sortYear": -350,
-   "translator": "R. D. Hicks",
-   "translationYear": "1925",
-   "tradition": "Greek and Roman",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_VI",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1929."
-   },
-   "currency": "The Greek word in his answer, kosmopolitēs, gives us “cosmopolitan”."
   },
   "frost-mending-wall": {
    "text": "Something there is that doesn't love a wall, … He only says, \"Good fences make good neighbours.\" … Before I built a wall I'd ask to know / What I was walling in or walling out, / And to whom I was like to give offence.",
@@ -634,47 +2578,6 @@
     "note": "Author d. 1941."
    },
    "caveat": "Tagore’s own English version of his Bengali poem."
-  },
-  "gandhi-open-windows": {
-   "text": "I do not want my house to be walled in on all sides and my windows to be stuffed. I want the cultures of all the lands to be blown about my house as freely as possible. But I refuse to be blown off my feet by any.",
-   "author": "M. K. Gandhi",
-   "work": "Young India",
-   "locator": "1 June 1921",
-   "year": "1921",
-   "sortYear": 1921,
-   "tradition": "Modern India",
-   "kind": "public",
-   "source": {
-    "url": "https://archive.org/stream/in.ernet.dli.2015.175011/2015.175011.The-Collected-Works-Of-Mahatma-Gandhi-Vol-xxapr-aug-1921_djvu.txt",
-    "label": "Internet Archive (Collected Works of Mahatma Gandhi, vol. 20)",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Author d. 1948."
-   }
-  },
-  "quran-know-one-another": {
-   "text": "O mankind! Lo! We have created you male and female, and have made you nations and tribes that ye may know one another. Lo! the noblest of you, in the sight of Allah, is the best in conduct. Lo! Allah is Knower, Aware.",
-   "work": "Qur’an 49:13",
-   "year": "7th century",
-   "sortYear": 630,
-   "translator": "Marmaduke Pickthall",
-   "translationYear": "1930",
-   "tradition": "Qur’an and hadith",
-   "kind": "sacred",
-   "source": {
-    "url": "https://corpus.quran.com/translation.jsp?chapter=49&verse=13",
-    "label": "Quranic Arabic Corpus",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "after": "Pickthall:"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation published 1930; translator d. 1936."
-   }
   },
   "king-table": {
    "text": "I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.",
@@ -759,30 +2662,6 @@
     "note": "Author d. 1892."
    }
   },
-  "genesis-babel": {
-   "text": "And the Lord said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do. Go to, let us go down, and there confound their language, that they may not understand one another's speech. So the Lord scattered them abroad from thence upon the face of all the earth: and they left off to build the city.",
-   "work": "Genesis 11:6–8",
-   "year": "c. 6th–5th century BCE",
-   "sortYear": -500,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "Hebrew Bible",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=Genesis%2011%3A6-8&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
-   }
-  },
   "aristotle-plurality": {
    "text": "Is it not obvious that a state may at length attain such a degree of unity as to be no longer a state? since the nature of a state is to be a plurality, and in tending to greater unity, from being a state, it becomes a family, and from being a family, an individual … So that we ought not to attain this greatest unity even if we could, for it would be the destruction of the state.",
    "author": "Aristotle",
@@ -826,90 +2705,6 @@
     "note": "Author d. 1892."
    }
   },
-  "kipling-east-west": {
-   "text": "Oh, East is East, and West is West, and never the twain shall meet, / Till Earth and Sky stand presently at God’s great Judgment Seat; / But there is neither East nor West, Border, nor Breed, nor Birth, / When two strong men stand face to face, tho’ they come from the ends of the earth!",
-   "verse": true,
-   "author": "Rudyard Kipling",
-   "work": "The Ballad of East and West",
-   "year": "1889",
-   "sortYear": 1889,
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/Ballads_and_Barrack-Room_Ballads/The_Ballad_of_East_and_West",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Author d. 1936."
-   },
-   "currency": "The first line is commonly quoted alone, as if the poem said that East and West cannot meet."
-  },
-  "universal-declaration-1": {
-   "text": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
-   "author": "United Nations General Assembly",
-   "work": "Universal Declaration of Human Rights",
-   "locator": "Article 1",
-   "year": "1948",
-   "sortYear": 1948,
-   "tradition": "International declarations",
-   "kind": "public",
-   "source": {
-    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
-    "label": "United Nations",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "United Nations declaration, published for general use."
-   }
-  },
-  "orwell-more-equal": {
-   "text": "ALL ANIMALS ARE EQUAL / BUT SOME ANIMALS ARE MORE EQUAL THAN OTHERS",
-   "verse": true,
-   "author": "George Orwell",
-   "work": "Animal Farm",
-   "locator": "chapter 10",
-   "year": "1945",
-   "sortYear": 1945,
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://gutenberg.net.au/ebooks01/0100011h.html",
-    "label": "Project Gutenberg Australia",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "in-copyright",
-    "note": "Author d. 1950: public domain in many countries, in copyright in the United States. Thirteen words."
-   }
-  },
-  "analects-reciprocity": {
-   "text": "Tsze-kung asked, saying, 'Is there one word which may serve as a rule of practice for all one's life?' The Master said, 'Is not RECIPROCITY such a word? What you do not want done to yourself, do not do to others.'",
-   "author": "Confucius",
-   "work": "Analects",
-   "locator": "15.23 (15.24 in most editions)",
-   "year": "5th century BCE",
-   "sortYear": -450,
-   "translator": "James Legge",
-   "translationYear": "1861",
-   "tradition": "Chinese classics",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/4094/pg4094.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1897."
-   }
-  },
   "smith-butcher": {
    "text": "In civilized society he stands at all times in need of the co-operation and assistance of great multitudes, while his whole life is scarce sufficient to gain the friendship of a few persons. … It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.",
    "author": "Adam Smith",
@@ -928,66 +2723,6 @@
    "rights": {
     "status": "public-domain",
     "note": "Published 1776."
-   }
-  },
-  "kropotkin-mutual-aid": {
-   "text": "\"Don't compete!—competition is always injurious to the species, and you have plenty of resources to avoid it!\" That is the tendency of nature, not always realized in full, but always present. … \"Therefore combine—practise mutual aid! That is the surest means for giving to each and to all the greatest safety, the best guarantee of existence and progress, bodily, intellectual, and moral.\"",
-   "author": "Peter Kropotkin",
-   "work": "Mutual Aid: A Factor of Evolution",
-   "locator": "chapter 2",
-   "year": "1902",
-   "sortYear": 1902,
-   "tradition": "European literature and thought",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/4341/pg4341-images.html",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Author d. 1921."
-   }
-  },
-  "great-learning-widening": {
-   "text": "Their persons being cultivated, their families were regulated. Their families being regulated, their States were rightly governed. Their States being rightly governed, the whole kingdom was made tranquil and happy.",
-   "work": "The Great Learning",
-   "locator": "the text, 5",
-   "year": "5th–3rd century BCE",
-   "sortYear": -400,
-   "translator": "James Legge",
-   "translationYear": "1861",
-   "tradition": "Chinese classics",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://archive.org/stream/chineseclassics0000legg_d3h3/chineseclassics0000legg_d3h3_djvu.txt",
-    "label": "Internet Archive",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1897."
-   }
-  },
-  "burke-little-platoon": {
-   "text": "To be attached to the subdivision, to love the little platoon we belong to in society, is the first principle (the germ, as it were) of public affections. It is the first link in the series by which we proceed towards a love to our country and to mankind.",
-   "author": "Edmund Burke",
-   "work": "Reflections on the Revolution in France",
-   "year": "1790",
-   "sortYear": 1790,
-   "tradition": "European literature and thought",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/15679/pg15679.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Published 1790."
    }
   },
   "aesop-bundle": {
@@ -1009,224 +2744,6 @@
    "rights": {
     "status": "public-domain",
     "note": "Retold by Jacobs, who d. 1916."
-   }
-  },
-  "rumi-lamps": {
-   "text": "The lamps are different, but the Light is the same: it comes from Beyond. … the disagreement between Moslem, Zoroastrian and Jew depends on the standpoint.",
-   "author": "Jalāl al-Dīn Rūmī",
-   "work": "Mathnawī",
-   "locator": "in R. A. Nicholson, Rūmī: Poet and Mystic, no. CIV",
-   "year": "13th century",
-   "sortYear": 1265,
-   "translator": "Reynold A. Nicholson",
-   "translationYear": "1950",
-   "tradition": "Persian and Sufi poetry",
-   "kind": "literature",
-   "source": {
-    "url": "https://archive.org/download/rumipoetandmystic/Rumi_Poet_and_Mystic_djvu.txt",
-    "label": "Internet Archive",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "repair": [
-     [
-      "lamps arc different",
-      "lamps are different"
-     ]
-    ]
-   },
-   "rights": {
-    "status": "in-copyright",
-    "note": "Translator d. 1945; first published 1950, so copyright may still run in the United States. Twenty-five words."
-   },
-   "caveat": "Copied from a scanned book, which misreads “are” as “arc”; corrected here."
-  },
-  "psalm-133": {
-   "text": "Behold, how good and how pleasant it is for brethren to dwell together in unity!",
-   "work": "Psalm 133:1",
-   "year": "c. 6th–4th century BCE",
-   "sortYear": -450,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "Hebrew Bible",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=Psalm%20133%3A1&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
-   }
-  },
-  "ephesians-one-faith": {
-   "text": "Endeavouring to keep the unity of the Spirit in the bond of peace. There is one body, and one Spirit, even as ye are called in one hope of your calling; One Lord, one faith, one baptism, One God and Father of all, who is above all, and through all, and in you all.",
-   "work": "Ephesians 4:3–6",
-   "year": "c. 60–90 CE",
-   "sortYear": 80,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "New Testament",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=Ephesians%204%3A3-6&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
-   }
-  },
-  "gandhi-not-one-religion": {
-   "text": "The need of the moment is not one religion, but mutual respect and tolerance of the devotees of the different religions. We want to reach not the dead level, but unity in diversity.",
-   "author": "M. K. Gandhi",
-   "work": "Young India",
-   "locator": "25 September 1924",
-   "year": "1924",
-   "sortYear": 1924,
-   "tradition": "Modern India",
-   "kind": "public",
-   "source": {
-    "url": "https://www.mkgandhi.org/voiceoftruth/unityofallreligions.php",
-    "label": "mkgandhi.org",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Author d. 1948."
-   }
-  },
-  "quran-one-community": {
-   "text": "For each We have appointed a divine law and a traced-out way. Had Allah willed He could have made you one community. But that He may try you by that which He hath given you (He hath made you as ye are). So vie one with another in good works. Unto Allah ye will all return, and He will then inform you of that wherein ye differ.",
-   "work": "Qur’an 5:48",
-   "year": "7th century",
-   "sortYear": 630,
-   "translator": "Marmaduke Pickthall",
-   "translationYear": "1930",
-   "tradition": "Qur’an and hadith",
-   "kind": "sacred",
-   "source": {
-    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=48",
-    "label": "Quranic Arabic Corpus",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "after": "Pickthall:"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation published 1930; translator d. 1936."
-   }
-  },
-  "zeno-one-polity": {
-   "text": "Moreover, the much-admired Republic of Zeno, the founder of the Stoic sect, may be summed up in this one main principle: that all the inhabitants of this world of ours should not live differentiated by their respective rules of justice into separate cities and communities, but that we should consider all men to be of one community and one polity, and that we should have a common life and an order common to us all, even as a herd that feeds together and shares the pasturage of a common field.",
-   "author": "Zeno of Citium, as reported by Plutarch",
-   "work": "On the Fortune or the Virtue of Alexander",
-   "locator": "I.6 (329A–B)",
-   "year": "c. 100 CE, of a work of c. 300 BCE",
-   "sortYear": -300,
-   "translator": "Frank Cole Babbitt",
-   "translationYear": "1936",
-   "tradition": "Greek and Roman",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Fortuna_Alexandri*/1.html",
-    "label": "LacusCurtius",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "(?<=Republic)[⁠]?\\d+",
-     "(?<=communities, )b(?=but)"
-    ]
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Loeb Classical Library, 1936 (translator d. 1935); reproduced by LacusCurtius as public domain."
-   }
-  },
-  "galatians-neither": {
-   "text": "There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.",
-   "work": "Galatians 3:28",
-   "year": "c. 50–55 CE",
-   "sortYear": 52,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "New Testament",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=Galatians%203%3A28&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
-   }
-  },
-  "ibn-arabi-every-form": {
-   "text": "My heart has become capable of every form: it is a pasture for gazelles and a convent for Christian monks, / And a temple for idols and the pilgrim's Kaʿba and the tables of the Tora and the book of the Koran. / I follow the religion of Love: whatever way Love's camels take, that is my religion and my faith.",
-   "verse": true,
-   "author": "Ibn al-ʿArabī",
-   "work": "Tarjumān al-Ashwāq",
-   "locator": "XI.13–15",
-   "year": "c. 1215",
-   "sortYear": 1215,
-   "translator": "Reynold A. Nicholson",
-   "translationYear": "1911",
-   "tradition": "Persian and Sufi poetry",
-   "kind": "literature",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/The_Tarjum%C3%A1n_al-Ashw%C3%A1q/Poem_11",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\.\\s"
-    ]
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Published 1911; translator d. 1945."
-   }
-  },
-  "ashoka-other-religions": {
-   "text": "Whoever praises his own religion, due to excessive devotion, and condemns others with the thought \"Let me glorify my own religion,\" only harms his own religion. Therefore contact (between religions) is good. One should listen to and respect the doctrines professed by others.",
-   "author": "Aśoka",
-   "work": "Rock Edict XII",
-   "year": "3rd century BCE",
-   "sortYear": -255,
-   "translator": "S. Dhammika",
-   "translationYear": "1993",
-   "tradition": "Buddhist texts",
-   "kind": "public",
-   "source": {
-    "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html",
-    "label": "Access to Insight",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\[\\d+\\]"
-    ]
-   },
-   "rights": {
-    "status": "in-copyright",
-    "note": "Rendering of 1993, offered by its publisher for free distribution; three sentences."
    }
   },
   "gobind-singh-temple-mosque": {
@@ -1254,161 +2771,6 @@
     "note": "Translator d. 1913."
    },
    "caveat": "Copied from a scanned book."
-  },
-  "john-all-one": {
-   "text": "Neither pray I for these alone, but for them also which shall believe on me through their word; That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.",
-   "work": "John 17:20–21",
-   "year": "c. 90–100 CE",
-   "sortYear": 95,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "New Testament",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=John%2017%3A20-21&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
-   }
-  },
-  "quran-attuned-hearts": {
-   "text": "If thou hadst spent all that is in the earth thou couldst not have attuned their hearts, but Allah hath attuned them.",
-   "work": "Qur’an 8:63",
-   "year": "7th century",
-   "sortYear": 630,
-   "translator": "Marmaduke Pickthall",
-   "translationYear": "1930",
-   "tradition": "Qur’an and hadith",
-   "kind": "sacred",
-   "source": {
-    "url": "https://corpus.quran.com/translation.jsp?chapter=8&verse=63",
-    "label": "Quranic Arabic Corpus",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "after": "Pickthall:"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation published 1930; translator d. 1936."
-   }
-  },
-  "marx-unite": {
-   "text": "The proletarians have nothing to lose but their chains. They have a world to win. WORKING MEN OF ALL COUNTRIES, UNITE!",
-   "author": "Karl Marx and Friedrich Engels",
-   "work": "Manifesto of the Communist Party",
-   "locator": "closing lines",
-   "year": "1848",
-   "sortYear": 1848,
-   "translator": "Samuel Moore",
-   "translationYear": "1888",
-   "tradition": "European literature and thought",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/61/pg61.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1911."
-   }
-  },
-  "swift-religion-enough": {
-   "text": "We have just enough religion to make us hate, but not enough to make us love one another.",
-   "author": "Jonathan Swift",
-   "work": "Thoughts on Various Subjects",
-   "year": "1711",
-   "sortYear": 1711,
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_5/Thoughts_on_Various_Subjects",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\[\\d+\\]"
-    ]
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Published 1711."
-   }
-  },
-  "pascal-religious-conviction": {
-   "text": "Men never do evil so completely and cheerfully as when they do it from religious conviction.",
-   "author": "Blaise Pascal",
-   "work": "Pensées",
-   "locator": "no. 894 (895 in Brunschvicg’s numbering)",
-   "year": "written c. 1657–62; published 1670",
-   "sortYear": 1660,
-   "translator": "W. F. Trotter",
-   "translationYear": "1910",
-   "tradition": "European literature and thought",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/18269/pg18269.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation published by 1910."
-   }
-  },
-  "penn-one-religion": {
-   "text": "The Humble, Meek, Merciful, Just Pious and Devout Souls, are everywhere of one Religion; and when Death has taken off the Mask, they will know one another, tho' the divers Liveries they wear here make them Strangers.",
-   "author": "William Penn",
-   "work": "Some Fruits of Solitude",
-   "locator": "no. 519",
-   "year": "1693",
-   "sortYear": 1693,
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://sourcebooks.web.fordham.edu/mod/1682penn-solitude.asp",
-    "label": "Fordham Modern History Sourcebook",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Published 1693."
-   }
-  },
-  "malachi-one-father": {
-   "text": "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?",
-   "work": "Malachi 2:10",
-   "year": "5th century BCE",
-   "sortYear": -450,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "Hebrew Bible",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=Malachi%202%3A10&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
-   }
   },
   "rigveda-one-many-names": {
    "text": "They call him Indra, Mitra, Varuna, Agni, and he is heavenly nobly-winged Garutman. To what is One, sages give many a title they call it Agni, Yama, Matarisvan.",
@@ -1453,47 +2815,6 @@
     "note": "Author d. 1822."
    }
   },
-  "vivekananda-own-law": {
-   "text": "The Christian is not to become a Hindu or a Buddhist, nor a Hindu or a Buddhist to become a Christian. But each must assimilate the spirit of the others and yet preserve his individuality and grow according to his own law of growth.",
-   "author": "Swami Vivekananda",
-   "work": "Address at the Final Session, World’s Parliament of Religions",
-   "locator": "Chicago, 27 September 1893",
-   "year": "1893",
-   "sortYear": 1893,
-   "tradition": "Modern India",
-   "kind": "public",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/The_Complete_Works_of_Swami_Vivekananda/Volume_1/Addresses_at_The_Parliament_of_Religions/Address_at_the_Final_Session",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Author d. 1902."
-   }
-  },
-  "unesco-minds-of-men": {
-   "text": "That since wars begin in the minds of men, it is in the minds of men that the defences of peace must be constructed; That ignorance of each other’s ways and lives has been a common cause, throughout the history of mankind, of that suspicion and mistrust between the peoples of the world through which their differences have all too often broken into war;",
-   "author": "UNESCO",
-   "work": "Constitution of the United Nations Educational, Scientific and Cultural Organization",
-   "locator": "Preamble",
-   "year": "1945",
-   "sortYear": 1945,
-   "tradition": "International declarations",
-   "kind": "public",
-   "source": {
-    "url": "https://www.unesco.org/en/legal-affairs/constitution#preamble",
-    "label": "UNESCO",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "fetch": "browser"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Treaty text."
-   }
-  },
   "dhammapada-hatred": {
    "text": "For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.",
    "work": "Dhammapada",
@@ -1513,30 +2834,6 @@
    "rights": {
     "status": "public-domain",
     "note": "Translator d. 1900."
-   }
-  },
-  "micah-vine-and-fig-tree": {
-   "text": "And he shall judge among many people, and rebuke strong nations afar off; and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up a sword against nation, neither shall they learn war any more. But they shall sit every man under his vine and under his fig tree; and none shall make them afraid: for the mouth of the Lord of hosts hath spoken it. For all people will walk every one in the name of his god, and we will walk in the name of the Lord our God for ever and ever.",
-   "work": "Micah 4:3–5",
-   "year": "8th–6th century BCE",
-   "sortYear": -700,
-   "translator": "King James Version",
-   "translationYear": "1611",
-   "tradition": "Hebrew Bible",
-   "kind": "sacred",
-   "source": {
-    "url": "https://www.biblegateway.com/passage/?search=Micah%204%3A3-5&version=KJV",
-    "label": "Bible Gateway",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\d+\\s"
-    ],
-    "after": "Update"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translation of 1611."
    }
   },
   "quran-no-compulsion": {
@@ -1560,28 +2857,6 @@
     "note": "Translation published 1930; translator d. 1936."
    }
   },
-  "marcus-cut-branch": {
-   "text": "A branch cut off from the adjacent branch must of necessity be cut off from the whole tree also. So too a man when he is separated from another man has fallen off from the whole social community. Now as to a branch, another cuts it off; but a man by his own act separates himself from his neighbor when he hates him and turns away from him, and he does not know that he has at the same time cut himself off from the whole social system.",
-   "author": "Marcus Aurelius",
-   "work": "Meditations",
-   "locator": "XI.8",
-   "year": "c. 170–180 CE",
-   "sortYear": 175,
-   "translator": "George Long",
-   "translationYear": "1862",
-   "tradition": "Greek and Roman",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_XI",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1879."
-   }
-  },
   "diognetus-sojourners": {
    "text": "They dwell in their own countries, but simply as sojourners. As citizens, they share in all things with others, and yet endure all things as if foreigners. Every foreign land is to them as their native country, and every land of their birth as a land of strangers.",
    "work": "Epistle to Diognetus",
@@ -1603,32 +2878,6 @@
     "note": "Ante-Nicene Fathers, 1885."
    }
   },
-  "liji-grand-union": {
-   "text": "When the Grand course was pursued, a public and common spirit ruled all under the sky; they chose men of talents, virtue, and ability; their words were sincere, and what they cultivated was harmony. Thus men did not love their parents only, nor treat as children only their own sons. … hence the outer doors remained open, and were not shut. This was (the period of) what we call the Grand Union.",
-   "work": "Book of Rites (Lî Kî)",
-   "locator": "Book VII (Lî Yun), I.2",
-   "year": "compiled c. 2nd century BCE",
-   "sortYear": -150,
-   "translator": "James Legge",
-   "translationYear": "1885",
-   "tradition": "Chinese classics",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_27/The_L%C3%AE_K%C3%AE/Book_VII",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "\\[\\d+\\]",
-     "​"
-    ]
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1897."
-   },
-   "caveat": "Words the text gives to Confucius."
-  },
   "quran-one-community-divided": {
    "text": "Mankind were one community, and Allah sent (unto them) prophets as bearers of good tidings and as warners, and revealed therewith the Scripture with the truth that it might judge between mankind concerning that wherein they differed. And only those unto whom (the Scripture) was given differed concerning it, after clear proofs had come unto them, through hatred one of another.",
    "work": "Qur’an 2:213",
@@ -1648,26 +2897,6 @@
    "rights": {
     "status": "public-domain",
     "note": "Translation published 1930; translator d. 1936."
-   }
-  },
-  "heschel-no-island": {
-   "text": "No religion is an island. We are all involved with one another. Spiritual betrayal on the part of one of us affects the faith of all of us.",
-   "author": "Abraham Joshua Heschel",
-   "work": "No Religion Is an Island",
-   "locator": "inaugural lecture, Union Theological Seminary, New York",
-   "year": "1965",
-   "sortYear": 1965,
-   "tradition": "Rabbinic and modern Judaism",
-   "kind": "public",
-   "source": {
-    "url": "https://cs.auckland.ac.nz/~alan/chaplain/Heschel.html",
-    "label": "University of Auckland (reproduced with permission)",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "in-copyright",
-    "note": "Author d. 1972; three sentences."
    }
   },
   "lincoln-malice-toward-none": {
@@ -1697,7 +2926,7 @@
    "sortYear": -450,
    "translator": "King James Version",
    "translationYear": "1611",
-   "tradition": "Hebrew Bible",
+   "tradition": "Hebrew Bible and Apocrypha",
    "kind": "sacred",
    "source": {
     "url": "https://www.biblegateway.com/passage/?search=Job%2031%3A13-15&version=KJV",
@@ -1756,32 +2985,6 @@
    },
    "caveat": "The words in brackets are the translator’s."
   },
-  "zhuangzi-duck-and-crane": {
-   "text": "A duck's legs, for instance, are short, but if we try to lengthen them, it occasions pain; and a crane's legs are long, but if we try to cut off a portion of them, it produces grief. Where a part is by nature long, we are not to amputate, or where it is by nature short, we are not to lengthen it.",
-   "author": "Zhuangzi",
-   "work": "Zhuangzi",
-   "locator": "chapter 8, “Webbed Toes”",
-   "year": "4th–3rd century BCE",
-   "sortYear": -300,
-   "translator": "James Legge",
-   "translationYear": "1891",
-   "tradition": "Chinese classics",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://archive.org/stream/sacredbooksofchi01oxfo/sacredbooksofchi01oxfo_djvu.txt",
-    "label": "Internet Archive",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     " (?=;)"
-    ]
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Translator d. 1897."
-   },
-   "caveat": "Copied from a scanned book."
-  },
   "du-bois-color-line": {
    "text": "The problem of the twentieth century is the problem of the color-line,—the relation of the darker to the lighter races of men in Asia and Africa, in America and the islands of the sea.",
    "author": "W. E. B. Du Bois",
@@ -1822,111 +3025,6 @@
     "note": "Opinion of a United States court."
    }
   },
-  "blackmun-account-of-race": {
-   "text": "In order to get beyond racism, we must first take account of race. There is no other way. And in order to treat some persons equally, we must treat them differently.",
-   "author": "Justice Harry A. Blackmun",
-   "work": "Regents of the University of California v. Bakke, separate opinion",
-   "locator": "438 U.S. 265 (1978)",
-   "year": "1978",
-   "sortYear": 1978,
-   "tradition": "American literature and public life",
-   "kind": "public",
-   "source": {
-    "url": "https://www.law.cornell.edu/supremecourt/text/438/265",
-    "label": "Cornell Legal Information Institute",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Opinion of a United States court."
-   }
-  },
-  "zangwill-melting-pot": {
-   "text": "America is God's Crucible, the great Melting-Pot where all the races of Europe are melting and re-forming!",
-   "author": "Israel Zangwill",
-   "work": "The Melting-Pot",
-   "locator": "Act I",
-   "year": "1908",
-   "sortYear": 1908,
-   "tradition": "European literature and thought",
-   "kind": "literature",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/23893/pg23893.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Author d. 1926."
-   }
-  },
-  "kallen-orchestra": {
-   "text": "As in an orchestra, every type of instrument has its specific timbre and tonality, founded in its substance and form; … so in society each ethnic group is the natural instrument, its spirit and culture are its theme and melody, and the harmony and dissonances and discords of them all make the symphony of civilization",
-   "author": "Horace M. Kallen",
-   "work": "Democracy Versus the Melting-Pot",
-   "locator": "The Nation, 25 February 1915",
-   "year": "1915",
-   "sortYear": 1915,
-   "tradition": "American literature and public life",
-   "kind": "philosophy",
-   "source": {
-    "url": "https://archive.org/download/kallen-melting-pot/Kallen-Melting-Pot_djvu.txt",
-    "label": "Internet Archive",
-    "checked": "2026-11-16",
-    "status": "primary",
-    "strip": [
-     "(?<=har)- (?=mony)"
-    ]
-   },
-   "rights": {
-    "status": "public-domain-us",
-    "note": "Published 1915; author d. 1974."
-   },
-   "caveat": "Copied from a scanned article."
-  },
-  "washington-fingers-and-hand": {
-   "text": "In all things that are purely social we can be as separate as the fingers, yet one as the hand in all things essential to mutual progress.",
-   "author": "Booker T. Washington",
-   "work": "Atlanta Exposition Address",
-   "locator": "18 September 1895; in Up from Slavery, chapter 14",
-   "year": "1895",
-   "sortYear": 1895,
-   "tradition": "American literature and public life",
-   "kind": "public",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/2376/pg2376.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain",
-    "note": "Author d. 1915."
-   }
-  },
-  "selassie-race-and-peace": {
-   "text": "that until the philosophy which holds one race superior and another inferior is finally and permanently discredited and abandoned; … that until that day, the dream of lasting peace and world citizenship and the rule of international morality will remain but a fleeting illusion, to be pursued but never attained.",
-   "author": "Haile Selassie I",
-   "work": "Address to the United Nations General Assembly",
-   "locator": "New York, 4 October 1963",
-   "year": "1963",
-   "sortYear": 1963,
-   "tradition": "Africa",
-   "kind": "public",
-   "source": {
-    "url": "https://en.wikisource.org/wiki/Haile_Selassie%27s_address_to_the_United_Nations%2C_1963",
-    "label": "Wikisource",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "in-copyright",
-    "note": "Address of a head of state (d. 1975); rights not established. Fifty words."
-   },
-   "currency": "The passage became the words of Bob Marley’s song “War” (1976)."
-  },
   "seneca-falls-men-and-women": {
    "text": "We hold these truths to be self-evident; that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness",
    "author": "Elizabeth Cady Stanton and the Seneca Falls Convention",
@@ -1946,27 +3044,6 @@
     "status": "public-domain",
     "note": "Published 1848."
    }
-  },
-  "maha-upanishad-one-family": {
-   "text": "\"This is mine, that is theirs\" — such is the reckoning of the narrow-minded. For those of noble character, the entire world is one family.",
-   "work": "Maha Upanishad",
-   "locator": "6.71–72",
-   "year": "date uncertain",
-   "sortYear": 500,
-   "tradition": "Hindu scripture",
-   "kind": "sacred",
-   "source": {
-    "url": "https://en.wikipedia.org/wiki/Vasudhaiva_Kutumbakam",
-    "label": "Wikipedia",
-    "checked": "2026-11-16",
-    "status": "secondary"
-   },
-   "rights": {
-    "status": "open-licence",
-    "note": "English rendering from Wikipedia (CC BY-SA); no translator is named."
-   },
-   "currency": "The source of the phrase vasudhaiva kuṭumbakam, “the world is one family”; Wikipedia records that the verse is engraved in the entrance hall of the Parliament of India.",
-   "caveat": "The published guide carries this verse in another unattributed wording. Here it is quoted as Wikipedia gives it."
   },
   "smith-little-finger": {
    "text": "If he was to lose his little finger to-morrow, he would not sleep to-night; but provided he never saw them, he will snore with the most profound security over the ruin of a hundred millions of his brethren",
@@ -2062,26 +3139,6 @@
    },
    "caveat": "Copied from a scanned book."
   },
-  "king-mutuality": {
-   "text": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny. Whatever affects one directly, affects all indirectly.",
-   "author": "Martin Luther King Jr.",
-   "work": "Letter from Birmingham Jail",
-   "locator": "16 April 1963",
-   "year": "1963",
-   "sortYear": 1963,
-   "tradition": "American literature and public life",
-   "kind": "public",
-   "source": {
-    "url": "https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html",
-    "label": "University of Pennsylvania, African Studies Center",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "in-copyright",
-    "note": "Author d. 1968; three sentences."
-   }
-  },
   "meldenius-essentials": {
    "text": "In essentials unity, in non-essentials liberty, in all things charity.",
    "author": "Rupertus Meldenius (Peter Meiderlin)",
@@ -2162,26 +3219,6 @@
    "rights": {
     "status": "public-domain",
     "note": "First printed 1597."
-   }
-  },
-  "du-bois-two-names": {
-   "text": "One ever feels his twoness,—an American, a Negro; two souls, two thoughts, two unreconciled strivings; two warring ideals in one dark body, whose dogged strength alone keeps it from being torn asunder. … He simply wishes to make it possible for a man to be both a Negro and an American",
-   "author": "W. E. B. Du Bois",
-   "work": "The Souls of Black Folk",
-   "locator": "chapter 1",
-   "year": "1903",
-   "sortYear": 1903,
-   "tradition": "American literature and public life",
-   "kind": "literature",
-   "source": {
-    "url": "https://www.gutenberg.org/cache/epub/408/pg408.txt",
-    "label": "Project Gutenberg",
-    "checked": "2026-11-16",
-    "status": "primary"
-   },
-   "rights": {
-    "status": "public-domain-us",
-    "note": "Published 1903; author d. 1963."
    }
   },
   "corinthians-i-am-of-paul": {

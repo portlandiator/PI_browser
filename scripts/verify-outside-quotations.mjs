@@ -29,7 +29,12 @@ async function inBrowser(url){
   }
   if(!browser)throw Error('this site needs a browser, and Playwright is not installed');
   const context=await browser.newContext({userAgent:agent.replace('Firefox/128.0','Chrome/126.0 Safari/537.36'),locale:'en-US'}),page=await context.newPage();
-  try{await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});await page.waitForTimeout(2500);return await page.content();}
+  try{
+    const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
+    // A site that is down answers with a notice, not with the page: unreachable, not a changed wording.
+    if(response&&response.status()>=500)throw Object.assign(Error(`HTTP ${response.status()}`),{status:response.status()});
+    await page.waitForTimeout(2500);return await page.content();
+  }
   finally{await context.close();}
 }
 

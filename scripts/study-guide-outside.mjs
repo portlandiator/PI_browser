@@ -1,7 +1,8 @@
 // Quotations from beyond the Bahá’í writings, for the comparative study-guide
 // pilot (study-guides/outside/). The library holds each quotation once, with the
-// page its wording was copied from; a guide's plan places quotations after the
-// readings they were chosen for. Nothing here is read by the site build.
+// page its wording was copied from; a guide's plan cuts the guide to a limit of
+// quotations and places outside quotations after the readings they were chosen
+// for. Nothing here is read by the site build.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -16,15 +17,81 @@ export const omission=' … ',lineBreak=' / ';
 
 export const words=text=>text.split(/\s+/).filter(word=>/[\p{L}\p{N}]/u.test(word)).length;
 
+// ---- Cutting a guide to a limit of quotations ----
+
+const quotationsIn=entries=>entries.reduce((n,entry)=>n+entry.selectionIds.length,0);
+const wholeLimit=limit=>{if(!Number.isInteger(limit)||limit<1)throw Error('Invalid quotation limit');return limit;};
+
 // The guide's first readings, in reading order, whose quotations stay within the limit.
 export function firstReadings(compiled,limit){
-  if(!Number.isInteger(limit)||limit<1)throw Error('Invalid quotation limit');
+  wholeLimit(limit);
   const readings=[];let quotations=0;
   for(const entry of compiled){
     if(quotations+entry.selectionIds.length>limit)break;
     readings.push(entry);quotations+=entry.selectionIds.length;
   }
   return {readings,quotations};
+}
+
+// The guide's named sections. The arc names them, and each is a run of several readings
+// under one editor's note; readings after the last named section, each with a note of its
+// own, belong to none. null when the guide is not divided this way: most guides give
+// every reading its own note, or name no parts in their arc.
+export function guideSections(guide){
+  const names=String(guide.arc||'').split(' → ').map(name=>name.trim()).filter(Boolean);
+  const note=new Map(guide.order.map(item=>[item.key,item.why])),runs=[];
+  for(const entry of guide.compiled){
+    const why=note.get(entry.key);
+    if(!runs.length||why!==runs.at(-1).note)runs.push({note:why,readings:[]});
+    runs.at(-1).readings.push(entry);
+  }
+  const named=runs.slice(0,names.length),after=runs.slice(names.length);
+  if(names.length<2||named.length<names.length||named.some(run=>run.readings.length<2)||after.some(run=>run.readings.length>1))return null;
+  return {sections:named.map((run,i)=>({name:names[i],note:run.note,readings:run.readings})),beyond:after.flatMap(run=>run.readings)};
+}
+
+// 0: every paragraph of the reading is an authorized translation; 1: some are; 2: none.
+export function authorizedRank(entry){
+  const authorized=entry.paragraphs.filter(paragraph=>paragraph.authorized).length;
+  return authorized&&authorized===entry.paragraphs.length?0:authorized?1:2;
+}
+
+// Each section's share of the limit, in proportion to its quotations. Whole numbers by
+// largest remainder; on a tie the earlier section has the quotation.
+export function sectionShares(sizes,limit){
+  wholeLimit(limit);
+  const total=sizes.reduce((sum,size)=>sum+size,0);
+  if(total<=limit)return [...sizes];
+  const shares=sizes.map(size=>Math.floor(size*limit/total));
+  const waiting=sizes.map((size,i)=>[size*limit%total,i]).sort((a,b)=>b[0]-a[0]||a[1]-b[1]);
+  for(let left=limit-shares.reduce((sum,share)=>sum+share,0),i=0;left>0;left--,i++)shares[waiting[i][1]]++;
+  return shares;
+}
+
+// Readings from every named section in proportion to its length. Within a section those
+// wholly in authorized translation come first, then those partly so, then the rest, each
+// group in reading order; a reading is taken when its quotations still fit the section's
+// share. What a section could not use passes to the readings not yet taken, in the same
+// order of preference. The result is in reading order.
+export function proportionalReadings(guide,limit){
+  wholeLimit(limit);
+  const divided=guideSections(guide);
+  if(!divided)throw Error(`${guide.slug}: the guide is not divided into the sections its arc names`);
+  const preferred=entries=>[...entries].sort((a,b)=>authorizedRank(a)-authorizedRank(b)||a.position-b.position);
+  const shares=sectionShares(divided.sections.map(section=>quotationsIn(section.readings)),limit),kept=new Set();
+  const take=(entries,room)=>{for(const entry of entries)if(!kept.has(entry)&&entry.selectionIds.length<=room){kept.add(entry);room-=entry.selectionIds.length;}return room;};
+  const spare=divided.sections.reduce((left,section,i)=>left+take(preferred(section.readings),shares[i]),0);
+  if(spare)take(preferred(divided.sections.flatMap(section=>section.readings)),spare);
+  const readings=guide.compiled.filter(entry=>kept.has(entry));
+  return {readings,quotations:quotationsIn(readings),shares};
+}
+
+// The two ways a plan may cut its guide.
+export const cutRules={first:'the first quotations, in reading order',proportional:'from every section in proportion to its length, authorized translations first'};
+export function cutGuide(guide,plan){
+  if(plan.rule==='first')return firstReadings(guide.compiled,plan.limit);
+  if(plan.rule==='proportional')return proportionalReadings(guide,plan.limit);
+  throw Error(`${plan.slug}: unknown rule for the cut`);
 }
 
 const text=(value,name,id)=>{if(typeof value!=='string'||!value.trim()||value!==value.trim()||/\s{2,}|[\n\t]/.test(value))throw Error(`${id}: ${name} must be one line of text`);return value;};
@@ -60,12 +127,15 @@ export function validateOutsideLibrary(library){
   return library;
 }
 
-// readings: the guide's first readings (compiled entries). Returns the plan.
+// readings: the readings the cut keeps (compiled entries, in reading order). Returns the plan.
 export function validateOutsidePlan(plan,library,readings){
   if(plan?.format!==1||!/^[a-z]+$/.test(plan.slug||'')||typeof plan.subject!=='string')throw Error('Unknown outside-quotation plan');
   if(!Number.isInteger(plan.limit)||plan.limit<1)throw Error(`${plan.slug}: invalid limit`);
+  if(!Object.hasOwn(cutRules,plan.rule))throw Error(`${plan.slug}: unknown rule for the cut`);
   // The plan was written against a known cut of the guide; a changed guide needs the plan reviewed.
-  if(plan.readings!==readings.length)throw Error(`${plan.slug}: written for the guide's first ${plan.readings} readings, but the limit of ${plan.limit} quotations now keeps ${readings.length}`);
+  if(!Array.isArray(plan.kept)||plan.kept.some(key=>typeof key!=='string')||new Set(plan.kept).size!==plan.kept.length||plan.readings!==plan.kept.length)throw Error(`${plan.slug}: the plan must list the readings it was written for`);
+  const changed=readings.length!==plan.kept.length?Math.min(readings.length,plan.kept.length):readings.findIndex((entry,i)=>entry.key!==plan.kept[i]);
+  if(changed>=0)throw Error(`${plan.slug}: written for ${plan.kept.length} readings of the guide, but the cut now keeps ${readings.length}${readings.length===plan.kept.length?`, and they differ from reading ${changed+1} of the cut`:''}; review the plan`);
   if(!Number.isInteger(plan.quotations)||plan.quotations<1||plan.quotations>plan.limit)throw Error(`${plan.slug}: the plan must record how many of the guide's quotations it keeps`);
   const keys=new Set(readings.map(entry=>entry.key)),seen=new Set();
   if(!Array.isArray(plan.outside))throw Error(`${plan.slug}: no outside quotations`);
@@ -75,7 +145,7 @@ export function validateOutsidePlan(plan,library,readings){
     if(seen.has(id))throw Error(`${plan.slug}: ${id} is placed twice`);
     seen.add(id);
     if(!(placement.relation in relations))throw Error(`${plan.slug}: ${id} has an unknown relation`);
-    if(!keys.has(placement.after))throw Error(`${plan.slug}: ${id} follows a reading outside the guide's first ${plan.limit} quotations`);
+    if(!keys.has(placement.after))throw Error(`${plan.slug}: ${id} follows a reading that the cut does not keep`);
     if(!Array.isArray(placement.responds)||!placement.responds.length||new Set(placement.responds).size!==placement.responds.length||placement.responds.some(key=>!keys.has(key)))throw Error(`${plan.slug}: ${id} must name the readings it was chosen for`);
     if(!placement.responds.includes(placement.after))throw Error(`${plan.slug}: ${id} must follow one of the readings it was chosen for`);
     text(placement.why,'why',id);
@@ -115,13 +185,14 @@ const jsonStrings=value=>typeof value==='string'?[value]:Array.isArray(value)?va
 const blocks=new Set('address article blockquote br dd div dl dt footer h1 h2 h3 h4 h5 h6 header hr li ol option p pre section table td th title tr ul'.split(' '));
 // The readable text of a fetched page: a web page without its markup, the strings of a
 // JSON reply, or plain text as it is. Block elements separate words; inline ones do not.
-// A tag ends at the first ">" outside its quoted attribute values.
+// A tag ends at the first ">" outside a quoted attribute value, and a value is quoted only
+// when the quotation mark follows "=": a stray apostrophe in a tag ends nothing.
 export function pageText(body){
   let source=String(body);
   if(/^\s*[{[]/.test(source))try{source=jsonStrings(JSON.parse(source)).join('\n');}catch{}
   if(/<(?:html|body|p|div|br|span|table|b|i|a)\b/i.test(source))
     source=source.replace(/<(script|style|noscript|template)\b[\s\S]*?<\/\1\s*>/gi,' ').replace(/<!--[\s\S]*?-->/g,' ').replace(/<![^>]*>/g,' ')
-      .replace(/<\/?([a-z][a-z0-9:-]*)(?:"[^"]*"|'[^']*'|[^'">])*>/gi,(tag,name)=>blocks.has(name.toLowerCase())?'\n':'');
+      .replace(/<\/?([a-z][a-z0-9:-]*)(?:=\s*"[^"]*"|=\s*'[^']*'|[^>])*>/gi,(tag,name)=>blocks.has(name.toLowerCase())?'\n':'');
   return decodeEntities(source);
 }
 
@@ -137,7 +208,8 @@ export function comparable(value){
 export const quotationParts=quotation=>quotation.text.split(omission).map(part=>comparable(part.replaceAll(lineBreak,' ')));
 
 // Is the quotation's wording on the page? Page furniture named in source.strip (verse
-// numbers, note marks, emphasis underscores) is removed from the page first.
+// numbers, note marks, emphasis underscores) is removed from the page first. The patterns
+// meet the page in its comparable form: lower case, single spaces, no space before punctuation.
 export function findQuotation(body,quotation){
   let page=comparable(pageText(body));
   const marker=quotation.source?.after;
