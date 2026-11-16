@@ -21,8 +21,8 @@
     window.addEventListener('beforeprint',updatePrintHeader);
     document.addEventListener('pi-guide-shown',setup);
     // A guide read with quotations from beyond the Bahá’í writings can show all its
-    // readings, one kind, or one relation. A link to a reading that is hidden shows all again.
-    const shown={all:()=>true,guide:row=>row.dataset.kind==='guide',outside:row=>row.dataset.kind==='outside',adjacent:row=>row.dataset.relation==='adjacent',counter:row=>row.dataset.relation==='contrast'||row.dataset.relation==='complement'};
+    // readings or one kind. A link to a reading that is hidden shows all again.
+    const shown={all:()=>true,guide:row=>row.dataset.kind==='guide',outside:row=>row.dataset.kind==='outside'};
     const show=chip=>{
       for(const other of chip.parentElement.children)other.setAttribute('aria-pressed',String(other===chip));
       for(const row of document.querySelectorAll('#readings .quotation'))row.hidden=!shown[chip.dataset.show](row);

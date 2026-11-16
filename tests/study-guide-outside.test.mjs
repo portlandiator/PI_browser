@@ -270,14 +270,15 @@ test('the guide’s page numbers one sequence, names its sections, sets outside 
   assert.match(html,/<blockquote class="verse"><p><span class="line">Line one,<\/span><span class="line">line two<\/span>/);
   assert.ok(html.includes('Note on the text: Attribution doubted.')&&html.includes('Rights: in copyright, brief quotation. Author d. 1990.'));
   assert.ok(html.startsWith('<h1>Sample subject</h1><p class="guide-subtitle">sample; subject</p><p class="meta compilation-count">5 quotations from the Bahá’í writings · 3 from beyond them · <a href="sample.html">All 8 chosen quotations ↗</a> · <a href="../subjects.html?subject=S">Current subject view ↗</a></p><p class="pdf-label">Editorial introduction (AI generated)</p>'));
-  // The filter stands with the readings and counts what it shows.
-  assert.match(html,/<div id="readings"><div class="reading-filter"[^>]*><button type="button" class="chip" data-show="all" aria-pressed="true">All 7<\/button><button[^>]*data-show="guide"[^>]*>Bahá’í writings · 4<\/button><button[^>]*>Beyond them · 3<\/button><button[^>]*>Alongside · 2<\/button><button[^>]*>Contrast and complement · 1<\/button><\/div><h3/);
+  // The filter stands with the readings and counts what it shows: all, the guide's own, the outside ones.
+  assert.match(html,/<div id="readings"><div class="reading-filter"[^>]*><button type="button" class="chip" data-show="all" aria-pressed="true">All 7<\/button><button[^>]*data-show="guide"[^>]*>Bahá’í writings · 4<\/button><button[^>]*data-show="outside"[^>]*>Beyond them · 3<\/button><\/div><h3/);
+  assert.equal(html.split('class="chip"').length,4);assert.ok(!/Alongside ·|Contrast and complement/.test(html));
   assert.ok(html.includes('id="print-compilation"')&&html.includes('<a href="#questions">Questions for reflection ↓</a>'));
-  // After the readings: further exploration, the questions, and the sources, without word counts or rights.
+  // After the readings: further exploration, the questions, and the sources, without word counts, rights or what was checked.
   assert.match(html,/<\/article><\/div><section class="exploration"><h2>Continue exploring<\/h2><\/section><section id="questions" class="questions">[\s\S]*<li>Third\?<\/li><\/ol><\/section><section class="external-sources"><h2>Behind the external sources<\/h2><details><summary>Every outside quotation, with its source<\/summary>/);
-  assert.ok(html.includes('<thead><tr><th>No.</th><th>Source</th><th>Date</th><th>Tradition</th><th>Relation</th><th>With</th><th>Checked</th></tr></thead>'));
-  assert.ok(html.includes('<tr><td><a href="#reading-4">04</a></td><td>John Donne, Devotions, Meditation XVII</td><td>1624</td><td>English literature</td><td>complement</td><td>03, 01</td><td>text of the work, 2026-11-16</td></tr>'));
-  assert.ok(!/About this pilot|Behind the pilot|<th>Words|<th>Rights/.test(html));
+  assert.ok(html.includes('<thead><tr><th>No.</th><th>Source</th><th>Date</th><th>Tradition</th><th>Relation</th><th>With</th></tr></thead>'));
+  assert.ok(html.includes('<tr><td><a href="#reading-4">04</a></td><td>John Donne, Devotions, Meditation XVII</td><td>1624</td><td>English literature</td><td>complement</td><td>03, 01</td></tr>'));
+  assert.ok(!/About this pilot|Behind the pilot|<th>Words|<th>Rights|<th>Checked|text of the work|2026-11-16/.test(html));
   assert.match(citation(lib.quotations.verse),/Meditation XVII, 1624, King James Version, 1611 -- <a href="https:\/\/example\.org\/donne"/);
   assert.match(citation(quotation({translator:'Edward Rehatsek',translationYear:'1888'})),/translated by Edward Rehatsek, 1888/);
   assert.match(citation(quotation({translator:'Joshua Kulp'})),/1624, translated by Joshua Kulp -- /);
