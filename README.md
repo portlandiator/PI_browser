@@ -153,6 +153,12 @@ To publish, double-click **maintenance/Publish-Editorial-Decisions.cmd** (or dra
 
 Volume view (`volume-view.html`) provides a dropdown for all published PDFs, page navigation, zoom, active PDF hyperlinks, and single/two-page layouts. Automatic uses two pages on screens at least 1100px wide. Volume, page, layout and zoom are shareable URL parameters. A volume opens at pages 2–3 (page 1 is blank). The page total beside the volume count leaves out each volume's opening matter and table of contents: `scripts/volume-pages.mjs` counts from the first bookmark of each PDF at build time, and `data/volume-front-matter.json` lists the opening page count of volumes without bookmarks (the catalogue and index volumes). PDF.js 6.3.289 is bundled under `src/vendor/pdfjs/` with its license; no CDN or package install is needed. PDF.js 6 relies on very recent JavaScript methods (`Map.prototype.getOrInsertComputed`, `Math.sumPrecise`); `src/map-polyfill.mjs` supplies them, and `src/pdf-worker.mjs` loads it before the bundled worker, so browsers without them can still render volumes. Keep both when updating PDF.js.
 
+## Study-guide pilot: quotations from beyond the Bahá’í writings
+
+An unpublished experiment pairs one study guide, Unity and the oneness of humanity, with quotations from other scriptures, philosophy, literature and public life: its first 100 quotations and 100 from outside, each placed after the reading it was chosen for, with a note saying whether it stands alongside, in contrast or as a complement. `study-guides/outside/quotations.json` holds the outside quotations with their sources and rights, and `study-guides/outside/unityhumanity.json` the plan for the guide. Nothing in the site reads these files.
+
+After a build, `node scripts/build-outside-pilot.mjs` writes the pilot page to `reports/outside-pilot/unityhumanity.html`. `node scripts/verify-outside-quotations.mjs` fetches every source page again and reports any quotation whose wording is no longer found there; add `--write` to record the date of the check.
+
 # Original-text publication policy
 
 Records with no Manuscripts or Publications entries retain their catalogue identity and English translation, but their original text is excluded from the source archive, generated record downloads, excerpts and search index. Their public `First line (original)` field is empty. Local source files remain unchanged. Missing metadata also means the original is withheld.
