@@ -397,6 +397,10 @@ test('a guide is read from its built pages, cut, briefed, given its quotations a
   assert.ok(!preview.html.includes('@font-face')&&preview.html.includes('fonts.googleapis.com')&&preview.html.includes('@media (prefers-color-scheme:dark){:root:not([data-theme=light]){color-scheme:dark;')&&preview.html.includes('.reading-filter .chip'));
   const fragment=await previewDocument(root,view,finished,lib,'https://example.org/site/',true);
   assert.ok(fragment.html.startsWith('<title>Sample guide</title>')&&!fragment.html.includes('<body'));
+  // Where the reader's system is dark, every night colour is set, the ground of an outside quotation
+  // among them (its rule stands in the middle of a line of the stylesheet): night text never meets a day ground.
+  const night=html=>/@media \(prefers-color-scheme:dark\)\{:root:not\(\[data-theme=light\]\)\{([^}]*)\}\}/.exec(html)?.[1]||'';
+  for(const page of [preview,fragment])assert.ok(night(page.html).includes('--ink:')&&night(page.html).includes('--band:'));
   assert.deepEqual(overviewRows('<ol><li data-title="Unity &amp; oneness" data-quotations="100" data-total="1320" data-centrality="18" data-thematic="4" style="x"><a href="unityhumanity-pdf.html" title="t"><span>…</span></a></li><li data-title="Courage" data-quotations="12" data-total="12" data-centrality="3" data-thematic="9"><a href="courage-pdf.html"></a></li></ol>'),
     [{title:'Unity & oneness',quotations:100,total:1320,centrality:18,slug:'unityhumanity'},{title:'Courage',quotations:12,total:12,centrality:3,slug:'courage'}]);
 });
