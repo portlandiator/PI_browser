@@ -2,7 +2,7 @@
  "format": 2,
  "slug": "generalprayers",
  "subject": "738F8F7E4890E6B818B5ACE3C3036604",
- "status": "draft",
+ "status": "published",
  "limit": 100,
  "rule": "stretches",
  "readings": 96,
@@ -105,8 +105,15 @@
   "source:BH10153",
   "source:BH04437"
  ],
- "introduction": "",
- "questions": [],
+ "introduction": "The guide begins with someone who does not know what to ask for: “I know not what profiteth or harmeth me.” A hundred of its quotations are read here, taken evenly from the whole of it, and beside them a hundred passages from other scriptures, from philosophers and from poets. Many are near neighbours. The Qur’an supplies the very words of several of these prayers, Zachariah’s “Best of inheritors” and Abraham’s plea for his parents among them; the Psalms go over the same ground of grief, travel and praise; Sa‘dī counts what each breath owes, and Tennyson’s dying king asks a friend to pray for him night and day. Others stand across the path. Marcus Aurelius would turn every request round, the Buddha tells his disciples to be their own lamps, Emerson calls asking for a private good theft, Paine says that petition corrects God, and Lincoln observes that both sides in his war prayed to the same God against each other. Still others say what a prayer leaves unsaid: Confucius, that a life can be the prayer; Lamb, that grace might be said before a walk as well as a meal. The prayers here carry anxiety and debt, journeys, a marriage, cities, thrones and a war. The company is there to show what each kind of asking takes for granted, and what it would mean to ask otherwise.",
+ "questions": [
+  "The first readings ask God to choose, because the one praying does not know what will help or harm. Shakespeare, Johnson and Juvenal give the same counsel, and Paine says that all petition does the opposite. Which prayers in the guide choose for themselves, and does it matter?",
+  "Several prayers ask that burdens be lifted, knots untied and anguish taken away. Marcus Aurelius would pray not to need release, and Aesop’s Hercules tells the waggoner to push. What is lost, and what is kept, if these readings are prayed the Stoic’s way?",
+  "The Báb’s litanies repeat one frame many times; Jesus warns against “vain repetitions”, and Tagore tells the worshipper to leave his chanting. What can a long prayer of praise do that a short request cannot, and when would the warnings apply?",
+  "Many readings are prayers for other people: a grieving woman, friends, travellers, prisoners, a couple, the Hands of the Cause. Tennyson says such prayer binds the earth to God; Confucius answers a similar offer with “My praying has been for a long time.” What does praying for someone add to acting for them?",
+  "Prayers here ask for heavenly hosts, for victory and for justice on thrones, and one asks pity for those at war. Set them beside Lincoln’s “Both read the same Bible”, Twain’s unspoken prayer and Amos’s river of justice. How would you word a prayer for a people or a city that its enemies could also say?",
+  "Rābi‘a gives away this world and the next and asks only for God; Lamb would say grace over a walk or a book. The guide’s prayers ask for both worlds and bring debts, journeys and weddings before God. Reading the whole, is prayer here mainly asking, mainly praising, or mainly placing a life before someone?"
+ ],
  "outside": [
   {
    "id": "shakespeare-beg-our-harms",
@@ -363,7 +370,8 @@
    "id": "quran-blessings-on-prophet",
    "after": "source:BB00011",
    "responds": [
-    "source:BB00011"
+    "source:BB00011",
+    "source:BH05800"
    ],
    "relation": "adjacent",
    "why": "The reading is a blessing on Muhammad and his family, drawn out through one divine attribute after another. The verse that asks believers for such blessings is two sentences long; the Báb’s prayer is one way of obeying it."
@@ -392,7 +400,8 @@
    "id": "wesley-strangely-warmed",
    "after": "source:AB02866",
    "responds": [
-    "source:AB02866"
+    "source:AB02866",
+    "source:BH07901"
    ],
    "relation": "adjacent",
    "why": "The reading asks that a smouldering love be set aglow. Wesley’s journal records such a moment in plain words and to the quarter hour: his heart “strangely warmed”. It came, he says, at a meeting he had gone to unwillingly."
@@ -401,7 +410,8 @@
    "id": "hopkins-send-my-roots-rain",
    "after": "source:BH09652",
    "responds": [
-    "source:BH09652"
+    "source:BH09652",
+    "source:BH06025"
    ],
    "relation": "adjacent",
    "why": "A priest’s sonnet makes the reading’s plea in the reading’s season: everything is in leaf, the birds build, and he asks not to be the one thing left dry. Hopkins lets his complaint stand beside the request; the reading keeps to the asking."
@@ -590,7 +600,7 @@
     "source:BH09976"
    ],
    "relation": "adjacent",
-   "why": "The reading is a prayer in a woman’s voice: “I am she, O my God, who has turned toward the seat of the throne of Thy mercy.” The Bible’s fullest picture of a person praying alone and in silence is also of a woman, Hannah; the priest on duty took her for drunk."
+   "why": "The reading is a prayer in a woman’s voice: “I am she, O my God, who has turned toward the seat of the throne of Thy mercy”. The Bible’s fullest picture of a person praying alone and in silence is also of a woman, Hannah; the priest on duty took her for drunk."
   },
   {
    "id": "kings-chariots-of-fire",
@@ -599,7 +609,8 @@
     "source:AB06474",
     "source:AB01024",
     "source:AB08483",
-    "source:AB02867"
+    "source:AB02867",
+    "source:AB03075"
    ],
    "relation": "adjacent",
    "why": "Four readings ask that someone be aided “with the hosts of Thy Kingdom” and the armies of angels. Elisha’s prayer for his frightened servant is not that the hosts come but that the young man see them: the hill is already full."
@@ -700,7 +711,7 @@
     "source:BH02536"
    ],
    "relation": "adjacent",
-   "why": "The reading asks forgiveness “for me, and my parents, and my kindred, and such of my brethren as have believed”. Abraham’s prayer in the Qur’an, made near the holy House, asks it in the same order, and asks that his descendants keep up worship. The reading, too, is said by a House."
+   "why": "The reading asks God “to forgive me, and my parents, and my kindred, and such of my brethren as have believed in Thee”. Abraham’s prayer in the Qur’an, made near the holy House, asks it in the same order, and asks that his descendants keep up worship. The reading, too, makes its plea by a House."
   },
   {
    "id": "shakespeare-retain-the-offence",
@@ -715,7 +726,8 @@
    "id": "psalm-going-out-coming-in",
    "after": "source:BH10688",
    "responds": [
-    "source:BH10688"
+    "source:BH10688",
+    "source:ABU3312"
    ],
    "relation": "adjacent",
    "why": "The traveller of the reading commits himself to God’s care on leaving home and asks to be brought back. The pilgrim psalm promises that pair, the going out and the coming in, and widens it past any one journey: “for evermore”."
@@ -801,7 +813,8 @@
    "responds": [
     "source:AB03073",
     "source:AB07462",
-    "source:BH07215"
+    "source:BH07215",
+    "source:BH04498"
    ],
    "relation": "adjacent",
    "why": "The readings pray for those called the Hands of the Cause: “Strengthen the structure of the Hands”, “reinforce the backs”. In Exodus the battle goes well while the leader’s hands are raised, and when they tire two men hold them up until sunset. The prayers here do for their Hands what Aaron and Hur did."
@@ -930,7 +943,7 @@
     "source:BH07469"
    ],
    "relation": "adjacent",
-   "why": "“Show Thy way unto all men, and guide them aright,” the reading asks. The opening chapter of the Qur’an, said in every Muslim prayer, comes to the same request after praise: “Show us the straight path”. It asks for “us”; the reading asks for everyone."
+   "why": "The reading begs God “to show Thy way unto all men, and to guide them aright”. The opening chapter of the Qur’an, said in every Muslim prayer, comes to the same request after praise: “Show us the straight path”. It asks for “us”; the reading asks for everyone."
   },
   {
    "id": "tao-by-ways",
@@ -978,6 +991,125 @@
    ],
    "relation": "complement",
    "why": "The reading asks to be fed from the Table sent down from heaven. Lamb, writing about grace at meals, wonders why thanks should be kept for dinner: he would say grace before a walk, a meeting of friends, a book. It is this guide’s title, the whole of life brought before God, reached from the dinner table."
+  },
+  {
+   "id": "quran-cable",
+   "after": "source:BH02733",
+   "responds": [
+    "source:BH02733",
+    "source:BH10688"
+   ],
+   "relation": "adjacent",
+   "why": "The reading asks that God’s loved ones be helped “to hold fast unto Thy mighty cord”, and a traveller earlier set out “holding fast unto the cord of Thy love”. The image is the Qur’an’s, where the cable is held by all together and what it prevents is division."
+  },
+  {
+   "id": "matthew-shut-the-kingdom",
+   "after": "source:BH03063",
+   "responds": [
+    "source:BH03063"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that the greatest veil between people and “the bounty of this Day” has been “the divines of the age”. Jesus says as much of the religious teachers of his own day: they neither go in nor let others enter."
+  },
+  {
+   "id": "coleridge-prayeth-best",
+   "after": "source:BH03063",
+   "responds": [
+    "source:BH03063"
+   ],
+   "relation": "adjacent",
+   "why": "“By Thy might, I love to hold fast to all things by virtue of their connection to Thy Name, the Creator.” The Ancient Mariner, who could not pray until he had blessed the creatures of the sea, ends on the same ground: the best prayer is love of all that the one God made."
+  },
+  {
+   "id": "dante-his-will-our-peace",
+   "after": "source:BH03735",
+   "responds": [
+    "source:BH03735",
+    "source:BH05135",
+    "source:BH05518"
+   ],
+   "relation": "adjacent",
+   "why": "The reading asks God to ordain the good of both worlds for his loved ones “through Thy will and purpose”. In Dante’s heaven a soul in the lowest sphere is asked whether she longs for a higher place, and answers that to wish only what God wills is what blessedness is."
+  },
+  {
+   "id": "khayyam-moving-finger",
+   "after": "source:BH06255",
+   "responds": [
+    "source:BH06255",
+    "source:BH04437",
+    "source:BH06827"
+   ],
+   "relation": "contrast",
+   "why": "The reading asks for what God has “ordained by Thy Most Exalted Pen”, of one who holds “destiny within Thy grasp”; the last reading speaks of the Pen of Destiny. FitzGerald’s Omar sees the same writing hand and concludes the opposite: no piety or tears will change a word. If the pen cannot be moved, what does a prayer to “ordain” ask?"
+  },
+  {
+   "id": "quran-neither-merchandise",
+   "after": "source:BH07443",
+   "responds": [
+    "source:BH07443",
+    "source:AB10321"
+   ],
+   "relation": "adjacent",
+   "why": "The reading asks that God’s loved ones be among those “whom nothing besides Thee can occupy from Thy remembrance and praise”. The Qur’an describes such people in nearly those words, in houses raised for the remembrance of God’s name: buying and selling do not beguile them from it."
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "source:BH07443",
+   "responds": [
+    "source:BH07443",
+    "source:BH04744",
+    "source:BH10973"
+   ],
+   "relation": "complement",
+   "why": "Three readings ask for the good of this world and the next. Rābi‘a of Basra gives both away, one to God’s enemies and one to his friends, and asks only for God. The reading’s second half asks for people whom nothing else can occupy. Has she refused its first half, or fulfilled its second?"
+  },
+  {
+   "id": "luke-where-are-the-nine",
+   "after": "source:BH08259",
+   "responds": [
+    "source:BH08259"
+   ],
+   "relation": "adjacent",
+   "why": "The reading speaks of those “who consumed the bounty and denied it”, and asks that God’s loved ones be kept from all else. Luke tells of ten who asked for healing and received it, and of the one who came back to give thanks. The question Jesus asks about the nine is the reading’s."
+  },
+  {
+   "id": "mark-know-not-what-ye-ask",
+   "after": "source:BH10153",
+   "responds": [
+    "source:BH10153",
+    "source:BH01449",
+    "source:AB01024"
+   ],
+   "relation": "contrast",
+   "why": "The reading asks that God’s loved ones be adorned “with the ornament of glory and power”. When two disciples ask Jesus for places of glory, he tells them they do not know what they are asking, and offers a cup. The guide’s first reading began there: “I know not what profiteth or harmeth me.”"
+  },
+  {
+   "id": "juvenal-sound-mind",
+   "after": "source:BH04437",
+   "responds": [
+    "source:BH04437",
+    "source:BH01449",
+    "source:BH05135"
+   ],
+   "relation": "complement",
+   "why": "The guide closes on prayers that God ordain what befits his bounty. Juvenal ends his satire on human wishes in the same place: leave the choice to the gods, to whom we are dearer than to ourselves. Then, so that there be something to ask, he names what is not on the reading’s list: a sound mind and a heart without fear."
+  }
+ ],
+ "leftOut": [
+  {
+   "saying": "“Laborare est orare” (to work is to pray).",
+   "attributed": "Often given as the motto of the Benedictines.",
+   "reason": "Wanted beside the prayers that deeds be made pleasing to God, and left out: the phrase is not in the Rule of Benedict and has no settled source to cut it from. Herbert’s “The Elixir” stands there instead."
+  },
+  {
+   "saying": "“Lord, make me an instrument of your peace.”",
+   "attributed": "Known as the Prayer of Saint Francis.",
+   "reason": "Wanted here too, beside the prayers to be of service, and left out for the reason recorded with the guide on unity: it is not in the writings of Francis and has not been traced further back than a French magazine of 1912."
+  },
+  {
+   "saying": "“May the road rise up to meet you.”",
+   "attributed": "Known as an old Irish blessing.",
+   "reason": "Considered beside the blessings said over friends, and left out: it circulates without an author, a date or a first printing that could be cited. The priestly blessing of Numbers stands there instead."
   }
  ],
  "library": {
@@ -1975,7 +2107,8 @@
    "rights": {
     "status": "public-domain",
     "note": "Author d. 1850."
-   }
+   },
+   "caveat": "Spelling as in the first edition (1807), which prints “it's setting”."
   },
   "ignatius-take-and-receive": {
    "text": "Take, Lord, and receive all my liberty, my memory, my intellect, and all my will — all that I have and possess. Thou gavest it to me: to Thee, Lord, I return it! All is Thine, dispose of it according to all Thy will. Give me Thy love and grace, for this is enough for me.",
@@ -2978,6 +3111,213 @@
     "note": "Author d. 1834."
    },
    "caveat": "Copied from a scanned book."
+  },
+  "matthew-shut-the-kingdom": {
+   "text": "But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men: for ye neither go in yourselves, neither suffer ye them that are entering to go in.",
+   "work": "Matthew 23:13",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2023%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "coleridge-prayeth-best": {
+   "text": "He prayeth well, who loveth well / Both man and bird and beast. / He prayeth best, who loveth best / All things both great and small; / For the dear God who loveth us, / He made and loveth all.",
+   "verse": true,
+   "author": "Samuel Taylor Coleridge",
+   "work": "The Rime of the Ancient Mariner",
+   "locator": "Part VII",
+   "year": "1798; this text 1817",
+   "sortYear": 1798,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Sibylline_Leaves_(Coleridge)/The_Rime_of_the_Ancient_Mariner",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1834."
+   }
+  },
+  "dante-his-will-our-peace": {
+   "text": "Nay, 'tis essential to this blest existence / To keep itself within the will divine, / Whereby our very wishes are made one; / So that, as we are station above station / Throughout this realm, to all the realm 'tis pleasing, / As to the King, who makes his will our will. / And his will is our peace; this is the sea / To which is moving onward whatsoever / It doth create, and all that nature makes.",
+   "verse": true,
+   "author": "Dante Alighieri",
+   "work": "Paradiso",
+   "locator": "III.79–87",
+   "year": "c. 1320",
+   "sortYear": 1320,
+   "translator": "Henry Wadsworth Longfellow",
+   "translationYear": "1867",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Divine_Comedy_(Longfellow_1867)/Volume_3/Canto_3",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1882."
+   }
+  },
+  "khayyam-moving-finger": {
+   "text": "The Moving Finger writes; and, having writ, / Moves on: nor all your Piety nor Wit / Shall lure it back to cancel half a Line, / Nor all your Tears wash out a Word of it.",
+   "verse": true,
+   "author": "Omar Khayyám",
+   "work": "Rubáiyát",
+   "locator": "quatrain 71 in Edward FitzGerald’s version",
+   "year": "c. 1100; this version 1889",
+   "sortYear": 1100,
+   "translator": "Edward FitzGerald",
+   "translationYear": "1889",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Rubaiyat_of_Omar_Khayyam_(tr._Fitzgerald,_5th_edition)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1883."
+   },
+   "caveat": "FitzGerald’s version is a free one."
+  },
+  "quran-neither-merchandise": {
+   "text": "(This lamp is found) in houses which Allah hath allowed to be exalted and that His name shall be remembered therein. Therein do offer praise to Him at morn and evening. Men whom neither merchandise nor sale beguileth from remembrance of Allah and constancy in prayer and paying to the poor their due",
+   "work": "Qur’an 24:36–37",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "rabia-thou-art-enough": {
+   "text": "O God! whatever share of this world Thou hast allotted to me, bestow it on Thine enemies; and whatever share of the next world Thou hast allotted to me, bestow it on Thy friends. Thou art enough for me. … O God! if I worship Thee in fear of Hell, burn me in Hell; and if I worship Thee in hope of Paradise, exclude me from Paradise; but if I worship Thee for Thine own sake, withhold not Thine everlasting beauty!",
+   "author": "Rābiʿa al-ʿAdawiyya",
+   "work": "sayings, in R. A. Nicholson, The Mystics of Islam",
+   "year": "8th century",
+   "sortYear": 780,
+   "translator": "Reynold A. Nicholson",
+   "translationYear": "1914",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
+   "source": {
+    "url": "https://archive.org/stream/TheMysticsOfIslam/The%20Mystics%20of%20Islam_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1914; translator d. 1945."
+   },
+   "caveat": "Sayings handed down in later Sufi writings; copied from a scanned book."
+  },
+  "luke-where-are-the-nine": {
+   "text": "And one of them, when he saw that he was healed, turned back, and with a loud voice glorified God, And fell down on his face at his feet, giving him thanks: and he was a Samaritan. And Jesus answering said, Were there not ten cleansed? but where are the nine? There are not found that returned to give glory to God, save this stranger.",
+   "work": "Luke 17:15–18",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2017%3A15-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-know-not-what-ye-ask": {
+   "text": "They said unto him, Grant unto us that we may sit, one on thy right hand, and the other on thy left hand, in thy glory. But Jesus said unto them, Ye know not what ye ask: can ye drink of the cup that I drink of?",
+   "work": "Mark 10:37–38",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%2010%3A37-38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "juvenal-sound-mind": {
+   "text": "If you ask my counsel, you will leave it to the gods themselves to provide what is good for us, and what will be serviceable for our state; for, in place of what is pleasing, they will give us what is best. Man is dearer to them than he is to himself. … you should pray for a sound mind in a sound body; for a stout heart that has no fear of death",
+   "author": "Juvenal",
+   "work": "Satires",
+   "locator": "X",
+   "year": "early 2nd century CE",
+   "sortYear": 120,
+   "translator": "G. G. Ramsay",
+   "translationYear": "1918",
+   "tradition": "Greek and Roman",
+   "kind": "literature",
+   "source": {
+    "url": "https://www.tertullian.org/fathers/juvenal_satires_10.htm",
+    "label": "The Tertullian Project",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1921."
+   }
   }
  }
 }
