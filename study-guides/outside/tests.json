@@ -1,0 +1,2726 @@
+{
+ "format": 2,
+ "slug": "tests",
+ "subject": "CC093CE37A394C1F81BEAF67251D3FC4",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 90,
+ "quotations": 100,
+ "kept": [
+  "source:ABU0936",
+  "source:AB01264",
+  "source:AB03452",
+  "source:ABU1482",
+  "source:BH00012",
+  "source:AB00409",
+  "source:BH05002",
+  "source:BH08145",
+  "source:AB00855",
+  "source:BBU0006",
+  "source:BH00021",
+  "source:BH00505",
+  "source:AB00738",
+  "source:AB04651",
+  "source:AB01183",
+  "source:AB12036",
+  "source:AB07922",
+  "source:AB01056",
+  "source:BH11540",
+  "source:AB08939",
+  "source:ABU2721",
+  "source:AB03337",
+  "source:BH00001",
+  "source:BH04818",
+  "source:BH00597",
+  "source:BH04572",
+  "source:AB00872",
+  "source:BH07852",
+  "source:AB04607",
+  "source:BB00580",
+  "source:AB02983",
+  "source:AB00745",
+  "source:AB00511",
+  "source:AB00489",
+  "source:AB00263",
+  "source:AB05199",
+  "source:AB00056",
+  "source:AB04112",
+  "source:BH00386",
+  "source:AB01404",
+  "source:AB01462",
+  "source:AB05372",
+  "source:AB08267",
+  "source:AB08846",
+  "source:AB04043",
+  "source:AB12038",
+  "source:AB01165",
+  "source:AB03828",
+  "source:AB02911",
+  "source:AB02941",
+  "source:AB01978",
+  "source:BH00827",
+  "source:BH08328",
+  "source:AB02506",
+  "source:ABU0619",
+  "source:AB02792",
+  "source:ABU2389",
+  "source:BB00407",
+  "source:BH03166",
+  "source:AB03455",
+  "source:BH00005",
+  "source:AB00972",
+  "source:AB00541",
+  "source:AB00203",
+  "source:AB00027",
+  "source:ABU0266",
+  "source:ABU3120",
+  "source:ABU2083",
+  "source:AB00502",
+  "source:ABU0970",
+  "source:BH01542",
+  "source:BH00687",
+  "source:BH04745",
+  "source:BH02283",
+  "source:BH07166",
+  "source:BH09874",
+  "source:BH09704",
+  "source:BH04033",
+  "source:BH04746",
+  "source:BH02462",
+  "source:BH10507",
+  "source:AB07759",
+  "source:BH08846",
+  "source:BH03740",
+  "source:BH05405",
+  "source:BH08263",
+  "source:BH08838",
+  "source:BH07688",
+  "source:BH07683",
+  "source:BH07682"
+ ],
+ "introduction": "The guide begins with a hard sentence, that those who suffer most attain to the greatest perfection, and with Job, who proved his love by remaining faithful when everything was taken. These readings then give trial its several meanings, a proving, a ploughing, a refining of gold, at times a consequence, and follow it through exile and slander, the test of riches, illness, the falling away of the confident, and the prayers of those who ask for patience or protection. Few subjects have more company. Job is here in his own words, the patient ones and the bitter; so are the psalmists who ask how long, Paul counting his afflictions light, the Qur’an’s promise that with hardship goes ease, Mencius on what Heaven does to those it means to use, Aeschylus on wisdom that comes to the unwilling. And the objections are here at full strength: Ivan Karamazov returning his ticket over the suffering of children, Gloucester’s flies and wanton boys, Leonato’s philosopher with the toothache, Hamlet weighing whether to bear or to oppose, the Gospel’s own prayer not to be led into temptation. Read together they ask what may truthfully be said about suffering, and to whom.",
+ "questions": [
+  "The readings distinguish calamity as a test from calamity as a consequence. How do the man born blind, Eliphaz’s question to Job and the Qur’an’s “what your right hands have earned” show the risks of telling the two apart in someone else’s life?",
+  "“Those who suffer most, attain to the greatest perfection.” Read this with Aeschylus and Mencius, and then with Yeats’s “stone of the heart”. What decides whether suffering deepens a person or deadens them?",
+  "Several readings call affliction a gift, and the true lover is said to yearn for tribulation. The Lord’s Prayer asks not to be led into temptation, and in Gethsemane the cup is asked to pass. How can both attitudes be faithful?",
+  "For the suffering of infants one reading promises a recompense in another world. What does Ivan Karamazov object to, and is there an answer to him in these readings that does not make light of the child?",
+  "Job says “the Lord gave, and the Lord hath taken away”, and Job also curses the day of his birth. Which of the prayers and laments in the later readings sound like the first Job, and which like the second?",
+  "The readings ask the persecuted not to persecute, permit flight and protection, and call the test of riches the greatest of all. What do Socrates, Confucius and the Letter of James each add about what justice requires of those who are not suffering?"
+ ],
+ "outside": [
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:ABU0936",
+   "responds": [
+    "source:ABU0936"
+   ],
+   "relation": "adjacent",
+   "why": "“Job proved the fidelity of his love for God by being faithful through his great adversity.” These are the words in which he did so, spoken on the day he lost his children and his goods."
+  },
+  {
+   "id": "shakespeare-toothache",
+   "after": "source:ABU0936",
+   "responds": [
+    "source:ABU0936"
+   ],
+   "relation": "contrast",
+   "why": "“Those who suffer most, attain to the greatest perfection.” Leonato, a father in fresh grief, refuses all such counsel: no philosopher ever bore a toothache patiently, whatever he wrote. Is the reading’s sentence one that can be said to a sufferer, or only by one?"
+  },
+  {
+   "id": "genesis-abraham-tempted",
+   "after": "source:AB01264",
+   "responds": [
+    "source:AB01264"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that Abraham’s “immolation” meant the station of sacrifice, “not butchery and the shedding of blood”. Genesis introduces the story with the word that matters here: God did tempt, that is test, Abraham."
+  },
+  {
+   "id": "psalm-broken-spirit",
+   "after": "source:AB01264",
+   "responds": [
+    "source:AB01264"
+   ],
+   "relation": "adjacent",
+   "why": "Among the meanings of sacrifice the reading lists freedom from passion and detachment from all but God. The psalmist had already taken the sacrifice inward: what God accepts is a broken and contrite heart."
+  },
+  {
+   "id": "quran-try-you-with-evil-and-good",
+   "after": "source:AB03452",
+   "responds": [
+    "source:AB03452"
+   ],
+   "relation": "adjacent",
+   "why": "Calamities, the reading says, are of two kinds, a test or a retribution. The Qur’an widens the test to both fortunes: “We try you with evil and with good, for ordeal.”"
+  },
+  {
+   "id": "hebrews-whom-the-lord-loveth",
+   "after": "source:AB03452",
+   "responds": [
+    "source:AB03452"
+   ],
+   "relation": "adjacent",
+   "why": "The calamity meant as a test “is a form of training and discipline for the soul”. The Letter to the Hebrews gives the same reading of hardship, in a household: a father chastens the son he receives."
+  },
+  {
+   "id": "aeschylus-by-affliction-schooled",
+   "after": "source:ABU1482",
+   "responds": [
+    "source:ABU1482"
+   ],
+   "relation": "adjacent",
+   "why": "“The mind and spirit of man advance when he is tried by suffering.” The chorus of the Agamemnon holds it as the law of Zeus that men learn wisdom by affliction, and adds that it comes to “the unwilling soul”."
+  },
+  {
+   "id": "mencius-heaven-great-office",
+   "after": "source:ABU1482",
+   "responds": [
+    "source:ABU1482"
+   ],
+   "relation": "adjacent",
+   "why": "The more the ground is ploughed, the reading says, the better the harvest. Mencius describes the same ploughing of a person: before Heaven confers a great office it tries the mind with suffering and the body with hunger."
+  },
+  {
+   "id": "quran-left-untested",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes it: “Do men think when they say ‘We believe’ they shall be let alone and not be put to proof?” This is the verse in Pickthall’s English."
+  },
+  {
+   "id": "james-tempteth-no-man",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "contrast",
+   "why": "God, the reading says, “proveth His servants and sifteth them”. The Letter of James forbids anyone under temptation to say that it comes from God, who tempts no one. How is a proving that comes from God told from a temptation that does not?"
+  },
+  {
+   "id": "plato-no-evil-to-a-good-man",
+   "after": "source:BH08145",
+   "responds": [
+    "source:BH08145"
+   ],
+   "relation": "adjacent",
+   "why": "“Even if all the losses of the world were to be sustained by one of the friends of God, he would still profit thereby.” Socrates, just condemned, tells his judges the same: no evil can happen to a good man, in life or after death."
+  },
+  {
+   "id": "hadith-affair-of-the-believer",
+   "after": "source:BH08145",
+   "responds": [
+    "source:BH08145"
+   ],
+   "relation": "adjacent",
+   "why": "Whatever happens, the reading says, “is light for His loved ones”. A saying of Muḥammad finds the same strangeness in the believer’s lot: there is good for him in delight, which he meets with thanks, and in trouble, which he meets with patience."
+  },
+  {
+   "id": "shakespeare-flies-to-wanton-boys",
+   "after": "source:BH08145",
+   "responds": [
+    "source:BH08145"
+   ],
+   "relation": "contrast",
+   "why": "The reading holds that the friends of God profit by every loss. Gloucester, blinded, says that the gods kill us for their sport. What does the reading see in the same events that he cannot?"
+  },
+  {
+   "id": "exodus-moses-fled",
+   "after": "source:AB00855",
+   "responds": [
+    "source:AB00855"
+   ],
+   "relation": "adjacent",
+   "why": "“Moses struck down an Egyptian … became known among men as a murderer … and was obliged to flee.” Exodus tells it without softening: the taunt, the fear, and the flight to Midian."
+  },
+  {
+   "id": "acts-worthy-to-suffer-shame",
+   "after": "source:BBU0006",
+   "responds": [
+    "source:BBU0006"
+   ],
+   "relation": "adjacent",
+   "why": "“Rejoice with exceeding gladness, for you have been chosen as the standard-bearer of the host of affliction.” The apostles, flogged by the council, went away in that mood, glad to have been counted worthy of the shame."
+  },
+  {
+   "id": "hadith-prophets-most-tested",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "Trials “have, from time immemorial, been the lot of the chosen Ones of God”. Asked who is tried most severely, Muḥammad answered in the same order: the Prophets, then those nearest to them."
+  },
+  {
+   "id": "hebrews-world-not-worthy",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls tribulation “God’s method” with His beloved in every age. The Letter to the Hebrews keeps the roll of them, mocked, stoned and wandering in deserts, and adds its verdict on the world that did it."
+  },
+  {
+   "id": "acts-if-it-be-of-god",
+   "after": "source:BH00505",
+   "responds": [
+    "source:BH00505"
+   ],
+   "relation": "adjacent",
+   "why": "“They idly imagine that tribulations can frustrate Our Purpose.” Gamaliel gave the council of his day the principle as advice: if this work is of men it will come to nothing, and if of God it cannot be overthrown."
+  },
+  {
+   "id": "genesis-get-thee-out",
+   "after": "source:AB04651",
+   "responds": [
+    "source:AB04651",
+    "source:AB01183"
+   ],
+   "relation": "adjacent",
+   "why": "“Abraham’s migration from His native land caused the bountiful gifts of the All-Glorious to be made manifest.” Genesis joins the two in a single command: leave country and kindred, and be a blessing."
+  },
+  {
+   "id": "psalm-rivers-of-babylon",
+   "after": "source:AB01183",
+   "responds": [
+    "source:AB01183"
+   ],
+   "relation": "contrast",
+   "why": "Exile, the reading says, has always become “the cause of joy”. The exiles by the rivers of Babylon hung up their harps and could not sing. How long may the grief of a departure last before its fruit is spoken of?"
+  },
+  {
+   "id": "ecclesiastes-one-event",
+   "after": "source:AB01056",
+   "responds": [
+    "source:AB01056"
+   ],
+   "relation": "contrast",
+   "why": "The reading gives thanks that in years of calamity “the friends of God were … safe and secure”. The Preacher observes that one event comes to the righteous and the wicked alike. What should a community that has been spared conclude from it?"
+  },
+  {
+   "id": "quran-with-hardship-ease",
+   "after": "source:BH11540",
+   "responds": [
+    "source:BH11540"
+   ],
+   "relation": "adjacent",
+   "why": "“In the beginning of every Revelation adversities have prevailed, which later on have been turned into great prosperity.” The Qur’an says it twice over in a chapter of comfort to its Prophet: with hardship goes ease."
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "source:AB08939",
+   "responds": [
+    "source:AB08939"
+   ],
+   "relation": "adjacent",
+   "why": "Courage, says the reading, “consists not in force and might” but in deliverance from the commanding self. The Dhammapada ranks the two victories the same way."
+  },
+  {
+   "id": "milton-cloistered-virtue",
+   "after": "source:ABU2721",
+   "responds": [
+    "source:ABU2721"
+   ],
+   "relation": "adjacent",
+   "why": "Humility before a tyrant, shown out of fear, “yields no result”, the reading says. Milton has the same contempt for a virtue never chosen against an adversary: fugitive, cloistered, unexercised."
+  },
+  {
+   "id": "shakespeare-undiscovered-country",
+   "after": "source:AB03337",
+   "responds": [
+    "source:AB03337"
+   ],
+   "relation": "contrast",
+   "why": "Afflictions are made, says the reading, so that a person “may spurn this mortal world” and desire the eternal one. Hamlet finds that suffering has no such effect: dread of what comes after makes us bear the ills we have. Why does hardship turn one mind toward the other world and another away?"
+  },
+  {
+   "id": "isaiah-man-of-sorrows",
+   "after": "source:BH04818",
+   "responds": [
+    "source:BH04818"
+   ],
+   "relation": "adjacent",
+   "why": "“We have accepted to be tried by ills and troubles, that ye may sanctify yourselves.” Isaiah’s servant is the oldest figure of suffering borne for others: wounded for our transgressions, and with his stripes we are healed."
+  },
+  {
+   "id": "corinthians-take-heed-lest-he-fall",
+   "after": "source:BH04572",
+   "responds": [
+    "source:BH04572"
+   ],
+   "relation": "adjacent",
+   "why": "Many a man thought himself a celebrated divine, the reading says, and fell “when the slightest test visited him”. Paul’s warning is addressed to that confidence, and he adds a promise the reading leaves implicit: no one is tempted beyond what he can bear."
+  },
+  {
+   "id": "matthew-peter-never-be-offended",
+   "after": "source:BH04572",
+   "responds": [
+    "source:BH04572"
+   ],
+   "relation": "adjacent",
+   "why": "The reading speaks of the confident who deny at the first test. Peter is the Gospel’s instance, on the night itself: though all be offended, he never will be."
+  },
+  {
+   "id": "matthew-stony-places",
+   "after": "source:AB00872",
+   "responds": [
+    "source:AB00872"
+   ],
+   "relation": "adjacent",
+   "why": "“When the tests grew harsh … their feet slipped on the pathway and they turned backward.” The parable of the sower has these hearers: they receive the word with joy, have no root, and fall away when tribulation comes because of it."
+  },
+  {
+   "id": "paine-times-that-try",
+   "after": "source:AB00872",
+   "responds": [
+    "source:AB00872"
+   ],
+   "relation": "adjacent",
+   "why": "“Thus became visible the power of tests, which maketh mighty pillars to tremble and shake.” Paine wrote of a political cause in its worst winter in the same terms: times that try souls, and summer soldiers who shrink."
+  },
+  {
+   "id": "john-neither-hath-this-man-sinned",
+   "after": "source:AB04607",
+   "responds": [
+    "source:AB04607",
+    "source:BH07852"
+   ],
+   "relation": "adjacent",
+   "why": "“These thy prevailing diseases are not on account of sins”, the reading says, and another that what befalls the steadfast “hath not been due to error or transgression”. The disciples put the question of a man born blind, and Jesus refuses both of the answers they offer."
+  },
+  {
+   "id": "quran-what-your-hands-earned",
+   "after": "source:BB00580",
+   "responds": [
+    "source:BB00580"
+   ],
+   "relation": "adjacent",
+   "why": "“God does not decree illness for any soul except for what their own hands have earned.” The wording is close to a verse of the Qur’an, which ends on what the reading calls atonement: “And He forgiveth much.”"
+  },
+  {
+   "id": "job-who-ever-perished",
+   "after": "source:BB00580",
+   "responds": [
+    "source:BB00580"
+   ],
+   "relation": "complement",
+   "why": "This reading traces illness to a person’s own transgressions; its neighbours say that for some it is no such thing. Eliphaz says the first to Job, who is innocent, and the book condemns him for it. When may a sufferer be told the cause of his suffering, and by whom?"
+  },
+  {
+   "id": "luke-lazarus-comforted",
+   "after": "source:AB00745",
+   "responds": [
+    "source:AB00745"
+   ],
+   "relation": "adjacent",
+   "why": "Why are some happy here and others afflicted? “For every person stricken with affliction there are rewards in the kingdom of God.” Abraham gives the rich man the same account of Lazarus."
+  },
+  {
+   "id": "dostoevsky-return-the-ticket",
+   "after": "source:AB00511",
+   "responds": [
+    "source:AB00511"
+   ],
+   "relation": "contrast",
+   "why": "Of infants who suffer at the hands of oppressors the reading says that there is “a recompense in another world” and that the suffering is mercy. Ivan Karamazov has heard that answer and refuses it: no future harmony is worth a child’s tears, and he returns the ticket. What can be said to Ivan that is not said over the child’s head?"
+  },
+  {
+   "id": "corinthians-light-affliction",
+   "after": "source:AB00489",
+   "responds": [
+    "source:AB00489"
+   ],
+   "relation": "adjacent",
+   "why": "“These calamities and sufferings are a glorious diadem.” Paul weighs them the same way: a light affliction, for a moment, working an eternal weight of glory."
+  },
+  {
+   "id": "hebrews-consider-him",
+   "after": "source:AB00263",
+   "responds": [
+    "source:AB00263"
+   ],
+   "relation": "adjacent",
+   "why": "“If we taste a drop from affliction’s cup, the Blessed Beauty drank down a sea of anguish, and once we call this to mind, then every hardship turneth into peaceful rest.” The Letter to the Hebrews prescribes the same remembering against weariness."
+  },
+  {
+   "id": "quran-we-are-allahs",
+   "after": "source:AB05199",
+   "responds": [
+    "source:AB05199"
+   ],
+   "relation": "adjacent",
+   "why": "The letter praises one who has “surrendered … unreservedly to that which is ordained”. The Qur’an gives the steadfast the words for it, said by Muslims at every death: we are God’s, and to Him we return."
+  },
+  {
+   "id": "epictetus-as-they-happen",
+   "after": "source:AB05199",
+   "responds": [
+    "source:AB05199"
+   ],
+   "relation": "adjacent",
+   "why": "The reading honours constancy “in the face of this grievous calamity”. Epictetus teaches the discipline without the trust: wish things to happen as they do."
+  },
+  {
+   "id": "corinthians-troubled-on-every-side",
+   "after": "source:AB00056",
+   "responds": [
+    "source:AB00056"
+   ],
+   "relation": "adjacent",
+   "why": "“Cruel and incessant darts are being hurled against me from every point of the compass.” Paul writes of himself in the same plight and finishes each clause the other way: troubled but not distressed, cast down but not destroyed."
+  },
+  {
+   "id": "john-be-of-good-cheer",
+   "after": "source:AB04112",
+   "responds": [
+    "source:AB04112"
+   ],
+   "relation": "adjacent",
+   "why": "“Erelong shall this hardship and tribulation pass away and inner peace and joy be attained.” Jesus says the same to his disciples on the last evening, promising tribulation and peace in one breath."
+  },
+  {
+   "id": "matthew-daily-bread",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "contrast",
+   "why": "“The true lover yearneth for tribulation.” The prayer Jesus taught asks not to be led into temptation and to be delivered from evil. Is the reading describing what a lover feels, or what anyone should ask for?"
+  },
+  {
+   "id": "job-though-he-slay-me",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "“The sign of love is fortitude under My decree and patience under My trials.” Job gives that sign in its extreme form, and keeps his own voice while he gives it: though He slay me, I will trust, and I will maintain my ways before Him."
+  },
+  {
+   "id": "james-count-it-all-joy",
+   "after": "source:AB01404",
+   "responds": [
+    "source:AB01404"
+   ],
+   "relation": "adjacent",
+   "why": "“To the loyal soul, a test is but God’s grace and favour.” The Letter of James opens on the same note: count it all joy, because the trying of faith works patience."
+  },
+  {
+   "id": "seneca-fire-tries-gold",
+   "after": "source:AB01404",
+   "responds": [
+    "source:AB01404"
+   ],
+   "relation": "adjacent",
+   "why": "The valiant, says the reading, press forward to the field of anguish where the coward trembles. Seneca puts the thought in seven words that became a proverb."
+  },
+  {
+   "id": "peter-tried-with-fire",
+   "after": "source:AB01404",
+   "responds": [
+    "source:AB01404"
+   ],
+   "relation": "adjacent",
+   "why": "The reading compares the tested soul to a student glad to be examined and to gold in the fire. The First Letter of Peter has the gold: faith is more precious, and is tried the same way."
+  },
+  {
+   "id": "yeats-stone-of-the-heart",
+   "after": "source:AB01462",
+   "responds": [
+    "source:AB01462"
+   ],
+   "relation": "adjacent",
+   "why": "“Divine trials cause some souls to become entirely lifeless … They cause progress and they also cause retrogression.” Yeats, writing of Irish rebels, names the first effect: too long a sacrifice can make a stone of the heart."
+  },
+  {
+   "id": "jeremiah-tree-by-the-waters",
+   "after": "source:AB05372",
+   "responds": [
+    "source:AB05372"
+   ],
+   "relation": "adjacent",
+   "why": "“When the winds of tests blow, the frail trees are uprooted while the blessed trees are made firm.” Jeremiah’s tree has its roots by the river and is not anxious in the year of drought."
+  },
+  {
+   "id": "marcus-promontory",
+   "after": "source:AB08267",
+   "responds": [
+    "source:AB08267"
+   ],
+   "relation": "adjacent",
+   "why": "“Remain thou firm and staunch” when adversities shake the pillars of the earth. Marcus Aurelius tells himself to be the headland on which the waves break."
+  },
+  {
+   "id": "kipling-if",
+   "after": "source:AB08267",
+   "responds": [
+    "source:AB08267"
+   ],
+   "relation": "adjacent",
+   "why": "The reading asks for steadiness while the foundations of the world are rocked. Kipling’s lines to a boy ask for it under both fortunes, and call triumph and disaster by one name."
+  },
+  {
+   "id": "bacon-of-adversity",
+   "after": "source:AB08846",
+   "responds": [
+    "source:AB08846"
+   ],
+   "relation": "adjacent",
+   "why": "“Affliction is but mercy, and grief a gift from God.” Bacon found the same doctrine marking off the two Testaments: prosperity the blessing of the Old, adversity of the New."
+  },
+  {
+   "id": "psalm-forsaken",
+   "after": "source:AB08846",
+   "responds": [
+    "source:AB08846"
+   ],
+   "relation": "contrast",
+   "why": "The reading calls anguish in God’s path “only favor and grace”. The psalmist in anguish does not feel favoured: he cries by day and night and is not heard, and asks why he is forsaken. Does the reading leave room for that cry?"
+  },
+  {
+   "id": "blake-joy-and-woe",
+   "after": "source:AB04043",
+   "responds": [
+    "source:AB04043"
+   ],
+   "relation": "adjacent",
+   "why": "“If there were no sorrows, no one would be joyful.” Blake sees the two woven into one cloth, with a thread of joy under every grief."
+  },
+  {
+   "id": "romans-tribulation-worketh-patience",
+   "after": "source:AB04043",
+   "responds": [
+    "source:AB04043"
+   ],
+   "relation": "adjacent",
+   "why": "“If there were no trials, patience would not be realized.” Paul makes it a chain: tribulation works patience, patience experience, and experience hope."
+  },
+  {
+   "id": "psalm-valley-of-the-shadow",
+   "after": "source:AB12038",
+   "responds": [
+    "source:AB12038"
+   ],
+   "relation": "adjacent",
+   "why": "In the fire of tribulation, the reading says, they are at peace, “for they rest their backs against a mighty mountain”. The psalmist walks through the valley of the shadow of death on the same support: “thou art with me”."
+  },
+  {
+   "id": "matthew-strait-gate",
+   "after": "source:AB01165",
+   "responds": [
+    "source:AB01165"
+   ],
+   "relation": "adjacent",
+   "why": "“It is easy to approach the Kingdom of Heaven, but hard to stand firm and staunch within it.” The Gospel puts the difficulty at the gate itself, strait and found by few."
+  },
+  {
+   "id": "matthew-take-up-his-cross",
+   "after": "source:AB03828",
+   "responds": [
+    "source:AB03828"
+   ],
+   "relation": "adjacent",
+   "why": "“In loving Him, at every moment there are hardships, torments, afflictions.” The Gospel’s terms for following are no gentler: deny yourself and take up the cross."
+  },
+  {
+   "id": "job-come-forth-as-gold",
+   "after": "source:AB02911",
+   "responds": [
+    "source:AB02911"
+   ],
+   "relation": "adjacent",
+   "why": "“Not until man is tried doth the pure gold distinctly separate from the dross.” Job says it of himself before the trial is over."
+  },
+  {
+   "id": "tertullian-blood-is-seed",
+   "after": "source:AB02941",
+   "responds": [
+    "source:AB02941"
+   ],
+   "relation": "adjacent",
+   "why": "What spreads the sweet savours of God, says the reading, “is none but the suffering that befalleth His loved ones”. Tertullian told the Roman magistrates the same of their executions: the blood of Christians is seed."
+  },
+  {
+   "id": "shakespeare-sea-of-troubles",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "contrast",
+   "why": "“Regard the afflictions endured in the path of God as comfort itself.” Hamlet weighs the two courses open to a sufferer, to bear the slings and arrows or to take arms and end them, and cannot call either comfort. What makes an affliction one to be borne and not opposed?"
+  },
+  {
+   "id": "plato-rather-suffer-than-do",
+   "after": "source:BH08328",
+   "responds": [
+    "source:BH08328"
+   ],
+   "relation": "adjacent",
+   "why": "“Those who were persecuted but did not persecute—these are of the people of Bahá.” Socrates makes the choice in argument, to the astonishment of his hearer: if he must do injustice or suffer it, he would rather suffer."
+  },
+  {
+   "id": "luke-forgive-them",
+   "after": "source:BH08328",
+   "responds": [
+    "source:BH08328"
+   ],
+   "relation": "adjacent",
+   "why": "The reading blesses those who suffered persecution and did not return it. The Gospel’s example is a prayer from the cross for the men carrying out the sentence."
+  },
+  {
+   "id": "romans-overcome-evil",
+   "after": "source:AB02506",
+   "responds": [
+    "source:AB02506"
+   ],
+   "relation": "adjacent",
+   "why": "“Instead of repaying like with like, ye should requite opposition with the utmost benevolence.” Paul’s instruction to the Romans is the same, with its reason: be not overcome of evil, but overcome evil with good."
+  },
+  {
+   "id": "analects-injury-with-justice",
+   "after": "source:AB02506",
+   "responds": [
+    "source:AB02506"
+   ],
+   "relation": "contrast",
+   "why": "The reading would have cruelties regarded “as the wanton acts of children” and met with kindness. Confucius asks what is then left to repay kindness with, and answers injury with justice. Does treating a persecutor as a child honour him or excuse him?"
+  },
+  {
+   "id": "matthew-revile-you",
+   "after": "source:ABU0619",
+   "responds": [
+    "source:ABU0619"
+   ],
+   "relation": "adjacent",
+   "why": "“Thank God that you are called upon to suffer as holy men of old suffered.” The Beatitude gives the same ground for joy: so persecuted they the prophets."
+  },
+  {
+   "id": "quran-effaceth-what-he-will",
+   "after": "source:BB00407",
+   "responds": [
+    "source:BB00407"
+   ],
+   "relation": "adjacent",
+   "why": "Asked the cause of tribulations, the Báb answers with a verse: “God effaces what He wills and confirms what He wills.” This is the verse in Pickthall’s English."
+  },
+  {
+   "id": "quran-forced-thereto",
+   "after": "source:BB00407",
+   "responds": [
+    "source:BB00407"
+   ],
+   "relation": "complement",
+   "why": "Believers ask whether they may deny their faith to escape death. The Qur’an makes an exception from its condemnation of apostasy for one “who is forced thereto and whose heart is still content with the Faith”. What does a denial under compulsion cost, and whom?"
+  },
+  {
+   "id": "quran-hate-a-thing",
+   "after": "source:AB03455",
+   "responds": [
+    "source:AB03455"
+   ],
+   "relation": "adjacent",
+   "why": "“Perhaps you dislike something while it is good for you”, the letter says of a forced departure. The words are the Qur’an’s, with their conclusion: God knows, and you know not."
+  },
+  {
+   "id": "matthew-flee-into-another",
+   "after": "source:AB03455",
+   "responds": [
+    "source:AB03455"
+   ],
+   "relation": "adjacent",
+   "why": "The letter explains a decision to send someone away “with utmost speed” for protection. The Gospel gives the same permission to the persecuted: flee to another city."
+  },
+  {
+   "id": "matthew-cup-pass",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "contrast",
+   "why": "“Whatever befalleth in the path of God is the beloved of the soul and the desire of the heart.” In Gethsemane the cup is not desired: the prayer is that it pass, and the submission comes after. Which is the reading describing, the wish or the consent?"
+  },
+  {
+   "id": "milton-stand-and-wait",
+   "after": "source:AB00972",
+   "responds": [
+    "source:AB00972"
+   ],
+   "relation": "complement",
+   "why": "While the winds of tests blow, the reading says, the Hands of the Cause “must not sit idle for a moment”. Milton, blind and unable to do what he had hoped, is told that those also serve who only stand and wait. When is waiting itself the service asked?"
+  },
+  {
+   "id": "lovelace-stone-walls",
+   "after": "source:AB00203",
+   "responds": [
+    "source:AB00203"
+   ],
+   "relation": "adjacent",
+   "why": "“The oppression of the tyrant has no effect upon pure hearts.” Lovelace wrote from prison that walls and bars confine no mind that is innocent and quiet."
+  },
+  {
+   "id": "pope-whatever-is-is-right",
+   "after": "source:AB00027",
+   "responds": [
+    "source:AB00027"
+   ],
+   "relation": "adjacent",
+   "why": "“Whatsoever may happen is for the best.” Pope argues it in couplets, all discord a harmony not understood; he argues it of the universe, and the reading says it from a prison."
+  },
+  {
+   "id": "job-let-the-day-perish",
+   "after": "source:AB00027",
+   "responds": [
+    "source:AB00027"
+   ],
+   "relation": "contrast",
+   "why": "The prisoner in the reading is “inwardly tranquil”, sure that all is for the best. Job, when he first opens his mouth after seven days of silence, curses the day he was born. Is tranquillity the only faithful answer to affliction?"
+  },
+  {
+   "id": "matthew-camel-needle",
+   "after": "source:ABU0266",
+   "responds": [
+    "source:ABU0266"
+   ],
+   "relation": "adjacent",
+   "why": "“There is no greater trial than the test of riches.” The Gospel’s measure of that trial is a camel and the eye of a needle."
+  },
+  {
+   "id": "proverbs-neither-poverty-nor-riches",
+   "after": "source:ABU0266",
+   "responds": [
+    "source:ABU0266"
+   ],
+   "relation": "adjacent",
+   "why": "Riches are the hardest test, says the reading. Agur’s prayer in Proverbs sees a test on both sides and asks to be spared both: full, he might deny God; poor, he might steal."
+  },
+  {
+   "id": "james-hire-of-the-labourers",
+   "after": "source:ABU3120",
+   "responds": [
+    "source:ABU3120"
+   ],
+   "relation": "adjacent",
+   "why": "“What hardship these coal miners have to suffer … It is necessary for the directors of companies … to allot a certain share … to their laborers.” The Letter of James hears the withheld wages themselves cry out."
+  },
+  {
+   "id": "goldsmith-ill-fares-the-land",
+   "after": "source:ABU3120",
+   "responds": [
+    "source:ABU3120"
+   ],
+   "relation": "adjacent",
+   "why": "The reading looks at miners and asks owners to share. Goldsmith had given the warning to a whole country: it fares ill where wealth accumulates and men decay."
+  },
+  {
+   "id": "timothy-rich-in-good-works",
+   "after": "source:ABU2083",
+   "responds": [
+    "source:ABU2083"
+   ],
+   "relation": "adjacent",
+   "why": "“If a rich man be compassionate, he is very near to God, for he has come out of temptation.” The First Letter to Timothy charges the rich accordingly: to be rich in good works and ready to distribute."
+  },
+  {
+   "id": "genesis-jacob-served-seven-years",
+   "after": "source:ABU0970",
+   "responds": [
+    "source:ABU0970"
+   ],
+   "relation": "adjacent",
+   "why": "“There were many troubles and vicissitudes, but, in the thought of meeting you, all these things vanished.” Jacob’s seven years of service seemed to him a few days, for love."
+  },
+  {
+   "id": "psalm-how-long",
+   "after": "source:BH01542",
+   "responds": [
+    "source:BH01542"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer sees a serpent before, a lion behind, clouds of decree above and spears beneath. The psalmist’s lament is barer and asks one thing four times: how long?"
+  },
+  {
+   "id": "philippians-no-reputation",
+   "after": "source:BH00687",
+   "responds": [
+    "source:BH00687"
+   ],
+   "relation": "adjacent",
+   "why": "“We have made abasement the garment of glory.” Paul’s hymn in Philippians traces the same reversal: the form of a servant, obedience to death, and therefore a name above every name."
+  },
+  {
+   "id": "quran-jacob-distress",
+   "after": "source:BH04745",
+   "responds": [
+    "source:BH04745"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer asks for patience in tribulations that make the Concourse on high weep. Jacob, in the Qur’an, shows what such patience sounds like: he takes his anguish to God alone."
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:BH07166",
+   "responds": [
+    "source:BH07166"
+   ],
+   "relation": "adjacent",
+   "why": "“Though my body be pained by the trials that befall me from Thee … yet my soul rejoiceth.” Paul makes the same division: the outward man perishes, the inward is renewed day by day."
+  },
+  {
+   "id": "romans-neither-death-nor-life",
+   "after": "source:BH09874",
+   "responds": [
+    "source:BH09874"
+   ],
+   "relation": "adjacent",
+   "why": "“The winds of tests are powerless to hold back them that enjoy near access to Thee.” Paul’s list of what cannot separate is longer: death, life, powers, height, depth."
+  },
+  {
+   "id": "psalm-good-that-i-was-afflicted",
+   "after": "source:BH09704",
+   "responds": [
+    "source:BH09704"
+   ],
+   "relation": "adjacent",
+   "why": "“The trials Thou sendest are a salve to the sores of all them who are devoted to Thy will.” The longest psalm has a line of the same boldness: it is good for me that I have been afflicted."
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "source:BH09704",
+   "responds": [
+    "source:BH09704"
+   ],
+   "relation": "adjacent",
+   "why": "“The remembrance of Thee is a healing medicine to the hearts of such as have drawn nigh.” The Gospel’s invitation to the heavy laden promises the same thing by another name, rest."
+  },
+  {
+   "id": "matthew-house-on-the-rock",
+   "after": "source:BH04033",
+   "responds": [
+    "source:BH04033"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer asks for the lot of those “whose constancy … the tempests of trials have failed to shake”. The house in the Gospel stands through rain, flood and wind because of what it was built on."
+  },
+  {
+   "id": "revelation-wipe-away-all-tears",
+   "after": "source:BH04746",
+   "responds": [
+    "source:BH04746"
+   ],
+   "relation": "contrast",
+   "why": "The speaker does not wish “that the woes I suffer for the sake of my Lord … should be ended”. The last vision of the New Testament is of their ending: no more sorrow, crying or pain. Is suffering loved here for itself, or for the one in whose path it is met?"
+  },
+  {
+   "id": "acts-sang-praises-at-midnight",
+   "after": "source:BH02462",
+   "responds": [
+    "source:BH02462"
+   ],
+   "relation": "adjacent",
+   "why": "“How sweet is the thought of Thee in times of adversity and trial.” Paul and Silas, beaten and in the stocks, sang at midnight, and the other prisoners listened."
+  },
+  {
+   "id": "acts-prayer-for-peter",
+   "after": "source:BH10507",
+   "responds": [
+    "source:BH10507"
+   ],
+   "relation": "adjacent",
+   "why": "“Protect, then, Thy companions.” When Peter was in prison a congregation prayed for him without ceasing, and he was brought out."
+  },
+  {
+   "id": "lincoln-both-pray",
+   "after": "source:BH10507",
+   "responds": [
+    "source:BH10507"
+   ],
+   "relation": "contrast",
+   "why": "The prayer asks God to protect His loved ones from enemies who have sharpened their teeth. Lincoln, near the end of a civil war, noticed that both sides prayed to the same God against each other, and that the prayers of both could not be answered. How does one pray against an enemy who is praying too?"
+  },
+  {
+   "id": "psalm-under-his-wings",
+   "after": "source:AB07759",
+   "responds": [
+    "source:AB07759"
+   ],
+   "relation": "adjacent",
+   "why": "“There is no shelter and asylum for him except under the wing of Thy protection.” The image is the psalmist’s: “under his wings shalt thou trust”."
+  },
+  {
+   "id": "quran-sufficient-for-us",
+   "after": "source:BH08846",
+   "responds": [
+    "source:BH08846"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer asks that believers find refuge in a stronghold when tests assail them. The Qur’an remembers believers told that an army had gathered against them, whose faith only grew, and their words: God is sufficient for us."
+  },
+  {
+   "id": "matthew-spirit-willing",
+   "after": "source:BH03740",
+   "responds": [
+    "source:BH03740"
+   ],
+   "relation": "contrast",
+   "why": "The prayer asks that believers “may rush forward to meet what is preordained” and “vie in hasting after tribulation”. In Gethsemane the disciples are told to pray that they not enter into temptation, for the flesh is weak. Which prayer fits which person?"
+  },
+  {
+   "id": "isaiah-arise-shine",
+   "after": "source:BH05405",
+   "responds": [
+    "source:BH05405"
+   ],
+   "relation": "adjacent",
+   "why": "“Darkness hath encompassed every land”, and the prayer asks for a new creation raised in every city. Isaiah speaks to a city in such a darkness: arise, shine, for thy light is come."
+  },
+  {
+   "id": "luke-prayed-for-thee",
+   "after": "source:BH08263",
+   "responds": [
+    "source:BH08263"
+   ],
+   "relation": "adjacent",
+   "why": "“The tempestuous winds of tests have caused the steadfast in faith to tremble.” Jesus tells Peter that he will be sifted like wheat, and that he has prayed that Peter’s faith not fail."
+  },
+  {
+   "id": "genesis-meant-it-unto-good",
+   "after": "source:BH08838",
+   "responds": [
+    "source:BH08838"
+   ],
+   "relation": "adjacent",
+   "why": "Every tribulation has been made “the bearer of Thy wisdom, and every ordeal the vehicle of Thy providence”. Joseph says it to the brothers who sold him: they meant evil, and God meant it for good."
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:BH08838",
+   "responds": [
+    "source:BH08838"
+   ],
+   "relation": "complement",
+   "why": "The prayer is sure that each ordeal carries a wisdom. When God at last answers Job, He does not disclose it: He asks where Job was when the earth was founded. Is it enough to know that there is a wisdom, without being told what it is?"
+  },
+  {
+   "id": "habakkuk-yet-i-will-rejoice",
+   "after": "source:BH07683",
+   "responds": [
+    "source:BH07683"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer asks to be among those “not … kept back by such misfortunes as were decreed”. Habakkuk lists the misfortunes, fig tree, vine, olive, flock and herd all failed, and says: yet I will rejoice."
+  }
+ ],
+ "library": {
+  "job-the-lord-gave": {
+   "text": "Naked came I out of my mother's womb, and naked shall I return thither: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord",
+   "work": "Job 1:21",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%201%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-abraham-tempted": {
+   "text": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am. And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of",
+   "work": "Genesis 22:1–2",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2022%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-whom-the-lord-loveth": {
+   "text": "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not",
+   "work": "Hebrews 12:6–7",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2012%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-tempteth-no-man": {
+   "text": "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man",
+   "work": "James 1:13",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%201%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-worthy-to-suffer-shame": {
+   "text": "And they departed from the presence of the council, rejoicing that they were counted worthy to suffer shame for his name",
+   "work": "Acts 5:41",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%205%3A41&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-moses-fled": {
+   "text": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known. Now when Pharaoh heard this thing, he sought to slay Moses. But Moses fled from the face of Pharaoh, and dwelt in the land of Midian",
+   "work": "Exodus 2:14–15",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%202%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-world-not-worthy": {
+   "text": "And others had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment: They were stoned, they were sawn asunder, were tempted, were slain with the sword: they wandered about in sheepskins and goatskins; being destitute, afflicted, tormented; (Of whom the world was not worthy:) they wandered in deserts, and in mountains, and in dens and caves of the earth",
+   "work": "Hebrews 11:36–38",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2011%3A36-38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-if-it-be-of-god": {
+   "text": "Refrain from these men, and let them alone: for if this counsel or this work be of men, it will come to nought: But if it be of God, ye cannot overthrow it; lest haply ye be found even to fight against God",
+   "work": "Acts 5:38–39",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%205%3A38-39&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-get-thee-out": {
+   "text": "Now the Lord had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee: And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing",
+   "work": "Genesis 12:1–2",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2012%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-one-event": {
+   "text": "All things come alike to all: there is one event to the righteous, and to the wicked",
+   "work": "Ecclesiastes 9:2",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%209%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-man-of-sorrows": {
+   "text": "He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not. Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted. But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed",
+   "work": "Isaiah 53:3–5",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2053%3A3-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-take-heed-lest-he-fall": {
+   "text": "Wherefore let him that thinketh he standeth take heed lest he fall. There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it",
+   "work": "1 Corinthians 10:12–13",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2010%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-peter-never-be-offended": {
+   "text": "Peter answered and said unto him, Though all men shall be offended because of thee, yet will I never be offended. Jesus said unto him, Verily I say unto thee, That this night, before the cock crow, thou shalt deny me thrice. Peter said unto him, Though I should die with thee, yet will I not deny thee",
+   "work": "Matthew 26:33–35",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2026%3A33-35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-stony-places": {
+   "text": "But he that received the seed into stony places, the same is he that heareth the word, and anon with joy receiveth it; Yet hath he not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended",
+   "work": "Matthew 13:20–21",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2013%3A20-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-neither-hath-this-man-sinned": {
+   "text": "And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind? Jesus answered, Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him",
+   "work": "John 9:2–3",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%209%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-who-ever-perished": {
+   "text": "Remember, I pray thee, who ever perished, being innocent? or where were the righteous cut off? Even as I have seen, they that plow iniquity, and sow wickedness, reap the same",
+   "work": "Job 4:7–8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%204%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-lazarus-comforted": {
+   "text": "But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented",
+   "work": "Luke 16:25",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2016%3A25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-light-affliction": {
+   "text": "For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory; While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal",
+   "work": "2 Corinthians 4:17–18",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%204%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-consider-him": {
+   "text": "For consider him that endured such contradiction of sinners against himself, lest ye be wearied and faint in your minds",
+   "work": "Hebrews 12:3",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2012%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-troubled-on-every-side": {
+   "text": "We are troubled on every side, yet not distressed; we are perplexed, but not in despair; Persecuted, but not forsaken; cast down, but not destroyed",
+   "work": "2 Corinthians 4:8–9",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%204%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-be-of-good-cheer": {
+   "text": "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world",
+   "work": "John 16:33",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2016%3A33&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-though-he-slay-me": {
+   "text": "Though he slay me, yet will I trust in him: but I will maintain mine own ways before him",
+   "work": "Job 13:15",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2013%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-count-it-all-joy": {
+   "text": "My brethren, count it all joy when ye fall into divers temptations; Knowing this, that the trying of your faith worketh patience. But let patience have her perfect work, that ye may be perfect and entire, wanting nothing",
+   "work": "James 1:2–4",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%201%3A2-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-tried-with-fire": {
+   "text": "Wherein ye greatly rejoice, though now for a season, if need be, ye are in heaviness through manifold temptations: That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ",
+   "work": "1 Peter 1:6–7",
+   "year": "c. 60–95 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Peter%201%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-tribulation-worketh-patience": {
+   "text": "we glory in tribulations also: knowing that tribulation worketh patience; And patience, experience; and experience, hope",
+   "work": "Romans 5:3–4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%205%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-valley-of-the-shadow": {
+   "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me",
+   "work": "Psalm 23:4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2023%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-strait-gate": {
+   "text": "Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat: Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it",
+   "work": "Matthew 7:13–14",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%207%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-take-up-his-cross": {
+   "text": "If any man will come after me, let him deny himself, and take up his cross, and follow me",
+   "work": "Matthew 16:24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2016%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-flee-into-another": {
+   "text": "But when they persecute you in this city, flee ye into another",
+   "work": "Matthew 10:23",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2010%3A23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-let-the-day-perish": {
+   "text": "Let the day perish wherein I was born, and the night in which it was said, There is a man child conceived",
+   "work": "Job 3:3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%203%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-camel-needle": {
+   "text": "Verily I say unto you, That a rich man shall hardly enter into the kingdom of heaven. And again I say unto you, It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God",
+   "work": "Matthew 19:23–24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2019%3A23-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-neither-poverty-nor-riches": {
+   "text": "give me neither poverty nor riches; feed me with food convenient for me: Lest I be full, and deny thee, and say, Who is the Lord? or lest I be poor, and steal, and take the name of my God in vain",
+   "work": "Proverbs 30:8–9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2030%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-hire-of-the-labourers": {
+   "text": "Behold, the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth: and the cries of them which have reaped are entered into the ears of the Lord of sabaoth",
+   "work": "James 5:4",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%205%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-rich-in-good-works": {
+   "text": "Charge them that are rich in this world, that they be not highminded, nor trust in uncertain riches, but in the living God, who giveth us richly all things to enjoy; That they do good, that they be rich in good works, ready to distribute, willing to communicate",
+   "work": "1 Timothy 6:17–18",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%206%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-jacob-served-seven-years": {
+   "text": "And Jacob served seven years for Rachel; and they seemed unto him but a few days, for the love he had to her",
+   "work": "Genesis 29:20",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2029%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "philippians-no-reputation": {
+   "text": "But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross. Wherefore God also hath highly exalted him, and given him a name which is above every name",
+   "work": "Philippians 2:7–9",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%202%3A7-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-how-long": {
+   "text": "How long wilt thou forget me, O Lord? for ever? how long wilt thou hide thy face from me? How long shall I take counsel in my soul, having sorrow in my heart daily? how long shall mine enemy be exalted over me",
+   "work": "Psalm 13:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2013%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-inward-man-renewed": {
+   "text": "For which cause we faint not; but though our outward man perish, yet the inward man is renewed day by day",
+   "work": "2 Corinthians 4:16",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%204%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-neither-death-nor-life": {
+   "text": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord",
+   "work": "Romans 8:38–39",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%208%3A38-39&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-wipe-away-all-tears": {
+   "text": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away",
+   "work": "Revelation 21:4",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2021%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-sang-praises-at-midnight": {
+   "text": "And at midnight Paul and Silas prayed, and sang praises unto God: and the prisoners heard them",
+   "work": "Acts 16:25",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2016%3A25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-under-his-wings": {
+   "text": "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty. I will say of the Lord, He is my refuge and my fortress: my God; in him will I trust. Surely he shall deliver thee from the snare of the fowler, and from the noisome pestilence. He shall cover thee with his feathers, and under his wings shalt thou trust",
+   "work": "Psalm 91:1–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2091%3A1-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-spirit-willing": {
+   "text": "Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is weak",
+   "work": "Matthew 26:41",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2026%3A41&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-meant-it-unto-good": {
+   "text": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive",
+   "work": "Genesis 50:20",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2050%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-where-wast-thou": {
+   "text": "Then the Lord answered Job out of the whirlwind, and said, Who is this that darkeneth counsel by words without knowledge? Gird up now thy loins like a man; for I will demand of thee, and answer thou me. Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding",
+   "work": "Job 38:1–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2038%3A1-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "habakkuk-yet-i-will-rejoice": {
+   "text": "Although the fig tree shall not blossom, neither shall fruit be in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls: Yet I will rejoice in the Lord, I will joy in the God of my salvation",
+   "work": "Habakkuk 3:17–18",
+   "year": "7th century BCE",
+   "sortYear": -610,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Habakkuk%203%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-try-you-with-evil-and-good": {
+   "text": "Every soul must taste of death, and We try you with evil and with good, for ordeal. And unto Us ye will be returned.",
+   "work": "Qur’an 21:35",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=21&verse=35",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-with-hardship-ease": {
+   "text": "But lo! with hardship goeth ease, Lo! with hardship goeth ease;",
+   "work": "Qur’an 94:5–6",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-what-your-hands-earned": {
+   "text": "Whatever of misfortune striketh you, it is what your right hands have earned. And He forgiveth much.",
+   "work": "Qur’an 42:30",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=42&verse=30",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-we-are-allahs": {
+   "text": "And surely We shall try you with something of fear and hunger, and loss of wealth and lives and crops; but give glad tidings to the steadfast, Who say, when a misfortune striketh them: Lo! we are Allah's and lo! unto Him we are returning",
+   "work": "Qur’an 2:155–156",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-effaceth-what-he-will": {
+   "text": "Allah effaceth what He will, and establisheth (what He will), and with Him is the source of ordinance.",
+   "work": "Qur’an 13:39",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=13&verse=39",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-forced-thereto": {
+   "text": "Whoso disbelieveth in Allah after his belief - save him who is forced thereto and whose heart is still content with the Faith",
+   "work": "Qur’an 16:106",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=106",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-hate-a-thing": {
+   "text": "but it may happen that ye hate a thing which is good for you, and it may happen that ye love a thing which is bad for you. Allah knoweth, ye know not",
+   "work": "Qur’an 2:216",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=216",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-jacob-distress": {
+   "text": "He said: I expose my distress and anguish only unto Allah, and I know from Allah that which ye know not.",
+   "work": "Qur’an 12:86",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=12&verse=86",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-sufficient-for-us": {
+   "text": "Those unto whom men said: Lo! the people have gathered against you, therefor fear them. (The threat of danger) but increased the faith of them and they cried: Allah is Sufficient for us! Most Excellent is He in Whom we trust!",
+   "work": "Qur’an 3:173",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=173",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "psalm-good-that-i-was-afflicted": {
+   "text": "It is good for me that I have been afflicted; that I might learn thy statutes",
+   "work": "Psalm 119:71",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20119%3A71&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "yeats-stone-of-the-heart": {
+   "text": "Too long a sacrifice / Can make a stone of the heart. / O when may it suffice?",
+   "verse": true,
+   "author": "W. B. Yeats",
+   "work": "Easter, 1916",
+   "year": "1916; published 1920",
+   "sortYear": 1916,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Michael_Robartes_and_the_Dancer/Easter,_1916",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1939."
+   }
+  },
+  "mencius-heaven-great-office": {
+   "text": "when Heaven is about to confer a great office on any man, it first exercises his mind with suffering, and his sinews and bones with toil. It exposes his body to hunger, and subjects him to extreme poverty. It confounds his undertakings. By all these methods it stimulates his mind, hardens his nature, and supplies his incompetencies",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "6B.15",
+   "year": "4th–3rd century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter12",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "dostoevsky-return-the-ticket": {
+   "text": "Besides, too high a price is asked for harmony; it's beyond our means to pay so much to enter on it. And so I hasten to give back my entrance ticket, and if I am an honest man I am bound to give it back as soon as possible. And that I am doing. It's not God that I don't accept, Alyosha, only I most respectfully return him the ticket",
+   "author": "Fyodor Dostoevsky",
+   "work": "The Brothers Karamazov",
+   "locator": "Book V, chapter 4",
+   "year": "1880",
+   "sortYear": 1880,
+   "translator": "Constance Garnett",
+   "translationYear": "1912",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Brothers_Karamazov/Book_V/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1946."
+   }
+  },
+  "seneca-fire-tries-gold": {
+   "text": "Fire tries gold, misfortune tries brave men",
+   "author": "Seneca",
+   "work": "On Providence",
+   "locator": "5",
+   "year": "c. 64 CE",
+   "sortYear": 64,
+   "translator": "Aubrey Stewart",
+   "translationYear": "1889",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Of_Providence",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1889."
+   }
+  },
+  "bacon-of-adversity": {
+   "text": "Prosperity is the blessing of the Old Testament; adversity is the blessing of the New; which carrieth the greater benediction, and the clearer revelation of God's favor",
+   "author": "Francis Bacon",
+   "work": "Essays",
+   "locator": "“Of Adversity”",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Essays,_civil_and_moral_(Harvard_Classics)/Of_Adversity",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  },
+  "kipling-if": {
+   "text": "If you can meet with Triumph and Disaster / And treat those two impostors just the same",
+   "verse": true,
+   "author": "Rudyard Kipling",
+   "work": "If—",
+   "locator": "Rewards and Fairies",
+   "year": "1910",
+   "sortYear": 1910,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Rewards_and_Fairies/If%E2%80%94",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1936."
+   }
+  },
+  "blake-joy-and-woe": {
+   "text": "Man was made for Joy & Woe / And when this we rightly Know / Thro the World we safely go / Joy & woe are woven fine / A Clothing for the soul divine / Under every grief & pine / Runs a joy with silken twine",
+   "verse": true,
+   "author": "William Blake",
+   "work": "Auguries of Innocence",
+   "year": "c. 1803",
+   "sortYear": 1803,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Pickering_Manuscript/Auguries_of_Innocence",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "tertullian-blood-is-seed": {
+   "text": "Nor does your cruelty, however exquisite, avail you; it is rather a temptation to us. The oftener we are mown down by you, the more in number we grow; the blood of Christians is seed",
+   "author": "Tertullian",
+   "work": "Apology",
+   "locator": "chapter 50",
+   "year": "197 CE",
+   "sortYear": 197,
+   "translator": "S. Thelwall",
+   "translationYear": "1869",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/0301.htm",
+    "label": "New Advent",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1869."
+   }
+  },
+  "plato-no-evil-to-a-good-man": {
+   "text": "Wherefore, O judges, be of good cheer about death, and know this of a truth - that no evil can happen to a good man, either in life or after death. He and his are not neglected by the gods",
+   "author": "Plato",
+   "work": "Apology",
+   "locator": "41c–d",
+   "year": "c. 390 BCE",
+   "sortYear": -390,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/apology.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "plato-rather-suffer-than-do": {
+   "text": "Then would you rather suffer than do injustice? I should not like either, but if I must choose between them, I would rather suffer than do.",
+   "author": "Plato",
+   "work": "Gorgias",
+   "locator": "469b–c",
+   "year": "c. 380 BCE",
+   "sortYear": -380,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/gorgias.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\b(pol|soc)\\.\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "aeschylus-by-affliction-schooled": {
+   "text": "'Tis Zeus alone who shows the perfect way Of knowledge: He hath ruled, Men shall learn wisdom, by affliction schooled. In visions of the night, like dropping rain, Descend the many memories of pain Before the spirit's sight: through tears and dole Comes wisdom o'er the unwilling soul",
+   "author": "Aeschylus",
+   "work": "Agamemnon",
+   "locator": "lines 176–181, the hymn to Zeus",
+   "year": "458 BCE",
+   "sortYear": -458,
+   "translator": "E. D. A. Morshead",
+   "translationYear": "1881",
+   "tradition": "Greek and Roman",
+   "kind": "literature",
+   "source": {
+    "url": "https://classics.mit.edu/Aeschylus/agamemnon.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1912."
+   }
+  },
+  "shakespeare-toothache": {
+   "text": "For there was never yet philosopher / That could endure the toothache patiently, / However they have writ the style of gods / And made a push at chance and sufferance",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Much Ado About Nothing",
+   "locator": "Act V, scene 1",
+   "year": "c. 1598–99",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/much_ado/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1600."
+   }
+  },
+  "hadith-prophets-most-tested": {
+   "text": "Which of the people is tried most severely?\" He said: \"The Prophets, then those nearest to them, then those nearest to them. A man is tried according to his religion",
+   "author": "Muḥammad",
+   "work": "Jāmiʿ al-Tirmidhī",
+   "locator": "no. 2398",
+   "year": "7th century; collected in the 9th",
+   "sortYear": 630,
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://sunnah.com/tirmidhi:2398",
+    "label": "Sunnah.com",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "fetch": "browser"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation (Darussalam); brief."
+   }
+  },
+  "hadith-affair-of-the-believer": {
+   "text": "Strange are the ways of a believer for there is good in every affair of his … and if he gets into trouble and shows resignation (and endures it patiently), there is a good for him in it",
+   "author": "Muḥammad",
+   "work": "Ṣaḥīḥ Muslim",
+   "locator": "no. 2999",
+   "year": "7th century; collected in the 9th",
+   "sortYear": 630,
+   "translator": "Abdul Hamid Siddiqui",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://sunnah.com/muslim:2999",
+    "label": "Sunnah.com",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "fetch": "browser"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation (translator d. 1978); brief."
+   },
+   "caveat": "The words in brackets are the translator’s."
+  },
+  "pope-whatever-is-is-right": {
+   "text": "All nature is but art unknown to thee; / All chance direction, which thou canst not see; / All discord harmony not understood; / All partial evil universal good; / And, spite of pride, in erring reason's spite, / One truth is clear, 'Whatever is, is right",
+   "verse": true,
+   "author": "Alexander Pope",
+   "work": "An Essay on Man",
+   "locator": "Epistle I, lines 289–294",
+   "year": "1733",
+   "sortYear": 1733,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/An_Essay_on_Man/Chapter_3",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1744."
+   }
+  },
+  "milton-stand-and-wait": {
+   "text": "God doth not need / Either man's work, or His own gifts; who best / Bear His mild yoke, they serve Him best; His state / Is kingly; thousands at His bidding speed, / And post o'er land and ocean without rest; / They also serve who only stand and wait",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Sonnet 19, “When I consider how my light is spent”",
+   "year": "c. 1652; printed 1673",
+   "sortYear": 1652,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_That_Every_Child_Should_Know/On_His_Blindness",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1674."
+   }
+  },
+  "paine-times-that-try": {
+   "text": "THESE are the times that try men's souls. The summer soldier and the sunshine patriot will, in this crisis, shrink from the service of their country; but he that stands it now, deserves the love and thanks of man and woman. Tyranny, like hell, is not easily conquered; yet we have this consolation with us, that the harder the conflict, the more glorious the triumph",
+   "author": "Thomas Paine",
+   "work": "The American Crisis",
+   "locator": "no. I, 23 December 1776",
+   "year": "1776",
+   "sortYear": 1776,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_American_Crisis/The_Crisis_No._I",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1809."
+   }
+  },
+  "shakespeare-sea-of-troubles": {
+   "text": "To be, or not to be, that is the question, / Whether 'tis nobler in the mind to suffer / The slings and arrows of outrageous fortune, / Or to take arms against a sea of troubles, / And by opposing end them",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act III, scene 1",
+   "year": "c. 1600–01",
+   "sortYear": 1601,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1603."
+   }
+  }
+ }
+}

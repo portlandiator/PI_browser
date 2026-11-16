@@ -1,0 +1,575 @@
+{
+ "format": 2,
+ "slug": "bahaullah",
+ "subject": "3491B0317F6A4084995CD331AD2C278E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 22,
+ "kept": [
+  "source:AB12287",
+  "source:ABU2416",
+  "source:ABU1348",
+  "source:AB06723",
+  "source:AB02800",
+  "source:AB07948",
+  "source:ABU0173",
+  "source:ABU1551",
+  "source:ABU3650",
+  "source:BH11395",
+  "source:ABU2368",
+  "source:ABU1012",
+  "source:ABU3637",
+  "source:ABU3744",
+  "source:ABU3542",
+  "source:AB05725",
+  "source:ABU0980",
+  "source:ABU1641",
+  "source:BH00425",
+  "selection:0e8d3fcc91fe5ac87ce1dbfc",
+  "selection:4b7b4b78b2c26be562c02aba",
+  "selection:74674245a3592a90f6034816"
+ ],
+ "introduction": "The guide asks how a Messenger of God is recognized, and its first answer is an effect: a light that frees people from blind imitation and prejudice and draws hostile sects together. Then come the claims of station, the Promised One of all nations and the Sun of Truth, and the memories of those who knew him: a presence before which visitors knelt, a face that showed joy and sorrow, a man who said that he was not among the learned. Each of these has been said, and questioned, before. The Gospels know the armed men who fell to the ground, the teacher who had never learned, the child among the doctors and the one with nowhere to lay his head; Haggai speaks of the desire of all nations and Malachi of a sun with healing in its wings. The same Gospels warn against false Christs, the Baptist will not let descent from Abraham count for anything, the Qur’an declines to rank the messengers, Hume doubts every report of a miracle, and Shelley shows what time does to majesty. They make a fair company for readings that ask to be tested by their fruits.",
+ "questions": [
+  "The opening readings point to what Bahá’u’lláh does in people, and the Gospel warns of false Christs with signs and wonders. What tests of such a claim do these readings and their company propose?",
+  "“His very existence is a miracle.” How does this answer differ from offering a miracle, and what would Hume, and the Qur’an’s “is it not enough?”, each say to it?",
+  "Several readings dwell on lineage, nobility and a gifted childhood. Set them beside John the Baptist on the children of Abraham and the question “How knoweth this man letters?” What do origins explain, and what do they leave unexplained?",
+  "The readings join awe and majesty with servitude, exile and visible sorrow. Which of the outside passages hold these together, and which, like Shelley’s ruin or Milton’s Satan, know only one of them?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-blind-leaders",
+   "after": "source:AB12287",
+   "responds": [
+    "source:AB12287"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that this Light “saveth the people from the darkness of blind imitations”. The Gospel’s picture of imitation is the blind led by the blind, and its end is the ditch."
+  },
+  {
+   "id": "swift-religion-enough",
+   "after": "source:ABU2416",
+   "responds": [
+    "source:ABU2416"
+   ],
+   "relation": "adjacent",
+   "why": "Had the unity taught by Christ remained in hearts, the reading says, “men would have refrained from war”. Swift, a clergyman, made the same charge against his own age: enough religion to hate, not enough to love."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:ABU1348",
+   "responds": [
+    "source:ABU1348"
+   ],
+   "relation": "adjacent",
+   "why": "“Bahá’u’lláh is the sun of truth; all humanity will be illumined under his protection.” The image is that of the last Hebrew prophet, whose Sun of righteousness rises with healing in its wings."
+  },
+  {
+   "id": "haggai-desire-of-all-nations",
+   "after": "source:AB06723",
+   "responds": [
+    "source:AB06723"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls Bahá’u’lláh “the Promised One of all nations”. Haggai’s phrase for such an expectation, as the King James Bible renders it, is “the desire of all nations”."
+  },
+  {
+   "id": "matthew-false-christs",
+   "after": "source:AB02800",
+   "responds": [
+    "source:AB02800"
+   ],
+   "relation": "contrast",
+   "why": "“Bahá’u’lláh is the Promised One in all the Books and Tablets.” The Gospel warns that claims of this kind will be made, with signs and wonders, and tells its readers not to believe them. By what does the reading expect such a claim to be tested?"
+  },
+  {
+   "id": "john-voice-in-the-wilderness",
+   "after": "source:AB07948",
+   "responds": [
+    "source:AB07948"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá names the Báb “the Herald of the Most Great Name” and claims for himself only servitude. John the Baptist, pressed to say who he was, would take no title either: a voice crying in the wilderness."
+  },
+  {
+   "id": "milton-reign-in-hell",
+   "after": "source:AB07948",
+   "responds": [
+    "source:AB07948"
+   ],
+   "relation": "contrast",
+   "why": "The writer corrects praise of himself and insists that he is “the manifestation of pure and utter servitude”. Milton’s Satan speaks for the opposite ambition: better to reign in hell than serve in heaven. What does each believe servitude takes from a person?"
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "source:ABU0173",
+   "responds": [
+    "source:ABU0173"
+   ],
+   "relation": "contrast",
+   "why": "The witness in the reading offers a life, its walking, speaking and conduct, as “standing miracles”. Hume would weigh any such testimony against the likelihood that the witness is mistaken. What kind of evidence is the witness actually offering, and does Hume’s test apply to it?"
+  },
+  {
+   "id": "quran-is-it-not-enough",
+   "after": "source:ABU0173",
+   "responds": [
+    "source:ABU0173"
+   ],
+   "relation": "adjacent",
+   "why": "“Do you want any miracle? His very existence is a miracle.” The Qur’an answers those who demand portents of its Prophet in the same way: is the Book that is read to them not enough?"
+  },
+  {
+   "id": "john-fell-to-the-ground",
+   "after": "source:ABU1551",
+   "responds": [
+    "source:ABU1551"
+   ],
+   "relation": "adjacent",
+   "why": "“Those who came into his Presence knelt down against their own will.” John’s Gospel tells of an armed party that came to make an arrest and, at a word, went backward and fell to the ground."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:ABU1551",
+   "responds": [
+    "source:ABU1551"
+   ],
+   "relation": "complement",
+   "why": "The reading remembers a presence of “wonderful power and authority”. Elijah was shown wind, earthquake and fire and found the Lord in none of them, only in a still small voice afterwards. What is the relation between the awe the reading describes and the quiet of that voice?"
+  },
+  {
+   "id": "john-jesus-wept",
+   "after": "source:ABU3650",
+   "responds": [
+    "source:ABU3650"
+   ],
+   "relation": "adjacent",
+   "why": "When the heart was saddened, “the traces of sadness would flow from the blessed countenance”. The shortest verse of the Gospels records the same openness of feeling, and what the bystanders made of it."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:BH11395",
+   "responds": [
+    "source:BH11395"
+   ],
+   "relation": "adjacent",
+   "why": "“This Servant was not among the learned ones.” The same was said in Jerusalem, as a puzzle: how does this man know letters, having never learned? The answer given there is that the teaching is not his own."
+  },
+  {
+   "id": "matthew-mustard-seed",
+   "after": "source:ABU2368",
+   "responds": [
+    "source:ABU2368"
+   ],
+   "relation": "adjacent",
+   "why": "“This development of humanity will be gradual, not sudden. It will surely come to pass.” The Gospel’s figure for a sure and gradual kingdom is the least of seeds, which becomes a tree."
+  },
+  {
+   "id": "matthew-stones-children-abraham",
+   "after": "source:ABU3637",
+   "responds": [
+    "source:ABU3637"
+   ],
+   "relation": "contrast",
+   "why": "Asked about descent, ‘Abdu’l-Bahá answers that Bahá’u’lláh was a descendant of Abraham. John the Baptist told those who relied on that ancestry that God could raise children to Abraham from stones. What weight should a lineage carry in recognizing a messenger?"
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "source:ABU3744",
+   "responds": [
+    "source:ABU3744"
+   ],
+   "relation": "contrast",
+   "why": "A chairman had called Bahá’u’lláh “the greatest of God’s Manifestations”. The Qur’an puts into the mouths of believers a refusal to rank: “We make no distinction between any of His messengers.” How are greatness of an age and equality of messengers to be held together?"
+  },
+  {
+   "id": "genesis-keturah",
+   "after": "source:AB05725",
+   "responds": [
+    "source:AB05725",
+    "source:ABU3637",
+    "source:ABU3542"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh, the reading says, descended from one of Abraham’s other sons, who “moved to Persia and to the Afghan regions”; other readings name their mother as Keturah. Genesis lists her as Abraham’s wife and says he sent her sons “eastward, unto the east country”."
+  },
+  {
+   "id": "matthew-not-where-to-lay-his-head",
+   "after": "source:ABU0980",
+   "responds": [
+    "source:ABU0980"
+   ],
+   "relation": "adjacent",
+   "why": "“By exiling us and confiscating all our estates the government hoped to blot out the family.” The Gospel has its own sentence for a teacher without a home: foxes have holes, and the Son of man nowhere to lay his head."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:BH00425",
+   "responds": [
+    "source:BH00425"
+   ],
+   "relation": "contrast",
+   "why": "“These are days the like of which the eye of creation hath never seen.” The Preacher denies that there are such days: what has been is what shall be. What would he need to be shown?"
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "selection:0e8d3fcc91fe5ac87ce1dbfc",
+   "responds": [
+    "selection:0e8d3fcc91fe5ac87ce1dbfc"
+   ],
+   "relation": "adjacent",
+   "why": "“From earliest childhood He was distinguished … All who knew Him were astonished at His precocity.” Luke tells one such story of Jesus at twelve, among the teachers in the temple."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "selection:4b7b4b78b2c26be562c02aba",
+   "responds": [
+    "selection:4b7b4b78b2c26be562c02aba"
+   ],
+   "relation": "contrast",
+   "why": "The reading sees a figure that “towers” over a whole history, “transcendental in His majesty”. Shelley’s traveller reports what became of a king who claimed as much: a pedestal and level sand. What kind of majesty does time not treat in that way?"
+  },
+  {
+   "id": "revelation-fell-as-dead",
+   "after": "selection:74674245a3592a90f6034816",
+   "responds": [
+    "selection:74674245a3592a90f6034816"
+   ],
+   "relation": "adjacent",
+   "why": "The figure is “unapproachable in the transcendent brightness of His glory”. John on Patmos sees a countenance like the sun in its strength and falls as one dead, and is told not to fear."
+  }
+ ],
+ "library": {
+  "matthew-blind-leaders": {
+   "text": "Let them alone: they be blind leaders of the blind. And if the blind lead the blind, both shall fall into the ditch",
+   "work": "Matthew 15:14",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "haggai-desire-of-all-nations": {
+   "text": "And I will shake all nations, and the desire of all nations shall come: and I will fill this house with glory, saith the Lord of hosts",
+   "work": "Haggai 2:7",
+   "year": "6th century BCE",
+   "sortYear": -520,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Haggai%202%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-false-christs": {
+   "text": "Then if any man shall say unto you, Lo, here is Christ, or there; believe it not. For there shall arise false Christs, and false prophets, and shall shew great signs and wonders; insomuch that, if it were possible, they shall deceive the very elect",
+   "work": "Matthew 24:23–24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2024%3A23-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-voice-in-the-wilderness": {
+   "text": "Then said they unto him, Who art thou? that we may give an answer to them that sent us. What sayest thou of thyself? He said, I am the voice of one crying in the wilderness, Make straight the way of the Lord, as said the prophet Esaias",
+   "work": "John 1:22–23",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%201%3A22-23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-fell-to-the-ground": {
+   "text": "Jesus therefore, knowing all things that should come upon him, went forth, and said unto them, Whom seek ye? They answered him, Jesus of Nazareth. Jesus saith unto them, I am he. And Judas also, which betrayed him, stood with them. As soon then as he had said unto them, I am he, they went backward, and fell to the ground",
+   "work": "John 18:4–6",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2018%3A4-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-jesus-wept": {
+   "text": "Jesus wept. Then said the Jews, Behold how he loved him",
+   "work": "John 11:35–36",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2011%3A35-36&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-never-learned": {
+   "text": "And the Jews marvelled, saying, How knoweth this man letters, having never learned? Jesus answered them, and said, My doctrine is not mine, but his that sent me",
+   "work": "John 7:15–16",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%207%3A15-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-keturah": {
+   "text": "Then again Abraham took a wife, and her name was Keturah … And Abraham gave all that he had unto Isaac. But unto the sons of the concubines, which Abraham had, Abraham gave gifts, and sent them away from Isaac his son, while he yet lived, eastward, unto the east country",
+   "work": "Genesis 25:1–6",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2025%3A1-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-stones-children-abraham": {
+   "text": "And think not to say within yourselves, We have Abraham to our father: for I say unto you, that God is able of these stones to raise up children unto Abraham",
+   "work": "Matthew 3:9",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%203%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-not-where-to-lay-his-head": {
+   "text": "And Jesus saith unto him, The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head",
+   "work": "Matthew 8:20",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%208%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-boy-in-the-temple": {
+   "text": "And it came to pass, that after three days they found him in the temple, sitting in the midst of the doctors, both hearing them, and asking them questions. And all that heard him were astonished at his understanding and answers",
+   "work": "Luke 2:46–47",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%202%3A46-47&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-fell-as-dead": {
+   "text": "and his countenance was as the sun shineth in his strength. And when I saw him, I fell at his feet as dead. And he laid his right hand upon me, saying unto me, Fear not; I am the first and the last",
+   "work": "Revelation 1:16–17",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%201%3A16-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-no-distinction-between-messengers": {
+   "text": "The messenger believeth in that which hath been revealed unto him from his Lord and (so do) believers. Each one believeth in Allah and His angels and His scriptures and His messengers - We make no distinction between any of His messengers",
+   "work": "Qur’an 2:285",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=285",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-is-it-not-enough": {
+   "text": "Is it not enough for them that We have sent down unto thee the Scripture which is read unto them? Lo! herein verily is mercy, and a reminder for folk who believe.",
+   "work": "Qur’an 29:51",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=29&verse=51",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
