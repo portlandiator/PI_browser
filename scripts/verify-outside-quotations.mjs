@@ -1,15 +1,16 @@
 // Check each quotation from beyond the Bahá’í writings against the page its wording
-// was copied from (study-guides/outside/quotations.json).
-//   node scripts/verify-outside-quotations.mjs [id ...] [--write] [--strict]
-// --write records today's date on every quotation found; --strict also fails when a
-// page cannot be reached. Behind a proxy, run Node with NODE_USE_ENV_PROXY=1. Sites
-// that refuse plain requests are opened in a browser when Playwright is installed.
+// was copied from (study-guides/outside/*.json).
+//   node scripts/verify-outside-quotations.mjs [id ...] [--guide slug] [--write] [--strict]
+// --guide checks the quotations one guide records or places; --write records today's
+// date on every quotation found; --strict also fails when a page cannot be reached.
+// Behind a proxy, run Node with NODE_USE_ENV_PROXY=1. Sites that refuse plain requests
+// are opened in a browser when Playwright is installed.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
 import {decodeSource} from './source-encoding.mjs';
-import {validateOutsideLibrary,findQuotation} from './study-guide-outside.mjs';
+import {readOutside,findQuotation} from './study-guide-outside.mjs';
 
 const agent='Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0';
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
@@ -37,6 +38,14 @@ async function inBrowser(url){
   }
   finally{await context.close();}
 }
+export const closeBrowser=async()=>{await browser?.close();browser=undefined;};
+
+// A source page as text: a plain request, or a browser where the site asks for one.
+export async function readPage(url,how){
+  if(how==='browser')return inBrowser(url);
+  try{return await plain(url);}
+  catch(error){if([401,403,429,503].includes(error.status))return inBrowser(url);throw error;}
+}
 
 // One reading of each page, however many quotations cite it.
 export async function verifyOutsideQuotations(library,{ids=null,log=console.log,read=null}={}){
@@ -45,11 +54,8 @@ export async function verifyOutsideQuotations(library,{ids=null,log=console.log,
     const {url,fetch:how}=quotation.source,host=new URL(url).host;
     const wait=1100-(Date.now()-(lastVisit.get(host)||0));
     if(wait>0)await pause(wait);
-    try{
-      if(how==='browser')return await inBrowser(url);
-      try{return await plain(url);}
-      catch(error){if([401,403,429,503].includes(error.status))return await inBrowser(url);throw error;}
-    }finally{lastVisit.set(host,Date.now());}
+    try{return await readPage(url,how);}
+    finally{lastVisit.set(host,Date.now());}
   });
   for(const [id,quotation] of Object.entries(library.quotations)){
     if(ids&&!ids.includes(id))continue;
@@ -63,20 +69,32 @@ export async function verifyOutsideQuotations(library,{ids=null,log=console.log,
   return results;
 }
 
+// The quotations a guide's file records or places.
+export const guideQuotationIds=plan=>[...new Set([...Object.keys(plan.library||{}),...(plan.outside||[]).map(placement=>placement.id)])];
+
+// Today's date on every quotation found, in each guide's file that records it.
+export async function recordChecks(root,results,today=new Date().toISOString().slice(0,10)){
+  const found=new Set(results.filter(result=>result.state==='found').map(result=>result.id)),directory=path.join(root,'study-guides','outside');
+  for(const name of (await fs.readdir(directory)).filter(name=>name.endsWith('.json'))){
+    const file=path.join(directory,name),plan=JSON.parse(await fs.readFile(file,'utf8'));let changed=false;
+    for(const [id,quotation] of Object.entries(plan.library||{}))if(found.has(id)&&quotation.source.checked!==today){quotation.source.checked=today;changed=true;}
+    if(changed)await fs.writeFile(file,JSON.stringify(plan,null,1)+'\n');
+  }
+}
+
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
-  const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),file=path.join(root,'study-guides','outside','quotations.json');
-  const args=process.argv.slice(2),write=args.includes('--write'),strict=args.includes('--strict'),ids=args.filter(arg=>!arg.startsWith('--'));
-  const library=validateOutsideLibrary(JSON.parse(await fs.readFile(file,'utf8')));
+  const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+  const args=process.argv.slice(2),write=args.includes('--write'),strict=args.includes('--strict'),at=args.indexOf('--guide'),slug=at<0?null:args[at+1];
+  const ids=args.filter((arg,i)=>!arg.startsWith('--')&&i!==at+1);
+  const {library,plans}=await readOutside(root);
+  if(slug&&!plans.has(slug))throw Error('No outside quotations are recorded for the guide '+slug);
   const unknown=ids.filter(id=>!library.quotations[id]);
   if(unknown.length)throw Error('Unknown quotation: '+unknown.join(', '));
-  const results=await verifyOutsideQuotations(library,{ids:ids.length?ids:null});
-  await browser?.close();
+  const wanted=[...ids,...(slug?guideQuotationIds(plans.get(slug)):[])];
+  const results=await verifyOutsideQuotations(library,{ids:wanted.length?wanted:null});
+  await closeBrowser();
   const tally=state=>results.filter(result=>result.state===state).length;
   console.log(`\n${tally('found')} found on their pages, ${tally('changed')} not found, ${tally('unreachable')} pages unreachable`);
-  if(write){
-    const today=new Date().toISOString().slice(0,10);
-    for(const result of results)if(result.state==='found')library.quotations[result.id].source.checked=today;
-    await fs.writeFile(file,JSON.stringify(library,null,1)+'\n');
-  }
+  if(write)await recordChecks(root,results);
   if(tally('changed')||(strict&&tally('unreachable')))process.exitCode=1;
 }

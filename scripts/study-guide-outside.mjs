@@ -1,8 +1,10 @@
-// Quotations from beyond the Bahá’í writings, for the comparative study-guide
-// pilot (study-guides/outside/). The library holds each quotation once, with the
-// page its wording was copied from; a guide's plan cuts the guide to a limit of
-// quotations and places outside quotations after the readings they were chosen
-// for. Nothing here is read by the site build.
+// Study guides read with quotations from beyond the Bahá’í writings
+// (study-guides/outside/, OUTSIDE.md). Each guide has one file there: its plan,
+// which says which of the guide's readings are kept and places outside
+// quotations after the readings they were chosen for, and the quotations first
+// recorded for it, each with the page its wording was copied from. Together the
+// files' quotations are one library, so any guide may place any of them. The
+// site build publishes the plans marked published (outside-guide-page.mjs).
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -14,12 +16,14 @@ export const sourceStatuses={primary:'text of the work',secondary:'reference wor
 // A quotation still in copyright stays brief.
 export const copyrightWordLimit=60;
 export const omission=' … ',lineBreak=' / ';
+// A guide shows at most this many of its own quotations beside as many from outside.
+export const quotationLimit=100;
 
 export const words=text=>text.split(/\s+/).filter(word=>/[\p{L}\p{N}]/u.test(word)).length;
 
 // ---- Cutting a guide to a limit of quotations ----
 
-const quotationsIn=entries=>entries.reduce((n,entry)=>n+entry.selectionIds.length,0);
+export const quotationsIn=entries=>entries.reduce((n,entry)=>n+entry.selectionIds.length,0);
 const wholeLimit=limit=>{if(!Number.isInteger(limit)||limit<1)throw Error('Invalid quotation limit');return limit;};
 
 // The guide's first readings, in reading order, whose quotations stay within the limit.
@@ -50,14 +54,27 @@ export function guideSections(guide){
   return {sections:named.map((run,i)=>({name:names[i],note:run.note,readings:run.readings})),beyond:after.flatMap(run=>run.readings)};
 }
 
+// Where a guide names no sections, its reading order is divided into this many stretches
+// of equal length in quotations; a reading belongs to the stretch its first quotation falls in.
+export const stretchCount=10;
+export function guideStretches(guide,count=stretchCount){
+  const total=quotationsIn(guide.compiled),stretches=Array.from({length:count},()=>({readings:[]}));
+  let before=0;
+  for(const entry of guide.compiled){
+    stretches[Math.min(count-1,Math.floor(before*count/Math.max(total,1)))].readings.push(entry);
+    before+=entry.selectionIds.length;
+  }
+  return stretches.filter(stretch=>stretch.readings.length);
+}
+
 // 0: every paragraph of the reading is an authorized translation; 1: some are; 2: none.
 export function authorizedRank(entry){
   const authorized=entry.paragraphs.filter(paragraph=>paragraph.authorized).length;
   return authorized&&authorized===entry.paragraphs.length?0:authorized?1:2;
 }
 
-// Each section's share of the limit, in proportion to its quotations. Whole numbers by
-// largest remainder; on a tie the earlier section has the quotation.
+// Each part's share of the limit, in proportion to its quotations. Whole numbers by
+// largest remainder; on a tie the earlier part has the quotation.
 export function sectionShares(sizes,limit){
   wholeLimit(limit);
   const total=sizes.reduce((sum,size)=>sum+size,0);
@@ -68,31 +85,46 @@ export function sectionShares(sizes,limit){
   return shares;
 }
 
-// Readings from every named section in proportion to its length. Within a section those
-// wholly in authorized translation come first, then those partly so, then the rest, each
-// group in reading order; a reading is taken when its quotations still fit the section's
-// share. What a section could not use passes to the readings not yet taken, in the same
-// order of preference. The result is in reading order.
-export function proportionalReadings(guide,limit){
+// Readings from every part in proportion to its length. Within a part those wholly in
+// authorized translation come first, then those partly so, then the rest, each group in
+// reading order; a reading is taken when its quotations still fit the part's share. What
+// a part could not use passes to the readings not yet taken, in the same order of
+// preference. The result is in reading order.
+function proportional(guide,parts,limit){
   wholeLimit(limit);
-  const divided=guideSections(guide);
-  if(!divided)throw Error(`${guide.slug}: the guide is not divided into the sections its arc names`);
   const preferred=entries=>[...entries].sort((a,b)=>authorizedRank(a)-authorizedRank(b)||a.position-b.position);
-  const shares=sectionShares(divided.sections.map(section=>quotationsIn(section.readings)),limit),kept=new Set();
+  const shares=sectionShares(parts.map(part=>quotationsIn(part.readings)),limit),kept=new Set();
   const take=(entries,room)=>{for(const entry of entries)if(!kept.has(entry)&&entry.selectionIds.length<=room){kept.add(entry);room-=entry.selectionIds.length;}return room;};
-  const spare=divided.sections.reduce((left,section,i)=>left+take(preferred(section.readings),shares[i]),0);
-  if(spare)take(preferred(divided.sections.flatMap(section=>section.readings)),spare);
+  const spare=parts.reduce((left,part,i)=>left+take(preferred(part.readings),shares[i]),0);
+  if(spare)take(preferred(parts.flatMap(part=>part.readings)),spare);
   const readings=guide.compiled.filter(entry=>kept.has(entry));
   return {readings,quotations:quotationsIn(readings),shares};
 }
+// The parts are the guide's named sections; readings after them are not drawn on.
+export function proportionalReadings(guide,limit){
+  const divided=guideSections(guide);
+  if(!divided)throw Error(`${guide.slug}: the guide is not divided into the sections its arc names`);
+  return proportional(guide,divided.sections,limit);
+}
+// The parts are equal stretches of the whole reading order.
+export const stretchReadings=(guide,limit)=>proportional(guide,guideStretches(guide),limit);
 
-// The two ways a plan may cut its guide.
-export const cutRules={first:'the first quotations, in reading order',proportional:'from every section in proportion to its length, authorized translations first'};
+// The ways a plan may cut its guide, and the one a new plan takes.
+export const cutRules={whole:'every reading: the guide is within the limit',proportional:'from every named section in proportion to its length, authorized translations first',stretches:'from equal stretches of the reading order in proportion to their length, authorized translations first',first:'the first quotations, in reading order'};
+export const ruleFor=(guide,limit)=>quotationsIn(guide.compiled)<=wholeLimit(limit)?'whole':guideSections(guide)?'proportional':'stretches';
 export function cutGuide(guide,plan){
+  if(plan.rule==='whole'){
+    const quotations=quotationsIn(guide.compiled);
+    if(quotations>plan.limit)throw Error(`${plan.slug}: the guide now holds ${quotations} quotations, more than the limit of ${plan.limit}`);
+    return {readings:[...guide.compiled],quotations};
+  }
   if(plan.rule==='first')return firstReadings(guide.compiled,plan.limit);
   if(plan.rule==='proportional')return proportionalReadings(guide,plan.limit);
+  if(plan.rule==='stretches')return stretchReadings(guide,plan.limit);
   throw Error(`${plan.slug}: unknown rule for the cut`);
 }
+
+// ---- The library and the plans ----
 
 const text=(value,name,id)=>{if(typeof value!=='string'||!value.trim()||value!==value.trim()||/\s{2,}|[\n\t]/.test(value))throw Error(`${id}: ${name} must be one line of text`);return value;};
 const optional=(value,name,id)=>value===undefined||value===''?'':text(value,name,id);
@@ -127,9 +159,15 @@ export function validateOutsideLibrary(library){
   return library;
 }
 
-// readings: the readings the cut keeps (compiled entries, in reading order). Returns the plan.
+// A draft may be unfinished and is not published; a published plan is complete.
+export const planStatuses=['draft','published'];
+// As in every guide: three to six questions when possible, always fewer than the quotations shown.
+export const questionRange=shown=>{const most=Math.min(6,Math.max(0,shown-1));return [Math.min(3,most),most];};
+
+// readings: the readings the plan keeps (compiled entries, in reading order). Returns the plan.
 export function validateOutsidePlan(plan,library,readings){
-  if(plan?.format!==1||!/^[a-z]+$/.test(plan.slug||'')||typeof plan.subject!=='string')throw Error('Unknown outside-quotation plan');
+  if(plan?.format!==2||!/^[a-z]+$/.test(plan.slug||'')||typeof plan.subject!=='string')throw Error('Unknown outside-quotation plan');
+  if(!planStatuses.includes(plan.status))throw Error(`${plan.slug}: a plan is a draft or published`);
   if(!Number.isInteger(plan.limit)||plan.limit<1)throw Error(`${plan.slug}: invalid limit`);
   if(!Object.hasOwn(cutRules,plan.rule))throw Error(`${plan.slug}: unknown rule for the cut`);
   // The plan was written against a known cut of the guide; a changed guide needs the plan reviewed.
@@ -151,21 +189,51 @@ export function validateOutsidePlan(plan,library,readings){
     text(placement.why,'why',id);
     if(words(placement.why)<12)throw Error(`${plan.slug}: ${id} needs a reason a reader can use`);
   }
-  if(typeof plan.introduction!=='string'||!plan.introduction.trim()||plan.introduction.includes('\n'))throw Error(`${plan.slug}: expected a single introductory paragraph`);
-  if(!Array.isArray(plan.questions)||plan.questions.length<3||plan.questions.length>6||plan.questions.some(q=>typeof q!=='string'||!q.trim()))throw Error(`${plan.slug}: expected three to six questions`);
+  if(plan.outside.length>plan.quotations)throw Error(`${plan.slug}: more outside quotations than the guide's own`);
+  const published=plan.status==='published',introduction=plan.introduction??'',questions=plan.questions??[];
+  if(typeof introduction!=='string'||introduction.includes('\n')||(published&&!introduction.trim()))throw Error(`${plan.slug}: expected a single introductory paragraph`);
+  const [fewest,most]=questionRange(readings.length+plan.outside.length);
+  if(!Array.isArray(questions)||questions.some(q=>typeof q!=='string'||!q.trim())||(published&&(questions.length<fewest||questions.length>most)))throw Error(`${plan.slug}: expected ${fewest===most?fewest:`${fewest} to ${most}`} questions`);
+  // An equal number is the aim. Where honest parallels run out, the plan says so rather than pad.
+  if(plan.shortfall!==undefined&&(words(text(plan.shortfall,'shortfall',plan.slug))<12||plan.outside.length===plan.quotations))throw Error(`${plan.slug}: a shortfall is explained in a sentence, and only where there is one`);
+  if(published&&(!plan.outside.length||(plan.outside.length<plan.quotations&&plan.shortfall===undefined)))throw Error(`${plan.slug}: a published plan places as many outside quotations as the guide keeps, or says why it has fewer (shortfall)`);
   return plan;
 }
 
+// The readings of a built guide that a plan keeps, in reading order. A guide edited since
+// the plan was written may have lost some; the page is built from those that remain.
+export function planReadings(plan,compiled){
+  const kept=new Set(plan.kept),readings=compiled.filter(entry=>kept.has(entry.key)),present=new Set(readings.map(entry=>entry.key));
+  return {readings,missing:plan.kept.filter(key=>!present.has(key))};
+}
+
 // The combined sequence: each reading, then the outside quotations placed after it, in plan order.
+// A placement whose reading is gone is left out; one that remains names only readings that remain.
 export function combinedSequence(readings,plan,library){
   const following=new Map(readings.map(entry=>[entry.key,[]]));
-  for(const placement of plan.outside)following.get(placement.after).push(placement);
+  for(const placement of plan.outside)following.get(placement.after)?.push({...placement,responds:placement.responds.filter(key=>following.has(key))});
   return readings.flatMap(entry=>[{reading:entry},...following.get(entry.key).map(placement=>({placement,quotation:library.quotations[placement.id]}))]);
 }
 
-export async function readOutside(root,slug){
-  const directory=path.join(root,'study-guides','outside'),json=async name=>JSON.parse(await fs.readFile(path.join(directory,name),'utf8'));
-  return {library:await json('quotations.json'),plan:await json(slug+'.json')};
+// Two records of one quotation agree when only the date of their check differs.
+const withoutDate=quotation=>JSON.stringify({...quotation,source:{...quotation.source,checked:''}});
+// Every guide's file: the plans by slug, and one library of all the quotations recorded.
+// The same quotation may be recorded for two guides, word for word; two different
+// quotations under one id are an error, named with both guides.
+export async function readOutside(root){
+  const directory=path.join(root,'study-guides','outside'),plans=new Map(),quotations={},recordedFor=new Map();
+  let names=[];
+  try{names=(await fs.readdir(directory)).filter(name=>name.endsWith('.json')).sort();}catch(error){if(error.code!=='ENOENT')throw error;}
+  for(const name of names){
+    const plan=JSON.parse(await fs.readFile(path.join(directory,name),'utf8'));
+    if(name!==plan?.slug+'.json')throw Error(`study-guides/outside/${name} is not named for its guide`);
+    plans.set(plan.slug,plan);
+    for(const [id,quotation] of Object.entries(plan.library||{})){
+      if(!recordedFor.has(id)){recordedFor.set(id,plan.slug);quotations[id]=quotation;}
+      else if(withoutDate(quotations[id])!==withoutDate(quotation))throw Error(`The outside quotation ${id} is recorded differently for ${recordedFor.get(id)} and for ${plan.slug}`);
+    }
+  }
+  return {library:validateOutsideLibrary({format:1,quotations}),plans,recordedFor};
 }
 
 // ---- Checking a quotation against the page it was copied from ----
