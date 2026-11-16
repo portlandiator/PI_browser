@@ -1,0 +1,1209 @@
+{
+ "format": 2,
+ "slug": "ascentdescent",
+ "subject": "8CDBF5DFF3E24FB1AAF00AA7099BA2CE",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 29,
+ "quotations": 41,
+ "kept": [
+  "source:ABU0214",
+  "source:AB00036",
+  "source:AB00420",
+  "source:BH00001",
+  "source:BH00354",
+  "source:BH01828",
+  "source:ABU0491",
+  "source:ABU0161",
+  "source:ABU0017",
+  "source:ABU2609",
+  "source:ABU1314",
+  "source:AB04615",
+  "source:AB03708",
+  "source:ABU0989",
+  "source:ABU0299",
+  "source:AB00006",
+  "source:AB01170",
+  "source:AB01183",
+  "source:ABU0054",
+  "source:AB00023",
+  "source:BB00010",
+  "source:BH00223",
+  "source:AB00446",
+  "selection:4850f60a57a99ee0e34ef402",
+  "selection:667a6a07e9f7dcc5b6320a43",
+  "selection:364d796a155c61a033e78098",
+  "selection:2a5b5ddd338a58f7f22f76bd",
+  "selection:3fc0f08ae37cae01ef170ab4",
+  "selection:409e38e347d182e3cec3fee1"
+ ],
+ "introduction": "These readings begin with a figure: existence as a circle of two arcs, one descending through mineral, plant and animal, the other ascending by spiritual degrees, with the human being at the point where they meet, “the end of night and the beginning of day”. Much of the world’s writing has stood at that point. Pope sets man on an “isthmus of a middle state”, the Qur’an brings him to “the lowest of the low”, Rumi climbs from mineral to angel one death at a time, and Milton’s angel tells Adam that all things proceed from one Almighty “and up to him return”. Other voices pull the other way. Heraclitus holds that the way up and the way down are one road, where the readings say the compass never reverses; the Preacher doubts that the spirit of man goes upward at all; Mencius will not have human nature poised between two directions; Darwin tells the long development of life without an arc of return; and Tennyson hears nature shriek against the claim that co-operation grows as creation rises. Read together, they ask what kind of movement an ascent is, who is free to make it, and what education and fellowship have to do with it.",
+ "questions": [
+  "‘Abdu’l-Bahá places man at “the end of imperfection and the beginning of perfection”; Pope leaves him hanging “in doubt to deem himself a God, or beast”, and Hamlet ends in “this quintessence of dust”. What makes the same middle station a promise in one voice and a predicament in the others?",
+  "The readings say the compass “does not reverse its motion” and call the ascent “creating anew”. Heraclitus says the way up and the way down are one and the same, and Ecclesiastes finds no new thing under the sun. In what sense is a return something new?",
+  "Rumi, Darwin and Whitman each tell a climb through the forms of life. Which parts of the readings’ account of the two arcs does each confirm, and which does each leave out?",
+  "One reading has man “free to move in either direction”; Moses says “choose life”; Mencius says human nature tends to good as water flows downward. How much of the ascent is choice, how much is nature, and where does education, on which the readings and Confucius both insist, come in?",
+  "The readings see co-operation and reciprocity increase with every step up the arc of ascent. Kropotkin agrees and Tennyson’s “Nature, red in tooth and claw” does not. What would count as evidence for either in the life of a community?",
+  "The Upanishad’s rivers forget their names in the sea, Akabyah ben Mahalalel remembers the dust, and the readings speak of an Ocean with which every sea will be united. Taking these readings and their company together, what returns to God, and what is it like for it to return?"
+ ],
+ "outside": [
+  {
+   "id": "emerson-circles",
+   "after": "source:ABU0214",
+   "responds": [
+    "source:ABU0214"
+   ],
+   "relation": "adjacent",
+   "why": "The reading likens existence to a circle of two arcs with the human being at their meeting point. Emerson begins from the same figure and calls it the highest emblem in the cipher of the world, though his circles widen outward without end and have no lowest point."
+  },
+  {
+   "id": "milton-up-to-him-return",
+   "after": "source:AB00036",
+   "responds": [
+    "source:AB00036",
+    "source:BH00001",
+    "source:ABU2609"
+   ],
+   "relation": "adjacent",
+   "why": "The reading makes the arc of ascent a matter of spiritual degrees ending in spiritual realities. Milton’s angel tells Adam the same of all creation: everything proceeds from one Almighty and returns up to him by degrees, “till body up to spirit work”."
+  },
+  {
+   "id": "heraclitus-way-up-way-down",
+   "after": "source:AB00036",
+   "responds": [
+    "source:AB00036"
+   ],
+   "relation": "contrast",
+   "why": "The reading insists that the compass does not reverse its motion: the ascent is “creating anew” and not the descent walked backward. Heraclitus says in one line that the two roads are a single road. Is the way up another path, or the same path seen from the other end?"
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:AB00036",
+   "responds": [
+    "source:AB00036"
+   ],
+   "relation": "contrast",
+   "why": "The reading calls the arc of ascent “creating anew” and denies that the circle ever turns back on itself. The Preacher looks at the same circling world and finds nothing in it that has not been already. What would have to be true for a return to be new?"
+  },
+  {
+   "id": "pope-isthmus",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420",
+    "source:ABU0214",
+    "source:AB01183"
+   ],
+   "relation": "adjacent",
+   "why": "The reading places man at the end of imperfection and the beginning of perfection, with an animal side and an angelic side. Pope puts the same creature on an “isthmus of a middle state”, in doubt whether to deem himself a god or a beast, and leaves him hanging there."
+  },
+  {
+   "id": "pascal-neither-angel-nor-brute",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "complement",
+   "why": "The reading asks the educator to train souls so that the angelic side may overcome the animal. Pascal grants the two sides and adds a warning the reading does not give: whoever tries to act the angel ends by acting the brute. How is the animal side overcome without being denied?"
+  },
+  {
+   "id": "tennyson-working-out-the-beast",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420",
+    "source:ABU2609"
+   ],
+   "relation": "adjacent",
+   "why": "The reading hopes that the angelic side may overcome the animal. Tennyson, writing in the decade before Darwin’s book, gives the same hope as a command to a race that has risen from lower forms: move upward and let the ape and tiger die."
+  },
+  {
+   "id": "marcus-to-thee-all-return",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001",
+    "source:ABU0491"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that all things proceed from God and return to Him. The Stoic emperor says it almost word for word, but to Nature and the Universe, and what he draws from it is contentment with whatever the seasons bring."
+  },
+  {
+   "id": "psalm-renewest-the-earth",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354",
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "The reading has every created thing continually brought forth and returned at God’s bidding. The psalmist sees both movements in the life of creatures: breath withdrawn and they return to dust, spirit sent out and the face of the earth is renewed."
+  },
+  {
+   "id": "chandogya-rivers",
+   "after": "source:BH01828",
+   "responds": [
+    "source:BH01828"
+   ],
+   "relation": "complement",
+   "why": "The reading pictures an Ocean from which all seas came and with which each will be united. The Upanishad uses the image and presses a point the reading leaves open: rivers in the sea no longer know which river they were. Does union keep or dissolve what returns?"
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491",
+    "selection:2a5b5ddd338a58f7f22f76bd"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls God the one goal towards which everything in nature yearns. Augustine opens his Confessions by finding that yearning in a single human heart, made for God and restless until it rests there."
+  },
+  {
+   "id": "khayyam-willy-nilly",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491",
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "The reading knows where creation came from and names the goal it yearns for. FitzGerald’s Omar is carried in and out of the world like water and wind and can say neither whence nor whither. What does the reading’s confidence rest on that the poet lacks?"
+  },
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:ABU0161",
+   "responds": [
+    "source:ABU0161",
+    "source:ABU0054"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that nothing is stationary, in outer phenomena or in the inner world of mind. Heraclitus gave the West its image for that: the river that cannot be entered twice, because other water is always flowing in."
+  },
+  {
+   "id": "genesis-heavens-finished",
+   "after": "source:ABU0017",
+   "responds": [
+    "source:ABU0017"
+   ],
+   "relation": "contrast",
+   "why": "The reading says God did not create the world suddenly: creation is “a continuing and not a single act”. Genesis closes its first account with the work finished and God at rest on the seventh day. Is creation something done once, or something still being done?"
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU2609",
+   "responds": [
+    "source:ABU2609",
+    "source:ABU1314"
+   ],
+   "relation": "adjacent",
+   "why": "The reading traces existence through mineral, vegetable and animal to the human, where the ascending arc begins. Rumi tells the same climb in the first person, each stage a death, and carries it past the human to the angel and beyond what can be conceived."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU2609",
+   "responds": [
+    "source:ABU2609"
+   ],
+   "relation": "complement",
+   "why": "Asked about the development of life from its lowest to its highest forms, the reading answers with two arcs and a spiritual ascent. Darwin describes the same development by fixed law, from a few forms breathed into life, and names no arc back. What does each account leave to the other?"
+  },
+  {
+   "id": "quran-lowest-of-the-low",
+   "after": "source:ABU1314",
+   "responds": [
+    "source:ABU1314",
+    "source:ABU2609"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls the human station “the lowest of the low” and also the dawning point of the ascent to God. The phrase is the Qur’an’s, where man is made in the best stature, brought to the lowest of the low, and excepted from it by faith and good works."
+  },
+  {
+   "id": "shakespeare-quintessence-of-dust",
+   "after": "source:ABU1314",
+   "responds": [
+    "source:ABU1314",
+    "source:AB00420"
+   ],
+   "relation": "contrast",
+   "why": "The reading sets man at the bottom of the circle and sees there the dawning point of a new life. Hamlet lists every height of the human creature, like an angel and like a god, and ends in dust and disgust. What turns the same double nature into promise for one and weariness for the other?"
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "source:AB04615",
+   "responds": [
+    "source:AB04615",
+    "selection:3fc0f08ae37cae01ef170ab4"
+   ],
+   "relation": "adjacent",
+   "why": "The reading begins from a single all-containing Point that is “detailed, multiplied, branched out” and then returns to its centre. Laozi counts the same unfolding from the Tao to one, two, three and all things, which then go forward from obscurity into brightness."
+  },
+  {
+   "id": "shelley-many-coloured-glass",
+   "after": "source:AB04615",
+   "responds": [
+    "source:AB04615"
+   ],
+   "relation": "adjacent",
+   "why": "The reading has one Point appear “in the most wonderful forms” and then return to its centre. Shelley, mourning Keats, sets the One that remains against the many that change and pass, and makes life the coloured glass between them."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:AB03708",
+   "responds": [
+    "source:AB03708"
+   ],
+   "relation": "complement",
+   "why": "The reading sees a people held thirteen hundred years on the arc of descent until they reached the utmost degree of fall. Shelley’s traveller finds the end of such a descent in the sand, and nothing follows it. What makes the lowest point of a nation a turning point and not a ruin?"
+  },
+  {
+   "id": "whitman-mount-and-mount",
+   "after": "source:ABU0989",
+   "responds": [
+    "source:ABU0989",
+    "source:ABU2609"
+   ],
+   "relation": "adjacent",
+   "why": "The reading asks that man evolve and progress day by day through all the degrees of life, for life is continuous. Whitman stands on a stair whose every step is a bunch of ages, all below duly travelled, and is still mounting; he speaks for himself and names no summit."
+  },
+  {
+   "id": "john-born-of-water",
+   "after": "source:ABU0299",
+   "responds": [
+    "source:ABU0299"
+   ],
+   "relation": "adjacent",
+   "why": "The reading counts three births and takes the words “born of water” and “born of spirit” as the first steps on the ascending half of the circle. They are the words of Jesus to Nicodemus by night, where the second birth is the condition of entering the kingdom of God."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:ABU0299",
+   "responds": [
+    "source:ABU0299",
+    "source:AB00036"
+   ],
+   "relation": "adjacent",
+   "why": "The reading makes the first, descending scale natural and material and the second, ascending scale spiritual. Paul gives the same order, the natural first and the spiritual afterward, as two men: the first of the earth, the second from heaven."
+  },
+  {
+   "id": "brihadaranyaka-lead-me",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006",
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls humanity the dawning of light and the end of the night of plurality and loss. The Upanishad’s ancient prayer stands at the same threshold and asks to be led across it, from the unreal to the real and from darkness to light."
+  },
+  {
+   "id": "quran-two-seas",
+   "after": "source:AB01170",
+   "responds": [
+    "source:AB01170"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls the inner reality of man a line between shadow and light, “a place where the two seas meet”. The image is from the Qur’an, where two seas meet with a barrier between them that neither passes; there it is a sign in nature and is not said of the human being."
+  },
+  {
+   "id": "analects-nature-and-practice",
+   "after": "source:AB01170",
+   "responds": [
+    "source:AB01170"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says the same human reality reaches all excellence with education and stays at the lowest point without it. Confucius says as much in a sentence: people begin nearly alike, and practice sets them wide apart."
+  },
+  {
+   "id": "deuteronomy-choose-life",
+   "after": "source:AB01183",
+   "responds": [
+    "source:AB01183"
+   ],
+   "relation": "adjacent",
+   "why": "The reading leaves man free to move in either direction, towards light or darkness. Moses sets the same two ways before Israel at the edge of the promised land, life and death, blessing and cursing, and asks for a choice."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:AB01183",
+   "responds": [
+    "source:AB01183",
+    "source:AB01170"
+   ],
+   "relation": "contrast",
+   "why": "The reading stands man on a line from which he may move either way, depending on which side prevails. Mencius denies that the ground is level: human nature tends to good as water runs downhill, and only force drives it the other way. Is the human being poised between two directions, or inclined to one?"
+  },
+  {
+   "id": "ecclesiastes-upward-downward",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054",
+    "selection:409e38e347d182e3cec3fee1"
+   ],
+   "relation": "contrast",
+   "why": "The reading holds that mineral, plant and animal must ascend or descend, but that the human soul knows no decline. The Preacher sees one breath in man and beast and one dust for both, and asks who knows that the human spirit goes upward. On what does the reading’s assurance rest?"
+  },
+  {
+   "id": "genesis-jacobs-ladder",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "The reading has the Sanctified Realities, the bearers of glad tidings, move “in descending and ascending arcs”. Jacob’s dream gives scripture’s older picture of traffic in both directions between earth and heaven: a ladder, and angels going up and coming down."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:BB00010",
+   "responds": [
+    "source:BB00010"
+   ],
+   "relation": "adjacent",
+   "why": "The reading gives the body a double rank: the lowest on the arc of descent and the highest on the arc of ascent, a shadow of the spirit. Paul likewise refuses to despise it, and tells the Corinthians that the body is a temple and not their own."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223",
+    "source:ABU0017"
+   ],
+   "relation": "adjacent",
+   "why": "The reading names the Word of God as the cause that preceded the contingent world and made all else its creatures. The opening of John’s Gospel says the same of the Word, with God in the beginning, through whom all things were made; John goes on to say that this Word became flesh."
+  },
+  {
+   "id": "kropotkin-mutual-aid",
+   "after": "source:AB00446",
+   "responds": [
+    "source:AB00446"
+   ],
+   "relation": "adjacent",
+   "why": "The reading finds co-operation and reciprocity more evident the higher a kingdom stands on the arc of ascent. Kropotkin, a naturalist arguing with the Darwinians of his day, reads the same lesson in animal life: mutual aid, not competition, is what secures existence and progress."
+  },
+  {
+   "id": "tennyson-tooth-and-claw",
+   "after": "source:AB00446",
+   "responds": [
+    "source:AB00446"
+   ],
+   "relation": "contrast",
+   "why": "The reading surveys creation and sees co-operation growing from mineral to plant to animal. Tennyson looks at the same animal world and hears it shriek against the creed that love is creation’s final law. Which of the two has looked at more of nature?"
+  },
+  {
+   "id": "gita-each-kalpa",
+   "after": "selection:4850f60a57a99ee0e34ef402",
+   "responds": [
+    "selection:4850f60a57a99ee0e34ef402",
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that God originates creation and repeats it. In the Gita Krishna says it of himself and gives the repetition a measure: at the close of each age all things come back into his being, and at its beginning they issue from him again."
+  },
+  {
+   "id": "descartes-conservation-and-creation",
+   "after": "selection:667a6a07e9f7dcc5b6320a43",
+   "responds": [
+    "selection:667a6a07e9f7dcc5b6320a43",
+    "source:ABU0017"
+   ],
+   "relation": "adjacent",
+   "why": "The reading describes a creation annihilated and made again at every moment. Descartes reaches a neighbouring thought by considering time: to keep a thing in being from one moment to the next takes the same power as to create it, so that conserving and creating differ only in our way of thinking."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "selection:364d796a155c61a033e78098",
+   "responds": [
+    "selection:364d796a155c61a033e78098"
+   ],
+   "relation": "adjacent",
+   "why": "The reading has man float into the world down the stream of emanation before he turns towards the Source. Wordsworth remembers the coming down: the soul arrives from afar, trailing clouds of glory from God who is its home, and the glory fades as the child grows."
+  },
+  {
+   "id": "rumi-reed",
+   "after": "selection:364d796a155c61a033e78098",
+   "responds": [
+    "selection:364d796a155c61a033e78098",
+    "source:BH01828"
+   ],
+   "relation": "adjacent",
+   "why": "The reading finds beneath the stream an undercurrent that sweeps man back towards the Source. Rumi opens his great poem with the sound of that pull: the reed cut from its bed, whose every note is longing for the day of return."
+  },
+  {
+   "id": "boethius-due-return",
+   "after": "selection:2a5b5ddd338a58f7f22f76bd",
+   "responds": [
+    "selection:2a5b5ddd338a58f7f22f76bd",
+    "source:ABU0491",
+    "selection:3fc0f08ae37cae01ef170ab4"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that the originating principle is the goal of all things and that their natural motion is return. Boethius, awaiting execution, sings of the bent sapling and the setting sun: all things yearn for their due return, and the only lasting order joins the end to the beginning."
+  },
+  {
+   "id": "avot-from-where-you-come",
+   "after": "selection:409e38e347d182e3cec3fee1",
+   "responds": [
+    "selection:409e38e347d182e3cec3fee1",
+    "source:AB00420"
+   ],
+   "relation": "complement",
+   "why": "The reading sends the dust back to the earth and the spirit back to God who gave it. The rabbis turn the two returns into three questions for keeping a person from sin, and answer the first two with the body alone: a putrid drop, a place of dust. Does remembering the low origin help the ascent?"
+  }
+ ],
+ "library": {
+  "psalm-renewest-the-earth": {
+   "text": "Thou hidest thy face, they are troubled: thou takest away their breath, they die, and return to their dust. Thou sendest forth thy spirit, they are created: and thou renewest the face of the earth",
+   "work": "Psalm 104:29–30",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20104%3A29-30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-heavens-finished": {
+   "text": "Thus the heavens and the earth were finished, and all the host of them. And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made",
+   "work": "Genesis 2:1–2",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%202%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-born-of-water": {
+   "text": "Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God. That which is born of the flesh is flesh; and that which is born of the Spirit is spirit",
+   "work": "John 3:5–6",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%203%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-natural-then-spiritual": {
+   "text": "Howbeit that was not first which is spiritual, but that which is natural; and afterward that which is spiritual. The first man is of the earth, earthy; the second man is the Lord from heaven",
+   "work": "1 Corinthians 15:46–47",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2015%3A46-47&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-choose-life": {
+   "text": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live",
+   "work": "Deuteronomy 30:19",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2030%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-upward-downward": {
+   "text": "For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one breath; so that a man hath no preeminence above a beast: for all is vanity. All go unto one place; all are of the dust, and all turn to dust again. Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth?",
+   "work": "Ecclesiastes 3:19–21",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%203%3A19-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-jacobs-ladder": {
+   "text": "And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven: and behold the angels of God ascending and descending on it",
+   "work": "Genesis 28:12",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2028%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-body-temple": {
+   "text": "know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own",
+   "work": "1 Corinthians 6:19",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%206%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-in-the-beginning": {
+   "text": "In the beginning was the Word, and the Word was with God, and the Word was God. The same was in the beginning with God. All things were made by him; and without him was not any thing made that was made",
+   "work": "John 1:1–3",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%201%3A1-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-lowest-of-the-low": {
+   "text": "Surely We created man of the best stature Then we reduced him to the lowest of the low, Save those who believe and do good works, and theirs is a reward unfailing",
+   "work": "Qur’an 95:4–6",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ],
+    "after": "95|3|"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-two-seas": {
+   "text": "He hath loosed the two seas. They meet. There is a barrier between them. They encroach not",
+   "work": "Qur’an 55:19–20",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ],
+    "after": "55|18|"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "emerson-circles": {
+   "text": "The eye is the first circle; the horizon which it forms is the second; and throughout nature this primary figure is repeated without end. It is the highest emblem in the cipher of the world",
+   "author": "Ralph Waldo Emerson",
+   "work": "Circles",
+   "locator": "Essays, First Series",
+   "year": "1841",
+   "sortYear": 1841,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Essays:_First_Series/Circles",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "milton-up-to-him-return": {
+   "text": "O Adam, One Almighty is, from whom / All things proceed, and up to him return, / If not depraved from good, created all / Such to perfection, one first matter all, / Endued with various forms, various degrees / Of substance, and, in things that live, of life; / But more refined, more spiritous, and pure, / As nearer to him placed, or nearer tending / Each in their several active spheres assigned, / Till body up to spirit work, in bounds / Proportioned to each kind",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "V.469–479",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/Book_V",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d{3}"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1674."
+   }
+  },
+  "heraclitus-way-up-way-down": {
+   "text": "The way up and the way down is one and the same",
+   "author": "Heraclitus",
+   "work": "Fragments",
+   "locator": "fragment 60 (Diels); 69 in Burnet",
+   "year": "c. 500 BCE",
+   "sortYear": -500,
+   "translator": "John Burnet",
+   "translationYear": "1892",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Fragments_of_Heraclitus",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Fragment 60"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1928."
+   }
+  },
+  "heraclitus-same-rivers": {
+   "text": "You cannot step twice into the same rivers; for fresh waters are ever flowing in upon you",
+   "author": "Heraclitus",
+   "work": "Fragments",
+   "locator": "fragment 12 (Diels); 41, 42 in Burnet",
+   "year": "c. 500 BCE",
+   "sortYear": -500,
+   "translator": "John Burnet",
+   "translationYear": "1892",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Fragments_of_Heraclitus",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1928."
+   }
+  },
+  "pope-isthmus": {
+   "text": "Plac'd on this isthmus of a middle state, / A being darkly wise, and rudely great: / With too much knowledge for the sceptic side, / With too much weakness for the stoic's pride, / He hangs between; in doubt to act, or rest, / In doubt to deem himself a God, or beast … Created half to rise, and half to fall",
+   "verse": true,
+   "author": "Alexander Pope",
+   "work": "An Essay on Man",
+   "locator": "Epistle II, lines 3–8, 15",
+   "year": "1733",
+   "sortYear": 1733,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/An_Essay_on_Man/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1744."
+   }
+  },
+  "pascal-neither-angel-nor-brute": {
+   "text": "Man is neither angel nor brute, and the unfortunate thing is that he who would act the angel acts the brute",
+   "author": "Blaise Pascal",
+   "work": "Pensées",
+   "locator": "no. 358 in Brunschvicg’s numbering",
+   "year": "written c. 1657–62; published 1670",
+   "sortYear": 1670,
+   "translator": "W. F. Trotter",
+   "translationYear": "1910",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Blaise_Pascal/Thoughts/Section_6",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1945."
+   }
+  },
+  "marcus-to-thee-all-return": {
+   "text": "Everything harmonizes with me, which is harmonious to thee, O Universe. Nothing for me is too early nor too late, which is in due time for thee. Everything is fruit to me which thy seasons bring, O Nature: from thee are all things, in thee are all things, to thee all things return",
+   "author": "Marcus Aurelius",
+   "work": "Meditations",
+   "locator": "IV.23",
+   "year": "c. 170–180 CE",
+   "sortYear": 175,
+   "translator": "George Long",
+   "translationYear": "1862",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_IV",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1879."
+   }
+  },
+  "augustine-restless-heart": {
+   "text": "You have made us for Yourself, and our hearts are restless until they rest in You",
+   "author": "Augustine of Hippo",
+   "work": "Confessions",
+   "locator": "I.1",
+   "year": "c. 397–400 CE",
+   "sortYear": 398,
+   "translator": "J. G. Pilkington",
+   "translationYear": "1876",
+   "tradition": "Early Christian",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/110101.htm",
+    "label": "New Advent",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1876."
+   },
+   "caveat": "New Advent’s text changes the translator’s “Thou” to “You”."
+  },
+  "khayyam-willy-nilly": {
+   "text": "Into this Universe, and Why not knowing / Nor Whence, like Water willy-nilly flowing; / And out of it, as Wind along the Waste, / I know not Whither, willy-nilly blowing",
+   "verse": true,
+   "author": "Omar Khayyám",
+   "work": "Rubáiyát",
+   "locator": "quatrain 29 in Edward FitzGerald’s fifth edition",
+   "year": "c. 1100; this version 1889",
+   "sortYear": 1100,
+   "translator": "Edward FitzGerald",
+   "translationYear": "1889",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Rubaiyat_of_Omar_Khayyam_(tr._Fitzgerald,_5th_edition)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1883."
+   }
+  },
+  "rumi-died-as-mineral": {
+   "text": "I died as inanimate matter and arose a plant, / I died as a plant and rose again an animal. / I died as an animal and arose a man. / Why then should I fear to become less by dying? / I shall die once again as a man / To rise an angel perfect from head to foot! / Again when I suffer dissolution as an angel, / I shall become what passes the conception of man",
+   "verse": true,
+   "author": "Jalāl al-Dīn Rūmī",
+   "work": "Mathnawī",
+   "locator": "Book III",
+   "year": "13th century",
+   "sortYear": 1265,
+   "translator": "E. H. Whinfield",
+   "translationYear": "1898",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Masnavi_I_Ma%27navi/Book_III",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\s\\d(?=\\s)"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1922."
+   }
+  },
+  "tennyson-working-out-the-beast": {
+   "text": "Arise and fly / The reeling Faun, the sensual feast; / Move upward, working out the beast, / And let the ape and tiger die",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "In Memoriam A.H.H.",
+   "locator": "section CXVIII",
+   "year": "1850",
+   "sortYear": 1850,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/In_Memoriam_(Tennyson)/Canto_116",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "darwin-grandeur": {
+   "text": "There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved",
+   "author": "Charles Darwin",
+   "work": "On the Origin of Species",
+   "locator": "chapter 14, closing sentence (first edition)",
+   "year": "1859",
+   "sortYear": 1859,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859)/Chapter_XIV",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "shakespeare-quintessence-of-dust": {
+   "text": "What a piece of work is a man! how noble in reason! how infinite in faculty! in form and moving how express and admirable! in action how like an angel! in apprehension how like a god! the beauty of the world! the paragon of animals! And yet, to me, what is this quintessence of dust?",
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act II, scene 2",
+   "year": "c. 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shelley-ozymandias": {
+   "text": "And on the pedestal these words appear: / “My name is Ozymandias, king of kings: / Look on my works, ye Mighty, and despair!” / Nothing beside remains. Round the decay / Of that colossal wreck, boundless and bare / The lone and level sands stretch far away",
+   "verse": true,
+   "author": "Percy Bysshe Shelley",
+   "work": "Ozymandias",
+   "year": "1818",
+   "sortYear": 1818,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Rosalind_and_Helen,_A_Modern_Eclogue_(1819)/Sonnet",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1822."
+   },
+   "caveat": "Spelling as in the first book printing (1819), which has “colossal”."
+  },
+  "whitman-mount-and-mount": {
+   "text": "I am an acme of things accomplish'd, and I an encloser of things to be. / My feet strike an apex of the apices of the stairs, / On every step bunches of ages, and larger bunches between the steps, / All below duly travel'd, and still I mount and mount",
+   "verse": true,
+   "author": "Walt Whitman",
+   "work": "Song of Myself",
+   "locator": "section 44",
+   "year": "1855; final text 1881",
+   "sortYear": 1855,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leaves_of_Grass_(1882)/Song_of_Myself",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "analects-nature-and-practice": {
+   "text": "By nature, men are nearly alike; by practice, they get to be wide apart",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "17.2",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "mencius-water-flows-down": {
+   "text": "Water indeed will flow indifferently to the east or west, but will it flow indifferently up or down? The tendency of man's nature to good is like the tendency of water to flow downwards. There are none but have this tendency to good, just as all water flows downwards",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "6A.2",
+   "year": "4th–3rd century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter11",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "gita-each-kalpa": {
+   "text": "At closing of each Kalpa, Indian Prince! / All things which be back to My Being come: / At the beginning of each Kalpa, all / Issue new-born from Me. / By Energy / And help of Prakriti, my outer Self, / Again, and yet again, I make go forth / The realms of visible things",
+   "verse": true,
+   "work": "Bhagavad Gītā",
+   "locator": "9.7–8, in Edwin Arnold’s verse",
+   "year": "c. 2nd century BCE",
+   "sortYear": -150,
+   "translator": "Edwin Arnold",
+   "translationYear": "1885",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Arnold_translation)/Chapter_9",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1904."
+   }
+  },
+  "descartes-conservation-and-creation": {
+   "text": "it is perfectly clear and evident to all who will attentively consider the nature of duration, that the conservation of a substance, in each moment of its duration, requires the same power and act that would be necessary to create it, supposing it were not yet in existence; so that it is manifestly a dictate of the natural light that conservation and creation differ merely in respect of our mode of thinking [and not in reality]",
+   "author": "René Descartes",
+   "work": "Meditations on First Philosophy",
+   "locator": "Meditation III",
+   "year": "1641",
+   "sortYear": 1641,
+   "translator": "John Veitch",
+   "translationYear": "1853",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_III",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1894."
+   }
+  },
+  "boethius-due-return": {
+   "text": "Thus are all things seen to yearn / In due time for due return; / And no order fixed may stay, / Save which in th' appointed way / Joins the end to the beginning / In a steady cycle spinning",
+   "verse": true,
+   "author": "Boethius",
+   "work": "The Consolation of Philosophy",
+   "locator": "Book III, song 2",
+   "year": "c. 524 CE",
+   "sortYear": 524,
+   "translator": "H. R. James",
+   "translationYear": "1897",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)/The_Bent_of_Nature",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1931."
+   }
+  },
+  "tao-produced-one": {
+   "text": "The Tâo produced One; One produced Two; Two produced Three; Three produced All things. All things leave behind them the Obscurity (out of which they have come), and go forward to embrace the Brightness (into which they have emerged), while they are harmonised by the Breath of Vacancy",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 42",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://archive.org/stream/in.ernet.dli.2015.499132/2015.499132.sacred-books_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "repair": [
+     [
+      "TheTio",
+      "The Tâo"
+     ],
+     [
+      "producedTwo",
+      "produced Two"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   },
+   "caveat": "Copied from a scanned book; the words in brackets are the translator’s."
+  },
+  "avot-from-where-you-come": {
+   "text": "Akabyah ben Mahalalel said: mark well three things and you will not come into the power of sin: know from where you come, and where you are going, and before whom you are destined to give an account and reckoning. From where do you come? From a putrid drop. Where are you going? To a place of dust, of worm and of maggot. Before whom you are destined to give an account and reckoning? Before the King of the kings of kings, the Holy One, blessed be He",
+   "work": "Mishnah, Pirkei Avot",
+   "locator": "3:1",
+   "year": "c. 200 CE",
+   "sortYear": 200,
+   "translator": "Joshua Kulp",
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.sefaria.org/api/texts/Pirkei_Avot.3.1?context=0&ven=Mishnah_Yomit_by_Dr._Joshua_Kulp",
+    "label": "Sefaria",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "Translation published at Sefaria under a CC BY licence."
+   }
+  }
+ }
+}
