@@ -1,0 +1,2812 @@
+{
+ "format": 2,
+ "slug": "spiritualpath",
+ "subject": "DBB07A9A48FD421E8F6E02D219149549",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 81,
+ "quotations": 100,
+ "kept": [
+  "source:BH00002",
+  "source:BH00047",
+  "source:AB00030",
+  "source:ABU0706",
+  "source:ABU0259",
+  "source:BH00184",
+  "source:ABU0139",
+  "source:BH00306",
+  "source:BH00693",
+  "source:AB00019",
+  "source:AB01360",
+  "source:BH00260",
+  "source:BH02183",
+  "source:AB01218",
+  "source:ABU0473",
+  "source:BH11367",
+  "source:BH00987",
+  "source:BH11209",
+  "source:BH00769",
+  "source:BH06095",
+  "source:AB02825",
+  "source:AB09731",
+  "source:AB11451",
+  "source:AB00112",
+  "source:AB00824",
+  "source:AB00236",
+  "source:AB07009",
+  "source:AB04591",
+  "source:BH00001",
+  "source:BH00111",
+  "source:BH00238",
+  "source:BH00223",
+  "source:BH00308",
+  "source:AB00034",
+  "source:BH02224",
+  "source:AB00423",
+  "source:BBU0001",
+  "source:AB01432",
+  "source:BH00219",
+  "source:AB00056",
+  "source:ABU0387",
+  "source:ABU0528",
+  "source:AB05247",
+  "source:AB09571",
+  "source:ABU0256",
+  "source:ABU0689",
+  "source:ABU0790",
+  "source:BHU0002",
+  "source:AB02523",
+  "source:AB06435",
+  "source:AB10201",
+  "source:ABU0503",
+  "source:AB03158",
+  "source:AB08135",
+  "source:ABU0350",
+  "source:ABU1113",
+  "source:ABU1724",
+  "source:ABU1896",
+  "source:ABU2111",
+  "source:ABU3601",
+  "source:BH00594",
+  "source:BH00788",
+  "source:BH01577",
+  "source:AB02847",
+  "source:AB00044",
+  "source:AB00874",
+  "source:AB02936",
+  "source:ABU0619",
+  "source:AB00336",
+  "source:AB00036",
+  "source:ABU0386",
+  "source:BH01353",
+  "source:ABU0112",
+  "source:BH00704",
+  "source:AB00476",
+  "source:AB06732",
+  "source:AB05801",
+  "source:BB00486",
+  "source:ABU0626",
+  "source:BH11455",
+  "source:BH02699"
+ ],
+ "introduction": "The guide’s first move is to describe the seeker before the road: one who trusts in God, exalts himself above no one, keeps silence, and at the dawn of every day communes with his Beloved. From there these readings go by way of capacity and servitude, prayer and the confession of powerlessness, to the long middle of the path, where it shows only as character: a truthful word, a cheerful face, a hand that is not closed to the poor. They are read here with others who have walked or doubted such a road. Bunyan’s dreamer and the pilgrims of the Letter to the Hebrews set out beside the wayfarer; the Dhammapada, the Qur’an, Confucius and the Stoics know the conquest of self, the daily examination and the mountain that is not shaken. Others pull the other way. Milton’s Satan would sooner reign than serve, Machiavelli counts the unarmed prophets among the destroyed, Marx hears in religion’s consolation an opiate, and Herrick draws from the fading rose the opposite of the lesson drawn here. Set side by side, they ask what the path changes in a person, and how anyone would know.",
+ "questions": [
+  "The first reading asks the seeker to renounce the peoples of the earth, to keep silence and to commune with God at dawn. Read it with Laozi, Thoreau and Aristotle: what is being given up, and what is not?",
+  "Several readings rest on capacity: the soil, the mirror, the thirst. How do the parable of the sower and Portia’s rain of mercy each divide the work between the giver and the one who receives?",
+  "The readings place the essence of wisdom in the fear of God and the summit of knowledge in confessing powerlessness. What do the First Letter of John and Pope’s couplet each object to, and how might the readings answer?",
+  "Good character is called the best mantle, a jewel and the mightiest of hosts. Set these claims beside Iago on good name, Kant on the crooked material of humanity and Machiavelli on unarmed prophets. Which objection is hardest to meet?",
+  "The readings want virtues to be seen, in a happy face, in deeds that translate the words, in a community that is a model to others. How do the warning against alms done before men and the Preacher’s praise of sorrow qualify that hope?",
+  "The last readings speak of a gain that endures and of a soul that draws nearer only by mercy. With Shelley’s ruin, Keats’s thing of beauty and the Dhammapada’s “by oneself one is purified” in view, what on this path is a person’s own work, and what lasts?"
+ ],
+ "outside": [
+  {
+   "id": "quran-way-out",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The seeker’s first duty in the reading is to “put his trust in God”. The Qur’an makes the same trust a promise: whoever relies on God will find Him enough. It is said to believers under a law; the reading says it to one who is still searching."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The reading tells the seeker to “observe silence, and refrain from idle talk”. Laozi gives a reason from another world altogether: the one who knows the Way does not care to talk about it, and readiness to talk is a sign of not knowing."
+  },
+  {
+   "id": "psalm-in-the-morning",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002",
+    "source:BH06095"
+   ],
+   "relation": "adjacent",
+   "why": "“At the dawn of every day he should commune with God.” The psalmist keeps the same hour and adds a posture to it: the prayer is directed in the morning, and then he looks up and waits."
+  },
+  {
+   "id": "thoreau-expectation-of-the-dawn",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "complement",
+   "why": "The reading fixes the seeker’s communion at dawn. Thoreau, who went to the woods alone, turns dawn into a condition and not an hour: to be awake at all is the rare thing. What would it mean to keep the reading’s dawn through the rest of the day?"
+  },
+  {
+   "id": "aristotle-beast-or-god",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "The seeker “must renounce the peoples of the earth”. Aristotle holds that a human being is completed only among others, and that whoever has no need of them is either below humanity or above it. Is the renunciation asked here a leaving of people, or of dependence on their opinion?"
+  },
+  {
+   "id": "bunyan-wilderness-of-this-world",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "The reading speaks of wayfarers travelling “from their mortal abode to the heavenly homeland”. The best-known English telling of that journey opens here, with a dreamer in the wilderness of this world and a man who has turned his face from his own house."
+  },
+  {
+   "id": "hebrews-strangers-and-pilgrims",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "The reading’s wayfarers are leaving a “mortal abode” for a “heavenly homeland”. The Letter to the Hebrews describes the patriarchs in the same terms, as strangers and pilgrims who desire a better country; it adds that they died without having received what was promised."
+  },
+  {
+   "id": "whitman-every-atom",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "contrast",
+   "why": "Until the wayfarer “taketh leave of self”, the reading says, the ocean of nearness is never reached. Whitman opens his poem by doing the opposite, celebrating and singing himself, and finds his kinship with everyone there. Is the self he sings the self the wayfarer leaves?"
+  },
+  {
+   "id": "bacon-no-dry-light",
+   "after": "source:AB00030",
+   "responds": [
+    "source:AB00030"
+   ],
+   "relation": "adjacent",
+   "why": "The reading warns the seeker against love or hatred, “lest his love for one thing hinder him from investigating another”. Bacon, setting out the method of the new science, names the same obstacle: the understanding is no dry light, and people believe what they would rather were true."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:AB00030",
+   "responds": [
+    "source:AB00030"
+   ],
+   "relation": "complement",
+   "why": "The reading wants the seeker’s judgement cleared of love and hatred alike. Pascal, a mathematician, allows the heart a knowledge that reasoning does not reach. The reading also asks for a heart “entirely directed” to one horizon: which loves cloud the search, and which one guides it?"
+  },
+  {
+   "id": "pascal-neither-angel-nor-brute",
+   "after": "source:ABU0706",
+   "responds": [
+    "source:ABU0706"
+   ],
+   "relation": "complement",
+   "why": "The reading divides man into a spiritual nature and a material one and calls the victory of the first sainthood. Pascal accepts the two natures and adds a warning the reading does not give: whoever tries to act as though he had only the higher one ends in the lower. How is the material nature governed without being denied?"
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:ABU0259",
+   "responds": [
+    "source:ABU0259"
+   ],
+   "relation": "adjacent",
+   "why": "“No matter how much the cloud may rain … the soil that is sterile will give no growth.” The Gospel’s parable is of the same soil: one sower, one seed, and a harvest decided by the ground it falls on."
+  },
+  {
+   "id": "shakespeare-quality-of-mercy",
+   "after": "source:ABU0259",
+   "responds": [
+    "source:ABU0259"
+   ],
+   "relation": "complement",
+   "why": "In the reading the cloud of mercy pours on all, but only prepared ground receives it. Portia’s mercy also falls like rain, and her point is that it cannot be earned or forced. If the bounty is unstrained, what exactly does the reading’s “capacity and readiness” add?"
+  },
+  {
+   "id": "milton-reign-in-hell",
+   "after": "source:BH00184",
+   "responds": [
+    "source:BH00184"
+   ],
+   "relation": "contrast",
+   "why": "The reading longs for servitude and says that whoever attains it “hath attained unto all good”. Milton gives the contrary creed its most famous line, in the mouth of Satan, for whom freedom means having no one above him. What does each speaker think is lost by serving?"
+  },
+  {
+   "id": "genesis-image-and-likeness",
+   "after": "source:ABU0139",
+   "responds": [
+    "source:ABU0139"
+   ],
+   "relation": "adjacent",
+   "why": "Man “must become the image and likeness of God”, says the reading. Genesis uses the same two words of the way humankind was made. The reading turns a fact of creation into a task still to be done."
+  },
+  {
+   "id": "matthew-peter-on-the-water",
+   "after": "source:BH00306",
+   "responds": [
+    "source:BH00306"
+   ],
+   "relation": "adjacent",
+   "why": "The mystic “flung himself into the waves” while the grammarian stood on the shore thinking. Peter is both men in one: he steps out of the boat on a word, walks, and begins to sink the moment he considers the wind."
+  },
+  {
+   "id": "shakespeare-uses-of-adversity",
+   "after": "source:BH00693",
+   "responds": [
+    "source:BH00693"
+   ],
+   "relation": "adjacent",
+   "why": "The wayfarers meet things that seem “a mortal poison” and are inwardly “a wholesome draught”. Shakespeare’s exiled duke says the same of his banishment, with a venomous toad that carries a jewel; he is speaking of weather and hardship, not of a mystical station."
+  },
+  {
+   "id": "penn-one-religion",
+   "after": "source:AB00019",
+   "responds": [
+    "source:AB00019"
+   ],
+   "relation": "adjacent",
+   "why": "The reading finds one unchanging part in every religion: “purity, detachment, humility, forbearance, patience, and constancy”. William Penn, a Quaker, lists nearly the same qualities and says that those who have them are of one religion already, whatever livery they wear."
+  },
+  {
+   "id": "augustine-absence-of-good",
+   "after": "source:AB01360",
+   "responds": [
+    "source:AB01360"
+   ],
+   "relation": "adjacent",
+   "why": "“Evil is simply their non-existence”: ignorance is the want of knowledge, error the want of guidance. Augustine had argued the same against the Manichees, with the reading’s own kind of example: disease is nothing but the absence of health."
+  },
+  {
+   "id": "isaiah-create-evil",
+   "after": "source:AB01360",
+   "responds": [
+    "source:AB01360"
+   ],
+   "relation": "contrast",
+   "why": "The reading denies evil any positive existence. The God of Isaiah claims darkness and evil as His own making, beside light and peace, so that nothing stands outside His power. If evil is only an absence, what does the prophet’s hearer suffer from?"
+  },
+  {
+   "id": "corinthians-same-spirit",
+   "after": "source:BH00260",
+   "responds": [
+    "source:BH00260"
+   ],
+   "relation": "adjacent",
+   "why": "Spirit, mind, soul, sight and hearing are “one single reality which hath manifold expressions owing to the diversity of its instruments”. Paul reasons in the same way about a congregation: many gifts and operations, one Spirit working in all. He is speaking of a community, the reading of the powers within one person."
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "“The essence of wisdom is the fear of God.” The proverb is the reading’s nearest ancestor, with one difference of word: there the fear of the Lord is where wisdom begins, here it is what wisdom is."
+  },
+  {
+   "id": "john-epistle-love-casteth-out-fear",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "contrast",
+   "why": "The reading makes wisdom consist in fear of God, “the dread of His scourge and punishment”. The First Letter of John says that fear has torment and that perfect love casts it out. Is the fear the reading praises one that love removes, or one that love keeps?"
+  },
+  {
+   "id": "epictetus-as-they-happen",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "The reading places glory in “contentment with that which God hath ordained”. Epictetus, once a slave, gives the same rule without naming God in it: do not ask that things happen as you wish, but wish them as they happen."
+  },
+  {
+   "id": "burns-mans-a-man",
+   "after": "source:AB01218",
+   "responds": [
+    "source:AB01218",
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "“A great man is a great man”, whatever his birth, says the reading, and a later one sets man’s glory in character and not in “nationality or rank”. Burns sings it for the poor man: rank is only the stamp on the coin, and the man is the gold."
+  },
+  {
+   "id": "shakespeare-devil-cite-scripture",
+   "after": "source:ABU0473",
+   "responds": [
+    "source:ABU0473"
+   ],
+   "relation": "complement",
+   "why": "The reading says scripture is easy to read and that only “a clean heart and a pure mind” understand it. Antonio states the other side of that: an evil soul can quote the same words for its own purpose. What, besides the text, does a reader bring to it?"
+  },
+  {
+   "id": "quran-created-to-worship",
+   "after": "source:BH11209",
+   "responds": [
+    "source:BH11209"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast created me to know Thee and to worship Thee.” The Qur’an gives the purpose of creation in one verse and nearly the same words; the prayer adds knowing to worshipping."
+  },
+  {
+   "id": "job-by-searching",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer confesses that no heart can “scale the heights of Thine immeasurable knowledge”. Zophar puts the same limit to Job as a question; he uses it to silence a sufferer, where the prayer makes the confession of powerlessness the summit of the search."
+  },
+  {
+   "id": "pope-proper-study",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "contrast",
+   "why": "The prayer spends itself on the unknowable God and calls the acknowledgement of impotence the highest station. Pope draws another conclusion from the same limit: since God cannot be scanned, study man. Does confessing that God is beyond knowledge end the inquiry or direct it?"
+  },
+  {
+   "id": "psalm-tree-by-the-rivers",
+   "after": "source:AB02825",
+   "responds": [
+    "source:AB02825"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer speaks of a person as a sapling planted, watered and brought to leaf and fruit. The first psalm has the same tree, planted by rivers of water and fruitful in its season; there it is the picture of one who delights in the law."
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:AB09731",
+   "responds": [
+    "source:AB09731"
+   ],
+   "relation": "adjacent",
+   "why": "The reading wants the Name on the lips at the first waking moment and the last before sleep. Deuteronomy sets the same frame for the words of the law: when lying down and when rising up, and it adds the house, the road and the children."
+  },
+  {
+   "id": "matthew-vain-repetitions",
+   "after": "source:AB09731",
+   "responds": [
+    "source:AB09731"
+   ],
+   "relation": "contrast",
+   "why": "The reading commends “constant use in daily invocation”. The Sermon on the Mount warns against repetition that hopes to be heard for its much speaking. What distinguishes a name fed upon all day from the vain repetition the Gospel has in mind?"
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "source:AB00112",
+   "responds": [
+    "source:AB00112"
+   ],
+   "relation": "adjacent",
+   "why": "The reading takes a verse about battle and says it now means going out armed “with pure intent, with righteous motives”. The Dhammapada had made a like turn long before: the conqueror of himself is greater than the victor over a thousand thousand men."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB00824",
+   "responds": [
+    "source:AB00824"
+   ],
+   "relation": "adjacent",
+   "why": "Children “will grow up in whatever way ye train them”, like a fresh green branch. The proverb gives the same confidence in a single line, and the same weight of duty to those who do the training."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:AB00824",
+   "responds": [
+    "source:AB00824"
+   ],
+   "relation": "complement",
+   "why": "The reading sees the child as a green branch that takes whatever shape it is given. Wordsworth sees a soul that arrives already bright from elsewhere and is dimmed by growing up. What does a child bring that training did not put there?"
+  },
+  {
+   "id": "tennyson-knowledge-and-reverence",
+   "after": "source:AB00236",
+   "responds": [
+    "source:AB00236"
+   ],
+   "relation": "adjacent",
+   "why": "Learning joined to “spiritual characteristics” is “light upon light”, says the reading; learning without them is harm. Tennyson asks for the same pairing in an age of new science: more knowledge, and more reverence with it, so that mind and soul make one music."
+  },
+  {
+   "id": "winthrop-city-upon-a-hill",
+   "after": "source:AB07009",
+   "responds": [
+    "source:AB07009"
+   ],
+   "relation": "adjacent",
+   "why": "The reading asks an association to manage its affairs so well that it becomes “a model for other societies”. Winthrop told his colonists the same on the voyage out, and named the cost of failing under all those eyes: to be made a story and a by-word."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:AB07009",
+   "responds": [
+    "source:AB07009"
+   ],
+   "relation": "contrast",
+   "why": "The reading wants people known for serving “the common good, not to advance their own interests”. Adam Smith observes that our dinner comes from the tradesman’s regard for his own interest, not from his benevolence. Can a society run on the motive the reading asks for, or only be leavened by it?"
+  },
+  {
+   "id": "dante-his-will-our-peace",
+   "after": "source:AB04591",
+   "responds": [
+    "source:AB04591"
+   ],
+   "relation": "adjacent",
+   "why": "“Let nothing grieve thee … be content with the Will of God.” In Dante’s paradise a soul in the lowest sphere explains why she wants no higher place: to rest within the divine will is itself the blessedness, “and his will is our peace”."
+  },
+  {
+   "id": "quran-know-one-another",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Man’s glory, says the reading, lies in “his upright conduct, his praiseworthy character”, and “not in his nationality or rank”. The Qur’an had said it of nations and tribes: they exist that people may know one another, and the noblest is the best in conduct."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "The reading expects the Cause to triumph by “valiant acts” and “a saintly character”, not by assertion. The Gospel gives the test that goes with this: a tree is known by its fruit. There it is offered as a way of telling false prophets from true."
+  },
+  {
+   "id": "analects-examine-myself",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "“Let each morn be better than its eve.” A disciple of Confucius describes the practice that such a rule needs: each day he questions himself on three points, his faithfulness to others, his sincerity with friends, and whether he has practised what he was taught."
+  },
+  {
+   "id": "franklin-moral-perfection",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "complement",
+   "why": "The reading asks that each day surpass the last. Franklin made the attempt as a young man, with a list of virtues and a chart, and reports what he found: the task was harder than he had imagined. What does the reading supply that Franklin’s method lacked?"
+  },
+  {
+   "id": "heraclitus-character-fate",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "On good character, the reading says, “the glory and the upliftment of the world must needs depend”. Heraclitus says in five words what character decides for one person; the reading extends it to the world."
+  },
+  {
+   "id": "shakespeare-good-name",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "contrast",
+   "why": "The reading calls good character the best mantle and a jewel among men. Iago praises a jewel too, but it is good name, what others say of us, and he praises it while destroying an innocent woman’s. How far is the character the reading means from the reputation Iago means?"
+  },
+  {
+   "id": "matthew-whited-sepulchres",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "complement",
+   "why": "The reading speaks of character as a mantle and of adorning the temple of the body with it. The Gospel warns how far an outside can differ from what is within. What makes a mantle of good character more than something worn?"
+  },
+  {
+   "id": "hadith-perfect-good-character",
+   "after": "source:AB00034",
+   "responds": [
+    "source:AB00034",
+    "source:BH02224"
+   ],
+   "relation": "adjacent",
+   "why": "The reading gives the purpose of the Manifestation of God as “to educate the souls of men, and refine the character of every living man”, and the next says the same. A saying handed down from Muḥammad states his own mission in those terms."
+  },
+  {
+   "id": "aristotle-by-doing-just-acts",
+   "after": "source:AB00034",
+   "responds": [
+    "source:AB00034"
+   ],
+   "relation": "complement",
+   "why": "The reading makes it the most vital duty “to purify your characters, to correct your manners”. Aristotle says how character is in fact acquired: as builders become builders by building, we become just by doing just acts. Does purifying character come before good conduct, or through it?"
+  },
+  {
+   "id": "tennyson-working-out-the-beast",
+   "after": "source:AB00034",
+   "responds": [
+    "source:AB00034"
+   ],
+   "relation": "adjacent",
+   "why": "The reading looks for souls “who have freed themselves from the murk of the animal world”. Tennyson, writing with the new geology in mind, puts the same ascent as a command to the species: move upward, working out the beast."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:BH02224",
+   "responds": [
+    "source:BH02224"
+   ],
+   "relation": "adjacent",
+   "why": "The reading sums up God’s purpose in a short list: truthfulness, piety, trustworthiness, forbearance, kindliness, uprightness. Micah’s summary of what the Lord requires is shorter still, and like the reading it names conduct and leaves ritual out."
+  },
+  {
+   "id": "romans-good-that-i-would",
+   "after": "source:AB00423",
+   "responds": [
+    "source:AB00423",
+    "source:ABU0706"
+   ],
+   "relation": "adjacent",
+   "why": "Everyone knows that upright character is praiseworthy, says the reading, yet almost all “are devoid of” it. Paul reports the same gap from the inside: the will to do good is present, and the doing is not. An earlier reading laid the failure to man’s material nature."
+  },
+  {
+   "id": "plato-no-man-voluntarily",
+   "after": "source:AB00423",
+   "responds": [
+    "source:AB00423"
+   ],
+   "relation": "contrast",
+   "why": "The reading holds that all people know the good and nearly all fail to live by it. Socrates denies that this can happen: no one who truly thinks a thing evil pursues it, so the failure must be ignorance. Do those the reading describes know what is right, or only know that it is praised?"
+  },
+  {
+   "id": "quran-hands-speak",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "adjacent",
+   "why": "“The very members of your body must bear witness to the loftiness of your purpose.” In the Qur’an hands and feet bear witness too, on the day when mouths are sealed; there they testify to what was done, here they are asked to testify now."
+  },
+  {
+   "id": "matthew-alms-before-men",
+   "after": "source:AB01432",
+   "responds": [
+    "source:AB01432",
+    "source:ABU0387",
+    "source:AB09571"
+   ],
+   "relation": "complement",
+   "why": "The reading hopes the believers will “become famed for their sanctity”, and others nearby ask them to be distinguished and to achieve renown. The Sermon on the Mount warns against goodness done to be seen. How is a virtue made visible without being performed for the watching?"
+  },
+  {
+   "id": "quran-call-with-wisdom",
+   "after": "source:BH00219",
+   "responds": [
+    "source:BH00219"
+   ],
+   "relation": "adjacent",
+   "why": "The reading asks that God be mentioned “with the utmost wisdom, so that your words may stir the hearts”. The Qur’an gives its Prophet the same instruction: call with wisdom and fair exhortation, and leave the judging of who is astray to God."
+  },
+  {
+   "id": "matthew-revile-you",
+   "after": "source:AB00056",
+   "responds": [
+    "source:AB00056"
+   ],
+   "relation": "adjacent",
+   "why": "The letter recounts slander after slander and remains “composed and unperturbed”, bearing no ill will. The Beatitude names this very case, evil said falsely, and tells the slandered to rejoice, since the prophets were treated the same."
+  },
+  {
+   "id": "herrick-rosebuds",
+   "after": "source:AB00056",
+   "responds": [
+    "source:AB00056"
+   ],
+   "relation": "contrast",
+   "why": "The letter says that the roses of this world will fade, and concludes: “therefore is none of this worth loving at all”. Herrick starts from the same fading flower and concludes the opposite: gather it today. What decides which lesson a person draws from the shortness of life?"
+  },
+  {
+   "id": "milton-cloistered-virtue",
+   "after": "source:ABU0528",
+   "responds": [
+    "source:ABU0528"
+   ],
+   "relation": "adjacent",
+   "why": "Children’s hearts are pure, the reading says, but “on account of weakness and innocence, not on account of any strength and testing”. Milton draws the same line for adults: he cannot praise a virtue that has never met its adversary."
+  },
+  {
+   "id": "analects-reciprocity",
+   "after": "source:AB05247",
+   "responds": [
+    "source:AB05247"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou didst ask for a rule whereby to guide thy life.” A disciple asked Confucius the same question, for one word to practise all one’s life. He was given a single rule about others; the reading’s answer begins with belief and ends in friendship and healing."
+  },
+  {
+   "id": "corinthians-women-keep-silence",
+   "after": "source:AB09571",
+   "responds": [
+    "source:AB09571"
+   ],
+   "relation": "contrast",
+   "why": "The reading wants women known for “articulate speech, an eloquent tongue, irrefutable testimony”. Paul’s instruction to the church at Corinth, long taken as a rule, was that women keep silence there. What has to change in a community before the reading’s sentence can be carried out?"
+  },
+  {
+   "id": "king-content-of-character",
+   "after": "source:ABU0256",
+   "responds": [
+    "source:ABU0256"
+   ],
+   "relation": "adjacent",
+   "why": "“Excellence does not depend upon color. Character is the true criterion of humanity.” Half a century later King asked his country for the same criterion, as a father speaking of his four children."
+  },
+  {
+   "id": "corinthians-living-epistle",
+   "after": "source:ABU0689",
+   "responds": [
+    "source:ABU0689"
+   ],
+   "relation": "adjacent",
+   "why": "“Let your deeds be the real translation of their meaning.” Paul tells the Corinthians that they themselves are his letter, written on hearts and read by everyone. In both, a life is the text that other people actually read."
+  },
+  {
+   "id": "marx-opium-of-the-people",
+   "after": "source:ABU0790",
+   "responds": [
+    "source:ABU0790",
+    "source:ABU0503"
+   ],
+   "relation": "contrast",
+   "why": "The reading speaks of religion as a physician’s “healing remedies”, and a later one of “consolation for the whole world”. Marx grants the consolation and calls it an opiate: the sigh of the oppressed, which eases the pain and leaves its cause. What would show that a remedy heals and does not merely soothe?"
+  },
+  {
+   "id": "acts-cornelius-memorial",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "adjacent",
+   "why": "The reading supposes that anyone guided to the truth had first done “some deed”, unaware of its weight, that God made the means. Acts tells such a story: before Cornelius has heard the message, an angel tells him that his prayers and alms have been remembered."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "contrast",
+   "why": "The reading traces a person’s recognition of the truth to an earlier deed of their own. The Letter to the Ephesians excludes exactly that: faith is a gift, “not of works, lest any man should boast”. Does the reading’s “be thankful” guard against the boasting Paul fears?"
+  },
+  {
+   "id": "analects-north-polar-star",
+   "after": "source:AB02523",
+   "responds": [
+    "source:AB02523"
+   ],
+   "relation": "adjacent",
+   "why": "“No nation can attain prosperity and success save through the refinement of morals.” Confucius puts the same claim as an image of rule: one who governs by virtue is like the pole star, which stays in its place while the others turn towards it."
+  },
+  {
+   "id": "job-eyes-to-the-blind",
+   "after": "source:AB06435",
+   "responds": [
+    "source:AB06435"
+   ],
+   "relation": "adjacent",
+   "why": "The reading is a list of what to be for others: a refuge to the fearful, water to the thirsty, a medicine to the sick. Job describes his former life in the same grammar: eyes to the blind, feet to the lame, a father to the poor."
+  },
+  {
+   "id": "blake-little-black-boy",
+   "after": "source:AB10201",
+   "responds": [
+    "source:AB10201"
+   ],
+   "relation": "complement",
+   "why": "The letter tells a believer who is “dark in countenance” that he is like the pupil of the eye, dark and “the fount of light”. Blake’s child can only say that his soul is white: he honours himself in the colours of those who despise him. What does the reading’s image change in how darkness itself is spoken of?"
+  },
+  {
+   "id": "matthew-thy-kingdom-come",
+   "after": "source:AB03158",
+   "responds": [
+    "source:AB03158"
+   ],
+   "relation": "adjacent",
+   "why": "The duty in the reading runs on “until ye change the world of man into the world of God”. The Lord’s Prayer asks for the same end, the will of God done on earth as in heaven; the reading puts it into the hands of those who pray."
+  },
+  {
+   "id": "samuel-looketh-on-the-heart",
+   "after": "source:AB08135",
+   "responds": [
+    "source:AB08135"
+   ],
+   "relation": "adjacent",
+   "why": "If the heart is filled with light, the reading says, a person is near to God, “be he white or be he black”. Samuel is told the same when he is sent to choose a king from among brothers: people look at the outside, and the Lord at the heart."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:ABU0350",
+   "responds": [
+    "source:ABU0350"
+   ],
+   "relation": "adjacent",
+   "why": "The talk measures a Bahá’í house by what its members do: tend the sick, raise the fallen, care for the poor. The Letter of James defines religion itself that way, by the visiting of orphans and widows, and adds keeping oneself unspotted."
+  },
+  {
+   "id": "kant-crooked-material",
+   "after": "source:ABU0350",
+   "responds": [
+    "source:ABU0350"
+   ],
+   "relation": "contrast",
+   "why": "The members are to live so “that the world may know that a Bahá’í is a perfect being”. Kant, thinking about how any human society can be governed justly, concludes that the material will not allow it: nothing quite straight is made from it. Is perfection here a claim about people, or a direction to work in?"
+  },
+  {
+   "id": "ecclesiastes-sorrow-better",
+   "after": "source:ABU1113",
+   "responds": [
+    "source:ABU1113"
+   ],
+   "relation": "contrast",
+   "why": "The reading asks believers to wear “smiling happy faces” so that others are cheered. The Preacher holds that sorrow is better than laughter, because a sad face makes the heart better. When is a cheerful face a gift to others, and when does it hide what the house of mourning teaches?"
+  },
+  {
+   "id": "burke-little-platoon",
+   "after": "source:ABU1724",
+   "responds": [
+    "source:ABU1724"
+   ],
+   "relation": "contrast",
+   "why": "The reading’s bird “attaches not its heart to its earth nest and abode”. Burke argues that love begins in the nest: attachment to the small group we belong to is the first link in the chain that reaches the love of mankind. Can the wider love be had without the nearer one?"
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU1896",
+   "responds": [
+    "source:ABU1896"
+   ],
+   "relation": "adjacent",
+   "why": "“Do the Will of God, do not only speak about it”, and take an interest in everyone and “find out how you can help them”. The First Letter of John makes the same demand with a hard case: one who sees a brother in need and shuts his heart."
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:ABU2111",
+   "responds": [
+    "source:ABU2111"
+   ],
+   "relation": "adjacent",
+   "why": "When ploughing, sowing or reaping, the reading says, “your hands and feet will be working but your heart must be attached to the Almighty”. Herbert prays for exactly this, and his example is as plain as the plough: sweeping a room."
+  },
+  {
+   "id": "matthew-lord-lord",
+   "after": "source:ABU3601",
+   "responds": [
+    "source:ABU3601",
+    "source:AB00336"
+   ],
+   "relation": "adjacent",
+   "why": "“Our actions reveal what we are, no matter what the tongue speaks.” The Sermon on the Mount says the same of those who call “Lord, Lord”: what counts is the doing of the Father’s will."
+  },
+  {
+   "id": "genesis-jacobs-ladder",
+   "after": "source:BH00594",
+   "responds": [
+    "source:BH00594"
+   ],
+   "relation": "adjacent",
+   "why": "Goodly deeds and character are called “God’s ladder among His creation”, by which every soul ascends. Jacob dreamed the ladder, set on earth and reaching heaven; in Genesis it is angels who go up and down it, and the dreamer has done nothing to deserve the sight."
+  },
+  {
+   "id": "quran-small-kindnesses",
+   "after": "source:BH00788",
+   "responds": [
+    "source:BH00788"
+   ],
+   "relation": "adjacent",
+   "why": "“Close not … to the face of the poor, the portals of bounty.” A short chapter of the Qur’an makes the same thing the test of religion: the one who denies the faith is the one who pushes the orphan away and does not urge the feeding of the needy."
+  },
+  {
+   "id": "machiavelli-armed-prophets",
+   "after": "source:BH01577",
+   "responds": [
+    "source:BH01577"
+   ],
+   "relation": "contrast",
+   "why": "“Goodly character is accounted as the mightiest of hosts in the world.” Machiavelli, reviewing the founders of states and faiths, reached the contrary finding: the armed prophets conquered and the unarmed were destroyed. What kind of victory does each have in view?"
+  },
+  {
+   "id": "romans-overcome-evil",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "adjacent",
+   "why": "“Beware lest any of you seek vengeance, even against one who is thirsting for your blood.” Paul forbids vengeance in the same absolute terms and tells his readers to feed the enemy; he leaves the repaying to God, which the reading does not mention."
+  },
+  {
+   "id": "analects-injury-with-justice",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "contrast",
+   "why": "The reading forbids offending even “an evil-doer” who wishes one ill, and asks prayers for all. Confucius, asked whether injury should be met with kindness, wanted to know what would then be left to repay kindness with, and answered: justice. What does justice lose when harm is always met with blessing?"
+  },
+  {
+   "id": "marcus-promontory",
+   "after": "source:AB00874",
+   "responds": [
+    "source:AB00874"
+   ],
+   "relation": "adjacent",
+   "why": "“Be ye anchored fast as the high mountains”, unshaken by any calamity. The Stoic emperor gives himself the same order with a headland in place of the mountain, and adds the thought that makes it possible: it is good fortune to bear this without being crushed."
+  },
+  {
+   "id": "blake-road-of-excess",
+   "after": "source:AB02936",
+   "responds": [
+    "source:AB02936"
+   ],
+   "relation": "contrast",
+   "why": "The reading asks the friends to “follow moderation in their conduct”. Blake’s devil has a proverb for the other party: wisdom lies at the end of the road of excess. What does moderation know that excess has to learn by going too far?"
+  },
+  {
+   "id": "dhammapada-against-the-wind",
+   "after": "source:ABU0619",
+   "responds": [
+    "source:ABU0619"
+   ],
+   "relation": "adjacent",
+   "why": "“The beautiful perfume of your noble lives will permeate everywhere.” The Dhammapada has the same perfume and says what is strange about it: the scent of flowers cannot travel against the wind, and that of a good life can."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:AB00036",
+   "responds": [
+    "source:AB00036"
+   ],
+   "relation": "adjacent",
+   "why": "The reading places man at the end of the arc of descent and says that on the arc of ascent “the degrees of progress are of a spiritual nature”. Rūmī tells the ascent as a series of deaths, from mineral to plant to animal to man, and then beyond what can be conceived."
+  },
+  {
+   "id": "wordsworth-world-too-much",
+   "after": "source:ABU0386",
+   "responds": [
+    "source:ABU0386"
+   ],
+   "relation": "adjacent",
+   "why": "“Let us turn our hearts away from the world of matter.” Wordsworth makes the same complaint of his own time: getting and spending, we have given our hearts away. He turns for a remedy to nature; the reading turns to the spiritual world."
+  },
+  {
+   "id": "john-not-out-of-the-world",
+   "after": "source:ABU0386",
+   "responds": [
+    "source:ABU0386"
+   ],
+   "relation": "complement",
+   "why": "The reading urges its hearers to “live in the spiritual world”, which alone gives freedom. In John’s Gospel Jesus prays for his followers with a careful limit: not that they be taken out of the world, but kept from its evil. How is the heart turned from the world of matter while the hands stay in it?"
+  },
+  {
+   "id": "donne-island",
+   "after": "source:BH01353",
+   "responds": [
+    "source:BH01353"
+   ],
+   "relation": "contrast",
+   "why": "“Regard the people of the world as dead and seek the fellowship of the living.” Donne, hearing a funeral bell, refuses to count anyone as outside himself: every death diminishes him. Whom does the reading’s sentence ask us to leave, and whom may it never permit us to leave?"
+  },
+  {
+   "id": "peter-add-to-your-faith",
+   "after": "source:ABU0112",
+   "responds": [
+    "source:ABU0112"
+   ],
+   "relation": "adjacent",
+   "why": "The reading counts seven means, from the knowledge of God to sanctity. The Second Letter of Peter builds a like stair, each step added to the last: virtue to faith, knowledge to virtue, and at the top charity."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:BH00704",
+   "responds": [
+    "source:BH00704"
+   ],
+   "relation": "adjacent",
+   "why": "“Ye are … the stars of His bountiful care amidst His servants”, through whom knowledge dawned. The Sermon on the Mount tells a crowd of followers the same of themselves, and draws the duty from it: a lit candle is not put under a bushel."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:AB00476",
+   "responds": [
+    "source:AB00476"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls material felicity “wholly secondary” and sets human exaltation in virtues and attainments. Mill reaches a like ranking from a philosophy that begins with pleasure alone: it is better to be Socrates dissatisfied than a fool satisfied."
+  },
+  {
+   "id": "matthew-house-on-the-rock",
+   "after": "source:AB06732",
+   "responds": [
+    "source:AB06732"
+   ],
+   "relation": "adjacent",
+   "why": "The letter hopes its reader will “erect a structure that shall eternally remain firm and unshakable”. The Sermon on the Mount ends with that building: the house on rock, which is the life of one who hears the sayings and does them."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:AB06732",
+   "responds": [
+    "source:AB06732"
+   ],
+   "relation": "contrast",
+   "why": "The reading hopes for a structure that stands for ever. Shelley’s traveller reports what is left of the grandest building a king could command: a pedestal, a boast, and sand. What kind of structure is the reading speaking of, if this is the fate of stone?"
+  },
+  {
+   "id": "quran-good-deeds-endure",
+   "after": "source:AB05801",
+   "responds": [
+    "source:AB05801"
+   ],
+   "relation": "adjacent",
+   "why": "The letter sets one “gain that shall eternally endure” against all others. The Qur’an draws the same line through a household: wealth and children are the ornament of this life, and the good deeds that last are better."
+  },
+  {
+   "id": "quran-peace-on-the-guided",
+   "after": "source:BB00486",
+   "responds": [
+    "source:BB00486"
+   ],
+   "relation": "adjacent",
+   "why": "“May the peace of God be with those who have been guided aright.” The greeting is the Qur’an’s own, from the message Moses and Aaron carry to Pharaoh: peace upon whoever follows right guidance."
+  },
+  {
+   "id": "dhammapada-purify-oneself",
+   "after": "source:ABU0626",
+   "responds": [
+    "source:ABU0626"
+   ],
+   "relation": "contrast",
+   "why": "The soul does not advance by a law, says the reading, but “by the Mercy and Bounty of God”. The Dhammapada states the law the reading sets aside: by oneself evil is done and by oneself one is purified, and no one can purify another. What is left for effort to do, if nearness is given?"
+  },
+  {
+   "id": "john-living-water",
+   "after": "source:BH11455",
+   "responds": [
+    "source:BH11455"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever drinks “the waters of My Revelation” will taste delights without end. At a well in Samaria Jesus makes the same offer to one woman: water after which no one thirsts again, a spring rising to everlasting life."
+  },
+  {
+   "id": "shakespeare-revels-ended",
+   "after": "source:BH02699",
+   "responds": [
+    "source:BH02699"
+   ],
+   "relation": "adjacent",
+   "why": "The reading says that anyone with eyes can see “how evanescent” the world’s colours are. Prospero says it as his masque vanishes: towers, palaces, temples and the globe itself will dissolve like the pageant. He ends in sleep; the reading goes on to a new life stirring."
+  },
+  {
+   "id": "keats-thing-of-beauty",
+   "after": "source:BH02699",
+   "responds": [
+    "source:BH02699"
+   ],
+   "relation": "contrast",
+   "why": "For the reading the gay livery of the world is evanescent and a distraction from the call. Keats begins a long poem by denying it of beauty: a lovely thing never passes into nothingness, and it binds us to the earth. Is the loveliness Keats trusts part of the livery, or something the reading would also keep?"
+  }
+ ],
+ "leftOut": [
+  {
+   "saying": "“We have returned from the lesser jihad to the greater jihad.”",
+   "attributed": "Widely quoted as a saying of Muḥammad.",
+   "reason": "Wanted beside the reading that turns doing battle into going out “weaponed with pure intent”, and left out: it is not in the canonical collections and has no page of a recognized collection to cut it from. Dhammapada 103 stands there instead."
+  }
+ ],
+ "library": {
+  "hebrews-strangers-and-pilgrims": {
+   "text": "These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth … But now they desire a better country, that is, an heavenly",
+   "work": "Hebrews 11:13–16",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2011%3A13-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-in-the-morning": {
+   "text": "My voice shalt thou hear in the morning, O Lord; in the morning will I direct my prayer unto thee, and will look up",
+   "work": "Psalm 5:3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%205%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-sower": {
+   "text": "Behold, a sower went forth to sow; And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up … But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold",
+   "work": "Matthew 13:3–8",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2013%3A3-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-image-and-likeness": {
+   "text": "And God said, Let us make man in our image, after our likeness … So God created man in his own image, in the image of God created he him; male and female created he them",
+   "work": "Genesis 1:26–27",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%201%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-peter-on-the-water": {
+   "text": "And Peter answered him and said, Lord, if it be thou, bid me come unto thee on the water. And he said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus. But when he saw the wind boisterous, he was afraid; and beginning to sink, he cried, saying, Lord, save me. And immediately Jesus stretched forth his hand, and caught him, and said unto him, O thou of little faith, wherefore didst thou doubt",
+   "work": "Matthew 14:28–31",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2014%3A28-31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-create-evil": {
+   "text": "I form the light, and create darkness: I make peace, and create evil: I the Lord do all these things",
+   "work": "Isaiah 45:7",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2045%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-beginning-of-wisdom": {
+   "text": "The fear of the Lord is the beginning of wisdom: and the knowledge of the holy is understanding",
+   "work": "Proverbs 9:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%209%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-epistle-love-casteth-out-fear": {
+   "text": "There is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love",
+   "work": "1 John 4:18",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-by-searching": {
+   "text": "Canst thou by searching find out God? canst thou find out the Almighty unto perfection? It is as high as heaven; what canst thou do? deeper than hell; what canst thou know",
+   "work": "Job 11:7–8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2011%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-tree-by-the-rivers": {
+   "text": "And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper",
+   "work": "Psalm 1:3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%201%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-when-thou-risest-up": {
+   "text": "And these words, which I command thee this day, shall be in thine heart: And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up",
+   "work": "Deuteronomy 6:6–7",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-by-their-fruits": {
+   "text": "Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles? Even so every good tree bringeth forth good fruit; but a corrupt tree bringeth forth evil fruit. A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit",
+   "work": "Matthew 7:16–18",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%207%3A16-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-good-that-i-would": {
+   "text": "for to will is present with me; but how to perform that which is good I find not. For the good that I would I do not: but the evil which I would not, that I do",
+   "work": "Romans 7:18–19",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%207%3A18-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-revile-you": {
+   "text": "Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you",
+   "work": "Matthew 5:11–12",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-alms-before-men": {
+   "text": "Take heed that ye do not your alms before men, to be seen of them: otherwise ye have no reward of your Father which is in heaven",
+   "work": "Matthew 6:1",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%206%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-women-keep-silence": {
+   "text": "Let your women keep silence in the churches: for it is not permitted unto them to speak; but they are commanded to be under obedience as also saith the law. And if they will learn any thing, let them ask their husbands at home: for it is a shame for women to speak in the church",
+   "work": "1 Corinthians 14:34–35",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2014%3A34-35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-living-epistle": {
+   "text": "Ye are our epistle written in our hearts, known and read of all men: Forasmuch as ye are manifestly declared to be the epistle of Christ ministered by us, written not with ink, but with the Spirit of the living God; not in tables of stone, but in fleshy tables of the heart",
+   "work": "2 Corinthians 3:2–3",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%203%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-cornelius-memorial": {
+   "text": "He saw in a vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius. And when he looked on him, he was afraid, and said, What is it, Lord? And he said unto him, Thy prayers and thine alms are come up for a memorial before God",
+   "work": "Acts 10:3–4",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2010%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-not-of-works": {
+   "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast",
+   "work": "Ephesians 2:8–9",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%202%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-eyes-to-the-blind": {
+   "text": "I was eyes to the blind, and feet was I to the lame. I was a father to the poor: and the cause which I knew not I searched out",
+   "work": "Job 29:15–16",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2029%3A15-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-looketh-on-the-heart": {
+   "text": "for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart",
+   "work": "1 Samuel 16:7",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2016%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-pure-religion": {
+   "text": "Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, and to keep himself unspotted from the world",
+   "work": "James 1:27",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%201%3A27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-sorrow-better": {
+   "text": "Sorrow is better than laughter: for by the sadness of the countenance the heart is made better. The heart of the wise is in the house of mourning; but the heart of fools is in the house of mirth",
+   "work": "Ecclesiastes 7:3–4",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%207%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-epistle-in-deed": {
+   "text": "But whoso hath this world's good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him? My little children, let us not love in word, neither in tongue; but in deed and in truth",
+   "work": "1 John 3:17–18",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-overcome-evil": {
+   "text": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord. Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head. Be not overcome of evil, but overcome evil with good",
+   "work": "Romans 12:19–21",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2012%3A19-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-not-out-of-the-world": {
+   "text": "I pray not that thou shouldest take them out of the world, but that thou shouldest keep them from the evil. They are not of the world",
+   "work": "John 17:15–16",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2017%3A15-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-add-to-your-faith": {
+   "text": "giving all diligence, add to your faith virtue; and to virtue knowledge; And to knowledge temperance; and to temperance patience; and to patience godliness; And to godliness brotherly kindness; and to brotherly kindness charity",
+   "work": "2 Peter 1:5–7",
+   "year": "c. 80–130 CE",
+   "sortYear": 110,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Peter%201%3A5-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-light-of-the-world": {
+   "text": "Ye are the light of the world. A city that is set on an hill cannot be hid. Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house. Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven",
+   "work": "Matthew 5:14–16",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A14-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-house-on-the-rock": {
+   "text": "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock",
+   "work": "Matthew 7:24–25",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%207%3A24-25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-living-water": {
+   "text": "Whosoever drinketh of this water shall thirst again: But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life",
+   "work": "John 4:13–14",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%204%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-created-to-worship": {
+   "text": "I created the jinn and humankind only that they might worship Me.",
+   "work": "Qur’an 51:56",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=51&verse=56",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-hands-speak": {
+   "text": "This day We seal up their mouths, and their hands speak out to Us and their feet bear witness as to what they used to earn.",
+   "work": "Qur’an 36:65",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=36&verse=65",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-call-with-wisdom": {
+   "text": "Call unto the way of thy Lord with wisdom and fair exhortation, and reason with them in the better way. Lo! thy Lord is Best Aware of him who strayeth from His way, and He is Best Aware of those who go aright.",
+   "work": "Qur’an 16:125",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=125",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-good-deeds-endure": {
+   "text": "Wealth and children are an ornament of the life of the world. But the good deeds which endure are better in thy Lord's sight for reward, and better in respect of hope.",
+   "work": "Qur’an 18:46",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=18&verse=46",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-peace-on-the-guided": {
+   "text": "So go ye unto him and say: Lo! we are two messengers of thy Lord. So let the children of Israel go with us, and torment them not. We bring thee a token from thy Lord. And peace will be for him who followeth right guidance.",
+   "work": "Qur’an 20:47",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=20&verse=47",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-small-kindnesses": {
+   "text": "Hast thou observed him who belieth religion? That is he who repelleth the orphan, And urgeth not the feeding of the needy",
+   "work": "Qur’an 107:1–3",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-quality-of-mercy": {
+   "text": "The quality of mercy is not strain'd, / It droppeth as the gentle rain from heaven / Upon the place beneath: it is twice blest; / It blesseth him that gives and him that takes: / 'Tis mightiest in the mightiest",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Merchant of Venice",
+   "locator": "Act IV, scene 1",
+   "year": "c. 1596–98",
+   "sortYear": 1597,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/merchant/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1600."
+   }
+  },
+  "shakespeare-devil-cite-scripture": {
+   "text": "The devil can cite Scripture for his purpose. / An evil soul producing holy witness / Is like a villain with a smiling cheek, / A goodly apple rotten at the heart",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Merchant of Venice",
+   "locator": "Act I, scene 3",
+   "year": "c. 1596–98",
+   "sortYear": 1597,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/merchant/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1600."
+   }
+  },
+  "shakespeare-uses-of-adversity": {
+   "text": "Sweet are the uses of adversity, / Which, like the toad, ugly and venomous, / Wears yet a precious jewel in his head; / And this our life exempt from public haunt / Finds tongues in trees, books in the running brooks, / Sermons in stones and good in every thing",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "As You Like It",
+   "locator": "Act II, scene 1",
+   "year": "c. 1599",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/asyoulikeit/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1623."
+   }
+  },
+  "shakespeare-good-name": {
+   "text": "Good name in man and woman, dear my lord, / Is the immediate jewel of their souls: / Who steals my purse steals trash; 'tis something, nothing; / 'Twas mine, 'tis his, and has been slave to thousands: / But he that filches from me my good name / Robs me of that which not enriches him / And makes me poor indeed",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Othello",
+   "locator": "Act III, scene 3",
+   "year": "c. 1603–04",
+   "sortYear": 1604,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/othello/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1622."
+   }
+  },
+  "aristotle-beast-or-god": {
+   "text": "But he who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god: he is no part of a state",
+   "author": "Aristotle",
+   "work": "Politics",
+   "locator": "I.2 (1253a)",
+   "year": "4th century BCE",
+   "sortYear": -335,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1885",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/politics.1.one.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "shakespeare-revels-ended": {
+   "text": "Our revels now are ended. These our actors, / As I foretold you, were all spirits and / Are melted into air, into thin air: / And, like the baseless fabric of this vision, / The cloud-capp'd towers, the gorgeous palaces, / The solemn temples, the great globe itself, / Ye all which it inherit, shall dissolve / And, like this insubstantial pageant faded, / Leave not a rack behind. We are such stuff / As dreams are made on, and our little life / Is rounded with a sleep",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Tempest",
+   "locator": "Act IV, scene 1",
+   "year": "c. 1610–11",
+   "sortYear": 1611,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/tempest/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1623."
+   }
+  },
+  "analects-north-polar-star": {
+   "text": "He who exercises government by means of his virtue may be compared to the north polar star, which keeps its place and all the stars turn towards it",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "2.1",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "milton-reign-in-hell": {
+   "text": "Here at least / We shall be free; th' Almighty hath not built / Here for his envy, will not drive us hence: / Here we may reign secure; and, in my choice, / To reign is worth ambition, though in Hell: / Better to reign in Hell than serve in Heaven",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "I.258–263",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/Book_I",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1667."
+   }
+  },
+  "pope-proper-study": {
+   "text": "Know then thyself, presume not God to scan; / The proper study of mankind is man",
+   "verse": true,
+   "author": "Alexander Pope",
+   "work": "An Essay on Man",
+   "locator": "Epistle II, lines 1–2",
+   "year": "1733",
+   "sortYear": 1733,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/An_Essay_on_Man/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+"
+    ],
+    "repair": [
+     [
+      "KNOW",
+      "Know"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1744."
+   }
+  },
+  "marcus-promontory": {
+   "text": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it. Unhappy am I because this has happened to me? Not so, but happy am I, though this has happened to me, because I continue free from pain, neither crushed by the present nor fearing the future",
+   "author": "Marcus Aurelius",
+   "work": "Meditations",
+   "locator": "IV.49",
+   "year": "c. 170–180 CE",
+   "sortYear": 175,
+   "translator": "George Long",
+   "translationYear": "1862",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_IV",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1879."
+   }
+  },
+  "mill-socrates-dissatisfied": {
+   "text": "It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied. And if the fool, or the pig, are of a different opinion, it is because they only know their own side of the question. The other party to the comparison knows both sides",
+   "author": "John Stuart Mill",
+   "work": "Utilitarianism",
+   "locator": "chapter 2",
+   "year": "1863",
+   "sortYear": 1863,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1873."
+   }
+  },
+  "heraclitus-character-fate": {
+   "text": "Man's character is his fate",
+   "author": "Heraclitus",
+   "work": "Fragments",
+   "locator": "fragment 119 (Diels); 121 in Burnet",
+   "year": "c. 500 BCE",
+   "sortYear": -500,
+   "translator": "John Burnet",
+   "translationYear": "1892",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Fragments_of_Heraclitus",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1928."
+   }
+  },
+  "milton-cloistered-virtue": {
+   "text": "I cannot praise a fugitive and cloister'd vertue, unexercis'd & unbreath'd, that never sallies out and sees her adversary, but slinks out of the race, where that immortall garland is to be run for, not without dust and heat",
+   "author": "John Milton",
+   "work": "Areopagitica",
+   "year": "1644",
+   "sortYear": 1644,
+   "tradition": "European literature and thought",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Areopagitica_(1644)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1644."
+   },
+   "caveat": "In the spelling of 1644."
+  },
+  "dhammapada-conquer-himself": {
+   "text": "If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors",
+   "work": "Dhammapada",
+   "locator": "verse 103",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "dhammapada-against-the-wind": {
+   "text": "The scent of flowers does not travel against the wind, nor (that of) sandal-wood, or of Tagara and Mallika flowers; but the odour of good people travels even against the wind; a good man pervades every place",
+   "work": "Dhammapada",
+   "locator": "verse 54",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "blake-road-of-excess": {
+   "text": "The road of excess leads to the palace of wisdom",
+   "author": "William Blake",
+   "work": "The Marriage of Heaven and Hell",
+   "locator": "Proverbs of Hell",
+   "year": "c. 1790–93",
+   "sortYear": 1790,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Marriage_of_Heaven_and_Hell",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "winthrop-city-upon-a-hill": {
+   "text": "For wee must consider that wee shall be as a citty upon a hill. The eies of all people are uppon us. Soe that if wee shall deale falsely with our God in this worke wee haue undertaken, and soe cause him to withdrawe his present help from us, wee shall be made a story and a by-word through the world",
+   "author": "John Winthrop",
+   "work": "A Model of Christian Charity",
+   "locator": "sermon on board the Arbella",
+   "year": "1630",
+   "sortYear": 1630,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/A_Model_of_Christian_Charity",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1649."
+   },
+   "caveat": "In the spelling of the manuscript as first printed."
+  },
+  "epictetus-as-they-happen": {
+   "text": "Don't demand that things happen as you wish, but wish that they happen as they do happen, and you will go on well",
+   "author": "Epictetus",
+   "work": "Enchiridion",
+   "locator": "8",
+   "year": "c. 125 CE",
+   "sortYear": 125,
+   "translator": "Elizabeth Carter",
+   "translationYear": "1758",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Epictetus/epicench.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1806."
+   },
+   "caveat": "The page gives Elizabeth Carter’s translation in modernized wording."
+  },
+  "analects-examine-myself": {
+   "text": "I daily examine myself on three points: whether, in transacting business for others, I may have been not faithful; whether, in intercourse with friends, I may have been not sincere; whether I may have not mastered and practiced the instructions of my teacher",
+   "author": "Zengzi",
+   "work": "Analects",
+   "locator": "1.4",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "repair": [
+     [
+      "points:-whether",
+      "points: whether"
+     ],
+     [
+      "faithful;-whether",
+      "faithful; whether"
+     ],
+     [
+      "sincere;-whether",
+      "sincere; whether"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   },
+   "caveat": "The speaker is the disciple Zeng Shen (“the philosopher Tsang”); the page’s dashes are omitted."
+  },
+  "plato-no-man-voluntarily": {
+   "text": "Then, I said, no man voluntarily pursues evil, or that which he thinks to be evil. To prefer evil to good is not in human nature; and when a man is compelled to choose one of two evils, no one will choose the greater when he may have the less",
+   "author": "Plato",
+   "work": "Protagoras",
+   "locator": "358c–d",
+   "year": "c. 380 BCE",
+   "sortYear": -380,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "thoreau-expectation-of-the-dawn": {
+   "text": "To be awake is to be alive. I have never yet met a man who was quite awake. How could I have looked him in the face? We must learn to reawaken and keep ourselves awake, not by mechanical aids, but by an infinite expectation of the dawn, which does not forsake us in our soundest sleep",
+   "author": "Henry David Thoreau",
+   "work": "Walden",
+   "locator": "“Where I Lived, and What I Lived For”",
+   "year": "1854",
+   "sortYear": 1854,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau/Where_I_Lived,_and_What_I_Lived_for",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1862."
+   }
+  },
+  "burns-mans-a-man": {
+   "text": "Is there, for honest poverty, / That hangs his head, and a' that? / The coward-slave, we pass him by, / We dare be poor for a' that! / For a' that, and a' that, / Our toils obscure, and a' that; / The rank is but the guinea stamp; / The man's the gowd for a' that",
+   "verse": true,
+   "author": "Robert Burns",
+   "work": "For a’ That and a’ That",
+   "year": "1795",
+   "sortYear": 1795,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Poetical_Works_of_Robert_Burns/For_a%27_that_and_a%27_that",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1796."
+   },
+   "currency": "Sung at the opening of the Scottish Parliament in 1999."
+  },
+  "herrick-rosebuds": {
+   "text": "Gather ye rosebuds while ye may, / Old time is still a-flying: / And this same flower that smiles to-day / To-morrow will be dying",
+   "verse": true,
+   "author": "Robert Herrick",
+   "work": "To the Virgins, to Make Much of Time",
+   "locator": "Hesperides",
+   "year": "1648",
+   "sortYear": 1648,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Hesperides_%26_Noble_Numbers/Hesperides/To_the_Virgins,_to_Make_Much_of_Time",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1674."
+   }
+  },
+  "blake-little-black-boy": {
+   "text": "My mother bore me in the southern wild, / And I am black, but O! my soul is white / White as an angel is the English child: / But I am black as if bereav'd of light",
+   "verse": true,
+   "author": "William Blake",
+   "work": "The Little Black Boy",
+   "locator": "Songs of Innocence",
+   "year": "1789",
+   "sortYear": 1789,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Songs_of_Innocence_and_of_Experience_(1826)/Songs_of_Innocence/The_Little_Black_Boy",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "machiavelli-armed-prophets": {
+   "text": "Hence it is that all armed prophets have conquered, and the unarmed ones have been destroyed",
+   "author": "Niccolò Machiavelli",
+   "work": "The Prince",
+   "locator": "chapter 6",
+   "year": "1513; printed 1532",
+   "sortYear": 1513,
+   "translator": "W. K. Marriott",
+   "translationYear": "1908",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Chapter_6",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1927."
+   }
+  },
+  "bacon-no-dry-light": {
+   "text": "The human understanding is no dry light, but receives an infusion from the will and affections; whence proceed sciences which may be called “sciences as one would.” For what a man had rather were true he more readily believes",
+   "author": "Francis Bacon",
+   "work": "Novum Organum",
+   "locator": "Book I, aphorism 49",
+   "year": "1620",
+   "sortYear": 1620,
+   "translator": "James Spedding and others",
+   "translationYear": "1858",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Novum_Organum/Book_I_(Spedding)",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "repair": [
+     [
+      "a man; had",
+      "a man had"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1858; Spedding d. 1881."
+   }
+  },
+  "bunyan-wilderness-of-this-world": {
+   "text": "As I walked through the wilderness of this world, I lighted on a certain place where was a den, and laid me down in that place to sleep; and as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back",
+   "author": "John Bunyan",
+   "work": "The Pilgrim’s Progress",
+   "locator": "Part I, opening",
+   "year": "1678",
+   "sortYear": 1678,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Pilgrim%27s_Progress_(1909)/Book_1/Chapter_1",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\[1\\]"
+    ],
+    "repair": [
+     [
+      "AS I",
+      "As I"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1688."
+   }
+  },
+  "aristotle-by-doing-just-acts": {
+   "text": "For the things we have to learn before we can do them, we learn by doing them, e.g. men become builders by building and lyre-players by playing the lyre; so too we become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts",
+   "author": "Aristotle",
+   "work": "Nicomachean Ethics",
+   "locator": "II.1 (1103a–b)",
+   "year": "4th century BCE",
+   "sortYear": -330,
+   "translator": "W. D. Ross",
+   "translationYear": "1925",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Ross)/Book_Two",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "1103b"
+    ]
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation published 1925; translator d. 1971."
+   }
+  },
+  "franklin-moral-perfection": {
+   "text": "It was about this time that I conceiv’d the bold and arduous Project of arriving at moral Perfection. I wish’d to live without committing any Fault at any time; I would conquer all that either Natural Inclination, Custom, or Company might lead me into. As I knew, or thought I knew, what was right and wrong, I did not see why I might not always do the one and avoid the other … But I soon found I had undertaken a Task of more Difficulty than I had imagined",
+   "author": "Benjamin Franklin",
+   "work": "Autobiography",
+   "locator": "Part Two",
+   "year": "written 1784",
+   "sortYear": 1784,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Autobiography_of_Benjamin_Franklin/Section_Thirty_Six",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1790."
+   }
+  },
+  "wordsworth-world-too-much": {
+   "text": "The world is too much with us; late and soon, / Getting and spending, we lay waste our powers: / Little we see in nature that is ours; / We have given our hearts away, a sordid boon",
+   "verse": true,
+   "author": "William Wordsworth",
+   "work": "“The world is too much with us”",
+   "year": "1807",
+   "sortYear": 1807,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems,_in_Two_Volumes_(Wordsworth,_1807)/Volume_1/The_world_is_too_much_with_us;_late_and_soon",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "​"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1850."
+   }
+  },
+  "augustine-absence-of-good": {
+   "text": "For what is that which we call evil but the absence of good? In the bodies of animals, disease and wounds mean nothing but the absence of health",
+   "author": "Augustine of Hippo",
+   "work": "Enchiridion",
+   "locator": "chapter 11",
+   "year": "c. 420 CE",
+   "sortYear": 420,
+   "translator": "J. F. Shaw",
+   "translationYear": "1887",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/1302.htm",
+    "label": "New Advent",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1887."
+   }
+  },
+  "marx-opium-of-the-people": {
+   "text": "Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people",
+   "author": "Karl Marx",
+   "work": "A Contribution to the Critique of Hegel’s Philosophy of Right",
+   "locator": "Introduction",
+   "year": "1844",
+   "sortYear": 1844,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.marxists.org/archive/marx/works/1843/critique-hpr/intro.htm",
+    "label": "Marxists Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation; two sentences."
+   }
+  },
+  "kant-crooked-material": {
+   "text": "Out of such crooked material as man is made of, nothing can be hammered quite straight",
+   "author": "Immanuel Kant",
+   "work": "Idea for a Universal History from a Cosmopolitan Point of View",
+   "locator": "Sixth Proposition",
+   "year": "1784",
+   "sortYear": 1784,
+   "translator": "W. Hastie",
+   "translationYear": "1891",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://archive.org/stream/kantsprincipleso00kant_0/kantsprincipleso00kant_0_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "repair": [
+     [
+      "made of. nothing",
+      "made of, nothing"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1903."
+   },
+   "currency": "Better known in Isaiah Berlin’s wording, “the crooked timber of humanity”.",
+   "caveat": "Copied from a scanned book, in which a comma was misread as a full stop; it is restored here."
+  },
+  "matthew-whited-sepulchres": {
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness. Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity",
+   "work": "Matthew 23:27–28",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2023%3A27-28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-lord-lord": {
+   "text": "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven",
+   "work": "Matthew 7:21",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%207%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "king-content-of-character": {
+   "text": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character",
+   "author": "Martin Luther King Jr.",
+   "work": "I Have a Dream",
+   "locator": "Washington, 28 August 1963",
+   "year": "1963",
+   "sortYear": 1963,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://www.npr.org/2010/01/18/122701268/i-have-a-dream-speech-in-its-entirety",
+    "label": "NPR",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Author d. 1968; one sentence."
+   }
+  },
+  "keats-thing-of-beauty": {
+   "text": "A thing of beauty is a joy for ever: / Its loveliness increases; it will never / Pass into nothingness; but still will keep / A bower quiet for us, and a sleep / Full of sweet dreams, and health, and quiet breathing",
+   "verse": true,
+   "author": "John Keats",
+   "work": "Endymion",
+   "locator": "Book I, lines 1–5",
+   "year": "1818",
+   "sortYear": 1818,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_complete_poetical_works_and_letters_of_John_Keats/Endymion",
+    "label": "Wikisource",
+    "checked": "2026-11-16",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1821."
+   }
+  },
+  "hadith-perfect-good-character": {
+   "text": "I was sent to perfect good character",
+   "author": "Muḥammad",
+   "work": "Muwaṭṭaʾ of Mālik",
+   "locator": "Book 47, no. 8",
+   "year": "7th century; collected in the 8th",
+   "sortYear": 630,
+   "translator": "Aisha Bewley",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://sunnah.com/malik/47/8",
+    "label": "Sunnah.com",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "fetch": "browser"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation; one sentence."
+   },
+   "caveat": "Mālik reports it as something he had heard, without a chain of narrators."
+  },
+  "tao-he-who-knows": {
+   "text": "He who knows (the Tâo) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 56",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://archive.org/stream/in.ernet.dli.2015.499132/2015.499132.sacred-books_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "repair": [
+     [
+      "T io",
+      "Tâo"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   },
+   "caveat": "Copied from a scanned book, in which the printed Tâo was misread; it is restored here. The words in brackets are the translator’s."
+  },
+  "corinthians-same-spirit": {
+   "text": "Now there are diversities of gifts, but the same Spirit. And there are differences of administrations, but the same Lord. And there are diversities of operations, but it is the same God which worketh all in all",
+   "work": "1 Corinthians 12:4–6",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2012%3A4-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-train-up-a-child": {
+   "text": "Train up a child in the way he should go: and when he is old, he will not depart from it",
+   "work": "Proverbs 22:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2022%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-16",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
