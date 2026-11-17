@@ -1,0 +1,843 @@
+{
+ "format": 2,
+ "slug": "divinenames",
+ "subject": "9AB88215A3AC410692D350AE3BEB3A54",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 39,
+ "quotations": 44,
+ "kept": [
+  "source:AB00020",
+  "source:BH01231",
+  "source:BB00054",
+  "source:BB00088",
+  "source:BB00214",
+  "source:BB00047",
+  "source:BH00271",
+  "source:AB00105",
+  "source:ABU0590",
+  "source:AB00006",
+  "source:AB00013",
+  "source:AB06442",
+  "source:ABU1392",
+  "source:BB00130",
+  "source:BB00032",
+  "source:AB05549",
+  "source:BB00005",
+  "source:BH00409",
+  "source:BH00007",
+  "source:BH00002",
+  "source:BH01148",
+  "source:BB00001",
+  "source:BB00078",
+  "source:BB00090",
+  "source:AB00695",
+  "source:AB00077",
+  "source:ABU0049",
+  "source:ABU0403",
+  "source:ABU0810",
+  "source:ABU2668",
+  "source:AB06359",
+  "source:BH01427",
+  "source:BH00657",
+  "source:BH04736",
+  "source:BH10338",
+  "source:BB00043",
+  "source:BB00238",
+  "source:BH07721",
+  "source:BH06510"
+ ],
+ "introduction": "These readings are about the names and attributes of God. The Essence, they say, is beyond every name; the names were created so that people might know Him through them; each is like a sun, and each is fully shown only in the Manifestation; and names such as Creator and Provider call for a creation in which to appear. A few readings turn to conduct: a name grieved by what the faithful say, names as gateways to mercy and order. Beside them stand the scriptures in which God names Himself or withholds the name, the Qur’an's most beautiful names, and Plato, Confucius and the Vedic hymn on what names are. The Tao that cannot be named, Aristotle's God who thinks only Himself, the psalm's from everlasting to everlasting, and Juliet's rose put questions to the readings.",
+ "questions": [
+  "The readings say the names were given so that we might know God through them, while His Essence remains beyond them. Which name of God means most to you, and what does it tell you?",
+  "One reading warns against describing God by our own attributes. How would you answer Xenophanes, who thought every creature imagines God in its own form?",
+  "The readings say names such as Creator require a creation; the psalm says God is God from everlasting. What do you make of the question?",
+  "The Rig Veda says the wise give many titles to what is One. How should that affect the way people of different religions hear one another's names for God?",
+  "Jesus asks his followers to be merciful as the Father is merciful. What would it mean to take one divine name as a pattern for a week?"
+ ],
+ "outside": [
+  {
+   "id": "quran-naught-is-as-his-likeness",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: naught is as His likeness, and He is the Hearer, the Seer."
+  },
+  {
+   "id": "exodus-i-am-hath-sent-me",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "When Moses asked what name he should give, God said unto him: I AM THAT I AM; say, I AM hath sent me unto you."
+  },
+  {
+   "id": "exodus-merciful-and-gracious",
+   "after": "source:BH01231",
+   "responds": [
+    "source:BH01231"
+   ],
+   "relation": "adjacent",
+   "why": "On Sinai the Lord proclaimed His own name: merciful and gracious, longsuffering, and abundant in goodness and truth."
+  },
+  {
+   "id": "proverbs-love-covereth-all-sins",
+   "after": "source:BH01231",
+   "responds": [
+    "source:BH01231"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that hatred stirreth up strifes, but love covereth all sins."
+  },
+  {
+   "id": "exodus-name-in-vain",
+   "after": "source:BB00054",
+   "responds": [
+    "source:BB00054"
+   ],
+   "relation": "adjacent",
+   "why": "The third commandment says: thou shalt not take the name of the Lord thy God in vain."
+  },
+  {
+   "id": "shakespeare-whats-in-a-name",
+   "after": "source:BB00054",
+   "responds": [
+    "source:BB00054"
+   ],
+   "relation": "complement",
+   "why": "Juliet asks what is in a name, since a rose by any other name would smell as sweet. What is the difference between honouring a name and knowing the one it names?"
+  },
+  {
+   "id": "plato-name-is-an-instrument",
+   "after": "source:BB00088",
+   "responds": [
+    "source:BB00088"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates concludes that a name is an instrument of teaching and of distinguishing natures."
+  },
+  {
+   "id": "analects-if-names-be-not-correct",
+   "after": "source:BB00088",
+   "responds": [
+    "source:BB00088"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that if names be not correct, language is not in accordance with the truth of things."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:BB00214",
+   "responds": [
+    "source:BB00214"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that if oxen and horses could paint, horses would paint the gods like horses, and oxen like oxen."
+  },
+  {
+   "id": "judges-why-askest-thou-my-name",
+   "after": "source:BB00047",
+   "responds": [
+    "source:BB00047"
+   ],
+   "relation": "adjacent",
+   "why": "When Manoah asked the angel his name, he was answered: why askest thou thus after my name, seeing it is secret?"
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BB00047",
+   "responds": [
+    "source:BB00047"
+   ],
+   "relation": "complement",
+   "why": "The Tao Te Ching says that the name that can be named is not the enduring and unchanging name. If the Essence is beyond every name, what do the names give us?"
+  },
+  {
+   "id": "quran-most-beautiful-names",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: unto God belong the most beautiful names, so call upon Him by them."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job: canst thou by searching find out God? Canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: such knowledge is too wonderful for me; it is high, I cannot attain unto it."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "source:ABU0590",
+   "responds": [
+    "source:ABU0590"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the invisible things of God, His eternal power and Godhead, are understood by the things that are made."
+  },
+  {
+   "id": "maimonides-not-two-or-more-but-one",
+   "after": "source:AB06442",
+   "responds": [
+    "source:AB06442"
+   ],
+   "relation": "adjacent",
+   "why": "Maimonides wrote that God is one, not in the way a body is divided into portions, but with a unity unlike any other."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "source:ABU1392",
+   "responds": [
+    "source:ABU1392"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks: to whom then will ye liken God, or what likeness will ye compare unto Him?"
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:BB00130",
+   "responds": [
+    "source:BB00130"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God says: my thoughts are not your thoughts, neither are your ways my ways."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:BB00130",
+   "responds": [
+    "source:BB00130"
+   ],
+   "relation": "contrast",
+   "why": "Genesis has God say: let us make man in our image, after our likeness. If human beings are made in God's likeness, in what sense can His attributes never resemble theirs?"
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB05549",
+   "responds": [
+    "source:AB05549"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see through a glass, darkly, and know in part."
+  },
+  {
+   "id": "john-manifested-thy-name",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "In John's Gospel Jesus prays: I have manifested Thy name unto the men which Thou gavest me."
+  },
+  {
+   "id": "philippians-name-above-every-name",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God has given him a name which is above every name."
+  },
+  {
+   "id": "isaiah-wonderful-counsellor",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah gives the names of the child to come: Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace."
+  },
+  {
+   "id": "revelation-name-no-man-knew",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "The seer of Revelation saw a rider who had a name written, that no man knew, but he himself."
+  },
+  {
+   "id": "genesis-wherefore-dost-thou-ask-my-name",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "Jacob asked the one he wrestled with for his name, and was answered: wherefore is it that thou dost ask after my name?"
+  },
+  {
+   "id": "isaiah-glory-not-give",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "complement",
+   "why": "In Isaiah God says: I am the Lord, that is my name, and my glory will I not give to another. How can names such as Lordship have manifestations in the world and still belong to God alone?"
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Colossians calls Christ the image of the invisible God."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews speaks of the brightness of God's glory and the express image of His person."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "source:BB00090",
+   "responds": [
+    "source:BB00090"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God taught Adam all the names, and then showed them to the angels."
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "contrast",
+   "why": "The psalm says: before the mountains were brought forth, or ever Thou hadst formed the earth, from everlasting to everlasting Thou art God. Does God need a creation in order to be what His names say?"
+  },
+  {
+   "id": "psalm-openest-thine-hand",
+   "after": "source:ABU0049",
+   "responds": [
+    "source:ABU0049"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: Thou openest Thine hand, and satisfiest the desire of every living thing."
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "contrast",
+   "why": "Aristotle held that the divine thought thinks only itself, since it is the most excellent of things. Which is the worthier idea of God: one who needs nothing outside Himself, or one whose names call for creatures?"
+  },
+  {
+   "id": "proverbs-multitude-of-people",
+   "after": "source:ABU0810",
+   "responds": [
+    "source:ABU0810"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that in the multitude of people is the king's honour, but in the want of people is the destruction of the prince."
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:ABU2668",
+   "responds": [
+    "source:ABU2668"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says: they call him Indra, Mitra, Varuna, Agni; to what is One, sages give many a title."
+  },
+  {
+   "id": "chandogya-clod-of-clay",
+   "after": "source:ABU2668",
+   "responds": [
+    "source:ABU2668"
+   ],
+   "relation": "complement",
+   "why": "The Chandogya Upanishad says that the difference among things made of clay is only a name, arising from speech. What follows for the quarrels of those who use different names for the same essence?"
+  },
+  {
+   "id": "psalm-thy-name-is-near",
+   "after": "source:AB06359",
+   "responds": [
+    "source:AB06359"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm gives thanks: for that Thy name is near Thy wondrous works declare."
+  },
+  {
+   "id": "matthew-lord-lord",
+   "after": "source:BH00657",
+   "responds": [
+    "source:BH00657"
+   ],
+   "relation": "complement",
+   "why": "Jesus said that not every one that saith Lord, Lord shall enter the kingdom, but he that doeth the will of the Father. When does attachment to a name become a veil?"
+  },
+  {
+   "id": "proverbs-name-of-the-lord-strong-tower",
+   "after": "source:BH04736",
+   "responds": [
+    "source:BH04736"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the name of the Lord is a strong tower; the righteous runneth into it, and is safe."
+  },
+  {
+   "id": "quran-throne-verse",
+   "after": "source:BH10338",
+   "responds": [
+    "source:BH10338"
+   ],
+   "relation": "adjacent",
+   "why": "The Throne Verse of the Qur’an names God the Alive, the Eternal, whose throne includeth the heavens and the earth."
+  },
+  {
+   "id": "matthew-hallowed-be-thy-name",
+   "after": "source:BB00043",
+   "responds": [
+    "source:BB00043"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer Jesus taught begins: Our Father which art in heaven, hallowed be Thy name."
+  },
+  {
+   "id": "psalm-not-unto-us",
+   "after": "source:BH07721",
+   "responds": [
+    "source:BH07721"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: not unto us, O Lord, not unto us, but unto Thy name give glory."
+  },
+  {
+   "id": "psalm-merciful-and-gracious",
+   "after": "source:BH06510",
+   "responds": [
+    "source:BH06510"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the Lord is merciful and gracious, slow to anger, and plenteous in mercy."
+  },
+  {
+   "id": "luke-be-ye-merciful",
+   "after": "source:BH06510",
+   "responds": [
+    "source:BH06510"
+   ],
+   "relation": "complement",
+   "why": "Jesus said: be ye therefore merciful, as your Father also is merciful. What does it mean to live by a name of God and not only to recite it?"
+  },
+  {
+   "id": "leviticus-be-holy",
+   "after": "source:BH06510",
+   "responds": [
+    "source:BH06510"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus commands: ye shall be holy, for I the Lord your God am holy."
+  }
+ ],
+ "library": {
+  "proverbs-name-of-the-lord-strong-tower": {
+   "text": "The name of the Lord is a strong tower: the righteous runneth into it, and is safe",
+   "work": "Proverbs 18:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2018%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-hallowed-be-thy-name": {
+   "text": "Our Father which art in heaven, Hallowed be thy name",
+   "work": "Matthew 6:9",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%206%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-name-in-vain": {
+   "text": "Thou shalt not take the name of the Lord thy God in vain",
+   "work": "Exodus 20:7",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2020%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-manifested-thy-name": {
+   "text": "I have manifested thy name unto the men which thou gavest me out of the world: thine they were, and thou gavest them me; and they have kept thy word",
+   "work": "John 17:6",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2017%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "philippians-name-above-every-name": {
+   "text": "Wherefore God also hath highly exalted him, and given him a name which is above every name: That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father",
+   "work": "Philippians 2:9–11",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%202%3A9-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-name-no-man-knew": {
+   "text": "His eyes were as a flame of fire, and on his head were many crowns; and he had a name written, that no man knew, but he himself",
+   "work": "Revelation 19:12",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2019%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "judges-why-askest-thou-my-name": {
+   "text": "And Manoah said unto the angel of the Lord, What is thy name, that when thy sayings come to pass we may do thee honour? And the angel of the Lord said unto him, Why askest thou thus after my name, seeing it is secret",
+   "work": "Judges 13:17–18",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Judges%2013%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-wherefore-dost-thou-ask-my-name": {
+   "text": "And Jacob asked him, and said, Tell me, I pray thee, thy name. And he said, Wherefore is it that thou dost ask after my name? And he blessed him there",
+   "work": "Genesis 32:29",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2032%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-be-ye-merciful": {
+   "text": "Be ye therefore merciful, as your Father also is merciful",
+   "work": "Luke 6:36",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%206%3A36&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "leviticus-be-holy": {
+   "text": "Ye shall be holy: for I the Lord your God am holy",
+   "work": "Leviticus 19:2",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2019%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-from-everlasting-to-everlasting": {
+   "text": "Before the mountains were brought forth, or ever thou hadst formed the earth and the world, even from everlasting to everlasting, thou art God",
+   "work": "Psalm 90:2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2090%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-multitude-of-people": {
+   "text": "In the multitude of people is the king's honour: but in the want of people is the destruction of the prince",
+   "work": "Proverbs 14:28",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2014%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-merciful-and-gracious": {
+   "text": "The Lord is merciful and gracious, slow to anger, and plenteous in mercy",
+   "work": "Psalm 103:8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20103%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-thy-name-is-near": {
+   "text": "Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy name is near thy wondrous works declare",
+   "work": "Psalm 75:1",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2075%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-called-thee-by-thy-name": {
+   "text": "Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine",
+   "work": "Isaiah 43:1",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2043%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-i-am-hath-sent-me": {
+   "text": "And God said unto Moses, I Am That I Am: and he said, Thus shalt thou say unto the children of Israel, I Am hath sent me unto you",
+   "work": "Exodus 3:14",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%203%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
