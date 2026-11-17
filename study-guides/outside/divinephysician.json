@@ -1,0 +1,1468 @@
+{
+ "format": 2,
+ "slug": "divinephysician",
+ "subject": "4C00027D22054CDE8AACBF0F817122C2",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 59,
+ "quotations": 66,
+ "kept": [
+  "source:BH00698",
+  "source:ABU1450",
+  "source:AB00780",
+  "source:AB00276",
+  "source:AB00211",
+  "source:BH00779",
+  "source:BH00005",
+  "source:AB01251",
+  "source:BH00662",
+  "source:AB00004",
+  "source:ABU2458",
+  "source:AB10235",
+  "source:ABU0086",
+  "source:ABU0790",
+  "source:AB07365",
+  "source:ABU2162",
+  "source:ABU0108",
+  "source:ABU1507",
+  "source:AB03641",
+  "source:AB01928",
+  "source:ABU2956",
+  "source:BH00164",
+  "source:BH03075",
+  "source:AB00227",
+  "source:ABU0297",
+  "source:BH00048",
+  "source:AB03067",
+  "source:BH00062",
+  "source:AB02734",
+  "source:ABU1763",
+  "source:ABU1554",
+  "source:AB08048",
+  "source:ABU1126",
+  "source:ABU2153",
+  "source:ABU0899",
+  "source:BH03078",
+  "source:AB05359",
+  "source:AB05726",
+  "source:AB06546",
+  "source:AB06500",
+  "source:AB06172",
+  "source:ABU2568",
+  "source:BH01613",
+  "source:BH06739",
+  "source:BH08125",
+  "source:AB05370",
+  "source:AB05841",
+  "source:AB03345",
+  "source:ABU1940",
+  "source:AB01498",
+  "source:AB05266",
+  "source:AB04385",
+  "source:AB06251",
+  "source:AB07187",
+  "source:AB08248",
+  "source:ABU2126",
+  "source:AB09723",
+  "source:ABU1028",
+  "source:BH08735"
+ ],
+ "introduction": "This guide gathers what the writings say with one picture: humanity is a body that falls ill, and the Messengers of God are physicians who diagnose each age and prescribe for it. The readings add that the remedy changes as the illness changes, that a book of medicine does not replace the doctor, that the prescription may run against popular opinion, that unskilled practitioners make matters worse, and that the friends are asked to become healers themselves. The picture is shared widely. Beside the readings stand the prophets’ diagnoses of their nations, the healings of the Gospels, the Qur’an’s account of itself as a balm, the Buddha as surgeon, and Hippocrates, Plato, Mencius, Machiavelli and Bacon on medicine and the state. A few quotations ask what the picture leaves open: how much lies with the patient, whether trust in a physician is a kind of tutelage, and what a healer owes to honesty about failure.",
+ "questions": [
+  "The readings say the remedy for one age is not the remedy for the next. What, in your own lifetime, would you name as an ailment that earlier prescriptions did not address?",
+  "A reading warns against keeping to the book of medicine and refusing the doctor. What is the difference between having a scripture and having a physician?",
+  "Plato sets a doctor who commands beside one who explains, and Kant distrusts handing one’s judgment to any authority. What kind of trust do these readings ask a patient to have?",
+  "Why, in the readings and in Isaiah and John, do patients flee the physician or prefer lighter cures?",
+  "Macbeth’s doctor says the patient must minister to himself. In the healing these readings describe, what is the patient’s part?",
+  "The last readings ask ordinary people to be physicians to those around them. What would a careful diagnosis, kindly given, look like in a friendship or a neighbourhood?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-lord-that-healeth-thee",
+   "after": "source:BH00698",
+   "responds": [
+    "source:BH00698"
+   ],
+   "relation": "adjacent",
+   "why": "In Exodus God names Himself to the people as a healer: I am the Lord that healeth thee."
+  },
+  {
+   "id": "machiavelli-hectic-fever",
+   "after": "source:ABU1450",
+   "responds": [
+    "source:ABU1450"
+   ],
+   "relation": "adjacent",
+   "why": "Machiavelli borrowed the physicians' observation for affairs of state: a malady is easy to cure when hard to detect, and hard to cure once anyone can see it."
+  },
+  {
+   "id": "matthew-whole-need-not-a-physician",
+   "after": "source:AB00780",
+   "responds": [
+    "source:AB00780"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus describes his own work with the same picture: it is the sick who need a physician, and not the well."
+  },
+  {
+   "id": "isaiah-whole-head-is-sick",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah diagnoses his nation as a body: the whole head sick, the whole heart faint, wounds unbound from sole to crown."
+  },
+  {
+   "id": "quran-balm-for-the-breasts",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an describes itself as an exhortation from the Lord and a balm for what is in human breasts."
+  },
+  {
+   "id": "bacon-new-remedies",
+   "after": "source:AB00211",
+   "responds": [
+    "source:AB00211"
+   ],
+   "relation": "adjacent",
+   "why": "Francis Bacon put it sharply: every medicine is an innovation, and whoever will not apply new remedies must expect new evils."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus uses a homelier picture for the same thought: nobody patches an old garment with new cloth, or puts new wine in old skins."
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews opens by saying that God spoke at many times and in many ways through the prophets."
+  },
+  {
+   "id": "arnold-strange-disease-of-modern-life",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew Arnold, in the nineteenth century, also spoke of his age as an illness: sick hurry, divided aims, palsied hearts."
+  },
+  {
+   "id": "yeats-some-revelation",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Yeats, after the Great War, described a world coming apart, in which the best lack conviction and the worst are full of passionate intensity."
+  },
+  {
+   "id": "jeremiah-balm-in-gilead",
+   "after": "source:AB01251",
+   "responds": [
+    "source:AB01251"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah asks the question this reading answers: is there no balm in Gilead, is there no physician there?"
+  },
+  {
+   "id": "revelation-healing-of-the-nations",
+   "after": "source:BH00662",
+   "responds": [
+    "source:BH00662"
+   ],
+   "relation": "adjacent",
+   "why": "The last vision of the Bible has a tree whose leaves are for the healing of the nations."
+  },
+  {
+   "id": "quran-healing-and-mercy",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of what is revealed in it that it is a healing and a mercy for those who believe."
+  },
+  {
+   "id": "hadith-no-disease-without-treatment",
+   "after": "source:ABU2458",
+   "responds": [
+    "source:ABU2458"
+   ],
+   "relation": "adjacent",
+   "why": "A saying of Muhammad holds that God has created no disease without also creating its treatment."
+  },
+  {
+   "id": "jeremiah-incurable-wound",
+   "after": "source:AB10235",
+   "responds": [
+    "source:AB10235"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah tells his people that their bruise is past cure, and that they have no healing medicines of their own."
+  },
+  {
+   "id": "plato-free-doctor",
+   "after": "source:ABU0086",
+   "responds": [
+    "source:ABU0086"
+   ],
+   "relation": "adjacent",
+   "why": "Plato describes the better kind of doctor as one who inquires far back into the disorder and talks with the patient and his friends."
+  },
+  {
+   "id": "chronicles-sought-to-the-physicians",
+   "after": "source:ABU0086",
+   "responds": [
+    "source:ABU0086"
+   ],
+   "relation": "adjacent",
+   "why": "The Chronicler notes of King Asa that in his disease he sought only the physicians and not the Lord."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU0086",
+   "responds": [
+    "source:ABU0086"
+   ],
+   "relation": "contrast",
+   "why": "Kant counts it immaturity to let a book serve in place of one's understanding or a physician decide one's diet. Is relying on a physician of souls the tutelage he meant, or something else?"
+  },
+  {
+   "id": "matthew-healing-all-manner",
+   "after": "source:ABU0790",
+   "responds": [
+    "source:ABU0790"
+   ],
+   "relation": "adjacent",
+   "why": "The Gospel shows Jesus going about Galilee teaching and healing every kind of sickness among the people."
+  },
+  {
+   "id": "buddha-poisoned-arrow",
+   "after": "source:ABU0790",
+   "responds": [
+    "source:ABU0790"
+   ],
+   "relation": "adjacent",
+   "why": "The Buddha likened himself to a surgeon who draws out a poisoned arrow, and his questioner to a man who will not be treated until his questions are answered."
+  },
+  {
+   "id": "quran-when-i-sicken",
+   "after": "source:AB07365",
+   "responds": [
+    "source:AB07365"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham in the Qur’an says simply of his Lord: when I sicken, it is He who heals me."
+  },
+  {
+   "id": "psalm-healeth-all-thy-diseases",
+   "after": "source:ABU2162",
+   "responds": [
+    "source:ABU2162"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist blesses the Lord who forgives all iniquities and heals all diseases, and treats the two as one work."
+  },
+  {
+   "id": "hosea-could-not-heal-you",
+   "after": "source:ABU0108",
+   "responds": [
+    "source:ABU0108"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea says that when the nation saw its sickness it sent to a foreign king, who could not heal it or cure its wound."
+  },
+  {
+   "id": "analects-to-govern-is-to-rectify",
+   "after": "source:ABU1507",
+   "responds": [
+    "source:ABU1507"
+   ],
+   "relation": "contrast",
+   "why": "Confucius held that to govern is to set right, and that a ruler who leads with correctness will be followed. Can wise statesmen heal a people without anything from beyond the state?"
+  },
+  {
+   "id": "mencius-three-year-mugwort",
+   "after": "source:AB03641",
+   "responds": [
+    "source:AB03641"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius compares a prince who wants to rule well without preparation to a man seeking three-year-old mugwort for a seven-year illness."
+  },
+  {
+   "id": "luke-this-day-fulfilled",
+   "after": "source:AB01928",
+   "responds": [
+    "source:AB01928"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus reads from Isaiah in the synagogue that he is sent to heal the broken-hearted and give sight to the blind."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:ABU2956",
+   "responds": [
+    "source:ABU2956"
+   ],
+   "relation": "adjacent",
+   "why": "Paul likewise sees stages in revelation: the law was a schoolmaster for a time, until something more could be received."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:BH00164",
+   "responds": [
+    "source:BH00164"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples that he has many things still to say which they cannot bear yet."
+  },
+  {
+   "id": "psalm-sent-his-word",
+   "after": "source:BH03075",
+   "responds": [
+    "source:BH03075"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of God that He sent His word and healed them."
+  },
+  {
+   "id": "kings-wash-and-be-clean",
+   "after": "source:AB00227",
+   "responds": [
+    "source:AB00227"
+   ],
+   "relation": "adjacent",
+   "why": "Naaman the Syrian was angry that the prophet's cure was so unlike what he expected, until his servants reasoned with him."
+  },
+  {
+   "id": "plato-slave-doctor",
+   "after": "source:ABU0297",
+   "responds": [
+    "source:ABU0297"
+   ],
+   "relation": "complement",
+   "why": "Plato distinguishes the doctor who gives orders like a tyrant from the one who explains. Which kind of confidence does this reading ask for: obedience without understanding, or trust that grows as one is taught?"
+  },
+  {
+   "id": "proverbs-faithful-are-the-wounds",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "The proverb says that the wounds given by a friend are faithful, while an enemy's kisses deceive."
+  },
+  {
+   "id": "shakespeare-diseases-desperate-grown",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's king states the surgeon's rule: diseases grown desperate are relieved by desperate remedies, or not at all."
+  },
+  {
+   "id": "shakespeare-minister-to-himself",
+   "after": "source:AB03067",
+   "responds": [
+    "source:AB03067"
+   ],
+   "relation": "contrast",
+   "why": "Macbeth's doctor says that for a mind diseased the patient must minister to himself, and Macbeth throws physic to the dogs. How much of healing lies with the patient?"
+  },
+  {
+   "id": "jeremiah-peace-when-there-is-no-peace",
+   "after": "source:BH00062",
+   "responds": [
+    "source:BH00062"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah accuses the leaders of his day of healing the people's hurt lightly, saying peace when there is no peace."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:AB02734",
+   "responds": [
+    "source:AB02734"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises a sun of righteousness that will rise with healing in its wings."
+  },
+  {
+   "id": "job-physicians-of-no-value",
+   "after": "source:ABU1763",
+   "responds": [
+    "source:ABU1763"
+   ],
+   "relation": "adjacent",
+   "why": "Job tells his advisers, who were sure of their diagnosis, that they are all physicians of no value."
+  },
+  {
+   "id": "thoreau-hacking-at-the-branches",
+   "after": "source:ABU1763",
+   "responds": [
+    "source:ABU1763"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau thought that for every person striking at the root of evil a thousand are hacking at its branches."
+  },
+  {
+   "id": "mark-no-mighty-work",
+   "after": "source:ABU1554",
+   "responds": [
+    "source:ABU1554"
+   ],
+   "relation": "adjacent",
+   "why": "Mark records that in his own town Jesus could do no mighty work, and marvelled at their unbelief."
+  },
+  {
+   "id": "isaiah-ears-heavy",
+   "after": "source:AB08048",
+   "responds": [
+    "source:AB08048"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah is told of a people whose heart is fat and ears heavy, who will not turn and be healed."
+  },
+  {
+   "id": "john-wilt-thou-be-made-whole",
+   "after": "source:AB08048",
+   "responds": [
+    "source:AB08048"
+   ],
+   "relation": "complement",
+   "why": "Jesus asks a man who had been ill thirty-eight years whether he wants to be made whole. Why might a sick person, or a sick age, not want the cure?"
+  },
+  {
+   "id": "hosea-torn-and-he-will-heal",
+   "after": "source:ABU1126",
+   "responds": [
+    "source:ABU1126"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea trusts that the one who has torn will heal, and that the one who has struck will bind up."
+  },
+  {
+   "id": "isaiah-borne-our-griefs",
+   "after": "source:ABU2153",
+   "responds": [
+    "source:ABU2153"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's servant heals at his own cost: with his stripes we are healed."
+  },
+  {
+   "id": "jeremiah-heal-me-o-lord",
+   "after": "source:ABU0899",
+   "responds": [
+    "source:ABU0899"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah's prayer is the shortest form of this reading: heal me, O Lord, and I shall be healed."
+  },
+  {
+   "id": "psalm-healeth-the-broken-in-heart",
+   "after": "source:BH03078",
+   "responds": [
+    "source:BH03078"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that He heals the broken in heart and binds up their wounds."
+  },
+  {
+   "id": "matthew-come-unto-me",
+   "after": "source:AB05359",
+   "responds": [
+    "source:AB05359"
+   ],
+   "relation": "adjacent",
+   "why": "The open door of this reading is like the invitation in the Gospel to all who labour and are heavy laden."
+  },
+  {
+   "id": "mark-suffered-of-many-physicians",
+   "after": "source:AB05726",
+   "responds": [
+    "source:AB05726"
+   ],
+   "relation": "adjacent",
+   "why": "Mark tells of a woman who had spent all she had on many physicians and was no better, until she touched his garment."
+  },
+  {
+   "id": "hadith-one-body",
+   "after": "source:AB06546",
+   "responds": [
+    "source:AB06546"
+   ],
+   "relation": "adjacent",
+   "why": "Muhammad compared the believers to one body: when any part is unwell the whole shares its fever and sleeplessness."
+  },
+  {
+   "id": "numbers-serpent-of-brass",
+   "after": "source:AB06500",
+   "responds": [
+    "source:AB06500"
+   ],
+   "relation": "adjacent",
+   "why": "In the wilderness the bitten were healed by looking up at what Moses had been told to raise."
+  },
+  {
+   "id": "thucydides-physicians-of-no-service",
+   "after": "source:AB06172",
+   "responds": [
+    "source:AB06172"
+   ],
+   "relation": "contrast",
+   "why": "Thucydides records that in the plague of Athens the physicians were of no use and no human art did better. What does honesty about a remedy's failures ask of those who offer one to the world?"
+  },
+  {
+   "id": "ezekiel-leaf-for-medicine",
+   "after": "source:ABU2568",
+   "responds": [
+    "source:ABU2568"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel sees a river flowing from the sanctuary, with trees whose fruit is for food and whose leaf is for medicine."
+  },
+  {
+   "id": "matthew-art-thou-he",
+   "after": "source:BH01613",
+   "responds": [
+    "source:BH01613"
+   ],
+   "relation": "adjacent",
+   "why": "When John the Baptist asks from prison who he is, Jesus answers with what is happening: the blind see, the lame walk, the lepers are cleansed."
+  },
+  {
+   "id": "jeremiah-restore-health",
+   "after": "source:BH06739",
+   "responds": [
+    "source:BH06739"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah brings the promise to a people called an outcast: I will restore health to you and heal your wounds."
+  },
+  {
+   "id": "quran-in-their-hearts-is-a-disease",
+   "after": "source:BH08125",
+   "responds": [
+    "source:BH08125"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of a disease in the heart, which grows worse when it is denied."
+  },
+  {
+   "id": "matthew-freely-give",
+   "after": "source:AB05370",
+   "responds": [
+    "source:AB05370"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sends his disciples to heal the sick and adds a condition: freely you have received, freely give."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:AB05841",
+   "responds": [
+    "source:AB05841"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable it is a stranger who binds the wounds, pours in oil and wine, and pays for the care."
+  },
+  {
+   "id": "proverbs-tongue-of-the-wise-is-health",
+   "after": "source:AB03345",
+   "responds": [
+    "source:AB03345"
+   ],
+   "relation": "adjacent",
+   "why": "The proverb says that careless speech pierces like a sword, but the tongue of the wise is health."
+  },
+  {
+   "id": "luke-physician-heal-thyself",
+   "after": "source:ABU1940",
+   "responds": [
+    "source:ABU1940"
+   ],
+   "relation": "contrast",
+   "why": "Jesus expects his townsmen to throw a proverb at him: Physician, heal thyself. What must those who would treat the ills of others first attend to in themselves?"
+  },
+  {
+   "id": "shakespeare-have-not-patience",
+   "after": "source:AB01498",
+   "responds": [
+    "source:AB01498"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Iago, of all people, states a truth about treatment: what wound did ever heal but by degrees?"
+  },
+  {
+   "id": "lincoln-malice-toward-none",
+   "after": "source:AB05266",
+   "responds": [
+    "source:AB05266"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln asked his country, at the end of its civil war, to bind up the nation's wounds with malice toward none."
+  },
+  {
+   "id": "james-pray-one-for-another",
+   "after": "source:AB04385",
+   "responds": [
+    "source:AB04385"
+   ],
+   "relation": "adjacent",
+   "why": "James asks the members of a community to pray for one another, that they may be healed."
+  },
+  {
+   "id": "hippocrates-life-is-short",
+   "after": "source:AB06251",
+   "responds": [
+    "source:AB06251"
+   ],
+   "relation": "adjacent",
+   "why": "The first of the aphorisms of Hippocrates says the art is long and decision difficult, and that the patient must be brought to cooperate."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:AB07187",
+   "responds": [
+    "source:AB07187"
+   ],
+   "relation": "adjacent",
+   "why": "The proverb knew that the spirit acts on the body: a merry heart does good like a medicine."
+  },
+  {
+   "id": "quran-honey-healing",
+   "after": "source:AB08248",
+   "responds": [
+    "source:AB08248"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an points to honey as a sign: a drink of varied colours in which there is healing for people."
+  },
+  {
+   "id": "shakespeare-mind-diseased",
+   "after": "source:ABU2126",
+   "responds": [
+    "source:ABU2126"
+   ],
+   "relation": "complement",
+   "why": "Macbeth asks his wife's doctor whether he cannot minister to a mind diseased. Who in our own time is expected to treat such ills, and with what?"
+  },
+  {
+   "id": "luke-where-are-the-nine",
+   "after": "source:AB09723",
+   "responds": [
+    "source:AB09723"
+   ],
+   "relation": "adjacent",
+   "why": "Of ten lepers healed, one turned back to give thanks, and Jesus asked where the other nine were."
+  }
+ ],
+ "library": {
+  "exodus-lord-that-healeth-thee": {
+   "text": "And said, If thou wilt diligently hearken to the voice of the Lord thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the Lord that healeth thee",
+   "work": "Exodus 15:26",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2015%3A26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-heal-me-o-lord": {
+   "text": "Heal me, O Lord, and I shall be healed; save me, and I shall be saved: for thou art my praise",
+   "work": "Jeremiah 17:14",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2017%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-whole-head-is-sick": {
+   "text": "Why should ye be stricken any more? ye will revolt more and more: the whole head is sick, and the whole heart faint. From the sole of the foot even unto the head there is no soundness in it; but wounds, and bruises, and putrifying sores: they have not been closed, neither bound up, neither mollified with ointment",
+   "work": "Isaiah 1:5–6",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%201%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-suffered-of-many-physicians": {
+   "text": "And a certain woman, which had an issue of blood twelve years, And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse, When she had heard of Jesus, came in the press behind, and touched his garment. For she said, If I may touch but his clothes, I shall be whole. And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of that plague",
+   "work": "Mark 5:25–29",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A25-29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-wash-and-be-clean": {
+   "text": "But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the Lord his God, and strike his hand over the place, and recover the leper. Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage. And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean",
+   "work": "2 Kings 5:11–13",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Kings%205%3A11-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-wilt-thou-be-made-whole": {
+   "text": "And a certain man was there, which had an infirmity thirty and eight years. When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole",
+   "work": "John 5:5–6",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%205%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "numbers-serpent-of-brass": {
+   "text": "And the Lord said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live. And Moses made a serpent of brass, and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived",
+   "work": "Numbers 21:8–9",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Numbers%2021%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-healing-of-the-nations": {
+   "text": "And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb. In the midst of the street of it, and on either side of the river, was there the tree of life, which bare twelve manner of fruits, and yielded her fruit every month: and the leaves of the tree were for the healing of the nations",
+   "work": "Revelation 22:1–2",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2022%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-healeth-all-thy-diseases": {
+   "text": "Bless the Lord, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases; Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies",
+   "work": "Psalm 103:2–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20103%3A2-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-incurable-wound": {
+   "text": "For thus saith the Lord, Thy bruise is incurable, and thy wound is grievous. There is none to plead thy cause, that thou mayest be bound up: thou hast no healing medicines",
+   "work": "Jeremiah 30:12–13",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2030%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-restore-health": {
+   "text": "For I will restore health unto thee, and I will heal thee of thy wounds, saith the Lord; because they called thee an Outcast, saying, This is Zion, whom no man seeketh after",
+   "work": "Jeremiah 30:17",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2030%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-healing-all-manner": {
+   "text": "And Jesus went about all Galilee, teaching in their synagogues, and preaching the gospel of the kingdom, and healing all manner of sickness and all manner of disease among the people. And his fame went throughout all Syria: and they brought unto him all sick people that were taken with divers diseases and torments, and those which were possessed with devils, and those which were lunatick, and those that had the palsy; and he healed them",
+   "work": "Matthew 4:23–24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A23-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "chronicles-sought-to-the-physicians": {
+   "text": "And Asa in the thirty and ninth year of his reign was diseased in his feet, until his disease was exceeding great: yet in his disease he sought not to the Lord, but to the physicians",
+   "work": "2 Chronicles 16:12",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Chronicles%2016%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-faithful-are-the-wounds": {
+   "text": "Faithful are the wounds of a friend; but the kisses of an enemy are deceitful",
+   "work": "Proverbs 27:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2027%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-leaf-for-medicine": {
+   "text": "And by the river upon the bank thereof, on this side and on that side, shall grow all trees for meat, whose leaf shall not fade, neither shall the fruit thereof be consumed: it shall bring forth new fruit according to his months, because their waters they issued out of the sanctuary: and the fruit thereof shall be for meat, and the leaf thereof for medicine",
+   "work": "Ezekiel 47:12",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2047%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-physicians-of-no-value": {
+   "text": "But ye are forgers of lies, ye are all physicians of no value",
+   "work": "Job 13:4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2013%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hosea-could-not-heal-you": {
+   "text": "When Ephraim saw his sickness, and Judah saw his wound, then went Ephraim to the Assyrian, and sent to king Jareb: yet could he not heal you, nor cure you of your wound",
+   "work": "Hosea 5:13",
+   "year": "8th century BCE",
+   "sortYear": -740,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hosea%205%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-pool-of-siloam": {
+   "text": "When he had thus spoken, he spat on the ground, and made clay of the spittle, and he anointed the eyes of the blind man with the clay, And said unto him, Go, wash in the pool of Siloam, (which is by interpretation, Sent.) He went his way therefore, and washed, and came seeing",
+   "work": "John 9:6–7",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%209%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-balm-for-the-breasts": {
+   "text": "O mankind! There hath come unto you an exhortation from your Lord, a balm for that which is in the breasts, a guidance and a mercy for believers.",
+   "work": "Qur’an 10:57",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=10&verse=57",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-when-i-sicken": {
+   "text": "And when I sicken, then He healeth me,",
+   "work": "Qur’an 26:80",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=26&verse=80",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-honey-healing": {
+   "text": "Then eat of all fruits, and follow the ways of thy Lord, made smooth (for thee). There cometh forth from their bellies a drink divers of hues, wherein is healing for mankind. Lo! herein is indeed a portent for people who reflect.",
+   "work": "Qur’an 16:69",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=69",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-in-their-hearts-is-a-disease": {
+   "text": "In their hearts is a disease, and Allah increaseth their disease. A painful doom is theirs because they lie.",
+   "work": "Qur’an 2:10",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=10",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "hippocrates-life-is-short": {
+   "text": "Life is short, and Art long; the crisis fleeting; experience perilous, and decision difficult. The physician must not only be prepared to do what is right himself, but also to make the patient, the attendants, and externals cooperate",
+   "author": "Hippocrates",
+   "work": "Aphorisms",
+   "locator": "I.1",
+   "year": "c. 400 BCE",
+   "sortYear": -400,
+   "translator": "Francis Adams",
+   "translationYear": "1849",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Hippocrates/aphorisms.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1861."
+   }
+  },
+  "shakespeare-diseases-desperate-grown": {
+   "text": "diseases desperate grown / By desperate appliance are relieved, / Or not at all",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act IV, scene 3",
+   "year": "c. 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "buddha-poisoned-arrow": {
+   "text": "It's just as if a man were wounded with an arrow thickly smeared with poison. His friends & companions, kinsmen & relatives would provide him with a surgeon, and the man would say, 'I won't have this arrow removed until I know whether the man who wounded me was a noble warrior, a brahman, a merchant, or a worker.'",
+   "work": "Cula-Malunkyovada Sutta (Majjhima Nikaya 63)",
+   "year": "c. 5th–1st century BCE",
+   "sortYear": -300,
+   "translator": "Thanissaro Bhikkhu",
+   "translationYear": "1998",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.accesstoinsight.org/tipitaka/mn/mn.063.than.html",
+    "label": "Access to Insight",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation, offered for free distribution; a brief extract."
+   }
+  },
+  "thucydides-physicians-of-no-service": {
+   "text": "Neither were the physicians at first of any service, ignorant as they were of the proper way to treat it, but they died themselves the most thickly, as they visited the sick most often; nor did any human art succeed any better",
+   "author": "Thucydides",
+   "work": "History of the Peloponnesian War",
+   "locator": "Book II",
+   "year": "c. 400 BCE",
+   "sortYear": -400,
+   "translator": "Richard Crawley",
+   "translationYear": "1874",
+   "tradition": "Greek and Roman",
+   "kind": "public",
+   "source": {
+    "url": "https://classics.mit.edu/Thucydides/pelopwar.2.second.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "bacon-new-remedies": {
+   "text": "Surely every medicine is an innovation, and he that will not apply new remedies must expect new evils; for time is the greatest innovator; and if time of course alter all things to the worse, and wisdom and counsel shall not alter them to the better, what shall be the end",
+   "author": "Francis Bacon",
+   "work": "Essays, “Of Innovations”",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_Francis_Bacon/Volume_1/Essays/Of_Innovations",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  },
+  "machiavelli-hectic-fever": {
+   "text": "as the physicians say it happens in hectic fever, that in the beginning of the malady it is easy to cure but difficult to detect, but in the course of time, not having been either detected nor treated in the beginning, it becomes easy to detect but difficult to cure",
+   "author": "Niccolò Machiavelli",
+   "work": "The Prince",
+   "locator": "Chapter 3",
+   "year": "1532",
+   "sortYear": 1532,
+   "translator": "W. K. Marriott",
+   "translationYear": "1908",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Chapter_3",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1927; translation published 1908."
+   }
+  },
+  "arnold-strange-disease-of-modern-life": {
+   "text": "Before this strange disease of modern life, / With its sick hurry, its divided aims, / Its heads o'ertaxed, its palsied hearts",
+   "verse": true,
+   "author": "Matthew Arnold",
+   "work": "The Scholar-Gipsy",
+   "year": "1853",
+   "sortYear": 1853,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_poetical_works_of_Matthew_Arnold/The_Scholar-Gypsy",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1888."
+   }
+  },
+  "mencius-three-year-mugwort": {
+   "text": "The case of one of the present princes wishing to become sovereign is like the having to seek for mugwort three years old, to cure a seven years' sickness. If it have not been kept in store, the patient may all his life not get it",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "Book IV, Part I, 9",
+   "year": "4th century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter07",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "plato-slave-doctor": {
+   "text": "The slave doctor prescribes what mere experience suggests, as if he had exact knowledge; and when he has given his orders, like a tyrant, he rushes off with equal assurance to some other servant who is ill",
+   "author": "Plato",
+   "work": "Laws",
+   "locator": "Book IV",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/laws.4.iv.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "plato-free-doctor": {
+   "text": "But the other doctor, who is a freeman, attends and practises upon freemen; and he carries his enquiries far back, and goes into the nature of the disorder; he enters into discourse with the patient and with his friends, and is at once getting information from the sick man, and also instructing him as far as he is able",
+   "author": "Plato",
+   "work": "Laws",
+   "locator": "Book IV",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/laws.4.iv.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "shakespeare-minister-to-himself": {
+   "text": "Therein the patient / Must minister to himself. / MACBETH / Throw physic to the dogs; I'll none of it",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Macbeth",
+   "locator": "Act V, scene 3",
+   "year": "c. 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/macbeth/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "thoreau-hacking-at-the-branches": {
+   "text": "There are a thousand hacking at the branches of evil to one who is striking at the root",
+   "author": "Henry David Thoreau",
+   "work": "Walden",
+   "locator": "Economy",
+   "year": "1854",
+   "sortYear": 1854,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau/Economy",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1862."
+   }
+  },
+  "hadith-no-disease-without-treatment": {
+   "text": "There is no disease that Allah has created, except that He also has created its treatment",
+   "author": "Muḥammad",
+   "work": "Ṣaḥīḥ al-Bukhārī",
+   "locator": "no. 5678",
+   "year": "7th century; collected in the 9th",
+   "sortYear": 630,
+   "translator": "Muhammad Muhsin Khan",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://sunnah.com/bukhari:5678",
+    "label": "Sunnah.com",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation (translator d. 2021); one sentence."
+   }
+  }
+ }
+}
