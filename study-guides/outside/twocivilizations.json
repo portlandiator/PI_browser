@@ -1,0 +1,865 @@
+{
+ "format": 2,
+ "slug": "twocivilizations",
+ "subject": "84AD735BE35249BCBFC3DE87B796C72C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 67,
+ "quotations": 73,
+ "kept": [
+  "source:ABU0275",
+  "source:ABU0051",
+  "source:AB00016",
+  "source:AB00459",
+  "source:AB00022",
+  "source:BH00407",
+  "source:BH00001",
+  "source:BH00238",
+  "source:AB00004",
+  "source:AB00171",
+  "source:ABU0040",
+  "source:ABU0141",
+  "source:ABU0257",
+  "source:AB00374",
+  "source:ABU1690",
+  "source:ABU0365",
+  "source:ABU1121",
+  "source:ABU1241",
+  "source:ABU0021",
+  "source:ABU0292",
+  "source:ABU0272",
+  "source:ABU0280",
+  "source:ABU0985",
+  "source:AB03302",
+  "source:ABU1588",
+  "source:ABU0192",
+  "source:ABU0262",
+  "source:AB00538",
+  "source:ABU2986",
+  "source:ABU3297",
+  "source:ABU1248",
+  "source:ABU0174",
+  "source:ABU2879",
+  "source:ABU0599",
+  "source:ABU2165",
+  "source:AB02094",
+  "source:ABU3743",
+  "source:AB00094",
+  "source:AB04899",
+  "source:AB07457",
+  "source:ABU2289",
+  "source:ABU1127",
+  "source:AB00269",
+  "source:ABU0676",
+  "source:ABU0729",
+  "source:ABU0006",
+  "source:ABU0757",
+  "source:ABU0940",
+  "source:ABU2251",
+  "source:ABU2276",
+  "source:ABU1135",
+  "source:ABU2596",
+  "source:AB02701",
+  "source:ABU0970",
+  "source:ABU0937",
+  "source:ABU3405",
+  "source:ABU3409",
+  "source:ABU3180",
+  "source:ABU2033",
+  "source:ABU1231",
+  "source:ABU2385",
+  "source:AB02846",
+  "source:ABU1060",
+  "source:ABU0577",
+  "selection:0e7a88fbf9affbd391157450",
+  "selection:0e37642a5128520133a44201",
+  "selection:755cded6afb0e777b48dfd92"
+ ],
+ "introduction": "Material civilization is the lamp and spiritual civilization its light; or the one is the body and the other the spirit. The guide repeats the image in many forms and applies it to the prosperous West of its day: great progress in science, industry and comfort, and a want of the thing that would make these a blessing. Its seventy-three quotations are read here with seventy-three from elsewhere. The Qur’an’s lamp in a glass, the candle on its candlestick, bread that is not enough to live by, a house built on rock or sand, and the church that thought itself rich are scripture’s forms of the same distinction. Goldsmith, Wordsworth, Emerson, Arnold, Thoreau, Mill and Eisenhower describe the lamp without the light in their own times. Augustine’s two cities ask whether the two can ever be one. Gandhi expects the modern civilization to destroy itself, Marx thinks its conditions and not its spirit must change, Lao Tzu would decline the whole advance, and Twain doubts the piety of those who export it. Kipling’s East and West stand where the guide proposes an exchange of gifts between them.",
+ "questions": [
+  "The guide calls material civilization the lamp and spiritual civilization the light. What would each be without the other, in a city you know?",
+  "Augustine's two cities are built on two loves. Does the guide want the two civilizations joined, or one put in service of the other?",
+  "Gandhi, Marx and Lao Tzu each doubt that modern civilization can simply be given a soul. Which objection do you find hardest to answer?",
+  "Several readings praise the West's science and ask it to turn to the East for illumination. What would a fair exchange of gifts look like now?",
+  "Haggai speaks of wages put into a bag with holes, and Revelation of a church rich and yet poor. What are the signs, in a person or a people, of prosperity without light?",
+  "The guide asks for the achievement on earth of a heavenly civilization. Where would you begin?"
+ ],
+ "outside": [
+  {
+   "id": "quran-light-verse",
+   "after": "source:ABU0275",
+   "responds": [
+    "source:ABU0275"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an's similitude has the same parts: a niche wherein is a lamp, the lamp in a glass, and the glass as it were a shining star."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:ABU0275",
+   "responds": [
+    "source:ABU0275"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that men do not light a candle and put it under a bushel, but on a candlestick, where it gives light."
+  },
+  {
+   "id": "james-body-without-the-spirit",
+   "after": "source:ABU0275",
+   "responds": [
+    "source:ABU0275"
+   ],
+   "relation": "adjacent",
+   "why": "James uses the plainest form of the comparison: the body without the spirit is dead."
+  },
+  {
+   "id": "mark-gain-the-whole-world",
+   "after": "source:ABU0275",
+   "responds": [
+    "source:ABU0275"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks what it shall profit a man if he shall gain the whole world and lose his own soul."
+  },
+  {
+   "id": "ecclesiastes-all-the-works-my-hands",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher looked on all the works his hands had wrought and found all vanity and vexation of spirit."
+  },
+  {
+   "id": "luke-life-consisteth-not",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus warns that a man's life consists not in the abundance of the things which he possesses."
+  },
+  {
+   "id": "quran-neglect-not-thy-portion",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "complement",
+   "why": "The Qur'an says to seek the abode of the Hereafter and not to neglect thy portion of the world. How are the two held together without the second swallowing the first?"
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:AB00459",
+   "responds": [
+    "source:AB00459"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs honours the worldly craft the guide commends: a man diligent in his business shall stand before kings."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB00459",
+   "responds": [
+    "source:AB00459"
+   ],
+   "relation": "complement",
+   "why": "Bacon says that human knowledge and human power meet in one, and that nature to be commanded must be obeyed. Is power over nature the lamp, the light, or neither?"
+  },
+  {
+   "id": "augustine-two-loves-two-cities",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "complement",
+   "why": "Augustine says that two cities have been formed by two loves, the earthly by the love of self and the heavenly by the love of God. Are the guide's two civilizations his two cities, or are they meant to become one?"
+  },
+  {
+   "id": "matthew-seek-ye-first",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives an order of seeking: first the kingdom of God and his righteousness, and all these things shall be added."
+  },
+  {
+   "id": "genesis-put-him-into-the-garden",
+   "after": "source:BH00407",
+   "responds": [
+    "source:BH00407"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives the first human task as the care of a place: to dress the garden and to keep it."
+  },
+  {
+   "id": "psalm-except-the-lord",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that except the Lord build the house they labour in vain that build it, and the watchman wakes in vain."
+  },
+  {
+   "id": "isaiah-build-the-old-wastes",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees a people who build the old wastes and repair the waste cities, the desolations of many generations."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that the craftsman Bezaleel was filled with the spirit of God in wisdom, understanding and all manner of workmanship."
+  },
+  {
+   "id": "genesis-tubal-cain",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis remembers by name the first herdsman, the first player of harp and organ, and the first instructor in metal."
+  },
+  {
+   "id": "twain-blessings-of-civilization-trust",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "contrast",
+   "why": "Twain remarks that the rulers and legislators of Christendom are members both of the church and of what he calls the Blessings-of-Civilization Trust. When a civilization claims a religious origin, how is that claim to be tested?"
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB00171",
+   "responds": [
+    "source:AB00171"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives the test of any claim to a name: ye shall know them by their fruits."
+  },
+  {
+   "id": "revelation-gold-tried-in-the-fire",
+   "after": "source:ABU0040",
+   "responds": [
+    "source:ABU0040"
+   ],
+   "relation": "adjacent",
+   "why": "Revelation addresses a church that says 'I am rich, and increased with goods' and does not know that it is poor, blind and naked."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:ABU0141",
+   "responds": [
+    "source:ABU0141"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:ABU0257",
+   "responds": [
+    "source:ABU0257"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah hears that the work is done not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:ABU0257",
+   "responds": [
+    "source:ABU0257"
+   ],
+   "relation": "adjacent",
+   "why": "Joel promises a spirit poured out upon all flesh, on sons and daughters, old men and young."
+  },
+  {
+   "id": "deuteronomy-not-by-bread-only",
+   "after": "source:AB00374",
+   "responds": [
+    "source:AB00374"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy says that man does not live by bread only, but by every word that proceeds out of the mouth of the Lord."
+  },
+  {
+   "id": "matthew-light-of-the-body",
+   "after": "source:ABU1690",
+   "responds": [
+    "source:ABU1690"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the light of the body is the eye, and that if the light within be darkness, how great is that darkness."
+  },
+  {
+   "id": "haggai-bag-with-holes",
+   "after": "source:ABU0365",
+   "responds": [
+    "source:ABU0365"
+   ],
+   "relation": "adjacent",
+   "why": "Haggai describes a prosperous emptiness: ye have sown much and bring in little, and earn wages to put into a bag with holes."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:ABU1121",
+   "responds": [
+    "source:ABU1121"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm names the lamp first too: thy word is a lamp unto my feet, and a light unto my path."
+  },
+  {
+   "id": "ezekiel-breath",
+   "after": "source:ABU1241",
+   "responds": [
+    "source:ABU1241"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel is told to call the breath from the four winds to breathe upon the slain, that they may live."
+  },
+  {
+   "id": "pascal-neither-angel-nor-brute",
+   "after": "source:ABU0021",
+   "responds": [
+    "source:ABU0021"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal describes the double nature in a sentence: man is neither angel nor brute."
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:ABU0292",
+   "responds": [
+    "source:ABU0292"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's line marks the gap between the two educations: knowledge comes, but wisdom lingers."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:ABU0272",
+   "responds": [
+    "source:ABU0272"
+   ],
+   "relation": "complement",
+   "why": "Mary Shelley's Frankenstein warns by his own example how dangerous is the acquirement of knowledge. What must accompany learning for it not to be dangerous?"
+  },
+  {
+   "id": "proverbs-field-of-the-slothful",
+   "after": "source:ABU0280",
+   "responds": [
+    "source:ABU0280"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs passes the field of the slothful and finds it all grown over with thorns and nettles, its stone wall broken down."
+  },
+  {
+   "id": "wordsworth-getting-and-spending",
+   "after": "source:ABU0985",
+   "responds": [
+    "source:ABU0985"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth says that the world is too much with us, and that in getting and spending we lay waste our powers."
+  },
+  {
+   "id": "proverbs-wisdom-better-than-gold",
+   "after": "source:AB03302",
+   "responds": [
+    "source:AB03302"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs ranks the two kinds of gain: how much better is it to get wisdom than gold."
+  },
+  {
+   "id": "jeremiah-let-not-the-wise-man-glory",
+   "after": "source:ABU1588",
+   "responds": [
+    "source:ABU1588"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah forbids the wise to glory in wisdom, the mighty in might and the rich in riches, but only in understanding and knowing the Lord."
+  },
+  {
+   "id": "emerson-things-are-in-the-saddle",
+   "after": "source:ABU0192",
+   "responds": [
+    "source:ABU0192"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson's couplet names the danger of the age: things are in the saddle, and ride mankind."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives the order of the two creations: first that which is natural, and afterward that which is spiritual."
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:ABU2986",
+   "responds": [
+    "source:ABU2986"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the natural man does not receive the things of the Spirit, because they are spiritually discerned."
+  },
+  {
+   "id": "aristotle-best-and-worst-of-animals",
+   "after": "source:ABU3297",
+   "responds": [
+    "source:ABU3297"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that man, when perfected, is the best of animals, and when separated from law and justice, the worst of all."
+  },
+  {
+   "id": "huxley-combating-the-cosmic-process",
+   "after": "source:ABU3297",
+   "responds": [
+    "source:ABU3297"
+   ],
+   "relation": "complement",
+   "why": "Huxley held that the ethical progress of society depends on combating the cosmic process, not on imitating it. Does he reach by science the conclusion the guide reaches by religion?"
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:ABU1248",
+   "responds": [
+    "source:ABU1248"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi names the unifying fact as a question: have we not all one father? hath not one God created us?"
+  },
+  {
+   "id": "eisenhower-every-gun",
+   "after": "source:ABU0174",
+   "responds": [
+    "source:ABU0174"
+   ],
+   "relation": "adjacent",
+   "why": "Eisenhower said that a world in arms spends the sweat of its labourers, the genius of its scientists and the hopes of its children."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0174",
+   "responds": [
+    "source:ABU0174"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees the tools of war beaten into plowshares and pruninghooks, and nations learning war no more."
+  },
+  {
+   "id": "tennyson-knowledge-and-reverence",
+   "after": "source:ABU2879",
+   "responds": [
+    "source:ABU2879"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson asks for both wings: let knowledge grow from more to more, but more of reverence in us dwell."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:ABU0599",
+   "responds": [
+    "source:ABU0599"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's phrase for the world of nature is 'red in tooth and claw', shrieking against the creed that love is creation's final law."
+  },
+  {
+   "id": "galatians-put-on-christ",
+   "after": "source:AB02094",
+   "responds": [
+    "source:AB02094"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes a community in which there is neither Jew nor Greek, bond nor free, male nor female."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:AB00094",
+   "responds": [
+    "source:AB00094"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi says the lamps are different but the Light is the same, and that it comes from Beyond."
+  },
+  {
+   "id": "unesco-minds-of-men",
+   "after": "source:AB04899",
+   "responds": [
+    "source:AB04899"
+   ],
+   "relation": "adjacent",
+   "why": "UNESCO's constitution holds that since wars begin in the minds of men, it is there that the defences of peace must be constructed."
+  },
+  {
+   "id": "matthew-house-upon-a-rock",
+   "after": "source:ABU2289",
+   "responds": [
+    "source:ABU2289"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compares the hearer who acts to one who built on a rock, and the one who does not to a house on sand."
+  },
+  {
+   "id": "mill-mechanical-inventions",
+   "after": "source:ABU1127",
+   "responds": [
+    "source:ABU1127"
+   ],
+   "relation": "adjacent",
+   "why": "Mill thought it questionable whether all the mechanical inventions yet made had lightened the day's toil of any human being."
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:ABU1127",
+   "responds": [
+    "source:ABU1127"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau calls our inventions pretty toys which distract our attention from serious things: improved means to an unimproved end."
+  },
+  {
+   "id": "goldsmith-ill-fares-the-land",
+   "after": "source:ABU0676",
+   "responds": [
+    "source:ABU0676"
+   ],
+   "relation": "adjacent",
+   "why": "Goldsmith's line on a prospering country is that ill fares the land where wealth accumulates and men decay."
+  },
+  {
+   "id": "isaiah-land-full-of-silver-and-gold",
+   "after": "source:ABU0729",
+   "responds": [
+    "source:ABU0729"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah describes a land full of silver and gold, with no end of treasures, that worships the work of its own hands."
+  },
+  {
+   "id": "arnold-faith-in-machinery",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Arnold called faith in machinery, as if it had a value in and for itself, the besetting danger of his country."
+  },
+  {
+   "id": "gandhi-only-to-be-patient",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "contrast",
+   "why": "Gandhi judged modern civilization to be such that one has only to be patient and it will be self-destroyed. Does the guide hope to give this civilization a spirit, or does Gandhi see something that cannot be mended?"
+  },
+  {
+   "id": "dickens-best-of-times",
+   "after": "source:ABU0940",
+   "responds": [
+    "source:ABU0940"
+   ],
+   "relation": "complement",
+   "why": "Dickens opens with an age that was the best of times and the worst, the season of Light and the season of Darkness. Is every age two civilizations at once?"
+  },
+  {
+   "id": "marx-all-that-is-solid",
+   "after": "source:ABU2251",
+   "responds": [
+    "source:ABU2251"
+   ],
+   "relation": "contrast",
+   "why": "Marx describes an age in which all that is solid melts into air and all that is holy is profaned. Can a spiritual civilization be added to such an economy, or must the economy itself change?"
+  },
+  {
+   "id": "matthew-lilies-of-the-field",
+   "after": "source:ABU1135",
+   "responds": [
+    "source:ABU1135"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sets the lilies of the field, which neither toil nor spin, above Solomon in all his glory."
+  },
+  {
+   "id": "tao-little-state",
+   "after": "source:ABU2596",
+   "responds": [
+    "source:ABU2596"
+   ],
+   "relation": "contrast",
+   "why": "Lao Tzu's ideal people can hear the fowls and dogs of the neighbouring state and never, to old age, have any intercourse with it. What does his refusal of progress see that a welcome of it might miss?"
+  },
+  {
+   "id": "quran-rivalry-in-worldly-increase",
+   "after": "source:ABU0970",
+   "responds": [
+    "source:ABU0970"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an warns that rivalry in worldly increase distracts people until they come to the graves."
+  },
+  {
+   "id": "kipling-east-west",
+   "after": "source:ABU0937",
+   "responds": [
+    "source:ABU0937"
+   ],
+   "relation": "complement",
+   "why": "Kipling's ballad says that East and West shall never meet, and then that there is neither when two strong men stand face to face. What kind of meeting does an exchange of gifts between them require?"
+  },
+  {
+   "id": "whitman-earth-to-be-spanned",
+   "after": "source:ABU0937",
+   "responds": [
+    "source:ABU0937"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman reads God's purpose in the engineering of his day: the earth to be spanned, the races neighbours, the lands welded together."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:ABU3180",
+   "responds": [
+    "source:ABU3180"
+   ],
+   "relation": "adjacent",
+   "why": "Plato looks for the day when political greatness and wisdom meet in one, with philosophers as kings."
+  },
+  {
+   "id": "deuteronomy-choose-life",
+   "after": "source:ABU2033",
+   "responds": [
+    "source:ABU2033"
+   ],
+   "relation": "adjacent",
+   "why": "Moses sets two ways before the people, life and death, blessing and cursing, and tells them to choose life."
+  },
+  {
+   "id": "john-epistle-world-passeth-away",
+   "after": "source:ABU1231",
+   "responds": [
+    "source:ABU1231"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that the world passes away, and the lust thereof, but whoever does the will of God abides."
+  },
+  {
+   "id": "quran-good-deeds-endure",
+   "after": "source:ABU1231",
+   "responds": [
+    "source:ABU1231"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an calls wealth and children an ornament of the life of the world, and says the good deeds which endure are better."
+  },
+  {
+   "id": "quran-appearance-of-the-life-of-the-world",
+   "after": "source:ABU2385",
+   "responds": [
+    "source:ABU2385"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of the heedless that they know only some appearance of the life of the world."
+  },
+  {
+   "id": "hebrews-no-continuing-city",
+   "after": "source:ABU1060",
+   "responds": [
+    "source:ABU1060"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says that here we have no continuing city, but seek one to come."
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:ABU1060",
+   "responds": [
+    "source:ABU1060"
+   ],
+   "relation": "adjacent",
+   "why": "The rich man in the parable tells his soul to take its ease for many years, and is asked whose those things shall be."
+  },
+  {
+   "id": "matthew-treasures-in-heaven",
+   "after": "source:ABU1060",
+   "responds": [
+    "source:ABU1060"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus advises laying up treasures in heaven, where neither moth nor rust corrupts."
+  },
+  {
+   "id": "matthew-in-earth-as-in-heaven",
+   "after": "source:ABU0577",
+   "responds": [
+    "source:ABU0577"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord's Prayer asks for exactly this: thy kingdom come, thy will be done in earth as it is in heaven."
+  },
+  {
+   "id": "micah-vine-and-fig-tree",
+   "after": "source:ABU0577",
+   "responds": [
+    "source:ABU0577"
+   ],
+   "relation": "adjacent",
+   "why": "Micah pictures the civilization hoped for: nations that learn war no more, judged and rebuked into peace."
+  },
+  {
+   "id": "mencius-why-use-that-word-profit",
+   "after": "selection:0e7a88fbf9affbd391157450",
+   "responds": [
+    "selection:0e7a88fbf9affbd391157450"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius tells a king to make benevolence and righteousness his only themes, and asks why he must use the word profit."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "selection:755cded6afb0e777b48dfd92",
+   "responds": [
+    "selection:755cded6afb0e777b48dfd92"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis tells how man was formed of the dust, and became a living soul when the breath of life was breathed into him."
+  }
+ ],
+ "library": {
+  "haggai-bag-with-holes": {
+   "text": "Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and he that earneth wages earneth wages to put it into a bag with holes",
+   "work": "Haggai 1:6",
+   "year": "6th century BCE",
+   "sortYear": -520,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Haggai%201%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-land-full-of-silver-and-gold": {
+   "text": "Their land also is full of silver and gold, neither is there any end of their treasures; their land is also full of horses, neither is there any end of their chariots: Their land also is full of idols; they worship the work of their own hands, that which their own fingers have made",
+   "work": "Isaiah 2:7–8",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%202%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "augustine-two-loves-two-cities": {
+   "text": "Accordingly, two cities have been formed by two loves: the earthly by the love of self, even to the contempt of God; the heavenly by the love of God, even to the contempt of self",
+   "author": "Augustine of Hippo",
+   "work": "The City of God",
+   "locator": "Book XIV, chapter 28",
+   "year": "about 426",
+   "sortYear": 426,
+   "translator": "Marcus Dods",
+   "translationYear": "1871",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/120114.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1909."
+   }
+  },
+  "jeremiah-let-not-the-wise-man-glory": {
+   "text": "Let not the wise man glory in his wisdom, neither let the mighty man glory in his might, let not the rich man glory in his riches: But let him that glorieth glory in this, that he understandeth and knoweth me, that I am the Lord which exercise lovingkindness, judgment, and righteousness, in the earth: for in these things I delight",
+   "work": "Jeremiah 9:23–24",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%209%3A23-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mencius-why-use-that-word-profit": {
+   "text": "Let your Majesty also say, \"Benevolence and righteousness, and let these be your only themes.\" Why must you use that word - \"profit?\"",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "1A.1",
+   "year": "4th century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter01",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  }
+ }
+}
