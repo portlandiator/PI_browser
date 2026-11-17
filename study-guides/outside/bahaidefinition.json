@@ -1,0 +1,811 @@
+{
+ "format": 2,
+ "slug": "bahaidefinition",
+ "subject": "AD7F1E7F696842D3B9D7E108934676B7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 54,
+ "quotations": 58,
+ "kept": [
+  "source:AB00171",
+  "source:AB00915",
+  "source:AB06245",
+  "source:AB06111",
+  "source:BH00003",
+  "source:BH08715",
+  "source:ABU0387",
+  "source:AB00144",
+  "source:AB04292",
+  "source:ABU1910",
+  "source:ABU0714",
+  "source:ABU2799",
+  "source:ABU0956",
+  "source:ABU3506",
+  "source:ABU3277",
+  "source:ABU3501",
+  "source:ABU3332",
+  "source:ABU3416",
+  "source:AB07457",
+  "source:ABU0878",
+  "source:ABU0763",
+  "source:ABU3033",
+  "source:ABU0086",
+  "source:ABU0835",
+  "source:ABU0365",
+  "source:ABU2303",
+  "source:ABU2306",
+  "source:ABU1991",
+  "source:ABU1089",
+  "source:ABU3052",
+  "source:ABU2950",
+  "source:AB00827",
+  "source:ABU3293",
+  "source:ABU2718",
+  "source:ABU1163",
+  "source:ABU2934",
+  "source:AB11555",
+  "source:ABU2657",
+  "source:ABU1475",
+  "source:ABU1777",
+  "selection:348e37d3b6e5d1d53362262e",
+  "selection:12433c21cb29d21140f950aa",
+  "selection:8472e9653ab91bf51c82c5a3",
+  "selection:de4a5afc02fc21d882cc6e78",
+  "selection:223a7b71862298f0e377a27e",
+  "selection:11cac1c4927b5a76e2064351",
+  "selection:106dcc78e42fa647c8163b6c",
+  "selection:da82d1ca1e1a0cfd8dc9f9c1",
+  "selection:b9d9cca695953020010ea081",
+  "selection:4b842a626cf38f927458d36d",
+  "selection:a8b8c7fed69705d94f1d015a",
+  "selection:7ad73b33df2bac788fa76ed1",
+  "selection:762d889a7a6266de50a48cf8",
+  "selection:9e077f646f2a92f61319f141"
+ ],
+ "introduction": "What makes someone a Bahá’í? The readings answer first by conduct: the name is justified by deeds, and whoever shows spiritual qualities, investigates reality or lives the life is counted among the people of Bahá, whether or not he has heard the name. They then turn to belonging: a person need not leave his church, the Cause is the root of the earlier trees and no rival to them, and old labels of nation and sect fall away. The later passages, from Shoghi Effendi and the Universal House of Justice, speak of faith as a way of life and of how a community receives those who join it. The Gospels, Paul, the Qur’an, Justin Martyr and William Penn say similar things of their own names. Set against them are sentences that draw the line more sharply, such as “no man cometh unto the Father but by me” and “he that is not with me is against me”, and Gandhi’s wish for respect among religions and not one religion.",
+ "questions": [
+  "The readings say a Bahá’í is known by deeds and not by the name. If the name were taken away, what in your week would show it?",
+  "‘Abdu’l-Bahá called Tolstoy a real Bahá’í, as Justin Martyr called Socrates a Christian. What is gained by such generosity, and what might the person so named say to it?",
+  "Peter said there is no other name by which we must be saved, and Jesus that no one comes to the Father but by him. How do the readings hold together recognising a Messenger and honouring everyone who lives rightly?",
+  "Several readings allow a person to remain in his church. What would that have required of the church, and of him?",
+  "The first council in Acts laid no greater burden than a few necessary things, and Jesus spoke of counting the cost. How should a community balance welcome with honesty about what faith asks?",
+  "Which of the short definitions in these readings would you choose to give a friend who asked, and why?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-lord-lord",
+   "after": "source:AB00171",
+   "responds": [
+    "source:AB00171"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says the same of his own followers: not everyone who says Lord, Lord, but the one who does the will of the Father."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:AB00915",
+   "responds": [
+    "source:AB00915"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable it is a stranger of another faith who binds the wounded man's wounds and pays for his care."
+  },
+  {
+   "id": "romans-circumcision-of-the-heart",
+   "after": "source:AB06245",
+   "responds": [
+    "source:AB06245"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that a person is not a Jew who is one outwardly: the real mark is of the heart, in the spirit and not the letter."
+  },
+  {
+   "id": "quran-colour-of-allah",
+   "after": "source:AB06111",
+   "responds": [
+    "source:AB06111"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of taking one's colour from God, a dye that goes through the whole cloth."
+  },
+  {
+   "id": "acts-no-respecter-of-persons",
+   "after": "source:BH00003",
+   "responds": [
+    "source:BH00003"
+   ],
+   "relation": "adjacent",
+   "why": "Peter came to see that God is no respecter of persons, and that in every nation whoever fears Him and does right is accepted."
+  },
+  {
+   "id": "matthew-who-is-my-mother",
+   "after": "source:BH08715",
+   "responds": [
+    "source:BH08715"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus defined his own family by conduct: whoever does the will of my Father is my brother, and sister, and mother."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:BH08715",
+   "responds": [
+    "source:BH08715"
+   ],
+   "relation": "contrast",
+   "why": "John's Gospel has Jesus say that no one comes to the Father but by him. If spiritual qualities alone place a soul among the people of Bahá, what part does recognising the Messenger play?"
+  },
+  {
+   "id": "quran-know-one-another",
+   "after": "source:ABU0387",
+   "responds": [
+    "source:ABU0387"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the noblest in God's sight is the best in conduct, whatever the nation or tribe."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:AB00144",
+   "responds": [
+    "source:AB00144"
+   ],
+   "relation": "complement",
+   "why": "Micah asked for three things only: to do justly, to love mercy and to walk humbly. Is a definition that requires all human perfections an encouragement or a discouragement to the ordinary person?"
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:AB04292",
+   "responds": [
+    "source:AB04292"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his followers to let their light shine so that others might see their good works."
+  },
+  {
+   "id": "john-by-this-shall-all-men-know",
+   "after": "source:ABU1910",
+   "responds": [
+    "source:ABU1910"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gave his disciples one sign by which they would be known: that they love one another."
+  },
+  {
+   "id": "james-shew-me-thy-faith",
+   "after": "source:ABU0714",
+   "responds": [
+    "source:ABU0714"
+   ],
+   "relation": "adjacent",
+   "why": "James asks to be shown faith without works, and offers to show his faith by his works."
+  },
+  {
+   "id": "matthew-they-say-and-do-not",
+   "after": "source:ABU2799",
+   "responds": [
+    "source:ABU2799"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of the religious teachers of his day that they say and do not."
+  },
+  {
+   "id": "dhammapada-flower-without-scent",
+   "after": "source:ABU0956",
+   "responds": [
+    "source:ABU0956"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada likens fine words that are not acted on to a flower with colour and no scent."
+  },
+  {
+   "id": "matthew-two-sons",
+   "after": "source:ABU3506",
+   "responds": [
+    "source:ABU3506"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable one son says he will go to the vineyard and does not, and the other refuses and then goes."
+  },
+  {
+   "id": "romans-justified-by-faith",
+   "after": "source:ABU3506",
+   "responds": [
+    "source:ABU3506"
+   ],
+   "relation": "contrast",
+   "why": "Paul concluded that a person is justified by faith without the deeds of the law, and much of Christian history turned on that sentence. What is lost if believing comes to mean only doing?"
+  },
+  {
+   "id": "matthew-strait-gate",
+   "after": "source:ABU3277",
+   "responds": [
+    "source:ABU3277"
+   ],
+   "relation": "complement",
+   "why": "Jesus said that the gate is strait and the way narrow, and that few find it. Does a list of what a true Bahá’í must be describe the few, or set a direction for the many?"
+  },
+  {
+   "id": "galatians-neither-jew-nor-greek",
+   "after": "source:ABU3501",
+   "responds": [
+    "source:ABU3501"
+   ],
+   "relation": "adjacent",
+   "why": "Paul wrote that there is neither Jew nor Greek, bond nor free, male nor female."
+  },
+  {
+   "id": "peter-ready-to-give-an-answer",
+   "after": "source:ABU3332",
+   "responds": [
+    "source:ABU3332"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of Peter asks believers to be ready to give a reason for the hope that is in them, with meekness."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:ABU3416",
+   "responds": [
+    "source:ABU3416"
+   ],
+   "relation": "adjacent",
+   "why": "James's definition is as short: pure religion is to visit the fatherless and widows and to keep oneself unspotted."
+  },
+  {
+   "id": "john-one-fold",
+   "after": "source:AB07457",
+   "responds": [
+    "source:AB07457"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of other sheep not of this fold, and of one fold and one shepherd."
+  },
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:ABU0878",
+   "responds": [
+    "source:ABU0878"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that everyone who loves is born of God and knows God, for God is love."
+  },
+  {
+   "id": "justin-lived-reasonably",
+   "after": "source:ABU0763",
+   "responds": [
+    "source:ABU0763"
+   ],
+   "relation": "adjacent",
+   "why": "Justin Martyr, in the second century, counted Socrates and Heraclitus as Christians because they lived according to reason."
+  },
+  {
+   "id": "matthew-he-that-is-not-with-me",
+   "after": "source:ABU0763",
+   "responds": [
+    "source:ABU0763"
+   ],
+   "relation": "contrast",
+   "why": "Jesus also said: he that is not with me is against me. When is it generous to call a seeker one of one's own without his knowing, and when is it a claim he might refuse?"
+  },
+  {
+   "id": "romans-law-unto-themselves",
+   "after": "source:ABU3033",
+   "responds": [
+    "source:ABU3033"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that people who never received the law may do by nature what it contains, and are a law to themselves."
+  },
+  {
+   "id": "acts-called-christians-first",
+   "after": "source:ABU0086",
+   "responds": [
+    "source:ABU0086"
+   ],
+   "relation": "adjacent",
+   "why": "Acts records where the name first arose: the disciples were called Christians first in Antioch."
+  },
+  {
+   "id": "mark-not-against-us",
+   "after": "source:ABU0835",
+   "responds": [
+    "source:ABU0835"
+   ],
+   "relation": "adjacent",
+   "why": "When the disciples forbade a man who did not follow with them, Jesus said: he that is not against us is on our part."
+  },
+  {
+   "id": "penn-one-religion",
+   "after": "source:ABU0365",
+   "responds": [
+    "source:ABU0365"
+   ],
+   "relation": "adjacent",
+   "why": "William Penn held that the humble, meek, merciful and just are everywhere of one religion, though the liveries they wear make them strangers."
+  },
+  {
+   "id": "gandhi-not-one-religion",
+   "after": "source:ABU0365",
+   "responds": [
+    "source:ABU0365"
+   ],
+   "relation": "complement",
+   "why": "Gandhi thought the need of the moment was not one religion but mutual respect among the devotees of different religions. Is that what this reading describes, or something more?"
+  },
+  {
+   "id": "corinthians-i-am-of-paul",
+   "after": "source:ABU0365",
+   "responds": [
+    "source:ABU0365"
+   ],
+   "relation": "adjacent",
+   "why": "Paul rebuked a church for saying I am of Paul and I am of Apollos, and asked whether Christ is divided."
+  },
+  {
+   "id": "boccaccio-three-rings",
+   "after": "source:ABU0365",
+   "responds": [
+    "source:ABU0365"
+   ],
+   "relation": "adjacent",
+   "why": "Boccaccio's tale of the three rings leaves each heir believing that his is the true inheritance, and the question open."
+  },
+  {
+   "id": "acts-none-other-name",
+   "after": "source:ABU2303",
+   "responds": [
+    "source:ABU2303"
+   ],
+   "relation": "contrast",
+   "why": "Peter told the council that there is no other name under heaven by which we must be saved. How would a church that holds to that sentence regard a member who also calls himself a Bahá’í?"
+  },
+  {
+   "id": "romans-boast-not-against-the-branches",
+   "after": "source:ABU2306",
+   "responds": [
+    "source:ABU2306"
+   ],
+   "relation": "complement",
+   "why": "Paul pictures a tree with branches broken off and others grafted in, and warns the grafted not to boast against the rest. What does the picture of root and branches ask of those who think themselves nearest the root?"
+  },
+  {
+   "id": "matthew-not-to-destroy-the-law",
+   "after": "source:ABU1991",
+   "responds": [
+    "source:ABU1991"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said he had not come to destroy the law or the prophets but to fulfil."
+  },
+  {
+   "id": "blake-all-religions-are-one",
+   "after": "source:ABU1089",
+   "responds": [
+    "source:ABU1089"
+   ],
+   "relation": "adjacent",
+   "why": "William Blake held that the religions of all nations are derived from one source, each received differently."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU3052",
+   "responds": [
+    "source:ABU3052"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true light that lights every person who comes into the world."
+  },
+  {
+   "id": "galatians-any-other-gospel",
+   "after": "source:ABU2950",
+   "responds": [
+    "source:ABU2950"
+   ],
+   "relation": "contrast",
+   "why": "Paul told the Galatians to refuse any other gospel, even from an angel. Can a message be a call to unity and not a new religion in the eyes of those it calls?"
+  },
+  {
+   "id": "shakespeare-whats-in-a-name",
+   "after": "source:AB00827",
+   "responds": [
+    "source:AB00827"
+   ],
+   "relation": "adjacent",
+   "why": "Juliet asks what is in a name, since a rose would smell as sweet by any other."
+  },
+  {
+   "id": "quran-named-you-muslims",
+   "after": "source:AB00827",
+   "responds": [
+    "source:AB00827"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God named the believers those who have surrendered, of old and in this scripture."
+  },
+  {
+   "id": "zeno-one-polity",
+   "after": "source:ABU3293",
+   "responds": [
+    "source:ABU3293"
+   ],
+   "relation": "adjacent",
+   "why": "Plutarch reports Zeno's hope that people would not live divided by cities and customs but as one community."
+  },
+  {
+   "id": "diogenes-citizen",
+   "after": "source:ABU2718",
+   "responds": [
+    "source:ABU2718"
+   ],
+   "relation": "adjacent",
+   "why": "Diogenes, asked where he came from, answered that he was a citizen of the world."
+  },
+  {
+   "id": "garrison-motto",
+   "after": "source:ABU2718",
+   "responds": [
+    "source:ABU2718"
+   ],
+   "relation": "adjacent",
+   "why": "William Lloyd Garrison put on his newspaper: our country is the world, our countrymen are mankind."
+  },
+  {
+   "id": "matthew-leaven",
+   "after": "source:ABU1163",
+   "responds": [
+    "source:ABU1163"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likened the kingdom to leaven that works through the whole lump without being seen."
+  },
+  {
+   "id": "tolstoy-three-hermits",
+   "after": "source:ABU2934",
+   "responds": [
+    "source:ABU2934"
+   ],
+   "relation": "adjacent",
+   "why": "Tolstoy himself told of three hermits who could not learn the Lord's Prayer and were found to need no teaching."
+  },
+  {
+   "id": "matthew-stony-places",
+   "after": "source:ABU2657",
+   "responds": [
+    "source:ABU2657"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable some seed springs up at once on stony ground and withers when the sun is hot."
+  },
+  {
+   "id": "revelation-lukewarm",
+   "after": "source:ABU2657",
+   "responds": [
+    "source:ABU2657"
+   ],
+   "relation": "adjacent",
+   "why": "The church at Laodicea is told that it is neither cold nor hot."
+  },
+  {
+   "id": "mill-dead-dogma",
+   "after": "selection:348e37d3b6e5d1d53362262e",
+   "responds": [
+    "selection:348e37d3b6e5d1d53362262e"
+   ],
+   "relation": "complement",
+   "why": "Mill warned that a belief which is never questioned is held as a dead dogma and not a living truth. What keeps a way of life from hardening into a set of habits?"
+  },
+  {
+   "id": "luke-take-up-his-cross-daily",
+   "after": "selection:12433c21cb29d21140f950aa",
+   "responds": [
+    "selection:12433c21cb29d21140f950aa"
+   ],
+   "relation": "adjacent",
+   "why": "Luke's version of the saying about the cross adds one word: daily."
+  },
+  {
+   "id": "buddha-poisoned-arrow",
+   "after": "selection:8472e9653ab91bf51c82c5a3",
+   "responds": [
+    "selection:8472e9653ab91bf51c82c5a3"
+   ],
+   "relation": "adjacent",
+   "why": "The Buddha likened the asker of speculative questions to a wounded man who will not have the arrow drawn until he knows who shot it."
+  },
+  {
+   "id": "whitman-furlong-without-sympathy",
+   "after": "selection:de4a5afc02fc21d882cc6e78",
+   "responds": [
+    "selection:de4a5afc02fc21d882cc6e78"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman wrote that whoever walks a furlong without sympathy walks to his own funeral."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "selection:223a7b71862298f0e377a27e",
+   "responds": [
+    "selection:223a7b71862298f0e377a27e"
+   ],
+   "relation": "adjacent",
+   "why": "The disciples at Emmaus recognised afterwards what had happened to them: did not our heart burn within us?"
+  },
+  {
+   "id": "acts-no-greater-burden",
+   "after": "selection:11cac1c4927b5a76e2064351",
+   "responds": [
+    "selection:11cac1c4927b5a76e2064351"
+   ],
+   "relation": "adjacent",
+   "why": "The first council of the church decided to lay on the new believers no greater burden than a few necessary things."
+  },
+  {
+   "id": "luke-count-the-cost",
+   "after": "selection:11cac1c4927b5a76e2064351",
+   "responds": [
+    "selection:11cac1c4927b5a76e2064351"
+   ],
+   "relation": "contrast",
+   "why": "Jesus asked who would build a tower without first sitting down to count the cost. How does a community welcome people warmly and still tell them truthfully what they are entering?"
+  },
+  {
+   "id": "acts-breaking-bread",
+   "after": "selection:da82d1ca1e1a0cfd8dc9f9c1",
+   "responds": [
+    "selection:da82d1ca1e1a0cfd8dc9f9c1"
+   ],
+   "relation": "adjacent",
+   "why": "Acts describes the first community simply: they continued daily with one accord, breaking bread from house to house."
+  },
+  {
+   "id": "universal-declaration-18",
+   "after": "selection:b9d9cca695953020010ea081",
+   "responds": [
+    "selection:b9d9cca695953020010ea081"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration of Human Rights says that everyone has the right to freedom of thought, conscience and religion."
+  },
+  {
+   "id": "locke-care-of-souls",
+   "after": "selection:b9d9cca695953020010ea081",
+   "responds": [
+    "selection:b9d9cca695953020010ea081"
+   ],
+   "relation": "adjacent",
+   "why": "Locke argued that the care of souls does not belong to the magistrate, since belief cannot be compelled."
+  },
+  {
+   "id": "matthew-made-light-of-it",
+   "after": "selection:a8b8c7fed69705d94f1d015a",
+   "responds": [
+    "selection:a8b8c7fed69705d94f1d015a"
+   ],
+   "relation": "complement",
+   "why": "In the parable of the wedding feast all were invited, and those invited made light of it and went to their farms and their merchandise. What does an open welcome ask of the one who is welcomed?"
+  },
+  {
+   "id": "whitman-convince-by-our-presence",
+   "after": "selection:9e077f646f2a92f61319f141",
+   "responds": [
+    "selection:9e077f646f2a92f61319f141"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman said that he and his kind do not convince by arguments but by their presence."
+  }
+ ],
+ "library": {
+  "acts-called-christians-first": {
+   "text": "And when he had found him, he brought him unto Antioch. And it came to pass, that a whole year they assembled themselves with the church, and taught much people. And the disciples were called Christians first in Antioch",
+   "work": "Acts 11:26",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2011%3A26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-no-respecter-of-persons": {
+   "text": "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons: But in every nation he that feareth him, and worketh righteousness, is accepted with him",
+   "work": "Acts 10:34–35",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2010%3A34-35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-no-greater-burden": {
+   "text": "For it seemed good to the Holy Ghost, and to us, to lay upon you no greater burden than these necessary things; That ye abstain from meats offered to idols, and from blood, and from things strangled, and from fornication: from which if ye keep yourselves, ye shall do well. Fare ye well",
+   "work": "Acts 15:28–29",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2015%3A28-29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-he-that-is-not-with-me": {
+   "text": "He that is not with me is against me; and he that gathereth not with me scattereth abroad",
+   "work": "Matthew 12:30",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-by-this-shall-all-men-know": {
+   "text": "By this shall all men know that ye are my disciples, if ye have love one to another",
+   "work": "John 13:35",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2013%3A35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-neither-jew-nor-greek": {
+   "text": "There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus",
+   "work": "Galatians 3:28",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%203%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-who-is-my-mother": {
+   "text": "For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother",
+   "work": "Matthew 12:50",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A50&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-named-you-muslims": {
+   "text": "He hath named you Muslims of old time and in this (Scripture), that the messenger may be a witness against you, and that ye may be witnesses against mankind",
+   "work": "Qur’an 22:78",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=22&verse=78",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-colour-of-allah": {
+   "text": "(We take our) colour from Allah, and who is better than Allah at colouring. We are His worshippers.",
+   "work": "Qur’an 2:138",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=138",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
