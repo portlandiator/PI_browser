@@ -1,0 +1,833 @@
+{
+ "format": 2,
+ "slug": "secondbirth",
+ "subject": "E8C84F900ED34DA98391B4A8593684E1",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 55,
+ "quotations": 65,
+ "kept": [
+  "source:BH00002",
+  "source:ABU0614",
+  "source:ABU0941",
+  "source:AB00268",
+  "source:ABU2875",
+  "source:ABU0857",
+  "source:ABU1225",
+  "source:ABU0407",
+  "source:ABU0100",
+  "source:ABU2406",
+  "source:ABU0024",
+  "source:ABU1725",
+  "source:ABU0138",
+  "source:ABU0495",
+  "source:ABU0054",
+  "source:ABU3236",
+  "source:ABU2403",
+  "source:ABU0109",
+  "source:AB00016",
+  "source:ABU0185",
+  "source:ABU0667",
+  "source:ABU0214",
+  "source:ABU1477",
+  "source:ABU0977",
+  "source:AB04710",
+  "source:ABU1182",
+  "source:AB00600",
+  "source:AB00538",
+  "source:AB03015",
+  "source:ABU0020",
+  "source:AB00801",
+  "source:ABU1000",
+  "source:ABU2657",
+  "source:BH00012",
+  "source:BH00698",
+  "source:ABU1141",
+  "source:ABU0845",
+  "source:ABU0767",
+  "source:ABU0809",
+  "source:ABU1485",
+  "source:ABU2102",
+  "source:AB11550",
+  "source:AB02880",
+  "source:ABU1150",
+  "source:AB06454",
+  "source:AB06424",
+  "source:AB06488",
+  "source:AB12634",
+  "source:AB03148",
+  "source:ABU0758",
+  "source:ABU1901",
+  "source:BH04231",
+  "source:BH06245",
+  "selection:43b172348fe679886c96b016",
+  "selection:a061470a82fd64a39c27b6e4"
+ ],
+ "introduction": "These readings take up the saying of Jesus to Nicodemus, that one must be born again. They compare the present life to the womb: a child there has eyes and ears it cannot yet use, and a person must likewise be born out of the world of nature into the life of the spirit, by water, spirit and the fire of the love of God. The signs are a changed character. Beside them stand the Gospel scene itself and other passages on new hearts, new creatures, awakening from sleep and the pain of birth, with Plato's cave, Augustine, Wesley and Thoreau. Other voices understand rebirth differently or question it: the Gita's change of garments, Wordsworth's birth as forgetting, Mencius on a nature that needs no remaking, Vivekananda on growth within one's own religion, and Eliot's cruel April.",
+ "questions": [
+  "The readings compare this life to the womb, where organs are formed whose use is not yet understood. What capacities are you forming now whose full use you cannot yet see?",
+  "Nicodemus took the words literally. What did he fail to understand, and what does his question get right about how hard it is to begin again?",
+  "The signs of a second birth are said to be changes of character that others can see. What change in a person have you witnessed that deserved the name?",
+  "The Gita speaks of the spirit taking new bodies, and the readings of a new birth within this life. What difference does it make which is meant?",
+  "One reading says a person must become a Bahá’í to be born anew; Vivekananda says each should grow by the law of their own faith. How do you understand the relation between a new life and a new allegiance?",
+  "Several passages say that birth is painful. What has spiritual growth cost you?"
+ ],
+ "outside": [
+  {
+   "id": "john-teacher-come-from-god",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The saying about being born again was first spoken to Nicodemus, a ruler who came to Jesus by night and called him a teacher come from God."
+  },
+  {
+   "id": "john-except-a-man-be-born-again",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "complement",
+   "why": "Nicodemus asked: how can a man be born when he is old? What is right, and what is mistaken, in his taking the words literally?"
+  },
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:ABU0614",
+   "responds": [
+    "source:ABU0614"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that every one that loveth is born of God, and knoweth God."
+  },
+  {
+   "id": "corinthians-new-creature",
+   "after": "source:ABU0941",
+   "responds": [
+    "source:ABU0941"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that if any man be in Christ he is a new creature: old things are passed away; behold, all things are become new."
+  },
+  {
+   "id": "ephesians-put-on-the-new-man",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Ephesians asks its readers to put off the old man and put on the new."
+  },
+  {
+   "id": "ezekiel-new-heart",
+   "after": "source:ABU2875",
+   "responds": [
+    "source:ABU2875"
+   ],
+   "relation": "adjacent",
+   "why": "Through Ezekiel God promises: a new heart also will I give you, and a new spirit will I put within you."
+  },
+  {
+   "id": "acts-scales-fell-from-his-eyes",
+   "after": "source:ABU0857",
+   "responds": [
+    "source:ABU0857"
+   ],
+   "relation": "adjacent",
+   "why": "Saul the persecutor was visited by Ananias, and there fell from his eyes as it had been scales, and he arose and was baptized."
+  },
+  {
+   "id": "twain-pray-a-lie",
+   "after": "source:ABU0857",
+   "responds": [
+    "source:ABU0857"
+   ],
+   "relation": "complement",
+   "why": "Huckleberry Finn found he could not pray while letting on to give up sin and holding on to it inside. What stands in the way of becoming a new creation, even for someone who wants it?"
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:ABU1225",
+   "responds": [
+    "source:ABU1225"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the signs: the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith."
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:ABU0407",
+   "responds": [
+    "source:ABU0407"
+   ],
+   "relation": "adjacent",
+   "why": "Plato imagined human beings living from childhood in an underground den, who would have to be turned and led up to see the light."
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:ABU0407",
+   "responds": [
+    "source:ABU0407"
+   ],
+   "relation": "contrast",
+   "why": "The Bhagavad Gita says that as a man lays aside worn-out robes and takes new ones, so the spirit puts by its garb of flesh and passes to another. How does a second birth within this life differ from being born again into another body?"
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:ABU0100",
+   "responds": [
+    "source:ABU0100"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth held that our birth is but a sleep and a forgetting, and that the soul comes trailing clouds of glory from God. Is birth into this world a coming into light, or a going out of it?"
+  },
+  {
+   "id": "matthew-become-as-little-children",
+   "after": "source:ABU2406",
+   "responds": [
+    "source:ABU2406"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: except ye be converted, and become as little children, ye shall not enter into the kingdom of heaven."
+  },
+  {
+   "id": "peter-newborn-babes",
+   "after": "source:ABU2406",
+   "responds": [
+    "source:ABU2406"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of Peter says: as newborn babes, desire the sincere milk of the word, that ye may grow thereby."
+  },
+  {
+   "id": "john-blind-now-i-see",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "The man healed in John's Gospel says: one thing I know, that, whereas I was blind, now I see."
+  },
+  {
+   "id": "romans-newness-of-life",
+   "after": "source:ABU1725",
+   "responds": [
+    "source:ABU1725"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that as Christ was raised from the dead, even so we also should walk in newness of life."
+  },
+  {
+   "id": "john-born-not-of-blood",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of those who were born, not of blood, nor of the will of the flesh, but of God."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:ABU0495",
+   "responds": [
+    "source:ABU0495"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see through a glass, darkly, but then face to face."
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the natural man receiveth not the things of the Spirit, for they are foolishness unto him."
+  },
+  {
+   "id": "avot-vestibule",
+   "after": "source:ABU3236",
+   "responds": [
+    "source:ABU3236"
+   ],
+   "relation": "adjacent",
+   "why": "Rabbi Jacob said that this world is like a vestibule before the world to come: prepare yourself in the vestibule."
+  },
+  {
+   "id": "luke-kingdom-within-you",
+   "after": "source:ABU2403",
+   "responds": [
+    "source:ABU2403"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that the kingdom of God cometh not with observation, for the kingdom of God is within you."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the first man is of the earth, earthy, and that the natural comes first and afterward the spiritual."
+  },
+  {
+   "id": "tennyson-working-out-the-beast",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson urged: arise and fly the reeling faun; move upward, working out the beast."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "contrast",
+   "why": "Mencius taught that human nature tends to good as water tends to flow downwards. Must a person be born again out of nature, or only allowed to follow it?"
+  },
+  {
+   "id": "romans-carnally-minded",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that to be carnally minded is death, but to be spiritually minded is life and peace."
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures the soul as a charioteer with two horses, one noble and one of the opposite breed."
+  },
+  {
+   "id": "john-passed-from-death-unto-life",
+   "after": "source:ABU0667",
+   "responds": [
+    "source:ABU0667"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that he that heareth and believeth is passed from death unto life."
+  },
+  {
+   "id": "galatians-flesh-lusteth-against-spirit",
+   "after": "source:ABU0214",
+   "responds": [
+    "source:ABU0214"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the flesh lusteth against the Spirit, and the Spirit against the flesh."
+  },
+  {
+   "id": "john-wind-bloweth-where-it-listeth",
+   "after": "source:ABU1477",
+   "responds": [
+    "source:ABU1477"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that the wind bloweth where it listeth, and so is every one that is born of the Spirit."
+  },
+  {
+   "id": "matthew-baptize-with-fire",
+   "after": "source:ABU0977",
+   "responds": [
+    "source:ABU0977"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist said that the one coming after him would baptize with the Holy Ghost and with fire."
+  },
+  {
+   "id": "titus-washing-of-regeneration",
+   "after": "source:AB04710",
+   "responds": [
+    "source:AB04710"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to Titus speaks of the washing of regeneration, and renewing of the Holy Ghost."
+  },
+  {
+   "id": "acts-cloven-tongues-of-fire",
+   "after": "source:ABU1182",
+   "responds": [
+    "source:ABU1182"
+   ],
+   "relation": "adjacent",
+   "why": "At Pentecost there appeared cloven tongues like as of fire, and it sat upon each of them."
+  },
+  {
+   "id": "quran-colour-of-allah",
+   "after": "source:AB00600",
+   "responds": [
+    "source:AB00600"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: we take our colour from God, and who is better than God at colouring?"
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:AB00600",
+   "responds": [
+    "source:AB00600"
+   ],
+   "relation": "adjacent",
+   "why": "In Revelation the one seated on the throne says: behold, I make all things new."
+  },
+  {
+   "id": "colossians-put-on-the-new-man",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Colossians speaks of the new man, which is renewed in knowledge after the image of him that created him."
+  },
+  {
+   "id": "quran-dead-raised-to-life",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks whether he who was dead and was raised to life, with a light to walk by, is like one in utter darkness."
+  },
+  {
+   "id": "psalm-clean-heart",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays: create in me a clean heart, O God, and renew a right spirit within me."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:AB03015",
+   "responds": [
+    "source:AB03015"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis tells of a beginning in which God said, Let there be light, and there was light."
+  },
+  {
+   "id": "isaiah-new-thing",
+   "after": "source:ABU0020",
+   "responds": [
+    "source:ABU0020"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears: remember ye not the former things; behold, I will do a new thing."
+  },
+  {
+   "id": "john-life-eternal-know",
+   "after": "source:AB00801",
+   "responds": [
+    "source:AB00801"
+   ],
+   "relation": "adjacent",
+   "why": "In John's Gospel Jesus says: this is life eternal, that they might know Thee, the only true God."
+  },
+  {
+   "id": "ephesians-quickened-together",
+   "after": "source:AB00801",
+   "responds": [
+    "source:AB00801"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Ephesians says that God, rich in mercy, hath quickened us together when we were dead."
+  },
+  {
+   "id": "john-epistle-overcometh-the-world",
+   "after": "source:ABU1000",
+   "responds": [
+    "source:ABU1000"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that whatsoever is born of God overcometh the world, and the victory is our faith."
+  },
+  {
+   "id": "vivekananda-own-law",
+   "after": "source:ABU2657",
+   "responds": [
+    "source:ABU2657"
+   ],
+   "relation": "contrast",
+   "why": "Vivekananda told the Parliament of Religions that the Christian is not to become a Hindu, nor the Hindu a Christian, but each must grow according to his own law of growth. Is a new birth a change of religion, or something that can happen within any?"
+  },
+  {
+   "id": "quran-whoever-believeth-and-doeth-right",
+   "after": "source:ABU2657",
+   "responds": [
+    "source:ABU2657"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an says that those who believe, and Jews, Christians and Sabaeans, whoever believes in God and the Last Day and does right, shall have their reward. What is the relation between a new name and a new life?"
+  },
+  {
+   "id": "matthew-new-wine",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that men do not put new wine into old bottles."
+  },
+  {
+   "id": "ephesians-awake-thou-that-sleepest",
+   "after": "source:BH00698",
+   "responds": [
+    "source:BH00698"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Ephesians quotes: awake thou that sleepest, and arise from the dead."
+  },
+  {
+   "id": "john-lazarus-come-forth",
+   "after": "source:ABU1141",
+   "responds": [
+    "source:ABU1141"
+   ],
+   "relation": "adjacent",
+   "why": "At the tomb Jesus cried with a loud voice, Lazarus, come forth, and he that was dead came forth."
+  },
+  {
+   "id": "romans-high-time-to-awake",
+   "after": "source:ABU1141",
+   "responds": [
+    "source:ABU1141"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: it is high time to awake out of sleep; the night is far spent, the day is at hand."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:ABU0845",
+   "responds": [
+    "source:ABU0845"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises that the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "thoreau-only-that-day-dawns",
+   "after": "source:ABU0767",
+   "responds": [
+    "source:ABU0767"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau ends his book: only that day dawns to which we are awake."
+  },
+  {
+   "id": "thoreau-expectation-of-the-dawn",
+   "after": "source:ABU0767",
+   "responds": [
+    "source:ABU0767"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau wrote that to be awake is to be alive, and that he had never yet met a man who was quite awake."
+  },
+  {
+   "id": "john-woman-in-travail",
+   "after": "source:ABU0809",
+   "responds": [
+    "source:ABU0809"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that a woman in travail hath sorrow, but remembereth no more the anguish, for joy that a man is born into the world."
+  },
+  {
+   "id": "galatians-travail-in-birth-again",
+   "after": "source:ABU0809",
+   "responds": [
+    "source:ABU0809"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls the Galatians my little children, of whom I travail in birth again until Christ be formed in you."
+  },
+  {
+   "id": "eliot-cruellest-month",
+   "after": "source:ABU0809",
+   "responds": [
+    "source:ABU0809"
+   ],
+   "relation": "complement",
+   "why": "T. S. Eliot begins a poem: April is the cruellest month, breeding lilacs out of the dead land, stirring dull roots with spring rain. Why would being brought to life be felt as cruelty?"
+  },
+  {
+   "id": "dhammapada-platted-hair",
+   "after": "source:ABU1485",
+   "responds": [
+    "source:ABU1485"
+   ],
+   "relation": "complement",
+   "why": "The Dhammapada says that a man does not become a Brahmana, one of the twice-born, by his family or by birth, but by truth and righteousness. What marks a second birth as real?"
+  },
+  {
+   "id": "john-servant-of-sin",
+   "after": "source:ABU2102",
+   "responds": [
+    "source:ABU2102"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: verily, verily, I say unto you, whosoever committeth sin is the servant of sin."
+  },
+  {
+   "id": "rousseau-moral-liberty",
+   "after": "source:ABU2102",
+   "responds": [
+    "source:ABU2102"
+   ],
+   "relation": "adjacent",
+   "why": "Rousseau held that the mere impulse of appetite is slavery, while obedience to a law we prescribe to ourselves is liberty."
+  },
+  {
+   "id": "shakespeare-sea-change",
+   "after": "source:AB11550",
+   "responds": [
+    "source:AB11550"
+   ],
+   "relation": "complement",
+   "why": "Ariel sings of a drowned man who suffers a sea-change into something rich and strange. How much of the old self remains in the new creature?"
+  },
+  {
+   "id": "ezekiel-breath",
+   "after": "source:AB02880",
+   "responds": [
+    "source:AB02880"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel prophesied to the wind, and the breath came into the slain, and they lived."
+  },
+  {
+   "id": "isaiah-eyes-of-the-blind-opened",
+   "after": "source:ABU1150",
+   "responds": [
+    "source:ABU1150"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped."
+  },
+  {
+   "id": "wesley-strangely-warmed",
+   "after": "source:AB06454",
+   "responds": [
+    "source:AB06454"
+   ],
+   "relation": "adjacent",
+   "why": "John Wesley wrote that he felt his heart strangely warmed, and an assurance was given him."
+  },
+  {
+   "id": "augustine-take-up-and-read",
+   "after": "source:AB06424",
+   "responds": [
+    "source:AB06424"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine heard a child's voice chanting, take up and read, and the reading changed his life."
+  },
+  {
+   "id": "luke-was-dead-and-is-alive-again",
+   "after": "source:AB12634",
+   "responds": [
+    "source:AB12634"
+   ],
+   "relation": "adjacent",
+   "why": "The father in the parable says: this my son was dead, and is alive again; he was lost, and is found."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:ABU0758",
+   "responds": [
+    "source:ABU0758"
+   ],
+   "relation": "complement",
+   "why": "Jesus said that except a corn of wheat fall into the ground and die, it abideth alone, but if it die it bringeth forth much fruit. What has to die for a second birth to take place?"
+  },
+  {
+   "id": "donne-batter-my-heart",
+   "after": "selection:a061470a82fd64a39c27b6e4",
+   "responds": [
+    "selection:a061470a82fd64a39c27b6e4"
+   ],
+   "relation": "complement",
+   "why": "John Donne asks God to batter his heart, to break, blow, burn and make him new. Is a second birth something a person achieves, or something done to them?"
+  }
+ ],
+ "library": {
+  "romans-newness-of-life": {
+   "text": "Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life",
+   "work": "Romans 6:4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%206%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-travail-in-birth-again": {
+   "text": "My little children, of whom I travail in birth again until Christ be formed in you",
+   "work": "Galatians 4:19",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%204%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "titus-washing-of-regeneration": {
+   "text": "Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost",
+   "work": "Titus 3:5",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Titus%203%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-was-dead-and-is-alive-again": {
+   "text": "For this my son was dead, and is alive again; he was lost, and is found. And they began to be merry",
+   "work": "Luke 15:24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2015%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-scales-fell-from-his-eyes": {
+   "text": "And Ananias went his way, and entered into the house; and putting his hands on him said, Brother Saul, the Lord, even Jesus, that appeared unto thee in the way as thou camest, hath sent me, that thou mightest receive thy sight, and be filled with the Holy Ghost. And immediately there fell from his eyes as it had been scales: and he received sight forthwith, and arose, and was baptized",
+   "work": "Acts 9:17–18",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%209%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "colossians-put-on-the-new-man": {
+   "text": "seeing that ye have put off the old man with his deeds; And have put on the new man, which is renewed in knowledge after the image of him that created him",
+   "work": "Colossians 3:9–10",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Colossians%203%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-except-a-man-be-born-again": {
+   "text": "Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother's womb, and be born",
+   "work": "John 3:4",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%203%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
