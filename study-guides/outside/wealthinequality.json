@@ -1,0 +1,1209 @@
+{
+ "format": 2,
+ "slug": "wealthinequality",
+ "subject": "A8B7BAB865C1EDFF1E086B0B1C1C8B38",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 54,
+ "quotations": 63,
+ "kept": [
+  "source:AB00099",
+  "source:ABU0042",
+  "source:ABU0091",
+  "source:ABU2299",
+  "source:ABU0462",
+  "source:ABU0051",
+  "source:ABU0056",
+  "source:ABU0192",
+  "source:AB11089",
+  "source:ABU0124",
+  "source:ABU1663",
+  "source:ABU3120",
+  "source:ABU3748",
+  "source:AB04851",
+  "source:ABU0606",
+  "source:AB05128",
+  "source:ABU1216",
+  "source:ABU0034",
+  "source:BH00001",
+  "source:ABU3325",
+  "source:ABU3036",
+  "source:ABU0277",
+  "source:ABU2832",
+  "source:ABU3190",
+  "source:ABU3026",
+  "source:AB05171",
+  "source:AB01534",
+  "source:ABU2253",
+  "source:ABU0689",
+  "source:BH04200",
+  "source:BH00021",
+  "source:ABU3000",
+  "source:ABU0731",
+  "source:ABU0991",
+  "source:ABU1198",
+  "source:AB00793",
+  "source:ABU1508",
+  "source:ABU0152",
+  "source:ABU2221",
+  "source:ABU1527",
+  "source:ABU0656",
+  "source:ABU0933",
+  "source:ABU0437",
+  "source:ABU1843",
+  "source:AB05888",
+  "source:AB12612",
+  "source:ABU3174",
+  "source:BH00718",
+  "source:ABU2659",
+  "source:ABU2934",
+  "source:ABU2571",
+  "source:ABU1047",
+  "source:ABU3667",
+  "selection:6023c0155a84cbd910fa22ce"
+ ],
+ "introduction": "The guide describes a world in which wealth has gathered into a few hands while the many toil, and proposes neither levelling nor indifference: degrees will remain, but no one should be destitute; law should set limits and secure a share; and beyond law the rich should give of their own will. Its sixty-three quotations are read here with sixty-three from elsewhere. The law of Moses leaves the gleanings for the poor, returns land at the jubilee and pays the labourer before sunset; the prophets denounce those who join house to house; the Qur’an forbids wealth to circulate only among the rich and gives the beggar a due share; Paul asks for an equality between churches and for giving that is not of necessity. Lao Tzu, Aristotle, Adam Smith, Ruskin and Roosevelt say in their own terms that a society is judged by its poor. The harder questions come from Douglass, who doubts that power yields without demand; from Smith’s butcher, who serves from interest and not kindness; from Carnegie, on whether private giving is enough; and from the sayings that the poor are always with us and that to those who have shall be given.",
+ "questions": [
+  "The guide wants moderation of extremes and not equality. Where would you draw the line between a difference of degree and an injustice?",
+  "It hopes the rich will give willingly, and it also calls for laws. What can each do that the other cannot?",
+  "Douglass says progress does not come without struggle. How does the guide's hope for cooperation between capital and labour answer him?",
+  "Gleanings, jubilee, tithes and alms were all built into the law of older communities. What would their equivalents be in an economy like yours?",
+  "Several readings call the poor blessed, and Proverbs says the poor are hated by their neighbours. How can poverty be honoured without being excused?",
+  "The guide says the solution begins with the village. What would it mean to begin there?"
+ ],
+ "outside": [
+  {
+   "id": "isaiah-join-house-to-house",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah pronounces woe on those who join house to house and lay field to field, till there be no place left."
+  },
+  {
+   "id": "quran-not-a-commodity-between-the-rich",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an assigns a share to orphans, the needy and the wayfarer so that wealth become not a commodity between the rich."
+  },
+  {
+   "id": "goldsmith-ill-fares-the-land",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "Goldsmith's verdict on such a country is that ill fares the land where wealth accumulates and men decay."
+  },
+  {
+   "id": "tao-way-of-heaven-diminishes-superabundance",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu says that the Way of Heaven diminishes superabundance and supplements deficiency, and that the way of man does the opposite."
+  },
+  {
+   "id": "ecclesiastes-not-satisfied-with-silver",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher observes that he that loveth silver shall not be satisfied with silver, nor he that loveth abundance with increase."
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:ABU0042",
+   "responds": [
+    "source:ABU0042"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi asks the question on which one family rests: have we not all one father? hath not one God created us?"
+  },
+  {
+   "id": "roosevelt-test-of-our-progress",
+   "after": "source:ABU0091",
+   "responds": [
+    "source:ABU0091"
+   ],
+   "relation": "adjacent",
+   "why": "Roosevelt said that the test of progress is not whether we add to the abundance of those who have much, but whether we provide enough for those who have too little."
+  },
+  {
+   "id": "luke-lazarus-at-the-gate",
+   "after": "source:ABU2299",
+   "responds": [
+    "source:ABU2299"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus's parable sets a rich man who fared sumptuously every day beside a beggar laid at his gate, full of sores."
+  },
+  {
+   "id": "proverbs-neither-poverty-nor-riches",
+   "after": "source:ABU0462",
+   "responds": [
+    "source:ABU0462"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer in Proverbs asks for neither poverty nor riches, but food convenient for the one who prays."
+  },
+  {
+   "id": "aristotle-citizens-of-the-middle-class",
+   "after": "source:ABU0462",
+   "responds": [
+    "source:ABU0462"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that the best political community is formed by citizens of the middle class, and that states are well administered where it is large."
+  },
+  {
+   "id": "corinthians-that-there-may-be-equality",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that one church's abundance supply another's want, not to burden some and ease others, but that there may be equality."
+  },
+  {
+   "id": "exodus-he-that-gathered-much",
+   "after": "source:ABU0056",
+   "responds": [
+    "source:ABU0056"
+   ],
+   "relation": "adjacent",
+   "why": "Of the manna Exodus says that he that gathered much had nothing over, and he that gathered little had no lack."
+  },
+  {
+   "id": "quran-beggar-and-outcast-had-due-share",
+   "after": "source:ABU0192",
+   "responds": [
+    "source:ABU0192"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of the righteous that in their wealth the beggar and the outcast had due share."
+  },
+  {
+   "id": "leviticus-gleanings-for-the-poor",
+   "after": "source:AB11089",
+   "responds": [
+    "source:AB11089"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus makes provision a law of the harvest: the corners of the field and the gleanings are left for the poor and the stranger."
+  },
+  {
+   "id": "leviticus-proclaim-liberty",
+   "after": "source:ABU0124",
+   "responds": [
+    "source:ABU0124"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus appoints a fiftieth year in which liberty is proclaimed and every man returns unto his possession."
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:ABU1663",
+   "responds": [
+    "source:ABU1663"
+   ],
+   "relation": "contrast",
+   "why": "Douglass said that those who favour freedom and deprecate agitation want crops without plowing up the ground. Can relief come by the goodwill of the powerful, as the guide hopes, or only when it is demanded?"
+  },
+  {
+   "id": "deuteronomy-hired-servant",
+   "after": "source:ABU3120",
+   "responds": [
+    "source:ABU3120"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy forbids oppressing a hired servant who is poor and needy, and requires that his hire be given him at his day."
+  },
+  {
+   "id": "james-hire-of-the-labourers",
+   "after": "source:ABU3748",
+   "responds": [
+    "source:ABU3748"
+   ],
+   "relation": "adjacent",
+   "why": "James says that the hire of the labourers, kept back by fraud, cries out, and that the cry has been heard."
+  },
+  {
+   "id": "smith-no-society-flourishing-and-happy",
+   "after": "source:AB04851",
+   "responds": [
+    "source:AB04851"
+   ],
+   "relation": "adjacent",
+   "why": "Adam Smith held that no society can be flourishing and happy of which the far greater part of the members are poor and miserable."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:AB04851",
+   "responds": [
+    "source:AB04851"
+   ],
+   "relation": "contrast",
+   "why": "Smith also observed that we expect our dinner from the regard of the butcher, the brewer and the baker to their own interest, not from their benevolence. Is the kindness of employers a foundation an economy can rest on?"
+  },
+  {
+   "id": "matthew-labourers-in-the-vineyard",
+   "after": "source:ABU0606",
+   "responds": [
+    "source:ABU0606"
+   ],
+   "relation": "complement",
+   "why": "In the parable the householder pays the last hired the same as those who bore the heat of the day, and says he does no wrong. Is a just wage measured by the bargain, the work, or the need?"
+  },
+  {
+   "id": "ruskin-no-wealth-but-life",
+   "after": "source:AB05128",
+   "responds": [
+    "source:AB05128"
+   ],
+   "relation": "adjacent",
+   "why": "Ruskin held that there is no wealth but life, and that the richest country is the one that nourishes the greatest number of noble and happy human beings."
+  },
+  {
+   "id": "genesis-lay-up-corn-against-the-famine",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph's counsel to Pharaoh is a common storehouse: officers to lay up corn in the good years as a store against the famine."
+  },
+  {
+   "id": "acts-all-things-common",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216"
+   ],
+   "relation": "adjacent",
+   "why": "Acts describes a community in which no one said that anything he possessed was his own, and distribution was made as each had need."
+  },
+  {
+   "id": "malachi-windows-of-heaven",
+   "after": "source:ABU0034",
+   "responds": [
+    "source:ABU0034"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi asks that all the tithes be brought into the storehouse, that there may be meat in the house."
+  },
+  {
+   "id": "quran-alms-wherewith-thou-mayst-purify",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells its Prophet to take alms of their wealth, wherewith he may purify them."
+  },
+  {
+   "id": "carnegie-dies-thus-rich-dies-disgraced",
+   "after": "source:ABU3325",
+   "responds": [
+    "source:ABU3325"
+   ],
+   "relation": "complement",
+   "why": "Carnegie wrote that the man who dies thus rich dies disgraced. Is a rich man's own giving enough, or must law also limit what may be left?"
+  },
+  {
+   "id": "leviticus-land-is-mine",
+   "after": "source:ABU3036",
+   "responds": [
+    "source:ABU3036"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus limits all ownership of land: it shall not be sold for ever, for the land is mine, and ye are sojourners with me."
+  },
+  {
+   "id": "rousseau-everywhere-in-chains",
+   "after": "source:ABU0277",
+   "responds": [
+    "source:ABU0277"
+   ],
+   "relation": "adjacent",
+   "why": "Rousseau opens with the complaint the socialists took up: man is born free, and everywhere he is in chains."
+  },
+  {
+   "id": "acts-was-it-not-thine-own",
+   "after": "source:ABU2832",
+   "responds": [
+    "source:ABU2832"
+   ],
+   "relation": "complement",
+   "why": "Peter says of a possession that while it remained it was the owner's own, and after it was sold it was in his own power. What does that say about sharing that is compelled?"
+  },
+  {
+   "id": "thessalonians-neither-should-he-eat",
+   "after": "source:ABU2832",
+   "responds": [
+    "source:ABU2832"
+   ],
+   "relation": "complement",
+   "why": "Paul's rule among his converts was that if any would not work, neither should he eat. Where does that rule sit in a community that shares its goods?"
+  },
+  {
+   "id": "luke-zacchaeus-fourfold",
+   "after": "source:ABU3026",
+   "responds": [
+    "source:ABU3026"
+   ],
+   "relation": "adjacent",
+   "why": "Zacchaeus, a rich man, stands and gives half of his goods to the poor, and restores fourfold what he took wrongly."
+  },
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:AB05171",
+   "responds": [
+    "source:AB05171"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks each to give as he purposes in his heart, not grudgingly or of necessity, for God loveth a cheerful giver."
+  },
+  {
+   "id": "quran-prefer-above-themselves",
+   "after": "source:ABU2253",
+   "responds": [
+    "source:ABU2253"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an praises those who preferred the fugitives above themselves, though poverty was their own lot."
+  },
+  {
+   "id": "philippians-esteem-other-better",
+   "after": "source:ABU2253",
+   "responds": [
+    "source:ABU2253"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that in lowliness of mind each esteem other better than themselves."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU0689",
+   "responds": [
+    "source:ABU0689"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter asks how the love of God dwells in one who has this world's good, sees a brother in need, and shuts up his compassion."
+  },
+  {
+   "id": "luke-two-coats",
+   "after": "source:BH04200",
+   "responds": [
+    "source:BH04200"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist's answer to 'what shall we do?' is that he that hath two coats should impart to him that hath none."
+  },
+  {
+   "id": "quran-raised-some-above-others-in-rank",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that livelihood is apportioned and some are raised above others in rank, so that some may take labour from others."
+  },
+  {
+   "id": "jeremiah-buildeth-his-house-by-unrighteousness",
+   "after": "source:ABU3000",
+   "responds": [
+    "source:ABU3000"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah pronounces woe on him that builds his house by unrighteousness and uses his neighbour's service without wages."
+  },
+  {
+   "id": "luke-call-the-poor-to-thy-feast",
+   "after": "source:ABU0731",
+   "responds": [
+    "source:ABU0731"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells a host, when he makes a feast, to call the poor, the maimed, the lame and the blind, who cannot recompense him."
+  },
+  {
+   "id": "isaiah-is-not-this-the-fast",
+   "after": "source:ABU0991",
+   "responds": [
+    "source:ABU0991"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the fast God has chosen is to undo the heavy burdens and to deal thy bread to the hungry."
+  },
+  {
+   "id": "proverbs-rich-and-poor-meet-together",
+   "after": "source:AB00793",
+   "responds": [
+    "source:AB00793"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the rich and poor meet together, and that the Lord is the maker of them all."
+  },
+  {
+   "id": "quran-favoured-some-above-others-in-provision",
+   "after": "source:AB00793",
+   "responds": [
+    "source:AB00793"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an states as a fact that God has favoured some above others in provision."
+  },
+  {
+   "id": "matthew-poor-always",
+   "after": "source:AB00793",
+   "responds": [
+    "source:AB00793"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that the poor are always with you. Is that a description to be accepted, or a condition to be changed?"
+  },
+  {
+   "id": "analects-enrich-them-teach-them",
+   "after": "source:ABU1508",
+   "responds": [
+    "source:ABU1508"
+   ],
+   "relation": "adjacent",
+   "why": "Asked what should be done for a numerous people, Confucius answers: enrich them, and when they have been enriched, teach them."
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:ABU0152",
+   "responds": [
+    "source:ABU0152"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the master gives to one servant five talents, to another two and to another one, to every man according to his ability."
+  },
+  {
+   "id": "matthew-whosoever-hath",
+   "after": "source:ABU0152",
+   "responds": [
+    "source:ABU0152"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says that to whoever has shall be given, and from whoever has not shall be taken away even that he has. Is that a law of how things are, or a warning about them?"
+  },
+  {
+   "id": "luke-blessed-be-ye-poor-woe-unto-you-rich",
+   "after": "source:ABU0656",
+   "responds": [
+    "source:ABU0656"
+   ],
+   "relation": "adjacent",
+   "why": "In Luke the blessing on the poor, the hungry and the weeping is followed by a woe upon the rich, who have received their consolation."
+  },
+  {
+   "id": "james-poor-rich-in-faith",
+   "after": "source:ABU0656",
+   "responds": [
+    "source:ABU0656"
+   ],
+   "relation": "adjacent",
+   "why": "James asks whether God has not chosen the poor of this world, rich in faith, to be heirs of the kingdom."
+  },
+  {
+   "id": "proverbs-oppresseth-the-poor-reproacheth",
+   "after": "source:ABU0933",
+   "responds": [
+    "source:ABU0933"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he that oppresseth the poor reproacheth his Maker, and he that honours him has mercy on the poor."
+  },
+  {
+   "id": "mark-widows-mites",
+   "after": "source:ABU0437",
+   "responds": [
+    "source:ABU0437"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus watches the rich cast in much, and a certain poor widow throw in two mites which make a farthing."
+  },
+  {
+   "id": "timothy-godliness-with-contentment",
+   "after": "source:ABU0437",
+   "responds": [
+    "source:ABU0437"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls godliness with contentment great gain, since we brought nothing into this world and can carry nothing out."
+  },
+  {
+   "id": "proverbs-poor-is-hated",
+   "after": "source:ABU0437",
+   "responds": [
+    "source:ABU0437"
+   ],
+   "relation": "contrast",
+   "why": "Proverbs observes that the poor is hated even of his own neighbour, while the rich hath many friends. Can poverty be called a blessing by anyone who is not poor?"
+  },
+  {
+   "id": "timothy-rich-in-good-works",
+   "after": "source:ABU1843",
+   "responds": [
+    "source:ABU1843"
+   ],
+   "relation": "adjacent",
+   "why": "Paul charges the rich not to be highminded nor to trust in uncertain riches, but to be rich in good works."
+  },
+  {
+   "id": "matthew-camel-through-the-eye-of-a-needle",
+   "after": "source:AB05888",
+   "responds": [
+    "source:AB05888"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying referred to: a rich man shall hardly enter the kingdom, and a camel goes more easily through the eye of a needle."
+  },
+  {
+   "id": "samuel-raiseth-up-the-poor",
+   "after": "source:AB12612",
+   "responds": [
+    "source:AB12612"
+   ],
+   "relation": "adjacent",
+   "why": "Hannah's song says that the Lord maketh poor and maketh rich, and raiseth up the poor out of the dust."
+  },
+  {
+   "id": "corinthians-as-poor-yet-making-many-rich",
+   "after": "source:ABU3174",
+   "responds": [
+    "source:ABU3174"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes himself and his companions as poor, yet making many rich; as having nothing, and yet possessing all things."
+  },
+  {
+   "id": "timothy-love-of-money",
+   "after": "source:BH00718",
+   "responds": [
+    "source:BH00718"
+   ],
+   "relation": "adjacent",
+   "why": "Paul warns that they that will be rich fall into a snare, and that the love of money is the root of all evil."
+  },
+  {
+   "id": "deuteronomy-open-thine-hand",
+   "after": "source:ABU2659",
+   "responds": [
+    "source:ABU2659"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy forbids hardening the heart or shutting the hand against a poor brother."
+  },
+  {
+   "id": "matthew-alms-before-men",
+   "after": "source:ABU2571",
+   "responds": [
+    "source:ABU2571"
+   ],
+   "relation": "complement",
+   "why": "Jesus warns against doing alms before men, to be seen of them. How does a community organise its charity and still keep the giver out of sight?"
+  },
+  {
+   "id": "proverbs-lendeth-unto-the-lord",
+   "after": "source:ABU1047",
+   "responds": [
+    "source:ABU1047"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he that hath pity upon the poor lendeth unto the Lord."
+  },
+  {
+   "id": "blake-dark-satanic-mills",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "adjacent",
+   "why": "Blake asks whether Jerusalem was builded here, among these dark Satanic mills."
+  },
+  {
+   "id": "deuteronomy-poor-shall-never-cease",
+   "after": "selection:6023c0155a84cbd910fa22ce",
+   "responds": [
+    "selection:6023c0155a84cbd910fa22ce"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy joins realism and command: the poor shall never cease out of the land, therefore open thine hand wide."
+  }
+ ],
+ "library": {
+  "leviticus-gleanings-for-the-poor": {
+   "text": "And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleanings of thy harvest. And thou shalt not glean thy vineyard, neither shalt thou gather every grape of thy vineyard; thou shalt leave them for the poor and stranger: I am the Lord your God",
+   "work": "Leviticus 19:9–10",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2019%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "leviticus-proclaim-liberty": {
+   "text": "And ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family",
+   "work": "Leviticus 25:10",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2025%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-poor-shall-never-cease": {
+   "text": "For the poor shall never cease out of the land: therefore I command thee, saying, Thou shalt open thine hand wide unto thy brother, to thy poor, and to thy needy, in thy land",
+   "work": "Deuteronomy 15:11",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2015%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-he-that-gathered-much": {
+   "text": "And the children of Israel did so, and gathered, some more, some less. And when they did mete it with an omer, he that gathered much had nothing over, and he that gathered little had no lack; they gathered every man according to his eating",
+   "work": "Exodus 16:17–18",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2016%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-oppresseth-the-poor-reproacheth": {
+   "text": "He that oppresseth the poor reproacheth his Maker: but he that honoureth him hath mercy on the poor",
+   "work": "Proverbs 14:31",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2014%3A31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-join-house-to-house": {
+   "text": "Woe unto them that join house to house, that lay field to field, till there be no place, that they may be placed alone in the midst of the earth",
+   "work": "Isaiah 5:8",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%205%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-blessed-be-ye-poor-woe-unto-you-rich": {
+   "text": "Blessed be ye poor: for yours is the kingdom of God. Blessed are ye that hunger now: for ye shall be filled. Blessed are ye that weep now: for ye shall laugh. Blessed are ye, when men shall hate you, and when they shall separate you from their company, and shall reproach you, and cast out your name as evil, for the Son of man's sake. Rejoice ye in that day, and leap for joy: for, behold, your reward is great in heaven: for in the like manner did their fathers unto the prophets. But woe unto you that are rich! for ye have received your consolation",
+   "work": "Luke 6:20–24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%206%3A20-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-camel-through-the-eye-of-a-needle": {
+   "text": "Jesus said unto him, If thou wilt be perfect, go and sell that thou hast, and give to the poor, and thou shalt have treasure in heaven: and come and follow me. But when the young man heard that saying, he went away sorrowful: for he had great possessions. Then said Jesus unto his disciples, Verily I say unto you, That a rich man shall hardly enter into the kingdom of heaven. And again I say unto you, It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God",
+   "work": "Matthew 19:21–24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2019%3A21-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-was-it-not-thine-own": {
+   "text": "Whiles it remained, was it not thine own? and after it was sold, was it not in thine own power? why hast thou conceived this thing in thine heart? thou hast not lied unto men, but unto God",
+   "work": "Acts 5:4",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%205%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-that-there-may-be-equality": {
+   "text": "For I mean not that other men be eased, and ye burdened: But by an equality, that now at this time your abundance may be a supply for their want, that their abundance also may be a supply for your want: that there may be equality: As it is written, He that had gathered much had nothing over; and he that had gathered little had no lack",
+   "work": "2 Corinthians 8:13–15",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%208%3A13-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-considereth-the-poor": {
+   "text": "Blessed is he that considereth the poor: the Lord will deliver him in time of trouble",
+   "work": "Psalm 41:1",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2041%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-not-a-commodity-between-the-rich": {
+   "text": "That which Allah giveth as spoil unto His messenger from the people of the townships, it is for Allah and His messenger and for the near of kin and the orphans and the needy and the wayfarer, that it become not a commodity between the rich among you. And whatsoever the messenger giveth you, take it. And whatsoever he forbiddeth, abstain (from it). And keep your duty to Allah. Lo! Allah is stern in reprisal.",
+   "work": "Qur’an 59:7",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=59&verse=7",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-beggar-and-outcast-had-due-share": {
+   "text": "And in their wealth the beggar and the outcast had due share.",
+   "work": "Qur’an 51:19",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=51&verse=19",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-favoured-some-above-others-in-provision": {
+   "text": "And Allah hath favoured some of you above others in provision. Now those who are more favoured will by no means hand over their provision to those (slaves) whom their right hands possess, so that they may be equal with them in respect thereof. Is it then the grace of Allah that they deny?",
+   "work": "Qur’an 16:71",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=71",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-raised-some-above-others-in-rank": {
+   "text": "Is it they who apportion thy Lord's mercy? We have apportioned among them their livelihood in the life of the world, and raised some of them above others in rank that some of them may take labour from others; and the mercy of thy Lord is better than (the wealth) that they amass.",
+   "work": "Qur’an 43:32",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=43&verse=32",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-gathered-wealth-and-arranged-it": {
+   "text": "Woe unto every slandering traducer, Who hath gathered wealth (of this world) and arranged it. He thinketh that his wealth will render him immortal",
+   "work": "Qur’an 104:1–3",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "tao-way-of-heaven-diminishes-superabundance": {
+   "text": "It is the Way of Heaven to diminish superabundance, and to supplement deficiency. It is not so with the way of man. He takes away from those who have not enough to add to his own superabundance",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 77",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "smith-no-society-flourishing-and-happy": {
+   "text": "No society can surely be flourishing and happy, of which the far greater part of the members are poor and miserable",
+   "author": "Adam Smith",
+   "work": "The Wealth of Nations",
+   "locator": "Book I, chapter 8",
+   "year": "1776",
+   "sortYear": 1776,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations/Book_I/Chapter_8",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1790."
+   }
+  },
+  "roosevelt-test-of-our-progress": {
+   "text": "The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little",
+   "author": "Franklin D. Roosevelt",
+   "work": "Second Inaugural Address",
+   "year": "1937",
+   "sortYear": 1937,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Franklin_D._Roosevelt%27s_Second_Inaugural_Address",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Work of the United States government."
+   }
+  },
+  "carnegie-dies-thus-rich-dies-disgraced": {
+   "text": "The man who dies thus rich dies disgraced",
+   "author": "Andrew Carnegie",
+   "work": "Wealth",
+   "locator": "North American Review, June 1889",
+   "year": "1889",
+   "sortYear": 1889,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_North_American_Review/Volume_148/Issue_391",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1919."
+   }
+  },
+  "ruskin-no-wealth-but-life": {
+   "text": "THERE IS NO WEALTH BUT LIFE. Life, including all its powers of love, of joy, and of admiration. That country is the richest which nourishes the greatest number of noble and happy human beings",
+   "author": "John Ruskin",
+   "work": "Unto This Last",
+   "locator": "Essay IV",
+   "year": "1860",
+   "sortYear": 1860,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Unto_This_Last_(Ruskin)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1900."
+   }
+  },
+  "aristotle-citizens-of-the-middle-class": {
+   "text": "Thus it is manifest that the best political community is formed by citizens of the middle class, and that those states are likely to be well-administered in which the middle class is large",
+   "author": "Aristotle",
+   "work": "Politics",
+   "locator": "Book IV, part 11",
+   "year": "4th century BCE",
+   "sortYear": -330,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1885",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/politics.4.four.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "genesis-lay-up-corn-against-the-famine": {
+   "text": "Let Pharaoh do this, and let him appoint officers over the land, and take up the fifth part of the land of Egypt in the seven plenteous years. And let them gather all the food of those good years that come, and lay up corn under the hand of Pharaoh, and let them keep food in the cities. And that food shall be for store to the land against the seven years of famine, which shall be in the land of Egypt; that the land perish not through the famine",
+   "work": "Genesis 41:34–36",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2041%3A34-36&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-alms-wherewith-thou-mayst-purify": {
+   "text": "Take alms of their wealth, wherewith thou mayst purify them and mayst make them grow, and pray for them. Lo! thy prayer is an assuagement for them. Allah is Hearer, Knower.",
+   "work": "Qur’an 9:103",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=103",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "corinthians-as-poor-yet-making-many-rich": {
+   "text": "As sorrowful, yet alway rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things",
+   "work": "2 Corinthians 6:10",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%206%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
