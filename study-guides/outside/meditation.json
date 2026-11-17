@@ -1,0 +1,341 @@
+{
+ "format": 2,
+ "slug": "meditation",
+ "subject": "19BF26DB7B3FE2CF0ECEEB58485A8C6D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 26,
+ "quotations": 27,
+ "kept": [
+  "source:ABU0395",
+  "source:BH01933",
+  "source:BH03346",
+  "source:AB03376",
+  "source:ABU1900",
+  "source:BH09019",
+  "source:BH11336",
+  "source:AB08924",
+  "source:BB00154",
+  "source:AB08838",
+  "source:AB02378",
+  "source:AB06807",
+  "source:AB00044",
+  "source:BH00005",
+  "source:AB00915",
+  "source:AB05247",
+  "source:AB03158",
+  "source:AB00874",
+  "source:AB04893",
+  "source:AB03512",
+  "source:ABU3486",
+  "source:BH05704",
+  "source:AB09382",
+  "source:BB00001",
+  "source:AB00034",
+  "selection:ba272631b06dc24cb83bccd9"
+ ],
+ "introduction": "These readings call meditation the key that opens the doors of mysteries, hold an hour's reflection better than seventy years of worship, and then turn to conduct: kindness to all, steadiness, a single concentrated purpose. Each of the twenty-seven quotations is read here beside one from elsewhere. Most stand alongside: the psalms on meditation by night, Elijah's still small voice, Jesus at prayer in solitary places, the Qur'an on signs for those who reflect, the Dhammapada, Marcus Aurelius, Pascal and Wordsworth. A few add a side or push back: James and Marcus Aurelius turn reflection towards the day's work, Emerson distrusts prayer that asks for things, and a saying of Jesus tells disciples not to meditate beforehand what to answer.",
+ "questions": [
+  "The readings set an hour's reflection above seventy years of worship. What is the difference between the two, as these passages and Tagore's poem describe it?",
+  "Pascal says that people cannot stay quietly in their own chamber. What makes stillness hard for you, and what do the readings say is found in it?",
+  "Why do you think a guide to meditation gives so much room to kindness and steadfastness? What does James add?",
+  "Emerson calls prayer that asks for a particular thing vicious, and one reading says to ask whatsoever thou wishest of Him alone. Can both be right?",
+  "The readings speak of thought concentrated on a single pursuit, like water gathered into one channel. What single pursuit would you choose, and what would have to be given up?"
+ ],
+ "outside": [
+  {
+   "id": "pascal-own-chamber",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal traced all the unhappiness of men to one fact, that they cannot stay quietly in their own chamber."
+  },
+  {
+   "id": "wordsworth-life-of-things",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth describes an eye made quiet by harmony and joy, with which we see into the life of things."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:BH01933",
+   "responds": [
+    "source:BH01933"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates held that the greatest good of man is daily to converse about virtue and to examine himself and others."
+  },
+  {
+   "id": "tagore-leave-this-chanting",
+   "after": "source:BH03346",
+   "responds": [
+    "source:BH03346"
+   ],
+   "relation": "adjacent",
+   "why": "Tagore tells the worshipper in a shut temple to leave the chanting and telling of beads and open his eyes."
+  },
+  {
+   "id": "dhammapada-awake-among-the-sleepers",
+   "after": "source:AB03376",
+   "responds": [
+    "source:AB03376"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada pictures the wise man as awake among the sleepers, advancing like a racer."
+  },
+  {
+   "id": "matthew-enter-into-thy-closet",
+   "after": "source:ABU1900",
+   "responds": [
+    "source:ABU1900"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells the one who prays to enter a closet, shut the door and pray in secret."
+  },
+  {
+   "id": "mark-a-great-while-before-day",
+   "after": "source:ABU1900",
+   "responds": [
+    "source:ABU1900"
+   ],
+   "relation": "adjacent",
+   "why": "Mark records that Jesus rose a great while before day and went to a solitary place to pray."
+  },
+  {
+   "id": "psalm-acceptable",
+   "after": "source:BH09019",
+   "responds": [
+    "source:BH09019"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks that the words of his mouth and the meditation of his heart be acceptable."
+  },
+  {
+   "id": "quran-men-of-understanding",
+   "after": "source:BH11336",
+   "responds": [
+    "source:BH11336"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that the creation of the heavens and the earth holds tokens for men of understanding."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "source:AB08924",
+   "responds": [
+    "source:AB08924"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm puts it in a few words: be still, and know that I am God."
+  },
+  {
+   "id": "dhammapada-platted-hair",
+   "after": "source:BB00154",
+   "responds": [
+    "source:BB00154"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that a man does not become a Brahmana by his platted hair or his birth."
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "source:AB08838",
+   "responds": [
+    "source:AB08838"
+   ],
+   "relation": "adjacent",
+   "why": "Rabi'a asks that her share of this world go to God's enemies and her share of the next to His friends, for God is enough for her."
+  },
+  {
+   "id": "emerson-prayer-private-end",
+   "after": "source:AB08838",
+   "responds": [
+    "source:AB08838"
+   ],
+   "relation": "contrast",
+   "why": "Emerson called prayer that craves a particular commodity vicious, and prayer the contemplation of life from the highest point of view. Is asking for whatever one wishes a lower prayer than his, or a more trusting one?"
+  },
+  {
+   "id": "marcus-look-within",
+   "after": "source:AB02378",
+   "responds": [
+    "source:AB02378"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says: look within, for within is the fountain of good, and it will ever bubble up."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:AB06807",
+   "responds": [
+    "source:AB06807"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah finds the Lord not in the wind, the earthquake or the fire, but after them in a still small voice."
+  },
+  {
+   "id": "matthew-pray-for-persecutors",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: love your enemies, and pray for them which despitefully use you and persecute you."
+  },
+  {
+   "id": "philippians-think-on-these-things",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists what is true, honest, just, pure and lovely, and says: think on these things."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:AB05247",
+   "responds": [
+    "source:AB05247"
+   ],
+   "relation": "complement",
+   "why": "James says: be ye doers of the word, and not hearers only, deceiving your own selves. Why does a guide to meditation turn, halfway through, to commands about conduct?"
+  },
+  {
+   "id": "marcus-work-of-a-human-being",
+   "after": "source:AB03158",
+   "responds": [
+    "source:AB03158"
+   ],
+   "relation": "complement",
+   "why": "Marcus Aurelius meets the morning with one thought: I am rising to the work of a human being. What thought would you choose to carry from reflection into the day's work?"
+  },
+  {
+   "id": "dhammapada-wise-people-fashion-themselves",
+   "after": "source:AB03512",
+   "responds": [
+    "source:AB03512"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada uses the same picture: well-makers lead the water where they like, and wise people fashion themselves."
+  },
+  {
+   "id": "luke-mouth-and-wisdom",
+   "after": "source:AB03512",
+   "responds": [
+    "source:AB03512"
+   ],
+   "relation": "contrast",
+   "why": "Jesus tells disciples who will stand before rulers not to meditate beforehand what they shall answer. When is concentrated preparation the right thing, and when is it a lack of trust?"
+  },
+  {
+   "id": "luke-all-night-in-prayer",
+   "after": "source:ABU3486",
+   "responds": [
+    "source:ABU3486"
+   ],
+   "relation": "adjacent",
+   "why": "Luke records that Jesus went out into a mountain to pray, and continued all night in prayer to God."
+  },
+  {
+   "id": "quran-horizons-and-themselves",
+   "after": "source:BH05704",
+   "responds": [
+    "source:BH05704"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse the reading has in mind: portents shown on the horizons and within themselves."
+  },
+  {
+   "id": "psalm-in-the-night-watches",
+   "after": "source:AB09382",
+   "responds": [
+    "source:AB09382"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist remembers God upon his bed, and meditates on him in the night watches."
+  },
+  {
+   "id": "job-fear-god-for-nought",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "complement",
+   "why": "In the book of Job the adversary asks: doth Job fear God for nought? Can anyone know, before everything is taken away, whether their own worship is for God's sake alone?"
+  },
+  {
+   "id": "psalm-my-soul-waiteth",
+   "after": "source:AB00034",
+   "responds": [
+    "source:AB00034"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I wait for the Lord, my soul doth wait, and in his word do I hope."
+  },
+  {
+   "id": "john-good-shepherd",
+   "after": "selection:ba272631b06dc24cb83bccd9",
+   "responds": [
+    "selection:ba272631b06dc24cb83bccd9"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus takes the psalm's picture to himself: I am the good shepherd, who giveth his life for the sheep."
+  }
+ ],
+ "library": {
+  "psalm-in-the-night-watches": {
+   "text": "My soul shall be satisfied as with marrow and fatness; and my mouth shall praise thee with joyful lips: When I remember thee upon my bed, and meditate on thee in the night watches",
+   "work": "Psalm 63:5–6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2063%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-fear-god-for-nought": {
+   "text": "Doth Job fear God for nought? Hast not thou made an hedge about him, and about his house, and about all that he hath on every side? thou hast blessed the work of his hands, and his substance is increased in the land. But put forth thine hand now, and touch all that he hath, and he will curse thee to thy face",
+   "work": "Job 1:9–11",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%201%3A9-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
