@@ -1,0 +1,142 @@
+{
+ "format": 2,
+ "slug": "resurrection",
+ "subject": "46F9949EEF0B4004B93D712D5C0A4366",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 12,
+ "kept": [
+  "source:AB00575",
+  "source:ABU1052",
+  "source:ABU1136",
+  "source:ABU2288",
+  "source:BB00001",
+  "source:AB01126",
+  "source:ABU1908",
+  "source:AB12232",
+  "source:AB01866",
+  "source:ABU3594",
+  "source:ABU3231",
+  "source:AB03757"
+ ],
+ "introduction": "These twelve readings understand the resurrection of Christ as the rising of his cause: after the crucifixion the disciples were dismayed and his reality was hidden from them for three days, until Mary Magdalene strengthened them and his teachings came to life in them; the heaven into which he rose is not the sky. They are read here beside twelve passages, nearly all from the New Testament, since that is the text being read. Most stand alongside: Mary at the tomb, the burning hearts on the road to Emmaus, Paul's spiritual body, the corn of wheat that dies and bears fruit. Four are the passages a bodily reading rests on, set here so that the question is asked fairly: Paul's 'if Christ be not risen', the ascension in Acts, the broiled fish, and Thomas.",
+ "questions": [
+  "The readings say that the reality of Christ was hidden from the disciples for three days and then rose in them. What in the Gospel accounts fits this reading well, and what resists it?",
+  "Mary Magdalene is given the chief part in these readings. What did she see that the others did not, and why do you think Luke says her words seemed idle tales?",
+  "Paul says that faith is vain if Christ be not risen, and also that what is raised is a spiritual body. How far apart are Paul and these readings?",
+  "What would it mean in your own life for a cause or a teaching to die for three days and rise again?"
+ ],
+ "outside": [
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:AB00575",
+   "responds": [
+    "source:AB00575"
+   ],
+   "relation": "adjacent",
+   "why": "The two disciples on the road to Emmaus say afterwards: did not our heart burn within us, while he opened to us the scriptures?"
+  },
+  {
+   "id": "corinthians-if-christ-be-not-risen",
+   "after": "source:AB00575",
+   "responds": [
+    "source:AB00575"
+   ],
+   "relation": "contrast",
+   "why": "Paul writes that if Christ be not risen, then is our preaching vain, and your faith is also vain. Would Paul recognize his risen Christ in a resurrection of teachings, bounties and spiritual power?"
+  },
+  {
+   "id": "john-mary-at-the-tomb",
+   "after": "source:ABU1052",
+   "responds": [
+    "source:ABU1052"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel has Mary stand weeping at the sepulchre, where two angels ask her: woman, why weepest thou?"
+  },
+  {
+   "id": "john-supposing-him-to-be-the-gardener",
+   "after": "source:ABU2288",
+   "responds": [
+    "source:ABU2288"
+   ],
+   "relation": "adjacent",
+   "why": "In John's account Mary does not at first know the one who speaks to her, supposing him to be the gardener."
+  },
+  {
+   "id": "john-dead-shall-hear",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the hour is coming, and now is, when the dead shall hear the voice of the Son of God, and they that hear shall live."
+  },
+  {
+   "id": "corinthians-sown-a-natural-body",
+   "after": "source:AB01126",
+   "responds": [
+    "source:AB01126"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of the resurrection that it is sown a natural body and raised a spiritual body."
+  },
+  {
+   "id": "luke-idle-tales",
+   "after": "source:ABU1908",
+   "responds": [
+    "source:ABU1908"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says that when the women told these things to the apostles, their words seemed to them as idle tales."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:AB12232",
+   "responds": [
+    "source:AB12232"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a corn of wheat, if it fall into the ground and die, bringeth forth much fruit."
+  },
+  {
+   "id": "john-son-of-man-which-is-in-heaven",
+   "after": "source:AB01866",
+   "responds": [
+    "source:AB01866"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying the reading cites: no man hath ascended up to heaven but he that came down from heaven, even the Son of man which is in heaven."
+  },
+  {
+   "id": "acts-in-like-manner",
+   "after": "source:AB01866",
+   "responds": [
+    "source:AB01866"
+   ],
+   "relation": "contrast",
+   "why": "In Acts the disciples look stedfastly toward heaven as he goes up, and are told that he shall so come in like manner. What does the reading's heaven without direction make of a story told with an upward gaze?"
+  },
+  {
+   "id": "luke-broiled-fish-and-honeycomb",
+   "after": "source:ABU3231",
+   "responds": [
+    "source:ABU3231"
+   ],
+   "relation": "complement",
+   "why": "This is the passage asked about: they gave him a piece of a broiled fish and of an honeycomb, and he did eat before them. What was Luke's story meant to settle for the disciples, and what does a symbolic reading settle instead?"
+  },
+  {
+   "id": "john-my-lord-and-my-god",
+   "after": "source:AB03757",
+   "responds": [
+    "source:AB03757"
+   ],
+   "relation": "complement",
+   "why": "Thomas is invited to reach out his hand, and answers: my Lord and my God. Is his the lesser capacity the reading speaks of, or another road to the same certainty?"
+  }
+ ],
+ "library": {}
+}
