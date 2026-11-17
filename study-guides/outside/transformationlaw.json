@@ -1,0 +1,777 @@
+{
+ "format": 2,
+ "slug": "transformationlaw",
+ "subject": "77FE3431893F4FD6A31E4BC04DA1BEFC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 45,
+ "quotations": 51,
+ "kept": [
+  "source:ABU0030",
+  "source:ABU2254",
+  "source:AB00068",
+  "source:AB00373",
+  "source:AB01624",
+  "source:ABU0008",
+  "source:ABU0024",
+  "source:AB01283",
+  "source:ABU2001",
+  "source:ABU1455",
+  "source:ABU2845",
+  "source:ABU2899",
+  "source:ABU3158",
+  "source:ABU2506",
+  "source:ABU0441",
+  "source:ABU0912",
+  "source:ABU0633",
+  "source:BH02665",
+  "source:AB01382",
+  "source:AB02776",
+  "source:ABU1238",
+  "source:ABU3435",
+  "source:ABU1436",
+  "source:AB02206",
+  "source:AB00399",
+  "source:AB00420",
+  "source:AB01145",
+  "source:ABU0448",
+  "source:ABU1139",
+  "source:ABU0096",
+  "source:ABU2463",
+  "source:ABU0100",
+  "source:ABU0326",
+  "source:ABU0185",
+  "source:ABU0626",
+  "source:BH10308",
+  "source:AB00829",
+  "source:AB00320",
+  "source:AB00211",
+  "source:ABU2675",
+  "source:ABU0870",
+  "selection:ca808d869cf380c320fe4b64",
+  "selection:a0889d0953304ec2b5a637bc",
+  "selection:a4044b610eba2d40321d88da",
+  "selection:15dac85a63c45b27042512a4"
+ ],
+ "introduction": "Everything created changes: that is the first statement of these readings and they return to it throughout. Bodies are composed and decomposed, atoms travel through the kingdoms of nature, dynasties rise and fall, and even the laws of religion are renewed as times alter; only God does not change. Yet the readings set limits to change as well. Each kind of being has a degree it does not overpass, the animal spirit does not become human, and the soul’s progress is toward God by grace and not by a law of its own. Heraclitus, Aristotle, the Psalms, Shelley and Tennyson stand alongside the first of these claims. Darwin, Emerson, Rumi and Nietzsche are placed against the second, because they describe a nature that climbs from one kind into another, and the Qur’an’s verse on effort is set beside the statements on grace.",
+ "questions": [
+  "The readings say that change is an essential requirement of everything created. What have you been treating as permanent that is not?",
+  "Lavoisier’s axiom and the reading on the flower agree that nothing is annihilated, only re-formed. What comfort, if any, is there in that for someone facing a loss?",
+  "Darwin, Emerson and Rumi each describe life rising from one kind into another, while the readings hold that each kind keeps its degree. Where exactly do these accounts differ, and where might they be describing different things?",
+  "The Buddha said that decay is inherent in all component things. What do the readings say is exempt, and why?",
+  "One reading makes progress depend on grace and not on effort; the Qur’an says a person has only what he strives for. How do you hold the two in your own practice?",
+  "The commandments of religion are said to change with the times. How would you tell a change of that kind from a mere loosening?"
+ ],
+ "outside": [
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:ABU0030",
+   "responds": [
+    "source:ABU0030"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus said that no one steps twice into the same rivers, for fresh waters are ever flowing in."
+  },
+  {
+   "id": "psalm-wax-old-like-a-garment",
+   "after": "source:ABU0030",
+   "responds": [
+    "source:ABU0030"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that heaven and earth wax old like a garment and are changed, while God remains the same."
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:ABU2254",
+   "responds": [
+    "source:ABU2254"
+   ],
+   "relation": "adjacent",
+   "why": "Lavoisier laid it down as an axiom of chemistry that nothing is created and the same quantity of matter exists before and after every change."
+  },
+  {
+   "id": "shelley-nought-may-endure",
+   "after": "source:AB00068",
+   "responds": [
+    "source:AB00068"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley put the whole matter in a single line of verse: nought may endure but Mutability."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:AB00373",
+   "responds": [
+    "source:AB00373"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher held that what has been is what shall be, and there is no new thing under the sun. Is a universe that keeps evolving into new forms the same thing as a universe that only repeats?"
+  },
+  {
+   "id": "marcus-bond-is-holy",
+   "after": "source:AB01624",
+   "responds": [
+    "source:AB01624"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says that all things are implicated with one another, and the bond is holy."
+  },
+  {
+   "id": "plato-elements-pass-into-one-another",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Plato observed that what we call water becomes earth and stone by condensing, and vapour and air by dispersing."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "Blake asked to see a world in a grain of sand and eternity in an hour."
+  },
+  {
+   "id": "shakespeare-imperious-caesar",
+   "after": "source:AB01283",
+   "responds": [
+    "source:AB01283"
+   ],
+   "relation": "complement",
+   "why": "Hamlet follows the journey the other way: imperious Caesar, dead and turned to clay, might stop a hole to keep the wind away. What becomes of human dignity when the same elements go up and down the scale?"
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:ABU2001",
+   "responds": [
+    "source:ABU2001"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says it shortly: dust thou art, and unto dust shalt thou return."
+  },
+  {
+   "id": "shakespeare-seven-ages",
+   "after": "source:ABU1455",
+   "responds": [
+    "source:ABU1455"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Jaques counts the changes of one life in seven ages, each with its exits and entrances."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:ABU2845",
+   "responds": [
+    "source:ABU2845"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose."
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:ABU2899",
+   "responds": [
+    "source:ABU2899"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that the dust returns to the earth as it was, and the spirit to God who gave it."
+  },
+  {
+   "id": "daniel-changeth-the-times",
+   "after": "source:ABU3158",
+   "responds": [
+    "source:ABU3158"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel blesses the God who changes the times and the seasons, removes kings and sets up kings."
+  },
+  {
+   "id": "tennyson-ringing-grooves-of-change",
+   "after": "source:ABU2506",
+   "responds": [
+    "source:ABU2506"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson wanted the great world to spin for ever down the ringing grooves of change."
+  },
+  {
+   "id": "aristotle-elements-change-into-one-another",
+   "after": "source:ABU0441",
+   "responds": [
+    "source:ABU0441"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that the elements are by nature such as to change into one another, since coming-to-be is change between contraries."
+  },
+  {
+   "id": "boethius-due-return",
+   "after": "source:ABU0912",
+   "responds": [
+    "source:ABU0912"
+   ],
+   "relation": "adjacent",
+   "why": "Boethius sings that all things yearn for their due return, and that no order stays fixed but that which joins end to beginning."
+  },
+  {
+   "id": "tennyson-old-order-changeth",
+   "after": "source:ABU0633",
+   "responds": [
+    "source:ABU0633"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's king says that the old order changes, yielding place to new, lest one good custom should corrupt the world."
+  },
+  {
+   "id": "isaiah-all-flesh-is-grass",
+   "after": "source:BH02665",
+   "responds": [
+    "source:BH02665"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears that all flesh is grass: the grass withers, the flower fades, and the word of God stands for ever."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:AB01382",
+   "responds": [
+    "source:AB01382"
+   ],
+   "relation": "adjacent",
+   "why": "James speaks of the Father of lights, with whom there is no variableness nor shadow of turning."
+  },
+  {
+   "id": "malachi-i-change-not",
+   "after": "source:AB02776",
+   "responds": [
+    "source:AB02776"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi hears it in the first person: I am the Lord, I change not."
+  },
+  {
+   "id": "hebrews-same-yesterday",
+   "after": "source:ABU1238",
+   "responds": [
+    "source:ABU1238"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews says of Christ that he is the same yesterday, and today, and for ever."
+  },
+  {
+   "id": "corinthians-fashion-of-this-world",
+   "after": "source:ABU3435",
+   "responds": [
+    "source:ABU3435"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Corinthians to hold the world lightly, because the fashion of this world passes away."
+  },
+  {
+   "id": "buddha-decay-is-inherent",
+   "after": "source:ABU3435",
+   "responds": [
+    "source:ABU3435"
+   ],
+   "relation": "contrast",
+   "why": "The Buddha's last words were that decay is inherent in all component things, with no exception named. What in a human being, if anything, is not a component thing?"
+  },
+  {
+   "id": "burke-means-of-change",
+   "after": "source:ABU1436",
+   "responds": [
+    "source:ABU1436"
+   ],
+   "relation": "adjacent",
+   "why": "Burke applied the same law to politics: a state without the means of some change is without the means of its conservation."
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "source:AB02206",
+   "responds": [
+    "source:AB02206"
+   ],
+   "relation": "contrast",
+   "why": "Darwin concluded that man, with all his noble qualities, still bears the stamp of his lowly origin. How does the claim that each species is permanent in its essence meet the evidence that species have descended from others?"
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:AB00399",
+   "responds": [
+    "source:AB00399"
+   ],
+   "relation": "adjacent",
+   "why": "Pope describes a vast chain of being from God through angel and man to beast, bird, fish and insect, each in its place."
+  },
+  {
+   "id": "emerson-worm-mounts",
+   "after": "source:AB00399",
+   "responds": [
+    "source:AB00399"
+   ],
+   "relation": "contrast",
+   "why": "Emerson pictured it otherwise: striving to be man, the worm mounts through all the spires of form. Is the order of nature a ladder that is climbed or a set of stations that are kept?"
+  },
+  {
+   "id": "corinthians-star-differeth-from-star",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that there are different glories, and that one star differs from another star in glory."
+  },
+  {
+   "id": "quran-stage-after-stage",
+   "after": "source:AB01145",
+   "responds": [
+    "source:AB01145"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that you shall journey on from plane to plane."
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:AB01145",
+   "responds": [
+    "source:AB01145"
+   ],
+   "relation": "complement",
+   "why": "The Gita says the spirit lays aside worn-out bodies and takes new ones, as a person changes robes. How does the progress of a soul through worlds differ from its return to this one?"
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0448",
+   "responds": [
+    "source:ABU0448"
+   ],
+   "relation": "contrast",
+   "why": "Rumi says: I died as mineral and became a plant, died as plant and rose to animal, died as animal and was a man. Can his lines be read together with the answer given here?"
+  },
+  {
+   "id": "jeremiah-leopard-spots",
+   "after": "source:ABU1139",
+   "responds": [
+    "source:ABU1139"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah asks whether the Ethiopian can change his skin or the leopard his spots."
+  },
+  {
+   "id": "nietzsche-from-the-worm-to-man",
+   "after": "source:ABU1139",
+   "responds": [
+    "source:ABU1139"
+   ],
+   "relation": "contrast",
+   "why": "Nietzsche's Zarathustra tells his hearers that they have made their way from worm to man, and that much in them is still worm. What is at stake in saying that human nature is of another order than what came before it?"
+  },
+  {
+   "id": "corinthians-changed-into-the-same-image",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that those who behold the glory are changed into the same image, from glory to glory."
+  },
+  {
+   "id": "milton-up-to-him-return",
+   "after": "source:ABU0100",
+   "responds": [
+    "source:ABU0100"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel tells Adam that all things proceed from God and up to Him return, body working up to spirit by degrees."
+  },
+  {
+   "id": "matthew-many-called-few-chosen",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying the reading quotes: many are called, but few are chosen."
+  },
+  {
+   "id": "john-epistle-world-passeth-away",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that the world passes away, but whoever does the will of God abides for ever."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:ABU0626",
+   "responds": [
+    "source:ABU0626"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Ephesians says that it is by grace, through faith, and not of ourselves."
+  },
+  {
+   "id": "samuel-raiseth-up-the-poor",
+   "after": "source:BH10308",
+   "responds": [
+    "source:BH10308"
+   ],
+   "relation": "adjacent",
+   "why": "Hannah sings of the Lord who makes poor and makes rich, brings low and lifts up."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "He that sat upon the throne says in Revelation: behold, I make all things new."
+  },
+  {
+   "id": "isaiah-blossom-as-the-rose",
+   "after": "source:AB00320",
+   "responds": [
+    "source:AB00320"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees the wilderness made glad, and the desert rejoicing and blossoming as the rose."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "source:AB00211",
+   "responds": [
+    "source:AB00211"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that no one puts new wine into old wineskins, or the skins burst and the wine is lost."
+  },
+  {
+   "id": "matthew-not-to-destroy-the-law",
+   "after": "source:AB00211",
+   "responds": [
+    "source:AB00211"
+   ],
+   "relation": "complement",
+   "why": "Jesus also said that not one jot or tittle shall pass from the law till all be fulfilled. What in a religion's commandments changes with the times, and what does not?"
+  },
+  {
+   "id": "kipling-recessional",
+   "after": "source:ABU2675",
+   "responds": [
+    "source:ABU2675"
+   ],
+   "relation": "adjacent",
+   "why": "Kipling told an empire at its height that its pomp of yesterday is one with Nineveh and Tyre."
+  },
+  {
+   "id": "tennyson-womans-cause",
+   "after": "source:ABU0870",
+   "responds": [
+    "source:ABU0870"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson wrote that the woman's cause is man's: they rise or sink together."
+  },
+  {
+   "id": "corinthians-god-gave-the-increase",
+   "after": "selection:ca808d869cf380c320fe4b64",
+   "responds": [
+    "selection:ca808d869cf380c320fe4b64"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he planted and Apollos watered, but God gave the increase."
+  },
+  {
+   "id": "philippians-work-out-your-own-salvation",
+   "after": "selection:a0889d0953304ec2b5a637bc",
+   "responds": [
+    "selection:a0889d0953304ec2b5a637bc"
+   ],
+   "relation": "complement",
+   "why": "Paul tells the Philippians to work out their own salvation, because it is God who works in them. How do grace and effort fit together in a person's progress?"
+  },
+  {
+   "id": "quran-man-hath-only-that-for-which",
+   "after": "selection:a0889d0953304ec2b5a637bc",
+   "responds": [
+    "selection:a0889d0953304ec2b5a637bc"
+   ],
+   "relation": "contrast",
+   "why": "The Qur’an says that a person has only that for which he makes effort. How would you set that verse beside a statement that progress does not depend on effort?"
+  },
+  {
+   "id": "zhuangzi-duck-and-crane",
+   "after": "selection:a4044b610eba2d40321d88da",
+   "responds": [
+    "selection:a4044b610eba2d40321d88da"
+   ],
+   "relation": "adjacent",
+   "why": "Zhuangzi observes that a duck's legs are short and a crane's long, and that lengthening the one or shortening the other only gives pain."
+  },
+  {
+   "id": "mark-sabbath-made-for-man",
+   "after": "selection:15dac85a63c45b27042512a4",
+   "responds": [
+    "selection:15dac85a63c45b27042512a4"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gave a principle for applying law to circumstances: the sabbath was made for man."
+  }
+ ],
+ "library": {
+  "psalm-renew-a-right-spirit": {
+   "text": "Create in me a clean heart, O God; and renew a right spirit within me",
+   "work": "Psalm 51:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2051%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-generation-passeth": {
+   "text": "One generation passeth away, and another generation cometh: but the earth abideth for ever",
+   "work": "Ecclesiastes 1:4",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%201%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-man-that-is-born": {
+   "text": "Man that is born of a woman is of few days and full of trouble. He cometh forth like a flower, and is cut down: he fleeth also as a shadow, and continueth not",
+   "work": "Job 14:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2014%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-changeth-the-times": {
+   "text": "And he changeth the times and the seasons: he removeth kings, and setteth up kings: he giveth wisdom unto the wise, and knowledge to them that know understanding",
+   "work": "Daniel 2:21",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%202%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-raiseth-up-the-poor": {
+   "text": "The Lord maketh poor, and maketh rich: he bringeth low, and lifteth up. He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory",
+   "work": "1 Samuel 2:7–8",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%202%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-in-doubt-about-a-new-creation": {
+   "text": "Were We then worn out by the first creation? Yet they are in doubt about a new creation.",
+   "work": "Qur’an 50:15",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=50&verse=15",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-originate-then-reproduce": {
+   "text": "See they not how Allah produceth creation, then reproduceth it? Lo! for Allah that is easy.",
+   "work": "Qur’an 29:19",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=29&verse=19",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-bring-some-new-creation": {
+   "text": "Hast thou not seen that Allah hath created the heavens and the earth with truth? If He will, He can remove you and bring (in) some new creation;",
+   "work": "Qur’an 14:19",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=14&verse=19",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-stage-after-stage": {
+   "text": "That ye shall journey on from plane to plane.",
+   "work": "Qur’an 84:19",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=84&verse=19",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shelley-nought-may-endure": {
+   "text": "Man's yesterday may ne'er be like his morrow; / Nought may endure but Mutability",
+   "verse": true,
+   "author": "Percy Bysshe Shelley",
+   "work": "Mutability",
+   "year": "1816",
+   "sortYear": 1816,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Complete_Poetical_Works_of_Percy_Bysshe_Shelley_(ed._Hutchinson,_1914)/Mutability",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\[\\d+\\]|\\d+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1822."
+   }
+  },
+  "buddha-decay-is-inherent": {
+   "text": "Decay is inherent in all component things! Work out your salvation with diligence",
+   "work": "Maha-parinibbana Sutta",
+   "locator": "VI.10",
+   "year": "c. 5th–3rd century BCE",
+   "sortYear": -400,
+   "translator": "T. W. Rhys Davids",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://archive.org/stream/buddhistsuttas00daviuoft/buddhistsuttas00daviuoft_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1922."
+   }
+  }
+ }
+}
