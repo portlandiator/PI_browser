@@ -1,0 +1,715 @@
+{
+ "format": 2,
+ "slug": "beingnonbeing",
+ "subject": "EFDFB11C5F3247618BA648A0DD0EB4B3",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 37,
+ "quotations": 43,
+ "kept": [
+  "source:AB02618",
+  "source:AB00839",
+  "source:AB01528",
+  "source:AB00013",
+  "source:BH00048",
+  "source:BH00433",
+  "source:BH00060",
+  "source:AB00814",
+  "source:AB00153",
+  "source:AB00062",
+  "source:BB00366",
+  "source:AB00006",
+  "source:AB00077",
+  "source:ABU1069",
+  "source:AB00876",
+  "source:ABU0591",
+  "source:ABU2254",
+  "source:ABU0766",
+  "source:AB01145",
+  "source:AB01223",
+  "source:ABU0017",
+  "source:ABU3556",
+  "source:ABU3604",
+  "source:ABU2233",
+  "source:ABU1537",
+  "source:BB00012",
+  "source:BB00197",
+  "source:BH11652",
+  "source:AB04727",
+  "source:AB07492",
+  "source:AB01156",
+  "source:AB06811",
+  "source:AB06301",
+  "source:AB09700",
+  "selection:d0663541de303fae5cfb4149",
+  "selection:806705d65d3bee376fda843e",
+  "selection:7f452afcaafc7d030ffe4049"
+ ],
+ "introduction": "What does it mean to exist, and can anything come from nothing? The guide distinguishes a being that has no cause from beings that depend on it, denies that the world is illusion, denies equally that absolute nothingness could ever become something, and treats coming into being and passing away as composition and dissolution. Its forty-three quotations are read here with forty-three from elsewhere, for these are among the oldest questions of philosophy. Plato divides what always is from what is always becoming; Lucretius and Lear repeat that nothing comes of nothing; the Chandogya Upanishad asks how what is could be born of what is not; Augustine finds created things neither wholly to be nor wholly not to be; Lavoisier weighs matter and finds none lost. Scripture names the uncaused in its own way: I AM, before Abraham was, the First and the Last, the countenance that alone does not perish. Lao Tzu, for whom existence springs from the non-existent, Spinoza, for whom all things are in God, Wordsworth’s remembered pre-existence, Keats’s beauty that never passes into nothingness and Hamlet’s question are placed where they press on the guide’s distinctions.",
+ "questions": [
+  "The guide distinguishes essential pre-existence, which has no cause, from the existence of things that depend on a cause. Which of the outside passages states that distinction most clearly for you?",
+  "Lucretius and the Upanishad agree that nothing comes from nothing, and draw very different conclusions. What does the guide do with the same principle?",
+  "Lao Tzu says existence sprang from the non-existent. Is he contradicting the guide, or using 'non-existent' in another sense?",
+  "Augustine says created things neither altogether are nor altogether are not. What does it change to think of your own existence as borrowed?",
+  "The guide calls nonexistence relative: a flower passes away as its elements disperse. Does that account console, and should it?",
+  "Several readings give thanks for being brought out of nothingness. What does gratitude for existence itself look like in practice?"
+ ],
+ "outside": [
+  {
+   "id": "shakespeare-revels-ended",
+   "after": "source:AB02618",
+   "responds": [
+    "source:AB02618"
+   ],
+   "relation": "complement",
+   "why": "Prospero says the cloud-capped towers and the great globe itself shall dissolve like the baseless fabric of a vision. Is that the sophists' doctrine that all is illusion, or something else?"
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:AB02618",
+   "responds": [
+    "source:AB02618"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Timaeus begins from a distinction: what is that which always is and has no becoming, and what is always becoming and never is?"
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle's first cause is itself unmoved: it produces motion as being loved, while all other things move by being moved."
+  },
+  {
+   "id": "john-before-abraham-was",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus claims a priority that is not of time: before Abraham was, I am."
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm addresses a God who was before the mountains were brought forth: from everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "exodus-i-am-hath-sent-me",
+   "after": "source:AB01528",
+   "responds": [
+    "source:AB01528"
+   ],
+   "relation": "adjacent",
+   "why": "The name given to Moses is existence without a cause: I AM THAT I AM."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB00013",
+   "responds": [
+    "source:AB00013"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus uses the same kind of likeness: a brilliant light encircling the sun, ceaselessly generated from an unchanging substance."
+  },
+  {
+   "id": "augustine-neither-altogether-are-nor-are-not",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine says of created things that they neither altogether are, nor altogether are not: they are, because they are from God, and are not, because they are not what he is."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Revelation names the one who is and was and is to come as Alpha and Omega, the beginning and the ending."
+  },
+  {
+   "id": "corinthians-sown-a-natural-body",
+   "after": "source:BH00433",
+   "responds": [
+    "source:BH00433"
+   ],
+   "relation": "adjacent",
+   "why": "Paul expects another form for another condition: sown a natural body, raised a spiritual body."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:BH00060",
+   "responds": [
+    "source:BH00060"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel begins before creation: in the beginning was the Word, and without him was not anything made that was made."
+  },
+  {
+   "id": "quran-save-his-countenance",
+   "after": "source:BH00060",
+   "responds": [
+    "source:BH00060"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that there is no god save Him, and that everything will perish save His countenance."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza holds that all things which are, are in God, and without him can neither be nor be conceived. Where does such a doctrine stand beside the unity of existence the guide describes and qualifies?"
+  },
+  {
+   "id": "plato-elements-pass-into-one-another",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Timaeus describes things coming to be by the combination of elements that pass into one another."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius makes it his first principle that nothing from nothing ever yet was born."
+  },
+  {
+   "id": "shakespeare-nothing-will-come-of-nothing",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "Lear gives the old maxim in his own voice: nothing will come of nothing."
+  },
+  {
+   "id": "chandogya-only-that-which-is",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "The Chandogya Upanishad asks how that which is could be born of that which is not, and answers that only that which is was in the beginning."
+  },
+  {
+   "id": "tao-existence-sprang-from-non-existence",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "contrast",
+   "why": "Lao Tzu says that all things sprang from It as existing, and that existence sprang from It as non-existent. Can the guide's denial that being comes from absolute nothingness be reconciled with his saying?"
+  },
+  {
+   "id": "pascal-eternal-silence",
+   "after": "source:ABU1069",
+   "responds": [
+    "source:ABU1069"
+   ],
+   "relation": "complement",
+   "why": "Pascal looked at spaces without limit and wrote that their eternal silence frightened him. Why should an endless universe seem to the guide a comfort and to him a terror?"
+  },
+  {
+   "id": "romans-calleth-things-which-be-not",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a God who calleth those things which be not as though they were."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says the worlds were framed by the word of God, so that things which are seen were not made of things which do appear."
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:ABU0591",
+   "responds": [
+    "source:ABU0591"
+   ],
+   "relation": "adjacent",
+   "why": "Lavoisier laid it down as an axiom that nothing is created, an equal quantity of matter existing before and after."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "source:ABU2254",
+   "responds": [
+    "source:ABU2254"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus says that this world was ever, is now and ever shall be, with measures kindling and measures going out."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus answers that the One, lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that when He intends a thing, His command is only that He says unto it: Be! and it is."
+  },
+  {
+   "id": "psalm-as-a-flower-of-the-field",
+   "after": "source:AB01145",
+   "responds": [
+    "source:AB01145"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of man that as a flower of the field he flourishes, and the wind passes over it, and it is gone."
+  },
+  {
+   "id": "keats-thing-of-beauty",
+   "after": "source:AB01145",
+   "responds": [
+    "source:AB01145"
+   ],
+   "relation": "contrast",
+   "why": "Keats says that a thing of beauty is a joy for ever, and will never pass into nothingness. What of the hyacinth does not pass away?"
+  },
+  {
+   "id": "gita-never-the-spirit-was-born",
+   "after": "source:AB01223",
+   "responds": [
+    "source:AB01223"
+   ],
+   "relation": "adjacent",
+   "why": "The Gita says that the spirit was never born and shall never cease to be."
+  },
+  {
+   "id": "genesis-spirit-moved-upon-the-waters",
+   "after": "source:ABU0017",
+   "responds": [
+    "source:ABU0017"
+   ],
+   "relation": "adjacent",
+   "why": "This is the passage referred to: in the beginning the earth was without form and void, and the Spirit of God moved upon the waters."
+  },
+  {
+   "id": "quran-thing-unremembered",
+   "after": "source:ABU3556",
+   "responds": [
+    "source:ABU3556"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks whether there has not come upon man a period of time in which he was a thing unremembered."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:ABU3604",
+   "responds": [
+    "source:ABU3604"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth holds that the soul has had elsewhere its setting and comes not in entire forgetfulness. How does his remembered pre-existence differ from a state of mere potentiality?"
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:ABU2233",
+   "responds": [
+    "source:ABU2233"
+   ],
+   "relation": "adjacent",
+   "why": "The Gita pictures the spirit unharmed by the body's end, laying it by like worn-out robes."
+  },
+  {
+   "id": "kings-heaven-cannot-contain",
+   "after": "source:ABU1537",
+   "responds": [
+    "source:ABU1537"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon confesses that heaven and the heaven of heavens cannot contain the one for whom he has built a house."
+  },
+  {
+   "id": "isaiah-nations-as-a-drop",
+   "after": "source:BB00197",
+   "responds": [
+    "source:BB00197"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah counts all the nations as a drop of a bucket and the small dust of the balance."
+  },
+  {
+   "id": "pascal-a-nothing-in-comparison-with-the-infinite",
+   "after": "source:BB00197",
+   "responds": [
+    "source:BB00197"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal calls man a nothing in comparison with the infinite, an all in comparison with the nothing, a mean between nothing and everything."
+  },
+  {
+   "id": "quran-when-he-was-naught",
+   "after": "source:BH11652",
+   "responds": [
+    "source:BH11652"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks whether man does not remember that he was created before, when he was naught."
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "source:AB04727",
+   "responds": [
+    "source:AB04727"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist gives thanks for his own making: I am fearfully and wonderfully made."
+  },
+  {
+   "id": "job-hangeth-the-earth-upon-nothing",
+   "after": "source:AB07492",
+   "responds": [
+    "source:AB07492"
+   ],
+   "relation": "adjacent",
+   "why": "Job says of God that he stretches out the north over the empty place and hangs the earth upon nothing."
+  },
+  {
+   "id": "chandogya-rivers",
+   "after": "source:AB01156",
+   "responds": [
+    "source:AB01156"
+   ],
+   "relation": "adjacent",
+   "why": "The Chandogya Upanishad uses the same water: rivers run east and west and become indeed sea, and in the sea do not know themselves apart."
+  },
+  {
+   "id": "ecclesiastes-vanity-of-vanities",
+   "after": "source:AB06811",
+   "responds": [
+    "source:AB06811"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher's verdict on the world as it appears is vanity of vanities, all is vanity."
+  },
+  {
+   "id": "shakespeare-to-be-or-not-to-be",
+   "after": "source:AB06301",
+   "responds": [
+    "source:AB06301"
+   ],
+   "relation": "complement",
+   "why": "Hamlet reduces everything to one question: to be, or not to be. What does the guide offer to someone for whom extinction seems a real alternative?"
+  },
+  {
+   "id": "shelley-many-coloured-glass",
+   "after": "source:AB09700",
+   "responds": [
+    "source:AB09700"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley says that the One remains while the many change and pass, and earth's shadows fly."
+  },
+  {
+   "id": "marcus-come-round-in-a-circle",
+   "after": "selection:d0663541de303fae5cfb4149",
+   "responds": [
+    "selection:d0663541de303fae5cfb4149"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius holds that all things from eternity are of like forms and come round in a circle."
+  }
+ ],
+ "library": {
+  "romans-calleth-things-which-be-not": {
+   "text": "As it is written, I have made thee a father of many nations,) before him whom he believed, even God, who quickeneth the dead, and calleth those things which be not as though they were",
+   "work": "Romans 4:17",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%204%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-hangeth-the-earth-upon-nothing": {
+   "text": "He stretcheth out the north over the empty place, and hangeth the earth upon nothing",
+   "work": "Job 26:7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2026%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-as-a-flower-of-the-field": {
+   "text": "As for man, his days are as grass: as a flower of the field, so he flourisheth. For the wind passeth over it, and it is gone; and the place thereof shall know it no more",
+   "work": "Psalm 103:15–16",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20103%3A15-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-when-he-was-naught": {
+   "text": "Doth not man remember that We created him before, when he was naught?",
+   "work": "Qur’an 19:67",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=19&verse=67",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-nothing-will-come-of-nothing": {
+   "text": "Nothing will come of nothing: speak again",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "King Lear",
+   "locator": "Act 1, scene 1",
+   "year": "about 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/lear/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-to-be-or-not-to-be": {
+   "text": "To be, or not to be, that is the question",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act 3, scene 1",
+   "year": "about 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "tao-existence-sprang-from-non-existence": {
+   "text": "All things under heaven sprang from It as existing (and named); that existence sprang from It as non-existent (and not named)",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 40",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "plato-always-is-and-has-no-becoming": {
+   "text": "What is that which always is and has no becoming; and what is that which is always becoming and never is",
+   "author": "Plato",
+   "work": "Timaeus",
+   "year": "4th century BCE",
+   "sortYear": -360,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/timaeus.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "augustine-neither-altogether-are-nor-are-not": {
+   "text": "And I viewed the other things below You, and perceived that they neither altogether are, nor altogether are not. They are, indeed, because they are from You; but are not, because they are not what You are. For that truly is which remains immutably",
+   "author": "Augustine of Hippo",
+   "work": "Confessions",
+   "locator": "Book VII, chapter 11",
+   "year": "about 400",
+   "sortYear": 400,
+   "translator": "J. G. Pilkington",
+   "translationYear": "1876",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/110107.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1876."
+   }
+  },
+  "lucretius-nothing-from-nothing": {
+   "text": "Nothing from nothing ever yet was born",
+   "verse": true,
+   "author": "Lucretius",
+   "work": "On the Nature of Things",
+   "locator": "Book I",
+   "year": "1st century BCE",
+   "sortYear": -55,
+   "translator": "William Ellery Leonard",
+   "translationYear": "1916",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Carus/nature_things.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1944."
+   }
+  },
+  "pascal-a-nothing-in-comparison-with-the-infinite": {
+   "text": "what is man in nature? A Nothing in comparison with the Infinite, an All in comparison with the Nothing, a mean between nothing and everything",
+   "author": "Blaise Pascal",
+   "work": "Pensées",
+   "locator": "72",
+   "year": "1670",
+   "sortYear": 1670,
+   "translator": "W. F. Trotter",
+   "translationYear": "1910",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Blaise_Pascal/Thoughts/Section_2",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1945."
+   }
+  },
+  "chandogya-only-that-which-is": {
+   "text": "How could that which is, be born of that which is not? No, my dear, only that which is, was in the beginning, one only, without a second",
+   "work": "Chandogya Upanishad",
+   "locator": "6.2.2",
+   "year": "c. 7th century BCE",
+   "sortYear": -650,
+   "translator": "F. Max Müller",
+   "translationYear": "1879",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://archive.org/stream/upanishads01mluoft/upanishads01mluoft_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  }
+ }
+}
