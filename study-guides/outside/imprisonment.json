@@ -1,0 +1,1490 @@
+{
+ "format": 2,
+ "slug": "imprisonment",
+ "subject": "370AC40D2874E1246B99EB8122E23C9A",
+ "status": "published",
+ "limit": 100,
+ "rule": "proportional",
+ "readings": 85,
+ "quotations": 100,
+ "kept": [
+  "source:AB00065",
+  "source:AB00242",
+  "source:ABU0093",
+  "source:AB00003",
+  "source:AB00322",
+  "source:BH00005",
+  "source:BHU0004",
+  "source:AB00552",
+  "source:ABU0065",
+  "source:BHU0002",
+  "source:BH00260",
+  "source:BH01026",
+  "source:BH00379",
+  "source:BH00015",
+  "source:AB12036",
+  "source:BH00269",
+  "source:BH00662",
+  "source:BH02783",
+  "source:ABU0037",
+  "source:BH08834",
+  "source:BH04229",
+  "source:BH00007",
+  "source:BH00021",
+  "source:BH00994",
+  "source:BH00579",
+  "source:BH00297",
+  "source:AB00610",
+  "source:BH01042",
+  "source:BH01217",
+  "source:BH02035",
+  "source:BH01591",
+  "source:BH00002",
+  "source:BH00336",
+  "source:BH02022",
+  "source:BH00668",
+  "source:BH01822",
+  "source:ABU0023",
+  "source:BH01507",
+  "source:BH01880",
+  "source:BH04572",
+  "source:BH00038",
+  "source:AB00444",
+  "source:ABU0016",
+  "source:BH02484",
+  "source:BH00347",
+  "source:BH04569",
+  "source:BH06188",
+  "source:BH02764",
+  "source:BH01924",
+  "source:BH02896",
+  "source:BH06429",
+  "source:ABU0066",
+  "source:BH05077",
+  "source:BH06833",
+  "source:ABU0404",
+  "source:ABU0386",
+  "source:AB00121",
+  "source:AB00874",
+  "source:AB00048",
+  "source:AB00299",
+  "source:AB01376",
+  "source:AB00502",
+  "source:AB01585",
+  "source:AB01752",
+  "source:BH01536",
+  "source:BH02224",
+  "source:BH04033",
+  "source:BH03796",
+  "source:BH08863",
+  "source:BH05002",
+  "source:BH09386",
+  "source:AB03828",
+  "source:BH02307",
+  "source:BH00358",
+  "source:BH00848",
+  "source:BH09162",
+  "source:BH05571",
+  "source:BH00591",
+  "source:BH01438",
+  "source:BH02872",
+  "source:BH03262",
+  "source:BH01386",
+  "source:BH03356",
+  "source:BH07180",
+  "source:BH07659"
+ ],
+ "introduction": "This guide follows the sufferings of the Báb, Bahá’u’lláh and ‘Abdu’l-Bahá: the Báb’s prisons and execution, the dungeon of Ṭihrán, exile after exile, the prison-city of ‘Akká, and the forty years ‘Abdu’l-Bahá spent as a captive. The readings also say what this suffering was for, why every Messenger has been opposed, and how joy was found inside it, and they end with prayers spoken from prison. Beside them stand others who wrote of persecution and confinement: Jeremiah in the pit, the Psalms and Lamentations, Isaiah’s man of sorrows, Paul in chains, the Qur’an’s Joseph, Socrates, Epictetus, and prisoners nearer our time such as Lovelace, Thoreau and Wilde. A smaller number press hard questions: whether truth really outlasts persecution, whether a prison can honestly be called a palace, and whether everyone can be asked to give thanks for pain.",
+ "questions": [
+  "The readings say these sufferings were borne so that others might be free. What kind of freedom do they mean, and how would you explain it to someone who, with Marx, sees religion as comfort for the oppressed?",
+  "Mill thought it a pleasant falsehood that truth always survives persecution. What do these readings claim about the outcome, and on what grounds?",
+  "Why, according to the readings and to the Gospels and the Qur’an, is every Messenger opposed by the people who were waiting for one?",
+  "‘Abdu’l-Bahá calls His prison a paradise, and Wilde says every prison is built with bricks of shame. Can both be true at once?",
+  "Job blessed God in his loss and later cursed the day of his birth; Habakkuk asked how long. What place does complaint have beside the thanksgiving in these prayers?",
+  "What does remembering these sufferings ask of someone whose own life is comfortable?"
+ ],
+ "outside": [
+  {
+   "id": "isaiah-man-of-sorrows",
+   "after": "source:AB00065",
+   "responds": [
+    "source:AB00065"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's servant is described in the same terms: despised and rejected, a man of sorrows and acquainted with grief."
+  },
+  {
+   "id": "corinthians-thrice-beaten",
+   "after": "source:AB00242",
+   "responds": [
+    "source:AB00242"
+   ],
+   "relation": "adjacent",
+   "why": "Paul once set down his own list of beatings, stonings, shipwrecks and prisons; lives given to a message have often read like this."
+  },
+  {
+   "id": "isaiah-borne-our-griefs",
+   "after": "source:ABU0093",
+   "responds": [
+    "source:ABU0093"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says of the suffering servant that he bore griefs that were ours, and that others were healed by what he endured."
+  },
+  {
+   "id": "acts-stephen-stoned",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The first Christian martyr was likewise taken out of the city and killed while a crowd looked on."
+  },
+  {
+   "id": "isaiah-lamb-to-the-slaughter",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's servant is oppressed and afflicted and does not open his mouth, like a lamb led to the slaughter."
+  },
+  {
+   "id": "matthew-crown-of-thorns",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Gospel records the mockery before an execution: a robe, a crown of thorns, and soldiers bowing in jest."
+  },
+  {
+   "id": "plato-gadfly",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates told the court that put him to death that he had been sent to rouse the city, as a gadfly rouses a sluggish horse."
+  },
+  {
+   "id": "tacitus-mockery-of-every-sort",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "A Roman historian with no sympathy for the Christians records that mockery of every sort was added to their deaths."
+  },
+  {
+   "id": "luke-jerusalem-killest-the-prophets",
+   "after": "source:AB00322",
+   "responds": [
+    "source:AB00322"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus laments over the city that kills its prophets, though he would have gathered its children as a hen gathers her brood."
+  },
+  {
+   "id": "mill-pleasant-falsehoods",
+   "after": "source:AB00322",
+   "responds": [
+    "source:AB00322"
+   ],
+   "relation": "contrast",
+   "why": "John Stuart Mill calls it a pleasant falsehood that truth always triumphs over persecution: history is full of truths put down. What, if anything, makes this martyrdom different?"
+  },
+  {
+   "id": "hebrews-world-not-worthy",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews remembers those who suffered mockings, scourgings, chains and prison, of whom the world was not worthy."
+  },
+  {
+   "id": "acts-sang-praises-at-midnight",
+   "after": "source:BHU0004",
+   "responds": [
+    "source:BHU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul and Silas, with their feet fast in the stocks of an inner prison, prayed and sang at midnight, and the prisoners heard them."
+  },
+  {
+   "id": "jeremiah-sunk-in-the-mire",
+   "after": "source:BHU0004",
+   "responds": [
+    "source:BHU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah was let down with cords into a dungeon where there was no water but mire, and he sank in it."
+  },
+  {
+   "id": "luke-father-forgive-them",
+   "after": "source:AB00552",
+   "responds": [
+    "source:AB00552"
+   ],
+   "relation": "adjacent",
+   "why": "The mercy shown to persecutors has its best-known expression in the words spoken from the cross."
+  },
+  {
+   "id": "hebrews-remember-them-in-bonds",
+   "after": "source:ABU0065",
+   "responds": [
+    "source:ABU0065"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews asks its readers to remember those in chains as though chained with them."
+  },
+  {
+   "id": "thoreau-just-man-prison",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau, jailed for one night, wrote that under a government which imprisons anyone unjustly the true place for a just person is also a prison."
+  },
+  {
+   "id": "quran-they-plot-and-allah-plots",
+   "after": "source:BH00260",
+   "responds": [
+    "source:BH00260"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an recalls the plot to confine, kill or drive out Muhammad, and says that God also plans."
+  },
+  {
+   "id": "psalm-rivers-of-babylon",
+   "after": "source:BH01026",
+   "responds": [
+    "source:BH01026"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm of the exiles in Babylon asks how the Lord's song can be sung in a strange land."
+  },
+  {
+   "id": "hosea-door-of-hope",
+   "after": "source:BH00379",
+   "responds": [
+    "source:BH00379"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea speaks of being led into the wilderness and given there a door of hope, as this garden was on the road to exile."
+  },
+  {
+   "id": "matthew-not-where-to-lay-his-head",
+   "after": "source:BH00015",
+   "responds": [
+    "source:BH00015"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of himself that foxes have holes and birds have nests, but he had nowhere to lay his head."
+  },
+  {
+   "id": "jeremiah-seek-the-peace-of-the-city",
+   "after": "source:AB12036",
+   "responds": [
+    "source:AB12036"
+   ],
+   "relation": "complement",
+   "why": "Jeremiah wrote to exiles that they should seek the peace of the city to which they had been carried, and pray for it. What can an exile give to the place of banishment?"
+  },
+  {
+   "id": "lamentations-low-dungeon",
+   "after": "source:BH00269",
+   "responds": [
+    "source:BH00269"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations speaks from the low dungeon: I called upon Thy name, and Thou drewest near and said, Fear not."
+  },
+  {
+   "id": "john-his-own-received-him-not",
+   "after": "source:BH00662",
+   "responds": [
+    "source:BH00662"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel states the same irony: he came to his own, and his own did not receive him."
+  },
+  {
+   "id": "psalm-heathen-rage",
+   "after": "source:BH02783",
+   "responds": [
+    "source:BH02783"
+   ],
+   "relation": "adjacent",
+   "why": "The second psalm pictures the kings of the earth setting themselves against the Lord's anointed, and the one in heaven unmoved."
+  },
+  {
+   "id": "philippians-furtherance-of-the-gospel",
+   "after": "source:ABU0037",
+   "responds": [
+    "source:ABU0037"
+   ],
+   "relation": "adjacent",
+   "why": "Paul wrote from prison that what had happened to him had served to spread the message, even through the palace guard."
+  },
+  {
+   "id": "thucydides-the-strong-do-what-they-can",
+   "after": "source:ABU0037",
+   "responds": [
+    "source:ABU0037"
+   ],
+   "relation": "contrast",
+   "why": "The Athenians in Thucydides say that the strong do what they can and the weak suffer what they must. What does the outcome of this imprisonment say to that rule?"
+  },
+  {
+   "id": "jonson-first-son",
+   "after": "source:BH08834",
+   "responds": [
+    "source:BH08834"
+   ],
+   "relation": "adjacent",
+   "why": "Ben Jonson's farewell to his dead son is a father's grief in few words: child of my right hand, and joy."
+  },
+  {
+   "id": "lovelace-stone-walls",
+   "after": "source:BH04229",
+   "responds": [
+    "source:BH04229"
+   ],
+   "relation": "adjacent",
+   "why": "Richard Lovelace wrote from a seventeenth-century prison that stone walls do not make a prison for a free mind."
+  },
+  {
+   "id": "lamentations-is-it-nothing-to-you",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "The cry in Lamentations is the same: is it nothing to you who pass by? See if there is any sorrow like my sorrow."
+  },
+  {
+   "id": "psalm-why-hast-thou-forsaken-me",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm that begins with being forsaken was on the lips of Jesus at the end; scripture does not hide such sorrow."
+  },
+  {
+   "id": "shakespeare-not-single-spies",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's king observes that sorrows do not come as single spies but in battalions."
+  },
+  {
+   "id": "corinthians-with-many-tears",
+   "after": "source:BH00994",
+   "responds": [
+    "source:BH00994"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Corinthians that he wrote to them out of much affliction and anguish of heart, with many tears."
+  },
+  {
+   "id": "jeremiah-fountain-of-tears",
+   "after": "source:BH00579",
+   "responds": [
+    "source:BH00579"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah wishes his head were waters and his eyes a fountain, so that he could weep day and night."
+  },
+  {
+   "id": "quran-bosom-is-oppressed",
+   "after": "source:BH00297",
+   "responds": [
+    "source:BH00297"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says to Muhammad: We know well that your heart is weighed down by what they say."
+  },
+  {
+   "id": "corinthians-troubled-on-every-side",
+   "after": "source:AB00610",
+   "responds": [
+    "source:AB00610"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes a life troubled on every side yet not crushed, persecuted but not forsaken."
+  },
+  {
+   "id": "ephesians-prisoner-of-the-lord",
+   "after": "source:BH01042",
+   "responds": [
+    "source:BH01042"
+   ],
+   "relation": "adjacent",
+   "why": "Paul also wrote as a prisoner, and used the fact to urge lowliness, patience and forbearance in love."
+  },
+  {
+   "id": "wilde-little-tent-of-blue",
+   "after": "source:BH01217",
+   "responds": [
+    "source:BH01217"
+   ],
+   "relation": "adjacent",
+   "why": "Oscar Wilde, a prisoner himself, remembered how men looked up at the little tent of blue that prisoners call the sky."
+  },
+  {
+   "id": "hopkins-no-worst",
+   "after": "source:BH02035",
+   "responds": [
+    "source:BH02035"
+   ],
+   "relation": "contrast",
+   "why": "Hopkins wrote from the bottom of his own distress that there is no worst: each pang is schooled by the last to wring harder. Where does he find no comfort, and where do these readings find it?"
+  },
+  {
+   "id": "proverbs-heart-knoweth-his-own-bitterness",
+   "after": "source:BH01591",
+   "responds": [
+    "source:BH01591"
+   ],
+   "relation": "complement",
+   "why": "The proverb says the heart knows its own bitterness, and no stranger shares it. How much of another's suffering can be told, and how much only hinted at?"
+  },
+  {
+   "id": "quran-never-came-a-messenger",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an states it as a rule without exception: no messenger ever came to them but they mocked him."
+  },
+  {
+   "id": "acts-which-of-the-prophets",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Stephen puts the same question to his judges before they stone him: which of the prophets did your fathers not persecute?"
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Milton was confident that truth is never worsted in a free and open encounter. Why then, on this reading's account, has every Messenger been opposed by those best prepared to judge?"
+  },
+  {
+   "id": "corinthians-stumblingblock",
+   "after": "source:BH00336",
+   "responds": [
+    "source:BH00336"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the crucified Christ was a stumbling-block to those who wanted a sign and foolishness to those who wanted wisdom."
+  },
+  {
+   "id": "dostoevsky-why-art-thou-come-to-hinder-us",
+   "after": "source:BH00336",
+   "responds": [
+    "source:BH00336"
+   ],
+   "relation": "complement",
+   "why": "Dostoevsky's Grand Inquisitor tells the returned Christ that the church has the matter in hand and He must not interfere. What do religious leaders stand to lose when the one they wait for comes?"
+  },
+  {
+   "id": "matthew-tombs-of-the-prophets",
+   "after": "source:BH02022",
+   "responds": [
+    "source:BH02022"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells those who build the tombs of the prophets that they are the children of those who killed them."
+  },
+  {
+   "id": "john-hath-a-devil",
+   "after": "source:BH00668",
+   "responds": [
+    "source:BH00668"
+   ],
+   "relation": "adjacent",
+   "why": "The same was said of Jesus: he has a devil and is mad; why listen to him?"
+  },
+  {
+   "id": "quran-denied-before-thee",
+   "after": "source:BH01822",
+   "responds": [
+    "source:BH01822"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an consoles Muhammad that messengers before him were denied, and were patient until help came."
+  },
+  {
+   "id": "matthew-revile-you",
+   "after": "source:ABU0023",
+   "responds": [
+    "source:ABU0023"
+   ],
+   "relation": "adjacent",
+   "why": "The Sermon on the Mount calls the reviled blessed, because the prophets before them were persecuted in the same way."
+  },
+  {
+   "id": "luke-all-men-speak-well",
+   "after": "source:BH01507",
+   "responds": [
+    "source:BH01507"
+   ],
+   "relation": "adjacent",
+   "why": "Luke has Jesus bless those who are hated, shut out and reproached, and whose name is cast out as evil."
+  },
+  {
+   "id": "amos-prophesy-not-again",
+   "after": "source:BH01880",
+   "responds": [
+    "source:BH01880"
+   ],
+   "relation": "adjacent",
+   "why": "The priest of Bethel tells Amos to go away and prophesy elsewhere: the land cannot bear his words."
+  },
+  {
+   "id": "kings-i-only-am-left",
+   "after": "source:BH04572",
+   "responds": [
+    "source:BH04572"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah complains that the prophets have been slain and that he alone is left, and they seek his life too."
+  },
+  {
+   "id": "john-if-the-world-hate-you",
+   "after": "source:BH00038",
+   "responds": [
+    "source:BH00038"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus prepares his disciples in the same way: the servant is not greater than his lord, and they will be treated as he was."
+  },
+  {
+   "id": "plato-rather-suffer-than-do",
+   "after": "source:BH00038",
+   "responds": [
+    "source:BH00038"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates holds that it is better to suffer injustice than to do it, and would choose so himself."
+  },
+  {
+   "id": "psalm-i-am-for-peace",
+   "after": "source:ABU0016",
+   "responds": [
+    "source:ABU0016"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist knows the position exactly: I am for peace, but when I speak, they are for war."
+  },
+  {
+   "id": "john-cup-which-my-father",
+   "after": "source:BH02484",
+   "responds": [
+    "source:BH02484"
+   ],
+   "relation": "adjacent",
+   "why": "At his arrest Jesus tells Peter to put up his sword: shall I not drink the cup my Father has given me?"
+  },
+  {
+   "id": "isaiah-opening-of-the-prison",
+   "after": "source:BH00347",
+   "responds": [
+    "source:BH00347"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's anointed one is sent to proclaim liberty to captives and the opening of the prison to those who are bound."
+  },
+  {
+   "id": "marx-opium-of-the-people",
+   "after": "source:BH00347",
+   "responds": [
+    "source:BH00347"
+   ],
+   "relation": "contrast",
+   "why": "Marx called religion the sigh of the oppressed creature, a comfort that leaves the chains in place. What kind of bondage does this reading say is being broken, and would Marx count it?"
+  },
+  {
+   "id": "genesis-joseph-in-prison",
+   "after": "source:BH04569",
+   "responds": [
+    "source:BH04569"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that the Lord was with Joseph in the prison, and from there his rise began."
+  },
+  {
+   "id": "philippians-form-of-a-servant",
+   "after": "source:BH06188",
+   "responds": [
+    "source:BH06188"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's hymn speaks of one who took the form of a servant and was obedient even to death on a cross."
+  },
+  {
+   "id": "quran-put-out-the-light",
+   "after": "source:BH02764",
+   "responds": [
+    "source:BH02764"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of those who would put out God's light with their mouths that God will perfect His light all the same."
+  },
+  {
+   "id": "acts-worthy-to-suffer-shame",
+   "after": "source:BH01924",
+   "responds": [
+    "source:BH01924"
+   ],
+   "relation": "adjacent",
+   "why": "The apostles, having been beaten, left the council rejoicing that they were counted worthy to suffer shame for the name."
+  },
+  {
+   "id": "quran-prison-is-dearer",
+   "after": "source:BH02896",
+   "responds": [
+    "source:BH02896"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph in the Qur’an says that prison is dearer to him than what he is being urged to do."
+  },
+  {
+   "id": "romans-tribulation-worketh-patience",
+   "after": "source:BH06429",
+   "responds": [
+    "source:BH06429"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he glories in tribulations, since they work patience, and patience experience, and experience hope."
+  },
+  {
+   "id": "corinthians-light-affliction",
+   "after": "source:ABU0066",
+   "responds": [
+    "source:ABU0066"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls his affliction light and momentary beside the weight of glory that it is preparing."
+  },
+  {
+   "id": "psalm-good-that-i-was-afflicted",
+   "after": "source:BH05077",
+   "responds": [
+    "source:BH05077"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist can say that it was good for him to have been afflicted, since through it he learned."
+  },
+  {
+   "id": "job-let-the-day-perish",
+   "after": "source:BH06833",
+   "responds": [
+    "source:BH06833"
+   ],
+   "relation": "contrast",
+   "why": "Job, who had earlier blessed God in his loss, came to curse the day he was born, and scripture kept his words. Is thanksgiving for suffering asked of everyone, or given to some?"
+  },
+  {
+   "id": "mencius-heaven-great-office",
+   "after": "source:ABU0404",
+   "responds": [
+    "source:ABU0404"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius held that when Heaven is about to lay a great office on someone, it first exercises his mind with suffering and his body with toil."
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:ABU0404",
+   "responds": [
+    "source:ABU0404"
+   ],
+   "relation": "adjacent",
+   "why": "Frederick Douglass, who had been a slave, said that without struggle there is no progress."
+  },
+  {
+   "id": "epictetus-not-by-things",
+   "after": "source:ABU0386",
+   "responds": [
+    "source:ABU0386"
+   ],
+   "relation": "adjacent",
+   "why": "Epictetus, once a slave, taught that we are disturbed by our judgments about events and not by the events themselves."
+  },
+  {
+   "id": "marcus-promontory",
+   "after": "source:AB00121",
+   "responds": [
+    "source:AB00121"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius asks to be like the headland on which the waves break continually while it stands firm."
+  },
+  {
+   "id": "byron-my-very-chains",
+   "after": "source:AB00874",
+   "responds": [
+    "source:AB00874"
+   ],
+   "relation": "complement",
+   "why": "Byron's prisoner grew so used to his dungeon that he regained his freedom with a sigh. How is making a paradise of a prison different from growing used to it?"
+  },
+  {
+   "id": "milton-mind-its-own-place",
+   "after": "source:AB00874",
+   "responds": [
+    "source:AB00874"
+   ],
+   "relation": "adjacent",
+   "why": "Milton gives the thought to a darker speaker, yet it holds: the mind is its own place and can make a heaven of hell."
+  },
+  {
+   "id": "hebrews-moses-chose-affliction",
+   "after": "source:AB00048",
+   "responds": [
+    "source:AB00048"
+   ],
+   "relation": "adjacent",
+   "why": "Moses, says the Letter to the Hebrews, chose to suffer affliction with his people when he could have had ease."
+  },
+  {
+   "id": "psalm-bring-my-soul-out-of-prison",
+   "after": "source:AB00299",
+   "responds": [
+    "source:AB00299"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays from the same place: I am brought very low; bring my soul out of prison, that I may praise Thy name."
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "source:AB01376",
+   "responds": [
+    "source:AB01376"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus locates freedom elsewhere than in circumstances: you shall know the truth, and the truth shall make you free."
+  },
+  {
+   "id": "wilde-bricks-of-shame",
+   "after": "source:AB01376",
+   "responds": [
+    "source:AB01376"
+   ],
+   "relation": "contrast",
+   "why": "Wilde, after two years inside, wrote that every prison is built with bricks of shame. Does calling a prison a palace risk making light of what prisons do to those held in them?"
+  },
+  {
+   "id": "hebrews-whom-the-lord-loveth",
+   "after": "source:AB00502",
+   "responds": [
+    "source:AB00502"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews reads hardship as a father's training: whom the Lord loves He chastens."
+  },
+  {
+   "id": "timothy-fought-a-good-fight",
+   "after": "source:AB01585",
+   "responds": [
+    "source:AB01585"
+   ],
+   "relation": "adjacent",
+   "why": "Paul, near his end and worn out, could say that he had fought the good fight and kept the faith."
+  },
+  {
+   "id": "corinthians-god-of-all-comfort",
+   "after": "source:BH01536",
+   "responds": [
+    "source:BH01536"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that those comforted in their own trouble become able to comfort others in theirs."
+  },
+  {
+   "id": "matthew-take-up-his-cross",
+   "after": "source:BH02224",
+   "responds": [
+    "source:BH02224"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks those who would come after him to take up their own cross and follow."
+  },
+  {
+   "id": "revelation-faithful-unto-death",
+   "after": "source:BH04033",
+   "responds": [
+    "source:BH04033"
+   ],
+   "relation": "adjacent",
+   "why": "The church at Smyrna is told to fear none of the things it will suffer, and to be faithful to the end."
+  },
+  {
+   "id": "psalm-tears-into-thy-bottle",
+   "after": "source:BH03796",
+   "responds": [
+    "source:BH03796"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist trusts that his wanderings are counted and his tears kept; nothing he endures goes unseen."
+  },
+  {
+   "id": "quran-we-tried-those-before",
+   "after": "source:BH08863",
+   "responds": [
+    "source:BH08863"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that those who came before were tested too, and that in this way the sincere are known."
+  },
+  {
+   "id": "matthew-flee-into-another",
+   "after": "source:BH05002",
+   "responds": [
+    "source:BH05002"
+   ],
+   "relation": "complement",
+   "why": "Jesus also told his disciples that when they were persecuted in one city they should flee to another. When is bearing humiliation the right course, and when is leaving?"
+  },
+  {
+   "id": "revelation-how-long-o-lord",
+   "after": "source:BH09386",
+   "responds": [
+    "source:BH09386"
+   ],
+   "relation": "adjacent",
+   "why": "In the Book of Revelation the souls of the slain cry out from under the altar: how long, O Lord?"
+  },
+  {
+   "id": "polycarp-eighty-and-six-years",
+   "after": "source:AB03828",
+   "responds": [
+    "source:AB03828"
+   ],
+   "relation": "adjacent",
+   "why": "The aged bishop Polycarp, told to deny his Lord or burn, answered that he had served Him eighty-six years and been done no wrong."
+  },
+  {
+   "id": "psalm-lover-and-friend",
+   "after": "source:BH02307",
+   "responds": [
+    "source:BH02307"
+   ],
+   "relation": "adjacent",
+   "why": "Psalm 88 is the darkest in the book: afflicted from youth, with lover and friend put far away."
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:BH00358",
+   "responds": [
+    "source:BH00358"
+   ],
+   "relation": "adjacent",
+   "why": "Job's first answer to his losses was praise: the Lord gave and the Lord has taken away; blessed be His name."
+  },
+  {
+   "id": "habakkuk-how-long-shall-i-cry",
+   "after": "source:BH00848",
+   "responds": [
+    "source:BH00848"
+   ],
+   "relation": "contrast",
+   "why": "Habakkuk does not praise; he asks how long he must cry out about violence and not be heard. Is there room in prayer for such a complaint beside thanksgiving?"
+  },
+  {
+   "id": "psalm-sighing-of-the-prisoner",
+   "after": "source:BH09162",
+   "responds": [
+    "source:BH09162"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm asks that the sighing of the prisoner come before God, and that those appointed to die be preserved."
+  },
+  {
+   "id": "daniel-den-of-lions",
+   "after": "source:BH05571",
+   "responds": [
+    "source:BH05571"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel, shut in among the lions, tells the king in the morning that his God sent an angel and he has taken no hurt."
+  },
+  {
+   "id": "kings-it-is-enough",
+   "after": "source:BH00591",
+   "responds": [
+    "source:BH00591"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah, alone in the wilderness, sat under a juniper tree and said that it was enough."
+  },
+  {
+   "id": "daniel-fiery-furnace",
+   "after": "source:BH01438",
+   "responds": [
+    "source:BH01438"
+   ],
+   "relation": "adjacent",
+   "why": "In the Book of Daniel three men walk unharmed in the furnace, and a fourth is seen walking with them."
+  },
+  {
+   "id": "quran-sufficient-for-us",
+   "after": "source:BH01438",
+   "responds": [
+    "source:BH01438"
+   ],
+   "relation": "adjacent",
+   "why": "Those warned in the Qur’an that the people had gathered against them answered: God is sufficient for us."
+  },
+  {
+   "id": "romans-groanings-cannot-be-uttered",
+   "after": "source:BH02872",
+   "responds": [
+    "source:BH02872"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says there are things that cannot be put into words, and that the Spirit pleads for us with groanings beyond speech."
+  },
+  {
+   "id": "quran-dhun-nun",
+   "after": "source:BH03262",
+   "responds": [
+    "source:BH03262"
+   ],
+   "relation": "adjacent",
+   "why": "Jonah in the Qur’an cries out from the darkness that there is no God but Thee, and is heard."
+  },
+  {
+   "id": "psalm-whither-shall-i-go",
+   "after": "source:BH01386",
+   "responds": [
+    "source:BH01386"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist finds that there is no place so far, beyond the uttermost sea, where that hand does not hold him."
+  },
+  {
+   "id": "marcus-turn-thy-prayers",
+   "after": "source:BH03356",
+   "responds": [
+    "source:BH03356"
+   ],
+   "relation": "complement",
+   "why": "Marcus Aurelius suggests praying not to be released from a thing but not to desire release. Which of these two prayers is being made here, and may a person make both?"
+  },
+  {
+   "id": "psalm-feet-upon-a-rock",
+   "after": "source:BH07180",
+   "responds": [
+    "source:BH07180"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist gives thanks for being brought up out of a horrible pit and having his feet set upon a rock."
+  },
+  {
+   "id": "job-though-he-slay-me",
+   "after": "source:BH07659",
+   "responds": [
+    "source:BH07659"
+   ],
+   "relation": "adjacent",
+   "why": "Job says the hardest thing a sufferer can say: though He slay me, yet will I trust in Him."
+  }
+ ],
+ "library": {
+  "psalm-bring-my-soul-out-of-prison": {
+   "text": "Attend unto my cry; for I am brought very low: deliver me from my persecutors; for they are stronger than I. Bring my soul out of prison, that I may praise thy name: the righteous shall compass me about; for thou shalt deal bountifully with me",
+   "work": "Psalm 142:6–7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20142%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-why-hast-thou-forsaken-me": {
+   "text": "My God, my God, why hast thou forsaken me? why art thou so far from helping me, and from the words of my roaring? O my God, I cry in the day time, but thou hearest not; and in the night season, and am not silent",
+   "work": "Psalm 22:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2022%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-sunk-in-the-mire": {
+   "text": "Then took they Jeremiah, and cast him into the dungeon of Malchiah the son of Hammelech, that was in the court of the prison: and they let down Jeremiah with cords. And in the dungeon there was no water, but mire: so Jeremiah sunk in the mire",
+   "work": "Jeremiah 38:6",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2038%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-joseph-in-prison": {
+   "text": "And Joseph's master took him, and put him into the prison, a place where the king's prisoners were bound: and he was there in the prison. But the Lord was with Joseph, and shewed him mercy, and gave him favour in the sight of the keeper of the prison",
+   "work": "Genesis 39:20–21",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2039%3A20-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-den-of-lions": {
+   "text": "Then said Daniel unto the king, O king, live for ever. My God hath sent his angel, and hath shut the lions' mouths, that they have not hurt me: forasmuch as before him innocency was found in me; and also before thee, O king, have I done no hurt",
+   "work": "Daniel 6:21–22",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%206%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-crown-of-thorns": {
+   "text": "And they stripped him, and put on him a scarlet robe. And when they had platted a crown of thorns, they put it upon his head, and a reed in his right hand: and they bowed the knee before him, and mocked him, saying, Hail, King of the Jews! And they spit upon him, and took the reed, and smote him on the head",
+   "work": "Matthew 27:28–30",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2027%3A28-30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-borne-our-griefs": {
+   "text": "Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted. But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed",
+   "work": "Isaiah 53:4–5",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2053%3A4-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-jerusalem-killest-the-prophets": {
+   "text": "O Jerusalem, Jerusalem, which killest the prophets, and stonest them that are sent unto thee; how often would I have gathered thy children together, as a hen doth gather her brood under her wings, and ye would not",
+   "work": "Luke 13:34",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2013%3A34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-prisoner-of-the-lord": {
+   "text": "I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called, With all lowliness and meekness, with longsuffering, forbearing one another in love",
+   "work": "Ephesians 4:1–2",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%204%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-sighing-of-the-prisoner": {
+   "text": "Let the sighing of the prisoner come before thee; according to the greatness of thy power preserve thou those that are appointed to die",
+   "work": "Psalm 79:11",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2079%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-opening-of-the-prison": {
+   "text": "The Spirit of the Lord God is upon me; because the Lord hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound",
+   "work": "Isaiah 61:1",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2061%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "lamentations-low-dungeon": {
+   "text": "They have cut off my life in the dungeon, and cast a stone upon me. Waters flowed over mine head; then I said, I am cut off. I called upon thy name, O Lord, out of the low dungeon. Thou hast heard my voice: hide not thine ear at my breathing, at my cry. Thou drewest near in the day that I called upon thee: thou saidst, Fear not",
+   "work": "Lamentations 3:53–57",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Lamentations%203%3A53-57&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-naked-came-i": {
+   "text": "And said, Naked came I out of my mother's womb, and naked shall I return thither: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord",
+   "work": "Job 1:21",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%201%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-cup-which-my-father": {
+   "text": "Then said Jesus unto Peter, Put up thy sword into the sheath: the cup which my Father hath given me, shall I not drink it",
+   "work": "John 18:11",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2018%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-prison-is-dearer": {
+   "text": "He said: O my Lord! Prison is more dear than that unto which they urge me, and if Thou fend not off their wiles from me I shall incline unto them and become of the foolish.",
+   "work": "Qur’an 12:33",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=12&verse=33",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-we-tried-those-before": {
+   "text": "Lo! We tested those who were before you. Thus Allah knoweth those who are sincere, and knoweth those who feign.",
+   "work": "Qur’an 29:3",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=29&verse=3",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "plato-not-render-evil-for-evil": {
+   "text": "Then we ought not to retaliate or render evil for evil to anyone, whatever evil we may have suffered from him",
+   "author": "Plato",
+   "work": "Crito",
+   "year": "c. 395 BCE",
+   "sortYear": -395,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/crito.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "plato-pleasure-after-the-chain": {
+   "text": "How singular is the thing called pleasure, and how curiously related to pain, which might be thought to be the opposite of it",
+   "author": "Plato",
+   "work": "Phaedo",
+   "year": "c. 380 BCE",
+   "sortYear": -380,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/phaedo.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "byron-my-very-chains": {
+   "text": "My very chains and I grew friends, / So much a long communion tends390 / To make us what we are:—even I / Regained my freedom with a sigh",
+   "verse": true,
+   "author": "Lord Byron",
+   "work": "The Prisoner of Chillon",
+   "year": "1816",
+   "sortYear": 1816,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_Lord_Byron_(ed._Coleridge,_Prothero)/Poetry/Volume_4/The_Prisoner_of_Chillon",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1824."
+   }
+  },
+  "wilde-little-tent-of-blue": {
+   "text": "I never saw a man who looked / So wistfully at the day. / I never saw a man who looked / With such a wistful eye / Upon that little tent of blue / Which prisoners call the sky, / And at every drifting cloud that went / With sails of silver by",
+   "verse": true,
+   "author": "Oscar Wilde",
+   "work": "The Ballad of Reading Gaol",
+   "year": "1898",
+   "sortYear": 1898,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Ballad_of_Reading_Gaol_(1904)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1900."
+   }
+  },
+  "wilde-bricks-of-shame": {
+   "text": "That every prison that men build / Is built with bricks of shame, / And bound with bars lest Christ should see / How men their brothers maim",
+   "verse": true,
+   "author": "Oscar Wilde",
+   "work": "The Ballad of Reading Gaol",
+   "year": "1898",
+   "sortYear": 1898,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Ballad_of_Reading_Gaol_(1904)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1900."
+   }
+  }
+ }
+}
