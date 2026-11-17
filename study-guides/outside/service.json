@@ -1,0 +1,2340 @@
+{
+ "format": 2,
+ "slug": "service",
+ "subject": "75315FCCBA5D4B54A22808A1159B1775",
+ "status": "published",
+ "limit": 100,
+ "rule": "proportional",
+ "readings": 95,
+ "quotations": 100,
+ "kept": [
+  "source:AB00004",
+  "source:BH00001",
+  "source:BH00005",
+  "source:AB01704",
+  "source:AB05047",
+  "source:AB06179",
+  "source:BH11905",
+  "source:BH00045",
+  "source:BH00426",
+  "source:BH00074",
+  "source:BH01740",
+  "source:AB06831",
+  "source:BH01591",
+  "source:AB00044",
+  "source:ABU0666",
+  "source:AB11928",
+  "source:AB00053",
+  "source:AB00104",
+  "source:ABU0270",
+  "source:AB00755",
+  "source:ABU0811",
+  "source:BH04573",
+  "source:BH05059",
+  "source:BH03420",
+  "source:BH01171",
+  "source:AB00687",
+  "source:AB01079",
+  "source:AB01928",
+  "source:ABU1317",
+  "source:ABU3350",
+  "source:AB00369",
+  "source:AB06435",
+  "source:AB12828",
+  "source:AB10007",
+  "source:AB00132",
+  "source:ABU0982",
+  "source:AB11604",
+  "source:ABU1794",
+  "source:BH10890",
+  "source:BH03787",
+  "source:AB02903",
+  "source:AB12015",
+  "source:AB07264",
+  "source:AB04470",
+  "source:AB08287",
+  "source:AB10915",
+  "source:AB09999",
+  "source:AB01406",
+  "source:AB02454",
+  "source:AB11810",
+  "source:AB01462",
+  "source:AB01023",
+  "source:ABU0350",
+  "source:ABU0220",
+  "source:AB11916",
+  "source:AB12079",
+  "source:ABU1079",
+  "source:ABU0404",
+  "source:ABU0588",
+  "source:ABU0186",
+  "source:ABU0901",
+  "source:ABU0689",
+  "source:AB01317",
+  "source:ABU0410",
+  "source:AB00027",
+  "source:AB00322",
+  "source:AB00198",
+  "source:AB01594",
+  "source:AB01165",
+  "source:AB06747",
+  "source:AB03615",
+  "source:AB01505",
+  "source:AB04675",
+  "source:ABU1112",
+  "source:ABU1580",
+  "source:AB08730",
+  "source:BH02851",
+  "source:BH03785",
+  "source:AB09332",
+  "source:AB01322",
+  "source:AB10253",
+  "source:AB03416",
+  "source:BH01978",
+  "source:AB07401",
+  "source:AB05607",
+  "source:AB02732",
+  "source:BHU0040",
+  "source:BH00505",
+  "source:AB11454",
+  "source:AB10256",
+  "source:AB02235",
+  "source:AB00174",
+  "source:AB03082",
+  "source:AB09040",
+  "source:AB00156"
+ ],
+ "introduction": "‘Abdu’l-Bahá asks whether any deed is nobler than service to the common good, and answers no. The readings then say what service is: first character and deeds, then a long list of practical care for the orphan, the poor, the sick, the prisoner and the stranger, friend and enemy alike; work and the education of children; common effort; and, near the end, plain counsel about capacity, about parents, and about patience when nothing seems to come of it. Scripture stands near at almost every point, from Matthew’s “I was an hungred” and Job’s “eyes to the blind” to the Qur’an’s food given without wish for thanks, with Saʿdī, Confucius, Mozi, Marcus Aurelius, the Mishnah and George Eliot beside them. The objections are of two kinds. Adam Smith and Thoreau doubt the benevolent; Dostoevsky’s doctor loves mankind and cannot bear a man. And Wilde and Blake ask whether charity is an answer to poverty at all.",
+ "questions": [
+  "‘Abdu’l-Bahá praises service done “forgetting their own worldly advantage”; Adam Smith says that we owe our dinner to self-interest; Thoreau would run from a man coming to do him good. What kind of service survives both remarks?",
+  "“If you give them only words … they will find themselves none the richer.” Wilde and Blake object that giving leaves in place what makes people poor. Do the readings on work, education and community answer them, and how?",
+  "The readings insist on treating all alike, believer and enemy; Paul says “especially” the household of faith; Burke says that love of mankind begins in the little platoon. Where should service begin, and where may it not stop?",
+  "A son is told to serve his father first; a disciple in the Gospel is told to let the dead bury their dead; Martha is corrected for her serving. What do these cases, read together, say about competing duties?",
+  "“Man is responsible to the degree of his power and capacity.” How do the widow’s mites, “she hath done what she could” and Rabbi Tarfon’s saying about the unfinished work help in using that sentence honestly, neither as an excuse nor as a burden?",
+  "Many readings promise that no service is lost, and George Eliot says the same of unhistoric acts. Why might that assurance matter to someone serving, and how does the Gītā’s counsel to act without regard to the fruit qualify it?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-inasmuch",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "“The highest righteousness of all is for blessed souls to take hold of the hands of the helpless.” In Matthew’s scene of judgment nothing else is asked about: I was an hungred, and ye gave me meat."
+  },
+  {
+   "id": "dickens-mankind-business",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "“Is there any deed in the world that would be nobler than service to the common good?” Marley’s ghost learned the answer too late: mankind was my business; the common welfare was my business."
+  },
+  {
+   "id": "tattvartha-mutual-service",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá calls service to one’s fellow-creatures the greatest blessing conceivable. The Jain sūtra states it as what souls are for, in a handful of words: souls render service to one another."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "contrast",
+   "why": "Service, says the reading, is done “forgetting their own worldly advantage and working only to serve the general good”. Adam Smith observed that our dinner comes from the butcher’s and baker’s regard to their own interest, not their benevolence. How much of the common good can be left to that, and what is left over for the reading’s kind of service?"
+  },
+  {
+   "id": "corinthians-labour-not-in-vain",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“Arise ye, under all conditions, to render service to the Cause, for God will assuredly assist you.” Paul: be ye stedfast, always abounding in the work of the Lord, forasmuch as ye know that your labour is not in vain."
+  },
+  {
+   "id": "joshua-be-strong",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The servants are to arise so that “cares and sorrows” caused by opponents “may not afflict” them. Joshua is sent out with the same charge: be strong and of a good courage; be not afraid."
+  },
+  {
+   "id": "joshua-me-and-my-house",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "“This is the day to make mention of God … and to serve Him; deprive not yourselves thereof.” Joshua to the assembled tribes: choose you this day whom ye will serve."
+  },
+  {
+   "id": "analects-no-distinction",
+   "after": "source:AB01704",
+   "responds": [
+    "source:AB01704"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations “engaged in the service of universal education”, with aims “wide and all-inclusive”. Confucius, the teacher of a single country, put the breadth in one sentence: in teaching there should be no distinction of classes."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:AB05047",
+   "responds": [
+    "source:AB05047"
+   ],
+   "relation": "adjacent",
+   "why": "“Act according to the divine teachings … This is service to the Cause of God.” James: be ye doers of the word, and not hearers only."
+  },
+  {
+   "id": "matthew-alms-before-men",
+   "after": "source:AB06179",
+   "responds": [
+    "source:AB06179"
+   ],
+   "relation": "complement",
+   "why": "Service means acquiring divine characteristics, “so that in whatever city you may be, you become renowned for all virtuous qualities”. The Sermon on the Mount warns against goodness done to be seen. How does one become known for virtue without doing it for the name?"
+  },
+  {
+   "id": "analects-acts-before-he-speaks",
+   "after": "source:BH11905",
+   "responds": [
+    "source:BH11905"
+   ],
+   "relation": "adjacent",
+   "why": "“Today is the day of deeds and not of words.” Confucius on the superior man: he acts before he speaks, and afterwards speaks according to his actions."
+  },
+  {
+   "id": "chaucer-parson",
+   "after": "source:BH00045",
+   "responds": [
+    "source:BH00045"
+   ],
+   "relation": "adjacent",
+   "why": "Each must be “a teacher to the world”, so that the heedless may find their way “through their deeds and actions”. Chaucer’s poor parson: first he wrought, and afterward he taught."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:BH00074",
+   "responds": [
+    "source:BH00074"
+   ],
+   "relation": "adjacent",
+   "why": "God has sanctified the promotion of His Cause “from conflict, contention, the drawing of swords”; goodly deeds are the means. Zechariah: not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "marcus-feet-hands",
+   "after": "source:BH01740",
+   "responds": [
+    "source:BH01740"
+   ],
+   "relation": "adjacent",
+   "why": "“Ye have been created for the advancement, prosperity, and exaltation of those who dwell on earth.” Marcus Aurelius: we are made for co-operation, like feet, like hands, like eyelids."
+  },
+  {
+   "id": "pericles-useless",
+   "after": "source:AB06831",
+   "responds": [
+    "source:AB06831"
+   ],
+   "relation": "adjacent",
+   "why": "True honour lies in rendering “service to his government” and working “for the good of his fellow-citizens”. Pericles said of Athens that it alone regarded the man who takes no part in public affairs as useless."
+  },
+  {
+   "id": "kennedy-ask-not",
+   "after": "source:AB06831",
+   "responds": [
+    "source:AB06831"
+   ],
+   "relation": "adjacent",
+   "why": "The reading joins service to one’s government with the good of one’s fellow-citizens. The best known modern summons to both is addressed first to a country and then to “my fellow citizens of the world”."
+  },
+  {
+   "id": "dostoevsky-humanity",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "contrast",
+   "why": "The true servant has “not the slightest trace of egotism or private motives”. A doctor in Dostoevsky confesses the common failure: the more I love humanity in general, the less I love man in particular. How would the reading’s test, behaviour, catch that?"
+  },
+  {
+   "id": "matthew-left-hand-know",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá describes service “with pure intent”, without private motives. Jesus gives a rule for keeping the intent pure: let not thy left hand know what thy right hand doeth."
+  },
+  {
+   "id": "isaiah-plead-for-the-widow",
+   "after": "source:ABU0666",
+   "responds": [
+    "source:ABU0666"
+   ],
+   "relation": "adjacent",
+   "why": "“Care for the poor, protect the weak, heal the sick, teach and educate the ignorant.” Isaiah’s list: learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow."
+  },
+  {
+   "id": "mark-shall-be-your-minister",
+   "after": "source:AB11928",
+   "responds": [
+    "source:AB11928"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying ‘Abdu’l-Bahá quotes to a servant at the Pilgrim House, who is “a servant, but in reality … ministered unto”."
+  },
+  {
+   "id": "john-wash-one-anothers-feet",
+   "after": "source:AB11928",
+   "responds": [
+    "source:AB11928"
+   ],
+   "relation": "adjacent",
+   "why": "“To serve the beloved of God is truly the principal rôle of this grief-stricken Servant.” Jesus, having washed his disciples’ feet: if I then, your Lord and Master, have washed your feet; ye also ought to wash one another’s feet."
+  },
+  {
+   "id": "psalm-defend-the-poor",
+   "after": "source:AB00053",
+   "responds": [
+    "source:AB00053"
+   ],
+   "relation": "adjacent",
+   "why": "“Be ye the protector of every oppressed one and a shelter to every outcast.” The psalm charges the judges of the earth with it: defend the poor and fatherless; rid them out of the hand of the wicked."
+  },
+  {
+   "id": "saadi-limbs",
+   "after": "source:AB00104",
+   "responds": [
+    "source:AB00104"
+   ],
+   "relation": "adjacent",
+   "why": "“Think ye at all times of rendering some service to every member of the human race.” Saʿdī gives the reason in a figure: the sons of Adam are limbs of each other, and when one is afflicted the others cannot rest."
+  },
+  {
+   "id": "isaiah-chosen-fast",
+   "after": "source:ABU0270",
+   "responds": [
+    "source:ABU0270"
+   ],
+   "relation": "adjacent",
+   "why": "“Bestow food upon the hungry, clothe the needy.” Isaiah names these as the fast God has chosen: to deal thy bread to the hungry, and when thou seest the naked, that thou cover him."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:AB00755",
+   "responds": [
+    "source:AB00755"
+   ],
+   "relation": "adjacent",
+   "why": "“Serve all creation without exception … nurse every sick one.” The parable answers the question who is my neighbour with a foreigner who binds a stranger’s wounds and pays for his lodging."
+  },
+  {
+   "id": "thoreau-doing-me-good",
+   "after": "source:AB00755",
+   "responds": [
+    "source:AB00755"
+   ],
+   "relation": "contrast",
+   "why": "The reading asks its hearers to work for “the comfort, joy and gladness of all”. Thoreau said that if he knew a man was coming to his house with the conscious design of doing him good, he should run for his life. What in the manner of serving would have let him stay?"
+  },
+  {
+   "id": "galatians-not-weary-in-well-doing",
+   "after": "source:ABU0811",
+   "responds": [
+    "source:ABU0811"
+   ],
+   "relation": "complement",
+   "why": "“You must treat all alike, whether believers or enemies of the Cause … make no difference.” Paul says do good unto all men, and adds: especially unto them who are of the household of faith. What does his “especially” protect, and why does the reading refuse it here?"
+  },
+  {
+   "id": "quran-feed-for-the-love-of-him",
+   "after": "source:BH04573",
+   "responds": [
+    "source:BH04573"
+   ],
+   "relation": "adjacent",
+   "why": "“A father to every orphan … compassionate to every prisoner.” The Qur’an names the same three, the needy, the orphan and the prisoner, and the spirit of the gift: we wish for no reward nor thanks from you."
+  },
+  {
+   "id": "deuteronomy-open-thine-hand",
+   "after": "source:BH05059",
+   "responds": [
+    "source:BH05059"
+   ],
+   "relation": "adjacent",
+   "why": "“Consider ye the oppressed, the distressed, the hungry, the naked, the weak and the poor.” Deuteronomy makes it law: thou shalt not harden thine heart, nor shut thine hand from thy poor brother."
+  },
+  {
+   "id": "job-eyes-to-the-blind",
+   "after": "source:BH03420",
+   "responds": [
+    "source:BH03420"
+   ],
+   "relation": "adjacent",
+   "why": "“Be eyes to the blind, and a guiding light unto the feet of the erring.” Job, defending his life, uses the same words of himself: I was eyes to the blind, and feet was I to the lame."
+  },
+  {
+   "id": "romans-strong-bear-the-weak",
+   "after": "source:BH01171",
+   "responds": [
+    "source:BH01171"
+   ],
+   "relation": "adjacent",
+   "why": "“To care for the weak is essential.” Paul: we then that are strong ought to bear the infirmities of the weak, and not to please ourselves."
+  },
+  {
+   "id": "romans-overcome-evil",
+   "after": "source:AB00687",
+   "responds": [
+    "source:AB00687"
+   ],
+   "relation": "adjacent",
+   "why": "“They must comfort the ill-natured, and treat their oppressors with loving-kindness.” Paul: if thine enemy hunger, feed him; overcome evil with good."
+  },
+  {
+   "id": "lincoln-malice-toward-none",
+   "after": "source:AB01079",
+   "responds": [
+    "source:AB01079"
+   ],
+   "relation": "adjacent",
+   "why": "The survivors of the martyrs, plundered and displaced, “must be cared for with heart and soul”. Lincoln, a month before his death, asked the same of a nation: to care for him who shall have borne the battle, and for his widow, and his orphan."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU3350",
+   "responds": [
+    "source:ABU3350"
+   ],
+   "relation": "adjacent",
+   "why": "“If you give them only words … they will find themselves none the richer for you!” The First Epistle of John: let us not love in word, neither in tongue; but in deed and in truth."
+  },
+  {
+   "id": "wilde-poverty-impossible",
+   "after": "source:ABU3350",
+   "responds": [
+    "source:ABU3350"
+   ],
+   "relation": "contrast",
+   "why": "“Assuredly, give to the poor.” Wilde thought almsgiving kept the disease alive: the proper aim is to reconstruct society so that poverty will be impossible, and the altruistic virtues have prevented it. Is giving to the poor a rival to changing what makes them poor, in these readings or in fact?"
+  },
+  {
+   "id": "blake-pity-would-be-no-more",
+   "after": "source:ABU3350",
+   "responds": [
+    "source:ABU3350"
+   ],
+   "relation": "contrast",
+   "why": "The readings in this part praise the giver many times over. Blake turns the praise inside out: pity would be no more, if we did not make somebody poor. What would he ask of someone who means to be “a treasury for the poor”?"
+  },
+  {
+   "id": "proverbs-lendeth-unto-the-lord",
+   "after": "source:AB00369",
+   "responds": [
+    "source:AB00369"
+   ],
+   "relation": "adjacent",
+   "why": "“Service to the friends is service to the Kingdom of God and care for the poor is among the divine teachings.” Proverbs: he that hath pity upon the poor lendeth unto the Lord."
+  },
+  {
+   "id": "dickinson-stop-one-heart",
+   "after": "source:AB06435",
+   "responds": [
+    "source:AB06435"
+   ],
+   "relation": "adjacent",
+   "why": "“A consolation to every dejected heart … a succour to every lost one.” Emily Dickinson brings the measure down to one: if I can stop one heart from breaking, I shall not live in vain."
+  },
+  {
+   "id": "wordsworth-unremembered-acts",
+   "after": "source:AB10007",
+   "responds": [
+    "source:AB10007"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá asks one traveller to be “a close, a constant and cheerful companion” to his sister and to gladden her heart. Wordsworth calls such things the best portion of a good man’s life: little, nameless, unremembered acts of kindness and of love."
+  },
+  {
+   "id": "quran-no-wage",
+   "after": "source:AB00132",
+   "responds": [
+    "source:AB00132"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse the friends are told to recite: the words of Noah and of the prophets after him, each of whom asks no wage of his people."
+  },
+  {
+   "id": "avot-without-expectation-of-reward",
+   "after": "source:AB00132",
+   "responds": [
+    "source:AB00132"
+   ],
+   "relation": "adjacent",
+   "why": "“I ask of you no recompense for it.” Antigonus of Socho: be like servants who serve the master without the expectation of receiving a reward."
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:ABU0982",
+   "responds": [
+    "source:ABU0982"
+   ],
+   "relation": "adjacent",
+   "why": "“No occupation can prevent the soul coming to God … the heart must be turned always towards God, no matter what the work is.” George Herbert: who sweeps a room as for Thy laws makes that and the action fine."
+  },
+  {
+   "id": "avot-worldly-occupation",
+   "after": "source:AB11604",
+   "responds": [
+    "source:AB11604"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou shouldst continue thy profession and at the same time try to serve the Kingdom of God.” Rabban Gamaliel: excellent is the study of the Torah when combined with a worldly occupation."
+  },
+  {
+   "id": "thessalonians-neither-should-he-eat",
+   "after": "source:BH10890",
+   "responds": [
+    "source:BH10890"
+   ],
+   "relation": "adjacent",
+   "why": "“Blessed is he who beareth burdens but causeth none to bear his own.” Paul’s rule for the church at Thessalonica: with quietness they work, and eat their own bread."
+  },
+  {
+   "id": "colossians-heartily-as-to-the-lord",
+   "after": "source:AB02903",
+   "responds": [
+    "source:AB02903"
+   ],
+   "relation": "adjacent",
+   "why": "“If he undertaketh any business, it is inspired solely by the thought of worship.” Paul: whatsoever ye do, do it heartily, as to the Lord, and not unto men."
+  },
+  {
+   "id": "tagore-leave-this-chanting",
+   "after": "source:AB02903",
+   "responds": [
+    "source:AB02903"
+   ],
+   "relation": "adjacent",
+   "why": "Effort prompted by “the hope of service”, business inspired by “the thought of worship”. Tagore tells the worshipper in the temple where God is: there where the tiller is tilling the hard ground and where the pathmaker is breaking stones."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB07264",
+   "responds": [
+    "source:AB07264"
+   ],
+   "relation": "adjacent",
+   "why": "“Among the greatest of all services … is the education and training of children.” Proverbs: train up a child in the way he should go: and when he is old, he will not depart from it."
+  },
+  {
+   "id": "matthew-suffer-little-children",
+   "after": "source:AB07264",
+   "responds": [
+    "source:AB07264"
+   ],
+   "relation": "adjacent",
+   "why": "The reading calls children “young plants of the Abha Paradise”, and their training a hard service. The disciples thought children beneath their master’s time and were corrected: of such is the kingdom of heaven."
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:AB04470",
+   "responds": [
+    "source:AB04470"
+   ],
+   "relation": "adjacent",
+   "why": "“Every child must be trained in the things of the spirit.” Deuteronomy describes how: thou shalt talk of them when thou sittest in thine house, and when thou walkest by the way."
+  },
+  {
+   "id": "exodus-honour-thy-father",
+   "after": "source:AB08287",
+   "responds": [
+    "source:AB08287"
+   ],
+   "relation": "adjacent",
+   "why": "“It is my ardent wish that thou mayest nurture the hopes of thy mother and thy father.” The fifth commandment."
+  },
+  {
+   "id": "peter-minister-the-same",
+   "after": "source:AB09999",
+   "responds": [
+    "source:AB09999"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá hopes that distinction in the sciences will make its holders “the means of the exaltation of the Cause”. The First Letter of Peter on any gift: as every man hath received the gift, even so minister the same one to another."
+  },
+  {
+   "id": "corinthians-same-spirit",
+   "after": "source:AB09999",
+   "responds": [
+    "source:AB09999"
+   ],
+   "relation": "adjacent",
+   "why": "Some serve by learning, some by farming, some by carrying stones. Paul: there are diversities of gifts, but the same Spirit; differences of administrations, but the same Lord."
+  },
+  {
+   "id": "nehemiah-mind-to-work",
+   "after": "source:AB01406",
+   "responds": [
+    "source:AB01406"
+   ],
+   "relation": "adjacent",
+   "why": "One is invited to take part in “carrying the stones and mortar” of the Shrine on Mount Carmel. Nehemiah’s account of rebuilding Jerusalem’s wall: for the people had a mind to work."
+  },
+  {
+   "id": "psalm-except-the-lord",
+   "after": "source:AB02454",
+   "responds": [
+    "source:AB02454"
+   ],
+   "relation": "complement",
+   "why": "“Exert your energy to accomplish what ye have undertaken, so that this glorious Temple may be built.” The psalm sets a condition on every such effort: except the Lord build the house, they labour in vain that build it. How do the readings hold exertion and that condition together?"
+  },
+  {
+   "id": "luke-count-the-cost",
+   "after": "source:AB11810",
+   "responds": [
+    "source:AB11810"
+   ],
+   "relation": "adjacent",
+   "why": "He forsook “a life of ease and comfort” and “dedicated his life wholly to this task, until he succeeded”. Jesus on building: which of you, intending to build a tower, sitteth not down first, and counteth the cost?"
+  },
+  {
+   "id": "ecclesiastes-two-are-better",
+   "after": "source:AB01462",
+   "responds": [
+    "source:AB01462"
+   ],
+   "relation": "adjacent",
+   "why": "“I hope that thou and thy dear husband may continue to serve.” The Preacher: two are better than one; for if they fall, the one will lift up his fellow."
+  },
+  {
+   "id": "corinthians-labourers-together",
+   "after": "source:AB01023",
+   "responds": [
+    "source:AB01023"
+   ],
+   "relation": "adjacent",
+   "why": "“O ye co-workers who are supported by armies from the realm of the All-Glorious!” Paul: he that planteth and he that watereth are one; we are labourers together with God."
+  },
+  {
+   "id": "quran-matter-of-counsel",
+   "after": "source:AB01023",
+   "responds": [
+    "source:AB01023"
+   ],
+   "relation": "adjacent",
+   "why": "The co-workers “have come together” to serve. The Qur’an counts among the faithful those “whose affairs are a matter of counsel”."
+  },
+  {
+   "id": "acts-all-things-common",
+   "after": "source:ABU0350",
+   "responds": [
+    "source:ABU0350"
+   ],
+   "relation": "adjacent",
+   "why": "In the assemblies of Persia the friends “help the poor and needy and give to them their daily bread”. The first church in Jerusalem: neither was there any among them that lacked."
+  },
+  {
+   "id": "kropotkin-mutual-aid",
+   "after": "source:ABU0220",
+   "responds": [
+    "source:ABU0220"
+   ],
+   "relation": "adjacent",
+   "why": "Undertakings for the poor and weak “should be pursued … through the unity of all”. Kropotkin, a naturalist, argued that this is how species thrive: don’t compete; combine, practise mutual aid."
+  },
+  {
+   "id": "rigveda-one-accord",
+   "after": "source:AB11916",
+   "responds": [
+    "source:AB11916"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed are those “who have gathered together in perfect unity and harmony”. The last hymn of the Rig Veda: assemble, speak together: let your minds be all of one accord."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:ABU1079",
+   "responds": [
+    "source:ABU1079"
+   ],
+   "relation": "adjacent",
+   "why": "“Try with all your hearts to be willing channels for God’s Bounty.” Paul: we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us."
+  },
+  {
+   "id": "philippians-no-reputation",
+   "after": "source:ABU0404",
+   "responds": [
+    "source:ABU0404"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh “passed forty years of His life in prison and exile” for the oneness of mankind. Paul’s hymn of the one who made himself of no reputation, and took upon him the form of a servant."
+  },
+  {
+   "id": "mozi-universal-love",
+   "after": "source:ABU0588",
+   "responds": [
+    "source:ABU0588"
+   ],
+   "relation": "adjacent",
+   "why": "“Consecrate and devote yourselves to the betterment and service of all the human race.” Mozi, in the fifth century before the common era, argued that regarding another’s state as one’s own would end war and robbery."
+  },
+  {
+   "id": "burke-little-platoon",
+   "after": "source:ABU0588",
+   "responds": [
+    "source:ABU0588"
+   ],
+   "relation": "complement",
+   "why": "“Let no barrier of ill feeling or personal prejudice exist.” Burke thought that love of the whole is learned in the “little platoon” one belongs to, the first link in a series that proceeds toward mankind. Is the family or neighbourhood a barrier to universal service, or its school?"
+  },
+  {
+   "id": "isaiah-beautiful-upon-the-mountains",
+   "after": "source:ABU0186",
+   "responds": [
+    "source:ABU0186"
+   ],
+   "relation": "adjacent",
+   "why": "“There is no greater glory for man than that of service in the cause of the Most Great Peace.” Isaiah: how beautiful upon the mountains are the feet of him that publisheth peace."
+  },
+  {
+   "id": "gita-all-as-offering",
+   "after": "source:ABU0689",
+   "responds": [
+    "source:ABU0689"
+   ],
+   "relation": "adjacent",
+   "why": "Work is praiseworthy when it is “for the sake of God and in the pathway of His service”. Krishna to Arjuna: whate’er thou doest, do all for Me."
+  },
+  {
+   "id": "philippians-esteem-other-better",
+   "after": "source:ABU0410",
+   "responds": [
+    "source:ABU0410"
+   ],
+   "relation": "adjacent",
+   "why": "“Each one must be the servant of the others … He must not consider his own pleasure but seek the pleasure of others.” Paul: in lowliness of mind let each esteem other better than themselves."
+  },
+  {
+   "id": "galatians-bear-one-anothers-burdens",
+   "after": "source:ABU0410",
+   "responds": [
+    "source:ABU0410"
+   ],
+   "relation": "adjacent",
+   "why": "One is to seek gifts and blessings “for his brothers and sisters”. Paul: bear ye one another’s burdens."
+  },
+  {
+   "id": "quran-help-one-another",
+   "after": "source:AB00027",
+   "responds": [
+    "source:AB00027"
+   ],
+   "relation": "adjacent",
+   "why": "“Fulfill your pledge to one another; go forth in harmony.” The Qur’an: help ye one another unto righteousness and pious duty."
+  },
+  {
+   "id": "hebrews-not-forsaking-assembling",
+   "after": "source:AB00322",
+   "responds": [
+    "source:AB00322"
+   ],
+   "relation": "adjacent",
+   "why": "“It is incumbent upon every one of us to encourage each other.” The Epistle to the Hebrews: let us consider one another to provoke unto love and to good works."
+  },
+  {
+   "id": "luke-few-stripes",
+   "after": "source:AB00198",
+   "responds": [
+    "source:AB00198"
+   ],
+   "relation": "adjacent",
+   "why": "“The duty imposed upon us is greater than that which hath been laid upon the rest.” Jesus: unto whomsoever much is given, of him shall be much required."
+  },
+  {
+   "id": "isaiah-here-am-i",
+   "after": "source:AB01594",
+   "responds": [
+    "source:AB01594"
+   ],
+   "relation": "adjacent",
+   "why": "“We must gird ourselves for service … and then, for His sake, on the field of sacrifice, fling down our lives.” Isaiah hears the question, whom shall I send? and answers: here am I; send me."
+  },
+  {
+   "id": "isaiah-eyes-of-the-blind",
+   "after": "source:AB01165",
+   "responds": [
+    "source:AB01165"
+   ],
+   "relation": "adjacent",
+   "why": "The friends are to be physicians who “make the blind to see, the deaf to hear”. Isaiah’s promise: then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped."
+  },
+  {
+   "id": "quran-know-one-another",
+   "after": "source:AB03615",
+   "responds": [
+    "source:AB03615"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá quotes this verse, “the most honoured in the sight of God is the most virtuous”, and applies it “to both men and women”."
+  },
+  {
+   "id": "luke-certain-women",
+   "after": "source:AB03615",
+   "responds": [
+    "source:AB03615"
+   ],
+   "relation": "adjacent",
+   "why": "“Do not consider thyself to be insignificant by doubting what a handmaiden … can do.” Luke names the women who travelled with Jesus and the twelve and ministered unto him of their substance."
+  },
+  {
+   "id": "eastman-attitude-of-worship",
+   "after": "source:AB01505",
+   "responds": [
+    "source:AB01505"
+   ],
+   "relation": "adjacent",
+   "why": "“Every day which man passes in the mention of God … that day is his feast … all your days are feast days.” Ohiyesa, of the Dakota: he sees no need for setting apart one day in seven as a holy day, since to him all days are God’s."
+  },
+  {
+   "id": "corinthians-according-to-that-a-man-hath",
+   "after": "source:ABU1112",
+   "responds": [
+    "source:ABU1112"
+   ],
+   "relation": "adjacent",
+   "why": "“Man is responsible to the degree of his power and capacity.” Paul, raising a collection: it is accepted according to that a man hath, and not according to that he hath not."
+  },
+  {
+   "id": "mark-done-what-she-could",
+   "after": "source:ABU1112",
+   "responds": [
+    "source:ABU1112"
+   ],
+   "relation": "adjacent",
+   "why": "Asked whether to go on helping those who will not be helped, ‘Abdu’l-Bahá answers with capacity. Jesus’ defence of a woman criticized for her gift: she hath done what she could."
+  },
+  {
+   "id": "avot-not-yours-to-finish",
+   "after": "source:ABU1112",
+   "responds": [
+    "source:ABU1112"
+   ],
+   "relation": "adjacent",
+   "why": "The questioner feels “utterly impotent to render them any further assistance”. Rabbi Tarfon: it is not your duty to finish the work, but neither are you at liberty to neglect it."
+  },
+  {
+   "id": "mark-widows-mites",
+   "after": "source:ABU1580",
+   "responds": [
+    "source:ABU1580"
+   ],
+   "relation": "adjacent",
+   "why": "“You must not feel unhappy, because you are not rich.” Jesus, watching the treasury: this poor widow hath cast more in, than all they."
+  },
+  {
+   "id": "milton-stand-and-wait",
+   "after": "source:AB08730",
+   "responds": [
+    "source:AB08730"
+   ],
+   "relation": "adjacent",
+   "why": "“This sincere intention that you have is itself service.” Milton, blind and unable to do what he had meant to: they also serve who only stand and wait."
+  },
+  {
+   "id": "hebrews-not-forget-your-work",
+   "after": "source:BH03785",
+   "responds": [
+    "source:BH03785"
+   ],
+   "relation": "adjacent",
+   "why": "“If one hath drawn a single breath in the path of the Friend, it shall not be lost.” The Epistle to the Hebrews: God is not unrighteous to forget your work and labour of love."
+  },
+  {
+   "id": "eliot-unhistoric-acts",
+   "after": "source:BH03785",
+   "responds": [
+    "source:BH03785"
+   ],
+   "relation": "adjacent",
+   "why": "Nothing done in service is lost. George Eliot ends Middlemarch on the same assurance, without appeal to heaven: the growing good of the world is partly dependent on unhistoric acts."
+  },
+  {
+   "id": "gita-not-the-fruit",
+   "after": "source:AB09332",
+   "responds": [
+    "source:AB09332"
+   ],
+   "relation": "complement",
+   "why": "“The greater thine effort in the field of service, the larger the draught thou shalt drink.” Krishna asks for work with no eye on what comes of it: let right deeds be thy motive, not the fruit. Is the reading’s promise a motive, or a description?"
+  },
+  {
+   "id": "james-husbandman-waiteth",
+   "after": "source:AB01322",
+   "responds": [
+    "source:AB01322"
+   ],
+   "relation": "adjacent",
+   "why": "“The farmer must be very patient and not become disheartened.” James uses the same figure for the same purpose: the husbandman waiteth for the precious fruit of the earth, and hath long patience for it."
+  },
+  {
+   "id": "mark-corban",
+   "after": "source:AB03416",
+   "responds": [
+    "source:AB03416"
+   ],
+   "relation": "adjacent",
+   "why": "“Assuredly engage in service to thy father.” Jesus condemns the practice of declaring one’s goods a gift to God so as to be free of father and mother."
+  },
+  {
+   "id": "timothy-provide-for-his-own",
+   "after": "source:AB03416",
+   "responds": [
+    "source:AB03416"
+   ],
+   "relation": "adjacent",
+   "why": "Perplexed between serving a father and serving the Kingdom, the enquirer is sent to the father first. The First Letter to Timothy: if any provide not for his own, he hath denied the faith."
+  },
+  {
+   "id": "matthew-let-the-dead-bury",
+   "after": "source:AB03416",
+   "responds": [
+    "source:AB03416"
+   ],
+   "relation": "contrast",
+   "why": "A son asks whether to serve his father or the Kingdom, and is told his father. In the Gospel a disciple asks leave to bury his father first and is told: follow me; and let the dead bury their dead. What differs between the two cases?"
+  },
+  {
+   "id": "hosea-mercy-not-sacrifice",
+   "after": "source:BH01978",
+   "responds": [
+    "source:BH01978"
+   ],
+   "relation": "adjacent",
+   "why": "“Should anyone give you a choice between the opportunity to render a service to Me and a service to them, choose ye to serve them.” Hosea: I desired mercy, and not sacrifice."
+  },
+  {
+   "id": "luke-one-thing-needful",
+   "after": "source:AB07401",
+   "responds": [
+    "source:AB07401"
+   ],
+   "relation": "contrast",
+   "why": "Service at home “is also among the supreme aspirations”, beside pilgrimage. In Luke it is the sister who sits and listens who has chosen the good part, and the one busy with serving who is corrected. How would the readings in this guide speak to Martha?"
+  },
+  {
+   "id": "matthew-good-and-faithful-servant",
+   "after": "source:BHU0040",
+   "responds": [
+    "source:BHU0040"
+   ],
+   "relation": "adjacent",
+   "why": "“I am well pleased with you all … Ye have rendered many services, and been very assiduous in your labors.” The master in the parable: well done, thou good and faithful servant."
+  },
+  {
+   "id": "luke-faithful-in-least",
+   "after": "source:BHU0040",
+   "responds": [
+    "source:BHU0040"
+   ],
+   "relation": "adjacent",
+   "why": "“Ye have come here every morning and every evening.” Jesus on small and regular things: he that is faithful in that which is least is faithful also in much."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:BH00505",
+   "responds": [
+    "source:BH00505"
+   ],
+   "relation": "adjacent",
+   "why": "“Blessed is he who hath laid down his life in My path.” John: greater love hath no man than this, that a man lay down his life for his friends."
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:AB11454",
+   "responds": [
+    "source:AB11454"
+   ],
+   "relation": "adjacent",
+   "why": "The Holy Ones in Paradise “yearn to return unto this world, and be of some service”. The Preacher gives the reason there is no time to lose: there is no work, nor device, in the grave, whither thou goest."
+  },
+  {
+   "id": "luke-unprofitable-servants",
+   "after": "source:AB10256",
+   "responds": [
+    "source:AB10256"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá asks for prayers that he may win “a drop out of the ocean of servitude”. Jesus on what servants say when all is done: we are unprofitable servants: we have done that which was our duty to do."
+  },
+  {
+   "id": "shakespeare-little-candle",
+   "after": "source:AB02235",
+   "responds": [
+    "source:AB02235"
+   ],
+   "relation": "adjacent",
+   "why": "“We are as tiny ants … that we may kindle a flame and shed its splendour abroad.” Portia, coming home at night: how far that little candle throws his beams! So shines a good deed in a naughty world."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:AB03082",
+   "responds": [
+    "source:AB03082"
+   ],
+   "relation": "adjacent",
+   "why": "“Give me Thy grace to serve Thy loved ones, strengthen me in my servitude.” The psalm: I had rather be a doorkeeper in the house of my God."
+  },
+  {
+   "id": "genesis-get-thee-out",
+   "after": "source:AB09040",
+   "responds": [
+    "source:AB09040"
+   ],
+   "relation": "adjacent",
+   "why": "“Make me a cause of bounty to the human world.” The call of Abraham ends on that purpose: and thou shalt be a blessing."
+  },
+  {
+   "id": "timothy-fought-a-good-fight",
+   "after": "source:AB00156",
+   "responds": [
+    "source:AB00156"
+   ],
+   "relation": "adjacent",
+   "why": "“Heroes are they, O my Lord, lead them to the field of battle.” The Second Letter to Timothy looks back on such service: I have fought a good fight, I have finished my course."
+  }
+ ],
+ "library": {
+  "luke-good-samaritan": {
+   "text": "But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he had compassion on him, And went to him, and bound up his wounds, pouring in oil and wine, and set him on his own beast, and brought him to an inn, and took care of him. And on the morrow when he departed, he took out two pence, and gave them to the host, and said unto him, Take care of him; and whatsoever thou spendest more, when I come again, I will repay thee. Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves? And he said, He that shewed mercy on him. Then said Jesus unto him, Go, and do thou likewise",
+   "work": "Luke 10:33–37",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2010%3A33-37&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-bear-one-anothers-burdens": {
+   "text": "Bear ye one another's burdens, and so fulfil the law of Christ",
+   "work": "Galatians 6:2",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%206%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-not-weary-in-well-doing": {
+   "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not. As we have therefore opportunity, let us do good unto all men, especially unto them who are of the household of faith",
+   "work": "Galatians 6:9–10",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%206%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-more-blessed-to-give": {
+   "text": "I have shewed you all things, how that so labouring ye ought to support the weak, and to remember the words of the Lord Jesus, how he said, It is more blessed to give than to receive",
+   "work": "Acts 20:35",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2020%3A35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-wash-one-anothers-feet": {
+   "text": "Ye call me Master and Lord: and ye say well; for so I am. If I then, your Lord and Master, have washed your feet; ye also ought to wash one another's feet. For I have given you an example, that ye should do as I have done to you",
+   "work": "John 13:13–15",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2013%3A13-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-unprofitable-servants": {
+   "text": "So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do",
+   "work": "Luke 17:10",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2017%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-cup-of-cold-water": {
+   "text": "And whosoever shall give to drink unto one of these little ones a cup of cold water only in the name of a disciple, verily I say unto you, he shall in no wise lose his reward",
+   "work": "Matthew 10:42",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2010%3A42&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-lendeth-unto-the-lord": {
+   "text": "He that hath pity upon the poor lendeth unto the Lord; and that which he hath given will he pay him again",
+   "work": "Proverbs 19:17",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2019%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-withhold-not-good": {
+   "text": "Withhold not good from them to whom it is due, when it is in the power of thine hand to do it. Say not unto thy neighbour, Go, and come again, and to morrow I will give; when thou hast it by thee",
+   "work": "Proverbs 3:27–28",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%203%3A27-28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-open-thine-hand": {
+   "text": "If there be among you a poor man of one of thy brethren within any of thy gates in thy land which the Lord thy God giveth thee, thou shalt not harden thine heart, nor shut thine hand from thy poor brother: But thou shalt open thine hand wide unto him, and shalt surely lend him sufficient for his need, in that which he wanteth",
+   "work": "Deuteronomy 15:7–8",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2015%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-defend-the-poor": {
+   "text": "Defend the poor and fatherless: do justice to the afflicted and needy. Deliver the poor and needy: rid them out of the hand of the wicked",
+   "work": "Psalm 82:3–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2082%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-plead-for-the-widow": {
+   "text": "cease to do evil; Learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow",
+   "work": "Isaiah 1:16–17",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%201%3A16-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-thy-hand-findeth": {
+   "text": "Whatsoever thy hand findeth to do, do it with thy might; for there is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest",
+   "work": "Ecclesiastes 9:10",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%209%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-two-are-better": {
+   "text": "Two are better than one; because they have a good reward for their labour. For if they fall, the one will lift up his fellow: but woe to him that is alone when he falleth; for he hath not another to help him up",
+   "work": "Ecclesiastes 4:9–10",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%204%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "colossians-heartily-as-to-the-lord": {
+   "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men",
+   "work": "Colossians 3:23",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Colossians%203%3A23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "thessalonians-neither-should-he-eat": {
+   "text": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat. For we hear that there are some which walk among you disorderly, working not at all, but are busybodies. Now them that are such we command and exhort by our Lord Jesus Christ, that with quietness they work, and eat their own bread",
+   "work": "2 Thessalonians 3:10–12",
+   "year": "c. 50–100 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%203%3A10-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-provide-for-his-own": {
+   "text": "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel",
+   "work": "1 Timothy 5:8",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%205%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-corban": {
+   "text": "For Moses said, Honour thy father and thy mother; and, Whoso curseth father or mother, let him die the death: But ye say, If a man shall say to his father or mother, It is Corban, that is to say, a gift, by whatsoever thou mightest be profited by me; he shall be free. And ye suffer him no more to do ought for his father or his mother",
+   "work": "Mark 7:10–12",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A10-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-let-the-dead-bury": {
+   "text": "And another of his disciples said unto him, Lord, suffer me first to go and bury my father. But Jesus said unto him, Follow me; and let the dead bury their dead",
+   "work": "Matthew 8:21–22",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%208%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-suffer-little-children": {
+   "text": "Then were there brought unto him little children, that he should put his hands on them, and pray: and the disciples rebuked them. But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven",
+   "work": "Matthew 19:13–14",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2019%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "nehemiah-mind-to-work": {
+   "text": "So built we the wall; and all the wall was joined together unto the half thereof: for the people had a mind to work",
+   "work": "Nehemiah 4:6",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Nehemiah%204%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-labourers-together": {
+   "text": "Now he that planteth and he that watereth are one: and every man shall receive his own reward according to his own labour. For we are labourers together with God: ye are God's husbandry, ye are God's building",
+   "work": "1 Corinthians 3:8–9",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%203%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-labour-not-in-vain": {
+   "text": "Therefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labour is not in vain in the Lord",
+   "work": "1 Corinthians 15:58",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2015%3A58&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-not-forget-your-work": {
+   "text": "For God is not unrighteous to forget your work and labour of love, which ye have shewed toward his name, in that ye have ministered to the saints, and do minister",
+   "work": "Hebrews 6:10",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%206%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-husbandman-waiteth": {
+   "text": "Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, and hath long patience for it, until he receive the early and latter rain",
+   "work": "James 5:7",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%205%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-minister-the-same": {
+   "text": "As every man hath received the gift, even so minister the same one to another, as good stewards of the manifold grace of God",
+   "work": "1 Peter 4:10",
+   "year": "c. 60–95 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Peter%204%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-two-coats": {
+   "text": "And the people asked him, saying, What shall we do then? He answereth and saith unto them, He that hath two coats, let him impart to him that hath none; and he that hath meat, let him do likewise",
+   "work": "Luke 3:10–11",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%203%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-call-the-poor": {
+   "text": "When thou makest a dinner or a supper, call not thy friends, nor thy brethren, neither thy kinsmen, nor thy rich neighbours; lest they also bid thee again, and a recompence be made thee. But when thou makest a feast, call the poor, the maimed, the lame, the blind: And thou shalt be blessed; for they cannot recompense thee: for thou shalt be recompensed at the resurrection of the just",
+   "work": "Luke 14:12–14",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2014%3A12-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-according-to-that-a-man-hath": {
+   "text": "For if there be first a willing mind, it is accepted according to that a man hath, and not according to that he hath not",
+   "work": "2 Corinthians 8:12",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%208%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-widows-mites": {
+   "text": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much. And there came a certain poor widow, and she threw in two mites, which make a farthing. And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury: For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living",
+   "work": "Mark 12:41–44",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%2012%3A41-44&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-done-what-she-could": {
+   "text": "And Jesus said, Let her alone; why trouble ye her? she hath wrought a good work on me. For ye have the poor with you always, and whensoever ye will ye may do them good: but me ye have not always. She hath done what she could: she is come aforehand to anoint my body to the burying",
+   "work": "Mark 14:6–8",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%2014%3A6-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-strong-bear-the-weak": {
+   "text": "We then that are strong ought to bear the infirmities of the weak, and not to please ourselves. Let every one of us please his neighbour for his good to edification",
+   "work": "Romans 15:1–2",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2015%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-left-hand-know": {
+   "text": "But when thou doest alms, let not thy left hand know what thy right hand doeth: That thine alms may be in secret: and thy Father which seeth in secret himself shall reward thee openly",
+   "work": "Matthew 6:3–4",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%206%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-honour-thy-father": {
+   "text": "Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee",
+   "work": "Exodus 20:12",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2020%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-spend-of-what-ye-love": {
+   "text": "Ye will not attain unto piety until ye spend of that which ye love. And whatsoever ye spend, Allah is Aware thereof.",
+   "work": "Qur’an 3:92",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=92",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-kindness-unto-parents": {
+   "text": "And serve Allah. Ascribe no thing as partner unto Him. (Show) kindness unto parents, and unto near kindred, and orphans, and the needy, and unto the neighbour who is of kin (unto you) and the neighbour who is not of kin, and the fellow-traveller and the wayfarer and (the slaves) whom your right hands possess. Lo! Allah loveth not such as are proud and boastful,",
+   "work": "Qur’an 4:36",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=36",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-act-allah-will-behold": {
+   "text": "And say (unto them): Act! Allah will behold your actions, and (so will) His messenger and the believers, and ye will be brought back to the Knower of the Invisible and the Visible, and He will tell you what ye used to do.",
+   "work": "Qur’an 9:105",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=105",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-help-one-another": {
+   "text": "but help ye one another unto righteousness and pious duty. Help not one another unto sin and transgression",
+   "work": "Qur’an 5:2",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=2",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-matter-of-counsel": {
+   "text": "And those who answer the call of their Lord and establish worship, and whose affairs are a matter of counsel, and who spend of what We have bestowed on them,",
+   "work": "Qur’an 42:38",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=42&verse=38",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-consult-with-them": {
+   "text": "It was by the mercy of Allah that thou wast lenient with them (O Muhammad), for if thou hadst been stern and fierce of heart they would have dispersed from round about thee. So pardon them and ask forgiveness for them and consult with them upon the conduct of affairs. And when thou art resolved, then put thy trust in Allah. Lo! Allah loveth those who put their trust (in Him).",
+   "work": "Qur’an 3:159",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=159",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-no-wage": {
+   "text": "And I ask of you no wage therefor; my wage is the concern only of the Lord of the Worlds.",
+   "work": "Qur’an 26:109",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=26&verse=109",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-prefer-above-themselves": {
+   "text": "Those who entered the city and the faith before them love those who flee unto them for refuge, and find in their breasts no need for that which hath been given them, but prefer (the fugitives) above themselves though poverty become their lot. And whoso is saved from his own avarice - such are they who are successful.",
+   "work": "Qur’an 59:9",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=59&verse=9",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-righteousness-is-not": {
+   "text": "It is not righteousness that ye turn your faces to the East and the West; but righteous is he who believeth in Allah and the Last Day and the angels and the Scripture and the prophets; and giveth wealth, for love of Him, to kinsfolk and to orphans and the needy and the wayfarer and to those who ask, and to set slaves free; and observeth proper worship and payeth the poor-due. And those who keep their treaty when they make one, and the patient in tribulation and adversity and time of stress. Such are they who are sincere. Such are the Allah-fearing.",
+   "work": "Qur’an 2:177",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=177",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-lower-the-wing": {
+   "text": "And lower unto them the wing of submission through mercy, and say: My Lord! Have mercy on them both as they did care for me when I was little.",
+   "work": "Qur’an 17:24",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=24",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-feed-for-the-love-of-him": {
+   "text": "And feed with food the needy wretch, the orphan and the prisoner, for love of Him, (Saying): We feed you, for the sake of Allah only. We wish for no reward nor thanks from you",
+   "work": "Qur’an 76:8–9",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-atoms-weight": {
+   "text": "And whoso doeth good an atom's weight will see it then",
+   "work": "Qur’an 99:7–8",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "analects-establish-others": {
+   "text": "Now the man of perfect virtue, wishing to be established himself, seeks also to establish others; wishing to be enlarged himself, he seeks also to enlarge others",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "6.28",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "avot-not-yours-to-finish": {
+   "text": "It is not your duty to finish the work, but neither are you at liberty to neglect it",
+   "work": "Mishnah, Pirkei Avot",
+   "locator": "2.16",
+   "year": "c. 200 CE",
+   "sortYear": 200,
+   "translator": "Joshua Kulp",
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.sefaria.org/api/texts/Pirkei_Avot.2.16?context=0&ven=Mishnah_Yomit_by_Dr._Joshua_Kulp",
+    "label": "Sefaria",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "Translation published at Sefaria under a CC BY licence."
+   }
+  },
+  "avot-if-not-now": {
+   "text": "If I am not for myself, who is for me? But if I am for my own self [only], what am I? And if not now, when?",
+   "work": "Mishnah, Pirkei Avot",
+   "locator": "1.14",
+   "year": "c. 200 CE",
+   "sortYear": 200,
+   "translator": "Joshua Kulp",
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.sefaria.org/api/texts/Pirkei_Avot.1.14?context=0&ven=Mishnah_Yomit_by_Dr._Joshua_Kulp",
+    "label": "Sefaria",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "Translation published at Sefaria under a CC BY licence."
+   }
+  },
+  "avot-three-things": {
+   "text": "the world stands upon three things: the Torah, the Temple service, and the practice of acts of piety",
+   "work": "Mishnah, Pirkei Avot",
+   "locator": "1.2",
+   "year": "c. 200 CE",
+   "sortYear": 200,
+   "translator": "Joshua Kulp",
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.sefaria.org/api/texts/Pirkei_Avot.1.2?context=0&ven=Mishnah_Yomit_by_Dr._Joshua_Kulp",
+    "label": "Sefaria",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "Translation published at Sefaria under a CC BY licence."
+   }
+  },
+  "avot-worldly-occupation": {
+   "text": "excellent is the study of the Torah when combined with a worldly occupation, for toil in them both keeps sin out of one’s mind",
+   "work": "Mishnah, Pirkei Avot",
+   "locator": "2.2",
+   "year": "c. 200 CE",
+   "sortYear": 200,
+   "translator": "Joshua Kulp",
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.sefaria.org/api/texts/Pirkei_Avot.2.2?context=0&ven=Mishnah_Yomit_by_Dr._Joshua_Kulp",
+    "label": "Sefaria",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "Translation published at Sefaria under a CC BY licence."
+   }
+  },
+  "avot-without-expectation-of-reward": {
+   "text": "do not be like servants who serve the master in the expectation of receiving a reward, but be like servants who serve the master without the expectation of receiving a reward",
+   "work": "Mishnah, Pirkei Avot",
+   "locator": "1.3",
+   "year": "c. 200 CE",
+   "sortYear": 200,
+   "translator": "Joshua Kulp",
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.sefaria.org/api/texts/Pirkei_Avot.1.3?context=0&ven=Mishnah_Yomit_by_Dr._Joshua_Kulp",
+    "label": "Sefaria",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "Translation published at Sefaria under a CC BY licence."
+   }
+  },
+  "kennedy-ask-not": {
+   "text": "ask not what your country can do for you—ask what you can do for your country. My fellow citizens of the world: ask not what America will do for you, but what together we can do for the freedom of man",
+   "author": "John F. Kennedy",
+   "work": "Inaugural Address",
+   "year": "1961",
+   "sortYear": 1961,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://www.presidency.ucsb.edu/documents/inaugural-address-2",
+    "label": "The American Presidency Project",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Address of a President of the United States."
+   }
+  },
+  "eliot-unhistoric-acts": {
+   "text": "But the effect of her being on those around her was incalculably diffusive: for the growing good of the world is partly dependent on unhistoric acts; and that things are not so ill with you and me as they might have been, is half owing to the number who lived faithfully a hidden life, and rest in unvisited tombs",
+   "author": "George Eliot",
+   "work": "Middlemarch",
+   "locator": "Finale",
+   "year": "1871–72",
+   "sortYear": 1872,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Middlemarch_(1871)/Finale",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1880."
+   }
+  },
+  "wordsworth-unremembered-acts": {
+   "text": "that best portion of a good man's life; / His little, nameless, unremembered acts / Of kindness and of love",
+   "verse": true,
+   "author": "William Wordsworth",
+   "work": "Lines Written a Few Miles above Tintern Abbey",
+   "year": "1798",
+   "sortYear": 1798,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Lyrical_Ballads_(1798)/Lines_written_a_few_miles_above_Tintern_Abbey",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1850."
+   }
+  },
+  "wilde-poverty-impossible": {
+   "text": "The proper aim is to try and reconstruct society on such a basis that poverty will be impossible. And the altruistic virtues have really prevented the carrying out of this aim",
+   "author": "Oscar Wilde",
+   "work": "The Soul of Man under Socialism",
+   "year": "1891",
+   "sortYear": 1891,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Fortnightly_Review/Volume_49/The_Soul_of_Man_Under_Socialism",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1900."
+   }
+  },
+  "blake-pity-would-be-no-more": {
+   "text": "Pity would be no more, / If we did not make somebody Poor: / And Mercy no more could be, / If all were as happy as we",
+   "verse": true,
+   "author": "William Blake",
+   "work": "The Human Abstract",
+   "locator": "Songs of Experience",
+   "year": "1794",
+   "sortYear": 1794,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Songs_of_Innocence_and_of_Experience_(1826)/Songs_of_Experience/The_Human_Abstract",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "The Human Abstract."
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "dickinson-stop-one-heart": {
+   "text": "If I can stop one heart from breaking, / I shall not live in vain; / If I can ease one life the aching, / Or cool one pain, / Or help one fainting robin / Unto his nest again",
+   "verse": true,
+   "author": "Emily Dickinson",
+   "work": "“If I can stop one heart from breaking”",
+   "year": "c. 1865; published 1890",
+   "sortYear": 1865,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_(Dickinson)/If_I_can_stop_one_heart_from_breaking",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "repair": [
+     [
+      "I f I",
+      "If I"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1886."
+   }
+  }
+ }
+}

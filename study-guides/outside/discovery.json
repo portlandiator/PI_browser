@@ -1,0 +1,1356 @@
+{
+ "format": 2,
+ "slug": "discovery",
+ "subject": "4D77315AED654CCC921D8BAC5B21A41C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 56,
+ "quotations": 61,
+ "kept": [
+  "source:ABU0008",
+  "source:BH03960",
+  "source:ABU0023",
+  "source:AB12758",
+  "source:ABU1310",
+  "source:ABU1568",
+  "source:ABU0766",
+  "source:AB00747",
+  "source:AB00266",
+  "source:AB00020",
+  "source:AB00460",
+  "source:AB00057",
+  "source:AB00482",
+  "source:AB00092",
+  "source:ABU0179",
+  "source:ABU0061",
+  "source:ABU0145",
+  "source:ABU0157",
+  "source:ABU0178",
+  "source:AB00004",
+  "source:AB00006",
+  "source:ABU0395",
+  "source:ABU2789",
+  "source:ABU0989",
+  "source:ABU1414",
+  "source:AB00103",
+  "source:AB00409",
+  "source:AB00166",
+  "source:ABU0667",
+  "source:ABU0233",
+  "source:ABU0007",
+  "source:ABU0085",
+  "source:ABU0033",
+  "source:ABU0138",
+  "source:ABU0096",
+  "source:ABU0122",
+  "source:AB02189",
+  "source:ABU0121",
+  "source:AB02512",
+  "source:ABU1447",
+  "source:ABU0825",
+  "source:ABU0780",
+  "source:ABU0216",
+  "source:ABU1881",
+  "source:ABU1902",
+  "source:ABU3531",
+  "source:ABU0586",
+  "source:ABU0004",
+  "source:ABU0572",
+  "source:ABU3259",
+  "source:BH06522",
+  "selection:b1dffe64537317d05a4dfed1",
+  "selection:331bb684f051921830a50a5d",
+  "selection:d61790c5edaadf0d847d0e08",
+  "selection:8197e5cde2d9318a7489b92d",
+  "selection:061adb061dce6f19830f7efe"
+ ],
+ "introduction": "‘Abdu’l-Bahá returns again and again in these passages to one observation: everything now known was once hidden, and it was the mind of man that brought it into view. From that he draws a high account of the intellect, as what sets the human being apart from the animal, as the noblest of the virtues when it becomes science, and as a light that religion must agree with or be superstition. The sixty-one readings are given whole. Beside them stand sixty-one voices from elsewhere: Job’s miner and the Preacher’s weariness, Adam naming the creatures in Genesis and in the Qur’an, Plato and Aristotle on wonder, Bacon and Descartes on method, Pascal’s thinking reed, and poets who loved discovery or feared it. About two in three say something close to the reading they follow; the rest doubt or add, and those end in a question.",
+ "questions": [
+  "The readings say that what the mind discovers was “hidden” and is “brought forth”. Daniel and the Qur’an speak of secrets revealed and names taught. In your own experience of learning something, which description fits better?",
+  "‘Abdu’l-Bahá calls science the most noble of the virtues. Tennyson, Ecclesiastes and Mary Shelley each hold something back. What would have to be true of a scientist, or of a society, for knowledge to be a virtue?",
+  "“If religion does not agree with science, it is superstition.” How do Tertullian, Kant and Bacon each divide the ground between the two, and where do you stand?",
+  "Several readings rest human distinction on a power the animal lacks. What do the Preacher, Darwin and Mill add to or take from that claim?",
+  "“Let us make nature our captive.” Set this beside Bacon’s “nature to be commanded must be obeyed” and Muir’s remark that everything is hitched to everything else. What kind of mastery is being asked for?",
+  "Meditation is named as the key to discovery, and Bahá’u’lláh says the intellect conveys both good and evil. What practices would help a person tell which it is conveying?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Discoveries “were once secrets and mysteries sealed and stored up” until the mind penetrated them. Proverbs gives the same two halves: the concealing is God’s glory, the searching out is the honour of kings."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:BH03960",
+   "responds": [
+    "source:BH03960"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh names understanding as the first favour conferred on man. Aristotle opens his Metaphysics from the same place: all men by nature desire to know."
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:ABU0023",
+   "responds": [
+    "source:ABU0023"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá’s right method begins by carefully examining the premises. Descartes’s first rule is the same care at the start: accept nothing as true that is not clearly known to be so."
+  },
+  {
+   "id": "plato-wonder-beginning-of-philosophy",
+   "after": "source:AB12758",
+   "responds": [
+    "source:AB12758"
+   ],
+   "relation": "complement",
+   "why": "The wise define reason as moving from known premises to the unknown. Socrates adds what sets the sequence going in the first place: wonder. Does a definition of reason need to say where the questions come from?"
+  },
+  {
+   "id": "kings-solomon-spake-of-trees",
+   "after": "source:ABU1310",
+   "responds": [
+    "source:ABU1310"
+   ],
+   "relation": "adjacent",
+   "why": "Progress “depends upon what one observes”, and wide observation makes a child far-sighted. Solomon’s wisdom is described as just such observing, from the cedar to the hyssop, beasts, fowl and fishes."
+  },
+  {
+   "id": "wordsworth-vernal-wood",
+   "after": "source:ABU1310",
+   "responds": [
+    "source:ABU1310"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá would raise the child among meadows so that observation may expand thought. Wordsworth sends his reader to the same woods and tells him to close the books and stop analysing. Is observing nature the beginning of science or the alternative to it?"
+  },
+  {
+   "id": "wordsworth-yellow-primrose",
+   "after": "source:ABU1568",
+   "responds": [
+    "source:ABU1568"
+   ],
+   "relation": "adjacent",
+   "why": "Sagacity, on this account, stops at the senses and outward signs; intellect ponders and secures results. Wordsworth’s Peter Bell is the man who stops at sense: the primrose was a yellow primrose to him, and nothing more."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "“Seek always to prove mysteries in the light of the rational mind.” Kant’s motto for enlightenment is the same summons: have courage to use your own understanding."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "contrast",
+   "why": "The talk asks that mysteries always be proved by the rational mind. Pascal, a mathematician, holds that the heart has reasons which reason does not know. Are there mysteries the rational mind is the wrong light for?"
+  },
+  {
+   "id": "job-bringeth-forth-to-light",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "The rational soul brings hidden things “out of the invisible plane into the realm of the visible”. Job’s miner does it with his hands: he cuts out rivers among the rocks, and the thing that is hid he brings forth to light."
+  },
+  {
+   "id": "job-where-shall-wisdom-be-found",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "complement",
+   "why": "The same reading sets a limit: the rational soul’s furthest flight is to comprehend contingent things. Job’s chapter turns at the same point, after all the mining: but where shall wisdom be found?"
+  },
+  {
+   "id": "dickinson-brain-wider-than-the-sky",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "This spirit “encompasses all things” and, abiding on earth, makes discoveries in the heavens. Dickinson says it of the brain: wider than the sky, for put them side by side the one the other will contain."
+  },
+  {
+   "id": "daniel-deep-and-secret-things",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "contrast",
+   "why": "Man, in this tablet, brings nature’s hidden secrets to light and foresees things to come. Daniel gives that work to God, who revealeth the deep and secret things. Is discovery something man does, or something he is shown?"
+  },
+  {
+   "id": "aristotle-reason-is-man",
+   "after": "source:AB00460",
+   "responds": [
+    "source:AB00460"
+   ],
+   "relation": "adjacent",
+   "why": "The human spirit “consists of the rational, or logical, reasoning faculty”. Aristotle draws the same conclusion in the Ethics: reason more than anything else is man."
+  },
+  {
+   "id": "shakespeare-quintessence-of-dust",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "contrast",
+   "why": "The divine philosophers hold that man has a power the animal lacks, encompassing all created things. Hamlet recites the same praise, infinite in faculty, in apprehension like a god, and ends: what is this quintessence of dust? Can the praise be believed in low spirits?"
+  },
+  {
+   "id": "genesis-adam-gave-names",
+   "after": "source:AB00482",
+   "responds": [
+    "source:AB00482"
+   ],
+   "relation": "adjacent",
+   "why": "“The human reality encompasses the realities of all things and discovers their true nature.” Genesis has Adam shown every creature, and whatever he called each one, that was its name."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "source:AB00482",
+   "responds": [
+    "source:AB00482"
+   ],
+   "relation": "complement",
+   "why": "The reading says the human reality discovered the sciences by degrees. The Qur’an puts it otherwise: God taught Adam all the names, which the angels did not know. Is knowledge of things found by man, or taught to him first?"
+  },
+  {
+   "id": "isaiah-treasures-of-darkness",
+   "after": "source:AB00092",
+   "responds": [
+    "source:AB00092"
+   ],
+   "relation": "adjacent",
+   "why": "The human spirit discovers “secrets hidden in the realm of this world”; the Divine Spirit discovers heavenly ones. Isaiah’s promise holds the two together: treasures of darkness given, that thou mayest know that I am the Lord."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "After praising the rational soul, ‘Abdu’l-Bahá adds that spiritual people mean a different spirit. Paul marks the same boundary: knowledge puffeth up, but charity edifieth."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "adjacent",
+   "why": "The intellect is given so that man may “receive a larger share of the light Divine”. Plato’s image is the same: what the sun is to sight, the good is to the mind that knows."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "Scientific power “investigates and apprehends created objects and the laws surrounding them”. Bacon states the method in one line: nature to be commanded must be obeyed."
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "adjacent",
+   "why": "“Science is the most noble” of the virtues and distinguishes man. The Qur’an asks its own question to the same effect: are those who know equal with those who know not?"
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "contrast",
+   "why": "Science, in this talk, is the noblest virtue and a pathway to God. Tennyson’s speaker, in the century of the railway, is less sure: knowledge comes, but wisdom lingers. Is science itself a virtue, or does it need one?"
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:ABU0178",
+   "responds": [
+    "source:ABU0178"
+   ],
+   "relation": "adjacent",
+   "why": "A religion that does not agree with science “is superstition and ignorance”, since reason was given to perceive reality. Paul’s rule to a young church is as short: prove all things; hold fast that which is good."
+  },
+  {
+   "id": "tertullian-athens-and-jerusalem",
+   "after": "source:ABU0178",
+   "responds": [
+    "source:ABU0178"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá makes agreement with science a test of true religion. Tertullian asked what Athens has to do with Jerusalem, and wanted no curious disputation after Christ. Which of them describes how believers have mostly behaved?"
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:ABU0178",
+   "responds": [
+    "source:ABU0178"
+   ],
+   "relation": "complement",
+   "why": "God “has endowed man with reason in order that he may perceive reality”. Kant, who trusted reason as far as anyone, thought he had to limit knowledge in order to make room for belief. Must the two agree, or keep to their own ground?"
+  },
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "“The publication of high thoughts is the dynamic power in the arteries of life.” Milton defended printing on the same ground: much arguing, much writing, many opinions are knowledge in the making."
+  },
+  {
+   "id": "aristotle-command-of-metaphor",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The mysteries of reality are drunk “from the illumined chalice of similes and the delicate goblet of metaphor”. Aristotle ranks the command of metaphor highest among a writer’s gifts, an eye for resemblances."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "“Meditation is the key for opening the doors of mysteries”; in it man withdraws from outside objects. The Psalm gives the instruction in four words: be still, and know."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "complement",
+   "why": "Meditation here unfolds “the secrets of things-in-themselves”. Whitman, tired of the lecture’s proofs and charts, walks out and looks up in perfect silence at the stars. Is that the scientist’s meditation or a refusal of science?"
+  },
+  {
+   "id": "dhammapada-what-we-have-thought",
+   "after": "source:ABU2789",
+   "responds": [
+    "source:ABU2789"
+   ],
+   "relation": "adjacent",
+   "why": "The brain is a mirror that reflects whatever it is turned towards. The Dhammapada begins with the consequence: all that we are is the result of what we have thought."
+  },
+  {
+   "id": "analects-not-born-with-knowledge",
+   "after": "source:ABU0989",
+   "responds": [
+    "source:ABU0989"
+   ],
+   "relation": "adjacent",
+   "why": "The motion of the intellect is that “whereby the ignorant become wise”. Confucius says it of himself: not born with knowledge, but fond of antiquity and earnest in seeking it."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU1414",
+   "responds": [
+    "source:ABU1414"
+   ],
+   "relation": "adjacent",
+   "why": "Man is part of the animal creation yet possesses “a power of thought superior to all other created beings”. Pascal finds man’s whole dignity there: by space the universe swallows me; by thought I comprehend it."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "The animal “can never become aware of the reality of the intellect”. Mill makes the same point about judging between the two lives: the pig knows only its own side of the question."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:AB00409",
+   "responds": [
+    "source:AB00409"
+   ],
+   "relation": "adjacent",
+   "why": "A man in Europe can discover America, and on earth lay hold of the stars. Keats joins the same two discoveries, the new planet and the Pacific, to say what a great book felt like."
+  },
+  {
+   "id": "ecclesiastes-upward-downward",
+   "after": "source:AB00166",
+   "responds": [
+    "source:AB00166"
+   ],
+   "relation": "contrast",
+   "why": "The cow knows nothing of God, intellect or gravity; man does. The Preacher looks at man and beast and sees one breath and one end, “so that a man hath no preeminence above a beast”. What does he leave out, and what does he see?"
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:ABU0667",
+   "responds": [
+    "source:ABU0667"
+   ],
+   "relation": "adjacent",
+   "why": "By this power man “can prove that the sun is a center” with the planets about it. The Psalmist reads the same sky as speech: the heavens declare, and there is no language where their voice is not heard."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0233",
+   "responds": [
+    "source:ABU0233"
+   ],
+   "relation": "complement",
+   "why": "Mind determines “the processes of creation in the earth’s lowest strata”. Darwin, reading those strata, found man among the forms evolved, and found grandeur in the view. Does that discovery lower the intellect’s station or display it?"
+  },
+  {
+   "id": "numbers-what-hath-god-wrought",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "“He speaks from the East to the West through a wire.” The first public message sent down such a wire, in 1844, was this verse from Numbers."
+  },
+  {
+   "id": "quran-penetrate-the-regions",
+   "after": "source:ABU0085",
+   "responds": [
+    "source:ABU0085"
+   ],
+   "relation": "adjacent",
+   "why": "The human spirit “maketh discoveries concerning the heavens while on earth”. The Qur’an addresses men directly: if ye have power to penetrate the regions of the heavens and the earth, then penetrate them."
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "adjacent",
+   "why": "The inner reality “grasps the mysteries of existence” and discovers the heavenly Kingdom too. Hamlet says as much to his friend the scholar: there are more things in heaven and earth than his philosophy dreams of."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "adjacent",
+   "why": "There is in man “a center of intellection” that can know more than the sensible. Plato says the power of learning is in the soul already, and education is the art of turning it round."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "Man “has perception, ideality and is capable of discovering the mysteries of the universe”. Blake describes what that perception can hold: a world in a grain of sand."
+  },
+  {
+   "id": "quran-made-of-service",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "Man’s powers “surpass or surround nature” and comprehend its laws. The Qur’an says all that is in the heavens and the earth has been made of service to him, as signs for people who reflect."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:AB02189",
+   "responds": [
+    "source:AB02189"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá counts the manifold advancements of science and the hidden realities discovered. The Preacher had said there is no new thing under the sun. Which of them is describing the world the reader lives in?"
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:ABU0121",
+   "responds": [
+    "source:ABU0121"
+   ],
+   "relation": "adjacent",
+   "why": "At a university, “the greatest virtue of the human world is knowledge”. The Qur’an teaches a prayer for it in a single line: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:ABU0121",
+   "responds": [
+    "source:ABU0121"
+   ],
+   "relation": "contrast",
+   "why": "Knowledge is here “the cause of humanity’s eternal glory”. The Preacher, who gave his heart to know wisdom, reports that he that increaseth knowledge increaseth sorrow. What had he found out that a university address leaves unsaid?"
+  },
+  {
+   "id": "psalm-what-is-man",
+   "after": "source:ABU0825",
+   "responds": [
+    "source:ABU0825"
+   ],
+   "relation": "adjacent",
+   "why": "The spirit of man can “discover the motion of inconceivably distant suns”. The Psalmist considers the same heavens and asks the question the discovery raises: what is man, that thou art mindful of him?"
+  },
+  {
+   "id": "pascal-eternal-silence",
+   "after": "source:ABU0825",
+   "responds": [
+    "source:ABU0825"
+   ],
+   "relation": "contrast",
+   "why": "The spirit crosses “the abysses of interstellar space” as a conqueror. Pascal, who knew the new astronomy, wrote that the eternal silence of those infinite spaces frightened him. Why does one man find mastery there and another dread?"
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:ABU0216",
+   "responds": [
+    "source:ABU0216"
+   ],
+   "relation": "adjacent",
+   "why": "God has deposited in man a power “which rules over the powers of the physical world”. Genesis gives the first commission in the same terms: replenish the earth, and subdue it."
+  },
+  {
+   "id": "muir-hitched",
+   "after": "source:ABU1902",
+   "responds": [
+    "source:ABU1902"
+   ],
+   "relation": "contrast",
+   "why": "“Let us make nature our captive, break through all laws of limitation.” Muir learned in the Sierra that anything picked out by itself is hitched to everything else. What happens to the captor when the captive is pulled?"
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:ABU0586",
+   "responds": [
+    "source:ABU0586"
+   ],
+   "relation": "contrast",
+   "why": "The mind, in this talk, frees man “from all the fetters of self” and leads him upward. Hume held that reason is and ought only to be the slave of the passions. Does the mind lead, or does it serve what we already want?"
+  },
+  {
+   "id": "genesis-image-and-likeness",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá quotes this verse and reads the image and likeness as the spirit of man. Here it is in full, as the King James Bible gives it."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:BH06522",
+   "responds": [
+    "source:BH06522"
+   ],
+   "relation": "adjacent",
+   "why": "“The intellect … conveys both good and evil.” Mary Shelley’s Frankenstein, the maker undone by what he made, asks his hearer to learn from him how dangerous the acquirement of knowledge can be."
+  },
+  {
+   "id": "genesis-eyes-shall-be-opened",
+   "after": "source:BH06522",
+   "responds": [
+    "source:BH06522"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh calls the intellect a truthful messenger that conveys both good and evil. The oldest story of knowledge has the same double fruit: a tree to be desired to make one wise."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "selection:b1dffe64537317d05a4dfed1",
+   "responds": [
+    "selection:b1dffe64537317d05a4dfed1"
+   ],
+   "relation": "adjacent",
+   "why": "The reader is to investigate “in a methodical and scientific way, and by clear proofs”. Newton, who did so, wrote that we know God only by his most wise and excellent contrivances of things."
+  },
+  {
+   "id": "xenophanes-by-seeking",
+   "after": "selection:b1dffe64537317d05a4dfed1",
+   "responds": [
+    "selection:b1dffe64537317d05a4dfed1"
+   ],
+   "relation": "adjacent",
+   "why": "The hidden verities are to be sought out by method and evidence. Xenophanes said it at the beginning of Greek thought: not all was revealed at first, but by seeking men find in time what is better."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "selection:331bb684f051921830a50a5d",
+   "responds": [
+    "selection:331bb684f051921830a50a5d"
+   ],
+   "relation": "adjacent",
+   "why": "Science and the mind itself are “an ideal reality and not tangible”. Kant’s two wonders make the same pair of an outer world known and an inner law: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "keats-unweave-a-rainbow",
+   "after": "selection:d61790c5edaadf0d847d0e08",
+   "responds": [
+    "selection:d61790c5edaadf0d847d0e08"
+   ],
+   "relation": "contrast",
+   "why": "Every work of man is “but a faint ray” of the reality that discovers. Keats feared the discoverer: philosophy will clip an angel’s wings and unweave a rainbow. Is anything lost when a mystery is brought into the visible?"
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "selection:8197e5cde2d9318a7489b92d",
+   "responds": [
+    "selection:8197e5cde2d9318a7489b92d"
+   ],
+   "relation": "adjacent",
+   "why": "One thing comprehends another only by encompassing it or by resemblance. Xenophanes observed the second rule at work: oxen and horses would draw their gods in their own likeness."
+  },
+  {
+   "id": "aristotle-owing-to-their-wonder",
+   "after": "selection:061adb061dce6f19830f7efe",
+   "responds": [
+    "selection:061adb061dce6f19830f7efe"
+   ],
+   "relation": "adjacent",
+   "why": "In this passage all action has its goal in knowledge and is driven by the desire of it. Aristotle traces philosophy to the same root: men wondered at small difficulties first, then at the moon, the sun and the stars."
+  }
+ ],
+ "library": {
+  "psalm-little-lower-than-the-angels": {
+   "text": "For thou hast made him a little lower than the angels, and hast crowned him with glory and honour. Thou madest him to have dominion over the works of thy hands; thou hast put all things under his feet",
+   "work": "Psalm 8:5–6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%208%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-subdue-it": {
+   "text": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth",
+   "work": "Genesis 1:28",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%201%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-bringeth-forth-to-light": {
+   "text": "He putteth forth his hand upon the rock; he overturneth the mountains by the roots. He cutteth out rivers among the rocks; and his eye seeth every precious thing. He bindeth the floods from overflowing; and the thing that is hid bringeth he forth to light",
+   "work": "Job 28:9–11",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2028%3A9-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-where-shall-wisdom-be-found": {
+   "text": "But where shall wisdom be found? and where is the place of understanding? Man knoweth not the price thereof; neither is it found in the land of the living",
+   "work": "Job 28:12–13",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2028%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-increaseth-sorrow": {
+   "text": "And I gave my heart to know wisdom, and to know madness and folly: I perceived that this also is vexation of spirit. For in much wisdom is much grief: and he that increaseth knowledge increaseth sorrow",
+   "work": "Ecclesiastes 1:17–18",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%201%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-candle-of-the-lord": {
+   "text": "The spirit of man is the candle of the Lord, searching all the inward parts of the belly",
+   "work": "Proverbs 20:27",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2020%3A27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-deep-and-secret-things": {
+   "text": "He revealeth the deep and secret things: he knoweth what is in the darkness, and the light dwelleth with him",
+   "work": "Daniel 2:22",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%202%3A22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-knowledge-shall-be-increased": {
+   "text": "But thou, O Daniel, shut up the words, and seal the book, even to the time of the end: many shall run to and fro, and knowledge shall be increased",
+   "work": "Daniel 12:4",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%2012%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-sought-out": {
+   "text": "The works of the Lord are great, sought out of all them that have pleasure therein",
+   "work": "Psalm 111:2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20111%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-solomon-spake-of-trees": {
+   "text": "And he spake of trees, from the cedar tree that is in Lebanon even unto the hyssop that springeth out of the wall: he spake also of beasts, and of fowl, and of creeping things, and of fishes. And there came of all people to hear the wisdom of Solomon, from all kings of the earth, which had heard of his wisdom",
+   "work": "1 Kings 4:33–34",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%204%3A33-34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-adam-gave-names": {
+   "text": "And out of the ground the Lord God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof",
+   "work": "Genesis 2:19",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%202%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-eyes-shall-be-opened": {
+   "text": "And the serpent said unto the woman, Ye shall not surely die: For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil. And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat",
+   "work": "Genesis 3:4–6",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A4-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-treasures-of-darkness": {
+   "text": "And I will give thee the treasures of darkness, and hidden riches of secret places, that thou mayest know that I, the Lord, which call thee by thy name, am the God of Israel",
+   "work": "Isaiah 45:3",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2045%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-taught-adam-the-names": {
+   "text": "And He taught Adam all the names, then showed them to the angels, saying: Inform Me of the names of these, if ye are truthful.",
+   "work": "Qur’an 2:31",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=31",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-made-of-service": {
+   "text": "And hath made of service unto you whatsoever is in the heavens and whatsoever is in the earth; it is all from Him. Lo! herein verily are portents for a people who reflect.",
+   "work": "Qur’an 45:13",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=45&verse=13",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-men-of-understanding": {
+   "text": "Lo! In the creation of the heavens and the earth and (in) the difference of night and day are tokens (of His Sovereignty) for men of understanding,",
+   "work": "Qur’an 3:190",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=190",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-penetrate-the-regions": {
+   "text": "O company of jinn and men, if ye have power to penetrate (all) regions of the heavens and the earth, then penetrate (them)! Ye will never penetrate them save with (Our) sanction.",
+   "work": "Qur’an 55:33",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=55&verse=33",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "whitman-learnd-astronomer": {
+   "text": "When I heard the learn'd astronomer, / When the proofs, the figures, were ranged in columns before me, / When I was shown the charts and diagrams, to add, divide, and measure them, / When I sitting heard the astronomer where he lectured with much applause in the lecture-room, / How soon unaccountable I became tired and sick, / Till rising and gliding out I wander'd off by myself, / In the mystical moist night-air, and from time to time, / Look'd up in perfect silence at the stars",
+   "verse": true,
+   "author": "Walt Whitman",
+   "work": "When I Heard the Learn’d Astronomer",
+   "year": "1865",
+   "sortYear": 1865,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leaves_of_Grass_(1882)/By_the_Roadside/When_I_Heard_the_Learn%27d_Astronomer",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "dickinson-brain-wider-than-the-sky": {
+   "text": "The brain is wider than the sky, / For, put them side by side, / The one the other will include / With ease, and you beside. / The brain is deeper than the sea, / For, hold them, blue to blue, / The one the other will absorb, / As sponges, buckets do. / The brain is just the weight of God, / For, lift them, pound for pound, / And they will differ, if they do, / As syllable from sound",
+   "verse": true,
+   "author": "Emily Dickinson",
+   "work": "“The brain is wider than the sky”",
+   "year": "c. 1862",
+   "sortYear": 1862,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Complete_Poems_of_Emily_Dickinson/The_brain_is_wider_than_the_sky",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "repair": [
+     [
+      "THE brain",
+      "The brain"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1886; first published 1896."
+   }
+  },
+  "keats-watcher-of-the-skies": {
+   "text": "Then felt I like some watcher of the skies / When a new planet swims into his ken; / Or like stout Cortez when with eagle eyes / He stared at the Pacific—and all his men / Look'd at each other with a wild surmise— / Silent, upon a peak in Darien",
+   "verse": true,
+   "author": "John Keats",
+   "work": "On First Looking into Chapman’s Homer",
+   "year": "1816",
+   "sortYear": 1816,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/On_first_Looking_into_Chapman%27s_Homer",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1821."
+   }
+  },
+  "keats-unweave-a-rainbow": {
+   "text": "Do not all charms fly / At the mere touch of cold philosophy? There was an awful rainbow once in heaven: / We know her woof, her texture; she is given / In the dull catalogue of common things. / Philosophy will clip an Angel's wings, / Conquer all mysteries by rule and line, / Empty the haunted air, and gnomed mine— / Unweave a rainbow",
+   "verse": true,
+   "author": "John Keats",
+   "work": "Lamia, Part II",
+   "year": "1820",
+   "sortYear": 1820,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Keats;_poems_published_in_1820/Lamia",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "230\\s+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1821."
+   }
+  },
+  "pascal-thinking-reed": {
+   "text": "It is not from space that I must seek my dignity, but from the government of my thought. I shall have no more if I possess worlds. By space the universe encompasses and swallows me up like an atom; by thought I comprehend the world.",
+   "author": "Blaise Pascal",
+   "work": "Pensées",
+   "locator": "348",
+   "year": "written c. 1657–62; published 1670",
+   "sortYear": 1660,
+   "translator": "W. F. Trotter",
+   "translationYear": "1910",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Blaise_Pascal/Thoughts/Section_6",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1945."
+   }
+  },
+  "bacon-knowledge-and-power": {
+   "text": "Human knowledge and human power meet in one; for where the cause is not known the effect cannot be produced. Nature to be commanded must be obeyed",
+   "author": "Francis Bacon",
+   "work": "Novum Organum",
+   "locator": "Book I, aphorism 3",
+   "year": "1620",
+   "sortYear": 1620,
+   "translator": "James Spedding and others",
+   "translationYear": "1858",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Novum_Organum/Book_I_(Spedding)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1858; Spedding d. 1881."
+   }
+  },
+  "descartes-never-to-accept": {
+   "text": "The first was never to accept anything for true which I did not clearly know to be such; that is to say, carefully to avoid precipitancy and prejudice, and to comprise nothing more in my judgment than what was presented to my mind so clearly and distinctly as to exclude all ground of doubt",
+   "author": "René Descartes",
+   "work": "Discourse on the Method",
+   "locator": "Part II",
+   "year": "1637",
+   "sortYear": 1637,
+   "translator": "John Veitch",
+   "translationYear": "1850",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method/Part_2",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1894."
+   }
+  },
+  "hume-slave-of-the-passions": {
+   "text": "We speak not strictly and philosophically when we talk of the combat of passion and of reason. Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them",
+   "author": "David Hume",
+   "work": "A Treatise of Human Nature",
+   "locator": "Book II, Part III, Section 3",
+   "year": "1739",
+   "sortYear": 1739,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Treatise_of_Human_Nature/Book_2:_Of_the_passions/Part_3/Section_3",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1776."
+   }
+  },
+  "shelley-acquirement-of-knowledge": {
+   "text": "Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge, and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow",
+   "author": "Mary Shelley",
+   "work": "Frankenstein",
+   "locator": "Chapter 4",
+   "year": "1818; revised 1831",
+   "sortYear": 1818,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(Revised_Edition,_1831)/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1851."
+   }
+  },
+  "tennyson-knowledge-comes": {
+   "text": "Knowledge comes, but wisdom lingers, and I linger on the shore, / And the individual withers, and the world is more and more",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "Locksley Hall",
+   "year": "1842",
+   "sortYear": 1842,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Locksley_Hall",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "shakespeare-brave-new-world": {
+   "text": "O, wonder! / How many goodly creatures are there here! / How beauteous mankind is! O brave new world, / That has such people in 't! / 'Tis new to thee",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Tempest",
+   "locator": "Act V, scene 1",
+   "year": "c. 1611",
+   "sortYear": 1611,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Tempest_(1918)_Yale/Text/Act_V",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "Pro\\.\\s+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "kant-starry-heavens": {
+   "text": "Two things fill the mind with ever new and increasing admiration and awe, the oftener and the more steadily we reflect on them: the starry heavens above and the moral law within",
+   "author": "Immanuel Kant",
+   "work": "Critique of Practical Reason",
+   "locator": "Conclusion",
+   "year": "1788",
+   "sortYear": 1788,
+   "translator": "Thomas Kingsmill Abbott",
+   "translationYear": "1879",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Critique_of_Practical_Reason",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1913."
+   }
+  },
+  "plato-wonder-beginning-of-philosophy": {
+   "text": "I see, my dear Theaetetus, that Theodorus had a true insight into your nature when he said that you were a philosopher, for wonder is the feeling of a philosopher, and philosophy begins in wonder",
+   "author": "Plato",
+   "work": "Theaetetus",
+   "locator": "155d",
+   "year": "c. 369 BCE",
+   "sortYear": -369,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/theatu.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "Soc\\.\\s+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "aristotle-owing-to-their-wonder": {
+   "text": "For it is owing to their wonder that men both now begin and at first began to philosophize; they wondered originally at the obvious difficulties, then advanced little by little and stated difficulties about the greater matters, e.g. about the phenomena of the moon and those of the sun and of the stars, and about the genesis of the universe",
+   "author": "Aristotle",
+   "work": "Metaphysics",
+   "locator": "I.2 (982b)",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/metaphysics.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  },
+  "aristotle-reason-is-man": {
+   "text": "that which is proper to each thing is by nature best and most pleasant for each thing; for man, therefore, the life according to reason is best and pleasantest, since reason more than anything else is man. This life therefore is also the happiest",
+   "author": "Aristotle",
+   "work": "Nicomachean Ethics",
+   "locator": "X.7 (1178a)",
+   "year": "c. 340 BCE",
+   "sortYear": -340,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/nicomachaen.10.x.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  }
+ }
+}
