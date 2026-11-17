@@ -1,0 +1,651 @@
+{
+ "format": 2,
+ "slug": "proclamation",
+ "subject": "3CD1B6C1EA79E50DBEE4211DC6F9A186",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 61,
+ "quotations": 63,
+ "kept": [
+  "source:ABU2110",
+  "source:BB00002",
+  "source:BH04160",
+  "source:BH03063",
+  "source:BH08864",
+  "source:BH05443",
+  "source:AB11807",
+  "source:AB02628",
+  "source:AB02346",
+  "source:BH06360",
+  "source:BH00610",
+  "source:BH09694",
+  "source:BH05275",
+  "source:BH07757",
+  "source:BH04858",
+  "source:BH04814",
+  "source:BH07194",
+  "source:BH06220",
+  "source:ABU0817",
+  "source:BH05321",
+  "source:BH08196",
+  "source:BH10126",
+  "source:BH09706",
+  "source:BH09176",
+  "source:BH05081",
+  "source:BH06042",
+  "source:BH03196",
+  "source:BH05418",
+  "source:BH05816",
+  "source:BH05380",
+  "source:BH06847",
+  "source:BH07177",
+  "source:BH00688",
+  "source:BH09824",
+  "source:BH07397",
+  "source:BH07425",
+  "source:BH00459",
+  "source:BH05228",
+  "source:BH05436",
+  "source:BH09723",
+  "source:BH00333",
+  "source:AB02046",
+  "source:BH07319",
+  "source:BH02271",
+  "source:BH03652",
+  "source:BH04959",
+  "source:BH05156",
+  "source:BH11774",
+  "source:AB04092",
+  "source:AB02633",
+  "source:BH01562",
+  "source:BH02364",
+  "source:BH06724",
+  "source:BH08049",
+  "source:BH02331",
+  "source:BH05130",
+  "source:BH04584",
+  "source:BH00898",
+  "source:BH00379",
+  "source:AB12833",
+  "source:ABU2944"
+ ],
+ "introduction": "These readings are a proclamation in the plain sense: good news cried aloud, a Day announced that the scriptures foretold, a call sent from a prison to peoples of every religion, to merchants, to women, to London and China, with the repeated remark that most people do not hear. Each of the sixty-three quotations is read here beside one from elsewhere. Most stand alongside: Isaiah's bringer of good tidings, the psalms in which heavens and trees speak, the Gospels' invitations and commissions, the Qur'an's warner in every nation, wisdom crying at the gates. Some push back or add a side: Jesus warns against those who say 'Lo, here is Christ', Amos asks why anyone would desire the Day, Paine calls every report of revelation hearsay, and Paul, Jonah, Ezekiel and the Qur'an raise the hearer's freedom and the speaker's responsibility.",
+ "questions": [
+  "Many of these readings end with the remark that the people are heedless. Paul asks how they shall hear without a preacher. Which describes the people you know: unwilling to hear, or never told?",
+  "Jesus warns his followers not to believe everyone who says 'Lo, here is Christ'. By what marks do the readings expect a hearer to recognize a true call?",
+  "The readings say that every Book foretold this Day; Amos warns those who desire the day of the Lord. Why might a long-awaited day be unwelcome when it comes?",
+  "The call is addressed by name to peoples of each religion, to merchants and to women. What does being addressed as a particular group add to a call meant for all?",
+  "One reading says that this is not the day of silence, and Proverbs praises the prudent man who conceals knowledge. How do you decide when to speak?"
+ ],
+ "outside": [
+  {
+   "id": "luke-good-tidings-of-great-joy",
+   "after": "source:ABU2110",
+   "responds": [
+    "source:ABU2110"
+   ],
+   "relation": "adjacent",
+   "why": "Luke tells of shepherds in the field by night and an angel who brings them good tidings."
+  },
+  {
+   "id": "quran-word-common-between-us",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse of the Qur'an that the passage takes up: O People of the Scripture, come to an agreement between us and you."
+  },
+  {
+   "id": "isaiah-arise-shine",
+   "after": "source:BH04160",
+   "responds": [
+    "source:BH04160"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah calls: arise, shine, for thy light is come, and the glory of the Lord is risen upon thee."
+  },
+  {
+   "id": "zechariah-skirt-of-him-that-is-a-jew",
+   "after": "source:BH04160",
+   "responds": [
+    "source:BH04160"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah foresees ten men out of all languages of the nations saying: we will go with you, for we have heard that God is with you."
+  },
+  {
+   "id": "luke-stones-would-cry-out",
+   "after": "source:BH03063",
+   "responds": [
+    "source:BH03063"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus answers those who want his disciples silenced that if these should hold their peace, the stones would cry out."
+  },
+  {
+   "id": "matthew-ears-to-hear",
+   "after": "source:BH03063",
+   "responds": [
+    "source:BH03063"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus ends many sayings with the words: he that hath ears to hear, let him hear."
+  },
+  {
+   "id": "matthew-come-unto-me",
+   "after": "source:BH08864",
+   "responds": [
+    "source:BH08864"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: come unto me, all ye that labour and are heavy laden, and I will give you rest."
+  },
+  {
+   "id": "matthew-false-christs",
+   "after": "source:BH08864",
+   "responds": [
+    "source:BH08864"
+   ],
+   "relation": "contrast",
+   "why": "Jesus warns that if any man say, Lo, here is Christ, believe it not, for false Christs shall arise. How is a hearer to tell a call that should be answered from one that should be refused?"
+  },
+  {
+   "id": "isaiah-every-one-that-thirsteth",
+   "after": "source:BH05443",
+   "responds": [
+    "source:BH05443"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah calls every one that thirsteth to come to the waters, and to buy without money and without price."
+  },
+  {
+   "id": "revelation-water-of-life-freely",
+   "after": "source:AB11807",
+   "responds": [
+    "source:AB11807"
+   ],
+   "relation": "adjacent",
+   "why": "The Revelation ends with an invitation: the Spirit and the bride say, Come, and whosoever will, let him take the water of life freely."
+  },
+  {
+   "id": "isaiah-beautiful-upon-the-mountains",
+   "after": "source:AB02628",
+   "responds": [
+    "source:AB02628"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says: how beautiful upon the mountains are the feet of him that bringeth good tidings, that publisheth peace."
+  },
+  {
+   "id": "song-winter-is-past",
+   "after": "source:AB02346",
+   "responds": [
+    "source:AB02346"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Solomon sings that the winter is past, the flowers appear on the earth and the time of the singing of birds is come."
+  },
+  {
+   "id": "isaiah-behold-your-god",
+   "after": "source:BH06360",
+   "responds": [
+    "source:BH06360"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah tells the bringer of good tidings to go up into the high mountain, lift up her voice and say: behold your God."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH06360",
+   "responds": [
+    "source:BH06360"
+   ],
+   "relation": "contrast",
+   "why": "Paine held that a revelation is revelation to the first person only, and hearsay to every other, who are not obliged to believe it. What would make a proclamation more than hearsay to those who were not there?"
+  },
+  {
+   "id": "deuteronomy-voice-out-of-the-fire",
+   "after": "source:BH00610",
+   "responds": [
+    "source:BH00610"
+   ],
+   "relation": "adjacent",
+   "why": "The people at Sinai say that they have heard his voice out of the midst of the fire, and seen that God doth talk with man."
+  },
+  {
+   "id": "psalm-voice-of-the-lord",
+   "after": "source:BH09694",
+   "responds": [
+    "source:BH09694"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the voice of the Lord is upon the waters, powerful and full of majesty."
+  },
+  {
+   "id": "isaiah-ears-heavy",
+   "after": "source:BH05275",
+   "responds": [
+    "source:BH05275"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah is sent to a people who hear indeed but understand not, and see indeed but perceive not."
+  },
+  {
+   "id": "luke-nothing-covered",
+   "after": "source:BH07757",
+   "responds": [
+    "source:BH07757"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that there is nothing covered that shall not be revealed, neither hid that shall not be known."
+  },
+  {
+   "id": "psalm-trees-of-the-wood-rejoice",
+   "after": "source:BH04858",
+   "responds": [
+    "source:BH04858"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm bids the heavens rejoice and the earth be glad, and says that then shall all the trees of the wood rejoice."
+  },
+  {
+   "id": "daniel-son-of-man",
+   "after": "source:BH04814",
+   "responds": [
+    "source:BH04814"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel sees in the night visions one like the Son of man come with the clouds of heaven to the Ancient of days."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BH07194",
+   "responds": [
+    "source:BH07194"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the heavens declare the glory of God, and that day unto day uttereth speech."
+  },
+  {
+   "id": "matthew-preach-upon-the-housetops",
+   "after": "source:ABU0817",
+   "responds": [
+    "source:ABU0817"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples to speak in the light what he has told them in darkness."
+  },
+  {
+   "id": "john-loved-darkness",
+   "after": "source:BH05321",
+   "responds": [
+    "source:BH05321"
+   ],
+   "relation": "adjacent",
+   "why": "John says that light is come into the world, and men loved darkness rather than light."
+  },
+  {
+   "id": "romans-how-shall-they-hear",
+   "after": "source:BH05321",
+   "responds": [
+    "source:BH05321"
+   ],
+   "relation": "complement",
+   "why": "Paul asks how they shall believe in him of whom they have not heard, and how they shall hear without a preacher. How many of the heedless have in fact heard?"
+  },
+  {
+   "id": "quran-trumpet-is-blown",
+   "after": "source:BH08196",
+   "responds": [
+    "source:BH08196"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells of the trumpet blown, at which all who are in the heavens and the earth swoon away."
+  },
+  {
+   "id": "peter-where-is-the-promise",
+   "after": "source:BH08196",
+   "responds": [
+    "source:BH08196"
+   ],
+   "relation": "complement",
+   "why": "Peter's letter expects scoffers in the last days who ask: where is the promise of his coming? What separates the scoffer's doubt from the honest doubt of someone who has been told this before?"
+  },
+  {
+   "id": "romans-high-time-to-awake",
+   "after": "source:BH10126",
+   "responds": [
+    "source:BH10126"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that it is high time to awake out of sleep: the night is far spent, the day is at hand."
+  },
+  {
+   "id": "maimonides-wake-up-sleepers",
+   "after": "source:BH10126",
+   "responds": [
+    "source:BH10126"
+   ],
+   "relation": "adjacent",
+   "why": "Maimonides hears in the ram's horn a call: wake up, you sleepy ones, from your sleep, and inspect your deeds."
+  },
+  {
+   "id": "haggai-desire-of-all-nations",
+   "after": "source:BH09176",
+   "responds": [
+    "source:BH09176"
+   ],
+   "relation": "adjacent",
+   "why": "Haggai has the Lord say: I will shake all nations, and the desire of all nations shall come."
+  },
+  {
+   "id": "deuteronomy-prophet-like-unto-me",
+   "after": "source:BH06042",
+   "responds": [
+    "source:BH06042"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy promises a Prophet raised up from among their brethren, with God's words in his mouth."
+  },
+  {
+   "id": "quran-praised-one",
+   "after": "source:BH06042",
+   "responds": [
+    "source:BH06042"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an has Jesus bring good tidings of a messenger who cometh after him, whose name is the Praised One."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:BH06042",
+   "responds": [
+    "source:BH06042"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he has yet many things to say, and that the Spirit of truth, when he is come, will guide into all truth."
+  },
+  {
+   "id": "isaiah-great-light",
+   "after": "source:BH03196",
+   "responds": [
+    "source:BH03196"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the people that walked in darkness have seen a great light."
+  },
+  {
+   "id": "quran-reckoning-draweth-nigh",
+   "after": "source:BH05418",
+   "responds": [
+    "source:BH05418"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that their reckoning draweth nigh for mankind, while they turn away in heedlessness."
+  },
+  {
+   "id": "jonah-nineveh-believed",
+   "after": "source:BH05418",
+   "responds": [
+    "source:BH05418"
+   ],
+   "relation": "complement",
+   "why": "Jonah cried in Nineveh for a single day, and the people believed God, from the greatest of them to the least. What made that city different from the heedless of whom the readings speak?"
+  },
+  {
+   "id": "malachi-send-you-elijah",
+   "after": "source:BH05816",
+   "responds": [
+    "source:BH05816"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises Elijah the prophet before the coming of the great and dreadful day of the Lord."
+  },
+  {
+   "id": "amos-woe-unto-you-that-desire",
+   "after": "source:BH05380",
+   "responds": [
+    "source:BH05380"
+   ],
+   "relation": "contrast",
+   "why": "Amos says: woe unto you that desire the day of the Lord; it is darkness, and not light. Why might a people that has yearned for the Day find it hard to bear when it comes?"
+  },
+  {
+   "id": "isaiah-rend-the-heavens",
+   "after": "source:BH07177",
+   "responds": [
+    "source:BH07177"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah prays: oh that thou wouldest rend the heavens, that thou wouldest come down."
+  },
+  {
+   "id": "proverbs-wisdom-crieth",
+   "after": "source:BH00688",
+   "responds": [
+    "source:BH00688"
+   ],
+   "relation": "adjacent",
+   "why": "In Proverbs wisdom stands in the top of high places and cries at the gates, at the entry of the city."
+  },
+  {
+   "id": "zephaniah-great-day-of-the-lord",
+   "after": "source:BH09824",
+   "responds": [
+    "source:BH09824"
+   ],
+   "relation": "adjacent",
+   "why": "Zephaniah says that the great day of the Lord is near, and hasteth greatly."
+  },
+  {
+   "id": "quran-whosoever-will-let-him-believe",
+   "after": "source:BH07397",
+   "responds": [
+    "source:BH07397"
+   ],
+   "relation": "complement",
+   "why": "The Qur'an says: it is the truth from your Lord; then whosoever will, let him believe, and whosoever will, let him disbelieve. What does a summons leave to the freedom of the one summoned?"
+  },
+  {
+   "id": "isaiah-opening-of-the-prison",
+   "after": "source:BH07425",
+   "responds": [
+    "source:BH07425"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's messenger is anointed to preach good tidings unto the meek and to proclaim liberty to the captives."
+  },
+  {
+   "id": "john-i-that-speak-am-he",
+   "after": "source:BH00459",
+   "responds": [
+    "source:BH00459"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to a woman who is waiting for the Messiah: I that speak unto thee am he."
+  },
+  {
+   "id": "revelation-stand-at-the-door",
+   "after": "source:BH05436",
+   "responds": [
+    "source:BH05436"
+   ],
+   "relation": "adjacent",
+   "why": "The Revelation has Christ say: behold, I stand at the door, and knock; if any man hear my voice, and open the door, I will come in."
+  },
+  {
+   "id": "john-whom-ye-know-not",
+   "after": "source:BH07319",
+   "responds": [
+    "source:BH07319"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist tells his questioners that there standeth one among them, whom they know not."
+  },
+  {
+   "id": "acts-uttermost-part",
+   "after": "source:BH02271",
+   "responds": [
+    "source:BH02271"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples that they shall be witnesses in Jerusalem, in Samaria and unto the uttermost part of the earth."
+  },
+  {
+   "id": "matthew-pearl-of-great-price",
+   "after": "source:BH03652",
+   "responds": [
+    "source:BH03652"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the kingdom to a merchant man seeking goodly pearls, who sold all that he had for one of great price."
+  },
+  {
+   "id": "luke-certain-women",
+   "after": "source:BH04959",
+   "responds": [
+    "source:BH04959"
+   ],
+   "relation": "adjacent",
+   "why": "Luke names the women who went with Jesus through every city and village as he preached the glad tidings."
+  },
+  {
+   "id": "quran-men-and-women-who-surrender",
+   "after": "source:BH05156",
+   "responds": [
+    "source:BH05156"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an addresses men who believe and women who believe, men who speak the truth and women who speak the truth, side by side."
+  },
+  {
+   "id": "seneca-falls-men-and-women",
+   "after": "source:BH05156",
+   "responds": [
+    "source:BH05156"
+   ],
+   "relation": "adjacent",
+   "why": "The women at Seneca Falls in 1848 declared it self-evident that all men and women are created equal."
+  },
+  {
+   "id": "luke-idle-tales",
+   "after": "source:BH11774",
+   "responds": [
+    "source:BH11774"
+   ],
+   "relation": "complement",
+   "why": "The women were the first to tell of the resurrection, and to the apostles their words seemed as idle tales. What has it cost when what the Spirit imparted to women was not heard?"
+  },
+  {
+   "id": "john-hated-me-without-a-cause",
+   "after": "source:AB04092",
+   "responds": [
+    "source:AB04092"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus applies to himself a line of scripture: they hated me without a cause."
+  },
+  {
+   "id": "quran-argue-not-save-in-better-way",
+   "after": "source:AB02633",
+   "responds": [
+    "source:AB02633"
+   ],
+   "relation": "complement",
+   "why": "The Qur'an tells believers not to argue with the People of the Scripture unless it be in a way that is better. What tone does the reading's own answer to objectors take?"
+  },
+  {
+   "id": "philippians-furtherance-of-the-gospel",
+   "after": "source:BH06724",
+   "responds": [
+    "source:BH06724"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes from prison that his bonds have fallen out rather unto the furtherance of the gospel."
+  },
+  {
+   "id": "ezekiel-watchman",
+   "after": "source:BH08049",
+   "responds": [
+    "source:BH08049"
+   ],
+   "relation": "complement",
+   "why": "Ezekiel says that if the watchman see the sword come and blow not the trumpet, the blood is required at the watchman's hand. Once the call has been raised, where does responsibility for the heedless lie?"
+  },
+  {
+   "id": "quran-warner-in-every-nation",
+   "after": "source:BH02331",
+   "responds": [
+    "source:BH02331"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that there is not a nation but a warner hath passed among them."
+  },
+  {
+   "id": "mark-go-ye-into-all-the-world",
+   "after": "source:BH05130",
+   "responds": [
+    "source:BH05130"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples: go ye into all the world, and preach the gospel to every creature."
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:BH04584",
+   "responds": [
+    "source:BH04584"
+   ],
+   "relation": "contrast",
+   "why": "Jesus also says not to give that which is holy unto the dogs, nor to cast pearls before swine. When is it right to speak to all without veil, and when to hold back?"
+  },
+  {
+   "id": "revelation-all-nations-and-tongues",
+   "after": "source:BH00898",
+   "responds": [
+    "source:BH00898"
+   ],
+   "relation": "adjacent",
+   "why": "John sees a great multitude, which no man could number, of all nations, and kindreds, and people, and tongues."
+  },
+  {
+   "id": "psalm-sing-a-new-song",
+   "after": "source:BH00898",
+   "responds": [
+    "source:BH00898"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls: sing unto the Lord a new song, sing unto the Lord, all the earth."
+  },
+  {
+   "id": "thoreau-only-that-day-dawns",
+   "after": "source:BH00379",
+   "responds": [
+    "source:BH00379"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau ends Walden by saying that only that day dawns to which we are awake."
+  },
+  {
+   "id": "isaiah-here-am-i",
+   "after": "source:ABU2944",
+   "responds": [
+    "source:ABU2944"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears the Lord ask whom he shall send, and answers: here am I; send me."
+  },
+  {
+   "id": "proverbs-prudent-man-concealeth",
+   "after": "source:ABU2944",
+   "responds": [
+    "source:ABU2944"
+   ],
+   "relation": "contrast",
+   "why": "Proverbs says that a prudent man concealeth knowledge, but the heart of fools proclaimeth foolishness. How does one tell the day for speaking from the day for silence?"
+  }
+ ],
+ "library": {}
+}
