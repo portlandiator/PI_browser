@@ -1,0 +1,893 @@
+{
+ "format": 2,
+ "slug": "universaleducation",
+ "subject": "94AE855C19A34B0D9F7D09FA46079FB3",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 71,
+ "quotations": 81,
+ "kept": [
+  "source:ABU0051",
+  "source:ABU1512",
+  "source:ABU2252",
+  "source:ABU0146",
+  "source:AB00824",
+  "source:BH00140",
+  "source:BH00690",
+  "source:BH09996",
+  "source:AB01427",
+  "source:ABU0528",
+  "source:AB01170",
+  "source:BH01717",
+  "source:AB02921",
+  "source:AB03824",
+  "source:AB03797",
+  "source:BH00111",
+  "source:BH01747",
+  "source:AB02098",
+  "source:BH00001",
+  "source:AB00016",
+  "source:BH00238",
+  "source:ABU3667",
+  "source:AB03755",
+  "source:AB04334",
+  "source:ABU0106",
+  "source:ABU2098",
+  "source:ABU0108",
+  "source:AB05208",
+  "source:ABU1699",
+  "source:ABU0036",
+  "source:ABU0083",
+  "source:AB00004",
+  "source:ABU3257",
+  "source:BH10084",
+  "source:ABU0007",
+  "source:ABU1650",
+  "source:AB00081",
+  "source:ABU0019",
+  "source:ABU0094",
+  "source:ABU0280",
+  "source:AB00476",
+  "source:AB00754",
+  "source:AB00090",
+  "source:ABU1616",
+  "source:AB04367",
+  "source:ABU0052",
+  "source:ABU0795",
+  "source:ABU3170",
+  "source:AB01419",
+  "source:ABU3525",
+  "source:AB00117",
+  "source:ABU0272",
+  "source:AB04669",
+  "source:ABU0949",
+  "source:AB03355",
+  "source:AB00142",
+  "source:AB00251",
+  "source:ABU0104",
+  "source:ABU0109",
+  "source:ABU0130",
+  "source:AB01534",
+  "source:AB02574",
+  "source:ABU0038",
+  "source:ABU0225",
+  "source:ABU0382",
+  "source:ABU1080",
+  "source:AB03999",
+  "selection:be261b39e6c1547556dd1b8d",
+  "selection:84d4deaad97e13a9d57a72d4",
+  "selection:912c0325c1a9d058af45fbd5",
+  "selection:b017084b07311b4f1d5bc25f"
+ ],
+ "introduction": "Every child is to be educated: girl and boy, rich and poor, of whatever people or religion, at public cost if the family cannot pay, in character before book learning, in the sciences and arts as well as in faith. And humanity as a whole stands in need of an educator. The eighty-one quotations of the guide are read here with eighty-one from elsewhere. Confucius taught without distinction of classes and held that people led by virtue acquire a sense of shame which laws cannot give; Proverbs and Deuteronomy place teaching in the home; Plato cares most for the beginning and for music; Aristotle says we become just by doing just acts; Bacon, Milton, Locke and Kant describe what learning is for; Wollstonecraft asks it for women. The cautions are of several kinds. Dickens’s schoolmaster wants nothing but facts, Mill fears that state schooling moulds everyone alike, Hobbes thinks fear and not education restrains people, Mencius and Rousseau trust nature more than training, Mary Shelley and the Preacher doubt that knowledge is always a blessing, and Whitman walks out of the lecture.",
+ "questions": [
+  "The guide puts training in character before book learning. What does Dickens's schoolmaster show about education that reverses the order?",
+  "Confucius taught without distinction of classes. Who is still left outside the school door where you live, and why?",
+  "Mill feared that a state system would mould everyone alike. How can education be universal without being uniform?",
+  "The guide says education can do what penal laws cannot, and Hobbes says people are restrained by fear. Which have you seen change conduct more deeply?",
+  "Mencius trusts human nature to tend toward good, and the guide says that left in a natural state a person sinks below the animal. What does each view ask of a teacher?",
+  "Mothers are called the first educators. What did you learn at home that no school could have taught?"
+ ],
+ "outside": [
+  {
+   "id": "analects-enrich-them-teach-them",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "adjacent",
+   "why": "Asked what should be done for a numerous people once they are enriched, Confucius answers: teach them."
+  },
+  {
+   "id": "analects-no-distinction",
+   "after": "source:ABU1512",
+   "responds": [
+    "source:ABU1512"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that in teaching there should be no distinction of classes."
+  },
+  {
+   "id": "isaiah-come-to-the-waters",
+   "after": "source:ABU2252",
+   "responds": [
+    "source:ABU2252"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's invitation has no entrance fee: every one that thirsteth, come, even he that hath no money."
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:ABU0146",
+   "responds": [
+    "source:ABU0146"
+   ],
+   "relation": "adjacent",
+   "why": "Wollstonecraft argued that to strengthen the female mind by enlarging it would put an end to blind obedience."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:AB00824",
+   "responds": [
+    "source:AB00824"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives the reason in a line: knowledge puffeth up, but charity edifieth."
+  },
+  {
+   "id": "dickens-nothing-but-facts",
+   "after": "source:AB00824",
+   "responds": [
+    "source:AB00824"
+   ],
+   "relation": "contrast",
+   "why": "Dickens's schoolmaster wants nothing but Facts taught to boys and girls, and everything else rooted out. What is lost in a schooling that leaves character to chance?"
+  },
+  {
+   "id": "isaiah-word-in-season-to-the-weary",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah speaks of a tongue given that it may know how to speak a word in season to the weary."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins from the capacity in everyone: all men by nature desire to know."
+  },
+  {
+   "id": "proverbs-wisdom-is-the-principal-thing",
+   "after": "source:BH09996",
+   "responds": [
+    "source:BH09996"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls wisdom the principal thing: with all thy getting get understanding."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:AB01427",
+   "responds": [
+    "source:AB01427"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon divides a full training into reading, conference and writing, which make a full, a ready and an exact man."
+  },
+  {
+   "id": "plato-rhythm-and-harmony",
+   "after": "source:ABU0528",
+   "responds": [
+    "source:ABU0528"
+   ],
+   "relation": "adjacent",
+   "why": "Plato says that musical training is a more potent instrument than any other, because rhythm and harmony find their way into the inward places of the soul."
+  },
+  {
+   "id": "shakespeare-no-music-in-himself",
+   "after": "source:ABU0528",
+   "responds": [
+    "source:ABU0528"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Lorenzo distrusts the man that hath no music in himself and is not moved with concord of sweet sounds."
+  },
+  {
+   "id": "pope-as-the-twig-is-bent",
+   "after": "source:AB01170",
+   "responds": [
+    "source:AB01170"
+   ],
+   "relation": "adjacent",
+   "why": "Pope says that education forms the mind: just as the twig is bent, the tree's inclined."
+  },
+  {
+   "id": "mencius-man-of-song",
+   "after": "source:AB01170",
+   "responds": [
+    "source:AB01170"
+   ],
+   "relation": "complement",
+   "why": "Mencius tells of a man who pulled at his corn to help it grow and found it withered. How does a gardener of children tell nurture from forcing?"
+  },
+  {
+   "id": "timothy-teach-others-also",
+   "after": "source:BH01717",
+   "responds": [
+    "source:BH01717"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells Timothy to commit what he has learned to faithful men who shall be able to teach others also."
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "source:AB02921",
+   "responds": [
+    "source:AB02921"
+   ],
+   "relation": "adjacent",
+   "why": "Luke shows a boy of twelve sitting among the teachers, both hearing them and asking them questions."
+  },
+  {
+   "id": "plato-young-and-tender-thing",
+   "after": "source:AB03824",
+   "responds": [
+    "source:AB03824"
+   ],
+   "relation": "adjacent",
+   "why": "Plato holds that the beginning is the most important part, for that is when character is being formed."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB03824",
+   "responds": [
+    "source:AB03824"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go, and when he is old he will not depart from it."
+  },
+  {
+   "id": "proverbs-beginning-of-knowledge",
+   "after": "source:AB03797",
+   "responds": [
+    "source:AB03797"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs puts reverence first: the fear of the Lord is the beginning of knowledge."
+  },
+  {
+   "id": "proverbs-wisdom-better-than-gold",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks how much better it is to get wisdom than gold."
+  },
+  {
+   "id": "isaiah-taught-of-the-lord",
+   "after": "source:BH01747",
+   "responds": [
+    "source:BH01747"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises that all thy children shall be taught of the Lord, and great shall be their peace."
+  },
+  {
+   "id": "proverbs-law-of-thy-mother",
+   "after": "source:AB02098",
+   "responds": [
+    "source:AB02098"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs tells a child not to forsake the law of thy mother."
+  },
+  {
+   "id": "timothy-thy-grandmother-lois",
+   "after": "source:AB02098",
+   "responds": [
+    "source:AB02098"
+   ],
+   "relation": "adjacent",
+   "why": "Paul traces Timothy's faith to his grandmother Lois and his mother Eunice."
+  },
+  {
+   "id": "ephesians-provoke-not-your-children",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells fathers not to provoke their children to wrath, but to bring them up in nurture and admonition."
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Moses asks that the words be taught diligently to the children, at home and by the way."
+  },
+  {
+   "id": "psalm-generation-to-come",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm resolves not to hide what has been received, but to show it to the generation to come."
+  },
+  {
+   "id": "quran-teacheth-by-the-pen",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an names God the Most Bounteous, who teaches by the pen."
+  },
+  {
+   "id": "malachi-windows-of-heaven",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi asks that the tithes be brought into the storehouse, that there may be provision in the house."
+  },
+  {
+   "id": "mill-state-education",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "contrast",
+   "why": "Mill called a general State education a mere contrivance for moulding people to be exactly like one another. How can education be universal and paid for by all without becoming that?"
+  },
+  {
+   "id": "hosea-lack-of-knowledge",
+   "after": "source:AB03755",
+   "responds": [
+    "source:AB03755"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea's charge is that a people is destroyed for lack of knowledge."
+  },
+  {
+   "id": "kings-solomon-spake-of-trees",
+   "after": "source:AB04334",
+   "responds": [
+    "source:AB04334"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon's wisdom took in every branch of knowledge: trees, beasts, fowl, creeping things and fishes."
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:ABU0106",
+   "responds": [
+    "source:ABU0106"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks whether those who know are equal with those who know not."
+  },
+  {
+   "id": "mill-worth-of-a-state",
+   "after": "source:ABU2098",
+   "responds": [
+    "source:ABU2098"
+   ],
+   "relation": "adjacent",
+   "why": "Mill held that the worth of a State, in the long run, is the worth of the individuals composing it."
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "source:ABU0108",
+   "responds": [
+    "source:ABU0108"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds Timothy that from a child he has known the holy scriptures."
+  },
+  {
+   "id": "galatians-put-on-christ",
+   "after": "source:AB05208",
+   "responds": [
+    "source:AB05208"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes a community in which there is neither Jew nor Greek, bond nor free, male nor female."
+  },
+  {
+   "id": "isaiah-out-of-zion",
+   "after": "source:ABU1699",
+   "responds": [
+    "source:ABU1699"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees the mountain of the Lord's house established, and all nations flowing unto it to be taught."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:ABU0036",
+   "responds": [
+    "source:ABU0036"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer the Qur'an teaches is: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "proverbs-soul-without-knowledge",
+   "after": "source:ABU0083",
+   "responds": [
+    "source:ABU0083"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that for the soul to be without knowledge is not good."
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Milton defined the end of learning as to repair the ruins of our first parents by regaining to know God aright."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Kant called enlightenment a release from the inability to use one's own understanding without direction from another."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Locke supposed the mind at first white paper, furnished afterwards by experience."
+  },
+  {
+   "id": "tocqueville-form-associations",
+   "after": "source:ABU3257",
+   "responds": [
+    "source:ABU3257"
+   ],
+   "relation": "adjacent",
+   "why": "Tocqueville observed how readily Americans of all ages and conditions form associations for every public purpose."
+  },
+  {
+   "id": "bacon-weigh-and-consider",
+   "after": "source:BH10084",
+   "responds": [
+    "source:BH10084"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon advises reading not to contradict nor to believe, but to weigh and consider."
+  },
+  {
+   "id": "unesco-minds-of-men",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "UNESCO's constitution holds that the defences of peace must be constructed in the minds of men."
+  },
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "source:ABU1650",
+   "responds": [
+    "source:ABU1650"
+   ],
+   "relation": "adjacent",
+   "why": "Milton expected much arguing and many opinions wherever there is desire to learn, opinion being knowledge in the making."
+  },
+  {
+   "id": "aristotle-little-by-little",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle observes that nature proceeds little by little from lifeless things to animal life."
+  },
+  {
+   "id": "galatians-our-schoolmaster",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls the law a schoolmaster that brings its pupils on to something higher."
+  },
+  {
+   "id": "isaiah-thine-eyes-shall-see-thy-teachers",
+   "after": "source:ABU0094",
+   "responds": [
+    "source:ABU0094"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises that thy teachers shall not be removed into a corner any more, but thine eyes shall see them."
+  },
+  {
+   "id": "psalm-instruct-thee-and-teach-thee",
+   "after": "source:ABU0280",
+   "responds": [
+    "source:ABU0280"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm hears God say: I will instruct thee and teach thee in the way which thou shalt go."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:AB00476",
+   "responds": [
+    "source:AB00476"
+   ],
+   "relation": "complement",
+   "why": "Plato says that the power of learning exists in the soul already, and that education is the turning of the whole soul toward the light. If the capacity is already there, what does a teacher add?"
+  },
+  {
+   "id": "analects-led-by-laws",
+   "after": "source:AB00754",
+   "responds": [
+    "source:AB00754"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius says that people led by laws and punishments will try to avoid the punishment, and have no sense of shame."
+  },
+  {
+   "id": "plato-no-man-voluntarily",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates holds that no man voluntarily pursues evil, or that which he thinks to be evil."
+  },
+  {
+   "id": "hobbes-nasty-brutish-and-short",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "contrast",
+   "why": "Hobbes describes life without a common power as solitary, poor, nasty, brutish and short. Is it education that restrains people, as the guide holds, or fear, as he does?"
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU1616",
+   "responds": [
+    "source:ABU1616"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees nations that beat their swords into plowshares and do not learn war any more."
+  },
+  {
+   "id": "timothy-in-meekness-instructing",
+   "after": "source:AB04367",
+   "responds": [
+    "source:AB04367"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that the servant of the Lord be gentle unto all, apt to teach, patient."
+  },
+  {
+   "id": "twain-travel",
+   "after": "source:ABU0052",
+   "responds": [
+    "source:ABU0052"
+   ],
+   "relation": "adjacent",
+   "why": "Mark Twain observed that travel is fatal to prejudice, bigotry and narrow-mindedness."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU0795",
+   "responds": [
+    "source:ABU0795"
+   ],
+   "relation": "adjacent",
+   "why": "Mill held that he who knows only his own side of the case knows little of that."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:ABU3170",
+   "responds": [
+    "source:ABU3170"
+   ],
+   "relation": "contrast",
+   "why": "Mary Shelley's Frankenstein warns how dangerous is the acquirement of knowledge. What must education include if knowledge is not to be dangerous?"
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:AB01419",
+   "responds": [
+    "source:AB01419"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes resolved never to accept anything for true which he did not clearly know to be such."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:ABU3525",
+   "responds": [
+    "source:ABU3525"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that cities will have no rest from their evils until political greatness and wisdom meet in one."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "contrast",
+   "why": "Mencius says that the tendency of man's nature to good is like the tendency of water to flow downwards. If nature already tends to good, how great can the differences made by education be?"
+  },
+  {
+   "id": "aristotle-by-doing-just-acts",
+   "after": "source:ABU0272",
+   "responds": [
+    "source:ABU0272"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that we become just by doing just acts, as builders become builders by building."
+  },
+  {
+   "id": "proverbs-field-of-the-slothful",
+   "after": "source:AB04669",
+   "responds": [
+    "source:AB04669"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs passes the field of the slothful and finds it grown over with thorns."
+  },
+  {
+   "id": "matthew-suffer-little-children-kingdom",
+   "after": "source:ABU0949",
+   "responds": [
+    "source:ABU0949"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: suffer little children, and forbid them not, to come unto me."
+  },
+  {
+   "id": "mark-took-them-up-in-his-arms",
+   "after": "source:AB03355",
+   "responds": [
+    "source:AB03355"
+   ],
+   "relation": "adjacent",
+   "why": "Mark tells how Jesus took the children up in his arms and blessed them."
+  },
+  {
+   "id": "isaiah-line-upon-line",
+   "after": "source:AB00142",
+   "responds": [
+    "source:AB00142"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah describes how the young are taught: precept upon precept, line upon line, here a little and there a little."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:AB00251",
+   "responds": [
+    "source:AB00251"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher found that he that increaseth knowledge increaseth sorrow. Is ignorance the foundation of all evil, or is knowledge sometimes a burden of its own?"
+  },
+  {
+   "id": "aristotle-best-and-worst-of-animals",
+   "after": "source:ABU0104",
+   "responds": [
+    "source:ABU0104"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that man, when perfected, is the best of animals, and when separated from law and justice, the worst."
+  },
+  {
+   "id": "rousseau-everywhere-in-chains",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "contrast",
+   "why": "Rousseau begins from the thought that man is born free and is everywhere in chains. Does education free the natural human being, or bind him?"
+  },
+  {
+   "id": "universal-declaration-1",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration says that all human beings are endowed with reason and conscience."
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:AB02574",
+   "responds": [
+    "source:AB02574"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel is told of a time when many shall run to and fro, and knowledge shall be increased."
+  },
+  {
+   "id": "habakkuk-knowledge-of-the-glory",
+   "after": "source:ABU0038",
+   "responds": [
+    "source:ABU0038"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk foresees the earth filled with knowledge as the waters cover the sea."
+  },
+  {
+   "id": "quran-language-of-his-folk",
+   "after": "source:ABU0225",
+   "responds": [
+    "source:ABU0225"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that every messenger was sent with the language of his folk, to make the message clear."
+  },
+  {
+   "id": "acts-understandest-thou",
+   "after": "source:ABU0382",
+   "responds": [
+    "source:ABU0382"
+   ],
+   "relation": "adjacent",
+   "why": "Philip asks a reader whether he understands what he reads, and is told: how can I, except some man should guide me?"
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:AB03999",
+   "responds": [
+    "source:AB03999"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a man diligent in his business shall stand before kings."
+  },
+  {
+   "id": "proverbs-iron-sharpeneth-iron",
+   "after": "selection:be261b39e6c1547556dd1b8d",
+   "responds": [
+    "selection:be261b39e6c1547556dd1b8d"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs has an image for bringing out what is hidden: iron sharpeneth iron."
+  },
+  {
+   "id": "analects-one-corner",
+   "after": "selection:84d4deaad97e13a9d57a72d4",
+   "responds": [
+    "selection:84d4deaad97e13a9d57a72d4"
+   ],
+   "relation": "complement",
+   "why": "Confucius does not open up the truth to one who is not eager, and expects a pupil shown one corner to find the other three. How much can any education do for one who will not learn?"
+  },
+  {
+   "id": "proverbs-child-left-to-himself",
+   "after": "selection:912c0325c1a9d058af45fbd5",
+   "responds": [
+    "selection:912c0325c1a9d058af45fbd5"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a child left to himself brings his mother to shame."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "selection:912c0325c1a9d058af45fbd5",
+   "responds": [
+    "selection:912c0325c1a9d058af45fbd5"
+   ],
+   "relation": "contrast",
+   "why": "Whitman leaves the lecture-room, tired of proofs and figures, to look up in silence at the stars. What does a child need to be left free to do?"
+  },
+  {
+   "id": "psalm-children-are-an-heritage",
+   "after": "selection:b017084b07311b4f1d5bc25f",
+   "responds": [
+    "selection:b017084b07311b4f1d5bc25f"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls children an heritage of the Lord, and compares them to arrows in the hand of a mighty man."
+  },
+  {
+   "id": "mencius-lost-mind",
+   "after": "selection:b017084b07311b4f1d5bc25f",
+   "responds": [
+    "selection:b017084b07311b4f1d5bc25f"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius says that people know to seek their lost fowls and dogs, but lose their mind and do not know to seek for it."
+  }
+ ],
+ "library": {
+  "galatians-our-schoolmaster": {
+   "text": "Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith",
+   "work": "Galatians 3:24",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%203%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-child-left-to-himself": {
+   "text": "The rod and reproof give wisdom: but a child left to himself bringeth his mother to shame",
+   "work": "Proverbs 29:15",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2029%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hobbes-nasty-brutish-and-short": {
+   "text": "In such condition, there is no place for Industry; because the fruit thereof is uncertain: and consequently no Culture of the Earth; no Navigation, nor use of the commodities that may be imported by Sea; no commodious Building; no Instruments of moving, and removing such things as require much force; no Knowledge of the face of the Earth; no account of Time; no Arts; no Letters; no Society; and which is worst of all, continuall feare, and danger of violent death; And the life of man, solitary, poore, nasty, brutish, and short",
+   "author": "Thomas Hobbes",
+   "work": "Leviathan",
+   "locator": "chapter 13",
+   "year": "1651",
+   "sortYear": 1651,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leviathan_(1651)/Chapter_13",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1679."
+   }
+  }
+ }
+}
