@@ -2,7 +2,7 @@
  "format": 2,
  "slug": "degreesspirit",
  "subject": "D03BB2731AA9495289A5738021BFA48E",
- "status": "draft",
+ "status": "published",
  "limit": 100,
  "rule": "stretches",
  "readings": 79,
@@ -790,6 +790,15 @@
    ],
    "relation": "adjacent",
    "why": "Hamlet says that there are more things in heaven and earth than are dreamt of in his friend's philosophy."
+  },
+  {
+   "id": "john-many-mansions",
+   "after": "source:ABU3370",
+   "responds": [
+    "source:ABU3370"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples on the night before he died: in my Father's house are many mansions."
   },
   {
    "id": "ecclesiastes-upward-downward",
