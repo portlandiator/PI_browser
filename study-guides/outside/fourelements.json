@@ -1,0 +1,518 @@
+{
+ "format": 2,
+ "slug": "fourelements",
+ "subject": "DBB5EC5C96FE46669738E999DA08B541",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 25,
+ "quotations": 27,
+ "kept": [
+  "source:BH00020",
+  "source:AB00034",
+  "source:ABU0893",
+  "source:ABU0260",
+  "source:BH00591",
+  "source:AB10275",
+  "source:BH05570",
+  "source:BH08255",
+  "source:AB04063",
+  "source:BH08838",
+  "source:BH00212",
+  "source:AB00018",
+  "source:BH07258",
+  "source:ABU3275",
+  "source:BB00590",
+  "source:ABU1167",
+  "source:ABU0654",
+  "source:BH03017",
+  "source:BB00421",
+  "source:BH01034",
+  "source:BH02699",
+  "source:BB00001",
+  "selection:5bc79d0f7ee48483c16311ca",
+  "selection:9a48848b39eda10561655365",
+  "selection:1ea508c1c1ae84b8bc16e60e"
+ ],
+ "introduction": "Fire, air, water and earth were for two thousand years the alphabet of nature, and the guide uses them in both ways: as the old natural philosophy of composition and balance, and as a language for qualities of the heart, with rain as mercy, fire as love and earth as humility. Its twenty-seven quotations are read here with twenty-seven from elsewhere. Plato and Aristotle describe the elements passing into one another; Genesis, the psalms and the Qur’an speak of dust, water, clay and smokeless fire; Francis of Assisi praises brother wind, sister water, brother fire and mother earth; Shakespeare mixes the elements into a character. Heraclitus has a fire that no one made, Lavoisier weighs matter and finds no place for the four, Peter’s letter expects the elements to melt, and Elijah finds God in none of them. The last readings turn to the earth as a pattern of humility, where Jesus, the Dhammapada, Lao Tzu and the Qur’an agree.",
+ "questions": [
+  "The guide treats the four elements both as an account of nature and as images of spiritual qualities. Which use survives the change in science, and why?",
+  "Elijah finds the Lord in none of wind, earthquake or fire, but in a still small voice. What does that say about reading nature as a sign?",
+  "Earth is praised for bearing everything and water for seeking the low place. What would it look like to practise either quality for a day?",
+  "Lavoisier found that nothing is created or lost in an experiment. How might an older picture of nature still teach something a newer one has replaced?"
+ ],
+ "outside": [
+  {
+   "id": "plato-elements-pass-into-one-another",
+   "after": "source:BH00020",
+   "responds": [
+    "source:BH00020"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Timaeus watches what we call water become stone and earth by condensation, the elements passing into one another."
+  },
+  {
+   "id": "aristotle-elements-change-into-one-another",
+   "after": "source:BH00020",
+   "responds": [
+    "source:BH00020"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle holds it evident that all the elements are by nature such as to change into one another."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "source:BH00020",
+   "responds": [
+    "source:BH00020"
+   ],
+   "relation": "contrast",
+   "why": "Heraclitus says that no one of gods or men has made this world: it was ever, is now and ever shall be an ever-living Fire. What differs between elements that proceed from an Originator and a fire that has no maker?"
+  },
+  {
+   "id": "francis-brother-wind-sister-water",
+   "after": "source:AB00034",
+   "responds": [
+    "source:AB00034"
+   ],
+   "relation": "adjacent",
+   "why": "Francis of Assisi praises God for brother wind, sister water, brother fire and our sister, mother earth."
+  },
+  {
+   "id": "psalm-vapours-lightnings-wind",
+   "after": "source:AB00034",
+   "responds": [
+    "source:AB00034"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm has God cause the vapours to ascend, make lightnings for the rain, and bring the wind out of his treasuries."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:ABU0893",
+   "responds": [
+    "source:ABU0893"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah compares the word to the rain and the snow, which water the earth and make it bring forth and bud."
+  },
+  {
+   "id": "psalm-thou-visitest-the-earth",
+   "after": "source:ABU0260",
+   "responds": [
+    "source:ABU0260"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm addresses God as one who visits the earth, waters it and prepares its corn."
+  },
+  {
+   "id": "matthew-not-strive-nor-cry",
+   "after": "source:BH05570",
+   "responds": [
+    "source:BH05570"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew applies to Jesus the prophet's words that he shall not break a bruised reed nor quench the smoking flax."
+  },
+  {
+   "id": "psalm-remembereth-we-are-dust",
+   "after": "source:BH08255",
+   "responds": [
+    "source:BH08255"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that God, like a father pitying his children, remembers that we are dust."
+  },
+  {
+   "id": "quran-every-animal-of-water",
+   "after": "source:BH08255",
+   "responds": [
+    "source:BH08255"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that God has created every animal of water, some that go upon the belly and some upon two legs or four."
+  },
+  {
+   "id": "isaiah-we-are-the-clay",
+   "after": "source:BH08255",
+   "responds": [
+    "source:BH08255"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah prays as the thing made: we are the clay, and thou our potter, and we all are the work of thy hand."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:AB04063",
+   "responds": [
+    "source:AB04063"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says of the human body that out of the ground it was taken: dust thou art, and unto dust shalt thou return."
+  },
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:AB04063",
+   "responds": [
+    "source:AB04063"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher watches the generations pass, the sun rise and go down and the wind turn about, while the earth abides for ever."
+  },
+  {
+   "id": "quran-put-out-the-light",
+   "after": "source:BH08838",
+   "responds": [
+    "source:BH08838"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of those who would put out the light of God with their mouths that God will perfect his light."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:BH08838",
+   "responds": [
+    "source:BH08838"
+   ],
+   "relation": "complement",
+   "why": "Elijah meets a great wind, an earthquake and a fire, and the Lord is in none of them, but in a still small voice. What are the elements to the one who made them?"
+  },
+  {
+   "id": "shakespeare-this-was-a-man",
+   "after": "source:BH00212",
+   "responds": [
+    "source:BH00212"
+   ],
+   "relation": "adjacent",
+   "why": "Antony's praise of Brutus is that the elements were so mixed in him that Nature might say, this was a man."
+  },
+  {
+   "id": "quran-clay-and-smokeless-fire",
+   "after": "source:AB00018",
+   "responds": [
+    "source:AB00018"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an has man created of clay like the potter's, and the jinn of smokeless fire."
+  },
+  {
+   "id": "shakespeare-i-am-fire-and-air",
+   "after": "source:AB00018",
+   "responds": [
+    "source:AB00018"
+   ],
+   "relation": "adjacent",
+   "why": "Cleopatra, at her end, claims only the higher two: I am fire and air, and gives her other elements to baser life."
+  },
+  {
+   "id": "genesis-spirit-moved-upon-the-waters",
+   "after": "source:BB00590",
+   "responds": [
+    "source:BB00590"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis begins with the earth without form and void, and the Spirit of God moving upon the face of the waters."
+  },
+  {
+   "id": "peter-elements-shall-melt",
+   "after": "source:BB00590",
+   "responds": [
+    "source:BB00590"
+   ],
+   "relation": "contrast",
+   "why": "Peter's letter expects a day when the elements shall melt with fervent heat and the earth be burned up. Can what came first in creation also be what passes away?"
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:ABU1167",
+   "responds": [
+    "source:ABU1167"
+   ],
+   "relation": "contrast",
+   "why": "Lavoisier lays it down as an axiom that nothing is created, an equal quantity of matter existing before and after the experiment. What becomes of the four elements when elements are counted by the balance?"
+  },
+  {
+   "id": "bacon-alchemy-and-the-vineyard",
+   "after": "source:BH03017",
+   "responds": [
+    "source:BH03017"
+   ],
+   "relation": "complement",
+   "why": "Bacon compares alchemy to the sons who dug the vineyard for gold and found none, but had a great vintage. What did the old science of the elements yield, if not what it sought?"
+  },
+  {
+   "id": "psalm-fire-and-hail",
+   "after": "selection:5bc79d0f7ee48483c16311ca",
+   "responds": [
+    "selection:5bc79d0f7ee48483c16311ca"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm summons fire and hail, snow and vapours, and stormy wind fulfilling his word, to praise the Lord from the earth."
+  },
+  {
+   "id": "matthew-meek-shall-inherit-the-earth",
+   "after": "selection:1ea508c1c1ae84b8bc16e60e",
+   "responds": [
+    "selection:1ea508c1c1ae84b8bc16e60e"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus joins the same quality and the same element: blessed are the meek, for they shall inherit the earth."
+  },
+  {
+   "id": "dhammapada-tolerant-like-the-earth",
+   "after": "selection:1ea508c1c1ae84b8bc16e60e",
+   "responds": [
+    "selection:1ea508c1c1ae84b8bc16e60e"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada describes the one who does his duty as tolerant like the earth, and like a lake without mud."
+  },
+  {
+   "id": "tao-highest-excellence-is-like-water",
+   "after": "selection:1ea508c1c1ae84b8bc16e60e",
+   "responds": [
+    "selection:1ea508c1c1ae84b8bc16e60e"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu finds the highest excellence in water, which benefits all things and occupies the low place which all men dislike."
+  },
+  {
+   "id": "quran-answer-peace",
+   "after": "selection:1ea508c1c1ae84b8bc16e60e",
+   "responds": [
+    "selection:1ea508c1c1ae84b8bc16e60e"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an describes the servants of the Beneficent as those who walk upon the earth modestly."
+  }
+ ],
+ "library": {
+  "peter-elements-shall-melt": {
+   "text": "But the day of the Lord will come as a thief in the night; in the which the heavens shall pass away with a great noise, and the elements shall melt with fervent heat, the earth also and the works that are therein shall be burned up",
+   "work": "2 Peter 3:10",
+   "year": "c. 80–130 CE",
+   "sortYear": 110,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Peter%203%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-vapours-lightnings-wind": {
+   "text": "He causeth the vapours to ascend from the ends of the earth; he maketh lightnings for the rain; he bringeth the wind out of his treasuries",
+   "work": "Psalm 135:7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20135%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-meek-shall-inherit-the-earth": {
+   "text": "Blessed are the meek: for they shall inherit the earth",
+   "work": "Matthew 5:5",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-clay-and-smokeless-fire": {
+   "text": "He created man of clay like the potter's, And the jinn did He create of smokeless fire",
+   "work": "Qur’an 55:14–15",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-every-animal-of-water": {
+   "text": "Allah hath created every animal of water. Of them is (a kind) that goeth upon its belly and (a kind) that goeth upon two legs and (a kind) that goeth upon four. Allah createth what He will. Lo! Allah is Able to do all things.",
+   "work": "Qur’an 24:45",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=24&verse=45",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-i-am-fire-and-air": {
+   "text": "I am fire and air; my other elements / I give to baser life",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Antony and Cleopatra",
+   "locator": "Act 5, scene 2",
+   "year": "about 1607",
+   "sortYear": 1607,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/cleopatra/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "dhammapada-tolerant-like-the-earth": {
+   "text": "Such a one who does his duty is tolerant like the earth, like Indra's bolt; he is like a lake without mud; no new births are in store for him",
+   "work": "Dhammapada",
+   "locator": "verse 95",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "francis-brother-wind-sister-water": {
+   "text": "Praised be my Lord for brother wind / And for the air and clouds and fair and every kind of weather, / By the which Thou givest to Thy creatures nourishment. / Praised be my Lord for sister water, / The which is greatly helpful and humble and precious and pure. / Praised be my Lord for brother fire, / By the which Thou lightest up the dark. / And fair is he and gay and mighty and strong. / Praised be my Lord for our sister, mother earth, / The which sustains and keeps us / And brings forth diverse fruits with grass and flowers bright",
+   "verse": true,
+   "author": "Francis of Assisi",
+   "work": "The Canticle of the Sun",
+   "year": "about 1225",
+   "sortYear": 1225,
+   "translator": "Paschal Robinson",
+   "translationYear": "1906",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Writings_of_St._Francis_of_Assisi/The_Canticle_of_the_Sun",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1906; translator d. 1948."
+   }
+  },
+  "heraclitus-ever-living-fire": {
+   "text": "This world, which is the same for all, no one of gods or men has made; but it was ever, is now, and ever shall be an ever-living Fire, with measures of it kindling, and measures going out",
+   "author": "Heraclitus",
+   "work": "Fragments",
+   "locator": "fragment 30 (Diels); 20 in Burnet",
+   "year": "c. 500 BCE",
+   "sortYear": -500,
+   "translator": "John Burnet",
+   "translationYear": "1892",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Fragments_of_Heraclitus",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\[\\d+\\]"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1928."
+   }
+  },
+  "tao-highest-excellence-is-like-water": {
+   "text": "The highest excellence is like (that of) water. The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 8",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  }
+ }
+}
