@@ -1,0 +1,1427 @@
+{
+ "format": 2,
+ "slug": "moraleducation",
+ "subject": "4527819F4272482F94777C3D36326FD4",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 90,
+ "quotations": 100,
+ "kept": [
+  "source:BH00140",
+  "source:ABU0666",
+  "source:ABU0007",
+  "source:AB01105",
+  "source:AB00890",
+  "source:BH00111",
+  "source:AB07881",
+  "source:AB06321",
+  "source:AB02921",
+  "source:AB00189",
+  "source:BH00228",
+  "source:ABU2282",
+  "source:AB01170",
+  "source:AB00117",
+  "source:ABU0293",
+  "source:AB00081",
+  "source:AB06380",
+  "source:ABU1034",
+  "source:ABU0280",
+  "source:ABU2403",
+  "source:BH04860",
+  "source:ABU3483",
+  "source:AB07846",
+  "source:ABU0147",
+  "source:AB04470",
+  "source:AB06394",
+  "source:BH00001",
+  "source:AB06194",
+  "source:AB03327",
+  "source:AB02690",
+  "source:AB02250",
+  "source:AB03742",
+  "source:AB05542",
+  "source:AB04966",
+  "source:AB06584",
+  "source:AB06337",
+  "source:AB08823",
+  "source:AB10738",
+  "source:AB00263",
+  "source:BH00053",
+  "source:AB00142",
+  "source:ABU0528",
+  "source:AB00965",
+  "source:AB12015",
+  "source:AB03755",
+  "source:AB03494",
+  "source:ABU0012",
+  "source:ABU0225",
+  "source:AB03229",
+  "source:ABU1072",
+  "source:AB04334",
+  "source:AB00004",
+  "source:AB08817",
+  "source:AB01330",
+  "source:AB04322",
+  "source:AB04032",
+  "source:AB01616",
+  "source:AB07530",
+  "source:AB11746",
+  "source:AB05463",
+  "source:AB07264",
+  "source:AB07272",
+  "source:AB07328",
+  "source:AB08705",
+  "source:AB04065",
+  "source:ABU0949",
+  "source:AB06543",
+  "source:AB04066",
+  "source:AB02647",
+  "source:AB10853",
+  "source:AB10587",
+  "source:ABU1488",
+  "source:AB04310",
+  "source:AB05047",
+  "source:ABU0623",
+  "source:ABU1483",
+  "source:AB05042",
+  "source:AB08929",
+  "source:AB05515",
+  "source:AB09999",
+  "source:BH06328",
+  "source:ABU1650",
+  "source:ABU3525",
+  "source:AB00090",
+  "source:AB03471",
+  "source:AB01999",
+  "source:AB10915",
+  "source:AB07303",
+  "source:ABU0129",
+  "source:AB10714"
+ ],
+ "introduction": "“Man is the supreme Talisman,” the first reading says, and only education can bring out what he holds. From that sentence the guide moves through the upbringing of children: praise before blame and no blows, kindness to animals, religion and character taught first and the sciences with them, schools for girls given precedence because mothers are the first teachers, the duty of the community toward children whose parents cannot pay and toward orphans, and the honour due to those who teach. Proverbs, Deuteronomy, Plato, Aristotle, Confucius, Locke and Wollstonecraft said similar things in their own settings. Others would dispute them. Wordsworth holds that the child arrives with more than he is given, Mill and Kant fear a religion or a mould imposed in childhood, Proverbs keeps the rod, Blake’s schoolboy calls the school a cage, and Dickens’s schoolmaster shows what teaching without love of the child looks like.",
+ "questions": [
+  "The readings say that education brings out what a child already holds, like gems from a mine. Locke called the mind white paper, and Wordsworth thought the child arrives trailing glory. Which picture fits the children you know?",
+  "The readings ask that a child be praised and reasoned with and never struck, where Proverbs kept the rod. What view of the child lies behind each?",
+  "Religion and character are to be taught first. How can that be done so that, as Kant and Mill would ask, the child still learns to think for himself?",
+  "Girls’ education is given precedence because mothers are the first educators. What follows from that for fathers, and for a community?",
+  "Blake’s schoolboy felt school as a cage and Dickens’s schoolmaster wanted only Facts. What would the school of these readings look and sound like on an ordinary morning?",
+  "Which teacher formed you most, and by what?"
+ ],
+ "outside": [
+  {
+   "id": "gray-blush-unseen",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Thomas Gray, in a country churchyard, thought of gems that the dark caves of ocean bear and flowers born to blush unseen."
+  },
+  {
+   "id": "matthew-suffer-little-children-kingdom",
+   "after": "source:ABU0666",
+   "responds": [
+    "source:ABU0666"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying the reading recalls: suffer little children to come unto me, for of such is the kingdom of heaven."
+  },
+  {
+   "id": "plato-young-and-tender-thing",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "Plato says that the beginning is the most important part of any work, above all with a young and tender thing."
+  },
+  {
+   "id": "ephesians-provoke-not-your-children",
+   "after": "source:AB01105",
+   "responds": [
+    "source:AB01105"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Ephesians tells fathers not to provoke their children to wrath, but to bring them up in nurture and admonition."
+  },
+  {
+   "id": "proverbs-spareth-his-rod",
+   "after": "source:AB01105",
+   "responds": [
+    "source:AB01105"
+   ],
+   "relation": "contrast",
+   "why": "Proverbs says that he who spares his rod hates his son, and generations brought up children on that verse. What has to be believed about a child for praise to be the first instrument and the rod the forbidden one?"
+  },
+  {
+   "id": "proverbs-regardeth-the-life-of-his-beast",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a righteous man regards the life of his beast."
+  },
+  {
+   "id": "bentham-can-they-suffer",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "complement",
+   "why": "Bentham said that the question about animals is not whether they can reason or talk, but whether they can suffer. What does a child learn about people by learning to notice an animal's pain?"
+  },
+  {
+   "id": "proverbs-beginning-of-knowledge",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs places the fear of the Lord at the beginning of knowledge."
+  },
+  {
+   "id": "deuteronomy-teach-your-children",
+   "after": "source:AB06321",
+   "responds": [
+    "source:AB06321"
+   ],
+   "relation": "adjacent",
+   "why": "Moses tells Israel to teach these words to their children, speaking of them at home and on the way."
+  },
+  {
+   "id": "hosea-taught-ephraim-to-go",
+   "after": "source:AB00189",
+   "responds": [
+    "source:AB00189"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea has God say of His people: I taught Ephraim to go, taking them by their arms."
+  },
+  {
+   "id": "browning-opening-out-a-way",
+   "after": "source:BH00228",
+   "responds": [
+    "source:BH00228"
+   ],
+   "relation": "adjacent",
+   "why": "Robert Browning wrote that to know consists in opening out a way whence the imprisoned splendour may escape."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:ABU2282",
+   "responds": [
+    "source:ABU2282"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs gives the oldest rule of education: train up a child in the way he should go."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:AB01170",
+   "responds": [
+    "source:AB01170"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth held that the child comes trailing clouds of glory and that shades of the prison-house begin to close as he grows. Does education draw out a light the child has, or supply one he lacks?"
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "complement",
+   "why": "Locke supposed the mind at birth to be white paper, void of all characters. If that were so, what would the reading mean by a crooked branch and by gems already in the mine?"
+  },
+  {
+   "id": "analects-nature-and-practice",
+   "after": "source:ABU0293",
+   "responds": [
+    "source:ABU0293"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that by nature people are nearly alike, and by practice they get to be wide apart."
+  },
+  {
+   "id": "locke-nine-parts-of-ten",
+   "after": "source:ABU0293",
+   "responds": [
+    "source:ABU0293"
+   ],
+   "relation": "adjacent",
+   "why": "Locke thought that of all the people we meet, nine parts of ten are what they are by their education."
+  },
+  {
+   "id": "aristotle-best-and-worst-of-animals",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle said that man, when perfected, is the best of animals, and when separated from law and justice the worst."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:ABU1034",
+   "responds": [
+    "source:ABU1034"
+   ],
+   "relation": "complement",
+   "why": "Plato hoped for a city educated by philosophers who were also its kings, and never saw one. What can a philosopher teach, and what did the reading think only a Prophet could?"
+  },
+  {
+   "id": "deuteronomy-wise-and-understanding-people",
+   "after": "source:ABU0280",
+   "responds": [
+    "source:ABU0280"
+   ],
+   "relation": "adjacent",
+   "why": "Moses told Israel that keeping these statutes would be their wisdom in the sight of the nations."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:ABU2403",
+   "responds": [
+    "source:ABU2403"
+   ],
+   "relation": "adjacent",
+   "why": "Paul called the law a schoolmaster that brought a people along until they came of age."
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "source:BH04860",
+   "responds": [
+    "source:BH04860"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds Timothy that from a child he has known the holy scriptures."
+  },
+  {
+   "id": "mill-state-education",
+   "after": "source:ABU3483",
+   "responds": [
+    "source:ABU3483"
+   ],
+   "relation": "contrast",
+   "why": "Mill feared any single system of education as a contrivance for moulding people to be exactly like one another. How can children be taught religion first without being cast in a mould?"
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:AB07846",
+   "responds": [
+    "source:AB07846"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy asks that the words be taught diligently to children, at sitting down and at rising up."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU0147",
+   "responds": [
+    "source:ABU0147"
+   ],
+   "relation": "contrast",
+   "why": "Kant called it immaturity to rely on another's understanding in matters of religion. What kind of early religious teaching prepares a child to think for himself, and what kind prevents it?"
+  },
+  {
+   "id": "mencius-man-of-song",
+   "after": "source:AB04470",
+   "responds": [
+    "source:AB04470"
+   ],
+   "relation": "complement",
+   "why": "Mencius tells of a farmer who pulled at his young corn to help it grow, and killed it. What does the gardener of this reading know that he did not?"
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "source:AB06394",
+   "responds": [
+    "source:AB06394"
+   ],
+   "relation": "adjacent",
+   "why": "Luke shows Jesus at twelve sitting among the teachers in the temple, hearing them and asking them questions."
+  },
+  {
+   "id": "plato-rhythm-and-harmony",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that musical training is the most potent instrument, because rhythm and harmony find their way into the inward places of the soul."
+  },
+  {
+   "id": "psalm-babes-and-sucklings",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that out of the mouth of babes and sucklings God has ordained strength."
+  },
+  {
+   "id": "psalm-generation-to-come",
+   "after": "source:AB06194",
+   "responds": [
+    "source:AB06194"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm resolves not to hide these things from the children, but to show the generation to come the praises of the Lord."
+  },
+  {
+   "id": "proverbs-law-of-thy-mother",
+   "after": "source:AB03327",
+   "responds": [
+    "source:AB03327"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: hear the instruction of thy father, and forsake not the law of thy mother."
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:AB02690",
+   "responds": [
+    "source:AB02690"
+   ],
+   "relation": "adjacent",
+   "why": "Mary Wollstonecraft wrote in 1792: strengthen the female mind by enlarging it, and there will be an end to blind obedience."
+  },
+  {
+   "id": "quran-read",
+   "after": "source:AB02250",
+   "responds": [
+    "source:AB02250"
+   ],
+   "relation": "adjacent",
+   "why": "The first words revealed to Muhammad were: read, in the name of thy Lord, who teaches by the pen."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB02250",
+   "responds": [
+    "source:AB02250"
+   ],
+   "relation": "adjacent",
+   "why": "Francis Bacon held that human knowledge and human power meet in one."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:AB02250",
+   "responds": [
+    "source:AB02250"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher found that in much wisdom is much grief, and that he who increases knowledge increases sorrow. What kind of learning was he speaking of, and what kind do these readings ask for?"
+  },
+  {
+   "id": "proverbs-strength-and-honour",
+   "after": "source:AB03742",
+   "responds": [
+    "source:AB03742"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs praises a woman who opens her mouth with wisdom and looks well to the ways of her household."
+  },
+  {
+   "id": "samuel-hannah",
+   "after": "source:AB03742",
+   "responds": [
+    "source:AB03742"
+   ],
+   "relation": "adjacent",
+   "why": "Hannah, who became the mother of Samuel, prayed for a child so intently that her lips moved and no voice was heard."
+  },
+  {
+   "id": "tennyson-womans-cause",
+   "after": "source:AB05542",
+   "responds": [
+    "source:AB05542"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson wrote that the woman's cause is man's: they rise or sink together, dwarfed or godlike, bond or free."
+  },
+  {
+   "id": "seneca-falls-men-and-women",
+   "after": "source:AB05542",
+   "responds": [
+    "source:AB05542"
+   ],
+   "relation": "adjacent",
+   "why": "The women at Seneca Falls in 1848 rewrote the Declaration: all men and women are created equal."
+  },
+  {
+   "id": "corinthians-women-keep-silence",
+   "after": "source:AB05542",
+   "responds": [
+    "source:AB05542"
+   ],
+   "relation": "contrast",
+   "why": "A letter of Paul tells women to keep silence in the churches and to ask their husbands at home. How has a verse like that shaped what girls were taught, and what do these readings put in its place?"
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:AB04966",
+   "responds": [
+    "source:AB04966"
+   ],
+   "relation": "adjacent",
+   "why": "Joel foresaw a day when the spirit would be poured out and sons and daughters alike would prophesy."
+  },
+  {
+   "id": "timothy-lois-and-eunice",
+   "after": "source:AB06337",
+   "responds": [
+    "source:AB06337"
+   ],
+   "relation": "adjacent",
+   "why": "Paul traced Timothy's faith to his grandmother Lois and his mother Eunice, in whom it dwelt first."
+  },
+  {
+   "id": "isaiah-as-his-mother-comforteth",
+   "after": "source:AB08823",
+   "responds": [
+    "source:AB08823"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah takes a mother with her child for his picture of God's care: as one whom his mother comforteth."
+  },
+  {
+   "id": "luke-increased-in-wisdom",
+   "after": "source:AB10738",
+   "responds": [
+    "source:AB10738"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of the boy Jesus that he increased in wisdom and stature, and in favour with God and man."
+  },
+  {
+   "id": "psalm-children-are-an-heritage",
+   "after": "source:AB00263",
+   "responds": [
+    "source:AB00263"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls children an heritage of the Lord, like arrows in the hand of a mighty man."
+  },
+  {
+   "id": "quran-luqman-to-his-son",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an preserves the counsel of Luqman to his son, beginning with the warning not to ascribe partners to God."
+  },
+  {
+   "id": "corinthians-star-differeth-from-star",
+   "after": "source:AB00142",
+   "responds": [
+    "source:AB00142"
+   ],
+   "relation": "complement",
+   "why": "Paul observes that one star differs from another star in glory. If education has the strongest influence, what is to be made of the differences children are born with?"
+  },
+  {
+   "id": "ecclesiastes-remember-now-thy-creator",
+   "after": "source:ABU0528",
+   "responds": [
+    "source:ABU0528"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher advises: remember now thy Creator in the days of thy youth."
+  },
+  {
+   "id": "aristotle-just-by-doing-just-acts",
+   "after": "source:AB00965",
+   "responds": [
+    "source:AB00965"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that we become just by doing just acts, so that it makes all the difference what habits are formed from our very youth."
+  },
+  {
+   "id": "wordsworth-child-is-father",
+   "after": "source:AB00965",
+   "responds": [
+    "source:AB00965"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth put the same thought in six words: the child is father of the man."
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "source:AB03755",
+   "responds": [
+    "source:AB03755"
+   ],
+   "relation": "complement",
+   "why": "Milton said that the end of learning is to repair the ruins of our first parents by regaining to know God aright. How do the sciences and arts serve that end, and can they be taught without it?"
+  },
+  {
+   "id": "proverbs-wise-son",
+   "after": "source:AB03494",
+   "responds": [
+    "source:AB03494"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a wise son makes a glad father, and a foolish son is the heaviness of his mother."
+  },
+  {
+   "id": "analects-enrich-them-teach-them",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius, asked what should be done for a numerous people once they were made prosperous, answered: teach them."
+  },
+  {
+   "id": "universal-declaration-1",
+   "after": "source:ABU0225",
+   "responds": [
+    "source:ABU0225"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration of Human Rights begins: all human beings are endowed with reason and conscience."
+  },
+  {
+   "id": "galatians-neither-jew-nor-greek",
+   "after": "source:AB03229",
+   "responds": [
+    "source:AB03229"
+   ],
+   "relation": "adjacent",
+   "why": "Paul wrote that in Christ there is neither Jew nor Greek, bond nor free, male nor female."
+  },
+  {
+   "id": "matthew-millstone",
+   "after": "source:ABU1072",
+   "responds": [
+    "source:ABU1072"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that whoever causes one of these little ones to stumble would be better off with a millstone about his neck."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB04334",
+   "responds": [
+    "source:AB04334"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an gives the believer a prayer: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "gray-ignorance-is-bliss",
+   "after": "source:AB04334",
+   "responds": [
+    "source:AB04334"
+   ],
+   "relation": "contrast",
+   "why": "Gray, watching schoolboys at play, concluded that where ignorance is bliss it is folly to be wise. What is the case against telling children all that the grown know?"
+  },
+  {
+   "id": "hosea-lack-of-knowledge",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea says of his own nation in its decline: my people are destroyed for lack of knowledge."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB08817",
+   "responds": [
+    "source:AB08817"
+   ],
+   "relation": "adjacent",
+   "why": "James defines pure religion as visiting the fatherless and widows in their affliction."
+  },
+  {
+   "id": "quran-oppress-not-the-orphan",
+   "after": "source:AB08817",
+   "responds": [
+    "source:AB08817"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an tells the Prophet, who had been an orphan himself: therefore the orphan oppress not."
+  },
+  {
+   "id": "samuel-i-shall-go-to-him",
+   "after": "source:AB01330",
+   "responds": [
+    "source:AB01330"
+   ],
+   "relation": "adjacent",
+   "why": "David said of his dead child: I shall go to him, but he shall not return to me."
+  },
+  {
+   "id": "jonson-first-son",
+   "after": "source:AB01330",
+   "responds": [
+    "source:AB01330"
+   ],
+   "relation": "adjacent",
+   "why": "Ben Jonson wrote for his son, dead at seven: farewell, thou child of my right hand, and joy."
+  },
+  {
+   "id": "isaiah-taught-of-the-lord",
+   "after": "source:AB04322",
+   "responds": [
+    "source:AB04322"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises: all thy children shall be taught of the Lord, and great shall be the peace of thy children."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:AB04032",
+   "responds": [
+    "source:AB04032"
+   ],
+   "relation": "adjacent",
+   "why": "Micah's three requirements describe such a person: to do justly, to love mercy, and to walk humbly."
+  },
+  {
+   "id": "samuel-here-am-i",
+   "after": "source:AB01616",
+   "responds": [
+    "source:AB01616"
+   ],
+   "relation": "adjacent",
+   "why": "The child Samuel was brought up in the house of the Lord, and answered when he was called: here am I."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:AB05463",
+   "responds": [
+    "source:AB05463"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that learning without thought is labour lost, and thought without learning is perilous."
+  },
+  {
+   "id": "blake-bird-born-for-joy",
+   "after": "source:AB05463",
+   "responds": [
+    "source:AB05463"
+   ],
+   "relation": "contrast",
+   "why": "Blake's schoolboy asks how a bird that is born for joy can sit in a cage and sing. What would a school have to be like for a child not to feel it as a cage?"
+  },
+  {
+   "id": "mark-took-them-up-in-his-arms",
+   "after": "source:AB07264",
+   "responds": [
+    "source:AB07264"
+   ],
+   "relation": "adjacent",
+   "why": "Mark says that Jesus took the children up in his arms, put his hands upon them, and blessed them."
+  },
+  {
+   "id": "quran-good-deeds-endure",
+   "after": "source:AB07264",
+   "responds": [
+    "source:AB07264"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an calls wealth and children an ornament of this life, and says that the good deeds which endure are better."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB07272",
+   "responds": [
+    "source:AB07272"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that those who turn many to righteousness shall shine as the stars for ever."
+  },
+  {
+   "id": "psalm-law-is-perfect",
+   "after": "source:AB07328",
+   "responds": [
+    "source:AB07328"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the testimony of the Lord is sure, making wise the simple."
+  },
+  {
+   "id": "matthew-two-or-three-gathered",
+   "after": "source:AB08705",
+   "responds": [
+    "source:AB08705"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promised to be present where two or three are gathered in his name."
+  },
+  {
+   "id": "mencius-like-to-be-teachers",
+   "after": "source:AB04065",
+   "responds": [
+    "source:AB04065"
+   ],
+   "relation": "contrast",
+   "why": "Mencius said that the evil of men is that they like to be teachers of others. What keeps the honour of teaching from becoming a teacher's vanity?"
+  },
+  {
+   "id": "analects-one-corner",
+   "after": "source:AB04065",
+   "responds": [
+    "source:AB04065"
+   ],
+   "relation": "complement",
+   "why": "Confucius would not open the truth to anyone not eager for it, and if he showed one corner and the pupil could not find the other three, he did not repeat the lesson. How much of teaching is waiting for the pupil?"
+  },
+  {
+   "id": "dickens-nothing-but-facts",
+   "after": "source:ABU0949",
+   "responds": [
+    "source:ABU0949"
+   ],
+   "relation": "contrast",
+   "why": "Dickens's schoolmaster wants nothing but Facts: plant nothing else, and root out everything else. What is missing from his school, and is it missing from ours?"
+  },
+  {
+   "id": "analects-not-born-with-knowledge",
+   "after": "source:AB06543",
+   "responds": [
+    "source:AB06543"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said of himself that he was not born with knowledge, but was fond of antiquity and earnest in seeking it."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:AB04066",
+   "responds": [
+    "source:AB04066"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his followers to let their light shine, so that others may see their good works."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:AB02647",
+   "responds": [
+    "source:AB02647"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: when I was a child I spoke as a child; when I became a man I put away childish things."
+  },
+  {
+   "id": "john-new-commandment",
+   "after": "source:AB10853",
+   "responds": [
+    "source:AB10853"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gave his disciples a new commandment: that ye love one another, as I have loved you."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:AB10587",
+   "responds": [
+    "source:AB10587"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanked his Father that these things are hidden from the wise and prudent and revealed to babes."
+  },
+  {
+   "id": "corinthians-evil-communications",
+   "after": "source:AB05047",
+   "responds": [
+    "source:AB05047"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes a line of Greek verse: evil communications corrupt good manners."
+  },
+  {
+   "id": "milton-cloistered-virtue",
+   "after": "source:AB05047",
+   "responds": [
+    "source:AB05047"
+   ],
+   "relation": "contrast",
+   "why": "Milton could not praise a cloistered virtue that has never met its adversary. When does protecting a child from bad company prepare him for the world, and when does it only postpone the meeting?"
+  },
+  {
+   "id": "lamentations-quietly-wait",
+   "after": "source:ABU0623",
+   "responds": [
+    "source:ABU0623"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says that it is good for a man that he bear the yoke in his youth."
+  },
+  {
+   "id": "shakespeare-seven-ages",
+   "after": "source:ABU0623",
+   "responds": [
+    "source:ABU0623"
+   ],
+   "relation": "complement",
+   "why": "Shakespeare's second age of man is the whining schoolboy, creeping like snail unwillingly to school. What makes the difference between that schoolboy and a child whose heart has been lit?"
+  },
+  {
+   "id": "luke-faithful-in-least",
+   "after": "source:ABU1483",
+   "responds": [
+    "source:ABU1483"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that whoever is faithful in that which is least is faithful also in much."
+  },
+  {
+   "id": "isaiah-little-child-shall-lead-them",
+   "after": "source:AB05042",
+   "responds": [
+    "source:AB05042"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's picture of the peaceable kingdom ends: and a little child shall lead them."
+  },
+  {
+   "id": "proverbs-seekest-her-as-silver",
+   "after": "source:AB08929",
+   "responds": [
+    "source:AB08929"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs tells the young to seek understanding as silver and search for her as for hid treasures."
+  },
+  {
+   "id": "psalm-delight-in-the-law",
+   "after": "source:AB05515",
+   "responds": [
+    "source:AB05515"
+   ],
+   "relation": "adjacent",
+   "why": "The first psalm likens the one who delights in the law to a tree planted by rivers of water."
+  },
+  {
+   "id": "philippians-shine-as-lights",
+   "after": "source:AB09999",
+   "responds": [
+    "source:AB09999"
+   ],
+   "relation": "adjacent",
+   "why": "Paul hopes that his friends will shine as lights in the world."
+  },
+  {
+   "id": "unesco-minds-of-men",
+   "after": "source:BH06328",
+   "responds": [
+    "source:BH06328"
+   ],
+   "relation": "adjacent",
+   "why": "The founders of UNESCO held that since wars begin in the minds of men, it is there that the defences of peace must be constructed."
+  },
+  {
+   "id": "carlyle-conviction-into-conduct",
+   "after": "source:ABU1650",
+   "responds": [
+    "source:ABU1650"
+   ],
+   "relation": "adjacent",
+   "why": "Carlyle wrote that conviction is worthless till it converts itself into conduct."
+  },
+  {
+   "id": "analects-led-by-laws",
+   "after": "source:ABU1650",
+   "responds": [
+    "source:ABU1650"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that people led by virtue and by the rules of propriety gain a sense of shame and become good."
+  },
+  {
+   "id": "proverbs-where-there-is-no-vision",
+   "after": "source:ABU3525",
+   "responds": [
+    "source:ABU3525"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that where there is no vision the people perish, but he that keeps the law is happy."
+  },
+  {
+   "id": "isaiah-full-of-the-knowledge",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees an earth full of the knowledge of the Lord, as the waters cover the sea."
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson observed that knowledge comes, but wisdom lingers. Does the spread of schooling by itself broaden understanding, as this reading hopes?"
+  },
+  {
+   "id": "psalm-except-the-lord",
+   "after": "source:AB01999",
+   "responds": [
+    "source:AB01999"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that except the Lord build the house, they labour in vain that build it."
+  },
+  {
+   "id": "hosea-as-the-dew",
+   "after": "source:AB10915",
+   "responds": [
+    "source:AB10915"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea hears a promise: I will be as the dew, and he shall grow as the lily."
+  },
+  {
+   "id": "jeremiah-tree-by-the-waters",
+   "after": "source:AB07303",
+   "responds": [
+    "source:AB07303"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah speaks of a tree planted by the waters, whose leaf is green and which does not cease from yielding fruit."
+  },
+  {
+   "id": "numbers-bless-thee-and-keep-thee",
+   "after": "source:ABU0129",
+   "responds": [
+    "source:ABU0129"
+   ],
+   "relation": "adjacent",
+   "why": "The old blessing asks: the Lord bless thee, and keep thee, and make His face shine upon thee."
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "source:AB10714",
+   "responds": [
+    "source:AB10714"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I am fearfully and wonderfully made; marvellous are Thy works."
+  }
+ ],
+ "library": {
+  "ephesians-provoke-not-your-children": {
+   "text": "And, ye fathers, provoke not your children to wrath: but bring them up in the nurture and admonition of the Lord",
+   "work": "Ephesians 6:4",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%206%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-law-of-thy-mother": {
+   "text": "My son, hear the instruction of thy father, and forsake not the law of thy mother: For they shall be an ornament of grace unto thy head, and chains about thy neck",
+   "work": "Proverbs 1:8–9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%201%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-from-a-child": {
+   "text": "But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus",
+   "work": "2 Timothy 3:14–15",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Timothy%203%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-children-are-an-heritage": {
+   "text": "Lo, children are an heritage of the Lord: and the fruit of the womb is his reward. As arrows are in the hand of a mighty man; so are children of the youth",
+   "work": "Psalm 127:3–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20127%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-generation-to-come": {
+   "text": "We will not hide them from their children, shewing to the generation to come the praises of the Lord, and his strength, and his wonderful works that he hath done. For he established a testimony in Jacob, and appointed a law in Israel, which he commanded our fathers, that they should make them known to their children",
+   "work": "Psalm 78:4–6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2078%3A4-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-beginning-of-knowledge": {
+   "text": "The fear of the Lord is the beginning of knowledge: but fools despise wisdom and instruction",
+   "work": "Proverbs 1:7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%201%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-millstone": {
+   "text": "And whoso shall receive one such little child in my name receiveth me. But whoso shall offend one of these little ones which believe in me, it were better for him that a millstone were hanged about his neck, and that he were drowned in the depth of the sea",
+   "work": "Matthew 18:5–6",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2018%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-little-child-shall-lead-them": {
+   "text": "The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; and the calf and the young lion and the fatling together; and a little child shall lead them",
+   "work": "Isaiah 11:6",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2011%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-wise-son": {
+   "text": "A wise son maketh a glad father: but a foolish son is the heaviness of his mother",
+   "work": "Proverbs 10:1",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2010%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-remember-now-thy-creator": {
+   "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them",
+   "work": "Ecclesiastes 12:1",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%2012%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-teach-your-children": {
+   "text": "Therefore shall ye lay up these my words in your heart and in your soul, and bind them for a sign upon your hand, that they may be as frontlets between your eyes. And ye shall teach them your children, speaking of them when thou sittest in thine house, and when thou walkest by the way, when thou liest down, and when thou risest up",
+   "work": "Deuteronomy 11:18–19",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2011%3A18-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-took-them-up-in-his-arms": {
+   "text": "Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child, he shall not enter therein. And he took them up in his arms, put his hands upon them, and blessed them",
+   "work": "Mark 10:15–16",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%2010%3A15-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-oppress-not-the-orphan": {
+   "text": "Therefor the orphan oppress not,",
+   "work": "Qur’an 93:9",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=93&verse=9",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-luqman-to-his-son": {
+   "text": "And (remember) when Luqman said unto his son, when he was exhorting him: O my dear son! Ascribe no partners unto Allah. Lo! to ascribe partners (unto Him) is a tremendous wrong -",
+   "work": "Qur’an 31:13",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=31&verse=13",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "blake-bird-born-for-joy": {
+   "text": "How can the bird that is born for joy, / Sit in a cage and sing. / How can a child when fears annoy, / But droop his tender wing, / And forget his youthful spring",
+   "verse": true,
+   "author": "William Blake",
+   "work": "The School Boy",
+   "year": "1794",
+   "sortYear": 1794,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Songs_of_Innocence_and_of_Experience_(1826)/Songs_of_Experience/The_School_Boy",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "plato-young-and-tender-thing": {
+   "text": "the beginning is the most important part of any work, especially in the case of a young and tender thing; for that is the time at which the character is being formed and the desired impression is more readily taken",
+   "author": "Plato",
+   "work": "Republic",
+   "locator": "Book II",
+   "year": "c. 375 BCE",
+   "sortYear": -375,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/republic.3.ii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "wollstonecraft-strengthen-the-female-mind": {
+   "text": "Strengthen the female mind by enlarging it, and there will be an end to blind obedience",
+   "author": "Mary Wollstonecraft",
+   "work": "A Vindication of the Rights of Woman",
+   "locator": "Chapter II",
+   "year": "1792",
+   "sortYear": 1792,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/A_Vindication_of_the_Rights_of_Woman/Chapter_II",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1797."
+   }
+  },
+  "dickens-nothing-but-facts": {
+   "text": "NOW, what I want is, Facts. Teach these boys and girls nothing but Facts. Facts alone are wanted in life. Plant nothing else, and root out everything else",
+   "author": "Charles Dickens",
+   "work": "Hard Times",
+   "locator": "Book I, chapter 1",
+   "year": "1854",
+   "sortYear": 1854,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Hard_Times/First_Book/Chapter_I",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1870."
+   }
+  }
+ }
+}
