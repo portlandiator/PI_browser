@@ -1,0 +1,1502 @@
+{
+ "format": 2,
+ "slug": "higherlowernature",
+ "subject": "5410D4DAE5454E8D81B13EC3E9DA2F23",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 81,
+ "quotations": 95,
+ "kept": [
+  "source:ABU0706",
+  "source:BH04829",
+  "source:ABU0275",
+  "source:ABU0262",
+  "source:ABU1983",
+  "source:ABU0150",
+  "source:AB00420",
+  "source:AB00022",
+  "source:AB01183",
+  "source:AB02513",
+  "source:AB00620",
+  "source:AB00266",
+  "source:ABU0033",
+  "source:ABU0185",
+  "source:ABU0667",
+  "source:ABU0691",
+  "source:ABU1238",
+  "source:ABU0524",
+  "source:ABU0019",
+  "source:ABU1504",
+  "source:ABU0118",
+  "source:ABU0577",
+  "source:ABU1725",
+  "source:ABU2516",
+  "source:AB02907",
+  "source:AB03376",
+  "source:AB00651",
+  "source:ABU3645",
+  "source:AB03451",
+  "source:ABU0384",
+  "source:ABU2345",
+  "source:AB06098",
+  "source:ABU0217",
+  "source:AB04595",
+  "source:ABU0113",
+  "source:ABU2609",
+  "source:ABU0099",
+  "source:ABU0440",
+  "source:ABU0210",
+  "source:AB00183",
+  "source:ABU1172",
+  "source:AB05415",
+  "source:AB02361",
+  "source:ABU0586",
+  "source:ABU0343",
+  "source:AB02976",
+  "source:ABU3022",
+  "source:ABU1718",
+  "source:ABU1081",
+  "source:ABU2139",
+  "source:ABU2247",
+  "source:ABU1398",
+  "source:ABU1692",
+  "source:ABU0999",
+  "source:ABU0122",
+  "source:ABU0138",
+  "source:ABU1926",
+  "source:ABU0825",
+  "source:ABU0163",
+  "source:AB00278",
+  "source:AB00336",
+  "source:AB02144",
+  "source:AB00096",
+  "source:ABU0757",
+  "source:ABU1953",
+  "source:BB00020",
+  "source:BB00004",
+  "source:ABU0007",
+  "source:ABU1956",
+  "source:ABU3163",
+  "source:AB04410",
+  "source:AB07352",
+  "source:ABU1999",
+  "source:ABU2909",
+  "source:ABU1624",
+  "source:ABU2552",
+  "source:ABU1812",
+  "source:ABU3323",
+  "selection:9923ccd17d91d416896aed45",
+  "selection:32b4f52421925060c7765683",
+  "selection:4de404d98733ccb930c5069a"
+ ],
+ "introduction": "\"In man there are two natures,\" ‘Abdu’l-Bahá says in these talks and letters: a spiritual or higher nature by which a person approaches God, and a material or lower nature shared with the animal. He describes each, explains that the \"insistent self\" and what scripture calls Satan are the lower nature left in command, argues that nature untrained inclines to cruelty, and says that a life is decided by which side prevails. Ninety-five outside voices stand beside the passages: Genesis, Paul and the Qur’an on the divided self; Plato's charioteer, the Katha Upanishad and the Dhammapada; Augustine, Pascal, Pope, Goethe, Stevenson and Dostoevsky; and, in dissent, Mencius on the goodness of human nature, Hume on reason and passion, and Blake and Whitman on the body.",
+ "questions": [
+  "Plato's charioteer, Paul's \"law in my members\" and Goethe's two souls all describe an inner division. What does ‘Abdu’l-Bahá's account add, and what does it leave out?",
+  "Asked what Satan is, he replied: \"The insistent self.\" What changes when evil is placed within and not outside?",
+  "Several talks say that human nature inclines to cruelty unless trained; Mencius says it tends to good as water flows downhill. How would you test the two views?",
+  "\"His body is satanic\" is a hard sentence. How do Blake and Whitman challenge it, and how do other passages here, on health and the two wings, qualify it?",
+  "Pascal warns that whoever would act the angel acts the brute. What does a sound effort to live by the higher nature look like?",
+  "Iago says that our wills are gardeners of ourselves. What does the will need, in these readings, in order to choose well?"
+ ],
+ "outside": [
+  {
+   "id": "quran-soul-grow-or-stunt",
+   "after": "source:ABU0706",
+   "responds": [
+    "source:ABU0706"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of the soul inspired with both its wickedness and its piety, and says that the one who makes it grow succeeds."
+  },
+  {
+   "id": "stevenson-not-truly-one-but-truly-two",
+   "after": "source:ABU0706",
+   "responds": [
+    "source:ABU0706"
+   ],
+   "relation": "adjacent",
+   "why": "Stevenson's Dr Jekyll reaches the same conclusion by a ruinous experiment: man is not truly one, but truly two."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:ABU0706",
+   "responds": [
+    "source:ABU0706"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis makes man of two things: the dust of the ground and the breath of life."
+  },
+  {
+   "id": "aristotle-best-and-worst-of-animals",
+   "after": "source:BH04829",
+   "responds": [
+    "source:BH04829"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle said that man, when perfected, is the best of animals, and when separated from law and justice the worst of all."
+  },
+  {
+   "id": "quran-best-stature",
+   "after": "source:BH04829",
+   "responds": [
+    "source:BH04829"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that man was created in the best stature, the height from which the next verse measures his fall."
+  },
+  {
+   "id": "quran-lowest-of-the-low",
+   "after": "source:BH04829",
+   "responds": [
+    "source:BH04829"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an goes on in the next verse: then We reduced him to the lowest of the low."
+  },
+  {
+   "id": "wordsworth-getting-and-spending",
+   "after": "source:ABU0275",
+   "responds": [
+    "source:ABU0275"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth mourns a people who fly on one wing only: getting and spending, we lay waste our powers."
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "Paul distinguishes the outward man, which perishes, from the inward man, which is renewed day by day."
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays that the eyes of his readers' understanding be enlightened, the inner sight this talk asks for."
+  },
+  {
+   "id": "pope-isthmus",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "Pope places man on an isthmus of a middle state, in doubt whether to deem himself a god or a beast."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm sets man a little lower than the angels, and crowns him with glory and honour."
+  },
+  {
+   "id": "nietzsche-rope-over-an-abyss",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "complement",
+   "why": "Nietzsche also sees man as a midpoint, a rope stretched between the animal and something beyond man. What lies at the upper end of the rope makes all the difference. What lies there in this passage?"
+  },
+  {
+   "id": "goethe-two-souls",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "adjacent",
+   "why": "Goethe's Faust cries that two souls dwell in his breast, and each pulls away from the other."
+  },
+  {
+   "id": "genesis-image-and-likeness",
+   "after": "source:AB01183",
+   "responds": [
+    "source:AB01183"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that man was made in the image of God, the luminous station spoken of here."
+  },
+  {
+   "id": "katha-self-in-the-chariot",
+   "after": "source:AB00620",
+   "responds": [
+    "source:AB00620"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad pictures the Self as riding in the chariot of the body, with intellect as driver and mind as reins."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal calls man a reed, the weakest thing in nature, but a reed that thinks."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon saw that knowledge of nature's causes gives man power over nature."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet lists the same excellences: noble in reason, infinite in faculty, in apprehension like a god."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit: love, joy, peace, gentleness, goodness, faith."
+  },
+  {
+   "id": "pascal-neither-angel-nor-brute",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "complement",
+   "why": "Pascal says that man is neither angel nor brute, and that whoever tries to act the angel acts the brute. What warning does that hold for someone trying to live by the higher nature?"
+  },
+  {
+   "id": "shakespeare-bare-forked-animal",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "Lear, on the heath, sees in a naked beggar what man is without his borrowings: a poor, bare, forked animal."
+  },
+  {
+   "id": "ecclesiastes-no-preeminence-above-a-beast",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher says flatly that a man has no pre-eminence above a beast. What would have to be true for him to be wrong?"
+  },
+  {
+   "id": "shakespeare-sleep-and-feed",
+   "after": "source:ABU0667",
+   "responds": [
+    "source:ABU0667"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet asks what a man is if his chief good is to sleep and feed: a beast, no more."
+  },
+  {
+   "id": "milton-mind-its-own-place",
+   "after": "source:ABU1238",
+   "responds": [
+    "source:ABU1238"
+   ],
+   "relation": "adjacent",
+   "why": "Milton has it that the mind is its own place, and can make a heaven of hell or a hell of heaven."
+  },
+  {
+   "id": "matthew-wheat-and-tares",
+   "after": "source:ABU0524",
+   "responds": [
+    "source:ABU0524"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells of a field in which wheat and weeds grow together until the harvest."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go."
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:ABU1504",
+   "responds": [
+    "source:ABU1504"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures the soul as a charioteer with two horses, one noble and one unruly, so that driving them is hard."
+  },
+  {
+   "id": "galatians-flesh-against-the-spirit",
+   "after": "source:ABU1504",
+   "responds": [
+    "source:ABU1504"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the flesh desires against the Spirit, and the Spirit against the flesh."
+  },
+  {
+   "id": "matthew-two-masters",
+   "after": "source:ABU0118",
+   "responds": [
+    "source:ABU0118"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that no one can serve two masters, for he will love the one and hate the other."
+  },
+  {
+   "id": "romans-carnally-minded",
+   "after": "source:ABU0118",
+   "responds": [
+    "source:ABU0118"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that to be carnally minded is death, and to be spiritually minded is life and peace."
+  },
+  {
+   "id": "psalm-beasts-that-perish",
+   "after": "source:ABU0577",
+   "responds": [
+    "source:ABU0577"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that man in honour who does not understand is like the beasts that perish."
+  },
+  {
+   "id": "blake-no-body-distinct-from-his-soul",
+   "after": "source:ABU1725",
+   "responds": [
+    "source:ABU1725"
+   ],
+   "relation": "contrast",
+   "why": "Blake denied that man has a body distinct from his soul, and called energy from the body eternal delight. What would he say to \"his body is satanic,\" and what is the answer?"
+  },
+  {
+   "id": "whitman-poet-of-the-body",
+   "after": "source:ABU1725",
+   "responds": [
+    "source:ABU1725"
+   ],
+   "relation": "contrast",
+   "why": "Whitman announced himself the poet of the body as much as of the soul. Is the lower nature in these talks the body, or a way of using it?"
+  },
+  {
+   "id": "peter-partakers-of-the-divine-nature",
+   "after": "source:ABU2516",
+   "responds": [
+    "source:ABU2516"
+   ],
+   "relation": "adjacent",
+   "why": "The second letter of Peter speaks of becoming partakers of the divine nature."
+  },
+  {
+   "id": "romans-good-that-i-would",
+   "after": "source:AB02907",
+   "responds": [
+    "source:AB02907"
+   ],
+   "relation": "adjacent",
+   "why": "Paul confesses that he does not do the good he wants, and does the evil he does not want."
+  },
+  {
+   "id": "matthew-spirit-willing",
+   "after": "source:AB02907",
+   "responds": [
+    "source:AB02907"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says in Gethsemane that the spirit is willing, but the flesh is weak."
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:AB03376",
+   "responds": [
+    "source:AB03376"
+   ],
+   "relation": "adjacent",
+   "why": "Paul finds another law in his members bringing him into captivity, and cries: O wretched man that I am!"
+  },
+  {
+   "id": "john-servant-of-sin",
+   "after": "source:AB03376",
+   "responds": [
+    "source:AB03376"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that whoever commits sin is the servant of sin, and that the truth makes free."
+  },
+  {
+   "id": "jeremiah-heart-is-deceitful",
+   "after": "source:AB00651",
+   "responds": [
+    "source:AB00651"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says that the heart is deceitful above all things: who can know it?"
+  },
+  {
+   "id": "james-drawn-away-of-his-own-lust",
+   "after": "source:ABU3645",
+   "responds": [
+    "source:ABU3645"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of James says that each person is tempted when drawn away by his own desire, and should not blame God."
+  },
+  {
+   "id": "matthew-out-of-the-heart",
+   "after": "source:ABU3645",
+   "responds": [
+    "source:ABU3645"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that evil thoughts and deeds come out of the heart."
+  },
+  {
+   "id": "peter-resist-stedfast",
+   "after": "source:ABU3645",
+   "responds": [
+    "source:ABU3645"
+   ],
+   "relation": "complement",
+   "why": "Peter pictures the devil as a roaring lion walking about outside us. This answer places Satan within. What changes in how one resists?"
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:AB03451",
+   "responds": [
+    "source:AB03451"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that reason is, and ought only to be, the slave of the passions. If he is right, what in us could govern the self?"
+  },
+  {
+   "id": "mark-gain-the-whole-world",
+   "after": "source:ABU0384",
+   "responds": [
+    "source:ABU0384"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks what it profits a man to gain the whole world and lose his own soul."
+  },
+  {
+   "id": "ecclesiastes-all-was-vanity",
+   "after": "source:ABU2345",
+   "responds": [
+    "source:ABU2345"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher tried greatness, pleasure and wealth in turn, and found them all vanity."
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:AB06098",
+   "responds": [
+    "source:AB06098"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he who rules his spirit is better than he who takes a city."
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "source:AB06098",
+   "responds": [
+    "source:AB06098"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that the one who conquers himself is a greater conqueror than one who defeats a thousand thousand men."
+  },
+  {
+   "id": "hobbes-god-and-wolf",
+   "after": "source:AB04595",
+   "responds": [
+    "source:AB04595"
+   ],
+   "relation": "adjacent",
+   "why": "Hobbes repeated the old saying that man is a wolf to man."
+  },
+  {
+   "id": "quran-as-the-cattle",
+   "after": "source:AB04595",
+   "responds": [
+    "source:AB04595"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of those who have hearts and do not understand that they are as cattle, nay, further astray."
+  },
+  {
+   "id": "quran-viceroy-in-the-earth",
+   "after": "source:ABU0113",
+   "responds": [
+    "source:ABU0113"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an the angels ask why God would place on earth one who will do harm and shed blood."
+  },
+  {
+   "id": "quran-offered-the-trust",
+   "after": "source:ABU2609",
+   "responds": [
+    "source:ABU2609"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that man took up the trust that heaven and earth refused, and has proved unjust and foolish."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:ABU0099",
+   "responds": [
+    "source:ABU0099"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson saw nature red in tooth and claw, shrieking against the creed of love."
+  },
+  {
+   "id": "quran-soul-enjoineth-unto-evil",
+   "after": "source:ABU0440",
+   "responds": [
+    "source:ABU0440"
+   ],
+   "relation": "adjacent",
+   "why": "The phrase \"commanding self\" comes from the Qur’an, where Joseph says that the soul enjoins evil unless God has mercy."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:ABU0440",
+   "responds": [
+    "source:ABU0440"
+   ],
+   "relation": "complement",
+   "why": "Locke supposed the mind at birth to be white paper, written on by experience. This talk says that a child left to nature shows the commanding self. What is a child born with?"
+  },
+  {
+   "id": "huxley-combating-the-cosmic-process",
+   "after": "source:ABU0210",
+   "responds": [
+    "source:ABU0210"
+   ],
+   "relation": "adjacent",
+   "why": "Huxley held that ethics means combating the process that nature runs by."
+  },
+  {
+   "id": "blake-did-he-who-made-the-lamb",
+   "after": "source:AB00183",
+   "responds": [
+    "source:AB00183"
+   ],
+   "relation": "adjacent",
+   "why": "Blake asks of the tiger whether he who made the lamb made it too."
+  },
+  {
+   "id": "quran-man-was-created-weak",
+   "after": "source:ABU1172",
+   "responds": [
+    "source:ABU1172"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God would lighten the burden, for man was created weak."
+  },
+  {
+   "id": "tennyson-working-out-the-beast",
+   "after": "source:AB05415",
+   "responds": [
+    "source:AB05415"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson urges: move upward, working out the beast, and let the ape and tiger die."
+  },
+  {
+   "id": "lincoln-better-angels",
+   "after": "source:AB05415",
+   "responds": [
+    "source:AB05415"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln appealed, on the eve of civil war, to the better angels of our nature."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:AB02361",
+   "responds": [
+    "source:AB02361"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees the wolf dwelling with the lamb, and none hurting or destroying."
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:ABU0586",
+   "responds": [
+    "source:ABU0586"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures the soul's progress as a climb from a cave of shadows into the light."
+  },
+  {
+   "id": "philippians-think-on-these-things",
+   "after": "source:ABU0343",
+   "responds": [
+    "source:ABU0343"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks his readers to think on whatever is true, pure and lovely."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:AB02976",
+   "responds": [
+    "source:AB02976"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: let your light so shine before others that they may see your good works."
+  },
+  {
+   "id": "aristotle-just-by-doing-just-acts",
+   "after": "source:ABU1718",
+   "responds": [
+    "source:ABU1718"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that we become just by doing just acts, which is why it matters what habits are formed in youth."
+  },
+  {
+   "id": "corinthians-keep-under-my-body",
+   "after": "source:ABU1081",
+   "responds": [
+    "source:ABU1081"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that, like an athlete in training, he keeps his body under and brings it into subjection."
+  },
+  {
+   "id": "proverbs-city-broken-down",
+   "after": "source:ABU1081",
+   "responds": [
+    "source:ABU1081"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a man without rule over his own spirit is like a city broken down and without walls."
+  },
+  {
+   "id": "genesis-evil-from-his-youth",
+   "after": "source:ABU2139",
+   "responds": [
+    "source:ABU2139"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God say that the imagination of man's heart is evil from his youth."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:ABU2139",
+   "responds": [
+    "source:ABU2139"
+   ],
+   "relation": "contrast",
+   "why": "Mencius taught the opposite: human nature tends to good as water tends to flow downward. Which account better fits what you have seen?"
+  },
+  {
+   "id": "psalm-clean-heart",
+   "after": "source:ABU2247",
+   "responds": [
+    "source:ABU2247"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm prays: create in me a clean heart, O God, and renew a right spirit within me."
+  },
+  {
+   "id": "john-born-of-water-and-of-the-spirit",
+   "after": "source:ABU1398",
+   "responds": [
+    "source:ABU1398"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that what is born of the flesh is flesh, and what is born of the Spirit is spirit."
+  },
+  {
+   "id": "genesis-sin-lieth-at-the-door",
+   "after": "source:ABU0999",
+   "responds": [
+    "source:ABU0999"
+   ],
+   "relation": "adjacent",
+   "why": "Cain is told that sin lies at the door, and that he may rule over it."
+  },
+  {
+   "id": "shakespeare-our-bodies-are-our-gardens",
+   "after": "source:ABU0999",
+   "responds": [
+    "source:ABU0999"
+   ],
+   "relation": "complement",
+   "why": "Shakespeare gives Iago the doctrine that our bodies are gardens and our wills the gardeners. It is true, and a villain says it. What does the will need besides power?"
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin concluded that man, with all his noble qualities, still bears the stamp of his lowly origin."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "adjacent",
+   "why": "Kant found two things that fill the mind with awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:ABU1926",
+   "responds": [
+    "source:ABU1926"
+   ],
+   "relation": "adjacent",
+   "why": "Mill held that it is better to be a human being dissatisfied than a pig satisfied."
+  },
+  {
+   "id": "timothy-spirit-of-fear",
+   "after": "source:ABU0825",
+   "responds": [
+    "source:ABU0825"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells Timothy that God has not given the spirit of fear, but of power and of love."
+  },
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:AB00336",
+   "responds": [
+    "source:AB00336"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that it is the spirit that gives life, and that the flesh profits nothing."
+  },
+  {
+   "id": "john-life-more-abundantly",
+   "after": "source:AB02144",
+   "responds": [
+    "source:AB02144"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he came so that people might have life, and have it more abundantly."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the first man is of the earth, and the second is from heaven."
+  },
+  {
+   "id": "ephesians-put-on-the-new-man",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of putting off the old man and putting on the new."
+  },
+  {
+   "id": "corinthians-as-in-adam-all-die",
+   "after": "source:ABU0757",
+   "responds": [
+    "source:ABU0757"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse of Paul that the talk quotes: as in Adam all die, so in Christ shall all be made alive."
+  },
+  {
+   "id": "hebrews-tempted-like-as-we-are",
+   "after": "source:ABU1953",
+   "responds": [
+    "source:ABU1953"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says of Christ that he was touched with the feeling of our infirmities."
+  },
+  {
+   "id": "augustine-two-cities-two-loves",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine traced all history to two cities formed by two loves: love of self and love of God."
+  },
+  {
+   "id": "matthew-strait-gate",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of two gates and two ways, one broad and easy and the other narrow."
+  },
+  {
+   "id": "quran-two-highways",
+   "after": "source:ABU1956",
+   "responds": [
+    "source:ABU1956"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that man has been shown the two highways, and asks why he does not attempt the ascent."
+  },
+  {
+   "id": "dostoevsky-battlefield-is-the-heart",
+   "after": "source:ABU3163",
+   "responds": [
+    "source:ABU3163"
+   ],
+   "relation": "adjacent",
+   "why": "Dostoevsky's Dmitri says that God and the devil are fighting, and the battlefield is the heart of man."
+  },
+  {
+   "id": "colossians-things-above",
+   "after": "source:AB04410",
+   "responds": [
+    "source:AB04410"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: set your affection on things above, not on things on the earth."
+  },
+  {
+   "id": "quran-soul-at-peace",
+   "after": "source:AB07352",
+   "responds": [
+    "source:AB07352"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an addresses the soul at peace: return unto thy Lord, content in his good pleasure."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:ABU1999",
+   "responds": [
+    "source:ABU1999"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whoever sows to the flesh reaps corruption, and whoever sows to the Spirit reaps life."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:ABU1624",
+   "responds": [
+    "source:ABU1624"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus names the greatest love as laying down one's life for one's friends."
+  },
+  {
+   "id": "john-meat-which-perisheth",
+   "after": "source:ABU2552",
+   "responds": [
+    "source:ABU2552"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to labour not for the food that perishes but for the food that endures."
+  },
+  {
+   "id": "ephesians-awake-thou-that-sleepest",
+   "after": "source:ABU1812",
+   "responds": [
+    "source:ABU1812"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes an early hymn: awake, thou that sleepest, and arise from the dead."
+  },
+  {
+   "id": "deuteronomy-choose-life",
+   "after": "source:ABU3323",
+   "responds": [
+    "source:ABU3323"
+   ],
+   "relation": "adjacent",
+   "why": "Moses sets life and death, blessing and cursing before his people and says: choose life."
+  },
+  {
+   "id": "dhammapada-self-is-the-lord-of-self",
+   "after": "selection:32b4f52421925060c7765683",
+   "responds": [
+    "selection:32b4f52421925060c7765683"
+   ],
+   "relation": "complement",
+   "why": "The Dhammapada says that self is the lord of self. Which self rules, and which is ruled?"
+  },
+  {
+   "id": "plotinus-withdraw-into-yourself",
+   "after": "selection:4de404d98733ccb930c5069a",
+   "responds": [
+    "selection:4de404d98733ccb930c5069a"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus, who wrote the passage quoted, also advised: withdraw into yourself and look, and work at your statue until it shines."
+  }
+ ],
+ "library": {
+  "genesis-evil-from-his-youth": {
+   "text": "And the Lord smelled a sweet savour; and the Lord said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done",
+   "work": "Genesis 8:21",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%208%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-o-wretched-man": {
+   "text": "For I delight in the law of God after the inward man: But I see another law in my members, warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members. O wretched man that I am! who shall deliver me from the body of this death",
+   "work": "Romans 7:22–24",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%207%3A22-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-servant-of-sin": {
+   "text": "Jesus answered them, Verily, verily, I say unto you, Whosoever committeth sin is the servant of sin",
+   "work": "John 8:34",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%208%3A34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-keep-under-my-body": {
+   "text": "And every man that striveth for the mastery is temperate in all things. Now they do it to obtain a corruptible crown; but we an incorruptible. I therefore so run, not as uncertainly; so fight I, not as one that beateth the air: But I keep under my body, and bring it into subjection: lest that by any means, when I have preached to others, I myself should be a castaway",
+   "work": "1 Corinthians 9:25–27",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%209%3A25-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-as-in-adam-all-die": {
+   "text": "For since by man came death, by man came also the resurrection of the dead. For as in Adam all die, even so in Christ shall all be made alive",
+   "work": "1 Corinthians 15:21–22",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2015%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-put-on-the-new-man": {
+   "text": "That ye put off concerning the former conversation the old man, which is corrupt according to the deceitful lusts; And be renewed in the spirit of your mind; And that ye put on the new man, which after God is created in righteousness and true holiness",
+   "work": "Ephesians 4:22–24",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%204%3A22-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-drawn-away-of-his-own-lust": {
+   "text": "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man: But every man is tempted, when he is drawn away of his own lust, and enticed. Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death",
+   "work": "James 1:13–15",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%201%3A13-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-out-of-the-heart": {
+   "text": "For out of the heart proceed evil thoughts, murders, adulteries, fornications, thefts, false witness, blasphemies: These are the things which defile a man: but to eat with unwashen hands defileth not a man",
+   "work": "Matthew 15:19–20",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A19-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-sin-lieth-at-the-door": {
+   "text": "And the Lord said unto Cain, Why art thou wroth? and why is thy countenance fallen? If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him",
+   "work": "Genesis 4:6–7",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%204%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-partakers-of-the-divine-nature": {
+   "text": "According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue: Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust",
+   "work": "2 Peter 1:3–4",
+   "year": "c. 80–130 CE",
+   "sortYear": 110,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Peter%201%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-city-broken-down": {
+   "text": "He that hath no rule over his own spirit is like a city that is broken down, and without walls",
+   "work": "Proverbs 25:28",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2025%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-soul-enjoineth-unto-evil": {
+   "text": "I do not exculpate myself. Lo! the (human) soul enjoineth unto evil, save that whereon my Lord hath mercy. Lo! my Lord is Forgiving, Merciful.",
+   "work": "Qur’an 12:53",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=12&verse=53",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-two-highways": {
+   "text": "And guide him to the parting of the mountain ways?",
+   "work": "Qur’an 90:10",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=90&verse=10",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-man-was-created-weak": {
+   "text": "Allah would make the burden light for you, for man was created weak.",
+   "work": "Qur’an 4:28",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=28",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "dhammapada-self-is-the-lord-of-self": {
+   "text": "Self is the lord of self, who else could be the lord? With self well subdued, a man finds a lord such as few can find",
+   "work": "Dhammapada",
+   "locator": "verse 160",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "shakespeare-bare-forked-animal": {
+   "text": "Thou art the thing itself: / unaccommodated man is no more but such a poor bare, / forked animal as thou art",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "King Lear",
+   "locator": "Act III, scene 4",
+   "year": "c. 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/lear/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-our-bodies-are-our-gardens": {
+   "text": "'tis in ourselves that we are thus or thus. Our bodies are our gardens, to the which our wills are gardeners",
+   "author": "William Shakespeare",
+   "work": "Othello",
+   "locator": "Act I, scene 3",
+   "year": "c. 1603",
+   "sortYear": 1603,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/othello/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "aristotle-best-and-worst-of-animals": {
+   "text": "For man, when perfected, is the best of animals, but, when separated from law and justice, he is the worst of all",
+   "author": "Aristotle",
+   "work": "Politics",
+   "locator": "Book I, chapter 2",
+   "year": "c. 330 BCE",
+   "sortYear": -330,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1885",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/politics.1.one.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "plato-charioteer-and-two-horses": {
+   "text": "the human charioteer drives his in a pair; and one of them is noble and of noble breed, and the other is ignoble and of ignoble breed; and the driving of them of necessity gives a great deal of trouble to him",
+   "author": "Plato",
+   "work": "Phaedrus",
+   "locator": "246b",
+   "year": "c. 370 BCE",
+   "sortYear": -370,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/phaedrus.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "augustine-two-cities-two-loves": {
+   "text": "two cities have been formed by two loves: the earthly by the love of self, even to the contempt of God; the heavenly by the love of God, even to the contempt of self",
+   "author": "Augustine of Hippo",
+   "work": "The City of God",
+   "locator": "Book XIV, chapter 28",
+   "year": "c. 413–426",
+   "sortYear": 420,
+   "translator": "Marcus Dods",
+   "translationYear": "1871",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/120114.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1909."
+   }
+  },
+  "stevenson-not-truly-one-but-truly-two": {
+   "text": "man is not truly one, but truly two",
+   "author": "Robert Louis Stevenson",
+   "work": "Strange Case of Dr Jekyll and Mr Hyde",
+   "locator": "Henry Jekyll’s Full Statement of the Case",
+   "year": "1886",
+   "sortYear": 1886,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Annotated_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde/Henry_Jekyll%27s_Full_Statement_of_the_Case",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1894."
+   }
+  },
+  "goethe-two-souls": {
+   "text": "Two souls, alas! reside within my breast, / And each withdraws from, and repels, its brother",
+   "verse": true,
+   "author": "Johann Wolfgang von Goethe",
+   "work": "Faust, Part One",
+   "locator": "Before the City-Gate",
+   "year": "1808",
+   "sortYear": 1808,
+   "translator": "Bayard Taylor",
+   "translationYear": "1870",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Faust_(trans._Bayard_Taylor)/II_before_the-city_gate",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1832; translator d. 1878."
+   }
+  },
+  "katha-self-in-the-chariot": {
+   "text": "Know the Self to be sitting in the chariot, the body to be the chariot, the intellect (buddhi) the charioteer, and the mind the reins",
+   "work": "Kaṭha Upanishad",
+   "locator": "1.3.3",
+   "year": "c. 5th century BCE",
+   "sortYear": -450,
+   "translator": "F. Max Müller",
+   "translationYear": "1884",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://archive.org/stream/in.ernet.dli.2015.22552/2015.22552.The-Upanishads--Part-2_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "dostoevsky-battlefield-is-the-heart": {
+   "text": "God and the devil are fighting there and the battlefield is the heart of man",
+   "author": "Fyodor Dostoevsky",
+   "work": "The Brothers Karamazov",
+   "locator": "Book III, chapter 3",
+   "year": "1880",
+   "sortYear": 1880,
+   "translator": "Constance Garnett",
+   "translationYear": "1912",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Brothers_Karamazov/Book_III/Chapter_3",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1946."
+   }
+  }
+ }
+}
