@@ -1,0 +1,983 @@
+{
+ "format": 2,
+ "slug": "selfdiscipline",
+ "subject": "3B33E14F5074E73B319D8CE6A17DDFAC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 73,
+ "quotations": 73,
+ "kept": [
+  "source:ABU1504",
+  "source:AB04649",
+  "source:AB03471",
+  "source:ABU1710",
+  "source:AB05294",
+  "source:ABU3538",
+  "source:ABU3059",
+  "source:ABU1898",
+  "source:ABU0361",
+  "source:AB00004",
+  "source:ABU3555",
+  "source:ABU2560",
+  "source:ABU1210",
+  "source:ABU0400",
+  "source:AB01294",
+  "source:ABU2029",
+  "source:ABU3493",
+  "source:BH06866",
+  "source:BH01740",
+  "source:ABU1778",
+  "source:ABU2042",
+  "source:ABU2212",
+  "source:ABU2938",
+  "source:AB04587",
+  "source:ABU3232",
+  "source:BH08971",
+  "source:BH06458",
+  "source:BH09399",
+  "source:ABU3529",
+  "source:AB09245",
+  "source:AB09997",
+  "source:AB04502",
+  "source:AB06368",
+  "source:ABU2046",
+  "source:ABU0528",
+  "source:AB02797",
+  "source:ABU2286",
+  "source:ABU3358",
+  "source:ABU1996",
+  "source:ABU3164",
+  "source:ABU3517",
+  "source:ABU1397",
+  "source:ABU1428",
+  "source:BH00578",
+  "source:AB03724",
+  "source:AB06730",
+  "source:ABU3499",
+  "source:ABU3457",
+  "source:AB09054",
+  "source:ABU2961",
+  "source:AB07241",
+  "source:BH08732",
+  "source:ABU1794",
+  "source:ABU0510",
+  "source:ABU0042",
+  "source:ABU3209",
+  "source:AB08189",
+  "source:ABU2553",
+  "source:AB10539",
+  "source:AB10959",
+  "source:AB04168",
+  "source:AB06278",
+  "source:AB00287",
+  "source:AB06968",
+  "source:AB07368",
+  "source:AB08747",
+  "source:AB09421",
+  "source:ABU1108",
+  "source:BH05334",
+  "source:BH06240",
+  "source:BH07503",
+  "source:BH09100",
+  "source:BH10084"
+ ],
+ "introduction": "How does a person become better? The readings begin by refusing to stop anywhere: divine qualities are unlimited, today should be better than yesterday, and no level is the last. They then give an order of work, oneself first and others afterwards; a test of progress, which is dissatisfaction with oneself; and a definition of strength as government of one’s own spirit. They also warn against brooding over failings, and recommend joy, simplicity and service. The same counsel is found in Proverbs, the Dhammapada, Confucius, Aristotle, the Stoics and Paul. Other voices complicate it. Kant doubts that anything straight can be made from human material, Paul confesses that resolve is not enough, Franklin shows what a ledger of one’s faults looks like, Emerson trusts the self that the readings distrust, and Milton has no praise for a virtue cultivated out of the world’s way.",
+ "questions": [
+  "The readings say that to be dissatisfied with oneself is a sign of progress, and also that we should not be occupied with our failings. How do you keep both?",
+  "Several readings put one’s own reformation before the reformation of others, and Hillel asks what I am if I am only for myself. When is a person ready to help someone else?",
+  "Paul wrote that the good he would he did not do. What do the readings offer someone whose determination has already failed more than once?",
+  "Proverbs, the Dhammapada and the rabbis all rank mastery of oneself above conquest. What does that mastery look like in an ordinary day?",
+  "Franklin kept a daily chart of his faults; one reading turns attention to the Will of God instead. What is each method good for?",
+  "Mencius’s farmer killed his corn by pulling at it. Where in your own effort to improve might patience do more than zeal?"
+ ],
+ "outside": [
+  {
+   "id": "peter-add-to-your-faith",
+   "after": "source:ABU1504",
+   "responds": [
+    "source:ABU1504"
+   ],
+   "relation": "adjacent",
+   "why": "The second letter of Peter asks for one quality to be added to another: to faith virtue, to virtue knowledge, and on to charity."
+  },
+  {
+   "id": "psalm-delight-in-the-law",
+   "after": "source:AB04649",
+   "responds": [
+    "source:AB04649"
+   ],
+   "relation": "adjacent",
+   "why": "The first psalm pictures the godly as a tree planted by rivers of water that brings forth its fruit in season."
+  },
+  {
+   "id": "lovelace-stone-walls",
+   "after": "source:AB03471",
+   "responds": [
+    "source:AB03471"
+   ],
+   "relation": "adjacent",
+   "why": "Richard Lovelace wrote from prison that stone walls do not a prison make for a quiet and innocent mind."
+  },
+  {
+   "id": "shakespeare-to-thine-own-self",
+   "after": "source:ABU1710",
+   "responds": [
+    "source:ABU1710"
+   ],
+   "relation": "complement",
+   "why": "Polonius advises his son: to thine own self be true. Which self is meant in that advice, and which in this reading's true love of self?"
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:AB05294",
+   "responds": [
+    "source:AB05294"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a merry heart does good like a medicine, and a broken spirit dries the bones."
+  },
+  {
+   "id": "augustine-give-what-you-command",
+   "after": "source:ABU3538",
+   "responds": [
+    "source:ABU3538"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine prayed out of the same shift of attention: give what You command, and command what You will."
+  },
+  {
+   "id": "franklin-moral-perfection",
+   "after": "source:ABU3538",
+   "responds": [
+    "source:ABU3538"
+   ],
+   "relation": "contrast",
+   "why": "Benjamin Franklin conceived the project of arriving at moral perfection by keeping a daily account of his faults. What does this reading fear in such close attention to one's own failings?"
+  },
+  {
+   "id": "seneca-fire-tries-gold",
+   "after": "source:ABU3059",
+   "responds": [
+    "source:ABU3059"
+   ],
+   "relation": "adjacent",
+   "why": "Seneca said it in five words: fire tries gold, misfortune tries brave men."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:ABU0361",
+   "responds": [
+    "source:ABU0361"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates told his judges that the greatest good is daily to examine oneself, and that the unexamined life is not worth living."
+  },
+  {
+   "id": "hadith-actions-by-intentions",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "A saying of Muhammad makes intention the measure: deeds are rewarded according to what was intended."
+  },
+  {
+   "id": "matthew-be-ye-perfect",
+   "after": "source:ABU3555",
+   "responds": [
+    "source:ABU3555"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus set the mark as high as this reading does: be ye therefore perfect."
+  },
+  {
+   "id": "kant-crooked-material",
+   "after": "source:ABU3555",
+   "responds": [
+    "source:ABU3555"
+   ],
+   "relation": "contrast",
+   "why": "Kant observed that out of such crooked material as man is made of nothing can be hammered quite straight. Is the pursuit of all perfections a realistic programme or a necessary direction?"
+  },
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:ABU2560",
+   "responds": [
+    "source:ABU2560"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he does not count himself to have attained, but presses toward the mark."
+  },
+  {
+   "id": "analects-examine-myself",
+   "after": "source:ABU1210",
+   "responds": [
+    "source:ABU1210"
+   ],
+   "relation": "adjacent",
+   "why": "A disciple of Confucius examined himself daily on three points, the first being whether he had been faithful."
+  },
+  {
+   "id": "avot-if-not-now",
+   "after": "source:ABU0400",
+   "responds": [
+    "source:ABU0400"
+   ],
+   "relation": "complement",
+   "why": "Hillel asked: if I am not for myself, who is for me? And if I am only for myself, what am I? How long may a person attend to his own education before turning to others?"
+  },
+  {
+   "id": "matthew-mote-and-beam",
+   "after": "source:AB01294",
+   "responds": [
+    "source:AB01294"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told the one who would take a speck from his brother's eye to remove first the beam from his own."
+  },
+  {
+   "id": "luke-physician-heal-thyself",
+   "after": "source:ABU2029",
+   "responds": [
+    "source:ABU2029"
+   ],
+   "relation": "adjacent",
+   "why": "The proverb that Jesus expects to hear from his own townsmen is short: Physician, heal thyself."
+  },
+  {
+   "id": "romans-teachest-thou-not-thyself",
+   "after": "source:ABU3493",
+   "responds": [
+    "source:ABU3493"
+   ],
+   "relation": "adjacent",
+   "why": "Paul puts the question to every teacher of religion: thou that teachest another, teachest thou not thyself?"
+  },
+  {
+   "id": "dhammapada-direct-himself-first",
+   "after": "source:BH06866",
+   "responds": [
+    "source:BH06866"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada gives the same order: let each first direct himself to what is proper, then let him teach others."
+  },
+  {
+   "id": "john-epistle-no-sin",
+   "after": "source:BH06866",
+   "responds": [
+    "source:BH06866"
+   ],
+   "relation": "complement",
+   "why": "The first letter of John says that if we claim to have no sin we deceive ourselves. If no one finishes refining his own soul, when does the reformation of others begin?"
+  },
+  {
+   "id": "dhammapada-own-faults",
+   "after": "source:BH01740",
+   "responds": [
+    "source:BH01740"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada tells its reader to look to his own misdeeds and negligences, and not to the faults of others."
+  },
+  {
+   "id": "luke-pharisee-and-publican",
+   "after": "source:ABU1778",
+   "responds": [
+    "source:ABU1778"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the Pharisee thanks God that he is not as other men, and the tax-collector goes home justified."
+  },
+  {
+   "id": "pascal-neither-angel-nor-brute",
+   "after": "source:ABU1778",
+   "responds": [
+    "source:ABU1778"
+   ],
+   "relation": "contrast",
+   "why": "Pascal warned that whoever tries to act the angel ends by acting the brute. Can dissatisfaction with oneself become its own kind of pride, or of harm?"
+  },
+  {
+   "id": "revelation-lukewarm",
+   "after": "source:ABU2042",
+   "responds": [
+    "source:ABU2042"
+   ],
+   "relation": "adjacent",
+   "why": "The church at Laodicea said that it was rich and had need of nothing, and was told that it was wretched and poor."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:ABU2042",
+   "responds": [
+    "source:ABU2042"
+   ],
+   "relation": "contrast",
+   "why": "Emerson's counsel is trust thyself, and he distrusted the conscience that is always accusing. Is there a contentment with oneself that is not the satisfaction this reading condemns?"
+  },
+  {
+   "id": "psalm-search-me-o-god",
+   "after": "source:ABU2212",
+   "responds": [
+    "source:ABU2212"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks to be searched: try me, and know my thoughts, and see if there be any wicked way in me."
+  },
+  {
+   "id": "proverbs-let-another-praise-thee",
+   "after": "source:ABU2938",
+   "responds": [
+    "source:ABU2938"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: let another man praise thee, and not thine own mouth."
+  },
+  {
+   "id": "corinthians-by-the-grace-of-god",
+   "after": "source:AB04587",
+   "responds": [
+    "source:AB04587"
+   ],
+   "relation": "adjacent",
+   "why": "Paul called himself the least of the apostles, not fit to be called one."
+  },
+  {
+   "id": "matthew-light-of-the-body",
+   "after": "source:ABU3232",
+   "responds": [
+    "source:ABU3232"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that if the eye is single the whole body is full of light."
+  },
+  {
+   "id": "proverbs-dross-from-the-silver",
+   "after": "source:BH08971",
+   "responds": [
+    "source:BH08971"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that when the dross is taken from the silver a vessel comes forth for the refiner."
+  },
+  {
+   "id": "shakespeare-our-bodies-are-our-gardens",
+   "after": "source:BH06458",
+   "responds": [
+    "source:BH06458"
+   ],
+   "relation": "complement",
+   "why": "Shakespeare gives the gardening picture to Iago: our bodies are gardens to which our wills are gardeners. What is missing from his account that this reading supplies?"
+  },
+  {
+   "id": "psalm-renew-a-right-spirit",
+   "after": "source:BH09399",
+   "responds": [
+    "source:BH09399"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays: create in me a clean heart, O God, and renew a right spirit within me."
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:ABU3529",
+   "responds": [
+    "source:ABU3529"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs ranks self-government above conquest: he that rules his spirit is better than he that takes a city."
+  },
+  {
+   "id": "avot-who-is-rich",
+   "after": "source:AB09245",
+   "responds": [
+    "source:AB09245"
+   ],
+   "relation": "adjacent",
+   "why": "The sages asked who is mighty, and answered: he who subdues his own inclination."
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "source:AB09997",
+   "responds": [
+    "source:AB09997"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that the one who conquers himself is a greater victor than the one who conquers a thousand times a thousand in battle."
+  },
+  {
+   "id": "proverbs-city-broken-down",
+   "after": "source:AB04502",
+   "responds": [
+    "source:AB04502"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs likens a man with no rule over his own spirit to a city broken down and without walls."
+  },
+  {
+   "id": "ephesians-sun-go-down",
+   "after": "source:AB06368",
+   "responds": [
+    "source:AB06368"
+   ],
+   "relation": "complement",
+   "why": "The letter to the Ephesians allows for anger and limits it: be angry and sin not; let not the sun go down upon your wrath. What is the difference between ruling anger and no longer feeling it?"
+  },
+  {
+   "id": "aristotle-just-by-doing-just-acts",
+   "after": "source:ABU2046",
+   "responds": [
+    "source:ABU2046"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that we become just by doing just acts and temperate by doing temperate ones, so that early habits make all the difference."
+  },
+  {
+   "id": "marcus-be-such",
+   "after": "source:ABU0528",
+   "responds": [
+    "source:ABU0528"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius told himself to stop discussing what a good man should be, and to be one."
+  },
+  {
+   "id": "proverbs-go-to-the-ant",
+   "after": "source:AB02797",
+   "responds": [
+    "source:AB02797"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs sends the sluggard to the ant to consider her ways and be wise."
+  },
+  {
+   "id": "luke-faithful-in-least",
+   "after": "source:ABU2286",
+   "responds": [
+    "source:ABU2286"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that whoever is faithful in what is least is faithful also in much."
+  },
+  {
+   "id": "romans-good-that-i-would",
+   "after": "source:ABU3358",
+   "responds": [
+    "source:ABU3358"
+   ],
+   "relation": "contrast",
+   "why": "Paul confessed: the good that I would I do not, but the evil which I would not, that I do. Is breaking a habit only a matter of character and determination?"
+  },
+  {
+   "id": "proverbs-eat-so-much-as-is-sufficient",
+   "after": "source:ABU1996",
+   "responds": [
+    "source:ABU1996"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs advises: hast thou found honey? Eat so much as is sufficient for thee."
+  },
+  {
+   "id": "corinthians-keep-under-my-body",
+   "after": "source:ABU3164",
+   "responds": [
+    "source:ABU3164"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he keeps his body under and brings it into subjection, as an athlete trains."
+  },
+  {
+   "id": "corinthians-temperate-in-all-things",
+   "after": "source:ABU3517",
+   "responds": [
+    "source:ABU3517"
+   ],
+   "relation": "adjacent",
+   "why": "Paul notes that everyone who strives for the mastery in the games is temperate in all things."
+  },
+  {
+   "id": "thoreau-live-deliberately",
+   "after": "source:ABU1397",
+   "responds": [
+    "source:ABU1397"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau went to the woods to live deliberately and to drive life into a corner and reduce it to its lowest terms."
+  },
+  {
+   "id": "matthew-not-as-i-will",
+   "after": "source:ABU1428",
+   "responds": [
+    "source:ABU1428"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer in Gethsemane sets the pattern: not as I will, but as Thou wilt."
+  },
+  {
+   "id": "milton-cloistered-virtue",
+   "after": "source:AB03724",
+   "responds": [
+    "source:AB03724"
+   ],
+   "relation": "contrast",
+   "why": "Milton could not praise a fugitive and cloistered virtue that never sallies out to meet its adversary. When is withdrawal to cultivate character right, and when is it an evasion?"
+  },
+  {
+   "id": "mencius-heaven-great-office",
+   "after": "source:ABU3499",
+   "responds": [
+    "source:ABU3499"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius held that when Heaven is about to give a great office to someone it first exercises his mind with suffering and his body with toil."
+  },
+  {
+   "id": "carlyle-conviction-into-conduct",
+   "after": "source:ABU3457",
+   "responds": [
+    "source:ABU3457"
+   ],
+   "relation": "complement",
+   "why": "Carlyle wrote that conviction, however excellent, is worthless till it converts itself into conduct. How do good intentions become a means of development and not a substitute for it?"
+  },
+  {
+   "id": "gita-raise-the-self",
+   "after": "source:AB09054",
+   "responds": [
+    "source:AB09054"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna tells Arjuna: let each man raise the self by the soul, and not trample down his self."
+  },
+  {
+   "id": "kipling-if",
+   "after": "source:ABU2961",
+   "responds": [
+    "source:ABU2961"
+   ],
+   "relation": "adjacent",
+   "why": "Kipling's list of the marks of maturity begins with meeting triumph and disaster and treating those two impostors just the same."
+  },
+  {
+   "id": "timothy-exercise-thyself",
+   "after": "source:AB07241",
+   "responds": [
+    "source:AB07241"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy says: exercise thyself unto godliness, which profits for this life and the next."
+  },
+  {
+   "id": "galatians-be-not-weary",
+   "after": "source:BH08732",
+   "responds": [
+    "source:BH08732"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: let us not be weary in well doing, for in due season we shall reap."
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:ABU1794",
+   "responds": [
+    "source:ABU1794"
+   ],
+   "relation": "adjacent",
+   "why": "George Herbert asked to be taught to do everything as for God, so that even sweeping a room is made fine."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:ABU0510",
+   "responds": [
+    "source:ABU0510"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his followers to let their light shine before others, so that their good works are seen."
+  },
+  {
+   "id": "hebrews-moses-chose-affliction",
+   "after": "source:ABU0042",
+   "responds": [
+    "source:ABU0042"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews says that Moses chose to suffer affliction with his people when he could have had the pleasures of a court."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:ABU3209",
+   "responds": [
+    "source:ABU3209"
+   ],
+   "relation": "adjacent",
+   "why": "Micah puts humility among the three requirements: to do justly, to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "quran-restrained-his-soul-from-lust",
+   "after": "source:AB08189",
+   "responds": [
+    "source:AB08189"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an promises the Garden to the one who feared to stand before his Lord and restrained his soul from lust."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:ABU2553",
+   "responds": [
+    "source:ABU2553"
+   ],
+   "relation": "adjacent",
+   "why": "James asks his readers to be doers of the word and not hearers only."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB10539",
+   "responds": [
+    "source:AB10539"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus called the pure in heart blessed, for they shall see God."
+  },
+  {
+   "id": "timothy-be-thou-an-example",
+   "after": "source:AB04168",
+   "responds": [
+    "source:AB04168"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy tells a young man to let no one despise his youth, and to be an example in conduct and purity."
+  },
+  {
+   "id": "analects-led-by-laws",
+   "after": "source:AB00287",
+   "responds": [
+    "source:AB00287"
+   ],
+   "relation": "complement",
+   "why": "Confucius held that people led by laws only avoid punishment, while those led by virtue acquire a sense of shame and become good. What does religious belief add to a philosopher's account of how character is formed?"
+  },
+  {
+   "id": "hebrews-run-with-patience",
+   "after": "source:AB06968",
+   "responds": [
+    "source:AB06968"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews asks its readers to lay aside every weight and run with patience the race set before them."
+  },
+  {
+   "id": "proverbs-shining-light",
+   "after": "source:AB07368",
+   "responds": [
+    "source:AB07368"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the path of the just is as the shining light, that shines more and more to the perfect day."
+  },
+  {
+   "id": "psalm-eyes-have-they",
+   "after": "source:AB08747",
+   "responds": [
+    "source:AB08747"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm describes idols that have mouths and speak not, eyes and see not, and says their makers become like them."
+  },
+  {
+   "id": "marcus-look-within",
+   "after": "source:AB09421",
+   "responds": [
+    "source:AB09421"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says: look within; within is the fountain of good, and it will ever bubble up if thou wilt ever dig."
+  },
+  {
+   "id": "quran-strive-in-us",
+   "after": "source:ABU1108",
+   "responds": [
+    "source:ABU1108"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an promises that those who strive in God's way will be guided to His paths."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:BH05334",
+   "responds": [
+    "source:BH05334"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that people are known by their fruits, as a tree is."
+  },
+  {
+   "id": "quran-he-is-successful-who-groweth",
+   "after": "source:BH06240",
+   "responds": [
+    "source:BH06240"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of the soul that he is indeed successful who causes it to grow."
+  },
+  {
+   "id": "epictetus-as-they-happen",
+   "after": "source:BH07503",
+   "responds": [
+    "source:BH07503"
+   ],
+   "relation": "adjacent",
+   "why": "Epictetus taught contentment in one rule: do not demand that things happen as you wish, but wish them to happen as they do."
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "source:BH09100",
+   "responds": [
+    "source:BH09100"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: take my yoke upon you and learn of me, for I am meek and lowly in heart."
+  },
+  {
+   "id": "mencius-man-of-song",
+   "after": "source:BH10084",
+   "responds": [
+    "source:BH10084"
+   ],
+   "relation": "complement",
+   "why": "Mencius tells of a farmer so eager for his corn to grow that he pulled at the shoots and killed them. What does zeal for virtue need beside it?"
+  }
+ ],
+ "library": {
+  "proverbs-go-to-the-ant": {
+   "text": "Go to the ant, thou sluggard; consider her ways, and be wise: Which having no guide, overseer, or ruler, Provideth her meat in the summer, and gathereth her food in the harvest. How long wilt thou sleep, O sluggard? when wilt thou arise out of thy sleep",
+   "work": "Proverbs 6:6–9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%206%3A6-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-temperate-in-all-things": {
+   "text": "And every man that striveth for the mastery is temperate in all things. Now they do it to obtain a corruptible crown; but we an incorruptible",
+   "work": "1 Corinthians 9:25",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%209%3A25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-be-not-weary": {
+   "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not",
+   "work": "Galatians 6:9",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%206%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-exercise-thyself": {
+   "text": "But refuse profane and old wives' fables, and exercise thyself rather unto godliness. For bodily exercise profiteth little: but godliness is profitable unto all things, having promise of the life that now is, and of that which is to come",
+   "work": "1 Timothy 4:7–8",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%204%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-search-me-o-god": {
+   "text": "Search me, O God, and know my heart: try me, and know my thoughts: And see if there be any wicked way in me, and lead me in the way everlasting",
+   "work": "Psalm 139:23–24",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20139%3A23-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-eat-so-much-as-is-sufficient": {
+   "text": "Hast thou found honey? eat so much as is sufficient for thee, lest thou be filled therewith, and vomit it",
+   "work": "Proverbs 25:16",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2025%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-he-is-successful-who-groweth": {
+   "text": "He is indeed successful who causeth it to grow,",
+   "work": "Qur’an 91:9",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=91&verse=9",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-strive-in-us": {
+   "text": "As for those who strive in Us, We surely guide them to Our paths, and lo! Allah is with the good.",
+   "work": "Qur’an 29:69",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=29&verse=69",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-restrained-his-soul-from-lust": {
+   "text": "But as for him who feared to stand before his Lord and restrained his soul from lust,",
+   "work": "Qur’an 79:40",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=79&verse=40",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "gita-raise-the-self": {
+   "text": "Let each man raise The Self by Soul, not trample down his Self",
+   "work": "Bhagavad Gita",
+   "locator": "Chapter 6",
+   "year": "c. 2nd century BCE",
+   "sortYear": -150,
+   "translator": "Edwin Arnold",
+   "translationYear": "1885",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Arnold_translation)/Chapter_6",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1904."
+   }
+  }
+ }
+}
