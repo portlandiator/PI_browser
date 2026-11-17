@@ -1,0 +1,977 @@
+{
+ "format": 2,
+ "slug": "sciencefuture",
+ "subject": "BB8A8971F2EF480B9179519B95690878",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 67,
+ "quotations": 70,
+ "kept": [
+  "source:ABU0300",
+  "source:AB02372",
+  "source:ABU2879",
+  "source:ABU0210",
+  "source:ABU3287",
+  "source:ABU0125",
+  "source:ABU0051",
+  "source:BH00238",
+  "source:BH00007",
+  "source:BH00545",
+  "source:AB00023",
+  "source:BH00111",
+  "source:ABU1809",
+  "source:ABU2847",
+  "source:BH00722",
+  "source:ABU3758",
+  "source:ABU2615",
+  "source:ABU0518",
+  "source:ABU2998",
+  "source:ABU0121",
+  "source:ABU0192",
+  "source:ABU0838",
+  "source:ABU3667",
+  "source:ABU0385",
+  "source:AB00357",
+  "source:ABU2497",
+  "source:AB00279",
+  "source:AB02184",
+  "source:ABU2265",
+  "source:ABU1060",
+  "source:AB01723",
+  "source:AB00081",
+  "source:AB00921",
+  "source:ABU0161",
+  "source:AB00035",
+  "source:ABU0873",
+  "source:AB00091",
+  "source:AB00276",
+  "source:AB03186",
+  "source:AB11731",
+  "source:ABU0379",
+  "source:ABU2329",
+  "source:ABU0466",
+  "source:ABU0145",
+  "source:ABU0264",
+  "source:ABU0071",
+  "source:ABU0119",
+  "source:AB06401",
+  "source:AB02117",
+  "source:AB00948",
+  "source:ABU0188",
+  "source:ABU3503",
+  "source:ABU0373",
+  "source:BHU0013",
+  "source:BHU0014",
+  "source:AB00162",
+  "source:AB00646",
+  "source:ABU3261",
+  "source:AB03799",
+  "source:ABU2399",
+  "source:BBU0001",
+  "selection:2e7eca71c1fa4cfd9ec966b3",
+  "selection:ee2ebf9cc9890cefbaee3071",
+  "selection:7d070708c27b14a352063484",
+  "selection:ae4489b0e2f84a24b5a54b4a",
+  "selection:2c72d9ef8ce7b5d6a2f58b31",
+  "selection:b15db2eed95a6d1f2040d4d6"
+ ],
+ "introduction": "The readings in this guide look forward. They say that the discoveries of each age overturn those of the last, that in this age the sciences and arts have widened beyond anything before and will widen further, into flight, travel between planets, new forces in the earth and a medicine that heals with foods. They trace this to the appearance of a new Revelation, and they warn that the same inventions have served war and will serve it again unless material progress is joined to moral. Many had the same hopes and fears: Daniel’s increase of knowledge, Bacon’s method, Tennyson’s airy navies and parliament of man, Mary Shelley’s scientist. The quotations set against the readings doubt progress or its fruits. The Preacher sees nothing new, Mill and Thoreau ask whether machines have lightened anyone’s day, Arnold distrusts faith in machinery, and Aristotle traces science to wonder where the readings trace it to the Prophets.",
+ "questions": [
+  "The readings expected great discoveries and also warned that inventions would be turned to destruction. Which of their forecasts has the last century borne out?",
+  "One reading says labour-saving machines were given to create leisure for all, and Mill doubted they had lightened anyone’s toil. What has stood between the machine and the leisure?",
+  "Tennyson asked that knowledge grow, but more of reverence in us dwell. What would reverence look like in a laboratory or a company?",
+  "The readings trace the growth of science to each new Revelation; Aristotle traced it to wonder. How might both be true?",
+  "Some readings speak of forces hidden in the earth that could change or destroy it. What does a community owe to knowledge it is not yet fit to use?",
+  "Shelley said poetry cannot be willed. What can a community do to prepare for an art that expresses its spirit?"
+ ],
+ "outside": [
+  {
+   "id": "xenophanes-by-seeking",
+   "after": "source:ABU0300",
+   "responds": [
+    "source:ABU0300"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that the gods did not reveal all things from the beginning, but that by seeking people find in time what is better."
+  },
+  {
+   "id": "corinthians-we-know-in-part",
+   "after": "source:ABU0300",
+   "responds": [
+    "source:ABU0300"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we know in part, and that when the perfect comes the partial will be done away."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:AB02372",
+   "responds": [
+    "source:AB02372"
+   ],
+   "relation": "adjacent",
+   "why": "Keats likened the opening of a new world of knowledge to an astronomer's feeling when a new planet swims into his ken."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:AB02372",
+   "responds": [
+    "source:AB02372"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher denied that anything is new: is there any thing whereof it may be said, See, this is new? What would he say to a century in which schoolchildren know more mathematics than Aristotle?"
+  },
+  {
+   "id": "bacon-depth-in-philosophy",
+   "after": "source:ABU2879",
+   "responds": [
+    "source:ABU2879"
+   ],
+   "relation": "adjacent",
+   "why": "Francis Bacon wrote that a little philosophy inclines the mind to atheism, but depth in philosophy brings it about to religion."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:ABU0210",
+   "responds": [
+    "source:ABU0210"
+   ],
+   "relation": "adjacent",
+   "why": "Mary Shelley's scientist warns: learn from me how dangerous is the acquirement of knowledge."
+  },
+  {
+   "id": "eisenhower-every-gun",
+   "after": "source:ABU0210",
+   "responds": [
+    "source:ABU0210"
+   ],
+   "relation": "adjacent",
+   "why": "President Eisenhower said that every gun made and every warship launched is a theft from those who hunger and are not fed."
+  },
+  {
+   "id": "tennyson-airy-navies",
+   "after": "source:ABU3287",
+   "responds": [
+    "source:ABU3287"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson, seventy years before, saw the nations' airy navies grappling in the central blue."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0125",
+   "responds": [
+    "source:ABU0125"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's hope was not that war would become too costly but that nations would learn it no more."
+  },
+  {
+   "id": "james-war-is-the-strong-life",
+   "after": "source:ABU0125",
+   "responds": [
+    "source:ABU0125"
+   ],
+   "relation": "contrast",
+   "why": "William James observed that showing the horror and irrationality of war has no effect, since the horrors make the fascination. Has the cost of modern weapons ended war, as this reading expected?"
+  },
+  {
+   "id": "tennyson-knowledge-and-reverence",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson asked that knowledge grow from more to more, but more of reverence in us dwell."
+  },
+  {
+   "id": "proverbs-knowledge-of-witty-inventions",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Wisdom says in Proverbs that she dwells with prudence and finds out knowledge of witty inventions."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that the craftsman of the tabernacle was filled with the spirit of God in wisdom and in all manner of workmanship."
+  },
+  {
+   "id": "genesis-tubal-cain",
+   "after": "source:BH00545",
+   "responds": [
+    "source:BH00545"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis names the first instructor of every artificer in brass and iron."
+  },
+  {
+   "id": "quran-teacheth-man-that-which-he-knew-not",
+   "after": "source:BH00545",
+   "responds": [
+    "source:BH00545"
+   ],
+   "relation": "adjacent",
+   "why": "The first revelation of the Qur’an describes God as the one who teaches man what he knew not."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:BH00545",
+   "responds": [
+    "source:BH00545"
+   ],
+   "relation": "complement",
+   "why": "Bacon held that nature to be commanded must be obeyed, and that discovery comes by patient method. How do inspiration and method work together when an art or a science appears?"
+  },
+  {
+   "id": "job-vein-for-the-silver",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Job describes the miner who cuts out channels among the rocks and brings hidden things to light."
+  },
+  {
+   "id": "genesis-tower-of-babel",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "complement",
+   "why": "Genesis tells of builders of whom it was said that nothing would be restrained from them which they imagined to do. What should accompany the discovery of things that can change the whole atmosphere of the earth?"
+  },
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:ABU1809",
+   "responds": [
+    "source:ABU1809"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that it is the glory of God to conceal a thing, and the honour of kings to search it out."
+  },
+  {
+   "id": "job-way-for-the-lightning",
+   "after": "source:ABU2847",
+   "responds": [
+    "source:ABU2847"
+   ],
+   "relation": "adjacent",
+   "why": "The voice from the whirlwind asks Job by what way the light is parted and who made a way for the lightning."
+  },
+  {
+   "id": "quran-knowledge-but-little",
+   "after": "source:BH00722",
+   "responds": [
+    "source:BH00722"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says to those who asked about the Spirit: of knowledge ye have been vouchsafed but little."
+  },
+  {
+   "id": "quran-penetrate-the-regions",
+   "after": "source:ABU3758",
+   "responds": [
+    "source:ABU3758"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an addresses men and spirits: if ye have power to penetrate the regions of the heavens and the earth, then penetrate them."
+  },
+  {
+   "id": "psalm-wings-of-the-wind",
+   "after": "source:ABU2615",
+   "responds": [
+    "source:ABU2615"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm pictures God as making the clouds His chariot and walking on the wings of the wind."
+  },
+  {
+   "id": "tennyson-argosies-of-magic-sails",
+   "after": "source:ABU0518",
+   "responds": [
+    "source:ABU0518"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson, writing in 1842, foresaw the heavens filled with commerce and argosies of magic sails."
+  },
+  {
+   "id": "quran-made-of-service",
+   "after": "source:ABU0121",
+   "responds": [
+    "source:ABU0121"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God has made of service to humankind whatever is in the heavens and the earth."
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:ABU0192",
+   "responds": [
+    "source:ABU0192"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives humankind a charge to replenish the earth and subdue it."
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:ABU0192",
+   "responds": [
+    "source:ABU0192"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau called our inventions pretty toys that distract us from serious things, improved means to an unimproved end. What is the end to which crossing oceans and flying is the means?"
+  },
+  {
+   "id": "whitman-earth-to-be-spanned",
+   "after": "source:ABU0838",
+   "responds": [
+    "source:ABU0838"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman saw God's purpose in the earth being spanned and connected by network."
+  },
+  {
+   "id": "aristotle-shuttle-would-weave",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle imagined that if the shuttle would weave without a hand to guide it, masters would not want slaves."
+  },
+  {
+   "id": "mill-mechanical-inventions",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "contrast",
+   "why": "John Stuart Mill thought it questionable whether all the mechanical inventions yet made had lightened the day's toil of any human being. Why has leisure for all not followed from labour-saving machines?"
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:AB00357",
+   "responds": [
+    "source:AB00357"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson imagined the war-drum silent and the battle-flags furled in the parliament of man, and was thought a dreamer."
+  },
+  {
+   "id": "tennyson-ring-in-the-new",
+   "after": "source:ABU2497",
+   "responds": [
+    "source:ABU2497"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's bells ring out the old and ring in the new, the thousand years of peace."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:AB00279",
+   "responds": [
+    "source:AB00279"
+   ],
+   "relation": "adjacent",
+   "why": "Kant asked his age to have the courage to use its own understanding and to leave inherited tutelage."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:AB02184",
+   "responds": [
+    "source:AB02184"
+   ],
+   "relation": "adjacent",
+   "why": "He that sat upon the throne says in Revelation: behold, I make all things new."
+  },
+  {
+   "id": "burke-cherish-prejudices",
+   "after": "source:ABU2265",
+   "responds": [
+    "source:ABU2265"
+   ],
+   "relation": "contrast",
+   "why": "Burke defended old habits of thought because they hold the stored wisdom of ages. What should be kept when old thoughts are sent to the scrap-basket?"
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics by saying that all men by nature desire to know."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:AB00921",
+   "responds": [
+    "source:AB00921"
+   ],
+   "relation": "adjacent",
+   "why": "Joel foresaw the spirit poured out so that the young see visions and the old dream dreams."
+  },
+  {
+   "id": "aristotle-owing-to-their-wonder",
+   "after": "source:ABU0161",
+   "responds": [
+    "source:ABU0161"
+   ],
+   "relation": "contrast",
+   "why": "Aristotle traced philosophy and science to wonder at the moon, the sun and the stars. Is the claim that the Prophets are the source of all knowledge a claim about history, or about something else?"
+  },
+  {
+   "id": "quran-unlettered-prophet",
+   "after": "source:AB00035",
+   "responds": [
+    "source:AB00035"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an itself speaks of the Prophet who can neither read nor write."
+  },
+  {
+   "id": "keats-unweave-a-rainbow",
+   "after": "source:ABU0873",
+   "responds": [
+    "source:ABU0873"
+   ],
+   "relation": "complement",
+   "why": "Keats complained that cold philosophy would unweave a rainbow and empty the haunted air. Is the conflict between science and religion ever a real loss, and not only a superstition removed?"
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:AB00091",
+   "responds": [
+    "source:AB00091"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel was told that at the time of the end many shall run to and fro and knowledge shall be increased."
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "complement",
+   "why": "Tennyson noticed that knowledge comes, but wisdom lingers. What is the university of heaven that the schools of progress are meant to lead to?"
+  },
+  {
+   "id": "matthew-mustard-seed",
+   "after": "source:AB03186",
+   "responds": [
+    "source:AB03186"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likened the kingdom to a mustard seed, the least of seeds, that grows into a tree."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:AB11731",
+   "responds": [
+    "source:AB11731"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples that he had many things to say which they could not yet bear."
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "source:ABU0379",
+   "responds": [
+    "source:ABU0379"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that prophets and righteous men desired to see what his hearers saw, and did not see it."
+  },
+  {
+   "id": "job-where-shall-wisdom-be-found",
+   "after": "source:ABU0466",
+   "responds": [
+    "source:ABU0466"
+   ],
+   "relation": "complement",
+   "why": "Job asks where wisdom shall be found, and answers that it is not in the depth nor the sea, and cannot be gotten for gold. What kind of knowledge do scriptures hold, and what kind is left to be discovered?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is given dominion over the works of God's hands, with all things put under his feet."
+  },
+  {
+   "id": "darwin-light-will-be-thrown",
+   "after": "source:ABU0264",
+   "responds": [
+    "source:ABU0264"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin ended his book looking ahead: in the distant future I see open fields for far more important researches."
+  },
+  {
+   "id": "quran-horizons-and-themselves",
+   "after": "source:ABU0071",
+   "responds": [
+    "source:ABU0071"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an promises: We shall show them Our signs on the horizons and within themselves."
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews says that God spoke at sundry times and in divers manners."
+  },
+  {
+   "id": "luke-nothing-covered",
+   "after": "source:AB06401",
+   "responds": [
+    "source:AB06401"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that there is nothing covered that shall not be revealed."
+  },
+  {
+   "id": "song-winter-is-past",
+   "after": "source:AB02117",
+   "responds": [
+    "source:AB02117"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs says that the winter is past and the flowers appear on the earth."
+  },
+  {
+   "id": "marx-all-that-is-solid",
+   "after": "source:AB00948",
+   "responds": [
+    "source:AB00948"
+   ],
+   "relation": "complement",
+   "why": "Marx saw the same widening and described it differently: constant revolution in production, and all that is solid melting into air. Who gains and who loses when technical advance is so rapid?"
+  },
+  {
+   "id": "tennyson-cycle-of-cathay",
+   "after": "source:ABU0188",
+   "responds": [
+    "source:ABU0188"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's young man declared: better fifty years of Europe than a cycle of Cathay."
+  },
+  {
+   "id": "arnold-faith-in-machinery",
+   "after": "source:ABU3503",
+   "responds": [
+    "source:ABU3503"
+   ],
+   "relation": "contrast",
+   "why": "Matthew Arnold warned his own confident century that faith in machinery was its besetting danger. How is confidence in a great century kept from becoming that?"
+  },
+  {
+   "id": "habakkuk-knowledge-of-the-glory",
+   "after": "source:ABU0373",
+   "responds": [
+    "source:ABU0373"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk foresaw the earth filled with the knowledge of the glory of the Lord, as the waters cover the sea."
+  },
+  {
+   "id": "gandhi-only-to-be-patient",
+   "after": "source:BHU0013",
+   "responds": [
+    "source:BHU0013"
+   ],
+   "relation": "adjacent",
+   "why": "Gandhi thought that modern civilization had only to be left to itself to be self-destroyed."
+  },
+  {
+   "id": "isaiah-build-the-old-wastes",
+   "after": "source:BHU0014",
+   "responds": [
+    "source:BHU0014"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises that they shall build the old wastes and repair the desolations of many generations."
+  },
+  {
+   "id": "daniel-pulse-to-eat",
+   "after": "source:AB00162",
+   "responds": [
+    "source:AB00162"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel asked to be fed on pulse and water for ten days, and his countenance appeared fairer than those who ate the king's meat."
+  },
+  {
+   "id": "bacon-new-remedies",
+   "after": "source:AB00646",
+   "responds": [
+    "source:AB00646"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon wrote that every medicine is an innovation, and that he who will not apply new remedies must expect new evils."
+  },
+  {
+   "id": "genesis-every-herb-bearing-seed",
+   "after": "source:ABU3261",
+   "responds": [
+    "source:ABU3261"
+   ],
+   "relation": "adjacent",
+   "why": "In Genesis the first food given to humankind is every herb bearing seed and every tree bearing fruit."
+  },
+  {
+   "id": "romans-eateth-herbs",
+   "after": "source:ABU3261",
+   "responds": [
+    "source:ABU3261"
+   ],
+   "relation": "complement",
+   "why": "Paul found some in the church eating all things and others only herbs, and told neither to despise or judge the other. How should a forecast about diet be held by those who eat differently now?"
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB03799",
+   "responds": [
+    "source:AB03799"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an gives the believer a short prayer for every stage of learning: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "john-greater-works",
+   "after": "source:ABU2399",
+   "responds": [
+    "source:ABU2399"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples that those who believe would do greater works than his."
+  },
+  {
+   "id": "matthew-least-in-the-kingdom",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that there was none greater than John the Baptist, yet the least in the kingdom is greater than he."
+  },
+  {
+   "id": "carlyle-spark-on-black-sand",
+   "after": "selection:2e7eca71c1fa4cfd9ec966b3",
+   "responds": [
+    "selection:2e7eca71c1fa4cfd9ec966b3"
+   ],
+   "relation": "adjacent",
+   "why": "Carlyle described the effect of Muhammad on Arabia as a spark falling on what proved explosive powder, blazing from Delhi to Granada."
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "selection:7d070708c27b14a352063484",
+   "responds": [
+    "selection:7d070708c27b14a352063484"
+   ],
+   "relation": "complement",
+   "why": "Darwin wrote that man still bears in his bodily frame the indelible stamp of his lowly origin. What do the two accounts agree on, and where do they differ?"
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "selection:ae4489b0e2f84a24b5a54b4a",
+   "responds": [
+    "selection:ae4489b0e2f84a24b5a54b4a"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus pictured growth by stages: first the blade, then the ear, after that the full corn in the ear."
+  },
+  {
+   "id": "shelley-hierophants",
+   "after": "selection:2c72d9ef8ce7b5d6a2f58b31",
+   "responds": [
+    "selection:2c72d9ef8ce7b5d6a2f58b31"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley called poets the hierophants of an unapprehended inspiration, mirrors of the shadows which futurity casts upon the present."
+  },
+  {
+   "id": "shelley-fading-coal",
+   "after": "selection:b15db2eed95a6d1f2040d4d6",
+   "responds": [
+    "selection:b15db2eed95a6d1f2040d4d6"
+   ],
+   "relation": "complement",
+   "why": "Shelley said that no one can say, I will compose poetry: the mind in creation is as a fading coal that an inconstant wind awakens. Can an art that expresses a new spirit be planned for, or only waited for?"
+  }
+ ],
+ "library": {
+  "genesis-every-herb-bearing-seed": {
+   "text": "And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat",
+   "work": "Genesis 1:29",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%201%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-pulse-to-eat": {
+   "text": "Prove thy servants, I beseech thee, ten days; and let them give us pulse to eat, and water to drink. Then let our countenances be looked upon before thee, and the countenance of the children that eat of the portion of the king's meat",
+   "work": "Daniel 1:12–15",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%201%3A12-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-eateth-herbs": {
+   "text": "For one believeth that he may eat all things: another, who is weak, eateth herbs. Let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth: for God hath received him",
+   "work": "Romans 14:2–3",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2014%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-we-know-in-part": {
+   "text": "For we know in part, and we prophesy in part. But when that which is perfect is come, then that which is in part shall be done away",
+   "work": "1 Corinthians 13:9–10",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2013%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-way-for-the-lightning": {
+   "text": "By what way is the light parted, which scattereth the east wind upon the earth? Who hath divided a watercourse for the overflowing of waters, or a way for the lightning of thunder",
+   "work": "Job 38:24–25",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2038%3A24-25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-eyes-of-the-blind-opened": {
+   "text": "Then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped. Then shall the lame man leap as an hart, and the tongue of the dumb sing: for in the wilderness shall waters break out, and streams in the desert",
+   "work": "Isaiah 35:5–6",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2035%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-wings-of-the-wind": {
+   "text": "Who coverest thyself with light as with a garment: who stretchest out the heavens like a curtain: Who layeth the beams of his chambers in the waters: who maketh the clouds his chariot: who walketh upon the wings of the wind",
+   "work": "Psalm 104:2–3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20104%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-knowledge-of-witty-inventions": {
+   "text": "I wisdom dwell with prudence, and find out knowledge of witty inventions",
+   "work": "Proverbs 8:12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%208%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-teacheth-man-that-which-he-knew-not": {
+   "text": "Teacheth man that which he knew not.",
+   "work": "Qur’an 96:5",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=96&verse=5",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "aristotle-shuttle-would-weave": {
+   "text": "if, in like manner, the shuttle would weave and the plectrum touch the lyre without a hand to guide them, chief workmen would not want servants, nor masters slaves",
+   "author": "Aristotle",
+   "work": "Politics",
+   "locator": "Book I",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1885",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/politics.1.one.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "mill-mechanical-inventions": {
+   "text": "Hitherto it is questionable if all the mechanical inventions yet made have lightened the day's toil of any human being",
+   "author": "John Stuart Mill",
+   "work": "Principles of Political Economy",
+   "locator": "Book IV, chapter 6",
+   "year": "1848",
+   "sortYear": 1848,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Principles_of_Political_Economy_(J.S._Mill,_1871),_vol._2/Book_IV,_Chapter_VI",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1873."
+   }
+  }
+ }
+}
