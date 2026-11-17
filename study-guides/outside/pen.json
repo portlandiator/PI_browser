@@ -1,0 +1,214 @@
+{
+ "format": 2,
+ "slug": "pen",
+ "subject": "72E10246A92341B09224346EC3B1C47C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 12,
+ "kept": [
+  "source:BH00238",
+  "source:BH03289",
+  "source:BH00821",
+  "source:BH03212",
+  "source:BH01192",
+  "source:BH02324",
+  "source:BH01828",
+  "source:BH02617",
+  "source:BH01640",
+  "source:BH00208",
+  "source:BH00652",
+  "source:BH00769"
+ ],
+ "introduction": "In these twelve passages revelation is pictured as writing: a Pen moved by a Finger, and the Finger sustained by a power behind it, so that what appears on the page is the act of the one who writes and never of the instrument. They are read here with twelve passages from elsewhere. The Qur’an swears by the pen and says that God teaches by it; the psalmist calls his tongue the pen of a ready writer; the tables given to Moses are written with the finger of God; Habakkuk is told to write the vision plainly. Three voices stand at an angle to the image. Khayyam’s Moving Finger writes what cannot be unwritten, Jeremiah warns that the pen of the scribes may be in vain, and Plato’s Socrates observes that written words cannot answer when they are questioned. Together they ask what it means to say that a scripture is written by its author’s own hand.",
+ "questions": [
+  "The guide distinguishes the Pen, the Finger that moves it and the power that sustains the Finger. What does each stand for, and why keep them apart?",
+  "Khayyam's Moving Finger writes a fate that cannot be changed. How is the Pen in these passages different?",
+  "Jeremiah says the pen of the scribes is in vain. What makes one writing a revelation and another a claim?",
+  "Plato says written words fall silent when questioned. How might a reader question a scripture and still be answered?"
+ ],
+ "outside": [
+  {
+   "id": "quran-nun-by-the-pen",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "A chapter of the Qur'an opens with an oath by the pen and by that which they write with it."
+  },
+  {
+   "id": "psalm-pen-of-a-ready-writer",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist, his heart inditing a good matter, calls his own tongue the pen of a ready writer."
+  },
+  {
+   "id": "quran-teacheth-by-the-pen",
+   "after": "source:BH03289",
+   "responds": [
+    "source:BH03289"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an names God the Most Bounteous, who teaches by the pen, and teaches man that which he knew not."
+  },
+  {
+   "id": "habakkuk-write-the-vision",
+   "after": "source:BH00821",
+   "responds": [
+    "source:BH00821"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk is told to write the vision and make it plain upon tables, so that he may run that reads it."
+  },
+  {
+   "id": "hebrews-twoedged-sword",
+   "after": "source:BH03212",
+   "responds": [
+    "source:BH03212"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says of the word of God that it is a discerner of the thoughts and intents of the heart."
+  },
+  {
+   "id": "khayyam-moving-finger",
+   "after": "source:BH01192",
+   "responds": [
+    "source:BH01192"
+   ],
+   "relation": "contrast",
+   "why": "Khayyam's Moving Finger writes and, having writ, moves on, and neither piety nor wit can call it back. Is the Pen of the guide writing a fate, or a summons that may be answered?"
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BH02324",
+   "responds": [
+    "source:BH02324"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says the heavens were made by the word of the Lord, and all their host by the breath of his mouth."
+  },
+  {
+   "id": "exodus-written-with-the-finger-of-god",
+   "after": "source:BH01828",
+   "responds": [
+    "source:BH01828"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says the two tables of testimony given to Moses on Sinai were written with the finger of God."
+  },
+  {
+   "id": "quran-sea-were-ink",
+   "after": "source:BH02617",
+   "responds": [
+    "source:BH02617"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that if the sea became ink for the words of the Lord, the sea would be used up before the words were exhausted."
+  },
+  {
+   "id": "isaiah-shall-the-work-say",
+   "after": "source:BH01640",
+   "responds": [
+    "source:BH01640"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks whether the work shall say of him that made it, he made me not, or the thing framed deny its framer understanding."
+  },
+  {
+   "id": "jeremiah-pen-of-the-scribes",
+   "after": "source:BH00652",
+   "responds": [
+    "source:BH00652"
+   ],
+   "relation": "contrast",
+   "why": "Jeremiah tells those who say 'we are wise, the law is with us' that the pen of the scribes is in vain. What separates a pen that reveals from a pen that only copies and claims?"
+  },
+  {
+   "id": "plato-writing-silent",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "complement",
+   "why": "Plato's Socrates says that writing, like the creations of the painter, preserves a solemn silence when asked a question. Can what is written ever know its writer, or answer for him?"
+  }
+ ],
+ "library": {
+  "quran-teacheth-by-the-pen": {
+   "text": "Read: And thy Lord is the Most Bounteous, Who teacheth by the pen, Teacheth man that which he knew not",
+   "work": "Qur’an 96:3–5",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "exodus-written-with-the-finger-of-god": {
+   "text": "And he gave unto Moses, when he had made an end of communing with him upon mount Sinai, two tables of testimony, tables of stone, written with the finger of God",
+   "work": "Exodus 31:18",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2031%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-shall-the-work-say": {
+   "text": "Surely your turning of things upside down shall be esteemed as the potter's clay: for shall the work say of him that made it, He made me not? or shall the thing framed say of him that framed it, He had no understanding",
+   "work": "Isaiah 29:16",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2029%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
