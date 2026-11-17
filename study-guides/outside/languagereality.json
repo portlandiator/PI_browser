@@ -1,0 +1,437 @@
+{
+ "format": 2,
+ "slug": "languagereality",
+ "subject": "E846CC474C3649F5A86C027F93FA44B2",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 19,
+ "kept": [
+  "source:ABU0227",
+  "source:ABU1584",
+  "source:AB05356",
+  "source:AB05862",
+  "source:BH07024",
+  "source:ABU0385",
+  "source:AB00276",
+  "source:BB00002",
+  "source:AB10117",
+  "source:ABU3175",
+  "source:ABU2232",
+  "source:ABU0201",
+  "source:ABU0322",
+  "source:ABU1813",
+  "source:ABU0894",
+  "source:BB00239",
+  "source:BB00023",
+  "source:BH00328",
+  "selection:39265a29e3c85faeb402d31e"
+ ],
+ "introduction": "This short guide gathers passages on what language is. Letters and numbers are said to correspond to the structure of reality; words are cups and meanings the wine; a letter has no meaning until it joins a word, as creatures have none apart from the Word; every language exists to convey inner meanings, and behind all of them is a language of the spirit that needs no tongue. The readings also touch practical matters: a common language as a condition of peace, the craft of translation, and the care of one’s own language. Aristotle on the Pythagoreans, Plato’s Cratylus, Confucius on the correcting of names, the opening of John’s Gospel and Rumi stand beside them. Juliet’s rose and the first line of the Tao Te Ching doubt that a name reaches the essence of anything, the Qur’an counts the variety of tongues among God’s signs, and Wittgenstein asks what lies beyond the limits of language.",
+ "questions": [
+  "The readings call words cups and meanings wine. When has a meaning reached you through poor words, and when have fine words carried nothing?",
+  "A letter, one reading says, is meaningless until it joins a word. What does that picture say about a person and a community?",
+  "Confucius thought affairs cannot succeed unless names are correct; Juliet thought a name changes nothing. What turns on calling things by their right names?",
+  "The readings look to a common language, and the Qur’an counts the difference of languages among the signs of God. How can both be honoured?",
+  "What is the language of the spirit that the readings speak of, and how is it learned?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-elements-of-numbers",
+   "after": "source:ABU0227",
+   "responds": [
+    "source:ABU0227"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle reports that the Pythagoreans took the elements of numbers to be the elements of all things, and the whole heaven to be a musical scale and a number."
+  },
+  {
+   "id": "genesis-one-language",
+   "after": "source:ABU1584",
+   "responds": [
+    "source:ABU1584"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis remembers a time when the whole earth was of one language and of one speech."
+  },
+  {
+   "id": "zephaniah-a-pure-language",
+   "after": "source:ABU1584",
+   "responds": [
+    "source:ABU1584"
+   ],
+   "relation": "adjacent",
+   "why": "Zephaniah foresees the peoples given a pure language, that they may serve with one consent."
+  },
+  {
+   "id": "proverbs-word-fitly-spoken",
+   "after": "source:AB05356",
+   "responds": [
+    "source:AB05356"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs has its own picture of the well-made vessel: a word fitly spoken is like apples of gold in pictures of silver."
+  },
+  {
+   "id": "plato-name-is-an-instrument",
+   "after": "source:AB05862",
+   "responds": [
+    "source:AB05862"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates calls a name an instrument of teaching and of distinguishing natures."
+  },
+  {
+   "id": "wittgenstein-limits-of-my-language",
+   "after": "source:AB05862",
+   "responds": [
+    "source:AB05862"
+   ],
+   "relation": "complement",
+   "why": "Wittgenstein wrote that the limits of my language mean the limits of my world. If the purpose of language is to convey inner meanings, what happens to meanings for which a language has no words?"
+  },
+  {
+   "id": "dickinson-a-word-is-dead",
+   "after": "source:BH07024",
+   "responds": [
+    "source:BH07024"
+   ],
+   "relation": "adjacent",
+   "why": "Emily Dickinson held that a word is not dead when it is said: it just begins to live that day."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:ABU0385",
+   "responds": [
+    "source:ABU0385"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel begins: in the beginning was the Word, and all things were made by him."
+  },
+  {
+   "id": "quran-language-of-his-folk",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God never sent a messenger save with the language of his own people, that he might make the message clear."
+  },
+  {
+   "id": "rumi-inside-and-state-of-heart",
+   "after": "source:AB10117",
+   "responds": [
+    "source:AB10117"
+   ],
+   "relation": "adjacent",
+   "why": "In Rumi's story God tells Moses: I regard not the outside and the words; I regard the inside and the state of heart."
+  },
+  {
+   "id": "goethe-foreign-languages",
+   "after": "source:ABU2232",
+   "responds": [
+    "source:ABU2232"
+   ],
+   "relation": "adjacent",
+   "why": "Goethe said that a man who has no acquaintance with foreign languages knows nothing of his own."
+  },
+  {
+   "id": "emerson-fossil-poetry",
+   "after": "source:ABU0201",
+   "responds": [
+    "source:ABU0201"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson called language fossil poetry: the deadest word was once a brilliant picture."
+  },
+  {
+   "id": "quran-languages-colours",
+   "after": "source:ABU0201",
+   "responds": [
+    "source:ABU0201"
+   ],
+   "relation": "contrast",
+   "why": "The Qur’an counts the difference of languages and colours among the signs of God. Is the mixing of languages a loss to be controlled, or part of a variety that is itself a sign?"
+  },
+  {
+   "id": "acts-every-man-in-his-own-language",
+   "after": "source:ABU1813",
+   "responds": [
+    "source:ABU1813"
+   ],
+   "relation": "adjacent",
+   "why": "At Pentecost each of the crowd heard the apostles speak in his own language."
+  },
+  {
+   "id": "byron-words-are-things",
+   "after": "source:ABU0894",
+   "responds": [
+    "source:ABU0894"
+   ],
+   "relation": "adjacent",
+   "why": "Byron wrote that words are things, and that a small drop of ink falling upon a thought makes thousands think."
+  },
+  {
+   "id": "analects-if-names-be-not-correct",
+   "after": "source:BB00239",
+   "responds": [
+    "source:BB00239"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius held that if names are not correct, language is not in accordance with the truth of things, and affairs cannot succeed."
+  },
+  {
+   "id": "shakespeare-whats-in-a-name",
+   "after": "source:BB00239",
+   "responds": [
+    "source:BB00239"
+   ],
+   "relation": "contrast",
+   "why": "Juliet asks what is in a name, since a rose by any other name would smell as sweet. Is a name the mark of a thing's essence, or a label that could have been otherwise?"
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BB00239",
+   "responds": [
+    "source:BB00239"
+   ],
+   "relation": "contrast",
+   "why": "The Tao Te Ching begins by denying that the name that can be named is the enduring name. How far can any name reach toward what a thing is?"
+  },
+  {
+   "id": "psalm-day-unto-day",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the heavens speak without speech or language, and their words go to the end of the world."
+  }
+ ],
+ "library": {
+  "corinthians-words-easy-to-be-understood": {
+   "text": "So likewise ye, except ye utter by the tongue words easy to be understood, how shall it be known what is spoken? for ye shall speak into the air. There are, it may be, so many kinds of voices in the world, and none of them is without signification. Therefore if I know not the meaning of the voice, I shall be unto him that speaketh a barbarian, and he that speaketh shall be a barbarian unto me",
+   "work": "1 Corinthians 14:9–11",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2014%3A9-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "zephaniah-a-pure-language": {
+   "text": "For then will I turn to the people a pure language, that they may all call upon the name of the Lord, to serve him with one consent",
+   "work": "Zephaniah 3:9",
+   "year": "7th century BCE",
+   "sortYear": -630,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Zephaniah%203%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-one-language": {
+   "text": "And the whole earth was of one language, and of one speech",
+   "work": "Genesis 11:1",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2011%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-all-nations-and-tongues": {
+   "text": "After this I beheld, and, lo, a great multitude, which no man could number, of all nations, and kindreds, and people, and tongues, stood before the throne, and before the Lamb, clothed with white robes, and palms in their hands",
+   "work": "Revelation 7:9",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%207%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "analects-if-names-be-not-correct": {
+   "text": "If names be not correct, language is not in accordance with the truth of things. If language be not in accordance with the truth of things, affairs cannot be carried on to success",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "13:3",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "plato-name-is-an-instrument": {
+   "text": "Then a name is an instrument of teaching and of distinguishing natures",
+   "author": "Plato",
+   "work": "Cratylus",
+   "year": "c. 380 BCE",
+   "sortYear": -380,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/cratylus.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "aristotle-elements-of-numbers": {
+   "text": "they supposed the elements of numbers to be the elements of all things, and the whole heaven to be a musical scale and a number",
+   "author": "Aristotle",
+   "work": "Metaphysics",
+   "locator": "Book I (on the Pythagoreans)",
+   "year": "c. 340 BCE",
+   "sortYear": -340,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/metaphysics.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  },
+  "emerson-fossil-poetry": {
+   "text": "The etymologist finds the deadest word to have been once a brilliant picture. Language is fossil poetry",
+   "author": "Ralph Waldo Emerson",
+   "work": "The Poet",
+   "year": "1844",
+   "sortYear": 1844,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Essays:_Second_Series/The_Poet",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "wittgenstein-limits-of-my-language": {
+   "text": "The limits of my language mean the limits of my world",
+   "author": "Ludwig Wittgenstein",
+   "work": "Tractatus Logico-Philosophicus",
+   "locator": "5.6",
+   "year": "1921",
+   "sortYear": 1921,
+   "translator": "C. K. Ogden",
+   "translationYear": "1922",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus/5",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation published 1922; author d. 1951."
+   }
+  },
+  "dickinson-a-word-is-dead": {
+   "text": "A WORD is dead / When it is said, / Some say. / I say it just / Begins to live / That day",
+   "verse": true,
+   "author": "Emily Dickinson",
+   "work": "“A word is dead”",
+   "year": "c. 1872; published 1896",
+   "sortYear": 1872,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Complete_Poems_of_Emily_Dickinson/A_word_is_dead",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "LXXXIX"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1886."
+   }
+  }
+ }
+}
