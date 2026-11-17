@@ -1,0 +1,201 @@
+{
+ "format": 2,
+ "slug": "renewal",
+ "subject": "C213F67401F9445F8429A5F2621563E5",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 17,
+ "quotations": 18,
+ "kept": [
+  "source:BH00354",
+  "source:ABU0635",
+  "source:ABU0895",
+  "source:ABU1534",
+  "source:AB05577",
+  "source:AB05224",
+  "source:ABU1443",
+  "source:AB00538",
+  "source:ABU0079",
+  "source:AB02117",
+  "source:AB06323",
+  "source:BH05897",
+  "source:AB04998",
+  "source:AB00778",
+  "source:BB00004",
+  "source:BB00027",
+  "source:BH01911"
+ ],
+ "introduction": "The few readings of this guide make one claim from several sides: creation is not a single act in the past but something continually renewed. Settlements rise and are erased while the earth remains, the world creates and disintegrates without tiring, and with each Messenger of God a new creation appears, which the readings understand as the renewal of minds and hearts. The Psalmist says as much of the face of the earth, the Qur’an of the first creation and its repetition, Paul of the new creature, and Shelley of the world’s great age. Three quotations ask harder questions: the Preacher, who saw the same circling and called it weariness and denied anything new under the sun; Tennyson, who could not call a nature red in tooth and claw free of imperfection; and the opening words of Genesis, which seem to give creation a beginning.",
+ "questions": [
+  "The Preacher watched the sun return to its place and found it wearisome; these readings see renewal in the same circling. What makes the difference?",
+  "The readings call those who believe in a new Revelation a new creation. What in a person is renewed, and what stays as it was?",
+  "One reading says that renewal leaves a thing in a better condition. Where have you seen that, and where its opposite?",
+  "Tennyson could not forget nature red in tooth and claw. How do you read the statement that in the new creation there is no room for imperfection?"
+ ],
+ "outside": [
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "complement",
+   "why": "The Preacher also saw the end joined to the beginning: the sun rises, goes down and hastens to its place again, and he found it wearisome. What makes a return a renewal and not mere repetition?"
+  },
+  {
+   "id": "ecclesiastes-generation-passeth",
+   "after": "source:ABU0635",
+   "responds": [
+    "source:ABU0635"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that one generation passes away and another comes, but the earth abides."
+  },
+  {
+   "id": "psalm-renewest-the-earth",
+   "after": "source:ABU0895",
+   "responds": [
+    "source:ABU0895"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says to God: Thou sendest forth Thy spirit, they are created, and Thou renewest the face of the earth."
+  },
+  {
+   "id": "shelley-destroyer-and-preserver",
+   "after": "source:ABU1534",
+   "responds": [
+    "source:ABU1534"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley addresses the west wind as a wild spirit that is destroyer and preserver in one breath."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB05224",
+   "responds": [
+    "source:AB05224"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus compares what proceeds from the One to the light that encircles the sun, ceaselessly generated from an unchanging source."
+  },
+  {
+   "id": "quran-in-doubt-about-a-new-creation",
+   "after": "source:ABU1443",
+   "responds": [
+    "source:ABU1443"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse the reading quotes: were We then worn out by the first creation?"
+  },
+  {
+   "id": "corinthians-new-creature",
+   "after": "source:ABU1443",
+   "responds": [
+    "source:ABU1443"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that anyone in Christ is a new creature: old things are passed away."
+  },
+  {
+   "id": "john-born-of-water",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told Nicodemus that what is born of the flesh is flesh and what is born of the Spirit is spirit."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:ABU0079",
+   "responds": [
+    "source:ABU0079"
+   ],
+   "relation": "adjacent",
+   "why": "He that sat upon the throne says in Revelation: behold, I make all things new."
+  },
+  {
+   "id": "shelley-worlds-great-age",
+   "after": "source:AB02117",
+   "responds": [
+    "source:AB02117"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley sang that the world's great age begins anew and the golden years return."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:AB02117",
+   "responds": [
+    "source:AB02117"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher denied that there is any new thing under the sun. What would count as evidence that an age is truly new and not the old one renamed?"
+  },
+  {
+   "id": "isaiah-new-thing",
+   "after": "source:AB06323",
+   "responds": [
+    "source:AB06323"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears God say: behold, I will do a new thing; now it shall spring forth."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:BH05897",
+   "responds": [
+    "source:BH05897"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson could not forget nature red in tooth and claw when he tried to trust that love is creation's final law. In what sense can a creation with so much suffering in it be without imperfection?"
+  },
+  {
+   "id": "song-winter-is-past",
+   "after": "source:AB04998",
+   "responds": [
+    "source:AB04998"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs has the same spring: the winter is past, the flowers appear on the earth."
+  },
+  {
+   "id": "job-hope-of-a-tree",
+   "after": "source:AB00778",
+   "responds": [
+    "source:AB00778"
+   ],
+   "relation": "adjacent",
+   "why": "Job says there is hope of a tree, if it be cut down, that it will sprout again."
+  },
+  {
+   "id": "quran-originate-then-reproduce",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks whether they do not see how God produces creation and then reproduces it."
+  },
+  {
+   "id": "quran-as-we-began-the-first-creation",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: as We began the first creation, We shall repeat it."
+  },
+  {
+   "id": "genesis-spirit-moved-upon-the-waters",
+   "after": "source:BB00027",
+   "responds": [
+    "source:BB00027"
+   ],
+   "relation": "contrast",
+   "why": "Genesis opens with the words: in the beginning God created the heaven and the earth. How do the readings ask those words to be understood, if creation has no beginning?"
+  }
+ ],
+ "library": {}
+}
