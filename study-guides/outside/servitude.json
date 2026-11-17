@@ -1,0 +1,1388 @@
+{
+ "format": 2,
+ "slug": "servitude",
+ "subject": "AEF71C54D9B047EB8B92DBF1831755FA",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 97,
+ "quotations": 100,
+ "kept": [
+  "source:BH01850",
+  "source:BH11209",
+  "source:BH01427",
+  "source:BH00001",
+  "source:BH01770",
+  "source:BH09882",
+  "source:BHU0036",
+  "source:BH00113",
+  "source:BH02183",
+  "source:BB00596",
+  "source:AB10527",
+  "source:ABU2646",
+  "source:BB00622",
+  "source:BH00623",
+  "source:BH00890",
+  "source:BH06107",
+  "source:AB01021",
+  "source:AB00674",
+  "source:BH00021",
+  "source:BH00005",
+  "source:BH00018",
+  "source:BH02153",
+  "source:BH00956",
+  "source:BH07775",
+  "source:BH10889",
+  "source:BH01623",
+  "source:ABU1292",
+  "source:AB01896",
+  "source:AB04232",
+  "source:ABU3249",
+  "source:ABU3591",
+  "source:BB00378",
+  "source:BH00502",
+  "source:BH01535",
+  "source:BH07260",
+  "source:BH08141",
+  "source:AB08838",
+  "source:BH03975",
+  "source:BH06440",
+  "source:AB08940",
+  "source:AB08970",
+  "source:ABU2612",
+  "source:BH05179",
+  "source:BH06851",
+  "source:BH07036",
+  "source:AB02310",
+  "source:AB02936",
+  "source:AB01395",
+  "source:AB02647",
+  "source:AB03447",
+  "source:AB05083",
+  "source:AB07823",
+  "source:AB09368",
+  "source:AB10264",
+  "source:BH00352",
+  "source:BH04478",
+  "source:BH10742",
+  "source:ABU1761",
+  "source:ABU1176",
+  "source:AB00005",
+  "source:AB00307",
+  "source:AB00484",
+  "source:AB01050",
+  "source:AB01762",
+  "source:AB03763",
+  "source:AB00352",
+  "source:AB02104",
+  "source:AB04038",
+  "source:BH07113",
+  "source:BH00591",
+  "source:BH06196",
+  "source:AB02024",
+  "source:AB08846",
+  "source:BH03389",
+  "source:BH04460",
+  "source:BH01887",
+  "source:BH01974",
+  "source:BH03447",
+  "source:BH00987",
+  "source:BB00623",
+  "source:BH02848",
+  "source:BH08600",
+  "source:AB05652",
+  "source:BH05071",
+  "source:BH05768",
+  "source:BH06026",
+  "source:BH07780",
+  "source:BB00556",
+  "source:BH01165",
+  "source:AB06887",
+  "source:BB00011",
+  "source:BB00166",
+  "source:BH01524",
+  "source:BH03506",
+  "source:BH09864",
+  "source:BH10588",
+  "source:BH08594"
+ ],
+ "introduction": "These readings call servitude the highest station: to merge one's will in the will of God, to find liberty in submission to His commandments and sovereignty in thralldom, to serve God by serving His servants, and, having fallen short, to return. A large part of them are prayers of confession and trust. A hundred of the guide's three hundred quotations are read here, ten from each tenth of the reading order, beside a hundred from elsewhere. Most stand alongside: Gethsemane, the psalms of penitence, the prodigal son and the publican, the Qur'an on surrender and repentance, Paul, Augustine, Dante, Donne and Milton's sonnet on his blindness. Fifteen push back or add a side: Milton's Satan and Henley refuse to serve, Emerson and Kant trust the self and its reason, Rousseau finds liberty in a law we give ourselves, Job keeps his own ways before God, and Socrates obeys God rather than his rulers.",
+ "questions": [
+  "The readings say that true liberty is submission to God's commandments; Rousseau says that liberty is obedience to a law we prescribe to ourselves. Where exactly do the two differ, and where might they meet?",
+  "Milton's Satan would rather reign in Hell than serve in Heaven, and Henley is the captain of his soul. What do the readings mean by a servitude that is sovereignty, and how would you explain it to someone who admires those lines?",
+  "One reading says that servitude to God is attained only through service to His servants. What does that look like on an ordinary day?",
+  "The prayers of repentance in this guide are severe about the self and confident about mercy. Compare the publican, the prodigal son and Edwards's sermon: what makes turning back possible?",
+  "Job says he will trust God though He slay him, and also that he will maintain his own ways before Him. Is there a submission that keeps one's own voice?",
+  "Kant asks for the courage to use one's own reason. What, in these readings, is surrendered, and what is not?"
+ ],
+ "outside": [
+  {
+   "id": "luke-not-my-will-but-thine",
+   "after": "source:BH01850",
+   "responds": [
+    "source:BH01850"
+   ],
+   "relation": "adjacent",
+   "why": "In Gethsemane Jesus prays: nevertheless not my will, but thine, be done."
+  },
+  {
+   "id": "dante-his-will-our-peace",
+   "after": "source:BH01850",
+   "responds": [
+    "source:BH01850"
+   ],
+   "relation": "adjacent",
+   "why": "Dante's Piccarda says that it is essential to the blessed life to keep within the divine will, whereby their very wishes are made one."
+  },
+  {
+   "id": "quran-created-to-worship",
+   "after": "source:BH11209",
+   "responds": [
+    "source:BH11209"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an has God say: I created the jinn and humankind only that they might worship Me."
+  },
+  {
+   "id": "matthew-in-earth-as-in-heaven",
+   "after": "source:BH01427",
+   "responds": [
+    "source:BH01427"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord's Prayer asks: thy will be done in earth, as it is in heaven."
+  },
+  {
+   "id": "rousseau-moral-liberty",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "Rousseau held that the impulse of appetite is slavery, while obedience to a law which we prescribe to ourselves is liberty. What turns on whether the law is prescribed by ourselves or received?"
+  },
+  {
+   "id": "donne-batter-my-heart",
+   "after": "source:BH01770",
+   "responds": [
+    "source:BH01770"
+   ],
+   "relation": "adjacent",
+   "why": "Donne asks God to imprison him, for he shall never be free unless God enthral him."
+  },
+  {
+   "id": "milton-better-to-reign-in-hell",
+   "after": "source:BH09882",
+   "responds": [
+    "source:BH09882"
+   ],
+   "relation": "contrast",
+   "why": "Milton's Satan declares it better to reign in Hell than serve in Heaven. What does his kind of freedom cost him, and why has his line been so often admired?"
+  },
+  {
+   "id": "quran-be-ye-faithful-servants",
+   "after": "source:BHU0036",
+   "responds": [
+    "source:BHU0036"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that no one given the Scripture and the prophethood would say, be slaves of me instead of God."
+  },
+  {
+   "id": "samuel-obey-better-than-sacrifice",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel tells the king that to obey is better than sacrifice, and to hearken than the fat of rams."
+  },
+  {
+   "id": "quran-prostrate-willingly-or-unwillingly",
+   "after": "source:BB00596",
+   "responds": [
+    "source:BB00596"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that unto God falleth prostrate whosoever is in the heavens and the earth, willingly or unwillingly."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:AB10527",
+   "responds": [
+    "source:AB10527"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist had rather be a doorkeeper in the house of his God than dwell in the tents of wickedness."
+  },
+  {
+   "id": "mark-shall-be-your-minister",
+   "after": "source:ABU2646",
+   "responds": [
+    "source:ABU2646"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that whosoever will be the chiefest shall be servant of all."
+  },
+  {
+   "id": "quran-none-but-cometh-as-a-slave",
+   "after": "source:BB00622",
+   "responds": [
+    "source:BB00622"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that there is none in the heavens and the earth but cometh unto the Beneficent as a slave."
+  },
+  {
+   "id": "quran-honoured-slaves",
+   "after": "source:BH00623",
+   "responds": [
+    "source:BH00623"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of those whom people call sons of God that they are honoured slaves."
+  },
+  {
+   "id": "luke-unprofitable-servants",
+   "after": "source:BH06107",
+   "responds": [
+    "source:BH06107"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples, when they have done all that is commanded, to say: we are unprofitable servants."
+  },
+  {
+   "id": "genesis-dust-and-ashes",
+   "after": "source:BH06107",
+   "responds": [
+    "source:BH06107"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham, pleading with God for a city, calls himself but dust and ashes."
+  },
+  {
+   "id": "philippians-form-of-a-servant",
+   "after": "source:AB01021",
+   "responds": [
+    "source:AB01021"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says of Christ that he made himself of no reputation and took upon him the form of a servant."
+  },
+  {
+   "id": "henley-captain-of-my-soul",
+   "after": "source:AB01021",
+   "responds": [
+    "source:AB01021"
+   ],
+   "relation": "contrast",
+   "why": "Henley's poem ends: I am the master of my fate, I am the captain of my soul. Which is the sovereignty worth having, his or the one found in servitude, and can a person hold both?"
+  },
+  {
+   "id": "isaiah-abundantly-pardon",
+   "after": "source:AB00674",
+   "responds": [
+    "source:AB00674"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says: let the wicked forsake his way and return unto the Lord, for he will abundantly pardon."
+  },
+  {
+   "id": "luke-fruits-worthy-of-repentance",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist tells the multitude to bring forth fruits worthy of repentance."
+  },
+  {
+   "id": "psalm-against-thee-only",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I acknowledge my transgressions, and my sin is ever before me."
+  },
+  {
+   "id": "ezra-ashamed-and-blush",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Ezra prays: O my God, I am ashamed and blush to lift up my face to thee."
+  },
+  {
+   "id": "jonah-king-of-nineveh",
+   "after": "source:BH00018",
+   "responds": [
+    "source:BH00018"
+   ],
+   "relation": "adjacent",
+   "why": "When word came to the king of Nineveh he arose from his throne, covered himself with sackcloth and sat in ashes."
+  },
+  {
+   "id": "luke-came-to-himself",
+   "after": "source:BH02153",
+   "responds": [
+    "source:BH02153"
+   ],
+   "relation": "adjacent",
+   "why": "The prodigal son, far from home, comes to himself and resolves: I will arise and go to my father."
+  },
+  {
+   "id": "luke-joy-over-one-sinner",
+   "after": "source:BH00956",
+   "responds": [
+    "source:BH00956"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that joy shall be in heaven over one sinner that repenteth."
+  },
+  {
+   "id": "timothy-of-whom-i-am-chief",
+   "after": "source:BH00956",
+   "responds": [
+    "source:BH00956"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls himself the chief of the sinners whom Christ came to save."
+  },
+  {
+   "id": "luke-prodigal-father-ran",
+   "after": "source:BH07775",
+   "responds": [
+    "source:BH07775"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the father sees his returning son a great way off, and runs, and falls on his neck."
+  },
+  {
+   "id": "edwards-spider-over-the-fire",
+   "after": "source:BH10889",
+   "responds": [
+    "source:BH10889"
+   ],
+   "relation": "contrast",
+   "why": "Jonathan Edwards preached a God who holds the sinner over the pit as one holds a spider over the fire, and abhors him. Which picture of God makes repentance possible: his, or the one in this prayer?"
+  },
+  {
+   "id": "joel-rend-your-heart",
+   "after": "source:BH01623",
+   "responds": [
+    "source:BH01623"
+   ],
+   "relation": "adjacent",
+   "why": "Joel calls: turn ye to me with all your heart; rend your heart, and not your garments."
+  },
+  {
+   "id": "luke-publican",
+   "after": "source:ABU1292",
+   "responds": [
+    "source:ABU1292"
+   ],
+   "relation": "adjacent",
+   "why": "The publican in the parable would not lift up his eyes, but smote upon his breast, saying: God be merciful to me a sinner."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:AB01896",
+   "responds": [
+    "source:AB01896"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: by grace are ye saved through faith, and that not of yourselves; it is the gift of God."
+  },
+  {
+   "id": "psalm-eyes-of-servants",
+   "after": "source:AB04232",
+   "responds": [
+    "source:AB04232"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that as the eyes of servants look unto the hand of their masters, so our eyes wait upon the Lord."
+  },
+  {
+   "id": "avot-one-hour-of-repentance",
+   "after": "source:ABU3591",
+   "responds": [
+    "source:ABU3591"
+   ],
+   "relation": "adjacent",
+   "why": "The Mishnah holds one hour of repentance and good deeds in this world more precious than all the life of the world to come."
+  },
+  {
+   "id": "hebrews-no-place-of-repentance",
+   "after": "source:ABU3591",
+   "responds": [
+    "source:ABU3591"
+   ],
+   "relation": "contrast",
+   "why": "The letter to the Hebrews says of Esau that he found no place of repentance, though he sought it. Is there a point after which the door is shut, and who shuts it?"
+  },
+  {
+   "id": "chronicles-humble-themselves",
+   "after": "source:BH00502",
+   "responds": [
+    "source:BH00502"
+   ],
+   "relation": "adjacent",
+   "why": "Chronicles has God promise that if his people humble themselves, and pray, and turn from their wicked ways, he will heal their land."
+  },
+  {
+   "id": "quran-wronged-ourselves",
+   "after": "source:BH01535",
+   "responds": [
+    "source:BH01535"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an Adam and his wife say: our Lord, we have wronged ourselves."
+  },
+  {
+   "id": "james-converteth-the-sinner",
+   "after": "source:BH07260",
+   "responds": [
+    "source:BH07260"
+   ],
+   "relation": "adjacent",
+   "why": "James says that he who converteth a sinner from the error of his way shall save a soul from death."
+  },
+  {
+   "id": "quran-turn-unto-allah-in-sincere-repentance",
+   "after": "source:BH08141",
+   "responds": [
+    "source:BH08141"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an calls believers to turn unto God in sincere repentance, that their evil deeds may be remitted."
+  },
+  {
+   "id": "job-though-he-slay-me",
+   "after": "source:AB08838",
+   "responds": [
+    "source:AB08838"
+   ],
+   "relation": "complement",
+   "why": "Job says: though he slay me, yet will I trust in him; but I will maintain mine own ways before him. Is there room inside submission for Job's second clause?"
+  },
+  {
+   "id": "isaiah-shall-the-work-say",
+   "after": "source:AB08838",
+   "responds": [
+    "source:AB08838"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks whether the work shall say of him that made it, he made me not."
+  },
+  {
+   "id": "quran-living-and-dying-for-allah",
+   "after": "source:BH03975",
+   "responds": [
+    "source:BH03975"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an teaches the prayer: my worship and my sacrifice and my living and my dying are for God."
+  },
+  {
+   "id": "proverbs-trust-in-the-lord",
+   "after": "source:BH06440",
+   "responds": [
+    "source:BH06440"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: trust in the Lord with all thine heart, and lean not unto thine own understanding."
+  },
+  {
+   "id": "matthew-left-hand-know",
+   "after": "source:AB08940",
+   "responds": [
+    "source:AB08940"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of alms: let not thy left hand know what thy right hand doeth."
+  },
+  {
+   "id": "philippians-learned-to-be-content",
+   "after": "source:AB08970",
+   "responds": [
+    "source:AB08970"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that he has learned, in whatsoever state he is, therewith to be content."
+  },
+  {
+   "id": "john-wash-one-anothers-feet",
+   "after": "source:ABU2612",
+   "responds": [
+    "source:ABU2612"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus, having washed his disciples' feet, says: I have given you an example, that ye should do as I have done."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:BH05179",
+   "responds": [
+    "source:BH05179"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: I am crucified with Christ; nevertheless I live, yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "john-he-must-increase",
+   "after": "source:BH06851",
+   "responds": [
+    "source:BH06851"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist says of Jesus: he must increase, but I must decrease."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:BH07036",
+   "responds": [
+    "source:BH07036"
+   ],
+   "relation": "contrast",
+   "why": "Emerson says: trust thyself; every heart vibrates to that iron string. Is his self-trust the opposite of submission, or might the self he trusts be more than his own will?"
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:AB02310",
+   "responds": [
+    "source:AB02310"
+   ],
+   "relation": "contrast",
+   "why": "Kant called enlightenment man's release from self-incurred tutelage, and gave it a motto: have courage to use your own reason. What is the difference between forsaking one's own will and giving up one's own reason?"
+  },
+  {
+   "id": "john-epistle-world-passeth-away",
+   "after": "source:AB02936",
+   "responds": [
+    "source:AB02936"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that the world passeth away, but he that doeth the will of God abideth for ever."
+  },
+  {
+   "id": "philippians-name-above-every-name",
+   "after": "source:AB02647",
+   "responds": [
+    "source:AB02647"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that at the name of Jesus every knee should bow, of things in heaven and things in earth."
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "source:AB03447",
+   "responds": [
+    "source:AB03447"
+   ],
+   "relation": "complement",
+   "why": "Jesus says: take my yoke upon you, for my yoke is easy, and my burden is light. How can the same servitude be an easy yoke and a burden that breaks backs?"
+  },
+  {
+   "id": "matthew-whosoever-will-be-great",
+   "after": "source:AB05083",
+   "responds": [
+    "source:AB05083"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: whosoever will be great among you, let him be your minister."
+  },
+  {
+   "id": "luke-as-he-that-serveth",
+   "after": "source:AB07823",
+   "responds": [
+    "source:AB07823"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to his disciples at table: I am among you as he that serveth."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB09368",
+   "responds": [
+    "source:AB09368"
+   ],
+   "relation": "adjacent",
+   "why": "James calls it pure religion to visit the fatherless and widows in their affliction."
+  },
+  {
+   "id": "matthew-least-of-these",
+   "after": "source:AB10264",
+   "responds": [
+    "source:AB10264"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."
+  },
+  {
+   "id": "john-epistle-loveth-not-his-brother",
+   "after": "source:AB10264",
+   "responds": [
+    "source:AB10264"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter asks how he that loveth not his brother whom he hath seen can love God whom he hath not seen."
+  },
+  {
+   "id": "colossians-heartily-as-to-the-lord",
+   "after": "source:BH00352",
+   "responds": [
+    "source:BH00352"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: whatsoever ye do, do it heartily, as to the Lord, and not unto men."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:BH04478",
+   "responds": [
+    "source:BH04478"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine prays: you have made us for yourself, and our hearts are restless until they rest in you."
+  },
+  {
+   "id": "psalm-secret-place-of-the-most-high",
+   "after": "source:BH10742",
+   "responds": [
+    "source:BH10742"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that he that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty."
+  },
+  {
+   "id": "john-shoes-latchet",
+   "after": "source:ABU1761",
+   "responds": [
+    "source:ABU1761"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist says that he is not worthy to unloose the latchet of the shoe of him who comes after."
+  },
+  {
+   "id": "luke-nothing-impossible",
+   "after": "source:ABU1176",
+   "responds": [
+    "source:ABU1176"
+   ],
+   "relation": "adjacent",
+   "why": "Mary answers the angel: behold the handmaid of the Lord; be it unto me according to thy word."
+  },
+  {
+   "id": "rousseau-everywhere-in-chains",
+   "after": "source:ABU1176",
+   "responds": [
+    "source:ABU1176"
+   ],
+   "relation": "complement",
+   "why": "Rousseau wrote that man is born free and is everywhere in chains, and that one who thinks himself the master of others remains a greater slave than they. What separates a servitude one glories in from the chains he means?"
+  },
+  {
+   "id": "psalm-broken-and-contrite-heart",
+   "after": "source:AB00005",
+   "responds": [
+    "source:AB00005"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that a broken and a contrite heart God will not despise."
+  },
+  {
+   "id": "quran-obeyed-our-princes",
+   "after": "source:AB00307",
+   "responds": [
+    "source:AB00307"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse of the Qur'an that the prayer echoes: our Lord, we obeyed our princes and great men, and they misled us."
+  },
+  {
+   "id": "plato-obey-god-rather-than-you",
+   "after": "source:AB00307",
+   "responds": [
+    "source:AB00307"
+   ],
+   "relation": "complement",
+   "why": "Socrates tells his judges: men of Athens, I honour and love you, but I shall obey God rather than you. When does servitude to God require disobedience to leaders and great ones?"
+  },
+  {
+   "id": "james-be-not-many-masters",
+   "after": "source:AB00484",
+   "responds": [
+    "source:AB00484"
+   ],
+   "relation": "adjacent",
+   "why": "James writes: my brethren, be not many masters, knowing that we shall receive the greater condemnation."
+  },
+  {
+   "id": "milton-stand-and-wait",
+   "after": "source:AB01050",
+   "responds": [
+    "source:AB01050"
+   ],
+   "relation": "adjacent",
+   "why": "Milton, blind, concludes that those who best bear God's mild yoke serve him best: they also serve who only stand and wait."
+  },
+  {
+   "id": "isaiah-we-are-the-clay",
+   "after": "source:AB01762",
+   "responds": [
+    "source:AB01762"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says: we are the clay, and thou our potter, and we all are the work of thy hand."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB00352",
+   "responds": [
+    "source:AB00352"
+   ],
+   "relation": "adjacent",
+   "why": "Paul is told: my grace is sufficient for thee, for my strength is made perfect in weakness."
+  },
+  {
+   "id": "samuel-speak-lord",
+   "after": "source:BH07113",
+   "responds": [
+    "source:BH07113"
+   ],
+   "relation": "adjacent",
+   "why": "The boy Samuel is taught to answer: speak, Lord, for thy servant heareth."
+  },
+  {
+   "id": "psalm-whom-shall-i-fear",
+   "after": "source:BH00591",
+   "responds": [
+    "source:BH00591"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: the Lord is my light and my salvation; whom shall I fear?"
+  },
+  {
+   "id": "isaiah-here-am-i",
+   "after": "source:BH06196",
+   "responds": [
+    "source:BH06196"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears the Lord ask whom he shall send, and answers: here am I; send me."
+  },
+  {
+   "id": "romans-living-sacrifice",
+   "after": "source:BH06196",
+   "responds": [
+    "source:BH06196"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks his readers to present their bodies a living sacrifice, holy, acceptable unto God."
+  },
+  {
+   "id": "daniel-fiery-furnace",
+   "after": "source:AB08846",
+   "responds": [
+    "source:AB08846"
+   ],
+   "relation": "adjacent",
+   "why": "The three young men tell the king that God is able to deliver them from the furnace: but if not, they will still not serve his gods."
+  },
+  {
+   "id": "augustine-give-what-you-command",
+   "after": "source:BH03389",
+   "responds": [
+    "source:BH03389"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine prays, his whole hope being in mercy: give what you command, and command what you will."
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:BH03389",
+   "responds": [
+    "source:BH03389"
+   ],
+   "relation": "complement",
+   "why": "Hume held that reason is, and ought only to be, the slave of the passions. If everyone serves something, what does a person serve who has no will before the will of God?"
+  },
+  {
+   "id": "matthew-cup-pass",
+   "after": "source:BH04460",
+   "responds": [
+    "source:BH04460"
+   ],
+   "relation": "adjacent",
+   "why": "In Gethsemane Jesus falls on his face and prays that, if it be possible, the cup pass from him."
+  },
+  {
+   "id": "quran-surrendered-my-purpose",
+   "after": "source:BH01887",
+   "responds": [
+    "source:BH01887"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells the Prophet to say to those who argue: I have surrendered my purpose to God."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BH01974",
+   "responds": [
+    "source:BH01974"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says that the word was in his heart as a burning fire shut up in his bones, and he could not stay."
+  },
+  {
+   "id": "psalm-out-of-the-depths",
+   "after": "source:BH03447",
+   "responds": [
+    "source:BH03447"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist cries: out of the depths have I cried unto thee, O Lord; Lord, hear my voice."
+  },
+  {
+   "id": "psalm-truly-i-am-thy-servant",
+   "after": "source:BH00987",
+   "responds": [
+    "source:BH00987"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says almost the same words: truly I am thy servant, and the son of thine handmaid."
+  },
+  {
+   "id": "exodus-let-my-people-go",
+   "after": "source:BH00987",
+   "responds": [
+    "source:BH00987"
+   ],
+   "relation": "complement",
+   "why": "Moses says to Pharaoh in God's name: let my people go, that they may hold a feast unto me. Why is the people freed from one master in order to serve another, and is that freedom?"
+  },
+  {
+   "id": "romans-servants-to-righteousness",
+   "after": "source:BH02848",
+   "responds": [
+    "source:BH02848"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that to whom ye yield yourselves servants to obey, his servants ye are, and speaks of becoming the servants of righteousness."
+  },
+  {
+   "id": "quran-love-and-mercy-between-you",
+   "after": "source:AB05652",
+   "responds": [
+    "source:AB05652"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an counts it among God's signs that he created helpmeets and ordained between them love and mercy."
+  },
+  {
+   "id": "psalm-whither-shall-i-go",
+   "after": "source:BH05071",
+   "responds": [
+    "source:BH05071"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks: whither shall I go from thy spirit, or whither shall I flee from thy presence?"
+  },
+  {
+   "id": "luke-depart-from-me",
+   "after": "source:BH05768",
+   "responds": [
+    "source:BH05768"
+   ],
+   "relation": "adjacent",
+   "why": "Peter falls at Jesus's knees, saying: depart from me, for I am a sinful man, O Lord."
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:BH05768",
+   "responds": [
+    "source:BH05768"
+   ],
+   "relation": "adjacent",
+   "why": "Paul cries: O wretched man that I am, who shall deliver me?"
+  },
+  {
+   "id": "quran-hate-a-thing",
+   "after": "source:BH06026",
+   "responds": [
+    "source:BH06026"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that it may happen that ye hate a thing which is good for you, and love a thing which is bad for you."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "source:BH07780",
+   "responds": [
+    "source:BH07780"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I am the vine, ye are the branches; without me ye can do nothing."
+  },
+  {
+   "id": "matthew-seek-and-ye-shall-find",
+   "after": "source:BB00556",
+   "responds": [
+    "source:BB00556"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ask, and it shall be given you; knock, and it shall be opened."
+  },
+  {
+   "id": "job-i-abhor-myself",
+   "after": "source:BH01165",
+   "responds": [
+    "source:BH01165"
+   ],
+   "relation": "adjacent",
+   "why": "Job, having seen, says: wherefore I abhor myself, and repent in dust and ashes."
+  },
+  {
+   "id": "song-sought-him-whom-my-soul-loveth",
+   "after": "source:AB06887",
+   "responds": [
+    "source:AB06887"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Solomon says: by night on my bed I sought him whom my soul loveth."
+  },
+  {
+   "id": "luke-prodigal-a-great-way-off",
+   "after": "source:BB00011",
+   "responds": [
+    "source:BB00011"
+   ],
+   "relation": "adjacent",
+   "why": "The returning son says: Father, I have sinned against heaven, and in thy sight."
+  },
+  {
+   "id": "daniel-we-have-sinned",
+   "after": "source:BB00166",
+   "responds": [
+    "source:BB00166"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel prays for his people: we have sinned, and have committed iniquity, and have rebelled."
+  },
+  {
+   "id": "khayyam-forgiveness-give-and-take",
+   "after": "source:BB00166",
+   "responds": [
+    "source:BB00166"
+   ],
+   "relation": "contrast",
+   "why": "Khayyam, in FitzGerald's version, turns to the Maker who devised the snake with Paradise and says: man's forgiveness give, and take. What would the one who prays 'my very existence is pure sin' answer him?"
+  },
+  {
+   "id": "lamentations-let-us-search-and-try",
+   "after": "source:BH01524",
+   "responds": [
+    "source:BH01524"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says: let us search and try our ways, and turn again to the Lord."
+  },
+  {
+   "id": "quran-despair-not-of-mercy",
+   "after": "source:BH09864",
+   "responds": [
+    "source:BH09864"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says: despair not of the mercy of God, who forgiveth all sins."
+  },
+  {
+   "id": "samuel-here-am-i",
+   "after": "source:BH10588",
+   "responds": [
+    "source:BH10588"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord called Samuel in the night, and he answered: here am I."
+  },
+  {
+   "id": "tolstoy-three-hermits",
+   "after": "source:BH08594",
+   "responds": [
+    "source:BH08594"
+   ],
+   "relation": "complement",
+   "why": "Tolstoy's three hermits know only one prayer, 'have mercy upon us', and the bishop tells them that it will reach the Lord. How much of the long prayers in this guide is already in theirs?"
+  }
+ ],
+ "library": {
+  "psalm-eyes-of-servants": {
+   "text": "Unto thee lift I up mine eyes, O thou that dwellest in the heavens. Behold, as the eyes of servants look unto the hand of their masters, and as the eyes of a maiden unto the hand of her mistress; so our eyes wait upon the Lord our God, until that he have mercy upon us",
+   "work": "Psalm 123:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20123%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-servants-to-righteousness": {
+   "text": "Know ye not, that to whom ye yield yourselves servants to obey, his servants ye are to whom ye obey; whether of sin unto death, or of obedience unto righteousness? But God be thanked, that ye were the servants of sin, but ye have obeyed from the heart that form of doctrine which was delivered you. Being then made free from sin, ye became the servants of righteousness",
+   "work": "Romans 6:16–18",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%206%3A16-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "joel-rend-your-heart": {
+   "text": "Therefore also now, saith the Lord, turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning: And rend your heart, and not your garments, and turn unto the Lord your God: for he is gracious and merciful, slow to anger, and of great kindness, and repenteth him of the evil",
+   "work": "Joel 2:12–13",
+   "year": "c. 5th–4th century BCE",
+   "sortYear": -400,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Joel%202%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-against-thee-only": {
+   "text": "For I acknowledge my transgressions: and my sin is ever before me. Against thee, thee only, have I sinned, and done this evil in thy sight: that thou mightest be justified when thou speakest, and be clear when thou judgest",
+   "work": "Psalm 51:3–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2051%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "lamentations-let-us-search-and-try": {
+   "text": "Wherefore doth a living man complain, a man for the punishment of his sins? Let us search and try our ways, and turn again to the Lord. Let us lift up our heart with our hands unto God in the heavens",
+   "work": "Lamentations 3:39–41",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Lamentations%203%3A39-41&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-we-have-sinned": {
+   "text": "O Lord, the great and dreadful God, keeping the covenant and mercy to them that love him, and to them that keep his commandments; We have sinned, and have committed iniquity, and have done wickedly, and have rebelled, even by departing from thy precepts and from thy judgments",
+   "work": "Daniel 9:4–5",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%209%3A4-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "chronicles-humble-themselves": {
+   "text": "If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land",
+   "work": "2 Chronicles 7:14",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Chronicles%207%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezra-ashamed-and-blush": {
+   "text": "O my God, I am ashamed and blush to lift up my face to thee, my God: for our iniquities are increased over our head, and our trespass is grown up unto the heavens",
+   "work": "Ezra 9:6",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezra%209%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-obeyed-our-princes": {
+   "text": "And they say: Our Lord! Lo! we obeyed our princes and great men, and they misled us from the Way.",
+   "work": "Qur’an 33:67",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=33&verse=67",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-wronged-ourselves": {
+   "text": "They said: Our Lord! We have wronged ourselves. If thou forgive us not and have not mercy on us, surely we are of the lost!",
+   "work": "Qur’an 7:23",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=7&verse=23",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-turn-unto-allah-in-sincere-repentance": {
+   "text": "O ye who believe! Turn unto Allah in sincere repentance! It may be that your Lord will remit from you your evil deeds and bring you into Gardens underneath which rivers flow, on the day when Allah will not abase the Prophet and those who believe with him. Their light will run before them and on their right hands; they will say: Our Lord! Perfect our light for us, and forgive us! Lo! Thou art Able to do all things.",
+   "work": "Qur’an 66:8",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=66&verse=8",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-surrendered-my-purpose": {
+   "text": "And if they argue with thee, (O Muhammad), say: I have surrendered my purpose to Allah and (so have) those who follow me. And say unto those who have received the Scripture and those who read not: Have ye (too) surrendered? If they surrender, then truly they are rightly guided, and if they turn away, then it is thy duty only to convey the message (unto them). Allah is Seer of (His) bondmen.",
+   "work": "Qur’an 3:20",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=20",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-none-but-cometh-as-a-slave": {
+   "text": "There is none in the heavens and the earth but cometh unto the Beneficent as a slave.",
+   "work": "Qur’an 19:93",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=19&verse=93",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-prostrate-willingly-or-unwillingly": {
+   "text": "And unto Allah falleth prostrate whosoever is in the heavens and the earth, willingly or unwillingly, as do their shadows in the morning and the evening hours.",
+   "work": "Qur’an 13:15",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=13&verse=15",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "psalm-truly-i-am-thy-servant": {
+   "text": "O Lord, truly I am thy servant; I am thy servant, and the son of thine handmaid: thou hast loosed my bonds",
+   "work": "Psalm 116:16",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20116%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-as-he-that-serveth": {
+   "text": "But ye shall not be so: but he that is greatest among you, let him be as the younger; and he that is chief, as he that doth serve. For whether is greater, he that sitteth at meat, or he that serveth? is not he that sitteth at meat? but I am among you as he that serveth",
+   "work": "Luke 22:26–27",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2022%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
