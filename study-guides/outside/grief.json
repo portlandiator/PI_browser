@@ -1,0 +1,2342 @@
+{
+ "format": 2,
+ "slug": "grief",
+ "subject": "8B74AA4BF06FE197BC2DFCF83BE17C14",
+ "status": "published",
+ "limit": 100,
+ "rule": "proportional",
+ "readings": 100,
+ "quotations": 100,
+ "kept": [
+  "source:BH03740",
+  "source:ABU2994",
+  "source:AB04836",
+  "source:AB11255",
+  "source:BB00382",
+  "source:BH08836",
+  "source:BH08850",
+  "source:AB00195",
+  "source:BH00987",
+  "source:ABU3592",
+  "source:ABU3344",
+  "source:AB10079",
+  "source:BH00893",
+  "source:BH07010",
+  "source:BH02848",
+  "source:BH01888",
+  "source:BH08257",
+  "source:BH08264",
+  "source:BH06576",
+  "source:BH07661",
+  "source:AB08150",
+  "source:AB08694",
+  "source:BH00379",
+  "source:AB11244",
+  "source:BH04745",
+  "source:AB03219",
+  "source:AB03393",
+  "source:ABU0959",
+  "source:ABU1194",
+  "source:ABU3058",
+  "source:AB05927",
+  "source:AB03183",
+  "source:BH03804",
+  "source:AB04032",
+  "source:AB00582",
+  "source:BH07659",
+  "source:AB00398",
+  "source:AB00003",
+  "source:AB00559",
+  "source:AB00489",
+  "source:BB00002",
+  "source:BB00321",
+  "source:BH02301",
+  "source:BH08470",
+  "source:BH07204",
+  "source:AB04864",
+  "source:AB03650",
+  "source:BH00704",
+  "source:AB07153",
+  "source:BH01026",
+  "source:AB00172",
+  "source:AB00145",
+  "source:AB00344",
+  "source:AB04718",
+  "source:AB01430",
+  "source:BH00579",
+  "source:BH01693",
+  "source:BH11461",
+  "source:BH03562",
+  "source:BH02871",
+  "source:BH07689",
+  "source:BH09809",
+  "source:AB05831",
+  "source:AB01742",
+  "source:AB02675",
+  "source:BH03818",
+  "source:BH06196",
+  "source:AB02770",
+  "source:BH00296",
+  "source:BH00591",
+  "source:BH03359",
+  "source:BH00687",
+  "source:BH11759",
+  "source:AB06012",
+  "source:BH09704",
+  "source:BH03287",
+  "source:BH02764",
+  "source:BH08255",
+  "source:AB03646",
+  "source:BH02462",
+  "source:AB05199",
+  "source:BH06833",
+  "source:AB00128",
+  "source:AB10699",
+  "source:BH10803",
+  "source:AB03815",
+  "source:AB00284",
+  "source:BH00889",
+  "source:AB01619",
+  "source:AB12080",
+  "source:ABU0230",
+  "source:AB09047",
+  "source:AB07060",
+  "source:AB08086",
+  "source:AB05889",
+  "source:AB00402",
+  "source:AB05911",
+  "source:AB03416",
+  "source:ABU3553",
+  "source:AB02185"
+ ],
+ "introduction": "This guide begins with sorrow spoken aloud: hearts burnt with longing, a brother’s tears for his sister, a prisoner’s “How long wilt Thou abandon me?” It moves through separation, the death of husbands, daughters and sons, the old elegies for Ḥusayn, the grief of war and persecution, the pain of broken trust, and ends with consolation done as care: letters, visits, a question about what is wrong. The readings weep and tell others not to weep, sometimes in the same letter. The Psalms and Lamentations, Jacob and David, Jeremiah and Job gave this speech its oldest forms, and Shakespeare, Tennyson, Hopkins and Dickinson its English ones; Confucius mourning his disciple and Augustine his friend belong here too. The contrary voices are the Dhammapada and the Gītā, which would have the wise not mourn at all; Emerson, who found that grief taught him nothing; Lear, for whom there is no afterwards; Job’s comforters; and the beatitude that blesses those who mourn, set beside a reading that calls sadness a lack of certitude.",
+ "questions": [
+  "“Now say whatever your troubled heart desires.” Malcolm says “Give sorrow words”, and Tennyson half fears to. What do the prayers of lament in this guide do for the one who says them?",
+  "A mother is told to take pride and not to grieve; Rachel refuses to be comforted; Jesus wept. How do these readings, taken together and with ‘Abdu’l-Bahá’s own tears, treat mourning?",
+  "The Dhammapada says that those who love nothing have no fetters, and Tennyson that it is better to have loved and lost. Which do the readings stand nearer, and how do they understand the grief that love costs?",
+  "“Resort to sadness and grief in the midst of tribulation is but an indication of lack of assurance and certitude.” “Blessed are they that mourn.” To whom, and when, might each be the right thing to say?",
+  "Job’s friends did best when they sat silent for seven days. Look at the letters in the last part: what do they do first, and what do they refrain from doing?",
+  "The Báb makes weeping for Ḥusayn a duty; Yeats warns that too long a sacrifice can make a stone of the heart; Du Bois feels an awful gladness at his child’s grave. What can public grief accomplish, and what are its dangers?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-hart-panteth",
+   "after": "source:BH03740",
+   "responds": [
+    "source:BH03740"
+   ],
+   "relation": "adjacent",
+   "why": "“The hearts that yearn after Thee … are burnt up with the fire of their longing.” The psalm of longing: as the hart panteth after the water brooks, so panteth my soul after thee."
+  },
+  {
+   "id": "shakespeare-give-sorrow-words",
+   "after": "source:ABU2994",
+   "responds": [
+    "source:ABU2994"
+   ],
+   "relation": "adjacent",
+   "why": "“Now is the time for you to say what is in your heart … say whatever your troubled heart desires.” Malcolm to a man who has just learned that his family is dead: give sorrow words; the grief that does not speak whispers the o’er-fraught heart and bids it break."
+  },
+  {
+   "id": "tennyson-words-half-reveal",
+   "after": "source:ABU2994",
+   "responds": [
+    "source:ABU2994"
+   ],
+   "relation": "complement",
+   "why": "‘Abdu’l-Bahá invites a grieving visitor to speak. Tennyson, beginning a long poem of mourning, sometimes holds it half a sin to put grief in words, since words half reveal and half conceal. What can be said of a sorrow, and what is the saying for?"
+  },
+  {
+   "id": "tennyson-loved-and-lost",
+   "after": "source:AB04836",
+   "responds": [
+    "source:AB04836"
+   ],
+   "relation": "adjacent",
+   "why": "Losses are hard to bear “inasmuch as love and affection torment the heart”. Tennyson accepts the bargain: ’tis better to have loved and lost than never to have loved at all."
+  },
+  {
+   "id": "romans-weep-with-them-that-weep",
+   "after": "source:AB11255",
+   "responds": [
+    "source:AB11255"
+   ],
+   "relation": "adjacent",
+   "why": "“My sorrow and regret concern not myself; they centre around thee.” Paul’s rule in six words: weep with them that weep."
+  },
+  {
+   "id": "psalm-lover-and-friend",
+   "after": "source:BB00382",
+   "responds": [
+    "source:BB00382"
+   ],
+   "relation": "adjacent",
+   "why": "“The sorrow of solitude and loneliness prompteth me to invoke Thee.” The darkest of the psalms ends there: lover and friend hast thou put far from me, and mine acquaintance into darkness."
+  },
+  {
+   "id": "psalm-tears-into-thy-bottle",
+   "after": "source:BH08836",
+   "responds": [
+    "source:BH08836"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou seest my tears and lamentations, and hearest my sighing.” The psalmist asks that his tears be kept: put thou my tears into thy bottle: are they not in thy book?"
+  },
+  {
+   "id": "psalm-how-long",
+   "after": "source:BH08850",
+   "responds": [
+    "source:BH08850"
+   ],
+   "relation": "adjacent",
+   "why": "“How long wilt Thou abandon me among Thy servants?” The psalm asks it four times in two verses: how long wilt thou forget me, O Lord? for ever?"
+  },
+  {
+   "id": "psalm-water-my-couch",
+   "after": "source:AB00195",
+   "responds": [
+    "source:AB00195"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hearest my sighs and bitter wailing … in the depths of these darksome nights.” The psalm: all the night make I my bed to swim; I water my couch with my tears."
+  },
+  {
+   "id": "psalm-out-of-the-depths",
+   "after": "source:BH00987",
+   "responds": [
+    "source:BH00987"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou dost perceive my tears and the sighs I utter, and hearest my groaning.” The psalm that the church has said for its dead: out of the depths have I cried unto thee, O Lord."
+  },
+  {
+   "id": "matthew-exceeding-sorrowful",
+   "after": "source:ABU3592",
+   "responds": [
+    "source:ABU3592"
+   ],
+   "relation": "adjacent",
+   "why": "“I am so fatigued … I am too weary to walk.” Jesus in Gethsemane, to three friends: my soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me."
+  },
+  {
+   "id": "quran-eyes-whitened-with-sorrow",
+   "after": "source:AB10079",
+   "responds": [
+    "source:AB10079"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse ‘Abdu’l-Bahá quotes of Jacob: his eyes were whitened with the sorrow that he was suppressing."
+  },
+  {
+   "id": "genesis-refused-to-be-comforted",
+   "after": "source:AB10079",
+   "responds": [
+    "source:AB10079"
+   ],
+   "relation": "adjacent",
+   "why": "Jacob wept for Joseph until he was blind. Genesis tells it of the first day: all his sons and all his daughters rose up to comfort him; but he refused to be comforted."
+  },
+  {
+   "id": "quran-joseph-shirt",
+   "after": "source:BH00893",
+   "responds": [
+    "source:BH00893"
+   ],
+   "relation": "adjacent",
+   "why": "“Jacob’s eyes were illumined by the fragrance of his son’s garment.” The story is in the Qur’an: go with this shirt of mine and lay it on my father’s face."
+  },
+  {
+   "id": "rumi-reed",
+   "after": "source:BH07010",
+   "responds": [
+    "source:BH07010"
+   ],
+   "relation": "adjacent",
+   "why": "“Many a true morn has dawned, yet the night of separation has not ended.” Rūmī’s poem opens on the reed-flute’s complaint of separation from the reed-bed."
+  },
+  {
+   "id": "hopkins-no-worst",
+   "after": "source:BH07010",
+   "responds": [
+    "source:BH07010"
+   ],
+   "relation": "adjacent",
+   "why": "“It seems the gates of hope have closed and the gardens of despair have opened.” Hopkins, a priest, from inside the same night: Comforter, where, where is your comforting?"
+  },
+  {
+   "id": "psalm-went-with-them",
+   "after": "source:BH02848",
+   "responds": [
+    "source:BH02848"
+   ],
+   "relation": "adjacent",
+   "why": "He grieves at separation “in the days when the Daystar of Thy presence hath shed its radiance upon Thy people”. The exile remembers when he went with the multitude to the house of God."
+  },
+  {
+   "id": "psalm-rivers-of-babylon",
+   "after": "source:BH01888",
+   "responds": [
+    "source:BH01888"
+   ],
+   "relation": "adjacent",
+   "why": "Some “were hindered … from having near access to Thee”. The exiles: by the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion."
+  },
+  {
+   "id": "romans-groanings-cannot-be-uttered",
+   "after": "source:BH07661",
+   "responds": [
+    "source:BH07661"
+   ],
+   "relation": "adjacent",
+   "why": "He can hear his pen’s “lamentation in its remoteness from Thee”. Paul: the Spirit itself maketh intercession for us with groanings which cannot be uttered."
+  },
+  {
+   "id": "jeremiah-balm-in-gilead",
+   "after": "source:AB08150",
+   "responds": [
+    "source:AB08150"
+   ],
+   "relation": "adjacent",
+   "why": "“Lay a balm upon my wounded heart.” Jeremiah, hurt with the hurt of his people: is there no balm in Gilead; is there no physician there?"
+  },
+  {
+   "id": "dhammapada-love-nothing",
+   "after": "source:AB08694",
+   "responds": [
+    "source:AB08694"
+   ],
+   "relation": "contrast",
+   "why": "The prayer asks to be freed from attachment to friend and stranger, and to weep only for One. The Dhammapada goes further: let no man love anything; those who love nothing have no fetters. Is the end of grief worth that price, and is it the price the prayer is paying?"
+  },
+  {
+   "id": "john-jesus-wept",
+   "after": "source:BH00379",
+   "responds": [
+    "source:BH00379"
+   ],
+   "relation": "adjacent",
+   "why": "“The Eye of majesty wept sore at their weeping.” The shortest verse in the Bible: Jesus wept."
+  },
+  {
+   "id": "corinthians-with-many-tears",
+   "after": "source:AB11244",
+   "responds": [
+    "source:AB11244"
+   ],
+   "relation": "adjacent",
+   "why": "What he writes of her “will assuredly be effaced by the tears”. Paul: out of much affliction and anguish of heart I wrote unto you with many tears."
+  },
+  {
+   "id": "tennyson-vanished-hand",
+   "after": "source:AB11244",
+   "responds": [
+    "source:AB11244"
+   ],
+   "relation": "adjacent",
+   "why": "“Day and night she liveth in my remembrance.” Tennyson, of a friend seventeen years dead: O for the touch of a vanish’d hand, and the sound of a voice that is still!"
+  },
+  {
+   "id": "samuel-lament-for-jonathan",
+   "after": "source:BH04745",
+   "responds": [
+    "source:BH04745"
+   ],
+   "relation": "adjacent",
+   "why": "“Mine eyes run down with tears for them who, in these days, have ascended unto Thee.” David’s lament: I am distressed for thee, my brother Jonathan."
+  },
+  {
+   "id": "job-sat-seven-days",
+   "after": "source:AB03219",
+   "responds": [
+    "source:AB03219"
+   ],
+   "relation": "adjacent",
+   "why": "“In this grief you have a kind partner and companion in sighs and cries.” Job’s friends, before they spoke and spoiled it, sat with him seven days and nights, and none spake a word."
+  },
+  {
+   "id": "emerson-grief-can-teach-me-nothing",
+   "after": "source:AB03393",
+   "responds": [
+    "source:AB03393"
+   ],
+   "relation": "contrast",
+   "why": "“This sorrow will ever remain and endure and never be forgotten.” Emerson, two years after his small son died, found the opposite and was appalled: I grieve that grief can teach me nothing. Which is the harder thing to live with?"
+  },
+  {
+   "id": "augustine-whatever-i-looked-upon-was-death",
+   "after": "source:ABU0959",
+   "responds": [
+    "source:ABU0959"
+   ],
+   "relation": "adjacent",
+   "why": "After nearly fifty years a last meeting is “as though it was a matter of yesterday”. Augustine remembered a friend’s death for the rest of his life: my heart was utterly darkened, and whatever I looked upon was death."
+  },
+  {
+   "id": "luke-widow-of-nain",
+   "after": "source:ABU3058",
+   "responds": [
+    "source:ABU3058"
+   ],
+   "relation": "adjacent",
+   "why": "A woman comes “full of sorrow and despair”: she has lost her husband. Jesus meets a widow following her only son’s bier, and Luke gives his first word to her: weep not."
+  },
+  {
+   "id": "shakespeare-grief-fills-the-room",
+   "after": "source:AB05927",
+   "responds": [
+    "source:AB05927"
+   ],
+   "relation": "adjacent",
+   "why": "“The shocking and stunning news of the passing of your beloved daughter.” Constance, whose son has been taken: grief fills the room up of my absent child, lies in his bed, walks up and down with me."
+  },
+  {
+   "id": "jonson-first-son",
+   "after": "source:AB05927",
+   "responds": [
+    "source:AB05927"
+   ],
+   "relation": "adjacent",
+   "why": "“Separation is indeed bitter to taste.” Ben Jonson to his son, dead at seven: farewell, thou child of my right hand, and joy."
+  },
+  {
+   "id": "samuel-o-absalom",
+   "after": "source:AB03183",
+   "responds": [
+    "source:AB03183"
+   ],
+   "relation": "adjacent",
+   "why": "“The loss of a son is indeed heart-breaking and beyond the limits of human endurance.” David: O my son Absalom, my son, my son Absalom! would God I had died for thee."
+  },
+  {
+   "id": "samuel-i-shall-go-to-him",
+   "after": "source:AB03183",
+   "responds": [
+    "source:AB03183"
+   ],
+   "relation": "adjacent",
+   "why": "She “will find him in the divine realm”. David again, of another child: I shall go to him, but he shall not return to me."
+  },
+  {
+   "id": "jeremiah-rachel-weeping",
+   "after": "source:BH03804",
+   "responds": [
+    "source:BH03804"
+   ],
+   "relation": "complement",
+   "why": "“O mother! Grieve not over the loss of thy son; rather pride thyself therein.” Jeremiah hears Rachel weeping for her children, refusing to be comforted because they are not. What must be true of the mother addressed for the reading’s words to be bearable?"
+  },
+  {
+   "id": "gita-mourn-not",
+   "after": "source:BH03804",
+   "responds": [
+    "source:BH03804"
+   ],
+   "relation": "contrast",
+   "why": "A mother is told that this is “an occasion for gladness”. Krishna says as much to Arjuna on philosophical grounds: the wise in heart mourn not for those that live, nor those that die. Is that wisdom, and is it the reading’s reason?"
+  },
+  {
+   "id": "thessalonians-sorrow-not",
+   "after": "source:AB00398",
+   "responds": [
+    "source:AB00398"
+   ],
+   "relation": "adjacent",
+   "why": "“Grieve thou not over the ascension of my beloved Breakwell.” Paul: that ye sorrow not, even as others which have no hope."
+  },
+  {
+   "id": "lamentations-how-doth-the-city",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou seest naught but their empty places, their gaping roofs, their uprooted beams.” Lamentations: how doth the city sit solitary, that was full of people! how is she become as a widow!"
+  },
+  {
+   "id": "isaiah-as-his-mother-comforteth",
+   "after": "source:AB00559",
+   "responds": [
+    "source:AB00559"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer blesses “the mother who bore him” and asks for her patience and solace. Isaiah gives God a mother’s part: as one whom his mother comforteth, so will I comfort you."
+  },
+  {
+   "id": "analects-bewailed-him-exceedingly",
+   "after": "source:AB00489",
+   "responds": [
+    "source:AB00489"
+   ],
+   "relation": "adjacent",
+   "why": "“‘Abdu’l-Bahá is assailed by despondency and anguish.” When his best disciple died, Confucius was told his grief was excessive, and answered: if I am not to mourn bitterly for this man, for whom should I mourn?"
+  },
+  {
+   "id": "shakespeare-never-never",
+   "after": "source:AB00489",
+   "responds": [
+    "source:AB00489"
+   ],
+   "relation": "contrast",
+   "why": "The readings in this part grieve and then speak of reunion. Lear, with Cordelia dead in his arms, has no then: thou’lt come no more, never, never, never, never, never. What does a reader owe to that cry before turning to the consolation?"
+  },
+  {
+   "id": "lamentations-is-it-nothing-to-you",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "God has prescribed, at the mention of Ḥusayn, “weeping like unto the weeping of the bereaved”. Jerusalem in Lamentations: is it nothing to you, all ye that pass by? behold, and see if there be any sorrow like unto my sorrow."
+  },
+  {
+   "id": "analects-deep-sorrow",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "complement",
+   "why": "The Báb makes weeping a duty and its absence a betrayal. Confucius preferred, in mourning, deep sorrow to minute attention to observances. Can sorrow be commanded, and what is a commanded mourning for?"
+  },
+  {
+   "id": "romans-creation-groaneth",
+   "after": "source:BB00321",
+   "responds": [
+    "source:BB00321"
+   ],
+   "relation": "adjacent",
+   "why": "“When he was killed … everything wept for forty days.” Paul hears it always: the whole creation groaneth and travaileth in pain together until now."
+  },
+  {
+   "id": "matthew-killest-the-prophets",
+   "after": "source:BH02301",
+   "responds": [
+    "source:BH02301"
+   ],
+   "relation": "adjacent",
+   "why": "“Where is my Hasan, and where my Husayn?” Jesus over his own city: O Jerusalem, thou that killest the prophets, how often would I have gathered thy children together."
+  },
+  {
+   "id": "isaiah-man-of-sorrows",
+   "after": "source:BH08470",
+   "responds": [
+    "source:BH08470"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever ponders what befell the family of the Messenger “would weep with the weeping of the bereaved”. Isaiah’s servant: a man of sorrows, and acquainted with grief; and we hid as it were our faces from him."
+  },
+  {
+   "id": "luke-time-of-thy-visitation",
+   "after": "source:BH07204",
+   "responds": [
+    "source:BH07204"
+   ],
+   "relation": "adjacent",
+   "why": "“Muḥammad, the Apostle of God, bewaileth, in the all-highest Paradise, their acts, but the people do not understand.” Jesus beheld the city, and wept over it."
+  },
+  {
+   "id": "hopkins-margaret-you-mourn-for",
+   "after": "source:AB04864",
+   "responds": [
+    "source:AB04864"
+   ],
+   "relation": "complement",
+   "why": "‘Abdu’l-Bahá watches people weeping as they recite elegies for one killed twelve centuries before. Hopkins tells a child crying over falling leaves what all mourning is about: sorrow’s springs are the same; it is the blight man was born for. For whom does an elegy weep?"
+  },
+  {
+   "id": "john-mary-at-the-tomb",
+   "after": "source:BH00704",
+   "responds": [
+    "source:BH00704"
+   ],
+   "relation": "adjacent",
+   "why": "“By reason of your sorrow, the inmates of the all-highest Paradise were overcome with grief.” Mary stands weeping at the tomb and is asked twice why; the second asker calls her by name."
+  },
+  {
+   "id": "isaiah-lamb-to-the-slaughter",
+   "after": "source:AB07153",
+   "responds": [
+    "source:AB07153"
+   ],
+   "relation": "adjacent",
+   "why": "Persecuted, she was “patient, God-fearing, calm, humble and contented”. Isaiah: as a sheep before her shearers is dumb, so he openeth not his mouth."
+  },
+  {
+   "id": "ruth-call-me-mara",
+   "after": "source:BH01026",
+   "responds": [
+    "source:BH01026"
+   ],
+   "relation": "adjacent",
+   "why": "They “rent their garments asunder, beat upon their faces, forgot their joy”. Naomi, home again without husband or sons: call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."
+  },
+  {
+   "id": "jeremiah-fountain-of-tears",
+   "after": "source:AB00172",
+   "responds": [
+    "source:AB00172"
+   ],
+   "relation": "adjacent",
+   "why": "“Never in those days was he so affected and grief-stricken as now … The eye is weeping and the heart is burning.” Jeremiah: oh that my head were waters, and mine eyes a fountain of tears, that I might weep day and night for the slain."
+  },
+  {
+   "id": "eisenhower-every-gun",
+   "after": "source:AB00172",
+   "responds": [
+    "source:AB00172"
+   ],
+   "relation": "adjacent",
+   "why": "“Now is the time to raise the standard of universal peace and resist this mighty flood.” A general turned president reckoned the same affliction in schools and hospitals not built: humanity hanging from a cross of iron."
+  },
+  {
+   "id": "owen-anthem",
+   "after": "source:AB00145",
+   "responds": [
+    "source:AB00145"
+   ],
+   "relation": "adjacent",
+   "why": "“We hear naught but the wailing of orphans and the sighing of mothers.” Wilfred Owen, from the trenches of the same war: what passing-bells for these who die as cattle?"
+  },
+  {
+   "id": "yeats-stone-of-the-heart",
+   "after": "source:AB00344",
+   "responds": [
+    "source:AB00344"
+   ],
+   "relation": "complement",
+   "why": "“How many a time hath a mother cried out with a bitter cry.” Yeats, of a people’s long grief: too long a sacrifice can make a stone of the heart. What keeps public mourning from hardening those who mourn?"
+  },
+  {
+   "id": "hobbes-god-and-wolf",
+   "after": "source:AB04718",
+   "responds": [
+    "source:AB04718"
+   ],
+   "relation": "adjacent",
+   "why": "“What ignorance is this that humans are predatory toward one another and bloodthirsty!” Hobbes thought it true both that man to man is a kind of God and that man to man is an arrant wolf."
+  },
+  {
+   "id": "lincoln-gettysburg-unfinished-work",
+   "after": "source:AB01430",
+   "responds": [
+    "source:AB01430"
+   ],
+   "relation": "adjacent",
+   "why": "The friends “have raised the cry of lamentation” for two souls wronged and killed. Lincoln at a field of graves: it is for us the living to be dedicated here to the unfinished work."
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:BH00579",
+   "responds": [
+    "source:BH00579"
+   ],
+   "relation": "adjacent",
+   "why": "Tears like rain, and then: “We are thankful and content in the face of whatever may befall Us.” Job does both in one verse."
+  },
+  {
+   "id": "shakespeare-not-single-spies",
+   "after": "source:BH01693",
+   "responds": [
+    "source:BH01693"
+   ],
+   "relation": "adjacent",
+   "why": "“The floods of afflictions are let loose … from the clouds rain down the darts of tests.” Claudius: when sorrows come, they come not single spies, but in battalions."
+  },
+  {
+   "id": "revelation-how-long-o-lord",
+   "after": "source:BH03562",
+   "responds": [
+    "source:BH03562"
+   ],
+   "relation": "adjacent",
+   "why": "“It behooveth Thy loved ones to shed tears of blood for that which hath befallen the faithful at the hands of the wicked.” The souls of the slain under the altar cry with a loud voice: how long, O Lord?"
+  },
+  {
+   "id": "psalm-broken-heart",
+   "after": "source:BH02871",
+   "responds": [
+    "source:BH02871"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou seest my poverty and my misery … the anguish of my soul.” The psalm: the Lord is nigh unto them that are of a broken heart."
+  },
+  {
+   "id": "habakkuk-how-long-shall-i-cry",
+   "after": "source:BH07689",
+   "responds": [
+    "source:BH07689"
+   ],
+   "relation": "adjacent",
+   "why": "“From every land Thou hearest the lamentations of them that love Thee.” Habakkuk begins his book with the complaint that he is not heard: how long shall I cry, and thou wilt not hear!"
+  },
+  {
+   "id": "dubois-not-dead-but-escaped",
+   "after": "source:BH09809",
+   "responds": [
+    "source:BH09809"
+   ],
+   "relation": "complement",
+   "why": "“No land remaineth but the lamentation of Thy lovers … were lifted up therein.” Du Bois, burying his first child in Georgia, felt “an awful gladness”: not dead, but escaped; not bond, but free. What does it say of a society when a father can grieve like that?"
+  },
+  {
+   "id": "dickinson-after-great-pain",
+   "after": "source:AB05831",
+   "responds": [
+    "source:AB05831"
+   ],
+   "relation": "adjacent",
+   "why": "“I am now so sorrowful and grief-stricken that my fingers can no longer write.” Emily Dickinson on the stillness that follows: after great pain a formal feeling comes; the nerves sit ceremonious like tombs."
+  },
+  {
+   "id": "psalm-not-an-enemy",
+   "after": "source:AB01742",
+   "responds": [
+    "source:AB01742"
+   ],
+   "relation": "adjacent",
+   "why": "The worst sorrow comes from “alienation and unhappiness from the hearts of the friends”. The psalm: it was not an enemy that reproached me; then I could have borne it. But it was thou, mine equal, my guide."
+  },
+  {
+   "id": "proverbs-heart-knoweth-his-own-bitterness",
+   "after": "source:AB02675",
+   "responds": [
+    "source:AB02675"
+   ],
+   "relation": "adjacent",
+   "why": "“I have suffered greatly, been deeply affected, burned and wept. Despite all this I said nothing.” Proverbs: the heart knoweth his own bitterness."
+  },
+  {
+   "id": "quran-jacob-distress",
+   "after": "source:BH03818",
+   "responds": [
+    "source:BH03818"
+   ],
+   "relation": "adjacent",
+   "why": "The poet quoted claims a grief beyond Jacob’s. Jacob in the Qur’an says where his went: I expose my distress and anguish only unto Allah."
+  },
+  {
+   "id": "job-let-the-day-perish",
+   "after": "source:BH03818",
+   "responds": [
+    "source:BH03818"
+   ],
+   "relation": "adjacent",
+   "why": "“All of Job’s afflictions were but a portion of my tribulation.” Job’s own first words after seven days of silence: let the day perish wherein I was born."
+  },
+  {
+   "id": "job-miserable-comforters",
+   "after": "source:AB02770",
+   "responds": [
+    "source:AB02770"
+   ],
+   "relation": "complement",
+   "why": "‘Abdu’l-Bahá is saddened by a friend’s lament and surprised, having written to him often with love. Job to his friends: miserable comforters are ye all. Why does consolation so often miss, and what does this letter do when it has missed?"
+  },
+  {
+   "id": "psalm-broken-spirit",
+   "after": "source:BH00296",
+   "responds": [
+    "source:BH00296"
+   ],
+   "relation": "adjacent",
+   "why": "“My breast is straitened, O my God, and sorrows and vexations have compassed me round.” The psalm of repentance: the sacrifices of God are a broken spirit."
+  },
+  {
+   "id": "luke-peter-wept-bitterly",
+   "after": "source:BH03359",
+   "responds": [
+    "source:BH03359"
+   ],
+   "relation": "complement",
+   "why": "Some “recite Thy verses and repudiate their Revealer”. Peter, who had sworn he never would, heard the cock, and went out, and wept bitterly. The readings give the grief of the one betrayed. What is the grief of the one who betrays, and where does it lead?"
+  },
+  {
+   "id": "corinthians-godly-sorrow",
+   "after": "source:BH03359",
+   "responds": [
+    "source:BH03359"
+   ],
+   "relation": "adjacent",
+   "why": "Paul distinguishes two sorrows after a wrong done: godly sorrow worketh repentance; but the sorrow of the world worketh death."
+  },
+  {
+   "id": "psalm-forsaken",
+   "after": "source:BH00687",
+   "responds": [
+    "source:BH00687"
+   ],
+   "relation": "adjacent",
+   "why": "“Those who are near unto Thee have been abandoned in the darkness of desolation: Where is the shining of the morn of Thy reunion?” The psalm that Jesus spoke on the cross: my God, my God, why hast thou forsaken me?"
+  },
+  {
+   "id": "quran-not-forsaken-thee",
+   "after": "source:BH11759",
+   "responds": [
+    "source:BH11759"
+   ],
+   "relation": "adjacent",
+   "why": "“I am He Who weepeth at the weeping of them that love Me.” The Qur’an to its Prophet in a time of silence: thy Lord hath not forsaken thee nor doth He hate thee."
+  },
+  {
+   "id": "psalm-joy-in-the-morning",
+   "after": "source:AB06012",
+   "responds": [
+    "source:AB06012"
+   ],
+   "relation": "adjacent",
+   "why": "“In the darksome night of despair, my eye turneth expectant and full of hope to the morn.” The psalm: weeping may endure for a night, but joy cometh in the morning."
+  },
+  {
+   "id": "hopkins-send-my-roots-rain",
+   "after": "source:BH03287",
+   "responds": [
+    "source:BH03287"
+   ],
+   "relation": "adjacent",
+   "why": "“Faded now is all that erstwhile flourished … where is the spring-time of Thy gifts and bounties?” Hopkins sees every bank and brake in leaf except himself: mine, O thou lord of life, send my roots rain."
+  },
+  {
+   "id": "psalm-sow-in-tears",
+   "after": "source:BH02764",
+   "responds": [
+    "source:BH02764"
+   ],
+   "relation": "adjacent",
+   "why": "“The eyes of His loved ones have always wept sore, while His enemies have rejoiced.” The psalm promises the reversal: they that sow in tears shall reap in joy."
+  },
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:AB03646",
+   "responds": [
+    "source:AB03646"
+   ],
+   "relation": "adjacent",
+   "why": "A friend is “grieved and distressed at the happenings of the world and the vicissitudes of fortune”. The Preacher: to every thing there is a season, a time to be born, and a time to die."
+  },
+  {
+   "id": "longfellow-some-rain-must-fall",
+   "after": "source:AB03646",
+   "responds": [
+    "source:AB03646"
+   ],
+   "relation": "adjacent",
+   "why": "The same friend might have had Longfellow’s lines by heart, as much of his century did: thy fate is the common fate of all, into each life some rain must fall."
+  },
+  {
+   "id": "ecclesiastes-one-event",
+   "after": "source:BH02462",
+   "responds": [
+    "source:BH02462"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou beholdest both the helplessness of Thy dear ones and the ascendancy of Thy foes.” The Preacher saw it and did not soften it: there is one event to the righteous, and to the wicked."
+  },
+  {
+   "id": "corinthians-god-of-all-comfort",
+   "after": "source:AB05199",
+   "responds": [
+    "source:AB05199"
+   ],
+   "relation": "adjacent",
+   "why": "The friends, when afflicted, should “be able to comfort others and impart consolation unto them”. Paul: who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble."
+  },
+  {
+   "id": "matthew-they-that-mourn",
+   "after": "source:AB05199",
+   "responds": [
+    "source:AB05199"
+   ],
+   "relation": "contrast",
+   "why": "“Resort to sadness and grief in the midst of tribulation is but an indication of lack of assurance and certitude.” The second beatitude blesses those who mourn. How do this hard sentence and the tears elsewhere in this guide, ‘Abdu’l-Bahá’s among them, belong together?"
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:BH06833",
+   "responds": [
+    "source:BH06833"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hearest the voice of my lamentation which from the fortress-town of ‘Akká ascendeth towards Thee.” From another ruined place: his compassions fail not; they are new every morning."
+  },
+  {
+   "id": "isaiah-behold-my-servant",
+   "after": "source:AB10699",
+   "responds": [
+    "source:AB10699"
+   ],
+   "relation": "adjacent",
+   "why": "“Deal not with any steadfast soul in such wise as to cause him to become sorrowful.” Isaiah’s servant: a bruised reed shall he not break."
+  },
+  {
+   "id": "hebrews-tempted-like-as-we-are",
+   "after": "source:BH10803",
+   "responds": [
+    "source:BH10803"
+   ],
+   "relation": "adjacent",
+   "why": "“The Wronged One remembereth every wronged man and woman, and the Stranger loveth every stranger.” The Epistle to the Hebrews: we have not an high priest which cannot be touched with the feeling of our infirmities."
+  },
+  {
+   "id": "blake-joy-and-woe",
+   "after": "source:AB03815",
+   "responds": [
+    "source:AB03815"
+   ],
+   "relation": "adjacent",
+   "why": "“Sometimes … I am like a blossoming flower, and at times … I am withered and faded.” Blake: man was made for joy and woe; joy and woe are woven fine."
+  },
+  {
+   "id": "quran-maketh-laugh-and-weep",
+   "after": "source:AB03815",
+   "responds": [
+    "source:AB03815"
+   ],
+   "relation": "adjacent",
+   "why": "Both states are received from one hand. The Qur’an: He it is who maketh laugh, and maketh weep."
+  },
+  {
+   "id": "quran-put-grief-away",
+   "after": "source:AB00284",
+   "responds": [
+    "source:AB00284"
+   ],
+   "relation": "adjacent",
+   "why": "“There was endless hardship and trouble; here is boundless kindness and mercy.” The Qur’an gives those who arrive their first words: praise be to Allah Who hath put grief away from us."
+  },
+  {
+   "id": "ezekiel-shepherd",
+   "after": "source:BH00889",
+   "responds": [
+    "source:BH00889"
+   ],
+   "relation": "adjacent",
+   "why": "“Look Thou … upon Thy loved ones who are scattered.” Ezekiel: I will seek that which was lost, and bring again that which was driven away, and bind up that which was broken."
+  },
+  {
+   "id": "acts-wept-sore",
+   "after": "source:AB01619",
+   "responds": [
+    "source:AB01619"
+   ],
+   "relation": "adjacent",
+   "why": "“The circle of the righteous hath been scattered and the gathering place of the friends hath been destroyed.” The elders of Ephesus on the beach: they all wept sore, sorrowing most of all that they should see his face no more."
+  },
+  {
+   "id": "philippians-every-remembrance",
+   "after": "source:AB12080",
+   "responds": [
+    "source:AB12080"
+   ],
+   "relation": "adjacent",
+   "why": "“A multitude of hardships have deprived me of comfort, yet calling you to mind bringeth me the utmost joy.” Paul, from prison: I thank my God upon every remembrance of you."
+  },
+  {
+   "id": "psalm-number-our-days",
+   "after": "source:ABU0230",
+   "responds": [
+    "source:ABU0230"
+   ],
+   "relation": "adjacent",
+   "why": "“Time passes, strength dissolves … the final breath approaches—but in what thoughts?” The psalm: so teach us to number our days, that we may apply our hearts unto wisdom."
+  },
+  {
+   "id": "proverbs-songs-to-an-heavy-heart",
+   "after": "source:AB09047",
+   "responds": [
+    "source:AB09047"
+   ],
+   "relation": "adjacent",
+   "why": "“Your cries and complaints and sighs … are all justified and you are right—truly you have been left alone.” Proverbs on the comforter who does otherwise: as vinegar upon nitre, so is he that singeth songs to an heavy heart."
+  },
+  {
+   "id": "shakespeare-toothache",
+   "after": "source:AB09047",
+   "responds": [
+    "source:AB09047"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá agrees with a lonely correspondent before he says anything else. Leonato has had enough of comfort from those who do not hurt: there was never yet philosopher that could endure the toothache patiently."
+  },
+  {
+   "id": "shakespeare-mind-diseased",
+   "after": "source:AB07060",
+   "responds": [
+    "source:AB07060"
+   ],
+   "relation": "complement",
+   "why": "“What is the cause of this sadness? Write what you have to write.” Macbeth asks a doctor to pluck from the memory a rooted sorrow, and is told that the patient must minister to himself. What can another person do for a sadness, and what not?"
+  },
+  {
+   "id": "galatians-bear-one-anothers-burdens",
+   "after": "source:AB05889",
+   "responds": [
+    "source:AB05889"
+   ],
+   "relation": "adjacent",
+   "why": "One thought disquiets him: “that thou shouldst sorrow.” Paul: bear ye one another’s burdens."
+  },
+  {
+   "id": "ecclesiastes-two-are-better",
+   "after": "source:AB05911",
+   "responds": [
+    "source:AB05911"
+   ],
+   "relation": "adjacent",
+   "why": "Pilgrims are sent home early “considering that perhaps loneliness would cause distress and depression”. The Preacher: woe to him that is alone when he falleth; for he hath not another to help him up."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB03416",
+   "responds": [
+    "source:AB03416"
+   ],
+   "relation": "adjacent",
+   "why": "“Thy mother hath ascended to the invisible realm and … thou hast been left alone.” James defines religion by such visits: to visit the fatherless and widows in their affliction."
+  },
+  {
+   "id": "isaiah-beauty-for-ashes",
+   "after": "source:ABU3553",
+   "responds": [
+    "source:ABU3553"
+   ],
+   "relation": "adjacent",
+   "why": "“Every stone of that building … I have with infinite tears and at tremendous cost, raised and placed in position.” Isaiah: beauty for ashes, the oil of joy for mourning."
+  },
+  {
+   "id": "micah-vine-and-fig-tree",
+   "after": "source:AB02185",
+   "responds": [
+    "source:AB02185"
+   ],
+   "relation": "adjacent",
+   "why": "“Engage ye in a deed of profit to the world of humanity that ye may partially compensate for that loss.” Micah’s picture of the loss repaired: they shall beat their swords into plowshares."
+  },
+  {
+   "id": "lincoln-malice-toward-none",
+   "after": "source:AB02185",
+   "responds": [
+    "source:AB02185"
+   ],
+   "relation": "adjacent",
+   "why": "War is “the consumption of men and of wealth”, to be answered by work. Lincoln, as his war ended: to bind up the nation’s wounds; to care for him who shall have borne the battle."
+  }
+ ],
+ "library": {
+  "matthew-they-that-mourn": {
+   "text": "Blessed are they that mourn: for they shall be comforted",
+   "work": "Matthew 5:4",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-o-absalom": {
+   "text": "And the king was much moved, and went up to the chamber over the gate, and wept: and as he went, thus he said, O my son Absalom, my son, my son",
+   "work": "2 Samuel 18:33",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Samuel%2018%3A33&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-lament-for-jonathan": {
+   "text": "How are the mighty fallen in the midst of the battle! O Jonathan, thou wast slain in thine high places. I am distressed for thee, my brother Jonathan: very pleasant hast thou been unto me: thy love to me was wonderful, passing the love of women",
+   "work": "2 Samuel 1:25–26",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Samuel%201%3A25-26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-rachel-weeping": {
+   "text": "A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not",
+   "work": "Jeremiah 31:15",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2031%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-fountain-of-tears": {
+   "text": "Oh that my head were waters, and mine eyes a fountain of tears, that I might weep day and night for the slain of the daughter of my people",
+   "work": "Jeremiah 9:1",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%209%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-balm-in-gilead": {
+   "text": "For the hurt of the daughter of my people am I hurt; I am black; astonishment hath taken hold on me. Is there no balm in Gilead; is there no physician there? why then is not the health of the daughter of my people recovered",
+   "work": "Jeremiah 8:21–22",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%208%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "lamentations-is-it-nothing-to-you": {
+   "text": "Is it nothing to you, all ye that pass by? behold, and see if there be any sorrow like unto my sorrow, which is done unto me, wherewith the Lord hath afflicted me in the day of his fierce anger",
+   "work": "Lamentations 1:12",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Lamentations%201%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "lamentations-how-doth-the-city": {
+   "text": "How doth the city sit solitary, that was full of people! how is she become as a widow! she that was great among the nations, and princess among the provinces, how is she become tributary! She weepeth sore in the night, and her tears are on her cheeks: among all her lovers she hath none to comfort her: all her friends have dealt treacherously with her, they are become her enemies",
+   "work": "Lamentations 1:1–2",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Lamentations%201%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-water-my-couch": {
+   "text": "I am weary with my groaning; all the night make I my bed to swim; I water my couch with my tears",
+   "work": "Psalm 6:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%206%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-tears-into-thy-bottle": {
+   "text": "Thou tellest my wanderings: put thou my tears into thy bottle: are they not in thy book",
+   "work": "Psalm 56:8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2056%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-broken-heart": {
+   "text": "The Lord is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit",
+   "work": "Psalm 34:18",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2034%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-lover-and-friend": {
+   "text": "Lord, why castest thou off my soul? why hidest thou thy face from me? I am afflicted and ready to die from my youth up: while I suffer thy terrors I am distracted. Thy fierce wrath goeth over me; thy terrors have cut me off. They came round about me daily like water; they compassed me about together. Lover and friend hast thou put far from me, and mine acquaintance into darkness",
+   "work": "Psalm 88:14–18",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2088%3A14-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-out-of-the-depths": {
+   "text": "Out of the depths have I cried unto thee, O Lord. Lord, hear my voice: let thine ears be attentive to the voice of my supplications",
+   "work": "Psalm 130:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20130%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-sat-seven-days": {
+   "text": "Now when Job's three friends heard of all this evil that was come upon him, they came every one from his own place; Eliphaz the Temanite, and Bildad the Shuhite, and Zophar the Naamathite: for they had made an appointment together to come to mourn with him and to comfort him. And when they lifted up their eyes afar off, and knew him not, they lifted up their voice, and wept; and they rent every one his mantle, and sprinkled dust upon their heads toward heaven. So they sat down with him upon the ground seven days and seven nights, and none spake a word unto him: for they saw that his grief was very great",
+   "work": "Job 2:11–13",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%202%3A11-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-miserable-comforters": {
+   "text": "I have heard many such things: miserable comforters are ye all. Shall vain words have an end? or what emboldeneth thee that thou answerest? I also could speak as ye do: if your soul were in my soul's stead, I could heap up words against you, and shake mine head at you",
+   "work": "Job 16:2–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2016%3A2-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-as-his-mother-comforteth": {
+   "text": "As one whom his mother comforteth, so will I comfort you; and ye shall be comforted in Jerusalem",
+   "work": "Isaiah 66:13",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2066%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-refused-to-be-comforted": {
+   "text": "And Jacob rent his clothes, and put sackcloth upon his loins, and mourned for his son many days. And all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down into the grave unto my son mourning. Thus his father wept for him",
+   "work": "Genesis 37:34–35",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2037%3A34-35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-exceeding-sorrowful": {
+   "text": "Then saith he unto them, My soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me",
+   "work": "Matthew 26:38",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2026%3A38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-mary-at-the-tomb": {
+   "text": "But Mary stood without at the sepulchre weeping: and as she wept, she stooped down, and looked into the sepulchre, And seeth two angels in white sitting, the one at the head, and the other at the feet, where the body of Jesus had lain. And they say unto her, Woman, why weepest thou? She saith unto them, Because they have taken away my Lord, and I know not where they have laid him. And when she had thus said, she turned herself back, and saw Jesus standing, and knew not that it was Jesus. Jesus saith unto her, Woman, why weepest thou? whom seekest thou? She, supposing him to be the gardener, saith unto him, Sir, if thou have borne him hence, tell me where thou hast laid him, and I will take him away. Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master",
+   "work": "John 20:11–16",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2020%3A11-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-widow-of-nain": {
+   "text": "Now when he came nigh to the gate of the city, behold, there was a dead man carried out, the only son of his mother, and she was a widow: and much people of the city was with her. And when the Lord saw her, he had compassion on her, and said unto her, Weep not. And he came and touched the bier: and they that bare him stood still. And he said, Young man, I say unto thee, Arise. And he that was dead sat up, and began to speak. And he delivered him to his mother",
+   "work": "Luke 7:12–15",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%207%3A12-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-wept-sore": {
+   "text": "And when he had thus spoken, he kneeled down, and prayed with them all. And they all wept sore, and fell on Paul's neck, and kissed him, Sorrowing most of all for the words which he spake, that they should see his face no more",
+   "work": "Acts 20:36–38",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2020%3A36-38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-god-of-all-comfort": {
+   "text": "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God",
+   "work": "2 Corinthians 1:3–4",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%201%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-godly-sorrow": {
+   "text": "For godly sorrow worketh repentance to salvation not to be repented of: but the sorrow of the world worketh death",
+   "work": "2 Corinthians 7:10",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%207%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-with-many-tears": {
+   "text": "For out of much affliction and anguish of heart I wrote unto you with many tears; not that ye should be grieved, but that ye might know the love which I have more abundantly unto you",
+   "work": "2 Corinthians 2:4",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%202%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-creation-groaneth": {
+   "text": "For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the firstfruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our body",
+   "work": "Romans 8:22–23",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%208%3A22-23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-groanings-cannot-be-uttered": {
+   "text": "Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered",
+   "work": "Romans 8:26",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%208%3A26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-how-long-o-lord": {
+   "text": "And when he had opened the fifth seal, I saw under the altar the souls of them that were slain for the word of God, and for the testimony which they held: And they cried with a loud voice, saying, How long, O Lord, holy and true, dost thou not judge and avenge our blood on them that dwell on the earth",
+   "work": "Revelation 6:9–10",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%206%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "habakkuk-how-long-shall-i-cry": {
+   "text": "O Lord, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save! Why dost thou shew me iniquity, and cause me to behold grievance? for spoiling and violence are before me: and there are that raise up strife and contention",
+   "work": "Habakkuk 1:2–3",
+   "year": "7th century BCE",
+   "sortYear": -610,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Habakkuk%201%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-heart-knoweth-his-own-bitterness": {
+   "text": "The heart knoweth his own bitterness; and a stranger doth not intermeddle with his joy",
+   "work": "Proverbs 14:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2014%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-songs-to-an-heavy-heart": {
+   "text": "As he that taketh away a garment in cold weather, and as vinegar upon nitre, so is he that singeth songs to an heavy heart",
+   "work": "Proverbs 25:20",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2025%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-peter-wept-bitterly": {
+   "text": "And the Lord turned, and looked upon Peter. And Peter remembered the word of the Lord, how he had said unto him, Before the cock crow, thou shalt deny me thrice. And Peter went out, and wept bitterly",
+   "work": "Luke 22:61–62",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2022%3A61-62&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ruth-call-me-mara": {
+   "text": "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me. I went out full and the Lord hath brought me home again empty: why then call ye me Naomi, seeing the Lord hath testified against me, and the Almighty hath afflicted me",
+   "work": "Ruth 1:20–21",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ruth%201%3A20-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-eyes-whitened-with-sorrow": {
+   "text": "And he turned away from them and said: Alas, my grief for Joseph! And his eyes were whitened with the sorrow that he was suppressing.",
+   "work": "Qur’an 12:84",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=12&verse=84",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-maketh-laugh-and-weep": {
+   "text": "And that He it is who maketh laugh, and maketh weep,",
+   "work": "Qur’an 53:43",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=53&verse=43",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-grieve-not-allah-is-with-us": {
+   "text": "Grieve not. Lo! Allah is with us",
+   "work": "Qur’an 9:40",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=40",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-would-that-i-had-died": {
+   "text": "And the pangs of childbirth drove her unto the trunk of the palm-tree. She said: Oh, would that I had died ere this and had become a thing of naught, forgotten!",
+   "work": "Qur’an 19:23",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=19&verse=23",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-put-grief-away": {
+   "text": "And they say: Praise be to Allah Who hath put grief away from us. Lo! Our Lord is Forgiving, Bountiful,",
+   "work": "Qur’an 35:34",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=35&verse=34",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-bosom-is-oppressed": {
+   "text": "Well know We that thy bosom is oppressed by what they say,",
+   "work": "Qur’an 15:97",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=15&verse=97",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-not-forsaken-thee": {
+   "text": "Thy Lord hath not forsaken thee nor doth He hate thee, And verily the latter portion will be better for thee than the former, And verily thy Lord will give unto thee so that thou wilt be content",
+   "work": "Qur’an 93:3–5",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-give-sorrow-words": {
+   "text": "Give sorrow words: the grief that does not speak / Whispers the o'er-fraught heart and bids it break",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Macbeth",
+   "locator": "Act 4, scene 3",
+   "year": "c. 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/macbeth/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-inky-cloak": {
+   "text": "But I have that within which passeth show; / These but the trappings and the suits of woe",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act 1, scene 2",
+   "year": "c. 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-not-single-spies": {
+   "text": "When sorrows come, they come not single spies / But in battalions",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act 4, scene 5",
+   "year": "c. 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-never-never": {
+   "text": "No, no, no life! / Why should a dog, a horse, a rat, have life, / And thou no breath at all? Thou'lt come no more, / Never, never, never, never, never!",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "King Lear",
+   "locator": "Act 5, scene 3",
+   "year": "c. 1605–06",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/lear/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "analects-bewailed-him-exceedingly": {
+   "text": "When Yen Yuan died, the Master bewailed him exceedingly, and the disciples who were with him said, \"Master, your grief is excessive!\" \"Is it excessive?\" said he. \"If I am not to mourn bitterly for this man, for whom should I mourn?",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "11.9",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "analects-deep-sorrow": {
+   "text": "In the ceremonies of mourning, it is better that there be deep sorrow than in minute attention to observances",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "3.4",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "augustine-whatever-i-looked-upon-was-death": {
+   "text": "At this sorrow my heart was utterly darkened, and whatever I looked upon was death. My native country was a torture to me, and my father's house a wondrous unhappiness",
+   "author": "Augustine of Hippo",
+   "work": "Confessions",
+   "locator": "IV.4",
+   "year": "c. 397–400 CE",
+   "sortYear": 398,
+   "translator": "J. G. Pilkington",
+   "translationYear": "1876",
+   "tradition": "Early Christian",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/110104.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1876."
+   }
+  },
+  "gita-mourn-not": {
+   "text": "Thou grievest where no grief should be! thou speak'st / Words lacking wisdom! for the wise in heart / Mourn not for those that live, nor those that die",
+   "verse": true,
+   "work": "Bhagavad Gītā",
+   "locator": "chapter 2",
+   "year": "c. 2nd century BCE",
+   "sortYear": -200,
+   "translator": "Edwin Arnold",
+   "translationYear": "1885",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Arnold_translation)/Chapter_2",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1904."
+   }
+  },
+  "dhammapada-love-nothing": {
+   "text": "Let, therefore, no man love anything; loss of the beloved is evil. Those who love nothing and hate nothing, have no fetters",
+   "work": "Dhammapada",
+   "locator": "verse 211",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "tennyson-vanished-hand": {
+   "text": "But O for the touch of a vanish'd hand, / And the sound of a voice that is still!",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "Break, break, break",
+   "year": "1842",
+   "sortYear": 1842,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Break,_break,_break",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "tennyson-loved-and-lost": {
+   "text": "I hold it true, whate'er befall; / I feel it, when I sorrow most; / 'Tis better to have loved and lost / Than never to have loved at all",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "In Memoriam A.H.H.",
+   "locator": "XXVII",
+   "year": "1850",
+   "sortYear": 1850,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/In_Memoriam_(Tennyson)/Canto_27",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "hopkins-no-worst": {
+   "text": "No worst, there is none. Pitched past pitch of grief, / More pangs will, schooled at forepangs, wilder wring. / Comforter, where, where is your comforting?",
+   "verse": true,
+   "author": "Gerard Manley Hopkins",
+   "work": "“No worst, there is none”",
+   "year": "c. 1885; published 1918",
+   "sortYear": 1885,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/No_worst,_there_is_none._Pitched_past_pitch_of_grief",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1889."
+   }
+  },
+  "longfellow-some-rain-must-fall": {
+   "text": "Be still, sad heart! and cease repining; / Behind the clouds is the sun still shining; / Thy fate is the common fate of all, / Into each life some rain must fall, / Some days must be dark and dreary",
+   "verse": true,
+   "author": "Henry Wadsworth Longfellow",
+   "work": "The Rainy Day",
+   "year": "1842",
+   "sortYear": 1842,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Rainy_Day",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "emerson-grief-can-teach-me-nothing": {
+   "text": "I grieve that grief can teach me nothing, nor carry me one step into real nature",
+   "author": "Ralph Waldo Emerson",
+   "work": "Experience",
+   "year": "1844",
+   "sortYear": 1844,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Essays:_Second_Series/Experience",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "shakespeare-grief-fills-the-room": {
+   "text": "Grief fills the room up of my absent child, / Lies in his bed, walks up and down with me, / Puts on his pretty looks, repeats his words, / Remembers me of all his gracious parts, / Stuffs out his vacant garments with his form; / Then, have I reason to be fond of grief",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "King John",
+   "locator": "Act 3, scene 4",
+   "year": "c. 1596",
+   "sortYear": 1596,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/john/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "dubois-not-dead-but-escaped": {
+   "text": "All that day and all that night there sat an awful gladness in my heart,—nay, blame me not if I see the world thus darkly through the Veil,—and my soul whispers ever to me, saying, \"Not dead, not dead, but escaped; not bond, but free",
+   "author": "W. E. B. Du Bois",
+   "work": "The Souls of Black Folk",
+   "locator": "XI, Of the Passing of the First-Born",
+   "year": "1903",
+   "sortYear": 1903,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Souls_of_Black_Folk_(2nd_ed)/Chapter_11",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Published 1903; author d. 1963."
+   }
+  },
+  "hopkins-margaret-you-mourn-for": {
+   "text": "Now no matter, child, the name: / Sórrow's spríngs áre the same. / Nor mouth had, no nor mind, expressed / What heart heard of, ghost guessed: / It is the blight man was born for",
+   "verse": true,
+   "author": "Gerard Manley Hopkins",
+   "work": "Spring and Fall",
+   "year": "1880; published 1918",
+   "sortYear": 1880,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/Spring_and_Fall",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1889."
+   }
+  },
+  "jonson-first-son": {
+   "text": "Farewell, thou child of my right hand, and joy, / My sin was too much hope of thee, loved boy",
+   "verse": true,
+   "author": "Ben Jonson",
+   "work": "On My First Son",
+   "year": "1616",
+   "sortYear": 1616,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/On_My_First_Sonne",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1637."
+   }
+  },
+  "dickinson-after-great-pain": {
+   "text": "After great pain a formal feeling comes— / The nerves sit ceremonious like tombs",
+   "verse": true,
+   "author": "Emily Dickinson",
+   "work": "“After great pain a formal feeling comes”",
+   "year": "c. 1862; published 1929",
+   "sortYear": 1862,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Further_Poems_of_Emily_Dickinson/After_great_pain_a_formal_feeling_comes%E2%80%94",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "repair": [
+     [
+      "AFTER",
+      "After"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1886."
+   }
+  }
+ }
+}
