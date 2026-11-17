@@ -1,0 +1,1278 @@
+{
+ "format": 2,
+ "slug": "civilizationprogress",
+ "subject": "15E8B3AB36AF495684116E6C5150950A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 87,
+ "quotations": 91,
+ "kept": [
+  "source:AB02523",
+  "source:AB06765",
+  "source:AB00146",
+  "source:ABU2628",
+  "source:ABU0276",
+  "source:ABU0210",
+  "source:ABU0150",
+  "source:ABU1690",
+  "source:AB03707",
+  "source:AB00459",
+  "source:AB00506",
+  "source:ABU3257",
+  "source:ABU3195",
+  "source:AB00081",
+  "source:AB00117",
+  "source:ABU0084",
+  "source:ABU0376",
+  "source:AB00143",
+  "source:AB04679",
+  "source:ABU0487",
+  "source:ABU2243",
+  "source:ABU1396",
+  "source:ABU0644",
+  "source:ABU0430",
+  "source:ABU1638",
+  "source:ABU0929",
+  "source:ABU0125",
+  "source:ABU3472",
+  "source:ABU0242",
+  "source:ABU0505",
+  "source:ABU0555",
+  "source:AB00948",
+  "source:AB02189",
+  "source:AB03186",
+  "source:AB04697",
+  "source:AB10286",
+  "source:ABU0173",
+  "source:BHU0013",
+  "source:ABU2998",
+  "source:ABU0723",
+  "source:AB00829",
+  "source:AB02117",
+  "source:ABU0101",
+  "source:ABU3137",
+  "source:ABU1141",
+  "source:ABU1066",
+  "source:AB00472",
+  "source:ABU0206",
+  "source:AB00220",
+  "source:ABU0264",
+  "source:ABU0602",
+  "source:AB00004",
+  "source:AB00325",
+  "source:ABU0309",
+  "source:ABU0120",
+  "source:ABU0866",
+  "source:ABU2004",
+  "source:ABU2197",
+  "source:ABU1121",
+  "source:AB07415",
+  "source:AB04878",
+  "source:AB02483",
+  "source:AB11815",
+  "source:ABU0188",
+  "source:AB00359",
+  "source:AB02388",
+  "source:ABU0192",
+  "source:ABU1076",
+  "source:ABU2329",
+  "source:AB11731",
+  "source:AB07140",
+  "source:ABU1357",
+  "source:ABU0790",
+  "source:AB02994",
+  "source:AB05493",
+  "source:AB00022",
+  "source:ABU1801",
+  "source:ABU0117",
+  "source:ABU2380",
+  "source:ABU3064",
+  "source:AB01263",
+  "source:ABU2275",
+  "source:AB02551",
+  "source:AB05883",
+  "source:ABU2446",
+  "source:ABU3028",
+  "source:ABU0827"
+ ],
+ "introduction": "‘Abdu’l-Bahá admired the railways, the telegraph and the schools of his age, urged the Persians to learn from them, and foresaw that people would one day fly from city to city as easily as they took a carriage. These passages praise material progress, describe a century unlike any before it, and name what makes advancement humane: justice, education, unity, and a spiritual civilization to match the material one, without which the same inventions serve war. Ninety-one outside voices stand beside them: Genesis and Job on dominion and wisdom, the Qur’an on the bounty of the earth, Sophocles' ode to man, Bacon, Tennyson and Whitman, who shared the hope; and Thoreau, Blake, Wordsworth, Emerson, Gandhi and the Tao Te Ching, who counted the cost.",
+ "questions": [
+  "What, in these passages, makes material progress good, and what makes it dangerous? Compare Thoreau's \"improved means to an unimproved end.\"",
+  "Tennyson saw the skies filled with commerce and Whitman saw God's purpose in the cable and the canal. What has happened to that hope since, and what in these readings still stands?",
+  "\"Distance is annihilated.\" The Tao Te Ching imagined neighbours who never visit. What is gained and what is lost when the world becomes one place?",
+  "Job describes the miner's skill and asks where wisdom is to be found. What is the \"spiritual civilization\" that these talks say has been neglected?",
+  "One talk puts spiritual progress first and material after; Confucius said, enrich them and then teach them. Does the order matter?",
+  "Dickens called his age the best of times and the worst of times. How would you describe the present one in the terms of this guide?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-righteousness-exalteth-a-nation",
+   "after": "source:AB02523",
+   "responds": [
+    "source:AB02523"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that righteousness exalts a nation, which is the order of things this letter describes."
+  },
+  {
+   "id": "isaiah-blossom-as-the-rose",
+   "after": "source:AB06765",
+   "responds": [
+    "source:AB06765"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees water breaking out in the wilderness and the desert blossoming as the rose."
+  },
+  {
+   "id": "quran-neglect-not-thy-portion",
+   "after": "source:AB00146",
+   "responds": [
+    "source:AB00146"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: seek the abode of the hereafter, and neglect not thy portion of the world."
+  },
+  {
+   "id": "amos-let-judgment-run-down",
+   "after": "source:ABU2628",
+   "responds": [
+    "source:ABU2628"
+   ],
+   "relation": "adjacent",
+   "why": "Amos asks that justice run down as waters, and righteousness as a mighty stream."
+  },
+  {
+   "id": "eisenhower-every-gun",
+   "after": "source:ABU0276",
+   "responds": [
+    "source:ABU0276"
+   ],
+   "relation": "adjacent",
+   "why": "Eisenhower said that every gun made and warship launched is a theft from those who hunger and are not fed."
+  },
+  {
+   "id": "owen-the-old-lie",
+   "after": "source:ABU0276",
+   "responds": [
+    "source:ABU0276"
+   ],
+   "relation": "adjacent",
+   "why": "Wilfred Owen wrote from the trenches of the first war fought with the new weapons."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0276",
+   "responds": [
+    "source:ABU0276"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah looks to a day when nations beat their swords into ploughshares."
+  },
+  {
+   "id": "tennyson-argosies-of-magic-sails",
+   "after": "source:ABU0210",
+   "responds": [
+    "source:ABU0210"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson, in 1842, saw the heavens fill with commerce, argosies of magic sails dropping down with costly bales."
+  },
+  {
+   "id": "quran-that-which-ye-know-not",
+   "after": "source:ABU0210",
+   "responds": [
+    "source:ABU0210"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an lists the animals given for riding, and adds: and He creates that which ye know not."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Sophocles sings that wonders are many, and none more wonderful than man, who crosses the sea and tames the earth."
+  },
+  {
+   "id": "emerson-things-are-in-the-saddle",
+   "after": "source:ABU1690",
+   "responds": [
+    "source:ABU1690"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson warned his own country that things are in the saddle, and ride mankind."
+  },
+  {
+   "id": "mark-gain-the-whole-world",
+   "after": "source:ABU1690",
+   "responds": [
+    "source:ABU1690"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks what it profits a man to gain the whole world and lose his own soul."
+  },
+  {
+   "id": "gandhi-only-to-be-patient",
+   "after": "source:ABU1690",
+   "responds": [
+    "source:ABU1690"
+   ],
+   "relation": "contrast",
+   "why": "Gandhi wrote in 1909 that modern civilization is such that one has only to be patient and it will destroy itself. Does this talk share his judgment, or ask for something he did not?"
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:AB03707",
+   "responds": [
+    "source:AB03707"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable each servant is given talents according to his ability, and is expected to increase them."
+  },
+  {
+   "id": "quran-seek-of-allahs-bounty",
+   "after": "source:AB00459",
+   "responds": [
+    "source:AB00459"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that when the prayer is ended, the people should disperse in the land and seek of God's bounty."
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:AB00459",
+   "responds": [
+    "source:AB00459"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a man diligent in his business shall stand before kings."
+  },
+  {
+   "id": "genesis-tubal-cain",
+   "after": "source:AB00506",
+   "responds": [
+    "source:AB00506"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis names the first herdsman, the first musician and the first worker in brass and iron."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:ABU3257",
+   "responds": [
+    "source:ABU3257"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that education is the turning of the whole soul toward the light."
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:ABU3195",
+   "responds": [
+    "source:ABU3195"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau called our inventions pretty toys, improved means to an unimproved end. What end do these passages set for invention?"
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives humanity the charge to replenish the earth and subdue it."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon saw that knowledge of nature and power over nature meet in one."
+  },
+  {
+   "id": "isaiah-every-valley",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foretells that the crooked shall be made straight and the rough places plain."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:ABU0084",
+   "responds": [
+    "source:ABU0084"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go."
+  },
+  {
+   "id": "whitman-earth-to-be-spanned",
+   "after": "source:AB00143",
+   "responds": [
+    "source:AB00143"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman, celebrating the canal, the railroad and the cable, saw God's purpose in the earth spanned and the distant brought near."
+  },
+  {
+   "id": "tao-little-state",
+   "after": "source:ABU0487",
+   "responds": [
+    "source:ABU0487"
+   ],
+   "relation": "contrast",
+   "why": "The Tao Te Ching imagines a small state where boats and carriages exist and no one uses them, and people grow old without visiting their neighbours. What is lost when distance is annihilated?"
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU1396",
+   "responds": [
+    "source:ABU1396"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that by thought man comprehends the universe that could crush him."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:ABU0644",
+   "responds": [
+    "source:ABU0644"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet exclaims: what a piece of work is a man, how infinite in faculty."
+  },
+  {
+   "id": "lincoln-house-divided",
+   "after": "source:ABU0430",
+   "responds": [
+    "source:ABU0430"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln warned his own union that a house divided against itself cannot stand."
+  },
+  {
+   "id": "ecclesiastes-former-days",
+   "after": "source:ABU1638",
+   "responds": [
+    "source:ABU1638"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says: say not that the former days were better than these."
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:ABU0929",
+   "responds": [
+    "source:ABU0929"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson looked forward to the parliament of man, the federation of the world."
+  },
+  {
+   "id": "james-whence-come-wars",
+   "after": "source:ABU0125",
+   "responds": [
+    "source:ABU0125"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of James asks where wars come from, and answers: from desires that war within you."
+  },
+  {
+   "id": "genesis-tower-of-babel",
+   "after": "source:ABU3472",
+   "responds": [
+    "source:ABU3472"
+   ],
+   "relation": "complement",
+   "why": "Genesis tells of a people who said: let us build a city and a tower whose top may reach to heaven. What is the old story afraid of?"
+  },
+  {
+   "id": "blake-dark-satanic-mills",
+   "after": "source:ABU3472",
+   "responds": [
+    "source:ABU3472"
+   ],
+   "relation": "contrast",
+   "why": "Blake asked whether Jerusalem could have been built among England's dark Satanic mills. What does this talk fear from the great cities?"
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "source:ABU0242",
+   "responds": [
+    "source:ABU0242"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet tells his friend that there are more things in heaven and earth than his philosophy has dreamed of."
+  },
+  {
+   "id": "quran-penetrate-the-regions",
+   "after": "source:ABU0505",
+   "responds": [
+    "source:ABU0505"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an challenges men to pass beyond the regions of heaven and earth, if they have the power."
+  },
+  {
+   "id": "psalm-what-is-man",
+   "after": "source:ABU0505",
+   "responds": [
+    "source:ABU0505"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm marvels that man has been given dominion over the works of God's hands."
+  },
+  {
+   "id": "aristotle-all-men-desire-to-know",
+   "after": "source:ABU0555",
+   "responds": [
+    "source:ABU0555"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics with the sentence: all men by nature desire to know."
+  },
+  {
+   "id": "xenophanes-by-seeking",
+   "after": "source:ABU0555",
+   "responds": [
+    "source:ABU0555"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that not everything was revealed at the start, and that by seeking people find out better in time."
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:AB00948",
+   "responds": [
+    "source:AB00948"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel is told of a time when many shall run to and fro, and knowledge shall be increased."
+  },
+  {
+   "id": "job-where-shall-wisdom-be-found",
+   "after": "source:AB02189",
+   "responds": [
+    "source:AB02189"
+   ],
+   "relation": "complement",
+   "why": "Job describes the miner who overturns mountains and brings hidden things to light, and then asks: but where shall wisdom be found? What kind of knowledge has not kept pace?"
+  },
+  {
+   "id": "emerson-every-natural-fact",
+   "after": "source:AB03186",
+   "responds": [
+    "source:AB03186"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson held that every natural fact is a symbol of some spiritual fact."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB10286",
+   "responds": [
+    "source:AB10286"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an teaches the Prophet himself to pray: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "matthew-lilies-of-the-field",
+   "after": "source:ABU0173",
+   "responds": [
+    "source:ABU0173"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that Solomon in all his glory was not arrayed like a lily of the field. What does comparing our comforts with a king's leave out?"
+  },
+  {
+   "id": "kings-half-was-not-told",
+   "after": "source:ABU0173",
+   "responds": [
+    "source:ABU0173"
+   ],
+   "relation": "adjacent",
+   "why": "The Queen of Sheba said of Solomon's splendour that the half had not been told her."
+  },
+  {
+   "id": "thoreau-quiet-desperation",
+   "after": "source:BHU0013",
+   "responds": [
+    "source:BHU0013"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau observed, in the age of these inventions, that the mass of men lead lives of quiet desperation. Has life been made easier, or only different?"
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:ABU2998",
+   "responds": [
+    "source:ABU2998"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's image of renewed strength is flight: they shall mount up with wings as eagles."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU0723",
+   "responds": [
+    "source:ABU0723"
+   ],
+   "relation": "complement",
+   "why": "Whitman left the astronomer's lecture and looked up in silence at the stars. What do the discoverers give us, and what must each person still see alone?"
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "The Revelation of John hears from the throne: behold, I make all things new."
+  },
+  {
+   "id": "tennyson-old-order-changeth",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's Arthur says that the old order changes, yielding place to new."
+  },
+  {
+   "id": "marx-all-that-is-solid",
+   "after": "source:AB02117",
+   "responds": [
+    "source:AB02117"
+   ],
+   "relation": "adjacent",
+   "why": "Marx and Engels wrote in the same century that all that is solid melts into air."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: when I became a man, I put away childish things."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that new wine must be put into new bottles, or both are lost."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:ABU3137",
+   "responds": [
+    "source:ABU3137"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher says that there is no new thing under the sun. What would he make of a century in which everything was said to be renewed?"
+  },
+  {
+   "id": "tennyson-ringing-grooves-of-change",
+   "after": "source:ABU1141",
+   "responds": [
+    "source:ABU1141"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson cried: forward, forward let us range; let the great world spin for ever down the ringing grooves of change."
+  },
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:ABU1066",
+   "responds": [
+    "source:ABU1066"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose."
+  },
+  {
+   "id": "psalm-renewest-the-earth",
+   "after": "source:ABU0206",
+   "responds": [
+    "source:ABU0206"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says to God: thou renewest the face of the earth."
+  },
+  {
+   "id": "galatians-under-tutors",
+   "after": "source:AB00220",
+   "responds": [
+    "source:AB00220"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that an heir, while a child, is under tutors until the time appointed."
+  },
+  {
+   "id": "ephesians-perfect-man",
+   "after": "source:ABU0264",
+   "responds": [
+    "source:ABU0264"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of growing up into a perfect man, no more children."
+  },
+  {
+   "id": "wordsworth-getting-and-spending",
+   "after": "source:ABU0602",
+   "responds": [
+    "source:ABU0602"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth said of the same advance: getting and spending, we lay waste our powers."
+  },
+  {
+   "id": "tennyson-cycle-of-cathay",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's speaker declares: better fifty years of Europe than a cycle of Cathay."
+  },
+  {
+   "id": "kipling-recessional",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "contrast",
+   "why": "Kipling, at the height of the same power, warned that its pomp might be one with Nineveh and Tyre. What did Europe's renown rest on, and what did it lack?"
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:AB00325",
+   "responds": [
+    "source:AB00325"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says: whatever thy hand finds to do, do it with thy might."
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:ABU0309",
+   "responds": [
+    "source:ABU0309"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells of a man who had much goods laid up and was not rich toward God."
+  },
+  {
+   "id": "tennyson-ulysses",
+   "after": "source:ABU0120",
+   "responds": [
+    "source:ABU0120"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's Ulysses finds it dull to pause, to make an end, to rust unburnished."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:ABU0866",
+   "responds": [
+    "source:ABU0866"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine says that the heart is restless until it rests in God."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU2197",
+   "responds": [
+    "source:ABU2197"
+   ],
+   "relation": "adjacent",
+   "why": "Kant called enlightenment the courage to use one's own understanding, and release from tutelage."
+  },
+  {
+   "id": "quran-change-what-is-in-their-hearts",
+   "after": "source:ABU1121",
+   "responds": [
+    "source:ABU1121"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God does not change the condition of a people until they change what is in themselves."
+  },
+  {
+   "id": "proverbs-where-there-is-no-vision",
+   "after": "source:ABU1121",
+   "responds": [
+    "source:ABU1121"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that where there is no vision, the people perish, as this talk says of a people kept in ignorance."
+  },
+  {
+   "id": "proverbs-strength-and-honour",
+   "after": "source:AB04878",
+   "responds": [
+    "source:AB04878"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs praises a woman clothed with strength and honour, who opens her mouth with wisdom."
+  },
+  {
+   "id": "matthew-princes-of-the-gentiles",
+   "after": "source:AB11815",
+   "responds": [
+    "source:AB11815"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that among his followers the one who would be great must be the servant."
+  },
+  {
+   "id": "dickens-best-of-times",
+   "after": "source:ABU0188",
+   "responds": [
+    "source:ABU0188"
+   ],
+   "relation": "complement",
+   "why": "Dickens opened a novel of revolution: it was the best of times, it was the worst of times. Can a century be both radiant and dark?"
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "source:AB02388",
+   "responds": [
+    "source:AB02388"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that many prophets desired to see what his hearers saw."
+  },
+  {
+   "id": "isaiah-great-light",
+   "after": "source:ABU0192",
+   "responds": [
+    "source:ABU0192"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the people who walked in darkness have seen a great light."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:AB11731",
+   "responds": [
+    "source:AB11731"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher found that whoever increases knowledge increases sorrow. Is that only weariness, or a truth about what knowledge brings?"
+  },
+  {
+   "id": "luke-nothing-covered",
+   "after": "source:AB07140",
+   "responds": [
+    "source:AB07140"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that nothing is covered that shall not be revealed, nor hidden that shall not be known."
+  },
+  {
+   "id": "romans-night-is-far-spent",
+   "after": "source:ABU1357",
+   "responds": [
+    "source:ABU1357"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the night is far spent and the day is at hand."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:ABU0790",
+   "responds": [
+    "source:ABU0790"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees a peace in which none shall hurt or destroy, for the earth shall be full of knowledge."
+  },
+  {
+   "id": "hebrews-leaving-the-principles",
+   "after": "source:AB02994",
+   "responds": [
+    "source:AB02994"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that milk is for children and solid food for the mature."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:AB05493",
+   "responds": [
+    "source:AB05493"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit: love, joy, peace, gentleness, goodness."
+  },
+  {
+   "id": "psalm-except-the-lord-build",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that unless the Lord builds the house, they labour in vain who build it."
+  },
+  {
+   "id": "matthew-seek-ye-first",
+   "after": "source:ABU0117",
+   "responds": [
+    "source:ABU0117"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to seek first the kingdom of God, and that the other things will be added."
+  },
+  {
+   "id": "analects-enrich-them-teach-them",
+   "after": "source:ABU0117",
+   "responds": [
+    "source:ABU0117"
+   ],
+   "relation": "complement",
+   "why": "Confucius, asked what should be done for a numerous people, said: enrich them, and then teach them. Which comes first here, and why?"
+  },
+  {
+   "id": "longfellow-up-and-doing",
+   "after": "source:ABU2380",
+   "responds": [
+    "source:ABU2380"
+   ],
+   "relation": "adjacent",
+   "why": "Longfellow's psalm of life ends: let us, then, be up and doing, still achieving, still pursuing."
+  },
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:ABU3064",
+   "responds": [
+    "source:ABU3064"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he forgets what is behind and presses toward the mark."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:AB01263",
+   "responds": [
+    "source:AB01263"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the natural comes first, and afterwards that which is spiritual."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:ABU2275",
+   "responds": [
+    "source:ABU2275"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley's traveller finds, where an empire stood, the lone and level sands."
+  },
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:AB02551",
+   "responds": [
+    "source:AB02551"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus said that all things flow, and no one steps twice into the same river."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:AB05883",
+   "responds": [
+    "source:AB05883"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin found grandeur in a view of life in which endless forms have been, and are being, evolved."
+  },
+  {
+   "id": "peter-one-day-as-a-thousand-years",
+   "after": "source:ABU2446",
+   "responds": [
+    "source:ABU2446"
+   ],
+   "relation": "adjacent",
+   "why": "The second letter of Peter says that with the Lord one day is as a thousand years."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:ABU3028",
+   "responds": [
+    "source:ABU3028"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah heard: not by might, nor by power, but by my Spirit."
+  },
+  {
+   "id": "habakkuk-knowledge-of-the-glory",
+   "after": "source:ABU0827",
+   "responds": [
+    "source:ABU0827"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk foresees the earth filled with the knowledge of the glory of God."
+  }
+ ],
+ "library": {
+  "genesis-tower-of-babel": {
+   "text": "And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth",
+   "work": "Genesis 11:4",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2011%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-righteousness-exalteth-a-nation": {
+   "text": "Righteousness exalteth a nation: but sin is a reproach to any people",
+   "work": "Proverbs 14:34",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2014%3A34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-where-there-is-no-vision": {
+   "text": "Where there is no vision, the people perish: but he that keepeth the law, happy is he",
+   "work": "Proverbs 29:18",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2029%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-tubal-cain": {
+   "text": "And Adah bare Jabal: he was the father of such as dwell in tents, and of such as have cattle. And his brother's name was Jubal: he was the father of all such as handle the harp and organ. And Zillah, she also bare Tubalcain, an instructer of every artificer in brass and iron",
+   "work": "Genesis 4:20–22",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%204%3A20-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-sought-out-many-inventions": {
+   "text": "Lo, this only have I found, that God hath made man upright; but they have sought out many inventions",
+   "work": "Ecclesiastes 7:29",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%207%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-that-which-ye-know-not": {
+   "text": "And horses and mules and asses (hath He created) that ye may ride them, and for ornament. And He createth that which ye know not.",
+   "work": "Qur’an 16:8",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=8",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-seek-of-allahs-bounty": {
+   "text": "And when the prayer is ended, then disperse in the land and seek of Allah's bounty, and remember Allah much, that ye may be successful.",
+   "work": "Qur’an 62:10",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=62&verse=10",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-corruption-on-land-and-sea": {
+   "text": "Corruption doth appear on land and sea because of (the evil) which men's hands have done, that He may make them taste a part of that which they have done, in order that they may return.",
+   "work": "Qur’an 30:41",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=30&verse=41",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "analects-enrich-them-teach-them": {
+   "text": "How numerous are the people!\" Yu said, \"Since they are thus numerous, what more shall be done for them?\" \"Enrich them, was the reply. \"And when they have been enriched, what more shall be done?\" The Master said, \"Teach them",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "13",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "tennyson-ringing-grooves-of-change": {
+   "text": "Not in vain the distance beacons. Forward, forward let us range. / Let the great world spin for ever down the ringing grooves of change",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "Locksley Hall",
+   "year": "1842",
+   "sortYear": 1842,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Locksley_Hall",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "tennyson-argosies-of-magic-sails": {
+   "text": "For I dipt into the future, far as human eye could see, / Saw the vision of the world, and all the wonder that would be; / Saw the heavens fill with commerce, argosies of magic sails, / Pilots of the purple twilight, dropping down with costly bales",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "Locksley Hall",
+   "year": "1842",
+   "sortYear": 1842,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Locksley_Hall",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "tennyson-cycle-of-cathay": {
+   "text": "Thro' the shadow of the globe we sweep into the younger day: / Better fifty years of Europe than a cycle of Cathay",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "Locksley Hall",
+   "year": "1842",
+   "sortYear": 1842,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Locksley_Hall",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "thoreau-improved-means": {
+   "text": "Our inventions are wont to be pretty toys, which distract our attention from serious things. They are but improved means to an unimproved end",
+   "author": "Henry David Thoreau",
+   "work": "Walden",
+   "locator": "Economy",
+   "year": "1854",
+   "sortYear": 1854,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau/Economy",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1862."
+   }
+  },
+  "blake-dark-satanic-mills": {
+   "text": "And did the Countenance Divine, / Shine forth upon our clouded hills? / And was Jerusalem builded here, / Among these dark Satanic Mills",
+   "verse": true,
+   "author": "William Blake",
+   "work": "Milton (preface)",
+   "year": "c. 1808",
+   "sortYear": 1808,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Milton_(excerpts)/Preface",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "gandhi-only-to-be-patient": {
+   "text": "This civilization is such that one has only to be patient and it will be self-destroyed",
+   "author": "Mohandas K. Gandhi",
+   "work": "Hind Swaraj",
+   "locator": "chapter 6",
+   "year": "1909",
+   "sortYear": 1909,
+   "tradition": "Modern India",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Hind_Swaraj_(1938_edition)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Author d. 1948; one sentence."
+   }
+  },
+  "sophocles-wonders-are-many": {
+   "text": "Wonders are many, and none is more wonderful than man; the power that crosses the white sea, driven by the stormy south-wind, making a path under surges that threaten to engulf him",
+   "author": "Sophocles",
+   "work": "Antigone",
+   "locator": "first stasimon (the Ode to Man)",
+   "year": "c. 441 BCE",
+   "sortYear": -441,
+   "translator": "R. C. Jebb",
+   "translationYear": "1891",
+   "tradition": "Greek and Roman",
+   "kind": "literature",
+   "source": {
+    "url": "https://classics.mit.edu/Sophocles/antigone.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1905."
+   }
+  }
+ }
+}
