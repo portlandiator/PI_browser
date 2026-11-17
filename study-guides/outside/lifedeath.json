@@ -1,0 +1,336 @@
+{
+ "format": 2,
+ "slug": "lifedeath",
+ "subject": "064A242494DCE29D5CBAA6D792D7670B",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 24,
+ "quotations": 24,
+ "kept": [
+  "source:BHU0013",
+  "source:BH06844",
+  "source:AB01287",
+  "source:ABU2298",
+  "source:AB01385",
+  "source:BH03185",
+  "source:BH08891",
+  "source:BH00330",
+  "source:AB07834",
+  "source:ABU0681",
+  "source:AB02618",
+  "source:AB00381",
+  "source:BH02747",
+  "source:BH03554",
+  "source:AB10105",
+  "source:BH08742",
+  "source:AB09123",
+  "source:BH09545",
+  "source:BH06534",
+  "source:AB05420",
+  "source:BB00004",
+  "source:AB00336",
+  "source:BB00002",
+  "source:BH05840"
+ ],
+ "introduction": "The guide uses the words life and death in two senses. Bodies are composed and must dissolve, and no one escapes that death; but scripture, it says, means something else when it calls the heedless dead and the awakened alive, and that life begins here. Its twenty-four quotations are read here with twenty-four from elsewhere. John’s Gospel and letters speak throughout of passing from death to life; the father of the prodigal says his son was dead and is alive again; the Qur’an speaks of one who was dead and was raised and given a light; the Dhammapada says the thoughtless are as if dead already; Thoreau fears to find at the end that he had not lived. On the death of the body, the psalms, the Preacher and Hezekiah’s prayer stand beside the guide’s remarks on an appointed time, Seneca calls death a birthday, and Lucretius and Hamlet keep open the question of what, if anything, lies beyond.",
+ "questions": [
+  "The guide says that scripture often means spiritual death and spiritual life. Which of the passages beside it uses the words most clearly in that sense?",
+  "Thoreau did not want to discover at death that he had not lived. What, in ordinary terms, marks a person as alive in the sense these readings intend?",
+  "Hezekiah prays and is given fifteen years, and the Preacher asks why one should die before one's time. How does the guide's answer about the physician and the appointed hour fit with them?",
+  "Seneca calls the day of death the birthday of eternity, and Lucretius says it will be nothing to us. What difference does each belief make to how one lives now?",
+  "The guide calls death a door to grace. What would you want to have done before coming to it?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-as-a-flower-of-the-field",
+   "after": "source:BHU0013",
+   "responds": [
+    "source:BHU0013"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man's days are as grass: the wind passes over it, and it is gone."
+  },
+  {
+   "id": "seneca-birthday-of-eternity",
+   "after": "source:BH06844",
+   "responds": [
+    "source:BH06844"
+   ],
+   "relation": "adjacent",
+   "why": "Seneca says that the day feared as the end of all things is the birthday of eternity."
+  },
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:BH06844",
+   "responds": [
+    "source:BH06844"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius holds that the time after death will be nothing to us, as the time before birth was. What is the difference between death as a door and death as an end, for the way a person lives?"
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:AB01287",
+   "responds": [
+    "source:AB01287"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says of the body: dust thou art, and unto dust shalt thou return."
+  },
+  {
+   "id": "ecclesiastes-die-before-thy-time",
+   "after": "source:ABU2298",
+   "responds": [
+    "source:ABU2298"
+   ],
+   "relation": "complement",
+   "why": "The Preacher asks: why shouldest thou die before thy time? Does a person have an appointed time, and can it be shortened or lengthened by what they do?"
+  },
+  {
+   "id": "isaiah-add-unto-thy-days-fifteen-years",
+   "after": "source:AB01385",
+   "responds": [
+    "source:AB01385"
+   ],
+   "relation": "adjacent",
+   "why": "Hezekiah, sick unto death, prays and weeps, and is told that fifteen years are added to his days."
+  },
+  {
+   "id": "hebrews-once-to-die",
+   "after": "source:BH03185",
+   "responds": [
+    "source:BH03185"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says that it is appointed unto men once to die, and after this the judgment."
+  },
+  {
+   "id": "quran-comfort-of-illusion",
+   "after": "source:BH03185",
+   "responds": [
+    "source:BH03185"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that every soul will taste of death, and that the life of this world is but comfort of illusion."
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:BH08891",
+   "responds": [
+    "source:BH08891"
+   ],
+   "relation": "adjacent",
+   "why": "The rich man in the parable is asked, on the night his soul is required, whose his goods shall be."
+  },
+  {
+   "id": "psalm-teach-us-to-number",
+   "after": "source:BH08891",
+   "responds": [
+    "source:BH08891"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm prays: teach us to number our days, that we may apply our hearts unto wisdom."
+  },
+  {
+   "id": "john-passed-from-death-unto-life",
+   "after": "source:BH00330",
+   "responds": [
+    "source:BH00330"
+   ],
+   "relation": "adjacent",
+   "why": "In John's Gospel the one who hears and believes is passed from death unto life."
+  },
+  {
+   "id": "john-life-more-abundantly",
+   "after": "source:AB07834",
+   "responds": [
+    "source:AB07834"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I am come that they might have life, and that they might have it more abundantly."
+  },
+  {
+   "id": "john-epistle-abideth-in-death",
+   "after": "source:ABU0681",
+   "responds": [
+    "source:ABU0681"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that he that loveth not his brother abideth in death."
+  },
+  {
+   "id": "luke-let-the-dead-bury",
+   "after": "source:AB02618",
+   "responds": [
+    "source:AB02618"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying referred to: let the dead bury their dead."
+  },
+  {
+   "id": "john-not-seen-and-yet-believed",
+   "after": "source:AB00381",
+   "responds": [
+    "source:AB00381"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: blessed are they that have not seen, and yet have believed."
+  },
+  {
+   "id": "john-living-water",
+   "after": "source:BH02747",
+   "responds": [
+    "source:BH02747"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of a water that becomes a well springing up into everlasting life."
+  },
+  {
+   "id": "quran-dead-raised-to-life",
+   "after": "source:BH03554",
+   "responds": [
+    "source:BH03554"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks whether one who was dead and was raised to life, and given a light to walk by, is like one in darkness."
+  },
+  {
+   "id": "ephesians-awake-thou",
+   "after": "source:AB10105",
+   "responds": [
+    "source:AB10105"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes a call to those who seem alive: awake thou that sleepest, and arise from the dead."
+  },
+  {
+   "id": "dhammapada-earnestness",
+   "after": "source:BH08742",
+   "responds": [
+    "source:BH08742"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that those who are in earnest do not die, and the thoughtless are as if dead already."
+  },
+  {
+   "id": "revelation-name-that-thou-livest",
+   "after": "source:AB09123",
+   "responds": [
+    "source:AB09123"
+   ],
+   "relation": "adjacent",
+   "why": "Revelation tells a church: thou hast a name that thou livest, and art dead."
+  },
+  {
+   "id": "thoreau-live-deliberately",
+   "after": "source:AB09123",
+   "responds": [
+    "source:AB09123"
+   ],
+   "relation": "complement",
+   "why": "Thoreau went to the woods so as not to discover, when he came to die, that he had not lived. What would it mean, apart from any creed, to be alive in the sense these passages intend?"
+  },
+  {
+   "id": "luke-was-dead-and-is-alive-again",
+   "after": "source:BH09545",
+   "responds": [
+    "source:BH09545"
+   ],
+   "relation": "adjacent",
+   "why": "The father in the parable says: this my son was dead, and is alive again."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:BH06534",
+   "responds": [
+    "source:BH06534"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that the wise shall shine as the brightness of the firmament for ever and ever."
+  },
+  {
+   "id": "shakespeare-undiscovered-country",
+   "after": "source:AB05420",
+   "responds": [
+    "source:AB05420"
+   ],
+   "relation": "contrast",
+   "why": "Hamlet speaks of the dread of something after death, the undiscovered country from which no traveller returns. What does certainty that the body will perish leave uncertain?"
+  }
+ ],
+ "library": {
+  "john-resurrection-and-the-life": {
+   "text": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: And whosoever liveth and believeth in me shall never die. Believest thou this",
+   "work": "John 11:25–26",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2011%3A25-26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-die-before-thy-time": {
+   "text": "Be not over much wicked, neither be thou foolish: why shouldest thou die before thy time",
+   "work": "Ecclesiastes 7:17",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%207%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-add-unto-thy-days-fifteen-years": {
+   "text": "In those days was Hezekiah sick unto death. And Isaiah the prophet the son of Amoz came unto him, and said unto him, Thus saith the Lord, Set thine house in order: for thou shalt die, and not live. Then Hezekiah turned his face toward the wall, and prayed unto the Lord, And said, Remember now, O Lord, I beseech thee, how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight. And Hezekiah wept sore. Then came the word of the Lord to Isaiah, saying, Go, and say to Hezekiah, Thus saith the Lord, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will add unto thy days fifteen years",
+   "work": "Isaiah 38:1–5",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2038%3A1-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
