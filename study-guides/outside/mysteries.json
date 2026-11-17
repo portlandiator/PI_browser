@@ -1,0 +1,1603 @@
+{
+ "format": 2,
+ "slug": "mysteries",
+ "subject": "112D55EA871649C98F620B987B18D623",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 87,
+ "quotations": 100,
+ "kept": [
+  "source:BH00113",
+  "source:BH00208",
+  "source:ABU0395",
+  "source:AB00104",
+  "source:AB00482",
+  "source:AB02018",
+  "source:ABU0070",
+  "source:AB00747",
+  "source:AB03423",
+  "source:ABU0346",
+  "source:AB03797",
+  "source:AB00143",
+  "source:AB01117",
+  "source:AB00948",
+  "source:AB01866",
+  "source:BH00001",
+  "source:ABU0523",
+  "source:AB11056",
+  "source:BH00778",
+  "source:BH00007",
+  "source:BB00605",
+  "source:BH00047",
+  "source:ABU0055",
+  "source:ABU0310",
+  "source:ABU3086",
+  "source:AB00092",
+  "source:AB07863",
+  "source:AB05789",
+  "source:AB00689",
+  "source:AB00083",
+  "source:AB00282",
+  "source:BB00002",
+  "source:ABU0033",
+  "source:BB00325",
+  "source:BBU0001",
+  "source:BH06431",
+  "source:BB00289",
+  "source:BH01315",
+  "source:BH06241",
+  "source:AB03297",
+  "source:AB06056",
+  "source:AB06522",
+  "source:AB06943",
+  "source:AB08335",
+  "source:AB08419",
+  "source:AB08456",
+  "source:AB08500",
+  "source:AB08735",
+  "source:AB09601",
+  "source:BH11754",
+  "source:BH00271",
+  "source:AB00192",
+  "source:AB06599",
+  "source:AB07513",
+  "source:BH00902",
+  "source:BH05600",
+  "source:BH01903",
+  "source:BH01010",
+  "source:BH09299",
+  "source:BH06907",
+  "source:BH09674",
+  "source:BH10020",
+  "source:BH10654",
+  "source:BH11673",
+  "source:BH05241",
+  "source:BH11200",
+  "source:BH03402",
+  "source:AB00915",
+  "source:AB11327",
+  "source:AB01165",
+  "source:AB00034",
+  "source:ABU2986",
+  "source:ABU3749",
+  "source:AB00175",
+  "source:BH02294",
+  "source:AB02921",
+  "source:AB01515",
+  "source:AB06563",
+  "source:AB07171",
+  "source:AB08920",
+  "source:AB10423",
+  "source:AB11155",
+  "source:AB11288",
+  "source:AB03017",
+  "source:BH07657",
+  "source:BH07661",
+  "source:AB01624"
+ ],
+ "introduction": "The passages in this guide speak of mysteries: realities that are present but not yet seen, and the opening of an inner eye by meditation, purity of heart and the help of the spirit. They tell of visions, of meanings hidden in scripture, of things that cannot be said or may not yet be said, and of an age in which what was sealed is to be made manifest. A hundred voices from elsewhere are placed beside them: the prophets and Paul on sealed books and unspeakable words, the Qur’an's Joseph and Moses, Plato's cave, the Tao Te Ching and an Upanishad, Blake and Wordsworth on seeing into the life of things, and the doubts of Locke, Hume, Paine and Kant.",
+ "questions": [
+  "Meditation is called the key that opens the doors of mysteries. What do the psalm's \"be still\" and Wordsworth's \"eye made quiet\" add to that picture?",
+  "The answer on spiritual disclosures separates imagination from true vision. How would you meet Locke's and Hume's demand for a test?",
+  "Many passages say that some things are withheld because hearers cannot bear them; the Buddha said he kept nothing back. When is reserve a kindness, and when is it a risk?",
+  "Blake, Wordsworth and the Seven Valleys all describe seeing the one in the many. Is this a change in the world or in the one who sees?",
+  "Daniel's book was sealed until the time of the end, and these passages speak of a century of unveiling. What do you take to have been unveiled?",
+  "One passage says that if the mysteries were unravelled everyone would see perfect justice. How does that speak to Ivan Karamazov, or to Job?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-day-unto-day",
+   "after": "source:BH00208",
+   "responds": [
+    "source:BH00208"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm hears the same wordless praise: day speaks to day, and there is no language where the voice is not heard."
+  },
+  {
+   "id": "shakespeare-tongues-in-trees",
+   "after": "source:BH00208",
+   "responds": [
+    "source:BH00208"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's exiled duke finds tongues in trees, books in brooks and sermons in stones."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm gives the oldest instruction for this kind of knowing: be still, and know."
+  },
+  {
+   "id": "wordsworth-life-of-things",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth describes a state in which, with an eye made quiet, we see into the life of things."
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:AB00104",
+   "responds": [
+    "source:AB00104"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's prisoners take shadows for reality until one of them is turned toward the light."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:AB00482",
+   "responds": [
+    "source:AB00482"
+   ],
+   "relation": "contrast",
+   "why": "Locke insists that reason must be the last judge of every claimed disclosure. How does this answer's distinction between imagination and true vision meet his demand?"
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the same of the unaided human being: the things of the Spirit are spiritually discerned."
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "complement",
+   "why": "Kant held that he had to limit knowledge to make room for belief. Is the spirit of faith in this passage a further kind of knowing, or something other than knowledge?"
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "Blake says that if the doors of perception were cleansed, everything would appear as it is, infinite."
+  },
+  {
+   "id": "corinthians-deep-things-of-god",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a Spirit that searches all things, even the deep things of God."
+  },
+  {
+   "id": "plato-nature-of-wondrous-beauty",
+   "after": "source:AB03423",
+   "responds": [
+    "source:AB03423"
+   ],
+   "relation": "adjacent",
+   "why": "Plato has Socrates taught by Diotima in a school of love whose last lesson is a sudden vision."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "adjacent",
+   "why": "Kant names two things that fill the mind with awe, the starry heavens and the moral law, one for each science named here."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "complement",
+   "why": "Whitman left the astronomer's lecture and looked up in silence at the stars. Does the passage's pairing of material and divine science answer his impatience or share it?"
+  },
+  {
+   "id": "job-by-searching",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "contrast",
+   "why": "Zophar asks Job whether anyone can find out God by searching. What kind of discovery do these passages have in mind?"
+  },
+  {
+   "id": "daniel-deep-and-secret-things",
+   "after": "source:AB03797",
+   "responds": [
+    "source:AB03797"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel blesses the God who reveals deep and secret things and gives wisdom to those who seek it."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:AB00143",
+   "responds": [
+    "source:AB00143"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha prays that his servant's eyes be opened, and the young man sees what had been there all along."
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:AB00143",
+   "responds": [
+    "source:AB00143"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays the same prayer for his readers: that the eyes of their understanding be enlightened."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "adjacent",
+   "why": "Plato says that learning is the turning of the whole soul from shadows toward what is real."
+  },
+  {
+   "id": "psalm-open-thou-mine-eyes",
+   "after": "source:AB01866",
+   "responds": [
+    "source:AB01866"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist asks in one line for what this letter prays: open my eyes, that I may see wonders."
+  },
+  {
+   "id": "colossians-psalms-and-hymns",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that the word dwell richly in believers through psalms and hymns sung with grace in the heart."
+  },
+  {
+   "id": "isaiah-book-that-is-sealed",
+   "after": "source:ABU0523",
+   "responds": [
+    "source:ABU0523"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah describes scripture as a sealed book to the learned and the unlearned alike when understanding is absent."
+  },
+  {
+   "id": "augustine-ambrose-letter-kills",
+   "after": "source:ABU0523",
+   "responds": [
+    "source:ABU0523"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine tells how Ambrose, drawing aside the veil of the letter, opened to him the spiritual meaning of the text."
+  },
+  {
+   "id": "colossians-mystery-hid-from-ages",
+   "after": "source:AB11056",
+   "responds": [
+    "source:AB11056"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a mystery hidden from ages and generations and now made manifest."
+  },
+  {
+   "id": "isaiah-saw-the-lord",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's call begins with a vision of this kind: a throne, voices and a glory that fills the earth."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "contrast",
+   "why": "Paine objects that a revelation is revelation to the first person only and hearsay to everyone after. On what grounds does a reader accept an account like this one?"
+  },
+  {
+   "id": "acts-light-from-heaven",
+   "after": "source:BB00605",
+   "responds": [
+    "source:BB00605"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's life was turned by a light and a voice on the road to Damascus."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:BB00605",
+   "responds": [
+    "source:BB00605"
+   ],
+   "relation": "adjacent",
+   "why": "Joel promises a day when the Spirit is poured out and the young see visions and the old dream dreams."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Blake asks for the same sight: a world in a grain of sand and eternity in an hour."
+  },
+  {
+   "id": "wordsworth-rolls-through-all-things",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth feels one presence in the setting sun, the ocean, the air and the mind of man."
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad teaches that one subtle essence is the self of all that exists."
+  },
+  {
+   "id": "pascal-heart-experiences-god",
+   "after": "source:ABU0055",
+   "responds": [
+    "source:ABU0055"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal distinguishes a knowledge of the heart from the knowledge of reason."
+  },
+  {
+   "id": "corinthians-eye-hath-not-seen",
+   "after": "source:ABU0310",
+   "responds": [
+    "source:ABU0310"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that what is prepared is beyond eye and ear, and is revealed by the Spirit."
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "source:ABU0310",
+   "responds": [
+    "source:ABU0310"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that no testimony is enough to establish what goes beyond nature unless its falsehood would be more miraculous still. What would he ask of the claims made here?"
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB05789",
+   "responds": [
+    "source:AB05789"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promises the sight of God to the pure in heart, the same condition this passage sets for receiving the light."
+  },
+  {
+   "id": "peter-one-day-as-a-thousand-years",
+   "after": "source:AB00689",
+   "responds": [
+    "source:AB00689"
+   ],
+   "relation": "adjacent",
+   "why": "The second letter of Peter says that with God a day is as a thousand years, a hint of a realm where time is not ours."
+  },
+  {
+   "id": "john-judge-not-by-appearance",
+   "after": "source:AB00083",
+   "responds": [
+    "source:AB00083"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks his critics not to judge by the appearance but with right judgement."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:AB00083",
+   "responds": [
+    "source:AB00083"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanks God that these things are hidden from the wise and revealed to babes."
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "source:AB00282",
+   "responds": [
+    "source:AB00282"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet tells his friend that there are more things in heaven and earth than his philosophy has dreamed of."
+  },
+  {
+   "id": "romans-unsearchable-judgments",
+   "after": "source:AB00282",
+   "responds": [
+    "source:AB00282"
+   ],
+   "relation": "adjacent",
+   "why": "Paul breaks off his argument to exclaim at depths that cannot be searched out."
+  },
+  {
+   "id": "deuteronomy-secret-things",
+   "after": "source:AB00282",
+   "responds": [
+    "source:AB00282"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy divides the secret things, which belong to God, from what is revealed, which belongs to us."
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives the same warning against offering what is holy to those who cannot value it."
+  },
+  {
+   "id": "psalm-secret-of-the-lord",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the secret of the Lord is with those who fear him."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "contrast",
+   "why": "Kant's motto for an age of enlightenment was to dare to know, and to make public use of reason. What place is there in such an age for a mystery that is to be guarded?"
+  },
+  {
+   "id": "matthew-mysteries-of-the-kingdom",
+   "after": "source:BB00325",
+   "responds": [
+    "source:BB00325"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus explains why he speaks in parables: to some it is given to know the mysteries."
+  },
+  {
+   "id": "corinthians-stewards-of-the-mysteries",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls himself and his companions stewards of the mysteries of God."
+  },
+  {
+   "id": "isaiah-treasures-of-darkness",
+   "after": "source:BH06431",
+   "responds": [
+    "source:BH06431"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises the treasures of darkness and the hidden riches of secret places."
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:BB00289",
+   "responds": [
+    "source:BB00289"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel is told to seal the book until a time when knowledge will be increased."
+  },
+  {
+   "id": "gita-veiled-in-form",
+   "after": "source:BH01315",
+   "responds": [
+    "source:BH01315"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna says the same of himself: veiled in form, he is not recognized by untaught minds."
+  },
+  {
+   "id": "luke-nothing-covered",
+   "after": "source:BH06241",
+   "responds": [
+    "source:BH06241"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that nothing is covered that will not be revealed, nor hidden that will not be known."
+  },
+  {
+   "id": "amos-revealeth-his-secret",
+   "after": "source:BH06241",
+   "responds": [
+    "source:BH06241"
+   ],
+   "relation": "adjacent",
+   "why": "Amos holds that God does nothing without revealing his secret to the prophets."
+  },
+  {
+   "id": "psalm-whither-shall-i-go",
+   "after": "source:AB03297",
+   "responds": [
+    "source:AB03297"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm knows the same enclosing presence: there is nowhere to go from it, in heaven or in the sea."
+  },
+  {
+   "id": "quran-not-a-leaf-falleth",
+   "after": "source:AB03297",
+   "responds": [
+    "source:AB03297"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says the keys of the unseen are with God, who knows what is in land and sea."
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:AB06056",
+   "responds": [
+    "source:AB06056"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says that the mercies of God are new every morning, as this letter greets the morning light."
+  },
+  {
+   "id": "quran-removed-thy-covering",
+   "after": "source:AB06522",
+   "responds": [
+    "source:AB06522"
+   ],
+   "relation": "complement",
+   "why": "In the Qur’an the lifting of the covering is said to the heedless at the reckoning, when sight is piercing too late. What makes unveiling a gift in one case and a judgement in the other?"
+  },
+  {
+   "id": "quran-breath-of-joseph",
+   "after": "source:AB06943",
+   "responds": [
+    "source:AB06943"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse of the Qur’an behind the image: Jacob senses the breath of Joseph from far away."
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "source:AB08419",
+   "responds": [
+    "source:AB08419"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an's parable of light, with its lamp in a glass, lies behind the imagery of this letter."
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "source:AB08456",
+   "responds": [
+    "source:AB08456"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of beholding with unveiled face and being changed into what is seen."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:AB08500",
+   "responds": [
+    "source:AB08500"
+   ],
+   "relation": "adjacent",
+   "why": "The disciples at Emmaus knew their companion in a single gesture, the breaking of bread."
+  },
+  {
+   "id": "quran-became-a-seer",
+   "after": "source:AB09601",
+   "responds": [
+    "source:AB09601"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an Jacob's sight returns when Joseph's shirt is laid on his face."
+  },
+  {
+   "id": "genesis-spirit-of-jacob-revived",
+   "after": "source:AB09601",
+   "responds": [
+    "source:AB09601"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis tells the same moment: the spirit of Jacob revived when he saw the wagons Joseph had sent."
+  },
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:BH11754",
+   "responds": [
+    "source:BH11754"
+   ],
+   "relation": "complement",
+   "why": "Proverbs says it is the glory of God to conceal a thing and the honour of kings to search it out. Is concealment here a withholding, or an invitation?"
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples that he has many things to say which they cannot bear yet."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching opens by saying that what can be put into words is not the enduring reality."
+  },
+  {
+   "id": "corinthians-milk-and-not-meat",
+   "after": "source:AB00192",
+   "responds": [
+    "source:AB00192"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the same figure of food suited to the hearer: milk, not meat, for those not yet able."
+  },
+  {
+   "id": "quran-canst-not-bear-with-me",
+   "after": "source:AB00192",
+   "responds": [
+    "source:AB00192"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an the guide tells Moses that he will not be able to bear what he does not yet understand."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:AB06599",
+   "responds": [
+    "source:AB06599"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching has the same saying: the one who knows does not speak."
+  },
+  {
+   "id": "buddha-no-closed-fist",
+   "after": "source:AB06599",
+   "responds": [
+    "source:AB06599"
+   ],
+   "relation": "contrast",
+   "why": "The Buddha, near death, said he had kept nothing back in a teacher's closed fist. What reasons do these passages give for a reserve he disowned?"
+  },
+  {
+   "id": "corinthians-unspeakable-words",
+   "after": "source:AB07513",
+   "responds": [
+    "source:AB07513"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells of a man caught up to paradise who heard words that cannot be uttered."
+  },
+  {
+   "id": "matthew-preach-upon-the-housetops",
+   "after": "source:BH00902",
+   "responds": [
+    "source:BH00902"
+   ],
+   "relation": "contrast",
+   "why": "Jesus tells his disciples to proclaim from the housetops what they hear in the ear. When does wisdom require concealment, and when is concealment a failure of courage?"
+  },
+  {
+   "id": "revelation-seal-up-those-things",
+   "after": "source:BH01010",
+   "responds": [
+    "source:BH01010"
+   ],
+   "relation": "adjacent",
+   "why": "John was about to write what the seven thunders said and was told to seal it up."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:BH06907",
+   "responds": [
+    "source:BH06907"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see in a mirror dimly, and then face to face."
+  },
+  {
+   "id": "isaiah-destroy-the-vail",
+   "after": "source:BH10020",
+   "responds": [
+    "source:BH10020"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees the covering that is cast over all peoples being destroyed."
+  },
+  {
+   "id": "matthew-treasure-hid-in-a-field",
+   "after": "source:BH10654",
+   "responds": [
+    "source:BH10654"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the kingdom to treasure hidden in a field, for which the finder gives everything."
+  },
+  {
+   "id": "habakkuk-knowledge-of-the-glory",
+   "after": "source:BH11673",
+   "responds": [
+    "source:BH11673"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk expects the earth to be filled with the knowledge of God's glory as the waters cover the sea."
+  },
+  {
+   "id": "shakespeare-undiscovered-country",
+   "after": "source:BH05241",
+   "responds": [
+    "source:BH05241"
+   ],
+   "relation": "complement",
+   "why": "Hamlet calls death the undiscovered country, and says that dread of it makes us bear the ills we have. How does this passage explain the same silence about what follows death?"
+  },
+  {
+   "id": "plato-death-one-of-two-things",
+   "after": "source:BH05241",
+   "responds": [
+    "source:BH05241"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates, sentenced to death, says that no one knows whether death is not the greatest good."
+  },
+  {
+   "id": "quran-knowledge-but-little",
+   "after": "source:BH05241",
+   "responds": [
+    "source:BH05241"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an answers a question about the Spirit by saying that of knowledge we have been given but little."
+  },
+  {
+   "id": "john-epistle-see-him-as-he-is",
+   "after": "source:BH11200",
+   "responds": [
+    "source:BH11200"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that what we shall be has not yet appeared."
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "source:AB00915",
+   "responds": [
+    "source:AB00915"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus calls blessed the eyes that see what prophets and the righteous longed to see."
+  },
+  {
+   "id": "daniel-sealed-till-the-end",
+   "after": "source:AB11327",
+   "responds": [
+    "source:AB11327"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel is told that the words are closed up and sealed until the time of the end."
+  },
+  {
+   "id": "luke-opened-their-understanding",
+   "after": "source:AB01165",
+   "responds": [
+    "source:AB01165"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says that the risen Jesus opened his disciples' understanding so that they could understand the scriptures."
+  },
+  {
+   "id": "jeremiah-new-covenant",
+   "after": "source:ABU3749",
+   "responds": [
+    "source:ABU3749"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah looks to a day when no one will need to teach another, for all will know."
+  },
+  {
+   "id": "emerson-sepulchres-of-the-fathers",
+   "after": "source:ABU3749",
+   "responds": [
+    "source:ABU3749"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson asks why his age should not have an original relation to the universe and not a tradition only."
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:AB00175",
+   "responds": [
+    "source:AB00175"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus announces his work in Isaiah's words: release for captives and sight for the blind."
+  },
+  {
+   "id": "ephesians-awake-thou-that-sleepest",
+   "after": "source:AB00175",
+   "responds": [
+    "source:AB00175"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes an early hymn: awake, sleeper, and light will be given you."
+  },
+  {
+   "id": "pope-whatever-is-is-right",
+   "after": "source:BH02294",
+   "responds": [
+    "source:BH02294"
+   ],
+   "relation": "complement",
+   "why": "Pope argued that all partial evil is universal good, a harmony not understood. Is this passage making the same claim, or a different one?"
+  },
+  {
+   "id": "dostoevsky-return-the-ticket",
+   "after": "source:BH02294",
+   "responds": [
+    "source:BH02294"
+   ],
+   "relation": "contrast",
+   "why": "Ivan Karamazov says that no future harmony could justify the suffering of a child, and he returns his ticket. What would it take for a revealed justice to answer him?"
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:BH02294",
+   "responds": [
+    "source:BH02294"
+   ],
+   "relation": "adjacent",
+   "why": "The voice from the whirlwind answers Job's demand for justice by showing him how much he does not know."
+  },
+  {
+   "id": "corinthians-hidden-wisdom",
+   "after": "source:AB02921",
+   "responds": [
+    "source:AB02921"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a hidden wisdom, ordained before the world, that is taught among the mature."
+  },
+  {
+   "id": "psalm-secret-place-of-the-most-high",
+   "after": "source:AB01515",
+   "responds": [
+    "source:AB01515"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm promises shelter to the one who dwells in the secret place of the Most High."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "source:AB06563",
+   "responds": [
+    "source:AB06563"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God taught Adam the names of all things, a knowledge the angels did not have."
+  },
+  {
+   "id": "brihadaranyaka-lead-me",
+   "after": "source:AB07171",
+   "responds": [
+    "source:AB07171"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad has the same prayer: lead me from the unreal to the real, from darkness to light."
+  },
+  {
+   "id": "isaiah-hidest-thyself",
+   "after": "source:AB07171",
+   "responds": [
+    "source:AB07171"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah confesses that God is one who hides himself, which is why the veil must be lifted from his side."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB08920",
+   "responds": [
+    "source:AB08920"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his followers that a lamp is lit to give light to all in the house."
+  },
+  {
+   "id": "plato-wonder-beginning-of-philosophy",
+   "after": "source:AB10423",
+   "responds": [
+    "source:AB10423"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates says that wonder is the feeling of a philosopher, and that the love of wisdom begins there."
+  },
+  {
+   "id": "lamentations-quietly-wait",
+   "after": "source:AB11155",
+   "responds": [
+    "source:AB11155"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations counsels those who wait: it is good to hope and quietly wait."
+  },
+  {
+   "id": "matthew-enter-into-thy-closet",
+   "after": "source:AB11288",
+   "responds": [
+    "source:AB11288"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sends the one who prays into an inner room with the door shut."
+  },
+  {
+   "id": "matthew-pearl-of-great-price",
+   "after": "source:BH07657",
+   "responds": [
+    "source:BH07657"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells of one pearl for which a merchant sold everything, a figure for the gift asked here."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:BH07661",
+   "responds": [
+    "source:BH07661"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis begins with the word that calls light into being and divides it from the darkness."
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "source:AB01624",
+   "responds": [
+    "source:AB01624"
+   ],
+   "relation": "complement",
+   "why": "Tennyson holds a small flower and says that if he could understand it wholly he would know what God and man are. Where do mysteries at the heart of creation begin for you?"
+  }
+ ],
+ "library": {
+  "corinthians-stewards-of-the-mysteries": {
+   "text": "Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God",
+   "work": "1 Corinthians 4:1",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%204%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-mysteries-of-the-kingdom": {
+   "text": "He answered and said unto them, Because it is given unto you to know the mysteries of the kingdom of heaven, but to them it is not given",
+   "work": "Matthew 13:11",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2013%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-milk-and-not-meat": {
+   "text": "And I, brethren, could not speak unto you as unto spiritual, but as unto carnal, even as unto babes in Christ. I have fed you with milk, and not with meat: for hitherto ye were not able to bear it, neither yet now are ye able",
+   "work": "1 Corinthians 3:1–2",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%203%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-eyes-of-your-understanding": {
+   "text": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling, and what the riches of the glory of his inheritance in the saints",
+   "work": "Ephesians 1:17–18",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%201%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "colossians-mystery-hid-from-ages": {
+   "text": "Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints",
+   "work": "Colossians 1:26",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Colossians%201%3A26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-unspeakable-words": {
+   "text": "And I knew such a man, (whether in the body, or out of the body, I cannot tell: God knoweth;) How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter",
+   "work": "2 Corinthians 12:3–4",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2012%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-seal-up-those-things": {
+   "text": "And when the seven thunders had uttered their voices, I was about to write: and I heard a voice from heaven saying unto me, Seal up those things which the seven thunders uttered, and write them not",
+   "work": "Revelation 10:4",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2010%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-unsearchable-judgments": {
+   "text": "O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out",
+   "work": "Romans 11:33",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2011%3A33&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-secret-of-the-lord": {
+   "text": "The secret of the Lord is with them that fear him; and he will shew them his covenant",
+   "work": "Psalm 25:14",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2025%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-preach-upon-the-housetops": {
+   "text": "Fear them not therefore: for there is nothing covered, that shall not be revealed; and hid, that shall not be known. What I tell you in darkness, that speak ye in light: and what ye hear in the ear, that preach ye upon the housetops",
+   "work": "Matthew 10:26–27",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2010%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-deep-things-of-god": {
+   "text": "But God hath revealed them unto us by his Spirit: for the Spirit searcheth all things, yea, the deep things of God",
+   "work": "1 Corinthians 2:10",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%202%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-saw-the-lord": {
+   "text": "In the year that king Uzziah died I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple. Above it stood the seraphims: each one had six wings; with twain he covered his face, and with twain he covered his feet, and with twain he did fly. And one cried unto another, and said, Holy, holy, holy, is the Lord of hosts: the whole earth is full of his glory",
+   "work": "Isaiah 6:1–3",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%206%3A1-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-light-from-heaven": {
+   "text": "And as he journeyed, he came near Damascus: and suddenly there shined round about him a light from heaven: And he fell to the earth, and heard a voice saying unto him, Saul, Saul, why persecutest thou me",
+   "work": "Acts 9:3–4",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%209%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-day-unto-day": {
+   "text": "Day unto day uttereth speech, and night unto night sheweth knowledge. There is no speech nor language, where their voice is not heard. Their line is gone out through all the earth, and their words to the end of the world",
+   "work": "Psalm 19:2–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2019%3A2-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-natural-man-receiveth-not": {
+   "text": "But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned",
+   "work": "1 Corinthians 2:14",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%202%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-breath-of-joseph": {
+   "text": "When the caravan departed their father had said: Truly I am conscious of the breath of Joseph, though ye call me dotard.",
+   "work": "Qur’an 12:94",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=12&verse=94",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-became-a-seer": {
+   "text": "Then, when the bearer of glad tidings came, he laid it on his face and he became a seer once more. He said: Said I not unto you that I know from Allah that which ye know not?",
+   "work": "Qur’an 12:96",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=12&verse=96",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-canst-not-bear-with-me": {
+   "text": "May I follow thee, to the end that thou mayst teach me right conduct of that which thou hast been taught? He said: Lo! thou canst not bear with me. How canst thou bear with that whereof thou canst not compass any knowledge",
+   "work": "Qur’an 18:66–68",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-tongues-in-trees": {
+   "text": "And this our life exempt from public haunt / Finds tongues in trees, books in the running brooks, / Sermons in stones and good in every thing",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "As You Like It",
+   "locator": "Act II, scene 1",
+   "year": "c. 1599",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/asyoulikeit/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "wordsworth-life-of-things": {
+   "text": "While with an eye made quiet by the power / Of harmony, and the deep power of joy, / We see into the life of things",
+   "verse": true,
+   "author": "William Wordsworth",
+   "work": "Lines Written a Few Miles above Tintern Abbey",
+   "year": "1798",
+   "sortYear": 1798,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_(Wordsworth,_1815)/Volume_2/Tintern_Abbey",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1850."
+   }
+  },
+  "buddha-no-closed-fist": {
+   "text": "I have preached the truth without making any distinction between exoteric and esoteric doctrine: for in respect of the truths, Ananda, the Tathagata has no such thing as the closed fist of a teacher, who keeps some things back",
+   "author": "The Buddha",
+   "work": "Mahāparinibbāna Sutta (The Book of the Great Decease)",
+   "locator": "II.32",
+   "year": "c. 5th century BCE; written down later",
+   "sortYear": -400,
+   "translator": "T. W. Rhys Davids",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://archive.org/stream/buddhistsuttas00daviuoft/buddhistsuttas00daviuoft_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "repair": [
+     [
+      "esote- ric",
+      "esoteric"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1922."
+   },
+   "caveat": "Copied from a scanned book, so the accent on Ânanda is missing and one word broken across lines is joined."
+  },
+  "isaiah-destroy-the-vail": {
+   "text": "And he will destroy in this mountain the face of the covering cast over all people, and the vail that is spread over all nations",
+   "work": "Isaiah 25:7",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2025%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-opened-their-understanding": {
+   "text": "Then opened he their understanding, that they might understand the scriptures",
+   "work": "Luke 24:45",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2024%3A45&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-awake-thou-that-sleepest": {
+   "text": "Wherefore he saith, Awake thou that sleepest, and arise from the dead, and Christ shall give thee light",
+   "work": "Ephesians 5:14",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%205%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-hidden-wisdom": {
+   "text": "Howbeit we speak wisdom among them that are perfect: yet not the wisdom of this world, nor of the princes of this world, that come to nought: But we speak the wisdom of God in a mystery, even the hidden wisdom, which God ordained before the world unto our glory",
+   "work": "1 Corinthians 2:6–7",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%202%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
