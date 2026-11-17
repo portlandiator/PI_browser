@@ -1,0 +1,789 @@
+{
+ "format": 2,
+ "slug": "miracles",
+ "subject": "3E78A8B4557E4886A5D3BC8F84BFB09E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 41,
+ "kept": [
+  "source:AB00030",
+  "source:AB00381",
+  "source:ABU0046",
+  "source:ABU0207",
+  "source:ABU0334",
+  "source:AB00503",
+  "source:BH00394",
+  "source:ABU0526",
+  "source:ABU3203",
+  "source:AB00766",
+  "source:AB03291",
+  "source:AB08407",
+  "source:ABU1683",
+  "source:ABU2530",
+  "source:ABU3746",
+  "source:ABU0898",
+  "source:ABU3618",
+  "source:ABU2210",
+  "source:ABU0785",
+  "source:ABU1618",
+  "source:BH00002",
+  "source:BH00308",
+  "source:AB02462",
+  "source:ABU2122",
+  "source:BH00238",
+  "source:AB00733",
+  "source:AB00282",
+  "source:BB00154",
+  "source:ABU2579",
+  "source:ABU2105",
+  "source:ABU0075",
+  "source:ABU3228",
+  "source:ABU0843",
+  "selection:49fbc83ac159407c7624e048",
+  "selection:86f890470aa0d9b46ea9a6a8",
+  "selection:ed193e693510f69a39af66b9",
+  "selection:629db606107a383fdf3da29e",
+  "selection:2c5d18e939b0d42c7903cb78"
+ ],
+ "introduction": "These readings do not deny miracles, and they decline to rest anything on them: a wonder is proof only to those who saw it, every religion tells of its own, and the lasting miracles are the opening of blind eyes of the spirit, the constancy of the Messenger and the spread of the message from a prison. Each of the forty-one quotations is read here beside one from elsewhere. Most stand alongside: Jesus refusing a sign and the Qur'an answering demands for portents, Deuteronomy and Exodus on wonders that prove nothing, Maimonides, Paine, Emerson and Whitman. Some push back or add a side: Hume asks what testimony could ever establish a miracle, and Nicodemus, Elijah on Carmel, Paul on the Damascus road and Jesus's own appeal to his works are cases where a wonder did persuade.",
+ "questions": [
+  "The readings say that a miracle is proof only for those who witness it. Paine says the same of revelation, and Hume of all testimony. Where do the three part company?",
+  "Jesus refuses a sign to those who demand one, and the Qur'an answers: am I aught save a mortal messenger? Why, according to the readings, is a faith that waits on a sign not accepted?",
+  "Several readings take the healing of the blind as the opening of spiritual sight. What is gained by reading it so, and what would the man in John's Gospel who says 'now I see' add?",
+  "Whitman knows of nothing else but miracles, and the readings say that miracles are constantly performed about us. What would it change to regard ordinary things in this way?",
+  "Nicodemus and the crowd on Carmel were moved by what they saw. Do the readings leave room for that, and what do they offer in its place as the proof that lasts?"
+ ],
+ "outside": [
+  {
+   "id": "hume-whatever-is-different-is-contrary",
+   "after": "source:AB00030",
+   "responds": [
+    "source:AB00030"
+   ],
+   "relation": "adjacent",
+   "why": "Hume argued that in matters of religion whatever is different is contrary, so that the religions of Rome, Turkey, Siam and China cannot all rest on a solid foundation."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:AB00030",
+   "responds": [
+    "source:AB00030"
+   ],
+   "relation": "adjacent",
+   "why": "Paine said of revelation what the reading says of miracles: it is revelation to the first person only, and hearsay to every other."
+  },
+  {
+   "id": "deuteronomy-sign-or-wonder-come-to-pass",
+   "after": "source:AB00030",
+   "responds": [
+    "source:AB00030"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy itself warns that a prophet's sign or wonder may come to pass and still lead after other gods."
+  },
+  {
+   "id": "maimonides-no-miracles-required",
+   "after": "source:AB00381",
+   "responds": [
+    "source:AB00381"
+   ],
+   "relation": "adjacent",
+   "why": "Maimonides wrote that one should not presume that the Messianic king must work miracles and wonders."
+  },
+  {
+   "id": "corinthians-jews-require-a-sign",
+   "after": "source:ABU0046",
+   "responds": [
+    "source:ABU0046"
+   ],
+   "relation": "adjacent",
+   "why": "Paul observes that the Jews require a sign and the Greeks seek after wisdom."
+  },
+  {
+   "id": "john-teacher-come-from-god",
+   "after": "source:ABU0207",
+   "responds": [
+    "source:ABU0207"
+   ],
+   "relation": "contrast",
+   "why": "Nicodemus, a ruler of the Jews, says that no man can do these miracles except God be with him. What should be made of the cases where a miracle did convince someone outside the fold?"
+  },
+  {
+   "id": "luke-though-one-rose-from-the-dead",
+   "after": "source:ABU0334",
+   "responds": [
+    "source:ABU0334"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable Abraham answers that those who hear not Moses and the prophets will not be persuaded though one rose from the dead."
+  },
+  {
+   "id": "exodus-magicians-did-in-like-manner",
+   "after": "source:AB00503",
+   "responds": [
+    "source:AB00503"
+   ],
+   "relation": "adjacent",
+   "why": "In Exodus the magicians of Egypt did in like manner with their enchantments when Aaron's rod became a serpent."
+  },
+  {
+   "id": "hume-proportions-his-belief",
+   "after": "source:BH00394",
+   "responds": [
+    "source:BH00394"
+   ],
+   "relation": "contrast",
+   "why": "Hume's rule is that a wise man proportions his belief to the evidence. If human understanding cannot serve as the criterion, what is a reasonable person to go by?"
+  },
+  {
+   "id": "whitman-nothing-else-but-miracles",
+   "after": "source:ABU3203",
+   "responds": [
+    "source:ABU3203"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman asks who makes much of a miracle, and says that he knows of nothing else but miracles."
+  },
+  {
+   "id": "quran-pass-by-with-face-averted",
+   "after": "source:ABU3203",
+   "responds": [
+    "source:ABU3203"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks how many a portent there is in the heavens and the earth which they pass by with face averted."
+  },
+  {
+   "id": "matthew-seeketh-after-a-sign",
+   "after": "source:AB00766",
+   "responds": [
+    "source:AB00766"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus answers those who would see a sign that an evil and adulterous generation seeketh after a sign."
+  },
+  {
+   "id": "john-except-ye-see-signs",
+   "after": "source:AB00766",
+   "responds": [
+    "source:AB00766"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to a nobleman: except ye see signs and wonders, ye will not believe."
+  },
+  {
+   "id": "matthew-devil-quotes-scripture",
+   "after": "source:AB03291",
+   "responds": [
+    "source:AB03291"
+   ],
+   "relation": "adjacent",
+   "why": "The Gospel tells the same story of a height: the tempter says, cast thyself down, for it is written that angels shall bear thee up."
+  },
+  {
+   "id": "quran-we-will-not-put-faith",
+   "after": "source:AB08407",
+   "responds": [
+    "source:AB08407"
+   ],
+   "relation": "adjacent",
+   "why": "This is the passage the reading recalls: we will not put faith in thee till thou cause a spring to gush forth from the earth for us."
+  },
+  {
+   "id": "quran-mortal-messenger",
+   "after": "source:AB08407",
+   "responds": [
+    "source:AB08407"
+   ],
+   "relation": "adjacent",
+   "why": "The demands end with a book brought down from heaven, and the answer: am I aught save a mortal messenger?"
+  },
+  {
+   "id": "quran-table",
+   "after": "source:AB08407",
+   "responds": [
+    "source:AB08407"
+   ],
+   "relation": "complement",
+   "why": "In the Qur'an Jesus himself prays that a table be sent down from heaven as a sign and a feast. When is asking for a sign a condition laid on God, and when is it a prayer?"
+  },
+  {
+   "id": "john-not-seen-and-yet-believed",
+   "after": "source:ABU1683",
+   "responds": [
+    "source:ABU1683"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to Thomas: blessed are they that have not seen, and yet have believed."
+  },
+  {
+   "id": "acts-why-persecutest-thou-me",
+   "after": "source:ABU1683",
+   "responds": [
+    "source:ABU1683"
+   ],
+   "relation": "contrast",
+   "why": "Paul was turned on the road to Damascus by a light from heaven and a voice. Was his a forced belief, or did the light show him something he then had to recognize for himself?"
+  },
+  {
+   "id": "quran-hearts-grow-blind",
+   "after": "source:ABU2530",
+   "responds": [
+    "source:ABU2530"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that it is not the eyes that grow blind, but the hearts within the bosoms."
+  },
+  {
+   "id": "matthew-seeing-see-not",
+   "after": "source:ABU3746",
+   "responds": [
+    "source:ABU3746"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying the reading quotes: seeing they see not, and hearing they hear not."
+  },
+  {
+   "id": "john-whereas-i-was-blind",
+   "after": "source:ABU3746",
+   "responds": [
+    "source:ABU3746"
+   ],
+   "relation": "adjacent",
+   "why": "The man in John's Gospel answers his examiners: one thing I know, that, whereas I was blind, now I see."
+  },
+  {
+   "id": "john-pool-of-siloam",
+   "after": "source:ABU0898",
+   "responds": [
+    "source:ABU0898"
+   ],
+   "relation": "adjacent",
+   "why": "This is the passage in question: Jesus made clay of the spittle and anointed the eyes of the blind man."
+  },
+  {
+   "id": "augustine-ambrose-letter-kills",
+   "after": "source:ABU3618",
+   "responds": [
+    "source:ABU3618"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine tells how Ambrose took as a rule that the letter kills but the spirit gives life, and drew aside the mystic veil."
+  },
+  {
+   "id": "matthew-art-thou-he",
+   "after": "source:ABU3618",
+   "responds": [
+    "source:ABU3618"
+   ],
+   "relation": "complement",
+   "why": "When John sends from prison to ask whether he is the one, Jesus tells the messengers to report what they hear and see. Would John have taken the answer literally, spiritually, or both?"
+  },
+  {
+   "id": "mark-thy-sins-be-forgiven-thee",
+   "after": "source:ABU2210",
+   "responds": [
+    "source:ABU2210"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks which is easier, to say thy sins be forgiven thee, or to say arise, take up thy bed and walk."
+  },
+  {
+   "id": "matthew-no-mighty-works",
+   "after": "source:ABU0785",
+   "responds": [
+    "source:ABU0785"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew says that a prophet is not without honour save in his own country, and that he did not many mighty works there because of their unbelief."
+  },
+  {
+   "id": "john-ye-say-we-see",
+   "after": "source:ABU1618",
+   "responds": [
+    "source:ABU1618"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he is come that they which see not might see, and that they which see might be made blind."
+  },
+  {
+   "id": "kings-fire-of-the-lord-fell",
+   "after": "source:AB00733",
+   "responds": [
+    "source:AB00733"
+   ],
+   "relation": "contrast",
+   "why": "On Carmel the fire of the Lord fell before all the people, and they fell on their faces and said: the Lord, he is the God. What is gained and what is lost if such a story is read as a figure?"
+  },
+  {
+   "id": "quran-for-everything-a-time-prescribed",
+   "after": "source:BB00154",
+   "responds": [
+    "source:BB00154"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that it was not given to any messenger to bring a portent save by God's leave."
+  },
+  {
+   "id": "john-lazarus-come-forth",
+   "after": "source:ABU2579",
+   "responds": [
+    "source:ABU2579"
+   ],
+   "relation": "adjacent",
+   "why": "John tells how Jesus cried with a loud voice, Lazarus, come forth, and he that was dead came forth."
+  },
+  {
+   "id": "mark-no-sign-be-given",
+   "after": "source:ABU0075",
+   "responds": [
+    "source:ABU0075"
+   ],
+   "relation": "adjacent",
+   "why": "Mark says that Jesus sighed deeply in his spirit and asked why this generation seeks after a sign."
+  },
+  {
+   "id": "emerson-miracle-is-monster",
+   "after": "source:ABU3228",
+   "responds": [
+    "source:ABU3228"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson said that the word Miracle, as pronounced by the churches, gives a false impression: it is Monster, not one with the blowing clover and the falling rain."
+  },
+  {
+   "id": "quran-is-it-not-enough",
+   "after": "source:ABU3228",
+   "responds": [
+    "source:ABU3228"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks whether it is not enough for them that the Scripture has been sent down and is read to them."
+  },
+  {
+   "id": "quran-portents-in-the-earth",
+   "after": "selection:49fbc83ac159407c7624e048",
+   "responds": [
+    "selection:49fbc83ac159407c7624e048"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that in the earth are portents for those whose faith is sure."
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "selection:86f890470aa0d9b46ea9a6a8",
+   "responds": [
+    "selection:86f890470aa0d9b46ea9a6a8"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that no testimony is sufficient to establish a miracle unless its falsehood would be more miraculous than the fact. Does the reading's God who may at times intervene answer Hume, or leave his question about testimony standing?"
+  },
+  {
+   "id": "matthew-with-god-all-things-are-possible",
+   "after": "selection:ed193e693510f69a39af66b9",
+   "responds": [
+    "selection:ed193e693510f69a39af66b9"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that with men this is impossible, but with God all things are possible."
+  },
+  {
+   "id": "luke-power-of-the-highest",
+   "after": "selection:629db606107a383fdf3da29e",
+   "responds": [
+    "selection:629db606107a383fdf3da29e"
+   ],
+   "relation": "adjacent",
+   "why": "Luke has the angel say to Mary that the power of the Highest shall overshadow her."
+  },
+  {
+   "id": "john-believe-the-works",
+   "after": "selection:2c5d18e939b0d42c7903cb78",
+   "responds": [
+    "selection:2c5d18e939b0d42c7903cb78"
+   ],
+   "relation": "complement",
+   "why": "Jesus says: though ye believe not me, believe the works. If miracles are of no importance to those who work them, why does he point to his works at all?"
+  },
+  {
+   "id": "matthew-false-christs",
+   "after": "selection:2c5d18e939b0d42c7903cb78",
+   "responds": [
+    "selection:2c5d18e939b0d42c7903cb78"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus warns that false Christs and false prophets shall shew great signs and wonders."
+  },
+  {
+   "id": "quran-if-we-sent-down-angels",
+   "after": "selection:2c5d18e939b0d42c7903cb78",
+   "responds": [
+    "selection:2c5d18e939b0d42c7903cb78"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that though angels were sent down and the dead spoke to them, they would not believe unless God so willed."
+  }
+ ],
+ "library": {
+  "matthew-seeketh-after-a-sign": {
+   "text": "Master, we would see a sign from thee. But he answered and said unto them, An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas",
+   "work": "Matthew 12:38–39",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A38-39&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-though-one-rose-from-the-dead": {
+   "text": "Nay, father Abraham: but if one went unto them from the dead, they will repent. And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead",
+   "work": "Luke 16:30–31",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2016%3A30-31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-sign-or-wonder-come-to-pass": {
+   "text": "If there arise among you a prophet, or a dreamer of dreams, and giveth thee a sign or a wonder, And the sign or the wonder come to pass, whereof he spake unto thee, saying, Let us go after other gods, which thou hast not known, and let us serve them; Thou shalt not hearken unto the words of that prophet, or that dreamer of dreams: for the Lord your God proveth you, to know whether ye love the Lord your God with all your heart and with all your soul",
+   "work": "Deuteronomy 13:1–3",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A1-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-magicians-did-in-like-manner": {
+   "text": "And Moses and Aaron went in unto Pharaoh, and they did so as the Lord had commanded: and Aaron cast down his rod before Pharaoh, and before his servants, and it became a serpent. Then Pharaoh also called the wise men and the sorcerers: now the magicians of Egypt, they also did in like manner with their enchantments. For they cast down every man his rod, and they became serpents: but Aaron's rod swallowed up their rods",
+   "work": "Exodus 7:10–12",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%207%3A10-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-jews-require-a-sign": {
+   "text": "For the Jews require a sign, and the Greeks seek after wisdom: But we preach Christ crucified, unto the Jews a stumblingblock, and unto the Greeks foolishness; But unto them which are called, both Jews and Greeks, Christ the power of God, and the wisdom of God",
+   "work": "1 Corinthians 1:22–24",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A22-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-whereas-i-was-blind": {
+   "text": "Then again called they the man that was blind, and said unto him, Give God the praise: we know that this man is a sinner. He answered and said, Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see",
+   "work": "John 9:24–25",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%209%3A24-25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-believe-the-works": {
+   "text": "If I do not the works of my Father, believe me not. But if I do, though ye believe not me, believe the works: that ye may know, and believe, that the Father is in me, and I in him",
+   "work": "John 10:37–38",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2010%3A37-38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-no-sign-be-given": {
+   "text": "And the Pharisees came forth, and began to question with him, seeking of him a sign from heaven, tempting him. And he sighed deeply in his spirit, and saith, Why doth this generation seek after a sign? verily I say unto you, There shall no sign be given unto this generation",
+   "work": "Mark 8:11–12",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%208%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-no-mighty-works": {
+   "text": "A prophet is not without honour, save in his own country, and in his own house. And he did not many mighty works there because of their unbelief",
+   "work": "Matthew 13:57–58",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2013%3A57-58&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-we-will-not-put-faith": {
+   "text": "And they say: We will not put faith in thee till thou cause a spring to gush forth from the earth for us;",
+   "work": "Qur’an 17:90",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=90",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-portents-are-with-allah": {
+   "text": "And they say: Why are not portents sent down upon him from his Lord? Say: Portents are with Allah only, and I am but a plain warner.",
+   "work": "Qur’an 29:50",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=29&verse=50",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-if-we-sent-down-angels": {
+   "text": "And though We should send down the angels unto them, and the dead should speak unto them, and We should gather against them all things in array, they would not believe unless Allah so willed. Howbeit, most of them are ignorant.",
+   "work": "Qur’an 6:111",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=6&verse=111",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "hume-whatever-is-different-is-contrary": {
+   "text": "in Matters of Religion, whatever is different is contrary, and that 'tis impossible the Religions of antient Rome, of Turkey, of Siam, and of China should all of them be establish'd on any solid Foundation",
+   "author": "David Hume",
+   "work": "An Enquiry Concerning Human Understanding",
+   "locator": "section 10, “Of Miracles”",
+   "year": "1748",
+   "sortYear": 1748,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding/Essay_10",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1776."
+   }
+  },
+  "hume-proportions-his-belief": {
+   "text": "A wise Man, therefore, proportions his Belief to the Evidence",
+   "author": "David Hume",
+   "work": "An Enquiry Concerning Human Understanding",
+   "locator": "section 10, “Of Miracles”",
+   "year": "1748",
+   "sortYear": 1748,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding/Essay_10",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1776."
+   }
+  },
+  "emerson-miracle-is-monster": {
+   "text": "He spoke of miracles; for he felt that man's life was a miracle, and all that man doth, and he knew that this daily miracle shines, as the man is diviner. But the very word Miracle, as pronounced by Christian churches, gives a false impression; it is Monster. It is not one with the blowing clover and the falling rain",
+   "author": "Ralph Waldo Emerson",
+   "work": "Divinity School Address",
+   "year": "1838",
+   "sortYear": 1838,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/An_address_delivered_before_the_senior_class_in_Divinity_College,_Cambridge",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "whitman-nothing-else-but-miracles": {
+   "text": "Why, who makes much of a miracle? / As to me I know of nothing else but miracles",
+   "verse": true,
+   "author": "Walt Whitman",
+   "work": "Miracles",
+   "year": "1856; final text 1881",
+   "sortYear": 1856,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leaves_of_Grass_(1882)/Autumn_Rivulets/Miracles",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  }
+ }
+}
