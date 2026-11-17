@@ -1,0 +1,504 @@
+{
+ "format": 2,
+ "slug": "nonevil",
+ "subject": "1D75B1F61DB2465E983CD5EC6C16C77A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 26,
+ "quotations": 33,
+ "kept": [
+  "source:ABU2463",
+  "source:BH10412",
+  "source:AB07049",
+  "source:ABU1436",
+  "source:AB01454",
+  "source:ABU2786",
+  "source:AB01360",
+  "source:AB00117",
+  "source:ABU1512",
+  "source:ABU1754",
+  "source:ABU0019",
+  "source:ABU1470",
+  "source:ABU2521",
+  "source:ABU1361",
+  "source:BH02183",
+  "source:AB00100",
+  "source:ABU2247",
+  "source:ABU0793",
+  "source:ABU2403",
+  "source:ABU3139",
+  "source:ABU2849",
+  "selection:1a7b297464027a48c3113b27",
+  "selection:9ab897884c6dea5b29466ce9",
+  "selection:5fe397aff7c9ce9ed9da4d03",
+  "selection:5ae8a50a5bb34002460ce350",
+  "selection:5e6ae0cff33b63af82bc741b"
+ ],
+ "introduction": "Evil, says this guide, has no existence of its own. It is the absence of good as darkness is the absence of light; whatever comes from the source of being is good; and what we call evil in a thing is evil only in relation to something else. The thirty-three quotations, which already include passages from Plotinus and his heirs and one frank objection, are read here with thirty-three from elsewhere. Genesis calls the creation very good; Augustine says that evil has no positive nature and is only a name for the loss of good; John says that in God is no darkness at all; James and the Qur’an lay ill at the door of the human will; Heraclitus and Shakespeare’s king find good hidden in what looks bad. The objections are old too and are set beside the claims they test. Isaiah’s God says ‘I create evil’; Job receives it from God’s hand; Jeremiah calls the heart desperately wicked; Tennyson sees nature red in tooth and claw; Ivan Karamazov refuses a harmony bought with suffering; and Pope’s ‘whatever is, is right’ shows how easily the doctrine becomes complacent. The guide itself warns that the worst calamity is when evil is called good.",
+ "questions": [
+  "The guide says evil is the absence of good, as darkness is the absence of light. What does that explain well, and what does it seem to leave out?",
+  "Isaiah's God says 'I create evil' and Job receives evil from God's hand. How might someone who holds that evil is non-existent read those verses?",
+  "A scorpion's poison is good for the scorpion and evil for us. Does calling evil 'relative' make harm any less real to the one harmed?",
+  "The guide says no one is created bad, and Jeremiah calls the heart deceitful above all things. What would you want to keep from each?",
+  "Ivan Karamazov refuses to accept suffering as part of a harmony. What should a person who believes that evil is absence say, and not say, to someone in pain?",
+  "If evil is a lack, then the remedy is to supply what is lacking. What would that mean in dealing with a wrong you have seen done?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-very-good",
+   "after": "source:ABU2463",
+   "responds": [
+    "source:ABU2463"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God saw every thing that he had made, and behold, it was very good."
+  },
+  {
+   "id": "augustine-evil-has-no-positive-nature",
+   "after": "source:ABU2463",
+   "responds": [
+    "source:ABU2463"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine puts the same doctrine in a sentence: evil has no positive nature, but the loss of good has received the name evil."
+  },
+  {
+   "id": "isaiah-call-evil-good",
+   "after": "source:BH10412",
+   "responds": [
+    "source:BH10412"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah pronounces woe on them that call evil good and good evil, that put darkness for light and light for darkness."
+  },
+  {
+   "id": "isaiah-create-evil",
+   "after": "source:AB07049",
+   "responds": [
+    "source:AB07049"
+   ],
+   "relation": "contrast",
+   "why": "Isaiah hears God say: I make peace, and create evil; I the Lord do all these things. How does a doctrine that evil has no existence read a verse like that?"
+  },
+  {
+   "id": "john-epistle-no-darkness-at-all",
+   "after": "source:ABU1436",
+   "responds": [
+    "source:ABU1436"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that God is light, and in him is no darkness at all."
+  },
+  {
+   "id": "timothy-every-creature-of-god-is-good",
+   "after": "source:AB01454",
+   "responds": [
+    "source:AB01454"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that every creature of God is good, and nothing to be refused if it be received with thanksgiving."
+  },
+  {
+   "id": "john-light-shineth-in-darkness",
+   "after": "source:ABU2786",
+   "responds": [
+    "source:ABU2786"
+   ],
+   "relation": "adjacent",
+   "why": "John's prologue says that the light shineth in darkness, and the darkness comprehended it not."
+  },
+  {
+   "id": "arnold-darkling-plain",
+   "after": "source:ABU2786",
+   "responds": [
+    "source:ABU2786"
+   ],
+   "relation": "contrast",
+   "why": "Arnold says we are here as on a darkling plain, where ignorant armies clash by night. If darkness is only absence, why does it feel so much like a power?"
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:AB01360",
+   "responds": [
+    "source:AB01360"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah looks to a day when the wolf shall dwell with the lamb and the leopard lie down with the kid."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:AB01360",
+   "responds": [
+    "source:AB01360"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson sees Nature red in tooth and claw, shrieking against the creed that love is creation's final law. Does it answer him to say that a scorpion's poison is good in relation to the scorpion?"
+  },
+  {
+   "id": "shakespeare-soul-of-goodness-in-things-evil",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's king says there is some soul of goodness in things evil, would men observingly distil it out."
+  },
+  {
+   "id": "heraclitus-to-god-all-things-are-fair",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus says that to God all things are fair and good and right, but men hold some things wrong and some right."
+  },
+  {
+   "id": "ecclesiastes-sought-out-many-inventions",
+   "after": "source:ABU1512",
+   "responds": [
+    "source:ABU1512"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher found that God made man upright, but they have sought out many inventions."
+  },
+  {
+   "id": "jeremiah-heart-is-deceitful",
+   "after": "source:ABU1512",
+   "responds": [
+    "source:ABU1512"
+   ],
+   "relation": "contrast",
+   "why": "Jeremiah says that the heart is deceitful above all things, and desperately wicked. Which is nearer the truth about people as they are born: that there are no bad ones, or this?"
+  },
+  {
+   "id": "tao-beauty-and-ugliness",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu says that when all the world knows the beauty of the beautiful, it has the idea of what ugliness is."
+  },
+  {
+   "id": "shakespeare-thinking-makes-it-so",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "complement",
+   "why": "Hamlet says there is nothing either good or bad, but thinking makes it so. Is the guide's contrast between good and evil a fact about things, or about the way we must know them?"
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:ABU1470",
+   "responds": [
+    "source:ABU1470"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus pictures all that is as a light around its source, the Supreme itself unaltered."
+  },
+  {
+   "id": "gita-never-the-spirit-was-born",
+   "after": "source:ABU2521",
+   "responds": [
+    "source:ABU2521"
+   ],
+   "relation": "adjacent",
+   "why": "The Gita says that the spirit was never born and shall never cease to be."
+  },
+  {
+   "id": "romans-all-things-work-together",
+   "after": "source:ABU1361",
+   "responds": [
+    "source:ABU1361"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that all things work together for good to them that love God."
+  },
+  {
+   "id": "job-shall-we-not-receive-evil",
+   "after": "source:ABU1361",
+   "responds": [
+    "source:ABU1361"
+   ],
+   "relation": "contrast",
+   "why": "Job asks his wife: shall we receive good at the hand of God, and shall we not receive evil? Is it a comfort or an evasion to tell a sufferer that misfortune has no true existence?"
+  },
+  {
+   "id": "james-drawn-away-of-his-own-lust",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "James says that God tempts no man, but every man is tempted when he is drawn away of his own lust."
+  },
+  {
+   "id": "quran-ill-is-from-thyself",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that whatever of good befalls thee is from God, and whatever of ill befalls thee is from thyself."
+  },
+  {
+   "id": "genesis-tree-of-knowledge",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "This is the tree of Genesis: of every tree thou mayest freely eat, but not of the tree of the knowledge of good and evil."
+  },
+  {
+   "id": "quran-best-stature",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of the human being as first made: surely We created man of the best stature."
+  },
+  {
+   "id": "romans-good-that-i-would",
+   "after": "source:ABU2247",
+   "responds": [
+    "source:ABU2247"
+   ],
+   "relation": "adjacent",
+   "why": "Paul confesses that to will is present with him, but how to perform that which is good he finds not."
+  },
+  {
+   "id": "shakespeare-evil-that-men-do",
+   "after": "source:ABU0793",
+   "responds": [
+    "source:ABU0793"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Antony says that the evil that men do lives after them, while the good is oft interred with their bones."
+  },
+  {
+   "id": "mill-good-men-look-on",
+   "after": "source:ABU0793",
+   "responds": [
+    "source:ABU0793"
+   ],
+   "relation": "adjacent",
+   "why": "Mill warned that bad men need nothing more to compass their ends than that good men should look on and do nothing."
+  },
+  {
+   "id": "plato-no-man-voluntarily",
+   "after": "source:ABU3139",
+   "responds": [
+    "source:ABU3139"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates holds that no man voluntarily pursues evil, or that which he thinks to be evil."
+  },
+  {
+   "id": "hosea-lack-of-knowledge",
+   "after": "source:ABU3139",
+   "responds": [
+    "source:ABU3139"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea's charge against his people is that they are destroyed for lack of knowledge."
+  },
+  {
+   "id": "romans-whom-he-will",
+   "after": "source:ABU2849",
+   "responds": [
+    "source:ABU2849"
+   ],
+   "relation": "complement",
+   "why": "Paul says that God has mercy on whom he will, and whom he will he hardens. If darkness is only the absence of light, what does it mean to say that God leads astray?"
+  },
+  {
+   "id": "dostoevsky-return-the-ticket",
+   "after": "selection:5fe397aff7c9ce9ed9da4d03",
+   "responds": [
+    "selection:5fe397aff7c9ce9ed9da4d03"
+   ],
+   "relation": "contrast",
+   "why": "Ivan Karamazov finds the price of the final harmony too high and gives back his ticket. Can any account of evil as what is 'not appropriate to a part' be said in the hearing of those who suffer?"
+  },
+  {
+   "id": "pope-whatever-is-is-right",
+   "after": "selection:5ae8a50a5bb34002460ce350",
+   "responds": [
+    "selection:5ae8a50a5bb34002460ce350"
+   ],
+   "relation": "complement",
+   "why": "Pope concludes that all discord is harmony not understood, all partial evil universal good. Is this the guide's teaching, and what did those who mocked it see?"
+  },
+  {
+   "id": "john-loved-darkness",
+   "after": "selection:5e6ae0cff33b63af82bc741b",
+   "responds": [
+    "selection:5e6ae0cff33b63af82bc741b"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel treats darkness as something that can be loved and chosen: men loved darkness rather than light."
+  }
+ ],
+ "library": {
+  "john-epistle-no-darkness-at-all": {
+   "text": "This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all",
+   "work": "1 John 1:5",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20John%201%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "amos-evil-in-a-city": {
+   "text": "Shall a trumpet be blown in the city, and the people not be afraid? shall there be evil in a city, and the Lord hath not done it",
+   "work": "Amos 3:6",
+   "year": "8th century BCE",
+   "sortYear": -750,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Amos%203%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-ill-is-from-thyself": {
+   "text": "Whatever of good befalleth thee (O man) it is from Allah, and whatever of ill befalleth thee it is from thyself. We have sent thee (Muhammad) as a messenger unto mankind and Allah is sufficient as Witness.",
+   "work": "Qur’an 4:79",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=79",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-soul-of-goodness-in-things-evil": {
+   "text": "There is some soul of goodness in things evil, / Would men observingly distil it out",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Henry V",
+   "locator": "Act 4, scene 1",
+   "year": "1599",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/henryv/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "tao-beauty-and-ugliness": {
+   "text": "All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is; they all know the skill of the skilful, and in doing this they have (the idea of) what the want of skill is",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 2",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "augustine-evil-has-no-positive-nature": {
+   "text": "For evil has no positive nature; but the loss of good has received the name evil",
+   "author": "Augustine of Hippo",
+   "work": "The City of God",
+   "locator": "Book XI, chapter 9",
+   "year": "about 426",
+   "sortYear": 426,
+   "translator": "Marcus Dods",
+   "translationYear": "1871",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/120111.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1909."
+   }
+  },
+  "heraclitus-to-god-all-things-are-fair": {
+   "text": "To God all things are fair and good and right, but men hold some things wrong and some right",
+   "author": "Heraclitus",
+   "work": "Fragments",
+   "locator": "fragment 102 (Diels); 61 in Burnet",
+   "year": "c. 500 BCE",
+   "sortYear": -500,
+   "translator": "John Burnet",
+   "translationYear": "1892",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Fragments_of_Heraclitus",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1928."
+   }
+  }
+ }
+}

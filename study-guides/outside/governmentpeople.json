@@ -1,0 +1,991 @@
+{
+ "format": 2,
+ "slug": "governmentpeople",
+ "subject": "8DB0F6A838C1E54167E1BBF27836246B",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 61,
+ "quotations": 62,
+ "kept": [
+  "source:AB00011",
+  "source:AB00004",
+  "source:AB00037",
+  "source:AB01007",
+  "source:AB00496",
+  "source:AB01216",
+  "source:AB00412",
+  "source:AB07452",
+  "source:ABU1815",
+  "source:ABU3097",
+  "source:AB00099",
+  "source:AB09248",
+  "source:ABU2628",
+  "source:ABU1538",
+  "source:ABU1204",
+  "source:ABU0253",
+  "source:ABU0268",
+  "source:ABU0600",
+  "source:ABU1060",
+  "source:ABU2156",
+  "source:ABU3550",
+  "source:AB02483",
+  "source:ABU1602",
+  "source:AB00933",
+  "source:AB00187",
+  "source:AB11815",
+  "source:AB06140",
+  "source:AB11901",
+  "source:AB00757",
+  "source:AB02819",
+  "source:AB01872",
+  "source:AB00026",
+  "source:AB01413",
+  "source:AB02050",
+  "source:AB02364",
+  "source:AB01934",
+  "source:AB00237",
+  "source:AB00943",
+  "source:AB00113",
+  "source:AB00734",
+  "source:AB12167",
+  "source:AB00947",
+  "source:ABU1542",
+  "source:ABU2830",
+  "source:ABU2852",
+  "source:ABU3725",
+  "source:AB01057",
+  "source:AB03672",
+  "source:AB12134",
+  "source:AB01606",
+  "source:ABU0841",
+  "source:AB02279",
+  "source:AB02316",
+  "source:AB10704",
+  "source:AB03866",
+  "source:AB05997",
+  "source:ABU2685",
+  "source:ABU3180",
+  "source:BH03091",
+  "selection:0f4934871b6482d35b992c71",
+  "selection:85132162a08d535c135dfc9a"
+ ],
+ "introduction": "‘Abdu’l-Bahá wrote most of these passages during and after Persia’s Constitutional Revolution, and one sentence recurs in them: until government and people blend like milk and honey, prosperity is impossible. Around it the readings set out what each owes the other. A government that protects the rights of all is to be obeyed; its authority should rest on law, on elected assemblies and on a kind of treaty with the people; its first concern is equal justice; and division between rulers and ruled invites ruin and foreign interference. Paul, Proverbs, Confucius and Mencius, Locke and the American Declaration say much the same in their own settings. The contrasts come from those who trusted government less or struggle more: Samuel’s warning about kings, Madison on the need for checks, Paine’s necessary evil, Douglass on agitation, Wordsworth’s joy at the French Revolution, and Machiavelli, who preferred fear to love.",
+ "questions": [
+  "The readings say that a just government must be obeyed and that obedience draws one near to God; the apostles said they must obey God rather than men. Where do you place the limit?",
+  "Government and people are to blend like milk and honey. What would you look for, in a country you know, as signs that they have or have not?",
+  "Locke and the Declaration of Independence make government rest on consent and allow a people to change it; one reading agrees that a tyrant forfeits his rule, and others regret a revolution. How do the readings weigh order against redress?",
+  "Madison held that because men are not angels, government must be made to control itself. What do the readings add to outward checks, and can either do without the other?",
+  "Douglass said that those who want freedom without agitation want crops without ploughing. How would the author of these readings have answered him?",
+  "Confucius thought a government could do without food and arms sooner than the people’s confidence. What builds that confidence, and what spends it?"
+ ],
+ "outside": [
+  {
+   "id": "romans-higher-powers",
+   "after": "source:AB00011",
+   "responds": [
+    "source:AB00011"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Christians of Rome that every soul should be subject to the higher powers, since the powers that be are ordained of God."
+  },
+  {
+   "id": "romans-minister-of-god-for-good",
+   "after": "source:AB00011",
+   "responds": [
+    "source:AB00011"
+   ],
+   "relation": "adjacent",
+   "why": "He gives the reason in the next verses: rulers are not a terror to good works, and the ruler is a minister for good."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "source:AB00011",
+   "responds": [
+    "source:AB00011"
+   ],
+   "relation": "complement",
+   "why": "The apostles told the council that they ought to obey God rather than men. Where does the obedience this reading asks for reach its limit?"
+  },
+  {
+   "id": "analects-north-polar-star",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that one who governs by virtue is like the north polar star, which keeps its place while all the stars turn toward it."
+  },
+  {
+   "id": "mill-worth-of-a-state",
+   "after": "source:AB00037",
+   "responds": [
+    "source:AB00037"
+   ],
+   "relation": "adjacent",
+   "why": "Mill ended his essay on liberty by saying that the worth of a state, in the long run, is the worth of the individuals composing it."
+  },
+  {
+   "id": "proverbs-when-the-wicked-beareth-rule",
+   "after": "source:AB00037",
+   "responds": [
+    "source:AB00037"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that when the righteous are in authority the people rejoice, and when the wicked bear rule the people mourn."
+  },
+  {
+   "id": "deuteronomy-king-shall-write-a-copy",
+   "after": "source:AB01007",
+   "responds": [
+    "source:AB01007"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy requires the king to write out a copy of the law and read it all his days, that his heart be not lifted above his brethren."
+  },
+  {
+   "id": "aristotle-law-is-reason",
+   "after": "source:AB01007",
+   "responds": [
+    "source:AB01007"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that he who bids the law rule bids God and reason rule, while he who bids a man rule adds an element of the beast."
+  },
+  {
+   "id": "locke-state-of-war-with-the-people",
+   "after": "source:AB00496",
+   "responds": [
+    "source:AB00496"
+   ],
+   "relation": "adjacent",
+   "why": "Locke argued that rulers who take away the people's property or reduce them to arbitrary power absolve the people from further obedience."
+  },
+  {
+   "id": "declaration-consent-of-the-governed",
+   "after": "source:AB00496",
+   "responds": [
+    "source:AB00496"
+   ],
+   "relation": "adjacent",
+   "why": "The American Declaration says that governments derive their just powers from the consent of the governed."
+  },
+  {
+   "id": "rousseau-everywhere-in-chains",
+   "after": "source:AB00496",
+   "responds": [
+    "source:AB00496"
+   ],
+   "relation": "complement",
+   "why": "Rousseau began his Social Contract with the observation that man is born free and everywhere is in chains. What must a treaty between government and people contain for it to be more than a chain agreed to?"
+  },
+  {
+   "id": "lincoln-better-angels",
+   "after": "source:AB01216",
+   "responds": [
+    "source:AB01216"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln, on the eve of civil war, told his divided country: we are not enemies, but friends."
+  },
+  {
+   "id": "burke-means-of-change",
+   "after": "source:AB07452",
+   "responds": [
+    "source:AB07452"
+   ],
+   "relation": "adjacent",
+   "why": "Burke wrote that a state without the means of some change is without the means of its conservation."
+  },
+  {
+   "id": "shakespeare-hollow-crown",
+   "after": "source:ABU1815",
+   "responds": [
+    "source:ABU1815"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's king reflects that within the hollow crown death keeps his court, allowing the wearer a little scene to monarchize."
+  },
+  {
+   "id": "samuel-this-will-be-the-manner",
+   "after": "source:ABU1815",
+   "responds": [
+    "source:ABU1815"
+   ],
+   "relation": "complement",
+   "why": "When Israel asked for a king, Samuel warned what a king would take: sons, daughters, fields and a tenth of everything. What does a constitution do about that warning?"
+  },
+  {
+   "id": "universal-declaration-21",
+   "after": "source:ABU3097",
+   "responds": [
+    "source:ABU3097"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration of Human Rights says that the will of the people shall be the basis of the authority of government."
+  },
+  {
+   "id": "james-hire-of-the-labourers",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "James says that the wages kept back from the labourers cry out, and their cries have reached the Lord."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "contrast",
+   "why": "Adam Smith trusted the self-interest of butcher, brewer and baker to supply the public's dinner without anyone's direction. When is it right for government to step between employers and workers, and when should it stand aside?"
+  },
+  {
+   "id": "romans-vengeance-is-mine",
+   "after": "source:AB09248",
+   "responds": [
+    "source:AB09248"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells his readers not to avenge themselves but to give place, and then speaks of the ruler who bears the sword."
+  },
+  {
+   "id": "psalm-defend-the-poor",
+   "after": "source:ABU2628",
+   "responds": [
+    "source:ABU2628"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm charges those who judge to defend the poor and fatherless and do justice to the afflicted and needy."
+  },
+  {
+   "id": "universal-declaration-1",
+   "after": "source:ABU2628",
+   "responds": [
+    "source:ABU2628"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration begins: all human beings are born free and equal in dignity and rights."
+  },
+  {
+   "id": "analects-enrich-them-teach-them",
+   "after": "source:ABU1538",
+   "responds": [
+    "source:ABU1538"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius, asked what a ruler should do for a numerous people, answered: enrich them, and then teach them."
+  },
+  {
+   "id": "ezekiel-watchman",
+   "after": "source:ABU1204",
+   "responds": [
+    "source:ABU1204"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel says that the watchman who sees the sword come and does not warn the people will answer for their blood."
+  },
+  {
+   "id": "samuel-must-be-just",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "adjacent",
+   "why": "David's last words say that he who rules over men must be just, ruling in the fear of God."
+  },
+  {
+   "id": "madison-if-men-were-angels",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "complement",
+   "why": "James Madison wrote that if men were angels no government would be necessary, and so government must be obliged to control itself. Is the ruler's fear of a Divine Judge enough, or are outward checks needed as well?"
+  },
+  {
+   "id": "matthew-princes-of-the-gentiles",
+   "after": "source:ABU0268",
+   "responds": [
+    "source:ABU0268"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples that among them the one who would be great must be the servant of all."
+  },
+  {
+   "id": "mencius-people-most-important",
+   "after": "source:ABU0600",
+   "responds": [
+    "source:ABU0600"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius ranked the people first in a nation, the spirits of land and grain next, and the sovereign last."
+  },
+  {
+   "id": "washington-spirit-of-party",
+   "after": "source:ABU1060",
+   "responds": [
+    "source:ABU1060"
+   ],
+   "relation": "adjacent",
+   "why": "Washington allowed that parties in free countries may be useful checks on government, within certain limits."
+  },
+  {
+   "id": "pericles-useless",
+   "after": "source:ABU2156",
+   "responds": [
+    "source:ABU2156"
+   ],
+   "relation": "adjacent",
+   "why": "Pericles said that Athenians regard a man who takes no part in public affairs not as harmless but as useless."
+  },
+  {
+   "id": "thoreau-just-man-prison",
+   "after": "source:ABU3550",
+   "responds": [
+    "source:ABU3550"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau held that under a government which imprisons anyone unjustly the true place for a just man is also a prison."
+  },
+  {
+   "id": "peter-honour-the-king",
+   "after": "source:ABU3550",
+   "responds": [
+    "source:ABU3550"
+   ],
+   "relation": "contrast",
+   "why": "The first letter of Peter, written under Nero, says simply: fear God, honour the king. On what grounds would its author have agreed or disagreed that a tyrant forfeits his right to rule?"
+  },
+  {
+   "id": "proverbs-righteousness-exalteth-a-nation",
+   "after": "source:AB02483",
+   "responds": [
+    "source:AB02483"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that righteousness exalts a nation, but sin is a reproach to any people."
+  },
+  {
+   "id": "quran-matter-of-counsel",
+   "after": "source:ABU1602",
+   "responds": [
+    "source:ABU1602"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an praises those whose affairs are a matter of counsel among themselves."
+  },
+  {
+   "id": "proverbs-multitude-of-counsellors",
+   "after": "source:AB00187",
+   "responds": [
+    "source:AB00187"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that where no counsel is the people fall, but in the multitude of counsellors there is safety."
+  },
+  {
+   "id": "shakespeare-uneasy-lies-the-head",
+   "after": "source:AB11815",
+   "responds": [
+    "source:AB11815"
+   ],
+   "relation": "contrast",
+   "why": "Shakespeare's king, sleepless in his palace, envies the poorest of his subjects: uneasy lies the head that wears a crown. What makes the difference between that king's nights and the repose described here?"
+  },
+  {
+   "id": "psalm-put-not-your-trust-in-princes",
+   "after": "source:AB06140",
+   "responds": [
+    "source:AB06140"
+   ],
+   "relation": "contrast",
+   "why": "The psalm advises: put not your trust in princes. How much trust between government and people is wise, and what should it rest on?"
+  },
+  {
+   "id": "jeremiah-seek-the-peace-of-the-city",
+   "after": "source:AB02819",
+   "responds": [
+    "source:AB02819"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah told the exiles in Babylon to seek the peace of the city where they lived, for in its peace they would have peace."
+  },
+  {
+   "id": "matthew-render-unto-caesar",
+   "after": "source:AB01872",
+   "responds": [
+    "source:AB01872"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus, asked a political question meant to trap him, answered: render unto Caesar the things that are Caesar's."
+  },
+  {
+   "id": "proverbs-king-by-judgment",
+   "after": "source:AB00026",
+   "responds": [
+    "source:AB00026"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the king by judgment establishes the land, but he that receives gifts overthrows it."
+  },
+  {
+   "id": "mencius-why-must-your-majesty-say-profit",
+   "after": "source:AB00026",
+   "responds": [
+    "source:AB00026"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius asked a king why he must speak of profit, when benevolence and righteousness were his only proper themes."
+  },
+  {
+   "id": "dickens-best-of-times",
+   "after": "source:AB02050",
+   "responds": [
+    "source:AB02050"
+   ],
+   "relation": "adjacent",
+   "why": "Dickens began his novel of the French Revolution: it was the best of times, it was the worst of times."
+  },
+  {
+   "id": "wordsworth-bliss-in-that-dawn",
+   "after": "source:AB02050",
+   "responds": [
+    "source:AB02050"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth, young in 1789, wrote of the same events: bliss was it in that dawn to be alive. Why did so many of the best spirits welcome what this reading regrets?"
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:AB02364",
+   "responds": [
+    "source:AB02364"
+   ],
+   "relation": "contrast",
+   "why": "Frederick Douglass said that those who favour freedom and deprecate agitation want crops without ploughing the ground. When does a call for obedience serve the people, and when the powerful?"
+  },
+  {
+   "id": "analects-confidence-of-the-people",
+   "after": "source:AB01934",
+   "responds": [
+    "source:AB01934"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that of food, arms and the people's confidence, confidence is the last a government can do without."
+  },
+  {
+   "id": "lincoln-house-divided",
+   "after": "source:AB00237",
+   "responds": [
+    "source:AB00237"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln took a saying of Jesus for his country's case: a house divided against itself cannot stand."
+  },
+  {
+   "id": "matthew-kingdom-divided",
+   "after": "source:AB00943",
+   "responds": [
+    "source:AB00943"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying itself: every kingdom divided against itself is brought to desolation."
+  },
+  {
+   "id": "ecclesiastes-when-thy-king-is-a-child",
+   "after": "source:AB00113",
+   "responds": [
+    "source:AB00113"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says: blessed art thou, O land, when thy princes eat in due season, for strength and not for drunkenness."
+  },
+  {
+   "id": "machiavelli-feared-than-loved",
+   "after": "source:AB00734",
+   "responds": [
+    "source:AB00734"
+   ],
+   "relation": "contrast",
+   "why": "Machiavelli advised a prince that, since it is hard to be both, it is safer to be feared than loved. What becomes of honey and milk in a state governed on his advice?"
+  },
+  {
+   "id": "kings-if-thou-wilt-be-a-servant",
+   "after": "source:AB12167",
+   "responds": [
+    "source:AB12167"
+   ],
+   "relation": "adjacent",
+   "why": "The old counsellors told Solomon's son: if thou wilt be a servant unto this people this day, they will be thy servants for ever."
+  },
+  {
+   "id": "thucydides-the-strong-do-what-they-can",
+   "after": "source:ABU2830",
+   "responds": [
+    "source:ABU2830"
+   ],
+   "relation": "adjacent",
+   "why": "Thucydides has a great power tell a small one that the strong do what they can and the weak suffer what they must."
+  },
+  {
+   "id": "paine-necessary-evil",
+   "after": "source:ABU3725",
+   "responds": [
+    "source:ABU3725"
+   ],
+   "relation": "contrast",
+   "why": "Thomas Paine, at the outset of another revolution, called government even in its best state a necessary evil. Can a people that thinks of government in that way ever blend with it?"
+  },
+  {
+   "id": "tocqueville-form-associations",
+   "after": "source:AB01057",
+   "responds": [
+    "source:AB01057"
+   ],
+   "relation": "adjacent",
+   "why": "Tocqueville found the strength of American public life in the habit of citizens forming associations for every purpose."
+  },
+  {
+   "id": "matthew-peacemakers",
+   "after": "source:AB01606",
+   "responds": [
+    "source:AB01606"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus called the peacemakers blessed, and said they shall be called the children of God."
+  },
+  {
+   "id": "tennyson-old-order-changeth",
+   "after": "source:ABU0841",
+   "responds": [
+    "source:ABU0841"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's king says that the old order changes, yielding place to new, and God fulfils Himself in many ways."
+  },
+  {
+   "id": "psalm-give-the-king",
+   "after": "source:AB02279",
+   "responds": [
+    "source:AB02279"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm prays: give the king Thy judgments, O God, and he shall judge Thy people with righteousness."
+  },
+  {
+   "id": "timothy-prayers-for-kings",
+   "after": "source:AB02316",
+   "responds": [
+    "source:AB02316"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy asks for prayers for kings and all in authority, that people may lead a quiet and peaceable life."
+  },
+  {
+   "id": "quran-consult-with-them",
+   "after": "source:AB10704",
+   "responds": [
+    "source:AB10704"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an tells the Prophet that it was by mercy that he was lenient with his people, and to consult with them in the conduct of affairs."
+  },
+  {
+   "id": "analects-wind-and-grass",
+   "after": "source:AB05997",
+   "responds": [
+    "source:AB05997"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that the relation between superiors and inferiors is like that between the wind and the grass."
+  },
+  {
+   "id": "analects-to-govern-is-to-rectify",
+   "after": "source:ABU2685",
+   "responds": [
+    "source:ABU2685"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius told a ruler that to govern means to rectify: if you lead with correctness, who will dare not to be correct?"
+  },
+  {
+   "id": "hadith-everyone-is-a-guardian",
+   "after": "source:ABU3180",
+   "responds": [
+    "source:ABU3180"
+   ],
+   "relation": "adjacent",
+   "why": "A saying of Muhammad makes every person a guardian answerable for his charges, and the ruler answerable for his subjects."
+  },
+  {
+   "id": "quran-judge-justly",
+   "after": "selection:0f4934871b6482d35b992c71",
+   "responds": [
+    "selection:0f4934871b6482d35b992c71"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an commands: restore deposits to their owners, and if ye judge between mankind, judge justly."
+  },
+  {
+   "id": "isaiah-unrighteous-decrees",
+   "after": "selection:0f4934871b6482d35b992c71",
+   "responds": [
+    "selection:0f4934871b6482d35b992c71"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah cries woe on those who decree unrighteous decrees, to turn aside the needy from judgment."
+  }
+ ],
+ "library": {
+  "romans-minister-of-god-for-good": {
+   "text": "For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same: For he is the minister of God to thee for good",
+   "work": "Romans 13:3–4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2013%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-honour-the-king": {
+   "text": "Honour all men. Love the brotherhood. Fear God. Honour the king",
+   "work": "1 Peter 2:17",
+   "year": "c. 60–95 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Peter%202%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-manner-of-the-king": {
+   "text": "This will be the manner of the king that shall reign over you: He will take your sons, and appoint them for himself, for his chariots, and to be his horsemen; and some shall run before his chariots. And he will appoint him captains over thousands, and captains over fifties; and will set them to ear his ground, and to reap his harvest, and to make his instruments of war, and instruments of his chariots. And he will take your daughters to be confectionaries, and to be cooks, and to be bakers. And he will take your fields, and your vineyards, and your oliveyards, even the best of them, and give them to his servants. And he will take the tenth of your seed, and of your vineyards, and give to his officers, and to his servants. And he will take your menservants, and your maidservants, and your goodliest young men, and your asses, and put them to his work. He will take the tenth of your sheep: and ye shall be his servants. And ye shall cry out in that day",
+   "work": "1 Samuel 8:11–18",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%208%3A11-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-king-by-judgment": {
+   "text": "The king by judgment establisheth the land: but he that receiveth gifts overthroweth it",
+   "work": "Proverbs 29:4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2029%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-must-be-just": {
+   "text": "The God of Israel said, the Rock of Israel spake to me, He that ruleth over men must be just, ruling in the fear of God. And he shall be as the light of the morning, when the sun riseth, even a morning without clouds; as the tender grass springing out of the earth by clear shining after rain",
+   "work": "2 Samuel 23:3–4",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Samuel%2023%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-when-thy-king-is-a-child": {
+   "text": "Woe to thee, O land, when thy king is a child, and thy princes eat in the morning! Blessed art thou, O land, when thy king is the son of nobles, and thy princes eat in due season, for strength, and not for drunkenness",
+   "work": "Ecclesiastes 10:16–17",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%2010%3A16-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-if-thou-wilt-be-a-servant": {
+   "text": "And they spake unto him, saying, If thou wilt be a servant unto this people this day, and wilt serve them, and answer them, and speak good words to them, then they will be thy servants for ever",
+   "work": "1 Kings 12:7",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%2012%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "analects-confidence-of-the-people": {
+   "text": "The requisites of government are that there be sufficiency of food, sufficiency of military equipment, and the confidence of the people in their ruler.\" Tsze-kung said, \"If it cannot be helped, and one of these must be dispensed with, which of the three should be foregone first?\" \"The military equipment,\" said the Master. Tsze-kung again asked, \"If it cannot be helped, and one of the remaining two must be dispensed with, which of them should be foregone?\" The Master answered, \"Part with the food. From of old, death has been the lot of an men; but if the people have no faith in their rulers, there is no standing for the state",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "12:7",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "locke-state-of-war-with-the-people": {
+   "text": "whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience",
+   "author": "John Locke",
+   "work": "Second Treatise of Government",
+   "locator": "§222",
+   "year": "1689",
+   "sortYear": 1689,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Two_Treatises_of_Government_(1764)/Book_II",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1704."
+   }
+  },
+  "madison-if-men-were-angels": {
+   "text": "But what is Government itself, but the greatest of all reflections on human nature? If men were angels, no Government would be necessary. If angels were to govern men, neither external nor internal controls on Government would be necessary. In framing a Government which is to be administered by men over men, the great difficulty lies in this: you must first enable the Government to control the governed; and in the next place oblige it to control itself",
+   "author": "James Madison",
+   "work": "The Federalist, No. 51",
+   "year": "1788",
+   "sortYear": 1788,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Federalist_(Dawson)/50",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1836."
+   }
+  },
+  "washington-spirit-of-party": {
+   "text": "There is an opinion, that parties in free countries are useful checks upon the administration of the Government, and serve to keep alive the spirit of Liberty. This within certain limits is probably true",
+   "author": "George Washington",
+   "work": "Farewell Address",
+   "year": "1796",
+   "sortYear": 1796,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/George_Washington%27s_Farewell_Address",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Address of a President of the United States."
+   }
+  },
+  "paine-necessary-evil": {
+   "text": "Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one",
+   "author": "Thomas Paine",
+   "work": "Common Sense",
+   "year": "1776",
+   "sortYear": 1776,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Common_Sense_(1776)/Common_Sense",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1809."
+   }
+  },
+  "mill-worth-of-a-state": {
+   "text": "The worth of a State, in the long run, is the worth of the individuals composing it",
+   "author": "John Stuart Mill",
+   "work": "On Liberty",
+   "locator": "Chapter 5",
+   "year": "1859",
+   "sortYear": 1859,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/On_Liberty/Chapter_5",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1873."
+   }
+  },
+  "universal-declaration-21": {
+   "text": "The will of the people shall be the basis of the authority of government",
+   "work": "Universal Declaration of Human Rights",
+   "locator": "Article 21",
+   "year": "1948",
+   "sortYear": 1948,
+   "tradition": "International declarations",
+   "kind": "public",
+   "source": {
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "label": "United Nations",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Official public document of the United Nations."
+   },
+   "author": "United Nations General Assembly"
+  },
+  "declaration-consent-of-the-governed": {
+   "text": "That to secure these rights, governments are instituted among men, deriving their just powers from the consent of the governed; that whenever any form of government becomes destructive of these ends, it is the right of the people to alter or to abolish it, and to institute a new government",
+   "author": "Continental Congress",
+   "work": "Declaration of Independence",
+   "year": "1776",
+   "sortYear": 1776,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_1/Organic_Laws_of_the_United_States/Declaration_of_Independence",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Official public document of the United States."
+   }
+  },
+  "hadith-everyone-is-a-guardian": {
+   "text": "Everyone of you is a guardian and is responsible for his charges: The Imam (ruler) of the people is a guardian and is responsible for his subjects",
+   "author": "Muḥammad",
+   "work": "Ṣaḥīḥ al-Bukhārī",
+   "locator": "no. 7138",
+   "year": "7th century; collected in the 9th",
+   "sortYear": 630,
+   "translator": "Muhammad Muhsin Khan",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://sunnah.com/bukhari:7138",
+    "label": "Sunnah.com",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation (translator d. 2021); one sentence."
+   }
+  }
+ }
+}

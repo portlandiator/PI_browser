@@ -1,0 +1,614 @@
+{
+ "format": 2,
+ "slug": "rewardpunishment",
+ "subject": "FF5256DAFAB846958221CF1F4616DFCA",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 32,
+ "quotations": 44,
+ "kept": [
+  "source:BB00001",
+  "source:BH00354",
+  "source:BH00048",
+  "source:BH00423",
+  "source:BH00140",
+  "source:BH00053",
+  "source:BH00111",
+  "source:BH00542",
+  "source:BH00920",
+  "source:BH00021",
+  "source:BH01118",
+  "source:AB00016",
+  "source:ABU0253",
+  "source:BH00238",
+  "source:BH00013",
+  "source:AB02095",
+  "source:AB00090",
+  "source:AB00779",
+  "source:AB00821",
+  "source:ABU3711",
+  "source:ABU0298",
+  "source:ABU1530",
+  "source:ABU0375",
+  "source:AB12528",
+  "source:BH00615",
+  "source:BH00245",
+  "source:BH00431",
+  "source:BH00328",
+  "source:BH02218",
+  "source:BH00827",
+  "selection:2ba4d7d6ff20a201feb2c954",
+  "selection:bef45850acdef42380133cdb"
+ ],
+ "introduction": "These readings begin by asking for a worship that would not change whether it led to the fire or to paradise, and then say that the order of the world stands on two pillars, reward and punishment: every act has its recompense, rulers must do justice, the fear of God restrains where penalties cannot, and the community may punish to protect itself though no individual may take revenge. Each of the forty-four quotations is read here beside one from elsewhere. Most stand alongside: the Mishnah and the Gita on acting without thought of reward, Paul on sowing and reaping and on the ruler's sword, Moses, the Qur'an, Proverbs, Confucius, Hobbes and Madison. Some push back or add a side: Socrates is just without naming a reward, John says that perfect love casts out fear, Jesus says to turn the other cheek and stops a stoning, God sets a mark of protection on Cain, and Jeremiah asks why the wicked prosper.",
+ "questions": [
+  "The first reading asks for worship that is the same whether it leads to the fire or to paradise; later readings say that people must be held through fear and hope. How do you fit these together in one life?",
+  "The readings distinguish vengeance, which no individual may take, from punishment, which the community must carry out. Where does 'turn the other cheek' belong in that distinction?",
+  "One reading says that penalties restrain only outwardly, and Confucius says the same. What restrains inwardly, according to the readings, and what does John's 'perfect love casteth out fear' add?",
+  "Jesus asks who is without sin to cast the first stone, and God protects Cain from being killed. How do these bear on what the readings say about the gravest penalty?",
+  "Jeremiah asks why the way of the wicked prospers. What do the readings answer, and does the answer satisfy you?"
+ ],
+ "outside": [
+  {
+   "id": "avot-without-expectation-of-reward",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Mishnah says: do not be like servants who serve the master in the expectation of receiving a reward."
+  },
+  {
+   "id": "gita-not-the-fruit",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna tells Arjuna in the Gita to act casting all self aside, contemning gain and merit."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God is not mocked, for whatsoever a man soweth, that shall he also reap."
+  },
+  {
+   "id": "romans-according-to-his-deeds",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of the righteous judgment of God, who will render to every man according to his deeds."
+  },
+  {
+   "id": "emerson-crime-and-punishment-one-stem",
+   "after": "source:BH00423",
+   "responds": [
+    "source:BH00423"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that crime and punishment grow out of one stem, and that punishment ripens unsuspected within the pleasure that concealed it."
+  },
+  {
+   "id": "romans-beareth-not-the-sword-in-vain",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that rulers are not a terror to good works but to the evil, and bear not the sword in vain."
+  },
+  {
+   "id": "hobbes-no-law-no-injustice",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Hobbes argued that where there is no common power there is no law, and where no law, no injustice."
+  },
+  {
+   "id": "madison-if-men-were-angels",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Madison observed that if men were angels, no government would be necessary."
+  },
+  {
+   "id": "proverbs-king-by-judgment",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the king by judgment establisheth the land, but he that receiveth gifts overthroweth it."
+  },
+  {
+   "id": "quran-consult-with-them",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells the Prophet, who was lenient by God's mercy, to pardon his companions and consult with them upon the conduct of affairs."
+  },
+  {
+   "id": "ecclesiastes-sentence-not-executed-speedily",
+   "after": "source:BH00542",
+   "responds": [
+    "source:BH00542"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher observes that because sentence against an evil work is not executed speedily, the heart of men is fully set to do evil."
+  },
+  {
+   "id": "psalm-be-wise-o-ye-kings",
+   "after": "source:BH00920",
+   "responds": [
+    "source:BH00920"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm addresses rulers: be wise now therefore, O ye kings; be instructed, ye judges of the earth."
+  },
+  {
+   "id": "proverbs-king-that-judgeth-the-poor",
+   "after": "source:BH00920",
+   "responds": [
+    "source:BH00920"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the king that faithfully judgeth the poor shall have his throne established for ever."
+  },
+  {
+   "id": "amos-let-judgment-run-down",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "Amos asks that judgment run down as waters, and righteousness as a mighty stream."
+  },
+  {
+   "id": "quran-david-a-viceroy",
+   "after": "source:BH01118",
+   "responds": [
+    "source:BH01118"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells David that he is set as a viceroy in the earth, and must therefore judge aright between mankind."
+  },
+  {
+   "id": "augustine-great-robberies",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine asked what kingdoms are, justice being taken away, but great robberies."
+  },
+  {
+   "id": "deuteronomy-not-respect-persons",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "adjacent",
+   "why": "Moses charges the judges to hear the small as well as the great and not to be afraid of the face of man, for the judgment is God's."
+  },
+  {
+   "id": "luke-few-stripes",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the servant who knew his lord's will and did it not shall be beaten with many stripes, for much is required of him to whom much is given."
+  },
+  {
+   "id": "matthew-left-hand-know",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of alms given in secret that thy Father which seeth in secret himself shall reward thee openly."
+  },
+  {
+   "id": "plato-rather-suffer-than-do",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "contrast",
+   "why": "Plato's Socrates says that if he must choose, he would rather suffer injustice than do it, and gives no reward as his reason. Can an official be just from that conviction alone?"
+  },
+  {
+   "id": "analects-led-by-laws",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said the same of penalties: people led by punishments will try to avoid the punishment, but have no sense of shame."
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:BH00013",
+   "responds": [
+    "source:BH00013"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying quoted, from Proverbs: the fear of the Lord is the beginning of wisdom."
+  },
+  {
+   "id": "john-epistle-perfect-love-casteth-out-fear",
+   "after": "source:BH00013",
+   "responds": [
+    "source:BH00013"
+   ],
+   "relation": "contrast",
+   "why": "John's letter says that there is no fear in love, that perfect love casteth out fear, and that he that feareth is not made perfect in love. Is the fear of God a beginning to be outgrown, or a lasting protection?"
+  },
+  {
+   "id": "shakespeare-after-his-desert",
+   "after": "source:AB02095",
+   "responds": [
+    "source:AB02095"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet asks: use every man after his desert, and who should 'scape whipping?"
+  },
+  {
+   "id": "romans-vengeance-is-mine",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells individuals: avenge not yourselves, for it is written, Vengeance is mine; I will repay, saith the Lord."
+  },
+  {
+   "id": "exodus-eye-for-eye",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "adjacent",
+   "why": "The law of Exodus, addressed to judges, sets the measure: life for life, eye for eye, tooth for tooth."
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says: ye have heard an eye for an eye, but I say unto you that ye resist not evil, and turn the other cheek. Is that said to the wronged person only, or does it also bind the community that must protect its members?"
+  },
+  {
+   "id": "romans-a-law-unto-themselves",
+   "after": "source:AB00779",
+   "responds": [
+    "source:AB00779"
+   ],
+   "relation": "adjacent",
+   "why": "Paul grants that those without the law may do by nature what it contains, their conscience bearing witness."
+  },
+  {
+   "id": "genesis-mark-upon-cain",
+   "after": "source:AB00779",
+   "responds": [
+    "source:AB00779"
+   ],
+   "relation": "complement",
+   "why": "In Genesis God drives out the first murderer and also sets a mark upon him, lest any finding him should kill him. What is the difference between protecting society from Cain and taking vengeance on him?"
+  },
+  {
+   "id": "proverbs-say-not-i-will-recompense",
+   "after": "source:AB00821",
+   "responds": [
+    "source:AB00821"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: say not thou, I will recompense evil; but wait on the Lord."
+  },
+  {
+   "id": "quran-whosoever-pardoneth",
+   "after": "source:AB00821",
+   "responds": [
+    "source:AB00821"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that the guerdon of an ill deed is an ill the like thereof, but whosoever pardoneth and amendeth, his wage is with God."
+  },
+  {
+   "id": "quran-life-in-retaliation",
+   "after": "source:ABU3711",
+   "responds": [
+    "source:ABU3711"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that there is life for you in retaliation, O men of understanding, that ye may ward off evil."
+  },
+  {
+   "id": "numbers-lying-of-wait",
+   "after": "source:ABU0298",
+   "responds": [
+    "source:ABU0298"
+   ],
+   "relation": "adjacent",
+   "why": "The law of Moses draws the same line: the one who strikes of hatred or by laying of wait is a murderer, and the one who strikes without enmity is delivered to a city of refuge."
+  },
+  {
+   "id": "quran-life-for-the-life",
+   "after": "source:ABU0298",
+   "responds": [
+    "source:ABU0298"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an recalls the rule of the life for the life, and adds that whoso forgoeth it, it shall be expiation for him."
+  },
+  {
+   "id": "genesis-whoso-sheddeth-mans-blood",
+   "after": "source:ABU1530",
+   "responds": [
+    "source:ABU1530"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives the old rule and its reason: whoso sheddeth man's blood, by man shall his blood be shed, for in the image of God made he man."
+  },
+  {
+   "id": "john-neither-do-i-condemn",
+   "after": "source:ABU1530",
+   "responds": [
+    "source:ABU1530"
+   ],
+   "relation": "contrast",
+   "why": "When a woman is brought to be stoned, Jesus says: he that is without sin among you, let him first cast a stone at her, and her accusers go out one by one. Who is fit to carry out the gravest penalty?"
+  },
+  {
+   "id": "kings-judgment-of-solomon",
+   "after": "source:ABU0375",
+   "responds": [
+    "source:ABU0375"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon called for a sword to divide the living child, and by the mother's answer found out the truth."
+  },
+  {
+   "id": "quran-despair-not-of-mercy",
+   "after": "source:AB12528",
+   "responds": [
+    "source:AB12528"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells those who have been prodigal to their own hurt not to despair of the mercy of God, who forgiveth all sins."
+  },
+  {
+   "id": "hosea-sown-the-wind",
+   "after": "source:BH00245",
+   "responds": [
+    "source:BH00245"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea says of his people that they have sown the wind, and they shall reap the whirlwind."
+  },
+  {
+   "id": "james-drawn-away-of-his-own-lust",
+   "after": "source:BH00431",
+   "responds": [
+    "source:BH00431"
+   ],
+   "relation": "adjacent",
+   "why": "James says: let no man say when he is tempted, I am tempted of God; every man is drawn away of his own lust."
+  },
+  {
+   "id": "jeremiah-wherefore-doth-the-wicked-prosper",
+   "after": "source:BH02218",
+   "responds": [
+    "source:BH02218"
+   ],
+   "relation": "complement",
+   "why": "Jeremiah pleads with God: wherefore doth the way of the wicked prosper? If the world is of no worth in God's sight, what becomes of the prophet's complaint that it is unjustly shared?"
+  },
+  {
+   "id": "obadiah-as-thou-hast-done",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "adjacent",
+   "why": "Obadiah says: as thou hast done, it shall be done unto thee; thy reward shall return upon thine own head."
+  },
+  {
+   "id": "spinoza-cannot-endeavour-that-god-love-him",
+   "after": "selection:2ba4d7d6ff20a201feb2c954",
+   "responds": [
+    "selection:2ba4d7d6ff20a201feb2c954"
+   ],
+   "relation": "adjacent",
+   "why": "Spinoza held that he who loves God cannot endeavour that God should love him in return."
+  },
+  {
+   "id": "shakespeare-course-of-justice",
+   "after": "selection:bef45850acdef42380133cdb",
+   "responds": [
+    "selection:bef45850acdef42380133cdb"
+   ],
+   "relation": "complement",
+   "why": "Portia tells Shylock that in the course of justice none of us should see salvation, and that the prayer for mercy teaches us to render the deeds of mercy. How are fear and hope to be held together without one swallowing the other?"
+  }
+ ],
+ "library": {
+  "romans-beareth-not-the-sword-in-vain": {
+   "text": "For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same: For he is the minister of God to thee for good. But if thou do that which is evil, be afraid; for he beareth not the sword in vain: for he is the minister of God, a revenger to execute wrath upon him that doeth evil",
+   "work": "Romans 13:3–4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2013%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-whoso-sheddeth-mans-blood": {
+   "text": "And surely your blood of your lives will I require; at the hand of every beast will I require it, and at the hand of man; at the hand of every man's brother will I require the life of man. Whoso sheddeth man's blood, by man shall his blood be shed: for in the image of God made he man",
+   "work": "Genesis 9:5–6",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%209%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "numbers-lying-of-wait": {
+   "text": "But if he thrust him of hatred, or hurl at him by laying of wait, that he die; Or in enmity smite him with his hand, that he die: he that smote him shall surely be put to death; for he is a murderer: the revenger of blood shall slay the murderer, when he meeteth him. But if he thrust him suddenly without enmity, or have cast upon him any thing without laying of wait, Or with any stone, wherewith a man may die, seeing him not, and cast it upon him, that he die, and was not his enemy, neither sought his harm: Then the congregation shall judge between the slayer and the revenger of blood according to these judgments: And the congregation shall deliver the slayer out of the hand of the revenger of blood, and the congregation shall restore him to the city of his refuge",
+   "work": "Numbers 35:20–25",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Numbers%2035%3A20-25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-wages-of-sin": {
+   "text": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord",
+   "work": "Romans 6:23",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%206%3A23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-mark-upon-cain": {
+   "text": "And Cain said unto the Lord, My punishment is greater than I can bear. Behold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that every one that findeth me shall slay me. And the Lord said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the Lord set a mark upon Cain, lest any finding him should kill him",
+   "work": "Genesis 4:13–15",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%204%3A13-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-life-in-retaliation": {
+   "text": "And there is life for you in retaliation, O men of understanding, that ye may ward off (evil).",
+   "work": "Qur’an 2:179",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=179",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-life-for-the-life": {
+   "text": "And We prescribed for them therein: The life for the life, and the eye for the eye, and the nose for the nose, and the ear for the ear, and the tooth for the tooth, and for wounds retaliation. But whoso forgoeth it (in the way of charity) it shall be expiation for him. Whoso judgeth not by that which Allah hath revealed: such are wrong-doers.",
+   "work": "Qur’an 5:45",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=45",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

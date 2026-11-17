@@ -1,0 +1,1455 @@
+{
+ "format": 2,
+ "slug": "creativeword",
+ "subject": "3C7DBDDAC30A4CEDA9AF6EA4D195C374",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 86,
+ "quotations": 100,
+ "kept": [
+  "source:BH00698",
+  "source:BH04673",
+  "source:BH00140",
+  "source:BH00911",
+  "source:BH00223",
+  "source:BH02258",
+  "source:BB00001",
+  "source:BB00020",
+  "source:BH09746",
+  "source:BH03733",
+  "source:AB05275",
+  "source:AB04144",
+  "source:ABU0017",
+  "source:AB00023",
+  "source:BB00200",
+  "source:BH00519",
+  "source:BH00334",
+  "source:BH00545",
+  "source:BH02170",
+  "source:BH04148",
+  "source:BH06114",
+  "source:BH11218",
+  "source:BH07032",
+  "source:BH07658",
+  "source:BH03572",
+  "source:BH00092",
+  "source:BH02533",
+  "source:BH02766",
+  "source:BH00666",
+  "source:BH05024",
+  "source:BH07030",
+  "source:BH01567",
+  "source:BH11123",
+  "source:BH00307",
+  "source:BH02764",
+  "source:BH03585",
+  "source:BH00848",
+  "source:BH00821",
+  "source:BH04231",
+  "source:BH01094",
+  "source:BH05504",
+  "source:BH05360",
+  "source:BH00002",
+  "source:BH00238",
+  "source:BH02834",
+  "source:BH02307",
+  "source:BB00107",
+  "source:BH10009",
+  "source:BH09960",
+  "source:BH00783",
+  "source:BH00970",
+  "source:BH00005",
+  "source:BH00091",
+  "source:BH00627",
+  "source:BH00668",
+  "source:BH05904",
+  "source:BH03112",
+  "source:BH05407",
+  "source:BH02535",
+  "source:BH00001",
+  "source:AB07005",
+  "source:AB00276",
+  "source:AB00022",
+  "source:ABU0268",
+  "source:AB00189",
+  "source:ABU0104",
+  "source:BH04422",
+  "source:AB04688",
+  "source:AB02012",
+  "source:BH00053",
+  "source:BH07181",
+  "source:BH08244",
+  "source:BH09380",
+  "source:BH08950",
+  "source:BH04794",
+  "source:BH04248",
+  "source:BH10579",
+  "source:BH03234",
+  "source:BH08140",
+  "source:BH08375",
+  "selection:6942bf3cfc172e79ebc982fc",
+  "selection:69865b8e1650377ce1c2b7d5",
+  "selection:7fa7b7a36d9f2f231c8dce21",
+  "selection:5b103132d551019ce2bef05b",
+  "selection:37ef24152fa222bb75472882",
+  "selection:0e316d6196f386958315e702"
+ ],
+ "introduction": "These hundred readings say that everything that exists was called into being by the Word of God, that the same Word educates the understanding, and that it renews hearts and peoples whenever it is spoken again. Many are short praises and prayers that invoke that Word. Beside them stand the older texts that speak in the same way, from the first chapter of Genesis and the psalms to the Qur’an's command Be! and it is, and with them poets and philosophers on what words can do. Other passages offer different pictures of how things began and continue: the Tao that cannot be named, Plotinus's overflowing, Darwin's laws, Hardy's chance. Still others doubt words themselves: Babel, Machiavelli, Paine, Claudius at prayer. They are there to sharpen what is being claimed for a Word that creates.",
+ "questions": [
+  "The readings say the world exists through a Word and would cease through another. What does it change to think of existence as spoken and sustained, and not simply there?",
+  "The Tao Te Ching and Plotinus picture the origin without speech: a nameless Way, an overflowing. What does the picture of a Word add, and what might it risk?",
+  "Darwin describes forms evolved by fixed law and Hardy sees only chance. How do you relate a creative Word to what the sciences describe?",
+  "Several readings speak of the Word renewing hearts. When has a sentence, read or heard, changed the direction of your life?",
+  "Claudius says his words fly up while his thoughts remain below. What makes the difference between reciting sacred words and being changed by them?",
+  "Babel divided people by language and Pentecost joined them across languages. What would a word have to be like to unite people today?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-face-of-the-waters",
+   "after": "source:BH00698",
+   "responds": [
+    "source:BH00698"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis begins with the earth without form and void, and the Spirit of God moving upon the face of the waters."
+  },
+  {
+   "id": "psalm-entrance-of-thy-words",
+   "after": "source:BH04673",
+   "responds": [
+    "source:BH04673"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: the entrance of Thy words giveth light; it giveth understanding unto the simple."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:BH04673",
+   "responds": [
+    "source:BH04673"
+   ],
+   "relation": "adjacent",
+   "why": "The same psalm calls the word a lamp unto the feet and a light unto the path."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "In Genesis the first thing made is made by speaking: God said, Let there be light, and there was light."
+  },
+  {
+   "id": "james-engrafted-word",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "James says that God begat us with the word of truth, and asks his readers to receive with meekness the engrafted word."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:BH00911",
+   "responds": [
+    "source:BH00911"
+   ],
+   "relation": "complement",
+   "why": "Out of the whirlwind God asks Job: where wast thou when I laid the foundations of the earth? What kind of knowledge of creation is open to a creature?"
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BH00911",
+   "responds": [
+    "source:BH00911"
+   ],
+   "relation": "contrast",
+   "why": "The Tao Te Ching opens by saying that the name that can be named is not the enduring and unchanging name. Can the origin of all things be called a Word, if it lies beyond every name?"
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "complement",
+   "why": "Lao Tzu describes creation as an unfolding: the Tao produced One, One produced Two, Two produced Three, Three produced all things. How does a picture of unfolding differ from a picture of speech?"
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BH02258",
+   "responds": [
+    "source:BH02258"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that by the word of the Lord were the heavens made, and all the host of them by the breath of His mouth."
+  },
+  {
+   "id": "quran-goodly-word-goodly-tree",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an likens a goodly saying to a goodly tree, its root set firm and its branches reaching into heaven."
+  },
+  {
+   "id": "quran-be-originator",
+   "after": "source:BH09746",
+   "responds": [
+    "source:BH09746"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an calls God the Originator of the heavens and the earth, who says to a thing only: Be! and it is."
+  },
+  {
+   "id": "quran-our-word-unto-a-thing",
+   "after": "source:BH09746",
+   "responds": [
+    "source:BH09746"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an has God say: Our word unto a thing, when We intend it, is only that We say unto it: Be! and it is."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:BH03733",
+   "responds": [
+    "source:BH03733"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews says that through faith we understand that the worlds were framed by the word of God."
+  },
+  {
+   "id": "hebrews-upholding-all-things",
+   "after": "source:BH03733",
+   "responds": [
+    "source:BH03733"
+   ],
+   "relation": "adjacent",
+   "why": "The same letter says that God, who spoke in time past by the prophets, has spoken by a Son who upholds all things by the word of his power."
+  },
+  {
+   "id": "proverbs-wisdom-before-his-works",
+   "after": "source:AB05275",
+   "responds": [
+    "source:AB05275"
+   ],
+   "relation": "adjacent",
+   "why": "In Proverbs Wisdom says that the Lord possessed her in the beginning of His way, before His works of old."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:AB04144",
+   "responds": [
+    "source:AB04144"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that the Word was made flesh and dwelt among us."
+  },
+  {
+   "id": "colossians-created-for-him",
+   "after": "source:AB04144",
+   "responds": [
+    "source:AB04144"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Colossians says that by him were all things created, and by him all things consist."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:ABU0017",
+   "responds": [
+    "source:ABU0017"
+   ],
+   "relation": "complement",
+   "why": "Plotinus says that the One, lacking nothing, has overflowed, and its exuberance has produced the new. Is creation better pictured as a command or as an overflowing?"
+  },
+  {
+   "id": "avot-ten-utterances",
+   "after": "source:ABU0017",
+   "responds": [
+    "source:ABU0017"
+   ],
+   "relation": "complement",
+   "why": "The rabbis note that the world was created with ten utterances and ask what this teaches, since it could have been created with one. Why would a creating word be spoken in stages?"
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0017",
+   "responds": [
+    "source:ABU0017"
+   ],
+   "relation": "complement",
+   "why": "Darwin found grandeur in life breathed into a few forms or one, from which endless forms most beautiful have been evolved by fixed law. How do a creative word and a law of nature stand to each other?"
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that the heavens declare the glory of God, and day unto day uttereth speech."
+  },
+  {
+   "id": "augustine-i-asked-the-earth",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine asked the earth and the sea about God, and they answered: we are not your God; seek higher than we."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:BB00200",
+   "responds": [
+    "source:BB00200"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that His command, when He intends a thing, is only that He says unto it: Be! and it is."
+  },
+  {
+   "id": "psalm-voice-of-the-lord",
+   "after": "source:BH00519",
+   "responds": [
+    "source:BH00519"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the voice of the Lord is upon the waters, breaks the cedars and shakes the wilderness."
+  },
+  {
+   "id": "mark-peace-be-still",
+   "after": "source:BH00519",
+   "responds": [
+    "source:BH00519"
+   ],
+   "relation": "adjacent",
+   "why": "In Mark's Gospel Jesus said to the sea, Peace, be still, and the wind ceased, and there was a great calm."
+  },
+  {
+   "id": "quran-sea-were-ink",
+   "after": "source:BH00334",
+   "responds": [
+    "source:BH00334"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that if the sea were ink for the words of the Lord, the sea would be used up before His words were exhausted."
+  },
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:BH00545",
+   "responds": [
+    "source:BH00545"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: the words that I speak unto you, they are spirit, and they are life."
+  },
+  {
+   "id": "ezekiel-breath",
+   "after": "source:BH00545",
+   "responds": [
+    "source:BH00545"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel prophesied to the dry bones as he was commanded, and breath came into them, and they lived."
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:BH06114",
+   "responds": [
+    "source:BH06114"
+   ],
+   "relation": "contrast",
+   "why": "Thomas Hardy saw no speaker behind events, only crass casualty and dicing time, which would as readily have strewn blisses as pain. What in experience argues for a Word behind things, and what for chance?"
+  },
+  {
+   "id": "psalm-praise-him-sun-and-moon",
+   "after": "source:BH07032",
+   "responds": [
+    "source:BH07032"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls on sun, moon and stars to praise the Lord, for He commanded, and they were created."
+  },
+  {
+   "id": "genesis-lights-in-the-firmament",
+   "after": "source:BH07658",
+   "responds": [
+    "source:BH07658"
+   ],
+   "relation": "adjacent",
+   "why": "In Genesis God said, Let there be lights in the firmament of the heaven, and it was so."
+  },
+  {
+   "id": "quran-taught-him-utterance",
+   "after": "source:BH00092",
+   "responds": [
+    "source:BH00092"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of the Beneficent: He hath created man; He hath taught him utterance."
+  },
+  {
+   "id": "aristotle-gift-of-speech",
+   "after": "source:BH00092",
+   "responds": [
+    "source:BH00092"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle observed that man is the only animal whom nature has endowed with the gift of speech."
+  },
+  {
+   "id": "emerson-fossil-poetry",
+   "after": "source:BH02533",
+   "responds": [
+    "source:BH02533"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson wrote that the deadest word was once a brilliant picture, and that language is fossil poetry."
+  },
+  {
+   "id": "chandogya-clod-of-clay",
+   "after": "source:BH02533",
+   "responds": [
+    "source:BH02533"
+   ],
+   "relation": "complement",
+   "why": "The Chandogya Upanishad says that the differences among things of clay are only a name, arising from speech, while the truth is that all is clay. Do words create distinctions, or disclose them?"
+  },
+  {
+   "id": "dickinson-a-word-is-dead",
+   "after": "source:BH07030",
+   "responds": [
+    "source:BH07030"
+   ],
+   "relation": "adjacent",
+   "why": "Emily Dickinson answers those who say a word is dead when it is said: I say it just begins to live that day."
+  },
+  {
+   "id": "descartes-conservation-and-creation",
+   "after": "source:BH01567",
+   "responds": [
+    "source:BH01567"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes argued that to conserve a thing in each moment requires the same power and act as to create it."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:BH11123",
+   "responds": [
+    "source:BH11123"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God formed man of the dust of the ground and breathed into his nostrils the breath of life."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "source:BH11123",
+   "responds": [
+    "source:BH11123"
+   ],
+   "relation": "contrast",
+   "why": "Darwin looked at an entangled bank of plants, birds and insects and reflected that these forms were produced by laws acting around us. Does an account by natural law leave anything for a creative Word to do?"
+  },
+  {
+   "id": "matthew-words-shall-not-pass-away",
+   "after": "source:BH00307",
+   "responds": [
+    "source:BH00307"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: heaven and earth shall pass away, but my words shall not pass away."
+  },
+  {
+   "id": "isaiah-word-stand-for-ever",
+   "after": "source:BH00307",
+   "responds": [
+    "source:BH00307"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the grass withers and the flower fades, but the word of our God shall stand for ever."
+  },
+  {
+   "id": "isaiah-i-have-spoken-it",
+   "after": "source:BH02764",
+   "responds": [
+    "source:BH02764"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God says: my counsel shall stand; I have spoken it, I will also bring it to pass."
+  },
+  {
+   "id": "psalm-sendeth-out-his-word",
+   "after": "source:BH03585",
+   "responds": [
+    "source:BH03585"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that God sends forth His commandment upon earth, and His word runneth very swiftly."
+  },
+  {
+   "id": "revelation-name-word-of-god",
+   "after": "source:BH00848",
+   "responds": [
+    "source:BH00848"
+   ],
+   "relation": "adjacent",
+   "why": "The seer of Revelation saw a rider whose name is called The Word of God."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:BH04231",
+   "responds": [
+    "source:BH04231"
+   ],
+   "relation": "adjacent",
+   "why": "In Revelation the one seated on the throne says: behold, I make all things new."
+  },
+  {
+   "id": "john-lazarus-come-forth",
+   "after": "source:BH04231",
+   "responds": [
+    "source:BH04231"
+   ],
+   "relation": "adjacent",
+   "why": "At the tomb Jesus cried with a loud voice, Lazarus, come forth, and he that was dead came forth."
+  },
+  {
+   "id": "luke-nothing-impossible",
+   "after": "source:BH05504",
+   "responds": [
+    "source:BH05504"
+   ],
+   "relation": "adjacent",
+   "why": "The angel told Mary that with God nothing shall be impossible, and she answered: be it unto me according to thy word."
+  },
+  {
+   "id": "matthew-speak-the-word-only",
+   "after": "source:BH05504",
+   "responds": [
+    "source:BH05504"
+   ],
+   "relation": "adjacent",
+   "why": "A centurion said to Jesus: speak the word only, and my servant shall be healed."
+  },
+  {
+   "id": "ezekiel-word-shall-come-to-pass",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Through Ezekiel God says: I will speak, and the word that I shall speak shall come to pass."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "On a ruined statue in Shelley's desert the words remain: look on my works, ye Mighty, and despair. What separates a word that makes and unmakes worlds from the boast of a king?"
+  },
+  {
+   "id": "romans-faith-by-hearing",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that faith cometh by hearing, and hearing by the word of God."
+  },
+  {
+   "id": "isaiah-ears-heavy",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "contrast",
+   "why": "Isaiah is sent to a people who hear indeed but understand not, whose ears are heavy and eyes shut. If all have the capacity to hear, what closes the ear?"
+  },
+  {
+   "id": "luke-seed-is-the-word",
+   "after": "source:BH02834",
+   "responds": [
+    "source:BH02834"
+   ],
+   "relation": "adjacent",
+   "why": "Explaining his parable, Jesus said: the seed is the word of God."
+  },
+  {
+   "id": "quran-trees-were-pens",
+   "after": "source:BH02307",
+   "responds": [
+    "source:BH02307"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that if all the trees on earth were pens and the sea ink, the words of God could not be exhausted."
+  },
+  {
+   "id": "quran-likeness-of-jesus-as-adam",
+   "after": "source:BH09960",
+   "responds": [
+    "source:BH09960"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God created Adam of dust and then said unto him: Be! and he is."
+  },
+  {
+   "id": "jeremiah-word-like-fire",
+   "after": "source:BH00970",
+   "responds": [
+    "source:BH00970"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah hears: is not my word like as a fire, and like a hammer that breaketh the rock in pieces?"
+  },
+  {
+   "id": "luke-heart-burn",
+   "after": "source:BH00970",
+   "responds": [
+    "source:BH00970"
+   ],
+   "relation": "adjacent",
+   "why": "The disciples at Emmaus asked: did not our heart burn within us, while he opened to us the scriptures?"
+  },
+  {
+   "id": "hebrews-twoedged-sword",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews calls the word of God quick and powerful, sharper than any two-edged sword."
+  },
+  {
+   "id": "machiavelli-armed-prophets",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "contrast",
+   "why": "Machiavelli concluded that all armed prophets have conquered and the unarmed ones have been destroyed. What does history show about the power of a word that has no force behind it?"
+  },
+  {
+   "id": "kings-word-in-thy-mouth-is-truth",
+   "after": "source:BH00091",
+   "responds": [
+    "source:BH00091"
+   ],
+   "relation": "adjacent",
+   "why": "The widow whose son revived said to Elijah: now I know that the word of the Lord in thy mouth is truth."
+  },
+  {
+   "id": "john-sanctify-through-truth",
+   "after": "source:BH00091",
+   "responds": [
+    "source:BH00091"
+   ],
+   "relation": "adjacent",
+   "why": "In John's Gospel Jesus prays: sanctify them through Thy truth; Thy word is truth."
+  },
+  {
+   "id": "exodus-no-man-see-me-and-live",
+   "after": "source:BH00627",
+   "responds": [
+    "source:BH00627"
+   ],
+   "relation": "adjacent",
+   "why": "Moses was told that no man can see God and live, and was hidden in a cleft of the rock while the glory passed by."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:BH00627",
+   "responds": [
+    "source:BH00627"
+   ],
+   "relation": "complement",
+   "why": "Elijah met wind, earthquake and fire, and then a still small voice. Why would a Word of such power come quietly?"
+  },
+  {
+   "id": "acts-word-of-god-grew",
+   "after": "source:BH05904",
+   "responds": [
+    "source:BH05904"
+   ],
+   "relation": "adjacent",
+   "why": "The Book of Acts sums up a troubled period in a line: but the word of God grew and multiplied."
+  },
+  {
+   "id": "byron-words-are-things",
+   "after": "source:BH05904",
+   "responds": [
+    "source:BH05904"
+   ],
+   "relation": "adjacent",
+   "why": "Byron wrote that words are things, and a small drop of ink falling upon a thought makes thousands, perhaps millions, think."
+  },
+  {
+   "id": "matthew-seeing-see-not",
+   "after": "source:BH05407",
+   "responds": [
+    "source:BH05407"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that he spoke in parables because people seeing see not, and hearing they hear not."
+  },
+  {
+   "id": "acts-pentecost",
+   "after": "source:BH02535",
+   "responds": [
+    "source:BH02535"
+   ],
+   "relation": "adjacent",
+   "why": "At Pentecost the disciples were filled with the Spirit and began to speak as the Spirit gave them utterance."
+  },
+  {
+   "id": "jeremiah-thy-words-were-found",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says: Thy words were found, and I did eat them, and Thy word was unto me the joy and rejoicing of mine heart."
+  },
+  {
+   "id": "psalm-sweeter-than-honey",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist finds the words of God sweeter than honey to his mouth."
+  },
+  {
+   "id": "deuteronomy-not-by-bread-only",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy says that man does not live by bread only, but by every word that proceeds out of the mouth of the Lord."
+  },
+  {
+   "id": "shakespeare-words-fly-up",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Shakespeare's Claudius rises from prayer saying: my words fly up, my thoughts remain below. What is needed, besides reciting, for recited words to work on the one who recites?"
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:AB07005",
+   "responds": [
+    "source:AB07005"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that as the rain waters the earth, so the word that goes out of God's mouth shall not return unto Him void."
+  },
+  {
+   "id": "psalm-sent-his-word",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of the afflicted: He sent His word, and healed them."
+  },
+  {
+   "id": "ephesians-one-faith",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Ephesians speaks of one body and one Spirit, one Lord, one faith, one God and Father of all."
+  },
+  {
+   "id": "acts-every-man-in-his-own-language",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "adjacent",
+   "why": "At Pentecost a multitude from many nations was amazed, because every man heard them speak in his own language."
+  },
+  {
+   "id": "genesis-babel",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "contrast",
+   "why": "At Babel one language was confounded so that people could not understand one another's speech. Why have words divided people as often as they have united them?"
+  },
+  {
+   "id": "john-words-of-eternal-life",
+   "after": "source:ABU0268",
+   "responds": [
+    "source:ABU0268"
+   ],
+   "relation": "adjacent",
+   "why": "Peter answered Jesus: Lord, to whom shall we go? Thou hast the words of eternal life."
+  },
+  {
+   "id": "peter-born-again-by-the-word",
+   "after": "source:ABU0104",
+   "responds": [
+    "source:ABU0104"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of Peter speaks of being born again by the word of God, which liveth and abideth for ever."
+  },
+  {
+   "id": "arnold-sea-of-faith",
+   "after": "source:ABU0104",
+   "responds": [
+    "source:ABU0104"
+   ],
+   "relation": "contrast",
+   "why": "Matthew Arnold heard the sea of faith, once at the full, retreating with a long withdrawing roar. If the Word is the cause of civilization, what explains its apparent ebb?"
+  },
+  {
+   "id": "proverbs-power-of-the-tongue",
+   "after": "source:BH04422",
+   "responds": [
+    "source:BH04422"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that death and life are in the power of the tongue."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:AB04688",
+   "responds": [
+    "source:AB04688"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah hears: not by might, nor by power, but by my spirit, saith the Lord of hosts."
+  },
+  {
+   "id": "unesco-minds-of-men",
+   "after": "source:AB04688",
+   "responds": [
+    "source:AB04688"
+   ],
+   "relation": "adjacent",
+   "why": "The founders of UNESCO declared that since wars begin in the minds of men, it is in the minds of men that the defences of peace must be constructed."
+  },
+  {
+   "id": "aesop-wind-and-sun",
+   "after": "source:AB02012",
+   "responds": [
+    "source:AB02012"
+   ],
+   "relation": "adjacent",
+   "why": "In Aesop's fable the wind cannot force the traveller's cloak from him, and the sun's warmth succeeds."
+  },
+  {
+   "id": "psalm-acceptable",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays: let the words of my mouth and the meditation of my heart be acceptable in Thy sight."
+  },
+  {
+   "id": "psalm-open-thou-my-lips",
+   "after": "source:BH07181",
+   "responds": [
+    "source:BH07181"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays: O Lord, open Thou my lips, and my mouth shall shew forth Thy praise."
+  },
+  {
+   "id": "samuel-speak-lord",
+   "after": "source:BH08244",
+   "responds": [
+    "source:BH08244"
+   ],
+   "relation": "adjacent",
+   "why": "The boy Samuel was taught to answer: speak, Lord, for Thy servant heareth."
+  },
+  {
+   "id": "psalm-thy-word-have-i-hid",
+   "after": "source:BH09380",
+   "responds": [
+    "source:BH09380"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: Thy word have I hid in mine heart, that I might not sin against Thee."
+  },
+  {
+   "id": "isaiah-word-in-season-to-the-weary",
+   "after": "source:BH08950",
+   "responds": [
+    "source:BH08950"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's servant says that God has given him the tongue of the learned, to speak a word in season to him that is weary."
+  },
+  {
+   "id": "tennyson-words-half-reveal",
+   "after": "source:BH04794",
+   "responds": [
+    "source:BH04794"
+   ],
+   "relation": "complement",
+   "why": "Tennyson wrote that words, like Nature, half reveal and half conceal the soul within. How much of what a prayer means can its words carry?"
+  },
+  {
+   "id": "dhammapada-one-word-of-sense",
+   "after": "source:BH10579",
+   "responds": [
+    "source:BH10579"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that one word of sense, which quiets the one who hears it, is better than a thousand senseless words."
+  },
+  {
+   "id": "john-dead-shall-hear",
+   "after": "source:BH03234",
+   "responds": [
+    "source:BH03234"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that the hour is coming when the dead shall hear the voice of the Son of God, and they that hear shall live."
+  },
+  {
+   "id": "proverbs-word-fitly-spoken",
+   "after": "source:BH08140",
+   "responds": [
+    "source:BH08140"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a word fitly spoken is like apples of gold in pictures of silver."
+  },
+  {
+   "id": "corinthians-face-of-jesus-christ",
+   "after": "source:BH08375",
+   "responds": [
+    "source:BH08375"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God, who commanded the light to shine out of darkness, has shined in our hearts."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "selection:6942bf3cfc172e79ebc982fc",
+   "responds": [
+    "selection:6942bf3cfc172e79ebc982fc"
+   ],
+   "relation": "contrast",
+   "why": "Thomas Paine held that a revelation is revelation to the first person only, and hearsay to every other. How does a Word spoken to one reach others as more than report?"
+  },
+  {
+   "id": "quran-breathed-of-my-spirit",
+   "after": "selection:7fa7b7a36d9f2f231c8dce21",
+   "responds": [
+    "selection:7fa7b7a36d9f2f231c8dce21"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an God says of the first man: when I have made him and have breathed into him of My Spirit."
+  },
+  {
+   "id": "john-breathed-on-them",
+   "after": "selection:7fa7b7a36d9f2f231c8dce21",
+   "responds": [
+    "selection:7fa7b7a36d9f2f231c8dce21"
+   ],
+   "relation": "adjacent",
+   "why": "The risen Jesus breathed on his disciples and said: receive ye the Holy Ghost."
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "selection:5b103132d551019ce2bef05b",
+   "responds": [
+    "selection:5b103132d551019ce2bef05b"
+   ],
+   "relation": "adjacent",
+   "why": "Kabir says to the seeker: God is the breath of all breath."
+  },
+  {
+   "id": "plato-writing-silent",
+   "after": "selection:5b103132d551019ce2bef05b",
+   "responds": [
+    "selection:5b103132d551019ce2bef05b"
+   ],
+   "relation": "complement",
+   "why": "Plato's Socrates says that written words seem to talk, but if you ask them anything they preserve a solemn silence. What keeps a written Word living and able to answer?"
+  },
+  {
+   "id": "wittgenstein-limits-of-my-language",
+   "after": "selection:0e316d6196f386958315e702",
+   "responds": [
+    "selection:0e316d6196f386958315e702"
+   ],
+   "relation": "complement",
+   "why": "Wittgenstein wrote that the limits of my language mean the limits of my world. If a world is as wide as its words, what happens to a world when a new Word is spoken?"
+  }
+ ],
+ "library": {
+  "psalm-sendeth-out-his-word": {
+   "text": "He sendeth forth his commandment upon earth: his word runneth very swiftly. He giveth snow like wool: he scattereth the hoarfrost like ashes. He casteth forth his ice like morsels: who can stand before his cold? He sendeth out his word, and melteth them: he causeth his wind to blow, and the waters flow",
+   "work": "Psalm 147:15–18",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20147%3A15-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-peace-be-still": {
+   "text": "And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm. And he said unto them, Why are ye so fearful? how is it that ye have no faith? And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him",
+   "work": "Mark 4:39–41",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%204%3A39-41&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-lazarus-come-forth": {
+   "text": "And when he thus had spoken, he cried with a loud voice, Lazarus, come forth. And he that was dead came forth, bound hand and foot with graveclothes: and his face was bound about with a napkin. Jesus saith unto them, Loose him, and let him go",
+   "work": "John 11:43–44",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2011%3A43-44&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-engrafted-word": {
+   "text": "Of his own will begat he us with the word of truth, that we should be a kind of firstfruits of his creatures. Wherefore, my beloved brethren, let every man be swift to hear, slow to speak, slow to wrath: For the wrath of man worketh not the righteousness of God. Wherefore lay apart all filthiness and superfluity of naughtiness, and receive with meekness the engrafted word, which is able to save your souls",
+   "work": "James 1:18–21",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%201%3A18-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-wisdom-before-his-works": {
+   "text": "The Lord possessed me in the beginning of his way, before his works of old. I was set up from everlasting, from the beginning, or ever the earth was. When there were no depths, I was brought forth; when there were no fountains abounding with water. Before the mountains were settled, before the hills was I brought forth: While as yet he had not made the earth, nor the fields, nor the highest part of the dust of the world. When he prepared the heavens, I was there: when he set a compass upon the face of the depth: When he established the clouds above: when he strengthened the fountains of the deep: When he gave to the sea his decree, that the waters should not pass his commandment: when he appointed the foundations of the earth: Then I was by him, as one brought up with him: and I was daily his delight, rejoicing always before him",
+   "work": "Proverbs 8:22–30",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%208%3A22-30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-name-word-of-god": {
+   "text": "And he was clothed with a vesture dipped in blood: and his name is called The Word of God",
+   "work": "Revelation 19:13",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2019%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-not-by-bread-only": {
+   "text": "And he humbled thee, and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know; that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the Lord doth man live",
+   "work": "Deuteronomy 8:3",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%208%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-thy-words-were-found": {
+   "text": "Thy words were found, and I did eat them; and thy word was unto me the joy and rejoicing of mine heart: for I am called by thy name, O Lord God of hosts",
+   "work": "Jeremiah 15:16",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2015%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-upholding-all-things": {
+   "text": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds; Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power",
+   "work": "Hebrews 1:1–3",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%201%3A1-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-nothing-impossible": {
+   "text": "For with God nothing shall be impossible. And Mary said, Behold the handmaid of the Lord; be it unto me according to thy word",
+   "work": "Luke 1:37–38",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%201%3A37-38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-entrance-of-thy-words": {
+   "text": "The entrance of thy words giveth light; it giveth understanding unto the simple",
+   "work": "Psalm 119:130",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20119%3A130&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-sanctify-through-truth": {
+   "text": "Sanctify them through thy truth: thy word is truth",
+   "work": "John 17:17",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2017%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-i-have-spoken-it": {
+   "text": "Declaring the end from the beginning, and from ancient times the things that are not yet done, saying, My counsel shall stand, and I will do all my pleasure: Calling a ravenous bird from the east, the man that executeth my counsel from a far country: yea, I have spoken it, I will also bring it to pass; I have purposed it, I will also do it",
+   "work": "Isaiah 46:10–11",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2046%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-word-shall-come-to-pass": {
+   "text": "For I am the Lord: I will speak, and the word that I shall speak shall come to pass; it shall be no more prolonged: for in your days, O rebellious house, will I say the word, and will perform it, saith the Lord God",
+   "work": "Ezekiel 12:25",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2012%3A25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-word-in-thy-mouth-is-truth": {
+   "text": "And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the Lord in thy mouth is truth",
+   "work": "1 Kings 17:24",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%2017%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-goodly-word-goodly-tree": {
+   "text": "Seest thou not how Allah coineth a similitude: A goodly saying, as a goodly tree, its root set firm, its branches reaching into heaven,",
+   "work": "Qur’an 14:24",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=14&verse=24",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-our-word-unto-a-thing": {
+   "text": "And Our word unto a thing, when We intend it, is only that We say unto it: Be! and it is.",
+   "work": "Qur’an 16:40",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=40",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-likeness-of-jesus-as-adam": {
+   "text": "Lo! the likeness of Jesus with Allah is as the likeness of Adam. He created him of dust, then He said unto him: Be! and he is.",
+   "work": "Qur’an 3:59",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=59",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-words-of-thy-lord-perfected": {
+   "text": "Perfected is the Word of thy Lord in truth and justice. There is naught that can change His words. He is the Hearer, the Knower.",
+   "work": "Qur’an 6:115",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=6&verse=115",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

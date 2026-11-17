@@ -1,0 +1,865 @@
+{
+ "format": 2,
+ "slug": "manifestationmirror",
+ "subject": "D941821F406B4A20B1E60AD343B49717",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 67,
+ "quotations": 86,
+ "kept": [
+  "source:ABU0129",
+  "source:AB00103",
+  "source:AB00477",
+  "source:AB06817",
+  "source:ABU0196",
+  "source:ABU0061",
+  "source:AB00083",
+  "source:AB00395",
+  "source:AB00105",
+  "source:AB00657",
+  "source:ABU0445",
+  "source:AB01382",
+  "source:AB00713",
+  "source:AB00316",
+  "source:ABU0018",
+  "source:ABU0044",
+  "source:ABU0089",
+  "source:ABU1760",
+  "source:ABU2479",
+  "source:ABU1729",
+  "source:ABU2108",
+  "source:AB00952",
+  "source:ABU3134",
+  "source:AB10785",
+  "source:BH00002",
+  "source:ABU0030",
+  "source:ABU0222",
+  "source:ABU0048",
+  "source:AB01794",
+  "source:BH02871",
+  "source:BH00223",
+  "source:BH00512",
+  "source:AB00438",
+  "source:AB00448",
+  "source:AB00266",
+  "source:AB01521",
+  "source:AB00347",
+  "source:BH02874",
+  "source:BB00005",
+  "source:BB00001",
+  "source:BH00004",
+  "source:ABU1119",
+  "source:ABU0356",
+  "source:ABU0218",
+  "source:ABU0374",
+  "source:ABU0299",
+  "source:ABU1392",
+  "source:ABU1833",
+  "source:ABU3098",
+  "source:AB03529",
+  "source:ABU2876",
+  "source:BH02431",
+  "source:BB00152",
+  "source:BB00193",
+  "source:BB00248",
+  "source:ABU3242",
+  "source:AB04395",
+  "source:ABU3436",
+  "source:AB06283",
+  "source:BH00047",
+  "source:AB08039",
+  "source:AB08447",
+  "source:ABU0755",
+  "source:ABU1498",
+  "source:ABU3094",
+  "selection:6d58dd1f342194cf9037b21a",
+  "selection:ca986a2065983be2662a3063"
+ ],
+ "introduction": "These readings return again and again to one picture: God is like the sun, and the Manifestation of God is like a spotless mirror turned toward it. The sun is fully seen in the mirror and never descends into it; whoever says the sun is in the mirror speaks truly, and whoever says the mirror is the sun does not. Beside them stand passages from scriptures that wrestle with the same matter: no one has seen God, and yet whoever has seen me has seen the Father; no likeness may be made, and yet man is made in the image; the heaven of heavens cannot contain Thee. Other voices test the picture from outside, among them Xenophanes on gods made in our own image, Emerson on every person as a possible mirror, Kabir on a God who needs no go-between, and the common Christian reading of the Word made flesh.",
+ "questions": [
+  "The readings say the sun appears in the mirror without descending into it. What does this picture allow you to say about a Messenger of God, and what does it forbid?",
+  "John's Gospel says both that no one has seen God and that whoever has seen Jesus has seen the Father. How does the mirror hold those two sayings together?",
+  "Xenophanes suspected that people paint their gods in their own likeness. How would you tell a mirror of God from a projection of ourselves?",
+  "Emerson held that anyone who thinks truly may say what Jesus said; the readings keep the perfect mirror for the Manifestation and speak of other souls as mirrors too. What is the difference in kind or degree?",
+  "Several readings ask each person to polish the mirror of the heart. What dulls it, and what polishes it?",
+  "If the same light shines in different mirrors, what follows for how the followers of different religions should regard one another?"
+ ],
+ "outside": [
+  {
+   "id": "quran-light-verse",
+   "after": "source:ABU0129",
+   "responds": [
+    "source:ABU0129"
+   ],
+   "relation": "adjacent",
+   "why": "The Light Verse of the Qur’an likens God's light to a niche in which is a lamp, the lamp in a glass, the glass as it were a shining star."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:ABU0129",
+   "responds": [
+    "source:ABU0129"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus pictures what proceeds from the One as the brilliant light encircling the sun, ceaselessly generated from that unchanging substance."
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy speaks of God dwelling in the light which no man can approach unto, whom no man hath seen, nor can see."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says: no man hath seen God at any time; the only begotten Son hath declared him."
+  },
+  {
+   "id": "cyprian-rays",
+   "after": "source:AB00477",
+   "responds": [
+    "source:AB00477"
+   ],
+   "relation": "adjacent",
+   "why": "Cyprian of Carthage wrote that there are many rays of the sun but one light, and that the unity is preserved in the source."
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "source:AB00477",
+   "responds": [
+    "source:AB00477"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an has the believers say: we make no distinction between any of His messengers."
+  },
+  {
+   "id": "john-my-father-is-greater-than-i",
+   "after": "source:AB06817",
+   "responds": [
+    "source:AB06817"
+   ],
+   "relation": "adjacent",
+   "why": "In John's Gospel Jesus says plainly: my Father is greater than I."
+  },
+  {
+   "id": "kings-heaven-cannot-contain",
+   "after": "source:ABU0196",
+   "responds": [
+    "source:ABU0196"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon asked at the dedication of the temple: will God indeed dwell on the earth? The heaven of heavens cannot contain Thee."
+  },
+  {
+   "id": "acts-not-in-temples-made-with-hands",
+   "after": "source:ABU0196",
+   "responds": [
+    "source:ABU0196"
+   ],
+   "relation": "adjacent",
+   "why": "Paul told the Athenians that the Lord of heaven and earth dwelleth not in temples made with hands."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Colossians calls Christ the image of the invisible God."
+  },
+  {
+   "id": "exodus-graven-image",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "contrast",
+   "why": "The commandment at Sinai forbids making any graven image or likeness of anything in heaven or earth. If no likeness of God may be made, in what sense can a human being be the form in which His qualities are seen?"
+  },
+  {
+   "id": "john-hath-seen-the-father",
+   "after": "source:AB00083",
+   "responds": [
+    "source:AB00083"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said to Philip: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "corinthians-face-of-jesus-christ",
+   "after": "source:AB00083",
+   "responds": [
+    "source:AB00083"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of the light of the knowledge of the glory of God in the face of Jesus Christ."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews calls the Son the brightness of God's glory and the express image of His person."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "complement",
+   "why": "Leibniz held that each simple substance is a perpetual living mirror of the universe. If everything mirrors the whole in its degree, what sets the one perfect mirror apart?"
+  },
+  {
+   "id": "exodus-face-shone",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "When Moses came down from the mountain he did not know that the skin of his face shone."
+  },
+  {
+   "id": "quran-do-righteous-work",
+   "after": "source:AB00657",
+   "responds": [
+    "source:AB00657"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an bids its Prophet say: I am only a mortal like you; my Lord inspireth in me that your God is only One God."
+  },
+  {
+   "id": "mark-why-callest-thou-me-good",
+   "after": "source:AB00657",
+   "responds": [
+    "source:AB00657"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asked a man who knelt to him: why callest thou me good? There is none good but one, that is, God."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:ABU0445",
+   "responds": [
+    "source:ABU0445"
+   ],
+   "relation": "contrast",
+   "why": "John's Gospel says that the Word was made flesh and dwelt among us, which most Christians have understood as God taking flesh. How does the picture of a sun that never descends into its mirror read that sentence?"
+  },
+  {
+   "id": "philippians-form-of-a-servant",
+   "after": "source:ABU0445",
+   "responds": [
+    "source:ABU0445"
+   ],
+   "relation": "complement",
+   "why": "Paul writes of one who, being in the form of God, took upon him the form of a servant and was made in the likeness of men. Does this hymn describe a descent, or the two sides of a mirror?"
+  },
+  {
+   "id": "genesis-image-and-likeness",
+   "after": "source:AB01382",
+   "responds": [
+    "source:AB01382"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God created man in His own image, after His likeness."
+  },
+  {
+   "id": "zhuangzi-mind-as-a-mirror",
+   "after": "source:AB00713",
+   "responds": [
+    "source:AB00713"
+   ],
+   "relation": "adjacent",
+   "why": "Zhuangzi says that when the perfect man employs his mind, it is a mirror: it responds to what is before it, but does not retain it."
+  },
+  {
+   "id": "matthew-transfigured",
+   "after": "source:AB00713",
+   "responds": [
+    "source:AB00713"
+   ],
+   "relation": "adjacent",
+   "why": "On the mountain the face of Jesus shone as the sun, and his raiment was white as the light."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel begins: in the beginning was the Word, and the Word was with God, and the Word was God."
+  },
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: it is the spirit that quickeneth; the flesh profiteth nothing."
+  },
+  {
+   "id": "john-i-and-my-father",
+   "after": "source:ABU0018",
+   "responds": [
+    "source:ABU0018"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I and my Father are one; and when stones were taken up against him he pointed to the good works he had shown from his Father."
+  },
+  {
+   "id": "john-ye-are-gods",
+   "after": "source:ABU0044",
+   "responds": [
+    "source:ABU0044"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus answered his accusers from the Psalms: is it not written in your law, I said, ye are gods?"
+  },
+  {
+   "id": "john-son-can-do-nothing",
+   "after": "source:ABU0089",
+   "responds": [
+    "source:ABU0089"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: the Son can do nothing of himself, but what he seeth the Father do."
+  },
+  {
+   "id": "john-of-mine-own-self-do-nothing",
+   "after": "source:ABU1760",
+   "responds": [
+    "source:ABU1760"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I can of mine own self do nothing; as I hear, I judge."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:ABU1729",
+   "responds": [
+    "source:ABU1729"
+   ],
+   "relation": "complement",
+   "why": "Jesus said: I am the way, the truth, and the life; no man cometh unto the Father, but by me. Does that saying name one mirror only, or the mirror in every age?"
+  },
+  {
+   "id": "acts-gods-come-down",
+   "after": "source:ABU2108",
+   "responds": [
+    "source:ABU2108"
+   ],
+   "relation": "adjacent",
+   "why": "At Lystra the crowd cried that the gods had come down in the likeness of men, and Paul and Barnabas rent their clothes and ran in among them to stop it."
+  },
+  {
+   "id": "revelation-see-thou-do-it-not",
+   "after": "source:ABU2108",
+   "responds": [
+    "source:ABU2108"
+   ],
+   "relation": "adjacent",
+   "why": "When John fell down to worship the angel he was told: see thou do it not; I am thy fellowservant; worship God."
+  },
+  {
+   "id": "maimonides-not-two-or-more-but-one",
+   "after": "source:AB00952",
+   "responds": [
+    "source:AB00952"
+   ],
+   "relation": "adjacent",
+   "why": "Maimonides wrote that God is one, not two or more, with a unity unlike any other unity in the world."
+  },
+  {
+   "id": "xenophanes-one-god",
+   "after": "source:AB00952",
+   "responds": [
+    "source:AB00952"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes spoke of one god, the greatest, neither in form like unto mortals nor in thought."
+  },
+  {
+   "id": "john-my-doctrine-is-not-mine",
+   "after": "source:ABU3134",
+   "responds": [
+    "source:ABU3134"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: my doctrine is not mine, but His that sent me."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB10785",
+   "responds": [
+    "source:AB10785"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: blessed are the pure in heart, for they shall see God."
+  },
+  {
+   "id": "quran-obeyeth-the-messenger",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says in a single line that whoever obeys the messenger has obeyed God."
+  },
+  {
+   "id": "deuteronomy-no-similitude",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Moses reminded Israel that they saw no manner of similitude on the day the Lord spoke at Horeb."
+  },
+  {
+   "id": "exodus-no-man-see-me-and-live",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Moses asked to see God's glory and was told: there shall no man see me, and live."
+  },
+  {
+   "id": "numbers-mouth-to-mouth",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Of Moses God says: with him will I speak mouth to mouth, and the similitude of the Lord shall he behold."
+  },
+  {
+   "id": "psalm-in-thy-light",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says to God: in Thy light shall we see light."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Isaiah asks: to whom then will ye liken God, or what likeness will ye compare unto Him? Does calling a human being the mirror of God compare God to something, or guard against comparing?"
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Xenophanes remarked that if oxen and horses had hands, horses would paint the gods like horses and oxen like oxen. How would you answer someone who says a human mirror of God is only humanity admiring itself?"
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "source:ABU0030",
+   "responds": [
+    "source:ABU0030"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we all, beholding as in a glass the glory of the Lord, are changed into the same image."
+  },
+  {
+   "id": "james-face-in-a-glass",
+   "after": "source:ABU0030",
+   "responds": [
+    "source:ABU0030"
+   ],
+   "relation": "complement",
+   "why": "James speaks of a man who beholds his face in a glass, goes his way, and straightway forgets what manner of man he was. What keeps a glimpse in the mirror from being lost?"
+  },
+  {
+   "id": "amos-revealeth-his-secret",
+   "after": "source:ABU0222",
+   "responds": [
+    "source:ABU0222"
+   ],
+   "relation": "adjacent",
+   "why": "Amos says that the Lord God will do nothing but He revealeth His secret unto His servants the prophets."
+  },
+  {
+   "id": "malachi-who-may-abide",
+   "after": "source:ABU0048",
+   "responds": [
+    "source:ABU0048"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi asks who may abide the day of his coming, for he is like a refiner's fire, and like fullers' soap."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:BH02871",
+   "responds": [
+    "source:BH02871"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: I live; yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "People marvelled at Jesus, saying: how knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "psalm-sun-and-shield",
+   "after": "source:AB00438",
+   "responds": [
+    "source:AB00438"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the Lord God is a sun and shield."
+  },
+  {
+   "id": "timothy-one-mediator",
+   "after": "source:AB00448",
+   "responds": [
+    "source:AB00448"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy says that there is one God, and one mediator between God and men."
+  },
+  {
+   "id": "emerson-i-am-divine",
+   "after": "source:AB00448",
+   "responds": [
+    "source:AB00448"
+   ],
+   "relation": "contrast",
+   "why": "Emerson said that Jesus saw God incarnate himself in man, and told his hearers: would you see God, see me, or see thee, when thou also thinkest as I now think. Is the pure mirror one person in an age, or every person who thinks truly?"
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus read in the synagogue: the Spirit of the Lord is upon me, because he hath anointed me."
+  },
+  {
+   "id": "quran-word-from-him",
+   "after": "source:AB01521",
+   "responds": [
+    "source:AB01521"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an the angels tell Mary of a word from God, whose name is the Messiah, Jesus, son of Mary."
+  },
+  {
+   "id": "quran-by-the-sun-and-his-brightness",
+   "after": "source:AB00347",
+   "responds": [
+    "source:AB00347"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an swears by the sun and his brightness, and the moon when she followeth him."
+  },
+  {
+   "id": "john-i-am-the-light-of-the-world",
+   "after": "source:AB00347",
+   "responds": [
+    "source:AB00347"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I am the light of the world; he that followeth me shall not walk in darkness."
+  },
+  {
+   "id": "isaiah-glory-not-give",
+   "after": "source:BH02874",
+   "responds": [
+    "source:BH02874"
+   ],
+   "relation": "complement",
+   "why": "In Isaiah God says: my glory will I not give to another. How can a mirror show the whole glory of God and still leave it God's alone?"
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that the heavens declare the glory of God, and the firmament His handiwork."
+  },
+  {
+   "id": "whitman-letters-from-god",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "complement",
+   "why": "Whitman found letters from God dropped in the street, every one signed by God's name. If all creation mirrors its maker, why is a single clear mirror needed?"
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: let your light so shine before men, that they may see your good works and glorify your Father."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his followers: ye are the light of the world; a city set on a hill cannot be hid."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us."
+  },
+  {
+   "id": "shakespeare-brief-authority",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "complement",
+   "why": "Shakespeare's Isabella speaks of proud man, most ignorant of what he is most assured, his glassy essence. What happens to a mirror that takes the light for its own?"
+  },
+  {
+   "id": "corinthians-our-sufficiency-is-of-god",
+   "after": "source:ABU1119",
+   "responds": [
+    "source:ABU1119"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: not that we are sufficient of ourselves; our sufficiency is of God."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:ABU0218",
+   "responds": [
+    "source:ABU0218"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:ABU0299",
+   "responds": [
+    "source:ABU0299"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see through a glass, darkly, but then face to face."
+  },
+  {
+   "id": "hebrews-upholding-all-things",
+   "after": "source:ABU0299",
+   "responds": [
+    "source:ABU0299"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews says that God spoke at sundry times and in divers manners by the prophets."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:ABU1392",
+   "responds": [
+    "source:ABU1392"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching begins by saying that the Tao that can be trodden is not the enduring and unchanging Tao."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:ABU1833",
+   "responds": [
+    "source:ABU1833"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job: canst thou by searching find out God? Canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:ABU3098",
+   "responds": [
+    "source:ABU3098"
+   ],
+   "relation": "adjacent",
+   "why": "The council saw that Peter and John were unlearned men, and took knowledge of them that they had been with Jesus."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:AB03529",
+   "responds": [
+    "source:AB03529"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises that the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU2876",
+   "responds": [
+    "source:ABU2876"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "gita-thousand-suns",
+   "after": "source:BH02431",
+   "responds": [
+    "source:BH02431"
+   ],
+   "relation": "complement",
+   "why": "In the Bhagavad Gita Arjuna is shown the divine form directly, like the sunburst of a thousand suns, and cannot bear it. What does a mirror make possible that direct sight would not?"
+  },
+  {
+   "id": "isaiah-behold-my-servant",
+   "after": "source:BB00152",
+   "responds": [
+    "source:BB00152"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God says: behold my servant, in whom my soul delighteth; I have put my spirit upon him."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:ABU3242",
+   "responds": [
+    "source:ABU3242"
+   ],
+   "relation": "complement",
+   "why": "William Blake wrote of seeing a world in a grain of sand and a heaven in a wild flower. In what sense is everything in everything, and what then distinguishes one thing from another?"
+  },
+  {
+   "id": "shelley-many-coloured-glass",
+   "after": "source:AB04395",
+   "responds": [
+    "source:AB04395"
+   ],
+   "relation": "complement",
+   "why": "Shelley wrote that life, like a dome of many-coloured glass, stains the white radiance of eternity. What in a mirror, or in those who look, colours what is seen?"
+  },
+  {
+   "id": "quran-hearts-grow-blind",
+   "after": "source:ABU3436",
+   "responds": [
+    "source:ABU3436"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that it is not the eyes that grow blind, but the hearts within the bosoms."
+  },
+  {
+   "id": "shakespeare-eye-sees-not-itself",
+   "after": "source:AB06283",
+   "responds": [
+    "source:AB06283"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Cassius tells Brutus that he cannot see himself so well as by reflection, and offers to be his glass."
+  },
+  {
+   "id": "augustine-i-asked-the-earth",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine asked the earth, the sea and the creeping things, and each answered: I am not He; seek higher than we."
+  },
+  {
+   "id": "philippians-shine-as-lights",
+   "after": "source:AB08039",
+   "responds": [
+    "source:AB08039"
+   ],
+   "relation": "adjacent",
+   "why": "Paul hopes that his friends will shine as lights in the world."
+  },
+  {
+   "id": "psalm-entrance-of-thy-words",
+   "after": "source:AB08447",
+   "responds": [
+    "source:AB08447"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: the entrance of Thy words giveth light; it giveth understanding unto the simple."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:ABU0755",
+   "responds": [
+    "source:ABU0755"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls the word of God a lamp unto the feet and a light unto the path."
+  },
+  {
+   "id": "matthew-as-one-having-authority",
+   "after": "source:ABU1498",
+   "responds": [
+    "source:ABU1498"
+   ],
+   "relation": "adjacent",
+   "why": "The people were astonished because Jesus taught them as one having authority, and not as the scribes."
+  },
+  {
+   "id": "xenophanes-by-seeking",
+   "after": "source:ABU3094",
+   "responds": [
+    "source:ABU3094"
+   ],
+   "relation": "contrast",
+   "why": "Xenophanes held that the gods have not revealed all things from the beginning, but by seeking men find in time what is better. Is the edge of human knowledge met by a revelation, or pushed back by search?"
+  },
+  {
+   "id": "quran-true-spirit-upon-thy-heart",
+   "after": "selection:6d58dd1f342194cf9037b21a",
+   "responds": [
+    "selection:6d58dd1f342194cf9037b21a"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an calls itself a revelation which the True Spirit has brought down upon the Prophet's heart."
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "selection:ca986a2065983be2662a3063",
+   "responds": [
+    "selection:ca986a2065983be2662a3063"
+   ],
+   "relation": "contrast",
+   "why": "Kabir has God say: O servant, where dost thou seek Me? Lo, I am beside thee. If God is as near as that, why is an intermediary needed?"
+  }
+ ],
+ "library": {}
+}

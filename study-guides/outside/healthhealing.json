@@ -1,0 +1,1309 @@
+{
+ "format": 2,
+ "slug": "healthhealing",
+ "subject": "FDA358C85EABE1A21EBBED1872E92D55",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 81,
+ "quotations": 100,
+ "kept": [
+  "source:BH00001",
+  "source:AB00587",
+  "source:AB03722",
+  "source:AB11482",
+  "source:ABU0790",
+  "source:AB10015",
+  "source:BH06211",
+  "source:BH01095",
+  "source:AB00390",
+  "source:BH01799",
+  "source:AB11522",
+  "source:AB11479",
+  "source:AB09033",
+  "source:AB01394",
+  "source:ABU0471",
+  "source:AB04676",
+  "source:AB03123",
+  "source:ABU0899",
+  "source:AB00380",
+  "source:AB00152",
+  "source:ABU2746",
+  "source:ABU3345",
+  "source:ABU2873",
+  "source:AB11857",
+  "source:AB00646",
+  "source:AB00162",
+  "source:ABU0934",
+  "source:ABU1054",
+  "source:ABU1676",
+  "source:AB08142",
+  "source:ABU1043",
+  "source:ABU0630",
+  "source:AB02266",
+  "source:AB00109",
+  "source:AB03742",
+  "source:AB09047",
+  "source:AB06498",
+  "source:AB04347",
+  "source:AB00589",
+  "source:ABU0357",
+  "source:ABU3445",
+  "source:AB03451",
+  "source:AB08703",
+  "source:AB12854",
+  "source:AB04974",
+  "source:ABU0742",
+  "source:ABU2123",
+  "source:ABU0862",
+  "source:ABU2948",
+  "source:AB00567",
+  "source:ABU2284",
+  "source:AB01683",
+  "source:ABU0662",
+  "source:AB05736",
+  "source:AB01946",
+  "source:AB01294",
+  "source:AB08789",
+  "source:AB08086",
+  "source:AB10016",
+  "source:AB01928",
+  "source:AB01536",
+  "source:AB01651",
+  "source:AB02671",
+  "source:AB03339",
+  "source:AB07486",
+  "source:AB08834",
+  "source:AB08876",
+  "source:AB09544",
+  "source:AB00069",
+  "source:AB00305",
+  "source:AB05280",
+  "source:AB10250",
+  "source:AB06250",
+  "source:AB06251",
+  "source:AB00147",
+  "source:AB03706",
+  "source:AB04385",
+  "source:AB08041",
+  "source:AB09934",
+  "source:AB12560",
+  "source:BH04990"
+ ],
+ "introduction": "In sickness consult a competent physician and do what the physician says: the guide begins there, and it also holds that there is healing by spiritual means, that the two belong together, that the science of medicine will one day treat largely by food, that the sick should be visited and made glad, and that physicians of the body should become physicians of the heart for a world that is itself ill. A hundred of its quotations are read here with a hundred from elsewhere. Scripture joins means and prayer in the same way, with a plaister of figs for a praying king, oil and wine for a wounded traveller, a little wine for Timothy’s stomach, and elders praying over the sick; the Hippocratic oath, Plato’s two doctors and his saying that the body is not to be cured without the soul come from the physicians’ own tradition; Proverbs knows that a merry heart is medicine. The questions come from the woman whom many physicians could not help, the king blamed for seeking only physicians, the man born blind whose illness was nobody’s sin, Bentham on the suffering of animals, Hume on evidence for cures, and Macbeth’s doctor, who says that a mind diseased must minister to itself.",
+ "questions": [
+  "The guide commands recourse to physicians and also speaks of spiritual healing. How do Isaiah's figs and James's elders show the two working together?",
+  "Plato says the body should not be treated without the soul. What would a physician who took that seriously do differently?",
+  "The guide says sin can cause illness, and Jesus says of the blind man that neither he nor his parents sinned. How can the first be believed without doing the harm the second forbids?",
+  "A woman in the Gospel had suffered much from many physicians. What does the duty to follow medical advice ask when medicine has failed?",
+  "Health, says the guide, is to be sought for the sake of service. How would that purpose change the way you look after yourself?",
+  "The later readings call the world a hospital and ask for physicians of the heart. What would such a physician need to know?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-eateth-with-publicans",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus takes it as common sense that they that be whole need not a physician, but they that are sick."
+  },
+  {
+   "id": "isaiah-lump-of-figs",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "When a king is sick and has prayed, Isaiah still has a lump of figs laid as a plaister upon the boil."
+  },
+  {
+   "id": "chronicles-sought-to-the-physicians",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Chronicles blames a king who in his disease sought not to the Lord but to the physicians. How do the two kinds of seeking stand together in the guide?"
+  },
+  {
+   "id": "matthew-sick-and-ye-visited-me",
+   "after": "source:AB00587",
+   "responds": [
+    "source:AB00587"
+   ],
+   "relation": "adjacent",
+   "why": "In the Gospel the visiting of the sick is counted as done to Christ himself: I was sick, and ye visited me."
+  },
+  {
+   "id": "hippocrates-for-the-benefit-of-the-sick",
+   "after": "source:AB00587",
+   "responds": [
+    "source:AB00587"
+   ],
+   "relation": "adjacent",
+   "why": "The physician's oath says: into whatever houses I enter, I will go into them for the benefit of the sick."
+  },
+  {
+   "id": "james-prayer-of-faith",
+   "after": "source:AB03722",
+   "responds": [
+    "source:AB03722"
+   ],
+   "relation": "adjacent",
+   "why": "James asks the sick to call for the elders, who pray over them and anoint them with oil."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:AB03722",
+   "responds": [
+    "source:AB03722"
+   ],
+   "relation": "adjacent",
+   "why": "The Samaritan uses material means: he binds up the wounds, pouring in oil and wine."
+  },
+  {
+   "id": "plato-body-without-the-soul",
+   "after": "source:AB03722",
+   "responds": [
+    "source:AB03722"
+   ],
+   "relation": "adjacent",
+   "why": "Plato reports a saying that one ought not to attempt to cure the body without the soul."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB11482",
+   "responds": [
+    "source:AB11482"
+   ],
+   "relation": "adjacent",
+   "why": "Paul was told that strength is made perfect in weakness, and learned to take pleasure in infirmities."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU0790",
+   "responds": [
+    "source:ABU0790"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a merry heart doeth good like a medicine, but a broken spirit drieth the bones."
+  },
+  {
+   "id": "luke-thy-faith-hath-made-thee-whole",
+   "after": "source:AB10015",
+   "responds": [
+    "source:AB10015"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to a woman who is healed: thy faith hath made thee whole, go in peace."
+  },
+  {
+   "id": "quran-honey-healing",
+   "after": "source:BH06211",
+   "responds": [
+    "source:BH06211"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an speaks of a drink of divers hues from the bee, wherein is healing for mankind."
+  },
+  {
+   "id": "bacon-new-remedies",
+   "after": "source:BH06211",
+   "responds": [
+    "source:BH06211"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon says that every medicine is an innovation, and that he who will not apply new remedies must expect new evils."
+  },
+  {
+   "id": "proverbs-tongue-of-the-wise-is-health",
+   "after": "source:BH01095",
+   "responds": [
+    "source:BH01095"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs contrasts speech like the piercings of a sword with the tongue of the wise, which is health."
+  },
+  {
+   "id": "plato-free-doctor",
+   "after": "source:AB00390",
+   "responds": [
+    "source:AB00390"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's good doctor goes into the nature of the disorder and enters into discourse with the patient and his friends."
+  },
+  {
+   "id": "jeremiah-balm-in-gilead",
+   "after": "source:BH01799",
+   "responds": [
+    "source:BH01799"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah asks: is there no balm in Gilead; is there no physician there?"
+  },
+  {
+   "id": "mark-suffered-of-many-physicians",
+   "after": "source:AB11522",
+   "responds": [
+    "source:AB11522"
+   ],
+   "relation": "contrast",
+   "why": "Mark tells of a woman who had suffered many things of many physicians, had spent all that she had, and was nothing bettered. What does obedience to a competent doctor ask of a patient when the doctors have failed?"
+  },
+  {
+   "id": "timothy-a-little-wine",
+   "after": "source:AB11479",
+   "responds": [
+    "source:AB11479"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives a friend plain medical advice: use a little wine for thy stomach's sake and thine often infirmities."
+  },
+  {
+   "id": "thessalonians-in-presence-not-in-heart",
+   "after": "source:AB09033",
+   "responds": [
+    "source:AB09033"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of being taken from friends in presence, not in heart, and of his great desire to see them."
+  },
+  {
+   "id": "philippians-sick-nigh-unto-death",
+   "after": "source:AB09033",
+   "responds": [
+    "source:AB09033"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of a companion who was sick nigh unto death, and on whom God had mercy."
+  },
+  {
+   "id": "proverbs-regardeth-the-life-of-his-beast",
+   "after": "source:AB01394",
+   "responds": [
+    "source:AB01394"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a righteous man regardeth the life of his beast."
+  },
+  {
+   "id": "bentham-can-they-suffer",
+   "after": "source:AB01394",
+   "responds": [
+    "source:AB01394"
+   ],
+   "relation": "contrast",
+   "why": "Bentham said that the question about animals is not whether they can reason or talk, but whether they can suffer. What limits does that question set to experiments made for human benefit?"
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0471",
+   "responds": [
+    "source:ABU0471"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal places human dignity in thought, which the universe that crushes the body does not have."
+  },
+  {
+   "id": "thessalonians-labouring-night-and-day",
+   "after": "source:AB04676",
+   "responds": [
+    "source:AB04676"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes his own manner as gentle, even as a nurse cherisheth her children."
+  },
+  {
+   "id": "psalm-healeth-the-broken-in-heart",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of God that he healeth the broken in heart, and bindeth up their wounds."
+  },
+  {
+   "id": "shakespeare-minister-to-a-mind-diseased",
+   "after": "source:ABU0899",
+   "responds": [
+    "source:ABU0899"
+   ],
+   "relation": "complement",
+   "why": "Macbeth asks whether the doctor cannot minister to a mind diseased, and is told that therein the patient must minister to himself. Where does the physician's work end and the patient's own begin?"
+  },
+  {
+   "id": "luke-virtue-went-out-of-him",
+   "after": "source:AB00380",
+   "responds": [
+    "source:AB00380"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says that the whole multitude sought to touch Jesus, for there went virtue out of him."
+  },
+  {
+   "id": "acts-handkerchiefs-or-aprons",
+   "after": "source:AB00380",
+   "responds": [
+    "source:AB00380"
+   ],
+   "relation": "complement",
+   "why": "Acts says that handkerchiefs or aprons were carried from Paul's body to the sick. How are healings of this kind to be regarded by people who are told to consult physicians?"
+  },
+  {
+   "id": "acts-silver-and-gold-have-i-none",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "Peter says to a lame man: silver and gold have I none, but such as I have give I thee."
+  },
+  {
+   "id": "quran-when-i-sicken",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham says in the Qur'an: when I sicken, then He healeth me."
+  },
+  {
+   "id": "exodus-lord-that-healeth-thee",
+   "after": "source:ABU2746",
+   "responds": [
+    "source:ABU2746"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus hears God say to a people newly delivered: I am the Lord that healeth thee."
+  },
+  {
+   "id": "jeremiah-heal-me-o-lord",
+   "after": "source:ABU3345",
+   "responds": [
+    "source:ABU3345"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah prays: heal me, O Lord, and I shall be healed; save me, and I shall be saved."
+  },
+  {
+   "id": "james-pray-one-for-another",
+   "after": "source:ABU2873",
+   "responds": [
+    "source:ABU2873"
+   ],
+   "relation": "adjacent",
+   "why": "James tells believers to confess their faults one to another, and pray one for another, that they may be healed."
+  },
+  {
+   "id": "daniel-pulse-to-eat",
+   "after": "source:AB11857",
+   "responds": [
+    "source:AB11857"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel asks for a trial of ten days on pulse and water, and for the result to be looked upon."
+  },
+  {
+   "id": "quran-desireth-for-you-ease",
+   "after": "source:AB11857",
+   "responds": [
+    "source:AB11857"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an excuses the sick from the fast, and says that God desires ease for you and not hardship."
+  },
+  {
+   "id": "genesis-every-herb-bearing-seed",
+   "after": "source:AB00646",
+   "responds": [
+    "source:AB00646"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives every herb bearing seed and every tree yielding fruit for food."
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "source:AB00646",
+   "responds": [
+    "source:AB00646"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that no testimony is sufficient to establish a miracle unless its falsehood would be more miraculous. What standard of evidence should a hope for the medicine of the future be held to?"
+  },
+  {
+   "id": "mark-thy-sins-be-forgiven-thee",
+   "after": "source:AB00162",
+   "responds": [
+    "source:AB00162"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks which is easier, to say thy sins be forgiven thee, or to say arise and walk, and says both."
+  },
+  {
+   "id": "john-who-did-sin",
+   "after": "source:AB00162",
+   "responds": [
+    "source:AB00162"
+   ],
+   "relation": "contrast",
+   "why": "Asked whether a man was born blind for his own sin or his parents', Jesus answers neither. How far may illness be traced to sin without wronging the sick?"
+  },
+  {
+   "id": "proverbs-health-to-thy-navel",
+   "after": "source:AB00162",
+   "responds": [
+    "source:AB00162"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that to fear the Lord and depart from evil shall be health to thy navel and marrow to thy bones."
+  },
+  {
+   "id": "romans-eateth-herbs",
+   "after": "source:ABU0934",
+   "responds": [
+    "source:ABU0934"
+   ],
+   "relation": "adjacent",
+   "why": "Paul notes that one believes he may eat all things, and another, who is weak, eats herbs."
+  },
+  {
+   "id": "ecclesiastes-enjoy-the-good",
+   "after": "source:ABU0934",
+   "responds": [
+    "source:ABU0934"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher finds it good and comely for one to eat and to drink, and to enjoy the good of all his labour."
+  },
+  {
+   "id": "proverbs-eat-so-much-as-is-sufficient",
+   "after": "source:ABU1054",
+   "responds": [
+    "source:ABU1054"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs advises: hast thou found honey? eat so much as is sufficient for thee."
+  },
+  {
+   "id": "timothy-godliness-with-contentment",
+   "after": "source:ABU1676",
+   "responds": [
+    "source:ABU1676"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that having food and raiment we should be therewith content."
+  },
+  {
+   "id": "corinthians-keep-under-my-body",
+   "after": "source:AB08142",
+   "responds": [
+    "source:AB08142"
+   ],
+   "relation": "adjacent",
+   "why": "Paul compares himself to an athlete who is temperate in all things and keeps under his body."
+  },
+  {
+   "id": "proverbs-faithful-are-the-wounds",
+   "after": "source:ABU1043",
+   "responds": [
+    "source:ABU1043"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that faithful are the wounds of a friend, while the kisses of an enemy are deceitful."
+  },
+  {
+   "id": "hebrews-whom-the-lord-loveth-he-chasteneth",
+   "after": "source:ABU0630",
+   "responds": [
+    "source:ABU0630"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews tells its readers not to despise chastening, for whom the Lord loveth he chasteneth."
+  },
+  {
+   "id": "romans-all-things-work-together",
+   "after": "source:AB02266",
+   "responds": [
+    "source:AB02266"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that all things work together for good to them that love God."
+  },
+  {
+   "id": "corinthians-filthiness-of-the-flesh-and-spirit",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks for cleansing from all filthiness of the flesh and spirit together."
+  },
+  {
+   "id": "juvenal-sound-mind",
+   "after": "source:AB03742",
+   "responds": [
+    "source:AB03742"
+   ],
+   "relation": "adjacent",
+   "why": "Juvenal's counsel is to pray for a sound mind in a sound body."
+  },
+  {
+   "id": "psalm-still-waters",
+   "after": "source:AB09047",
+   "responds": [
+    "source:AB09047"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm's shepherd leads beside the still waters and restores the soul."
+  },
+  {
+   "id": "john-epistle-prosper-and-be-in-health",
+   "after": "source:AB06498",
+   "responds": [
+    "source:AB06498"
+   ],
+   "relation": "adjacent",
+   "why": "The elder wishes above all that his friend may prosper and be in health, even as his soul prospers."
+  },
+  {
+   "id": "plato-slave-doctor",
+   "after": "source:AB04347",
+   "responds": [
+    "source:AB04347"
+   ],
+   "relation": "contrast",
+   "why": "Plato's slave doctor prescribes what mere experience suggests, like a tyrant, without a word to the patient. What does treating each case by its own nature require that such a doctor lacks?"
+  },
+  {
+   "id": "ecclesiastes-a-time-to-heal",
+   "after": "source:ABU0357",
+   "responds": [
+    "source:ABU0357"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says there is a time to kill and a time to heal."
+  },
+  {
+   "id": "quran-healing-and-mercy",
+   "after": "source:ABU0357",
+   "responds": [
+    "source:ABU0357"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that what is revealed is a healing and a mercy for believers."
+  },
+  {
+   "id": "luke-physician-heal-thyself",
+   "after": "source:ABU3445",
+   "responds": [
+    "source:ABU3445"
+   ],
+   "relation": "complement",
+   "why": "Jesus quotes the proverb 'physician, heal thyself'. What do a people who do without doctors show about trust, and what about need?"
+  },
+  {
+   "id": "psalm-flesh-and-heart-faileth",
+   "after": "source:AB03451",
+   "responds": [
+    "source:AB03451"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that his flesh and his heart fail, but God is the strength of his heart."
+  },
+  {
+   "id": "galatians-infirmity-of-the-flesh",
+   "after": "source:AB08703",
+   "responds": [
+    "source:AB08703"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds a church that he first preached to them through infirmity of the flesh, and they did not despise him."
+  },
+  {
+   "id": "corinthians-in-perils",
+   "after": "source:AB12854",
+   "responds": [
+    "source:AB12854"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists his journeyings often, in perils of waters and of robbers."
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:AB04974",
+   "responds": [
+    "source:AB04974"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that though the outward man perish, the inward man is renewed day by day."
+  },
+  {
+   "id": "matthew-suffer-little-children-kingdom",
+   "after": "source:ABU0742",
+   "responds": [
+    "source:ABU0742"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: suffer little children, and forbid them not, to come unto me."
+  },
+  {
+   "id": "samuel-david-took-an-harp",
+   "after": "source:ABU2123",
+   "responds": [
+    "source:ABU2123"
+   ],
+   "relation": "adjacent",
+   "why": "When Saul was troubled, David took an harp and played, and Saul was refreshed and was well."
+  },
+  {
+   "id": "psalm-giveth-his-beloved-sleep",
+   "after": "source:ABU0862",
+   "responds": [
+    "source:ABU0862"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says it is vain to sit up late and eat the bread of sorrows, for he giveth his beloved sleep."
+  },
+  {
+   "id": "psalm-good-that-i-was-afflicted",
+   "after": "source:ABU2948",
+   "responds": [
+    "source:ABU2948"
+   ],
+   "relation": "complement",
+   "why": "The psalmist says: it is good for me that I have been afflicted. Can an illness be seen as a purification by the one who is ill, or only afterwards?"
+  },
+  {
+   "id": "job-come-forth-as-gold",
+   "after": "source:ABU2948",
+   "responds": [
+    "source:ABU2948"
+   ],
+   "relation": "adjacent",
+   "why": "Job says that when he has been tried he shall come forth as gold."
+  },
+  {
+   "id": "philippians-to-depart-or-to-abide",
+   "after": "source:AB00567",
+   "responds": [
+    "source:AB00567"
+   ],
+   "relation": "adjacent",
+   "why": "Paul chooses to abide in the flesh because it is more needful for others."
+  },
+  {
+   "id": "romans-living-sacrifice",
+   "after": "source:ABU2284",
+   "responds": [
+    "source:ABU2284"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks his readers to present their bodies a living sacrifice, which is their reasonable service."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:AB01683",
+   "responds": [
+    "source:AB01683"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls the body the temple of the Holy Ghost, which is in you and which you have of God."
+  },
+  {
+   "id": "timothy-exercise-thyself",
+   "after": "source:ABU0662",
+   "responds": [
+    "source:ABU0662"
+   ],
+   "relation": "complement",
+   "why": "Paul says that bodily exercise profiteth little, but godliness is profitable unto all things. What is the right measure of attention to one's own health?"
+  },
+  {
+   "id": "revelation-healing-of-the-nations",
+   "after": "source:AB01946",
+   "responds": [
+    "source:AB01946"
+   ],
+   "relation": "adjacent",
+   "why": "Revelation sees a tree whose leaves are for the healing of the nations."
+  },
+  {
+   "id": "matthew-fear-not-them-which-kill",
+   "after": "source:AB01294",
+   "responds": [
+    "source:AB01294"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus distinguishes what can harm the body from what can harm the soul."
+  },
+  {
+   "id": "quran-balm-for-the-breasts",
+   "after": "source:AB08789",
+   "responds": [
+    "source:AB08789"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an calls its exhortation a balm for that which is in the breasts."
+  },
+  {
+   "id": "matthew-light-of-the-body",
+   "after": "source:AB08789",
+   "responds": [
+    "source:AB08789"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the light of the body is the eye, and that a single eye fills the whole body with light."
+  },
+  {
+   "id": "proverbs-pleasant-words-health-to-the-bones",
+   "after": "source:AB08086",
+   "responds": [
+    "source:AB08086"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that pleasant words are sweet to the soul and health to the bones."
+  },
+  {
+   "id": "proverbs-bray-a-fool",
+   "after": "source:AB10016",
+   "responds": [
+    "source:AB10016"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that though a fool be brayed in a mortar, his foolishness will not depart from him."
+  },
+  {
+   "id": "psalm-healeth-all-thy-diseases",
+   "after": "source:AB01928",
+   "responds": [
+    "source:AB01928"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm blesses the Lord who forgiveth all thine iniquities, who healeth all thy diseases."
+  },
+  {
+   "id": "donne-batter-my-heart",
+   "after": "source:AB01536",
+   "responds": [
+    "source:AB01536"
+   ],
+   "relation": "adjacent",
+   "why": "Donne asks God not merely to mend him but to break, blow, burn and make him new."
+  },
+  {
+   "id": "matthew-freely-give",
+   "after": "source:AB01651",
+   "responds": [
+    "source:AB01651"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sends his disciples to heal the sick and to give freely what they have freely received."
+  },
+  {
+   "id": "plato-art-of-midwifery",
+   "after": "source:AB02671",
+   "responds": [
+    "source:AB02671"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates, in Plato, calls his own art a kind of midwifery, which attends souls and not bodies."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:AB03339",
+   "responds": [
+    "source:AB03339"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises that the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "ezekiel-neither-have-ye-healed",
+   "after": "source:AB07486",
+   "responds": [
+    "source:AB07486"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel rebukes shepherds who have not strengthened the diseased nor healed that which was sick."
+  },
+  {
+   "id": "ezekiel-new-heart",
+   "after": "source:AB07486",
+   "responds": [
+    "source:AB07486"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel hears the promise of a new heart, the stony heart taken away and a heart of flesh given."
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:AB08834",
+   "responds": [
+    "source:AB08834"
+   ],
+   "relation": "adjacent",
+   "why": "In Luke Jesus says that he is sent to heal the brokenhearted and to set at liberty them that are bruised."
+  },
+  {
+   "id": "james-patience-of-job",
+   "after": "source:AB08876",
+   "responds": [
+    "source:AB08876"
+   ],
+   "relation": "adjacent",
+   "why": "James recalls the patience of Job and the end of the Lord, that he is very pitiful and of tender mercy."
+  },
+  {
+   "id": "job-naked-came-i",
+   "after": "source:AB08876",
+   "responds": [
+    "source:AB08876"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:AB09544",
+   "responds": [
+    "source:AB09544"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine says that our hearts are restless until they rest in God."
+  },
+  {
+   "id": "psalm-create-in-me-a-clean-heart",
+   "after": "source:AB09544",
+   "responds": [
+    "source:AB09544"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks for a clean heart to be created in him, and a right spirit renewed within him."
+  },
+  {
+   "id": "ephesians-redeeming-the-time",
+   "after": "source:AB00305",
+   "responds": [
+    "source:AB00305"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks for a walk that is circumspect and wise, redeeming the time because the days are evil."
+  },
+  {
+   "id": "john-night-cometh",
+   "after": "source:AB00305",
+   "responds": [
+    "source:AB00305"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he must work while it is day, for the night cometh when no man can work."
+  },
+  {
+   "id": "john-wilt-thou-be-made-whole",
+   "after": "source:AB05280",
+   "responds": [
+    "source:AB05280"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks a man who has been ill thirty-eight years: wilt thou be made whole?"
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "source:AB10250",
+   "responds": [
+    "source:AB10250"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: come unto me, all ye that labour and are heavy laden, and I will give you rest."
+  },
+  {
+   "id": "jeremiah-peace-when-there-is-no-peace",
+   "after": "source:AB06250",
+   "responds": [
+    "source:AB06250"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah blames those who have healed the hurt of the people slightly, saying peace when there is no peace."
+  },
+  {
+   "id": "gandhi-only-to-be-patient",
+   "after": "source:AB06250",
+   "responds": [
+    "source:AB06250"
+   ],
+   "relation": "contrast",
+   "why": "Gandhi judged modern civilization to be such that one has only to be patient and it will be self-destroyed. Is the world's sickness one that can be treated, as the guide says, or one that must run its course?"
+  },
+  {
+   "id": "isaiah-beauty-for-ashes",
+   "after": "source:AB06251",
+   "responds": [
+    "source:AB06251"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises beauty for ashes, the oil of joy for mourning, and the garment of praise for the spirit of heaviness."
+  },
+  {
+   "id": "quran-despair-not-of-mercy",
+   "after": "source:AB00147",
+   "responds": [
+    "source:AB00147"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells those who have harmed themselves not to despair of the mercy of God, who forgives all sins."
+  },
+  {
+   "id": "isaiah-whole-head-is-sick",
+   "after": "source:AB03706",
+   "responds": [
+    "source:AB03706"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says of his people that the whole head is sick, and the whole heart faint."
+  },
+  {
+   "id": "romans-whole-creation-groaneth",
+   "after": "source:AB03706",
+   "responds": [
+    "source:AB03706"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the whole creation groaneth and travaileth in pain together until now."
+  },
+  {
+   "id": "epictetus-not-by-things",
+   "after": "source:AB04385",
+   "responds": [
+    "source:AB04385"
+   ],
+   "relation": "adjacent",
+   "why": "Epictetus says that men are disturbed not by things but by the notions they form about them."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:AB04385",
+   "responds": [
+    "source:AB04385"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter asks that love be shown not in word, neither in tongue, but in deed and in truth."
+  },
+  {
+   "id": "isaiah-word-in-season-to-the-weary",
+   "after": "source:AB08041",
+   "responds": [
+    "source:AB08041"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah speaks of a tongue taught to speak a word in season to him that is weary."
+  }
+ ],
+ "library": {
+  "isaiah-lump-of-figs": {
+   "text": "For Isaiah had said, Let them take a lump of figs, and lay it for a plaister upon the boil, and he shall recover",
+   "work": "Isaiah 38:21",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2038%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-health-to-thy-navel": {
+   "text": "Be not wise in thine own eyes: fear the Lord, and depart from evil. It shall be health to thy navel, and marrow to thy bones",
+   "work": "Proverbs 3:7–8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%203%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-thy-sins-be-forgiven-thee": {
+   "text": "Whether is it easier to say to the sick of the palsy, Thy sins be forgiven thee; or to say, Arise, and take up thy bed, and walk? But that ye may know that the Son of man hath power on earth to forgive sins, (he saith to the sick of the palsy,) I say unto thee, Arise, and take up thy bed, and go thy way into thine house",
+   "work": "Mark 2:9–11",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%202%3A9-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-thy-faith-hath-made-thee-whole": {
+   "text": "And when the woman saw that she was not hid, she came trembling, and falling down before him, she declared unto him before all the people for what cause she had touched him, and how she was healed immediately. And he said unto her, Daughter, be of good comfort: thy faith hath made thee whole; go in peace",
+   "work": "Luke 8:47–48",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A47-48&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-infirmity-of-the-flesh": {
+   "text": "Ye know how through infirmity of the flesh I preached the gospel unto you at the first. And my temptation which was in my flesh ye despised not, nor rejected; but received me as an angel of God, even as Christ Jesus",
+   "work": "Galatians 4:13–14",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%204%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "philippians-sick-nigh-unto-death": {
+   "text": "Yet I supposed it necessary to send to you Epaphroditus, my brother, and companion in labour, and fellowsoldier, but your messenger, and he that ministered to my wants. For he longed after you all, and was full of heaviness, because that ye had heard that he had been sick. For indeed he was sick nigh unto death: but God had mercy on him; and not on him only, but on me also, lest I should have sorrow upon sorrow",
+   "work": "Philippians 2:25–27",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%202%3A25-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-giveth-his-beloved-sleep": {
+   "text": "It is vain for you to rise up early, to sit up late, to eat the bread of sorrows: for so he giveth his beloved sleep",
+   "work": "Psalm 127:2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20127%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-virtue-went-out-of-him": {
+   "text": "And the whole multitude sought to touch him: for there went virtue out of him, and healed them all",
+   "work": "Luke 6:19",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%206%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-neither-have-ye-healed": {
+   "text": "The diseased have ye not strengthened, neither have ye healed that which was sick, neither have ye bound up that which was broken, neither have ye brought again that which was driven away, neither have ye sought that which was lost; but with force and with cruelty have ye ruled them",
+   "work": "Ezekiel 34:4",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2034%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-a-time-to-heal": {
+   "text": "A time to kill, and a time to heal; a time to break down, and a time to build up",
+   "work": "Ecclesiastes 3:3",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%203%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "shakespeare-minister-to-a-mind-diseased": {
+   "text": "Canst thou not minister to a mind diseased, / Pluck from the memory a rooted sorrow, / Raze out the written troubles of the brain / And with some sweet oblivious antidote / Cleanse the stuff'd bosom of that perilous stuff / Which weighs upon the heart? / Doctor / Therein the patient / Must minister to himself",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Macbeth",
+   "locator": "Act 5, scene 3",
+   "year": "about 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/macbeth/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "hippocrates-for-the-benefit-of-the-sick": {
+   "text": "Into whatever houses I enter, I will go into them for the benefit of the sick, and will abstain from every voluntary act of mischief and corruption",
+   "author": "Hippocrates",
+   "work": "The Oath",
+   "year": "c. 400 BCE",
+   "sortYear": -400,
+   "translator": "Francis Adams",
+   "translationYear": "1849",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Hippocrates/hippooath.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1861."
+   }
+  },
+  "plato-body-without-the-soul": {
+   "text": "as you ought not to attempt to cure the eyes without the head, or the head without the body, so neither ought you to attempt to cure the body without the soul",
+   "author": "Plato",
+   "work": "Charmides",
+   "year": "4th century BCE",
+   "sortYear": -380,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/charmides.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  }
+ }
+}

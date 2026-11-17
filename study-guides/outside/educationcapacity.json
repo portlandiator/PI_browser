@@ -1,0 +1,541 @@
+{
+ "format": 2,
+ "slug": "educationcapacity",
+ "subject": "EEEFCF8268224145B6028CD4848913D1",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 50,
+ "quotations": 52,
+ "kept": [
+  "source:BH06970",
+  "source:AB00824",
+  "source:AB03797",
+  "source:AB00081",
+  "source:ABU0109",
+  "source:ABU3555",
+  "source:BH08732",
+  "source:AB00251",
+  "source:AB09424",
+  "source:AB02582",
+  "source:ABU2502",
+  "source:ABU2331",
+  "source:ABU1691",
+  "source:ABU0272",
+  "source:ABU0384",
+  "source:ABU0376",
+  "source:ABU0900",
+  "source:ABU1077",
+  "source:ABU2471",
+  "source:AB04634",
+  "source:ABU1208",
+  "source:AB12368",
+  "source:AB11769",
+  "source:AB05788",
+  "source:AB05835",
+  "source:AB02402",
+  "source:ABU0574",
+  "source:ABU0694",
+  "source:ABU3205",
+  "source:AB04435",
+  "source:AB02126",
+  "source:ABU0927",
+  "source:ABU0565",
+  "source:ABU1243",
+  "source:ABU0830",
+  "source:ABU0820",
+  "source:ABU0989",
+  "source:ABU1473",
+  "source:AB11841",
+  "source:ABU3090",
+  "source:AB06079",
+  "source:ABU1999",
+  "source:ABU2552",
+  "source:ABU0153",
+  "source:ABU2537",
+  "source:AB10826",
+  "source:AB10126",
+  "source:AB02045",
+  "source:AB12435",
+  "selection:2fe306b14405bea7251f922c"
+ ],
+ "introduction": "These readings say that education brings out what is hidden in a human being as a jeweller brings a gem from the mine: character first, then knowledge; body, mind and spirit together; early, because habits harden; and by the learner's own effort, since capacity is given but not realized without it. They compare the teacher to a gardener and the heart to soil. Beside them stand Plato, Aristotle, Confucius and Mencius on nature and practice, the proverbs on training a child, the parables of seed and talents, and Mary Wollstonecraft on the education of women. Other voices raise the standing questions: whether nature is good, blank or stubborn; whether a school frees or cages; whether growth can be forced; whether effort or grace does the work.",
+ "questions": [
+  "The readings put the training of character before the acquiring of knowledge. What would a school or a home look like that took that order seriously?",
+  "Confucius says people are alike by nature and differ by practice; Locke calls the mind white paper; Mencius says nature tends to good. Which picture of a child do you find truest?",
+  "One reading says that changing even one trait after maturity is nearly impossible. What has your own experience of trying to change taught you?",
+  "Mill fears a state education that moulds everyone alike, and Blake a school that cages the bird. How can education develop each child's particular aptitude?",
+  "The readings say capacity grows by effort and also that bounty is given beyond desert. Where in your own learning have you seen each?"
+ ],
+ "outside": [
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:BH06970",
+   "responds": [
+    "source:BH06970"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that the power and capacity of learning exists in the soul already, and that education turns the whole soul toward the light."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:BH06970",
+   "responds": [
+    "source:BH06970"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go, and when he is old he will not depart from it."
+  },
+  {
+   "id": "avot-not-study-but-actions",
+   "after": "source:AB00824",
+   "responds": [
+    "source:AB00824"
+   ],
+   "relation": "adjacent",
+   "why": "A sage who grew up among the sages said that study is not the most important thing, but actions."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:AB03797",
+   "responds": [
+    "source:AB03797"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that knowledge puffeth up, but charity edifieth, and that whoever thinks he knows anything knows nothing yet as he ought."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:AB03797",
+   "responds": [
+    "source:AB03797"
+   ],
+   "relation": "complement",
+   "why": "Mary Shelley's Frankenstein says: learn from me how dangerous is the acquirement of knowledge. What kind of training has to come before knowledge for knowledge to be safe?"
+  },
+  {
+   "id": "great-learning-widening",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "The Great Learning says that when persons are cultivated families are regulated, then states rightly governed, and the whole kingdom made tranquil."
+  },
+  {
+   "id": "juvenal-sound-mind",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "adjacent",
+   "why": "Juvenal advised his readers to pray for a sound mind in a sound body."
+  },
+  {
+   "id": "timothy-exercise-thyself",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy says that bodily exercise profiteth little, but godliness is profitable unto all things."
+  },
+  {
+   "id": "ephesians-unto-a-perfect-man",
+   "after": "source:ABU3555",
+   "responds": [
+    "source:ABU3555"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Ephesians speaks of teachers given for the perfecting of the saints, till we all come unto a perfect man."
+  },
+  {
+   "id": "mencius-differs-but-small",
+   "after": "source:BH08732",
+   "responds": [
+    "source:BH08732"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius said that that whereby man differs from the lower animals is but small; the mass of people cast it away, while superior men preserve it."
+  },
+  {
+   "id": "jeremiah-leopard-spots",
+   "after": "source:AB00251",
+   "responds": [
+    "source:AB00251"
+   ],
+   "relation": "complement",
+   "why": "Jeremiah asks: can the Ethiopian change his skin, or the leopard his spots? Then may ye also do good, that are accustomed to do evil. Is there an age after which a character can no longer be changed?"
+  },
+  {
+   "id": "plato-young-and-tender-thing",
+   "after": "source:AB00251",
+   "responds": [
+    "source:AB00251"
+   ],
+   "relation": "adjacent",
+   "why": "Plato said that the beginning is the most important part of any work, especially with a young and tender thing, for then the desired impression is more readily taken."
+  },
+  {
+   "id": "proverbs-bray-a-fool",
+   "after": "source:AB00251",
+   "responds": [
+    "source:AB00251"
+   ],
+   "relation": "contrast",
+   "why": "Proverbs says that though thou shouldest bray a fool in a mortar, yet will not his foolishness depart from him. Are there people whom no education can reach?"
+  },
+  {
+   "id": "luke-increased-in-wisdom",
+   "after": "source:AB09424",
+   "responds": [
+    "source:AB09424"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of the boy Jesus that he increased in wisdom and stature, and in favour with God and man."
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:ABU2502",
+   "responds": [
+    "source:ABU2502"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable a man gave talents to his servants, to every man according to his several ability."
+  },
+  {
+   "id": "mill-state-education",
+   "after": "source:ABU2502",
+   "responds": [
+    "source:ABU2502"
+   ],
+   "relation": "contrast",
+   "why": "John Stuart Mill called a general State education a mere contrivance for moulding people to be exactly like one another. How can schooling serve each child's aptitude and not a single mould?"
+  },
+  {
+   "id": "corinthians-god-gave-the-increase",
+   "after": "source:ABU2331",
+   "responds": [
+    "source:ABU2331"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: I have planted, Apollos watered, but God gave the increase."
+  },
+  {
+   "id": "aristotle-by-doing-just-acts",
+   "after": "source:ABU1691",
+   "responds": [
+    "source:ABU1691"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle taught that we become builders by building and just by doing just acts."
+  },
+  {
+   "id": "philippians-work-out-your-own-salvation",
+   "after": "source:ABU1691",
+   "responds": [
+    "source:ABU1691"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: work out your own salvation with fear and trembling, for it is God which worketh in you."
+  },
+  {
+   "id": "analects-nature-and-practice",
+   "after": "source:ABU0272",
+   "responds": [
+    "source:ABU0272"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said: by nature, men are nearly alike; by practice, they get to be wide apart."
+  },
+  {
+   "id": "malachi-who-may-abide",
+   "after": "source:ABU0384",
+   "responds": [
+    "source:ABU0384"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi speaks of one who is like a refiner's fire, and like fullers' soap."
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "source:ABU0384",
+   "responds": [
+    "source:ABU0384"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we, beholding as in a glass the glory of the Lord, are changed into the same image."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:ABU0376",
+   "responds": [
+    "source:ABU0376"
+   ],
+   "relation": "complement",
+   "why": "Mencius taught that human nature tends to good as water tends to flow downwards. If nature is good, is education a drawing out or a making over?"
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:ABU0376",
+   "responds": [
+    "source:ABU0376"
+   ],
+   "relation": "complement",
+   "why": "Locke supposed the mind to be white paper, void of all characters, and all its furniture from experience. Is a child a blank page, a seed, or a mine of gems?"
+  },
+  {
+   "id": "isaiah-eyes-of-the-blind-opened",
+   "after": "source:ABU0900",
+   "responds": [
+    "source:ABU0900"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped."
+  },
+  {
+   "id": "mandela-taught-to-love",
+   "after": "source:ABU0900",
+   "responds": [
+    "source:ABU0900"
+   ],
+   "relation": "adjacent",
+   "why": "Nelson Mandela wrote that people must learn to hate, and if they can learn to hate, they can be taught to love."
+  },
+  {
+   "id": "psalm-tree-by-the-rivers",
+   "after": "source:ABU2471",
+   "responds": [
+    "source:ABU2471"
+   ],
+   "relation": "adjacent",
+   "why": "The first psalm likens the blessed man to a tree planted by the rivers of water, that bringeth forth his fruit in his season."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "source:AB04634",
+   "responds": [
+    "source:AB04634"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I am the vine, ye are the branches; he that abideth in me bringeth forth much fruit."
+  },
+  {
+   "id": "proverbs-field-of-the-slothful",
+   "after": "source:ABU1208",
+   "responds": [
+    "source:ABU1208"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs describes an untended field, all grown over with thorns, and nettles had covered the face thereof."
+  },
+  {
+   "id": "luke-seed-is-the-word",
+   "after": "source:AB11769",
+   "responds": [
+    "source:AB11769"
+   ],
+   "relation": "adjacent",
+   "why": "Explaining the parable of the soils, Jesus said: the seed is the word of God."
+  },
+  {
+   "id": "hosea-sow-in-righteousness",
+   "after": "source:AB05788",
+   "responds": [
+    "source:AB05788"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea says: break up your fallow ground, for it is time to seek the Lord, till He come and rain righteousness upon you."
+  },
+  {
+   "id": "matthew-sower-went-forth",
+   "after": "source:AB02402",
+   "responds": [
+    "source:AB02402"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable some seed fell among thorns, and the thorns sprung up and choked it."
+  },
+  {
+   "id": "matthew-seek-and-ye-shall-find",
+   "after": "source:ABU0694",
+   "responds": [
+    "source:ABU0694"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: seek, and ye shall find; knock, and it shall be opened unto you."
+  },
+  {
+   "id": "matthew-be-ye-perfect",
+   "after": "source:AB02126",
+   "responds": [
+    "source:AB02126"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: be ye therefore perfect, even as your Father which is in heaven is perfect."
+  },
+  {
+   "id": "quran-teacheth-you-that-which-ye-knew-not",
+   "after": "source:ABU0927",
+   "responds": [
+    "source:ABU0927"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of a messenger sent to recite revelations, to purify, and to teach people that which they knew not."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:ABU0927",
+   "responds": [
+    "source:ABU0927"
+   ],
+   "relation": "contrast",
+   "why": "Emerson's counsel was: trust thyself; every heart vibrates to that iron string. Does a person need a teacher to light the lamp, or only the courage to look within?"
+  },
+  {
+   "id": "galatians-be-not-weary",
+   "after": "source:ABU1243",
+   "responds": [
+    "source:ABU1243"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: let us not be weary in well doing, for in due season we shall reap, if we faint not."
+  },
+  {
+   "id": "mencius-man-of-song",
+   "after": "source:ABU1243",
+   "responds": [
+    "source:ABU1243"
+   ],
+   "relation": "contrast",
+   "why": "Mencius tells of a man who pulled at his growing corn to help it, and came home to find it withered. When does unceasing effort help growth and when does it harm?"
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:ABU0830",
+   "responds": [
+    "source:ABU0830"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Ephesians says: by grace are ye saved through faith; it is the gift of God, not of works."
+  },
+  {
+   "id": "romans-not-of-him-that-willeth",
+   "after": "source:ABU0830",
+   "responds": [
+    "source:ABU0830"
+   ],
+   "relation": "complement",
+   "why": "Paul says that it is not of him that willeth, nor of him that runneth, but of God that sheweth mercy. How do a bounty earned by effort and a bounty freely given fit in one life?"
+  },
+  {
+   "id": "luke-few-stripes",
+   "after": "source:ABU0820",
+   "responds": [
+    "source:ABU0820"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that unto whomsoever much is given, of him shall be much required."
+  },
+  {
+   "id": "hebrews-leaving-the-principles",
+   "after": "source:ABU1473",
+   "responds": [
+    "source:ABU1473"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews says that strong meat belongs to those who by reason of use have their senses exercised to discern both good and evil."
+  },
+  {
+   "id": "john-do-his-will-shall-know",
+   "after": "source:ABU3090",
+   "responds": [
+    "source:ABU3090"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that anyone who will do God's will shall know of the doctrine."
+  },
+  {
+   "id": "pope-isthmus-of-a-middle-state",
+   "after": "source:ABU1999",
+   "responds": [
+    "source:ABU1999"
+   ],
+   "relation": "adjacent",
+   "why": "Alexander Pope placed man on an isthmus of a middle state, in doubt to deem himself a god or beast."
+  },
+  {
+   "id": "aristotle-best-and-worst-of-animals",
+   "after": "source:ABU1999",
+   "responds": [
+    "source:ABU1999"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle said that man, when perfected, is the best of animals, but when separated from law and justice he is the worst of all."
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:ABU0153",
+   "responds": [
+    "source:ABU0153"
+   ],
+   "relation": "adjacent",
+   "why": "Mary Wollstonecraft wrote: strengthen the female mind by enlarging it, and there will be an end to blind obedience."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:ABU2537",
+   "responds": [
+    "source:ABU2537"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whatsoever a man soweth, that shall he also reap."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:AB02045",
+   "responds": [
+    "source:AB02045"
+   ],
+   "relation": "adjacent",
+   "why": "The council saw that Peter and John were unlearned and ignorant men, and took knowledge of them that they had been with Jesus."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB02045",
+   "responds": [
+    "source:AB02045"
+   ],
+   "relation": "adjacent",
+   "why": "Paul heard the answer: my grace is sufficient for thee, for my strength is made perfect in weakness."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:AB12435",
+   "responds": [
+    "source:AB12435"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah hears: not by might, nor by power, but by my spirit, saith the Lord of hosts."
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "selection:2fe306b14405bea7251f922c",
+   "responds": [
+    "selection:2fe306b14405bea7251f922c"
+   ],
+   "relation": "adjacent",
+   "why": "Milton wrote that the end of learning is to know God aright, and out of that knowledge to love Him and be like Him."
+  },
+  {
+   "id": "blake-bird-born-for-joy",
+   "after": "selection:2fe306b14405bea7251f922c",
+   "responds": [
+    "selection:2fe306b14405bea7251f922c"
+   ],
+   "relation": "contrast",
+   "why": "William Blake's schoolboy asks how the bird that is born for joy can sit in a cage and sing. What must a school be like to bring out a child's possibilities and not wither them?"
+  }
+ ],
+ "library": {}
+}

@@ -1,0 +1,587 @@
+{
+ "format": 2,
+ "slug": "cleanliness",
+ "subject": "930E4F8D8225422881E16A841A80DE02",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 29,
+ "kept": [
+  "source:AB00109",
+  "source:BB00071",
+  "source:ABU0727",
+  "source:ABU2264",
+  "source:BH00001",
+  "source:BH05195",
+  "source:AB05288",
+  "source:AB07213",
+  "source:AB04695",
+  "source:ABU3127",
+  "source:ABU2730",
+  "source:ABU3004",
+  "source:BH01791",
+  "source:BB00083",
+  "source:BB00004",
+  "source:BH00013",
+  "source:BB00056",
+  "source:AB10237",
+  "source:BHU0006",
+  "source:ABU1548",
+  "source:ABU0474",
+  "source:BB00001"
+ ],
+ "introduction": "Cleanliness, in this guide, reaches from the washing of hands and clothes, the building of a bathhouse and the proper making of tea to the purity of the heart, and it holds that the first has a real effect on the second. Its twenty-nine quotations are read here with twenty-nine from elsewhere. The older scriptures make the same connection: clothes washed before Sinai, clean hands and a pure heart in the psalm, the washing before prayer in the Qur’an, bodies washed with pure water in Hebrews, Paul’s cleansing of flesh and spirit together. Okakura finds in the tea ceremony an adoration of the beautiful in everyday things. Peter’s vision and Paul’s ‘unto the pure all things are pure’ stand beside the guide’s rejection of ritual impurity. The cautions come from Jesus, who said that nothing entering from without defiles, who spoke of whited sepulchres and of cleaning the inside of the cup first, and from the Dhammapada, for which a clean outside can hide a ravening within.",
+ "questions": [
+  "The guide says outward cleanliness affects the spirit. Where have you noticed order or disorder in your surroundings change your state of mind?",
+  "Jesus says that nothing from without defiles a person, and that the inside of the cup should be cleaned first. How does the guide's care for outward refinement stand with those sayings?",
+  "Several traditions prescribe washing before worship. What does such a practice do for the one who prays?",
+  "The guide rejects the idea that certain things or people are ritually unclean, as Peter was taught to do. What is the difference between cleanliness and a doctrine of impurity?",
+  "Tea must be made well, says one reading, and Okakura finds beauty in such everyday acts. What ordinary task could you do with more care this week?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-filthiness-of-the-flesh-and-spirit",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "adjacent",
+   "why": "Paul joins the two kinds of purity in one sentence: let us cleanse ourselves from all filthiness of the flesh and spirit."
+  },
+  {
+   "id": "psalm-clean-hands-and-a-pure-heart",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm asks who shall stand in the holy place, and answers: he that hath clean hands, and a pure heart."
+  },
+  {
+   "id": "exodus-wash-their-clothes",
+   "after": "source:BB00071",
+   "responds": [
+    "source:BB00071"
+   ],
+   "relation": "adjacent",
+   "why": "Before Sinai the people are told to sanctify themselves and wash their clothes, and be ready against the third day."
+  },
+  {
+   "id": "ephesians-put-on-the-new-man",
+   "after": "source:ABU0727",
+   "responds": [
+    "source:ABU0727"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the image of clothing for character: put off the old man, and put on the new."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:ABU2264",
+   "responds": [
+    "source:ABU2264"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives the same reason: your body is the temple of the Holy Ghost which is in you."
+  },
+  {
+   "id": "quran-when-ye-rise-up-for-prayer",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an prescribes washing of face, hands and feet before prayer, and adds that God would not place a burden on you but would purify you."
+  },
+  {
+   "id": "ecclesiastes-garments-be-always-white",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher advises: let thy garments be always white, and let thy head lack no ointment."
+  },
+  {
+   "id": "matthew-when-thou-fastest",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells those who fast to anoint the head and wash the face, and not to be of a sad countenance."
+  },
+  {
+   "id": "mark-nothing-from-without",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says that there is nothing from without a man that entering into him can defile him, but the things which come out of him. How does an insistence on refined outward habits answer that saying?"
+  },
+  {
+   "id": "quran-thy-raiment-purify",
+   "after": "source:BH05195",
+   "responds": [
+    "source:BH05195"
+   ],
+   "relation": "adjacent",
+   "why": "An early chapter of the Qur'an tells its Prophet: thy raiment purify, pollution shun."
+  },
+  {
+   "id": "hebrews-bodies-washed-with-pure-water",
+   "after": "source:AB05288",
+   "responds": [
+    "source:AB05288"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews asks its readers to draw near with hearts sprinkled from an evil conscience and bodies washed with pure water."
+  },
+  {
+   "id": "hebrews-entertain-strangers",
+   "after": "source:AB07213",
+   "responds": [
+    "source:AB07213"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews asks its readers not to be forgetful to entertain strangers, since some have entertained angels unawares."
+  },
+  {
+   "id": "kings-wash-in-jordan-seven-times",
+   "after": "source:AB04695",
+   "responds": [
+    "source:AB04695"
+   ],
+   "relation": "adjacent",
+   "why": "Naaman is told by the prophet's messenger to wash in Jordan seven times, and comes up clean."
+  },
+  {
+   "id": "okakura-teaism-purity-and-harmony",
+   "after": "source:ABU3127",
+   "responds": [
+    "source:ABU3127"
+   ],
+   "relation": "adjacent",
+   "why": "Okakura says that the way of tea is founded on the adoration of the beautiful among the sordid facts of everyday existence, and inculcates purity and harmony."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU2730",
+   "responds": [
+    "source:ABU2730"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs links inward and outward well-being: a merry heart doeth good like a medicine."
+  },
+  {
+   "id": "matthew-cleanse-first-that-which-is-within",
+   "after": "source:ABU3004",
+   "responds": [
+    "source:ABU3004"
+   ],
+   "relation": "complement",
+   "why": "Jesus tells those who clean the outside of the cup to cleanse first that which is within, that the outside may be clean also. Which comes first in the guide, and does the order matter?"
+  },
+  {
+   "id": "john-odour-of-the-ointment",
+   "after": "source:BH01791",
+   "responds": [
+    "source:BH01791"
+   ],
+   "relation": "adjacent",
+   "why": "John remembers a house filled with the odour of the ointment when Mary anointed the feet of Jesus."
+  },
+  {
+   "id": "isaiah-wash-you-make-you-clean",
+   "after": "source:BB00083",
+   "responds": [
+    "source:BB00083"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah joins washing to conduct: wash you, make you clean, put away the evil of your doings."
+  },
+  {
+   "id": "quran-water-to-purify-you",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an speaks of water sent down from the sky to purify the believers and make their hearts strong."
+  },
+  {
+   "id": "psalm-create-in-me-a-clean-heart",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays to be washed whiter than snow, and for a clean heart to be created in him."
+  },
+  {
+   "id": "ezekiel-sprinkle-clean-water",
+   "after": "source:BH00013",
+   "responds": [
+    "source:BH00013"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel hears the promise of clean water sprinkled, and of cleansing from all filthiness."
+  },
+  {
+   "id": "acts-call-not-thou-common",
+   "after": "source:AB10237",
+   "responds": [
+    "source:AB10237"
+   ],
+   "relation": "adjacent",
+   "why": "Peter, who had never eaten anything common or unclean, is told: what God hath cleansed, that call not thou common."
+  },
+  {
+   "id": "titus-unto-the-pure-all-things-are-pure",
+   "after": "source:BHU0006",
+   "responds": [
+    "source:BHU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that unto the pure all things are pure, and that to the defiled nothing is pure."
+  },
+  {
+   "id": "dhammapada-matted-hair",
+   "after": "source:BHU0006",
+   "responds": [
+    "source:BHU0006"
+   ],
+   "relation": "contrast",
+   "why": "The Dhammapada asks what use platted hair and goat-skins are when within there is ravening and only the outside is made clean. When does care for outward purity become what it criticises?"
+  },
+  {
+   "id": "john-needeth-not-save-to-wash-his-feet",
+   "after": "source:ABU1548",
+   "responds": [
+    "source:ABU1548"
+   ],
+   "relation": "adjacent",
+   "why": "When Peter asks to be washed all over, Jesus answers that he that is washed needs only to wash his feet."
+  },
+  {
+   "id": "matthew-whited-sepulchres",
+   "after": "source:ABU1548",
+   "responds": [
+    "source:ABU1548"
+   ],
+   "relation": "complement",
+   "why": "Jesus speaks of whited sepulchres, beautiful outward and full of uncleanness within. If cleanliness affects the spirit, what keeps it from being only appearance?"
+  },
+  {
+   "id": "keats-thing-of-beauty",
+   "after": "source:ABU0474",
+   "responds": [
+    "source:ABU0474"
+   ],
+   "relation": "adjacent",
+   "why": "Keats says that a thing of beauty is a joy for ever, whose loveliness increases."
+  },
+  {
+   "id": "philippians-think-on-these-things",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks his friends to think on whatsoever things are pure, whatsoever things are lovely."
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher's rule for any work is to do whatever the hand finds to do with all one's might."
+  }
+ ],
+ "library": {
+  "mark-nothing-from-without": {
+   "text": "And when he had called all the people unto him, he said unto them, Hearken unto me every one of you, and understand: There is nothing from without a man, that entering into him can defile him: but the things which come out of him, those are they that defile the man",
+   "work": "Mark 7:14–15",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-filthiness-of-the-flesh-and-spirit": {
+   "text": "Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God",
+   "work": "2 Corinthians 7:1",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%207%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-bodies-washed-with-pure-water": {
+   "text": "Let us draw near with a true heart in full assurance of faith, having our hearts sprinkled from an evil conscience, and our bodies washed with pure water",
+   "work": "Hebrews 10:22",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2010%3A22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-needeth-not-save-to-wash-his-feet": {
+   "text": "Peter saith unto him, Thou shalt never wash my feet. Jesus answered him, If I wash thee not, thou hast no part with me. Simon Peter saith unto him, Lord, not my feet only, but also my hands and my head. Jesus saith to him, He that is washed needeth not save to wash his feet, but is clean every whit",
+   "work": "John 13:8–10",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2013%3A8-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-odour-of-the-ointment": {
+   "text": "Then took Mary a pound of ointment of spikenard, very costly, and anointed the feet of Jesus, and wiped his feet with her hair: and the house was filled with the odour of the ointment",
+   "work": "John 12:3",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2012%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-garments-be-always-white": {
+   "text": "Go thy way, eat thy bread with joy, and drink thy wine with a merry heart; for God now accepteth thy works. Let thy garments be always white; and let thy head lack no ointment",
+   "work": "Ecclesiastes 9:7–8",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%209%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-call-not-thou-common": {
+   "text": "But Peter said, Not so, Lord; for I have never eaten any thing that is common or unclean. And the voice spake unto him again the second time, What God hath cleansed, that call not thou common",
+   "work": "Acts 10:14–15",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2010%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "titus-unto-the-pure-all-things-are-pure": {
+   "text": "Unto the pure all things are pure: but unto them that are defiled and unbelieving is nothing pure; but even their mind and conscience is defiled",
+   "work": "Titus 1:15",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Titus%201%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-wash-their-clothes": {
+   "text": "And the Lord said unto Moses, Go unto the people, and sanctify them to day and to morrow, and let them wash their clothes, And be ready against the third day: for the third day the Lord will come down in the sight of all the people upon mount Sinai",
+   "work": "Exodus 19:10–11",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2019%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-when-ye-rise-up-for-prayer": {
+   "text": "O ye who believe! When ye rise up for prayer, wash you faces, and your hands up to the elbows, and lightly rub your heads and (wash) your feet up to the ankles. And if ye are unclean, purify yourselves. And if ye are sick or on a journey, or one of you cometh from the closet, or ye have had contact with women, and ye find not water, then go to clean, high ground and rub your faces and your hands with some of it. Allah would not place a burden on you, but He would purify you and would perfect His grace upon you, that ye may give thanks.",
+   "work": "Qur’an 5:6",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=6",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-thy-raiment-purify": {
+   "text": "O thou enveloped in thy cloak, Arise and warn! Thy Lord magnify, Thy raiment purify, Pollution shun",
+   "work": "Qur’an 74:1–5",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "okakura-teaism-purity-and-harmony": {
+   "text": "Teaism is a cult founded on the adoration of the beautiful among the sordid facts of everyday existence. It inculcates purity and harmony",
+   "author": "Okakura Kakuzō",
+   "work": "The Book of Tea",
+   "locator": "chapter 1",
+   "year": "1906",
+   "sortYear": 1906,
+   "tradition": "Japan",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Book_of_Tea/Chapter_I",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1913."
+   }
+  }
+ }
+}

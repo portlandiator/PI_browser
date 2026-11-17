@@ -1,0 +1,867 @@
+{
+ "format": 2,
+ "slug": "spiritualbaptism",
+ "subject": "B3EA44B110164A69A3BD4B928633F1E3",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 45,
+ "kept": [
+  "source:ABU0984",
+  "source:AB02184",
+  "source:ABU0020",
+  "source:ABU0095",
+  "source:AB00674",
+  "source:AB03738",
+  "source:AB04410",
+  "source:AB02292",
+  "source:AB06454",
+  "source:AB12268",
+  "source:AB12285",
+  "source:ABU0407",
+  "source:ABU0573",
+  "source:ABU1576",
+  "source:ABU3508",
+  "source:ABU1107",
+  "source:ABU2605",
+  "source:ABU1421",
+  "source:ABU2239",
+  "source:AB05757",
+  "source:ABU3707",
+  "source:ABU0503",
+  "source:AB12296",
+  "source:BH00002",
+  "source:AB00109",
+  "source:ABU0299",
+  "source:ABU0064",
+  "source:AB00709",
+  "source:ABU0179",
+  "source:ABU0586",
+  "source:ABU0262",
+  "source:AB09736",
+  "source:AB00388",
+  "source:AB00600",
+  "source:AB02880",
+  "source:ABU0114",
+  "source:AB07458",
+  "selection:f18a9850e14d327292351fd2"
+ ],
+ "introduction": "The guide reads baptism as a change in the person and not as a ceremony: water stands for knowledge and life, fire for the love of God, spirit for divine grace, and the proof of all three is new character. Its forty-five quotations are read here with forty-five from elsewhere, most of them from the scriptures the guide is itself interpreting. John the Baptist distinguishes his water from the fire to come; Ezekiel, Isaiah and the psalmist ask for a clean heart in the language of washing; Peter’s letter says baptism is not the putting away of the filth of the flesh; the Qur’an speaks of purifying water from the sky and of taking one’s colour from God. A few passages press the other way. Jesus himself goes down into the Jordan, Paul reads baptism as a burial and a rising, the Ethiopian asks for water at the roadside, and Naaman is healed only when he washes as he is told. Pilate and the Macbeths, at the far end, show what water alone cannot do. Read together they ask what an outward act is worth, and what must happen within for it to be worth anything.",
+ "questions": [
+  "The guide says the essence of baptism is purification by repentance. Which of the scriptural passages beside it says this most plainly, and which seems to say more?",
+  "Jesus was himself baptized by John, and Paul treats baptism as a burial and a rising. How might a reader hold these together with the guide's view of the rite as practised?",
+  "Pilate washes his hands and Macbeth despairs of the ocean. What does each scene teach about the limits of outward cleansing?",
+  "Water, fire and spirit are given as three baptisms. What in your own experience would count as each?",
+  "Nicodemus hears 'born again' literally. What habits of reading make a symbol hard to hear as a symbol?",
+  "The guide looks for the new birth in faces and characters. What fruits would persuade you that such a change had happened in someone?"
+ ],
+ "outside": [
+  {
+   "id": "john-living-water",
+   "after": "source:ABU0984",
+   "responds": [
+    "source:ABU0984"
+   ],
+   "relation": "adjacent",
+   "why": "At the well Jesus distinguishes the water that leaves one thirsty again from a water that becomes a well springing up into everlasting life."
+  },
+  {
+   "id": "john-rivers-of-living-water",
+   "after": "source:ABU0984",
+   "responds": [
+    "source:ABU0984"
+   ],
+   "relation": "adjacent",
+   "why": "At the feast Jesus cries that anyone who thirsts should come to him and drink, and John explains that he spoke of the Spirit."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB02184",
+   "responds": [
+    "source:AB02184"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives the test the guide applies: ye shall know them by their fruits, for a good tree brings forth good fruit."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:AB02184",
+   "responds": [
+    "source:AB02184"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists what the Spirit's fruit looks like in a person: love, joy, peace, longsuffering, gentleness, goodness, faith."
+  },
+  {
+   "id": "corinthians-new-creature",
+   "after": "source:ABU0020",
+   "responds": [
+    "source:ABU0020"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that anyone in Christ is a new creature: old things are passed away, and all things are become new."
+  },
+  {
+   "id": "matthew-baptize-with-fire",
+   "after": "source:ABU0095",
+   "responds": [
+    "source:ABU0095"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist says that he baptizes with water unto repentance, and that the one coming after him will baptize with the Holy Ghost and with fire."
+  },
+  {
+   "id": "acts-cloven-tongues-of-fire",
+   "after": "source:ABU0095",
+   "responds": [
+    "source:ABU0095"
+   ],
+   "relation": "adjacent",
+   "why": "At Pentecost the Spirit comes with cloven tongues like as of fire, sitting upon each of those gathered."
+  },
+  {
+   "id": "luke-fruits-worthy-of-repentance",
+   "after": "source:AB00674",
+   "responds": [
+    "source:AB00674"
+   ],
+   "relation": "adjacent",
+   "why": "John tells the multitude who come to be baptized of him to bring forth fruits worthy of repentance."
+  },
+  {
+   "id": "isaiah-wash-you-make-you-clean",
+   "after": "source:AB00674",
+   "responds": [
+    "source:AB00674"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah explains his own command to wash: put away the evil of your doings, cease to do evil, learn to do well."
+  },
+  {
+   "id": "peter-not-the-putting-away-of-filth",
+   "after": "source:AB00674",
+   "responds": [
+    "source:AB00674"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter says that baptism is not the putting away of the filth of the flesh but the answer of a good conscience toward God."
+  },
+  {
+   "id": "psalm-create-in-me-a-clean-heart",
+   "after": "source:AB00674",
+   "responds": [
+    "source:AB00674"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks to be washed whiter than snow, and in the same prayer for a clean heart and a right spirit within."
+  },
+  {
+   "id": "matthew-cleanse-first-that-which-is-within",
+   "after": "source:AB03738",
+   "responds": [
+    "source:AB03738"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells those who make clean the outside of the cup to cleanse first that which is within, that the outside may be clean also."
+  },
+  {
+   "id": "matthew-washed-his-hands",
+   "after": "source:AB03738",
+   "responds": [
+    "source:AB03738"
+   ],
+   "relation": "contrast",
+   "why": "Pilate takes water and washes his hands before the multitude, saying that he is innocent. What does his basin show about what water can and cannot do?"
+  },
+  {
+   "id": "shakespeare-neptunes-ocean",
+   "after": "source:AB03738",
+   "responds": [
+    "source:AB03738"
+   ],
+   "relation": "contrast",
+   "why": "Macbeth asks whether all great Neptune's ocean will wash the blood clean from his hand, and answers no. If no water cleanses guilt, what does?"
+  },
+  {
+   "id": "dhammapada-matted-hair",
+   "after": "source:AB03738",
+   "responds": [
+    "source:AB03738"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada asks what use platted hair and goat-skin raiment are, when within there is ravening and only the outside is made clean."
+  },
+  {
+   "id": "ezekiel-sprinkle-clean-water",
+   "after": "source:AB04410",
+   "responds": [
+    "source:AB04410"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel joins the two in one promise: clean water sprinkled upon you, and a new heart and a new spirit put within you."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:AB02292",
+   "responds": [
+    "source:AB02292"
+   ],
+   "relation": "adjacent",
+   "why": "Joel uses the language of water for the Spirit: I will pour out my spirit upon all flesh."
+  },
+  {
+   "id": "acts-scales-fell-from-his-eyes",
+   "after": "source:AB06454",
+   "responds": [
+    "source:AB06454"
+   ],
+   "relation": "adjacent",
+   "why": "When Ananias lays his hands on Saul, something like scales falls from his eyes; he receives sight, and then arises and is baptized."
+  },
+  {
+   "id": "john-except-a-man-be-born-again",
+   "after": "source:AB12268",
+   "responds": [
+    "source:AB12268"
+   ],
+   "relation": "complement",
+   "why": "Nicodemus asks how a man can be born when he is old, and whether he can enter his mother's womb a second time. What would it take to stop hearing 'born again' as he first heard it?"
+  },
+  {
+   "id": "ephesians-put-on-the-new-man",
+   "after": "source:AB12285",
+   "responds": [
+    "source:AB12285"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes the change as putting off the old man and putting on the new man."
+  },
+  {
+   "id": "peter-born-again-by-the-word",
+   "after": "source:ABU0407",
+   "responds": [
+    "source:ABU0407"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter speaks of being born again not of corruptible seed but of incorruptible, by the word of God."
+  },
+  {
+   "id": "malachi-refiners-fire",
+   "after": "source:ABU1576",
+   "responds": [
+    "source:ABU1576"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi's image of the baptism of fire is a refiner sitting over silver, purifying until the offering is made in righteousness."
+  },
+  {
+   "id": "john-born-of-water",
+   "after": "source:ABU1576",
+   "responds": [
+    "source:ABU1576"
+   ],
+   "relation": "adjacent",
+   "why": "In John's Gospel Jesus says that a man must be born of water and of the Spirit to enter into the kingdom of God."
+  },
+  {
+   "id": "acts-johns-baptism",
+   "after": "source:ABU3508",
+   "responds": [
+    "source:ABU3508"
+   ],
+   "relation": "adjacent",
+   "why": "At Ephesus Paul meets disciples baptized unto John's baptism who have not so much as heard whether there be any Holy Ghost."
+  },
+  {
+   "id": "john-whom-ye-know-not",
+   "after": "source:ABU3508",
+   "responds": [
+    "source:ABU3508"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist says of himself only that he baptizes with water, and points to one standing among them whom they know not."
+  },
+  {
+   "id": "acts-what-doth-hinder-me",
+   "after": "source:ABU1107",
+   "responds": [
+    "source:ABU1107"
+   ],
+   "relation": "complement",
+   "why": "The Ethiopian comes to a certain water and asks what hinders him from being baptized, and Philip baptizes him. What did the outward act give him that belief had not?"
+  },
+  {
+   "id": "kings-wash-in-jordan-seven-times",
+   "after": "source:ABU1107",
+   "responds": [
+    "source:ABU1107"
+   ],
+   "relation": "complement",
+   "why": "Naaman is told by Elisha's messenger to go and wash in Jordan seven times, and at last he is clean. Can an outward act carry an inward change when it is done in obedience?"
+  },
+  {
+   "id": "matthew-fulfil-all-righteousness",
+   "after": "source:ABU2605",
+   "responds": [
+    "source:ABU2605"
+   ],
+   "relation": "contrast",
+   "why": "Jesus himself comes to John to be baptized and insists on it, to fulfil all righteousness. How does his own submission to the rite sit beside the guide's judgement of it?"
+  },
+  {
+   "id": "romans-buried-with-him-by-baptism",
+   "after": "source:ABU2605",
+   "responds": [
+    "source:ABU2605"
+   ],
+   "relation": "contrast",
+   "why": "Paul reads baptism as burial with Christ into death, so as to walk in newness of life. Is his the practice the guide sets aside, or the meaning it wants restored?"
+  },
+  {
+   "id": "donne-batter-my-heart",
+   "after": "source:ABU1421",
+   "responds": [
+    "source:ABU1421"
+   ],
+   "relation": "adjacent",
+   "why": "Donne asks God not merely to knock and mend but to break, blow, burn and make him new."
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:ABU2239",
+   "responds": [
+    "source:ABU2239"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays that the eyes of his friends' understanding may be enlightened, so that they may know the hope of their calling."
+  },
+  {
+   "id": "wesley-strangely-warmed",
+   "after": "source:ABU2239",
+   "responds": [
+    "source:ABU2239"
+   ],
+   "relation": "adjacent",
+   "why": "Wesley records the evening on which he felt his heart strangely warmed and felt that he did trust in Christ alone."
+  },
+  {
+   "id": "luke-fire-on-the-earth",
+   "after": "source:ABU3707",
+   "responds": [
+    "source:ABU3707"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he is come to send fire on the earth, and wishes it were already kindled."
+  },
+  {
+   "id": "corinthians-by-one-spirit-baptized",
+   "after": "source:ABU0503",
+   "responds": [
+    "source:ABU0503"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that by one Spirit we are all baptized into one body, and have all been made to drink into one Spirit."
+  },
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:AB12296",
+   "responds": [
+    "source:AB12296"
+   ],
+   "relation": "adjacent",
+   "why": "Paul does not count himself to have apprehended, and presses toward the mark, forgetting those things which are behind."
+  },
+  {
+   "id": "john-born-not-of-blood",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "John's prologue speaks of those who are born not of blood, nor of the will of the flesh, but of God."
+  },
+  {
+   "id": "quran-winds-as-glad-tidings",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse quoted: winds sent as glad tidings heralding mercy, and purifying water sent down from the sky."
+  },
+  {
+   "id": "quran-water-to-purify-you",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "adjacent",
+   "why": "Elsewhere the Qur'an speaks of water sent down from the sky to purify the believers and make their hearts strong."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:ABU0299",
+   "responds": [
+    "source:ABU0299"
+   ],
+   "relation": "adjacent",
+   "why": "Paul sets the births in the same order: first that which is natural, and afterward that which is spiritual."
+  },
+  {
+   "id": "galatians-put-on-christ",
+   "after": "source:ABU0064",
+   "responds": [
+    "source:ABU0064"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that all who have been baptized into Christ have put on Christ, and that there is neither Jew nor Greek among them."
+  },
+  {
+   "id": "titus-washing-of-regeneration",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to Titus speaks of the washing of regeneration and the renewing of the Holy Ghost, given according to mercy."
+  },
+  {
+   "id": "quran-colour-of-allah",
+   "after": "source:AB09736",
+   "responds": [
+    "source:AB09736"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an speaks of taking one's colour from God, and asks who is better than God at colouring."
+  },
+  {
+   "id": "revelation-water-of-life-freely",
+   "after": "source:AB07458",
+   "responds": [
+    "source:AB07458"
+   ],
+   "relation": "adjacent",
+   "why": "The Bible's closing invitation is to whoever is athirst: let him take the water of life freely."
+  },
+  {
+   "id": "shakespeare-a-little-water-clears-us",
+   "after": "source:AB07458",
+   "responds": [
+    "source:AB07458"
+   ],
+   "relation": "contrast",
+   "why": "Lady Macbeth supposes that a little water clears them of the deed. What separates her confidence in water from the hope that is expressed here?"
+  },
+  {
+   "id": "jeremiah-fountain-of-living-waters",
+   "after": "selection:f18a9850e14d327292351fd2",
+   "responds": [
+    "selection:f18a9850e14d327292351fd2"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah calls the Lord himself the fountain of living waters, which some have forsaken."
+  }
+ ],
+ "library": {
+  "ezekiel-sprinkle-clean-water": {
+   "text": "Then will I sprinkle clean water upon you, and ye shall be clean: from all your filthiness, and from all your idols, will I cleanse you. A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh. And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them",
+   "work": "Ezekiel 36:25–27",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2036%3A25-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-buried-with-him-by-baptism": {
+   "text": "Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life",
+   "work": "Romans 6:3–4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%206%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-fruits-worthy-of-repentance": {
+   "text": "Then said he to the multitude that came forth to be baptized of him, O generation of vipers, who hath warned you to flee from the wrath to come? Bring forth therefore fruits worthy of repentance, and begin not to say within yourselves, We have Abraham to our father: for I say unto you, That God is able of these stones to raise up children unto Abraham",
+   "work": "Luke 3:7–8",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%203%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-not-the-putting-away-of-filth": {
+   "text": "The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ",
+   "work": "1 Peter 3:21",
+   "year": "c. 60–95 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Peter%203%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-create-in-me-a-clean-heart": {
+   "text": "Purge me with hyssop, and I shall be clean: wash me, and I shall be whiter than snow. Make me to hear joy and gladness; that the bones which thou hast broken may rejoice. Hide thy face from my sins, and blot out all mine iniquities. Create in me a clean heart, O God; and renew a right spirit within me",
+   "work": "Psalm 51:7–10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2051%3A7-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-wash-you-make-you-clean": {
+   "text": "Wash you, make you clean; put away the evil of your doings from before mine eyes; cease to do evil; Learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow",
+   "work": "Isaiah 1:16–17",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%201%3A16-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "malachi-refiners-fire": {
+   "text": "But who may abide the day of his coming? and who shall stand when he appeareth? for he is like a refiner's fire, and like fullers' soap: And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the Lord an offering in righteousness",
+   "work": "Malachi 3:2–3",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Malachi%203%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-rivers-of-living-water": {
+   "text": "In the last day, that great day of the feast, Jesus stood and cried, saying, If any man thirst, let him come unto me, and drink. He that believeth on me, as the scripture hath said, out of his belly shall flow rivers of living water. (But this spake he of the Spirit, which they that believe on him should receive: for the Holy Ghost was not yet given; because that Jesus was not yet glorified",
+   "work": "John 7:37–39",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%207%3A37-39&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-by-one-spirit-baptized": {
+   "text": "For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into one Spirit",
+   "work": "1 Corinthians 12:13",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2012%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-cleanse-first-that-which-is-within": {
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess. Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also",
+   "work": "Matthew 23:25–26",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2023%3A25-26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-what-doth-hinder-me": {
+   "text": "And as they went on their way, they came unto a certain water: and the eunuch said, See, here is water; what doth hinder me to be baptized? And Philip said, If thou believest with all thine heart, thou mayest. And he answered and said, I believe that Jesus Christ is the Son of God. And he commanded the chariot to stand still: and they went down both into the water, both Philip and the eunuch; and he baptized him",
+   "work": "Acts 8:36–38",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A36-38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-johns-baptism": {
+   "text": "He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so much as heard whether there be any Holy Ghost. And he said unto them, Unto what then were ye baptized? And they said, Unto John's baptism. Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him, that is, on Christ Jesus. When they heard this, they were baptized in the name of the Lord Jesus. And when Paul had laid his hands upon them, the Holy Ghost came on them; and they spake with tongues, and prophesied",
+   "work": "Acts 19:2–6",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A2-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-wash-in-jordan-seven-times": {
+   "text": "And Elisha sent a messenger unto him, saying, Go and wash in Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean. But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the Lord his God, and strike his hand over the place, and recover the leper. Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage. And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean? Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean",
+   "work": "2 Kings 5:10–14",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Kings%205%3A10-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-put-on-christ": {
+   "text": "For as many of you as have been baptized into Christ have put on Christ. There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus",
+   "work": "Galatians 3:27–28",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%203%3A27-28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-water-to-purify-you": {
+   "text": "When He made the slumber fall upon you as a reassurance from him and sent down water from the sky upon you, that thereby He might purify you, and remove from you the fear of Satan, and make strong your hearts and firm (your) feet thereby.",
+   "work": "Qur’an 8:11",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=8&verse=11",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-a-little-water-clears-us": {
+   "text": "A little water clears us of this deed: / How easy is it, then",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Macbeth",
+   "locator": "Act 2, scene 2",
+   "year": "about 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/macbeth/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "dhammapada-matted-hair": {
+   "text": "What is the use of platted hair, O fool! what of the raiment of goat-skins? Within thee there is ravening, but the outside thou makest clean",
+   "work": "Dhammapada",
+   "locator": "verse 394",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  }
+ }
+}

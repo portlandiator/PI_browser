@@ -1,0 +1,369 @@
+{
+ "format": 2,
+ "slug": "language",
+ "subject": "D52576587DA0EB888F569679044D948D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 23,
+ "kept": [
+  "source:AB02516",
+  "source:BH02404",
+  "source:AB01726",
+  "source:AB06816",
+  "source:ABU1462",
+  "source:ABU3078",
+  "source:BH00387",
+  "source:AB02161",
+  "source:BH00271",
+  "source:BB00036",
+  "source:ABU3202",
+  "source:BH05340",
+  "source:BH01524",
+  "source:BH00911",
+  "source:ABU2778",
+  "source:AB06793",
+  "source:BH00611",
+  "source:AB06211",
+  "selection:94ec2146df2d67d43387a3ce",
+  "selection:aa9016591416702cf3617906",
+  "selection:ba10ac9a61c8b9a719b4931d",
+  "selection:80bd834a73aa2a96221db2c0"
+ ],
+ "introduction": "Words are needed for meaning to appear at all, and no words are equal to what matters most: the guide holds both, and asks its reader to be a person of meaning and not of words. Its twenty-three quotations, which already include Zhuangzi’s fish trap and a line of Eckhart, are read here with twenty-three from elsewhere. Lao Tzu opens his book by saying the Tao that can be named is not the enduring one; Paul speaks of groanings that cannot be uttered and of the letter that kills; John and the Qur’an imagine a world too small, and a sea of ink too little, for what could be written; Moses and the psalmist confess they cannot say it. Hobbes, Montaigne and Tennyson know how words mislead and half conceal. Against the hope of a meaning beyond words stand Wittgenstein, for whom the limits of language are the limits of the world, and Dickinson, for whom a word spoken has only begun to live. Genesis adds the confusion of tongues, which may be a punishment or simply the condition under which all speaking is done.",
+ "questions": [
+  "The guide says meaning depends on words and yet exceeds them. Where in your own experience have words both carried and failed something important?",
+  "Wittgenstein says that what cannot be spoken of must be passed over in silence, and the guide speaks of allusion and metaphor. Is there a third way between saying and silence?",
+  "Zhuangzi forgets the trap once he has the fish, while Wittgenstein doubts there is a world beyond language. Which seems truer to how you understand things?",
+  "Hobbes calls words the money of fools. How can a reader of scripture avoid valuing words by authority alone?",
+  "The guide expects that today's plain speech will need explanation in a thousand years. What follows for how any scripture should be read?"
+ ],
+ "outside": [
+  {
+   "id": "romans-groanings-cannot-be-uttered",
+   "after": "source:AB02516",
+   "responds": [
+    "source:AB02516"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we know not what to pray for, and that the Spirit intercedes with groanings which cannot be uttered."
+  },
+  {
+   "id": "plato-name-is-an-instrument",
+   "after": "source:BH02404",
+   "responds": [
+    "source:BH02404"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates calls a name an instrument of teaching and of distinguishing natures."
+  },
+  {
+   "id": "dickinson-a-word-is-dead",
+   "after": "source:BH02404",
+   "responds": [
+    "source:BH02404"
+   ],
+   "relation": "contrast",
+   "why": "Dickinson answers those who say a word is dead when it is said: she says it just begins to live that day. Is a spoken word the end of a meaning or its beginning?"
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:AB01726",
+   "responds": [
+    "source:AB01726"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of ministers not of the letter but of the spirit, for the letter kills but the spirit gives life."
+  },
+  {
+   "id": "corinthians-so-many-kinds-of-voices",
+   "after": "source:AB06816",
+   "responds": [
+    "source:AB06816"
+   ],
+   "relation": "adjacent",
+   "why": "Paul observes that there are many kinds of voices in the world and none without signification, yet without the meaning each speaker is a barbarian to the other."
+  },
+  {
+   "id": "genesis-confound-their-language",
+   "after": "source:AB06816",
+   "responds": [
+    "source:AB06816"
+   ],
+   "relation": "complement",
+   "why": "In Genesis the people have one language until the Lord confounds it, so that they may not understand one another's speech. Is the variety of tongues a loss to be repaired, or a condition to be worked within?"
+  },
+  {
+   "id": "montaigne-interpret-interpretations",
+   "after": "source:ABU1462",
+   "responds": [
+    "source:ABU1462"
+   ],
+   "relation": "adjacent",
+   "why": "Montaigne found that there is more ado to interpret interpretations than to interpret the things themselves."
+  },
+  {
+   "id": "hobbes-wise-mens-counters",
+   "after": "source:BH00387",
+   "responds": [
+    "source:BH00387"
+   ],
+   "relation": "adjacent",
+   "why": "Hobbes says that words are wise men's counters, with which they do but reckon, and the money of fools."
+  },
+  {
+   "id": "mark-without-a-parable",
+   "after": "source:AB02161",
+   "responds": [
+    "source:AB02161"
+   ],
+   "relation": "adjacent",
+   "why": "Mark says that Jesus spoke the word in parables, as the people were able to hear it, and did not speak to them without one."
+  },
+  {
+   "id": "john-world-could-not-contain-the-books",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel ends by supposing that if all were written, the world itself could not contain the books."
+  },
+  {
+   "id": "quran-sea-were-ink",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that if the sea became ink for the words of the Lord, the sea would be used up before they were exhausted."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu begins by saying that the Tao which can be trodden is not the enduring and unchanging Tao."
+  },
+  {
+   "id": "wittgenstein-whereof",
+   "after": "source:ABU3202",
+   "responds": [
+    "source:ABU3202"
+   ],
+   "relation": "complement",
+   "why": "Wittgenstein ends his book with the sentence: whereof one cannot speak, thereof one must be silent. Is silence the only honest course where allusion fails, or is there speech that points beyond itself?"
+  },
+  {
+   "id": "corinthians-eye-hath-not-seen",
+   "after": "source:BH05340",
+   "responds": [
+    "source:BH05340"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes the saying that eye has not seen nor ear heard, nor has it entered the heart, what God has prepared."
+  },
+  {
+   "id": "job-words-without-knowledge",
+   "after": "source:BH00911",
+   "responds": [
+    "source:BH00911"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord answers Job out of the whirlwind by asking who it is that darkens counsel by words without knowledge."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:ABU2778",
+   "responds": [
+    "source:ABU2778"
+   ],
+   "relation": "adjacent",
+   "why": "Moses pleads that he is not eloquent, but slow of speech and of a slow tongue."
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:BH00611",
+   "responds": [
+    "source:BH00611"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says of such knowledge that it is too wonderful for him, and so high that he cannot attain to it."
+  },
+  {
+   "id": "analects-does-heaven-speak",
+   "after": "source:BH00611",
+   "responds": [
+    "source:BH00611"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius, who would prefer not speaking, asks his pupil whether Heaven speaks, while the four seasons pursue their courses."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "selection:94ec2146df2d67d43387a3ce",
+   "responds": [
+    "selection:94ec2146df2d67d43387a3ce"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu puts it sharply: he who knows the Tao does not care to speak about it, and he who is ever ready to speak about it does not know it."
+  },
+  {
+   "id": "wittgenstein-limits-of-my-language",
+   "after": "selection:94ec2146df2d67d43387a3ce",
+   "responds": [
+    "selection:94ec2146df2d67d43387a3ce"
+   ],
+   "relation": "contrast",
+   "why": "Wittgenstein wrote that the limits of my language mean the limits of my world. Can a meaning be kept once its words are forgotten, as the fish trap is forgotten for the fish?"
+  },
+  {
+   "id": "ecclesiastes-words-be-few",
+   "after": "selection:aa9016591416702cf3617906",
+   "responds": [
+    "selection:aa9016591416702cf3617906"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher draws the practical conclusion: God is in heaven and thou upon earth, therefore let thy words be few."
+  },
+  {
+   "id": "tennyson-words-half-reveal",
+   "after": "selection:aa9016591416702cf3617906",
+   "responds": [
+    "selection:aa9016591416702cf3617906"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson says of his own grief that words, like Nature, half reveal and half conceal the soul within."
+  },
+  {
+   "id": "corinthians-milk-not-meat",
+   "after": "selection:80bd834a73aa2a96221db2c0",
+   "responds": [
+    "selection:80bd834a73aa2a96221db2c0"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he fed his hearers with milk and not with meat, because they were not yet able to bear it."
+  }
+ ],
+ "library": {
+  "john-world-could-not-contain-the-books": {
+   "text": "And there are also many other things which Jesus did, the which, if they should be written",
+   "work": "John 21:25",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2021%3A25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-confound-their-language": {
+   "text": "And the Lord said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do. Go to, let us go down, and there confound their language, that they may not understand one another's speech. So the Lord scattered them abroad from thence upon the face of all the earth",
+   "work": "Genesis 11:6–9",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2011%3A6-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-so-many-kinds-of-voices": {
+   "text": "There are, it may be, so many kinds of voices in the world, and none of them is without signification. Therefore if I know not the meaning of the voice, I shall be unto him that speaketh a barbarian, and he that speaketh shall be a barbarian unto me",
+   "work": "1 Corinthians 14:10–11",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2014%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-words-without-knowledge": {
+   "text": "Then the Lord answered Job out of the whirlwind, and said, Who is this that darkeneth counsel by words without knowledge",
+   "work": "Job 38:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2038%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hobbes-wise-mens-counters": {
+   "text": "For words are wise mens counters, they do but reckon by them: but they are the mony of fooles",
+   "author": "Thomas Hobbes",
+   "work": "Leviathan",
+   "locator": "chapter 4",
+   "year": "1651",
+   "sortYear": 1651,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leviathan_(1651)/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1679."
+   }
+  }
+ }
+}

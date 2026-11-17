@@ -1,0 +1,444 @@
+{
+ "format": 2,
+ "slug": "purposecreation",
+ "subject": "3B0B2077A5A44699B8F756D6A1F5CC7D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 34,
+ "quotations": 43,
+ "kept": [
+  "source:AB00722",
+  "source:AB00077",
+  "source:ABU0101",
+  "source:ABU0902",
+  "source:ABU0119",
+  "source:AB00354",
+  "source:ABU2415",
+  "source:BH00005",
+  "source:ABU0491",
+  "source:ABU0060",
+  "source:ABU0766",
+  "source:ABU0626",
+  "source:ABU0054",
+  "source:ABU0170",
+  "source:ABU0226",
+  "source:AB00278",
+  "source:AB00440",
+  "source:AB00020",
+  "source:ABU0100",
+  "source:ABU0024",
+  "source:ABU1067",
+  "source:AB00373",
+  "source:ABU0146",
+  "source:AB00167",
+  "source:ABU0112",
+  "source:AB00036",
+  "source:AB00057",
+  "source:BH00245",
+  "source:AB00093",
+  "source:ABU1155",
+  "selection:cb5309291a0164aca0553a34",
+  "selection:08d181a0a66dd203289092d6",
+  "selection:3d07a00649f04c846453e498",
+  "selection:83dcb1538e900cf5402e2395"
+ ],
+ "introduction": "These readings hold that nothing is created without a destiny: the earth brought forth mineral, plant, animal and human being by degrees, as an embryo grows or a seed becomes a tree; each kingdom passes into the next; and the human being, in whom the perfections of existence are gathered, is the fruit for which the tree exists and was potentially human from the start. Each of the forty-three quotations is read here beside one from elsewhere. Most stand alongside: Genesis and the Qur'an on creation by stages, Aristotle on final causes, Paul, Rumi's ascent from mineral to man, Dante, Tennyson, Emerson and Whitman. Nine push back or add a side: the Preacher, Khayyam and Hardy see time and chance, Darwin finds law and grandeur without naming an aim, Nietzsche names another goal, and God's speech to Job questions man's place at the centre.",
+ "questions": [
+  "The readings compare the earth's history to an embryo and a seed, in which the end is present from the beginning. What does that comparison explain, and what does it assume?",
+  "Darwin writes of forms 'produced by laws acting around us', and finds grandeur in it. One reading says the universe is created by a great law which decrees that the tree bring forth fruit. Are the two using 'law' in the same sense?",
+  "Khayyam and Hardy describe a life that feels like chance. What would the readings say to them, and what could not be said?",
+  "The readings say that without man the universe would be without result. How does God's question to Job, 'where wast thou', bear on that?",
+  "If every creature has an innate station of attainment that must be cultivated, what in you is still seed, and what would cultivating it take?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-let-the-earth-bring-forth",
+   "after": "source:AB00722",
+   "responds": [
+    "source:AB00722"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis tells of the earth bringing forth living creatures after their kind, on one of a series of days."
+  },
+  {
+   "id": "aristotle-little-by-little",
+   "after": "source:AB00722",
+   "responds": [
+    "source:AB00722"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle observed that nature proceeds little by little from things lifeless to animal life, with no exact line between."
+  },
+  {
+   "id": "quran-from-a-clot",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an describes the stages of the embryo: a drop, a clot, a little lump, bones clothed with flesh, and then another creation."
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the kingdom to seed that grows the sower knows not how: first the blade, then the ear, after that the full corn."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "psalm-manifold-are-thy-works",
+   "after": "source:ABU0902",
+   "responds": [
+    "source:ABU0902"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist exclaims how manifold are God's works, all of them made in wisdom."
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU0902",
+   "responds": [
+    "source:ABU0902"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher saw that the race is not to the swift nor the battle to the strong, but time and chance happeneth to them all. How does a destiny for every creature look from where he stands?"
+  },
+  {
+   "id": "tennyson-far-off-divine-event",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson ends his long poem of grief with one far-off divine event, to which the whole creation moves."
+  },
+  {
+   "id": "song-winter-is-past",
+   "after": "source:AB00354",
+   "responds": [
+    "source:AB00354"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Solomon sings that the winter is past and the flowers appear on the earth."
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:ABU2415",
+   "responds": [
+    "source:ABU2415"
+   ],
+   "relation": "contrast",
+   "why": "Hardy answers the question why joy lies slain with Crass Casualty and dicing Time, which had as readily strown blisses as pain. What can be said to someone whose experience reads like chance?"
+  },
+  {
+   "id": "quran-created-for-naught",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks: deemed ye then that We had created you for naught, and that ye would not be returned unto Us?"
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that the final cause produces motion as being loved, while all other things move by being moved."
+  },
+  {
+   "id": "quran-honey-healing",
+   "after": "source:ABU0060",
+   "responds": [
+    "source:ABU0060"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of the bee that there cometh forth a drink of divers hues, wherein is healing for mankind."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius begins his account of nature from the principle that nothing from nothing ever yet was born."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0626",
+   "responds": [
+    "source:ABU0626"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi tells the same ascent in the first person: I died as inanimate matter and arose a plant, died as a plant and rose an animal."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:ABU0626",
+   "responds": [
+    "source:ABU0626"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that that was not first which is spiritual, but that which is natural, and afterward that which is spiritual."
+  },
+  {
+   "id": "khayyam-willy-nilly",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "contrast",
+   "why": "Khayyam, in FitzGerald's version, came into this universe not knowing why nor whence, like water willy-nilly flowing. What would he need to see before he could say that his coming had an aim?"
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth says that the soul that rises with us hath had elsewhere its setting, and cometh from afar."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "complement",
+   "why": "Darwin found grandeur in the view that from so simple a beginning endless forms most beautiful have been, and are being, evolved. Does his sentence need an aim beyond the forms themselves?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is made a little lower than the angels, and crowned with glory and honour."
+  },
+  {
+   "id": "emerson-worm-mounts",
+   "after": "source:ABU0170",
+   "responds": [
+    "source:ABU0170"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson pictures the worm, striving to be man, mounting through all the spires of form."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "source:ABU0170",
+   "responds": [
+    "source:ABU0170"
+   ],
+   "relation": "complement",
+   "why": "Darwin contemplates an entangled bank and reflects that its elaborately constructed forms have all been produced by laws acting around us. What is the difference between saying 'laws' and saying 'purpose'?"
+  },
+  {
+   "id": "chandogya-nyagrodha-seed",
+   "after": "source:ABU0226",
+   "responds": [
+    "source:ABU0226"
+   ],
+   "relation": "adjacent",
+   "why": "In the Upanishad a father shows his son that the great tree exists from an essence in the seed that he cannot perceive."
+  },
+  {
+   "id": "quran-best-stature",
+   "after": "source:AB00278",
+   "responds": [
+    "source:AB00278"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says in a single verse of one of its short chapters: surely We created man of the best stature."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God say: let us make man in our image, after our likeness."
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "contrast",
+   "why": "God asks Job out of the whirlwind: where wast thou when I laid the foundations of the earth? Does that speech leave room for saying that without man the universe would be without result?"
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Pope surveys a vast chain of being which from God began, through natures ethereal, human, beast, bird, fish and insect."
+  },
+  {
+   "id": "nietzsche-rope-over-an-abyss",
+   "after": "source:ABU0100",
+   "responds": [
+    "source:ABU0100"
+   ],
+   "relation": "contrast",
+   "why": "Nietzsche too says that man is on the way to something: a rope stretched between the animal and the Superman. What separates his goal from advancement toward spiritual kingdoms?"
+  },
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus says that you cannot step twice into the same rivers, for fresh waters are ever flowing in."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU1067",
+   "responds": [
+    "source:ABU1067"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends his poem with the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "whitman-nebula-cohered",
+   "after": "source:AB00373",
+   "responds": [
+    "source:AB00373"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman says that for him the nebula cohered to an orb and the long slow strata piled."
+  },
+  {
+   "id": "browning-opening-out-a-way",
+   "after": "source:ABU0146",
+   "responds": [
+    "source:ABU0146"
+   ],
+   "relation": "adjacent",
+   "why": "Browning speaks of opening out a way whence the imprisoned splendour may escape."
+  },
+  {
+   "id": "nietzsche-from-the-worm-to-man",
+   "after": "source:AB00167",
+   "responds": [
+    "source:AB00167"
+   ],
+   "relation": "contrast",
+   "why": "Nietzsche's Zarathustra says: ye have made your way from the worm to man, and much within you is still worm. What is at stake between that and a man who was man from the moment of his appearance?"
+  },
+  {
+   "id": "whitman-mount-and-mount",
+   "after": "source:ABU0112",
+   "responds": [
+    "source:ABU0112"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman stands on stairs of ages, all below duly travelled, and still mounts and mounts."
+  },
+  {
+   "id": "tennyson-working-out-the-beast",
+   "after": "source:AB00036",
+   "responds": [
+    "source:AB00036"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson bids us move upward, working out the beast, and let the ape and tiger die."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine prays: you have made us for yourself, and our hearts are restless until they rest in you."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "source:BH00245",
+   "responds": [
+    "source:BH00245"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the invisible things of God are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "romans-all-things-work-together",
+   "after": "source:AB00093",
+   "responds": [
+    "source:AB00093"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that all things work together for good to them that love God."
+  },
+  {
+   "id": "luke-fig-tree-three-years",
+   "after": "source:ABU1155",
+   "responds": [
+    "source:ABU1155"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the owner of a vineyard comes three years seeking fruit on a fig tree, and finds none."
+  },
+  {
+   "id": "matthew-tree-is-known-by-his-fruit",
+   "after": "source:ABU1155",
+   "responds": [
+    "source:ABU1155"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a tree is to be made good and its fruit good, for the tree is known by his fruit."
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "selection:cb5309291a0164aca0553a34",
+   "responds": [
+    "selection:cb5309291a0164aca0553a34"
+   ],
+   "relation": "contrast",
+   "why": "Darwin concludes that man, with all his exalted powers, still bears in his bodily frame the stamp of his lowly origin. Can both be held: a lowly origin of the frame, and a being that was always potentially man?"
+  },
+  {
+   "id": "corinthians-not-quickened-except-it-die",
+   "after": "selection:08d181a0a66dd203289092d6",
+   "responds": [
+    "selection:08d181a0a66dd203289092d6"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that what is sown is bare grain, and that God giveth to every seed his own body."
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "selection:83dcb1538e900cf5402e2395",
+   "responds": [
+    "selection:83dcb1538e900cf5402e2395"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: before the mountains were brought forth, even from everlasting to everlasting, thou art God."
+  }
+ ],
+ "library": {}
+}

@@ -1,0 +1,583 @@
+{
+ "format": 2,
+ "slug": "religionmorality",
+ "subject": "4F32835BDB1F4C02956E92DB1AE38C5F",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 35,
+ "quotations": 49,
+ "kept": [
+  "source:BH00053",
+  "source:ABU3608",
+  "source:BH00111",
+  "source:ABU0225",
+  "source:ABU1084",
+  "source:ABU0062",
+  "source:AB00442",
+  "source:AB00004",
+  "source:AB02574",
+  "source:AB04352",
+  "source:ABU2312",
+  "source:ABU0006",
+  "source:ABU0275",
+  "source:ABU0174",
+  "source:ABU0109",
+  "source:ABU0039",
+  "source:ABU3035",
+  "source:ABU0625",
+  "source:ABU1270",
+  "source:ABU2583",
+  "source:ABU2139",
+  "source:ABU3079",
+  "source:BH00542",
+  "source:ABU0253",
+  "source:BH00001",
+  "source:BH03974",
+  "source:BH00005",
+  "source:AB00130",
+  "source:AB00016",
+  "source:BH00662",
+  "source:BH02484",
+  "source:ABU1670",
+  "selection:d02add173da410b396d53cc3",
+  "selection:87db9c503e142f8dcac211a0",
+  "selection:5ab430ef20acac81336f326b"
+ ],
+ "introduction": "These readings hold that religion exists to unite people and refine character, that the moral world depends on it, that order rests on reward and punishment and the fear of God, and that when religion declines chaos follows; they add that this means the essential basis of religion and not present-day imitations of it. Each of the forty-nine quotations is read here beside one from elsewhere. Most stand alongside: Micah, James, Hillel, the Dhammapada and the Qur'an on what religion requires, Proverbs, Augustine, Washington, Arnold and Yeats on what follows its loss. Eleven push back or add a side, because the claim is a contested one: Lucretius and Blake on the harm done in religion's name, Mencius, Kant and Plato's Socrates on a goodness that needs no reward, Confucius on punishment, Jefferson and Madison on freedom, and the Samaritan and Abou ben Adhem on goodness outside the fold.",
+ "questions": [
+  "The readings say that the purpose of religion is unity and that it must not be made a cause of strife. Lucretius and Swift describe what religion has often been. By what test do the readings tell the one from the other?",
+  "Paul allows that people without the law may have it written in their hearts, and the parable gives mercy to a Samaritan. How do the readings account for goodness without religion?",
+  "One reading says that man hopes for reward and fears retribution, and so strives for good morals. Socrates and Kant ask whether that is yet goodness. What do you think?",
+  "Washington doubted that national morality can prevail without religious principle; Jefferson held that his neighbour's belief does him no injury. What does each see that the other misses?",
+  "The readings distinguish the essential basis of religion from present imitations of it. What would have to be true of a religion for it to do what these readings claim?"
+ ],
+ "outside": [
+  {
+   "id": "swift-religion-enough",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "Swift observed that we have just enough religion to make us hate, but not enough to make us love one another."
+  },
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:ABU3608",
+   "responds": [
+    "source:ABU3608"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that every one that loveth is born of God, and he that loveth not knoweth not God."
+  },
+  {
+   "id": "matthew-two-commandments",
+   "after": "source:ABU3608",
+   "responds": [
+    "source:ABU3608"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus joins the two: love the Lord thy God with all thy heart, and thy neighbour as thyself."
+  },
+  {
+   "id": "quran-staunch-in-justice",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells believers to be staunch in justice, witnesses for God, even though it be against themselves or their kindred."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:ABU0225",
+   "responds": [
+    "source:ABU0225"
+   ],
+   "relation": "adjacent",
+   "why": "James defines pure religion as visiting the fatherless and widows in their affliction, and keeping oneself unspotted from the world."
+  },
+  {
+   "id": "lucretius-foul-impieties",
+   "after": "source:ABU0225",
+   "responds": [
+    "source:ABU0225"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius answers the charge of impiety by saying that religion itself has oftener bred the foul impieties of men. What in the history of religion gives his line its force, and how do the readings account for it?"
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:ABU1084",
+   "responds": [
+    "source:ABU1084"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit: love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance."
+  },
+  {
+   "id": "acts-why-persecutest-thou-me",
+   "after": "source:ABU0062",
+   "responds": [
+    "source:ABU0062"
+   ],
+   "relation": "adjacent",
+   "why": "Acts tells of Saul, on his way to Damascus, stopped by a light from heaven and a voice."
+  },
+  {
+   "id": "ezekiel-shepherd",
+   "after": "source:AB00442",
+   "responds": [
+    "source:AB00442"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel has God say what a shepherd does: seek that which was lost, bind up that which was broken, strengthen that which was sick."
+  },
+  {
+   "id": "colossians-put-on-kindness",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Colossians to put on mercies, kindness, humbleness of mind, meekness and longsuffering, forbearing and forgiving one another."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Micah asks what the Lord requires but to do justly, and to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "quran-righteousness-is-not",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that righteousness is not turning the face to the East or the West, but belief and the giving of wealth to those in need."
+  },
+  {
+   "id": "dhammapada-teaching-of-the-buddhas",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada sums up the teaching of all the Awakened: not to commit any sin, to do good, and to purify one's mind."
+  },
+  {
+   "id": "talmud-hillel-on-one-foot",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Hillel summed up the Torah: that which is hateful to you do not do to another; the rest is its interpretation."
+  },
+  {
+   "id": "romans-love-fulfilling-of-the-law",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he that loveth another hath fulfilled the law, and that the commandments are summed up in love."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives the test: ye shall know them by their fruits, for a good tree bringeth forth good fruit."
+  },
+  {
+   "id": "proverbs-righteousness-exalteth-a-nation",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that righteousness exalteth a nation, but sin is a reproach to any people."
+  },
+  {
+   "id": "romans-a-law-unto-themselves",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "complement",
+   "why": "Paul grants that those who have not the law may do by nature the things it contains, having it written in their hearts. Where does the goodness of people without a religion come from, on the readings' account?"
+  },
+  {
+   "id": "hunt-abou-ben-adhem",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "complement",
+   "why": "Leigh Hunt's Abou, not found among those who love the Lord, asks to be written as one that loves his fellow men. Is love of one's fellow men already the religion these readings describe?"
+  },
+  {
+   "id": "kant-like-a-jewel",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "contrast",
+   "why": "Kant held that a good will, though it should achieve nothing, would still shine like a jewel by its own light, having its whole value in itself. Does goodness need the benefits the reading lists in order to be worth having?"
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:AB04352",
+   "responds": [
+    "source:AB04352"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees nations beating their swords into plowshares and learning war no more."
+  },
+  {
+   "id": "coleridge-prayeth-best",
+   "after": "source:ABU2312",
+   "responds": [
+    "source:ABU2312"
+   ],
+   "relation": "adjacent",
+   "why": "Coleridge's mariner learns that he prayeth best who loveth best all things both great and small."
+  },
+  {
+   "id": "john-one-fold",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of other sheep not of this fold, and of one fold and one shepherd."
+  },
+  {
+   "id": "leviticus-love-thy-neighbour",
+   "after": "source:ABU0275",
+   "responds": [
+    "source:ABU0275"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus commands: thou shalt not bear any grudge, but thou shalt love thy neighbour as thyself."
+  },
+  {
+   "id": "washington-religion-and-morality",
+   "after": "source:ABU0039",
+   "responds": [
+    "source:ABU0039"
+   ],
+   "relation": "adjacent",
+   "why": "Washington told his countrymen in 1796 that of all the dispositions which lead to political prosperity, religion and morality are indispensable supports."
+  },
+  {
+   "id": "matthew-seek-ye-first",
+   "after": "source:ABU3035",
+   "responds": [
+    "source:ABU3035"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: seek ye first the kingdom of God and his righteousness, and all these things shall be added unto you."
+  },
+  {
+   "id": "augustine-great-robberies",
+   "after": "source:ABU0625",
+   "responds": [
+    "source:ABU0625"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine asked what kingdoms are, justice being taken away, but great robberies."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:ABU0625",
+   "responds": [
+    "source:ABU0625"
+   ],
+   "relation": "contrast",
+   "why": "Mencius taught that the tendency of man's nature to good is like the tendency of water to flow downwards. If he is right, what does a civilization need religion for?"
+  },
+  {
+   "id": "washington-morality-without-religion",
+   "after": "source:ABU1270",
+   "responds": [
+    "source:ABU1270"
+   ],
+   "relation": "adjacent",
+   "why": "Washington asked his countrymen to indulge with caution the supposition that morality can be maintained without religion."
+  },
+  {
+   "id": "plato-holy-because-beloved",
+   "after": "source:ABU1270",
+   "responds": [
+    "source:ABU1270"
+   ],
+   "relation": "contrast",
+   "why": "Socrates asks whether the holy is beloved by the gods because it is holy, or holy because it is beloved of the gods. If people are good for the sake of reward and from fear of retribution, is it goodness they love?"
+  },
+  {
+   "id": "deuteronomy-teach-your-children",
+   "after": "source:ABU2583",
+   "responds": [
+    "source:ABU2583"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy tells parents to lay up these words in their heart and to teach them to their children."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:ABU2583",
+   "responds": [
+    "source:ABU2583"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go, and when he is old, he will not depart from it."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:ABU2139",
+   "responds": [
+    "source:ABU2139"
+   ],
+   "relation": "complement",
+   "why": "In the parable the priest and the Levite pass by, and the one who shows mercy is a Samaritan. What does the story do to the claim that compassion is attained only through faith?"
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:ABU3079",
+   "responds": [
+    "source:ABU3079"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the fear of the Lord is the beginning of wisdom."
+  },
+  {
+   "id": "hobbes-no-law-no-injustice",
+   "after": "source:BH00542",
+   "responds": [
+    "source:BH00542"
+   ],
+   "relation": "adjacent",
+   "why": "Hobbes argued that where there is no common power there is no law, and where no law, no injustice."
+  },
+  {
+   "id": "analects-led-by-laws",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "contrast",
+   "why": "Confucius said that people led by laws and punishments will try to avoid the punishment but have no sense of shame, while those led by virtue will become good. How much weight can reward and punishment bear?"
+  },
+  {
+   "id": "judges-right-in-his-own-eyes",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The book of Judges describes a time when every man did that which was right in his own eyes."
+  },
+  {
+   "id": "proverbs-where-there-is-no-vision",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that where there is no vision, the people perish, but he that keepeth the law is happy."
+  },
+  {
+   "id": "ecclesiastes-whole-duty-of-man",
+   "after": "source:BH03974",
+   "responds": [
+    "source:BH03974"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher concludes: fear God, and keep his commandments, for this is the whole duty of man."
+  },
+  {
+   "id": "arnold-sea-of-faith",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Arnold heard the sea of faith, once at the full, in a melancholy, long, withdrawing roar."
+  },
+  {
+   "id": "yeats-centre",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Yeats wrote in 1919 that things fall apart, the centre cannot hold, and mere anarchy is loosed upon the world."
+  },
+  {
+   "id": "jefferson-twenty-gods-or-no-god",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "contrast",
+   "why": "Jefferson wrote that it does him no injury for his neighbour to say there are twenty gods, or no God. Is a neighbour's unbelief a private matter, or does the decline of religion injure everyone?"
+  },
+  {
+   "id": "psalm-except-the-lord",
+   "after": "source:AB00130",
+   "responds": [
+    "source:AB00130"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that except the Lord build the house, they labour in vain that build it."
+  },
+  {
+   "id": "amos-let-judgment-run-down",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Amos has God say: I hate, I despise your feast days, and asks for judgment and righteousness instead."
+  },
+  {
+   "id": "isaiah-draw-near-with-their-mouth",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah speaks of a people whose fear of God is taught by the precept of men."
+  },
+  {
+   "id": "madison-multiplicity-of-sects",
+   "after": "source:BH00662",
+   "responds": [
+    "source:BH00662"
+   ],
+   "relation": "contrast",
+   "why": "Madison found the security for religious rights in a free government in the multiplicity of sects. What would he fear in one common Faith, and what does the reading say to that fear?"
+  },
+  {
+   "id": "timothy-form-of-godliness",
+   "after": "selection:d02add173da410b396d53cc3",
+   "responds": [
+    "selection:d02add173da410b396d53cc3"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's letter warns of those having a form of godliness, but denying the power thereof."
+  },
+  {
+   "id": "luke-not-against-us-is-for-us",
+   "after": "selection:87db9c503e142f8dcac211a0",
+   "responds": [
+    "selection:87db9c503e142f8dcac211a0"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells John not to forbid one who followeth not with them: he that is not against us is for us."
+  },
+  {
+   "id": "blake-garden-of-love",
+   "after": "selection:5ab430ef20acac81336f326b",
+   "responds": [
+    "selection:5ab430ef20acac81336f326b"
+   ],
+   "relation": "contrast",
+   "why": "Blake went to the Garden of Love and found a chapel with 'Thou shalt not' writ over the door, and graves where flowers should be. What happens to motivation when religion is not faithful to its founders?"
+  }
+ ],
+ "library": {
+  "washington-religion-and-morality": {
+   "text": "Of all the dispositions and habits, which lead to political prosperity, Religion and Morality are indispensable supports. In vain would that man claim the tribute of Patriotism, who should labor to subvert these great pillars of human happiness, these firmest props of the duties of Men and Citizens",
+   "author": "George Washington",
+   "work": "Farewell Address",
+   "year": "1796",
+   "sortYear": 1796,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/George_Washington%27s_Farewell_Address",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Address of a President of the United States."
+   }
+  },
+  "plato-holy-because-beloved": {
+   "text": "The point which I should first wish to understand is whether the pious or holy is beloved by the gods because it is holy, or holy because it is beloved of the gods",
+   "author": "Plato",
+   "work": "Euthyphro",
+   "locator": "10a",
+   "year": "c. 399–390 BCE",
+   "sortYear": -395,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/euthyfro.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "lucretius-foul-impieties": {
+   "text": "I fear perhaps thou deemest that we fare / An impious road to realms of thought profane; / But 'tis that same religion oftener far / Hath bred the foul impieties of men",
+   "verse": true,
+   "author": "Lucretius",
+   "work": "On the Nature of Things",
+   "locator": "Book I",
+   "year": "1st century BCE",
+   "sortYear": -55,
+   "translator": "William Ellery Leonard",
+   "translationYear": "1916",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Carus/nature_things.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1944."
+   }
+  },
+  "washington-morality-without-religion": {
+   "text": "And let us with caution indulge the supposition, that morality can be maintained without religion. Whatever may be conceded to the influence of refined education on minds of peculiar structure, reason and experience both forbid us to expect, that national morality can prevail in exclusion of religious principle",
+   "author": "George Washington",
+   "work": "Farewell Address",
+   "year": "1796",
+   "sortYear": 1796,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/George_Washington%27s_Farewell_Address",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Address of a President of the United States."
+   }
+  }
+ }
+}

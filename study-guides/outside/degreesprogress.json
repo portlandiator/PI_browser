@@ -1,0 +1,497 @@
+{
+ "format": 2,
+ "slug": "degreesprogress",
+ "subject": "9155EB028D2B4FB3BD41D535FAA264A2",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 37,
+ "quotations": 43,
+ "kept": [
+  "source:AB00420",
+  "source:AB01263",
+  "source:ABU2042",
+  "source:AB00399",
+  "source:AB01145",
+  "source:AB06283",
+  "source:AB01205",
+  "source:ABU2566",
+  "source:AB04427",
+  "source:AB03068",
+  "source:ABU1516",
+  "source:ABU0222",
+  "source:ABU0819",
+  "source:ABU0101",
+  "source:ABU2900",
+  "source:AB01359",
+  "source:AB00441",
+  "source:ABU3387",
+  "source:AB00006",
+  "source:AB00135",
+  "source:AB01624",
+  "source:AB00476",
+  "source:ABU0441",
+  "source:AB00273",
+  "source:ABU0326",
+  "source:ABU0584",
+  "source:ABU0078",
+  "source:BH05340",
+  "source:AB00036",
+  "source:ABU2537",
+  "source:AB01223",
+  "source:ABU2256",
+  "source:AB00722",
+  "source:AB02206",
+  "source:BH00245",
+  "source:BB00001",
+  "selection:48ad50606e75d4453ea2b6ce"
+ ],
+ "introduction": "Everything can advance without end, says this guide, but only within its own degree: the mineral does not become a plant by growing, nor the human spirit something other than human, however far it rises. Difference of degree is treated as the condition of harmony, and passing from one kingdom to another as the gift of being taken up into a higher life. Its forty-three quotations are read here with forty-three from elsewhere. Paul’s stars that differ in glory, his potter and his body with many members, the psalm that sets man a little lower than the angels, Pope’s chain of being, Milton’s degrees of substance and Shakespeare’s speech on degree belong to the same picture of an ordered creation, and Paul pressing toward the mark belongs to its endless progress. The questions come from those who cross the lines: Rumi dying as mineral to rise as plant and animal and man, Darwin finding only differences of degree between kinds, Nietzsche’s worm that became man, Plato and the Gita on souls that return, Plato’s citizens of gold and brass, and the command to be perfect as the Father is perfect.",
+ "questions": [
+  "The guide says a being progresses endlessly within its own degree and never passes out of it. What does that leave open for a human life, and what does it close?",
+  "Rumi describes rising from mineral to plant to animal to man. How does the guide's account of the lower being taken up into the higher differ from a soul travelling upward through the kingdoms?",
+  "Darwin finds a difference of degree and not of kind between human and animal minds. Is his claim about the same thing as the guide's?",
+  "Plato's myth of metals gives degrees a political use. What prevents a teaching about degrees in creation from being turned into a defence of privilege?",
+  "Jesus says to be perfect, and the guide says absolute perfection is unattainable. What kind of striving follows from holding both?",
+  "The guide calls differences of degree the perfection of harmony. Where have you seen difference make a whole, and where only inequality?"
+ ],
+ "outside": [
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "Paul does not count himself to have apprehended, and presses toward the mark, reaching forth to what is before."
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of being changed into the same image from glory to glory."
+  },
+  {
+   "id": "proverbs-shining-light",
+   "after": "source:AB01263",
+   "responds": [
+    "source:AB01263"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the path of the just is as the shining light, that shineth more and more unto the perfect day."
+  },
+  {
+   "id": "matthew-be-ye-perfect",
+   "after": "source:ABU2042",
+   "responds": [
+    "source:ABU2042"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says: be ye therefore perfect, even as your Father which is in heaven is perfect. How is that command to be heard if absolute perfection is impossible for a human being?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:AB00399",
+   "responds": [
+    "source:AB00399"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm places man a little lower than the angels, crowned with glory and honour, and no higher."
+  },
+  {
+   "id": "pope-isthmus",
+   "after": "source:AB01145",
+   "responds": [
+    "source:AB01145"
+   ],
+   "relation": "adjacent",
+   "why": "Pope places man on an isthmus of a middle state, created half to rise and half to fall."
+  },
+  {
+   "id": "corinthians-all-flesh-not-the-same",
+   "after": "source:AB06283",
+   "responds": [
+    "source:AB06283"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that all flesh is not the same flesh, and that the glory of the celestial is one and of the terrestrial another."
+  },
+  {
+   "id": "shakespeare-untune-that-string",
+   "after": "source:AB06283",
+   "responds": [
+    "source:AB06283"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Ulysses says that if degree is taken away, each thing meets in mere oppugnancy."
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:AB01205",
+   "responds": [
+    "source:AB01205"
+   ],
+   "relation": "adjacent",
+   "why": "Pope pictures a vast chain of being from God through angel, man, beast, bird, fish and insect."
+  },
+  {
+   "id": "aristotle-little-by-little",
+   "after": "source:ABU2566",
+   "responds": [
+    "source:ABU2566"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle observes that nature proceeds little by little from lifeless things to animal life."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU2566",
+   "responds": [
+    "source:ABU2566"
+   ],
+   "relation": "contrast",
+   "why": "Darwin held that the difference in mind between man and the higher animals, great as it is, is one of degree and not of kind. Can the guide's fixed degrees be held together with his finding?"
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:AB04427",
+   "responds": [
+    "source:AB04427"
+   ],
+   "relation": "complement",
+   "why": "Rumi says: I died as inanimate matter and arose a plant, I died as a plant and rose an animal, I died as an animal and arose a man. Is he describing the passage the guide denies, or the one it affirms?"
+  },
+  {
+   "id": "milton-up-to-him-return",
+   "after": "source:AB03068",
+   "responds": [
+    "source:AB03068"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel says that all things are created in various degrees of substance and of life, more refined as nearer to God."
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:ABU1516",
+   "responds": [
+    "source:ABU1516"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable each servant receives according to his ability, and each is asked only for increase of what he was given."
+  },
+  {
+   "id": "nietzsche-from-the-worm-to-man",
+   "after": "source:ABU1516",
+   "responds": [
+    "source:ABU1516"
+   ],
+   "relation": "contrast",
+   "why": "Nietzsche's Zarathustra says: ye have made your way from the worm to man, and much within you is still worm. What is at stake in saying that a kind can, or cannot, pass beyond itself?"
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:ABU0222",
+   "responds": [
+    "source:ABU0222"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the natural man receiveth not the things of the Spirit, because they are spiritually discerned."
+  },
+  {
+   "id": "john-earthly-things-heavenly-things",
+   "after": "source:ABU0819",
+   "responds": [
+    "source:ABU0819"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks how his hearers will believe heavenly things if they do not believe when told earthly things."
+  },
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: when I was a child I thought as a child, but when I became a man I put away childish things."
+  },
+  {
+   "id": "corinthians-star-differeth-from-star",
+   "after": "source:ABU2900",
+   "responds": [
+    "source:ABU2900"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that there is one glory of the sun and another of the moon, and that one star differs from another star in glory."
+  },
+  {
+   "id": "romans-one-vessel-unto-honour",
+   "after": "source:AB01359",
+   "responds": [
+    "source:AB01359"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks whether the thing formed shall say to him that formed it, why hast thou made me thus?"
+  },
+  {
+   "id": "isaiah-shall-the-work-say",
+   "after": "source:AB00441",
+   "responds": [
+    "source:AB00441"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks whether the work shall say of him that made it, he made me not."
+  },
+  {
+   "id": "plato-gold-silver-brass",
+   "after": "source:AB00441",
+   "responds": [
+    "source:AB00441"
+   ],
+   "relation": "contrast",
+   "why": "Plato's tale tells citizens that God has framed them differently, some with the power of command. What separates a doctrine of degrees in creation from a justification of rank among people?"
+  },
+  {
+   "id": "emerson-each-and-all",
+   "after": "source:ABU3387",
+   "responds": [
+    "source:ABU3387"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that all are needed by each one, and nothing is fair or good alone."
+  },
+  {
+   "id": "corinthians-one-body-many-members",
+   "after": "source:ABU3387",
+   "responds": [
+    "source:ABU3387"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the body is one and has many members, and all the members are one body."
+  },
+  {
+   "id": "dante-glory-of-him",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Dante sees one glory penetrate the universe and shine in one part more and in another less."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:AB00135",
+   "responds": [
+    "source:AB00135"
+   ],
+   "relation": "adjacent",
+   "why": "James says that every good gift and every perfect gift is from above."
+  },
+  {
+   "id": "luke-unto-whom-much-is-given",
+   "after": "source:AB00135",
+   "responds": [
+    "source:AB00135"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that unto whomsoever much is given, of him shall be much required."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:AB01624",
+   "responds": [
+    "source:AB01624"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a corn of wheat which falls into the ground and dies brings forth much fruit."
+  },
+  {
+   "id": "whitman-under-your-boot-soles",
+   "after": "source:AB00476",
+   "responds": [
+    "source:AB00476"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman bequeaths himself to the dirt to grow from the grass he loves."
+  },
+  {
+   "id": "shakespeare-imperious-caesar",
+   "after": "source:ABU0441",
+   "responds": [
+    "source:ABU0441"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet traces imperious Caesar, dead and turned to clay, to a patch in a wall."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:AB00273",
+   "responds": [
+    "source:AB00273"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says of the body: dust thou art, and unto dust shalt thou return."
+  },
+  {
+   "id": "emerson-worm-mounts",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "complement",
+   "why": "Emerson writes of a subtle chain of countless rings, in which the next is brought to the farthest. Does his image of ascent need the 'divine bounty' on which the guide makes transformation depend?"
+  },
+  {
+   "id": "john-many-mansions",
+   "after": "source:ABU0584",
+   "responds": [
+    "source:ABU0584"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that in his Father's house are many mansions, and that he goes to prepare a place."
+  },
+  {
+   "id": "plato-soul-born-many-times",
+   "after": "source:ABU0078",
+   "responds": [
+    "source:ABU0078"
+   ],
+   "relation": "contrast",
+   "why": "Plato's Socrates holds that the soul has been born again many times and has seen all things. Why does the guide deny a return, and what does each view make of this life?"
+  },
+  {
+   "id": "quran-some-excel-others",
+   "after": "source:BH05340",
+   "responds": [
+    "source:BH05340"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says even of the messengers that some have been caused to excel others."
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:AB00036",
+   "responds": [
+    "source:AB00036"
+   ],
+   "relation": "contrast",
+   "why": "The Gita says the spirit lays by its garb of flesh as worn-out robes and passes to inherit a residence afresh. What does the guide hold in place of that picture?"
+  },
+  {
+   "id": "quran-stage-after-stage",
+   "after": "source:ABU2537",
+   "responds": [
+    "source:ABU2537"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that ye shall journey on from plane to plane."
+  },
+  {
+   "id": "corinthians-we-know-in-part",
+   "after": "source:AB01223",
+   "responds": [
+    "source:AB01223"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we know in part, and that when the perfect is come the partial shall be done away."
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:ABU2256",
+   "responds": [
+    "source:ABU2256"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that though the outward man perish, the inward man is renewed day by day."
+  },
+  {
+   "id": "ecclesiastes-it-shall-be-for-ever",
+   "after": "source:AB00722",
+   "responds": [
+    "source:AB00722"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that whatsoever God doeth shall be for ever: nothing can be put to it, nor any thing taken from it."
+  },
+  {
+   "id": "aristotle-reason-is-man",
+   "after": "source:AB02206",
+   "responds": [
+    "source:AB02206"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle holds that what is proper to each thing is by nature best for it, and that reason more than anything else is man."
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher's rule is to do whatever the hand finds to do with all one's might."
+  }
+ ],
+ "library": {
+  "romans-one-vessel-unto-honour": {
+   "text": "Nay but, O man, who art thou that repliest against God? Shall the thing formed say to him that formed it, Why hast thou made me thus? Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour",
+   "work": "Romans 9:20–21",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%209%3A20-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-it-shall-be-for-ever": {
+   "text": "I know that, whatsoever God doeth, it shall be for ever: nothing can be put to it, nor any thing taken from it: and God doeth it, that men should fear before him",
+   "work": "Ecclesiastes 3:14",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%203%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

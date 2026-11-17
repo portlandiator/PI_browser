@@ -1,0 +1,485 @@
+{
+ "format": 2,
+ "slug": "higherencompasses",
+ "subject": "42BF27EF1B5543078EA9B3F7DF6B586C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 39,
+ "quotations": 47,
+ "kept": [
+  "source:AB00103",
+  "source:AB00395",
+  "source:AB01117",
+  "source:AB00105",
+  "source:AB00020",
+  "source:AB00006",
+  "source:AB00007",
+  "source:ABU0070",
+  "source:ABU0061",
+  "source:ABU0102",
+  "source:ABU0819",
+  "source:ABU1355",
+  "source:AB02018",
+  "source:AB00266",
+  "source:AB00057",
+  "source:AB00482",
+  "source:ABU0122",
+  "source:ABU0145",
+  "source:ABU1881",
+  "source:AB00787",
+  "source:ABU2176",
+  "source:ABU0577",
+  "source:AB00747",
+  "source:AB00780",
+  "source:ABU1953",
+  "source:AB00092",
+  "source:AB02512",
+  "source:ABU0004",
+  "source:BH00002",
+  "source:BH11250",
+  "source:AB00188",
+  "source:ABU0681",
+  "source:AB00576",
+  "selection:c07e1767412d8dcfb989c71f",
+  "selection:5fcb4a131d6e1a32c7809459",
+  "selection:3c80a7ba1b77e13f85ab6d21",
+  "selection:90c1d4aec5a30d58a3a96650",
+  "selection:386c7ec490e6c781d9ac55b1",
+  "selection:6da20bf3b2326456b1073633"
+ ],
+ "introduction": "These readings turn on one principle: to know a thing is to encompass it, so the higher understands the lower and never the reverse. The plant knows nothing of the animal, nor the animal of the human mind; the human spirit encompasses nature and brings its secrets into the open; and by the same rule the human mind cannot encompass God, whose image in the mind is smaller than the mind that holds it. Beside them stand Job and Isaiah on what is too high, Paul on knowing in part, Kant on the limits of knowledge, Pascal and Dickinson on a mind that contains the universe that contains it, and Bacon and Sophocles on mastery of nature. Darwin, Locke, Hume and Frankenstein press on the principle from different sides.",
+ "questions": [
+  "The readings say that to know something is to encompass it. What have you come to understand only after you had, in some sense, grown larger than it?",
+  "Pascal says the universe swallows him like an atom and that by thought he comprehends it. Which of the two descriptions do you live by?",
+  "If the mind's image of God is smaller than the mind, what are our ideas of God good for?",
+  "Darwin saw a difference of degree between animal and human minds, and the readings a difference of plane. What observations bear on the question?",
+  "The readings celebrate science as taking the sword from nature's hand; Bacon says nature must be obeyed to be commanded, and Frankenstein warns of overreaching. Where do you stand?"
+ ],
+ "outside": [
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God says: as the heavens are higher than the earth, so are my thoughts than your thoughts."
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: ask now the beasts, and they shall teach thee; in God's hand is the soul of every living thing."
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the natural man receiveth not the things of the Spirit, neither can he know them."
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "Kant, having shown that we know things only as they appear to us, wrote that he had to abolish knowledge to make room for belief."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see through a glass, darkly, and know in part."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that if oxen and horses could paint, they would paint the gods in the image of their several kinds."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job: canst thou by searching find out God? Canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "kings-heaven-cannot-contain",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon said: behold, the heaven and heaven of heavens cannot contain Thee; how much less this house that I have builded."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal said that by space the universe encompasses and swallows him up like an atom, and that by thought he comprehends the world."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "contrast",
+   "why": "Darwin concluded that the difference in mind between man and the higher animals is one of degree and not of kind. Is the human power of reason a new plane, or more of what animals already have?"
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: such knowledge is too wonderful for me; it is high, I cannot attain unto it."
+  },
+  {
+   "id": "dickinson-brain-wider-than-the-sky",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "complement",
+   "why": "Emily Dickinson wrote that the brain is wider than the sky, for put them side by side, the one the other will include. What does it mean that a mind can contain what it is contained by?"
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "source:AB00007",
+   "responds": [
+    "source:AB00007"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet says that there are more things in heaven and earth than are dreamt of in his friend's philosophy."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi wrote: I died as inanimate matter and arose a plant, I died as a plant and rose again an animal, I died as an animal and arose a man."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God say: let us make man in our image, after our likeness."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks: to whom then will ye liken God, or what likeness will ye compare unto Him?"
+  },
+  {
+   "id": "pope-proper-study",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "complement",
+   "why": "Pope wrote: know then thyself, presume not God to scan; the proper study of mankind is man. If the Essence is beyond the mind, where should the mind's effort go?"
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz held that each simple substance is a perpetual living mirror of the universe."
+  },
+  {
+   "id": "avot-vestibule",
+   "after": "source:ABU0819",
+   "responds": [
+    "source:ABU0819"
+   ],
+   "relation": "adjacent",
+   "why": "Rabbi Jacob said that this world is like a vestibule before the world to come."
+  },
+  {
+   "id": "john-cannot-bear-them-now",
+   "after": "source:ABU1355",
+   "responds": [
+    "source:ABU1355"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples: I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics with the words: all men by nature desire to know."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "A chorus of Sophocles sings that wonders are many, and none is more wonderful than man."
+  },
+  {
+   "id": "quran-penetrate-the-regions",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an challenges men and jinn to penetrate the regions of the heavens and the earth, if they are able."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:AB00482",
+   "responds": [
+    "source:AB00482"
+   ],
+   "relation": "adjacent",
+   "why": "Keats likened a discovery to the moment when a new planet swims into the ken of a watcher of the skies."
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God say to the first human beings: replenish the earth, and subdue it."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "contrast",
+   "why": "Mary Shelley's Frankenstein warns how dangerous is the acquirement of knowledge to one who aspires to become greater than his nature will allow. Is there a limit to what the mind should try to bring out of the invisible?"
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "complement",
+   "why": "Francis Bacon wrote that nature to be commanded must be obeyed. Does science break the laws of nature, or learn them well enough to use them?"
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB00787",
+   "responds": [
+    "source:AB00787"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an teaches its Prophet to pray: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that the power and capacity of learning exists in the soul already."
+  },
+  {
+   "id": "browning-imprisoned-splendour",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "Browning's Paracelsus says that truth is within ourselves; it takes no rise from outward things."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "contrast",
+   "why": "Locke held the opposite: the mind is white paper, and has all the materials of reason and knowledge from experience. Is learning a bringing to light of what is within, or a taking in of what is without?"
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:ABU0577",
+   "responds": [
+    "source:ABU0577"
+   ],
+   "relation": "adjacent",
+   "why": "William Blake wrote of seeing a world in a grain of sand, and holding infinity in the palm of the hand."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "Kant said that two things fill the mind with ever new admiration and awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "contrast",
+   "why": "Hume looked for the self that investigates and could never catch it without a perception, nor observe anything but the perception. If the mind cannot grasp even itself, how far does its encompassing reach?"
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "complement",
+   "why": "Whitman left the astronomer's charts and diagrams and looked up in perfect silence at the stars. Are there things investigation discovers and things only attention receives?"
+  },
+  {
+   "id": "matthew-as-one-having-authority",
+   "after": "source:AB00780",
+   "responds": [
+    "source:AB00780"
+   ],
+   "relation": "adjacent",
+   "why": "The people were astonished at his doctrine, for he taught them as one having authority, and not as the scribes."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:AB00780",
+   "responds": [
+    "source:AB00780"
+   ],
+   "relation": "adjacent",
+   "why": "People marvelled at Jesus, saying: how knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "corinthians-eye-hath-not-seen",
+   "after": "source:AB00092",
+   "responds": [
+    "source:AB00092"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB02512",
+   "responds": [
+    "source:AB02512"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: blessed are the pure in heart, for they shall see God."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "psalm-what-is-man",
+   "after": "source:BH11250",
+   "responds": [
+    "source:BH11250"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist considers the heavens and asks: what is man, that Thou art mindful of him?"
+  },
+  {
+   "id": "pope-isthmus-of-a-middle-state",
+   "after": "source:BH11250",
+   "responds": [
+    "source:BH11250"
+   ],
+   "relation": "adjacent",
+   "why": "Pope called man a being darkly wise and rudely great, in doubt to deem himself a god or beast."
+  },
+  {
+   "id": "john-epistle-see-him-as-he-is",
+   "after": "source:AB00188",
+   "responds": [
+    "source:AB00188"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says: it doth not yet appear what we shall be."
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:AB00576",
+   "responds": [
+    "source:AB00576"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews pictures the living as compassed about with a great cloud of witnesses."
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "selection:c07e1767412d8dcfb989c71f",
+   "responds": [
+    "selection:c07e1767412d8dcfb989c71f"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we, beholding as in a glass the glory of the Lord, are changed into the same image."
+  },
+  {
+   "id": "hopkins-gods-grandeur",
+   "after": "selection:6da20bf3b2326456b1073633",
+   "responds": [
+    "selection:6da20bf3b2326456b1073633"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins wrote that the world is charged with the grandeur of God."
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "selection:6da20bf3b2326456b1073633",
+   "responds": [
+    "selection:6da20bf3b2326456b1073633"
+   ],
+   "relation": "adjacent",
+   "why": "Kabir has God say: O servant, where dost thou seek Me? Lo, I am beside thee."
+  }
+ ],
+ "library": {}
+}

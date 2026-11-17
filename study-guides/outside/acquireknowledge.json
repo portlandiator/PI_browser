@@ -1,0 +1,903 @@
+{
+ "format": 2,
+ "slug": "acquireknowledge",
+ "subject": "157B1606343947178806DFE21D30B32B",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 53,
+ "quotations": 57,
+ "kept": [
+  "source:BH00005",
+  "source:AB05096",
+  "source:ABU0439",
+  "source:ABU1397",
+  "source:BH00111",
+  "source:AB00004",
+  "source:BH00140",
+  "source:BH00568",
+  "source:BH00698",
+  "source:BH00308",
+  "source:AB01616",
+  "source:AB01427",
+  "source:BH09996",
+  "source:AB01567",
+  "source:AB00787",
+  "source:ABU0051",
+  "source:AB03935",
+  "source:AB08508",
+  "source:AB03799",
+  "source:AB06122",
+  "source:AB08788",
+  "source:AB02683",
+  "source:AB04244",
+  "source:AB00551",
+  "source:ABU1650",
+  "source:AB01840",
+  "source:ABU0902",
+  "source:ABU0079",
+  "source:AB00020",
+  "source:AB00092",
+  "source:AB00057",
+  "source:AB00266",
+  "source:AB00747",
+  "source:AB00482",
+  "source:ABU0145",
+  "source:ABU0405",
+  "source:ABU0122",
+  "source:ABU0054",
+  "source:AB01223",
+  "source:BH04673",
+  "source:BH00545",
+  "source:AB03423",
+  "source:AB06380",
+  "source:AB03926",
+  "source:ABU1121",
+  "source:AB07241",
+  "source:AB02950",
+  "source:BH10084",
+  "source:ABU0819",
+  "selection:84bb637d1edc40461fc30278",
+  "selection:d4f540c093e641aef810bd74",
+  "selection:c8c8df1ce4e05783ae0835e1",
+  "selection:4ba759fb5897b7e603f0868a"
+ ],
+ "introduction": "These readings make the acquisition of knowledge a duty for everyone, young and old, women and men: knowledge is wings and a ladder, the sciences and arts are to be pursued day and night, and every discovery brings into the open what was a hidden secret of nature. They add a condition, that the sciences studied should profit the peoples of the earth and that the end be looked to at the outset. Beside them stand the wisdom books, the Qur’an's first command to read, Confucius, Aristotle and Bacon on the love and the use of learning. Others raise the doubts that have always accompanied it: the forbidden tree, the Preacher's sorrow, Pope's little learning, Frankenstein's warning, Thoreau and Mill on inventions, and Tennyson on knowledge that outruns wisdom.",
+ "questions": [
+  "The readings call knowledge wings and a ladder. What have you learned that has most changed what you are able to do or to be?",
+  "They ask that sciences be chosen which profit people, and that the end be looked to at the beginning. How would you apply that test to a field you know?",
+  "Frankenstein and the story of the forbidden tree both treat knowledge as dangerous. Where, if anywhere, do you think inquiry should stop?",
+  "Paul says knowledge puffs up, and Tennyson that wisdom lingers behind it. What makes a learned person humble and wise as well?",
+  "Bacon notes that we readily believe what we would like to be true. What habits protect your own learning from that?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-wisdom-is-the-principal-thing",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: wisdom is the principal thing; therefore get wisdom, and with all thy getting get understanding."
+  },
+  {
+   "id": "bacon-studies-serve-for-delight",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Francis Bacon wrote that studies serve for delight, for ornament and for ability."
+  },
+  {
+   "id": "analects-pleasant-to-learn",
+   "after": "source:AB05096",
+   "responds": [
+    "source:AB05096"
+   ],
+   "relation": "adjacent",
+   "why": "The Analects open with a question: is it not pleasant to learn with a constant perseverance and application?"
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:ABU0439",
+   "responds": [
+    "source:ABU0439"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an teaches its Prophet to pray: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:ABU1397",
+   "responds": [
+    "source:ABU1397"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon wrote that reading maketh a full man, conference a ready man, and writing an exact man."
+  },
+  {
+   "id": "lamb-grace",
+   "after": "source:ABU1397",
+   "responds": [
+    "source:ABU1397"
+   ],
+   "relation": "adjacent",
+   "why": "Charles Lamb wanted a grace to say before books, those spiritual repasts, as well as before dinner."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that learning without thought is labour lost, and thought without learning is perilous."
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks: are those who know equal with those who know not?"
+  },
+  {
+   "id": "hosea-lack-of-knowledge",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea says in God's name: my people are destroyed for lack of knowledge."
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Milton wrote that the end of learning is to regain the knowledge of God, and out of that knowledge to love Him and be like Him."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "contrast",
+   "why": "Mary Shelley's Frankenstein warns: learn from me how dangerous is the acquirement of knowledge. What does looking to the end of an inquiry require before it is begun?"
+  },
+  {
+   "id": "mill-mechanical-inventions",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "complement",
+   "why": "John Stuart Mill doubted whether all the mechanical inventions yet made had lightened the day's toil of any human being. By what test is a science useful to the progress of a people?"
+  },
+  {
+   "id": "gray-ignorance-is-bliss",
+   "after": "source:BH00698",
+   "responds": [
+    "source:BH00698"
+   ],
+   "relation": "contrast",
+   "why": "Thomas Gray, watching schoolboys at play, concluded: where ignorance is bliss, 'tis folly to be wise. Is the decline of ignorance always a gain to the one who loses it?"
+  },
+  {
+   "id": "proverbs-lord-giveth-wisdom",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the Lord giveth wisdom; out of His mouth cometh knowledge and understanding."
+  },
+  {
+   "id": "quran-read",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "The first words revealed in the Qur’an are a command to read, in the name of the Lord who teacheth by the pen."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:AB01616",
+   "responds": [
+    "source:AB01616"
+   ],
+   "relation": "adjacent",
+   "why": "Kant's motto of enlightenment was: have courage to use your own understanding."
+  },
+  {
+   "id": "great-learning-widening",
+   "after": "source:AB01427",
+   "responds": [
+    "source:AB01427"
+   ],
+   "relation": "adjacent",
+   "why": "The Great Learning says that when persons are cultivated families are regulated, and when families are regulated states are rightly governed."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:AB01567",
+   "responds": [
+    "source:AB01567"
+   ],
+   "relation": "complement",
+   "why": "Paul warns that knowledge puffeth up, but charity edifieth. Why must an increase of knowledge be matched by an increase of gentleness and love?"
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:AB00787",
+   "responds": [
+    "source:AB00787"
+   ],
+   "relation": "adjacent",
+   "why": "Mary Wollstonecraft asked that the female mind be strengthened by enlarging it, and there will be an end to blind obedience."
+  },
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:AB00787",
+   "responds": [
+    "source:AB00787"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that it is the glory of God to conceal a thing, but the honour of kings is to search out a matter."
+  },
+  {
+   "id": "kings-solomon-spake-of-trees",
+   "after": "source:AB00787",
+   "responds": [
+    "source:AB00787"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon spoke of trees, from the cedar of Lebanon to the hyssop that springs out of the wall, and of beasts, fowl and fishes."
+  },
+  {
+   "id": "pope-little-learning",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "contrast",
+   "why": "Alexander Pope warned that a little learning is a dangerous thing: drink deep, or taste not the Pierian spring. Is it safe to give everyone some science, when few can be given much?"
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB03935",
+   "responds": [
+    "source:AB03935"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go, and when he is old he will not depart from it."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB08508",
+   "responds": [
+    "source:AB08508"
+   ],
+   "relation": "adjacent",
+   "why": "The Book of Daniel says that they that be wise shall shine as the brightness of the firmament."
+  },
+  {
+   "id": "proverbs-wisdom-better-than-gold",
+   "after": "source:AB03799",
+   "responds": [
+    "source:AB03799"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks how much better it is to get wisdom than gold, and understanding than silver."
+  },
+  {
+   "id": "daniel-knowledge-and-skill",
+   "after": "source:AB06122",
+   "responds": [
+    "source:AB06122"
+   ],
+   "relation": "adjacent",
+   "why": "Of Daniel and his three companions it is said that God gave them knowledge and skill in all learning and wisdom."
+  },
+  {
+   "id": "proverbs-seekest-her-as-silver",
+   "after": "source:AB08788",
+   "responds": [
+    "source:AB08788"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks the learner to seek understanding as silver, and search for her as for hid treasures."
+  },
+  {
+   "id": "bacon-weigh-and-consider",
+   "after": "source:AB04244",
+   "responds": [
+    "source:AB04244"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon advised: read not to contradict and confute, nor to believe and take for granted, but to weigh and consider."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB00551",
+   "responds": [
+    "source:AB00551"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon wrote that human knowledge and human power meet in one, and that nature to be commanded must be obeyed."
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:AB00551",
+   "responds": [
+    "source:AB00551"
+   ],
+   "relation": "complement",
+   "why": "Thoreau called the inventions of his time pretty toys, improved means to an unimproved end. What makes an invention an advance and not a distraction?"
+  },
+  {
+   "id": "aristotle-owing-to-their-wonder",
+   "after": "source:ABU1650",
+   "responds": [
+    "source:ABU1650"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle said that it is owing to their wonder that men both now begin and at first began to philosophize."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:AB01840",
+   "responds": [
+    "source:AB01840"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that the capacity of learning exists in the soul already, and that the whole soul must be turned toward the light."
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:ABU0079",
+   "responds": [
+    "source:ABU0079"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes resolved never to accept anything for true which he did not clearly know to be such."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "A chorus of Sophocles sings that wonders are many, and none is more wonderful than man."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:AB00092",
+   "responds": [
+    "source:AB00092"
+   ],
+   "relation": "adjacent",
+   "why": "Keats compared a discovery to the moment when a new planet swims into the ken of a watcher of the skies."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God taught Adam all the names, and then showed them to the angels."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "Elihu says that there is a spirit in man, and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics with the words: all men by nature desire to know."
+  },
+  {
+   "id": "quran-penetrate-the-regions",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an challenges men and jinn to penetrate the regions of the heavens and the earth, if they have power."
+  },
+  {
+   "id": "genesis-tree-of-knowledge",
+   "after": "source:ABU0405",
+   "responds": [
+    "source:ABU0405"
+   ],
+   "relation": "contrast",
+   "why": "In Genesis the first prohibition concerns knowledge: of the tree of the knowledge of good and evil thou shalt not eat. Are there secrets it is wrong to take from nature, or only wrong ways of using them?"
+  },
+  {
+   "id": "bacon-alchemy-and-the-vineyard",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon compared the alchemists to sons who dug their father's vineyard for buried gold, found none, and by the digging got a great vintage."
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "complement",
+   "why": "Tennyson wrote: knowledge comes, but wisdom lingers. What would it take for wisdom to keep pace with what is known?"
+  },
+  {
+   "id": "goethe-foreign-languages",
+   "after": "source:AB01223",
+   "responds": [
+    "source:AB01223"
+   ],
+   "relation": "adjacent",
+   "why": "Goethe remarked that a man who has no acquaintance with foreign languages knows nothing of his own."
+  },
+  {
+   "id": "psalm-entrance-of-thy-words",
+   "after": "source:BH04673",
+   "responds": [
+    "source:BH04673"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: the entrance of Thy words giveth light; it giveth understanding unto the simple."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:BH00545",
+   "responds": [
+    "source:BH00545"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that the craftsman Bezaleel was filled with the spirit of God, in wisdom, in understanding and in all manner of workmanship."
+  },
+  {
+   "id": "proverbs-beginning-of-knowledge",
+   "after": "source:AB03423",
+   "responds": [
+    "source:AB03423"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the fear of the Lord is the beginning of knowledge."
+  },
+  {
+   "id": "proverbs-heart-of-the-prudent",
+   "after": "source:AB06380",
+   "responds": [
+    "source:AB06380"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the heart of the prudent getteth knowledge, and the ear of the wise seeketh knowledge."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:AB06380",
+   "responds": [
+    "source:AB06380"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher, who gave his heart to know wisdom, concluded that he that increaseth knowledge increaseth sorrow. What kind of knowledge wearies a person, and what kind renews?"
+  },
+  {
+   "id": "julian-love-was-his-meaning",
+   "after": "source:AB03926",
+   "responds": [
+    "source:AB03926"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich asked the meaning of what she had been shown and was answered: learn it well; love was His meaning."
+  },
+  {
+   "id": "avot-not-study-but-actions",
+   "after": "source:ABU1121",
+   "responds": [
+    "source:ABU1121"
+   ],
+   "relation": "complement",
+   "why": "A sage who grew up among the sages said that study is not the most important thing, but actions. How is learning turned into character?"
+  },
+  {
+   "id": "proverbs-wise-man-will-hear",
+   "after": "source:AB07241",
+   "responds": [
+    "source:AB07241"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a wise man will hear, and will increase learning."
+  },
+  {
+   "id": "proverbs-buy-the-truth",
+   "after": "source:BH10084",
+   "responds": [
+    "source:BH10084"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: buy the truth, and sell it not; also wisdom, and instruction, and understanding."
+  },
+  {
+   "id": "analects-to-know-a-thing",
+   "after": "source:ABU0819",
+   "responds": [
+    "source:ABU0819"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said: when you know a thing, to hold that you know it, and when you do not, to allow that you do not: this is knowledge."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "selection:84bb637d1edc40461fc30278",
+   "responds": [
+    "selection:84bb637d1edc40461fc30278"
+   ],
+   "relation": "complement",
+   "why": "Whitman grew tired and sick at the astronomer's charts and figures, went out, and looked up in perfect silence at the stars. What does discovery by science leave for wonder to do?"
+  },
+  {
+   "id": "bacon-no-dry-light",
+   "after": "selection:d4f540c093e641aef810bd74",
+   "responds": [
+    "selection:d4f540c093e641aef810bd74"
+   ],
+   "relation": "complement",
+   "why": "Bacon observed that the human understanding is no dry light: what a man had rather were true he more readily believes. What does methodical investigation have to guard against in the investigator?"
+  },
+  {
+   "id": "quran-exalt-those-who-have-knowledge",
+   "after": "selection:c8c8df1ce4e05783ae0835e1",
+   "responds": [
+    "selection:c8c8df1ce4e05783ae0835e1"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God will exalt those who believe and those who have knowledge to high ranks."
+  },
+  {
+   "id": "kings-understanding-heart",
+   "after": "selection:4ba759fb5897b7e603f0868a",
+   "responds": [
+    "selection:4ba759fb5897b7e603f0868a"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon, offered anything he wished, asked for an understanding heart to judge the people."
+  }
+ ],
+ "library": {
+  "proverbs-wisdom-is-the-principal-thing": {
+   "text": "Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding",
+   "work": "Proverbs 4:7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%204%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-wise-man-will-hear": {
+   "text": "A wise man will hear, and will increase learning; and a man of understanding shall attain unto wise counsels",
+   "work": "Proverbs 1:5",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%201%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-heart-of-the-prudent": {
+   "text": "The heart of the prudent getteth knowledge; and the ear of the wise seeketh knowledge",
+   "work": "Proverbs 18:15",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2018%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-buy-the-truth": {
+   "text": "Buy the truth, and sell it not; also wisdom, and instruction, and understanding",
+   "work": "Proverbs 23:23",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2023%3A23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-tree-of-knowledge": {
+   "text": "Of every tree of the garden thou mayest freely eat: But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die",
+   "work": "Genesis 2:16–17",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%202%3A16-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-knowledge-and-skill": {
+   "text": "As for these four children, God gave them knowledge and skill in all learning and wisdom: and Daniel had understanding in all visions and dreams",
+   "work": "Daniel 1:17",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%201%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-understanding-heart": {
+   "text": "Give therefore thy servant an understanding heart to judge thy people, that I may discern between good and bad: for who is able to judge this thy so great a people",
+   "work": "1 Kings 3:9",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%203%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-lord-giveth-wisdom": {
+   "text": "For the Lord giveth wisdom: out of his mouth cometh knowledge and understanding",
+   "work": "Proverbs 2:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%202%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-exalt-those-who-have-knowledge": {
+   "text": "Allah will exalt those who believe among you, and those who have knowledge, to high ranks",
+   "work": "Qur’an 58:11",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=58&verse=11",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-the-erudite-fear-allah": {
+   "text": "The erudite among His bondmen fear Allah alone",
+   "work": "Qur’an 35:28",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=35&verse=28",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "analects-pleasant-to-learn": {
+   "text": "Is it not pleasant to learn with a constant perseverance and application",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "1.1",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "bacon-reading-maketh-a-full-man": {
+   "text": "Reading maketh a full man; conference a ready man; and writing an exact man",
+   "author": "Francis Bacon",
+   "work": "Essays: Of Studies",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_Francis_Bacon/Volume_1/Essays/Of_Studies",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  },
+  "bacon-studies-serve-for-delight": {
+   "text": "Studies serve for delight, for ornament and for ability",
+   "author": "Francis Bacon",
+   "work": "Essays: Of Studies",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_Francis_Bacon/Volume_1/Essays/Of_Studies",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  },
+  "bacon-weigh-and-consider": {
+   "text": "Read not to contradict and confute, nor to believe and take for granted, nor to find talk and discourse, but to weigh and consider",
+   "author": "Francis Bacon",
+   "work": "Essays: Of Studies",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_Francis_Bacon/Volume_1/Essays/Of_Studies",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  }
+ }
+}

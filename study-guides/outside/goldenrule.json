@@ -1,0 +1,581 @@
+{
+ "format": 2,
+ "slug": "goldenrule",
+ "subject": "9E2097943E7F4A8AB3F8A1B03D1E644D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 42,
+ "quotations": 42,
+ "kept": [
+  "source:BH00048",
+  "source:AB01704",
+  "source:BB00003",
+  "source:BH06616",
+  "source:BH09261",
+  "source:BH00001",
+  "source:BH00386",
+  "source:BH00012",
+  "source:BH00002",
+  "source:BH00005",
+  "source:BH00662",
+  "source:BH01184",
+  "source:BH00111",
+  "source:AB00374",
+  "source:ABU2348",
+  "source:ABU2895",
+  "source:ABU3458",
+  "source:ABU2867",
+  "source:ABU2553",
+  "source:ABU0885",
+  "source:ABU1566",
+  "source:ABU3277",
+  "source:BH01034",
+  "source:AB04750",
+  "source:ABU1805",
+  "source:BB00004",
+  "source:BH00021",
+  "source:ABU0253",
+  "source:ABU1405",
+  "source:ABU3338",
+  "source:ABU1004",
+  "source:BH01896",
+  "selection:dd61e2a60982e11f12144606",
+  "selection:5fa84913a83ee519c8479577",
+  "selection:260d474bda0a554f95b9dee4",
+  "selection:75417dd0fb1b89fd2918db8c",
+  "selection:7fd96c802e0259491e898c43",
+  "selection:27a44f4f011ba5a64ec79b56",
+  "selection:c83ae5694a6ae8d9267abb1d",
+  "selection:3d56690e5b324645b11fa05a",
+  "selection:741bcc3c83ad2d203261527d",
+  "selection:515c1e7d64e24ed1444dda42"
+ ],
+ "introduction": "To wish for another what one wishes for oneself is the form in which the guide states its rule, and it goes on to ask for more: to prefer the other, to forget oneself, to widen concern from family to city to nation to humankind. The forty-two quotations, some of which are themselves the classic statements of the rule from other religions, are read here with forty-two more. Confucius, Leviticus, Hillel, Jesus, Paul, the Qur’an and the Dhammapada say it in their own ways, and Mencius describes how care learned at home is extended to the families of others. The harder voices are also here. Shaw points out that other people’s tastes may differ from one’s own; Adam Smith notes how much of common life runs on self-interest; Shylock shows reciprocity turned to revenge; the old law of an eye for an eye measures return by injury; Hillel himself asks who will be for me if I am not; and Paul’s letters keep a special place for one’s own household. They mark the points at which a simple rule needs judgement.",
+ "questions": [
+  "The rule appears in a negative form (do not do what you would not wish done) and a positive one (do what you would wish). What does each ask that the other does not?",
+  "Shaw says others' tastes may not be the same as ours. How would you apply the rule to someone whose wishes differ from your own?",
+  "The guide moves from equal regard to preferring others above oneself. Is that a different rule, and what does Hillel's question about being for oneself add?",
+  "Mencius begins with one's own elders and Paul with the household of faith. How does concern for those nearest help or hinder concern for those furthest?",
+  "Shylock learns revenge by example. What does the rule require of those who have themselves been wronged?",
+  "Several readings address rulers and the rich. What would the rule look like as a principle for institutions and not only for individuals?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-golden-rule",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "The Sermon on the Mount states the rule positively: all things whatsoever ye would that men should do to you, do ye even so to them."
+  },
+  {
+   "id": "analects-reciprocity",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Asked for one word to practise for a whole life, Confucius offers reciprocity: what you do not want done to yourself, do not do to others."
+  },
+  {
+   "id": "mencius-elders-in-the-families-of-others",
+   "after": "source:AB01704",
+   "responds": [
+    "source:AB01704"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius describes the widening: treat the elders of your own family with reverence, so that the elders in the families of others shall be similarly treated."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:AB01704",
+   "responds": [
+    "source:AB01704"
+   ],
+   "relation": "contrast",
+   "why": "Adam Smith observes that in civilized society a man stands at all times in need of the assistance of great multitudes, and looks to their interest, not their benevolence. Can a society run on self-interest and still widen its concern?"
+  },
+  {
+   "id": "luke-good-measure",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that with the same measure that ye mete withal it shall be measured to you again."
+  },
+  {
+   "id": "leviticus-love-thy-neighbour",
+   "after": "source:BH06616",
+   "responds": [
+    "source:BH06616"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus gives the command in its shortest form: thou shalt love thy neighbour as thyself."
+  },
+  {
+   "id": "shaw-golden-rule",
+   "after": "source:BH09261",
+   "responds": [
+    "source:BH09261"
+   ],
+   "relation": "contrast",
+   "why": "Shaw objects: do not do unto others as you would that they should do unto you, for their tastes may not be the same. Does the rule ask us to put ourselves in another's place, or to learn what the other's place is?"
+  },
+  {
+   "id": "talmud-hillel-on-one-foot",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Hillel taught that what is hateful to you, you should not do to another: that is the entire Torah, and the rest is its interpretation."
+  },
+  {
+   "id": "matthew-mote-and-beam",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks why one beholds the mote in a brother's eye and does not consider the beam in one's own."
+  },
+  {
+   "id": "quran-say-what-ye-do-not",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an puts the same charge as a question to believers: why say ye that which ye do not?"
+  },
+  {
+   "id": "proverbs-say-not-i-will-do-so-to-him",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs forbids the reverse of the rule: say not, I will do so to him as he hath done to me."
+  },
+  {
+   "id": "corinthians-seek-anothers-wealth",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's rule is brief: let no man seek his own, but every man another's wealth."
+  },
+  {
+   "id": "isaiah-grind-the-faces-of-the-poor",
+   "after": "source:BH00662",
+   "responds": [
+    "source:BH00662"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah puts the Lord's question to the rulers: what mean ye that ye beat my people to pieces, and grind the faces of the poor?"
+  },
+  {
+   "id": "jeremiah-buildeth-his-house-by-unrighteousness",
+   "after": "source:BH00662",
+   "responds": [
+    "source:BH00662"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah pronounces woe on the one who builds his house by unrighteousness and uses his neighbour's service without wages."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:BH01184",
+   "responds": [
+    "source:BH01184"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks his followers to let their light so shine that others see their good works and glorify their Father."
+  },
+  {
+   "id": "romans-in-honour-preferring",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks believers to be kindly affectioned one to another, in honour preferring one another."
+  },
+  {
+   "id": "philippians-esteem-other-better",
+   "after": "source:AB00374",
+   "responds": [
+    "source:AB00374"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that in lowliness of mind each esteem other better than themselves."
+  },
+  {
+   "id": "luke-call-the-poor-to-thy-feast",
+   "after": "source:ABU2348",
+   "responds": [
+    "source:ABU2348"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus advises inviting to a feast those who cannot repay: the poor, the maimed, the lame and the blind."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:ABU3458",
+   "responds": [
+    "source:ABU3458"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel sets the limit of preferring others: greater love hath no man than this, that a man lay down his life for his friends."
+  },
+  {
+   "id": "matthew-lose-his-life",
+   "after": "source:ABU2867",
+   "responds": [
+    "source:ABU2867"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that whoever will save his life shall lose it, and whoever will lose his life for his sake shall find it."
+  },
+  {
+   "id": "avot-if-not-now",
+   "after": "source:ABU2553",
+   "responds": [
+    "source:ABU2553"
+   ],
+   "relation": "complement",
+   "why": "Hillel asks: if I am not for myself, who is for me? and if I am for my own self only, what am I? Is there a regard for oneself that self-sacrifice must not destroy?"
+  },
+  {
+   "id": "quran-prefer-above-themselves",
+   "after": "source:ABU0885",
+   "responds": [
+    "source:ABU0885"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse quoted: those who received the fugitives prefer them above themselves, though poverty be their own lot."
+  },
+  {
+   "id": "timothy-provide-for-his-own",
+   "after": "source:ABU1566",
+   "responds": [
+    "source:ABU1566"
+   ],
+   "relation": "contrast",
+   "why": "A letter of Paul says that whoever does not provide for his own house has denied the faith. Is care for one's own a rival to the wider circle, or its first ring?"
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:BH01034",
+   "responds": [
+    "source:BH01034"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable it is a Samaritan, journeying, who has compassion, binds up the wounds and brings the stranger to an inn."
+  },
+  {
+   "id": "galatians-good-unto-all-men",
+   "after": "source:BH01034",
+   "responds": [
+    "source:BH01034"
+   ],
+   "relation": "complement",
+   "why": "Paul says to do good unto all men, especially unto them who are of the household of faith. Does 'especially' narrow the circle, or only say where to begin?"
+  },
+  {
+   "id": "donne-island",
+   "after": "source:ABU1805",
+   "responds": [
+    "source:ABU1805"
+   ],
+   "relation": "adjacent",
+   "why": "Donne holds that no man is an island, entire of itself: every man is a piece of the continent, a part of the main."
+  },
+  {
+   "id": "matthew-peacemakers",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus blesses the peacemakers and says that they shall be called the children of God."
+  },
+  {
+   "id": "matthew-heavy-burdens",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus condemns those who bind heavy burdens and grievous to be borne, and lay them on other men's shoulders."
+  },
+  {
+   "id": "quran-woe-unto-the-defrauders",
+   "after": "source:ABU0253",
+   "responds": [
+    "source:ABU0253"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an pronounces woe on the defrauders, who demand full measure when they take from others."
+  },
+  {
+   "id": "philippians-likeminded",
+   "after": "source:ABU1405",
+   "responds": [
+    "source:ABU1405"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks his friends to be of one mind, doing nothing through strife or vainglory."
+  },
+  {
+   "id": "marcus-swarm-and-bee",
+   "after": "source:ABU1405",
+   "responds": [
+    "source:ABU1405"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius puts the common interest in a line: that which is not good for the swarm, neither is it good for the bee."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU3338",
+   "responds": [
+    "source:ABU3338"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter asks how the love of God can dwell in one who has this world's good, sees a brother in need and shuts up his compassion."
+  },
+  {
+   "id": "isaiah-is-not-this-the-fast",
+   "after": "source:ABU3338",
+   "responds": [
+    "source:ABU3338"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says the fast God has chosen is to loose the bands of wickedness and to deal thy bread to the hungry."
+  },
+  {
+   "id": "exodus-eye-for-eye",
+   "after": "source:ABU1004",
+   "responds": [
+    "source:ABU1004"
+   ],
+   "relation": "contrast",
+   "why": "The older law measured the return by the injury: eye for eye, tooth for tooth, hand for hand. What separates giving back what one has received from giving what one would wish to receive?"
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:ABU1004",
+   "responds": [
+    "source:ABU1004"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus recalls the saying of an eye for an eye and a tooth for a tooth, and sets his own 'but I say unto you' against it."
+  },
+  {
+   "id": "romans-love-fulfilling-of-the-law",
+   "after": "source:BH01896",
+   "responds": [
+    "source:BH01896"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that every commandment is comprehended in the saying 'thou shalt love thy neighbour as thyself', for love works no ill."
+  },
+  {
+   "id": "galatians-by-love-serve",
+   "after": "selection:dd61e2a60982e11f12144606",
+   "responds": [
+    "selection:dd61e2a60982e11f12144606"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Galatians that all the law is fulfilled in one word: thou shalt love thy neighbour as thyself."
+  },
+  {
+   "id": "shakespeare-better-the-instruction",
+   "after": "selection:5fa84913a83ee519c8479577",
+   "responds": [
+    "selection:5fa84913a83ee519c8479577"
+   ],
+   "relation": "contrast",
+   "why": "Shylock reasons that if he is wronged he will revenge, by the example he has been shown, and will better the instruction. What happens to reciprocity among people who have been treated badly?"
+  },
+  {
+   "id": "leviticus-stranger",
+   "after": "selection:260d474bda0a554f95b9dee4",
+   "responds": [
+    "selection:260d474bda0a554f95b9dee4"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus widens the neighbour to the stranger: thou shalt love him as thyself, for ye were strangers in the land of Egypt."
+  },
+  {
+   "id": "dhammapada-all-men-tremble-at-punishment",
+   "after": "selection:27a44f4f011ba5a64ec79b56",
+   "responds": [
+    "selection:27a44f4f011ba5a64ec79b56"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada reasons from one's own fear: all men tremble at punishment, so remember that you are like them, and do not kill."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "selection:741bcc3c83ad2d203261527d",
+   "responds": [
+    "selection:741bcc3c83ad2d203261527d"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi says the lamps are different but the Light is the same, and that disagreement depends on the standpoint."
+  },
+  {
+   "id": "matthew-rain-on-the-just",
+   "after": "selection:515c1e7d64e24ed1444dda42",
+   "responds": [
+    "selection:515c1e7d64e24ed1444dda42"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks his hearers to be children of a Father who makes his sun rise on the evil and on the good."
+  }
+ ],
+ "library": {
+  "proverbs-say-not-i-will-do-so-to-him": {
+   "text": "Say not, I will do so to him as he hath done to me: I will render to the man according to his work",
+   "work": "Proverbs 24:29",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2024%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-buildeth-his-house-by-unrighteousness": {
+   "text": "Woe unto him that buildeth his house by unrighteousness, and his chambers by wrong; that useth his neighbour's service without wages, and giveth him not for his work",
+   "work": "Jeremiah 22:13",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2022%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-who-is-my-neighbour": {
+   "text": "But he, willing to justify himself, said unto Jesus, And who is my neighbour",
+   "work": "Luke 10:29",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2010%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "dhammapada-all-men-tremble-at-punishment": {
+   "text": "All men tremble at punishment, all men fear death; remember that you are like unto them, and do not kill, nor cause slaughter",
+   "work": "Dhammapada",
+   "locator": "verse 129",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "F. Max Müller",
+   "translationYear": "1881",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  },
+  "mencius-elders-in-the-families-of-others": {
+   "text": "Treat with the reverence due to age the elders in your own family, so that the elders in the families of others shall be similarly treated; treat with the kindness due to youth the young in your own family, so that the young in the families of others shall be similarly treated",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "1A.7",
+   "year": "4th century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter01",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "shakespeare-better-the-instruction": {
+   "text": "if you wrong us, shall we not / revenge? If we are like you in the rest, we will / resemble you in that. If a Jew wrong a Christian, / what is his humility? Revenge. If a Christian / wrong a Jew, what should his sufferance be by / Christian example? Why, revenge. The villany you / teach me, I will execute, and it shall go hard but I / will better the instruction",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Merchant of Venice",
+   "locator": "Act 3, scene 1",
+   "year": "about 1597",
+   "sortYear": 1597,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/merchant/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  }
+ }
+}

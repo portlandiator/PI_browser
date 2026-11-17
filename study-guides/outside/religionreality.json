@@ -1,0 +1,841 @@
+{
+ "format": 2,
+ "slug": "religionreality",
+ "subject": "9D3C0575BFA942CA95AB98EA453F1294",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 79,
+ "quotations": 82,
+ "kept": [
+  "source:AB00829",
+  "source:BH02105",
+  "source:ABU3608",
+  "source:ABU0171",
+  "source:ABU0062",
+  "source:BH07546",
+  "source:ABU0237",
+  "source:ABU0607",
+  "source:ABU0034",
+  "source:AB07457",
+  "source:ABU2221",
+  "source:ABU0012",
+  "source:AB02380",
+  "source:ABU1968",
+  "source:ABU2458",
+  "source:ABU0023",
+  "source:ABU0493",
+  "source:ABU0051",
+  "source:ABU0040",
+  "source:ABU1366",
+  "source:ABU2272",
+  "source:ABU0614",
+  "source:AB00256",
+  "source:ABU0873",
+  "source:ABU0101",
+  "source:ABU1561",
+  "source:ABU2646",
+  "source:AB00004",
+  "source:AB03738",
+  "source:ABU1955",
+  "source:ABU0967",
+  "source:ABU2794",
+  "source:ABU0633",
+  "source:AB10598",
+  "source:ABU2815",
+  "source:ABU0015",
+  "source:ABU1956",
+  "source:ABU1208",
+  "source:ABU1305",
+  "source:ABU2295",
+  "source:ABU0984",
+  "source:AB00065",
+  "source:ABU2081",
+  "source:ABU3247",
+  "source:ABU3079",
+  "source:ABU0006",
+  "source:ABU0052",
+  "source:ABU0178",
+  "source:ABU0235",
+  "source:ABU1372",
+  "source:ABU0365",
+  "source:ABU0477",
+  "source:ABU3057",
+  "source:ABU1991",
+  "source:ABU0969",
+  "source:ABU3137",
+  "source:ABU0468",
+  "source:ABU1089",
+  "source:ABU1631",
+  "source:ABU3346",
+  "source:ABU2836",
+  "source:ABU3202",
+  "source:ABU1163",
+  "source:ABU3418",
+  "source:AB04278",
+  "source:ABU0690",
+  "source:AB03890",
+  "source:AB08125",
+  "source:AB10950",
+  "source:AB08062",
+  "source:ABU2620",
+  "source:ABU1484",
+  "source:ABU2324",
+  "source:ABU2801",
+  "source:BH04055",
+  "source:BH10723",
+  "selection:b467c3dbcb116eac3db3ed68",
+  "selection:ca551ec1832259a30b63526e",
+  "selection:b47bcdd6cc750b88f2d8f4fe"
+ ],
+ "introduction": "These readings define religion by what it does: it is not a set of beliefs or customs, or a building, but the teachings of God as the life of humanity, an attitude toward God that shows in the way people are treated. It must agree with science and reason, be cleansed of inherited prejudice, serve as remedy and education, and at its foundation it is one reality in every age. Passages from prophets, apostles and sages who drew the same line between form and substance stand beside them. So do those who doubt that such a religion is the real one: Swift and Blake, Marx, Hume on miracles, Paul on the foolishness of worldly wisdom, Chesterton on real differences, Hardy on war, and the Grand Inquisitor. Their questions are part of the study.",
+ "questions": [
+  "One reading calls religion an attitude toward God that reflects itself in our attitude toward others. Judged that way, who are the religious people you know?",
+  "The readings say a religious belief contrary to reason is superstition; Paul says God has made the wisdom of this world foolish. How do you hold these together?",
+  "Blake met religion as a chapel of Thou shalt not, and Marx as an opium. What in the readings answers each of them, and what in their complaints is just?",
+  "If the foundation of all religions is one reality, what do you make of Chesterton's point that they differ greatly in what they teach?",
+  "The readings ask that religion be cleansed of imitation and prejudice. Which of your own religious or irreligious convictions did you inherit, and which have you examined?",
+  "Hardy saw nations still making war after centuries of religion. What would count, for you, as evidence that real religion had appeared?"
+ ],
+ "outside": [
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "James defines pure religion as visiting the fatherless and widows in their affliction, and keeping oneself unspotted from the world."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "Micah asks what the Lord requires but to do justly, to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:BH02105",
+   "responds": [
+    "source:BH02105"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that he that loveth not knoweth not God, for God is love."
+  },
+  {
+   "id": "john-epistle-loveth-not-his-brother",
+   "after": "source:ABU3608",
+   "responds": [
+    "source:ABU3608"
+   ],
+   "relation": "adjacent",
+   "why": "The same letter asks how one who loves not his brother whom he has seen can love God whom he has not seen."
+  },
+  {
+   "id": "matthew-two-commandments",
+   "after": "source:ABU3608",
+   "responds": [
+    "source:ABU3608"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus joined two commandments, love of God and love of neighbour, and said that on them hang all the law and the prophets."
+  },
+  {
+   "id": "swift-religion-enough",
+   "after": "source:ABU0171",
+   "responds": [
+    "source:ABU0171"
+   ],
+   "relation": "contrast",
+   "why": "Swift observed that we have just enough religion to make us hate, but not enough to make us love one another. If that is how religion commonly appears, by what right is the loving kind called its reality?"
+  },
+  {
+   "id": "john-think-he-doeth-god-service",
+   "after": "source:ABU0171",
+   "responds": [
+    "source:ABU0171"
+   ],
+   "relation": "contrast",
+   "why": "Jesus foresaw a time when whoever killed his disciples would think that he did God service. What goes wrong when devotion itself becomes the reason for enmity?"
+  },
+  {
+   "id": "matthew-whole-need-not-a-physician",
+   "after": "source:ABU0062",
+   "responds": [
+    "source:ABU0062"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that they that be whole need not a physician, but they that are sick."
+  },
+  {
+   "id": "romans-love-fulfilling-of-the-law",
+   "after": "source:BH07546",
+   "responds": [
+    "source:BH07546"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that every commandment is comprehended in this saying: thou shalt love thy neighbour as thyself."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:ABU0237",
+   "responds": [
+    "source:ABU0237"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: behold, how good and how pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "blake-garden-of-love",
+   "after": "source:ABU0607",
+   "responds": [
+    "source:ABU0607"
+   ],
+   "relation": "contrast",
+   "why": "William Blake found a chapel built in the garden of love, Thou shalt not written over its door, and priests in black gowns binding his joys. Why has religion so often been met as gloom, and what would show that it need not be?"
+  },
+  {
+   "id": "james-be-ye-warmed",
+   "after": "source:ABU0034",
+   "responds": [
+    "source:ABU0034"
+   ],
+   "relation": "adjacent",
+   "why": "James asks what it profits to tell the hungry, be ye warmed and filled, and give them nothing that the body needs."
+  },
+  {
+   "id": "marx-opium-of-the-people",
+   "after": "source:ABU0034",
+   "responds": [
+    "source:ABU0034"
+   ],
+   "relation": "contrast",
+   "why": "Marx called religion the sigh of the oppressed creature, the heart of a heartless world, and the opium of the people. What would a religion have to do about economic questions for that description to fail?"
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU2221",
+   "responds": [
+    "source:ABU2221"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees nations that beat their swords into plowshares and learn war no more."
+  },
+  {
+   "id": "jeremiah-balm-in-gilead",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah asks: is there no balm in Gilead; is there no physician there?"
+  },
+  {
+   "id": "gibbon-banner-of-the-cross",
+   "after": "source:AB02380",
+   "responds": [
+    "source:AB02380"
+   ],
+   "relation": "complement",
+   "why": "Gibbon tells how a pure and humble religion at last raised the banner of the cross on the ruins of the Capitol. Is power over kings a proof of a religion's reality, or a danger to it?"
+  },
+  {
+   "id": "luke-physician-heal-thyself",
+   "after": "source:ABU2458",
+   "responds": [
+    "source:ABU2458"
+   ],
+   "relation": "complement",
+   "why": "Jesus expected to be told the proverb: physician, heal thyself. What may the world fairly ask of those who offer it a remedy?"
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:ABU0023",
+   "responds": [
+    "source:ABU0023"
+   ],
+   "relation": "adjacent",
+   "why": "John Locke held that reason must be our last judge and guide in every thing."
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:ABU0023",
+   "responds": [
+    "source:ABU0023"
+   ],
+   "relation": "contrast",
+   "why": "Paul asks whether God has not made foolish the wisdom of this world. How does his saying stand beside the test that a belief contrary to reason is unworthy of acceptance?"
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "Kant named two things that fill the mind with awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "browne-two-books",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "Sir Thomas Browne collected his divinity from two books: the written one of God, and His servant Nature, that universal and public manuscript."
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "complement",
+   "why": "Hume laid down that no testimony is sufficient to establish a miracle unless its falsehood would be more miraculous than the fact. How far should a religion that welcomes scientific investigation accept that rule?"
+  },
+  {
+   "id": "origen-without-a-sun",
+   "after": "source:ABU0040",
+   "responds": [
+    "source:ABU0040"
+   ],
+   "relation": "adjacent",
+   "why": "Origen asked in the third century who that has understanding will suppose that there were days and evenings before there was a sun."
+  },
+  {
+   "id": "isaiah-sins-as-scarlet",
+   "after": "source:ABU1366",
+   "responds": [
+    "source:ABU1366"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God invites His people: come now, and let us reason together."
+  },
+  {
+   "id": "proverbs-beginning-of-knowledge",
+   "after": "source:ABU2272",
+   "responds": [
+    "source:ABU2272"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the fear of the Lord is the beginning of knowledge."
+  },
+  {
+   "id": "mark-sabbath-made-for-man",
+   "after": "source:ABU0614",
+   "responds": [
+    "source:ABU0614"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that the sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "matthew-weightier-matters",
+   "after": "source:ABU0614",
+   "responds": [
+    "source:ABU0614"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus distinguished the tithing of mint and cummin from the weightier matters of the law: judgment, mercy and faith."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics with the words: all men by nature desire to know."
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks: are those who know equal with those who know not?"
+  },
+  {
+   "id": "keats-unweave-a-rainbow",
+   "after": "source:ABU0873",
+   "responds": [
+    "source:ABU0873"
+   ],
+   "relation": "contrast",
+   "why": "Keats feared that cold philosophy would clip an angel's wings and unweave the rainbow. Is something lost when religion is required to agree with science?"
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU0873",
+   "responds": [
+    "source:ABU0873"
+   ],
+   "relation": "complement",
+   "why": "Whitman left the learned astronomer's lecture and looked up in perfect silence at the stars. What does each of the two ways of looking know that the other does not?"
+  },
+  {
+   "id": "emerson-sepulchres-of-the-fathers",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson complained that his age builds the sepulchres of the fathers, and asked why we should not also enjoy an original relation to the universe."
+  },
+  {
+   "id": "quran-guided-by-their-footprints",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an quotes those who say only: we found our fathers following a religion, and we are guided by their footprints."
+  },
+  {
+   "id": "mark-tradition-of-men",
+   "after": "source:ABU1561",
+   "responds": [
+    "source:ABU1561"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus charged the teachers of his day with laying aside the commandment of God to hold the tradition of men."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:ABU2646",
+   "responds": [
+    "source:ABU2646"
+   ],
+   "relation": "complement",
+   "why": "Xenophanes said that if horses could paint, they would paint the gods like horses. How is a religion that is God's will told apart from one that is human imagination?"
+  },
+  {
+   "id": "acts-not-in-temples-made-with-hands",
+   "after": "source:AB03738",
+   "responds": [
+    "source:AB03738"
+   ],
+   "relation": "adjacent",
+   "why": "Paul told the Athenians that God dwelleth not in temples made with hands."
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:ABU1955",
+   "responds": [
+    "source:ABU1955"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told the woman at the well that they that worship God must worship Him in spirit and in truth."
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "source:ABU1955",
+   "responds": [
+    "source:ABU1955"
+   ],
+   "relation": "adjacent",
+   "why": "Kabir has God say: I am neither in temple nor in mosque; lo, I am beside thee."
+  },
+  {
+   "id": "dickinson-sabbath",
+   "after": "source:ABU0967",
+   "responds": [
+    "source:ABU0967"
+   ],
+   "relation": "adjacent",
+   "why": "Emily Dickinson wrote: some keep the Sabbath going to church; I keep it staying at home, with an orchard for a dome."
+  },
+  {
+   "id": "paine-own-church",
+   "after": "source:ABU2794",
+   "responds": [
+    "source:ABU2794"
+   ],
+   "relation": "contrast",
+   "why": "Thomas Paine declared: my own mind is my own church. If religion is an attitude and not an edifice, what is a community of worship for?"
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:ABU0633",
+   "responds": [
+    "source:ABU0633"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: let your light so shine before men, that they may see your good works."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:AB10598",
+   "responds": [
+    "source:AB10598"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit: love, joy, peace, longsuffering, gentleness, goodness, faith."
+  },
+  {
+   "id": "dhammapada-teaching-of-the-buddhas",
+   "after": "source:ABU2815",
+   "responds": [
+    "source:ABU2815"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada sums up the teaching of the Buddhas: not to commit any sin, to do good, and to purify one's mind."
+  },
+  {
+   "id": "aristotle-by-doing-just-acts",
+   "after": "source:ABU0015",
+   "responds": [
+    "source:ABU0015"
+   ],
+   "relation": "complement",
+   "why": "Aristotle taught that we become just by doing just acts, as men become builders by building. What do divine teachings add to practice as a source of instruction?"
+  },
+  {
+   "id": "plato-young-and-tender-thing",
+   "after": "source:ABU1208",
+   "responds": [
+    "source:ABU1208"
+   ],
+   "relation": "adjacent",
+   "why": "Plato said that the beginning is the most important part of any work, especially with a young and tender thing."
+  },
+  {
+   "id": "analects-led-by-laws",
+   "after": "source:ABU1305",
+   "responds": [
+    "source:ABU1305"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that people led by laws and punishments try to avoid the punishment but have no sense of shame, while those led by virtue do."
+  },
+  {
+   "id": "avot-without-expectation-of-reward",
+   "after": "source:ABU1305",
+   "responds": [
+    "source:ABU1305"
+   ],
+   "relation": "adjacent",
+   "why": "The Sayings of the Fathers ask people to serve like servants who expect no reward."
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "source:ABU2295",
+   "responds": [
+    "source:ABU2295"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: ye shall know the truth, and the truth shall make you free."
+  },
+  {
+   "id": "augustine-love-and-do-what-you-will",
+   "after": "source:ABU0984",
+   "responds": [
+    "source:ABU0984"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine gave a short precept once for all: love, and do what you will."
+  },
+  {
+   "id": "matthew-not-peace-but-a-sword",
+   "after": "source:AB00065",
+   "responds": [
+    "source:AB00065"
+   ],
+   "relation": "contrast",
+   "why": "Jesus said: I came not to send peace, but a sword. How do you read that saying beside a religion that comes neither for strife nor for quarrelling with other faiths?"
+  },
+  {
+   "id": "psalm-walk-at-liberty",
+   "after": "source:ABU2081",
+   "responds": [
+    "source:ABU2081"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I will keep Thy law continually, and I will walk at liberty."
+  },
+  {
+   "id": "quran-nature-framed-of-allah",
+   "after": "source:ABU3247",
+   "responds": [
+    "source:ABU3247"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an bids its Prophet set his purpose for religion as a man by nature upright, the nature framed of God."
+  },
+  {
+   "id": "romans-law-unto-themselves",
+   "after": "source:ABU3079",
+   "responds": [
+    "source:ABU3079"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that those who have not the law and do by nature what it contains show the work of the law written in their hearts."
+  },
+  {
+   "id": "quran-same-religion",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the religion ordained is that commended to Noah, Abraham, Moses and Jesus: be not divided therein."
+  },
+  {
+   "id": "blake-all-religions-are-one",
+   "after": "source:ABU0052",
+   "responds": [
+    "source:ABU0052"
+   ],
+   "relation": "adjacent",
+   "why": "William Blake held that the religions of all nations are derived from each nation's different reception of one source."
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:ABU0052",
+   "responds": [
+    "source:ABU0052"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says: to what is One, sages give many a title."
+  },
+  {
+   "id": "chesterton-differ-in-what-they-teach",
+   "after": "source:ABU0178",
+   "responds": [
+    "source:ABU0178"
+   ],
+   "relation": "contrast",
+   "why": "Chesterton objected that the religions of the earth do not greatly differ in rites and forms; they do greatly differ in what they teach. If the foundation is one reality, how are those differences of teaching to be understood?"
+  },
+  {
+   "id": "cyprian-rays",
+   "after": "source:ABU0235",
+   "responds": [
+    "source:ABU0235"
+   ],
+   "relation": "adjacent",
+   "why": "Cyprian wrote that there are many rays of the sun, but one light."
+  },
+  {
+   "id": "matthew-not-to-destroy-but-fulfil",
+   "after": "source:ABU0365",
+   "responds": [
+    "source:ABU0365"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I am not come to destroy the law or the prophets, but to fulfil."
+  },
+  {
+   "id": "james-uniform-deliverance",
+   "after": "source:ABU3057",
+   "responds": [
+    "source:ABU3057"
+   ],
+   "relation": "adjacent",
+   "why": "William James found that the warring formulas of the religions cancel each other, but that there is a uniform deliverance in which they all appear to meet."
+  },
+  {
+   "id": "penn-one-religion",
+   "after": "source:ABU3057",
+   "responds": [
+    "source:ABU3057"
+   ],
+   "relation": "adjacent",
+   "why": "William Penn wrote that the humble, meek, merciful and just souls are everywhere of one religion."
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "source:ABU1991",
+   "responds": [
+    "source:ABU1991"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an has the believers say: we make no distinction between any of His messengers."
+  },
+  {
+   "id": "talmud-hillel-on-one-foot",
+   "after": "source:ABU0969",
+   "responds": [
+    "source:ABU0969"
+   ],
+   "relation": "adjacent",
+   "why": "Hillel said: that which is hateful to you do not do to another; that is the entire Torah."
+  },
+  {
+   "id": "analects-reciprocity",
+   "after": "source:ABU0969",
+   "responds": [
+    "source:ABU0969"
+   ],
+   "relation": "adjacent",
+   "why": "Asked for one word as a rule for all of life, Confucius answered: reciprocity; what you do not want done to yourself, do not do to others."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:ABU3137",
+   "responds": [
+    "source:ABU3137"
+   ],
+   "relation": "adjacent",
+   "why": "In Revelation the one seated on the throne says: behold, I make all things new."
+  },
+  {
+   "id": "burke-means-of-change",
+   "after": "source:ABU3137",
+   "responds": [
+    "source:ABU3137"
+   ],
+   "relation": "adjacent",
+   "why": "Edmund Burke wrote that a state without the means of some change is without the means of its conservation."
+  },
+  {
+   "id": "shakespeare-whats-in-a-name",
+   "after": "source:ABU0468",
+   "responds": [
+    "source:ABU0468"
+   ],
+   "relation": "adjacent",
+   "why": "Juliet says that a rose by any other name would smell as sweet."
+  },
+  {
+   "id": "isaiah-rod-out-of-jesse",
+   "after": "source:ABU1089",
+   "responds": [
+    "source:ABU1089"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foretells a rod out of the stem of Jesse, and a Branch that shall grow out of his roots."
+  },
+  {
+   "id": "emerson-as-if-god-were-dead",
+   "after": "source:ABU1631",
+   "responds": [
+    "source:ABU1631"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson complained that revelation is spoken of as somewhat long ago given and done, as if God were dead."
+  },
+  {
+   "id": "matthew-with-you-alway",
+   "after": "source:ABU3346",
+   "responds": [
+    "source:ABU3346"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew's Gospel ends with the words: lo, I am with you always, even unto the end of the world."
+  },
+  {
+   "id": "matthew-take-the-sword",
+   "after": "source:ABU2836",
+   "responds": [
+    "source:ABU2836"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told the disciple who struck with a sword to put it up again."
+  },
+  {
+   "id": "dostoevsky-why-art-thou-come-to-hinder-us",
+   "after": "source:ABU2836",
+   "responds": [
+    "source:ABU2836"
+   ],
+   "relation": "contrast",
+   "why": "Dostoevsky's Grand Inquisitor says to the returned Christ: why hast Thou come to hinder us? How does a church come to forget what its founder taught, and to prefer that he stay away?"
+  },
+  {
+   "id": "ecclesiastes-generation-passeth",
+   "after": "source:ABU3202",
+   "responds": [
+    "source:ABU3202"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says: one generation passeth away, and another generation cometh, but the earth abideth for ever."
+  },
+  {
+   "id": "micah-vine-and-fig-tree",
+   "after": "source:ABU3418",
+   "responds": [
+    "source:ABU3418"
+   ],
+   "relation": "adjacent",
+   "why": "Micah sees a day when nation shall not lift up sword against nation, and every man shall sit under his vine and under his fig tree."
+  },
+  {
+   "id": "hardy-red-war-yet-redder",
+   "after": "source:ABU3418",
+   "responds": [
+    "source:ABU3418"
+   ],
+   "relation": "contrast",
+   "why": "Hardy wrote that the world is as it used to be, all nations striving strong to make red war yet redder. What is real religion, if centuries of religion have not ended war?"
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:AB04278",
+   "responds": [
+    "source:AB04278"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the things which are seen are temporal, but the things which are not seen are eternal."
+  },
+  {
+   "id": "ezekiel-breath",
+   "after": "source:ABU0690",
+   "responds": [
+    "source:ABU0690"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel was told to prophesy to the wind, and the breath came into the slain, and they lived and stood up."
+  },
+  {
+   "id": "ecclesiastes-all-the-works-my-hands",
+   "after": "source:AB08125",
+   "responds": [
+    "source:AB08125"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher looked on all the works his hands had wrought, and behold, all was vanity and vexation of spirit."
+  },
+  {
+   "id": "matthew-pearl-of-great-price",
+   "after": "source:AB10950",
+   "responds": [
+    "source:AB10950"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told of a merchant who found one pearl of great price and sold all that he had to buy it."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:ABU2620",
+   "responds": [
+    "source:ABU2620"
+   ],
+   "relation": "complement",
+   "why": "Jesus said: I am the way, the truth, and the life. Is the highway into which all roads converge one religion among the others, or what they all share?"
+  },
+  {
+   "id": "vivekananda-own-law",
+   "after": "source:ABU1484",
+   "responds": [
+    "source:ABU1484"
+   ],
+   "relation": "contrast",
+   "why": "Vivekananda said that the Christian is not to become a Hindu, nor a Hindu a Christian, but each must grow according to his own law of growth. If there is but one connection with God, must the paths be one?"
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:BH10723",
+   "responds": [
+    "source:BH10723"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls the word of God a lamp unto the feet and a light unto the path."
+  }
+ ],
+ "library": {}
+}

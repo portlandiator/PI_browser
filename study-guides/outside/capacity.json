@@ -1,0 +1,378 @@
+{
+ "format": 2,
+ "slug": "capacity",
+ "subject": "58CCB959C2C14BCA91979DA42D866EC8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 21,
+ "quotations": 24,
+ "kept": [
+  "source:BH00779",
+  "source:ABU3088",
+  "source:AB04770",
+  "source:ABU0119",
+  "source:ABU0008",
+  "source:BH00597",
+  "source:BH00140",
+  "source:BH02623",
+  "source:BH10402",
+  "source:BH00238",
+  "source:AB00022",
+  "source:BH01756",
+  "source:BH09133",
+  "source:BH09495",
+  "source:BB00003",
+  "source:BH06123",
+  "source:BH03331",
+  "source:ABU2395",
+  "source:BH00049",
+  "source:BH00690",
+  "selection:a6318001851c86e6d0cd976d"
+ ],
+ "introduction": "These readings hold that every human being has been given the capacity to know and to love God, and that no one could justly be called to account otherwise; they also say that the capacity can lie unused, and that not every heart is ready. Beside them stand passages that speak of the same endowment, among them the image of God in Genesis, the light that lights every man, the word that is very nigh, the Qur’an's question to all the children of Adam, and Mencius on the bent of human nature. A few press the difficulty: the parable of the sower and its four soils, the saying that many are called but few chosen, Paul on mercy shown to whom God wills, and Locke on what upbringing makes of people. They are there to ask what is given to all and what is left to each.",
+ "questions": [
+  "The readings say the capacity to recognize God is universal. What in your experience of very different people supports that, and what tests it?",
+  "One reading traces rejection to the vain imaginings people were raised with, and Locke gives education nine parts in ten. How far can a person get free of an upbringing?",
+  "The parable of the sower describes four kinds of ground. Which describes you at different times, and what changes the ground?",
+  "Paul writes both that the law is written in every heart and that God has mercy on whom He will. How do you hold capacity and grace together?",
+  "If every person can recognize truth for themselves, what follows for how you speak with someone who sees things differently?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God say: let us make man in our image, after our likeness."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that man has been made a little lower than the angels and crowned with glory and honour."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU3088",
+   "responds": [
+    "source:ABU3088"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "luke-kingdom-within-you",
+   "after": "source:ABU3088",
+   "responds": [
+    "source:ABU3088"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that the kingdom of God cometh not with observation, for the kingdom of God is within you."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:AB04770",
+   "responds": [
+    "source:AB04770"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine says to God that our heart is restless until it rests in Thee, which is another way of describing a needle that points."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius taught that the tendency of human nature to good is like the tendency of water to flow downwards."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "complement",
+   "why": "Hamlet lists the same gifts, noble reason and infinite faculty, and then calls man the quintessence of dust. Why is so great an endowment so often felt as nothing?"
+  },
+  {
+   "id": "matthew-seeing-see-not",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that he spoke in parables because people seeing see not, and hearing they hear not."
+  },
+  {
+   "id": "mencius-lost-mind",
+   "after": "source:BH02623",
+   "responds": [
+    "source:BH02623"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius remarked that when people's fowls and dogs are lost they know to seek them, but they lose their mind and do not know to seek for it."
+  },
+  {
+   "id": "locke-nine-parts-of-ten",
+   "after": "source:BH02623",
+   "responds": [
+    "source:BH02623"
+   ],
+   "relation": "complement",
+   "why": "Locke thought that of all the people we meet, nine parts of ten are what they are by their education. If upbringing accounts for so much, how free is anyone to seek for themselves?"
+  },
+  {
+   "id": "matthew-sower-went-forth",
+   "after": "source:BH10402",
+   "responds": [
+    "source:BH10402"
+   ],
+   "relation": "complement",
+   "why": "In the parable the same seed falls by the way side, on stony places, among thorns and on good ground. Is the difference between hearts given, or made by what each heart does?"
+  },
+  {
+   "id": "matthew-many-called-few-chosen",
+   "after": "source:BH10402",
+   "responds": [
+    "source:BH10402"
+   ],
+   "relation": "contrast",
+   "why": "Jesus ends another parable with the words: many are called, but few are chosen. How does that saying sit with a capacity given to everyone?"
+  },
+  {
+   "id": "deuteronomy-word-very-nigh",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Moses says that the commandment is not in heaven or beyond the sea: the word is very nigh unto thee, in thy mouth and in thy heart."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that the power and capacity of learning exists in the soul already, and that the whole soul must be turned toward the light."
+  },
+  {
+   "id": "acts-no-respecter-of-persons",
+   "after": "source:BH01756",
+   "responds": [
+    "source:BH01756"
+   ],
+   "relation": "adjacent",
+   "why": "Peter said: of a truth I perceive that God is no respecter of persons."
+  },
+  {
+   "id": "timothy-all-men-to-be-saved",
+   "after": "source:BH09133",
+   "responds": [
+    "source:BH09133"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy says that God will have all men to be saved, and to come unto the knowledge of the truth."
+  },
+  {
+   "id": "jeremiah-law-in-their-inward-parts",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Through Jeremiah God promises: I will put my law in their inward parts, and write it in their hearts."
+  },
+  {
+   "id": "quran-am-i-not-your-lord",
+   "after": "source:BH06123",
+   "responds": [
+    "source:BH06123"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an tells how God asked all the children of Adam: am I not your Lord? and they answered: yea, verily."
+  },
+  {
+   "id": "acts-feel-after-him",
+   "after": "source:ABU2395",
+   "responds": [
+    "source:ABU2395"
+   ],
+   "relation": "adjacent",
+   "why": "Paul told the Athenians that God made all nations of one blood, that they should seek Him and feel after Him, though He is not far from every one of us."
+  },
+  {
+   "id": "quran-nature-framed-of-allah",
+   "after": "source:ABU2395",
+   "responds": [
+    "source:ABU2395"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of the nature framed by God, in which He has created man."
+  },
+  {
+   "id": "romans-law-unto-themselves",
+   "after": "source:BH00049",
+   "responds": [
+    "source:BH00049"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that those without the law show the work of the law written in their hearts."
+  },
+  {
+   "id": "romans-whom-he-will",
+   "after": "source:BH00049",
+   "responds": [
+    "source:BH00049"
+   ],
+   "relation": "contrast",
+   "why": "Paul also writes that God has mercy on whom He will, and asks who can resist His will. If recognition depends on God's choosing, in what sense is each person able and answerable?"
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the spirit of man is the candle of the Lord."
+  },
+  {
+   "id": "galatians-neither-jew-nor-greek",
+   "after": "selection:a6318001851c86e6d0cd976d",
+   "responds": [
+    "selection:a6318001851c86e6d0cd976d"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that there is neither Jew nor Greek, bond nor free, male nor female, for all are one."
+  }
+ ],
+ "library": {
+  "acts-feel-after-him": {
+   "text": "And hath made of one blood all nations of men for to dwell on all the face of the earth, and hath determined the times before appointed, and the bounds of their habitation; That they should seek the Lord, if haply they might feel after him, and find him, though he be not far from every one of us: For in him we live, and move, and have our being; as certain also of your own poets have said, For we are also his offspring",
+   "work": "Acts 17:26–28",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2017%3A26-28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-nature-framed-of-allah": {
+   "text": "So set thy purpose (O Muhammad) for religion as a man by nature upright - the nature (framed) of Allah, in which He hath created man. There is no altering (the laws of) Allah's creation. That is the right religion, but most men know not -",
+   "work": "Qur’an 30:30",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=30&verse=30",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "matthew-sower-went-forth": {
+   "text": "Behold, a sower went forth to sow; And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up: Some fell upon stony places, where they had not much earth: and forthwith they sprung up, because they had no deepness of earth: And when the sun was up, they were scorched; and because they had no root, they withered away. And some fell among thorns; and the thorns sprung up, and choked them: But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold. Who hath ears to hear, let him hear",
+   "work": "Matthew 13:3–9",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2013%3A3-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-law-in-their-inward-parts": {
+   "text": "I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people. And they shall teach no more every man his neighbour, and every man his brother, saying, Know the Lord: for they shall all know me, from the least of them unto the greatest of them",
+   "work": "Jeremiah 31:33–34",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2031%3A33-34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-all-men-to-be-saved": {
+   "text": "Who will have all men to be saved, and to come unto the knowledge of the truth",
+   "work": "1 Timothy 2:4",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%202%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

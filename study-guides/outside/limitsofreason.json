@@ -1,0 +1,690 @@
+{
+ "format": 2,
+ "slug": "limitsofreason",
+ "subject": "048D1BC9980545A2BF50BCE956D33C2C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 64,
+ "quotations": 67,
+ "kept": [
+  "source:ABU0300",
+  "source:BH00035",
+  "source:ABU0755",
+  "source:ABU0532",
+  "source:AB00520",
+  "source:AB00223",
+  "source:ABU0608",
+  "source:ABU0648",
+  "source:ABU0484",
+  "source:ABU0251",
+  "source:BH00400",
+  "source:ABU0971",
+  "source:ABU1568",
+  "source:ABU0888",
+  "source:ABU2865",
+  "source:ABU3156",
+  "source:ABU3717",
+  "source:ABU1868",
+  "source:ABU1707",
+  "source:AB01958",
+  "source:ABU0974",
+  "source:AB01117",
+  "source:AB02301",
+  "source:AB00045",
+  "source:AB00247",
+  "source:ABU3094",
+  "source:BB00383",
+  "source:BB00219",
+  "source:AB01374",
+  "source:BH00543",
+  "source:ABU1086",
+  "source:AB04098",
+  "source:BH02287",
+  "source:BH00001",
+  "source:BH08489",
+  "source:BB00001",
+  "source:BH00271",
+  "source:BH09161",
+  "source:AB10170",
+  "source:ABU0590",
+  "source:AB07148",
+  "source:AB10884",
+  "source:BH06477",
+  "source:ABU3375",
+  "source:ABU2176",
+  "source:BB00363",
+  "source:AB00824",
+  "source:AB03123",
+  "source:AB00063",
+  "source:ABU3540",
+  "source:ABU0657",
+  "source:ABU0281",
+  "source:ABU0773",
+  "source:ABU0577",
+  "source:ABU0114",
+  "source:BH00769",
+  "source:BH00112",
+  "source:ABU0416",
+  "source:ABU0692",
+  "source:ABU1653",
+  "source:ABU1594",
+  "selection:b0882381d2d2eca35d209185",
+  "selection:d71de6f3897987c8a7da8a54",
+  "selection:0bbc2396fd5f0a6780325d3f"
+ ],
+ "introduction": "These readings praise the mind as the greatest sign in a human being and then mark what it cannot do: the senses mislead, philosophers who trusted reason alone disagree, the Essence of God lies beyond every concept, and learning can make a person proud and blind. They say the intellect needs the heart and the Holy Spirit to complete it. Beside them stand others who found the same limits, among them Job before the whirlwind, Paul on knowing in part, the Tao that cannot be named, Pascal and Kant, and some who would not accept them or drew another lesson: Locke and Descartes on reason as judge, Milton on disagreement as knowledge in the making, Plato's philosopher kings, Wordsworth's vernal wood. They are set there so that humility about reason does not become contempt for it.",
+ "questions": [
+  "The readings point to the disagreements of philosophers as proof that reason is not a perfect standard; Milton calls such disagreement knowledge in the making. Which description fits your experience of argument?",
+  "The cow is offered as the greatest philosopher for those who trust only the senses. What do you take to be real that no sense could show you, and why?",
+  "Several readings say that the learned are often the last to recognize a new truth. What is it about knowledge that can close a person, and what keeps it open?",
+  "One reading says the intellect is of little avail until it serves the heart; Hume says reason only serves the passions. How do you tell a heart worth serving from a mere wish?",
+  "Locke asks that reason be the last judge in everything. If something stands above reason, how is a false claim to it to be detected?"
+ ],
+ "outside": [
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "source:ABU0300",
+   "responds": [
+    "source:ABU0300"
+   ],
+   "relation": "complement",
+   "why": "Milton wrote that where there is much desire to learn there will be much arguing and many opinions, for opinion in good men is but knowledge in the making. Is disagreement among thinkers a sign that reason fails, or that it is at work?"
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:BH00035",
+   "responds": [
+    "source:BH00035"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal said that he must seek his dignity not from space but from the government of his thought."
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:BH00035",
+   "responds": [
+    "source:BH00035"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: such knowledge is too wonderful for me; it is high, I cannot attain unto it."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:ABU0755",
+   "responds": [
+    "source:ABU0755"
+   ],
+   "relation": "adjacent",
+   "why": "Plato compared the good to the sun, which is the author not only of visibility in all visible things but of their growth."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU0532",
+   "responds": [
+    "source:ABU0532"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: when I was a child, I understood as a child, I thought as a child."
+  },
+  {
+   "id": "hebrews-leaving-the-principles",
+   "after": "source:ABU0532",
+   "responds": [
+    "source:ABU0532"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews distinguishes those who need milk from those of full age, whose senses are exercised to discern."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:AB00520",
+   "responds": [
+    "source:AB00520"
+   ],
+   "relation": "contrast",
+   "why": "Locke maintained that reason must be our last judge and guide in every thing. If reason is not the final criterion, what judges between competing claims to something higher?"
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:AB00223",
+   "responds": [
+    "source:AB00223"
+   ],
+   "relation": "adjacent",
+   "why": "Plato imagined human beings living in an underground den, with their legs and necks chained from childhood."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:ABU0608",
+   "responds": [
+    "source:ABU0608"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see through a glass, darkly, and know in part."
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:ABU0648",
+   "responds": [
+    "source:ABU0648"
+   ],
+   "relation": "complement",
+   "why": "Kant, after examining the questions on which philosophers never agree, wrote that he had to abolish knowledge to make room for belief. Is marking the limit of reason itself a work of reason?"
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:ABU0484",
+   "responds": [
+    "source:ABU0484"
+   ],
+   "relation": "contrast",
+   "why": "Descartes resolved to accept nothing as true that he did not clearly know to be such, and hoped by that method to reach certainty. Was his confidence in the intellect misplaced, or only incomplete?"
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU0251",
+   "responds": [
+    "source:ABU0251"
+   ],
+   "relation": "adjacent",
+   "why": "Mill observed that he who knows only his own side of the case knows little of that."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:BH00400",
+   "responds": [
+    "source:BH00400"
+   ],
+   "relation": "adjacent",
+   "why": "Locke too held that the mind has all the materials of reason and knowledge from experience."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:ABU0971",
+   "responds": [
+    "source:ABU0971"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal wrote that the heart has its reasons, which reason does not know."
+  },
+  {
+   "id": "emerson-gleam-of-light",
+   "after": "source:ABU0971",
+   "responds": [
+    "source:ABU0971"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson asked each person to detect and watch that gleam of light which flashes across the mind from within."
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:ABU1568",
+   "responds": [
+    "source:ABU1568"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: ask now the beasts, and they shall teach thee, and the fowls of the air, and they shall tell thee."
+  },
+  {
+   "id": "keats-unweave-a-rainbow",
+   "after": "source:ABU2865",
+   "responds": [
+    "source:ABU2865"
+   ],
+   "relation": "complement",
+   "why": "Keats complained that cold philosophy will clip an angel's wings and unweave a rainbow. Does explaining a thing by what the senses can measure take anything away from it?"
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:ABU3717",
+   "responds": [
+    "source:ABU3717"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that if oxen and horses had hands, horses would paint the gods like horses, and oxen like oxen."
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "source:ABU1868",
+   "responds": [
+    "source:ABU1868"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet tells his friend that there are more things in heaven and earth than are dreamt of in his philosophy."
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "source:ABU1707",
+   "responds": [
+    "source:ABU1707"
+   ],
+   "relation": "adjacent",
+   "why": "William Blake wrote that man has closed himself up, till he sees all things through narrow chinks of his cavern."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:AB01958",
+   "responds": [
+    "source:AB01958"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job: canst thou by searching find out God? Canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:ABU0974",
+   "responds": [
+    "source:ABU0974"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God says: as the heavens are higher than the earth, so are my thoughts than your thoughts."
+  },
+  {
+   "id": "exodus-graven-image",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "adjacent",
+   "why": "The commandment at Sinai forbids making any graven image or likeness, and the readings extend it to images made in the mind."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks: to whom then will ye liken God, or what likeness will ye compare unto Him?"
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:AB00045",
+   "responds": [
+    "source:AB00045"
+   ],
+   "relation": "adjacent",
+   "why": "Out of the whirlwind God asks Job: where wast thou when I laid the foundations of the earth? Declare, if thou hast understanding."
+  },
+  {
+   "id": "quran-throne-verse",
+   "after": "source:AB00247",
+   "responds": [
+    "source:AB00247"
+   ],
+   "relation": "adjacent",
+   "why": "The Throne Verse of the Qur’an says that they encompass nothing of His knowledge save what He will."
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:ABU3094",
+   "responds": [
+    "source:ABU3094"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy speaks of God dwelling in the light which no man can approach unto."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:ABU3094",
+   "responds": [
+    "source:ABU3094"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching begins: the Tao that can be trodden is not the enduring and unchanging Tao."
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "source:BB00219",
+   "responds": [
+    "source:BB00219"
+   ],
+   "relation": "adjacent",
+   "why": "Paul ends a long argument about providence by exclaiming: how unsearchable are His judgments, and His ways past finding out."
+  },
+  {
+   "id": "quran-spiders-house",
+   "after": "source:AB01374",
+   "responds": [
+    "source:AB01374"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the frailest of all houses is the spider's house."
+  },
+  {
+   "id": "job-now-mine-eye-seeth",
+   "after": "source:BH00543",
+   "responds": [
+    "source:BH00543"
+   ],
+   "relation": "adjacent",
+   "why": "At the end Job confesses: I uttered that I understood not; things too wonderful for me, which I knew not."
+  },
+  {
+   "id": "pope-proper-study",
+   "after": "source:ABU1086",
+   "responds": [
+    "source:ABU1086"
+   ],
+   "relation": "complement",
+   "why": "Pope advised: know then thyself, presume not God to scan; the proper study of mankind is man. If man has not been able to understand himself, where should study begin?"
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:ABU1086",
+   "responds": [
+    "source:ABU1086"
+   ],
+   "relation": "adjacent",
+   "why": "Hume, looking for himself, could never catch himself without a perception, and never observe anything but the perception."
+  },
+  {
+   "id": "corinthians-vail-upon-their-heart",
+   "after": "source:BH02287",
+   "responds": [
+    "source:BH02287"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a vail that remains upon the heart when the old writings are read."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that knowledge puffeth up, but charity edifieth, and that whoever thinks he knows anything knows nothing yet as he ought."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanked the Father for hiding these things from the wise and prudent and revealing them unto babes."
+  },
+  {
+   "id": "matthew-blind-leaders",
+   "after": "source:BH08489",
+   "responds": [
+    "source:BH08489"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus called certain teachers of his day blind leaders of the blind, and said that both shall fall into the ditch."
+  },
+  {
+   "id": "jeremiah-pen-of-the-scribes",
+   "after": "source:BH08489",
+   "responds": [
+    "source:BH08489"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah asks those who say, we are wise and the law is with us, whether the pen of the scribes has not been in vain."
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: where is the wise, where is the disputer of this world? Hath not God made foolish the wisdom of this world?"
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "complement",
+   "why": "The Preacher says that in much wisdom is much grief, and he that increaseth knowledge increaseth sorrow. Is the sorrow that knowledge brings a reason to seek less of it?"
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:BH09161",
+   "responds": [
+    "source:BH09161"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher warns that of making many books there is no end, and much study is a weariness of the flesh."
+  },
+  {
+   "id": "mark-tradition-of-men",
+   "after": "source:AB10170",
+   "responds": [
+    "source:AB10170"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus charged the teachers of his day with laying aside the commandment of God to hold the tradition of men."
+  },
+  {
+   "id": "colossians-through-philosophy",
+   "after": "source:ABU0590",
+   "responds": [
+    "source:ABU0590"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Colossians warns: beware lest any man spoil you through philosophy and vain deceit."
+  },
+  {
+   "id": "corinthians-not-many-mighty",
+   "after": "source:AB07148",
+   "responds": [
+    "source:AB07148"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds the Corinthians that not many wise after the flesh, not many mighty, not many noble are called."
+  },
+  {
+   "id": "proverbs-lean-not",
+   "after": "source:AB10884",
+   "responds": [
+    "source:AB10884"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: trust in the Lord with all thine heart, and lean not unto thine own understanding."
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:BH06477",
+   "responds": [
+    "source:BH06477"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God has chosen the foolish things of the world to confound the wise."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:ABU3375",
+   "responds": [
+    "source:ABU3375"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: blessed are the pure in heart, for they shall see God."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "The council saw that Peter and John were unlearned and ignorant men, and marvelled."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "People asked of Jesus: how knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "amos-no-prophet",
+   "after": "source:BB00363",
+   "responds": [
+    "source:BB00363"
+   ],
+   "relation": "adjacent",
+   "why": "Amos answered the priest of Bethel: I was no prophet, neither was I a prophet's son; I was an herdman."
+  },
+  {
+   "id": "quran-not-a-reader-before-it",
+   "after": "source:BB00363",
+   "responds": [
+    "source:BB00363"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says to its Prophet: thou wast not a reader of any scripture before it, nor didst thou write it with thy right hand."
+  },
+  {
+   "id": "aristotle-take-refuge-in-theory",
+   "after": "source:AB00824",
+   "responds": [
+    "source:AB00824"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle remarked that most people do not do just acts but take refuge in theory, and think they will become good in this way."
+  },
+  {
+   "id": "corinthians-tinkling-cymbal",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that though he understand all mysteries and all knowledge, and have not charity, he is nothing."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "complement",
+   "why": "Mill held it better to be Socrates dissatisfied than a fool satisfied. What is learning worth in itself, apart from the love that should go with it?"
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:ABU3540",
+   "responds": [
+    "source:ABU3540"
+   ],
+   "relation": "complement",
+   "why": "Hume wrote that reason is, and ought only to be, the slave of the passions. How does an intellect that serves the heart differ from one that serves desire?"
+  },
+  {
+   "id": "pascal-heart-experiences-god",
+   "after": "source:ABU3540",
+   "responds": [
+    "source:ABU3540"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal wrote that it is the heart which experiences God, and not the reason."
+  },
+  {
+   "id": "huxley-combating-the-cosmic-process",
+   "after": "source:ABU0657",
+   "responds": [
+    "source:ABU0657"
+   ],
+   "relation": "adjacent",
+   "why": "T. H. Huxley argued that ethical progress depends not on imitating the cosmic process of nature but on combating it."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "adjacent",
+   "why": "Elihu says that there is a spirit in man, and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that the craftsman Bezaleel was filled with the spirit of God, in wisdom, in understanding and in knowledge."
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:ABU0773",
+   "responds": [
+    "source:ABU0773"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the fear of the Lord is the beginning of wisdom."
+  },
+  {
+   "id": "psalm-greatness-unsearchable",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the Lord is great, and His greatness is unsearchable."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:ABU0416",
+   "responds": [
+    "source:ABU0416"
+   ],
+   "relation": "contrast",
+   "why": "Plato held that cities will have no rest from their evils until philosophers are kings. What has the record of philosophers and of prophets shown about who changes how people live?"
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:ABU0692",
+   "responds": [
+    "source:ABU0692"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that his preaching was not with enticing words of man's wisdom, but in demonstration of the Spirit and of power."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU1653",
+   "responds": [
+    "source:ABU1653"
+   ],
+   "relation": "complement",
+   "why": "Whitman tells how, tired of the learned astronomer's proofs and figures, he went out and looked up in perfect silence at the stars. What did he gain by leaving the lecture, and what did he leave behind?"
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:ABU1653",
+   "responds": [
+    "source:ABU1653"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau called the inventions of his day improved means to an unimproved end."
+  },
+  {
+   "id": "wordsworth-vernal-wood",
+   "after": "source:ABU1594",
+   "responds": [
+    "source:ABU1594"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth claimed that one impulse from a vernal wood may teach more of moral evil and of good than all the sages can. Is a sense of God in nature enough to live by, or to build a society on?"
+  },
+  {
+   "id": "tennyson-honest-doubt",
+   "after": "selection:d71de6f3897987c8a7da8a54",
+   "responds": [
+    "selection:d71de6f3897987c8a7da8a54"
+   ],
+   "relation": "complement",
+   "why": "Tennyson wrote that there lives more faith in honest doubt than in half the creeds. When is learning a veil, and when is its questioning a form of faith?"
+  }
+ ],
+ "library": {}
+}

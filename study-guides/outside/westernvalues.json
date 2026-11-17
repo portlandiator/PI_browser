@@ -1,0 +1,727 @@
+{
+ "format": 2,
+ "slug": "westernvalues",
+ "subject": "0948136C6D64E09F1F3FE2F80C9585D3",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 63,
+ "quotations": 63,
+ "kept": [
+  "source:ABU0505",
+  "source:ABU0020",
+  "source:ABU0219",
+  "source:ABU2523",
+  "source:ABU2631",
+  "source:ABU1515",
+  "source:ABU3420",
+  "source:ABU1480",
+  "source:AB02017",
+  "source:ABU0743",
+  "source:ABU1164",
+  "source:BH11727",
+  "source:ABU1600",
+  "source:ABU1353",
+  "source:ABU2281",
+  "source:ABU2728",
+  "source:AB00245",
+  "source:AB01035",
+  "source:AB02805",
+  "source:AB03298",
+  "source:ABU0728",
+  "source:ABU1608",
+  "source:ABU3039",
+  "source:ABU2261",
+  "source:ABU3367",
+  "source:ABU0555",
+  "source:ABU2943",
+  "source:ABU0488",
+  "source:ABU1113",
+  "source:ABU1068",
+  "source:ABU2319",
+  "source:ABU2570",
+  "source:ABU0771",
+  "source:ABU3744",
+  "source:ABU0873",
+  "source:ABU1241",
+  "source:AB02094",
+  "source:ABU0878",
+  "source:ABU0866",
+  "source:ABU2360",
+  "source:ABU2197",
+  "source:ABU0967",
+  "source:AB11645",
+  "source:ABU2004",
+  "source:ABU1099",
+  "source:ABU0823",
+  "source:AB12128",
+  "source:ABU1894",
+  "source:ABU3195",
+  "source:AB06107",
+  "source:BH00120",
+  "source:AB10374",
+  "source:AB04021",
+  "source:AB10909",
+  "source:AB01854",
+  "source:AB11863",
+  "source:AB00835",
+  "source:AB01046",
+  "source:AB00137",
+  "source:ABU0006",
+  "source:AB11262",
+  "source:ABU0901",
+  "source:ABU0404"
+ ],
+ "introduction": "These are words of praise spoken to and about the peoples of Europe and America in the years around 1912: for their readiness to investigate truth, their respect for law, the freedom of their churches and newspapers, the education of their women, their philanthropy and their energy. Read a century later they are also a statement of what the West promised. The sixty-three quotations are set beside sixty-three from elsewhere. Many come from the tradition being praised and show where its values came from: the Bereans who searched the scriptures, Milton and Mill on open argument, Kant on thinking for oneself, Aristotle and Locke on law above rulers, the American Declaration, Tocqueville on associations, Wollstonecraft on the minds of women. Others are the West’s critics, within and without, and are placed where the praise is warmest: Thucydides and Kipling on empire, Douglass on the Christianity of a slaveholding land, Twain on the export of civilization, Macaulay’s contempt for Eastern learning, Arnold on a faith in retreat, Gandhi on a civilization that will destroy itself. The praise was given as encouragement to live up to it, and the contrasts are a measure of how far that has been done.",
+ "questions": [
+  "The guide praises the readiness of Western peoples to accept truth. Which of the outside voices best explains where that readiness came from?",
+  "Thucydides, Kipling and Twain describe the same nations as empires. How should praise of a country's justice at home be weighed against its conduct abroad?",
+  "Douglass distinguishes the Christianity of his land from the Christianity of Christ. What would a similar distinction look like for any society's professed values?",
+  "Acts says the Athenians loved to hear some new thing. What is the difference between curiosity and a search for truth?",
+  "Montaigne says each people calls barbarous whatever is not its own custom, and Macaulay shows the habit at full strength. What would it take to praise another civilization justly?",
+  "The last reading says liberty has reached its highest degree. What, in the guide's view and in Rousseau's, is liberty for?"
+ ],
+ "outside": [
+  {
+   "id": "acts-bereans",
+   "after": "source:ABU0505",
+   "responds": [
+    "source:ABU0505"
+   ],
+   "relation": "adjacent",
+   "why": "Acts calls the Bereans more noble because they received the word with readiness and searched the scriptures daily to see whether it was so."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:ABU0505",
+   "responds": [
+    "source:ABU0505"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's confidence was that truth is never put to the worse in a free and open encounter with falsehood."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU0020",
+   "responds": [
+    "source:ABU0020"
+   ],
+   "relation": "adjacent",
+   "why": "Kant defined enlightenment as release from self-incurred tutelage, the inability to use one's understanding without direction from another."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:ABU0020",
+   "responds": [
+    "source:ABU0020"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates held that daily conversation about virtue, examining himself and others, is the greatest good of man."
+  },
+  {
+   "id": "tocqueville-form-associations",
+   "after": "source:ABU0219",
+   "responds": [
+    "source:ABU0219"
+   ],
+   "relation": "adjacent",
+   "why": "Tocqueville observed that Americans of all ages, conditions and dispositions constantly form associations."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:ABU0219",
+   "responds": [
+    "source:ABU0219"
+   ],
+   "relation": "adjacent",
+   "why": "The model of service to a stranger in the West's own scripture is a Samaritan who binds up wounds and pays the innkeeper."
+  },
+  {
+   "id": "galatians-put-on-christ",
+   "after": "source:ABU2523",
+   "responds": [
+    "source:ABU2523"
+   ],
+   "relation": "adjacent",
+   "why": "Paul wrote that there is neither male nor female, for all are one."
+  },
+  {
+   "id": "corinthians-women-keep-silence",
+   "after": "source:ABU2523",
+   "responds": [
+    "source:ABU2523"
+   ],
+   "relation": "contrast",
+   "why": "A letter of Paul also says that women are to keep silence in the churches. How much of the equality praised here was won against the West's own inheritance?"
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:ABU2631",
+   "responds": [
+    "source:ABU2631"
+   ],
+   "relation": "adjacent",
+   "why": "Wollstonecraft argued that to strengthen the female mind by enlarging it would put an end to blind obedience."
+  },
+  {
+   "id": "proverbs-strength-and-honour",
+   "after": "source:ABU2631",
+   "responds": [
+    "source:ABU2631"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs describes a woman clothed with strength and honour, who opens her mouth with wisdom."
+  },
+  {
+   "id": "aristotle-law-is-reason",
+   "after": "source:ABU1515",
+   "responds": [
+    "source:ABU1515"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that whoever bids the law rule bids God and Reason alone rule, while to bid a man rule adds an element of the beast."
+  },
+  {
+   "id": "declaration-consent-of-the-governed",
+   "after": "source:ABU1515",
+   "responds": [
+    "source:ABU1515"
+   ],
+   "relation": "adjacent",
+   "why": "The American Declaration holds that governments derive their just powers from the consent of the governed."
+  },
+  {
+   "id": "amos-let-judgment-run-down",
+   "after": "source:ABU3420",
+   "responds": [
+    "source:ABU3420"
+   ],
+   "relation": "adjacent",
+   "why": "Amos asks that judgment run down as waters, and righteousness as a mighty stream."
+  },
+  {
+   "id": "deuteronomy-king-shall-write-a-copy",
+   "after": "source:ABU3420",
+   "responds": [
+    "source:ABU3420"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy requires the king himself to write a copy of the law and keep it with him: the ruler is under it."
+  },
+  {
+   "id": "psalm-defend-the-poor",
+   "after": "source:ABU1480",
+   "responds": [
+    "source:ABU1480"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm states what an ideal of justice is for: defend the poor and fatherless, do justice to the afflicted and needy."
+  },
+  {
+   "id": "thucydides-the-strong-do-what-they-can",
+   "after": "source:AB02017",
+   "responds": [
+    "source:AB02017"
+   ],
+   "relation": "contrast",
+   "why": "Thucydides has an imperial power say that right is only in question between equals, while the strong do what they can and the weak suffer what they must. How does praise of an empire's justice sit beside that account of empire?"
+  },
+  {
+   "id": "proverbs-righteousness-exalteth-a-nation",
+   "after": "source:AB02017",
+   "responds": [
+    "source:AB02017"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that righteousness exalteth a nation, and that sin is a reproach to any people."
+  },
+  {
+   "id": "locke-state-of-war-with-the-people",
+   "after": "source:ABU0743",
+   "responds": [
+    "source:ABU0743"
+   ],
+   "relation": "adjacent",
+   "why": "Locke held that legislators who try to reduce the people to slavery under arbitrary power put themselves into a state of war with them."
+  },
+  {
+   "id": "universal-declaration-21",
+   "after": "source:ABU1164",
+   "responds": [
+    "source:ABU1164"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration says that the will of the people shall be the basis of the authority of government."
+  },
+  {
+   "id": "kipling-white-mans-burden",
+   "after": "source:BH11727",
+   "responds": [
+    "source:BH11727"
+   ],
+   "relation": "contrast",
+   "why": "Kipling urged his readers to take up the White Man's burden and send forth the best they breed to serve their captives' need. What did those who were governed make of a justice that came with conquest?"
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:ABU1600",
+   "responds": [
+    "source:ABU1600"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his followers that they are the light of the world, and that a city set on a hill cannot be hid."
+  },
+  {
+   "id": "douglass-christianity-of-this-land",
+   "after": "source:ABU1600",
+   "responds": [
+    "source:ABU1600"
+   ],
+   "relation": "contrast",
+   "why": "Douglass recognised the widest possible difference between the Christianity of his land and the Christianity of Christ. What is it to say that a civilization has grown under a religion's banner?"
+  },
+  {
+   "id": "universal-declaration-18",
+   "after": "source:ABU1353",
+   "responds": [
+    "source:ABU1353"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration gives everyone the right to freedom of thought, conscience and religion."
+  },
+  {
+   "id": "jefferson-difference-of-opinion",
+   "after": "source:ABU1353",
+   "responds": [
+    "source:ABU1353"
+   ],
+   "relation": "adjacent",
+   "why": "Jefferson reminded a divided country that every difference of opinion is not a difference of principle."
+  },
+  {
+   "id": "acts-unknown-god",
+   "after": "source:ABU2281",
+   "responds": [
+    "source:ABU2281"
+   ],
+   "relation": "adjacent",
+   "why": "Paul was heard at Athens, and began from an altar the Athenians themselves had raised to the unknown God."
+  },
+  {
+   "id": "acts-some-new-thing",
+   "after": "source:ABU2728",
+   "responds": [
+    "source:ABU2728"
+   ],
+   "relation": "complement",
+   "why": "Acts says that the Athenians spent their time in nothing else but to tell or to hear some new thing. Is openness to a new message the same as readiness to be changed by it?"
+  },
+  {
+   "id": "mill-minus-one",
+   "after": "source:AB00245",
+   "responds": [
+    "source:AB00245"
+   ],
+   "relation": "adjacent",
+   "why": "Mill held that if all mankind minus one were of one opinion, they would be no more justified in silencing that one than he them."
+  },
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "source:AB01035",
+   "responds": [
+    "source:AB01035"
+   ],
+   "relation": "adjacent",
+   "why": "Milton expected much arguing and many opinions wherever there is desire to learn, opinion in good men being knowledge in the making."
+  },
+  {
+   "id": "luke-no-prophet-in-his-own-country",
+   "after": "source:AB02805",
+   "responds": [
+    "source:AB02805"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus observed, with the solemn words \"verily I say unto you\", that no prophet is accepted in his own country."
+  },
+  {
+   "id": "matthew-from-the-east-and-west",
+   "after": "source:AB03298",
+   "responds": [
+    "source:AB03298"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus foresaw many coming from the east and west to sit down in the kingdom of heaven."
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:ABU1608",
+   "responds": [
+    "source:ABU1608"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's rule for inquiry is to prove all things and hold fast that which is good."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:ABU3039",
+   "responds": [
+    "source:ABU3039"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins from the same trait in everyone: all men by nature desire to know."
+  },
+  {
+   "id": "bacon-weigh-and-consider",
+   "after": "source:ABU2261",
+   "responds": [
+    "source:ABU2261"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon's rule for a seeker of knowledge is to read not to contradict nor to take for granted, but to weigh and consider."
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "source:ABU3367",
+   "responds": [
+    "source:ABU3367"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel joins truth and freedom: ye shall know the truth, and the truth shall make you free."
+  },
+  {
+   "id": "arnold-sea-of-faith",
+   "after": "source:ABU0555",
+   "responds": [
+    "source:ABU0555"
+   ],
+   "relation": "contrast",
+   "why": "Arnold heard the sea of faith, once at the full, in a melancholy, long, withdrawing roar. Which account of the West's spirituality is nearer to what you see?"
+  },
+  {
+   "id": "revelation-name-that-thou-livest",
+   "after": "source:ABU2943",
+   "responds": [
+    "source:ABU2943"
+   ],
+   "relation": "complement",
+   "why": "Revelation addresses a church that has a name that it lives, and is dead. How would one tell a liberal religious spirit from religion that has merely grown easy?"
+  },
+  {
+   "id": "hebrews-entertain-strangers",
+   "after": "source:ABU0488",
+   "responds": [
+    "source:ABU0488"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews asks its readers not to be forgetful to entertain strangers, since some have entertained angels unawares."
+  },
+  {
+   "id": "lazarus-golden-door",
+   "after": "source:ABU0488",
+   "responds": [
+    "source:ABU0488"
+   ],
+   "relation": "adjacent",
+   "why": "Emma Lazarus's sonnet asks for the tired, the poor and the huddled masses yearning to breathe free."
+  },
+  {
+   "id": "lincoln-malice-toward-none",
+   "after": "source:ABU1113",
+   "responds": [
+    "source:ABU1113"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln asked a nation at the end of a war to go on with malice toward none, with charity for all, with firmness in the right."
+  },
+  {
+   "id": "pericles-useless",
+   "after": "source:ABU1068",
+   "responds": [
+    "source:ABU1068"
+   ],
+   "relation": "adjacent",
+   "why": "Pericles praised a city whose ordinary citizens, though occupied with industry, are still fair judges of public matters."
+  },
+  {
+   "id": "james-perfect-law-of-liberty",
+   "after": "source:ABU2570",
+   "responds": [
+    "source:ABU2570"
+   ],
+   "relation": "adjacent",
+   "why": "James blesses the one who looks into the perfect law of liberty and continues in it, a doer of the work."
+  },
+  {
+   "id": "montesquieu-they-run-they-fly",
+   "after": "source:ABU3744",
+   "responds": [
+    "source:ABU3744"
+   ],
+   "relation": "adjacent",
+   "why": "Montesquieu's Persian visitor reports of Paris that in a month he has not seen anyone walking: they run, they fly."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0873",
+   "responds": [
+    "source:ABU0873"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's hope for a united world is nations that beat swords into plowshares and learn war no more."
+  },
+  {
+   "id": "whitman-earth-to-be-spanned",
+   "after": "source:ABU1241",
+   "responds": [
+    "source:ABU1241"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman saw the purpose of his country's works as the earth spanned, the races neighbours, and the lands welded together."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:ABU0866",
+   "responds": [
+    "source:ABU0866"
+   ],
+   "relation": "adjacent",
+   "why": "Mill held it better to be a human being dissatisfied than a pig satisfied, better Socrates dissatisfied than a fool satisfied."
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:ABU0866",
+   "responds": [
+    "source:ABU0866"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau called the inventions of his own civilization pretty toys: improved means to an unimproved end."
+  },
+  {
+   "id": "arnold-faith-in-machinery",
+   "after": "source:ABU2360",
+   "responds": [
+    "source:ABU2360"
+   ],
+   "relation": "adjacent",
+   "why": "Arnold warned his own country that faith in machinery, as if it had a value in itself, was its besetting danger."
+  },
+  {
+   "id": "gandhi-only-to-be-patient",
+   "after": "source:ABU2197",
+   "responds": [
+    "source:ABU2197"
+   ],
+   "relation": "contrast",
+   "why": "Gandhi judged the civilization of the West to be such that one has only to be patient and it will be self-destroyed. What does praise of Western energy have to answer in that judgement?"
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "source:ABU0967",
+   "responds": [
+    "source:ABU0967"
+   ],
+   "relation": "adjacent",
+   "why": "Milton defined the end of learning as to repair the ruins of our first parents by regaining to know God aright."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:AB11645",
+   "responds": [
+    "source:AB11645"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon's account of a learned community is reading, which makes a full man, conference a ready man, and writing an exact man."
+  },
+  {
+   "id": "carnegie-dies-thus-rich-dies-disgraced",
+   "after": "source:ABU2004",
+   "responds": [
+    "source:ABU2004"
+   ],
+   "relation": "adjacent",
+   "why": "Carnegie gave American philanthropy its sternest maxim: the man who dies thus rich dies disgraced."
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:ABU1099",
+   "responds": [
+    "source:ABU1099"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson imagined the battle-flags furled in the Parliament of man, the Federation of the world."
+  },
+  {
+   "id": "matthew-sick-and-ye-visited-me",
+   "after": "source:ABU0823",
+   "responds": [
+    "source:ABU0823"
+   ],
+   "relation": "adjacent",
+   "why": "In the Gospel the care of the sick is counted as done to Christ himself: I was sick, and ye visited me."
+  },
+  {
+   "id": "twain-blessings-of-civilization-trust",
+   "after": "source:AB12128",
+   "responds": [
+    "source:AB12128"
+   ],
+   "relation": "contrast",
+   "why": "Twain said that the heads of every state in Christendom were members both of the church and of the Blessings-of-Civilization Trust. How is the claim that a government has no purpose but the benefit of others to be tested?"
+  },
+  {
+   "id": "montaigne-title-of-barbarism",
+   "after": "source:ABU3195",
+   "responds": [
+    "source:ABU3195"
+   ],
+   "relation": "complement",
+   "why": "Montaigne found that every one gives the title of barbarism to everything that is not in use in his own country. How can East and West each learn from the other's way of reaching truth without that habit?"
+  },
+  {
+   "id": "macaulay-single-shelf",
+   "after": "source:AB06107",
+   "responds": [
+    "source:AB06107"
+   ],
+   "relation": "contrast",
+   "why": "Macaulay claimed that a single shelf of a good European library was worth the whole native literature of India and Arabia. What separates a just estimate of Western knowledge from this?"
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:BH00120",
+   "responds": [
+    "source:BH00120"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks where the wise and the scribe are, and whether God has not made foolish the wisdom of this world."
+  },
+  {
+   "id": "kipling-east-west",
+   "after": "source:AB00137",
+   "responds": [
+    "source:AB00137"
+   ],
+   "relation": "complement",
+   "why": "Kipling says that East and West shall never meet, and then that there is neither when two strong men stand face to face. What would each have to give up in order to meet?"
+  },
+  {
+   "id": "mark-gain-the-whole-world",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks what it profits to gain the whole world and lose one's own soul."
+  },
+  {
+   "id": "luke-unto-whom-much-is-given",
+   "after": "source:AB11262",
+   "responds": [
+    "source:AB11262"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that unto whomsoever much is given, of him shall be much required."
+  },
+  {
+   "id": "proverbs-wisdom-is-the-principal-thing",
+   "after": "source:ABU0901",
+   "responds": [
+    "source:ABU0901"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls wisdom the principal thing, and says: with all thy getting get understanding."
+  },
+  {
+   "id": "declaration-all-men-are-created-equal",
+   "after": "source:ABU0404",
+   "responds": [
+    "source:ABU0404"
+   ],
+   "relation": "adjacent",
+   "why": "The American Declaration holds it self-evident that all men are created equal and endowed with unalienable rights, among them liberty."
+  },
+  {
+   "id": "rousseau-moral-liberty",
+   "after": "source:ABU0404",
+   "responds": [
+    "source:ABU0404"
+   ],
+   "relation": "complement",
+   "why": "Rousseau says that the mere impulse of appetite is slavery, and obedience to a law we prescribe to ourselves is liberty. When liberty has reached its highest degree, what is it liberty for?"
+  }
+ ],
+ "library": {
+  "acts-some-new-thing": {
+   "text": "For all the Athenians and strangers which were there spent their time in nothing else, but either to tell, or to hear some new thing",
+   "work": "Acts 17:21",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2017%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-no-prophet-in-his-own-country": {
+   "text": "And he said, Verily I say unto you, No prophet is accepted in his own country",
+   "work": "Luke 4:24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-unto-whom-much-is-given": {
+   "text": "For unto whomsoever much is given, of him shall be much required: and to whom men have committed much, of him they will ask the more",
+   "work": "Luke 12:48",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2012%3A48&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

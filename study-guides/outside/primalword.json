@@ -1,0 +1,917 @@
+{
+ "format": 2,
+ "slug": "primalword",
+ "subject": "2AEC483F2F894D19A2807A453EDF46DA",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 65,
+ "quotations": 92,
+ "kept": [
+  "source:BH00223",
+  "source:AB00316",
+  "source:AB00345",
+  "source:BH00002",
+  "source:AB00538",
+  "source:BB00043",
+  "source:BB00098",
+  "source:BB00151",
+  "source:BB00001",
+  "source:AB00747",
+  "source:BH00306",
+  "source:BH00047",
+  "source:ABU0385",
+  "source:ABU1345",
+  "source:ABU2479",
+  "source:ABU1516",
+  "source:AB00096",
+  "source:AB00276",
+  "source:BH04673",
+  "source:AB00829",
+  "source:ABU1183",
+  "source:BH00848",
+  "source:BH02736",
+  "source:BB00158",
+  "source:BH02095",
+  "source:BH04491",
+  "source:BH00505",
+  "source:BH05024",
+  "source:BH00053",
+  "source:BH01631",
+  "source:ABU0227",
+  "source:BB00008",
+  "source:BB00005",
+  "source:BB00002",
+  "source:BH00354",
+  "source:BH00005",
+  "source:BH06526",
+  "source:BH10101",
+  "source:BH02872",
+  "source:BH02693",
+  "source:BH02871",
+  "source:BH09960",
+  "source:BH01500",
+  "source:BH01362",
+  "source:BH00084",
+  "source:BH02405",
+  "source:BH10338",
+  "source:BH03552",
+  "source:BH01616",
+  "source:BH05309",
+  "source:BH02635",
+  "selection:57b7b918c3fc8b3d579afe0e",
+  "selection:72c61942a1bf6bd8b42c0bea",
+  "selection:8ce543cecd245fc4c3d0df76",
+  "selection:2667973263986226db32e0ec",
+  "selection:e0f74afe305e509dcdf6775f",
+  "selection:1c7560df6026724e6a70edbe",
+  "selection:67ec79e4e672a6e92585d681",
+  "selection:40da3ae40b98a7b24175155f",
+  "selection:cc498424a817e6d624b4b2dd",
+  "selection:33053d3f813c2c6caa10cb95",
+  "selection:10a5439074cb3feffc804a92",
+  "selection:107403ddfae5e010a6322c1c",
+  "selection:e653c58a7bd8dce87fa272d4",
+  "selection:6f711f0f814d9e4b4a425c65"
+ ],
+ "introduction": "These readings speak of the Word of God as something prior to syllable and sound: the Primal Will, the first thing to proceed from God, through which all else exists; the Point from which every letter unfolds; the Remembrance of God that appears in a human being and addresses kings. Christ is called the Word because others are as letters and he a complete meaning. Beside the readings stand the texts that share this language, among them the opening of John's Gospel, Wisdom in Proverbs, the Qur’an's Be! and it is, and Plotinus on what overflows from the One. Other passages press on it: the Tao that cannot be named, Hardy's chance, Emerson on a divinity open to all, Paine on revelation as hearsay, and the warnings in the Gospels about false claimants. They help a reader ask what is meant by a Word, and how its bearer is known.",
+ "questions": [
+  "The readings say the Word is higher than anything the senses perceive. What is the difference between a word as sound and a word as meaning, in your own experience of being addressed?",
+  "One reading calls ordinary people letters and the Manifestation a word. What does a letter become when it is part of a word?",
+  "The Tao Te Ching refuses every name for the origin, and these readings name it Will, Word, Point and Remembrance. What does each name bring out?",
+  "Emerson held that anyone who thinks truly may speak as Jesus spoke. How do the readings answer the question whether a person can reach that station?",
+  "A long passage summons a king to aid the Remembrance of God. By what tests, according to the Gospel sayings set beside it, should such a summons be weighed?",
+  "Hillel put the whole Torah into one sentence and then said: go study. What single sentence would you choose, and what would the study be?"
+ ],
+ "outside": [
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: the words that I speak unto you, they are spirit, and they are life."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah found that the Lord was not in the wind, the earthquake or the fire, and then heard a still small voice."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "complement",
+   "why": "The Tao Te Ching begins by saying that the name that can be named is not the enduring and unchanging name. If the origin is beyond syllable and sound, why call it a Word at all?"
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that the Word was made flesh and dwelt among us, full of grace and truth."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Colossians calls Christ the image of the invisible God."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:AB00345",
+   "responds": [
+    "source:AB00345"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel begins: in the beginning was the Word, and the Word was with God."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:AB00345",
+   "responds": [
+    "source:AB00345"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews speaks of the brightness of God's glory and the express image of His person."
+  },
+  {
+   "id": "exodus-no-man-see-me-and-live",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Moses asked to see God's glory and was told: there shall no man see me, and live."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that no man hath seen God at any time; the Son hath declared him."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "complement",
+   "why": "Lao Tzu says that the Tao produced One, One produced Two, Two produced Three, and Three produced all things. Is the first thing to proceed from God better thought of as a will, a word or a number?"
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:BB00043",
+   "responds": [
+    "source:BB00043"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises that the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "quran-by-the-sun-and-his-brightness",
+   "after": "source:BB00043",
+   "responds": [
+    "source:BB00043"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an swears by the sun and his brightness, and the day when it reveals him."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:BB00098",
+   "responds": [
+    "source:BB00098"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the spirit of man is the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "pope-proper-study",
+   "after": "source:BB00098",
+   "responds": [
+    "source:BB00098"
+   ],
+   "relation": "contrast",
+   "why": "Pope advised: know then thyself, presume not God to scan; the proper study of mankind is man. Does knowledge of the self lead to knowledge of God, or take its place?"
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BB00151",
+   "responds": [
+    "source:BB00151"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that day unto day uttereth speech, and night unto night sheweth knowledge."
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BB00151",
+   "responds": [
+    "source:BB00151"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that by the word of the Lord were the heavens made."
+  },
+  {
+   "id": "proverbs-wisdom-before-his-works",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "In Proverbs Wisdom says that the Lord possessed her in the beginning of His way, before His works of old."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that His command, when He intends a thing, is only that He says unto it: Be! and it is."
+  },
+  {
+   "id": "isaiah-i-have-spoken-it",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God says: my counsel shall stand, and I will do all my pleasure."
+  },
+  {
+   "id": "augustine-i-asked-the-earth",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine asked the earth and the sea about God, and each replied: I am not He; seek higher than we."
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "contrast",
+   "why": "Thomas Hardy saw no will behind events, only crass casualty and dicing time. What in the world as you find it speaks of a will at its origin, and what of chance?"
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I am fearfully and wonderfully made; marvellous are Thy works."
+  },
+  {
+   "id": "dickinson-a-word-is-dead",
+   "after": "source:ABU0385",
+   "responds": [
+    "source:ABU0385"
+   ],
+   "relation": "adjacent",
+   "why": "Emily Dickinson answers those who say a word is dead when it is said: I say it just begins to live that day."
+  },
+  {
+   "id": "emerson-fossil-poetry",
+   "after": "source:ABU0385",
+   "responds": [
+    "source:ABU0385"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson wrote that the deadest word was once a brilliant picture, and that language is fossil poetry."
+  },
+  {
+   "id": "byron-words-are-things",
+   "after": "source:ABU1345",
+   "responds": [
+    "source:ABU1345"
+   ],
+   "relation": "adjacent",
+   "why": "Byron wrote that words are things, and a small drop of ink falling upon a thought makes thousands think."
+  },
+  {
+   "id": "wittgenstein-limits-of-my-language",
+   "after": "source:ABU1345",
+   "responds": [
+    "source:ABU1345"
+   ],
+   "relation": "complement",
+   "why": "Wittgenstein wrote that the limits of my language mean the limits of my world. If people are letters and the Manifestation a word, what can letters say on their own?"
+  },
+  {
+   "id": "john-my-doctrine-is-not-mine",
+   "after": "source:ABU2479",
+   "responds": [
+    "source:ABU2479"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: my doctrine is not mine, but His that sent me."
+  },
+  {
+   "id": "emerson-i-am-divine",
+   "after": "source:ABU1516",
+   "responds": [
+    "source:ABU1516"
+   ],
+   "relation": "contrast",
+   "why": "Emerson told a class of future ministers that Jesus said, I am divine, and added: or see thee, when thou also thinkest as I now think. Is the station of the Word open to anyone who thinks truly?"
+  },
+  {
+   "id": "john-ye-are-gods",
+   "after": "source:ABU1516",
+   "responds": [
+    "source:ABU1516"
+   ],
+   "relation": "complement",
+   "why": "Jesus answered his accusers from their own scripture: I said, ye are gods. What does that verse grant to ordinary people, and what does it leave to the one who quotes it?"
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the first man is of the earth, and that the natural comes first and afterward the spiritual."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "adjacent",
+   "why": "The council saw that Peter and John were unlearned men, and took knowledge of them that they had been with Jesus."
+  },
+  {
+   "id": "luke-heart-burn",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "adjacent",
+   "why": "The disciples at Emmaus asked: did not our heart burn within us, while he opened to us the scriptures?"
+  },
+  {
+   "id": "psalm-entrance-of-thy-words",
+   "after": "source:BH04673",
+   "responds": [
+    "source:BH04673"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: the entrance of Thy words giveth light; it giveth understanding unto the simple."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "In Genesis God said, Let there be light, and there was light."
+  },
+  {
+   "id": "corinthians-face-of-jesus-christ",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God, who commanded the light to shine out of darkness, has shined in our hearts."
+  },
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:ABU1183",
+   "responds": [
+    "source:ABU1183"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that he that loveth not knoweth not God, for God is love."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU1183",
+   "responds": [
+    "source:ABU1183"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends his poem with his desire and will turned by the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "psalm-voice-of-the-lord",
+   "after": "source:BH00848",
+   "responds": [
+    "source:BH00848"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the voice of the Lord is upon the waters, and the God of glory thundereth."
+  },
+  {
+   "id": "hebrews-upholding-all-things",
+   "after": "source:BH02736",
+   "responds": [
+    "source:BH02736"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews says that God, who spoke in time past by the prophets, has spoken by a Son through whom He made the worlds."
+  },
+  {
+   "id": "quran-be-originator",
+   "after": "source:BB00158",
+   "responds": [
+    "source:BB00158"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an calls God the Originator of the heavens and the earth, who says to a thing only: Be! and it is."
+  },
+  {
+   "id": "philippians-form-of-a-servant",
+   "after": "source:BH02095",
+   "responds": [
+    "source:BH02095"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of one who, being in the form of God, took upon him the form of a servant and was made in the likeness of men."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH02095",
+   "responds": [
+    "source:BH02095"
+   ],
+   "relation": "contrast",
+   "why": "Thomas Paine held that a revelation is revelation to the first person only, and hearsay to every other. What would make a Word in human form more than hearsay to those who were not there?"
+  },
+  {
+   "id": "deuteronomy-prophet-like-unto-me",
+   "after": "source:BH04491",
+   "responds": [
+    "source:BH04491"
+   ],
+   "relation": "adjacent",
+   "why": "Moses foretold a prophet into whose mouth God would put His words, who would speak all that God commanded him."
+  },
+  {
+   "id": "ephesians-fulness-of-times",
+   "after": "source:BH00505",
+   "responds": [
+    "source:BH00505"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Ephesians speaks of the mystery of God's will, to gather all things in one in the fulness of times."
+  },
+  {
+   "id": "hebrews-twoedged-sword",
+   "after": "source:BH05024",
+   "responds": [
+    "source:BH05024"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews calls the word of God a discerner of the thoughts and intents of the heart."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:BH05024",
+   "responds": [
+    "source:BH05024"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls the word a lamp unto the feet and a light unto the path."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "In Revelation the Lord says: I am Alpha and Omega, the beginning and the ending."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "complement",
+   "why": "William Blake wrote of seeing a world in a grain of sand and holding infinity in the palm of the hand. How can a single point be said to hold everything that unfolds from it?"
+  },
+  {
+   "id": "quran-allegorical-verses",
+   "after": "source:ABU0227",
+   "responds": [
+    "source:ABU0227"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that some of its verses are clear revelations, and these are the substance of the Book."
+  },
+  {
+   "id": "avot-turn-it-over",
+   "after": "source:ABU0227",
+   "responds": [
+    "source:ABU0227"
+   ],
+   "relation": "adjacent",
+   "why": "Ben Bag Bag said of the Torah: turn it over, and again turn it over, for all is therein."
+  },
+  {
+   "id": "talmud-hillel-on-one-foot",
+   "after": "source:ABU0227",
+   "responds": [
+    "source:ABU0227"
+   ],
+   "relation": "complement",
+   "why": "Hillel summed up the entire Torah in one sentence and added: the rest is its interpretation; go study. If the whole lies in a single saying, why is the unfolding needed?"
+  },
+  {
+   "id": "quran-am-i-not-your-lord",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an tells how God asked all the children of Adam: am I not your Lord? and they answered: yea, verily."
+  },
+  {
+   "id": "quran-remembrancer",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says to its Prophet: remind them, for thou art but a remembrancer; thou art not at all a warder over them."
+  },
+  {
+   "id": "quran-hearts-find-rest",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: verily in the remembrance of God do hearts find rest."
+  },
+  {
+   "id": "isaiah-behold-my-servant",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God says: behold my servant, whom I uphold; I have put my spirit upon him."
+  },
+  {
+   "id": "deuteronomy-king-shall-write-a-copy",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy requires a king to write himself a copy of the law and read in it all the days of his life."
+  },
+  {
+   "id": "proverbs-king-by-judgment",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the king by judgment establisheth the land, but he that receiveth gifts overthroweth it."
+  },
+  {
+   "id": "john-kingdom-not-of-this-world",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "complement",
+   "why": "Jesus told Pilate: my kingdom is not of this world. How should a Messenger's summons to a king be read beside that saying?"
+  },
+  {
+   "id": "quran-obeyeth-the-messenger",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says in a single line that whoever obeys the messenger has obeyed God."
+  },
+  {
+   "id": "quran-true-spirit-upon-thy-heart",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an calls itself a revelation which the True Spirit has brought down upon the Prophet's heart."
+  },
+  {
+   "id": "quran-produce-the-like",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that if mankind and the jinn should assemble to produce the like of it, they could not."
+  },
+  {
+   "id": "john-never-man-spake",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The officers sent to seize Jesus came back and said: never man spake like this man."
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "In the synagogue at Nazareth Jesus read: the Spirit of the Lord is upon me, because he hath anointed me."
+  },
+  {
+   "id": "matthew-by-what-authority",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "complement",
+   "why": "The chief priests asked Jesus: by what authority doest thou these things? How should rulers and the learned test one who claims to speak with God's voice?"
+  },
+  {
+   "id": "matthew-false-christs",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "contrast",
+   "why": "Jesus warned that false prophets would arise and show great signs, enough to deceive the very elect if that were possible. What tells a true Remembrance of God from a false one?"
+  },
+  {
+   "id": "machiavelli-armed-prophets",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "contrast",
+   "why": "Machiavelli wrote that all armed prophets have conquered and the unarmed ones have been destroyed. What does the appeal of an unarmed Messenger to a king say to that rule?"
+  },
+  {
+   "id": "john-do-his-will-shall-know",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that anyone who will do God's will shall know of the doctrine, whether it be of God."
+  },
+  {
+   "id": "amos-revealeth-his-secret",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Amos says that the Lord God will do nothing but He revealeth His secret unto His servants the prophets."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says that the word was in his heart as a burning fire shut up in his bones, and he could not stay."
+  },
+  {
+   "id": "luke-no-prophet-accepted",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said in his own town: no prophet is accepted in his own country."
+  },
+  {
+   "id": "matthew-not-to-destroy-but-fulfil",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: think not that I am come to destroy the law or the prophets; I am not come to destroy, but to fulfil."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "In Revelation the one seated on the throne says: behold, I make all things new."
+  },
+  {
+   "id": "shakespeare-whats-in-a-name",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "complement",
+   "why": "Juliet asks what is in a name, since a rose by any other name would smell as sweet. If the same Point appears in new attire and under a new name, what is the same and what is new?"
+  },
+  {
+   "id": "acts-bereans",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "The people of Berea received the word with readiness of mind, and searched the scriptures daily whether those things were so."
+  },
+  {
+   "id": "philippians-count-all-things-but-loss",
+   "after": "source:BH10101",
+   "responds": [
+    "source:BH10101"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:BH02872",
+   "responds": [
+    "source:BH02872"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: I live; yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "john-living-water",
+   "after": "source:BH09960",
+   "responds": [
+    "source:BH09960"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus spoke at the well of a water that becomes, in the one who drinks, a well of water springing up into everlasting life."
+  },
+  {
+   "id": "psalm-clean-heart",
+   "after": "source:BH01362",
+   "responds": [
+    "source:BH01362"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays: create in me a clean heart, O God, and renew a right spirit within me."
+  },
+  {
+   "id": "quran-sea-were-ink",
+   "after": "source:BH00084",
+   "responds": [
+    "source:BH00084"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that if the sea were ink for the words of the Lord, the sea would be used up before His words were exhausted."
+  },
+  {
+   "id": "john-wind-bloweth-where-it-listeth",
+   "after": "source:BH02405",
+   "responds": [
+    "source:BH02405"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that the wind bloweth where it listeth, and thou canst not tell whence it cometh."
+  },
+  {
+   "id": "tennyson-honest-doubt",
+   "after": "source:BH03552",
+   "responds": [
+    "source:BH03552"
+   ],
+   "relation": "complement",
+   "why": "Tennyson wrote that there lives more faith in honest doubt than in half the creeds. How should a person who honestly doubts hear the question, is there any doubt about God?"
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:BH01616",
+   "responds": [
+    "source:BH01616"
+   ],
+   "relation": "adjacent",
+   "why": "Moses turned aside to see a bush that burned with fire and was not consumed, and was called by name out of it."
+  },
+  {
+   "id": "luke-fire-on-the-earth",
+   "after": "source:BH01616",
+   "responds": [
+    "source:BH01616"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I am come to send fire on the earth, and what will I, if it be already kindled?"
+  },
+  {
+   "id": "john-dead-shall-hear",
+   "after": "source:BH02635",
+   "responds": [
+    "source:BH02635"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that the dead shall hear the voice of the Son of God, and they that hear shall live."
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "selection:57b7b918c3fc8b3d579afe0e",
+   "responds": [
+    "selection:57b7b918c3fc8b3d579afe0e"
+   ],
+   "relation": "contrast",
+   "why": "Kabir has God say: O servant, where dost thou seek Me? Lo, I am beside thee. Why do the prophets speak of a third world between God and the creature?"
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "selection:8ce543cecd245fc4c3d0df76",
+   "responds": [
+    "selection:8ce543cecd245fc4c3d0df76"
+   ],
+   "relation": "adjacent",
+   "why": "Plato compared the good to the sun, the author of visibility and of growth in all visible things."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "selection:e0f74afe305e509dcdf6775f",
+   "responds": [
+    "selection:e0f74afe305e509dcdf6775f"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "cyprian-rays",
+   "after": "selection:1c7560df6026724e6a70edbe",
+   "responds": [
+    "selection:1c7560df6026724e6a70edbe"
+   ],
+   "relation": "adjacent",
+   "why": "Cyprian wrote that there are many rays of the sun but one light, and the unity is preserved in the source."
+  },
+  {
+   "id": "colossians-created-for-him",
+   "after": "selection:40da3ae40b98a7b24175155f",
+   "responds": [
+    "selection:40da3ae40b98a7b24175155f"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Colossians says that by him were all things created, and he is before all things."
+  },
+  {
+   "id": "quran-mercy-for-the-peoples",
+   "after": "selection:10a5439074cb3feffc804a92",
+   "responds": [
+    "selection:10a5439074cb3feffc804a92"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says to its Prophet: We sent thee not save as a mercy for the peoples."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "selection:6f711f0f814d9e4b4a425c65",
+   "responds": [
+    "selection:6f711f0f814d9e4b4a425c65"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the invisible things of God are clearly seen, being understood by the things that are made."
+  }
+ ],
+ "library": {}
+}
