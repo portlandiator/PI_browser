@@ -1,0 +1,1092 @@
+{
+ "format": 2,
+ "slug": "revelationmodes",
+ "subject": "5B93ADAC08EC4BAABE2190E8FEC71C01",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 44,
+ "quotations": 48,
+ "kept": [
+  "source:BH00007",
+  "source:BH00005",
+  "source:BB00001",
+  "source:BB00662",
+  "source:BH06960",
+  "source:BH10082",
+  "source:BH00972",
+  "source:BH00127",
+  "source:BH04655",
+  "source:BH02413",
+  "source:BH04976",
+  "source:BH00565",
+  "source:AB00259",
+  "source:BH00223",
+  "source:AB00059",
+  "source:BH02999",
+  "source:BH00713",
+  "source:BH04452",
+  "source:BH00119",
+  "source:BH05706",
+  "source:ABU3294",
+  "source:BH00018",
+  "source:BH00657",
+  "source:BH00126",
+  "source:BB00073",
+  "source:BB00003",
+  "source:BH00095",
+  "source:BH00057",
+  "source:BH02009",
+  "source:BH01282",
+  "source:BH02065",
+  "source:BH03053",
+  "source:BH00349",
+  "source:BH02357",
+  "source:BH06491",
+  "source:BH08146",
+  "source:BH01561",
+  "source:BH01729",
+  "source:BH03239",
+  "source:BH01059",
+  "source:ABU1390",
+  "source:BH00247",
+  "source:BH09631",
+  "selection:c890e9fd350d1c0c48475fd0"
+ ],
+ "introduction": "These passages describe how the Báb and Bahá’u’lláh say their writings came: in several modes and two languages, at great speed, in a quantity past counting, set down by an amanuensis who could barely keep up, at times withheld or given \"in measure,\" and always as something received and not composed. Forty-eight outside voices are placed beside them. The prophets of Israel, the Gospels, Paul and the Qur’an say how the word came to them, with a scribe, a burning in the bones or the sound of a bell; Plato and Shelley speak of the poet's inspiration; and Hobbes, Paine and Carlyle put the objections that any claim to revelation has to face.",
+ "questions": [
+  "Several passages offer the speed and quantity of the verses as a proof. Why might that count as evidence, and what would Hobbes or Paine say?",
+  "Jeremiah, Amos and Muḥammad describe the word as something that overcame them. What do their accounts share with \"I was asleep upon My couch\"?",
+  "Plato and Shelley say that poets do not compose at will. How is revelation, as described here, different from inspiration?",
+  "The Qur’an was revealed piece by piece over twenty-three years; the Báb speaks of a thousand verses in a few hours. What might each manner teach?",
+  "Some things were revealed \"in measure\" or not at all. How does that compare with Jesus speaking in parables \"as they were able to hear\"?",
+  "A revelation \"thrown out in flashes\" is hard to read as a treatise. How should such writing be read?"
+ ],
+ "outside": [
+  {
+   "id": "hebrews-sundry-times-divers-manners",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews opens by saying that God spoke in past times at many times and in many manners."
+  },
+  {
+   "id": "quran-behind-a-veil",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an names the modes in which God speaks to a mortal: by inspiration, from behind a veil, or through a messenger."
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he became all things to all people, speaking to each in the way that could reach them."
+  },
+  {
+   "id": "jeremiah-baruch-wrote",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah also had a scribe: Baruch wrote on a scroll all the words from the prophet's mouth."
+  },
+  {
+   "id": "psalm-pen-of-a-ready-writer",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist says that his tongue is the pen of a ready writer."
+  },
+  {
+   "id": "quran-divided-that-thou-mayst-recite",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an says it was divided so that it could be recited to people at intervals, over many years. Here speed is taken as a sign. What might each manner of revelation be meant to teach?"
+  },
+  {
+   "id": "quran-produce-a-surah",
+   "after": "source:BB00662",
+   "responds": [
+    "source:BB00662"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an rests its claim on the same proof: let those who doubt produce a chapter like it."
+  },
+  {
+   "id": "quran-language-of-his-folk",
+   "after": "source:BH06960",
+   "responds": [
+    "source:BH06960"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that every messenger was sent with the language of his own people, so that he might make things clear to them."
+  },
+  {
+   "id": "acts-every-man-in-his-own-language",
+   "after": "source:BH10082",
+   "responds": [
+    "source:BH10082"
+   ],
+   "relation": "adjacent",
+   "why": "At Pentecost each listener heard the apostles speak in his own language."
+  },
+  {
+   "id": "corinthians-five-words",
+   "after": "source:BH10082",
+   "responds": [
+    "source:BH10082"
+   ],
+   "relation": "complement",
+   "why": "Paul would sooner speak five words that are understood than ten thousand in an unknown tongue. What is to be made of speech that is in neither language?"
+  },
+  {
+   "id": "jeremiah-words-in-thy-mouth",
+   "after": "source:BH00972",
+   "responds": [
+    "source:BH00972"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah's call has God touch his mouth and say: I have put my words in thy mouth."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:BH00127",
+   "responds": [
+    "source:BH00127"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples that he had many things to say which they could not bear yet."
+  },
+  {
+   "id": "mark-without-a-parable",
+   "after": "source:BH04655",
+   "responds": [
+    "source:BH04655"
+   ],
+   "relation": "adjacent",
+   "why": "Mark says that Jesus spoke to the crowds in parables, as they were able to hear, and explained all things to his disciples in private."
+  },
+  {
+   "id": "numbers-mouth-to-mouth",
+   "after": "source:BH04655",
+   "responds": [
+    "source:BH04655"
+   ],
+   "relation": "adjacent",
+   "why": "The book of Numbers distinguishes speech in visions and dark sayings from speech mouth to mouth."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:BH02413",
+   "responds": [
+    "source:BH02413"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an tells the Prophet not to hasten with the revelation before it is completed to him."
+  },
+  {
+   "id": "amos-lion-hath-roared",
+   "after": "source:BH00565",
+   "responds": [
+    "source:BH00565"
+   ],
+   "relation": "adjacent",
+   "why": "Amos explains his speaking in the same way: the Lord God has spoken; who can but prophesy?"
+  },
+  {
+   "id": "samuel-here-am-i",
+   "after": "source:BH00565",
+   "responds": [
+    "source:BH00565"
+   ],
+   "relation": "adjacent",
+   "why": "The boy Samuel was lying down asleep in the temple when he was first called."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BH00565",
+   "responds": [
+    "source:BH00565"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah tried to keep silent and found the word a fire shut up in his bones."
+  },
+  {
+   "id": "galatians-not-after-man",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "Paul insists that his message was not received from any man or taught to him, but came by revelation."
+  },
+  {
+   "id": "amos-no-prophet",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "Amos says that he was a herdsman and no prophet when the Lord took him from following the flock."
+  },
+  {
+   "id": "hobbes-dreamed-that-god-spake",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "contrast",
+   "why": "Hobbes objected that to say God spoke to a man in a dream is only to say he dreamed that God spoke to him. What kinds of evidence do these passages offer in reply?"
+  },
+  {
+   "id": "quran-not-a-reader-before-it",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of Muḥammad that he had read no scripture before it and had written none with his hand."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "The hearers of Jesus marvelled that he knew letters, never having learned."
+  },
+  {
+   "id": "plato-poets-like-diviners",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "complement",
+   "why": "Plato's Socrates concluded that poets compose by inspiration, like diviners, and do not understand what they say. How does the claim made here differ from a poet's inspiration?"
+  },
+  {
+   "id": "exodus-forty-days-and-forty-nights",
+   "after": "source:AB00059",
+   "responds": [
+    "source:AB00059"
+   ],
+   "relation": "adjacent",
+   "why": "Moses was on the mountain forty days and nights without bread or water while the words of the covenant were written."
+  },
+  {
+   "id": "hadith-ringing-of-a-bell",
+   "after": "source:BH02999",
+   "responds": [
+    "source:BH02999"
+   ],
+   "relation": "adjacent",
+   "why": "Muḥammad said that revelation sometimes came like the ringing of a bell, and that this form was the hardest."
+  },
+  {
+   "id": "daniel-no-strength",
+   "after": "source:BH02999",
+   "responds": [
+    "source:BH02999"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that at his vision no strength remained in him and he fell into a deep sleep."
+  },
+  {
+   "id": "shelley-fading-coal",
+   "after": "source:BH02999",
+   "responds": [
+    "source:BH02999"
+   ],
+   "relation": "complement",
+   "why": "Shelley says that no poet can will a poem: the mind in creation is a fading coal that an unseen wind awakens. What is alike, and what is not, in this amanuensis's account?"
+  },
+  {
+   "id": "samuel-no-open-vision",
+   "after": "source:BH04452",
+   "responds": [
+    "source:BH04452"
+   ],
+   "relation": "adjacent",
+   "why": "The story of Samuel begins in a time when the word of the Lord was rare and there was no open vision."
+  },
+  {
+   "id": "amos-famine-of-hearing",
+   "after": "source:BH04452",
+   "responds": [
+    "source:BH04452"
+   ],
+   "relation": "adjacent",
+   "why": "Amos speaks of a famine that is not of bread but of hearing the words of the Lord."
+  },
+  {
+   "id": "jeremiah-many-like-words",
+   "after": "source:BH00119",
+   "responds": [
+    "source:BH00119"
+   ],
+   "relation": "adjacent",
+   "why": "When a king burned Jeremiah's scroll, the prophet dictated it again, and many like words were added."
+  },
+  {
+   "id": "habakkuk-write-the-vision",
+   "after": "source:BH05706",
+   "responds": [
+    "source:BH05706"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk was told to write the vision and make it plain upon tablets."
+  },
+  {
+   "id": "plato-writing-silent",
+   "after": "source:ABU3294",
+   "responds": [
+    "source:ABU3294"
+   ],
+   "relation": "complement",
+   "why": "Plato's Socrates preferred living speech to writing, which cannot answer a question. What is gained and what is lost when a revelation comes mostly as written tablets?"
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH00018",
+   "responds": [
+    "source:BH00018"
+   ],
+   "relation": "contrast",
+   "why": "Paine held that revelation is revelation to the first person only and hearsay to everyone else. How does the invitation to \"come and see, and be present at the time of revelation\" answer him?"
+  },
+  {
+   "id": "quran-why-not-all-at-once",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an records the question why it was not revealed all at once, and answers that it was arranged so to strengthen the heart."
+  },
+  {
+   "id": "deuteronomy-doctrine-as-the-rain",
+   "after": "source:BH01282",
+   "responds": [
+    "source:BH01282"
+   ],
+   "relation": "adjacent",
+   "why": "Moses sings that his teaching shall drop as the rain and distil as the dew."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:BH02065",
+   "responds": [
+    "source:BH02065"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah compares the word to rain that does not return until it has watered the earth."
+  },
+  {
+   "id": "john-world-could-not-contain",
+   "after": "source:BH00349",
+   "responds": [
+    "source:BH00349"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel ends by saying that the world could not contain the books if everything were written."
+  },
+  {
+   "id": "quran-sea-were-ink",
+   "after": "source:BH00349",
+   "responds": [
+    "source:BH00349"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that if the sea were ink for the words of God, the sea would be used up first."
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:BH00349",
+   "responds": [
+    "source:BH00349"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher warns that of making many books there is no end, and much study wearies the flesh. What is a reader to do with a revelation too large to read?"
+  },
+  {
+   "id": "quran-trees-were-pens",
+   "after": "source:BH08146",
+   "responds": [
+    "source:BH08146"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that if all the trees were pens and the sea ink, the words of God would not be exhausted."
+  },
+  {
+   "id": "exodus-let-not-god-speak-with-us",
+   "after": "source:BH03239",
+   "responds": [
+    "source:BH03239"
+   ],
+   "relation": "adjacent",
+   "why": "At Sinai the people asked Moses to speak to them himself, lest they die if God spoke."
+  },
+  {
+   "id": "quran-upon-a-mountain",
+   "after": "source:BH03239",
+   "responds": [
+    "source:BH03239"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that a mountain would be humbled and split if the revelation came down upon it."
+  },
+  {
+   "id": "timothy-word-not-bound",
+   "after": "source:BH01059",
+   "responds": [
+    "source:BH01059"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes from his chains that the word of God is not bound."
+  },
+  {
+   "id": "philippians-furtherance-of-the-gospel",
+   "after": "source:BH01059",
+   "responds": [
+    "source:BH01059"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Philippians that his imprisonment has served to advance his message."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:ABU1390",
+   "responds": [
+    "source:ABU1390"
+   ],
+   "relation": "complement",
+   "why": "John's Gospel says that the Word was in the beginning with God. How does the distinction drawn here between spiritual and created words bear on that verse?"
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:BH09631",
+   "responds": [
+    "source:BH09631"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compares the word to seed, and its hearers to different soils."
+  },
+  {
+   "id": "carlyle-toilsome-reading",
+   "after": "selection:c890e9fd350d1c0c48475fd0",
+   "responds": [
+    "selection:c890e9fd350d1c0c48475fd0"
+   ],
+   "relation": "contrast",
+   "why": "Carlyle found the Qur’an a wearisome, confused jumble, and still thought it sincere. How does the remark that revelation comes \"in flashes\" answer a reader who expects a treatise?"
+  }
+ ],
+ "library": {
+  "hebrews-sundry-times-divers-manners": {
+   "text": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, Hath in these last days spoken unto us by his Son",
+   "work": "Hebrews 1:1–2",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%201%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-words-in-thy-mouth": {
+   "text": "Then the Lord put forth his hand, and touched my mouth. And the Lord said unto me, Behold, I have put my words in thy mouth",
+   "work": "Jeremiah 1:9",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%201%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-baruch-wrote": {
+   "text": "Then Jeremiah called Baruch the son of Neriah: and Baruch wrote from the mouth of Jeremiah all the words of the Lord, which he had spoken unto him, upon a roll of a book",
+   "work": "Jeremiah 36:4",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2036%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-many-like-words": {
+   "text": "Then took Jeremiah another roll, and gave it to Baruch the scribe, the son of Neriah; who wrote therein from the mouth of Jeremiah all the words of the book which Jehoiakim king of Judah had burned in the fire: and there were added besides unto them many like words",
+   "work": "Jeremiah 36:32",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2036%3A32&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "amos-lion-hath-roared": {
+   "text": "The lion hath roared, who will not fear? the Lord God hath spoken, who can but prophesy",
+   "work": "Amos 3:8",
+   "year": "8th century BCE",
+   "sortYear": -750,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Amos%203%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-moved-by-the-holy-ghost": {
+   "text": "For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost",
+   "work": "2 Peter 1:21",
+   "year": "c. 80–130 CE",
+   "sortYear": 110,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Peter%201%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-not-spoken-of-myself": {
+   "text": "For I have not spoken of myself; but the Father which sent me, he gave me a commandment, what I should say, and what I should speak. And I know that his commandment is life everlasting: whatsoever I speak therefore, even as the Father said unto me, so I speak",
+   "work": "John 12:49–50",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2012%3A49-50&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-every-man-in-his-own-language": {
+   "text": "Now when this was noised abroad, the multitude came together, and were confounded, because that every man heard them speak in his own language. And they were all amazed and marvelled, saying one to another, Behold, are not all these which speak Galilaeans? And how hear we every man in our own tongue, wherein we were born",
+   "work": "Acts 2:6–8",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%202%3A6-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-not-after-man": {
+   "text": "But I certify you, brethren, that the gospel which was preached of me is not after man. For I neither received it of man, neither was I taught it, but by the revelation of Jesus Christ",
+   "work": "Galatians 1:11–12",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%201%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "habakkuk-write-the-vision": {
+   "text": "And the Lord answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it. For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry",
+   "work": "Habakkuk 2:2–3",
+   "year": "7th century BCE",
+   "sortYear": -610,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Habakkuk%202%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-no-strength": {
+   "text": "Therefore I was left alone, and saw this great vision, and there remained no strength in me: for my comeliness was turned in me into corruption, and I retained no strength. Yet heard I the voice of his words: and when I heard the voice of his words, then was I in a deep sleep on my face, and my face toward the ground",
+   "work": "Daniel 10:8–9",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-here-am-i": {
+   "text": "And ere the lamp of God went out in the temple of the Lord, where the ark of God was, and Samuel was laid down to sleep; That the Lord called Samuel: and he answered, Here am I. And he ran unto Eli, and said, Here am I; for thou calledst me. And he said, I called not; lie down again. And he went and lay down",
+   "work": "1 Samuel 3:3–5",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%203%3A3-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-no-open-vision": {
+   "text": "And the child Samuel ministered unto the Lord before Eli. And the word of the Lord was precious in those days; there was no open vision",
+   "work": "1 Samuel 3:1",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%203%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-forty-days-and-forty-nights": {
+   "text": "And he was there with the Lord forty days and forty nights; he did neither eat bread, nor drink water. And he wrote upon the tables the words of the covenant, the ten commandments",
+   "work": "Exodus 34:28",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2034%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-let-not-god-speak-with-us": {
+   "text": "And all the people saw the thunderings, and the lightnings, and the noise of the trumpet, and the mountain smoking: and when the people saw it, they removed, and stood afar off. And they said unto Moses, Speak thou with us, and we will hear: but let not God speak with us, lest we die",
+   "work": "Exodus 20:18–19",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2020%3A18-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-five-words": {
+   "text": "I thank my God, I speak with tongues more than ye all: Yet in the church I had rather speak five words with my understanding, that by my voice I might teach others also, than ten thousand words in an unknown tongue",
+   "work": "1 Corinthians 14:18–19",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2014%3A18-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-divided-that-thou-mayst-recite": {
+   "text": "And (it is) a Qur'an that We have divided, that thou mayst recite it unto mankind at intervals, and We have revealed it by (successive) revelation.",
+   "work": "Qur’an 17:106",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=106",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-why-not-all-at-once": {
+   "text": "And those who disbelieve say: Why is the Qur'an not revealed unto him all at once? (It is revealed) thus that We may strengthen thy heart therewith; and We have arranged it in right order.",
+   "work": "Qur’an 25:32",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=25&verse=32",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-nor-doth-he-speak-of-desire": {
+   "text": "Nor doth he speak of (his own) desire.",
+   "work": "Qur’an 53:3",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=53&verse=3",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-inspiration-inspired": {
+   "text": "It is naught save an inspiration that is inspired,",
+   "work": "Qur’an 53:4",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=53&verse=4",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-stir-not-thy-tongue": {
+   "text": "Stir not thy tongue herewith to hasten it.",
+   "work": "Qur’an 75:16",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=75&verse=16",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-word-of-weight": {
+   "text": "For we shall charge thee with a word of weight.",
+   "work": "Qur’an 73:5",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=73&verse=5",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-produce-a-surah": {
+   "text": "And if ye are in doubt concerning that which We reveal unto Our slave (Muhammad), then produce a surah of the like thereof, and call your witness beside Allah if ye are truthful.",
+   "work": "Qur’an 2:23",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=23",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shelley-fading-coal": {
+   "text": "A man cannot say, \"I will compose poetry.\" The greatest poet even cannot say it; for the mind in creation is as a fading coal, which some invisible influence, like an inconstant wind, awakens to transitory brightness",
+   "author": "Percy Bysshe Shelley",
+   "work": "A Defence of Poetry",
+   "year": "1821; published 1840",
+   "sortYear": 1821,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Prose_Works_of_Percy_Bysshe_Shelley/Volume_2/A_Defence_of_Poetry",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1822."
+   }
+  },
+  "hobbes-dreamed-that-god-spake": {
+   "text": "To say he hath spoken to him in a Dream, is no more then to say he dreamed that God spake to him",
+   "author": "Thomas Hobbes",
+   "work": "Leviathan",
+   "locator": "chapter 32",
+   "year": "1651",
+   "sortYear": 1651,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leviathan_(1651)/Chapter_32",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1679."
+   }
+  },
+  "hadith-ringing-of-a-bell": {
+   "text": "Sometimes it is (revealed) like the ringing of a bell, this form of Inspiration is the hardest of all and then this state passes off after I have grasped what is inspired",
+   "author": "Muḥammad",
+   "work": "Ṣaḥīḥ al-Bukhārī",
+   "locator": "Book 1, no. 2",
+   "year": "7th century; collected in the 9th",
+   "sortYear": 630,
+   "translator": "Muhammad Muhsin Khan",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://sunnah.com/bukhari:2",
+    "label": "Sunnah.com",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation; one sentence."
+   }
+  }
+ }
+}

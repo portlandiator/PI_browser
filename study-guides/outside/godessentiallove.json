@@ -1,0 +1,870 @@
+{
+ "format": 2,
+ "slug": "godessentiallove",
+ "subject": "592F9B4AA5B5491F827732B4D4675681",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 30,
+ "quotations": 37,
+ "kept": [
+  "source:BH00296",
+  "source:BH00386",
+  "source:BH00594",
+  "source:BH00001",
+  "source:AB01214",
+  "source:ABU0009",
+  "source:ABU0004",
+  "source:ABU0709",
+  "source:ABU0651",
+  "source:BB00017",
+  "source:BB00050",
+  "source:BB00069",
+  "source:BB00082",
+  "source:AB00791",
+  "source:BH09299",
+  "source:AB00007",
+  "source:ABU0006",
+  "source:ABU0399",
+  "source:ABU0057",
+  "source:AB00006",
+  "source:BH01579",
+  "source:BH01414",
+  "source:BB00028",
+  "source:ABU0012",
+  "source:ABU0343",
+  "source:AB04595",
+  "selection:52bdde4baf6c32f8b999676a",
+  "selection:f4c6e4afb6bf3977a3ea76b3",
+  "selection:10df3d501d09fe321f40a03c",
+  "selection:a76d106995d5f53a21116233"
+ ],
+ "introduction": "This short guide gathers passages on a single thought: that before anything was made, God knew and loved his own Essence, and that this love is the reason there is a world. The tradition \"I was a hidden treasure and loved to be known\" stands at its centre, with accounts of love as the first effulgence of divinity and of a praise that only God can give to God. Thirty-seven outside voices are placed beside them: the Gospel and letters of John, Proverbs and the Qur’an, the Rig Veda and an Upanishad, Aristotle and Plotinus, Augustine, Dante, Julian of Norwich and Spinoza, with Feuerbach and Tennyson to ask the hard questions.",
+ "questions": [
+  "The hidden-treasure tradition says God created in order to be known; the Qur’an says, to be worshipped. How do you relate the two?",
+  "An Upanishad imagines a first being that was lonely and wished for a second. Why do these passages insist that divine love was complete before creation?",
+  "Spinoza says the mind's love of God is the love with which God loves himself, and the Báb says \"Thy love for me is my love for Thee.\" What is alike in the two, and what is not?",
+  "Aristotle's God moves the world by being loved and gives nothing in return. What changes if love flows first from God?",
+  "Tennyson found it hard to believe that love is creation's final law. What would you say to him from these readings?",
+  "If no praise but God's own befits God, what are human praise and love for?"
+ ],
+ "outside": [
+  {
+   "id": "dante-lovest-and-smilest",
+   "after": "source:BH00296",
+   "responds": [
+    "source:BH00296"
+   ],
+   "relation": "adjacent",
+   "why": "At the summit of his vision Dante addresses a light that alone knows itself and, knowing, loves itself, very near to this opening."
+  },
+  {
+   "id": "deuteronomy-because-the-lord-loved-you",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy gives the same reason for a people's being chosen: no merit in them, only that God loved them."
+  },
+  {
+   "id": "genesis-image-and-likeness",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis is the older statement that the human being is made in the image of the maker."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "contrast",
+   "why": "Feuerbach reverses the direction: the divine image is human nature projected outward. What in this passage resists being read that way, and what does not?"
+  },
+  {
+   "id": "julian-love-was-his-meaning",
+   "after": "source:BH00594",
+   "responds": [
+    "source:BH00594"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich, after fifteen years of asking what her visions meant, is given a single answer: love was the meaning."
+  },
+  {
+   "id": "quran-created-to-worship",
+   "after": "source:BH00594",
+   "responds": [
+    "source:BH00594"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an says humankind was created only to worship; the tradition quoted here says, to know. How are worship and knowledge of God related as purposes of creation?"
+  },
+  {
+   "id": "matthew-treasure-hid-in-a-field",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus also likens the highest thing to a treasure that lies hidden until someone finds it and gives everything for it."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:AB01214",
+   "responds": [
+    "source:AB01214"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends his poem with love as the force that moves the sun and the other stars."
+  },
+  {
+   "id": "wisdom-made-and-loved",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "The Wisdom of Solomon reasons the same way: God loves all that exists, for he would not have made what he hated."
+  },
+  {
+   "id": "john-epistle-first-loved-us",
+   "after": "source:ABU0709",
+   "responds": [
+    "source:ABU0709"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John puts this in a sentence: we love because he first loved us."
+  },
+  {
+   "id": "blake-beams-of-love",
+   "after": "source:ABU0709",
+   "responds": [
+    "source:ABU0709"
+   ],
+   "relation": "adjacent",
+   "why": "Blake has a mother teach her child that God's love is like the sun's heat, which life on earth trains us to bear."
+  },
+  {
+   "id": "spinoza-cannot-endeavour-that-god-love-him",
+   "after": "source:ABU0709",
+   "responds": [
+    "source:ABU0709"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza holds that one who loves God cannot seek to be loved in return. This passage makes God's love the source of ours. What is at stake between them?"
+  },
+  {
+   "id": "john-epistle-herein-is-love",
+   "after": "source:ABU0651",
+   "responds": [
+    "source:ABU0651"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John likewise begins with the love that flows from God to humanity and counts it the origin of all other love."
+  },
+  {
+   "id": "john-lovedst-me-before-the-foundation",
+   "after": "source:ABU0651",
+   "responds": [
+    "source:ABU0651"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of a love within the divine life before the world was made, a parallel to the third kind of love named here."
+  },
+  {
+   "id": "samuel-jonathan-loved-him",
+   "after": "source:ABU0651",
+   "responds": [
+    "source:ABU0651"
+   ],
+   "relation": "adjacent",
+   "why": "The friendship of Jonathan and David is the scriptural picture of the fourth kind: one soul knit to another."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching makes the same point about the ultimate with a paradox: the one who knows does not say."
+  },
+  {
+   "id": "quran-vision-comprehendeth-not",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an states that no vision takes God in, while he takes in all vision."
+  },
+  {
+   "id": "exodus-i-am-that-i-am",
+   "after": "source:BB00050",
+   "responds": [
+    "source:BB00050"
+   ],
+   "relation": "adjacent",
+   "why": "At the burning bush God names himself only by himself, a description that is nothing other than his own being."
+  },
+  {
+   "id": "spinoza-god-loves-himself",
+   "after": "source:BB00069",
+   "responds": [
+    "source:BB00069"
+   ],
+   "relation": "complement",
+   "why": "Spinoza reaches by argument what this prayer says in devotion: the mind's love for God is the very love with which God loves himself. What does the language of lover and beloved add to the philosopher's?"
+  },
+  {
+   "id": "quran-loveth-and-who-love-him",
+   "after": "source:BB00069",
+   "responds": [
+    "source:BB00069"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of a people whom God loves and who love him, in that order."
+  },
+  {
+   "id": "proverbs-daily-his-delight",
+   "after": "source:AB00791",
+   "responds": [
+    "source:AB00791"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs pictures Wisdom before creation as God's daily delight, playing before him, close to this image of love at play."
+  },
+  {
+   "id": "brihadaranyaka-wished-for-a-second",
+   "after": "source:AB00791",
+   "responds": [
+    "source:AB00791"
+   ],
+   "relation": "contrast",
+   "why": "An Upanishad tells of a primal Self that felt no delight alone and wished for a second. Here love is complete without us. Does creation come from a lack, or from a fullness?"
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:BH09299",
+   "responds": [
+    "source:BH09299"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus describes the One as so perfect that it overflows, and its abundance makes something other than itself."
+  },
+  {
+   "id": "ephesians-passeth-knowledge",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Ephesians prays that its readers may know a love that surpasses knowledge."
+  },
+  {
+   "id": "corinthians-greatest-of-these",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Paul ranks love above faith and hope as the greatest of what endures."
+  },
+  {
+   "id": "rigveda-desire-in-the-beginning",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda's hymn of creation also sets desire at the beginning, before the worlds, as the first seed."
+  },
+  {
+   "id": "augustine-lover-beloved-love",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "complement",
+   "why": "Augustine finds in love itself a three: the one who loves, what is loved, and love. How does his analysis compare with this account of love arising within unity?"
+  },
+  {
+   "id": "acts-not-in-temples-made-with-hands",
+   "after": "source:BB00028",
+   "responds": [
+    "source:BB00028"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that the maker of all is not served by human hands as though he needed anything."
+  },
+  {
+   "id": "psalm-if-i-were-hungry",
+   "after": "source:BB00028",
+   "responds": [
+    "source:BB00028"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm has God say the same with irony: if I were hungry I would not tell you, for the world is mine."
+  },
+  {
+   "id": "quran-ye-are-the-poor",
+   "after": "source:BB00028",
+   "responds": [
+    "source:BB00028"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an sets human need beside divine self-sufficiency: you are the poor, and God is the Absolute."
+  },
+  {
+   "id": "zephaniah-rest-in-his-love",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "adjacent",
+   "why": "The prophet Zephaniah pictures God rejoicing over his people and resting in his love."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson sets the faith that love is creation's final law against a nature red in tooth and claw. How would this talk answer what he saw?"
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:ABU0343",
+   "responds": [
+    "source:ABU0343"
+   ],
+   "relation": "complement",
+   "why": "Aristotle's first mover moves the world by being loved, and gives nothing. Here love is an outpouring from God. What difference does the direction of love make?"
+  },
+  {
+   "id": "hopkins-gods-grandeur",
+   "after": "source:ABU0343",
+   "responds": [
+    "source:ABU0343"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins sees the natural world charged with a grandeur that is never spent, the work of a brooding love."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:AB04595",
+   "responds": [
+    "source:AB04595"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs speaks of love's power in like terms: strong as death, a flame that waters cannot quench."
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "selection:10df3d501d09fe321f40a03c",
+   "responds": [
+    "selection:10df3d501d09fe321f40a03c"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle, before Plotinus, concluded that the divine thought can only think itself: a thinking on thinking."
+  },
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "selection:a76d106995d5f53a21116233",
+   "responds": [
+    "selection:a76d106995d5f53a21116233"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse quoted, as the King James Bible gives it."
+  }
+ ],
+ "library": {
+  "john-lovedst-me-before-the-foundation": {
+   "text": "Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world",
+   "work": "John 17:24",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2017%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-daily-his-delight": {
+   "text": "Then I was by him, as one brought up with him: and I was daily his delight, rejoicing always before him; Rejoicing in the habitable part of his earth; and my delights were with the sons of men",
+   "work": "Proverbs 8:30–31",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%208%3A30-31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-as-though-he-needed": {
+   "text": "God that made the world and all things",
+   "work": "Acts 17:24–25",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2017%3A24-25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-because-the-lord-loved-you": {
+   "text": "The Lord did not set his love upon you, nor choose you, because ye were more in number than any people; for ye were the fewest of all people: But because the Lord loved you",
+   "work": "Deuteronomy 7:7–8",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%207%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-passeth-knowledge": {
+   "text": "That Christ may dwell in your hearts by faith; that ye, being rooted and grounded in love, May be able to comprehend with all saints what is the breadth, and length, and depth, and height; And to know the love of Christ, which passeth knowledge, that ye might be filled with all the fulness of God",
+   "work": "Ephesians 3:17–19",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%203%3A17-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-if-i-were-hungry": {
+   "text": "For every beast of the forest is mine, and the cattle upon a thousand hills. I know all the fowls of the mountains: and the wild beasts of the field are mine. If I were hungry, I would not tell thee: for the world is mine, and the fulness thereof",
+   "work": "Psalm 50:10–12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2050%3A10-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-epistle-herein-is-love": {
+   "text": "In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him. Herein is love, not that we loved God, but that he loved us, and sent his Son to be the propitiation for our sins",
+   "work": "1 John 4:9–10",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "zephaniah-rest-in-his-love": {
+   "text": "The Lord thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing",
+   "work": "Zephaniah 3:17",
+   "year": "7th century BCE",
+   "sortYear": -630,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Zephaniah%203%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-loveth-and-who-love-him": {
+   "text": "O ye who believe! Whoso of you becometh a renegade from his religion, (know that in his stead) Allah will bring a people whom He loveth and who love Him, humble toward believers, stern toward disbelievers, striving in the way of Allah, and fearing not the blame of any blamer. Such is the grace of Allah which He giveth unto whom He will. Allah is All-Embracing, All-Knowing.",
+   "work": "Qur’an 5:54",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=54",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-forgiving-the-loving": {
+   "text": "And He is the Forgiving, the Loving,",
+   "work": "Qur’an 85:14",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=85&verse=14",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "spinoza-god-loves-himself": {
+   "text": "The intellectual love of the mind towards God is that very love of God whereby God loves himself, not in so far as he is infinite, but in so far as he can be explained through the essence of the human mind regarded under the form of eternity",
+   "author": "Baruch Spinoza",
+   "work": "Ethics",
+   "locator": "Part V, proposition 36",
+   "year": "1677",
+   "sortYear": 1677,
+   "translator": "R. H. M. Elwes",
+   "translationYear": "1883",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Ethics_(Spinoza)/Part_5",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1883."
+   }
+  },
+  "dante-lovest-and-smilest": {
+   "text": "O Light Eterne, sole in thyself that dwellest, / Sole knowest thyself, and, known unto thyself / And knowing, lovest and smilest on thyself",
+   "verse": true,
+   "author": "Dante Alighieri",
+   "work": "The Divine Comedy: Paradiso",
+   "locator": "Canto XXXIII",
+   "year": "c. 1320",
+   "sortYear": 1320,
+   "translator": "Henry Wadsworth Longfellow",
+   "translationYear": "1867",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Divine_Comedy_(Longfellow_1867)/Volume_3/Canto_33",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1882."
+   }
+  },
+  "augustine-lover-beloved-love": {
+   "text": "There, then, also are three things: he that loves, and that which is loved, and love",
+   "author": "Augustine of Hippo",
+   "work": "On the Trinity",
+   "locator": "Book VIII, chapter 10",
+   "year": "c. 400–420",
+   "sortYear": 410,
+   "translator": "Arthur West Haddan",
+   "translationYear": "1887",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/130108.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1873."
+   }
+  },
+  "julian-love-was-his-meaning": {
+   "text": "Wouldst thou learn thy Lord's meaning in this thing? Learn it well: Love was His meaning. Who shewed it thee? Love. What shewed He thee? Love. Wherefore shewed it He? For Love",
+   "author": "Julian of Norwich",
+   "work": "Revelations of Divine Love",
+   "locator": "chapter 86",
+   "year": "late 14th century",
+   "sortYear": 1395,
+   "translator": "Grace Warrack’s Edition",
+   "translationYear": "1901",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Revelations_of_Divine_Love/Chapter_86",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\[\\d+\\]"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Editor d. 1932."
+   }
+  },
+  "tennyson-red-in-tooth-and-claw": {
+   "text": "Who trusted God was love indeed / And love Creation's final law— / Tho' Nature, red in tooth and claw / With ravine, shriek'd against his creed",
+   "verse": true,
+   "author": "Alfred Tennyson",
+   "work": "In Memoriam A. H. H.",
+   "locator": "LVI",
+   "year": "1850",
+   "sortYear": 1850,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/In_Memoriam_(Tennyson)/Canto_55",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "blake-beams-of-love": {
+   "text": "And we are put on earth a little space / That we may learn to bear the beams of love",
+   "verse": true,
+   "author": "William Blake",
+   "work": "Songs of Innocence: The Little Black Boy",
+   "year": "1789",
+   "sortYear": 1789,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Songs_of_Innocence_and_of_Experience_(1826)/Songs_of_Innocence/The_Little_Black_Boy",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "aristotle-thinking-on-thinking": {
+   "text": "Therefore it must be of itself that the divine thought thinks (since it is the most excellent of things), and its thinking is a thinking on thinking",
+   "author": "Aristotle",
+   "work": "Metaphysics",
+   "locator": "Book XII, chapter 9",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/metaphysics.12.xii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  },
+  "aristotle-moves-as-being-loved": {
+   "text": "The final cause, then, produces motion as being loved, but all other things move by being moved",
+   "author": "Aristotle",
+   "work": "Metaphysics",
+   "locator": "Book XII, chapter 7",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/metaphysics.12.xii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  },
+  "spinoza-cannot-endeavour-that-god-love-him": {
+   "text": "He, who loves God, cannot endeavour that God should love him in return",
+   "author": "Baruch Spinoza",
+   "work": "Ethics",
+   "locator": "Part V, proposition 19",
+   "year": "1677",
+   "sortYear": 1677,
+   "translator": "R. H. M. Elwes",
+   "translationYear": "1883",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Ethics_(Spinoza)/Part_5",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1883."
+   }
+  },
+  "rigveda-desire-in-the-beginning": {
+   "text": "Thereafter rose Desire in the beginning, Desire, the primal seed and germ of Spirit",
+   "work": "Rig Veda",
+   "locator": "10.129.4 (the Hymn of Creation)",
+   "year": "c. 1500–1000 BCE",
+   "sortYear": -1100,
+   "translator": "Ralph T. H. Griffith",
+   "translationYear": "1896",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda/Book_10/Hymn_129",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1906."
+   }
+  },
+  "brihadaranyaka-wished-for-a-second": {
+   "text": "But he felt no delight. Therefore a man who is lonely feels no delight. He wished for a second",
+   "work": "Bṛihadāraṇyaka Upanishad",
+   "locator": "1.4.3",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -700,
+   "translator": "F. Max Müller",
+   "translationYear": "1884",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://archive.org/stream/in.ernet.dli.2015.22552/2015.22552.The-Upanishads--Part-2_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "repair": [
+     [
+      "fdt",
+      "felt"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   },
+   "caveat": "Copied from a scanned book; one misread word is corrected."
+  }
+ }
+}

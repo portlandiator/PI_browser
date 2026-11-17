@@ -1,0 +1,2158 @@
+{
+ "format": 2,
+ "slug": "covenantbreakers",
+ "subject": "42BA11FC5FE24CBEA769298634A7FA42",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 92,
+ "quotations": 100,
+ "kept": [
+  "source:AB01409",
+  "source:BH00001",
+  "source:BH00354",
+  "source:BH00312",
+  "source:AB03441",
+  "source:AB00224",
+  "source:AB01878",
+  "source:AB00121",
+  "source:AB02215",
+  "source:AB01009",
+  "source:AB02278",
+  "source:AB02573",
+  "source:AB04364",
+  "source:AB01521",
+  "source:AB10265",
+  "source:BH01904",
+  "source:AB00292",
+  "source:AB00401",
+  "source:AB01499",
+  "source:AB00204",
+  "source:AB01545",
+  "source:AB00005",
+  "source:BH01027",
+  "source:AB02430",
+  "source:BH02884",
+  "source:AB03780",
+  "source:ABU0412",
+  "source:BH00218",
+  "source:BH00383",
+  "source:BH00924",
+  "source:BH02132",
+  "source:BH03990",
+  "source:BH05022",
+  "source:AB00783",
+  "source:AB08789",
+  "source:ABU1225",
+  "source:BH00284",
+  "source:AB05990",
+  "source:AB06703",
+  "source:AB12794",
+  "source:AB00195",
+  "source:AB00001",
+  "source:AB00045",
+  "source:AB00945",
+  "source:AB00465",
+  "source:BH00173",
+  "source:BH01059",
+  "source:BH02485",
+  "source:BH00837",
+  "source:AB00079",
+  "source:ABU0433",
+  "source:BH00399",
+  "source:BH01990",
+  "source:AB07153",
+  "source:ABU0130",
+  "source:BH01820",
+  "source:BH03022",
+  "source:AB02459",
+  "source:BH02782",
+  "source:AB12027",
+  "source:AB00351",
+  "source:AB00048",
+  "source:AB00307",
+  "source:AB00149",
+  "source:AB03135",
+  "source:AB08885",
+  "source:AB11639",
+  "source:ABU1263",
+  "source:ABU2509",
+  "source:ABU3276",
+  "source:BH00253",
+  "source:BH01511",
+  "source:AB00064",
+  "source:AB00051",
+  "source:AB01628",
+  "source:AB02068",
+  "source:AB02424",
+  "source:AB05331",
+  "source:AB09027",
+  "source:AB00208",
+  "source:AB00065",
+  "source:AB00198",
+  "source:ABU3119",
+  "source:AB01964",
+  "source:AB03264",
+  "source:AB11662",
+  "source:AB11851",
+  "source:BH03680",
+  "source:BH04243",
+  "source:BH08846",
+  "source:BH02693",
+  "source:BH00005"
+ ],
+ "introduction": "These passages speak of one of the hardest subjects in the Bahá’í writings: the breaking of the Covenant by people inside the community, among them members of the founders' own families. They describe what was done, why association with those who persist is forbidden, why kindness and counsel are owed to the wavering, and why such opposition passes like foam on the sea. Beside them stand a hundred outside voices. Many show how old the pattern is: the golden calf, Korah, Absalom, Judas, the divisions of the first churches and the Qur’an's warnings about broken oaths. Others, from Jesus's parable of the weeds to Milton, Mill and Jefferson, press the questions any practice of separation must answer.",
+ "questions": [
+  "The passages distinguish the wavering, who are owed kindness and loving counsel, from those who work to divide. How do Paul's instructions to the Thessalonians and Galatians draw a similar line?",
+  "In the parable of the weeds the servants are told to wait for the harvest. What reasons do these passages give for not waiting, and what safeguards do they include?",
+  "Milton and Mill trust open encounter to defeat falsehood. What is different about a campaign carried on by concealment, forged letters and calumny?",
+  "One passage says return is difficult, as for an arrow that has left the bow; Ezekiel says whoever turns shall live. How do you read the two together?",
+  "Betrayal by a brother, a sister or a companion runs through the Psalms, Genesis and Shakespeare. Why is opposition from within felt so differently from opposition from outside?",
+  "The last prayer has the worshipper confess to having broken the Covenant. What does praying those words about oneself do to the way one speaks of others?"
+ ],
+ "outside": [
+  {
+   "id": "quran-rain-and-foam",
+   "after": "source:AB01409",
+   "responds": [
+    "source:AB01409"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an uses the same figure: the foam on the flood passes away as scum, while what profits people remains."
+  },
+  {
+   "id": "acts-if-it-be-of-men",
+   "after": "source:AB01409",
+   "responds": [
+    "source:AB01409"
+   ],
+   "relation": "adjacent",
+   "why": "Gamaliel gave the Jerusalem council the same test of time: what is merely of men will come to nothing by itself."
+  },
+  {
+   "id": "quran-break-covenant-after-ratifying",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an describes in like terms those who break God's covenant after ratifying it, and counts them the losers."
+  },
+  {
+   "id": "milton-abdiel-faithful-found",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's Abdiel is praised in the same terms as Vafa: faithful alone among the faithless, unmoved by numbers or example."
+  },
+  {
+   "id": "quran-true-to-covenant",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an honours believers who stayed true to what they had covenanted with God and did not alter in the least."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB03441",
+   "responds": [
+    "source:AB03441"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives a plain rule for telling the real from the seeming: judge the tree by the fruit it bears."
+  },
+  {
+   "id": "john-epistle-went-out-from-us",
+   "after": "source:AB00224",
+   "responds": [
+    "source:AB00224"
+   ],
+   "relation": "contrast",
+   "why": "John concludes that those who left were never truly of the community. This passage says its restive souls were once firm and wrote in defence of firmness. Which account better fits what people are like?"
+  },
+  {
+   "id": "acts-grievous-wolves",
+   "after": "source:AB01878",
+   "responds": [
+    "source:AB01878"
+   ],
+   "relation": "adjacent",
+   "why": "Paul, taking leave of the elders of Ephesus, foresaw the same assault from within after his departure."
+  },
+  {
+   "id": "quran-allegorical-verses",
+   "after": "source:AB00121",
+   "responds": [
+    "source:AB00121"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an distinguishes clear verses from ambiguous ones and warns of those who pursue the ambiguous in order to cause dissension."
+  },
+  {
+   "id": "shakespeare-vaulting-ambition",
+   "after": "source:AB02215",
+   "responds": [
+    "source:AB02215"
+   ],
+   "relation": "adjacent",
+   "why": "Macbeth admits that he has no reason for his deed but ambition, the self-knowledge this passage attributes to the violators."
+  },
+  {
+   "id": "numbers-korah",
+   "after": "source:AB02278",
+   "responds": [
+    "source:AB02278"
+   ],
+   "relation": "contrast",
+   "why": "Korah's challenge to Moses is phrased as a plea for equality: all the congregation is holy. How is a just-sounding claim that serves ambition to be told from an honest one?"
+  },
+  {
+   "id": "kings-how-long-halt-ye",
+   "after": "source:AB02573",
+   "responds": [
+    "source:AB02573"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah on Carmel puts a similar choice to the people and allows no middle ground between two opinions."
+  },
+  {
+   "id": "timothy-form-of-godliness",
+   "after": "source:AB04364",
+   "responds": [
+    "source:AB04364"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes people who keep the form of religion while denying its power, and advises turning away from them."
+  },
+  {
+   "id": "matthew-blasphemy-not-forgiven",
+   "after": "source:AB01521",
+   "responds": [
+    "source:AB01521"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying of Jesus on which the passage rests its distinction between failing to recognize and loathing the Spirit itself."
+  },
+  {
+   "id": "quran-no-compulsion",
+   "after": "source:AB10265",
+   "responds": [
+    "source:AB10265"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an says there is no compulsion in religion, and this passage calls the Covenant freely chosen. What obligations follow from a bond that was entered freely?"
+  },
+  {
+   "id": "hosea-transgressed-the-covenant",
+   "after": "source:BH01904",
+   "responds": [
+    "source:BH01904"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea brings the same charge against an earlier people: they have transgressed the covenant and dealt treacherously."
+  },
+  {
+   "id": "quran-covenant-of-the-prophets",
+   "after": "source:BH01904",
+   "responds": [
+    "source:BH01904"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an also speaks of a covenant taken through every prophet, binding people to believe and help the one who comes after."
+  },
+  {
+   "id": "corinthians-i-am-of-paul",
+   "after": "source:AB00292",
+   "responds": [
+    "source:AB00292"
+   ],
+   "relation": "adjacent",
+   "why": "The earliest churches met division almost at once; Paul answers the parties at Corinth with the question whether Christ is divided."
+  },
+  {
+   "id": "shakespeare-serpents-tooth",
+   "after": "source:AB00401",
+   "responds": [
+    "source:AB00401"
+   ],
+   "relation": "adjacent",
+   "why": "Lear's cry over an ungrateful child gives words to the grief of opposition from those raised within the household."
+  },
+  {
+   "id": "milton-better-to-reign-in-hell",
+   "after": "source:AB00401",
+   "responds": [
+    "source:AB00401"
+   ],
+   "relation": "contrast",
+   "why": "Milton gives the rebel angel a speech of defiant freedom that many readers have admired. Why does such pride impress, and what does this passage see in it instead?"
+  },
+  {
+   "id": "matthew-sheeps-clothing",
+   "after": "source:AB00204",
+   "responds": [
+    "source:AB00204"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus warns of those whose outward appearance and inward purpose are opposite, the contrast this passage draws."
+  },
+  {
+   "id": "shakespeare-i-am-not-what-i-am",
+   "after": "source:AB00204",
+   "responds": [
+    "source:AB00204"
+   ],
+   "relation": "adjacent",
+   "why": "Iago states the method of concealed enmity in a single line, and prides himself on it."
+  },
+  {
+   "id": "galatians-restore-such-an-one",
+   "after": "source:AB01545",
+   "responds": [
+    "source:AB01545"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that one who has slipped be restored gently, by people mindful that they could fall as well."
+  },
+  {
+   "id": "luke-hand-to-the-plough",
+   "after": "source:AB00005",
+   "responds": [
+    "source:AB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of wavering what this passage says: looking back from the plough leads nowhere."
+  },
+  {
+   "id": "john-epistle-receive-him-not",
+   "after": "source:AB02430",
+   "responds": [
+    "source:AB02430"
+   ],
+   "relation": "adjacent",
+   "why": "The second letter of John gives an early Christian parallel: do not receive or greet one who brings a contrary teaching."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:AB02430",
+   "responds": [
+    "source:AB02430"
+   ],
+   "relation": "contrast",
+   "why": "Mill holds that one who knows only his own side of a case scarcely knows that. How can a community guard against deliberate subversion and still know its own case well?"
+  },
+  {
+   "id": "titus-in-works-deny",
+   "after": "source:BH02884",
+   "responds": [
+    "source:BH02884"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to Titus notes that some profess God and deny him by their deeds, the source of the doubts described here."
+  },
+  {
+   "id": "peter-tried-with-fire",
+   "after": "source:AB03780",
+   "responds": [
+    "source:AB03780"
+   ],
+   "relation": "adjacent",
+   "why": "Peter writes to believers under trial that faith is proved like gold in the fire."
+  },
+  {
+   "id": "romans-mark-them-which-cause-divisions",
+   "after": "source:ABU0412",
+   "responds": [
+    "source:ABU0412"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives the Roman church the same counsel: mark those who cause divisions, and avoid them."
+  },
+  {
+   "id": "matthew-friend-of-publicans",
+   "after": "source:ABU0412",
+   "responds": [
+    "source:ABU0412"
+   ],
+   "relation": "contrast",
+   "why": "Jesus was blamed for keeping company with those the pious avoided. What separates a person fallen into fault, who is to be sought out, from one who works to undo the faith of others?"
+  },
+  {
+   "id": "quran-put-out-the-light",
+   "after": "source:BH00218",
+   "responds": [
+    "source:BH00218"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says the same of a light that mouths cannot blow out and that God will perfect."
+  },
+  {
+   "id": "psalm-mine-own-familiar-friend",
+   "after": "source:BH00924",
+   "responds": [
+    "source:BH00924"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist knows the particular pain of kindness returned with treachery by one who ate at his table."
+  },
+  {
+   "id": "timothy-shipwreck",
+   "after": "source:BH00924",
+   "responds": [
+    "source:BH00924"
+   ],
+   "relation": "adjacent",
+   "why": "Paul names two men who made shipwreck of their faith and whom he felt obliged to put out of the community."
+  },
+  {
+   "id": "quran-lean-not",
+   "after": "source:BH03990",
+   "responds": [
+    "source:BH03990"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse of the Qur’an that the passage cites as its warrant for refusing help to wrongdoers."
+  },
+  {
+   "id": "timothy-demas-hath-forsaken",
+   "after": "source:BH05022",
+   "responds": [
+    "source:BH05022"
+   ],
+   "relation": "adjacent",
+   "why": "Paul records the same loss in few words: a fellow worker who left him for love of the present world."
+  },
+  {
+   "id": "quran-unravelleth-her-thread",
+   "after": "source:BH05022",
+   "responds": [
+    "source:BH05022"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an likens those who break their oaths to a woman who unravels the thread she has spun strong."
+  },
+  {
+   "id": "hebrews-fall-away",
+   "after": "source:AB00783",
+   "responds": [
+    "source:AB00783"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews speaks even more severely of how hard return is for those who fall away after tasting the gift."
+  },
+  {
+   "id": "ezekiel-turneth-away-from-his-wickedness",
+   "after": "source:AB00783",
+   "responds": [
+    "source:AB00783"
+   ],
+   "relation": "contrast",
+   "why": "Ezekiel insists that whoever turns from wickedness shall live. Is the \"difficult\" return of this passage the same as an impossible one?"
+  },
+  {
+   "id": "matthew-salt-lost-savour",
+   "after": "source:ABU1225",
+   "responds": [
+    "source:ABU1225"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus uses a like image for faith that has lost its life: salt without savour is thrown out."
+  },
+  {
+   "id": "matthew-wise-as-serpents",
+   "after": "source:BH00284",
+   "responds": [
+    "source:BH00284"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks the same prudence of those he sends among wolves: the wisdom of serpents with the harmlessness of doves."
+  },
+  {
+   "id": "samuel-absalom-stole-the-hearts",
+   "after": "source:AB05990",
+   "responds": [
+    "source:AB05990"
+   ],
+   "relation": "adjacent",
+   "why": "The story of Absalom shows how one bold figure draws simpler people away by flattery, as this letter observes."
+  },
+  {
+   "id": "jude-clouds-without-water",
+   "after": "source:AB06703",
+   "responds": [
+    "source:AB06703"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of Jude heaps up images for the same loss: waterless clouds, fruitless trees, wandering stars in darkness."
+  },
+  {
+   "id": "luke-not-against-us-is-for-us",
+   "after": "source:AB12794",
+   "responds": [
+    "source:AB12794"
+   ],
+   "relation": "contrast",
+   "why": "When the disciples wanted to forbid an outsider, Jesus said that whoever is not against us is for us. How does that generosity sit beside the care this letter takes?"
+  },
+  {
+   "id": "titus-heretick-reject",
+   "after": "source:AB00001",
+   "responds": [
+    "source:AB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to Titus gives the early Christian rule: after a first and second warning, have nothing more to do with a divisive person."
+  },
+  {
+   "id": "corinthians-not-to-company",
+   "after": "source:AB00001",
+   "responds": [
+    "source:AB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul also drew a line of association, and was careful to say it applied within the community, not to the world at large."
+  },
+  {
+   "id": "thessalonians-admonish-as-a-brother",
+   "after": "source:AB00001",
+   "responds": [
+    "source:AB00001"
+   ],
+   "relation": "complement",
+   "why": "Paul tells the Thessalonians to keep away from the disobedient and yet not to count him an enemy. What does that second clause ask of those who shun?"
+  },
+  {
+   "id": "matthew-wheat-and-tares",
+   "after": "source:AB00001",
+   "responds": [
+    "source:AB00001"
+   ],
+   "relation": "contrast",
+   "why": "In the parable the servants are told to leave the weeds until harvest, lest wheat be pulled up with them. When is separation a protection, and when does it risk the wheat?"
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:AB00001",
+   "responds": [
+    "source:AB00001"
+   ],
+   "relation": "contrast",
+   "why": "Milton trusts truth to win in a free and open encounter with falsehood. What might he have overlooked about a small community and a determined campaign against its unity?"
+  },
+  {
+   "id": "quran-sloughed-them-off",
+   "after": "source:AB00045",
+   "responds": [
+    "source:AB00045"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an tells of one who was given revelations and sloughed them off, an ancient pattern for the figure described here."
+  },
+  {
+   "id": "galatians-any-other-gospel",
+   "after": "source:AB00465",
+   "responds": [
+    "source:AB00465"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the same extreme case: even an angel from heaven, or Paul himself, is not to be heard against what was received."
+  },
+  {
+   "id": "shakespeare-smile-and-be-a-villain",
+   "after": "source:BH00173",
+   "responds": [
+    "source:BH00173"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet records with amazement the discovery this passage makes about a changeable man: one may smile and be a villain."
+  },
+  {
+   "id": "exodus-golden-calf",
+   "after": "source:BH01059",
+   "responds": [
+    "source:BH01059"
+   ],
+   "relation": "adjacent",
+   "why": "The golden calf is the scriptural pattern of a people who quickly take another lord in place of the one who led them out."
+  },
+  {
+   "id": "psalm-not-an-enemy",
+   "after": "source:BH00837",
+   "responds": [
+    "source:BH00837"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says the wound is worst when it comes not from an enemy but from a companion and equal."
+  },
+  {
+   "id": "john-true-vine",
+   "after": "source:ABU0433",
+   "responds": [
+    "source:ABU0433"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of the branch that is taken away from the vine, the image this talk applies to a son."
+  },
+  {
+   "id": "marcus-cut-branch",
+   "after": "source:ABU0433",
+   "responds": [
+    "source:ABU0433"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius uses the same figure: a branch cut from its neighbour is cut from the whole tree, and by its own act."
+  },
+  {
+   "id": "romans-boast-not-against-the-branches",
+   "after": "source:ABU0433",
+   "responds": [
+    "source:ABU0433"
+   ],
+   "relation": "complement",
+   "why": "Paul warns the grafted branches not to boast over those broken off, since they stand only by faith. What attitude toward a fallen branch does that require of the firm?"
+  },
+  {
+   "id": "shakespeare-seem-a-saint",
+   "after": "source:BH00399",
+   "responds": [
+    "source:BH00399"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Richard boasts of clothing his villainy in stolen scraps of holy writ, the device this passage exposes."
+  },
+  {
+   "id": "genesis-behold-this-dreamer",
+   "after": "source:BH01990",
+   "responds": [
+    "source:BH01990"
+   ],
+   "relation": "adjacent",
+   "why": "The brothers of Joseph also conspired to kill the one set above them and to explain his death away."
+  },
+  {
+   "id": "isaiah-lamb-to-the-slaughter",
+   "after": "source:AB07153",
+   "responds": [
+    "source:AB07153"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's servant suffers persecution in the same silence and patience ascribed to her here."
+  },
+  {
+   "id": "quran-hypocrites-lumber",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an warns of people whose appearance pleases and whose speech wins a hearing while they are the enemy."
+  },
+  {
+   "id": "quran-samiri-led-astray",
+   "after": "source:BH01820",
+   "responds": [
+    "source:BH01820"
+   ],
+   "relation": "adjacent",
+   "why": "This is the story in the Qur’an to which the passage alludes: the people misled by the Samiri while Moses was away."
+  },
+  {
+   "id": "john-words-of-eternal-life",
+   "after": "source:BH03022",
+   "responds": [
+    "source:BH03022"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel records that many disciples turned back and walked no more with Jesus, as people did in former ages."
+  },
+  {
+   "id": "james-converteth-the-sinner",
+   "after": "source:AB02459",
+   "responds": [
+    "source:AB02459"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of James commends the one who brings back a person who has wandered from the truth."
+  },
+  {
+   "id": "matthew-tell-it-unto-the-church",
+   "after": "source:AB02459",
+   "responds": [
+    "source:AB02459"
+   ],
+   "relation": "complement",
+   "why": "Jesus lays out steps for a brother's fault: alone, then with witnesses, then before the community. What does a set procedure add to loving counsel?"
+  },
+  {
+   "id": "ezekiel-son-shall-not-bear",
+   "after": "source:AB12027",
+   "responds": [
+    "source:AB12027"
+   ],
+   "relation": "contrast",
+   "why": "Ezekiel declares that the son shall not bear the father's iniquity. How might one hold together the lingering effects described here and each soul's own responsibility?"
+  },
+  {
+   "id": "luke-betrayest-with-a-kiss",
+   "after": "source:AB00351",
+   "responds": [
+    "source:AB00351"
+   ],
+   "relation": "adjacent",
+   "why": "The Gospel's scene of betrayal by an intimate, with a kiss, stands behind every later story of the kind."
+  },
+  {
+   "id": "shakespeare-et-tu-brute",
+   "after": "source:AB00351",
+   "responds": [
+    "source:AB00351"
+   ],
+   "relation": "adjacent",
+   "why": "Caesar's last words in Shakespeare's play have become the common phrase for a blow from one's own."
+  },
+  {
+   "id": "bacon-breach-of-unity",
+   "after": "source:AB00307",
+   "responds": [
+    "source:AB00307"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon judges that nothing keeps people from religion or drives them out of it so much as breach of unity."
+  },
+  {
+   "id": "proverbs-six-things",
+   "after": "source:AB00149",
+   "responds": [
+    "source:AB00149"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs lists what God hates, and ends with false witness and the sowing of discord among brethren."
+  },
+  {
+   "id": "romans-overcome-evil",
+   "after": "source:AB00149",
+   "responds": [
+    "source:AB00149"
+   ],
+   "relation": "complement",
+   "why": "Paul forbids revenge and asks that evil be overcome with good. How does the writer's forbearance toward a brother, told in this passage, compare?"
+  },
+  {
+   "id": "thessalonians-letter-as-from-us",
+   "after": "source:AB08885",
+   "responds": [
+    "source:AB08885"
+   ],
+   "relation": "adjacent",
+   "why": "Paul too had to warn his churches against letters circulating falsely in his name."
+  },
+  {
+   "id": "matthew-not-where-to-lay-his-head",
+   "after": "source:ABU1263",
+   "responds": [
+    "source:ABU1263"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of himself that he had nowhere to lay his head, a kinship with this account of being put out of one's own house."
+  },
+  {
+   "id": "lincoln-house-divided",
+   "after": "source:ABU2509",
+   "responds": [
+    "source:ABU2509"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln applied the Gospel saying to his nation: a house divided against itself cannot stand or prosper."
+  },
+  {
+   "id": "cyprian-rays",
+   "after": "source:ABU2509",
+   "responds": [
+    "source:ABU2509"
+   ],
+   "relation": "adjacent",
+   "why": "Cyprian, writing in a time of schism, describes unity as many rays of one light and many branches of one root."
+  },
+  {
+   "id": "psalm-false-witnesses-did-rise",
+   "after": "source:BH00253",
+   "responds": [
+    "source:BH00253"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist suffers the same thing: false witnesses who charge him with what he never knew, returning evil for good."
+  },
+  {
+   "id": "matthew-revile-you",
+   "after": "source:BH00253",
+   "responds": [
+    "source:BH00253"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his followers to expect every kind of evil to be said of them falsely."
+  },
+  {
+   "id": "shakespeare-unkindest-cut",
+   "after": "source:AB00064",
+   "responds": [
+    "source:AB00064"
+   ],
+   "relation": "adjacent",
+   "why": "Antony says it was ingratitude, more than the daggers, that overcame Caesar, when the blow came from one he loved."
+  },
+  {
+   "id": "timothy-all-men-forsook-me",
+   "after": "source:AB00051",
+   "responds": [
+    "source:AB00051"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes from his last imprisonment that all forsook him and that he was nevertheless strengthened."
+  },
+  {
+   "id": "corinthians-thrice-beaten",
+   "after": "source:AB00051",
+   "responds": [
+    "source:AB00051"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the dangers he lived among for the sake of his message, a parallel to this danger at every moment."
+  },
+  {
+   "id": "psalm-water-my-couch",
+   "after": "source:AB00051",
+   "responds": [
+    "source:AB00051"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm gives voice to the same weeping under the pressure of enemies, and the same turning to God for firmness."
+  },
+  {
+   "id": "thessalonians-token-in-every-epistle",
+   "after": "source:AB01628",
+   "responds": [
+    "source:AB01628"
+   ],
+   "relation": "adjacent",
+   "why": "Paul signed his letters in his own hand as the token of their authenticity, for the reason given here."
+  },
+  {
+   "id": "lamentations-how-doth-the-city",
+   "after": "source:AB02068",
+   "responds": [
+    "source:AB02068"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations mourns a noble place laid waste, the grief this letter feels at a building stripped by the unfaithful."
+  },
+  {
+   "id": "shakespeare-mans-ingratitude",
+   "after": "source:AB02424",
+   "responds": [
+    "source:AB02424"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's song finds the winter wind kinder than ingratitude, the experience this letter relates of a brother."
+  },
+  {
+   "id": "james-count-it-all-joy",
+   "after": "source:AB00208",
+   "responds": [
+    "source:AB00208"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of James also treats trials as the proving of faith and the making of steadfastness."
+  },
+  {
+   "id": "yeats-centre",
+   "after": "source:AB00208",
+   "responds": [
+    "source:AB00208"
+   ],
+   "relation": "contrast",
+   "why": "Yeats, writing after a world war, saw the centre failing to hold and things falling apart. On what does this passage rest its confidence that severe tests will leave the centre firm?"
+  },
+  {
+   "id": "jefferson-difference-of-opinion",
+   "after": "source:AB00208",
+   "responds": [
+    "source:AB00208"
+   ],
+   "relation": "contrast",
+   "why": "Jefferson, after a bitter election, said that not every difference of opinion is a difference of principle. How does a community tell honest difference from breach of faith?"
+  },
+  {
+   "id": "psalm-fret-not-thyself",
+   "after": "source:AB00065",
+   "responds": [
+    "source:AB00065"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm tells the faithful not to fret over evildoers, who are soon cut down like grass."
+  },
+  {
+   "id": "habakkuk-knowledge-of-the-glory",
+   "after": "source:AB00065",
+   "responds": [
+    "source:AB00065"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk looks to a time when the knowledge of God's glory covers the earth, the confidence with which this letter reports the banner rising."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:AB00198",
+   "responds": [
+    "source:AB00198"
+   ],
+   "relation": "adjacent",
+   "why": "Paul states the law at work in this passage: whatever a person sows, that he will reap."
+  },
+  {
+   "id": "quran-oath-breaketh-against-own-soul",
+   "after": "source:AB00198",
+   "responds": [
+    "source:AB00198"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that whoever breaks his oath breaks it only to his own soul's hurt."
+  },
+  {
+   "id": "quran-spiders-house",
+   "after": "source:ABU3119",
+   "responds": [
+    "source:ABU3119"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an uses the same image for a false reliance: the spider's house, frailest of all houses."
+  },
+  {
+   "id": "quran-cable",
+   "after": "source:AB01964",
+   "responds": [
+    "source:AB01964"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an gives the call to firmness in its own words: hold fast together to God's cable and do not separate."
+  },
+  {
+   "id": "aesop-bundle",
+   "after": "source:AB11851",
+   "responds": [
+    "source:AB11851"
+   ],
+   "relation": "adjacent",
+   "why": "Aesop's father shows his sons with a bundle of sticks why discord among the loyal delights those who would break them."
+  },
+  {
+   "id": "peter-false-teachers",
+   "after": "source:BH03680",
+   "responds": [
+    "source:BH03680"
+   ],
+   "relation": "adjacent",
+   "why": "The second letter of Peter foresees the same sequel to a founder's passing: false teachers arising from among the people."
+  },
+  {
+   "id": "john-loved-darkness",
+   "after": "source:BH04243",
+   "responds": [
+    "source:BH04243"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel gives the same account of a good offered to the world and refused by some."
+  },
+  {
+   "id": "psalm-very-present-help",
+   "after": "source:BH08846",
+   "responds": [
+    "source:BH08846"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm confesses the refuge this prayer asks for: God as stronghold and help in trouble."
+  },
+  {
+   "id": "deuteronomy-keepeth-covenant",
+   "after": "source:BH02693",
+   "responds": [
+    "source:BH02693"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy names God as the faithful one who keeps covenant with those who love him."
+  },
+  {
+   "id": "psalm-covenant-will-i-not-break",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm sets God's own promise against human failure: my covenant will I not break."
+  },
+  {
+   "id": "luke-peter-wept-bitterly",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "complement",
+   "why": "This prayer puts the confession of a broken covenant in every worshipper's mouth. Peter denied his master and wept. What changes when the words are prayed about oneself and not said of others?"
+  },
+  {
+   "id": "romans-who-art-thou-that-judgest",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "contrast",
+   "why": "Paul asks who we are to judge another's servant, who stands or falls to his own master. How does this prayer of self-accusation bear on the way the faithless are spoken of?"
+  }
+ ],
+ "library": {
+  "psalm-mine-own-familiar-friend": {
+   "text": "Yea, mine own familiar friend, in whom I trusted, which did eat of my bread, hath lifted up his heel against me",
+   "work": "Psalm 41:9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2041%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-epistle-went-out-from-us": {
+   "text": "They went out from us, but they were not of us; for if they had been of us, they would no doubt have continued with us: but they went out, that they might be made manifest that they were not all of us",
+   "work": "1 John 2:19",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20John%202%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "titus-heretick-reject": {
+   "text": "A man that is an heretick after the first and second admonition reject; Knowing that he that is such is subverted, and sinneth, being condemned of himself",
+   "work": "Titus 3:10–11",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Titus%203%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-grievous-wolves": {
+   "text": "For I know this, that after my departing shall grievous wolves enter in among you, not sparing the flock. Also of your own selves shall men arise, speaking perverse things, to draw away disciples after them",
+   "work": "Acts 20:29–30",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2020%3A29-30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-if-it-be-of-men": {
+   "text": "And now I say unto you, Refrain from these men, and let them alone: for if this counsel or this work be of men, it will come to nought: But if it be of God, ye cannot overthrow it; lest haply ye be found even to fight against God",
+   "work": "Acts 5:38–39",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%205%3A38-39&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-golden-calf": {
+   "text": "And the Lord said unto Moses, Go, get thee down; for thy people, which thou broughtest out of the land of Egypt",
+   "work": "Exodus 32:7–8",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2032%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "numbers-korah": {
+   "text": "And they gathered themselves together against Moses and against Aaron, and said unto them, Ye take too much upon you, seeing all the congregation are holy, every one of them, and the Lord is among them: wherefore then lift ye up yourselves above the congregation of the Lord",
+   "work": "Numbers 16:3",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Numbers%2016%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-tell-it-unto-the-church": {
+   "text": "Moreover if thy brother shall trespass against thee, go and tell him his fault between thee and him alone: if he shall hear thee, thou hast gained thy brother. But if he will not hear thee, then take with thee one or two more, that in the mouth of two or three witnesses every word may be established. And if he shall neglect to hear them, tell it unto the church: but if he neglect to hear the church, let him be unto thee as an heathen man and a publican",
+   "work": "Matthew 18:15–17",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2018%3A15-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-betrayest-with-a-kiss": {
+   "text": "And while he yet spake, behold a multitude, and he that was called Judas, one of the twelve, went before them, and drew near unto Jesus to kiss him. But Jesus said unto him, Judas, betrayest thou the Son of man with a kiss",
+   "work": "Luke 22:47–48",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2022%3A47-48&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-demas-hath-forsaken": {
+   "text": "For Demas hath forsaken me, having loved this present world",
+   "work": "2 Timothy 4:10",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Timothy%204%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-shipwreck": {
+   "text": "Holding faith, and a good conscience; which some having put away concerning faith have made shipwreck: Of whom is Hymenaeus and Alexander; whom I have delivered unto Satan, that they may learn not to blaspheme",
+   "work": "1 Timothy 1:19–20",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%201%3A19-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-false-teachers": {
+   "text": "But there were false prophets also among the people, even as there shall be false teachers among you, who privily shall bring in damnable heresies, even denying the Lord that bought them, and bring upon themselves swift destruction. And many shall follow their pernicious ways; by reason of whom the way of truth shall be evil spoken of",
+   "work": "2 Peter 2:1–2",
+   "year": "c. 80–130 CE",
+   "sortYear": 110,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Peter%202%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jude-clouds-without-water": {
+   "text": "These are spots in your feasts of charity, when they feast with you, feeding themselves without fear: clouds they are without water, carried about of winds; trees whose fruit withereth, without fruit, twice dead, plucked up by the roots; Raging waves of the sea, foaming out their own shame; wandering stars, to whom is reserved the blackness of darkness for ever",
+   "work": "Jude 1:12–13",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hosea-transgressed-the-covenant": {
+   "text": "But they like men have transgressed the covenant: there have they dealt treacherously against me",
+   "work": "Hosea 6:7",
+   "year": "8th century BCE",
+   "sortYear": -740,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hosea%206%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-keepeth-covenant": {
+   "text": "Know therefore that the Lord thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations",
+   "work": "Deuteronomy 7:9",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%207%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-covenant-will-i-not-break": {
+   "text": "Nevertheless my lovingkindness will I not utterly take from him, nor suffer my faithfulness to fail. My covenant will I not break, nor alter the thing that is gone out of my lips",
+   "work": "Psalm 89:33–34",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2089%3A33-34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-not-against-us-is-for-us": {
+   "text": "And John answered and said, Master, we saw one casting out devils in thy name; and we forbad him, because he followeth not with us. And Jesus said unto him, Forbid him not: for he that is not against us is for us",
+   "work": "Luke 9:49–50",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%209%3A49-50&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-who-art-thou-that-judgest": {
+   "text": "Who art thou that judgest another man's servant? to his own master he standeth or falleth. Yea, he shall be holden up: for God is able to make him stand",
+   "work": "Romans 14:4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2014%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-restore-such-an-one": {
+   "text": "Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted",
+   "work": "Galatians 6:1",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%206%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "thessalonians-admonish-as-a-brother": {
+   "text": "And if any man obey not our word by this epistle, note that man, and have no company with him, that he may be ashamed. Yet count him not as an enemy, but admonish him as a brother",
+   "work": "2 Thessalonians 3:14–15",
+   "year": "c. 50–100 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%203%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-six-things": {
+   "text": "These six things doth the Lord hate: yea, seven are an abomination unto him: A proud look, a lying tongue, and hands that shed innocent blood, An heart that deviseth wicked imaginations, feet that be swift in running to mischief, A false witness that speaketh lies, and he that soweth discord among brethren",
+   "work": "Proverbs 6:16–19",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%206%3A16-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-spiders-web": {
+   "text": "So are the paths of all that forget God; and the hypocrite's hope shall perish: Whose hope shall be cut off, and whose trust shall be a spider's web",
+   "work": "Job 8:13–14",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%208%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-behold-this-dreamer": {
+   "text": "And when they saw him afar off, even before he came near unto them, they conspired against him to slay him. And they said one to another, Behold, this dreamer cometh. Come now therefore, and let us slay him, and cast him into some pit, and we will say, Some evil beast hath devoured him: and we shall see what will become of his dreams",
+   "work": "Genesis 37:18–20",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2037%3A18-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-absalom-stole-the-hearts": {
+   "text": "And it was so, that when any man came nigh to him to do him obeisance, he put forth his hand, and took him, and kissed him. And on this manner did Absalom to all Israel that came to the king for judgment: so Absalom stole the hearts of the men of Israel",
+   "work": "2 Samuel 15:5–6",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Samuel%2015%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-fall-away": {
+   "text": "For it is impossible for those who were once enlightened, and have tasted of the heavenly gift, and were made partakers of the Holy Ghost, And have tasted the good word of God, and the powers of the world to come, If they shall fall away, to renew them again unto repentance; seeing they crucify to themselves the Son of God afresh, and put him to an open shame",
+   "work": "Hebrews 6:4–6",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%206%3A4-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-turneth-away-from-his-wickedness": {
+   "text": "Again, when the wicked man turneth away from his wickedness that he hath committed, and doeth that which is lawful and right, he shall save his soul alive. Because he considereth, and turneth away from all his transgressions that he hath committed, he shall surely live, he shall not die",
+   "work": "Ezekiel 18:27–28",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2018%3A27-28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-oath-breaketh-against-own-soul": {
+   "text": "Lo! those who swear allegiance unto thee (Muhammad), swear allegiance only unto Allah. The Hand of Allah is above their hands. So whosoever breaketh his oath, breaketh it only to his soul's hurt; while whosoever keepeth his covenant with Allah, on him will He bestow immense reward.",
+   "work": "Qur’an 48:10",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=48&verse=10",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-lean-not": {
+   "text": "And incline not toward those who do wrong lest the Fire touch you, and ye have no protecting friends against Allah, and afterward ye would not be helped.",
+   "work": "Qur’an 11:113",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=11&verse=113",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-unravelleth-her-thread": {
+   "text": "And be not like unto her who unravelleth the thread, after she hath made it strong, to thin filaments, making your oaths a deceit between you because of a nation being more numerous than (another) nation. Allah only trieth you thereby, and He verily will explain to you on the Day of Resurrection that wherein ye differed.",
+   "work": "Qur’an 16:92",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=92",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-sit-not-with-them": {
+   "text": "He hath already revealed unto you in the Scripture that, when ye hear the revelations of Allah rejected and derided, (ye) sit not with them (who disbelieve and mock) until they engage in some other conversation. Lo! in that case (if ye stayed) ye would be like unto them. Lo! Allah will gather hypocrites and disbelievers, all together, into hell;",
+   "work": "Qur’an 4:140",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=140",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-allegorical-verses": {
+   "text": "He it is Who hath revealed unto thee (Muhammad) the Scripture wherein are clear revelations - they are the substance of the Book - and others (which are) allegorical. But those in whose hearts is doubt pursue, forsooth, that which is allegorical seeking (to cause) dissension by seeking to explain it. None knoweth its explanation save Allah. And those who are of sound instruction say: We believe therein; the whole is from our Lord; but only men of understanding really heed.",
+   "work": "Qur’an 3:7",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=7",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-true-to-covenant": {
+   "text": "Of the believers are men who are true to that which they covenanted with Allah. Some of them have paid their vow by death (in battle), and some of them still are waiting; and they have not altered in the least;",
+   "work": "Qur’an 33:23",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=33&verse=23",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-break-covenant-after-ratifying": {
+   "text": "Those who break the covenant of Allah after ratifying it, and sever that which Allah ordered to be joined, and (who) make mischief in the earth: Those are they who are the losers.",
+   "work": "Qur’an 2:27",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=27",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-sloughed-them-off": {
+   "text": "Recite unto them the tale of him to whom We gave Our revelations, but he sloughed them off, so Satan overtook him and he became of those who lead astray.",
+   "work": "Qur’an 7:175",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=7&verse=175",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-samiri-led-astray": {
+   "text": "He said: Lo! We have tried thy folk in thine absence, and As-Samiri hath misled them.",
+   "work": "Qur’an 20:85",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=20&verse=85",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-hypocrites-lumber": {
+   "text": "And when thou seest them their figures please thee; and if they speak thou givest ear unto their speech. (They are) as though they were blocks of wood in striped cloaks. They deem every shout to be against them. They are the enemy, so beware of them. Allah confound them! How they are perverted!",
+   "work": "Qur’an 63:4",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=63&verse=4",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-et-tu-brute": {
+   "text": "Et tu, Brute! Then fall, Caesar",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Julius Caesar",
+   "locator": "Act III, scene 1",
+   "year": "1599",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/julius_caesar/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-unkindest-cut": {
+   "text": "For Brutus, as you know, was Caesar's angel: / Judge, O you gods, how dearly Caesar loved him! / This was the most unkindest cut of all; / For when the noble Caesar saw him stab, / Ingratitude, more strong than traitors' arms, / Quite vanquish'd him: then burst his mighty heart",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Julius Caesar",
+   "locator": "Act III, scene 2",
+   "year": "1599",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/julius_caesar/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-vaulting-ambition": {
+   "text": "I have no spur / To prick the sides of my intent, but only / Vaulting ambition, which o'erleaps itself / And falls on the other",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Macbeth",
+   "locator": "Act I, scene 7",
+   "year": "c. 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/macbeth/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-i-am-not-what-i-am": {
+   "text": "For when my outward action doth demonstrate / The native act and figure of my heart / In compliment extern, 'tis not long after / But I will wear my heart upon my sleeve / For daws to peck at: I am not what I am",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Othello",
+   "locator": "Act I, scene 1",
+   "year": "c. 1603",
+   "sortYear": 1603,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/othello/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-serpents-tooth": {
+   "text": "How sharper than a serpent's tooth it is / To have a thankless child",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "King Lear",
+   "locator": "Act I, scene 4",
+   "year": "c. 1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/lear/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-smile-and-be-a-villain": {
+   "text": "That one may smile, and smile, and be a villain",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act I, scene 5",
+   "year": "c. 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-mans-ingratitude": {
+   "text": "Blow, blow, thou winter wind. / Thou art not so unkind / As man's ingratitude",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "As You Like It",
+   "locator": "Act II, scene 7",
+   "year": "c. 1599",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/asyoulikeit/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-seem-a-saint": {
+   "text": "And thus I clothe my naked villany / With old odd ends stolen out of holy writ; / And seem a saint, when most I play the devil",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Richard III",
+   "locator": "Act I, scene 3",
+   "year": "c. 1593",
+   "sortYear": 1593,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/richardiii/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "milton-better-to-reign-in-hell": {
+   "text": "Here at least / We shall be free; th' Almighty hath not built / Here for his envy, will not drive us hence: / Here we may reign secure; and, in my choice, / To reign is worth ambition, though in Hell: / Better to reign in Hell than serve in Heav",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "Book I",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/Book_I",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1674."
+   }
+  },
+  "bacon-breach-of-unity": {
+   "text": "heresies and schisms are of all others the greatest scandals; yea, more than corruption of manners: for as in the natural body a wound or solution of continuity is worse than a corrupt humour, so in the spiritual: so that nothing doth so much keep men out of the church, and drive men out of the church, as breach of unity",
+   "author": "Francis Bacon",
+   "work": "Essays: Of Unity in Religion",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_Francis_Bacon/Volume_1/Essays/Of_Unity_in_Religion",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  },
+  "milton-abdiel-faithful-found": {
+   "text": "So spake the Seraph Abdiel, faithful found / Among the faithless, faithful only he; / Among innumerable false, unmoved, / Unshaken, unseduced, unterrified, / His loyalty he kept, his love, his zeal",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "Book V",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/Book_V",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1674."
+   }
+  },
+  "thessalonians-letter-as-from-us": {
+   "text": "Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand",
+   "work": "2 Thessalonians 2:1–2",
+   "year": "c. 50–100 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "thessalonians-token-in-every-epistle": {
+   "text": "The salutation of Paul with mine own hand, which is the token in every epistle: so I write",
+   "work": "2 Thessalonians 3:17",
+   "year": "c. 50–100 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%203%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-false-witnesses-did-rise": {
+   "text": "False witnesses did rise up; they laid to my charge things that I knew not. They rewarded me evil for good to the spoiling of my soul",
+   "work": "Psalm 35:11–12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2035%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

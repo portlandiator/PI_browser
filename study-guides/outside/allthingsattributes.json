@@ -1,0 +1,1583 @@
+{
+ "format": 2,
+ "slug": "allthingsattributes",
+ "subject": "B996EA76F6EC401A9148E1F0507C179A",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 80,
+ "quotations": 100,
+ "kept": [
+  "source:BH00002",
+  "source:BH02373",
+  "source:BH00113",
+  "source:BH00223",
+  "source:AB00276",
+  "source:BH00111",
+  "source:BH00245",
+  "source:BH00005",
+  "source:BH00210",
+  "source:AB00105",
+  "source:AB00713",
+  "source:AB00103",
+  "source:ABU0102",
+  "source:BH00512",
+  "source:BB00018",
+  "source:BB00015",
+  "source:BB00005",
+  "source:BB00556",
+  "source:BB00216",
+  "source:BB00199",
+  "source:BH00047",
+  "source:BH00690",
+  "source:AB00440",
+  "source:AB00023",
+  "source:ABU0179",
+  "source:AB04398",
+  "source:ABU0830",
+  "source:ABU0399",
+  "source:ABU0030",
+  "source:ABU0024",
+  "source:AB00395",
+  "source:AB00978",
+  "source:AB00031",
+  "source:AB08921",
+  "source:AB08573",
+  "source:BH08273",
+  "source:ABU3381",
+  "source:AB00083",
+  "source:BB00434",
+  "source:BB00283",
+  "source:BH00505",
+  "source:BH00208",
+  "source:BH01972",
+  "source:BH00328",
+  "source:BH00586",
+  "source:BHU0001",
+  "source:BH02806",
+  "source:BH11419",
+  "source:BH00872",
+  "source:BH02324",
+  "source:BH02361",
+  "source:AB01569",
+  "source:BH03467",
+  "source:ABU1290",
+  "source:ABU2080",
+  "source:ABU3187",
+  "source:ABU0022",
+  "source:AB04463",
+  "source:BH00296",
+  "source:AB01123",
+  "source:BH03470",
+  "source:BH10241",
+  "source:BH06421",
+  "source:BH09716",
+  "source:BH05771",
+  "source:BH01888",
+  "source:BH04744",
+  "source:BH03060",
+  "source:BH02670",
+  "source:BH02597",
+  "source:BH06188",
+  "source:ABU0322",
+  "selection:f2ec487ce6989c65c262a6e1",
+  "selection:2f7bf0d5021ee8b8f823aefc",
+  "selection:544654ec8a18f95ffcde06ec",
+  "selection:5ca7e4f6343b267c3ee6a54e",
+  "selection:117cf01ce3564dcee4b4e2c9",
+  "selection:1be6b601bfd8a2630108d283",
+  "selection:aa07d19e4db835bdcda20267",
+  "selection:356a551b4bd055e16b363e92"
+ ],
+ "introduction": "These passages teach that every created thing, down to the atom, carries a sign of God: a name or attribute reflected in it, as light is reflected in a mirror, while the divine Essence remains beyond all things. The human being reflects all the names, and the Manifestations of God reflect them perfectly. To see this is called true belief in divine unity, and not to see it is a veil over the eye and ear. A hundred outside voices are set beside them: the Psalms, Paul and the Qur’an on creation's witness and praise; the Gita, an Upanishad and the Tao Te Ching; Augustine, Julian, Browne, Leibniz, Blake, Wordsworth, Whitman and Hopkins; and Spinoza, Feuerbach, Tennyson, Darwin and Pascal for the questions such a reading must face.",
+ "questions": [
+  "The passages say that signs in things are emanations from God and not his own Self. How does that differ from Spinoza's \"all things are in God\" or Pope's \"whose body nature is\"?",
+  "Augustine asked the earth and the sea, and they answered, \"We are not your God.\" What do created things say in these readings?",
+  "Why is the human being said to reflect all the names, when each other thing reflects one? Compare Hamlet's praise of man and his verdict.",
+  "Blake's tiger and Tennyson's nature \"red in tooth and claw\" are also part of creation. How would you read them as signs?",
+  "Several passages say that the signs are everywhere but there is no eye to see or ear to hear. Pascal heard only silence, and Arnold a withdrawing roar. What opens the eye?",
+  "Darwin found grandeur in life's unfolding by natural law. Does a natural explanation of a thing remove its character as a sign?"
+ ],
+ "outside": [
+  {
+   "id": "romans-things-that-are-made",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul states the same principle: the invisible things of God are understood from the things that are made."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist hears the heavens declaring the glory of God and the sky showing his handiwork."
+  },
+  {
+   "id": "quran-horizons-and-themselves",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an promises signs on the horizons and within people themselves until the truth is clear."
+  },
+  {
+   "id": "julian-hazel-nut",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich was shown all that is made as a thing the size of a hazelnut, kept in being because God loves it."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz held that every simple substance is a perpetual living mirror of the whole universe."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Blake asks for the sight that finds a world in a grain of sand and heaven in a wild flower."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza concluded that all things are in God and cannot be conceived without him, and was called a pantheist for it. How does a sign of God within each atom differ from God being the substance of each atom?"
+  },
+  {
+   "id": "whitman-journey-work-of-the-stars",
+   "after": "source:BH02373",
+   "responds": [
+    "source:BH02373"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman believed a leaf of grass to be no less than the journey-work of the stars."
+  },
+  {
+   "id": "matthew-lilies-of-the-field",
+   "after": "source:BH02373",
+   "responds": [
+    "source:BH02373"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sends his hearers to the lilies of the field to learn what care clothes them."
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "source:BH02373",
+   "responds": [
+    "source:BH02373"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson says that to understand one small flower, root and all, would be to know what God and man are."
+  },
+  {
+   "id": "browning-earths-crammed-with-heaven",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "Elizabeth Barrett Browning writes that every common bush is afire with God, but only the one who sees takes off his shoes."
+  },
+  {
+   "id": "browne-two-books",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Thomas Browne drew his divinity from two books: scripture, and nature, the public manuscript open to every eye."
+  },
+  {
+   "id": "whitman-letters-from-god",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman finds letters from God dropped in the street, each signed with God's name."
+  },
+  {
+   "id": "thoreau-vegetable-mould",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau asks whether he should not have intelligence with the earth, being partly leaves and mould himself."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "adjacent",
+   "why": "Kant found that the starry heavens fill the mind with ever new admiration the more steadily they are reflected on."
+  },
+  {
+   "id": "augustine-i-asked-the-earth",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine questioned earth, sea and living things, and each replied that it was not God and that he must seek above it."
+  },
+  {
+   "id": "gita-row-of-pearls",
+   "after": "source:BH00245",
+   "responds": [
+    "source:BH00245"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna says that all things hang on him like pearls on a string: he is the taste of water and the light of sun and moon."
+  },
+  {
+   "id": "emerson-every-natural-fact",
+   "after": "source:BH00245",
+   "responds": [
+    "source:BH00245"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson put it as a principle of language: every natural fact is a symbol of some spiritual fact."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians, quoting their poets, that in God we live and move and have our being."
+  },
+  {
+   "id": "quran-inspired-the-bee",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of the bee as taught by its Lord where to build, a sign of knowledge placed in a small creature."
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "adjacent",
+   "why": "Job tells his friends to ask the beasts, the birds and the earth, who will teach them whose hand has made all this."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews calls the Son the brightness of God's glory and the express image of his person."
+  },
+  {
+   "id": "john-hath-seen-the-father",
+   "after": "source:AB00713",
+   "responds": [
+    "source:AB00713"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells Philip that whoever has seen him has seen the Father."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:AB00713",
+   "responds": [
+    "source:AB00713"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls Christ the image of the invisible God, the firstborn of all creation, in the same sense as the mirror here."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "Plato likens the highest reality to the sun, which gives visible things both their being seen and their growth."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "contrast",
+   "why": "Feuerbach argued that the attributes by which we know God are human attributes written large. What in these readings would he have to explain away?"
+  },
+  {
+   "id": "psalm-earth-full-of-goodness",
+   "after": "source:BH00512",
+   "responds": [
+    "source:BH00512"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the earth is full of the goodness of the Lord."
+  },
+  {
+   "id": "wisdom-made-and-loved",
+   "after": "source:BH00512",
+   "responds": [
+    "source:BH00512"
+   ],
+   "relation": "adjacent",
+   "why": "The Wisdom of Solomon says that God loves all things that are, and would not have made what he hated."
+  },
+  {
+   "id": "job-by-searching",
+   "after": "source:BB00018",
+   "responds": [
+    "source:BB00018"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job whether anyone can find out the Almighty to perfection."
+  },
+  {
+   "id": "isaiah-hidest-thyself",
+   "after": "source:BB00015",
+   "responds": [
+    "source:BB00015"
+   ],
+   "relation": "complement",
+   "why": "Isaiah calls God one who hides himself. If everything was made by his will, can a made thing prove him, or only point toward him?"
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus pictures all that follows the One as a radiance around it, like the light that surrounds the sun."
+  },
+  {
+   "id": "dante-glory-of-him",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Dante begins the Paradiso with the glory of God penetrating the universe and shining in one part more and in another less."
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:BB00556",
+   "responds": [
+    "source:BB00556"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle taught that the first cause moves all things by attraction, as what is loved moves the lover."
+  },
+  {
+   "id": "quran-hymneth-his-praise",
+   "after": "source:BB00216",
+   "responds": [
+    "source:BB00216"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that there is not a thing that does not hymn God's praise, though people do not understand it."
+  },
+  {
+   "id": "isaiah-saw-the-lord",
+   "after": "source:BB00199",
+   "responds": [
+    "source:BB00199"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah saw the seraphim crying one to another without ceasing that the whole earth is full of God's glory."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "complement",
+   "why": "Elijah found that the Lord was not in the wind, the earthquake or the fire, but came in a still small voice. How does that story stand beside hearing every melody as from the King?"
+  },
+  {
+   "id": "genesis-image-and-likeness",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis sets humanity apart from every other creature as made in the image of God."
+  },
+  {
+   "id": "psalm-what-is-man",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm marvels that God is mindful of man, crowned with glory and set over the works of his hands."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "complement",
+   "why": "Hamlet praises man as noble in reason and like a god in apprehension, and then calls him a quintessence of dust. What allows this passage to keep the praise?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "adjacent",
+   "why": "The same psalm places man a little lower than the angels and crowns him with glory and honour."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of a true light that lights everyone who comes into the world."
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:ABU0830",
+   "responds": [
+    "source:ABU0830"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells of one seed and four soils, each receiving according to what it is."
+  },
+  {
+   "id": "quran-rain-and-foam",
+   "after": "source:ABU0830",
+   "responds": [
+    "source:ABU0830"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that rain falls and each valley flows according to its measure."
+  },
+  {
+   "id": "pope-warms-in-the-sun",
+   "after": "source:ABU0399",
+   "responds": [
+    "source:ABU0399"
+   ],
+   "relation": "adjacent",
+   "why": "Pope describes one power that warms in the sun, refreshes in the breeze, glows in the stars and blossoms in the trees."
+  },
+  {
+   "id": "hopkins-pied-beauty",
+   "after": "source:ABU0399",
+   "responds": [
+    "source:ABU0399"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins gives glory to God for dappled things, for all that is varied, freckled and changing in the world."
+  },
+  {
+   "id": "quran-languages-colours",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an counts the variety of human languages and colours among the signs of God."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "complement",
+   "why": "Darwin saw the endless variety of living forms as produced by laws acting around us. Does lawful variety count for or against reading it as a sign?"
+  },
+  {
+   "id": "psalm-manifold-are-thy-works",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm exclaims at the variety of God's works, all made in wisdom."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson saw nature red in tooth and claw shrieking against the creed that love is creation's law. What do these passages make of what he saw?"
+  },
+  {
+   "id": "jeremiah-fill-heaven-and-earth",
+   "after": "source:AB00978",
+   "responds": [
+    "source:AB00978"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah hears God ask whether anyone can hide from him: do not I fill heaven and earth?"
+  },
+  {
+   "id": "luke-stones-would-cry-out",
+   "after": "source:AB08573",
+   "responds": [
+    "source:AB08573"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that if his disciples were silent the stones would cry out."
+  },
+  {
+   "id": "psalm-trees-of-the-wood-rejoice",
+   "after": "source:AB08573",
+   "responds": [
+    "source:AB08573"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm calls on the sea, the field and all the trees of the wood to rejoice before the Lord."
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:BH08273",
+   "responds": [
+    "source:BH08273"
+   ],
+   "relation": "adjacent",
+   "why": "Moses turned aside to look at a bush that burned and was not consumed, and found that he stood on holy ground."
+  },
+  {
+   "id": "shakespeare-tongues-in-trees",
+   "after": "source:ABU3381",
+   "responds": [
+    "source:ABU3381"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's exiled duke finds tongues in trees, books in running brooks and sermons in stones."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:AB00083",
+   "responds": [
+    "source:AB00083"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching opens by saying that the way that can be spoken of is not the enduring way."
+  },
+  {
+   "id": "exodus-back-parts",
+   "after": "source:AB00083",
+   "responds": [
+    "source:AB00083"
+   ],
+   "relation": "adjacent",
+   "why": "Moses, asking to see God's glory, is shown only what follows after God has passed."
+  },
+  {
+   "id": "psalm-every-thing-that-hath-breath",
+   "after": "source:BB00434",
+   "responds": [
+    "source:BB00434"
+   ],
+   "relation": "adjacent",
+   "why": "The last line of the Psalter calls on everything that has breath to praise the Lord."
+  },
+  {
+   "id": "quran-all-glorifieth-him",
+   "after": "source:BB00434",
+   "responds": [
+    "source:BB00434"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that all that is in the heavens and the earth glorifies God, to whom the most beautiful names belong."
+  },
+  {
+   "id": "blake-did-he-who-made-the-lamb",
+   "after": "source:BB00283",
+   "responds": [
+    "source:BB00283"
+   ],
+   "relation": "contrast",
+   "why": "Blake asks the tiger whether he who made the lamb made it too. What sign of love is to be read in what is fearful?"
+  },
+  {
+   "id": "quran-each-knoweth-its-worship",
+   "after": "source:BH00505",
+   "responds": [
+    "source:BH00505"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that every creature, even the birds in flight, knows its own prayer and praise."
+  },
+  {
+   "id": "ephesians-above-all-and-through-all",
+   "after": "source:BH01972",
+   "responds": [
+    "source:BH01972"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of one God who is above all, and through all, and in all."
+  },
+  {
+   "id": "quran-portents-in-the-earth",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the earth holds signs for those whose faith is sure."
+  },
+  {
+   "id": "quran-first-and-last",
+   "after": "source:BH00586",
+   "responds": [
+    "source:BH00586"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an names God the First and the Last, the Outward and the Inward."
+  },
+  {
+   "id": "pope-stupendous-whole",
+   "after": "source:BH00586",
+   "responds": [
+    "source:BH00586"
+   ],
+   "relation": "complement",
+   "why": "Pope calls all things parts of one whole, whose body is nature and whose soul is God. Is that the same as \"manifest in all and yet sanctified above all\"?"
+  },
+  {
+   "id": "psalm-all-thy-works-shall-praise",
+   "after": "source:BH02806",
+   "responds": [
+    "source:BH02806"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the mercies of God are over all his works, and that all his works shall praise him."
+  },
+  {
+   "id": "psalm-fire-and-hail",
+   "after": "source:BH02806",
+   "responds": [
+    "source:BH02806"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm calls on fire and hail, mountains, trees, beasts and birds to praise the Lord from the earth."
+  },
+  {
+   "id": "isaiah-trees-clap-hands",
+   "after": "source:BH11419",
+   "responds": [
+    "source:BH11419"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah pictures mountains breaking into song and the trees of the field clapping their hands."
+  },
+  {
+   "id": "quran-thunder-hymneth",
+   "after": "source:BH02324",
+   "responds": [
+    "source:BH02324"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the thunder hymns God's praise, and the angels too, in awe of him."
+  },
+  {
+   "id": "psalm-whither-shall-i-go",
+   "after": "source:BH02361",
+   "responds": [
+    "source:BH02361"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm finds the same traces everywhere: in heaven, in the depths and at the far side of the sea."
+  },
+  {
+   "id": "job-i-go-forward",
+   "after": "source:BH02361",
+   "responds": [
+    "source:BH02361"
+   ],
+   "relation": "contrast",
+   "why": "Job goes forward and backward, to the left and the right, and cannot find God anywhere. What stands between his search and the traces this passage says fill heaven and earth?"
+  },
+  {
+   "id": "thoreau-only-that-day-dawns",
+   "after": "source:AB01569",
+   "responds": [
+    "source:AB01569"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau ends Walden by saying that only that day dawns to which we are awake."
+  },
+  {
+   "id": "arnold-sea-of-faith",
+   "after": "source:BH03467",
+   "responds": [
+    "source:BH03467"
+   ],
+   "relation": "contrast",
+   "why": "Arnold on Dover beach heard only the long withdrawing roar of the sea of faith. Is the fault in the ear, as this passage says, or did something withdraw?"
+  },
+  {
+   "id": "isaiah-lift-up-your-eyes",
+   "after": "source:ABU1290",
+   "responds": [
+    "source:ABU1290"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah tells his people to lift up their eyes and see who created the stars and calls them by name."
+  },
+  {
+   "id": "wordsworth-rolls-through-all-things",
+   "after": "source:ABU1290",
+   "responds": [
+    "source:ABU1290"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth felt one presence in the light of setting suns, the ocean, the living air and the mind of man."
+  },
+  {
+   "id": "hopkins-gods-grandeur",
+   "after": "source:ABU2080",
+   "responds": [
+    "source:ABU2080"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins writes that the world is charged with the grandeur of God, which flames out like light from shaken foil."
+  },
+  {
+   "id": "colossians-created-for-him",
+   "after": "source:ABU3187",
+   "responds": [
+    "source:ABU3187"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that in Christ all things were created and in him all things hold together."
+  },
+  {
+   "id": "hopkins-ten-thousand-places",
+   "after": "source:ABU3187",
+   "responds": [
+    "source:ABU3187"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins sees Christ playing in ten thousand places, lovely in limbs and eyes not his."
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "source:AB04463",
+   "responds": [
+    "source:AB04463"
+   ],
+   "relation": "adjacent",
+   "why": "Blake says that if the doors of perception were cleansed, everything would appear as it is, infinite."
+  },
+  {
+   "id": "quran-not-a-leaf-falleth",
+   "after": "source:BH00296",
+   "responds": [
+    "source:BH00296"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that not a leaf falls without God's knowledge, and that all is in a clear record."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:BH03470",
+   "responds": [
+    "source:BH03470"
+   ],
+   "relation": "adjacent",
+   "why": "The Gospel of John says that all things were made through the Word, and without it nothing was made."
+  },
+  {
+   "id": "habakkuk-knowledge-of-the-glory",
+   "after": "source:BH10241",
+   "responds": [
+    "source:BH10241"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk foresees the earth filled with the knowledge of God's glory as the waters cover the sea."
+  },
+  {
+   "id": "psalm-day-unto-day",
+   "after": "source:BH06421",
+   "responds": [
+    "source:BH06421"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm hears day speaking to day in a language without words that goes out through all the earth."
+  },
+  {
+   "id": "psalm-open-thou-mine-eyes",
+   "after": "source:BH05771",
+   "responds": [
+    "source:BH05771"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist prays the same prayer: open my eyes, that I may behold wondrous things."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:BH05771",
+   "responds": [
+    "source:BH05771"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha prays that his servant's eyes be opened to see what surrounds them."
+  },
+  {
+   "id": "quran-whithersoever-ye-turn",
+   "after": "source:BH04744",
+   "responds": [
+    "source:BH04744"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that wherever you turn, there is the face of God."
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:BH04744",
+   "responds": [
+    "source:BH04744"
+   ],
+   "relation": "adjacent",
+   "why": "Herbert asks to be taught to see God in all things and to do everything as for him."
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "source:BH02670",
+   "responds": [
+    "source:BH02670"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an calls God the light of the heavens and the earth."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:BH02597",
+   "responds": [
+    "source:BH02597"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs says of love that many waters cannot quench it."
+  },
+  {
+   "id": "quran-put-out-the-light",
+   "after": "source:BH02597",
+   "responds": [
+    "source:BH02597"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of those who would put out God's light with their mouths, and says that it will be perfected."
+  },
+  {
+   "id": "chandogya-nyagrodha-seed",
+   "after": "source:BH06188",
+   "responds": [
+    "source:BH06188"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad finds the whole great tree in a seed's essence too fine to see."
+  },
+  {
+   "id": "wordsworth-life-of-things",
+   "after": "source:ABU0322",
+   "responds": [
+    "source:ABU0322"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth speaks of an eye made quiet by harmony and joy, with which we see into the life of things."
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:ABU0322",
+   "responds": [
+    "source:ABU0322"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays that the eyes of his readers' understanding may be enlightened."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "selection:f2ec487ce6989c65c262a6e1",
+   "responds": [
+    "selection:f2ec487ce6989c65c262a6e1"
+   ],
+   "relation": "complement",
+   "why": "Darwin found grandeur in life's forms having evolved by fixed law from so simple a beginning. Can a thing bear evidence of being fashioned if its fashioning has a natural history?"
+  },
+  {
+   "id": "corinthians-deep-things-of-god",
+   "after": "selection:2f7bf0d5021ee8b8f823aefc",
+   "responds": [
+    "selection:2f7bf0d5021ee8b8f823aefc"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the Spirit searches all things, even the deep things of God, and reveals them."
+  },
+  {
+   "id": "tao-all-pervading",
+   "after": "selection:544654ec8a18f95ffcde06ec",
+   "responds": [
+    "selection:544654ec8a18f95ffcde06ec"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching says that the great Tao pervades everything, and that all things depend on it and are not refused."
+  },
+  {
+   "id": "quran-no-rift",
+   "after": "selection:5ca7e4f6343b267c3ee6a54e",
+   "responds": [
+    "selection:5ca7e4f6343b267c3ee6a54e"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an invites a second look at the heavens to see whether any flaw can be found."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "selection:117cf01ce3564dcee4b4e2c9",
+   "responds": [
+    "selection:117cf01ce3564dcee4b4e2c9"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that for now we see by reflection, dimly, and know only in part."
+  },
+  {
+   "id": "quran-creation-of-heavens-and-earth",
+   "after": "selection:1be6b601bfd8a2630108d283",
+   "responds": [
+    "selection:1be6b601bfd8a2630108d283"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse quoted, as Pickthall translates it, with its list of signs for people who have sense."
+  },
+  {
+   "id": "pascal-eternal-silence",
+   "after": "selection:aa07d19e4db835bdcda20267",
+   "responds": [
+    "selection:aa07d19e4db835bdcda20267"
+   ],
+   "relation": "contrast",
+   "why": "Pascal, facing the same boundless universe that Cusanus filled with God, wrote that its eternal silence frightened him. What decides which of the two a person sees?"
+  },
+  {
+   "id": "romans-creation-groaneth",
+   "after": "selection:356a551b4bd055e16b363e92",
+   "responds": [
+    "selection:356a551b4bd055e16b363e92"
+   ],
+   "relation": "complement",
+   "why": "Paul hears the whole creation groaning in labour until now. This passage sees every atom inebriated with joy. Are these two moments of one story?"
+  }
+ ],
+ "library": {
+  "psalm-fire-and-hail": {
+   "text": "Praise the Lord from the earth, ye dragons, and all deeps: Fire, and hail; snow, and vapours; stormy wind fulfilling his word: Mountains, and all hills; fruitful trees, and all cedars: Beasts, and all cattle; creeping things, and flying fowl",
+   "work": "Psalm 148:7–10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20148%3A7-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-manifold-are-thy-works": {
+   "text": "O Lord, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches",
+   "work": "Psalm 104:24",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20104%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-trees-of-the-wood-rejoice": {
+   "text": "Let the heavens rejoice, and let the earth be glad; let the sea roar, and the fulness thereof. Let the field be joyful, and all that is therein: then shall all the trees of the wood rejoice",
+   "work": "Psalm 96:11–12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2096%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-i-go-forward": {
+   "text": "Behold, I go forward, but he is not there; and backward, but I cannot perceive him: On the left hand, where he doth work, but I cannot behold him: he hideth himself on the right hand, that I cannot see him",
+   "work": "Job 23:8–9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2023%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-above-all-and-through-all": {
+   "text": "One God and Father of all, who is above all, and through all, and in you all",
+   "work": "Ephesians 4:6",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%204%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-hath-seen-the-father": {
+   "text": "Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father",
+   "work": "John 14:9",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2014%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-every-thing-that-hath-breath": {
+   "text": "Let every thing that hath breath praise the Lord. Praise ye the Lord",
+   "work": "Psalm 150:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20150%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-all-thy-works-shall-praise": {
+   "text": "The Lord is good to all: and his tender mercies are over all his works. All thy works shall praise thee, O Lord; and thy saints shall bless thee",
+   "work": "Psalm 145:9–10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20145%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-lift-up-your-eyes": {
+   "text": "Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might, for that he is strong in power; not one faileth",
+   "work": "Isaiah 40:26",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2040%3A26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-fill-heaven-and-earth": {
+   "text": "Can any hide himself in secret places that I shall not see him? saith the Lord",
+   "work": "Jeremiah 23:24",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2023%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-earth-full-of-goodness": {
+   "text": "He loveth righteousness and judgment: the earth is full of the goodness of the Lord",
+   "work": "Psalm 33:5",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2033%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-whithersoever-ye-turn": {
+   "text": "Unto Allah belong the East and the West, and whithersoever ye turn, there is Allah's Countenance. Lo! Allah is All-Embracing, All-Knowing.",
+   "work": "Qur’an 2:115",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=115",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-creation-of-heavens-and-earth": {
+   "text": "Lo! In the creation of the heavens and the earth, and the difference of night and day, and the ships which run upon the sea with that which is of use to men, and the water which Allah sendeth down from the sky, thereby reviving the earth after its death, and dispersing all kinds of beasts therein, and (in) the ordinance of the winds, and the clouds obedient between heaven and earth: are signs (of Allah's Sovereignty) for people who have sense.",
+   "work": "Qur’an 2:164",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=164",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-portents-in-the-earth": {
+   "text": "And in the earth are portents for those whose faith is sure.",
+   "work": "Qur’an 51:20",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=51&verse=20",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-inspired-the-bee": {
+   "text": "And thy Lord inspired the bee, saying: Choose thou habitations in the hills and in the trees and in that which they thatch;",
+   "work": "Qur’an 16:68",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=68",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-thunder-hymneth": {
+   "text": "The thunder hymneth His praise and (so do) the angels for awe of Him. He launcheth the thunderbolts and smiteth with them whom He will while they dispute (in doubt) concerning Allah, and He is mighty in wrath.",
+   "work": "Qur’an 13:13",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=13&verse=13",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-all-glorifieth-him": {
+   "text": "He is Allah, the Creator, the Shaper out of naught, the Fashioner. His are the most beautiful names. All that is in the heavens and the earth glorifieth Him, and He is the Mighty, the Wise.",
+   "work": "Qur’an 59:24",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=59&verse=24",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "whitman-letters-from-god": {
+   "text": "I find letters from God dropt in the street, and every one is sign'd by God's name, / And I leave them where they are, for I know that wheresoe'er I go, / Others will punctually come for ever and ever",
+   "verse": true,
+   "author": "Walt Whitman",
+   "work": "Song of Myself",
+   "locator": "section 48",
+   "year": "1855; final text 1881",
+   "sortYear": 1855,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leaves_of_Grass_(1882)/Song_of_Myself",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "browning-earths-crammed-with-heaven": {
+   "text": "Earth’s crammed with heaven, / And every common bush afire with God: / But only he who sees, takes off his shoes",
+   "verse": true,
+   "author": "Elizabeth Barrett Browning",
+   "work": "Aurora Leigh",
+   "locator": "Book VII",
+   "year": "1856",
+   "sortYear": 1856,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Aurora_Leigh/Seventh_Book",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1861."
+   }
+  },
+  "augustine-i-asked-the-earth": {
+   "text": "I asked the earth; and it answered, I am not He; and whatsoever are therein made the same confession. I asked the sea and the deeps, and the creeping things that lived, and they replied, We are not your God, seek higher than we",
+   "author": "Augustine of Hippo",
+   "work": "Confessions",
+   "locator": "Book X, chapter 6",
+   "year": "c. 397–400",
+   "sortYear": 398,
+   "translator": "J. G. Pilkington",
+   "translationYear": "1887",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/110110.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1898."
+   }
+  },
+  "blake-did-he-who-made-the-lamb": {
+   "text": "When the stars threw down their spears / And water'd heaven with their tears: / Did he smile his work to see? / Did he who made the Lamb make thee",
+   "verse": true,
+   "author": "William Blake",
+   "work": "Songs of Experience: The Tyger",
+   "year": "1794",
+   "sortYear": 1794,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Songs_of_Innocence_and_of_Experience_(1826)/Songs_of_Experience/The_Tyger",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1827."
+   }
+  },
+  "emerson-every-natural-fact": {
+   "text": "Every natural fact is a symbol of some spiritual fact",
+   "author": "Ralph Waldo Emerson",
+   "work": "Nature",
+   "locator": "chapter 4, Language",
+   "year": "1836",
+   "sortYear": 1836,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Nature_(1836)/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "spinoza-all-things-are-in-god": {
+   "text": "all things which are, are in God, and so depend on God, that without him they can neither be nor be conceived",
+   "author": "Baruch Spinoza",
+   "work": "Ethics",
+   "locator": "Part I, proposition 28, note",
+   "year": "1677",
+   "sortYear": 1677,
+   "translator": "R. H. M. Elwes",
+   "translationYear": "1883",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Ethics_(Spinoza)/Part_1",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1883."
+   }
+  },
+  "hopkins-pied-beauty": {
+   "text": "Glory be to God for dappled things— / For skies of couple-colour as a brinded cow; / For rose-moles all in stipple upon trout that swim: / Fresh-firecoal chestnut-falls; finches' wings",
+   "verse": true,
+   "author": "Gerard Manley Hopkins",
+   "work": "Pied Beauty",
+   "year": "1877; published 1918",
+   "sortYear": 1877,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/Pied_Beauty",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1889."
+   }
+  },
+  "browne-two-books": {
+   "text": "Thus there are two Books from whence I collect my Divinity; besides that written one of God, another of His servant Nature, that universal and publick Manuscript, that lies expans'd unto the Eyes of all",
+   "author": "Thomas Browne",
+   "work": "Religio Medici",
+   "locator": "Part I, section 16",
+   "year": "1643",
+   "sortYear": 1643,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Harvard_Classics_Vol._3/Religio_Medici_I",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1682."
+   }
+  },
+  "gita-row-of-pearls": {
+   "text": "All these hang on me / As hangs a row of pearls upon its string. / I am the fresh taste of the water; I / The silver of the moon, the gold o' the sun",
+   "verse": true,
+   "work": "Bhagavad Gītā",
+   "locator": "7.7–8, in Edwin Arnold’s verse (The Song Celestial)",
+   "year": "c. 2nd century BCE",
+   "sortYear": -200,
+   "translator": "Edwin Arnold",
+   "translationYear": "1885",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Arnold_translation)/Chapter_7",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1904."
+   }
+  }
+ }
+}

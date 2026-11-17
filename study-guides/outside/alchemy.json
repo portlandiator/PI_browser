@@ -1,0 +1,1383 @@
+{
+ "format": 2,
+ "slug": "alchemy",
+ "subject": "97D363B457A646108D4A51A115461DA8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 48,
+ "quotations": 57,
+ "kept": [
+  "source:BH04806",
+  "source:AB06652",
+  "source:BH02654",
+  "source:BH01234",
+  "source:BH02383",
+  "source:BH00051",
+  "source:BH00469",
+  "source:BH00213",
+  "source:BH01733",
+  "source:BHU0025",
+  "source:BH01564",
+  "source:BH00789",
+  "source:AB05550",
+  "source:AB09916",
+  "source:BH00002",
+  "source:BH00006",
+  "source:BH00097",
+  "source:BH00223",
+  "source:AB00567",
+  "source:BH07258",
+  "source:ABU0508",
+  "source:BH03017",
+  "source:BH00088",
+  "source:BH01597",
+  "source:BH00235",
+  "source:BH00212",
+  "source:BH03998",
+  "source:BH00020",
+  "source:BH00073",
+  "source:BB00005",
+  "source:BB00023",
+  "source:BB00175",
+  "source:BB00421",
+  "source:BB00612",
+  "source:BB00022",
+  "source:BB00044",
+  "source:BH01071",
+  "source:ABU3274",
+  "source:BH00001",
+  "source:AB04115",
+  "source:AB11349",
+  "source:ABU0929",
+  "source:BH00003",
+  "source:AB06110",
+  "selection:9f4f15088f4f6d90b91cb136",
+  "selection:ec8b33cfec006b040a7cf276",
+  "selection:d8c0dc8ef127f4e383270534",
+  "selection:81e5c110b8b561361247f7a5"
+ ],
+ "introduction": "This guide collects what the writings say about alchemy, the old search for a way to turn base metal into gold. The readings do three things. They read the art as a figure for the change of a human being, with love as the fire and the Word of God as the elixir; they discourage the friends from spending their lives on the craft, while allowing that such transformation is possible and that its secret is withheld until its time; and they name the appearance of this hidden science among the signs of the world’s maturity. The quotations beside them come from the same long conversation: the refiner’s fire of the prophets, Plato and Aristotle on elements that pass into one another, Herbert’s poem on the stone that turns all to gold, and Donne, Jonson and Milton on the alchemists of their day. Lavoisier and Mary Shelley’s professor state the chemistry that set transmutation aside, and the reader is left to weigh these claims with what physics has learned since.",
+ "questions": [
+  "Several readings treat alchemy as a picture of inward change. What, in your own experience, has worked on a person as fire works on metal?",
+  "Bahá’u’lláh discouraged the believers from pursuing the craft. What reasons do the readings give, and which of them would apply to other pursuits today?",
+  "The readings say that the secret is concealed until its time, and Proverbs that it is the glory of kings to search things out. When should knowledge wait, and who decides?",
+  "Lavoisier’s axiom and the chemistry of Mary Shelley’s day ruled transmutation out. How should a reader hold a statement of scripture that the science of the moment denies?",
+  "Bacon said the search for gold dug the vineyard and brought a great vintage. What searches of our own time may prove fruitful in ways their seekers did not intend?"
+ ],
+ "outside": [
+  {
+   "id": "milton-philosophers-in-vain",
+   "after": "source:BH04806",
+   "responds": [
+    "source:BH04806"
+   ],
+   "relation": "adjacent",
+   "why": "Milton, describing the sun, mentions in passing that stone which philosophers here below have so long sought in vain."
+  },
+  {
+   "id": "herbert-famous-stone",
+   "after": "source:AB06652",
+   "responds": [
+    "source:AB06652"
+   ],
+   "relation": "adjacent",
+   "why": "George Herbert names the real stone that turns all to gold: doing a thing for God's sake."
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:BH02654",
+   "responds": [
+    "source:BH02654"
+   ],
+   "relation": "adjacent",
+   "why": "The same poem asks to be taught to see God in all things, so that even drudgery is made divine."
+  },
+  {
+   "id": "shakespeare-plays-the-alchemist",
+   "after": "source:BH01234",
+   "responds": [
+    "source:BH01234"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare lets the sun play the alchemist, turning the meagre cloddy earth to glittering gold."
+  },
+  {
+   "id": "deuteronomy-secret-things",
+   "after": "source:BH02383",
+   "responds": [
+    "source:BH02383"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy distinguishes the secret things, which belong to God, from the things revealed, which are given to be done."
+  },
+  {
+   "id": "proverbs-wisdom-better-than-gold",
+   "after": "source:BH00051",
+   "responds": [
+    "source:BH00051"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks how much better it is to get wisdom than gold, and understanding than silver."
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:BH00469",
+   "responds": [
+    "source:BH00469"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus advised against giving what is holy where it will be trampled, which is a reason for reticence."
+  },
+  {
+   "id": "donne-tis-imposture-all",
+   "after": "source:BH00213",
+   "responds": [
+    "source:BH00213"
+   ],
+   "relation": "adjacent",
+   "why": "John Donne thought the search for love's hidden mystery was like the chemist's for the elixir: imposture all, with a pleasant smell from the pot at best."
+  },
+  {
+   "id": "proverbs-not-with-silver",
+   "after": "source:BH01733",
+   "responds": [
+    "source:BH01733"
+   ],
+   "relation": "adjacent",
+   "why": "Wisdom says in Proverbs: receive my instruction and not silver, and knowledge rather than choice gold."
+  },
+  {
+   "id": "jonson-be-rich",
+   "after": "source:BHU0025",
+   "responds": [
+    "source:BHU0025"
+   ],
+   "relation": "adjacent",
+   "why": "Ben Jonson put the alchemist's dupe on the London stage, promising his friend ingots by nightfall."
+  },
+  {
+   "id": "timothy-love-of-money",
+   "after": "source:BH01564",
+   "responds": [
+    "source:BH01564"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter to Timothy warns that those who want to be rich fall into a snare and pierce themselves with many sorrows."
+  },
+  {
+   "id": "shakespeare-all-that-glisters",
+   "after": "source:BH01564",
+   "responds": [
+    "source:BH01564"
+   ],
+   "relation": "adjacent",
+   "why": "The scroll in the golden casket tells the suitor what he should have known: all that glitters is not gold."
+  },
+  {
+   "id": "daniel-deep-and-secret-things",
+   "after": "source:BH00789",
+   "responds": [
+    "source:BH00789"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel blesses God as the one who reveals the deep and secret things and knows what is in the darkness."
+  },
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:AB05550",
+   "responds": [
+    "source:AB05550"
+   ],
+   "relation": "complement",
+   "why": "Proverbs says that it is the glory of God to conceal a thing and the honour of kings to search it out. When is it right for a discovery to wait?"
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:AB09916",
+   "responds": [
+    "source:AB09916"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel is told to shut the words and seal the book until the time of the end, when knowledge shall be increased."
+  },
+  {
+   "id": "job-vein-for-the-silver",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Job knows the miner's world: there is a vein for the silver, and iron is taken out of the earth."
+  },
+  {
+   "id": "plato-elements-pass-into-one-another",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Plato observed that what we call water becomes earth by condensing and air by dispersing, so that no element keeps one form."
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Lavoisier laid it down as an axiom that in all the operations of art and nature nothing is created: the same matter exists before and after. What does that axiom allow of the change described here, and what does it forbid?"
+  },
+  {
+   "id": "aristotle-elements-change-into-one-another",
+   "after": "source:BH00006",
+   "responds": [
+    "source:BH00006"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that all the elements are by nature such as to change into one another."
+  },
+  {
+   "id": "shelley-metals-cannot-be-transmuted",
+   "after": "source:BH00006",
+   "responds": [
+    "source:BH00006"
+   ],
+   "relation": "contrast",
+   "why": "Mary Shelley's professor speaks for the chemistry of 1818: the modern masters know that metals cannot be transmuted. How should a reader weigh a confident scientific consensus against a claim like this one?"
+  },
+  {
+   "id": "matthew-stones-children-abraham",
+   "after": "source:BH00097",
+   "responds": [
+    "source:BH00097"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist told his hearers that God is able to raise up children to Abraham from the very stones."
+  },
+  {
+   "id": "genesis-tubal-cain",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis remembers by name the first instructor of every worker in brass and iron."
+  },
+  {
+   "id": "milton-up-to-him-return",
+   "after": "source:AB00567",
+   "responds": [
+    "source:AB00567"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel explains that all things are of one first matter, more refined and pure as they stand nearer to God."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:BH07258",
+   "responds": [
+    "source:BH07258"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says the same in a line: to every thing there is a season."
+  },
+  {
+   "id": "quran-rain-and-foam",
+   "after": "source:BH07258",
+   "responds": [
+    "source:BH07258"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an draws a parable from smelting: the foam on the molten metal passes away, and what is of use remains."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:ABU0508",
+   "responds": [
+    "source:ABU0508"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus uses the same law of nature: unless a grain of wheat falls into the ground and dies, it remains alone."
+  },
+  {
+   "id": "proverbs-dross-from-the-silver",
+   "after": "source:BH03017",
+   "responds": [
+    "source:BH03017"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs knows the refiner's first step: take away the dross from the silver, and a vessel comes forth."
+  },
+  {
+   "id": "chandogya-clod-of-clay",
+   "after": "source:BH00088",
+   "responds": [
+    "source:BH00088"
+   ],
+   "relation": "adjacent",
+   "why": "The Upanishad teaches that by one clod of clay all that is made of clay is known, the differences being only names."
+  },
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:BH00088",
+   "responds": [
+    "source:BH00088"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus said that no one steps twice into the same rivers, for fresh waters are ever flowing in."
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:BH00088",
+   "responds": [
+    "source:BH00088"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes resolved never to accept anything as true that he did not clearly know to be so, and to avoid haste and prejudice."
+  },
+  {
+   "id": "psalm-stone-builders-refused",
+   "after": "source:BH01597",
+   "responds": [
+    "source:BH01597"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm speaks of a stone the builders refused that became the head of the corner."
+  },
+  {
+   "id": "ecclesiastes-all-the-works-my-hands",
+   "after": "source:BH00235",
+   "responds": [
+    "source:BH00235"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher looked on all the works his hands had wrought and found them vanity and vexation of spirit."
+  },
+  {
+   "id": "dhammapada-impurities-of-silver",
+   "after": "source:BH00212",
+   "responds": [
+    "source:BH00212"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada asks a wise person to blow off his own impurities little by little, as a smith does those of silver."
+  },
+  {
+   "id": "acts-silver-and-gold-have-i-none",
+   "after": "source:BH03998",
+   "responds": [
+    "source:BH03998"
+   ],
+   "relation": "adjacent",
+   "why": "Peter told the lame man at the gate: silver and gold have I none, but such as I have I give thee."
+  },
+  {
+   "id": "revelation-gold-tried-in-the-fire",
+   "after": "source:BH00020",
+   "responds": [
+    "source:BH00020"
+   ],
+   "relation": "complement",
+   "why": "The church that thought itself rich is counselled to buy gold tried in the fire. What kind of gold can be bought by one who is poor?"
+  },
+  {
+   "id": "psalm-more-to-be-desired-than-gold",
+   "after": "source:BH00073",
+   "responds": [
+    "source:BH00073"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of the judgments of the Lord that they are more to be desired than much fine gold."
+  },
+  {
+   "id": "quran-treasures-with-us",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says there is not a thing but its stores are with God, and it is sent down in appointed measure."
+  },
+  {
+   "id": "shakespeare-sea-change",
+   "after": "source:BB00023",
+   "responds": [
+    "source:BB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Ariel's song tells of bones turned to coral and eyes to pearls: a sea-change into something rich and strange."
+  },
+  {
+   "id": "quran-iron-sent-down",
+   "after": "source:BB00023",
+   "responds": [
+    "source:BB00023"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an counts iron among the things sent down, with mighty power in it and many uses for mankind."
+  },
+  {
+   "id": "psalm-silver-tried-seven-times",
+   "after": "source:BB00175",
+   "responds": [
+    "source:BB00175"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm likens the words of the Lord to silver tried in a furnace of earth and purified seven times."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:BB00421",
+   "responds": [
+    "source:BB00421"
+   ],
+   "relation": "adjacent",
+   "why": "Blake thought a world could be seen in a grain of sand and heaven in a wild flower."
+  },
+  {
+   "id": "heraclitus-way-up-way-down",
+   "after": "source:BB00612",
+   "responds": [
+    "source:BB00612"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus left a saying as compressed as this passage: the way up and the way down is one and the same."
+  },
+  {
+   "id": "marcus-come-round-in-a-circle",
+   "after": "source:BB00022",
+   "responds": [
+    "source:BB00022"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius reminds himself that all things from eternity are of like forms and come round in a circle."
+  },
+  {
+   "id": "malachi-who-may-abide",
+   "after": "source:BB00044",
+   "responds": [
+    "source:BB00044"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi says that the messenger will sit as a refiner and purifier of silver, and will purify the sons of Levi."
+  },
+  {
+   "id": "corinthians-changed-into-the-same-image",
+   "after": "source:BH01071",
+   "responds": [
+    "source:BH01071"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of people being changed, from glory to glory, into the image of what they behold."
+  },
+  {
+   "id": "bacon-alchemy-and-the-vineyard",
+   "after": "source:ABU3274",
+   "responds": [
+    "source:ABU3274"
+   ],
+   "relation": "adjacent",
+   "why": "Francis Bacon made the same point with a fable: the sons dug the vineyard for buried gold, found none, and had a great vintage."
+  },
+  {
+   "id": "galatians-fulness-of-the-time",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul also thinks of humanity as coming of age: when the fulness of the time was come."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:AB04115",
+   "responds": [
+    "source:AB04115"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples that he had many things to say which they could not bear yet."
+  },
+  {
+   "id": "tennyson-argosies-of-magic-sails",
+   "after": "source:AB11349",
+   "responds": [
+    "source:AB11349"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson, in 1842, dipped into the future and saw the heavens fill with commerce, and wonders not yet imagined."
+  },
+  {
+   "id": "haggai-silver-is-mine",
+   "after": "source:AB11349",
+   "responds": [
+    "source:AB11349"
+   ],
+   "relation": "adjacent",
+   "why": "Haggai hears the Lord say that the silver is His and the gold is His."
+  },
+  {
+   "id": "corinthians-fire-shall-try",
+   "after": "source:ABU0929",
+   "responds": [
+    "source:ABU0929"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that every person's work will be tried by fire, to show of what sort it is."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:BH00003",
+   "responds": [
+    "source:BH00003"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends his poem with the one force he found behind everything: the love that moves the sun and the other stars."
+  },
+  {
+   "id": "shakespeare-richest-alchemy",
+   "after": "source:AB06110",
+   "responds": [
+    "source:AB06110"
+   ],
+   "relation": "adjacent",
+   "why": "In Julius Caesar a good man's countenance is said to work like richest alchemy, changing what would be offence into virtue."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "selection:9f4f15088f4f6d90b91cb136",
+   "responds": [
+    "selection:9f4f15088f4f6d90b91cb136"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher was sure there is no new thing under the sun. What has the last century of physics done to that confidence, and to our certainty about what is impossible?"
+  },
+  {
+   "id": "hopkins-immortal-diamond",
+   "after": "selection:ec8b33cfec006b040a7cf276",
+   "responds": [
+    "selection:ec8b33cfec006b040a7cf276"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins ends his poem on nature's fire with a change no one could work in himself: this poor potsherd, matchwood, is immortal diamond."
+  },
+  {
+   "id": "isaiah-furnace-of-affliction",
+   "after": "selection:d8c0dc8ef127f4e383270534",
+   "responds": [
+    "selection:d8c0dc8ef127f4e383270534"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears God say: I have refined thee, but not with silver; I have chosen thee in the furnace of affliction."
+  },
+  {
+   "id": "matthew-thy-kingdom-come",
+   "after": "selection:81e5c110b8b561361247f7a5",
+   "responds": [
+    "selection:81e5c110b8b561361247f7a5"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer Jesus taught holds the two levels together in its own way: on earth, as it is in heaven."
+  }
+ ],
+ "library": {
+  "proverbs-fining-pot": {
+   "text": "The fining pot is for silver, and the furnace for gold: but the Lord trieth the hearts",
+   "work": "Proverbs 17:3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2017%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "zechariah-refine-them-as-silver": {
+   "text": "And I will bring the third part through the fire, and will refine them as silver is refined, and will try them as gold is tried: they shall call on my name, and I will hear them: I will say, It is my people: and they shall say, The Lord is my God",
+   "work": "Zechariah 13:9",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Zechariah%2013%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-purge-away-thy-dross": {
+   "text": "And I will turn my hand upon thee, and purely purge away thy dross, and take away all thy tin",
+   "work": "Isaiah 1:25",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%201%3A25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-silver-tried-seven-times": {
+   "text": "The words of the Lord are pure words: as silver tried in a furnace of earth, purified seven times",
+   "work": "Psalm 12:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2012%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-gold-tried-in-the-fire": {
+   "text": "Because thou sayest, I am rich, and increased with goods, and have need of nothing; and knowest not that thou art wretched, and miserable, and poor, and blind, and naked: I counsel thee to buy of me gold tried in the fire, that thou mayest be rich; and white raiment, that thou mayest be clothed, and that the shame of thy nakedness do not appear; and anoint thine eyes with eyesalve, that thou mayest see",
+   "work": "Revelation 3:17–18",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%203%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-changed-into-the-same-image": {
+   "text": "But we all, with open face beholding as in a glass the glory of the Lord",
+   "work": "2 Corinthians 3:18",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%203%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-wisdom-better-than-gold": {
+   "text": "How much better is it to get wisdom than gold! and to get understanding rather to be chosen than silver",
+   "work": "Proverbs 16:16",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2016%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-vein-for-the-silver": {
+   "text": "Surely there is a vein for the silver, and a place for gold where they fine it. Iron is taken out of the earth, and brass is molten out of the stone",
+   "work": "Job 28:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2028%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-to-every-thing-there-is-a-season": {
+   "text": "To every thing there is a season, and a time to every purpose under the heaven",
+   "work": "Ecclesiastes 3:1",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%203%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-love-of-money": {
+   "text": "But they that will be rich fall into temptation and a snare, and into many foolish and hurtful lusts, which drown men in destruction and perdition. For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows",
+   "work": "1 Timothy 6:9–10",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%206%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-become-dross": {
+   "text": "Son of man, the house of Israel is to me become dross: all they are brass, and tin, and iron, and lead, in the midst of the furnace; they are even the dross of silver. Therefore thus saith the Lord God; Because ye are all become dross, behold, therefore I will gather you into the midst of Jerusalem",
+   "work": "Ezekiel 22:18–19",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2022%3A18-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-furnace-of-affliction": {
+   "text": "Behold, I have refined thee, but not with silver; I have chosen thee in the furnace of affliction",
+   "work": "Isaiah 48:10",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2048%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-potters-house": {
+   "text": "Then I went down to the potter's house, and, behold, he wrought a work on the wheels. And the vessel that he made of clay was marred in the hand of the potter: so he made it again another vessel, as seemed good to the potter to make it. Then the word of the Lord came to me, saying, O house of Israel",
+   "work": "Jeremiah 18:3–6",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2018%3A3-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-not-with-silver": {
+   "text": "Receive my instruction, and not silver; and knowledge rather than choice gold. For wisdom is better than rubies; and all the things that may be desired are not to be compared to it",
+   "work": "Proverbs 8:10–11",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%208%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "haggai-silver-is-mine": {
+   "text": "The silver is mine, and the gold is mine, saith the Lord of hosts",
+   "work": "Haggai 2:8",
+   "year": "6th century BCE",
+   "sortYear": -520,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Haggai%202%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-more-to-be-desired-than-gold": {
+   "text": "More to be desired are they than gold, yea, than much fine gold: sweeter also than honey and the honeycomb",
+   "work": "Psalm 19:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2019%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-simon-offered-money": {
+   "text": "And when Simon saw that through laying on of the apostles' hands the Holy Ghost was given, he offered them money, Saying, Give me also this power, that on whomsoever I lay hands, he may receive the Holy Ghost. But Peter said unto him, Thy money perish with thee, because thou hast thought that the gift of God may be purchased with money",
+   "work": "Acts 8:18–20",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A18-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-treasures-with-us": {
+   "text": "And there is not a thing but with Us are the stores thereof. And we send it not down save in appointed measure.",
+   "work": "Qur’an 15:21",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=15&verse=21",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-iron-sent-down": {
+   "text": "We verily sent Our messengers with clear proofs, and revealed with them the Scripture and the Balance, that mankind may observe right measure; and He revealed iron, wherein is mighty power and (many) uses for mankind, and that Allah may know him who helpeth Him and His messengers, though unseen. Lo! Allah is Strong, Almighty.",
+   "work": "Qur’an 57:25",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=57&verse=25",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-hoard-gold-and-silver": {
+   "text": "O ye who believe! Lo! many of the (Jewish) rabbis and the (Christian) monks devour the wealth of mankind wantonly and debar (men) from the way of Allah. They who hoard up gold and silver and spend it not in the way of Allah, unto them give tidings (O Muhammad) of a painful doom,",
+   "work": "Qur’an 9:34",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=34",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-heavenly-alchemy": {
+   "text": "Full many a glorious morning have I seen / Flatter the mountain-tops with sovereign eye, / Kissing with golden face the meadows green, / Gilding pale streams with heavenly alchemy",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Sonnet 33",
+   "year": "1609",
+   "sortYear": 1609,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/Poetry/sonnet.XXXIII.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-plays-the-alchemist": {
+   "text": "To solemnize this day the glorious sun / Stays in his course and plays the alchemist, / Turning with splendor of his precious eye / The meagre cloddy earth to glittering gold",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "King John",
+   "locator": "Act III, scene 1",
+   "year": "c. 1596",
+   "sortYear": 1596,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/john/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-richest-alchemy": {
+   "text": "O, he sits high in all the people's hearts: / And that which would appear offence in us, / His countenance, like richest alchemy, / Will change to virtue and to worthiness",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Julius Caesar",
+   "locator": "Act I, scene 3",
+   "year": "1599",
+   "sortYear": 1599,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/julius_caesar/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-sea-change": {
+   "text": "Full fathom five thy father lies; / Of his bones are coral made; / Those are pearls that were his eyes: / Nothing of him that doth fade / But doth suffer a sea-change / Into something rich and strange",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Tempest",
+   "locator": "Act I, scene 2",
+   "year": "c. 1611",
+   "sortYear": 1611,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/tempest/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "shakespeare-all-that-glisters": {
+   "text": "All that glitters is not gold; / Often have you heard that told: / Many a man his life hath sold / But my outside to behold: / Gilded tombs do worms enfold",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Merchant of Venice",
+   "locator": "Act II, scene 7",
+   "year": "c. 1597",
+   "sortYear": 1597,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/merchant/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "donne-tis-imposture-all": {
+   "text": "O! 'tis imposture all; / And as no chemic yet th' elixir got, / But glorifies his pregnant pot, / If by the way to him befall / Some odoriferous thing, or medicinal",
+   "verse": true,
+   "author": "John Donne",
+   "work": "Love's Alchemy",
+   "year": "1633",
+   "sortYear": 1633,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_of_John_Donne/Volume_1/Love%27s_Alchemy",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1631."
+   }
+  },
+  "bacon-alchemy-and-the-vineyard": {
+   "text": "And yet surely to alchemy this right is due, that it may be compared to the husbandman whereof Æsop makes the fable; that, when he died, told his sons that he had left unto them gold buried underground in his vineyard; and they digged over all the ground, and gold they found none; but by reason of their stirring and digging the mould about the roots of their vines, they had a great vintage the year following: so assuredly the search and stir to make gold hath brought to light a great number of good and fruitful inventions and experiments, as well for the disclosing of nature as for the use of man’s life",
+   "author": "Francis Bacon",
+   "work": "The Advancement of Learning",
+   "locator": "Book I",
+   "year": "1605",
+   "sortYear": 1605,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Advancement_of_Learning_(Gutenberg)",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  },
+  "hopkins-immortal-diamond": {
+   "text": "In a flash, at a trumpet crash, / I am all at once what Christ is, since he was what I am, and / This Jack, joke, poor potsherd, patch, matchwood, immortal diamond, / Is immortal diamond",
+   "verse": true,
+   "author": "Gerard Manley Hopkins",
+   "work": "That Nature is a Heraclitean Fire and of the comfort of the Resurrection",
+   "year": "1888; published 1918",
+   "sortYear": 1888,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/That_Nature_is_a_Heraclitean_Fire_and_of_the_comfort_of_the_Resurrection",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1889."
+   }
+  },
+  "plato-elements-pass-into-one-another": {
+   "text": "we see that what we just now called water, by condensation, I suppose, becomes stone and earth; and this same element, when melted and dispersed, passes into vapour and air",
+   "author": "Plato",
+   "work": "Timaeus",
+   "year": "c. 360 BCE",
+   "sortYear": -360,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/timaeus.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "milton-philosophers-in-vain": {
+   "text": "That stone, or like to that which here below / Philosophers in vain so long have sought",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "Book III",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/Book_III",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1674."
+   }
+  },
+  "aristotle-elements-change-into-one-another": {
+   "text": "Now it is evident that all of them are by nature such as to change into one another: for coming-to-be is a change into contraries and out of contraries",
+   "author": "Aristotle",
+   "work": "On Generation and Corruption",
+   "locator": "Book II",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "H. H. Joachim",
+   "translationYear": "1922",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/gener_corr.2.ii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1922; translator d. 1938."
+   }
+  },
+  "jonson-be-rich": {
+   "text": "Pertinax, my Surly, / Again I say to thee, aloud, Be rich. / This day, thou shalt have ingots",
+   "verse": true,
+   "author": "Ben Jonson",
+   "work": "The Alchemist",
+   "locator": "Act II, scene 1",
+   "year": "1610",
+   "sortYear": 1610,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_Ben_Jonson/Volume_4/The_Alchemist/Act_2_Scene_1",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "Mam\\."
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1637."
+   }
+  },
+  "lavoisier-nothing-is-created": {
+   "text": "We may lay down as an incontesible axiom, that, in all the operations of art and nature, nothing is created; an equal quantity of matter exists both before and after the experiment",
+   "author": "Antoine Lavoisier",
+   "work": "Elements of Chemistry",
+   "locator": "Part I, chapter 13",
+   "year": "1789",
+   "sortYear": 1789,
+   "translator": "Robert Kerr",
+   "translationYear": "1790",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Elements_of_Chemistry_(Lavoisier,_tr._Kerr)/Part_I",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1794; translator d. 1813."
+   }
+  },
+  "shelley-metals-cannot-be-transmuted": {
+   "text": "The modern masters promise very little; they know that metals cannot be transmuted, and that the elixir of life is a chimera",
+   "author": "Mary Shelley",
+   "work": "Frankenstein",
+   "locator": "Volume I, chapter 2",
+   "year": "1818",
+   "sortYear": 1818,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(First_Edition,_1818)/Volume_1/Chapter_2",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1851."
+   }
+  },
+  "chandogya-clod-of-clay": {
+   "text": "as by one clod of clay all that is made of clay is known, the difference being only a name, arising from speech, but the truth being that all is clay",
+   "work": "Chandogya Upanishad",
+   "locator": "6.1.4",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -700,
+   "translator": "F. Max Müller",
+   "translationYear": "1879",
+   "tradition": "Hindu scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://archive.org/stream/upanishads01mluoft/upanishads01mluoft_djvu.txt",
+    "label": "Internet Archive",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "repair": [
+     [
+      "dif- ference 2",
+      "difference"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1900."
+   }
+  }
+ }
+}

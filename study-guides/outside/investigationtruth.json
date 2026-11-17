@@ -1,0 +1,1332 @@
+{
+ "format": 2,
+ "slug": "investigationtruth",
+ "subject": "30A42A15DD044876BA9A0BA8D1D60330",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 85,
+ "quotations": 100,
+ "kept": [
+  "source:ABU0019",
+  "source:BH00528",
+  "source:BH02183",
+  "source:BH00047",
+  "source:AB04757",
+  "source:ABU0130",
+  "source:BH08723",
+  "source:BH05498",
+  "source:BH06996",
+  "source:BH10225",
+  "source:BH02497",
+  "source:ABU0493",
+  "source:ABU0012",
+  "source:ABU0150",
+  "source:ABU0860",
+  "source:ABU0648",
+  "source:ABU0148",
+  "source:ABU2795",
+  "source:ABU2983",
+  "source:ABU2829",
+  "source:ABU0146",
+  "source:BH01352",
+  "source:ABU0282",
+  "source:ABU0457",
+  "source:AB05724",
+  "source:AB01118",
+  "source:AB01534",
+  "source:ABU0031",
+  "source:ABU0007",
+  "source:ABU0038",
+  "source:ABU0233",
+  "source:ABU0365",
+  "source:ABU0477",
+  "source:ABU0382",
+  "source:ABU0006",
+  "source:ABU2033",
+  "source:ABU0293",
+  "source:AB00086",
+  "source:ABU0491",
+  "source:ABU1721",
+  "source:ABU0174",
+  "source:ABU0091",
+  "source:ABU0235",
+  "source:ABU0051",
+  "source:ABU0062",
+  "source:ABU0149",
+  "source:ABU0257",
+  "source:ABU0083",
+  "source:ABU1132",
+  "source:ABU0178",
+  "source:ABU2534",
+  "source:ABU0925",
+  "source:AB03271",
+  "source:AB00016",
+  "source:AB00197",
+  "source:AB00481",
+  "source:AB00138",
+  "source:AB00862",
+  "source:AB07457",
+  "source:ABU0057",
+  "source:ABU3267",
+  "source:ABU0040",
+  "source:ABU0521",
+  "source:ABU1989",
+  "source:AB02117",
+  "source:BH00006",
+  "source:BH00434",
+  "source:BH02751",
+  "source:AB01592",
+  "source:BH06679",
+  "source:BB00407",
+  "source:ABU3421",
+  "source:AB08466",
+  "source:AB04069",
+  "source:AB04751",
+  "source:ABU3292",
+  "source:ABU3039",
+  "source:ABU0866",
+  "source:ABU1732",
+  "source:ABU3159",
+  "source:AB06843",
+  "source:BH05090",
+  "selection:1451d96d9ad2529a720addbb",
+  "selection:dfcfaaa1d4c8e69dc250614e",
+  "selection:539320a3bc412b6e1de3c75c"
+ ],
+ "introduction": "‘Abdu’l-Bahá named it first among the teachings of Bahá’u’lláh: every person must investigate reality for themselves, seeing with their own eyes and not through the eyes of others, and setting aside what was merely inherited. These passages state the principle, give its grounds in the gift of reason, describe the conditions of a fair search, and claim that since truth is one, honest seekers will be brought together. A hundred outside voices stand beside them: the Bereans who searched the scriptures, Job and the Psalms, the Qur’an's rebuke of those who follow their fathers, the Buddha's advice to the Kalamas, Socrates, Aristotle, Descartes, Locke, Kant, Milton and Mill, with Burke, Chesterton, Jeremiah and Proverbs speaking for what is handed down.",
+ "questions": [
+  "\"See with thine own eyes.\" The Buddha, Kant and Emerson say much the same. What do these passages add about the conditions of such seeing?",
+  "Burke and Chesterton defend tradition; Jeremiah says to ask for the old paths. What is the difference between imitation and a tradition worth keeping?",
+  "Proverbs says, \"lean not unto thine own understanding.\" How does a duty to investigate sit with trust in revelation?",
+  "Several talks say that because truth is one, investigation will unite people. The Buddha's blind men and Madison's many sects suggest otherwise. What kind of unity is in view?",
+  "One passage tells enquirers to come to the Bahá’ís themselves and not to the prejudiced. Mill says we do not know our own side until we know the other. How would you apply both?",
+  "What have you believed only because you were told it, and what would investigating it involve?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-all-men-desire-to-know",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle opens his Metaphysics with the sentence: all men by nature desire to know."
+  },
+  {
+   "id": "quran-follow-not-without-knowledge",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: follow not that of which thou hast no knowledge, for hearing, sight and heart will each be asked."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates told his judges that the unexamined life is not worth living."
+  },
+  {
+   "id": "acts-bereans",
+   "after": "source:BH00528",
+   "responds": [
+    "source:BH00528"
+   ],
+   "relation": "adjacent",
+   "why": "Luke calls the people of Berea noble because they searched the scriptures daily to see whether what they heard was so."
+  },
+  {
+   "id": "proverbs-simple-believeth-every-word",
+   "after": "source:BH00528",
+   "responds": [
+    "source:BH00528"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the simple believe every word, but the prudent look well to their going."
+  },
+  {
+   "id": "quran-conjecture-no-substitute",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that most people follow conjecture, and that conjecture can never take the place of truth."
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "source:AB04757",
+   "responds": [
+    "source:AB04757"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ye shall know the truth, and the truth shall make you free."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "adjacent",
+   "why": "Kant defined enlightenment as release from self-incurred tutelage, and gave it a motto: dare to know."
+  },
+  {
+   "id": "quran-found-our-fathers",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an rebukes those who say, \"We follow that wherein we found our fathers,\" even though their fathers understood nothing."
+  },
+  {
+   "id": "chesterton-democracy-of-the-dead",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "contrast",
+   "why": "Chesterton called tradition the democracy of the dead, which refuses to disqualify our ancestors for the accident of being dead. What does a person owe to what forefathers believed?"
+  },
+  {
+   "id": "job-now-mine-eye-seeth-thee",
+   "after": "source:BH08723",
+   "responds": [
+    "source:BH08723"
+   ],
+   "relation": "adjacent",
+   "why": "Job says at the end: I had heard of thee by the hearing of the ear, but now mine eye seeth thee."
+  },
+  {
+   "id": "buddha-dont-go-by-reports",
+   "after": "source:BH05498",
+   "responds": [
+    "source:BH05498"
+   ],
+   "relation": "adjacent",
+   "why": "The Buddha told the Kalamas not to go by reports, traditions, scripture or the thought \"this is our teacher,\" but by what they came to know for themselves."
+  },
+  {
+   "id": "psalm-taste-and-see",
+   "after": "source:BH05498",
+   "responds": [
+    "source:BH05498"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm invites: O taste and see that the Lord is good."
+  },
+  {
+   "id": "john-come-and-see",
+   "after": "source:BH06996",
+   "responds": [
+    "source:BH06996"
+   ],
+   "relation": "adjacent",
+   "why": "When Nathanael doubted that anything good could come from Nazareth, Philip answered only: come and see."
+  },
+  {
+   "id": "luke-judge-ye-not-what-is-right",
+   "after": "source:BH10225",
+   "responds": [
+    "source:BH10225"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks the crowd why they can read the sky and do not judge for themselves what is right."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal places the whole dignity of man in thought, and says that to think well is the principle of morality."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "adjacent",
+   "why": "Locke held that reason must be our last judge and guide in everything."
+  },
+  {
+   "id": "isaiah-sins-as-scarlet",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears God say to his people: come now, and let us reason together."
+  },
+  {
+   "id": "proverbs-trust-in-the-lord",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "contrast",
+   "why": "Proverbs says: trust in the Lord with all thine heart, and lean not unto thine own understanding. How is that to be held together with the duty to investigate by one's own reason?"
+  },
+  {
+   "id": "mark-tradition-of-none-effect",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus charged the teachers of his day with making the word of God void through their tradition."
+  },
+  {
+   "id": "emerson-sepulchres-of-the-fathers",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson asked why we should not also enjoy an original relation to the universe, and not one handed down."
+  },
+  {
+   "id": "quran-hearts-grow-blind",
+   "after": "source:ABU0860",
+   "responds": [
+    "source:ABU0860"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that it is not the eyes that grow blind, but the hearts within the breasts."
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:ABU0648",
+   "responds": [
+    "source:ABU0648"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives a rule of the same kind: prove all things; hold fast that which is good."
+  },
+  {
+   "id": "john-epistle-try-the-spirits",
+   "after": "source:ABU0648",
+   "responds": [
+    "source:ABU0648"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says: believe not every spirit, but try the spirits."
+  },
+  {
+   "id": "tennyson-honest-doubt",
+   "after": "source:ABU0148",
+   "responds": [
+    "source:ABU0148"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson wrote that there lives more faith in honest doubt than in half the creeds."
+  },
+  {
+   "id": "proverbs-seekest-her-as-silver",
+   "after": "source:ABU2795",
+   "responds": [
+    "source:ABU2795"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that understanding is found by the one who seeks it as silver and searches for it as for hidden treasure."
+  },
+  {
+   "id": "plato-wonder-beginning-of-philosophy",
+   "after": "source:ABU2983",
+   "responds": [
+    "source:ABU2983"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates says that wonder is the beginning of the love of wisdom."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:ABU2983",
+   "responds": [
+    "source:ABU2983"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher found that in much wisdom is much grief, and that whoever increases knowledge increases sorrow. What would he say to a thirst that grows with drinking?"
+  },
+  {
+   "id": "xenophanes-by-seeking",
+   "after": "source:ABU2829",
+   "responds": [
+    "source:ABU2829"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that the gods did not reveal everything from the first, and that by seeking people find out better in time."
+  },
+  {
+   "id": "bacon-no-dry-light",
+   "after": "source:ABU0146",
+   "responds": [
+    "source:ABU0146"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon warned that the human understanding is no dry light, but is coloured by the will and the affections."
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:ABU0282",
+   "responds": [
+    "source:ABU0282"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes made it his first rule never to accept anything as true that he did not clearly know to be so."
+  },
+  {
+   "id": "augustine-believe-that-you-may-understand",
+   "after": "source:ABU0457",
+   "responds": [
+    "source:ABU0457"
+   ],
+   "relation": "complement",
+   "why": "Augustine advised believing in order to understand. This talk asks the seeker first to forget whatever he has heard. Which comes first, and can either stand alone?"
+  },
+  {
+   "id": "quran-guided-by-their-footprints",
+   "after": "source:AB05724",
+   "responds": [
+    "source:AB05724"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an quotes those who say: we found our fathers following a religion, and we are guided by their footprints."
+  },
+  {
+   "id": "jeremiah-old-paths",
+   "after": "source:AB05724",
+   "responds": [
+    "source:AB05724"
+   ],
+   "relation": "contrast",
+   "why": "Jeremiah says: ask for the old paths, where is the good way, and walk therein. When is the way of the fathers imitation, and when is it the good way?"
+  },
+  {
+   "id": "burke-cherish-prejudices",
+   "after": "source:AB01118",
+   "responds": [
+    "source:AB01118"
+   ],
+   "relation": "contrast",
+   "why": "Burke said that the English cherish their old prejudices because they are prejudices, holding the latent wisdom of ages. What does \"all traditions must be abandoned\" risk losing?"
+  },
+  {
+   "id": "mill-dead-dogma",
+   "after": "source:AB01534",
+   "responds": [
+    "source:AB01534"
+   ],
+   "relation": "adjacent",
+   "why": "Mill warned that a truth held without discussion becomes a dead dogma and not a living truth."
+  },
+  {
+   "id": "matthew-call-no-man-master",
+   "after": "source:ABU0031",
+   "responds": [
+    "source:ABU0031"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples to call no man on earth master, for they have one teacher."
+  },
+  {
+   "id": "matthew-seek-and-ye-shall-find",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ask, and it shall be given you; seek, and ye shall find."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:ABU0038",
+   "responds": [
+    "source:ABU0038"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson's counsel to each person was: trust thyself; every heart vibrates to that iron string."
+  },
+  {
+   "id": "mencius-without-the-book-of-history",
+   "after": "source:ABU0233",
+   "responds": [
+    "source:ABU0233"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius said that it would be better to be without the Book of History than to believe all of it."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:ABU0477",
+   "responds": [
+    "source:ABU0477"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that learning without thought is labour lost, and thought without learning is perilous."
+  },
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:ABU0382",
+   "responds": [
+    "source:ABU0382"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls it the glory of God to conceal a thing, and an honour to search it out."
+  },
+  {
+   "id": "plato-art-of-midwifery",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates called his art midwifery: he brought to birth what was in others and taught them nothing ready-made."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU2033",
+   "responds": [
+    "source:ABU2033"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi says that the lamps are different but the light is the same."
+  },
+  {
+   "id": "john-do-his-will-shall-know",
+   "after": "source:ABU0293",
+   "responds": [
+    "source:ABU0293"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that whoever does God's will shall know whether the teaching is from God. Is truth found by looking, or by doing?"
+  },
+  {
+   "id": "aristotle-truth-above-our-friends",
+   "after": "source:AB00086",
+   "responds": [
+    "source:AB00086"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle, differing from his teacher, said that piety requires us to honour truth above our friends."
+  },
+  {
+   "id": "symmachus-not-by-one-road",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491"
+   ],
+   "relation": "adjacent",
+   "why": "Symmachus pleaded that so great a mystery cannot be reached by one road only."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491"
+   ],
+   "relation": "adjacent",
+   "why": "Milton asked who ever knew truth put to the worse in a free and open encounter."
+  },
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "source:ABU1721",
+   "responds": [
+    "source:ABU1721"
+   ],
+   "relation": "adjacent",
+   "why": "Milton held that opinion in good men is but knowledge in the making."
+  },
+  {
+   "id": "quran-follow-the-best-thereof",
+   "after": "source:ABU1721",
+   "responds": [
+    "source:ABU1721"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an praises those who listen to what is said and follow the best of it."
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:ABU0091",
+   "responds": [
+    "source:ABU0091"
+   ],
+   "relation": "adjacent",
+   "why": "Plato likens the unexamined mind to prisoners chained in a cave, who take shadows for the truth."
+  },
+  {
+   "id": "thoreau-live-deliberately",
+   "after": "source:ABU0091",
+   "responds": [
+    "source:ABU0091"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau went to the woods to front the essential facts for himself."
+  },
+  {
+   "id": "buddha-seeing-one-side",
+   "after": "source:ABU0235",
+   "responds": [
+    "source:ABU0235"
+   ],
+   "relation": "complement",
+   "why": "The Buddha tells of blind men who each touch one part of an elephant and quarrel. If everyone investigates, will all agree, or will each see a part?"
+  },
+  {
+   "id": "madison-multiplicity-of-sects",
+   "after": "source:ABU0235",
+   "responds": [
+    "source:ABU0235"
+   ],
+   "relation": "contrast",
+   "why": "Madison thought that the security of religious liberty lies in a multiplicity of sects. Is the unity hoped for here the end of that variety?"
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says that the wise speak in many ways of what is one."
+  },
+  {
+   "id": "zechariah-one-lord-and-his-name-one",
+   "after": "source:ABU0062",
+   "responds": [
+    "source:ABU0062"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah looks to a day when there shall be one Lord, and his name one."
+  },
+  {
+   "id": "chesterton-differ-in-what-they-teach",
+   "after": "source:ABU0149",
+   "responds": [
+    "source:ABU0149"
+   ],
+   "relation": "contrast",
+   "why": "Chesterton insisted that the religions of the earth differ little in rites and greatly in what they teach. How would you investigate whether he or this talk is right?"
+  },
+  {
+   "id": "kabir-one-light",
+   "after": "source:ABU0149",
+   "responds": [
+    "source:ABU0149"
+   ],
+   "relation": "adjacent",
+   "why": "Kabir sings that from one light the whole creation came, so who is good and who is bad?"
+  },
+  {
+   "id": "isaiah-draw-near-with-their-mouth",
+   "after": "source:ABU0257",
+   "responds": [
+    "source:ABU0257"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah speaks of a people whose fear of God is taught by the precept of men."
+  },
+  {
+   "id": "galatians-under-tutors",
+   "after": "source:ABU0083",
+   "responds": [
+    "source:ABU0083"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that an heir, while a child, is under tutors until the time appointed."
+  },
+  {
+   "id": "buddha-lamps-unto-yourselves",
+   "after": "source:ABU1132",
+   "responds": [
+    "source:ABU1132"
+   ],
+   "relation": "adjacent",
+   "why": "The last counsel of the Buddha to his disciples was: be lamps unto yourselves, a refuge to yourselves."
+  },
+  {
+   "id": "john-that-they-all-may-be-one",
+   "after": "source:ABU0178",
+   "responds": [
+    "source:ABU0178"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus prays for those who will believe, that they all may be one."
+  },
+  {
+   "id": "corinthians-i-am-of-paul",
+   "after": "source:ABU2534",
+   "responds": [
+    "source:ABU2534"
+   ],
+   "relation": "adjacent",
+   "why": "Paul rebukes those who say, \"I am of Paul\" or \"I of Apollos.\""
+  },
+  {
+   "id": "luke-mary-hath-chosen",
+   "after": "source:ABU0925",
+   "responds": [
+    "source:ABU0925"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells an anxious host that one thing is needful, and that her sister has chosen it."
+  },
+  {
+   "id": "isaiah-house-of-prayer-for-all",
+   "after": "source:AB03271",
+   "responds": [
+    "source:AB03271"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah speaks of a house that shall be called a house of prayer for all people."
+  },
+  {
+   "id": "isaiah-great-light",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the people who walked in darkness have seen a great light."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:AB00197",
+   "responds": [
+    "source:AB00197"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees nations beating their swords into ploughshares and learning war no more."
+  },
+  {
+   "id": "mill-minus-one",
+   "after": "source:AB00197",
+   "responds": [
+    "source:AB00197"
+   ],
+   "relation": "adjacent",
+   "why": "Mill held that mankind would be no more justified in silencing one dissenter than he in silencing mankind."
+  },
+  {
+   "id": "quran-no-compulsion",
+   "after": "source:AB00481",
+   "responds": [
+    "source:AB00481"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that there is no compulsion in religion; right guidance stands clear from error."
+  },
+  {
+   "id": "locke-care-of-souls",
+   "after": "source:AB00481",
+   "responds": [
+    "source:AB00481"
+   ],
+   "relation": "adjacent",
+   "why": "Locke argued that the care of each person's soul belongs to that person."
+  },
+  {
+   "id": "acts-in-every-nation",
+   "after": "source:AB00138",
+   "responds": [
+    "source:AB00138"
+   ],
+   "relation": "adjacent",
+   "why": "Peter says that in every nation the one who does right is accepted."
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:AB00138",
+   "responds": [
+    "source:AB00138"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi asks: have we not all one father? has not one God created us?"
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:AB00862",
+   "responds": [
+    "source:AB00862"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel is told of a time when many shall run to and fro, and knowledge shall be increased."
+  },
+  {
+   "id": "john-epistle-loveth-not-his-brother",
+   "after": "source:AB07457",
+   "responds": [
+    "source:AB07457"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that whoever does not love his brother cannot love God."
+  },
+  {
+   "id": "galatians-neither",
+   "after": "source:ABU0057",
+   "responds": [
+    "source:ABU0057"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that there is neither Jew nor Greek, bond nor free."
+  },
+  {
+   "id": "matthew-golden-rule",
+   "after": "source:ABU3267",
+   "responds": [
+    "source:ABU3267"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sums up the law in one rule: do to others as you would have them do to you."
+  },
+  {
+   "id": "timothy-word-not-bound",
+   "after": "source:ABU0040",
+   "responds": [
+    "source:ABU0040"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes from prison that the word of God is not bound."
+  },
+  {
+   "id": "hebrews-sundry-times-divers-manners",
+   "after": "source:ABU0521",
+   "responds": [
+    "source:ABU0521"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that God spoke at many times through the prophets."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:ABU1989",
+   "responds": [
+    "source:ABU1989"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the letter kills, but the spirit gives life: names on one side and reality on the other."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "source:AB02117",
+   "responds": [
+    "source:AB02117"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that new wine must be put into new bottles, or both are lost."
+  },
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:BH00006",
+   "responds": [
+    "source:BH00006"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose."
+  },
+  {
+   "id": "john-not-spoken-of-myself",
+   "after": "source:BH00434",
+   "responds": [
+    "source:BH00434"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I have not spoken of myself; the Father gave me what I should say."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:BH02751",
+   "responds": [
+    "source:BH02751"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives a test anyone can apply: by their fruits ye shall know them."
+  },
+  {
+   "id": "corinthians-deep-things-of-god",
+   "after": "source:AB01592",
+   "responds": [
+    "source:AB01592"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of what the Spirit reveals, which eye has not seen."
+  },
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:BH06679",
+   "responds": [
+    "source:BH06679"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of forgetting what is behind and reaching toward what is ahead."
+  },
+  {
+   "id": "isaiah-to-the-law-and-to-the-testimony",
+   "after": "source:BB00407",
+   "responds": [
+    "source:BB00407"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah gives a like rule: to the law and to the testimony; if they speak not according to this word, there is no light in them."
+  },
+  {
+   "id": "proverbs-first-in-his-own-cause",
+   "after": "source:ABU3421",
+   "responds": [
+    "source:ABU3421"
+   ],
+   "relation": "complement",
+   "why": "Proverbs says that the first to plead his cause seems right, until his neighbour comes and examines him. Whom should a seeker hear, and in what order?"
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU3421",
+   "responds": [
+    "source:ABU3421"
+   ],
+   "relation": "contrast",
+   "why": "Mill said that whoever knows only his own side of a case knows little of that. How does that bear on advice to learn about a cause only from its friends?"
+  },
+  {
+   "id": "augustine-thou-wert-within",
+   "after": "source:AB08466",
+   "responds": [
+    "source:AB08466"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine sought God outside himself for years, and found that he had been within all along."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:AB04069",
+   "responds": [
+    "source:AB04069"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha prayed that his servant's eyes be opened, and the young man saw what had been there."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU3292",
+   "responds": [
+    "source:ABU3292"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a merry heart does good like a medicine, and a broken spirit dries the bones."
+  },
+  {
+   "id": "acts-unknown-god",
+   "after": "source:ABU3039",
+   "responds": [
+    "source:ABU3039"
+   ],
+   "relation": "adjacent",
+   "why": "Paul found the Athenians eager for anything new, and began from their altar to an unknown God."
+  },
+  {
+   "id": "isaiah-blossom-as-the-rose",
+   "after": "source:ABU0866",
+   "responds": [
+    "source:ABU0866"
+   ],
+   "relation": "adjacent",
+   "why": "This is the image from Isaiah that the talk borrows: the desert shall blossom as the rose."
+  },
+  {
+   "id": "psalm-hart-panteth",
+   "after": "source:ABU3159",
+   "responds": [
+    "source:ABU3159"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the soul thirsts for God as a deer for running water."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB06843",
+   "responds": [
+    "source:AB06843"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the pure in heart are blessed, for they shall see God."
+  },
+  {
+   "id": "psalm-clean-heart",
+   "after": "source:BH05090",
+   "responds": [
+    "source:BH05090"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm prays: create in me a clean heart, O God, and renew a right spirit within me."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "selection:1451d96d9ad2529a720addbb",
+   "responds": [
+    "selection:1451d96d9ad2529a720addbb"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanks God that these things are hidden from the wise and revealed to babes."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "selection:1451d96d9ad2529a720addbb",
+   "responds": [
+    "selection:1451d96d9ad2529a720addbb"
+   ],
+   "relation": "adjacent",
+   "why": "The council marvelled that Peter and John were unlearned and ignorant men."
+  },
+  {
+   "id": "peter-ready-to-give-an-answer",
+   "after": "selection:dfcfaaa1d4c8e69dc250614e",
+   "responds": [
+    "selection:dfcfaaa1d4c8e69dc250614e"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks believers to be ready to give a reason for their hope."
+  },
+  {
+   "id": "jefferson-free-to-profess",
+   "after": "selection:539320a3bc412b6e1de3c75c",
+   "responds": [
+    "selection:539320a3bc412b6e1de3c75c"
+   ],
+   "relation": "adjacent",
+   "why": "Jefferson's statute declared that all shall be free to profess, and by argument to maintain, their opinions in matters of religion."
+  }
+ ],
+ "library": {
+  "job-now-mine-eye-seeth-thee": {
+   "text": "I have heard of thee by the hearing of the ear: but now mine eye seeth thee",
+   "work": "Job 42:5",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2042%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-first-in-his-own-cause": {
+   "text": "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him",
+   "work": "Proverbs 18:17",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2018%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-seekest-her-as-silver": {
+   "text": "Yea, if thou criest after knowledge, and liftest up thy voice for understanding; If thou seekest her as silver, and searchest for her as for hid treasures; Then shalt thou understand the fear of the Lord, and find the knowledge of God",
+   "work": "Proverbs 2:3–5",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%202%3A3-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-call-no-man-master": {
+   "text": "But be not ye called Rabbi: for one is your Master, even Christ",
+   "work": "Matthew 23:8–10",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2023%3A8-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-judge-ye-not-what-is-right": {
+   "text": "Ye hypocrites, ye can discern the face of the sky and of the earth; but how is it that ye do not discern this time? Yea, and why even of yourselves judge ye not what is right",
+   "work": "Luke 12:56–57",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2012%3A56-57&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-to-the-law-and-to-the-testimony": {
+   "text": "To the law and to the testimony: if they speak not according to this word, it is because there is no light in them",
+   "work": "Isaiah 8:20",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%208%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-follow-the-best-thereof": {
+   "text": "Who hear advice and follow the best thereof. Such are those whom Allah guideth, and such are men of understanding.",
+   "work": "Qur’an 39:18",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=39&verse=18",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-conjecture-no-substitute": {
+   "text": "Most of them follow not but conjecture. Assuredly conjecture can by no means take the place of truth. Lo! Allah is Aware of what they do.",
+   "work": "Qur’an 10:36",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=10&verse=36",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-guided-by-their-footprints": {
+   "text": "Nay, for they say only: Lo! we found our fathers following a religion, and we are guided by their footprints.",
+   "work": "Qur’an 43:22",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=43&verse=22",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "analects-learning-without-thought": {
+   "text": "Learning without thought is labor lost; thought without learning is perilous",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "2",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "buddha-dont-go-by-reports": {
+   "text": "Now, Kalamas, don't go by reports, by legends, by traditions, by scripture, by logical conjecture, by inference, by analogies, by agreement through pondering views, by probability, or by the thought, 'This contemplative is our teacher",
+   "author": "The Buddha",
+   "work": "Kālāma Sutta (Aṅguttara Nikāya 3.65)",
+   "year": "c. 5th century BCE; written down later",
+   "sortYear": -400,
+   "translator": "Thanissaro Bhikkhu",
+   "translationYear": "1994",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.065.than.html",
+    "label": "Access to Insight",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation, offered for free distribution; a brief extract."
+   }
+  },
+  "aristotle-all-men-desire-to-know": {
+   "text": "All men by nature desire to know",
+   "author": "Aristotle",
+   "work": "Metaphysics",
+   "locator": "Book I, chapter 1",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/metaphysics.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "repair": [
+     [
+      "ALL men",
+      "All men"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  },
+  "aristotle-truth-above-our-friends": {
+   "text": "for, while both are dear, piety requires us to honour truth above our friends",
+   "author": "Aristotle",
+   "work": "Nicomachean Ethics",
+   "locator": "Book I, chapter 6",
+   "year": "c. 340 BCE",
+   "sortYear": -340,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/nicomachaen.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  },
+  "mencius-without-the-book-of-history": {
+   "text": "It would be better to be without the Book of History than to give entire credit to it",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "7B.3",
+   "year": "4th–3rd century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter14",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  }
+ }
+}
