@@ -679,7 +679,7 @@
    "why": "The exiles vowed: if I forget thee, O Jerusalem, let my right hand forget her cunning."
   },
   {
-   "id": "exodus-golden-calf",
+   "id": "exodus-made-them-a-molten-calf",
    "after": "source:ABU1359",
    "responds": [
     "source:ABU1359"
@@ -1554,6 +1554,30 @@
    "rights": {
     "status": "in-copyright",
     "note": "Declaration of the Second Vatican Council; one clause."
+   }
+  },
+  "exodus-made-them-a-molten-calf": {
+   "text": "And the Lord said unto Moses, Go, get thee down; for thy people, which thou broughtest out of the land of Egypt, have corrupted themselves: They have turned aside quickly out of the way which I commanded them: they have made them a molten calf, and have worshipped it, and have sacrificed thereunto",
+   "work": "Exodus 32:7–8",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2032%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
    }
   }
  }
