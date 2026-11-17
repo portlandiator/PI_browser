@@ -1,0 +1,763 @@
+{
+ "format": 2,
+ "slug": "microcosmmacrocosm",
+ "subject": "EA626E1123AE4CA9BDB62193BD55DE62",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 54,
+ "quotations": 69,
+ "kept": [
+  "source:AB00023",
+  "source:BH00047",
+  "source:BH07594",
+  "source:BH02373",
+  "source:ABU0399",
+  "source:BH00007",
+  "source:BH00002",
+  "source:AB01840",
+  "source:BH04706",
+  "source:BH01095",
+  "source:BH00212",
+  "source:AB11818",
+  "source:AB00447",
+  "source:AB00420",
+  "source:AB00780",
+  "source:ABU0055",
+  "source:ABU0577",
+  "source:AB04119",
+  "source:AB05563",
+  "source:AB05239",
+  "source:AB07496",
+  "source:AB00446",
+  "source:ABU1118",
+  "source:AB00020",
+  "source:AB00103",
+  "source:AB00475",
+  "source:ABU2400",
+  "source:ABU3146",
+  "source:AB00362",
+  "source:AB00767",
+  "source:AB02581",
+  "source:AB00278",
+  "source:ABU1589",
+  "source:ABU0573",
+  "source:ABU2014",
+  "source:BH00005",
+  "source:AB07365",
+  "source:BH00779",
+  "source:AB05227",
+  "source:AB05191",
+  "source:BH00001",
+  "source:ABU1069",
+  "source:BB00590",
+  "source:BH00135",
+  "source:BH01071",
+  "source:BH00049",
+  "selection:37319aa7fbc268b54780646b",
+  "selection:7f4c443a5779d66b464c2e42",
+  "selection:c2192be6febb86569dcff7a6",
+  "selection:75efadd0a2402dacdc8765ef",
+  "selection:046c66feccac58b00ff96756",
+  "selection:70d2f24edc964ac0ab7956c7",
+  "selection:87da4f7bd46b49206e2f8128",
+  "selection:1814b64a47d0f62dec710bba"
+ ],
+ "introduction": "These readings say that the whole is found in the part: a tree in its seed, an ocean in a drop, and in the human being, called the lesser world, the greater world folded up. They go on to compare the universe to a human body whose members depend on one another, and the ills of the world to a body's illness. Each of the sixty-nine quotations is read here beside one from elsewhere. Most stand alongside: Paul on the body and its members, the Chandogya Upanishad, Mencius, Plato's living world, Marcus Aurelius, Leibniz, Blake, Tennyson, Emerson and Whitman. Some push back or add a side: Pascal and Pope see a being suspended between everything and nothing, Tennyson's nature is red in tooth and claw, Coleridge wonders whether nature lives only in our life, and Shakespeare and Machiavelli carry the picture of the body into politics.",
+ "questions": [
+  "The readings say that the human being, called the lesser world, should be regarded as the greater. What do they mean, and how does Pascal's 'mean between nothing and everything' compare?",
+  "Blake, Tennyson and the Upanishad each find the whole in a grain, a flower or a seed. What would it change to look at one small thing this way for a day?",
+  "Paul and the readings both compare a community or the universe to a body. What does the comparison ask of a member who feels unneeded, and of one who feels self-sufficient?",
+  "One reading says that nothing better could be imagined than what exists; Tennyson hears nature shriek against that creed. How do the readings account for illness in the body of the world?",
+  "Coleridge says that in our life alone does nature live. Do the readings describe the spirit as a mirror of the universe, or as the source of what it sees?"
+ ],
+ "outside": [
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz held that each simple substance has relations which express all the others, and is a perpetual living mirror of the universe."
+  },
+  {
+   "id": "marcus-bond-is-holy",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says that all things are implicated with one another, and that the bond is holy."
+  },
+  {
+   "id": "dickinson-brain-wider-than-the-sky",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Dickinson puts the brain beside the sky and finds that the one will include the other with ease."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that by space the universe swallows him up like an atom, and by thought he comprehends the world."
+  },
+  {
+   "id": "psalm-when-i-consider-thy-heavens",
+   "after": "source:BH07594",
+   "responds": [
+    "source:BH07594"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist considers the heavens and asks what man is, that God is mindful of him."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:BH07594",
+   "responds": [
+    "source:BH07594"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet exclaims what a piece of work is a man, how noble in reason and how infinite in faculty."
+  },
+  {
+   "id": "pascal-a-nothing-in-comparison-with-the-infinite",
+   "after": "source:BH07594",
+   "responds": [
+    "source:BH07594"
+   ],
+   "relation": "contrast",
+   "why": "Pascal calls man a Nothing in comparison with the Infinite and an All in comparison with the Nothing. Is his mean between nothing and everything the 'lesser world' the reading sets aside, or something else?"
+  },
+  {
+   "id": "whitman-journey-work-of-the-stars",
+   "after": "source:BH02373",
+   "responds": [
+    "source:BH02373"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman believes that a leaf of grass is no less than the journey-work of the stars."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:BH02373",
+   "responds": [
+    "source:BH02373"
+   ],
+   "relation": "adjacent",
+   "why": "Blake's best-known lines speak of seeing a world in a grain of sand and a heaven in a wild flower."
+  },
+  {
+   "id": "chandogya-nyagrodha-seed",
+   "after": "source:ABU0399",
+   "responds": [
+    "source:ABU0399"
+   ],
+   "relation": "adjacent",
+   "why": "In the Chandogya Upanishad a father tells his son that from the essence he cannot perceive in the seed the great tree exists."
+  },
+  {
+   "id": "matthew-mustard-seed",
+   "after": "source:ABU0399",
+   "responds": [
+    "source:ABU0399"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the kingdom of heaven to a grain of mustard seed that becomes a tree."
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson says that if he could understand one little flower, root and all, he should know what God and man is."
+  },
+  {
+   "id": "isaiah-nations-as-a-drop",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "complement",
+   "why": "Isaiah uses the same picture the other way: the nations are as a drop of a bucket. What changes when the drop is what we are, and not what we are given?"
+  },
+  {
+   "id": "quran-similitude-of-a-gnat",
+   "after": "source:AB01840",
+   "responds": [
+    "source:AB01840"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that God does not disdain to coin the similitude even of a gnat."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:BH04706",
+   "responds": [
+    "source:BH04706"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a corn of wheat, if it die in the ground, bringeth forth much fruit."
+  },
+  {
+   "id": "mencius-all-things-complete-in-us",
+   "after": "source:BH01095",
+   "responds": [
+    "source:BH01095"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius said, in Legge's translation, that all things are already complete in us."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:BH00212",
+   "responds": [
+    "source:BH00212"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi tells of dying as mineral to arise a plant, as plant to rise an animal, and as animal to arise a man."
+  },
+  {
+   "id": "browne-two-books",
+   "after": "source:AB11818",
+   "responds": [
+    "source:AB11818"
+   ],
+   "relation": "adjacent",
+   "why": "Sir Thomas Browne read two books, the written one of God and nature, a universal and public manuscript."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:AB00447",
+   "responds": [
+    "source:AB00447"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God say: let us make man in our image, after our likeness."
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "The Upanishad says that in the subtle essence all that exists has its self, and: thou art it."
+  },
+  {
+   "id": "emerson-worm-mounts",
+   "after": "source:AB00780",
+   "responds": [
+    "source:AB00780"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson pictures a chain of countless rings in which the worm, striving to be man, mounts through all the spires of form."
+  },
+  {
+   "id": "plato-soul-likeness-of-the-divine",
+   "after": "source:ABU0055",
+   "responds": [
+    "source:ABU0055"
+   ],
+   "relation": "adjacent",
+   "why": "Plato sets the soul in the likeness of the divine and the body in the likeness of the human and mortal."
+  },
+  {
+   "id": "whitman-acme-of-things",
+   "after": "source:ABU0577",
+   "responds": [
+    "source:ABU0577"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman calls himself an acme of things accomplished and an encloser of things to be."
+  },
+  {
+   "id": "pope-isthmus",
+   "after": "source:ABU0577",
+   "responds": [
+    "source:ABU0577"
+   ],
+   "relation": "contrast",
+   "why": "Pope places man on an isthmus of a middle state, darkly wise and rudely great, hanging between. Does a being that contains all creation know it, or does it mostly feel as Pope describes?"
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "source:AB04119",
+   "responds": [
+    "source:AB04119"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist praises God that he is fearfully and wonderfully made, and calls God's works marvellous."
+  },
+  {
+   "id": "hopkins-ten-thousand-places",
+   "after": "source:AB05563",
+   "responds": [
+    "source:AB05563"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins says that Christ plays in ten thousand places, to the Father through the features of men's faces."
+  },
+  {
+   "id": "zhuangzi-mind-as-a-mirror",
+   "after": "source:AB05239",
+   "responds": [
+    "source:AB05239"
+   ],
+   "relation": "complement",
+   "why": "Zhuangzi says that the perfect man's mind is a mirror that responds to what is before it and does not retain it. What does a mirror have to be free of in order to reflect?"
+  },
+  {
+   "id": "matthew-in-earth-as-in-heaven",
+   "after": "source:AB07496",
+   "responds": [
+    "source:AB07496"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord's Prayer asks that the will be done in earth as it is in heaven."
+  },
+  {
+   "id": "plato-world-a-living-creature",
+   "after": "source:AB00446",
+   "responds": [
+    "source:AB00446"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Timaeus says that the world became a living creature endowed with soul and intelligence."
+  },
+  {
+   "id": "heraclitus-way-up-way-down",
+   "after": "source:ABU1118",
+   "responds": [
+    "source:ABU1118"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus says, in one of his fragments, that the way up and the way down is one and the same."
+  },
+  {
+   "id": "pope-chain-of-being",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Pope says that whatever link you strike from nature's chain, tenth or ten thousandth, breaks the chain alike."
+  },
+  {
+   "id": "corinthians-one-body-many-members",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the same comparison: the body is one and hath many members."
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:AB00475",
+   "responds": [
+    "source:AB00475"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius tells himself to regard the universe constantly as one living being, with one substance and one soul."
+  },
+  {
+   "id": "romans-members-one-of-another",
+   "after": "source:ABU2400",
+   "responds": [
+    "source:ABU2400"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we, being many, are one body, and every one members one of another."
+  },
+  {
+   "id": "corinthians-if-the-foot-shall-say",
+   "after": "source:ABU3146",
+   "responds": [
+    "source:ABU3146"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks whether the foot, because it is not the hand, is therefore not of the body."
+  },
+  {
+   "id": "corinthians-if-one-member-suffer",
+   "after": "source:AB00362",
+   "responds": [
+    "source:AB00362"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whether one member suffer, all the members suffer with it."
+  },
+  {
+   "id": "shakespeare-belly-and-members",
+   "after": "source:AB00362",
+   "responds": [
+    "source:AB00362"
+   ],
+   "relation": "complement",
+   "why": "Shakespeare's Menenius tells of the body's members rebelling against the belly as idle. When one part of a whole seems to do nothing, how could the other parts find out what it does?"
+  },
+  {
+   "id": "ephesians-fitly-joined-together",
+   "after": "source:AB00767",
+   "responds": [
+    "source:AB00767"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes the whole body fitly joined together by that which every joint supplieth."
+  },
+  {
+   "id": "donne-island",
+   "after": "source:AB02581",
+   "responds": [
+    "source:AB02581"
+   ],
+   "relation": "adjacent",
+   "why": "Donne says that no man is an island entire of itself, but a part of the main."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:AB00278",
+   "responds": [
+    "source:AB00278"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson writes of man who trusted that love was creation's final law, though nature, red in tooth and claw, shrieked against his creed. How would he hear the claim that nothing better could be imagined than what exists?"
+  },
+  {
+   "id": "shelley-nothing-is-single",
+   "after": "source:ABU1589",
+   "responds": [
+    "source:ABU1589"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley says that nothing in the world is single: all things by a law divine in one spirit meet and mingle."
+  },
+  {
+   "id": "ecclesiastes-rivers-run-into-the-sea",
+   "after": "source:ABU1589",
+   "responds": [
+    "source:ABU1589"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher watches all the rivers run into the sea, and return to the place from which they came."
+  },
+  {
+   "id": "emerson-circles",
+   "after": "source:ABU0573",
+   "responds": [
+    "source:ABU0573"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that the eye is the first circle, and that throughout nature this figure is repeated without end."
+  },
+  {
+   "id": "coleridge-one-life",
+   "after": "source:ABU0573",
+   "responds": [
+    "source:ABU0573"
+   ],
+   "relation": "adjacent",
+   "why": "Coleridge sings of the one Life within us and abroad, which meets all motion and becomes its soul."
+  },
+  {
+   "id": "emerson-each-and-all",
+   "after": "source:ABU0573",
+   "responds": [
+    "source:ABU0573"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that all are needed by each one, and that nothing is fair or good alone."
+  },
+  {
+   "id": "thoreau-vegetable-mould",
+   "after": "source:ABU2014",
+   "responds": [
+    "source:ABU2014"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau asks whether he is not partly leaves and vegetable mould himself."
+  },
+  {
+   "id": "plato-body-without-the-soul",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's physician says that one ought not to attempt to cure the body without the soul."
+  },
+  {
+   "id": "matthew-eateth-with-publicans",
+   "after": "source:AB07365",
+   "responds": [
+    "source:AB07365"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that they that be whole need not a physician, but they that are sick."
+  },
+  {
+   "id": "machiavelli-hectic-fever",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "complement",
+   "why": "Machiavelli borrows the comparison for the state: a malady easy to cure and hard to detect at the beginning. What would it mean to detect the illness of a society early?"
+  },
+  {
+   "id": "luke-kingdom-of-god-is-within-you",
+   "after": "source:AB05227",
+   "responds": [
+    "source:AB05227"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the kingdom of God cometh not with observation, for it is within you."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:AB05191",
+   "responds": [
+    "source:AB05191"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the things which are seen are temporal, but the things which are not seen are eternal."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU1069",
+   "responds": [
+    "source:ABU1069"
+   ],
+   "relation": "adjacent",
+   "why": "Kant names two things that fill the mind with awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "ecclesiastes-eternity-in-their-heart",
+   "after": "source:ABU1069",
+   "responds": [
+    "source:ABU1069"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that God hath set the world in their heart."
+  },
+  {
+   "id": "coleridge-we-receive-but-what-we-give",
+   "after": "source:ABU1069",
+   "responds": [
+    "source:ABU1069"
+   ],
+   "relation": "contrast",
+   "why": "Coleridge says that we receive but what we give, and in our life alone does nature live. Does the spirit mirror a universe that is there, or lend it the life it seems to have?"
+  },
+  {
+   "id": "quran-horizons-and-themselves",
+   "after": "source:BB00590",
+   "responds": [
+    "source:BB00590"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an promises portents shown on the horizons and within themselves, until the truth is manifest."
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "source:BH00135",
+   "responds": [
+    "source:BH00135"
+   ],
+   "relation": "adjacent",
+   "why": "Blake says that if the doors of perception were cleansed, every thing would appear to man as it is, infinite."
+  },
+  {
+   "id": "emerson-transparent-eyeball",
+   "after": "source:BH00135",
+   "responds": [
+    "source:BH00135"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson describes a moment when all mean egotism vanishes and he becomes a transparent eyeball, seeing all."
+  },
+  {
+   "id": "gita-row-of-pearls",
+   "after": "source:BH01071",
+   "responds": [
+    "source:BH01071"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna says in the Gita that all things hang on him as a row of pearls upon its string."
+  },
+  {
+   "id": "tennyson-part-of-all-that-i-have-met",
+   "after": "source:BH00049",
+   "responds": [
+    "source:BH00049"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's Ulysses says: I am a part of all that I have met."
+  },
+  {
+   "id": "whitman-nebula-cohered",
+   "after": "source:BH00049",
+   "responds": [
+    "source:BH00049"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman says that for his embryo the nebula cohered to an orb and the long slow strata piled."
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:BH00049",
+   "responds": [
+    "source:BH00049"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: ask now the beasts, and they shall teach thee, or speak to the earth."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "selection:37319aa7fbc268b54780646b",
+   "responds": [
+    "selection:37319aa7fbc268b54780646b"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus elsewhere compares what proceeds from the Supreme to the brilliant light encircling the sun."
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "selection:7f4c443a5779d66b464c2e42",
+   "responds": [
+    "selection:7f4c443a5779d66b464c2e42"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King counts in its own way: the Tao produced One, One produced Two, Two produced Three."
+  },
+  {
+   "id": "milton-up-to-him-return",
+   "after": "selection:c2192be6febb86569dcff7a6",
+   "responds": [
+    "selection:c2192be6febb86569dcff7a6"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel tells Adam that from one Almighty all things proceed, and up to him return."
+  },
+  {
+   "id": "milton-spiritual-to-corporal",
+   "after": "selection:75efadd0a2402dacdc8765ef",
+   "responds": [
+    "selection:75efadd0a2402dacdc8765ef"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel proposes to delineate what surmounts human sense by likening spiritual to corporal forms."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "selection:75efadd0a2402dacdc8765ef",
+   "responds": [
+    "selection:75efadd0a2402dacdc8765ef"
+   ],
+   "relation": "complement",
+   "why": "Whitman leaves the astronomer's proofs and figures and looks up in perfect silence at the stars. What can the science of astronomy be asked to confirm, and what not?"
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "selection:046c66feccac58b00ff96756",
+   "responds": [
+    "selection:046c66feccac58b00ff96756"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: know ye not that your body is the temple of the Holy Ghost which is in you?"
+  },
+  {
+   "id": "pope-stupendous-whole",
+   "after": "selection:87da4f7bd46b49206e2f8128",
+   "responds": [
+    "selection:87da4f7bd46b49206e2f8128"
+   ],
+   "relation": "adjacent",
+   "why": "Pope says that all are but parts of one stupendous whole, whose body nature is, and God the soul."
+  },
+  {
+   "id": "romans-creation-groaneth",
+   "after": "selection:1814b64a47d0f62dec710bba",
+   "responds": [
+    "selection:1814b64a47d0f62dec710bba"
+   ],
+   "relation": "complement",
+   "why": "Paul says that the whole creation groaneth and travaileth in pain together, and ourselves also. If inner life and environment act on each other, where would you begin to mend either?"
+  }
+ ],
+ "library": {
+  "mencius-all-things-complete-in-us": {
+   "text": "All things are already complete in us. There is no greater delight than to be conscious of sincerity on self-examination",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "7A.4",
+   "year": "4th–3rd century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter13",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "plato-world-a-living-creature": {
+   "text": "when he was framing the universe, he put intelligence in soul, and soul in body, that he might be the creator of a work which was by nature fairest and best. Wherefore, using the language of probability, we may say that the world became a living creature truly endowed with soul and intelligence by the providence of God",
+   "author": "Plato",
+   "work": "Timaeus",
+   "year": "4th century BCE",
+   "sortYear": -360,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/timaeus.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "shakespeare-belly-and-members": {
+   "text": "There was a time when all the body's members / Rebell'd against the belly, thus accused it: / That only like a gulf it did remain / I' the midst o' the body, idle and unactive, / Still cupboarding the viand, never bearing / Like labour with the rest",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Coriolanus",
+   "locator": "Act I, scene 1",
+   "year": "c. 1608",
+   "sortYear": 1608,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/coriolanus/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  }
+ }
+}
