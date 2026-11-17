@@ -1,0 +1,441 @@
+{
+ "format": 2,
+ "slug": "rationalarguments",
+ "subject": "12FD56FFF2C74384AF52D04E7CEE255F",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 27,
+ "quotations": 30,
+ "kept": [
+  "source:ABU0150",
+  "source:ABU0590",
+  "source:ABU0532",
+  "source:AB12758",
+  "source:AB00166",
+  "source:ABU0888",
+  "source:ABU3156",
+  "source:AB00057",
+  "source:ABU0766",
+  "source:AB05064",
+  "source:AB06577",
+  "source:ABU3075",
+  "source:ABU1366",
+  "source:AB08143",
+  "source:AB00815",
+  "source:ABU0205",
+  "source:ABU0326",
+  "source:BB00001",
+  "source:ABU0733",
+  "source:ABU0058",
+  "source:AB00520",
+  "source:BH03960",
+  "source:AB02944",
+  "source:AB00787",
+  "source:BH00001",
+  "source:BH00002",
+  "source:ABU0665"
+ ],
+ "introduction": "These thirty readings ask that belief be examined: that what is heard be tested by reason and science, that the senses not be taken as the last word, and that the Cause be taught with proofs. They also say that argument is for those who do not yet see, and that learning can become a veil. The passages beside them include others who asked for proof and gave reasons, among them Paul reasoning in the synagogue, the people of Berea, Descartes, Kant and Socrates, and others who doubted how far reason reaches: the Buddha's advice to the Kalamas, Pascal, Hume, Zophar's question to Job, and the proverb about one's own understanding. Together they invite a reader to ask what reason is for and where it must hand over to something else.",
+ "questions": [
+  "The readings say that whatever one hears must be tested by reason and science. What belief of your own have you tested in this way, and what happened to it?",
+  "The Buddha warns against relying on logical inference, and Hume calls reason the slave of the passions. How do you guard your own reasoning against what you would like to be true?",
+  "One reading says arguments are for those whose inner eye is not yet open. What part have arguments played in what you are most sure of?",
+  "Locke traces all knowledge to experience; the readings say the senses err and cannot reach everything real. What examples persuade you either way?",
+  "Peter asks for a reason for one's hope, given with meekness. What makes a reasoned case for faith persuasive and not merely clever?"
+ ],
+ "outside": [
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Paul argues from observation too: the invisible things of God are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist reads the same evidence in the sky: the heavens declare the glory of God, and night unto night sheweth knowledge."
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:ABU0590",
+   "responds": [
+    "source:ABU0590"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes made it his first rule never to accept anything for true which he did not clearly know to be such."
+  },
+  {
+   "id": "thessalonians-quench-not-the-spirit",
+   "after": "source:ABU0532",
+   "responds": [
+    "source:ABU0532"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's advice to the Thessalonians includes the words: prove all things; hold fast that which is good."
+  },
+  {
+   "id": "buddha-dont-go-by-reports",
+   "after": "source:ABU0532",
+   "responds": [
+    "source:ABU0532"
+   ],
+   "relation": "complement",
+   "why": "The Buddha told the Kalamas not to go by reports, traditions or scripture, and not by logical conjecture or inference either. If reasoning too can mislead, what finally tests a teaching?"
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:AB12758",
+   "responds": [
+    "source:AB12758"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics by saying that all men by nature desire to know."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:AB00166",
+   "responds": [
+    "source:AB00166"
+   ],
+   "relation": "contrast",
+   "why": "Locke answered that the mind has all the materials of reason and knowledge from experience. If the senses err, as these readings say, where does reason get what it reasons about?"
+  },
+  {
+   "id": "samuel-seeth-not-as-man-seeth",
+   "after": "source:ABU0888",
+   "responds": [
+    "source:ABU0888"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel was told that man looketh on the outward appearance, but the Lord looketh on the heart."
+  },
+  {
+   "id": "john-blessed-that-have-not-seen",
+   "after": "source:ABU3156",
+   "responds": [
+    "source:ABU3156"
+   ],
+   "relation": "adjacent",
+   "why": "Thomas believed when he had seen, and was told: blessed are they that have not seen, and yet have believed."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews calls faith the substance of things hoped for, the evidence of things not seen."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "contrast",
+   "why": "Zophar asks Job: canst thou by searching find out God? Which mysteries can the rational mind prove, and where does searching reach its end?"
+  },
+  {
+   "id": "peter-reason-of-the-hope",
+   "after": "source:AB05064",
+   "responds": [
+    "source:AB05064"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of Peter asks believers to be ready always to give an answer to everyone who asks a reason of the hope that is in them."
+  },
+  {
+   "id": "acts-reasoned-in-the-synagogue",
+   "after": "source:AB06577",
+   "responds": [
+    "source:AB06577"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says that Paul, as his manner was, reasoned with his hearers out of the scriptures for three sabbath days."
+  },
+  {
+   "id": "acts-bereans",
+   "after": "source:ABU3075",
+   "responds": [
+    "source:ABU3075"
+   ],
+   "relation": "adjacent",
+   "why": "The people of Berea are called more noble because they searched the scriptures daily to see whether those things were so."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU1366",
+   "responds": [
+    "source:ABU1366"
+   ],
+   "relation": "adjacent",
+   "why": "Kant's motto for an age of enlightenment was: dare to use your own understanding."
+  },
+  {
+   "id": "origen-without-a-sun",
+   "after": "source:ABU1366",
+   "responds": [
+    "source:ABU1366"
+   ],
+   "relation": "adjacent",
+   "why": "Origen asked, in the third century, who that has understanding will suppose that the first three days had evening and morning without a sun."
+  },
+  {
+   "id": "isaiah-sins-as-scarlet",
+   "after": "source:AB08143",
+   "responds": [
+    "source:AB08143"
+   ],
+   "relation": "adjacent",
+   "why": "In Isaiah God invites a people: come now, and let us reason together."
+  },
+  {
+   "id": "pascal-heart-experiences-god",
+   "after": "source:AB08143",
+   "responds": [
+    "source:AB08143"
+   ],
+   "relation": "contrast",
+   "why": "Pascal held that it is the heart which experiences God, and not the reason. What do arguments do for a seeker, if the heart must be purified first?"
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:AB00815",
+   "responds": [
+    "source:AB00815"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays that the eyes of his friends' understanding may be enlightened."
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the things of the Spirit are foolishness to the natural man, because they are spiritually discerned."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that knowledge puffeth up, and that anyone who thinks he knows anything knows nothing yet as he ought."
+  },
+  {
+   "id": "proverbs-lean-not",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "complement",
+   "why": "Proverbs counsels: trust in the Lord with all thine heart, and lean not unto thine own understanding. How can a person both use the understanding fully and not lean on it?"
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:ABU0733",
+   "responds": [
+    "source:ABU0733"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates told his judges that the life which is unexamined is not worth living."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:ABU0733",
+   "responds": [
+    "source:ABU0733"
+   ],
+   "relation": "adjacent",
+   "why": "Milton asked who ever knew Truth put to the worse in a free and open encounter."
+  },
+  {
+   "id": "shakespeare-sleep-and-feed",
+   "after": "source:ABU0058",
+   "responds": [
+    "source:ABU0058"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet says that we were not given capability and godlike reason to fust in us unused."
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:AB00520",
+   "responds": [
+    "source:AB00520"
+   ],
+   "relation": "contrast",
+   "why": "Hume concluded that reason is, and ought only to be, the slave of the passions. When philosophers prove a thing and later disprove it, is reason at fault, or what is steering it?"
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:AB00520",
+   "responds": [
+    "source:AB00520"
+   ],
+   "relation": "complement",
+   "why": "Kant, after a lifetime of argument, wrote that he had to abolish knowledge to make room for belief. Is that a defeat for reason, or reason finding its own boundary?"
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:AB02944",
+   "responds": [
+    "source:AB02944"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks whether those who know are equal with those who know not, and says that only men of understanding will pay heed."
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks where the wise and the disputer of this world are, and whether God has not made foolish the wisdom of this world."
+  },
+  {
+   "id": "aristotle-reason-is-man",
+   "after": "source:ABU0665",
+   "responds": [
+    "source:ABU0665"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that the life according to reason is best and pleasantest, since reason more than anything else is man."
+  }
+ ],
+ "library": {
+  "peter-reason-of-the-hope": {
+   "text": "be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear",
+   "work": "1 Peter 3:15",
+   "year": "c. 60–95 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Peter%203%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-canst-thou-by-searching": {
+   "text": "Canst thou by searching find out God? canst thou find out the Almighty unto perfection",
+   "work": "Job 11:7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2011%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-lean-not": {
+   "text": "Trust in the Lord with all thine heart; and lean not unto thine own understanding",
+   "work": "Proverbs 3:5",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%203%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-blessed-that-have-not-seen": {
+   "text": "Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed",
+   "work": "John 20:29",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2020%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-reasoned-in-the-synagogue": {
+   "text": "And Paul, as his manner was, went in unto them, and three sabbath days reasoned with them out of the scriptures, Opening and alleging, that Christ must needs have suffered, and risen again from the dead; and that this Jesus, whom I preach unto you, is Christ",
+   "work": "Acts 17:2–3",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2017%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
