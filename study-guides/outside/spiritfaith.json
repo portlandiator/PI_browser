@@ -1,0 +1,905 @@
+{
+ "format": 2,
+ "slug": "spiritfaith",
+ "subject": "1AA38915869D4AD5856F5B367531CA0E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 42,
+ "quotations": 48,
+ "kept": [
+  "source:AB02018",
+  "source:AB06925",
+  "source:AB00096",
+  "source:AB06574",
+  "source:AB00266",
+  "source:AB00460",
+  "source:ABU0179",
+  "source:ABU0586",
+  "source:AB00479",
+  "source:AB00747",
+  "source:ABU0055",
+  "source:ABU0577",
+  "source:ABU0118",
+  "source:AB00674",
+  "source:ABU0262",
+  "source:ABU0655",
+  "source:ABU0647",
+  "source:ABU2909",
+  "source:ABU3225",
+  "source:AB07638",
+  "source:AB11846",
+  "source:AB04973",
+  "source:BH00002",
+  "source:BH01497",
+  "source:BH00260",
+  "source:BH04557",
+  "source:AB08907",
+  "source:ABU0109",
+  "source:ABU3088",
+  "source:ABU1271",
+  "source:ABU0767",
+  "source:ABU0190",
+  "source:ABU1453",
+  "source:ABU3374",
+  "source:ABU0330",
+  "source:BH00202",
+  "selection:3d466d630e97a089f561de99",
+  "selection:1fe25c0c67e99a7544e4c82d",
+  "selection:431417ef9d50ab0d7124858b",
+  "selection:ef420e7e4a579e9403ad5a66",
+  "selection:54db428868aa97cb645dd19c",
+  "selection:333e4977e5544dc0439a2039"
+ ],
+ "introduction": "These passages speak of a spirit beyond the rational soul: the spirit of faith, which ‘Abdu’l-Bahá describes as light falling on a mirror, a lamp lit in the glass of the heart, a breath of the Holy Spirit that makes a person alive in a new way. They explain what it gives, how it differs from the human spirit, and what faith itself does in a life. Forty-eight outside voices stand beside them: the sayings of Jesus on being born of the Spirit, Paul and the Qur’an on a life given from beyond the self, Ezekiel and Job, Plato and Aristotle on the light by which the mind sees, Augustine and Pascal, and Locke, Clifford and William James arguing over the right to believe.",
+ "questions": [
+  "The human spirit is compared to a polished mirror that still needs light. What can reason do without that light, and what can it not do, according to these passages?",
+  "Jesus speaks of being born again, Paul of a new creature, the Qur’an of the dead raised and given a light. What do the three images share?",
+  "One talk says the bounty is in every heart but dormant; another calls it a gift to whom God chooses. How do you hold the two together?",
+  "\"We must believe or we will never move.\" Compare William James and Clifford. When is belief ahead of the evidence justified?",
+  "Faith is said to bring peace of heart, yet Abraham in the Qur’an asks to see so that his heart may be at ease. What kind of peace is meant?",
+  "The last passage puts knowing before doing. How does that sit with James's \"faith without works is dead\"?"
+ ],
+ "outside": [
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "adjacent",
+   "why": "Elihu says in the book of Job that there is a spirit in man, and that it is the breath of the Almighty that gives understanding."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "adjacent",
+   "why": "Plato says that the eye, however sound, sees nothing until the sun gives light, and that it is so with the mind and the Good."
+  },
+  {
+   "id": "aristotle-mind-like-light",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "complement",
+   "why": "Aristotle speaks of a mind that works like light, turning what could be known into what is known. Is the light in this passage a power of the mind itself, or a gift from beyond it?"
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "source:AB06925",
+   "responds": [
+    "source:AB06925"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an's parable of light is a lamp in a glass, in a niche, kindled from a blessed tree."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:AB06925",
+   "responds": [
+    "source:AB06925"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching the inward parts."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit: love, joy, peace, patience, gentleness, goodness, faith."
+  },
+  {
+   "id": "james-faith-without-works",
+   "after": "source:AB06574",
+   "responds": [
+    "source:AB06574"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of James says that faith shows itself by works and is dead without them."
+  },
+  {
+   "id": "quran-strengthened-with-a-spirit",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an speaks of those in whose hearts God has written faith and whom he has strengthened with a spirit from himself."
+  },
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that it is the spirit that gives life, and that his words are spirit and life."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:AB00460",
+   "responds": [
+    "source:AB00460"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls faith itself the gift of God, received by grace and not earned, so that no one may boast."
+  },
+  {
+   "id": "john-born-of-water-and-of-the-spirit",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying of Jesus to Nicodemus about being born of the Spirit, to which the talk refers."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal places human dignity in thought, by which a frail reed comprehends the universe that crushes it."
+  },
+  {
+   "id": "romans-spirit-beareth-witness",
+   "after": "source:ABU0586",
+   "responds": [
+    "source:ABU0586"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the Spirit bears witness with our spirit that we are children of God."
+  },
+  {
+   "id": "quran-knowledge-but-little",
+   "after": "source:AB00479",
+   "responds": [
+    "source:AB00479"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse behind the phrase \"of God's command\": the Spirit is by command of my Lord, and little knowledge of it has been given."
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the natural man cannot receive the things of the Spirit, because they are spiritually discerned."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "contrast",
+   "why": "Locke insisted that reason must be the last judge and guide in everything, including any claim to a higher light. How would this passage answer him?"
+  },
+  {
+   "id": "corinthians-deep-things-of-god",
+   "after": "source:ABU0055",
+   "responds": [
+    "source:ABU0055"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a Spirit that searches all things and reveals what eye has not seen."
+  },
+  {
+   "id": "john-born-not-of-blood",
+   "after": "source:ABU0118",
+   "responds": [
+    "source:ABU0118"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of those who are born not of blood or of the will of the flesh, but of God."
+  },
+  {
+   "id": "corinthians-new-creature",
+   "after": "source:ABU0118",
+   "responds": [
+    "source:ABU0118"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that anyone in Christ is a new creature, for whom old things have passed away."
+  },
+  {
+   "id": "matthew-baptize-with-fire",
+   "after": "source:AB00674",
+   "responds": [
+    "source:AB00674"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist says that the one coming after him will baptize with the Holy Ghost and with fire."
+  },
+  {
+   "id": "quran-dead-raised-to-life",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks whether one who was dead, and was raised and given a light to walk by, is like one in darkness."
+  },
+  {
+   "id": "ephesians-quickened-together",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Ephesians that they were dead and have been made alive."
+  },
+  {
+   "id": "matthew-let-the-dead-bury",
+   "after": "source:ABU0655",
+   "responds": [
+    "source:ABU0655"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying of Jesus quoted here: let the dead bury their dead."
+  },
+  {
+   "id": "pascal-heart-experiences-god",
+   "after": "source:ABU0647",
+   "responds": [
+    "source:ABU0647"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that it is the heart that experiences God, and that this is what faith is."
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:ABU3225",
+   "responds": [
+    "source:ABU3225"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that the dust returns to the earth and the spirit to God who gave it."
+  },
+  {
+   "id": "romans-faith-by-hearing",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that faith comes by hearing, and hearing by the word of God."
+  },
+  {
+   "id": "corinthians-diversities-of-gifts",
+   "after": "source:BH01497",
+   "responds": [
+    "source:BH01497"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes many gifts given by one Spirit, to each for the good of all."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:BH00260",
+   "responds": [
+    "source:BH00260"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs says of love that many waters cannot quench it, nor floods drown it."
+  },
+  {
+   "id": "ezekiel-breath",
+   "after": "source:BH04557",
+   "responds": [
+    "source:BH04557"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel saw bodies assembled in a valley that did not live until breath entered them."
+  },
+  {
+   "id": "corinthians-face-of-jesus-christ",
+   "after": "source:AB08907",
+   "responds": [
+    "source:AB08907"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the God who called light out of darkness has shone in our hearts."
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compares hearers to kinds of soil, on which the same seed fares differently."
+  },
+  {
+   "id": "ezekiel-new-heart",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel promises a new heart and a new spirit in place of a heart of stone."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU3088",
+   "responds": [
+    "source:ABU3088"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of a true light that lights every person who comes into the world."
+  },
+  {
+   "id": "mencius-lost-mind",
+   "after": "source:ABU3088",
+   "responds": [
+    "source:ABU3088"
+   ],
+   "relation": "complement",
+   "why": "Mencius says that people search for a lost fowl but not for their own lost heart, and that learning is nothing but seeking it. Is \"dormant in the hearts\" the same thought?"
+  },
+  {
+   "id": "luke-give-the-holy-spirit",
+   "after": "source:ABU1271",
+   "responds": [
+    "source:ABU1271"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that the Father gives the Holy Spirit to those who ask. This talk calls the spirit of faith a gift to whom God chooses. How do asking and being chosen fit together?"
+  },
+  {
+   "id": "romans-mercy-on-whom-i-will",
+   "after": "source:ABU1271",
+   "responds": [
+    "source:ABU1271"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes the word to Moses: I will have mercy on whom I will have mercy."
+  },
+  {
+   "id": "matthew-faith-as-a-grain-of-mustard-seed",
+   "after": "source:ABU0767",
+   "responds": [
+    "source:ABU0767"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that faith as small as a mustard seed can move a mountain."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:ABU0190",
+   "responds": [
+    "source:ABU0190"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews defines faith as the substance of things hoped for and the evidence of things not seen."
+  },
+  {
+   "id": "james-faith-in-a-fact",
+   "after": "source:ABU0190",
+   "responds": [
+    "source:ABU0190"
+   ],
+   "relation": "adjacent",
+   "why": "William James argued that in some matters a fact cannot come at all unless faith in it comes first."
+  },
+  {
+   "id": "clifford-insufficient-evidence",
+   "after": "source:ABU0190",
+   "responds": [
+    "source:ABU0190"
+   ],
+   "relation": "contrast",
+   "why": "Clifford held that it is wrong always and for anyone to believe on insufficient evidence. What would he say to \"positive belief even if mixed with error,\" and what might be said in reply?"
+  },
+  {
+   "id": "tennyson-honest-doubt",
+   "after": "source:ABU0190",
+   "responds": [
+    "source:ABU0190"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson found more faith in honest doubt than in half the creeds. Is the doubt that ends in stagnation the same as his?"
+  },
+  {
+   "id": "romans-peace-with-god",
+   "after": "source:ABU1453",
+   "responds": [
+    "source:ABU1453"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that being justified by faith we have peace with God."
+  },
+  {
+   "id": "quran-hearts-find-rest",
+   "after": "source:ABU1453",
+   "responds": [
+    "source:ABU1453"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that hearts find rest in the remembrance of God."
+  },
+  {
+   "id": "quran-that-my-heart-may-be-at-ease",
+   "after": "source:ABU1453",
+   "responds": [
+    "source:ABU1453"
+   ],
+   "relation": "complement",
+   "why": "In the Qur’an Abraham, who believes, still asks to be shown, so that his heart may be at ease. What does his request say about the relation between faith and peace of heart?"
+  },
+  {
+   "id": "daniel-fiery-furnace",
+   "after": "source:ABU3374",
+   "responds": [
+    "source:ABU3374"
+   ],
+   "relation": "adjacent",
+   "why": "Three young men tell a king that they will not do what he commands, whatever follows."
+  },
+  {
+   "id": "augustine-believe-that-you-may-understand",
+   "after": "selection:333e4977e5544dc0439a2039",
+   "responds": [
+    "selection:333e4977e5544dc0439a2039"
+   ],
+   "relation": "complement",
+   "why": "Augustine advises believing in order to understand. Here faith is first conscious knowledge and then deeds. In what order do knowing, believing and doing come?"
+  },
+  {
+   "id": "hunt-abou-ben-adhem",
+   "after": "selection:333e4977e5544dc0439a2039",
+   "responds": [
+    "selection:333e4977e5544dc0439a2039"
+   ],
+   "relation": "contrast",
+   "why": "Leigh Hunt's Abou loved his fellow men and was found at the head of those whom God loves. Why does this passage place knowing before doing?"
+  },
+  {
+   "id": "quran-faith-not-yet-entered",
+   "after": "selection:333e4977e5544dc0439a2039",
+   "responds": [
+    "selection:333e4977e5544dc0439a2039"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an tells some who say \"we believe\" to say instead \"we submit,\" since faith has not yet entered their hearts."
+  }
+ ],
+ "library": {
+  "john-born-of-water-and-of-the-spirit": {
+   "text": "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God. That which is born of the flesh is flesh; and that which is born of the Spirit",
+   "work": "John 3:5–8",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%203%3A5-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-substance-of-things-hoped-for": {
+   "text": "Now faith is the substance of things hoped for, the evidence of things not seen",
+   "work": "Hebrews 11:1",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2011%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-new-heart": {
+   "text": "A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh. And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them",
+   "work": "Ezekiel 36:26–27",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2036%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-faith-as-a-grain-of-mustard-seed": {
+   "text": "And Jesus said unto them, Because of your unbelief: for verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you",
+   "work": "Matthew 17:20",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2017%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-peace-with-god": {
+   "text": "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ: By whom also we have access by faith into this grace wherein we stand, and rejoice in hope of the glory of God",
+   "work": "Romans 5:1–2",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%205%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-born-not-of-blood": {
+   "text": "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name: Which were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God",
+   "work": "John 1:12–13",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%201%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-give-the-holy-spirit": {
+   "text": "If ye then, being evil, know how to give good gifts unto your children: how much more shall your heavenly Father give the Holy Spirit to them that ask him",
+   "work": "Luke 11:13",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-spirit-in-man": {
+   "text": "But there is a spirit in man: and the inspiration of the Almighty giveth them understanding",
+   "work": "Job 32:8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2032%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-diversities-of-gifts": {
+   "text": "Now there are diversities of gifts, but the same Spirit. And there are differences of administrations, but the same Lord. And there are diversities of operations, but it is the same God which worketh all in all. But the manifestation of the Spirit is given to every man to profit withal",
+   "work": "1 Corinthians 12:4–7",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2012%3A4-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-quickened-together": {
+   "text": "But God, who is rich in mercy, for his great love wherewith he loved us, Even when we were dead in sins, hath quickened us together with Christ, (by grace ye are saved",
+   "work": "Ephesians 2:4–5",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%202%3A4-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-faith-not-yet-entered": {
+   "text": "The wandering Arabs say: We believe. Say (unto them, O Muhammad): Ye believe not, but rather say \"We submit,\" for the faith hath not yet entered into your hearts. Yet, if ye obey Allah and His messenger, He will not withhold from you aught of (the reward of) your deeds. Lo! Allah is Forgiving, Merciful.",
+   "work": "Qur’an 49:14",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=49&verse=14",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-bosom-expanded": {
+   "text": "Is he whose bosom Allah hath expanded for Al-Islam, so that he followeth a light from his Lord, (as he who disbelieveth)? Then woe unto those whose hearts are hardened against remembrance of Allah. Such are in plain error.",
+   "work": "Qur’an 39:22",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=39&verse=22",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-that-my-heart-may-be-at-ease": {
+   "text": "And when Abraham said (unto his Lord): My Lord! Show me how Thou givest life to the dead, He said: Dost thou not believe? Abraham said: Yea, but (I ask) in order that my heart may be at ease. (His Lord) said: Take four of the birds and cause them to incline unto thee, then place a part of them on each hill, then call them, they will come to thee in haste, and know that Allah is Mighty, Wise.",
+   "work": "Qur’an 2:260",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=260",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-guideth-his-heart": {
+   "text": "No calamity befalleth save by Allah's leave. And whosoever believeth in Allah, He guideth his heart. And Allah is Knower of all things.",
+   "work": "Qur’an 64:11",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=64&verse=11",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "augustine-believe-that-you-may-understand": {
+   "text": "For understanding is the reward of faith. Therefore do not seek to understand in order to believe, but believe that you may understand",
+   "author": "Augustine of Hippo",
+   "work": "Tractates on the Gospel of John",
+   "locator": "Tractate 29, section 6",
+   "year": "c. 406–420",
+   "sortYear": 413,
+   "translator": "John Gibb",
+   "translationYear": "1888",
+   "tradition": "Early Christian",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/fathers/1701029.htm",
+    "label": "New Advent",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1915."
+   }
+  },
+  "james-faith-in-a-fact": {
+   "text": "There are, then, cases where a fact cannot come at all unless a preliminary faith exists in its coming. And where faith in a fact can help create the fact",
+   "author": "William James",
+   "work": "The Will to Believe",
+   "year": "1896",
+   "sortYear": 1896,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Will_to_Believe_and_Other_Essays_in_Popular_Philosophy/The_Will_to_Believe",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1910."
+   }
+  },
+  "clifford-insufficient-evidence": {
+   "text": "it is wrong always, everywhere, and for anyone, to believe anything upon insufficient evidence",
+   "author": "William Kingdon Clifford",
+   "work": "The Ethics of Belief",
+   "year": "1877",
+   "sortYear": 1877,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Ethics_of_Belief",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1879."
+   }
+  },
+  "aristotle-mind-like-light": {
+   "text": "this is a sort of positive state like light; for in a sense light makes potential colours into actual colours",
+   "author": "Aristotle",
+   "work": "On the Soul",
+   "locator": "Book III, chapter 5",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "J. A. Smith",
+   "translationYear": "1931",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/soul.3.iii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1931; translator d. 1939."
+   }
+  }
+ }
+}
