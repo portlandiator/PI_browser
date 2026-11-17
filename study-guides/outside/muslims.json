@@ -1,0 +1,328 @@
+{
+ "format": 2,
+ "slug": "muslims",
+ "subject": "F32AE3C8F2A5ED7A0BC0D546E923B492",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 20,
+ "kept": [
+  "source:BH03259",
+  "source:BH04107",
+  "source:BH00876",
+  "source:BH01632",
+  "source:BB00333",
+  "source:BB00003",
+  "source:BH00898",
+  "source:BH01140",
+  "source:BH00493",
+  "source:BH00333",
+  "source:BH06042",
+  "source:BH01815",
+  "source:BB00091",
+  "source:BH07375",
+  "source:BH01060",
+  "source:BH06673",
+  "source:BH01532",
+  "source:BH03846",
+  "source:BH00566"
+ ],
+ "introduction": "These short passages are addressed by the Báb and Bahá’u’lláh to Muslims as people of the Qur’an: they are asked to ponder its verses, to judge with fairness, to recognize what it promised, and they are reproached for opposing the one who claims to be its Revealer. Nearly all the passages set beside them are from the Qur’an itself, in Pickthall's translation, since the readings appeal to it: its calls to ponder, to be just even against oneself, not to follow conjecture or the ways of one's fathers. The Qur’anic verses on which Muslims rest their answer are there as well, that Muhammad is the Seal of the Prophets and that religion was perfected in his day, together with the Qur’an's demand for proof, its ban on compulsion, and Gamaliel's counsel of patience from the Book of Acts.",
+ "questions": [
+  "The readings ask Muslims to ponder a single verse of the Qur’an. Which of the verses set beside them seems to you to speak most directly to the question of a new revelation?",
+  "The Qur’an asks for justice even against oneself and one's kindred. What does judging a religious claim with fairness require in practice?",
+  "Most Muslims read the Seal of the Prophets and the perfecting of religion as closing the door to later prophets. How should that conviction be understood and respected by those who believe otherwise?",
+  "Gamaliel advised leaving a new movement alone to see whether it is of God. What are the merits and limits of his test?",
+  "The readings use strong words of reproach. How would you speak today, to a friend of another faith, about something you believe they have missed?"
+ ],
+ "outside": [
+  {
+   "id": "quran-messenger-confirming",
+   "after": "source:BH03259",
+   "responds": [
+    "source:BH03259"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an itself says that when a messenger came confirming what they possessed, a party of those who had received the Scripture flung it behind their backs as if they knew not."
+  },
+  {
+   "id": "quran-staunch-in-justice",
+   "after": "source:BH04107",
+   "responds": [
+    "source:BH04107"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: be ye staunch in justice, witnesses for God, even though it be against yourselves or your kindred."
+  },
+  {
+   "id": "quran-of-no-account",
+   "after": "source:BH00876",
+   "responds": [
+    "source:BH00876"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an the messenger says: O my Lord, mine own folk make this Qur’an of no account."
+  },
+  {
+   "id": "quran-locks-on-the-hearts",
+   "after": "source:BH01632",
+   "responds": [
+    "source:BH01632"
+   ],
+   "relation": "adjacent",
+   "why": "It asks again: will they then not meditate on the Qur’an, or are there locks on the hearts?"
+  },
+  {
+   "id": "quran-ponder-the-quran",
+   "after": "source:BH01632",
+   "responds": [
+    "source:BH01632"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks: will they not then ponder on the Qur’an? Had it been from other than God they would have found therein much incongruity."
+  },
+  {
+   "id": "quran-proof-from-your-lord",
+   "after": "source:BB00333",
+   "responds": [
+    "source:BB00333"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: O mankind, now hath a proof from your Lord come unto you, and We have sent down unto you a clear light."
+  },
+  {
+   "id": "quran-conjecture-no-substitute",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that most of them follow nothing but conjecture, and conjecture can by no means take the place of truth."
+  },
+  {
+   "id": "quran-seal-of-the-prophets",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "contrast",
+   "why": "The Qur’an calls Muhammad the messenger of God and the Seal of the Prophets, which most Muslims understand to mean that no prophet comes after him. How does a claim to a new revelation have to reckon with that verse, and with those who hold to it in good faith?"
+  },
+  {
+   "id": "quran-perfected-your-religion",
+   "after": "source:BH00898",
+   "responds": [
+    "source:BH00898"
+   ],
+   "relation": "contrast",
+   "why": "The Qur’an says: this day have I perfected your religion for you and completed My favour unto you. What might fulfilment of all religions mean to a believer for whom religion was perfected on that day?"
+  },
+  {
+   "id": "quran-mankind-stand-before-the-lord",
+   "after": "source:BH01140",
+   "responds": [
+    "source:BH01140"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse the reading quotes: the day when all mankind stand before the Lord of the Worlds."
+  },
+  {
+   "id": "quran-straight-path",
+   "after": "source:BH00493",
+   "responds": [
+    "source:BH00493"
+   ],
+   "relation": "adjacent",
+   "why": "Every Muslim prays many times a day in the opening chapter of the Qur’an: show us the straight path."
+  },
+  {
+   "id": "quran-hearts-hardened",
+   "after": "source:BH00333",
+   "responds": [
+    "source:BH00333"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks: is not the time ripe for the hearts of those who believe to submit to God's reminder and to the truth which is revealed?"
+  },
+  {
+   "id": "quran-for-everything-a-time-prescribed",
+   "after": "source:BH06042",
+   "responds": [
+    "source:BH06042"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of the messengers sent before: for everything there is a time prescribed."
+  },
+  {
+   "id": "quran-bring-your-proof",
+   "after": "source:BH01815",
+   "responds": [
+    "source:BH01815"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an tells those who make claims about God: bring your proof, if ye are truthful. What proof would it be fair for a Muslim to ask, and fair for a claimant to offer?"
+  },
+  {
+   "id": "acts-if-it-be-of-god",
+   "after": "source:BH01815",
+   "responds": [
+    "source:BH01815"
+   ],
+   "relation": "complement",
+   "why": "In the Book of Acts the teacher Gamaliel advises a council to let the new preachers alone: if this work be of men it will come to nought, but if it be of God ye cannot overthrow it. What does his counsel ask of those who are not persuaded?"
+  },
+  {
+   "id": "quran-word-common-between-us",
+   "after": "source:BB00091",
+   "responds": [
+    "source:BB00091"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an bids its Prophet say: O People of the Scripture, come to an agreement between us and you, that we shall worship none but God."
+  },
+  {
+   "id": "quran-found-our-fathers",
+   "after": "source:BH01060",
+   "responds": [
+    "source:BH01060"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an describes those who, when told to follow what God has revealed, answer: we follow that wherein we found our fathers."
+  },
+  {
+   "id": "quran-wizard-or-madman",
+   "after": "source:BH01532",
+   "responds": [
+    "source:BH01532"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that there came no messenger unto those before them but they said: a wizard or a madman."
+  },
+  {
+   "id": "quran-no-compulsion",
+   "after": "source:BH03846",
+   "responds": [
+    "source:BH03846"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an says: there is no compulsion in religion; the right direction is henceforth distinct from error. What would it look like for a community to defend its faith and still bar no one from seeking?"
+  },
+  {
+   "id": "luke-no-prophet-accepted",
+   "after": "source:BH00566",
+   "responds": [
+    "source:BH00566"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said in his own town: verily I say unto you, no prophet is accepted in his own country."
+  }
+ ],
+ "library": {
+  "quran-locks-on-the-hearts": {
+   "text": "Will they then not meditate on the Qur'an, or are there locks on the hearts?",
+   "work": "Qur’an 47:24",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=47&verse=24",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-bring-your-proof": {
+   "text": "Bring your proof (of what ye state) if ye are truthful",
+   "work": "Qur’an 2:111",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=111",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-straight-path": {
+   "text": "Show us the straight path,",
+   "work": "Qur’an 1:6",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=1&verse=6",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-messenger-confirming": {
+   "text": "And when there cometh unto them a messenger from Allah, confirming that which they possess, a party of those who have received the Scripture fling the Scripture of Allah behind their backs as if they knew not,",
+   "work": "Qur’an 2:101",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=101",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-sell-not-my-revelations": {
+   "text": "So fear not mankind, but fear Me. And My revelations for a little gain",
+   "work": "Qur’an 5:44",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=44",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
