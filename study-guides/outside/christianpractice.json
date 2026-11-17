@@ -1,0 +1,431 @@
+{
+ "format": 2,
+ "slug": "christianpractice",
+ "subject": "3923920E5182EE6A6F0687657820B538",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 31,
+ "quotations": 31,
+ "kept": [
+  "source:ABU0531",
+  "source:ABU0193",
+  "source:ABU0426",
+  "source:ABU1002",
+  "source:AB07479",
+  "source:ABU1107",
+  "source:ABU2954",
+  "source:AB04279",
+  "source:ABU2375",
+  "source:ABU2563",
+  "source:ABU0412",
+  "source:ABU1549",
+  "source:ABU1968",
+  "source:ABU2993",
+  "source:ABU2477",
+  "source:ABU2215",
+  "source:ABU1407",
+  "source:ABU1042",
+  "source:ABU2067",
+  "source:ABU3038",
+  "source:AB04277",
+  "source:ABU2190",
+  "source:ABU3181",
+  "source:ABU2092",
+  "source:ABU0585",
+  "source:ABU2509",
+  "source:ABU1592",
+  "source:ABU2485",
+  "source:ABU3144",
+  "source:ABU0398",
+  "source:AB00256"
+ ],
+ "introduction": "These are remarks, most of them from talks and conversations, on the teachings of Christ and on what the churches made of them. They honour the Sermon on the Mount and the commandments, read baptism and the Lord’s Supper as signs of an inward change, and speak critically of later developments: literal readings of the sacraments, the doctrine of vicarious atonement, images and bells, clerical rank and the conduct of prelates. The thirty-one quotations are read here with thirty-one from elsewhere, nearly all from the Christian scriptures themselves, since the argument is about what those scriptures teach. Paul and Peter’s letters, the Gospels and Acts supply both the passages the guide relies on and the passages on which the doctrines it questions were built: the words over the bread, the suffering servant of Isaiah, the cloud that received Jesus, the psalm that praises with cymbals. Those are placed as questions, and Chaucer’s parson stands at the end beside the criticism of the popes. A reader who is Christian should find their own tradition quoted fairly here; a reader who is not should be able to see why the doctrines were held.",
+ "questions": [
+  "The guide reads baptism and the Lord's Supper as outward signs of an inward reality. Which New Testament passages support that reading, and which have led Christians to hold more?",
+  "Isaiah's suffering servant bears the iniquity of others, and Ezekiel says each bears their own. How might a reader hold both passages without the doctrine of vicarious atonement, or with it?",
+  "Paul asks every soul to be subject to the powers that be, and Peter says we must obey God rather than men. What has each text been used to justify?",
+  "Jesus says 'all ye are brethren' and the church developed ranks of clergy. What is gained and what is lost when a religion acquires an institution?",
+  "The guide distinguishes turning the other cheek as a personal ethic from the duties of society. Where do you draw that line?",
+  "Chaucer's parson and the criticised prelates belonged to the same church. How should any religious community be judged: by its best members, its leaders, or its teachings?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-peacemakers",
+   "after": "source:ABU0531",
+   "responds": [
+    "source:ABU0531"
+   ],
+   "relation": "adjacent",
+   "why": "Among the teachings meant is the blessing on the peacemakers, who shall be called the children of God."
+  },
+  {
+   "id": "matthew-two-commandments",
+   "after": "source:ABU0193",
+   "responds": [
+    "source:ABU0193"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus himself summed up the law in two commandments, love of God and love of one's neighbour as oneself."
+  },
+  {
+   "id": "matthew-take-the-sword",
+   "after": "source:ABU0426",
+   "responds": [
+    "source:ABU0426"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying referred to: put up again thy sword, for all they that take the sword shall perish with the sword."
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:ABU1002",
+   "responds": [
+    "source:ABU1002"
+   ],
+   "relation": "adjacent",
+   "why": "The saying comes from the Sermon on the Mount, where 'an eye for an eye' is answered with 'resist not evil'."
+  },
+  {
+   "id": "romans-minister-of-god-for-good",
+   "after": "source:ABU1002",
+   "responds": [
+    "source:ABU1002"
+   ],
+   "relation": "complement",
+   "why": "Paul says that rulers are not a terror to good works but to the evil. How do the forbearance asked of each person and the restraint of wrong asked of society fit together?"
+  },
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:AB07479",
+   "responds": [
+    "source:AB07479"
+   ],
+   "relation": "adjacent",
+   "why": "In John's Gospel Jesus says of his own words about bread that it is the spirit that quickens, and the flesh profits nothing."
+  },
+  {
+   "id": "peter-not-the-putting-away-of-filth",
+   "after": "source:ABU1107",
+   "responds": [
+    "source:ABU1107"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter says that baptism is not the putting away of the filth of the flesh, but the answer of a good conscience toward God."
+  },
+  {
+   "id": "acts-added-to-the-church-daily",
+   "after": "source:ABU2954",
+   "responds": [
+    "source:ABU2954"
+   ],
+   "relation": "adjacent",
+   "why": "Acts describes the first believers breaking bread from house to house, eating with gladness and singleness of heart."
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:AB04279",
+   "responds": [
+    "source:AB04279"
+   ],
+   "relation": "adjacent",
+   "why": "In Luke Jesus says: the Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor."
+  },
+  {
+   "id": "john-came-down-from-heaven",
+   "after": "source:ABU2375",
+   "responds": [
+    "source:ABU2375"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of one who came down from heaven while yet on earth."
+  },
+  {
+   "id": "acts-cloud-received-him",
+   "after": "source:ABU2375",
+   "responds": [
+    "source:ABU2375"
+   ],
+   "relation": "complement",
+   "why": "Acts says that he was taken up, and a cloud received him out of their sight. What did those who read this as a bodily ascent want to affirm, and can it be affirmed another way?"
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:ABU2563",
+   "responds": [
+    "source:ABU2563"
+   ],
+   "relation": "adjacent",
+   "why": "John's prologue is the source of one of these views: the Word was made flesh, and dwelt among us."
+  },
+  {
+   "id": "corinthians-same-mind",
+   "after": "source:ABU0412",
+   "responds": [
+    "source:ABU0412"
+   ],
+   "relation": "adjacent",
+   "why": "Paul was already pleading in the first generation that there be no divisions, and that all speak the same thing."
+  },
+  {
+   "id": "matthew-shut-the-kingdom",
+   "after": "source:ABU1968",
+   "responds": [
+    "source:ABU1968"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus charged the teachers of his own day with shutting up the kingdom of heaven against others."
+  },
+  {
+   "id": "corinthians-in-remembrance-of-me",
+   "after": "source:ABU2993",
+   "responds": [
+    "source:ABU2993"
+   ],
+   "relation": "adjacent",
+   "why": "Paul hands on what he received: the bread broken and the cup taken, with the words 'this do in remembrance of me'."
+  },
+  {
+   "id": "john-living-bread",
+   "after": "source:ABU2993",
+   "responds": [
+    "source:ABU2993"
+   ],
+   "relation": "complement",
+   "why": "In John's Gospel Jesus says that the bread he will give is his flesh. Why have so many Christians taken such words in the most literal sense, and what were they holding on to?"
+  },
+  {
+   "id": "isaiah-wounded-for-our-transgressions",
+   "after": "source:ABU2477",
+   "responds": [
+    "source:ABU2477"
+   ],
+   "relation": "contrast",
+   "why": "Isaiah's servant is wounded for our transgressions, and the Lord has laid on him the iniquity of us all. How should a reader who rejects vicarious atonement understand the passage on which the doctrine rests?"
+  },
+  {
+   "id": "ezekiel-son-shall-not-bear",
+   "after": "source:ABU2477",
+   "responds": [
+    "source:ABU2477"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel says that the soul that sinneth shall die, and that one person shall not bear the iniquity of another."
+  },
+  {
+   "id": "colossians-neglecting-of-the-body",
+   "after": "source:ABU2215",
+   "responds": [
+    "source:ABU2215"
+   ],
+   "relation": "adjacent",
+   "why": "Paul himself questioned ordinances of 'touch not, taste not, handle not', after the commandments and doctrines of men."
+  },
+  {
+   "id": "acts-godhead-not-like-unto-gold",
+   "after": "source:ABU1407",
+   "responds": [
+    "source:ABU1407"
+   ],
+   "relation": "adjacent",
+   "why": "Paul told his hearers that we ought not to think the Godhead is like gold, silver or stone graven by art and man's device."
+  },
+  {
+   "id": "psalm-trumpet-and-harp",
+   "after": "source:ABU2067",
+   "responds": [
+    "source:ABU2067"
+   ],
+   "relation": "complement",
+   "why": "The last psalm calls for praise with trumpet, harp and loud cymbals. Is sound in worship an innovation to be regretted, or one of the oldest forms of praise?"
+  },
+  {
+   "id": "matthew-all-ye-are-brethren",
+   "after": "source:ABU3038",
+   "responds": [
+    "source:ABU3038"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples not to be called Rabbi or master, for all ye are brethren, and the greatest shall be your servant."
+  },
+  {
+   "id": "romans-higher-powers",
+   "after": "source:AB04277",
+   "responds": [
+    "source:AB04277"
+   ],
+   "relation": "adjacent",
+   "why": "This is the statement: let every soul be subject unto the higher powers, for the powers that be are ordained of God."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "source:AB04277",
+   "responds": [
+    "source:AB04277"
+   ],
+   "relation": "contrast",
+   "why": "Peter and the apostles answered a council: we ought to obey God rather than men. Which text has the better claim to be the Christian teaching on rulers?"
+  },
+  {
+   "id": "genesis-one-flesh",
+   "after": "source:ABU2190",
+   "responds": [
+    "source:ABU2190"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus's teaching on marriage rests on Genesis: a man shall cleave unto his wife, and they shall be one flesh."
+  },
+  {
+   "id": "john-world-could-not-contain-the-books",
+   "after": "source:ABU3181",
+   "responds": [
+    "source:ABU3181"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel itself admits that Jesus did many other things which are not written."
+  },
+  {
+   "id": "john-another-comforter",
+   "after": "source:ABU2092",
+   "responds": [
+    "source:ABU2092"
+   ],
+   "relation": "adjacent",
+   "why": "This is the promise in question: he shall give you another Comforter, that he may abide with you for ever."
+  },
+  {
+   "id": "matthew-from-the-east-and-west",
+   "after": "source:ABU0585",
+   "responds": [
+    "source:ABU0585"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying: many shall come from the east and west and sit down in the kingdom of heaven."
+  },
+  {
+   "id": "spinoza-not-written-by-moses",
+   "after": "source:ABU2485",
+   "responds": [
+    "source:ABU2485"
+   ],
+   "relation": "adjacent",
+   "why": "Spinoza is an early example: he held it clear as noonday that the Pentateuch was not written by Moses."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:ABU3144",
+   "responds": [
+    "source:ABU3144"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel states the sacrifice in its simplest form: greater love hath no man than this, that a man lay down his life for his friends."
+  },
+  {
+   "id": "chaucer-parson",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "complement",
+   "why": "Chaucer drew a parson who gave his sheep this example, that first he wrought and afterward he taught. How should the faithful lives within a church be weighed against the conduct of its rulers?"
+  }
+ ],
+ "library": {
+  "corinthians-in-remembrance-of-me": {
+   "text": "For I have received of the Lord that which also I delivered unto you, that the Lord Jesus the same night in which he was betrayed took bread: And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me. After the same manner also he took the cup, when he had supped, saying, this cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me. For as often as ye eat this bread, and drink this cup, ye do shew the Lord's death till he come",
+   "work": "1 Corinthians 11:23–26",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2011%3A23-26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-wounded-for-our-transgressions": {
+   "text": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed. All we like sheep have gone astray; we have turned every one to his own way; and the Lord hath laid on him the iniquity of us all",
+   "work": "Isaiah 53:5–6",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2053%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-godhead-not-like-unto-gold": {
+   "text": "Forasmuch then as we are the offspring of God, we ought not to think that the Godhead is like unto gold, or silver, or stone, graven by art and man's device",
+   "work": "Acts 17:29",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2017%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-all-ye-are-brethren": {
+   "text": "But be not ye called Rabbi: for one is your Master, even Christ; and all ye are brethren. And call no man your father upon the earth: for one is your Father, which is in heaven. Neither be ye called masters: for one is your Master, even Christ. But he that is greatest among you shall be your servant",
+   "work": "Matthew 23:8–11",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2023%3A8-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
