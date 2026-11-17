@@ -1,0 +1,1531 @@
+{
+ "format": 2,
+ "slug": "confirmations",
+ "subject": "6DFF61AF1A174D40865772C3AB40FF7E",
+ "status": "published",
+ "limit": 100,
+ "rule": "proportional",
+ "readings": 95,
+ "quotations": 100,
+ "kept": [
+  "source:BH02198",
+  "source:BH02747",
+  "source:BH01716",
+  "source:AB02935",
+  "source:ABU0119",
+  "source:BH01673",
+  "source:BH05517",
+  "source:BH04572",
+  "source:ABU1096",
+  "source:BH04684",
+  "source:AB01895",
+  "source:AB05496",
+  "source:AB06934",
+  "source:BH02234",
+  "source:BH09183",
+  "source:BH07481",
+  "source:AB00666",
+  "source:AB01180",
+  "source:ABU2727",
+  "source:AB00241",
+  "source:AB00152",
+  "source:AB00175",
+  "source:ABU0095",
+  "source:AB00131",
+  "source:AB00740",
+  "source:AB10756",
+  "source:ABU0456",
+  "source:ABU0259",
+  "source:AB11863",
+  "source:ABU0100",
+  "source:ABU0109",
+  "source:AB00936",
+  "source:BH07836",
+  "source:BH01230",
+  "source:AB03357",
+  "source:AB04687",
+  "source:ABU0040",
+  "source:AB00855",
+  "source:AB03641",
+  "source:ABU1134",
+  "source:ABU1588",
+  "source:ABU1961",
+  "source:AB00128",
+  "source:AB01505",
+  "source:AB01552",
+  "source:AB05542",
+  "source:AB03799",
+  "source:AB03231",
+  "source:AB03826",
+  "source:AB06644",
+  "source:AB08705",
+  "source:BH04409",
+  "source:AB01720",
+  "source:AB01246",
+  "source:AB05466",
+  "source:AB11423",
+  "source:ABU0256",
+  "source:ABU1721",
+  "source:AB10091",
+  "source:ABU0818",
+  "source:AB11543",
+  "source:AB06012",
+  "source:AB00094",
+  "source:AB01840",
+  "source:AB00751",
+  "source:ABU0826",
+  "source:ABU0416",
+  "source:ABU0281",
+  "source:BH09809",
+  "source:AB02382",
+  "source:AB03597",
+  "source:AB08267",
+  "source:ABU0260",
+  "source:BH00005",
+  "source:AB01023",
+  "source:AB00388",
+  "source:AB02812",
+  "source:AB03780",
+  "source:ABU0676",
+  "source:AB03824",
+  "source:AB01165",
+  "source:AB00342",
+  "source:AB05586",
+  "source:AB06162",
+  "source:AB07853",
+  "source:AB02117",
+  "source:AB06211",
+  "source:AB07303",
+  "source:AB11281",
+  "source:BH05543",
+  "source:AB02326",
+  "source:BH07106",
+  "source:AB03600",
+  "source:ABU1450",
+  "source:BH02806"
+ ],
+ "introduction": "These passages are about grace: the bounty that is poured out on everyone without ceasing, that does not wait for merit, and that makes a drop into a sea. They are also about capacity, the readiness that lets a person receive it, and about confirmation, the help without which effort comes to little. They say what attracts that help (action, unity, thankfulness, teaching children) and what withholds it, and they end in promises and prayers. A hundred outside voices are set beside them: the parables of the sower and the labourers, Paul on grace and weakness, the Psalms, the Qur’an on bounty and on a people changing what is in themselves, Mencius and Dante, with Emerson, Aesop and Shakespeare speaking for self-reliance.",
+ "questions": [
+  "One letter says that blessings do not depend on worthiness; another, that bestowal is conditional. How do these readings, and Paul's \"shall we continue in sin?\", hold the two together?",
+  "Grace is likened to rain and capacity to the ground it falls on. What can a person do about the ground?",
+  "Emerson says \"trust thyself\"; Shakespeare's Helena says our remedies often lie in ourselves. What do these passages add, and what would they not deny?",
+  "Unity, thankfulness and action are each said to attract confirmation. Why those three?",
+  "\"Remember not your own limitations.\" Compare Moses and Jeremiah, who each protested that they could not speak. When is a sense of one's limits an obstacle?",
+  "If the wish to pray is already a gift, as Julian of Norwich heard, what are prayers for grace doing?"
+ ],
+ "outside": [
+  {
+   "id": "quran-cannot-reckon-it",
+   "after": "source:BH02198",
+   "responds": [
+    "source:BH02198"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that if you would count the bounty of God you could not reckon it."
+  },
+  {
+   "id": "john-of-his-fulness",
+   "after": "source:BH02198",
+   "responds": [
+    "source:BH02198"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that of his fulness all have received, grace upon grace."
+  },
+  {
+   "id": "matthew-rain-on-the-just",
+   "after": "source:BH02747",
+   "responds": [
+    "source:BH02747"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that God makes his sun rise on the evil and the good, and sends rain on the just and the unjust."
+  },
+  {
+   "id": "deuteronomy-doctrine-as-the-rain",
+   "after": "source:AB02935",
+   "responds": [
+    "source:AB02935"
+   ],
+   "relation": "adjacent",
+   "why": "Moses sings that his teaching shall drop as the rain and distil as the dew."
+  },
+  {
+   "id": "quran-these-and-those",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the bounty of the Lord is extended to all and is not walled up."
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says that the mercies of God do not fail; they are new every morning."
+  },
+  {
+   "id": "john-epistle-first-loved-us",
+   "after": "source:BH05517",
+   "responds": [
+    "source:BH05517"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that we love because he first loved us."
+  },
+  {
+   "id": "romans-while-yet-sinners",
+   "after": "source:BH05517",
+   "responds": [
+    "source:BH05517"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God's love was shown toward us while we were still sinners."
+  },
+  {
+   "id": "matthew-freely-give",
+   "after": "source:ABU1096",
+   "responds": [
+    "source:ABU1096"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying of Jesus that the talk explains: freely ye have received, freely give."
+  },
+  {
+   "id": "matthew-labourers-in-the-vineyard",
+   "after": "source:AB01895",
+   "responds": [
+    "source:AB01895"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the workers hired at the eleventh hour receive the same wage as those who bore the heat of the day."
+  },
+  {
+   "id": "luke-elder-brother",
+   "after": "source:AB01895",
+   "responds": [
+    "source:AB01895"
+   ],
+   "relation": "contrast",
+   "why": "The elder brother of the prodigal complains that he served for years and was never given a feast. What is to be said to those who feel that grace is unfair to the deserving?"
+  },
+  {
+   "id": "isaiah-sins-as-scarlet",
+   "after": "source:AB05496",
+   "responds": [
+    "source:AB05496"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears: though your sins be as scarlet, they shall be as white as snow."
+  },
+  {
+   "id": "corinthians-didst-not-receive",
+   "after": "source:BH02234",
+   "responds": [
+    "source:BH02234"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks what anyone has that he did not receive, and why he should boast as if he had not."
+  },
+  {
+   "id": "corinthians-by-the-grace-of-god-i-am",
+   "after": "source:BH02234",
+   "responds": [
+    "source:BH02234"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: by the grace of God I am what I am, and I laboured, yet not I, but the grace that was with me."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:AB00666",
+   "responds": [
+    "source:AB00666"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that it is by grace, through faith, and not of works, so that no one may boast."
+  },
+  {
+   "id": "romans-continue-in-sin",
+   "after": "source:AB00666",
+   "responds": [
+    "source:AB00666"
+   ],
+   "relation": "complement",
+   "why": "Paul asks whether, if grace does not depend on worthiness, we should continue in sin so that grace may abound, and answers no. What keeps free grace from becoming licence?"
+  },
+  {
+   "id": "romans-mercy-on-whom-i-will",
+   "after": "source:AB01180",
+   "responds": [
+    "source:AB01180"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes the word to Moses: I will have mercy on whom I will have mercy."
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:ABU2727",
+   "responds": [
+    "source:ABU2727"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God has chosen the foolish and weak things of the world to confound the wise and mighty."
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU2727",
+   "responds": [
+    "source:ABU2727"
+   ],
+   "relation": "complement",
+   "why": "The Preacher observed that the race is not to the swift nor bread to the wise, and put it down to time and chance. What does this talk put in the place of chance?"
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:AB00241",
+   "responds": [
+    "source:AB00241"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells of a sower whose seed is the same everywhere and whose harvest depends on the soil."
+  },
+  {
+   "id": "quran-rain-and-foam",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that rain is sent down and each valley flows according to its measure."
+  },
+  {
+   "id": "dante-glory-of-him",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "Dante says that the glory of God penetrates the universe and shines in one part more and in another less."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:AB00175",
+   "responds": [
+    "source:AB00175"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah compares the word to rain that does not return until it has watered the earth."
+  },
+  {
+   "id": "revelation-stand-at-the-door",
+   "after": "source:ABU0095",
+   "responds": [
+    "source:ABU0095"
+   ],
+   "relation": "adjacent",
+   "why": "The Revelation of John has Christ say: I stand at the door and knock; if anyone opens, I will come in."
+  },
+  {
+   "id": "matthew-seeing-see-not",
+   "after": "source:ABU0095",
+   "responds": [
+    "source:ABU0095"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of those who see without seeing and hear without hearing."
+  },
+  {
+   "id": "matthew-stony-places",
+   "after": "source:ABU0095",
+   "responds": [
+    "source:ABU0095"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus describes the hearer who receives the word with joy and, having no root, soon falls away."
+  },
+  {
+   "id": "john-loved-darkness",
+   "after": "source:AB00740",
+   "responds": [
+    "source:AB00740"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that light came into the world and people loved darkness more."
+  },
+  {
+   "id": "john-except-the-father-draw-him",
+   "after": "source:AB10756",
+   "responds": [
+    "source:AB10756"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that no one can come to him unless the Father draws him. If the iron is attractable and the clay is not, who made it iron?"
+  },
+  {
+   "id": "quran-change-what-is-in-their-hearts",
+   "after": "source:ABU0456",
+   "responds": [
+    "source:ABU0456"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God does not change the condition of a people until they change what is in themselves."
+  },
+  {
+   "id": "psalm-open-thy-mouth-wide",
+   "after": "source:ABU0456",
+   "responds": [
+    "source:ABU0456"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm has God say: open thy mouth wide, and I will fill it."
+  },
+  {
+   "id": "mencius-lost-mind",
+   "after": "source:ABU0456",
+   "responds": [
+    "source:ABU0456"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius says that the whole of learning is to seek the heart that has been lost."
+  },
+  {
+   "id": "kings-not-a-vessel-more",
+   "after": "source:ABU0259",
+   "responds": [
+    "source:ABU0259"
+   ],
+   "relation": "adjacent",
+   "why": "In the story of the widow's oil, the oil flowed as long as there were vessels to fill, and stopped when there was not a vessel more."
+  },
+  {
+   "id": "tagore-still-there-is-room",
+   "after": "source:ABU0259",
+   "responds": [
+    "source:ABU0259"
+   ],
+   "relation": "adjacent",
+   "why": "Tagore says that the gifts are poured into his small hands through the ages, and still there is room to fill."
+  },
+  {
+   "id": "matthew-whosoever-hath",
+   "after": "source:ABU0259",
+   "responds": [
+    "source:ABU0259"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that to the one who has, more will be given, and from the one who has not, even that will be taken. Is capacity itself a gift, and if so, what is asked of those who have little?"
+  },
+  {
+   "id": "james-draw-nigh-to-god",
+   "after": "source:ABU0100",
+   "responds": [
+    "source:ABU0100"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of James says: draw near to God, and he will draw near to you."
+  },
+  {
+   "id": "chronicles-eyes-of-the-lord",
+   "after": "source:BH07836",
+   "responds": [
+    "source:BH07836"
+   ],
+   "relation": "adjacent",
+   "why": "The Chronicler says that the eyes of the Lord run through the whole earth to show himself strong for those whose heart is whole toward him."
+  },
+  {
+   "id": "judges-lest-israel-vaunt",
+   "after": "source:BH01230",
+   "responds": [
+    "source:BH01230"
+   ],
+   "relation": "adjacent",
+   "why": "Gideon was told that his army was too large, lest Israel say: my own hand has saved me."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "source:AB03357",
+   "responds": [
+    "source:AB03357"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I am the vine, ye are the branches; without me ye can do nothing."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:AB03357",
+   "responds": [
+    "source:AB03357"
+   ],
+   "relation": "contrast",
+   "why": "Emerson's counsel was: trust thyself; every heart vibrates to that iron string. What is the difference between his self-trust and the reliance asked for here?"
+  },
+  {
+   "id": "psalm-except-the-lord-build",
+   "after": "source:AB04687",
+   "responds": [
+    "source:AB04687"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that unless the Lord builds the house, they labour in vain who build it."
+  },
+  {
+   "id": "aesop-hercules-waggoner",
+   "after": "source:AB04687",
+   "responds": [
+    "source:AB04687"
+   ],
+   "relation": "complement",
+   "why": "In Aesop the god tells the carter who prays for help to put his own shoulder to the wheel. The ship here still needs its sails set. What is the sailor's part?"
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:AB00855",
+   "responds": [
+    "source:AB00855"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah heard: not by might, nor by power, but by my Spirit."
+  },
+  {
+   "id": "nehemiah-prayer-and-a-watch",
+   "after": "source:ABU1134",
+   "responds": [
+    "source:ABU1134"
+   ],
+   "relation": "adjacent",
+   "why": "Nehemiah's builders used both means: they prayed, and they set a watch."
+  },
+  {
+   "id": "corinthians-our-sufficiency-is-of-god",
+   "after": "source:ABU1588",
+   "responds": [
+    "source:ABU1588"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we are not sufficient of ourselves; our sufficiency is of God."
+  },
+  {
+   "id": "shakespeare-remedies-in-ourselves",
+   "after": "source:ABU1588",
+   "responds": [
+    "source:ABU1588"
+   ],
+   "relation": "contrast",
+   "why": "Shakespeare's Helena says that our remedies often lie in ourselves, though we ascribe them to heaven. How would you tell the one from the other?"
+  },
+  {
+   "id": "john-born-of-water-and-of-the-spirit",
+   "after": "source:ABU1961",
+   "responds": [
+    "source:ABU1961"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compares the Spirit to the wind, which is known by its effects and not seen."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:AB00128",
+   "responds": [
+    "source:AB00128"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of James asks for doers of the word, and not hearers only."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:AB01505",
+   "responds": [
+    "source:AB01505"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whatever a person sows, that he will also reap."
+  },
+  {
+   "id": "psalm-sow-in-tears",
+   "after": "source:AB01505",
+   "responds": [
+    "source:AB01505"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the one who goes out weeping, bearing seed, will come back with sheaves."
+  },
+  {
+   "id": "quran-if-ye-help-allah",
+   "after": "source:AB01552",
+   "responds": [
+    "source:AB01552"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: if you help God, he will help you and make your foothold firm."
+  },
+  {
+   "id": "luke-give-the-holy-spirit",
+   "after": "source:AB01552",
+   "responds": [
+    "source:AB01552"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the Father gives the Holy Spirit to those who ask him."
+  },
+  {
+   "id": "malachi-windows-of-heaven",
+   "after": "source:AB03826",
+   "responds": [
+    "source:AB03826"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi hears God say: prove me, and see if I will not open the windows of heaven."
+  },
+  {
+   "id": "matthew-seek-and-ye-shall-find",
+   "after": "source:AB06644",
+   "responds": [
+    "source:AB06644"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ask, and it shall be given you; seek, and ye shall find."
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:AB08705",
+   "responds": [
+    "source:AB08705"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a cup of cold water given to a little one will not lose its reward."
+  },
+  {
+   "id": "matthew-salt-lost-savour",
+   "after": "source:BH04409",
+   "responds": [
+    "source:BH04409"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus warns his own followers that salt which has lost its savour is good for nothing."
+  },
+  {
+   "id": "matthew-good-and-faithful-servant",
+   "after": "source:AB01246",
+   "responds": [
+    "source:AB01246"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the reward of faithful work is the master's good pleasure: enter into the joy of thy lord."
+  },
+  {
+   "id": "colossians-heartily-as-to-the-lord",
+   "after": "source:AB01246",
+   "responds": [
+    "source:AB01246"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says to do every task heartily, as to the Lord and not to men."
+  },
+  {
+   "id": "james-faith-without-works",
+   "after": "source:AB05466",
+   "responds": [
+    "source:AB05466"
+   ],
+   "relation": "complement",
+   "why": "The letter of James insists that faith without works is dead. This letter says that bestowal is conditional; an earlier one said that blessings do not depend on worthiness. How do the two fit?"
+  },
+  {
+   "id": "john-new-commandment",
+   "after": "source:AB11423",
+   "responds": [
+    "source:AB11423"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives a new commandment: love one another as I have loved you."
+  },
+  {
+   "id": "matthew-two-or-three-gathered",
+   "after": "source:ABU0256",
+   "responds": [
+    "source:ABU0256"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that where two or three are gathered in his name, he is in the midst of them."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:ABU0256",
+   "responds": [
+    "source:ABU0256"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that where brothers dwell in unity, there the Lord commands the blessing."
+  },
+  {
+   "id": "acts-pentecost",
+   "after": "source:ABU1721",
+   "responds": [
+    "source:ABU1721"
+   ],
+   "relation": "adjacent",
+   "why": "The Spirit came at Pentecost when the disciples were all with one accord in one place."
+  },
+  {
+   "id": "acts-breaking-bread-with-gladness",
+   "after": "source:AB10091",
+   "responds": [
+    "source:AB10091"
+   ],
+   "relation": "adjacent",
+   "why": "The first believers met daily, breaking bread with gladness and singleness of heart."
+  },
+  {
+   "id": "quran-if-ye-give-thanks",
+   "after": "source:ABU0818",
+   "responds": [
+    "source:ABU0818"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: if you give thanks, I will give you more."
+  },
+  {
+   "id": "luke-where-are-the-nine",
+   "after": "source:ABU0818",
+   "responds": [
+    "source:ABU0818"
+   ],
+   "relation": "adjacent",
+   "why": "Of ten who were healed only one returned to give thanks, and Jesus asked where the nine were."
+  },
+  {
+   "id": "galatians-neither",
+   "after": "source:AB11543",
+   "responds": [
+    "source:AB11543"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that in Christ there is neither Jew nor Greek, bond nor free."
+  },
+  {
+   "id": "matthew-faith-as-a-grain-of-mustard-seed",
+   "after": "source:AB06012",
+   "responds": [
+    "source:AB06012"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that faith the size of a mustard seed can move a mountain."
+  },
+  {
+   "id": "samuel-battle-is-the-lords",
+   "after": "source:AB00094",
+   "responds": [
+    "source:AB00094"
+   ],
+   "relation": "adjacent",
+   "why": "David, a boy with a sling, tells the giant that the battle is the Lord's."
+  },
+  {
+   "id": "quran-inspired-the-bee",
+   "after": "source:AB01840",
+   "responds": [
+    "source:AB01840"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the Lord inspired the bee where to build and what to eat."
+  },
+  {
+   "id": "corinthians-strength-in-weakness",
+   "after": "source:AB00751",
+   "responds": [
+    "source:AB00751"
+   ],
+   "relation": "adjacent",
+   "why": "Paul was told: my grace is sufficient for thee, for my strength is made perfect in weakness."
+  },
+  {
+   "id": "philippians-i-can-do-all-things",
+   "after": "source:ABU0826",
+   "responds": [
+    "source:ABU0826"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: I can do all things through him who strengthens me."
+  },
+  {
+   "id": "isaiah-blossom-as-the-rose",
+   "after": "source:ABU0416",
+   "responds": [
+    "source:ABU0416"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foretells that the wilderness shall be glad and the desert shall blossom as the rose."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "adjacent",
+   "why": "Moses protested that he was slow of speech, and was told: I will be with thy mouth."
+  },
+  {
+   "id": "jeremiah-i-am-a-child",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah protested that he was a child and could not speak, and was told not to be afraid."
+  },
+  {
+   "id": "luke-put-down-the-mighty",
+   "after": "source:BH09809",
+   "responds": [
+    "source:BH09809"
+   ],
+   "relation": "adjacent",
+   "why": "Mary sings of a God who puts down the mighty and exalts those of low degree."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:AB03597",
+   "responds": [
+    "source:AB03597"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that those who wait on the Lord shall renew their strength and mount up with wings as eagles."
+  },
+  {
+   "id": "psalm-very-present-help",
+   "after": "source:AB08267",
+   "responds": [
+    "source:AB08267"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm calls God a refuge and strength, a very present help in trouble."
+  },
+  {
+   "id": "proverbs-trust-in-the-lord",
+   "after": "source:ABU0260",
+   "responds": [
+    "source:ABU0260"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: trust in the Lord with all thine heart, and lean not on thine own understanding."
+  },
+  {
+   "id": "isaiah-fear-thou-not",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears: fear thou not, for I am with thee; I will strengthen thee and uphold thee."
+  },
+  {
+   "id": "corinthians-diversities-of-gifts",
+   "after": "source:AB01023",
+   "responds": [
+    "source:AB01023"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the Spirit gives different gifts to each for the good of all."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:AB00388",
+   "responds": [
+    "source:AB00388"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha's servant had his eyes opened and saw the hills full of horses and chariots of fire."
+  },
+  {
+   "id": "quran-a-thousand-angels",
+   "after": "source:AB02812",
+   "responds": [
+    "source:AB02812"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an recalls the promise at Badr: I will help you with a thousand angels, rank on rank."
+  },
+  {
+   "id": "jude-keep-you-from-falling",
+   "after": "source:AB03780",
+   "responds": [
+    "source:AB03780"
+   ],
+   "relation": "adjacent",
+   "why": "The letter of Jude praises the one who is able to keep us from falling."
+  },
+  {
+   "id": "joshua-be-strong",
+   "after": "source:ABU0676",
+   "responds": [
+    "source:ABU0676"
+   ],
+   "relation": "adjacent",
+   "why": "Joshua is told to be strong and of good courage, for the Lord is with him wherever he goes."
+  },
+  {
+   "id": "matthew-with-you-alway",
+   "after": "source:AB03824",
+   "responds": [
+    "source:AB03824"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I am with you always, even to the end of the world."
+  },
+  {
+   "id": "isaiah-through-the-waters",
+   "after": "source:AB03824",
+   "responds": [
+    "source:AB03824"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears: when thou passest through the waters, I will be with thee."
+  },
+  {
+   "id": "matthew-before-governors-and-kings",
+   "after": "source:AB01165",
+   "responds": [
+    "source:AB01165"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples not to plan what to say, for the Spirit will speak in them."
+  },
+  {
+   "id": "psalm-angel-encampeth",
+   "after": "source:AB00342",
+   "responds": [
+    "source:AB00342"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the angel of the Lord encamps around those who fear him."
+  },
+  {
+   "id": "psalm-angels-charge-over-thee",
+   "after": "source:AB00342",
+   "responds": [
+    "source:AB00342"
+   ],
+   "relation": "complement",
+   "why": "A psalm speaks of angels who bear one up in their hands. This letter reads \"angel\" as the power of confirmation. What does that reading keep, and what does it change?"
+  },
+  {
+   "id": "quran-grieve-not-allah-is-with-us",
+   "after": "source:AB07853",
+   "responds": [
+    "source:AB07853"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God sent down his peace on the Prophet in the cave and supported him with hosts that could not be seen."
+  },
+  {
+   "id": "romans-if-god-be-for-us",
+   "after": "source:AB02117",
+   "responds": [
+    "source:AB02117"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: if God be for us, who can be against us?"
+  },
+  {
+   "id": "psalm-establish-the-work-of-our-hands",
+   "after": "source:AB07303",
+   "responds": [
+    "source:AB07303"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm prays: establish thou the work of our hands upon us."
+  },
+  {
+   "id": "psalm-hart-panteth",
+   "after": "source:BH05543",
+   "responds": [
+    "source:BH05543"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the soul thirsts for God as the deer for running water."
+  },
+  {
+   "id": "numbers-bless-thee-and-keep-thee",
+   "after": "source:AB02326",
+   "responds": [
+    "source:AB02326"
+   ],
+   "relation": "adjacent",
+   "why": "The priestly blessing asks that the Lord bless and keep, and make his face shine."
+  },
+  {
+   "id": "psalm-lift-up-mine-eyes",
+   "after": "source:AB02326",
+   "responds": [
+    "source:AB02326"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: I will lift up mine eyes unto the hills, from whence cometh my help."
+  },
+  {
+   "id": "psalm-clean-heart",
+   "after": "source:BH07106",
+   "responds": [
+    "source:BH07106"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm prays: cast me not away from thy presence, and take not thy holy spirit from me."
+  },
+  {
+   "id": "quran-hearts-stray-not",
+   "after": "source:BH07106",
+   "responds": [
+    "source:BH07106"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an teaches the prayer: bestow on us mercy from thy presence, for thou art the Bestower."
+  },
+  {
+   "id": "psalm-open-thou-mine-eyes",
+   "after": "source:ABU1450",
+   "responds": [
+    "source:ABU1450"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm prays: open thou mine eyes, that I may behold wondrous things."
+  },
+  {
+   "id": "julian-ground-of-beseeching",
+   "after": "source:ABU1450",
+   "responds": [
+    "source:ABU1450"
+   ],
+   "relation": "complement",
+   "why": "Julian of Norwich heard that God is the ground of her beseeching, so that the prayer is already his gift. If so, why pray for grace?"
+  },
+  {
+   "id": "quran-fatiha",
+   "after": "source:BH02806",
+   "responds": [
+    "source:BH02806"
+   ],
+   "relation": "adjacent",
+   "why": "The opening chapter of the Qur’an is such a prayer: thee alone we worship, and thee alone we ask for help."
+  }
+ ],
+ "library": {
+  "corinthians-by-the-grace-of-god-i-am": {
+   "text": "But by the grace of God I am what I am: and his grace which was bestowed upon me was not in vain; but I laboured more abundantly than they all: yet not I, but the grace of God which was with me",
+   "work": "1 Corinthians 15:10",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2015%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "philippians-i-can-do-all-things": {
+   "text": "I can do all things through Christ which strengtheneth me",
+   "work": "Philippians 4:13",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%204%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-our-sufficiency-is-of-god": {
+   "text": "Not that we are sufficient of ourselves to think any thing as of ourselves; but our sufficiency is of God",
+   "work": "2 Corinthians 3:5",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%203%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "judges-lest-israel-vaunt": {
+   "text": "And the Lord said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me",
+   "work": "Judges 7:2",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Judges%207%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-battle-is-the-lords": {
+   "text": "Then said David to the Philistine, Thou comest to me with a sword, and with a spear, and with a shield: but I come to thee in the name of the Lord of hosts, the God of the armies of Israel, whom thou hast defied. This day will the Lord deliver thee into mine hand; and I will smite thee, and take thine head from thee; and I will give the carcases of the host of the Philistines this day unto the fowls of the air, and to the wild beasts of the earth; that all the earth may know that there is a God in Israel. And all this assembly shall know that the Lord saveth not with sword and spear: for the battle is the Lord's, and he will give you into our hands",
+   "work": "1 Samuel 17:45–47",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2017%3A45-47&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-weak-things-of-the-world": {
+   "text": "But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are: That no flesh should glory in his presence",
+   "work": "1 Corinthians 1:27–29",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A27-29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-two-or-three-gathered": {
+   "text": "Again I say unto you, That if two of you shall agree on earth as touching any thing that they shall ask, it shall be done for them of my Father which is in heaven. For where two or three are gathered together in my name, there am I in the midst of them",
+   "work": "Matthew 18:19–20",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2018%3A19-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "chronicles-eyes-of-the-lord": {
+   "text": "For the eyes of the Lord run to and fro throughout the whole earth, to shew himself strong in the behalf of them whose heart is perfect toward him",
+   "work": "2 Chronicles 16:9",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Chronicles%2016%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-angel-encampeth": {
+   "text": "The angel of the Lord encampeth round about them that fear him, and delivereth them",
+   "work": "Psalm 34:7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2034%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-angels-charge-over-thee": {
+   "text": "For he shall give his angels charge over thee, to keep thee in all thy ways. They shall bear thee up in their hands, lest thou dash thy foot against a stone",
+   "work": "Psalm 91:11–12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2091%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-if-god-be-for-us": {
+   "text": "What shall we then say to these things? If God be for us, who can be against us",
+   "work": "Romans 8:31",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%208%3A31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-open-thy-mouth-wide": {
+   "text": "I am the Lord thy God, which brought thee out of the land of Egypt: open thy mouth wide, and I will fill it",
+   "work": "Psalm 81:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2081%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-not-a-vessel-more": {
+   "text": "So she went from him, and shut the door upon her and upon her sons, who brought the vessels to her; and she poured out. And it came to pass, when the vessels were full, that she said unto her son, Bring me yet a vessel. And he said unto her, There is not a vessel more. And the oil stayed",
+   "work": "2 Kings 4:5–6",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Kings%204%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-fear-thou-not": {
+   "text": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness",
+   "work": "Isaiah 41:10",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2041%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-lift-up-mine-eyes": {
+   "text": "I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the Lord, which made heaven and earth",
+   "work": "Psalm 121:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20121%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-establish-the-work-of-our-hands": {
+   "text": "And let the beauty of the Lord our God be upon us: and establish thou the work of our hands upon us; yea, the work of our hands establish thou it",
+   "work": "Psalm 90:17",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2090%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "numbers-bless-thee-and-keep-thee": {
+   "text": "The Lord bless thee, and keep thee: The Lord make his face shine upon thee, and be gracious unto thee: The Lord lift up his countenance upon thee, and give thee peace",
+   "work": "Numbers 6:24–26",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Numbers%206%3A24-26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-a-thousand-angels": {
+   "text": "When ye sought help of your Lord and He answered you (saying): I will help you with a thousand of the angels, rank on rank.",
+   "work": "Qur’an 8:9",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=8&verse=9",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-cannot-reckon-it": {
+   "text": "And He giveth you of all ye ask of Him, and if ye would count the bounty of Allah ye cannot reckon it. Lo! man is verily a wrong-doer, an ingrate.",
+   "work": "Qur’an 14:34",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=14&verse=34",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-bounty-on-whom-he-will": {
+   "text": "Race one with another for forgiveness from your Lord and a Garden whereof the breadth is as the breadth of the heavens and the earth, which is in store for those who believe in Allah and His messengers. Such is the bounty of Allah, which He bestoweth upon whom He will, and Allah is of Infinite Bounty.",
+   "work": "Qur’an 57:21",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=57&verse=21",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-remedies-in-ourselves": {
+   "text": "Our remedies oft in ourselves do lie, / Which we ascribe to heaven",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "All’s Well That Ends Well",
+   "locator": "Act I, scene 1",
+   "year": "c. 1604",
+   "sortYear": 1604,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/allswell/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "emerson-trust-thyself": {
+   "text": "Trust thyself: every heart vibrates to that iron string",
+   "author": "Ralph Waldo Emerson",
+   "work": "Self-Reliance",
+   "year": "1841",
+   "sortYear": 1841,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Essays:_First_Series/Self-Reliance",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  }
+ }
+}
