@@ -1,0 +1,201 @@
+{
+ "format": 2,
+ "slug": "recognition",
+ "subject": "CC665A6DF13F47FDAD2C8D96DC8A012E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:BH00002",
+  "source:BH00113",
+  "source:BH00047",
+  "source:BH00012",
+  "source:AB06597",
+  "source:AB08235",
+  "source:BH01508",
+  "source:BH00075",
+  "source:ABU1949",
+  "source:BB00015",
+  "selection:24c7b353dac418764fa655aa"
+ ],
+ "introduction": "Faith, in these eleven passages, is one step away, and can be reached in the twinkling of an eye. They are read here with eleven from elsewhere. Scripture has its own sudden turnings: fishermen who leave their nets at a word, a dying thief promised paradise that day, a father who runs while the son is still far off; and Moses and the Qur’an say that what is sought is very near, nearer than the jugular vein. Wesley could name the minute. Lao Tzu and Confucius speak for the long road, the thousand li that begins with a step and the decades it took to stand firm, and they are placed where the guide speaks most of suddenness.",
+ "questions": [
+  "The guide says recognition can come in the twinkling of an eye. What, in the passages beside it, has usually come before such a moment?",
+  "Lao Tzu's single step begins a journey of a thousand li, and Confucius counts his progress in decades. How do a sudden turning and a long road belong to the same life?",
+  "Moses says the word is very near and the Qur'an that God is nearer than the jugular vein. If it is so near, what keeps a person from the step?",
+  "The guide says of some who did not believe that they were neither careless nor unwilling. How should that shape the way believers think of those who do not share their faith?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-last-trump",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the same measure of time for the last change: in a moment, in the twinkling of an eye."
+  },
+  {
+   "id": "tao-journey-of-a-thousand-li",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "complement",
+   "why": "Lao Tzu says that the journey of a thousand li commenced with a single step. Is the one step of the guide the beginning of a long road, or the whole of it?"
+  },
+  {
+   "id": "luke-prodigal-father-ran",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the son has only arisen and set out when his father, seeing him a great way off, runs to meet him."
+  },
+  {
+   "id": "matthew-many-called-few-chosen",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus ends a parable with the saying that many are called, but few are chosen."
+  },
+  {
+   "id": "matthew-straightway-left-their-nets",
+   "after": "source:AB06597",
+   "responds": [
+    "source:AB06597"
+   ],
+   "relation": "adjacent",
+   "why": "Two fishermen, called as they cast a net into the sea, straightway leave their nets and follow."
+  },
+  {
+   "id": "luke-today-in-paradise",
+   "after": "source:BH01508",
+   "responds": [
+    "source:BH01508"
+   ],
+   "relation": "adjacent",
+   "why": "A dying man asks only to be remembered, and is told: today shalt thou be with me in paradise."
+  },
+  {
+   "id": "wesley-strangely-warmed",
+   "after": "source:ABU1949",
+   "responds": [
+    "source:ABU1949"
+   ],
+   "relation": "adjacent",
+   "why": "Wesley dates his change to about a quarter before nine one evening, when he felt his heart strangely warmed."
+  },
+  {
+   "id": "analects-at-fifteen",
+   "after": "source:ABU1949",
+   "responds": [
+    "source:ABU1949"
+   ],
+   "relation": "contrast",
+   "why": "Confucius gives the stages of his life by decades, from a mind bent on learning at fifteen to firmness at thirty and freedom from doubt at forty. Which is the truer account of how a person comes to faith, his decades or the twinkling of an eye?"
+  },
+  {
+   "id": "romans-zeal-not-according-to-knowledge",
+   "after": "source:BB00015",
+   "responds": [
+    "source:BB00015"
+   ],
+   "relation": "adjacent",
+   "why": "Paul bears witness that those who did not believe had a zeal of God, but not according to knowledge."
+  },
+  {
+   "id": "quran-jugular-vein",
+   "after": "selection:24c7b353dac418764fa655aa",
+   "responds": [
+    "selection:24c7b353dac418764fa655aa"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that God is nearer to man than his jugular vein."
+  },
+  {
+   "id": "deuteronomy-word-very-nigh",
+   "after": "selection:24c7b353dac418764fa655aa",
+   "responds": [
+    "selection:24c7b353dac418764fa655aa"
+   ],
+   "relation": "adjacent",
+   "why": "Moses says that the commandment is not hidden nor far off, not in heaven that one should say, who shall go up for us?"
+  }
+ ],
+ "library": {
+  "matthew-straightway-left-their-nets": {
+   "text": "And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers. And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him",
+   "work": "Matthew 4:18–20",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A18-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "analects-at-fifteen": {
+   "text": "At fifteen, I had my mind bent on learning. \"At thirty, I stood firm. \"At forty, I had no doubts. \"At fifty, I knew the decrees of Heaven. \"At sixty, my ear was an obedient organ for the reception of truth. \"At seventy, I could follow what my heart desired, without transgressing what was right",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "2.4",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "tao-journey-of-a-thousand-li": {
+   "text": "The tree which fills the arms grew from the tiniest sprout; the tower of nine storeys rose from a (small) heap of earth; the journey of a thousand li commenced with a single step",
+   "author": "Laozi",
+   "work": "Tao Te Ching",
+   "locator": "chapter 64",
+   "year": "c. 4th–3rd century BCE",
+   "sortYear": -350,
+   "translator": "James Legge",
+   "translationYear": "1891",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  }
+ }
+}
