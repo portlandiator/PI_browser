@@ -1,0 +1,1257 @@
+{
+ "format": 2,
+ "slug": "humananimal",
+ "subject": "02605DD1AB7442E19B540C97BE1DD0DB",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 80,
+ "quotations": 100,
+ "kept": [
+  "source:ABU0109",
+  "source:AB05772",
+  "source:ABU2593",
+  "source:ABU2609",
+  "source:BH00779",
+  "source:AB06380",
+  "source:AB00420",
+  "source:ABU0573",
+  "source:ABU0577",
+  "source:ABU0627",
+  "source:ABU2186",
+  "source:AB00057",
+  "source:AB00020",
+  "source:ABU0960",
+  "source:ABU0138",
+  "source:ABU0572",
+  "source:ABU0825",
+  "source:ABU0608",
+  "source:ABU0157",
+  "source:AB05415",
+  "source:AB04489",
+  "source:ABU0541",
+  "source:AB01029",
+  "source:ABU0008",
+  "source:ABU0145",
+  "source:ABU0405",
+  "source:ABU0096",
+  "source:ABU0004",
+  "source:ABU0122",
+  "source:ABU0281",
+  "source:ABU0773",
+  "source:ABU0502",
+  "source:ABU0303",
+  "source:AB00373",
+  "source:AB00077",
+  "source:AB00167",
+  "source:AB00722",
+  "source:ABU0112",
+  "source:AB00278",
+  "source:AB00440",
+  "source:AB05224",
+  "source:AB00036",
+  "source:AB05613",
+  "source:AB04427",
+  "source:ABU2804",
+  "source:ABU0555",
+  "source:AB02018",
+  "source:ABU1316",
+  "source:ABU0061",
+  "source:ABU0233",
+  "source:ABU0255",
+  "source:ABU3156",
+  "source:ABU2865",
+  "source:ABU0116",
+  "source:ABU0007",
+  "source:ABU1656",
+  "source:ABU1611",
+  "source:ABU0162",
+  "source:ABU2168",
+  "source:ABU0294",
+  "source:ABU2851",
+  "source:ABU0272",
+  "source:ABU0010",
+  "source:ABU0949",
+  "source:ABU0751",
+  "source:ABU0999",
+  "source:AB00146",
+  "source:ABU1170",
+  "source:BH10402",
+  "source:ABU0665",
+  "source:ABU1725",
+  "source:ABU1666",
+  "source:AB05777",
+  "source:AB02243",
+  "selection:0eea9701c5c316e7b114a05c",
+  "selection:98b933dbe9c4f637d8059900",
+  "selection:40b49764b0b6deb1d9ac590c",
+  "selection:dbe0ffd7f852aacc44fb1b7f",
+  "selection:5451a870978ba62297f27a3e",
+  "selection:c0f486ce84690c47d97bbc87"
+ ],
+ "introduction": "What distinguishes a human being from an animal? The readings grant what the two share, a body, senses and appetites, and then name what they do not: an intellect that discovers what the senses cannot show, a power to overrule the nature that holds every other creature captive, speech, conscience and the knowledge of God. From this they draw two conclusions. One is philosophical, that man has been a distinct species from the beginning, as the embryo is human through all its changes of form. The other is moral, that a person who lives only for food, comfort and the senses has not yet become what he is, and that education and effort are what make the difference. Genesis, the Psalms, the Qur’an, Aristotle, Mencius and Pascal stand with the readings. Darwin, Emerson and Nietzsche are set against the first conclusion; the Preacher denies that man has any preeminence; Whitman, Thoreau and Bentham speak for the animals and for nature; and Twain notes that man is the only animal that needs to blush.",
+ "questions": [
+  "The readings find the human distinction in a power that discovers what the senses cannot show. Where have you seen that power at work most plainly?",
+  "Darwin held that the mental difference between man and the higher animals is one of degree and not of kind; the readings hold that man was always a distinct species, as an embryo is human through all its forms. What is each side protecting, and what would count as evidence?",
+  "The Preacher says a man has no preeminence above a beast. How do you read that verse beside the psalm that sets man a little lower than the angels?",
+  "Man is said to overrule nature and make it do his bidding, while Thoreau and Marcus Aurelius count him part of it. What responsibility comes with a power the other creatures lack?",
+  "The readings say a person may fall lower than the animals, and Twain that man alone needs to blush. What does the capacity for shame suggest about human nature?",
+  "Bentham asked not whether animals can reason but whether they can suffer. Does human distinction reduce what we owe to other creatures, or enlarge it?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-what-is-man",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist, looking at the heavens, asks what man is, that God should be mindful of him."
+  },
+  {
+   "id": "darwin-sympathies",
+   "after": "source:AB05772",
+   "responds": [
+    "source:AB05772"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin himself thought that as man advances, his sympathies extend to all nations and at last to all sentient beings."
+  },
+  {
+   "id": "twain-only-animal-that-blushes",
+   "after": "source:ABU2609",
+   "responds": [
+    "source:ABU2609"
+   ],
+   "relation": "complement",
+   "why": "Mark Twain remarked that man is the only animal that blushes, or needs to. What does the capacity for shame say about the creature that has it?"
+  },
+  {
+   "id": "hobbes-god-and-wolf",
+   "after": "source:ABU2609",
+   "responds": [
+    "source:ABU2609"
+   ],
+   "relation": "adjacent",
+   "why": "Hobbes held both old sayings true: that man is a god to man, and that man is a wolf to man."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God created man in His own image, male and female, and gave them dominion."
+  },
+  {
+   "id": "quran-honoured-the-children-of-adam",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: We have honoured the children of Adam, and preferred them above many of those We created."
+  },
+  {
+   "id": "mencius-differs-but-small",
+   "after": "source:AB06380",
+   "responds": [
+    "source:AB06380"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius said that what distinguishes man from the lower animals is but small: most people cast it away, and the superior preserve it."
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "adjacent",
+   "why": "Pope describes a vast chain of being from God through man to beast, bird, fish and insect."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:ABU0573",
+   "responds": [
+    "source:ABU0573"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet exclaims: what a piece of work is a man, how noble in reason, how infinite in faculty."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU0577",
+   "responds": [
+    "source:ABU0577"
+   ],
+   "relation": "contrast",
+   "why": "Darwin concluded that the difference in mind between man and the higher animals, great as it is, is one of degree and not of kind. What would settle the question between a difference of degree and a difference of kind?"
+  },
+  {
+   "id": "whitman-live-with-animals",
+   "after": "source:ABU0627",
+   "responds": [
+    "source:ABU0627"
+   ],
+   "relation": "contrast",
+   "why": "Whitman thought he could turn and live with animals, who do not whine about their condition or kneel to one another. What do the animals have, on his account, that human beings have lost?"
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU2186",
+   "responds": [
+    "source:ABU2186"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal called man a reed, the weakest thing in nature, but a thinking reed, who knows that he dies."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "A chorus of Sophocles sings that there are many wonders and none more wonderful than man, who crosses the sea and wears away the earth with the plough."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics with the sentence: all men by nature desire to know."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God taught Adam the names of all things, which the angels did not know."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "Job's young friend says that there is a spirit in man, and the inspiration of the Almighty gives understanding."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon held that knowledge and power meet in one, and that nature is commanded by being understood."
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives humankind the charge to replenish the earth and subdue it."
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "complement",
+   "why": "Job says: ask now the beasts, and they shall teach thee, and the fowls of the air, and they shall tell thee. What can the captive of nature teach the one who is free of it?"
+  },
+  {
+   "id": "aristotle-gift-of-speech",
+   "after": "source:ABU0960",
+   "responds": [
+    "source:ABU0960"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle observed that man is the only animal endowed with speech, by which he sets forth the just and the unjust."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says of the body: dust thou art, and unto dust shalt thou return."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0572",
+   "responds": [
+    "source:ABU0572"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is made a little lower than the angels and crowned with glory and honour."
+  },
+  {
+   "id": "quran-viceroy-in-the-earth",
+   "after": "source:ABU0572",
+   "responds": [
+    "source:ABU0572"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an has God announce to the angels that He is placing a viceroy in the earth."
+  },
+  {
+   "id": "ecclesiastes-no-preeminence-above-a-beast",
+   "after": "source:ABU0572",
+   "responds": [
+    "source:ABU0572"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher says flatly that a man has no preeminence above a beast: as the one dies, so dies the other, and all is vanity. How do the readings answer a verse of scripture that denies their claim?"
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:ABU0825",
+   "responds": [
+    "source:ABU0825"
+   ],
+   "relation": "adjacent",
+   "why": "Keats describes discovery as the feeling of a watcher of the skies when a new planet swims into his ken."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU0608",
+   "responds": [
+    "source:ABU0608"
+   ],
+   "relation": "adjacent",
+   "why": "Kant named two things that fill the mind with ever new awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:ABU0608",
+   "responds": [
+    "source:ABU0608"
+   ],
+   "relation": "contrast",
+   "why": "Hume reported that when he looked within he never caught himself without a perception, and found nothing but perceptions. What is the evidence for a power in us beyond the senses?"
+  },
+  {
+   "id": "romans-law-unto-themselves",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that people show the work of the law written in their hearts, their conscience bearing witness."
+  },
+  {
+   "id": "quran-offered-the-trust",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that the trust was offered to the heavens, the earth and the hills, and they shrank from it, and man took it up."
+  },
+  {
+   "id": "bentham-can-they-suffer",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "complement",
+   "why": "Bentham said that the question about animals is not whether they can reason or talk but whether they can suffer. Does the distinction of man from the animal lessen what is owed to animals, or increase it?"
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:AB05415",
+   "responds": [
+    "source:AB05415"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God breathed into man's nostrils the breath of life, and man became a living soul."
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "source:AB04489",
+   "responds": [
+    "source:AB04489"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says of himself: I am fearfully and wonderfully made; marvellous are Thy works."
+  },
+  {
+   "id": "quran-made-of-service",
+   "after": "source:ABU0541",
+   "responds": [
+    "source:ABU0541"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that whatever is in the heavens and the earth has been made of service to humankind."
+  },
+  {
+   "id": "huxley-combating-the-cosmic-process",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "adjacent",
+   "why": "T. H. Huxley, Darwin's defender, held that the ethical progress of society depends on combating the cosmic process and not on imitating it."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's name for the world that man must resist was nature red in tooth and claw."
+  },
+  {
+   "id": "james-tongue-can-no-man-tame",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "complement",
+   "why": "James notes that every kind of beast has been tamed by mankind, but the tongue can no man tame. What use is the power to overrule nature to one who cannot rule himself?"
+  },
+  {
+   "id": "quran-penetrate-the-regions",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an challenges men to penetrate the regions of the heavens and the earth if they have the power."
+  },
+  {
+   "id": "thoreau-vegetable-mould",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau asked: shall I not have intelligence with the earth? Am I not partly leaves and vegetable mould myself? What is lost when human beings think of nature only as something that does their bidding?"
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:ABU0405",
+   "responds": [
+    "source:ABU0405"
+   ],
+   "relation": "contrast",
+   "why": "Marcus Aurelius asked that the universe be regarded as one living being, of which each of us is a part that acts with the whole. Is man an exception to nature's rule or one of its members?"
+  },
+  {
+   "id": "arnold-faith-in-machinery",
+   "after": "source:ABU0405",
+   "responds": [
+    "source:ABU0405"
+   ],
+   "relation": "complement",
+   "why": "Arnold warned his century against faith in machinery as an end in itself. For what is the mastery of nature given?"
+  },
+  {
+   "id": "aristotle-owing-to-their-wonder",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that it is owing to their wonder that men began to philosophize."
+  },
+  {
+   "id": "plato-wonder-beginning-of-philosophy",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates says that wonder is the feeling of a philosopher, and that philosophy begins in wonder."
+  },
+  {
+   "id": "corinthians-natural-then-spiritual",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul distinguishes the first man, of the earth, earthy, from the second, who is from heaven."
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures the human soul as a charioteer driving a pair of horses, one noble and one unruly."
+  },
+  {
+   "id": "crane-a-man-said-to-the-universe",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "complement",
+   "why": "Stephen Crane has a man announce to the universe that he exists, and the universe reply that this creates no sense of obligation. What follows for a conscious being who finds himself in a nature that is not?"
+  },
+  {
+   "id": "pascal-eternal-silence",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal, a mathematician, wrote that the eternal silence of those infinite spaces frightened him."
+  },
+  {
+   "id": "gita-raise-the-self",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna says: let each man raise the self by the soul, and not trample down his self."
+  },
+  {
+   "id": "dostoevsky-battlefield-is-the-heart",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "adjacent",
+   "why": "Dostoevsky wrote that God and the devil are fighting, and the battlefield is the heart of man."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU0773",
+   "responds": [
+    "source:ABU0773"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lights every person that comes into the world."
+  },
+  {
+   "id": "genesis-tower-of-babel",
+   "after": "source:ABU0502",
+   "responds": [
+    "source:ABU0502"
+   ],
+   "relation": "contrast",
+   "why": "Genesis tells of a people of whom it was said that nothing would be restrained from them, and of how their building ended. Is the conquest of nature's laws an unmixed sign of human greatness?"
+  },
+  {
+   "id": "dhammapada-self-is-the-lord-of-self",
+   "after": "source:ABU0303",
+   "responds": [
+    "source:ABU0303"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that self is the lord of self, and that with self well subdued a man finds a lord such as few can find."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:AB00373",
+   "responds": [
+    "source:AB00373"
+   ],
+   "relation": "contrast",
+   "why": "Darwin ended the Origin of Species finding grandeur in the view that endless forms most beautiful have been and are being evolved. What moved those European thinkers to the conclusion this reading sets aside?"
+  },
+  {
+   "id": "emerson-worm-mounts",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "contrast",
+   "why": "Emerson wrote that, striving to be man, the worm mounts through all the spires of form. How does the picture of the embryo answer him?"
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "source:AB00167",
+   "responds": [
+    "source:AB00167"
+   ],
+   "relation": "contrast",
+   "why": "Darwin wrote that man still bears in his bodily frame the indelible stamp of his lowly origin. Which part of his claim does the reading dispute, and which does it leave standing?"
+  },
+  {
+   "id": "job-clothed-me-with-skin",
+   "after": "source:AB00167",
+   "responds": [
+    "source:AB00167"
+   ],
+   "relation": "adjacent",
+   "why": "Job says to God: Thou hast clothed me with skin and flesh, and fenced me with bones and sinews."
+  },
+  {
+   "id": "genesis-heavens-finished",
+   "after": "source:AB00722",
+   "responds": [
+    "source:AB00722"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that the heavens and the earth were finished, and all the host of them."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0112",
+   "responds": [
+    "source:ABU0112"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi wrote: I died as mineral and became a plant, died as plant and rose to animal, died as animal and was a man."
+  },
+  {
+   "id": "nietzsche-from-the-worm-to-man",
+   "after": "source:AB00278",
+   "responds": [
+    "source:AB00278"
+   ],
+   "relation": "contrast",
+   "why": "Nietzsche's Zarathustra says: ye have made your way from the worm to man, and much within you is still worm. What picture of the universe makes a time without man unthinkable, and what picture makes it obvious?"
+  },
+  {
+   "id": "pope-chain-of-being",
+   "after": "source:AB00278",
+   "responds": [
+    "source:AB00278"
+   ],
+   "relation": "adjacent",
+   "why": "Pope argued that if one link of nature's chain is struck out, the whole is broken."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "adjacent",
+   "why": "Locke held that reason must be our last judge and guide in everything."
+  },
+  {
+   "id": "ecclesiastes-generation-passeth",
+   "after": "source:AB05224",
+   "responds": [
+    "source:AB05224"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that one generation passes away and another comes, but the earth abides."
+  },
+  {
+   "id": "genesis-seedtime-and-harvest",
+   "after": "source:AB00036",
+   "responds": [
+    "source:AB00036"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis promises that while the earth remains, seedtime and harvest shall not cease."
+  },
+  {
+   "id": "quran-lowest-of-the-low",
+   "after": "source:AB05613",
+   "responds": [
+    "source:AB05613"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that man was created of the best stature, and then reduced to the lowest of the low, save those who believe and do good."
+  },
+  {
+   "id": "corinthians-star-differeth-from-star",
+   "after": "source:AB04427",
+   "responds": [
+    "source:AB04427"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that there are different glories, and that one star differs from another star in glory."
+  },
+  {
+   "id": "tennyson-working-out-the-beast",
+   "after": "source:ABU2804",
+   "responds": [
+    "source:ABU2804"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson, who accepted evolution, drew a moral from it: move upward, working out the beast, and let the ape and tiger die."
+  },
+  {
+   "id": "nietzsche-rope-over-an-abyss",
+   "after": "source:ABU0555",
+   "responds": [
+    "source:ABU0555"
+   ],
+   "relation": "complement",
+   "why": "Nietzsche called man a rope stretched between the animal and something beyond man, a bridge and not a goal. Toward what should a human being look higher than himself?"
+  },
+  {
+   "id": "ecclesiastes-upward-downward",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher asks who knows that the spirit of man goes upward and the spirit of the beast downward. On what grounds do the readings claim to know?"
+  },
+  {
+   "id": "matthew-sparrow-shall-not-fall",
+   "after": "source:ABU1316",
+   "responds": [
+    "source:ABU1316"
+   ],
+   "relation": "complement",
+   "why": "Jesus said that not one sparrow falls to the ground without the Father. What place have creatures that cannot comprehend spiritual things in the care of God?"
+  },
+  {
+   "id": "corinthians-temple-of-god",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?"
+  },
+  {
+   "id": "job-more-than-the-beasts",
+   "after": "source:ABU0233",
+   "responds": [
+    "source:ABU0233"
+   ],
+   "relation": "adjacent",
+   "why": "Job's friend says that God teaches us more than the beasts of the earth, and makes us wiser than the fowls of heaven."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:ABU0255",
+   "responds": [
+    "source:ABU0255"
+   ],
+   "relation": "adjacent",
+   "why": "Mill agreed with the reading: it is better to be a human being dissatisfied than a pig satisfied, better Socrates dissatisfied than a fool satisfied."
+  },
+  {
+   "id": "gray-ignorance-is-bliss",
+   "after": "source:ABU3156",
+   "responds": [
+    "source:ABU3156"
+   ],
+   "relation": "contrast",
+   "why": "Gray concluded that where ignorance is bliss it is folly to be wise. Is there anything to be said for the cow's philosophy?"
+  },
+  {
+   "id": "psalm-fool-hath-said",
+   "after": "source:ABU2865",
+   "responds": [
+    "source:ABU2865"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm has a blunter word for it: the fool hath said in his heart, There is no God."
+  },
+  {
+   "id": "peter-natural-brute-beasts",
+   "after": "source:ABU0116",
+   "responds": [
+    "source:ABU0116"
+   ],
+   "relation": "adjacent",
+   "why": "The second letter of Peter compares those who speak evil of what they do not understand to natural brute beasts."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "contrast",
+   "why": "Locke held that the mind begins as white paper and receives all its materials from experience. Is someone who trusts only what the senses supply for that reason living on the animal's plane?"
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:ABU1656",
+   "responds": [
+    "source:ABU1656"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: we look not at the things which are seen, for the things which are seen are temporal."
+  },
+  {
+   "id": "ecclesiastes-all-the-works-my-hands",
+   "after": "source:ABU1611",
+   "responds": [
+    "source:ABU1611"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher looked on all his works and pleasures and found them vanity and vexation of spirit."
+  },
+  {
+   "id": "matthew-lilies-of-the-field",
+   "after": "source:ABU0162",
+   "responds": [
+    "source:ABU0162"
+   ],
+   "relation": "complement",
+   "why": "Jesus pointed to the lilies, which toil not and are better arrayed than Solomon, as a lesson for the anxious. What should people learn from creatures whose needs are supplied?"
+  },
+  {
+   "id": "thoreau-quiet-desperation",
+   "after": "source:ABU2168",
+   "responds": [
+    "source:ABU2168"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau thought that the mass of men, for all their comforts, lead lives of quiet desperation."
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:ABU0294",
+   "responds": [
+    "source:ABU0294"
+   ],
+   "relation": "adjacent",
+   "why": "The rich man in the parable tells his soul to eat, drink and be merry, and is called a fool."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:ABU2851",
+   "responds": [
+    "source:ABU2851"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his followers to let their light shine, so that others might see their good works."
+  },
+  {
+   "id": "aristotle-best-and-worst-of-animals",
+   "after": "source:ABU0272",
+   "responds": [
+    "source:ABU0272"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle said that man perfected is the best of animals, and separated from law and justice the worst of all."
+  },
+  {
+   "id": "psalm-beasts-that-perish",
+   "after": "source:ABU0010",
+   "responds": [
+    "source:ABU0010"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that a man who is in honour and does not understand is like the beasts that perish."
+  },
+  {
+   "id": "isaiah-ox-knoweth-his-owner",
+   "after": "source:ABU0949",
+   "responds": [
+    "source:ABU0949"
+   ],
+   "relation": "complement",
+   "why": "Isaiah says that the ox knows its owner and the ass its master's crib, but Israel does not know. In what are the animals wiser than those who claim reason?"
+  },
+  {
+   "id": "mencius-lost-mind",
+   "after": "source:ABU0751",
+   "responds": [
+    "source:ABU0751"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius marvelled that people who lose a fowl or a dog know to look for it, and do not look for their lost heart."
+  },
+  {
+   "id": "romans-good-that-i-would",
+   "after": "source:ABU0999",
+   "responds": [
+    "source:ABU0999"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes it from within: the good that I would I do not, and the evil that I would not, that I do."
+  },
+  {
+   "id": "deuteronomy-choose-life",
+   "after": "source:AB00146",
+   "responds": [
+    "source:AB00146"
+   ],
+   "relation": "adjacent",
+   "why": "Moses sets life and death before the people and says: therefore choose life."
+  },
+  {
+   "id": "wordsworth-vernal-wood",
+   "after": "source:ABU1170",
+   "responds": [
+    "source:ABU1170"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth claimed that one impulse from a vernal wood may teach more of moral evil and of good than all the sages can. Is nature the school of vice or of virtue?"
+  },
+  {
+   "id": "quran-as-the-cattle",
+   "after": "source:BH10402",
+   "responds": [
+    "source:BH10402"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of those who have hearts and do not understand with them that they are as the cattle, or further astray."
+  },
+  {
+   "id": "matthew-salt-lost-savour",
+   "after": "source:ABU0665",
+   "responds": [
+    "source:ABU0665"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that salt which has lost its savour is good for nothing but to be trodden under foot."
+  },
+  {
+   "id": "john-born-of-water",
+   "after": "source:ABU1725",
+   "responds": [
+    "source:ABU1725"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told Nicodemus that what is born of the flesh is flesh, and what is born of the Spirit is spirit."
+  },
+  {
+   "id": "daniel-heart-of-a-beast",
+   "after": "source:ABU1666",
+   "responds": [
+    "source:ABU1666"
+   ],
+   "relation": "adjacent",
+   "why": "The Book of Daniel tells of a king driven from men, who ate grass as oxen until his understanding returned."
+  },
+  {
+   "id": "psalm-horse-or-mule",
+   "after": "source:AB05777",
+   "responds": [
+    "source:AB05777"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: be ye not as the horse or as the mule, which have no understanding."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "selection:0eea9701c5c316e7b114a05c",
+   "responds": [
+    "selection:0eea9701c5c316e7b114a05c"
+   ],
+   "relation": "complement",
+   "why": "Darwin looked at an entangled bank and saw forms produced by laws acting around us over long ages. Can a creature that came to its present form by stages have been human in essence all along?"
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "selection:98b933dbe9c4f637d8059900",
+   "responds": [
+    "selection:98b933dbe9c4f637d8059900"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius argued that human nature tends to good as water tends to flow downward."
+  },
+  {
+   "id": "analects-nature-and-practice",
+   "after": "selection:98b933dbe9c4f637d8059900",
+   "responds": [
+    "selection:98b933dbe9c4f637d8059900"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that by nature people are nearly alike, and by practice they grow wide apart."
+  },
+  {
+   "id": "psalm-made-in-secret",
+   "after": "selection:40b49764b0b6deb1d9ac590c",
+   "responds": [
+    "selection:40b49764b0b6deb1d9ac590c"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that his substance was not hid from God when he was made in secret."
+  },
+  {
+   "id": "darwin-light-will-be-thrown",
+   "after": "selection:dbe0ffd7f852aacc44fb1b7f",
+   "responds": [
+    "selection:dbe0ffd7f852aacc44fb1b7f"
+   ],
+   "relation": "contrast",
+   "why": "Darwin closed the Origin with one sentence on the subject: light will be thrown on the origin of man and his history. What kind of question is the origin of man: one for evidence, or one for first principles?"
+  },
+  {
+   "id": "jeremiah-leopard-spots",
+   "after": "selection:5451a870978ba62297f27a3e",
+   "responds": [
+    "selection:5451a870978ba62297f27a3e"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah asks whether the Ethiopian can change his skin, or the leopard his spots."
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "selection:5451a870978ba62297f27a3e",
+   "responds": [
+    "selection:5451a870978ba62297f27a3e"
+   ],
+   "relation": "adjacent",
+   "why": "Kant said that he had to deny knowledge in order to make room for faith."
+  }
+ ],
+ "library": {
+  "genesis-in-our-image": {
+   "text": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them",
+   "work": "Genesis 1:26–27",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%201%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-tongue-can-no-man-tame": {
+   "text": "For every kind of beasts, and of birds, and of serpents, and of things in the sea, is tamed, and hath been tamed of mankind: But the tongue can no man tame; it is an unruly evil, full of deadly poison",
+   "work": "James 3:7–8",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%203%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-more-than-the-beasts": {
+   "text": "But none saith, Where is God my maker, who giveth songs in the night; Who teacheth us more than the beasts of the earth, and maketh us wiser than the fowls of heaven",
+   "work": "Job 35:10–11",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2035%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-horse-or-mule": {
+   "text": "Be ye not as the horse, or as the mule, which have no understanding: whose mouth must be held in with bit and bridle, lest they come near unto thee",
+   "work": "Psalm 32:9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2032%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-natural-brute-beasts": {
+   "text": "But these, as natural brute beasts, made to be taken and destroyed, speak evil of the things that they understand not; and shall utterly perish in their own corruption",
+   "work": "2 Peter 2:12",
+   "year": "c. 80–130 CE",
+   "sortYear": 110,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Peter%202%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-heart-of-a-beast": {
+   "text": "The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles' feathers, and his nails like birds' claws",
+   "work": "Daniel 4:33",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%204%3A33&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "aristotle-gift-of-speech": {
+   "text": "man is the only animal whom she has endowed with the gift of speech. And whereas mere voice is but an indication of pleasure or pain, and is therefore found in other animals (for their nature attains to the perception of pleasure and pain and the intimation of them to one another, and no further), the power of speech is intended to set forth the expedient and inexpedient, and therefore likewise the just and the unjust",
+   "author": "Aristotle",
+   "work": "Politics",
+   "locator": "Book I",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1885",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/politics.1.one.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "darwin-degree-and-not-of-kind": {
+   "text": "the difference in mind between man and the higher animals, great as it is, certainly is one of degree and not of kind",
+   "author": "Charles Darwin",
+   "work": "The Descent of Man",
+   "locator": "Chapter IV",
+   "year": "1871",
+   "sortYear": 1871,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Descent_of_Man_(Darwin)/Chapter_IV",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "pope-isthmus-of-a-middle-state": {
+   "text": "Plac'd on this isthmus of a middle state, / A being darkly wise, and rudely great: / With too much knowledge for the sceptic side, / With too much weakness for the stoic's pride, / He hangs between; in doubt to act, or rest, / In doubt to deem himself a God, or beast",
+   "verse": true,
+   "author": "Alexander Pope",
+   "work": "An Essay on Man",
+   "locator": "Epistle II",
+   "year": "1733",
+   "sortYear": 1733,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/An_Essay_on_Man/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "(?<=side,)\\s*5"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1744."
+   }
+  },
+  "mencius-differs-but-small": {
+   "text": "That whereby man differs from the lower animals is but small. The mass of people cast it away, while superior men preserve it",
+   "author": "Mencius",
+   "work": "Mencius",
+   "locator": "Book IV, Part II, 19",
+   "year": "4th century BCE",
+   "sortYear": -300,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter08",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "twain-only-animal-that-blushes": {
+   "text": "Man is the Only Animal that Blushes. Or needs to",
+   "author": "Mark Twain",
+   "work": "Following the Equator",
+   "locator": "Chapter 27, epigraph",
+   "year": "1897",
+   "sortYear": 1897,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Following_the_Equator/Chapter_27",
+    "label": "Wikisource",
+    "checked": "2026-11-17",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1910."
+   }
+  }
+ }
+}
