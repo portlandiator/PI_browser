@@ -1,0 +1,700 @@
+{
+ "format": 2,
+ "slug": "ceaselessemanation",
+ "subject": "68137F318C6144AAAF17C8290F33061E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 42,
+ "quotations": 49,
+ "kept": [
+  "source:BH00769",
+  "source:AB04183",
+  "source:AB07011",
+  "source:BH00690",
+  "source:BH00512",
+  "source:AB00839",
+  "source:ABU0049",
+  "source:ABU0403",
+  "source:ABU3115",
+  "source:ABU0055",
+  "source:ABU0041",
+  "source:ABU0045",
+  "source:ABU0766",
+  "source:AB05728",
+  "source:ABU0524",
+  "source:ABU0070",
+  "source:ABU0262",
+  "source:ABU0004",
+  "source:ABU0033",
+  "source:AB08215",
+  "source:AB02999",
+  "source:AB11678",
+  "source:BH02874",
+  "source:AB00345",
+  "source:ABU0119",
+  "source:ABU0012",
+  "source:BH00002",
+  "source:BH00049",
+  "source:ABU1557",
+  "source:AB05834",
+  "source:AB04026",
+  "source:AB10970",
+  "source:AB00276",
+  "source:AB00617",
+  "source:BH07834",
+  "source:AB09486",
+  "source:AB09573",
+  "source:ABU0287",
+  "source:ABU0830",
+  "source:ABU1361",
+  "selection:2c2222d06d198130d32b04ee",
+  "selection:09b8d5e3d4430a5da51a4ec8"
+ ],
+ "introduction": "The bounty of God never stops: that is the single claim of this guide, argued from the nature of the divine attributes, pictured as the sun that cannot be without its rays, and applied to creation, to revelation and to the help given to each soul. Its forty-nine quotations are read here with forty-nine from elsewhere. Lamentations finds mercies new every morning in a ruined city; the psalms say that mercy endures for ever and that every creature waits on an open hand; Jesus says that his Father works until now; the Qur’an says that every day God exercises power and that his bounty cannot be walled up; Plotinus speaks of a source that overflows without being lessened, and Descartes of a creation renewed at every moment. Scripture also knows the experience of cessation, and those passages are set where the guide denies it: the famine of hearing in Amos, the psalm that finds no prophet left, the question whether God has forgotten to be gracious, the seventh day on which the work was finished, the faith once delivered and the Seal of the Prophets. The Preacher’s time and chance stand beside the guide’s remark that luck is only confirmation under another name.",
+ "questions": [
+  "The guide argues that a God whose attributes are eternal must always have had a creation. What do Plotinus's overflowing source and Descartes's continual creation add to that argument?",
+  "Amos and the psalmist speak of times when no word comes. How would you distinguish a bounty withheld from a bounty not received?",
+  "Genesis says creation was finished and Jude that the faith was once delivered. How might those who hold these texts sacred also hold that the giving continues?",
+  "The Qur'an says the valleys flow each according to its measure. What enlarges a person's measure?",
+  "Lamentations speaks of mercies new every morning from within a disaster. What does it take to say that truthfully?",
+  "The guide treats luck as divine confirmation. How does that change the way you would speak of your own good or bad fortune?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-these-wait-all-upon-thee",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says the same of every creature: thou openest thine hand, they are filled; thou hidest thy face, they are troubled."
+  },
+  {
+   "id": "colossians-by-him-all-things-consist",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says of the one who is before all things that by him all things consist."
+  },
+  {
+   "id": "descartes-conservation-and-creation",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes holds that to conserve a substance in each moment requires the same power and act that would be needed to create it."
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:AB04183",
+   "responds": [
+    "source:AB04183"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations, in the ruin of a city, says that the Lord's compassions fail not: they are new every morning."
+  },
+  {
+   "id": "psalm-mercy-endureth-for-ever",
+   "after": "source:AB04183",
+   "responds": [
+    "source:AB04183"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm's refrain gives the reason for thanks: for his mercy endureth for ever."
+  },
+  {
+   "id": "tagore-still-there-is-room",
+   "after": "source:AB07011",
+   "responds": [
+    "source:AB07011"
+   ],
+   "relation": "adjacent",
+   "why": "Tagore says that infinite gifts come to him on very small hands: ages pass, and still thou pourest, and still there is room to fill."
+  },
+  {
+   "id": "isaiah-hand-is-not-shortened",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah insists that the Lord's hand is not shortened that it cannot save, nor his ear heavy that it cannot hear."
+  },
+  {
+   "id": "psalm-hath-god-forgotten-to-be-gracious",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "complement",
+   "why": "The psalmist asks whether the Lord will cast off for ever, and whether God has forgotten to be gracious. What turns such a question from doubt into prayer?"
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BH00512",
+   "responds": [
+    "source:BH00512"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that by the word of the Lord were the heavens made, and all their host by the breath of his mouth."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:BH00512",
+   "responds": [
+    "source:BH00512"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says the worlds were framed by the word of God, so that things seen were not made of things which appear."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus compares what proceeds from the Supreme to the brilliant light encircling the sun, ceaselessly generated from an unchanging substance."
+  },
+  {
+   "id": "genesis-heavens-finished",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "contrast",
+   "why": "Genesis says that the heavens and the earth were finished, and that God rested on the seventh day from all his work. How is a finished creation to be read beside a creation that has no end?"
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:ABU0049",
+   "responds": [
+    "source:ABU0049"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and that its exuberance has produced the new."
+  },
+  {
+   "id": "john-my-father-worketh-hitherto",
+   "after": "source:ABU0049",
+   "responds": [
+    "source:ABU0049"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus answers a charge about the sabbath by saying: my Father worketh hitherto, and I work."
+  },
+  {
+   "id": "malachi-i-change-not",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi hears the ground of all continuance: I am the Lord, I change not."
+  },
+  {
+   "id": "gita-each-kalpa",
+   "after": "source:ABU3115",
+   "responds": [
+    "source:ABU3115"
+   ],
+   "relation": "complement",
+   "why": "Krishna says that at the closing of each age all things come back to his being, and at its beginning issue new-born from him. Is an endless creation one unbroken stream, or a rhythm of going forth and return?"
+  },
+  {
+   "id": "isaiah-fainteth-not-neither-is-weary",
+   "after": "source:ABU0055",
+   "responds": [
+    "source:ABU0055"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks whether his hearers have not known that the everlasting God, the Creator of the ends of the earth, fainteth not, neither is weary."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "adjacent",
+   "why": "James says that every good and perfect gift comes down from the Father of lights, with whom is no variableness, neither shadow of turning."
+  },
+  {
+   "id": "quran-every-day-he-exerciseth",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that all in the heavens and the earth entreat Him, and that every day He exercises power."
+  },
+  {
+   "id": "quran-throne-verse",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "adjacent",
+   "why": "The Throne Verse calls God the Alive, the Eternal, whom neither slumber nor sleep overtakes."
+  },
+  {
+   "id": "deuteronomy-everlasting-arms",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "adjacent",
+   "why": "Moses' blessing ends on the image of a support that does not tire: underneath are the everlasting arms."
+  },
+  {
+   "id": "dante-glory-of-him",
+   "after": "source:ABU0045",
+   "responds": [
+    "source:ABU0045"
+   ],
+   "relation": "adjacent",
+   "why": "Dante sees the glory of him who moves everything penetrate the universe and shine, in one part more and in another less."
+  },
+  {
+   "id": "acts-life-and-breath-and-all-things",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians of a God who needs nothing, seeing he gives to all life, and breath, and all things."
+  },
+  {
+   "id": "psalm-thou-visitest-the-earth",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm addresses God in the present tense: thou visitest the earth and waterest it, thou greatly enrichest it."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:AB05728",
+   "responds": [
+    "source:AB05728"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi uses the sun for the giver: the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "hopkins-holy-ghost-broods",
+   "after": "source:ABU0524",
+   "responds": [
+    "source:ABU0524"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins sees the Holy Ghost brooding over the bent world with warm breast and bright wings."
+  },
+  {
+   "id": "matthew-rain-on-the-just",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus points to a giving that does not pick and choose: the sun rises on the evil and the good, and rain falls on the just and the unjust."
+  },
+  {
+   "id": "hopkins-gods-grandeur",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins says the world is charged with the grandeur of God, and that it will flame out like shining from shook foil."
+  },
+  {
+   "id": "quran-these-and-those",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that both these and those are supplied from the bounty of the Lord, and that this bounty can never be walled up."
+  },
+  {
+   "id": "romans-gifts-without-repentance",
+   "after": "source:AB08215",
+   "responds": [
+    "source:AB08215"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says of the gifts and calling of God that they are without repentance."
+  },
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:AB11678",
+   "responds": [
+    "source:AB11678"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher describes the appearance from below: the sun also ariseth, and the sun goeth down, and hasteth to his place."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:AB00345",
+   "responds": [
+    "source:AB00345"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah compares the word to rain that does not return until it has watered the earth and made it bring forth."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples that he has yet many things to say to them, which they cannot bear now."
+  },
+  {
+   "id": "jude-once-delivered",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "contrast",
+   "why": "Jude urges his readers to contend earnestly for the faith which was once delivered unto the saints. How do 'once delivered' and 'never ceasing' sit together?"
+  },
+  {
+   "id": "quran-seal-of-the-prophets",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "contrast",
+   "why": "The Qur'an calls Muhammad the messenger of God and the Seal of the Prophets. What does a seal close, and what might it leave open?"
+  },
+  {
+   "id": "amos-famine-of-hearing",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "contrast",
+   "why": "Amos foresees a famine not of bread but of hearing the words of the Lord. Does scripture itself know seasons when the bounty seems withheld?"
+  },
+  {
+   "id": "psalm-no-more-any-prophet",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "complement",
+   "why": "The psalm laments that there is no more any prophet, nor any that knoweth how long. Is the silence in the giver or in the hearers?"
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews begins with a God who spoke at sundry times and in divers manners in time past by the prophets."
+  },
+  {
+   "id": "matthew-with-you-alway",
+   "after": "source:BH00049",
+   "responds": [
+    "source:BH00049"
+   ],
+   "relation": "adjacent",
+   "why": "The last words of Matthew are a promise of presence: lo, I am with you alway, even unto the end of the world."
+  },
+  {
+   "id": "deuteronomy-not-by-bread-only",
+   "after": "source:ABU1557",
+   "responds": [
+    "source:ABU1557"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy says that man lives not by bread only, but by every word that proceeds out of the mouth of the Lord."
+  },
+  {
+   "id": "luke-dayspring-from-on-high",
+   "after": "source:AB05834",
+   "responds": [
+    "source:AB05834"
+   ],
+   "relation": "adjacent",
+   "why": "Zacharias sings of the dayspring from on high that has visited us, to give light to them that sit in darkness."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:AB00276",
+   "responds": [
+    "source:AB00276"
+   ],
+   "relation": "adjacent",
+   "why": "John's prologue says that the Word was made flesh and dwelt among us, full of grace and truth."
+  },
+  {
+   "id": "quran-put-out-the-light",
+   "after": "source:AB00617",
+   "responds": [
+    "source:AB00617"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of those who would put out the light of God with their mouths that God will perfect his light."
+  },
+  {
+   "id": "hosea-follow-on-to-know",
+   "after": "source:BH07834",
+   "responds": [
+    "source:BH07834"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea says that the Lord's going forth is prepared as the morning, and that he shall come as the latter and former rain."
+  },
+  {
+   "id": "quran-rain-and-foam",
+   "after": "source:ABU0287",
+   "responds": [
+    "source:ABU0287"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that water is sent down from the sky so that valleys flow according to their measure."
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:ABU0287",
+   "responds": [
+    "source:ABU0287"
+   ],
+   "relation": "adjacent",
+   "why": "In Jesus's parable the same seed falls by the way side and into good ground, and only the ground differs."
+  },
+  {
+   "id": "quran-good-land",
+   "after": "source:ABU0830",
+   "responds": [
+    "source:ABU0830"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that the good land brings forth its vegetation by permission of its Lord, and the bad only what is useless."
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU1361",
+   "responds": [
+    "source:ABU1361"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher saw that the race is not to the swift nor the battle to the strong, but time and chance happen to them all. Is what he calls chance what the guide calls confirmation, seen from below?"
+  },
+  {
+   "id": "proverbs-lot-is-cast-into-the-lap",
+   "after": "source:ABU1361",
+   "responds": [
+    "source:ABU1361"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the lot is cast into the lap, but the whole disposing thereof is of the Lord."
+  }
+ ],
+ "library": {
+  "john-my-father-worketh-hitherto": {
+   "text": "But Jesus answered them, My Father worketh hitherto, and I work",
+   "work": "John 5:17",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%205%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-fainteth-not-neither-is-weary": {
+   "text": "Hast thou not known? hast thou not heard, that the everlasting God, the Lord, the Creator of the ends of the earth, fainteth not, neither is weary? there is no searching of his understanding",
+   "work": "Isaiah 40:28",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2040%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-no-more-any-prophet": {
+   "text": "We see not our signs: there is no more any prophet: neither is there among us any that knoweth how long",
+   "work": "Psalm 74:9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2074%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-hath-god-forgotten-to-be-gracious": {
+   "text": "Will the Lord cast off for ever? and will he be favourable no more? Is his mercy clean gone for ever? doth his promise fail for evermore? Hath God forgotten to be gracious? hath he in anger shut up his tender mercies",
+   "work": "Psalm 77:7–9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2077%3A7-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-lot-is-cast-into-the-lap": {
+   "text": "The lot is cast into the lap; but the whole disposing thereof is of the Lord",
+   "work": "Proverbs 16:33",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2016%3A33&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-mercy-endureth-for-ever": {
+   "text": "O give thanks unto the Lord; for he is good: for his mercy endureth for ever",
+   "work": "Psalm 136:1",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20136%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "colossians-by-him-all-things-consist": {
+   "text": "And he is before all things, and by him all things consist",
+   "work": "Colossians 1:17",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Colossians%201%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-everlasting-arms": {
+   "text": "The eternal God is thy refuge, and underneath are the everlasting arms",
+   "work": "Deuteronomy 33:27",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2033%3A27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-17",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
