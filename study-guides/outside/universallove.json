@@ -1,0 +1,624 @@
+{
+ "format": 2,
+ "slug": "universallove",
+ "subject": "D190D773F56F4F3CBA7AD064E2098780",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 46,
+ "quotations": 59,
+ "kept": [
+  "source:AB01214",
+  "source:AB12289",
+  "source:ABU1318",
+  "source:AB00259",
+  "source:AB00006",
+  "source:AB06872",
+  "source:ABU0004",
+  "source:ABU0043",
+  "source:ABU0457",
+  "source:ABU0126",
+  "source:ABU1391",
+  "source:ABU0709",
+  "source:ABU0993",
+  "source:ABU0186",
+  "source:ABU0204",
+  "source:AB00020",
+  "source:AB00103",
+  "source:AB00023",
+  "source:AB01029",
+  "source:AB00722",
+  "source:AB00077",
+  "source:ABU2457",
+  "source:ABU0122",
+  "source:ABU1170",
+  "source:AB00102",
+  "source:AB00057",
+  "source:ABU0405",
+  "source:ABU0008",
+  "source:ABU0007",
+  "source:ABU0439",
+  "source:ABU0145",
+  "source:ABU0118",
+  "source:ABU0622",
+  "source:AB00096",
+  "source:AB00815",
+  "source:ABU0502",
+  "source:ABU0899",
+  "source:AB00063",
+  "source:AB09507",
+  "source:ABU1959",
+  "source:AB00131",
+  "source:ABU0158",
+  "source:ABU0651",
+  "source:ABU0902",
+  "selection:380bbbec162051914c0cb271",
+  "selection:4cd70a0ca3aebabe2b4fd720"
+ ],
+ "introduction": "These readings find one law running through the universe: the cohesion of atoms, the growth of plants, the gravitation of the stars and the fellowship of human beings are all called love, and separation is called death. They go on to describe nature as bound by law in every particle, with man alone able to rise above it, and they end by asking that human affairs be brought into line with that order. The quotations beside them come from poets and philosophers who saw love in the frame of things, Lucretius, Plato, Boethius, Dante and Shelley, from scripture, and from those who saw strife there instead, Heraclitus, Blake, Tennyson and Darwin.",
+ "questions": [
+  "In what sense is the attraction between atoms love? What is gained by using one word for both, and what might be lost?",
+  "Tennyson's nature is red in tooth and claw. How would the readings account for the strife and killing that Heraclitus and Darwin describe?",
+  "The readings call all things except man captives of nature. What exactly is man free of, on Bacon's saying that nature to be commanded must be obeyed?",
+  "One reading says love is far greater among the Bahá’ís than among other religions. How do the parable of the Samaritan and Paul on charity bear on such a comparison?",
+  "What would it mean for the systems of society to reflect the order of the cosmos?"
+ ],
+ "outside": [
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:AB01214",
+   "responds": [
+    "source:AB01214"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter puts the reading's claim in three words: God is love, and whoever does not love does not know him."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:AB01214",
+   "responds": [
+    "source:AB01214"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends his poem with his own will turned by the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "lucretius-through-thee-alone",
+   "after": "source:AB12289",
+   "responds": [
+    "source:AB12289"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius opens his poem on atoms by invoking Venus, through whom alone all living things are conceived."
+  },
+  {
+   "id": "plato-stone-of-heraclea",
+   "after": "source:ABU1318",
+   "responds": [
+    "source:ABU1318"
+   ],
+   "relation": "adjacent",
+   "why": "Plato likens a divine influence to the magnet, which draws iron rings and gives them power to draw others."
+  },
+  {
+   "id": "emerson-every-natural-fact",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson holds that every natural fact is a symbol of some spiritual fact, which is why spirit is told in sensible terms."
+  },
+  {
+   "id": "plato-nature-of-wondrous-beauty",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Plato has one instructed thus far in the things of love come at last to perceive a nature of wondrous beauty."
+  },
+  {
+   "id": "boethius-due-return",
+   "after": "source:AB06872",
+   "responds": [
+    "source:AB06872"
+   ],
+   "relation": "adjacent",
+   "why": "Boethius sees all things yearn for their due return, held in a steady cycle that joins the end to the beginning."
+  },
+  {
+   "id": "shelley-nothing-is-single",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley sees fountains mingle with the river and winds mix for ever, and nothing in the world single."
+  },
+  {
+   "id": "blake-without-contraries",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "contrast",
+   "why": "Blake holds that attraction and repulsion, love and hate, are both necessary to human existence. Is repulsion only the absence of love, or a force with work of its own?"
+  },
+  {
+   "id": "plato-looking-for-his-other-half",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Aristophanes explains love as an ancient desire implanted in us, each seeking the other half."
+  },
+  {
+   "id": "whitman-every-atom",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman begins from kinship at the smallest scale: every atom belonging to me as good belongs to you."
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:ABU0043",
+   "responds": [
+    "source:ABU0043"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson's man trusted that love is creation's final law, though nature, red in tooth and claw, shrieked against his creed. What does the reading make of the killing in nature?"
+  },
+  {
+   "id": "heraclitus-war-is-father",
+   "after": "source:ABU0043",
+   "responds": [
+    "source:ABU0043"
+   ],
+   "relation": "contrast",
+   "why": "Heraclitus calls war the father of all and the king of all. Is life's axis love, or strife?"
+  },
+  {
+   "id": "kropotkin-mutual-aid",
+   "after": "source:ABU0043",
+   "responds": [
+    "source:ABU0043"
+   ],
+   "relation": "adjacent",
+   "why": "Kropotkin read in nature a tendency against competition: combine, practise mutual aid, for that gives the greatest safety."
+  },
+  {
+   "id": "john-epistle-abideth-in-death",
+   "after": "source:ABU0043",
+   "responds": [
+    "source:ABU0043"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter draws the same line between life and death: he that loveth not his brother abideth in death."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:ABU0457",
+   "responds": [
+    "source:ABU0457"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs sets love against death as its equal: love is strong as death."
+  },
+  {
+   "id": "dhammapada-love-nothing",
+   "after": "source:ABU0457",
+   "responds": [
+    "source:ABU0457"
+   ],
+   "relation": "contrast",
+   "why": "The Dhammapada counsels loving nothing, since loss of the beloved is evil. Is love the cause of life, or of sorrow?"
+  },
+  {
+   "id": "colossians-by-him-all-things-consist",
+   "after": "source:ABU1391",
+   "responds": [
+    "source:ABU1391"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of one by whom all things consist, that is, hold together."
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:ABU0709",
+   "responds": [
+    "source:ABU0709"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius regards the universe as one living being in which all things act with one movement."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:ABU0709",
+   "responds": [
+    "source:ABU0709"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz finds a connexion of all created things to each and of each to all."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0993",
+   "responds": [
+    "source:ABU0993"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin closes his book with the planet cycling on according to the fixed law of gravity while endless forms evolve."
+  },
+  {
+   "id": "job-sweet-influences-of-pleiades",
+   "after": "source:ABU0993",
+   "responds": [
+    "source:ABU0993"
+   ],
+   "relation": "adjacent",
+   "why": "God asks Job whether he can bind the sweet influences of Pleiades or knows the ordinances of heaven."
+  },
+  {
+   "id": "julian-love-was-his-meaning",
+   "after": "source:ABU0186",
+   "responds": [
+    "source:ABU0186"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich is told the meaning of all she was shown: love was his meaning."
+  },
+  {
+   "id": "wisdom-made-and-loved",
+   "after": "source:ABU0186",
+   "responds": [
+    "source:ABU0186"
+   ],
+   "relation": "adjacent",
+   "why": "The Wisdom of Solomon says that God loves all the things that are and abhors nothing that he has made."
+  },
+  {
+   "id": "corinthians-tinkling-cymbal",
+   "after": "source:ABU0204",
+   "responds": [
+    "source:ABU0204"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that without charity every other gift is sounding brass or a tinkling cymbal."
+  },
+  {
+   "id": "quran-no-rift",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an points to the heavens created in harmony, in which the eye can find no rift."
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Pope surveys a vast chain of being, closely connected from God down to what no eye can see."
+  },
+  {
+   "id": "quran-creation-and-commandment",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that sun, moon and stars are made subservient by God's command, to whom belong creation and commandment."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "Kant names two things that fill the mind with admiration and awe, and the first is the starry heavens above."
+  },
+  {
+   "id": "quran-they-float-each-in-an-orbit",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says the sun may not overtake the moon nor night outstrip the day: each floats in an orbit."
+  },
+  {
+   "id": "tennyson-far-off-divine-event",
+   "after": "source:AB00722",
+   "responds": [
+    "source:AB00722"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson ends his elegy on one law, one element, and one event to which the whole creation moves."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "Blake likens the greatest to the smallest: a world in a grain of sand, infinity in the palm of the hand."
+  },
+  {
+   "id": "chandogya-clod-of-clay",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad says that by one clod of clay all that is made of clay is known."
+  },
+  {
+   "id": "pope-chain-of-being",
+   "after": "source:ABU2457",
+   "responds": [
+    "source:ABU2457"
+   ],
+   "relation": "adjacent",
+   "why": "Pope warns that whatever link is struck from nature's chain, the tenth or ten thousandth, breaks the chain alike."
+  },
+  {
+   "id": "psalm-fire-and-hail",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm has fire, hail, snow and stormy wind all fulfilling God's word."
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "source:ABU1170",
+   "responds": [
+    "source:ABU1170"
+   ],
+   "relation": "complement",
+   "why": "Hume held that no testimony is sufficient to establish a miracle unless its falsehood would be more miraculous. If nothing created can transgress natural law by an atom, what becomes of miracles?"
+  },
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher watches generations pass while the sun rises and goes down and hastens to its place."
+  },
+  {
+   "id": "pascal-eternal-silence",
+   "after": "source:ABU0405",
+   "responds": [
+    "source:ABU0405"
+   ],
+   "relation": "complement",
+   "why": "Pascal confesses that the eternal silence of these infinite spaces frightens him. Does a universe wholly under law console, or chill?"
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal holds that space swallows him up like an atom, but by thought he comprehends the world."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "Sophocles' chorus sings that wonders are many and none more wonderful than man."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0439",
+   "responds": [
+    "source:ABU0439"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says man is made a little lower than the angels, with dominion over the works of God's hands."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU0118",
+   "responds": [
+    "source:ABU0118"
+   ],
+   "relation": "contrast",
+   "why": "Darwin held that the difference in mind between man and the higher animals is one of degree and not of kind. If the animal is wholly a captive of nature, where does the line fall?"
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "adjacent",
+   "why": "Paul finds a law in his members warring against the law of his mind and bringing him into captivity."
+  },
+  {
+   "id": "job-man-that-is-born",
+   "after": "source:AB00815",
+   "responds": [
+    "source:AB00815"
+   ],
+   "relation": "adjacent",
+   "why": "Job says that man born of woman is of few days, coming forth like a flower and cut down."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0502",
+   "responds": [
+    "source:ABU0502"
+   ],
+   "relation": "contrast",
+   "why": "Bacon says that nature to be commanded must be obeyed. Does man conquer the laws of nature, or use them by submitting to them?"
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:ABU0502",
+   "responds": [
+    "source:ABU0502"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives humankind the charge to replenish the earth and subdue it."
+  },
+  {
+   "id": "marcus-teach-them-or-bear-with-them",
+   "after": "source:ABU0899",
+   "responds": [
+    "source:ABU0899"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says that men exist for the sake of one another: teach them, then, or bear with them."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:AB00063",
+   "responds": [
+    "source:AB00063"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah names the kind of power that prevails over hearts: not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "matthew-thy-kingdom-come",
+   "after": "source:AB09507",
+   "responds": [
+    "source:AB09507"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord's Prayer asks for the same alignment: thy will be done in earth, as it is in heaven."
+  },
+  {
+   "id": "aristotle-law-is-reason",
+   "after": "source:ABU1959",
+   "responds": [
+    "source:ABU1959"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle calls the law reason unaffected by desire, the rule of God and reason and not of a man's will."
+  },
+  {
+   "id": "matthew-salute-your-brethren-only",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "contrast",
+   "why": "Jesus asks what reward there is in loving those who love you, and what more it is to salute your brethren only. How should a community measure a love it believes greater than others'?"
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "contrast",
+   "why": "In the parable it is a Samaritan, the outsider, who has compassion on the wounded man. What does the story say to any claim that love is greater in one religion than in others?"
+  },
+  {
+   "id": "corinthians-charity-suffereth-long",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "complement",
+   "why": "Paul says that charity vaunteth not itself and is not puffed up. Can love be claimed in comparison with others and still be this love?"
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:ABU0158",
+   "responds": [
+    "source:ABU0158"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists love first among the fruit of the Spirit, before joy and peace."
+  },
+  {
+   "id": "john-by-this-shall-all-men-know",
+   "after": "source:ABU0158",
+   "responds": [
+    "source:ABU0158"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus makes love the sign of faith: by this shall all men know that ye are my disciples."
+  },
+  {
+   "id": "song-many-waters-cannot-quench",
+   "after": "source:ABU0651",
+   "responds": [
+    "source:ABU0651"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs says that many waters cannot quench love, neither can the floods drown it."
+  },
+  {
+   "id": "kempis-love-is-a-great-thing",
+   "after": "source:ABU0651",
+   "responds": [
+    "source:ABU0651"
+   ],
+   "relation": "adjacent",
+   "why": "Thomas à Kempis calls love a great thing, a great and thorough good."
+  },
+  {
+   "id": "corinthians-greatest-of-these",
+   "after": "source:ABU0902",
+   "responds": [
+    "source:ABU0902"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that faith, hope and charity abide, and the greatest of these is charity."
+  },
+  {
+   "id": "whitman-furlong-without-sympathy",
+   "after": "source:ABU0902",
+   "responds": [
+    "source:ABU0902"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman says that whoever walks a furlong without sympathy walks to his own funeral."
+  }
+ ],
+ "library": {
+  "lucretius-through-thee-alone": {
+   "text": "Mother of Rome, delight of Gods and men, / Dear Venus that beneath the gliding stars / Makest to teem the many-voyaged main / And fruitful lands- for all of living things / Through thee alone are evermore conceived, / Through thee are risen to visit the great sun",
+   "verse": true,
+   "author": "Lucretius",
+   "work": "On the Nature of Things",
+   "locator": "Book I",
+   "year": "1st century BCE",
+   "sortYear": -55,
+   "translator": "William Ellery Leonard",
+   "translationYear": "1916",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Carus/nature_things.1.i.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1944."
+   }
+  }
+ }
+}
