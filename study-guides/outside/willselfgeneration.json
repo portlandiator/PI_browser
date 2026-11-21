@@ -1,0 +1,903 @@
+{
+ "format": 2,
+ "slug": "willselfgeneration",
+ "subject": "C470397E9BCC44ECB45F21E1521E18C1",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 65,
+ "quotations": 88,
+ "kept": [
+  "source:BB00020",
+  "source:BB00098",
+  "source:AB00876",
+  "source:BH00512",
+  "source:BH00223",
+  "source:BB00017",
+  "source:BB00114",
+  "source:BB00318",
+  "source:BB00008",
+  "source:BB00014",
+  "source:BH00135",
+  "source:BB00005",
+  "source:BB00001",
+  "source:BB00003",
+  "source:BB00036",
+  "source:AB00006",
+  "source:AB00153",
+  "source:AB00538",
+  "source:BB00042",
+  "source:BB00205",
+  "source:BB00240",
+  "source:BB00197",
+  "source:BB00677",
+  "source:BH01299",
+  "source:BH01602",
+  "source:BH11123",
+  "source:BB00010",
+  "source:BB00027",
+  "source:BH00002",
+  "source:BH00066",
+  "source:BB00002",
+  "source:BH00048",
+  "source:BH06328",
+  "source:BH00690",
+  "source:BH00113",
+  "source:AB00004",
+  "source:BH00545",
+  "source:ABU0262",
+  "source:ABU0024",
+  "source:ABU0170",
+  "source:BB00219",
+  "source:BH00001",
+  "source:BH00591",
+  "source:BH03262",
+  "source:BH00652",
+  "source:BH00769",
+  "selection:9f4610414be89bfd8fb49b38",
+  "selection:52f5dc58372bdad096a6b9a3",
+  "selection:1637a389b92a9f6b27beec40",
+  "selection:74005ec6a995939ac86b07cd",
+  "selection:06c215186795e1aa4d7a1442",
+  "selection:936cb05ed84a94d1ba77a9d6",
+  "selection:144c99a142b676a6451ea30f",
+  "selection:461c508abf1d9e580b233a93",
+  "selection:8487e0a7fdb95288463426f3",
+  "selection:b603841222a2ab919751f0a5",
+  "selection:1e10e13d8ce985485524f963",
+  "selection:3961c2cd2ea57faf5a430347",
+  "selection:0224edd0a8414e908ee5c083",
+  "selection:a5f67d5ce240023a85db6858",
+  "selection:e08fc6c7a3062a9128701714",
+  "selection:5e25ac5da895232418f19ee6",
+  "selection:d8e4bb5bb660a85cfc439c65",
+  "selection:d0f764faca76f707592b4c8c",
+  "selection:08929bd82193bcc0a20a1c95"
+ ],
+ "introduction": "These are among the most abstract readings in the collection. They say that God created all things through the Will, and the Will through itself: the first thing to exist came from nothing, has no cause but itself, and stands between an Essence that causes nothing directly and a creation that has always existed and is new at every moment. Each of the eighty-eight quotations is read here beside one from elsewhere. Most stand alongside: the Word of John's Gospel and the Wisdom of Proverbs, the Qur'an's 'Be! and it is', the Tao that produced One, Plotinus's overflowing, Aristotle, Aquinas, Descartes, and the many voices that say God cannot be likened or found out. Ten push back or add a side: Lucretius and the Chandogya Upanishad deny that anything comes from nothing, Heraclitus has an eternal world with no maker, Spinoza and Pope put all things in God, Feuerbach and Hume doubt what our words can reach, and the Rig Veda ends its hymn of creation with a question.",
+ "questions": [
+  "The readings say that the Will was created 'through itself' and 'from nothing'. Lucretius and the Upanishad hold that nothing comes from nothing. What is each side protecting?",
+  "Why do you think these readings refuse to call the divine Essence the cause of things, and place the Will between? Compare Aquinas's first cause.",
+  "One reading says that creation has always existed and is also a new creation at this very moment. How do Descartes and the psalm help in holding the two together?",
+  "The Rig Veda ends by asking whether anyone knows whence creation came. How much of what these readings say is knowledge, and how much is a guard against saying too little or too much?",
+  "Does it change anything in daily life to hold that everything you see was called into being through one Will?"
+ ],
+ "outside": [
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:BB00020",
+   "responds": [
+    "source:BB00020"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel opens: in the beginning was the Word, and all things were made by him, and without him was not any thing made."
+  },
+  {
+   "id": "proverbs-wisdom-before-his-works",
+   "after": "source:BB00020",
+   "responds": [
+    "source:BB00020"
+   ],
+   "relation": "adjacent",
+   "why": "In Proverbs wisdom says: the Lord possessed me in the beginning of his way, before his works of old; I was set up from everlasting."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:BB00098",
+   "responds": [
+    "source:BB00098"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that His command, when He intendeth a thing, is only that He saith unto it: Be! and it is."
+  },
+  {
+   "id": "tao-existence-sprang-from-non-existence",
+   "after": "source:BB00098",
+   "responds": [
+    "source:BB00098"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King says that all things under heaven sprang from it as existing, and that existence sprang from it as non-existent."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:BB00098",
+   "responds": [
+    "source:BB00098"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius founds his account of nature on the principle that nothing from nothing ever yet was born. What does it mean to say that the Will came into being 'not from anything', to someone who takes his principle as the first rule of reason?"
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle's first principle is a divine thought that thinks of itself, a thinking on thinking."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:BH00512",
+   "responds": [
+    "source:BH00512"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear."
+  },
+  {
+   "id": "rigveda-desire-in-the-beginning",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda's hymn of creation says that Desire rose in the beginning, the primal seed and germ of Spirit."
+  },
+  {
+   "id": "quran-be-originator",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an calls God the Originator of the heavens and the earth, who saith unto a thing only: Be! and it is."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:BB00114",
+   "responds": [
+    "source:BB00114"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls Christ the image of the invisible God, the firstborn of every creature."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:BB00114",
+   "responds": [
+    "source:BB00114"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews speaks of one who is the brightness of God's glory and the express image of his person."
+  },
+  {
+   "id": "psalm-he-spake-and-it-was-done",
+   "after": "source:BB00318",
+   "responds": [
+    "source:BB00318"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: he spake, and it was done; he commanded, and it stood fast."
+  },
+  {
+   "id": "quran-he-is-allah-the-one",
+   "after": "source:BB00008",
+   "responds": [
+    "source:BB00008"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an's chapter on unity says: He is Allah, the One, who begetteth not nor was begotten."
+  },
+  {
+   "id": "exodus-i-am-that-i-am",
+   "after": "source:BB00014",
+   "responds": [
+    "source:BB00014"
+   ],
+   "relation": "adjacent",
+   "why": "Moses asks God what he shall say to the children of Israel when he tells them that the God of their fathers has sent him."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BH00135",
+   "responds": [
+    "source:BH00135"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King begins: the name that can be named is not the enduring and unchanging name."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that no man hath seen God at any time; the only begotten Son hath declared him."
+  },
+  {
+   "id": "quran-vision-comprehendeth-not",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of God: vision comprehendeth Him not, but He comprehendeth all vision; He is the Subtile, the Aware."
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's letter speaks of one dwelling in the light which no man can approach unto, whom no man hath seen, nor can see."
+  },
+  {
+   "id": "matthew-no-man-knoweth-the-son",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that no man knoweth the Father save the Son, and he to whomsoever the Son will reveal him."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "contrast",
+   "why": "Feuerbach argued that the true sense of theology is anthropology, with no distinction between the divine and the human subject. If the Essence cannot be known and only its manifestation can, how is his conclusion avoided?"
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "In the Revelation he that sat upon the throne says: behold, I make all things new."
+  },
+  {
+   "id": "john-my-father-worketh-hitherto",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says, when blamed for healing on the sabbath: my Father worketh hitherto, and I work."
+  },
+  {
+   "id": "descartes-conservation-and-creation",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes held that to conserve a substance in each moment of its duration requires the same power as would be needed to create it."
+  },
+  {
+   "id": "quran-every-day-he-exerciseth",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that all in the heavens and the earth entreat Him, and that every day He exerciseth universal power."
+  },
+  {
+   "id": "psalm-these-wait-all-upon-thee",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of all creatures: thou openest thine hand, they are filled with good; thou takest away their breath, they die."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "contrast",
+   "why": "Heraclitus said that this world no one of gods or men has made; it was ever, is now, and ever shall be an ever-living Fire. He too has a world without a first moment. What does he leave out that these readings insist on?"
+  },
+  {
+   "id": "augustine-what-then-is-time",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "complement",
+   "why": "Augustine asks what time is, and admits that he knows until he is asked to explain. How far can a creature that lives in time think about a creation that has always existed?"
+  },
+  {
+   "id": "aquinas-first-efficient-cause",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Aquinas argued that it is necessary to admit a first efficient cause, to which everyone gives the name of God."
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that the final cause produces motion as being loved, while all other things move by being moved."
+  },
+  {
+   "id": "proverbs-lot-is-cast-into-the-lap",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the lot is cast into the lap, but the whole disposing thereof is of the Lord."
+  },
+  {
+   "id": "isaiah-first-and-last",
+   "after": "source:BB00036",
+   "responds": [
+    "source:BB00036"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: I am the first, and I am the last, and beside me there is no God."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Job's friend asks: canst thou by searching find out God? canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: such knowledge is too wonderful for me; it is high, I cannot attain unto it."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that if oxen and horses could paint, horses would paint the forms of the gods like horses, and oxen like oxen."
+  },
+  {
+   "id": "kings-heaven-cannot-contain",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon says at the dedication of the temple: the heaven and heaven of heavens cannot contain thee."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza held that all things which are, are in God, and without him can neither be nor be conceived. Is that the resolving of the Godhead into the realities of things which the reading denies, or something else?"
+  },
+  {
+   "id": "quran-throne-verse",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an's Throne verse says that neither slumber nor sleep overtaketh Him, and that His throne includeth the heavens and the earth."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "Plato distinguishes that which always is and has no becoming from that which is always becoming and never is."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:BB00042",
+   "responds": [
+    "source:BB00042"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics by saying that all men by nature desire to know."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:BB00205",
+   "responds": [
+    "source:BB00205"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis tells the first act in a sentence: and God said, Let there be light: and there was light."
+  },
+  {
+   "id": "colossians-created-for-him",
+   "after": "source:BB00240",
+   "responds": [
+    "source:BB00240"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that by him were all things created, visible and invisible, and that by him all things consist."
+  },
+  {
+   "id": "rigveda-who-verily-knows",
+   "after": "source:BB00197",
+   "responds": [
+    "source:BB00197"
+   ],
+   "relation": "complement",
+   "why": "The Rig Veda's hymn of creation ends by asking who verily knows whence this creation came, and whether even the highest seer in heaven knows. What is the right tone in which to speak of the first beginning?"
+  },
+  {
+   "id": "romans-of-him-and-through-him",
+   "after": "source:BB00677",
+   "responds": [
+    "source:BB00677"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of God: of him, and through him, and to him, are all things, to whom be glory for ever."
+  },
+  {
+   "id": "job-hangeth-the-earth-upon-nothing",
+   "after": "source:BB00677",
+   "responds": [
+    "source:BB00677"
+   ],
+   "relation": "adjacent",
+   "why": "Job says of God that he stretcheth out the north over the empty place, and hangeth the earth upon nothing."
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BH01299",
+   "responds": [
+    "source:BH01299"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that by the word of the Lord were the heavens made, and all the host of them by the breath of his mouth."
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "source:BH01602",
+   "responds": [
+    "source:BH01602"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King counts: the Tao produced One, One produced Two, Two produced Three, Three produced all things."
+  },
+  {
+   "id": "wisdom-made-and-loved",
+   "after": "source:BH11123",
+   "responds": [
+    "source:BH11123"
+   ],
+   "relation": "complement",
+   "why": "The Wisdom of Solomon gives a reason where this prayer gives none: thou lovest all the things that are, and never wouldest thou have made any thing, if thou hadst hated it. Is love a cause of creation, or another name for there being no cause outside God?"
+  },
+  {
+   "id": "chandogya-one-only-without-a-second",
+   "after": "source:BB00010",
+   "responds": [
+    "source:BB00010"
+   ],
+   "relation": "adjacent",
+   "why": "The Chandogya Upanishad says that in the beginning there was that only which is, one only, without a second."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:BB00027",
+   "responds": [
+    "source:BB00027"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends his poem with the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "hebrews-upholding-all-things",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews speaks of one upholding all things by the word of his power."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:BH00066",
+   "responds": [
+    "source:BH00066"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians: in him we live, and move, and have our being."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the heavens declare the glory of God, and the firmament sheweth his handywork."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God formed man of the dust of the ground, and breathed into his nostrils the breath of life."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that his word shall not return unto him void, but shall accomplish that which he pleases."
+  },
+  {
+   "id": "acts-one-blood",
+   "after": "source:BH06328",
+   "responds": [
+    "source:BH06328"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that God hath made of one blood all nations of men to dwell on all the face of the earth."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is made a little lower than the angels, and crowned with glory and honour."
+  },
+  {
+   "id": "job-clothed-me-with-skin",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "Job says to God: thou hast clothed me with skin and flesh, and hast fenced me with bones and sinews."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal finds man's dignity in thought: by space the universe swallows him up like an atom, and by thought he comprehends the world."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:BH00545",
+   "responds": [
+    "source:BH00545"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that the craftsman Bezaleel was filled with the spirit of God in wisdom and in all manner of workmanship."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "pope-stupendous-whole",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "complement",
+   "why": "Pope wrote that all are but parts of one stupendous whole, whose body nature is, and God the soul. Is that the 'true pantheistic statement' the reading allows, or the kind it sets aside?"
+  },
+  {
+   "id": "milton-foreknowledge-no-influence",
+   "after": "source:BB00219",
+   "responds": [
+    "source:BB00219"
+   ],
+   "relation": "adjacent",
+   "why": "Milton has God say of his creatures that they themselves decreed their own revolt, and that foreknowledge had no influence on their fault."
+  },
+  {
+   "id": "matthew-in-earth-as-in-heaven",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord's Prayer asks: thy will be done in earth, as it is in heaven."
+  },
+  {
+   "id": "hopkins-gods-grandeur",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins says that the world is charged with the grandeur of God, and will flame out like shining from shook foil."
+  },
+  {
+   "id": "john-his-own-received-him-not",
+   "after": "source:BH00591",
+   "responds": [
+    "source:BH00591"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says: he came unto his own, and his own received him not."
+  },
+  {
+   "id": "daniel-kingdom-never-destroyed",
+   "after": "source:BH03262",
+   "responds": [
+    "source:BH03262"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel foretells a kingdom set up by the God of heaven which shall never be destroyed."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:BH00652",
+   "responds": [
+    "source:BH00652"
+   ],
+   "relation": "adjacent",
+   "why": "James says that every good gift and every perfect gift is from above, and cometh down from the Father of lights."
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "Paul exclaims at the depth of the wisdom of God: how unsearchable are his judgments, and his ways past finding out!"
+  },
+  {
+   "id": "cloud-by-love-not-thought",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "The Cloud of Unknowing says that of God himself can no man think: he may well be loved, but not thought."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "selection:1637a389b92a9f6b27beec40",
+   "responds": [
+    "selection:1637a389b92a9f6b27beec40"
+   ],
+   "relation": "complement",
+   "why": "Hume, looking for his own self, says that he always stumbles on some particular perception and never catches himself. If our own will is so hard to observe, how much can the word 'will' tell us about the first of created things?"
+  },
+  {
+   "id": "chandogya-only-that-which-is",
+   "after": "selection:74005ec6a995939ac86b07cd",
+   "responds": [
+    "selection:74005ec6a995939ac86b07cd"
+   ],
+   "relation": "contrast",
+   "why": "The Chandogya Upanishad asks how that which is could be born of that which is not, and answers: only that which is, was in the beginning. How would its teacher hear the words 'from nothing through itself'?"
+  },
+  {
+   "id": "quran-naught-is-as-his-likeness",
+   "after": "selection:06c215186795e1aa4d7a1442",
+   "responds": [
+    "selection:06c215186795e1aa4d7a1442"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of the Creator of the heavens and the earth: naught is as His likeness."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "selection:936cb05ed84a94d1ba77a9d6",
+   "responds": [
+    "selection:936cb05ed84a94d1ba77a9d6"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks: to whom then will ye liken God? or what likeness will ye compare unto him?"
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "selection:144c99a142b676a6451ea30f",
+   "responds": [
+    "selection:144c99a142b676a6451ea30f"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: before the mountains were brought forth, even from everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "selection:461c508abf1d9e580b233a93",
+   "responds": [
+    "selection:461c508abf1d9e580b233a93"
+   ],
+   "relation": "adjacent",
+   "why": "The Revelation has the Lord say: I am Alpha and Omega, the beginning and the ending."
+  },
+  {
+   "id": "isaiah-clay-and-the-potter",
+   "after": "selection:8487e0a7fdb95288463426f3",
+   "responds": [
+    "selection:8487e0a7fdb95288463426f3"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah uses a like comparison: shall the clay say to him that fashioneth it, What makest thou?"
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "selection:b603841222a2ab919751f0a5",
+   "responds": [
+    "selection:b603841222a2ab919751f0a5"
+   ],
+   "relation": "adjacent",
+   "why": "Plato compares the good to the sun, which gives to visible things both their being seen and their growth."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "selection:1e10e13d8ce985485524f963",
+   "responds": [
+    "selection:1e10e13d8ce985485524f963"
+   ],
+   "relation": "adjacent",
+   "why": "This is the passage in another translation: a brilliant light encircling the sun and ceaselessly generated from that unchanging substance."
+  },
+  {
+   "id": "plato-moving-image-of-eternity",
+   "after": "selection:3961c2cd2ea57faf5a430347",
+   "responds": [
+    "selection:3961c2cd2ea57faf5a430347"
+   ],
+   "relation": "adjacent",
+   "why": "Plato calls time a moving image of eternity, made when the heaven was set in order."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "selection:0224edd0a8414e908ee5c083",
+   "responds": [
+    "selection:0224edd0a8414e908ee5c083"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the invisible things of God are clearly seen from the creation of the world, being understood by the things that are made."
+  },
+  {
+   "id": "quran-creation-of-heavens-and-earth",
+   "after": "selection:a5f67d5ce240023a85db6858",
+   "responds": [
+    "selection:a5f67d5ce240023a85db6858"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that in the creation of the heavens and the earth are tokens for men of understanding."
+  },
+  {
+   "id": "quran-treasures-with-us",
+   "after": "selection:e08fc6c7a3062a9128701714",
+   "responds": [
+    "selection:e08fc6c7a3062a9128701714"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that there is not a thing but its stores are with God, and it is sent down only in appointed measure."
+  },
+  {
+   "id": "marcus-bond-is-holy",
+   "after": "selection:5e25ac5da895232418f19ee6",
+   "responds": [
+    "selection:5e25ac5da895232418f19ee6"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says that all things are implicated with one another, and that the bond is holy."
+  },
+  {
+   "id": "quran-jugular-vein",
+   "after": "selection:d8e4bb5bb660a85cfc439c65",
+   "responds": [
+    "selection:d8e4bb5bb660a85cfc439c65"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an has God say that he is nearer to man than his jugular vein."
+  },
+  {
+   "id": "ecclesiastes-whole-duty-of-man",
+   "after": "selection:d0f764faca76f707592b4c8c",
+   "responds": [
+    "selection:d0f764faca76f707592b4c8c"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher concludes: fear God, and keep his commandments, for this is the whole duty of man."
+  },
+  {
+   "id": "rumi-reed",
+   "after": "selection:08929bd82193bcc0a20a1c95",
+   "responds": [
+    "selection:08929bd82193bcc0a20a1c95"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi's poem opens with a reed-flute lamenting its banishment from its home, an image of the soul's longing."
+  },
+  {
+   "id": "dante-glory-of-him",
+   "after": "selection:08929bd82193bcc0a20a1c95",
+   "responds": [
+    "selection:08929bd82193bcc0a20a1c95"
+   ],
+   "relation": "adjacent",
+   "why": "Dante opens his Paradiso with the glory of Him who moveth everything, which penetrates the universe."
+  }
+ ],
+ "library": {
+  "aquinas-first-efficient-cause": {
+   "text": "Therefore it is necessary to admit a first efficient cause, to which everyone gives the name of God",
+   "author": "Thomas Aquinas",
+   "work": "Summa Theologiae",
+   "locator": "I, q. 2, a. 3",
+   "year": "c. 1265–1274",
+   "sortYear": 1270,
+   "translator": "Fathers of the English Dominican Province",
+   "translationYear": "1920",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://www.newadvent.org/summa/1002.htm",
+    "label": "New Advent",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1920."
+   }
+  }
+ }
+}
