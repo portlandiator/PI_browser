@@ -1,0 +1,556 @@
+{
+ "format": 2,
+ "slug": "artsscience",
+ "subject": "E8D8CB2AB7034F7DB07173698FD9C979",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 47,
+ "quotations": 54,
+ "kept": [
+  "source:ABU0008",
+  "source:AB05132",
+  "source:ABU3551",
+  "source:BH02575",
+  "source:BH00005",
+  "source:BH00140",
+  "source:BH00013",
+  "source:BH10084",
+  "source:BH00698",
+  "source:BH03960",
+  "source:AB00747",
+  "source:ABU0145",
+  "source:ABU0157",
+  "source:ABU0032",
+  "source:ABU1902",
+  "source:ABU0439",
+  "source:ABU0572",
+  "source:ABU0555",
+  "source:ABU0755",
+  "source:ABU2106",
+  "source:ABU2410",
+  "source:AB00004",
+  "source:AB00020",
+  "source:AB00256",
+  "source:AB08508",
+  "source:AB01995",
+  "source:AB01884",
+  "source:AB03755",
+  "source:AB02747",
+  "source:AB08929",
+  "source:AB06543",
+  "source:AB11746",
+  "source:AB01616",
+  "source:AB03020",
+  "source:AB09999",
+  "source:ABU1223",
+  "source:BH05807",
+  "source:ABU3085",
+  "source:ABU2205",
+  "source:ABU1794",
+  "source:BH00111",
+  "source:BH00238",
+  "source:AB03423",
+  "source:AB03123",
+  "source:ABU0749",
+  "selection:4e120be396e7f554f013f743",
+  "selection:9e839ce6fc90ec077482662b"
+ ],
+ "introduction": "These readings give the arts and sciences a very high place: knowledge is called the light and life of the world, the scientific power the noblest of human gifts, craft a sign of the divine name the Fashioner, and work done in the spirit of service a form of worship. They ask for sciences that benefit people, for the education of girls and boys alike, and for learning joined to the love of God. Each of the fifty-four quotations is read here beside one from elsewhere. Most stand alongside: Aristotle, Bacon, Proverbs, Job's miners, Solomon the naturalist, the Qur'an's 'Read' and 'increase me in knowledge', Confucius, Wollstonecraft, Shelley on inspiration. Six push back or add a side: Gray and the Preacher count the cost of knowing, Mill doubts what invention has done for the labourer, Frankenstein fears knowledge itself, Augustine puts belief before understanding, and Whitman walks out of the lecture.",
+ "questions": [
+  "'Art is worship,' and work done in a spirit of service is prayer. What turns a day's work into worship, and what keeps it from being so?",
+  "The readings ask for sciences that are useful and not those that 'begin and end in words'. Who decides what is useful, and what would be lost if only the useful were studied?",
+  "The Preacher says that knowledge increases sorrow, and Frankenstein that it is dangerous. The readings say that learning without the love of God is barren. Are these the same warning?",
+  "Augustine believes in order to understand; Kant says to dare to use your own reason. How do the readings relate reason and faith?",
+  "Whose learning has done most good in the place where you live, and what made it so?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics by saying that all men by nature desire to know."
+  },
+  {
+   "id": "gray-ignorance-is-bliss",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "contrast",
+   "why": "Gray, watching schoolboys at play, concluded that thought would destroy their paradise: where ignorance is bliss, 'tis folly to be wise. What does knowledge cost, and why is it still called the highest praise?"
+  },
+  {
+   "id": "genesis-put-him-into-the-garden",
+   "after": "source:AB05132",
+   "responds": [
+    "source:AB05132"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God put the man into the garden to dress it and to keep it."
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:AB05132",
+   "responds": [
+    "source:AB05132"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a man diligent in his business shall stand before kings."
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:ABU3551",
+   "responds": [
+    "source:ABU3551"
+   ],
+   "relation": "adjacent",
+   "why": "George Herbert prays to be taught in all things to see God, and to do whatever he does as for him."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:ABU3551",
+   "responds": [
+    "source:ABU3551"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that the craftsman Bezaleel was filled with the spirit of God in wisdom and in all manner of workmanship."
+  },
+  {
+   "id": "genesis-tubal-cain",
+   "after": "source:BH02575",
+   "responds": [
+    "source:BH02575"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis names the first keepers of cattle, the first players of the harp and organ, and the first workers in brass and iron."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon says that human knowledge and human power meet in one, and that nature to be commanded must be obeyed."
+  },
+  {
+   "id": "proverbs-wisdom-is-the-principal-thing",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that wisdom is the principal thing; therefore get wisdom, and with all thy getting get understanding."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:BH10084",
+   "responds": [
+    "source:BH10084"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: thy word is a lamp unto my feet, and a light unto my path."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:BH03960",
+   "responds": [
+    "source:BH03960"
+   ],
+   "relation": "adjacent",
+   "why": "The book of Job says that there is a spirit in man, and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "The chorus in Sophocles sings that wonders are many, and none is more wonderful than man."
+  },
+  {
+   "id": "job-vein-for-the-silver",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "Job describes the miner's art: there is a vein for the silver, and iron is taken out of the earth."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is made to have dominion over the works of God's hands."
+  },
+  {
+   "id": "kings-solomon-spake-of-trees",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "adjacent",
+   "why": "The first book of Kings says that Solomon spake of trees, from the cedar to the hyssop, and of beasts, and of fowl."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher says that in much wisdom is much grief, and he that increaseth knowledge increaseth sorrow. Is science the most noble of virtues for the one who has it, or for what it does for others?"
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:ABU0032",
+   "responds": [
+    "source:ABU0032"
+   ],
+   "relation": "adjacent",
+   "why": "Locke held that reason must be our last judge and guide in every thing."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU1902",
+   "responds": [
+    "source:ABU1902"
+   ],
+   "relation": "adjacent",
+   "why": "Kant's motto for his age was: have courage to use your own reason."
+  },
+  {
+   "id": "augustine-believe-that-you-may-understand",
+   "after": "source:ABU1902",
+   "responds": [
+    "source:ABU1902"
+   ],
+   "relation": "complement",
+   "why": "Augustine said: do not seek to understand in order to believe, but believe that you may understand. Which comes first when religion and reason are meant to uphold each other?"
+  },
+  {
+   "id": "proverbs-wisdom-better-than-gold",
+   "after": "source:ABU0439",
+   "responds": [
+    "source:ABU0439"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks how much better it is to get wisdom than gold, and understanding than silver."
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:ABU0572",
+   "responds": [
+    "source:ABU0572"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God bless humankind and say: replenish the earth, and subdue it."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0555",
+   "responds": [
+    "source:ABU0555"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that it is not from space that he must seek his dignity, but from the government of his thought."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:ABU0755",
+   "responds": [
+    "source:ABU0755"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "aristotle-gift-of-speech",
+   "after": "source:ABU2106",
+   "responds": [
+    "source:ABU2106"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle observed that man is the only animal endowed with the gift of speech."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:ABU2410",
+   "responds": [
+    "source:ABU2410"
+   ],
+   "relation": "adjacent",
+   "why": "Keats compares a discovery in reading to the feeling of some watcher of the skies when a new planet swims into his ken."
+  },
+  {
+   "id": "mill-mechanical-inventions",
+   "after": "source:ABU2410",
+   "responds": [
+    "source:ABU2410"
+   ],
+   "relation": "contrast",
+   "why": "Mill doubted whether all the mechanical inventions yet made had lightened the day's toil of any human being. What would the 'advance step' named here have to add to weighing the sun?"
+  },
+  {
+   "id": "daniel-knowledge-and-skill",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The book of Daniel says that God gave four young men knowledge and skill in all learning and wisdom."
+  },
+  {
+   "id": "quran-exalt-those-who-have-knowledge",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that God will exalt those who believe, and those who have knowledge, to high ranks."
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks: are those who know equal with those who know not?"
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that cities will have no rest from their evils until philosophers are kings."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an teaches a prayer of five words: my Lord! Increase me in knowledge."
+  },
+  {
+   "id": "analects-pleasant-to-learn",
+   "after": "source:AB08508",
+   "responds": [
+    "source:AB08508"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius begins: is it not pleasant to learn with a constant perseverance and application?"
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:AB01995",
+   "responds": [
+    "source:AB01995"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher warns that of making many books there is no end, and much study is a weariness of the flesh."
+  },
+  {
+   "id": "avot-not-study-but-actions",
+   "after": "source:AB01995",
+   "responds": [
+    "source:AB01995"
+   ],
+   "relation": "adjacent",
+   "why": "A sage in the Mishnah says that study is not the most important thing, but actions."
+  },
+  {
+   "id": "bacon-studies-serve-for-delight",
+   "after": "source:AB01884",
+   "responds": [
+    "source:AB01884"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon begins his essay on studies by saying that they serve for delight, for ornament and for ability."
+  },
+  {
+   "id": "quran-read",
+   "after": "source:AB03755",
+   "responds": [
+    "source:AB03755"
+   ],
+   "relation": "adjacent",
+   "why": "The first words revealed of the Qur'an are: Read, in the name of thy Lord, who teacheth by the pen."
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:AB02747",
+   "responds": [
+    "source:AB02747"
+   ],
+   "relation": "adjacent",
+   "why": "Mary Wollstonecraft wrote: strengthen the female mind by enlarging it, and there will be an end to blind obedience."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB02747",
+   "responds": [
+    "source:AB02747"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go, and when he is old, he will not depart from it."
+  },
+  {
+   "id": "proverbs-lord-giveth-wisdom",
+   "after": "source:AB01616",
+   "responds": [
+    "source:AB01616"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the Lord giveth wisdom, and out of his mouth cometh knowledge and understanding."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB09999",
+   "responds": [
+    "source:AB09999"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that they that be wise shall shine as the brightness of the firmament."
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:ABU1223",
+   "responds": [
+    "source:ABU1223"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says: whatsoever thy hand findeth to do, do it with thy might."
+  },
+  {
+   "id": "shelley-fading-coal",
+   "after": "source:ABU3085",
+   "responds": [
+    "source:ABU3085"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley says that no poet can say 'I will compose poetry': the mind in creation is as a fading coal, which some invisible influence awakens."
+  },
+  {
+   "id": "plato-poets-like-diviners",
+   "after": "source:ABU3085",
+   "responds": [
+    "source:ABU3085"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates says that poets write not by wisdom but by a sort of genius and inspiration, like diviners."
+  },
+  {
+   "id": "colossians-heartily-as-to-the-lord",
+   "after": "source:ABU2205",
+   "responds": [
+    "source:ABU2205"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: whatsoever ye do, do it heartily, as to the Lord, and not unto men."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:ABU1794",
+   "responds": [
+    "source:ABU1794"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ye shall know them by their fruits; every good tree bringeth forth good fruit."
+  },
+  {
+   "id": "tennyson-knowledge-and-reverence",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson asks: let knowledge grow from more to more, but more of reverence in us dwell."
+  },
+  {
+   "id": "great-learning-widening",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "The Great Learning traces a line from the cultivated person to the regulated family, the rightly governed state, and a tranquil world."
+  },
+  {
+   "id": "james-wisdom-from-above",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "James says that the wisdom that is from above is first pure, then peaceable, gentle, full of mercy and good fruits."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:AB03423",
+   "responds": [
+    "source:AB03423"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that knowledge puffeth up, but charity edifieth, and that whoever thinks he knows anything knows nothing yet as he ought."
+  },
+  {
+   "id": "pope-little-learning",
+   "after": "source:AB03423",
+   "responds": [
+    "source:AB03423"
+   ],
+   "relation": "adjacent",
+   "why": "Pope warns that a little learning is a dangerous thing: drink deep, or taste not."
+  },
+  {
+   "id": "corinthians-tinkling-cymbal",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that though he understand all mysteries and all knowledge, and have not charity, he is nothing."
+  },
+  {
+   "id": "shelley-acquirement-of-knowledge",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "contrast",
+   "why": "Mary Shelley's Frankenstein warns by his own example how dangerous is the acquirement of knowledge. Is the danger in learning without love, as the reading says, or in learning itself, as he does?"
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "selection:9e839ce6fc90ec077482662b",
+   "responds": [
+    "selection:9e839ce6fc90ec077482662b"
+   ],
+   "relation": "adjacent",
+   "why": "Kant names two things that fill the mind with awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "selection:9e839ce6fc90ec077482662b",
+   "responds": [
+    "selection:9e839ce6fc90ec077482662b"
+   ],
+   "relation": "complement",
+   "why": "Whitman, tired and sick at the astronomer's proofs and figures, goes out and looks up in perfect silence at the stars. Is the scientist's conviction of a spirit in the laws of the universe found in the figures or beside them?"
+  }
+ ],
+ "library": {}
+}
