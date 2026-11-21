@@ -1,0 +1,1009 @@
+{
+ "format": 2,
+ "slug": "twoknowledges",
+ "subject": "1A11545F6FCC460995486A8C10B9506C",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 86,
+ "quotations": 100,
+ "kept": [
+  "source:AB00259",
+  "source:ABU0346",
+  "source:ABU0150",
+  "source:ABU0145",
+  "source:BH00308",
+  "source:BH00827",
+  "source:BH00698",
+  "source:BH00002",
+  "source:BH11413",
+  "source:BB00003",
+  "source:ABU0416",
+  "source:BH00466",
+  "source:BH00113",
+  "source:ABU0029",
+  "source:ABU2965",
+  "source:AB01410",
+  "source:AB11091",
+  "source:ABU1093",
+  "source:ABU0070",
+  "source:AB00228",
+  "source:ABU0138",
+  "source:AB00780",
+  "source:AB00747",
+  "source:ABU0971",
+  "source:ABU0755",
+  "source:AB00006",
+  "source:AB00954",
+  "source:AB00395",
+  "source:AB00440",
+  "source:ABU0096",
+  "source:AB00020",
+  "source:ABU0147",
+  "source:ABU0395",
+  "source:ABU0326",
+  "source:ABU0280",
+  "source:AB00279",
+  "source:ABU0161",
+  "source:AB00620",
+  "source:ABU0373",
+  "source:ABU0049",
+  "source:BH00245",
+  "source:AB00740",
+  "source:AB02800",
+  "source:AB01536",
+  "source:BH00012",
+  "source:BH00047",
+  "source:AB00381",
+  "source:ABU1762",
+  "source:AB02568",
+  "source:AB05538",
+  "source:AB05160",
+  "source:AB05834",
+  "source:ABU3681",
+  "source:ABU1679",
+  "source:BH10402",
+  "source:AB04410",
+  "source:ABU3066",
+  "source:ABU0228",
+  "source:ABU0989",
+  "source:BH02002",
+  "source:BH05413",
+  "source:AB10100",
+  "source:AB10488",
+  "source:BH02950",
+  "source:BH00229",
+  "source:BH03969",
+  "source:BH09589",
+  "source:BH08076",
+  "source:BH03863",
+  "source:BH06242",
+  "source:AB09708",
+  "source:AB11976",
+  "source:AB04506",
+  "source:AB02175",
+  "source:AB01940",
+  "source:BH07154",
+  "source:BH03962",
+  "selection:7c0b55063d0b40175a14e04f",
+  "selection:9f9dab1c474b2ffe6ee37c4c",
+  "selection:16c35dcca440e6bc8caddb3e",
+  "selection:af33fa4f244cc99f71c37e1d",
+  "selection:44889e64330f2fd4cff80f93",
+  "selection:601dcee8d2e0e97bb11b88e2",
+  "selection:dad329d2cb70c765921ac08d",
+  "selection:cb9a36f0eedf8c55300553bf",
+  "selection:572dfe48a121cf881ba7247a"
+ ],
+ "introduction": "The readings divide knowledge in two: what is acquired through the senses, study and investigation, and what is given by insight, inspiration and the Holy Spirit; and with it they divide perception, sight, teachers, philosophers and even human beings. The quotations beside them show how old the division is, in Plato and Aristotle, the Psalms, Paul and the Qur’an, in Pascal, Wordsworth and Emerson, and they bring those who resist it: Locke and Hume on experience, Milton on opinion as knowledge in the making, Xenophanes on finding out by seeking. Where a reading calls some knowledge satanic, some philosophers lifeless or most people blind, a quotation is set in contrast.",
+ "questions": [
+  "What exactly distinguishes the two kinds of knowledge in these readings: their source, their object, or the person who knows?",
+  "The readings say insight never errs while outward sight does. How do Jeremiah and Locke test that claim?",
+  "How do the readings value science and philosophy, and what do they say these cannot do?",
+  "What is asked of a person before the second kind of knowledge is given, and is that asking itself a kind of study?",
+  "Several readings call others blind. How should one hold a gift of sight, on Paul's warning that knowledge puffs up?"
+ ],
+ "outside": [
+  {
+   "id": "browne-two-books",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "Browne collects his divinity from two books, the written one of God and the manuscript of nature open to every eye."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "contrast",
+   "why": "Locke supposes the mind to be white paper, furnished by experience. Is there a second kind of knowledge that experience does not write?"
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon states the creed of natural science: human knowledge and human power meet in one."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins from the fact that all men by nature desire to know, as the delight we take in our senses shows."
+  },
+  {
+   "id": "tennyson-knowledge-and-reverence",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson asks that knowledge grow from more to more, and that more of reverence dwell in us with it."
+  },
+  {
+   "id": "mill-mechanical-inventions",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Mill doubted whether all the mechanical inventions yet made had lightened the day's toil of any human being."
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau calls our inventions pretty toys that distract attention from serious things, outer advance without inner."
+  },
+  {
+   "id": "psalm-open-thou-mine-eyes",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays for his eyes to be opened so that he may behold wondrous things in the law."
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays that God may give a spirit of wisdom and enlighten the eyes of his readers' understanding."
+  },
+  {
+   "id": "james-if-any-lack-wisdom",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "adjacent",
+   "why": "James gives the same counsel as the reading: whoever lacks wisdom should ask it of God, who gives to all."
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "source:BH00698",
+   "responds": [
+    "source:BH00698"
+   ],
+   "relation": "adjacent",
+   "why": "Blake holds that if the doors of perception were cleansed, every thing would appear as it is, infinite."
+  },
+  {
+   "id": "john-epistle-try-the-spirits",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter tells believers not to believe every spirit but to try the spirits, whether they are of God."
+  },
+  {
+   "id": "colossians-through-philosophy",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul warns against being spoiled through philosophy and vain deceit after the tradition of men."
+  },
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Milton holds that where there is much desire to learn there will be much arguing and many opinions, which are knowledge in the making. Who is to judge which knowledge is satanic?"
+  },
+  {
+   "id": "quran-the-erudite-fear-allah",
+   "after": "source:BH11413",
+   "responds": [
+    "source:BH11413"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an gives the same mark of the truly learned: among God's servants it is the erudite who fear him."
+  },
+  {
+   "id": "quran-allegorical-verses",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says of its own allegorical verses that none knows their explanation save God, a close parallel to this reading."
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:ABU0416",
+   "responds": [
+    "source:ABU0416"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks where the wise and the disputer of this world are, for the world by its wisdom knew not God."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:ABU0416",
+   "responds": [
+    "source:ABU0416"
+   ],
+   "relation": "contrast",
+   "why": "Socrates calls daily converse about virtue the greatest good of man. Are philosophers without the Spirit lifeless, or doing a work of their own?"
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:BH00466",
+   "responds": [
+    "source:BH00466"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanks the Father for hiding these things from the wise and prudent and revealing them unto babes."
+  },
+  {
+   "id": "aristotle-reason-is-man",
+   "after": "source:ABU0029",
+   "responds": [
+    "source:ABU0029"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle holds that what is proper to each thing is best for it, and that for man this is the life of reason."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:ABU2965",
+   "responds": [
+    "source:ABU2965"
+   ],
+   "relation": "adjacent",
+   "why": "Plato asks what always is and has no becoming, and what is always becoming and never is, the question behind any division of perception in two."
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:AB01410",
+   "responds": [
+    "source:AB01410"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's prisoners in the underground den take shadows for things, the classic picture of outward sight deceived."
+  },
+  {
+   "id": "jeremiah-heart-is-deceitful",
+   "after": "source:AB01410",
+   "responds": [
+    "source:AB01410"
+   ],
+   "relation": "contrast",
+   "why": "Jeremiah calls the heart deceitful above all things and asks who can know it. If the outward eye errs, what guards the inward one from error?"
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:AB11091",
+   "responds": [
+    "source:AB11091"
+   ],
+   "relation": "adjacent",
+   "why": "Paul looks not at the things which are seen but at the things which are not seen, for these are eternal."
+  },
+  {
+   "id": "wordsworth-bliss-of-solitude",
+   "after": "source:AB11091",
+   "responds": [
+    "source:AB11091"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth's daffodils flash upon that inward eye which is the bliss of solitude."
+  },
+  {
+   "id": "mark-having-eyes-see-ye-not",
+   "after": "source:ABU1093",
+   "responds": [
+    "source:ABU1093"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks his own disciples whether, having eyes, they do not see, and having ears, do not hear."
+  },
+  {
+   "id": "proverbs-hearing-ear",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says in one line that the hearing ear and the seeing eye are both made by the Lord."
+  },
+  {
+   "id": "wordsworth-life-of-things",
+   "after": "source:AB00228",
+   "responds": [
+    "source:AB00228"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth tells of an eye made quiet by harmony and joy, with which we see into the life of things."
+  },
+  {
+   "id": "plato-harmony-and-the-lyre",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "contrast",
+   "why": "Simmias asks whether the soul might be like the harmony of a lyre, which is invisible yet depends on the instrument. Does perception without instruments answer him?"
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:AB00780",
+   "responds": [
+    "source:AB00780"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says of God's knowledge of him that it is too wonderful, too high for him to attain."
+  },
+  {
+   "id": "aristotle-mind-like-light",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle speaks of a mind that makes all things, a positive state like light, which makes colours actual."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:ABU0971",
+   "responds": [
+    "source:ABU0971"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal holds that the heart has its reasons, which reason does not know."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:ABU0971",
+   "responds": [
+    "source:ABU0971"
+   ],
+   "relation": "contrast",
+   "why": "Locke insists that reason must be our last judge and guide in every thing. Can an inner light be trusted that does not answer to reason?"
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:ABU0755",
+   "responds": [
+    "source:ABU0755"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says we now see through a glass, darkly, and know in part, awaiting a sight face to face."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:ABU0755",
+   "responds": [
+    "source:ABU0755"
+   ],
+   "relation": "adjacent",
+   "why": "Plato makes the sun the author of visibility and likens to it the good that makes things knowable."
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "source:AB00954",
+   "responds": [
+    "source:AB00954"
+   ],
+   "relation": "adjacent",
+   "why": "Paul exclaims at the depth of the wisdom and knowledge of God, whose judgments are unsearchable."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "Newton writes that we have no idea of the substance of God and know him only by his properties and works."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes remarks that oxen, horses or lions with hands would draw their gods in their own shapes."
+  },
+  {
+   "id": "peter-reason-of-the-hope",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks believers to be always ready to give a reason for their hope to anyone who asks."
+  },
+  {
+   "id": "bacon-depth-in-philosophy",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon thought a little philosophy inclines the mind to atheism, while depth in philosophy brings it about to religion."
+  },
+  {
+   "id": "tertullian-athens-and-jerusalem",
+   "after": "source:ABU0147",
+   "responds": [
+    "source:ABU0147"
+   ],
+   "relation": "contrast",
+   "why": "Tertullian asks what Athens has to do with Jerusalem. When the reading sets Plato beside Christ, are they rivals or two kinds of teacher?"
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says his preaching was not with enticing words of human wisdom, but in demonstration of the Spirit."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Hearers of Jesus marvel that this man knows letters, having never learned, a knowledge not from the schools."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman, wearied by the astronomer's proofs and figures, goes out and looks up in silence at the stars."
+  },
+  {
+   "id": "xenophanes-by-seeking",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "contrast",
+   "why": "Xenophanes says the gods have not revealed all things from the beginning, but by seeking men find out better in time. Is patient induction blindness, or the ordinary way of seeing further?"
+  },
+  {
+   "id": "aquinas-grace-perfects-nature",
+   "after": "source:ABU0280",
+   "responds": [
+    "source:ABU0280"
+   ],
+   "relation": "adjacent",
+   "why": "Aquinas holds that grace does not destroy nature but perfects it, so that natural reason serves faith."
+  },
+  {
+   "id": "arnold-faith-in-machinery",
+   "after": "source:AB00279",
+   "responds": [
+    "source:AB00279"
+   ],
+   "relation": "adjacent",
+   "why": "Arnold names faith in machinery as the besetting danger of a civilization that forgets what machinery is for."
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:AB00620",
+   "responds": [
+    "source:AB00620"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's rule is brief and covers both kinds of truth: prove all things, and hold fast that which is good."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:ABU0373",
+   "responds": [
+    "source:ABU0373"
+   ],
+   "relation": "adjacent",
+   "why": "Keats likens a discovery of the mind to a watcher of the skies when a new planet swims into his ken."
+  },
+  {
+   "id": "emerson-every-natural-fact",
+   "after": "source:ABU0049",
+   "responds": [
+    "source:ABU0049"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson holds that every natural fact is a symbol of some spiritual fact."
+  },
+  {
+   "id": "romans-things-that-are-made",
+   "after": "source:BH00245",
+   "responds": [
+    "source:BH00245"
+   ],
+   "relation": "adjacent",
+   "why": "Paul holds that the invisible things of God are clearly seen from creation, being understood by the things that are made."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB00740",
+   "responds": [
+    "source:AB00740"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus joins purity and knowledge in a beatitude: the pure in heart shall see God."
+  },
+  {
+   "id": "proverbs-lord-giveth-wisdom",
+   "after": "source:AB02800",
+   "responds": [
+    "source:AB02800"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the Lord gives wisdom, and that knowledge and understanding come out of his mouth."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:AB02800",
+   "responds": [
+    "source:AB02800"
+   ],
+   "relation": "complement",
+   "why": "Confucius holds that learning without thought is labour lost and thought without learning perilous. Can a fountain within replace study, or only complete it?"
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:AB01536",
+   "responds": [
+    "source:AB01536"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of maturity in the same way: become a man, he put away childish things."
+  },
+  {
+   "id": "corinthians-vail-upon-their-heart",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a veil that remains upon the heart in the reading of scripture until it is taken away."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu says that he who knows does not care to speak, and he who is ready to speak does not know."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:AB00381",
+   "responds": [
+    "source:AB00381"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls himself a minister of the spirit and not the letter, for the letter kills but the spirit gives life."
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:ABU1762",
+   "responds": [
+    "source:ABU1762"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that his thoughts are not our thoughts, nor his ways our ways."
+  },
+  {
+   "id": "quran-hearts-grow-blind",
+   "after": "source:AB02568",
+   "responds": [
+    "source:AB02568"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says it is not the eyes that grow blind, but the hearts within the breasts."
+  },
+  {
+   "id": "john-who-did-sin",
+   "after": "source:AB02568",
+   "responds": [
+    "source:AB02568"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus, passing a man blind from birth, refuses the question of whose sin caused it."
+  },
+  {
+   "id": "quran-eyes-whitened-with-sorrow",
+   "after": "source:AB05538",
+   "responds": [
+    "source:AB05538"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse the reading quotes: Jacob's eyes were whitened with sorrow for Joseph."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:AB05160",
+   "responds": [
+    "source:AB05160"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha prays that his servant's eyes be opened, and the young man sees what was already there."
+  },
+  {
+   "id": "luke-eyes-were-holden",
+   "after": "source:AB05834",
+   "responds": [
+    "source:AB05834"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus draws near and walks with two who are reasoning together, but their eyes are holden so that they do not know him."
+  },
+  {
+   "id": "john-ye-say-we-see",
+   "after": "source:ABU3681",
+   "responds": [
+    "source:ABU3681"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says he came that they which see not might see, and that they which see might be made blind."
+  },
+  {
+   "id": "psalm-eyes-have-they",
+   "after": "source:ABU3681",
+   "responds": [
+    "source:ABU3681"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of idols that they have mouths and speak not, eyes and see not."
+  },
+  {
+   "id": "revelation-gold-tried-in-the-fire",
+   "after": "source:ABU1679",
+   "responds": [
+    "source:ABU1679"
+   ],
+   "relation": "contrast",
+   "why": "Revelation rebukes a church that does not know it is wretched, poor, blind and naked. What danger lies in being told that all are blind but you?"
+  },
+  {
+   "id": "shakespeare-sleep-and-feed",
+   "after": "source:BH10402",
+   "responds": [
+    "source:BH10402"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet asks what a man is if his chief good be but to sleep and feed, and answers: a beast, no more."
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:AB04410",
+   "responds": [
+    "source:AB04410"
+   ],
+   "relation": "contrast",
+   "why": "Malachi asks whether we have not all one father and one God who created us. What is lost when human beings are sorted into two kinds?"
+  },
+  {
+   "id": "pascal-heart-experiences-god",
+   "after": "source:ABU3066",
+   "responds": [
+    "source:ABU3066"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says it is the heart which experiences God, and not the reason."
+  },
+  {
+   "id": "matthew-with-all-thy-mind",
+   "after": "source:ABU3066",
+   "responds": [
+    "source:ABU3066"
+   ],
+   "relation": "adjacent",
+   "why": "The first commandment as Jesus gives it asks love with all the heart, all the soul and all the mind together."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:ABU0989",
+   "responds": [
+    "source:ABU0989"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel promises that they that be wise shall shine as the brightness of the firmament."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:BH02002",
+   "responds": [
+    "source:BH02002"
+   ],
+   "relation": "adjacent",
+   "why": "Sophocles' chorus sings that wonders are many, and none more wonderful than man."
+  },
+  {
+   "id": "quran-follow-not-without-knowledge",
+   "after": "source:BH05413",
+   "responds": [
+    "source:BH05413"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an names hearing, sight and heart together as the faculties for which each person will be asked."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:AB10488",
+   "responds": [
+    "source:AB10488"
+   ],
+   "relation": "adjacent",
+   "why": "James traces every good and perfect gift to one source, with whom is no variableness."
+  },
+  {
+   "id": "kings-understanding-heart",
+   "after": "source:AB10488",
+   "responds": [
+    "source:AB10488"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon asks God for an understanding heart, that he may discern between good and bad in judging a great people."
+  },
+  {
+   "id": "luke-time-of-thy-visitation",
+   "after": "source:BH02950",
+   "responds": [
+    "source:BH02950"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of a city that the things which belong to its peace are hid from its eyes."
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:BH00229",
+   "responds": [
+    "source:BH00229"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel is told to seal the book until the time of the end, when knowledge shall be increased."
+  },
+  {
+   "id": "habakkuk-knowledge-of-the-glory",
+   "after": "source:BH03969",
+   "responds": [
+    "source:BH03969"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk foresees the earth filled with the knowledge of the glory of the Lord as the waters cover the sea."
+  },
+  {
+   "id": "isaiah-eye-hath-not-seen-beside-thee",
+   "after": "source:BH03969",
+   "responds": [
+    "source:BH03969"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that no ear has perceived and no eye has seen, beside God, what he has prepared."
+  },
+  {
+   "id": "quran-trees-were-pens",
+   "after": "source:BH09589",
+   "responds": [
+    "source:BH09589"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an pictures the sea as ink, with seven seas more, and the words of God still not exhausted."
+  },
+  {
+   "id": "proverbs-wisdom-better-than-gold",
+   "after": "source:BH08076",
+   "responds": [
+    "source:BH08076"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks how much better it is to get wisdom than gold, and understanding than silver."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:BH03863",
+   "responds": [
+    "source:BH03863"
+   ],
+   "relation": "adjacent",
+   "why": "Joel foresees the spirit poured out upon all flesh, sons and daughters alike."
+  },
+  {
+   "id": "psalm-entrance-of-thy-words",
+   "after": "source:BH06242",
+   "responds": [
+    "source:BH06242"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says the entrance of God's words gives light and understanding to the simple."
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "source:AB09708",
+   "responds": [
+    "source:AB09708"
+   ],
+   "relation": "adjacent",
+   "why": "The Light Verse says that God guides to his light whom he will, a light upon light."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:AB11976",
+   "responds": [
+    "source:AB11976"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews defines faith as the substance of things hoped for, the evidence of things not seen."
+  },
+  {
+   "id": "tennyson-honest-doubt",
+   "after": "source:AB11976",
+   "responds": [
+    "source:AB11976"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson writes of one perplexed in faith but pure in deeds, who at last beat his music out. Is certitude the mark of true knowledge, or may doubt be part of the way to it?"
+  },
+  {
+   "id": "psalm-in-thy-light",
+   "after": "source:AB01940",
+   "responds": [
+    "source:AB01940"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm ends in the reading's own figure: with God is the fountain of life, and in his light we see light."
+  },
+  {
+   "id": "hosea-lack-of-knowledge",
+   "after": "source:BH07154",
+   "responds": [
+    "source:BH07154"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea gives the warning that answers this prayer: my people are destroyed for lack of knowledge."
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "source:BH03962",
+   "responds": [
+    "source:BH03962"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus calls his disciples' eyes and ears blessed, for many prophets desired to see what they see."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:BH03962",
+   "responds": [
+    "source:BH03962"
+   ],
+   "relation": "complement",
+   "why": "Paul warns that knowledge puffs up while charity edifies. How is a rare gift to be valued without looking down on those said to lack it?"
+  },
+  {
+   "id": "quran-throne-verse",
+   "after": "selection:7c0b55063d0b40175a14e04f",
+   "responds": [
+    "selection:7c0b55063d0b40175a14e04f"
+   ],
+   "relation": "adjacent",
+   "why": "The Throne Verse speaks of the knowledge that belongs to God alone, the Alive, the Eternal, whom neither slumber nor sleep overtakes."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "selection:9f9dab1c474b2ffe6ee37c4c",
+   "responds": [
+    "selection:9f9dab1c474b2ffe6ee37c4c"
+   ],
+   "relation": "contrast",
+   "why": "Hume, entering most intimately into himself, finds only perceptions and never a self without one. Is there a knowing that needs no image in the mind?"
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "selection:af33fa4f244cc99f71c37e1d",
+   "responds": [
+    "selection:af33fa4f244cc99f71c37e1d"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet tells Horatio there are more things in heaven and earth than his philosophy has dreamt of."
+  },
+  {
+   "id": "quran-men-of-understanding",
+   "after": "selection:44889e64330f2fd4cff80f93",
+   "responds": [
+    "selection:44889e64330f2fd4cff80f93"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an points to the heavens, the earth and the alternation of night and day as tokens for those who understand."
+  },
+  {
+   "id": "bacon-no-dry-light",
+   "after": "selection:601dcee8d2e0e97bb11b88e2",
+   "responds": [
+    "selection:601dcee8d2e0e97bb11b88e2"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon observes that the human understanding is no dry light but takes an infusion from the will and affections."
+  },
+  {
+   "id": "emerson-gleam-of-light",
+   "after": "selection:dad329d2cb70c765921ac08d",
+   "responds": [
+    "selection:dad329d2cb70c765921ac08d"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson asks each person to watch for the gleam of light that flashes across the mind from within."
+  },
+  {
+   "id": "augustine-thou-wert-within",
+   "after": "selection:dad329d2cb70c765921ac08d",
+   "responds": [
+    "selection:dad329d2cb70c765921ac08d"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine confesses that he sought outside what was within him all the while, a beauty ancient and new."
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "selection:cb9a36f0eedf8c55300553bf",
+   "responds": [
+    "selection:cb9a36f0eedf8c55300553bf"
+   ],
+   "relation": "complement",
+   "why": "Kant says he had to abolish knowledge to make room for belief. Is what lies beyond the intellect a higher knowing, or the place where knowing stops?"
+  },
+  {
+   "id": "julian-hazel-nut",
+   "after": "selection:572dfe48a121cf881ba7247a",
+   "responds": [
+    "selection:572dfe48a121cf881ba7247a"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich is shown a little thing and looks on it with the eye of her understanding."
+  }
+ ],
+ "library": {}
+}
