@@ -1,0 +1,455 @@
+{
+ "format": 2,
+ "slug": "economics",
+ "subject": "FC3291E97A2B4A1FB2A2B664AB345C85",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 36,
+ "quotations": 44,
+ "kept": [
+  "source:AB00016",
+  "source:AB03273",
+  "source:AB00274",
+  "source:ABU2240",
+  "source:ABU0266",
+  "source:ABU0689",
+  "source:ABU0124",
+  "source:ABU0462",
+  "source:ABU0001",
+  "source:ABU0026",
+  "source:AB00099",
+  "source:ABU2253",
+  "source:ABU0382",
+  "source:ABU0437",
+  "source:ABU0042",
+  "source:ABU0392",
+  "source:ABU0952",
+  "source:ABU0649",
+  "source:ABU1047",
+  "source:ABU3532",
+  "source:ABU0034",
+  "source:ABU0776",
+  "source:ABU3026",
+  "source:ABU3667",
+  "source:ABU1216",
+  "source:AB00612",
+  "source:ABU3362",
+  "source:ABU3041",
+  "source:ABU1072",
+  "source:ABU3036",
+  "source:ABU3190",
+  "selection:fc8cdd87e1dc0717608a79b9",
+  "selection:9b59616a40015695fa11daf4",
+  "selection:4b48b6b2256327e979fe48eb",
+  "selection:7221ce66b168098a95e637ae",
+  "selection:71cc04f19397b0ad3e38c654"
+ ],
+ "introduction": "These readings treat poverty and wealth as a moral question before a technical one. They ask for voluntary sharing, which they rank above enforced equality; for laws that prevent extremes of riches and want; for a village storehouse and taxes in proportion to surplus; for an end to 'industrial slavery'; and they insist that the problem be solved with justice and love and not by force, and that it cannot be solved without a change of heart. Later passages add that the Faith offers principles and not an economic system. Each of the forty-four quotations is read here beside one from elsewhere. Most stand alongside: the Law of Moses on gleanings, the jubilee and the land, the manna of which none had too much, the first believers' common goods, Paul's cheerful giver, the Qur'an's alms, Aristotle, Adam Smith, Ruskin, Roosevelt. Six push back or add a side: Smith's butcher, Douglass on struggle, James on wages kept back, 'the poor always with you', the vineyard owner, and the Tao Teh King.",
+ "questions": [
+  "The readings rank voluntary sharing above equality imposed by law, and also call for laws against extremes. What belongs to the heart and what to legislation?",
+  "'It must be solved with justice and not with force.' Douglass says that power concedes nothing without a demand. What forms of pressure are consistent with these readings?",
+  "Adam Smith says we get our dinner from the self-interest of the butcher. What would have to be true of people for an economy to rest on something more?",
+  "One reading proposes a village storehouse and taxes rising with surplus; a later one says that the Faith has almost no technical economic teachings. How should the specific proposals be read?",
+  "What would 'industrial slavery' mean where you live now, and what would end it?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: every man as he purposeth in his heart, not grudgingly, or of necessity, for God loveth a cheerful giver."
+  },
+  {
+   "id": "acts-was-it-not-thine-own",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Peter says to a man who gave grudgingly and lied about it: whiles it remained, was it not thine own?"
+  },
+  {
+   "id": "acts-all-things-common",
+   "after": "source:AB03273",
+   "responds": [
+    "source:AB03273"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says of the first believers that they had all things common, and parted to all men as every man had need."
+  },
+  {
+   "id": "quran-prefer-above-themselves",
+   "after": "source:AB03273",
+   "responds": [
+    "source:AB03273"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an praises those who prefer others above themselves, though poverty be their own lot."
+  },
+  {
+   "id": "genesis-lay-up-corn-against-the-famine",
+   "after": "source:AB00274",
+   "responds": [
+    "source:AB00274"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph advises Pharaoh to gather a fifth of the harvest in the plenteous years and lay it up against the famine."
+  },
+  {
+   "id": "james-poor-rich-in-faith",
+   "after": "source:ABU2240",
+   "responds": [
+    "source:ABU2240"
+   ],
+   "relation": "adjacent",
+   "why": "James asks: hath not God chosen the poor of this world rich in faith?"
+  },
+  {
+   "id": "carnegie-dies-thus-rich-dies-disgraced",
+   "after": "source:ABU2240",
+   "responds": [
+    "source:ABU2240"
+   ],
+   "relation": "adjacent",
+   "why": "Carnegie wrote that the man who dies rich, leaving wealth he was free to administer in life, dies disgraced."
+  },
+  {
+   "id": "malachi-windows-of-heaven",
+   "after": "source:ABU0266",
+   "responds": [
+    "source:ABU0266"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi has God say: prove me now, if I will not open you the windows of heaven, and pour you out a blessing."
+  },
+  {
+   "id": "deuteronomy-open-thine-hand",
+   "after": "source:ABU0689",
+   "responds": [
+    "source:ABU0689"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy commands: thou shalt open thine hand wide unto thy brother, to thy poor, and to thy needy."
+  },
+  {
+   "id": "leviticus-gleanings-for-the-poor",
+   "after": "source:ABU0689",
+   "responds": [
+    "source:ABU0689"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus forbids reaping the corners of the field, and leaves the gleanings for the poor and the stranger."
+  },
+  {
+   "id": "roosevelt-test-of-our-progress",
+   "after": "source:ABU0689",
+   "responds": [
+    "source:ABU0689"
+   ],
+   "relation": "adjacent",
+   "why": "Franklin Roosevelt said that the test of our progress is whether we provide enough for those who have too little."
+  },
+  {
+   "id": "ezekiel-new-heart",
+   "after": "source:ABU0124",
+   "responds": [
+    "source:ABU0124"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel has God promise: a new heart will I give you, and I will take away the stony heart."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:ABU0124",
+   "responds": [
+    "source:ABU0124"
+   ],
+   "relation": "contrast",
+   "why": "Adam Smith observed that it is not from the benevolence of the butcher, the brewer or the baker that we expect our dinner, but from their regard to their own interest. How far can an economy rest on changed hearts?"
+  },
+  {
+   "id": "proverbs-neither-poverty-nor-riches",
+   "after": "source:ABU0462",
+   "responds": [
+    "source:ABU0462"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer in Proverbs asks for neither poverty nor riches, but food convenient."
+  },
+  {
+   "id": "aristotle-citizens-of-the-middle-class",
+   "after": "source:ABU0462",
+   "responds": [
+    "source:ABU0462"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that the best political community is formed by citizens of the middle class."
+  },
+  {
+   "id": "matthew-poor-always",
+   "after": "source:ABU0462",
+   "responds": [
+    "source:ABU0462"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says: ye have the poor always with you. Does that saying forbid the hope of laws under which none shall be destitute, or only warn about it?"
+  },
+  {
+   "id": "corinthians-that-there-may-be-equality",
+   "after": "source:ABU0001",
+   "responds": [
+    "source:ABU0001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks the Corinthians to give so that their abundance may supply others' want, that there may be equality."
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:ABU0001",
+   "responds": [
+    "source:ABU0001"
+   ],
+   "relation": "contrast",
+   "why": "Frederick Douglass said that power concedes nothing without a demand, and that those who want progress without struggle want crops without ploughing. Can this problem be 'solved lovingly' without pressure from those who suffer under it?"
+  },
+  {
+   "id": "james-hire-of-the-labourers",
+   "after": "source:ABU0026",
+   "responds": [
+    "source:ABU0026"
+   ],
+   "relation": "complement",
+   "why": "James says that the hire of the labourers, kept back by fraud, crieth, and the cries have entered into the ears of the Lord. When wages are unjust, what may labour rightly do short of strife?"
+  },
+  {
+   "id": "quran-alms-wherewith-thou-mayst-purify",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells the Prophet to take alms of their wealth, wherewith to purify them."
+  },
+  {
+   "id": "leviticus-proclaim-liberty",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus orders a jubilee every fiftieth year, in which liberty is proclaimed and every man returns to his possession."
+  },
+  {
+   "id": "philippians-esteem-other-better",
+   "after": "source:ABU2253",
+   "responds": [
+    "source:ABU2253"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: in lowliness of mind let each esteem other better than themselves."
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:ABU0382",
+   "responds": [
+    "source:ABU0382"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable a master gives to one servant five talents, to another two, and to another one, to every man according to his several ability."
+  },
+  {
+   "id": "exodus-he-that-gathered-much",
+   "after": "source:ABU0437",
+   "responds": [
+    "source:ABU0437"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says of the manna that he that gathered much had nothing over, and he that gathered little had no lack."
+  },
+  {
+   "id": "smith-no-society-flourishing-and-happy",
+   "after": "source:ABU0042",
+   "responds": [
+    "source:ABU0042"
+   ],
+   "relation": "adjacent",
+   "why": "Adam Smith wrote that no society can be flourishing and happy, of which the far greater part of the members are poor and miserable."
+  },
+  {
+   "id": "proverbs-lendeth-unto-the-lord",
+   "after": "source:ABU0392",
+   "responds": [
+    "source:ABU0392"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he that hath pity upon the poor lendeth unto the Lord."
+  },
+  {
+   "id": "mark-widows-mites",
+   "after": "source:ABU0649",
+   "responds": [
+    "source:ABU0649"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of a poor widow who cast in two mites that she has given more than all the rich."
+  },
+  {
+   "id": "matthew-alms-before-men",
+   "after": "source:ABU0649",
+   "responds": [
+    "source:ABU0649"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: take heed that ye do not your alms before men, to be seen of them."
+  },
+  {
+   "id": "thessalonians-neither-should-he-eat",
+   "after": "source:ABU1047",
+   "responds": [
+    "source:ABU1047"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gave this rule: if any would not work, neither should he eat."
+  },
+  {
+   "id": "blake-dark-satanic-mills",
+   "after": "source:ABU3532",
+   "responds": [
+    "source:ABU3532"
+   ],
+   "relation": "adjacent",
+   "why": "Blake asked whether the countenance divine shone forth, and Jerusalem was builded, among England's dark Satanic mills."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0776",
+   "responds": [
+    "source:ABU0776"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees swords beaten into plowshares, the metal of war turned to the growing of food."
+  },
+  {
+   "id": "luke-zacchaeus-fourfold",
+   "after": "source:ABU3026",
+   "responds": [
+    "source:ABU3026"
+   ],
+   "relation": "adjacent",
+   "why": "The rich tax-collector Zacchaeus says: the half of my goods I give to the poor, and if I have taken wrongly I restore fourfold."
+  },
+  {
+   "id": "mill-mechanical-inventions",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "adjacent",
+   "why": "Mill doubted whether all the mechanical inventions yet made had lightened the day's toil of any human being."
+  },
+  {
+   "id": "aristotle-shuttle-would-weave",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle imagined that if the shuttle would weave without a hand to guide it, masters would not want slaves."
+  },
+  {
+   "id": "jeremiah-buildeth-his-house-by-unrighteousness",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says: woe unto him that useth his neighbour's service without wages."
+  },
+  {
+   "id": "timothy-love-of-money",
+   "after": "source:ABU3362",
+   "responds": [
+    "source:ABU3362"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's letter says that the love of money is the root of all evil."
+  },
+  {
+   "id": "timothy-godliness-with-contentment",
+   "after": "source:ABU3041",
+   "responds": [
+    "source:ABU3041"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's letter says that godliness with contentment is great gain, and that having food and raiment we should be content."
+  },
+  {
+   "id": "luke-two-coats",
+   "after": "source:ABU1072",
+   "responds": [
+    "source:ABU1072"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist says: he that hath two coats, let him impart to him that hath none."
+  },
+  {
+   "id": "leviticus-land-is-mine",
+   "after": "source:ABU3036",
+   "responds": [
+    "source:ABU3036"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus says that the land shall not be sold for ever, for the land is God's, and its holders are strangers and sojourners."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU3190",
+   "responds": [
+    "source:ABU3190"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter asks how the love of God dwells in one who has this world's good, sees his brother in need, and shuts up his compassion."
+  },
+  {
+   "id": "ruskin-no-wealth-but-life",
+   "after": "source:ABU3190",
+   "responds": [
+    "source:ABU3190"
+   ],
+   "relation": "adjacent",
+   "why": "Ruskin wrote that there is no wealth but life, and that the richest country is the one that nourishes the greatest number of noble and happy human beings."
+  },
+  {
+   "id": "matthew-labourers-in-the-vineyard",
+   "after": "selection:fc8cdd87e1dc0717608a79b9",
+   "responds": [
+    "selection:fc8cdd87e1dc0717608a79b9"
+   ],
+   "relation": "complement",
+   "why": "In the parable a householder pays the last-hired the same as the first, and asks those who complain whether he may not do what he will with his own. What is the difference between equality imposed and generosity chosen?"
+  },
+  {
+   "id": "tao-way-of-heaven-diminishes-superabundance",
+   "after": "selection:9b59616a40015695fa11daf4",
+   "responds": [
+    "selection:9b59616a40015695fa11daf4"
+   ],
+   "relation": "contrast",
+   "why": "The Tao Teh King says that the Way of Heaven is to diminish superabundance and supplement deficiency, while the way of man takes from those who have not enough. If complete equality is unjust, how much inequality is just?"
+  },
+  {
+   "id": "analects-enrich-them-teach-them",
+   "after": "selection:71cc04f19397b0ad3e38c654",
+   "responds": [
+    "selection:71cc04f19397b0ad3e38c654"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius, asked what should be done for a numerous people, said: enrich them; and then: teach them."
+  }
+ ],
+ "library": {}
+}
