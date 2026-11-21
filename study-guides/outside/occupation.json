@@ -1,0 +1,664 @@
+{
+ "format": 2,
+ "slug": "occupation",
+ "subject": "C307803DE6C7E45E17BD19C083DE4620",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 43,
+ "quotations": 45,
+ "kept": [
+  "source:BH00001",
+  "source:BB00003",
+  "source:BH00113",
+  "source:BH02575",
+  "source:BH00529",
+  "source:AB00004",
+  "source:BH00751",
+  "source:BH00568",
+  "source:BH00676",
+  "source:ABU2418",
+  "source:ABU3440",
+  "source:AB03223",
+  "source:BH00278",
+  "source:ABU0038",
+  "source:AB11058",
+  "source:ABU0106",
+  "source:ABU0510",
+  "source:AB11739",
+  "source:ABU2391",
+  "source:ABU2450",
+  "source:AB09242",
+  "source:ABU3634",
+  "source:AB04743",
+  "source:AB11365",
+  "source:BH00871",
+  "source:AB08430",
+  "source:BH03267",
+  "source:BH00550",
+  "source:BH10106",
+  "source:BH10133",
+  "source:BH00949",
+  "source:BH11762",
+  "source:BH07353",
+  "source:BH10890",
+  "source:BH08896",
+  "source:AB04007",
+  "source:AB05669",
+  "source:ABU0481",
+  "source:ABU2483",
+  "source:BH00510",
+  "source:ABU3735",
+  "source:AB09366",
+  "selection:b5dae8ff10767079b38d2b4a"
+ ],
+ "introduction": "These readings lay down a plain rule and a high claim: everyone, rich or poor, must learn and practise a craft, trade or profession, and work done in a spirit of service is counted as worship. Many are short letters to individuals, telling them to mind the shop, learn a skill or find work for someone idle. The older texts beside them say much the same, Proverbs on the ant and the sluggard, Paul the tentmaker on working with one's hands, Ben Sira on the craftsmen who maintain the world, the Qur’an on seeking God's bounty after prayer, Herbert on drudgery made divine. A few stand in contrast: the lilies that do not toil, Mary who sat still, the sweat of Adam's face, and Thoreau and Emerson on work that wears people down.",
+ "questions": [
+  "What makes work worship in these readings: the work, the skill, or the spirit in which it is done?",
+  "Genesis shows work both as a charge given in the garden and as a sentence after it. Which does your own work feel like, and what do the readings say to that?",
+  "Jesus praises Mary for sitting still and the lilies for not toiling. How do the readings hold contemplation and occupation together?",
+  "Why do the readings insist that the rich as well as the poor learn a trade?",
+  "Thoreau and Emerson describe work that diminishes people. What do the readings say about the kind of work to choose?"
+ ],
+ "outside": [
+  {
+   "id": "colossians-heartily-as-to-the-lord",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that whatever is done be done heartily, as to the Lord and not unto men, work offered as worship."
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Herbert prays to do everything as for God, a clause that makes drudgery divine and the sweeping of a room fine."
+  },
+  {
+   "id": "matthew-lilies-of-the-field",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Jesus points to the lilies of the field, which toil not, neither do they spin. Is every person bound to an occupation, or is there a trust that does not toil?"
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that God called Bezaleel by name and filled him with his spirit in all manner of workmanship."
+  },
+  {
+   "id": "psalm-establish-the-work-of-our-hands",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm ends by asking God to establish the work of our hands upon us."
+  },
+  {
+   "id": "psalm-eat-the-labour-of-thine-hands",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm promises the one who fears God that he shall eat the labour of his hands and be happy."
+  },
+  {
+   "id": "jeremiah-potters-house",
+   "after": "source:BH02575",
+   "responds": [
+    "source:BH02575"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah is sent to watch a potter work a vessel on the wheels, and learns of God from the craft."
+  },
+  {
+   "id": "sirach-maintain-the-state-of-the-world",
+   "after": "source:BH02575",
+   "responds": [
+    "source:BH02575"
+   ],
+   "relation": "adjacent",
+   "why": "Ben Sira says of smiths and potters that without them no city can be inhabited, and that they maintain the state of the world."
+  },
+  {
+   "id": "thessalonians-neither-should-he-eat",
+   "after": "source:BH00529",
+   "responds": [
+    "source:BH00529"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's rule for his churches was that if any would not work, neither should he eat."
+  },
+  {
+   "id": "acts-these-hands-have-ministered",
+   "after": "source:BH00529",
+   "responds": [
+    "source:BH00529"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds the elders that his own hands ministered to his needs, so as to support the weak."
+  },
+  {
+   "id": "ephesians-working-with-his-hands",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul would have a man labour with his hands so that he may have something to give to him that needs."
+  },
+  {
+   "id": "thessalonians-study-to-be-quiet",
+   "after": "source:BH00751",
+   "responds": [
+    "source:BH00751"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks believers to study to be quiet, do their own business and work with their own hands."
+  },
+  {
+   "id": "luke-one-thing-needful",
+   "after": "source:BH00751",
+   "responds": [
+    "source:BH00751"
+   ],
+   "relation": "contrast",
+   "why": "Jesus tells Martha, busy with much serving, that one thing is needful and Mary has chosen it. Are nearness to God and outward affairs never at odds?"
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon wanted knowledge that gives power to produce effects, the useful science the reading commends."
+  },
+  {
+   "id": "proverbs-talk-of-the-lips",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that in all labour there is profit, but the talk of the lips tends only to penury."
+  },
+  {
+   "id": "kant-like-a-jewel",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "complement",
+   "why": "Kant says a good will shines like a jewel by its own light, its usefulness adding nothing to its worth. Is usefulness the right measure of what is worth learning?"
+  },
+  {
+   "id": "dhammapada-wise-people-fashion-themselves",
+   "after": "source:BH00676",
+   "responds": [
+    "source:BH00676"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada sets the wise beside fletchers and carpenters: as they shape arrow and wood, the wise fashion themselves."
+  },
+  {
+   "id": "quran-man-hath-only-that-for-which",
+   "after": "source:ABU2418",
+   "responds": [
+    "source:ABU2418"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says in one line that man has only that for which he makes effort."
+  },
+  {
+   "id": "marcus-work-of-a-human-being",
+   "after": "source:ABU3440",
+   "responds": [
+    "source:ABU3440"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius tells himself on rising unwillingly that he is rising to the work of a human being."
+  },
+  {
+   "id": "thoreau-quiet-desperation",
+   "after": "source:ABU3440",
+   "responds": [
+    "source:ABU3440"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau observed that the mass of men lead lives of quiet desperation. What kind of work gives dignity, and what kind takes it away?"
+  },
+  {
+   "id": "luke-labourer-is-worthy",
+   "after": "source:AB03223",
+   "responds": [
+    "source:AB03223"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sends out his followers with the principle that the labourer is worthy of his hire."
+  },
+  {
+   "id": "proverbs-go-to-the-ant",
+   "after": "source:BH00278",
+   "responds": [
+    "source:BH00278"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs sends the sluggard to the ant, who with no overseer provides her meat in the summer."
+  },
+  {
+   "id": "proverbs-field-of-the-slothful",
+   "after": "source:BH00278",
+   "responds": [
+    "source:BH00278"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs walks by the field of the slothful and finds it grown over with thorns, its wall broken down."
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:ABU0038",
+   "responds": [
+    "source:ABU0038"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable a master entrusts talents to each servant according to his several ability."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:ABU0106",
+   "responds": [
+    "source:ABU0106"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks that a child be trained up in the way he should go, so that when old he will not depart from it."
+  },
+  {
+   "id": "mark-is-not-this-the-carpenter",
+   "after": "source:ABU0106",
+   "responds": [
+    "source:ABU0106"
+   ],
+   "relation": "adjacent",
+   "why": "The neighbours of Jesus knew him by his trade: is not this the carpenter, the son of Mary?"
+  },
+  {
+   "id": "locke-nine-parts-of-ten",
+   "after": "source:ABU0510",
+   "responds": [
+    "source:ABU0510"
+   ],
+   "relation": "adjacent",
+   "why": "Locke judged that of all the men we meet, nine parts of ten are what they are by their education."
+  },
+  {
+   "id": "longfellow-up-and-doing",
+   "after": "source:ABU2391",
+   "responds": [
+    "source:ABU2391"
+   ],
+   "relation": "adjacent",
+   "why": "Longfellow's psalm of life bids us be up and doing, and learn to labour and to wait."
+  },
+  {
+   "id": "acts-they-were-tentmakers",
+   "after": "source:ABU2450",
+   "responds": [
+    "source:ABU2450"
+   ],
+   "relation": "adjacent",
+   "why": "Acts records that Paul stayed with Aquila and Priscilla because he was of the same craft, and worked with them."
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:AB09242",
+   "responds": [
+    "source:AB09242"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that whatever thy hand finds to do, do it with thy might."
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:AB09242",
+   "responds": [
+    "source:AB09242"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a man diligent in his business shall stand before kings."
+  },
+  {
+   "id": "carlyle-duty-which-lies-nearest",
+   "after": "source:AB04743",
+   "responds": [
+    "source:AB04743"
+   ],
+   "relation": "adjacent",
+   "why": "Carlyle's precept was to do the duty which lies nearest; the second duty will then have become clearer."
+  },
+  {
+   "id": "proverbs-hand-of-the-diligent",
+   "after": "source:AB11365",
+   "responds": [
+    "source:AB11365"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says a slack hand makes poor, but the hand of the diligent makes rich."
+  },
+  {
+   "id": "emerson-things-in-the-saddle",
+   "after": "source:AB11365",
+   "responds": [
+    "source:AB11365"
+   ],
+   "relation": "contrast",
+   "why": "Emerson saw the merchant serving the purse and things in the saddle, riding mankind. When does keeping the shop going begin to keep the shopkeeper?"
+  },
+  {
+   "id": "quran-seek-of-allahs-bounty",
+   "after": "source:BH00871",
+   "responds": [
+    "source:BH00871"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an bids believers, when the prayer is ended, disperse in the land and seek of God's bounty."
+  },
+  {
+   "id": "proverbs-worketh-willingly-with-her-hands",
+   "after": "source:BH10133",
+   "responds": [
+    "source:BH10133"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs praises the woman who seeks wool and flax and works willingly with her hands."
+  },
+  {
+   "id": "genesis-put-him-into-the-garden",
+   "after": "source:BH00949",
+   "responds": [
+    "source:BH00949"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis puts the first man into the garden to dress it and to keep it, work before any fall."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:BH11762",
+   "responds": [
+    "source:BH11762"
+   ],
+   "relation": "contrast",
+   "why": "Genesis also makes toil a sentence: in the sweat of thy face shalt thou eat bread. Is work a curse to be borne or worship to be offered?"
+  },
+  {
+   "id": "ecclesiastes-sleep-of-a-labouring-man",
+   "after": "source:BH10890",
+   "responds": [
+    "source:BH10890"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that the sleep of a labouring man is sweet, whether he eat little or much."
+  },
+  {
+   "id": "voltaire-take-care-of-our-garden",
+   "after": "source:AB04007",
+   "responds": [
+    "source:AB04007"
+   ],
+   "relation": "adjacent",
+   "why": "Voltaire's Candide ends with the resolve to take care of our garden, since man was not born to be idle."
+  },
+  {
+   "id": "plato-doing-ones-own-business",
+   "after": "source:AB05669",
+   "responds": [
+    "source:AB05669"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates defines justice as doing one's own business and not being a busybody."
+  },
+  {
+   "id": "hadith-anxiety-debt",
+   "after": "source:ABU0481",
+   "responds": [
+    "source:ABU0481"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer of Muhammad asks refuge from incapacity and laziness, and from being heavily in debt."
+  },
+  {
+   "id": "ruskin-no-wealth-but-life",
+   "after": "source:ABU2483",
+   "responds": [
+    "source:ABU2483"
+   ],
+   "relation": "adjacent",
+   "why": "Ruskin held that there is no wealth but life, and judged work by the noble and happy human beings it nourishes."
+  },
+  {
+   "id": "ecclesiastes-all-the-works-my-hands",
+   "after": "source:ABU3735",
+   "responds": [
+    "source:ABU3735"
+   ],
+   "relation": "complement",
+   "why": "The Preacher looked on all the works his hands had wrought and found them vanity and vexation of spirit. What keeps a working life from ending there?"
+  },
+  {
+   "id": "ecclesiastes-rejoice-and-do-good",
+   "after": "source:AB09366",
+   "responds": [
+    "source:AB09366"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher concludes that to enjoy the good of all one's labour is the gift of God."
+  }
+ ],
+ "library": {
+  "psalm-eat-the-labour-of-thine-hands": {
+   "text": "For thou shalt eat the labour of thine hands: happy shalt thou be, and it shall be well with thee",
+   "work": "Psalm 128:2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20128%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-worketh-willingly-with-her-hands": {
+   "text": "She seeketh wool, and flax, and worketh willingly with her hands",
+   "work": "Proverbs 31:13",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2031%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-working-with-his-hands": {
+   "text": "Let him that stole steal no more: but rather let him labour, working with his hands the thing which is good, that he may have to give to him that needeth",
+   "work": "Ephesians 4:28",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%204%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-sleep-of-a-labouring-man": {
+   "text": "The sleep of a labouring man is sweet, whether he eat little or much: but the abundance of the rich will not suffer him to sleep",
+   "work": "Ecclesiastes 5:12",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%205%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-hand-of-the-diligent": {
+   "text": "He becometh poor that dealeth with a slack hand: but the hand of the diligent maketh rich",
+   "work": "Proverbs 10:4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2010%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-these-hands-have-ministered": {
+   "text": "Yea, ye yourselves know, that these hands have ministered unto my necessities, and to them that were with me. I have shewed you all things, how that so labouring ye ought to support the weak, and to remember the words of the Lord Jesus, how he said, It is more blessed to give than to receive",
+   "work": "Acts 20:34–35",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2020%3A34-35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-six-days-shalt-thou-labour": {
+   "text": "Six days shalt thou labour, and do all thy work",
+   "work": "Exodus 20:9",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2020%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "sirach-maintain-the-state-of-the-world": {
+   "text": "All these trust to their hands: and every one is wise in his work. Without these cannot a city be inhabited: and they shall not dwell where they will, nor go up and down: They shall not be sought for in publick counsel, nor sit high in the congregation: they shall not sit on the judges' seat, nor understand the sentence of judgment: they cannot declare justice and judgment; and they shall not be found where parables are spoken. But they will maintain the state of the world, and [all] their desire is in the work of their craft",
+   "work": "Ecclesiasticus (Sirach) 38:31–34",
+   "year": "c. 2nd century BCE",
+   "sortYear": -180,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiasticus",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   },
+   "caveat": "From the Apocrypha of the King James Bible; Catholic and Orthodox Christians count the book in the Old Testament."
+  }
+ }
+}
