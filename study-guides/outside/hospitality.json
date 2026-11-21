@@ -1,0 +1,407 @@
+{
+ "format": 2,
+ "slug": "hospitality",
+ "subject": "02AB9A3E1C13E61D5B0AE0F70778680D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 26,
+ "quotations": 26,
+ "kept": [
+  "source:ABU2310",
+  "source:ABU2942",
+  "source:ABU2308",
+  "source:ABU0136",
+  "source:BH00889",
+  "source:ABU1719",
+  "source:ABU2602",
+  "source:AB05843",
+  "source:AB06018",
+  "source:AB08897",
+  "source:AB06713",
+  "source:ABU0670",
+  "source:AB08632",
+  "source:AB05684",
+  "source:AB04213",
+  "source:AB10104",
+  "source:AB01179",
+  "source:ABU1499",
+  "source:ABU2904",
+  "source:ABU3123",
+  "source:ABU0934",
+  "source:ABU2027",
+  "source:ABU1365",
+  "source:BH02894",
+  "source:ABU1095",
+  "source:ABU1792"
+ ],
+ "introduction": "The guide begins with a burnt cake in a thorn-picker’s hut, which ‘Abdu’l-Bahá called the best reception he ever attended, and with his rule that a table is judged by the love the food is seasoned with. The company gathered here has said much the same for a long time: Proverbs prefers a dinner of herbs where love is, a widow’s two mites outweigh the gifts of the rich, Abraham runs to meet three strangers, and a princess in the Odyssey feeds a shipwrecked man because strangers are under heaven’s protection. Other voices press on the readings. The Preacher thinks the house of mourning a better school than the house of feasting, Frost’s neighbour keeps his wall, Jesus asks for a table set for those who cannot repay, and Martha, cumbered about much serving, speaks for every host who is tired.",
+ "questions": [
+  "‘Abdu’l-Bahá judges a meal by the love it is seasoned with, and Proverbs prefers a dinner of herbs to a stalled ox. What would change in the way you prepare for guests if you took this as the measure?",
+  "The readings ask that strangers be honoured; Leviticus, Homer and Matthew each give a reason of their own. Which reason moves you most, and which is hardest to act on?",
+  "Jesus asks hosts to invite those who cannot repay them, while one reading makes hospitality the first step in teaching. Can a welcome have a purpose and still be freely given?",
+  "Martha is cumbered about much serving, and ‘Abdu’l-Bahá describes hosting the public from morning until evening. How could the labour of hospitality be seen and shared in your community?",
+  "Proverbs tells the guest to withdraw his foot, and the Arab custom condemns the one who betrays after drinking another’s coffee. What does a guest owe a host?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-dinner-of-herbs",
+   "after": "source:ABU2310",
+   "responds": [
+    "source:ABU2310",
+    "source:ABU1095"
+   ],
+   "relation": "adjacent",
+   "why": "“Seasoned with love”: Proverbs weighs a table the same way, a dinner of herbs where love is against a stalled ox served with hatred."
+  },
+  {
+   "id": "mark-widows-mites",
+   "after": "source:ABU2942",
+   "responds": [
+    "source:ABU2942",
+    "source:ABU1792"
+   ],
+   "relation": "adjacent",
+   "why": "A burnt cake from a thorn-picker’s wife was the best reception. Jesus counts a widow’s two mites as more than all the gifts of the rich, because she gave out of her want."
+  },
+  {
+   "id": "franklin-parable-against-persecution",
+   "after": "source:ABU2308",
+   "responds": [
+    "source:ABU2308"
+   ],
+   "relation": "adjacent",
+   "why": "This is the same story as Benjamin Franklin retold it in the style of Genesis; it reaches him from Saʿdī, and his God has borne with the idolater a hundred ninety and eight years."
+  },
+  {
+   "id": "avot-house-wide-open",
+   "after": "source:ABU0136",
+   "responds": [
+    "source:ABU0136"
+   ],
+   "relation": "adjacent",
+   "why": "A door always open to friends and strangers, though the host was not well off. A sage of the Mishnah gives it as a rule for any house, and adds who should be at home in it."
+  },
+  {
+   "id": "ecclesiastes-house-of-mourning",
+   "after": "source:ABU1719",
+   "responds": [
+    "source:ABU1719"
+   ],
+   "relation": "contrast",
+   "why": "“Whosoever enters … must go out with a gladsome heart.” The Preacher sends the wise to another house, where the heart is made better by sorrow. What does a home of laughter owe to the guest who arrives grieving?"
+  },
+  {
+   "id": "isaiah-come-to-the-waters",
+   "after": "source:ABU2602",
+   "responds": [
+    "source:ABU2602"
+   ],
+   "relation": "adjacent",
+   "why": "“My house is open to all.” Isaiah’s invitation has the same breadth and names the guest least expected: he that hath no money."
+  },
+  {
+   "id": "proverbs-neighbour-that-is-near",
+   "after": "source:AB05843",
+   "responds": [
+    "source:AB05843"
+   ],
+   "relation": "adjacent",
+   "why": "Neighbours as kith and kin. Proverbs goes a step further on the day of calamity: a neighbour who is near is better than a brother far off."
+  },
+  {
+   "id": "frost-mending-wall",
+   "after": "source:AB05843",
+   "responds": [
+    "source:AB05843"
+   ],
+   "relation": "contrast",
+   "why": "Frost’s neighbour holds to the old saying that good fences make good neighbours, and the poem only half disagrees. Does treating a neighbour as kin leave the wall standing, or take it down?"
+  },
+  {
+   "id": "homer-strangers-from-jove",
+   "after": "source:AB06018",
+   "responds": [
+    "source:AB06018"
+   ],
+   "relation": "adjacent",
+   "why": "“Strangers must be honored.” In the Odyssey a princess tells her frightened maids why the shipwrecked man is to be fed: strangers in distress are under the protection of Zeus."
+  },
+  {
+   "id": "matthew-sick-and-ye-visited-me",
+   "after": "source:AB08897",
+   "responds": [
+    "source:AB08897"
+   ],
+   "relation": "adjacent",
+   "why": "The host of captives and wayfarers on the path of the Lord. In Matthew the King counts the stranger taken in and the prisoner visited as done to himself."
+  },
+  {
+   "id": "genesis-abraham-three-strangers",
+   "after": "source:AB06713",
+   "responds": [
+    "source:AB06713"
+   ],
+   "relation": "adjacent",
+   "why": "The ancestor’s hospitality as Genesis tells it: Abraham runs from the tent door in the heat of the day and begs three strangers to rest and eat."
+  },
+  {
+   "id": "romans-phebe-our-sister",
+   "after": "source:ABU0670",
+   "responds": [
+    "source:ABU0670"
+   ],
+   "relation": "adjacent",
+   "why": "A believer arriving in a city is to be received with gladness. Paul writes such a letter for Phebe: receive her as becometh saints, and assist her in whatsoever she hath need."
+  },
+  {
+   "id": "peter-hospitality-without-grudging",
+   "after": "source:AB08632",
+   "responds": [
+    "source:AB08632"
+   ],
+   "relation": "adjacent",
+   "why": "To receive warmly and strive without limit to please. The First Letter of Peter puts the inward condition in two words: hospitality without grudging."
+  },
+  {
+   "id": "job-stranger-did-not-lodge",
+   "after": "source:AB05684",
+   "responds": [
+    "source:AB05684"
+   ],
+   "relation": "adjacent",
+   "why": "Kindness to friend and stranger alike at a guesthouse. Job, defending his life, counts it among his proofs that no stranger lodged in the street."
+  },
+  {
+   "id": "aesop-wind-and-sun",
+   "after": "source:AB04213",
+   "responds": [
+    "source:AB04213"
+   ],
+   "relation": "adjacent",
+   "why": "Friendship first, “then little by little” the truth. Aesop’s fable gives the reason: the traveller grips his cloak against the wind and takes it off for the sun."
+  },
+  {
+   "id": "luke-call-the-poor",
+   "after": "source:AB04213",
+   "responds": [
+    "source:AB04213",
+    "source:ABU0670"
+   ],
+   "relation": "complement",
+   "why": "Hospitality here opens the way to teaching, and elsewhere it is owed to fellow believers. Jesus asks for a table set for those who can give nothing back. Can a welcome that hopes for something still be a pure welcome?"
+  },
+  {
+   "id": "luke-great-supper",
+   "after": "source:AB10104",
+   "responds": [
+    "source:AB10104"
+   ],
+   "relation": "adjacent",
+   "why": "“The pot is boiling … and the host … is present and waiting.” The servant in Jesus’s parable carries the same message to the invited: Come, for all things are now ready."
+  },
+  {
+   "id": "avot-three-at-one-table",
+   "after": "source:AB01179",
+   "responds": [
+    "source:AB01179"
+   ],
+   "relation": "adjacent",
+   "why": "“Spiritual sustenance is present and delicious physical food is available.” The Mishnah says of three who eat together and speak words of Torah that they have eaten at God’s table."
+  },
+  {
+   "id": "luke-martha-received-him",
+   "after": "source:ABU1499",
+   "responds": [
+    "source:ABU1499",
+    "source:ABU3123"
+   ],
+   "relation": "complement",
+   "why": "Ready to serve night and day. Luke’s Martha receives her guest and is “cumbered about much serving” until she complains of it. Who notices the cost of a welcome, and who shares the work?"
+  },
+  {
+   "id": "luke-friend-at-midnight",
+   "after": "source:ABU2904",
+   "responds": [
+    "source:ABU2904"
+   ],
+   "relation": "adjacent",
+   "why": "Called from bed in the middle of the night to receive a visitor. Jesus tells of a householder woken at midnight for three loaves, who rises in the end because the caller will not go away."
+  },
+  {
+   "id": "mark-no-leisure-so-much-as-to-eat",
+   "after": "source:ABU3123",
+   "responds": [
+    "source:ABU3123"
+   ],
+   "relation": "adjacent",
+   "why": "A host with the public at the door from morning until evening. Mark notes of the disciples that so many were coming and going they had no leisure so much as to eat, and Jesus takes them apart to rest."
+  },
+  {
+   "id": "proverbs-withdraw-thy-foot",
+   "after": "source:ABU3123",
+   "responds": [
+    "source:ABU3123"
+   ],
+   "relation": "complement",
+   "why": "The reading gives the host’s side of a visit that goes on too long. Proverbs puts the matching duty on the guest: withdraw thy foot, lest he be weary of thee."
+  },
+  {
+   "id": "luke-eat-such-things",
+   "after": "source:ABU0934",
+   "responds": [
+    "source:ABU0934"
+   ],
+   "relation": "adjacent",
+   "why": "“Rice is good, eat it.” Jesus gives travelling disciples the guest’s rule in one line: eat such things as are set before you."
+  },
+  {
+   "id": "psalm-mine-own-familiar-friend",
+   "after": "source:ABU1365",
+   "responds": [
+    "source:ABU1365"
+   ],
+   "relation": "adjacent",
+   "why": "To drink a man’s coffee and then betray him. The psalmist’s sharpest grief is the same breach: a familiar friend who ate of his bread has lifted up his heel against him."
+  },
+  {
+   "id": "nehemiah-send-portions",
+   "after": "source:BH02894",
+   "responds": [
+    "source:BH02894"
+   ],
+   "relation": "adjacent",
+   "why": "Feasting “time after time and occasion after occasion.” Nehemiah tells a people to eat the fat and drink the sweet, and to send portions to those for whom nothing is prepared."
+  },
+  {
+   "id": "kings-handful-of-meal",
+   "after": "source:ABU1792",
+   "responds": [
+    "source:ABU1792",
+    "source:ABU2942"
+   ],
+   "relation": "adjacent",
+   "why": "Warm dough and dates in a reed hut. The widow of Zarephath has a handful of meal and a little oil, and makes a cake of it for the stranger first."
+  }
+ ],
+ "library": {
+  "luke-friend-at-midnight": {
+   "text": "Which of you shall have a friend, and shall go unto him at midnight, and say unto him, Friend, lend me three loaves; For a friend of mine in his journey is come to me, and I have nothing to set before him? And he from within shall answer and say, Trouble me not: the door is now shut, and my children are with me in bed; I cannot rise and give thee. I say unto you, Though he will not rise and give him, because he is his friend, yet because of his importunity he will rise and give him as many as he needeth",
+   "work": "Luke 11:5–8",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A5-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-martha-received-him": {
+   "text": "a certain woman named Martha received him into her house. And she had a sister called Mary, which also sat at Jesus' feet, and heard his word. But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me",
+   "work": "Luke 10:38–40",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2010%3A38-40&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-neighbour-that-is-near": {
+   "text": "Thine own friend, and thy father's friend, forsake not; neither go into thy brother's house in the day of thy calamity: for better is a neighbour that is near than a brother far off",
+   "work": "Proverbs 27:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2027%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-eat-such-things": {
+   "text": "And into whatsoever city ye enter, and they receive you, eat such things as are set before you",
+   "work": "Luke 10:8",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2010%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "homer-strangers-from-jove": {
+   "text": "This is only some poor man who has lost his way, and we must be kind to him, for strangers and foreigners in distress are under Jove's protection, and will take what they can get and be thankful",
+   "author": "Homer",
+   "work": "Odyssey",
+   "locator": "Book 6 (Nausicaa to her maids)",
+   "year": "c. 8th century BCE",
+   "sortYear": -700,
+   "translator": "Samuel Butler",
+   "translationYear": "1900",
+   "tradition": "Greek and Roman",
+   "kind": "literature",
+   "source": {
+    "url": "https://classics.mit.edu/Homer/odyssey.6.vi.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1902."
+   }
+  }
+ }
+}
