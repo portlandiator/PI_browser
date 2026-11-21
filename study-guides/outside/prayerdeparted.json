@@ -1,0 +1,1461 @@
+{
+ "format": 2,
+ "slug": "prayerdeparted",
+ "subject": "6F48F0918CDBEBB76DD545292C255B68",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 100,
+ "quotations": 100,
+ "kept": [
+  "source:ABU0342",
+  "source:AB00548",
+  "source:ABU3450",
+  "source:AB12277",
+  "source:AB04005",
+  "source:AB00399",
+  "source:AB01915",
+  "source:AB07304",
+  "source:BH07659",
+  "source:AB00559",
+  "source:AB06741",
+  "source:AB09940",
+  "source:AB00588",
+  "source:AB08479",
+  "source:AB05437",
+  "source:AB04420",
+  "source:AB11816",
+  "source:AB10491",
+  "source:AB06004",
+  "source:AB02169",
+  "source:AB00456",
+  "source:AB01922",
+  "source:AB01039",
+  "source:AB05108",
+  "source:AB01824",
+  "source:AB05022",
+  "source:AB00110",
+  "source:BH02451",
+  "source:AB01116",
+  "source:AB12335",
+  "source:BH02307",
+  "source:AB03364",
+  "source:AB05921",
+  "source:AB09130",
+  "source:AB11176",
+  "source:AB00599",
+  "source:AB00818",
+  "source:AB02028",
+  "source:AB08534",
+  "source:AB09906",
+  "source:AB03272",
+  "source:AB04235",
+  "source:AB10801",
+  "source:AB01215",
+  "source:AB01749",
+  "source:AB02486",
+  "source:AB03311",
+  "source:AB05502",
+  "source:AB00688",
+  "source:AB00853",
+  "source:AB05723",
+  "source:AB05996",
+  "source:AB09608",
+  "source:AB04230",
+  "source:AB06565",
+  "source:AB07850",
+  "source:AB00849",
+  "source:AB01224",
+  "source:AB02170",
+  "source:AB03893",
+  "source:AB04237",
+  "source:AB04953",
+  "source:AB05023",
+  "source:AB05024",
+  "source:AB05026",
+  "source:AB05616",
+  "source:AB06117",
+  "source:AB06461",
+  "source:AB06673",
+  "source:AB09901",
+  "source:AB02034",
+  "source:AB02503",
+  "source:AB02639",
+  "source:AB02640",
+  "source:AB02858",
+  "source:AB03081",
+  "source:AB03084",
+  "source:AB03312",
+  "source:AB03360",
+  "source:AB03651",
+  "source:AB07761",
+  "source:AB07781",
+  "source:AB07982",
+  "source:AB07987",
+  "source:AB08052",
+  "source:AB08382",
+  "source:AB08410",
+  "source:AB08484",
+  "source:AB08618",
+  "source:AB09025",
+  "source:AB12559",
+  "source:AB12602",
+  "source:AB12720",
+  "source:BH04771",
+  "source:BH05057",
+  "source:AB00133",
+  "source:AB00517",
+  "source:AB00847",
+  "source:AB02673",
+  "source:AB02822"
+ ],
+ "introduction": "These readings are, almost all of them, prayers said for people who have died: a few explanations of why the living may ask forgiveness and progress for the dead, and then prayer after prayer by Bahá’u’lláh and ‘Abdu’l-Bahá for named men and women, parents, brothers and children, asking that they be pardoned, sheltered, given light and rest, and received into the presence of God. A hundred of the guide's two hundred and ninety-nine quotations are read here, ten from each tenth of the reading order, beside a hundred from elsewhere. Most stand alongside: the Qur'an's prayers for parents and for 'our brethren who were before us', Judas Maccabeus, Paul's prayer for Onesiphorus, Monica's request to be remembered at the altar, the psalms of mercy, the Apocalypse, Dante's shades who ask for prayers, Tennyson, Stevenson's Requiem. Twelve push back or add a side: the Preacher's 'the dead know not any thing', the Anglican article against purgatory, the Qur'an's 'man hath only that for which he maketh effort' and its limit on praying for idolaters, Ezekiel on each soul answering for itself, Hebrews on judgment after death, Confucius on serving the living first, and Christina Rossetti's 'better by far you should forget and smile'.",
+ "questions": [
+  "What reasons do the opening readings give for praying for the dead, and what do they assume about the soul after death?",
+  "The Qur'an says a person has only what they strove for; Ezekiel says each soul answers for itself. How can another's prayer or gift help the dead without undoing that?",
+  "Many of these prayers ask forgiveness for people the writer plainly loved and honoured. Why ask pardon for the good?",
+  "The Preacher says the dead know nothing; Confucius turns the question back to the living. What do prayers for the dead do for those who say them?",
+  "Images recur: the bird freed from its cage, the leaf from the tree, the ocean of mercy. Which speaks to you, and why?",
+  "Rossetti would rather be forgotten with a smile than remembered with sadness. How do these prayers remember without sadness?"
+ ],
+ "outside": [
+  {
+   "id": "maccabees-pray-for-the-dead",
+   "after": "source:AB00548",
+   "responds": [
+    "source:AB00548"
+   ],
+   "relation": "adjacent",
+   "why": "The second book of Maccabees calls it a holy and good thought to pray for the dead, that they might be delivered from sin."
+  },
+  {
+   "id": "articles-of-purgatory",
+   "after": "source:AB00548",
+   "responds": [
+    "source:AB00548"
+   ],
+   "relation": "contrast",
+   "why": "The Church of England's Articles of 1571 called the doctrine of purgatory and pardons a fond thing vainly invented, with no warranty of Scripture. On what ground do the readings pray for the dead?"
+  },
+  {
+   "id": "tennyson-wrought-by-prayer",
+   "after": "source:ABU3450",
+   "responds": [
+    "source:ABU3450"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's Arthur asks that a voice rise like a fountain for him night and day: more things are wrought by prayer than this world dreams of."
+  },
+  {
+   "id": "ecclesiastes-dead-know-not",
+   "after": "source:ABU3450",
+   "responds": [
+    "source:ABU3450"
+   ],
+   "relation": "contrast",
+   "why": "Ecclesiastes says that the dead know not any thing, neither have they any more a portion in what is done under the sun. Can the living reach the dead at all?"
+  },
+  {
+   "id": "augustine-remember-me-at-the-altar",
+   "after": "source:AB04005",
+   "responds": [
+    "source:AB04005"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine's dying mother asked only this of her sons: lay this body anywhere, but remember me at the Lord's altar."
+  },
+  {
+   "id": "quran-man-hath-only-that-for-which",
+   "after": "source:AB04005",
+   "responds": [
+    "source:AB04005"
+   ],
+   "relation": "contrast",
+   "why": "The Qur'an says that man hath only that for which he maketh effort. Can the gifts and prayers of the living add anything to the dead?"
+  },
+  {
+   "id": "timothy-find-mercy-in-that-day",
+   "after": "source:AB00399",
+   "responds": [
+    "source:AB00399"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays for a friend who had ministered to him: the Lord grant unto him that he may find mercy of the Lord in that day."
+  },
+  {
+   "id": "dante-prayed-that-someone-else-may-pray",
+   "after": "source:AB01915",
+   "responds": [
+    "source:AB01915"
+   ],
+   "relation": "adjacent",
+   "why": "Dante meets shades who pray only that someone else may pray for them, and asks his guide whether prayer can bend heaven's decree."
+  },
+  {
+   "id": "quran-not-for-the-prophet-to-pray",
+   "after": "source:AB07304",
+   "responds": [
+    "source:AB07304"
+   ],
+   "relation": "contrast",
+   "why": "The Qur'an says it is not for the Prophet and the believers to pray for the forgiveness of idolaters, even near of kin. How far do the readings extend their asking?"
+  },
+  {
+   "id": "quran-lower-the-wing",
+   "after": "source:AB00559",
+   "responds": [
+    "source:AB00559"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an teaches a child's prayer for parents: my Lord, have mercy on them both, as they did care for me when I was little."
+  },
+  {
+   "id": "psalm-remember-not-the-sins-of-my-youth",
+   "after": "source:AB06741",
+   "responds": [
+    "source:AB06741"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist asks: remember not the sins of my youth; according to thy mercy remember thou me."
+  },
+  {
+   "id": "luke-prodigal-a-great-way-off",
+   "after": "source:AB09940",
+   "responds": [
+    "source:AB09940"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the father sees his returning son while he is yet a great way off, and runs to him."
+  },
+  {
+   "id": "philippians-every-remembrance",
+   "after": "source:AB00588",
+   "responds": [
+    "source:AB00588"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells his friends that he thanks God upon every remembrance of them, in every prayer."
+  },
+  {
+   "id": "exodus-merciful-and-gracious",
+   "after": "source:AB08479",
+   "responds": [
+    "source:AB08479"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord proclaims his own name to Moses: merciful and gracious, longsuffering, forgiving iniquity."
+  },
+  {
+   "id": "proverbs-her-children-arise-up",
+   "after": "source:AB05437",
+   "responds": [
+    "source:AB05437"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says of a good mother that her children arise up and call her blessed."
+  },
+  {
+   "id": "luke-loved-much",
+   "after": "source:AB04420",
+   "responds": [
+    "source:AB04420"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of a woman who wept at his feet: her sins, which are many, are forgiven, for she loved much."
+  },
+  {
+   "id": "micah-delighteth-in-mercy",
+   "after": "source:AB11816",
+   "responds": [
+    "source:AB11816"
+   ],
+   "relation": "adjacent",
+   "why": "Micah says that God does not retain his anger for ever, because he delights in mercy, and casts sins into the depths of the sea."
+  },
+  {
+   "id": "quran-forgive-my-parents",
+   "after": "source:AB10491",
+   "responds": [
+    "source:AB10491"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham prays in the Qur'an: our Lord, forgive me and my parents and believers on the day when the account is cast."
+  },
+  {
+   "id": "psalm-out-of-the-depths",
+   "after": "source:AB06004",
+   "responds": [
+    "source:AB06004"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm begins: out of the depths have I cried unto thee, O Lord; Lord, hear my voice."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:AB02169",
+   "responds": [
+    "source:AB02169"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs says that love is strong as death, and its coals are coals of fire."
+  },
+  {
+   "id": "quran-forgive-our-brethren-before-us",
+   "after": "source:AB00456",
+   "responds": [
+    "source:AB00456"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an gives later believers a prayer for earlier ones: our Lord, forgive us and our brethren who were before us in the faith."
+  },
+  {
+   "id": "timothy-fought-a-good-fight",
+   "after": "source:AB01922",
+   "responds": [
+    "source:AB01922"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says near his end: I have fought a good fight, I have finished my course, I have kept the faith."
+  },
+  {
+   "id": "samuel-lament-for-jonathan",
+   "after": "source:AB01039",
+   "responds": [
+    "source:AB01039"
+   ],
+   "relation": "adjacent",
+   "why": "David laments a friend as a brother: I am distressed for thee, my brother Jonathan."
+  },
+  {
+   "id": "isaiah-as-his-mother-comforteth",
+   "after": "source:AB05108",
+   "responds": [
+    "source:AB05108"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God promise: as one whom his mother comforteth, so will I comfort you."
+  },
+  {
+   "id": "psalm-bird-out-of-the-snare",
+   "after": "source:AB01824",
+   "responds": [
+    "source:AB01824"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: our soul is escaped as a bird out of the snare of the fowlers; the snare is broken."
+  },
+  {
+   "id": "quran-gardens-of-eden-with-their-fathers",
+   "after": "source:AB05022",
+   "responds": [
+    "source:AB05022"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an promises gardens which the faithful enter along with the righteous among their fathers, their spouses and their children."
+  },
+  {
+   "id": "ezekiel-son-shall-not-bear",
+   "after": "source:AB00110",
+   "responds": [
+    "source:AB00110"
+   ],
+   "relation": "contrast",
+   "why": "Ezekiel insists that each soul answers for itself: the son shall not bear the iniquity of the father, nor the father the son's. What, then, can one of a family ask for another?"
+  },
+  {
+   "id": "quran-families-join-them",
+   "after": "source:BH02451",
+   "responds": [
+    "source:BH02451"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that those who believe, and whose offspring follow them in faith, will be joined by their offspring."
+  },
+  {
+   "id": "ruth-kindness-to-the-living-and-the-dead",
+   "after": "source:AB01116",
+   "responds": [
+    "source:AB01116"
+   ],
+   "relation": "adjacent",
+   "why": "Naomi blesses one who has not left off his kindness to the living and to the dead."
+  },
+  {
+   "id": "genesis-gathered-unto-his-people",
+   "after": "source:AB12335",
+   "responds": [
+    "source:AB12335"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says of Abraham that he died in a good old age, and was gathered to his people."
+  },
+  {
+   "id": "numbers-priestly-blessing",
+   "after": "source:BH02307",
+   "responds": [
+    "source:BH02307"
+   ],
+   "relation": "adjacent",
+   "why": "The oldest blessing in the Bible asks that the Lord bless thee and keep thee, and make his face shine upon thee."
+  },
+  {
+   "id": "matthew-vain-repetitions",
+   "after": "source:AB03364",
+   "responds": [
+    "source:AB03364"
+   ],
+   "relation": "complement",
+   "why": "Jesus told his followers not to use vain repetitions in prayer, as though heard for much speaking. What makes a repeated phrase in a rite full and not vain?"
+  },
+  {
+   "id": "plato-bars-of-a-prison",
+   "after": "source:AB05921",
+   "responds": [
+    "source:AB05921"
+   ],
+   "relation": "adjacent",
+   "why": "Plato speaks of the soul viewing existence through the bars of a prison, and not in her own nature."
+  },
+  {
+   "id": "psalm-wings-like-a-dove",
+   "after": "source:AB09130",
+   "responds": [
+    "source:AB09130"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist cries: oh that I had wings like a dove, for then would I fly away, and be at rest."
+  },
+  {
+   "id": "tennyson-crossing-the-bar",
+   "after": "source:AB11176",
+   "responds": [
+    "source:AB11176"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson hoped, when the flood had borne him far, to see his Pilot face to face."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB00599",
+   "responds": [
+    "source:AB00599"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that the wise shall shine as the brightness of the firmament, and as the stars for ever."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:AB00818",
+   "responds": [
+    "source:AB00818"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that they that wait upon the Lord shall mount up with wings as eagles."
+  },
+  {
+   "id": "john-many-mansions",
+   "after": "source:AB02028",
+   "responds": [
+    "source:AB02028"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples: in my Father's house are many mansions; I go to prepare a place for you."
+  },
+  {
+   "id": "psalm-longeth-for-the-courts",
+   "after": "source:AB08534",
+   "responds": [
+    "source:AB08534"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm notices that the sparrow has found a house and the swallow a nest at the altars of the Lord."
+  },
+  {
+   "id": "isaiah-filthy-rags",
+   "after": "source:AB09906",
+   "responds": [
+    "source:AB09906"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah confesses for his people: we all do fade as a leaf, and our iniquities, like the wind, have taken us away."
+  },
+  {
+   "id": "psalm-table-before-me",
+   "after": "source:AB03272",
+   "responds": [
+    "source:AB03272"
+   ],
+   "relation": "adjacent",
+   "why": "The shepherd psalm ends: I will dwell in the house of the Lord for ever."
+  },
+  {
+   "id": "wisdom-souls-of-the-righteous",
+   "after": "source:AB04235",
+   "responds": [
+    "source:AB04235"
+   ],
+   "relation": "adjacent",
+   "why": "The Wisdom of Solomon says that the souls of the righteous are in the hand of God; they seemed to die, but they are in peace."
+  },
+  {
+   "id": "psalm-as-far-as-the-east",
+   "after": "source:AB10801",
+   "responds": [
+    "source:AB10801"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that as far as the east is from the west, so far hath he removed our transgressions from us."
+  },
+  {
+   "id": "revelation-rest-from-their-labours",
+   "after": "source:AB01215",
+   "responds": [
+    "source:AB01215"
+   ],
+   "relation": "adjacent",
+   "why": "A voice in the Apocalypse says: blessed are the dead which die in the Lord; they rest from their labours."
+  },
+  {
+   "id": "stevenson-home-is-the-sailor",
+   "after": "source:AB01749",
+   "responds": [
+    "source:AB01749"
+   ],
+   "relation": "adjacent",
+   "why": "Stevenson wrote his own epitaph: here he lies where he longed to be; home is the sailor, home from sea."
+  },
+  {
+   "id": "hebrews-once-to-die",
+   "after": "source:AB02486",
+   "responds": [
+    "source:AB02486"
+   ],
+   "relation": "contrast",
+   "why": "Hebrews says it is appointed unto men once to die, but after this the judgment. Do prayers for pardon after death assume that a judgment can still be moved?"
+  },
+  {
+   "id": "revelation-wipe-away-all-tears",
+   "after": "source:AB03311",
+   "responds": [
+    "source:AB03311"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse promises that God shall wipe away all tears, and there shall be no more death, neither sorrow."
+  },
+  {
+   "id": "psalm-under-his-wings",
+   "after": "source:AB05502",
+   "responds": [
+    "source:AB05502"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that whoever dwells in the secret place of the Most High shall abide under the shadow of the Almighty."
+  },
+  {
+   "id": "philippians-to-live-is-christ",
+   "after": "source:AB00688",
+   "responds": [
+    "source:AB00688"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says in a single line that for him to live is Christ, and to die is gain."
+  },
+  {
+   "id": "revelation-healing-of-the-nations",
+   "after": "source:AB00853",
+   "responds": [
+    "source:AB00853"
+   ],
+   "relation": "adjacent",
+   "why": "The last vision of the Bible shows the tree of life beside the river, its leaves for the healing of the nations."
+  },
+  {
+   "id": "quran-soul-at-peace",
+   "after": "source:AB05723",
+   "responds": [
+    "source:AB05723"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an addresses the soul at peace: return unto thy Lord, content in his good pleasure; enter thou my garden."
+  },
+  {
+   "id": "quran-mercy-embraceth-all",
+   "after": "source:AB05996",
+   "responds": [
+    "source:AB05996"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an God says: I smite with my punishment whom I will, and my mercy embraceth all things."
+  },
+  {
+   "id": "daniel-not-for-our-righteousnesses",
+   "after": "source:AB09608",
+   "responds": [
+    "source:AB09608"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel prays: we do not present our supplications for our righteousnesses, but for thy great mercies."
+  },
+  {
+   "id": "luke-remember-me-when-thou-comest",
+   "after": "source:AB04230",
+   "responds": [
+    "source:AB04230"
+   ],
+   "relation": "adjacent",
+   "why": "A dying man beside Jesus asked only: Lord, remember me when thou comest into thy kingdom."
+  },
+  {
+   "id": "psalm-have-mercy-upon-me",
+   "after": "source:AB06565",
+   "responds": [
+    "source:AB06565"
+   ],
+   "relation": "adjacent",
+   "why": "The penitent's psalm begins: have mercy upon me, O God, according to thy lovingkindness."
+  },
+  {
+   "id": "donne-wilt-thou-forgive",
+   "after": "source:AB07850",
+   "responds": [
+    "source:AB07850"
+   ],
+   "relation": "complement",
+   "why": "Donne asks 'wilt thou forgive' again and again, and each time admits: I have more. Is it easier to ask forgiveness for another than for oneself?"
+  },
+  {
+   "id": "john-epistle-see-him-as-he-is",
+   "after": "source:AB00849",
+   "responds": [
+    "source:AB00849"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that it does not yet appear what we shall be, but we shall see him as he is."
+  },
+  {
+   "id": "romans-neither-death-nor-life",
+   "after": "source:AB01224",
+   "responds": [
+    "source:AB01224"
+   ],
+   "relation": "adjacent",
+   "why": "Paul is persuaded that neither death nor life can separate us from the love of God."
+  },
+  {
+   "id": "psalm-fulness-of-joy",
+   "after": "source:AB02170",
+   "responds": [
+    "source:AB02170"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore."
+  },
+  {
+   "id": "psalm-very-present-help",
+   "after": "source:AB03893",
+   "responds": [
+    "source:AB03893"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm calls God our refuge and strength, a very present help in trouble."
+  },
+  {
+   "id": "acts-lay-not-this-sin",
+   "after": "source:AB04237",
+   "responds": [
+    "source:AB04237"
+   ],
+   "relation": "adjacent",
+   "why": "Stephen, dying, prayed for those who stoned him: Lord, lay not this sin to their charge."
+  },
+  {
+   "id": "exodus-gracious-to-whom",
+   "after": "source:AB04953",
+   "responds": [
+    "source:AB04953"
+   ],
+   "relation": "adjacent",
+   "why": "God tells Moses: I will be gracious to whom I will be gracious, and will shew mercy on whom I will shew mercy."
+  },
+  {
+   "id": "shakespeare-after-his-desert",
+   "after": "source:AB04953",
+   "responds": [
+    "source:AB04953"
+   ],
+   "relation": "complement",
+   "why": "Hamlet says: use every man after his desert, and who should 'scape whipping? If pardon is as God wills and not as we deserve, what is one asking for in asking it for another?"
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:AB05023",
+   "responds": [
+    "source:AB05023"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews pictures the faithful dead as a great cloud of witnesses compassing the living about."
+  },
+  {
+   "id": "psalm-death-of-his-saints",
+   "after": "source:AB05024",
+   "responds": [
+    "source:AB05024"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that precious in the sight of the Lord is the death of his saints."
+  },
+  {
+   "id": "john-epistle-confess-our-sins",
+   "after": "source:AB05026",
+   "responds": [
+    "source:AB05026"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John says that if we confess our sins, he is faithful and just to forgive and to cleanse."
+  },
+  {
+   "id": "quran-call-them-not-dead",
+   "after": "source:AB06117",
+   "responds": [
+    "source:AB06117"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of those slain in the way of God: call them not dead; they are living, only ye perceive not."
+  },
+  {
+   "id": "seneca-birthday-of-eternity",
+   "after": "source:AB06461",
+   "responds": [
+    "source:AB06461"
+   ],
+   "relation": "adjacent",
+   "why": "Seneca wrote that the day feared as the end of all things is the birthday of your eternity."
+  },
+  {
+   "id": "psalm-broken-spirit",
+   "after": "source:AB06673",
+   "responds": [
+    "source:AB06673"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the sacrifices of God are a broken spirit and a contrite heart."
+  },
+  {
+   "id": "longfellow-not-spoken-of-the-soul",
+   "after": "source:AB09901",
+   "responds": [
+    "source:AB09901"
+   ],
+   "relation": "adjacent",
+   "why": "Longfellow wrote that 'dust thou art, to dust returnest' was not spoken of the soul."
+  },
+  {
+   "id": "psalm-who-shall-stand",
+   "after": "source:AB02034",
+   "responds": [
+    "source:AB02034"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm asks: if thou, Lord, shouldest mark iniquities, who shall stand? But there is forgiveness with thee."
+  },
+  {
+   "id": "job-my-redeemer-liveth",
+   "after": "source:AB02503",
+   "responds": [
+    "source:AB02503"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: I know that my redeemer liveth, and that in my flesh shall I see God."
+  },
+  {
+   "id": "proverbs-shining-light",
+   "after": "source:AB02639",
+   "responds": [
+    "source:AB02639"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says the path of the just is as the shining light, that shineth more and more unto the perfect day."
+  },
+  {
+   "id": "bunyan-trumpets-sounded",
+   "after": "source:AB02640",
+   "responds": [
+    "source:AB02640"
+   ],
+   "relation": "adjacent",
+   "why": "Bunyan's pilgrim went down into the river asking 'Death, where is thy sting?', and all the trumpets sounded for him on the other side."
+  },
+  {
+   "id": "hebrews-throne-of-grace",
+   "after": "source:AB02858",
+   "responds": [
+    "source:AB02858"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews invites: let us come boldly unto the throne of grace, that we may obtain mercy."
+  },
+  {
+   "id": "job-hide-me-in-the-grave",
+   "after": "source:AB03081",
+   "responds": [
+    "source:AB03081"
+   ],
+   "relation": "adjacent",
+   "why": "Job asks God to hide him in the grave until the wrath be past, and then to appoint a set time and remember him."
+  },
+  {
+   "id": "psalm-in-the-grave-who-shall-give-thanks",
+   "after": "source:AB03081",
+   "responds": [
+    "source:AB03081"
+   ],
+   "relation": "contrast",
+   "why": "A psalmist pleads for life because in death there is no remembrance of thee; in the grave who shall give thee thanks? What changes when the dead are thought still able to receive?"
+  },
+  {
+   "id": "genesis-dust-and-ashes",
+   "after": "source:AB03312",
+   "responds": [
+    "source:AB03312"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham, pleading for others, says he has taken upon him to speak to the Lord, who is but dust and ashes."
+  },
+  {
+   "id": "nehemiah-remember-me-for-good",
+   "after": "source:AB03360",
+   "responds": [
+    "source:AB03360"
+   ],
+   "relation": "adjacent",
+   "why": "Nehemiah ends his book with a single request: remember me, O my God, for good."
+  },
+  {
+   "id": "psalm-valley-of-the-shadow",
+   "after": "source:AB03651",
+   "responds": [
+    "source:AB03651"
+   ],
+   "relation": "adjacent",
+   "why": "The shepherd psalm says: though I walk through the valley of the shadow of death, I will fear no evil."
+  },
+  {
+   "id": "psalm-nigh-unto-broken-heart",
+   "after": "source:AB07761",
+   "responds": [
+    "source:AB07761"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the Lord is nigh unto them that are of a broken heart."
+  },
+  {
+   "id": "isaiah-abundantly-pardon",
+   "after": "source:AB07781",
+   "responds": [
+    "source:AB07781"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says: let the wicked return unto the Lord, for he will abundantly pardon."
+  },
+  {
+   "id": "whitman-luckier",
+   "after": "source:AB07982",
+   "responds": [
+    "source:AB07982"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman held that the dead are alive and well somewhere, and that to die is different from what anyone supposed."
+  },
+  {
+   "id": "luke-today-in-paradise",
+   "after": "source:AB07987",
+   "responds": [
+    "source:AB07987"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus answered the man who asked to be remembered: today shalt thou be with me in paradise."
+  },
+  {
+   "id": "ecclesiastes-good-name-precious-ointment",
+   "after": "source:AB08052",
+   "responds": [
+    "source:AB08052"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes says a good name is better than precious ointment, and the day of death than the day of one's birth."
+  },
+  {
+   "id": "analects-know-life",
+   "after": "source:AB08382",
+   "responds": [
+    "source:AB08382"
+   ],
+   "relation": "complement",
+   "why": "Confucius, asked about serving the spirits of the dead, replied: while you are not able to serve men, how can you serve their spirits? Is care for the dead apart from care for the living?"
+  },
+  {
+   "id": "quran-similitude-of-the-garden",
+   "after": "source:AB08410",
+   "responds": [
+    "source:AB08410"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an gives a similitude of the garden promised to the dutiful, with rivers of water, milk and honey."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB08484",
+   "responds": [
+    "source:AB08484"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: blessed are the pure in heart, for they shall see God."
+  },
+  {
+   "id": "tagore-left-breast",
+   "after": "source:AB08618",
+   "responds": [
+    "source:AB08618"
+   ],
+   "relation": "adjacent",
+   "why": "Tagore compares death to a mother moving her child from one breast to the other: it cries, and finds its consolation."
+  },
+  {
+   "id": "corinthians-earthly-house",
+   "after": "source:AB09025",
+   "responds": [
+    "source:AB09025"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that if our earthly house were dissolved, we have a building of God, eternal in the heavens."
+  },
+  {
+   "id": "deuteronomy-moses-died-there",
+   "after": "source:AB12559",
+   "responds": [
+    "source:AB12559"
+   ],
+   "relation": "adjacent",
+   "why": "Moses, who bore the same name, was shown the promised land from a mountain and died there."
+  },
+  {
+   "id": "quran-noah-forgive-my-parents",
+   "after": "source:AB12602",
+   "responds": [
+    "source:AB12602"
+   ],
+   "relation": "adjacent",
+   "why": "Noah prays in the Qur'an: my Lord, forgive me and my parents and him who entereth my house believing."
+  },
+  {
+   "id": "isaiah-come-to-the-waters",
+   "after": "source:AB12720",
+   "responds": [
+    "source:AB12720"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah calls: ho, every one that thirsteth, come ye to the waters, without money and without price."
+  },
+  {
+   "id": "quran-kept-hid-of-joy",
+   "after": "source:BH04771",
+   "responds": [
+    "source:BH04771"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says no soul knows what is kept hid for them of joy."
+  },
+  {
+   "id": "rossetti-forget-and-smile",
+   "after": "source:BH05057",
+   "responds": [
+    "source:BH05057"
+   ],
+   "relation": "contrast",
+   "why": "Christina Rossetti told the one she would leave: better by far you should forget and smile than that you should remember and be sad. Whom does a yearly remembrance serve, the dead or the living?"
+  },
+  {
+   "id": "isaiah-through-the-waters",
+   "after": "source:AB00133",
+   "responds": [
+    "source:AB00133"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God promise: when thou passest through the waters I will be with thee; when thou walkest through the fire thou shalt not be burned."
+  },
+  {
+   "id": "job-hope-of-a-tree",
+   "after": "source:AB00517",
+   "responds": [
+    "source:AB00517"
+   ],
+   "relation": "adjacent",
+   "why": "Job says there is hope of a tree, if it be cut down, that it will sprout again."
+  },
+  {
+   "id": "john-resurrection-and-life",
+   "after": "source:AB00847",
+   "responds": [
+    "source:AB00847"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I am the resurrection and the life; he that believeth in me, though he were dead, yet shall he live."
+  },
+  {
+   "id": "corinthians-sown-a-natural-body",
+   "after": "source:AB02673",
+   "responds": [
+    "source:AB02673"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says of the dead: it is sown in dishonour, it is raised in glory; sown in weakness, raised in power."
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:AB02822",
+   "responds": [
+    "source:AB02822"
+   ],
+   "relation": "adjacent",
+   "why": "Job, bereaved, said: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  }
+ ],
+ "library": {
+  "timothy-find-mercy-in-that-day": {
+   "text": "The Lord grant unto him that he may find mercy of the Lord in that day: and in how many things he ministered unto me at Ephesus, thou knowest very well",
+   "work": "2 Timothy 1:18",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Timothy%201%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ruth-kindness-to-the-living-and-the-dead": {
+   "text": "And Naomi said unto her daughter in law, Blessed be he of the Lord, who hath not left off his kindness to the living and to the dead",
+   "work": "Ruth 2:20",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ruth%202%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-baptized-for-the-dead": {
+   "text": "Else what shall they do which are baptized for the dead",
+   "work": "1 Corinthians 15:29",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2015%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-let-this-childs-soul-come": {
+   "text": "And he stretched himself upon the child three times, and cried unto the Lord, and said, O Lord my God, I pray thee, let this child's soul come into him again. And the Lord heard the voice of Elijah; and the soul of the child came into him again, and he revived",
+   "work": "1 Kings 17:21–22",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%2017%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-in-the-grave-who-shall-give-thanks": {
+   "text": "Return, O Lord, deliver my soul: oh save me for thy mercies' sake. For in death there is no remembrance of thee: in the grave who shall give thee thanks",
+   "work": "Psalm 6:4–5",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%206%3A4-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-hide-me-in-the-grave": {
+   "text": "O that thou wouldest hide me in the grave, that thou wouldest keep me secret, until thy wrath be past, that thou wouldest appoint me a set time, and remember me",
+   "work": "Job 14:13",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2014%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "nehemiah-remember-me-for-good": {
+   "text": "Remember me, O my God, for good",
+   "work": "Nehemiah 13:31",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Nehemiah%2013%3A31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-remember-me-when-thou-comest": {
+   "text": "And he said unto Jesus, Lord, remember me when thou comest into thy kingdom",
+   "work": "Luke 23:42",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2023%3A42&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-remember-not-the-sins-of-my-youth": {
+   "text": "Remember not the sins of my youth, nor my transgressions: according to thy mercy remember thou me for thy goodness' sake, O Lord",
+   "work": "Psalm 25:7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2025%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-lay-not-this-sin": {
+   "text": "And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit. And he kneeled down, and cried with a loud voice, Lord, lay not this sin to their charge",
+   "work": "Acts 7:59–60",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%207%3A59-60&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-forgive-our-brethren-before-us": {
+   "text": "And those who came (into the faith) after them say: Our Lord! Forgive us and our brethren who were before us in the faith, and place not in our hearts any rancour toward those who believe. Our Lord! Thou art Full of Pity, Merciful.",
+   "work": "Qur’an 59:10",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=59&verse=10",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-noah-forgive-my-parents": {
+   "text": "My Lord! Forgive me and my parents and him who entereth my house believing, and believing men and believing women, and increase not the wrong-doers in aught save ruin.",
+   "work": "Qur’an 71:28",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=71&verse=28",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-no-burdened-soul": {
+   "text": "And no burdened soul can bear another's burden, and if one heavy laden crieth for (help with) his load, naught of it will be lifted even though he (unto whom he crieth) be of kin. Thou warnest only those who fear their Lord in secret, and have established worship. He who groweth (in goodness), groweth only for himself, (he cannot by his merit redeem others). Unto Allah is the journeying.",
+   "work": "Qur’an 35:18",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=35&verse=18",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-not-for-the-prophet-to-pray": {
+   "text": "It is not for the Prophet, and those who believe, to pray for the forgiveness of idolaters even though they may be near of kin (to them) after it hath become clear that they are people of hell-fire.",
+   "work": "Qur’an 9:113",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=113",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "wisdom-souls-of-the-righteous": {
+   "text": "But the souls of the righteous are in the hand of God, and there shall no torment touch them. In the sight of the unwise they seemed to die: and their departure is taken for misery, And their going from us to be utter destruction: but they are in peace",
+   "work": "Wisdom of Solomon 3:1–3",
+   "year": "c. 1st century BCE",
+   "sortYear": -50,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Wisdom_of_Solomon",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   },
+   "caveat": "From the Apocrypha of the King James Bible; Catholic and Orthodox Christians count the book in the Old Testament."
+  },
+  "maccabees-pray-for-the-dead": {
+   "text": "For if he had not hoped that they that were slain should have risen again, it had been superfluous and vain to pray for the dead. And also in that he perceived that there was great favour laid up for those that died godly, it was an holy and good thought. Whereupon he made a reconciliation for the dead, that they might be delivered from sin",
+   "work": "2 Maccabees 12:44–45",
+   "year": "c. 1st century BCE",
+   "sortYear": -50,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/2_Maccabees",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   },
+   "caveat": "From the Apocrypha of the King James Bible; Catholic and Orthodox Christians count the book in the Old Testament."
+  },
+  "articles-of-purgatory": {
+   "text": "THE Romish Doctrine concerning Purgatory, Pardons, Worshipping and Adoration, as well of Images as of Reliques, and also invocation of Saints, is a fond thing vainly invented, and grounded upon no warranty of Scripture",
+   "author": "Church of England",
+   "work": "Articles of Religion",
+   "locator": "article XXII",
+   "year": "1571",
+   "sortYear": 1571,
+   "tradition": "European literature and thought",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Book_of_Common_Prayer_(1863)/Articles_of_Religion",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1571."
+   }
+  },
+  "stevenson-home-is-the-sailor": {
+   "text": "Under the wide and starry sky, / Dig the grave and let me lie. / Glad did I live and gladly die, / And I laid me down with a will. / This be the verse you grave for me: / Here he lies where he longed to be; / Home is the sailor; home from sea, / And the hunter home from the hill",
+   "verse": true,
+   "author": "Robert Louis Stevenson",
+   "work": "Underwoods",
+   "locator": "Requiem",
+   "year": "1887",
+   "sortYear": 1887,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Underwoods_(Stevenson)/Requiem",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author died in 1894."
+   }
+  },
+  "dante-prayed-that-someone-else-may-pray": {
+   "text": "As soon as I was free from all those shades / Who only prayed that some one else may pray, / So as to hasten their becoming holy, / Began I: \"It appears that thou deniest, / O light of mine, expressly in some text, / That orison can bend decree of Heaven; / And ne'ertheless these people pray for this",
+   "verse": true,
+   "author": "Dante Alighieri",
+   "work": "Purgatorio",
+   "locator": "VI.25–31",
+   "year": "c. 1320",
+   "sortYear": 1320,
+   "translator": "Henry Wadsworth Longfellow",
+   "translationYear": "1867",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Divine_Comedy_(Longfellow_1867)/Volume_2/Canto_6",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator died in 1882."
+   }
+  }
+ }
+}
