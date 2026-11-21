@@ -1,0 +1,161 @@
+{
+ "format": 2,
+ "slug": "comfort",
+ "subject": "6ACA0A9D5724EB78D1F8FF7F8B25248F",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 14,
+ "kept": [
+  "source:ABU2059",
+  "source:AB05672",
+  "source:AB06570",
+  "source:ABU2759",
+  "source:ABU0419",
+  "source:AB00393",
+  "source:AB11798",
+  "source:AB12000",
+  "source:ABU3475",
+  "source:ABU2388",
+  "source:ABU1097",
+  "source:ABU3003",
+  "source:ABU3077",
+  "source:ABU3444"
+ ],
+ "introduction": "A short guide, mostly ‘Abdu’l-Bahá speaking of himself: writing letters at night with fingers stiff from cold, refusing to listen to sickness or fatigue, and asking his friends to seek a high purpose even against bodily ease. Paul's list of hardships, Amos on those at ease in Zion and the parable of the rich fool stand with them. Three quotations ask the other question, whether rest and care of the body are not also owed: Jesus calling his disciples apart to rest, the psalm on sleep as a gift, and the Buddha's middle way.",
+ "questions": [
+  "What is the difference between disregarding comfort and neglecting health, and where do these readings fall?",
+  "‘Abdu’l-Bahá says, look at me. Is his example a rule for everyone, or the measure of one life?",
+  "Jesus told tired disciples to rest a while. When is rest part of service?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-foxes-have-holes",
+   "after": "source:ABU2059",
+   "responds": [
+    "source:ABU2059"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that foxes have holes and birds have nests, but the Son of man has nowhere to lay his head."
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:AB05672",
+   "responds": [
+    "source:AB05672"
+   ],
+   "relation": "adjacent",
+   "why": "The rich man of the parable tells his soul to take its ease, eat, drink and be merry, and that night his soul is required of him."
+  },
+  {
+   "id": "corinthians-thrice-beaten",
+   "after": "source:AB06570",
+   "responds": [
+    "source:AB06570"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists what his travels cost him: beatings, shipwreck, journeyings often, perils of waters and of robbers."
+  },
+  {
+   "id": "amos-at-ease-in-zion",
+   "after": "source:ABU2759",
+   "responds": [
+    "source:ABU2759"
+   ],
+   "relation": "adjacent",
+   "why": "Amos pronounces woe on them that are at ease in Zion and trust in the mountain of Samaria."
+  },
+  {
+   "id": "thoreau-afford-to-let-alone",
+   "after": "source:ABU0419",
+   "responds": [
+    "source:ABU0419"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau held that a man is rich in proportion to the number of things he can afford to let alone."
+  },
+  {
+   "id": "philippians-sick-nigh-unto-death",
+   "after": "source:AB00393",
+   "responds": [
+    "source:AB00393"
+   ],
+   "relation": "adjacent",
+   "why": "Paul commends Epaphroditus, his companion in labour, who spent himself in service to the point of sickness."
+  },
+  {
+   "id": "thessalonians-labouring-night-and-day",
+   "after": "source:AB11798",
+   "responds": [
+    "source:AB11798"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds a church how he and his companions laboured among them, willing to impart their own souls."
+  },
+  {
+   "id": "tennyson-to-strive-to-seek",
+   "after": "source:ABU2388",
+   "responds": [
+    "source:ABU2388"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's Ulysses, made weak by time and fate, is still strong in will to strive and not to yield."
+  },
+  {
+   "id": "mark-no-leisure-so-much-as-to-eat",
+   "after": "source:ABU2388",
+   "responds": [
+    "source:ABU2388"
+   ],
+   "relation": "contrast",
+   "why": "Jesus tells disciples who had no leisure so much as to eat to come apart and rest a while. Is refusing to listen to fatigue a rule for everyone, or one man's calling?"
+  },
+  {
+   "id": "proverbs-go-to-the-ant",
+   "after": "source:ABU1097",
+   "responds": [
+    "source:ABU1097"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs sends the sluggard to the ant and asks how long he will sleep."
+  },
+  {
+   "id": "psalm-giveth-his-beloved-sleep",
+   "after": "source:ABU1097",
+   "responds": [
+    "source:ABU1097"
+   ],
+   "relation": "contrast",
+   "why": "The psalm calls it vain to rise early and sit up late, for God gives his beloved sleep. Does faith never seek rest?"
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:ABU3003",
+   "responds": [
+    "source:ABU3003"
+   ],
+   "relation": "contrast",
+   "why": "Paul calls the body the temple of the Holy Ghost. Is denial of the body preferable, or is its care a duty?"
+  },
+  {
+   "id": "buddha-middle-way",
+   "after": "source:ABU3003",
+   "responds": [
+    "source:ABU3003"
+   ],
+   "relation": "complement",
+   "why": "The Buddha taught a middle way that avoids both extremes and leads to calm. Where between indulgence and denial does the reading stand?"
+  },
+  {
+   "id": "matthew-life-more-than-meat",
+   "after": "source:ABU3444",
+   "responds": [
+    "source:ABU3444"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks whether the life is not more than meat, and the body than raiment."
+  }
+ ],
+ "library": {}
+}
