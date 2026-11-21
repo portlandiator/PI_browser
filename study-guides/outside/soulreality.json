@@ -1,0 +1,299 @@
+{
+ "format": 2,
+ "slug": "soulreality",
+ "subject": "4D9D74C90C8344208B1361977A8FC544",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 25,
+ "quotations": 28,
+ "kept": [
+  "source:ABU0096",
+  "source:ABU0453",
+  "source:ABU1893",
+  "source:ABU0079",
+  "source:ABU1414",
+  "source:ABU0780",
+  "source:ABU2422",
+  "source:ABU2940",
+  "source:AB05657",
+  "source:ABU0004",
+  "source:ABU0061",
+  "source:ABU0573",
+  "source:ABU3609",
+  "source:ABU3088",
+  "source:ABU0185",
+  "source:BH02414",
+  "source:ABU1890",
+  "source:ABU0262",
+  "source:ABU2923",
+  "source:ABU0114",
+  "source:ABU0078",
+  "source:AB01631",
+  "source:BH00210",
+  "selection:22f490398fe9f4af679138af",
+  "selection:439b8016eb4db594e07a94e0"
+ ],
+ "introduction": "These readings say that a human being is human through the spirit and not the body: the body is the instrument and the soul the weaver, the shell and the pearl, the lamp-glass and the light; thought, discovery and every distinction from the animal belong to the spirit, which stays the same while the body changes and does not perish with it. Each of the twenty-eight quotations is read here beside one from elsewhere. Most stand alongside: Genesis, Job, Paul, the Gospels, Plato, Pascal, Marcus Aurelius. Six push back or add a side: the objection in Plato's Phaedo that the soul may be like a lyre's harmony, the Preacher and Darwin on what humans share with animals, Lucretius on death, Hume's failure to find a self, and Paul's 'spirit and soul and body'.",
+ "questions": [
+  "The readings compare the soul to a weaver and the body to the implement. The Phaedo offers another picture: the harmony of a lyre. What follows from each about what happens when the instrument breaks?",
+  "One proof offered is that the body changes while the soul remains in the same state. Does your own experience bear that out? What would Hume say?",
+  "The readings find human distinction in the spirit. What in daily life treats a person as a body only, and what treats them as more?",
+  "Jesus asks what it profits to gain the whole world and lose one's soul. What would losing it look like, if the soul is one's reality?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God breathed into man's nostrils the breath of life, and man became a living soul."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet exclaims: what a piece of work is a man, how noble in reason, how infinite in faculty!"
+  },
+  {
+   "id": "plato-harmony-and-the-lyre",
+   "after": "source:ABU0453",
+   "responds": [
+    "source:ABU0453"
+   ],
+   "relation": "contrast",
+   "why": "In Plato's Phaedo a friend objects that the soul might be like the harmony of a lyre, invisible and divine, which yet perishes when the instrument is broken. What makes the weaver a better comparison than the harmony?"
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:ABU1893",
+   "responds": [
+    "source:ABU1893"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we have this treasure in earthen vessels, that the excellency of the power may be of God."
+  },
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:ABU0079",
+   "responds": [
+    "source:ABU0079"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: it is the spirit that quickeneth; the flesh profiteth nothing."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU1414",
+   "responds": [
+    "source:ABU1414"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that it is not from space that he must seek his dignity, but from the government of his thought."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:ABU0780",
+   "responds": [
+    "source:ABU0780"
+   ],
+   "relation": "adjacent",
+   "why": "The book of Job says that there is a spirit in man, and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "thessalonians-spirit-and-soul-and-body",
+   "after": "source:ABU2940",
+   "responds": [
+    "source:ABU2940"
+   ],
+   "relation": "complement",
+   "why": "Paul prays that the whole spirit and soul and body of his readers be preserved. Many have read him as naming three things. What is gained by saying, as this answer does, that soul and spirit are one reality with different names?"
+  },
+  {
+   "id": "samuel-seeth-not-as-man-seeth",
+   "after": "source:AB05657",
+   "responds": [
+    "source:AB05657"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel is told that man looketh on the outward appearance, but the Lord looketh on the heart."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is made a little lower than the angels, and crowned with glory and honour."
+  },
+  {
+   "id": "ecclesiastes-no-preeminence-above-a-beast",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher says that man and beast have all one breath, so that a man hath no preeminence above a beast. On what does the superiority claimed here rest, if not on something that can be seen?"
+  },
+  {
+   "id": "john-born-of-water",
+   "after": "source:ABU0573",
+   "responds": [
+    "source:ABU0573"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that what is born of the flesh is flesh, and what is born of the Spirit is spirit."
+  },
+  {
+   "id": "corinthians-temple-of-god",
+   "after": "source:ABU3609",
+   "responds": [
+    "source:ABU3609"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?"
+  },
+  {
+   "id": "luke-kingdom-of-god-is-within-you",
+   "after": "source:ABU3088",
+   "responds": [
+    "source:ABU3088"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the kingdom of God cometh not with observation, for the kingdom of God is within you."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth says that the soul that rises with us cometh from afar, trailing clouds of glory."
+  },
+  {
+   "id": "matthew-fear-not-them-which-kill",
+   "after": "source:BH02414",
+   "responds": [
+    "source:BH02414"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: fear not them which kill the body, but are not able to kill the soul."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:ABU1890",
+   "responds": [
+    "source:ABU1890"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the things which are seen are temporal, but the things which are not seen are eternal."
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that the dust shall return to the earth as it was, and the spirit shall return unto God who gave it."
+  },
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius held that the time after our death will be nothing to us, as the time before our birth was. What in these readings would he call an argument, and what an assertion?"
+  },
+  {
+   "id": "mark-gain-the-whole-world",
+   "after": "source:ABU2923",
+   "responds": [
+    "source:ABU2923"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks what it shall profit a man, if he shall gain the whole world, and lose his own soul."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:ABU0114",
+   "responds": [
+    "source:ABU0114"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "marcus-little-soul-bearing-a-corpse",
+   "after": "source:ABU0114",
+   "responds": [
+    "source:ABU0114"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius quotes Epictetus: thou art a little soul bearing about a corpse."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU0114",
+   "responds": [
+    "source:ABU0114"
+   ],
+   "relation": "contrast",
+   "why": "Darwin held that the difference in mind between man and the higher animals is one of degree and not of kind. Which of the powers the reading credits to the spirit would he say the animals share?"
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:ABU0078",
+   "responds": [
+    "source:ABU0078"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that though our outward man perish, yet the inward man is renewed day by day."
+  },
+  {
+   "id": "plato-soul-likeness-of-the-divine",
+   "after": "source:AB01631",
+   "responds": [
+    "source:AB01631"
+   ],
+   "relation": "adjacent",
+   "why": "Plato sets the soul in the very likeness of the divine, immortal and indissoluble, and the body in the likeness of the mortal."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "contrast",
+   "why": "Hume says that when he enters most intimately into what he calls himself, he always stumbles on some particular perception and never catches himself. What do you find when you observe within yourself, as the reading asks?"
+  },
+  {
+   "id": "james-body-without-the-spirit",
+   "after": "selection:22f490398fe9f4af679138af",
+   "responds": [
+    "selection:22f490398fe9f4af679138af"
+   ],
+   "relation": "adjacent",
+   "why": "James takes it as known to everyone that the body without the spirit is dead."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "selection:439b8016eb4db594e07a94e0",
+   "responds": [
+    "selection:439b8016eb4db594e07a94e0"
+   ],
+   "relation": "adjacent",
+   "why": "The chorus in Sophocles sings that wonders are many, and none is more wonderful than man."
+  }
+ ],
+ "library": {}
+}
