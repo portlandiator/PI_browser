@@ -1,0 +1,571 @@
+{
+ "format": 2,
+ "slug": "causeeffect",
+ "subject": "DF7D0EA999F44DBCA4F5C695B3851674",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 47,
+ "quotations": 48,
+ "kept": [
+  "source:AB00020",
+  "source:ABU2701",
+  "source:BH00088",
+  "source:BH00001",
+  "source:AB03357",
+  "source:BH05526",
+  "source:BH00823",
+  "source:BH07258",
+  "source:AB00103",
+  "source:AB00278",
+  "source:AB03929",
+  "source:ABU2457",
+  "source:ABU2116",
+  "source:ABU0257",
+  "source:AB01029",
+  "source:ABU0591",
+  "source:ABU1391",
+  "source:ABU0766",
+  "source:ABU0102",
+  "source:BH03885",
+  "source:ABU1589",
+  "source:ABU2415",
+  "source:ABU2702",
+  "source:ABU0241",
+  "source:ABU1362",
+  "source:AB05420",
+  "source:AB00268",
+  "source:BH00223",
+  "source:BB00021",
+  "source:BH00328",
+  "source:BB00366",
+  "source:BB00364",
+  "source:BH00433",
+  "source:AB01381",
+  "source:ABU1918",
+  "source:ABU2694",
+  "source:ABU2114",
+  "source:BH00049",
+  "source:BH00342",
+  "source:ABU3514",
+  "source:ABU2327",
+  "source:ABU3230",
+  "source:BH03853",
+  "source:BH01032",
+  "selection:6df61e7123c92ea240f8f8c0",
+  "selection:812256640bad698de91cc8c7",
+  "selection:7c8bfe033cd4c5faa4388dda"
+ ],
+ "introduction": "These readings hold that nothing happens without a cause: every end has its means, which are to be used while trust is placed in God; the parts of the universe act on one another in a chain no link of which can be broken; composition is not accidental; deeds have their effects as seeds have their harvest; and behind the chain stands a Cause of causes. They also separate what follows from our own acts from what belongs to the order of nature. Each of the forty-eight quotations is read here beside one from elsewhere. Most stand alongside: Bacon on causes, Amos's chain of questions, the proverbs of sowing and reaping, Aquinas, Aristotle, the Dhammapada, Jesus on the tower in Siloam, Nehemiah's prayer and watch. Seven push back or add a side: Hume doubts that we ever observe a connexion, the Preacher and Hardy see chance, Darwin sees law without will, Khayyam sees only fate, and the psalm warns that means without God are labour in vain.",
+ "questions": [
+  "The readings say to use the means appointed for every end and also to place one's trust in God. Nehemiah prayed and set a watch. What goes wrong when either half is dropped?",
+  "Hume says that we see one event follow another but never the tie between them. How much of the argument from effect to cause survives his doubt?",
+  "Asked whether disasters are caused by wickedness, the reading separates nature's order from human acts. Why is that separation important, and what did Jesus say about the tower?",
+  "'It is impossible for any deed to remain without effect.' Where have you seen a small deed, good or bad, bear a harvest?",
+  "Khayyam's moving finger cannot be called back. What do the readings mean by a fate that is conditional?"
+ ],
+ "outside": [
+  {
+   "id": "aquinas-first-efficient-cause",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Aquinas argued that it is necessary to admit a first efficient cause, to which everyone gives the name of God."
+  },
+  {
+   "id": "bacon-wise-men-follow-fools",
+   "after": "source:ABU2701",
+   "responds": [
+    "source:ABU2701"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon says that in all superstition wise men follow fools, and arguments are fitted to practice in a reversed order."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:BH00088",
+   "responds": [
+    "source:BH00088"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon says that where the cause is not known the effect cannot be produced, and that nature to be commanded must be obeyed."
+  },
+  {
+   "id": "nehemiah-prayer-and-a-watch",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Nehemiah, rebuilding the wall under threat, says: we made our prayer unto our God, and set a watch against them day and night."
+  },
+  {
+   "id": "psalm-except-the-lord",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "The psalm says that except the Lord build the house, they labour in vain that build it. If every end has its means, what does trust add to using them, and what does using them add to trust?"
+  },
+  {
+   "id": "proverbs-go-to-the-ant",
+   "after": "source:AB03357",
+   "responds": [
+    "source:AB03357"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs sends the sluggard to the ant, which provideth her meat in the summer."
+  },
+  {
+   "id": "james-be-ye-warmed",
+   "after": "source:BH05526",
+   "responds": [
+    "source:BH05526"
+   ],
+   "relation": "adjacent",
+   "why": "James asks what it profits to say to the hungry, be ye warmed and filled, and give them nothing that they need."
+  },
+  {
+   "id": "amos-can-two-walk-together",
+   "after": "source:BH00823",
+   "responds": [
+    "source:BH00823"
+   ],
+   "relation": "adjacent",
+   "why": "Amos asks a chain of questions: will a lion roar in the forest, when he hath no prey? Can a bird fall in a snare where no gin is for him?"
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:BH07258",
+   "responds": [
+    "source:BH07258"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus describes seed that grows while the sower sleeps: first the blade, then the ear, after that the full corn in the ear."
+  },
+  {
+   "id": "aristotle-elements-change-into-one-another",
+   "after": "source:AB00278",
+   "responds": [
+    "source:AB00278"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that the elements are by nature such as to change into one another."
+  },
+  {
+   "id": "marcus-bond-is-holy",
+   "after": "source:AB03929",
+   "responds": [
+    "source:AB03929"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says that all things are implicated with one another, and the bond is holy."
+  },
+  {
+   "id": "pope-chain-of-being",
+   "after": "source:ABU2457",
+   "responds": [
+    "source:ABU2457"
+   ],
+   "relation": "adjacent",
+   "why": "Pope says that whatever link you strike from nature's chain, tenth or ten thousandth, breaks the chain alike."
+  },
+  {
+   "id": "luke-tower-in-siloam",
+   "after": "source:ABU2116",
+   "responds": [
+    "source:ABU2116"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus was asked the same kind of question about those on whom a tower fell, and denied that they were sinners above the rest."
+  },
+  {
+   "id": "voltaire-was-then-more-vice",
+   "after": "source:ABU2116",
+   "responds": [
+    "source:ABU2116"
+   ],
+   "relation": "adjacent",
+   "why": "Voltaire asked after the Lisbon earthquake whether more vice was found there than in Paris."
+  },
+  {
+   "id": "shakespeare-excellent-foppery",
+   "after": "source:ABU0257",
+   "responds": [
+    "source:ABU0257"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Edmund mocks those who lay their disasters to the sun, the moon and the stars, as if they were fools by heavenly compulsion."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "contrast",
+   "why": "Darwin looked at an entangled bank and reflected that its elaborately constructed forms have all been produced by laws acting around us. Does nature need awareness or will for what he describes?"
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0591",
+   "responds": [
+    "source:ABU0591"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius founded his account of nature on the principle that nothing from nothing ever yet was born."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU1391",
+   "responds": [
+    "source:ABU1391"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends his poem with the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "hume-conjoined-but-never-connected",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "contrast",
+   "why": "Hume observed that all events seem entirely loose and separate: one follows another, and they seem conjoined, but never connected. If he is right, what becomes of the step from table to carpenter, and from world to Maker?"
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher saw that the race is not to the swift, nor the battle to the strong, but time and chance happeneth to them all. How do the readings account for what looks like chance?"
+  },
+  {
+   "id": "proverbs-curse-causeless",
+   "after": "source:BH03885",
+   "responds": [
+    "source:BH03885"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that as the bird by wandering, so the curse causeless shall not come."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:ABU1589",
+   "responds": [
+    "source:ABU1589"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz held that each thing is so connected and adapted to all the others that it is a living mirror of the universe."
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:ABU2415",
+   "responds": [
+    "source:ABU2415"
+   ],
+   "relation": "contrast",
+   "why": "Hardy answers the question why joy lies slain with Crass Casualty and dicing Time. What could show him a law where he sees dice?"
+  },
+  {
+   "id": "chandogya-nyagrodha-seed",
+   "after": "source:ABU2702",
+   "responds": [
+    "source:ABU2702"
+   ],
+   "relation": "adjacent",
+   "why": "In the Chandogya Upanishad a father shows his son that the great tree exists from an essence in the seed that he cannot see."
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:ABU0241",
+   "responds": [
+    "source:ABU0241"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that the final cause produces motion as being loved, while all other things move by being moved."
+  },
+  {
+   "id": "plato-world-a-living-creature",
+   "after": "source:ABU1362",
+   "responds": [
+    "source:ABU1362"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Timaeus says that the world became a living creature endowed with soul and intelligence by the providence of God."
+  },
+  {
+   "id": "khayyam-moving-finger",
+   "after": "source:AB05420",
+   "responds": [
+    "source:AB05420"
+   ],
+   "relation": "contrast",
+   "why": "Khayyam, in FitzGerald's version, says that the moving finger writes, and having writ moves on, and no piety nor wit can cancel half a line. Which of the two kinds of fate is he describing, and what does he leave out?"
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that the dust shall return to the earth as it was, and the spirit shall return unto God who gave it."
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that by the word of the Lord were the heavens made."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:BB00021",
+   "responds": [
+    "source:BB00021"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that His command, when He intendeth a thing, is only that He saith unto it: Be! and it is."
+  },
+  {
+   "id": "romans-of-him-and-through-him",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of God: of him, and through him, and to him, are all things, to whom be glory for ever."
+  },
+  {
+   "id": "quran-treasures-with-us",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that there is not a thing but its stores are with God, and it is sent down only in appointed measure."
+  },
+  {
+   "id": "quran-for-everything-a-time-prescribed",
+   "after": "source:BB00364",
+   "responds": [
+    "source:BB00364"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that no messenger brings a portent save by God's leave, and that for everything there is a time prescribed."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:BH00433",
+   "responds": [
+    "source:BH00433"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a corn of wheat, if it die in the ground, bringeth forth much fruit."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:AB01381",
+   "responds": [
+    "source:AB01381"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: be not deceived; God is not mocked, for whatsoever a man soweth, that shall he also reap."
+  },
+  {
+   "id": "hosea-sown-the-wind",
+   "after": "source:AB01381",
+   "responds": [
+    "source:AB01381"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea says of his people that they have sown the wind, and they shall reap the whirlwind."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:ABU1918",
+   "responds": [
+    "source:ABU1918"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that as the rain waters the earth, so his word shall not return unto him void."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU2694",
+   "responds": [
+    "source:ABU2694"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a merry heart doeth good like a medicine, but a broken spirit drieth the bones."
+  },
+  {
+   "id": "emerson-crime-and-punishment-one-stem",
+   "after": "source:ABU2114",
+   "responds": [
+    "source:ABU2114"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that crime and punishment grow out of one stem, the punishment ripening unseen within the pleasure."
+  },
+  {
+   "id": "dhammapada-what-we-have-thought",
+   "after": "source:BH00342",
+   "responds": [
+    "source:BH00342"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that all that we are is the result of what we have thought, and that pain follows an evil thought as the wheel follows the ox."
+  },
+  {
+   "id": "quran-i-am-nigh",
+   "after": "source:ABU3514",
+   "responds": [
+    "source:ABU3514"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an has God say: I am nigh; I answer the prayer of the suppliant when he crieth unto Me."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "source:ABU2327",
+   "responds": [
+    "source:ABU2327"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I am the vine, ye are the branches; without me ye can do nothing."
+  },
+  {
+   "id": "proverbs-heart-deviseth-his-way",
+   "after": "source:ABU3230",
+   "responds": [
+    "source:ABU3230"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a man's heart deviseth his way, but the Lord directeth his steps."
+  },
+  {
+   "id": "quran-change-what-is-in-their-hearts",
+   "after": "source:BH03853",
+   "responds": [
+    "source:BH03853"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that God changeth not the condition of a folk until they first change that which is in their hearts."
+  },
+  {
+   "id": "ecclesiastes-two-are-better-than-one",
+   "after": "source:BH01032",
+   "responds": [
+    "source:BH01032"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that two are better than one, for if they fall, the one will lift up his fellow."
+  },
+  {
+   "id": "john-one-soweth-another-reapeth",
+   "after": "source:BH01032",
+   "responds": [
+    "source:BH01032"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that one soweth and another reapeth, and that his disciples have entered into other men's labours."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "selection:812256640bad698de91cc8c7",
+   "responds": [
+    "selection:812256640bad698de91cc8c7"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza held that all things are in God, and without him can neither be nor be conceived. Is he among those this passage accuses, and what would he reply?"
+  }
+ ],
+ "library": {
+  "proverbs-curse-causeless": {
+   "text": "As the bird by wandering, as the swallow by flying, so the curse causeless shall not come",
+   "work": "Proverbs 26:2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2026%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "amos-can-two-walk-together": {
+   "text": "Can two walk together, except they be agreed? Will a lion roar in the forest, when he hath no prey? will a young lion cry out of his den, if he have taken nothing? Can a bird fall in a snare upon the earth, where no gin is for him? shall one take up a snare from the earth, and have taken nothing at all? Shall a trumpet be blown in the city, and the people not be afraid? shall there be evil in a city, and the Lord hath not done it",
+   "work": "Amos 3:3–6",
+   "year": "8th century BCE",
+   "sortYear": -750,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Amos%203%3A3-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hume-conjoined-but-never-connected": {
+   "text": "All Events seem entirely loose and separate. One Event follows another; but we never can observe any Tye betwixt them: They seem conjoin'd, but never connected",
+   "author": "David Hume",
+   "work": "An Enquiry Concerning Human Understanding",
+   "locator": "section 7, “Of the Idea of Necessary Connexion”",
+   "year": "1748",
+   "sortYear": 1748,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding/Essay_7",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1776."
+   }
+  }
+ }
+}
