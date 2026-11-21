@@ -1,0 +1,597 @@
+{
+ "format": 2,
+ "slug": "unityexistence",
+ "subject": "0858B3C3177BE8300A0B98D4DF4EBB10",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 52,
+ "quotations": 58,
+ "kept": [
+  "source:AB00062",
+  "source:BH11459",
+  "source:BH01043",
+  "source:AB00153",
+  "source:BH00409",
+  "source:BH11628",
+  "source:AB00538",
+  "source:ABU0549",
+  "source:BB00064",
+  "source:BB00017",
+  "source:BB00003",
+  "source:BB00001",
+  "source:AB00952",
+  "source:BH00012",
+  "source:ABU0151",
+  "source:BH00656",
+  "source:AB07716",
+  "source:BH00210",
+  "source:BH00260",
+  "source:AB00020",
+  "source:ABU0185",
+  "source:ABU2940",
+  "source:BH11861",
+  "source:ABU2772",
+  "source:AB00188",
+  "source:ABU0008",
+  "source:ABU0024",
+  "source:ABU1199",
+  "source:ABU0448",
+  "source:ABU2014",
+  "source:ABU1567",
+  "source:ABU0022",
+  "source:ABU0048",
+  "source:BH00789",
+  "source:BH02405",
+  "source:BH00047",
+  "source:BH04014",
+  "source:AB05152",
+  "selection:903065490953c7e1bd6511f8",
+  "selection:b68db06961f5d135fb134682",
+  "selection:eeba5d97e97bc7ebe180f20f",
+  "selection:060cea455c8d5fc41d90c281",
+  "selection:85c3181541c5977f1f1485ab",
+  "selection:d6f5e5d4dd7c604a87856a67",
+  "selection:092b65ccf96d5cd36766b5fe",
+  "selection:23e6d18dc74737e3b30a4c70",
+  "selection:4f8439089b5af1db5be386dd",
+  "selection:b85fa5a93197697d7f656943",
+  "selection:4b31697847ad134ae9de4fad",
+  "selection:6ffd3df7b732125723541370",
+  "selection:9aff6c80a335140e0c8bef3c",
+  "selection:4e1abfdc502ec944d6d0f8fd"
+ ],
+ "introduction": "This guide gathers what the Bahá’í writings say on the unity of existence, the doctrine of the Sufi masters that all things are the One appearing in many forms. The readings honour the vision of God in all things and yet correct it: things emanate from God and are not God, the ocean and its waves is a deficient figure, and a spirit is not absorbed like a drop into the sea; they also find a real oneness in the soul's faculties and in the linked world of beings. The outside quotations bring the teachers on each side, Plotinus, Augustine, Maimonides and the Qur’an with the readings, and the Upanishads, Spinoza, Emerson and Whitman in contrast, since the guide speaks severely of a view that others hold as their faith.",
+ "questions": [
+  "What is the difference between saying that things manifest the One and saying that they emanate from it, and why do the readings think it great?",
+  "The Upanishad says the rivers become the sea. What do the readings fear in that figure, and what might its teachers say in reply?",
+  "One reading calls those who affirm the unity of existence polytheists. How would you put that argument to someone who holds the view, and what would they answer?",
+  "In what senses do the readings themselves affirm that existence is one?",
+  "How do the readings on the soul's faculties use the same reasoning on a small scale?"
+ ],
+ "outside": [
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus gives the figure of emanation that the reading prefers: the One, lacking nothing, has overflowed and produced the new."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus likens what proceeds from the Supreme to the light encircling the sun, generated from a substance that does not change."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza holds that all things that are, are in God, and can neither be nor be conceived without him. On which side of the line between manifestation and emanation does that fall?"
+  },
+  {
+   "id": "chandogya-clod-of-clay",
+   "after": "source:BH11459",
+   "responds": [
+    "source:BH11459"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad says that by one clod of clay all that is made of clay is known, the difference being only a name."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:BH11459",
+   "responds": [
+    "source:BH11459"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians, in their own poets' words, that in God we live and move and have our being."
+  },
+  {
+   "id": "deuteronomy-shema",
+   "after": "source:BH01043",
+   "responds": [
+    "source:BH01043"
+   ],
+   "relation": "adjacent",
+   "why": "The creed of Israel begins with the oneness the reading guards: the Lord our God is one Lord."
+  },
+  {
+   "id": "whitman-divine-am-i",
+   "after": "source:BH01043",
+   "responds": [
+    "source:BH01043"
+   ],
+   "relation": "contrast",
+   "why": "Whitman calls himself divine inside and out, making holy whatever he touches. Is this the seeing of two as one that the reading rejects, or a poet's way of praising?"
+  },
+  {
+   "id": "exodus-i-am-hath-sent-me",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "adjacent",
+   "why": "God names himself to Moses simply as I Am That I Am, existence beside which all else is derived."
+  },
+  {
+   "id": "augustine-neither-altogether-are-nor-are-not",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine saw that things below God neither altogether are nor altogether are not, for that truly is which remains immutably."
+  },
+  {
+   "id": "colossians-by-him-all-things-consist",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of one who is before all things and by whom all things consist."
+  },
+  {
+   "id": "quran-first-and-last",
+   "after": "source:BH11628",
+   "responds": [
+    "source:BH11628"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an names God the First and the Last, the Outward and the Inward, the terms the mystics took up."
+  },
+  {
+   "id": "chandogya-rivers",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "contrast",
+   "why": "An Indian teacher says the rivers become the sea and no longer know themselves as this or that river. Is that the deficiency the reading finds in the figure of ocean and waves, or its point?"
+  },
+  {
+   "id": "augustine-i-asked-the-earth",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine asked the earth and all things in it, and each answered him, I am not He."
+  },
+  {
+   "id": "kings-heaven-cannot-contain",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon asks whether God will dwell on earth, when the heaven of heavens cannot contain him."
+  },
+  {
+   "id": "emerson-i-am-divine",
+   "after": "source:ABU0549",
+   "responds": [
+    "source:ABU0549"
+   ],
+   "relation": "contrast",
+   "why": "Emerson writes of one man who saw that God incarnates himself in man and said, I am divine: see thee, when thou also thinkest as I now think. How near is that to what the birds find at the journey's end?"
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "source:BB00064",
+   "responds": [
+    "source:BB00064"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle reasons in the same way that the divine thought needs no other object: its thinking is a thinking on thinking."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "source:BB00064",
+   "responds": [
+    "source:BB00064"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks to whom God can be likened, and what likeness can be compared to him."
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "contrast",
+   "why": "An Upanishad teaches that the subtle essence of all is the Self, and thou art it. Is this the affirmation of two that the reading charges, or the denial of two?"
+  },
+  {
+   "id": "maimonides-not-two-or-more-but-one",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "Maimonides holds that God is one, not two or more, with a unity unlike any other."
+  },
+  {
+   "id": "quran-he-is-allah-the-one",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an's chapter of unity says that God is One, the eternally Besought of all."
+  },
+  {
+   "id": "hopkins-gods-grandeur",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins sees the world charged with the grandeur of God, flaming out like shining from shook foil."
+  },
+  {
+   "id": "quran-whithersoever-ye-turn",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that East and West belong to God, and whichever way one turns he is there."
+  },
+  {
+   "id": "romans-of-him-and-through-him",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul puts origin and return in one line: of him, and through him, and to him, are all things."
+  },
+  {
+   "id": "ephesians-above-all-and-through-all",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul confesses one God and Father of all, who is above all and through all."
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "source:AB00952",
+   "responds": [
+    "source:AB00952"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson holds that to understand one small flower, root and all, would be to know what God and man is."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:AB00952",
+   "responds": [
+    "source:AB00952"
+   ],
+   "relation": "adjacent",
+   "why": "Blake would see a world in a grain of sand and a heaven in a wild flower."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:ABU0151",
+   "responds": [
+    "source:ABU0151"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz says each simple substance has relations that express all the others, a perpetual living mirror of the universe."
+  },
+  {
+   "id": "emerson-each-and-all",
+   "after": "source:ABU0151",
+   "responds": [
+    "source:ABU0151"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that all are needed by each one, and nothing is fair or good alone."
+  },
+  {
+   "id": "shelley-many-coloured-glass",
+   "after": "source:BH00656",
+   "responds": [
+    "source:BH00656"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley writes that the One remains while the many change and pass, like light stained by many-coloured glass."
+  },
+  {
+   "id": "corinthians-one-body-many-members",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's figure for one life with many functions is the body, which is one and has many members."
+  },
+  {
+   "id": "corinthians-diversities-of-gifts",
+   "after": "source:BH00260",
+   "responds": [
+    "source:BH00260"
+   ],
+   "relation": "adjacent",
+   "why": "Paul finds diversities of operations but the same God working all in all."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "contrast",
+   "why": "Hume, looking within, never catches himself without a perception and never observes anything but the perception. What shows that the faculties belong to one reality?"
+  },
+  {
+   "id": "gita-never-the-spirit-was-born",
+   "after": "source:ABU2772",
+   "responds": [
+    "source:ABU2772"
+   ],
+   "relation": "adjacent",
+   "why": "The Gita says the spirit was never born and shall never cease to be."
+  },
+  {
+   "id": "swinburne-weariest-river",
+   "after": "source:ABU2772",
+   "responds": [
+    "source:ABU2772"
+   ],
+   "relation": "complement",
+   "why": "Swinburne gives thanks that no life lives for ever and that even the weariest river winds somewhere safe to sea. Why is being lost in the sea a hope for some and a loss for others?"
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:AB00188",
+   "responds": [
+    "source:AB00188"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews holds that the worlds were framed by the word of God, the seen made from what does not appear."
+  },
+  {
+   "id": "avot-vestibule",
+   "after": "source:AB00188",
+   "responds": [
+    "source:AB00188"
+   ],
+   "relation": "complement",
+   "why": "Rabbi Jacob calls this world a vestibule before the world to come. Is the next world another place, or the one world seen from a further room?"
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Lavoisier laid down as an axiom that in all operations nothing is created: the same quantity of matter exists before and after."
+  },
+  {
+   "id": "plato-elements-pass-into-one-another",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Plato observed that water, by condensation, seems to become earth, and the elements pass into one another."
+  },
+  {
+   "id": "heraclitus-way-up-way-down",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus says the way up and the way down are one and the same."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord of John's vision calls himself Alpha and Omega, the beginning and the ending."
+  },
+  {
+   "id": "pope-warms-in-the-sun",
+   "after": "source:ABU1199",
+   "responds": [
+    "source:ABU1199"
+   ],
+   "relation": "adjacent",
+   "why": "Pope writes of what is changed through all and yet in all the same, warming in the sun and blossoming in the trees."
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:ABU0448",
+   "responds": [
+    "source:ABU0448"
+   ],
+   "relation": "adjacent",
+   "why": "Pope surveys a vast chain of being from God downward through every grade of nature."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU0448",
+   "responds": [
+    "source:ABU0448"
+   ],
+   "relation": "contrast",
+   "why": "Darwin held the difference in mind between man and the higher animals to be one of degree and not of kind. If existence is one in every grade, why may no grade become another?"
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:ABU2014",
+   "responds": [
+    "source:ABU2014"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius bids himself regard the universe constantly as one living being, with one substance and one soul."
+  },
+  {
+   "id": "chandogya-one-only-without-a-second",
+   "after": "source:ABU1567",
+   "responds": [
+    "source:ABU1567"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad says that in the beginning there was only that which is, one only, without a second."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:ABU0022",
+   "responds": [
+    "source:ABU0022"
+   ],
+   "relation": "adjacent",
+   "why": "Plato makes the sun the author of visibility and of growth, his figure for the highest reality."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU0022",
+   "responds": [
+    "source:ABU0022"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi says that the lamps are different but the Light is the same, and comes from beyond."
+  },
+  {
+   "id": "aquinas-grace-perfects-nature",
+   "after": "source:ABU0048",
+   "responds": [
+    "source:ABU0048"
+   ],
+   "relation": "adjacent",
+   "why": "Aquinas holds that grace does not destroy nature but perfects it, so that reason ministers to faith."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BH00789",
+   "responds": [
+    "source:BH00789"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching opens by saying that the way that can be trodden is not the enduring and unchanging Way."
+  },
+  {
+   "id": "isha-far-and-near",
+   "after": "source:BH00789",
+   "responds": [
+    "source:BH00789"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad says of the One that it stirs and stirs not, and is far and likewise near."
+  },
+  {
+   "id": "wordsworth-rolls-through-all-things",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth felt a presence that disturbed him with joy, a motion and a spirit that rolls through all things."
+  },
+  {
+   "id": "psalm-whom-have-i-in-heaven",
+   "after": "source:AB05152",
+   "responds": [
+    "source:AB05152"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist has none in heaven but God, and desires none upon earth beside him."
+  },
+  {
+   "id": "dante-glory-of-him",
+   "after": "selection:903065490953c7e1bd6511f8",
+   "responds": [
+    "selection:903065490953c7e1bd6511f8"
+   ],
+   "relation": "adjacent",
+   "why": "Dante opens his Paradise with the glory of the One that penetrates the universe and shines in one part more, in another less."
+  },
+  {
+   "id": "gita-row-of-pearls",
+   "after": "selection:b68db06961f5d135fb134682",
+   "responds": [
+    "selection:b68db06961f5d135fb134682"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna says that all things hang on him as a row of pearls hangs upon its string."
+  },
+  {
+   "id": "kabir-one-light",
+   "after": "selection:eeba5d97e97bc7ebe180f20f",
+   "responds": [
+    "selection:eeba5d97e97bc7ebe180f20f"
+   ],
+   "relation": "adjacent",
+   "why": "Kabir sings that God first created the Light, and from that one Light the whole world came."
+  },
+  {
+   "id": "browning-imprisoned-splendour",
+   "after": "selection:d6f5e5d4dd7c604a87856a67",
+   "responds": [
+    "selection:d6f5e5d4dd7c604a87856a67"
+   ],
+   "relation": "adjacent",
+   "why": "Browning holds that truth is within ourselves and takes no rise from outward things."
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "selection:23e6d18dc74737e3b30a4c70",
+   "responds": [
+    "selection:23e6d18dc74737e3b30a4c70"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays that the eyes of his readers' understanding be enlightened, an eye of the heart."
+  },
+  {
+   "id": "quran-save-his-countenance",
+   "after": "selection:4b31697847ad134ae9de4fad",
+   "responds": [
+    "selection:4b31697847ad134ae9de4fad"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that everything will perish save his countenance, the negation of all else that the reading describes."
+  }
+ ],
+ "library": {}
+}
