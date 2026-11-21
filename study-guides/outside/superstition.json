@@ -1,0 +1,430 @@
+{
+ "format": 2,
+ "slug": "superstition",
+ "subject": "D620FD6DAD8CE0263CC82E624719AE3D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 18,
+ "quotations": 18,
+ "kept": [
+  "source:ABU0493",
+  "source:ABU2701",
+  "source:ABU0173",
+  "source:ABU0177",
+  "source:AB01000",
+  "source:AB00475",
+  "source:ABU0259",
+  "source:AB05067",
+  "source:AB01239",
+  "source:AB03340",
+  "source:ABU2117",
+  "source:ABU1045",
+  "source:ABU0807",
+  "source:AB00152",
+  "source:ABU3101",
+  "source:AB02401",
+  "source:ABU1727",
+  "source:ABU3168"
+ ],
+ "introduction": "These readings go through particular superstitions one at a time: the hens who thought the rooster made the sun rise, astrologers' predictions, lucky and unlucky numbers, the evil eye, sneezing, paper burnt against devils, earthbound spirits, a new food refused as unclean. Most are called pure imagination; some, like the influence of one part of the universe on another, are given a truer account; and a symbol worn is allowed as a reminder with no magical power. Each of the eighteen quotations is read here beside one from elsewhere. Most stand alongside: Bacon on superstition and on causes, Isaiah and Jeremiah on astrologers, Shakespeare on blaming the stars, Paul on idols and on rules about what may be touched. Three add a side: Hamlet's 'more things in heaven and earth', the woman consulted at Endor, and the brasen serpent that had to be broken.",
+ "questions": [
+  "The hens thought the sun rose because the rooster crowed. What belief of your own rests on two things regularly happening together?",
+  "The readings deny that astrologers can foretell good and evil, and also say that all parts of the universe are linked. How do you tell an influence not yet understood from a superstition?",
+  "Several of these superstitions were about food, money or people held to be unclean. What does Peter's vision add, and what harm do such beliefs do?",
+  "A cross or a ringstone is called a reminder with no magical power; Hezekiah broke a holy object because people burned incense to it. How would you know when a reminder has become something else?"
+ ],
+ "outside": [
+  {
+   "id": "bacon-reproach-of-the-deity",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon held that it were better to have no opinion of God at all than such an opinion as is unworthy of him, and called superstition the reproach of the Deity."
+  },
+  {
+   "id": "mark-tradition-of-men",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of the religious practice of his day: laying aside the commandment of God, ye hold the tradition of men."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU2701",
+   "responds": [
+    "source:ABU2701"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon observed that where the cause is not known the effect cannot be produced."
+  },
+  {
+   "id": "bacon-wise-men-follow-fools",
+   "after": "source:ABU0173",
+   "responds": [
+    "source:ABU0173"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon says that the master of superstition is the people, and that in all superstition wise men follow fools."
+  },
+  {
+   "id": "isaiah-astrologers",
+   "after": "source:ABU0177",
+   "responds": [
+    "source:ABU0177"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah mocks the astrologers, the stargazers and the monthly prognosticators, and bids them stand up and save."
+  },
+  {
+   "id": "shakespeare-excellent-foppery",
+   "after": "source:AB01000",
+   "responds": [
+    "source:AB01000"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Edmund calls it the excellent foppery of the world that we make guilty of our disasters the sun, the moon and the stars."
+  },
+  {
+   "id": "jeremiah-signs-of-heaven",
+   "after": "source:AB01000",
+   "responds": [
+    "source:AB01000"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah tells his people not to be dismayed at the signs of heaven, as the heathen are."
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "source:AB00475",
+   "responds": [
+    "source:AB00475"
+   ],
+   "relation": "complement",
+   "why": "Hamlet tells his friend that there are more things in heaven and earth than are dreamt of in his philosophy. How does one leave room for influences not yet understood without giving credit to the astrologers?"
+  },
+  {
+   "id": "shakespeare-fault-not-in-our-stars",
+   "after": "source:ABU0259",
+   "responds": [
+    "source:ABU0259"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Cassius says that the fault is not in our stars, but in ourselves."
+  },
+  {
+   "id": "shakespeare-we-defy-augury",
+   "after": "source:AB05067",
+   "responds": [
+    "source:AB05067"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet says: we defy augury; there is a special providence in the fall of a sparrow."
+  },
+  {
+   "id": "deuteronomy-useth-divination",
+   "after": "source:AB03340",
+   "responds": [
+    "source:AB03340"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy forbids divination, the observing of times, enchantment and the consulting of familiar spirits."
+  },
+  {
+   "id": "acts-burned-their-books",
+   "after": "source:ABU2117",
+   "responds": [
+    "source:ABU2117"
+   ],
+   "relation": "adjacent",
+   "why": "Acts tells how many who used curious arts brought their books together and burned them before all men."
+  },
+  {
+   "id": "acts-call-not-thou-common",
+   "after": "source:ABU1045",
+   "responds": [
+    "source:ABU1045"
+   ],
+   "relation": "adjacent",
+   "why": "Peter, in a vision, refuses food as unclean and is told: what God hath cleansed, that call not thou common."
+  },
+  {
+   "id": "colossians-touch-not-taste-not",
+   "after": "source:ABU0807",
+   "responds": [
+    "source:ABU0807"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks why believers subject themselves to ordinances such as touch not, taste not, handle not, after the doctrines of men."
+  },
+  {
+   "id": "luke-tower-in-siloam",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks whether those on whom the tower in Siloam fell were sinners above all others, and answers: I tell you, nay."
+  },
+  {
+   "id": "samuel-woman-at-endor",
+   "after": "source:ABU3101",
+   "responds": [
+    "source:ABU3101"
+   ],
+   "relation": "contrast",
+   "why": "The first book of Samuel tells of King Saul seeking out a woman with a familiar spirit to bring up the dead for him. What should a reader who holds that no departed soul can be summoned make of such a story in scripture?"
+  },
+  {
+   "id": "corinthians-but-one-god",
+   "after": "source:AB02401",
+   "responds": [
+    "source:AB02401"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that an idol is nothing in the world, and that there is none other God but one."
+  },
+  {
+   "id": "kings-brake-the-brasen-serpent",
+   "after": "source:ABU3168",
+   "responds": [
+    "source:ABU3168"
+   ],
+   "relation": "complement",
+   "why": "King Hezekiah broke in pieces the brasen serpent that Moses had made, because the people had come to burn incense to it. When does a reminder worn or kept become the thing itself, and who should decide?"
+  }
+ ],
+ "library": {
+  "timothy-old-wives-fables": {
+   "text": "But refuse profane and old wives' fables, and exercise thyself rather unto godliness",
+   "work": "1 Timothy 4:7",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%204%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-burned-their-books": {
+   "text": "Many of them also which used curious arts brought their books together, and burned them before all men: and they counted the price of them, and found it fifty thousand pieces of silver",
+   "work": "Acts 19:19",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-not-that-which-goeth-into-the-mouth": {
+   "text": "Hear, and understand: Not that which goeth into the mouth defileth a man",
+   "work": "Matthew 15:10–11",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "colossians-touch-not-taste-not": {
+   "text": "Wherefore if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances, (Touch not; taste not; handle not; Which all are to perish with the using;) after the commandments and doctrines of men",
+   "work": "Colossians 2:20–22",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A20-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-brake-the-brasen-serpent": {
+   "text": "He removed the high places, and brake the images, and cut down the groves, and brake in pieces the brasen serpent that Moses had made: for unto those days the children of Israel did burn incense to it: and he called it Nehushtan",
+   "work": "2 Kings 18:4",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Kings%2018%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-woman-at-endor": {
+   "text": "Then said Saul unto his servants, Seek me a woman that hath a familiar spirit, that I may go to her, and enquire of her. And his servants said to him, Behold, there is a woman that hath a familiar spirit at Endor. And Saul disguised himself, and put on other raiment, and he went, and two men with him, and they came to the woman by night: and he said, I pray thee, divine unto me by the familiar spirit, and bring me him up, whom I shall name unto thee",
+   "work": "1 Samuel 28:7–8",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2028%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-sun-when-it-shined": {
+   "text": "If I beheld the sun when it shined, or the moon walking in brightness; And my heart hath been secretly enticed, or my mouth hath kissed my hand: This also were an iniquity to be punished by the judge: for I should have denied the God that is above",
+   "work": "Job 31:26–28",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2031%3A26-28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "shakespeare-we-defy-augury": {
+   "text": "we defy augury: there's a special / providence in the fall of a sparrow. If it be now, / 'tis not to come; if it be not to come, it will be / now; if it be not now, yet it will come: the / readiness is all",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act V, scene 2",
+   "year": "c. 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "bacon-reproach-of-the-deity": {
+   "text": "It were better to have no opinion of God at all, than such an opinion as is unworthy of him. For the one is unbelief, the other is contumely: and certainly superstition is the reproach of the Deity",
+   "author": "Francis Bacon",
+   "work": "Essays, “Of Superstition”",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon/XVII_Of_Superstition",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  },
+  "bacon-wise-men-follow-fools": {
+   "text": "The master of superstition is the people; and in all superstition wise men follow fools; and arguments are fitted to practice, in a reversed order",
+   "author": "Francis Bacon",
+   "work": "Essays, “Of Superstition”",
+   "year": "1625",
+   "sortYear": 1625,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon/XVII_Of_Superstition",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1626."
+   }
+  }
+ }
+}
