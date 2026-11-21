@@ -1,0 +1,763 @@
+{
+ "format": 2,
+ "slug": "courtesy",
+ "subject": "CF1F45263A44466C9655EE1714DE1B33",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 62,
+ "quotations": 63,
+ "kept": [
+  "source:BH00005",
+  "source:BH00113",
+  "source:BH03725",
+  "source:AB00003",
+  "source:BH00238",
+  "source:BH00001",
+  "source:BH00846",
+  "source:BH11527",
+  "source:BH09100",
+  "source:BH10656",
+  "source:BH01422",
+  "source:BH00004",
+  "source:BH00269",
+  "source:AB09532",
+  "source:AB00957",
+  "source:ABU3633",
+  "source:ABU3536",
+  "source:BH00479",
+  "source:AB04959",
+  "source:AB05684",
+  "source:AB10395",
+  "source:AB01358",
+  "source:AB06412",
+  "source:AB08632",
+  "source:AB12090",
+  "source:ABU1495",
+  "source:AB03212",
+  "source:AB01317",
+  "source:AB01449",
+  "source:AB01050",
+  "source:BHU0010",
+  "source:AB05203",
+  "source:AB02408",
+  "source:AB01691",
+  "source:ABU3237",
+  "source:ABU2761",
+  "source:AB06101",
+  "source:BH04613",
+  "source:AB12163",
+  "source:AB07821",
+  "source:AB04213",
+  "source:ABU2745",
+  "source:ABU2960",
+  "source:ABU2939",
+  "source:BH05778",
+  "source:ABU1005",
+  "source:AB01908",
+  "source:AB02789",
+  "source:AB06702",
+  "source:AB06169",
+  "source:AB04417",
+  "source:AB09055",
+  "source:AB03055",
+  "source:BH07042",
+  "source:BH02476",
+  "source:BH10178",
+  "source:BH02211",
+  "source:AB00824",
+  "source:AB02210",
+  "source:BH04772",
+  "source:ABU1484",
+  "selection:b041dc2b4e36bb769ded6a2c"
+ ],
+ "introduction": "Bahá’u’lláh calls courtesy the prince of virtues and a garment that fits everyone; the readings that follow show it at work in small things, in asking leave before entering a house, welcoming a workman or a pilgrim, writing a short letter, keeping silent about a fault, addressing an ambassador, training a child. Scripture and the moralists stand close by: the Qur’an on asking permission and returning a greeting, Proverbs on the soft answer, Paul on speech seasoned with salt, Confucius on propriety, Abraham running to meet strangers. A few quotations test the limits of the virtue: Confucius on rites without humanity, Paul on pleasing men, Elihu on flattering titles, Proverbs on open rebuke.",
+ "questions": [
+  "Why might courtesy be called the prince of virtues? What does Confucius add by asking what rites are worth without humanity?",
+  "One reading advises praising what is good in a person and otherwise keeping silent. When is that courtesy, and when would Proverbs call for open rebuke?",
+  "How do the readings distinguish respect for rank from the flattery Elihu refuses?",
+  "Which of the small courtesies described here is hardest to practise, and why?"
+ ],
+ "outside": [
+  {
+   "id": "peter-be-courteous",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks believers to be pitiful and courteous, not rendering railing for railing."
+  },
+  {
+   "id": "analects-led-by-laws",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius holds that people led by virtue and the rules of propriety gain a sense of shame and become good."
+  },
+  {
+   "id": "quran-enter-not-houses-until-ye-have-asked",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an gives the same rule: enter not houses other than your own without first asking leave and greeting the people."
+  },
+  {
+   "id": "proverbs-withdraw-thy-foot",
+   "after": "source:BH03725",
+   "responds": [
+    "source:BH03725"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs advises withdrawing thy foot from thy neighbour's house, lest he be weary of thee."
+  },
+  {
+   "id": "hadith-perfect-good-character",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Muhammad is reported to have said that he was sent to perfect good character."
+  },
+  {
+   "id": "analects-rites-without-virtue",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "complement",
+   "why": "Confucius asks what a man without the virtues proper to humanity has to do with the rites of propriety. Is courtesy the prince of virtues, or the dress of other virtues?"
+  },
+  {
+   "id": "colossians-put-on-kindness",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul also speaks of virtues as clothing: put on kindness, humbleness of mind, meekness."
+  },
+  {
+   "id": "ephesians-speaking-the-truth-in-love",
+   "after": "source:BH00846",
+   "responds": [
+    "source:BH00846"
+   ],
+   "relation": "adjacent",
+   "why": "Paul joins truthfulness and courtesy in one phrase: speaking the truth in love."
+  },
+  {
+   "id": "luke-good-measure",
+   "after": "source:BH11527",
+   "responds": [
+    "source:BH11527"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says, give, and it shall be given unto you, good measure, pressed down."
+  },
+  {
+   "id": "romans-in-honour-preferring",
+   "after": "source:BH09100",
+   "responds": [
+    "source:BH09100"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks believers to be kindly affectioned one to another, in honour preferring one another."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:BH10656",
+   "responds": [
+    "source:BH10656"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks that good works be seen, that others may glorify God: help given by conduct."
+  },
+  {
+   "id": "matthew-golden-rule",
+   "after": "source:BH01422",
+   "responds": [
+    "source:BH01422"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus sums up the law: whatever you would that men should do to you, do so to them."
+  },
+  {
+   "id": "james-tongue-can-no-man-tame",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "James says the tongue can no man tame, a small member that boasts great things."
+  },
+  {
+   "id": "peter-reviled-not-again",
+   "after": "source:BH00269",
+   "responds": [
+    "source:BH00269"
+   ],
+   "relation": "adjacent",
+   "why": "Peter recalls one who, when he was reviled, reviled not again, and when he suffered, threatened not."
+  },
+  {
+   "id": "proverbs-merry-heart-cheerful-countenance",
+   "after": "source:AB09532",
+   "responds": [
+    "source:AB09532"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a merry heart makes a cheerful countenance, and good nature shows in the face."
+  },
+  {
+   "id": "proverbs-pleasant-words-health-to-the-bones",
+   "after": "source:AB00957",
+   "responds": [
+    "source:AB00957"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that pleasant words are as an honeycomb, sweet to the soul and health to the bones."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU3633",
+   "responds": [
+    "source:ABU3633"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says a merry heart does good like a medicine, to the one who sees it too."
+  },
+  {
+   "id": "james-respect-of-persons",
+   "after": "source:ABU3536",
+   "responds": [
+    "source:ABU3536"
+   ],
+   "relation": "adjacent",
+   "why": "James forbids his assembly to honour the man with the gold ring above the poor man in vile raiment."
+  },
+  {
+   "id": "shakespeare-after-his-desert",
+   "after": "source:BH00479",
+   "responds": [
+    "source:BH00479"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet says: use them after your own honour and dignity; the less they deserve, the more merit in your bounty."
+  },
+  {
+   "id": "leviticus-stranger",
+   "after": "source:AB04959",
+   "responds": [
+    "source:AB04959"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus commands that the stranger be as one born among you, and loved as thyself."
+  },
+  {
+   "id": "job-stranger-did-not-lodge",
+   "after": "source:AB05684",
+   "responds": [
+    "source:AB05684"
+   ],
+   "relation": "adjacent",
+   "why": "Job says that the stranger did not lodge in the street, for he opened his doors to the traveller."
+  },
+  {
+   "id": "hebrews-entertain-strangers",
+   "after": "source:AB10395",
+   "responds": [
+    "source:AB10395"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says: be not forgetful to entertain strangers, for some have entertained angels unawares."
+  },
+  {
+   "id": "peter-hospitality-without-grudging",
+   "after": "source:AB01358",
+   "responds": [
+    "source:AB01358"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks believers to use hospitality one to another without grudging, as charity requires."
+  },
+  {
+   "id": "romans-phebe-our-sister",
+   "after": "source:AB06412",
+   "responds": [
+    "source:AB06412"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes a letter of commendation for Phebe, asking the church at Rome to receive and assist her."
+  },
+  {
+   "id": "genesis-abraham-three-strangers",
+   "after": "source:ABU1495",
+   "responds": [
+    "source:ABU1495"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham sees three strangers from his tent door, runs to meet them and begs them not to pass by."
+  },
+  {
+   "id": "tolstoy-three-hermits",
+   "after": "source:AB01317",
+   "responds": [
+    "source:AB01317"
+   ],
+   "relation": "adjacent",
+   "why": "In Tolstoy's own tale a bishop bows to three unlettered hermits and tells them their prayer will reach the Lord."
+  },
+  {
+   "id": "timothy-in-meekness-instructing",
+   "after": "source:AB01449",
+   "responds": [
+    "source:AB01449"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the servant of the Lord must not strive, but be gentle and instruct in meekness."
+  },
+  {
+   "id": "proverbs-soft-answer",
+   "after": "source:AB01050",
+   "responds": [
+    "source:AB01050"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a soft answer turns away wrath, but grievous words stir up anger."
+  },
+  {
+   "id": "quran-argue-not-save-in-better-way",
+   "after": "source:BHU0010",
+   "responds": [
+    "source:BHU0010"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an asks believers to argue with others only in the better way."
+  },
+  {
+   "id": "aesop-wind-and-sun",
+   "after": "source:AB05203",
+   "responds": [
+    "source:AB05203"
+   ],
+   "relation": "adjacent",
+   "why": "In Aesop's fable the harder the wind blew, the closer the traveller wrapped his cloak; the sun's warmth did what force could not."
+  },
+  {
+   "id": "quran-subdue-thy-voice",
+   "after": "source:AB02408",
+   "responds": [
+    "source:AB02408"
+   ],
+   "relation": "adjacent",
+   "why": "Luqman tells his son in the Qur’an to be modest in bearing and subdue his voice."
+  },
+  {
+   "id": "proverbs-open-rebuke",
+   "after": "source:AB01691",
+   "responds": [
+    "source:AB01691"
+   ],
+   "relation": "contrast",
+   "why": "Proverbs holds that open rebuke is better than secret love. Is silence about a fault always the kinder course?"
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "source:ABU3237",
+   "responds": [
+    "source:ABU3237"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he is made all things to all men, that he might by all means save some."
+  },
+  {
+   "id": "galatians-please-men",
+   "after": "source:ABU3237",
+   "responds": [
+    "source:ABU3237"
+   ],
+   "relation": "contrast",
+   "why": "Paul also says that if he yet pleased men he would not be the servant of Christ. Where does consideration for public taste end and pleasing men begin?"
+  },
+  {
+   "id": "luke-woe-when-all-speak-well",
+   "after": "source:ABU3237",
+   "responds": [
+    "source:ABU3237"
+   ],
+   "relation": "complement",
+   "why": "Jesus says, woe unto you when all men shall speak well of you. Can a message that offends no one be the whole message?"
+  },
+  {
+   "id": "proverbs-word-in-due-season",
+   "after": "source:ABU2761",
+   "responds": [
+    "source:ABU2761"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a word spoken in due season, how good is it."
+  },
+  {
+   "id": "ecclesiastes-words-be-few",
+   "after": "source:AB06101",
+   "responds": [
+    "source:AB06101"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says: be not rash with thy mouth, and let thy words be few."
+  },
+  {
+   "id": "proverbs-word-fitly-spoken",
+   "after": "source:AB12163",
+   "responds": [
+    "source:AB12163"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs likens a word fitly spoken to apples of gold in pictures of silver."
+  },
+  {
+   "id": "corinthians-every-one-hath-a-psalm",
+   "after": "source:AB07821",
+   "responds": [
+    "source:AB07821"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that when each has something to say in the assembly, all be done unto edifying."
+  },
+  {
+   "id": "colossians-seasoned-with-salt",
+   "after": "source:AB04213",
+   "responds": [
+    "source:AB04213"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that speech be always with grace, seasoned with salt, fitted to each hearer."
+  },
+  {
+   "id": "matthew-wise-as-serpents",
+   "after": "source:ABU2745",
+   "responds": [
+    "source:ABU2745"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks his disciples to be wise as serpents and harmless as doves."
+  },
+  {
+   "id": "analects-all-within-the-four-seas",
+   "after": "source:ABU2960",
+   "responds": [
+    "source:ABU2960"
+   ],
+   "relation": "adjacent",
+   "why": "A disciple of Confucius says the superior man orders his own conduct and is respectful and observant of propriety."
+  },
+  {
+   "id": "proverbs-go-to-the-ant",
+   "after": "source:ABU2939",
+   "responds": [
+    "source:ABU2939"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks the sluggard how long he will sleep, and when he will arise."
+  },
+  {
+   "id": "quran-answer-peace",
+   "after": "source:BH05778",
+   "responds": [
+    "source:BH05778"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an praises those who walk upon the earth modestly and, when the foolish address them, answer: Peace."
+  },
+  {
+   "id": "titus-subject-to-principalities",
+   "after": "source:ABU1005",
+   "responds": [
+    "source:ABU1005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks believers to speak evil of no man and be gentle, showing all meekness unto all men."
+  },
+  {
+   "id": "romans-live-peaceably",
+   "after": "source:AB01908",
+   "responds": [
+    "source:AB01908"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's counsel for a difficult neighbour: if it be possible, as much as lieth in you, live peaceably."
+  },
+  {
+   "id": "proverbs-holdeth-his-peace",
+   "after": "source:AB02789",
+   "responds": [
+    "source:AB02789"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he who has knowledge spares his words, the courtesy of keeping quiet."
+  },
+  {
+   "id": "quran-unto-you-your-religion",
+   "after": "source:AB06702",
+   "responds": [
+    "source:AB06702"
+   ],
+   "relation": "adjacent",
+   "why": "A short chapter of the Qur’an ends a dispute without rancour: unto you your religion, and unto me my religion."
+  },
+  {
+   "id": "dhammapada-hatred-ceases-by-love",
+   "after": "source:AB06169",
+   "responds": [
+    "source:AB06169"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that hatred does not cease by hatred, but by love."
+  },
+  {
+   "id": "matthew-first-be-reconciled",
+   "after": "source:AB04417",
+   "responds": [
+    "source:AB04417"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks that one be reconciled to a brother before bringing a gift to the altar."
+  },
+  {
+   "id": "matthew-seventy-times-seven",
+   "after": "source:AB09055",
+   "responds": [
+    "source:AB09055"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks how often he must forgive, and is told until seventy times seven."
+  },
+  {
+   "id": "corinthians-rather-be-defrauded",
+   "after": "source:AB09055",
+   "responds": [
+    "source:AB09055"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks believers in dispute over money why they do not rather take wrong."
+  },
+  {
+   "id": "quran-greet-with-a-better",
+   "after": "source:AB03055",
+   "responds": [
+    "source:AB03055"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that when greeted with a greeting, one should greet with a better or return it."
+  },
+  {
+   "id": "job-flattering-titles",
+   "after": "source:BH07042",
+   "responds": [
+    "source:BH07042"
+   ],
+   "relation": "contrast",
+   "why": "Elihu refuses to give flattering titles to any man, lest his Maker take him away. When does the courtesy owed to rank become flattery?"
+  },
+  {
+   "id": "luke-take-the-lowest-room",
+   "after": "source:BH02476",
+   "responds": [
+    "source:BH02476"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus advises the guest to take the lowest room and not the highest."
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:BH10178",
+   "responds": [
+    "source:BH10178"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a man diligent in his business shall stand before kings."
+  },
+  {
+   "id": "corinthians-evil-communications",
+   "after": "source:BH02211",
+   "responds": [
+    "source:BH02211"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes the saying that evil communications corrupt good manners, speech learned from the company one keeps."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB00824",
+   "responds": [
+    "source:AB00824"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks that a child be trained up in the way he should go."
+  },
+  {
+   "id": "matthew-uppermost-rooms-at-feasts",
+   "after": "source:AB02210",
+   "responds": [
+    "source:AB02210"
+   ],
+   "relation": "complement",
+   "why": "Jesus warns of those who love greetings in the markets and the uppermost rooms at feasts. How is refinement kept from becoming a love of being seen?"
+  },
+  {
+   "id": "saadi-every-breath",
+   "after": "source:BH04772",
+   "responds": [
+    "source:BH04772"
+   ],
+   "relation": "contrast",
+   "why": "Saadi of Shiraz taught the Persian-speaking world that every breath lays on us a debt of thanks. What would Iran's own teachers of manners say to the charge that its people grew up without training?"
+  },
+  {
+   "id": "montaigne-title-of-barbarism",
+   "after": "source:ABU1484",
+   "responds": [
+    "source:ABU1484"
+   ],
+   "relation": "adjacent",
+   "why": "Montaigne found that everyone gives the title of barbarism to whatever is not in use in his own country."
+  },
+  {
+   "id": "romans-not-more-highly-than-he-ought",
+   "after": "selection:b041dc2b4e36bb769ded6a2c",
+   "responds": [
+    "selection:b041dc2b4e36bb769ded6a2c"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks each not to think of himself more highly than he ought to think."
+  },
+  {
+   "id": "samuel-looketh-on-the-heart",
+   "after": "selection:b041dc2b4e36bb769ded6a2c",
+   "responds": [
+    "selection:b041dc2b4e36bb769ded6a2c"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel is told that man looks on the outward appearance, but the Lord looks on the heart."
+  }
+ ],
+ "library": {
+  "quran-enter-not-houses-until-ye-have-asked": {
+   "text": "O ye who believe! Enter not houses other than your own without first announcing your presence and invoking peace upon the folk thereof. That is better for you, that ye may be heedful.",
+   "work": "Qur’an 24:27",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=24&verse=27",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-greet-with-a-better": {
+   "text": "When ye are greeted with a greeting, greet ye with a better than it or return it. Lo! Allah taketh count of all things.",
+   "work": "Qur’an 4:86",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=86",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-subdue-thy-voice": {
+   "text": "Be modest in thy bearing and subdue thy voice. Lo! the harshest of all voices is the voice of the ass.",
+   "work": "Qur’an 31:19",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=31&verse=19",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "proverbs-withdraw-thy-foot": {
+   "text": "Withdraw thy foot from thy neighbour's house; lest he be weary of thee, and so hate thee",
+   "work": "Proverbs 25:17",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2025%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-flattering-titles": {
+   "text": "Let me not, I pray you, accept any man's person, neither let me give flattering titles unto man. For I know not to give flattering titles; in so doing my maker would soon take me away",
+   "work": "Job 32:21–22",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2032%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
