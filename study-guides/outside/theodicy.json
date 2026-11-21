@@ -1,0 +1,511 @@
+{
+ "format": 2,
+ "slug": "theodicy",
+ "subject": "9DEC6BF8F69A406FADF3FCA1C4BFAE33",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 43,
+ "quotations": 44,
+ "kept": [
+  "source:AB02652",
+  "source:AB00131",
+  "source:AB03579",
+  "source:ABU0082",
+  "source:AB04979",
+  "source:BH09405",
+  "source:ABU2845",
+  "source:ABU0936",
+  "source:AB08453",
+  "source:ABU2648",
+  "source:ABU2403",
+  "source:ABU2463",
+  "source:ABU1196",
+  "source:ABU0453",
+  "source:ABU0414",
+  "source:ABU0415",
+  "source:AB04112",
+  "source:AB01232",
+  "source:AB11389",
+  "source:AB06970",
+  "source:AB08445",
+  "source:ABU0229",
+  "source:ABU0678",
+  "source:AB05972",
+  "source:BH09867",
+  "source:AB00511",
+  "source:AB01938",
+  "source:AB00282",
+  "source:AB05200",
+  "source:AB05304",
+  "source:BH03963",
+  "source:BH07090",
+  "source:BH02726",
+  "source:ABU3511",
+  "source:BH01231",
+  "source:BH00296",
+  "source:BH00687",
+  "source:ABU1780",
+  "source:AB01417",
+  "source:BH08145",
+  "source:BH03501",
+  "source:ABU0500",
+  "selection:f7659d8921147d39933d9153"
+ ],
+ "introduction": "These readings do not claim to explain suffering. They distinguish what follows from our own acts from what tests and trains, deny that God created evil, speak of recompense for infants and the innocent in another world, and for the rest say plainly that the wisdom of what happens is hidden, while asking for trust and contentment. Each of the forty-four quotations is read here beside one from elsewhere. Most stand alongside: Jesus on the tower in Siloam and the man born blind, Job, Lamentations, Paul, Augustine on evil as privation, Julian of Norwich, Habakkuk. Nine push back or add a side, because here consolation should not come cheaply: Voltaire after Lisbon, Ivan Karamazov on the suffering of children, Isaiah's 'I create evil', Crane and Hardy on an indifferent universe, Jeremiah's protest, and Jesus weeping at a grave.",
+ "questions": [
+  "The readings separate suffering that follows from our own actions from suffering that does not. Why does it matter to keep the two apart, and what did Jesus say to those who merged them?",
+  "Several readings say that the reason for what has happened is a hidden mystery. How is that different from saying that there is no reason, as Crane and Hardy do?",
+  "Ivan Karamazov refuses any harmony bought with the suffering of a child. One reading promises such children a recompense in another world. Is that an answer to him, and would you say it to a grieving parent?",
+  "The readings ask for contentment with what God has decreed, and one admits the bitterness of separation. What does it mean that Jesus wept?",
+  "When someone you know is suffering, which of these passages would you offer, which would you keep to yourself, and why?"
+ ],
+ "outside": [
+  {
+   "id": "luke-tower-in-siloam",
+   "after": "source:AB02652",
+   "responds": [
+    "source:AB02652"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks whether the eighteen on whom the tower in Siloam fell were sinners above all others, and answers no, turning the question to his hearers' own lives."
+  },
+  {
+   "id": "voltaire-was-then-more-vice",
+   "after": "source:AB02652",
+   "responds": [
+    "source:AB02652"
+   ],
+   "relation": "contrast",
+   "why": "After the Lisbon earthquake of 1755 Voltaire asked whether more vice was found in fallen Lisbon than in Paris, where pleasures abound. What can honestly be said about a disaster to those who lived through it?"
+  },
+  {
+   "id": "john-who-did-sin",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "adjacent",
+   "why": "Asked whether a man born blind or his parents had sinned, Jesus answers: neither hath this man sinned, nor his parents."
+  },
+  {
+   "id": "matthew-suffer-little-children",
+   "after": "source:AB03579",
+   "responds": [
+    "source:AB03579"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: suffer little children to come unto me, and forbid them not, for of such is the kingdom of heaven."
+  },
+  {
+   "id": "job-born-unto-trouble",
+   "after": "source:ABU0082",
+   "responds": [
+    "source:ABU0082"
+   ],
+   "relation": "adjacent",
+   "why": "Job's friend observes that man is born unto trouble, as the sparks fly upward."
+  },
+  {
+   "id": "hebrews-world-not-worthy",
+   "after": "source:AB04979",
+   "responds": [
+    "source:AB04979"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews remembers those who were stoned, sawn asunder and slain, of whom the world was not worthy."
+  },
+  {
+   "id": "romans-creation-groaneth",
+   "after": "source:BH09405",
+   "responds": [
+    "source:BH09405"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the whole creation groaneth and travaileth in pain together until now."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:ABU2845",
+   "responds": [
+    "source:ABU2845"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of the first kind: whatsoever a man soweth, that shall he also reap."
+  },
+  {
+   "id": "emerson-crime-and-punishment-one-stem",
+   "after": "source:ABU0936",
+   "responds": [
+    "source:ABU0936"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that crime and punishment grow out of one stem, the punishment ripening unseen within the pleasure."
+  },
+  {
+   "id": "hebrews-whom-the-lord-loveth-he-chasteneth",
+   "after": "source:AB08453",
+   "responds": [
+    "source:AB08453"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews tells its readers not to despise the chastening of the Lord, for whom the Lord loveth he chasteneth."
+  },
+  {
+   "id": "isaiah-create-evil",
+   "after": "source:ABU2648",
+   "responds": [
+    "source:ABU2648"
+   ],
+   "relation": "contrast",
+   "why": "Isaiah has God say: I form the light, and create darkness; I make peace, and create evil; I the Lord do all these things. How do the readings understand a verse like this one?"
+  },
+  {
+   "id": "augustine-evil-has-no-positive-nature",
+   "after": "source:ABU2403",
+   "responds": [
+    "source:ABU2403"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine taught that evil has no positive nature, but that the loss of good has received the name evil."
+  },
+  {
+   "id": "pope-whatever-is-is-right",
+   "after": "source:ABU2463",
+   "responds": [
+    "source:ABU2463"
+   ],
+   "relation": "adjacent",
+   "why": "Pope held that all partial evil is universal good, and all discord harmony not understood."
+  },
+  {
+   "id": "voltaire-general-bliss",
+   "after": "source:ABU2463",
+   "responds": [
+    "source:ABU2463"
+   ],
+   "relation": "contrast",
+   "why": "Voltaire answered Pope after Lisbon: would you compose a general bliss from individuals' woes? To whom may it be said that what has happened is good in its time and place, and to whom may it not?"
+  },
+  {
+   "id": "quran-corruption-on-land-and-sea",
+   "after": "source:ABU1196",
+   "responds": [
+    "source:ABU1196"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that corruption appears on land and sea because of what men's hands have done, that they may return."
+  },
+  {
+   "id": "deuteronomy-secret-things",
+   "after": "source:ABU0453",
+   "responds": [
+    "source:ABU0453"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy says that the secret things belong unto the Lord, but those which are revealed belong unto us, that we may do them."
+  },
+  {
+   "id": "crane-a-man-said-to-the-universe",
+   "after": "source:ABU0453",
+   "responds": [
+    "source:ABU0453"
+   ],
+   "relation": "contrast",
+   "why": "In Stephen Crane's poem a man says to the universe, 'Sir, I exist!', and the universe replies that the fact has not created in it a sense of obligation. What would turn a mystery into mere indifference?"
+  },
+  {
+   "id": "milton-foreknowledge-no-influence",
+   "after": "source:ABU0414",
+   "responds": [
+    "source:ABU0414"
+   ],
+   "relation": "adjacent",
+   "why": "Milton has God say of the fallen that if he foreknew, foreknowledge had no influence on their fault."
+  },
+  {
+   "id": "lamentations-doth-not-afflict-willingly",
+   "after": "source:ABU0415",
+   "responds": [
+    "source:ABU0415"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says that the Lord doth not afflict willingly nor grieve the children of men."
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:AB04112",
+   "responds": [
+    "source:AB04112"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: my thoughts are not your thoughts, neither are your ways my ways."
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "source:AB01232",
+   "responds": [
+    "source:AB01232"
+   ],
+   "relation": "adjacent",
+   "why": "Paul exclaims at the depth of the wisdom of God: how unsearchable are his judgments, and his ways past finding out!"
+  },
+  {
+   "id": "julian-all-shall-be-well",
+   "after": "source:AB06970",
+   "responds": [
+    "source:AB06970"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich was shown that it behoved that there should be sin, but that all shall be well, and all manner of thing shall be well."
+  },
+  {
+   "id": "john-thou-shalt-know-hereafter",
+   "after": "source:AB08445",
+   "responds": [
+    "source:AB08445"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to Peter: what I do thou knowest not now, but thou shalt know hereafter."
+  },
+  {
+   "id": "peter-fiery-trial",
+   "after": "source:ABU0229",
+   "responds": [
+    "source:ABU0229"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter says: think it not strange concerning the fiery trial which is to try you."
+  },
+  {
+   "id": "job-naked-came-i",
+   "after": "source:AB05972",
+   "responds": [
+    "source:AB05972"
+   ],
+   "relation": "adjacent",
+   "why": "Job, having lost his children and his goods, says: the Lord gave, and the Lord hath taken away."
+  },
+  {
+   "id": "dostoevsky-return-the-ticket",
+   "after": "source:AB00511",
+   "responds": [
+    "source:AB00511"
+   ],
+   "relation": "contrast",
+   "why": "Dostoevsky's Ivan, speaking of the suffering of children, says that too high a price is asked for harmony, and hastens to give back his entrance ticket. Does a recompense in another world answer him?"
+  },
+  {
+   "id": "samuel-i-shall-go-to-him",
+   "after": "source:AB01938",
+   "responds": [
+    "source:AB01938"
+   ],
+   "relation": "adjacent",
+   "why": "King David, when his child had died, said: I shall go to him, but he shall not return to me."
+  },
+  {
+   "id": "thessalonians-sorrow-not",
+   "after": "source:AB01938",
+   "responds": [
+    "source:AB01938"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes about those who are asleep, that ye sorrow not, even as others which have no hope."
+  },
+  {
+   "id": "jeremiah-wherefore-doth-the-wicked-prosper",
+   "after": "source:AB00282",
+   "responds": [
+    "source:AB00282"
+   ],
+   "relation": "complement",
+   "why": "Jeremiah asks God to his face why the way of the wicked prospers. If suffering is not payment for a former life, and all alike suffer here, what becomes of the prophet's question about fairness?"
+  },
+  {
+   "id": "philippians-to-depart-or-to-abide",
+   "after": "source:AB05200",
+   "responds": [
+    "source:AB05200"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that to die is gain, and that he has a desire to depart, yet stays for others' sake."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:AB05304",
+   "responds": [
+    "source:AB05304"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine prays: you have made us for yourself, and our hearts are restless until they rest in you."
+  },
+  {
+   "id": "psalm-joy-in-the-morning",
+   "after": "source:BH03963",
+   "responds": [
+    "source:BH03963"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that weeping may endure for a night, but joy cometh in the morning."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "source:BH07090",
+   "responds": [
+    "source:BH07090"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm puts it in a few words: be still, and know that I am God."
+  },
+  {
+   "id": "john-jesus-wept",
+   "after": "source:BH02726",
+   "responds": [
+    "source:BH02726"
+   ],
+   "relation": "complement",
+   "why": "At the grave of Lazarus, knowing what he was about to do, Jesus wept. What place do the readings leave for grief beside contentment with what has come to pass?"
+  },
+  {
+   "id": "james-prayer-of-faith",
+   "after": "source:ABU3511",
+   "responds": [
+    "source:ABU3511"
+   ],
+   "relation": "complement",
+   "why": "James tells the sick to call for the elders, and says that the prayer of faith shall save the sick. How do you pray about an illness if the oil in the lamp is fixed and only the wind can be turned?"
+  },
+  {
+   "id": "romans-grace-did-much-more-abound",
+   "after": "source:BH01231",
+   "responds": [
+    "source:BH01231"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes to the Romans that where sin abounded, grace did much more abound."
+  },
+  {
+   "id": "shelley-if-winter-comes",
+   "after": "source:BH00687",
+   "responds": [
+    "source:BH00687"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley ends his ode by asking: if winter comes, can spring be far behind?"
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:BH00687",
+   "responds": [
+    "source:BH00687"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "hosea-taught-ephraim-to-go",
+   "after": "source:ABU1780",
+   "responds": [
+    "source:ABU1780"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea has God say of the child he taught to walk: they knew not that I healed them."
+  },
+  {
+   "id": "psalm-sow-in-tears",
+   "after": "source:AB01417",
+   "responds": [
+    "source:AB01417"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that they that sow in tears shall reap in joy."
+  },
+  {
+   "id": "romans-all-things-work-together",
+   "after": "source:BH08145",
+   "responds": [
+    "source:BH08145"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that all things work together for good to them that love God."
+  },
+  {
+   "id": "habakkuk-yet-i-will-rejoice",
+   "after": "source:BH03501",
+   "responds": [
+    "source:BH03501"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk says that although the fig tree shall not blossom and the fields yield no meat, yet he will rejoice in the Lord."
+  },
+  {
+   "id": "corinthians-above-that-ye-are-able",
+   "after": "source:ABU0500",
+   "responds": [
+    "source:ABU0500"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God is faithful, who will not suffer you to be tempted above that ye are able."
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:ABU0500",
+   "responds": [
+    "source:ABU0500"
+   ],
+   "relation": "contrast",
+   "why": "Hardy, asking why joy lies slain, finds no will behind it at all, only Crass Casualty and dicing Time. What would he need to be shown before he could call calamity a providence?"
+  }
+ ],
+ "library": {
+  "job-born-unto-trouble": {
+   "text": "Although affliction cometh not forth of the dust, neither doth trouble spring out of the ground; Yet man is born unto trouble, as the sparks fly upward",
+   "work": "Job 5:6–7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%205%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-above-that-ye-are-able": {
+   "text": "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it",
+   "work": "1 Corinthians 10:13",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2010%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
