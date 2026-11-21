@@ -1,0 +1,215 @@
+{
+ "format": 2,
+ "slug": "haykals",
+ "subject": "790E35DDA6D9EA7C9052453004D7161B",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 12,
+ "kept": [
+  "source:BB00032",
+  "source:BH10395",
+  "source:BB00005",
+  "source:AB05992",
+  "source:BB00108",
+  "source:BH00831",
+  "source:BB00373",
+  "source:BH00197",
+  "source:BB00314",
+  "source:BH09807",
+  "source:BB00003",
+  "source:BH11677"
+ ],
+ "introduction": "These readings, from the Báb and Bahá’u’lláh with one prayer of ‘Abdu’l-Bahá, concern haykals and dá’irihs: devotional diagrams in the form of a human temple or of circles, inscribed with divine names and verses and kept for protection or blessing, together with the 'science of letters' on which they draw. They give directions for drawing and keeping such a talisman, and record such pieces being sent as gifts. All twelve quotations are read here beside twelve from elsewhere. Eight stand alongside as older forms of a like practice: the serpent of brass, the words bound on hand and forehead, the fringes worn to remember, the mark on the forehead, the white stone with its new name, the Qur'an's verses of refuge, the Pythagoreans' numbers. Four ask what such practice risks: Jesus on phylacteries worn to be seen, Bacon on superstition, the books of 'curious arts' burned at Ephesus, and Hezekiah breaking the brazen serpent once the people had begun to burn incense to it.",
+ "questions": [
+  "What do the readings say a haykal or dá’irih is for?",
+  "The Torah commands signs on the hand, the doorpost and the garment. What do such objects do for the person who keeps them?",
+  "Hezekiah destroyed the serpent Moses had made. What had changed, and how could one tell?",
+  "Where would you draw Bacon's line between devotion and superstition?"
+ ],
+ "outside": [
+  {
+   "id": "numbers-serpent-of-brass",
+   "after": "source:BB00032",
+   "responds": [
+    "source:BB00032"
+   ],
+   "relation": "adjacent",
+   "why": "Moses was told to make a serpent of brass and set it on a pole, and whoever looked on it lived."
+  },
+  {
+   "id": "aristotle-elements-of-numbers",
+   "after": "source:BH10395",
+   "responds": [
+    "source:BH10395"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle reports that the Pythagoreans took the elements of numbers to be the elements of all things, and the whole heaven a number."
+  },
+  {
+   "id": "revelation-white-stone",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse promises a white stone, and in the stone a new name written, which no man knoweth saving he that receiveth it."
+  },
+  {
+   "id": "deuteronomy-teach-your-children",
+   "after": "source:AB05992",
+   "responds": [
+    "source:AB05992"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy asks that the words be bound for a sign upon the hand, and be as frontlets between the eyes."
+  },
+  {
+   "id": "numbers-fringes-remember",
+   "after": "source:BB00108",
+   "responds": [
+    "source:BB00108"
+   ],
+   "relation": "adjacent",
+   "why": "Israel was told to wear fringes with a ribband of blue, to look upon and remember the commandments."
+  },
+  {
+   "id": "matthew-uppermost-rooms-at-feasts",
+   "after": "source:BH00831",
+   "responds": [
+    "source:BH00831"
+   ],
+   "relation": "contrast",
+   "why": "Jesus criticized those who make broad their phylacteries to be seen of men. What keeps a sacred object from becoming display, or a charm?"
+  },
+  {
+   "id": "ezekiel-mark-upon-the-foreheads",
+   "after": "source:BH00197",
+   "responds": [
+    "source:BH00197"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel saw a man with an inkhorn sent to set a mark upon the foreheads of those who sigh for the city's wrongs."
+  },
+  {
+   "id": "acts-handkerchiefs-or-aprons",
+   "after": "source:BB00314",
+   "responds": [
+    "source:BB00314"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says that handkerchiefs or aprons were carried from Paul to the sick, and the diseases departed from them."
+  },
+  {
+   "id": "quran-lord-of-the-daybreak",
+   "after": "source:BH09807",
+   "responds": [
+    "source:BH09807"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an gives words of protection: say, I seek refuge in the Lord of the Daybreak from the evil of that which he created."
+  },
+  {
+   "id": "bacon-reproach-of-the-deity",
+   "after": "source:BH09807",
+   "responds": [
+    "source:BH09807"
+   ],
+   "relation": "contrast",
+   "why": "Bacon held that superstition is the reproach of the Deity, worse than no opinion of God at all. Where does a devotional symbol end and a talisman begin?"
+  },
+  {
+   "id": "acts-burned-their-books",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "contrast",
+   "why": "At Ephesus many who had used curious arts brought their books together and burned them. Why might one religion's early texts teach what another's converts gave up?"
+  },
+  {
+   "id": "kings-brake-the-brasen-serpent",
+   "after": "source:BH11677",
+   "responds": [
+    "source:BH11677"
+   ],
+   "relation": "complement",
+   "why": "Hezekiah broke in pieces the brazen serpent that Moses had made, because the people burned incense to it. When does an aid to faith have to be set aside?"
+  }
+ ],
+ "library": {
+  "revelation-white-stone": {
+   "text": "To him that overcometh will I give to eat of the hidden manna, and will give him a white stone, and in the stone a new name written, which no man knoweth saving he that receiveth it",
+   "work": "Revelation 2:17",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%202%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "numbers-fringes-remember": {
+   "text": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue: And it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of the Lord, and do them",
+   "work": "Numbers 15:38–39",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Numbers%2015%3A38-39&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-mark-upon-the-foreheads": {
+   "text": "And the Lord said unto him, Go through the midst of the city, through the midst of Jerusalem, and set a mark upon the foreheads of the men that sigh and that cry for all the abominations that be done in the midst thereof",
+   "work": "Ezekiel 9:4",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%209%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
