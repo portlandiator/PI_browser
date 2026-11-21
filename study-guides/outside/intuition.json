@@ -1,0 +1,272 @@
+{
+ "format": 2,
+ "slug": "intuition",
+ "subject": "F9048B210D354CDE8C29D32A2F92E9B1",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 24,
+ "quotations": 25,
+ "kept": [
+  "source:AB01859",
+  "source:ABU0300",
+  "source:ABU0648",
+  "source:AB00143",
+  "source:AB06645",
+  "source:BH00002",
+  "source:BH02318",
+  "source:ABU0395",
+  "source:ABU3234",
+  "source:ABU1909",
+  "source:AB00223",
+  "source:AB00058",
+  "source:AB00207",
+  "source:BH00718",
+  "source:ABU0971",
+  "source:ABU2288",
+  "source:BH00049",
+  "selection:dd55dd951f16a4cfbb250421",
+  "selection:f654da51b3f97aa8e9a103e1",
+  "selection:f02ce7e436e2117816e0e88f",
+  "selection:881f1205b3ed65613d426d09",
+  "selection:483039dbfc3d528e9346e571",
+  "selection:488c17f03656e6e23c9ab7e8",
+  "selection:a564f94baa4da59828224840"
+ ],
+ "introduction": "These readings weigh inward perception. They praise insight that sees what sight cannot, the 'new eye' and 'new heart' given to the seeker, and an intuition that grows clearer when followed; and they warn, repeatedly, that inspiration cannot serve as a balance of truth, since promptings of the heart may come from the self as easily as from God, and that impulses, dreams and visions are hard to tell apart. All twenty-five quotations are read here beside twenty-five from elsewhere. Most stand alongside: the still small voice, 'try the spirits', Deuteronomy on the dreamer, Jeremiah on the deceitful heart, Pascal's reasons of the heart, Augustine's 'you were within', the Buddha's counsel to the Kalamas. Four push back or add a side: Bacon on why predictions seem to come true, Locke making reason the last judge, Emerson's 'trust thyself', and Wollstonecraft beside the saying that a woman's intuition is the more correct.",
+ "questions": [
+  "One reading says: you have intuition, follow it always. Others say inspiration is no sure balance. Can both be held?",
+  "How, according to the readings, might someone test whether an inward prompting is guidance or imagination?",
+  "Bacon noticed that people count the hits and forget the misses. Have you seen this in yourself?",
+  "Emerson says 'trust thyself'; Proverbs says 'lean not unto thine own understanding'. Where does each belong?",
+  "What do prayer, effort and the counsel of others add to an intuition?"
+ ],
+ "outside": [
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:AB01859",
+   "responds": [
+    "source:AB01859"
+   ],
+   "relation": "adjacent",
+   "why": "Paul prays for the Ephesians that the eyes of their understanding may be enlightened."
+  },
+  {
+   "id": "john-epistle-try-the-spirits",
+   "after": "source:ABU0300",
+   "responds": [
+    "source:ABU0300"
+   ],
+   "relation": "adjacent",
+   "why": "The first letter of John gives the same caution: believe not every spirit, but try the spirits whether they are of God."
+  },
+  {
+   "id": "deuteronomy-sign-or-wonder-come-to-pass",
+   "after": "source:ABU0648",
+   "responds": [
+    "source:ABU0648"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy warns that even a dreamer whose sign comes to pass is not to be followed if he leads away from God."
+  },
+  {
+   "id": "psalm-open-thou-mine-eyes",
+   "after": "source:AB00143",
+   "responds": [
+    "source:AB00143"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist prays: open thou mine eyes, that I may behold wondrous things out of thy law."
+  },
+  {
+   "id": "quran-hearts-find-rest",
+   "after": "source:AB06645",
+   "responds": [
+    "source:AB06645"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of those who believe that their hearts have rest in the remembrance of God."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Elihu says in Job that there is a spirit in man, and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus joins sight to the state of the heart: blessed are the pure in heart, for they shall see God."
+  },
+  {
+   "id": "matthew-seeing-see-not",
+   "after": "source:BH02318",
+   "responds": [
+    "source:BH02318"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said he spoke in parables because people seeing see not, and hearing they hear not."
+  },
+  {
+   "id": "emerson-gleam-of-light",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson urged each person to watch the gleam of light that flashes across the mind from within, more than the lustre of bards and sages."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:ABU3234",
+   "responds": [
+    "source:ABU3234"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah found the Lord not in the wind, earthquake or fire, but afterwards in a still small voice."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:ABU3234",
+   "responds": [
+    "source:ABU3234"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal wrote that the heart has its reasons, which reason does not know, and that we feel it in a thousand things."
+  },
+  {
+   "id": "bacon-mark-when-they-hit",
+   "after": "source:ABU1909",
+   "responds": [
+    "source:ABU1909"
+   ],
+   "relation": "contrast",
+   "why": "Bacon explains the credit given to predictions and dreams: men mark when they hit, and never mark when they miss. How would one test an inspiration honestly?"
+  },
+  {
+   "id": "buddha-dont-go-by-reports",
+   "after": "source:AB00223",
+   "responds": [
+    "source:AB00223"
+   ],
+   "relation": "adjacent",
+   "why": "The Buddha told the Kalamas not to go by reports, legends, traditions, scripture or logical conjecture alone."
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "source:AB00058",
+   "responds": [
+    "source:AB00058"
+   ],
+   "relation": "adjacent",
+   "why": "The image is the Qur'an's verse of light: a niche wherein is a lamp, the lamp in a glass, light upon light."
+  },
+  {
+   "id": "ecclesiastes-multitude-of-dreams",
+   "after": "source:AB00058",
+   "responds": [
+    "source:AB00058"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes says that in the multitude of dreams and many words there are divers vanities."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "source:AB00207",
+   "responds": [
+    "source:AB00207"
+   ],
+   "relation": "complement",
+   "why": "Locke held that reason must be our last judge and guide in every thing. If inspiration cannot be the balance, as the reading says, can anything else be?"
+  },
+  {
+   "id": "jeremiah-heart-is-deceitful",
+   "after": "source:BH00718",
+   "responds": [
+    "source:BH00718"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah warns that the heart is deceitful above all things, and asks who can know it."
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:ABU2288",
+   "responds": [
+    "source:ABU2288"
+   ],
+   "relation": "complement",
+   "why": "Wollstonecraft asked that the female mind be strengthened by enlarging it. Is praise of a woman's intuition a tribute, or can it become a way of denying her reason?"
+  },
+  {
+   "id": "proverbs-trust-in-the-lord",
+   "after": "selection:dd55dd951f16a4cfbb250421",
+   "responds": [
+    "selection:dd55dd951f16a4cfbb250421"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs gives the same counsel: trust in the Lord with all thine heart, and lean not unto thine own understanding."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "selection:dd55dd951f16a4cfbb250421",
+   "responds": [
+    "selection:dd55dd951f16a4cfbb250421"
+   ],
+   "relation": "contrast",
+   "why": "Emerson's rule is the opposite: trust thyself; every heart vibrates to that iron string. Where does self-reliance become the 'implicit faith' the reading calls unwise?"
+  },
+  {
+   "id": "james-if-any-lack-wisdom",
+   "after": "selection:f02ce7e436e2117816e0e88f",
+   "responds": [
+    "selection:f02ce7e436e2117816e0e88f"
+   ],
+   "relation": "adjacent",
+   "why": "James says that if any lack wisdom they should ask of God, who gives to all liberally."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "selection:881f1205b3ed65613d426d09",
+   "responds": [
+    "selection:881f1205b3ed65613d426d09"
+   ],
+   "relation": "adjacent",
+   "why": "Joel foresees the spirit poured out on all flesh, when old men dream dreams and young men see visions."
+  },
+  {
+   "id": "augustine-thou-wert-within",
+   "after": "selection:483039dbfc3d528e9346e571",
+   "responds": [
+    "selection:483039dbfc3d528e9346e571"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine confesses to God: you were within, and I without, and there did I seek you."
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "selection:488c17f03656e6e23c9ab7e8",
+   "responds": [
+    "selection:488c17f03656e6e23c9ab7e8"
+   ],
+   "relation": "adjacent",
+   "why": "Blake held that if the doors of perception were cleansed, every thing would appear to man as it is, infinite."
+  },
+  {
+   "id": "quran-jugular-vein",
+   "after": "selection:a564f94baa4da59828224840",
+   "responds": [
+    "selection:a564f94baa4da59828224840"
+   ],
+   "relation": "adjacent",
+   "why": "The verse behind these words is the Qur'an's: We are nearer to him than his jugular vein."
+  }
+ ],
+ "library": {}
+}
