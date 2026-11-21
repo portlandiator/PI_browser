@@ -1,0 +1,658 @@
+{
+ "format": 2,
+ "slug": "tranquillity",
+ "subject": "7E47D15B29E2E0A0D13CF981131C65BF",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 49,
+ "quotations": 50,
+ "kept": [
+  "source:ABU1946",
+  "source:ABU0361",
+  "source:ABU2691",
+  "source:ABU1453",
+  "source:BH04421",
+  "source:AB09479",
+  "source:ABU1110",
+  "source:ABU3055",
+  "source:AB03055",
+  "source:AB08156",
+  "source:ABU1198",
+  "source:ABU1296",
+  "source:ABU2572",
+  "source:AB05095",
+  "source:ABU0284",
+  "source:AB12038",
+  "source:AB05092",
+  "source:AB10896",
+  "source:AB01845",
+  "source:AB10163",
+  "source:AB00899",
+  "source:AB06703",
+  "source:BH00529",
+  "source:BHU0002",
+  "source:AB02060",
+  "source:BH07508",
+  "source:BH06911",
+  "source:BH05482",
+  "source:BH07491",
+  "source:BH05068",
+  "source:BH06896",
+  "source:AB04621",
+  "source:BH06344",
+  "source:BH11236",
+  "source:AB10279",
+  "source:AB02892",
+  "source:ABU3559",
+  "source:ABU1032",
+  "source:ABU1578",
+  "source:ABU2539",
+  "source:BH06635",
+  "source:AB05391",
+  "source:ABU3693",
+  "source:BB00482",
+  "source:AB06690",
+  "source:ABU1920",
+  "source:ABU1432",
+  "source:AB03851",
+  "source:ABU1944"
+ ],
+ "introduction": "These readings describe and ask for a settled heart: a sea calm in its depths while the surface storms, contentment that makes a person a monarch, composure and dignity in plague, prison and upheaval, and the counsel to tell oneself that this will soon pass. They root it in faith and in trust that what happens has a wisdom. Each of the fifty quotations is read here beside one from elsewhere. Most stand alongside: the psalms of rest, Isaiah's quietness and confidence, the Gospels' 'let not your heart be troubled', Paul in prison, Marcus Aurelius, the Dhammapada, the Tao Teh King, Kipling. Six push back or add a side: Amos on those at ease, Douglass on agitation, 'not peace, but a sword', the lotos-eaters, a psalmist who argues with his own disquiet, and Jesus weeping.",
+ "questions": [
+  "The readings picture a sea stormy on the surface and calm in its depths. What, for you, is surface, and what is depth?",
+  "Amos condemns those who are at ease, and Douglass those who dislike agitation. How do you tell composure from complacency, in yourself and in a community?",
+  "Several readings ask that no one see one's inner agitation; Jesus wept openly. When is hiding distress a strength, and when is it a loss?",
+  "The readings say that tranquillity comes from faith and contentment. Marcus Aurelius finds it by retiring into his own soul. Are these the same road?",
+  "One reading suggests saying in hard times: this will soon pass. What do you say to yourself, and does it work?"
+ ],
+ "outside": [
+  {
+   "id": "marcus-promontory",
+   "after": "source:ABU1946",
+   "responds": [
+    "source:ABU1946"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius tells himself to be like the promontory against which the waves continually break, which stands firm and tames the fury of the water around it."
+  },
+  {
+   "id": "kipling-keep-your-head",
+   "after": "source:ABU0361",
+   "responds": [
+    "source:ABU0361"
+   ],
+   "relation": "adjacent",
+   "why": "Kipling's poem begins with keeping your head when all about you are losing theirs and blaming it on you."
+  },
+  {
+   "id": "matthew-house-upon-a-rock",
+   "after": "source:ABU2691",
+   "responds": [
+    "source:ABU2691"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the one who hears his sayings and does them to a wise man who built his house upon a rock."
+  },
+  {
+   "id": "philippians-learned-to-be-content",
+   "after": "source:ABU1453",
+   "responds": [
+    "source:ABU1453"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes from prison that he has learned, in whatsoever state he is, therewith to be content."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "source:BH04421",
+   "responds": [
+    "source:BH04421"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm puts it in a few words: be still, and know that I am God."
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:AB09479",
+   "responds": [
+    "source:AB09479"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says that the Lord's compassions fail not; they are new every morning."
+  },
+  {
+   "id": "quran-hearts-find-rest",
+   "after": "source:ABU1110",
+   "responds": [
+    "source:ABU1110"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that it is in the remembrance of God that hearts find rest."
+  },
+  {
+   "id": "isaiah-perfect-peace",
+   "after": "source:ABU3055",
+   "responds": [
+    "source:ABU3055"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says: thou wilt keep him in perfect peace, whose mind is stayed on thee, because he trusteth in thee."
+  },
+  {
+   "id": "isaiah-quietness-and-confidence",
+   "after": "source:AB03055",
+   "responds": [
+    "source:AB03055"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say to a people in a panic: in quietness and in confidence shall be your strength."
+  },
+  {
+   "id": "psalm-things-too-high",
+   "after": "source:AB08156",
+   "responds": [
+    "source:AB08156"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that he has behaved and quieted himself, as a child that is weaned of his mother."
+  },
+  {
+   "id": "timothy-godliness-with-contentment",
+   "after": "source:ABU1198",
+   "responds": [
+    "source:ABU1198"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's letter to Timothy says that godliness with contentment is great gain, for we brought nothing into this world."
+  },
+  {
+   "id": "julian-all-shall-be-well",
+   "after": "source:ABU1296",
+   "responds": [
+    "source:ABU1296"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich was shown that all shall be well, and all manner of thing shall be well."
+  },
+  {
+   "id": "psalm-whom-shall-i-fear",
+   "after": "source:ABU2572",
+   "responds": [
+    "source:ABU2572"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: the Lord is my light and my salvation; whom shall I fear?"
+  },
+  {
+   "id": "kipling-if",
+   "after": "source:AB05095",
+   "responds": [
+    "source:AB05095"
+   ],
+   "relation": "adjacent",
+   "why": "Kipling asks whether you can meet with Triumph and Disaster and treat those two impostors just the same."
+  },
+  {
+   "id": "marcus-retire-into-thyself",
+   "after": "source:ABU0284",
+   "responds": [
+    "source:ABU0284"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says that men seek retreats in the country and by the sea, when it is in their power at any time to retire into their own soul."
+  },
+  {
+   "id": "habakkuk-yet-i-will-rejoice",
+   "after": "source:AB12038",
+   "responds": [
+    "source:AB12038"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk says that although the fig tree shall not blossom and the fields yield no meat, yet he will rejoice in the Lord."
+  },
+  {
+   "id": "matthew-take-no-thought-for-the-morrow",
+   "after": "source:AB05092",
+   "responds": [
+    "source:AB05092"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: take therefore no thought for the morrow; sufficient unto the day is the evil thereof."
+  },
+  {
+   "id": "amos-at-ease-in-zion",
+   "after": "source:AB05092",
+   "responds": [
+    "source:AB05092"
+   ],
+   "relation": "contrast",
+   "why": "Amos says: woe to them that are at ease in Zion. When is being unaffected by the world's upheaval a virtue, and when is it the ease the prophet condemns?"
+  },
+  {
+   "id": "psalm-refuge-and-strength",
+   "after": "source:AB10896",
+   "responds": [
+    "source:AB10896"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that we will not fear, though the earth be removed and the mountains shake."
+  },
+  {
+   "id": "psalm-pestilence-that-walketh",
+   "after": "source:AB01845",
+   "responds": [
+    "source:AB01845"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm promises: thou shalt not be afraid for the pestilence that walketh in darkness."
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:AB10163",
+   "responds": [
+    "source:AB10163"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he that ruleth his spirit is better than he that taketh a city."
+  },
+  {
+   "id": "james-husbandman-waiteth",
+   "after": "source:AB00899",
+   "responds": [
+    "source:AB00899"
+   ],
+   "relation": "adjacent",
+   "why": "James points to the husbandman, who waiteth for the precious fruit of the earth and hath long patience for it."
+  },
+  {
+   "id": "luke-possess-your-souls",
+   "after": "source:AB06703",
+   "responds": [
+    "source:AB06703"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples, speaking of troubles to come: in your patience possess ye your souls."
+  },
+  {
+   "id": "thessalonians-study-to-be-quiet",
+   "after": "source:BH00529",
+   "responds": [
+    "source:BH00529"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Thessalonians to study to be quiet, and to do their own business."
+  },
+  {
+   "id": "john-jesus-wept",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "complement",
+   "why": "At the grave of Lazarus Jesus groaned in the spirit, was troubled, and wept, and those who saw it said: behold how he loved him. Is a serenity that lets no eye discover what is felt always the higher thing?"
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:AB02060",
+   "responds": [
+    "source:AB02060"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to resist not evil, and to turn the other cheek to the one who strikes."
+  },
+  {
+   "id": "tao-highest-excellence-is-like-water",
+   "after": "source:BH07508",
+   "responds": [
+    "source:BH07508"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King says that the highest excellence is like that of water, which benefits all things and occupies without striving the low place."
+  },
+  {
+   "id": "matthew-not-peace-but-a-sword",
+   "after": "source:BH06911",
+   "responds": [
+    "source:BH06911"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says: think not that I am come to send peace on earth; I came not to send peace, but a sword. Can a truth be upheld with perfect tranquillity when it divides households?"
+  },
+  {
+   "id": "dhammapada-tolerant-like-the-earth",
+   "after": "source:BH05482",
+   "responds": [
+    "source:BH05482"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that one who does his duty is tolerant like the earth, and like a lake without mud."
+  },
+  {
+   "id": "romans-live-peaceably",
+   "after": "source:BH07491",
+   "responds": [
+    "source:BH07491"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: if it be possible, as much as lieth in you, live peaceably with all men."
+  },
+  {
+   "id": "psalm-return-unto-thy-rest",
+   "after": "source:BH05068",
+   "responds": [
+    "source:BH05068"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says to himself: return unto thy rest, O my soul, for the Lord hath dealt bountifully with thee."
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:BH05068",
+   "responds": [
+    "source:BH05068"
+   ],
+   "relation": "contrast",
+   "why": "Frederick Douglass said that those who profess to favour freedom and yet depreciate agitation want crops without ploughing up the ground. What kind of patience keeps a station, and what kind only keeps things as they are?"
+  },
+  {
+   "id": "psalm-seek-peace-and-pursue-it",
+   "after": "source:BH06896",
+   "responds": [
+    "source:BH06896"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: depart from evil, and do good; seek peace, and pursue it."
+  },
+  {
+   "id": "john-my-peace-i-give",
+   "after": "source:AB04621",
+   "responds": [
+    "source:AB04621"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: peace I leave with you; let not your heart be troubled, neither let it be afraid."
+  },
+  {
+   "id": "psalm-lift-up-mine-eyes",
+   "after": "source:BH06344",
+   "responds": [
+    "source:BH06344"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I will lift up mine eyes unto the hills, from whence cometh my help."
+  },
+  {
+   "id": "romans-spiritually-minded",
+   "after": "source:BH11236",
+   "responds": [
+    "source:BH11236"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that to be carnally minded is death, but to be spiritually minded is life and peace."
+  },
+  {
+   "id": "shakespeare-trifles-light-as-air",
+   "after": "source:AB10279",
+   "responds": [
+    "source:AB10279"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Iago knows that trifles light as air are to the jealous confirmations strong as proofs of holy writ."
+  },
+  {
+   "id": "corinthians-charity-suffereth-long",
+   "after": "source:AB02892",
+   "responds": [
+    "source:AB02892"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that charity thinketh no evil, beareth all things, believeth all things, hopeth all things."
+  },
+  {
+   "id": "luke-mary-hath-chosen",
+   "after": "source:ABU3559",
+   "responds": [
+    "source:ABU3559"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to a busy host: Martha, Martha, thou art careful and troubled about many things, but one thing is needful."
+  },
+  {
+   "id": "romans-all-things-work-together",
+   "after": "source:ABU1032",
+   "responds": [
+    "source:ABU1032"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that all things work together for good to them that love God."
+  },
+  {
+   "id": "marcus-turn-thy-prayers",
+   "after": "source:ABU1578",
+   "responds": [
+    "source:ABU1578"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says: another prays, how shall I be released from this? Pray thou: how shall I not desire to be released?"
+  },
+  {
+   "id": "psalm-joy-in-the-morning",
+   "after": "source:ABU2539",
+   "responds": [
+    "source:ABU2539"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that weeping may endure for a night, but joy cometh in the morning."
+  },
+  {
+   "id": "psalm-why-art-thou-cast-down",
+   "after": "source:BH06635",
+   "responds": [
+    "source:BH06635"
+   ],
+   "relation": "complement",
+   "why": "The psalmist asks himself: why art thou cast down, O my soul, and why art thou disquieted in me? Hope thou in God. What is the difference between never being disturbed and speaking to one's own disturbance as he does?"
+  },
+  {
+   "id": "mark-no-leisure-so-much-as-to-eat",
+   "after": "source:AB05391",
+   "responds": [
+    "source:AB05391"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to his disciples, who had no leisure so much as to eat: come ye yourselves apart into a desert place, and rest a while."
+  },
+  {
+   "id": "psalm-giveth-his-beloved-sleep",
+   "after": "source:ABU3693",
+   "responds": [
+    "source:ABU3693"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that it is vain to rise up early and sit up late, for so he giveth his beloved sleep."
+  },
+  {
+   "id": "psalm-lay-me-down-in-peace",
+   "after": "source:ABU3693",
+   "responds": [
+    "source:ABU3693"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I will both lay me down in peace, and sleep, for thou, Lord, only makest me dwell in safety."
+  },
+  {
+   "id": "arnold-strange-disease-of-modern-life",
+   "after": "source:ABU1920",
+   "responds": [
+    "source:ABU1920"
+   ],
+   "relation": "adjacent",
+   "why": "Arnold wrote of this strange disease of modern life, with its sick hurry, its divided aims, its heads o'ertaxed."
+  },
+  {
+   "id": "philippians-peace-of-god",
+   "after": "source:ABU1432",
+   "responds": [
+    "source:ABU1432"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of the peace of God, which passeth all understanding, and which shall keep hearts and minds."
+  },
+  {
+   "id": "psalm-he-leadeth-me",
+   "after": "source:AB03851",
+   "responds": [
+    "source:AB03851"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: he maketh me to lie down in green pastures; he leadeth me beside the still waters."
+  },
+  {
+   "id": "tennyson-let-us-alone",
+   "after": "source:ABU1944",
+   "responds": [
+    "source:ABU1944"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson's lotos-eaters, at rest in the evening light, say: let us alone; is there any peace in ever climbing up the climbing wave? How is the serenity of these readings different from theirs?"
+  }
+ ],
+ "library": {
+  "isaiah-quietness-and-confidence": {
+   "text": "For thus saith the Lord God, the Holy One of Israel; In returning and rest shall ye be saved; in quietness and in confidence shall be your strength: and ye would not",
+   "work": "Isaiah 30:15",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2030%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-perfect-peace": {
+   "text": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee",
+   "work": "Isaiah 26:3",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2026%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-lay-me-down-in-peace": {
+   "text": "I will both lay me down in peace, and sleep: for thou, Lord, only makest me dwell in safety",
+   "work": "Psalm 4:8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%204%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "marcus-retire-into-thyself": {
+   "text": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains; and thou too art wont to desire such things very much. But this is altogether a mark of the most common sort of men, for it is in thy power whenever thou shalt choose to retire into thyself. For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul",
+   "author": "Marcus Aurelius",
+   "work": "Meditations",
+   "locator": "IV.3",
+   "year": "c. 170–180 CE",
+   "sortYear": 175,
+   "translator": "George Long",
+   "translationYear": "1862",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Antoninus/meditations.4.four.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1879."
+   }
+  },
+  "kipling-keep-your-head": {
+   "text": "If you can keep your head when all about you / Are losing theirs and blaming it on you; / If you can trust yourself when all men doubt you, / But make allowance for their doubting too",
+   "verse": true,
+   "author": "Rudyard Kipling",
+   "work": "If—",
+   "year": "1910",
+   "sortYear": 1910,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Rewards_and_Fairies/If%E2%80%94",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1936."
+   }
+  },
+  "shakespeare-trifles-light-as-air": {
+   "text": "Trifles light as air / Are to the jealous confirmations strong / As proofs of holy writ",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Othello",
+   "locator": "Act III, scene 3",
+   "year": "c. 1603",
+   "sortYear": 1603,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/othello/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  }
+ }
+}
