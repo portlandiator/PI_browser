@@ -1,0 +1,172 @@
+{
+ "format": 2,
+ "slug": "perfectman",
+ "subject": "77E5DDB689E847A198C9D181A95A2B27",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 15,
+ "quotations": 15,
+ "kept": [
+  "source:ABU0491",
+  "source:ABU0061",
+  "source:AB00395",
+  "source:AB05613",
+  "source:AB00278",
+  "source:AB00440",
+  "source:ABU2645",
+  "source:BB00005",
+  "source:AB00920",
+  "source:AB00420",
+  "source:AB03551",
+  "source:AB01382",
+  "source:AB01794",
+  "source:BH00002",
+  "selection:c966eaffca9a29e34494d2d1"
+ ],
+ "introduction": "These readings use 'the Perfect Man' for the Manifestation of God: the one human being in whom all the perfections of existence are gathered, a polished mirror in which the sun appears without descending into it, the fruit for whose sake the tree exists. Each of the fifteen quotations is read here beside one from elsewhere, nearly all from the New Testament, which speaks of Christ in closely related terms: the Word made flesh, the express image, the vine, the transfigured face. Three add a side or push back: Nietzsche's Superman is another idea of a higher man, 'be ye perfect' is addressed to everyone, and 'I and my Father are one' is the saying on which the doctrine of incarnation rests, which one reading expressly declines.",
+ "questions": [
+  "The readings compare the Perfect Man to a mirror in which the sun appears though it does not descend. What does the comparison protect, and how does it differ from saying that the Word was made flesh?",
+  "If 'man' in these readings means the perfect individual, what is the relation of everyone else to that one? Consider the seed and the leaves, and the vine and the branches.",
+  "Jesus tells his hearers to be perfect. What kind of perfection is open to an ordinary person, according to these readings?",
+  "Nietzsche also hoped for a higher human being. What separates the two hopes?"
+ ],
+ "outside": [
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that the Word was made flesh and dwelt among us, and that its glory was beheld."
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of beholding as in a glass the glory of the Lord, and being changed into the same image."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews speaks of one who is the brightness of God's glory and the express image of his person."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:AB00278",
+   "responds": [
+    "source:AB00278"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is made a little lower than the angels, with all things put under his feet."
+  },
+  {
+   "id": "nietzsche-rope-over-an-abyss",
+   "after": "source:AB00278",
+   "responds": [
+    "source:AB00278"
+   ],
+   "relation": "contrast",
+   "why": "Nietzsche also looked past ordinary humanity to a higher man: man is a rope stretched between the animal and the Superman. How does the perfect human being of these readings differ from his?"
+  },
+  {
+   "id": "colossians-created-for-him",
+   "after": "source:AB00440",
+   "responds": [
+    "source:AB00440"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says of Christ that he is before all things, and that by him all things consist."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "source:ABU2645",
+   "responds": [
+    "source:ABU2645"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus uses a like figure for himself and his followers: I am the vine, ye are the branches."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: I live, yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "luke-power-of-the-highest",
+   "after": "source:AB00920",
+   "responds": [
+    "source:AB00920"
+   ],
+   "relation": "adjacent",
+   "why": "Luke tells the same meeting: the angel says to Mary that the power of the Highest shall overshadow her."
+  },
+  {
+   "id": "matthew-be-ye-perfect",
+   "after": "source:AB00420",
+   "responds": [
+    "source:AB00420"
+   ],
+   "relation": "complement",
+   "why": "Jesus says to ordinary hearers: be ye therefore perfect, even as your Father which is in heaven is perfect. If the perfect human being is a station no one else reaches, what is being asked of everyone?"
+  },
+  {
+   "id": "colossians-fulness-of-the-godhead",
+   "after": "source:AB03551",
+   "responds": [
+    "source:AB03551"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of Christ that in him dwelleth all the fulness of the Godhead bodily."
+  },
+  {
+   "id": "john-seen-the-father",
+   "after": "source:AB01382",
+   "responds": [
+    "source:AB01382"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to Philip: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "john-i-and-my-father",
+   "after": "source:AB01794",
+   "responds": [
+    "source:AB01794"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says: I and my Father are one, and his hearers take up stones. Christians have read this as incarnation. How does the mirror, in which the sun appears without descending, read the same words?"
+  },
+  {
+   "id": "john-voice-in-the-wilderness",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist says of himself: I am the voice of one crying in the wilderness, Make straight the way of the Lord."
+  },
+  {
+   "id": "matthew-transfigured-before-them",
+   "after": "selection:c966eaffca9a29e34494d2d1",
+   "responds": [
+    "selection:c966eaffca9a29e34494d2d1"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew tells how Jesus was transfigured before three disciples, and his face did shine as the sun."
+  }
+ ],
+ "library": {}
+}

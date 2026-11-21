@@ -1,0 +1,841 @@
+{
+ "format": 2,
+ "slug": "primalwill",
+ "subject": "9D9002D8700F4A2D893B0869236D586F",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 70,
+ "quotations": 83,
+ "kept": [
+  "source:AB00876",
+  "source:BB00015",
+  "source:BB00017",
+  "source:BB00242",
+  "source:ABU0678",
+  "source:AB00538",
+  "source:AB00153",
+  "source:BB00506",
+  "source:BB00005",
+  "source:BB00114",
+  "source:BB00098",
+  "source:BB00014",
+  "source:BB00042",
+  "source:BB00197",
+  "source:BB00318",
+  "source:BB00205",
+  "source:BB00240",
+  "source:BH01299",
+  "source:BH11123",
+  "source:BB00003",
+  "source:BB00001",
+  "source:BB00027",
+  "source:BB00002",
+  "source:BB00022",
+  "source:BH11761",
+  "source:BH01424",
+  "source:BH01602",
+  "source:BH04496",
+  "source:BH00135",
+  "source:BH00271",
+  "source:BB00010",
+  "source:BH06203",
+  "source:BH09746",
+  "source:BH08310",
+  "source:BH01497",
+  "source:BH02539",
+  "source:BH03664",
+  "source:BH07447",
+  "source:BB00064",
+  "source:BB00029",
+  "source:BH07911",
+  "source:BH01636",
+  "source:BH00073",
+  "source:AB03551",
+  "source:AB00373",
+  "source:ABU0170",
+  "source:ABU2461",
+  "source:ABU0965",
+  "source:BB00004",
+  "source:BB00595",
+  "source:BB00024",
+  "source:BB00219",
+  "source:BB00243",
+  "source:BB00568",
+  "source:BH00862",
+  "source:BH05596",
+  "source:BH10210",
+  "source:BH00586",
+  "source:ABU2400",
+  "source:BH02726",
+  "source:ABU1477",
+  "source:ABU3538",
+  "source:BH01551",
+  "source:ABU2680",
+  "source:AB02699",
+  "source:BH10017",
+  "source:BH10196",
+  "source:BB00577",
+  "source:BH11288",
+  "selection:6b880ed041d0d7b9fa8c4ceb"
+ ],
+ "introduction": "These readings, many of them from the Báb, concern the first thing that proceeds from God. It is called the Primal Will, the First Remembrance, the Word, the Point: created by God 'from nothing through itself', and the means by which everything else is created; it stands between the unknowable Essence and the world, and appears in history as the Manifestation. Later passages turn from metaphysics to conduct: all events fall within God's will, and the believer's task is to wish what God wishes. All eighty-three quotations are read here beside eighty-three from elsewhere. Most stand alongside, for the idea has many cousins: the Word of John's Gospel, Wisdom in Proverbs, the Qur'an's 'Be! and it is', Plotinus's overflowing One, the Tao that produced One, the Rig Veda's primal Desire, Aquinas's first cause, Paul's 'of him and through him'. Seven push back or add a side: Lucretius's 'nothing from nothing', the Rig Veda's 'who verily knows?', the Wisdom of Solomon giving love as creation's reason, Aristotle's God who wills nothing, Darwin's laws and Hardy's 'crass casualty' beside the claim that all is guided by will, and Kant's 'use your own reason' beside the wish to be a leaf moved by the wind.",
+ "questions": [
+  "Why do the readings place a created Will between God and the world, and not say simply that God made the world?",
+  "The Will is created 'from nothing through itself'. Lucretius held that nothing comes from nothing. What is each side protecting?",
+  "Compare the Primal Will with the Word in John's Gospel and Wisdom in Proverbs. What is shared, and what is particular to the readings?",
+  "One prayer says there was no cause for creation but God's bringing it into being; the Wisdom of Solomon says God made nothing he did not love. Is that a difference?",
+  "'Would that we were like the leaves of the trees.' What is good in that wish, and what would Kant fear in it?",
+  "Great events are said to be guided by God's will. How do you hold that beside Hardy's 'crass casualty'?"
+ ],
+ "outside": [
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced another."
+  },
+  {
+   "id": "proverbs-wisdom-before-his-works",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "In Proverbs Wisdom says: the Lord possessed me in the beginning of his way, before his works of old."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:BB00015",
+   "responds": [
+    "source:BB00015"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel begins: in the beginning was the Word, and the Word was with God; all things were made by him."
+  },
+  {
+   "id": "tao-existence-sprang-from-non-existence",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching says that all things sprang from it as existing, and that existence sprang from it as non-existent."
+  },
+  {
+   "id": "exodus-i-am-hath-sent-me",
+   "after": "source:BB00242",
+   "responds": [
+    "source:BB00242"
+   ],
+   "relation": "adjacent",
+   "why": "God names himself to Moses without any relation to another: I AM THAT I AM."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:ABU0678",
+   "responds": [
+    "source:ABU0678"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews speaks of one who is the brightness of God's glory, upholding all things by the word of his power."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "Plato says the good is to the things known what the sun is to the things seen, the author of their being."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus pictures the first thing produced as light encircling the sun, ceaselessly generated from an unchanging source."
+  },
+  {
+   "id": "psalm-he-spake-and-it-was-done",
+   "after": "source:BB00506",
+   "responds": [
+    "source:BB00506"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: he spake, and it was done; he commanded, and it stood fast."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of one who is the image of the invisible God, the firstborn of every creature."
+  },
+  {
+   "id": "colossians-created-for-him",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that by him were all things created, visible and invisible, and by him all things consist."
+  },
+  {
+   "id": "cyprian-rays",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Cyprian used the same figure for the one and the many: many rays of the sun, but one light."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:BB00114",
+   "responds": [
+    "source:BB00114"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "revelation-name-word-of-god",
+   "after": "source:BB00114",
+   "responds": [
+    "source:BB00114"
+   ],
+   "relation": "adjacent",
+   "why": "The rider in the Apocalypse bears a title: his name is called The Word of God."
+  },
+  {
+   "id": "quran-he-is-allah-the-one",
+   "after": "source:BB00098",
+   "responds": [
+    "source:BB00098"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says: he is God, the One; he begetteth not, nor was begotten."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:BB00098",
+   "responds": [
+    "source:BB00098"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius laid it down that nothing from nothing ever yet was born. The reading says creation is 'not from anything': what is each defending?"
+  },
+  {
+   "id": "isaiah-first-and-last",
+   "after": "source:BB00014",
+   "responds": [
+    "source:BB00014"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: I am the first, and I am the last; and beside me there is no God."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:BB00014",
+   "responds": [
+    "source:BB00014"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse has the same voice say: I am Alpha and Omega, the beginning and the ending."
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:BB00042",
+   "responds": [
+    "source:BB00042"
+   ],
+   "relation": "adjacent",
+   "why": "God asks Job out of the whirlwind: where wast thou when I laid the foundations of the earth?"
+  },
+  {
+   "id": "rigveda-who-verily-knows",
+   "after": "source:BB00042",
+   "responds": [
+    "source:BB00042"
+   ],
+   "relation": "complement",
+   "why": "The Rig Veda's hymn of creation ends: who verily knows whence this creation comes? Even the gods are later than the world. How much can be said about a beginning?"
+  },
+  {
+   "id": "aquinas-first-efficient-cause",
+   "after": "source:BB00197",
+   "responds": [
+    "source:BB00197"
+   ],
+   "relation": "adjacent",
+   "why": "Aquinas concluded that it is necessary to admit a first efficient cause, to which everyone gives the name of God."
+  },
+  {
+   "id": "quran-prostrate-willingly-or-unwillingly",
+   "after": "source:BB00318",
+   "responds": [
+    "source:BB00318"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that whatsoever is in the heavens and the earth falls prostrate before God, willingly or unwillingly."
+  },
+  {
+   "id": "rigveda-desire-in-the-beginning",
+   "after": "source:BB00205",
+   "responds": [
+    "source:BB00205"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says that in the beginning rose Desire, the primal seed and germ of Spirit."
+  },
+  {
+   "id": "romans-of-him-and-through-him",
+   "after": "source:BB00240",
+   "responds": [
+    "source:BB00240"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: of him, and through him, and to him, are all things."
+  },
+  {
+   "id": "hebrews-upholding-all-things",
+   "after": "source:BB00240",
+   "responds": [
+    "source:BB00240"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews speaks of the Son upholding all things by the word of his power."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:BH01299",
+   "responds": [
+    "source:BH01299"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that when God decrees a thing, he says to it only 'Be!' and it is."
+  },
+  {
+   "id": "wisdom-made-and-loved",
+   "after": "source:BH11123",
+   "responds": [
+    "source:BH11123"
+   ],
+   "relation": "complement",
+   "why": "The Wisdom of Solomon gives a reason where the reading gives none: thou wouldest never have made any thing, if thou hadst hated it. Is love a cause of creation?"
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching counts the stages too: the Tao produced One, One produced Two, Two produced Three, Three produced all things."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has each stage of creation begin with a saying: and God said, let there be light."
+  },
+  {
+   "id": "avot-ten-utterances",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Ethics of the Fathers notes that the world was created with ten utterances, and asks why not with one."
+  },
+  {
+   "id": "quran-our-word-unto-a-thing",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says: Our word unto a thing, when We intend it, is only that We say unto it: Be! and it is."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that the Word was made flesh, and dwelt among us."
+  },
+  {
+   "id": "matthew-words-shall-not-pass-away",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: heaven and earth shall pass away, but my words shall not pass away."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:BB00027",
+   "responds": [
+    "source:BB00027"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says that through faith we understand that the worlds were framed by the word of God."
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: by the word of the Lord were the heavens made, and all the host of them by the breath of his mouth."
+  },
+  {
+   "id": "quran-be-originator",
+   "after": "source:BB00022",
+   "responds": [
+    "source:BB00022"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an calls God the Originator of the heavens and the earth, who saith unto a thing: Be! and it is."
+  },
+  {
+   "id": "emerson-circles",
+   "after": "source:BH11761",
+   "responds": [
+    "source:BH11761"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson noticed one primary figure repeated without end through nature, from the eye outward."
+  },
+  {
+   "id": "chandogya-nyagrodha-seed",
+   "after": "source:BH01424",
+   "responds": [
+    "source:BH01424"
+   ],
+   "relation": "adjacent",
+   "why": "In the Chandogya Upanishad a father shows his son that the great fig tree exists from an essence in the seed too subtle to see."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:BH01602",
+   "responds": [
+    "source:BH01602"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz held that each simple substance expresses all the others and is a living mirror of the universe."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:BH04496",
+   "responds": [
+    "source:BH04496"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that the word which goes forth from his mouth shall not return void, but accomplish what he pleases."
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:BH00135",
+   "responds": [
+    "source:BH00135"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says: to what is One, sages give many a title."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job: canst thou by searching find out God? canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "source:BB00010",
+   "responds": [
+    "source:BB00010"
+   ],
+   "relation": "complement",
+   "why": "Aristotle's God is pure thought thinking itself, and wills nothing outside. What turns on whether will is placed in the divine essence or outside it?"
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:BH06203",
+   "responds": [
+    "source:BH06203"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises that the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "psalm-voice-of-the-lord",
+   "after": "source:BH09746",
+   "responds": [
+    "source:BH09746"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: the voice of the Lord is powerful; the voice of the Lord is full of majesty."
+  },
+  {
+   "id": "isaiah-i-have-spoken-it",
+   "after": "source:BH08310",
+   "responds": [
+    "source:BH08310"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: I have spoken it, I will also bring it to pass; I have purposed it, I will also do it."
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:BH01497",
+   "responds": [
+    "source:BH01497"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus read in the synagogue: the Spirit of the Lord is upon me."
+  },
+  {
+   "id": "matthew-all-power",
+   "after": "source:BH02539",
+   "responds": [
+    "source:BH02539"
+   ],
+   "relation": "adjacent",
+   "why": "The risen Jesus says: all power is given unto me in heaven and in earth."
+  },
+  {
+   "id": "john-seen-the-father",
+   "after": "source:BH03664",
+   "responds": [
+    "source:BH03664"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said to Philip: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "philippians-name-above-every-name",
+   "after": "source:BH07447",
+   "responds": [
+    "source:BH07447"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of one given a name which is above every name, at which every knee should bow."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:BB00064",
+   "responds": [
+    "source:BB00064"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes says that to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "genesis-male-and-female-created-he-them",
+   "after": "source:BH07911",
+   "responds": [
+    "source:BH07911"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says of the first humans: male and female created he them, and blessed them."
+  },
+  {
+   "id": "ephesians-fulness-of-times",
+   "after": "source:BH01636",
+   "responds": [
+    "source:BH01636"
+   ],
+   "relation": "adjacent",
+   "why": "Ephesians speaks of the mystery of his will, to be gathered together in the fulness of times."
+  },
+  {
+   "id": "psalm-tabernacle-for-the-sun",
+   "after": "source:BH00073",
+   "responds": [
+    "source:BH00073"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that in the heavens God has set a tabernacle for the sun."
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:AB03551",
+   "responds": [
+    "source:AB03551"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of one dwelling in the light which no man can approach unto."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "source:AB00373",
+   "responds": [
+    "source:AB00373"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus called the world an ever-living fire, kindled in measures and going out in measures."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0170",
+   "responds": [
+    "source:ABU0170"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin saw grandeur in life evolving by degrees from so simple a beginning."
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:ABU2461",
+   "responds": [
+    "source:ABU2461"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle's first cause produces motion as being loved, and all other things move by being moved."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "source:ABU0965",
+   "responds": [
+    "source:ABU0965"
+   ],
+   "relation": "contrast",
+   "why": "Darwin looked at an entangled bank and saw forms produced by laws acting around us. Does the order of things require a will?"
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:ABU0965",
+   "responds": [
+    "source:ABU0965"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm reads the same order as speech: the heavens declare the glory of God, and the firmament sheweth his handywork."
+  },
+  {
+   "id": "daniel-none-can-stay-his-hand",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Nebuchadnezzar confesses in Daniel that none can stay his hand, or say unto him, what doest thou?"
+  },
+  {
+   "id": "isaiah-who-shall-let-it",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: I will work, and who shall let it?"
+  },
+  {
+   "id": "romans-potter-power-over-the-clay",
+   "after": "source:BB00595",
+   "responds": [
+    "source:BB00595"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: hath not the potter power over the clay, of the same lump to make one vessel and another?"
+  },
+  {
+   "id": "job-thou-canst-do-every-thing",
+   "after": "source:BB00024",
+   "responds": [
+    "source:BB00024"
+   ],
+   "relation": "adjacent",
+   "why": "Job says at the end: I know that thou canst do every thing."
+  },
+  {
+   "id": "milton-foreknowledge-no-influence",
+   "after": "source:BB00219",
+   "responds": [
+    "source:BB00219"
+   ],
+   "relation": "adjacent",
+   "why": "Milton has God say of those who chose wrongly: they themselves decreed their own revolt, not I."
+  },
+  {
+   "id": "romans-mercy-on-whom-i-will",
+   "after": "source:BB00243",
+   "responds": [
+    "source:BB00243"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes: I will have mercy on whom I will have mercy."
+  },
+  {
+   "id": "genesis-spirit-moved-upon-the-waters",
+   "after": "source:BH00862",
+   "responds": [
+    "source:BH00862"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that the Spirit of God moved upon the face of the waters."
+  },
+  {
+   "id": "luke-nothing-covered",
+   "after": "source:BH05596",
+   "responds": [
+    "source:BH05596"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: there is nothing covered, that shall not be revealed; neither hid, that shall not be known."
+  },
+  {
+   "id": "john-his-own-received-him-not",
+   "after": "source:BH10210",
+   "responds": [
+    "source:BH10210"
+   ],
+   "relation": "adjacent",
+   "why": "John says that he came unto his own, and his own received him not."
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "source:BH00586",
+   "responds": [
+    "source:BH00586"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: before the mountains were brought forth, from everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "matthew-sparrow-shall-not-fall",
+   "after": "source:ABU2400",
+   "responds": [
+    "source:ABU2400"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that not one sparrow falls on the ground without your Father."
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:ABU2400",
+   "responds": [
+    "source:ABU2400"
+   ],
+   "relation": "contrast",
+   "why": "Hardy asked why joy lies slain, and answered: crass casualty obstructs the sun and rain, and dicing time. Are events guided, or thrown?"
+  },
+  {
+   "id": "proverbs-lot-is-cast-into-the-lap",
+   "after": "source:BH02726",
+   "responds": [
+    "source:BH02726"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: the lot is cast into the lap, but the whole disposing thereof is of the Lord."
+  },
+  {
+   "id": "jeremiah-before-i-formed-thee",
+   "after": "source:ABU1477",
+   "responds": [
+    "source:ABU1477"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah hears: before I formed thee in the belly I knew thee."
+  },
+  {
+   "id": "matthew-in-earth-as-in-heaven",
+   "after": "source:ABU3538",
+   "responds": [
+    "source:ABU3538"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer Jesus taught asks: thy will be done in earth, as it is in heaven."
+  },
+  {
+   "id": "luke-not-my-will-but-thine",
+   "after": "source:BH01551",
+   "responds": [
+    "source:BH01551"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus prayed that the cup be removed, and then: nevertheless not my will, but thine, be done."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:BH01551",
+   "responds": [
+    "source:BH01551"
+   ],
+   "relation": "contrast",
+   "why": "Kant's motto for a grown-up humanity was: have courage to use your own reason. Is a leaf with no motion of its own a human ideal?"
+  },
+  {
+   "id": "luke-fire-on-the-earth",
+   "after": "source:ABU2680",
+   "responds": [
+    "source:ABU2680"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I am come to send fire on the earth; and what will I, if it be already kindled?"
+  },
+  {
+   "id": "deuteronomy-not-by-bread-only",
+   "after": "source:BH10017",
+   "responds": [
+    "source:BH10017"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy says that man lives by every word that proceeds out of the mouth of the Lord."
+  },
+  {
+   "id": "psalm-taste-and-see",
+   "after": "source:BH10196",
+   "responds": [
+    "source:BH10196"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm invites: O taste and see that the Lord is good."
+  },
+  {
+   "id": "milton-hail-holy-light",
+   "after": "source:BB00577",
+   "responds": [
+    "source:BB00577"
+   ],
+   "relation": "adjacent",
+   "why": "Milton greets light itself: hail, holy Light, offspring of Heaven firstborn, or of the Eternal coeternal beam."
+  },
+  {
+   "id": "dante-his-will-our-peace",
+   "after": "source:BH11288",
+   "responds": [
+    "source:BH11288"
+   ],
+   "relation": "adjacent",
+   "why": "A soul in Dante's Paradise says: his will is our peace; it is the sea to which all moves."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "selection:6b880ed041d0d7b9fa8c4ceb",
+   "responds": [
+    "selection:6b880ed041d0d7b9fa8c4ceb"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the invisible things of God are understood by the things that are made."
+  }
+ ],
+ "library": {}
+}

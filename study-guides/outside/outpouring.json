@@ -1,0 +1,158 @@
+{
+ "format": 2,
+ "slug": "outpouring",
+ "subject": "B5A1748B3FB14D8EA1B9992E6E0409BF",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 14,
+ "kept": [
+  "source:AB10431",
+  "source:AB00006",
+  "source:BH00002",
+  "source:AB00013",
+  "source:AB00876",
+  "selection:03146b9816f77d3ab8679e0a",
+  "selection:5f70cc6dfe8c2f08edf09f71",
+  "selection:fd7b5fc887dfae4496bb3ea3",
+  "selection:b0b75c40c60a395457b9a7d4",
+  "selection:c9e8e5eaf5fded62e239c66a",
+  "selection:b73470c8dee13edf38033872"
+ ],
+ "introduction": "These readings use two terms from an older tradition of thought, the Most Holy Outpouring and the Holy Outpouring, for the two movements by which anything comes to be: a first, hidden self-disclosure in which the capacities of things are given, and a second in which those capacities are filled with being; or, in another reading, a general mercy to all things and a special mercy to some. Several of the passages are from the writers on Ibn ‘Arabi whom the guide quotes. Each of the fourteen quotations is read here beside one from elsewhere. Most stand alongside: Plotinus, the Rig Veda's first Desire, 'in him we live, and move, and have our being', the Qur'an's verse of Light, the rain that falls on just and unjust. Two add a side: Spinoza, and the Tao Teh King's warning about names.",
+ "questions": [
+  "One reading speaks of a general mercy given to all things and a special mercy given to some. Jesus says that the sun rises on the evil and the good. What is given to everything, and what is not?",
+  "The readings say that nothing can exist without a revelation of the splendour of God. How is that different from saying, with Spinoza, that all things are in God?",
+  "What is the use, for an ordinary reader, of distinguishing two outpourings? What would be lost by speaking only of 'creation'?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-rain-on-the-just",
+   "after": "source:AB10431",
+   "responds": [
+    "source:AB10431"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the Father maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "rigveda-desire-in-the-beginning",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda's hymn of creation says that Desire rose in the beginning, the primal seed and germ of Spirit."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that in God we live, and move, and have our being."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the heavens declare the glory of God, and that there is no speech nor language where their voice is not heard."
+  },
+  {
+   "id": "hopkins-gods-grandeur",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins says that the world is charged with the grandeur of God, and will flame out like shining from shook foil."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:AB00013",
+   "responds": [
+    "source:AB00013"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "romans-of-him-and-through-him",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes of God: of him, and through him, and to him, are all things."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza held that all things which are, are in God, and without him can neither be nor be conceived. What is the difference between saying that all things have emanated from God and saying that they are in God?"
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "selection:5f70cc6dfe8c2f08edf09f71",
+   "responds": [
+    "selection:5f70cc6dfe8c2f08edf09f71"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that God is the Light of the heavens and the earth, and gives the similitude of a niche, a lamp and a glass."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "selection:fd7b5fc887dfae4496bb3ea3",
+   "responds": [
+    "selection:fd7b5fc887dfae4496bb3ea3"
+   ],
+   "relation": "complement",
+   "why": "The Tao Teh King begins by saying that the name that can be named is not the enduring and unchanging name. What is gained, and what is risked, when the giving of being is divided into named stages?"
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "selection:b0b75c40c60a395457b9a7d4",
+   "responds": [
+    "selection:b0b75c40c60a395457b9a7d4"
+   ],
+   "relation": "adjacent",
+   "why": "Plato compares the good to the sun, which gives to visible things both their being seen and their growth."
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "selection:c9e8e5eaf5fded62e239c66a",
+   "responds": [
+    "selection:c9e8e5eaf5fded62e239c66a"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says that the Lord's compassions fail not; they are new every morning."
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "selection:b73470c8dee13edf38033872",
+   "responds": [
+    "selection:b73470c8dee13edf38033872"
+   ],
+   "relation": "adjacent",
+   "why": "Blake wrote that if the doors of perception were cleansed, every thing would appear to man as it is, infinite."
+  }
+ ],
+ "library": {}
+}

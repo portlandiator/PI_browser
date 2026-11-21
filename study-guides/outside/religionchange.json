@@ -1,0 +1,647 @@
+{
+ "format": 2,
+ "slug": "religionchange",
+ "subject": "A3B4B220998C46ED868D97D28B10F856",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 50,
+ "quotations": 61,
+ "kept": [
+  "source:BH02949",
+  "source:BH00779",
+  "source:AB00068",
+  "source:AB00019",
+  "source:AB00211",
+  "source:AB02149",
+  "source:ABU0137",
+  "source:ABU0051",
+  "source:ABU0009",
+  "source:ABU0002",
+  "source:ABU0154",
+  "source:ABU0493",
+  "source:ABU0006",
+  "source:ABU0026",
+  "source:ABU0020",
+  "source:ABU0557",
+  "source:ABU0076",
+  "source:ABU2376",
+  "source:ABU0057",
+  "source:ABU3016",
+  "source:ABU1377",
+  "source:ABU1372",
+  "source:ABU0961",
+  "source:ABU0969",
+  "source:ABU0614",
+  "source:AB06172",
+  "source:ABU3572",
+  "source:ABU2402",
+  "source:ABU1969",
+  "source:ABU3675",
+  "source:ABU0458",
+  "source:ABU1366",
+  "source:AB00151",
+  "source:AB03180",
+  "source:AB10799",
+  "source:ABU2677",
+  "source:BB00518",
+  "source:ABU0869",
+  "source:ABU2227",
+  "source:ABU0306",
+  "source:ABU3283",
+  "source:ABU1436",
+  "source:ABU1105",
+  "source:ABU3057",
+  "source:ABU2096",
+  "source:ABU2767",
+  "source:ABU1957",
+  "source:ABU3052",
+  "selection:d0ebb81115dcf7c4ac7b0239",
+  "selection:23cf3e42a773fc080857ee46"
+ ],
+ "introduction": "These readings make one distinction many times over: every religion has two parts, a foundation of spiritual and moral truth that never changes, and laws for outward life that are changed with the needs of each age, as a physician changes the remedy. On this they rest the unity of the religions and the right of each new revelation to set earlier laws aside. Each of the sixty-one quotations is read here beside one from elsewhere. Most stand alongside: the two great commandments and Hillel's one sentence, the sabbath made for man, Moses's concession to hardness of heart, the council that laid no greater burden, Paul's schoolmaster, the Qur'an's 'for each a law and a way', the prophets on sacrifice, Tennyson and Burke on change. Eight push back or add a side: 'I am the Lord, I change not', the jot and tittle, 'ye shall not add', 'the same yesterday, and to day, and for ever', Chesterton and Burke on tradition, and the old wine that people prefer.",
+ "questions": [
+  "The readings divide religion into an unchanging spiritual part and changing social laws. Take one religious law you know: on which side does it fall, and how do you decide?",
+  "Jesus says both that he came to fulfil the law and that not one jot of it shall pass. How do the readings understand a new revelation's relation to the old law?",
+  "'I change not,' says God in Malachi. What changes, according to the readings, and what does not?",
+  "Jesus remarks that people who have drunk old wine say the old is better. Why are outward forms so hard to give up, and is there wisdom in that reluctance?",
+  "One reading says that in this dispensation many secondary laws are left to an elected body to make and change. What does that do to the old problem of laws outliving their time?"
+ ],
+ "outside": [
+  {
+   "id": "romans-love-fulfilling-of-the-law",
+   "after": "source:BH02949",
+   "responds": [
+    "source:BH02949"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he that loveth another hath fulfilled the law, and that every commandment is summed up in love."
+  },
+  {
+   "id": "plato-free-doctor",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "Plato describes the physician of free men, who learns from the patient and prescribes nothing until he has persuaded him."
+  },
+  {
+   "id": "hippocrates-life-is-short",
+   "after": "source:AB00068",
+   "responds": [
+    "source:AB00068"
+   ],
+   "relation": "adjacent",
+   "why": "Hippocrates says that life is short and the art long, and that the physician must make the patient and the circumstances cooperate."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:AB00068",
+   "responds": [
+    "source:AB00068"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "matthew-two-commandments",
+   "after": "source:AB00019",
+   "responds": [
+    "source:AB00019"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus names two commandments, love of God and love of neighbour, and says that on these hang all the law and the prophets."
+  },
+  {
+   "id": "matthew-hardness-of-your-hearts",
+   "after": "source:AB00019",
+   "responds": [
+    "source:AB00019"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that Moses allowed divorce because of the hardness of men's hearts, but from the beginning it was not so."
+  },
+  {
+   "id": "malachi-i-change-not",
+   "after": "source:AB00019",
+   "responds": [
+    "source:AB00019"
+   ],
+   "relation": "contrast",
+   "why": "Malachi has God say: I am the Lord, I change not. If God does not change, how can laws given in his name be set aside?"
+  },
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:AB00211",
+   "responds": [
+    "source:AB00211"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus said that you cannot step twice into the same rivers, for fresh waters are ever flowing in upon you."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:AB02149",
+   "responds": [
+    "source:AB02149"
+   ],
+   "relation": "adjacent",
+   "why": "Micah asks what the Lord requires but to do justly, and to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "talmud-hillel-on-one-foot",
+   "after": "source:ABU0137",
+   "responds": [
+    "source:ABU0137"
+   ],
+   "relation": "adjacent",
+   "why": "Hillel summed up the whole Torah in one sentence, that which is hateful to you do not do to another, and called the rest its interpretation."
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:ABU0137",
+   "responds": [
+    "source:ABU0137"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says that to what is One, sages give many a title."
+  },
+  {
+   "id": "mark-sabbath-made-for-man",
+   "after": "source:ABU0051",
+   "responds": [
+    "source:ABU0051"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:ABU0009",
+   "responds": [
+    "source:ABU0009"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ye have heard that it hath been said, an eye for an eye; but I say unto you, resist not evil."
+  },
+  {
+   "id": "matthew-not-to-destroy-but-fulfil",
+   "after": "source:ABU0002",
+   "responds": [
+    "source:ABU0002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he is not come to destroy the law or the prophets, but to fulfil."
+  },
+  {
+   "id": "matthew-one-jot-or-one-tittle",
+   "after": "source:ABU0002",
+   "responds": [
+    "source:ABU0002"
+   ],
+   "relation": "contrast",
+   "why": "Jesus also says that till heaven and earth pass, one jot or one tittle shall in no wise pass from the law. How do those who hold to every letter of an older law hear the claim that its social part has had its day?"
+  },
+  {
+   "id": "hosea-mercy-not-sacrifice",
+   "after": "source:ABU0154",
+   "responds": [
+    "source:ABU0154"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea has God say: I desired mercy, and not sacrifice, and the knowledge of God more than burnt offerings."
+  },
+  {
+   "id": "dhammapada-teaching-of-the-buddhas",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada sums up the teaching of all the Awakened: not to commit any sin, to do good, and to purify one's mind."
+  },
+  {
+   "id": "quran-revealed-unto-abraham",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells believers to say that they believe in what was revealed to Abraham, Moses and Jesus, making no distinction between any of them."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls the law a schoolmaster for a time, under which we no longer are once faith is come."
+  },
+  {
+   "id": "quran-a-law-and-a-way",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says: for each We have appointed a divine law and a traced-out way."
+  },
+  {
+   "id": "quran-sacred-rites-for-each-nation",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that unto each nation sacred rites have been given, so let them not dispute about the matter."
+  },
+  {
+   "id": "blake-all-religions-are-one",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Blake wrote that the religions of all nations are derived from each nation's different reception of one genius."
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:ABU0026",
+   "responds": [
+    "source:ABU0026"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that God at sundry times and in divers manners spake in time past by the prophets."
+  },
+  {
+   "id": "acts-no-greater-burden",
+   "after": "source:ABU0020",
+   "responds": [
+    "source:ABU0020"
+   ],
+   "relation": "adjacent",
+   "why": "The first council of the church decided to lay on new believers no greater burden than a few necessary things."
+  },
+  {
+   "id": "galatians-under-tutors",
+   "after": "source:ABU0020",
+   "responds": [
+    "source:ABU0020"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the heir, as long as he is a child, is under tutors and governors until the time appointed of the father."
+  },
+  {
+   "id": "acts-call-not-thou-common",
+   "after": "source:ABU0557",
+   "responds": [
+    "source:ABU0557"
+   ],
+   "relation": "adjacent",
+   "why": "Peter, refusing food as unclean, is told in a vision: what God hath cleansed, that call not thou common."
+  },
+  {
+   "id": "colossians-shadow-of-things",
+   "after": "source:ABU0076",
+   "responds": [
+    "source:ABU0076"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells his readers to let no one judge them in meat or drink or holy days, which are a shadow of things to come."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:ABU2376",
+   "responds": [
+    "source:ABU2376"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he is a minister not of the letter but of the spirit, for the letter killeth, but the spirit giveth life."
+  },
+  {
+   "id": "amos-feast-days",
+   "after": "source:ABU0057",
+   "responds": [
+    "source:ABU0057"
+   ],
+   "relation": "adjacent",
+   "why": "Amos has God say: I hate, I despise your feast days, and I will not smell in your solemn assemblies."
+  },
+  {
+   "id": "isaiah-multitude-of-your-sacrifices",
+   "after": "source:ABU3016",
+   "responds": [
+    "source:ABU3016"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God ask: to what purpose is the multitude of your sacrifices unto me?"
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:ABU1377",
+   "responds": [
+    "source:ABU1377"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells a woman of Samaria that the hour cometh when the Father shall be worshipped neither on this mountain nor at Jerusalem, but in spirit and in truth."
+  },
+  {
+   "id": "matthew-weightier-matters",
+   "after": "source:ABU1372",
+   "responds": [
+    "source:ABU1372"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of tithes and of judgment, mercy and faith: these ought ye to have done, and not to leave the other undone."
+  },
+  {
+   "id": "romans-eateth-herbs",
+   "after": "source:ABU0961",
+   "responds": [
+    "source:ABU0961"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that one believeth that he may eat all things and another eateth herbs, and that neither should despise the other."
+  },
+  {
+   "id": "tennyson-old-order-changeth",
+   "after": "source:ABU0969",
+   "responds": [
+    "source:ABU0969"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's dying king says that the old order changeth, yielding place to new, lest one good custom should corrupt the world."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:ABU0614",
+   "responds": [
+    "source:ABU0614"
+   ],
+   "relation": "adjacent",
+   "why": "James defines pure religion as visiting the fatherless and widows in their affliction, and keeping oneself unspotted from the world."
+  },
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:AB06172",
+   "responds": [
+    "source:AB06172"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that he that loveth not knoweth not God, for God is love."
+  },
+  {
+   "id": "matthew-things-new-and-old",
+   "after": "source:ABU3572",
+   "responds": [
+    "source:ABU3572"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compares the instructed scribe to a householder who brings out of his treasure things new and old."
+  },
+  {
+   "id": "matthew-new-wine",
+   "after": "source:ABU2402",
+   "responds": [
+    "source:ABU2402"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that men do not put new wine into old bottles, else the bottles break."
+  },
+  {
+   "id": "quran-jesus-confirming-the-torah",
+   "after": "source:ABU1969",
+   "responds": [
+    "source:ABU1969"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that Jesus was sent confirming the Torah that was before him."
+  },
+  {
+   "id": "hebrews-shadow-of-good-things",
+   "after": "source:ABU3675",
+   "responds": [
+    "source:ABU3675"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that the law had a shadow of good things to come, and not the very image of the things."
+  },
+  {
+   "id": "jeremiah-new-covenant",
+   "after": "source:ABU0458",
+   "responds": [
+    "source:ABU0458"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah has God promise a new covenant, with the law written in the heart."
+  },
+  {
+   "id": "hebrews-waxeth-old",
+   "after": "source:ABU1366",
+   "responds": [
+    "source:ABU1366"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that what decayeth and waxeth old is ready to vanish away."
+  },
+  {
+   "id": "deuteronomy-not-add",
+   "after": "source:AB00151",
+   "responds": [
+    "source:AB00151"
+   ],
+   "relation": "contrast",
+   "why": "Moses commands: ye shall not add unto the word which I command you, neither shall ye diminish ought from it. Every law has thought itself suited to all times. What is different about the claim made here?"
+  },
+  {
+   "id": "genesis-keturah",
+   "after": "source:AB03180",
+   "responds": [
+    "source:AB03180"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis records without comment that Abraham had sons by concubines, to whom he gave gifts."
+  },
+  {
+   "id": "burke-means-of-change",
+   "after": "source:AB10799",
+   "responds": [
+    "source:AB10799"
+   ],
+   "relation": "adjacent",
+   "why": "Burke observed that a state without the means of some change is without the means of its conservation."
+  },
+  {
+   "id": "chesterton-democracy-of-the-dead",
+   "after": "source:ABU2677",
+   "responds": [
+    "source:ABU2677"
+   ],
+   "relation": "complement",
+   "why": "Chesterton called tradition the democracy of the dead: giving votes to our ancestors. How should a living body that can make and change laws weigh what earlier generations decided?"
+  },
+  {
+   "id": "psalm-law-is-perfect",
+   "after": "source:BB00518",
+   "responds": [
+    "source:BB00518"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the law of the Lord is perfect, converting the soul."
+  },
+  {
+   "id": "corinthians-fashion-of-this-world",
+   "after": "source:ABU0869",
+   "responds": [
+    "source:ABU0869"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the time is short, and that the fashion of this world passeth away."
+  },
+  {
+   "id": "isaiah-new-thing",
+   "after": "source:ABU2227",
+   "responds": [
+    "source:ABU2227"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: behold, I will do a new thing; now it shall spring forth."
+  },
+  {
+   "id": "emerson-sepulchres-of-the-fathers",
+   "after": "source:ABU0306",
+   "responds": [
+    "source:ABU0306"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson complained that his age builds the sepulchres of the fathers, and asked why it should not have a religion by revelation to itself."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:ABU3283",
+   "responds": [
+    "source:ABU3283"
+   ],
+   "relation": "adjacent",
+   "why": "In the Revelation he that sat upon the throne says: behold, I make all things new."
+  },
+  {
+   "id": "bacon-new-remedies",
+   "after": "source:ABU1436",
+   "responds": [
+    "source:ABU1436"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon wrote that he that will not apply new remedies must expect new evils."
+  },
+  {
+   "id": "samuel-seeth-not-as-man-seeth",
+   "after": "source:ABU1105",
+   "responds": [
+    "source:ABU1105"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel is told that man looketh on the outward appearance, but the Lord looketh on the heart."
+  },
+  {
+   "id": "luke-old-is-better",
+   "after": "source:ABU1105",
+   "responds": [
+    "source:ABU1105"
+   ],
+   "relation": "complement",
+   "why": "Jesus remarks that no man having drunk old wine straightway desireth new, for he saith, the old is better. Why is the outward form of a religion so much harder to let go than the readings suggest it should be?"
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "source:ABU3057",
+   "responds": [
+    "source:ABU3057"
+   ],
+   "relation": "adjacent",
+   "why": "Kabir has God say: I am neither in temple nor in mosque, neither in rites and ceremonies."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:ABU2096",
+   "responds": [
+    "source:ABU2096"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "quran-abrogate",
+   "after": "source:ABU2767",
+   "responds": [
+    "source:ABU2767"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that whatever revelation is abrogated or caused to be forgotten, a better or the like is brought."
+  },
+  {
+   "id": "hebrews-same-yesterday",
+   "after": "source:ABU2767",
+   "responds": [
+    "source:ABU2767"
+   ],
+   "relation": "contrast",
+   "why": "The letter to the Hebrews says: Jesus Christ the same yesterday, and to day, and for ever. What do believers in an earlier revelation hear when told that their law is annulled?"
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "source:ABU1957",
+   "responds": [
+    "source:ABU1957"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the earth bringeth forth first the blade, then the ear, after that the full corn in the ear."
+  },
+  {
+   "id": "matthew-house-upon-a-rock",
+   "after": "source:ABU3052",
+   "responds": [
+    "source:ABU3052"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the one who does his sayings to a wise man who built his house upon a rock."
+  },
+  {
+   "id": "burke-cherish-prejudices",
+   "after": "selection:23cf3e42a773fc080857ee46",
+   "responds": [
+    "selection:23cf3e42a773fc080857ee46"
+   ],
+   "relation": "contrast",
+   "why": "Burke said that his countrymen cherish their old prejudices, and the longer they have lasted the more they cherish them. Is there a wisdom in old forms that the distinction between eternal and changing parts can miss?"
+  }
+ ],
+ "library": {
+  "matthew-hardness-of-your-hearts": {
+   "text": "They say unto him, Why did Moses then command to give a writing of divorcement, and to put her away? He saith unto them, Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so",
+   "work": "Matthew 19:7–8",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2019%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

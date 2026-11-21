@@ -1,0 +1,765 @@
+{
+ "format": 2,
+ "slug": "pastscriptures",
+ "subject": "193E825FA96F443BBA9ABC0E163E0F11",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 66,
+ "quotations": 67,
+ "kept": [
+  "source:AB00829",
+  "source:ABU0524",
+  "source:AB06723",
+  "source:ABU0706",
+  "source:BH02395",
+  "source:BH02311",
+  "source:BH01515",
+  "source:BH03589",
+  "source:AB06441",
+  "source:BB00002",
+  "source:ABU0072",
+  "source:ABU1743",
+  "source:BH05489",
+  "source:ABU0161",
+  "source:ABU0168",
+  "source:BH00248",
+  "source:AB00100",
+  "source:AB00556",
+  "source:AB00117",
+  "source:ABU0171",
+  "source:ABU0202",
+  "source:AB01972",
+  "source:ABU1522",
+  "source:AB00152",
+  "source:AB00801",
+  "source:AB09597",
+  "source:ABU1744",
+  "source:ABU0026",
+  "source:AB03151",
+  "source:AB01794",
+  "source:ABU3572",
+  "source:ABU1075",
+  "source:ABU2402",
+  "source:ABU0969",
+  "source:ABU1991",
+  "source:ABU2950",
+  "source:ABU3126",
+  "source:ABU2675",
+  "source:ABU0838",
+  "source:ABU1002",
+  "source:BH00107",
+  "source:AB00263",
+  "source:AB05221",
+  "source:AB11056",
+  "source:BH00698",
+  "source:BH01880",
+  "source:BH02459",
+  "source:BH02613",
+  "source:BH00703",
+  "source:BH07791",
+  "source:AB06514",
+  "source:ABU2955",
+  "source:BH01751",
+  "source:BB00094",
+  "source:ABU3386",
+  "source:ABU2143",
+  "source:ABU2826",
+  "source:ABU0089",
+  "source:ABU1796",
+  "source:ABU1921",
+  "source:ABU3056",
+  "source:ABU2406",
+  "source:ABU2587",
+  "selection:ba97428b7c84dbb4369841af",
+  "selection:554ab11692e5df7f7e3f99d9",
+  "selection:898475745086c83f87dda7a2"
+ ],
+ "introduction": "These readings affirm the earlier religions and their books: the Torah, the Gospel and the Qur'an are from God; Zoroaster and the Buddha were his messengers, though their teachings have been altered; each religion did its work in its day; and the new revelation confirms and renews what the old ones taught, as their promised fulfilment. Each of the sixty-seven quotations is read here beside one from elsewhere, most of them from those very scriptures: the Qur'an on believing in all the messengers without distinction, Jesus on fulfilling the law, Hillel, the Dhammapada, the Gita's 'from age to age', Isaiah naming a Persian king the Lord's anointed, Ashoka, Rumi. Seven push back or add a side: 'none other name', 'the same yesterday, and to day, and for ever' and the Bible's closing warning speak for those who hold their book final; Spinoza raises the history of the texts; Hume doubts that differing faiths can all be true; and Vivekananda would let each grow by its own law.",
+ "questions": [
+  "The readings say that every earlier religion was true and did its work in its time. How does that change the way you read a scripture that is not your own?",
+  "'There is none other name under heaven,' says Peter. How do the readings answer a believer who holds that his religion is final, and what would such a believer say back?",
+  "Two readings say that the teachings of Zoroaster and the Buddha have been altered. Spinoza says something like it about the books of Moses. How is the original teaching to be known?",
+  "The new revelation is said to confirm, renew, expand and perfect the old. What is the difference between that and replacing it?",
+  "Which passage from an earlier scripture, set beside these readings, struck you as closest to them, and which as furthest?"
+ ],
+ "outside": [
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:AB00829",
+   "responds": [
+    "source:AB00829"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that God at sundry times and in divers manners spake in time past unto the fathers by the prophets."
+  },
+  {
+   "id": "acts-feel-after-him",
+   "after": "source:ABU0524",
+   "responds": [
+    "source:ABU0524"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that all nations were made to seek the Lord, if haply they might feel after him, and find him."
+  },
+  {
+   "id": "matthew-things-new-and-old",
+   "after": "source:AB06723",
+   "responds": [
+    "source:AB06723"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compares the instructed scribe to a householder who brings out of his treasure things new and old."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:ABU0706",
+   "responds": [
+    "source:ABU0706"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: thy word is a lamp unto my feet, and a light unto my path."
+  },
+  {
+   "id": "talmud-hillel-on-one-foot",
+   "after": "source:BH02395",
+   "responds": [
+    "source:BH02395"
+   ],
+   "relation": "adjacent",
+   "why": "Hillel summed up the whole Torah in one sentence about not doing to another what is hateful to oneself."
+  },
+  {
+   "id": "quran-torah-guidance-and-light",
+   "after": "source:BH02311",
+   "responds": [
+    "source:BH02311"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of an earlier scripture: lo, We did reveal the Torah, wherein is guidance and a light."
+  },
+  {
+   "id": "john-search-the-scriptures",
+   "after": "source:BH01515",
+   "responds": [
+    "source:BH01515"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: search the scriptures, for they are they which testify of me."
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "source:BH03589",
+   "responds": [
+    "source:BH03589"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds Timothy that from a child he has known the holy scriptures."
+  },
+  {
+   "id": "psalm-law-is-perfect",
+   "after": "source:AB06441",
+   "responds": [
+    "source:AB06441"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the law of the Lord is perfect, converting the soul, and his testimony sure, making wise the simple."
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that believers believe in God and his angels and his scriptures and his messengers, making no distinction between any of them."
+  },
+  {
+   "id": "quran-jesus-confirming-the-torah",
+   "after": "source:ABU0072",
+   "responds": [
+    "source:ABU0072"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that Jesus was sent confirming the Torah, and was given the Gospel, wherein is guidance and a light."
+  },
+  {
+   "id": "quran-nearest-in-affection",
+   "after": "source:ABU1743",
+   "responds": [
+    "source:ABU1743"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that the nearest in affection to the believers are those who say: lo, we are Christians."
+  },
+  {
+   "id": "matthew-not-to-destroy-but-fulfil",
+   "after": "source:BH05489",
+   "responds": [
+    "source:BH05489"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of the law and the prophets that he is not come to destroy, but to fulfil."
+  },
+  {
+   "id": "gita-age-after-age",
+   "after": "source:ABU0161",
+   "responds": [
+    "source:ABU0161"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna says in the Gita that when righteousness declines he rises from age to age, to help the good."
+  },
+  {
+   "id": "quran-mercy-for-the-peoples",
+   "after": "source:ABU0168",
+   "responds": [
+    "source:ABU0168"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of its own messenger: We sent thee not save as a mercy for the peoples."
+  },
+  {
+   "id": "avot-chain-of-tradition",
+   "after": "source:BH00248",
+   "responds": [
+    "source:BH00248"
+   ],
+   "relation": "adjacent",
+   "why": "The Mishnah begins with a chain: Moses received the Torah at Sinai and handed it to Joshua, Joshua to the elders, and the elders to the prophets."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls the law a schoolmaster for a time, under which we no longer are once faith is come."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: when I was a child, I understood as a child, but when I became a man, I put away childish things."
+  },
+  {
+   "id": "genesis-in-thy-seed",
+   "after": "source:AB00556",
+   "responds": [
+    "source:AB00556"
+   ],
+   "relation": "adjacent",
+   "why": "God promises Abraham that his seed shall be multiplied as the stars of the heaven, and that in it all nations shall be blessed."
+  },
+  {
+   "id": "deuteronomy-prophet-like-unto-me",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy promises a Prophet raised up from among their brethren, with God's words in his mouth."
+  },
+  {
+   "id": "isaiah-to-his-anointed-to-cyrus",
+   "after": "source:ABU0171",
+   "responds": [
+    "source:ABU0171"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah calls a Persian king the Lord's anointed: thus saith the Lord to his anointed, to Cyrus."
+  },
+  {
+   "id": "matthew-wise-men-from-the-east",
+   "after": "source:ABU0202",
+   "responds": [
+    "source:ABU0202"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew tells of wise men from the east, who had seen a star and came to worship."
+  },
+  {
+   "id": "quran-warner-in-every-nation",
+   "after": "source:AB01972",
+   "responds": [
+    "source:AB01972"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that there is not a nation but a warner hath passed among them."
+  },
+  {
+   "id": "dhammapada-teaching-of-the-buddhas",
+   "after": "source:ABU1522",
+   "responds": [
+    "source:ABU1522"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada sums up the teaching of all the Awakened: not to commit any sin, to do good, and to purify one's mind."
+  },
+  {
+   "id": "jeremiah-pen-of-the-scribes",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says to those who boast that the law is with them: the pen of the scribes is in vain."
+  },
+  {
+   "id": "spinoza-not-written-by-moses",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "complement",
+   "why": "Spinoza argued that the books of Moses were written by someone who lived many ages after him. If a scripture can be altered or misattributed, how is its original teaching to be recovered, and by whom?"
+  },
+  {
+   "id": "quran-every-nation-a-messenger",
+   "after": "source:AB00801",
+   "responds": [
+    "source:AB00801"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that for every nation there is a messenger, and that it will be judged between them fairly."
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:ABU1744",
+   "responds": [
+    "source:ABU1744"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi asks: have we not all one father? hath not one God created us?"
+  },
+  {
+   "id": "john-one-fold",
+   "after": "source:ABU1744",
+   "responds": [
+    "source:ABU1744"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of other sheep not of this fold, and of one fold and one shepherd."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:ABU0026",
+   "responds": [
+    "source:ABU0026"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives the test: ye shall know them by their fruits; a good tree bringeth forth good fruit."
+  },
+  {
+   "id": "matthew-mustard-seed",
+   "after": "source:AB03151",
+   "responds": [
+    "source:AB03151"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the kingdom to a grain of mustard seed, the least of seeds, which becomes a tree."
+  },
+  {
+   "id": "matthew-new-wine",
+   "after": "source:AB01794",
+   "responds": [
+    "source:AB01794"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that men do not put new wine into old bottles. If a later revelation confirms, renews, expands and perfects an earlier one, when does perfecting become replacing?"
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:ABU3572",
+   "responds": [
+    "source:ABU3572"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that he is a minister not of the letter but of the spirit, for the letter killeth, but the spirit giveth life."
+  },
+  {
+   "id": "romans-written-for-our-learning",
+   "after": "source:ABU1075",
+   "responds": [
+    "source:ABU1075"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whatsoever things were written aforetime were written for our learning."
+  },
+  {
+   "id": "hebrews-same-yesterday",
+   "after": "source:ABU2402",
+   "responds": [
+    "source:ABU2402"
+   ],
+   "relation": "contrast",
+   "why": "The letter to the Hebrews says: Jesus Christ the same yesterday, and to day, and for ever. How do Christians who hold to that sentence hear the claim that organization and administration change with every dispensation?"
+  },
+  {
+   "id": "malachi-refiners-fire",
+   "after": "source:ABU0969",
+   "responds": [
+    "source:ABU0969"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi says that the Lord shall sit as a refiner and purifier of silver."
+  },
+  {
+   "id": "corinthians-charity-suffereth-long",
+   "after": "source:ABU1991",
+   "responds": [
+    "source:ABU1991"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that charity suffereth long, and is kind, and thinketh no evil."
+  },
+  {
+   "id": "jeremiah-ask-for-the-old-paths",
+   "after": "source:ABU2950",
+   "responds": [
+    "source:ABU2950"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says: stand ye in the ways, and ask for the old paths, where is the good way, and walk therein."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU3126",
+   "responds": [
+    "source:ABU3126"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees nations beating their swords into plowshares and learning war no more."
+  },
+  {
+   "id": "hebrews-waxeth-old",
+   "after": "source:ABU2675",
+   "responds": [
+    "source:ABU2675"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that what decayeth and waxeth old is ready to vanish away."
+  },
+  {
+   "id": "quran-word-from-him",
+   "after": "source:ABU1002",
+   "responds": [
+    "source:ABU1002"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an the angels announce to Mary a word from God, whose name is the Messiah, Jesus, illustrious in this world and the next."
+  },
+  {
+   "id": "goethe-foreign-languages",
+   "after": "source:BH00107",
+   "responds": [
+    "source:BH00107"
+   ],
+   "relation": "adjacent",
+   "why": "Goethe remarked that a man who has no acquaintance with foreign languages knows nothing of his own."
+  },
+  {
+   "id": "acts-none-other-name",
+   "after": "source:BH00107",
+   "responds": [
+    "source:BH00107"
+   ],
+   "relation": "contrast",
+   "why": "Peter says in Acts that there is none other name under heaven given among men, whereby we must be saved. What do the readings say to those who hold their few pages to be all that is needed, and how would such a believer answer?"
+  },
+  {
+   "id": "peter-moved-by-the-holy-ghost",
+   "after": "source:AB00263",
+   "responds": [
+    "source:AB00263"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter says that holy men of God spake as they were moved by the Holy Ghost."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:AB05221",
+   "responds": [
+    "source:AB05221"
+   ],
+   "relation": "adjacent",
+   "why": "The two disciples say: did not our heart burn within us, while he opened to us the scriptures?"
+  },
+  {
+   "id": "luke-opened-their-understanding",
+   "after": "source:AB11056",
+   "responds": [
+    "source:AB11056"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of the risen Jesus that he opened their understanding, that they might understand the scriptures."
+  },
+  {
+   "id": "isaiah-arise-shine",
+   "after": "source:BH00698",
+   "responds": [
+    "source:BH00698"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah calls: arise, shine, for thy light is come, and the glory of the Lord is risen upon thee."
+  },
+  {
+   "id": "john-living-water",
+   "after": "source:BH01880",
+   "responds": [
+    "source:BH01880"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of a water that becomes, in the one who drinks it, a well springing up into everlasting life."
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:BH02459",
+   "responds": [
+    "source:BH02459"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews, after naming the faithful of old, says that we are compassed about with so great a cloud of witnesses."
+  },
+  {
+   "id": "revelation-add-unto-these-things",
+   "after": "source:BH02613",
+   "responds": [
+    "source:BH02613"
+   ],
+   "relation": "contrast",
+   "why": "The last page of the Bible warns that if any man shall add unto these things, God shall add unto him the plagues written in this book. How does a tradition that reads its book as closed hear the claim that another Book has sealed the Books?"
+  },
+  {
+   "id": "john-to-whom-shall-we-go",
+   "after": "source:BH00703",
+   "responds": [
+    "source:BH00703"
+   ],
+   "relation": "adjacent",
+   "why": "When many turn back, Peter says to Jesus: Lord, to whom shall we go? thou hast the words of eternal life."
+  },
+  {
+   "id": "luke-moses-and-the-prophets",
+   "after": "source:BH07791",
+   "responds": [
+    "source:BH07791"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable Abraham says: they have Moses and the prophets; let them hear them."
+  },
+  {
+   "id": "acts-scales-fell-from-his-eyes",
+   "after": "source:AB06514",
+   "responds": [
+    "source:AB06514"
+   ],
+   "relation": "adjacent",
+   "why": "Acts tells how Saul received his sight, and there fell from his eyes as it had been scales."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:ABU2955",
+   "responds": [
+    "source:ABU2955"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees a time when the wolf shall dwell with the lamb, and a little child shall lead them."
+  },
+  {
+   "id": "isaiah-draw-near-with-their-mouth",
+   "after": "source:BH01751",
+   "responds": [
+    "source:BH01751"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that this people honour him with their lips, but have removed their heart far from him."
+  },
+  {
+   "id": "john-had-ye-believed-moses",
+   "after": "source:BB00094",
+   "responds": [
+    "source:BB00094"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: had ye believed Moses, ye would have believed me, for he wrote of me."
+  },
+  {
+   "id": "quran-revealed-unto-abraham",
+   "after": "source:ABU3386",
+   "responds": [
+    "source:ABU3386"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells believers to say that they believe in what was revealed to Abraham, to Moses and to Jesus, making no distinction between any of them."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU2143",
+   "responds": [
+    "source:ABU2143"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi wrote that the lamps are different, but the Light is the same: it comes from beyond."
+  },
+  {
+   "id": "ashoka-other-religions",
+   "after": "source:ABU2826",
+   "responds": [
+    "source:ABU2826"
+   ],
+   "relation": "adjacent",
+   "why": "The emperor Ashoka had it carved in stone that whoever praises his own religion and condemns others only harms his own."
+  },
+  {
+   "id": "john-teacher-come-from-god",
+   "after": "source:ABU0089",
+   "responds": [
+    "source:ABU0089"
+   ],
+   "relation": "adjacent",
+   "why": "Nicodemus says to Jesus: we know that thou art a teacher come from God."
+  },
+  {
+   "id": "acts-unknown-god",
+   "after": "source:ABU1796",
+   "responds": [
+    "source:ABU1796"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that he declares to them the God whom they worship without knowing."
+  },
+  {
+   "id": "luke-not-against-us-is-for-us",
+   "after": "source:ABU3056",
+   "responds": [
+    "source:ABU3056"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells John not to forbid one who does not follow with them: he that is not against us is for us."
+  },
+  {
+   "id": "john-except-a-man-be-born-again",
+   "after": "source:ABU2406",
+   "responds": [
+    "source:ABU2406"
+   ],
+   "relation": "adjacent",
+   "why": "Nicodemus asks Jesus how a man can be born when he is old."
+  },
+  {
+   "id": "isaiah-word-stand-for-ever",
+   "after": "source:ABU2587",
+   "responds": [
+    "source:ABU2587"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the grass withereth and the flower fadeth, but the word of our God shall stand for ever."
+  },
+  {
+   "id": "vivekananda-own-law",
+   "after": "selection:ba97428b7c84dbb4369841af",
+   "responds": [
+    "selection:ba97428b7c84dbb4369841af"
+   ],
+   "relation": "complement",
+   "why": "Vivekananda told the Parliament of Religions in 1893 that each religion must assimilate the spirit of the others and yet grow according to its own law. Is believing in all the revelations the same as leaving each to grow by itself?"
+  },
+  {
+   "id": "hume-whatever-is-different-is-contrary",
+   "after": "selection:554ab11692e5df7f7e3f99d9",
+   "responds": [
+    "selection:554ab11692e5df7f7e3f99d9"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that in matters of religion whatever is different is contrary, so that the religions cannot all be well founded. What does calling religious truth relative and progressive answer in that, and what does it leave?"
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "selection:898475745086c83f87dda7a2",
+   "responds": [
+    "selection:898475745086c83f87dda7a2"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says that to what is One, sages give many a title."
+  }
+ ],
+ "library": {
+  "john-to-whom-shall-we-go": {
+   "text": "Then said Jesus unto the twelve, Will ye also go away? Then Simon Peter answered him, Lord, to whom shall we go? thou hast the words of eternal life",
+   "work": "John 6:67–68",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%206%3A67-68&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-ask-for-the-old-paths": {
+   "text": "Thus saith the Lord, Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein, and ye shall find rest for your souls. But they said, We will not walk therein",
+   "work": "Jeremiah 6:16",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%206%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-written-for-our-learning": {
+   "text": "For whatsoever things were written aforetime were written for our learning, that we through patience and comfort of the scriptures might have hope",
+   "work": "Romans 15:4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2015%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

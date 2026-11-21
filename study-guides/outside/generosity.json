@@ -1,0 +1,284 @@
+{
+ "format": 2,
+ "slug": "generosity",
+ "subject": "531C2217F0C1EC4A8750BEC3A0B284AA",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 19,
+ "kept": [
+  "source:ABU1168",
+  "source:ABU1047",
+  "source:ABU1751",
+  "source:AB02858",
+  "source:AB06988",
+  "source:AB01506",
+  "source:AB10632",
+  "source:AB04063",
+  "source:ABU2562",
+  "source:BH06047",
+  "source:ABU0050",
+  "source:BH01986",
+  "source:AB08607",
+  "source:AB11303",
+  "source:AB05072",
+  "source:AB10074",
+  "source:BH10168",
+  "source:BH11527",
+  "source:AB02585"
+ ],
+ "introduction": "A short guide. Generosity here is the sun's habit of shining on every land: giving that is glad, universal, quiet, and possible to the poor as well as the rich, with thankfulness when there is nothing to give. Proverbs, the Gospels, Paul and the Qur’an say the same in their own terms. Thoreau and Emerson ask what a gift does to the one who receives it, and Aristotle and the Qur’an whether giving has a measure.",
+ "questions": [
+  "What makes a gift generous in these readings: its size, its gladness, or its reach?",
+  "One reading says, when we find something we share it, and when we lack we give thanks. What kind of household or community lives that way?",
+  "Emerson says we do not quite forgive a giver. How can one give so that the receiver keeps his dignity?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-rain-on-the-just",
+   "after": "source:ABU1168",
+   "responds": [
+    "source:ABU1168"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says the Father makes his sun to rise on the evil and on the good."
+  },
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:ABU1047",
+   "responds": [
+    "source:ABU1047"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: not grudgingly, or of necessity, for God loveth a cheerful giver."
+  },
+  {
+   "id": "mark-widows-mites",
+   "after": "source:ABU1047",
+   "responds": [
+    "source:ABU1047"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says of a poor widow's two mites that she cast in more than all the rich."
+  },
+  {
+   "id": "matthew-freely-give",
+   "after": "source:ABU1751",
+   "responds": [
+    "source:ABU1751"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples as he sends them out: freely ye have received, freely give."
+  },
+  {
+   "id": "acts-dorcas",
+   "after": "source:AB02858",
+   "responds": [
+    "source:AB02858"
+   ],
+   "relation": "adjacent",
+   "why": "Acts remembers Dorcas, at whose death the widows stood weeping and showing the coats she had made."
+  },
+  {
+   "id": "galatians-good-unto-all-men",
+   "after": "source:AB06988",
+   "responds": [
+    "source:AB06988"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: as we have opportunity, let us do good unto all men."
+  },
+  {
+   "id": "thoreau-doing-me-good",
+   "after": "source:AB06988",
+   "responds": [
+    "source:AB06988"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau said that if he knew a man was coming to his house to do him good, he should run for his life. What separates kindness from doing good to people?"
+  },
+  {
+   "id": "matthew-give-to-him-that-asketh",
+   "after": "source:AB01506",
+   "responds": [
+    "source:AB01506"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: give to him that asketh thee, and from him that would borrow turn not away."
+  },
+  {
+   "id": "shakespeare-quality-of-mercy",
+   "after": "source:AB10632",
+   "responds": [
+    "source:AB10632"
+   ],
+   "relation": "adjacent",
+   "why": "Portia says that mercy is not strained, and becomes the throned monarch better than his crown."
+  },
+  {
+   "id": "aristotle-virtue-lying-in-a-mean",
+   "after": "source:AB10632",
+   "responds": [
+    "source:AB10632"
+   ],
+   "relation": "complement",
+   "why": "Aristotle places virtue in a mean between excess and defect. Is there a point at which munificence is too much?"
+  },
+  {
+   "id": "proverbs-liberal-soul-shall-be-made-fat",
+   "after": "source:BH06047",
+   "responds": [
+    "source:BH06047"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: the liberal soul shall be made fat, and he that watereth shall be watered also himself."
+  },
+  {
+   "id": "corinthians-as-poor-yet-making-many-rich",
+   "after": "source:BH01986",
+   "responds": [
+    "source:BH01986"
+   ],
+   "relation": "adjacent",
+   "why": "Paul describes himself as poor, yet making many rich; as having nothing, and yet possessing all things."
+  },
+  {
+   "id": "acts-these-hands-have-ministered",
+   "after": "source:AB08607",
+   "responds": [
+    "source:AB08607"
+   ],
+   "relation": "adjacent",
+   "why": "Paul quotes Jesus: it is more blessed to give than to receive."
+  },
+  {
+   "id": "quran-spend-of-what-ye-love",
+   "after": "source:AB05072",
+   "responds": [
+    "source:AB05072"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says: ye will not attain unto piety until ye spend of that which ye love."
+  },
+  {
+   "id": "matthew-left-hand-know",
+   "after": "source:AB05072",
+   "responds": [
+    "source:AB05072"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: when thou doest alms, let not thy left hand know what thy right hand doeth."
+  },
+  {
+   "id": "john-epistle-shutteth-up-his-bowels",
+   "after": "source:AB10074",
+   "responds": [
+    "source:AB10074"
+   ],
+   "relation": "adjacent",
+   "why": "John asks how the love of God dwells in one who sees his brother in need and shuts up his compassion."
+  },
+  {
+   "id": "quran-hand-chained-to-thy-neck",
+   "after": "source:BH10168",
+   "responds": [
+    "source:BH10168"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an counsels neither a hand chained to the neck nor one opened completely. What does it mean to be generous toward oneself?"
+  },
+  {
+   "id": "proverbs-lendeth-unto-the-lord",
+   "after": "source:BH11527",
+   "responds": [
+    "source:BH11527"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: he that hath pity upon the poor lendeth unto the Lord."
+  },
+  {
+   "id": "emerson-do-not-quite-forgive-a-giver",
+   "after": "source:AB02585",
+   "responds": [
+    "source:AB02585"
+   ],
+   "relation": "contrast",
+   "why": "Emerson observed that we do not quite forgive a giver. What does generosity owe to the dignity of the one who receives?"
+  }
+ ],
+ "library": {
+  "proverbs-liberal-soul-shall-be-made-fat": {
+   "text": "There is that scattereth, and yet increaseth; and there is that withholdeth more than is meet, but it tendeth to poverty. The liberal soul shall be made fat: and he that watereth shall be watered also himself",
+   "work": "Proverbs 11:24–25",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2011%3A24-25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-give-to-him-that-asketh": {
+   "text": "Give to him that asketh thee, and from him that would borrow of thee turn not thou away",
+   "work": "Matthew 5:42",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A42&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-epistle-shutteth-up-his-bowels": {
+   "text": "But whoso hath this world's good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him",
+   "work": "1 John 3:17",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

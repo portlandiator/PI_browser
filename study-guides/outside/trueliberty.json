@@ -1,0 +1,346 @@
+{
+ "format": 2,
+ "slug": "trueliberty",
+ "subject": "344830F10FF3E024ED058D859E65EC8D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 27,
+ "quotations": 33,
+ "kept": [
+  "source:AB00566",
+  "source:ABU1118",
+  "source:ABU0157",
+  "source:BH00044",
+  "source:AB05095",
+  "source:ABU1570",
+  "source:ABU2929",
+  "source:ABU3271",
+  "source:ABU3109",
+  "source:ABU3353",
+  "source:BH00140",
+  "source:BH10229",
+  "source:AB00016",
+  "source:ABU0914",
+  "source:ABU0887",
+  "source:ABU1305",
+  "source:BH02950",
+  "source:BH00238",
+  "source:AB03460",
+  "source:AB05230",
+  "source:ABU3086",
+  "source:AB05772",
+  "source:BH00001",
+  "source:BH02484",
+  "selection:1208a3275911d3481d36fcb5",
+  "selection:2f8e5d3be239c7fdd6189a24",
+  "selection:6a5003986f5b36625b33388e"
+ ],
+ "introduction": "These readings praise liberty as among the greatest of blessings and then ask what it is for: a prisoner of forty years calls himself free, political freedom is welcomed and also said to need education and restraint, and true liberty is placed in submission to the commandments of God. The quotations set beside them come from scripture, from poets who wrote of prison, and from the writers on whom modern ideas of liberty rest, Locke, Rousseau, Kant, Mill, Jefferson and Douglass. Several are placed in contrast, where the guide speaks of the East, of a people not yet ready for freedom, and of liberty as the mark of the animal.",
+ "questions": [
+  "What do the readings mean by calling a prisoner free, and which of the poets here would agree?",
+  "Locke says where there is no law there is no freedom. How close is that to saying that true liberty is submission to God's commandments, and where do the two part?",
+  "One reading holds that a people should be educated before it is given liberty. How do Kant and Douglass answer, and what would you say?",
+  "What freedoms do the readings welcome without reserve, and what do they fear from freedom?"
+ ],
+ "outside": [
+  {
+   "id": "declaration-all-men-are-created-equal",
+   "after": "source:AB00566",
+   "responds": [
+    "source:AB00566"
+   ],
+   "relation": "adjacent",
+   "why": "The American Declaration counts liberty among the unalienable rights that governments are instituted to secure."
+  },
+  {
+   "id": "washington-spirit-of-party",
+   "after": "source:AB00566",
+   "responds": [
+    "source:AB00566"
+   ],
+   "relation": "complement",
+   "why": "Washington allows that parties in free countries may, within certain limits, keep alive the spirit of liberty. Is a party the guardian of legitimate liberty, or one of its risks?"
+  },
+  {
+   "id": "lazarus-golden-door",
+   "after": "source:ABU1118",
+   "responds": [
+    "source:ABU1118"
+   ],
+   "relation": "adjacent",
+   "why": "Emma Lazarus gives a free country's welcome to the huddled masses yearning to breathe free."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU1118",
+   "responds": [
+    "source:ABU1118"
+   ],
+   "relation": "contrast",
+   "why": "Mill warns that he who knows only his own side of the case knows little of that. What would a hearer in the East have wished to add to this praise of English freedom?"
+  },
+  {
+   "id": "lovelace-stone-walls",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "adjacent",
+   "why": "Lovelace says stone walls do not make a prison, for a soul free in its love has the liberty of angels."
+  },
+  {
+   "id": "byron-my-very-chains",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "complement",
+   "why": "Byron's prisoner grew friends with his chains and regained his freedom with a sigh. Does long captivity always teach the value of liberty, or can it dull it?"
+  },
+  {
+   "id": "psalm-bring-my-soul-out-of-prison",
+   "after": "source:BH00044",
+   "responds": [
+    "source:BH00044"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks that his soul be brought out of prison so that he may praise, a freeing that is more than release."
+  },
+  {
+   "id": "wordsworth-no-prison-is",
+   "after": "source:AB05095",
+   "responds": [
+    "source:AB05095"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth holds that the prison to which we doom ourselves is no prison at all."
+  },
+  {
+   "id": "quran-prison-is-dearer",
+   "after": "source:AB05095",
+   "responds": [
+    "source:AB05095"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph in the Qur’an calls prison dearer to him than what he is urged to do, choosing the cell to keep his soul free."
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "source:ABU1570",
+   "responds": [
+    "source:ABU1570"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promises a freedom that comes by knowing the truth, with no word of walls or rulers."
+  },
+  {
+   "id": "john-servant-of-sin",
+   "after": "source:ABU1570",
+   "responds": [
+    "source:ABU1570"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus names the bondage that spiritual freedom ends: whoever commits sin is the servant of sin."
+  },
+  {
+   "id": "jefferson-free-to-profess",
+   "after": "source:ABU2929",
+   "responds": [
+    "source:ABU2929"
+   ],
+   "relation": "adjacent",
+   "why": "Jefferson's statute provides that all men shall be free to profess their opinions in matters of religion."
+  },
+  {
+   "id": "universal-declaration-18",
+   "after": "source:ABU2929",
+   "responds": [
+    "source:ABU2929"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration states for every person the right to freedom of thought, conscience and religion."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:ABU3271",
+   "responds": [
+    "source:ABU3271"
+   ],
+   "relation": "adjacent",
+   "why": "Milton asks who ever knew truth put to the worse in a free and open encounter, his ground for preferring freedom."
+  },
+  {
+   "id": "mill-pleasant-falsehoods",
+   "after": "source:ABU3271",
+   "responds": [
+    "source:ABU3271"
+   ],
+   "relation": "complement",
+   "why": "Mill calls it a pleasant falsehood that truth always triumphs over persecution. If freedom does not help a cause spread, is it preferred for the cause's sake or for its own?"
+  },
+  {
+   "id": "kennedy-ask-not",
+   "after": "source:ABU3109",
+   "responds": [
+    "source:ABU3109"
+   ],
+   "relation": "adjacent",
+   "why": "Kennedy asks the citizens of the world what together they can do for the freedom of man."
+  },
+  {
+   "id": "isaiah-opening-of-the-prison",
+   "after": "source:ABU3353",
+   "responds": [
+    "source:ABU3353"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's herald brings good tidings together with liberty for captives and the opening of the prison."
+  },
+  {
+   "id": "galatians-by-love-serve",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells those called unto liberty to use it by serving one another in love, lest they devour one another."
+  },
+  {
+   "id": "corinthians-spirit-is-liberty",
+   "after": "source:BH10229",
+   "responds": [
+    "source:BH10229"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says in one line that where the Spirit of the Lord is, there is liberty."
+  },
+  {
+   "id": "rousseau-moral-liberty",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Rousseau calls the mere impulse of appetite slavery, and obedience to a law we give ourselves liberty."
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "contrast",
+   "why": "Hume holds that reason is, and ought only to be, the slave of the passions. Is freedom from nature possible if the mind itself takes nature's orders?"
+  },
+  {
+   "id": "locke-where-there-is-no-law",
+   "after": "source:ABU0914",
+   "responds": [
+    "source:ABU0914"
+   ],
+   "relation": "adjacent",
+   "why": "Locke holds that the end of law is to preserve and enlarge freedom, and that where there is no law there is no freedom."
+  },
+  {
+   "id": "mill-worth-of-a-state",
+   "after": "source:ABU0914",
+   "responds": [
+    "source:ABU0914"
+   ],
+   "relation": "contrast",
+   "why": "Mill measures a State by the worth of the individuals who compose it. Is the freedom to do what does not harm a neighbour only the freedom of birds?"
+  },
+  {
+   "id": "plato-excess-of-liberty",
+   "after": "source:ABU0887",
+   "responds": [
+    "source:ABU0887"
+   ],
+   "relation": "adjacent",
+   "why": "Plato observed that excess of liberty, in states or in individuals, seems only to pass into excess of slavery."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU0887",
+   "responds": [
+    "source:ABU0887"
+   ],
+   "relation": "contrast",
+   "why": "Kant defines enlightenment as release from a tutelage we bring on ourselves. Who decides when a people has been educated enough to be free?"
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:ABU0887",
+   "responds": [
+    "source:ABU0887"
+   ],
+   "relation": "contrast",
+   "why": "Douglass, once a slave, says those who favour freedom yet deprecate agitation want crops without plowing. Can liberty wait until its holders are judged ready?"
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:ABU1305",
+   "responds": [
+    "source:ABU1305"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus reads from Isaiah that he is sent to preach deliverance to the captives and set the bruised at liberty."
+  },
+  {
+   "id": "matthew-come-unto-me",
+   "after": "source:BH02950",
+   "responds": [
+    "source:BH02950"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus offers rest to the heavy laden in the form of a yoke, his own, to be taken up."
+  },
+  {
+   "id": "henley-captain-of-my-soul",
+   "after": "source:AB03460",
+   "responds": [
+    "source:AB03460"
+   ],
+   "relation": "complement",
+   "why": "Henley declares himself the master of his fate and the captain of his soul. From where does a prisoner's freedom come, the self or something beyond it?"
+  },
+  {
+   "id": "donne-batter-my-heart",
+   "after": "source:ABU3086",
+   "responds": [
+    "source:ABU3086"
+   ],
+   "relation": "adjacent",
+   "why": "Donne tells God that he will never be free unless God enthralls him."
+  },
+  {
+   "id": "psalm-walk-at-liberty",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist joins the two as the reading does: he keeps the law continually and so walks at liberty."
+  },
+  {
+   "id": "milton-reign-in-hell",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Milton's Satan prefers a place where he and his shall at least be free. Why does submission as the price of liberty sound to some like the loss of it?"
+  },
+  {
+   "id": "tagore-thousand-bonds-of-delight",
+   "after": "selection:1208a3275911d3481d36fcb5",
+   "responds": [
+    "selection:1208a3275911d3481d36fcb5"
+   ],
+   "relation": "complement",
+   "why": "Tagore finds deliverance in a thousand bonds of delight and not in renunciation. Are restraints the only bonds within which freedom can be found?"
+  }
+ ],
+ "library": {}
+}

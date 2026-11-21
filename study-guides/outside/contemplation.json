@@ -1,0 +1,352 @@
+{
+ "format": 2,
+ "slug": "contemplation",
+ "subject": "DA67DEF4ED6E470BA9C5A666A3697E80",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 24,
+ "quotations": 34,
+ "kept": [
+  "source:BH00001",
+  "source:ABU0395",
+  "source:ABU0860",
+  "source:ABU2392",
+  "source:ABU1944",
+  "source:ABU1430",
+  "source:BH03660",
+  "source:BH00386",
+  "source:BH00208",
+  "source:BH00354",
+  "source:BH00002",
+  "source:BH01881",
+  "source:BH10799",
+  "source:BH00597",
+  "source:BH07493",
+  "source:BH05718",
+  "source:BH00049",
+  "source:BH01079",
+  "source:AB00948",
+  "selection:0c1ee5ae566fd7666e978e4b",
+  "selection:4f23417ab4a4a6f8903fa808",
+  "selection:e7b47f5925807654eb677187",
+  "selection:d63b6e918576e621307d148e",
+  "selection:560638da4c536626f5011229"
+ ],
+ "introduction": "These readings commend a habit more than a method: to read a little with joy instead of much with pride, to be silent, to ponder what has been revealed until its meanings open, and to go apart at times, as ‘Abdu’l-Bahá describes doing under the night sky. The closing letters add that no form of meditation is prescribed and that believers are free in it. The Psalms, the Gospels and the Qur’an praise the same pondering, with Pascal, Wordsworth, Thoreau and Marcus Aurelius. Tagore and James ask whether God is found by withdrawing or by working, and Zhuangzi and the Buddha speak for traditions of meditation the readings leave open.",
+ "questions": [
+  "The readings set a single verse read with joy above much reading. What changes in the reader when less is read and more is pondered?",
+  "One reading says to leave the city and dwell within oneself; Tagore says God is where the tiller tills. How do you hold the two?",
+  "No form of meditation is prescribed. What does that freedom ask of a person, and what might be learned from traditions that do prescribe forms?",
+  "James warns against being hearers only. How do you know when contemplation has borne fruit?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-acceptable",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks that the words of his mouth and the meditation of his heart be acceptable."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm gives the command in four words: be still, and know."
+  },
+  {
+   "id": "pascal-own-chamber",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal traced all the unhappiness of men to one thing, that they cannot stay quietly in their own chamber."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu says that he who knows does not care to speak, and he who is ever ready to speak does not know."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah finds the Lord not in wind, earthquake or fire, but in a still small voice."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:ABU0860",
+   "responds": [
+    "source:ABU0860"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius holds that learning without thought is labour lost, and thought without learning is perilous."
+  },
+  {
+   "id": "bacon-weigh-and-consider",
+   "after": "source:ABU0860",
+   "responds": [
+    "source:ABU0860"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon advises reading not to contradict nor to take for granted, but to weigh and consider."
+  },
+  {
+   "id": "mark-a-great-while-before-day",
+   "after": "source:ABU2392",
+   "responds": [
+    "source:ABU2392"
+   ],
+   "relation": "adjacent",
+   "why": "Mark records that Jesus rose a great while before day and went out to a solitary place to pray."
+  },
+  {
+   "id": "psalm-in-the-night-watches",
+   "after": "source:ABU2392",
+   "responds": [
+    "source:ABU2392"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist remembers God upon his bed and meditates on him in the night watches."
+  },
+  {
+   "id": "wordsworth-life-of-things",
+   "after": "source:ABU1944",
+   "responds": [
+    "source:ABU1944"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth describes a serene mood in which, with an eye made quiet, we see into the life of things."
+  },
+  {
+   "id": "shakespeare-tongues-in-trees",
+   "after": "source:ABU1430",
+   "responds": [
+    "source:ABU1430"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Duke finds tongues in trees, books in the running brooks and sermons in stones."
+  },
+  {
+   "id": "thoreau-live-deliberately",
+   "after": "source:BH03660",
+   "responds": [
+    "source:BH03660"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau went to the woods to live deliberately and front only the essential facts of life."
+  },
+  {
+   "id": "marcus-look-within",
+   "after": "source:BH03660",
+   "responds": [
+    "source:BH03660"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says: look within, where the fountain of good will ever bubble up if thou wilt ever dig."
+  },
+  {
+   "id": "tagore-leave-this-chanting",
+   "after": "source:BH03660",
+   "responds": [
+    "source:BH03660"
+   ],
+   "relation": "contrast",
+   "why": "Tagore tells the worshipper in a shut temple to open his eyes, for God is where the tiller tills the hard ground. Is the wilderness the place to find what the reading promises, or the field?"
+  },
+  {
+   "id": "matthew-enter-into-thy-closet",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his followers to enter the closet, shut the door and pray in secret."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:BH00208",
+   "responds": [
+    "source:BH00208"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine confesses that our hearts are restless until they rest in God."
+  },
+  {
+   "id": "psalm-delight-in-the-law",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "The first psalm blesses the one whose delight is in the law, meditating on it day and night."
+  },
+  {
+   "id": "psalm-open-thou-mine-eyes",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks that his eyes be opened to behold wondrous things in the law."
+  },
+  {
+   "id": "psalm-while-i-was-musing",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that while he was musing the fire burned, and then he spoke."
+  },
+  {
+   "id": "proverbs-seekest-her-as-silver",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks that understanding be sought as silver and searched for as hid treasure."
+  },
+  {
+   "id": "philippians-think-on-these-things",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists what is true, honest, just, pure and lovely, and says, think on these things."
+  },
+  {
+   "id": "quran-men-of-understanding",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an points to the heavens, the earth and the alternation of night and day as signs for those who reflect."
+  },
+  {
+   "id": "emerson-gleam-of-light",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson asks each person to detect and watch the gleam of light that flashes across the mind from within."
+  },
+  {
+   "id": "dhammapada-earnestness",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada calls earnestness the path of immortality and thoughtlessness the path of death."
+  },
+  {
+   "id": "luke-mary-kept-all-these-things",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of Mary that she kept all these things and pondered them in her heart."
+  },
+  {
+   "id": "joshua-meditate-day-and-night",
+   "after": "source:BH01881",
+   "responds": [
+    "source:BH01881"
+   ],
+   "relation": "adjacent",
+   "why": "Joshua is told that the book of the law shall not depart from his mouth: he shall meditate in it day and night."
+  },
+  {
+   "id": "corinthians-vail-upon-their-heart",
+   "after": "source:BH10799",
+   "responds": [
+    "source:BH10799"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a veil upon the heart at the reading of scripture, taken away when the heart turns."
+  },
+  {
+   "id": "quran-horizons-and-themselves",
+   "after": "source:BH07493",
+   "responds": [
+    "source:BH07493"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an promises signs shown on the horizons and within themselves until the truth is manifest."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:BH07493",
+   "responds": [
+    "source:BH07493"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanks the Father that what is hidden from the wise and prudent is revealed unto babes."
+  },
+  {
+   "id": "job-now-mine-eye-seeth",
+   "after": "source:BH01079",
+   "responds": [
+    "source:BH01079"
+   ],
+   "relation": "adjacent",
+   "why": "Job says that he had uttered what he understood not, things too wonderful for him."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "selection:0c1ee5ae566fd7666e978e4b",
+   "responds": [
+    "selection:0c1ee5ae566fd7666e978e4b"
+   ],
+   "relation": "contrast",
+   "why": "James warns against being hearers of the word only and not doers. What must meditation lead to, if it is not to deceive the one who practises it?"
+  },
+  {
+   "id": "thessalonians-pray-without-ceasing",
+   "after": "selection:4f23417ab4a4a6f8903fa808",
+   "responds": [
+    "selection:4f23417ab4a4a6f8903fa808"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks for prayer without ceasing and thanks in every thing, with no form laid down."
+  },
+  {
+   "id": "zhuangzi-mind-as-a-mirror",
+   "after": "selection:d63b6e918576e621307d148e",
+   "responds": [
+    "selection:d63b6e918576e621307d148e"
+   ],
+   "relation": "complement",
+   "why": "Zhuangzi's perfect man uses his mind as a mirror, which responds to what is before it and does not retain it. Is meditation the filling of the mind with a text, or its emptying?"
+  },
+  {
+   "id": "buddha-dont-go-by-reports",
+   "after": "selection:560638da4c536626f5011229",
+   "responds": [
+    "selection:560638da4c536626f5011229"
+   ],
+   "relation": "complement",
+   "why": "The Buddha tells the Kalamas not to go by tradition or by the thought, this contemplative is our teacher. What may be learned from the long practice of meditation in other traditions?"
+  }
+ ],
+ "library": {}
+}

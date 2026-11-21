@@ -1,0 +1,298 @@
+{
+ "format": 2,
+ "slug": "banishments",
+ "subject": "78DB0A81C7FFE1423784B68876BBD5D4",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 25,
+ "quotations": 25,
+ "kept": [
+  "source:BH02247",
+  "source:AB01351",
+  "source:ABU0223",
+  "source:AB00302",
+  "source:BHU0018",
+  "source:BH01047",
+  "source:AB00414",
+  "source:ABU0090",
+  "source:BH02263",
+  "source:ABU1607",
+  "source:ABU1266",
+  "source:AB02531",
+  "source:BHU0048",
+  "source:AB11807",
+  "source:AB02655",
+  "source:ABU0513",
+  "source:ABU1303",
+  "source:ABU2218",
+  "source:AB00556",
+  "source:ABU2955",
+  "source:BH11830",
+  "source:ABU1995",
+  "source:AB01183",
+  "source:ABU0327",
+  "source:AB00029"
+ ],
+ "introduction": "These readings recount the successive banishments of Bahá’u’lláh, from Tehran to Baghdad, to Constantinople, to Adrianople and at last to the prison of ‘Akká, and draw a conclusion from them: each exile, intended to destroy his cause, carried it further, as Abraham's migration and the Báb's banishment had done before. All twenty-five quotations are read here beside twenty-five from elsewhere. Most stand alongside: Joseph, the exiles in Babylon, Paul's journeys and his 'furtherance of the gospel', John on Patmos, Dante on the bread of exile, the scattering in Acts, Shakespeare's banished duke. Three push back or add a side: a psalm from the pit that never turns to praise, Gamaliel's test beside the argument that royal opposition is a proof, and the Preacher's 'time and chance' beside the reading that sees a design in the route from Shiraz to Haifa.",
+ "questions": [
+  "List the stages of exile the readings name. What did each remove, and what, according to the readings, did each add?",
+  "'Ye thought evil against me, but God meant it unto good.' When is it right to read a persecution this way, and who may say so?",
+  "One reading counts the enmity of two monarchs as a proof. What would Gamaliel say?",
+  "The Preacher puts outcomes down to time and chance. What would convince you that a sequence of events had a direction?",
+  "What does it change to read these events beside a psalm that ends in darkness?"
+ ],
+ "outside": [
+  {
+   "id": "ruth-whither-thou-goest",
+   "after": "source:BH02247",
+   "responds": [
+    "source:BH02247"
+   ],
+   "relation": "adjacent",
+   "why": "Ruth said to the one she followed into exile: whither thou goest, I will go; and where thou lodgest, I will lodge."
+  },
+  {
+   "id": "matthew-flee-ye-into-another",
+   "after": "source:AB01351",
+   "responds": [
+    "source:AB01351"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his messengers: when they persecute you in this city, flee ye into another."
+  },
+  {
+   "id": "hebrews-world-not-worthy",
+   "after": "source:ABU0223",
+   "responds": [
+    "source:ABU0223"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews remembers those who wandered in deserts and mountains, of whom the world was not worthy."
+  },
+  {
+   "id": "corinthians-thrice-beaten",
+   "after": "source:AB00302",
+   "responds": [
+    "source:AB00302"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists his own journeys: beaten, stoned, shipwrecked, in perils by his own countrymen."
+  },
+  {
+   "id": "luke-no-prophet-accepted",
+   "after": "source:BHU0018",
+   "responds": [
+    "source:BHU0018"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said in his own town: verily I say unto you, no prophet is accepted in his own country."
+  },
+  {
+   "id": "genesis-joseph-in-prison",
+   "after": "source:AB00414",
+   "responds": [
+    "source:AB00414"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph was put in the king's prison in a foreign land, and the Lord was with him there."
+  },
+  {
+   "id": "dante-bread-of-others",
+   "after": "source:ABU0090",
+   "responds": [
+    "source:ABU0090"
+   ],
+   "relation": "adjacent",
+   "why": "Dante was told what exile is: to leave everything most loved, and to learn how salt is the bread of others."
+  },
+  {
+   "id": "psalm-rivers-of-babylon",
+   "after": "source:BH02263",
+   "responds": [
+    "source:BH02263"
+   ],
+   "relation": "adjacent",
+   "why": "The exiles in Babylon sat by the rivers and wept when they remembered Zion."
+  },
+  {
+   "id": "psalm-lowest-pit",
+   "after": "source:ABU1607",
+   "responds": [
+    "source:ABU1607"
+   ],
+   "relation": "contrast",
+   "why": "A psalm from the pit says: I am shut up, and I cannot come forth; and it ends in darkness. These readings tell exile as a story that turns out well: what do they owe to voices like this one?"
+  },
+  {
+   "id": "esther-laws-diverse-from-all-people",
+   "after": "source:ABU1266",
+   "responds": [
+    "source:ABU1266"
+   ],
+   "relation": "adjacent",
+   "why": "An earlier decree against a scattered people began with the charge that their laws were different."
+  },
+  {
+   "id": "revelation-isle-called-patmos",
+   "after": "source:AB02531",
+   "responds": [
+    "source:AB02531"
+   ],
+   "relation": "adjacent",
+   "why": "John writes from banishment: I was in the isle that is called Patmos, for the word of God."
+  },
+  {
+   "id": "genesis-meant-it-unto-good",
+   "after": "source:BHU0048",
+   "responds": [
+    "source:BHU0048"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph told the brothers who sold him: ye thought evil against me, but God meant it unto good."
+  },
+  {
+   "id": "isaiah-lamb-to-the-slaughter",
+   "after": "source:AB11807",
+   "responds": [
+    "source:AB11807"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's servant is oppressed and afflicted, yet he opens not his mouth."
+  },
+  {
+   "id": "luke-foxes-have-holes",
+   "after": "source:AB02655",
+   "responds": [
+    "source:AB02655"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that foxes have holes and birds have nests, but the Son of man hath not where to lay his head."
+  },
+  {
+   "id": "acts-if-it-be-of-men",
+   "after": "source:ABU0513",
+   "responds": [
+    "source:ABU0513"
+   ],
+   "relation": "complement",
+   "why": "Gamaliel advised the council to wait: if this work be of men it will come to nought, but if it be of God ye cannot overthrow it. Is opposition by kings, or surviving it, a proof?"
+  },
+  {
+   "id": "acts-scattered-abroad",
+   "after": "source:ABU1303",
+   "responds": [
+    "source:ABU1303"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says a great persecution scattered the believers abroad through the regions."
+  },
+  {
+   "id": "philippians-furtherance-of-the-gospel",
+   "after": "source:ABU1303",
+   "responds": [
+    "source:ABU1303"
+   ],
+   "relation": "adjacent",
+   "why": "Paul wrote from prison that what had happened to him had fallen out rather to the furtherance of the gospel."
+  },
+  {
+   "id": "john-sorrow-turned-into-joy",
+   "after": "source:ABU2218",
+   "responds": [
+    "source:ABU2218"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples they would weep while the world rejoiced, but their sorrow would be turned into joy."
+  },
+  {
+   "id": "genesis-get-thee-out",
+   "after": "source:AB00556",
+   "responds": [
+    "source:AB00556"
+   ],
+   "relation": "adjacent",
+   "why": "This is the call referred to: get thee out of thy country, and I will make of thee a great nation."
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU2955",
+   "responds": [
+    "source:ABU2955"
+   ],
+   "relation": "contrast",
+   "why": "Ecclesiastes says the race is not to the swift, nor the battle to the strong, but time and chance happeneth to them all. How does one tell a design from a run of events?"
+  },
+  {
+   "id": "isaiah-no-weapon-formed",
+   "after": "source:BH11830",
+   "responds": [
+    "source:BH11830"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises a persecuted people: no weapon that is formed against thee shall prosper."
+  },
+  {
+   "id": "matthew-mustard-seed",
+   "after": "source:ABU1995",
+   "responds": [
+    "source:ABU1995"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compared the kingdom to a mustard seed, the least of seeds, which grows into a tree."
+  },
+  {
+   "id": "shakespeare-uses-of-adversity",
+   "after": "source:AB01183",
+   "responds": [
+    "source:AB01183"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's banished duke, living in a forest, says: sweet are the uses of adversity."
+  },
+  {
+   "id": "jeremiah-seek-the-peace-of-the-city",
+   "after": "source:ABU0327",
+   "responds": [
+    "source:ABU0327"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah wrote to exiles in that same Mesopotamia: seek the peace of the city, and pray for it."
+  },
+  {
+   "id": "quran-they-plot-and-allah-plots",
+   "after": "source:AB00029",
+   "responds": [
+    "source:AB00029"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of those who schemed to drive Muhammad out: they plot, but God also plots, and God is the best of plotters."
+  }
+ ],
+ "library": {
+  "isaiah-no-weapon-formed": {
+   "text": "No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn",
+   "work": "Isaiah 54:17",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2054%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

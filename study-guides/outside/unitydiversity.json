@@ -1,0 +1,1018 @@
+{
+ "format": 2,
+ "slug": "unitydiversity",
+ "subject": "A20E909C76AB45A7A3B172F91D3C4D97",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 95,
+ "quotations": 100,
+ "kept": [
+  "source:ABU0491",
+  "source:AB00398",
+  "source:ABU0153",
+  "source:AB00022",
+  "source:AB00016",
+  "source:ABU0456",
+  "source:AB00446",
+  "source:ABU0387",
+  "source:BH00389",
+  "source:ABU0733",
+  "source:ABU0085",
+  "source:ABU1199",
+  "source:ABU2772",
+  "source:ABU0050",
+  "source:AB00143",
+  "source:ABU0540",
+  "source:AB00131",
+  "source:ABU0493",
+  "source:ABU0308",
+  "source:ABU0120",
+  "source:ABU0627",
+  "source:ABU0256",
+  "source:AB11278",
+  "source:AB10765",
+  "source:AB09729",
+  "source:BH11361",
+  "source:ABU0817",
+  "source:AB00242",
+  "source:ABU0281",
+  "source:ABU0098",
+  "source:ABU0146",
+  "source:ABU0149",
+  "source:ABU0041",
+  "source:AB00063",
+  "source:BH00238",
+  "source:BH02703",
+  "source:BH02381",
+  "source:AB01150",
+  "source:AB01166",
+  "source:ABU0019",
+  "source:ABU0016",
+  "source:AB00091",
+  "source:ABU0009",
+  "source:ABU0186",
+  "source:ABU0788",
+  "source:ABU1744",
+  "source:ABU0035",
+  "source:ABU0057",
+  "source:ABU0212",
+  "source:ABU1808",
+  "source:AB12204",
+  "source:ABU2578",
+  "source:AB06826",
+  "source:ABU1601",
+  "source:ABU0020",
+  "source:AB02307",
+  "source:BH04190",
+  "source:ABU1561",
+  "source:ABU0701",
+  "source:ABU3405",
+  "source:AB02542",
+  "source:AB01510",
+  "source:AB02133",
+  "source:AB04732",
+  "source:AB01568",
+  "source:ABU0132",
+  "source:ABU2319",
+  "source:AB01146",
+  "source:ABU0110",
+  "source:AB06664",
+  "source:BH06328",
+  "source:AB08277",
+  "source:AB00690",
+  "source:AB12315",
+  "source:AB12532",
+  "source:ABU0938",
+  "source:ABU1011",
+  "source:ABU0588",
+  "source:ABU0188",
+  "source:AB00408",
+  "source:AB00634",
+  "source:AB01977",
+  "source:ABU0157",
+  "source:AB01189",
+  "source:AB00112",
+  "source:BH00278",
+  "source:AB05930",
+  "source:AB04852",
+  "source:AB00388",
+  "source:AB06469",
+  "source:AB02783",
+  "source:AB03402",
+  "source:AB05397",
+  "source:AB00846",
+  "source:AB02021"
+ ],
+ "introduction": "These readings hold that difference among people is like the difference of notes in music, limbs in a body, flowers in a garden and waves on a sea: a cause of beauty when one spirit joins them. They speak of race, nation, sex and religion, and they report gatherings in Persia and between East and West as proof that such unity has begun. Beside them stand passages that share the figures, from Paul, the Qur’an, the Upanishads, Saadi, Rumi and Cyprian, and others that press the hard questions: Du Bois and Blackmun on race, Burke on the little platoon, Madison and Gandhi on many sects and religions, Aristotle on unity that goes too far.",
+ "questions": [
+  "The readings draw on music, the body, the garden and the sea. What does each figure allow diversity to be, and what does each leave out?",
+  "What do the readings say about race, and how do Du Bois, Douglass and Blackmun test it?",
+  "Is the unity of religions hoped for here one religion, or respect among many? How do Penn, Gandhi and Vivekananda divide on this?",
+  "Several readings point to Persia as evidence. What would you need to know to weigh that evidence?",
+  "Aristotle and Madison think too much unity is a danger. Where do the readings set a limit of their own?"
+ ],
+ "outside": [
+  {
+   "id": "kallen-orchestra",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491"
+   ],
+   "relation": "adjacent",
+   "why": "Kallen uses the same figure of music: in an orchestra every type of instrument has its own timbre and part."
+  },
+  {
+   "id": "aristotle-harmony-unison",
+   "after": "source:ABU0491",
+   "responds": [
+    "source:ABU0491"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle warns against a unity so complete that harmony is reduced to unison, a single note."
+  },
+  {
+   "id": "corinthians-body",
+   "after": "source:AB00398",
+   "responds": [
+    "source:AB00398"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the body as the reading does: the eye cannot say to the hand, I have no need of thee."
+  },
+  {
+   "id": "universal-declaration-1",
+   "after": "source:ABU0153",
+   "responds": [
+    "source:ABU0153"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration opens on the same ground, that all human beings are born free and equal in dignity and rights."
+  },
+  {
+   "id": "orwell-more-equal",
+   "after": "source:ABU0153",
+   "responds": [
+    "source:ABU0153"
+   ],
+   "relation": "contrast",
+   "why": "Orwell's farm ends with the rule that all animals are equal but some are more equal than others. How does talk of differing capacity stay clear of that rule?"
+  },
+  {
+   "id": "heraclitus-war-is-father",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "contrast",
+   "why": "Heraclitus calls war the father and king of all. Is every opposition among peoples the kind that annihilates, or does some conflict bring things forth?"
+  },
+  {
+   "id": "hopkins-pied-beauty",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins gives glory to God for dappled things, for whatever is counter, original, spare and strange."
+  },
+  {
+   "id": "quran-fruits-of-divers-hues",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an points to one water falling from the sky and fruits of divers hues brought forth by it."
+  },
+  {
+   "id": "gibran-stand-together",
+   "after": "source:ABU0456",
+   "responds": [
+    "source:ABU0456"
+   ],
+   "relation": "complement",
+   "why": "Gibran asks that those who love stand together yet not too near, as oak and cypress do not grow in each other's shadow. How near may the flowers of one garden stand?"
+  },
+  {
+   "id": "emerson-each-and-all",
+   "after": "source:AB00446",
+   "responds": [
+    "source:AB00446"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says in a line what the reading says of the kingdoms: all are needed by each one, and nothing is fair or good alone."
+  },
+  {
+   "id": "quran-watered-with-one-water",
+   "after": "source:BH00389",
+   "responds": [
+    "source:BH00389"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an points to neighbouring tracts, vineyards and palms, watered with one water and yet differing in their fruit."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU0733",
+   "responds": [
+    "source:ABU0733"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi puts the one bounty in a figure: the lamps are different, but the Light is the same."
+  },
+  {
+   "id": "chandogya-rivers",
+   "after": "source:ABU0085",
+   "responds": [
+    "source:ABU0085"
+   ],
+   "relation": "adjacent",
+   "why": "An Indian teacher says the rivers run east and west and become the sea itself, as the reading's waves are all of one sea."
+  },
+  {
+   "id": "marcus-cut-branch",
+   "after": "source:ABU1199",
+   "responds": [
+    "source:ABU1199"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says a branch cut from its neighbour is cut from the whole tree, as a man is who separates himself."
+  },
+  {
+   "id": "romans-members-one-of-another",
+   "after": "source:ABU2772",
+   "responds": [
+    "source:ABU2772"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we have many members in one body, not all with the same office, and are members one of another."
+  },
+  {
+   "id": "corinthians-diversities-of-gifts",
+   "after": "source:ABU0050",
+   "responds": [
+    "source:ABU0050"
+   ],
+   "relation": "adjacent",
+   "why": "Paul finds diversities of gifts but the same Spirit working in all."
+  },
+  {
+   "id": "ashoka-other-religions",
+   "after": "source:AB00143",
+   "responds": [
+    "source:AB00143"
+   ],
+   "relation": "adjacent",
+   "why": "The emperor Ashoka held that whoever praises his own religion and condemns others only harms his own, and that one should listen."
+  },
+  {
+   "id": "mill-minus-one",
+   "after": "source:ABU0540",
+   "responds": [
+    "source:ABU0540"
+   ],
+   "relation": "adjacent",
+   "why": "Mill holds that if all mankind minus one were of one opinion, they would have no right to silence that one."
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says of the one that sages call him by many names, Indra, Mitra, Varuna, Agni."
+  },
+  {
+   "id": "vivekananda-own-law",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "complement",
+   "why": "Vivekananda says no one is to convert to another's religion, but each must assimilate the spirit of the others and grow by his own law. If minds differ, must religions end as one?"
+  },
+  {
+   "id": "quran-languages-colours",
+   "after": "source:ABU0308",
+   "responds": [
+    "source:ABU0308"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an counts the difference of languages and colours among the signs of God."
+  },
+  {
+   "id": "acts-feel-after-him",
+   "after": "source:ABU0308",
+   "responds": [
+    "source:ABU0308"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that God has made of one blood all nations of men to dwell on the face of the earth."
+  },
+  {
+   "id": "blackmun-account-of-race",
+   "after": "source:ABU0308",
+   "responds": [
+    "source:ABU0308"
+   ],
+   "relation": "contrast",
+   "why": "Justice Blackmun wrote that to get beyond racism we must first take account of race. Can colour be of no importance while its wrongs are still being undone?"
+  },
+  {
+   "id": "acts-no-respecter-of-persons",
+   "after": "source:ABU0120",
+   "responds": [
+    "source:ABU0120"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse the reading draws on: Peter perceives that God is no respecter of persons."
+  },
+  {
+   "id": "selassie-race-and-peace",
+   "after": "source:ABU0627",
+   "responds": [
+    "source:ABU0627"
+   ],
+   "relation": "adjacent",
+   "why": "Haile Selassie told the nations that until the philosophy holding one race superior is discredited, lasting peace remains an illusion."
+  },
+  {
+   "id": "king-mutuality",
+   "after": "source:ABU0256",
+   "responds": [
+    "source:ABU0256"
+   ],
+   "relation": "adjacent",
+   "why": "King wrote that injustice anywhere is a threat to justice everywhere, for all are caught in one mutuality."
+  },
+  {
+   "id": "du-bois-two-names",
+   "after": "source:ABU0256",
+   "responds": [
+    "source:ABU0256"
+   ],
+   "relation": "contrast",
+   "why": "Du Bois describes the twoness of being an American and a Negro, two souls in one body. What does a happy meeting of white and black leave unsaid about that experience?"
+  },
+  {
+   "id": "galatians-neither",
+   "after": "source:AB11278",
+   "responds": [
+    "source:AB11278"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says there is neither Jew nor Greek, bond nor free, male nor female, for all are one."
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:AB10765",
+   "responds": [
+    "source:AB10765"
+   ],
+   "relation": "contrast",
+   "why": "Douglass holds that there is no progress without struggle. Who makes a downtrodden people glorious, others on its behalf or that people itself?"
+  },
+  {
+   "id": "washington-fingers-and-hand",
+   "after": "source:AB09729",
+   "responds": [
+    "source:AB09729"
+   ],
+   "relation": "contrast",
+   "why": "Booker T. Washington offered to be separate as the fingers in things social and one as the hand in mutual progress. Are points of distinction a ground for consideration or for keeping apart?"
+  },
+  {
+   "id": "ephesians-middle-wall",
+   "after": "source:BH11361",
+   "responds": [
+    "source:BH11361"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says of Christ that he is our peace, who has made both one and broken down the middle wall of partition."
+  },
+  {
+   "id": "samuel-looketh-on-the-heart",
+   "after": "source:ABU0817",
+   "responds": [
+    "source:ABU0817"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel is told that man looks on the outward appearance, but the Lord looks on the heart."
+  },
+  {
+   "id": "garrison-motto",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "adjacent",
+   "why": "Garrison's motto says it without nations: our country is the world, our countrymen are mankind."
+  },
+  {
+   "id": "burke-little-platoon",
+   "after": "source:ABU0281",
+   "responds": [
+    "source:ABU0281"
+   ],
+   "relation": "contrast",
+   "why": "Burke holds that love of the little platoon we belong to is the first link toward love of mankind. Must one forget that a man is French or Italian to see him as a child of God?"
+  },
+  {
+   "id": "genesis-male-and-female-created-he-them",
+   "after": "source:ABU0098",
+   "responds": [
+    "source:ABU0098"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God create humankind male and female together, and bless them both in the same words."
+  },
+  {
+   "id": "tennyson-womans-cause",
+   "after": "source:ABU0098",
+   "responds": [
+    "source:ABU0098"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson holds that the woman's cause is man's: they rise or sink together, dwarfed or godlike, bond or free."
+  },
+  {
+   "id": "penn-one-religion",
+   "after": "source:ABU0149",
+   "responds": [
+    "source:ABU0149"
+   ],
+   "relation": "adjacent",
+   "why": "Penn held that the humble, meek, merciful, just, pious and devout souls are everywhere of one religion."
+  },
+  {
+   "id": "gandhi-not-one-religion",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "contrast",
+   "why": "Gandhi held that the need of the moment is not one religion but mutual respect among them. Is a collective centre the same thing as one religion?"
+  },
+  {
+   "id": "madison-multiplicity-of-sects",
+   "after": "source:AB00063",
+   "responds": [
+    "source:AB00063"
+   ],
+   "relation": "contrast",
+   "why": "Madison finds the security of rights in a multiplicity of interests and of sects. Is one power prevailing over all opinions a cure for division or a danger of its own?"
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:AB00063",
+   "responds": [
+    "source:AB00063"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah names the power the reading asks for: not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "corinthians-same-mind",
+   "after": "source:BH02703",
+   "responds": [
+    "source:BH02703"
+   ],
+   "relation": "adjacent",
+   "why": "Paul beseeches the Corinthians to speak the same thing and be joined in the same mind, with no divisions."
+  },
+  {
+   "id": "ibn-arabi-every-form",
+   "after": "source:BH02381",
+   "responds": [
+    "source:BH02381"
+   ],
+   "relation": "complement",
+   "why": "Ibn Arabi says his heart has become capable of every form, cloister, temple, Kaaba, Torah and Koran. Is that many paths, or one path wide enough for all?"
+  },
+  {
+   "id": "ruth-thy-people",
+   "after": "source:AB01166",
+   "responds": [
+    "source:AB01166"
+   ],
+   "relation": "adjacent",
+   "why": "Ruth the Moabite tells Naomi that she will not leave her: thy people shall be my people."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "adjacent",
+   "why": "This is the prophecy the reading interprets: the wolf shall dwell with the lamb and a little child shall lead them."
+  },
+  {
+   "id": "hobbes-god-and-wolf",
+   "after": "source:ABU0019",
+   "responds": [
+    "source:ABU0019"
+   ],
+   "relation": "contrast",
+   "why": "Hobbes thinks both sayings true, that man is a god to man and a wolf to man. Do wolf and lamb name peoples who can change, or something in each of us?"
+  },
+  {
+   "id": "swift-religion-enough",
+   "after": "source:ABU0016",
+   "responds": [
+    "source:ABU0016"
+   ],
+   "relation": "adjacent",
+   "why": "Swift observed that we have just enough religion to make us hate, but not enough to make us love one another."
+  },
+  {
+   "id": "acts-parthians-and-medes",
+   "after": "source:AB00091",
+   "responds": [
+    "source:AB00091"
+   ],
+   "relation": "adjacent",
+   "why": "In Acts a crowd of Parthians, Medes, Elamites and others marvel that each hears in the tongue of his birth."
+  },
+  {
+   "id": "analects-all-within-the-four-seas",
+   "after": "source:ABU0009",
+   "responds": [
+    "source:ABU0009"
+   ],
+   "relation": "adjacent",
+   "why": "A disciple of Confucius says that to the respectful man all within the four seas are brothers."
+  },
+  {
+   "id": "pascal-religious-conviction",
+   "after": "source:ABU0186",
+   "responds": [
+    "source:ABU0186"
+   ],
+   "relation": "complement",
+   "why": "Pascal remarked that men never do evil so completely and cheerfully as from religious conviction. What decides whether religion binds sects together or sets them on one another?"
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU0788",
+   "responds": [
+    "source:ABU0788"
+   ],
+   "relation": "contrast",
+   "why": "Mill warns that he who knows only his own side of the case knows little of that. Whose account of Persia would one want to hear beside this one?"
+  },
+  {
+   "id": "quran-attuned-hearts",
+   "after": "source:ABU1744",
+   "responds": [
+    "source:ABU1744"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that all the wealth of the earth could not have attuned those hearts, but God attuned them."
+  },
+  {
+   "id": "isaiah-house-of-prayer",
+   "after": "source:ABU0035",
+   "responds": [
+    "source:ABU0035"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees strangers brought to the holy mountain, a house of prayer for all people."
+  },
+  {
+   "id": "john-new-commandment",
+   "after": "source:ABU0057",
+   "responds": [
+    "source:ABU0057"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus makes love for one another the sign by which all shall know his disciples."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:ABU1808",
+   "responds": [
+    "source:ABU1808"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus gives the test the reading invites: a teaching is known by its fruits."
+  },
+  {
+   "id": "heschel-no-island",
+   "after": "source:AB12204",
+   "responds": [
+    "source:AB12204"
+   ],
+   "relation": "adjacent",
+   "why": "Heschel says that no religion is an island, and that we are all involved with one another."
+  },
+  {
+   "id": "ephesians-no-more-strangers",
+   "after": "source:ABU2578",
+   "responds": [
+    "source:ABU2578"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells converts of every origin that they are no more strangers and foreigners, but fellow citizens."
+  },
+  {
+   "id": "revelation-all-nations-and-tongues",
+   "after": "source:ABU2578",
+   "responds": [
+    "source:ABU2578"
+   ],
+   "relation": "adjacent",
+   "why": "John sees a great multitude that no man could number, of all nations, kindreds, peoples and tongues."
+  },
+  {
+   "id": "john-one-fold",
+   "after": "source:AB06826",
+   "responds": [
+    "source:AB06826"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of other sheep not of this fold who shall be brought, until there is one fold and one shepherd."
+  },
+  {
+   "id": "zangwill-melting-pot",
+   "after": "source:AB06826",
+   "responds": [
+    "source:AB06826"
+   ],
+   "relation": "contrast",
+   "why": "Zangwill pictured America as God's crucible where all the races are melting and re-forming. Is entering one tent a melting of differences or a keeping of them?"
+  },
+  {
+   "id": "donne-island",
+   "after": "source:ABU0020",
+   "responds": [
+    "source:ABU0020"
+   ],
+   "relation": "adjacent",
+   "why": "Donne holds that no man is an island, for every man is a piece of the continent, a part of the main."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:AB02307",
+   "responds": [
+    "source:AB02307"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz calls each created thing a perpetual living mirror of the universe, adapted to all the rest."
+  },
+  {
+   "id": "kennedy-small-planet",
+   "after": "source:ABU1561",
+   "responds": [
+    "source:ABU1561"
+   ],
+   "relation": "adjacent",
+   "why": "Kennedy named the most basic common link among nations: we all inhabit this small planet."
+  },
+  {
+   "id": "darwin-sympathies",
+   "after": "source:ABU0701",
+   "responds": [
+    "source:ABU0701"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin expected that as small tribes unite into larger communities, sympathy would extend to the men of all nations."
+  },
+  {
+   "id": "kipling-east-west",
+   "after": "source:ABU3405",
+   "responds": [
+    "source:ABU3405"
+   ],
+   "relation": "contrast",
+   "why": "Kipling's ballad begins that East is East and West is West, and never the twain shall meet. What would each have to admit it lacks before the exchange could begin?"
+  },
+  {
+   "id": "gandhi-open-windows",
+   "after": "source:ABU3405",
+   "responds": [
+    "source:ABU3405"
+   ],
+   "relation": "adjacent",
+   "why": "Gandhi wants the cultures of all lands blown about his house, and refuses to be blown off his feet by any."
+  },
+  {
+   "id": "matthew-from-the-east-and-west",
+   "after": "source:AB02542",
+   "responds": [
+    "source:AB02542"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that many shall come from the east and west and sit down together in the kingdom."
+  },
+  {
+   "id": "corinthians-that-there-may-be-equality",
+   "after": "source:AB02542",
+   "responds": [
+    "source:AB02542"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks one church to supply another's want from its abundance, that there may be equality between them."
+  },
+  {
+   "id": "whitman-earth-to-be-spanned",
+   "after": "source:AB01510",
+   "responds": [
+    "source:AB01510"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman reads the joining of continents by wire and rail as God's purpose from the first, the earth to be spanned."
+  },
+  {
+   "id": "philippians-every-remembrance",
+   "after": "source:AB04732",
+   "responds": [
+    "source:AB04732"
+   ],
+   "relation": "adjacent",
+   "why": "Paul thanks God upon every remembrance of friends far away, as the names here pass before the heart."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB01568",
+   "responds": [
+    "source:AB01568"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus calls his hearers the light of the world, a city set on a hill that cannot be hid."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0132",
+   "responds": [
+    "source:ABU0132"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees nations beating swords into plowshares and learning war no more."
+  },
+  {
+   "id": "thucydides-the-strong-do-what-they-can",
+   "after": "source:ABU0132",
+   "responds": [
+    "source:ABU0132"
+   ],
+   "relation": "contrast",
+   "why": "The Athenians tell the Melians that right is in question only between equals in power. What answer do peoples who say they are at peace have for rulers who think so?"
+  },
+  {
+   "id": "lincoln-house-divided",
+   "after": "source:ABU2319",
+   "responds": [
+    "source:ABU2319"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln took up the saying that a house divided against itself cannot stand."
+  },
+  {
+   "id": "hugo-day-will-come",
+   "after": "source:AB01146",
+   "responds": [
+    "source:AB01146"
+   ],
+   "relation": "adjacent",
+   "why": "Hugo foresaw a day when the nations of Europe would blend into a higher unity without losing their distinct qualities."
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:ABU0110",
+   "responds": [
+    "source:ABU0110"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson looked forward to the war-drum silent and the battle-flags furled in a parliament of man."
+  },
+  {
+   "id": "yeats-centre",
+   "after": "source:ABU0110",
+   "responds": [
+    "source:ABU0110"
+   ],
+   "relation": "contrast",
+   "why": "Yeats saw things fall apart and the centre unable to hold. How does the century that followed bear on the hope spoken in this reading?"
+  },
+  {
+   "id": "john-all-one",
+   "after": "source:AB06664",
+   "responds": [
+    "source:AB06664"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus prays for those who will believe through his disciples' word, that they all may be one."
+  },
+  {
+   "id": "unesco-minds-of-men",
+   "after": "source:BH06328",
+   "responds": [
+    "source:BH06328"
+   ],
+   "relation": "adjacent",
+   "why": "UNESCO's charter holds that since wars begin in the minds of men, the defences of peace must be built there."
+  },
+  {
+   "id": "liji-grand-union",
+   "after": "source:AB08277",
+   "responds": [
+    "source:AB08277"
+   ],
+   "relation": "adjacent",
+   "why": "The Book of Rites remembers an age when a public and common spirit ruled all under the sky."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB12315",
+   "responds": [
+    "source:AB12315"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm exclaims how good and pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "hebrews-not-forsaking-assembling",
+   "after": "source:ABU0938",
+   "responds": [
+    "source:ABU0938"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews urges believers not to forsake assembling together, but to stir one another to love and good works."
+  },
+  {
+   "id": "tocqueville-form-associations",
+   "after": "source:ABU1011",
+   "responds": [
+    "source:ABU1011"
+   ],
+   "relation": "adjacent",
+   "why": "Tocqueville observed that Americans of all conditions constantly form associations to act together."
+  },
+  {
+   "id": "isaiah-feast-of-fat-things",
+   "after": "source:ABU0588",
+   "responds": [
+    "source:ABU0588"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees a feast made on the mountain for all people, a gathering with no nation left out."
+  },
+  {
+   "id": "great-learning-widening",
+   "after": "source:ABU0188",
+   "responds": [
+    "source:ABU0188"
+   ],
+   "relation": "adjacent",
+   "why": "The Great Learning moves outward in the same order: the person cultivated, the family regulated, the state governed."
+  },
+  {
+   "id": "dostoevsky-humanity",
+   "after": "source:ABU0188",
+   "responds": [
+    "source:ABU0188"
+   ],
+   "relation": "complement",
+   "why": "A character of Dostoevsky admits that the more he loves humanity in general, the less he loves man in particular. Is unity harder in one family than among distant peoples?"
+  },
+  {
+   "id": "mishnah-one-father",
+   "after": "source:AB00634",
+   "responds": [
+    "source:AB00634"
+   ],
+   "relation": "adjacent",
+   "why": "The Mishnah teaches that a single person was created first for the sake of peace, so none may claim a greater ancestor."
+  },
+  {
+   "id": "saadi-limbs",
+   "after": "source:AB01977",
+   "responds": [
+    "source:AB01977"
+   ],
+   "relation": "adjacent",
+   "why": "Saadi calls the children of Adam limbs of one another, created of one essence."
+  },
+  {
+   "id": "maha-upanishad-one-family",
+   "after": "source:AB01977",
+   "responds": [
+    "source:AB01977"
+   ],
+   "relation": "adjacent",
+   "why": "An Upanishad calls it narrow to reckon mine and theirs; to the generous the whole world is one family."
+  },
+  {
+   "id": "shelley-nothing-is-single",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley sees fountains mingle with the river and rivers with the ocean, and nothing in the world single."
+  },
+  {
+   "id": "aristotle-plurality",
+   "after": "source:AB00112",
+   "responds": [
+    "source:AB00112"
+   ],
+   "relation": "contrast",
+   "why": "Aristotle warns that a state may attain such unity as to be no longer a state, since it is by nature a plurality. Where does marching in unison stop serving diversity?"
+  },
+  {
+   "id": "isaiah-bring-thy-seed-from-the-east",
+   "after": "source:AB04852",
+   "responds": [
+    "source:AB04852"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God promise to bring his people's seed from the east and gather them from the west."
+  },
+  {
+   "id": "acts-uttermost-part",
+   "after": "source:AB00388",
+   "responds": [
+    "source:AB00388"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promises his followers power from the Holy Ghost to be witnesses unto the uttermost part of the earth."
+  },
+  {
+   "id": "cyprian-rays",
+   "after": "source:AB06469",
+   "responds": [
+    "source:AB06469"
+   ],
+   "relation": "adjacent",
+   "why": "Cyprian uses the same three figures: many rays and one light, many branches and one root, many streams and one spring."
+  },
+  {
+   "id": "kabir-one-light",
+   "after": "source:AB06469",
+   "responds": [
+    "source:AB06469"
+   ],
+   "relation": "adjacent",
+   "why": "Kabir sings that God first created the Light, and from that one Light the whole universe came."
+  },
+  {
+   "id": "genesis-ishmael-great-nation",
+   "after": "source:AB02783",
+   "responds": [
+    "source:AB02783"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis records the blessing on Ishmael beside the promise to Isaac: he too shall be a great nation."
+  },
+  {
+   "id": "great-law-tree",
+   "after": "source:AB05397",
+   "responds": [
+    "source:AB05397"
+   ],
+   "relation": "adjacent",
+   "why": "The Great Law of the Haudenosaunee plants a Tree of Peace whose roots spread to the four quarters for any nation to follow."
+  },
+  {
+   "id": "rigveda-one-accord",
+   "after": "source:AB00846",
+   "responds": [
+    "source:AB00846"
+   ],
+   "relation": "adjacent",
+   "why": "A hymn of the Rig Veda bids the assembly speak together and let their minds be of one accord."
+  },
+  {
+   "id": "zhuangzi-duck-and-crane",
+   "after": "source:AB00846",
+   "responds": [
+    "source:AB00846"
+   ],
+   "relation": "contrast",
+   "why": "Zhuangzi warns that a duck's legs are short by nature and should not be lengthened. What may rightly be removed from between people, and what may not?"
+  },
+  {
+   "id": "quran-one-community",
+   "after": "source:AB02021",
+   "responds": [
+    "source:AB02021"
+   ],
+   "relation": "contrast",
+   "why": "The Qur’an says that had God willed he could have made mankind one community, but he tries them in what he gave. Does God will the many gathered into one, or kept many for a purpose?"
+  },
+  {
+   "id": "quran-know-one-another",
+   "after": "source:AB02021",
+   "responds": [
+    "source:AB02021"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says mankind was made nations and tribes in order that they may know one another."
+  }
+ ],
+ "library": {}
+}

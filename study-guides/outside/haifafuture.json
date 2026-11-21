@@ -1,0 +1,446 @@
+{
+ "format": 2,
+ "slug": "haifafuture",
+ "subject": "5AC79BF370C1E403616347F043187025",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 27,
+ "quotations": 28,
+ "kept": [
+  "source:ABU1699",
+  "source:ABU1954",
+  "source:ABU1689",
+  "source:ABU0463",
+  "source:ABU1109",
+  "source:ABU1912",
+  "source:ABU2473",
+  "source:ABU1526",
+  "source:ABU3654",
+  "source:ABU2167",
+  "source:ABU2258",
+  "source:ABU2847",
+  "source:ABU1489",
+  "source:ABU3684",
+  "source:ABU2213",
+  "source:ABU1012",
+  "source:ABU1125",
+  "source:AB00091",
+  "source:AB03845",
+  "source:ABU3142",
+  "source:ABU1216",
+  "source:ABU0624",
+  "source:AB05127",
+  "source:ABU1913",
+  "source:ABU0288",
+  "source:BH01341",
+  "source:AB01418"
+ ],
+ "introduction": "Most of these readings are remembered words of ‘Abdu’l-Bahá, spoken on Mount Carmel: he sees the mountain lit, the bay a great harbour, schools, hospitals and gardens from Haifa to ‘Akká, and kings coming on foot to a shrine. Others speak of the return of the Jewish people to the Holy Land as a promise fulfilled in this day. The prophets' visions of Zion, Carmel and Sharon stand beside them. Because the land is holy to several peoples and its recent history is contested, three quotations ask whose a holy land is and what a holy mountain is for: Isaiah's blessing on Egypt, Assyria and Israel together, Leviticus on the land that belongs to God, and Jesus on worship in spirit and in truth.",
+ "questions": [
+  "Which of these visions of Haifa and Carmel have come about, and which have not? What do you make of the difference?",
+  "What are the institutions ‘Abdu’l-Bahá sees on the mountain, and what do they say about what a holy place is for?",
+  "The readings speak of the gathering of Israel in the Holy Land. How does Isaiah's blessing on Egypt, Assyria and Israel together bear on that promise today?",
+  "Jesus says the Father is worshipped neither on this mountain nor at Jerusalem. How do the readings hold place and spirit together?"
+ ],
+ "outside": [
+  {
+   "id": "isaiah-excellency-of-carmel-and-sharon",
+   "after": "source:ABU1699",
+   "responds": [
+    "source:ABU1699"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says the desert shall blossom as the rose, and the excellency of Carmel and Sharon shall be given to it."
+  },
+  {
+   "id": "isaiah-out-of-zion",
+   "after": "source:ABU1699",
+   "responds": [
+    "source:ABU1699"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah foresees the mountain of the Lord's house established, and all nations flowing unto it."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:ABU1954",
+   "responds": [
+    "source:ABU1954"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm exclaims how good and pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:ABU1689",
+   "responds": [
+    "source:ABU1689"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a city set on an hill cannot be hid."
+  },
+  {
+   "id": "isaiah-kings-to-the-brightness-of-thy-rising",
+   "after": "source:ABU0463",
+   "responds": [
+    "source:ABU0463"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the Gentiles shall come to thy light, and kings to the brightness of thy rising."
+  },
+  {
+   "id": "psalm-beautiful-for-situation",
+   "after": "source:ABU1109",
+   "responds": [
+    "source:ABU1109"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm calls mount Zion beautiful for situation, the joy of the whole earth."
+  },
+  {
+   "id": "ezekiel-like-the-garden-of-eden",
+   "after": "source:ABU1912",
+   "responds": [
+    "source:ABU1912"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel foresees desolate land tilled until people say it has become like the garden of Eden."
+  },
+  {
+   "id": "isaiah-wilderness-like-eden",
+   "after": "source:ABU2473",
+   "responds": [
+    "source:ABU2473"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says the Lord will make the wilderness of Zion like Eden, and her desert like a garden."
+  },
+  {
+   "id": "nehemiah-let-us-rise-up-and-build",
+   "after": "source:ABU2167",
+   "responds": [
+    "source:ABU2167"
+   ],
+   "relation": "adjacent",
+   "why": "Nehemiah shows his companions a city lying waste and they answer: let us rise up and build."
+  },
+  {
+   "id": "genesis-planted-a-garden-eastward",
+   "after": "source:ABU2258",
+   "responds": [
+    "source:ABU2258"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis tells of the first garden, planted with every tree pleasant to the sight."
+  },
+  {
+   "id": "isaiah-instead-of-the-thorn",
+   "after": "source:ABU2847",
+   "responds": [
+    "source:ABU2847"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises the fir tree instead of the thorn and the myrtle instead of the brier."
+  },
+  {
+   "id": "isaiah-house-of-prayer",
+   "after": "source:ABU2847",
+   "responds": [
+    "source:ABU2847"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God bring strangers to his holy mountain, a house of prayer for all people."
+  },
+  {
+   "id": "revelation-kings-of-the-earth-bring-their-glory",
+   "after": "source:ABU1489",
+   "responds": [
+    "source:ABU1489"
+   ],
+   "relation": "adjacent",
+   "why": "John sees the nations walk in the light of the holy city, and the kings of the earth bring their glory into it."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:ABU1489",
+   "responds": [
+    "source:ABU1489"
+   ],
+   "relation": "complement",
+   "why": "Shelley's king of kings left only a boast in the sand. What would bring monarchs on foot to a shrine, where conquest brings none?"
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:ABU3684",
+   "responds": [
+    "source:ABU3684"
+   ],
+   "relation": "contrast",
+   "why": "Jesus says the hour comes when the Father is worshipped neither on this mountain nor at Jerusalem, but in spirit and in truth. How does a holy mountain serve such worship?"
+  },
+  {
+   "id": "kings-elijah-on-mount-carmel",
+   "after": "source:ABU2213",
+   "responds": [
+    "source:ABU2213"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah has all Israel gathered to him unto mount Carmel, where the people must choose."
+  },
+  {
+   "id": "quran-fig-and-olive",
+   "after": "source:ABU1012",
+   "responds": [
+    "source:ABU1012"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an swears by the fig and the olive, by Mount Sinai, and by this land made safe."
+  },
+  {
+   "id": "jeremiah-he-that-scattered-israel",
+   "after": "source:ABU1125",
+   "responds": [
+    "source:ABU1125"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says: he that scattered Israel will gather him, and keep him as a shepherd doth his flock."
+  },
+  {
+   "id": "amos-plant-them-upon-their-land",
+   "after": "source:ABU1125",
+   "responds": [
+    "source:ABU1125"
+   ],
+   "relation": "adjacent",
+   "why": "Amos has God promise to plant his people upon their land, to build the waste cities and plant vineyards."
+  },
+  {
+   "id": "isaiah-blessed-be-egypt",
+   "after": "source:AB00091",
+   "responds": [
+    "source:AB00091"
+   ],
+   "relation": "complement",
+   "why": "Isaiah foresees a day when Egypt is called my people, Assyria the work of my hands, and Israel mine inheritance. What does a gathering in the Holy Land owe to its other peoples?"
+  },
+  {
+   "id": "leviticus-land-is-mine",
+   "after": "source:AB03845",
+   "responds": [
+    "source:AB03845"
+   ],
+   "relation": "complement",
+   "why": "Leviticus says the land shall not be sold for ever, for the land is mine and ye are strangers and sojourners with me. Whose is a holy land?"
+  },
+  {
+   "id": "zechariah-riding-upon-an-ass",
+   "after": "source:ABU3142",
+   "responds": [
+    "source:ABU3142"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah cries: rejoice greatly, O daughter of Zion; behold, thy King cometh unto thee."
+  },
+  {
+   "id": "psalm-pray-for-the-peace-of-jerusalem",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm asks pilgrims to pray for the peace of Jerusalem: peace be within thy walls."
+  },
+  {
+   "id": "genesis-ishmael-great-nation",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis records God's blessing on Ishmael too: I will make him a great nation."
+  },
+  {
+   "id": "lamentations-how-doth-the-city",
+   "after": "source:AB05127",
+   "responds": [
+    "source:AB05127"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations mourns a city that sits solitary, that was full of people."
+  },
+  {
+   "id": "zechariah-boys-and-girls-playing-in-the-streets",
+   "after": "source:ABU1913",
+   "responds": [
+    "source:ABU1913"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah foresees old men and women in the streets of Jerusalem, and boys and girls playing there."
+  },
+  {
+   "id": "micah-vine-and-fig-tree",
+   "after": "source:ABU0288",
+   "responds": [
+    "source:ABU0288"
+   ],
+   "relation": "adjacent",
+   "why": "Micah foresees every man under his vine and under his fig tree, and none to make them afraid."
+  },
+  {
+   "id": "isaiah-sorrow-and-sighing-shall-flee",
+   "after": "source:BH01341",
+   "responds": [
+    "source:BH01341"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says the ransomed shall come to Zion with songs, and sorrow and sighing shall flee away."
+  }
+ ],
+ "library": {
+  "zechariah-boys-and-girls-playing-in-the-streets": {
+   "text": "Thus saith the Lord of hosts; There shall yet old men and old women dwell in the streets of Jerusalem, and every man with his staff in his hand for very age. And the streets of the city shall be full of boys and girls playing in the streets thereof",
+   "work": "Zechariah 8:4–5",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Zechariah%208%3A4-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-kings-to-the-brightness-of-thy-rising": {
+   "text": "And the Gentiles shall come to thy light, and kings to the brightness of thy rising",
+   "work": "Isaiah 60:3",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2060%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-beautiful-for-situation": {
+   "text": "Great is the Lord, and greatly to be praised in the city of our God, in the mountain of his holiness. Beautiful for situation, the joy of the whole earth, is mount Zion, on the sides of the north, the city of the great King",
+   "work": "Psalm 48:1–2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2048%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-kings-of-the-earth-bring-their-glory": {
+   "text": "And the nations of them which are saved shall walk in the light of it: and the kings of the earth do bring their glory and honour into it",
+   "work": "Revelation 21:24",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2021%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-excellency-of-carmel-and-sharon": {
+   "text": "The wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose. It shall blossom abundantly, and rejoice even with joy and singing: the glory of Lebanon shall be given unto it, the excellency of Carmel and Sharon, they shall see the glory of the Lord, and the excellency of our God",
+   "work": "Isaiah 35:1–2",
+   "year": "8th century BCE",
+   "sortYear": -720,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2035%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-elijah-on-mount-carmel": {
+   "text": "Now therefore send, and gather to me all Israel unto mount Carmel",
+   "work": "1 Kings 18:19–20",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%2018%3A19-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

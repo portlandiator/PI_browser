@@ -1,0 +1,1328 @@
+{
+ "format": 2,
+ "slug": "gratitude",
+ "subject": "BD4052A3136042C4B86176AB2F552C55",
+ "status": "published",
+ "limit": 100,
+ "rule": "proportional",
+ "readings": 99,
+ "quotations": 100,
+ "kept": [
+  "source:BH00485",
+  "source:AB03207",
+  "source:AB09883",
+  "source:BH01375",
+  "source:AB09151",
+  "source:BB00003",
+  "source:BH00716",
+  "source:BH04631",
+  "source:BH06480",
+  "source:AB01036",
+  "source:AB06021",
+  "source:ABU1346",
+  "source:BH10302",
+  "source:ABU0818",
+  "source:ABU0579",
+  "source:AB01895",
+  "source:ABU1797",
+  "source:BH03964",
+  "source:BH02183",
+  "source:AB03674",
+  "source:AB04591",
+  "source:AB04631",
+  "source:ABU3413",
+  "source:BH00758",
+  "source:BH11837",
+  "source:BH01986",
+  "source:ABU0270",
+  "source:ABU2204",
+  "source:ABU1518",
+  "source:AB09222",
+  "source:AB12162",
+  "source:AB03092",
+  "source:ABU3291",
+  "source:AB06052",
+  "source:ABU0611",
+  "source:ABU1038",
+  "source:AB04260",
+  "source:AB05116",
+  "source:AB05682",
+  "source:AB10292",
+  "source:AB02868",
+  "source:AB02114",
+  "source:AB10544",
+  "source:AB00388",
+  "source:AB00214",
+  "source:BH07795",
+  "source:AB01890",
+  "source:AB02557",
+  "source:AB04180",
+  "source:AB04840",
+  "source:AB06836",
+  "source:BH02750",
+  "source:AB03476",
+  "source:AB01861",
+  "source:AB02702",
+  "source:AB00691",
+  "source:BH07042",
+  "source:BH02436",
+  "source:AB00002",
+  "source:BH00007",
+  "source:BH05571",
+  "source:AB04744",
+  "source:BH07211",
+  "source:BH09029",
+  "source:AB00822",
+  "source:AB04124",
+  "source:AB04809",
+  "source:ABU2683",
+  "source:AB04666",
+  "source:ABU2235",
+  "source:AB07153",
+  "source:AB12036",
+  "source:BH01032",
+  "source:AB04885",
+  "source:BH00859",
+  "source:BH00474",
+  "source:BH06993",
+  "source:AB02429",
+  "source:BH10113",
+  "source:AB04110",
+  "source:BH01197",
+  "source:BH02371",
+  "source:BH07906",
+  "source:BH08224",
+  "source:BH03359",
+  "source:BH05543",
+  "source:BH05837",
+  "source:BH00695",
+  "source:BH07270",
+  "source:BB00117",
+  "source:BB00680",
+  "source:AB11281",
+  "source:AB07484",
+  "source:BH03361",
+  "source:BH08946",
+  "source:BH05744",
+  "source:BH10186",
+  "source:BH10742",
+  "selection:90771d8a5649e1a8bda2ec25"
+ ],
+ "introduction": "These readings ask for thankfulness and say what it is. They begin with gifts that cannot be counted and thanks that can never be equal to them; go on to say that spoken thanks is not enough and that gratitude shows in deeds, work and generosity; turn to gratitude between people, to parents, teachers and friends, and at table; ask for thanks in hardship and bereavement, where, they say, it is most real; and end with prayers of thanksgiving. A hundred of the guide's three hundred quotations are read here, drawn from its eight sections in proportion, beside a hundred from elsewhere. Most stand alongside: the Psalms' 'what shall I render', Saadi's two thanks for every breath, Paul's 'in every thing give thanks', the one leper in ten who turned back, the Qur'an's 'give thanks unto me and unto thy parents', Job's 'the Lord gave', Habakkuk, Daniel at his open window. Eight push back or add a side: the Pharisee's 'I thank thee that I am not as other men', Emerson's 'we do not quite forgive a giver', a psalm's 'how long?', Ivan Karamazov returning his ticket beside a letter asking thanks for sons who died, Jesus on a God who is kind to the unthankful, and Charles Lamb asking why grace is said only at dinner.",
+ "questions": [
+  "The readings say no thanks can equal the gifts. What, then, is the point of giving thanks?",
+  "'Verbal thanksgiving is fruitless.' What do the readings count as real thanks, and what does Hebrews add about 'the fruit of our lips'?",
+  "Emerson says we do not quite forgive a giver. Whom do you find it hard to thank, and why?",
+  "Thanks in affliction is called the truest. Set that beside the psalm's 'how long?' and Ivan Karamazov's refusal. Is there a grief for which thanks should not be asked?",
+  "The Pharisee thanked God that he was not like others. How do you thank God for your own faith or fortune without that?",
+  "Lamb wanted a grace for walks and friends and books. What in an ordinary day would you say grace over?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BH00485",
+   "responds": [
+    "source:BH00485"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the heavens declare the glory of God, and day unto day uttereth speech."
+  },
+  {
+   "id": "saadi-every-breath",
+   "after": "source:AB03207",
+   "responds": [
+    "source:AB03207"
+   ],
+   "relation": "adjacent",
+   "why": "Saadi finds two gifts in every breath, and asks whose hand and tongue can fulfil the thanks owed for them."
+  },
+  {
+   "id": "psalm-manifold-are-thy-works",
+   "after": "source:AB09883",
+   "responds": [
+    "source:AB09883"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm exclaims: O Lord, how manifold are thy works; the earth is full of thy riches."
+  },
+  {
+   "id": "psalm-who-can-utter-the-mighty-acts",
+   "after": "source:BH01375",
+   "responds": [
+    "source:BH01375"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm asks: who can utter the mighty acts of the Lord? who can shew forth all his praise?"
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:AB09151",
+   "responds": [
+    "source:AB09151"
+   ],
+   "relation": "adjacent",
+   "why": "James says that every good gift and every perfect gift is from above, from the Father of lights."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine says to God: you have made us for yourself, and our hearts are restless until they rest in you."
+  },
+  {
+   "id": "psalm-what-shall-i-render",
+   "after": "source:BH00716",
+   "responds": [
+    "source:BH00716"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist asks the same: what shall I render unto the Lord for all his benefits toward me?"
+  },
+  {
+   "id": "luke-pharisee-and-publican",
+   "after": "source:BH04631",
+   "responds": [
+    "source:BH04631"
+   ],
+   "relation": "contrast",
+   "why": "The Pharisee in the parable prayed: God, I thank thee that I am not as other men are. How is thanks for one's own attainment kept from becoming that?"
+  },
+  {
+   "id": "thessalonians-pray-without-ceasing",
+   "after": "source:BH06480",
+   "responds": [
+    "source:BH06480"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's rule was the same: rejoice evermore, pray without ceasing, and in every thing give thanks."
+  },
+  {
+   "id": "corinthians-unspeakable-gift",
+   "after": "source:AB01036",
+   "responds": [
+    "source:AB01036"
+   ],
+   "relation": "adjacent",
+   "why": "Paul breaks off an argument to say: thanks be unto God for his unspeakable gift."
+  },
+  {
+   "id": "psalm-oh-that-men-would-praise",
+   "after": "source:AB06021",
+   "responds": [
+    "source:AB06021"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm sighs: oh that men would praise the Lord for his goodness, for he satisfieth the longing soul."
+  },
+  {
+   "id": "deuteronomy-eaten-and-art-full",
+   "after": "source:ABU1346",
+   "responds": [
+    "source:ABU1346"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy warns: when thou hast eaten and art full, bless the Lord; beware that thou forget not."
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:BH10302",
+   "responds": [
+    "source:BH10302"
+   ],
+   "relation": "adjacent",
+   "why": "Lamentations says that the Lord's compassions fail not; they are new every morning."
+  },
+  {
+   "id": "matthew-your-father-knoweth",
+   "after": "source:ABU0818",
+   "responds": [
+    "source:ABU0818"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that your Father knoweth what things ye have need of, before ye ask him."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU0579",
+   "responds": [
+    "source:ABU0579"
+   ],
+   "relation": "adjacent",
+   "why": "John's first letter says: let us not love in word, neither in tongue, but in deed and in truth."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:AB01895",
+   "responds": [
+    "source:AB01895"
+   ],
+   "relation": "adjacent",
+   "why": "Micah asks what the Lord requires: to do justly, to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "isaiah-chosen-fast",
+   "after": "source:AB01895",
+   "responds": [
+    "source:AB01895"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says the fast God has chosen is to loose the bands of wickedness and deal thy bread to the hungry."
+  },
+  {
+   "id": "hebrews-sacrifice-of-praise",
+   "after": "source:ABU1797",
+   "responds": [
+    "source:ABU1797"
+   ],
+   "relation": "complement",
+   "why": "Hebrews calls thanksgiving 'the fruit of our lips', and adds in the same breath: to do good and to share forget not. Is spoken thanks fruitless, or only unfinished?"
+  },
+  {
+   "id": "ephesians-giving-thanks-always",
+   "after": "source:BH03964",
+   "responds": [
+    "source:BH03964"
+   ],
+   "relation": "adjacent",
+   "why": "Ephesians asks for the same constancy: giving thanks always, for all things, unto God and the Father."
+  },
+  {
+   "id": "psalm-bless-the-lord-o-my-soul",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm tells the soul to bless the Lord and forget not all his benefits, and then counts them."
+  },
+  {
+   "id": "galatians-him-that-teacheth",
+   "after": "source:AB03674",
+   "responds": [
+    "source:AB03674"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whoever is taught should share all good things with the one who teaches."
+  },
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:AB04591",
+   "responds": [
+    "source:AB04591"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that each should give as he purposes in his heart, not grudgingly, for God loveth a cheerful giver."
+  },
+  {
+   "id": "acts-more-blessed-to-give",
+   "after": "source:AB04631",
+   "responds": [
+    "source:AB04631"
+   ],
+   "relation": "adjacent",
+   "why": "Paul recalls a saying of Jesus: it is more blessed to give than to receive."
+  },
+  {
+   "id": "colossians-be-ye-thankful",
+   "after": "source:ABU3413",
+   "responds": [
+    "source:ABU3413"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Colossians to be thankful, and whatever they do in word or deed, to do it giving thanks."
+  },
+  {
+   "id": "psalm-bless-the-lord-at-all-times",
+   "after": "source:BH00758",
+   "responds": [
+    "source:BH00758"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist resolves: I will bless the Lord at all times; his praise shall continually be in my mouth."
+  },
+  {
+   "id": "romans-living-sacrifice",
+   "after": "source:BH11837",
+   "responds": [
+    "source:BH11837"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks believers to present their bodies a living sacrifice, which is their reasonable service."
+  },
+  {
+   "id": "john-epistle-loveth-not-his-brother",
+   "after": "source:ABU0270",
+   "responds": [
+    "source:ABU0270"
+   ],
+   "relation": "adjacent",
+   "why": "John's first letter asks how one who does not love the brother he has seen can love God whom he has not seen."
+  },
+  {
+   "id": "luke-if-ye-love-them-which-love-you",
+   "after": "source:ABU2204",
+   "responds": [
+    "source:ABU2204"
+   ],
+   "relation": "complement",
+   "why": "Jesus asked: if ye love them which love you, what thank have ye? What makes a kindness something to be thanked for?"
+  },
+  {
+   "id": "mark-widows-mites",
+   "after": "source:ABU1518",
+   "responds": [
+    "source:ABU1518"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus watched a poor widow give two small coins, and said she had given more than all the rest."
+  },
+  {
+   "id": "psalm-o-come-let-us-sing",
+   "after": "source:AB12162",
+   "responds": [
+    "source:AB12162"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm calls: let us come before his presence with thanksgiving, and make a joyful noise."
+  },
+  {
+   "id": "romans-priscilla-and-aquila",
+   "after": "source:AB03092",
+   "responds": [
+    "source:AB03092"
+   ],
+   "relation": "adjacent",
+   "why": "Paul names two helpers to whom not only he gives thanks, but all the churches."
+  },
+  {
+   "id": "emerson-do-not-quite-forgive-a-giver",
+   "after": "source:AB03092",
+   "responds": [
+    "source:AB03092"
+   ],
+   "relation": "contrast",
+   "why": "Emerson confessed: we do not quite forgive a giver; the hand that feeds us is in some danger of being bitten. Why is it hard to be grateful to a person?"
+  },
+  {
+   "id": "acts-gave-thanks-in-presence-of-them-all",
+   "after": "source:ABU3291",
+   "responds": [
+    "source:ABU3291"
+   ],
+   "relation": "adjacent",
+   "why": "Paul, on a ship in a storm, took bread and gave thanks to God in the presence of them all."
+  },
+  {
+   "id": "lamb-grace",
+   "after": "source:ABU3291",
+   "responds": [
+    "source:ABU3291"
+   ],
+   "relation": "complement",
+   "why": "Charles Lamb wished for a grace before a pleasant walk, a moonlight ramble, a friendly meeting, as well as before dinner. Why is thanks said at table and so seldom elsewhere?"
+  },
+  {
+   "id": "psalm-mercy-endureth-for-ever",
+   "after": "source:AB06052",
+   "responds": [
+    "source:AB06052"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm repeats: O give thanks unto the Lord, for he is good; for his mercy endureth for ever."
+  },
+  {
+   "id": "timothy-every-creature-of-god-is-good",
+   "after": "source:ABU0611",
+   "responds": [
+    "source:ABU0611"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that every creature of God is good, if it be received with thanksgiving."
+  },
+  {
+   "id": "revelation-open-door",
+   "after": "source:ABU1038",
+   "responds": [
+    "source:ABU1038"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse says to a small church: I have set before thee an open door, and no man can shut it."
+  },
+  {
+   "id": "quran-thanks-unto-me-and-thy-parents",
+   "after": "source:AB04260",
+   "responds": [
+    "source:AB04260"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an joins the two debts: give thanks unto me and unto thy parents."
+  },
+  {
+   "id": "philippians-thank-my-god-upon-every-remembrance",
+   "after": "source:AB05116",
+   "responds": [
+    "source:AB05116"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells those he taught and was helped by: I thank my God upon every remembrance of you."
+  },
+  {
+   "id": "luke-loved-much",
+   "after": "source:AB05682",
+   "responds": [
+    "source:AB05682"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of a grateful woman that she loved much, and that to whom little is forgiven, the same loveth little."
+  },
+  {
+   "id": "shakespeare-serpents-tooth",
+   "after": "source:AB10292",
+   "responds": [
+    "source:AB10292"
+   ],
+   "relation": "adjacent",
+   "why": "Lear cries: how sharper than a serpent's tooth it is to have a thankless child."
+  },
+  {
+   "id": "psalm-thy-name-is-near",
+   "after": "source:AB02868",
+   "responds": [
+    "source:AB02868"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: unto thee, O God, do we give thanks, for thy name is near."
+  },
+  {
+   "id": "quran-hearts-find-rest",
+   "after": "source:AB02114",
+   "responds": [
+    "source:AB02114"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that in the remembrance of God hearts find rest."
+  },
+  {
+   "id": "luke-where-are-the-nine",
+   "after": "source:AB10544",
+   "responds": [
+    "source:AB10544"
+   ],
+   "relation": "adjacent",
+   "why": "Of ten healed, one turned back to give thanks, and Jesus asked: where are the nine?"
+  },
+  {
+   "id": "psalm-not-unto-us",
+   "after": "source:AB00388",
+   "responds": [
+    "source:AB00388"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm gives the credit away: not unto us, O Lord, not unto us, but unto thy name give glory."
+  },
+  {
+   "id": "quran-praise-who-hath-guided-us",
+   "after": "source:AB00214",
+   "responds": [
+    "source:AB00214"
+   ],
+   "relation": "adjacent",
+   "why": "The blessed say in the Qur'an: praise be to God, who hath guided us to this."
+  },
+  {
+   "id": "timothy-thy-grandmother-lois",
+   "after": "source:BH07795",
+   "responds": [
+    "source:BH07795"
+   ],
+   "relation": "adjacent",
+   "why": "Paul thanks God for a faith that dwelt first in Timothy's grandmother and mother."
+  },
+  {
+   "id": "galatians-by-love-serve",
+   "after": "source:AB01890",
+   "responds": [
+    "source:AB01890"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Galatians how freedom is to be used: by love serve one another."
+  },
+  {
+   "id": "psalm-seven-times-a-day",
+   "after": "source:AB02557",
+   "responds": [
+    "source:AB02557"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist says: seven times a day do I praise thee, because of thy righteous judgments."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB04180",
+   "responds": [
+    "source:AB04180"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm exclaims how good and how pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "mark-go-home-to-thy-friends",
+   "after": "source:AB04840",
+   "responds": [
+    "source:AB04840"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told a healed man: go home to thy friends, and tell them how great things the Lord hath done for thee."
+  },
+  {
+   "id": "psalm-lovingkindness-better-than-life",
+   "after": "source:AB06836",
+   "responds": [
+    "source:AB06836"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: because thy lovingkindness is better than life, my lips shall praise thee."
+  },
+  {
+   "id": "psalm-under-his-wings",
+   "after": "source:BH02750",
+   "responds": [
+    "source:BH02750"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm promises that whoever dwells in the secret place of the Most High shall abide under his shadow."
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:AB03476",
+   "responds": [
+    "source:AB03476"
+   ],
+   "relation": "adjacent",
+   "why": "Job, having lost everything, said: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  },
+  {
+   "id": "habakkuk-yet-i-will-rejoice",
+   "after": "source:AB01861",
+   "responds": [
+    "source:AB01861"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk says that though the fields yield no food and the stalls are empty, yet he will rejoice in the Lord."
+  },
+  {
+   "id": "james-patience-of-job",
+   "after": "source:AB02702",
+   "responds": [
+    "source:AB02702"
+   ],
+   "relation": "adjacent",
+   "why": "James says: we count them happy which endure; ye have heard of the patience of Job."
+  },
+  {
+   "id": "quran-if-ye-give-thanks",
+   "after": "source:AB00691",
+   "responds": [
+    "source:AB00691"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse cited, from the Qur'an: if ye give thanks, I will give you more."
+  },
+  {
+   "id": "psalm-how-long",
+   "after": "source:BH02436",
+   "responds": [
+    "source:BH02436"
+   ],
+   "relation": "contrast",
+   "why": "A psalmist asks: how long wilt thou forget me, O Lord? for ever? Is there room in a thankful life for that question?"
+  },
+  {
+   "id": "acts-sang-praises-at-midnight",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "adjacent",
+   "why": "In Acts, Paul and Silas, in prison, pray and sing praises to God at midnight."
+  },
+  {
+   "id": "matthew-revile-you",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: blessed are ye when men shall revile you and persecute you; rejoice, and be exceeding glad."
+  },
+  {
+   "id": "philippians-learned-to-be-content",
+   "after": "source:BH05571",
+   "responds": [
+    "source:BH05571"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he has learned, in whatever state he is, therewith to be content."
+  },
+  {
+   "id": "james-count-it-all-joy",
+   "after": "source:AB04744",
+   "responds": [
+    "source:AB04744"
+   ],
+   "relation": "adjacent",
+   "why": "James tells his readers to count it all joy when they fall into trials, since the trying of faith works patience."
+  },
+  {
+   "id": "daniel-windows-open",
+   "after": "source:BH07211",
+   "responds": [
+    "source:BH07211"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel, when the decree against prayer was signed, knelt and gave thanks before his God as he did aforetime."
+  },
+  {
+   "id": "psalm-joy-in-the-morning",
+   "after": "source:BH09029",
+   "responds": [
+    "source:BH09029"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that weeping may endure for a night, but joy cometh in the morning."
+  },
+  {
+   "id": "corinthians-light-affliction",
+   "after": "source:AB04124",
+   "responds": [
+    "source:AB04124"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls his troubles a light affliction, which is but for a moment."
+  },
+  {
+   "id": "romans-tribulation-worketh-patience",
+   "after": "source:AB04124",
+   "responds": [
+    "source:AB04124"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: we glory in tribulations also, knowing that tribulation worketh patience."
+  },
+  {
+   "id": "lincoln-bixby-letter",
+   "after": "source:AB04809",
+   "responds": [
+    "source:AB04809"
+   ],
+   "relation": "adjacent",
+   "why": "Lincoln wrote to a mother said to have lost five sons of the solemn pride that must be hers."
+  },
+  {
+   "id": "dostoevsky-return-the-ticket",
+   "after": "source:AB04809",
+   "responds": [
+    "source:AB04809"
+   ],
+   "relation": "contrast",
+   "why": "Dostoevsky's Ivan says that too high a price is asked for harmony, and hastens to give back his entrance ticket. Can anyone be asked to give thanks for the death of sons?"
+  },
+  {
+   "id": "job-shall-we-not-receive-evil",
+   "after": "source:ABU2683",
+   "responds": [
+    "source:ABU2683"
+   ],
+   "relation": "adjacent",
+   "why": "Job gives the slave's answer: shall we receive good at the hand of God, and shall we not receive evil?"
+  },
+  {
+   "id": "marcus-promontory",
+   "after": "source:AB04666",
+   "responds": [
+    "source:AB04666"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius would be like the promontory on which the waves break, and it stands firm."
+  },
+  {
+   "id": "timothy-godliness-with-contentment",
+   "after": "source:ABU2235",
+   "responds": [
+    "source:ABU2235"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells Timothy that godliness with contentment is great gain, and food and raiment enough."
+  },
+  {
+   "id": "hebrews-whom-the-lord-loveth",
+   "after": "source:AB07153",
+   "responds": [
+    "source:AB07153"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews reads affliction as the readings do: whom the Lord loveth he chasteneth, as a father the son he receives."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:AB12036",
+   "responds": [
+    "source:AB12036"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist would rather be a doorkeeper in the house of his God than dwell in the tents of wickedness."
+  },
+  {
+   "id": "john-epistle-prosper-and-be-in-health",
+   "after": "source:BH01032",
+   "responds": [
+    "source:BH01032"
+   ],
+   "relation": "adjacent",
+   "why": "The elder begins a letter: I wish above all things that thou mayest prosper and be in health."
+  },
+  {
+   "id": "proverbs-good-name",
+   "after": "source:AB04885",
+   "responds": [
+    "source:AB04885"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a good name is rather to be chosen than great riches."
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "source:BH00859",
+   "responds": [
+    "source:BH00859"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples: blessed are your eyes, for they see what many prophets desired to see."
+  },
+  {
+   "id": "luke-kind-unto-the-unthankful",
+   "after": "source:BH00474",
+   "responds": [
+    "source:BH00474"
+   ],
+   "relation": "complement",
+   "why": "Jesus said that the Highest is kind unto the unthankful and to the evil. If bounty does not wait for thanks, why is thanks asked?"
+  },
+  {
+   "id": "philippians-odour-of-a-sweet-smell",
+   "after": "source:BH06993",
+   "responds": [
+    "source:BH06993"
+   ],
+   "relation": "adjacent",
+   "why": "Paul acknowledges a gift sent to him as an odour of a sweet smell, a sacrifice acceptable to God."
+  },
+  {
+   "id": "luke-unto-whom-much-is-given",
+   "after": "source:AB02429",
+   "responds": [
+    "source:AB02429"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that unto whomsoever much is given, of him shall be much required."
+  },
+  {
+   "id": "psalm-taste-and-see",
+   "after": "source:BH10113",
+   "responds": [
+    "source:BH10113"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm invites: O taste and see that the Lord is good."
+  },
+  {
+   "id": "corinthians-according-to-that-a-man-hath",
+   "after": "source:AB04110",
+   "responds": [
+    "source:AB04110"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that where there is a willing mind, a gift is accepted according to what a man hath."
+  },
+  {
+   "id": "romans-groanings-cannot-be-uttered",
+   "after": "source:BH01197",
+   "responds": [
+    "source:BH01197"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the Spirit itself maketh intercession for us with groanings which cannot be uttered."
+  },
+  {
+   "id": "proverbs-trust-in-the-lord",
+   "after": "source:BH02371",
+   "responds": [
+    "source:BH02371"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs advises: in all thy ways acknowledge him, and he shall direct thy paths."
+  },
+  {
+   "id": "luke-names-written-in-heaven",
+   "after": "source:BH07906",
+   "responds": [
+    "source:BH07906"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples to rejoice because their names are written in heaven."
+  },
+  {
+   "id": "proverbs-forget-not-my-law",
+   "after": "source:BH08224",
+   "responds": [
+    "source:BH08224"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: my son, forget not my law, but let thine heart keep my commandments."
+  },
+  {
+   "id": "psalm-this-poor-man-cried",
+   "after": "source:BH03359",
+   "responds": [
+    "source:BH03359"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: this poor man cried, and the Lord heard him, and saved him out of all his troubles."
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "source:BH05543",
+   "responds": [
+    "source:BH05543"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist says: I will praise thee, for I am fearfully and wonderfully made."
+  },
+  {
+   "id": "nehemiah-above-all-blessing-and-praise",
+   "after": "source:BH05837",
+   "responds": [
+    "source:BH05837"
+   ],
+   "relation": "adjacent",
+   "why": "The Levites in Nehemiah bless a name that is exalted above all blessing and praise."
+  },
+  {
+   "id": "job-parts-of-his-ways",
+   "after": "source:BH00695",
+   "responds": [
+    "source:BH00695"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: these are parts of his ways, but how little a portion is heard of him."
+  },
+  {
+   "id": "psalm-in-thy-light",
+   "after": "source:BH07270",
+   "responds": [
+    "source:BH07270"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: with thee is the fountain of life; in thy light shall we see light."
+  },
+  {
+   "id": "luke-unprofitable-servants",
+   "after": "source:BB00117",
+   "responds": [
+    "source:BB00117"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples, when they had done all, to say: we are unprofitable servants."
+  },
+  {
+   "id": "revelation-for-thy-pleasure-they-are-created",
+   "after": "source:BB00680",
+   "responds": [
+    "source:BB00680"
+   ],
+   "relation": "adjacent",
+   "why": "The elders in the Apocalypse say: thou hast created all things, and for thy pleasure they are and were created."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:AB11281",
+   "responds": [
+    "source:AB11281"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching the inward parts."
+  },
+  {
+   "id": "psalm-table-before-me",
+   "after": "source:AB07484",
+   "responds": [
+    "source:AB07484"
+   ],
+   "relation": "adjacent",
+   "why": "The shepherd psalm says: thou anointest my head with oil; my cup runneth over."
+  },
+  {
+   "id": "luke-not-my-will-but-thine",
+   "after": "source:BH03361",
+   "responds": [
+    "source:BH03361"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus prayed that the cup might be removed, and then: nevertheless not my will, but thine, be done."
+  },
+  {
+   "id": "psalm-one-thing-have-i-desired",
+   "after": "source:BH08946",
+   "responds": [
+    "source:BH08946"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist desires one thing: to behold the beauty of the Lord."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:BH05744",
+   "responds": [
+    "source:BH05744"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah hears: not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "john-to-whom-shall-we-go",
+   "after": "source:BH10186",
+   "responds": [
+    "source:BH10186"
+   ],
+   "relation": "adjacent",
+   "why": "When many turned back, Peter said: Lord, to whom shall we go? thou hast the words of eternal life."
+  },
+  {
+   "id": "psalm-babes-and-sucklings",
+   "after": "source:BH10742",
+   "responds": [
+    "source:BH10742"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: out of the mouth of babes and sucklings hast thou ordained strength."
+  },
+  {
+   "id": "psalm-every-thing-that-hath-breath",
+   "after": "selection:90771d8a5649e1a8bda2ec25",
+   "responds": [
+    "selection:90771d8a5649e1a8bda2ec25"
+   ],
+   "relation": "adjacent",
+   "why": "The Psalter ends: let every thing that hath breath praise the Lord."
+  }
+ ],
+ "library": {
+  "deuteronomy-eaten-and-art-full": {
+   "text": "When thou hast eaten and art full, then thou shalt bless the Lord thy God for the good land which he hath given thee. Beware that thou forget not the Lord thy God",
+   "work": "Deuteronomy 8:10–11",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%208%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-giving-thanks-always": {
+   "text": "Giving thanks always for all things unto God and the Father in the name of our Lord Jesus Christ",
+   "work": "Ephesians 5:20",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%205%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "colossians-be-ye-thankful": {
+   "text": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful. Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord. And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him",
+   "work": "Colossians 3:15–17",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Colossians%203%3A15-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-thanks-unto-me-and-thy-parents": {
+   "text": "And We have enjoined upon man concerning his partners - His mother beareth him in weakness upon weakness, and his weaning is in two years - Give thanks unto Me and unto thy parents. Unto Me is the journeying.",
+   "work": "Qur’an 31:14",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=31&verse=14",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "galatians-him-that-teacheth": {
+   "text": "Let him that is taught in the word communicate unto him that teacheth in all good things",
+   "work": "Galatians 6:6",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%206%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-gave-thanks-in-presence-of-them-all": {
+   "text": "And when he had thus spoken, he took bread, and gave thanks to God in presence of them all: and when he had broken it, he began to eat",
+   "work": "Acts 27:35",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2027%3A35&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "philippians-odour-of-a-sweet-smell": {
+   "text": "But I have all, and abound: I am full, having received of Epaphroditus the things which were sent from you, an odour of a sweet smell, a sacrifice acceptable, wellpleasing to God",
+   "work": "Philippians 4:18",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%204%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-unspeakable-gift": {
+   "text": "Thanks be unto God for his unspeakable gift",
+   "work": "2 Corinthians 9:15",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%209%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-oh-that-men-would-praise": {
+   "text": "Oh that men would praise the Lord for his goodness, and for his wonderful works to the children of men! For he satisfieth the longing soul, and filleth the hungry soul with goodness",
+   "work": "Psalm 107:8–9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20107%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-lovingkindness-better-than-life": {
+   "text": "Because thy lovingkindness is better than life, my lips shall praise thee. Thus will I bless thee while I live: I will lift up my hands in thy name",
+   "work": "Psalm 63:3–4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2063%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-neither-were-thankful": {
+   "text": "Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened",
+   "work": "Romans 1:21",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%201%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-unthankful-unholy": {
+   "text": "This know also, that in the last days perilous times shall come. For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy",
+   "work": "2 Timothy 3:1–2",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Timothy%203%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "emerson-do-not-quite-forgive-a-giver": {
+   "text": "We wish to be self-sustained. We do not quite forgive a giver. The hand that feeds us is in some danger of being bitten",
+   "author": "Ralph Waldo Emerson",
+   "work": "Gifts",
+   "year": "1844",
+   "sortYear": 1844,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Essays:_Second_Series/Gifts",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author died in 1882."
+   }
+  }
+ }
+}

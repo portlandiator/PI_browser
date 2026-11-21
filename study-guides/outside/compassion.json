@@ -1,0 +1,503 @@
+{
+ "format": 2,
+ "slug": "compassion",
+ "subject": "210D276A06CCE27ECA75FDC0B8F5205C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 41,
+ "kept": [
+  "source:AB00027",
+  "source:AB06644",
+  "source:ABU3383",
+  "source:ABU3027",
+  "source:AB02998",
+  "source:AB06988",
+  "source:AB09561",
+  "source:AB02575",
+  "source:AB10335",
+  "source:AB01433",
+  "source:AB11031",
+  "source:AB05622",
+  "source:ABU1486",
+  "source:AB08244",
+  "source:AB08172",
+  "source:AB11891",
+  "source:ABU1347",
+  "source:BH01886",
+  "source:AB07495",
+  "source:ABU1561",
+  "source:AB06703",
+  "source:AB09532",
+  "source:ABU1027",
+  "source:ABU1819",
+  "source:ABU2761",
+  "source:ABU2077",
+  "source:AB06125",
+  "source:BH07990",
+  "source:AB00890",
+  "source:AB06018",
+  "source:AB09737",
+  "source:ABU2394",
+  "source:ABU2195",
+  "source:ABU2895",
+  "source:AB10609",
+  "source:ABU3473",
+  "source:ABU2404",
+  "source:ABU2673"
+ ],
+ "introduction": "These readings ask for kindness without limit of person: gladden every heart, be a refuge for strangers, a companion to the grieving, a father to humanity, gentle even in giving bad news, kind to animals; and they name relieving a sorrow-laden heart the greatest of pilgrimages. One reading adds a caution, that kindness to the tyrant or the thief can be cruelty to those they harm. Each of the forty-one quotations is read here beside one from elsewhere. Most stand alongside: the Samaritan, Isaiah's fast, Job's 'eyes to the blind', Paul's 'weep with them that weep', Leviticus on the stranger, the Dhammapada, Coleridge and Wordsworth. Four push back or add a side: Adam Smith on what daily life in fact rests on, Dostoevsky on loving humanity and not one's neighbour, Blake on the pity that needs the poor, and Portia on mercy that is not to be rationed.",
+ "questions": [
+  "'Of all pilgrimages the greatest is to relieve the sorrow-laden heart.' Whose heart is within your reach this week?",
+  "One reading advises: if you are too angry or low even to pray, go and give pleasure to someone. Why might that work?",
+  "The readings ask for kindness to all, and one makes an exception for those who would use it to harm others. How do you tell the difference without making the exception an excuse?",
+  "Blake says that pity would be no more if we did not make somebody poor. When is kindness not enough?",
+  "Dostoevsky's character loves humanity and cannot bear individuals. What do these readings do with that difficulty?"
+ ],
+ "outside": [
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:AB00027",
+   "responds": [
+    "source:AB00027"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable a Samaritan, seeing a wounded stranger, had compassion on him, bound up his wounds and took care of him."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB06644",
+   "responds": [
+    "source:AB06644"
+   ],
+   "relation": "adjacent",
+   "why": "James defines pure religion as visiting the fatherless and widows in their affliction."
+  },
+  {
+   "id": "isaiah-opening-of-the-prison",
+   "after": "source:ABU3383",
+   "responds": [
+    "source:ABU3383"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's messenger is sent to bind up the brokenhearted and to comfort all that mourn."
+  },
+  {
+   "id": "isaiah-is-not-this-the-fast",
+   "after": "source:ABU3027",
+   "responds": [
+    "source:ABU3027"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that when thou dealest thy bread to the hungry and coverest the naked, then shall thy light break forth as the morning."
+  },
+  {
+   "id": "hebrews-entertain-strangers",
+   "after": "source:AB02998",
+   "responds": [
+    "source:AB02998"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says: be not forgetful to entertain strangers, for thereby some have entertained angels unawares."
+  },
+  {
+   "id": "job-eyes-to-the-blind",
+   "after": "source:AB06988",
+   "responds": [
+    "source:AB06988"
+   ],
+   "relation": "adjacent",
+   "why": "Job remembers of his better days: I was eyes to the blind, and feet was I to the lame, and a father to the poor."
+  },
+  {
+   "id": "romans-weep-with-them-that-weep",
+   "after": "source:AB09561",
+   "responds": [
+    "source:AB09561"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: rejoice with them that do rejoice, and weep with them that weep."
+  },
+  {
+   "id": "galatians-bear-one-anothers-burdens",
+   "after": "source:AB09561",
+   "responds": [
+    "source:AB09561"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: bear ye one another's burdens, and so fulfil the law of Christ."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB02575",
+   "responds": [
+    "source:AB02575"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: behold, how good and how pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "ecclesiastes-two-are-better-than-one",
+   "after": "source:AB02575",
+   "responds": [
+    "source:AB02575"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that two are better than one, for if they fall, the one will lift up his fellow."
+  },
+  {
+   "id": "luke-be-ye-merciful",
+   "after": "source:AB10335",
+   "responds": [
+    "source:AB10335"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: be ye therefore merciful, as your Father also is merciful."
+  },
+  {
+   "id": "luke-kind-unto-the-unthankful",
+   "after": "source:AB01433",
+   "responds": [
+    "source:AB01433"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to do good and lend, hoping for nothing again, for the Highest is kind unto the unthankful and to the evil."
+  },
+  {
+   "id": "timothy-provide-for-his-own",
+   "after": "source:AB11031",
+   "responds": [
+    "source:AB11031"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's letter says that if any provide not for his own, and specially for those of his own house, he hath denied the faith."
+  },
+  {
+   "id": "proverbs-good-word-maketh-it-glad",
+   "after": "source:AB05622",
+   "responds": [
+    "source:AB05622"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that heaviness in the heart of man maketh it stoop, but a good word maketh it glad."
+  },
+  {
+   "id": "luke-call-the-poor",
+   "after": "source:ABU1486",
+   "responds": [
+    "source:ABU1486"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that when thou makest a feast, call not thy rich neighbours, but the poor, the maimed, the lame and the blind."
+  },
+  {
+   "id": "leviticus-stranger-as-one-born-among-you",
+   "after": "source:AB08244",
+   "responds": [
+    "source:AB08244"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus commands that the stranger who dwells with you shall be as one born among you, and thou shalt love him as thyself."
+  },
+  {
+   "id": "matthew-pray-for-persecutors",
+   "after": "source:AB08172",
+   "responds": [
+    "source:AB08172"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: love your enemies, bless them that curse you, do good to them that hate you."
+  },
+  {
+   "id": "peter-be-courteous",
+   "after": "source:AB11891",
+   "responds": [
+    "source:AB11891"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter says: have compassion one of another, love as brethren, be pitiful, be courteous."
+  },
+  {
+   "id": "matthew-left-hand-know",
+   "after": "source:ABU1347",
+   "responds": [
+    "source:ABU1347"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that when thou doest alms, let not thy left hand know what thy right hand doeth."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:ABU1347",
+   "responds": [
+    "source:ABU1347"
+   ],
+   "relation": "contrast",
+   "why": "Adam Smith observed that we expect our dinner not from the benevolence of the butcher, the brewer or the baker, but from their regard to their own interest. How much of daily life can rest on kindness, and how much must rest on something else?"
+  },
+  {
+   "id": "galatians-be-not-weary",
+   "after": "source:ABU1561",
+   "responds": [
+    "source:ABU1561"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: let us not be weary in well doing, for in due season we shall reap, if we faint not."
+  },
+  {
+   "id": "hunt-abou-ben-adhem",
+   "after": "source:AB06703",
+   "responds": [
+    "source:AB06703"
+   ],
+   "relation": "adjacent",
+   "why": "Leigh Hunt's Abou asks the angel to write him as one that loves his fellow men."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:AB09532",
+   "responds": [
+    "source:AB09532"
+   ],
+   "relation": "adjacent",
+   "why": "Micah asks what the Lord requires but to do justly, and to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "dhammapada-all-men-tremble-at-punishment",
+   "after": "source:ABU1027",
+   "responds": [
+    "source:ABU1027"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says: all men tremble at punishment; remember that you are like unto them, and do not cause slaughter."
+  },
+  {
+   "id": "proverbs-mercy-on-the-poor-happy",
+   "after": "source:ABU1819",
+   "responds": [
+    "source:ABU1819"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he that despiseth his neighbour sinneth, but he that hath mercy on the poor, happy is he."
+  },
+  {
+   "id": "proverbs-soft-answer",
+   "after": "source:ABU2761",
+   "responds": [
+    "source:ABU2761"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a soft answer turneth away wrath, but grievous words stir up anger."
+  },
+  {
+   "id": "john-wash-one-anothers-feet",
+   "after": "source:ABU2077",
+   "responds": [
+    "source:ABU2077"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus, having washed his disciples' feet, says: ye also ought to wash one another's feet."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB06125",
+   "responds": [
+    "source:AB06125"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: let your light so shine before men, that they may see your good works."
+  },
+  {
+   "id": "romans-strong-bear-the-weak",
+   "after": "source:BH07990",
+   "responds": [
+    "source:BH07990"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that we that are strong ought to bear the infirmities of the weak, and not to please ourselves."
+  },
+  {
+   "id": "shakespeare-quality-of-mercy",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "complement",
+   "why": "Shakespeare's Portia says that the quality of mercy is not strained; it droppeth as the gentle rain from heaven. The reading limits kindness where it would harm others. Who is fit to judge when mercy to one is cruelty to many?"
+  },
+  {
+   "id": "proverbs-regardeth-the-life-of-his-beast",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a righteous man regardeth the life of his beast."
+  },
+  {
+   "id": "bentham-can-they-suffer",
+   "after": "source:AB09737",
+   "responds": [
+    "source:AB09737"
+   ],
+   "relation": "adjacent",
+   "why": "Bentham said of animals that the question is not, can they reason, but can they suffer."
+  },
+  {
+   "id": "coleridge-prayeth-best",
+   "after": "source:ABU2394",
+   "responds": [
+    "source:ABU2394"
+   ],
+   "relation": "adjacent",
+   "why": "Coleridge's mariner learns that he prayeth best who loveth best all things both great and small."
+  },
+  {
+   "id": "matthew-least-of-these",
+   "after": "source:ABU2195",
+   "responds": [
+    "source:ABU2195"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."
+  },
+  {
+   "id": "corinthians-if-one-member-suffer",
+   "after": "source:ABU2895",
+   "responds": [
+    "source:ABU2895"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whether one member suffer, all the members suffer with it."
+  },
+  {
+   "id": "dostoevsky-humanity",
+   "after": "source:ABU2895",
+   "responds": [
+    "source:ABU2895"
+   ],
+   "relation": "contrast",
+   "why": "A character in Dostoevsky confesses: the more I love humanity in general, the less I love man in particular. Why is it easier to feel for mankind than for the person in the next room?"
+  },
+  {
+   "id": "blake-pity-would-be-no-more",
+   "after": "source:AB10609",
+   "responds": [
+    "source:AB10609"
+   ],
+   "relation": "contrast",
+   "why": "Blake wrote that pity would be no more, if we did not make somebody poor. Is kindness to the unfortunate enough, where the misfortune has been made by an arrangement that benefits the kind?"
+  },
+  {
+   "id": "zechariah-execute-true-judgment",
+   "after": "source:ABU3473",
+   "responds": [
+    "source:ABU3473"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah says: shew mercy and compassions every man to his brother, and oppress not the widow nor the stranger."
+  },
+  {
+   "id": "wordsworth-unremembered-acts",
+   "after": "source:ABU2404",
+   "responds": [
+    "source:ABU2404"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth calls little, nameless, unremembered acts of kindness and of love the best portion of a good man's life."
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:ABU2673",
+   "responds": [
+    "source:ABU2673"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that whoever gives a cup of cold water to one of these little ones shall not lose his reward."
+  },
+  {
+   "id": "luke-he-had-compassion-on-her",
+   "after": "source:ABU2673",
+   "responds": [
+    "source:ABU2673"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of Jesus, meeting a woman in mourning: when the Lord saw her, he had compassion on her, and said unto her, weep not."
+  }
+ ],
+ "library": {
+  "leviticus-stranger-as-one-born-among-you": {
+   "text": "And if a stranger sojourn with thee in your land, ye shall not vex him. But the stranger that dwelleth with you shall be unto you as one born among you, and thou shalt love him as thyself; for ye were strangers in the land of Egypt",
+   "work": "Leviticus 19:33–34",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2019%3A33-34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-mercy-on-the-poor-happy": {
+   "text": "He that despiseth his neighbour sinneth: but he that hath mercy on the poor, happy is he",
+   "work": "Proverbs 14:21",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2014%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-he-had-compassion-on-her": {
+   "text": "And when the Lord saw her, he had compassion on her, and said unto her, Weep not",
+   "work": "Luke 7:13",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%207%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

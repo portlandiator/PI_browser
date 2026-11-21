@@ -1,0 +1,204 @@
+{
+ "format": 2,
+ "slug": "emanation",
+ "subject": "26BFCA2FC4E44906BAAB903F56228AB0",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 19,
+ "kept": [
+  "source:AB00062",
+  "source:ABU1537",
+  "source:ABU0262",
+  "source:AB00316",
+  "source:AB00876",
+  "source:AB07082",
+  "source:ABU0766",
+  "source:AB01521",
+  "source:AB00538",
+  "source:ABU0218",
+  "selection:3bb8ac0f3bf51ce0d94efeb2"
+ ],
+ "introduction": "These readings draw one distinction with care. Things come from God by emanation, as a discourse comes from a speaker, writing from a writer, or rays from the sun, and not by manifestation, as a flower comes out of a tree by the tree itself becoming flower. The first keeps Creator and creature distinct; the second, which they ascribe to certain Sufis, would have God resolved into His creatures. Each of the nineteen quotations is read here beside one from elsewhere. Most stand alongside: Plotinus's sun and its light, the Word by which the heavens were made, the breath of life, Isaiah's potter and clay. Five push back or add a side, since this is an old dispute with honoured names on the other side: Spinoza, al-Hallaj, the Upanishad's 'thou art it', Pope, and the Nicene Creed's 'of one substance'.",
+ "questions": [
+  "A discourse comes from its speaker without the speaker becoming it; a flower comes from the tree by the tree's own substance. Why do the readings insist on the first picture for creation?",
+  "Al-Hallaj and the Upanishad speak of identity with the divine. What do the readings affirm in that experience, and what do they deny?",
+  "The Prophet is called a radiation and a reflection, 'not an emanation of substance'. How does that compare with the creed's 'of one substance with the Father'?",
+  "Does it matter in daily life whether a person thinks of the world as God's work or as God?"
+ ],
+ "outside": [
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza held that all things which are, are in God, and without him can neither be nor be conceived. Is his view the one ascribed here to the Sufis, and what does the difference between emanation and manifestation deny in it?"
+  },
+  {
+   "id": "hallaj-i-am-he-whom-i-love",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "complement",
+   "why": "The Sufi al-Hallaj wrote: I am He whom I love, and He whom I love is I; we are two spirits dwelling in one body. What does such a saying express that the readings would keep, and what would they correct?"
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "complement",
+   "why": "The Chandogya Upanishad teaches of the subtle essence in which all that exists has its self: thou art it. How would the distinction drawn in this reading be put to its teacher?"
+  },
+  {
+   "id": "chandogya-nyagrodha-seed",
+   "after": "source:ABU1537",
+   "responds": [
+    "source:ABU1537"
+   ],
+   "relation": "adjacent",
+   "why": "The same Upanishad uses the picture of a tree that exists from an essence in the seed which cannot be seen."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus compares what proceeds from the Supreme to the light encircling the sun, ceaselessly generated while that substance remains unchanged."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "James says that every good gift cometh down from the Father of lights, with whom is no variableness, neither shadow of turning."
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm uses the same picture of speech: by the word of the Lord were the heavens made, and by the breath of his mouth."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel opens: in the beginning was the Word, and all things were made by him."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God breathed into man's nostrils the breath of life, and man became a living soul."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "isaiah-clay-and-the-potter",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah keeps Maker and made apart: shall the clay say to him that fashioneth it, What makest thou?"
+  },
+  {
+   "id": "quran-naught-is-as-his-likeness",
+   "after": "source:AB07082",
+   "responds": [
+    "source:AB07082"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of the Creator of the heavens and the earth: naught is as His likeness."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that in God we live, and move, and have our being, and are his offspring."
+  },
+  {
+   "id": "pope-stupendous-whole",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "contrast",
+   "why": "Pope wrote that all are but parts of one stupendous whole, whose body nature is, and God the soul. Which of the two words in this reading fits his line, and why would the readings resist it?"
+  },
+  {
+   "id": "matthew-blasphemy-not-forgiven",
+   "after": "source:AB01521",
+   "responds": [
+    "source:AB01521"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying asked about, as Matthew gives it: the blasphemy against the Holy Ghost shall not be forgiven."
+  },
+  {
+   "id": "john-born-of-water",
+   "after": "source:AB00538",
+   "responds": [
+    "source:AB00538"
+   ],
+   "relation": "adjacent",
+   "why": "This is the saying quoted: that which is born of the flesh is flesh, and that which is born of the Spirit is spirit."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:ABU0218",
+   "responds": [
+    "source:ABU0218"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews calls the Son the brightness of God's glory and the express image of his person."
+  },
+  {
+   "id": "nicene-light-of-light",
+   "after": "source:ABU0218",
+   "responds": [
+    "source:ABU0218"
+   ],
+   "relation": "complement",
+   "why": "The Nicene Creed calls the Son Light of Light, of one substance with the Father. The reading speaks of a radiation and a reflection, not of substance. What is at stake between the two ways of speaking?"
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "selection:3bb8ac0f3bf51ce0d94efeb2",
+   "responds": [
+    "selection:3bb8ac0f3bf51ce0d94efeb2"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King says that the Tao produced One, One produced Two, Two produced Three, and Three produced all things."
+  }
+ ],
+ "library": {}
+}

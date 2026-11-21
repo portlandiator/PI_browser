@@ -1,0 +1,203 @@
+{
+ "format": 2,
+ "slug": "matter",
+ "subject": "A8FA3FC94D38433295A413FBDA06FC3D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 18,
+ "quotations": 18,
+ "kept": [
+  "source:AB00006",
+  "source:ABU2645",
+  "source:AB01218",
+  "source:AB01624",
+  "source:BH11861",
+  "source:ABU0226",
+  "source:AB00077",
+  "source:BB00022",
+  "source:AB00062",
+  "source:AB00153",
+  "source:ABU0055",
+  "selection:82d586ec06d47592fd378921",
+  "selection:0da4439547cf870a3e5f4f3a",
+  "selection:fe1a050450a7a765fc04c622",
+  "selection:762703274c70da8185cc4a42",
+  "selection:4345c84ea522c929072fe049",
+  "selection:600061828ca42aed04732f7d",
+  "selection:905c68cee157947cfe14bc8c"
+ ],
+ "introduction": "These readings gather remarks on what matter is. Everything is composed of an active and a receiving principle, matter and form; the universe is one connected whole from a single origin; the Primal Will is called the father of things and Purpose their mother; atoms fill space; nothing is annihilated; and, at the close, matter is said to rest on an invisible reality of spirit or energy. Several passages take up the Sufi phrase 'unity of existence' and say what it should not be taken to mean. All eighteen quotations are read here beside eighteen from elsewhere. Sixteen stand alongside: Aristotle on wax and its shape, the Chandogya Upanishad on clay and its names, the Tao producing one, two and three, the Qur'an's 'Be! and it is', Plotinus's overflowing One, Heraclitus's fire, Descartes on conservation, the opening of John's Gospel. Two put a question: Lucretius, whose atoms need no maker, and Spinoza, whose 'all things are in God' is the kind of unity the readings weigh.",
+ "questions": [
+  "The readings pair an active and a receptive principle in everything. Where do you see that pairing, and where does it strain?",
+  "'There is but one reality and one essence.' How do the readings keep this from meaning that everything is God?",
+  "Lucretius explained the world by atoms alone. What in these readings could he accept, and what not?",
+  "Matter is said to be founded on invisible forces. What would count as evidence for or against that?",
+  "What does the image of the hand and the writing say about cause and source?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-wax-and-its-shape",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle thought it as idle to ask whether soul and body are one as to ask it of the wax and the shape the stamp gives it."
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "source:ABU2645",
+   "responds": [
+    "source:ABU2645"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus describes the seed that springs and grows one knows not how: first the blade, then the ear, then the full corn."
+  },
+  {
+   "id": "augustine-evil-has-no-positive-nature",
+   "after": "source:AB01218",
+   "responds": [
+    "source:AB01218"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine says of evil what the reading says of darkness: it has no positive nature, and is the loss of good."
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:AB01624",
+   "responds": [
+    "source:AB01624"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius asks us to see how all things act with one movement, and how all are the co-operating causes of all."
+  },
+  {
+   "id": "chandogya-clod-of-clay",
+   "after": "source:BH11861",
+   "responds": [
+    "source:BH11861"
+   ],
+   "relation": "adjacent",
+   "why": "The Chandogya Upanishad says that by one clod of clay all that is made of clay is known: the difference is only a name."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0226",
+   "responds": [
+    "source:ABU0226"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius began his poem of atoms with the rule that nothing from nothing ever yet was born. Can an account of matter built on atoms alone leave room for a Fashioner?"
+  },
+  {
+   "id": "chandogya-one-only-without-a-second",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "The same Upanishad says that in the beginning there was that only which is, one only, without a second."
+  },
+  {
+   "id": "quran-our-word-unto-a-thing",
+   "after": "source:BB00022",
+   "responds": [
+    "source:BB00022"
+   ],
+   "relation": "adjacent",
+   "why": "The two letters are those of the Qur'an's command: Our word unto a thing is only that We say unto it: Be! and it is."
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "source:BB00022",
+   "responds": [
+    "source:BB00022"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching counts creation in the same way: the Tao produced One, One produced Two, Two produced Three, Three produced all things."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "complement",
+   "why": "Spinoza wrote that all things which are, are in God, and without him can neither be nor be conceived. Is this the unity of existence the reading accepts, or the one it sets aside?"
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says the One, seeking nothing and lacking nothing, has overflowed, and its fulness has produced another."
+  },
+  {
+   "id": "descartes-conservation-and-creation",
+   "after": "source:ABU0055",
+   "responds": [
+    "source:ABU0055"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes held that to conserve a substance in each moment needs the same power as to create it anew."
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "selection:82d586ec06d47592fd378921",
+   "responds": [
+    "selection:82d586ec06d47592fd378921"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle distinguishes the final cause, which produces motion as being loved, from all else that moves by being moved."
+  },
+  {
+   "id": "tennyson-closer-than-breathing",
+   "after": "selection:0da4439547cf870a3e5f4f3a",
+   "responds": [
+    "selection:0da4439547cf870a3e5f4f3a"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson says of the divine that closer is he than breathing, and nearer than hands and feet."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "selection:fe1a050450a7a765fc04c622",
+   "responds": [
+    "selection:fe1a050450a7a765fc04c622"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus named one stuff that takes every form: an ever-living fire, kindled and going out in measures."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "selection:4345c84ea522c929072fe049",
+   "responds": [
+    "selection:4345c84ea522c929072fe049"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel opens: in the beginning was the Word, and the Word was with God."
+  },
+  {
+   "id": "blake-no-body-distinct-from-his-soul",
+   "after": "selection:600061828ca42aed04732f7d",
+   "responds": [
+    "selection:600061828ca42aed04732f7d"
+   ],
+   "relation": "adjacent",
+   "why": "Blake held that man has no body distinct from his soul, for what is called body is a portion of soul discerned by the senses."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "selection:905c68cee157947cfe14bc8c",
+   "responds": [
+    "selection:905c68cee157947cfe14bc8c"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says the worlds were framed by the word of God, so that things seen were not made of things which do appear."
+  }
+ ],
+ "library": {}
+}

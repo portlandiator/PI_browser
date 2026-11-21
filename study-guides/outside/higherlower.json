@@ -1,0 +1,506 @@
+{
+ "format": 2,
+ "slug": "higherlower",
+ "subject": "C957F3FF62F84A3A8DBA4B23EA26E8CC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 37,
+ "quotations": 45,
+ "kept": [
+  "source:ABU0054",
+  "source:ABU3717",
+  "source:ABU0819",
+  "source:ABU0495",
+  "source:ABU0102",
+  "source:AB00409",
+  "source:AB00020",
+  "source:AB00103",
+  "source:AB00247",
+  "source:AB00395",
+  "source:ABU0398",
+  "source:ABU0974",
+  "source:AB01391",
+  "source:ABU0590",
+  "source:ABU1868",
+  "source:ABU0214",
+  "source:ABU0605",
+  "source:ABU0371",
+  "source:ABU1155",
+  "source:ABU0196",
+  "source:ABU0030",
+  "source:ABU0445",
+  "source:AB00105",
+  "source:ABU0061",
+  "source:AB00657",
+  "source:BH00012",
+  "source:AB04805",
+  "source:ABU2924",
+  "source:ABU0205",
+  "source:AB00188",
+  "source:AB03862",
+  "source:AB00576",
+  "source:BB00014",
+  "source:ABU1154",
+  "selection:b6492e456a02bfbd6409029e",
+  "selection:91dba6c6a71a7ae4b91fffca",
+  "selection:deb50383bae23eb577744878"
+ ],
+ "introduction": "These readings repeat one argument in many forms: the mineral knows nothing of the plant, the plant nothing of the animal, the animal nothing of the human mind, and the child in the womb nothing of the world; so the failure of the lower to perceive the higher proves nothing against it, and a created mind cannot comprehend its Creator, though it can know His signs. Each of the forty-five quotations is read here beside one from elsewhere. Most stand alongside: William James's dogs and cats in our libraries, Xenophanes, Plato's cave, Flatland, Job, Isaiah, the Qur'an, Paul, Pascal, Newton and Kant. Eight push back or add a side: Aristotle and Darwin doubt that the ranks are sharply divided, Feuerbach turns the argument round, Tennyson cannot fully understand a flower, and the Cloud of Unknowing offers love where thought fails. One talk speaks of African peoples in terms a reader today will reject; Paul's 'of one blood' is set beside it.",
+ "questions": [
+  "The readings say that a flower's ignorance of human beings does not prevent their existence. What does this argument establish, and what does it leave unproved?",
+  "Darwin and Aristotle see continuity between the kingdoms where the readings see ranks. How much of the argument survives if the lines are blurred?",
+  "If no one can comprehend the divine essence, what, according to the readings, can be known, and how?",
+  "Feuerbach concludes from our inability to think beyond ourselves that theology is really about humanity. How would you answer him?",
+  "The child in the womb cannot imagine the world it will enter. What do you do now, in practice, about a world you cannot imagine?"
+ ],
+ "outside": [
+  {
+   "id": "james-dogs-and-cats-in-our-libraries",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "adjacent",
+   "why": "William James believed that we stand to the whole of the universe much as our dogs and cats do to the whole of human life: they live in our libraries and take part in scenes whose significance they cannot guess."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:ABU3717",
+   "responds": [
+    "source:ABU3717"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes remarked that if oxen and horses had hands and could paint, horses would paint the forms of the gods like horses, and oxen like oxen."
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:ABU0819",
+   "responds": [
+    "source:ABU0819"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures human beings living from childhood in an underground den, chained so that they see only what is before them."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU0819",
+   "responds": [
+    "source:ABU0819"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: when I was a child, I understood as a child, but when I became a man, I put away childish things."
+  },
+  {
+   "id": "corinthians-eye-hath-not-seen",
+   "after": "source:ABU0495",
+   "responds": [
+    "source:ABU0495"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that eye hath not seen, nor ear heard, the things which God hath prepared for them that love him."
+  },
+  {
+   "id": "abbott-upward-not-northward",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "adjacent",
+   "why": "In Abbott's Flatland a child of the two-dimensional world laughs at the idea of a third direction: how could a thing move upward, and not northward?"
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:AB00409",
+   "responds": [
+    "source:AB00409"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the natural man receiveth not the things of the Spirit, because they are spiritually discerned."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "The chorus in Sophocles sings that wonders are many, and none is more wonderful than man, who crosses the sea and masters what he meets."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that by space the universe swallows him up like an atom, and by thought he comprehends the world."
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "complement",
+   "why": "Job says: ask now the beasts, and they shall teach thee, and speak to the earth, and it shall teach thee. If the lower cannot comprehend the higher, what is it that the higher can still learn from the lower?"
+  },
+  {
+   "id": "aristotle-little-by-little",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "contrast",
+   "why": "Aristotle observed that nature proceeds little by little from things lifeless to animal life, so that it is impossible to determine the exact line of demarcation. How sharp are the ranks that this argument depends on?"
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:AB00247",
+   "responds": [
+    "source:AB00247"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: as the heavens are higher than the earth, so are my ways higher than your ways."
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:AB00247",
+   "responds": [
+    "source:AB00247"
+   ],
+   "relation": "adjacent",
+   "why": "Pope surveys a vast chain of being from God through angel, man, beast, bird, fish and insect, down to nothing."
+  },
+  {
+   "id": "dickinson-brain-wider-than-the-sky",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "Dickinson puts the brain beside the sky and finds that the one will include the other with ease."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "contrast",
+   "why": "Darwin held that the difference in mind between man and the higher animals, great as it is, is one of degree and not of kind. If he is right, can the animal be said to be shut out from the human world as the stone is?"
+  },
+  {
+   "id": "milton-up-to-him-return",
+   "after": "source:ABU0398",
+   "responds": [
+    "source:ABU0398"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel tells Adam that all things proceed from one first matter in various degrees, each in bounds proportioned to its kind."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0974",
+   "responds": [
+    "source:ABU0974"
+   ],
+   "relation": "complement",
+   "why": "Rumi speaks of dying as mineral to arise a plant, and as plant to rise an animal, and as animal a man. How can both be said: that no kingdom can reach the one above, and that we have come up through them?"
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "source:AB01391",
+   "responds": [
+    "source:AB01391"
+   ],
+   "relation": "complement",
+   "why": "Tennyson holds a flower in his hand and says that if he could understand what it is, root and all, he should know what God and man is. Does the higher in fact comprehend the lower as fully as the readings say?"
+  },
+  {
+   "id": "goethe-two-souls",
+   "after": "source:ABU0214",
+   "responds": [
+    "source:ABU0214"
+   ],
+   "relation": "adjacent",
+   "why": "Goethe's Faust finds two souls within his breast, each of which withdraws from the other."
+  },
+  {
+   "id": "acts-one-blood",
+   "after": "source:ABU0605",
+   "responds": [
+    "source:ABU0605"
+   ],
+   "relation": "contrast",
+   "why": "Paul told the Athenians that God hath made of one blood all nations of men. This talk speaks of the peoples of a whole continent as below the animals. What in the rest of these readings corrects that way of speaking?"
+  },
+  {
+   "id": "shakespeare-more-things-in-heaven-and-earth",
+   "after": "source:ABU0371",
+   "responds": [
+    "source:ABU0371"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet tells Horatio that there are more things in heaven and earth than are dreamt of in his philosophy."
+  },
+  {
+   "id": "corinthians-things-of-god",
+   "after": "source:ABU1155",
+   "responds": [
+    "source:ABU1155"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks what man knoweth the things of a man, save the spirit of man which is in him."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:ABU0196",
+   "responds": [
+    "source:ABU0196"
+   ],
+   "relation": "adjacent",
+   "why": "Job's friend asks: canst thou by searching find out God? canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "quran-vision-comprehendeth-not",
+   "after": "source:ABU0196",
+   "responds": [
+    "source:ABU0196"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of God: vision comprehendeth Him not, but He comprehendeth all vision; He is the Subtile, the Aware."
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:ABU0030",
+   "responds": [
+    "source:ABU0030"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: such knowledge is too wonderful for me; it is high, I cannot attain unto it."
+  },
+  {
+   "id": "kings-heaven-cannot-contain",
+   "after": "source:ABU0445",
+   "responds": [
+    "source:ABU0445"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon asks at the dedication of the temple: the heaven of heavens cannot contain thee; how much less this house?"
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:ABU0445",
+   "responds": [
+    "source:ABU0445"
+   ],
+   "relation": "adjacent",
+   "why": "Kant said that he had to abolish knowledge in order to make room for belief."
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "Paul exclaims at the depth of the wisdom of God: how unsearchable are his judgments, and his ways past finding out!"
+  },
+  {
+   "id": "pascal-infinitely-incomprehensible",
+   "after": "source:ABU0061",
+   "responds": [
+    "source:ABU0061"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal writes that if there is a God, he is infinitely incomprehensible, having neither parts nor limits and no affinity to us."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:AB00657",
+   "responds": [
+    "source:AB00657"
+   ],
+   "relation": "adjacent",
+   "why": "Newton wrote that we have no idea of the substance of God, and know him only by his most wise and excellent contrivances of things."
+  },
+  {
+   "id": "romans-things-that-are-made",
+   "after": "source:AB00657",
+   "responds": [
+    "source:AB00657"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the invisible things of God are understood by the things that are made."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "contrast",
+   "why": "Feuerbach took the same observation the other way: that the true sense of theology is anthropology, with no distinction between the divine and the human subject. What separates his conclusion from the reading's?"
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:AB04805",
+   "responds": [
+    "source:AB04805"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's letter speaks of one dwelling in the light which no man can approach unto, whom no man hath seen, nor can see."
+  },
+  {
+   "id": "cloud-by-love-not-thought",
+   "after": "source:AB04805",
+   "responds": [
+    "source:AB04805"
+   ],
+   "relation": "complement",
+   "why": "The Cloud of Unknowing says of God that he may well be loved, but not thought. Is there a reach of the lower toward the higher that is not comprehension?"
+  },
+  {
+   "id": "exodus-back-parts",
+   "after": "source:ABU2924",
+   "responds": [
+    "source:ABU2924"
+   ],
+   "relation": "adjacent",
+   "why": "Moses is told: thou canst not see my face, for there shall no man see me, and live."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:ABU2924",
+   "responds": [
+    "source:ABU2924"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that no man hath seen God at any time; the only begotten Son hath declared him."
+  },
+  {
+   "id": "analects-know-life",
+   "after": "source:ABU0205",
+   "responds": [
+    "source:ABU0205"
+   ],
+   "relation": "adjacent",
+   "why": "Asked about serving the spirits and about death, Confucius turned his disciple back to serving men."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:ABU0205",
+   "responds": [
+    "source:ABU0205"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King says that he who knows does not care to speak about it, and he who is ever ready to speak about it does not know it."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB00188",
+   "responds": [
+    "source:AB00188"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: now we see through a glass, darkly, but then face to face."
+  },
+  {
+   "id": "luke-kingdom-of-god-is-within-you",
+   "after": "source:AB03862",
+   "responds": [
+    "source:AB03862"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the kingdom of God cometh not with observation: lo here, or lo there."
+  },
+  {
+   "id": "john-epistle-see-him-as-he-is",
+   "after": "source:AB00576",
+   "responds": [
+    "source:AB00576"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that now are we the sons of God, and it doth not yet appear what we shall be."
+  },
+  {
+   "id": "matthew-no-man-knoweth-the-son",
+   "after": "source:BB00014",
+   "responds": [
+    "source:BB00014"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that no man knoweth the Father, save the Son, and he to whomsoever the Son will reveal him."
+  },
+  {
+   "id": "ecclesiastes-cannot-find-out",
+   "after": "selection:b6492e456a02bfbd6409029e",
+   "responds": [
+    "selection:b6492e456a02bfbd6409029e"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher beheld that a man cannot find out the work that is done under the sun, though he labour to seek it out."
+  },
+  {
+   "id": "deuteronomy-secret-things",
+   "after": "selection:91dba6c6a71a7ae4b91fffca",
+   "responds": [
+    "selection:91dba6c6a71a7ae4b91fffca"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy says that the secret things belong unto the Lord, but those things which are revealed belong unto us."
+  },
+  {
+   "id": "milton-dark-with-excessive-bright",
+   "after": "selection:deb50383bae23eb577744878",
+   "responds": [
+    "selection:deb50383bae23eb577744878"
+   ],
+   "relation": "adjacent",
+   "why": "Milton addresses the fountain of light as himself invisible amidst the glorious brightness where he sits throned inaccessible."
+  }
+ ],
+ "library": {
+  "james-dogs-and-cats-in-our-libraries": {
+   "text": "I firmly disbelieve, myself, that our human experience is the highest form of experience extant in the universe. I believe rather that we stand in much the same relation to the whole of the universe as our canine and feline pets do to the whole of human life. They inhabit our drawing-rooms and libraries. They take part in scenes of whose significance they have no inkling. They are merely tangent to curves of history the beginnings and ends and forms of which pass wholly beyond their ken So we are tangent to the wider life of things",
+   "author": "William James",
+   "work": "Pragmatism",
+   "locator": "Lecture VIII",
+   "year": "1907",
+   "sortYear": 1907,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Pragmatism:_A_New_Name_for_Some_Old_Ways_of_Thinking/Lecture_VIII",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1910."
+   }
+  },
+  "abbott-upward-not-northward": {
+   "text": "How could a thing move Upward, and not Northward? Upward, and not Northward! Even if I were a baby, I could not be so absurd as that",
+   "author": "Edwin A. Abbott",
+   "work": "Flatland",
+   "locator": "section 21",
+   "year": "1884",
+   "sortYear": 1884,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Flatland_(second_edition)/Section_21",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1926."
+   }
+  }
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "format": 2,
+ "slug": "revelationrecipient",
+ "subject": "108A205E354349B7B235F2EDB2FD6A52",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 30,
+ "quotations": 34,
+ "kept": [
+  "source:BH00005",
+  "source:BH00591",
+  "source:BH01386",
+  "source:BH00846",
+  "source:BH03960",
+  "source:AB01290",
+  "source:AB01521",
+  "source:AB00477",
+  "source:AB00345",
+  "source:AB00096",
+  "source:BH00002",
+  "source:ABU3098",
+  "source:ABU0773",
+  "source:AB00329",
+  "source:BH00007",
+  "source:BH00144",
+  "source:BB00002",
+  "source:AB03051",
+  "source:BH00234",
+  "source:BH00006",
+  "source:AB00713",
+  "source:ABU0960",
+  "source:AB00105",
+  "selection:35c46a16f6e5e7de39075951",
+  "selection:7fd25a597750f2d06080f2b8",
+  "selection:cdc0fc90976731234d7a22fe",
+  "selection:40d384e1269e73666828efe3",
+  "selection:865e75234263a6184f7e02d4",
+  "selection:542224ab26577758026a08d8",
+  "selection:d7ff065293014a53251f4b2b"
+ ],
+ "introduction": "These readings describe what it is to receive a revelation. Bahá’u’lláh tells of the prison in Tehran where something flowed over him and a voice was heard, of a Spirit that will not let him be silent, and of the Maiden who personifies it; ‘Abdu’l-Bahá explains the Holy Spirit as the outpouring grace of God, of which the Manifestations are the focal centre while other people receive its rays; and later passages link the Most Great Spirit with the burning bush, the dove and Gabriel. All thirty-four quotations are read here beside thirty-four from elsewhere. Most stand alongside, because prophets have described their calling in much the same terms: Jeremiah's fire in the bones, Amos's 'who can but prophesy', Moses and Jeremiah protesting that they cannot speak, Isaiah's vision, the first words to Muhammad, the dove at the Jordan, Wisdom speaking as a woman in Proverbs, the bride and the woman clothed with the sun in the Apocalypse. Five push back or add a side: Paine's 'hearsay to every other', Moses wishing all the people were prophets and Joel's Spirit poured on all flesh beside the statement that the Holy Spirit is given only to the Prophets, Plato on inspired poets, and John's 'try the spirits'.",
+ "questions": [
+  "What do Bahá’u’lláh's accounts have in common with the callings of Moses, Isaiah, Jeremiah and Muhammad? What is distinctive?",
+  "Several prophets say they did not choose to speak and could not keep silent. What does that claim ask of a hearer?",
+  "Paine held that revelation is revelation only to the one who receives it. How do the readings expect others to come to share it?",
+  "One reading reserves the Holy Spirit for the Prophets and leaves 'rays' to others; Joel and Moses speak more widely. Are these in conflict?",
+  "Why might revelation be pictured as a Maiden, a dove, a fire or a voice?"
+ ],
+ "outside": [
+  {
+   "id": "ezekiel-spirit-entered-into-me",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel says that when the voice spoke to him, the spirit entered into him and set him upon his feet."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BH00591",
+   "responds": [
+    "source:BH00591"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah resolved to speak no more, and found the word in his heart as a burning fire shut up in his bones."
+  },
+  {
+   "id": "john-not-spoken-of-myself",
+   "after": "source:BH01386",
+   "responds": [
+    "source:BH01386"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I have not spoken of myself; the Father which sent me gave me a commandment what I should say."
+  },
+  {
+   "id": "quran-inspiration-inspired",
+   "after": "source:BH01386",
+   "responds": [
+    "source:BH01386"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of Muhammad's speech that it is naught save an inspiration that is inspired."
+  },
+  {
+   "id": "amos-lion-hath-roared",
+   "after": "source:BH00846",
+   "responds": [
+    "source:BH00846"
+   ],
+   "relation": "adjacent",
+   "why": "Amos asks: the lion hath roared, who will not fear? the Lord God hath spoken, who can but prophesy?"
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH03960",
+   "responds": [
+    "source:BH03960"
+   ],
+   "relation": "contrast",
+   "why": "Paine argued that a revelation is revelation to the first person only, and hearsay to every other. What can a recipient's own account establish for those who were not there?"
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:AB01290",
+   "responds": [
+    "source:AB01290"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus read in the synagogue: the Spirit of the Lord is upon me, because he hath anointed me to preach."
+  },
+  {
+   "id": "numbers-mouth-to-mouth",
+   "after": "source:AB01521",
+   "responds": [
+    "source:AB01521"
+   ],
+   "relation": "adjacent",
+   "why": "God says in Numbers that he speaks to prophets in visions and dreams, but with Moses mouth to mouth."
+  },
+  {
+   "id": "john-my-doctrine-is-not-mine",
+   "after": "source:AB01521",
+   "responds": [
+    "source:AB01521"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: my doctrine is not mine, but his that sent me."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:AB00477",
+   "responds": [
+    "source:AB00477"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel opens: in the beginning was the Word, and the Word was with God, and the Word was God."
+  },
+  {
+   "id": "luke-power-of-the-highest",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "adjacent",
+   "why": "The angel told Mary: the Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee."
+  },
+  {
+   "id": "matthew-like-a-dove",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "At the baptism of Jesus the Spirit of God was seen descending like a dove, and lighting upon him."
+  },
+  {
+   "id": "psalm-while-i-was-musing",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist says: my heart was hot within me; while I was musing the fire burned; then spake I with my tongue."
+  },
+  {
+   "id": "peter-private-interpretation",
+   "after": "source:ABU0773",
+   "responds": [
+    "source:ABU0773"
+   ],
+   "relation": "adjacent",
+   "why": "Peter writes that prophecy came not by the will of man, but holy men spake as they were moved by the Holy Ghost."
+  },
+  {
+   "id": "proverbs-wisdom-before-his-works",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "In Proverbs divine Wisdom speaks as a woman who was with God before his works of old."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah, in flight and despair, heard after wind, earthquake and fire a still small voice."
+  },
+  {
+   "id": "revelation-new-jerusalem",
+   "after": "source:BH00144",
+   "responds": [
+    "source:BH00144"
+   ],
+   "relation": "adjacent",
+   "why": "John saw the holy city coming down out of heaven, prepared as a bride adorned for her husband."
+  },
+  {
+   "id": "revelation-woman-clothed-with-the-sun",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "John saw a great wonder in heaven: a woman clothed with the sun, and the moon under her feet."
+  },
+  {
+   "id": "revelation-new-heaven-and-new-earth",
+   "after": "source:AB03051",
+   "responds": [
+    "source:AB03051"
+   ],
+   "relation": "adjacent",
+   "why": "The words are John's: I saw a new heaven and a new earth, for the first heaven and the first earth were passed away."
+  },
+  {
+   "id": "quran-true-spirit-brought-it-down",
+   "after": "source:BH00234",
+   "responds": [
+    "source:BH00234"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of its own revelation that the True Spirit hath brought it down."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:BH00006",
+   "responds": [
+    "source:BH00006"
+   ],
+   "relation": "adjacent",
+   "why": "Moses answered his call: O my Lord, I am not eloquent; I am slow of speech, and of a slow tongue."
+  },
+  {
+   "id": "jeremiah-i-am-a-child",
+   "after": "source:BH00006",
+   "responds": [
+    "source:BH00006"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah answered his: Ah, Lord God! behold, I cannot speak, for I am a child."
+  },
+  {
+   "id": "john-hath-seen-the-father",
+   "after": "source:AB00713",
+   "responds": [
+    "source:AB00713"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told Philip: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "numbers-all-the-lords-people-prophets",
+   "after": "source:ABU0960",
+   "responds": [
+    "source:ABU0960"
+   ],
+   "relation": "contrast",
+   "why": "Moses, told that others were prophesying, said: would God that all the Lord's people were prophets, and that the Lord would put his spirit upon them. Is the Spirit kept for a few?"
+  },
+  {
+   "id": "acts-spoken-by-the-prophet-joel",
+   "after": "source:ABU0960",
+   "responds": [
+    "source:ABU0960"
+   ],
+   "relation": "complement",
+   "why": "Peter at Pentecost quoted Joel: I will pour out of my Spirit upon all flesh. How do 'the rays of the Holy Spirit' in the reading compare with that promise?"
+  },
+  {
+   "id": "exodus-put-off-thy-shoes",
+   "after": "selection:35c46a16f6e5e7de39075951",
+   "responds": [
+    "selection:35c46a16f6e5e7de39075951"
+   ],
+   "relation": "adjacent",
+   "why": "God called to Moses out of the midst of a bush that burned and was not consumed."
+  },
+  {
+   "id": "quran-read",
+   "after": "selection:35c46a16f6e5e7de39075951",
+   "responds": [
+    "selection:35c46a16f6e5e7de39075951"
+   ],
+   "relation": "adjacent",
+   "why": "The first words given to Muhammad were: Read, in the name of thy Lord who createth."
+  },
+  {
+   "id": "isaiah-unclean-lips",
+   "after": "selection:7fd25a597750f2d06080f2b8",
+   "responds": [
+    "selection:7fd25a597750f2d06080f2b8"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah, seeing the Lord, cried 'woe is me, for I am a man of unclean lips', and a coal touched his mouth."
+  },
+  {
+   "id": "deuteronomy-prophet-like-unto-me",
+   "after": "selection:cdc0fc90976731234d7a22fe",
+   "responds": [
+    "selection:cdc0fc90976731234d7a22fe"
+   ],
+   "relation": "adjacent",
+   "why": "God promises in Deuteronomy a prophet in whose mouth he will put his words."
+  },
+  {
+   "id": "genesis-jacobs-ladder",
+   "after": "selection:40d384e1269e73666828efe3",
+   "responds": [
+    "selection:40d384e1269e73666828efe3"
+   ],
+   "relation": "adjacent",
+   "why": "The image is Jacob's dream: a ladder set up on the earth, and the angels of God ascending and descending on it."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "selection:865e75234263a6184f7e02d4",
+   "responds": [
+    "selection:865e75234263a6184f7e02d4"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus used the same comparison for what proceeds from the One: the light encircling the sun, ceaselessly generated from it."
+  },
+  {
+   "id": "plato-poets-like-diviners",
+   "after": "selection:542224ab26577758026a08d8",
+   "responds": [
+    "selection:542224ab26577758026a08d8"
+   ],
+   "relation": "complement",
+   "why": "Plato said that poets write by inspiration, like diviners who say fine things without understanding them. How does the readings' account of revelation differ from inspiration of that kind?"
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "selection:d7ff065293014a53251f4b2b",
+   "responds": [
+    "selection:d7ff065293014a53251f4b2b"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an has believers say: we make no distinction between any of his messengers."
+  },
+  {
+   "id": "john-epistle-try-the-spirits",
+   "after": "selection:d7ff065293014a53251f4b2b",
+   "responds": [
+    "selection:d7ff065293014a53251f4b2b"
+   ],
+   "relation": "complement",
+   "why": "The first letter of John says: believe not every spirit, but try the spirits whether they are of God. By what is a claim to the Holy Spirit tried?"
+  }
+ ],
+ "library": {
+  "quran-true-spirit-brought-it-down": {
+   "text": "Which the True Spirit hath brought down",
+   "work": "Qur’an 26:193",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=26&verse=193",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "job-a-spirit-passed-before-my-face": {
+   "text": "Then a spirit passed before my face; the hair of my flesh stood up: It stood still, but I could not discern the form thereof: an image was before mine eyes, there was silence, and I heard a voice",
+   "work": "Job 4:15–16",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%204%3A15-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

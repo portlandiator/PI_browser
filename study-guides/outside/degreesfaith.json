@@ -1,0 +1,451 @@
+{
+ "format": 2,
+ "slug": "degreesfaith",
+ "subject": "C306A880A1774D0FBF02956CCEAF45FF",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 42,
+ "quotations": 43,
+ "kept": [
+  "source:ABU1000",
+  "source:AB02358",
+  "source:ABU2287",
+  "source:AB04958",
+  "source:AB08680",
+  "source:AB06440",
+  "source:BH02504",
+  "source:BH11628",
+  "source:BH00328",
+  "source:BH00047",
+  "source:BH00306",
+  "source:AB11856",
+  "source:BH00091",
+  "source:BH00002",
+  "source:BH01539",
+  "source:BH07617",
+  "source:BH07883",
+  "source:BH05120",
+  "source:AB12106",
+  "source:AB00919",
+  "source:AB05292",
+  "source:AB06591",
+  "source:AB02155",
+  "source:BH06982",
+  "source:AB01359",
+  "source:ABU3024",
+  "source:ABU2572",
+  "source:ABU0291",
+  "source:ABU0131",
+  "source:ABU3452",
+  "source:ABU3048",
+  "source:AB02475",
+  "source:AB08241",
+  "source:AB05995",
+  "source:BH09052",
+  "source:BH08707",
+  "source:ABU0442",
+  "source:BB00154",
+  "source:ABU1662",
+  "source:ABU0044",
+  "source:AB06350",
+  "selection:dd778b881e8031ecd8293731"
+ ],
+ "introduction": "The readings distinguish kinds and degrees of faith: the faith of birth and tradition, faith that rests on knowledge, and the assurance or certitude in which the heart is at rest; they add that faith is shown in deeds and proved in tests, and that certitude is a gift. The scriptures mark the same steps, from the father who says help thou mine unbelief, to Thomas, to Job who had heard and then saw. Tennyson and Socrates speak for honest doubt and continued questioning, and Paul and Pascal are set against a reading that expects every vice of the person without faith.",
+ "questions": [
+  "What distinguishes faith from assurance in these readings, and what moves a person from one to the other?",
+  "The readings say to cast doubt behind; Tennyson finds faith in honest doubt. Is there a kind of doubt the readings would welcome?",
+  "One reading says that every wickedness may be expected of a person without faith. How do Paul's words on those who are a law unto themselves, and Pascal's on religious conviction, qualify that?",
+  "Why do the readings say that faith is known in times of trial? What have trials shown you?"
+ ],
+ "outside": [
+  {
+   "id": "james-body-without-the-spirit",
+   "after": "source:ABU1000",
+   "responds": [
+    "source:ABU1000"
+   ],
+   "relation": "adjacent",
+   "why": "James says that as the body without the spirit is dead, so faith without works is dead also."
+  },
+  {
+   "id": "james-shew-me-thy-faith",
+   "after": "source:ABU1000",
+   "responds": [
+    "source:ABU1000"
+   ],
+   "relation": "adjacent",
+   "why": "James challenges: shew me thy faith without thy works, and I will shew thee my faith by my works."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB02358",
+   "responds": [
+    "source:AB02358"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that people are known by their fruits, as grapes are not gathered of thorns."
+  },
+  {
+   "id": "quran-found-our-fathers",
+   "after": "source:ABU2287",
+   "responds": [
+    "source:ABU2287"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an records the faith of birth and tradition: we follow that wherein we found our fathers."
+  },
+  {
+   "id": "peter-reason-of-the-hope",
+   "after": "source:ABU2287",
+   "responds": [
+    "source:ABU2287"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks believers to be ready to give a reason for the hope that is in them."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:AB04958",
+   "responds": [
+    "source:AB04958"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews defines faith as the substance of things hoped for, the evidence of things not seen."
+  },
+  {
+   "id": "mark-help-thou-mine-unbelief",
+   "after": "source:AB04958",
+   "responds": [
+    "source:AB04958"
+   ],
+   "relation": "adjacent",
+   "why": "A father cries out, Lord, I believe; help thou mine unbelief: faith asking for more faith."
+  },
+  {
+   "id": "quran-hearts-find-rest",
+   "after": "source:AB08680",
+   "responds": [
+    "source:AB08680"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that hearts find rest in the remembrance of God."
+  },
+  {
+   "id": "john-not-seen-and-yet-believed",
+   "after": "source:AB08680",
+   "responds": [
+    "source:AB08680"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells Thomas: because thou hast seen me, thou hast believed; blessed are they that have not seen."
+  },
+  {
+   "id": "matthew-many-called-few-chosen",
+   "after": "source:AB06440",
+   "responds": [
+    "source:AB06440"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus ends a parable with the saying that many are called, but few are chosen."
+  },
+  {
+   "id": "matthew-seek-and-ye-shall-find",
+   "after": "source:BH02504",
+   "responds": [
+    "source:BH02504"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ask, and it shall be given you; seek, and ye shall find."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:BH11628",
+   "responds": [
+    "source:BH11628"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus answers a question about the way by saying, I am the way, the truth, and the life."
+  },
+  {
+   "id": "corinthians-milk-and-not-meat",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "Paul fed some believers with milk and not with meat, for they were not yet able to bear it."
+  },
+  {
+   "id": "ephesians-measure-of-the-gift",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that grace is given to each according to the measure of the gift."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:BH00091",
+   "responds": [
+    "source:BH00091"
+   ],
+   "relation": "contrast",
+   "why": "Socrates held that the unexamined life is not worth living. Does certitude end the asking of why, or change the spirit in which it is asked?"
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus blesses the pure in heart, for they shall see God, perception following on cleansing."
+  },
+  {
+   "id": "james-wave-of-the-sea",
+   "after": "source:BH07617",
+   "responds": [
+    "source:BH07617"
+   ],
+   "relation": "adjacent",
+   "why": "James likens one who wavers to a wave of the sea driven with the wind and tossed."
+  },
+  {
+   "id": "tennyson-honest-doubt",
+   "after": "source:BH07617",
+   "responds": [
+    "source:BH07617"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson finds more faith in honest doubt than in half the creeds. Is doubt only to be cast behind, or can it be part of coming to certitude?"
+  },
+  {
+   "id": "psalm-taste-and-see",
+   "after": "source:BH05120",
+   "responds": [
+    "source:BH05120"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm invites: O taste and see that the Lord is good."
+  },
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:AB05292",
+   "responds": [
+    "source:AB05292"
+   ],
+   "relation": "adjacent",
+   "why": "Paul does not count himself to have apprehended, but presses toward the mark."
+  },
+  {
+   "id": "corinthians-quit-you-like-men",
+   "after": "source:AB06591",
+   "responds": [
+    "source:AB06591"
+   ],
+   "relation": "adjacent",
+   "why": "Paul's charge is to watch, stand fast in the faith and be strong."
+  },
+  {
+   "id": "quran-inherit-the-scripture",
+   "after": "source:AB02155",
+   "responds": [
+    "source:AB02155"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse the reading expounds: of the heirs of scripture some wrong themselves, some are lukewarm, some outstrip others in good deeds."
+  },
+  {
+   "id": "zechariah-refine-them-as-silver",
+   "after": "source:BH06982",
+   "responds": [
+    "source:BH06982"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah has God bring a remnant through the fire and refine them as silver is refined."
+  },
+  {
+   "id": "analects-pine-and-cypress",
+   "after": "source:BH06982",
+   "responds": [
+    "source:BH06982"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius notes that only when the year grows cold do we see that pine and cypress are the last to lose their leaves."
+  },
+  {
+   "id": "romans-weak-in-the-faith",
+   "after": "source:AB01359",
+   "responds": [
+    "source:AB01359"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks that one who is weak in the faith be received, and not for disputing."
+  },
+  {
+   "id": "paine-times-that-try-mens-souls",
+   "after": "source:ABU3024",
+   "responds": [
+    "source:ABU3024"
+   ],
+   "relation": "adjacent",
+   "why": "Paine wrote that these are the times that try men's souls, when the summer soldier shrinks from service."
+  },
+  {
+   "id": "lovelace-stone-walls",
+   "after": "source:ABU2572",
+   "responds": [
+    "source:ABU2572"
+   ],
+   "relation": "adjacent",
+   "why": "Lovelace says stone walls do not make a prison for a mind innocent and quiet."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:ABU0291",
+   "responds": [
+    "source:ABU0291"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that faith is not of yourselves: it is the gift of God."
+  },
+  {
+   "id": "corinthians-sweet-savour",
+   "after": "source:ABU0131",
+   "responds": [
+    "source:ABU0131"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of the savour of the knowledge of God made manifest in every place."
+  },
+  {
+   "id": "revelation-stand-at-the-door",
+   "after": "source:ABU3048",
+   "responds": [
+    "source:ABU3048"
+   ],
+   "relation": "adjacent",
+   "why": "In John's vision the Lord stands at the door and knocks, and enters where the door is opened."
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:AB02475",
+   "responds": [
+    "source:AB02475"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews points to a great cloud of witnesses and asks its readers to run with patience."
+  },
+  {
+   "id": "job-now-mine-eye-seeth",
+   "after": "source:AB08241",
+   "responds": [
+    "source:AB08241"
+   ],
+   "relation": "adjacent",
+   "why": "Job marks the same step: I have heard of thee by the hearing of the ear, but now mine eye seeth thee."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB08241",
+   "responds": [
+    "source:AB08241"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see through a glass, darkly, but then face to face."
+  },
+  {
+   "id": "isaiah-mind-is-stayed",
+   "after": "source:AB05995",
+   "responds": [
+    "source:AB05995"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises perfect peace to the one whose mind is stayed on God."
+  },
+  {
+   "id": "quran-breath-of-joseph",
+   "after": "source:BH08707",
+   "responds": [
+    "source:BH08707"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an Jacob says he is conscious of the breath of Joseph, though his sons call him a dotard."
+  },
+  {
+   "id": "psalm-why-art-thou-cast-down",
+   "after": "source:BB00154",
+   "responds": [
+    "source:BB00154"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks his own soul why it is cast down, and tells it to hope in God."
+  },
+  {
+   "id": "luke-that-thy-faith-fail-not",
+   "after": "source:BB00154",
+   "responds": [
+    "source:BB00154"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells Simon that he has prayed for him, that his faith fail not."
+  },
+  {
+   "id": "romans-law-unto-themselves",
+   "after": "source:ABU1662",
+   "responds": [
+    "source:ABU1662"
+   ],
+   "relation": "contrast",
+   "why": "Paul says that those who have not the law may do by nature the things it contains, and are a law unto themselves. Is every wickedness to be expected of one without faith?"
+  },
+  {
+   "id": "pascal-religious-conviction",
+   "after": "source:ABU1662",
+   "responds": [
+    "source:ABU1662"
+   ],
+   "relation": "contrast",
+   "why": "Pascal observed that men never do evil so completely and cheerfully as from religious conviction. Is unbelief the root of vice, or can belief be one too?"
+  },
+  {
+   "id": "isaiah-draw-near-with-their-mouth",
+   "after": "source:ABU0044",
+   "responds": [
+    "source:ABU0044"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say of a people that they honour him with their lips while their heart is far from him."
+  },
+  {
+   "id": "luke-why-call-ye-me-lord",
+   "after": "source:ABU0044",
+   "responds": [
+    "source:ABU0044"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asks why they call him Lord, Lord, and do not the things he says."
+  },
+  {
+   "id": "john-blind-now-i-see",
+   "after": "selection:dd778b881e8031ecd8293731",
+   "responds": [
+    "selection:dd778b881e8031ecd8293731"
+   ],
+   "relation": "adjacent",
+   "why": "The man healed of blindness says: one thing I know, that whereas I was blind, now I see."
+  },
+  {
+   "id": "john-my-lord-and-my-god",
+   "after": "selection:dd778b881e8031ecd8293731",
+   "responds": [
+    "selection:dd778b881e8031ecd8293731"
+   ],
+   "relation": "adjacent",
+   "why": "Thomas is invited to reach out his finger and see, and answers, my Lord and my God."
+  }
+ ],
+ "library": {}
+}

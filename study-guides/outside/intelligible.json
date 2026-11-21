@@ -1,0 +1,201 @@
+{
+ "format": 2,
+ "slug": "intelligible",
+ "subject": "D2EADC40CD574D5F829C038D7AA42B76",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 16,
+ "quotations": 18,
+ "kept": [
+  "source:AB01360",
+  "source:AB00262",
+  "source:AB00259",
+  "source:ABU0029",
+  "source:AB08921",
+  "source:ABU0184",
+  "source:AB00567",
+  "source:AB00258",
+  "source:AB01290",
+  "source:AB00954",
+  "source:AB01459",
+  "source:ABU1881",
+  "source:AB03468",
+  "source:AB00057",
+  "source:ABU2757",
+  "source:ABU0102"
+ ],
+ "introduction": "These readings, all from ‘Abdu’l-Bahá, draw one distinction and apply it widely. Some realities are perceptible to the senses; others, such as mind, love and the soul, have no outward form and are grasped only by the intellect, and can be spoken of only through sensible images. The distinction is then used to explain how Scripture speaks, why spirit does not enter or leave a body as bodies do, and why the next world cannot be pictured from this one. All eighteen quotations are read here beside eighteen from elsewhere. Most stand alongside: Paul on things seen and unseen, Plato's cave, Milton likening spiritual to corporal forms, Aristotle on reason and light, the Tao that cannot be named, Newton on knowing God only by his works. Three press the other way or add a doubt: Locke's mind as white paper, Hume finding nothing in himself but perceptions, and the suggestion in Plato's Phaedo that the soul is only a harmony of the body.",
+ "questions": [
+  "Name three things you are sure exist that no sense perceives. How do you know them?",
+  "The readings say intelligible realities must be 'cast into sensible forms' to be explained. What is gained and what is risked when love is called fire, or knowledge light?",
+  "Locke held that the mind has nothing that experience did not write on it. How would the readings reply?",
+  "Hume could find only perceptions when he looked for himself. What would count as perceiving the mind?",
+  "If the next world is to this one as this one is to the womb, what kind of talk about it is possible?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:AB01360",
+   "responds": [
+    "source:AB01360"
+   ],
+   "relation": "adjacent",
+   "why": "Paul divides things the same way: the things which are seen are temporal, but the things which are not seen are eternal."
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:AB01360",
+   "responds": [
+    "source:AB01360"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures people chained in an underground den who can see only what is before them, and take that for the whole."
+  },
+  {
+   "id": "milton-spiritual-to-corporal",
+   "after": "source:AB00262",
+   "responds": [
+    "source:AB00262"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel uses the same method: what surmounts the reach of human sense he will tell by likening spiritual to corporal forms."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews calls faith the substance of things hoped for, the evidence of things not seen."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "contrast",
+   "why": "Locke supposed the mind to be white paper, void of all ideas until experience writes on it. If all knowledge begins in the senses, what becomes of intelligible realities?"
+  },
+  {
+   "id": "aristotle-reason-is-man",
+   "after": "source:ABU0029",
+   "responds": [
+    "source:ABU0029"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that reason, more than anything else, is man, so that the life according to reason is the best for him."
+  },
+  {
+   "id": "romans-things-that-are-made",
+   "after": "source:AB08921",
+   "responds": [
+    "source:AB08921"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that the invisible things of God are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:ABU0184",
+   "responds": [
+    "source:ABU0184"
+   ],
+   "relation": "contrast",
+   "why": "Hume reports that when he looks within he always stumbles on some particular perception, and never catches himself without one. Does that show there is nothing beyond perception, or that this is the wrong way to look?"
+  },
+  {
+   "id": "plato-harmony-and-the-lyre",
+   "after": "source:AB00567",
+   "responds": [
+    "source:AB00567"
+   ],
+   "relation": "complement",
+   "why": "A speaker in Plato's Phaedo asks whether the soul might be like the harmony of a lyre: invisible and fair, yet dependent on the strings. How does the reading answer?"
+  },
+  {
+   "id": "john-earthly-things-heavenly-things",
+   "after": "source:AB00258",
+   "responds": [
+    "source:AB00258"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus asked Nicodemus: if I have told you earthly things and ye believe not, how shall ye believe if I tell you of heavenly things?"
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:AB01290",
+   "responds": [
+    "source:AB01290"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told the woman of Samaria that God is a Spirit, to be worshipped in spirit and in truth, not on one mountain."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:AB00954",
+   "responds": [
+    "source:AB00954"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Timaeus begins by asking what always is and has no becoming, and what is always becoming and never is."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB01459",
+   "responds": [
+    "source:AB01459"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses a like comparison for the world to come: now we see through a glass, darkly; but then face to face."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:ABU1881",
+   "responds": [
+    "source:ABU1881"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching opens by saying that the way that can be told is not the enduring way, nor the name that can be named the enduring name."
+  },
+  {
+   "id": "wordsworth-life-of-things",
+   "after": "source:AB03468",
+   "responds": [
+    "source:AB03468"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth speaks of an eye made quiet by harmony and joy, with which we see into the life of things."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that his dignity must be sought not from space, which swallows him, but from the government of his thought."
+  },
+  {
+   "id": "aristotle-mind-like-light",
+   "after": "source:ABU2757",
+   "responds": [
+    "source:ABU2757"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle compares the active mind to light, which makes potential colours into actual colours."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "adjacent",
+   "why": "Newton says we have no idea of the substance of God, and know him only by his contrivances and his dominion."
+  }
+ ],
+ "library": {}
+}

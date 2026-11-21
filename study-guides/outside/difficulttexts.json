@@ -1,0 +1,246 @@
+{
+ "format": 2,
+ "slug": "difficulttexts",
+ "subject": "F2018257FF444B239E26ECE36E0BBD84",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 13,
+ "quotations": 18,
+ "kept": [
+  "source:ABU0523",
+  "source:BH00047",
+  "source:AB03587",
+  "source:BH00002",
+  "source:AB04805",
+  "source:BH00627",
+  "source:BH00331",
+  "source:AB04031",
+  "source:BH00321",
+  "source:BH08893",
+  "source:BH10508",
+  "source:ABU2916",
+  "selection:f795dd71fae2a53c5f40dd33"
+ ],
+ "introduction": "These readings admit that the Word of God is hard: its meanings are beyond ordinary comprehension, it is veiled by the very intensity of its light, it is given in the measure its hearers can bear, and a single word of it holds both mercy and the sword. They advise asking the Source for understanding. Each of the eighteen quotations is read here beside one from elsewhere. Most stand alongside: Peter on things hard to be understood in Paul, Isaiah's sealed book, the Qur'an's clear and allegorical verses, the man who asks Philip for a guide, 'this is an hard saying', James's counsel to ask. Three push back or add a side: Carlyle's honest boredom with a scripture not his own, Aquinas's rule that argument rests on the literal sense, and the rabbis' saying that the Torah speaks in the language of men.",
+ "questions": [
+  "The readings say that the Word is veiled by the intensity of its own light. What might that mean for a text you find difficult?",
+  "One reading says that the true meaning is revealed only to the Manifestations of God; Aquinas says that argument can be drawn only from the literal sense. What is left for an ordinary reader to do?",
+  "Carlyle found another people's scripture wearisome. What have you needed, besides the page, to read a hard sacred text well?",
+  "The readings advise asking God when one cannot understand, and James says the same. What does asking look like in practice, alongside study?"
+ ],
+ "outside": [
+  {
+   "id": "peter-hard-to-be-understood",
+   "after": "source:ABU0523",
+   "responds": [
+    "source:ABU0523"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter says that in Paul's epistles are some things hard to be understood, which the unlearned and unstable wrest."
+  },
+  {
+   "id": "carlyle-toilsome-reading",
+   "after": "source:ABU0523",
+   "responds": [
+    "source:ABU0523"
+   ],
+   "relation": "contrast",
+   "why": "Carlyle, who admired Muhammad, found the Koran in translation as toilsome reading as he ever undertook, a wearisome confused jumble. How much of the difficulty of a sacred text lies in the text, and how much in the reader's distance from it?"
+  },
+  {
+   "id": "milton-dark-with-excessive-bright",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Milton addresses God as a fountain of light, himself invisible amidst the glorious brightness where he sits."
+  },
+  {
+   "id": "corinthians-vail-upon-their-heart",
+   "after": "source:AB03587",
+   "responds": [
+    "source:AB03587"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of a vail that remains untaken away in the reading of the scripture, and lies upon the heart."
+  },
+  {
+   "id": "isaiah-book-that-is-sealed",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that the vision has become as the words of a book that is sealed: the learned cannot read it because it is sealed, and the unlearned because he is not learned."
+  },
+  {
+   "id": "quran-allegorical-verses",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that some of its verses are clear and others allegorical, and that none knoweth their explanation save God."
+  },
+  {
+   "id": "matthew-mysteries-of-the-kingdom",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples that to them it is given to know the mysteries of the kingdom of heaven, but to others it is not given."
+  },
+  {
+   "id": "acts-understandest-thou",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Philip asks a man reading Isaiah whether he understands what he reads, and is answered: how can I, except some man should guide me?"
+  },
+  {
+   "id": "luke-opened-their-understanding",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of the risen Jesus that he opened his disciples' understanding, that they might understand the scriptures."
+  },
+  {
+   "id": "aquinas-founded-on-the-literal",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Aquinas held that every sense of scripture is founded on the literal, from which alone can any argument be drawn. If the true meaning is revealed to none but the Manifestations, what may an ordinary reader conclude from the plain words?"
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:AB04805",
+   "responds": [
+    "source:AB04805"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: as the heavens are higher than the earth, so are my thoughts higher than your thoughts."
+  },
+  {
+   "id": "corinthians-milk-and-not-meat",
+   "after": "source:BH00627",
+   "responds": [
+    "source:BH00627"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Corinthians that he fed them with milk, and not with meat, for they were not able to bear it."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:BH00627",
+   "responds": [
+    "source:BH00627"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to his disciples: I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "james-if-any-lack-wisdom",
+   "after": "source:BH00331",
+   "responds": [
+    "source:BH00331"
+   ],
+   "relation": "adjacent",
+   "why": "James says: if any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not."
+  },
+  {
+   "id": "john-hard-saying",
+   "after": "source:AB04031",
+   "responds": [
+    "source:AB04031"
+   ],
+   "relation": "adjacent",
+   "why": "Many of Jesus's own disciples, when they heard him, said: this is an hard saying; who can hear it?"
+  },
+  {
+   "id": "hebrews-twoedged-sword",
+   "after": "source:BH00321",
+   "responds": [
+    "source:BH00321"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews calls the word of God sharper than any twoedged sword, a discerner of the thoughts and intents of the heart."
+  },
+  {
+   "id": "philippians-to-depart-or-to-abide",
+   "after": "source:ABU2916",
+   "responds": [
+    "source:ABU2916"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that he has a desire to depart, which is far better, and yet stays for the sake of others."
+  },
+  {
+   "id": "talmud-language-of-men",
+   "after": "selection:f795dd71fae2a53c5f40dd33",
+   "responds": [
+    "selection:f795dd71fae2a53c5f40dd33"
+   ],
+   "relation": "complement",
+   "why": "The rabbis said that the Torah spoke in the language of men. Augustine found the scriptures lowly at the entrance and lofty within. Is the humble style of a sacred text a concession, or part of what it teaches?"
+  }
+ ],
+ "library": {
+  "james-if-any-lack-wisdom": {
+   "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him",
+   "work": "James 1:5",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%201%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-hard-saying": {
+   "text": "Many therefore of his disciples, when they had heard this, said, This is an hard saying; who can hear it",
+   "work": "John 6:60",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%206%3A60&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

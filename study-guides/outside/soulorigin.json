@@ -1,0 +1,211 @@
+{
+ "format": 2,
+ "slug": "soulorigin",
+ "subject": "9A628005EF1D41DBB6DECA0975FD85FD",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 18,
+ "quotations": 19,
+ "kept": [
+  "source:AB00316",
+  "source:AB11515",
+  "source:AB01631",
+  "source:AB08452",
+  "source:AB03569",
+  "source:ABU0321",
+  "source:ABU3556",
+  "source:ABU3604",
+  "source:ABU3611",
+  "source:BH02872",
+  "source:ABU1881",
+  "source:AB01239",
+  "source:ABU0114",
+  "source:BB00151",
+  "selection:fb57ba62ea0be37d7339dce3",
+  "selection:a814b19d8e20b49f5aefbbdf",
+  "selection:3365f59840d41cc041b9e23f",
+  "selection:e1a125df7991e4b35cc67d8d"
+ ],
+ "introduction": "These readings ask where the soul comes from. They answer that it emanates from God as speech from a speaker, a ray and not a part; that each soul has a beginning, at conception, and no end; and that before the body it existed only as a potentiality, not as a person. Each of the nineteen quotations is read here beside one from elsewhere. Most stand alongside: the breath of life in Genesis, the Preacher's spirit that returns to God who gave it, the Qur'an on the stages of the embryo and on how little is known of the Spirit, Zechariah, Plato, Emerson. Four push back or add a side: Wordsworth and Plato's Socrates speak for a soul that lived before, Jeremiah is known before he is formed, and the Upanishad's 'thou art it' stands beside a reading that both affirms and guards that identity.",
+ "questions": [
+  "The readings say that the soul emanates from God as speech from a speaker. What does that comparison allow you to say about the soul, and what does it forbid?",
+  "Wordsworth and Plato hold that the soul lived before this life. The readings say that each soul has a beginning. What difference does the answer make to how a child is regarded?",
+  "The Qur'an says that of knowledge of the Spirit we have been given but little. Which statements in these readings are offered as certain, and which as the edge of what can be said?",
+  "One reading says 'thou art He and He is thou, except that thou art thou and He is He'. What is the force of the exception?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm uses the same picture of speech and breath: by the word of the Lord were the heavens made, and all the host of them by the breath of his mouth."
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:AB11515",
+   "responds": [
+    "source:AB11515"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that the dust shall return to the earth as it was, and the spirit shall return unto God who gave it."
+  },
+  {
+   "id": "plato-soul-likeness-of-the-divine",
+   "after": "source:AB01631",
+   "responds": [
+    "source:AB01631"
+   ],
+   "relation": "adjacent",
+   "why": "Plato sets the soul in the very likeness of the divine and indissoluble, and the body in the likeness of the mortal and dissoluble."
+  },
+  {
+   "id": "ecclesiastes-bones-do-grow",
+   "after": "source:AB08452",
+   "responds": [
+    "source:AB08452"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that thou knowest not what is the way of the spirit, nor how the bones do grow in the womb."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:AB03569",
+   "responds": [
+    "source:AB03569"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God breathed into man's nostrils the breath of life, and man became a living soul."
+  },
+  {
+   "id": "psalm-made-in-secret",
+   "after": "source:ABU0321",
+   "responds": [
+    "source:ABU0321"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that his substance was not hid from God when he was made in secret."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:ABU3556",
+   "responds": [
+    "source:ABU3556"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth pictures the soul as coming from afar, not in entire forgetfulness, trailing clouds of glory. What is the difference between his pre-existence and an existence 'not as we know personality'?"
+  },
+  {
+   "id": "plato-soul-born-many-times",
+   "after": "source:ABU3604",
+   "responds": [
+    "source:ABU3604"
+   ],
+   "relation": "contrast",
+   "why": "Plato's Socrates holds that the soul, being immortal, has been born again many times and has seen all things. What is lost, and what is gained, if the soul before the body is only a potentiality with no consciousness?"
+  },
+  {
+   "id": "quran-when-he-was-naught",
+   "after": "source:ABU3604",
+   "responds": [
+    "source:ABU3604"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks: doth not man remember that We created him before, when he was naught?"
+  },
+  {
+   "id": "zechariah-formeth-the-spirit-of-man",
+   "after": "source:ABU3611",
+   "responds": [
+    "source:ABU3611"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah speaks of the Lord who layeth the foundation of the earth and formeth the spirit of man within him."
+  },
+  {
+   "id": "quran-knowledge-but-little",
+   "after": "source:ABU1881",
+   "responds": [
+    "source:ABU1881"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an answers those who ask about the Spirit: the Spirit is by command of my Lord, and of knowledge ye have been vouchsafed but little."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:AB01239",
+   "responds": [
+    "source:AB01239"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "john-born-of-water",
+   "after": "source:ABU0114",
+   "responds": [
+    "source:ABU0114"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that what is born of the flesh is flesh, and what is born of the Spirit is spirit."
+  },
+  {
+   "id": "hallaj-i-am-he-whom-i-love",
+   "after": "source:BB00151",
+   "responds": [
+    "source:BB00151"
+   ],
+   "relation": "adjacent",
+   "why": "The Sufi al-Hallaj wrote: I am He whom I love, and He whom I love is I."
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:BB00151",
+   "responds": [
+    "source:BB00151"
+   ],
+   "relation": "complement",
+   "why": "The Chandogya Upanishad teaches of the subtle essence in which all that exists has its self: thou art it. What does this reading add by its 'except that thou art thou and He is He'?"
+  },
+  {
+   "id": "john-epistle-see-him-as-he-is",
+   "after": "selection:fb57ba62ea0be37d7339dce3",
+   "responds": [
+    "selection:fb57ba62ea0be37d7339dce3"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that now are we the sons of God, and it doth not yet appear what we shall be."
+  },
+  {
+   "id": "jeremiah-before-i-formed-thee",
+   "after": "selection:a814b19d8e20b49f5aefbbdf",
+   "responds": [
+    "selection:a814b19d8e20b49f5aefbbdf"
+   ],
+   "relation": "complement",
+   "why": "Jeremiah hears God say: before I formed thee in the belly I knew thee. Can a soul be known before it exists, and what kind of 'before' is that?"
+  },
+  {
+   "id": "quran-from-a-clot",
+   "after": "selection:3365f59840d41cc041b9e23f",
+   "responds": [
+    "selection:3365f59840d41cc041b9e23f"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an follows the embryo from a drop to a clot, to bones clothed with flesh, and then says: We produced it as another creation."
+  },
+  {
+   "id": "emerson-stream-whose-source-is-hidden",
+   "after": "selection:e1a125df7991e4b35cc67d8d",
+   "responds": [
+    "selection:e1a125df7991e4b35cc67d8d"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that man is a stream whose source is hidden, his being descending into him from he knows not whence."
+  }
+ ],
+ "library": {}
+}

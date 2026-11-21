@@ -1,0 +1,563 @@
+{
+ "format": 2,
+ "slug": "relativitytruth",
+ "subject": "4D8130F061AE4BE9B77AA065ABD01E64",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 45,
+ "quotations": 48,
+ "kept": [
+  "source:BH00012",
+  "source:BH00047",
+  "source:BH00005",
+  "source:BH00002",
+  "source:AB00006",
+  "source:BH00048",
+  "source:BH00245",
+  "source:BH00066",
+  "source:BH00112",
+  "source:BH04829",
+  "source:AB00023",
+  "source:AB00020",
+  "source:AB00188",
+  "source:ABU0179",
+  "source:AB02618",
+  "source:AB00839",
+  "source:ABU0070",
+  "source:ABU0766",
+  "source:ABU1181",
+  "source:AB00077",
+  "source:BH00328",
+  "source:BH03585",
+  "source:AB00100",
+  "source:ABU3454",
+  "selection:f3e4caf9c1e67096529df0ec",
+  "selection:d153d12a61dc93e8dd4f9133",
+  "selection:376c1a41a16502360510c48c",
+  "selection:1cd78cfcc22db1c70863c1a7",
+  "selection:3e788e91aeab5991001b5bdb",
+  "selection:81339c0b880ed2935a1b272c",
+  "selection:1212d7e893e2ec7e0e56f4d2",
+  "selection:722c520928f1ece406e4472f",
+  "selection:87c92738ca20210012fcc5b3",
+  "selection:a4407421f73189519b2335d6",
+  "selection:bb8382f021426e49e6372850",
+  "selection:60fb6527264030b9fab853e5",
+  "selection:a79907ce1c9a51c1ab8b811c",
+  "selection:a953812b27c8e7fd386dd34c",
+  "selection:62a2baa549b68c644b5aa922",
+  "selection:714880e4afe94cee9b7de83a",
+  "selection:a038fee7336844217974e115",
+  "selection:b678d5e34a2a55d7866044c8",
+  "selection:e7ef5735c473d9c3b1e92108",
+  "selection:61837b59ecc4021d7f69b9ee",
+  "selection:bda39823b8c47a0847b18523"
+ ],
+ "introduction": "These readings teach a way of seeing: each thing in its own place and rank; one light showing yellow, red and white through different glasses; one word understood by each hearer according to capacity; existence and non-existence, nearness and remoteness, the natural and the supernatural all said in relation to something. They apply it to old disputes about God and the world, and decline both to merge Creator and creation and to call creation nothing. Each of the forty-eight quotations is read here beside one from elsewhere. Most stand alongside: Plato's cave, Shelley's dome of many-coloured glass, the blind men and the elephant, Paul's 'we know in part', the Rig Veda's one truth with many names, Augustine, the Tao Teh King. Seven push back or add a side: Protagoras, Pascal and Hamlet press the question of relativism, Feuerbach and Spinoza draw conclusions the readings refuse, and Pilate asks what truth is.",
+ "questions": [
+  "One light appears yellow, red and white through different glasses, and so, the reading says, conflict has prevailed among men. What is the glass in a disagreement you know well?",
+  "Protagoras says that man is the measure of all things; Pascal mocks truth that changes at a border. How do these readings differ from saying that truth is whatever each person sees?",
+  "The readings say that existence and non-existence are relative: compared to God nothing exists, yet things are not nothing. What mistake does each half of that guard against?",
+  "Two believers accuse each other of saying too much and too little about the Manifestation, and both are told they are right. When can two opposed statements both be accepted, and when not?",
+  "Where has learning to consider something 'in its own place' changed your judgment of it?"
+ ],
+ "outside": [
+  {
+   "id": "plato-cave",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures prisoners in an underground den who take the shadows before them for the whole of what is."
+  },
+  {
+   "id": "heraclitus-to-god-all-things-are-fair",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus said that to God all things are fair and good and right, but men hold some things wrong and some right."
+  },
+  {
+   "id": "shelley-many-coloured-glass",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley uses the same image: life, like a dome of many-coloured glass, stains the white radiance of eternity."
+  },
+  {
+   "id": "saxe-partly-in-the-right",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "In Saxe's poem six blind men dispute loud and long about an elephant each has touched in one place, each partly in the right, and all in the wrong."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that God is not far from every one of us, for in him we live, and move, and have our being."
+  },
+  {
+   "id": "mark-without-a-parable",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Mark says that Jesus spoke the word to the people in many parables, as they were able to hear it."
+  },
+  {
+   "id": "augustine-why-not-rather-as-both",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine, when one reader says the author meant this and another that, asks: why not rather as both, if both be true?"
+  },
+  {
+   "id": "corinthians-we-know-in-part",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: we know in part, and we prophesy in part, but when that which is perfect is come, that which is in part shall be done away."
+  },
+  {
+   "id": "pascal-bounded-by-a-river",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "contrast",
+   "why": "Pascal mocked a justice bounded by a river: truth on this side of the Pyrenees, error on the other. How is saying that every viewpoint is complete in its own station different from the relativism he mocks?"
+  },
+  {
+   "id": "saxe-not-one-of-them-has-seen",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "Saxe's moral is that in theologic wars the disputants rail on in ignorance of what each other mean, and prate about an elephant not one of them has seen."
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "The Rig Veda says that to what is One, sages give many a title."
+  },
+  {
+   "id": "jeremiah-fill-heaven-and-earth",
+   "after": "source:BH00245",
+   "responds": [
+    "source:BH00245"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah has God ask: am I a God at hand, and not a God afar off? Do not I fill heaven and earth?"
+  },
+  {
+   "id": "talmud-hammer-breaks-a-stone",
+   "after": "source:BH00066",
+   "responds": [
+    "source:BH00066"
+   ],
+   "relation": "adjacent",
+   "why": "The Talmud says that as a hammer breaks a stone into several fragments, so from one verse emerge several explanations."
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:BH00066",
+   "responds": [
+    "source:BH00066"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable one seed falls by the way side, on stony places, among thorns and on good ground, and fares differently in each."
+  },
+  {
+   "id": "blake-black-where-i-read-white",
+   "after": "source:BH00066",
+   "responds": [
+    "source:BH00066"
+   ],
+   "relation": "adjacent",
+   "why": "Blake says of two readers of one Bible: thou read'st black where I read white."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:BH00112",
+   "responds": [
+    "source:BH00112"
+   ],
+   "relation": "adjacent",
+   "why": "In the Revelation he that sat upon the throne says: behold, I make all things new."
+  },
+  {
+   "id": "plato-man-is-the-measure",
+   "after": "source:BH04829",
+   "responds": [
+    "source:BH04829"
+   ],
+   "relation": "contrast",
+   "why": "Protagoras taught that man is the measure of all things. If whatever gives assurance and contentment is acceptable in the sight of God, what keeps that from becoming his doctrine?"
+  },
+  {
+   "id": "emerson-circles",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says that the eye is the first circle, the horizon it forms the second, and that this figure is repeated without end."
+  },
+  {
+   "id": "abbott-upward-not-northward",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "In Abbott's Flatland a child of a world with two dimensions finds a third direction absurd: how could a thing move upward, and not northward?"
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB00188",
+   "responds": [
+    "source:AB00188"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that now we see through a glass, darkly, but then face to face."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel speaks of the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "shakespeare-revels-ended",
+   "after": "source:AB02618",
+   "responds": [
+    "source:AB02618"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Prospero says that we are such stuff as dreams are made on, and that the great globe itself shall dissolve."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:AB02618",
+   "responds": [
+    "source:AB02618"
+   ],
+   "relation": "adjacent",
+   "why": "Plato asks what is that which always is and has no becoming, and what is that which is always becoming and never is."
+  },
+  {
+   "id": "shakespeare-thinking-makes-it-so",
+   "after": "source:AB02618",
+   "responds": [
+    "source:AB02618"
+   ],
+   "relation": "contrast",
+   "why": "Hamlet says that there is nothing either good or bad, but thinking makes it so. Where do the readings draw the line between what depends on the beholder and what does not?"
+  },
+  {
+   "id": "augustine-neither-altogether-are-nor-are-not",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine saw that the things below God neither altogether are, nor altogether are not: they are because they are from him, and are not because they are not what he is."
+  },
+  {
+   "id": "tao-existence-sprang-from-non-existence",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King says that all things sprang from it as existing, and that existence sprang from it as non-existent."
+  },
+  {
+   "id": "tao-beauty-and-ugliness",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Teh King observes that all know the beauty of the beautiful, and in doing so have the idea of what ugliness is."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius founded his account of nature on the principle that nothing from nothing ever yet was born."
+  },
+  {
+   "id": "aristotle-elements-change-into-one-another",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held it evident that the elements are by nature such as to change into one another."
+  },
+  {
+   "id": "jefferson-difference-of-opinion",
+   "after": "source:ABU1181",
+   "responds": [
+    "source:ABU1181"
+   ],
+   "relation": "adjacent",
+   "why": "Jefferson said at his inauguration that every difference of opinion is not a difference of principle."
+  },
+  {
+   "id": "romans-who-art-thou-that-judgest",
+   "after": "source:ABU1181",
+   "responds": [
+    "source:ABU1181"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: who art thou that judgest another man's servant? To his own master he standeth or falleth."
+  },
+  {
+   "id": "blake-grain-of-sand",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "Blake speaks of seeing a world in a grain of sand, and a heaven in a wild flower."
+  },
+  {
+   "id": "pascal-a-nothing-in-comparison-with-the-infinite",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal calls man a Nothing in comparison with the Infinite, and an All in comparison with the Nothing."
+  },
+  {
+   "id": "isaiah-nations-as-a-drop",
+   "after": "source:BH03585",
+   "responds": [
+    "source:BH03585"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that before God the nations are as a drop of a bucket, and are counted as the small dust of the balance."
+  },
+  {
+   "id": "rousseau-everywhere-in-chains",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "Rousseau began his best-known book: man is born free, and everywhere he is in chains."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:ABU3454",
+   "responds": [
+    "source:ABU3454"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: know ye not that your body is the temple of the Holy Ghost which is in you?"
+  },
+  {
+   "id": "chandogya-only-that-which-is",
+   "after": "selection:376c1a41a16502360510c48c",
+   "responds": [
+    "selection:376c1a41a16502360510c48c"
+   ],
+   "relation": "adjacent",
+   "why": "The Chandogya Upanishad asks how that which is could be born of that which is not."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "selection:a4407421f73189519b2335d6",
+   "responds": [
+    "selection:a4407421f73189519b2335d6"
+   ],
+   "relation": "adjacent",
+   "why": "Xenophanes said that if oxen and horses could paint, horses would paint the forms of the gods like horses."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "selection:a4407421f73189519b2335d6",
+   "responds": [
+    "selection:a4407421f73189519b2335d6"
+   ],
+   "relation": "contrast",
+   "why": "Feuerbach concluded that the true sense of theology is anthropology. If every seeker reads only letters from the book of his own self, how is that conclusion escaped?"
+  },
+  {
+   "id": "john-seen-the-father",
+   "after": "selection:bb8382f021426e49e6372850",
+   "responds": [
+    "selection:bb8382f021426e49e6372850"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to Philip, who asks to be shown the Father: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "selection:60fb6527264030b9fab853e5",
+   "responds": [
+    "selection:60fb6527264030b9fab853e5"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of beholding as in a glass the glory of the Lord, and being changed into the same image."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "selection:a79907ce1c9a51c1ab8b811c",
+   "responds": [
+    "selection:a79907ce1c9a51c1ab8b811c"
+   ],
+   "relation": "adjacent",
+   "why": "Mill observed that he who knows only his own side of the case knows little of that."
+  },
+  {
+   "id": "john-what-is-truth",
+   "after": "selection:a79907ce1c9a51c1ab8b811c",
+   "responds": [
+    "selection:a79907ce1c9a51c1ab8b811c"
+   ],
+   "relation": "complement",
+   "why": "Pilate, with the accused before him bearing witness to the truth, asks: what is truth? What separates his question from the patience with two opposed readers shown here?"
+  },
+  {
+   "id": "milton-foreknowledge-no-influence",
+   "after": "selection:a953812b27c8e7fd386dd34c",
+   "responds": [
+    "selection:a953812b27c8e7fd386dd34c"
+   ],
+   "relation": "adjacent",
+   "why": "Milton has God say of his creatures that if he foreknew, foreknowledge had no influence on their fault."
+  },
+  {
+   "id": "hallaj-i-am-he-whom-i-love",
+   "after": "selection:714880e4afe94cee9b7de83a",
+   "responds": [
+    "selection:714880e4afe94cee9b7de83a"
+   ],
+   "relation": "complement",
+   "why": "The Sufi al-Hallaj wrote: I am He whom I love, and He whom I love is I. What do such sayings say truly, according to the readings, and where do they overreach?"
+  },
+  {
+   "id": "wordsworth-rolls-through-all-things",
+   "after": "selection:e7ef5735c473d9c3b1e92108",
+   "responds": [
+    "selection:e7ef5735c473d9c3b1e92108"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth felt a presence, a motion and a spirit, that rolls through all things."
+  },
+  {
+   "id": "cloud-by-love-not-thought",
+   "after": "selection:61837b59ecc4021d7f69b9ee",
+   "responds": [
+    "selection:61837b59ecc4021d7f69b9ee"
+   ],
+   "relation": "adjacent",
+   "why": "The Cloud of Unknowing says that God may well be loved, but not thought."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "selection:bda39823b8c47a0847b18523",
+   "responds": [
+    "selection:bda39823b8c47a0847b18523"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza held that all things which are, are in God, and without him can neither be nor be conceived. Is that the unity of existence which this passage calls joining partners with God?"
+  }
+ ],
+ "library": {
+  "saxe-partly-in-the-right": {
+   "text": "And so these men of Indostan / Disputed loud and long, / Each in his own opinion / Exceeding stiff and strong, / Though each was partly in the right, / And all were in the wrong",
+   "verse": true,
+   "author": "John Godfrey Saxe",
+   "work": "The Blind Men and the Elephant",
+   "year": "1872",
+   "sortYear": 1872,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Poems_of_John_Godfrey_Saxe/The_Blind_Men_and_the_Elephant",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1887."
+   }
+  },
+  "saxe-not-one-of-them-has-seen": {
+   "text": "So, oft in theologic wars / The disputants, I ween, / Rail on in utter ignorance / Of what each other mean, / And prate about an Elephant / Not one of them has seen",
+   "verse": true,
+   "author": "John Godfrey Saxe",
+   "work": "The Blind Men and the Elephant",
+   "year": "1872",
+   "sortYear": 1872,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Poems_of_John_Godfrey_Saxe/The_Blind_Men_and_the_Elephant",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1887."
+   }
+  },
+  "plato-man-is-the-measure": {
+   "text": "Man, he says, is the measure of all things, of the existence of things that are, and of the non-existence of things that are not",
+   "author": "Plato",
+   "work": "Theaetetus",
+   "locator": "152a",
+   "year": "c. 369 BCE",
+   "sortYear": -369,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/theatu.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  }
+ }
+}

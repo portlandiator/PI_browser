@@ -1,0 +1,1454 @@
+{
+ "format": 2,
+ "slug": "praise",
+ "subject": "A61D5813EBB7E2C5981ECFA84987639B",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 100,
+ "quotations": 100,
+ "kept": [
+  "source:AB04582",
+  "source:AB00444",
+  "source:BH00308",
+  "source:BH00001",
+  "source:AB08916",
+  "source:AB10952",
+  "source:AB03231",
+  "source:AB06639",
+  "source:AB11905",
+  "source:AB03597",
+  "source:BH02443",
+  "source:BH00587",
+  "source:BH03796",
+  "source:BH06547",
+  "source:AB01594",
+  "source:AB02813",
+  "source:AB02454",
+  "source:AB00862",
+  "source:AB10201",
+  "source:AB00945",
+  "source:ABU1975",
+  "source:AB10462",
+  "source:AB00358",
+  "source:AB01518",
+  "source:AB06787",
+  "source:AB07401",
+  "source:AB06503",
+  "source:BH02218",
+  "source:AB02732",
+  "source:BH04171",
+  "source:BH04175",
+  "source:BBU0001",
+  "source:ABU0120",
+  "source:AB02467",
+  "source:BH01509",
+  "source:AB00644",
+  "source:BH00027",
+  "source:BH06563",
+  "source:AB04334",
+  "source:AB03327",
+  "source:AB04066",
+  "source:AB02923",
+  "source:AB02727",
+  "source:AB01485",
+  "source:AB01733",
+  "source:AB06194",
+  "source:AB08705",
+  "source:AB08929",
+  "source:AB08287",
+  "source:AB10450",
+  "source:AB09062",
+  "source:AB02509",
+  "source:AB03835",
+  "source:BH04168",
+  "source:BH09210",
+  "source:AB05052",
+  "source:AB09842",
+  "source:AB11863",
+  "source:AB03123",
+  "source:AB06030",
+  "source:AB03222",
+  "source:AB01033",
+  "source:BH00889",
+  "source:AB06052",
+  "source:AB11292",
+  "source:ABU0260",
+  "source:AB04356",
+  "source:AB02381",
+  "source:AB12079",
+  "source:AB11033",
+  "source:AB05943",
+  "source:AB04390",
+  "source:AB02935",
+  "source:AB00049",
+  "source:AB00413",
+  "source:ABU0970",
+  "source:ABU0259",
+  "source:ABU0394",
+  "source:BHU0040",
+  "source:BH03804",
+  "source:BH01591",
+  "source:AB00535",
+  "source:AB03828",
+  "source:AB08635",
+  "source:AB00615",
+  "source:AB01452",
+  "source:AB07944",
+  "source:BBU0008",
+  "source:BH07661",
+  "source:BH09874",
+  "source:BH11086",
+  "source:AB03308",
+  "source:AB10502",
+  "source:BH07678",
+  "source:BH08242",
+  "source:BH09872",
+  "source:BH07782",
+  "source:BH09397",
+  "source:BH05079",
+  "source:BH05405"
+ ],
+ "introduction": "Praise runs in two directions in these readings. Many passages praise God, or tell the reader to give thanks for having been guided, and several confess that no praise can reach its object. As many are words of praise from ‘Abdu’l-Bahá and Bahá’u’lláh to people: believers called firm and deserving, children and their teachers, a woman who wrote a book, friends in America and Persia, a prisoner seen standing in chains; encouragement is plainly one of the ways these letters work. A hundred of the guide's three hundred quotations are read here, ten from each tenth of the reading order, beside a hundred from elsewhere. Most stand alongside: the Psalms, Mary's song, Francis and Hopkins praising God through creatures, and Paul's letters, which commend friends by name as freely as these do. Nine push back or add a side: 'we are unprofitable servants', 'woe unto you, when all men shall speak well of you', the Pharisee's 'I thank thee that I am not as other men', the rulers who loved the praise of men, Moses telling his people they were not chosen for their numbers, and Proverbs, for which praise is a furnace that tries a person.",
+ "questions": [
+  "Why praise God at all, on the evidence of these readings? What does it do for the one who praises?",
+  "‘Abdu’l-Bahá praises people warmly and often. What is he doing when he does so, and how is it like Paul's commendations?",
+  "Jesus told his disciples to call themselves unprofitable servants, and warned those of whom all speak well. How should praise be received?",
+  "Believers are told to thank God for their own faith. How does that differ from the Pharisee's thanksgiving?",
+  "Several prayers say that God cannot be befittingly praised. Why praise, then? Compare the Tao Te Ching and Psalm 106.",
+  "Whom could you honestly commend this week, and for what?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-bless-the-lord-at-all-times",
+   "after": "source:AB04582",
+   "responds": [
+    "source:AB04582"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist resolves: I will bless the Lord at all times; his praise shall continually be in my mouth."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:AB00444",
+   "responds": [
+    "source:AB00444"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that the heavens declare the glory of God, and the firmament sheweth his handywork."
+  },
+  {
+   "id": "psalm-praise-is-comely",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says it is good to sing praises unto our God, for it is pleasant, and praise is comely."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist reckons that a day in God's courts is better than a thousand elsewhere."
+  },
+  {
+   "id": "psalm-seven-times-a-day",
+   "after": "source:AB08916",
+   "responds": [
+    "source:AB08916"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist says: seven times a day do I praise thee, because of thy righteous judgments."
+  },
+  {
+   "id": "luke-soul-doth-magnify",
+   "after": "source:AB10952",
+   "responds": [
+    "source:AB10952"
+   ],
+   "relation": "adjacent",
+   "why": "Mary's song begins: my soul doth magnify the Lord, and my spirit hath rejoiced in God my Saviour."
+  },
+  {
+   "id": "psalm-while-i-live-will-i-praise",
+   "after": "source:AB03231",
+   "responds": [
+    "source:AB03231"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm vows: while I live will I praise the Lord; I will sing praises while I have any being."
+  },
+  {
+   "id": "matthew-pearl-of-great-price",
+   "after": "source:AB06639",
+   "responds": [
+    "source:AB06639"
+   ],
+   "relation": "adjacent",
+   "why": "The merchant in the parable, seeking goodly pearls, found one of great price and sold all to buy it."
+  },
+  {
+   "id": "luke-where-are-the-nine",
+   "after": "source:AB11905",
+   "responds": [
+    "source:AB11905"
+   ],
+   "relation": "adjacent",
+   "why": "Of ten whom Jesus healed, one turned back to give thanks, and Jesus asked where the nine were."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB03597",
+   "responds": [
+    "source:AB03597"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm exclaims: behold, how good and how pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "hebrews-not-forget-your-work",
+   "after": "source:BH02443",
+   "responds": [
+    "source:BH02443"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews assures its readers that God is not unrighteous to forget their work and labour of love."
+  },
+  {
+   "id": "corinthians-didst-not-receive",
+   "after": "source:BH00587",
+   "responds": [
+    "source:BH00587"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: what hast thou that thou didst not receive? and if received, why glory as if not?"
+  },
+  {
+   "id": "john-no-guile",
+   "after": "source:BH03796",
+   "responds": [
+    "source:BH03796"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus, seeing Nathanael come toward him, said: behold an Israelite indeed, in whom is no guile."
+  },
+  {
+   "id": "deuteronomy-not-because-ye-were-more",
+   "after": "source:BH06547",
+   "responds": [
+    "source:BH06547"
+   ],
+   "relation": "complement",
+   "why": "Moses told his people that God did not choose them because they were more in number, for they were the fewest. How should a community hear praise of itself?"
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB01594",
+   "responds": [
+    "source:AB01594"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his followers: ye are the light of the world; a city set on an hill cannot be hid."
+  },
+  {
+   "id": "romans-your-faith-is-spoken-of",
+   "after": "source:AB02813",
+   "responds": [
+    "source:AB02813"
+   ],
+   "relation": "adjacent",
+   "why": "Paul begins a letter by thanking God that the faith of his readers is spoken of throughout the whole world."
+  },
+  {
+   "id": "thessalonians-work-of-faith",
+   "after": "source:AB02454",
+   "responds": [
+    "source:AB02454"
+   ],
+   "relation": "adjacent",
+   "why": "Paul remembers without ceasing a church's work of faith, labour of love, and patience of hope."
+  },
+  {
+   "id": "john-epistle-no-greater-joy",
+   "after": "source:AB00862",
+   "responds": [
+    "source:AB00862"
+   ],
+   "relation": "adjacent",
+   "why": "The elder writes: I have no greater joy than to hear that my children walk in truth."
+  },
+  {
+   "id": "isaiah-graven-upon-the-palms",
+   "after": "source:AB10201",
+   "responds": [
+    "source:AB10201"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: I will not forget thee; I have graven thee upon the palms of my hands."
+  },
+  {
+   "id": "romans-priscilla-and-aquila",
+   "after": "source:AB00945",
+   "responds": [
+    "source:AB00945"
+   ],
+   "relation": "adjacent",
+   "why": "Paul ends his letter to Rome with greetings by name, among them two who had risked their necks for him."
+  },
+  {
+   "id": "philippians-epaphroditus-hold-in-reputation",
+   "after": "source:ABU1975",
+   "responds": [
+    "source:ABU1975"
+   ],
+   "relation": "adjacent",
+   "why": "Paul commends a fellow worker: receive him with all gladness, and hold such in reputation."
+  },
+  {
+   "id": "matthew-well-done",
+   "after": "source:AB10462",
+   "responds": [
+    "source:AB10462"
+   ],
+   "relation": "adjacent",
+   "why": "The lord in the parable says: well done, thou good and faithful servant; enter thou into the joy of thy lord."
+  },
+  {
+   "id": "philippians-thank-my-god-upon-every-remembrance",
+   "after": "source:AB00358",
+   "responds": [
+    "source:AB00358"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells his friends: I thank my God upon every remembrance of you."
+  },
+  {
+   "id": "timothy-thy-grandmother-lois",
+   "after": "source:AB01518",
+   "responds": [
+    "source:AB01518"
+   ],
+   "relation": "adjacent",
+   "why": "Paul remembers the faith of Timothy's family before him, with thanks, night and day."
+  },
+  {
+   "id": "revelation-i-know-thy-works-ephesus",
+   "after": "source:AB06787",
+   "responds": [
+    "source:AB06787"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse says to a church: I know thy works, and thy labour, and thy patience, and that thou hast not fainted."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB07401",
+   "responds": [
+    "source:AB07401"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that the wise shall shine as the brightness of the firmament, and as the stars for ever."
+  },
+  {
+   "id": "timothy-be-thou-an-example",
+   "after": "source:AB06503",
+   "responds": [
+    "source:AB06503"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells a young man: let no man despise thy youth, but be thou an example of the believers."
+  },
+  {
+   "id": "acts-barnabas-a-good-man",
+   "after": "source:AB02732",
+   "responds": [
+    "source:AB02732"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says of Barnabas that he was a good man, full of faith, and much people was added through him."
+  },
+  {
+   "id": "proverbs-good-name",
+   "after": "source:BH04171",
+   "responds": [
+    "source:BH04171"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a good name is rather to be chosen than great riches."
+  },
+  {
+   "id": "luke-unprofitable-servants",
+   "after": "source:BH04171",
+   "responds": [
+    "source:BH04171"
+   ],
+   "relation": "contrast",
+   "why": "Jesus told his disciples, when they had done all that was commanded, to say: we are unprofitable servants; we have done our duty. How should a person who is praised hold the praise?"
+  },
+  {
+   "id": "quran-praise-who-hath-guided-us",
+   "after": "source:BH04175",
+   "responds": [
+    "source:BH04175"
+   ],
+   "relation": "adjacent",
+   "why": "The blessed say in the Qur'an: praise be to God, who hath guided us to this; we could not have been led aright otherwise."
+  },
+  {
+   "id": "exodus-holy-nation",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "adjacent",
+   "why": "Israel at Sinai is told: ye shall be unto me a kingdom of priests, and an holy nation."
+  },
+  {
+   "id": "john-honour-one-of-another",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "contrast",
+   "why": "Jesus asked: how can ye believe, which receive honour one of another, and seek not the honour that cometh from God only? What separates encouragement from honour sought?"
+  },
+  {
+   "id": "matthew-not-found-so-great-faith",
+   "after": "source:ABU0120",
+   "responds": [
+    "source:ABU0120"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus marvelled at a foreign officer and said he had not found so great faith, no, not in Israel."
+  },
+  {
+   "id": "malachi-in-every-place-incense",
+   "after": "source:AB02467",
+   "responds": [
+    "source:AB02467"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi foresees God's name great among the nations, from the rising of the sun to its going down."
+  },
+  {
+   "id": "ruth-a-full-reward",
+   "after": "source:BH01509",
+   "responds": [
+    "source:BH01509"
+   ],
+   "relation": "adjacent",
+   "why": "Boaz praises Ruth for leaving father, mother and native land, and prays that a full reward be given her."
+  },
+  {
+   "id": "philippians-request-with-joy",
+   "after": "source:AB00644",
+   "responds": [
+    "source:AB00644"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that in every prayer of his he makes request for his friends with joy."
+  },
+  {
+   "id": "john-if-ye-love-me",
+   "after": "source:BH06563",
+   "responds": [
+    "source:BH06563"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus put obedience on the same ground: if ye love me, keep my commandments."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB04334",
+   "responds": [
+    "source:AB04334"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go, and when he is old he will not depart from it."
+  },
+  {
+   "id": "proverbs-her-children-arise-up",
+   "after": "source:AB03327",
+   "responds": [
+    "source:AB03327"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says of a capable woman: let her own works praise her in the gates."
+  },
+  {
+   "id": "matthew-suffer-little-children-kingdom",
+   "after": "source:AB04066",
+   "responds": [
+    "source:AB04066"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: suffer little children to come unto me, for of such is the kingdom of heaven."
+  },
+  {
+   "id": "thessalonians-our-glory-and-joy",
+   "after": "source:AB02923",
+   "responds": [
+    "source:AB02923"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks a church: what is our hope, or joy, or crown of rejoicing? Are not even ye?"
+  },
+  {
+   "id": "shakespeare-this-was-a-man",
+   "after": "source:AB02727",
+   "responds": [
+    "source:AB02727"
+   ],
+   "relation": "adjacent",
+   "why": "Antony says over Brutus: his life was gentle, and the elements so mixed in him that Nature might say, this was a man."
+  },
+  {
+   "id": "proverbs-man-to-his-praise",
+   "after": "source:AB02727",
+   "responds": [
+    "source:AB02727"
+   ],
+   "relation": "complement",
+   "why": "Proverbs says that as the furnace is for gold, so is a man to his praise. What does being praised test in a person?"
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:AB01733",
+   "responds": [
+    "source:AB01733"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that whoever gives one of these little ones a cup of cold water shall not lose his reward."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:AB06194",
+   "responds": [
+    "source:AB06194"
+   ],
+   "relation": "adjacent",
+   "why": "James says: be ye doers of the word, and not hearers only."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:AB06194",
+   "responds": [
+    "source:AB06194"
+   ],
+   "relation": "adjacent",
+   "why": "John's first letter says: let us not love in word, neither in tongue, but in deed and in truth."
+  },
+  {
+   "id": "galatians-be-not-weary",
+   "after": "source:AB08705",
+   "responds": [
+    "source:AB08705"
+   ],
+   "relation": "adjacent",
+   "why": "Paul encourages: let us not be weary in well doing, for in due season we shall reap, if we faint not."
+  },
+  {
+   "id": "psalm-babes-and-sucklings",
+   "after": "source:AB08929",
+   "responds": [
+    "source:AB08929"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: out of the mouth of babes and sucklings hast thou ordained strength."
+  },
+  {
+   "id": "luke-increased-in-wisdom",
+   "after": "source:AB10450",
+   "responds": [
+    "source:AB10450"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of the boy Jesus that he increased in wisdom and stature, and in favour with God and man."
+  },
+  {
+   "id": "psalm-children-are-an-heritage",
+   "after": "source:AB09062",
+   "responds": [
+    "source:AB09062"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says that children are an heritage of the Lord, and the fruit of the womb is his reward."
+  },
+  {
+   "id": "romans-phebe-our-sister",
+   "after": "source:AB02509",
+   "responds": [
+    "source:AB02509"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes a letter of commendation: I commend unto you Phebe our sister, a servant of the church."
+  },
+  {
+   "id": "matthew-things-new-and-old",
+   "after": "source:AB03835",
+   "responds": [
+    "source:AB03835"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens a scribe instructed in the kingdom to a householder who brings out of his treasure things new and old."
+  },
+  {
+   "id": "luke-pharisee-and-publican",
+   "after": "source:BH04168",
+   "responds": [
+    "source:BH04168"
+   ],
+   "relation": "contrast",
+   "why": "The Pharisee in the parable prayed: God, I thank thee that I am not as other men are. How does giving thanks for one's own faith keep clear of that?"
+  },
+  {
+   "id": "acts-no-respecter-of-persons",
+   "after": "source:AB05052",
+   "responds": [
+    "source:AB05052"
+   ],
+   "relation": "adjacent",
+   "why": "Peter said: I perceive that God is no respecter of persons, but in every nation he that feareth him is accepted."
+  },
+  {
+   "id": "psalm-going-out-coming-in",
+   "after": "source:AB09842",
+   "responds": [
+    "source:AB09842"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm promises: the Lord shall preserve thy going out and thy coming in."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:AB11863",
+   "responds": [
+    "source:AB11863"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs joins the two kinds of medicine: a merry heart doeth good like a medicine."
+  },
+  {
+   "id": "isaiah-beautiful-upon-the-mountains",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah exclaims: how beautiful upon the mountains are the feet of him that bringeth good tidings."
+  },
+  {
+   "id": "luke-certain-women",
+   "after": "source:AB06030",
+   "responds": [
+    "source:AB06030"
+   ],
+   "relation": "adjacent",
+   "why": "Luke names the women who travelled with Jesus through the cities and villages and supported the work."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:AB06030",
+   "responds": [
+    "source:AB06030"
+   ],
+   "relation": "adjacent",
+   "why": "Joel has God promise that the spirit shall be poured out on handmaids as on servants."
+  },
+  {
+   "id": "mark-memorial-of-her",
+   "after": "source:AB03222",
+   "responds": [
+    "source:AB03222"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of a woman's gift: she hath done what she could, and it shall be spoken of for a memorial of her."
+  },
+  {
+   "id": "luke-mary-hath-chosen",
+   "after": "source:AB01033",
+   "responds": [
+    "source:AB01033"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of a woman who sat and listened: Mary hath chosen that good part, which shall not be taken away."
+  },
+  {
+   "id": "psalm-i-was-glad",
+   "after": "source:BH00889",
+   "responds": [
+    "source:BH00889"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: I was glad when they said unto me, let us go into the house of the Lord."
+  },
+  {
+   "id": "ecclesiastes-two-are-better-than-one",
+   "after": "source:AB06052",
+   "responds": [
+    "source:AB06052"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes says that two are better than one, and a threefold cord is not quickly broken."
+  },
+  {
+   "id": "acts-breaking-bread",
+   "after": "source:AB11292",
+   "responds": [
+    "source:AB11292"
+   ],
+   "relation": "adjacent",
+   "why": "The first believers in Acts met daily, breaking bread from house to house with gladness and singleness of heart."
+  },
+  {
+   "id": "analects-friends-from-distant-quarters",
+   "after": "source:ABU0260",
+   "responds": [
+    "source:ABU0260"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius asks: is it not delightful to have friends coming from distant quarters?"
+  },
+  {
+   "id": "kings-well-that-it-was-in-thine-heart",
+   "after": "source:AB04356",
+   "responds": [
+    "source:AB04356"
+   ],
+   "relation": "adjacent",
+   "why": "David, who wished to build a temple and could not, was told: thou didst well that it was in thine heart."
+  },
+  {
+   "id": "mark-widows-mites",
+   "after": "source:AB12079",
+   "responds": [
+    "source:AB12079"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of a widow's two small coins that she had given more than all the rich."
+  },
+  {
+   "id": "nehemiah-let-us-rise-up-and-build",
+   "after": "source:AB12079",
+   "responds": [
+    "source:AB12079"
+   ],
+   "relation": "adjacent",
+   "why": "Nehemiah's companions said: let us rise up and build; and they strengthened their hands for the good work."
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:AB11033",
+   "responds": [
+    "source:AB11033"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews pictures those who went before as a great cloud of witnesses around the runners."
+  },
+  {
+   "id": "luke-names-written-in-heaven",
+   "after": "source:AB05943",
+   "responds": [
+    "source:AB05943"
+   ],
+   "relation": "complement",
+   "why": "Jesus told disciples returning in triumph to rejoice not in their success but that their names are written in heaven. Where should the joy of being praised come to rest?"
+  },
+  {
+   "id": "timothy-fought-a-good-fight",
+   "after": "source:AB04390",
+   "responds": [
+    "source:AB04390"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says near the end: I have fought a good fight, I have finished my course, I have kept the faith."
+  },
+  {
+   "id": "psalm-table-before-me",
+   "after": "source:AB02935",
+   "responds": [
+    "source:AB02935"
+   ],
+   "relation": "adjacent",
+   "why": "The shepherd psalm says: thou preparest a table before me; my cup runneth over."
+  },
+  {
+   "id": "corinthians-epistle-written-in-our-hearts",
+   "after": "source:AB00049",
+   "responds": [
+    "source:AB00049"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Corinthians: ye are our epistle written in our hearts, known and read of all men."
+  },
+  {
+   "id": "corinthians-not-he-that-commendeth-himself",
+   "after": "source:AB00413",
+   "responds": [
+    "source:AB00413"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that not he that commendeth himself is approved, but whom the Lord commendeth."
+  },
+  {
+   "id": "wordsworth-getting-and-spending",
+   "after": "source:ABU0970",
+   "responds": [
+    "source:ABU0970"
+   ],
+   "relation": "complement",
+   "why": "Wordsworth, looking at his own busy country, wrote that getting and spending we lay waste our powers. What might a visitor admire in a great city, and what would he wish for it?"
+  },
+  {
+   "id": "matthew-good-and-faithful-servant",
+   "after": "source:BHU0040",
+   "responds": [
+    "source:BHU0040"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable each servant who traded with what he was given hears: well done, good and faithful servant."
+  },
+  {
+   "id": "luke-woe-when-all-speak-well",
+   "after": "source:BHU0040",
+   "responds": [
+    "source:BHU0040"
+   ],
+   "relation": "contrast",
+   "why": "Jesus said: woe unto you, when all men shall speak well of you. What keeps commendation from doing harm to the one commended?"
+  },
+  {
+   "id": "luke-joy-over-one-sinner",
+   "after": "source:BH03804",
+   "responds": [
+    "source:BH03804"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said there is joy in heaven over one who is found, as a shepherd rejoices over his sheep."
+  },
+  {
+   "id": "john-praise-of-men",
+   "after": "source:BH03804",
+   "responds": [
+    "source:BH03804"
+   ],
+   "relation": "contrast",
+   "why": "John says of some rulers that they believed but would not say so, for they loved the praise of men more than the praise of God. Whose praise is being sought?"
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:BH01591",
+   "responds": [
+    "source:BH01591"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that whatsoever a man soweth, that shall he also reap."
+  },
+  {
+   "id": "psalm-mercy-endureth-for-ever",
+   "after": "source:AB00535",
+   "responds": [
+    "source:AB00535"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm repeats: O give thanks unto the Lord, for he is good; for his mercy endureth for ever."
+  },
+  {
+   "id": "acts-worthy-to-suffer-shame",
+   "after": "source:AB08635",
+   "responds": [
+    "source:AB08635"
+   ],
+   "relation": "adjacent",
+   "why": "The apostles left the council rejoicing that they were counted worthy to suffer shame for his name."
+  },
+  {
+   "id": "ephesians-ambassador-in-bonds",
+   "after": "source:AB08635",
+   "responds": [
+    "source:AB08635"
+   ],
+   "relation": "adjacent",
+   "why": "Paul called himself an ambassador in bonds, and asked only for boldness to speak."
+  },
+  {
+   "id": "revelation-faithful-unto-death",
+   "after": "source:AB00615",
+   "responds": [
+    "source:AB00615"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse says to a suffering church: be thou faithful unto death, and I will give thee a crown of life."
+  },
+  {
+   "id": "james-count-it-all-joy",
+   "after": "source:AB01452",
+   "responds": [
+    "source:AB01452"
+   ],
+   "relation": "adjacent",
+   "why": "James tells his readers to count it all joy when they fall into trials."
+  },
+  {
+   "id": "hadith-actions-by-intentions",
+   "after": "source:BBU0008",
+   "responds": [
+    "source:BBU0008"
+   ],
+   "relation": "adjacent",
+   "why": "A saying of Muhammad holds that the reward of deeds depends upon the intentions."
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BH07661",
+   "responds": [
+    "source:BH07661"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching begins with the same admission: the name that can be named is not the enduring name."
+  },
+  {
+   "id": "psalm-who-can-utter-the-mighty-acts",
+   "after": "source:BH07661",
+   "responds": [
+    "source:BH07661"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm asks: who can utter the mighty acts of the Lord? who can shew forth all his praise?"
+  },
+  {
+   "id": "nehemiah-above-all-blessing-and-praise",
+   "after": "source:BH09874",
+   "responds": [
+    "source:BH09874"
+   ],
+   "relation": "adjacent",
+   "why": "The Levites in Nehemiah bless a name that is exalted above all blessing and praise."
+  },
+  {
+   "id": "psalm-not-unto-us",
+   "after": "source:BH11086",
+   "responds": [
+    "source:BH11086"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: not unto us, O Lord, not unto us, but unto thy name give glory."
+  },
+  {
+   "id": "job-parts-of-his-ways",
+   "after": "source:AB03308",
+   "responds": [
+    "source:AB03308"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: these are parts of his ways, but how little a portion is heard of him."
+  },
+  {
+   "id": "saadi-every-breath",
+   "after": "source:AB03308",
+   "responds": [
+    "source:AB03308"
+   ],
+   "relation": "adjacent",
+   "why": "Saadi finds two benefits in every breath, and asks whose hand and tongue can fulfil the thanks owed."
+  },
+  {
+   "id": "hopkins-pied-beauty",
+   "after": "source:AB10502",
+   "responds": [
+    "source:AB10502"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins gives glory to God for dappled things, and ends: praise him."
+  },
+  {
+   "id": "francis-brother-sun",
+   "after": "source:BH07678",
+   "responds": [
+    "source:BH07678"
+   ],
+   "relation": "adjacent",
+   "why": "Francis of Assisi praises God with all his creatures, and first for brother sun who lights the day."
+  },
+  {
+   "id": "augustine-most-hidden-most-near",
+   "after": "source:BH08242",
+   "responds": [
+    "source:BH08242"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine addresses God as most hidden and most near, and runs out of names."
+  },
+  {
+   "id": "psalm-what-shall-i-render",
+   "after": "source:BH07782",
+   "responds": [
+    "source:BH07782"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist asks: what shall I render unto the Lord for all his benefits toward me?"
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "source:BH09397",
+   "responds": [
+    "source:BH09397"
+   ],
+   "relation": "adjacent",
+   "why": "Rabia prayed that her share of this world and the next be given to others: thou art enough for me."
+  },
+  {
+   "id": "corinthians-by-the-grace-of-god-i-am",
+   "after": "source:BH05079",
+   "responds": [
+    "source:BH05079"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: by the grace of God I am what I am."
+  },
+  {
+   "id": "psalm-every-thing-that-hath-breath",
+   "after": "source:BH05405",
+   "responds": [
+    "source:BH05405"
+   ],
+   "relation": "adjacent",
+   "why": "The last line of the Psalter is: let every thing that hath breath praise the Lord."
+  }
+ ],
+ "library": {
+  "nehemiah-above-all-blessing-and-praise": {
+   "text": "Stand up and bless the Lord your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise",
+   "work": "Nehemiah 9:5",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Nehemiah%209%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "thessalonians-work-of-faith": {
+   "text": "We give thanks to God always for you all, making mention of you in our prayers; Remembering without ceasing your work of faith, and labour of love, and patience of hope in our Lord Jesus Christ, in the sight of God and our Father",
+   "work": "1 Thessalonians 1:2–3",
+   "year": "c. 50 CE",
+   "sortYear": 50,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Thessalonians%201%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-praise-of-men": {
+   "text": "Nevertheless among the chief rulers also many believed on him; but because of the Pharisees they did not confess him, lest they should be put out of the synagogue: For they loved the praise of men more than the praise of God",
+   "work": "John 12:42–43",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2012%3A42-43&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-honour-one-of-another": {
+   "text": "How can ye believe, which receive honour one of another, and seek not the honour that cometh from God only",
+   "work": "John 5:44",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%205%3A44&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-not-found-so-great-faith": {
+   "text": "When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel",
+   "work": "Matthew 8:10",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%208%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-epistle-demetrius-good-report": {
+   "text": "Demetrius hath good report of all men, and of the truth itself: yea, and we also bear record; and ye know that our record is true",
+   "work": "3 John 1:12",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=3%20John%201%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-i-know-thy-works-ephesus": {
+   "text": "I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars: And hast borne, and hast patience, and for my name's sake hast laboured, and hast not fainted",
+   "work": "Revelation 2:2–3",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%202%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-praise-is-comely": {
+   "text": "Praise ye the Lord: for it is good to sing praises unto our God; for it is pleasant; and praise is comely",
+   "work": "Psalm 147:1",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20147%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-who-can-utter-the-mighty-acts": {
+   "text": "Who can utter the mighty acts of the Lord? who can shew forth all his praise",
+   "work": "Psalm 106:2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20106%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-man-to-his-praise": {
+   "text": "As the fining pot for silver, and the furnace for gold; so is a man to his praise",
+   "work": "Proverbs 27:21",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2027%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-priscilla-and-aquila": {
+   "text": "Greet Priscilla and Aquila my helpers in Christ Jesus: Who have for my life laid down their own necks: unto whom not only I give thanks, but also all the churches of the Gentiles",
+   "work": "Romans 16:3–4",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2016%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-barnabas-a-good-man": {
+   "text": "Who, when he came, and had seen the grace of God, was glad, and exhorted them all, that with purpose of heart they would cleave unto the Lord. For he was a good man, and full of the Holy Ghost and of faith: and much people was added unto the Lord",
+   "work": "Acts 11:23–24",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2011%3A23-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ruth-a-full-reward": {
+   "text": "And Boaz answered and said unto her, It hath fully been shewed me, all that thou hast done unto thy mother in law since the death of thine husband: and how thou hast left thy father and thy mother, and the land of thy nativity, and art come unto a people which thou knewest not heretofore. The Lord recompense thy work, and a full reward be given thee of the Lord God of Israel, under whose wings thou art come to trust",
+   "work": "Ruth 2:11–12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ruth%202%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-bless-the-lord-at-all-times": {
+   "text": "I will bless the Lord at all times: his praise shall continually be in my mouth. My soul shall make her boast in the Lord: the humble shall hear thereof, and be glad. O magnify the Lord with me, and let us exalt his name together",
+   "work": "Psalm 34:1–3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2034%3A1-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-while-i-live-will-i-praise": {
+   "text": "While I live will I praise the Lord: I will sing praises unto my God while I have any being",
+   "work": "Psalm 146:2",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20146%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-praise-who-hath-guided-us": {
+   "text": "And We remove whatever rancour may be in their hearts. Rivers flow beneath them. And they say: The praise to Allah, Who hath guided us to this. We could not truly have been led aright if Allah had not guided us. Verily the messengers of our Lord did bring the Truth. And it is cried unto them: This is the Garden. Ye inherit it for what ye used to do.",
+   "work": "Qur’an 7:43",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=7&verse=43",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "philippians-epaphroditus-hold-in-reputation": {
+   "text": "Receive him therefore in the Lord with all gladness; and hold such in reputation: Because for the work of Christ he was nigh unto death, not regarding his life, to supply your lack of service toward me",
+   "work": "Philippians 2:29–30",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%202%3A29-30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-not-he-that-commendeth-himself": {
+   "text": "But he that glorieth, let him glory in the Lord. For not he that commendeth himself is approved, but whom the Lord commendeth",
+   "work": "2 Corinthians 10:17–18",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2010%3A17-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
