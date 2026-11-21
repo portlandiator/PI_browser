@@ -1,0 +1,242 @@
+{
+ "format": 2,
+ "slug": "diversity",
+ "subject": "1D83C2845EC949C38F5C60A09DF26805",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 22,
+ "kept": [
+  "source:ABU0064",
+  "source:ABU3387",
+  "source:AB00016",
+  "source:ABU1400",
+  "source:BH00394",
+  "source:BH01034",
+  "source:BB00005",
+  "source:ABU0914",
+  "source:ABU1683",
+  "source:ABU0657",
+  "source:AB01526",
+  "source:ABU0540",
+  "source:AB00394",
+  "source:ABU2303",
+  "source:ABU0967",
+  "source:ABU2308",
+  "source:ABU3731",
+  "source:ABU0091",
+  "source:ABU0193",
+  "source:AB00018",
+  "source:AB00131",
+  "source:AB03149"
+ ],
+ "introduction": "These readings distinguish unity from uniformity. They compare human differences to the colours of a garden and the variety of food, trace differences of belief to differing capacities and minds, forbid forced belief, and describe consultation as a clash of sincerely held opinions from which truth emerges, provided no one insists on his own. Each of the twenty-two quotations is read here beside one from elsewhere. Most stand alongside: Mill and Milton on free opinion, Paul's body with many members, the blind men and the elephant, the Qur'an's 'no compulsion', Ashoka's edict, Franklin's retelling of Abraham and the old man, Rumi's lamps. Three push back: a New Testament letter that shuts the door on false teachers, Vivekananda's religions that each grow by their own law, and Hume, for whom differing religions cannot all be true.",
+ "questions": [
+  "'Unity is one thing, uniformity is another.' Where have you seen the two confused, and what was lost?",
+  "The readings say that freedom of thought should not go beyond courtesy, and one New Testament letter refuses hospitality to those who teach otherwise. Where should a community draw its line, and how?",
+  "Consultation is said to need both frank opinion and no attachment to one's own view. Which of the two do you find harder?",
+  "If the religions differ because minds differ, Hume asks how each can be true. What do the readings answer, and how does Vivekananda's view differ from theirs?"
+ ],
+ "outside": [
+  {
+   "id": "mill-minus-one",
+   "after": "source:ABU0064",
+   "responds": [
+    "source:ABU0064"
+   ],
+   "relation": "adjacent",
+   "why": "Mill held that if all mankind minus one were of one opinion, mankind would be no more justified in silencing that one person than he in silencing mankind."
+  },
+  {
+   "id": "corinthians-if-the-whole-body-were-an-eye",
+   "after": "source:ABU3387",
+   "responds": [
+    "source:ABU3387"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: if the whole body were an eye, where were the hearing?"
+  },
+  {
+   "id": "hopkins-pied-beauty",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Hopkins gives glory to God for dappled things, for all things counter, original, spare, strange."
+  },
+  {
+   "id": "saxe-partly-in-the-right",
+   "after": "source:BH00394",
+   "responds": [
+    "source:BH00394"
+   ],
+   "relation": "adjacent",
+   "why": "In Saxe's poem six blind men dispute about an elephant each has touched in one place, each partly in the right, and all in the wrong."
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:BH01034",
+   "responds": [
+    "source:BH01034"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable a master gives to one servant five talents, to another two, and to another one, to every man according to his several ability."
+  },
+  {
+   "id": "romans-who-art-thou-that-judgest",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: who art thou that judgest another man's servant? To his own master he standeth or falleth."
+  },
+  {
+   "id": "universal-declaration-18",
+   "after": "source:ABU0914",
+   "responds": [
+    "source:ABU0914"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration says that everyone has the right to freedom of thought, conscience and religion."
+  },
+  {
+   "id": "john-epistle-receive-him-not",
+   "after": "source:ABU0914",
+   "responds": [
+    "source:ABU0914"
+   ],
+   "relation": "contrast",
+   "why": "A letter in the New Testament says that if any bring not this doctrine, receive him not into your house, neither bid him God speed. Where do the readings set the limit of what may be thought and said, and why there?"
+  },
+  {
+   "id": "quran-no-compulsion",
+   "after": "source:ABU1683",
+   "responds": [
+    "source:ABU1683"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says: there is no compulsion in religion; the right direction is henceforth distinct from error."
+  },
+  {
+   "id": "james-whence-come-wars",
+   "after": "source:ABU0657",
+   "responds": [
+    "source:ABU0657"
+   ],
+   "relation": "adjacent",
+   "why": "James asks whence come wars and fightings among you, and answers: of your lusts that war in your members."
+  },
+  {
+   "id": "proverbs-iron-sharpeneth-iron",
+   "after": "source:AB01526",
+   "responds": [
+    "source:AB01526"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that iron sharpeneth iron; so a man sharpeneth the countenance of his friend."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:ABU0540",
+   "responds": [
+    "source:ABU0540"
+   ],
+   "relation": "adjacent",
+   "why": "Milton asked: let truth and falsehood grapple; who ever knew truth put to the worse in a free and open encounter?"
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:AB00394",
+   "responds": [
+    "source:AB00394"
+   ],
+   "relation": "adjacent",
+   "why": "Mill observed that he who knows only his own side of the case knows little of that."
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:ABU2303",
+   "responds": [
+    "source:ABU2303"
+   ],
+   "relation": "adjacent",
+   "why": "Paul ends a letter with a rule for hearing new things: prove all things; hold fast that which is good."
+  },
+  {
+   "id": "ashoka-other-religions",
+   "after": "source:ABU0967",
+   "responds": [
+    "source:ABU0967"
+   ],
+   "relation": "adjacent",
+   "why": "The emperor Ashoka had it carved in stone that whoever praises his own religion and condemns others only harms his own, and that contact between religions is good."
+  },
+  {
+   "id": "franklin-parable-against-persecution",
+   "after": "source:ABU2308",
+   "responds": [
+    "source:ABU2308"
+   ],
+   "relation": "adjacent",
+   "why": "Franklin retold the same story in the style of scripture: God asks Abraham whether he could not bear one night with a man whom God has borne with for a hundred and ninety-eight years."
+  },
+  {
+   "id": "jefferson-difference-of-opinion",
+   "after": "source:ABU3731",
+   "responds": [
+    "source:ABU3731"
+   ],
+   "relation": "adjacent",
+   "why": "Jefferson said at his inauguration that every difference of opinion is not a difference of principle."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU0091",
+   "responds": [
+    "source:ABU0091"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi wrote that the lamps are different, but the Light is the same."
+  },
+  {
+   "id": "vivekananda-own-law",
+   "after": "source:ABU0193",
+   "responds": [
+    "source:ABU0193"
+   ],
+   "relation": "contrast",
+   "why": "Vivekananda told the Parliament of Religions that the Christian is not to become a Hindu, nor the Hindu a Christian, but each must assimilate the spirit of the others and grow by its own law. How does that differ from seeing the religions as bridges to a last one?"
+  },
+  {
+   "id": "plato-free-doctor",
+   "after": "source:AB00018",
+   "responds": [
+    "source:AB00018"
+   ],
+   "relation": "adjacent",
+   "why": "Plato describes the physician of free men, who enquires into each disorder and treats each patient accordingly."
+  },
+  {
+   "id": "hume-whatever-is-different-is-contrary",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that in matters of religion whatever is different is contrary, so that not all can be well founded. If differences of religion come from differing minds, what is left of each one's claim to be true?"
+  },
+  {
+   "id": "matthew-wheat-and-tares",
+   "after": "source:AB03149",
+   "responds": [
+    "source:AB03149"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable a householder lets wheat and tares grow together until the harvest, lest in rooting up the one the other be lost."
+  }
+ ],
+ "library": {}
+}
