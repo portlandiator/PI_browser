@@ -1,0 +1,1193 @@
+{
+ "format": 2,
+ "slug": "freewill",
+ "subject": "61112CABECB646B7A648800B633240E7",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 85,
+ "quotations": 100,
+ "kept": [
+  "source:AB00441",
+  "source:AB03274",
+  "source:AB01454",
+  "source:AB04687",
+  "source:AB00078",
+  "source:AB02907",
+  "source:AB03929",
+  "source:AB00020",
+  "source:AB01029",
+  "source:ABU0439",
+  "source:ABU2102",
+  "source:ABU3347",
+  "source:ABU1208",
+  "source:BH00779",
+  "source:AB00398",
+  "source:BH00431",
+  "source:AB05336",
+  "source:ABU1965",
+  "source:ABU2204",
+  "source:AB11371",
+  "source:ABU0744",
+  "source:ABU3262",
+  "source:ABU2648",
+  "source:BB00154",
+  "source:BH00958",
+  "source:BH00587",
+  "source:BB00017",
+  "source:BB00021",
+  "source:BB00004",
+  "source:BB00366",
+  "source:BB00054",
+  "source:AB04692",
+  "source:BB00492",
+  "source:ABU0261",
+  "source:ABU2457",
+  "source:ABU1589",
+  "source:ABU2845",
+  "source:ABU1361",
+  "source:AB05420",
+  "source:BH01018",
+  "source:BH03421",
+  "source:ABU2298",
+  "source:ABU3511",
+  "source:BH09282",
+  "source:BH00005",
+  "source:AB00007",
+  "source:BH02644",
+  "source:BH00002",
+  "source:BH00668",
+  "source:BH00330",
+  "source:BH00634",
+  "source:BB00219",
+  "source:ABU0414",
+  "source:ABU0500",
+  "source:AB00027",
+  "source:BH02726",
+  "source:AB03219",
+  "source:BB00407",
+  "source:BH01292",
+  "source:BH01427",
+  "source:ABU0303",
+  "source:ABU2401",
+  "source:ABU3352",
+  "source:ABU3184",
+  "source:ABU1895",
+  "source:BH05540",
+  "source:BH05956",
+  "source:BH08865",
+  "selection:279b91d8d0745fbe39b2c4ae",
+  "selection:86a6ad3a2f7fc2ce41a268f4",
+  "selection:4f811c3c694b7fb10a81b0c4",
+  "selection:4f324857caf37f38312ef295",
+  "selection:f1c6527fa16b75d50d9c3a29",
+  "selection:4467a3e3893550c25b3d3e65",
+  "selection:fe2e8b1ffbf968ad972fb425",
+  "selection:90b690666897719c4f08a0e2",
+  "selection:44a16fa1cfb5c80cd2ad9727",
+  "selection:a7bc85c6992515d5be9320b9",
+  "selection:47d5be39af2dcc0617709865",
+  "selection:f9e049408738a7932e2dc3f0",
+  "selection:dae788ac1d8f94b30b1c0b80",
+  "selection:863fc5f02d98e5c16bafb63d",
+  "selection:3234ade0803583ad8b0e9250",
+  "selection:7657323ae7cd626f44487d9d",
+  "selection:0314a6fe994f1ee4730e1c11"
+ ],
+ "introduction": "The readings give a careful answer to an old question. Some things are in human hands, chiefly the choice between justice and injustice and the forming of character; others, such as birth, death and misfortune, are not. God's foreknowledge does not cause what it knows; neither compulsion nor unlimited freedom is the truth, but a position between; some decrees are fixed and others, like the lamp that a wind may blow out before its oil is spent, can be turned by prayer and care. Epictetus, Ben Sira, Rabbi Akiva, Paul, the Qur’an and Milton drew many of the same lines. Omar Khayyam, Hume and Paul's potter speak for necessity, Henley and Emerson for the unaided will, and Hardy, Voltaire and Dostoevsky doubt that whatever happens is for the best.",
+ "questions": [
+  "What do the readings place within human choice, and what outside it? How does Epictetus's division compare?",
+  "The readings say foreknowledge is not a cause, as Milton's God does. Does that answer satisfy you, and what does Paul's potter add to the difficulty?",
+  "What is the difference between the fixed decree and the conditional one, and what does it mean to pray about the second?",
+  "One reading says that whatever has happened conforms with wisdom. How would you speak of that to Ivan Karamazov, or to someone in fresh grief?",
+  "Is surrendering one's will to the will of God the end of freedom or, as Dante says, its peace?"
+ ],
+ "outside": [
+  {
+   "id": "epictetus-some-things-are-in-our-control",
+   "after": "source:AB00441",
+   "responds": [
+    "source:AB00441"
+   ],
+   "relation": "adjacent",
+   "why": "Epictetus opens his handbook with the same division: some things are in our control, namely our own actions, and others are not."
+  },
+  {
+   "id": "deuteronomy-choose-life",
+   "after": "source:AB00441",
+   "responds": [
+    "source:AB00441"
+   ],
+   "relation": "adjacent",
+   "why": "Moses sets life and death, blessing and cursing, before the people and tells them to choose life."
+  },
+  {
+   "id": "sirach-in-the-hand-of-his-counsel",
+   "after": "source:AB00441",
+   "responds": [
+    "source:AB00441"
+   ],
+   "relation": "adjacent",
+   "why": "Ben Sira says God left man in the hand of his own counsel, with fire and water set before him to choose."
+  },
+  {
+   "id": "khayyam-willy-nilly",
+   "after": "source:AB00441",
+   "responds": [
+    "source:AB00441"
+   ],
+   "relation": "contrast",
+   "why": "FitzGerald's Omar comes into the universe like water willy-nilly flowing and leaves it like wind. Is anything left to choice in a life so described?"
+  },
+  {
+   "id": "milton-foreknowledge-no-influence",
+   "after": "source:AB03274",
+   "responds": [
+    "source:AB03274"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's God says of the rebels that foreknowledge had no influence on their fault, which had been as certain unforeknown."
+  },
+  {
+   "id": "avot-judged-with-goodness",
+   "after": "source:AB03274",
+   "responds": [
+    "source:AB03274"
+   ],
+   "relation": "adjacent",
+   "why": "Rabbi Akiva's saying holds both together: everything is foreseen, yet freedom of choice is granted."
+  },
+  {
+   "id": "philippians-work-out-your-own-salvation",
+   "after": "source:AB04687",
+   "responds": [
+    "source:AB04687"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says both things in one breath: work out your own salvation, for it is God which worketh in you both to will and to do."
+  },
+  {
+   "id": "shakespeare-divinity-that-shapes-our-ends",
+   "after": "source:AB04687",
+   "responds": [
+    "source:AB04687"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet says there is a divinity that shapes our ends, rough-hew them how we will."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:AB00078",
+   "responds": [
+    "source:AB00078"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that in God we live, and move, and have our being."
+  },
+  {
+   "id": "psalm-these-wait-all-upon-thee",
+   "after": "source:AB02907",
+   "responds": [
+    "source:AB02907"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says all creatures wait upon God for their food, and when he takes away their breath they die."
+  },
+  {
+   "id": "marcus-bond-is-holy",
+   "after": "source:AB03929",
+   "responds": [
+    "source:AB03929"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says all things are implicated with one another, and the bond is holy."
+  },
+  {
+   "id": "proverbs-heart-deviseth-his-way",
+   "after": "source:AB03929",
+   "responds": [
+    "source:AB03929"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says a man's heart devises his way, but the Lord directs his steps."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "complement",
+   "why": "Bacon says nature to be commanded must be obeyed. Does man wrest the sword from nature's hands, or borrow it on nature's terms?"
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:ABU0439",
+   "responds": [
+    "source:ABU0439"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis gives humankind dominion over the earth and the charge to subdue it."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:ABU0439",
+   "responds": [
+    "source:ABU0439"
+   ],
+   "relation": "adjacent",
+   "why": "Sophocles' chorus sings that of many wonders none is more wonderful than man."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU2102",
+   "responds": [
+    "source:ABU2102"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that by space the universe swallows him like an atom, and by thought he comprehends it."
+  },
+  {
+   "id": "marcus-turn-thy-prayers",
+   "after": "source:ABU3347",
+   "responds": [
+    "source:ABU3347"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius would have us pray not to be released from what happens, but not to fear it."
+  },
+  {
+   "id": "aristotle-by-doing-just-acts",
+   "after": "source:ABU1208",
+   "responds": [
+    "source:ABU1208"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle holds that we become just by doing just acts and temperate by doing temperate ones."
+  },
+  {
+   "id": "shakespeare-fault-not-in-our-stars",
+   "after": "source:ABU1208",
+   "responds": [
+    "source:ABU1208"
+   ],
+   "relation": "adjacent",
+   "why": "Cassius says the fault is not in our stars, but in ourselves."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:AB00398",
+   "responds": [
+    "source:AB00398"
+   ],
+   "relation": "adjacent",
+   "why": "Locke supposes the mind at birth to be white paper, which experience then writes upon."
+  },
+  {
+   "id": "shakespeare-excellent-foppery",
+   "after": "source:BH00431",
+   "responds": [
+    "source:BH00431"
+   ],
+   "relation": "adjacent",
+   "why": "Edmund mocks the foppery that blames our disasters on sun, moon and stars, as if we were villains by necessity."
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:BH00431",
+   "responds": [
+    "source:BH00431"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that reason is and ought only to be the slave of the passions. If the will follows desire, in what sense is the choosing ours?"
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:ABU1965",
+   "responds": [
+    "source:ABU1965"
+   ],
+   "relation": "adjacent",
+   "why": "Paul finds a law in his members warring against the law of his mind and bringing him into captivity."
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:ABU1965",
+   "responds": [
+    "source:ABU1965"
+   ],
+   "relation": "adjacent",
+   "why": "Plato pictures the soul as a charioteer with two horses, one noble and one not, and hard to drive."
+  },
+  {
+   "id": "philemon-in-thy-stead",
+   "after": "source:ABU2204",
+   "responds": [
+    "source:ABU2204"
+   ],
+   "relation": "adjacent",
+   "why": "Paul would do nothing without Philemon's consent, that his kindness be not of necessity but willing."
+  },
+  {
+   "id": "psalm-fire-and-hail",
+   "after": "source:AB11371",
+   "responds": [
+    "source:AB11371"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm has fire, hail and stormy wind fulfilling God's word, and calls on people to praise."
+  },
+  {
+   "id": "joshua-choose-you-this-day",
+   "after": "source:ABU0744",
+   "responds": [
+    "source:ABU0744"
+   ],
+   "relation": "adjacent",
+   "why": "Joshua says: choose you this day whom ye will serve; as for me and my house, we will serve the Lord."
+  },
+  {
+   "id": "revelation-stand-at-the-door",
+   "after": "source:ABU0744",
+   "responds": [
+    "source:ABU0744"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord of John's vision stands at the door and knocks, and enters only if the door is opened."
+  },
+  {
+   "id": "matthew-killest-the-prophets",
+   "after": "source:ABU2648",
+   "responds": [
+    "source:ABU2648"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to Jerusalem: how often would I have gathered thy children, and ye would not."
+  },
+  {
+   "id": "quran-no-compulsion",
+   "after": "source:BB00154",
+   "responds": [
+    "source:BB00154"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says there is no compulsion in religion; the right direction is distinct from error."
+  },
+  {
+   "id": "quran-one-community",
+   "after": "source:BH00958",
+   "responds": [
+    "source:BH00958"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that had God willed he could have made mankind one community, but he tries them in what he gave."
+  },
+  {
+   "id": "romans-one-vessel-unto-honour",
+   "after": "source:BH00587",
+   "responds": [
+    "source:BH00587"
+   ],
+   "relation": "contrast",
+   "why": "Paul asks whether the potter has not power over the clay to make one vessel to honour and another to dishonour. If God could draw every soul and does not, where does responsibility lie?"
+  },
+  {
+   "id": "quran-ye-will-not-unless-allah-willeth",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an sets the human will inside the divine will: ye will not, unless God wills."
+  },
+  {
+   "id": "jeremiah-way-of-man-is-not-in-himself",
+   "after": "source:BB00021",
+   "responds": [
+    "source:BB00021"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah confesses that the way of man is not in himself, nor is it in man to direct his steps."
+  },
+  {
+   "id": "john-of-mine-own-self-do-nothing",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I can of mine own self do nothing; I seek not mine own will."
+  },
+  {
+   "id": "khayyam-moving-finger",
+   "after": "source:BB00054",
+   "responds": [
+    "source:BB00054"
+   ],
+   "relation": "adjacent",
+   "why": "FitzGerald's Omar says the moving finger writes and moves on, and no piety or wit can cancel half a line."
+  },
+  {
+   "id": "james-drawn-away-of-his-own-lust",
+   "after": "source:AB04692",
+   "responds": [
+    "source:AB04692"
+   ],
+   "relation": "adjacent",
+   "why": "James forbids anyone to say he is tempted of God: every man is drawn away of his own lust."
+  },
+  {
+   "id": "ezekiel-son-shall-not-bear",
+   "after": "source:AB04692",
+   "responds": [
+    "source:AB04692"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel says the soul that sins shall die, and the son shall not bear the iniquity of the father."
+  },
+  {
+   "id": "genesis-sin-lieth-at-the-door",
+   "after": "source:BB00492",
+   "responds": [
+    "source:BB00492"
+   ],
+   "relation": "adjacent",
+   "why": "God tells Cain that sin lies at the door, and that he is to rule over it."
+  },
+  {
+   "id": "henley-captain-of-my-soul",
+   "after": "source:ABU0261",
+   "responds": [
+    "source:ABU0261"
+   ],
+   "relation": "contrast",
+   "why": "Henley declares himself the master of his fate and captain of his soul. Is that the general opinion the reading describes, and what does it leave out?"
+  },
+  {
+   "id": "pope-chain-of-being",
+   "after": "source:ABU2457",
+   "responds": [
+    "source:ABU2457"
+   ],
+   "relation": "adjacent",
+   "why": "Pope says that a link struck from nature's chain, the tenth or the ten thousandth, breaks the chain alike."
+  },
+  {
+   "id": "matthew-sparrow-shall-not-fall",
+   "after": "source:ABU1589",
+   "responds": [
+    "source:ABU1589"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that not one sparrow falls to the ground without the Father."
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:ABU1589",
+   "responds": [
+    "source:ABU1589"
+   ],
+   "relation": "contrast",
+   "why": "Hardy blames crass casualty and dicing time, which would as readily have strown blisses as pain. Is there accident in the world, or only connections we do not see?"
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU1589",
+   "responds": [
+    "source:ABU1589"
+   ],
+   "relation": "complement",
+   "why": "The Preacher saw that the race is not to the swift, but time and chance happen to them all. What room does the reading leave for chance?"
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:ABU2845",
+   "responds": [
+    "source:ABU2845"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives the rule for the first kind of calamity: whatsoever a man soweth, that shall he also reap."
+  },
+  {
+   "id": "john-who-did-sin",
+   "after": "source:ABU2845",
+   "responds": [
+    "source:ABU2845"
+   ],
+   "relation": "contrast",
+   "why": "Asked whose sin made a man blind, Jesus answers that neither he nor his parents sinned. How far may any calamity be traced to conduct?"
+  },
+  {
+   "id": "pope-whatever-is-is-right",
+   "after": "source:ABU1361",
+   "responds": [
+    "source:ABU1361"
+   ],
+   "relation": "adjacent",
+   "why": "Pope calls all chance direction which thou canst not see, and all partial evil universal good."
+  },
+  {
+   "id": "voltaire-general-bliss",
+   "after": "source:ABU1361",
+   "responds": [
+    "source:ABU1361"
+   ],
+   "relation": "contrast",
+   "why": "Voltaire asks whether a general bliss can be composed from individuals' woes. Is the storm a blessing to those it drowns?"
+  },
+  {
+   "id": "jonah-god-repented",
+   "after": "source:AB05420",
+   "responds": [
+    "source:AB05420"
+   ],
+   "relation": "adjacent",
+   "why": "When Nineveh turned from its evil way, God repented of the evil he had said he would do."
+  },
+  {
+   "id": "kings-add-unto-thy-days-fifteen-years",
+   "after": "source:BH01018",
+   "responds": [
+    "source:BH01018"
+   ],
+   "relation": "adjacent",
+   "why": "Hezekiah, told to prepare to die, prays, and is told: I will add unto thy days fifteen years."
+  },
+  {
+   "id": "psalm-teach-us-to-number",
+   "after": "source:ABU2298",
+   "responds": [
+    "source:ABU2298"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks to be taught to number our days, that we may apply our hearts unto wisdom."
+  },
+  {
+   "id": "james-if-the-lord-will",
+   "after": "source:ABU2298",
+   "responds": [
+    "source:ABU2298"
+   ],
+   "relation": "adjacent",
+   "why": "James says that life is a vapour, and that we ought to say: if the Lord will, we shall live."
+  },
+  {
+   "id": "luke-importunate-widow",
+   "after": "source:ABU3511",
+   "responds": [
+    "source:ABU3511"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells of a widow whose persistence moved an unjust judge, to teach that people ought always to pray."
+  },
+  {
+   "id": "paine-change-his-mind",
+   "after": "source:ABU3511",
+   "responds": [
+    "source:ABU3511"
+   ],
+   "relation": "contrast",
+   "why": "Paine mocked the man who prays for rain in sunshine and for sunshine in rain, an attempt to make the Almighty change his mind. What is prayer asking when it asks that a decree be turned aside?"
+  },
+  {
+   "id": "quran-naught-of-disaster-but-it-is-in-a-book",
+   "after": "source:BH09282",
+   "responds": [
+    "source:BH09282"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that no disaster befalls in the earth or in yourselves but it is in a Book before it is brought into being."
+  },
+  {
+   "id": "proverbs-lot-is-cast-into-the-lap",
+   "after": "source:BH09282",
+   "responds": [
+    "source:BH09282"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says the lot is cast into the lap, but the whole disposing of it is of the Lord."
+  },
+  {
+   "id": "quran-not-a-leaf-falleth",
+   "after": "source:AB00007",
+   "responds": [
+    "source:AB00007"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that not a leaf falls but he knows it."
+  },
+  {
+   "id": "isaiah-i-have-spoken-it",
+   "after": "source:BH02644",
+   "responds": [
+    "source:BH02644"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God declare the end from the beginning: my counsel shall stand."
+  },
+  {
+   "id": "quran-whosoever-will-let-him-believe",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says in the same words: whosoever will, let him believe, and whosoever will, let him disbelieve."
+  },
+  {
+   "id": "dhammapada-no-one-can-purify-another",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that by oneself evil is done and by oneself one is purified."
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "source:BH00330",
+   "responds": [
+    "source:BH00330"
+   ],
+   "relation": "adjacent",
+   "why": "Paul ends his own long argument on this question in wonder: how unsearchable are his judgments."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:BH00634",
+   "responds": [
+    "source:BH00634"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job whether he can by searching find out God, or find out the Almighty to perfection."
+  },
+  {
+   "id": "augustine-give-what-you-command",
+   "after": "source:BB00219",
+   "responds": [
+    "source:BB00219"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine's prayer holds the middle: give what you command, and command what you will."
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "source:ABU0414",
+   "responds": [
+    "source:ABU0414"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says of God's knowledge of him: it is high, I cannot attain unto it."
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:ABU0414",
+   "responds": [
+    "source:ABU0414"
+   ],
+   "relation": "adjacent",
+   "why": "Kant found questions that reason cannot settle, and said he denied knowledge to make room for belief."
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:ABU0500",
+   "responds": [
+    "source:ABU0500"
+   ],
+   "relation": "adjacent",
+   "why": "God answers Job out of the whirlwind: where wast thou when I laid the foundations of the earth?"
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:ABU0500",
+   "responds": [
+    "source:ABU0500"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson's nature, red in tooth and claw, shrieks against the creed that love is creation's law. Can the look of meaninglessness in nature be set aside so quickly?"
+  },
+  {
+   "id": "dostoevsky-return-the-ticket",
+   "after": "source:ABU0500",
+   "responds": [
+    "source:ABU0500"
+   ],
+   "relation": "contrast",
+   "why": "Ivan Karamazov finds the price of harmony too high and returns his ticket. What would the reading say to him?"
+  },
+  {
+   "id": "romans-all-things-work-together",
+   "after": "source:AB00027",
+   "responds": [
+    "source:AB00027"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that all things work together for good to them that love God."
+  },
+  {
+   "id": "job-shall-we-receive-good",
+   "after": "source:BH02726",
+   "responds": [
+    "source:BH02726"
+   ],
+   "relation": "adjacent",
+   "why": "Job asks his wife: shall we receive good at the hand of God, and shall we not receive evil?"
+  },
+  {
+   "id": "job-naked-came-i",
+   "after": "source:AB03219",
+   "responds": [
+    "source:AB03219"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  },
+  {
+   "id": "hebrews-content-with-such-things",
+   "after": "source:BB00407",
+   "responds": [
+    "source:BB00407"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews asks its readers to be content with such things as they have, and not to fear what man shall do."
+  },
+  {
+   "id": "ignatius-take-and-receive",
+   "after": "source:BH01292",
+   "responds": [
+    "source:BH01292"
+   ],
+   "relation": "adjacent",
+   "why": "Ignatius prays: take, Lord, and receive all my liberty and all my will."
+  },
+  {
+   "id": "dante-his-will-our-peace",
+   "after": "source:ABU0303",
+   "responds": [
+    "source:ABU0303"
+   ],
+   "relation": "adjacent",
+   "why": "Dante's blessed soul says that to keep within the divine will is their peace."
+  },
+  {
+   "id": "marcus-to-thee-all-return",
+   "after": "source:ABU2401",
+   "responds": [
+    "source:ABU2401"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says: everything harmonizes with me which is harmonious to thee, O Universe."
+  },
+  {
+   "id": "longfellow-some-rain-must-fall",
+   "after": "source:ABU2401",
+   "responds": [
+    "source:ABU2401"
+   ],
+   "relation": "adjacent",
+   "why": "Longfellow tells a sad heart that its fate is the common fate of all: into each life some rain must fall."
+  },
+  {
+   "id": "rousseau-moral-liberty",
+   "after": "source:ABU3352",
+   "responds": [
+    "source:ABU3352"
+   ],
+   "relation": "adjacent",
+   "why": "Rousseau calls the impulse of appetite slavery, and obedience to a law we give ourselves liberty."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:ABU3352",
+   "responds": [
+    "source:ABU3352"
+   ],
+   "relation": "contrast",
+   "why": "Emerson says, trust thyself. Is the will's arbitrariness something to be released from, or the root of a person's worth?"
+  },
+  {
+   "id": "hebrews-tempted-like-as-we-are",
+   "after": "source:ABU3184",
+   "responds": [
+    "source:ABU3184"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews speaks of one tempted in all points like as we are, yet without sin."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU1895",
+   "responds": [
+    "source:ABU1895"
+   ],
+   "relation": "complement",
+   "why": "Darwin held that the difference in mind between man and the higher animals is one of degree and not of kind. Is all animal affection instinct, and all human love will?"
+  },
+  {
+   "id": "matthew-ears-to-hear",
+   "after": "source:BH05540",
+   "responds": [
+    "source:BH05540"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus leaves his hearers free with the words: he that hath ears to hear, let him hear."
+  },
+  {
+   "id": "quran-unto-you-your-religion",
+   "after": "source:BH05956",
+   "responds": [
+    "source:BH05956"
+   ],
+   "relation": "adjacent",
+   "why": "A short chapter of the Qur’an ends: unto you your religion, and unto me my religion."
+  },
+  {
+   "id": "ezekiel-hear-or-forbear",
+   "after": "source:BH08865",
+   "responds": [
+    "source:BH08865"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel is sent to speak whether they will hear or whether they will forbear."
+  },
+  {
+   "id": "john-wind-bloweth-where-it-listeth",
+   "after": "selection:279b91d8d0745fbe39b2c4ae",
+   "responds": [
+    "selection:279b91d8d0745fbe39b2c4ae"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says the wind blows where it lists, and no one can tell whence it comes."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "selection:86a6ad3a2f7fc2ce41a268f4",
+   "responds": [
+    "selection:86a6ad3a2f7fc2ce41a268f4"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to the branches of the vine: without me ye can do nothing."
+  },
+  {
+   "id": "matthew-rain-on-the-just",
+   "after": "selection:4f811c3c694b7fb10a81b0c4",
+   "responds": [
+    "selection:4f811c3c694b7fb10a81b0c4"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says the Father sends rain on the just and on the unjust."
+  },
+  {
+   "id": "colossians-by-him-all-things-consist",
+   "after": "selection:4f324857caf37f38312ef295",
+   "responds": [
+    "selection:4f324857caf37f38312ef295"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of one who is before all things, and by whom all things consist."
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "selection:f1c6527fa16b75d50d9c3a29",
+   "responds": [
+    "selection:f1c6527fa16b75d50d9c3a29"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle's unmoved mover moves all things as the object of love moves the lover."
+  },
+  {
+   "id": "quran-man-hath-only-that-for-which",
+   "after": "selection:4467a3e3893550c25b3d3e65",
+   "responds": [
+    "selection:4467a3e3893550c25b3d3e65"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that man has only that for which he makes effort."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "selection:fe2e8b1ffbf968ad972fb425",
+   "responds": [
+    "selection:fe2e8b1ffbf968ad972fb425"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm sets man a little lower than the angels, with dominion over the works of God's hands."
+  },
+  {
+   "id": "quran-change-what-is-in-their-hearts",
+   "after": "selection:90b690666897719c4f08a0e2",
+   "responds": [
+    "selection:90b690666897719c4f08a0e2"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God changes not the condition of a people until they change what is in their hearts."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "selection:44a16fa1cfb5c80cd2ad9727",
+   "responds": [
+    "selection:44a16fa1cfb5c80cd2ad9727"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that when God intends a thing, his command is only that he says to it, Be, and it is."
+  },
+  {
+   "id": "isaiah-first-and-last",
+   "after": "selection:a7bc85c6992515d5be9320b9",
+   "responds": [
+    "selection:a7bc85c6992515d5be9320b9"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: I am the first, and I am the last."
+  },
+  {
+   "id": "genesis-meant-it-unto-good",
+   "after": "selection:47d5be39af2dcc0617709865",
+   "responds": [
+    "selection:47d5be39af2dcc0617709865"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph tells his brothers: ye thought evil against me, but God meant it unto good."
+  },
+  {
+   "id": "jeremiah-heart-is-deceitful",
+   "after": "selection:f9e049408738a7932e2dc3f0",
+   "responds": [
+    "selection:f9e049408738a7932e2dc3f0"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah says the heart is deceitful above all things, and that the Lord searches it."
+  },
+  {
+   "id": "romans-not-of-him-that-willeth",
+   "after": "selection:dae788ac1d8f94b30b1c0b80",
+   "responds": [
+    "selection:dae788ac1d8f94b30b1c0b80"
+   ],
+   "relation": "complement",
+   "why": "Paul says it is not of him that wills nor of him that runs, but of God that shows mercy; Ben Sira says man is left in the hand of his own counsel. Can both be held at once?"
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "selection:863fc5f02d98e5c16bafb63d",
+   "responds": [
+    "selection:863fc5f02d98e5c16bafb63d"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz makes each substance a living mirror that expresses all the others from its own point of view."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "selection:7657323ae7cd626f44487d9d",
+   "responds": [
+    "selection:7657323ae7cd626f44487d9d"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose."
+  },
+  {
+   "id": "boethius-due-return",
+   "after": "selection:0314a6fe994f1ee4730e1c11",
+   "responds": [
+    "selection:0314a6fe994f1ee4730e1c11"
+   ],
+   "relation": "adjacent",
+   "why": "Boethius sees all things held in an order fixed and yet in motion, joining the end to the beginning."
+  },
+  {
+   "id": "shakespeare-readiness-is-all",
+   "after": "selection:0314a6fe994f1ee4730e1c11",
+   "responds": [
+    "selection:0314a6fe994f1ee4730e1c11"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet finds a special providence in the fall of a sparrow, and concludes: the readiness is all."
+  }
+ ],
+ "library": {
+  "quran-ye-will-not-unless-allah-willeth": {
+   "text": "Yet ye will not, unless Allah willeth. Lo! Allah is Knower, Wise.",
+   "work": "Qur’an 76:30",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=76&verse=30",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-naught-of-disaster-but-it-is-in-a-book": {
+   "text": "Naught of disaster befalleth in the earth or in yourselves but it is in a Book before we bring it into being - Lo! that is easy for Allah -",
+   "work": "Qur’an 57:22",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=57&verse=22",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "jeremiah-way-of-man-is-not-in-himself": {
+   "text": "O Lord, I know that the way of man is not in himself: it is not in man that walketh to direct his steps",
+   "work": "Jeremiah 10:23",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2010%3A23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-shall-we-receive-good": {
+   "text": "What? shall we receive good at the hand of God, and shall we not receive evil? In all this did not Job sin with his lips",
+   "work": "Job 2:10",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%202%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-add-unto-thy-days-fifteen-years": {
+   "text": "I have heard thy prayer, I have seen thy tears: behold, I will heal thee: on the third day thou shalt go up unto the house of the Lord. And I will add unto thy days fifteen years",
+   "work": "2 Kings 20:5–6",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Kings%2020%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "joshua-choose-you-this-day": {
+   "text": "And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord",
+   "work": "Joshua 24:15",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Joshua%2024%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "epictetus-some-things-are-in-our-control": {
+   "text": "Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our own actions",
+   "author": "Epictetus",
+   "work": "Enchiridion",
+   "locator": "1",
+   "year": "c. 125",
+   "sortYear": 125,
+   "translator": "Elizabeth Carter",
+   "translationYear": "1758",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Epictetus/epicench.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1806."
+   }
+  },
+  "sirach-in-the-hand-of-his-counsel": {
+   "text": "He himself made man from the beginning, and left him in the hand of his counsel; If thou wilt, to keep the commandments, and to perform acceptable faithfulness. He hath set fire and water before thee: stretch forth thy hand unto whether thou wilt. Before man is life and death; and whether him liketh shall be given him",
+   "work": "Ecclesiasticus (Sirach) 15:14–17",
+   "year": "c. 2nd century BCE",
+   "sortYear": -180,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiasticus",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   },
+   "caveat": "From the Apocrypha of the King James Bible; Catholic and Orthodox Christians count the book in the Old Testament."
+  }
+ }
+}
