@@ -1,0 +1,351 @@
+{
+ "format": 2,
+ "slug": "maturity",
+ "subject": "FA54B06FDFAEE43C8FE0DBD8E1679105",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 31,
+ "quotations": 33,
+ "kept": [
+  "source:ABU0373",
+  "source:ABU0101",
+  "source:ABU0264",
+  "source:ABU0447",
+  "source:ABU2265",
+  "source:AB06534",
+  "source:ABU2862",
+  "source:AB00022",
+  "source:BH00001",
+  "source:AB11349",
+  "source:ABU3503",
+  "source:ABU1375",
+  "source:AB04411",
+  "source:AB00305",
+  "source:BH01403",
+  "selection:02818d0bbb9bfa577cd4516f",
+  "selection:6326d512cccc4dcb6e49ff91",
+  "selection:671c4f6f197889b07919e3ab",
+  "selection:cafda8729a6706e106921eb6",
+  "selection:8278698999f9af1b7bf3672b",
+  "selection:6ce9af616ead4e2599e5715c",
+  "selection:68809b43e19e5724d2704dd5",
+  "selection:a2c294da683376470bc1788b",
+  "selection:650796109de2dba4e3cb2380",
+  "selection:cbf9c083b598af10376922d8",
+  "selection:1699e520d7cd150748a98cda",
+  "selection:42643d1a0fee4419f64b4e7c",
+  "selection:5f3f2aafe5527fb1b1394284",
+  "selection:921fab0aa69014b70c99330f",
+  "selection:4a0396c88c0da5aba57a5ed6",
+  "selection:3bb0254d7b6784f1bf2142f1"
+ ],
+ "introduction": "These readings compare humanity to a single person who passes through infancy, childhood and a turbulent adolescence and is now coming of age. ‘Abdu’l-Bahá sets out the comparison; Bahá’u’lláh names signs of the world's maturity; later passages read the wars and upheavals of the modern age as the commotions of adolescence and the teachings of Bahá’u’lláh as fitted to adulthood. All thirty-three quotations are read here beside thirty-three from elsewhere. Most stand alongside: Paul putting away childish things and the heir under tutors, Kant's 'dare to know', the seed that becomes full corn, Isaiah's plowshares, Tennyson's Parliament of man, Hugo and Wilson. Six push back or add a side: the Preacher's 'no new thing under the sun', Thucydides on the strong and the weak, Kant's crooked material, Yeats and Dickens on what an age looks like from inside, and Jesus making the little child the model.",
+ "questions": [
+  "What does the comparison of humanity to a growing person explain, and where might it mislead?",
+  "Paul 'put away childish things'; Jesus asks us to become as little children. What should maturity leave behind, and what should it keep?",
+  "The readings call war, prejudice and exploitation marks of immaturity. Thucydides thought them permanent. What evidence would count either way?",
+  "Universal peace is named as a sign of the world's coming of age. Yeats saw the centre failing. How do you read the present?",
+  "What new responsibilities come with adulthood, for a person and for humanity?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU0373",
+   "responds": [
+    "source:ABU0373"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the same figure of himself: when I was a child I spake as a child, but when I became a man I put away childish things."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU0373",
+   "responds": [
+    "source:ABU0373"
+   ],
+   "relation": "adjacent",
+   "why": "Kant defined enlightenment as release from self-incurred tutelage, with the motto: have courage to use your own reason."
+  },
+  {
+   "id": "psalm-tree-by-the-rivers",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "The first psalm likens the just to a tree by the rivers of water that brings forth its fruit in its season."
+  },
+  {
+   "id": "shakespeare-seven-ages",
+   "after": "source:ABU0101",
+   "responds": [
+    "source:ABU0101"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Jaques pictures a life as a play in acts: all the world's a stage, and one man in his time plays many parts."
+  },
+  {
+   "id": "wordsworth-child-is-father",
+   "after": "source:ABU0264",
+   "responds": [
+    "source:ABU0264"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth held that the child is father of the man, and wished his days bound each to each."
+  },
+  {
+   "id": "luke-increased-in-wisdom",
+   "after": "source:ABU0447",
+   "responds": [
+    "source:ABU0447"
+   ],
+   "relation": "adjacent",
+   "why": "Luke says of the boy Jesus that he increased in wisdom and stature, and in favour with God and man."
+  },
+  {
+   "id": "matthew-new-wine",
+   "after": "source:ABU2265",
+   "responds": [
+    "source:ABU2265"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that no one puts new wine into old bottles, or the bottles break and the wine is lost."
+  },
+  {
+   "id": "galatians-under-tutors",
+   "after": "source:AB06534",
+   "responds": [
+    "source:AB06534"
+   ],
+   "relation": "adjacent",
+   "why": "Paul compares the earlier age to an heir who, while a child, is under tutors and governors until the time appointed."
+  },
+  {
+   "id": "micah-vine-and-fig-tree",
+   "after": "source:ABU2862",
+   "responds": [
+    "source:ABU2862"
+   ],
+   "relation": "adjacent",
+   "why": "Micah looks to a day when each shall sit under his vine and fig tree, and none shall make them afraid."
+  },
+  {
+   "id": "tennyson-far-off-divine-event",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson ends his long elegy with one far-off divine event to which the whole creation moves."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher holds that what has been is what shall be, and there is no new thing under the sun. Does history advance, or only repeat?"
+  },
+  {
+   "id": "daniel-knowledge-shall-be-increased",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel's sign for the time of the end is that many shall run to and fro, and knowledge shall be increased."
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:AB11349",
+   "responds": [
+    "source:AB11349"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson foresaw the war-drum silent and the battle-flags furled in the Parliament of man, the Federation of the world."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:AB11349",
+   "responds": [
+    "source:AB11349"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's sign of the latter days is that nations beat their swords into plowshares and learn war no more."
+  },
+  {
+   "id": "wordsworth-bliss-in-that-dawn",
+   "after": "source:ABU3503",
+   "responds": [
+    "source:ABU3503"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth remembered the hopes of his youth in the same key: bliss was it in that dawn to be alive."
+  },
+  {
+   "id": "dickens-best-of-times",
+   "after": "source:ABU3503",
+   "responds": [
+    "source:ABU3503"
+   ],
+   "relation": "complement",
+   "why": "Dickens opens his tale of an age of revolution: it was the best of times, it was the worst of times. Can a century be called an age of light while it is being lived?"
+  },
+  {
+   "id": "hebrews-strong-meat",
+   "after": "source:ABU1375",
+   "responds": [
+    "source:ABU1375"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says that strong meat belongs to those of full age, whose senses are exercised to discern good and evil."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:AB04411",
+   "responds": [
+    "source:AB04411"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples: I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "ephesians-unto-a-perfect-man",
+   "after": "source:AB00305",
+   "responds": [
+    "source:AB00305"
+   ],
+   "relation": "adjacent",
+   "why": "Paul sees the teachers of the church working till all come to a perfect man, the measure of full stature."
+  },
+  {
+   "id": "exodus-thou-wilt-surely-wear-away",
+   "after": "source:BH01403",
+   "responds": [
+    "source:BH01403"
+   ],
+   "relation": "adjacent",
+   "why": "Jethro told Moses, judging the people alone: this thing is too heavy for thee; thou art not able to perform it thyself alone."
+  },
+  {
+   "id": "arnold-between-two-worlds",
+   "after": "selection:02818d0bbb9bfa577cd4516f",
+   "responds": [
+    "selection:02818d0bbb9bfa577cd4516f"
+   ],
+   "relation": "adjacent",
+   "why": "Arnold felt his own age to be wandering between two worlds, one dead, the other powerless to be born."
+  },
+  {
+   "id": "yeats-centre",
+   "after": "selection:6326d512cccc4dcb6e49ff91",
+   "responds": [
+    "selection:6326d512cccc4dcb6e49ff91"
+   ],
+   "relation": "complement",
+   "why": "Yeats, after the Great War, wrote that things fall apart, the centre cannot hold, and mere anarchy is loosed. Is that the tumult of adolescence, or of something ending?"
+  },
+  {
+   "id": "thucydides-the-strong-do-what-they-can",
+   "after": "selection:671c4f6f197889b07919e3ab",
+   "responds": [
+    "selection:671c4f6f197889b07919e3ab"
+   ],
+   "relation": "contrast",
+   "why": "Thucydides records the claim that the strong do what they can and the weak suffer what they must. Is that a stage to be outgrown, or the way of the world?"
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "selection:cafda8729a6706e106921eb6",
+   "responds": [
+    "selection:cafda8729a6706e106921eb6"
+   ],
+   "relation": "adjacent",
+   "why": "Paul admits the limit: now we see through a glass, darkly; now I know in part."
+  },
+  {
+   "id": "whitman-earth-to-be-spanned",
+   "after": "selection:68809b43e19e5724d2704dd5",
+   "responds": [
+    "selection:68809b43e19e5724d2704dd5"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman saw a purpose from the first: the earth to be spanned, the races to be neighbours, the lands welded together."
+  },
+  {
+   "id": "wilson-association-of-nations",
+   "after": "selection:68809b43e19e5724d2704dd5",
+   "responds": [
+    "selection:68809b43e19e5724d2704dd5"
+   ],
+   "relation": "adjacent",
+   "why": "Wilson's fourteenth point asked for a general association of nations to guarantee great and small states alike."
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "selection:a2c294da683376470bc1788b",
+   "responds": [
+    "selection:a2c294da683376470bc1788b"
+   ],
+   "relation": "adjacent",
+   "why": "He that sat upon the throne in the Apocalypse says: behold, I make all things new."
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "selection:650796109de2dba4e3cb2380",
+   "responds": [
+    "selection:650796109de2dba4e3cb2380"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likened the kingdom to seed that grows unseen: first the blade, then the ear, then the full corn in the ear."
+  },
+  {
+   "id": "isaiah-wonderful-counsellor",
+   "after": "selection:1699e520d7cd150748a98cda",
+   "responds": [
+    "selection:1699e520d7cd150748a98cda"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah speaks of one on whose shoulder the government shall rest, named Counsellor and Prince of Peace."
+  },
+  {
+   "id": "hugo-day-will-come",
+   "after": "selection:5f3f2aafe5527fb1b1394284",
+   "responds": [
+    "selection:5f3f2aafe5527fb1b1394284"
+   ],
+   "relation": "adjacent",
+   "why": "Victor Hugo told a peace congress that a day will come when the nations of Europe are blended into a higher unity."
+  },
+  {
+   "id": "matthew-in-earth-as-in-heaven",
+   "after": "selection:921fab0aa69014b70c99330f",
+   "responds": [
+    "selection:921fab0aa69014b70c99330f"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer Jesus taught asks for this: thy kingdom come, thy will be done in earth, as it is in heaven."
+  },
+  {
+   "id": "matthew-become-as-little-children",
+   "after": "selection:4a0396c88c0da5aba57a5ed6",
+   "responds": [
+    "selection:4a0396c88c0da5aba57a5ed6"
+   ],
+   "relation": "complement",
+   "why": "Jesus said that unless ye become as little children ye shall not enter the kingdom. What of childhood should a mature humanity keep?"
+  },
+  {
+   "id": "kant-crooked-material",
+   "after": "selection:3bb0254d7b6784f1bf2142f1",
+   "responds": [
+    "selection:3bb0254d7b6784f1bf2142f1"
+   ],
+   "relation": "contrast",
+   "why": "Kant doubted that anything perfectly straight can be built from the crooked material of which man is made. What makes the hope of collective adulthood more than a mirage?"
+  }
+ ],
+ "library": {}
+}
