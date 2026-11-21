@@ -1,0 +1,1021 @@
+{
+ "format": 2,
+ "slug": "covenantfirmness",
+ "subject": "1A99E9F886AA4DB89E927820FA635633",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 97,
+ "quotations": 100,
+ "kept": [
+  "source:AB01184",
+  "source:AB00165",
+  "source:AB00032",
+  "source:AB00945",
+  "source:AB00116",
+  "source:AB03257",
+  "source:AB04657",
+  "source:AB00838",
+  "source:ABU0066",
+  "source:AB02595",
+  "source:AB09083",
+  "source:ABU1869",
+  "source:ABU2088",
+  "source:BH00116",
+  "source:AB00292",
+  "source:AB00401",
+  "source:AB00972",
+  "source:AB02008",
+  "source:AB00590",
+  "source:AB01023",
+  "source:AB00388",
+  "source:AB03780",
+  "source:BH01234",
+  "source:AB00708",
+  "source:AB04432",
+  "source:AB06934",
+  "source:AB11916",
+  "source:ABU1322",
+  "source:BH07424",
+  "source:AB00303",
+  "source:AB00623",
+  "source:AB01318",
+  "source:AB01471",
+  "source:AB03629",
+  "source:AB04215",
+  "source:BH00505",
+  "source:BH04631",
+  "source:AB02770",
+  "source:AB04985",
+  "source:AB07294",
+  "source:AB08546",
+  "source:AB09017",
+  "source:AB09160",
+  "source:AB02841",
+  "source:AB04364",
+  "source:AB04961",
+  "source:AB08427",
+  "source:AB11075",
+  "source:AB11729",
+  "source:AB12082",
+  "source:BH03633",
+  "source:BH06759",
+  "source:AB07517",
+  "source:AB06584",
+  "source:AB06971",
+  "source:AB05805",
+  "source:AB06787",
+  "source:AB07551",
+  "source:AB07947",
+  "source:AB09721",
+  "source:AB11026",
+  "source:ABU1724",
+  "source:BH03158",
+  "source:AB02457",
+  "source:AB03658",
+  "source:AB03875",
+  "source:AB04504",
+  "source:AB00215",
+  "source:AB00233",
+  "source:AB03646",
+  "source:AB00480",
+  "source:ABU0412",
+  "source:AB08487",
+  "source:AB02326",
+  "source:BH07775",
+  "source:BB00596",
+  "source:AB05512",
+  "source:AB02181",
+  "source:AB03619",
+  "source:AB06979",
+  "source:AB06982",
+  "source:AB07075",
+  "source:AB08339",
+  "source:AB09053",
+  "source:AB10447",
+  "source:AB00806",
+  "source:AB07326",
+  "source:AB05125",
+  "source:AB08861",
+  "source:AB09310",
+  "source:ABU0463",
+  "source:AB01316",
+  "source:AB02933",
+  "source:AB03462",
+  "source:AB03499",
+  "source:AB04740",
+  "source:AB05600"
+ ],
+ "introduction": "These readings, most of them letters of ‘Abdu’l-Bahá written while his authority was being contested, call firmness in the Covenant the first condition of faith. The Covenant is Bahá’u’lláh's appointment of one centre to whom all should turn; firmness in it is what keeps the community one, protects it from 'whisperings' and division, and gives teaching its effect; and many of the passages are prayers that souls be made steadfast. A hundred of the guide's three hundred quotations are read here, ten from each tenth of the reading order, beside a hundred from elsewhere. Most stand alongside: God's covenants in the Torah and the Qur'an, the house on the rock, Ruth's 'whither thou goest', Paul's letters to young churches troubled by faction, the vine and its branches, Milton's Abdiel, the bundle of sticks. Ten push back or add a side: Milton and Mill on free encounter of opinion, Tennyson's honest doubt, Emerson's 'foolish consistency', Caesar's boast of constancy, the wheat and the tares, 'help thou mine unbelief', and Paul's counsel to restore the one who falls.",
+ "questions": [
+  "The readings call firmness in the Covenant the protection of unity. What has divided religious communities in the past, and how is a single appointed centre meant to prevent it?",
+  "Believers are told to shield one another from 'whisperings'. Milton trusted truth to win in open encounter. How do you tell protecting a community from closing its mind?",
+  "Tennyson finds faith in honest doubt, and a father in the Gospel says 'help thou mine unbelief'. What is the difference between doubt and wavering?",
+  "Emerson mocks consistency; Caesar's constancy is pride. What makes steadfastness a virtue and not stubbornness?",
+  "When someone who was tested returns, Paul says to restore him in a spirit of meekness. What does that ask of the firm?",
+  "'Firmness in the Covenant is not mere words.' What deeds would show it?"
+ ],
+ "outside": [
+  {
+   "id": "deuteronomy-keepeth-covenant",
+   "after": "source:AB01184",
+   "responds": [
+    "source:AB01184"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy calls God the faithful God, which keepeth covenant and mercy with them that love him."
+  },
+  {
+   "id": "matthew-house-upon-a-rock",
+   "after": "source:AB00165",
+   "responds": [
+    "source:AB00165"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the one who hears his sayings and does them to a wise man who built his house upon a rock."
+  },
+  {
+   "id": "psalm-covenant-will-i-not-break",
+   "after": "source:AB00032",
+   "responds": [
+    "source:AB00032"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm has God say: my covenant will I not break, nor alter the thing that is gone out of my lips."
+  },
+  {
+   "id": "jefferson-difference-of-opinion",
+   "after": "source:AB00945",
+   "responds": [
+    "source:AB00945"
+   ],
+   "relation": "complement",
+   "why": "Jefferson, taking office after a bitter election, said that every difference of opinion is not a difference of principle. How does a community tell a misunderstanding from a breach?"
+  },
+  {
+   "id": "psalm-as-mount-zion",
+   "after": "source:AB00116",
+   "responds": [
+    "source:AB00116"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that they that trust in the Lord shall be as mount Zion, which cannot be removed."
+  },
+  {
+   "id": "quran-covenant-of-the-prophets",
+   "after": "source:AB03257",
+   "responds": [
+    "source:AB03257"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells of a covenant God made with the prophets, that they would believe and help a messenger who should come confirming what they had."
+  },
+  {
+   "id": "ruth-whither-thou-goest",
+   "after": "source:AB04657",
+   "responds": [
+    "source:AB04657"
+   ],
+   "relation": "adjacent",
+   "why": "Ruth says to Naomi: whither thou goest, I will go; thy people shall be my people, and thy God my God."
+  },
+  {
+   "id": "ephesians-every-wind-of-doctrine",
+   "after": "source:AB00838",
+   "responds": [
+    "source:AB00838"
+   ],
+   "relation": "adjacent",
+   "why": "Paul hopes that his readers will be no more children, tossed to and fro, and carried about with every wind of doctrine."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:AB00838",
+   "responds": [
+    "source:AB00838"
+   ],
+   "relation": "contrast",
+   "why": "Milton asked: let truth and falsehood grapple; who ever knew truth put to the worse in a free and open encounter? When is shielding people from whisperings care for them, and when does it do the injury to truth that he feared?"
+  },
+  {
+   "id": "john-my-doctrine-is-not-mine",
+   "after": "source:ABU0066",
+   "responds": [
+    "source:ABU0066"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: my doctrine is not mine, but his that sent me."
+  },
+  {
+   "id": "hebrews-without-wavering",
+   "after": "source:AB02595",
+   "responds": [
+    "source:AB02595"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says: let us hold fast the profession of our faith without wavering, for he is faithful that promised."
+  },
+  {
+   "id": "quran-am-i-not-your-lord",
+   "after": "source:AB09083",
+   "responds": [
+    "source:AB09083"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an tells of a covenant before time, when the seed of Adam was brought forth and made to testify of themselves."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU1869",
+   "responds": [
+    "source:ABU1869"
+   ],
+   "relation": "contrast",
+   "why": "Mill observed that he who knows only his own side of the case knows little of that. What is the difference between speaking without sanction and thinking for oneself?"
+  },
+  {
+   "id": "bacon-breach-of-unity",
+   "after": "source:ABU2088",
+   "responds": [
+    "source:ABU2088"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon wrote that heresies and schisms are of all others the greatest scandals, more than corruption of manners."
+  },
+  {
+   "id": "kings-how-long-halt-ye",
+   "after": "source:BH00116",
+   "responds": [
+    "source:BH00116"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah says to all the people: how long halt ye between two opinions?"
+  },
+  {
+   "id": "romans-mark-them-which-cause-divisions",
+   "after": "source:AB00292",
+   "responds": [
+    "source:AB00292"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: mark them which cause divisions and offences contrary to the doctrine which ye have learned."
+  },
+  {
+   "id": "corinthians-quit-you-like-men",
+   "after": "source:AB00401",
+   "responds": [
+    "source:AB00401"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: watch ye, stand fast in the faith, quit you like men, be strong."
+  },
+  {
+   "id": "psalm-very-present-help",
+   "after": "source:AB00972",
+   "responds": [
+    "source:AB00972"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that God is our refuge and strength, a very present help in trouble."
+  },
+  {
+   "id": "revelation-faithful-unto-death",
+   "after": "source:AB02008",
+   "responds": [
+    "source:AB02008"
+   ],
+   "relation": "adjacent",
+   "why": "The Revelation says: be thou faithful unto death, and I will give thee a crown of life."
+  },
+  {
+   "id": "luke-hand-to-the-plough",
+   "after": "source:AB00590",
+   "responds": [
+    "source:AB00590"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that no man, having put his hand to the plough, and looking back, is fit for the kingdom of God."
+  },
+  {
+   "id": "matthew-endureth-to-the-end",
+   "after": "source:AB01023",
+   "responds": [
+    "source:AB01023"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he that endureth to the end shall be saved."
+  },
+  {
+   "id": "analects-pine-and-cypress",
+   "after": "source:AB01023",
+   "responds": [
+    "source:AB01023"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that when the year becomes cold, then we know how the pine and the cypress are the last to lose their leaves."
+  },
+  {
+   "id": "romans-i-long-to-see-you",
+   "after": "source:AB00388",
+   "responds": [
+    "source:AB00388"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes to friends he has not met: I long to see you, to the end ye may be established."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:AB03780",
+   "responds": [
+    "source:AB03780"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that they that wait upon the Lord shall renew their strength, and shall walk, and not faint."
+  },
+  {
+   "id": "psalm-feet-upon-a-rock",
+   "after": "source:BH01234",
+   "responds": [
+    "source:BH01234"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says that God brought him up out of an horrible pit, and set his feet upon a rock."
+  },
+  {
+   "id": "matthew-wheat-and-tares",
+   "after": "source:AB00708",
+   "responds": [
+    "source:AB00708"
+   ],
+   "relation": "complement",
+   "why": "In the parable the householder will not have the tares pulled up, lest the wheat be rooted up with them: let both grow together until the harvest. How long should a community bear with those who waver?"
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:AB04432",
+   "responds": [
+    "source:AB04432"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says that we are compassed about with so great a cloud of witnesses."
+  },
+  {
+   "id": "quran-cable",
+   "after": "source:AB06934",
+   "responds": [
+    "source:AB06934"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says: hold fast, all of you together, to the cable of God, and do not separate."
+  },
+  {
+   "id": "matthew-when-thou-fastest",
+   "after": "source:AB11916",
+   "responds": [
+    "source:AB11916"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that when thou fastest, appear not unto men to fast, but unto thy Father which is in secret."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "source:AB11916",
+   "responds": [
+    "source:AB11916"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I am the vine, ye are the branches; he that abideth in me bringeth forth much fruit."
+  },
+  {
+   "id": "hebrews-run-with-patience",
+   "after": "source:ABU1322",
+   "responds": [
+    "source:ABU1322"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews says: let us run with patience the race that is set before us."
+  },
+  {
+   "id": "proverbs-friend-loveth-at-all-times",
+   "after": "source:BH07424",
+   "responds": [
+    "source:BH07424"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a friend loveth at all times, and a brother is born for adversity."
+  },
+  {
+   "id": "emerson-foolish-consistency",
+   "after": "source:AB00303",
+   "responds": [
+    "source:AB00303"
+   ],
+   "relation": "contrast",
+   "why": "Emerson called a foolish consistency the hobgoblin of little minds. What separates the firmness praised here from the consistency he despised?"
+  },
+  {
+   "id": "aesop-bundle",
+   "after": "source:AB00623",
+   "responds": [
+    "source:AB00623"
+   ],
+   "relation": "adjacent",
+   "why": "In Aesop's fable a father shows his quarrelling sons that sticks which cannot be broken in a bundle are easily broken one by one."
+  },
+  {
+   "id": "john-true-vine",
+   "after": "source:AB01318",
+   "responds": [
+    "source:AB01318"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: I am the true vine, and my Father is the husbandman."
+  },
+  {
+   "id": "luke-that-thy-faith-fail-not",
+   "after": "source:AB01471",
+   "responds": [
+    "source:AB01471"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells Peter that he has prayed for him, that his faith fail not, and bids him strengthen his brethren."
+  },
+  {
+   "id": "jude-keep-you-from-falling",
+   "after": "source:AB03629",
+   "responds": [
+    "source:AB03629"
+   ],
+   "relation": "adjacent",
+   "why": "Jude ends his letter with praise to him that is able to keep you from falling."
+  },
+  {
+   "id": "philippians-likeminded",
+   "after": "source:AB04215",
+   "responds": [
+    "source:AB04215"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: fulfil ye my joy, that ye be likeminded, having the same love, being of one accord."
+  },
+  {
+   "id": "luke-faithful-in-least",
+   "after": "source:BH00505",
+   "responds": [
+    "source:BH00505"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that he that is faithful in that which is least is faithful also in much."
+  },
+  {
+   "id": "timothy-keep-that-which-is-committed",
+   "after": "source:BH04631",
+   "responds": [
+    "source:BH04631"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: O Timothy, keep that which is committed to thy trust."
+  },
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:AB02770",
+   "responds": [
+    "source:AB02770"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: forgetting those things which are behind, I press toward the mark."
+  },
+  {
+   "id": "james-wave-of-the-sea",
+   "after": "source:AB07294",
+   "responds": [
+    "source:AB07294"
+   ],
+   "relation": "adjacent",
+   "why": "James says that he that wavereth is like a wave of the sea driven with the wind and tossed."
+  },
+  {
+   "id": "tennyson-honest-doubt",
+   "after": "source:AB07294",
+   "responds": [
+    "source:AB07294"
+   ],
+   "relation": "contrast",
+   "why": "Tennyson wrote of his friend that there lives more faith in honest doubt than in half the creeds. Is every doubt a whispering to be shut out, and how would one know an honest one?"
+  },
+  {
+   "id": "quran-angels-descend-upon-them",
+   "after": "source:AB08546",
+   "responds": [
+    "source:AB08546"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that on those who say, our Lord is God, and afterward are upright, the angels descend, saying: fear not nor grieve."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:AB09017",
+   "responds": [
+    "source:AB09017"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha's servant has his eyes opened, and sees the mountain full of horses and chariots of fire round about."
+  },
+  {
+   "id": "psalm-tree-by-the-rivers",
+   "after": "source:AB09160",
+   "responds": [
+    "source:AB09160"
+   ],
+   "relation": "adjacent",
+   "why": "The first psalm compares the faithful to a tree planted by the rivers of water, whose leaf shall not wither."
+  },
+  {
+   "id": "isaiah-mountains-shall-depart",
+   "after": "source:AB02841",
+   "responds": [
+    "source:AB02841"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that the mountains shall depart, but the covenant of his peace shall not be removed."
+  },
+  {
+   "id": "ephesians-having-done-all-to-stand",
+   "after": "source:AB04364",
+   "responds": [
+    "source:AB04364"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells his readers to take the whole armour of God, and having done all, to stand."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:AB04961",
+   "responds": [
+    "source:AB04961"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises that the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "luke-good-tidings-of-great-joy",
+   "after": "source:AB08427",
+   "responds": [
+    "source:AB08427"
+   ],
+   "relation": "adjacent",
+   "why": "Luke tells of an angel bringing good tidings of great joy, and a multitude of the heavenly host praising God."
+  },
+  {
+   "id": "genesis-meant-it-unto-good",
+   "after": "source:AB11075",
+   "responds": [
+    "source:AB11075"
+   ],
+   "relation": "adjacent",
+   "why": "Joseph, raised to honour in Egypt, says to the brothers who sold him: God meant it unto good."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:AB11729",
+   "responds": [
+    "source:AB11729"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Solomon says that love is strong as death, and that many waters cannot quench it."
+  },
+  {
+   "id": "dhammapada-solid-rock",
+   "after": "source:AB12082",
+   "responds": [
+    "source:AB12082"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada says that as a solid rock is not shaken by the wind, wise people falter not amidst blame and praise."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "source:BH03633",
+   "responds": [
+    "source:BH03633"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm puts it in a few words: be still, and know that I am God."
+  },
+  {
+   "id": "shakespeare-constant-as-the-northern-star",
+   "after": "source:BH03633",
+   "responds": [
+    "source:BH03633"
+   ],
+   "relation": "complement",
+   "why": "Shakespeare's Caesar boasts that he is constant as the northern star, and is struck down a moment later. What keeps steadfastness from becoming the pride that will not be moved by anyone?"
+  },
+  {
+   "id": "milton-abdiel-faithful-found",
+   "after": "source:BH06759",
+   "responds": [
+    "source:BH06759"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's angel Abdiel is found faithful among the faithless, unmoved, unshaken, unseduced."
+  },
+  {
+   "id": "psalm-bless-the-lord-o-my-soul",
+   "after": "source:AB07517",
+   "responds": [
+    "source:AB07517"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist tells himself: bless the Lord, O my soul, and forget not all his benefits."
+  },
+  {
+   "id": "corinthians-labour-not-in-vain",
+   "after": "source:AB06584",
+   "responds": [
+    "source:AB06584"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: be ye stedfast, unmoveable, always abounding in the work of the Lord."
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "source:AB05805",
+   "responds": [
+    "source:AB05805"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the earth bringeth forth first the blade, then the ear, after that the full corn in the ear."
+  },
+  {
+   "id": "psalm-longeth-for-the-courts",
+   "after": "source:AB06787",
+   "responds": [
+    "source:AB06787"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: my soul longeth, yea, even fainteth for the courts of the Lord."
+  },
+  {
+   "id": "romans-strong-bear-the-weak",
+   "after": "source:AB07551",
+   "responds": [
+    "source:AB07551"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that we that are strong ought to bear the infirmities of the weak."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:AB07947",
+   "responds": [
+    "source:AB07947"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit: love, joy, peace, longsuffering, gentleness, goodness, faith."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:AB09721",
+   "responds": [
+    "source:AB09721"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that the word that goeth forth out of his mouth shall not return unto him void."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:AB11026",
+   "responds": [
+    "source:AB11026"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist had rather be a doorkeeper in the house of his God than dwell in the tents of wickedness."
+  },
+  {
+   "id": "philippians-form-of-a-servant",
+   "after": "source:ABU1724",
+   "responds": [
+    "source:ABU1724"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says of Christ that he made himself of no reputation, and took upon him the form of a servant."
+  },
+  {
+   "id": "james-if-the-lord-will",
+   "after": "source:BH03158",
+   "responds": [
+    "source:BH03158"
+   ],
+   "relation": "adjacent",
+   "why": "James tells those who make plans to say: if the Lord will, we shall live, and do this, or that."
+  },
+  {
+   "id": "matthew-two-or-three-gathered",
+   "after": "source:AB02457",
+   "responds": [
+    "source:AB02457"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that where two or three are gathered together in his name, there is he in the midst of them."
+  },
+  {
+   "id": "thessalonians-letter-as-from-us",
+   "after": "source:AB03658",
+   "responds": [
+    "source:AB03658"
+   ],
+   "relation": "adjacent",
+   "why": "Paul begs his friends not to be soon shaken in mind by word or by letter as from him."
+  },
+  {
+   "id": "isaiah-here-am-i",
+   "after": "source:AB03875",
+   "responds": [
+    "source:AB03875"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears the Lord ask whom he shall send, and answers: here am I; send me."
+  },
+  {
+   "id": "ephesians-endeavouring-to-keep-the-unity",
+   "after": "source:AB04504",
+   "responds": [
+    "source:AB04504"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: endeavouring to keep the unity of the Spirit in the bond of peace."
+  },
+  {
+   "id": "john-my-peace-i-give",
+   "after": "source:AB00215",
+   "responds": [
+    "source:AB00215"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: let not your heart be troubled, neither let it be afraid."
+  },
+  {
+   "id": "matthew-salt-lost-savour",
+   "after": "source:AB00233",
+   "responds": [
+    "source:AB00233"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: ye are the salt of the earth, but if the salt have lost his savour, it is good for nothing."
+  },
+  {
+   "id": "mark-help-thou-mine-unbelief",
+   "after": "source:AB03646",
+   "responds": [
+    "source:AB03646"
+   ],
+   "relation": "complement",
+   "why": "A father says to Jesus with tears: Lord, I believe; help thou mine unbelief. Is there room among the firm for someone who can say only that?"
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB00480",
+   "responds": [
+    "source:AB00480"
+   ],
+   "relation": "adjacent",
+   "why": "Paul is told: my grace is sufficient for thee, for my strength is made perfect in weakness."
+  },
+  {
+   "id": "corinthians-one-body-many-members",
+   "after": "source:ABU0412",
+   "responds": [
+    "source:ABU0412"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that as the body is one, and hath many members, so are those who believe."
+  },
+  {
+   "id": "psalm-footsteps-slip-not",
+   "after": "source:AB08487",
+   "responds": [
+    "source:AB08487"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist asks: hold up my goings in thy paths, that my footsteps slip not."
+  },
+  {
+   "id": "quran-foothold-sure",
+   "after": "source:AB02326",
+   "responds": [
+    "source:AB02326"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an those who go out against Goliath pray: our Lord, bestow on us endurance, make our foothold sure."
+  },
+  {
+   "id": "psalm-secret-place-of-the-most-high",
+   "after": "source:BH07775",
+   "responds": [
+    "source:BH07775"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that he that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty."
+  },
+  {
+   "id": "romans-boast-not-against-the-branches",
+   "after": "source:BB00596",
+   "responds": [
+    "source:BB00596"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of branches broken off an olive tree and others grafted in, and warns those grafted in not to boast."
+  },
+  {
+   "id": "song-banner-over-me-was-love",
+   "after": "source:AB05512",
+   "responds": [
+    "source:AB05512"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Solomon says: he brought me to the banqueting house, and his banner over me was love."
+  },
+  {
+   "id": "psalm-clean-heart",
+   "after": "source:AB02181",
+   "responds": [
+    "source:AB02181"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist prays: create in me a clean heart, O God, and renew a right spirit within me."
+  },
+  {
+   "id": "luke-fear-not-little-flock",
+   "after": "source:AB03619",
+   "responds": [
+    "source:AB03619"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: fear not, little flock, for it is your Father's good pleasure to give you the kingdom."
+  },
+  {
+   "id": "proverbs-strength-and-honour",
+   "after": "source:AB06979",
+   "responds": [
+    "source:AB06979"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says of a woman of worth that strength and honour are her clothing, and that she openeth her mouth with wisdom."
+  },
+  {
+   "id": "joel-pour-out-my-spirit",
+   "after": "source:AB06982",
+   "responds": [
+    "source:AB06982"
+   ],
+   "relation": "adjacent",
+   "why": "Joel has God promise to pour out his spirit upon all flesh, upon the servants and upon the handmaids."
+  },
+  {
+   "id": "exodus-holy-nation",
+   "after": "source:AB07075",
+   "responds": [
+    "source:AB07075"
+   ],
+   "relation": "adjacent",
+   "why": "At Sinai God tells the people that if they keep his covenant they shall be a kingdom of priests, and an holy nation."
+  },
+  {
+   "id": "quran-hearts-stray-not",
+   "after": "source:AB08339",
+   "responds": [
+    "source:AB08339"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an teaches the prayer: our Lord, cause not our hearts to stray after thou hast guided us."
+  },
+  {
+   "id": "psalm-lord-always-before-me",
+   "after": "source:AB09053",
+   "responds": [
+    "source:AB09053"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says: I have set the Lord always before me; because he is at my right hand, I shall not be moved."
+  },
+  {
+   "id": "peter-newborn-babes",
+   "after": "source:AB10447",
+   "responds": [
+    "source:AB10447"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter says: as newborn babes, desire the sincere milk of the word, that ye may grow thereby."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB00806",
+   "responds": [
+    "source:AB00806"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that every good tree bringeth forth good fruit, and that by their fruits ye shall know them."
+  },
+  {
+   "id": "philippians-every-remembrance",
+   "after": "source:AB07326",
+   "responds": [
+    "source:AB07326"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: I thank my God upon every remembrance of you, always making request with joy."
+  },
+  {
+   "id": "galatians-restore-such-an-one",
+   "after": "source:AB05125",
+   "responds": [
+    "source:AB05125"
+   ],
+   "relation": "complement",
+   "why": "Paul writes: if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness, considering thyself. What did the restoring of one who had been tested require of those who stood firm?"
+  },
+  {
+   "id": "isaiah-mind-is-stayed",
+   "after": "source:AB08861",
+   "responds": [
+    "source:AB08861"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says: thou wilt keep him in perfect peace, whose mind is stayed on thee."
+  },
+  {
+   "id": "colossians-absent-in-the-flesh",
+   "after": "source:AB09310",
+   "responds": [
+    "source:AB09310"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your stedfastness."
+  },
+  {
+   "id": "matthew-with-you-alway",
+   "after": "source:ABU0463",
+   "responds": [
+    "source:ABU0463"
+   ],
+   "relation": "adjacent",
+   "why": "The risen Jesus says to his disciples: lo, I am with you always, even unto the end of the world."
+  },
+  {
+   "id": "luke-betrayest-with-a-kiss",
+   "after": "source:AB01316",
+   "responds": [
+    "source:AB01316"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says to a disciple in the garden: betrayest thou the Son of man with a kiss?"
+  },
+  {
+   "id": "luke-prodigal-father-ran",
+   "after": "source:AB03462",
+   "responds": [
+    "source:AB03462"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the father sees his returning son a great way off, and runs, and falls on his neck."
+  },
+  {
+   "id": "luke-not-against-us-is-for-us",
+   "after": "source:AB03462",
+   "responds": [
+    "source:AB03462"
+   ],
+   "relation": "complement",
+   "why": "Jesus tells his disciples not to forbid one who does not follow with them: he that is not against us is for us. How should those who are firm regard the movements a seeker passes through on the way?"
+  },
+  {
+   "id": "shakespeare-love-is-not-love",
+   "after": "source:AB03499",
+   "responds": [
+    "source:AB03499"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare wrote that love is not love which alters when it alteration finds; it is an ever-fixed mark."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:AB04740",
+   "responds": [
+    "source:AB04740"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that the craftsman Bezaleel was filled with the spirit of God in all manner of workmanship."
+  },
+  {
+   "id": "proverbs-memory-of-the-just",
+   "after": "source:AB05600",
+   "responds": [
+    "source:AB05600"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the memory of the just is blessed, but the name of the wicked shall rot."
+  }
+ ],
+ "library": {}
+}
