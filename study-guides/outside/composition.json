@@ -1,0 +1,758 @@
+{
+ "format": 2,
+ "slug": "composition",
+ "subject": "7AE1A354F2A3406393A8279C473B7B9D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 52,
+ "quotations": 76,
+ "kept": [
+  "source:ABU1154",
+  "source:ABU0508",
+  "source:AB01283",
+  "source:ABU0184",
+  "source:ABU0070",
+  "source:AB00876",
+  "source:ABU2899",
+  "source:ABU0766",
+  "source:ABU0185",
+  "source:AB00336",
+  "source:AB02618",
+  "source:AB01029",
+  "source:AB00053",
+  "source:AB00022",
+  "source:AB00016",
+  "source:AB00062",
+  "source:AB12166",
+  "source:ABU0701",
+  "source:ABU0966",
+  "source:ABU0138",
+  "source:ABU1534",
+  "source:ABU2457",
+  "source:ABU1809",
+  "source:ABU0054",
+  "source:ABU1593",
+  "source:BH00088",
+  "source:ABU0441",
+  "source:ABU0097",
+  "source:AB00020",
+  "source:ABU0102",
+  "source:ABU0965",
+  "source:ABU0591",
+  "source:AB00077",
+  "source:ABU0024",
+  "source:AB00345",
+  "source:AB00477",
+  "source:AB02983",
+  "source:ABU2931",
+  "source:ABU1776",
+  "source:AB01866",
+  "source:ABU0757",
+  "source:ABU0137",
+  "source:ABU0186",
+  "source:ABU0043",
+  "source:ABU0126",
+  "source:ABU0008",
+  "source:ABU0241",
+  "source:ABU0204",
+  "source:ABU0448",
+  "source:AB00143",
+  "source:ABU1458",
+  "selection:b3d8c0d79b7b4850cee6ed7a"
+ ],
+ "introduction": "The readings state a law and draw three lessons from it. Everything in the world of bodies exists by the coming together of elements and ceases by their dispersal, while the elements themselves persist and pass from one form to another. From this ‘Abdu’l-Bahá argues that the composition of living things is neither accidental nor compelled but willed; that the body, being composite, must decay while the soul, which is not, does not; and that unity is life and dissension death, in nature and among people. Greek philosophers, the Preacher, the Buddha, Shakespeare and Lavoisier say parts of this; Heraclitus, Spinoza and Darwin are set in contrast where the argument for a Creator is made.",
+ "questions": [
+  "What persists through composition and decomposition, on these readings, and what does not?",
+  "The readings argue that composition must be accidental, necessary or voluntary, and conclude that it is voluntary. How would Spinoza or Darwin answer, and how might the argument be restated in their terms?",
+  "Plato calls the soul uniform and indissoluble; Simmias likens it to a harmony that depends on the lyre. Which picture do the readings accept, and why?",
+  "The same law is applied to atoms and to human communities. Where does the comparison help, and where might it mislead?"
+ ],
+ "outside": [
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:ABU1154",
+   "responds": [
+    "source:ABU1154"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher sets the same pairs side by side: a time to be born and a time to die, to plant and to pluck up."
+  },
+  {
+   "id": "shelley-destroyer-and-preserver",
+   "after": "source:ABU1154",
+   "responds": [
+    "source:ABU1154"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley addresses the west wind as a spirit moving everywhere, destroyer and preserver at once."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:ABU0508",
+   "responds": [
+    "source:ABU0508"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that a corn of wheat abides alone unless it falls into the ground and dies."
+  },
+  {
+   "id": "corinthians-not-quickened-except-it-die",
+   "after": "source:ABU0508",
+   "responds": [
+    "source:ABU0508"
+   ],
+   "relation": "adjacent",
+   "why": "Paul uses the same law for the body: that which thou sowest is not quickened, except it die."
+  },
+  {
+   "id": "shakespeare-sea-change",
+   "after": "source:AB01283",
+   "responds": [
+    "source:AB01283"
+   ],
+   "relation": "adjacent",
+   "why": "Ariel sings of a drowned man of whom nothing fades, but suffers a sea-change into something rich and strange."
+  },
+  {
+   "id": "marcus-mystery-of-nature",
+   "after": "source:AB01283",
+   "responds": [
+    "source:AB01283"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius says that death is such as generation is, a mystery of nature."
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:ABU0184",
+   "responds": [
+    "source:ABU0184"
+   ],
+   "relation": "adjacent",
+   "why": "Lavoisier laid down that in all operations nothing is created: an equal quantity of matter exists before and after."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0184",
+   "responds": [
+    "source:ABU0184"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius begins his physics from the rule that nothing was ever born from nothing."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi tells the same ascent in the first person: I died as inanimate matter and arose a plant."
+  },
+  {
+   "id": "emerson-worm-mounts",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson sees a subtle chain of countless rings, and the worm mounting through all the spires of form."
+  },
+  {
+   "id": "plato-elements-pass-into-one-another",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Plato observes that what we call water becomes by condensation earth, and the elements pass into one another."
+  },
+  {
+   "id": "aristotle-elements-change-into-one-another",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle holds that the elements are all by nature such as to change into one another."
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:ABU2899",
+   "responds": [
+    "source:ABU2899"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says the dust shall return to the earth as it was, and the spirit to God who gave it."
+  },
+  {
+   "id": "whitman-under-your-boot-soles",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman bequeaths himself to the dirt to grow from the grass he loves: look for me under your boot-soles."
+  },
+  {
+   "id": "thoreau-vegetable-mould",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau asks whether he is not himself partly leaves and vegetable mould."
+  },
+  {
+   "id": "augustine-neither-altogether-are-nor-are-not",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine saw that created things neither altogether are nor altogether are not, beside that which truly is."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:AB00336",
+   "responds": [
+    "source:AB00336"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has it in a sentence: dust thou art, and unto dust shalt thou return."
+  },
+  {
+   "id": "whitman-journey-work-of-the-stars",
+   "after": "source:AB00336",
+   "responds": [
+    "source:AB00336"
+   ],
+   "relation": "complement",
+   "why": "Whitman holds a leaf of grass no less than the journey-work of the stars, and a grain of sand equally perfect. Is the stone nothing beside man, or perfect in its own degree?"
+  },
+  {
+   "id": "shakespeare-imperious-caesar",
+   "after": "source:AB02618",
+   "responds": [
+    "source:AB02618"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet follows imperious Caesar, dead and turned to clay, until he stops a hole to keep the wind away."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "contrast",
+   "why": "Heraclitus held that no god or man made this world, an ever-living fire kindling and going out in measures. Is nature the source of composition and decomposition, or their instrument?"
+  },
+  {
+   "id": "psalm-wax-old-like-a-garment",
+   "after": "source:AB00053",
+   "responds": [
+    "source:AB00053"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says the heavens themselves shall perish and wax old like a garment, while God endures."
+  },
+  {
+   "id": "whitman-every-atom",
+   "after": "source:AB00022",
+   "responds": [
+    "source:AB00022"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman starts from the shared stuff of things: every atom belonging to me as good belongs to you."
+  },
+  {
+   "id": "shelley-nought-may-endure",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley concludes that man's yesterday is never like his morrow, and nought may endure but mutability."
+  },
+  {
+   "id": "tao-produced-one",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "The Tao Te Ching says the Tao produced One, One Two, Two Three, and Three all things, harmonised as they emerge."
+  },
+  {
+   "id": "shakespeare-this-was-a-man",
+   "after": "source:AB12166",
+   "responds": [
+    "source:AB12166"
+   ],
+   "relation": "adjacent",
+   "why": "Antony says of Brutus that the elements were so mixed in him that nature might say, this was a man."
+  },
+  {
+   "id": "buddha-decay-is-inherent",
+   "after": "source:ABU0701",
+   "responds": [
+    "source:ABU0701"
+   ],
+   "relation": "adjacent",
+   "why": "The Buddha's last words say what the reading says: decay is inherent in all component things."
+  },
+  {
+   "id": "psalm-days-are-as-grass",
+   "after": "source:ABU0701",
+   "responds": [
+    "source:ABU0701"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man's days are as grass, and he flourishes as a flower of the field."
+  },
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:ABU0701",
+   "responds": [
+    "source:ABU0701"
+   ],
+   "relation": "adjacent",
+   "why": "Heraclitus says you cannot step twice into the same rivers, for fresh waters are ever flowing in."
+  },
+  {
+   "id": "job-man-that-is-born",
+   "after": "source:ABU0966",
+   "responds": [
+    "source:ABU0966"
+   ],
+   "relation": "adjacent",
+   "why": "Job says that man comes forth like a flower and is cut down."
+  },
+  {
+   "id": "peter-elements-shall-melt",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "adjacent",
+   "why": "Peter foresees a day when the elements shall melt with fervent heat."
+  },
+  {
+   "id": "shakespeare-revels-ended",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "adjacent",
+   "why": "Prospero says that the great globe itself shall dissolve and leave not a rack behind."
+  },
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:ABU1534",
+   "responds": [
+    "source:ABU1534"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher watches one generation pass away and another come, while the earth abides."
+  },
+  {
+   "id": "ecclesiastes-all-are-of-the-dust",
+   "after": "source:ABU2457",
+   "responds": [
+    "source:ABU2457"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says all go unto one place: all are of the dust, and all turn to dust again."
+  },
+  {
+   "id": "blake-without-contraries",
+   "after": "source:ABU1809",
+   "responds": [
+    "source:ABU1809"
+   ],
+   "relation": "adjacent",
+   "why": "Blake holds that attraction and repulsion are contraries without which there is no progression."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the things which are seen are temporal, but the things which are not seen are eternal."
+  },
+  {
+   "id": "marcus-come-round-in-a-circle",
+   "after": "source:ABU1593",
+   "responds": [
+    "source:ABU1593"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius holds that all things from eternity are of like forms and come round in a circle."
+  },
+  {
+   "id": "bacon-alchemy-and-the-vineyard",
+   "after": "source:BH00088",
+   "responds": [
+    "source:BH00088"
+   ],
+   "relation": "complement",
+   "why": "Bacon grants alchemy one right: like sons digging a vineyard for buried gold, its seekers turned up other good by the way. How should a passage written in the alchemists' terms be read today?"
+  },
+  {
+   "id": "shakespeare-worm-that-hath-eat-of-a-king",
+   "after": "source:ABU0441",
+   "responds": [
+    "source:ABU0441"
+   ],
+   "relation": "adjacent",
+   "why": "Hamlet traces the round: a man may fish with the worm that has eaten of a king."
+  },
+  {
+   "id": "romans-things-that-are-made",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Paul argues from creation to its maker: the invisible things are understood by the things that are made."
+  },
+  {
+   "id": "spinoza-final-causes-human-figments",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "contrast",
+   "why": "Spinoza held that nature has no particular goal in view and that final causes are mere human figments. Do accident, necessity and will exhaust the ways in which things come together?"
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "adjacent",
+   "why": "God asks Job where he was when the foundations of the earth were laid."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "adjacent",
+   "why": "Newton says we know God only by his most wise and excellent contrivances of things."
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "complement",
+   "why": "The Preacher says that time and chance happen to them all. What room do the readings leave for chance in the making of things?"
+  },
+  {
+   "id": "lucretius-foul-impieties",
+   "after": "source:ABU0965",
+   "responds": [
+    "source:ABU0965"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius, who explained the world by atoms, fears his reader will think it an impious road."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:ABU0591",
+   "responds": [
+    "source:ABU0591"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews holds by faith that the worlds were framed by the word of God."
+  },
+  {
+   "id": "quran-our-word-unto-a-thing",
+   "after": "source:ABU0591",
+   "responds": [
+    "source:ABU0591"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says that God's word to a thing he intends is only, Be, and it is."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0591",
+   "responds": [
+    "source:ABU0591"
+   ],
+   "relation": "contrast",
+   "why": "Darwin saw endless forms evolved from a simple beginning while the planet cycled on by fixed law. Is composition under natural law accidental, necessary or voluntary?"
+  },
+  {
+   "id": "genesis-let-the-earth-bring-forth",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has God say, let the earth bring forth the living creature after his kind."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "John begins with the Word that was in the beginning with God, before any composition of elements."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "complement",
+   "why": "Darwin contemplates an entangled bank whose elaborately constructed forms were produced by laws acting around us. Could law itself be the way a living composition is willed?"
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that in God we live, and move, and have our being."
+  },
+  {
+   "id": "corinthians-sown-a-natural-body",
+   "after": "source:AB00345",
+   "responds": [
+    "source:AB00345"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the body is sown in corruption and raised in incorruption, sown a natural body and raised a spiritual one."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:AB00477",
+   "responds": [
+    "source:AB00477"
+   ],
+   "relation": "adjacent",
+   "why": "John says that the Word was made flesh and dwelt among us."
+  },
+  {
+   "id": "psalm-threescore-years-and-ten",
+   "after": "source:AB02983",
+   "responds": [
+    "source:AB02983"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm numbers our years at threescore and ten, their strength labour and sorrow, soon cut off."
+  },
+  {
+   "id": "shakespeare-muddy-vesture-of-decay",
+   "after": "source:ABU2931",
+   "responds": [
+    "source:ABU2931"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Lorenzo says that immortal souls have a harmony we cannot hear while this muddy vesture of decay closes it in."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:ABU1776",
+   "responds": [
+    "source:ABU1776"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the treasure is held in earthen vessels, that the power may be seen to be of God."
+  },
+  {
+   "id": "plato-soul-likeness-of-the-divine",
+   "after": "source:AB01866",
+   "responds": [
+    "source:AB01866"
+   ],
+   "relation": "adjacent",
+   "why": "Plato sets the soul, uniform and indissoluble, against the body, multiform and dissoluble."
+  },
+  {
+   "id": "plato-harmony-and-the-lyre",
+   "after": "source:AB01866",
+   "responds": [
+    "source:AB01866"
+   ],
+   "relation": "contrast",
+   "why": "Simmias objects that a harmony is invisible and divine and yet depends on the lyre, which is composite and mortal. If the soul is not a composition, what is it?"
+  },
+  {
+   "id": "gita-never-the-spirit-was-born",
+   "after": "source:ABU0757",
+   "responds": [
+    "source:ABU0757"
+   ],
+   "relation": "adjacent",
+   "why": "The Gita says that the spirit was never born and shall never cease to be."
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:ABU0757",
+   "responds": [
+    "source:ABU0757"
+   ],
+   "relation": "adjacent",
+   "why": "The Gita likens death to laying aside worn-out robes and taking new ones."
+  },
+  {
+   "id": "romans-members-one-of-another",
+   "after": "source:ABU0137",
+   "responds": [
+    "source:ABU0137"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we, being many, are one body and members one of another."
+  },
+  {
+   "id": "colossians-by-him-all-things-consist",
+   "after": "source:ABU0186",
+   "responds": [
+    "source:ABU0186"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of one by whom all things consist, that is, hold together."
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:ABU0043",
+   "responds": [
+    "source:ABU0043"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius regards the universe as one living being with one substance and one soul."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU0126",
+   "responds": [
+    "source:ABU0126"
+   ],
+   "relation": "adjacent",
+   "why": "Dante ends with the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "lucretius-through-thee-alone",
+   "after": "source:ABU0126",
+   "responds": [
+    "source:ABU0126"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius, poet of atoms, begins by invoking Venus, through whom alone all living things are conceived."
+  },
+  {
+   "id": "coleridge-one-life",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Coleridge hails the one Life within us and abroad, which meets all motion and becomes its soul."
+  },
+  {
+   "id": "ephesians-fitly-joined-together",
+   "after": "source:ABU0241",
+   "responds": [
+    "source:ABU0241"
+   ],
+   "relation": "adjacent",
+   "why": "Paul pictures a whole body fitly joined together and compacted by that which every joint supplies."
+  },
+  {
+   "id": "corinthians-one-body-many-members",
+   "after": "source:ABU0241",
+   "responds": [
+    "source:ABU0241"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the body is one and has many members, and all the members are one body."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:ABU0204",
+   "responds": [
+    "source:ABU0204"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm exclaims how good and pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "matthew-kingdom-divided",
+   "after": "source:ABU0204",
+   "responds": [
+    "source:ABU0204"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that every kingdom divided against itself is brought to desolation."
+  },
+  {
+   "id": "heraclitus-war-is-father",
+   "after": "source:ABU0204",
+   "responds": [
+    "source:ABU0204"
+   ],
+   "relation": "contrast",
+   "why": "Heraclitus calls war the father of all and the king of all. Is dissension only the cause of non-existence, or does something come of it?"
+  },
+  {
+   "id": "aesop-bundle",
+   "after": "source:ABU0448",
+   "responds": [
+    "source:ABU0448"
+   ],
+   "relation": "adjacent",
+   "why": "Aesop's father has his sons break the sticks singly that they could not break bound: union gives strength."
+  },
+  {
+   "id": "john-epistle-abideth-in-death",
+   "after": "source:AB00143",
+   "responds": [
+    "source:AB00143"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that whoever does not love his brother abides in death."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:ABU1458",
+   "responds": [
+    "source:ABU1458"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz finds each created thing adapted to all and all to each."
+  },
+  {
+   "id": "emerson-each-and-all",
+   "after": "source:ABU1458",
+   "responds": [
+    "source:ABU1458"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson says all are needed by each one, and nothing is fair or good alone."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "selection:b3d8c0d79b7b4850cee6ed7a",
+   "responds": [
+    "selection:b3d8c0d79b7b4850cee6ed7a"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley's traveller finds a king's boast on a broken statue, and round it the lone and level sands."
+  }
+ ],
+ "library": {}
+}
