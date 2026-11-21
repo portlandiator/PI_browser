@@ -1,0 +1,849 @@
+{
+ "format": 2,
+ "slug": "moderation",
+ "subject": "02B4E611F3EC4C52AD11023CE5588FA7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 49,
+ "quotations": 49,
+ "kept": [
+  "source:ABU1397",
+  "source:AB00817",
+  "source:ABU1728",
+  "source:ABU0361",
+  "source:AB00004",
+  "source:AB11157",
+  "source:BH00001",
+  "source:BH00111",
+  "source:BH00140",
+  "source:BH03974",
+  "source:AB00016",
+  "source:BH11696",
+  "source:BHU0002",
+  "source:BH00223",
+  "source:AB04320",
+  "source:ABU0326",
+  "source:ABU3354",
+  "source:ABU0886",
+  "source:ABU1885",
+  "source:ABU1452",
+  "source:ABU0558",
+  "source:BH00004",
+  "source:AB00162",
+  "source:ABU3003",
+  "source:ABU1752",
+  "source:ABU2552",
+  "source:ABU2408",
+  "source:ABU1189",
+  "source:ABU1920",
+  "source:ABU3005",
+  "source:ABU2420",
+  "source:ABU1682",
+  "source:ABU0339",
+  "source:ABU1578",
+  "source:ABU1996",
+  "source:AB07534",
+  "source:AB06680",
+  "source:ABU2063",
+  "source:ABU2187",
+  "source:ABU2085",
+  "selection:879650fe4ba2e03a74948154",
+  "selection:b90c3180e65806cddf3d3905",
+  "selection:197d0693b967a25e4ec8627d",
+  "selection:5f9aba391bebacfcdca9ad55",
+  "selection:660b23c54a8e468e6a619e54",
+  "selection:72f939fbaa1ea73a4085c6d9",
+  "selection:ee36e906daab82354363948b",
+  "selection:7a7e6c56315e15e89cac311c",
+  "selection:ca74718cce6a05d1276c4935"
+ ],
+ "introduction": "These readings recommend moderation and say where it applies. 'In all matters moderation is desirable', Bahá’u’lláh writes, and names civilization and liberty among the things that turn harmful in excess; ‘Abdu’l-Bahá applies the rule to food and sleep, speech, study, spending and comfort, praises simplicity and economy, and warns against both mortifying the body and pampering it. Later passages speak of balance in a community's life, and one admits that saints and martyrs 'did not have any balance'. All forty-nine quotations are read here beside forty-nine from elsewhere. Most stand alongside: Aristotle's mean, the Buddha's middle way, Confucius's 'to go beyond is as wrong as to fall short', the Qur'an's hand neither chained nor flung open and its 'middle nation', Paul's 'let your moderation be known', Proverbs on honey, Portia's maid on surfeit and starving, Plato on the excess of liberty. Six push back or add a side: Blake's road of excess, Pope's 'drink deep', Whitman for the body, the Preacher for the pleasure of food, the commandment to love God with all the heart, and the Apocalypse on the lukewarm.",
+ "questions": [
+  "'If a thing is carried to excess, it will prove a source of evil.' Which good thing in your own life is most easily overdone?",
+  "Civilization and liberty are both said to need moderation. What would an immoderate form of each look like, and who decides the limit?",
+  "The readings reject both mortifying the body and pampering it. How does the Buddha's middle way describe the same path?",
+  "Blake says the road of excess leads to wisdom; the Apocalypse condemns the lukewarm; a reading admits the saints had no balance. When is moderation not the virtue called for?",
+  "‘Abdu’l-Bahá praises simplicity at table and economy in spending. What is the difference between simplicity and meanness?",
+  "Jesus asks for love with all the heart. What, if anything, should be immoderate?"
+ ],
+ "outside": [
+  {
+   "id": "thoreau-live-deliberately",
+   "after": "source:ABU1397",
+   "responds": [
+    "source:ABU1397"
+   ],
+   "relation": "adjacent",
+   "why": "Thoreau went to the woods to live deliberately, and to front only the essential facts of life."
+  },
+  {
+   "id": "analects-bended-arm",
+   "after": "source:AB00817",
+   "responds": [
+    "source:AB00817"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that with coarse rice, water to drink and his bent arm for a pillow, he still had joy."
+  },
+  {
+   "id": "romans-not-meat-and-drink",
+   "after": "source:ABU1728",
+   "responds": [
+    "source:ABU1728"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the kingdom of God is not meat and drink, but righteousness, and peace, and joy."
+  },
+  {
+   "id": "buddha-middle-way",
+   "after": "source:ABU0361",
+   "responds": [
+    "source:ABU0361"
+   ],
+   "relation": "adjacent",
+   "why": "The Buddha's first sermon rejects both indulgence and self-affliction and teaches a middle way that leads to calm and awakening."
+  },
+  {
+   "id": "colossians-touch-not-taste-not",
+   "after": "source:ABU0361",
+   "responds": [
+    "source:ABU0361"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks why believers should be subject to ordinances of 'touch not, taste not, handle not'."
+  },
+  {
+   "id": "aristotle-virtue-lying-in-a-mean",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle defined virtue as a state of character concerned with choice, lying in a mean relative to us."
+  },
+  {
+   "id": "quran-hand-chained-to-thy-neck",
+   "after": "source:AB11157",
+   "responds": [
+    "source:AB11157"
+   ],
+   "relation": "adjacent",
+   "why": "This is the verse quoted: let not thy hand be chained to thy neck, nor open it with a complete opening."
+  },
+  {
+   "id": "quran-grieve-not-nor-exult",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks the same evenness: grieve not for what has escaped you, nor exult because of what has been given."
+  },
+  {
+   "id": "philippians-moderation-be-known",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Paul wrote to the Philippians: let your moderation be known unto all men."
+  },
+  {
+   "id": "analects-to-go-beyond",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius, comparing two disciples, said that to go beyond is as wrong as to fall short."
+  },
+  {
+   "id": "shakespeare-brief-authority",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Isabella sees man, dressed in a little brief authority, playing tricks that make the angels weep."
+  },
+  {
+   "id": "goldsmith-ill-fares-the-land",
+   "after": "source:BH03974",
+   "responds": [
+    "source:BH03974"
+   ],
+   "relation": "adjacent",
+   "why": "Goldsmith wrote that ill fares the land where wealth accumulates and men decay."
+  },
+  {
+   "id": "blake-road-of-excess",
+   "after": "source:BH03974",
+   "responds": [
+    "source:BH03974"
+   ],
+   "relation": "contrast",
+   "why": "Blake's proverb of hell says that the road of excess leads to the palace of wisdom. Is anything learned only by going too far?"
+  },
+  {
+   "id": "plato-excess-of-liberty",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Plato has Socrates say that the excess of liberty, in states or individuals, seems only to pass into excess of slavery."
+  },
+  {
+   "id": "ecclesiastes-righteous-over-much",
+   "after": "source:BH11696",
+   "responds": [
+    "source:BH11696"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes advises: be not righteous over much, neither make thyself over wise."
+  },
+  {
+   "id": "shakespeare-violent-delights",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's friar warns two lovers that violent delights have violent ends, like fire and powder."
+  },
+  {
+   "id": "matthew-two-commandments",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "complement",
+   "why": "Jesus named as the first commandment to love God with all the heart, all the soul and all the mind. Can love of God be excessive, or only the way it is shown?"
+  },
+  {
+   "id": "analects-slow-in-speech",
+   "after": "source:AB04320",
+   "responds": [
+    "source:AB04320"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that the superior man wishes to be slow in his speech and earnest in his conduct."
+  },
+  {
+   "id": "pope-little-learning",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "contrast",
+   "why": "Pope warned that a little learning is a dangerous thing: drink deep, or taste not. Is moderation in study wisdom, or a way of staying shallow?"
+  },
+  {
+   "id": "ecclesiastes-time-to-weep-and-laugh",
+   "after": "source:ABU3354",
+   "responds": [
+    "source:ABU3354"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes allows each its season: a time to weep and a time to laugh, a time to mourn and a time to dance."
+  },
+  {
+   "id": "proverbs-eat-so-much-as-is-sufficient",
+   "after": "source:ABU0886",
+   "responds": [
+    "source:ABU0886"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: hast thou found honey? eat so much as is sufficient for thee."
+  },
+  {
+   "id": "shakespeare-seated-in-the-mean",
+   "after": "source:ABU1885",
+   "responds": [
+    "source:ABU1885"
+   ],
+   "relation": "adjacent",
+   "why": "Portia's maid observes that they are as sick that surfeit with too much as they that starve with nothing."
+  },
+  {
+   "id": "proverbs-better-is-little",
+   "after": "source:ABU1452",
+   "responds": [
+    "source:ABU1452"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: better is little with the fear of the Lord than great treasure and trouble therewith."
+  },
+  {
+   "id": "acts-breaking-bread",
+   "after": "source:ABU0558",
+   "responds": [
+    "source:ABU0558"
+   ],
+   "relation": "adjacent",
+   "why": "The first believers in Acts broke bread from house to house and ate with gladness and singleness of heart."
+  },
+  {
+   "id": "timothy-every-creature-of-god-is-good",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes that every creature of God is good, and nothing to be refused, if it be received with thanksgiving."
+  },
+  {
+   "id": "proverbs-glutton-come-to-poverty",
+   "after": "source:AB00162",
+   "responds": [
+    "source:AB00162"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs warns: be not among winebibbers and riotous eaters, for the drunkard and the glutton shall come to poverty."
+  },
+  {
+   "id": "whitman-poet-of-the-body",
+   "after": "source:ABU3003",
+   "responds": [
+    "source:ABU3003"
+   ],
+   "relation": "contrast",
+   "why": "Whitman called himself the poet of the body as well as of the soul. Is the health of the body as unimportant as the reading says?"
+  },
+  {
+   "id": "ecclesiastes-enjoy-the-good",
+   "after": "source:ABU1752",
+   "responds": [
+    "source:ABU1752"
+   ],
+   "relation": "contrast",
+   "why": "Ecclesiastes finds it good and comely to eat and to drink and to enjoy the good of one's labour. Is there no pleasure in food, only relief from hunger?"
+  },
+  {
+   "id": "luke-take-heed-surfeiting",
+   "after": "source:ABU2552",
+   "responds": [
+    "source:ABU2552"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus warned: take heed lest your hearts be overcharged with surfeiting and drunkenness and the cares of this life."
+  },
+  {
+   "id": "deuteronomy-not-by-bread-only",
+   "after": "source:ABU2552",
+   "responds": [
+    "source:ABU2552"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy says that man doth not live by bread only, but by every word from the mouth of the Lord."
+  },
+  {
+   "id": "philippians-learned-to-be-content",
+   "after": "source:ABU2408",
+   "responds": [
+    "source:ABU2408"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he knows both how to be abased and how to abound, to be full and to be hungry."
+  },
+  {
+   "id": "timothy-godliness-with-contentment",
+   "after": "source:ABU1189",
+   "responds": [
+    "source:ABU1189"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells Timothy that godliness with contentment is great gain: having food and raiment, let us be therewith content."
+  },
+  {
+   "id": "epictetus-not-by-things",
+   "after": "source:ABU1920",
+   "responds": [
+    "source:ABU1920"
+   ],
+   "relation": "adjacent",
+   "why": "Epictetus taught that men are disturbed not by things, but by the notions they form concerning things."
+  },
+  {
+   "id": "matthew-lilies-of-the-field",
+   "after": "source:ABU3005",
+   "responds": [
+    "source:ABU3005"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus pointed to the lilies of the field, which toil not, neither do they spin."
+  },
+  {
+   "id": "john-gather-up-the-fragments",
+   "after": "source:ABU0339",
+   "responds": [
+    "source:ABU0339"
+   ],
+   "relation": "adjacent",
+   "why": "After feeding a multitude Jesus told his disciples to gather up the fragments, that nothing be lost."
+  },
+  {
+   "id": "luke-faithful-in-that-which-is-least",
+   "after": "source:ABU1578",
+   "responds": [
+    "source:ABU1578"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that he that is faithful in that which is least is faithful also in much."
+  },
+  {
+   "id": "proverbs-he-that-loveth-pleasure",
+   "after": "source:ABU1996",
+   "responds": [
+    "source:ABU1996"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that he that loveth pleasure shall be a poor man, and he that loveth wine and oil shall not be rich."
+  },
+  {
+   "id": "quran-squanderers",
+   "after": "source:ABU1996",
+   "responds": [
+    "source:ABU1996"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an is as blunt: the squanderers were ever brothers of the devils, and the devil was ever an ingrate."
+  },
+  {
+   "id": "quran-neither-prodigal-nor-grudging",
+   "after": "source:AB07534",
+   "responds": [
+    "source:AB07534"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an praises those who, when they spend, are neither prodigal nor grudging, and keep a firm station between the two."
+  },
+  {
+   "id": "proverbs-riches-make-wings",
+   "after": "source:AB06680",
+   "responds": [
+    "source:AB06680"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs advises: labour not to be rich, for riches make themselves wings and fly away."
+  },
+  {
+   "id": "aristotle-right-person-right-time",
+   "after": "source:ABU2063",
+   "responds": [
+    "source:ABU2063"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle notes that anyone can get angry or spend money; to do it to the right extent, at the right time, is not for everyone."
+  },
+  {
+   "id": "matthew-fowls-of-the-air",
+   "after": "source:ABU2187",
+   "responds": [
+    "source:ABU2187"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: behold the fowls of the air; they sow not, neither do they reap, yet your heavenly Father feedeth them."
+  },
+  {
+   "id": "matthew-take-no-thought-for-the-morrow",
+   "after": "source:ABU2085",
+   "responds": [
+    "source:ABU2085"
+   ],
+   "relation": "adjacent",
+   "why": "He drew the lesson himself: take no thought for the morrow, for the morrow shall take thought for the things of itself."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "selection:879650fe4ba2e03a74948154",
+   "responds": [
+    "selection:879650fe4ba2e03a74948154"
+   ],
+   "relation": "adjacent",
+   "why": "Micah asks what is required but to do justly, to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "selection:b90c3180e65806cddf3d3905",
+   "responds": [
+    "selection:b90c3180e65806cddf3d3905"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit, ending in meekness and temperance: against such there is no law."
+  },
+  {
+   "id": "thessalonians-study-to-be-quiet",
+   "after": "selection:197d0693b967a25e4ec8627d",
+   "responds": [
+    "selection:197d0693b967a25e4ec8627d"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Thessalonians to study to be quiet, to do their own business, and to work with their own hands."
+  },
+  {
+   "id": "quran-middle-nation",
+   "after": "selection:660b23c54a8e468e6a619e54",
+   "responds": [
+    "selection:660b23c54a8e468e6a619e54"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says to its community: thus We have appointed you a middle nation."
+  },
+  {
+   "id": "matthew-weightier-matters",
+   "after": "selection:7a7e6c56315e15e89cac311c",
+   "responds": [
+    "selection:7a7e6c56315e15e89cac311c"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of small duties and great ones: these ought ye to have done, and not to leave the other undone."
+  },
+  {
+   "id": "revelation-lukewarm",
+   "after": "selection:ca74718cce6a05d1276c4935",
+   "responds": [
+    "selection:ca74718cce6a05d1276c4935"
+   ],
+   "relation": "complement",
+   "why": "The Apocalypse says to a church neither cold nor hot: because thou art lukewarm, I will spue thee out. Where does moderation end and lukewarmness begin?"
+  }
+ ],
+ "library": {
+  "philippians-moderation-be-known": {
+   "text": "Let your moderation be known unto all men. The Lord is at hand",
+   "work": "Philippians 4:5",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%204%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-glutton-come-to-poverty": {
+   "text": "Be not among winebibbers; among riotous eaters of flesh: For the drunkard and the glutton shall come to poverty: and drowsiness shall clothe a man with rags",
+   "work": "Proverbs 23:20–21",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2023%3A20-21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-take-heed-surfeiting": {
+   "text": "And take heed to yourselves, lest at any time your hearts be overcharged with surfeiting, and drunkenness, and cares of this life, and so that day come upon you unawares",
+   "work": "Luke 21:34",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2021%3A34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-he-that-loveth-pleasure": {
+   "text": "He that loveth pleasure shall be a poor man: he that loveth wine and oil shall not be rich",
+   "work": "Proverbs 21:17",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2021%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-gather-up-the-fragments": {
+   "text": "When they were filled, he said unto his disciples, Gather up the fragments that remain, that nothing be lost",
+   "work": "John 6:12",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%206%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-turn-not-to-the-right-hand": {
+   "text": "Ponder the path of thy feet, and let all thy ways be established. Turn not to the right hand nor to the left: remove thy foot from evil",
+   "work": "Proverbs 4:26–27",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%204%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-neither-prodigal-nor-grudging": {
+   "text": "And those who, when they spend, are neither prodigal nor grudging; and there is ever a firm station between the two;",
+   "work": "Qur’an 25:67",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=25&verse=67",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-eat-and-drink-but-be-not-prodigal": {
+   "text": "O Children of Adam! Look to your adornment at every place of worship, and eat and drink, but be not prodigal. Lo! He loveth not the prodigals.",
+   "work": "Qur’an 7:31",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=7&verse=31",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-middle-nation": {
+   "text": "Thus We have appointed you a middle nation, that ye may be witnesses against mankind, and that the messenger may be a witness against you. And We appointed the qiblah which ye formerly observed only that We might know him who followeth the messenger, from him who turneth on his heels. In truth it was a hard (test) save for those whom Allah guided. But it was not Allah's purpose that your faith should be in vain, for Allah is Full of Pity, Merciful toward mankind.",
+   "work": "Qur’an 2:143",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=143",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-squanderers": {
+   "text": "Lo! the squanderers were ever brothers of the devils, and the devil was ever an ingrate to his Lord.",
+   "work": "Qur’an 17:27",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=27",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "aristotle-virtue-lying-in-a-mean": {
+   "text": "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us",
+   "author": "Aristotle",
+   "work": "Nicomachean Ethics",
+   "locator": "II.6 (1106b–1107a)",
+   "year": "c. 340 BCE",
+   "sortYear": -340,
+   "translator": "W. D. Ross",
+   "translationYear": "1908",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain-us",
+    "note": "Translation first published 1908; translator d. 1971."
+   }
+  },
+  "analects-to-go-beyond": {
+   "text": "To go beyond is as wrong as to fall short",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "11.15",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1897."
+   }
+  },
+  "plato-excess-of-liberty": {
+   "text": "The excess of liberty, whether in States or individuals, seems only to pass into excess of slavery",
+   "author": "Plato",
+   "work": "Republic",
+   "locator": "VIII (564a)",
+   "year": "c. 375 BCE",
+   "sortYear": -375,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/republic.9.viii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "shakespeare-seated-in-the-mean": {
+   "text": "they are as sick that surfeit / with too much as they that starve with nothing. It / is no mean happiness therefore, to be seated in the / mean: superfluity comes sooner by white hairs, but / competency lives longer",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "The Merchant of Venice",
+   "locator": "Act 1, scene 2",
+   "year": "c. 1597",
+   "sortYear": 1597,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/merchant/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "buddha-middle-way": {
+   "text": "Avoiding both of these extremes, the middle way realized by the Tathagata — producing vision, producing knowledge — leads to calm, to direct knowledge, to self-awakening, to Unbinding",
+   "work": "Dhammacakkappavattana Sutta (Samyutta Nikaya 56.11)",
+   "year": "c. 5th–1st century BCE",
+   "sortYear": -400,
+   "translator": "Thanissaro Bhikkhu",
+   "tradition": "Buddhist texts",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.011.than.html",
+    "label": "Access to Insight",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "in-copyright",
+    "note": "Modern translation, offered for free distribution; a brief extract."
+   }
+  }
+ }
+}
