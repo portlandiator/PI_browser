@@ -1,0 +1,1278 @@
+{
+ "format": 2,
+ "slug": "heavenhell",
+ "subject": "9EEB404CCE8EE5B1086AFCD6BB4247E4",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 55,
+ "quotations": 65,
+ "kept": [
+  "source:BH00827",
+  "source:BH00354",
+  "source:ABU2900",
+  "source:ABU0902",
+  "source:BH00258",
+  "source:ABU1302",
+  "source:BH02116",
+  "source:BB00271",
+  "source:ABU0370",
+  "source:ABU3044",
+  "source:ABU3510",
+  "source:ABU0744",
+  "source:AB00821",
+  "source:BB00190",
+  "source:BH05673",
+  "source:BB00520",
+  "source:BB00002",
+  "source:BB00412",
+  "source:BB00364",
+  "source:BB00072",
+  "source:BB00003",
+  "source:BH00084",
+  "source:BB00004",
+  "source:BH00759",
+  "source:BH05177",
+  "source:BH03459",
+  "source:BH11750",
+  "source:BH02039",
+  "source:BH07029",
+  "source:BH03144",
+  "source:BB00666",
+  "source:BB00225",
+  "source:BH03026",
+  "source:AB05406",
+  "source:AB09082",
+  "source:AB04926",
+  "source:BB00182",
+  "source:BB00141",
+  "source:BH09384",
+  "source:BH01160",
+  "source:BH02823",
+  "source:BH00461",
+  "source:BH05548",
+  "source:BH05790",
+  "source:BH07860",
+  "source:BH03117",
+  "source:BH03501",
+  "source:BH03815",
+  "source:BH05976",
+  "source:BH03987",
+  "source:BH07507",
+  "source:AB09770",
+  "source:BH03049",
+  "source:BH01243",
+  "selection:c7b443c8c94656e51f014b27"
+ ],
+ "introduction": "These readings give two accounts of heaven and hell side by side. In one, paradise is the good-pleasure of God, nearness to him and the perfection each thing was made for, and hell is heedlessness, the self, a state of mind; both begin in this life. In the other, largely in the Báb's and Bahá’u’lláh's Arabic, paradise is described in the Qur'an's own imagery of gardens, chambers, cups, maidens and angels, the scales and the book, and is promised to the faithful and prayed for the dead. All sixty-five quotations are read here beside sixty-five from elsewhere. Most stand alongside: the Qur'an's gardens and judgment scenes, which the readings echo almost word for word, the Gospels' kingdom within and their parables of judgment, the Apocalypse, Khayyam's 'I myself am heaven and hell', Milton, Dante. Twelve push back or add a side: Rabia refusing both fear and hope, a psalmist finding God even in hell, Edwards's spider over the fire, the Qur'an on those who claim paradise for themselves, Paul's 'eye hath not seen' and Jesus on the angels against a literal reading, Khayyam's wilderness, Whitman, Browning, Hamlet and Emily Dickinson.",
+ "questions": [
+  "Paradise is called 'the good-pleasure of God' and hell 'your own self'. What changes if heaven and hell are conditions before they are places?",
+  "The same readings describe chambers, cups and maidens. With Paul's 'eye hath not seen' and Jesus on the angels in mind, how do you read that imagery?",
+  "Rabia wished to worship without fear of hell or hope of paradise. Is that the aim of these readings, or do they still use reward and warning?",
+  "'Thou dost bring forth from the fire whom Thou willest.' What do the readings, Ezekiel and the Qur'an's angels suggest about whether hell is final?",
+  "Who is said to be in paradise, and on what ground? Set that beside the Qur'an's answer to those who claimed it for their own community.",
+  "What would you say, from these readings, to someone grieving a death?"
+ ],
+ "outside": [
+  {
+   "id": "quran-acceptance-is-greater",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an promises the believers gardens, and then names something greater by far: acceptance from God."
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "complement",
+   "why": "Rabia prayed to be burned in hell if she worshipped from fear of it, and shut out of paradise if she worshipped in hope of it. What is left when reward and punishment are set aside?"
+  },
+  {
+   "id": "luke-kingdom-of-god-is-within-you",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said the kingdom does not come with 'lo here' or 'lo there', for the kingdom of God is within you."
+  },
+  {
+   "id": "luke-today-in-paradise",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told the man crucified beside him: today shalt thou be with me in paradise."
+  },
+  {
+   "id": "browning-what-is-a-heaven-for",
+   "after": "source:ABU2900",
+   "responds": [
+    "source:ABU2900"
+   ],
+   "relation": "complement",
+   "why": "Browning's painter says a man's reach should exceed his grasp, or what's a heaven for. Is paradise perfection attained, or the reaching toward it?"
+  },
+  {
+   "id": "matthew-be-ye-perfect",
+   "after": "source:ABU2900",
+   "responds": [
+    "source:ABU2900"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus set the measure in the Sermon on the Mount: be ye perfect, even as your Father in heaven is perfect."
+  },
+  {
+   "id": "dante-his-will-our-peace",
+   "after": "source:ABU0902",
+   "responds": [
+    "source:ABU0902"
+   ],
+   "relation": "adjacent",
+   "why": "In Dante's Paradise the blessed, station above station, keep within the divine will, and none wishes to be higher: his will is our peace."
+  },
+  {
+   "id": "john-loved-darkness",
+   "after": "source:BH00258",
+   "responds": [
+    "source:BH00258"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel defines condemnation the same way: light is come into the world, and men loved darkness rather than light."
+  },
+  {
+   "id": "john-many-mansions",
+   "after": "source:ABU1302",
+   "responds": [
+    "source:ABU1302"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told his disciples that in his Father's house are many mansions, and that he went to prepare a place for them."
+  },
+  {
+   "id": "quran-two-gardens",
+   "after": "source:ABU1302",
+   "responds": [
+    "source:ABU1302"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that for one who fears the standing before his Lord there are two gardens."
+  },
+  {
+   "id": "khayyam-heaven-and-hell",
+   "after": "source:BH02116",
+   "responds": [
+    "source:BH02116"
+   ],
+   "relation": "adjacent",
+   "why": "Khayyam's soul, sent to learn of the after-life, came back and answered: I myself am heaven and hell."
+  },
+  {
+   "id": "milton-myself-am-hell",
+   "after": "source:BH02116",
+   "responds": [
+    "source:BH02116"
+   ],
+   "relation": "adjacent",
+   "why": "Milton's Satan finds no place to flee to: which way I fly is hell; myself am hell."
+  },
+  {
+   "id": "genesis-put-him-into-the-garden",
+   "after": "source:ABU0370",
+   "responds": [
+    "source:ABU0370"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis begins with an Eden of this world, a garden the man was put into to dress and to keep."
+  },
+  {
+   "id": "milton-mind-its-own-place",
+   "after": "source:ABU3044",
+   "responds": [
+    "source:ABU3044"
+   ],
+   "relation": "adjacent",
+   "why": "Milton has the same thought spoken as a boast: the mind is its own place, and can make a heaven of hell, a hell of heaven."
+  },
+  {
+   "id": "buddha-all-is-aflame",
+   "after": "source:ABU3044",
+   "responds": [
+    "source:ABU3044"
+   ],
+   "relation": "adjacent",
+   "why": "The Buddha's fire sermon finds the burning here and now: the eye is aflame, forms are aflame, consciousness is aflame."
+  },
+  {
+   "id": "whitman-poet-of-the-body",
+   "after": "source:ABU3044",
+   "responds": [
+    "source:ABU3044"
+   ],
+   "relation": "complement",
+   "why": "Whitman says the pleasures of heaven and the pains of hell are both with him, and that he is poet of the body as of the soul. Must clinging to the senses be hell?"
+  },
+  {
+   "id": "quran-as-the-cattle",
+   "after": "source:ABU3510",
+   "responds": [
+    "source:ABU3510"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an describes those headed for hell as having hearts, eyes and ears they do not use: these are the neglectful."
+  },
+  {
+   "id": "psalm-whither-shall-i-go",
+   "after": "source:ABU0744",
+   "responds": [
+    "source:ABU0744"
+   ],
+   "relation": "contrast",
+   "why": "A psalmist says to God: if I make my bed in hell, behold, thou art there. Can any soul fall wholly outside the divine will?"
+  },
+  {
+   "id": "luke-abrahams-bosom",
+   "after": "source:AB00821",
+   "responds": [
+    "source:AB00821"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable the beggar is carried by angels to Abraham's bosom, while the rich man lifts up his eyes in torment."
+  },
+  {
+   "id": "matthew-depart-from-me-ye-cursed",
+   "after": "source:BB00190",
+   "responds": [
+    "source:BB00190"
+   ],
+   "relation": "adjacent",
+   "why": "In Matthew's judgment scene those on the left hand are sent into everlasting fire, prepared for the devil and his angels."
+  },
+  {
+   "id": "edwards-spider-over-the-fire",
+   "after": "source:BB00190",
+   "responds": [
+    "source:BB00190"
+   ],
+   "relation": "contrast",
+   "why": "Jonathan Edwards preached a God who holds the sinner over the pit like a spider over the fire, and abhors him. What does such imagery do to the one who hears it?"
+  },
+  {
+   "id": "matthew-inherit-the-kingdom",
+   "after": "source:BH05673",
+   "responds": [
+    "source:BH05673"
+   ],
+   "relation": "adjacent",
+   "why": "To those on his right hand the King says: come, ye blessed of my Father, inherit the kingdom prepared for you."
+  },
+  {
+   "id": "quran-jew-or-christian",
+   "after": "source:BB00520",
+   "responds": [
+    "source:BB00520"
+   ],
+   "relation": "contrast",
+   "why": "The Qur'an reports the claim that none enters paradise but a Jew or a Christian, and replies: these are their own desires; bring your proof. Who may say who is saved?"
+  },
+  {
+   "id": "quran-similitude-of-the-garden",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an offers a similitude of the garden promised to the dutiful: rivers of water, of milk, of wine and of honey."
+  },
+  {
+   "id": "quran-enter-ye-to-dwell-therein",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an those who kept their duty are led to the garden, whose keepers say: peace be unto you; enter ye, to dwell therein."
+  },
+  {
+   "id": "matthew-strait-gate",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus warned that wide is the gate that leads to destruction, and strait the gate and narrow the way that leads to life."
+  },
+  {
+   "id": "quran-think-ye-to-enter-paradise",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an asks: do ye think to enter paradise before there has come to you what came to those before, affliction and adversity?"
+  },
+  {
+   "id": "mark-worm-dieth-not",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus spoke of a hell where the worm dieth not and the fire is not quenched, better avoided at the cost of an eye."
+  },
+  {
+   "id": "quran-art-thou-filled",
+   "after": "source:BB00412",
+   "responds": [
+    "source:BB00412"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an imagines the day when hell is asked, art thou filled, and answers: can there be more to come?"
+  },
+  {
+   "id": "revelation-lake-of-fire",
+   "after": "source:BB00412",
+   "responds": [
+    "source:BB00412"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse ends hell itself: death and hell were cast into the lake of fire."
+  },
+  {
+   "id": "luke-great-gulf",
+   "after": "source:BB00364",
+   "responds": [
+    "source:BB00364"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham tells the rich man that between the two sides a great gulf is fixed, which none can cross."
+  },
+  {
+   "id": "revelation-new-jerusalem",
+   "after": "source:BH00084",
+   "responds": [
+    "source:BH00084"
+   ],
+   "relation": "adjacent",
+   "why": "John saw the holy city, new Jerusalem, coming down out of heaven, prepared as a bride adorned for her husband."
+  },
+  {
+   "id": "quran-fair-ones-with-wide-lovely-eyes",
+   "after": "source:BH00084",
+   "responds": [
+    "source:BH00084"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an pictures the blessed reclining on ranged couches, wedded to fair ones with wide, lovely eyes."
+  },
+  {
+   "id": "revelation-no-need-of-the-sun",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The city John saw had no need of sun or moon, for the glory of God lightened it."
+  },
+  {
+   "id": "revelation-white-robes",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "John is shown a multitude arrayed in white robes, who came out of great tribulation."
+  },
+  {
+   "id": "corinthians-eye-hath-not-seen",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "complement",
+   "why": "Paul says that eye has not seen, nor ear heard, nor heart conceived what God has prepared. How literally, then, should chambers and colours be read?"
+  },
+  {
+   "id": "isaiah-eye-hath-not-seen-beside-thee",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah had said it earlier: no eye has seen, beside thee, O God, what is prepared for the one who waits."
+  },
+  {
+   "id": "quran-kept-hid-of-joy",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an agrees that no soul knows what is kept hidden for them of joy."
+  },
+  {
+   "id": "revelation-healing-of-the-nations",
+   "after": "source:BH00759",
+   "responds": [
+    "source:BH00759"
+   ],
+   "relation": "adjacent",
+   "why": "The last chapter of the Bible shows a river of the water of life, and beside it the tree of life."
+  },
+  {
+   "id": "quran-wide-as-the-heavens-and-the-earth",
+   "after": "source:BH05177",
+   "responds": [
+    "source:BH05177"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an urges all to vie for a paradise as wide as the heavens and the earth."
+  },
+  {
+   "id": "revelation-tree-of-life-paradise-of-god",
+   "after": "source:BH05177",
+   "responds": [
+    "source:BH05177"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse promises that he who overcomes will eat of the tree of life in the midst of the paradise of God."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:BH03459",
+   "responds": [
+    "source:BH03459"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist says that a day in God's courts is better than a thousand elsewhere."
+  },
+  {
+   "id": "khayyam-jug-of-wine",
+   "after": "source:BH02039",
+   "responds": [
+    "source:BH02039"
+   ],
+   "relation": "contrast",
+   "why": "Khayyam asks only verses, bread, wine and a companion singing in the wilderness, and calls that paradise enough. Do the fruits and feasts of paradise point here, or beyond?"
+  },
+  {
+   "id": "matthew-neither-marry-nor-given",
+   "after": "source:BH07029",
+   "responds": [
+    "source:BH07029"
+   ],
+   "relation": "complement",
+   "why": "Jesus said that in the resurrection they neither marry nor are given in marriage, but are as the angels. How are houris and palaces to be understood beside that?"
+  },
+  {
+   "id": "quran-all-that-souls-desire",
+   "after": "source:BB00666",
+   "responds": [
+    "source:BB00666"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that in the garden are trays of gold and goblets, and all that souls desire and eyes find sweet."
+  },
+  {
+   "id": "quran-neither-headache-nor-madness",
+   "after": "source:BB00225",
+   "responds": [
+    "source:BB00225"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an describes the wine of paradise in the same way: in it is no headache, nor are they made mad by it."
+  },
+  {
+   "id": "blake-doors-of-perception",
+   "after": "source:BH03026",
+   "responds": [
+    "source:BH03026"
+   ],
+   "relation": "complement",
+   "why": "Blake held that if the doors of perception were cleansed, every thing would appear as it is, infinite. Are the maids of paradise seen with the eye or with something else?"
+  },
+  {
+   "id": "quran-those-on-the-right-hand",
+   "after": "source:AB05406",
+   "responds": [
+    "source:AB05406"
+   ],
+   "relation": "adjacent",
+   "why": "The phrase is the Qur'an's own: and those on the right hand; what of those on the right hand?"
+  },
+  {
+   "id": "quran-book-in-his-right-hand",
+   "after": "source:AB05406",
+   "responds": [
+    "source:AB05406"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that one given his record in his right hand will call to others to come and read it."
+  },
+  {
+   "id": "quran-scales-are-light",
+   "after": "source:AB04926",
+   "responds": [
+    "source:AB04926"
+   ],
+   "relation": "adjacent",
+   "why": "The image comes from the Qur'an, which speaks of the one whose scales are light."
+  },
+  {
+   "id": "quran-book-in-his-left-hand",
+   "after": "source:AB04926",
+   "responds": [
+    "source:AB04926"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an the one given his record in his left hand wishes it had never been given him."
+  },
+  {
+   "id": "quran-seize-him-and-fetter-him",
+   "after": "source:BB00182",
+   "responds": [
+    "source:BB00182"
+   ],
+   "relation": "adjacent",
+   "why": "The cry feared here is a verse of the Qur'an: take him and fetter him."
+  },
+  {
+   "id": "quran-comprehendest-in-mercy",
+   "after": "source:BB00141",
+   "responds": [
+    "source:BB00141"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an the angels who bear the throne pray: thou comprehendest all things in mercy; ward off from them the punishment of hell."
+  },
+  {
+   "id": "ezekiel-no-pleasure",
+   "after": "source:BH09384",
+   "responds": [
+    "source:BH09384"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel hears God say: I have no pleasure in the death of the wicked, but that the wicked turn from his way and live."
+  },
+  {
+   "id": "matthew-lord-lord",
+   "after": "source:BH05548",
+   "responds": [
+    "source:BH05548"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus warned that not everyone who says to him 'Lord, Lord' shall enter the kingdom of heaven, but those who do his Father's will."
+  },
+  {
+   "id": "quran-angels-descend-upon-them",
+   "after": "source:BH07860",
+   "responds": [
+    "source:BH07860"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says angels descend on the upright, saying: fear not nor grieve, but hear good tidings of the paradise ye are promised."
+  },
+  {
+   "id": "shakespeare-undiscovered-country",
+   "after": "source:BH03117",
+   "responds": [
+    "source:BH03117"
+   ],
+   "relation": "complement",
+   "why": "Hamlet calls death the undiscovered country, and says the dread of it puzzles the will. Why might the stations of the next world be kept hidden?"
+  },
+  {
+   "id": "thessalonians-sorrow-not",
+   "after": "source:BH03501",
+   "responds": [
+    "source:BH03501"
+   ],
+   "relation": "adjacent",
+   "why": "Paul wrote to the bereaved at Thessalonica that they should not sorrow as others who have no hope."
+  },
+  {
+   "id": "dickinson-parting-is-all-we-know",
+   "after": "source:BH03501",
+   "responds": [
+    "source:BH03501"
+   ],
+   "relation": "contrast",
+   "why": "Emily Dickinson wrote that parting is all we know of heaven, and all we need of hell. What can the bereaved be told that they can use?"
+  },
+  {
+   "id": "shakespeare-flights-of-angels",
+   "after": "source:BH03815",
+   "responds": [
+    "source:BH03815"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's farewell to a dead prince asks the same: good night, and flights of angels sing thee to thy rest."
+  },
+  {
+   "id": "revelation-wipe-away-all-tears",
+   "after": "source:BH05976",
+   "responds": [
+    "source:BH05976"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse promises that God shall wipe away all tears, and there shall be no more death, neither sorrow nor pain."
+  },
+  {
+   "id": "quran-peace-a-word-from-a-merciful-lord",
+   "after": "source:BH03987",
+   "responds": [
+    "source:BH03987"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an the greeting that meets the blessed is one word from a merciful Lord: peace."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:BH07507",
+   "responds": [
+    "source:BH07507"
+   ],
+   "relation": "adjacent",
+   "why": "Dante's vision ends with his desire and will turned by the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "revelation-rest-from-their-labours",
+   "after": "source:AB09770",
+   "responds": [
+    "source:AB09770"
+   ],
+   "relation": "adjacent",
+   "why": "A voice in the Apocalypse says: blessed are the dead which die in the Lord; they rest from their labours, and their works follow them."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "selection:c7b443c8c94656e51f014b27",
+   "responds": [
+    "selection:c7b443c8c94656e51f014b27"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus blessed the pure in heart, and promised that they shall see God."
+  }
+ ],
+ "library": {
+  "mark-worm-dieth-not": {
+   "text": "And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire: Where their worm dieth not, and the fire is not quenched",
+   "work": "Mark 9:47–48",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A47-48&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-lake-of-fire": {
+   "text": "And death and hell were cast into the lake of fire",
+   "work": "Revelation 20:14–15",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-abrahams-bosom": {
+   "text": "And it came to pass, that the beggar died, and was carried by the angels into Abraham's bosom: the rich man also died, and was buried; And in hell he lift up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom",
+   "work": "Luke 16:22–23",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2016%3A22-23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-inherit-the-kingdom": {
+   "text": "Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world",
+   "work": "Matthew 25:34",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-depart-from-me-ye-cursed": {
+   "text": "Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels",
+   "work": "Matthew 25:41",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A41&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-tree-of-life-paradise-of-god": {
+   "text": "To him that overcometh will I give to eat of the tree of life, which is in the midst of the paradise of God",
+   "work": "Revelation 2:7",
+   "year": "c. 95 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%202%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-eye-hath-not-seen-beside-thee": {
+   "text": "For since the beginning of the world men have not heard, nor perceived by the ear, neither hath the eye seen, O God, beside thee, what he hath prepared for him that waiteth for him",
+   "work": "Isaiah 64:4",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2064%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-seize-him-and-fetter-him": {
+   "text": "(It will be said): Take him and fetter him",
+   "work": "Qur’an 69:30",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=69&verse=30",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-book-in-his-right-hand": {
+   "text": "Then, as for him who is given his record in his right hand, he will say: Take, read my book!",
+   "work": "Qur’an 69:19",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=69&verse=19",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-book-in-his-left-hand": {
+   "text": "But as for him who is given his record in his left hand, he will say: Oh, would that I had not been given my book",
+   "work": "Qur’an 69:25",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=69&verse=25",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-scales-are-light": {
+   "text": "But as for him whose scales are light,",
+   "work": "Qur’an 101:8",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=101&verse=8",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-those-on-the-right-hand": {
+   "text": "And those on the right hand; what of those on the right hand?",
+   "work": "Qur’an 56:27",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=56&verse=27",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-art-thou-filled": {
+   "text": "On the day when We say unto hell: Art thou filled? and it saith: Can there be more to come?",
+   "work": "Qur’an 50:30",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=50&verse=30",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-all-that-souls-desire": {
+   "text": "Therein are brought round for them trays of gold and goblets, and therein is all that souls desire and eyes find sweet. And ye are immortal therein.",
+   "work": "Qur’an 43:71",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=43&verse=71",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-peace-a-word-from-a-merciful-lord": {
+   "text": "The word from a Merciful Lord (for them) is: Peace!",
+   "work": "Qur’an 36:58",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=36&verse=58",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-as-brethren-face-to-face": {
+   "text": "And We remove whatever rancour may be in their breasts. As brethren, face to face, (they rest) on couches raised.",
+   "work": "Qur’an 15:47",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=15&verse=47",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-acceptance-is-greater": {
+   "text": "Allah promiseth to the believers, men and women, Gardens underneath which rivers flow, wherein they will abide - blessed dwellings in Gardens of Eden. And - greater (far)! - acceptance from Allah. That is the supreme triumph.",
+   "work": "Qur’an 9:72",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=72",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-wide-as-the-heavens-and-the-earth": {
+   "text": "And vie one with another for forgiveness from your Lord, and for a paradise as wide as are the heavens and the earth, prepared for those who ward off (evil);",
+   "work": "Qur’an 3:133",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=133",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-fair-ones-with-wide-lovely-eyes": {
+   "text": "Reclining on ranged couches. And we wed them unto fair ones with wide, lovely eyes.",
+   "work": "Qur’an 52:20",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=52&verse=20",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-two-gardens": {
+   "text": "But for him who feareth the standing before his Lord there are two gardens.",
+   "work": "Qur’an 55:46",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=55&verse=46",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-not-one-of-you-but-shall-approach-it": {
+   "text": "There is not one of you but shall approach it. That is a fixed ordinance of thy Lord.",
+   "work": "Qur’an 19:71",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=19&verse=71",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-enter-ye-to-dwell-therein": {
+   "text": "And those who keep their duty to their Lord are driven unto the Garden in troops till, when they reach it, and the gates thereof are opened, and the warders thereof say unto them: Peace be unto you! Ye are good, so enter ye (the Garden of delight), to dwell therein;",
+   "work": "Qur’an 39:73",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=39&verse=73",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-neither-headache-nor-madness": {
+   "text": "Wherein there is no headache nor are they made mad thereby.",
+   "work": "Qur’an 37:47",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=37&verse=47",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "dante-all-hope-abandon": {
+   "text": "Before me there were no created things, / Only eterne, and I eternal last. / All hope abandon, ye who enter in",
+   "verse": true,
+   "author": "Dante Alighieri",
+   "work": "Inferno",
+   "locator": "III.7–9",
+   "year": "c. 1320",
+   "sortYear": 1320,
+   "translator": "Henry Wadsworth Longfellow",
+   "translationYear": "1867",
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Divine_Comedy_(Longfellow_1867)/Volume_1/Canto_3",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator died in 1882."
+   }
+  },
+  "milton-myself-am-hell": {
+   "text": "Which way I fly is Hell; myself am Hell",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "IV.75",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/Book_IV",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author died in 1674."
+   }
+  },
+  "dickinson-parting-is-all-we-know": {
+   "text": "Parting is all we know of heaven, / And all we need of hell",
+   "verse": true,
+   "author": "Emily Dickinson",
+   "work": "Poems: Third Series",
+   "locator": "Parting",
+   "year": "1896",
+   "sortYear": 1896,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems:_Third_Series/Parting",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author died in 1886; published 1896."
+   }
+  },
+  "browning-what-is-a-heaven-for": {
+   "text": "Ah, but a man's reach should exceed his grasp, / Or what's a Heaven for",
+   "verse": true,
+   "author": "Robert Browning",
+   "work": "Andrea del Sarto",
+   "year": "1855",
+   "sortYear": 1855,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Men_and_Women_(Browning)/Volume_2/Andrea_Del_Sarto,_(called_%22The_Faultless_Painter%22)",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author died in 1889."
+   }
+  },
+  "matthew-neither-marry-nor-given": {
+   "text": "For in the resurrection they neither marry, nor are given in marriage, but are as the angels of God in heaven",
+   "work": "Matthew 22:30",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2022%3A30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
