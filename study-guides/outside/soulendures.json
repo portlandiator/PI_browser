@@ -1,0 +1,403 @@
+{
+ "format": 2,
+ "slug": "soulendures",
+ "subject": "C691C4FF81064ADC8EE804AF197F35A9",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 38,
+ "kept": [
+  "source:AB00228",
+  "source:ABU2979",
+  "source:ABU0205",
+  "source:ABU0241",
+  "source:ABU0004",
+  "source:ABU0151",
+  "source:ABU1776",
+  "source:ABU2233",
+  "source:ABU3611",
+  "source:ABU0626",
+  "source:AB00282",
+  "source:ABU1868",
+  "source:ABU0495",
+  "source:BH00827",
+  "source:AB00268",
+  "source:AB01398",
+  "source:ABU3296",
+  "source:ABU3579",
+  "source:BH00811",
+  "source:AB09006",
+  "source:ABU0185",
+  "source:AB06812",
+  "source:AB01884",
+  "source:ABU0784",
+  "source:ABU1069",
+  "source:ABU1893",
+  "source:ABU2001",
+  "source:ABU0975",
+  "source:AB00879",
+  "source:ABU2603",
+  "source:ABU0825",
+  "source:ABU0070",
+  "source:ABU3529",
+  "source:ABU2613",
+  "source:BH04075",
+  "source:ABU0551",
+  "source:ABU0096",
+  "source:AB03266"
+ ],
+ "introduction": "These readings argue that the human soul survives the death of the body. ‘Abdu’l-Bahá gives reasons: the soul is not composed of elements and so cannot decompose; changes in the body do not change it; a universe that produced the human spirit only to extinguish it would be without purpose; and all the prophets have taught it. He adds that every soul has a beginning but no end, that even imperfect souls endure, and that belief in annihilation degrades a person while belief in immortality ennobles. All thirty-eight quotations are read here beside thirty-eight from elsewhere. Most stand alongside: Plato's argument in the Phaedo, the Gita's 'never the spirit was born', Jesus on the God of the living, Paul, Donne's 'Death, be not proud', Seneca, Ecclesiastes on the spirit returning to God. Seven push back or add a side: the objection in the Phaedo that the soul may be a harmony that dies with the lyre, Job's open question, Macbeth's 'tale told by an idiot', the Preacher's 'no preeminence above a beast', Lucretius, for whom the thought of extinction frees, Wordsworth's soul that comes from elsewhere, and Socrates leaving the matter undecided.",
+ "questions": [
+  "Which of the arguments here do you find strongest, and which weakest? Why?",
+  "‘Abdu’l-Bahá argues that what is not composed cannot decompose. How would he answer the objection that the soul is like a harmony that needs its instrument?",
+  "The readings call the idea of life ending at death 'nonsense'. Macbeth and the Preacher say something like it. What would move them?",
+  "Lucretius thought belief in extinction frees people from fear; the readings think it degrades. What does each fear?",
+  "Every soul is said to have a beginning but no end. Why might that matter?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-bird-out-of-the-snare",
+   "after": "source:AB00228",
+   "responds": [
+    "source:AB00228"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm uses the same picture: our soul is escaped as a bird out of the snare; the snare is broken."
+  },
+  {
+   "id": "plato-soul-likeness-of-the-divine",
+   "after": "source:ABU2979",
+   "responds": [
+    "source:ABU2979"
+   ],
+   "relation": "adjacent",
+   "why": "Plato's Socrates argues that the soul is like the divine, uniform and unchangeable, and the body like the human and changing."
+  },
+  {
+   "id": "plato-harmony-and-the-lyre",
+   "after": "source:ABU0205",
+   "responds": [
+    "source:ABU0205"
+   ],
+   "relation": "contrast",
+   "why": "A friend of Socrates objects that the soul may be like the harmony of a lyre, which is invisible and fair and yet perishes with the strings. How would the argument from simplicity answer him?"
+  },
+  {
+   "id": "corinthians-earthly-house",
+   "after": "source:ABU0241",
+   "responds": [
+    "source:ABU0241"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that if our earthly house were dissolved, we have a building of God, eternal in the heavens."
+  },
+  {
+   "id": "seneca-birthday-of-eternity",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Seneca wrote that the day feared as the end of all things is the birthday of your eternity."
+  },
+  {
+   "id": "job-shall-he-live-again",
+   "after": "source:ABU0151",
+   "responds": [
+    "source:ABU0151"
+   ],
+   "relation": "complement",
+   "why": "Job asks it as a question: if a man die, shall he live again? Is the matter as 'clear and evident' as the reading says, and to whom?"
+  },
+  {
+   "id": "gita-never-the-spirit-was-born",
+   "after": "source:ABU1776",
+   "responds": [
+    "source:ABU1776"
+   ],
+   "relation": "adjacent",
+   "why": "The Gita says that never the spirit was born, and the spirit shall cease to be never."
+  },
+  {
+   "id": "matthew-fear-not-them-which-kill",
+   "after": "source:ABU2233",
+   "responds": [
+    "source:ABU2233"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: fear not them which kill the body, but are not able to kill the soul."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:ABU3611",
+   "responds": [
+    "source:ABU3611"
+   ],
+   "relation": "complement",
+   "why": "Wordsworth imagined the soul arriving from elsewhere, trailing clouds of glory. The reading gives the soul a beginning but no end: why the difference?"
+  },
+  {
+   "id": "donne-death-be-not-proud",
+   "after": "source:ABU0626",
+   "responds": [
+    "source:ABU0626"
+   ],
+   "relation": "adjacent",
+   "why": "Donne tells death not to be proud: one short sleep past, we wake eternally, and death shall be no more."
+  },
+  {
+   "id": "corinthians-in-this-life-only",
+   "after": "source:AB00282",
+   "responds": [
+    "source:AB00282"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: if in this life only we have hope, we are of all men most miserable."
+  },
+  {
+   "id": "shakespeare-brief-candle",
+   "after": "source:ABU1868",
+   "responds": [
+    "source:ABU1868"
+   ],
+   "relation": "contrast",
+   "why": "Macbeth calls life a walking shadow, a tale told by an idiot, signifying nothing. Is 'nonsense' an argument against him, or only a refusal?"
+  },
+  {
+   "id": "john-resurrection-and-life",
+   "after": "source:ABU0495",
+   "responds": [
+    "source:ABU0495"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: he that believeth in me, though he were dead, yet shall he live."
+  },
+  {
+   "id": "luke-god-of-the-living",
+   "after": "source:ABU0495",
+   "responds": [
+    "source:ABU0495"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus argued from Moses that God is not a God of the dead, but of the living."
+  },
+  {
+   "id": "quran-call-them-not-dead",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of those slain in God's way: call them not dead; they are living, only ye perceive not."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that many who sleep in the dust shall awake, and the wise shall shine as the stars for ever."
+  },
+  {
+   "id": "john-life-eternal-know",
+   "after": "source:AB01398",
+   "responds": [
+    "source:AB01398"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel defines it: this is life eternal, that they might know thee the only true God."
+  },
+  {
+   "id": "john-passed-from-death-unto-life",
+   "after": "source:ABU3296",
+   "responds": [
+    "source:ABU3296"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus speaks of one who believes as already passed from death unto life."
+  },
+  {
+   "id": "revelation-name-that-thou-livest",
+   "after": "source:ABU3296",
+   "responds": [
+    "source:ABU3296"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse tells a church: thou hast a name that thou livest, and art dead."
+  },
+  {
+   "id": "ezekiel-no-pleasure",
+   "after": "source:ABU3579",
+   "responds": [
+    "source:ABU3579"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel hears God say that he has no pleasure in the death of the wicked."
+  },
+  {
+   "id": "luke-today-in-paradise",
+   "after": "source:BH00811",
+   "responds": [
+    "source:BH00811"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told a dying thief: today shalt thou be with me in paradise."
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes says that the dust shall return to the earth as it was, and the spirit to God who gave it."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB06812",
+   "responds": [
+    "source:AB06812"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: now I know in part; but then shall I know even as also I am known."
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:AB01884",
+   "responds": [
+    "source:AB01884"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews pictures those who went before as a great cloud of witnesses."
+  },
+  {
+   "id": "revelation-rest-from-their-labours",
+   "after": "source:ABU0784",
+   "responds": [
+    "source:ABU0784"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse says of the dead in the Lord that they rest, and their works do follow them."
+  },
+  {
+   "id": "tennyson-crossing-the-bar",
+   "after": "source:ABU1069",
+   "responds": [
+    "source:ABU1069"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson pictured his death as putting out to sea at sunset, hoping to see his Pilot face to face."
+  },
+  {
+   "id": "ecclesiastes-generation-passeth",
+   "after": "source:ABU1893",
+   "responds": [
+    "source:ABU1893"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes says that one generation passeth away, and another generation cometh, but the earth abideth for ever."
+  },
+  {
+   "id": "philippians-to-live-is-christ",
+   "after": "source:ABU2001",
+   "responds": [
+    "source:ABU2001"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: for to me to live is Christ, and to die is gain."
+  },
+  {
+   "id": "ecclesiastes-no-preeminence-above-a-beast",
+   "after": "source:ABU0975",
+   "responds": [
+    "source:ABU0975"
+   ],
+   "relation": "contrast",
+   "why": "Ecclesiastes says that man hath no preeminence above a beast: all go unto one place. What grounds the line the reading draws between animal and human survival?"
+  },
+  {
+   "id": "plato-no-evil-to-a-good-man",
+   "after": "source:ABU2603",
+   "responds": [
+    "source:ABU2603"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates told his judges that no evil can happen to a good man, either in life or after death."
+  },
+  {
+   "id": "romans-neither-death-nor-life",
+   "after": "source:ABU0825",
+   "responds": [
+    "source:ABU0825"
+   ],
+   "relation": "adjacent",
+   "why": "Paul is persuaded that neither death, nor life, nor any creature can separate us from the love of God."
+  },
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius argued the opposite: that the time before our birth was nothing to us, and nature holds it up as a mirror of the time after death. Does the thought of annihilation degrade, or free?"
+  },
+  {
+   "id": "john-epistle-world-passeth-away",
+   "after": "source:ABU3529",
+   "responds": [
+    "source:ABU3529"
+   ],
+   "relation": "adjacent",
+   "why": "John's first letter says the world passeth away, but he that doeth the will of God abideth for ever."
+  },
+  {
+   "id": "matthew-house-on-the-rock",
+   "after": "source:ABU2613",
+   "responds": [
+    "source:ABU2613"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus compared the one who does his sayings to a man who built his house upon a rock."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:BH04075",
+   "responds": [
+    "source:BH04075"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs says that love is strong as death, and many waters cannot quench it."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0551",
+   "responds": [
+    "source:ABU0551"
+   ],
+   "relation": "adjacent",
+   "why": "Lucretius himself, who denied the soul's survival, held that nothing from nothing ever yet was born."
+  },
+  {
+   "id": "plato-death-one-of-two-things",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "complement",
+   "why": "Socrates thought death one of two things, a dreamless nothing or a migration of the soul, and good either way. He leaves the question open; why do the readings not?"
+  },
+  {
+   "id": "pope-vast-chain",
+   "after": "source:AB03266",
+   "responds": [
+    "source:AB03266"
+   ],
+   "relation": "adjacent",
+   "why": "Pope surveyed a vast chain of being which from God began, down through angel, man, beast and insect."
+  }
+ ],
+ "library": {}
+}
