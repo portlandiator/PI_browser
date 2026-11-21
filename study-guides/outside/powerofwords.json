@@ -1,0 +1,1022 @@
+{
+ "format": 2,
+ "slug": "powerofwords",
+ "subject": "2F9E3A01AFCCEAC5262DC3738E50F13A",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 98,
+ "quotations": 100,
+ "kept": [
+  "source:BH00005",
+  "source:ABU1584",
+  "source:BH00140",
+  "source:BH00382",
+  "source:AB02516",
+  "source:AB06272",
+  "source:BH08646",
+  "source:ABU0824",
+  "source:AB00192",
+  "source:BH00960",
+  "source:BH02803",
+  "source:BH08142",
+  "source:BH03868",
+  "source:AB04481",
+  "source:BH07481",
+  "source:ABU1093",
+  "source:ABU3428",
+  "source:BH00007",
+  "source:BH09742",
+  "source:BH10310",
+  "source:BH00265",
+  "source:BH05339",
+  "source:BH00364",
+  "source:AB03536",
+  "source:AB11390",
+  "source:AB09878",
+  "source:AB04910",
+  "source:AB05247",
+  "source:AB01547",
+  "source:AB04785",
+  "source:AB07386",
+  "source:AB04508",
+  "source:AB11637",
+  "source:ABU1044",
+  "source:AB10091",
+  "source:AB04214",
+  "source:AB05499",
+  "source:AB00915",
+  "source:BH04261",
+  "source:AB04521",
+  "source:AB09357",
+  "source:AB05477",
+  "source:AB06586",
+  "source:AB07610",
+  "source:AB11668",
+  "source:AB03472",
+  "source:BH01960",
+  "source:BH03286",
+  "source:AB09177",
+  "source:BH01295",
+  "source:BH00659",
+  "source:AB03710",
+  "source:AB01114",
+  "source:AB03775",
+  "source:AB03879",
+  "source:BH11844",
+  "source:AB05260",
+  "source:BH00693",
+  "source:BH00002",
+  "source:BH02499",
+  "source:BH00601",
+  "source:BH00161",
+  "source:BH03206",
+  "source:BH00198",
+  "source:BH02996",
+  "source:BH03182",
+  "source:AB09645",
+  "source:BH01434",
+  "source:BH00256",
+  "source:BH01377",
+  "source:BH04438",
+  "source:BH08765",
+  "source:BH08574",
+  "source:BH11823",
+  "source:BH11428",
+  "source:BH11041",
+  "source:BH00380",
+  "source:BH00349",
+  "source:BH07014",
+  "source:BH01230",
+  "source:BH02574",
+  "source:BH00019",
+  "source:BH07266",
+  "source:BH02110",
+  "source:BH02267",
+  "source:BH11802",
+  "source:BH07565",
+  "source:BH11390",
+  "source:BH02055",
+  "source:BH06771",
+  "source:BH10205",
+  "source:BH11667",
+  "source:BH03410",
+  "source:AB03210",
+  "source:AB01361",
+  "source:AB01599",
+  "source:AB04089",
+  "source:BH05154"
+ ],
+ "introduction": "These readings are about what words do. Bahá’u’lláh calls a kindly tongue the lodestone of hearts, says every word has a spirit and must be chosen for its moment, and ordains that his cause triumph by utterance and wisdom alone, while adding that deeds speak louder and that one pure act guides multitudes. ‘Abdu’l-Bahá urges eloquence in gatherings, thanks friends for letters that reached him like gardens, and prays for loosened tongues; and many passages concern the Word of God itself, the water of life that quickens the dead. A hundred of the guide's three hundred quotations are read here, ten from each tenth of the reading order, beside a hundred from elsewhere. Most stand alongside: Proverbs on the tongue and the word fitly spoken, James, Jeremiah's fire in the bones, Isaiah's word that does not return void, Moses asking for his tongue to be loosed, Aristotle on the speaker's character, Byron's drop of ink, Emily Dickinson's word that begins to live when said. Nine push back or add a side: Machiavelli's unarmed prophets, Paul refusing 'enticing words', Moses 'slow of speech', the Tao Te Ching's 'he who knows does not speak', Plato on writing that cannot answer, Wittgenstein's silence, Paine on revelation as hearsay, Augustine uneasy about melody, and the Preacher's time to keep silence.",
+ "questions": [
+  "'Every word is endowed with a spirit.' Recall words that changed something for you. What gave them their force?",
+  "The cause is to triumph 'through wisdom and utterance, naught else', and yet deeds are said to speak louder than words. How do the two fit?",
+  "The readings pray for eloquence; Paul distrusted 'enticing words' and Moses was slow of speech. What does a message need from its speaker?",
+  "The Tao Te Ching says that he who knows does not speak. When is silence the better utterance?",
+  "‘Abdu’l-Bahá calls a letter a rose garden; Plato says writing cannot answer a question. What can written words carry, and what not?",
+  "What would it mean to speak 'for the sake of God' in an ordinary conversation?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-soft-answer",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a soft answer turneth away wrath, but grievous words stir up anger."
+  },
+  {
+   "id": "proverbs-word-fitly-spoken",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a word fitly spoken is like apples of gold in pictures of silver."
+  },
+  {
+   "id": "aristotle-gift-of-speech",
+   "after": "source:ABU1584",
+   "responds": [
+    "source:ABU1584"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle says that man is the only animal endowed with the gift of speech."
+  },
+  {
+   "id": "proverbs-power-of-the-tongue",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that death and life are in the power of the tongue."
+  },
+  {
+   "id": "bacon-discretion-of-speech",
+   "after": "source:BH00382",
+   "responds": [
+    "source:BH00382"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon judged that discretion of speech is more than eloquence, and to speak agreeably more than to speak well."
+  },
+  {
+   "id": "tennyson-words-half-reveal",
+   "after": "source:AB02516",
+   "responds": [
+    "source:AB02516"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson felt that words, like nature, half reveal and half conceal the soul within."
+  },
+  {
+   "id": "shakespeare-action-is-eloquence",
+   "after": "source:AB06272",
+   "responds": [
+    "source:AB06272"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare has a speaker advise that action is eloquence, and the eyes of the ignorant more learned than the ears."
+  },
+  {
+   "id": "franklin-forbear-all-direct-contradiction",
+   "after": "source:BH08646",
+   "responds": [
+    "source:BH08646"
+   ],
+   "relation": "adjacent",
+   "why": "Franklin made it a rule to forbear all direct contradiction of others, and all positive assertion of his own."
+  },
+  {
+   "id": "james-tongue-is-a-fire",
+   "after": "source:ABU0824",
+   "responds": [
+    "source:ABU0824"
+   ],
+   "relation": "adjacent",
+   "why": "James calls the tongue a fire, a little member that defiles the whole body."
+  },
+  {
+   "id": "matthew-every-idle-word",
+   "after": "source:AB00192",
+   "responds": [
+    "source:AB00192"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that men shall give account of every idle word in the day of judgment."
+  },
+  {
+   "id": "corinthians-milk-not-meat",
+   "after": "source:BH00960",
+   "responds": [
+    "source:BH00960"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he fed his hearers with milk and not with meat, for they were not yet able to bear it."
+  },
+  {
+   "id": "quran-goodly-word-goodly-tree",
+   "after": "source:BH02803",
+   "responds": [
+    "source:BH02803"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an likens a goodly saying to a goodly tree, its root set firm, its branches reaching into heaven."
+  },
+  {
+   "id": "quran-call-with-wisdom",
+   "after": "source:BH03868",
+   "responds": [
+    "source:BH03868"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says: call unto the way of thy Lord with wisdom and fair exhortation."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:AB04481",
+   "responds": [
+    "source:AB04481"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah tried silence, and found the word as a burning fire shut up in his bones."
+  },
+  {
+   "id": "revelation-lukewarm",
+   "after": "source:AB04481",
+   "responds": [
+    "source:AB04481"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse rebukes a church that is lukewarm, neither cold nor hot."
+  },
+  {
+   "id": "romans-faith-by-hearing",
+   "after": "source:BH07481",
+   "responds": [
+    "source:BH07481"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that faith cometh by hearing, and hearing by the word of God."
+  },
+  {
+   "id": "james-swift-to-hear",
+   "after": "source:BH07481",
+   "responds": [
+    "source:BH07481"
+   ],
+   "relation": "adjacent",
+   "why": "James says: let every man be swift to hear, slow to speak, slow to wrath."
+  },
+  {
+   "id": "samuel-speak-lord",
+   "after": "source:ABU1093",
+   "responds": [
+    "source:ABU1093"
+   ],
+   "relation": "adjacent",
+   "why": "The boy Samuel was taught to answer the voice in the night: speak, Lord, for thy servant heareth."
+  },
+  {
+   "id": "byron-words-are-things",
+   "after": "source:ABU3428",
+   "responds": [
+    "source:ABU3428"
+   ],
+   "relation": "adjacent",
+   "why": "Byron wrote that words are things, and a small drop of ink produces that which makes thousands think."
+  },
+  {
+   "id": "hebrews-twoedged-sword",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews calls the word of God quick and powerful, and sharper than any twoedged sword."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:BH09742",
+   "responds": [
+    "source:BH09742"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah hears: not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "machiavelli-armed-prophets",
+   "after": "source:BH10310",
+   "responds": [
+    "source:BH10310"
+   ],
+   "relation": "contrast",
+   "why": "Machiavelli observed that all armed prophets have conquered, and the unarmed ones have been destroyed. Can utterance alone carry a cause?"
+  },
+  {
+   "id": "aristotle-character-most-effective-persuasion",
+   "after": "source:BH00265",
+   "responds": [
+    "source:BH00265"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle held that a speaker's character may almost be called the most effective means of persuasion he possesses."
+  },
+  {
+   "id": "corinthians-sweet-savour",
+   "after": "source:BH05339",
+   "responds": [
+    "source:BH05339"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that believers are unto God a sweet savour, the savour of life unto life."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:BH00364",
+   "responds": [
+    "source:BH00364"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: let your light so shine before men, that they may see your good works."
+  },
+  {
+   "id": "jeremiah-hammer-that-breaketh-the-rock",
+   "after": "source:AB03536",
+   "responds": [
+    "source:AB03536"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah hears: is not my word like as a fire, and like a hammer that breaketh the rock in pieces?"
+  },
+  {
+   "id": "revelation-countenance-as-the-sun",
+   "after": "source:AB11390",
+   "responds": [
+    "source:AB11390"
+   ],
+   "relation": "adjacent",
+   "why": "John saw one out of whose mouth went a sharp twoedged sword."
+  },
+  {
+   "id": "dickinson-a-word-is-dead",
+   "after": "source:AB09878",
+   "responds": [
+    "source:AB09878"
+   ],
+   "relation": "adjacent",
+   "why": "Emily Dickinson answered those who say a word is dead when it is said: I say it just begins to live that day."
+  },
+  {
+   "id": "amos-lion-hath-roared",
+   "after": "source:AB04910",
+   "responds": [
+    "source:AB04910"
+   ],
+   "relation": "adjacent",
+   "why": "Amos asks: the lion hath roared, who will not fear? the Lord God hath spoken, who can but prophesy?"
+  },
+  {
+   "id": "acts-spake-with-boldness",
+   "after": "source:AB05247",
+   "responds": [
+    "source:AB05247"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says that when they had prayed they were filled with the Holy Ghost, and spake the word with boldness."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB01547",
+   "responds": [
+    "source:AB01547"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that men do not light a candle and put it under a bushel, but on a candlestick."
+  },
+  {
+   "id": "philippians-shine-as-lights",
+   "after": "source:AB04785",
+   "responds": [
+    "source:AB04785"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks his friends to shine as lights in the world, holding forth the word of life."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:AB07386",
+   "responds": [
+    "source:AB07386"
+   ],
+   "relation": "complement",
+   "why": "Moses protested that he was not eloquent, but slow of speech and of a slow tongue, and was sent all the same. How much does the message need eloquence?"
+  },
+  {
+   "id": "isaiah-word-in-season-to-the-weary",
+   "after": "source:AB04508",
+   "responds": [
+    "source:AB04508"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's servant is given the tongue of the learned, to know how to speak a word in season to him that is weary."
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:AB11637",
+   "responds": [
+    "source:AB11637"
+   ],
+   "relation": "contrast",
+   "why": "Paul says his preaching was not with enticing words of man's wisdom, lest faith stand in the wisdom of men. What place is left for fluent expression?"
+  },
+  {
+   "id": "acts-cloven-tongues-of-fire",
+   "after": "source:ABU1044",
+   "responds": [
+    "source:ABU1044"
+   ],
+   "relation": "adjacent",
+   "why": "At Pentecost there appeared cloven tongues like as of fire, and they began to speak."
+  },
+  {
+   "id": "luke-mouth-and-wisdom",
+   "after": "source:AB10091",
+   "responds": [
+    "source:AB10091"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promised those brought before rulers a mouth and wisdom which their adversaries could not resist."
+  },
+  {
+   "id": "peter-reason-of-the-hope",
+   "after": "source:AB04214",
+   "responds": [
+    "source:AB04214"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks believers to be ready always to give a reason of the hope that is in them, with meekness."
+  },
+  {
+   "id": "quran-moses-loose-knot",
+   "after": "source:AB05499",
+   "responds": [
+    "source:AB05499"
+   ],
+   "relation": "adjacent",
+   "why": "Moses prays in the Qur'an: relieve my mind, and loose a knot from my tongue, that they may understand my saying."
+  },
+  {
+   "id": "psalm-open-thou-my-lips",
+   "after": "source:AB00915",
+   "responds": [
+    "source:AB00915"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm asks: O Lord, open thou my lips, and my mouth shall shew forth thy praise."
+  },
+  {
+   "id": "timothy-in-season-out-of-season",
+   "after": "source:BH04261",
+   "responds": [
+    "source:BH04261"
+   ],
+   "relation": "adjacent",
+   "why": "Paul charges Timothy: preach the word; be instant in season, out of season."
+  },
+  {
+   "id": "psalm-bless-the-lord-at-all-times",
+   "after": "source:AB04521",
+   "responds": [
+    "source:AB04521"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist resolves: I will bless the Lord at all times; his praise shall continually be in my mouth."
+  },
+  {
+   "id": "ecclesiastes-time-to-keep-silence",
+   "after": "source:AB09357",
+   "responds": [
+    "source:AB09357"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes says there is a time to keep silence, and a time to speak."
+  },
+  {
+   "id": "psalm-sing-a-new-song",
+   "after": "source:AB05477",
+   "responds": [
+    "source:AB05477"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm calls: O sing unto the Lord a new song; sing unto the Lord, all the earth."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:AB05477",
+   "responds": [
+    "source:AB05477"
+   ],
+   "relation": "contrast",
+   "why": "The Tao Te Ching says that he who knows does not care to speak, and he who is ever ready to speak does not know. What would Laozi make of a day of utterance?"
+  },
+  {
+   "id": "quran-sea-were-ink",
+   "after": "source:AB06586",
+   "responds": [
+    "source:AB06586"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that though the sea became ink for the words of the Lord, the sea would be used up first."
+  },
+  {
+   "id": "matthew-upon-the-housetops",
+   "after": "source:AB07610",
+   "responds": [
+    "source:AB07610"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: what ye hear in the ear, that preach ye upon the housetops."
+  },
+  {
+   "id": "isaiah-beautiful-upon-the-mountains",
+   "after": "source:AB03472",
+   "responds": [
+    "source:AB03472"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah exclaims: how beautiful upon the mountains are the feet of him that bringeth good tidings."
+  },
+  {
+   "id": "proverbs-good-word-maketh-it-glad",
+   "after": "source:BH01960",
+   "responds": [
+    "source:BH01960"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that heaviness in the heart maketh it stoop, but a good word maketh it glad."
+  },
+  {
+   "id": "matthew-great-commission",
+   "after": "source:BH03286",
+   "responds": [
+    "source:BH03286"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew's Gospel ends with a sending: go ye therefore, and teach all nations."
+  },
+  {
+   "id": "john-epistle-face-to-face",
+   "after": "source:AB09177",
+   "responds": [
+    "source:AB09177"
+   ],
+   "relation": "adjacent",
+   "why": "The elder ends a short letter: I would not write with paper and ink, but trust to speak face to face."
+  },
+  {
+   "id": "john-world-could-not-contain-the-books",
+   "after": "source:BH01295",
+   "responds": [
+    "source:BH01295"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel ends by supposing that the world itself could not contain the books that should be written."
+  },
+  {
+   "id": "proverbs-good-news",
+   "after": "source:BH00659",
+   "responds": [
+    "source:BH00659"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: as cold waters to a thirsty soul, so is good news from a far country."
+  },
+  {
+   "id": "corinthians-epistle-written-in-our-hearts",
+   "after": "source:AB03710",
+   "responds": [
+    "source:AB03710"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls his friends themselves his letter, written in the heart, known and read of all men."
+  },
+  {
+   "id": "plato-writing-silent",
+   "after": "source:AB01114",
+   "responds": [
+    "source:AB01114"
+   ],
+   "relation": "contrast",
+   "why": "Plato's Socrates says written words are like paintings: ask them a question and they preserve a solemn silence. Can ink do what the reading says it does?"
+  },
+  {
+   "id": "philippians-thank-my-god-upon-every-remembrance",
+   "after": "source:AB03775",
+   "responds": [
+    "source:AB03775"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes to his friends: I thank my God upon every remembrance of you."
+  },
+  {
+   "id": "colossians-absent-in-the-flesh",
+   "after": "source:AB03879",
+   "responds": [
+    "source:AB03879"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says in a letter: though I be absent in the flesh, yet am I with you in the spirit."
+  },
+  {
+   "id": "corinthians-god-of-all-comfort",
+   "after": "source:BH11844",
+   "responds": [
+    "source:BH11844"
+   ],
+   "relation": "adjacent",
+   "why": "Paul blesses the God of all comfort, who comforts us that we may comfort others."
+  },
+  {
+   "id": "romans-groanings-cannot-be-uttered",
+   "after": "source:AB05260",
+   "responds": [
+    "source:AB05260"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that when we do not know what to say, the Spirit intercedes with groanings which cannot be uttered."
+  },
+  {
+   "id": "wittgenstein-whereof",
+   "after": "source:BH00693",
+   "responds": [
+    "source:BH00693"
+   ],
+   "relation": "complement",
+   "why": "Wittgenstein ended his first book: whereof one cannot speak, thereof one must be silent. Where does the power of words stop?"
+  },
+  {
+   "id": "quran-feed-the-needy",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The words echo the Qur'an: we feed you for the sake of God only; we wish for no reward nor thanks from you."
+  },
+  {
+   "id": "quran-table",
+   "after": "source:BH02499",
+   "responds": [
+    "source:BH02499"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an Jesus prays for a table spread with food to be sent down from heaven."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:BH00601",
+   "responds": [
+    "source:BH00601"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that as the rain waters the earth and makes it bud, so shall the word be that goes forth from God's mouth."
+  },
+  {
+   "id": "john-words-of-eternal-life",
+   "after": "source:BH00161",
+   "responds": [
+    "source:BH00161"
+   ],
+   "relation": "adjacent",
+   "why": "When many went away, Peter said: Lord, to whom shall we go? thou hast the words of eternal life."
+  },
+  {
+   "id": "psalm-sweeter-than-honey",
+   "after": "source:BH03206",
+   "responds": [
+    "source:BH03206"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: how sweet are thy words unto my taste, sweeter than honey to my mouth."
+  },
+  {
+   "id": "john-sanctify-through-truth",
+   "after": "source:BH00198",
+   "responds": [
+    "source:BH00198"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus prayed for his disciples: sanctify them through thy truth; thy word is truth."
+  },
+  {
+   "id": "corinthians-god-gave-the-increase",
+   "after": "source:BH02996",
+   "responds": [
+    "source:BH02996"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says: I have planted, Apollos watered; but God gave the increase."
+  },
+  {
+   "id": "luke-seed-is-the-word",
+   "after": "source:BH03182",
+   "responds": [
+    "source:BH03182"
+   ],
+   "relation": "adjacent",
+   "why": "In the parable of the sower Jesus says plainly: the seed is the word of God."
+  },
+  {
+   "id": "matthew-words-shall-not-pass-away",
+   "after": "source:AB09645",
+   "responds": [
+    "source:AB09645"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: heaven and earth shall pass away, but my words shall not pass away."
+  },
+  {
+   "id": "isaiah-word-stand-for-ever",
+   "after": "source:BH01434",
+   "responds": [
+    "source:BH01434"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says: the grass withereth, the flower fadeth, but the word of our God shall stand for ever."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH00256",
+   "responds": [
+    "source:BH00256"
+   ],
+   "relation": "contrast",
+   "why": "Paine argued that a revelation is revelation to the first person only, and hearsay to every other. On what does a spoken Word's authority rest for those who only read it?"
+  },
+  {
+   "id": "psalm-voice-of-the-lord",
+   "after": "source:BH01377",
+   "responds": [
+    "source:BH01377"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: the voice of the Lord is powerful; the voice of the Lord is full of majesty."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:BH04438",
+   "responds": [
+    "source:BH04438"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis has creation begin with a word: and God said, let there be light, and there was light."
+  },
+  {
+   "id": "deuteronomy-voice-out-of-the-fire",
+   "after": "source:BH08765",
+   "responds": [
+    "source:BH08765"
+   ],
+   "relation": "adjacent",
+   "why": "Israel said at the mountain: we have heard his voice out of the midst of the fire."
+  },
+  {
+   "id": "john-dead-shall-hear",
+   "after": "source:BH08574",
+   "responds": [
+    "source:BH08574"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said the hour is coming when the dead shall hear the voice of the Son of God, and they that hear shall live."
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:BH11823",
+   "responds": [
+    "source:BH11823"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus tells of the bush that burned with fire and was not consumed, out of which Moses was called."
+  },
+  {
+   "id": "john-spirit-quickeneth",
+   "after": "source:BH11428",
+   "responds": [
+    "source:BH11428"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: the words that I speak unto you, they are spirit, and they are life."
+  },
+  {
+   "id": "ezekiel-breath",
+   "after": "source:BH11428",
+   "responds": [
+    "source:BH11428"
+   ],
+   "relation": "adjacent",
+   "why": "Ezekiel prophesied to dry bones as he was commanded, and breath came into them, and they lived."
+  },
+  {
+   "id": "john-living-water",
+   "after": "source:BH11041",
+   "responds": [
+    "source:BH11041"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told a woman at a well that the water he gives becomes a well springing up into everlasting life."
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BH00349",
+   "responds": [
+    "source:BH00349"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: by the word of the Lord were the heavens made."
+  },
+  {
+   "id": "luke-fire-on-the-earth",
+   "after": "source:BH07014",
+   "responds": [
+    "source:BH07014"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: I am come to send fire on the earth; and what will I, if it be already kindled?"
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:BH02574",
+   "responds": [
+    "source:BH02574"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that God chose the weak things of the world to confound the things which are mighty."
+  },
+  {
+   "id": "matthew-blind-leaders",
+   "after": "source:BH00019",
+   "responds": [
+    "source:BH00019"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus called some teachers blind leaders of the blind, and said both shall fall into the ditch."
+  },
+  {
+   "id": "job-words-without-knowledge",
+   "after": "source:BH00019",
+   "responds": [
+    "source:BH00019"
+   ],
+   "relation": "adjacent",
+   "why": "God asks Job out of the whirlwind: who is this that darkeneth counsel by words without knowledge?"
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:BH07266",
+   "responds": [
+    "source:BH07266"
+   ],
+   "relation": "adjacent",
+   "why": "Hearers of Jesus marvelled: how knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "quran-unlettered-prophet",
+   "after": "source:BH07266",
+   "responds": [
+    "source:BH07266"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an speaks of the Prophet who can neither read nor write."
+  },
+  {
+   "id": "acts-turned-the-world-upside-down",
+   "after": "source:BH02267",
+   "responds": [
+    "source:BH02267"
+   ],
+   "relation": "adjacent",
+   "why": "Opponents said of the first Christian teachers: these that have turned the world upside down are come hither also."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "source:BH11802",
+   "responds": [
+    "source:BH11802"
+   ],
+   "relation": "adjacent",
+   "why": "Ordered to stop teaching, Peter and the apostles answered: we ought to obey God rather than men."
+  },
+  {
+   "id": "matthew-seeing-see-not",
+   "after": "source:BH07565",
+   "responds": [
+    "source:BH07565"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said of his hearers that hearing they hear not, neither do they understand."
+  },
+  {
+   "id": "deuteronomy-shema",
+   "after": "source:BH11390",
+   "responds": [
+    "source:BH11390"
+   ],
+   "relation": "adjacent",
+   "why": "The first word of Israel's confession is a call to listen: hear, O Israel."
+  },
+  {
+   "id": "mark-tradition-of-men",
+   "after": "source:BH02055",
+   "responds": [
+    "source:BH02055"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus charged the teachers with laying aside the commandment of God to hold the tradition of men."
+  },
+  {
+   "id": "ephesians-having-done-all-to-stand",
+   "after": "source:BH06771",
+   "responds": [
+    "source:BH06771"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Ephesians to take the whole armour of God, that they may be able to stand."
+  },
+  {
+   "id": "psalm-thy-word-have-i-hid",
+   "after": "source:BH10205",
+   "responds": [
+    "source:BH10205"
+   ],
+   "relation": "adjacent",
+   "why": "A psalmist says: thy word have I hid in mine heart, that I might not sin against thee."
+  },
+  {
+   "id": "acts-pentecost",
+   "after": "source:BH11667",
+   "responds": [
+    "source:BH11667"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says that on the day of Pentecost they were all filled with the Holy Ghost, and began to speak."
+  },
+  {
+   "id": "acts-almost-thou-persuadest",
+   "after": "source:BH03410",
+   "responds": [
+    "source:BH03410"
+   ],
+   "relation": "adjacent",
+   "why": "Paul spoke before a king, who answered: almost thou persuadest me to be a Christian."
+  },
+  {
+   "id": "luke-good-tree",
+   "after": "source:AB03210",
+   "responds": [
+    "source:AB03210"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said that of the abundance of the heart the mouth speaketh."
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:AB01361",
+   "responds": [
+    "source:AB01361"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus told of a sower whose seed fell by the wayside, on stony places, among thorns and on good ground."
+  },
+  {
+   "id": "isaiah-live-coal",
+   "after": "source:AB01599",
+   "responds": [
+    "source:AB01599"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's lips were touched with a live coal from the altar before he was sent to speak."
+  },
+  {
+   "id": "song-winter-is-past",
+   "after": "source:AB04089",
+   "responds": [
+    "source:AB04089"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs announces the spring: the winter is past, the flowers appear on the earth."
+  },
+  {
+   "id": "augustine-moved-by-the-singing",
+   "after": "source:BH05154",
+   "responds": [
+    "source:BH05154"
+   ],
+   "relation": "complement",
+   "why": "Augustine approved of singing in church, since by the delights of the ear the weaker mind may rise to devotion, and yet he hesitated. When does melody serve the words, and when replace them?"
+  }
+ ],
+ "library": {}
+}
