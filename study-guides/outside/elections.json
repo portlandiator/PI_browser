@@ -1,0 +1,615 @@
+{
+ "format": 2,
+ "slug": "elections",
+ "subject": "8E30B938D8A9455F8C4FABC5769EBBF4",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 48,
+ "quotations": 50,
+ "kept": [
+  "source:ABU0001",
+  "source:AB04428",
+  "source:ABU1582",
+  "source:ABU2720",
+  "source:ABU3220",
+  "source:AB05229",
+  "source:ABU3100",
+  "source:ABU3191",
+  "source:AB08982",
+  "source:AB01400",
+  "source:AB09517",
+  "source:AB12183",
+  "source:AB02819",
+  "source:AB02837",
+  "source:AB00670",
+  "source:AB05544",
+  "source:AB01843",
+  "source:AB09088",
+  "source:AB06481",
+  "source:AB05929",
+  "source:AB00696",
+  "source:AB04626",
+  "source:ABU0649",
+  "source:ABU3239",
+  "source:ABU0392",
+  "source:ABU0494",
+  "source:ABU1572",
+  "source:AB11384",
+  "source:ABU1381",
+  "source:ABU3290",
+  "source:AB05129",
+  "source:AB07328",
+  "source:ABU1111",
+  "source:AB04336",
+  "source:AB06031",
+  "source:ABU3081",
+  "source:ABU3362",
+  "selection:284ddea7d30155f152bdf538",
+  "selection:babdd1b683fccb0b66f6a1a1",
+  "selection:e526f50bedcb3bc0cc6f9186",
+  "selection:6b3ecaadac73aa8acb76bd2b",
+  "selection:fdf6106171cf8ed9c0967207",
+  "selection:216609d90549972097e1d6d6",
+  "selection:7c8cfe761f0e7c3d46444ac8",
+  "selection:8b28b7eb247ec3142932f25a",
+  "selection:73e6bf032ef82d4fc0f93aa1",
+  "selection:7ad2af41394bdabe5cd64329",
+  "selection:4bfa97d78fe1a5d2abdfd2a2"
+ ],
+ "introduction": "The first readings are ‘Abdu’l-Bahá's answers to practical questions as the earliest Bahá’í assemblies were formed: who should be chosen, by whom, how often, whether women may serve, and when an election should be put off for the sake of calm. The later letters set out what distinguishes a Bahá’í election: no nomination, no canvassing, no parties, and a vote cast in prayer for those of proven character. Scripture's accounts of choosing leaders, Plato on the reluctant ruler and Jotham's fable of the trees stand close to them; Madison, Milton, Mill, Thoreau and King are asked what a system without contest and without party may miss.",
+ "questions": [
+  "What qualities do the readings ask voters to look for, and how do they compare with Jethro's and Paul's lists?",
+  "Plato says the best state is one whose rulers are most reluctant to govern. How do the readings try to secure that, and what does it cost?",
+  "Without nomination or campaigning, how does a voter come to know whom to choose? What do the letters require instead?",
+  "The readings ask the community to stay out of party politics. How would you answer King's concern that standing apart may leave injustice unopposed?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-feast-to-which-many-contribute",
+   "after": "source:ABU0001",
+   "responds": [
+    "source:ABU0001"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle grants that the many, meeting together, may judge better than the few best, as a feast to which many contribute excels one man's dinner."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:ABU0001",
+   "responds": [
+    "source:ABU0001"
+   ],
+   "relation": "complement",
+   "why": "Plato held that there is no rest from evils until philosophers are kings. Who are the best among a people, and can a vote find them?"
+  },
+  {
+   "id": "declaration-consent-of-the-governed",
+   "after": "source:AB04428",
+   "responds": [
+    "source:AB04428"
+   ],
+   "relation": "adjacent",
+   "why": "The American Declaration derives the just powers of government from the consent of the governed."
+  },
+  {
+   "id": "samuel-manner-of-the-king",
+   "after": "source:AB04428",
+   "responds": [
+    "source:AB04428"
+   ],
+   "relation": "complement",
+   "why": "When Israel asked for a king, Samuel warned what a ruler would take from them. What must any way of choosing those who govern guard against?"
+  },
+  {
+   "id": "matthew-princes-of-the-gentiles",
+   "after": "source:ABU1582",
+   "responds": [
+    "source:ABU1582"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that whoever would be great among his followers must be their minister, unlike the princes of the Gentiles."
+  },
+  {
+   "id": "shakespeare-vaulting-ambition",
+   "after": "source:ABU1582",
+   "responds": [
+    "source:ABU1582"
+   ],
+   "relation": "adjacent",
+   "why": "Macbeth admits he has no spur but vaulting ambition, which overleaps itself and falls."
+  },
+  {
+   "id": "plato-rulers-most-reluctant-to-govern",
+   "after": "source:ABU2720",
+   "responds": [
+    "source:ABU2720"
+   ],
+   "relation": "adjacent",
+   "why": "Plato holds that the state whose rulers are most reluctant to govern is the best and most quietly governed."
+  },
+  {
+   "id": "judges-trees-went-forth",
+   "after": "source:ABU2720",
+   "responds": [
+    "source:ABU2720"
+   ],
+   "relation": "adjacent",
+   "why": "In Jotham's fable the olive, fig and vine decline to reign over the trees; only the bramble is eager."
+  },
+  {
+   "id": "mark-shall-be-your-minister",
+   "after": "source:ABU2720",
+   "responds": [
+    "source:ABU2720"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that whoever would be chiefest shall be servant of all."
+  },
+  {
+   "id": "philippians-likeminded",
+   "after": "source:ABU3220",
+   "responds": [
+    "source:ABU3220"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks a church to be likeminded, of one accord and of one mind."
+  },
+  {
+   "id": "aristotle-harmony-unison",
+   "after": "source:ABU3220",
+   "responds": [
+    "source:ABU3220"
+   ],
+   "relation": "complement",
+   "why": "Aristotle warns against a unity that turns harmony into unison. Is harmony among members the first thing to look for, or are differing voices worth electing?"
+  },
+  {
+   "id": "galatians-neither",
+   "after": "source:AB05229",
+   "responds": [
+    "source:AB05229"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says there is neither male nor female, for all are one."
+  },
+  {
+   "id": "seneca-falls-men-and-women",
+   "after": "source:AB05229",
+   "responds": [
+    "source:AB05229"
+   ],
+   "relation": "adjacent",
+   "why": "The women at Seneca Falls declared it self-evident that all men and women are created equal."
+  },
+  {
+   "id": "exodus-able-men",
+   "after": "source:ABU3100",
+   "responds": [
+    "source:ABU3100"
+   ],
+   "relation": "adjacent",
+   "why": "Jethro tells Moses to provide able men, such as fear God, men of truth, hating covetousness."
+  },
+  {
+   "id": "timothy-a-bishop-must-be-blameless",
+   "after": "source:ABU3100",
+   "responds": [
+    "source:ABU3100"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists what an overseer must be: blameless, vigilant, sober, of good behaviour, not greedy."
+  },
+  {
+   "id": "deuteronomy-take-you-wise-men",
+   "after": "source:ABU3191",
+   "responds": [
+    "source:ABU3191"
+   ],
+   "relation": "adjacent",
+   "why": "Moses asks the tribes to take wise and understanding men, known among them, to be made rulers."
+  },
+  {
+   "id": "proverbs-when-the-wicked-beareth-rule",
+   "after": "source:AB08982",
+   "responds": [
+    "source:AB08982"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that when the righteous are in authority the people rejoice."
+  },
+  {
+   "id": "isaiah-quietness-and-confidence",
+   "after": "source:AB01400",
+   "responds": [
+    "source:AB01400"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah says that in quietness and in confidence shall be your strength."
+  },
+  {
+   "id": "washington-spirit-of-party",
+   "after": "source:AB09517",
+   "responds": [
+    "source:AB09517"
+   ],
+   "relation": "complement",
+   "why": "Washington allowed that parties in free countries may keep alive the spirit of liberty. Were the elections of his country free of clamour, and is clamour only a fault?"
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:AB12183",
+   "responds": [
+    "source:AB12183"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs counts one who rules his spirit better than he who takes a city."
+  },
+  {
+   "id": "romans-minister-of-god-for-good",
+   "after": "source:AB02819",
+   "responds": [
+    "source:AB02819"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls the ruler a minister of God for good, and asks believers to respect that power."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:AB02837",
+   "responds": [
+    "source:AB02837"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says there is a season and a time for every purpose under heaven."
+  },
+  {
+   "id": "habakkuk-though-it-tarry",
+   "after": "source:AB05544",
+   "responds": [
+    "source:AB05544"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk is told that the vision is for an appointed time: though it tarry, wait for it."
+  },
+  {
+   "id": "acts-seven-men-of-honest-report",
+   "after": "source:AB01843",
+   "responds": [
+    "source:AB01843"
+   ],
+   "relation": "adjacent",
+   "why": "The apostles ask the whole company to look out seven men of honest report and wisdom."
+  },
+  {
+   "id": "acts-the-lot-fell-upon-matthias",
+   "after": "source:AB01843",
+   "responds": [
+    "source:AB01843"
+   ],
+   "relation": "adjacent",
+   "why": "The first believers put forward two, pray to be shown the one chosen, and give forth their lots."
+  },
+  {
+   "id": "madison-if-men-were-angels",
+   "after": "source:AB06481",
+   "responds": [
+    "source:AB06481"
+   ],
+   "relation": "adjacent",
+   "why": "Madison reasoned that if men were angels no government would be necessary, and designed for men as they are."
+  },
+  {
+   "id": "chesterton-democracy-of-the-dead",
+   "after": "source:AB04626",
+   "responds": [
+    "source:AB04626"
+   ],
+   "relation": "adjacent",
+   "why": "Chesterton called tradition the democracy of the dead, giving votes to our ancestors."
+  },
+  {
+   "id": "tocqueville-form-associations",
+   "after": "source:ABU0392",
+   "responds": [
+    "source:ABU0392"
+   ],
+   "relation": "adjacent",
+   "why": "Tocqueville saw Americans of all conditions forming associations to manage their common affairs."
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:ABU0494",
+   "responds": [
+    "source:ABU0494"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson imagined a parliament of man and a federation of the world."
+  },
+  {
+   "id": "wilson-association-of-nations",
+   "after": "source:ABU0494",
+   "responds": [
+    "source:ABU0494"
+   ],
+   "relation": "adjacent",
+   "why": "Wilson called for a general association of nations with guarantees for great and small states alike."
+  },
+  {
+   "id": "universal-declaration-1",
+   "after": "source:AB11384",
+   "responds": [
+    "source:AB11384"
+   ],
+   "relation": "adjacent",
+   "why": "The Universal Declaration holds that all human beings are born free and equal in dignity and rights."
+  },
+  {
+   "id": "hadith-everyone-is-a-guardian",
+   "after": "source:AB05129",
+   "responds": [
+    "source:AB05129"
+   ],
+   "relation": "adjacent",
+   "why": "A saying of Muhammad makes everyone a guardian, responsible for those in his charge."
+  },
+  {
+   "id": "acts-accusers-face-to-face",
+   "after": "source:AB07328",
+   "responds": [
+    "source:AB07328"
+   ],
+   "relation": "adjacent",
+   "why": "A Roman governor says it is not their manner to condemn any man before he has met his accusers face to face."
+  },
+  {
+   "id": "mill-minus-one",
+   "after": "source:AB06031",
+   "responds": [
+    "source:AB06031"
+   ],
+   "relation": "contrast",
+   "why": "Mill held that mankind would not be justified in silencing one dissenter. What protects those whom the majority outvotes?"
+  },
+  {
+   "id": "aristotle-law-is-reason",
+   "after": "source:ABU3081",
+   "responds": [
+    "source:ABU3081"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle holds that he who bids the law rule bids God and reason rule."
+  },
+  {
+   "id": "thoreau-men-first-subjects-afterward",
+   "after": "source:ABU3081",
+   "responds": [
+    "source:ABU3081"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau asks why every man has a conscience if he must resign it to the legislator. What is left to conscience where a decision is obligatory?"
+  },
+  {
+   "id": "luke-take-the-lowest-room",
+   "after": "selection:284ddea7d30155f152bdf538",
+   "responds": [
+    "selection:284ddea7d30155f152bdf538"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus advises the guest to take the lowest room and wait to be called higher."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "selection:284ddea7d30155f152bdf538",
+   "responds": [
+    "selection:284ddea7d30155f152bdf538"
+   ],
+   "relation": "contrast",
+   "why": "Milton trusted an open encounter between views. How do voters learn what those they elect think, where there is no nomination and no campaign?"
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "selection:e526f50bedcb3bc0cc6f9186",
+   "responds": [
+    "selection:e526f50bedcb3bc0cc6f9186"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson's counsel to each is to trust himself, the initiative the reading wants kept alive in the voter."
+  },
+  {
+   "id": "pericles-useless",
+   "after": "selection:6b3ecaadac73aa8acb76bd2b",
+   "responds": [
+    "selection:6b3ecaadac73aa8acb76bd2b"
+   ],
+   "relation": "adjacent",
+   "why": "Pericles says that citizens busy with their own work are still fair judges of public matters."
+  },
+  {
+   "id": "james-speak-not-evil",
+   "after": "selection:fdf6106171cf8ed9c0967207",
+   "responds": [
+    "selection:fdf6106171cf8ed9c0967207"
+   ],
+   "relation": "adjacent",
+   "why": "James asks believers not to speak evil one of another, nor to judge a brother."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "selection:216609d90549972097e1d6d6",
+   "responds": [
+    "selection:216609d90549972097e1d6d6"
+   ],
+   "relation": "adjacent",
+   "why": "Kant's motto was to have courage to use your own understanding, without direction from another."
+  },
+  {
+   "id": "kings-understanding-heart",
+   "after": "selection:7c8cfe761f0e7c3d46444ac8",
+   "responds": [
+    "selection:7c8cfe761f0e7c3d46444ac8"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon asks for an understanding heart to discern between good and bad."
+  },
+  {
+   "id": "samuel-looketh-on-the-heart",
+   "after": "selection:7c8cfe761f0e7c3d46444ac8",
+   "responds": [
+    "selection:7c8cfe761f0e7c3d46444ac8"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel, sent to choose a king, is told that the Lord looks not on the outward appearance but on the heart."
+  },
+  {
+   "id": "proverbs-lot-is-cast-into-the-lap",
+   "after": "selection:8b28b7eb247ec3142932f25a",
+   "responds": [
+    "selection:8b28b7eb247ec3142932f25a"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says the lot is cast into the lap, but the whole disposing of it is of the Lord."
+  },
+  {
+   "id": "james-if-any-lack-wisdom",
+   "after": "selection:8b28b7eb247ec3142932f25a",
+   "responds": [
+    "selection:8b28b7eb247ec3142932f25a"
+   ],
+   "relation": "adjacent",
+   "why": "James tells whoever lacks wisdom to ask of God, who gives to all men liberally."
+  },
+  {
+   "id": "matthew-uppermost-rooms-at-feasts",
+   "after": "selection:73e6bf032ef82d4fc0f93aa1",
+   "responds": [
+    "selection:73e6bf032ef82d4fc0f93aa1"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus describes those who love the chief seats and greetings in the markets."
+  },
+  {
+   "id": "jefferson-difference-of-opinion",
+   "after": "selection:7ad2af41394bdabe5cd64329",
+   "responds": [
+    "selection:7ad2af41394bdabe5cd64329"
+   ],
+   "relation": "adjacent",
+   "why": "Jefferson told his opponents after an election: we are all Republicans, we are all Federalists."
+  },
+  {
+   "id": "king-mutuality",
+   "after": "selection:7ad2af41394bdabe5cd64329",
+   "responds": [
+    "selection:7ad2af41394bdabe5cd64329"
+   ],
+   "relation": "contrast",
+   "why": "King held that injustice anywhere is a threat to justice everywhere. Can a community stand apart from every party and still stand against a wrong?"
+  },
+  {
+   "id": "matthew-two-or-three",
+   "after": "selection:4bfa97d78fe1a5d2abdfd2a2",
+   "responds": [
+    "selection:4bfa97d78fe1a5d2abdfd2a2"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promises to be in the midst where two or three are gathered in his name."
+  }
+ ],
+ "library": {
+  "deuteronomy-take-you-wise-men": {
+   "text": "Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you",
+   "work": "Deuteronomy 1:13",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%201%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-the-lot-fell-upon-matthias": {
+   "text": "And they appointed two, Joseph called Barsabas, who was surnamed Justus, and Matthias. And they prayed, and said, Thou, Lord, which knowest the hearts of all men, shew whether of these two thou hast chosen, That he may take part of this ministry and apostleship, from which Judas by transgression fell, that he might go to his own place. And they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles",
+   "work": "Acts 1:23–26",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%201%3A23-26&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-a-bishop-must-be-blameless": {
+   "text": "A bishop then must be blameless, the husband of one wife, vigilant, sober, of good behaviour, given to hospitality, apt to teach; Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous",
+   "work": "1 Timothy 3:2–3",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%203%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "plato-rulers-most-reluctant-to-govern": {
+   "text": "the State in which the rulers are most reluctant to govern is always the best and most quietly governed, and the State in which they are most eager, the worst",
+   "author": "Plato",
+   "work": "The Republic",
+   "locator": "Book VII (520d)",
+   "year": "c. 375 BCE",
+   "sortYear": -375,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/republic.8.vii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  }
+ }
+}
