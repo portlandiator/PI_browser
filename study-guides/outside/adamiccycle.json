@@ -1,0 +1,415 @@
+{
+ "format": 2,
+ "slug": "adamiccycle",
+ "subject": "22A64E95F7C0475F838AD67011654D49",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 37,
+ "quotations": 37,
+ "kept": [
+  "source:AB01159",
+  "source:AB02719",
+  "source:ABU2536",
+  "source:AB07442",
+  "source:AB06937",
+  "source:ABU0009",
+  "source:ABU3283",
+  "source:AB10799",
+  "source:AB00206",
+  "source:ABU0403",
+  "source:BB00242",
+  "source:AB04858",
+  "source:AB01336",
+  "source:ABU1174",
+  "source:BH03717",
+  "source:ABU2314",
+  "source:AB06865",
+  "source:AB02646",
+  "source:ABU3018",
+  "source:AB06814",
+  "source:AB08747",
+  "source:AB08356",
+  "source:AB05835",
+  "source:AB09422",
+  "source:AB04771",
+  "source:AB01715",
+  "source:AB04814",
+  "source:AB03770",
+  "selection:e765059ebc78cc3671228ac4",
+  "selection:8b5bde37f58b8df7dabe3191",
+  "selection:49dfc757b410ee3d301a2cb3",
+  "selection:04ad48cb0c848873d0387d4c",
+  "selection:79430b85b1c3db55004340f0",
+  "selection:babd2435ae9fb2473b65eb53",
+  "selection:97fc8e04cd89c10a180626e8",
+  "selection:5051b978ce6e96a19fa76916",
+  "selection:bff254dc5fe589a48e50189f"
+ ],
+ "introduction": "The readings place the present within a long frame: a universal cycle that began with Adam and comprises many dispensations, now entering a new and greater cycle whose laws differ from those before; the later passages divide the first Bahá’í centuries into a Heroic, a Formative or Iron, and a Golden Age. Other traditions have also counted ages, the Gita by kalpas, Daniel by metals, Hesiod from gold down to iron, and the prophets and apostles spoke of a fulness of time and a new thing. A few voices question whether anything is new under the sun, whether any day can be reckoned, and whether the old wine was not better.",
+ "questions": [
+  "What do the readings mean by a cycle, and how does it differ from a dispensation and from an age?",
+  "Hesiod's ages run from gold down to iron, and these readings from an iron age toward a golden one. What does each direction do to the way people work and hope?",
+  "The readings call this the century of light. How do you read that claim beside Dickens's best and worst of times?",
+  "Why, according to the readings, do the laws of an earlier age no longer suffice, and what does Luke's saying about old wine add?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-quickening-spirit",
+   "after": "source:AB01159",
+   "responds": [
+    "source:AB01159"
+   ],
+   "relation": "adjacent",
+   "why": "Paul too speaks of more than one Adam: the first was made a living soul, the last a quickening spirit."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "source:AB01159",
+   "responds": [
+    "source:AB01159"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an makes Adam the one taught all the names, the pattern of the instructed human being."
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "source:AB01159",
+   "responds": [
+    "source:AB01159"
+   ],
+   "relation": "complement",
+   "why": "Darwin sets man's god-like intellect beside the indelible stamp of his lowly origin. How might the saying that there were a hundred thousand Adams be read alongside the natural history of our kind?"
+  },
+  {
+   "id": "shelley-worlds-great-age",
+   "after": "source:AB02719",
+   "responds": [
+    "source:AB02719"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley sings that the world's great age begins anew and the golden years return."
+  },
+  {
+   "id": "wordsworth-bliss-in-that-dawn",
+   "after": "source:AB02719",
+   "responds": [
+    "source:AB02719"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth remembers what it was to be young at the start of a new age: bliss was it in that dawn to be alive."
+  },
+  {
+   "id": "luke-good-tidings-of-great-joy",
+   "after": "source:ABU2536",
+   "responds": [
+    "source:ABU2536"
+   ],
+   "relation": "adjacent",
+   "why": "These are the similar words the reading recalls, spoken by an angel to shepherds keeping watch by night."
+  },
+  {
+   "id": "mark-kingdom-is-at-hand",
+   "after": "source:ABU2536",
+   "responds": [
+    "source:ABU2536"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus begins his preaching by saying that the time is fulfilled and the kingdom of God is at hand."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:AB07442",
+   "responds": [
+    "source:AB07442"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanks the Father that what is hidden from the wise and prudent is revealed unto babes."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:AB07442",
+   "responds": [
+    "source:AB07442"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah's picture of the age to come has a little child leading wolf and lamb together."
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:ABU0009",
+   "responds": [
+    "source:ABU0009"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says that God spoke at sundry times and in divers manners by the prophets, one speaker through many ages."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "source:ABU3283",
+   "responds": [
+    "source:ABU3283"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that no one puts new wine into old bottles, or the bottles break and the wine runs out."
+  },
+  {
+   "id": "tennyson-old-order-changeth",
+   "after": "source:ABU3283",
+   "responds": [
+    "source:ABU3283"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson says that the old order changes, yielding place to new, lest one good custom should corrupt the world."
+  },
+  {
+   "id": "luke-old-is-better",
+   "after": "source:ABU3283",
+   "responds": [
+    "source:ABU3283"
+   ],
+   "relation": "contrast",
+   "why": "Luke adds that no one who has drunk old wine at once desires new, for he says the old is better. What is owed to those who still find the laws of an earlier age good?"
+  },
+  {
+   "id": "hebrews-waxeth-old",
+   "after": "source:AB10799",
+   "responds": [
+    "source:AB10799"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews reasons that a new covenant makes the first old, and what waxes old is ready to vanish away."
+  },
+  {
+   "id": "gita-each-kalpa",
+   "after": "source:AB00206",
+   "responds": [
+    "source:AB00206"
+   ],
+   "relation": "adjacent",
+   "why": "Krishna says that at the close of each kalpa all things return to him, and at its beginning issue forth new-born."
+  },
+  {
+   "id": "marcus-come-round-in-a-circle",
+   "after": "source:AB00206",
+   "responds": [
+    "source:AB00206"
+   ],
+   "relation": "adjacent",
+   "why": "Marcus Aurelius holds that all things from eternity are of like forms and come round in a circle."
+  },
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher watches one generation pass and another come, while the earth abides."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher finds no new thing under the sun. Do the cycles described here bring anything new, or the same again?"
+  },
+  {
+   "id": "psalm-ninety-yesterday",
+   "after": "source:BB00242",
+   "responds": [
+    "source:BB00242"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says a thousand years in God's sight are but as yesterday when it is past."
+  },
+  {
+   "id": "matthew-of-that-day-knoweth-no-man",
+   "after": "source:BB00242",
+   "responds": [
+    "source:BB00242"
+   ],
+   "relation": "complement",
+   "why": "Jesus says that of that day and hour no man knows, not even the angels. How firmly should any reckoning of cycles in years be held?"
+  },
+  {
+   "id": "revelation-new-heaven-and-new-earth",
+   "after": "source:AB04858",
+   "responds": [
+    "source:AB04858"
+   ],
+   "relation": "adjacent",
+   "why": "John sees a new heaven and a new earth, the first heaven and the first earth having passed away."
+  },
+  {
+   "id": "daniel-stone-became-a-mountain",
+   "after": "source:AB04858",
+   "responds": [
+    "source:AB04858"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel reads a king's dream of gold, silver, brass and iron broken together by a stone cut out without hands."
+  },
+  {
+   "id": "galatians-fulness-of-the-time",
+   "after": "source:ABU1174",
+   "responds": [
+    "source:ABU1174"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that when the fulness of the time was come, God sent forth his Son."
+  },
+  {
+   "id": "isaiah-new-thing",
+   "after": "source:BH03717",
+   "responds": [
+    "source:BH03717"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say: remember not the former things; behold, I will do a new thing."
+  },
+  {
+   "id": "quran-no-new-thing-among-messengers",
+   "after": "source:ABU2314",
+   "responds": [
+    "source:ABU2314"
+   ],
+   "relation": "adjacent",
+   "why": "Muhammad is told to say that he is no new thing among the messengers, one in a line of them."
+  },
+  {
+   "id": "dickens-best-of-times",
+   "after": "source:ABU3018",
+   "responds": [
+    "source:ABU3018"
+   ],
+   "relation": "complement",
+   "why": "Dickens opens on an age that was the best of times and the worst, the season of light and of darkness. Has the century of light been only that?"
+  },
+  {
+   "id": "acts-times-of-refreshing",
+   "after": "source:AB06814",
+   "responds": [
+    "source:AB06814"
+   ],
+   "relation": "adjacent",
+   "why": "Peter speaks of times of refreshing that shall come from the presence of the Lord."
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "source:AB08356",
+   "responds": [
+    "source:AB08356"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his disciples that many prophets desired to see what they see, and did not."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB04771",
+   "responds": [
+    "source:AB04771"
+   ],
+   "relation": "adjacent",
+   "why": "Paul is told that grace is sufficient, for strength is made perfect in weakness."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:AB01715",
+   "responds": [
+    "source:AB01715"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah is told that it is not by might, nor by power, but by the spirit of the Lord of hosts."
+  },
+  {
+   "id": "hesiod-race-of-iron",
+   "after": "selection:e765059ebc78cc3671228ac4",
+   "responds": [
+    "selection:e765059ebc78cc3671228ac4"
+   ],
+   "relation": "contrast",
+   "why": "Hesiod wishes he had not been born among the race of iron, whose days are labour and sorrow, the last of ages that began in gold. What changes when a faith calls its iron age the road toward a golden one?"
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "selection:04ad48cb0c848873d0387d4c",
+   "responds": [
+    "selection:04ad48cb0c848873d0387d4c"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that to every thing there is a season, and a time to every purpose under heaven."
+  },
+  {
+   "id": "ecclesiastes-former-days",
+   "after": "selection:babd2435ae9fb2473b65eb53",
+   "responds": [
+    "selection:babd2435ae9fb2473b65eb53"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher warns against asking why the former days were better than these."
+  },
+  {
+   "id": "psalm-except-the-lord-build",
+   "after": "selection:babd2435ae9fb2473b65eb53",
+   "responds": [
+    "selection:babd2435ae9fb2473b65eb53"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of every age of building that except the Lord build the house, they labour in vain."
+  },
+  {
+   "id": "tennyson-ring-in-the-new",
+   "after": "selection:97fc8e04cd89c10a180626e8",
+   "responds": [
+    "selection:97fc8e04cd89c10a180626e8"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson bids the bells ring out the old and ring in the new, the false out and the true in."
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "selection:5051b978ce6e96a19fa76916",
+   "responds": [
+    "selection:5051b978ce6e96a19fa76916"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the kingdom to seed that grows by stages, first the blade, then the ear."
+  },
+  {
+   "id": "habakkuk-though-it-tarry",
+   "after": "selection:bff254dc5fe589a48e50189f",
+   "responds": [
+    "selection:bff254dc5fe589a48e50189f"
+   ],
+   "relation": "adjacent",
+   "why": "Habakkuk is told that the vision is for an appointed time: though it tarry, wait for it."
+  }
+ ],
+ "library": {
+  "hesiod-race-of-iron": {
+   "text": "Thereafter, would that I were not among the men of the fifth generation, but either had died before or been born afterwards. For now truly is a race of iron, and men never rest from labour and sorrow by day, and from perishing by night; and the gods shall lay sore trouble upon them. But, notwithstanding, even these shall have some good mingled with their evils",
+   "author": "Hesiod",
+   "work": "Works and Days",
+   "locator": "lines 174–179",
+   "year": "c. 700 BCE",
+   "sortYear": -700,
+   "translator": "Hugh G. Evelyn-White",
+   "translationYear": "1914",
+   "tradition": "Greek and Roman",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Hesiod,_the_Homeric_Hymns_and_Homerica/Works_and_Days",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1924."
+   }
+  }
+ }
+}
