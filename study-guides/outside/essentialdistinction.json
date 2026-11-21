@@ -1,0 +1,272 @@
+{
+ "format": 2,
+ "slug": "essentialdistinction",
+ "subject": "4657EFC24412422099AA26E26F483158",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 24,
+ "quotations": 25,
+ "kept": [
+  "source:AB00131",
+  "source:AB00477",
+  "source:ABU0103",
+  "source:AB00081",
+  "source:BH00002",
+  "source:BH03835",
+  "source:BH08934",
+  "source:BH05177",
+  "source:AB03068",
+  "source:ABU0830",
+  "source:ABU3385",
+  "source:BH00565",
+  "source:ABU1953",
+  "source:ABU0179",
+  "source:BH00001",
+  "source:AB01205",
+  "source:AB01558",
+  "source:AB00227",
+  "source:AB00399",
+  "source:BH00686",
+  "source:BH00690",
+  "source:BH01071",
+  "source:BH00652",
+  "selection:b09f841e381e44bbc1ea4c4c"
+ ],
+ "introduction": "These readings draw a line that the rest of the Bahá’í writings assume: the Manifestations of God are different in kind from other human beings. People see a human temple and miss the power within; however far a person advances he remains in the station of servitude and does not become a Christ; the Prophets are raised up by God, are perfect educators, have three planes of being where others have two, and are the only way the hidden God is known. All twenty-five quotations are read here beside twenty-five from elsewhere. Twenty stand alongside: the express image and the image of the invisible God, 'is not this the carpenter?', the Qur'an's messenger who walks in the markets, 'one is your Master', John the Baptist's 'he must increase', Paul on stars that differ in glory. Five push back: Emerson, for whom Jesus saw what is true of every person; Jesus's own 'why callest thou me good?'; Moses wishing all the people were prophets; the Buddha's 'be lamps unto yourselves'; and Shakespeare's king who is 'but a man'.",
+ "questions": [
+  "What, according to the readings, do people see when they look at a Manifestation, and what do they miss?",
+  "'He does not become Christ.' Why do the readings hold the distinction to be one of kind and not of degree? What would Emerson say?",
+  "Jesus refused to be called good; the Qur'an's Prophet eats food and walks in the markets. How do the readings hold together the human and the more than human?",
+  "The Buddha told his followers to be lamps unto themselves. What does a permanent distinction between teacher and taught protect, and what could it cost?",
+  "If no one can attain the station of the Prophets, what is a believer to aim at?"
+ ],
+ "outside": [
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:AB00131",
+   "responds": [
+    "source:AB00131"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi promises that the Sun of righteousness shall arise with healing in his wings."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:AB00477",
+   "responds": [
+    "source:AB00477"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews calls the Son the brightness of God's glory and the express image of his person."
+  },
+  {
+   "id": "mark-is-not-this-the-carpenter",
+   "after": "source:ABU0103",
+   "responds": [
+    "source:ABU0103"
+   ],
+   "relation": "adjacent",
+   "why": "The townspeople of Jesus asked: is not this the carpenter? And they were offended at him."
+  },
+  {
+   "id": "matthew-as-one-having-authority",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "Matthew says the people were astonished, for he taught them as one having authority, and not as the scribes."
+  },
+  {
+   "id": "galatians-under-tutors",
+   "after": "source:AB00081",
+   "responds": [
+    "source:AB00081"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the heir, as long as he is a child, is under tutors and governors."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls Christ the image of the invisible God, the firstborn of every creature."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:BH03835",
+   "responds": [
+    "source:BH03835"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that no man hath seen God at any time; the Son hath declared him."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:BH08934",
+   "responds": [
+    "source:BH08934"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel says that the Word was made flesh, and dwelt among us."
+  },
+  {
+   "id": "quran-walketh-in-the-markets",
+   "after": "source:BH05177",
+   "responds": [
+    "source:BH05177"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur'an the doubters ask: what aileth this messenger, that he eateth food and walketh in the markets?"
+  },
+  {
+   "id": "matthew-one-is-your-master",
+   "after": "source:AB03068",
+   "responds": [
+    "source:AB03068"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: be not ye called Rabbi, for one is your Master, and all ye are brethren."
+  },
+  {
+   "id": "emerson-i-am-divine",
+   "after": "source:AB03068",
+   "responds": [
+    "source:AB03068"
+   ],
+   "relation": "contrast",
+   "why": "Emerson said that Jesus alone was true to what is in you and me, and saw that God incarnates himself in man. Is the difference between the teacher and the taught one of kind, or of degree?"
+  },
+  {
+   "id": "jeremiah-before-i-formed-thee",
+   "after": "source:ABU0830",
+   "responds": [
+    "source:ABU0830"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah hears: before I formed thee in the belly I knew thee, and I ordained thee a prophet."
+  },
+  {
+   "id": "hebrews-tempted-like-as-we-are",
+   "after": "source:ABU1953",
+   "responds": [
+    "source:ABU1953"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews says of Christ that he was in all points tempted like as we are, yet without sin."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says: let us make man in our image, after our likeness."
+  },
+  {
+   "id": "mark-why-callest-thou-me-good",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Called 'Good Master', Jesus replied: why callest thou me good? there is none good but one, that is, God. How does that answer stand beside a challenge to find a rival?"
+  },
+  {
+   "id": "corinthians-star-differeth-from-star",
+   "after": "source:AB01205",
+   "responds": [
+    "source:AB01205"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says there is one glory of the sun and another of the moon, and one star differeth from another star in glory."
+  },
+  {
+   "id": "numbers-all-the-lords-people-prophets",
+   "after": "source:AB01558",
+   "responds": [
+    "source:AB01558"
+   ],
+   "relation": "contrast",
+   "why": "Moses said: would God that all the Lord's people were prophets. Why do the readings hold that this can never be?"
+  },
+  {
+   "id": "quran-not-be-questioned",
+   "after": "source:AB00227",
+   "responds": [
+    "source:AB00227"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of God: he will not be questioned as to that which he doeth, but they will be questioned."
+  },
+  {
+   "id": "john-he-must-increase",
+   "after": "source:AB00399",
+   "responds": [
+    "source:AB00399"
+   ],
+   "relation": "adjacent",
+   "why": "John the Baptist said of Jesus: he must increase, but I must decrease."
+  },
+  {
+   "id": "buddha-lamps-unto-yourselves",
+   "after": "source:AB00399",
+   "responds": [
+    "source:AB00399"
+   ],
+   "relation": "contrast",
+   "why": "The Buddha told his disciple: be ye lamps unto yourselves; betake yourselves to no external refuge. What does a permanent distance between teacher and taught protect, and what might it cost?"
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:BH00686",
+   "responds": [
+    "source:BH00686"
+   ],
+   "relation": "adjacent",
+   "why": "John's Gospel begins: in the beginning was the Word, and the Word was with God."
+  },
+  {
+   "id": "deuteronomy-shema",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "Israel's confession is: hear, O Israel, the Lord our God is one Lord."
+  },
+  {
+   "id": "romans-unsearchable-judgments",
+   "after": "source:BH01071",
+   "responds": [
+    "source:BH01071"
+   ],
+   "relation": "adjacent",
+   "why": "Paul exclaims: how unsearchable are his judgments, and his ways past finding out."
+  },
+  {
+   "id": "job-by-searching",
+   "after": "source:BH00652",
+   "responds": [
+    "source:BH00652"
+   ],
+   "relation": "adjacent",
+   "why": "Zophar asks Job: canst thou by searching find out God? canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "shakespeare-king-is-but-a-man",
+   "after": "selection:b09f841e381e44bbc1ea4c4c",
+   "responds": [
+    "selection:b09f841e381e44bbc1ea4c4c"
+   ],
+   "relation": "contrast",
+   "why": "Shakespeare's disguised king says: the king is but a man, as I am; the violet smells to him as it doth to me. What in the Manifestations is like us, and what is not?"
+  }
+ ],
+ "library": {}
+}
