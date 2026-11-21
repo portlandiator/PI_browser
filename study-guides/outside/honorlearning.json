@@ -1,0 +1,700 @@
+{
+ "format": 2,
+ "slug": "honorlearning",
+ "subject": "25BCE94ADDAF4B1B89551A0B5A85DE9C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 64,
+ "quotations": 68,
+ "kept": [
+  "source:BH00005",
+  "source:AB11557",
+  "source:ABU0439",
+  "source:ABU0145",
+  "source:ABU0121",
+  "source:AB01616",
+  "source:AB00256",
+  "source:AB01331",
+  "source:BH00558",
+  "source:BH06211",
+  "source:BH00668",
+  "source:BH09996",
+  "source:BH01525",
+  "source:AB00004",
+  "source:ABU1249",
+  "source:AB03423",
+  "source:BH04574",
+  "source:BH04816",
+  "source:ABU1319",
+  "source:ABU0157",
+  "source:ABU0555",
+  "source:ABU0869",
+  "source:BH11402",
+  "source:ABU0008",
+  "source:AB07378",
+  "source:AB03935",
+  "source:ABU0949",
+  "source:AB00225",
+  "source:AB00002",
+  "source:ABU1025",
+  "source:ABU0444",
+  "source:ABU0074",
+  "source:ABU1498",
+  "source:ABU0472",
+  "source:ABU0675",
+  "source:BH01733",
+  "source:AB01547",
+  "source:AB03963",
+  "source:BH01922",
+  "source:BH03600",
+  "source:BH02960",
+  "source:BH00419",
+  "source:AB07264",
+  "source:AB08929",
+  "source:AB06380",
+  "source:AB02950",
+  "source:ABU0802",
+  "source:AB08788",
+  "source:ABU0797",
+  "source:ABU0510",
+  "source:ABU1483",
+  "source:ABU2391",
+  "source:BH01731",
+  "source:BH02602",
+  "source:ABU2468",
+  "source:ABU3349",
+  "source:ABU2542",
+  "source:AB03013",
+  "source:AB07763",
+  "selection:bc2ee096bac43b8c00d8f5cb",
+  "selection:fa4dd9aff0a48e8567ce6b12",
+  "selection:cb866c7553dde166d5e47fcb",
+  "selection:a79f20a1e8e3366a7aea5d8c",
+  "selection:0c8dedb0d4aa1a77852cd29e"
+ ],
+ "introduction": "These readings honour knowledge and those who seek and teach it. Bahá’u’lláh calls knowledge wings and a ladder and makes its acquisition a duty, with two conditions: that the sciences studied be of use and not 'begin and end in words', and that learning be joined to character, for many learned people have turned away from truth while shepherds found it. ‘Abdu’l-Bahá praises science as the distinction of the human being and the sovereignty that outlasts kings, commends schools, teachers, students and particular scholars, and asks universities to teach peace. All sixty-eight quotations are read here beside sixty-eight from elsewhere. Most stand alongside: Proverbs on getting wisdom, the Qur'an's 'increase me in knowledge', Aristotle on the desire to know and on wonder, Confucius on learning, Bacon, Milton, Solomon's request, Bezaleel the craftsman, and Paul's warning that knowledge without charity puffs up. Eight push back or add a side: the Preacher on knowledge and sorrow, Gray's 'ignorance is bliss', Pope on a little learning, Thoreau on improved means to unimproved ends, Mr Gradgrind's facts, Job asking where wisdom is found, Mill on knowing only one's own side, and Whitman walking out of the astronomer's lecture.",
+ "questions": [
+  "Bahá’u’lláh makes the acquisition of knowledge 'incumbent upon everyone'. What follows for a community that takes this seriously?",
+  "Which sciences 'begin and end in words'? How would you tell a useful study from a useless one, and who should decide?",
+  "The readings say that many learned people missed the truth and shepherds found it. What, then, is learning for?",
+  "Paul says knowledge puffs up; the Preacher that it increases sorrow. How do the readings guard against each?",
+  "‘Abdu’l-Bahá praises the engineer and the architect. Thoreau calls inventions improved means to an unimproved end. What makes a discovery an advance?",
+  "Mill says that whoever knows only his own side knows little of that. What does that ask of a scholar who writes about their own faith?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-wisdom-is-the-principal-thing",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that wisdom is the principal thing: therefore get wisdom, and with all thy getting get understanding."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an teaches a short prayer: my Lord, increase me in knowledge."
+  },
+  {
+   "id": "julian-love-was-his-meaning",
+   "after": "source:AB11557",
+   "responds": [
+    "source:AB11557"
+   ],
+   "relation": "adjacent",
+   "why": "Julian of Norwich, asking what her visions meant, was answered: learn it well, love was his meaning."
+  },
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:ABU0439",
+   "responds": [
+    "source:ABU0439"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says it is the glory of God to conceal a thing, but the honour of kings to search out a matter."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon held that human knowledge and human power meet in one, and that nature to be commanded must be obeyed."
+  },
+  {
+   "id": "aristotle-desire-to-know",
+   "after": "source:ABU0121",
+   "responds": [
+    "source:ABU0121"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle begins his Metaphysics by saying that all men by nature desire to know."
+  },
+  {
+   "id": "proverbs-beginning-of-knowledge",
+   "after": "source:AB01616",
+   "responds": [
+    "source:AB01616"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the fear of the Lord the beginning of knowledge, and says fools despise instruction."
+  },
+  {
+   "id": "hosea-lack-of-knowledge",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea hears God say: my people are destroyed for lack of knowledge."
+  },
+  {
+   "id": "gray-ignorance-is-bliss",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "contrast",
+   "why": "Gray, watching schoolboys at play, concluded that where ignorance is bliss, 'tis folly to be wise. Is ignorance always error, or sometimes mercy?"
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "source:AB01331",
+   "responds": [
+    "source:AB01331"
+   ],
+   "relation": "adjacent",
+   "why": "Milton said the end of learning is to repair the ruins of our first parents by regaining to know God aright."
+  },
+  {
+   "id": "proverbs-wisdom-better-than-gold",
+   "after": "source:BH00558",
+   "responds": [
+    "source:BH00558"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks how much better it is to get wisdom than gold."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:BH00558",
+   "responds": [
+    "source:BH00558"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher found that in much wisdom is much grief, and he that increaseth knowledge increaseth sorrow. Is knowledge the noblest thing without condition?"
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:BH06211",
+   "responds": [
+    "source:BH06211"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus says that Bezaleel the craftsman was filled with the spirit of God in wisdom, understanding and knowledge of workmanship."
+  },
+  {
+   "id": "avot-not-study-but-actions",
+   "after": "source:BH00668",
+   "responds": [
+    "source:BH00668"
+   ],
+   "relation": "adjacent",
+   "why": "The Ethics of the Fathers says that study is not the most important thing, but actions."
+  },
+  {
+   "id": "proverbs-lord-giveth-wisdom",
+   "after": "source:BH01525",
+   "responds": [
+    "source:BH01525"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the Lord giveth wisdom; out of his mouth cometh knowledge and understanding."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Paul gives the same warning in six words: knowledge puffeth up, but charity edifieth."
+  },
+  {
+   "id": "corinthians-tinkling-cymbal",
+   "after": "source:ABU1249",
+   "responds": [
+    "source:ABU1249"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that though he understand all mysteries and all knowledge, and have not charity, he is nothing."
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:AB03423",
+   "responds": [
+    "source:AB03423"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson observed that knowledge comes, but wisdom lingers, and that the individual withers while the world grows more."
+  },
+  {
+   "id": "corinthians-not-many-mighty",
+   "after": "source:BH04574",
+   "responds": [
+    "source:BH04574"
+   ],
+   "relation": "adjacent",
+   "why": "Paul reminds a church that not many wise, not many mighty, not many noble were called."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:BH04816",
+   "responds": [
+    "source:BH04816"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus thanked the Father for hiding these things from the wise and prudent and revealing them unto babes."
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:ABU1319",
+   "responds": [
+    "source:ABU1319"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that the fear of the Lord is the beginning of wisdom."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:ABU0157",
+   "responds": [
+    "source:ABU0157"
+   ],
+   "relation": "adjacent",
+   "why": "Keats compared a discovery to the moment a watcher of the skies sees a new planet swim into his ken."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:ABU0555",
+   "responds": [
+    "source:ABU0555"
+   ],
+   "relation": "adjacent",
+   "why": "Elihu says in Job that there is a spirit in man, and the inspiration of the Almighty giveth understanding."
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "source:ABU0869",
+   "responds": [
+    "source:ABU0869"
+   ],
+   "relation": "adjacent",
+   "why": "Descartes resolved never to accept anything as true which he did not clearly know to be so."
+  },
+  {
+   "id": "proverbs-wisdom-before-his-works",
+   "after": "source:BH11402",
+   "responds": [
+    "source:BH11402"
+   ],
+   "relation": "adjacent",
+   "why": "In Proverbs Wisdom says she was with God in the beginning, before his works of old."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:BH11402",
+   "responds": [
+    "source:BH11402"
+   ],
+   "relation": "adjacent",
+   "why": "Plato held that cities will have no rest from evils until philosophers are kings."
+  },
+  {
+   "id": "job-where-shall-wisdom-be-found",
+   "after": "source:BH11402",
+   "responds": [
+    "source:BH11402"
+   ],
+   "relation": "complement",
+   "why": "Job asks where wisdom shall be found, and says man knoweth not the price thereof. If wisdom is lord of the world, why is it so hard to come by?"
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Shelley's king of kings left a boast on a pedestal in the desert, and nothing beside remains."
+  },
+  {
+   "id": "kings-understanding-heart",
+   "after": "source:AB07378",
+   "responds": [
+    "source:AB07378"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon, offered anything, asked for an understanding heart to judge the people."
+  },
+  {
+   "id": "proverbs-where-there-is-no-vision",
+   "after": "source:AB03935",
+   "responds": [
+    "source:AB03935"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that where there is no vision the people perish, but he that keepeth the law, happy is he."
+  },
+  {
+   "id": "great-learning-widening",
+   "after": "source:ABU0949",
+   "responds": [
+    "source:ABU0949"
+   ],
+   "relation": "adjacent",
+   "why": "The Great Learning says that when persons are cultivated families are regulated, and then states are rightly governed."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB00225",
+   "responds": [
+    "source:AB00225"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: train up a child in the way he should go."
+  },
+  {
+   "id": "analects-at-fifteen",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said of himself: at fifteen I had my mind bent on learning; at thirty I stood firm."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:ABU1025",
+   "responds": [
+    "source:ABU1025"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon wrote that reading maketh a full man, conference a ready man, and writing an exact man."
+  },
+  {
+   "id": "kings-solomon-spake-of-trees",
+   "after": "source:ABU0444",
+   "responds": [
+    "source:ABU0444"
+   ],
+   "relation": "adjacent",
+   "why": "The book of Kings says Solomon spoke of trees, from the cedar to the hyssop, and of beasts and fowl."
+  },
+  {
+   "id": "matthew-things-new-and-old",
+   "after": "source:ABU0074",
+   "responds": [
+    "source:ABU0074"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens a scribe instructed in the kingdom to a householder who brings out of his treasure things new and old."
+  },
+  {
+   "id": "aristotle-owing-to-their-wonder",
+   "after": "source:ABU1498",
+   "responds": [
+    "source:ABU1498"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle said that it is owing to their wonder that men first began to philosophize."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:ABU0472",
+   "responds": [
+    "source:ABU0472"
+   ],
+   "relation": "adjacent",
+   "why": "Sophocles' chorus sings that wonders are many, and none more wonderful than man, who crosses the sea."
+  },
+  {
+   "id": "genesis-tubal-cain",
+   "after": "source:ABU0472",
+   "responds": [
+    "source:ABU0472"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis names the first makers: the father of those who handle harp and organ, and an instructor of every artificer."
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:ABU0472",
+   "responds": [
+    "source:ABU0472"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau called our inventions improved means to an unimproved end. What makes a bridge or a machine an advance?"
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:ABU0675",
+   "responds": [
+    "source:ABU0675"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks where the wise and the disputer of this world are, since the world by wisdom knew not God."
+  },
+  {
+   "id": "psalm-entrance-of-thy-words",
+   "after": "source:BH01733",
+   "responds": [
+    "source:BH01733"
+   ],
+   "relation": "adjacent",
+   "why": "A psalm says: the entrance of thy words giveth light; it giveth understanding unto the simple."
+  },
+  {
+   "id": "luke-write-unto-thee-in-order",
+   "after": "source:AB03963",
+   "responds": [
+    "source:AB03963"
+   ],
+   "relation": "adjacent",
+   "why": "Luke set out to write in order all that he had traced, that his reader might know the certainty."
+  },
+  {
+   "id": "malachi-priests-lips",
+   "after": "source:BH01922",
+   "responds": [
+    "source:BH01922"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi says the priest's lips should keep knowledge, and they should seek the law at his mouth."
+  },
+  {
+   "id": "quran-exalt-those-who-have-knowledge",
+   "after": "source:BH03600",
+   "responds": [
+    "source:BH03600"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says God will exalt those who believe, and those who have knowledge, to high ranks."
+  },
+  {
+   "id": "isaiah-thine-eyes-shall-see-thy-teachers",
+   "after": "source:BH02960",
+   "responds": [
+    "source:BH02960"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises: thy teachers shall not be removed into a corner any more, but thine eyes shall see thy teachers."
+  },
+  {
+   "id": "timothy-teach-others-also",
+   "after": "source:BH00419",
+   "responds": [
+    "source:BH00419"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells Timothy to commit what he has heard to faithful men, who shall be able to teach others also."
+  },
+  {
+   "id": "deuteronomy-teach-your-children",
+   "after": "source:AB07264",
+   "responds": [
+    "source:AB07264"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy commands: ye shall teach these words to your children, speaking of them at home and on the way."
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "source:AB08929",
+   "responds": [
+    "source:AB08929"
+   ],
+   "relation": "adjacent",
+   "why": "Luke shows the boy Jesus among the teachers in the temple, both hearing them and asking them questions."
+  },
+  {
+   "id": "proverbs-buy-the-truth",
+   "after": "source:AB06380",
+   "responds": [
+    "source:AB06380"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says: buy the truth, and sell it not; also wisdom, and instruction, and understanding."
+  },
+  {
+   "id": "analects-pleasant-to-learn",
+   "after": "source:AB02950",
+   "responds": [
+    "source:AB02950"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius begins: is it not pleasant to learn with a constant perseverance and application?"
+  },
+  {
+   "id": "analects-to-know-a-thing",
+   "after": "source:AB08788",
+   "responds": [
+    "source:AB08788"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius said that to hold that you know a thing when you know it, and to allow that you do not when you do not, is knowledge."
+  },
+  {
+   "id": "daniel-knowledge-and-skill",
+   "after": "source:ABU0797",
+   "responds": [
+    "source:ABU0797"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel and his companions at a foreign court were given knowledge and skill in all learning and wisdom."
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:ABU0510",
+   "responds": [
+    "source:ABU0510"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says a man diligent in his business shall stand before kings."
+  },
+  {
+   "id": "dickens-nothing-but-facts",
+   "after": "source:ABU0510",
+   "responds": [
+    "source:ABU0510"
+   ],
+   "relation": "contrast",
+   "why": "Dickens' Mr Gradgrind wants nothing but facts taught to boys and girls, and everything else rooted out. What is a practical education missing when it is only practical?"
+  },
+  {
+   "id": "proverbs-wise-man-will-hear",
+   "after": "source:ABU1483",
+   "responds": [
+    "source:ABU1483"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a wise man will hear, and will increase learning, and attain unto wise counsels."
+  },
+  {
+   "id": "pope-little-learning",
+   "after": "source:ABU1483",
+   "responds": [
+    "source:ABU1483"
+   ],
+   "relation": "contrast",
+   "why": "Pope warned that a little learning is a dangerous thing. Does study make people useful at once, or first make them sure of too much?"
+  },
+  {
+   "id": "ecclesiastes-remember-now-thy-creator",
+   "after": "source:ABU2391",
+   "responds": [
+    "source:ABU2391"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes tells the young: remember now thy Creator in the days of thy youth."
+  },
+  {
+   "id": "quran-read",
+   "after": "source:BH02602",
+   "responds": [
+    "source:BH02602"
+   ],
+   "relation": "adjacent",
+   "why": "The first word of the Qur'an's revelation was 'Read', and it speaks of a Lord who teacheth by the pen."
+  },
+  {
+   "id": "tennyson-knowledge-and-reverence",
+   "after": "source:ABU2468",
+   "responds": [
+    "source:ABU2468"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson asked: let knowledge grow from more to more, but more of reverence in us dwell."
+  },
+  {
+   "id": "unesco-minds-of-men",
+   "after": "source:ABU3349",
+   "responds": [
+    "source:ABU3349"
+   ],
+   "relation": "adjacent",
+   "why": "UNESCO's founders wrote that since wars begin in the minds of men, it is there that the defences of peace must be built."
+  },
+  {
+   "id": "blake-built-jerusalem",
+   "after": "source:ABU2542",
+   "responds": [
+    "source:ABU2542"
+   ],
+   "relation": "adjacent",
+   "why": "Blake vowed that he would not cease from mental fight, nor let his sword sleep in his hand."
+  },
+  {
+   "id": "james-if-any-lack-wisdom",
+   "after": "source:AB07763",
+   "responds": [
+    "source:AB07763"
+   ],
+   "relation": "adjacent",
+   "why": "James says: if any of you lack wisdom, let him ask of God, that giveth to all men liberally."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "selection:bc2ee096bac43b8c00d8f5cb",
+   "responds": [
+    "selection:bc2ee096bac43b8c00d8f5cb"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates told his judges that the unexamined life is not worth living."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "selection:fa4dd9aff0a48e8567ce6b12",
+   "responds": [
+    "selection:fa4dd9aff0a48e8567ce6b12"
+   ],
+   "relation": "complement",
+   "why": "Mill wrote that he who knows only his own side of the case knows little of that. What does a believing scholar owe to objections?"
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "selection:cb866c7553dde166d5e47fcb",
+   "responds": [
+    "selection:cb866c7553dde166d5e47fcb"
+   ],
+   "relation": "contrast",
+   "why": "Whitman, shown the astronomer's charts and columns, went out and looked up in silence at the stars. What is lost when knowledge is divided into parts?"
+  },
+  {
+   "id": "matthew-harvest-truly-is-plenteous",
+   "after": "selection:a79f20a1e8e3366a7aea5d8c",
+   "responds": [
+    "selection:a79f20a1e8e3366a7aea5d8c"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus said: the harvest truly is plenteous, but the labourers are few."
+  },
+  {
+   "id": "romans-gifts-differing",
+   "after": "selection:0c8dedb0d4aa1a77852cd29e",
+   "responds": [
+    "selection:0c8dedb0d4aa1a77852cd29e"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says we have gifts differing, and each should use the one given."
+  }
+ ],
+ "library": {}
+}
