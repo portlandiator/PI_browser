@@ -1,0 +1,122 @@
+{
+ "format": 2,
+ "slug": "animalkingdom",
+ "subject": "2E53F4A56442E16B5B7BC0902E36C585",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 10,
+ "kept": [
+  "source:ABU0098",
+  "source:AB05772",
+  "source:ABU0359",
+  "source:ABU0605",
+  "source:AB00646",
+  "source:AB00890",
+  "source:BH01497",
+  "source:ABU1316",
+  "source:ABU0029",
+  "source:ABU0663"
+ ],
+ "introduction": "These ten passages look at animals for what they show about us: the equality of male and female among them, the contentment of a bull in a meadow, the wolf that kills only to eat, the instinct that guides a sick animal to its cure, the pain that is the same in man and beast, and the reason that marks the difference. They are read here beside ten passages from elsewhere. Most stand alongside: Job's 'ask now the beasts', Proverbs and Bentham on what is owed to animals, the fowls of the air, Whitman. Three push back or add a side: Mill would rather be Socrates dissatisfied, Tennyson cannot make peace with nature's violence, and Darwin sees a difference of degree where the readings see one of kind.",
+ "questions": [
+  "The readings point to animals for the equality of male and female. What is it fair to learn from nature, and what is not?",
+  "A bull in a meadow has more ease than any human being. Mill says it is better to be a human being dissatisfied. What is the dissatisfaction for?",
+  "One reading says that the feelings are the same whether pain is inflicted on man or on beast. What follows for how animals are treated where you live?",
+  "Darwin finds a difference of degree between human and animal minds; the readings find reason to be the dividing line. What rests on the answer?"
+ ],
+ "outside": [
+  {
+   "id": "galatians-neither-jew-nor-greek",
+   "after": "source:ABU0098",
+   "responds": [
+    "source:ABU0098"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that there is neither male nor female, for ye are all one."
+  },
+  {
+   "id": "whitman-live-with-animals",
+   "after": "source:AB05772",
+   "responds": [
+    "source:AB05772"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman thinks he could turn and live with animals, so placid and self-contained, who do not whine about their condition."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:AB05772",
+   "responds": [
+    "source:AB05772"
+   ],
+   "relation": "contrast",
+   "why": "Mill held that it is better to be a human being dissatisfied than a pig satisfied. Why should the contented bull not be envied?"
+  },
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:ABU0359",
+   "responds": [
+    "source:ABU0359"
+   ],
+   "relation": "complement",
+   "why": "Tennyson wrote of nature, red in tooth and claw, shrieking against the creed that love is creation's final law. Is the wolf's innocence a comfort or part of the difficulty?"
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:AB00646",
+   "responds": [
+    "source:AB00646"
+   ],
+   "relation": "adjacent",
+   "why": "Job says: ask now the beasts, and they shall teach thee; and the fowls of the air, and they shall tell thee."
+  },
+  {
+   "id": "bentham-can-they-suffer",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "Bentham said of animals that the question is not, can they reason, nor can they talk, but can they suffer."
+  },
+  {
+   "id": "proverbs-regardeth-the-life-of-his-beast",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says that a righteous man regardeth the life of his beast, but the tender mercies of the wicked are cruel."
+  },
+  {
+   "id": "ecclesiastes-upward-downward",
+   "after": "source:BH01497",
+   "responds": [
+    "source:BH01497"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher says that man and beast have all one breath, and that as the one dieth, so dieth the other."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU0029",
+   "responds": [
+    "source:ABU0029"
+   ],
+   "relation": "contrast",
+   "why": "Darwin held that the difference in mind between man and the higher animals is one of degree and not of kind. Is reason a line between two kingdoms, or a long slope?"
+  },
+  {
+   "id": "matthew-fowls-of-the-air",
+   "after": "source:ABU0663",
+   "responds": [
+    "source:ABU0663"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: behold the fowls of the air, for they sow not, neither do they reap, yet your heavenly Father feedeth them."
+  }
+ ],
+ "library": {}
+}
