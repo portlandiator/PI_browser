@@ -1,0 +1,400 @@
+{
+ "format": 2,
+ "slug": "beyondweakness",
+ "subject": "DF5AB62FC672E0C0F4E413C12B784E5E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 36,
+ "quotations": 38,
+ "kept": [
+  "source:ABU2015",
+  "source:AB03338",
+  "source:AB00666",
+  "source:AB06567",
+  "source:AB12435",
+  "source:AB07132",
+  "source:AB11871",
+  "source:AB07141",
+  "source:AB07047",
+  "source:AB01322",
+  "source:ABU2790",
+  "source:AB04790",
+  "source:ABU0163",
+  "source:AB00163",
+  "source:AB03029",
+  "source:ABU3206",
+  "source:ABU0260",
+  "source:AB00956",
+  "source:ABU0309",
+  "source:AB00170",
+  "source:AB02883",
+  "source:AB06879",
+  "source:AB04703",
+  "source:ABU1990",
+  "source:ABU1511",
+  "source:ABU2269",
+  "source:AB05670",
+  "source:AB01046",
+  "source:AB04783",
+  "source:ABU0318",
+  "source:AB04572",
+  "source:AB06892",
+  "source:ABU3687",
+  "source:AB07160",
+  "source:ABU2053",
+  "source:ABU1859"
+ ],
+ "introduction": "Nearly every reading here says the same thing to a different person: do not look at your own capacity, look at the bounty of God, which makes a drop an ocean and a gnat an eagle. They were written to people who felt unequal to what was asked of them. Scripture is full of the same reply, to Moses who was slow of speech, Jeremiah who was a child, Paul whose strength was made perfect in weakness, Mary and Hannah who sang of the lowly raised up. The contrasts come from those who put the weight on the self: the parable of the talents, Socrates on the examined life, Emerson on self-trust, the Dhammapada on self as its own lord.",
+ "questions": [
+  "The readings say not to look at one's capacity, and one of them says that looking at oneself brings guilt. How does that sit with Socrates's examined life?",
+  "What part does effort play in these readings, beside the rain and the sun?",
+  "In the parable of the talents each receives according to his ability. Is that a different teaching from these readings, or the same seen from the master's side?",
+  "When have you seen someone do what they were plainly unequal to, and what did they rely on?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-star-differeth-from-star",
+   "after": "source:ABU2015",
+   "responds": [
+    "source:ABU2015"
+   ],
+   "relation": "adjacent",
+   "why": "Paul also says that one star differs from another star in glory."
+  },
+  {
+   "id": "milton-stand-and-wait",
+   "after": "source:ABU2015",
+   "responds": [
+    "source:ABU2015"
+   ],
+   "relation": "adjacent",
+   "why": "Milton, blind, concludes that they also serve who only stand and wait."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB03338",
+   "responds": [
+    "source:AB03338"
+   ],
+   "relation": "adjacent",
+   "why": "Paul hears that grace is sufficient for him, for strength is made perfect in weakness."
+  },
+  {
+   "id": "matthew-according-to-his-several-ability",
+   "after": "source:AB03338",
+   "responds": [
+    "source:AB03338"
+   ],
+   "relation": "contrast",
+   "why": "In the parable the master gives talents to every man according to his several ability. Does capacity count for nothing, or is it the measure of what is entrusted?"
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:AB00666",
+   "responds": [
+    "source:AB00666"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that by grace are ye saved through faith, and that not of yourselves: it is the gift of God."
+  },
+  {
+   "id": "corinthians-our-sufficiency-is-of-god",
+   "after": "source:AB06567",
+   "responds": [
+    "source:AB06567"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says we are not sufficient of ourselves to think anything as of ourselves; our sufficiency is of God."
+  },
+  {
+   "id": "psalm-lift-up-mine-eyes",
+   "after": "source:AB07132",
+   "responds": [
+    "source:AB07132"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist lifts his eyes to the hills and asks whence his help comes: from the Lord."
+  },
+  {
+   "id": "corinthians-by-the-grace-of-god-i-am",
+   "after": "source:AB11871",
+   "responds": [
+    "source:AB11871"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says, by the grace of God I am what I am, and that he laboured more abundantly, yet not he."
+  },
+  {
+   "id": "jeremiah-i-am-a-child",
+   "after": "source:AB07141",
+   "responds": [
+    "source:AB07141"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah pleads that he cannot speak, for he is a child, and is told not to say so."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:AB07047",
+   "responds": [
+    "source:AB07047"
+   ],
+   "relation": "adjacent",
+   "why": "The Samaritan does not weigh the wounded man's worthiness before he binds up his wounds."
+  },
+  {
+   "id": "corinthians-labourers-together",
+   "after": "source:AB01322",
+   "responds": [
+    "source:AB01322"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that one plants and another waters, and all are labourers together with God."
+  },
+  {
+   "id": "franklin-god-helps-them",
+   "after": "source:AB01322",
+   "responds": [
+    "source:AB01322"
+   ],
+   "relation": "complement",
+   "why": "Franklin's almanac says that God helps them that help themselves. How do the farmer's effort and the rain share the credit for the tree?"
+  },
+  {
+   "id": "philippians-i-can-do-all-things",
+   "after": "source:ABU2790",
+   "responds": [
+    "source:ABU2790"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says he can do all things through Christ who strengthens him."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:AB04790",
+   "responds": [
+    "source:AB04790"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises that they who wait upon the Lord shall renew their strength and mount up with wings as eagles."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0163",
+   "responds": [
+    "source:ABU0163"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that space swallows him like an atom, and by thought he comprehends the world."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:AB00163",
+   "responds": [
+    "source:AB00163"
+   ],
+   "relation": "adjacent",
+   "why": "Moses protests that he is slow of speech, and is asked who made man's mouth."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB03029",
+   "responds": [
+    "source:AB03029"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus calls his hearers the light of the world, a candle to be set on a candlestick."
+  },
+  {
+   "id": "hebrews-run-with-patience",
+   "after": "source:ABU3206",
+   "responds": [
+    "source:ABU3206"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews asks its readers to lay aside every weight and run with patience, looking unto Jesus and not to themselves."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:ABU3206",
+   "responds": [
+    "source:ABU3206"
+   ],
+   "relation": "contrast",
+   "why": "Socrates holds that the unexamined life is not worth living. Is looking at oneself always a road to guilt, or sometimes a duty?"
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:ABU3206",
+   "responds": [
+    "source:ABU3206"
+   ],
+   "relation": "contrast",
+   "why": "Emerson says, trust thyself: every heart vibrates to that iron string. Is self-reliance the opposite of relying on God, or one form of it?"
+  },
+  {
+   "id": "isaiah-nations-as-a-drop",
+   "after": "source:ABU0260",
+   "responds": [
+    "source:ABU0260"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah counts the nations as a drop of a bucket before the one who made them."
+  },
+  {
+   "id": "matthew-faith-as-a-grain-of-mustard-seed",
+   "after": "source:AB00956",
+   "responds": [
+    "source:AB00956"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that faith as a grain of mustard seed can remove a mountain."
+  },
+  {
+   "id": "luke-nothing-impossible",
+   "after": "source:ABU0309",
+   "responds": [
+    "source:ABU0309"
+   ],
+   "relation": "adjacent",
+   "why": "The angel tells Mary, who calls herself a handmaid, that with God nothing shall be impossible."
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:AB00170",
+   "responds": [
+    "source:AB00170"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says God has chosen the foolish and weak things of the world to confound the wise and mighty."
+  },
+  {
+   "id": "john-vine-and-branches",
+   "after": "source:AB02883",
+   "responds": [
+    "source:AB02883"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells the branches that without the vine they can do nothing."
+  },
+  {
+   "id": "isaiah-instead-of-the-thorn",
+   "after": "source:AB06879",
+   "responds": [
+    "source:AB06879"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises the fir tree instead of the thorn and the myrtle instead of the brier."
+  },
+  {
+   "id": "isaiah-little-one-a-thousand",
+   "after": "source:ABU1990",
+   "responds": [
+    "source:ABU1990"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah promises that a little one shall become a thousand, and a small one a strong nation."
+  },
+  {
+   "id": "mark-help-thou-mine-unbelief",
+   "after": "source:ABU1511",
+   "responds": [
+    "source:ABU1511"
+   ],
+   "relation": "complement",
+   "why": "A father cries, Lord, I believe; help thou mine unbelief. Can confidence be commanded, or only asked for?"
+  },
+  {
+   "id": "james-body-without-the-spirit",
+   "after": "source:AB05670",
+   "responds": [
+    "source:AB05670"
+   ],
+   "relation": "adjacent",
+   "why": "James adds the condition the reading states: faith without works is dead."
+  },
+  {
+   "id": "samuel-by-many-or-by-few",
+   "after": "source:AB01046",
+   "responds": [
+    "source:AB01046"
+   ],
+   "relation": "adjacent",
+   "why": "Jonathan says there is no restraint to the Lord to save by many or by few."
+  },
+  {
+   "id": "luke-exalted-them-of-low-degree",
+   "after": "source:AB04783",
+   "responds": [
+    "source:AB04783"
+   ],
+   "relation": "adjacent",
+   "why": "Mary sings of a God who has put down the mighty from their seats and exalted them of low degree."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:ABU0318",
+   "responds": [
+    "source:ABU0318"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says the treasure is kept in earthen vessels, that the excellency of the power may be of God."
+  },
+  {
+   "id": "tennyson-to-strive-to-seek",
+   "after": "source:AB04572",
+   "responds": [
+    "source:AB04572"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson's old sailors are not the strength they were, yet strong in will to strive, to seek, to find."
+  },
+  {
+   "id": "dhammapada-self-is-the-lord-of-self",
+   "after": "source:AB06892",
+   "responds": [
+    "source:AB06892"
+   ],
+   "relation": "contrast",
+   "why": "The Dhammapada says that self is the lord of self; who else could be the lord? Is reliance on grace an escape from mastering oneself, or the way to it?"
+  },
+  {
+   "id": "thessalonians-study-to-be-quiet",
+   "after": "source:ABU3687",
+   "responds": [
+    "source:ABU3687"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks believers to study to be quiet and do their own business."
+  },
+  {
+   "id": "samuel-raiseth-up-the-poor",
+   "after": "source:AB07160",
+   "responds": [
+    "source:AB07160"
+   ],
+   "relation": "adjacent",
+   "why": "Hannah sings that the Lord raises up the poor out of the dust to set them among princes."
+  },
+  {
+   "id": "quran-not-beyond-its-scope",
+   "after": "source:ABU2053",
+   "responds": [
+    "source:ABU2053"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an says that God tasks no soul beyond its scope. Does that make capacity a limit to respect, or a floor on which grace builds?"
+  },
+  {
+   "id": "zechariah-day-of-small-things",
+   "after": "source:ABU1859",
+   "responds": [
+    "source:ABU1859"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah asks, of a small beginning, who has despised the day of small things."
+  }
+ ],
+ "library": {}
+}
