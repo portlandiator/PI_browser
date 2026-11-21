@@ -1,0 +1,661 @@
+{
+ "format": 2,
+ "slug": "imageofgod",
+ "subject": "8EEDB198EF554EDAA21873DEC17AF79C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 62,
+ "quotations": 64,
+ "kept": [
+  "source:ABU0002",
+  "source:AB11278",
+  "source:BH00386",
+  "source:BH00690",
+  "source:ABU2591",
+  "source:AB00398",
+  "source:ABU0686",
+  "source:AB10472",
+  "source:AB06380",
+  "source:AB11515",
+  "source:AB11116",
+  "source:ABU0573",
+  "source:ABU0447",
+  "source:ABU0089",
+  "source:ABU0022",
+  "source:AB01212",
+  "source:AB11194",
+  "source:AB12097",
+  "source:AB09553",
+  "source:AB05455",
+  "source:AB06355",
+  "source:AB05309",
+  "source:AB00978",
+  "source:AB00102",
+  "source:AB00395",
+  "source:ABU0016",
+  "source:ABU0343",
+  "source:ABU0162",
+  "source:ABU0303",
+  "source:ABU0572",
+  "source:ABU1801",
+  "source:AB00081",
+  "source:AB00322",
+  "source:ABU3586",
+  "source:AB07108",
+  "source:AB07234",
+  "source:AB09125",
+  "source:ABU0665",
+  "source:ABU1870",
+  "source:ABU2768",
+  "source:BH00359",
+  "source:ABU1560",
+  "source:ABU0223",
+  "source:ABU1891",
+  "source:ABU3022",
+  "source:AB05610",
+  "source:ABU0255",
+  "source:ABU0179",
+  "source:AB00146",
+  "source:ABU1979",
+  "source:ABU0812",
+  "source:ABU2885",
+  "source:ABU1228",
+  "source:ABU2011",
+  "source:ABU2385",
+  "source:ABU1711",
+  "source:ABU2614",
+  "source:ABU0751",
+  "source:BH05228",
+  "source:BB00058",
+  "selection:f78abb687eda250fccf523e5",
+  "selection:727fe282032cb96d5ebc33c8"
+ ],
+ "introduction": "These readings take the words of Genesis, 'Let us make man in our image', and say what they do and do not mean: no bodily likeness, but the capacity to reflect the divine names and attributes, as a mirror reflects the sun; a gift given to all, to be made visible by a life, and one that can be neglected until a person is, as the readings say, lower than the animals. Each of the sixty-four quotations is read here beside one from elsewhere. Most stand alongside: the Torah and the Qur'an on a God without likeness, the psalms, Paul's glass and temple, Plato, Blake's human form divine, Kant, Pascal. Eight push back or add a side: the Preacher and Darwin on what humans share with animals, Hume on reason, Nietzsche, Hamlet's quintessence of dust, the angels' question in the Qur'an, and Seneca Falls on who was counted in the image.",
+ "questions": [
+  "The readings say that the image of God is the capacity to show forth divine attributes, not a bodily likeness. Which attribute do you most readily recognize in another person?",
+  "Darwin finds between humans and animals a difference of degree; the readings find the image in what distinguishes us. What exactly is in dispute?",
+  "If every person is created in the image of God, what follows for how strangers, enemies and the unborn generations are treated? What did Seneca Falls add?",
+  "Several readings say that the gift can be left unused, and that a person may fall below the animal. What neglects it, and what polishes the mirror?",
+  "Hamlet can list the glories of man and feel nothing. When has the dignity these readings describe been real to you, and when only words?"
+ ],
+ "outside": [
+  {
+   "id": "deuteronomy-no-similitude",
+   "after": "source:ABU0002",
+   "responds": [
+    "source:ABU0002"
+   ],
+   "relation": "adjacent",
+   "why": "Moses reminds the people that they saw no manner of similitude on the day the Lord spoke at Horeb."
+  },
+  {
+   "id": "acts-godhead-not-like-unto-gold",
+   "after": "source:ABU0002",
+   "responds": [
+    "source:ABU0002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that, being the offspring of God, we ought not to think that the Godhead is like gold or stone graven by art."
+  },
+  {
+   "id": "declaration-all-men-are-created-equal",
+   "after": "source:AB11278",
+   "responds": [
+    "source:AB11278"
+   ],
+   "relation": "adjacent",
+   "why": "The American Declaration of 1776 holds it self-evident that all men are created equal and endowed by their Creator with rights."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine prays: you have made us for yourself, and our hearts are restless until they rest in you."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man is made a little lower than the angels and crowned with glory and honour."
+  },
+  {
+   "id": "ecclesiastes-no-preeminence-above-a-beast",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher says that a man hath no preeminence above a beast, for all is vanity and all go unto one place. What would have to be true for the unique distinction claimed here to be more than a hope?"
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "source:ABU2591",
+   "responds": [
+    "source:ABU2591"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah asks: to whom then will ye liken God, or what likeness will ye compare unto him?"
+  },
+  {
+   "id": "quran-naught-is-as-his-likeness",
+   "after": "source:ABU2591",
+   "responds": [
+    "source:ABU2591"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says of the Creator of the heavens and the earth: naught is as His likeness."
+  },
+  {
+   "id": "mencius-water-flows-down",
+   "after": "source:AB00398",
+   "responds": [
+    "source:AB00398"
+   ],
+   "relation": "adjacent",
+   "why": "Mencius taught that the tendency of man's nature to good is like the tendency of water to flow downwards."
+  },
+  {
+   "id": "hebrews-no-place-of-repentance",
+   "after": "source:ABU0686",
+   "responds": [
+    "source:ABU0686"
+   ],
+   "relation": "complement",
+   "why": "The letter to the Hebrews remembers Esau, who for one morsel of meat sold his birthright. What are the morsels for which a birthright like this one is given up?"
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:AB10472",
+   "responds": [
+    "source:AB10472"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that we have this treasure in earthen vessels, that the excellency of the power may be of God."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB06380",
+   "responds": [
+    "source:AB06380"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal says that by space the universe swallows him up like an atom, and by thought he comprehends the world."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:AB06380",
+   "responds": [
+    "source:AB06380"
+   ],
+   "relation": "contrast",
+   "why": "Darwin concluded that the difference in mind between man and the higher animals, great as it is, is one of degree and not of kind. Which of the distinctions the reading names would he grant, and which would he explain otherwise?"
+  },
+  {
+   "id": "plato-soul-likeness-of-the-divine",
+   "after": "source:AB11515",
+   "responds": [
+    "source:AB11515"
+   ],
+   "relation": "adjacent",
+   "why": "Plato sets the soul in the very likeness of the divine and immortal, and the body in the likeness of the mortal."
+  },
+  {
+   "id": "luke-be-ye-merciful",
+   "after": "source:AB11116",
+   "responds": [
+    "source:AB11116"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: be ye therefore merciful, as your Father also is merciful."
+  },
+  {
+   "id": "blake-divine-image",
+   "after": "source:ABU0573",
+   "responds": [
+    "source:ABU0573"
+   ],
+   "relation": "adjacent",
+   "why": "Blake calls mercy, pity, peace and love the human form divine, to which every man of every clime prays."
+  },
+  {
+   "id": "peter-partakers-of-the-divine-nature",
+   "after": "source:ABU0447",
+   "responds": [
+    "source:ABU0447"
+   ],
+   "relation": "adjacent",
+   "why": "Peter's letter speaks of promises by which we might be partakers of the divine nature."
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:ABU0089",
+   "responds": [
+    "source:ABU0089"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews calls the Son the brightness of God's glory and the express image of his person."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:ABU0089",
+   "responds": [
+    "source:ABU0089"
+   ],
+   "relation": "adjacent",
+   "why": "Paul calls Christ the image of the invisible God, the firstborn of every creature."
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:ABU0022",
+   "responds": [
+    "source:ABU0022"
+   ],
+   "relation": "adjacent",
+   "why": "Leibniz called each simple substance a perpetual living mirror of the universe."
+  },
+  {
+   "id": "corinthians-beholding-as-in-a-glass",
+   "after": "source:AB01212",
+   "responds": [
+    "source:AB01212"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that beholding as in a glass the glory of the Lord, we are changed into the same image from glory to glory."
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "source:AB11194",
+   "responds": [
+    "source:AB11194"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an's similitude of light has the same parts: a niche wherein is a lamp, and the lamp in a glass."
+  },
+  {
+   "id": "corinthians-temple-of-god",
+   "after": "source:AB12097",
+   "responds": [
+    "source:AB12097"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asks: know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?"
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "source:AB09553",
+   "responds": [
+    "source:AB09553"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist praises God that he is fearfully and wonderfully made, and calls his works marvellous."
+  },
+  {
+   "id": "shakespeare-quintessence-of-dust",
+   "after": "source:AB05455",
+   "responds": [
+    "source:AB05455"
+   ],
+   "relation": "complement",
+   "why": "Hamlet praises man as noble in reason and like a god in apprehension, and then asks what this quintessence of dust is to him. What does it take for the nobility of the human form to be felt and not only stated?"
+  },
+  {
+   "id": "quran-best-stature",
+   "after": "source:AB05455",
+   "responds": [
+    "source:AB05455"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says in one of its short chapters: surely We created man of the best stature."
+  },
+  {
+   "id": "quran-offered-the-trust",
+   "after": "source:AB06355",
+   "responds": [
+    "source:AB06355"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that the trust was offered to the heavens, the earth and the hills, which shrank from it, and man assumed it and proved a tyrant and a fool."
+  },
+  {
+   "id": "quran-viceroy-in-the-earth",
+   "after": "source:AB00978",
+   "responds": [
+    "source:AB00978"
+   ],
+   "relation": "complement",
+   "why": "In the Qur'an God tells the angels that he is about to place a viceroy in the earth, and they ask whether it will be one who does harm and sheds blood. What answer to the angels does a human life have to give?"
+  },
+  {
+   "id": "aristotle-gift-of-speech",
+   "after": "source:AB00102",
+   "responds": [
+    "source:AB00102"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle observed that man is the only animal endowed with the gift of speech."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the invisible things of God are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:ABU0016",
+   "responds": [
+    "source:ABU0016"
+   ],
+   "relation": "contrast",
+   "why": "Hume held that reason is, and ought only to be, the slave of the passions. If he is right about reason, where would the image of God in us be found?"
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU0343",
+   "responds": [
+    "source:ABU0343"
+   ],
+   "relation": "adjacent",
+   "why": "Kant names two things that fill the mind with awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:ABU0162",
+   "responds": [
+    "source:ABU0162"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs calls the spirit of man the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0572",
+   "responds": [
+    "source:ABU0572"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon says that human knowledge and human power meet in one, and that nature to be commanded must be obeyed."
+  },
+  {
+   "id": "matthew-be-ye-perfect",
+   "after": "source:AB00322",
+   "responds": [
+    "source:AB00322"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: be ye therefore perfect, even as your Father which is in heaven is perfect."
+  },
+  {
+   "id": "leviticus-be-holy",
+   "after": "source:ABU3586",
+   "responds": [
+    "source:ABU3586"
+   ],
+   "relation": "adjacent",
+   "why": "Leviticus gives the same rule in five words of reason: ye shall be holy, for I the Lord your God am holy."
+  },
+  {
+   "id": "ephesians-followers-of-god",
+   "after": "source:ABU3586",
+   "responds": [
+    "source:ABU3586"
+   ],
+   "relation": "adjacent",
+   "why": "Paul writes: be ye therefore followers of God, as dear children, and walk in love."
+  },
+  {
+   "id": "philippians-work-out-your-own-salvation",
+   "after": "source:AB07108",
+   "responds": [
+    "source:AB07108"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells his readers to work out their own salvation, for it is God which worketh in them."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB07234",
+   "responds": [
+    "source:AB07234"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells his hearers: ye are the light of the world; a city set on an hill cannot be hid."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:AB09125",
+   "responds": [
+    "source:AB09125"
+   ],
+   "relation": "adjacent",
+   "why": "Paul lists the fruit of the Spirit: love, joy, peace, longsuffering, gentleness, goodness, faith."
+  },
+  {
+   "id": "matthew-candle-under-a-bushel",
+   "after": "source:ABU0665",
+   "responds": [
+    "source:ABU0665"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that men do not light a candle and put it under a bushel, but on a candlestick."
+  },
+  {
+   "id": "luke-kingdom-of-god-is-within-you",
+   "after": "source:ABU1870",
+   "responds": [
+    "source:ABU1870"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that the kingdom of God cometh not with observation, for it is within you."
+  },
+  {
+   "id": "john-epistle-perfect-love-casteth-out-fear",
+   "after": "source:ABU2768",
+   "responds": [
+    "source:ABU2768"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says that there is no fear in love, and: we love him, because he first loved us."
+  },
+  {
+   "id": "jeremiah-before-i-formed-thee",
+   "after": "source:BH00359",
+   "responds": [
+    "source:BH00359"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah hears: before I formed thee in the belly I knew thee."
+  },
+  {
+   "id": "acts-one-blood",
+   "after": "source:ABU1891",
+   "responds": [
+    "source:ABU1891"
+   ],
+   "relation": "adjacent",
+   "why": "Paul tells the Athenians that God hath made of one blood all nations of men."
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:ABU1891",
+   "responds": [
+    "source:ABU1891"
+   ],
+   "relation": "adjacent",
+   "why": "Malachi asks: have we not all one father? hath not one God created us?"
+  },
+  {
+   "id": "goethe-two-souls",
+   "after": "source:ABU3022",
+   "responds": [
+    "source:ABU3022"
+   ],
+   "relation": "adjacent",
+   "why": "Goethe's Faust laments that two souls reside within his breast, and each withdraws from its brother."
+  },
+  {
+   "id": "pope-isthmus",
+   "after": "source:ABU3022",
+   "responds": [
+    "source:ABU3022"
+   ],
+   "relation": "adjacent",
+   "why": "Pope places man on an isthmus of a middle state, a being darkly wise and rudely great."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:AB05610",
+   "responds": [
+    "source:AB05610"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth says that our birth is but a sleep and a forgetting of the home from which the soul comes."
+  },
+  {
+   "id": "romans-worshipped-the-creature",
+   "after": "source:ABU0255",
+   "responds": [
+    "source:ABU0255"
+   ],
+   "relation": "adjacent",
+   "why": "Paul speaks of those who worshipped and served the creature more than the Creator."
+  },
+  {
+   "id": "psalm-beasts-that-perish",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that man that is in honour, and understandeth not, is like the beasts that perish."
+  },
+  {
+   "id": "nietzsche-from-the-worm-to-man",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "contrast",
+   "why": "Nietzsche's Zarathustra tells his hearers that they have made their way from the worm to man, and that much in them is still worm. Is he describing the same fact as the reading, with a different hope?"
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:AB00146",
+   "responds": [
+    "source:AB00146"
+   ],
+   "relation": "adjacent",
+   "why": "Paul finds another law in his members warring against the law of his mind, and cries: O wretched man that I am."
+  },
+  {
+   "id": "shakespeare-brief-authority",
+   "after": "source:ABU1979",
+   "responds": [
+    "source:ABU1979"
+   ],
+   "relation": "adjacent",
+   "why": "Shakespeare's Isabella says that proud man, like an angry ape, plays such tricks before high heaven as make the angels weep."
+  },
+  {
+   "id": "luke-came-to-himself",
+   "after": "source:ABU2885",
+   "responds": [
+    "source:ABU2885"
+   ],
+   "relation": "adjacent",
+   "why": "The prodigal son, feeding swine in a far country, comes to himself and remembers his father's house."
+  },
+  {
+   "id": "genesis-dust-and-ashes",
+   "after": "source:ABU2885",
+   "responds": [
+    "source:ABU2885"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham, speaking with God on behalf of a city, calls himself but dust and ashes."
+  },
+  {
+   "id": "luke-publican",
+   "after": "source:ABU1228",
+   "responds": [
+    "source:ABU1228"
+   ],
+   "relation": "adjacent",
+   "why": "The publican in the parable smote upon his breast, saying: God be merciful to me a sinner."
+  },
+  {
+   "id": "john-epistle-see-him-as-he-is",
+   "after": "source:ABU2385",
+   "responds": [
+    "source:ABU2385"
+   ],
+   "relation": "adjacent",
+   "why": "John's letter says: now are we the sons of God, and it doth not yet appear what we shall be."
+  },
+  {
+   "id": "matthew-seek-ye-first",
+   "after": "source:ABU1711",
+   "responds": [
+    "source:ABU1711"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says: seek ye first the kingdom of God, and all these things shall be added unto you."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:ABU2614",
+   "responds": [
+    "source:ABU2614"
+   ],
+   "relation": "adjacent",
+   "why": "Daniel says that they that be wise shall shine as the brightness of the firmament."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:ABU0751",
+   "responds": [
+    "source:ABU0751"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis says that God formed man of the dust of the ground, and breathed into his nostrils the breath of life."
+  },
+  {
+   "id": "psalm-out-of-the-dunghill",
+   "after": "source:BB00058",
+   "responds": [
+    "source:BB00058"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that God raiseth up the poor out of the dust, that he may set him with princes."
+  },
+  {
+   "id": "genesis-whoso-sheddeth-mans-blood",
+   "after": "selection:727fe282032cb96d5ebc33c8",
+   "responds": [
+    "selection:727fe282032cb96d5ebc33c8"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis grounds the sanctity of human life on this: for in the image of God made he man."
+  },
+  {
+   "id": "seneca-falls-men-and-women",
+   "after": "selection:727fe282032cb96d5ebc33c8",
+   "responds": [
+    "selection:727fe282032cb96d5ebc33c8"
+   ],
+   "relation": "complement",
+   "why": "The women at Seneca Falls in 1848 held it self-evident that all men and women are created equal. How long did it take for 'male and female created he them' to be read as they read it, and why?"
+  }
+ ],
+ "library": {}
+}
