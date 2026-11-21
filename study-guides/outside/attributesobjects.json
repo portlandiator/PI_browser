@@ -1,0 +1,305 @@
+{
+ "format": 2,
+ "slug": "attributesobjects",
+ "subject": "50E64D5F25E34797A55642F2919C4317",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 29,
+ "kept": [
+  "source:AB00077",
+  "source:ABU0335",
+  "source:ABU3115",
+  "source:AB00262",
+  "source:AB03015",
+  "source:AB00839",
+  "source:ABU0033",
+  "source:ABU0119",
+  "source:ABU0403",
+  "source:ABU0257",
+  "source:AB00006",
+  "source:BB00003",
+  "source:AB00062",
+  "source:BH00060",
+  "source:ABU0041",
+  "source:ABU0049",
+  "selection:132d4922ae684e536c131250",
+  "selection:27a3c57587762ea753c0dd63",
+  "selection:d63f39678eaf46814923958f",
+  "selection:bd6abd1ab94906ed43ca7595",
+  "selection:d80d14b48b436bcebaeafdf7",
+  "selection:2ab6c01e88d34f2a80d1699b"
+ ],
+ "introduction": "These readings argue from the names of God: a creator implies a creation, a provider those who are provided for, a lord those over whom he is lord; and since the names are eternal, creation has always existed as the sun has always had its rays. They add a caution: within the divine Essence itself none of this applies, and God's knowledge, unlike ours, does not depend on there being anything to know. Each of the twenty-nine quotations is read here beside one from elsewhere. Most stand alongside: Plotinus's overflowing One, the psalms on a God whose mercy endures and who feeds all things, the Qur'an's beautiful names, Paul on a God known by what is made. Four push back or add a side: Paul's God who needs nothing, Genesis's finished creation, Spinoza, and Aristotle's thought that thinks itself.",
+ "questions": [
+  "'A lord without vassals cannot be imagined.' What does this argument show about God, and what about the limits of our imagining?",
+  "Paul says that God is not served 'as though he needed any thing'. How do the readings keep God's independence while saying that His names require creatures?",
+  "The readings say that God's knowledge does not depend on objects of knowledge, as ours does. Why does that distinction matter to them?",
+  "If the names of God have always had their objects, what does that suggest about the worth of the creatures who are those objects?"
+ ],
+ "outside": [
+  {
+   "id": "wisdom-made-and-loved",
+   "after": "source:AB00077",
+   "responds": [
+    "source:AB00077"
+   ],
+   "relation": "adjacent",
+   "why": "The Wisdom of Solomon says to God: thou lovest all the things that are, and never wouldest thou have made any thing, if thou hadst hated it."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:ABU0335",
+   "responds": [
+    "source:ABU0335"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the heavens declare the glory of God, and the firmament sheweth his handywork."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "source:ABU0335",
+   "responds": [
+    "source:ABU0335"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the invisible things of God are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "psalm-these-wait-all-upon-thee",
+   "after": "source:ABU3115",
+   "responds": [
+    "source:ABU3115"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says of all living things that they wait upon God, who opens his hand and they are filled with good."
+  },
+  {
+   "id": "john-my-father-worketh-hitherto",
+   "after": "source:AB00262",
+   "responds": [
+    "source:AB00262"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says, when blamed for healing on the sabbath: my Father worketh hitherto, and I work."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:AB03015",
+   "responds": [
+    "source:AB03015"
+   ],
+   "relation": "adjacent",
+   "why": "James says that every good gift and every perfect gift is from above, from the Father of lights, with whom is no variableness."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus compares what proceeds from the Supreme to the brilliant light encircling the sun, ceaselessly generated from that unchanging substance."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "Plotinus says that the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "acts-not-in-temples-made-with-hands",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "contrast",
+   "why": "Paul told the Athenians that God is not worshipped with men's hands, as though he needed any thing. If Divinity cannot be conceived apart from creation, in what sense does God need nothing?"
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says: before the mountains were brought forth, even from everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "genesis-heavens-finished",
+   "after": "source:ABU0119",
+   "responds": [
+    "source:ABU0119"
+   ],
+   "relation": "contrast",
+   "why": "Genesis says that the heavens and the earth were finished, and God rested from all his work. How do the readings understand a creation that scripture describes as begun and completed?"
+  },
+  {
+   "id": "quran-throne-verse",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an's Throne verse calls God the Alive, the Eternal, whom neither slumber nor sleep overtaketh."
+  },
+  {
+   "id": "exodus-merciful-and-gracious",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "adjacent",
+   "why": "God proclaims his own names to Moses: merciful and gracious, longsuffering, and abundant in goodness and truth."
+  },
+  {
+   "id": "psalm-mercy-endureth-for-ever",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm gives thanks to the Lord in a refrain that is itself a claim about his names: his mercy endureth for ever."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:ABU0257",
+   "responds": [
+    "source:ABU0257"
+   ],
+   "relation": "complement",
+   "why": "Spinoza held that all things are in God, and so depend on him that without him they can neither be nor be conceived. Does saying that God's attributes require creatures bring the readings closer to him than they intend?"
+  },
+  {
+   "id": "corinthians-things-of-god",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Paul says that the things of God knoweth no man, but the Spirit of God."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Job's friend asks: canst thou by searching find out God? canst thou find out the Almighty unto perfection?"
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "complement",
+   "why": "Aristotle's God needs no world to know: the divine thought thinks of itself, a thinking on thinking. Is that the 'Known unknown' of this prayer, or a different idea?"
+  },
+  {
+   "id": "jeremiah-before-i-formed-thee",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "Jeremiah hears: before I formed thee in the belly I knew thee."
+  },
+  {
+   "id": "isaiah-end-from-the-beginning",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah has God say that he declares the end from the beginning, and from ancient times the things that are not yet done."
+  },
+  {
+   "id": "quran-be-originator",
+   "after": "source:BH00060",
+   "responds": [
+    "source:BH00060"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an calls God the Originator of the heavens and the earth, who saith unto a thing only: Be! and it is."
+  },
+  {
+   "id": "psalm-wax-old-like-a-garment",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm says that the heavens shall wax old like a garment, but thou art the same, and thy years shall have no end."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:ABU0049",
+   "responds": [
+    "source:ABU0049"
+   ],
+   "relation": "adjacent",
+   "why": "The Revelation has the Lord say: I am Alpha and Omega, which is, and which was, and which is to come."
+  },
+  {
+   "id": "hebrews-upholding-all-things",
+   "after": "selection:132d4922ae684e536c131250",
+   "responds": [
+    "selection:132d4922ae684e536c131250"
+   ],
+   "relation": "adjacent",
+   "why": "The letter to the Hebrews speaks of one upholding all things by the word of his power."
+  },
+  {
+   "id": "quran-most-beautiful-names",
+   "after": "selection:27a3c57587762ea753c0dd63",
+   "responds": [
+    "selection:27a3c57587762ea753c0dd63"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur'an says that God's are the most beautiful names, and tells believers to call on him by them."
+  },
+  {
+   "id": "psalm-if-i-were-hungry",
+   "after": "selection:d63f39678eaf46814923958f",
+   "responds": [
+    "selection:d63f39678eaf46814923958f"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm has God say: if I were hungry, I would not tell thee, for the world is mine, and the fulness thereof."
+  },
+  {
+   "id": "matthew-sparrow-shall-not-fall",
+   "after": "selection:bd6abd1ab94906ed43ca7595",
+   "responds": [
+    "selection:bd6abd1ab94906ed43ca7595"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus says that not one sparrow shall fall on the ground without your Father."
+  },
+  {
+   "id": "psalm-too-wonderful-for-me",
+   "after": "selection:d80d14b48b436bcebaeafdf7",
+   "responds": [
+    "selection:d80d14b48b436bcebaeafdf7"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says of God's knowledge of him: such knowledge is too wonderful for me; it is high, I cannot attain unto it."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "selection:2ab6c01e88d34f2a80d1699b",
+   "responds": [
+    "selection:2ab6c01e88d34f2a80d1699b"
+   ],
+   "relation": "adjacent",
+   "why": "Plato distinguishes that which always is and has no becoming from that which is always becoming and never is."
+  }
+ ],
+ "library": {}
+}
