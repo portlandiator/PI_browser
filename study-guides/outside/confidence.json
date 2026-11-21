@@ -1,0 +1,161 @@
+{
+ "format": 2,
+ "slug": "confidence",
+ "subject": "9224074A0D154DCA8D3FE6E6AB21DB6A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 14,
+ "kept": [
+  "source:BH03317",
+  "source:AB10294",
+  "source:AB07962",
+  "source:AB06400",
+  "source:BH00374",
+  "source:AB09344",
+  "source:AB05975",
+  "source:AB08842",
+  "source:AB00187",
+  "selection:4113702ac0ed4b3f2ead1c4e",
+  "selection:2a5c5f8117d499daa2f3db88",
+  "selection:9e1b2d9597daf99fd4cae2ab",
+  "selection:82ec571bb7346a8a0df8231b",
+  "selection:ad31c2c58cd084aca535a1f9"
+ ],
+ "introduction": "These readings tell a teacher of the Faith to speak with serenity, courage and conviction, to turn to God before opening the lips, and to trust that help will come to one who arises. The promises made to the first Christians before governors and kings, the psalmist's refusal to fear, and Elisha's unseen army stand beside them. Two quotations ask what kind of confidence is meant: Yeats on passionate intensity, and Confucius on knowing what one does not know.",
+ "questions": [
+  "Where does the confidence in these readings come from, and how is it different from confidence in oneself?",
+  "Confucius calls it knowledge to admit what one does not know. How can a teacher be all confidence and still say that?",
+  "What is the place of preparation and of listening, in readings that ask one to speak out?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-what-can-man-do",
+   "after": "source:BH03317",
+   "responds": [
+    "source:BH03317"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist says the Lord is on his side: I will not fear, what can man do unto me?"
+  },
+  {
+   "id": "peter-reason-of-the-hope",
+   "after": "source:AB10294",
+   "responds": [
+    "source:AB10294"
+   ],
+   "relation": "adjacent",
+   "why": "Peter asks believers to be ready always to give a reason for their hope, with meekness."
+  },
+  {
+   "id": "acts-spake-with-boldness",
+   "after": "source:AB07962",
+   "responds": [
+    "source:AB07962"
+   ],
+   "relation": "adjacent",
+   "why": "Acts says of the first disciples that they spoke the word of God with boldness."
+  },
+  {
+   "id": "luke-mouth-and-wisdom",
+   "after": "source:AB09344",
+   "responds": [
+    "source:AB09344"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promises his followers a mouth and wisdom which their adversaries shall not be able to gainsay."
+  },
+  {
+   "id": "matthew-before-governors-and-kings",
+   "after": "source:AB05975",
+   "responds": [
+    "source:AB05975"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus tells those who will be brought before governors to take no thought how or what they shall speak."
+  },
+  {
+   "id": "acts-come-over-into-macedonia",
+   "after": "source:AB08842",
+   "responds": [
+    "source:AB08842"
+   ],
+   "relation": "adjacent",
+   "why": "Paul sees a man of Macedonia in a vision asking him to come over and help, and goes."
+  },
+  {
+   "id": "james-body-without-the-spirit",
+   "after": "source:AB00187",
+   "responds": [
+    "source:AB00187"
+   ],
+   "relation": "adjacent",
+   "why": "James holds that as the body without the spirit is dead, so faith without works is dead also."
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "selection:4113702ac0ed4b3f2ead1c4e",
+   "responds": [
+    "selection:4113702ac0ed4b3f2ead1c4e"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus likens the kingdom to seed that grows the sower knows not how, first the blade, then the ear."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "selection:2a5c5f8117d499daa2f3db88",
+   "responds": [
+    "selection:2a5c5f8117d499daa2f3db88"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews defines faith as the substance of things hoped for, the evidence of things not seen."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "selection:9e1b2d9597daf99fd4cae2ab",
+   "responds": [
+    "selection:9e1b2d9597daf99fd4cae2ab"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha tells his servant to fear not, for they that be with us are more than they that be with them."
+  },
+  {
+   "id": "yeats-some-revelation",
+   "after": "selection:9e1b2d9597daf99fd4cae2ab",
+   "responds": [
+    "selection:9e1b2d9597daf99fd4cae2ab"
+   ],
+   "relation": "contrast",
+   "why": "Yeats feared an age in which the best lack all conviction while the worst are full of passionate intensity. What distinguishes the confidence asked for here from intensity?"
+  },
+  {
+   "id": "analects-to-know-a-thing",
+   "after": "selection:9e1b2d9597daf99fd4cae2ab",
+   "responds": [
+    "selection:9e1b2d9597daf99fd4cae2ab"
+   ],
+   "relation": "complement",
+   "why": "Confucius calls it knowledge to hold that you know what you know and to allow that you do not know what you do not. Can a teacher be all confidence and still say, I do not know?"
+  },
+  {
+   "id": "proverbs-trust-in-the-lord",
+   "after": "selection:82ec571bb7346a8a0df8231b",
+   "responds": [
+    "selection:82ec571bb7346a8a0df8231b"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs asks for trust in the Lord with all the heart, leaning not on one's own understanding."
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "selection:ad31c2c58cd084aca535a1f9",
+   "responds": [
+    "selection:ad31c2c58cd084aca535a1f9"
+   ],
+   "relation": "adjacent",
+   "why": "Paul came to Corinth in weakness and fear, and spoke not with enticing words of human wisdom."
+  }
+ ],
+ "library": {}
+}
