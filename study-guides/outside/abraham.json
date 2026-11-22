@@ -1,0 +1,676 @@
+{
+ "format": 2,
+ "slug": "abraham",
+ "subject": "0FDA9B7CC77849A9B4E383D68116F833",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 39,
+ "quotations": 40,
+ "kept": [
+  "source:ABU0015",
+  "source:AB06713",
+  "source:AB10892",
+  "source:BH09603",
+  "source:BH11400",
+  "source:BH00002",
+  "source:ABU1755",
+  "source:AB07949",
+  "source:ABU1995",
+  "source:BH00705",
+  "source:AB08223",
+  "source:BH04576",
+  "source:BH07529",
+  "source:AB02495",
+  "source:AB04760",
+  "source:BH04654",
+  "source:AB11100",
+  "source:AB04330",
+  "source:AB00117",
+  "source:BH00091",
+  "source:AB09967",
+  "source:BB00243",
+  "source:BBU0007",
+  "source:AB09372",
+  "source:AB04958",
+  "source:ABU2649",
+  "source:AB11837",
+  "source:AB00556",
+  "source:ABU0983",
+  "source:AB01183",
+  "source:BH09671",
+  "source:ABU3542",
+  "source:AB00589",
+  "source:BH02221",
+  "source:BH02254",
+  "source:BH02037",
+  "source:AB04778",
+  "source:AB01297",
+  "source:AB01264"
+ ],
+ "introduction": "Three religions call Abraham father, and the Bahá’í writings add a fourth: Bahá’u’lláh is said to descend from him through Keturah. These readings recall him as the breaker of idols, the host at the tent door, the man cast into Nimrod’s fire, the exile whose banishment became the source of every later blessing, and the father ready to offer his son. On the old dispute whether that son was Isaac or Ishmael, Bahá’u’lláh and ‘Abdu’l-Bahá say that in the station of unity the two are one. Genesis and the Qur’án are given side by side throughout, since each tells part of the story the other omits: the three strangers and the bargaining over Sodom in one, the idols and the fire in the other, the binding of the son in both. Hebrews and James add the Christian memory of his faith. Dante speaks for what exile costs, John the Baptist warns against relying on descent, and Jeremiah and Micah raise the hardest question about the sacrifice.",
+ "questions": [
+  "‘Abdu’l-Bahá says that without the exile there would have been no Isaac, Jacob, Joseph or Moses. Dante says exile is salt bread. How can a loss be seen as a gift without denying that it is a loss?",
+  "Abraham broke the idols of his people. What are “the idol of vain imaginings” today, and what would breaking them cost?",
+  "Jews and Christians name Isaac, Muslims Ishmael, and Bahá’u’lláh says the two are one in the station of unity. What does that answer do to a quarrel that has lasted thirteen centuries?",
+  "Jeremiah says God never commanded the sacrifice of children; Micah says God wants justice, mercy and humility. How do the readings understand Abraham’s offering?",
+  "“We have Abraham to our father.” The readings honour his descendants, and John the Baptist says God can raise children to Abraham from stones. What is inherited from Abraham, and how?",
+  "Abraham ran to welcome three strangers. Why do the scriptures make hospitality the first thing remembered of the father of faith?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-get-thee-out",
+   "after": "source:ABU0015",
+   "responds": [
+    "source:ABU0015"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham, “an iconoclast and a Herald of the oneness of God, was banished from His native land.” Genesis: get thee out of thy country, and from thy kindred, and from thy father’s house, unto a land that I will shew thee."
+  },
+  {
+   "id": "joshua-your-fathers-served-other-gods",
+   "after": "source:ABU0015",
+   "responds": [
+    "source:ABU0015"
+   ],
+   "relation": "adjacent",
+   "why": "Joshua on where he came from: your fathers dwelt on the other side of the flood in old time, and they served other gods. And I took your father Abraham."
+  },
+  {
+   "id": "genesis-abraham-three-strangers",
+   "after": "source:AB06713",
+   "responds": [
+    "source:AB06713"
+   ],
+   "relation": "adjacent",
+   "why": "“Like your illustrious ancestor … hospitable to guests.” Genesis: he ran to meet them from the tent door, and said, Let a little water be fetched, and wash your feet, and rest yourselves under the tree."
+  },
+  {
+   "id": "hebrews-entertain-strangers",
+   "after": "source:AB06713",
+   "responds": [
+    "source:AB06713"
+   ],
+   "relation": "adjacent",
+   "why": "The Letter to the Hebrews draws the lesson from that afternoon: be not forgetful to entertain strangers: for thereby some have entertained angels unawares."
+  },
+  {
+   "id": "homer-strangers-from-jove",
+   "after": "source:AB06713",
+   "responds": [
+    "source:AB06713"
+   ],
+   "relation": "adjacent",
+   "why": "Homer’s world held the same law: strangers and foreigners in distress are under Jove’s protection."
+  },
+  {
+   "id": "quran-reduced-them-to-fragments",
+   "after": "source:AB10892",
+   "responds": [
+    "source:AB10892"
+   ],
+   "relation": "adjacent",
+   "why": "He “uprooted the mighty idols.” The Qur’án tells it: he reduced them to fragments, all save the chief of them."
+  },
+  {
+   "id": "quran-worship-ye-that-which-ye-carve",
+   "after": "source:BH09603",
+   "responds": [
+    "source:BH09603"
+   ],
+   "relation": "adjacent",
+   "why": "He turned “toward the abode of the idols.” His question to his people: worship ye that which ye yourselves do carve?"
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:BH11400",
+   "responds": [
+    "source:BH11400"
+   ],
+   "relation": "adjacent",
+   "why": "“The idol of vain imaginings.” Xenophanes on how such idols are made: if oxen and horses had hands, horses would paint the forms of the gods like horses."
+  },
+  {
+   "id": "quran-i-love-not-things-that-set",
+   "after": "source:BH11400",
+   "responds": [
+    "source:BH11400"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án’s story of how he reasoned his way past the star, the moon and the sun: I love not things that set."
+  },
+  {
+   "id": "quran-allah-chose-abraham-for-friend",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh calls him “the Friend of God,” the title he bears in Islam. The Qur’án: Allah chose Abraham for friend."
+  },
+  {
+   "id": "james-called-the-friend-of-god",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Christians know him by the same title, from the Letter of James: and he was called the Friend of God."
+  },
+  {
+   "id": "hebrews-abraham-went-out",
+   "after": "source:ABU1755",
+   "responds": [
+    "source:ABU1755"
+   ],
+   "relation": "adjacent",
+   "why": "“Had He not been exiled, He would not have received that greatest blessing.” The Letter to the Hebrews: he went out, not knowing whither he went."
+  },
+  {
+   "id": "genesis-in-thy-seed",
+   "after": "source:ABU1755",
+   "responds": [
+    "source:ABU1755"
+   ],
+   "relation": "adjacent",
+   "why": "What followed from the exile: in thy seed shall all the nations of the earth be blessed."
+  },
+  {
+   "id": "dante-bread-of-others",
+   "after": "source:AB07949",
+   "responds": [
+    "source:AB07949"
+   ],
+   "relation": "complement",
+   "why": "That exile was “a paradise of delight and a great triumph.” Dante, exiled from Florence for life, recorded what it is like from inside: thou shalt have proof how savoureth of salt the bread of others. How is it that the same event can be both?"
+  },
+  {
+   "id": "hebrews-strangers-and-pilgrims",
+   "after": "source:ABU1995",
+   "responds": [
+    "source:ABU1995"
+   ],
+   "relation": "adjacent",
+   "why": "The migrations of Abraham and of Bahá’u’lláh. The Letter to the Hebrews of the patriarchs: they confessed that they were strangers and pilgrims on the earth."
+  },
+  {
+   "id": "quran-leader-for-mankind",
+   "after": "source:BH00705",
+   "responds": [
+    "source:BH00705"
+   ],
+   "relation": "adjacent",
+   "why": "He was sent to Nimrod and his chiefs. The Qur’án: when his Lord tried Abraham with His commands, and he fulfilled them, He said: Lo! I have appointed thee a leader for mankind."
+  },
+  {
+   "id": "quran-coolness-and-peace-for-abraham",
+   "after": "source:AB08223",
+   "responds": [
+    "source:AB08223"
+   ],
+   "relation": "adjacent",
+   "why": "Nimrod “kindled the fire.” The Qur’án: We said: O fire, be coolness and peace for Abraham."
+  },
+  {
+   "id": "daniel-fiery-furnace",
+   "after": "source:AB08223",
+   "responds": [
+    "source:AB08223"
+   ],
+   "relation": "adjacent",
+   "why": "The Bible’s story of a king’s furnace is told of three later exiles in Babylon: our God whom we serve is able to deliver us from the burning fiery furnace."
+  },
+  {
+   "id": "isaiah-through-the-waters",
+   "after": "source:BH04576",
+   "responds": [
+    "source:BH04576"
+   ],
+   "relation": "adjacent",
+   "why": "“Unto Abraham in the fire of Thy love.” Isaiah: when thou walkest through the fire, thou shalt not be burned."
+  },
+  {
+   "id": "genesis-tell-the-stars",
+   "after": "source:AB02495",
+   "responds": [
+    "source:AB02495"
+   ],
+   "relation": "adjacent",
+   "why": "From his lineage arose “lamps of guidance.” The promise made under the night sky: look now toward heaven, and tell the stars; so shall thy seed be."
+  },
+  {
+   "id": "matthew-stones-children-abraham",
+   "after": "source:AB04760",
+   "responds": [
+    "source:AB04760"
+   ],
+   "relation": "contrast",
+   "why": "A family is praised as children of Abraham. John the Baptist warned against relying on that descent: think not to say within yourselves, We have Abraham to our father: God is able of these stones to raise up children unto Abraham. What makes someone Abraham’s child?"
+  },
+  {
+   "id": "john-works-of-abraham",
+   "after": "source:BH04654",
+   "responds": [
+    "source:BH04654"
+   ],
+   "relation": "adjacent",
+   "why": "“The children of Abraham” are guided in this Revelation. Jesus: if ye were Abraham’s children, ye would do the works of Abraham."
+  },
+  {
+   "id": "genesis-ishmael-great-nation",
+   "after": "source:AB04330",
+   "responds": [
+    "source:AB04330"
+   ],
+   "relation": "adjacent",
+   "why": "Ishmael the son of Abraham. Genesis: as for Ishmael, I have heard thee: Behold, I have blessed him, and I will make him a great nation."
+  },
+  {
+   "id": "quran-raising-the-foundations",
+   "after": "source:AB04330",
+   "responds": [
+    "source:AB04330"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án shows father and son at work together: when Abraham and Ishmael were raising the foundations of the House."
+  },
+  {
+   "id": "quran-abraham-was-not-a-jew-nor-a-christian",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "adjacent",
+   "why": "All the Prophets of Israel were of his line; Muḥammad and the Báb and Bahá’u’lláh also claim descent. The Qur’án on whose he is: Abraham was not a Jew, nor yet a Christian; but he was an upright man who had surrendered."
+  },
+  {
+   "id": "genesis-take-now-thy-son",
+   "after": "source:BH00091",
+   "responds": [
+    "source:BH00091"
+   ],
+   "relation": "adjacent",
+   "why": "Jews and Christians say the son was Isaac, Muslims say Ishmael. Genesis: take now thy son, thine only son Isaac, whom thou lovest."
+  },
+  {
+   "id": "quran-do-that-which-thou-art-commanded",
+   "after": "source:BH00091",
+   "responds": [
+    "source:BH00091"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án does not name the son, and gives him a voice: O my father! Do that which thou art commanded. Allah willing, thou shalt find me of the steadfast."
+  },
+  {
+   "id": "genesis-god-will-provide-himself-a-lamb",
+   "after": "source:AB09967",
+   "responds": [
+    "source:AB09967"
+   ],
+   "relation": "adjacent",
+   "why": "The son “hastened to the altar.” Genesis has him ask one question on the way: behold the fire and the wood: but where is the lamb? And Abraham said, My son, God will provide himself a lamb."
+  },
+  {
+   "id": "genesis-lay-not-thine-hand-upon-the-lad",
+   "after": "source:BB00243",
+   "responds": [
+    "source:BB00243"
+   ],
+   "relation": "adjacent",
+   "why": "“We ransomed him with a mighty sacrifice.” Genesis: lay not thine hand upon the lad; and behold behind him a ram caught in a thicket."
+  },
+  {
+   "id": "jeremiah-which-i-commanded-them-not",
+   "after": "source:BB00243",
+   "responds": [
+    "source:BB00243"
+   ],
+   "relation": "contrast",
+   "why": "The offering of a son is honoured as the height of devotion. Jeremiah speaks for a God appalled by child sacrifice: which I commanded them not, neither came it into my heart. How do the readings understand the story so that it teaches devotion and not this?"
+  },
+  {
+   "id": "micah-wherewith-shall-i-come",
+   "after": "source:BBU0007",
+   "responds": [
+    "source:BBU0007"
+   ],
+   "relation": "contrast",
+   "why": "“Would that a thousand Ishmaels were given Me.” Micah asked what offering God wants: shall I give my firstborn for my transgression? He hath shewed thee, O man, what is good: to do justly, and to love mercy, and to walk humbly with thy God. Are the Báb’s cry and Micah’s answer opposed?"
+  },
+  {
+   "id": "romans-living-sacrifice",
+   "after": "source:AB09372",
+   "responds": [
+    "source:AB09372"
+   ],
+   "relation": "adjacent",
+   "why": "“Freely give thy life like Ishmael.” Paul turns the altar into a way of living: present your bodies a living sacrifice."
+  },
+  {
+   "id": "genesis-believed-and-counted-for-righteousness",
+   "after": "source:AB04958",
+   "responds": [
+    "source:AB04958"
+   ],
+   "relation": "adjacent",
+   "why": "He “sought the increased realization” of faith. Genesis: he believed in the Lord; and he counted it to him for righteousness."
+  },
+  {
+   "id": "genesis-dust-and-ashes",
+   "after": "source:AB00556",
+   "responds": [
+    "source:AB00556"
+   ],
+   "relation": "adjacent",
+   "why": "Born among idolaters, he opposed his own people. Before God the same man speaks otherwise: I have taken upon me to speak unto the Lord, which am but dust and ashes."
+  },
+  {
+   "id": "genesis-for-tens-sake",
+   "after": "source:ABU0983",
+   "responds": [
+    "source:ABU0983"
+   ],
+   "relation": "adjacent",
+   "why": "“God spoke to Him.” And he answered back, bargaining for a city: peradventure ten shall be found there. And he said, I will not destroy it for ten’s sake."
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:AB01183",
+   "responds": [
+    "source:AB01183"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham’s departure and Moses’ exile both ended in a gift. Moses in Midian: the bush burned with fire, and the bush was not consumed."
+  },
+  {
+   "id": "genesis-keturah",
+   "after": "source:ABU3542",
+   "responds": [
+    "source:ABU3542"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh is said to descend from Abraham through Keturah. Genesis: then again Abraham took a wife, and her name was Keturah."
+  },
+  {
+   "id": "quran-that-my-heart-may-be-at-ease",
+   "after": "source:AB00589",
+   "responds": [
+    "source:AB00589"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham’s request to see how the dead are raised. The verse: Dost thou not believe? Abraham said: Yea, but I ask in order that my heart may be at ease."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:BH02037",
+   "responds": [
+    "source:BH02037"
+   ],
+   "relation": "adjacent",
+   "why": "Ishmael’s willingness is “the station of complete sacrifice.” Jesus: greater love hath no man than this, that a man lay down his life for his friends."
+  },
+  {
+   "id": "genesis-isaac-and-ishmael-buried-him",
+   "after": "source:AB01264",
+   "responds": [
+    "source:AB01264"
+   ],
+   "relation": "adjacent",
+   "why": "“In the station of unity, Ishmael and Isaac have the status of one being.” Genesis lets the two be seen side by side once: his sons Isaac and Ishmael buried him in the cave of Machpelah."
+  }
+ ],
+ "library": {
+  "james-called-the-friend-of-god": {
+   "text": "Was not Abraham our father justified by works, when he had offered Isaac his son upon the altar? Seest thou how faith wrought with his works, and by works was faith made perfect? And the scripture was fulfilled which saith, Abraham believed God, and it was imputed unto him for righteousness: and he was called the Friend of God",
+   "work": "James 2:21–23",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%202%3A21-23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-believed-and-counted-for-righteousness": {
+   "text": "And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be. And he believed in the Lord; and he counted it to him for righteousness",
+   "work": "Genesis 15:5–6",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2015%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-lay-not-thine-hand-upon-the-lad": {
+   "text": "And Abraham stretched forth his hand, and took the knife to slay his son. And the angel of the Lord called unto him out of heaven, and said, Abraham, Abraham: and he said, Here am I. And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me. And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son",
+   "work": "Genesis 22:10–13",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2022%3A10-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-god-will-provide-himself-a-lamb": {
+   "text": "And Isaac spake unto Abraham his father, and said, My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering? And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together",
+   "work": "Genesis 22:7–8",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2022%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-which-i-commanded-them-not": {
+   "text": "And they have built the high places of Tophet, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I commanded them not, neither came it into my heart",
+   "work": "Jeremiah 7:31",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%207%3A31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "joshua-your-fathers-served-other-gods": {
+   "text": "And Joshua said unto all the people, Thus saith the Lord God of Israel, Your fathers dwelt on the other side of the flood in old time, even Terah, the father of Abraham, and the father of Nachor: and they served other gods. And I took your father Abraham from the other side of the flood, and led him throughout all the land of Canaan, and multiplied his seed, and gave him Isaac",
+   "work": "Joshua 24:2–3",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Joshua%2024%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-isaac-and-ishmael-buried-him": {
+   "text": "Then Abraham gave up the ghost, and died in a good old age, an old man, and full of years; and was gathered to his people. And his sons Isaac and Ishmael buried him in the cave of Machpelah, in the field of Ephron the son of Zohar the Hittite, which is before Mamre",
+   "work": "Genesis 25:8–9",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2025%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-reduced-them-to-fragments": {
+   "text": "Then he reduced them to fragments, all save the chief of them, that haply they might have recourse to it.",
+   "work": "Qur’an 21:58",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=21&verse=58",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-abraham-was-not-a-jew-nor-a-christian": {
+   "text": "Abraham was not a Jew, nor yet a Christian; but he was an upright man who had surrendered (to Allah), and he was not of the idolaters.",
+   "work": "Qur’an 3:67",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=67",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-allah-chose-abraham-for-friend": {
+   "text": "Who is better in religion than he who surrendereth his purpose to Allah while doing good (to men) and followeth the tradition of Abraham, the upright? Allah (Himself) chose Abraham for friend.",
+   "work": "Qur’an 4:125",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=125",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-worship-ye-that-which-ye-carve": {
+   "text": "He said: Worship ye that which ye yourselves do carve",
+   "work": "Qur’an 37:95",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=37&verse=95",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
