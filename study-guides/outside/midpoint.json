@@ -1,0 +1,133 @@
+{
+ "format": 2,
+ "slug": "midpoint",
+ "subject": "388C5CE1497248D8AB59AE07C7B12BBE",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 11,
+ "kept": [
+  "source:AB01170",
+  "source:AB00620",
+  "source:AB11857",
+  "source:AB05415",
+  "source:AB06311",
+  "source:ABU0033",
+  "source:BB00008",
+  "source:AB02513",
+  "selection:2028f473f58a05e594ab0ebc",
+  "selection:b5560758b8b4e5ee46e067b9"
+ ],
+ "introduction": "The readings place the human being on a line: between shadow and light, at the meeting of two seas, on an isthmus between a higher and a lower world. From there one may rise by education to every excellence or stay at the lowest point. The idea has a long company. A psalm sets man a little lower than the angels, Plato gives the soul two horses, Aristotle calls man the best or the worst of animals, Faust has two souls in his breast, and Pope uses the readings’ own word, isthmus, though for him it names a doubt as much as a dignity. The parable of the great gulf and Stevenson’s story of Jekyll and Hyde put the harder questions: whether the line between the worlds joins or divides, and what becomes of someone who tries to stop being double.",
+ "questions": [
+  "‘Abdu’l-Bahá calls the inner reality of man “a place where the two seas meet.” Pope calls the same place an isthmus of doubt. Is standing in the middle a privilege, a difficulty, or both?",
+  "The readings and Confucius agree that education decides which way a person goes. What kind of education could raise someone from “the lowest point”, and what kind could not?",
+  "Plato’s charioteer has to drive both horses; Jekyll tries to cut one loose. What do the readings suggest should be done with the nature that “inclineth to the lower concourse”?",
+  "The barzakh is described as a link that is spiritual by nature, and the Qur’án’s image is of a barrier between two seas. How can the same word mean both a meeting place and a partition?"
+ ],
+ "outside": [
+  {
+   "id": "analects-nature-and-practice",
+   "after": "source:AB01170",
+   "responds": [
+    "source:AB01170"
+   ],
+   "relation": "adjacent",
+   "why": "“With education it can achieve all excellence; devoid of education it will stay … at the lowest point.” Confucius says in one line what makes the difference: by nature men are nearly alike; by practice they get to be wide apart."
+  },
+  {
+   "id": "goethe-two-souls",
+   "after": "source:AB00620",
+   "responds": [
+    "source:AB00620"
+   ],
+   "relation": "adjacent",
+   "why": "The soul “hath two phases,” one aspiring upward and one inclining to the material world. Faust feels them as two souls in one breast, each pulling away from its brother."
+  },
+  {
+   "id": "katha-self-in-the-chariot",
+   "after": "source:AB00620",
+   "responds": [
+    "source:AB00620"
+   ],
+   "relation": "adjacent",
+   "why": "Spirit, mind and soul are given their separate offices. The Katha Upanishad sorts the same powers by an image: the Self rides in the chariot of the body, with the intellect as charioteer and the mind as reins."
+  },
+  {
+   "id": "luke-great-gulf",
+   "after": "source:AB11857",
+   "responds": [
+    "source:AB11857"
+   ],
+   "relation": "contrast",
+   "why": "The link between the two worlds is itself spiritual and has no place. In Jesus’s parable of the rich man and Lazarus the image is the opposite one, a great gulf fixed that none can cross. Is the barzakh a bridge or a barrier?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:AB05415",
+   "responds": [
+    "source:AB05415"
+   ],
+   "relation": "adjacent",
+   "why": "Among all created things man alone is “distinguished and honored.” The eighth psalm marvels at the same rank: a little lower than the angels, crowned with glory and honour, with dominion over the works of God’s hands."
+  },
+  {
+   "id": "aristotle-best-and-worst-of-animals",
+   "after": "source:AB06311",
+   "responds": [
+    "source:AB06311"
+   ],
+   "relation": "adjacent",
+   "why": "Human reality can “ascend to the highest stations” or “fall to the lowest depths.” Aristotle states the two ends without the cosmology: man, when perfected, is the best of animals; separated from law and justice, the worst of all."
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "adjacent",
+   "why": "A nature that is animal, human and divine at once. Plato pictures the soul as a charioteer with two horses, one noble and one unruly, so that the driving is of necessity difficult."
+  },
+  {
+   "id": "stevenson-not-truly-one-but-truly-two",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033",
+    "source:AB00620"
+   ],
+   "relation": "complement",
+   "why": "Man “stands between light and darkness.” Stevenson’s Dr Jekyll reaches the same finding and tries to separate the two for good, with ruinous results. Why do the readings never propose getting rid of the lower nature?"
+  },
+  {
+   "id": "leibniz-living-mirror",
+   "after": "source:BB00008",
+   "responds": [
+    "source:BB00008"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb says that the forms of the worlds are placed within the human form. Leibniz says of every simple substance that it expresses all the others and is a perpetual living mirror of the universe."
+  },
+  {
+   "id": "pope-isthmus-of-a-middle-state",
+   "after": "source:AB02513",
+   "responds": [
+    "source:AB02513",
+    "source:AB06311"
+   ],
+   "relation": "adjacent",
+   "why": "The rational soul as “the confluence of two seas” and an isthmus. Pope uses the very word, and makes of it less a station than a predicament: placed on this isthmus of a middle state, in doubt to deem himself a god or beast."
+  },
+  {
+   "id": "quran-two-seas",
+   "after": "selection:b5560758b8b4e5ee46e067b9",
+   "responds": [
+    "selection:b5560758b8b4e5ee46e067b9"
+   ],
+   "relation": "adjacent",
+   "why": "The supplied verse speaks of two waters, sweet and salt, and the barrier between them. The Qur’án returns to the image in the chapter of the All-Merciful: the two seas meet, and do not encroach."
+  }
+ ],
+ "library": {}
+}

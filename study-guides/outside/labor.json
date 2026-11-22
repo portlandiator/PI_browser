@@ -1,0 +1,443 @@
+{
+ "format": 2,
+ "slug": "labor",
+ "subject": "7494D3CC7B7FE1DCACD73621D5B5AE75",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 20,
+ "quotations": 24,
+ "kept": [
+  "source:ABU3440",
+  "source:ABU3120",
+  "source:ABU3748",
+  "source:ABU3667",
+  "source:ABU2012",
+  "source:AB00796",
+  "source:AB04851",
+  "source:ABU1420",
+  "source:ABU3279",
+  "source:ABU2850",
+  "source:AB00099",
+  "source:AB12892",
+  "source:ABU1216",
+  "source:ABU0026",
+  "source:ABU0392",
+  "source:ABU3325",
+  "source:ABU0606",
+  "source:AB00274",
+  "selection:8a36abbee610d23f2a3249f0",
+  "selection:fd97d29ea19775727484b095"
+ ],
+ "introduction": "‘Abdu’l-Bahá looked at coal miners and at stokers on an Atlantic liner and asked why work, which is meant to give “self-assurance and dignity,” had been made into drudgery. His answers in these readings are practical: a share of the profits beyond wages, shorter hours, elected representatives of the workers, obligations that rise with wealth, a storehouse in every village, and, beneath it all, a willingness on both sides that law cannot supply. Much of this has scripture behind it: the ox that is not to be muzzled, the hire that cries out, the servant’s sabbath, Joseph’s granaries, the third-year tithe. The modern declarations of rights say some of it again. Other voices press harder on the readings. Genesis makes toil a sentence, Lincoln puts labour before capital, Douglass holds that nothing is conceded without a struggle, and Wilde suspects that kindness has postponed the remedy.",
+ "questions": [
+  "“Work is intended to give man self-assurance and dignity.” Genesis speaks of bread eaten in the sweat of the face. Which describes the work you know, and what would have to change for the first to be true of more people?",
+  "Workers are to be grateful to capitalists, says one reading; Lincoln says capital is only the fruit of labour. How do the proposals for profit-sharing look from each starting point?",
+  "‘Abdu’l-Bahá hopes that a share in profits will end strikes, and that sacrifice will be voluntary. Douglass says power concedes nothing without a demand. Where do the readings themselves call for law and government to step in?",
+  "The village storehouse resembles Joseph’s granaries and the third-year tithe. What would be its nearest equivalent where you live, and who are today’s “Levite, stranger, fatherless and widow”?",
+  "The final reading says the Faith is “not an economic system,” and Jesus refuses to divide an inheritance. What, then, can a religion contribute to economic questions?"
+ ],
+ "outside": [
+  {
+   "id": "marcus-work-of-a-human-being",
+   "after": "source:ABU3440",
+   "responds": [
+    "source:ABU3440"
+   ],
+   "relation": "adjacent",
+   "why": "“Work is intended to give man self-assurance and dignity.” Marcus Aurelius tells himself as much on a cold morning: I am rising to the work of a human being."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:ABU3440",
+   "responds": [
+    "source:ABU3440"
+   ],
+   "relation": "contrast",
+   "why": "The reading asks why work is made into drudgery. Genesis has an old answer in which toil is a sentence: in the sweat of thy face shalt thou eat bread. Is hard labour part of the human condition or a wrong that can be put right?"
+  },
+  {
+   "id": "james-hire-of-the-labourers",
+   "after": "source:ABU3120",
+   "responds": [
+    "source:ABU3120"
+   ],
+   "relation": "adjacent",
+   "why": "The poverty of the coal miners is laid at the owners’ door. The Letter of James to the rich: the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth."
+  },
+  {
+   "id": "deuteronomy-not-muzzle-the-ox",
+   "after": "source:ABU3120",
+   "responds": [
+    "source:ABU3120",
+    "source:AB00796"
+   ],
+   "relation": "adjacent",
+   "why": "Owners are to “allot a certain share, however small,” to their labourers. The law of Moses gives even the working animal its share of the threshing floor: thou shalt not muzzle the ox when he treadeth out the corn."
+  },
+  {
+   "id": "deuteronomy-hired-servant",
+   "after": "source:ABU3748",
+   "responds": [
+    "source:ABU3748"
+   ],
+   "relation": "adjacent",
+   "why": "“How poor are they, and how hard they toil!” Deuteronomy on the hired servant: at his day thou shalt give him his hire, for he is poor, and setteth his heart upon it."
+  },
+  {
+   "id": "luke-labourer-is-worthy",
+   "after": "source:ABU3748",
+   "responds": [
+    "source:ABU3748",
+    "source:AB00796"
+   ],
+   "relation": "adjacent",
+   "why": "A share for the workers, “so that these poor souls may know some comfort.” Jesus’s short rule: the labourer is worthy of his hire."
+  },
+  {
+   "id": "universal-declaration-24",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "adjacent",
+   "why": "Hours shortened so that “all human beings would have leisure to think and develop.” The Universal Declaration of 1948 made it a right: rest and leisure, including reasonable limitation of working hours."
+  },
+  {
+   "id": "deuteronomy-thy-manservant-may-rest",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "adjacent",
+   "why": "Leisure for everyone and not only for owners. The sabbath commandment gives its reason in a clause: that thy manservant and thy maidservant may rest as well as thou."
+  },
+  {
+   "id": "mill-mechanical-inventions",
+   "after": "source:ABU3667",
+   "responds": [
+    "source:ABU3667"
+   ],
+   "relation": "complement",
+   "why": "Shorter hours are expected to finish the world’s work with less strain. Mill doubted in 1848 that all the machines yet invented had lightened the day’s toil of any human being. What besides invention has to change?"
+  },
+  {
+   "id": "colossians-just-and-equal",
+   "after": "source:AB04851",
+   "responds": [
+    "source:AB04851"
+   ],
+   "relation": "adjacent",
+   "why": "“The Capitalists must be kind toward the Workers and treat them with justice and fairness.” Colossians: masters, give unto your servants that which is just and equal, knowing that ye also have a Master in heaven."
+  },
+  {
+   "id": "lincoln-labor-prior-to-capital",
+   "after": "source:AB04851",
+   "responds": [
+    "source:AB04851"
+   ],
+   "relation": "contrast",
+   "why": "Labourers “ought to be pleased and grateful,” since without capitalists they “would be extremely distressed.” Lincoln told Congress in 1861 that the dependence runs the other way: capital is only the fruit of labor. Which of them has the order right?"
+  },
+  {
+   "id": "universal-declaration-23",
+   "after": "source:ABU2850",
+   "responds": [
+    "source:ABU2850"
+   ],
+   "relation": "adjacent",
+   "why": "Workers “always unite and stop working”; rules are needed. The Universal Declaration names pay that ensures an existence worthy of human dignity, and the right to form and join trade unions."
+  },
+  {
+   "id": "douglass-no-struggle-no-progress",
+   "after": "source:ABU2850",
+   "responds": [
+    "source:ABU2850",
+    "source:ABU0026"
+   ],
+   "relation": "contrast",
+   "why": "A share of the profits is offered so that strikes will cease. Frederick Douglass, speaking of slavery in 1857, held that power concedes nothing without a demand: if there is no struggle there is no progress. Would profit-sharing have come without the strikes?"
+  },
+  {
+   "id": "jeremiah-buildeth-his-house-by-unrighteousness",
+   "after": "source:AB00099",
+   "responds": [
+    "source:AB00099"
+   ],
+   "relation": "adjacent",
+   "why": "Owners reap a fortune every day while wages do not meet daily needs: “most unfair.” Jeremiah to a king: woe unto him that useth his neighbour’s service without wages, and giveth him not for his work."
+  },
+  {
+   "id": "luke-unto-whom-much-is-given",
+   "after": "source:AB12892",
+   "responds": [
+    "source:AB12892"
+   ],
+   "relation": "adjacent",
+   "why": "“As a man’s wealth increaseth, his financial obligations should proportionately increase.” Jesus states the principle for every kind of endowment: unto whomsoever much is given, of him shall be much required."
+  },
+  {
+   "id": "genesis-lay-up-corn-against-the-famine",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216",
+    "source:AB00274"
+   ],
+   "relation": "adjacent",
+   "why": "A storehouse in every village. Joseph’s plan for Egypt is the scriptural model: lay up corn in the years of plenty, and that food shall be for store against the years of famine."
+  },
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:ABU0026",
+   "responds": [
+    "source:ABU0026"
+   ],
+   "relation": "adjacent",
+   "why": "What is forced from a capitalist leaves “no love in his heart.” Paul on giving: not grudgingly, or of necessity, for God loveth a cheerful giver."
+  },
+  {
+   "id": "wilde-poverty-impossible",
+   "after": "source:ABU0026",
+   "responds": [
+    "source:ABU0026"
+   ],
+   "relation": "contrast",
+   "why": "The solution is a “voluntary attitude of sacrifice upon both sides.” Wilde thought that the altruistic virtues had prevented the real aim, which is to reconstruct society so that poverty will be impossible. Can goodwill delay justice as well as bring it?"
+  },
+  {
+   "id": "acts-seven-men-of-honest-report",
+   "after": "source:ABU0392",
+   "responds": [
+    "source:ABU0392"
+   ],
+   "relation": "adjacent",
+   "why": "The village’s “wise men are chosen to administer” its affairs and help the farmer in need. The first church chose seven men of honest report to see to its daily distribution."
+  },
+  {
+   "id": "carnegie-dies-thus-rich-dies-disgraced",
+   "after": "source:ABU3325",
+   "responds": [
+    "source:ABU3325"
+   ],
+   "relation": "adjacent",
+   "why": "A manufacturer will leave three-quarters of his property to the workers “who have created his wealth.” Carnegie, the steel-master, wrote in 1889 that the man who dies rich dies disgraced, though he meant the rich to give it away themselves."
+  },
+  {
+   "id": "ruskin-no-wealth-but-life",
+   "after": "source:ABU0606",
+   "responds": [
+    "source:ABU0606"
+   ],
+   "relation": "adjacent",
+   "why": "A public bath for stokers who breathe coal dust all day. Ruskin’s measure of an economy: there is no wealth but life; that country is the richest which nourishes the greatest number of noble and happy human beings."
+  },
+  {
+   "id": "deuteronomy-tithe-laid-up-within-thy-gates",
+   "after": "source:AB00274",
+   "responds": [
+    "source:AB00274"
+   ],
+   "relation": "adjacent",
+   "why": "Tithes of the harvest are set aside in a common store. Deuteronomy orders a tithe laid up within thy gates every third year, for the Levite, the stranger, the fatherless and the widow."
+  },
+  {
+   "id": "leviticus-gleanings-for-the-poor",
+   "after": "selection:8a36abbee610d23f2a3249f0",
+   "responds": [
+    "selection:8a36abbee610d23f2a3249f0"
+   ],
+   "relation": "adjacent",
+   "why": "The storehouse receives lost property, unclaimed estates and a share of mines. Leviticus builds provision for the poor into the harvest itself: thou shalt not wholly reap the corners of thy field."
+  },
+  {
+   "id": "luke-who-made-me-a-divider",
+   "after": "selection:fd97d29ea19775727484b095",
+   "responds": [
+    "selection:fd97d29ea19775727484b095"
+   ],
+   "relation": "adjacent",
+   "why": "“The Cause is not an economic system,” and its Founders were not technical economists. Asked to settle an inheritance, Jesus replies: man, who made me a judge or a divider over you?"
+  }
+ ],
+ "library": {
+  "universal-declaration-23": {
+   "text": "Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests",
+   "author": "United Nations General Assembly",
+   "work": "Universal Declaration of Human Rights",
+   "locator": "Article 23",
+   "year": "1948",
+   "sortYear": 1948,
+   "tradition": "International declarations",
+   "kind": "public",
+   "source": {
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "label": "United Nations",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "United Nations declaration, published for general use."
+   }
+  },
+  "universal-declaration-24": {
+   "text": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay",
+   "author": "United Nations General Assembly",
+   "work": "Universal Declaration of Human Rights",
+   "locator": "Article 24",
+   "year": "1948",
+   "sortYear": 1948,
+   "tradition": "International declarations",
+   "kind": "public",
+   "source": {
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "label": "United Nations",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "United Nations declaration, published for general use."
+   }
+  },
+  "lincoln-labor-prior-to-capital": {
+   "text": "Labor is prior to and independent of capital. Capital is only the fruit of labor, and could never have existed if labor had not first existed. Labor is the superior of capital, and deserves much the higher consideration",
+   "author": "Abraham Lincoln",
+   "work": "First Annual Message to Congress",
+   "year": "1861",
+   "sortYear": 1861,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Abraham_Lincoln%27s_First_State_of_the_Union_Address",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1865; official public document."
+   }
+  },
+  "deuteronomy-not-muzzle-the-ox": {
+   "text": "Thou shalt not muzzle the ox when he treadeth out the corn",
+   "work": "Deuteronomy 25:4",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2025%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-tithe-laid-up-within-thy-gates": {
+   "text": "At the end of three years thou shalt bring forth all the tithe of thine increase the same year, and shalt lay it up within thy gates: And the Levite, (because he hath no part nor inheritance with thee,) and the stranger, and the fatherless, and the widow, which are within thy gates, shall come, and shall eat and be satisfied; that the Lord thy God may bless thee in all the work of thine hand which thou doest",
+   "work": "Deuteronomy 14:28–29",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2014%3A28-29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-thy-manservant-may-rest": {
+   "text": "Six days thou shalt labour, and do all thy work: But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou",
+   "work": "Deuteronomy 5:13–14",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%205%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "colossians-just-and-equal": {
+   "text": "Masters, give unto your servants that which is just and equal; knowing that ye also have a Master in heaven",
+   "work": "Colossians 4:1",
+   "year": "c. 60–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Colossians%204%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-who-made-me-a-divider": {
+   "text": "And one of the company said unto him, Master, speak to my brother, that he divide the inheritance with me. And he said unto him, Man, who made me a judge or a divider over you",
+   "work": "Luke 12:13–14",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2012%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

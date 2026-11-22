@@ -1,0 +1,182 @@
+{
+ "format": 2,
+ "slug": "attributes",
+ "subject": "7A7BDCD83AE14B19B4D78332D456B1D3",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 16,
+ "kept": [
+  "source:ABU0102",
+  "source:AB00395",
+  "source:AB00103",
+  "source:AB00791",
+  "source:AB00006",
+  "source:BH01735",
+  "source:AB00448",
+  "source:BB00001",
+  "source:BH00668",
+  "source:BB00017",
+  "source:BH00154",
+  "source:BH00066",
+  "selection:15f31163482cedfef58d175d",
+  "selection:41bca3cc1e88907925b8d7c9"
+ ],
+ "introduction": "“How shall we know God?” ‘Abdu’l-Bahá asks, and answers: by attributes, by signs, by names, never by essence. The readings add that the attributes are seen most fully in the Manifestations, as the sun is seen in a mirror, so that to know them is to know God. The thought has old relatives. Paul reads the invisible from the things that are made, a psalm lets the heavens speak, the Qur’án denies every likeness and gives the fairest names, John says no one has seen God and that the Son has declared him, and Lao Tzu will not trust the name that can be named. Three voices test the argument: Xenophanes on gods drawn in the image of their worshippers, Feuerbach, who concludes that the attributes are merely human, and Whitman, who is not curious about God and sees him in every object. A medieval English contemplative adds what the readings leave unsaid, that love may reach where thought cannot.",
+ "questions": [
+  "The readings say we know God’s attributes and not His reality. Feuerbach says the attributes are our own nature projected. What in the readings answers him, and what in them might he seize on?",
+  "Paul, the psalmist and ‘Abdu’l-Bahá all point to signs in creation; Whitman sees God “in every object.” Why do the readings go on to say that knowledge of the Manifestations is the knowledge of God?",
+  "“He that hath seen me hath seen the Father” and “the name that can be named is not the enduring name.” How can a tradition hold that God is shown and that God is beyond showing?",
+  "The Cloud of Unknowing says God may be held by love but never by thought. Do the readings leave room for a knowing that is not a matter of comprehension?"
+ ],
+ "outside": [
+  {
+   "id": "romans-things-that-are-made",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "adjacent",
+   "why": "“We know Him by His signs,” which are “widespread in the universe.” Paul argues from the same evidence: the invisible things of him are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "john-hath-seen-the-father",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "“The knowledge of the Manifestations of God is the knowledge of God.” When Philip asks to be shown the Father, Jesus answers in the same sense: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395",
+    "source:ABU0102"
+   ],
+   "relation": "contrast",
+   "why": "We know God only by attributes, and only so far as human capacity permits. Feuerbach drew the opposite conclusion from the same premise: the attributes are our own, and theology is anthropology. What keeps the readings from his conclusion?"
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "The reality of God is shown as the sun is shown in a mirror. Plato uses the sun for the Good, which gives things their being and their power to be known, and is itself beyond being."
+  },
+  {
+   "id": "cloud-by-love-not-thought",
+   "after": "source:AB00791",
+   "responds": [
+    "source:AB00791"
+   ],
+   "relation": "complement",
+   "why": "“No soul has ever known or will ever know that invisible Essence.” An English mystic of the fourteenth century grants as much to thought and leaves another way open: by love may he be gotten and holden, but by thought never."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Understanding “will never penetrate more than … a sign pointing” toward the mystery. Zophar’s question to Job: canst thou by searching find out God? It is high as heaven; what canst thou do?"
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006",
+    "selection:41bca3cc1e88907925b8d7c9"
+   ],
+   "relation": "adjacent",
+   "why": "Knowledge reaches traces and effulgences, never the Absolute. The Tao Te Ching opens with the same reserve about its own subject: the name that can be named is not the enduring and unchanging name."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:BH01735",
+   "responds": [
+    "source:BH01735"
+   ],
+   "relation": "adjacent",
+   "why": "The Essence is “sanctified above manifestation,” and so a way is opened by grace. John’s prologue has both halves in one verse: no man hath seen God at any time; the only begotten Son hath declared him."
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:AB00448",
+   "responds": [
+    "source:AB00448"
+   ],
+   "relation": "adjacent",
+   "why": "“By seeing God is meant beholding the Manifestation of Himself.” Colossians uses the language of image for Christ: the image of the invisible God."
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The highest station is reached by recognition, “not through learning,” for every nation has its learned. Paul to a city proud of its philosophers: the world by wisdom knew not God."
+  },
+  {
+   "id": "whitman-not-curious-about-god",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "contrast",
+   "why": "True knowledge is the recognition of the Manifestation in each age. Whitman declines the search and still finds what the first reading describes: be not curious about God; I hear and behold God in every object. Is he outside the readings’ way of knowing or inside it?"
+  },
+  {
+   "id": "quran-naught-is-as-his-likeness",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "adjacent",
+   "why": "The Essence is “beyond description, recognition, or worship.” The Qur’án’s shortest statement of it: naught is as His likeness."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:BB00017",
+   "responds": [
+    "source:BB00017"
+   ],
+   "relation": "complement",
+   "why": "God is to be worshipped “according to how He has described Himself,” not as we picture Him. Xenophanes saw the danger five centuries before Christ: if oxen and horses had hands, they would draw the forms of gods like their own."
+  },
+  {
+   "id": "quran-vision-comprehendeth-not",
+   "after": "source:BH00066",
+   "responds": [
+    "source:BH00066"
+   ],
+   "relation": "adjacent",
+   "why": "“The door of the knowledge of the Ancient Being hath ever been … closed in the face of men.” The Qur’án: vision comprehendeth Him not, but He comprehendeth all vision."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "selection:15f31163482cedfef58d175d",
+   "responds": [
+    "selection:15f31163482cedfef58d175d"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou art made known by Thy wondrous tokens.” The nineteenth psalm: the heavens declare the glory of God, and there is no speech nor language where their voice is not heard."
+  },
+  {
+   "id": "quran-most-beautiful-names",
+   "after": "selection:41bca3cc1e88907925b8d7c9",
+   "responds": [
+    "selection:41bca3cc1e88907925b8d7c9"
+   ],
+   "relation": "adjacent",
+   "why": "God is “sanctified above all name,” yet the names are the way given. The Qur’án: Allah’s are the fairest names; invoke Him by them."
+  }
+ ],
+ "library": {}
+}

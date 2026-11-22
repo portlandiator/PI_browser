@@ -1,0 +1,337 @@
+{
+ "format": 2,
+ "slug": "specialknowledge",
+ "subject": "E500F3DB980EEA00468CEB52774C33B7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 24,
+ "quotations": 24,
+ "kept": [
+  "source:AB00780",
+  "source:BB00407",
+  "source:AB00689",
+  "source:BH00223",
+  "source:BH00038",
+  "source:AB00097",
+  "source:ABU0123",
+  "source:AB00125",
+  "source:AB05088",
+  "source:ABU0127",
+  "source:ABU1840",
+  "source:ABU0326",
+  "source:ABU0971",
+  "source:ABU2105",
+  "source:AB00747",
+  "source:BH00962",
+  "source:ABU0218",
+  "source:BHU0006",
+  "source:ABU3666",
+  "source:ABU3547",
+  "source:BH00076",
+  "source:ABU1402",
+  "source:ABU1649",
+  "source:AB03274"
+ ],
+ "introduction": "‘Abdu’l-Bahá says that the founders of religions know “the realities of things,” and that religion is the set of relationships that follow from those realities. The readings then report a knowledge that owed nothing to schooling: questions answered for jurists and visitors, sayings set down without books, and the Master’s remark that he does not know everything but that what he needs is pictured before him. The Báb, by contrast, denies being master of every science, and the last reading separates knowing the future from causing it. Scripture offers parallels at each point: Amos the herdsman, the unlettered Prophet of the Qur’án, the boy among the doctors, Solomon and the Queen of Sheba. Because the claims are large, the doubts are given room. In Mark the Son does not know the hour; Hume asks what testimony can establish; Bacon observes that people count a prophet’s hits and forget the misses; Xenophanes holds that knowledge comes by seeking; and Socrates is wise because he does not think he knows.",
+ "questions": [
+  "The readings say the Manifestations know the realities of things; the Báb says he is not “knowledgeable of all sciences in detail”; ‘Abdu’l-Bahá says “I do not know everything.” What kind of knowledge is being claimed, and what kind disclaimed?",
+  "One reading calls the scientist who works by induction a blind man beside the prophet. Bacon says men mark when prophecies hit and never when they miss, and Xenophanes that by seeking we find what is better. What does each way of knowing owe the other?",
+  "“What greater miracle than this?” is asked of an unschooled man who answered every question. How would you apply Hume’s test of testimony here, and how do the reports of the boy in the temple or the unlettered Prophet fare under it?",
+  "Socrates’s wisdom was to know that he did not know. Is that a lesser thing than the knowledge the readings describe, a different thing, or a preparation for it?",
+  "The last reading and Milton agree that foreknowledge does not cause what is foreknown. Why does this distinction matter to someone who believes in prophecy?"
+ ],
+ "outside": [
+  {
+   "id": "john-knew-what-was-in-man",
+   "after": "source:AB00780",
+   "responds": [
+    "source:AB00780"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestation must be “informed of the realities of things” to found a religion that fits humanity. John says of Jesus that he needed not that any should testify of man, for he knew what was in man."
+  },
+  {
+   "id": "mark-neither-the-son",
+   "after": "source:AB00780",
+   "responds": [
+    "source:AB00780",
+    "source:AB00747"
+   ],
+   "relation": "contrast",
+   "why": "The universal Manifestations are “aware of the truths underlying the mysteries of all created things.” In Mark Jesus names something he does not know: of that day and that hour knoweth no man, neither the Son. How do the readings’ two stations bear on that verse?"
+  },
+  {
+   "id": "quran-no-knowledge-of-the-unseen",
+   "after": "source:BB00407",
+   "responds": [
+    "source:BB00407"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb denies being one “knowledgeable of all sciences in detail.” Muḥammad is told to say the like: had I knowledge of the Unseen, I should have abundance of wealth; I am but a warner."
+  },
+  {
+   "id": "amos-revealeth-his-secret",
+   "after": "source:AB00689",
+   "responds": [
+    "source:AB00689"
+   ],
+   "relation": "adjacent",
+   "why": "Prophets “diagnose and foresee the ailments … which are to come.” Amos: the Lord God will do nothing, but he revealeth his secret unto his servants the prophets."
+  },
+  {
+   "id": "quran-not-a-reader-before-it",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "“We perused not the books which men possess.” The Qur’án says it of Muḥammad and draws the same inference: thou wast not a reader of any scripture before it, nor didst thou write it."
+  },
+  {
+   "id": "amos-no-prophet",
+   "after": "source:BH00038",
+   "responds": [
+    "source:BH00038"
+   ],
+   "relation": "adjacent",
+   "why": "“I was but a man like others, asleep upon My couch.” Amos to the priest who would silence him: I was no prophet, neither a prophet’s son; I was an herdman, and the Lord took me."
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "source:AB00097",
+   "responds": [
+    "source:AB00097"
+   ],
+   "relation": "adjacent",
+   "why": "Unschooled, and the learned brought him their hardest questions. Luke’s one story of Jesus’s boyhood: among the doctors in the temple, and all that heard him were astonished at his understanding and answers."
+  },
+  {
+   "id": "kings-queen-of-sheba",
+   "after": "source:ABU0123",
+   "responds": [
+    "source:ABU0123"
+   ],
+   "relation": "adjacent",
+   "why": "A renowned jurist’s students are perplexed and the young Bahá’u’lláh resolves the tradition. The Queen of Sheba came to prove Solomon with hard questions."
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "source:AB05088",
+   "responds": [
+    "source:AB05088"
+   ],
+   "relation": "contrast",
+   "why": "“What greater miracle than this?” The evidence offered is the witness of those present. Hume’s rule for such evidence: no testimony is sufficient to establish a miracle unless its falsehood would be more miraculous. How would a careful inquirer weigh what the readings report?"
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:ABU0127",
+   "responds": [
+    "source:ABU0127"
+   ],
+   "relation": "adjacent",
+   "why": "The divine teachers “have the innate light,” and the rest of the world is lit from them. John’s prologue: that was the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "xenophanes-by-seeking",
+   "after": "source:ABU0127",
+   "responds": [
+    "source:ABU0127"
+   ],
+   "relation": "contrast",
+   "why": "Through the divine teachers “the arts and sciences are revived in each age.” Xenophanes gave the other account of how knowledge grows: the gods have not revealed all things from the beginning, but by seeking men find in time what is better."
+  },
+  {
+   "id": "browning-earths-crammed-with-heaven",
+   "after": "source:ABU1840",
+   "responds": [
+    "source:ABU1840"
+   ],
+   "relation": "adjacent",
+   "why": "“Many people crossed the desert of Sinai but it was Moses who heard.” Elizabeth Barrett Browning: every common bush afire with God, but only he who sees takes off his shoes."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "adjacent",
+   "why": "“The prophets see many things with their inner eye.” Elisha sees an army his servant cannot, and prays: Lord, open his eyes, that he may see."
+  },
+  {
+   "id": "bacon-mark-when-they-hit",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "contrast",
+   "why": "The scientist with induction is called “a blind man who cannot see two steps ahead.” Bacon, who gave induction its modern form, explains why prophecies gain credit: men mark when they hit, and never mark when they miss. What can each kind of sight check in the other?"
+  },
+  {
+   "id": "quran-produce-the-like",
+   "after": "source:ABU2105",
+   "responds": [
+    "source:ABU2105"
+   ],
+   "relation": "adjacent",
+   "why": "“There is not a single learned man on the earth who can produce the like of them.” The Qur’án’s challenge on its own behalf: though mankind and the jinn should assemble, they could not produce the like thereof."
+  },
+  {
+   "id": "john-before-abraham-was",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "The heavenly station is the same “both before and after the intimation of their mission.” In John Jesus says: before Abraham was, I am."
+  },
+  {
+   "id": "luke-increased-in-wisdom",
+   "after": "source:BHU0006",
+   "responds": [
+    "source:BHU0006"
+   ],
+   "relation": "complement",
+   "why": "The Master is said to have grasped the sciences “upon merely hearing” them. Luke says of the child Jesus that he increased in wisdom and stature. Does growth belong to such a figure, or only its appearance?"
+  },
+  {
+   "id": "john-all-things-i-have-made-known",
+   "after": "source:ABU3666",
+   "responds": [
+    "source:ABU3666"
+   ],
+   "relation": "adjacent",
+   "why": "The apostles’ knowledge “proceeded from the bounties of Christ.” Jesus to them at the supper: all things that I have heard of my Father I have made known unto you."
+  },
+  {
+   "id": "matthew-take-no-thought-how-to-speak",
+   "after": "source:ABU3547",
+   "responds": [
+    "source:ABU3547"
+   ],
+   "relation": "adjacent",
+   "why": "“No, I do not know everything. But when I need to know something, it is pictured before Me.” Jesus promises his disciples something similar before governors: it shall be given you in that same hour what ye shall speak."
+  },
+  {
+   "id": "quran-upon-a-mountain",
+   "after": "source:BH00076",
+   "responds": [
+    "source:BH00076"
+   ],
+   "relation": "adjacent",
+   "why": "A hidden melody which, if disclosed, “would cause the mountains to crumble.” The Qur’án of itself: had it been sent down upon a mountain, thou wouldst have seen it humbled, rent asunder."
+  },
+  {
+   "id": "plato-neither-know-nor-think-that-i-know",
+   "after": "source:ABU1402",
+   "responds": [
+    "source:ABU1402"
+   ],
+   "relation": "contrast",
+   "why": "A Manifestation must “answer the questions of all the sages,” with knowledge infinite. The wisest man in Athens was marked by the opposite: I neither know nor think that I know. Are these two different excellences, or rivals?"
+  },
+  {
+   "id": "deuteronomy-eye-was-not-dim",
+   "after": "source:ABU1649",
+   "responds": [
+    "source:ABU1649"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations are distinguished “even … in their physical powers.” Deuteronomy says of Moses at a hundred and twenty that his eye was not dim, nor his natural force abated."
+  },
+  {
+   "id": "isaiah-no-beauty",
+   "after": "source:ABU1649",
+   "responds": [
+    "source:ABU1649"
+   ],
+   "relation": "contrast",
+   "why": "Bodily superiority is claimed for the Manifestation. Isaiah’s servant has no form nor comeliness, and no beauty that we should desire him. Why might a tradition insist on the one picture or the other?"
+  },
+  {
+   "id": "milton-foreknowledge-no-influence",
+   "after": "source:AB03274",
+   "responds": [
+    "source:AB03274"
+   ],
+   "relation": "adjacent",
+   "why": "Prophecy “was not the cause of the occurrence of these events.” Milton’s God says the same of the fall of the angels: if I foreknew, foreknowledge had no influence on their fault."
+  }
+ ],
+ "library": {
+  "deuteronomy-eye-was-not-dim": {
+   "text": "And Moses was an hundred and twenty years old when he died: his eye was not dim, nor his natural force abated",
+   "work": "Deuteronomy 34:7",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2034%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-knew-what-was-in-man": {
+   "text": "But Jesus did not commit himself unto them, because he knew all men, And needed not that any should testify of man: for he knew what was in man",
+   "work": "John 2:24–25",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%202%3A24-25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-all-things-i-have-made-known": {
+   "text": "Henceforth I call you not servants; for the servant knoweth not what his lord doeth: but I have called you friends; for all things that I have heard of my Father I have made known unto you",
+   "work": "John 15:15",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2015%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
