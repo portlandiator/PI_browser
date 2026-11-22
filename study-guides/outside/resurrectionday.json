@@ -1,0 +1,575 @@
+{
+ "format": 2,
+ "slug": "resurrectionday",
+ "subject": "4A0212925E1641028AE59AFCC9784431",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 40,
+ "quotations": 54,
+ "kept": [
+  "source:BH05838",
+  "source:BH06381",
+  "source:BH10897",
+  "source:BH05459",
+  "source:BH00827",
+  "source:BH00433",
+  "source:BB00324",
+  "source:AB02699",
+  "source:ABU1557",
+  "source:BB00506",
+  "source:BB00004",
+  "source:BB00002",
+  "source:BB00244",
+  "source:BB00350",
+  "source:BB00087",
+  "source:BH02116",
+  "source:BH00783",
+  "source:BH01506",
+  "source:BH11103",
+  "source:BH05688",
+  "source:BH07205",
+  "source:BH11226",
+  "source:BH10801",
+  "source:BH09411",
+  "source:AB05701",
+  "source:AB06346",
+  "source:BH01221",
+  "source:BH00135",
+  "source:AB09082",
+  "source:AB08478",
+  "source:AB09824",
+  "source:BH04663",
+  "source:BB00330",
+  "source:BB00273",
+  "source:BB00454",
+  "source:BB00001",
+  "source:BH07016",
+  "source:BH04361",
+  "source:BH05245",
+  "source:BB00599"
+ ],
+ "introduction": "The Báb and Bahá’u’lláh announce that the Day of Resurrection is here: the trumpet has sounded, the dead have been raised “in the tombs of the living,” the Balance is set up, and most people have noticed nothing. The readings explain what is meant. Resurrection is the appearance of a new Manifestation; the resurrection of each religion is the coming of the next; the judgment is the response each soul makes; and the cosmic images are true of the inner world. Then the readings return to their old use, which is to ask what one has done. The Bible and the Qur’án supply the images the readings assume (trumpet, books, balance, clouds, the folded heavens), and also a present-tense strand that is easy to miss: “the hour is coming, and now is,” “I am the resurrection,” “this is that which was spoken by the prophet Joel.” Against the readings stand the literal hope of Job and Hopkins, the fire of Second Peter, the scoffers’ fair question why nothing looks different, and an early Christian warning against saying that the resurrection is past.",
+ "questions": [
+  "“The Hour hath passed … yet the people see and perceive not.” What kind of event can be the greatest of all and go unseen? What would seeing it consist of?",
+  "The Báb says the resurrection of each revelation is the appearance of the next. Read Martha’s exchange with Jesus and Peter’s speech at Pentecost. Do they support this reading, and how far?",
+  "Second Timothy condemns those who say “the resurrection is past already.” What did that claim take away from its hearers, and does Bahá’u’lláh’s announcement take the same things away?",
+  "Job and Hopkins hope for a bodily rising. What do these readings say to the hope of personal survival and reunion, and where would you look in the Bahá’í writings for the rest?",
+  "The scoffers say “all things continue as they were.” List what the readings claim has changed. Which of those changes could an observer check?",
+  "The Báb’s long passage on being “questioned” keeps the Day as a day of account. How does believing that the Day has come alter the way a person examines what he has done?"
+ ],
+ "outside": [
+  {
+   "id": "john-dead-shall-hear",
+   "after": "source:BH05838",
+   "responds": [
+    "source:BH05838"
+   ],
+   "relation": "adjacent",
+   "why": "“The Hour hath passed and the Resurrection hath come to pass, yet the people see and perceive not.” Jesus spoke of the hour in the present tense too: the hour is coming, and now is, when the dead shall hear the voice of the Son of God."
+  },
+  {
+   "id": "timothy-resurrection-is-past-already",
+   "after": "source:BH05838",
+   "responds": [
+    "source:BH05838"
+   ],
+   "relation": "contrast",
+   "why": "The Resurrection has come to pass. An early Christian letter treats a claim in those words as ruinous: who concerning the truth have erred, saying that the resurrection is past already; and overthrow the faith of some. What is the difference between that claim and Bahá’u’lláh’s, and what does each do to hope and to accountability?"
+  },
+  {
+   "id": "isaiah-eyes-of-the-blind",
+   "after": "source:BH06381",
+   "responds": [
+    "source:BH06381"
+   ],
+   "relation": "adjacent",
+   "why": "“This is the Day of hearing … this is the Day of vision.” Isaiah of the promised day: then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped."
+  },
+  {
+   "id": "ephesians-awake-thou",
+   "after": "source:BH10897",
+   "responds": [
+    "source:BH10897"
+   ],
+   "relation": "adjacent",
+   "why": "“The heedless are in a strange sleep.” An early Christian hymn quoted by Paul: awake thou that sleepest, and arise from the dead."
+  },
+  {
+   "id": "dhammapada-awake-among-the-sleepers",
+   "after": "source:BH10897",
+   "responds": [
+    "source:BH10897"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada has the same picture of the few: earnest among the thoughtless, awake among the sleepers."
+  },
+  {
+   "id": "quran-hour-is-surely-coming",
+   "after": "source:BH05459",
+   "responds": [
+    "source:BH05459"
+   ],
+   "relation": "adjacent",
+   "why": "“Most of the people are in evident doubt.” The Qur’án: the Hour is surely coming, there is no doubt thereof; yet most of mankind believe not."
+  },
+  {
+   "id": "john-passed-from-death-unto-life",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever hears and acknowledges “hath traversed the Bridge, the Balance.” Jesus: he that heareth my word shall not come into condemnation; but is passed from death unto life."
+  },
+  {
+   "id": "quran-fifty-thousand-years",
+   "after": "source:AB02699",
+   "responds": [
+    "source:AB02699"
+   ],
+   "relation": "adjacent",
+   "why": "A Day of “fifty thousand years, though this number is symbolic.” The verse behind the number: a Day whereof the span is fifty thousand years."
+  },
+  {
+   "id": "quran-am-i-not-your-lord",
+   "after": "source:AB02699",
+   "responds": [
+    "source:AB02699"
+   ],
+   "relation": "adjacent",
+   "why": "“With one call of ‘Am I not?’” The Qur’án’s scene of the first covenant, when all the children of Adam were asked: Am I not your Lord? They said: Yea, verily."
+  },
+  {
+   "id": "john-loved-darkness",
+   "after": "source:ABU1557",
+   "responds": [
+    "source:ABU1557"
+   ],
+   "relation": "adjacent",
+   "why": "The judgment of the Gospel “is a spiritual judgment.” John’s Gospel defines it so: this is the condemnation, that light is come into the world, and men loved darkness rather than light."
+  },
+  {
+   "id": "peter-elements-shall-melt",
+   "after": "source:ABU1557",
+   "responds": [
+    "source:ABU1557"
+   ],
+   "relation": "contrast",
+   "why": "It is not meant that the world will end. The Second Letter of Peter expects exactly that: the heavens shall pass away with a great noise, and the elements shall melt with fervent heat. On what grounds do the readings take such language as figure, and what would be lost if it were only figure?"
+  },
+  {
+   "id": "john-resurrection-and-the-life",
+   "after": "source:BB00506",
+   "responds": [
+    "source:BB00506"
+   ],
+   "relation": "adjacent",
+   "why": "The resurrection of each revelation is the appearance of the next. Martha expected her brother to rise “at the last day”; Jesus answered in the present: I am the resurrection, and the life."
+  },
+  {
+   "id": "acts-spoken-by-the-prophet-joel",
+   "after": "source:BB00506",
+   "responds": [
+    "source:BB00506"
+   ],
+   "relation": "adjacent",
+   "why": "Peter at Pentecost, explaining a noisy morning in Jerusalem by a prophecy of the end: this is that which was spoken by the prophet Joel; it shall come to pass in the last days."
+  },
+  {
+   "id": "luke-was-dead-and-is-alive",
+   "after": "source:BB00506",
+   "responds": [
+    "source:BB00506"
+   ],
+   "relation": "adjacent",
+   "why": "Death and rising used of a change in the living. The father in the parable: this thy brother was dead, and is alive again."
+  },
+  {
+   "id": "luke-time-of-thy-visitation",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "“The Primal Tree hath appeared, yet ye aided it not.” Jesus over Jerusalem: thou knewest not the time of thy visitation."
+  },
+  {
+   "id": "quran-come-alone",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "“He will surely gather you together on the Day of Resurrection.” The Qur’án: each one of them will come unto Him on the Day of Resurrection, alone."
+  },
+  {
+   "id": "joel-who-can-abide-it",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "“Fear ye God and weep for your souls.” Joel: the day of the Lord is great and very terrible; and who can abide it?"
+  },
+  {
+   "id": "zephaniah-great-day-of-the-lord",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The text behind the medieval Dies Irae: that day is a day of wrath, a day of trouble and distress."
+  },
+  {
+   "id": "amos-woe-unto-you-that-desire",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "complement",
+   "why": "The Day came to people who were sure they wanted it. Amos: woe unto you that desire the day of the Lord! to what end is it for you? Why would the promised Day be feared by a prophet and missed by the devout?"
+  },
+  {
+   "id": "matthew-every-idle-word",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "“Ye shall in truth be questioned.” Jesus: every idle word that men shall speak, they shall give account thereof in the day of judgment."
+  },
+  {
+   "id": "romans-according-to-his-deeds",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The questioning is about deeds. Paul says the same of the day of judgment: God will render to every man according to his deeds."
+  },
+  {
+   "id": "quran-scales-of-justice",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án: We set a just balance for the Day of Resurrection so that no soul is wronged in aught, though it be of the weight of a grain of mustard seed."
+  },
+  {
+   "id": "revelation-books-were-opened",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The vision of John: the books were opened, and the dead were judged out of those things which were written in the books, according to their works."
+  },
+  {
+   "id": "luke-nothing-covered",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "“We shall unveil the secrets on the Day of Resurrection.” Jesus: there is nothing covered, that shall not be revealed; neither hid, that shall not be known."
+  },
+  {
+   "id": "corinthians-small-thing-to-be-judged",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul, declining both praise and blame until then: he that judgeth me is the Lord, who will bring to light the hidden things of darkness."
+  },
+  {
+   "id": "quran-atoms-weight",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The measure used in the questioning: whoso doeth good an atom’s weight will see it then, and whoso doeth ill an atom’s weight will see it then."
+  },
+  {
+   "id": "donne-round-earths-imagined-corners",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "complement",
+   "why": "Donne calls for the trumpets and all the dead, and then asks for delay: but let them sleep, Lord, and me mourn a space; here on this lowly ground teach me how to repent. What does it change to believe that the questioning has already begun?"
+  },
+  {
+   "id": "isaiah-destroy-the-vail",
+   "after": "source:BB00244",
+   "responds": [
+    "source:BB00244"
+   ],
+   "relation": "adjacent",
+   "why": "Nothing veils a person “save that which thy vain imaginings have veiled.” Isaiah’s promise: he will destroy the face of the covering cast over all people, and the vail that is spread over all nations."
+  },
+  {
+   "id": "revelation-name-that-thou-livest",
+   "after": "source:BB00350",
+   "responds": [
+    "source:BB00350"
+   ],
+   "relation": "adjacent",
+   "why": "“No spirit of the Bayán remained in any heart” save a few. The letter to Sardis: thou hast a name that thou livest, and art dead."
+  },
+  {
+   "id": "ezekiel-open-your-graves",
+   "after": "source:BB00087",
+   "responds": [
+    "source:BB00087"
+   ],
+   "relation": "adjacent",
+   "why": "“All have been raised in the tombs of the living.” Ezekiel to a nation in exile that called itself dead: I will open your graves, and cause you to come up out of your graves."
+  },
+  {
+   "id": "luke-let-the-dead-bury",
+   "after": "source:BB00087",
+   "responds": [
+    "source:BB00087"
+   ],
+   "relation": "adjacent",
+   "why": "The living spoken of as dead. Jesus: let the dead bury their dead: but go thou and preach the kingdom of God."
+  },
+  {
+   "id": "matthew-signs-of-the-times",
+   "after": "source:BH02116",
+   "responds": [
+    "source:BH02116"
+   ],
+   "relation": "adjacent",
+   "why": "Question and answer about signs fulfilled before eyes that do not see them. Jesus: ye can discern the face of the sky; but can ye not discern the signs of the times?"
+  },
+  {
+   "id": "peter-where-is-the-promise",
+   "after": "source:BH02116",
+   "responds": [
+    "source:BH02116"
+   ],
+   "relation": "contrast",
+   "why": "“Have the tree trunks been uprooted?” The scoffers of the Second Letter of Peter made the plain observation: where is the promise of his coming? all things continue as they were from the beginning of the creation. What do the readings point to in reply, since the mountains are still standing?"
+  },
+  {
+   "id": "quran-whole-earth-his-handful",
+   "after": "source:BH00783",
+   "responds": [
+    "source:BH00783"
+   ],
+   "relation": "adjacent",
+   "why": "“The heavens shall be folded up in the right hand of Power.” The Qur’án: the whole earth is His handful on the Day of Resurrection, and the heavens are rolled in His right hand."
+  },
+  {
+   "id": "isaiah-heavens-rolled-together",
+   "after": "source:BH00783",
+   "responds": [
+    "source:BH00783"
+   ],
+   "relation": "adjacent",
+   "why": "The image is older than the Qur’án. Isaiah had it of the day of the Lord: the heavens shall be rolled together as a scroll."
+  },
+  {
+   "id": "quran-trumpet-is-blown",
+   "after": "source:BH01506",
+   "responds": [
+    "source:BH01506"
+   ],
+   "relation": "adjacent",
+   "why": "“The Trump hath been sounded.” The Qur’án: the trumpet is blown, and all who are in the heavens and the earth swoon away, save him whom Allah willeth."
+  },
+  {
+   "id": "corinthians-last-trump",
+   "after": "source:BH11103",
+   "responds": [
+    "source:BH11103"
+   ],
+   "relation": "adjacent",
+   "why": "Paul: in a moment, in the twinkling of an eye, at the last trump: for the trumpet shall sound."
+  },
+  {
+   "id": "daniel-writing-on-the-wall",
+   "after": "source:BH05688",
+   "responds": [
+    "source:BH05688"
+   ],
+   "relation": "adjacent",
+   "why": "“The Balance hath been set up.” The writing on a king’s wall in Babylon: thou art weighed in the balances, and art found wanting."
+  },
+  {
+   "id": "thessalonians-thief-in-the-night",
+   "after": "source:BH07205",
+   "responds": [
+    "source:BH07205"
+   ],
+   "relation": "adjacent",
+   "why": "“Hath the Hour arrived?” It was always said that it would come unannounced. Paul: the day of the Lord so cometh as a thief in the night."
+  },
+  {
+   "id": "quran-earth-barren-then-it-thrills",
+   "after": "source:AB05701",
+   "responds": [
+    "source:AB05701"
+   ],
+   "relation": "adjacent",
+   "why": "“The hour of resurrection and revival.” The Qur’án’s own argument for resurrection is spring: thou seest the earth barren, but when We send down water thereon, it doth thrill and swell and put forth every lovely kind."
+  },
+  {
+   "id": "romans-high-time-to-awake",
+   "after": "source:AB06346",
+   "responds": [
+    "source:AB06346"
+   ],
+   "relation": "adjacent",
+   "why": "“Darkness vanished, the light of guidance shone forth.” Paul: the night is far spent, the day is at hand."
+  },
+  {
+   "id": "matthew-preach-upon-the-housetops",
+   "after": "source:BH01221",
+   "responds": [
+    "source:BH01221"
+   ],
+   "relation": "adjacent",
+   "why": "The Day when “whatsoever hath been hidden … becometh manifest.” Jesus: what ye hear in the ear, that preach ye upon the housetops."
+  },
+  {
+   "id": "luke-kingdom-within-you",
+   "after": "source:BH00135",
+   "responds": [
+    "source:BH00135"
+   ],
+   "relation": "adjacent",
+   "why": "“The human temple is, in one station, the kingdom of God.” Jesus: the kingdom of God is within you."
+  },
+  {
+   "id": "revelation-new-heaven-and-new-earth",
+   "after": "source:AB09082",
+   "responds": [
+    "source:AB09082"
+   ],
+   "relation": "adjacent",
+   "why": "God “gathered together all in existence for the next creation.” The seer of Revelation: I saw a new heaven and a new earth: for the first heaven and the first earth were passed away."
+  },
+  {
+   "id": "matthew-inasmuch",
+   "after": "source:AB08478",
+   "responds": [
+    "source:AB08478"
+   ],
+   "relation": "adjacent",
+   "why": "All were gathered, “one group in paradise and one group in the fire.” In Jesus’ scene of the gathering the two groups are divided by what they did for the hungry and the stranger: inasmuch as ye have done it unto one of the least of these."
+  },
+  {
+   "id": "matthew-last-shall-be-first",
+   "after": "source:AB09824",
+   "responds": [
+    "source:AB09824"
+   ],
+   "relation": "adjacent",
+   "why": "On this Day “the distant becometh near … the learned ignorant, the poor wealthy.” Jesus: the last shall be first, and the first last."
+  },
+  {
+   "id": "luke-put-down-the-mighty",
+   "after": "source:AB09824",
+   "responds": [
+    "source:AB09824"
+   ],
+   "relation": "adjacent",
+   "why": "Mary’s song: he hath put down the mighty from their seats, and exalted them of low degree."
+  },
+  {
+   "id": "john-nicodemus",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Past readers “fancifully imagined a thing” in place of the Day’s meaning. Nicodemus, hearing of new birth: can a man enter the second time into his mother’s womb?"
+  },
+  {
+   "id": "job-in-my-flesh-shall-i-see-god",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "contrast",
+   "why": "The Day of Resurrection is the day a Manifestation appears. Generations have hoped for something more bodily, in Job’s words: though after my skin worms destroy this body, yet in my flesh shall I see God. What do the readings offer to someone whose hope is to see the dead again?"
+  },
+  {
+   "id": "hopkins-immortal-diamond",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "contrast",
+   "why": "Hopkins, a priest writing in 1888, held the old expectation whole: in a flash, at a trumpet crash, this Jack, joke, poor potsherd is immortal diamond. Can the symbolic reading and this one be held together?"
+  },
+  {
+   "id": "daniel-son-of-man",
+   "after": "source:BH07016",
+   "responds": [
+    "source:BH07016"
+   ],
+   "relation": "adjacent",
+   "why": "God “shall come with His Cause upon clouds.” Daniel: one like the Son of man came with the clouds of heaven."
+  },
+  {
+   "id": "quran-shadows-of-the-clouds",
+   "after": "source:BH07016",
+   "responds": [
+    "source:BH07016"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án: wait they for naught else than that Allah should come unto them in the shadows of the clouds with the angels?"
+  },
+  {
+   "id": "revelation-rest-from-their-labours",
+   "after": "source:BH04361",
+   "responds": [
+    "source:BH04361"
+   ],
+   "relation": "adjacent",
+   "why": "“Every soul hath come with its deeds.” Revelation: their works do follow them."
+  },
+  {
+   "id": "quran-day-as-thousand-years",
+   "after": "source:BH05245",
+   "responds": [
+    "source:BH05245"
+   ],
+   "relation": "adjacent",
+   "why": "The Last Day “when people shall stand before the Lord.” On the length of such a day the Qur’án says: a Day with Allah is as a thousand years of what ye reckon."
+  }
+ ],
+ "library": {
+  "timothy-resurrection-is-past-already": {
+   "text": "But shun profane and vain babblings: for they will increase unto more ungodliness. And their word will eat as doth a canker: of whom is Hymenaeus and Philetus; Who concerning the truth have erred, saying that the resurrection is past already; and overthrow the faith of some",
+   "work": "2 Timothy 2:16–18",
+   "year": "c. 80–120 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Timothy%202%3A16-18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
