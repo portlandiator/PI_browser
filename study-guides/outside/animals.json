@@ -1,0 +1,514 @@
+{
+ "format": 2,
+ "slug": "animals",
+ "subject": "484B9ADCF51B49ABAC2901C126EE1E4E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 24,
+ "kept": [
+  "source:AB00890",
+  "source:AB04017",
+  "source:AB06750",
+  "source:ABU1026",
+  "source:ABU1749",
+  "source:ABU3135",
+  "source:ABU2394",
+  "source:AB09737",
+  "source:AB01199",
+  "source:AB00767",
+  "source:ABU2764",
+  "source:ABU2296",
+  "source:ABU1960",
+  "source:BH00001",
+  "source:ABU1459",
+  "source:ABU2128",
+  "source:AB01394",
+  "source:ABU1368",
+  "source:ABU3680",
+  "source:ABU0471",
+  "source:ABU1895",
+  "source:BH00002"
+ ],
+ "introduction": "“The selfsame feelings are shared by animal and man.” ‘Abdu’l-Bahá’s argument for kindness to animals rests on one fact: they suffer as we do, and cannot speak for themselves, so that the obligation toward them is in one respect greater than toward people. The readings are short and concrete: do not strike an animal; feed the fallen one; a dog remembers kindness; hunting for pleasure is discouraged; meat is permitted, and people can live without it. The Hebrew law already protected the working ox, the fallen ass and the nesting bird, the Qur’án calls animals “peoples like unto you,” and Jesus assumes that anyone would lift a sheep from a pit on the sabbath. Bentham’s “Can they suffer?” and Isabella’s beetle make the readings’ argument from feeling; Burns, Whitman, Francis and Homer’s Argos show the fellowship. Two passages put the hard questions: Genesis hands humankind “the fear … and the dread” of every beast, and Paul asks, of the law about the ox, “Doth God take care for oxen?”",
+ "questions": [
+  "“The selfsame feelings are shared by animal and man.” What follows for you from taking that sentence seriously?",
+  "The animal cannot complain or appeal, and so, ‘Abdu’l-Bahá says, deserves more consideration. Where else does that principle apply?",
+  "Meat is permitted, and “man can live without meat.” How do you hold both statements in what you eat?",
+  "Genesis speaks of dominion and dread; Burns apologizes to a mouse for “man’s dominion.” What would dominion exercised as the readings ask look like?"
+ ],
+ "outside": [
+  {
+   "id": "bentham-can-they-suffer",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "“The selfsame feelings are shared by animal and man.” Bentham, a century earlier: the question is not, Can they reason? nor, Can they talk? but, Can they suffer?"
+  },
+  {
+   "id": "shakespeare-poor-beetle-that-we-tread-upon",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "Man “believeth that physical sensations are confined to” himself. Isabella: the poor beetle, that we tread upon, in corporal sufferance finds a pang as great as when a giant dies."
+  },
+  {
+   "id": "quran-communities-like-unto-you",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án: there is not an animal in the earth, nor a flying creature flying on two wings, but they are peoples like unto you."
+  },
+  {
+   "id": "deuteronomy-birds-nest",
+   "after": "source:AB04017",
+   "responds": [
+    "source:AB04017"
+   ],
+   "relation": "adjacent",
+   "why": "“Even show hospitality to wild beasts and birds.” The law of Moses reaches as far as a nest by the road: thou shalt not take the dam with the young."
+  },
+  {
+   "id": "isaiah-little-child-shall-lead-them",
+   "after": "source:AB04017",
+   "responds": [
+    "source:AB04017"
+   ],
+   "relation": "adjacent",
+   "why": "Fellowship spread wide enough to include them. Isaiah: the wolf also shall dwell with the lamb, and the leopard shall lie down with the kid."
+  },
+  {
+   "id": "samuel-one-little-ewe-lamb",
+   "after": "source:AB06750",
+   "responds": [
+    "source:AB06750"
+   ],
+   "relation": "adjacent",
+   "why": "Raise birds, “that you may learn to nurture living beings.” Nathan’s parable of a poor man and his one lamb: it grew up together with him, and with his children; it did eat of his own meat, and was unto him as a daughter."
+  },
+  {
+   "id": "proverbs-regardeth-the-life-of-his-beast",
+   "after": "source:ABU1026",
+   "responds": [
+    "source:ABU1026"
+   ],
+   "relation": "adjacent",
+   "why": "A man sees a fallen animal and orders that it be fed every day. Proverbs: a righteous man regardeth the life of his beast."
+  },
+  {
+   "id": "exodus-ass-lying-under-his-burden",
+   "after": "source:ABU1026",
+   "responds": [
+    "source:ABU1026"
+   ],
+   "relation": "adjacent",
+   "why": "Exodus: if thou see the ass of him that hateth thee lying under his burden, thou shalt surely help with him."
+  },
+  {
+   "id": "numbers-what-have-i-done-unto-thee",
+   "after": "source:ABU1749",
+   "responds": [
+    "source:ABU1749"
+   ],
+   "relation": "adjacent",
+   "why": "“It is not permissible to strike even an animal.” Balaam’s ass, given a voice: what have I done unto thee, that thou hast smitten me these three times?"
+  },
+  {
+   "id": "psalm-tender-mercies-over-all-his-works",
+   "after": "source:ABU3135",
+   "responds": [
+    "source:ABU3135"
+   ],
+   "relation": "adjacent",
+   "why": "A dog is beaten for entering a seminary. The psalm: the Lord is good to all: and his tender mercies are over all his works."
+  },
+  {
+   "id": "homer-argos-wagged-his-tail",
+   "after": "source:ABU2394",
+   "responds": [
+    "source:ABU2394"
+   ],
+   "relation": "adjacent",
+   "why": "A dog “will never forget” a kindness. Odysseus came home after twenty years disguised as a beggar, and only his old dog knew him: he dropped his ears and wagged his tail, but he could not get close up to his master."
+  },
+  {
+   "id": "matthew-sparrow-shall-not-fall",
+   "after": "source:AB09737",
+   "responds": [
+    "source:AB09737"
+   ],
+   "relation": "adjacent",
+   "why": "Both man and animal “have received a share from this life.” Jesus: one sparrow shall not fall on the ground without your Father."
+  },
+  {
+   "id": "jonah-and-also-much-cattle",
+   "after": "source:AB09737",
+   "responds": [
+    "source:AB09737"
+   ],
+   "relation": "adjacent",
+   "why": "“Mercy is commended … whether it is exercised toward” man or animal. The last words of the book of Jonah count the animals among those spared: sixscore thousand persons, and also much cattle."
+  },
+  {
+   "id": "corinthians-doth-god-take-care-for-oxen",
+   "after": "source:AB01199",
+   "responds": [
+    "source:AB01199"
+   ],
+   "relation": "contrast",
+   "why": "“In this Cause there is great emphasis placed on showing kindness to animals.” Paul, quoting the law about the ox, asks: doth God take care for oxen? He thought the law was really about people. How would the readings answer his question?"
+  },
+  {
+   "id": "genesis-every-moving-thing-shall-be-meat",
+   "after": "source:AB00767",
+   "responds": [
+    "source:AB00767"
+   ],
+   "relation": "contrast",
+   "why": "On the slaughter of animals the reading speaks of one kingdom rising into another. Genesis grants the permission in starker terms: the fear of you and the dread of you shall be upon every beast; every moving thing that liveth shall be meat for you. What responsibilities come with a power described like that?"
+  },
+  {
+   "id": "burns-mans-dominion",
+   "after": "source:ABU2764",
+   "responds": [
+    "source:ABU2764"
+   ],
+   "relation": "adjacent",
+   "why": "“It is indeed very grievous to kill a lamb.” Burns, having turned up a mouse’s nest with his plough: I’m truly sorry man’s dominion has broken Nature’s social union."
+  },
+  {
+   "id": "whitman-live-with-animals",
+   "after": "source:ABU2296",
+   "responds": [
+    "source:ABU2296"
+   ],
+   "relation": "adjacent",
+   "why": "Watching birds and animals killed, “I thought this could not be right.” Whitman: I think I could turn and live with animals, they are so placid and self-contain’d."
+  },
+  {
+   "id": "francis-brother-wind-sister-water",
+   "after": "source:ABU1960",
+   "responds": [
+    "source:ABU1960"
+   ],
+   "relation": "adjacent",
+   "why": "“Don’t kill these innocent birds.” Francis of Assisi called every creature brother and sister: praised be my Lord for brother wind, and for sister water."
+  },
+  {
+   "id": "deuteronomy-not-muzzle-the-ox",
+   "after": "source:ABU1459",
+   "responds": [
+    "source:ABU1459"
+   ],
+   "relation": "adjacent",
+   "why": "Laws now “restrict the cruelty of man toward animals.” One of the oldest such laws: thou shalt not muzzle the ox when he treadeth out the corn."
+  },
+  {
+   "id": "matthew-sheep-fall-into-a-pit-on-the-sabbath",
+   "after": "source:ABU1459",
+   "responds": [
+    "source:ABU1459"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus took it for granted that anyone would break the sabbath for an animal in distress: will he not lay hold on it, and lift it out?"
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:AB01394",
+   "responds": [
+    "source:AB01394"
+   ],
+   "relation": "adjacent",
+   "why": "“To the people of truth, animal, like unto man, is very dear.” Job: ask now the beasts, and they shall teach thee; and the fowls of the air, and they shall tell thee."
+  },
+  {
+   "id": "romans-whole-creation-groaneth",
+   "after": "source:ABU3680",
+   "responds": [
+    "source:ABU3680"
+   ],
+   "relation": "adjacent",
+   "why": "Sheep and cow “raise their cries of anguish.” Paul: the whole creation groaneth and travaileth in pain together until now."
+  },
+  {
+   "id": "romans-eateth-herbs",
+   "after": "source:ABU0471",
+   "responds": [
+    "source:ABU0471"
+   ],
+   "relation": "complement",
+   "why": "“Man can live without meat,” yet eating it is permitted. Paul on those who ate meat and those who would not: let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth. What do the readings ask of each?"
+  },
+  {
+   "id": "luke-lost-sheep",
+   "after": "source:ABU1895",
+   "responds": [
+    "source:ABU1895"
+   ],
+   "relation": "adjacent",
+   "why": "An animal’s love is instinct; what a human being chooses is asked for the more. The shepherd of the parable: doth he not leave the ninety and nine in the wilderness, and go after that which is lost?"
+  }
+ ],
+ "library": {
+  "exodus-ass-lying-under-his-burden": {
+   "text": "If thou see the ass of him that hateth thee lying under his burden, and wouldest forbear to help him, thou shalt surely help with him",
+   "work": "Exodus 23:5",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2023%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-birds-nest": {
+   "text": "If a bird's nest chance to be before thee in the way in any tree, or on the ground, whether they be young ones, or eggs, and the dam sitting upon the young, or upon the eggs, thou shalt not take the dam with the young: But thou shalt in any wise let the dam go, and take the young to thee; that it may be well with thee, and that thou mayest prolong thy days",
+   "work": "Deuteronomy 22:6–7",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2022%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-tender-mercies-over-all-his-works": {
+   "text": "The Lord is good to all: and his tender mercies are over all his works",
+   "work": "Psalm 145:9",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20145%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jonah-and-also-much-cattle": {
+   "text": "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle",
+   "work": "Jonah 4:11",
+   "year": "c. 5th–4th century BCE",
+   "sortYear": -400,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jonah%204%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "numbers-what-have-i-done-unto-thee": {
+   "text": "And the Lord opened the mouth of the ass, and she said unto Balaam, What have I done unto thee, that thou hast smitten me these three times",
+   "work": "Numbers 22:28",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Numbers%2022%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-one-little-ewe-lamb": {
+   "text": "But the poor man had nothing, save one little ewe lamb, which he had bought and nourished up: and it grew up together with him, and with his children; it did eat of his own meat, and drank of his own cup, and lay in his bosom, and was unto him as a daughter",
+   "work": "2 Samuel 12:3",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Samuel%2012%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-every-moving-thing-shall-be-meat": {
+   "text": "And the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, upon all that moveth upon the earth, and upon all the fishes of the sea; into your hand are they delivered. Every moving thing that liveth shall be meat for you; even as the green herb have I given you all things",
+   "work": "Genesis 9:2–3",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%209%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-doth-god-take-care-for-oxen": {
+   "text": "For it is written in the law of Moses, thou shalt not muzzle the mouth of the ox that treadeth out the corn. Doth God take care for oxen",
+   "work": "1 Corinthians 9:9",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%209%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "shakespeare-poor-beetle-that-we-tread-upon": {
+   "text": "the poor beetle, that we tread upon, / In corporal sufferance finds a pang as great / As when a giant dies",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Measure for Measure",
+   "locator": "Act 3, scene 1",
+   "year": "1604",
+   "sortYear": 1604,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/measure/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1623"
+   }
+  },
+  "burns-mans-dominion": {
+   "text": "I'm truly sorry man's dominion / Has broken Nature's social union, / And justifies that ill opinion, / Which makes thee startle / At me, thy poor earth-born companion / And fellow-mortal",
+   "verse": true,
+   "author": "Robert Burns",
+   "work": "To a Mouse",
+   "year": "1785",
+   "sortYear": 1785,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_That_Every_Child_Should_Know/To_a_Mouse",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1796."
+   }
+  },
+  "homer-argos-wagged-his-tail": {
+   "text": "As soon as he saw Ulysses standing there, he dropped his ears and wagged his tail, but he could not get close up to his master",
+   "author": "Homer",
+   "work": "The Odyssey",
+   "locator": "Book XVII",
+   "year": "c. 8th century BCE",
+   "sortYear": -750,
+   "tradition": "Greek and Roman",
+   "kind": "literature",
+   "source": {
+    "url": "https://classics.mit.edu/Homer/odyssey.17.xvii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "translated by Samuel Butler, 1900"
+   }
+  }
+ }
+}
