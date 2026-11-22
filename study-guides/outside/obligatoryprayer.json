@@ -2,7 +2,7 @@
  "format": 2,
  "slug": "obligatoryprayer",
  "subject": "B7A38539E06DEF99A0FEFEB648DF4ABB",
- "status": "draft",
+ "status": "published",
  "limit": 100,
  "rule": "whole",
  "readings": 59,
@@ -232,6 +232,15 @@
    ],
    "relation": "adjacent",
    "why": "Fasting and obligatory prayer are the sun and moon of religion. Jesus takes both for granted and asks only that they be hidden: when thou fastest, anoint thine head, and wash thy face."
+  },
+  {
+   "id": "quran-worship-preserveth-from-lewdness",
+   "after": "source:BH02219",
+   "responds": [
+    "source:BH02219"
+   ],
+   "relation": "adjacent",
+   "why": "Hope “is manifested through outward deeds,” with fasting and prayer as its sun and moon. The Qur’án on what the outward deed does to a life: establish worship; worship preserveth from lewdness and iniquity, but verily remembrance of Allah is more important."
   },
   {
    "id": "isaiah-chosen-fast",
