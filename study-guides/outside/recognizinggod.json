@@ -1,0 +1,416 @@
+{
+ "format": 2,
+ "slug": "recognizinggod",
+ "subject": "9D3855920D804CC38601F6D85145019F",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 33,
+ "quotations": 40,
+ "kept": [
+  "source:BH00690",
+  "source:BH10124",
+  "source:BH03835",
+  "source:AB00395",
+  "source:ABU0196",
+  "source:AB00105",
+  "source:BH07585",
+  "source:BB00012",
+  "source:BH00210",
+  "source:BH00005",
+  "source:BH00316",
+  "source:BH03113",
+  "source:AB01391",
+  "source:BH01326",
+  "source:BH01099",
+  "source:BH00366",
+  "source:BH00002",
+  "source:BH00004",
+  "source:BH02006",
+  "source:BB00005",
+  "source:BB00238",
+  "source:BB00036",
+  "source:BH00668",
+  "source:AB01722",
+  "source:AB00319",
+  "source:BH00652",
+  "source:BH00271",
+  "selection:d60a6d0a4c06d748f31f7729",
+  "selection:4202d08b034cc2ba3c51d0c7",
+  "selection:141611455f3d413697a2abfe",
+  "selection:dbca3f3f3d422b72b06d0db2",
+  "selection:195c46d88c3329c307be3c76",
+  "selection:0f2c1c374a02c5a1d5367bff"
+ ],
+ "introduction": "These readings say one thing from many sides: the Essence of God is beyond every mind, and what can be known of God is known in the Manifestation, as the sun is seen in a mirror. Beside them stand the scriptures that say the same of their own messengers, the philosophers and poets who agree that God cannot be conceived, and a few who conclude from it that God is found everywhere, or within, or nowhere. The last readings ask each person to see with their own eyes and leave the reach of mercy open, and their companions do the same.",
+ "questions": [
+  "John, Paul and the Qur’an each say that God is unseen and is made known through one sent. What do the readings add to them, and what do they decline to say?",
+  "Xenophanes and Feuerbach agree with the readings that people worship a God of their own conception. Where do the three part company?",
+  "Whitman, Tennyson and Emerson find God in the street, in a flower and in themselves. What would be lost, according to the readings, without one focal point?",
+  "How can a person be told to see with their own eyes and also be told that the meanings are known only to the Interpreter?",
+  "What difference does the last reading, on infinite mercy, make to how the earlier ones should be spoken of to people of other faiths or none?"
+ ],
+ "outside": [
+  {
+   "id": "quran-behind-a-veil",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "No “tie of direct intercourse” binds God to creation. The Qur’an says it of speech: it was not vouchsafed to any mortal that God should speak to him unless by revelation, from behind a veil, or by a messenger."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:BH10124",
+   "responds": [
+    "source:BH10124"
+   ],
+   "relation": "adjacent",
+   "why": "The Unseen is known through the Visible One. John’s prologue: no man hath seen God at any time; the only begotten Son, he hath declared him."
+  },
+  {
+   "id": "john-seen-the-father",
+   "after": "source:BH03835",
+   "responds": [
+    "source:BH03835"
+   ],
+   "relation": "adjacent",
+   "why": "He Who is hidden is known only through His Manifestation, whose proof is His own Person. Philip asks to be shown the Father and is answered: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH03835",
+   "responds": [
+    "source:BH03835"
+   ],
+   "relation": "contrast",
+   "why": "No greater proof than “the proof of His own Person”. Paine objected that a person can be proof only to those who met him: it is revelation to the first person only, and hearsay to every other. What do the readings offer those who come later?"
+  },
+  {
+   "id": "hebrews-express-image",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestation is “the mirror held before this Sun”. The Letter to the Hebrews says it of Christ: the brightness of his glory, and the express image of his person."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "The reality of the Divinity cannot be known; its bounties and attributes can. Newton, closing the Principia, says we have no idea of the substance of God and know him only by his contrivances."
+  },
+  {
+   "id": "whitman-letters-from-god",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "contrast",
+   "why": "Other beings have “each received only a portion of that light”. Whitman is content with the portions: he finds letters from God dropt in the street, every one signed by God’s name, and leaves them where they are. If every thing carries a letter, why does the reading need one mirror?"
+  },
+  {
+   "id": "timothy-one-mediator",
+   "after": "source:ABU0196",
+   "responds": [
+    "source:ABU0196"
+   ],
+   "relation": "adjacent",
+   "why": "Manifestations are brought forth to be “intermediaries between humanity and Himself”. The New Testament states the office and gives it to one: one mediator between God and men."
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:ABU0196",
+   "responds": [
+    "source:ABU0196"
+   ],
+   "relation": "adjacent",
+   "why": "The essence of Divinity “transcends the comprehension of man”. Isaiah gives the measure of the distance: as the heavens are higher than the earth, so are my thoughts than your thoughts."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "All that is known of God “refers to these holy Manifestations and leads nowhere else”. Jesus says it of himself: no man cometh unto the Father, but by me."
+  },
+  {
+   "id": "acts-feel-after-him",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "complement",
+   "why": "“The way is cut off, and all seeking rejected.” Paul at Athens says God made all nations so that they should seek the Lord, if haply they might feel after him and find him, though he be not far from every one of us. Is the seeking Paul allows the seeking the reading rejects?"
+  },
+  {
+   "id": "matthew-no-man-knoweth-the-son",
+   "after": "source:BH07585",
+   "responds": [
+    "source:BH07585"
+   ],
+   "relation": "adjacent",
+   "why": "Recognition of God “cannot be attained except through recognition of the Manifestation”. Matthew’s Gospel: neither knoweth any man the Father, save the Son, and he to whomsoever the Son will reveal him."
+  },
+  {
+   "id": "corinthians-things-of-god",
+   "after": "source:BB00012",
+   "responds": [
+    "source:BB00012"
+   ],
+   "relation": "adjacent",
+   "why": "“As He is in His essence, none knows Him save Himself.” Paul argues it from ourselves: only a man’s own spirit knows the things of a man, and the things of God knoweth no man, but the Spirit of God."
+  },
+  {
+   "id": "luke-kingdom-within-you",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "complement",
+   "why": "To know the self, here, is to know “the Self of God in every age”: the Manifestation. Jesus told those who asked when the kingdom would come not to look here or there, for the kingdom of God is within you. Do the two sayings point the same way, or does one look inward and the other toward a person?"
+  },
+  {
+   "id": "isaiah-hidest-thyself",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "God is “the Unseen, the One concealed and hidden from the eyes of men”. Isaiah says it as praise: verily thou art a God that hidest thyself."
+  },
+  {
+   "id": "john-seeth-him-that-sent-me",
+   "after": "source:BH00316",
+   "responds": [
+    "source:BH00316"
+   ],
+   "relation": "adjacent",
+   "why": "“The recognition of His Self is the recognition of God.” Jesus cried out the same of himself: he that believeth on me believeth not on me, but on him that sent me, and he that seeth me seeth him that sent me."
+  },
+  {
+   "id": "quran-obeyeth-the-messenger",
+   "after": "source:BH00316",
+   "responds": [
+    "source:BH00316"
+   ],
+   "relation": "adjacent",
+   "why": "“His commandments are God’s commandments.” The Qur’an puts the same identity in one line: whoso obeyeth the messenger hath obeyed God."
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:BH03113",
+   "responds": [
+    "source:BH03113"
+   ],
+   "relation": "adjacent",
+   "why": "Recognition comes only through the “Dawning-Place of signs”. In Exodus the unseen God is first met in a place where a sign appears: a bush that burned with fire and was not consumed."
+  },
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:AB01391",
+   "responds": [
+    "source:AB01391"
+   ],
+   "relation": "adjacent",
+   "why": "“Whatever man conceiveth is mere imagination.” Xenophanes said it of the gods of his day: if oxen and horses had hands, horses would paint the forms of the gods like horses."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:AB01391",
+   "responds": [
+    "source:AB01391"
+   ],
+   "relation": "contrast",
+   "why": "Feuerbach starts where the reading does, with a God made in human conception, and ends elsewhere: the true sense of theology is anthropology, and there is nothing behind the conception. What keeps the reading from his conclusion?"
+  },
+  {
+   "id": "psalm-eyes-have-they",
+   "after": "source:BH01326",
+   "responds": [
+    "source:BH01326"
+   ],
+   "relation": "adjacent",
+   "why": "Those who “worship names” are called idolaters. The psalm describes the older kind of idol: the work of men’s hands, with mouths that speak not and eyes that see not."
+  },
+  {
+   "id": "acts-none-other-name",
+   "after": "source:BH00366",
+   "responds": [
+    "source:BH00366"
+   ],
+   "relation": "adjacent",
+   "why": "Every good deed profits nothing without entering “beneath the shadow of the Divine Countenance”. Peter makes the same exclusive claim before the council: there is none other name under heaven given among men."
+  },
+  {
+   "id": "quran-whoever-believeth-and-doeth-right",
+   "after": "source:BH00366",
+   "responds": [
+    "source:BH00366"
+   ],
+   "relation": "contrast",
+   "why": "The Qur’an has a wider sentence: Jews, Christians and Sabaeans, whoever believeth in God and the Last Day and doeth right, surely their reward is with their Lord. Does the last reading of this guide bring the two sentences any closer?"
+  },
+  {
+   "id": "colossians-image-of-the-invisible",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The door of knowledge closed, the Gems of Holiness appear “in the noble form of the human temple”. Paul’s phrase for Christ: the image of the invisible God."
+  },
+  {
+   "id": "quran-moses-show-me",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "“The door of the knowledge of the Ancient of Days” is closed in the face of all beings. In the Qur’an it is closed even to Moses, who asks to gaze upon his Lord and is told: thou wilt not see Me."
+  },
+  {
+   "id": "john-epistle-which-we-have-seen",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations are “made manifest unto all men”. John’s first letter speaks as one of those to whom it happened: that which we have heard, which we have seen with our eyes, and our hands have handled."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "The passage says elsewhere that the Unseen can in no wise incarnate His Essence. John’s Gospel says that the Word was made flesh and dwelt among us. Do the reading and the verse deny each other, or speak of different things?"
+  },
+  {
+   "id": "acts-bereans",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "“Behold thy Lord’s Cause with thine own eyes.” Acts praises the Bereans as more noble for that: they received the word with readiness of mind and searched the scriptures daily, whether those things were so."
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "The recognition of others “cannot serve as proof for thee”. Paul gives each believer the same work in six words: prove all things; hold fast that which is good."
+  },
+  {
+   "id": "corinthians-face-of-jesus-christ",
+   "after": "source:BH02006",
+   "responds": [
+    "source:BH02006"
+   ],
+   "relation": "adjacent",
+   "why": "God has “barred the way” and made the Manifestations “Daysprings” of inspiration. Paul: the light of the knowledge of the glory of God is given in the face of Jesus Christ."
+  },
+  {
+   "id": "quran-vision-comprehendeth-not",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Recognition of the Invisible Essence “has been impossible”, and God has not commanded it of any. The Qur’an: vision comprehendeth Him not, but He comprehendeth all vision."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken",
+   "after": "source:BB00036",
+   "responds": [
+    "source:BB00036"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb speaks of “Him Who has no name, no description, no exposition and no attribute”. Isaiah asks it as a question no one can answer: to whom then will ye liken God?"
+  },
+  {
+   "id": "acts-unknown-god",
+   "after": "source:BH00668",
+   "responds": [
+    "source:BH00668"
+   ],
+   "relation": "adjacent",
+   "why": "The King is known only by recognizing the Bearer of His Name. Paul found at Athens an altar “To the Unknown God” and said: whom therefore ye ignorantly worship, him declare I unto you."
+  },
+  {
+   "id": "blake-divine-image",
+   "after": "source:AB00319",
+   "responds": [
+    "source:AB00319"
+   ],
+   "relation": "complement",
+   "why": "A God conceived in the mind is called “worse than idol worship”. Blake, without blame, says that every man who prays in distress prays to the human form divine: Love, Mercy, Pity, Peace. Is the human face Blake sees in prayer the imagination the reading warns of, or nearer to its “known Center”?"
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "source:BH00652",
+   "responds": [
+    "source:BH00652"
+   ],
+   "relation": "adjacent",
+   "why": "God is exalted above “the strivings of mortal man to unravel Thy mystery”. Paul ends an argument in the same praise: how unsearchable are his judgments, and his ways past finding out!"
+  },
+  {
+   "id": "quran-sea-were-ink",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "The meanings of His words “have no end”. The Qur’an: though the sea became ink for the words of my Lord, the sea would be used up before the words were exhausted."
+  },
+  {
+   "id": "acts-understandest-thou",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "The meanings are known “only to their Interpreter”. In Acts an Ethiopian reading Isaiah is asked, understandest thou what thou readest? and answers: how can I, except some man should guide me?"
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "selection:4202d08b034cc2ba3c51d0c7",
+   "responds": [
+    "selection:4202d08b034cc2ba3c51d0c7"
+   ],
+   "relation": "contrast",
+   "why": "“There is no pathway” from the mind to God, since all people worship an imagination. Tennyson thought a pathway ran from any small thing: could he understand the flower in the crannied wall, root and all, he would know what God and man is. Why do the readings not take his road?"
+  },
+  {
+   "id": "emerson-i-am-divine",
+   "after": "selection:195c46d88c3329c307be3c76",
+   "responds": [
+    "selection:195c46d88c3329c307be3c76"
+   ],
+   "relation": "contrast",
+   "why": "Shoghi Effendi’s secretary writes that Emerson was inspired, and that such writers tend to diminish the Prophet. Emerson’s Divinity School Address shows both: Jesus alone saw that God incarnates himself in man, and what he said was, would you see God, see me, or see thee. What does the reading keep that Emerson gives away?"
+  },
+  {
+   "id": "john-one-fold",
+   "after": "selection:0f2c1c374a02c5a1d5367bff",
+   "responds": [
+    "selection:0f2c1c374a02c5a1d5367bff"
+   ],
+   "relation": "adjacent",
+   "why": "“We cannot state that this is the only way”, for God’s mercy is infinite. Jesus, having called himself the door, adds: other sheep I have, which are not of this fold."
+  }
+ ],
+ "library": {}
+}
