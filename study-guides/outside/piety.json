@@ -1,0 +1,927 @@
+{
+ "format": 2,
+ "slug": "piety",
+ "subject": "E5E0436334E8467AA2757EF389C2161A",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 92,
+ "quotations": 100,
+ "kept": [
+  "source:BH00238",
+  "source:BH00021",
+  "source:AB08216",
+  "source:BH00001",
+  "source:BH00308",
+  "source:BH00003",
+  "source:BH00005",
+  "source:BH00053",
+  "source:BH03974",
+  "source:BH02759",
+  "source:BH00588",
+  "source:BH02374",
+  "source:BH02183",
+  "source:BH00048",
+  "source:ABU1164",
+  "source:ABU2765",
+  "source:AB08142",
+  "source:AB08141",
+  "source:BH01118",
+  "source:AB07611",
+  "source:BH02238",
+  "source:BH00272",
+  "source:BH01199",
+  "source:BH07362",
+  "source:BH00249",
+  "source:BH00306",
+  "source:BH01884",
+  "source:BH00045",
+  "source:BH00234",
+  "source:BH03255",
+  "source:BH02991",
+  "source:BH10142",
+  "source:BH09805",
+  "source:BH08581",
+  "source:BH02744",
+  "source:BH01097",
+  "source:BH05735",
+  "source:AB10057",
+  "source:AB09278",
+  "source:AB08989",
+  "source:AB03624",
+  "source:AB02137",
+  "source:AB02893",
+  "source:BH10675",
+  "source:BH07700",
+  "source:BB00002",
+  "source:BH06877",
+  "source:BB00428",
+  "source:BB00425",
+  "source:BB00518",
+  "source:BH01747",
+  "source:ABU0661",
+  "source:ABU0914",
+  "source:BH02163",
+  "source:BH00144",
+  "source:BH08394",
+  "source:BH03474",
+  "source:BH07417",
+  "source:BH03838",
+  "source:BH05366",
+  "source:BH10509",
+  "source:BH09927",
+  "source:BH10457",
+  "source:BH06116",
+  "source:BH07298",
+  "source:BH04913",
+  "source:BH09764",
+  "source:BH11832",
+  "source:BH06063",
+  "source:BH05672",
+  "source:BH05128",
+  "source:BH06643",
+  "source:BH06774",
+  "source:BH08396",
+  "source:BH05691",
+  "source:BH05714",
+  "source:BH06616",
+  "source:BH01591",
+  "source:BH04596",
+  "source:BH08738",
+  "source:BH02354",
+  "source:BH05362",
+  "source:AB01473",
+  "source:BH08287",
+  "source:BH02573",
+  "source:BH09516",
+  "source:BH09327",
+  "source:BH09891",
+  "source:BH11890",
+  "selection:9517fdd2eb29de9c767e7694",
+  "selection:919eef89db4680b87ca1f882",
+  "selection:fe6db8b4e3de553caf29b8e2"
+ ],
+ "introduction": "The fear of God is these readings’ name for piety: a guard that works inwardly where penalties work only outwardly, a fortress, a garment, a lamp. Bahá’u’lláh says He fears none but God, and ‘Abdu’l-Bahá explains that the fear meant is not of punishment but of losing God’s loving-kindness. The phrase is the Bible’s and the Qur’an’s before it is theirs, and the wisdom books are its fullest commentary. Beside them stand those who asked whether people would be just if no one saw them, and those, from John to Rábiʿa and Kant, who distrusted fear as a motive.",
+ "questions": [
+  "“The fear of the Lord is the beginning of wisdom.” What do Proverbs, Job and Ecclesiastes mean by fear, and is it what ‘Abdu’l-Bahá describes in the third reading?",
+  "Glaucon’s story of the ring asks whether anyone would be just unseen. How do the readings, and Joseph in Genesis, answer him?",
+  "John says that perfect love casts out fear, and Rábiʿa asks to be burned in hell if she worships from fear of it. What do the last readings say to them?",
+  "The readings call piety a garment, a crown and armour. What do the Qur’an, Job and Paul do with the same images?",
+  "“He that feareth not God, God shall make him to fear all things.” Which of the companions show the freedom from other fears that the readings promise?"
+ ],
+ "outside": [
+  {
+   "id": "plato-ring-of-gyges",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Dread of penalties restrains “only outwardly”. Glaucon in the Republic makes the case as a challenge: with a ring that hid him, no man would keep his hands off what was not his own."
+  },
+  {
+   "id": "genesis-how-then-can-i-do-this",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "What guards “both outwardly and inwardly” is the fear of God. Joseph, unseen and with every opportunity, gives the inward reason: how then can I do this great wickedness, and sin against God?"
+  },
+  {
+   "id": "psalm-whom-shall-i-fear",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "“I am afraid of none except God.” The psalmist: the Lord is my light and my salvation; whom shall I fear?"
+  },
+  {
+   "id": "luke-whom-ye-shall-fear",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus to his friends on which fear to keep: be not afraid of them that kill the body, and after that have no more that they can do."
+  },
+  {
+   "id": "john-epistle-perfect-love-casteth-out-fear",
+   "after": "source:AB08216",
+   "responds": [
+    "source:AB08216"
+   ],
+   "relation": "contrast",
+   "why": "True piety is fear, though “not of punishment”. John’s first letter seems to leave no room for any: there is no fear in love; perfect love casteth out fear, because fear hath torment. Is the dread of being deprived of loving-kindness a fear that love casts out, or one that love produces?"
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "source:AB08216",
+   "responds": [
+    "source:AB08216"
+   ],
+   "relation": "adjacent",
+   "why": "Rábiʿa of Basra prayed away the fear the letter sets aside: O God, if I worship Thee in fear of Hell, burn me in Hell. Thou art enough for me."
+  },
+  {
+   "id": "quran-desire-to-be-his-god",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“Follow not the promptings of the self.” The Qur’an’s phrase for one who does: hast thou seen him who maketh his desire his god?"
+  },
+  {
+   "id": "ecclesiastes-whole-duty-of-man",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Follow Him Who bids you “show forth piety, and manifest the fear of God”. The Preacher’s conclusion of the whole matter: fear God, and keep his commandments, for this is the whole duty of man."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "Tolerance and righteousness are “two lights”. Micah’s summary of what is asked has the same plainness: to do justly, and to love mercy, and to walk humbly with thy God."
+  },
+  {
+   "id": "job-put-on-righteousness",
+   "after": "source:BH00003",
+   "responds": [
+    "source:BH00003"
+   ],
+   "relation": "adjacent",
+   "why": "“Lofty is the station of man, were he to hold fast to righteousness.” Job remembers himself so: I put on righteousness, and it clothed me; my judgment was as a robe and a diadem."
+  },
+  {
+   "id": "proverbs-fountain-of-life",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "The fear of God is “a sure defence and a safe stronghold”. Proverbs: in the fear of the Lord is strong confidence, and his children shall have a place of refuge."
+  },
+  {
+   "id": "washington-religion-and-morality",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "It is “the chief cause of the protection of mankind”. Washington told his countrymen on leaving office that religion and morality are indispensable supports of political prosperity."
+  },
+  {
+   "id": "kant-like-a-jewel",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "contrast",
+   "why": "Kant held that a will is good only when it needs no such support: the good will, though it achieve nothing, would shine like a jewel by its own light. Can a person be good in Kant’s way and also need the stronghold the reading describes?"
+  },
+  {
+   "id": "proverbs-depart-from-evil",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "The fear of God “impelleth man to hold fast to that which is good, and shun all evil”. Proverbs: by the fear of the Lord men depart from evil."
+  },
+  {
+   "id": "lucretius-foul-impieties",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "contrast",
+   "why": "Religion is called a stronghold for the welfare of peoples. Lucretius, with the sacrifice of Iphigenia before him, said the opposite: that same religion oftener far hath bred the foul impieties of men. What must be true of a religion for the reading to be right and Lucretius wrong?"
+  },
+  {
+   "id": "exodus-midwives-feared-god",
+   "after": "source:BH03974",
+   "responds": [
+    "source:BH03974"
+   ],
+   "relation": "adjacent",
+   "why": "It “preserves people from abhorrent deeds”. The first to be praised for it in Exodus are two midwives ordered to kill: they feared God, and did not as the king of Egypt commanded them."
+  },
+  {
+   "id": "nehemiah-so-did-not-i",
+   "after": "source:BH00588",
+   "responds": [
+    "source:BH00588"
+   ],
+   "relation": "adjacent",
+   "why": "Justice, equity and trustworthiness cannot shine “except through the fear of God”. Nehemiah, a governor who would not take what governors before him took: so did not I, because of the fear of God."
+  },
+  {
+   "id": "job-fear-of-the-lord-that-is-wisdom",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "“The essence of wisdom is the fear of God.” The great poem on wisdom in Job ends there: behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding."
+  },
+  {
+   "id": "chronicles-ye-judge-not-for-man",
+   "after": "source:ABU1164",
+   "responds": [
+    "source:ABU1164"
+   ],
+   "relation": "adjacent",
+   "why": "Law appears good outwardly, but what preserves is the fear of God. King Jehoshaphat’s charge to his judges: ye judge not for man, but for the Lord; let the fear of the Lord be upon you."
+  },
+  {
+   "id": "shakespeare-name-of-action",
+   "after": "source:ABU2765",
+   "responds": [
+    "source:ABU2765"
+   ],
+   "relation": "complement",
+   "why": "Those without the fear of God are still careful of “their reputation and good name”. Hamlet names a third restraint, neither piety nor reputation: conscience does make cowards of us all. Is the conscience he complains of the fear the readings praise, or its shadow?"
+  },
+  {
+   "id": "quran-seek-not-oppression-in-the-earth",
+   "after": "source:AB08142",
+   "responds": [
+    "source:AB08142"
+   ],
+   "relation": "adjacent",
+   "why": "The verse the letter explains: the sequel is for those who ward off evil. The Qur’an gives the Abode of the Hereafter to those who seek not oppression in the earth."
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:AB08142",
+   "responds": [
+    "source:AB08142"
+   ],
+   "relation": "adjacent",
+   "why": "“A person of piety is one who exercises restraint.” Proverbs: he that ruleth his spirit is better than he that taketh a city."
+  },
+  {
+   "id": "proverbs-name-of-the-lord-strong-tower",
+   "after": "source:BH01118",
+   "responds": [
+    "source:BH01118"
+   ],
+   "relation": "adjacent",
+   "why": "“A sure fortress.” Proverbs has the same building: the name of the Lord is a strong tower; the righteous runneth into it, and is safe."
+  },
+  {
+   "id": "ephesians-armour",
+   "after": "source:BH02238",
+   "responds": [
+    "source:BH02238"
+   ],
+   "relation": "adjacent",
+   "why": "The fear of God is “the shield that protects the temple of faith”. Paul arms the believer piece by piece: the breastplate of righteousness, the shield of faith."
+  },
+  {
+   "id": "exodus-able-men",
+   "after": "source:BH01199",
+   "responds": [
+    "source:BH01199"
+   ],
+   "relation": "adjacent",
+   "why": "The hosts of God are goodly deeds, “and the commander of these hosts is righteousness”. Jethro’s advice to Moses on choosing commanders: able men, such as fear God, men of truth, hating covetousness."
+  },
+  {
+   "id": "proverbs-fear-of-man-bringeth-a-snare",
+   "after": "source:BH00249",
+   "responds": [
+    "source:BH00249"
+   ],
+   "relation": "adjacent",
+   "why": "“Let thine heart be afraid of none except God.” Proverbs on the other fear: the fear of man bringeth a snare."
+  },
+  {
+   "id": "proverbs-wicked-flee",
+   "after": "source:BH00306",
+   "responds": [
+    "source:BH00306"
+   ],
+   "relation": "adjacent",
+   "why": "He that fears not God is made “to fear all things”. Proverbs: the wicked flee when no man pursueth, but the righteous are bold as a lion."
+  },
+  {
+   "id": "isaiah-afraid-of-a-man-that-shall-die",
+   "after": "source:BH00306",
+   "responds": [
+    "source:BH00306"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah hears God ask the question of the fearful: who art thou, that thou shouldest be afraid of a man that shall die, and forgettest the Lord thy maker?"
+  },
+  {
+   "id": "analects-neither-anxiety-nor-fear",
+   "after": "source:BH00306",
+   "responds": [
+    "source:BH00306"
+   ],
+   "relation": "complement",
+   "why": "Confucius reached the same freedom without naming God: the superior man has neither anxiety nor fear; when internal examination discovers nothing wrong, what is there to be anxious about, what is there to fear? Does his examination do the work the readings give to the fear of God?"
+  },
+  {
+   "id": "quran-raiment-of-restraint",
+   "after": "source:BH00045",
+   "responds": [
+    "source:BH00045"
+   ],
+   "relation": "adjacent",
+   "why": "The fear of God is “the greatest and most gracious robe”. The Qur’an: We have revealed unto you raiment to conceal your shame, and splendid vesture, but the raiment of restraint from evil, that is best."
+  },
+  {
+   "id": "isaiah-garments-of-salvation",
+   "after": "source:BH02991",
+   "responds": [
+    "source:BH02991"
+   ],
+   "relation": "adjacent",
+   "why": "No garment more excellent than goodly character, “no crown better than the fear of God”. Isaiah: he hath clothed me with the garments of salvation, he hath covered me with the robe of righteousness."
+  },
+  {
+   "id": "peter-be-ye-holy",
+   "after": "source:AB10057",
+   "responds": [
+    "source:AB10057"
+   ],
+   "relation": "adjacent",
+   "why": "The fear of God is realized when one’s being is adorned “with the ornament of sanctity”. Peter quotes Leviticus: be ye holy; for I am holy."
+  },
+  {
+   "id": "quran-righteousness-is-not",
+   "after": "source:AB09278",
+   "responds": [
+    "source:AB09278"
+   ],
+   "relation": "adjacent",
+   "why": "“The essence of holiness is the characteristic of righteousness.” The Qur’an defines it by conduct: it is not righteousness that ye turn your faces to the East and the West."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB03624",
+   "responds": [
+    "source:AB03624"
+   ],
+   "relation": "adjacent",
+   "why": "Conduct that spreads “the fragrance of holiness”. James’s definition is as practical: pure religion is to visit the fatherless and widows in their affliction, and to keep himself unspotted from the world."
+  },
+  {
+   "id": "deuteronomy-what-doth-the-lord-require",
+   "after": "source:BH10675",
+   "responds": [
+    "source:BH10675"
+   ],
+   "relation": "adjacent",
+   "why": "“We counsel thee to fear God and to remember Him.” Moses joins fear to love in one requirement: to fear the Lord thy God, to walk in all his ways, and to love him."
+  },
+  {
+   "id": "quran-fear-their-lord-in-secret",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb’s words echo the Qur’an: those who fear their Lord in secret, theirs will be forgiveness and a great reward."
+  },
+  {
+   "id": "hebrews-naked-and-opened",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Why “in secret” is the test: all things are naked and opened unto the eyes of him with whom we have to do."
+  },
+  {
+   "id": "isaiah-enter-into-the-rock",
+   "after": "source:BH06877",
+   "responds": [
+    "source:BH06877"
+   ],
+   "relation": "adjacent",
+   "why": "The dread of God “hath fallen upon all things”. Isaiah saw the day when it would: enter into the rock, and hide thee in the dust, for fear of the Lord, and for the glory of his majesty."
+  },
+  {
+   "id": "quran-way-out",
+   "after": "source:BB00428",
+   "responds": [
+    "source:BB00428"
+   ],
+   "relation": "adjacent",
+   "why": "The verse the Báb quotes: whosoever keepeth his duty to God, God will appoint a way out for him, and will provide for him from whence he hath no expectation."
+  },
+  {
+   "id": "proverbs-beginning-of-knowledge",
+   "after": "source:BH01747",
+   "responds": [
+    "source:BH01747"
+   ],
+   "relation": "adjacent",
+   "why": "What is first “obligatory and essential for children” is the word of Unity and the ordinances of God. Proverbs opens its schooling with the same first lesson: the fear of the Lord is the beginning of knowledge."
+  },
+  {
+   "id": "analects-three-things-of-which-he-stands-in-awe",
+   "after": "source:ABU0661",
+   "responds": [
+    "source:ABU0661"
+   ],
+   "relation": "complement",
+   "why": "“Piety is the mother of all goodly characters.” Confucius found three awes in the superior man: of the ordinances of Heaven, of great men, and of the words of sages. Are his three one reverence, or does the reading ask for something he does not name?"
+  },
+  {
+   "id": "proverbs-eyes-of-the-lord-in-every-place",
+   "after": "source:ABU0914",
+   "responds": [
+    "source:ABU0914"
+   ],
+   "relation": "adjacent",
+   "why": "“Hearts must possess the fear of God.” Proverbs gives the heart its reason: the eyes of the Lord are in every place, beholding the evil and the good."
+  },
+  {
+   "id": "quran-restrained-his-soul-from-lust",
+   "after": "source:BH08394",
+   "responds": [
+    "source:BH08394"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed is he who “restraineth his soul from desire”. The Qur’an describes the same person in the same two steps: he feared to stand before his Lord and restrained his soul from lust."
+  },
+  {
+   "id": "quran-observe-your-duty-with-right-observance",
+   "after": "source:BH03474",
+   "responds": [
+    "source:BH03474"
+   ],
+   "relation": "adjacent",
+   "why": "“Fear God with true fear.” The phrase is the Qur’an’s: observe your duty to God with right observance."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "source:BH06643",
+   "responds": [
+    "source:BH06643"
+   ],
+   "relation": "adjacent",
+   "why": "“Fear God, O people, and follow not every stubborn oppressor.” Peter before the council that had forbidden him to teach: we ought to obey God rather than men."
+  },
+  {
+   "id": "quran-know-one-another",
+   "after": "source:AB01473",
+   "responds": [
+    "source:AB01473"
+   ],
+   "relation": "adjacent",
+   "why": "Nothing will be accepted “but pure virtue”. The Qur’an’s measure of rank among people: the noblest of you, in the sight of God, is the best in conduct."
+  },
+  {
+   "id": "timothy-spirit-of-fear",
+   "after": "selection:9517fdd2eb29de9c767e7694",
+   "responds": [
+    "selection:9517fdd2eb29de9c767e7694"
+   ],
+   "relation": "adjacent",
+   "why": "“Fear alone is not enough”: fear His justice, love His mercy. Paul to Timothy: God hath not given us the spirit of fear, but of power, and of love, and of a sound mind."
+  },
+  {
+   "id": "bacon-reproach-of-the-deity",
+   "after": "selection:919eef89db4680b87ca1f882",
+   "responds": [
+    "selection:919eef89db4680b87ca1f882"
+   ],
+   "relation": "contrast",
+   "why": "The majority, the letter says, “need the element of fear” to discipline conduct. Bacon warned what such fear can become: it were better to have no opinion of God at all than such an opinion as is unworthy of him. How is the fear the letter defends kept from turning into the superstition he condemns?"
+  },
+  {
+   "id": "philippians-work-out-your-own-salvation",
+   "after": "selection:fe6db8b4e3de553caf29b8e2",
+   "responds": [
+    "selection:fe6db8b4e3de553caf29b8e2"
+   ],
+   "relation": "adjacent",
+   "why": "The beginning of wisdom is the fear of God, which keeps one from what brings abasement. Paul asks it of people he loves and trusts: work out your own salvation with fear and trembling, for it is God which worketh in you."
+  }
+ ],
+ "shortfall": "This guide places 49 outside quotations beside the 100 it keeps. More than forty of the readings are single sentences of counsel that repeat one another closely: fear God, follow not your desires, hold fast to righteousness. A companion is given to each form of the counsel once and not to each repetition.",
+ "library": {
+  "proverbs-fear-of-man-bringeth-a-snare": {
+   "text": "The fear of man bringeth a snare: but whoso putteth his trust in the Lord shall be safe",
+   "work": "Proverbs 29:25",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2029%3A25&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-fear-of-the-lord-that-is-wisdom": {
+   "text": "And unto man he said, Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding",
+   "work": "Job 28:28",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2028%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-how-then-can-i-do-this": {
+   "text": "But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand; There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God",
+   "work": "Genesis 39:8–9",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2039%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-raiment-of-restraint": {
+   "text": "O Children of Adam! We have revealed unto you raiment to conceal your shame, and splendid vesture, but the raiment of restraint from evil, that is best. This is of the revelations of Allah, that they may remember.",
+   "work": "Qur’an 7:26",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=7&verse=26",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "proverbs-fountain-of-life": {
+   "text": "In the fear of the Lord is strong confidence: and his children shall have a place of refuge. The fear of the Lord is a fountain of life, to depart from the snares of death",
+   "work": "Proverbs 14:26–27",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2014%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "nehemiah-so-did-not-i": {
+   "text": "But the former governors that had been before me were chargeable unto the people, and had taken of them bread and wine, beside forty shekels of silver; yea, even their servants bare rule over the people: but so did not I, because of the fear of God",
+   "work": "Nehemiah 5:15",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Nehemiah%205%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-whom-ye-shall-fear": {
+   "text": "And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do. But I will forewarn you whom ye shall fear: Fear him",
+   "work": "Luke 12:4–5",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2012%3A4-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-afraid-of-a-man-that-shall-die": {
+   "text": "I, even I, am he that comforteth you: who art thou, that thou shouldest be afraid of a man that shall die, and of the son of man which shall be made as grass; And forgettest the Lord thy maker, that hath stretched forth the heavens, and laid the foundations of the earth",
+   "work": "Isaiah 51:12–13",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2051%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "peter-be-ye-holy": {
+   "text": "But as he which hath called you is holy, so be ye holy in all manner of conversation; Because it is written, Be ye holy; for I am holy",
+   "work": "1 Peter 1:15–16",
+   "year": "c. 60–95 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Peter%201%3A15-16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-depart-from-evil": {
+   "text": "By mercy and truth iniquity is purged: and by the fear of the Lord men depart from evil",
+   "work": "Proverbs 16:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2016%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-put-on-righteousness": {
+   "text": "I put on righteousness, and it clothed me: my judgment was as a robe and a diadem",
+   "work": "Job 29:14",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2029%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-fear-their-lord-in-secret": {
+   "text": "Lo! those who fear their Lord in secret, theirs will be forgiveness and a great reward.",
+   "work": "Qur’an 67:12",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=67&verse=12",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-observe-your-duty-with-right-observance": {
+   "text": "O ye who believe! Observe your duty to Allah with right observance, and die not save as those who have surrendered (unto Him)",
+   "work": "Qur’an 3:102",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=3&verse=102",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "analects-three-things-of-which-he-stands-in-awe": {
+   "text": "There are three things of which the superior man stands in awe. He stands in awe of the ordinances of Heaven. He stands in awe of great men. He stands in awe of the words of sages",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "16.8",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Confucius, Analects",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "translation by James Legge, 1861"
+   }
+  },
+  "analects-neither-anxiety-nor-fear": {
+   "text": "The superior man has neither anxiety nor fear.\" \"Being without anxiety or fear!\" said Nui;\"does this constitute what we call the superior man?\" The Master said, \"When internal examination discovers nothing wrong, what is there to be anxious about, what is there to fear",
+   "author": "Confucius",
+   "work": "Analects",
+   "locator": "12.4",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "James Legge",
+   "translationYear": "1861",
+   "tradition": "Chinese classics",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Confucius/analects.mb.txt",
+    "label": "Confucius, Analects",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "translation by James Legge, 1861"
+   }
+  },
+  "plato-ring-of-gyges": {
+   "text": "No man would keep his hands off what was not his own when he could safely take what he liked out of the market, or go into houses and lie with any one at his pleasure, or kill or release from prison whom he would, and in all respects be like a God among men",
+   "author": "Plato",
+   "work": "Republic",
+   "locator": "II, 360b–c",
+   "year": "c. 375 BCE",
+   "sortYear": -375,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/republic.3.ii.html",
+    "label": "Plato, Republic",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "translation by Benjamin Jowett, 1871"
+   }
+  }
+ }
+}
