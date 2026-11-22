@@ -1,0 +1,511 @@
+{
+ "format": 2,
+ "slug": "religionunity",
+ "subject": "FFC8B795919D48FD82F6DD702B6A4A3E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 46,
+ "quotations": 49,
+ "kept": [
+  "source:AB00016",
+  "source:BH00003",
+  "source:BH00499",
+  "source:BH01084",
+  "source:BH01895",
+  "source:AB00197",
+  "source:ABU0052",
+  "source:ABU0008",
+  "source:ABU0009",
+  "source:ABU0016",
+  "source:ABU0007",
+  "source:ABU0091",
+  "source:ABU0150",
+  "source:ABU0219",
+  "source:ABU0024",
+  "source:ABU0012",
+  "source:ABU0013",
+  "source:ABU0027",
+  "source:ABU0178",
+  "source:ABU0987",
+  "source:AB00801",
+  "source:AB07457",
+  "source:BH00323",
+  "source:ABU0130",
+  "source:ABU0038",
+  "source:ABU0023",
+  "source:ABU0257",
+  "source:ABU0633",
+  "source:ABU0521",
+  "source:AB01118",
+  "source:AB01419",
+  "source:ABU1754",
+  "source:AB07818",
+  "source:ABU0237",
+  "source:ABU0382",
+  "source:ABU0477",
+  "source:ABU1080",
+  "source:ABU0039",
+  "source:ABU3382",
+  "source:ABU3423",
+  "source:ABU0496",
+  "source:AB09893",
+  "source:ABU0034",
+  "source:ABU2272",
+  "source:ABU0050",
+  "source:AB00406"
+ ],
+ "introduction": "One sentence runs through nearly all of these readings: religion must be the cause of love and unity, and if it becomes the cause of hatred, its absence is better. ‘Abdu’l-Bahá said it to audience after audience, usually with the image of a remedy that is judged by whether the patient recovers. The readings then turn to what religion has in fact done when it was itself, as when Moses made one people of scattered tribes, and to the plain fellowship it should produce. The test is an old one. Amos, James, the letters of John and the Qur’án all apply it to their own communities, and Swift, Milton, Franklin, Mark Twain and Mandela apply it to theirs. The readings are also set beside critics who would go further: Lucretius, for whom religion as such breeds crimes; Pascal and Hume on the danger inside conviction and monotheism; Madison, who trusted a multiplicity of sects more than unity; Washington, who doubted that a nation could do without religion; and Chesterton, who denied that the religions teach one thing.",
+ "questions": [
+  "“If the remedy bring on disease, then put it aside.” By what signs would a community know that its religion had begun to aggravate the disease?",
+  "Lucretius says religion breeds crimes; Pascal says conviction makes evil cheerful; ‘Abdu’l-Bahá says the cause is misunderstanding. How would you decide between these explanations of religious hatred?",
+  "“To withdraw from such a religion would be a truly religious act.” Compare Amos, where God rejects the worship, and Paine, who made his own mind his church. What is withdrawn from, and what is kept?",
+  "Jesus said he came not to send peace but a sword, and also “blessed are the peacemakers.” How can a religion divide without being the cause of hatred?",
+  "Madison looked to many sects for safety, Kant to a useful discord, the readings to unity. What can each arrangement do that the others cannot?",
+  "‘Abdu’l-Bahá calls this a new principle. Pope, Swift and the Letter of James said things near it. What is new: the statement, the consequence drawn (“its absence is preferable”), or the authority behind it?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "“Religion is like a remedy; if it aggravates the disease then it becomes unnecessary.” Jesus gave the test of results: ye shall know them by their fruits."
+  },
+  {
+   "id": "john-new-commandment",
+   "after": "source:BH00003",
+   "responds": [
+    "source:BH00003"
+   ],
+   "relation": "adjacent",
+   "why": "“The religion of God is for love and unity.” Jesus made love the mark by which his followers would be known: by this shall all men know that ye are my disciples, if ye have love one to another."
+  },
+  {
+   "id": "quran-cable",
+   "after": "source:BH00499",
+   "responds": [
+    "source:BH00499"
+   ],
+   "relation": "adjacent",
+   "why": "The purpose of religion was “the unity and concord of all the world’s peoples.” The Qur’án: hold fast, all of you together, to the cable of Allah, and do not separate; ye were enemies and He made friendship between your hearts."
+  },
+  {
+   "id": "quran-each-sect-rejoicing",
+   "after": "source:BH01084",
+   "responds": [
+    "source:BH01084"
+   ],
+   "relation": "adjacent",
+   "why": "“Through misunderstanding they have become the source of enmity.” The Qur’án on what people did with what they were given: they have broken their religion among them into sects, each group rejoicing in its tenets."
+  },
+  {
+   "id": "swift-religion-enough",
+   "after": "source:BH01895",
+   "responds": [
+    "source:BH01895"
+   ],
+   "relation": "adjacent",
+   "why": "“Ignorant servants have made it the cause and reason for hatred.” Swift, Dean of St Patrick’s: we have just enough religion to make us hate, but not enough to make us love one another."
+  },
+  {
+   "id": "milton-concord",
+   "after": "source:BH01895",
+   "responds": [
+    "source:BH01895"
+   ],
+   "relation": "adjacent",
+   "why": "Milton felt the shame of it: devil with devil damned firm concord holds; men only disagree, though under hope of heavenly grace."
+  },
+  {
+   "id": "matthew-salt-lost-savour",
+   "after": "source:AB00197",
+   "responds": [
+    "source:AB00197"
+   ],
+   "relation": "adjacent",
+   "why": "A religion that leads to hate “is of no value at all.” Jesus: if the salt have lost his savour, it is thenceforth good for nothing, but to be cast out."
+  },
+  {
+   "id": "matthew-not-peace-but-a-sword",
+   "after": "source:AB00197",
+   "responds": [
+    "source:AB00197"
+   ],
+   "relation": "contrast",
+   "why": "Religion “must engender love.” Jesus also warned that his coming would divide households: I came not to send peace, but a sword. What kind of division does a new faith cause through no fault of its own, and how is that different from the hatred condemned here?"
+  },
+  {
+   "id": "lucretius-foul-impieties",
+   "after": "source:ABU0052",
+   "responds": [
+    "source:ABU0052"
+   ],
+   "relation": "contrast",
+   "why": "“If religion becomes the cause of warfare and bloodshed, irreligion … [is] preferable.” Lucretius, a century before Christ, dropped the “if”: ’tis that same religion oftener far hath bred the foul impieties of men. What keeps ‘Abdu’l-Bahá’s statement from becoming his?"
+  },
+  {
+   "id": "quran-balm-for-the-breasts",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Religion was meant as “the healing balm for the wounds of mankind.” The Qur’án describes itself in the same word: a balm for that which is in the breasts."
+  },
+  {
+   "id": "luke-what-manner-of-spirit",
+   "after": "source:ABU0009",
+   "responds": [
+    "source:ABU0009"
+   ],
+   "relation": "adjacent",
+   "why": "Religion is not “to arouse enmity and hatred.” When two disciples wanted to call down fire on a village that would not receive him, Jesus rebuked them: ye know not what manner of spirit ye are of."
+  },
+  {
+   "id": "franklin-parable-against-persecution",
+   "after": "source:ABU0009",
+   "responds": [
+    "source:ABU0009"
+   ],
+   "relation": "adjacent",
+   "why": "Franklin wrote a mock chapter of Genesis in which Abraham drives an unbeliever from his tent, and God says: have I borne with him these hundred ninety and eight years, and couldst not thou bear with him one night?"
+  },
+  {
+   "id": "pascal-religious-conviction",
+   "after": "source:ABU0016",
+   "responds": [
+    "source:ABU0016"
+   ],
+   "relation": "contrast",
+   "why": "If religion becomes “the cause of death to humanity, its nonexistence would be a blessing.” Pascal, a believer, thought the danger lay in conviction itself: men never do evil so completely and cheerfully as when they do it from religious conviction. Is the fault only in “misapprehension,” or is there a risk in the thing itself?"
+  },
+  {
+   "id": "twain-war-prayer",
+   "after": "source:ABU0016",
+   "responds": [
+    "source:ABU0016"
+   ],
+   "relation": "complement",
+   "why": "Religion as a source of “antagonism and strife.” Mark Twain wrote a prayer for victory as an honest congregation would have to word it, asking God to tear the enemy’s soldiers to bloody shreds. What does his satire assume a religion ought to be?"
+  },
+  {
+   "id": "john-epistle-loveth-not-his-brother",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "“An irreligious man [is] better than one who professes it” and hates. The First Letter of John: if a man say, I love God, and hateth his brother, he is a liar."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:ABU0007",
+   "responds": [
+    "source:ABU0007"
+   ],
+   "relation": "adjacent",
+   "why": "The outsider who behaves better than the professionals of religion. In Jesus’ story a priest and a Levite pass by; a Samaritan stops."
+  },
+  {
+   "id": "amos-feast-days",
+   "after": "source:ABU0091",
+   "responds": [
+    "source:ABU0091"
+   ],
+   "relation": "adjacent",
+   "why": "“To withdraw from such a religion would be a truly religious act.” God in Amos withdraws first: I hate, I despise your feast days; but let judgment run down as waters."
+  },
+  {
+   "id": "paine-own-church",
+   "after": "source:ABU0091",
+   "responds": [
+    "source:ABU0091"
+   ],
+   "relation": "complement",
+   "why": "Withdrawal as a religious act. Thomas Paine withdrew from every church he knew: my own mind is my own church. Is his the withdrawal ‘Abdu’l-Bahá means, and what would he say Paine still lacks?"
+  },
+  {
+   "id": "corinthians-tinkling-cymbal",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "“In its teachings we seek the spirit of charity and love.” Paul: though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:ABU0219",
+   "responds": [
+    "source:ABU0219"
+   ],
+   "relation": "adjacent",
+   "why": "A religion that alienates “is not divine religion, but an imitation.” James defines the real thing by what it does: pure religion and undefiled is this, to visit the fatherless and widows in their affliction."
+  },
+  {
+   "id": "john-epistle-hateth-his-brother-is-in-darkness",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "“Religion is the light of the world,” made a cause of darkness. The First Letter of John: he that saith he is in the light, and hateth his brother, is in darkness even until now."
+  },
+  {
+   "id": "romans-love-fulfilling-of-the-law",
+   "after": "source:ABU0013",
+   "responds": [
+    "source:ABU0013"
+   ],
+   "relation": "adjacent",
+   "why": "“All the heavenly books have descended for love’s sake.” Paul: love is the fulfilling of the law."
+  },
+  {
+   "id": "matthew-peacemakers",
+   "after": "source:ABU0027",
+   "responds": [
+    "source:ABU0027"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations “did not come to create discord.” Jesus: blessed are the peacemakers: for they shall be called the children of God."
+  },
+  {
+   "id": "hume-intolerance-of-unity",
+   "after": "source:ABU0027",
+   "responds": [
+    "source:ABU0027"
+   ],
+   "relation": "contrast",
+   "why": "Enmity is said to be made of religion, against its nature. Hume thought that belief in one God tends to it: the intolerance of almost all religions which have maintained the unity of God is remarkable. Is intolerance a corruption of monotheism or a temptation built into it?"
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:ABU0178",
+   "responds": [
+    "source:ABU0178"
+   ],
+   "relation": "adjacent",
+   "why": "Moses gathered the tribes, “and the divine law established fellowship among them.” A psalm of that people: behold, how good and how pleasant it is for brethren to dwell together in unity!"
+  },
+  {
+   "id": "quran-attuned-hearts",
+   "after": "source:ABU0178",
+   "responds": [
+    "source:ABU0178"
+   ],
+   "relation": "adjacent",
+   "why": "No ordinary power does this. The Qur’án: if thou hadst spent all that is in the earth thou couldst not have attuned their hearts, but Allah hath attuned them."
+  },
+  {
+   "id": "galatians-neither",
+   "after": "source:ABU0987",
+   "responds": [
+    "source:ABU0987"
+   ],
+   "relation": "adjacent",
+   "why": "Religion “unites different religions, unifies different nations, brings together different races.” Paul: there is neither Jew nor Greek, there is neither bond nor free: for ye are all one in Christ Jesus."
+  },
+  {
+   "id": "madison-multiplicity-of-sects",
+   "after": "source:ABU0987",
+   "responds": [
+    "source:ABU0987"
+   ],
+   "relation": "contrast",
+   "why": "Religion as the one force that melts people together. James Madison trusted the opposite arrangement to keep the peace: security for religious rights consists in the multiplicity of sects. Is unity safer than a balance of differences, and are they the same kind of peace?"
+  },
+  {
+   "id": "quran-same-religion",
+   "after": "source:AB00801",
+   "responds": [
+    "source:AB00801"
+   ],
+   "relation": "adjacent",
+   "why": "“The foundation of divine religions is one.” The Qur’án: He hath ordained for you that religion which He commended unto Noah, and unto Abraham and Moses and Jesus: establish the religion, and be not divided therein."
+  },
+  {
+   "id": "gobind-singh-temple-mosque",
+   "after": "source:AB00801",
+   "responds": [
+    "source:AB00801"
+   ],
+   "relation": "adjacent",
+   "why": "One foundation. Guru Gobind Singh: the temple and the mosque are the same; the Hindu worship and the Musalman prayer are the same; all men are the same."
+  },
+  {
+   "id": "chesterton-differ-in-what-they-teach",
+   "after": "source:AB00801",
+   "responds": [
+    "source:AB00801"
+   ],
+   "relation": "contrast",
+   "why": "The religions are one in foundation. Chesterton called that idea the opposite of the fact: the religions of the earth do not greatly differ in rites and forms; they do greatly differ in what they teach. What would each side have to show?"
+  },
+  {
+   "id": "quran-be-not-as-those-who-separated",
+   "after": "source:BH00323",
+   "responds": [
+    "source:BH00323"
+   ],
+   "relation": "adjacent",
+   "why": "“Make not the Divine Faith … a reason for difference.” The Qur’án: be ye not as those who separated and disputed after the clear proofs had come unto them."
+  },
+  {
+   "id": "malachi-one-father",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "adjacent",
+   "why": "Religion “must be the cause of unity.” Malachi: have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother?"
+  },
+  {
+   "id": "washington-morality-without-religion",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "contrast",
+   "why": "“The absence of religion would be preferable.” Washington, leaving office, warned his country against thinking it could do without: let us with caution indulge the supposition that morality can be maintained without religion. Does the reading disagree with him, or does it speak of a different case?"
+  },
+  {
+   "id": "pope-modes-of-faith",
+   "after": "source:ABU0038",
+   "responds": [
+    "source:ABU0038"
+   ],
+   "relation": "complement",
+   "why": "This is called “a new principle of revelation found only in the utterances of Bahá’u’lláh.” Pope wrote in 1733: for modes of faith let graceless zealots fight; all mankind’s concern is charity. What is new in the principle as Bahá’u’lláh states it?"
+  },
+  {
+   "id": "jefferson-twenty-gods-or-no-god",
+   "after": "source:ABU0023",
+   "responds": [
+    "source:ABU0023"
+   ],
+   "relation": "adjacent",
+   "why": "“Irreligion is preferable” to enmity. Jefferson on how little an unbelieving neighbour harms anyone: it neither picks my pocket nor breaks my leg."
+  },
+  {
+   "id": "tertullian-how-they-love-one-another",
+   "after": "source:ABU0257",
+   "responds": [
+    "source:ABU0257"
+   ],
+   "relation": "adjacent",
+   "why": "Religion as “the chief foundation of Love and Unity.” What pagans in North Africa said of the first Christians, as one of them reported about the year 200: see, they say, how they love one another."
+  },
+  {
+   "id": "john-that-they-all-may-be-one",
+   "after": "source:ABU0521",
+   "responds": [
+    "source:ABU0521"
+   ],
+   "relation": "adjacent",
+   "why": "“Christ and all the other divine messengers came to create unity.” His prayer on the last night: that they all may be one."
+  },
+  {
+   "id": "james-whence-come-wars",
+   "after": "source:ABU1754",
+   "responds": [
+    "source:ABU1754"
+   ],
+   "relation": "adjacent",
+   "why": "“Conflict and dissension exist naturally in all; there is no need of a further vehicle.” James asked where it comes from: from whence come wars and fightings among you? come they not hence, even of your lusts?"
+  },
+  {
+   "id": "kant-discord",
+   "after": "source:ABU1754",
+   "responds": [
+    "source:ABU1754"
+   ],
+   "relation": "contrast",
+   "why": "Conflict is natural, and religion must not add to it. Kant agreed that it is natural and thought it useful: man wishes concord; but Nature knows better what is good for his species, and she will have discord. Is there a discord that serves humanity, and would the readings allow it?"
+  },
+  {
+   "id": "peter-charity-shall-cover",
+   "after": "source:ABU0237",
+   "responds": [
+    "source:ABU0237"
+   ],
+   "relation": "adjacent",
+   "why": "Religion is the basis of “complete union and not ill-feeling … not backbiting.” The First Letter of Peter: above all things have fervent charity among yourselves: for charity shall cover the multitude of sins."
+  },
+  {
+   "id": "matthew-put-up-thy-sword",
+   "after": "source:ABU1080",
+   "responds": [
+    "source:ABU1080"
+   ],
+   "relation": "adjacent",
+   "why": "“Christ came to establish fellowship.” At his arrest, to the disciple who struck: put up again thy sword into his place: for all they that take the sword shall perish with the sword."
+  },
+  {
+   "id": "dhammapada-hatred-ceases-by-love",
+   "after": "source:ABU3423",
+   "responds": [
+    "source:ABU3423"
+   ],
+   "relation": "adjacent",
+   "why": "“I have no creed to preach … My word is the word of love.” The Dhammapada: hatred does not cease by hatred at any time: hatred ceases by love."
+  },
+  {
+   "id": "matthew-two-commandments",
+   "after": "source:ABU0496",
+   "responds": [
+    "source:ABU0496"
+   ],
+   "relation": "adjacent",
+   "why": "“The quintessence of religion is the knowledge of God and the love of mankind.” Jesus, asked for the great commandment, gave two: love God, and love thy neighbour; on these hang all the law and the prophets."
+  },
+  {
+   "id": "james-respect-of-persons",
+   "after": "source:ABU0034",
+   "responds": [
+    "source:ABU0034"
+   ],
+   "relation": "adjacent",
+   "why": "In a Bahá’í gathering “you could not distinguish between who is the prince and who is the poor.” James to congregations that gave the man with a gold ring the good seat: have not the faith with respect of persons."
+  },
+  {
+   "id": "heschel-no-island",
+   "after": "source:ABU2272",
+   "responds": [
+    "source:ABU2272"
+   ],
+   "relation": "adjacent",
+   "why": "Religion should teach people “to associate and co-operate.” Rabbi Heschel in 1965: no religion is an island; we are all involved with one another."
+  },
+  {
+   "id": "proverbs-love-covereth-all-sins",
+   "after": "source:ABU0050",
+   "responds": [
+    "source:ABU0050"
+   ],
+   "relation": "adjacent",
+   "why": "“Overlook the faults and defects of others.” Proverbs: hatred stirreth up strifes: but love covereth all sins."
+  },
+  {
+   "id": "mandela-taught-to-love",
+   "after": "source:AB00406",
+   "responds": [
+    "source:AB00406"
+   ],
+   "relation": "adjacent",
+   "why": "That humanity may “become like loving brothers.” Nelson Mandela: people must learn to hate, and if they can learn to hate, they can be taught to love."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:AB00406",
+   "responds": [
+    "source:AB00406"
+   ],
+   "relation": "adjacent",
+   "why": "“The light of truth and the radiance of love.” Rúmí: the lamps are different, but the Light is the same."
+  }
+ ],
+ "library": {}
+}
