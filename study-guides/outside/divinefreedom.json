@@ -1,0 +1,1336 @@
+{
+ "format": 2,
+ "slug": "divinefreedom",
+ "subject": "82A5773ED5884220A919FDF77F608B7B",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 81,
+ "quotations": 92,
+ "kept": [
+  "source:ABU0914",
+  "source:BH09293",
+  "source:BH05043",
+  "source:BH09440",
+  "source:BB00095",
+  "source:BH01001",
+  "source:BB00005",
+  "source:BH02617",
+  "source:BB00011",
+  "source:BB00130",
+  "source:AB01639",
+  "source:BB00069",
+  "source:BB00003",
+  "source:BH00339",
+  "source:BH08246",
+  "source:BB00294",
+  "source:BB00131",
+  "source:BB00438",
+  "source:BB00444",
+  "source:BB00052",
+  "source:BB00086",
+  "source:BB00211",
+  "source:BB00258",
+  "source:BB00286",
+  "source:BB00338",
+  "source:BB00046",
+  "source:BB00392",
+  "source:BB00117",
+  "source:BB00162",
+  "source:BB00192",
+  "source:BB00208",
+  "source:BB00271",
+  "source:BB00272",
+  "source:BB00295",
+  "source:BB00391",
+  "source:BB00679",
+  "source:BB00682",
+  "source:BB00277",
+  "source:BB00190",
+  "source:BB00028",
+  "source:BB00163",
+  "source:ABU0969",
+  "source:ABU2770",
+  "source:ABU0017",
+  "source:ABU2461",
+  "source:BB00303",
+  "source:BH00134",
+  "source:BH11314",
+  "source:AB00021",
+  "source:BH07658",
+  "source:BH09416",
+  "source:BB00232",
+  "source:BH03592",
+  "source:BH04237",
+  "source:BH04901",
+  "source:BH11867",
+  "source:BH09224",
+  "source:BH04756",
+  "source:BH03937",
+  "source:BH05986",
+  "source:BH00927",
+  "source:BH01573",
+  "source:BH08327",
+  "source:BH01955",
+  "source:BH11450",
+  "source:BB00540",
+  "source:AB06783",
+  "source:AB06363",
+  "source:BH07832",
+  "source:BB00490",
+  "source:BB00594",
+  "source:BB00362",
+  "source:BB00081",
+  "source:BB00500",
+  "source:BB00386",
+  "source:BH01640",
+  "selection:7ff10b2b117c2f9c607afc64",
+  "selection:a9eb5e8c47869d7c66807dd1",
+  "selection:fc3fab261680b3c5b4df7a24",
+  "selection:3f4442db4c53dad9e00208ff",
+  "selection:d5018412a7be4f44e7b5b58c"
+ ],
+ "introduction": "“There is a divine freedom, and this is peculiar unto the Essence of the Creator; for He is absolutely free.” Most of these readings are prayers and testimonies of the Báb, written in long chains of divine names, and their burden is single: God needs nothing. Obedience does not profit Him and denial does not harm Him; no praise describes Him; He has neither partner nor consort nor son nor helper; He was before all things and will be after them; “He doeth what He willeth, and … shall not be questioned.” The last readings carry the same point into philosophy, denying that the Essence is a “cause” tied to its effects or one with the world. The Qur’án is the source of much of this language, and its verses are set beside the passages that echo them, together with Isaiah, Job and the Psalms, which speak the same way. Paul, Plato and Pascal add their admissions of ignorance. The difficulties are real and are stated here by those who felt them: Abraham’s “shall not the Judge of all the earth do right?”, Socrates’ question to Euthyphro, Habakkuk’s “why?”, the verse in which “the Lord repented,” the Nicene Creed’s “only-begotten Son,” and Aristotle, Plotinus and Spinoza on God and the world.",
+ "questions": [
+  "“Neither doth any good deed of His servants profit Him.” If God gains nothing from worship, for whose sake is it commanded?",
+  "Aristotle’s self-sufficient God thinks only of itself; the God of these readings “hath no purpose save the guidance” of His servants. What does that difference tell you about how the readings understand independence?",
+  "“He shall not be questioned as to that which He doeth.” Abraham and Habakkuk questioned. What kind of questioning do the readings rule out, and what kind remains?",
+  "“Were We to decree good as evil, no soul hath the right to say ‘why?’” State Socrates’ question to Euthyphro and say how you think the reading would answer it.",
+  "The readings insist that God has “neither consort nor son.” How do you understand this beside the Christian confession of the Son?",
+  "Why should it matter to a worshipper whether God is called the “cause” of the world or said to be beyond causation?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-whatsoever-he-hath-pleased",
+   "after": "source:ABU0914",
+   "responds": [
+    "source:ABU0914"
+   ],
+   "relation": "adjacent",
+   "why": "“There is a divine freedom … He is absolutely free.” The psalm: our God is in the heavens: he hath done whatsoever he hath pleased."
+  },
+  {
+   "id": "quran-doer-of-what-he-will",
+   "after": "source:ABU0914",
+   "responds": [
+    "source:ABU0914"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án gives it as a divine name: Doer of what He will."
+  },
+  {
+   "id": "quran-striveth-only-for-himself",
+   "after": "source:BH09293",
+   "responds": [
+    "source:BH09293"
+   ],
+   "relation": "adjacent",
+   "why": "He has no purpose but our guidance; “neither doth any good deed of His servants profit Him.” The Qur’án: whosoever striveth, striveth only for himself."
+  },
+  {
+   "id": "job-what-givest-thou-him",
+   "after": "source:BH09293",
+   "responds": [
+    "source:BH09293"
+   ],
+   "relation": "adjacent",
+   "why": "Elihu to Job: if thou be righteous, what givest thou him? or what receiveth he of thine hand?"
+  },
+  {
+   "id": "acts-life-and-breath-and-all-things",
+   "after": "source:BH05043",
+   "responds": [
+    "source:BH05043"
+   ],
+   "relation": "adjacent",
+   "why": "He calls thee, “though He was self-sufficient.” Paul at Athens: neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things."
+  },
+  {
+   "id": "quran-if-all-on-earth-prove-thankless",
+   "after": "source:BH09440",
+   "responds": [
+    "source:BH09440"
+   ],
+   "relation": "adjacent",
+   "why": "One “Whom the support of those who turn unto Him cannot exalt.” Moses in the Qur’án: though ye and all who are in the earth prove thankless, lo! Allah verily is Absolute, Owner of Praise."
+  },
+  {
+   "id": "job-can-a-man-be-profitable-unto-god",
+   "after": "source:BB00095",
+   "responds": [
+    "source:BB00095"
+   ],
+   "relation": "adjacent",
+   "why": "“The obedience of them that obey Thee profiteth Thee not.” Eliphaz: can a man be profitable unto God? Is it any pleasure to the Almighty, that thou art righteous?"
+  },
+  {
+   "id": "quran-if-ye-are-thankless",
+   "after": "source:BB00095",
+   "responds": [
+    "source:BB00095"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án joins independence to care: if ye are thankless, yet Allah is Independent of you, though He is not pleased with thanklessness for His bondmen."
+  },
+  {
+   "id": "daniel-none-can-stay-his-hand",
+   "after": "source:BH01001",
+   "responds": [
+    "source:BH01001"
+   ],
+   "relation": "adjacent",
+   "why": "“Whom the ascendancy of the rulers cannot humble.” A humbled king: he doeth according to his will; and none can stay his hand, or say unto him, What doest thou?"
+  },
+  {
+   "id": "quran-ye-are-the-poor",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Recognize God “through His independence of what He hath created … and the dependence of what He hath created … upon His command.” The Qur’án: O mankind! Ye are the poor in your relation to Allah. And Allah! He is the Absolute."
+  },
+  {
+   "id": "chronicles-of-thine-own",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "David, after the richest offering of his reign: all things come of thee, and of thine own have we given thee."
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "“God … hath no beginning.” The psalm of Moses: before the mountains were brought forth, even from everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "psalm-if-i-were-hungry",
+   "after": "source:BH02617",
+   "responds": [
+    "source:BH02617"
+   ],
+   "relation": "adjacent",
+   "why": "“Rich enough, in Thine own essence, to dispense with any one except Thy Self.” God in the psalm: every beast of the forest is mine; if I were hungry, I would not tell thee."
+  },
+  {
+   "id": "psalm-greatness-unsearchable",
+   "after": "source:BH02617",
+   "responds": [
+    "source:BH02617"
+   ],
+   "relation": "adjacent",
+   "why": "Every praise falls short. The psalmist praises all the same: great is the Lord, and greatly to be praised; and his greatness is unsearchable."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:BB00011",
+   "responds": [
+    "source:BB00011"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast never been and will never be known as Thou deservest to be known.” Zophar: canst thou by searching find out God?"
+  },
+  {
+   "id": "tao-name-that-can-be-named",
+   "after": "source:BB00011",
+   "responds": [
+    "source:BB00011"
+   ],
+   "relation": "adjacent",
+   "why": "Nor “described by what Thou hast created.” The Tao Te Ching opens: the name that can be named is not the enduring and unchanging name."
+  },
+  {
+   "id": "quran-vision-comprehendeth-not",
+   "after": "source:BB00011",
+   "responds": [
+    "source:BB00011"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án turns the relation around, so that the seer is the one seen: vision comprehendeth Him not, but He comprehendeth all vision."
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:BB00011",
+   "responds": [
+    "source:BB00011"
+   ],
+   "relation": "adjacent",
+   "why": "Paul: dwelling in the light which no man can approach unto; whom no man hath seen, nor can see."
+  },
+  {
+   "id": "pascal-infinitely-incomprehensible",
+   "after": "source:BB00011",
+   "responds": [
+    "source:BB00011"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal: if there is a God, He is infinitely incomprehensible, since, having neither parts nor limits, He has no affinity to us."
+  },
+  {
+   "id": "kings-heaven-cannot-contain",
+   "after": "source:BB00130",
+   "responds": [
+    "source:BB00130"
+   ],
+   "relation": "adjacent",
+   "why": "“Not of anything, nor in anything … nor in any direction of anything.” Solomon, dedicating a house for God: behold, the heaven and heaven of heavens cannot contain thee."
+  },
+  {
+   "id": "quran-whithersoever-ye-turn",
+   "after": "source:BB00130",
+   "responds": [
+    "source:BB00130"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án: unto Allah belong the East and the West, and whithersoever ye turn, there is Allah’s Countenance."
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:AB01639",
+   "responds": [
+    "source:AB01639"
+   ],
+   "relation": "adjacent",
+   "why": "Hallowed “from the reach of the perceptions of those endowed with reason.” Isaiah: my thoughts are not your thoughts, neither are your ways my ways."
+  },
+  {
+   "id": "exodus-i-am-hath-sent-me",
+   "after": "source:BB00069",
+   "responds": [
+    "source:BB00069"
+   ],
+   "relation": "adjacent",
+   "why": "“None knoweth how Thou art save Thee.” The name given to Moses: I Am That I Am."
+  },
+  {
+   "id": "quran-he-is-allah-the-one",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb’s litany of unity echoes the shortest creed of the Qur’án: He is Allah, the One! He begetteth not nor was begotten. And there is none comparable unto Him."
+  },
+  {
+   "id": "deuteronomy-shema",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "And the oldest creed of Israel: hear, O Israel: The Lord our God is one Lord."
+  },
+  {
+   "id": "quran-hath-not-taken-a-son-nor-partner",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "“Neither consort nor son … no partner.” The phrases are the Qur’án’s: Who hath not taken unto Himself a son, and Who hath no partner in the Sovereignty, nor hath He any protecting friend through dependence."
+  },
+  {
+   "id": "nicene-light-of-light",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "contrast",
+   "why": "The Nicene Creed confesses one Lord Jesus Christ, the only-begotten Son of God, God of God, Light of Light. Are the readings denying what the Creed means, or a way of understanding it? What would each side say “Son” signifies?"
+  },
+  {
+   "id": "quran-naught-is-as-his-likeness",
+   "after": "source:BH00339",
+   "responds": [
+    "source:BH00339"
+   ],
+   "relation": "adjacent",
+   "why": "“Neither partner, nor likeness, nor peer.” The Qur’án: naught is as His likeness."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken-me",
+   "after": "source:BH00339",
+   "responds": [
+    "source:BH00339"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah: to whom then will ye liken me, or shall I be equal? saith the Holy One."
+  },
+  {
+   "id": "isaiah-who-hath-been-his-counsellor",
+   "after": "source:BH08246",
+   "responds": [
+    "source:BH08246"
+   ],
+   "relation": "adjacent",
+   "why": "No “helper.” Isaiah: who hath directed the Spirit of the Lord, or being his counsellor hath taught him?"
+  },
+  {
+   "id": "quran-neither-wife-nor-son",
+   "after": "source:BB00294",
+   "responds": [
+    "source:BB00294"
+   ],
+   "relation": "adjacent",
+   "why": "The jinn of the Qur’án, on first hearing it recited: exalted be the glory of our Lord! He hath taken neither wife nor son."
+  },
+  {
+   "id": "quran-the-living-one-who-dieth-not",
+   "after": "source:BB00131",
+   "responds": [
+    "source:BB00131"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou wert living when there was no life, and Thou wilt live after all life.” The Qur’án: trust thou in the Living One Who dieth not."
+  },
+  {
+   "id": "isaiah-before-me-no-god-formed",
+   "after": "source:BB00438",
+   "responds": [
+    "source:BB00438"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast ever existed before all things.” Isaiah: before me there was no God formed, neither shall there be after me."
+  },
+  {
+   "id": "deuteronomy-i-kill-and-i-make-alive",
+   "after": "source:BB00444",
+   "responds": [
+    "source:BB00444"
+   ],
+   "relation": "adjacent",
+   "why": "“The One Who causeth death yet never dieth … none can protect against Thee.” The Song of Moses: I kill, and I make alive; neither is there any that can deliver out of my hand."
+  },
+  {
+   "id": "quran-first-and-last",
+   "after": "source:BB00052",
+   "responds": [
+    "source:BB00052"
+   ],
+   "relation": "adjacent",
+   "why": "Existing “before all things, subsisting with all things, enduring after all things.” The Qur’án: He is the First and the Last, and the Outward and the Inward."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:BB00086",
+   "responds": [
+    "source:BB00086"
+   ],
+   "relation": "adjacent",
+   "why": "John’s vision: I am Alpha and Omega, the beginning and the ending, which is, and which was, and which is to come."
+  },
+  {
+   "id": "isaiah-first-and-last",
+   "after": "source:BB00211",
+   "responds": [
+    "source:BB00211"
+   ],
+   "relation": "adjacent",
+   "why": "Before all things and after all things. Isaiah: I am the first, and I am the last; and beside me there is no God."
+  },
+  {
+   "id": "colossians-created-for-him",
+   "after": "source:BB00211",
+   "responds": [
+    "source:BB00211"
+   ],
+   "relation": "adjacent",
+   "why": "“The Creator of all things.” Paul: by him were all things created, and he is before all things."
+  },
+  {
+   "id": "jeremiah-made-the-earth-by-his-power",
+   "after": "source:BB00258",
+   "responds": [
+    "source:BB00258"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast ordained all things by Thy power and fashioned all creation by Thy wisdom.” Jeremiah: he hath made the earth by his power, he hath established the world by his wisdom."
+  },
+  {
+   "id": "quran-how-can-he-have-a-child",
+   "after": "source:BB00286",
+   "responds": [
+    "source:BB00286"
+   ],
+   "relation": "adjacent",
+   "why": "“No partner in what Thou hast created, nor any helper.” The Qur’án: the Originator of the heavens and the earth! How can He have a child, when there is for Him no consort?"
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:BB00286",
+   "responds": [
+    "source:BB00286"
+   ],
+   "relation": "complement",
+   "why": "John’s Gospel: the Word was made flesh, and dwelt among us, the only begotten of the Father. The Báb, who repeats “neither consort nor son,” honoured Jesus as a Manifestation of God. How would a Bahá’í reading hold John’s sentence and the Báb’s together?"
+  },
+  {
+   "id": "romans-who-hath-first-given-to-him",
+   "after": "source:BB00338",
+   "responds": [
+    "source:BB00338"
+   ],
+   "relation": "adjacent",
+   "why": "“Independent of all Thou hast created.” Paul: who hath first given to him, and it shall be recompensed unto him again? For of him, and through him, and to him, are all things."
+  },
+  {
+   "id": "quran-allah-is-the-rich-and-ye-are-the-poor",
+   "after": "source:BB00046",
+   "responds": [
+    "source:BB00046"
+   ],
+   "relation": "adjacent",
+   "why": "“Ye shall surely aid God … and He is independent of all ye possess.” The Qur’án on giving: he who hoardeth, hoardeth only from his soul. And Allah is the Rich, and ye are the poor."
+  },
+  {
+   "id": "deuteronomy-no-similitude",
+   "after": "source:BB00392",
+   "responds": [
+    "source:BB00392"
+   ],
+   "relation": "adjacent",
+   "why": "Exalted “above whatsoever hath been sent down.” Moses reminds Israel what it did not see at Sinai: ye saw no manner of similitude on the day that the Lord spake unto you."
+  },
+  {
+   "id": "corinthians-but-one-god",
+   "after": "source:BB00162",
+   "responds": [
+    "source:BB00162"
+   ],
+   "relation": "adjacent",
+   "why": "“There is no God but Thee, alone with no partner.” Paul: we know that there is none other God but one."
+  },
+  {
+   "id": "job-morning-stars-sang-together",
+   "after": "source:BB00271",
+   "responds": [
+    "source:BB00271"
+   ],
+   "relation": "adjacent",
+   "why": "“By Thy wisdom hast Thou ordered the kingdom of Thy heaven and earth.” The Voice to Job: where wast thou when I laid the foundations of the earth?"
+  },
+  {
+   "id": "xenophanes-one-god",
+   "after": "source:BB00295",
+   "responds": [
+    "source:BB00295"
+   ],
+   "relation": "adjacent",
+   "why": "A string of names, each denying a limit. Xenophanes, the first Greek to speak so: one god, the greatest among gods and men, neither in form like unto mortals nor in thought."
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "source:BB00277",
+   "responds": [
+    "source:BB00277"
+   ],
+   "relation": "complement",
+   "why": "“Thy self-sufficiency hath ever been.” Aristotle’s self-sufficient God attends to nothing but itself: its thinking is a thinking on thinking. The self-sufficient God of the readings calls, guides and gives. Why does independence make the one indifferent and the other generous?"
+  },
+  {
+   "id": "corinthians-our-sufficiency-is-of-god",
+   "after": "source:BB00190",
+   "responds": [
+    "source:BB00190"
+   ],
+   "relation": "adjacent",
+   "why": "“Hath any independence save through Thee?” Paul: not that we are sufficient of ourselves; but our sufficiency is of God."
+  },
+  {
+   "id": "hebrews-upholding-all-things",
+   "after": "source:BB00190",
+   "responds": [
+    "source:BB00190"
+   ],
+   "relation": "adjacent",
+   "why": "“All are upheld by Thee and by Thy power.” Hebrews: upholding all things by the word of his power."
+  },
+  {
+   "id": "quran-pilgrimage-to-the-house",
+   "after": "source:BB00028",
+   "responds": [
+    "source:BB00028"
+   ],
+   "relation": "adjacent",
+   "why": "“The worship of all who worship Thee profiteth Thee not.” The Qur’án, after commanding pilgrimage: as for him who disbelieveth, lo! Allah is Independent of all creatures."
+  },
+  {
+   "id": "psalm-whom-have-i-in-heaven",
+   "after": "source:BB00163",
+   "responds": [
+    "source:BB00163"
+   ],
+   "relation": "adjacent",
+   "why": "The one detached from all else sees the tokens of His Lordship. The psalmist: whom have I in heaven but thee? and there is none upon earth that I desire beside thee."
+  },
+  {
+   "id": "malachi-i-change-not",
+   "after": "source:ABU0969",
+   "responds": [
+    "source:ABU0969"
+   ],
+   "relation": "adjacent",
+   "why": "“God does not change.” Malachi: I am the Lord, I change not."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:ABU0969",
+   "responds": [
+    "source:ABU0969"
+   ],
+   "relation": "adjacent",
+   "why": "James: the Father of lights, with whom is no variableness, neither shadow of turning."
+  },
+  {
+   "id": "exodus-the-lord-repented",
+   "after": "source:ABU0969",
+   "responds": [
+    "source:ABU0969"
+   ],
+   "relation": "contrast",
+   "why": "And yet scripture says, after Moses pleaded: the Lord repented of the evil which he thought to do unto his people. How do you read such verses if God is immutable? What do they tell the truth about?"
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:ABU2770",
+   "responds": [
+    "source:ABU2770"
+   ],
+   "relation": "complement",
+   "why": "“If He had not created man, He would be just the same.” Plotinus tried to say why there is a creation at all: seeking nothing, possessing nothing, lacking nothing, the One is perfect and has overflowed. Does a God who needs nothing create for a reason? What reason do the readings give?"
+  },
+  {
+   "id": "spinoza-final-causes-human-figments",
+   "after": "source:ABU2461",
+   "responds": [
+    "source:ABU2461"
+   ],
+   "relation": "contrast",
+   "why": "The Prophets say the universal reality is “perceiving and choosing by will”; the philosophers consider it without will. Spinoza is the philosopher meant: nature has no particular goal in view, and final causes are mere human figments. What is at stake between them for a person who prays?"
+  },
+  {
+   "id": "pascal-heart-experiences-god",
+   "after": "source:ABU2461",
+   "responds": [
+    "source:ABU2461"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal, a mathematician, on the same divide: it is the heart which experiences God, and not the reason."
+  },
+  {
+   "id": "quran-not-be-questioned",
+   "after": "source:BH00134",
+   "responds": [
+    "source:BH00134"
+   ],
+   "relation": "adjacent",
+   "why": "“He shall not be questioned as to that which He doeth.” The reading quotes the Qur’án: He will not be questioned as to that which He doeth, but they will be questioned."
+  },
+  {
+   "id": "job-who-will-say-what-doest-thou",
+   "after": "source:BH00134",
+   "responds": [
+    "source:BH00134"
+   ],
+   "relation": "adjacent",
+   "why": "Job: behold, he taketh away, who can hinder him? who will say unto him, What doest thou?"
+  },
+  {
+   "id": "genesis-judge-of-all-the-earth",
+   "after": "source:BH00134",
+   "responds": [
+    "source:BH00134"
+   ],
+   "relation": "contrast",
+   "why": "Abraham did question: that be far from thee to slay the righteous with the wicked: shall not the Judge of all the earth do right? And he was heard. Is Abraham’s plea a breach of “He shall not be questioned,” or a kind of faith in it?"
+  },
+  {
+   "id": "quran-exalteth-whom-thou-wilt",
+   "after": "source:BH11314",
+   "responds": [
+    "source:BH11314"
+   ],
+   "relation": "adjacent",
+   "why": "“He exalts whom He wishes, and … abases whom He desires.” The Qur’án: Thou exaltest whom Thou wilt, and Thou abasest whom Thou wilt. In Thy hand is the good."
+  },
+  {
+   "id": "samuel-the-lord-killeth-and-maketh-alive",
+   "after": "source:BH11314",
+   "responds": [
+    "source:BH11314"
+   ],
+   "relation": "adjacent",
+   "why": "Hannah’s song: the Lord maketh poor, and maketh rich: he bringeth low, and lifteth up."
+  },
+  {
+   "id": "romans-mercy-on-whom-i-will",
+   "after": "source:AB00021",
+   "responds": [
+    "source:AB00021"
+   ],
+   "relation": "adjacent",
+   "why": "“He ordaineth what He pleaseth for whom He pleaseth.” The word to Moses: I will have mercy on whom I will have mercy."
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:BH07658",
+   "responds": [
+    "source:BH07658"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast power to do what Thou willest.” The Qur’án: His command, when He intendeth a thing, is only that He saith unto it: Be! and it is."
+  },
+  {
+   "id": "psalm-whatsoever-the-lord-pleased",
+   "after": "source:BH09416",
+   "responds": [
+    "source:BH09416"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm: whatsoever the Lord pleased, that did he in heaven, and in earth, in the seas, and all deep places."
+  },
+  {
+   "id": "proverbs-kings-heart",
+   "after": "source:BH03592",
+   "responds": [
+    "source:BH03592"
+   ],
+   "relation": "adjacent",
+   "why": "“In Thy grasp are the reins of all things.” Proverbs: the king’s heart is in the hand of the Lord, as the rivers of water: he turneth it whithersoever he will."
+  },
+  {
+   "id": "matthew-labourers-in-the-vineyard",
+   "after": "source:BH04901",
+   "responds": [
+    "source:BH04901"
+   ],
+   "relation": "adjacent",
+   "why": "“He doeth what He willeth and ordaineth what He pleaseth.” The householder to labourers who complained of his generosity to others: is it not lawful for me to do what I will with mine own?"
+  },
+  {
+   "id": "isaiah-clay-and-the-potter",
+   "after": "source:BH11867",
+   "responds": [
+    "source:BH11867"
+   ],
+   "relation": "adjacent",
+   "why": "“None can question His doings.” Isaiah: shall the clay say to him that fashioneth it, What makest thou?"
+  },
+  {
+   "id": "proverbs-no-counsel-against-the-lord",
+   "after": "source:BH04756",
+   "responds": [
+    "source:BH04756"
+   ],
+   "relation": "adjacent",
+   "why": "“Whom the doubts of the heedless and the signs of the opposers cannot hinder.” Proverbs: there is no wisdom nor understanding nor counsel against the Lord."
+  },
+  {
+   "id": "habakkuk-how-long-shall-i-cry",
+   "after": "source:BH05986",
+   "responds": [
+    "source:BH05986"
+   ],
+   "relation": "contrast",
+   "why": "They confess that He does what He wills and still ask “why” and “wherefore.” So did a prophet: O Lord, how long shall I cry, and thou wilt not hear! Why dost thou shew me iniquity? What is the difference between Habakkuk’s why and the why the reading rebukes?"
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:BH00927",
+   "responds": [
+    "source:BH00927"
+   ],
+   "relation": "adjacent",
+   "why": "He has come with the banner of “He doeth what He willeth”; let souls be “steadfast and content.” Job, at his first loss: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  },
+  {
+   "id": "plato-holy-because-beloved",
+   "after": "source:BH01573",
+   "responds": [
+    "source:BH01573"
+   ],
+   "relation": "contrast",
+   "why": "“Were We to decree good as evil, no soul hath the right to say ‘why?’” Socrates put the question that has troubled this claim ever since: whether the pious or holy is beloved by the gods because it is holy, or holy because it is beloved of the gods. Which answer do the readings give, and what do they intend by it?"
+  },
+  {
+   "id": "isaiah-call-evil-good",
+   "after": "source:BH01573",
+   "responds": [
+    "source:BH01573"
+   ],
+   "relation": "complement",
+   "why": "Isaiah pronounces a woe on those who call evil good, and good evil; that put darkness for light. The reading reserves to God alone what the prophet forbids to men. What human claim is the reading closing off?"
+  },
+  {
+   "id": "isaiah-create-evil",
+   "after": "source:BH08327",
+   "responds": [
+    "source:BH08327"
+   ],
+   "relation": "adjacent",
+   "why": "“Were He to pronounce darkness to be light.” Isaiah has God say: I form the light, and create darkness: I the Lord do all these things."
+  },
+  {
+   "id": "romans-potter-power-over-the-clay",
+   "after": "source:BH01955",
+   "responds": [
+    "source:BH01955"
+   ],
+   "relation": "adjacent",
+   "why": "The Word that “closeth the door of objections.” Paul: shall the thing formed say to him that formed it, Why hast thou made me thus?"
+  },
+  {
+   "id": "quran-allahs-hand-is-fettered",
+   "after": "source:BH11450",
+   "responds": [
+    "source:BH11450"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes the Qur’án: the Jews say: Allah’s hand is fettered. Nay, but both His hands are spread out wide in bounty. He bestoweth as He will."
+  },
+  {
+   "id": "psalm-the-earth-is-the-lords",
+   "after": "source:BB00490",
+   "responds": [
+    "source:BB00490"
+   ],
+   "relation": "adjacent",
+   "why": "“All the kingdoms of heaven and earth … are God’s.” The psalm: the earth is the Lord’s, and the fulness thereof."
+  },
+  {
+   "id": "chronicles-thine-is-the-kingdom",
+   "after": "source:BB00490",
+   "responds": [
+    "source:BB00490"
+   ],
+   "relation": "adjacent",
+   "why": "David: all that is in the heaven and in the earth is thine; thine is the kingdom, O Lord."
+  },
+  {
+   "id": "quran-is-not-allah-sufficient",
+   "after": "source:BB00594",
+   "responds": [
+    "source:BB00594"
+   ],
+   "relation": "adjacent",
+   "why": "“God sufficeth all things beyond all things.” The Qur’án: will not Allah defend His slave?"
+  },
+  {
+   "id": "quran-sufficient-for-us",
+   "after": "source:BB00594",
+   "responds": [
+    "source:BB00594"
+   ],
+   "relation": "adjacent",
+   "why": "The believers’ cry when told that armies had gathered against them: Allah is Sufficient for us!"
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:BB00362",
+   "responds": [
+    "source:BB00362"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou art sufficient against everyone but none sufficeth against Thee.” The answer Paul received: my grace is sufficient for thee."
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "source:BB00362",
+   "responds": [
+    "source:BB00362"
+   ],
+   "relation": "adjacent",
+   "why": "Rábi‘a of Basra gave away her share of both worlds in a single prayer and kept only this: Thou art enough for me."
+  },
+  {
+   "id": "quran-bounty-on-whom-he-will",
+   "after": "source:BB00500",
+   "responds": [
+    "source:BB00500"
+   ],
+   "relation": "adjacent",
+   "why": "“He shall spend as He willeth through His mercy.” The Qur’án: such is the bounty of Allah, which He bestoweth upon whom He will."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:BB00386",
+   "responds": [
+    "source:BB00386"
+   ],
+   "relation": "adjacent",
+   "why": "“This cannot be except through Thy grace and mercy.” Paul: by grace are ye saved through faith; and that not of yourselves: it is the gift of God."
+  },
+  {
+   "id": "psalm-thou-hast-searched-me",
+   "after": "source:BH01640",
+   "responds": [
+    "source:BH01640"
+   ],
+   "relation": "adjacent",
+   "why": "“God is indeed aware of what is in thy heart. Nothing escapeth His knowledge.” The psalm: thou understandest my thought afar off."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "selection:7ff10b2b117c2f9c607afc64",
+   "responds": [
+    "selection:7ff10b2b117c2f9c607afc64"
+   ],
+   "relation": "complement",
+   "why": "“From the One proceedeth only One.” The maxim comes from the school of Plotinus, who pictured it so: a circumradiation produced from the Supreme but from the Supreme unaltering, as the brilliant light encircling the sun. The Báb accepts the saying in one sense and rejects it in another. Which sense keeps the Essence free?"
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "selection:a9eb5e8c47869d7c66807dd1",
+   "responds": [
+    "selection:a9eb5e8c47869d7c66807dd1"
+   ],
+   "relation": "contrast",
+   "why": "The philosophers called the Essence the cause of created beings. Aristotle: the final cause produces motion as being loved. The Báb denies that the Essence stands in any relation of cause to effect. What would be lost, for him, if God were the first link in a chain?"
+  },
+  {
+   "id": "romans-unsearchable",
+   "after": "selection:fc3fab261680b3c5b4df7a24",
+   "responds": [
+    "selection:fc3fab261680b3c5b4df7a24"
+   ],
+   "relation": "adjacent",
+   "why": "Causation requires resemblance between cause and effect, and there is none here. Paul: how unsearchable are his judgments, and his ways past finding out!"
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "selection:3f4442db4c53dad9e00208ff",
+   "responds": [
+    "selection:3f4442db4c53dad9e00208ff"
+   ],
+   "relation": "contrast",
+   "why": "Those who teach the unity of existence are said to join partners with God. Spinoza is its boldest Western voice: all things which are, are in God, and without him can neither be nor be conceived. Why would a doctrine meant to exalt God’s unity be charged with compromising it?"
+  },
+  {
+   "id": "pope-stupendous-whole",
+   "after": "selection:3f4442db4c53dad9e00208ff",
+   "responds": [
+    "selection:3f4442db4c53dad9e00208ff"
+   ],
+   "relation": "contrast",
+   "why": "Pope in verse: all are but parts of one stupendous whole, whose body nature is and God the soul. What becomes of divine freedom if God is the soul of the world?"
+  },
+  {
+   "id": "plato-past-finding-out",
+   "after": "selection:d5018412a7be4f44e7b5b58c",
+   "responds": [
+    "selection:d5018412a7be4f44e7b5b58c"
+   ],
+   "relation": "adjacent",
+   "why": "God sanctified “utterly from any attribute of causation.” Plato, who began the tradition the Báb is correcting, had said this much: the father and maker of all this universe is past finding out."
+  }
+ ],
+ "library": {
+  "job-can-a-man-be-profitable-unto-god": {
+   "text": "Can a man be profitable unto God, as he that is wise may be profitable unto himself? Is it any pleasure to the Almighty, that thou art righteous? or is it gain to him, that thou makest thy ways perfect",
+   "work": "Job 22:2–3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2022%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-who-hath-first-given-to-him": {
+   "text": "Or who hath first given to him, and it shall be recompensed unto him again? For of him, and through him, and to him, are all things",
+   "work": "Romans 11:35–36",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2011%3A35-36&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-if-ye-are-thankless": {
+   "text": "If ye are thankless, yet Allah is Independent of you, though He is not pleased with thanklessness for His bondmen; and if ye are thankful He is pleased therewith for you. No laden soul will bear another's load. Then unto your Lord is your return; and He will tell you what ye used to do. Lo! He knoweth what is in the breasts (of men).",
+   "work": "Qur’an 39:7",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=39&verse=7",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-striveth-only-for-himself": {
+   "text": "And whosoever striveth, striveth only for himself, for lo! Allah is altogether Independent of (His) creatures.",
+   "work": "Qur’an 29:6",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=29&verse=6",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-allah-is-the-rich-and-ye-are-the-poor": {
+   "text": "Lo! ye are those who are called to spend in the way of Allah, yet among you there are some who hoard. And as for him who hoardeth, he hoardeth only from his soul. And Allah is the Rich, and ye are the poor. And if ye turn away He will exchange you for some other folk, and they will not be the likes of you.",
+   "work": "Qur’an 47:38",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=47&verse=38",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-hath-not-taken-a-son-nor-partner": {
+   "text": "And say: Praise be to Allah, Who hath not taken unto Himself a son, and Who hath no partner in the Sovereignty, nor hath He any protecting friend through dependence. And magnify Him with all magnificence.",
+   "work": "Qur’an 17:111",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=111",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-neither-wife-nor-son": {
+   "text": "And (we believe) that He - exalted be the glory of our Lord! - hath taken neither wife nor son,",
+   "work": "Qur’an 72:3",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=72&verse=3",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-how-can-he-have-a-child": {
+   "text": "The Originator of the heavens and the earth! How can He have a child, when there is for Him no consort, when He created all things and is Aware of all things?",
+   "work": "Qur’an 6:101",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=6&verse=101",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-the-living-one-who-dieth-not": {
+   "text": "And trust thou in the Living One Who dieth not, and hymn His praise. He sufficeth as the Knower of His bondmen's sins,",
+   "work": "Qur’an 25:58",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=25&verse=58",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-doer-of-what-he-will": {
+   "text": "Doer of what He will.",
+   "work": "Qur’an 85:16",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=85&verse=16",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-is-not-allah-sufficient": {
+   "text": "Will not Allah defend His slave? Yet they would frighten thee with those beside Him. He whom Allah sendeth astray, for him there is no guide.",
+   "work": "Qur’an 39:36",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=39&verse=36",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-if-all-on-earth-prove-thankless": {
+   "text": "And Moses said: Though ye and all who are in the earth prove thankless, lo! Allah verily is Absolute, Owner of Praise.",
+   "work": "Qur’an 14:8",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=14&verse=8",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "isaiah-before-me-no-god-formed": {
+   "text": "before me there was no God formed, neither shall there be after me",
+   "work": "Isaiah 43:10",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2043%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-who-hath-been-his-counsellor": {
+   "text": "Who hath directed the Spirit of the Lord, or being his counsellor hath taught him? With whom took he counsel, and who instructed him, and taught him in the path of judgment, and taught him knowledge, and shewed to him the way of understanding",
+   "work": "Isaiah 40:13–14",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2040%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-i-kill-and-i-make-alive": {
+   "text": "See now that I, even I, am he, and there is no god with me: I kill, and I make alive; I wound, and I heal: neither is there any that can deliver out of my hand",
+   "work": "Deuteronomy 32:39",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2032%3A39&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-the-lord-killeth-and-maketh-alive": {
+   "text": "The Lord killeth, and maketh alive: he bringeth down to the grave, and bringeth up. The Lord maketh poor, and maketh rich: he bringeth low, and lifteth up",
+   "work": "1 Samuel 2:6–7",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%202%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-who-will-say-what-doest-thou": {
+   "text": "Behold, he taketh away, who can hinder him? who will say unto him, What doest thou",
+   "work": "Job 9:12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%209%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-whatsoever-the-lord-pleased": {
+   "text": "Whatsoever the Lord pleased, that did he in heaven, and in earth, in the seas, and all deep places",
+   "work": "Psalm 135:6",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20135%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
