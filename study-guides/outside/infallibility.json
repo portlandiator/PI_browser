@@ -1,0 +1,1031 @@
+{
+ "format": 2,
+ "slug": "infallibility",
+ "subject": "46FD5CCF1C43454DB91FC516E5D3B7F7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 52,
+ "quotations": 64,
+ "kept": [
+  "source:BH00053",
+  "source:AB00227",
+  "source:BH00001",
+  "source:AB00263",
+  "source:BH01122",
+  "source:BH00460",
+  "source:BH00418",
+  "source:BH00548",
+  "source:BH00466",
+  "source:BH00547",
+  "source:AB01041",
+  "source:AB01009",
+  "source:AB00353",
+  "source:ABU3610",
+  "source:ABU3184",
+  "source:ABU0218",
+  "source:AB00168",
+  "source:AB00134",
+  "source:BH00002",
+  "source:BH00005",
+  "source:BH00048",
+  "source:BH00831",
+  "source:BH00018",
+  "source:BH00606",
+  "source:BH00372",
+  "source:BH00222",
+  "source:BB00005",
+  "source:BH00006",
+  "source:BH00097",
+  "source:BH00968",
+  "source:BB00002",
+  "source:AB00003",
+  "source:BH00286",
+  "source:BH00515",
+  "source:AB00657",
+  "source:AB02106",
+  "source:AB04657",
+  "source:ABU2731",
+  "source:ABU1334",
+  "source:ABU2906",
+  "source:ABU3666",
+  "source:ABU2892",
+  "selection:ee5de92d75d9dcaaf4fe17f6",
+  "selection:9e6b21c5d710c4a03dfebc77",
+  "selection:2f4e9f0697c9a71ef67f0f82",
+  "selection:348079eba36adab330f4ad65",
+  "selection:72744fc92f1f9d732d4064b0",
+  "selection:8d9cd3efafb8359df705b182",
+  "selection:60cb6a03a7510e6e93cbef36",
+  "selection:a68a8fa37e2112ea10b87cf9",
+  "selection:af9aa0e7b34acf035817bce3",
+  "selection:b15fc40991eb7936198729bb"
+ ],
+ "introduction": "Bahá’u’lláh begins by saying that infallibility “hath numerous meanings and divers stations,” and the guide follows the distinctions: a Most Great Infallibility that belongs to God and His Manifestation alone, a conferred protection that may rest on souls and on an elected House of Justice, and the plain fact that “man is prone to error.” Scripture supplies much of the company. The psalms and Daniel know a God who does what He pleases and is not to be questioned; the Qur’án is the readings’ own source for the prophet who speaks not from desire; Peter is given the keys and prayed for. The readings make strong claims, and other serious voices are set beside them: Socrates asks whether the holy is holy because it is loved, Abraham and Job question God and are not condemned, the apostles obey God rather than their council, the Talmud’s sages overrule a voice from heaven, and Mill, Locke, Paine, Madison and Acton state the modern case for reason, dissent and distrust of power.",
+ "questions": [
+  "Bahá’u’lláh reserves the Most Great Infallibility to the One who “doeth whatsoever He willeth.” How would you answer Socrates’s question to Euthyphro from within these readings?",
+  "Abraham asks whether the Judge of all the earth will not do right, and Job is told he spoke rightly. The readings say “object not.” Is there a kind of questioning that these readings leave room for?",
+  "The Prophets are called sinless, and their confessions of sin are explained as instruction. What do the stories of Moses, David and Peter, read at face value, give a believer that a sinless example cannot, and the reverse?",
+  "A decision of the House of Justice is protected from error; Mill calls all silencing of discussion an assumption of infallibility, and the apostles obey God rather than men. What is the difference between obeying a decision and being forbidden to doubt it?",
+  "“The belief in the infallibility of the Prophet does not necessarily mean that the individual should cease investigating truth.” Compare Augustine’s “believe that you may understand” with Locke’s “reason must be our last judge.” Which describes how you actually proceed?",
+  "The Talmud’s sages decide by majority even against a heavenly voice, and the council of Jerusalem says “it seemed good to the Holy Ghost, and to us.” What do these two stories suggest about how divine guidance and human deliberation are related?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-whatsoever-he-hath-pleased",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "The Most Great Infallibility is the station of “He doeth whatsoever He willeth.” A psalm says it of God against the idols of the nations: he hath done whatsoever he hath pleased."
+  },
+  {
+   "id": "daniel-none-can-stay-his-hand",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "A station “exalted beyond ordinances or prohibitions.” Nebuchadnezzar, restored to reason, confesses of the Most High that none can stay his hand, or say unto him, What doest thou?"
+  },
+  {
+   "id": "quran-not-be-questioned",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053",
+    "source:BH00466"
+   ],
+   "relation": "adjacent",
+   "why": "The verse that stands behind the reading’s language: he will not be questioned as to that which he doeth, but they will be questioned."
+  },
+  {
+   "id": "plato-holy-because-beloved",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053"
+   ],
+   "relation": "contrast",
+   "why": "If whatever the Manifestation ordains is right because He ordains it, Socrates’s question to Euthyphro applies in full: is the holy loved by the gods because it is holy, or holy because it is loved?"
+  },
+  {
+   "id": "genesis-judge-of-all-the-earth",
+   "after": "source:BH00053",
+   "responds": [
+    "source:BH00053",
+    "source:BH00018"
+   ],
+   "relation": "contrast",
+   "why": "The reading places its subject beyond questioning. Abraham, pleading for Sodom, questions God by God’s own standard: shall not the Judge of all the earth do right? Is his question impiety or faith?"
+  },
+  {
+   "id": "matthew-upon-this-rock",
+   "after": "source:AB00227",
+   "responds": [
+    "source:AB00227"
+   ],
+   "relation": "adjacent",
+   "why": "Infallibility “as an attribute is conferred.” The Gospel’s charter for a conferred authority is the promise to Peter: whatsoever thou shalt bind on earth shall be bound in heaven."
+  },
+  {
+   "id": "vatican-ex-cathedra",
+   "after": "source:AB00227",
+   "responds": [
+    "source:AB00227",
+    "source:ABU2892"
+   ],
+   "relation": "adjacent",
+   "why": "An elected House of Justice “under the protection and unerring guidance of God.” The council of 1870 defined a comparable gift for one office, within stated limits: the Pope speaking ex cathedra on faith or morals. A later reading judges that claim by a historical instance."
+  },
+  {
+   "id": "acton-power-tends-to-corrupt",
+   "after": "source:AB00227",
+   "responds": [
+    "source:AB00227",
+    "source:ABU2906"
+   ],
+   "relation": "contrast",
+   "why": "Unerring guidance is promised to an institution. Acton wrote his best-known sentence in 1887 against presuming that those who hold great authority do no wrong. What safeguards does the reading itself name?"
+  },
+  {
+   "id": "isaiah-glory-not-give",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“He … hath no partner in the Most Great Infallibility.” Isaiah’s God speaks in the same exclusive terms: my glory will I not give to another."
+  },
+  {
+   "id": "romans-potter-power-over-the-clay",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001",
+    "source:BH00053"
+   ],
+   "relation": "adjacent",
+   "why": "“God hath reserved this distinction unto His own Self.” Paul’s defence of the same sovereignty: shall the thing formed say to him that formed it, Why hast thou made me thus?"
+  },
+  {
+   "id": "deuteronomy-if-the-thing-follow-not",
+   "after": "source:AB00263",
+   "responds": [
+    "source:AB00263"
+   ],
+   "relation": "complement",
+   "why": "“Once His claim proveth true, then whatsoever He may choose to say is right.” Deuteronomy tests the claim by what the prophet says: if the thing follow not, nor come to pass, the Lord hath not spoken it. Which comes first, the claimant or the word?"
+  },
+  {
+   "id": "pope-err-human",
+   "after": "source:BH01122",
+   "responds": [
+    "source:BH01122"
+   ],
+   "relation": "adjacent",
+   "why": "“Man is prone to error.” Pope’s line is the proverb in English: to err is human, to forgive, divine."
+  },
+  {
+   "id": "james-in-many-things-we-offend-all",
+   "after": "source:BH01122",
+   "responds": [
+    "source:BH01122",
+    "source:BH00460"
+   ],
+   "relation": "adjacent",
+   "why": "Error, mistake and forgetfulness are “the lot of all others.” James includes himself and every teacher: in many things we offend all."
+  },
+  {
+   "id": "ecclesiastes-not-a-just-man",
+   "after": "source:BH00460",
+   "responds": [
+    "source:BH00460"
+   ],
+   "relation": "adjacent",
+   "why": "Infallibility is “an ornament reserved for God alone.” The Preacher’s survey of humankind: there is not a just man upon earth, that doeth good, and sinneth not."
+  },
+  {
+   "id": "psalm-who-shall-stand",
+   "after": "source:BH00418",
+   "responds": [
+    "source:BH00418"
+   ],
+   "relation": "adjacent",
+   "why": "“Were [He] to bring forth the balance of justice, none would find refuge.” The psalm from the depths: if thou, Lord, shouldest mark iniquities, O Lord, who shall stand?"
+  },
+  {
+   "id": "shakespeare-after-his-desert",
+   "after": "source:BH00418",
+   "responds": [
+    "source:BH00418"
+   ],
+   "relation": "adjacent",
+   "why": "None would escape if dealt with by justice. Hamlet says it to a courtier who means to treat the players as they deserve: use every man after his desert, and who should ’scape whipping?"
+  },
+  {
+   "id": "numbers-god-is-not-a-man",
+   "after": "source:BH00466",
+   "responds": [
+    "source:BH00466"
+   ],
+   "relation": "adjacent",
+   "why": "“In that realm there neither is nor hath been any possibility of error.” Balaam’s oracle: God is not a man, that he should lie; neither the son of man, that he should repent."
+  },
+  {
+   "id": "quran-not-of-desire",
+   "after": "source:AB00353",
+   "responds": [
+    "source:AB00353"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá answers a question about the Prophets with this verse. Here it is from the chapter of the Star, where it is said of Muḥammad."
+  },
+  {
+   "id": "john-not-spoken-of-myself",
+   "after": "source:AB00353",
+   "responds": [
+    "source:AB00353"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations “speak not from desire.” Jesus says the same of his own speech in John: I have not spoken of myself; the Father gave me a commandment, what I should say."
+  },
+  {
+   "id": "john-which-of-you-convinceth-me",
+   "after": "source:ABU3610",
+   "responds": [
+    "source:ABU3610"
+   ],
+   "relation": "adjacent",
+   "why": "“Are the Manifestations sinless? Yes.” In John Jesus puts the challenge directly to his opponents: which of you convinceth me of sin?"
+  },
+  {
+   "id": "analects-at-fifteen",
+   "after": "source:ABU3184",
+   "responds": [
+    "source:ABU3184",
+    "selection:8d9cd3efafb8359df705b182"
+   ],
+   "relation": "adjacent",
+   "why": "The Prophets could violate God’s will, but “the desire to do so is never present in them.” Confucius describes reaching something like it only at seventy: I could follow what my heart desired, without transgressing what was right."
+  },
+  {
+   "id": "hebrews-tempted-like-as-we-are",
+   "after": "source:ABU3184",
+   "responds": [
+    "source:ABU3184"
+   ],
+   "relation": "adjacent",
+   "why": "Power to sin without inclination to it. Hebrews keeps both halves for Jesus: in all points tempted like as we are, yet without sin."
+  },
+  {
+   "id": "matthew-fulfil-all-righteousness",
+   "after": "source:AB00168",
+   "responds": [
+    "source:AB00168"
+   ],
+   "relation": "adjacent",
+   "why": "The Prophets confess sins “only to instruct other souls.” Matthew meets the same puzzle when Jesus comes to a baptism of repentance, and John protests; the answer is that it becometh us to fulfil all righteousness."
+  },
+  {
+   "id": "mark-why-callest-thou-me-good",
+   "after": "source:AB00168",
+   "responds": [
+    "source:AB00168"
+   ],
+   "relation": "complement",
+   "why": "The confessions are explained as teaching. Jesus refuses even the word “good”: there is none good but one, that is, God. Is that also instruction, or a plain statement about himself?"
+  },
+  {
+   "id": "samuel-thou-art-the-man",
+   "after": "source:AB00134",
+   "responds": [
+    "source:AB00134"
+   ],
+   "relation": "complement",
+   "why": "“God addresses them thus only for a wisdom.” The Hebrew Bible lets a prophet rebuke King David to his face, thou art the man, and David answers that he has sinned. What is gained and lost when scripture’s heroes are allowed real faults?"
+  },
+  {
+   "id": "deuteronomy-moses-died-there",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002",
+    "source:BH00005"
+   ],
+   "relation": "complement",
+   "why": "The reading quotes Moses’s admission that he erred and insists that all he said is truth. Deuteronomy ends with Moses shown a land he may not enter, the penalty for a trespass. How do the two traditions carry the same memory?"
+  },
+  {
+   "id": "quran-i-have-wronged-my-soul",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh cites Moses’s own prayer after he had killed a man. This is the verse, with what follows it at once: then He forgave him."
+  },
+  {
+   "id": "corinthians-milk-not-meat",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "“The suckling child must be nourished with milk.” Paul uses the same figure for teaching held back: I have fed you with milk, and not with meat, for hitherto ye were not able to bear it."
+  },
+  {
+   "id": "quran-east-and-west-qiblah",
+   "after": "source:BH00831",
+   "responds": [
+    "source:BH00831"
+   ],
+   "relation": "adjacent",
+   "why": "“If He declares the qiblih to be toward the east … and if He declares it to be toward the west.” The example is the Qur’án’s own: when the direction of prayer was changed, the answer was that unto God belong the East and the West."
+  },
+  {
+   "id": "mark-sabbath-made-for-man",
+   "after": "source:BH00831",
+   "responds": [
+    "source:BH00831"
+   ],
+   "relation": "complement",
+   "why": "A law is right because the Lawgiver declares it. When Jesus sets aside a sabbath rule he gives a reason that looks to human good: the sabbath was made for man. Do the two accounts of a changed law differ?"
+  },
+  {
+   "id": "isaiah-clay-and-the-potter",
+   "after": "source:BH00018",
+   "responds": [
+    "source:BH00018"
+   ],
+   "relation": "adjacent",
+   "why": "“Fear God and object not.” Isaiah’s warning to the one who strives with his Maker: shall the clay say to him that fashioneth it, What makest thou?"
+  },
+  {
+   "id": "job-spoken-of-me-the-thing-that-is-right",
+   "after": "source:BH00018",
+   "responds": [
+    "source:BH00018"
+   ],
+   "relation": "contrast",
+   "why": "Those who question the order of names in a sacred text are told not to object. At the end of Job it is the friends who defended God who are rebuked, and the man who argued with him who is said to have spoken rightly. When is objection the more faithful act?"
+  },
+  {
+   "id": "job-thou-canst-do-every-thing",
+   "after": "source:BH00372",
+   "responds": [
+    "source:BH00372"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever is assured of “He doeth whatsoever He willeth” is established upon certitude. Job arrives there after the whirlwind: I know that thou canst do every thing; I uttered that I understood not."
+  },
+  {
+   "id": "quran-am-i-not-your-lord",
+   "after": "source:BB00005",
+   "responds": [
+    "source:BB00005"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb defines infallibility by the answer “Yea” to the question “Am I not your Lord?” The question and the first answer are in the Qur’án’s account of the covenant with Adam’s children."
+  },
+  {
+   "id": "john-epistle-cannot-sin",
+   "after": "source:BH00006",
+   "responds": [
+    "source:BH00006",
+    "source:BH00097"
+   ],
+   "relation": "adjacent",
+   "why": "“Every soul who … is assured with the word ‘Yea’ is of the people of infallibility.” The First Letter of John makes as bold a claim for the believer: whosoever is born of God doth not commit sin."
+  },
+  {
+   "id": "john-epistle-no-sin",
+   "after": "source:BH00097",
+   "responds": [
+    "source:BH00097"
+   ],
+   "relation": "contrast",
+   "why": "“Whosoever believeth in Him is infallible.” The same letter of John that says the believer cannot sin says also: if we say that we have no sin, we deceive ourselves. How is belief kept from becoming a licence?"
+  },
+  {
+   "id": "matthew-lord-lord",
+   "after": "source:BH00097",
+   "responds": [
+    "source:BH00097",
+    "source:BH00006"
+   ],
+   "relation": "contrast",
+   "why": "Infallibility is made to rest on saying “Yea” at the time of the Manifestation. Jesus warns that saying is not enough: not every one that saith unto me, Lord, Lord, but he that doeth the will of my Father."
+  },
+  {
+   "id": "quran-not-a-commodity-between-the-rich",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb’s sentence follows a verse of the Qur’án almost word for word: whatsoever the messenger giveth you, take it, and whatsoever he forbiddeth, abstain from it. In the Qur’án it concerns the division of spoils."
+  },
+  {
+   "id": "john-whatsoever-he-saith-do-it",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Accept what the Messenger gives and forgo what He forbids. At the wedding in Cana the mother of Jesus tells the servants: whatsoever he saith unto you, do it."
+  },
+  {
+   "id": "jude-keep-you-from-falling",
+   "after": "source:BH00515",
+   "responds": [
+    "source:BH00515"
+   ],
+   "relation": "adjacent",
+   "why": "“None save God Himself possesseth the Most Great Infallibility,” so steadfastness has to be asked for. Jude’s doxology asks the same of him that is able to keep you from falling."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:AB00657",
+   "responds": [
+    "source:AB00657"
+   ],
+   "relation": "adjacent",
+   "why": "“The moon has no light of itself but receives light from the sun.” Paul’s figure for a borrowed excellence: we have this treasure in earthen vessels, that the power may be of God, and not of us."
+  },
+  {
+   "id": "matthew-blind-leaders",
+   "after": "source:AB02106",
+   "responds": [
+    "source:AB02106"
+   ],
+   "relation": "adjacent",
+   "why": "“The misguided one cannot be the guide to the path.” Jesus: if the blind lead the blind, both shall fall into the ditch."
+  },
+  {
+   "id": "matthew-they-say-and-do-not",
+   "after": "source:AB02106",
+   "responds": [
+    "source:AB02106"
+   ],
+   "relation": "complement",
+   "why": "One liable to error cannot be the centre of guidance. Jesus tells the crowd to do what those in Moses’s seat teach, though not what they do. Can an office guide rightly when its holder does not live rightly?"
+  },
+  {
+   "id": "cyprian-rays",
+   "after": "source:AB04657",
+   "responds": [
+    "source:AB04657"
+   ],
+   "relation": "adjacent",
+   "why": "All are gathered “around one point” so that dissension may not undermine the Cause. Cyprian of Carthage argued for one centre in the third century with the figure of many rays and one light."
+  },
+  {
+   "id": "madison-multiplicity-of-sects",
+   "after": "source:AB04657",
+   "responds": [
+    "source:AB04657",
+    "source:ABU2731"
+   ],
+   "relation": "contrast",
+   "why": "A single centre is the safeguard against division. Madison, designing a republic, found security for religious rights in the opposite arrangement, a multiplicity of sects. What does each fear most?"
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:ABU1334",
+   "responds": [
+    "source:ABU1334"
+   ],
+   "relation": "adjacent",
+   "why": "Conferred infallibility is preservation given to those under the Manifestation’s protection. James: every good gift and every perfect gift is from above."
+  },
+  {
+   "id": "hebrews-obey-them-that-have-the-rule",
+   "after": "source:ABU2906",
+   "responds": [
+    "source:ABU2906"
+   ],
+   "relation": "adjacent",
+   "why": "“No one shall have the right to resist or oppose it.” Hebrews asks the same of a congregation toward those who watch for their souls as they that must give account."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "source:ABU2906",
+   "responds": [
+    "source:ABU2906",
+    "source:ABU3666"
+   ],
+   "relation": "contrast",
+   "why": "An institution none may resist. Peter and the apostles, forbidden by their own religious council to teach, answer: we ought to obey God rather than men. Who decides when that sentence applies?"
+  },
+  {
+   "id": "mill-assumption-of-infallibility",
+   "after": "source:ABU3666",
+   "responds": [
+    "source:ABU3666"
+   ],
+   "relation": "contrast",
+   "why": "Whoever thinks a decision inapt “has indeed erred.” Mill holds that to refuse a hearing to an opinion because one is sure it is false is the mark of fallible men assuming infallibility. Does the reading forbid the thought, or only acting on it?"
+  },
+  {
+   "id": "luke-that-thy-faith-fail-not",
+   "after": "source:ABU3666",
+   "responds": [
+    "source:ABU3666"
+   ],
+   "relation": "adjacent",
+   "why": "An institution preserved from error by one greater than itself. Jesus tells Peter before his denial: I have prayed for thee, that thy faith fail not."
+  },
+  {
+   "id": "galatians-withstood-him-to-the-face",
+   "after": "source:ABU2892",
+   "responds": [
+    "source:ABU2892"
+   ],
+   "relation": "adjacent",
+   "why": "An act of the Popes is taken to show “the fallibility of their judgment.” Paul records that he once withstood Peter to the face, because he was to be blamed."
+  },
+  {
+   "id": "corinthians-if-christ-be-not-risen",
+   "after": "selection:ee5de92d75d9dcaaf4fe17f6",
+   "responds": [
+    "selection:ee5de92d75d9dcaaf4fe17f6"
+   ],
+   "relation": "adjacent",
+   "why": "“If They are not infallible, then They are not Divine.” Paul stakes his preaching on one point in the same form: if Christ be not risen, then is our preaching vain."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "selection:ee5de92d75d9dcaaf4fe17f6",
+   "responds": [
+    "selection:ee5de92d75d9dcaaf4fe17f6"
+   ],
+   "relation": "contrast",
+   "why": "The whole theory of revelation is said to rest on the Prophet’s infallibility. Paine grants the first hearer his revelation and no one else: it is hearsay to every other. How does an infallible word reach its second hearer infallibly?"
+  },
+  {
+   "id": "proverbs-lean-not",
+   "after": "selection:9e6b21c5d710c4a03dfebc77",
+   "responds": [
+    "selection:9e6b21c5d710c4a03dfebc77"
+   ],
+   "relation": "adjacent",
+   "why": "“The human mind is too limited … all alone.” Proverbs: trust in the Lord with all thine heart; and lean not unto thine own understanding."
+  },
+  {
+   "id": "locke-reason-last-judge",
+   "after": "selection:9e6b21c5d710c4a03dfebc77",
+   "responds": [
+    "selection:9e6b21c5d710c4a03dfebc77"
+   ],
+   "relation": "contrast",
+   "why": "The revealed Word is “the infallible balance,” even against prevailing standards. Locke answers that reason must be our last judge and guide in every thing, since it is reason that must decide whether a thing is a revelation. Can both be the last judge?"
+  },
+  {
+   "id": "augustine-believe-that-you-may-understand",
+   "after": "selection:2f4e9f0697c9a71ef67f0f82",
+   "responds": [
+    "selection:2f4e9f0697c9a71ef67f0f82"
+   ],
+   "relation": "adjacent",
+   "why": "Belief in the Prophet’s infallibility does not end investigation; it gives the mind “a new orientation.” Augustine’s rule has the same order: believe that you may understand."
+  },
+  {
+   "id": "acts-bereans",
+   "after": "selection:2f4e9f0697c9a71ef67f0f82",
+   "responds": [
+    "selection:2f4e9f0697c9a71ef67f0f82"
+   ],
+   "relation": "adjacent",
+   "why": "The seeker goes on investigating. The Jews of Berea are called noble for receiving the word with readiness of mind and then searching the scriptures daily, whether those things were so."
+  },
+  {
+   "id": "philippians-not-already-perfect",
+   "after": "selection:348079eba36adab330f4ad65",
+   "responds": [
+    "selection:348079eba36adab330f4ad65"
+   ],
+   "relation": "adjacent",
+   "why": "“We humans are never going to become perfect.” Paul about himself: not as though I had already attained, either were already perfect; but I follow after."
+  },
+  {
+   "id": "matthew-be-ye-perfect",
+   "after": "selection:348079eba36adab330f4ad65",
+   "responds": [
+    "selection:348079eba36adab330f4ad65"
+   ],
+   "relation": "contrast",
+   "why": "Perfection “belongs to a realm we are not destined to enter.” The Sermon on the Mount commands it of ordinary hearers: be ye therefore perfect. Is the command meant to be reached, or to be walked toward?"
+  },
+  {
+   "id": "acts-seemed-good-to-us",
+   "after": "selection:60cb6a03a7510e6e93cbef36",
+   "responds": [
+    "selection:60cb6a03a7510e6e93cbef36"
+   ],
+   "relation": "adjacent",
+   "why": "What emerges from the consultation of those chosen “is the command of God.” The council of Jerusalem issues its decision in a similar voice: it seemed good to the Holy Ghost, and to us."
+  },
+  {
+   "id": "talmud-not-in-heaven",
+   "after": "selection:60cb6a03a7510e6e93cbef36",
+   "responds": [
+    "selection:60cb6a03a7510e6e93cbef36"
+   ],
+   "relation": "complement",
+   "why": "The decision of a consulting body is God’s command. In the Talmud the sages follow their majority against a voice from heaven, quoting “It is not in heaven,” and God laughs: my children have triumphed over me. Is that the same claim or a bolder one?"
+  },
+  {
+   "id": "titus-heretick-reject",
+   "after": "selection:a68a8fa37e2112ea10b87cf9",
+   "responds": [
+    "selection:a68a8fa37e2112ea10b87cf9"
+   ],
+   "relation": "adjacent",
+   "why": "Explicit directions are needed to protect the Faith “from the heresies and calumnies” to come. The letter to Titus has a rule for it: a man that is an heretick after the first and second admonition reject."
+  },
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "selection:af9aa0e7b34acf035817bce3",
+   "responds": [
+    "selection:af9aa0e7b34acf035817bce3"
+   ],
+   "relation": "contrast",
+   "why": "The aim is protection against “continual bickering and opinionatedness.” Milton thought much arguing and many opinions the sign of a people learning: opinion in good men is but knowledge in the making. Where does opinion end and opinionatedness begin?"
+  },
+  {
+   "id": "john-woman-in-travail",
+   "after": "selection:b15fc40991eb7936198729bb",
+   "responds": [
+    "selection:b15fc40991eb7936198729bb"
+   ],
+   "relation": "adjacent",
+   "why": "An order “born” out of “the pangs of anguish.” Jesus’s figure for his disciples’ sorrow: a woman when she is in travail hath sorrow, but remembereth no more the anguish, for joy that a man is born."
+  }
+ ],
+ "library": {
+  "mill-assumption-of-infallibility": {
+   "text": "To refuse a hearing to an opinion, because they are sure that it is false, is to assume that their certainty is the same thing as absolute certainty. All silencing of discussion is an assumption of infallibility",
+   "author": "John Stuart Mill",
+   "work": "On Liberty",
+   "locator": "chapter 2",
+   "year": "1859",
+   "sortYear": 1859,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/On_Liberty/Chapter_2",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1873."
+   }
+  },
+  "vatican-ex-cathedra": {
+   "text": "the Roman Pontiff, when he speaks ex cathedra, that is, when in discharge of the office of Pastor and Teacher of all Christians, by virtue of his supreme Apostolic authority, he defines a doctrine regarding faith or morals to be held by the universal Church, is, by the divine assistance promised to him in Blessed Peter, possessed of that infallibility with which the divine Redeemer willed that His Church should be endowed in defining doctrine regarding faith or morals",
+   "author": "First Vatican Council",
+   "work": "Pastor Aeternus (First Dogmatic Constitution on the Church of Christ)",
+   "locator": "chapter 4",
+   "year": "1870",
+   "sortYear": 1870,
+   "tradition": "European literature and thought",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Decrees_of_the_Vatican_Council/Part_3/Chapter_4",
+    "label": "Wikisource",
+    "checked": "2026-11-21",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Conciliar decree of 1870; English edition published 1907."
+   }
+  },
+  "psalm-whatsoever-he-hath-pleased": {
+   "text": "But our God is in the heavens: he hath done whatsoever he hath pleased",
+   "work": "Psalm 115:3",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20115%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-not-a-just-man": {
+   "text": "For there is not a just man upon earth, that doeth good, and sinneth not",
+   "work": "Ecclesiastes 7:20",
+   "year": "c. 3rd century BCE",
+   "sortYear": -250,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%207%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "james-in-many-things-we-offend-all": {
+   "text": "For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body",
+   "work": "James 3:2",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%203%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-who-can-understand-his-errors": {
+   "text": "Who can understand his errors? cleanse thou me from secret faults. Keep back thy servant also from presumptuous sins; let them not have dominion over me: then shall I be upright, and I shall be innocent from the great transgression",
+   "work": "Psalm 19:12–13",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2019%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-which-of-you-convinceth-me": {
+   "text": "Which of you convinceth me of sin? And if I say the truth, why do ye not believe me",
+   "work": "John 8:46",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%208%3A46&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-get-thee-behind-me": {
+   "text": "From that time forth began Jesus to shew unto his disciples, how that he must go unto Jerusalem, and suffer many things of the elders and chief priests and scribes, and be killed, and be raised again the third day. Then Peter took him, and began to rebuke him, saying, Be it far from thee, Lord: this shall not be unto thee. But he turned, and said unto Peter, Get thee behind me, Satan: thou art an offence unto me: for thou savourest not the things that be of God, but those that be of men",
+   "work": "Matthew 16:21–23",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2016%3A21-23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-epistle-cannot-sin": {
+   "text": "Whosoever is born of God doth not commit sin; for his seed remaineth in him: and he cannot sin, because he is born of God",
+   "work": "1 John 3:9",
+   "year": "c. 100 CE",
+   "sortYear": 100,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hebrews-obey-them-that-have-the-rule": {
+   "text": "Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account, that they may do it with joy, and not with grief: for that is unprofitable for you",
+   "work": "Hebrews 13:17",
+   "year": "1st century CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2013%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "philippians-not-already-perfect": {
+   "text": "Not as though I had already attained, either were already perfect: but I follow after, if that I may apprehend that for which also I am apprehended of Christ Jesus",
+   "work": "Philippians 3:12",
+   "year": "c. 55–62 CE",
+   "sortYear": 60,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Philippians%203%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-his-work-is-perfect": {
+   "text": "He is the Rock, his work is perfect: for all his ways are judgment: a God of truth and without iniquity, just and right is he",
+   "work": "Deuteronomy 32:4",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2032%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-whatsoever-he-saith-do-it": {
+   "text": "His mother saith unto the servants, Whatsoever he saith unto you, do it",
+   "work": "John 2:5",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%202%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-i-have-wronged-my-soul": {
+   "text": "He said: My Lord! Lo! I have wronged my soul, so forgive me. Then He forgave him. Lo! He is the Forgiving, the Merciful.",
+   "work": "Qur’an 28:16",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=28&verse=16",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-east-and-west-qiblah": {
+   "text": "The foolish of the people will say: What hath turned them from the qiblah which they formerly observed? Say: Unto Allah belong the East and the West. He guideth whom He will unto a straight path.",
+   "work": "Qur’an 2:142",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=142",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-21",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "talmud-not-in-heaven": {
+   "text": "Rabbi Yehoshua stood on his feet and said: It is written: “It is not in heaven” … Rabbi Natan encountered Elijah the prophet and said to him: What did the Holy One, Blessed be He, do at that time, when Rabbi Yehoshua issued his declaration? Elijah said to him: The Holy One, Blessed be He, smiled and said: My children have triumphed over Me",
+   "work": "Babylonian Talmud, Bava Metzia",
+   "locator": "59b",
+   "year": "c. 500 CE",
+   "sortYear": 500,
+   "translator": "Adin Even-Israel Steinsaltz",
+   "tradition": "Rabbinic and modern Judaism",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.sefaria.org/api/texts/Bava_Metzia.59b.5?context=0&ven=William_Davidson_Edition_-_English",
+    "label": "Sefaria",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "open-licence",
+    "note": "William Davidson Talmud (Koren–Steinsaltz), CC BY-NC."
+   }
+  }
+ }
+}
