@@ -1,0 +1,490 @@
+{
+ "format": 2,
+ "slug": "wordstandard",
+ "subject": "476749D229DA473E89464763E1955D51",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 43,
+ "quotations": 47,
+ "kept": [
+  "source:BH00001",
+  "source:BH11742",
+  "source:BH00004",
+  "source:BB00001",
+  "source:BH00002",
+  "source:BH00113",
+  "source:BH00306",
+  "source:BH00151",
+  "source:BB00036",
+  "source:BH00024",
+  "source:BH00394",
+  "source:BH01743",
+  "source:BH00085",
+  "source:BH09747",
+  "source:AB00018",
+  "source:BH07299",
+  "source:BH00875",
+  "source:BH00839",
+  "source:BH00018",
+  "source:BH03523",
+  "source:BH10666",
+  "source:BH06165",
+  "source:BH05232",
+  "source:BH09525",
+  "source:BH09956",
+  "source:BH07802",
+  "source:BH07473",
+  "source:BH00132",
+  "source:BH09614",
+  "source:BB00492",
+  "source:BB00009",
+  "source:AB00289",
+  "source:ABU2646",
+  "source:BH09938",
+  "source:BH03426",
+  "source:BH01738",
+  "source:BH00326",
+  "source:BH07432",
+  "source:BH10952",
+  "selection:62e9739b9febcdda49b99e9c",
+  "selection:127917f36223969f1a711dca",
+  "selection:2ee76cfedbde55a4de3b0209",
+  "selection:f4722aabc88983bd7e743135"
+ ],
+ "introduction": "Bahá’u’lláh tells the religious leaders of the world not to weigh the Book of God by their own standards, for “the Book itself is the unerring Balance.” The readings develop that reversal. The measure is the Manifestation and what he reveals; learning, tradition, grammar and even earlier scripture cannot judge it and may become a veil; its words outlast the world. Letters of Shoghi Effendi and the Universal House of Justice apply this to the habit of fitting the teachings into current categories. The Psalms on the law, Isaiah, the Gospels and Paul are close to the readings throughout, with Augustine’s “believe that you may understand.” The questions this raises are stated plainly beside the readings. How is a claim to revelation to be tested at all, if nothing may test it (Hume, Descartes, Kant, the Bereans)? What of the earlier scriptures that close themselves (Revelation, the Qur’án’s “this day have I perfected your religion”)? And what does the history of scripture used against science, as in the psalm quoted against Copernicus, teach about the reader’s part?",
+ "questions": [
+  "“Weigh not the Book of God with such standards … as are current amongst you.” Before a person has accepted the Book, he has only his own standards. How do the readings expect recognition to happen?",
+  "The Bayán says, “Make Me not a veil between you and your Lord.” How does a scripture become a veil to its own believers? Could it happen to Bahá’ís?",
+  "“Empty thyself of all learning.” What kind of learning is meant, given how highly the same writings praise knowledge?",
+  "A verse of the Qur’án is said to have been right against Ptolemy; a psalm was used against Galileo. What rule would you give for bringing scripture to bear on questions of science?",
+  "“The Word is the only Standard of Truth.” Sincere readers of the same Word differ. Who or what settles their differences in the Bahá’í Faith, and what is left to the individual?",
+  "The House of Justice warns against placing the teachings “within one or other of the existing categories of human philosophy.” Name a category you have used in that way. What did it hide?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-law-is-perfect",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“The Book itself is the unerring Balance.” A psalm: the law of the Lord is perfect, converting the soul: the testimony of the Lord is sure, making wise the simple."
+  },
+  {
+   "id": "isaiah-to-the-law-and-to-the-testimony",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Whatever people possess “must be weighed” in it. Isaiah: to the law and to the testimony: if they speak not according to this word, it is because there is no light in them."
+  },
+  {
+   "id": "acts-bereans",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "“Weigh not the Book of God with such standards … as are current amongst you.” The Bereans were praised for weighing Paul’s new message by the scriptures they held: they searched the scriptures daily, whether those things were so. Is testing a new revelation by an earlier one the fault named here, or something else?"
+  },
+  {
+   "id": "john-do-his-will-shall-know",
+   "after": "source:BH11742",
+   "responds": [
+    "source:BH11742"
+   ],
+   "relation": "adjacent",
+   "why": "The path to this knowledge is open only to “those who have detached themselves.” Jesus: if any man will do his will, he shall know of the doctrine, whether it be of God."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "“The Balance hath been and shall ever be the Manifestation Himself.” Jesus: I am the way, the truth, and the life."
+  },
+  {
+   "id": "matthew-as-one-having-authority",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "What he says and commands is the standard. The crowd noticed it: he taught them as one having authority, and not as the scribes."
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "And what he practises. Challenged by the experts on the sabbath law, Jesus answered as its source: the Son of man is Lord also of the sabbath."
+  },
+  {
+   "id": "psalm-in-thy-light",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The religion of God cannot be comprehended “through aught but itself; rather by it all else is understood.” A psalm: in thy light shall we see light."
+  },
+  {
+   "id": "augustine-believe-that-you-may-understand",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine’s rule for readers: understanding is the reward of faith; believe that you may understand."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "“Empty thyself of all learning, that thou mayest partake of My knowledge.” Jesus: thou hast hid these things from the wise and prudent, and hast revealed them unto babes."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "contrast",
+   "why": "Blind your eyes, stop your ears, empty yourself of learning. Kant’s motto for enlightenment: have courage to use your own understanding. Is Bahá’u’lláh asking the reader to stop thinking? What exactly is to be emptied?"
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:BH00151",
+   "responds": [
+    "source:BH00151"
+   ],
+   "relation": "adjacent",
+   "why": "The learned objected that the Báb’s words broke “the rules of the people.” The learned of Jerusalem: how knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:BH00151",
+   "responds": [
+    "source:BH00151"
+   ],
+   "relation": "adjacent",
+   "why": "Revelation does not owe its force to correct style. Paul: my speech was not with enticing words of man’s wisdom, but in demonstration of the Spirit and of power."
+  },
+  {
+   "id": "mark-tradition-of-none-effect",
+   "after": "source:BB00036",
+   "responds": [
+    "source:BB00036"
+   ],
+   "relation": "adjacent",
+   "why": "“The standard is what God hath revealed … not the whims” of people. Jesus: making the word of God of none effect through your tradition."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:BH00024",
+   "responds": [
+    "source:BH00024"
+   ],
+   "relation": "adjacent",
+   "why": "“Return ye to the holy Writings.” A psalm: thy word is a lamp unto my feet, and a light unto my path."
+  },
+  {
+   "id": "quran-produce-a-surah",
+   "after": "source:BH00394",
+   "responds": [
+    "source:BH00394"
+   ],
+   "relation": "adjacent",
+   "why": "No proof was ordained “save the revelation of verses.” The Qur’án’s challenge: if ye are in doubt concerning that which We reveal, then produce a surah of the like thereof."
+  },
+  {
+   "id": "john-had-ye-believed-moses",
+   "after": "source:BH01743",
+   "responds": [
+    "source:BH01743"
+   ],
+   "relation": "adjacent",
+   "why": "“By what proof did ye believe in the Point of the Bayán?” Jesus: had ye believed Moses, ye would have believed me: for he wrote of me."
+  },
+  {
+   "id": "luke-beginning-at-moses",
+   "after": "source:BH00085",
+   "responds": [
+    "source:BH00085"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh cites earlier scripture as a mercy to his hearers’ weakness. The risen Jesus did the same on the road: beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself."
+  },
+  {
+   "id": "john-search-the-scriptures",
+   "after": "source:BH09747",
+   "responds": [
+    "source:BH09747"
+   ],
+   "relation": "adjacent",
+   "why": "The Bayán itself cries out: “Make Me not a veil between you and your Lord.” Jesus to students of scripture: search the scriptures; for in them ye think ye have eternal life: and ye will not come to me, that ye might have life."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:BH09747",
+   "responds": [
+    "source:BH09747"
+   ],
+   "relation": "adjacent",
+   "why": "A holy book can be made a veil. Paul: the letter killeth, but the spirit giveth life."
+  },
+  {
+   "id": "galatians-our-schoolmaster",
+   "after": "source:AB00018",
+   "responds": [
+    "source:AB00018"
+   ],
+   "relation": "adjacent",
+   "why": "“How canst thou cling to the branch after attaining unto the root?” Paul on the Law once Christ had come: the law was our schoolmaster to bring us unto Christ."
+  },
+  {
+   "id": "revelation-add-unto-these-things",
+   "after": "source:BH07299",
+   "responds": [
+    "source:BH07299"
+   ],
+   "relation": "contrast",
+   "why": "All Books now depend on “the Most Great Book.” The Bible ends by closing itself against any successor: if any man shall add unto these things, God shall add unto him the plagues that are written in this book. How does a believer in an earlier Book hear Bahá’u’lláh’s claim, and what would it take to consider it?"
+  },
+  {
+   "id": "quran-perfected-your-religion",
+   "after": "source:BH00875",
+   "responds": [
+    "source:BH00875"
+   ],
+   "relation": "contrast",
+   "why": "“Can anything revealed before equal a single verse of His?” The Qur’án says of itself what its people take as final: this day have I perfected your religion for you. Each scripture is the standard for its own; what, then, can judge between them?"
+  },
+  {
+   "id": "matthew-not-by-bread-alone",
+   "after": "source:BH00018",
+   "responds": [
+    "source:BH00018"
+   ],
+   "relation": "adjacent",
+   "why": "Deliverance comes “through a single word that hath shone forth from the dayspring of the mouth of God’s Will.” Jesus, quoting Moses: man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."
+  },
+  {
+   "id": "colossians-through-philosophy",
+   "after": "source:BH03523",
+   "responds": [
+    "source:BH03523"
+   ],
+   "relation": "adjacent",
+   "why": "“Set aside the tales of the people.” Paul: beware lest any man spoil you through philosophy and vain deceit, after the tradition of men."
+  },
+  {
+   "id": "corinthians-fire-shall-try",
+   "after": "source:BH06165",
+   "responds": [
+    "source:BH06165"
+   ],
+   "relation": "adjacent",
+   "why": "When “the divine touchstone and balance appeared, the station of all was made clear.” Paul: the fire shall try every man’s work of what sort it is."
+  },
+  {
+   "id": "hebrews-twoedged-sword",
+   "after": "source:BH05232",
+   "responds": [
+    "source:BH05232"
+   ],
+   "relation": "adjacent",
+   "why": "His utterance “weighed all things.” The Letter to the Hebrews: the word of God is a discerner of the thoughts and intents of the heart."
+  },
+  {
+   "id": "daniel-writing-on-the-wall",
+   "after": "source:BH09956",
+   "responds": [
+    "source:BH09956"
+   ],
+   "relation": "adjacent",
+   "why": "“The Most Great Balance, whereby every mighty matter is weighed.” The words on a king’s wall: thou art weighed in the balances, and art found wanting."
+  },
+  {
+   "id": "isaiah-ears-heavy",
+   "after": "source:BH07802",
+   "responds": [
+    "source:BH07802"
+   ],
+   "relation": "adjacent",
+   "why": "“The Book of God speaketh the truth, yet most people comprehend not.” Isaiah: hear ye indeed, but understand not; and see ye indeed, but perceive not."
+  },
+  {
+   "id": "psalm-world-cannot-be-moved",
+   "after": "source:AB00289",
+   "responds": [
+    "source:AB00289"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá says a verse of the Qur’án on the sun’s motion was right against Ptolemy and all his school. Scripture has also been quoted on the losing side: this psalm’s line, the world also is stablished, that it cannot be moved, was used against Copernicus and Galileo. What does that history teach about using a sacred text as a standard in science?"
+  },
+  {
+   "id": "browne-two-books",
+   "after": "source:AB00289",
+   "responds": [
+    "source:AB00289"
+   ],
+   "relation": "complement",
+   "why": "Thomas Browne, physician and believer, kept two texts open: besides that written one of God, another of His servant Nature. When the two books seem to disagree, which reading is to be suspected first, on ‘Abdu’l-Bahá’s own principle that religion must accord with science?"
+  },
+  {
+   "id": "mill-assumption-of-infallibility",
+   "after": "source:ABU2646",
+   "responds": [
+    "source:ABU2646"
+   ],
+   "relation": "contrast",
+   "why": "“The Word is the only Standard of Truth,” and “when there is difference of view there is absence of the Spirit.” Mill: all silencing of discussion is an assumption of infallibility. The Word may be infallible; are its readers? Where do differences of understanding among sincere readers fit?"
+  },
+  {
+   "id": "quran-whoever-believeth-and-doeth-right",
+   "after": "source:BH09938",
+   "responds": [
+    "source:BH09938"
+   ],
+   "relation": "contrast",
+   "why": "Whoever denies this Book, “naught shall be accepted from him though he act according to what is in the Books of God.” The Qur’án, in a verse of unusual breadth: those who are Jews, and Christians, and Sabaeans, whoever believeth in Allah and the Last Day and doeth right, there shall no fear come upon them. How are the two statements to be held together?"
+  },
+  {
+   "id": "psalm-better-than-thousands-of-gold",
+   "after": "source:BH03426",
+   "responds": [
+    "source:BH03426"
+   ],
+   "relation": "adjacent",
+   "why": "“Rejoice in this Clear Book, for nothing among all things can equal it.” A psalm: the law of thy mouth is better unto me than thousands of gold and silver."
+  },
+  {
+   "id": "jeremiah-thy-words-were-found",
+   "after": "source:BH01738",
+   "responds": [
+    "source:BH01738"
+   ],
+   "relation": "adjacent",
+   "why": "“If thou shouldst taste their sweetness.” Jeremiah: thy words were found, and I did eat them; and thy word was unto me the joy and rejoicing of mine heart."
+  },
+  {
+   "id": "psalm-taste-and-see",
+   "after": "source:BH01738",
+   "responds": [
+    "source:BH01738"
+   ],
+   "relation": "adjacent",
+   "why": "The Word is known by tasting, and argument comes second. A psalm gives the same invitation: O taste and see that the Lord is good."
+  },
+  {
+   "id": "isaiah-word-stand-for-ever",
+   "after": "source:BH00326",
+   "responds": [
+    "source:BH00326"
+   ],
+   "relation": "adjacent",
+   "why": "The world is a book whose words are being rubbed out; “the words of God have a station that neither obliteration can seize.” Isaiah: the grass withereth, the flower fadeth: but the word of our God shall stand for ever."
+  },
+  {
+   "id": "matthew-words-shall-not-pass-away",
+   "after": "source:BH07432",
+   "responds": [
+    "source:BH07432"
+   ],
+   "relation": "adjacent",
+   "why": "“Soon all that is visible shall vanish.” Jesus: heaven and earth shall pass away, but my words shall not pass away."
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "source:BH10952",
+   "responds": [
+    "source:BH10952"
+   ],
+   "relation": "adjacent",
+   "why": "“Hold fast unto the Word and be free and detached from aught else.” Jesus: if ye continue in my word, ye shall know the truth, and the truth shall make you free."
+  },
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "selection:62e9739b9febcdda49b99e9c",
+   "responds": [
+    "selection:62e9739b9febcdda49b99e9c"
+   ],
+   "relation": "adjacent",
+   "why": "“God’s standards are different from those of men.” Isaiah: as the heavens are higher than the earth, so are my ways higher than your ways."
+  },
+  {
+   "id": "samuel-seeth-not-as-man-seeth",
+   "after": "selection:62e9739b9febcdda49b99e9c",
+   "responds": [
+    "selection:62e9739b9febcdda49b99e9c"
+   ],
+   "relation": "adjacent",
+   "why": "Samuel was taught the difference of standards while choosing a king among brothers: the Lord seeth not as man seeth."
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "selection:127917f36223969f1a711dca",
+   "responds": [
+    "selection:127917f36223969f1a711dca"
+   ],
+   "relation": "adjacent",
+   "why": "Do not “measure too strictly the Divine Plan with the standard of men.” Paul: the world by wisdom knew not God."
+  },
+  {
+   "id": "tertullian-athens-and-jerusalem",
+   "after": "selection:2ee76cfedbde55a4de3b0209",
+   "responds": [
+    "selection:2ee76cfedbde55a4de3b0209"
+   ],
+   "relation": "adjacent",
+   "why": "We tend to fit the Manifestation’s statements into “existing categories of human philosophy.” Tertullian protested when Christians did it: what indeed has Athens to do with Jerusalem?"
+  },
+  {
+   "id": "hume-proportions-his-belief",
+   "after": "selection:2ee76cfedbde55a4de3b0209",
+   "responds": [
+    "selection:2ee76cfedbde55a4de3b0209"
+   ],
+   "relation": "contrast",
+   "why": "Acquired knowledge is called an “inaccurate standard.” Hume thought it the only one we have: a wise man proportions his belief to the evidence. If human knowledge may not judge a revelation, by what does a seeker judge whether something is a revelation at all?"
+  },
+  {
+   "id": "proverbs-lean-not",
+   "after": "selection:f4722aabc88983bd7e743135",
+   "responds": [
+    "selection:f4722aabc88983bd7e743135"
+   ],
+   "relation": "adjacent",
+   "why": "“The human mind is too limited … all alone.” Proverbs: trust in the Lord with all thine heart; and lean not unto thine own understanding."
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "selection:f4722aabc88983bd7e743135",
+   "responds": [
+    "selection:f4722aabc88983bd7e743135"
+   ],
+   "relation": "adjacent",
+   "why": "God to Job: where wast thou when I laid the foundations of the earth? declare, if thou hast understanding."
+  },
+  {
+   "id": "descartes-never-to-accept",
+   "after": "selection:f4722aabc88983bd7e743135",
+   "responds": [
+    "selection:f4722aabc88983bd7e743135"
+   ],
+   "relation": "contrast",
+   "why": "The Word is “the infallible balance.” Descartes began modern philosophy by trusting nothing he could not see clearly for himself: never to accept anything for true which I did not clearly know to be such. Is there a place for his rule before one accepts the Balance, and a different rule after?"
+  }
+ ],
+ "library": {}
+}
