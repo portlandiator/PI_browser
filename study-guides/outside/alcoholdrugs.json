@@ -1,0 +1,769 @@
+{
+ "format": 2,
+ "slug": "alcoholdrugs",
+ "subject": "7D29F9186A9D4091811A4EA61499CEC8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 40,
+ "quotations": 45,
+ "kept": [
+  "source:BH00001",
+  "source:BH00093",
+  "source:AB00695",
+  "source:AB03806",
+  "source:AB03683",
+  "source:AB01305",
+  "source:BH00050",
+  "source:BH00350",
+  "source:BH00236",
+  "source:AB00109",
+  "source:AB00532",
+  "source:AB01905",
+  "source:AB03188",
+  "source:AB12196",
+  "source:BB00020",
+  "source:BB00357",
+  "source:BB00056",
+  "source:BH00048",
+  "source:BH04606",
+  "source:BH04849",
+  "source:AB01210",
+  "source:ABU3394",
+  "source:AB01000",
+  "source:AB01916",
+  "source:ABU1051",
+  "source:ABU1105",
+  "source:ABU2055",
+  "source:AB02266",
+  "source:ABU0941",
+  "source:ABU2199",
+  "source:ABU2766",
+  "source:ABU1547",
+  "source:ABU3095",
+  "source:ABU1591",
+  "source:AB07837",
+  "source:AB06945",
+  "source:AB11220",
+  "source:BH06136",
+  "selection:523bfd3deab6616449b53d44",
+  "selection:397a0d9f6b84dfda73ec91ab"
+ ],
+ "introduction": "“It is inadmissible that man, who hath been endowed with reason, should consume that which stealeth it away.” The reason given for the Bahá’í prohibition of alcohol, opium and other intoxicants is the mind: these things take away the faculty that makes a person human. The readings state the law, in the Báb’s words and Bahá’u’lláh’s; make the exception for medicine under a physician’s care; describe what opium did to Persian society; and set against it another intoxication, “the wine of the love of God.” They end with prayers for individuals struggling with drink and with a word of forgiveness to one who had fallen back. Earlier scripture did not speak with one voice about wine. Proverbs, Isaiah, Hosea and the Qur’án warn in terms very close to these, and Paul’s “be not drunk with wine … but be filled with the Spirit” makes the readings’ own contrast; but a psalm thanks God for wine, Ben Sira commends it in moderation, and Jesus made it at Cana. Those passages are set here beside the law as questions about how law changes. Cassio’s cry in Othello and Seneca’s “insanity purposely assumed” speak for reason; De Quincey and FitzGerald’s Omar for the attraction.",
+ "questions": [
+  "The reason given for the law is the protection of reason. What else in life “stealeth it away,” and does the same principle apply?",
+  "The Psalms bless wine and Jesus made it at Cana; Bahá’u’lláh forbids it. How do you understand a change of this kind between one revelation and another?",
+  "“The patient must follow the physician.” What does the medical exception show about the purpose of the prohibition?",
+  "“Be ye intoxicated with the wine of the love of God.” Why is the language of wine kept for what replaces it? What does a person seek in drink that the readings say is found elsewhere?",
+  "‘Abdu’l-Bahá prays for people who drink and promises to keep praying. How should a community that does not drink treat a member, or a neighbour, who does?"
+ ],
+ "outside": [
+  {
+   "id": "shakespeare-an-enemy-in-their-mouths",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“It is inadmissible that man, who hath been endowed with reason, should consume that which stealeth it away.” Cassio, sobering up in disgrace: O God, that men should put an enemy in their mouths to steal away their brains!"
+  },
+  {
+   "id": "proverbs-wine-is-a-mocker",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs: wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise."
+  },
+  {
+   "id": "quran-strong-drink-and-games-of-chance",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“Gambling and the use of opium have been forbidden unto you.” The Qur’án joins the same two: strong drink and games of chance are only an infamy of Satan’s handiwork. Leave it aside in order that ye may succeed."
+  },
+  {
+   "id": "corinthians-temple-of-god",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The prohibition protects what a person is. Paul: know ye not that ye are the temple of God?"
+  },
+  {
+   "id": "timothy-a-little-wine",
+   "after": "source:BH00093",
+   "responds": [
+    "source:BH00093"
+   ],
+   "relation": "adjacent",
+   "why": "A woman who gave up opium taken for pain nearly died; “the patient must follow the physician.” Paul allows the same exception: use a little wine for thy stomach’s sake and thine often infirmities."
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:AB00695",
+   "responds": [
+    "source:AB00695"
+   ],
+   "relation": "adjacent",
+   "why": "Opium is forbidden to user, buyer and seller, except for medicine. The principle behind every such exception: the sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "romans-neither-to-drink-wine",
+   "after": "source:AB03683",
+   "responds": [
+    "source:AB03683"
+   ],
+   "relation": "adjacent",
+   "why": "A community gave up growing opium and using tobacco. Paul: it is good neither to eat flesh, nor to drink wine, nor any thing whereby thy brother stumbleth."
+  },
+  {
+   "id": "corinthians-not-be-brought-under-the-power",
+   "after": "source:AB01305",
+   "responds": [
+    "source:AB01305"
+   ],
+   "relation": "adjacent",
+   "why": "On receiving a letter about smoking, the friends “immediately gave it up.” Paul: all things are lawful unto me, but I will not be brought under the power of any."
+  },
+  {
+   "id": "quran-great-sin-and-some-utility",
+   "after": "source:BH00050",
+   "responds": [
+    "source:BH00050"
+   ],
+   "relation": "adjacent",
+   "why": "“It harmeth you and benefiteth you not.” The Qur’án’s first ruling weighed the two sides: in both is great sin, and some utility for men; but the sin of them is greater than their usefulness."
+  },
+  {
+   "id": "romans-the-good-that-i-would-i-do-not",
+   "after": "source:BH00350",
+   "responds": [
+    "source:BH00350"
+   ],
+   "relation": "adjacent",
+   "why": "It is regrettable that a person “should allow his desires to lead him away.” Paul knew the condition: the good that I would I do not: but the evil which I would not, that I do."
+  },
+  {
+   "id": "seneca-insanity-purposely-assumed",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "adjacent",
+   "why": "“Reason showeth that smoking opium is a kind of insanity.” Seneca says it of drink: drunkenness is nothing but a condition of insanity purposely assumed."
+  },
+  {
+   "id": "dequincey-keys-of-paradise",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "contrast",
+   "why": "The user “is completely cut off from the human kingdom.” De Quincey, an opium-eater for most of his life, wrote its praise: thou hast the keys of Paradise, oh, just, subtle, and mighty opium! His book goes on to “The Pains of Opium.” What does the drug promise, and why do the readings treat the promise as the danger?"
+  },
+  {
+   "id": "proverbs-look-not-thou-upon-the-wine",
+   "after": "source:AB00532",
+   "responds": [
+    "source:AB00532"
+   ],
+   "relation": "adjacent",
+   "why": "Opium “makes souls lower than dust”; counsel friend and stranger against it. Proverbs: look not thou upon the wine when it is red. At the last it biteth like a serpent, and stingeth like an adder."
+  },
+  {
+   "id": "proverbs-city-broken-down",
+   "after": "source:AB01905",
+   "responds": [
+    "source:AB01905"
+   ],
+   "relation": "adjacent",
+   "why": "How could one “be led to exemplify the qualities of a monster”? Proverbs: he that hath no rule over his own spirit is like a city that is broken down, and without walls."
+  },
+  {
+   "id": "psalm-wine-that-maketh-glad-the-heart",
+   "after": "source:AB03188",
+   "responds": [
+    "source:AB03188"
+   ],
+   "relation": "contrast",
+   "why": "“Drinking wine … is forbidden in the Tablets of Bahá’u’lláh.” The psalmist counts it among God’s gifts: wine that maketh glad the heart of man, and bread which strengtheneth man’s heart. How do you read a prohibition of something earlier scripture blessed?"
+  },
+  {
+   "id": "john-water-that-was-made-wine",
+   "after": "source:AB03188",
+   "responds": [
+    "source:AB03188"
+   ],
+   "relation": "contrast",
+   "why": "At Cana Jesus made wine for a wedding: thou hast kept the good wine until now. What does the difference between that story and this law say about how religious law changes?"
+  },
+  {
+   "id": "hosea-wine-take-away-the-heart",
+   "after": "source:AB12196",
+   "responds": [
+    "source:AB12196"
+   ],
+   "relation": "adjacent",
+   "why": "“Wine dulls the mind.” Hosea: wine and new wine take away the heart."
+  },
+  {
+   "id": "proverbs-not-for-kings-to-drink-wine",
+   "after": "source:BB00020",
+   "responds": [
+    "source:BB00020"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb fined whoever drank what deprives him of his faculties. Proverbs sets a rule for those who must judge: it is not for kings to drink wine; lest they drink, and forget the law."
+  },
+  {
+   "id": "sirach-wine-is-as-good-as-life",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "complement",
+   "why": "Some believe wine must always be forbidden and would protest if told it might one day be lawful; Bahá’u’lláh uses the example to show how people cling to what they know. Ben Sira, in a scripture that allowed it: wine is as good as life to a man, if it be drunk moderately. What does the reading’s example teach about law and its Giver, apart from wine?"
+  },
+  {
+   "id": "ephesians-filled-with-the-spirit",
+   "after": "source:BH04606",
+   "responds": [
+    "source:BH04606"
+   ],
+   "relation": "adjacent",
+   "why": "“Beware lest you exchange the wine of God for your own wine.” Paul: be not drunk with wine, wherein is excess; but be filled with the Spirit."
+  },
+  {
+   "id": "acts-full-of-new-wine",
+   "after": "source:BH04849",
+   "responds": [
+    "source:BH04849"
+   ],
+   "relation": "adjacent",
+   "why": "“Be ye intoxicated with the wine of the love of God.” At Pentecost the bystanders mistook one for the other: these men are full of new wine."
+  },
+  {
+   "id": "khayyam-jug-of-wine",
+   "after": "source:BH04849",
+   "responds": [
+    "source:BH04849"
+   ],
+   "relation": "contrast",
+   "why": "Persian poetry had long used wine for both. FitzGerald’s Omar keeps to the cup itself: a Jug of Wine, a Loaf of Bread—and Thou beside me singing in the Wilderness. Why would a scripture forbid wine and still speak of the love of God as wine?"
+  },
+  {
+   "id": "quran-similitude-of-the-garden",
+   "after": "source:AB01210",
+   "responds": [
+    "source:AB01210"
+   ],
+   "relation": "adjacent",
+   "why": "The “celestial wine.” The Qur’án, which forbids wine on earth, promises it in the Garden: rivers of wine delicious to the drinker."
+  },
+  {
+   "id": "psalm-in-thy-light",
+   "after": "source:ABU3394",
+   "responds": [
+    "source:ABU3394"
+   ],
+   "relation": "adjacent",
+   "why": "“Man should be intoxicated by gaining increased intelligence.” The psalm: they shall be abundantly satisfied; thou shalt make them drink of the river of thy pleasures."
+  },
+  {
+   "id": "luke-shall-drink-neither-wine-nor-strong-drink",
+   "after": "source:ABU1051",
+   "responds": [
+    "source:ABU1051"
+   ],
+   "relation": "adjacent",
+   "why": "A people who neither smoke nor drink are held up as an example. Of John the Baptist: he shall drink neither wine nor strong drink; and he shall be filled with the Holy Ghost."
+  },
+  {
+   "id": "isaiah-harp-and-viol-in-their-feasts",
+   "after": "source:ABU2055",
+   "responds": [
+    "source:ABU2055"
+   ],
+   "relation": "adjacent",
+   "why": "“The wise person sees the consequences of matters, not their beginnings.” Isaiah: woe unto them that rise up early in the morning, that they may follow strong drink; but they regard not the work of the Lord."
+  },
+  {
+   "id": "quran-draw-not-near-unto-prayer-when-drunken",
+   "after": "source:AB02266",
+   "responds": [
+    "source:AB02266"
+   ],
+   "relation": "adjacent",
+   "why": "Alcohol “leadeth the mind astray.” An early verse of the Qur’án gives the same reason: draw not near unto prayer when ye are drunken, till ye know that which ye utter."
+  },
+  {
+   "id": "jeremiah-leopard-spots",
+   "after": "source:ABU2766",
+   "responds": [
+    "source:ABU2766"
+   ],
+   "relation": "adjacent",
+   "why": "Even in moderation wine is like whipping a tired horse. Jeremiah on the force of habit: can the Ethiopian change his skin, or the leopard his spots? then may ye also do good, that are accustomed to do evil."
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:ABU1547",
+   "responds": [
+    "source:ABU1547"
+   ],
+   "relation": "adjacent",
+   "why": "A person can become so addicted to opium “that if he does not consume it he will die.” Paul: O wretched man that I am! who shall deliver me from the body of this death?"
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:ABU3095",
+   "responds": [
+    "source:ABU3095"
+   ],
+   "relation": "adjacent",
+   "why": "Lives spent in “the gratification of the appetites.” The man in the parable: soul, take thine ease, eat, drink, and be merry. But God said unto him, Thou fool."
+  },
+  {
+   "id": "galatians-bear-one-anothers-burdens",
+   "after": "source:AB07837",
+   "responds": [
+    "source:AB07837"
+   ],
+   "relation": "adjacent",
+   "why": "“I will pray to Him to awaken the two people.” Paul: bear ye one another’s burdens."
+  },
+  {
+   "id": "galatians-restore-such-an-one",
+   "after": "source:AB06945",
+   "responds": [
+    "source:AB06945"
+   ],
+   "relation": "adjacent",
+   "why": "A young man addicted to drink: “If he gives it up, he will become illumined.” Paul: if a man be overtaken in a fault, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted."
+  },
+  {
+   "id": "isaiah-every-one-that-thirsteth",
+   "after": "source:AB11220",
+   "responds": [
+    "source:AB11220"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever abandons wine will be given “the crimson wine of the love of God.” Isaiah: come, buy wine and milk without money and without price."
+  },
+  {
+   "id": "john-neither-do-i-condemn-thee",
+   "after": "source:BH06136",
+   "responds": [
+    "source:BH06136"
+   ],
+   "relation": "adjacent",
+   "why": "“Verily We have forgiven it … it is not permissible for your honor to be grieved.” Jesus: neither do I condemn thee: go, and sin no more."
+  },
+  {
+   "id": "luke-prodigal-father-ran",
+   "after": "source:BH06136",
+   "responds": [
+    "source:BH06136"
+   ],
+   "relation": "adjacent",
+   "why": "The father of the prodigal did not wait for the speech his son had prepared: when he was yet a great way off, his father saw him, and had compassion, and ran."
+  }
+ ],
+ "shortfall": "Many of the 40 readings repeat the prohibition in nearly the same words or are brief acknowledgements of news. The guide is read with 35 outside quotations, placed where they give a parallel, an exception or a contrary voice; none was added only to reach the number of 45.",
+ "library": {
+  "proverbs-look-not-thou-upon-the-wine": {
+   "text": "Who hath woe? who hath sorrow? who hath contentions? who hath babbling? who hath wounds without cause? who hath redness of eyes? They that tarry long at the wine; they that go to seek mixed wine. Look not thou upon the wine when it is red, when it giveth his colour in the cup, when it moveth itself aright. At the last it biteth like a serpent, and stingeth like an adder",
+   "work": "Proverbs 23:29–32",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2023%3A29-32&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-not-for-kings-to-drink-wine": {
+   "text": "It is not for kings, O Lemuel, it is not for kings to drink wine; nor for princes strong drink: Lest they drink, and forget the law, and pervert the judgment of any of the afflicted. Give strong drink unto him that is ready to perish, and wine unto those that be of heavy hearts. Let him drink, and forget his poverty, and remember his misery no more",
+   "work": "Proverbs 31:4–7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2031%3A4-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "hosea-wine-take-away-the-heart": {
+   "text": "Whoredom and wine and new wine take away the heart",
+   "work": "Hosea 4:11",
+   "year": "8th century BCE",
+   "sortYear": -740,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hosea%204%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-wine-that-maketh-glad-the-heart": {
+   "text": "He causeth the grass to grow for the cattle, and herb for the service of man: that he may bring forth food out of the earth; And wine that maketh glad the heart of man, and oil to make his face to shine, and bread which strengtheneth man's heart",
+   "work": "Psalm 104:14–15",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20104%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-great-sin-and-some-utility": {
+   "text": "They question thee about strong drink and games of chance. Say: In both is great sin, and (some) utility for men; but the sin of them is greater than their usefulness. And they ask thee what they ought to spend. Say: that which is superfluous. Thus Allah maketh plain to you (His) revelations, that haply ye may reflect.",
+   "work": "Qur’an 2:219",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=219",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-strong-drink-and-games-of-chance": {
+   "text": "O ye who believe! Strong drink and games of chance and idols and divining arrows are only an infamy of Satan's handiwork. Leave it aside in order that ye may succeed.",
+   "work": "Qur’an 5:90",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=90",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-draw-not-near-unto-prayer-when-drunken": {
+   "text": "O ye who believe! Draw not near unto prayer when ye are drunken, till ye know that which ye utter, nor when ye are polluted, save when journeying upon the road, till ye have bathed. And if ye be ill, or on a journey, or one of you cometh from the closet, or ye have touched women, and ye find not water, then go to high clean soil and rub your faces and your hands (therewith). Lo! Allah is Benign, Forgiving.",
+   "work": "Qur’an 4:43",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=43",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "romans-neither-to-drink-wine": {
+   "text": "It is good neither to eat flesh, nor to drink wine, nor any thing whereby thy brother stumbleth, or is offended, or is made weak",
+   "work": "Romans 14:21",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2014%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-not-be-brought-under-the-power": {
+   "text": "All things are lawful unto me, but all things are not expedient: all things are lawful for me, but I will not be brought under the power of any",
+   "work": "1 Corinthians 6:12",
+   "year": "c. 55 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%206%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-the-good-that-i-would-i-do-not": {
+   "text": "For the good that I would I do not: but the evil which I would not, that I do",
+   "work": "Romans 7:19",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%207%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-shall-drink-neither-wine-nor-strong-drink": {
+   "text": "For he shall be great in the sight of the Lord, and shall drink neither wine nor strong drink; and he shall be filled with the Holy Ghost, even from his mother's womb",
+   "work": "Luke 1:15",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%201%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-neither-do-i-condemn-thee": {
+   "text": "When Jesus had lifted up himself, and saw none but the woman, he said unto her, Woman, where are those thine accusers? hath no man condemned thee? She said, No man, Lord. And Jesus said unto her, Neither do I condemn thee: go, and sin no more",
+   "work": "John 8:10–11",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%208%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-water-that-was-made-wine": {
+   "text": "When the ruler of the feast had tasted the water that was made wine, and knew not whence it was: (but the servants which drew the water knew;) the governor of the feast called the bridegroom, And saith unto him, Every man at the beginning doth set forth good wine; and when men have well drunk, then that which is worse: but thou hast kept the good wine until now",
+   "work": "John 2:9–10",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%202%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "shakespeare-an-enemy-in-their-mouths": {
+   "text": "O God, that men should put an enemy in their mouths to steal away their brains! that we should, with joy, pleasance revel and applause, transform ourselves into beasts",
+   "author": "William Shakespeare",
+   "work": "Othello",
+   "locator": "Act 2, scene 3",
+   "year": "1604",
+   "sortYear": 1604,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/othello/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1622"
+   }
+  },
+  "sirach-wine-is-as-good-as-life": {
+   "text": "Wine is as good as life to a man, if it be drunk moderately: what life is then to a man that is without wine? for it was made to make men glad. Wine measurably drunk and in season bringeth gladness of the heart, and cheerfulness of the mind",
+   "work": "Ecclesiasticus (Sirach) 31:27–28",
+   "year": "c. 2nd century BCE",
+   "sortYear": -180,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiasticus",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "dequincey-keys-of-paradise": {
+   "text": "Thou only givest these gifts to man; and thou hast the keys of Paradise, oh, just, subtle, and mighty opium",
+   "author": "Thomas De Quincey",
+   "work": "Confessions of an English Opium-Eater",
+   "locator": "The Pleasures of Opium",
+   "year": "1821",
+   "sortYear": 1821,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Confessions_of_an_English_Opium-Eater/The_Pleasures_of_Opium",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1859."
+   }
+  },
+  "seneca-insanity-purposely-assumed": {
+   "text": "show how often the drunkard does things which make him blush when he is sober; state that drunkenness is nothing but a condition of insanity purposely assumed",
+   "author": "Seneca",
+   "work": "Moral Letters to Lucilius",
+   "locator": "Letter 83",
+   "year": "c. 64",
+   "sortYear": 64,
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_83",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\[\\s*\\d+\\s*\\]"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "translated by Richard M. Gummere, 1920"
+   }
+  }
+ }
+}
