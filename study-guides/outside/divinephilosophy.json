@@ -1,0 +1,448 @@
+{
+ "format": 2,
+ "slug": "divinephilosophy",
+ "subject": "43F0402F0B1F4706BC577B7A7A79BFFD",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 43,
+ "kept": [
+  "source:ABU0150",
+  "source:ABU0346",
+  "source:AB00395",
+  "source:ABU0010",
+  "source:ABU0280",
+  "source:ABU0031",
+  "source:ABU0395",
+  "source:AB00057",
+  "source:AB00020",
+  "source:ABU0029",
+  "source:ABU0109",
+  "source:ABU2461",
+  "source:ABU0096",
+  "source:AB00268",
+  "source:ABU0008",
+  "source:ABU1774",
+  "source:ABU0148",
+  "source:ABU0675",
+  "source:AB02372",
+  "source:AB01223",
+  "source:AB05823",
+  "source:ABU0147",
+  "source:ABU1290",
+  "source:ABU2887",
+  "source:ABU1811",
+  "source:ABU1166",
+  "source:AB02740",
+  "source:AB02076",
+  "source:ABU2415",
+  "source:ABU2631",
+  "source:ABU0262",
+  "source:ABU0145",
+  "source:ABU0416",
+  "source:ABU1414",
+  "selection:e351bb75016fe9e913df7dd4",
+  "selection:f571df6773af9b658e7920e7",
+  "selection:0eb3c24852bea26d12fee393",
+  "selection:480f8cd38d299490cff471c2"
+ ],
+ "introduction": "‘Abdu’l-Bahá, speaking mostly to Western audiences, divides philosophy in two: natural philosophy, which studies matter, and divine philosophy, which asks what a human being is and what becomes of the spirit. He honours both, calls them two wings, and judges a philosophy at last by whether its teacher lives it. The guide ends with Plato in his own words. Its companions are therefore the philosophers themselves, ancient and modern, with the scriptures’ long ambivalence about philosophy, and the poets and scientists who have doubted that the second wing exists.",
+ "questions": [
+  "Aristotle and Plato say philosophy begins in wonder; Bacon, that knowledge is power. Which of the two philosophies of the first readings does each describe?",
+  "Paul warns against philosophy and Tertullian asks what Athens has to do with Jerusalem, while Justin and Aquinas welcome reason. Where do the readings stand among them?",
+  "Spinoza, Darwin and Hardy describe a nature without purpose. What exactly do the “divine philosophers” of the readings answer them?",
+  "Thoreau says there are professors of philosophy but not philosophers, and Marcus Aurelius tells himself to stop talking about the good man and be one. How does the reading on the Spiritual Teacher apply their test?",
+  "The last readings quote Plato on the soul and death. What does the guide gain by ending with a philosopher and not a prophet?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-owing-to-their-wonder",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Natural philosophy explains phenomena; divine philosophy asks further. Aristotle traces both to one root: it is owing to their wonder that men both now begin and at first began to philosophize."
+  },
+  {
+   "id": "bacon-depth-in-philosophy",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "Divine philosophy must “advance apace” with the natural. Bacon thought the one led to the other if followed far enough: a little philosophy inclineth man’s mind to atheism, but depth in philosophy bringeth men’s minds about to religion."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "adjacent",
+   "why": "“Material science is the investigation of natural phenomena.” Bacon stated its programme: human knowledge and human power meet in one; nature to be commanded must be obeyed."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "complement",
+   "why": "“A bird has two wings; it cannot fly with one.” Whitman, shown the astronomer’s proofs and figures, grew tired and sick, went out, and looked up in perfect silence at the stars. Did he leave science behind, or find its other wing?"
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "Philosophy is comprehending “the realities of things as they are in themselves”. Plato’s cave is the picture of what stands in the way: prisoners who see only shadows before them and take them for the things."
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "source:ABU0010",
+   "responds": [
+    "source:ABU0010"
+   ],
+   "relation": "adjacent",
+   "why": "All must acquire sciences and arts, and all children be schooled. Milton set learning the same double end: to repair the ruins of our first parents by regaining to know God aright."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:ABU0280",
+   "responds": [
+    "source:ABU0280"
+   ],
+   "relation": "adjacent",
+   "why": "The philosophers train “a limited circle”; the Prophets educate all. Plato knew the limit of his own school and hoped to pass it by power: until philosophers are kings, cities will never have rest from their evils."
+  },
+  {
+   "id": "aquinas-grace-perfects-nature",
+   "after": "source:ABU0280",
+   "responds": [
+    "source:ABU0280"
+   ],
+   "relation": "adjacent",
+   "why": "Two kinds of teacher, special and universal. Aquinas relates what each gives: grace does not destroy nature but perfects it, and natural reason should minister to faith."
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:ABU0031",
+   "responds": [
+    "source:ABU0031"
+   ],
+   "relation": "adjacent",
+   "why": "“The greatest virtue in the human world is divine wisdom.” Proverbs names where it starts: the fear of the Lord is the beginning of wisdom."
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:ABU0031",
+   "responds": [
+    "source:ABU0031"
+   ],
+   "relation": "adjacent",
+   "why": "Knowledge is “of two kinds: conceptual and realized”. Tennyson felt the distance between them in his own century: knowledge comes, but wisdom lingers."
+  },
+  {
+   "id": "tao-he-who-knows",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "The schools of the inner light “were held in silence”. The Tao Te Ching: he who knows does not care to speak about it; he who is ever ready to speak about it does not know it."
+  },
+  {
+   "id": "emerson-gleam-of-light",
+   "after": "source:ABU0395",
+   "responds": [
+    "source:ABU0395"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson is the American heir of the “followers of the inner light”: a man should learn to detect and watch that gleam of light which flashes across his mind from within."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "There is in man “an extraordinary power of which the animal is deprived”. Elihu in Job: there is a spirit in man, and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "shakespeare-quintessence-of-dust",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "contrast",
+   "why": "Hamlet makes the divine philosophers’ case, noble in reason, infinite in faculty, and then withdraws his assent: and yet, to me, what is this quintessence of dust? What does his melancholy see, or miss?"
+  },
+  {
+   "id": "spinoza-final-causes-human-figments",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "contrast",
+   "why": "The materialists of narrow vision take what is sensed as the whole. Spinoza, no narrow mind, reasoned his way to a nature without ends: nature has no particular goal in view, and final causes are mere human figments. Is he one of the philosophers the reading exempts, or the strongest form of what it opposes?"
+  },
+  {
+   "id": "aristotle-reason-is-man",
+   "after": "source:ABU0029",
+   "responds": [
+    "source:ABU0029"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle and Plato are counted with those who set man apart from the animal. Aristotle’s own words: reason more than anything else is man."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0109",
+   "responds": [
+    "source:ABU0109"
+   ],
+   "relation": "contrast",
+   "why": "The materialists “call attention to the perfection of nature”. Darwin closes the Origin in that spirit: there is grandeur in this view of life, endless forms most beautiful evolved from so simple a beginning. What do the divine philosophers find incomplete in a nature so described?"
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:ABU2461",
+   "responds": [
+    "source:ABU2461"
+   ],
+   "relation": "adjacent",
+   "why": "Philosophers and Prophets agree that a universal reality is the source of things, and differ on whether it wills. Aristotle’s first cause moves the world without choosing to: it produces motion as being loved."
+  },
+  {
+   "id": "plato-wonder-beginning-of-philosophy",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "The divine philosophers are “the wise men of God”. Socrates’ mark of the breed is humbler: wonder is the feeling of a philosopher, and philosophy begins in wonder."
+  },
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "contrast",
+   "why": "The materialists “deny the spirit and its immortality”. Lucretius did so as a comfort: the time before our birth was nothing to us, and nature holds it up as a mirror of the time when we are dead and gone. What would the divine philosophers say he has left out of the mirror?"
+  },
+  {
+   "id": "boethius-due-return",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "adjacent",
+   "why": "Immortality is “the very foundation of the divine religions”. Boethius, a philosopher awaiting execution, sang of all things yearning in due time for due return, the end joined to the beginning."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "The atom passes through mineral, plant and animal forms. Rumi tells the same journey as his own: I died as inanimate matter and arose a plant, I died as a plant and rose again an animal."
+  },
+  {
+   "id": "whitman-nebula-cohered",
+   "after": "source:ABU1774",
+   "responds": [
+    "source:ABU1774"
+   ],
+   "relation": "adjacent",
+   "why": "“The man you see before your eyes has travelled through all the worlds of existence.” Whitman: for it the nebula cohered to an orb, the long slow strata piled to rest it on."
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:ABU0148",
+   "responds": [
+    "source:ABU0148"
+   ],
+   "relation": "adjacent",
+   "why": "A natural philosophy shared with the Persian Sufis. Its Western counterpart was stated by a chemist: in all the operations of art and nature, nothing is created; an equal quantity of matter exists before and after."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:AB02372",
+   "responds": [
+    "source:AB02372"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever contemplates the mysteries now “will surpass Aristotle”. Kant gave the modern age its licence to try: have courage to use your own reason."
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:AB01223",
+   "responds": [
+    "source:AB01223"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh “urged the people to study philosophy”. Socrates at his trial: the life which is unexamined is not worth living."
+  },
+  {
+   "id": "tertullian-athens-and-jerusalem",
+   "after": "source:ABU0147",
+   "responds": [
+    "source:ABU0147"
+   ],
+   "relation": "contrast",
+   "why": "“Plato says, ‘The mental conclusions are so and so.’ Christ says, ‘Be led of the Spirit.’” Tertullian drew from the difference a wall: what indeed has Athens to do with Jerusalem? Does the reading build his wall, or only tell the two cities apart?"
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:ABU0147",
+   "responds": [
+    "source:ABU0147"
+   ],
+   "relation": "adjacent",
+   "why": "Paul made the same distinction of his own preaching: not with enticing words of man’s wisdom, but in demonstration of the Spirit and of power."
+  },
+  {
+   "id": "emerson-every-natural-fact",
+   "after": "source:ABU2887",
+   "responds": [
+    "source:ABU2887"
+   ],
+   "relation": "adjacent",
+   "why": "“This nether world is the mirror of the kingdom.” Emerson: every natural fact is a symbol of some spiritual fact."
+  },
+  {
+   "id": "pope-proper-study",
+   "after": "source:ABU1811",
+   "responds": [
+    "source:ABU1811"
+   ],
+   "relation": "adjacent",
+   "why": "Natural philosophy “is not sufficient”. Pope turned his age from the heavens back to the student: know then thyself; the proper study of mankind is man."
+  },
+  {
+   "id": "colossians-through-philosophy",
+   "after": "source:AB02076",
+   "responds": [
+    "source:AB02076"
+   ],
+   "relation": "contrast",
+   "why": "Philosophy in this age is “out of touch with God”. Paul’s warning has been read as a judgment on all philosophy: beware lest any man spoil you through philosophy and vain deceit. Does the reading, which esteems Plato, condemn what Paul condemns?"
+  },
+  {
+   "id": "hardy-crass-casualty",
+   "after": "source:ABU2415",
+   "responds": [
+    "source:ABU2415"
+   ],
+   "relation": "contrast",
+   "why": "Is the materialistic philosophy “a philosophy to be admired”? Hardy lived inside it and asked no admiration: crass Casualty obstructs the sun and rain, and purblind Doomsters would as readily have strown blisses as pain. What can be said to a man who finds the world so and is honest about it?"
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "source:ABU2631",
+   "responds": [
+    "source:ABU2631"
+   ],
+   "relation": "adjacent",
+   "why": "Women in the West grasped divine philosophy quicker than the professors of Cairo. Wollstonecraft had claimed for women the right to such subjects: strengthen the female mind by enlarging it."
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:ABU0262",
+   "responds": [
+    "source:ABU0262"
+   ],
+   "relation": "adjacent",
+   "why": "The purpose of divine philosophy is the training of human realities. Paul thought the philosophy of his day had missed that purpose: the world by wisdom knew not God."
+  },
+  {
+   "id": "marcus-be-such",
+   "after": "source:ABU0145",
+   "responds": [
+    "source:ABU0145"
+   ],
+   "relation": "adjacent",
+   "why": "The first principle of divine philosophy is the oneness of humanity, a thing to be done. Marcus Aurelius cut short his own reflections with the same demand: no longer talk at all about the kind of man that a good man ought to be, but be such."
+  },
+  {
+   "id": "justin-lived-reasonably",
+   "after": "source:ABU0416",
+   "responds": [
+    "source:ABU0416"
+   ],
+   "relation": "contrast",
+   "why": "Philosophers “without this Spirit are powerless”. Justin Martyr, a philosopher become Christian, would not put Socrates outside: those who lived reasonably are Christians, even though they have been thought atheists. Is the Spirit the reading speaks of absent from such lives?"
+  },
+  {
+   "id": "seneca-god-is-near",
+   "after": "source:ABU0416",
+   "responds": [
+    "source:ABU0416"
+   ],
+   "relation": "complement",
+   "why": "Unenlightened philosophers, the talk says, have often been men of inferior morality. Seneca, who preached better than he lived, wrote: God is near you, he is with you, he is within you. Does a true sentence lose its worth in the mouth of one who fell short of it?"
+  },
+  {
+   "id": "thoreau-professors-of-philosophy",
+   "after": "source:ABU1414",
+   "responds": [
+    "source:ABU1414"
+   ],
+   "relation": "adjacent",
+   "why": "The Spiritual Teacher “is the first to follow His own teaching”. Thoreau’s complaint of his day: there are nowadays professors of philosophy, but not philosophers."
+  },
+  {
+   "id": "aristotle-take-refuge-in-theory",
+   "after": "source:ABU1414",
+   "responds": [
+    "source:ABU1414"
+   ],
+   "relation": "adjacent",
+   "why": "Aristotle saw the evasion in his own pupils: most people do not do these, but take refuge in theory and think they are being philosophers and will become good in this way."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "selection:e351bb75016fe9e913df7dd4",
+   "responds": [
+    "selection:e351bb75016fe9e913df7dd4"
+   ],
+   "relation": "adjacent",
+   "why": "A teaching is brought “down into the world of action”. James: be ye doers of the word, and not hearers only, deceiving your own selves."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "selection:f571df6773af9b658e7920e7",
+   "responds": [
+    "selection:f571df6773af9b658e7920e7"
+   ],
+   "relation": "adjacent",
+   "why": "Socrates has “a firm hope” of something in store for the dead. Paul holds the same hope on other grounds: the things which are seen are temporal, but the things which are not seen are eternal."
+  },
+  {
+   "id": "psalm-what-is-man",
+   "after": "selection:0eb3c24852bea26d12fee393",
+   "responds": [
+    "selection:0eb3c24852bea26d12fee393"
+   ],
+   "relation": "adjacent",
+   "why": "Plato rests the fear of God on two truths: the soul’s priority, and a mind among the heavenly bodies. The psalmist looks at the same heavens: when I consider the moon and the stars, what is man, that thou art mindful of him?"
+  },
+  {
+   "id": "plato-bars-of-a-prison",
+   "after": "selection:480f8cd38d299490cff471c2",
+   "responds": [
+    "selection:480f8cd38d299490cff471c2"
+   ],
+   "relation": "adjacent",
+   "why": "The philosopher’s occupation is freeing the soul from the body. The Phaedo’s image for why: the soul is only able to view existence through the bars of a prison."
+  }
+ ],
+ "library": {}
+}

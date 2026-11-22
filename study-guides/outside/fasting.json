@@ -1,0 +1,952 @@
+{
+ "format": 2,
+ "slug": "fasting",
+ "subject": "0C5DDE6CAB1F402695B2717CF1EC0833",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 68,
+ "quotations": 82,
+ "kept": [
+  "source:BH06563",
+  "source:BH00778",
+  "source:AB00044",
+  "source:AB00059",
+  "source:ABU3338",
+  "source:BH00001",
+  "source:BH01954",
+  "source:ABU1585",
+  "source:BH02128",
+  "source:BH01850",
+  "source:BH02249",
+  "source:BH10581",
+  "source:ABU1885",
+  "source:ABU0730",
+  "source:BH09803",
+  "source:BH07657",
+  "source:BH01503",
+  "source:BH07396",
+  "source:BH00002",
+  "source:BH10127",
+  "source:AB01700",
+  "source:BH11793",
+  "source:BH00437",
+  "source:BH01151",
+  "source:BH05849",
+  "source:BH03908",
+  "source:BH01888",
+  "source:AB05753",
+  "source:BH00057",
+  "source:BH00069",
+  "source:BH00368",
+  "source:BH04923",
+  "source:ABU0786",
+  "source:ABU1530",
+  "source:BB00019",
+  "source:BB00102",
+  "source:BB00056",
+  "source:BH01964",
+  "source:BH00319",
+  "source:BH00170",
+  "source:ABU0632",
+  "source:BH00350",
+  "source:BH03502",
+  "source:BH00500",
+  "source:BH04671",
+  "source:AB08463",
+  "source:AB02900",
+  "source:BH04530",
+  "source:BH11490",
+  "source:BH11810",
+  "source:BH05113",
+  "source:AB11916",
+  "source:BH02909",
+  "source:BH04111",
+  "source:BH00855",
+  "source:BH03505",
+  "source:BH11146",
+  "source:BH03761",
+  "source:AB06434",
+  "source:BH00935",
+  "source:BH02371",
+  "source:BH02411",
+  "source:AB02470",
+  "source:BH08745",
+  "source:BH11862",
+  "selection:4df6e486c93148033755bd40",
+  "selection:9a625e86accc1cd4cc436b21",
+  "selection:a354910c18aec4c3fb2b77f4"
+ ],
+ "introduction": "The Bahá’í fast lasts nineteen days, from sunrise to sunset, in the last month of the year. These readings set out both sides of it. Outwardly it is a law, with fixed times and stated exemptions for the sick, the traveller and others, and Bahá’u’lláh calls it, with obligatory prayer, a pillar of religion. Inwardly it is “a symbol of the spiritual fast,” which is restraint of the self; it sharpens awareness, turns the well-fed toward the poor, and is kept “for My Beauty’s sake.” ‘Abdu’l-Bahá adds a caution: weakening the body does not by itself bring anyone nearer to God. A group of readings records the years when, for wisdom’s sake, the believers in Ottoman lands kept Ramaḍán. Fasting is among the most widely shared religious acts, and the outside quotations show how much of this is common ground: the Qur’án’s “prescribed for you, even as it was prescribed for those before you” and its ease for the sick; Isaiah’s “fast that I have chosen”; Jesus on fasting in secret; Moses and Jesus fasting forty days. Paul’s “let no man judge you in meat, or in drink” and the Pharisee’s “I fast twice in the week” mark the two ways a fast can go wrong, and Sa‘dí speaks for the ascetic tradition the readings moderate.",
+ "questions": [
+  "“This bodily fast is a symbol of the spiritual fast.” If the inward fast is what matters, why keep the outward one?",
+  "‘Abdu’l-Bahá says that weakening the body “does not necessarily contribute to” spirituality. What, then, does going without food and drink do?",
+  "Isaiah’s chosen fast is “to deal thy bread to the hungry.” How do the readings connect fasting with care for the poor, and how could a fast you keep make that connection real?",
+  "The sick and the traveller are exempt, and “wisdom is necessary” in how the law is observed among others. What do the exemptions tell you about the spirit of the law?",
+  "Jesus says to fast so that no one can tell. Why is secrecy a protection, and from what?",
+  "The Fast is “a period of meditation and prayer, of spiritual recuperation.” What readjustment in your inner life would you want its nineteen days to bring?"
+ ],
+ "outside": [
+  {
+   "id": "quran-fasting-is-prescribed-for-you",
+   "after": "source:BH06563",
+   "responds": [
+    "source:BH06563"
+   ],
+   "relation": "adjacent",
+   "why": "“Fasting hath been decreed for you.” The Qur’án says the same of itself and of the faiths before it: fasting is prescribed for you, even as it was prescribed for those before you, that ye may ward off evil."
+  },
+  {
+   "id": "leviticus-ye-shall-afflict-your-souls",
+   "after": "source:BH06563",
+   "responds": [
+    "source:BH06563"
+   ],
+   "relation": "adjacent",
+   "why": "The oldest fast of the Bible has its fixed day too: on the tenth day of this seventh month there shall be a day of atonement; and ye shall afflict your souls."
+  },
+  {
+   "id": "joel-rend-your-heart",
+   "after": "source:BH00778",
+   "responds": [
+    "source:BH00778"
+   ],
+   "relation": "adjacent",
+   "why": "The Fast is given “that through it they may purify their souls.” Joel: turn ye even to me with all your heart, and with fasting; and rend your heart, and not your garments."
+  },
+  {
+   "id": "psalm-humbled-my-soul-with-fasting",
+   "after": "source:BH00778",
+   "responds": [
+    "source:BH00778"
+   ],
+   "relation": "adjacent",
+   "why": "To “rid themselves of all attachment to any one but Thee.” The psalmist: I humbled my soul with fasting."
+  },
+  {
+   "id": "matthew-fasted-forty-days",
+   "after": "source:BH00778",
+   "responds": [
+    "source:BH00778"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus began in the same way: led up of the Spirit into the wilderness, he fasted forty days and forty nights."
+  },
+  {
+   "id": "deuteronomy-not-by-bread-only",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "adjacent",
+   "why": "“This bodily fast is a symbol of the spiritual fast.” Moses on what hunger in the wilderness was for: that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the Lord."
+  },
+  {
+   "id": "matthew-hunger-and-thirst",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus names the hunger that the bodily one stands for: blessed are they which do hunger and thirst after righteousness."
+  },
+  {
+   "id": "isaiah-chosen-fast",
+   "after": "source:AB00059",
+   "responds": [
+    "source:AB00059"
+   ],
+   "relation": "adjacent",
+   "why": "“The true and spiritual fast is for man to forsake covetous” desires. Isaiah: is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free."
+  },
+  {
+   "id": "zechariah-did-ye-at-all-fast-unto-me",
+   "after": "source:AB00059",
+   "responds": [
+    "source:AB00059"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah’s question to those who had kept fasts for seventy years: did ye at all fast unto me, even to me?"
+  },
+  {
+   "id": "matthew-not-that-which-goeth-into-the-mouth",
+   "after": "source:AB00059",
+   "responds": [
+    "source:AB00059"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus: not that which goeth into the mouth defileth a man; but that which cometh out of the mouth, this defileth a man."
+  },
+  {
+   "id": "james-be-ye-warmed",
+   "after": "source:ABU3338",
+   "responds": [
+    "source:ABU3338"
+   ],
+   "relation": "adjacent",
+   "why": "“It is necessary for the rich to think of the poor during the month of” fasting. James: if a brother or sister be destitute of daily food, and one of you say, Be ye warmed and filled; what doth it profit?"
+  },
+  {
+   "id": "nehemiah-joy-of-the-lord-is-your-strength",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "In the days before the Fast, provide “good cheer” for kindred and “the poor and needy.” Nehemiah on a holy day: eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared."
+  },
+  {
+   "id": "zechariah-fasts-shall-be-joy-and-gladness",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Zechariah: the fasts shall be to the house of Judah joy and gladness, and cheerful feasts."
+  },
+  {
+   "id": "ecclesiastes-garments-be-always-white",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes gives the days of plenty their own blessing, as these days before the Fast are given theirs: go thy way, eat thy bread with joy, and drink thy wine with a merry heart."
+  },
+  {
+   "id": "quran-desireth-for-you-ease",
+   "after": "source:BH01954",
+   "responds": [
+    "source:BH01954"
+   ],
+   "relation": "adjacent",
+   "why": "In weakness, “observance thereof is not permitted.” The Qur’án, on the sick and the traveller in Ramaḍán: Allah desireth for you ease; He desireth not hardship for you."
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:BH01954",
+   "responds": [
+    "source:BH01954"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus states the principle of every such exemption: the sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "buddha-middle-way",
+   "after": "source:ABU1585",
+   "responds": [
+    "source:ABU1585"
+   ],
+   "relation": "adjacent",
+   "why": "“Weakening one’s self physically does not necessarily contribute to” spirituality. The Buddha learned it by nearly starving: avoiding both of these extremes, the middle way."
+  },
+  {
+   "id": "colossians-neglecting-of-the-body",
+   "after": "source:ABU1585",
+   "responds": [
+    "source:ABU1585"
+   ],
+   "relation": "adjacent",
+   "why": "Paul on ascetic rules: which things have indeed a shew of wisdom in will worship, and humility, and neglecting of the body."
+  },
+  {
+   "id": "saadi-interior-empty-of-food",
+   "after": "source:ABU1585",
+   "responds": [
+    "source:ABU1585"
+   ],
+   "relation": "contrast",
+   "why": "Sa‘dí states the view ‘Abdu’l-Bahá is qualifying: keep thy interior empty of food, that thou mayest behold therein the light of marifet (mystical knowledge). What does the reading grant to this, and where does it stop?"
+  },
+  {
+   "id": "corinthians-keep-under-my-body",
+   "after": "source:BH02128",
+   "responds": [
+    "source:BH02128"
+   ],
+   "relation": "adjacent",
+   "why": "“Outwardly difficult and toilsome, inwardly … a blessing.” Paul: I keep under my body, and bring it into subjection."
+  },
+  {
+   "id": "hebrews-peaceable-fruit",
+   "after": "source:BH02128",
+   "responds": [
+    "source:BH02128"
+   ],
+   "relation": "adjacent",
+   "why": "Refinement comes by exercises “in accordance with the Book of God.” Hebrews: no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of righteousness."
+  },
+  {
+   "id": "john-if-ye-love-me",
+   "after": "source:BH01850",
+   "responds": [
+    "source:BH01850"
+   ],
+   "relation": "adjacent",
+   "why": "“Observe, for My Beauty’s sake, the fast.” Jesus: if ye love me, keep my commandments."
+  },
+  {
+   "id": "john-meat-ye-know-not-of",
+   "after": "source:BH02249",
+   "responds": [
+    "source:BH02249"
+   ],
+   "relation": "adjacent",
+   "why": "“The bounty of fasting and the table of breaking fast.” Jesus: I have meat to eat that ye know not of."
+  },
+  {
+   "id": "romans-not-meat-and-drink",
+   "after": "source:ABU1885",
+   "responds": [
+    "source:ABU1885"
+   ],
+   "relation": "adjacent",
+   "why": "“Fasting is a symbol … of abstinence from lust.” Paul: the kingdom of God is not meat and drink; but righteousness, and peace, and joy."
+  },
+  {
+   "id": "proverbs-city-broken-down",
+   "after": "source:ABU0730",
+   "responds": [
+    "source:ABU0730"
+   ],
+   "relation": "adjacent",
+   "why": "Fasting “sharpens the spiritual consciousness” by teaching restraint. Proverbs on its absence: he that hath no rule over his own spirit is like a city that is broken down, and without walls."
+  },
+  {
+   "id": "corinthians-temperate-in-all-things",
+   "after": "source:ABU0730",
+   "responds": [
+    "source:ABU0730"
+   ],
+   "relation": "adjacent",
+   "why": "Paul: every man that striveth for the mastery is temperate in all things."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:BH09803",
+   "responds": [
+    "source:BH09803"
+   ],
+   "relation": "adjacent",
+   "why": "The Fast “decreases the carnal and increases the spiritual.” Paul’s list of what increases ends: meekness, temperance."
+  },
+  {
+   "id": "matthew-when-thou-fastest",
+   "after": "source:BH07657",
+   "responds": [
+    "source:BH07657"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed is he who fasts “wholly for Thy sake.” Jesus: when thou fastest, anoint thine head, and wash thy face; that thou appear not unto men to fast."
+  },
+  {
+   "id": "luke-not-as-other-men",
+   "after": "source:BH07657",
+   "responds": [
+    "source:BH07657"
+   ],
+   "relation": "contrast",
+   "why": "The Pharisee in the Temple fasted too, and said so: I fast twice in the week. What turns a fast kept for God into one kept for an audience, even an audience of one?"
+  },
+  {
+   "id": "exodus-forty-days-and-forty-nights",
+   "after": "source:BH01503",
+   "responds": [
+    "source:BH01503"
+   ],
+   "relation": "adjacent",
+   "why": "The Fast as “a light,” and prayer “a ladder of ascent.” Moses on Sinai: forty days and forty nights; he did neither eat bread, nor drink water. And he wrote upon the tables the words of the covenant."
+  },
+  {
+   "id": "acts-fasted-and-prayed",
+   "after": "source:BH07396",
+   "responds": [
+    "source:BH07396"
+   ],
+   "relation": "adjacent",
+   "why": "Fasting and obligatory prayer are “the pillars of religion.” The church at Antioch: as they ministered to the Lord, and fasted; and when they had fasted and prayed, they sent them away."
+  },
+  {
+   "id": "luke-anna",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "In all Dispensations prayer and fasting have been fundamental, in forms suited to the age. Anna in the Temple: she served God with fastings and prayers night and day."
+  },
+  {
+   "id": "ezra-we-fasted-and-besought-our-god",
+   "after": "source:AB01700",
+   "responds": [
+    "source:AB01700"
+   ],
+   "relation": "adjacent",
+   "why": "“Be constant in prayer and mindful in fasting.” Ezra before a dangerous journey: so we fasted and besought our God for this: and he was intreated of us."
+  },
+  {
+   "id": "deuteronomy-teach-your-children",
+   "after": "source:BH11793",
+   "responds": [
+    "source:BH11793"
+   ],
+   "relation": "adjacent",
+   "why": "The Fast is “a bounty,” though few perceive the wisdom in the law. Deuteronomy on keeping a commandment in mind at every hour: when thou sittest in thine house, and when thou liest down, and when thou risest up."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:BH00437",
+   "responds": [
+    "source:BH00437"
+   ],
+   "relation": "adjacent",
+   "why": "“The days and months of the year have culminated with the Fast.” Ecclesiastes: to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "genesis-lights-in-the-firmament",
+   "after": "source:BH01151",
+   "responds": [
+    "source:BH01151"
+   ],
+   "relation": "adjacent",
+   "why": "Days added to the calendar announce the coming of the Fast. Genesis on what sun and moon are for: for signs, and for seasons, and for days, and years."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BH03908",
+   "responds": [
+    "source:BH03908"
+   ],
+   "relation": "adjacent",
+   "why": "“The fire of Thy love and the heat produced by the fast.” Jeremiah: his word was in mine heart as a burning fire shut up in my bones."
+  },
+  {
+   "id": "daniel-ate-no-pleasant-bread",
+   "after": "source:AB05753",
+   "responds": [
+    "source:AB05753"
+   ],
+   "relation": "adjacent",
+   "why": "A fixed term of days, “conducive to the spiritual development of the individual.” Daniel: I ate no pleasant bread, neither came flesh nor wine in my mouth, till three whole weeks were fulfilled."
+  },
+  {
+   "id": "quran-vowed-a-fast-unto-the-beneficent",
+   "after": "source:BH04923",
+   "responds": [
+    "source:BH04923"
+   ],
+   "relation": "adjacent",
+   "why": "“A traveler must not abstain … Eat and drink in enjoyment.” The Qur’án’s words to Mary on her journey: so eat and drink and be consoled."
+  },
+  {
+   "id": "romans-eateth-herbs",
+   "after": "source:ABU0786",
+   "responds": [
+    "source:ABU0786"
+   ],
+   "relation": "adjacent",
+   "why": "Where the Fast would cause trouble it need not be kept openly; elsewhere it is binding. Paul on believers whose practice differs: let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth."
+  },
+  {
+   "id": "colossians-shadow-of-things",
+   "after": "source:ABU0786",
+   "responds": [
+    "source:ABU0786"
+   ],
+   "relation": "contrast",
+   "why": "Paul could also write: let no man therefore judge you in meat, or in drink, or in respect of an holyday. He treats such laws as a shadow. Why do the readings insist that this one is binding, and what does the body learn that the mind alone does not?"
+  },
+  {
+   "id": "mark-can-the-children-of-the-bridechamber-fast",
+   "after": "source:ABU0786",
+   "responds": [
+    "source:ABU0786"
+   ],
+   "relation": "adjacent",
+   "why": "Is the Fast for now or for later? Jesus was asked why his disciples did not fast: can the children of the bridechamber fast, while the bridegroom is with them? But the days will come."
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "source:BH00319",
+   "responds": [
+    "source:BH00319"
+   ],
+   "relation": "adjacent",
+   "why": "The laws are unchanged, “but wisdom is necessary”: most were still keeping the fast of the Qur’án. Paul: unto the Jews I became as a Jew; I am made all things to all men."
+  },
+  {
+   "id": "matthew-tribute-money-fish",
+   "after": "source:ABU0632",
+   "responds": [
+    "source:ABU0632"
+   ],
+   "relation": "adjacent",
+   "why": "In Ottoman lands the believers kept Ramaḍán in place of their own fast. Jesus paid a tax he did not owe: notwithstanding, lest we should offend them."
+  },
+  {
+   "id": "jonah-god-repented",
+   "after": "source:BH00350",
+   "responds": [
+    "source:BH00350"
+   ],
+   "relation": "adjacent",
+   "why": "“For fasting there are stations and ranks, and effects and fruits beyond counting.” Nineveh proclaimed a fast, from the greatest to the least: and God saw their works, that they turned from their evil way."
+  },
+  {
+   "id": "samuel-to-obey-is-better-than-sacrifice",
+   "after": "source:AB02900",
+   "responds": [
+    "source:AB02900"
+   ],
+   "relation": "adjacent",
+   "why": "Prayer and fasting are “among the greatest obligations”; they are not to be interpreted away. Samuel: behold, to obey is better than sacrifice."
+  },
+  {
+   "id": "hosea-mercy-not-sacrifice",
+   "after": "source:BH11490",
+   "responds": [
+    "source:BH11490"
+   ],
+   "relation": "complement",
+   "why": "“He who faileth to observe them hath not been nor will ever be acceptable.” Hosea has God say: I desired mercy, and not sacrifice. The readings hold to the outward law and, in the opening passages, to its inward meaning. What goes wrong when either is kept without the other?"
+  },
+  {
+   "id": "james-draw-nigh-to-god",
+   "after": "source:BH05113",
+   "responds": [
+    "source:BH05113"
+   ],
+   "relation": "adjacent",
+   "why": "Prayer and fasting are ordained “so that all may by these means draw nigh unto God.” James: draw nigh to God, and he will draw nigh to you."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB11916",
+   "responds": [
+    "source:AB11916"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed are those who kept the fast and “gathered together in perfect unity.” The psalm: behold, how good and how pleasant it is for brethren to dwell together in unity!"
+  },
+  {
+   "id": "psalm-in-the-night-watches",
+   "after": "source:BH04111",
+   "responds": [
+    "source:BH04111"
+   ],
+   "relation": "adjacent",
+   "why": "“They fast during the day and arise for prayer during the night.” The psalm: when I remember thee upon my bed, and meditate on thee in the night watches."
+  },
+  {
+   "id": "esther-fast-ye-for-me",
+   "after": "source:BH03505",
+   "responds": [
+    "source:BH03505"
+   ],
+   "relation": "adjacent",
+   "why": "A fast kept “out of love for Thy Beauty.” Esther’s fast was kept for love of a people: fast ye for me, and neither eat nor drink three days; and so will I go in unto the king."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:BH00935",
+   "responds": [
+    "source:BH00935"
+   ],
+   "relation": "adjacent",
+   "why": "“Weakness and lassitude are human traits, yet His grace hath bestowed bounties.” Isaiah: they that wait upon the Lord shall renew their strength."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:BH02371",
+   "responds": [
+    "source:BH02371"
+   ],
+   "relation": "adjacent",
+   "why": "A frank word about how hard the fast has been. Paul: my strength is made perfect in weakness."
+  },
+  {
+   "id": "psalm-hart-panteth",
+   "after": "source:BH08745",
+   "responds": [
+    "source:BH08745"
+   ],
+   "relation": "adjacent",
+   "why": "The Fast ends, and “grief hath seized the people of God.” The psalm: as the hart panteth after the water brooks, so panteth my soul after thee, O God."
+  },
+  {
+   "id": "isaiah-draw-out-thy-soul",
+   "after": "source:BH11862",
+   "responds": [
+    "source:BH11862"
+   ],
+   "relation": "adjacent",
+   "why": "The Fast is enjoined “that those possessed of means may become apprised of the woes and sufferings of the destitute.” Isaiah: if thou draw out thy soul to the hungry, and satisfy the afflicted soul; then shall thy light rise in obscurity."
+  },
+  {
+   "id": "matthew-enter-into-thy-closet",
+   "after": "selection:4df6e486c93148033755bd40",
+   "responds": [
+    "selection:4df6e486c93148033755bd40"
+   ],
+   "relation": "adjacent",
+   "why": "Prayer and fasting are “a ladder for the ascent of the souls.” Jesus treats them together and gives one rule for both: thy Father which seeth in secret shall reward thee openly."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "selection:9a625e86accc1cd4cc436b21",
+   "responds": [
+    "selection:9a625e86accc1cd4cc436b21"
+   ],
+   "relation": "adjacent",
+   "why": "Zhuangzi’s “fasting of the mind” is quoted in the guide itself: do not listen with your ears, listen with your spirit. Elijah on Horeb, after wind, earthquake and fire: a still small voice."
+  },
+  {
+   "id": "psalm-be-still",
+   "after": "selection:9a625e86accc1cd4cc436b21",
+   "responds": [
+    "selection:9a625e86accc1cd4cc436b21"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm has one line for the same emptying of the mind that Zhuangzi calls its fasting: be still, and know that I am God."
+  },
+  {
+   "id": "mark-rest-a-while",
+   "after": "selection:a354910c18aec4c3fb2b77f4",
+   "responds": [
+    "selection:a354910c18aec4c3fb2b77f4"
+   ],
+   "relation": "adjacent",
+   "why": "“Essentially a period of meditation and prayer, of spiritual recuperation.” Jesus: come ye yourselves apart into a desert place, and rest a while."
+  }
+ ],
+ "shortfall": "Much of this guide is legal detail (the limits of travel, the calendar, exemptions) and many of its 68 readings are short prayers and exhortations that repeat one another. It is read with 59 outside quotations, each placed where it adds a parallel or a question; none was added only to reach the number of 82.",
+ "library": {
+  "quran-fasting-is-prescribed-for-you": {
+   "text": "O ye who believe! Fasting is prescribed for you, even as it was prescribed for those before you, that ye may ward off (evil);",
+   "work": "Qur’an 2:183",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=183",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-vowed-a-fast-unto-the-beneficent": {
+   "text": "So eat and drink and be consoled. And if thou meetest any mortal, say: Lo! I have vowed a fast unto the Beneficent, and may not speak this day to any mortal.",
+   "work": "Qur’an 19:26",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=19&verse=26",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "zechariah-did-ye-at-all-fast-unto-me": {
+   "text": "Speak unto all the people of the land, and to the priests, saying, When ye fasted and mourned in the fifth and seventh month, even those seventy years, did ye at all fast unto me, even to me? And when ye did eat, and when ye did drink, did not ye eat for yourselves, and drink for yourselves",
+   "work": "Zechariah 7:5–6",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Zechariah%207%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "zechariah-fasts-shall-be-joy-and-gladness": {
+   "text": "Thus saith the Lord of hosts; The fast of the fourth month, and the fast of the fifth, and the fast of the seventh, and the fast of the tenth, shall be to the house of Judah joy and gladness, and cheerful feasts; therefore love the truth and peace",
+   "work": "Zechariah 8:19",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Zechariah%208%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-can-the-children-of-the-bridechamber-fast": {
+   "text": "And the disciples of John and of the Pharisees used to fast: and they come and say unto him, Why do the disciples of John and of the Pharisees fast, but thy disciples fast not? And Jesus said unto them, Can the children of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast. But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days",
+   "work": "Mark 2:18–20",
+   "year": "c. 70 CE",
+   "sortYear": 70,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%202%3A18-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "acts-fasted-and-prayed": {
+   "text": "As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them. And when they had fasted and prayed, and laid their hands on them, they sent them away",
+   "work": "Acts 13:2–3",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2013%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-humbled-my-soul-with-fasting": {
+   "text": "But as for me, when they were sick, my clothing was sackcloth: I humbled my soul with fasting; and my prayer returned into mine own bosom",
+   "work": "Psalm 35:13",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2035%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "daniel-ate-no-pleasant-bread": {
+   "text": "In those days I Daniel was mourning three full weeks. I ate no pleasant bread, neither came flesh nor wine in my mouth, neither did I anoint myself at all, till three whole weeks were fulfilled",
+   "work": "Daniel 10:2–3",
+   "year": "2nd century BCE",
+   "sortYear": -165,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "leviticus-ye-shall-afflict-your-souls": {
+   "text": "Also on the tenth day of this seventh month there shall be a day of atonement: it shall be an holy convocation unto you; and ye shall afflict your souls, and offer an offering made by fire unto the Lord",
+   "work": "Leviticus 23:27",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2023%3A27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "nehemiah-joy-of-the-lord-is-your-strength": {
+   "text": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the Lord is your strength",
+   "work": "Nehemiah 8:10",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Nehemiah%208%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-to-obey-is-better-than-sacrifice": {
+   "text": "And Samuel said, Hath the Lord as great delight in burnt offerings and sacrifices, as in obeying the voice of the Lord? Behold, to obey is better than sacrifice, and to hearken than the fat of rams",
+   "work": "1 Samuel 15:22",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2015%3A22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-fasted-forty-days": {
+   "text": "Then was Jesus led up of the Spirit into the wilderness to be tempted of the devil. And when he had fasted forty days and forty nights, he was afterward an hungred",
+   "work": "Matthew 4:1–2",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezra-we-fasted-and-besought-our-god": {
+   "text": "So we fasted and besought our God for this: and he was intreated of us",
+   "work": "Ezra 8:23",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezra%208%3A23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "saadi-interior-empty-of-food": {
+   "text": "Keep thy interior empty of food That thou mayest behold therein the light of marifet",
+   "author": "Saʿdī",
+   "work": "Gulistān",
+   "locator": "chapter 2",
+   "year": "1258",
+   "sortYear": 1258,
+   "translator": "Edward Rehatsek",
+   "tradition": "Persian and Sufi poetry",
+   "kind": "literature",
+   "source": {
+    "url": "https://classics.mit.edu/Sadi/gulistan.mb.txt",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1891."
+   }
+  }
+ }
+}

@@ -1,0 +1,827 @@
+{
+ "format": 2,
+ "slug": "singlesoul",
+ "subject": "0932600F9AFF44C2B17210548E889F44",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 62,
+ "quotations": 62,
+ "kept": [
+  "source:AB00169",
+  "source:BH11764",
+  "source:AB07273",
+  "source:AB05825",
+  "source:AB02895",
+  "source:AB05146",
+  "source:AB07292",
+  "source:AB01773",
+  "source:BH01509",
+  "source:AB02921",
+  "source:AB08158",
+  "source:ABU1592",
+  "source:BH00351",
+  "source:BH00929",
+  "source:BH01230",
+  "source:AB02209",
+  "source:AB02333",
+  "source:AB06748",
+  "source:AB06597",
+  "source:AB07214",
+  "source:AB08888",
+  "source:AB07107",
+  "source:AB05187",
+  "source:AB06530",
+  "source:AB05645",
+  "source:AB01503",
+  "source:AB06947",
+  "source:AB09182",
+  "source:ABU1751",
+  "source:BHU0023",
+  "source:ABU0723",
+  "source:ABU2338",
+  "source:ABU2334",
+  "source:ABU2514",
+  "source:ABU0326",
+  "source:ABU1722",
+  "source:ABU1224",
+  "source:ABU1247",
+  "source:ABU1657",
+  "source:ABU1608",
+  "source:ABU1643",
+  "source:AB08278",
+  "source:ABU2821",
+  "source:ABU1087",
+  "source:AB11811",
+  "source:AB12288",
+  "source:AB01302",
+  "source:AB03652",
+  "source:ABU2999",
+  "source:ABU1265",
+  "source:ABU3116",
+  "source:ABU2360",
+  "source:ABU2411",
+  "source:ABU3373",
+  "selection:f7e6b2847eec6640ed8fee07",
+  "selection:510a39ed8c048ce6fd50b97e",
+  "selection:91ecde26700dfe14ff746454",
+  "selection:1f75ba4bb36a9ffada0711cd",
+  "selection:fbed97764cae9f15073510a5",
+  "selection:4f48dec8c3dc0a3b9123af18",
+  "selection:19eb8103d896502ac7a35831",
+  "selection:ba973eac1bae8442267cdb84"
+ ],
+ "introduction": "These readings make one claim in many forms: a single person, however obscure, can become the cause of life for a multitude. ‘Abdu’l-Bahá’s examples are Peter the fisherman and Salmán the vendor, a lone teacher who carried Islam to the islands of the East, and a woman who was “not eloquent” and whose heart taught. The conditions are spelled out as well. The power is not the person’s own; it comes when the self is forgotten, through deeds more than words and through friendship more than campaigns, and quality matters more than numbers. The outside quotations show how deep this conviction runs in scripture: leaven, the mustard seed, ten righteous in a city, Gideon’s three hundred, “whoever saves one soul saves a world,” Andrew fetching his brother, the woman of Samaria. Shakespeare’s candle, Emerson, Thoreau, Confucius and the Dhammapada say it in their own terms. George Eliot and Gray ask after the people whose influence no one records and whose gifts no one found, and Mordecai’s word to Esther sets one person’s moment within a purpose that will not fail if she does.",
+ "questions": [
+  "“One pure soul can enlighten a world.” Whom have you known of whom something like this was true on a small scale? What was it about that person?",
+  "The readings insist the power is not the teacher’s own and comes when the ego is forgotten. How does that square with the stress on individual initiative in the later readings?",
+  "“Deeds have more influence than words,” and Juliet Thompson’s heart taught where her tongue did not. What, concretely, do people learn from a life that they do not learn from an explanation?",
+  "Emerson reads history as the biography of a few great persons; George Eliot credits “unhistoric acts” and hidden lives. Which is nearer to what these readings describe?",
+  "“Many are called, but few are chosen,” and Gray mourns the flower “born to blush unseen.” What responsibility do the chosen few have toward capacities that have never been awakened?",
+  "A letter here warns against relying on large projects in place of personal teaching. Why would a growing community be tempted that way, and what is lost?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-leaven",
+   "after": "source:AB00169",
+   "responds": [
+    "source:AB00169"
+   ],
+   "relation": "adjacent",
+   "why": "“Five grains of wheat will be endued with heavenly blessing.” Jesus: the kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened."
+  },
+  {
+   "id": "genesis-for-tens-sake",
+   "after": "source:AB00169",
+   "responds": [
+    "source:AB00169"
+   ],
+   "relation": "adjacent",
+   "why": "“Precious stones are rare.” Abraham bargained for a city on the strength of a few, down to the last offer: I will not destroy it for ten’s sake."
+  },
+  {
+   "id": "mishnah-single-soul",
+   "after": "source:BH11764",
+   "responds": [
+    "source:BH11764"
+   ],
+   "relation": "adjacent",
+   "why": "“A single deed performed for God’s sake may give life to many.” The Mishnah on what one life weighs: anyone who saves a single soul is deemed by Scripture as if he had saved a whole world."
+  },
+  {
+   "id": "quran-whoso-slew-a-soul",
+   "after": "source:BH11764",
+   "responds": [
+    "source:BH11764"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án repeats that teaching: whoso saveth the life of one, it shall be as if he had saved the life of all mankind."
+  },
+  {
+   "id": "john-andrew-findeth-his-own-brother",
+   "after": "source:AB07273",
+   "responds": [
+    "source:AB07273"
+   ],
+   "relation": "adjacent",
+   "why": "One teaches another, “and that one in turn becomes the cause of another’s life.” The first link of the Christian chain: Andrew first findeth his own brother Simon, and he brought him to Jesus."
+  },
+  {
+   "id": "timothy-teach-others-also",
+   "after": "source:AB07273",
+   "responds": [
+    "source:AB07273"
+   ],
+   "relation": "adjacent",
+   "why": "Paul sets out four links in one sentence: the things that thou hast heard of me, the same commit thou to faithful men, who shall be able to teach others also."
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:AB05825",
+   "responds": [
+    "source:AB05825"
+   ],
+   "relation": "adjacent",
+   "why": "“One without position or status may … become the founder of the house of peace.” Paul: God hath chosen the weak things of the world to confound the things which are mighty."
+  },
+  {
+   "id": "shakespeare-little-candle",
+   "after": "source:AB02895",
+   "responds": [
+    "source:AB02895"
+   ],
+   "relation": "adjacent",
+   "why": "“One pure soul can enlighten a world.” Portia, coming home at night: how far that little candle throws his beams! So shines a good deed in a naughty world."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB02895",
+   "responds": [
+    "source:AB02895"
+   ],
+   "relation": "adjacent",
+   "why": "“One star of guidance can lead a hundred thousand caravans.” Daniel: they that turn many to righteousness shall shine as the stars for ever and ever."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:AB05146",
+   "responds": [
+    "source:AB05146"
+   ],
+   "relation": "adjacent",
+   "why": "“Deeds have more influence than words.” Jesus: let your light so shine before men, that they may see your good works."
+  },
+  {
+   "id": "chaucer-parson",
+   "after": "source:AB05146",
+   "responds": [
+    "source:AB05146"
+   ],
+   "relation": "adjacent",
+   "why": "Chaucer’s country priest: this noble ensample to his sheep he yaf, that first he wroghte, and afterward he taughte."
+  },
+  {
+   "id": "luke-joy-over-one-sinner",
+   "after": "source:AB07292",
+   "responds": [
+    "source:AB07292"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá’s joy at news of two souls guided. Jesus: joy shall be in heaven over one sinner that repenteth."
+  },
+  {
+   "id": "james-converteth-the-sinner",
+   "after": "source:AB01773",
+   "responds": [
+    "source:AB01773"
+   ],
+   "relation": "adjacent",
+   "why": "“The guidance of one soul is greater than the sovereignty” of the earth. James: he which converteth the sinner from the error of his way shall save a soul from death."
+  },
+  {
+   "id": "matthew-blind-leaders",
+   "after": "source:BH01509",
+   "responds": [
+    "source:BH01509"
+   ],
+   "relation": "adjacent",
+   "why": "“Many guides are themselves astray.” Jesus: if the blind lead the blind, both shall fall into the ditch."
+  },
+  {
+   "id": "avot-make-for-yourself-a-teacher",
+   "after": "source:BH01509",
+   "responds": [
+    "source:BH01509"
+   ],
+   "relation": "adjacent",
+   "why": "“Travel not the way without a guide.” The rabbis: appoint for thyself a teacher, and acquire for thyself a companion."
+  },
+  {
+   "id": "thessalonians-labouring-night-and-day",
+   "after": "source:AB02921",
+   "responds": [
+    "source:AB02921"
+   ],
+   "relation": "adjacent",
+   "why": "The young should be tended “by one who traineth them to love.” Paul on how he taught: we were gentle among you, even as a nurse cherisheth her children."
+  },
+  {
+   "id": "john-he-must-increase",
+   "after": "source:ABU1592",
+   "responds": [
+    "source:ABU1592"
+   ],
+   "relation": "adjacent",
+   "why": "Teachers who “have forgotten ego.” John the Baptist, when his own followers began to leave him for Jesus: he must increase, but I must decrease."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:ABU1592",
+   "responds": [
+    "source:ABU1592"
+   ],
+   "relation": "adjacent",
+   "why": "“The most efficient capital of the Bahá’í teacher is the divine power.” Zechariah: not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "deuteronomy-doctrine-as-the-rain",
+   "after": "source:BH00351",
+   "responds": [
+    "source:BH00351"
+   ],
+   "relation": "adjacent",
+   "why": "May he be “like rain clouds for the soil of His knowledge.” Moses: my doctrine shall drop as the rain, as the small rain upon the tender herb."
+  },
+  {
+   "id": "thoreau-majority-of-one",
+   "after": "source:BH00929",
+   "responds": [
+    "source:BH00929"
+   ],
+   "relation": "adjacent",
+   "why": "“A single accepted soul is mightier and greater than all the peoples of the world.” Thoreau: any man more right than his neighbors constitutes a majority of one already."
+  },
+  {
+   "id": "samuel-by-many-or-by-few",
+   "after": "source:BH01230",
+   "responds": [
+    "source:BH01230"
+   ],
+   "relation": "adjacent",
+   "why": "God “could through a single soul subdue the entire world.” Jonathan, with one companion, before a garrison: there is no restraint to the Lord to save by many or by few."
+  },
+  {
+   "id": "joshua-one-man-of-you-shall-chase-a-thousand",
+   "after": "source:AB02209",
+   "responds": [
+    "source:AB02209"
+   ],
+   "relation": "adjacent",
+   "why": "“A single horseman can charge against the world’s ranks.” Joshua: one man of you shall chase a thousand: for the Lord your God, he it is that fighteth for you."
+  },
+  {
+   "id": "judges-lest-israel-vaunt",
+   "after": "source:AB02333",
+   "responds": [
+    "source:AB02333"
+   ],
+   "relation": "adjacent",
+   "why": "“One soul has the effect of an army.” Gideon’s army was cut from thousands to three hundred, and the reason given: the people that are with thee are too many for me."
+  },
+  {
+   "id": "isaiah-here-am-i",
+   "after": "source:AB06748",
+   "responds": [
+    "source:AB06748"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever calls people to the Kingdom will be made victorious. Isaiah heard the question first: whom shall I send, and who will go for us? Then said I, Here am I; send me."
+  },
+  {
+   "id": "james-tongue-is-a-fire",
+   "after": "source:AB06597",
+   "responds": [
+    "source:AB06597"
+   ],
+   "relation": "adjacent",
+   "why": "“One spark sets on fire a great forest.” James uses the image as a warning: behold, how great a matter a little fire kindleth! The same law serves either way."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:AB08888",
+   "responds": [
+    "source:AB08888"
+   ],
+   "relation": "adjacent",
+   "why": "May you be “so enkindled … as to set aflame all who meet thee.” Two travellers after meeting a stranger on the road to Emmaus: did not our heart burn within us, while he talked with us by the way?"
+  },
+  {
+   "id": "john-for-the-saying-of-the-woman",
+   "after": "source:AB05187",
+   "responds": [
+    "source:AB05187"
+   ],
+   "relation": "adjacent",
+   "why": "“You became the cause of life for countless souls.” A woman at a well in Samaria went back to her town: many of the Samaritans of that city believed on him for the saying of the woman."
+  },
+  {
+   "id": "matthew-words-shall-not-pass-away",
+   "after": "source:AB01503",
+   "responds": [
+    "source:AB01503"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed souls “with but a breath” perfumed the world, “and it still continues.” Jesus: heaven and earth shall pass away, but my words shall not pass away."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:AB06947",
+   "responds": [
+    "source:AB06947"
+   ],
+   "relation": "adjacent",
+   "why": "“Simon Peter … was a mere fisherman.” The court that examined him: they perceived that they were unlearned and ignorant men; and they took knowledge of them, that they had been with Jesus."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:AB09182",
+   "responds": [
+    "source:AB09182"
+   ],
+   "relation": "adjacent",
+   "why": "“A hundred thousand kings … all have passed away and are no more.” Shelley’s king of kings: round the decay of that colossal wreck, the lone and level sands stretch far away."
+  },
+  {
+   "id": "corinthians-not-many-mighty",
+   "after": "source:ABU1751",
+   "responds": [
+    "source:ABU1751"
+   ],
+   "relation": "adjacent",
+   "why": "“Lowly individuals … attained the zenith of eternal glory.” Paul: not many wise men after the flesh, not many mighty, not many noble, are called."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:BHU0023",
+   "responds": [
+    "source:BHU0023"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus’ death seemed a defeat and proved an elixir. His own image for it: except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit."
+  },
+  {
+   "id": "emerson-lengthened-shadow-of-one-man",
+   "after": "source:ABU0723",
+   "responds": [
+    "source:ABU0723"
+   ],
+   "relation": "adjacent",
+   "why": "“The life and teachings of a single human wonder transforms the whole world.” Emerson: an institution is the lengthened shadow of one man; and all history resolves itself very easily into the biography of a few stout and earnest persons."
+  },
+  {
+   "id": "eliot-unhistoric-acts",
+   "after": "source:ABU0723",
+   "responds": [
+    "source:ABU0723"
+   ],
+   "relation": "contrast",
+   "why": "History changed by “a single human wonder.” George Eliot ends Middlemarch by crediting people no history records: the growing good of the world is partly dependent on unhistoric acts, on those who lived faithfully a hidden life, and rest in unvisited tombs. Do the readings mean the great soul or the unnoticed one, and does the difference matter?"
+  },
+  {
+   "id": "ecclesiastes-poor-wise-man",
+   "after": "source:ABU2338",
+   "responds": [
+    "source:ABU2338"
+   ],
+   "relation": "adjacent",
+   "why": "Through one soul, “no matter how poor and simple, a whole nation has been saved.” Ecclesiastes: there was found in it a poor wise man, and he by his wisdom delivered the city."
+  },
+  {
+   "id": "esther-for-such-a-time",
+   "after": "source:ABU2338",
+   "responds": [
+    "source:ABU2338"
+   ],
+   "relation": "complement",
+   "why": "One person at the turning point. Mordecai to Esther: who knoweth whether thou art come to the kingdom for such a time as this? He adds that if she is silent, deliverance will come from another place. How do the readings hold together the weight of one person and the certainty that the work will be done?"
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:ABU2514",
+   "responds": [
+    "source:ABU2514"
+   ],
+   "relation": "adjacent",
+   "why": "“You are not eloquent, you are not fluent, but your heart teaches.” Paul of himself: my speech and my preaching was not with enticing words of man’s wisdom, but in demonstration of the Spirit."
+  },
+  {
+   "id": "matthew-many-called-few-chosen",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá quotes the saying. In Matthew it closes the parable of a wedding feast to which everyone in the streets was invited: for many are called, but few are chosen."
+  },
+  {
+   "id": "gray-blush-unseen",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "contrast",
+   "why": "Only a special number attain; the rest depends on bounty. Gray, in a country churchyard, mourned capacity that never got its chance: full many a flower is born to blush unseen, and waste its sweetness on the desert air. Is anything wasted, on the readings’ view, and whose task is it to find the unseen flower?"
+  },
+  {
+   "id": "matthew-mustard-seed",
+   "after": "source:ABU1722",
+   "responds": [
+    "source:ABU1722"
+   ],
+   "relation": "adjacent",
+   "why": "“He shall change the drop into an ocean.” Jesus’ least of all seeds, which becomes a tree, so that the birds of the air come and lodge in the branches."
+  },
+  {
+   "id": "jeremiah-i-am-a-child",
+   "after": "source:ABU1722",
+   "responds": [
+    "source:ABU1722"
+   ],
+   "relation": "adjacent",
+   "why": "“Do ye not look upon your own capacities.” Jeremiah objected, Ah, Lord God! I cannot speak: for I am a child, and was told: say not, I am a child."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:ABU1224",
+   "responds": [
+    "source:ABU1224"
+   ],
+   "relation": "adjacent",
+   "why": "“One bright, glowing torch is better than a thousand extinct ones.” Jesus: ye are the light of the world. A city that is set on an hill cannot be hid."
+  },
+  {
+   "id": "matthew-men-of-nineveh",
+   "after": "source:ABU1247",
+   "responds": [
+    "source:ABU1247"
+   ],
+   "relation": "adjacent",
+   "why": "“It is possible for one Bahá’í to guide one whole nation.” The Bible’s case of it is Jonah, a single unwilling preacher: the men of Nineveh repented at the preaching of Jonas."
+  },
+  {
+   "id": "acts-eunuch-came-to-worship",
+   "after": "source:ABU1657",
+   "responds": [
+    "source:ABU1657"
+   ],
+   "relation": "adjacent",
+   "why": "When one person of a nation enters the religion of God, the whole community may follow. Philip met one traveller on a desert road, an official of the queen of Ethiopia; a nation traces its church to that meeting."
+  },
+  {
+   "id": "analects-wind-and-grass",
+   "after": "source:ABU1643",
+   "responds": [
+    "source:ABU1643"
+   ],
+   "relation": "adjacent",
+   "why": "Twenty million converted “by one single person … Just think of his attraction!” Confucius on how character moves a people: the grass must bend, when the wind blows across it."
+  },
+  {
+   "id": "acts-man-of-macedonia",
+   "after": "source:AB08278",
+   "responds": [
+    "source:AB08278"
+   ],
+   "relation": "adjacent",
+   "why": "“One blessed soul hath proved to become the cause of guidance unto a continent.” Paul’s dream at Troas, which took him into Europe: come over into Macedonia, and help us."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:ABU2821",
+   "responds": [
+    "source:ABU2821"
+   ],
+   "relation": "adjacent",
+   "why": "Each “completely effaced and annihilated in the Cause of God.” Paul: I live; yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "philippians-i-press-toward-the-mark",
+   "after": "source:ABU1087",
+   "responds": [
+    "source:ABU1087"
+   ],
+   "relation": "adjacent",
+   "why": "Victory is for one who “has freed himself from every thought” but this. Paul: this one thing I do, forgetting those things which are behind, I press toward the mark."
+  },
+  {
+   "id": "shakespeare-tide-in-the-affairs",
+   "after": "source:AB11811",
+   "responds": [
+    "source:AB11811"
+   ],
+   "relation": "adjacent",
+   "why": "“Do not let the opportunity slip away.” Brutus: there is a tide in the affairs of men, which, taken at the flood, leads on to fortune."
+  },
+  {
+   "id": "acts-scattered-abroad",
+   "after": "source:AB12288",
+   "responds": [
+    "source:AB12288"
+   ],
+   "relation": "adjacent",
+   "why": "The friends in one city “have been scattered” by persecution, and one person is asked to begin again. Acts: they that were scattered abroad went every where preaching the word."
+  },
+  {
+   "id": "numbers-all-the-lords-people-prophets",
+   "after": "source:AB01302",
+   "responds": [
+    "source:AB01302"
+   ],
+   "relation": "adjacent",
+   "why": "Souls will arise; may we at least be near them. Moses, told that others were prophesying in the camp: would God that all the Lord’s people were prophets."
+  },
+  {
+   "id": "zechariah-day-of-small-things",
+   "after": "source:AB03652",
+   "responds": [
+    "source:AB03652"
+   ],
+   "relation": "adjacent",
+   "why": "“Although this gathering is small, yet in future it will develop greatly.” Zechariah: who hath despised the day of small things?"
+  },
+  {
+   "id": "matthew-sower-went-forth",
+   "after": "source:ABU2999",
+   "responds": [
+    "source:ABU2999"
+   ],
+   "relation": "adjacent",
+   "why": "“A seed was sown in the countries of America.” Jesus: other fell into good ground, and brought forth fruit, some an hundredfold."
+  },
+  {
+   "id": "luke-labourers-are-few",
+   "after": "source:ABU3116",
+   "responds": [
+    "source:ABU3116"
+   ],
+   "relation": "adjacent",
+   "why": "“If five or six people are found in Japan, it will progress very quickly.” Jesus: the harvest truly is great, but the labourers are few."
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "source:ABU2360",
+   "responds": [
+    "source:ABU2360"
+   ],
+   "relation": "adjacent",
+   "why": "A teacher who knew the language of the West would have a hundredfold influence. Paul’s rule for himself: I am made all things to all men, that I might by all means save some."
+  },
+  {
+   "id": "luke-was-dead-and-is-alive",
+   "after": "source:ABU3373",
+   "responds": [
+    "source:ABU3373"
+   ],
+   "relation": "adjacent",
+   "why": "“If you teach one person it is as though you have resurrected a dead soul into life.” The father in the parable: this thy brother was dead, and is alive again."
+  },
+  {
+   "id": "wordsworth-unremembered-acts",
+   "after": "selection:f7e6b2847eec6640ed8fee07",
+   "responds": [
+    "selection:f7e6b2847eec6640ed8fee07"
+   ],
+   "relation": "adjacent",
+   "why": "“Close association and loving service affects the hearts.” Wordsworth: that best portion of a good man’s life, his little, nameless, unremembered acts of kindness and of love."
+  },
+  {
+   "id": "mill-worth-of-a-state",
+   "after": "selection:510a39ed8c048ce6fd50b97e",
+   "responds": [
+    "selection:510a39ed8c048ce6fd50b97e"
+   ],
+   "relation": "complement",
+   "why": "“The role of the individual is of unique importance.” Mill ended On Liberty with a warning to every organization that makes its members small: the worth of a State, in the long run, is the worth of the individuals composing it. What do institutions owe the individual’s initiative, on the House of Justice’s account?"
+  },
+  {
+   "id": "peter-marvellous-light",
+   "after": "selection:1f75ba4bb36a9ffada0711cd",
+   "responds": [
+    "selection:1f75ba4bb36a9ffada0711cd"
+   ],
+   "relation": "adjacent",
+   "why": "“We have no priests,” so each believer does the priest’s work. The First Letter of Peter said it of a whole people: ye are a chosen generation, a royal priesthood."
+  },
+  {
+   "id": "ezekiel-sought-for-a-man-to-stand-in-the-gap",
+   "after": "selection:fbed97764cae9f15073510a5",
+   "responds": [
+    "selection:fbed97764cae9f15073510a5"
+   ],
+   "relation": "adjacent",
+   "why": "“Just one mature soul … can set a whole country ablaze.” Ezekiel records a time when the one could not be found: I sought for a man among them, that should stand in the gap before me for the land: but I found none."
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "selection:4f48dec8c3dc0a3b9123af18",
+   "responds": [
+    "selection:4f48dec8c3dc0a3b9123af18"
+   ],
+   "relation": "adjacent",
+   "why": "Better one who understands and is convinced than many who are not. The Dhammapada on which victory counts: if one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors."
+  },
+  {
+   "id": "luke-fear-not-little-flock",
+   "after": "selection:ba973eac1bae8442267cdb84",
+   "responds": [
+    "selection:ba973eac1bae8442267cdb84"
+   ],
+   "relation": "adjacent",
+   "why": "“Be not concerned with the smallness of your numbers.” Jesus: fear not, little flock; for it is your Father’s good pleasure to give you the kingdom."
+  }
+ ],
+ "library": {
+  "john-andrew-findeth-his-own-brother": {
+   "text": "One of the two which heard John speak, and followed him, was Andrew, Simon Peter's brother. He first findeth his own brother Simon, and saith unto him, We have found the Messias, which is, being interpreted, the Christ. And he brought him to Jesus",
+   "work": "John 1:40–42",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%201%3A40-42&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-for-the-saying-of-the-woman": {
+   "text": "And many of the Samaritans of that city believed on him for the saying of the woman, which testified, He told me all that ever I did. So when the Samaritans were come unto him, they besought him that he would tarry with them: and he abode there two days. And many more believed because of his own word; And said unto the woman, Now we believe, not because of thy saying: for we have heard him ourselves, and know that this is indeed the Christ, the Saviour of the world",
+   "work": "John 4:39–42",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%204%3A39-42&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-for-tens-sake": {
+   "text": "And he said, Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there. And he said, I will not destroy it for ten's sake",
+   "work": "Genesis 18:32",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2018%3A32&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "joshua-one-man-of-you-shall-chase-a-thousand": {
+   "text": "One man of you shall chase a thousand: for the Lord your God, he it is that fighteth for you, as he hath promised you",
+   "work": "Joshua 23:10",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Joshua%2023%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-sought-for-a-man-to-stand-in-the-gap": {
+   "text": "And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none",
+   "work": "Ezekiel 22:30",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2022%3A30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "thoreau-majority-of-one": {
+   "text": "any man more right than his neighbors, constitutes a majority of one already",
+   "author": "Henry David Thoreau",
+   "work": "Resistance to Civil Government",
+   "year": "1849",
+   "sortYear": 1849,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Resistance_to_Civil_Government",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author died in 1862."
+   }
+  },
+  "emerson-lengthened-shadow-of-one-man": {
+   "text": "An institution is the lengthened shadow of one man; as, Monachism, of the Hermit Antony; the Reformation, of Luther; Quakerism, of Fox; Methodism, of Wesley; Abolition, of Clarkson. Scipio, Milton called \"the height of Rome\"; and all history resolves itself very easily into the biography of a few stout and earnest persons",
+   "author": "Ralph Waldo Emerson",
+   "work": "Self-Reliance",
+   "year": "1841",
+   "sortYear": 1841,
+   "tradition": "American literature and public life",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Essays:_First_Series/Self-Reliance",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1882."
+   }
+  },
+  "acts-man-of-macedonia": {
+   "text": "And a vision appeared to Paul in the night; There stood a man of Macedonia, and prayed him, saying, Come over into Macedonia, and help us. And after he had seen the vision, immediately we endeavoured to go into Macedonia, assuredly gathering that the Lord had called us for to preach the gospel unto them",
+   "work": "Acts 16:9–10",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2016%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

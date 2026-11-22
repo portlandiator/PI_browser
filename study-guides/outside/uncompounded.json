@@ -1,0 +1,170 @@
+{
+ "format": 2,
+ "slug": "uncompounded",
+ "subject": "C0EDDD3E844E4114A8D00103258F7A8F",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 15,
+ "kept": [
+  "source:BH00409",
+  "source:BH00333",
+  "source:BH01112",
+  "source:AB00062",
+  "selection:4e2209156b1d0f629d53d0fc",
+  "selection:0756bebe8ef455466435a1df",
+  "selection:f7d26852fec53a7977277874",
+  "selection:592db47f863369567b420632",
+  "selection:227cc35e2d515ba5934bedef",
+  "selection:838e9a18ad7c96d574fa7bc9",
+  "selection:1dbc6ee614372b14de4ec3f5",
+  "selection:bc9c4c95060da8294058edb3"
+ ],
+ "introduction": "This short and technical guide concerns one sentence of the philosophers: “The uncompounded Reality is all things.” Mullá Ṣadrá stated it in the seventeenth century; its ancestry runs back through the Sufi doctrine of the “unity of existence” to Plotinus and to Plato’s Parmenides, which the guide itself quotes. Bahá’u’lláh was asked about it more than once. He accepts the sentence in one sense: every perfection of existence proceeds from the one simple Reality. He rejects it in another: God is not the sum of things, nor divided among them, and the Báb and Shaykh Aḥmad are cited against philosophers who blurred the line. He also remarks that some people ask such questions for show. The outside quotations supply the tradition (Plotinus, Maimonides, the Qur’án’s chapter of Unity, Paul’s “of him, and through him, and to him”) and the views the readings stand against or beside: Spinoza, the Upanishad’s “thou art it,” and Wordsworth’s sense of a presence in all things. The Buddha’s parable of the arrow is here for the readings’ warning about idle metaphysics.",
+ "questions": [
+  "“The Simple Reality is all things.” State the sense in which Bahá’u’lláh accepts this and the sense in which he does not.",
+  "Why does it matter whether God is “uncompounded”? What would follow, for worship and for ethics, if God had parts or were the sum of things?",
+  "Spinoza says whatever is, is in God. Paul says God is “above all, and through all, and in you all.” Where is the line between these, and on which side do the readings stand?",
+  "Bahá’u’lláh says some ask such questions for sophistication or jest, and the Buddha refused certain questions. How do you tell a metaphysical question that matters from one that does not?",
+  "The last reading speaks of two stations of the divine unity. How might a person live in both: denying all else beside God, and seeing God’s sign in everything?"
+ ],
+ "outside": [
+  {
+   "id": "romans-of-him-and-through-him",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "“The Simple Reality is all things,” the philosophers said; Bahá’u’lláh explains that all perfections of existence proceed from it. Paul’s doxology: for of him, and through him, and to him, are all things."
+  },
+  {
+   "id": "maimonides-not-two-or-more-but-one",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "The Reality is simple, uncompounded. Maimonides on a unity unlike any other: He is not two or more, but one, unified in a manner which surpasses any unity that is found in the world."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "The philosophers’ saying descends from Plotinus, who was careful about its sense: the One is perfect and, in a way of speaking, has overflowed, and its superabundance has produced another."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "contrast",
+   "why": "“All things” here means perfections proceeding from God, and does not mean that God is divided among things. Spinoza took the saying in the stronger sense: whatsoever is, is in God, and without God nothing can be, or be conceived. What does Bahá’u’lláh’s gloss keep of Spinoza’s thought, and what does it deny?"
+  },
+  {
+   "id": "quran-he-is-allah-the-one",
+   "after": "source:BH00333",
+   "responds": [
+    "source:BH00333"
+   ],
+   "relation": "adjacent",
+   "why": "“By the Simple Reality is meant the Truth Itself.” The Qur’án’s shortest statement of the divine unity: say: He is Allah, the One! Allah, the eternally Besought of all!"
+  },
+  {
+   "id": "quran-naught-is-as-his-likeness",
+   "after": "source:BH00333",
+   "responds": [
+    "source:BH00333"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án: naught is as His likeness; and He is the Hearer, the Seer."
+  },
+  {
+   "id": "buddha-poisoned-arrow",
+   "after": "source:BH01112",
+   "responds": [
+    "source:BH01112"
+   ],
+   "relation": "adjacent",
+   "why": "Some ask abstruse questions for “sophistication or jest.” The Buddha would not answer metaphysical riddles put for their own sake, and compared the questioner to a man wounded with an arrow who will not have it drawn until he knows who shot it."
+  },
+  {
+   "id": "timothy-fables-and-endless-genealogies",
+   "after": "source:BH01112",
+   "responds": [
+    "source:BH01112"
+   ],
+   "relation": "adjacent",
+   "why": "The First Letter to Timothy on speculation that ministers questions, rather than godly edifying."
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá examines the Sufi “unity of existence” and rejects the idea that God is resolved into creatures. The Upanishad states the identity without reserve: it is the Self, and thou art it. Is there a reading of that sentence the readings could accept?"
+  },
+  {
+   "id": "wordsworth-rolls-through-all-things",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "complement",
+   "why": "Wordsworth felt a presence that rolls through all things. ‘Abdu’l-Bahá grants the Sufis’ experience and questions their account of it. How does the image of the sun and its rays describe what Wordsworth felt without making nature divine?"
+  },
+  {
+   "id": "ephesians-above-all-and-through-all",
+   "after": "selection:4e2209156b1d0f629d53d0fc",
+   "responds": [
+    "selection:4e2209156b1d0f629d53d0fc"
+   ],
+   "relation": "adjacent",
+   "why": "The Simple Reality “is, by virtue of Its Unity, all things.” Paul keeps transcendence and presence in one phrase: one God and Father of all, who is above all, and through all, and in you all."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken-me",
+   "after": "selection:f7d26852fec53a7977277874",
+   "responds": [
+    "selection:f7d26852fec53a7977277874"
+   ],
+   "relation": "adjacent",
+   "why": "Most philosophers “have erred in their explanations of this station.” Isaiah’s caution to every explainer: to whom then will ye liken me, or shall I be equal? saith the Holy One."
+  },
+  {
+   "id": "psalm-he-spake-and-it-was-done",
+   "after": "selection:592db47f863369567b420632",
+   "responds": [
+    "selection:592db47f863369567b420632"
+   ],
+   "relation": "adjacent",
+   "why": "God created the Will, “then He created through it all” things. A psalm on creation by an act and not by division of the Maker: he spake, and it was done."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "selection:838e9a18ad7c96d574fa7bc9",
+   "responds": [
+    "selection:838e9a18ad7c96d574fa7bc9"
+   ],
+   "relation": "adjacent",
+   "why": "Only the Creator is utterly uncompounded; whatever is created has two aspects. Plotinus pictured the relation without mixing the two: a radiation from it while it remains unchanged, like the bright light of the sun which, so to speak, runs round it."
+  },
+  {
+   "id": "deuteronomy-shema",
+   "after": "selection:bc9c4c95060da8294058edb3",
+   "responds": [
+    "selection:bc9c4c95060da8294058edb3"
+   ],
+   "relation": "adjacent",
+   "why": "Two stations in the divine unity: to negate all else and affirm the One, and to see the One revealed in all. The first is the Shema: hear, O Israel: the Lord our God is one Lord."
+  }
+ ],
+ "library": {}
+}

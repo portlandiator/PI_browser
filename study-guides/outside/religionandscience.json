@@ -1,0 +1,141 @@
+{
+ "format": 2,
+ "slug": "religionandscience",
+ "subject": "6280A04C18E1EDA8175C748BAC2D2A19",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 12,
+ "kept": [
+  "source:AB00256",
+  "source:AB00035",
+  "source:AB00076",
+  "source:ABU3688",
+  "source:ABU0178",
+  "source:ABU0040",
+  "source:AB00004",
+  "source:ABU1441",
+  "source:ABU1653",
+  "source:ABU1595"
+ ],
+ "introduction": "These ten readings make one historical argument: religion is the friend and source of learning, and the proof is what became of the Arabs after Muḥammad, from the desert to the schools of Andalusia that taught Europe. Around it stand a statement of principle, that the religion of God is “the establisher of science and learning,” and a caution that knowledge without the spirit is incomplete. The Qur’án’s own words on knowledge are set beside the readings (the command to read, the prayer for increase, the question whether those who know and those who do not are equal), with Daniel, Thomas Browne’s two books, Bacon and Tennyson. Three voices complicate the history: Tertullian, for whom Athens had nothing to do with Jerusalem; Montaigne, who distrusted the word “barbarous”; Byron, who saw every civilization run the same downward course; and Mark Twain on the civilizing missions of his own day.",
+ "questions": [
+  "“How then could it oppose knowledge?” Tertullian thought the Church needed nothing from the Academy. Where does the idea that religion and learning are opponents come from, and what in the readings answers it?",
+  "The first revealed word of the Qur’án is “Read.” What difference does it make to a civilization when learning is commanded as worship?",
+  "The readings describe the pre-Islamic Arabs in very harsh terms. Montaigne warns that everyone calls unfamiliar ways barbarous. Does the argument depend on the harshness?",
+  "Byron saw glory decay into wealth, vice and barbarism. If religion raised the Arabs so quickly, what do these readings suggest happens to learning when the religious impulse weakens?",
+  "Bacon held that deep philosophy brings the mind back to religion; ‘Abdu’l-Bahá says the scientist without the spirit is incomplete. What does each think is missing?"
+ ],
+ "outside": [
+  {
+   "id": "quran-read",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "adjacent",
+   "why": "Religion is “the establisher of science and learning.” The first word revealed to Muḥammad was a command to learn: Read: and thy Lord is the Most Bounteous, Who teacheth by the pen, teacheth man that which he knew not."
+  },
+  {
+   "id": "tertullian-athens-and-jerusalem",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "contrast",
+   "why": "“How then could it oppose knowledge? God forbid!” One early Christian teacher thought the two had nothing to say to each other: what indeed has Athens to do with Jerusalem? What concord is there between the Academy and the Church? Why has that view so often seemed the religious one?"
+  },
+  {
+   "id": "browne-two-books",
+   "after": "source:AB00256",
+   "responds": [
+    "source:AB00256"
+   ],
+   "relation": "adjacent",
+   "why": "Religion as “the discoverer of the secrets of existence.” Sir Thomas Browne, a physician: there are two books from whence I collect my divinity; besides that written one of God, another of His servant Nature."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB00035",
+   "responds": [
+    "source:AB00035"
+   ],
+   "relation": "adjacent",
+   "why": "The Arabs “excelled all other nations of the earth in sciences.” The prayer their Book taught them: my Lord! Increase me in knowledge."
+  },
+  {
+   "id": "quran-messenger-among-the-unlettered",
+   "after": "source:AB00076",
+   "responds": [
+    "source:AB00076"
+   ],
+   "relation": "adjacent",
+   "why": "“These ignorant peoples became the foremost among the learned.” The Qur’án says this was the purpose: He hath sent among the unlettered ones a messenger of their own, to teach them the Scripture and wisdom."
+  },
+  {
+   "id": "daniel-knowledge-and-skill",
+   "after": "source:AB00076",
+   "responds": [
+    "source:AB00076"
+   ],
+   "relation": "adjacent",
+   "why": "Learning as a gift that follows faithfulness. The four young exiles in Babylon: God gave them knowledge and skill in all learning and wisdom."
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:ABU3688",
+   "responds": [
+    "source:ABU3688"
+   ],
+   "relation": "adjacent",
+   "why": "A desert people established “the schools of Andalusia.” The Qur’án’s question stood over those schools: are those who know equal with those who know not?"
+  },
+  {
+   "id": "montaigne-title-of-barbarism",
+   "after": "source:ABU3688",
+   "responds": [
+    "source:ABU3688"
+   ],
+   "relation": "complement",
+   "why": "The readings speak of “desert-dwelling wild ones” and a “once brutal people.” Montaigne distrusted such words in anyone’s mouth: every one gives the title of barbarism to everything that is not in use in his own country. Does the argument from the Arabs’ transformation need their earlier state to be painted so dark?"
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:ABU0040",
+   "responds": [
+    "source:ABU0040"
+   ],
+   "relation": "adjacent",
+   "why": "“Material civilization is incomplete.” Tennyson in 1842, with the railways new: knowledge comes, but wisdom lingers."
+  },
+  {
+   "id": "byron-history-hath-but-one-page",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "complement",
+   "why": "The rise of the Arabs in so short a time is “the greatest demonstration.” Byron read the whole course of nations as one cycle: first freedom, and then glory; when that fails, wealth, vice, corruption, barbarism at last. If religion explains the rise, what explains the decline that followed?"
+  },
+  {
+   "id": "twain-blessings-of-civilization-trust",
+   "after": "source:ABU1441",
+   "responds": [
+    "source:ABU1441"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá reports the justification that “powerful civilized nations” give for intervening in other countries. Mark Twain in 1901 looked at what the Blessings-of-Civilization Trust actually delivered to “the person sitting in darkness.” How is the civilizing power of religion in these readings different from the civilizing mission Twain attacks?"
+  },
+  {
+   "id": "bacon-depth-in-philosophy",
+   "after": "source:ABU1653",
+   "responds": [
+    "source:ABU1653"
+   ],
+   "relation": "adjacent",
+   "why": "Science and philosophy without “the power of the spirit” leave a man incomplete. Francis Bacon, a founder of the scientific method: a little philosophy inclineth man’s mind to atheism; but depth in philosophy bringeth men’s minds about to religion."
+  }
+ ],
+ "library": {}
+}

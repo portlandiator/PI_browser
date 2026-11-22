@@ -1,0 +1,716 @@
+{
+ "format": 2,
+ "slug": "poweroffaith",
+ "subject": "F91D7DB188F74200962A9A9F8446281D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 67,
+ "quotations": 67,
+ "kept": [
+  "source:ABU3374",
+  "source:BH11687",
+  "source:AB11753",
+  "source:ABU2560",
+  "source:AB07451",
+  "source:AB10380",
+  "source:AB04124",
+  "source:AB08200",
+  "source:AB11293",
+  "source:ABU1705",
+  "source:AB00209",
+  "source:AB02382",
+  "source:AB02233",
+  "source:ABU2226",
+  "source:AB02553",
+  "source:AB05102",
+  "source:AB03093",
+  "source:AB03725",
+  "source:ABU1351",
+  "source:BBU0001",
+  "source:ABU1324",
+  "source:ABU3432",
+  "source:AB00128",
+  "source:AB02574",
+  "source:AB12293",
+  "source:AB06849",
+  "source:AB12337",
+  "source:AB04816",
+  "source:AB11558",
+  "source:ABU1476",
+  "source:ABU0565",
+  "source:AB07093",
+  "source:AB06333",
+  "source:AB06925",
+  "source:ABU1164",
+  "source:ABU1208",
+  "source:AB02380",
+  "source:ABU3041",
+  "source:ABU1594",
+  "source:ABU2410",
+  "source:AB07592",
+  "source:AB08882",
+  "source:AB04472",
+  "source:AB04349",
+  "source:ABU0527",
+  "source:AB06227",
+  "source:AB10302",
+  "source:AB04396",
+  "source:ABU3656",
+  "source:BH00076",
+  "source:BH01761",
+  "source:ABU2169",
+  "source:BH01343",
+  "source:BH09744",
+  "source:BH11383",
+  "source:BH03724",
+  "source:AB03915",
+  "source:AB01647",
+  "source:ABU3310",
+  "source:AB04413",
+  "source:BH09309",
+  "source:AB08565",
+  "source:ABU3415",
+  "source:BH09363",
+  "source:AB09537",
+  "source:BH00123",
+  "source:AB06326"
+ ],
+ "introduction": "Faith in these readings is a power. It makes a person refuse injustice at the point of a bayonet, rule himself, stay even in gain and loss, endure what human nature cannot, and attempt what his capacities do not warrant: the gnat becomes an eagle, the drop a sea. It is the power of the Holy Spirit and never the person’s own, and it turns the usual order over, so that the weak, the poor and the “handmaidens” become the heroes. The readings end with service that is confident, patient and unafraid. The Bible is full of this (the three in the furnace, David and the giant, the mustard seed, “my strength is made perfect in weakness,” the roll of the faithful in Hebrews) and the Qur’án’s little company that overcomes a host is quoted by ‘Abdu’l-Bahá himself. Beside these stand the Dhammapada, Pascal, Dante, Tennyson and the martyr Polycarp. The dissent comes from hard heads: Machiavelli on fear and on unarmed prophets, the Athenians at Melos, Marx on religion and the poor, Mill on the satisfied fool, and Kipling and Thoreau, who find the same courage without naming faith.",
+ "questions": [
+  "“If they oblige him with the point of bayonet to act unjustly toward another he will not do it.” Where does that refusal come from, in the readings’ account and in Thoreau’s?",
+  "‘Abdu’l-Bahá says evenness in gain and loss “can be attained only through the power of faith.” Kipling’s “If” describes it without God. Is something missing from Kipling’s man?",
+  "Machiavelli says unarmed prophets are destroyed; the Báb cites Abraham and Moses. Take one unarmed movement you know well. Which of them does its history support?",
+  "“A gnat into an eagle.” The readings tell people not to look at their own capacities. How is that different from overconfidence, and what guards against the difference being lost?",
+  "Marx called religion the opium of the people. ‘Abdu’l-Bahá says only faith can solve the economic problem. What would a faith look like that made people less willing to accept injustice?",
+  "People prostrated before the stones where apostles sat; Hezekiah broke the bronze serpent. How should the power of holy lives be honoured?"
+ ],
+ "outside": [
+  {
+   "id": "daniel-fiery-furnace",
+   "after": "source:ABU3374",
+   "responds": [
+    "source:ABU3374"
+   ],
+   "relation": "adjacent",
+   "why": "With one grain of faith a person will not act unjustly “if they oblige him with the point of bayonet.” Three young men before Nebuchadnezzar’s furnace: our God is able to deliver us; but if not, be it known unto thee, O king, that we will not serve thy gods."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "source:ABU3374",
+   "responds": [
+    "source:ABU3374"
+   ],
+   "relation": "adjacent",
+   "why": "Peter and the apostles, ordered by a court to stop: we ought to obey God rather than men."
+  },
+  {
+   "id": "thoreau-just-man-prison",
+   "after": "source:ABU3374",
+   "responds": [
+    "source:ABU3374"
+   ],
+   "relation": "complement",
+   "why": "Refusal at the point of a bayonet. Thoreau reached the same refusal by conscience and spent a night in gaol for it: under a government which imprisons any unjustly, the true place for a just man is also a prison. Is the power ‘Abdu’l-Bahá calls faith the same that Thoreau calls conscience?"
+  },
+  {
+   "id": "romans-overcome-evil",
+   "after": "source:BH11687",
+   "responds": [
+    "source:BH11687"
+   ],
+   "relation": "adjacent",
+   "why": "Confident souls “quench and extinguish the fire of hatred … with the pure water of patience.” Paul: be not overcome of evil, but overcome evil with good."
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:AB11753",
+   "responds": [
+    "source:AB11753"
+   ],
+   "relation": "adjacent",
+   "why": "“The greatest king is one who rules over his own base desires.” Proverbs: he that ruleth his spirit is better than he that taketh a city."
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "source:AB11753",
+   "responds": [
+    "source:AB11753"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada: if one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors."
+  },
+  {
+   "id": "philippians-learned-to-be-content",
+   "after": "source:ABU2560",
+   "responds": [
+    "source:ABU2560"
+   ],
+   "relation": "adjacent",
+   "why": "Neither proud in gaining nor dejected in losing: “this station can be attained only through the power of faith.” Paul: I have learned, in whatsoever state I am, therewith to be content."
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:ABU2560",
+   "responds": [
+    "source:ABU2560"
+   ],
+   "relation": "adjacent",
+   "why": "Job, having lost everything in a day: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  },
+  {
+   "id": "kipling-if",
+   "after": "source:ABU2560",
+   "responds": [
+    "source:ABU2560"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá says only faith gives this evenness. Kipling describes the same poise as a matter of character and never mentions God: if you can meet with Triumph and Disaster and treat those two impostors just the same. Can the station be reached his way? What would the readings say it lacks?"
+  },
+  {
+   "id": "machiavelli-feared-than-loved",
+   "after": "source:AB07451",
+   "responds": [
+    "source:AB07451"
+   ],
+   "relation": "contrast",
+   "why": "“This sovereignty is of the Kingdom, not of fear.” Machiavelli advised princes otherwise: it is much safer to be feared than loved. Which kind of power lasts, on the evidence of history?"
+  },
+  {
+   "id": "john-my-kingdom-is-not-of-this-world",
+   "after": "source:AB10380",
+   "responds": [
+    "source:AB10380"
+   ],
+   "relation": "adjacent",
+   "why": "“Seek thou spiritual power … and conquer the hearts.” Jesus before Pilate: my kingdom is not of this world: if my kingdom were of this world, then would my servants fight."
+  },
+  {
+   "id": "james-count-it-all-joy",
+   "after": "source:AB04124",
+   "responds": [
+    "source:AB04124"
+   ],
+   "relation": "adjacent",
+   "why": "Patience and calm under trial “made manifest the power of faith.” James: count it all joy when ye fall into divers temptations; knowing this, that the trying of your faith worketh patience."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB08200",
+   "responds": [
+    "source:AB08200"
+   ],
+   "relation": "adjacent",
+   "why": "“Human nature is weak … yet the spirit is at the height of power.” Paul heard it said to him: my strength is made perfect in weakness."
+  },
+  {
+   "id": "matthew-house-on-the-rock",
+   "after": "source:AB11293",
+   "responds": [
+    "source:AB11293"
+   ],
+   "relation": "adjacent",
+   "why": "A lamp “protected within the glass, and … not extinguished by the blowing of winds.” Jesus: the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock."
+  },
+  {
+   "id": "john-epistle-overcometh-the-world",
+   "after": "source:ABU1705",
+   "responds": [
+    "source:ABU1705"
+   ],
+   "relation": "adjacent",
+   "why": "“No temptation and allurement whatsoever must ever extinguish the Fire of Faith.” The First Letter of John: this is the victory that overcometh the world, even our faith."
+  },
+  {
+   "id": "philippians-i-can-do-all-things",
+   "after": "source:AB00209",
+   "responds": [
+    "source:AB00209"
+   ],
+   "relation": "adjacent",
+   "why": "“How can I succeed unless Thou assist me?” Paul: I can do all things through Christ which strengtheneth me."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:AB02382",
+   "responds": [
+    "source:AB02382"
+   ],
+   "relation": "adjacent",
+   "why": "Confirmations “convert the gnat into an eagle.” Isaiah: they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles."
+  },
+  {
+   "id": "matthew-faith-as-a-grain-of-mustard-seed",
+   "after": "source:AB02233",
+   "responds": [
+    "source:AB02233"
+   ],
+   "relation": "adjacent",
+   "why": "“A mustard seed into a great mountain.” Jesus: if ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove."
+  },
+  {
+   "id": "isaiah-little-one-a-thousand",
+   "after": "source:ABU2226",
+   "responds": [
+    "source:ABU2226"
+   ],
+   "relation": "adjacent",
+   "why": "“The ‘nothing’” becomes something. Isaiah: a little one shall become a thousand, and a small one a strong nation."
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:AB02553",
+   "responds": [
+    "source:AB02553"
+   ],
+   "relation": "adjacent",
+   "why": "“The weakest of souls, when they entered beneath the shadow of the Lord,” shone. Paul: God hath chosen the weak things of the world to confound the things which are mighty."
+  },
+  {
+   "id": "luke-put-down-the-mighty",
+   "after": "source:AB05102",
+   "responds": [
+    "source:AB05102"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord “has made the poor so noble and the weak so mighty.” Mary: he hath put down the mighty from their seats, and exalted them of low degree."
+  },
+  {
+   "id": "judges-hand-of-a-woman",
+   "after": "source:AB03093",
+   "responds": [
+    "source:AB03093"
+   ],
+   "relation": "adjacent",
+   "why": "“The handmaidens of the Lord have become the valiant heroes of the field.” Deborah to a general who would not march without her: the Lord shall sell Sisera into the hand of a woman."
+  },
+  {
+   "id": "esther-for-such-a-time",
+   "after": "source:AB03725",
+   "responds": [
+    "source:AB03725"
+   ],
+   "relation": "adjacent",
+   "why": "“Like Ṭáhirih become an unsheathed sword.” Another woman who went in to a king at the risk of her life was told: who knoweth whether thou art come to the kingdom for such a time as this?"
+  },
+  {
+   "id": "john-mary-at-the-tomb",
+   "after": "source:ABU1351",
+   "responds": [
+    "source:ABU1351"
+   ],
+   "relation": "adjacent",
+   "why": "Mary Magdalene’s faith “was never shaken” when the disciples lost heart. John: Mary stood without at the sepulchre weeping. She was the first to see, and the one sent to tell the others."
+  },
+  {
+   "id": "samuel-battle-is-the-lords",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "adjacent",
+   "why": "“Heed not your weaknesses … fix your gaze upon the invincible power of the Lord.” David to the giant: thou comest to me with a sword, and with a spear: but I come to thee in the name of the Lord of hosts."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "adjacent",
+   "why": "Elisha, surrounded, to a frightened servant: fear not: for they that be with us are more than they that be with them."
+  },
+  {
+   "id": "machiavelli-armed-prophets",
+   "after": "source:BBU0001",
+   "responds": [
+    "source:BBU0001"
+   ],
+   "relation": "contrast",
+   "why": "The Báb names Abraham and Moses, who had nothing and prevailed. Machiavelli drew the opposite rule from his reading of history: all armed prophets have conquered, and the unarmed ones have been destroyed. Which of the examples on each side would you want to examine?"
+  },
+  {
+   "id": "matthew-endureth-to-the-end",
+   "after": "source:ABU1324",
+   "responds": [
+    "source:ABU1324"
+   ],
+   "relation": "adjacent",
+   "why": "Faith “steadfast as a rock … even should ye hear that your Lord has been crucified.” Jesus: he that endureth to the end shall be saved."
+  },
+  {
+   "id": "joshua-be-strong",
+   "after": "source:ABU3432",
+   "responds": [
+    "source:ABU3432"
+   ],
+   "relation": "adjacent",
+   "why": "“Miraculous Faith and extraordinary courage.” The charge to Joshua as Moses’ work passed to him: be strong and of a good courage; be not afraid: for the Lord thy God is with thee whithersoever thou goest."
+  },
+  {
+   "id": "isaiah-eyes-of-the-blind",
+   "after": "source:AB06849",
+   "responds": [
+    "source:AB06849"
+   ],
+   "relation": "adjacent",
+   "why": "“Give sight to the blind, and make the deaf hearing.” Isaiah: then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped."
+  },
+  {
+   "id": "ephesians-awake-thou",
+   "after": "source:AB04816",
+   "responds": [
+    "source:AB04816"
+   ],
+   "relation": "adjacent",
+   "why": "Some “were awakened by this effulgence, raising their heads from the pillow of sleep.” An early hymn: awake thou that sleepest, and arise from the dead."
+  },
+  {
+   "id": "acts-uttermost-part",
+   "after": "source:AB11558",
+   "responds": [
+    "source:AB11558"
+   ],
+   "relation": "adjacent",
+   "why": "A spirit confirmed by the Holy Spirit “will show its effect in every condition.” The promise to the apostles: ye shall receive power, after that the Holy Ghost is come upon you."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:ABU1476",
+   "responds": [
+    "source:ABU1476"
+   ],
+   "relation": "adjacent",
+   "why": "“Take away the spirit from man and he is an animal.” The Book of Job: there is a spirit in man: and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:ABU0565",
+   "responds": [
+    "source:ABU0565"
+   ],
+   "relation": "adjacent",
+   "why": "The Holy Spirit “transforms the hater into the lover.” Paul lists what it produces: love, joy, peace, longsuffering, gentleness, goodness, faith."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB07093",
+   "responds": [
+    "source:AB07093"
+   ],
+   "relation": "adjacent",
+   "why": "An ox is stronger than a man, and a child leads two thousand camels. Pascal: by space the universe encompasses and swallows me up like an atom; by thought I comprehend the world."
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:AB06333",
+   "responds": [
+    "source:AB06333"
+   ],
+   "relation": "adjacent",
+   "why": "“Although thou art old in age, yet thou art young in spirit.” Paul: though our outward man perish, yet the inward man is renewed day by day."
+  },
+  {
+   "id": "tennyson-to-strive-to-seek",
+   "after": "source:AB06333",
+   "responds": [
+    "source:AB06333"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson’s aged Ulysses: made weak by time and fate, but strong in will to strive, to seek, to find, and not to yield."
+  },
+  {
+   "id": "quran-as-a-mirage",
+   "after": "source:AB06925",
+   "responds": [
+    "source:AB06925"
+   ],
+   "relation": "adjacent",
+   "why": "Without this, powers and limbs are useless and deeds “like a desert mirage.” The image is the Qur’án’s: their deeds are as a mirage in a desert. The thirsty one supposeth it to be water till he cometh unto it and findeth it naught."
+  },
+  {
+   "id": "jeremiah-new-covenant",
+   "after": "source:ABU1164",
+   "responds": [
+    "source:ABU1164"
+   ],
+   "relation": "adjacent",
+   "why": "Religion “rules over hearts and spirits … and preserves consciences.” Jeremiah: I will put my law in their inward parts, and write it in their hearts."
+  },
+  {
+   "id": "washington-morality-without-religion",
+   "after": "source:ABU1208",
+   "responds": [
+    "source:ABU1208"
+   ],
+   "relation": "adjacent",
+   "why": "A religious common person does more for order than “an irreligious scholar.” Washington: reason and experience both forbid us to expect that national morality can prevail in exclusion of religious principle."
+  },
+  {
+   "id": "mill-socrates-dissatisfied",
+   "after": "source:ABU1208",
+   "responds": [
+    "source:ABU1208"
+   ],
+   "relation": "contrast",
+   "why": "Conduct counts for more than learning. Mill would not rank an unreflective goodness so high: it is better to be Socrates dissatisfied than a fool satisfied. What does each fear a society will lose?"
+  },
+  {
+   "id": "matthew-with-god-all-things-are-possible",
+   "after": "source:AB02380",
+   "responds": [
+    "source:AB02380"
+   ],
+   "relation": "adjacent",
+   "why": "“Faith is the solver of every difficulty.” Jesus: with men this is impossible; but with God all things are possible."
+  },
+  {
+   "id": "marx-opium-of-the-people",
+   "after": "source:ABU3041",
+   "responds": [
+    "source:ABU3041"
+   ],
+   "relation": "contrast",
+   "why": "“Economic contentment” can come only through “the transforming power of faith.” Marx said faith is what keeps the poor content with too little: religion is the sigh of the oppressed creature; it is the opium of the people. What must faith do in economic life to prove him wrong?"
+  },
+  {
+   "id": "wordsworth-vernal-wood",
+   "after": "source:ABU1594",
+   "responds": [
+    "source:ABU1594"
+   ],
+   "relation": "contrast",
+   "why": "“Believing that God is present in nature has never been enough” to found a civilization. Wordsworth thought nature a sufficient teacher: one impulse from a vernal wood may teach you more of man, of moral evil and of good, than all the sages can. What can a Prophet give a society that a wood cannot?"
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU2410",
+   "responds": [
+    "source:ABU2410"
+   ],
+   "relation": "adjacent",
+   "why": "A “finer gravitation” in the kingdom of spirit. Dante’s last line: the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "daniel-stone-became-a-mountain",
+   "after": "source:AB08882",
+   "responds": [
+    "source:AB08882"
+   ],
+   "relation": "adjacent",
+   "why": "“The lights of earthly sovereignty shall eventually fade.” Daniel’s dream of four empires broken by a stone cut without hands, which became a great mountain."
+  },
+  {
+   "id": "matthew-poor-in-spirit",
+   "after": "source:AB04472",
+   "responds": [
+    "source:AB04472"
+   ],
+   "relation": "adjacent",
+   "why": "Would you be King of Kings? “Enter beneath the shade of poverty.” Jesus: blessed are the poor in spirit: for theirs is the kingdom of heaven."
+  },
+  {
+   "id": "romans-if-god-be-for-us",
+   "after": "source:AB04349",
+   "responds": [
+    "source:AB04349"
+   ],
+   "relation": "adjacent",
+   "why": "“The hosts of the universe would be unable to withstand him.” Paul: if God be for us, who can be against us?"
+  },
+  {
+   "id": "ephesians-armour",
+   "after": "source:ABU0527",
+   "responds": [
+    "source:ABU0527"
+   ],
+   "relation": "adjacent",
+   "why": "The weapons of the Army of God are faith, assurance, severance and attraction. The Letter to the Ephesians: above all, taking the shield of faith; and the sword of the Spirit, which is the word of God."
+  },
+  {
+   "id": "corinthians-weapons-not-carnal",
+   "after": "source:AB06227",
+   "responds": [
+    "source:AB06227"
+   ],
+   "relation": "adjacent",
+   "why": "“Launch night raids with the weapons of righteousness.” Paul: the weapons of our warfare are not carnal."
+  },
+  {
+   "id": "thucydides-strong-do-what-they-can",
+   "after": "source:AB10302",
+   "responds": [
+    "source:AB10302"
+   ],
+   "relation": "complement",
+   "why": "“This Army of God knows no defeat.” The Athenians at Melos stated the rule of every other army: the strong do what they can and the weak suffer what they must. The Bahá’ís of Iran have suffered much. In what sense have they not been defeated?"
+  },
+  {
+   "id": "quran-twenty-steadfast-shall-overcome-two-hundred",
+   "after": "source:AB04396",
+   "responds": [
+    "source:AB04396"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá quotes the Qur’án. The verse: if there be of you twenty steadfast they shall overcome two hundred."
+  },
+  {
+   "id": "quran-how-many-a-little-company",
+   "after": "source:AB04396",
+   "responds": [
+    "source:AB04396"
+   ],
+   "relation": "adjacent",
+   "why": "Another verse to the same effect: how many a little company hath overcome a mighty host by Allah’s leave!"
+  },
+  {
+   "id": "psalm-he-that-sitteth-in-the-heavens",
+   "after": "source:ABU3656",
+   "responds": [
+    "source:ABU3656"
+   ],
+   "relation": "adjacent",
+   "why": "Governments’ secret alliances “will reach nowhere.” A psalm: the rulers take counsel together. He that sitteth in the heavens shall laugh."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:BH00076",
+   "responds": [
+    "source:BH00076"
+   ],
+   "relation": "adjacent",
+   "why": "Through one detached soul God would give victory. Zechariah: not by might, nor by power, but by my spirit, saith the Lord of hosts."
+  },
+  {
+   "id": "psalm-whom-shall-i-fear",
+   "after": "source:BH01761",
+   "responds": [
+    "source:BH01761"
+   ],
+   "relation": "adjacent",
+   "why": "“Fear not those who have strayed.” A psalm: the Lord is my light and my salvation; whom shall I fear?"
+  },
+  {
+   "id": "romans-neither-death-nor-life",
+   "after": "source:BH01343",
+   "responds": [
+    "source:BH01343"
+   ],
+   "relation": "adjacent",
+   "why": "“Can the power of creation prevent Us?” Paul: neither death, nor life, nor principalities, nor powers, nor any other creature, shall be able to separate us from the love of God."
+  },
+  {
+   "id": "luke-stones-would-cry-out",
+   "after": "source:BH11383",
+   "responds": [
+    "source:BH11383"
+   ],
+   "relation": "adjacent",
+   "why": "“The stones and trees will remember with thee.” Jesus, asked to silence his disciples: if these should hold their peace, the stones would immediately cry out."
+  },
+  {
+   "id": "hebrews-world-not-worthy",
+   "after": "source:AB03915",
+   "responds": [
+    "source:AB03915"
+   ],
+   "relation": "adjacent",
+   "why": "They “bore every cruelty and endured every tyranny.” The roll of the faithful in Hebrews: they were stoned, they were sawn asunder; of whom the world was not worthy."
+  },
+  {
+   "id": "polycarp-eighty-and-six-years",
+   "after": "source:AB03915",
+   "responds": [
+    "source:AB03915"
+   ],
+   "relation": "adjacent",
+   "why": "An old bishop before a Roman governor: eighty and six years have I served Him, and He never did me any injury: how then can I blaspheme my King and my Saviour?"
+  },
+  {
+   "id": "luke-mouth-and-wisdom",
+   "after": "source:AB01647",
+   "responds": [
+    "source:AB01647"
+   ],
+   "relation": "adjacent",
+   "why": "One servant, alone, “proveth equal to the task” before a great personage. Jesus: I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist."
+  },
+  {
+   "id": "acts-handkerchiefs-or-aprons",
+   "after": "source:ABU3310",
+   "responds": [
+    "source:ABU3310"
+   ],
+   "relation": "adjacent",
+   "why": "People honoured the very stones on which the apostles had sat. Acts tells of cloths that had touched Paul: from his body were brought unto the sick handkerchiefs or aprons."
+  },
+  {
+   "id": "kings-brake-the-brasen-serpent",
+   "after": "source:ABU3310",
+   "responds": [
+    "source:ABU3310"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá reads such veneration as a sign of the apostles’ power. King Hezekiah saw the danger in it and destroyed a relic Moses himself had made, because the people burned incense to it. When does honouring a holy person’s traces turn into the thing Hezekiah broke?"
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:AB04413",
+   "responds": [
+    "source:AB04413"
+   ],
+   "relation": "adjacent",
+   "why": "The Greatest Name affects solid rock, but not a fool. Jesus: neither cast ye your pearls before swine."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:BH09309",
+   "responds": [
+    "source:BH09309"
+   ],
+   "relation": "adjacent",
+   "why": "“Be thou of such countenance that the faces of the heavens and earth may be illumined thereby.” Jesus: ye are the light of the world."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:ABU3415",
+   "responds": [
+    "source:ABU3415"
+   ],
+   "relation": "adjacent",
+   "why": "Everything can burn, but “a flame is necessary.” The disciples at Emmaus: did not our heart burn within us, while he talked with us by the way?"
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:BH00123",
+   "responds": [
+    "source:BH00123"
+   ],
+   "relation": "adjacent",
+   "why": "The steadfast are “pearls of the ocean of names … letters of the Book.” Daniel: they that be wise shall shine as the brightness of the firmament."
+  }
+ ],
+ "library": {
+  "quran-twenty-steadfast-shall-overcome-two-hundred": {
+   "text": "O Prophet! Exhort the believers to fight. If there be of you twenty steadfast they shall overcome two hundred, and if there be of you a hundred (steadfast) they shall overcome a thousand of those who disbelieve, because they (the disbelievers) are a folk without intelligence.",
+   "work": "Qur’an 8:65",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=8&verse=65",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

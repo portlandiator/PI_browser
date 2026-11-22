@@ -1,0 +1,743 @@
+{
+ "format": 2,
+ "slug": "careforvulnerable",
+ "subject": "B118E279E521421DA6DE76C3D326B7A6",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 61,
+ "quotations": 68,
+ "kept": [
+  "source:BH00113",
+  "source:BH00144",
+  "source:AB00652",
+  "source:BH04290",
+  "source:BH00021",
+  "source:BH04339",
+  "source:ABU1843",
+  "source:ABU2299",
+  "source:AB00104",
+  "source:AB04735",
+  "source:AB02052",
+  "source:AB12421",
+  "source:AB12140",
+  "source:ABU3623",
+  "source:ABU3305",
+  "source:ABU1263",
+  "source:ABU2571",
+  "source:ABU3105",
+  "source:AB05184",
+  "source:AB00296",
+  "source:ABU0790",
+  "source:ABU2470",
+  "source:AB05146",
+  "source:ABU2673",
+  "source:ABU3000",
+  "source:ABU2447",
+  "source:ABU2750",
+  "source:ABU3153",
+  "source:AB00323",
+  "source:AB08817",
+  "source:BH00001",
+  "source:AB07202",
+  "source:AB09116",
+  "source:ABU1684",
+  "source:ABU3719",
+  "source:AB01545",
+  "source:AB00368",
+  "source:ABU1822",
+  "source:ABU0437",
+  "source:ABU0266",
+  "source:AB02413",
+  "source:AB05171",
+  "source:ABU3646",
+  "source:BH02183",
+  "source:BH00111",
+  "source:BH01171",
+  "source:BH01509",
+  "source:AB00369",
+  "source:AB07527",
+  "source:ABU1112",
+  "source:BH08235",
+  "source:AB03630",
+  "source:ABU2017",
+  "source:AB02116",
+  "source:AB06777",
+  "source:AB03864",
+  "source:AB02363",
+  "source:ABU3471",
+  "source:ABU0321",
+  "source:ABU3107",
+  "selection:52fa0eb32006299b4391bff0"
+ ],
+ "introduction": "“Tell the rich of the midnight sighing of the poor.” Bahá’u’lláh called the poor “the trust of God,” and ‘Abdu’l-Bahá was known in ‘Akká as their father: he gave coats, sent the hungry to the grocer on his account, and sat with the sick whom others had abandoned. These readings begin with respect, sitting with a person and asking what has happened to him, and go on to food, clothing, visits to the sick, and the education of orphans, which is called the greatest service; then to the duty of Assemblies to consult about the poor; and to giving that is voluntary and glad. The Hebrew prophets, the Gospels and the Qur’án speak with one voice here, and supply most of the company: the gleanings left in the field, “pure religion,” “I was sick, and ye visited me,” “the beggar drive not away.” Lear in the storm, Job and Mencius stand with them. Four voices press a question the readings also raise: Blake and Thoreau doubt the giver’s motives, and Adam Smith and Franklin Roosevelt ask whether private kindness is enough.",
+ "questions": [
+  "“Sit with him and ask concerning that which hath befallen him.” Why do the readings put listening before giving?",
+  "“Never talk about God to a man with an empty stomach.” What does this say about the order of spiritual and material help?",
+  "The education of orphans is “the greatest of all services.” Why might education rank above food and shelter?",
+  "Thoreau would run from a man coming to do him good. What makes help humiliating, and what in these readings prevents it?",
+  "“Equality is voluntary.” Leviticus gave the poor a legal claim on the harvest, and Roosevelt a claim on the state. How do personal generosity and organized responsibility work together in the readings?",
+  "“My greatest happiness is this, that I may be counted among the poor.” What did ‘Abdu’l-Bahá mean, and what would it change in you to mean it?"
+ ],
+ "outside": [
+  {
+   "id": "shakespeare-take-physic-pomp",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "“Tell the rich of the midnight sighing of the poor.” King Lear learned it in a storm: take physic, pomp; expose thyself to feel what wretches feel, that thou mayst shake the superflux to them."
+  },
+  {
+   "id": "luke-lazarus-at-the-gate",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "Lest heedlessness “deprive them of the Tree of Wealth.” The rich man of the parable never noticed who was at his gate: a certain beggar named Lazarus, full of sores."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:BH00144",
+   "responds": [
+    "source:BH00144"
+   ],
+   "relation": "adjacent",
+   "why": "“When ye behold one who is poor and dust-stained, flee not from him, but rather sit with him and ask.” Two passed by on the other side; the Samaritan went to him, and bound up his wounds."
+  },
+  {
+   "id": "psalm-considereth-the-poor",
+   "after": "source:BH00144",
+   "responds": [
+    "source:BH00144"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm’s verb is to attend, to think about: blessed is he that considereth the poor."
+  },
+  {
+   "id": "quran-beggar-drive-not-away",
+   "after": "source:BH00144",
+   "responds": [
+    "source:BH00144"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án, to a Prophet who had been an orphan himself: the beggar drive not away."
+  },
+  {
+   "id": "matthew-least-of-these",
+   "after": "source:AB00652",
+   "responds": [
+    "source:AB00652"
+   ],
+   "relation": "adjacent",
+   "why": "Treat the poor, the orphans and the disabled as “the most honoured” of guests. Jesus: I was an hungred, and ye gave me meat; inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."
+  },
+  {
+   "id": "avot-house-wide-open",
+   "after": "source:AB00652",
+   "responds": [
+    "source:AB00652"
+   ],
+   "relation": "adjacent",
+   "why": "The Mishnah: let thy house be wide open, and let the poor be members of thy household."
+  },
+  {
+   "id": "job-same-maker",
+   "after": "source:BH04290",
+   "responds": [
+    "source:BH04290"
+   ],
+   "relation": "adjacent",
+   "why": "“God hath created you and them from one thing.” Job: did not he that made me in the womb make him?"
+  },
+  {
+   "id": "quran-beggar-and-outcast-had-due-share",
+   "after": "source:BH04290",
+   "responds": [
+    "source:BH04290"
+   ],
+   "relation": "adjacent",
+   "why": "“Make ye in your possessions a portion for them.” The Qur’án calls it theirs already: in their wealth the beggar and the outcast had due share."
+  },
+  {
+   "id": "proverbs-oppresseth-the-poor-reproacheth",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "“The poor are the trust of God in your midst.” Proverbs: he that oppresseth the poor reproacheth his Maker."
+  },
+  {
+   "id": "proverbs-lendeth-unto-the-lord",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "You will “be called upon to answer for His trust.” Proverbs on the same account, seen from the other side: he that hath pity upon the poor lendeth unto the Lord."
+  },
+  {
+   "id": "psalm-father-of-the-fatherless",
+   "after": "source:BH04339",
+   "responds": [
+    "source:BH04339"
+   ],
+   "relation": "adjacent",
+   "why": "“I commune with every poor one, sit with every lowly one.” The psalm: a father of the fatherless, and a judge of the widows, is God in his holy habitation."
+  },
+  {
+   "id": "james-poor-rich-in-faith",
+   "after": "source:ABU1843",
+   "responds": [
+    "source:ABU1843"
+   ],
+   "relation": "adjacent",
+   "why": "Destitute before men, “glorified in the Kingdom.” James: hath not God chosen the poor of this world rich in faith?"
+  },
+  {
+   "id": "blake-pity-would-be-no-more",
+   "after": "source:ABU1843",
+   "responds": [
+    "source:ABU1843"
+   ],
+   "relation": "contrast",
+   "why": "Blake distrusted the virtue that depends on there being poor people to pity: pity would be no more, if we did not make somebody Poor. Do the readings honour the poor, or poverty? What do they want changed?"
+  },
+  {
+   "id": "mencius-elders-in-the-families-of-others",
+   "after": "source:ABU2299",
+   "responds": [
+    "source:ABU2299"
+   ],
+   "relation": "adjacent",
+   "why": "Do not be satisfied “until each one with whom you are concerned is to you as a member of your family.” Mencius: treat with kindness the young in your own family, so that the young in the families of others shall be similarly treated."
+  },
+  {
+   "id": "job-eyes-to-the-blind",
+   "after": "source:AB00104",
+   "responds": [
+    "source:AB00104"
+   ],
+   "relation": "adjacent",
+   "why": "“Loving fathers to the orphan, and a refuge to the helpless.” Job’s account of his life before his losses: I was eyes to the blind, and feet was I to the lame. I was a father to the poor."
+  },
+  {
+   "id": "proverbs-open-thy-mouth",
+   "after": "source:AB00104",
+   "responds": [
+    "source:AB00104"
+   ],
+   "relation": "adjacent",
+   "why": "“The helpers of every victim of oppression.” King Lemuel’s mother: open thy mouth for the dumb; plead the cause of the poor and needy."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB04735",
+   "responds": [
+    "source:AB04735"
+   ],
+   "relation": "adjacent",
+   "why": "Care for the weak, the poor, orphans and the sick “with utmost respect.” James: pure religion is this, to visit the fatherless and widows in their affliction."
+  },
+  {
+   "id": "hippocrates-for-the-benefit-of-the-sick",
+   "after": "source:AB02052",
+   "responds": [
+    "source:AB02052"
+   ],
+   "relation": "adjacent",
+   "why": "A physician is told to treat the poor and strangers. The Hippocratic oath: into whatever houses I enter, I will go into them for the benefit of the sick."
+  },
+  {
+   "id": "isaiah-draw-out-thy-soul",
+   "after": "source:AB12421",
+   "responds": [
+    "source:AB12421"
+   ],
+   "relation": "adjacent",
+   "why": "“To gladden the heart of the sorrowful.” Isaiah: if thou draw out thy soul to the hungry, and satisfy the afflicted soul; then shall thy light rise in obscurity."
+  },
+  {
+   "id": "psalm-defend-the-poor",
+   "after": "source:AB12140",
+   "responds": [
+    "source:AB12140"
+   ],
+   "relation": "adjacent",
+   "why": "“A refuge and shelter for every seeker of protection.” The psalm’s charge to judges: defend the poor and fatherless: do justice to the afflicted and needy."
+  },
+  {
+   "id": "james-be-ye-warmed",
+   "after": "source:ABU3623",
+   "responds": [
+    "source:ABU3623"
+   ],
+   "relation": "adjacent",
+   "why": "“Never talk about God to a man with an empty stomach. Feed him first.” James: if one of you say, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful; what doth it profit?"
+  },
+  {
+   "id": "isaiah-is-not-this-the-fast",
+   "after": "source:ABU3305",
+   "responds": [
+    "source:ABU3305"
+   ],
+   "relation": "adjacent",
+   "why": "Feed, clothe, help, “so that you may be accepted in the Court of God.” Isaiah on the worship God accepts: is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house?"
+  },
+  {
+   "id": "quran-righteousness-is-not",
+   "after": "source:ABU3305",
+   "responds": [
+    "source:ABU3305"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án: it is not righteousness that ye turn your faces to the East and the West; but righteous is he who giveth his wealth to kinsfolk and to orphans and the needy."
+  },
+  {
+   "id": "acts-dorcas",
+   "after": "source:ABU1263",
+   "responds": [
+    "source:ABU1263"
+   ],
+   "relation": "adjacent",
+   "why": "Shoes for the barefoot, clothes for the naked, for fifty years. Luke on a woman of Joppa: full of good works and almsdeeds; the widows stood weeping, and shewing the coats and garments which Dorcas made."
+  },
+  {
+   "id": "leviticus-gleanings-for-the-poor",
+   "after": "source:ABU2571",
+   "responds": [
+    "source:ABU2571"
+   ],
+   "relation": "complement",
+   "why": "‘Abdu’l-Bahá sent the hungry to a shop and took the bill himself. The law of Moses gave the hungry a standing claim on every field: thou shalt not wholly reap the corners; thou shalt leave them for the poor and stranger. Is relief of hunger a gift or a right?"
+  },
+  {
+   "id": "deuteronomy-poor-shall-never-cease",
+   "after": "source:ABU3105",
+   "responds": [
+    "source:ABU3105"
+   ],
+   "relation": "adjacent",
+   "why": "“We will never send them away unaided.” Deuteronomy: thou shalt open thine hand wide unto thy brother, to thy poor, and to thy needy."
+  },
+  {
+   "id": "hadith-one-body",
+   "after": "source:AB05184",
+   "responds": [
+    "source:AB05184"
+   ],
+   "relation": "adjacent",
+   "why": "When livelihoods fail, “the friends must certainly assist one another.” The Prophet: believers resemble one body, so that, if any part of the body is not well, the whole body shares the sleeplessness and fever."
+  },
+  {
+   "id": "acts-murmuring-of-the-grecians",
+   "after": "source:AB00296",
+   "responds": [
+    "source:AB00296"
+   ],
+   "relation": "adjacent",
+   "why": "That every survivor of the martyrs live in comfort. The first organized charity of the church began with a complaint that some widows were neglected in the daily ministration."
+  },
+  {
+   "id": "matthew-sick-and-ye-visited-me",
+   "after": "source:ABU0790",
+   "responds": [
+    "source:ABU0790"
+   ],
+   "relation": "adjacent",
+   "why": "“We should all visit the sick.” Jesus: I was sick, and ye visited me."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU0790",
+   "responds": [
+    "source:ABU0790"
+   ],
+   "relation": "adjacent",
+   "why": "“Happiness is a great healer.” Proverbs: a merry heart doeth good like a medicine."
+  },
+  {
+   "id": "romans-strong-bear-the-weak",
+   "after": "source:ABU2470",
+   "responds": [
+    "source:ABU2470"
+   ],
+   "relation": "adjacent",
+   "why": "A Christian with smallpox, abandoned by his family, and a Muslim woman engaged to nurse him. Paul: we then that are strong ought to bear the infirmities of the weak."
+  },
+  {
+   "id": "quran-feed-for-the-love-of-him",
+   "after": "source:ABU2673",
+   "responds": [
+    "source:ABU2673"
+   ],
+   "relation": "adjacent",
+   "why": "“Be nurses to the sick, treasurers for the poor.” The Qur’án: they feed with food the needy wretch, the orphan and the prisoner, for love of Him: we wish for no reward nor thanks from you."
+  },
+  {
+   "id": "luke-call-the-poor-to-thy-feast",
+   "after": "source:ABU2447",
+   "responds": [
+    "source:ABU2447"
+   ],
+   "relation": "adjacent",
+   "why": "“In ‘Akká, I constantly extended invitations to the poor.” Jesus: when thou makest a feast, call the poor, the maimed, the lame, the blind: and thou shalt be blessed; for they cannot recompense thee."
+  },
+  {
+   "id": "proverbs-mercy-on-the-poor-happy",
+   "after": "source:ABU2750",
+   "responds": [
+    "source:ABU2750"
+   ],
+   "relation": "adjacent",
+   "why": "“Be kind to the poor and love them … for the poor are broken-hearted.” Proverbs: he that hath mercy on the poor, happy is he."
+  },
+  {
+   "id": "thoreau-doing-me-good",
+   "after": "source:ABU2750",
+   "responds": [
+    "source:ABU2750"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau on being the object of someone’s goodness: if I knew that a man was coming to my house with the conscious design of doing me good, I should run for my life. How do the readings (“sit with him and ask”; “as a member of your family”) answer his suspicion?"
+  },
+  {
+   "id": "luke-blessed-be-ye-poor",
+   "after": "source:ABU3153",
+   "responds": [
+    "source:ABU3153"
+   ],
+   "relation": "adjacent",
+   "why": "“I deal with the poor and visit the poor, not the rich.” Jesus: blessed be ye poor: for yours is the kingdom of God."
+  },
+  {
+   "id": "romans-condescend-to-men-of-low-estate",
+   "after": "source:AB00323",
+   "responds": [
+    "source:AB00323"
+   ],
+   "relation": "adjacent",
+   "why": "“Let us associate with the poor and be the companions of the needy.” Paul: mind not high things, but condescend to men of low estate."
+  },
+  {
+   "id": "quran-oppress-not-the-orphan",
+   "after": "source:AB08817",
+   "responds": [
+    "source:AB08817"
+   ],
+   "relation": "adjacent",
+   "why": "“The question of orphans hath the utmost importance.” The Qur’án: therefor the orphan oppress not."
+  },
+  {
+   "id": "mill-state-education",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "If a father fails to educate his children, the community’s trustees must do it at his cost, or at their own if he is poor. Mill accepted compulsion and feared the provider: a general State education is a mere contrivance for moulding people to be exactly like one another. What safeguards would his worry suggest?"
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB07202",
+   "responds": [
+    "source:AB07202"
+   ],
+   "relation": "adjacent",
+   "why": "“The greatest of all services” is the education of children and orphans. Proverbs: train up a child in the way he should go."
+  },
+  {
+   "id": "quran-small-kindnesses",
+   "after": "source:AB09116",
+   "responds": [
+    "source:AB09116"
+   ],
+   "relation": "adjacent",
+   "why": "None is more favoured than one who serves orphans. The Qur’án’s definition of the opposite: hast thou observed him who belieth religion? That is he who repelleth the orphan."
+  },
+  {
+   "id": "psalm-out-of-the-dunghill",
+   "after": "source:ABU3719",
+   "responds": [
+    "source:ABU3719"
+   ],
+   "relation": "adjacent",
+   "why": "“How numerous are the orphans and children of the poor who have attained to lofty stations!” The psalm: he raiseth up the poor out of the dust, that he may set him with princes."
+  },
+  {
+   "id": "deuteronomy-tithe-laid-up-within-thy-gates",
+   "after": "source:AB01545",
+   "responds": [
+    "source:AB01545"
+   ],
+   "relation": "adjacent",
+   "why": "Assemblies are charged with education, orphans and the poor. Israel’s third-year tithe was an institution for the same people: the stranger, and the fatherless, and the widow shall come, and shall eat and be satisfied."
+  },
+  {
+   "id": "isaiah-plead-for-the-widow",
+   "after": "source:AB00368",
+   "responds": [
+    "source:AB00368"
+   ],
+   "relation": "adjacent",
+   "why": "A society that educates children, nurtures orphans and helps the poor. Isaiah: learn to do well; relieve the oppressed, judge the fatherless, plead for the widow."
+  },
+  {
+   "id": "roosevelt-test-of-our-progress",
+   "after": "source:ABU1822",
+   "responds": [
+    "source:ABU1822"
+   ],
+   "relation": "contrast",
+   "why": "Assemblies are to “meditate and consult for the helping of the poor.” Franklin Roosevelt made it the business of the state: the test of our progress is whether we provide enough for those who have too little. What is gained and lost when care becomes a public system?"
+  },
+  {
+   "id": "john-epistle-shutteth-up-his-bowels",
+   "after": "source:ABU0437",
+   "responds": [
+    "source:ABU0437"
+   ],
+   "relation": "adjacent",
+   "why": "“No deed of man is greater before God than helping the poor.” John: whoso hath this world’s good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?"
+  },
+  {
+   "id": "corinthians-body-to-be-burned",
+   "after": "source:ABU0266",
+   "responds": [
+    "source:ABU0266"
+   ],
+   "relation": "adjacent",
+   "why": "Helping the poor “is an evidence of the faith.” Paul adds a test of the helper: though I bestow all my goods to feed the poor, and have not charity, it profiteth me nothing."
+  },
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:AB05171",
+   "responds": [
+    "source:AB05171"
+   ],
+   "relation": "adjacent",
+   "why": "“Equality is voluntary”; the rich should give “with perfect joy.” Paul: not grudgingly, or of necessity: for God loveth a cheerful giver."
+  },
+  {
+   "id": "smith-no-society-flourishing-and-happy",
+   "after": "source:AB05171",
+   "responds": [
+    "source:AB05171"
+   ],
+   "relation": "contrast",
+   "why": "Adam Smith treated poverty as a matter of how a whole society is arranged: no society can surely be flourishing and happy, of which the far greater part of the members are poor and miserable. Is voluntary giving enough to change that? What else do the readings propose?"
+  },
+  {
+   "id": "luke-widows-mites",
+   "after": "source:ABU3646",
+   "responds": [
+    "source:ABU3646"
+   ],
+   "relation": "adjacent",
+   "why": "“Take from his income what he needs … and give away the rest.” Jesus watched one who did more: this poor widow hath cast in more than they all."
+  },
+  {
+   "id": "acts-more-blessed-to-give",
+   "after": "source:ABU3646",
+   "responds": [
+    "source:ABU3646"
+   ],
+   "relation": "adjacent",
+   "why": "To spend on the poor “with a happy disposition.” Paul, quoting Jesus: it is more blessed to give than to receive."
+  },
+  {
+   "id": "matthew-left-hand-know",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "“The essence of charity” is thankfulness. Jesus on its manner: when thou doest alms, let not thy left hand know what thy right hand doeth."
+  },
+  {
+   "id": "quran-ascent",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Charity is “a prince among goodly deeds.” The Qur’án names the steep road: to free a slave, and to feed in the day of hunger an orphan near of kin, or some poor wretch in misery."
+  },
+  {
+   "id": "jeremiah-judged-the-cause-of-the-poor",
+   "after": "source:BH01171",
+   "responds": [
+    "source:BH01171"
+   ],
+   "relation": "adjacent",
+   "why": "“To care for the weak is essential.” Jeremiah to a king, of his father: he judged the cause of the poor and needy; then it was well with him: was not this to know me? saith the Lord."
+  },
+  {
+   "id": "quran-not-a-commodity-between-the-rich",
+   "after": "source:AB00369",
+   "responds": [
+    "source:AB00369"
+   ],
+   "relation": "adjacent",
+   "why": "“Care for the poor is among the divine teachings.” The Qur’án gives the reason for one of its rules of distribution: that it become not a commodity between the rich among you."
+  },
+  {
+   "id": "proverbs-withhold-not-good",
+   "after": "source:AB07527",
+   "responds": [
+    "source:AB07527"
+   ],
+   "relation": "adjacent",
+   "why": "Souls of the Kingdom “eagerly wish to be of service to the poor.” Proverbs: withhold not good from them to whom it is due, when it is in the power of thine hand to do it."
+  },
+  {
+   "id": "corinthians-according-to-that-a-man-hath",
+   "after": "source:ABU1112",
+   "responds": [
+    "source:ABU1112"
+   ],
+   "relation": "adjacent",
+   "why": "One may intend to help and lack the means. Paul: if there be first a willing mind, it is accepted according to that a man hath, and not according to that he hath not."
+  },
+  {
+   "id": "matthew-camel-through-the-eye-of-a-needle",
+   "after": "source:AB03630",
+   "responds": [
+    "source:AB03630"
+   ],
+   "relation": "adjacent",
+   "why": "A shop offered as a gift is accepted, to be sold and spent on the poor. Jesus to a rich young man: go and sell that thou hast, and give to the poor, and thou shalt have treasure in heaven."
+  },
+  {
+   "id": "matthew-alms-before-men",
+   "after": "source:ABU2017",
+   "responds": [
+    "source:ABU2017"
+   ],
+   "relation": "adjacent",
+   "why": "A hundred overcoats for the poor of ‘Akká, and nothing for his own household. Jesus: take heed that ye do not your alms before men, to be seen of them."
+  },
+  {
+   "id": "quran-seven-ears",
+   "after": "source:AB02116",
+   "responds": [
+    "source:AB02116"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer quotes the Qur’án: a grain which groweth seven ears, in every ear a hundred grains."
+  },
+  {
+   "id": "quran-alms-wherewith-thou-mayst-purify",
+   "after": "source:AB06777",
+   "responds": [
+    "source:AB06777"
+   ],
+   "relation": "adjacent",
+   "why": "Spending one’s substance marks the people of faith. The Qur’án: take alms of their wealth, wherewith thou mayst purify them and mayst make them grow."
+  },
+  {
+   "id": "psalm-not-seen-the-righteous-forsaken",
+   "after": "source:AB03864",
+   "responds": [
+    "source:AB03864"
+   ],
+   "relation": "adjacent",
+   "why": "Children should be “mindful of the poor” as their father was. The psalmist on the families of the generous: I have been young, and now am old; yet have I not seen the righteous forsaken, nor his seed begging bread."
+  },
+  {
+   "id": "zechariah-execute-true-judgment",
+   "after": "source:AB02363",
+   "responds": [
+    "source:AB02363"
+   ],
+   "relation": "adjacent",
+   "why": "“Helping the helpless, and caring for orphans. This is confirmation.” Zechariah: shew mercy and compassions every man to his brother: and oppress not the widow, nor the fatherless, the stranger, nor the poor."
+  },
+  {
+   "id": "corinthians-for-your-sakes-he-became-poor",
+   "after": "source:ABU3471",
+   "responds": [
+    "source:ABU3471"
+   ],
+   "relation": "adjacent",
+   "why": "“My greatest happiness is this, that I may be counted among the poor.” Paul: though he was rich, yet for your sakes he became poor."
+  },
+  {
+   "id": "mark-poor-always-with-you",
+   "after": "source:ABU0321",
+   "responds": [
+    "source:ABU0321"
+   ],
+   "relation": "complement",
+   "why": "“Do everything in your power to help the poor.” Jesus: ye have the poor with you always, and whensoever ye will ye may do them good. Some have heard resignation in that; Deuteronomy, which he is quoting, heard a command. Which do the readings hear?"
+  },
+  {
+   "id": "matthew-peacemakers",
+   "after": "source:ABU3107",
+   "responds": [
+    "source:ABU3107"
+   ],
+   "relation": "adjacent",
+   "why": "The reading is a new set of beatitudes, for brotherhood, fellowship and kindness to enemies. One of the first set, which it echoes: blessed are the peacemakers: for they shall be called the children of God."
+  },
+  {
+   "id": "isaiah-eyes-of-the-blind-opened",
+   "after": "selection:52fa0eb32006299b4391bff0",
+   "responds": [
+    "selection:52fa0eb32006299b4391bff0"
+   ],
+   "relation": "adjacent",
+   "why": "Social service together with teaching, “to ameliorate the poverty, disease and misery” of the world. Isaiah’s picture of both at once: then the eyes of the blind shall be opened, and the lame man leap as an hart."
+  }
+ ],
+ "library": {
+  "shakespeare-take-physic-pomp": {
+   "text": "Poor naked wretches, whereso'er you are, / That bide the pelting of this pitiless storm, / How shall your houseless heads and unfed sides, / Your loop'd and window'd raggedness, defend you / From seasons such as these? O, I have ta'en / Too little care of this! Take physic, pomp; / Expose thyself to feel what wretches feel, / That thou mayst shake the superflux to them, / And show the heavens more just",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "King Lear",
+   "locator": "Act 3, scene 4",
+   "year": "1606",
+   "sortYear": 1606,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/lear/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1608"
+   }
+  },
+  "romans-condescend-to-men-of-low-estate": {
+   "text": "Be of the same mind one toward another. Mind not high things, but condescend to men of low estate. Be not wise in your own conceits",
+   "work": "Romans 12:16",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2012%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

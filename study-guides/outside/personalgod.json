@@ -1,0 +1,123 @@
+{
+ "format": 2,
+ "slug": "personalgod",
+ "subject": "0905F934B5D4402E84FCD0F0E325E0A7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 10,
+ "kept": [
+  "source:AB01117",
+  "source:ABU0303",
+  "source:ABU0122",
+  "source:AB00448",
+  "source:ABU0904",
+  "source:ABU0226",
+  "source:ABU1099",
+  "source:ABU1729",
+  "source:ABU2114",
+  "source:ABU3640"
+ ],
+ "introduction": "Is God a person? These ten short readings refuse both easy answers. The God most people worship is a picture in the mind, and ‘Abdu’l-Bahá calls it that. The Essence of God is beyond every category, personality included. Yet God is no blind force either, since the Cause of minds cannot be mindless, and the “freethinkers” who make him an unmoving First Cause are told they are mistaken. Personality belongs to the Manifestation, through whom alone God is known and loved; and faith in a God who is a Father is “the axis around which the consolation of the hearts” revolves. Xenophanes saw the problem of pictures twenty-five centuries ago, and Feuerbach turned it into a denial. Isaiah forbids every likeness; a psalm says “the Lord will take me up”; John puts the known face of God in a person. Spinoza and Pascal stand on either side of the line the readings draw.",
+ "questions": [
+  "“This people … have pictured a god in the realm of the mind.” What is your own picture? Where did it come from, and what does it get wrong?",
+  "Feuerbach concludes from our pictures that God is only ourselves. Why does ‘Abdu’l-Bahá, who agrees about the pictures, not agree with the conclusion?",
+  "“Personality is in the Manifestation … not in the Essence.” What does this allow a person to do in prayer that an impersonal Absolute would not?",
+  "The wrath of God is called a name for causality and justice. Is anything lost when the anger of God is explained in this way?",
+  "A man said he worshipped God directly, without Christ or anyone else. What do you think ‘Abdu’l-Bahá answered, and what would you say?"
+ ],
+ "outside": [
+  {
+   "id": "xenophanes-oxen-and-horses",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "adjacent",
+   "why": "People “have pictured a god in the realm of the mind, and worship that image.” Xenophanes, five centuries before Christ: if oxen and horses had hands, horses would paint the forms of the gods like horses, and oxen like oxen."
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "contrast",
+   "why": "Every picture of God is a human fancy. Feuerbach said the same and stopped there: the true sense of Theology is Anthropology. ‘Abdu’l-Bahá agrees about the pictures. What does he hold that Feuerbach does not?"
+  },
+  {
+   "id": "genesis-image-and-likeness",
+   "after": "source:ABU0303",
+   "responds": [
+    "source:ABU0303"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá reads “in our image” of virtues, never of form. The verse: let us make man in our image, after our likeness."
+  },
+  {
+   "id": "john-seen-the-father",
+   "after": "source:AB00448",
+   "responds": [
+    "source:AB00448"
+   ],
+   "relation": "adjacent",
+   "why": "“Personality is in the Manifestation of the Divinity, not in the Essence.” Philip asked to be shown the Father, and was answered: he that hath seen me hath seen the Father."
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken-me",
+   "after": "source:ABU0904",
+   "responds": [
+    "source:ABU0904"
+   ],
+   "relation": "adjacent",
+   "why": "The Divine Reality is “abstract, limitless and impersonal.” Isaiah: to whom then will ye liken me, or shall I be equal? saith the Holy One."
+  },
+  {
+   "id": "spinoza-god-loves-himself",
+   "after": "source:ABU0226",
+   "responds": [
+    "source:ABU0226"
+   ],
+   "relation": "contrast",
+   "why": "Freethinkers “want to make of God … an impersonal Cause … This is false.” Spinoza is the greatest of them, and even his God loves: the intellectual love of the mind towards God is that very love of God whereby God loves himself. Is that the impersonal First Cause ‘Abdu’l-Bahá rejects, or something nearer to what he affirms?"
+  },
+  {
+   "id": "pascal-heart-experiences-god",
+   "after": "source:ABU0226",
+   "responds": [
+    "source:ABU0226"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal drew the line that this talk draws: it is the heart which experiences God, and not the reason."
+  },
+  {
+   "id": "psalm-father-and-mother-forsake",
+   "after": "source:ABU1099",
+   "responds": [
+    "source:ABU1099"
+   ],
+   "relation": "adjacent",
+   "why": "A youth whose father is killed “will say to himself I have God for my father.” A psalm: when my father and my mother forsake me, then the Lord will take me up."
+  },
+  {
+   "id": "emerson-crime-and-punishment-one-stem",
+   "after": "source:ABU2114",
+   "responds": [
+    "source:ABU2114"
+   ],
+   "relation": "adjacent",
+   "why": "The wrath of God is “the erroneous designation for logic, causality … the justice of God.” Emerson: crime and punishment grow out of one stem."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:ABU3640",
+   "responds": [
+    "source:ABU3640"
+   ],
+   "relation": "adjacent",
+   "why": "A guest says he worships God “direct,” without any mediator. John: no man hath seen God at any time; the only begotten Son, he hath declared him."
+  }
+ ],
+ "library": {}
+}

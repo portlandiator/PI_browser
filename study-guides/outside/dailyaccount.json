@@ -1,0 +1,232 @@
+{
+ "format": 2,
+ "slug": "dailyaccount",
+ "subject": "2D710809ABBEE0A86D74432B30AF72EC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 12,
+ "kept": [
+  "source:BH00021",
+  "source:ABU1223",
+  "source:ABU2046",
+  "source:ABU1347",
+  "source:ABU0499",
+  "source:ABU2870",
+  "source:BH01077",
+  "source:BB00580",
+  "source:BH00386",
+  "source:BH00140",
+  "source:ABU1108"
+ ],
+ "introduction": "“Bring thyself to account each day ere thou art summoned to a reckoning.” The practice comes from the Báb, who asked each person to review the day’s deeds every evening; Bahá’u’lláh repeats it in the Hidden Words and requires it of rulers, and ‘Abdu’l-Bahá explains its two halves: give thanks for what was done well, and for the rest ask forgiveness and “try to live a better life tomorrow.” Its purpose is awareness; the daily account is a rehearsal for the final one, made while there is still a tomorrow in which to change. Daily self-examination is among the most widely shared disciplines. A disciple of Confucius practised it on three points; the psalmist asks God to search him; the Qur’án tells every soul to look to what it sends ahead; Marcus Aurelius began his mornings with it and Franklin ruled a notebook for it. Franklin’s tidy columns are set beside the readings as a question, since he sought perfection by bookkeeping where the readings ask for gratitude and repentance.",
+ "questions": [
+  "“If he has done something worthy and noble … he must be thankful to God; if not, repent and try to live a better life tomorrow.” Why does the practice begin with thanks?",
+  "Try the three points of Confucius’s disciple, or choose three of your own, for one week. What did you notice by the end?",
+  "“Death, unheralded, shall come upon thee.” How does remembering this change what you count as an important day?",
+  "Rulers are told to weigh themselves daily “in the balance of equity and justice.” What authority do you hold over others, and what would its daily account ask?"
+ ],
+ "outside": [
+  {
+   "id": "quran-look-to-that-which-it-sendeth-on",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "“Bring thyself to account ere thou art summoned to a reckoning.” The Qur’án: let every soul look to that which it sendeth on before for the morrow."
+  },
+  {
+   "id": "psalm-search-me-o-god",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "To weigh one’s actions “as one standing in His Presence.” The psalmist asks God to do the weighing with him: search me, O God, and know my heart: try me, and know my thoughts."
+  },
+  {
+   "id": "analects-examine-myself",
+   "after": "source:ABU1223",
+   "responds": [
+    "source:ABU1223"
+   ],
+   "relation": "adjacent",
+   "why": "Review each evening what has been done. A disciple of Confucius: I daily examine myself on three points: whether I may have been not faithful, not sincere, or not mastered what I was taught."
+  },
+  {
+   "id": "franklin-moral-perfection",
+   "after": "source:ABU1223",
+   "responds": [
+    "source:ABU1223"
+   ],
+   "relation": "complement",
+   "why": "Benjamin Franklin kept a little book with a column for each day and a row for each of thirteen virtues, in a “bold and arduous Project of arriving at moral Perfection.” The reading asks for thanks when one has done well and repentance when not. What does Franklin’s method leave out, and what might one borrow from it?"
+  },
+  {
+   "id": "lamentations-let-us-search-and-try",
+   "after": "source:ABU2046",
+   "responds": [
+    "source:ABU2046"
+   ],
+   "relation": "adjacent",
+   "why": "“If contrary, seek forgiveness and shun them.” Lamentations: let us search and try our ways, and turn again to the Lord."
+  },
+  {
+   "id": "matthew-every-idle-word",
+   "after": "source:ABU1347",
+   "responds": [
+    "source:ABU1347"
+   ],
+   "relation": "adjacent",
+   "why": "“Watch daily your words and deeds.” Jesus: every idle word that men shall speak, they shall give account thereof."
+  },
+  {
+   "id": "corinthians-examine-yourselves",
+   "after": "source:ABU0499",
+   "responds": [
+    "source:ABU0499"
+   ],
+   "relation": "adjacent",
+   "why": "Day and night people’s thoughts are of this world. Paul: examine yourselves, whether ye be in the faith; prove your own selves."
+  },
+  {
+   "id": "psalm-teach-us-to-number",
+   "after": "source:ABU0499",
+   "responds": [
+    "source:ABU0499"
+   ],
+   "relation": "adjacent",
+   "why": "The psalm of Moses asks for the habit itself: so teach us to number our days, that we may apply our hearts unto wisdom."
+  },
+  {
+   "id": "marcus-work-of-a-human-being",
+   "after": "source:ABU2870",
+   "responds": [
+    "source:ABU2870"
+   ],
+   "relation": "adjacent",
+   "why": "The banker wakes thinking of money; “you, when you awake, must at once think of God.” Marcus Aurelius gave himself a morning thought as well: I am rising to the work of a human being."
+  },
+  {
+   "id": "quran-read-thy-book",
+   "after": "source:BH01077",
+   "responds": [
+    "source:BH01077"
+   ],
+   "relation": "adjacent",
+   "why": "To “record his deeds each day” so that a person becomes aware of them. The Qur’án pictures the record opened at the end: read thy Book. Thy soul sufficeth as reckoner against thee this day."
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "“Death, unheralded, shall come upon thee.” The man in the parable had made his plans for many years: thou fool, this night thy soul shall be required of thee."
+  },
+  {
+   "id": "daniel-writing-on-the-wall",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "“It behoveth every ruler to weigh his own being every day in the balance of equity and justice.” A king who had not, at his feast: thou art weighed in the balances, and art found wanting."
+  }
+ ],
+ "library": {
+  "quran-look-to-that-which-it-sendeth-on": {
+   "text": "O ye who believe! Observe your duty to Allah. And let every soul look to that which it sendeth on before for the morrow. And observe your duty to Allah. Lo! Allah is Informed of what ye do.",
+   "work": "Qur’an 59:18",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=59&verse=18",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-read-thy-book": {
+   "text": "(And it will be said unto him): Read thy Book. Thy soul sufficeth as reckoner against thee this day.",
+   "work": "Qur’an 17:14",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=14",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "luke-give-an-account-of-thy-stewardship": {
+   "text": "And he called him, and said unto him, How is it that I hear this of thee? give an account of thy stewardship; for thou mayest be no longer steward",
+   "work": "Luke 16:2",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2016%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-every-one-shall-give-account": {
+   "text": "So then every one of us shall give account of himself to God",
+   "work": "Romans 14:12",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2014%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

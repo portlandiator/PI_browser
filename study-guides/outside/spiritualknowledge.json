@@ -1,0 +1,662 @@
+{
+ "format": 2,
+ "slug": "spiritualknowledge",
+ "subject": "294776C0D86D489387DACD94A9927CEB",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 62,
+ "quotations": 64,
+ "kept": [
+  "source:AB03797",
+  "source:BH00002",
+  "source:BH00308",
+  "source:AB03799",
+  "source:AB05463",
+  "source:AB08788",
+  "source:AB03999",
+  "source:ABU2043",
+  "source:ABU2705",
+  "source:ABU0797",
+  "source:ABU0779",
+  "source:AB03123",
+  "source:AB03423",
+  "source:AB00569",
+  "source:ABU1127",
+  "source:BH00006",
+  "source:BH00223",
+  "source:BH00219",
+  "source:BH00271",
+  "source:BH00005",
+  "source:BH07487",
+  "source:BH11413",
+  "source:BH00018",
+  "source:BH01353",
+  "source:BH01509",
+  "source:ABU1510",
+  "source:AB00815",
+  "source:AB00223",
+  "source:ABU3205",
+  "source:ABU3624",
+  "source:ABU1221",
+  "source:BH06073",
+  "source:AB10100",
+  "source:AB10552",
+  "source:BH05376",
+  "source:BH09796",
+  "source:ABU2192",
+  "source:ABU2527",
+  "source:ABU2021",
+  "source:AB05801",
+  "source:BH09752",
+  "source:ABU2419",
+  "source:ABU1270",
+  "source:ABU1422",
+  "source:ABU3090",
+  "source:ABU0291",
+  "source:ABU1761",
+  "source:ABU2383",
+  "source:ABU2986",
+  "source:ABU0369",
+  "source:AB10970",
+  "source:AB02279",
+  "source:AB01839",
+  "source:AB03517",
+  "source:AB06730",
+  "source:AB06816",
+  "source:AB00968",
+  "source:AB05151",
+  "source:AB08809",
+  "source:AB05356",
+  "selection:c5db83c8b9f2c331053c6c00",
+  "selection:d1713cc4f409de5fef03b7dc"
+ ],
+ "introduction": "What is knowledge for, and what must go with it? ‘Abdu’l-Bahá praises the sciences as “the greatest glory of mankind” and in the same breath says that without character they are poison. Bahá’u’lláh divides knowledge by its source and its fruit, and defines the truly learned as one whose knowledge keeps him from what God abhors. The readings then turn to the organ of this knowing (the inner eye and ear), to thirst as the condition for receiving, to knowledge as food and as wealth, and to the unlettered believers whose lives outdid the colleges. The wisdom books of the Bible, the Gospels, Paul and James are beside them almost line for line, with the Qur’án, the Confucian Great Learning, Plato, Rúmí, Pascal, Newton and Calvin. The contrasts are with thinkers who trusted knowledge more simply, or reason more exclusively: Aristotle’s “all men by nature desire to know,” Bacon on the uses of study, Kant’s separation of knowledge and faith and his “dare to know,” and Clifford on the duty of evidence.",
+ "questions": [
+  "“Unless the character be trained, acquiring knowledge will only prove injurious.” Give an example from the last hundred years. What would have had to be different in the education of the people involved?",
+  "Bahá’u’lláh speaks of two kinds of knowledge, known by their fruits, as James does. Aristotle says simply that all men desire to know. Is any knowledge bad in itself?",
+  "The readings speak of an inner eye that needs no arguments; Clifford says belief without sufficient evidence is always wrong. What would count as evidence for inner sight, to the person who has it and to others?",
+  "Knowledge and faith are “two wings.” Kant set limits to knowledge to make room for belief. How do you picture the relation: wings, rooms, or something else?",
+  "The illiterate believers are praised and the children are to become “the most erudite of all.” What do the readings want learning to add to faith, and faith to learning?",
+  "“First develop the thirst.” How is thirst for this kind of knowledge developed in oneself, and can it be developed in someone else?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:AB03797",
+   "responds": [
+    "source:AB03797"
+   ],
+   "relation": "adjacent",
+   "why": "“Unless the character be trained, acquiring knowledge will only prove injurious.” Paul: knowledge puffeth up, but charity edifieth."
+  },
+  {
+   "id": "tennyson-knowledge-comes",
+   "after": "source:AB03797",
+   "responds": [
+    "source:AB03797"
+   ],
+   "relation": "adjacent",
+   "why": "Knowledge without character is “a deadly poison.” Tennyson felt the gap in his own century: knowledge comes, but wisdom lingers."
+  },
+  {
+   "id": "james-wisdom-from-above",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "“Knowledge is of two kinds: Divine and Satanic.” James draws the same line and tells them apart by their fruit: the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated."
+  },
+  {
+   "id": "corinthians-hidden-wisdom",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Paul: we speak wisdom, yet not the wisdom of this world, nor of the princes of this world, that come to nought."
+  },
+  {
+   "id": "aristotle-all-men-desire-to-know",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "Some knowledge is called satanic. Aristotle begins his Metaphysics by treating the desire for knowledge as simply human and good: all men by nature desire to know. Is it the knowledge that is of two kinds, or the knower’s motive?"
+  },
+  {
+   "id": "matthew-light-of-the-body",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "“Keenness of understanding is due to keenness of vision.” Jesus: the light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light."
+  },
+  {
+   "id": "proverbs-happy-is-the-man-that-findeth-wisdom",
+   "after": "source:AB03799",
+   "responds": [
+    "source:AB03799"
+   ],
+   "relation": "adjacent",
+   "why": "Children who will become “the most erudite of all the fraternity of the wise.” Proverbs: happy is the man that findeth wisdom, and the man that getteth understanding."
+  },
+  {
+   "id": "daniel-knowledge-and-skill",
+   "after": "source:AB05463",
+   "responds": [
+    "source:AB05463"
+   ],
+   "relation": "adjacent",
+   "why": "The young are to “come to know the inner realities of the universe.” The exiles in Babylon: God gave them knowledge and skill in all learning and wisdom."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB08788",
+   "responds": [
+    "source:AB08788"
+   ],
+   "relation": "adjacent",
+   "why": "“You must ever concentrate your thoughts on the acquisition of knowledge.” The prayer taught in the Qur’án: my Lord! Increase me in knowledge."
+  },
+  {
+   "id": "great-learning-widening",
+   "after": "source:AB03999",
+   "responds": [
+    "source:AB03999"
+   ],
+   "relation": "adjacent",
+   "why": "Character comes before the sciences. The Confucian Great Learning builds everything, up to the peace of the world, on one root: their persons being cultivated, their families were regulated."
+  },
+  {
+   "id": "quran-ass-carrying-books",
+   "after": "source:ABU2043",
+   "responds": [
+    "source:ABU2043"
+   ],
+   "relation": "adjacent",
+   "why": "“Acquired knowledge without improvement … of character becomes a cause of harm.” The Qur’án’s image of learning that changes nothing: the likeness of the ass carrying books."
+  },
+  {
+   "id": "proverbs-beginning-of-knowledge",
+   "after": "source:ABU2705",
+   "responds": [
+    "source:ABU2705"
+   ],
+   "relation": "adjacent",
+   "why": "Learning alone “will not prevent moral corruption.” Proverbs sets its order of study in the first chapter: the fear of the Lord is the beginning of knowledge."
+  },
+  {
+   "id": "bacon-studies-serve-for-delight",
+   "after": "source:ABU0797",
+   "responds": [
+    "source:ABU0797"
+   ],
+   "relation": "contrast",
+   "why": "“No fruits whatsoever” come from those educated only in worldly things. Bacon listed fruits he thought real enough: studies serve for delight, for ornament and for ability. What kind of fruit does ‘Abdu’l-Bahá mean, and would he deny Bacon’s?"
+  },
+  {
+   "id": "matthew-not-by-bread-alone",
+   "after": "source:ABU0779",
+   "responds": [
+    "source:ABU0779"
+   ],
+   "relation": "adjacent",
+   "why": "In his spiritual environment man “requires celestial things.” Jesus, quoting Moses: man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."
+  },
+  {
+   "id": "corinthians-prophecies-shall-fail",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "adjacent",
+   "why": "Learning “conjoined with the love of God” is praised; without it, barren. Paul: whether there be knowledge, it shall vanish away; charity never faileth."
+  },
+  {
+   "id": "ecclesiastes-increaseth-sorrow",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "complement",
+   "why": "Bereft of love, learning “bringeth on madness.” The Preacher, who had tried learning for its own sake: in much wisdom is much grief: and he that increaseth knowledge increaseth sorrow. Is his sorrow the barrenness ‘Abdu’l-Bahá describes?"
+  },
+  {
+   "id": "quran-teacheth-by-the-pen",
+   "after": "source:AB03423",
+   "responds": [
+    "source:AB03423"
+   ],
+   "relation": "adjacent",
+   "why": "The river of human learning must “draw from God’s ancient source.” The Qur’án’s first revelation names the source: thy Lord is the Most Bounteous, Who teacheth by the pen."
+  },
+  {
+   "id": "bacon-depth-in-philosophy",
+   "after": "source:AB00569",
+   "responds": [
+    "source:AB00569"
+   ],
+   "relation": "adjacent",
+   "why": "Two wings, “one … knowledge, the other … faith.” Bacon thought the first, carried far enough, leads to the second: depth in philosophy bringeth men’s minds about to religion."
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:AB00569",
+   "responds": [
+    "source:AB00569"
+   ],
+   "relation": "contrast",
+   "why": "Knowledge and faith lift together. Kant thought they had to be kept from each other’s ground: I must, therefore, abolish knowledge, to make room for belief. Do the two wings beat in the same air, or does each have its own?"
+  },
+  {
+   "id": "kings-understanding-heart",
+   "after": "source:ABU1127",
+   "responds": [
+    "source:ABU1127"
+   ],
+   "relation": "adjacent",
+   "why": "“Set the heart in motion to unite with knowledge.” Solomon’s request when he was offered anything: give therefore thy servant an understanding heart."
+  },
+  {
+   "id": "isaiah-every-one-that-thirsteth",
+   "after": "source:BH00006",
+   "responds": [
+    "source:BH00006"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever cannot comprehend should “seek from the fountain of divine knowledge.” Isaiah: ho, every one that thirsteth, come ye to the waters."
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "“The beginning of Wisdom … is to acknowledge whatsoever God hath clearly set forth.” Proverbs: the fear of the Lord is the beginning of wisdom: and the knowledge of the holy is understanding."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "“A true philosopher would never deny God nor His evidences.” Newton at the end of the Principia: we know him only by his most wise and excellent contrivances of things."
+  },
+  {
+   "id": "jeremiah-glory-in-this",
+   "after": "source:BH00219",
+   "responds": [
+    "source:BH00219"
+   ],
+   "relation": "adjacent",
+   "why": "The root of the Tree of Wisdom “is the knowledge of God.” Jeremiah: let him that glorieth glory in this, that he understandeth and knoweth me."
+  },
+  {
+   "id": "colossians-through-philosophy",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "Be “independent of all who claim knowledge without clear evidence.” Paul: beware lest any man spoil you through philosophy and vain deceit, after the tradition of men."
+  },
+  {
+   "id": "plato-neither-know-nor-think-that-i-know",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "complement",
+   "why": "“He is truly learned who hath acknowledged My Revelation.” Socrates defined his own learning by a different acknowledgment: I neither know nor think that I know. Are the two definitions rivals, or does one prepare for the other?"
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:BH07487",
+   "responds": [
+    "source:BH07487"
+   ],
+   "relation": "adjacent",
+   "why": "“Blessed is the learned one who acteth.” James: be ye doers of the word, and not hearers only, deceiving your own selves."
+  },
+  {
+   "id": "psalm-keep-thy-tongue-from-evil",
+   "after": "source:BH11413",
+   "responds": [
+    "source:BH11413"
+   ],
+   "relation": "adjacent",
+   "why": "The truly learned is one “whose knowledge prevents him” from what God abhors. A psalm teaches the fear of the Lord in the same practical terms: depart from evil, and do good; seek peace, and pursue it."
+  },
+  {
+   "id": "mark-having-eyes-see-ye-not",
+   "after": "source:BH01353",
+   "responds": [
+    "source:BH01353"
+   ],
+   "relation": "adjacent",
+   "why": "“Open thine inner eye.” Jesus to his own disciples: having eyes, see ye not? and having ears, hear ye not?"
+  },
+  {
+   "id": "isaiah-ears-heavy",
+   "after": "source:BH01509",
+   "responds": [
+    "source:BH01509"
+   ],
+   "relation": "adjacent",
+   "why": "“The ear is not that piece of flesh.” Isaiah’s commission: hear ye indeed, but understand not; and see ye indeed, but perceive not."
+  },
+  {
+   "id": "matthew-ears-to-hear",
+   "after": "source:BH01509",
+   "responds": [
+    "source:BH01509"
+   ],
+   "relation": "adjacent",
+   "why": "The refrain of the parables: he that hath ears to hear, let him hear."
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:ABU1510",
+   "responds": [
+    "source:ABU1510"
+   ],
+   "relation": "adjacent",
+   "why": "A blind man beside the light, a man with a cold in a rose garden. Paul: the natural man receiveth not the things of the Spirit of God, because they are spiritually discerned."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:AB00815",
+   "responds": [
+    "source:AB00815"
+   ],
+   "relation": "adjacent",
+   "why": "When the inner eye is open, “a hundred thousand clear proofs will be seen.” Pascal, a mathematician: the heart has its reasons, which reason does not know."
+  },
+  {
+   "id": "clifford-insufficient-evidence",
+   "after": "source:AB00815",
+   "responds": [
+    "source:AB00815"
+   ],
+   "relation": "contrast",
+   "why": "Arguments are “for weak souls.” W. K. Clifford held that argument and evidence are everyone’s duty: it is wrong always, everywhere, and for anyone, to believe anything upon insufficient evidence. How would a person with inner sight show another that it is sight?"
+  },
+  {
+   "id": "job-now-mine-eye-seeth-thee",
+   "after": "source:AB00223",
+   "responds": [
+    "source:AB00223"
+   ],
+   "relation": "adjacent",
+   "why": "“Nothing remains except spiritual insight and divine witnessing.” Job at the end of all the speeches: I have heard of thee by the hearing of the ear: but now mine eye seeth thee."
+  },
+  {
+   "id": "matthew-hunger-and-thirst",
+   "after": "source:ABU3205",
+   "responds": [
+    "source:ABU3205"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus: blessed are they which do hunger and thirst after righteousness: for they shall be filled."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:ABU3624",
+   "responds": [
+    "source:ABU3624"
+   ],
+   "relation": "adjacent",
+   "why": "The highest truth comes only “through the favor of the Holy Spirit.” Jesus: thou hast hid these things from the wise and prudent, and hast revealed them unto babes."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU3624",
+   "responds": [
+    "source:ABU3624"
+   ],
+   "relation": "contrast",
+   "why": "Truth by favour of the Spirit. Kant’s motto for a grown-up humanity: Sapere aude, have courage to use your own understanding. What is each afraid of in the other’s position?"
+  },
+  {
+   "id": "jeremiah-broken-cisterns",
+   "after": "source:ABU1221",
+   "responds": [
+    "source:ABU1221"
+   ],
+   "relation": "adjacent",
+   "why": "Earthly wisdom is “the water of pools”; heavenly wisdom is rain. Jeremiah’s contrast: the fountain of living waters, and broken cisterns, that can hold no water."
+  },
+  {
+   "id": "revelation-water-of-life-freely",
+   "after": "source:BH06073",
+   "responds": [
+    "source:BH06073"
+   ],
+   "relation": "adjacent",
+   "why": "“The divine outpourings are never cut off.” The last invitation of the Bible: whosoever will, let him take the water of life freely."
+  },
+  {
+   "id": "matthew-pearl-of-great-price",
+   "after": "source:BH05376",
+   "responds": [
+    "source:BH05376"
+   ],
+   "relation": "adjacent",
+   "why": "“Guard the unique pearl, which is the knowledge of God.” Jesus’ merchant sold all that he had, and bought it."
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:BH05376",
+   "responds": [
+    "source:BH05376"
+   ],
+   "relation": "adjacent",
+   "why": "Guard it “from thieves and traitors.” Jesus: neither cast ye your pearls before swine."
+  },
+  {
+   "id": "john-bread-of-life",
+   "after": "source:ABU2192",
+   "responds": [
+    "source:ABU2192"
+   ],
+   "relation": "adjacent",
+   "why": "“The tables mentioned in the Bible are spiritual tables.” Jesus: I am the bread of life: he that cometh to me shall never hunger."
+  },
+  {
+   "id": "john-meat-which-perisheth",
+   "after": "source:ABU2021",
+   "responds": [
+    "source:ABU2021"
+   ],
+   "relation": "adjacent",
+   "why": "The effect of this food “is only for a day.” Jesus: labour not for the meat which perisheth, but for that meat which endureth unto everlasting life."
+  },
+  {
+   "id": "amos-famine-of-hearing",
+   "after": "source:ABU2021",
+   "responds": [
+    "source:ABU2021"
+   ],
+   "relation": "adjacent",
+   "why": "People “are unaware of the heavenly food.” Amos: not a famine of bread, nor a thirst for water, but of hearing the words of the Lord."
+  },
+  {
+   "id": "proverbs-not-with-silver",
+   "after": "source:AB05801",
+   "responds": [
+    "source:AB05801"
+   ],
+   "relation": "adjacent",
+   "why": "“A gain that shall eternally endure.” Proverbs: receive my instruction, and not silver; and knowledge rather than choice gold."
+  },
+  {
+   "id": "john-life-eternal-know",
+   "after": "source:BH09752",
+   "responds": [
+    "source:BH09752"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever has attained the knowledge of his Lord “is among the wealthiest of all creation.” Jesus in prayer: this is life eternal, that they might know thee the only true God."
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "source:ABU2419",
+   "responds": [
+    "source:ABU2419"
+   ],
+   "relation": "adjacent",
+   "why": "Let children “learn by heart some of these verses.” Paul to Timothy: from a child thou hast known the holy scriptures."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:ABU1270",
+   "responds": [
+    "source:ABU1270"
+   ],
+   "relation": "adjacent",
+   "why": "“Most of the beloved of God were illiterate … nevertheless their good morals are incomparable.” The council in Jerusalem: they perceived that they were unlearned and ignorant men, and they took knowledge of them, that they had been with Jesus."
+  },
+  {
+   "id": "corinthians-not-many-mighty",
+   "after": "source:ABU1270",
+   "responds": [
+    "source:ABU1270"
+   ],
+   "relation": "adjacent",
+   "why": "Paul to Corinth: not many wise men after the flesh, not many mighty, not many noble, are called."
+  },
+  {
+   "id": "pope-little-learning",
+   "after": "source:ABU1270",
+   "responds": [
+    "source:ABU1270"
+   ],
+   "relation": "complement",
+   "why": "The unschooled are praised above the colleges. Pope’s warning runs the other way: a little learning is a dangerous thing; drink deep, or taste not. How do the readings hold together their praise of the illiterate believer and their demand that children become “the most erudite”?"
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:ABU1422",
+   "responds": [
+    "source:ABU1422"
+   ],
+   "relation": "adjacent",
+   "why": "A man who never entered a school writes scholarly works. Jerusalem asked it of Jesus: how knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "luke-mouth-and-wisdom",
+   "after": "source:ABU3090",
+   "responds": [
+    "source:ABU3090"
+   ],
+   "relation": "adjacent",
+   "why": "“You will never be without the Knowledge necessary to answer a question.” Jesus’ promise to witnesses: I will give you a mouth and wisdom."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:ABU3090",
+   "responds": [
+    "source:ABU3090"
+   ],
+   "relation": "complement",
+   "why": "Knowledge given when needed. Confucius insisted on the ordinary labour: learning without thought is labour lost; thought without learning is perilous. Does the promise in this reading replace study or presuppose it?"
+  },
+  {
+   "id": "psalm-who-can-understand-his-errors",
+   "after": "source:ABU0291",
+   "responds": [
+    "source:ABU0291"
+   ],
+   "relation": "adjacent",
+   "why": "With guidance we become “conscious of our own mistakes and shortcomings.” A psalm: who can understand his errors? cleanse thou me from secret faults."
+  },
+  {
+   "id": "samuel-seeth-not-as-man-seeth",
+   "after": "source:ABU1761",
+   "responds": [
+    "source:ABU1761"
+   ],
+   "relation": "adjacent",
+   "why": "Each person “must be judged according to the standard of spirituality,” not relationship. Samuel choosing among brothers: man looketh on the outward appearance, but the Lord looketh on the heart."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:ABU0369",
+   "responds": [
+    "source:ABU0369"
+   ],
+   "relation": "adjacent",
+   "why": "Not a political, industrial or scientific movement, “but … the breath of the Holy Spirit.” Zechariah: not by might, nor by power, but by my spirit."
+  },
+  {
+   "id": "matthew-seek-ye-first",
+   "after": "source:AB02279",
+   "responds": [
+    "source:AB02279"
+   ],
+   "relation": "adjacent",
+   "why": "Occupy yourselves with spiritual matters, and “every purpose will be achieved.” Jesus: seek ye first the kingdom of God, and all these things shall be added unto you."
+  },
+  {
+   "id": "proverbs-keep-thy-heart",
+   "after": "source:AB06730",
+   "responds": [
+    "source:AB06730"
+   ],
+   "relation": "adjacent",
+   "why": "“Wisdom belong[s] to the heart, not to water and clay.” Proverbs: keep thy heart with all diligence; for out of it are the issues of life."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:AB06816",
+   "responds": [
+    "source:AB06816"
+   ],
+   "relation": "adjacent",
+   "why": "Seek “the essence of divine meanings.” Paul: the letter killeth, but the spirit giveth life."
+  },
+  {
+   "id": "plato-turning-of-the-soul",
+   "after": "source:AB08809",
+   "responds": [
+    "source:AB08809"
+   ],
+   "relation": "adjacent",
+   "why": "“The divine Plato was of the Illuminati.” His own account of illumination: the power of learning exists in the soul already, and the whole soul must be turned from the world of becoming to the light."
+  },
+  {
+   "id": "proverbs-word-fitly-spoken",
+   "after": "source:AB05356",
+   "responds": [
+    "source:AB05356"
+   ],
+   "relation": "adjacent",
+   "why": "“Words are like cups and meanings like wine.” Proverbs: a word fitly spoken is like apples of gold in pictures of silver."
+  },
+  {
+   "id": "calvin-knowledge-of-god-and-of-ourselves",
+   "after": "selection:c5db83c8b9f2c331053c6c00",
+   "responds": [
+    "selection:c5db83c8b9f2c331053c6c00"
+   ],
+   "relation": "adjacent",
+   "why": "“The source of all learning is the knowledge of God.” Calvin opens his Institutes there: our wisdom consists almost entirely of two parts: the knowledge of God and of ourselves."
+  },
+  {
+   "id": "rumi-inside-and-state-of-heart",
+   "after": "selection:d1713cc4f409de5fef03b7dc",
+   "responds": [
+    "selection:d1713cc4f409de5fef03b7dc"
+   ],
+   "relation": "adjacent",
+   "why": "“The lover seated within the heart is better than sagacity in motion.” Rúmí has God say to Moses: I regard not the outside and the words, I regard the inside and the state of heart."
+  }
+ ],
+ "library": {}
+}

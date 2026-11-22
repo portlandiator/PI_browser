@@ -1,0 +1,141 @@
+{
+ "format": 2,
+ "slug": "pantheism",
+ "subject": "EDC6DF43384BE2AA8442091F0CC6BE13",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 12,
+ "kept": [
+  "source:ABU0549",
+  "source:AB00062",
+  "source:AB00153",
+  "source:AB00316",
+  "source:BH00409",
+  "source:BB00064",
+  "source:BB00003",
+  "source:AB00923",
+  "source:BB00216",
+  "source:AB05279"
+ ],
+ "introduction": "‘Abdu’l-Bahá states the difference plainly. The Sufis know two stations, God and creatures, joined like sea and waves; the Bahá’ís say “there is God, the creatures and the medium.” The readings defend that third term: things emanate from God as writing from a writer and are not God appearing in many shapes, and what is seen in all mirrors is the sun’s reflection, not the sun multiplied. Plotinus, the psalmist’s creating word and the one mediator of the New Testament stand with them. Because the readings argue against named positions, those positions are allowed to speak: the Upaniṣad’s “thou art it,” Ḥalláj in his own words, Spinoza, and two English poets who felt one spirit rolling through all things.",
+ "questions": [
+  "What exactly is the difference between saying that all things manifest God and saying that they emanate from God? Use the readings’ images of the seed, the writing and the mirror.",
+  "Ḥalláj says “I am He whom I love”; the readings say such a cry belongs to imagination. Is the disagreement about an experience, or about how to describe it?",
+  "The Báb tells a poet not to speak of “seeing naught but God in everything.” What do Wordsworth and Pope see, and what would have to be added to their lines for the readings to accept them?",
+  "The last reading mentions those whose “philosophy is that of Pantheism.” How should a believer who holds the readings’ view speak with someone who holds the Upaniṣad’s?"
+ ],
+ "outside": [
+  {
+   "id": "timothy-one-mediator",
+   "after": "source:ABU0549",
+   "responds": [
+    "source:ABU0549"
+   ],
+   "relation": "adjacent",
+   "why": "“There is God, the creatures and the medium.” The First Letter to Timothy has the same three terms: one God, and one mediator between God and men."
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:ABU0549",
+   "responds": [
+    "source:ABU0549"
+   ],
+   "relation": "contrast",
+   "why": "The Sufis’ sea and waves is set aside for a doctrine of channels. The Chāndogya Upaniṣad teaches the sea-and-waves view to a boy with no go-between at all: that which is the finest essence, that is the Self, and thou art it. What does each side think the other loses?"
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "The Prophets say that things “emanate” from the One and are not its manifestation in many forms. Plotinus is the classical source for the word: the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062",
+    "source:AB00153"
+   ],
+   "relation": "contrast",
+   "why": "“Great indeed is the difference between manifestation and emanation.” Spinoza refused the difference: all things which are, are in God, and without him can neither be nor be conceived. Is his God the Sufis’ sea, or something else again?"
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "adjacent",
+   "why": "The human spirit emanates “just as speech emanates from the speaker.” The psalm uses the same figure for all creation: by the word of the Lord were the heavens made, and all the host of them by the breath of his mouth."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:AB00316",
+   "responds": [
+    "source:AB00316"
+   ],
+   "relation": "complement",
+   "why": "“No part has been separated from the divine Reality to enter into the body of man.” Genesis says that God breathed into his nostrils the breath of life. Does the reading’s distinction explain that verse, or correct a common reading of it?"
+  },
+  {
+   "id": "colossians-by-him-all-things-consist",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "“The Simple Reality is all things yet is not any of the things.” Colossians says of Christ what the philosophers say of the First: he is before all things, and by him all things consist."
+  },
+  {
+   "id": "pope-stupendous-whole",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "contrast",
+   "why": "The Necessary Being does not “dissolve into infinite existences.” Pope’s couplet comes close to saying that it does: all are but parts of one stupendous whole, whose body nature is, and God the soul. Is that the view Bahá’u’lláh excludes, or a poet’s way of saying what he allows?"
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "“In all mirrors thou seest naught but the sun, yet the sun doth not multiply.” Plotinus pictures what proceeds from the One as a light encircling the sun, ceaselessly generated from it while it remains unchanged."
+  },
+  {
+   "id": "wordsworth-rolls-through-all-things",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "contrast",
+   "why": "“Speak not of it as the poet hath spoken.” Wordsworth is such a poet: a motion and a spirit that impels all thinking things, and rolls through all things. Why might a tradition welcome the feeling and distrust the statement?"
+  },
+  {
+   "id": "hallaj-i-am-he-whom-i-love",
+   "after": "source:AB00923",
+   "responds": [
+    "source:AB00923"
+   ],
+   "relation": "contrast",
+   "why": "The Sufi cry “I am the Truth!” is called a thing fancied “in the realm of imagination.” Here is the man who uttered it, speaking for himself: I am He whom I love, and He whom I love is I; we are two spirits dwelling in one body."
+  },
+  {
+   "id": "ecclesiastes-words-be-few",
+   "after": "source:AB00923",
+   "responds": [
+    "source:AB00923"
+   ],
+   "relation": "adjacent",
+   "why": "What is originated “can never divest itself of the attribute of origination.” The Preacher keeps creature and Creator apart in a sentence: God is in heaven, and thou upon earth; therefore let thy words be few."
+  }
+ ],
+ "library": {}
+}

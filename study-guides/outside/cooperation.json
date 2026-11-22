@@ -1,0 +1,221 @@
+{
+ "format": 2,
+ "slug": "cooperation",
+ "subject": "B5CA8DC45DCC48AABFC267FC9214C6E2",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 18,
+ "kept": [
+  "source:ABU0885",
+  "source:ABU1794",
+  "source:AB11082",
+  "source:AB02048",
+  "source:ABU0448",
+  "source:AB00446",
+  "source:AB00362",
+  "source:ABU0042",
+  "source:ABU0987",
+  "source:ABU0057",
+  "source:ABU0034",
+  "source:ABU0404",
+  "source:AB00143",
+  "source:ABU0866"
+ ],
+ "introduction": "‘Abdu’l-Bahá says in these talks and letters that a human being cannot live alone: other animals can keep to the wilderness, but people must live together, and living together is impossible without help freely given. He finds the same law in nature and in the trade of nations. The thought is among the oldest in philosophy and scripture, from Genesis and Aristotle to Adam Smith and Kropotkin, and it has had its doubters too: Pascal and Thoreau on the worth of solitude, Tennyson on nature’s cruelty, Kant on what discord is for.",
+ "questions": [
+  "“Light is of no value in an empty room.” How do Jesus’s candle and Pascal’s chamber each bear on the reading’s judgment of seclusion?",
+  "Adam Smith and the readings both say that no one is sufficient alone. What does Smith think holds cooperation together, and what do the readings ask for beyond it?",
+  "Tennyson saw nature red in tooth and claw; Kropotkin saw mutual aid. Which does the reading on reciprocity in creation have to answer, and how?",
+  "Aristotle said that whoever needs no society is a beast or a god. What do the readings add about cooperation between nations, which he never considered?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-beast-or-a-god",
+   "after": "source:ABU0885",
+   "responds": [
+    "source:ABU0885"
+   ],
+   "relation": "adjacent",
+   "why": "Beasts can dwell in forests, “but humans must live collectively”. Aristotle drew the same line: he who is unable to live in society, or has no need because he is sufficient for himself, must be either a beast or a god."
+  },
+  {
+   "id": "genesis-not-good-to-be-alone",
+   "after": "source:ABU0885",
+   "responds": [
+    "source:ABU0885"
+   ],
+   "relation": "adjacent",
+   "why": "Social existence is of the human essence. Genesis says so before there is any society at all: it is not good that the man should be alone."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:ABU1794",
+   "responds": [
+    "source:ABU1794"
+   ],
+   "relation": "adjacent",
+   "why": "“Light is of no value in an empty room.” Jesus: neither do men light a candle, and put it under a bushel, but on a candlestick, and it giveth light unto all that are in the house."
+  },
+  {
+   "id": "pascal-own-chamber",
+   "after": "source:ABU1794",
+   "responds": [
+    "source:ABU1794"
+   ],
+   "relation": "contrast",
+   "why": "Pascal, who knew the monastery of Port-Royal, thought the room had more to teach: all the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber. Is the quiet he means the seclusion the reading refuses?"
+  },
+  {
+   "id": "thoreau-three-chairs",
+   "after": "source:AB11082",
+   "responds": [
+    "source:AB11082"
+   ],
+   "relation": "complement",
+   "why": "“The believers should be together as much as possible.” Thoreau, who went to the woods to live alone, kept three chairs: one for solitude, two for friendship, three for society. What is the first chair for, in a life lived for others?"
+  },
+  {
+   "id": "hebrews-not-forsaking-assembling",
+   "after": "source:AB02048",
+   "responds": [
+    "source:AB02048"
+   ],
+   "relation": "adjacent",
+   "why": "Gathering and fellowship are “among the requirements of humanity”. The Letter to the Hebrews: not forsaking the assembling of ourselves together, but exhorting one another."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB02048",
+   "responds": [
+    "source:AB02048"
+   ],
+   "relation": "adjacent",
+   "why": "Meeting and conversation cause “hearts to become united”. The psalm has the pleasure of it in a line: behold, how good and how pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "aesop-bundle",
+   "after": "source:ABU0448",
+   "responds": [
+    "source:ABU0448"
+   ],
+   "relation": "adjacent",
+   "why": "Tame animals live in flocks; the ferocious live apart. Aesop’s father teaches his sons with a bundle of sticks that break one by one and not together: union gives strength."
+  },
+  {
+   "id": "tennyson-tooth-and-claw",
+   "after": "source:AB00446",
+   "responds": [
+    "source:AB00446"
+   ],
+   "relation": "contrast",
+   "why": "Cooperation and reciprocity are “inherent in the unified system of the world of existence”. Tennyson looked at the same system and saw nature, red in tooth and claw, shrieking against the creed that love is creation’s final law. What does the reading see in nature that he could not?"
+  },
+  {
+   "id": "kropotkin-mutual-aid",
+   "after": "source:AB00446",
+   "responds": [
+    "source:AB00446"
+   ],
+   "relation": "adjacent",
+   "why": "Kropotkin, a naturalist, answered Tennyson’s century from observation: don’t compete; combine, practise mutual aid. That, he wrote, is the tendency of nature, not always realized in full, but always present."
+  },
+  {
+   "id": "corinthians-if-one-member-suffer",
+   "after": "source:AB00362",
+   "responds": [
+    "source:AB00362"
+   ],
+   "relation": "adjacent",
+   "why": "“The higher the realm of existence, the stronger” the bond of mutual aid. Paul takes the body as the pattern for a community: whether one member suffer, all the members suffer with it."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:ABU0042",
+   "responds": [
+    "source:ABU0042"
+   ],
+   "relation": "adjacent",
+   "why": "“He can never, singly and alone, provide himself with all the necessities.” Adam Smith begins political economy from the same fact: in civilized society man stands at all times in need of the co-operation and assistance of great multitudes."
+  },
+  {
+   "id": "ecclesiastes-two-are-better-than-one",
+   "after": "source:ABU0042",
+   "responds": [
+    "source:ABU0042"
+   ],
+   "relation": "adjacent",
+   "why": "A man alone in the wilderness will starve. The Preacher counts the gains of company: if they fall, the one will lift up his fellow, but woe to him that is alone when he falleth."
+  },
+  {
+   "id": "kant-discord",
+   "after": "source:ABU0987",
+   "responds": [
+    "source:ABU0987"
+   ],
+   "relation": "contrast",
+   "why": "Disunity is “the cause of their abasement”. Kant thought rivalry the spur of every human talent: man wishes concord, but Nature knows better what is good for his species, and she will have discord. Can a society keep the spur without the abasement?"
+  },
+  {
+   "id": "donne-island",
+   "after": "source:ABU0057",
+   "responds": [
+    "source:ABU0057"
+   ],
+   "relation": "adjacent",
+   "why": "Without cooperation the individual member “is deprived”. Donne: no man is an island, entire of itself; every man is a piece of the continent, a part of the main."
+  },
+  {
+   "id": "galatians-bear-one-anothers-burdens",
+   "after": "source:ABU0034",
+   "responds": [
+    "source:ABU0034"
+   ],
+   "relation": "adjacent",
+   "why": "Man “cannot live” without reciprocity. Paul makes of the necessity a law to be kept willingly: bear ye one another’s burdens."
+  },
+  {
+   "id": "proverbs-iron-sharpeneth-iron",
+   "after": "source:ABU0404",
+   "responds": [
+    "source:ABU0404"
+   ],
+   "relation": "adjacent",
+   "why": "Through association “we find happiness and development”, and two villages in contact both advance. Proverbs says it of two persons: iron sharpeneth iron; so a man sharpeneth the countenance of his friend."
+  },
+  {
+   "id": "king-mutuality",
+   "after": "source:AB00143",
+   "responds": [
+    "source:AB00143"
+   ],
+   "relation": "adjacent",
+   "why": "“For none is self-sufficiency any longer possible.” Martin Luther King wrote from a jail in Birmingham that we are caught in an inescapable network of mutuality, tied in a single garment of destiny."
+  }
+ ],
+ "library": {
+  "aristotle-beast-or-a-god": {
+   "text": "But he who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god",
+   "author": "Aristotle",
+   "work": "Politics",
+   "locator": "I.2 (1253a)",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1885",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/politics.1.one.html",
+    "label": "Aristotle, Politics",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "translation by Benjamin Jowett, 1885"
+   }
+  }
+ }
+}

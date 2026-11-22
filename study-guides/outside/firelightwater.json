@@ -1,0 +1,658 @@
+{
+ "format": 2,
+ "slug": "firelightwater",
+ "subject": "7112D8A18D3C4C7BB98681C6DE3D94E0",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 60,
+ "quotations": 63,
+ "kept": [
+  "source:BH00987",
+  "source:BH04673",
+  "source:BH05314",
+  "source:BH08649",
+  "source:BB00255",
+  "source:BH03888",
+  "source:BH00095",
+  "source:BH00002",
+  "source:BH01730",
+  "source:ABU2605",
+  "source:BH08601",
+  "source:BH03740",
+  "source:BH01974",
+  "source:BH02462",
+  "source:BH01231",
+  "source:BH00208",
+  "source:BH01071",
+  "source:BH00326",
+  "source:BH11265",
+  "source:AB05545",
+  "source:BH01711",
+  "source:BH07508",
+  "source:BH07489",
+  "source:AB01912",
+  "source:AB06934",
+  "source:BH10832",
+  "source:BH10844",
+  "source:BH07847",
+  "source:BH10509",
+  "source:AB05296",
+  "source:AB04958",
+  "source:AB00213",
+  "source:AB04904",
+  "source:BH04866",
+  "source:BH06751",
+  "source:AB00610",
+  "source:AB04024",
+  "source:AB06511",
+  "source:AB07525",
+  "source:AB06372",
+  "source:AB05508",
+  "source:AB07214",
+  "source:AB11496",
+  "source:AB06105",
+  "source:AB05950",
+  "source:AB02145",
+  "source:AB04280",
+  "source:AB03923",
+  "source:BH03287",
+  "source:BH09335",
+  "source:BH11546",
+  "source:BB00002",
+  "source:BB00178",
+  "source:BB00004",
+  "source:BH11781",
+  "source:AB06809",
+  "source:ABU3415",
+  "source:BH02597",
+  "selection:1a1507bd44fe49e8ee985e07",
+  "selection:2b3a356cbd649461f5b5af4d"
+ ],
+ "introduction": "“Make of my prayer a fire that will burn away the veils which have shut me out from Thy beauty, and a light that will lead me unto the ocean of Thy Presence.” Fire, light and water are the commonest images in Bahá’u’lláh’s writing, and these readings show how they turn into one another. The fire of the Burning Bush gives life as water does; the fire of love is light; the same Word is light to one who turns toward it and fire to one who turns away; and the worst fire is “remoteness from Thee.” ‘Abdu’l-Bahá’s letters then apply the image to people: be a candle, a moth, a spark that sets the world alight. The sources of the symbols are in the scriptures the readings quote, and are set beside them: Moses at the bush in Exodus and the Qur’án, the Light Verse, “We made every living thing of water,” baptism “with fire,” the refiner’s fire, living water. Milton and Marlowe say, as the Báb does, that hell is distance from God. Heraclitus, Sa‘dí, Laozi and the Gítá use the same elements; and the Buddha’s Fire Sermon and Robert Frost use fire for craving, which sharpens the question of what kind of burning the readings mean.",
+ "questions": [
+  "“The fire is from mine own deeds.” What does it change to think of hell as remoteness from God, with its source in oneself?",
+  "The same Word is fire to some and light to others. What in the hearer makes the difference?",
+  "Why should revelation be pictured both as fire, which consumes, and as water, which gives life? What would be lost with only one image?",
+  "The Buddha speaks of a fire to be put out; the readings of a fire to be kindled. Are they speaking of the same thing?",
+  "“Radiate light and set the world ablaze.” What would someone near you see if this were true of you?"
+ ],
+ "outside": [
+  {
+   "id": "malachi-refiners-fire",
+   "after": "source:BH00987",
+   "responds": [
+    "source:BH00987"
+   ],
+   "relation": "adjacent",
+   "why": "“Make of my prayer a fire that will burn away the veils.” Malachi: he is like a refiner’s fire; and he shall sit as a refiner and purifier of silver."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:BH00987",
+   "responds": [
+    "source:BH00987"
+   ],
+   "relation": "adjacent",
+   "why": "The same prayer asks for “a light that will lead me.” The psalm: thy word is a lamp unto my feet, and a light unto my path."
+  },
+  {
+   "id": "quran-heavens-and-earth-of-one-piece",
+   "after": "source:BH04673",
+   "responds": [
+    "source:BH04673"
+   ],
+   "relation": "adjacent",
+   "why": "“From water doth all life come.” The reading is quoting the Qur’án: We made every living thing of water."
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:BH04673",
+   "responds": [
+    "source:BH04673"
+   ],
+   "relation": "adjacent",
+   "why": "“Outwardly fire, inwardly light”: a fire that gives life and does not consume. Moses at Horeb: the bush burned with fire, and the bush was not consumed."
+  },
+  {
+   "id": "john-epistle-god-is-light",
+   "after": "source:BH05314",
+   "responds": [
+    "source:BH05314"
+   ],
+   "relation": "adjacent",
+   "why": "“This fire is in truth light.” John: God is light, and in him is no darkness at all."
+  },
+  {
+   "id": "hebrews-consuming-fire",
+   "after": "source:BH05314",
+   "responds": [
+    "source:BH05314"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews gives the other name, which a reader of these passages should hold together with John’s: our God is a consuming fire."
+  },
+  {
+   "id": "milton-myself-am-hell",
+   "after": "source:BH08649",
+   "responds": [
+    "source:BH08649"
+   ],
+   "relation": "adjacent",
+   "why": "“Thy light calls me unto Thee, and Thy fire keeps me back … the fire is from mine own deeds.” Milton’s Satan discovers where his fire comes from: which way I fly is Hell; myself am Hell."
+  },
+  {
+   "id": "isaiah-who-shall-dwell-with-the-devouring-fire",
+   "after": "source:BH08649",
+   "responds": [
+    "source:BH08649"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah’s question and answer: who among us shall dwell with the devouring fire? He that walketh righteously, and speaketh uprightly."
+  },
+  {
+   "id": "marlowe-why-this-is-hell",
+   "after": "source:BB00255",
+   "responds": [
+    "source:BB00255"
+   ],
+   "relation": "adjacent",
+   "why": "“I know of no fire more intense than remoteness from Thee.” Marlowe’s Mephistopheles says the same: why this is Hell, nor am I out of it. Thinkst thou that I, that saw the face of God, am not tormented with ten thousand hells, in being deprived of everlasting bliss?"
+  },
+  {
+   "id": "exodus-pillar-of-fire",
+   "after": "source:BH03888",
+   "responds": [
+    "source:BH03888"
+   ],
+   "relation": "adjacent",
+   "why": "One Word had two effects, fire for those who turned away and light for those who turned toward it. In Exodus one presence was cloud by day and by night a pillar of fire, to give them light."
+  },
+  {
+   "id": "corinthians-sweet-savour",
+   "after": "source:BH03888",
+   "responds": [
+    "source:BH03888"
+   ],
+   "relation": "adjacent",
+   "why": "Paul: to the one we are the savour of death unto death; and to the other the savour of life unto life."
+  },
+  {
+   "id": "revelation-water-of-life-freely",
+   "after": "source:BH00095",
+   "responds": [
+    "source:BH00095"
+   ],
+   "relation": "adjacent",
+   "why": "“One drop from the ocean” of Thy mercy would suffice. The last invitation of the Bible: whosoever will, let him take the water of life freely."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Bush of love burns so fiercely “that the streaming waters of holy utterance can never quench its flame.” The Song of Songs: the coals thereof are coals of fire, which hath a most vehement flame. Many waters cannot quench love."
+  },
+  {
+   "id": "isaiah-through-the-waters",
+   "after": "source:BH01730",
+   "responds": [
+    "source:BH01730"
+   ],
+   "relation": "adjacent",
+   "why": "Fire and water joined, “such that they shall never be parted.” Isaiah: when thou passest through the waters, I will be with thee; when thou walkest through the fire, thou shalt not be burned."
+  },
+  {
+   "id": "matthew-baptize-with-fire",
+   "after": "source:ABU2605",
+   "responds": [
+    "source:ABU2605"
+   ],
+   "relation": "adjacent",
+   "why": "Baptism with water was a symbol; the reality is spirit and love. John the Baptist: I indeed baptize you with water; he shall baptize you with the Holy Ghost, and with fire."
+  },
+  {
+   "id": "john-born-of-water-and-of-the-spirit",
+   "after": "source:ABU2605",
+   "responds": [
+    "source:ABU2605"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus to Nicodemus: except a man be born of water and of the Spirit, he cannot enter into the kingdom of God."
+  },
+  {
+   "id": "john-light-shineth-in-darkness",
+   "after": "source:BH08601",
+   "responds": [
+    "source:BH08601"
+   ],
+   "relation": "adjacent",
+   "why": "The page of light adorned “with the darkness of night.” John: the light shineth in darkness; and the darkness comprehended it not."
+  },
+  {
+   "id": "psalm-turn-again-our-captivity-as-the-streams",
+   "after": "source:BH03740",
+   "responds": [
+    "source:BH03740"
+   ],
+   "relation": "adjacent",
+   "why": "But for their burning they would drown in tears, and but for their tears they would be consumed. The psalm: they that sow in tears shall reap in joy."
+  },
+  {
+   "id": "genesis-face-of-the-waters",
+   "after": "source:BH01974",
+   "responds": [
+    "source:BH01974"
+   ],
+   "relation": "adjacent",
+   "why": "“I know not what the water is with which Thou didst create me, or what the fire.” Genesis begins with water, and light follows: the Spirit of God moved upon the face of the waters."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BH02462",
+   "responds": [
+    "source:BH02462"
+   ],
+   "relation": "adjacent",
+   "why": "“The fire of my remembrance of Thee hath set me ablaze.” Jeremiah: his word was in mine heart as a burning fire shut up in my bones."
+  },
+  {
+   "id": "psalm-in-thy-light",
+   "after": "source:BH01231",
+   "responds": [
+    "source:BH01231"
+   ],
+   "relation": "adjacent",
+   "why": "“The fountain of My mercy floweth and the heart of My loving-kindness burneth.” The psalm joins water and light in one verse: with thee is the fountain of life: in thy light shall we see light."
+  },
+  {
+   "id": "john-rivers-of-living-water",
+   "after": "source:BH00208",
+   "responds": [
+    "source:BH00208"
+   ],
+   "relation": "adjacent",
+   "why": "From the Pen flows “the water that is life indeed.” Jesus: he that believeth on me, out of his belly shall flow rivers of living water."
+  },
+  {
+   "id": "isaiah-every-one-that-thirsteth",
+   "after": "source:BH01071",
+   "responds": [
+    "source:BH01071"
+   ],
+   "relation": "adjacent",
+   "why": "He appears as “the water which is Life indeed, sent down out of the heaven of Thy grace.” Isaiah: ho, every one that thirsteth, come ye to the waters."
+  },
+  {
+   "id": "tao-highest-excellence-is-like-water",
+   "after": "source:BH01071",
+   "responds": [
+    "source:BH01071"
+   ],
+   "relation": "complement",
+   "why": "Laozi praised water for another quality: its excellence appears in its benefiting all things, and in its occupying, without striving, the low place which all men dislike. What does his water add to the image of revelation as life-giving rain?"
+  },
+  {
+   "id": "quran-i-see-a-fire-afar-off",
+   "after": "source:BH00326",
+   "responds": [
+    "source:BH00326"
+   ],
+   "relation": "adjacent",
+   "why": "God “made the fire of the Mount the cause of life for all peoples.” Moses in the Qur’án, travelling by night: lo! I see a fire afar off. Peradventure I may bring you a brand therefrom or may find guidance at the fire."
+  },
+  {
+   "id": "exodus-put-off-thy-shoes",
+   "after": "source:BH11265",
+   "responds": [
+    "source:BH11265"
+   ],
+   "relation": "adjacent",
+   "why": "Moses “removed from the feet of selfish desire the coverings of attachment.” The command at the bush: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground."
+  },
+  {
+   "id": "quran-from-the-tree-o-moses",
+   "after": "source:AB05545",
+   "responds": [
+    "source:AB05545"
+   ],
+   "relation": "adjacent",
+   "why": "Illumination “from the lights of Mount Sinai.” The Qur’án: he was called from the tree: O Moses! Lo! I, even I, am Allah, the Lord of the Worlds."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "source:BH01711",
+   "responds": [
+    "source:BH01711"
+   ],
+   "relation": "adjacent",
+   "why": "A Zoroastrian is told that He came with the Fire and rekindled the element that had gone out. Heraclitus, in a Greek city under Persian rule, made fire the nature of the world itself: an ever-living Fire, with measures of it kindling, and measures going out."
+  },
+  {
+   "id": "quran-light-verse",
+   "after": "source:BH07508",
+   "responds": [
+    "source:BH07508"
+   ],
+   "relation": "adjacent",
+   "why": "“The lamp hath been lit in its niche and … the fire hath appeared from the Tree.” Both images are from the Light Verse: a niche wherein is a lamp, kindled from a blessed tree."
+  },
+  {
+   "id": "acts-cloven-tongues-of-fire",
+   "after": "source:BH07489",
+   "responds": [
+    "source:BH07489"
+   ],
+   "relation": "adjacent",
+   "why": "“And the Fire crieth out.” At Pentecost fire gave speech: there appeared unto them cloven tongues like as of fire, and they began to speak."
+  },
+  {
+   "id": "luke-fire-on-the-earth",
+   "after": "source:AB06934",
+   "responds": [
+    "source:AB06934"
+   ],
+   "relation": "adjacent",
+   "why": "A flame kindled by God in the East “will set aflame the west.” Jesus: I am come to send fire on the earth; and what will I, if it be already kindled?"
+  },
+  {
+   "id": "psalm-maketh-his-angels-spirits",
+   "after": "source:BH10844",
+   "responds": [
+    "source:BH10844"
+   ],
+   "relation": "adjacent",
+   "why": "One thread seen now as fire, now as breezes, now as water. The psalm: who maketh his angels spirits; his ministers a flaming fire."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:BH10844",
+   "responds": [
+    "source:BH10844"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah met wind, earthquake and fire, and found the Lord in none of them: and after the fire a still small voice. The readings too keep moving from one image to the next."
+  },
+  {
+   "id": "corinthians-fire-shall-try",
+   "after": "source:BH07847",
+   "responds": [
+    "source:BH07847"
+   ],
+   "relation": "adjacent",
+   "why": "A Fire that will “rend asunder the veils.” Paul: the fire shall try every man’s work of what sort it is."
+  },
+  {
+   "id": "peter-tried-with-fire",
+   "after": "source:BH10509",
+   "responds": [
+    "source:BH10509"
+   ],
+   "relation": "adjacent",
+   "why": "“As fire that consumeth the veils, and as water that washeth the souls.” Peter: the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:AB05296",
+   "responds": [
+    "source:AB05296"
+   ],
+   "relation": "adjacent",
+   "why": "“When the candle of guidance is kindled within the glass of the heart.” Proverbs: the spirit of man is the candle of the Lord."
+  },
+  {
+   "id": "job-now-mine-eye-seeth-thee",
+   "after": "source:AB04958",
+   "responds": [
+    "source:AB04958"
+   ],
+   "relation": "adjacent",
+   "why": "One may reason that fire exists; to see it is “the Eye of Certitude”; to be burned by it is more. Job: I have heard of thee by the hearing of the ear: but now mine eye seeth thee."
+  },
+  {
+   "id": "luke-heart-burn",
+   "after": "source:AB00213",
+   "responds": [
+    "source:AB00213"
+   ],
+   "relation": "adjacent",
+   "why": "“If you are not enkindled by this divine fire … by what means will you dispel the cold?” Two disciples at Emmaus: did not our heart burn within us?"
+  },
+  {
+   "id": "isaiah-great-light",
+   "after": "source:AB04904",
+   "responds": [
+    "source:AB04904"
+   ],
+   "relation": "adjacent",
+   "why": "“You have been delivered from darkness.” Isaiah: the people that walked in darkness have seen a great light."
+  },
+  {
+   "id": "daniel-fiery-furnace",
+   "after": "source:BH04866",
+   "responds": [
+    "source:BH04866"
+   ],
+   "relation": "adjacent",
+   "why": "A fire “which is light itself,” which no sea of doubt can put out. Three men before a furnace: our God whom we serve is able to deliver us from the burning fiery furnace."
+  },
+  {
+   "id": "revelation-lukewarm",
+   "after": "source:BH06751",
+   "responds": [
+    "source:BH06751"
+   ],
+   "relation": "adjacent",
+   "why": "“He that riseth at one time and falleth at another is not worthy to draw nigh unto this Fire.” The letter to Laodicea: I would thou wert cold or hot."
+  },
+  {
+   "id": "saadi-learn-love-from-the-moth",
+   "after": "source:AB00610",
+   "responds": [
+    "source:AB00610"
+   ],
+   "relation": "adjacent",
+   "why": "“The moth which is animated by love will burn its wings as it flitteth round the lamp.” Sa‘dí: O bird of the morning, learn love from the moth, because it burnt, lost its life, and found no voice."
+  },
+  {
+   "id": "buddha-all-is-aflame",
+   "after": "source:AB00610",
+   "responds": [
+    "source:AB00610"
+   ],
+   "relation": "contrast",
+   "why": "The Buddha’s Fire Sermon uses the image in the opposite sense: the All is aflame. The eye is aflame. Forms are aflame. For him the fire is craving, and the goal is to let it go out. What decides whether a fire is to be fed or quenched?"
+  },
+  {
+   "id": "psalm-zeal-of-thine-house",
+   "after": "source:AB06511",
+   "responds": [
+    "source:AB06511"
+   ],
+   "relation": "adjacent",
+   "why": "Heart, spirit and body aflame. The psalmist: the zeal of thine house hath eaten me up."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB06372",
+   "responds": [
+    "source:AB06372"
+   ],
+   "relation": "adjacent",
+   "why": "You would “blaze out like a ball of fire and ignite the hearts.” Jesus: ye are the light of the world. A city that is set on an hill cannot be hid."
+  },
+  {
+   "id": "john-burning-and-shining-light",
+   "after": "source:AB05508",
+   "responds": [
+    "source:AB05508"
+   ],
+   "relation": "adjacent",
+   "why": "“A flame of that lamp—radiate light.” Jesus of John the Baptist: he was a burning and a shining light."
+  },
+  {
+   "id": "frost-fire-and-ice",
+   "after": "source:AB07214",
+   "responds": [
+    "source:AB07214"
+   ],
+   "relation": "contrast",
+   "why": "“Like a burning ember and fiery spark, set” the world ablaze. Robert Frost heard the phrase differently: some say the world will end in fire; from what I’ve tasted of desire I hold with those who favor fire. What distinguishes the fire of these letters from the fire of desire?"
+  },
+  {
+   "id": "proverbs-shining-light",
+   "after": "source:AB11496",
+   "responds": [
+    "source:AB11496"
+   ],
+   "relation": "adjacent",
+   "why": "“A sign of ‘light upon light.’” Proverbs: the path of the just is as the shining light, that shineth more and more unto the perfect day."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:AB06105",
+   "responds": [
+    "source:AB06105"
+   ],
+   "relation": "adjacent",
+   "why": "A countenance lit by the Kingdom, the cause of bounty to others. Jesus: let your light so shine before men."
+  },
+  {
+   "id": "quran-put-out-the-light",
+   "after": "source:AB02145",
+   "responds": [
+    "source:AB02145"
+   ],
+   "relation": "adjacent",
+   "why": "“They thought … they had extinguished the Lamp.” The Qur’án: fain would they put out the light of Allah with their mouths, but Allah will perfect His light."
+  },
+  {
+   "id": "corinthians-troubled-on-every-side",
+   "after": "source:AB04280",
+   "responds": [
+    "source:AB04280"
+   ],
+   "relation": "adjacent",
+   "why": "A target of arrows, and the breast becomes a mirror in which the light is brighter. Paul: persecuted, but not forsaken; cast down, but not destroyed."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:AB03923",
+   "responds": [
+    "source:AB03923"
+   ],
+   "relation": "adjacent",
+   "why": "“A camphor candle burning and melting.” A candle gives light by being consumed. Jesus: except a corn of wheat fall into the ground and die, it abideth alone."
+  },
+  {
+   "id": "shakespeare-little-candle",
+   "after": "source:BH09335",
+   "responds": [
+    "source:BH09335"
+   ],
+   "relation": "adjacent",
+   "why": "A single counsel is “like a lamp in the darkness of the world”: do good as God has done good to thee. Portia: how far that little candle throws his beams! So shines a good deed in a naughty world."
+  },
+  {
+   "id": "proverbs-commandment-is-a-lamp",
+   "after": "source:BH09335",
+   "responds": [
+    "source:BH09335"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs says of every such counsel what the reading says of this one: the commandment is a lamp; and the law is light."
+  },
+  {
+   "id": "revelation-no-need-of-the-sun",
+   "after": "source:BH11546",
+   "responds": [
+    "source:BH11546"
+   ],
+   "relation": "adjacent",
+   "why": "A Paradise “lit by the Light of thy Lord’s face.” John’s city: the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did lighten it."
+  },
+  {
+   "id": "luke-cool-my-tongue",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "One who loves the fire is guarded from the fire. The rich man of the parable knew only the second: I am tormented in this flame."
+  },
+  {
+   "id": "quran-coolness-and-peace-for-abraham",
+   "after": "source:BB00178",
+   "responds": [
+    "source:BB00178"
+   ],
+   "relation": "adjacent",
+   "why": "“Thus is the earth of Fire transformed into Light.” The Qur’án, of Abraham cast into the furnace: O fire, be coolness and peace for Abraham."
+  },
+  {
+   "id": "gita-flame-of-knowledge",
+   "after": "source:BH11781",
+   "responds": [
+    "source:BH11781"
+   ],
+   "relation": "complement",
+   "why": "Some say elemental fire itself arises from “the warmth in the hearts of lovers.” The Gítá uses fire for knowledge: as the kindled flame feeds on the fuel till it sinks to ash. In the readings fire is chiefly love. What is the difference between being burned by love and being burned by knowledge?"
+  },
+  {
+   "id": "jeremiah-word-like-fire",
+   "after": "source:ABU3415",
+   "responds": [
+    "source:ABU3415"
+   ],
+   "relation": "adjacent",
+   "why": "Every object can burn, but “a flame is necessary.” Jeremiah: is not my word like as a fire? saith the Lord."
+  },
+  {
+   "id": "john-darkness-comprehended-it-not",
+   "after": "source:BH02597",
+   "responds": [
+    "source:BH02597"
+   ],
+   "relation": "adjacent",
+   "why": "All things are ablaze with drops from the ocean of love, “and yet the people still seek to quench Thy fire.” John: the light shineth in darkness; and the darkness comprehended it not."
+  },
+  {
+   "id": "blake-did-he-who-made-the-lamb",
+   "after": "selection:1a1507bd44fe49e8ee985e07",
+   "responds": [
+    "selection:1a1507bd44fe49e8ee985e07"
+   ],
+   "relation": "adjacent",
+   "why": "A Fire that “burneth at the very heart of the Water.” Blake, before a creature of fire: when the stars water’d heaven with their tears: did he who made the Lamb make thee?"
+  }
+ ],
+ "shortfall": "The 60 readings return again and again to a handful of images, and nearly a third are short letters of encouragement in which the image is used and not developed. The guide is read with 61 outside quotations, placed where they show a source, a parallel or a contrary use of the symbol; none was added only to reach the number of 63.",
+ "library": {
+  "isaiah-who-shall-dwell-with-the-devouring-fire": {
+   "text": "The sinners in Zion are afraid; fearfulness hath surprised the hypocrites. Who among us shall dwell with the devouring fire? who among us shall dwell with everlasting burnings? He that walketh righteously, and speaketh uprightly",
+   "work": "Isaiah 33:14–15",
+   "year": "6th century BCE",
+   "sortYear": -530,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2033%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

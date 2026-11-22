@@ -1,0 +1,132 @@
+{
+ "format": 2,
+ "slug": "unknowable",
+ "subject": "B492C6CABFF847E5814269886AE0C4E9",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 11,
+ "kept": [
+  "source:BH00512",
+  "source:ABU2924",
+  "source:BH00071",
+  "source:BH07355",
+  "source:BH01052",
+  "source:BH00208",
+  "source:BH00002",
+  "source:BH00629",
+  "source:BH02178",
+  "source:BH00769"
+ ],
+ "introduction": "The Bahá’í writings are emphatic that the essence of God cannot be known, by anyone, ever. These few readings say it of ordinary minds, of philosophers, and most strikingly of the Prophets themselves, who “wander in the wilderness of search” and plead on Sinai for what is not granted. Bahá’u’lláh disclaims any grasp of “God’s ultimate Will and Purpose.” What can be known is what God shows of himself in his Manifestations, and the fitting response is praise that admits its own failure. Moses on Sinai is the scene behind the first reading, and it is given here from Exodus and from the Qur’án, with Job, Isaiah, Paul and John’s prologue. Three texts push back. Feuerbach argues that an unknowable God is a human projection; Jesus promises that the pure in heart “shall see God”; and Whitman finds in not knowing a reason to stop asking.",
+ "questions": [
+  "“Prophets do not comprehend the God Essence.” Why might it matter to believers that even the Manifestations stand before a mystery?",
+  "If God’s essence is unknowable, what is a person doing when he says “God is merciful” or “God is just”? What do such sentences refer to, on the readings’ account?",
+  "Feuerbach says theology is really talk about humanity. How does a religion that insists on God’s unknowability answer him, and is it better placed to answer than one that claims to describe God?",
+  "“Blessed are the pure in heart: for they shall see God.” How do you hold that promise together with “no man hath seen God at any time”?",
+  "What is the difference between the unknowing these readings teach and simple agnosticism?"
+ ],
+ "outside": [
+  {
+   "id": "quran-moses-show-me",
+   "after": "source:BH00512",
+   "responds": [
+    "source:BH00512"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations themselves “implore Him, from the Sinai of Holiness, to unravel His mystery.” The scene on Sinai as the Qur’án tells it: My Lord! Show me Thy Self, that I may gaze upon Thee. He said: Thou wilt not see Me."
+  },
+  {
+   "id": "exodus-no-man-see-me-and-live",
+   "after": "source:BH00512",
+   "responds": [
+    "source:BH00512"
+   ],
+   "relation": "adjacent",
+   "why": "And as Exodus tells it: thou canst not see my face: for there shall no man see me, and live."
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:ABU2924",
+   "responds": [
+    "source:ABU2924"
+   ],
+   "relation": "adjacent",
+   "why": "“The lower can never comprehend the higher.” The Book of Job: canst thou by searching find out God? It is as high as heaven; what canst thou do?"
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:ABU2924",
+   "responds": [
+    "source:ABU2924"
+   ],
+   "relation": "contrast",
+   "why": "God is beyond the reach even of Prophets. Feuerbach drew the opposite conclusion from the fact that all our words for God are human words: the true sense of Theology is Anthropology. If nothing can be known of God’s essence, what answers the suspicion that God is our own image enlarged?"
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:BH07355",
+   "responds": [
+    "source:BH07355"
+   ],
+   "relation": "adjacent",
+   "why": "“Exalted above the reach and ken of Thy creatures.” The First Letter to Timothy: dwelling in the light which no man can approach unto; whom no man hath seen, nor can see."
+  },
+  {
+   "id": "mark-neither-the-son",
+   "after": "source:BH01052",
+   "responds": [
+    "source:BH01052"
+   ],
+   "relation": "adjacent",
+   "why": "“Think ye … that I hold within My grasp the control of God’s ultimate Will and Purpose?” Jesus disclaimed the same: of that day and that hour knoweth no man, neither the Son, but the Father."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "All the Prophets confess their inability to know the Essence. John: no man hath seen God at any time; the only begotten Son, he hath declared him."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "No one can see or know God in himself. Jesus promises a sight: blessed are the pure in heart: for they shall see God. The Bahá’í writings read such promises of the Manifestation. Does that reading satisfy the promise, and what does the pure heart see?"
+  },
+  {
+   "id": "isaiah-to-whom-will-ye-liken-me",
+   "after": "source:BH00629",
+   "responds": [
+    "source:BH00629"
+   ],
+   "relation": "adjacent",
+   "why": "He “can neither be indicated by any indication, nor known by any knowledge.” Isaiah: to whom then will ye liken me, or shall I be equal? saith the Holy One."
+  },
+  {
+   "id": "whitman-not-curious-about-god",
+   "after": "source:BH00629",
+   "responds": [
+    "source:BH00629"
+   ],
+   "relation": "complement",
+   "why": "Whitman is content not to know, for a different reason: be not curious about God; I hear and behold God in every object, yet understand God not in the least. Is his ease the humility these readings teach, or an indifference they would not recognize?"
+  },
+  {
+   "id": "romans-unsearchable-judgments",
+   "after": "source:BH00769",
+   "responds": [
+    "source:BH00769"
+   ],
+   "relation": "adjacent",
+   "why": "Even the Daysprings of unity, soaring for ever, would not attain. Paul: how unsearchable are his judgments, and his ways past finding out!"
+  }
+ ],
+ "library": {}
+}

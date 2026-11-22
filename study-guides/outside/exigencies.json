@@ -1,0 +1,294 @@
+{
+ "format": 2,
+ "slug": "exigencies",
+ "subject": "3DE707E957524AA9917CF7260E04198D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 27,
+ "quotations": 27,
+ "kept": [
+  "source:AB00090",
+  "source:AB00984",
+  "source:AB02114",
+  "source:AB01216",
+  "source:ABU3464",
+  "source:BH11762",
+  "source:BH03817",
+  "source:BH00164",
+  "source:ABU1366",
+  "source:ABU0614",
+  "source:ABU1372",
+  "source:ABU3299",
+  "source:BH00542",
+  "source:BH03105",
+  "source:BH01220",
+  "source:BH01739",
+  "source:BH11523",
+  "source:AB00795",
+  "source:BH00992",
+  "source:BH11182",
+  "source:AB01059",
+  "source:ABU0685",
+  "source:BH01602",
+  "source:AB00757",
+  "selection:41d0155711c0ac1599bcd641",
+  "selection:46024d17f5200eb6caf6eb28",
+  "selection:be16cb5fa7145367e8367fc7"
+ ],
+ "introduction": "“Wisdom” in the Bahá’í writings often means practical judgment: what can actually be done, here, now, with these people. These readings collect its uses. ‘Abdu’l-Bahá wants proposals that are feasible; a candle lit where there are people to see it; speech measured to the hearer; laws that change as the patient’s condition changes; and, for a persecuted community, caution and at times silence. Time itself is treated as a force with requirements no one can resist. The last readings guard the other side: fitting means to circumstances is not pragmatism, and no machinery will work without a change of heart. The Bible’s wisdom literature and the Gospels are close companions: a season for everything, the cost counted before building, milk before meat, “wise as serpents,” the eye-for-eye law revised. Hippocrates and Tennyson add theirs. The contrasts press from two sides. Browning and Thoreau defend ideals beyond reach; Peter and Jeremiah could not keep silent; and Machiavelli shows what “the needs of the time” become when principle is dropped.",
+ "questions": [
+  "“We must confine ourselves to that which is practicable.” Browning says a man’s reach should exceed his grasp. Take one Bahá’í ideal that is not yet practicable and describe the practicable step toward it.",
+  "Laws are compared to treatments that change with the illness. Which elements of a religion are treatment and which are health itself? How do the readings tell them apart?",
+  "The Báb conformed to Muslim practice at first to attract people; Paul became “all things to all men.” Where is the line between meeting people where they are and misleading them?",
+  "Persecuted believers are told that silence is “nearer to piety”; Peter says “we cannot but speak.” What conditions make each the faithful course?",
+  "“All things can be resisted save the exigencies of the time.” How does one tell a real requirement of the time from a passing fashion?",
+  "The House of Justice asks that peace be treated at “the level of principle, as distinct from pure pragmatism,” yet these readings prize practical wisdom. State the difference between wisdom and pragmatism in your own words, with Machiavelli in mind."
+ ],
+ "outside": [
+  {
+   "id": "luke-count-the-cost",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "adjacent",
+   "why": "“We must confine ourselves to that which is practicable.” Jesus: which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have sufficient to finish it?"
+  },
+  {
+   "id": "browning-what-is-a-heaven-for",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "contrast",
+   "why": "Lofty ideals “that cannot be put into effect” are set aside. Browning’s painter thought a life confined to the feasible was a failed one: a man’s reach should exceed his grasp, or what’s a heaven for? Is ‘Abdu’l-Bahá lowering the aim, or asking something else of an ideal?"
+  },
+  {
+   "id": "thoreau-castles-in-the-air",
+   "after": "source:AB00090",
+   "responds": [
+    "source:AB00090"
+   ],
+   "relation": "complement",
+   "why": "Thoreau wanted both: if you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them. How does that compare with speaking “only of that which is practically feasible”?"
+  },
+  {
+   "id": "matthew-candle-under-a-bushel",
+   "after": "source:AB00984",
+   "responds": [
+    "source:AB00984"
+   ],
+   "relation": "adjacent",
+   "why": "Wisdom does not mean silence; “the candle should be lit in the gathering, not in the useless desert.” Jesus: neither do men light a candle, and put it under a bushel, but on a candlestick."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:AB02114",
+   "responds": [
+    "source:AB02114"
+   ],
+   "relation": "adjacent",
+   "why": "“Each day has its own requirements, each era its own characteristics.” Ecclesiastes: to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "tennyson-old-order-changeth",
+   "after": "source:AB01216",
+   "responds": [
+    "source:AB01216"
+   ],
+   "relation": "adjacent",
+   "why": "“All things can be resisted save the exigencies of the time.” Tennyson: the old order changeth, yielding place to new."
+  },
+  {
+   "id": "john-many-things-to-say",
+   "after": "source:ABU3464",
+   "responds": [
+    "source:ABU3464"
+   ],
+   "relation": "adjacent",
+   "why": "“According to the capacity of the people and the exigency of the time.” Jesus: I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "source:BH00164",
+   "responds": [
+    "source:BH00164"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb agreed with Muslim practice in most things, “that He might attract those heedless souls.” Paul: unto the Jews I became as a Jew, that I might gain the Jews; I am made all things to all men, that I might by all means save some."
+  },
+  {
+   "id": "emerson-foolish-consistency",
+   "after": "source:BH00164",
+   "responds": [
+    "source:BH00164"
+   ],
+   "relation": "complement",
+   "why": "Agreement first, a new law later. Emerson would not call that inconsistency a fault: a foolish consistency is the hobgoblin of little minds. When is fitting the message to the hearers wisdom, and when is it concealment that misleads?"
+  },
+  {
+   "id": "acts-no-greater-burden",
+   "after": "source:ABU1366",
+   "responds": [
+    "source:ABU1366"
+   ],
+   "relation": "adjacent",
+   "why": "Social laws suited to one people and time become “purposeless” in another. The council of Jerusalem, releasing Gentile converts from most of the law of Moses: to lay upon you no greater burden than these necessary things."
+  },
+  {
+   "id": "quran-abrogate",
+   "after": "source:ABU1366",
+   "responds": [
+    "source:ABU1366"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án states the principle of itself: such of Our revelations as We abrogate or cause to be forgotten, We bring one better or the like thereof."
+  },
+  {
+   "id": "hippocrates-life-is-short",
+   "after": "source:ABU0614",
+   "responds": [
+    "source:ABU0614"
+   ],
+   "relation": "adjacent",
+   "why": "Treatments differ with the illness. The first of the Hippocratic aphorisms: life is short, and Art long; the crisis fleeting; experience perilous, and decision difficult."
+  },
+  {
+   "id": "exodus-eye-for-eye",
+   "after": "source:ABU1372",
+   "responds": [
+    "source:ABU1372"
+   ],
+   "relation": "adjacent",
+   "why": "“If one breaks the teeth of another, his teeth must also be broken.” The law referred to: eye for eye, tooth for tooth, hand for hand, foot for foot."
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:ABU1372",
+   "responds": [
+    "source:ABU1372"
+   ],
+   "relation": "adjacent",
+   "why": "The same law revised for another age: ye have heard that it hath been said, An eye for an eye: but I say unto you, That ye resist not evil."
+  },
+  {
+   "id": "genesis-every-moving-thing-meat",
+   "after": "source:ABU3299",
+   "responds": [
+    "source:ABU3299"
+   ],
+   "relation": "adjacent",
+   "why": "It is not befitting to eat meat, yet “its prohibition is not advisable at present.” Genesis also treats meat as a later allowance, given after the flood: every moving thing that liveth shall be meat for you; even as the green herb have I given you all things."
+  },
+  {
+   "id": "matthew-wise-as-serpents",
+   "after": "source:BH01739",
+   "responds": [
+    "source:BH01739"
+   ],
+   "relation": "adjacent",
+   "why": "Ordinances that provoke an outcry “must be carried out with the utmost discretion.” Jesus: be ye therefore wise as serpents, and harmless as doves."
+  },
+  {
+   "id": "ecclesiastes-time-to-keep-silence",
+   "after": "source:BH11523",
+   "responds": [
+    "source:BH11523"
+   ],
+   "relation": "adjacent",
+   "why": "“Silence is preferable to speech when wisdom so dictates, and likewise the reverse.” Ecclesiastes: a time to keep silence, and a time to speak."
+  },
+  {
+   "id": "acts-cannot-but-speak",
+   "after": "source:BH11523",
+   "responds": [
+    "source:BH11523"
+   ],
+   "relation": "contrast",
+   "why": "Peter and John, ordered by a court to keep quiet: we cannot but speak the things which we have seen and heard. The readings ask the persecuted Bahá’ís of Iran for silence. What differs between the two cases: the danger, the stage of the work, or the principle?"
+  },
+  {
+   "id": "matthew-flee-ye-into-another",
+   "after": "source:AB00795",
+   "responds": [
+    "source:AB00795"
+   ],
+   "relation": "adjacent",
+   "why": "“Calm, silence and steadiness are needed.” Jesus did not ask his followers to court destruction: when they persecute you in this city, flee ye into another."
+  },
+  {
+   "id": "mark-say-nothing-to-any-man",
+   "after": "source:BH00992",
+   "responds": [
+    "source:BH00992"
+   ],
+   "relation": "adjacent",
+   "why": "Teaching was commanded, yet “the more matters remain concealed in these days, the better.” Jesus to a man he had healed: see thou say nothing to any man."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BH00992",
+   "responds": [
+    "source:BH00992"
+   ],
+   "relation": "contrast",
+   "why": "Concealment for a season. Jeremiah tried it and could not keep it up: his word was in mine heart as a burning fire shut up in my bones, and I was weary with forbearing. What does prudence cost the one who must practise it?"
+  },
+  {
+   "id": "john-not-openly",
+   "after": "source:BH11182",
+   "responds": [
+    "source:BH11182"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh loves his friends’ presence, but they must weigh what the time requires. Jesus, when it was dangerous: he went up unto the feast, not openly, but as it were in secret."
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:ABU0685",
+   "responds": [
+    "source:ABU0685"
+   ],
+   "relation": "adjacent",
+   "why": "“The cause of God is not rigidly circumscribed. It is in accordance with the exigencies of time and place.” Jesus: the sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "luke-came-to-himself",
+   "after": "source:AB00757",
+   "responds": [
+    "source:AB00757"
+   ],
+   "relation": "adjacent",
+   "why": "Disorder will grow until “human nature cannot bear it. At that time awakening will occur.” The prodigal among the swine: and when he came to himself, he said, I will arise and go to my father."
+  },
+  {
+   "id": "yeats-centre",
+   "after": "source:AB00757",
+   "responds": [
+    "source:AB00757"
+   ],
+   "relation": "adjacent",
+   "why": "Yeats, after the first of the world wars: things fall apart; the centre cannot hold; mere anarchy is loosed upon the world."
+  },
+  {
+   "id": "psalm-except-the-lord",
+   "after": "selection:46024d17f5200eb6caf6eb28",
+   "responds": [
+    "selection:46024d17f5200eb6caf6eb28"
+   ],
+   "relation": "adjacent",
+   "why": "Even the machinery of world unity would not be “the antidote” by itself. A psalm: except the Lord build the house, they labour in vain that build it."
+  },
+  {
+   "id": "machiavelli-prudent-lord-cannot-keep-faith",
+   "after": "selection:be16cb5fa7145367e8367fc7",
+   "responds": [
+    "selection:be16cb5fa7145367e8367fc7"
+   ],
+   "relation": "contrast",
+   "why": "“To raise the context to the level of principle, as distinct from pure pragmatism.” Machiavelli is the classic voice of the pragmatism meant: a prudent lord cannot, nor ought he to, keep faith when such observance may be turned against him. All these readings counsel fitting action to circumstance. What keeps their wisdom from becoming his?"
+  }
+ ],
+ "library": {}
+}

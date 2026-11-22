@@ -1,0 +1,423 @@
+{
+ "format": 2,
+ "slug": "crucifixionascension",
+ "subject": "48B550F0BB80EEB2A03AF8999B747FFE",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 39,
+ "quotations": 40,
+ "kept": [
+  "source:BH01887",
+  "source:ABU0103",
+  "source:ABU0126",
+  "source:AB02958",
+  "source:AB07667",
+  "source:ABU2911",
+  "source:ABU0619",
+  "source:ABU1874",
+  "source:ABU0848",
+  "source:AB00100",
+  "source:ABU1014",
+  "source:ABU3144",
+  "source:ABU1479",
+  "source:ABU1806",
+  "source:ABU1889",
+  "source:ABU1136",
+  "source:AB04489",
+  "source:ABU0495",
+  "source:ABU1175",
+  "source:ABU1963",
+  "source:AB01866",
+  "source:AB12232",
+  "source:AB00249",
+  "source:AB00575",
+  "source:AB09387",
+  "source:ABU1911",
+  "source:ABU0783",
+  "source:ABU2092",
+  "source:AB00543",
+  "source:AB01528",
+  "source:ABU1055",
+  "source:ABU2142",
+  "source:ABU3683",
+  "source:ABU1363",
+  "source:BH00791",
+  "source:ABU0454",
+  "source:ABU3665",
+  "source:ABU0304",
+  "source:ABU0680"
+ ],
+ "introduction": "Bahá’u’lláh and ‘Abdu’l-Bahá speak of the death of Jesus with great tenderness: the prayer in the garden, the crown of thorns, the forgiveness from the cross. They also interpret it. The sacrifice was Christ’s own choice, made so that people might be educated; redemption comes by living his teaching; the heaven he rose to is not the sky; and the Qur’án’s “they slew him not” refers to his undying reality. The Gospel passages the readings draw on are placed beside them, with Isaiah’s suffering servant, Paul, the Letter to the Hebrews, Tertullian, Polycarp and Gibbon. Where the readings depart from what most Christians have believed, the Christian text is given and the question asked: John 3:16 on the Father giving his Son, Ephesians on grace, Acts on the visible ascension, and the cry of dereliction, which one reported talk here denies. A statement of the Second Vatican Council is included because several talks speak of “the Jews” in words that have a long and harmful history.",
+ "questions": [
+  "“If a king wished to forgive his subjects, would he send his son to be killed by them?” What understanding of the cross is ‘Abdu’l-Bahá rejecting, and what does he put in its place?",
+  "Redemption “depends on our acting upon the admonitions of Christ”; Ephesians says “not of works.” State the strongest form of each position. Do the readings leave room for grace?",
+  "One talk says Christ “never suffered upon the cross”; Bahá’u’lláh’s prayer recalls him pleading that the cup might pass. How do you weigh a pilgrim’s note against a revealed text, and what is at stake for a person in pain?",
+  "The ascension is read as spiritual. What did the first disciples need from the story in Acts, and what do the readings say they actually received?",
+  "“They slew him not.” How does ‘Abdu’l-Bahá’s interpretation let a Christian and a Muslim read their two scriptures together?",
+  "Several talks speak of “the Jews” as the crucifiers. Knowing how such language has been used, how would you present these passages in a study group that included Jewish friends?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-not-as-i-will",
+   "after": "source:BH01887",
+   "responds": [
+    "source:BH01887"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh recalls the prayer of the last night: “let this cup … pass from me.” Matthew: O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt."
+  },
+  {
+   "id": "john-his-own-received-him-not",
+   "after": "source:ABU0103",
+   "responds": [
+    "source:ABU0103"
+   ],
+   "relation": "adjacent",
+   "why": "“All objected, all denied.” John: he came unto his own, and his own received him not."
+  },
+  {
+   "id": "matthew-crown-of-thorns",
+   "after": "source:ABU0126",
+   "responds": [
+    "source:ABU0126"
+   ],
+   "relation": "adjacent",
+   "why": "When they pressed the thorns on his head and spat in his face, “they laid the foundation of His everlasting Kingdom.” Matthew: they platted a crown of thorns, and bowed the knee before him, and mocked him, saying, Hail, King of the Jews!"
+  },
+  {
+   "id": "isaiah-lamb-to-the-slaughter",
+   "after": "source:AB02958",
+   "responds": [
+    "source:AB02958"
+   ],
+   "relation": "adjacent",
+   "why": "Paraded through the streets, and then the cross. Isaiah’s servant: he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb, so he openeth not his mouth."
+  },
+  {
+   "id": "luke-father-forgive-them",
+   "after": "source:AB07667",
+   "responds": [
+    "source:AB07667"
+   ],
+   "relation": "adjacent",
+   "why": "“O Lord! Forgive these…” Luke: Father, forgive them; for they know not what they do."
+  },
+  {
+   "id": "luke-bless-them-that-curse-you",
+   "after": "source:ABU2911",
+   "responds": [
+    "source:ABU2911"
+   ],
+   "relation": "adjacent",
+   "why": "“How can we love another whose personality is unpleasant?” He had taught it before he did it: bless them that curse you, and pray for them which despitefully use you."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:ABU0619",
+   "responds": [
+    "source:ABU0619"
+   ],
+   "relation": "adjacent",
+   "why": "“He at length gave His life in sacrifice for humanity.” Jesus: greater love hath no man than this, that a man lay down his life for his friends."
+  },
+  {
+   "id": "hebrews-endured-the-cross",
+   "after": "source:ABU1874",
+   "responds": [
+    "source:ABU1874"
+   ],
+   "relation": "adjacent",
+   "why": "On the cross “one might imagine that He looked afar through the vista of time.” The Letter to the Hebrews: who for the joy that was set before him endured the cross, despising the shame."
+  },
+  {
+   "id": "john-i-lay-down-my-life",
+   "after": "source:ABU0848",
+   "responds": [
+    "source:ABU0848"
+   ],
+   "relation": "adjacent",
+   "why": "“Christ came of His own will to be a sacrifice.” Jesus: no man taketh it from me, but I lay it down of myself."
+  },
+  {
+   "id": "john-god-so-loved-the-world",
+   "after": "source:ABU0848",
+   "responds": [
+    "source:ABU0848"
+   ],
+   "relation": "contrast",
+   "why": "Would a king send his son to be killed? “Certainly not.” The best-known verse of the New Testament says that God gave him: God so loved the world, that he gave his only begotten Son. How does ‘Abdu’l-Bahá’s reading keep the love in that verse while refusing the transaction?"
+  },
+  {
+   "id": "mark-shall-be-your-minister",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "“I gave My blood for the life of the world.” Jesus: the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."
+  },
+  {
+   "id": "romans-living-sacrifice",
+   "after": "source:ABU1014",
+   "responds": [
+    "source:ABU1014"
+   ],
+   "relation": "adjacent",
+   "why": "The animal state of man “must be sacrificed.” Paul: present your bodies a living sacrifice, holy, acceptable unto God."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:ABU1014",
+   "responds": [
+    "source:ABU1014"
+   ],
+   "relation": "adjacent",
+   "why": "Paul took the cross inward: I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "matthew-lord-lord",
+   "after": "source:ABU3144",
+   "responds": [
+    "source:ABU3144"
+   ],
+   "relation": "adjacent",
+   "why": "Redemption “depends on our acting upon the admonitions of Christ.” Jesus: not every one that saith unto me, Lord, Lord, but he that doeth the will of my Father."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "source:ABU3144",
+   "responds": [
+    "source:ABU3144"
+   ],
+   "relation": "contrast",
+   "why": "Redemption through acting on his teaching. Much of Christianity holds, with this letter, that it cannot be earned: by grace are ye saved through faith; and that not of yourselves: not of works, lest any man should boast. What is each side protecting, and can a person hold both?"
+  },
+  {
+   "id": "john-washed-the-disciples-feet",
+   "after": "source:ABU1479",
+   "responds": [
+    "source:ABU1479"
+   ],
+   "relation": "adjacent",
+   "why": "Christ had “to live a pure, perfect earthly life as an eternally shining example.” Jesus, after washing his disciples’ feet: I have given you an example, that ye should do as I have done to you."
+  },
+  {
+   "id": "luke-peter-wept-bitterly",
+   "after": "source:ABU1889",
+   "responds": [
+    "source:ABU1889"
+   ],
+   "relation": "adjacent",
+   "why": "One betrayed him, another denied him three times, the rest fled. Luke: and Peter went out, and wept bitterly."
+  },
+  {
+   "id": "luke-we-trusted-it-had-been-he",
+   "after": "source:ABU1136",
+   "responds": [
+    "source:ABU1136"
+   ],
+   "relation": "adjacent",
+   "why": "For three days “the Cause of God was annihilated for them.” Two disciples on the road, on the third day: we trusted that it had been he which should have redeemed Israel."
+  },
+  {
+   "id": "john-corn-of-wheat",
+   "after": "source:AB04489",
+   "responds": [
+    "source:AB04489"
+   ],
+   "relation": "adjacent",
+   "why": "When Christ departed “His banner was raised high.” Jesus had said how it would work: except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit."
+  },
+  {
+   "id": "philippians-name-above-every-name",
+   "after": "source:ABU0495",
+   "responds": [
+    "source:ABU0495"
+   ],
+   "relation": "adjacent",
+   "why": "Under the crown of thorns “He thought of the crown of the Kingdom.” Paul: he humbled himself, even unto the death of the cross; wherefore God also hath highly exalted him, and given him a name which is above every name."
+  },
+  {
+   "id": "john-what-i-have-written",
+   "after": "source:ABU1175",
+   "responds": [
+    "source:ABU1175"
+   ],
+   "relation": "adjacent",
+   "why": "“All earthly crowns … bowed in adoration before the crown of thorns.” The governor who condemned him wrote the title himself and would not change it: Jesus of Nazareth the King of the Jews. What I have written I have written."
+  },
+  {
+   "id": "revelation-seventh-angel-sounded",
+   "after": "source:ABU1963",
+   "responds": [
+    "source:ABU1963"
+   ],
+   "relation": "adjacent",
+   "why": "He “beheld innumerable kings bowing their jewelled crowns.” Revelation: the kingdoms of this world are become the kingdoms of our Lord, and of his Christ."
+  },
+  {
+   "id": "john-son-of-man-which-is-in-heaven",
+   "after": "source:AB01866",
+   "responds": [
+    "source:AB01866"
+   ],
+   "relation": "adjacent",
+   "why": "“The heaven into which the Messiah rose up was not this unending sky.” ‘Abdu’l-Bahá quotes this verse: no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven."
+  },
+  {
+   "id": "acts-cloud-received-him",
+   "after": "source:AB12232",
+   "responds": [
+    "source:AB12232"
+   ],
+   "relation": "contrast",
+   "why": "“By heaven is not meant the physical heaven.” The Acts of the Apostles tells the ascension as something seen: while they beheld, he was taken up; and a cloud received him out of their sight. What does a Christian who keeps the visible ascension gain from it, and what does the spiritual reading offer in return?"
+  },
+  {
+   "id": "quran-they-slew-him-not",
+   "after": "source:AB00249",
+   "responds": [
+    "source:AB00249"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá interprets the verse of the Qur’án that seems to deny the crucifixion. In Pickthall’s English: they slew him not nor crucified him, but it appeared so unto them."
+  },
+  {
+   "id": "matthew-fear-not-them-which-kill",
+   "after": "source:AB00249",
+   "responds": [
+    "source:AB00249"
+   ],
+   "relation": "adjacent",
+   "why": "The body was crucified; “the merciful reality … remain[s] eternal and undying.” Jesus had drawn the same line for his followers: fear not them which kill the body, but are not able to kill the soul."
+  },
+  {
+   "id": "tertullian-blood-is-seed",
+   "after": "source:AB09387",
+   "responds": [
+    "source:AB09387"
+   ],
+   "relation": "adjacent",
+   "why": "Efforts to put out the fire make it greater. Tertullian to the Roman governors, about 197: the oftener we are mown down by you, the more in number we grow; the blood of Christians is seed."
+  },
+  {
+   "id": "matthew-come-down-from-the-cross",
+   "after": "source:ABU1911",
+   "responds": [
+    "source:ABU1911"
+   ],
+   "relation": "adjacent",
+   "why": "They cried that he could not be the Messiah, who was to come under stated conditions. At the cross: if he be the King of Israel, let him now come down from the cross, and we will believe him."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:ABU0783",
+   "responds": [
+    "source:ABU0783"
+   ],
+   "relation": "complement",
+   "why": "The kingdom in which “even the animals must live in peace” was not fulfilled in his time. The prophecy in question: the wolf also shall dwell with the lamb. Jewish readers have always pointed to this as the reason the Messiah cannot yet have come. How do the readings answer them?"
+  },
+  {
+   "id": "gibbon-banner-of-the-cross",
+   "after": "source:AB01528",
+   "responds": [
+    "source:AB01528"
+   ],
+   "relation": "adjacent",
+   "why": "After the ascension his glory was established “across the reaches of the earth.” Gibbon, no friend of the Church, on the fact to be explained: a pure and humble religion finally erected the triumphant banner of the cross on the ruins of the Capitol."
+  },
+  {
+   "id": "vatican-cannot-be-charged",
+   "after": "source:AB01528",
+   "responds": [
+    "source:AB01528"
+   ],
+   "relation": "contrast",
+   "why": "Several of these talks speak of “the Jews” as those who rejected and crucified Christ, as the Gospels do. For centuries such words were turned against a whole people. The Catholic Church declared in 1965: what happened in His passion cannot be charged against all the Jews, without distinction, then alive, nor against the Jews of today. How should these passages be read aloud today?"
+  },
+  {
+   "id": "luke-herod-hoped-to-have-seen-some-miracle",
+   "after": "source:ABU1055",
+   "responds": [
+    "source:ABU1055"
+   ],
+   "relation": "adjacent",
+   "why": "“He said nothing, and if in these days they do the same to me, I shall say nothing.” Luke: Herod questioned with him in many words; but he answered him nothing."
+  },
+  {
+   "id": "psalm-why-hast-thou-forsaken-me",
+   "after": "source:ABU3683",
+   "responds": [
+    "source:ABU3683"
+   ],
+   "relation": "contrast",
+   "why": "In this report of a talk, Christ “never suffered upon the cross” and did not cry out that he was forsaken. Matthew and Mark record the cry, and it is the first line of a psalm: my God, my God, why hast thou forsaken me? What would be lost to those who suffer if he had not said it?"
+  },
+  {
+   "id": "hebrews-tempted-like-as-we-are",
+   "after": "source:ABU3683",
+   "responds": [
+    "source:ABU3683"
+   ],
+   "relation": "contrast",
+   "why": "The same report says he felt “nothing but the Divine Presence.” The Letter to the Hebrews rests its comfort on the opposite: we have not an high priest which cannot be touched with the feeling of our infirmities. How does this report sit beside the first reading, where Bahá’u’lláh describes the prayer in the garden?"
+  },
+  {
+   "id": "matthew-spirit-willing",
+   "after": "source:ABU1363",
+   "responds": [
+    "source:ABU1363"
+   ],
+   "relation": "adjacent",
+   "why": "Why did Christ pray that the cup pass, when his apostles went gladly to martyrdom? In the same garden he said of human nature: the spirit indeed is willing, but the flesh is weak."
+  },
+  {
+   "id": "polycarp-eighty-and-six-years",
+   "after": "source:ABU1363",
+   "responds": [
+    "source:ABU1363"
+   ],
+   "relation": "adjacent",
+   "why": "One of the martyrs the question has in mind. Polycarp, bishop of Smyrna, told to curse Christ and live: eighty and six years have I served Him, and He never did me any injury: how then can I blaspheme my King?"
+  },
+  {
+   "id": "acts-through-ignorance",
+   "after": "source:ABU0454",
+   "responds": [
+    "source:ABU0454"
+   ],
+   "relation": "adjacent",
+   "why": "“Inadvertence so blinded the people.” Peter to a crowd in Jerusalem weeks afterwards: I wot that through ignorance ye did it, as did also your rulers."
+  },
+  {
+   "id": "matthew-foxes-have-holes",
+   "after": "source:ABU3665",
+   "responds": [
+    "source:ABU3665"
+   ],
+   "relation": "adjacent",
+   "why": "A cardinal’s procession and Christ’s: one with ceremony, one with a crown of thorns. Jesus: the foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head."
+  },
+  {
+   "id": "corinthians-stumblingblock",
+   "after": "source:ABU0304",
+   "responds": [
+    "source:ABU0304"
+   ],
+   "relation": "adjacent",
+   "why": "“If His Holiness Christ had not been martyred, His Cause would not have become so famous.” Paul: we preach Christ crucified, unto the Jews a stumblingblock, and unto the Greeks foolishness."
+  },
+  {
+   "id": "lamentations-is-it-nothing-to-you",
+   "after": "source:ABU0680",
+   "responds": [
+    "source:ABU0680"
+   ],
+   "relation": "adjacent",
+   "why": "Tourists at the holy places “are not thinking of Christ.” Words from Lamentations that Christians have long placed on his lips: is it nothing to you, all ye that pass by? behold, and see if there be any sorrow like unto my sorrow."
+  }
+ ],
+ "library": {}
+}

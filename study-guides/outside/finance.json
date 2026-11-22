@@ -1,0 +1,467 @@
+{
+ "format": 2,
+ "slug": "finance",
+ "subject": "8EDE6B0C407DE4EE770AB1CEFF0BCA15",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 23,
+ "quotations": 23,
+ "kept": [
+  "source:AB11381",
+  "source:BH10890",
+  "source:BBU0013",
+  "source:ABU0858",
+  "source:ABU0822",
+  "source:AB12145",
+  "source:AB02974",
+  "source:AB09988",
+  "source:ABU1198",
+  "source:ABU0330",
+  "source:BH09071",
+  "source:ABU3329",
+  "source:ABU3427",
+  "source:AB10212",
+  "source:ABU1047",
+  "source:ABU2760",
+  "source:AB00757",
+  "source:AB06140",
+  "source:AB01301",
+  "source:AB09378",
+  "source:AB12800",
+  "source:ABU1404",
+  "source:ABU1578"
+ ],
+ "introduction": "The Báb was a merchant, and Bahá’u’lláh made work in a trade or profession an obligation and a form of worship. These readings apply the teachings to ordinary commercial life: a company founded on trustworthiness; partnerships with roles and accounts written down; allowing for the other party’s profit; a steady small business rather than speculation; contentment whether a venture gains or loses; officials who live on their wages and take no bribes; and two stories of merchants, one given credit on his honesty alone and one unmoved by the loss of a cargo. The Hebrew law of just weights, the Proverbs on diligence and on haste to be rich, the Qur’án’s “trade by mutual consent” and its woe on those who give short measure are the oldest commercial ethics we have, and they agree with the readings almost line by line. Adam Smith’s famous sentence about the butcher and the baker is set beside the first reading as the classic statement of what markets can do without virtue, and Mencius beside the twelfth for the opposite reason: he would not have honesty recommended as profitable.",
+ "questions": [
+  "“You must neither defraud your neighbour nor allow him to defraud you.” Why does the Báb add the second half?",
+  "Adam Smith says we get our dinner from the baker’s self-interest. What goes wrong in a market, in your experience, when trust is absent?",
+  "“A small business with a steady income is better than … wild, helter-skelter speculations.” Where is the line between enterprise and speculation?",
+  "“Do thou continue to be honest in thy dealings for one month.” Mencius objected to recommending virtue for its profit. How would you answer him?",
+  "The merchant who lost his cargo was not disturbed. Is that detachment available to someone whose family depends on the cargo?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-good-name",
+   "after": "source:AB11381",
+   "responds": [
+    "source:AB11381"
+   ],
+   "relation": "adjacent",
+   "why": "A company’s foundations should be “trustworthiness, piety, and truthfulness,” so that it becomes “a magnet of fidelity.” Proverbs: a good name is rather to be chosen than great riches."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:AB11381",
+   "responds": [
+    "source:AB11381"
+   ],
+   "relation": "contrast",
+   "why": "Adam Smith built commerce on another foundation: it is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest. Can a market run on self-interest alone? What does the reading say it needs first?"
+  },
+  {
+   "id": "psalm-eat-the-labour-of-thine-hands",
+   "after": "source:BH10890",
+   "responds": [
+    "source:BH10890"
+   ],
+   "relation": "adjacent",
+   "why": "“Blessed is he who beareth burdens but causeth none to bear his own.” The psalm: thou shalt eat the labour of thine hands: happy shalt thou be."
+  },
+  {
+   "id": "proverbs-wealth-gotten-by-vanity",
+   "after": "source:BH10890",
+   "responds": [
+    "source:BH10890"
+   ],
+   "relation": "adjacent",
+   "why": "A single coin earned by craft is better than “treasure that is gathered unrightfully.” Proverbs: wealth gotten by vanity shall be diminished: but he that gathereth by labour shall increase."
+  },
+  {
+   "id": "proverbs-false-balance",
+   "after": "source:BBU0013",
+   "responds": [
+    "source:BBU0013"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb, a merchant, sent back a purchase made at an unfair advantage: “you must neither defraud your neighbour nor allow him to defraud you.” Proverbs: a false balance is abomination to the Lord: but a just weight is his delight."
+  },
+  {
+   "id": "quran-woe-unto-the-defrauders",
+   "after": "source:BBU0013",
+   "responds": [
+    "source:BBU0013"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án: woe unto the defrauders, who when they take the measure from mankind demand it full, but if they measure unto them, they cause them loss."
+  },
+  {
+   "id": "quran-trade-by-mutual-consent",
+   "after": "source:ABU0858",
+   "responds": [
+    "source:ABU0858"
+   ],
+   "relation": "adjacent",
+   "why": "In commerce, “allow for the profit of others.” The Qur’án’s rule: squander not your wealth among yourselves in vanity, except it be a trade by mutual consent."
+  },
+  {
+   "id": "proverbs-it-is-naught-saith-the-buyer",
+   "after": "source:ABU0858",
+   "responds": [
+    "source:ABU0858"
+   ],
+   "relation": "complement",
+   "why": "Proverbs watches an ordinary bargain: it is naught, it is naught, saith the buyer: but when he is gone his way, then he boasteth. What would bargaining look like between two people who each wanted the other to profit?"
+  },
+  {
+   "id": "proverbs-diligent-in-his-business",
+   "after": "source:ABU0822",
+   "responds": [
+    "source:ABU0822"
+   ],
+   "relation": "adjacent",
+   "why": "“If in commerce, act according to its principles,” and aim at perfection in it. Proverbs: seest thou a man diligent in his business? he shall stand before kings."
+  },
+  {
+   "id": "jeremiah-subscribed-the-evidence",
+   "after": "source:AB12145",
+   "responds": [
+    "source:AB12145"
+   ],
+   "relation": "adjacent",
+   "why": "A partnership should have every role, income and expense set down “so that there remains no room for dispute.” Jeremiah buying a field: I subscribed the evidence, and sealed it, and took witnesses, and weighed him the money in the balances."
+  },
+  {
+   "id": "luke-faithful-in-that-which-is-least",
+   "after": "source:AB02974",
+   "responds": [
+    "source:AB02974"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever is not trustworthy with household and associates has turned from the counsels. Jesus: he that is faithful in that which is least is faithful also in much."
+  },
+  {
+   "id": "proverbs-haste-to-be-rich",
+   "after": "source:ABU1198",
+   "responds": [
+    "source:ABU1198"
+   ],
+   "relation": "adjacent",
+   "why": "“A small business with a steady income is better than the wild, helter-skelter speculations of the financiers.” Proverbs: he that maketh haste to be rich shall not be innocent."
+  },
+  {
+   "id": "timothy-love-of-money",
+   "after": "source:ABU0330",
+   "responds": [
+    "source:ABU0330"
+   ],
+   "relation": "adjacent",
+   "why": "A merchant “must be satisfied with a limited amount of success.” Paul: they that will be rich fall into temptation and a snare; for the love of money is the root of all evil."
+  },
+  {
+   "id": "proverbs-better-is-a-little-with-righteousness",
+   "after": "source:ABU0330",
+   "responds": [
+    "source:ABU0330"
+   ],
+   "relation": "adjacent",
+   "why": "Proverbs: better is a little with righteousness than great revenues without right."
+  },
+  {
+   "id": "kipling-if",
+   "after": "source:BH09071",
+   "responds": [
+    "source:BH09071"
+   ],
+   "relation": "adjacent",
+   "why": "Trade so that “neither shall its profit gladden thee nor its loss grieve thee.” Kipling: meet with Triumph and Disaster and treat those two impostors just the same."
+  },
+  {
+   "id": "mencius-why-use-that-word-profit",
+   "after": "source:ABU3329",
+   "responds": [
+    "source:ABU3329"
+   ],
+   "relation": "complement",
+   "why": "“The best capital and the most profitable business is honesty.” Mencius would not have let the argument rest on profit at all: why must you use that word “profit”? Let benevolence and righteousness be your only themes. Is honesty that is practised because it pays still honesty?"
+  },
+  {
+   "id": "ruskin-no-wealth-but-life",
+   "after": "source:ABU3427",
+   "responds": [
+    "source:ABU3427"
+   ],
+   "relation": "adjacent",
+   "why": "Riches earned by effort and “rightly administered” are praiseworthy as a benefit to the state. Ruskin’s measure of them: there is no wealth but life. That country is the richest which nourishes the greatest number of noble and happy human beings."
+  },
+  {
+   "id": "dickens-mankind-business",
+   "after": "source:AB10212",
+   "responds": [
+    "source:AB10212"
+   ],
+   "relation": "adjacent",
+   "why": "A company formed “to serve the world of humanity.” Marley’s ghost, too late: mankind was my business. The common welfare was my business."
+  },
+  {
+   "id": "romans-love-fulfilling-of-the-law",
+   "after": "source:ABU2760",
+   "responds": [
+    "source:ABU2760"
+   ],
+   "relation": "adjacent",
+   "why": "The friends should pay a dead believer’s debts. Paul: owe no man any thing, but to love one another."
+  },
+  {
+   "id": "exodus-gift-blindeth-the-wise",
+   "after": "source:AB00757",
+   "responds": [
+    "source:AB00757"
+   ],
+   "relation": "adjacent",
+   "why": "While bribery marks the eminent, “success and prosperity are impossible.” Exodus: thou shalt take no gift: for the gift blindeth the wise."
+  },
+  {
+   "id": "luke-content-with-your-wages",
+   "after": "source:AB06140",
+   "responds": [
+    "source:AB06140"
+   ],
+   "relation": "adjacent",
+   "why": "Those in government offices must be “content with their wages.” John the Baptist to tax collectors and soldiers: exact no more than that which is appointed you; and be content with your wages."
+  },
+  {
+   "id": "deuteronomy-perfect-and-just-weight",
+   "after": "source:AB12800",
+   "responds": [
+    "source:AB12800"
+   ],
+   "relation": "adjacent",
+   "why": "Four friends are advised to pool their copper, record each share in a ledger and keep a daily account. Deuteronomy: thou shalt have a perfect and just weight, a perfect and just measure shalt thou have."
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "source:ABU1578",
+   "responds": [
+    "source:ABU1578"
+   ],
+   "relation": "adjacent",
+   "why": "A merchant learns by cable that his cargo is lost, and is unmoved. Job: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  }
+ ],
+ "library": {
+  "proverbs-haste-to-be-rich": {
+   "text": "A faithful man shall abound with blessings: but he that maketh haste to be rich shall not be innocent",
+   "work": "Proverbs 28:20",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2028%3A20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-wealth-gotten-by-vanity": {
+   "text": "Wealth gotten by vanity shall be diminished: but he that gathereth by labour shall increase",
+   "work": "Proverbs 13:11",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2013%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-it-is-naught-saith-the-buyer": {
+   "text": "It is naught, it is naught, saith the buyer: but when he is gone his way, then he boasteth",
+   "work": "Proverbs 20:14",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2020%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-gift-blindeth-the-wise": {
+   "text": "And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous",
+   "work": "Exodus 23:8",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2023%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-borroweth-and-payeth-not-again": {
+   "text": "The wicked borroweth, and payeth not again: but the righteous sheweth mercy, and giveth",
+   "work": "Psalm 37:21",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2037%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-perfect-and-just-weight": {
+   "text": "Thou shalt not have in thy bag divers weights, a great and a small. Thou shalt not have in thine house divers measures, a great and a small. But thou shalt have a perfect and just weight, a perfect and just measure shalt thou have: that thy days may be lengthened in the land which the Lord thy God giveth thee",
+   "work": "Deuteronomy 25:13–15",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2025%3A13-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-better-is-a-little-with-righteousness": {
+   "text": "Better is a little with righteousness than great revenues without right",
+   "work": "Proverbs 16:8",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2016%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-trade-by-mutual-consent": {
+   "text": "O ye who believe! Squander not your wealth among yourselves in vanity, except it be a trade by mutual consent, and kill not one another. Lo! Allah is ever Merciful unto you.",
+   "work": "Qur’an 4:29",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=29",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "jeremiah-subscribed-the-evidence": {
+   "text": "And I bought the field of Hanameel my uncle's son, that was in Anathoth, and weighed him the money, even seventeen shekels of silver. And I subscribed the evidence, and sealed it, and took witnesses, and weighed him the money in the balances",
+   "work": "Jeremiah 32:9–10",
+   "year": "6th century BCE",
+   "sortYear": -590,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2032%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

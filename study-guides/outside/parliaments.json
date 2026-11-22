@@ -1,0 +1,425 @@
+{
+ "format": 2,
+ "slug": "parliaments",
+ "subject": "E044C256CB5C4D72999B0C5C614438D8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 33,
+ "quotations": 33,
+ "kept": [
+  "source:ABU0540",
+  "source:AB09517",
+  "source:ABU3097",
+  "source:ABU2156",
+  "source:ABU2929",
+  "source:AB00113",
+  "source:ABU0841",
+  "source:AB01216",
+  "source:AB11815",
+  "source:ABU2852",
+  "source:AB11832",
+  "source:ABU2686",
+  "source:ABU0788",
+  "source:AB00203",
+  "source:ABU1515",
+  "source:AB00004",
+  "source:BH00005",
+  "source:AB07452",
+  "source:AB02050",
+  "source:AB01143",
+  "source:AB00563",
+  "source:AB00016",
+  "selection:528452bf2dd599a17ba48035",
+  "selection:bcaeebb93f9ebab6fa6f0341",
+  "selection:dd42abb0f540f7d7a82e101b",
+  "selection:7b3450c7c673aea549056a29",
+  "selection:23f01da554e056ebf51196c1",
+  "selection:87256c887bb5c652618caa8d",
+  "selection:7ce5ab18777ed136743bbe49",
+  "selection:4c3c9a087fd43c73856c122c",
+  "selection:212b148f90cca57ebae08cbd",
+  "selection:eb29ef3f5b5fc409d920717a",
+  "selection:7eba85abec4ae32beb05585d"
+ ],
+ "introduction": "‘Abdu’l-Bahá watched Iran’s first parliaments and the Ottoman constitution at close range, and these readings are a participant’s counsel. A parliament exists to find the truth of a question, and noise and faction defeat it. Constitutional government is called a religious principle and “the decisive text of the Most Holy Book”; absolutism is illegitimate; government and people must mix “like milk and honey.” From there the readings look outward to a parliament of nations, and Shoghi Effendi and the Universal House of Justice distinguish a future world government from the Bahá’í Administrative Order, which is elected yet is not democratic in the ordinary sense. Beside them are the classic texts of representative government: Deuteronomy’s king under law, Samuel’s warning, Proverbs on counsel, Burke at Bristol, the American Declaration, Madison, Jefferson, Lincoln, Acton and the Universal Declaration, with Tennyson and Hugo, the poets ‘Abdu’l-Bahá had in mind. Mill defends adversarial argument, Burke denies that a member is bound by his electors’ instructions, Homer’s line prefers one ruler, and Kant fears a world state.",
+ "questions": [
+  "‘Abdu’l-Bahá calls antagonism “always destructive to truth.” Mill holds that truth emerges from opposing advocates. Describe a way of deliberating that keeps what each is protecting.",
+  "One reading says elected members “are pledged to carry out [the people’s] will”; Burke says a representative owes his electors his judgment; Shoghi Effendi says the Bahá’í institutions do not take their mandate from the people. How do these fit together?",
+  "Constitutional government is called “a religious and binding principle.” What in Deuteronomy, Samuel and the Qur’án’s praise of counsel supports that reading of religion, and what in religious history resists it?",
+  "‘Abdu’l-Bahá advised a sultan to grant a constitution and advised reformers to petition humbly. The Declaration of Independence asserts a right to abolish destructive government. What theory of change lies behind his counsel?",
+  "The qualifications asked of members are moral before they are technical. Madison built for a world without angels. Can a constitution make up for the character of those who work it?",
+  "Kant feared a universal monarchy; the readings foresee a world super-state and, beyond it, a world commonwealth. What safeguards do the readings name, and which would you want spelled out?"
+ ],
+ "outside": [
+  {
+   "id": "burke-deliberative-assembly-of-one-nation",
+   "after": "source:ABU0540",
+   "responds": [
+    "source:ABU0540"
+   ],
+   "relation": "adjacent",
+   "why": "Parliament is for “the attainment of the light of truth … and not … a battleground for opposition.” Burke to his constituents in 1774: parliament is not a congress of ambassadors from different and hostile interests; it is a deliberative assembly of one nation."
+  },
+  {
+   "id": "james-swift-to-hear",
+   "after": "source:ABU0540",
+   "responds": [
+    "source:ABU0540"
+   ],
+   "relation": "adjacent",
+   "why": "“Antagonism and contradiction are … always destructive to truth.” James: let every man be swift to hear, slow to speak, slow to wrath."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU0540",
+   "responds": [
+    "source:ABU0540"
+   ],
+   "relation": "contrast",
+   "why": "Antagonism is called “always destructive to truth.” Mill thought that truth in public questions comes out only when each side is argued by someone who believes it: he who knows only his own side of the case, knows little of that. Can a chamber hear the strongest case against a measure without the opposition the reading condemns?"
+  },
+  {
+   "id": "proverbs-soft-answer",
+   "after": "source:AB09517",
+   "responds": [
+    "source:AB09517"
+   ],
+   "relation": "adjacent",
+   "why": "A parliament of “noise and clamor rather than the investigation of the welfare” of the people. Proverbs: a soft answer turneth away wrath: but grievous words stir up anger."
+  },
+  {
+   "id": "jefferson-difference-of-opinion",
+   "after": "source:AB09517",
+   "responds": [
+    "source:AB09517"
+   ],
+   "relation": "adjacent",
+   "why": "Jefferson, taking office after the most bitter election his country had seen: every difference of opinion is not a difference of principle."
+  },
+  {
+   "id": "universal-declaration-21",
+   "after": "source:ABU3097",
+   "responds": [
+    "source:ABU3097"
+   ],
+   "relation": "adjacent",
+   "why": "Members should be chosen by “the choice and satisfaction of the public.” The Universal Declaration of Human Rights, 1948: the will of the people shall be the basis of the authority of government."
+  },
+  {
+   "id": "burke-owes-you-his-judgment",
+   "after": "source:ABU3097",
+   "responds": [
+    "source:ABU3097"
+   ],
+   "relation": "contrast",
+   "why": "Members elected by the people “are pledged to carry out their will, and to follow out their instructions.” Burke told the voters who had just elected him the opposite: your representative owes you, not his industry only, but his judgment; and he betrays, instead of serving you, if he sacrifices it to your opinion. Which view do the later readings on the Bahá’í institutions take?"
+  },
+  {
+   "id": "locke-where-there-is-no-law",
+   "after": "source:ABU2156",
+   "responds": [
+    "source:ABU2156"
+   ],
+   "relation": "adjacent",
+   "why": "“Constitutional government is a religious and binding principle.” John Locke on why a people needs settled law above its rulers: where there is no law, there is no freedom."
+  },
+  {
+   "id": "deuteronomy-king-shall-write-a-copy",
+   "after": "source:ABU2156",
+   "responds": [
+    "source:ABU2156"
+   ],
+   "relation": "adjacent",
+   "why": "A ruler under law is an old religious idea. Deuteronomy required Israel’s king to write out a copy of the law and read it all his life, that his heart be not lifted up above his brethren."
+  },
+  {
+   "id": "kings-forsook-the-counsel-of-the-old-men",
+   "after": "source:ABU2929",
+   "responds": [
+    "source:ABU2929"
+   ],
+   "relation": "adjacent",
+   "why": "A sultan was advised to grant rights and a constitution, “but he did not listen and you see today the results.” Rehoboam, asked to lighten the people’s burden: he forsook the counsel of the old men, and lost ten tribes."
+  },
+  {
+   "id": "quran-matter-of-counsel",
+   "after": "source:AB00113",
+   "responds": [
+    "source:AB00113"
+   ],
+   "relation": "adjacent",
+   "why": "Constitutional government is “the decisive text of the Most Holy Book.” The Qur’án had praised those whose affairs are a matter of counsel."
+  },
+  {
+   "id": "acton-power-tends-to-corrupt",
+   "after": "source:AB00113",
+   "responds": [
+    "source:AB00113"
+   ],
+   "relation": "adjacent",
+   "why": "“Absolutism and autocracy are illegitimate.” Lord Acton: power tends to corrupt, and absolute power corrupts absolutely."
+  },
+  {
+   "id": "burke-means-of-change",
+   "after": "source:ABU0841",
+   "responds": [
+    "source:ABU0841"
+   ],
+   "relation": "adjacent",
+   "why": "“One cannot resist the exigency of the time.” Burke, no friend of revolutions: a state without the means of some change is without the means of its conservation."
+  },
+  {
+   "id": "samuel-we-will-have-a-king-over-us",
+   "after": "source:AB01216",
+   "responds": [
+    "source:AB01216"
+   ],
+   "relation": "adjacent",
+   "why": "Governments resisted their peoples and at last had to yield. The oldest warning about absolute rule was given when a people asked for it: ye shall cry out in that day because of your king which ye shall have chosen you."
+  },
+  {
+   "id": "matthew-kingdom-divided",
+   "after": "source:AB11815",
+   "responds": [
+    "source:AB11815"
+   ],
+   "relation": "adjacent",
+   "why": "Until government and people are “mingled together even as milk and honey,” success is out of reach. Jesus: every kingdom divided against itself is brought to desolation."
+  },
+  {
+   "id": "lincoln-house-divided",
+   "after": "source:ABU2852",
+   "responds": [
+    "source:ABU2852"
+   ],
+   "relation": "adjacent",
+   "why": "“Iran would be ruined” by the division. Lincoln in 1858: a house divided against itself cannot stand."
+  },
+  {
+   "id": "proverbs-multitude-of-counsellors",
+   "after": "source:AB11832",
+   "responds": [
+    "source:AB11832"
+   ],
+   "relation": "adjacent",
+   "why": "A government that conforms to divine law is a constitutional one. Proverbs: where no counsel is, the people fall: but in the multitude of counsellors there is safety."
+  },
+  {
+   "id": "wilson-association-of-nations",
+   "after": "source:ABU2686",
+   "responds": [
+    "source:ABU2686"
+   ],
+   "relation": "adjacent",
+   "why": "The war was to “usher in an era of democracy.” The last of Woodrow Wilson’s Fourteen Points, January 1918: a general association of nations must be formed."
+  },
+  {
+   "id": "lincoln-judgments-of-the-lord",
+   "after": "source:ABU2686",
+   "responds": [
+    "source:ABU2686"
+   ],
+   "relation": "complement",
+   "why": "“The war was not an act of God, but rather the results of the accumulation of our own evil deeds.” Lincoln, of another war, held both together: the judgments of the Lord are true and righteous altogether. How do the two readings of a war’s cause differ in what they ask of the survivors?"
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:ABU0788",
+   "responds": [
+    "source:ABU0788"
+   ],
+   "relation": "adjacent",
+   "why": "“The utopian dream of sages and poets, the parliament of man.” ‘Abdu’l-Bahá is quoting Tennyson’s Locksley Hall of 1842: in the Parliament of man, the Federation of the world."
+  },
+  {
+   "id": "hugo-day-will-come",
+   "after": "source:ABU0788",
+   "responds": [
+    "source:ABU0788"
+   ],
+   "relation": "adjacent",
+   "why": "Another of the poets. Victor Hugo to the Paris Peace Congress of 1849: a day will come when you, all of you, nations of the Continent, will be blended into a superior unity."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU1515",
+   "responds": [
+    "source:ABU1515"
+   ],
+   "relation": "adjacent",
+   "why": "A code of laws for “the future Universal Parliament of Man.” Isaiah’s picture of nations coming to one court: he shall judge among the nations; and they shall beat their swords into plowshares."
+  },
+  {
+   "id": "exodus-jethro-not-good",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The elected “must be righteous, God-fearing, high-minded, incorruptible.” Jethro’s advice to Moses on choosing judges: able men, such as fear God, men of truth, hating covetousness."
+  },
+  {
+   "id": "madison-if-men-were-angels",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Institutions depend on the quality of those who sit in them. Madison designed for their absence: if men were angels, no government would be necessary."
+  },
+  {
+   "id": "aristotle-feast-to-which-many-contribute",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh commends Queen Victoria for entrusting “the reins of counsel” to the people’s representatives. Aristotle: the many, when they meet together, may be better than the few good, just as a feast to which many contribute is better than a dinner provided out of a single purse."
+  },
+  {
+   "id": "aristotle-one-ruler-let-there-be",
+   "after": "source:AB07452",
+   "responds": [
+    "source:AB07452"
+   ],
+   "relation": "contrast",
+   "why": "“Today’s requirement is that governments be constitutional.” The opposite conviction is very old; Aristotle quotes Homer for it: the rule of many is not good; one ruler let there be. What has changed in the world that makes ‘Abdu’l-Bahá call the old answer impossible now?"
+  },
+  {
+   "id": "declaration-consent-of-the-governed",
+   "after": "source:AB02050",
+   "responds": [
+    "source:AB02050"
+   ],
+   "relation": "complement",
+   "why": "Reformers should have presented their case to the Shah “with utmost humility.” The American Declaration claims more: whenever any form of government becomes destructive of these ends, it is the right of the people to alter or to abolish it. Why does ‘Abdu’l-Bahá, who calls absolutism illegitimate, counsel petition and not revolt?"
+  },
+  {
+   "id": "proverbs-purpose-established-by-counsel",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "Parliaments should each elect “two or three persons who are the choicest of that nation.” Proverbs: every purpose is established by counsel."
+  },
+  {
+   "id": "kant-universal-monarchy",
+   "after": "selection:528452bf2dd599a17ba48035",
+   "responds": [
+    "selection:528452bf2dd599a17ba48035"
+   ],
+   "relation": "contrast",
+   "why": "“Some form of a world super-state must needs be evolved.” Kant wanted a federation of free states and feared anything stronger: the fusion of all the states into a universal monarchy would be a soulless despotism. What in Shoghi Effendi’s description answers the fear?"
+  },
+  {
+   "id": "acts-one-blood",
+   "after": "selection:bcaeebb93f9ebab6fa6f0341",
+   "responds": [
+    "selection:bcaeebb93f9ebab6fa6f0341"
+   ],
+   "relation": "adjacent",
+   "why": "A world commonwealth in which all nations, races, creeds and classes are united. Paul at Athens: God hath made of one blood all nations of men for to dwell on all the face of the earth."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "selection:87256c887bb5c652618caa8d",
+   "responds": [
+    "selection:87256c887bb5c652618caa8d"
+   ],
+   "relation": "complement",
+   "why": "The Bahá’í Administrative Order is not “purely democratic”; its mandate does not come from the people. Plato distrusted the popular mandate too and looked to rulers formed by philosophy: until philosophers are kings, cities will never have rest from their evils. How does an elected body that is not answerable to its electors differ from Plato’s guardians?"
+  },
+  {
+   "id": "mill-worth-of-a-state",
+   "after": "selection:87256c887bb5c652618caa8d",
+   "responds": [
+    "selection:87256c887bb5c652618caa8d"
+   ],
+   "relation": "adjacent",
+   "why": "Whatever the form, the readings rest it on character. Mill: the worth of a State, in the long run, is the worth of the individuals composing it."
+  },
+  {
+   "id": "isaiah-rend-the-heavens",
+   "after": "selection:7eba85abec4ae32beb05585d",
+   "responds": [
+    "selection:7eba85abec4ae32beb05585d"
+   ],
+   "relation": "adjacent",
+   "why": "Much suffering is in store before mankind is “fused by the fires of universal affliction into one organic commonwealth.” Isaiah’s prayer: oh that thou wouldest rend the heavens, that thou wouldest come down, as when the melting fire burneth."
+  }
+ ],
+ "library": {
+  "samuel-we-will-have-a-king-over-us": {
+   "text": "And ye shall cry out in that day because of your king which ye shall have chosen you; and the Lord will not hear you in that day. Nevertheless the people refused to obey the voice of Samuel; and they said, Nay; but we will have a king over us; That we also may be like all the nations; and that our king may judge us, and go out before us, and fight our battles",
+   "work": "1 Samuel 8:18–20",
+   "year": "c. 6th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%208%3A18-20&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "burke-deliberative-assembly-of-one-nation": {
+   "text": "Parliament is not a congress of ambassadors from different and hostile interests, which interests each must maintain, as an agent and advocate, against other agents and advocates; rout Parliament is a deliberative assembly of one nation, with one interest, that of the whole—where not local purposes, not local prejudices, ought to guide, but the general good, resulting from the general reason of the whole",
+   "author": "Edmund Burke",
+   "work": "Speech to the Electors of Bristol",
+   "locator": "3 November 1774",
+   "year": "1774",
+   "sortYear": 1774,
+   "tradition": "European literature and thought",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_the_Right_Honourable_Edmund_Burke/Volume_2/Speeches_at_Bristol,_1774",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1797."
+   }
+  },
+  "burke-owes-you-his-judgment": {
+   "text": "Your representative owes you, not his industry only, but his judgment; and he betrays, instead of serving you, if he sacrifices it to your opinion",
+   "author": "Edmund Burke",
+   "work": "Speech to the Electors of Bristol",
+   "locator": "3 November 1774",
+   "year": "1774",
+   "sortYear": 1774,
+   "tradition": "European literature and thought",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Works_of_the_Right_Honourable_Edmund_Burke/Volume_2/Speeches_at_Bristol,_1774",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "repair": [
+     [
+      "by this judgment",
+      "but his judgment"
+     ]
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1797."
+   }
+  }
+ }
+}

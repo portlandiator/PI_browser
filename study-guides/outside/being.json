@@ -1,0 +1,171 @@
+{
+ "format": 2,
+ "slug": "being",
+ "subject": "78550822F6B44C78B39854DB6CA87FAF",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 15,
+ "kept": [
+  "source:ABU0222",
+  "source:AB00815",
+  "source:AB02999",
+  "source:AB00006",
+  "source:BB00064",
+  "source:AB00062",
+  "source:BH03585",
+  "source:AB05302",
+  "source:AB00839",
+  "source:AB00249",
+  "source:AB01382",
+  "source:AB00695",
+  "selection:e13de34685c0999328570b54",
+  "selection:a5d6c8321155cd965c20a149"
+ ],
+ "introduction": "The readings use two words from the philosophers, necessary and contingent: what cannot fail to be, and what exists only because something else gives it existence. From that distinction ‘Abdu’l-Bahá draws a picture of the world as real, dependent at every moment, and as nothing beside its source. The distinction is older than the terms, and its company here runs from the name given to Moses through Plato, Aristotle, Plotinus and Augustine to Aquinas and Descartes, with Spinoza and Lucretius to mark where the argument can turn another way.",
+ "questions": [
+  "Augustine says that things “neither altogether are, nor altogether are not”. Which readings say the same, and what do they add about why?",
+  "Aquinas reasons from causes to a first cause; the second reading reasons from compulsion to One Who compels. What does each argument assume?",
+  "The Báb rejects the view that nothing exists save God’s own manifestation; Spinoza says all things are in God. Where exactly do the readings draw the line?",
+  "Plotinus pictures creation as light always encircling the sun; Lucretius also thought the stuff of the world had no beginning. What separates the reading on the eternity of contingent beings from each of them?"
+ ],
+ "outside": [
+  {
+   "id": "acts-live-and-move",
+   "after": "source:ABU0222",
+   "responds": [
+    "source:ABU0222"
+   ],
+   "relation": "adjacent",
+   "why": "Contingent being “needs the outpouring from the Necessary Being”. Paul said it at Athens, quoting a Greek poet to Greeks: in him we live, and move, and have our being."
+  },
+  {
+   "id": "aquinas-first-efficient-cause",
+   "after": "source:AB00815",
+   "responds": [
+    "source:AB00815"
+   ],
+   "relation": "adjacent",
+   "why": "A world under law it cannot disobey implies One Who compels. Aquinas ends his second way in the same step from the caused to its cause: it is necessary to admit a first efficient cause, to which everyone gives the name of God."
+  },
+  {
+   "id": "job-man-that-is-born",
+   "after": "source:AB00815",
+   "responds": [
+    "source:AB00815"
+   ],
+   "relation": "adjacent",
+   "why": "“Even man is forced to submit to death, sleep, and other conditions.” Job states the condition without the argument: man that is born of a woman is of few days; he fleeth as a shadow, and continueth not."
+  },
+  {
+   "id": "james-every-good-gift",
+   "after": "source:AB02999",
+   "responds": [
+    "source:AB02999"
+   ],
+   "relation": "adjacent",
+   "why": "Contingent existence is “pure imperfection”, necessity “absolute perfection”. James puts whatever is good in creatures down to its source: every perfect gift is from above, from the Father of lights, with whom is no variableness."
+  },
+  {
+   "id": "aristotle-thinking-on-thinking",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The knowledge of the Necessary Being cannot depend on objects outside itself. Aristotle reached the same conclusion about divine thought: it must be of itself that it thinks, and its thinking is a thinking on thinking."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:BB00064",
+   "responds": [
+    "source:BB00064"
+   ],
+   "relation": "contrast",
+   "why": "The Báb denies that the Essence is the reality of the many, pointing to “the limitations of creation, their weakness, and their need”. Spinoza’s proposition is that all things which are, are in God, and without him can neither be nor be conceived. Does Spinoza say what the reading rejects, or only what it grants: that things depend?"
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "Created things proceed from the real Existence as an emanation, not by its descent into them. Plotinus’s metaphor: the One, seeking nothing and lacking nothing, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:AB00062",
+   "responds": [
+    "source:AB00062"
+   ],
+   "relation": "adjacent",
+   "why": "There are “two kinds of existence”. Plato’s Timaeus opens its account of the world with the same division, as a question: what is that which always is and has no becoming, and what is that which is always becoming and never is?"
+  },
+  {
+   "id": "isaiah-nations-as-a-drop",
+   "after": "source:BH03585",
+   "responds": [
+    "source:BH03585"
+   ],
+   "relation": "adjacent",
+   "why": "“Existence itself is as nothing” before the signs of God’s might. Isaiah on the scale: the nations are as a drop of a bucket, and are counted as the small dust of the balance."
+  },
+  {
+   "id": "augustine-neither-altogether-are-nor-are-not",
+   "after": "source:AB05302",
+   "responds": [
+    "source:AB05302"
+   ],
+   "relation": "adjacent",
+   "why": "Contingent existence is “sheer nothingness” that asks for a gleam of being. Augustine saw the same double standing in all things below God: they are, because they are from You; but are not, because they are not what You are."
+  },
+  {
+   "id": "psalm-from-everlasting-to-everlasting",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "“Essential pre-existence is an existence which is not preceded by a cause.” The psalm says it as prayer: before the mountains were brought forth, even from everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "exodus-i-am-hath-sent-me",
+   "after": "source:AB00249",
+   "responds": [
+    "source:AB00249"
+   ],
+   "relation": "adjacent",
+   "why": "Division, descent and change are the marks of the contingent; the Eternal Reality is beyond them. The name given to Moses at the bush says only that it is: I Am That I Am."
+  },
+  {
+   "id": "descartes-conservation-and-creation",
+   "after": "source:AB01382",
+   "responds": [
+    "source:AB01382"
+   ],
+   "relation": "adjacent",
+   "why": "Contingent existence has no being of its own to continue with. Descartes argues that to conserve a substance in each moment requires the same power and act that would be necessary to create it."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB00695",
+   "responds": [
+    "source:AB00695"
+   ],
+   "relation": "adjacent",
+   "why": "“One cannot imagine the sun without rays.” Plotinus used the image for the same purpose, an effect as old as its source: the brilliant light encircling the sun and ceaselessly generated from that unchanging substance."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:AB00695",
+   "responds": [
+    "source:AB00695"
+   ],
+   "relation": "contrast",
+   "why": "Lucretius also held the world’s stuff to be without beginning, and drew the opposite lesson, that it needs no maker: nothing from nothing ever yet was born. What do the readings ask of an eternal world that he does not?"
+  }
+ ],
+ "library": {}
+}
