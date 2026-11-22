@@ -1,0 +1,338 @@
+{
+ "format": 2,
+ "slug": "mind",
+ "subject": "F97B3874575041F7B031336C8EEF15B5",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 28,
+ "quotations": 29,
+ "kept": [
+  "source:ABU0054",
+  "source:ABU1414",
+  "source:AB12758",
+  "source:AB00460",
+  "source:AB02512",
+  "source:ABU1093",
+  "source:ABU1881",
+  "source:ABU0780",
+  "source:AB00447",
+  "source:ABU0008",
+  "source:ABU0405",
+  "source:ABU0016",
+  "source:ABU0506",
+  "source:ABU3609",
+  "source:ABU0163",
+  "source:ABU1902",
+  "source:AB00305",
+  "source:ABU2421",
+  "source:ABU3531",
+  "source:ABU0586",
+  "source:AB02018",
+  "source:AB00020",
+  "source:AB00722",
+  "source:AB00004",
+  "source:ABU3225",
+  "selection:9ef7fda3c997931911a1aa84",
+  "selection:ed4048280ea2a6ed67882307",
+  "selection:1e7b06d0fe1f8d710f96e629"
+ ],
+ "introduction": "‘Abdu’l-Bahá speaks of the mind with admiration. It is invisible and yet it is what a human being really is; it reasons from the known to the unknown; it has brought every science and art out of hiding; it lets a small creature command the forces that command the elephant; and it should never be dulled by drink. He also places it: the mind is the soul’s power as light is the sun’s, the instrument and not the source. Ancient and modern thinkers who share this esteem are here: Aristotle, the Katha Upanishad, Sophocles, the Dhammapada, Pascal, Bacon, Shakespeare, Kant, Emily Dickinson, with Job and Proverbs on the spirit in man. The challenges are serious ones. Lucretius holds that mind dies with the body, Hume that reason serves the passions and that no lasting self can be found, Darwin that the human mind differs from the animal in degree only, and Wordsworth that nature itself is not mindless.",
+ "questions": [
+  "“The reality of man is his thought, not his material body.” What follows for how a person should spend attention, and how a society should treat its members?",
+  "‘Abdu’l-Bahá makes reason “a monarch”; Hume makes it a servant of the passions. Recall a decision of your own. Which description fits it better?",
+  "Darwin says the difference between human and animal minds is one of degree. What evidence would count for a difference of kind? Does human dignity depend on the answer?",
+  "The mental faculties are to the soul “as the radiation of light is the essential property of the sun,” and they weaken with illness and age while the soul does not. How does this meet the argument of Lucretius, and Hume’s failure to find a self?",
+  "“When religion is upheld by science and reason we can believe with assurance.” Pascal adds that the heart has reasons of its own. What is the right work of each in coming to faith?",
+  "Mind lets man “resist nature’s control.” Bacon said nature is commanded by being obeyed. What limits should the power described here accept?"
+ ],
+ "outside": [
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "contrast",
+   "why": "Intelligence and knowledge, “being manifestations of the spirit, … are, therefore, of necessity, immortal.” Lucretius held that mind is born with the body and ends with it, and found peace in the thought: nothing to us was all the time before our birth, and Nature holds this like a mirror up of time-to-be when we are dead. On what does ‘Abdu’l-Bahá’s “therefore” rest?"
+  },
+  {
+   "id": "dhammapada-what-we-have-thought",
+   "after": "source:ABU1414",
+   "responds": [
+    "source:ABU1414"
+   ],
+   "relation": "adjacent",
+   "why": "“The reality of man is his thought.” The first verse of the Dhammapada: all that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts."
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU1414",
+   "responds": [
+    "source:ABU1414"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal: it is not from space that I must seek my dignity, but from the government of my thought. By space the universe encompasses and swallows me up like an atom; by thought I comprehend the world."
+  },
+  {
+   "id": "aristotle-reason-is-man",
+   "after": "source:AB12758",
+   "responds": [
+    "source:AB12758"
+   ],
+   "relation": "adjacent",
+   "why": "Reason as the power to discover the unknown from the known. ‘Abdu’l-Bahá’s definition is that of “the wise,” Aristotle first among them, who said of this power: reason more than anything else is man."
+  },
+  {
+   "id": "job-spirit-in-man",
+   "after": "source:AB00460",
+   "responds": [
+    "source:AB00460"
+   ],
+   "relation": "adjacent",
+   "why": "“The human spirit consists of the rational … faculty.” Elihu in the Book of Job: there is a spirit in man: and the inspiration of the Almighty giveth them understanding."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:AB02512",
+   "responds": [
+    "source:AB02512"
+   ],
+   "relation": "adjacent",
+   "why": "The human spirit “uncovers mysteries” and brings what was hidden into view. Proverbs: the spirit of man is the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "katha-self-in-the-chariot",
+   "after": "source:ABU1093",
+   "responds": [
+    "source:ABU1093"
+   ],
+   "relation": "adjacent",
+   "why": "“Reason is a monarch over the body and the five senses.” The Katha Upanishad: know the Self to be sitting in the chariot, the body to be the chariot, the intellect the charioteer, and the mind the reins; the senses they call the horses."
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:ABU1093",
+   "responds": [
+    "source:ABU1093"
+   ],
+   "relation": "contrast",
+   "why": "Reason rules. Hume turned the old picture upside down: reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them. What in ordinary experience supports each account?"
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:ABU1093",
+   "responds": [
+    "source:ABU1093"
+   ],
+   "relation": "contrast",
+   "why": "Animals lack the reasoning faculty “as fully developed in man,” and later readings make the difference one of kind. Darwin: the difference in mind between man and the higher animals, great as it is, certainly is one of degree and not of kind. What would settle the question, and what hangs on it?"
+  },
+  {
+   "id": "dickinson-brain-wider-than-the-sky",
+   "after": "source:ABU1881",
+   "responds": [
+    "source:ABU1881"
+   ],
+   "relation": "adjacent",
+   "why": "The mind “cannot be seen or heard or smelt or tasted or touched,” and it contains what can. Emily Dickinson: the brain is wider than the sky, for, put them side by side, the one the other will include with ease, and you beside."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:ABU0780",
+   "responds": [
+    "source:ABU0780"
+   ],
+   "relation": "adjacent",
+   "why": "“The intellectual realities are those which are immaterial, as love, wisdom, spirit.” Paul: the things which are seen are temporal; but the things which are not seen are eternal."
+  },
+  {
+   "id": "sophocles-wonders-are-many",
+   "after": "source:AB00447",
+   "responds": [
+    "source:AB00447"
+   ],
+   "relation": "adjacent",
+   "why": "“The discovery of the hidden realities is due to human thought.” The chorus of Sophocles’ Antigone: wonders are many, and none is more wonderful than man; speech, and wind-swift thought, he hath taught himself."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "Man, weak beside the elephant, “can resist nature’s control and apply natural laws to his own uses.” Bacon gave the method: nature to be commanded must be obeyed."
+  },
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:ABU0008",
+   "responds": [
+    "source:ABU0008"
+   ],
+   "relation": "adjacent",
+   "why": "The first charge in Genesis: replenish the earth, and subdue it: and have dominion."
+  },
+  {
+   "id": "shakespeare-piece-of-work",
+   "after": "source:ABU0405",
+   "responds": [
+    "source:ABU0405"
+   ],
+   "relation": "adjacent",
+   "why": "“Man is nobler than nature.” Hamlet: what a piece of work is a man! how noble in reason! how infinite in faculty! in apprehension how like a god!"
+  },
+  {
+   "id": "wordsworth-rolls-through-all-things",
+   "after": "source:ABU0405",
+   "responds": [
+    "source:ABU0405"
+   ],
+   "relation": "complement",
+   "why": "“Man has intelligence; nature has not.” Wordsworth felt in nature a motion and a spirit that impels all thinking things, all objects of all thought, and rolls through all things. Is ‘Abdu’l-Bahá denying what Wordsworth felt, or naming something else by “nature”?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0016",
+   "responds": [
+    "source:ABU0016"
+   ],
+   "relation": "adjacent",
+   "why": "Man “is the manifestation of divine bestowals.” A psalm: thou hast made him a little lower than the angels, and hast crowned him with glory and honour."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU3609",
+   "responds": [
+    "source:ABU3609"
+   ],
+   "relation": "adjacent",
+   "why": "“The soul is the Sanctuary of God; Reason is His Throne.” Kant: two things fill the mind with ever new and increasing admiration and awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "romans-renewing-of-your-mind",
+   "after": "source:ABU0163",
+   "responds": [
+    "source:ABU0163"
+   ],
+   "relation": "adjacent",
+   "why": "An “ideal power” that binds hearts and makes people kinder. Paul: be ye transformed by the renewing of your mind."
+  },
+  {
+   "id": "isaiah-let-us-reason-together",
+   "after": "source:ABU1902",
+   "responds": [
+    "source:ABU1902"
+   ],
+   "relation": "adjacent",
+   "why": "“When religion is upheld by science and reason we can believe with assurance.” God’s invitation in Isaiah: come now, and let us reason together."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:ABU1902",
+   "responds": [
+    "source:ABU1902"
+   ],
+   "relation": "complement",
+   "why": "The rational faculty “is the greatest power in the world.” Pascal, as able a reasoner as his century produced: the heart has its reasons, which reason does not know. What do the readings include in “reason” that might cover what Pascal means by the heart?"
+  },
+  {
+   "id": "proverbs-wine-is-a-mocker",
+   "after": "source:AB00305",
+   "responds": [
+    "source:AB00305"
+   ],
+   "relation": "adjacent",
+   "why": "“Would any person of intelligence consent to extinguish this light with the darkness of intoxication?” Proverbs: wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU2421",
+   "responds": [
+    "source:ABU2421"
+   ],
+   "relation": "adjacent",
+   "why": "“The body and the mind act and react, the one on the other.” Proverbs: a merry heart doeth good like a medicine: but a broken spirit drieth the bones."
+  },
+  {
+   "id": "shakespeare-minister-to-a-mind-diseased",
+   "after": "source:ABU2421",
+   "responds": [
+    "source:ABU2421"
+   ],
+   "relation": "complement",
+   "why": "The mind can modify even bodily ills. Macbeth asks the doctor to work the other way, and is refused: canst thou not minister to a mind diseased? Therein the patient must minister to himself. How far does each power reach?"
+  },
+  {
+   "id": "milton-mind-its-own-place",
+   "after": "source:ABU0586",
+   "responds": [
+    "source:ABU0586"
+   ],
+   "relation": "adjacent",
+   "why": "“This is the power of the mind.” Milton, through a speaker who misuses it: the mind is its own place, and in itself can make a Heaven of Hell, a Hell of Heaven."
+  },
+  {
+   "id": "aristotle-mind-like-light",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "The mental faculties are to the soul as rays to the sun. Aristotle reached for the same comparison: mind is a sort of positive state like light; for in a sense light makes potential colours into actual colours."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "contrast",
+   "why": "The rays change; “the sun itself is ever the same.” Hume looked inward for that unchanging self and reported: when I enter most intimately into what I call myself, I always stumble on some particular perception or other. I never can catch myself. What might ‘Abdu’l-Bahá say Hume was looking with, and for?"
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "source:AB00722",
+   "responds": [
+    "source:AB00722"
+   ],
+   "relation": "complement",
+   "why": "Mind and spirit were present from the beginning, as in an embryo, and appeared by degrees. Darwin closed The Descent of Man: man with all his noble qualities still bears in his bodily frame the indelible stamp of his lowly origin. Where do the two accounts agree, and where do they part?"
+  },
+  {
+   "id": "psalm-beasts-that-perish",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Man is honoured “with intellect and wisdom, the two most luminous lights.” A psalm on leaving the gift unused: man that is in honour, and understandeth not, is like the beasts that perish."
+  }
+ ],
+ "library": {
+  "proverbs-wine-is-a-mocker": {
+   "text": "Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise",
+   "work": "Proverbs 20:1",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2020%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
