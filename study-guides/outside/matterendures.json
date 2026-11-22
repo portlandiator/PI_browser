@@ -1,0 +1,292 @@
+{
+ "format": 2,
+ "slug": "matterendures",
+ "subject": "2C48E4DA524C42328C7C0ADBBA685C0E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 23,
+ "kept": [
+  "source:AB00876",
+  "source:ABU1139",
+  "source:ABU0078",
+  "source:ABU0591",
+  "source:ABU0234",
+  "source:ABU0766",
+  "source:ABU0070",
+  "source:ABU0054",
+  "source:ABU0138",
+  "source:ABU0004",
+  "source:ABU0441",
+  "source:AB01624",
+  "source:ABU0151",
+  "source:ABU1774",
+  "source:ABU1593",
+  "source:ABU0184",
+  "selection:8ae9d57a28b0b301cd74ed8d",
+  "selection:361a81c71c23e58b2664e4f3",
+  "selection:02f2b681a58383fde26212f2"
+ ],
+ "introduction": "In his talks in the West ‘Abdu’l-Bahá often began from a principle his hearers accepted as science: matter is not destroyed. Things come to be by composition and cease by decomposition; the elements pass from mineral to plant to animal to man and back; “not one atom is annihilated.” He used it to say that annihilation is impossible, and then to argue for the soul: what is not composed cannot be decomposed. The last readings add a correction that was ahead of its time. The elements of the chemists are not truly simple, and “a time will come when all the elements will be decomposed.” Lucretius, Heraclitus, Aristotle and Marcus Aurelius held versions of the principle, and the Buddha’s “decay is inherent in all component things” states its other half. Genesis, Ecclesiastes, Hamlet in the graveyard, Rúmí and Whitman have all thought about where the dust goes. Scripture also says that heaven and earth will perish and only God remains, and Lucretius drew from the permanence of atoms the conclusion that the person simply ends.",
+ "questions": [
+  "“Their annihilation is merely transformation.” Trace one atom of your own body backward and forward. What does the exercise do to the idea of death?",
+  "The Buddha says decay is inherent in all compound things; ‘Abdu’l-Bahá agrees and adds that what is not compound does not decay. Why does he hold that the soul is not composed?",
+  "Lucretius accepted that atoms are eternal and concluded that death is the end of the person. Where exactly does his argument part from ‘Abdu’l-Bahá’s?",
+  "“Everything will perish save His countenance.” How do you reconcile the Qur’án’s verse and the psalm with the statement that existence can never become non-existence?",
+  "The guide ends by saying that the supposed simple elements will all prove composite, as physics later found. Does that weaken the earlier argument from simple elements, or show what it was really resting on?"
+ ],
+ "outside": [
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "“Matter and the universal elements cannot be entirely destroyed … their annihilation is merely transformation.” Lucretius laid down the first half of the principle two thousand years ago: nothing from nothing ever yet was born."
+  },
+  {
+   "id": "buddha-decay-is-inherent",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "The life of created things “consists in composition and their death in decomposition.” The Buddha’s last words: decay is inherent in all component things."
+  },
+  {
+   "id": "shakespeare-sea-change",
+   "after": "source:AB00876",
+   "responds": [
+    "source:AB00876"
+   ],
+   "relation": "adjacent",
+   "why": "Ariel’s song for a drowned man: nothing of him that doth fade, but doth suffer a sea-change into something rich and strange."
+  },
+  {
+   "id": "aristotle-elements-change-into-one-another",
+   "after": "source:ABU1139",
+   "responds": [
+    "source:ABU1139"
+   ],
+   "relation": "adjacent",
+   "why": "Iron in an alloy shows new qualities and returns to itself when the alloy is dissolved. Aristotle on the elements: all of them are by nature such as to change into one another."
+  },
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:ABU0078",
+   "responds": [
+    "source:ABU0078"
+   ],
+   "relation": "adjacent",
+   "why": "From the mingling of elements “this creature has come into existence while another has passed away.” Ecclesiastes: one generation passeth away, and another generation cometh: but the earth abideth for ever."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:ABU0591",
+   "responds": [
+    "source:ABU0591"
+   ],
+   "relation": "adjacent",
+   "why": "When the body decomposes “we call that death,” but its atoms remain. Genesis: dust thou art, and unto dust shalt thou return."
+  },
+  {
+   "id": "shakespeare-imperious-caesar",
+   "after": "source:ABU0234",
+   "responds": [
+    "source:ABU0234"
+   ],
+   "relation": "adjacent",
+   "why": "The elements of the body “will return again to the animal and mineral kingdoms.” Hamlet in the graveyard, following a great man’s dust: imperious Caesar, dead and turn’d to clay, might stop a hole to keep the wind away."
+  },
+  {
+   "id": "whitman-every-atom-belonging-to-me",
+   "after": "source:ABU0234",
+   "responds": [
+    "source:ABU0234"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman begins his long poem from the same fact, gladly: every atom belonging to me as good belongs to you."
+  },
+  {
+   "id": "heraclitus-ever-living-fire",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "adjacent",
+   "why": "“The world of elements cannot be annihilated”; what we see are “transformative modifications.” Heraclitus: an ever-living Fire, with measures of it kindling, and measures going out."
+  },
+  {
+   "id": "quran-save-his-countenance",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "contrast",
+   "why": "Pure existence cannot be annihilated. The Qur’án: everything will perish save His countenance. Is the indestructibility of matter in these talks a property matter has of itself, or something else that the verse still allows?"
+  },
+  {
+   "id": "psalm-wax-old-like-a-garment",
+   "after": "source:ABU0766",
+   "responds": [
+    "source:ABU0766"
+   ],
+   "relation": "contrast",
+   "why": "A psalm on the heavens and the earth: they shall perish, but thou shalt endure: yea, all of them shall wax old like a garment. Scripture seems to make permanence God’s alone. How might ‘Abdu’l-Bahá’s distinction between composed things and simple elements be set beside it?"
+  },
+  {
+   "id": "whitman-smallest-sprout-no-death",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "“Total annihilation is an impossibility.” Whitman, looking at grass on a grave: the smallest sprout shows there is really no death. All goes onward and outward, nothing collapses."
+  },
+  {
+   "id": "genesis-seedtime-and-harvest",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "“As nature is indestructible, every simple element of nature is lasting.” The promise after the flood speaks of an order that continues through every change: while the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease."
+  },
+  {
+   "id": "marcus-to-thee-all-return",
+   "after": "source:ABU0441",
+   "responds": [
+    "source:ABU0441"
+   ],
+   "relation": "adjacent",
+   "why": "“Not one atom is annihilated.” Marcus Aurelius to Nature: from thee are all things, in thee are all things, to thee all things return."
+  },
+  {
+   "id": "muir-hitched",
+   "after": "source:AB01624",
+   "responds": [
+    "source:AB01624"
+   ],
+   "relation": "adjacent",
+   "why": "“Every part of the universe is connected with every other part.” John Muir: when we try to pick out anything by itself, we find it hitched to everything else in the universe."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0151",
+   "responds": [
+    "source:ABU0151"
+   ],
+   "relation": "adjacent",
+   "why": "“There is only transfer from one rank to another.” Rúmí: I died as inanimate matter and arose a plant, I died as a plant and rose again an animal. I died as an animal and arose a man."
+  },
+  {
+   "id": "corinthians-not-quickened-except-it-die",
+   "after": "source:ABU1774",
+   "responds": [
+    "source:ABU1774"
+   ],
+   "relation": "adjacent",
+   "why": "“Man is indestructible” and “has travelled through all the worlds of existence.” Paul uses the seed: that which thou sowest is not quickened, except it die."
+  },
+  {
+   "id": "ecclesiastes-rivers-run-into-the-sea",
+   "after": "source:ABU1593",
+   "responds": [
+    "source:ABU1593"
+   ],
+   "relation": "adjacent",
+   "why": "“The law of conservation of energy is a reality.” Ecclesiastes noticed a conservation in nature long before it had a name: all the rivers run into the sea; yet the sea is not full; unto the place from whence the rivers come, thither they return again."
+  },
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:ABU0184",
+   "responds": [
+    "source:ABU0184"
+   ],
+   "relation": "contrast",
+   "why": "The argument is carried over to the soul: it “is not composed” and so cannot be dissolved. Lucretius used the permanence of atoms the other way: the atoms remain, the person does not, and death is nothing to us. Why does ‘Abdu’l-Bahá think the soul is like a simple element and unlike the body made of elements?"
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:ABU0184",
+   "responds": [
+    "source:ABU0184"
+   ],
+   "relation": "adjacent",
+   "why": "Ecclesiastes gives both destinations in a line: then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it."
+  },
+  {
+   "id": "longfellow-not-spoken-of-the-soul",
+   "after": "source:ABU0184",
+   "responds": [
+    "source:ABU0184"
+   ],
+   "relation": "adjacent",
+   "why": "Death “does not pertain to existence”; the soul is not a formation of elements. Longfellow’s psalm of life makes the same exception to Genesis: dust thou art, to dust returnest, was not spoken of the soul."
+  },
+  {
+   "id": "peter-elements-shall-melt",
+   "after": "selection:8ae9d57a28b0b301cd74ed8d",
+   "responds": [
+    "selection:8ae9d57a28b0b301cd74ed8d"
+   ],
+   "relation": "complement",
+   "why": "The indivisible elements “are eternal and changeless.” The Second Letter of Peter expects otherwise: the elements shall melt with fervent heat. And the next readings in this guide say that what are now called elements will themselves be decomposed. What, in the end, is the claim of permanence about?"
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "selection:02f2b681a58383fde26212f2",
+   "responds": [
+    "selection:02f2b681a58383fde26212f2"
+   ],
+   "relation": "complement",
+   "why": "“All material things will prove on close examination to be composite.” Twentieth-century physics bore this out for the atom. Paul had located permanence elsewhere altogether: the things which are seen are temporal; but the things which are not seen are eternal. If no material thing is truly simple, what becomes of an argument from simple elements?"
+  }
+ ],
+ "library": {
+  "whitman-smallest-sprout-no-death": {
+   "text": "The smallest sprout shows there is really no death, / And if ever there was it led forward life, and does not wait at the end to arrest it, / And ceas'd the moment life appear'd. / All goes onward and outward, nothing collapses, / And to die is different from what any one supposed, and luckier",
+   "verse": true,
+   "author": "Walt Whitman",
+   "work": "Song of Myself",
+   "locator": "section 6",
+   "year": "1855; final text 1881",
+   "sortYear": 1855,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leaves_of_Grass_(1882)/Song_of_Myself",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  },
+  "whitman-every-atom-belonging-to-me": {
+   "text": "For every atom belonging to me as good belongs to you",
+   "verse": true,
+   "author": "Walt Whitman",
+   "work": "Song of Myself",
+   "locator": "section 1",
+   "year": "1855; final text 1881",
+   "sortYear": 1855,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Leaves_of_Grass_(1882)/Song_of_Myself",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1892."
+   }
+  }
+ }
+}
