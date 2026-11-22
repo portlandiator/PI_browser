@@ -1,0 +1,91 @@
+{
+ "format": 2,
+ "slug": "originalsin",
+ "subject": "3B82BF1535D8E057003BB1BA09CF4C23",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 7,
+ "quotations": 7,
+ "kept": [
+  "source:ABU0139",
+  "source:AB00096",
+  "source:AB00038",
+  "source:AB00100",
+  "source:ABU0757",
+  "source:ABU0217",
+  "source:ABU2403"
+ ],
+ "introduction": "Seven readings from ‘Abdu’l-Bahá take up the story of Adam and the tree. He will not have a just God punish children for a father’s act, and he reads the story as a figure: the tree is attachment to the material world, the bondage it brings is handed on by nature, not by guilt, and release is a second birth. The story and its first great interpreter, Paul, stand beside the readings, with Ezekiel and the Qur’an, which had already refused inherited guilt, and Milton and Augustine, who shaped what most readers of English mean by the Fall.",
+ "questions": [
+  "Ezekiel and the Qur’an both say that no one bears another’s sin. Why, then, has the story of Adam so often been read the other way?",
+  "Paul writes that by one man sin entered into the world. What do the readings keep of his sentence, and what do they decline?",
+  "Milton tells the Fall as an event that brought death and woe; the readings tell it as a condition each person is born into. What follows, in practice, from each telling?"
+ ],
+ "outside": [
+  {
+   "id": "ezekiel-son-shall-not-bear",
+   "after": "source:ABU0139",
+   "responds": [
+    "source:ABU0139"
+   ],
+   "relation": "adjacent",
+   "why": "A ruler who punished a son for his father’s wrong would be called unjust. Ezekiel had said as much in God’s name: the son shall not bear the iniquity of the father."
+  },
+  {
+   "id": "romans-by-one-man",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "contrast",
+   "why": "Most Christians, the reading says, believe that the consequences of Adam’s act were inherited by all. The belief rests on Paul: by one man sin entered into the world, and death by sin; and so death passed upon all men. Does Paul’s last clause, for that all have sinned, leave room for the reading’s objection?"
+  },
+  {
+   "id": "genesis-tree-of-knowledge",
+   "after": "source:AB00038",
+   "responds": [
+    "source:AB00038"
+   ],
+   "relation": "adjacent",
+   "why": "The tree “is not as the common people understand”. The verse being interpreted: of the tree of the knowledge of good and evil, thou shalt not eat of it."
+  },
+  {
+   "id": "john-servant-of-sin",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "Attachment carried Adam “from the realm of freedom into the realm of bondage”. Jesus uses the same word for the same condition: whosoever committeth sin is the servant of sin."
+  },
+  {
+   "id": "milton-first-disobedience",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "complement",
+   "why": "Milton’s opening lines have fixed the other telling in English: man’s first disobedience, and the fruit of that forbidden tree, brought death into the world, and all our woe. What is gained and what lost when the event becomes a figure for every life?"
+  },
+  {
+   "id": "corinthians-as-in-adam-all-die",
+   "after": "source:ABU0757",
+   "responds": [
+    "source:ABU0757"
+   ],
+   "relation": "adjacent",
+   "why": "The talk quotes Paul and reads him of two natures. His sentence: as in Adam all die, even so in Christ shall all be made alive."
+  },
+  {
+   "id": "augustine-evil-has-no-positive-nature",
+   "after": "source:ABU2403",
+   "responds": [
+    "source:ABU2403"
+   ],
+   "relation": "adjacent",
+   "why": "“Evil is imperfection.” Augustine, who gave the West its doctrine of original sin, agreed at least on what evil is: it has no positive nature; the loss of good has received the name evil."
+  }
+ ],
+ "library": {}
+}
