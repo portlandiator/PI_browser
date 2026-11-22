@@ -1,0 +1,827 @@
+{
+ "format": 2,
+ "slug": "astronomy",
+ "subject": "EC85462E1B8045CBBD2710350E2D29CD",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 46,
+ "quotations": 58,
+ "kept": [
+  "source:AB00023",
+  "source:AB00002",
+  "source:ABU2382",
+  "source:ABU2315",
+  "source:AB06401",
+  "source:BH00722",
+  "source:BH00328",
+  "source:ABU0654",
+  "source:ABU1278",
+  "source:AB00938",
+  "source:AB00035",
+  "source:BH00624",
+  "source:AB06823",
+  "source:ABU1945",
+  "source:ABU1067",
+  "source:ABU1707",
+  "source:AB01916",
+  "source:AB03352",
+  "source:AB06180",
+  "source:AB05443",
+  "source:AB00475",
+  "source:AB00767",
+  "source:ABU0013",
+  "source:AB03340",
+  "source:AB10075",
+  "source:AB10282",
+  "source:AB03635",
+  "source:AB00501",
+  "source:AB09727",
+  "source:AB07239",
+  "source:ABU2615",
+  "source:ABU3370",
+  "source:ABU3233",
+  "source:AB12232",
+  "source:AB04125",
+  "source:AB02037",
+  "source:AB01906",
+  "source:BB00072",
+  "source:BB00175",
+  "source:BB00002",
+  "source:BB00183",
+  "source:BH00843",
+  "source:BH10395",
+  "source:BH02313",
+  "source:BB00511",
+  "selection:b5e50b258dc071b47caca7fe"
+ ],
+ "introduction": "As a child ‘Abdu’l-Bahá heard the Ptolemaic heavens described, seven spheres nested like the layers of an onion, and felt his heart confined. These readings are his and Bahá’u’lláh’s answers to questions about the sky: the “seven heavens” of scripture were spoken in the terms of their age; the stars are suns with planets of their own; space is limitless; all bodies in it hold together by attraction as the limbs of one body; astrology in the fortune-teller’s sense is denied, while physical influence and interconnection are affirmed; and every world has its creatures. The last readings turn from physical to symbolic heavens. The company kept is first the scriptures whose language is being explained: Genesis, the Psalms, Job, and the Qur’án’s “they float, each in an orbit.” Keats, Kant, Emerson and Whitman speak for wonder. The voices of unease belong beside them: Donne, for whom the new astronomy left “all coherence gone”; Pascal, frightened by infinite space; Milton’s angel advising Adam not to ask; Stephen Crane’s indifferent universe. The readings answer each of them without retreating to the old spheres.",
+ "questions": [
+  "References to seven heavens “were dictated by the conventional wisdom prevailing in those times.” How does this principle change the way you read a verse such as “the world … cannot be moved”?",
+  "Limitless space freed ‘Abdu’l-Bahá’s heart and frightened Pascal. What do you feel under a dark sky, and what in these readings speaks to that feeling?",
+  "The readings deny that stars rule our fortunes and affirm that all things are connected “like the organs and parts of the human body.” State the difference in your own words.",
+  "“God did not create these infinite luminous bodies in vain.” Does it matter to your faith whether other worlds are inhabited? Why did it matter to ‘Abdu’l-Bahá’s questioners?",
+  "Milton’s angel tells Adam to “dream not of other Worlds.” What view of the relation between science and devotion lies behind that advice, and behind the readings?",
+  "Abraham said of the star, the moon and the sun, “I love not things that set.” What use do the last readings make of the heavens once they are no longer objects of awe in themselves?"
+ ],
+ "outside": [
+  {
+   "id": "quran-seven-heavens-in-two-days",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "The “seven heavens” of earlier Books followed “the conventional wisdom prevailing in those times.” This is the language in question, from the Qur’án: He ordained them seven heavens in two Days, and decked the nether heaven with lamps."
+  },
+  {
+   "id": "genesis-two-great-lights",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis speaks the same way: God set them in the firmament of the heaven to give light upon the earth."
+  },
+  {
+   "id": "psalm-world-cannot-be-moved",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "A verse once quoted against Copernicus: the world also is stablished, that it cannot be moved. The reading explains how such verses are to be taken."
+  },
+  {
+   "id": "job-hangeth-the-earth-upon-nothing",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "adjacent",
+   "why": "Yet Job, far older, has a line that no model of spheres required: he hangeth the earth upon nothing."
+  },
+  {
+   "id": "milton-sollicit-not-thy-thoughts",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "contrast",
+   "why": "Milton’s angel tells Adam not to pursue the question: sollicit not thy thoughts with matters hid; dream not of other Worlds. ‘Abdu’l-Bahá answers the question at length. Which of them serves faith better?"
+  },
+  {
+   "id": "milton-heaven-is-as-the-book-of-god",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "complement",
+   "why": "The same angel first grants this much: to ask or search I blame thee not, for Heav’n is as the Book of God before thee set. How far does that sentence go toward the reading’s position?"
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "adjacent",
+   "why": "A believer who spent his nights at a telescope. Keats on the moment such watching is for: then felt I like some watcher of the skies when a new planet swims into his ken."
+  },
+  {
+   "id": "psalm-when-i-consider-thy-heavens",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The psalmist was a watcher too: when I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained."
+  },
+  {
+   "id": "plato-sun-is-stone",
+   "after": "source:ABU2382",
+   "responds": [
+    "source:ABU2382"
+   ],
+   "relation": "adjacent",
+   "why": "A boy contradicts the lecturer who taught the Ptolemaic heavens. Socrates at his trial recalls that Anaxagoras was prosecuted for saying that the sun is stone, and the moon earth."
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "source:ABU2382",
+   "responds": [
+    "source:ABU2382"
+   ],
+   "relation": "contrast",
+   "why": "Whitman also walked out of an astronomy lecture, for another reason: tired and sick, he looked up in perfect silence at the stars. Do charts and wonder compete in these readings?"
+  },
+  {
+   "id": "shakespeare-king-of-infinite-space",
+   "after": "source:ABU2315",
+   "responds": [
+    "source:ABU2315"
+   ],
+   "relation": "adjacent",
+   "why": "The nested spheres made a child’s heart “feel confined.” Hamlet: I could be bounded in a nut shell and count myself a king of infinite space, were it not that I have bad dreams."
+  },
+  {
+   "id": "pascal-eternal-silence",
+   "after": "source:ABU2315",
+   "responds": [
+    "source:ABU2315"
+   ],
+   "relation": "contrast",
+   "why": "The open universe that freed ‘Abdu’l-Bahá frightened Pascal: the eternal silence of these infinite spaces frightens me. What makes the same sky a release to one and a terror to another?"
+  },
+  {
+   "id": "donne-new-philosophy-calls-all-in-doubt",
+   "after": "source:ABU2315",
+   "responds": [
+    "source:ABU2315"
+   ],
+   "relation": "contrast",
+   "why": "Donne in 1611, a year after Galileo’s telescope: new philosophy calls all in doubt; the sun is lost, and th’ earth; ’tis all in pieces, all coherence gone. What did he fear was lost with the spheres?"
+  },
+  {
+   "id": "tennyson-ringing-grooves-of-change",
+   "after": "source:AB06401",
+   "responds": [
+    "source:AB06401"
+   ],
+   "relation": "adjacent",
+   "why": "“In this new cycle great discoveries will be made.” Tennyson: let the great world spin for ever down the ringing grooves of change."
+  },
+  {
+   "id": "psalm-telleth-the-number-of-the-stars",
+   "after": "source:BH00722",
+   "responds": [
+    "source:BH00722"
+   ],
+   "relation": "adjacent",
+   "why": "Astronomers “have not yet fully discovered the number of planets.” The psalm leaves the count with God: he telleth the number of the stars; he calleth them all by their names."
+  },
+  {
+   "id": "quran-beasts-dispersed-therein",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "“For every fixed star there are planets, and for every planet there are creations.” The Qur’án, in a verse the readings quote: of His portents is the creation of the heaven and the earth, and of whatever beasts He hath dispersed therein."
+  },
+  {
+   "id": "aristotle-owing-to-their-wonder",
+   "after": "source:BH00328",
+   "responds": [
+    "source:BH00328"
+   ],
+   "relation": "adjacent",
+   "why": "“How many differences” between earlier and later sayings. Aristotle traces all of them to one root: it is owing to their wonder that men began to philosophize, wondering at the moon, the sun, the stars."
+  },
+  {
+   "id": "dante-glory-of-him",
+   "after": "source:ABU0654",
+   "responds": [
+    "source:ABU0654"
+   ],
+   "relation": "adjacent",
+   "why": "Ptolemy’s nine circles. Dante built his Paradise on them: the glory of Him who moveth everything doth penetrate the universe."
+  },
+  {
+   "id": "quran-heaven-with-might-we-extend",
+   "after": "source:ABU0654",
+   "responds": [
+    "source:ABU0654"
+   ],
+   "relation": "adjacent",
+   "why": "“There is no heaven or sky, but all is limitless space.” The Qur’án: We have built the heaven with might, and We it is Who make the vast extent thereof."
+  },
+  {
+   "id": "pascal-a-nothing-in-comparison-with-the-infinite",
+   "after": "source:ABU1278",
+   "responds": [
+    "source:ABU1278"
+   ],
+   "relation": "adjacent",
+   "why": "“Limitless space and one universe.” Pascal on where that leaves us: a Nothing in comparison with the Infinite, an All in comparison with the Nothing."
+  },
+  {
+   "id": "ecclesiastes-sun-also-ariseth",
+   "after": "source:AB00938",
+   "responds": [
+    "source:AB00938"
+   ],
+   "relation": "adjacent",
+   "why": "Either all the heavens turn around the earth in a day, or the earth turns. Ecclesiastes describes what the eye sees: the sun also ariseth, and the sun goeth down, and hasteth to his place where he arose."
+  },
+  {
+   "id": "quran-they-float-each-in-an-orbit",
+   "after": "source:AB00035",
+   "responds": [
+    "source:AB00035"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án is cited against the astronomers of its own age. The verse: the sun runneth on unto a resting-place for him; they float each in an orbit."
+  },
+  {
+   "id": "joshua-sun-stood-still",
+   "after": "source:AB00035",
+   "responds": [
+    "source:AB00035"
+   ],
+   "relation": "complement",
+   "why": "The text most often used on the other side: the sun stood still in the midst of heaven. How should a reader who accepts the reading’s first principle understand Joshua?"
+  },
+  {
+   "id": "job-sweet-influences-of-pleiades",
+   "after": "source:BH00624",
+   "responds": [
+    "source:BH00624"
+   ],
+   "relation": "adjacent",
+   "why": "A mathematician asks about the spheres, “their movements and influences.” The Voice from the whirlwind asks Job: canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?"
+  },
+  {
+   "id": "corinthians-all-flesh-not-the-same",
+   "after": "source:AB06823",
+   "responds": [
+    "source:AB06823"
+   ],
+   "relation": "adjacent",
+   "why": "“All the glittering stars are suns.” Paul: one star differeth from another star in glory."
+  },
+  {
+   "id": "quran-each-in-an-orbit-floating",
+   "after": "source:ABU1945",
+   "responds": [
+    "source:ABU1945"
+   ],
+   "relation": "adjacent",
+   "why": "The earth turns, circles the sun, and the sun too is moving. The Qur’án: the sun and the moon; they float, each in an orbit."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU1067",
+   "responds": [
+    "source:ABU1067"
+   ],
+   "relation": "adjacent",
+   "why": "“There is a sun which is the center of all suns.” The last line of the Divine Comedy: the Love which moves the sun and the other stars."
+  },
+  {
+   "id": "isaiah-lift-up-your-eyes",
+   "after": "source:ABU1707",
+   "responds": [
+    "source:ABU1707"
+   ],
+   "relation": "adjacent",
+   "why": "The twinkling stars are suns too far for the eye. Isaiah: lift up your eyes on high, and behold who hath created these things; not one faileth."
+  },
+  {
+   "id": "byron-bright-sun-was-extinguished",
+   "after": "source:AB01916",
+   "responds": [
+    "source:AB01916"
+   ],
+   "relation": "adjacent",
+   "why": "On stars that go missing and on comets. Byron’s dream after the dark summer of 1816: the bright sun was extinguished, and the stars did wander darkling in the eternal space."
+  },
+  {
+   "id": "quran-sun-and-moon-made-punctual",
+   "after": "source:AB01916",
+   "responds": [
+    "source:AB01916"
+   ],
+   "relation": "adjacent",
+   "why": "Comets return in their periods. The Qur’án: the sun and the moon are made punctual."
+  },
+  {
+   "id": "genesis-lights-in-the-firmament",
+   "after": "source:AB03352",
+   "responds": [
+    "source:AB03352"
+   ],
+   "relation": "adjacent",
+   "why": "The ancients counted years by moon, sun and each planet. Genesis: let them be for signs, and for seasons, and for days, and years."
+  },
+  {
+   "id": "amos-seven-stars-and-orion",
+   "after": "source:AB06180",
+   "responds": [
+    "source:AB06180"
+   ],
+   "relation": "adjacent",
+   "why": "The names of constellations. Amos uses them to name their Maker: seek him that maketh the seven stars and Orion."
+  },
+  {
+   "id": "whitman-journey-work-of-the-stars",
+   "after": "source:AB05443",
+   "responds": [
+    "source:AB05443"
+   ],
+   "relation": "adjacent",
+   "why": "Stars are “elemental bodies from the world of nature.” Whitman turns that around: a leaf of grass is no less than the journey-work of the stars."
+  },
+  {
+   "id": "shakespeare-excellent-foppery",
+   "after": "source:AB00475",
+   "responds": [
+    "source:AB00475"
+   ],
+   "relation": "adjacent",
+   "why": "Do the stars influence souls? Edmund in King Lear: we make guilty of our disasters the sun, the moon, and stars; as if we were villains on necessity."
+  },
+  {
+   "id": "shakespeare-not-in-our-stars",
+   "after": "source:AB00475",
+   "responds": [
+    "source:AB00475"
+   ],
+   "relation": "adjacent",
+   "why": "Cassius: the fault, dear Brutus, is not in our stars, but in ourselves."
+  },
+  {
+   "id": "isaiah-astrologers",
+   "after": "source:AB00475",
+   "responds": [
+    "source:AB00475"
+   ],
+   "relation": "adjacent",
+   "why": "Isaiah to Babylon: let now the astrologers, the stargazers, the monthly prognosticators, stand up, and save thee."
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:AB00767",
+   "responds": [
+    "source:AB00767"
+   ],
+   "relation": "adjacent",
+   "why": "All bodies in space “are interconnected like the organs and parts of the human body.” Marcus Aurelius: constantly regard the universe as one living being."
+  },
+  {
+   "id": "muir-hitched",
+   "after": "source:AB00767",
+   "responds": [
+    "source:AB00767"
+   ],
+   "relation": "adjacent",
+   "why": "John Muir: when we try to pick out anything by itself, we find it hitched to everything else in the universe."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:ABU0013",
+   "responds": [
+    "source:ABU0013"
+   ],
+   "relation": "adjacent",
+   "why": "The planets’ “poise and endurance are due to that power of attraction.” Newton, who found the law, on what it shows: we know him only by his most wise and excellent contrivances of things."
+  },
+  {
+   "id": "plato-world-a-living-creature",
+   "after": "source:AB03340",
+   "responds": [
+    "source:AB03340"
+   ],
+   "relation": "adjacent",
+   "why": "Some ancients grasped “relationships and connections that exist between created things.” Plato’s Timaeus: the world became a living creature truly endowed with soul and intelligence."
+  },
+  {
+   "id": "judges-stars-in-their-courses",
+   "after": "source:AB03340",
+   "responds": [
+    "source:AB03340"
+   ],
+   "relation": "contrast",
+   "why": "They “deduced some future events” from the heavens. Deborah’s song goes further: the stars in their courses fought against Sisera. Where do the readings draw the line between connection and fortune-telling?"
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:AB10075",
+   "responds": [
+    "source:AB10075"
+   ],
+   "relation": "adjacent",
+   "why": "The earth is a heaven to the other planets, and from another view they are “mere heaps of dust.” The psalm chooses its view: the heavens declare the glory of God."
+  },
+  {
+   "id": "emerson-stars-one-night-in-a-thousand-years",
+   "after": "source:AB10282",
+   "responds": [
+    "source:AB10282"
+   ],
+   "relation": "adjacent",
+   "why": "The stars are numberless and “not void of wisdom.” Emerson: if the stars should appear one night in a thousand years, how would men believe and adore."
+  },
+  {
+   "id": "isaiah-formed-it-to-be-inhabited",
+   "after": "source:AB03635",
+   "responds": [
+    "source:AB03635"
+   ],
+   "relation": "adjacent",
+   "why": "This small earth “is not empty and purposeless.” Isaiah: he created it not in vain, he formed it to be inhabited."
+  },
+  {
+   "id": "quran-seven-heavens-and-of-the-earth",
+   "after": "source:AB00501",
+   "responds": [
+    "source:AB00501"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’án is read as speaking of creatures on other worlds. Another verse: Allah it is who hath created seven heavens, and of the earth the like thereof."
+  },
+  {
+   "id": "crane-a-man-said-to-the-universe",
+   "after": "source:AB09727",
+   "responds": [
+    "source:AB09727"
+   ],
+   "relation": "contrast",
+   "why": "Every star is “inhabited by living beings with the utmost grandeur.” Stephen Crane’s universe makes no such welcome: “The fact has not created in me a sense of obligation.” What in the readings answers him?"
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:AB07239",
+   "responds": [
+    "source:AB07239"
+   ],
+   "relation": "complement",
+   "why": "“God did not create these infinite luminous bodies in vain.” Pascal looked for human worth elsewhere than in space: by space the universe encompasses and swallows me up like an atom; by thought I comprehend the world. Do the readings need the stars to be inhabited for the universe to have a purpose?"
+  },
+  {
+   "id": "whitman-earth-to-be-spanned",
+   "after": "source:ABU2615",
+   "responds": [
+    "source:ABU2615"
+   ],
+   "relation": "adjacent",
+   "why": "A “heavenly railway” between the planets. Whitman on the railways and cables of his day: the earth to be spanned, connected by network. The reading extends the hope one step outward."
+  },
+  {
+   "id": "kant-starry-heavens",
+   "after": "source:ABU3370",
+   "responds": [
+    "source:ABU3370"
+   ],
+   "relation": "adjacent",
+   "why": "“The stars that we can see in the heavens are not one per cent of those that actually exist.” Kant: two things fill the mind with ever new and increasing admiration and awe: the starry heavens above and the moral law within."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:AB12232",
+   "responds": [
+    "source:AB12232"
+   ],
+   "relation": "adjacent",
+   "why": "Christ came from “the divine heaven, not from the physical heaven.” Hebrews on what cannot be found with a telescope: things which are seen were not made of things which do appear."
+  },
+  {
+   "id": "emerson-transparent-eyeball",
+   "after": "source:AB04125",
+   "responds": [
+    "source:AB04125"
+   ],
+   "relation": "adjacent",
+   "why": "A pavilion “before which the jewel-studded sky is but a prison.” Emerson, head uplifted into infinite space: all mean egotism vanishes."
+  },
+  {
+   "id": "quran-i-love-not-things-that-set",
+   "after": "source:AB02037",
+   "responds": [
+    "source:AB02037"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham and the star. The passage the reading explains: when it set, he said: I love not things that set."
+  },
+  {
+   "id": "deuteronomy-lest-thou-lift-up-thine-eyes",
+   "after": "source:AB02037",
+   "responds": [
+    "source:AB02037"
+   ],
+   "relation": "adjacent",
+   "why": "Moses gives the warning Abraham acted out: lest thou lift up thine eyes unto heaven, and when thou seest the sun, and the moon, and the stars, shouldest be driven to worship them."
+  },
+  {
+   "id": "colossians-shadow-of-things",
+   "after": "source:AB01906",
+   "responds": [
+    "source:AB01906"
+   ],
+   "relation": "adjacent",
+   "why": "The new moon read as a symbol. Paul: the new moon and the sabbath days are a shadow of things to come."
+  },
+  {
+   "id": "psalm-praise-him-sun-and-moon",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Sun and moon move “by a reckoning.” Psalm 148: praise ye him, sun and moon: praise him, all ye stars of light."
+  },
+  {
+   "id": "analects-north-polar-star",
+   "after": "source:BH10395",
+   "responds": [
+    "source:BH10395"
+   ],
+   "relation": "adjacent",
+   "why": "A “circle of the Command through which the heaven’s sphere doth turn.” Confucius used the image for a just ruler: the north polar star, which keeps its place and all the stars turn towards it."
+  },
+  {
+   "id": "job-morning-stars-sang-together",
+   "after": "source:BH02313",
+   "responds": [
+    "source:BH02313"
+   ],
+   "relation": "adjacent",
+   "why": "God “set in motion the spheres in the heaven of mystic knowledge.” Job: when the morning stars sang together, and all the sons of God shouted for joy."
+  },
+  {
+   "id": "quran-no-rift",
+   "after": "selection:b5e50b258dc071b47caca7fe",
+   "responds": [
+    "selection:b5e50b258dc071b47caca7fe"
+   ],
+   "relation": "adjacent",
+   "why": "The verse of the seven firmaments. The Qur’án adds an invitation to look: thou canst see no fault in the Beneficent One’s creation; then look again: canst thou see any rifts?"
+  }
+ ],
+ "library": {
+  "amos-seven-stars-and-orion": {
+   "text": "Seek him that maketh the seven stars and Orion, and turneth the shadow of death into the morning, and maketh the day dark with night: that calleth for the waters of the sea, and poureth them out upon the face of the earth: The Lord is his name",
+   "work": "Amos 5:8",
+   "year": "8th century BCE",
+   "sortYear": -750,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Amos%205%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-lest-thou-lift-up-thine-eyes": {
+   "text": "And lest thou lift up thine eyes unto heaven, and when thou seest the sun, and the moon, and the stars, even all the host of heaven, shouldest be driven to worship them, and serve them, which the Lord thy God hath divided unto all nations under the whole heaven",
+   "work": "Deuteronomy 4:19",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%204%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-beasts-dispersed-therein": {
+   "text": "And of His portents is the creation of the heaven and the earth, and of whatever beasts He hath dispersed therein. And He is Able to gather them when He will.",
+   "work": "Qur’an 42:29",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=42&verse=29",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-each-in-an-orbit-floating": {
+   "text": "And He it is Who created the night and the day, and the sun and the moon. They float, each in an orbit.",
+   "work": "Qur’an 21:33",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=21&verse=33",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-seven-heavens-in-two-days": {
+   "text": "Then He ordained them seven heavens in two Days and inspired in each heaven its mandate; and We decked the nether heaven with lamps, and rendered it inviolable. That is the measuring of the Mighty, the Knower.",
+   "work": "Qur’an 41:12",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=41&verse=12",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-sun-and-moon-made-punctual": {
+   "text": "The sun and the moon are made punctual.",
+   "work": "Qur’an 55:5",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=55&verse=5",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-heaven-with-might-we-extend": {
+   "text": "We have built the heaven with might, and We it is Who make the vast extent (thereof).",
+   "work": "Qur’an 51:47",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=51&verse=47",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "emerson-stars-one-night-in-a-thousand-years": {
+   "text": "If the stars should appear one night in a thousand years, how would men believe and adore; and preserve for many generations the remembrance of the city of God which had been shown! But every night come out these preachers of beauty, and light the universe with their admonishing smile",
+   "author": "Ralph Waldo Emerson",
+   "work": "Nature",
+   "year": "1836",
+   "sortYear": 1836,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Nature_(1836)/Chapter_1",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1836"
+   }
+  },
+  "donne-new-philosophy-calls-all-in-doubt": {
+   "text": "And new philosophy calls all in doubt, / The element of fire is quite put out, / The sun is lost, and th'earth, and no man's wit / Can well direct him where to look for it. / And freely men confess that this world's spent, / When in the planets and the firmament / They seek so many new; they see that this / Is crumbled out again to his atomies. / 'Tis all in pieces, all coherence gone",
+   "verse": true,
+   "author": "John Donne",
+   "work": "An Anatomy of the World: The First Anniversary",
+   "year": "1611",
+   "sortYear": 1611,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Poems_of_John_Donne/Volume_2/An_Anatomy_of_the_World:_the_First_Anniversary",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1611"
+   }
+  },
+  "milton-heaven-is-as-the-book-of-god": {
+   "text": "To ask or search I blame thee not, for Heav’n / Is as the Book of God before thee set, / Wherein to read his wondrous Works, and learne / His Seasons, Hours, or Days, or Months, or Yeares: / This to attain, whether Heav’n move or Earth, / Imports not, if thou reck’n right",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "Book VII of the 1667 edition (Book VIII in later editions)",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1667)/Book_VII",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1667"
+   }
+  },
+  "milton-sollicit-not-thy-thoughts": {
+   "text": "Sollicit not thy thoughts with matters hid, / Leave them to God above, him serve and feare; / Of other Creatures, as him pleases best, / Wherever plac’t, let him dispose: joy thou / In what he gives to thee, this Paradise / And thy faire Eve; Heav’n is for thee too high / 810To know what passes there; be lowlie wise: / Think onely what concernes thee and thy being; / Dream not of other Worlds",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Paradise Lost",
+   "locator": "Book VII of the 1667 edition (Book VIII in later editions)",
+   "year": "1667",
+   "sortYear": 1667,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1667)/Book_VII",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1667"
+   }
+  }
+ }
+}
