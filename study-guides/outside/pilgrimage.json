@@ -1,0 +1,1323 @@
+{
+ "format": 2,
+ "slug": "pilgrimage",
+ "subject": "DEE255C5CCCC4F548E258C3E5E1B450C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 90,
+ "quotations": 91,
+ "kept": [
+  "source:ABU0469",
+  "source:BH00001",
+  "source:AB05099",
+  "source:AB05524",
+  "source:AB00567",
+  "source:AB11768",
+  "source:AB04179",
+  "source:AB11658",
+  "source:AB05911",
+  "source:AB01325",
+  "source:AB03527",
+  "source:AB01358",
+  "source:BH00568",
+  "source:BH01620",
+  "source:ABU0111",
+  "source:BB00056",
+  "source:BB00020",
+  "source:BB00661",
+  "source:BB00332",
+  "source:BBU0005",
+  "source:BB00496",
+  "source:BB00287",
+  "source:BB00398",
+  "source:ABU0450",
+  "source:BH09415",
+  "source:BH11901",
+  "source:BH02594",
+  "source:BH02455",
+  "source:BH01332",
+  "source:BH01431",
+  "source:BH02308",
+  "source:BH00803",
+  "source:BH00069",
+  "source:BH00071",
+  "source:BH01728",
+  "source:BB00019",
+  "source:ABU3272",
+  "source:AB08208",
+  "source:AB05954",
+  "source:AB02641",
+  "source:BH01232",
+  "source:BH02417",
+  "source:BH03028",
+  "source:BH07239",
+  "source:BH09046",
+  "source:AB03054",
+  "source:AB03163",
+  "source:AB03103",
+  "source:AB07414",
+  "source:AB06190",
+  "source:AB08744",
+  "source:AB03566",
+  "source:AB08819",
+  "source:AB10356",
+  "source:AB07879",
+  "source:AB09008",
+  "source:AB07064",
+  "source:AB06109",
+  "source:AB03762",
+  "source:AB02926",
+  "source:AB07641",
+  "source:BH01539",
+  "source:AB01822",
+  "source:AB04242",
+  "source:AB02638",
+  "source:BH02445",
+  "source:AB08754",
+  "source:AB02810",
+  "source:AB02556",
+  "source:AB02781",
+  "source:AB03776",
+  "source:AB04342",
+  "source:AB01648",
+  "source:AB04769",
+  "source:AB08598",
+  "source:AB03508",
+  "source:ABU0804",
+  "source:ABU1245",
+  "source:AB07507",
+  "source:AB08869",
+  "source:AB10449",
+  "source:BH00664",
+  "source:BH10119",
+  "source:BH06423",
+  "source:BH01280",
+  "source:BH06054",
+  "source:AB01858",
+  "source:ABU1861",
+  "source:BH00199",
+  "source:BH09464"
+ ],
+ "introduction": "‘Abdu’l-Bahá divides travellers into pilgrims and tourists: the first come home with hearts changed, the second have “just come to see the places.” Around that distinction the guide gathers the law of pilgrimage as the Báb and Bahá’u’lláh gave it, its conditions of means and permission, its rites of washing and circling, and above all the letters that greet people who crossed desert and sea to press their foreheads to a threshold and remember their families there. The psalms of ascent were written for such journeys, and the Qur’án’s verse of pilgrimage is the readings’ own text. Chaucer’s April, Naaman’s two mule-loads of earth, Monica’s “remember me at the altar” and Thoreau’s saunterer to the Holy Land belong with them. The doubters are old too: à Kempis, for whom those who wander seldom become holy, Emerson on the indifference of places, Kabír’s God who is in neither temple nor Kaaba, Jesus’s “neither in this mountain,” and the angels’ question at the empty tomb.",
+ "questions": [
+  "What, on these readings, makes someone a pilgrim and not a tourist? Test your answer against Emerson’s claim that we carry the same self to every place, and Mark Twain’s that travel cures prejudice.",
+  "The journey requires means and permission, and one family is sent home to care for a relative. What do these conditions say about what pilgrimage is for?",
+  "“Strive night and day to serve the Cause of God. This is the same as visiting the holy places.” Set that beside James, à Kempis and Kabír. Why do the readings still treasure the physical journey?",
+  "Pilgrims remember their families at the Threshold, and Monica asks to be remembered at the altar. What is being given when one person visits or prays on behalf of another?",
+  "Some readings count the reward of a visit in thousands; a rabbi and Jesus warn against serving for reward. How do you read the promises?",
+  "Bahá’u’lláh longs for a handful of a city’s earth; the angels ask why the living is sought among the dead. What is it that dust and stones hold for those who love them?"
+ ],
+ "outside": [
+  {
+   "id": "thoreau-saunterer-holy-lander",
+   "after": "source:ABU0469",
+   "responds": [
+    "source:ABU0469"
+   ],
+   "relation": "adjacent",
+   "why": "“Two kinds of travelers - pilgrims and tourists.” Thoreau draws the same line with a word: a saunterer is a Sainte-Terrer, a Holy-Lander, and those who never go to the Holy Land in their walks are mere idlers."
+  },
+  {
+   "id": "emerson-travelling-is-a-fools-paradise",
+   "after": "source:ABU0469",
+   "responds": [
+    "source:ABU0469"
+   ],
+   "relation": "contrast",
+   "why": "A visit to the Holy Tomb is expected to change the pilgrim. Emerson doubts that any journey can: travelling is a fool’s paradise; our first journeys discover to us the indifference of places. What must a traveller bring for a place to do its work?"
+  },
+  {
+   "id": "quran-pilgrimage-to-the-house",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh’s law is framed like the Qur’án’s, which later readings quote: pilgrimage to the House is a duty unto Allah for mankind, for him who can find a way thither."
+  },
+  {
+   "id": "deuteronomy-three-times-appear",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Pilgrimage for “those of you who are able.” Deuteronomy’s rule for the three feasts: every man shall give as he is able."
+  },
+  {
+   "id": "samuel-hannah",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001",
+    "source:BB00056"
+   ],
+   "relation": "complement",
+   "why": "Women are exempted “as a mercy.” The Bible’s best-remembered pilgrim is a woman: Hannah went up yearly to Shiloh, and prayed there so that only her lips moved. What is the difference between being excused and being left out?"
+  },
+  {
+   "id": "psalm-walk-about-zion",
+   "after": "source:AB05099",
+   "responds": [
+    "source:AB05099"
+   ],
+   "relation": "adjacent",
+   "why": "“You have circumambulated with spirit and body.” The psalm: walk about Zion, and go round about her; tell the towers thereof."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:AB05524",
+   "responds": [
+    "source:AB05524"
+   ],
+   "relation": "adjacent",
+   "why": "“The influence of this pilgrimage will become evident” when he returns. The council in Jerusalem noticed something of the kind in two fishermen: they took knowledge of them, that they had been with Jesus."
+  },
+  {
+   "id": "luke-returned-with-great-joy",
+   "after": "source:AB05524",
+   "responds": [
+    "source:AB05524"
+   ],
+   "relation": "adjacent",
+   "why": "He will take the fragrance home with him. The disciples after their last sight of Jesus: they returned to Jerusalem with great joy."
+  },
+  {
+   "id": "james-pure-religion",
+   "after": "source:AB00567",
+   "responds": [
+    "source:AB00567"
+   ],
+   "relation": "adjacent",
+   "why": "To serve the Cause “is the same as visiting the holy places.” James: pure religion is this, to visit the fatherless and widows in their affliction."
+  },
+  {
+   "id": "luke-count-the-cost",
+   "after": "source:AB11768",
+   "responds": [
+    "source:AB11768"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever intends the journey “must have the means.” Jesus: which of you, intending to build a tower, sitteth not down first, and counteth the cost?"
+  },
+  {
+   "id": "quran-best-provision",
+   "after": "source:AB11768",
+   "responds": [
+    "source:AB11768"
+   ],
+   "relation": "adjacent",
+   "why": "Distress on the road “prevents the attainment of the fruits of pilgrimage.” The Qur’án to its pilgrims: make provision for yourselves; the best provision is to ward off evil."
+  },
+  {
+   "id": "psalm-lift-up-mine-eyes",
+   "after": "source:AB04179",
+   "responds": [
+    "source:AB04179"
+   ],
+   "relation": "adjacent",
+   "why": "A voyage made “with joy and tranquility.” The pilgrim’s song for the road: I will lift up mine eyes unto the hills, from whence cometh my help."
+  },
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:AB11658",
+   "responds": [
+    "source:AB11658"
+   ],
+   "relation": "adjacent",
+   "why": "Permission is postponed to next year. The Preacher: to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "mark-corban",
+   "after": "source:AB05911",
+   "responds": [
+    "source:AB05911"
+   ],
+   "relation": "adjacent",
+   "why": "The Afnáns go home early because a relative is alone and ill. Jesus condemns the opposite choice, a gift to God that leaves father or mother unprovided."
+  },
+  {
+   "id": "john-he-must-increase",
+   "after": "source:AB01325",
+   "responds": [
+    "source:AB01325"
+   ],
+   "relation": "adjacent",
+   "why": "“The essential purpose is pilgrimage to the Blessed Shrine,” not a meeting with ‘Abdu’l-Bahá. John the Baptist about himself: he must increase, but I must decrease."
+  },
+  {
+   "id": "psalm-pray-for-the-peace-of-jerusalem",
+   "after": "source:AB03527",
+   "responds": [
+    "source:AB03527"
+   ],
+   "relation": "adjacent",
+   "why": "Three places are of obligation; others are loved. The psalm of the one city that every pilgrim to it sang: pray for the peace of Jerusalem; they shall prosper that love thee."
+  },
+  {
+   "id": "acts-ready-to-die-at-jerusalem",
+   "after": "source:AB01358",
+   "responds": [
+    "source:AB01358"
+   ],
+   "relation": "adjacent",
+   "why": "He would go round the House each week “even if opponents would stone him.” Paul, begged not to go up to Jerusalem: I am ready not to be bound only, but also to die at Jerusalem."
+  },
+  {
+   "id": "daniel-windows-open",
+   "after": "source:AB01358",
+   "responds": [
+    "source:AB01358"
+   ],
+   "relation": "adjacent",
+   "why": "A visit kept up as an absolute duty under threat. Daniel prayed toward Jerusalem three times a day, as he did aforetime, after the decree."
+  },
+  {
+   "id": "kempis-wander-much-abroad",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "adjacent",
+   "why": "“It is not necessary to undertake special journeys to visit the resting-places of the dead.” Thomas à Kempis, in an age of pilgrimages: they who wander much abroad seldom thereby become holy."
+  },
+  {
+   "id": "mark-why-was-this-waste",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "complement",
+   "why": "The cost of such journeys may be given to the House of Justice. The same exchange was proposed for a jar of ointment, and Jesus defended the woman who spent it. When is the journey the better gift?"
+  },
+  {
+   "id": "matthew-not-to-destroy-the-law",
+   "after": "source:ABU0111",
+   "responds": [
+    "source:ABU0111"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb’s law and Bahá’u’lláh’s are said not to contradict. Jesus on his relation to what came before: I am not come to destroy, but to fulfil."
+  },
+  {
+   "id": "avot-without-expectation-of-reward",
+   "after": "source:BB00056",
+   "responds": [
+    "source:BB00056"
+   ],
+   "relation": "contrast",
+   "why": "“The reward of two thousand martyrs” for a visit. A sage of the Mishnah: be not like servants who serve the master in the expectation of receiving a reward. How should promises of reward be heard?"
+  },
+  {
+   "id": "luke-unprofitable-servants",
+   "after": "source:BB00661",
+   "responds": [
+    "source:BB00661"
+   ],
+   "relation": "contrast",
+   "why": "One visit “is equal to ninety-five pilgrimages.” Jesus keeps no such account: when ye shall have done all, say, We are unprofitable servants; we have done that which was our duty."
+  },
+  {
+   "id": "thessalonians-satan-hindered-us",
+   "after": "source:BB00332",
+   "responds": [
+    "source:BB00332"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb’s complaint of “those who prevented me from visiting thee.” Paul to Thessalonica: we would have come unto you, once and again; but Satan hindered us."
+  },
+  {
+   "id": "luke-went-up-to-jerusalem-every-year",
+   "after": "source:BBU0005",
+   "responds": [
+    "source:BBU0005"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb joins the pilgrims of Fárs for Mecca. Luke on another household: his parents went to Jerusalem every year at the feast of the passover."
+  },
+  {
+   "id": "quran-safa-and-marwah",
+   "after": "source:BB00496",
+   "responds": [
+    "source:BB00496"
+   ],
+   "relation": "adjacent",
+   "why": "He performed the rites of the House. The Qur’án on two of its stations: Safa and Marwah are among the indications of Allah; it is no sin to go around them."
+  },
+  {
+   "id": "haggai-cieled-houses",
+   "after": "source:BB00398",
+   "responds": [
+    "source:BB00398"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb asks that the exterior of the House be restored. Haggai to those who had let the Lord’s house lie waste: is it time for you to dwell in your cieled houses?"
+  },
+  {
+   "id": "chaucer-longen-folk-to-goon-on-pilgrimages",
+   "after": "source:ABU0450",
+   "responds": [
+    "source:ABU0450"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá praises the old pilgrims who went on foot, and says he has longed all his life to see Mecca. Chaucer on the same longing in fourteenth-century England: when April comes, then folk long to go on pilgrimages."
+  },
+  {
+   "id": "psalm-if-i-forget-thee",
+   "after": "source:BH09415",
+   "responds": [
+    "source:BH09415"
+   ],
+   "relation": "adjacent",
+   "why": "“The divine fragrances waft from those lands.” The exile’s oath about another city: if I forget thee, O Jerusalem, let my right hand forget her cunning."
+  },
+  {
+   "id": "quran-proclaim-the-pilgrimage",
+   "after": "source:BH11901",
+   "responds": [
+    "source:BH11901"
+   ],
+   "relation": "adjacent",
+   "why": "The verse that “hath attracted thee.” The Qur’án’s command to Abraham beside it: proclaim unto mankind the pilgrimage; they will come unto thee on foot and on every lean camel, from every deep ravine."
+  },
+  {
+   "id": "psalm-i-was-glad",
+   "after": "source:BH02594",
+   "responds": [
+    "source:BH02594"
+   ],
+   "relation": "adjacent",
+   "why": "He heard the word and turned toward the House. A pilgrim psalm: I was glad when they said unto me, Let us go into the house of the Lord."
+  },
+  {
+   "id": "psalm-valley-of-baca",
+   "after": "source:BH02455",
+   "responds": [
+    "source:BH02455"
+   ],
+   "relation": "adjacent",
+   "why": "Illness and hardship “did not prevent them.” The psalm of the road to Zion: who passing through the valley of Baca make it a well."
+  },
+  {
+   "id": "quran-flesh-and-blood-reach-not",
+   "after": "source:BH02455",
+   "responds": [
+    "source:BH02455"
+   ],
+   "relation": "complement",
+   "why": "Multitudes drawn year after year. The Qur’án says what in all their rites arrives: their flesh and their blood reach not Allah, but the devotion from you reacheth Him."
+  },
+  {
+   "id": "matthew-forsaken-houses-or-brethren",
+   "after": "source:BH01332",
+   "responds": [
+    "source:BH01332"
+   ],
+   "relation": "adjacent",
+   "why": "They “forsake their children, their offspring, their wealth.” Jesus: every one that hath forsaken houses, or brethren, or lands, for my name’s sake, shall receive an hundredfold."
+  },
+  {
+   "id": "psalm-went-with-them",
+   "after": "source:BH01431",
+   "responds": [
+    "source:BH01431"
+   ],
+   "relation": "adjacent",
+   "why": "“That we may together undertake the pilgrimage.” The psalmist remembers going with the multitude to the house of God, with the voice of joy and praise."
+  },
+  {
+   "id": "quran-place-of-resort-and-sanctuary",
+   "after": "source:BH02308",
+   "responds": [
+    "source:BH02308"
+   ],
+   "relation": "adjacent",
+   "why": "To visit the House “and circumambulate round about it.” The Qur’án on the first such House: purify My house for those who go around and those who bow down."
+  },
+  {
+   "id": "quran-righteousness-is-not",
+   "after": "source:BH02308",
+   "responds": [
+    "source:BH02308"
+   ],
+   "relation": "contrast",
+   "why": "To act “according to what thou wert commanded in the Book.” The same Book warns against resting in the outward act: it is not righteousness that ye turn your faces to the East and the West."
+  },
+  {
+   "id": "matthew-greater-than-the-temple",
+   "after": "source:BH00803",
+   "responds": [
+    "source:BH00803"
+   ],
+   "relation": "adjacent",
+   "why": "“The Most Great Pilgrimage” is to a person, round whom the House itself circles. Jesus: in this place is one greater than the temple."
+  },
+  {
+   "id": "john-we-would-see-jesus",
+   "after": "source:BH00803",
+   "responds": [
+    "source:BH00803"
+   ],
+   "relation": "adjacent",
+   "why": "Greeks who had come up to worship at the feast found a different goal: sir, we would see Jesus."
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:BH00069",
+   "responds": [
+    "source:BH00069"
+   ],
+   "relation": "contrast",
+   "why": "Either House suffices, whichever lies nearer. Jesus, asked which mountain is the right one: neither in this mountain, nor yet at Jerusalem. Why do the readings keep a place at all?"
+  },
+  {
+   "id": "psalm-wash-mine-hands-in-innocency",
+   "after": "source:BH00071",
+   "responds": [
+    "source:BH00071"
+   ],
+   "relation": "adjacent",
+   "why": "The pilgrim washes his face with a prayer. The psalmist: I will wash mine hands in innocency; so will I compass thine altar."
+  },
+  {
+   "id": "psalm-clean-hands-and-a-pure-heart",
+   "after": "source:BH01728",
+   "responds": [
+    "source:BH01728"
+   ],
+   "relation": "adjacent",
+   "why": "Ablutions before the visit. Who shall ascend into the hill of the Lord? He that hath clean hands, and a pure heart."
+  },
+  {
+   "id": "ecclesiastes-keep-thy-foot",
+   "after": "source:BB00019",
+   "responds": [
+    "source:BB00019"
+   ],
+   "relation": "adjacent",
+   "why": "“When thou arrivest at the gate of the first sanctuary, pause.” The Preacher: keep thy foot when thou goest to the house of God, and be more ready to hear than to give the sacrifice of fools."
+  },
+  {
+   "id": "psalm-who-shall-abide",
+   "after": "source:BB00019",
+   "responds": [
+    "source:BB00019"
+   ],
+   "relation": "adjacent",
+   "why": "Enter with no remembrance but that of the Lord. The psalm of the threshold: Lord, who shall abide in thy tabernacle?"
+  },
+  {
+   "id": "revelation-see-thou-do-it-not",
+   "after": "source:ABU3272",
+   "responds": [
+    "source:ABU3272"
+   ],
+   "relation": "complement",
+   "why": "Prostration is confined to three places. John falls at an angel’s feet and is stopped: see thou do it not; worship God. What is a pilgrim bowing to at a shrine?"
+  },
+  {
+   "id": "psalm-causest-to-approach",
+   "after": "source:AB08208",
+   "responds": [
+    "source:AB08208"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou art permitted to visit.” A psalm: blessed is the man whom thou choosest, and causest to approach unto thee, that he may dwell in thy courts."
+  },
+  {
+   "id": "esther-who-is-not-called",
+   "after": "source:AB05954",
+   "responds": [
+    "source:AB05954"
+   ],
+   "relation": "complement",
+   "why": "Permission is sought before coming. In the Persian court of Esther to come uncalled was death unless the sceptre was held out. What does asking leave teach that open doors do not?"
+  },
+  {
+   "id": "twain-travel",
+   "after": "source:AB02641",
+   "responds": [
+    "source:AB02641"
+   ],
+   "relation": "complement",
+   "why": "A group journey to the Holy Land and on to Persia is proposed. Mark Twain, back from his own tour of the Holy Land: travel is fatal to prejudice, bigotry and narrow-mindedness. Is that the fruit the first reading wants, or the tourist’s?"
+  },
+  {
+   "id": "hebrews-entertain-strangers",
+   "after": "source:BH01232",
+   "responds": [
+    "source:BH01232"
+   ],
+   "relation": "adjacent",
+   "why": "The pilgrim house is “the first guest-house of the world.” Hebrews: be not forgetful to entertain strangers."
+  },
+  {
+   "id": "matthew-wise-men-from-the-east",
+   "after": "source:BH02417",
+   "responds": [
+    "source:BH02417"
+   ],
+   "relation": "adjacent",
+   "why": "He “traversed land and sea” and attained the presence. The first travellers of the Gospel: we have seen his star in the east, and are come to worship him."
+  },
+  {
+   "id": "genesis-get-thee-out",
+   "after": "source:BH03028",
+   "responds": [
+    "source:BH03028"
+   ],
+   "relation": "adjacent",
+   "why": "“Blessed art thou for having forsaken thy home.” The call to Abram: get thee out of thy country, and from thy kindred, unto a land that I will shew thee."
+  },
+  {
+   "id": "zechariah-let-us-go-speedily",
+   "after": "source:BH07239",
+   "responds": [
+    "source:BH07239"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou didst depart and traverse the path.” Zechariah foresees one city saying to another: let us go speedily to pray before the Lord; I will go also."
+  },
+  {
+   "id": "matthew-sick-and-ye-visited-me",
+   "after": "source:BH09046",
+   "responds": [
+    "source:BH09046"
+   ],
+   "relation": "adjacent",
+   "why": "The goal of this journey was a prison. The King in Matthew: I was in prison, and ye came unto me."
+  },
+  {
+   "id": "genesis-i-am-with-thee-whither-thou-goest",
+   "after": "source:AB03054",
+   "responds": [
+    "source:AB03054"
+   ],
+   "relation": "adjacent",
+   "why": "“He hath guided thee throughout both land and sea.” The promise to Jacob on the road: I am with thee, and will keep thee in all places whither thou goest."
+  },
+  {
+   "id": "luke-living-among-the-dead",
+   "after": "source:AB03054",
+   "responds": [
+    "source:AB03054"
+   ],
+   "relation": "contrast",
+   "why": "A “pilgrim to the Holy Sepulcher.” The first visitors to a holy sepulchre were asked: why seek ye the living among the dead? What does a tomb give that the question seems to deny?"
+  },
+  {
+   "id": "psalm-take-pleasure-in-her-stones",
+   "after": "source:AB03163",
+   "responds": [
+    "source:AB03163"
+   ],
+   "relation": "adjacent",
+   "why": "He “perfumed thy face and hair with the sacred dust.” A psalm of Zion in ruins: thy servants take pleasure in her stones, and favour the dust thereof."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:AB03103",
+   "responds": [
+    "source:AB03103"
+   ],
+   "relation": "adjacent",
+   "why": "An old man, “despite extreme weakness,” crossed great distances. Isaiah: they that wait upon the Lord shall renew their strength; they shall walk, and not faint."
+  },
+  {
+   "id": "corinthians-in-journeyings-often",
+   "after": "source:AB07414",
+   "responds": [
+    "source:AB07414"
+   ],
+   "relation": "adjacent",
+   "why": "Sea voyage, desert and mountains. Paul’s list of his roads: in journeyings often, in perils of waters, in perils in the wilderness, in weariness and painfulness."
+  },
+  {
+   "id": "psalm-city-of-habitation",
+   "after": "source:AB06190",
+   "responds": [
+    "source:AB06190"
+   ],
+   "relation": "adjacent",
+   "why": "Plain and desert, mountain and sea, to “the destination of the Beloved.” A psalm: they wandered in the wilderness in a solitary way; and he led them forth by the right way, that they might go to a city of habitation."
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "source:AB06190",
+   "responds": [
+    "source:AB06190"
+   ],
+   "relation": "contrast",
+   "why": "“The true Ka‘bah.” Kabír’s God speaks to the seeker who travels: I am neither in temple nor in mosque, neither in Kaaba nor in Kailash; I am beside thee."
+  },
+  {
+   "id": "psalm-bird-out-of-the-snare",
+   "after": "source:AB08744",
+   "responds": [
+    "source:AB08744"
+   ],
+   "relation": "adjacent",
+   "why": "“Spread thy wings and take flight from this cage.” A pilgrim psalm: our soul is escaped as a bird out of the snare of the fowlers."
+  },
+  {
+   "id": "hebrews-strangers-and-pilgrims",
+   "after": "source:AB08744",
+   "responds": [
+    "source:AB08744"
+   ],
+   "relation": "adjacent",
+   "why": "The outward journey is a figure of another. Hebrews: they confessed that they were strangers and pilgrims on the earth."
+  },
+  {
+   "id": "corinthians-new-creature",
+   "after": "source:AB03566",
+   "responds": [
+    "source:AB03566"
+   ],
+   "relation": "adjacent",
+   "why": "He “found new life … and became a new creation.” Paul: if any man be in Christ, he is a new creature; old things are passed away."
+  },
+  {
+   "id": "timothy-thy-grandmother-lois",
+   "after": "source:AB08819",
+   "responds": [
+    "source:AB08819"
+   ],
+   "relation": "adjacent",
+   "why": "A mother is congratulated on her son’s pilgrimage. Paul to Timothy: the unfeigned faith that is in thee dwelt first in thy grandmother Lois, and thy mother Eunice."
+  },
+  {
+   "id": "philippians-thank-my-god-upon-every-remembrance",
+   "after": "source:AB10356",
+   "responds": [
+    "source:AB10356"
+   ],
+   "relation": "adjacent",
+   "why": "At the Threshold “he always remembered you.” Paul: I thank my God upon every remembrance of you."
+  },
+  {
+   "id": "exodus-face-shone",
+   "after": "source:AB09008",
+   "responds": [
+    "source:AB09008"
+   ],
+   "relation": "adjacent",
+   "why": "Parents return with lights that “shine forth from their foreheads.” When Moses came down from the mount the skin of his face shone, and he wist it not."
+  },
+  {
+   "id": "exodus-put-off-thy-shoes",
+   "after": "source:AB07064",
+   "responds": [
+    "source:AB07064"
+   ],
+   "relation": "adjacent",
+   "why": "They reached “the wilderness of Sinai and the Mount of Revelation to Moses.” What Moses was told there: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground."
+  },
+  {
+   "id": "job-offered-for-his-sons",
+   "after": "source:AB06109",
+   "responds": [
+    "source:AB06109"
+   ],
+   "relation": "adjacent",
+   "why": "A son prays at the Threshold for his father. Job did it the other way round: he rose up early and offered for each of his children; thus did Job continually."
+  },
+  {
+   "id": "augustine-remember-me-at-the-altar",
+   "after": "source:AB03762",
+   "responds": [
+    "source:AB03762"
+   ],
+   "relation": "adjacent",
+   "why": "“He called you to remembrance” at the Threshold. Monica’s last request to her sons: lay this body anywhere; only remember me at the altar of the Lord, wherever you may be."
+  },
+  {
+   "id": "james-pray-one-for-another",
+   "after": "source:AB02926",
+   "responds": [
+    "source:AB02926"
+   ],
+   "relation": "adjacent",
+   "why": "He “especially beseeched assistance and grace for each one of you.” James: pray one for another."
+  },
+  {
+   "id": "luke-bringing-the-spices",
+   "after": "source:AB07641",
+   "responds": [
+    "source:AB07641"
+   ],
+   "relation": "adjacent",
+   "why": "He carried a jug of flowers to the Shrine. The women on the first day of the week came unto the sepulchre, bringing the spices which they had prepared."
+  },
+  {
+   "id": "kings-stranger-from-a-far-country",
+   "after": "source:AB04242",
+   "responds": [
+    "source:AB04242"
+   ],
+   "relation": "adjacent",
+   "why": "“This servant of Thine has journeyed from distant lands.” Solomon’s prayer for the stranger who cometh out of a far country for thy name’s sake: hear thou in heaven."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:AB02638",
+   "responds": [
+    "source:AB02638"
+   ],
+   "relation": "adjacent",
+   "why": "He “rubbed his forehead in the dust of Your pure Threshold.” The psalmist: I had rather be a doorkeeper in the house of my God."
+  },
+  {
+   "id": "corinthians-according-to-that-a-man-hath",
+   "after": "source:BH02445",
+   "responds": [
+    "source:BH02445"
+   ],
+   "relation": "adjacent",
+   "why": "“Be not thou sorrowful. Thy journey hath been accepted.” Paul: if there be first a willing mind, it is accepted according to that a man hath."
+  },
+  {
+   "id": "psalm-longeth-for-the-courts",
+   "after": "source:AB03776",
+   "responds": [
+    "source:AB03776"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed “for some time” with the Shrine. The psalm envies even the birds that nest there: my soul longeth, yea, even fainteth for the courts of the Lord."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB01648",
+   "responds": [
+    "source:AB01648"
+   ],
+   "relation": "adjacent",
+   "why": "A companion of “these yearning ones in this Most Great Prison.” The pilgrims’ psalm of company: how good and how pleasant it is for brethren to dwell together in unity."
+  },
+  {
+   "id": "acts-his-own-hired-house",
+   "after": "source:AB08598",
+   "responds": [
+    "source:AB08598"
+   ],
+   "relation": "adjacent",
+   "why": "Visitors stayed with a prisoner. Paul under guard in Rome dwelt two whole years in his own hired house, and received all that came in unto him."
+  },
+  {
+   "id": "isaiah-out-of-zion",
+   "after": "source:AB03508",
+   "responds": [
+    "source:AB03508"
+   ],
+   "relation": "adjacent",
+   "why": "“From every direction … the friends are continuously arriving.” Isaiah: all nations shall flow unto it, and many people shall go and say, Come ye, and let us go up to the mountain of the Lord."
+  },
+  {
+   "id": "acts-parthians-and-medes",
+   "after": "source:AB03508",
+   "responds": [
+    "source:AB03508"
+   ],
+   "relation": "adjacent",
+   "why": "Iran, Turkistan, Europe and America at one threshold. The pilgrims at Pentecost: Parthians, and Medes, and Elamites, and the dwellers in Mesopotamia, strangers of Rome."
+  },
+  {
+   "id": "psalm-going-out-coming-in",
+   "after": "source:ABU0804",
+   "responds": [
+    "source:ABU0804"
+   ],
+   "relation": "adjacent",
+   "why": "“You traversed this long distance till you reached the Blessed Spot.” The traveller’s blessing: the Lord shall preserve thy going out and thy coming in."
+  },
+  {
+   "id": "john-supposing-him-to-be-the-gardener",
+   "after": "source:ABU1245",
+   "responds": [
+    "source:ABU1245"
+   ],
+   "relation": "complement",
+   "why": "Pilgrims who found the guardian of the Tomb away “would become sad.” Mary at another tomb weeps because it is empty, and takes the one she seeks for the gardener. What are pilgrims hoping to meet?"
+  },
+  {
+   "id": "psalm-until-i-understood-their-end",
+   "after": "source:AB08869",
+   "responds": [
+    "source:AB08869"
+   ],
+   "relation": "adjacent",
+   "why": "“Whenever thou art sorrowful … thou canst make pilgrimage to the Holy Shrine and become joyful.” The psalmist’s trouble was too painful for him, until I went into the sanctuary of God."
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:AB10449",
+   "responds": [
+    "source:AB10449"
+   ],
+   "relation": "adjacent",
+   "why": "The bounty of “providing water for the pilgrims.” Jesus: whosoever shall give a cup of cold water only shall in no wise lose his reward."
+  },
+  {
+   "id": "quran-slaking-of-a-pilgrims-thirst",
+   "after": "source:AB10449",
+   "responds": [
+    "source:AB10449"
+   ],
+   "relation": "contrast",
+   "why": "The reading honours the water-carrier of the Shrine. The Qur’án puts a hard question to those who held that office at Mecca: count ye the slaking of a pilgrim’s thirst as equal to the worth of him who believeth and striveth?"
+  },
+  {
+   "id": "psalm-mountains-skipped",
+   "after": "source:BH01280",
+   "responds": [
+    "source:BH01280"
+   ],
+   "relation": "adjacent",
+   "why": "“Mina yearneth for thy presence, and the Hill hath moved from its place.” A psalm of the exodus: the mountains skipped like rams, and the little hills like lambs."
+  },
+  {
+   "id": "corinthians-caught-up-to-the-third-heaven",
+   "after": "source:BH06054",
+   "responds": [
+    "source:BH06054"
+   ],
+   "relation": "adjacent",
+   "why": "A circumambulation “in the ascension of eternity,” beyond all names. Paul knew a man caught up to the third heaven, whether in the body or out of it he could not tell."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:ABU1861",
+   "responds": [
+    "source:ABU1861"
+   ],
+   "relation": "adjacent",
+   "why": "The gift of the visit cannot be “fully realize[d] … while in this world.” Paul: now we see through a glass, darkly; but then face to face."
+  },
+  {
+   "id": "acts-turned-the-world-upside-down",
+   "after": "source:BH00199",
+   "responds": [
+    "source:BH00199"
+   ],
+   "relation": "adjacent",
+   "why": "The slander that pilgrims “go as Muslims and return as infidels.” The charge shouted against Paul and Silas: these that have turned the world upside down are come hither also."
+  },
+  {
+   "id": "kings-two-mules-burden-of-earth",
+   "after": "source:BH09464",
+   "responds": [
+    "source:BH09464"
+   ],
+   "relation": "adjacent",
+   "why": "“Would that thou hadst brought me a handful of its earth!” Naaman the Syrian, healed in Israel, asks leave to take home two mules’ burden of earth."
+  },
+  {
+   "id": "blake-built-jerusalem",
+   "after": "source:BH09464",
+   "responds": [
+    "source:BH09464"
+   ],
+   "relation": "adjacent",
+   "why": "“Ground that was honored by the footsteps of thy Lord.” Blake asks it of his own country: and did those feet in ancient time walk upon England’s mountains green?"
+  },
+  {
+   "id": "matthew-see-the-place",
+   "after": "source:BH09464",
+   "responds": [
+    "source:BH09464"
+   ],
+   "relation": "adjacent",
+   "why": "He kissed the dust and beheld the walls. The angel at the tomb: come, see the place where the Lord lay."
+  }
+ ],
+ "library": {
+  "chaucer-longen-folk-to-goon-on-pilgrimages": {
+   "text": "Whan that Aprill, with his shoures soote / The droghte of March hath perced to the roote … Thanne longen folk to goon on pilgrimages / And palmeres for to seken straunge strondes / To ferne halwes, kowthe in sondry londes",
+   "verse": true,
+   "author": "Geoffrey Chaucer",
+   "work": "The Canterbury Tales",
+   "locator": "General Prologue, lines 1–2 and 12–14",
+   "year": "c. 1387–1400",
+   "sortYear": 1390,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Canterbury_Tales_(unsourced)/General_Prologue",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1400."
+   },
+   "caveat": "Middle English: “then folk long to go on pilgrimages, and palmers to seek strange shores, to far-off shrines known in sundry lands.”"
+  },
+  "kempis-wander-much-abroad": {
+   "text": "Few by sickness grow better, and they who wander much abroad, seldom thereby become holy",
+   "author": "Thomas à Kempis",
+   "work": "The Imitation of Christ",
+   "locator": "Book I, chapter 23",
+   "year": "c. 1418–27",
+   "sortYear": 1420,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Of_the_Imitation_of_Christ/Book_I/Chapter_XXIII",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Anonymous nineteenth-century translation."
+   }
+  },
+  "thoreau-saunterer-holy-lander": {
+   "text": "which word is beautifully derived \"from idle people who roved about the country, in the Middle Ages, and asked charity, under pretence of going à la Sainte Terre,\" to the Holy Land, till the children exclaimed, \"There goes a Sainte-Terrer,\" a Saunterer,—a Holy-Lander. They who never go to the Holy Land in their walks, as they pretend, are indeed mere idlers and vagabonds; but they who do go there are saunterers in the good sense, such as I mean",
+   "author": "Henry David Thoreau",
+   "work": "Walking",
+   "year": "1862",
+   "sortYear": 1862,
+   "tradition": "American literature and public life",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Excursions_(1863)_Thoreau/Walking",
+    "label": "Wikisource",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1862."
+   }
+  },
+  "zechariah-let-us-go-speedily": {
+   "text": "And the inhabitants of one city shall go to another, saying, Let us go speedily to pray before the Lord",
+   "work": "Zechariah 8:21–22",
+   "year": "5th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Zechariah%208%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-causest-to-approach": {
+   "text": "Blessed is the man whom thou choosest, and causest to approach unto thee, that he may dwell in thy courts: we shall be satisfied with the goodness of thy house, even of thy holy temple",
+   "work": "Psalm 65:4",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2065%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "esther-who-is-not-called": {
+   "text": "All the king's servants, and the people of the king's provinces, do know, that whosoever, whether man or women, shall come unto the king into the inner court, who is not called, there is one law of his to put him to death, except such to whom the king shall hold out the golden sceptre, that he may live: but I have not been called to come in unto the king these thirty days",
+   "work": "Esther 4:11",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Esther%204%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-greater-than-the-temple": {
+   "text": "But I say unto you, That in this place is one greater than the temple",
+   "work": "Matthew 12:6",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-city-of-habitation": {
+   "text": "They wandered in the wilderness in a solitary way; they found no city to dwell in. Hungry and thirsty, their soul fainted in them. Then they cried unto the Lord in their trouble, and he delivered them out of their distresses. And he led them forth by the right way, that they might go to a city of habitation",
+   "work": "Psalm 107:4–7",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20107%3A4-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-in-journeyings-often": {
+   "text": "In journeyings often, in perils of waters, in perils of robbers, in perils by mine own countrymen, in perils by the heathen, in perils in the city, in perils in the wilderness, in perils in the sea, in perils among false brethren; In weariness and painfulness, in watchings often, in hunger and thirst, in fastings often, in cold and nakedness",
+   "work": "2 Corinthians 11:26–27",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2011%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-offered-for-his-sons": {
+   "text": "And it was so, when the days of their feasting were gone about, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all: for Job said, It may be that my sons have sinned, and cursed God in their hearts. Thus did Job continually",
+   "work": "Job 1:5",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%201%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-walk-about-zion": {
+   "text": "Walk about Zion, and go round about her: tell the towers thereof. Mark ye well her bulwarks, consider her palaces; that ye may tell it to the generation following",
+   "work": "Psalm 48:12–13",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2048%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-forsaken-houses-or-brethren": {
+   "text": "And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name's sake, shall receive an hundredfold, and shall inherit everlasting life",
+   "work": "Matthew 19:29",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2019%3A29&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-see-the-place": {
+   "text": "And the angel answered and said unto the women, Fear not ye: for I know that ye seek Jesus, which was crucified. He is not here: for he is risen, as he said. Come, see the place where the Lord lay",
+   "work": "Matthew 28:5–6",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2028%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-bringing-the-spices": {
+   "text": "Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them",
+   "work": "Luke 24:1",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2024%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-slaking-of-a-pilgrims-thirst": {
+   "text": "Count ye the slaking of a pilgrim's thirst and tendance of the Inviolable Place of Worship as (equal to the worth of) him who believeth in Allah and the Last Day, and striveth in the way of Allah? They are not equal in the sight of Allah. Allah guideth not wrongdoing folk.",
+   "work": "Qur’an 9:19",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=19",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-best-provision": {
+   "text": "The pilgrimage is (in) the well-known months, and whoever is minded to perform the pilgrimage therein (let him remember that) there is (to be) no lewdness nor abuse nor angry conversation on the pilgrimage. And whatsoever good ye do Allah knoweth it. So make provision for yourselves (Hereafter); for the best provision is to ward off evil. Therefore keep your duty unto Me, O men of understanding.",
+   "work": "Qur’an 2:197",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=197",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-safa-and-marwah": {
+   "text": "Lo! (the mountains) As-Safa and Al-Marwah are among the indications of Allah. It is therefore no sin for him who is on pilgrimage to the House (of Allah) or visiteth it, to go around them (as the pagan custom is). And he who doeth good of his own accord, (for him) lo! Allah is Responsive, Aware.",
+   "work": "Qur’an 2:158",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=158",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
