@@ -1,0 +1,368 @@
+{
+ "format": 2,
+ "slug": "physicalharm",
+ "subject": "FB433C213FDF4FE7AD1CECE5C661D18D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 15,
+ "quotations": 19,
+ "kept": [
+  "source:BH06116",
+  "source:BB00666",
+  "source:BH00238",
+  "source:BH03702",
+  "source:BH03863",
+  "source:AB02343",
+  "source:BH04398",
+  "source:BH02497",
+  "source:BH04533",
+  "source:BH06749",
+  "source:BH03233",
+  "source:BH00001",
+  "source:ABU0298",
+  "source:BH00549",
+  "selection:828e7e31a1aa2f3e21ec090b"
+ ],
+ "introduction": "These short readings forbid the shedding of blood again and again, in the oldest words available: to kill one is to kill all. They forbid it most pointedly where religion had allowed it, against those who deny God, and then turn to what a court must do with one who has killed: weigh intention, and choose between death and imprisonment. Their company is the long argument of the scriptures with themselves, from Cain and Sinai to the Sermon on the Mount and the Qur’an, over what a life is worth and what a killing calls for.",
+ "questions": [
+  "The Báb repeats a sentence found in the Qur’an, which gives it as a decree to the Children of Israel. Why might this one sentence have been carried from scripture to scripture?",
+  "Bahá’u’lláh forbids the slaying of “those who have denied God”. What do the verses from John and the Qur’an suggest about why that needed saying?",
+  "Numbers, Deuteronomy and the Qur’an all separate the one who kills with purpose from the one who kills by mistake. What does each ask of the second?",
+  "Genesis grounds the death penalty in the image of God; Jesus tells Peter to put up his sword; Ezekiel says God has no pleasure in the death of the wicked. How do the readings on penalties stand among these?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-thou-shalt-not",
+   "after": "source:BH06116",
+   "responds": [
+    "source:BH06116"
+   ],
+   "relation": "adjacent",
+   "why": "“Whosoever sheddeth the blood of any one, he is not of Me.” The commandment at Sinai is four words in English: thou shalt not kill."
+  },
+  {
+   "id": "genesis-thy-brothers-blood-crieth",
+   "after": "source:BH06116",
+   "responds": [
+    "source:BH06116"
+   ],
+   "relation": "adjacent",
+   "why": "The first killing in Genesis is answered by a question and a sentence that every later law remembers: what hast thou done? the voice of thy brother’s blood crieth unto me from the ground."
+  },
+  {
+   "id": "quran-whoso-slew-a-soul",
+   "after": "source:BB00666",
+   "responds": [
+    "source:BB00666"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb’s sentence is the Qur’an’s: whosoever killeth a human being, it shall be as if he had killed all mankind, and whoso saveth the life of one, as if he had saved the life of all mankind."
+  },
+  {
+   "id": "donne-island",
+   "after": "source:BB00666",
+   "responds": [
+    "source:BB00666"
+   ],
+   "relation": "adjacent",
+   "why": "To slay a soul is to slay all mankind. Donne reaches the same arithmetic by another road: any man’s death diminishes me, because I am involved in mankind."
+  },
+  {
+   "id": "matthew-angry-with-his-brother",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "“Beware lest your hands or tongues cause harm.” Jesus carried the commandment back from the hand to the heart: thou shalt not kill, and whosoever is angry with his brother without a cause shall be in danger of the judgment."
+  },
+  {
+   "id": "john-think-he-doeth-god-service",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "The faithless set their minds first on “the shedding of blood”. Jesus warned his disciples who would do it, and in what belief: whosoever killeth you will think that he doeth God service."
+  },
+  {
+   "id": "quran-slay-not-the-life",
+   "after": "source:BH03702",
+   "responds": [
+    "source:BH03702"
+   ],
+   "relation": "adjacent",
+   "why": "Neither spread disorder “neither shed the blood of anyone”. The Qur’an: slay not the life which God hath forbidden save with right."
+  },
+  {
+   "id": "quran-slayeth-a-believer-of-set-purpose",
+   "after": "source:BH03863",
+   "responds": [
+    "source:BH03863"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever “deliberately killeth a soul” has left the stronghold of justice. The Qur’an marks the same word, of set purpose, and attaches to it the wrath of God."
+  },
+  {
+   "id": "genesis-whoso-sheddeth-mans-blood",
+   "after": "source:AB02343",
+   "responds": [
+    "source:AB02343"
+   ],
+   "relation": "adjacent",
+   "why": "The murderer’s death “is his atonement”. Genesis gives the oldest form of the rule and its reason: whoso sheddeth man’s blood, by man shall his blood be shed, for in the image of God made he man."
+  },
+  {
+   "id": "ezekiel-no-pleasure-in-the-death",
+   "after": "source:AB02343",
+   "responds": [
+    "source:AB02343"
+   ],
+   "relation": "complement",
+   "why": "After the penalty, the answer says, God “will impose no second penalty”. Ezekiel hears God say: I have no pleasure in the death of the wicked, but that the wicked turn from his way and live. Do the two speak of the same mercy at different moments?"
+  },
+  {
+   "id": "quran-no-compulsion",
+   "after": "source:BH04398",
+   "responds": [
+    "source:BH04398"
+   ],
+   "relation": "adjacent",
+   "why": "It is forbidden “to slay those who have denied God”. The Qur’an has the principle in a line: there is no compulsion in religion."
+  },
+  {
+   "id": "romans-vengeance-is-mine",
+   "after": "source:BH02497",
+   "responds": [
+    "source:BH02497"
+   ],
+   "relation": "adjacent",
+   "why": "May one bring to justice a man who insults what one holds sacred? Paul’s rule for believers who are wronged: avenge not yourselves, but rather give place unto wrath."
+  },
+  {
+   "id": "matthew-take-the-sword",
+   "after": "source:BH04533",
+   "responds": [
+    "source:BH04533"
+   ],
+   "relation": "adjacent",
+   "why": "“We forbade everyone from shedding blood, as all the Tablets testify.” Jesus, at his arrest, to the disciple who struck: put up again thy sword, for all they that take the sword shall perish with the sword."
+  },
+  {
+   "id": "shakespeare-neptunes-ocean",
+   "after": "source:BH03233",
+   "responds": [
+    "source:BH03233"
+   ],
+   "relation": "adjacent",
+   "why": "He forbade it in all the Tablets, “yet you committed” it. Macbeth, with the deed just done, asks whether the sea can wash his hand, and answers that the hand will sooner redden the sea."
+  },
+  {
+   "id": "exodus-eye-for-eye",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Fire for the arsonist and death for the one who deliberately takes life. The Book of Exodus is the ancestor of the measure: life for life, eye for eye, burning for burning."
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Jesus quotes the measure and sets it aside for his hearers: resist not evil, but whosoever shall smite thee on thy right cheek, turn to him the other also. Is he speaking to the person wronged, or to the court that the reading addresses?"
+  },
+  {
+   "id": "quran-life-for-the-life",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "The same verse of the Most Holy Book allows life imprisonment in place of death. The Qur’an, repeating the life for the life, adds a release of its own: whoso forgoeth it in the way of charity, it shall be expiation for him. Who is in a position to forgo, in each law?"
+  },
+  {
+   "id": "numbers-lying-of-wait",
+   "after": "source:ABU0298",
+   "responds": [
+    "source:ABU0298"
+   ],
+   "relation": "adjacent",
+   "why": "The court must find “what kind of murder it is”. The Book of Numbers draws the first line in the same place, at hatred and lying in wait as against the sudden blow without enmity."
+  },
+  {
+   "id": "deuteronomy-killeth-his-neighbour-ignorantly",
+   "after": "source:ABU0298",
+   "responds": [
+    "source:ABU0298"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy provides cities to which the unintending killer may flee: whoso killeth his neighbour ignorantly, whom he hated not in time past."
+  }
+ ],
+ "library": {
+  "genesis-thy-brothers-blood-crieth": {
+   "text": "And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him. And the Lord said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper? And he said, What hast thou done? the voice of thy brother's blood crieth unto me from the ground",
+   "work": "Genesis 4:8–10",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%204%3A8-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-slay-not-the-life": {
+   "text": "And slay not the life which Allah hath forbidden save with right. Whoso is slain wrongfully, We have given power unto his heir, but let him not commit excess in slaying. Lo! he will be helped.",
+   "work": "Qur’an 17:33",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=33",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-believer-by-mistake": {
+   "text": "It is not for a believer to kill a believer unless (it be) by mistake. He who hath killed a believer by mistake must set free a believing slave, and pay the blood-money to the family of the slain, unless they remit it as a charity. If he (the victim) be of a people hostile unto you, and he is a believer, then (the penance is) to set free a believing slave. And if he cometh of a folk between whom and you there is a covenant, then the blood-money must be paid unto his folk and (also) a believing slave must be set free. And whoso hath not the wherewithal must fast two consecutive months. A penance from Allah. Allah is Knower, Wise.",
+   "work": "Qur’an 4:92",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=92",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-slayeth-a-believer-of-set-purpose": {
+   "text": "Whoso slayeth a believer of set purpose, his reward is hell for ever. Allah is wroth against him and He hath cursed him and prepared for him an awful doom.",
+   "work": "Qur’an 4:93",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=93",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "deuteronomy-killeth-his-neighbour-ignorantly": {
+   "text": "And this is the case of the slayer, which shall flee thither, that he may live: Whoso killeth his neighbour ignorantly, whom he hated not in time past",
+   "work": "Deuteronomy 19:4–6",
+   "year": "c. 7th–5th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2019%3A4-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezekiel-no-pleasure-in-the-death": {
+   "text": "Say unto them, As I live, saith the Lord God, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live",
+   "work": "Ezekiel 33:11",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2033%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-angry-with-his-brother": {
+   "text": "Ye have heard that it was said of them of old time, Thou shalt not kill; and whosoever shall kill shall be in danger of the judgment: But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment",
+   "work": "Matthew 5:21–22",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
