@@ -1,0 +1,759 @@
+{
+ "format": 2,
+ "slug": "holycalendar",
+ "subject": "1FED56E998B24C76A6E68CC456452598",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 83,
+ "quotations": 88,
+ "kept": [
+  "source:BH00001",
+  "source:AB06073",
+  "source:AB04386",
+  "source:ABU2387",
+  "source:AB00048",
+  "source:BH01151",
+  "source:BH09364",
+  "source:BH03908",
+  "source:AB12342",
+  "source:BH00037",
+  "source:AB10894",
+  "source:BH10179",
+  "source:AB01505",
+  "source:ABU1261",
+  "source:ABU2883",
+  "source:ABU0881",
+  "source:ABU0731",
+  "source:ABU0991",
+  "source:AB02737",
+  "source:BH01673",
+  "source:BH01459",
+  "source:BH04569",
+  "source:AB00948",
+  "source:BH00991",
+  "source:AB07193",
+  "source:AB07233",
+  "source:AB04046",
+  "source:AB07015",
+  "source:AB05782",
+  "source:AB12075",
+  "source:AB06158",
+  "source:AB05626",
+  "source:BH00889",
+  "source:AB03806",
+  "source:BH00240",
+  "source:BH01104",
+  "source:AB05358",
+  "source:BH00396",
+  "source:AB00797",
+  "source:ABU0220",
+  "source:AB05133",
+  "source:AB05101",
+  "source:AB11162",
+  "source:AB05139",
+  "source:AB10456",
+  "source:ABU0558",
+  "source:AB06133",
+  "source:ABU3407",
+  "source:BH00368",
+  "source:BH00215",
+  "source:BH00404",
+  "source:BB00305",
+  "source:BH01964",
+  "source:ABU2774",
+  "source:ABU0598",
+  "source:BB00276",
+  "source:BH02278",
+  "source:AB00644",
+  "source:AB04915",
+  "source:AB03497",
+  "source:AB03982",
+  "source:AB07221",
+  "source:AB10939",
+  "source:AB11802",
+  "source:AB02203",
+  "source:AB12136",
+  "source:AB12314",
+  "source:AB12631",
+  "source:AB07392",
+  "source:AB03320",
+  "source:AB01210",
+  "source:AB07386",
+  "source:AB08182",
+  "source:AB01131",
+  "source:AB12094",
+  "source:AB00541",
+  "source:ABU2473",
+  "source:ABU0804",
+  "source:ABU0730",
+  "source:AB01010",
+  "source:AB01600",
+  "source:AB03748",
+  "selection:503facd84d4b1ef1f9c35ec9"
+ ],
+ "introduction": "A religion makes its own year. These readings show the Bahá’í year taking shape: Naw-Rúz at the spring equinox, the twelve days of Riḍván, the birthdays of the Báb and Bahá’u’lláh, the Declaration of the Báb, the days of mourning, the days of giving that come before the Fast, and nine days in all on which work is set aside. Many are short letters in which ‘Abdu’l-Bahá thanks a community for news of its celebration; others settle questions of dates, lunar and solar reckoning, and what may be done on a holy day. Running through them is the instruction with which the guide opens: a holy day means good cheer for oneself, one’s family, and “the poor and needy,” and it should leave “a permanent result.” The festivals of Israel were founded on the same terms, and the passages on Passover, Purim and the pilgrim feasts are placed beside the readings, with the Qur’án on the reckoning of months and the Gospel on the sabbath. Isaiah’s attack on solemn assemblies and Paul’s impatience with “days, and months, and times, and years” ask what a calendar is worth without the life it is meant to carry.",
+ "questions": [
+  "The poor and needy are to share the good cheer of a holy day. How could that be done where you live at the next festival?",
+  "“The program of such fête days must be so prepared as to yield a permanent result.” What result would you look for?",
+  "Shepherds may work on a holy day, “lest the animals go hungry.” What does this exemption, like Jesus’s sheep in the pit, tell you about the purpose of a day of rest?",
+  "Paul feared for people who “observe days, and months.” Isaiah called the solemn meeting iniquity. What were they afraid of, and how do these readings guard against it?",
+  "Joshua set up stones so that children would ask what they meant. What do the Bahá’í holy days prompt a child to ask, and what would you answer?"
+ ],
+ "outside": [
+  {
+   "id": "nehemiah-joy-of-the-lord-is-your-strength",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "In these days provide good cheer “for themselves, their kindred and, beyond them, the poor and needy.” Nehemiah on a holy day: eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared."
+  },
+  {
+   "id": "deuteronomy-rejoice-in-thy-feast",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Deuteronomy names who must be at the table: thou shalt rejoice in thy feast, thou, and the stranger, and the fatherless, and the widow."
+  },
+  {
+   "id": "esther-days-of-feasting-and-joy",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Purim was founded the same way: days of feasting and joy, and of sending portions one to another, and gifts to the poor."
+  },
+  {
+   "id": "isaiah-solemn-meeting",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "The prophets could not abide a festival without the second half: the new moons and sabbaths, the calling of assemblies, I cannot away with; it is iniquity, even the solemn meeting. What keeps a holy day from becoming what Isaiah condemns?"
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:AB06073",
+   "responds": [
+    "source:AB06073"
+   ],
+   "relation": "adjacent",
+   "why": "“Naw-Rúz must have manifestation and expression, otherwise it is like other” days. James: be ye doers of the word, and not hearers only."
+  },
+  {
+   "id": "shakespeare-if-all-the-year-were-playing-holidays",
+   "after": "source:ABU2387",
+   "responds": [
+    "source:ABU2387"
+   ],
+   "relation": "complement",
+   "why": "The programme of a festival should “yield a permanent result.” Prince Hal on why holidays are few: if all the year were playing holidays, to sport would be as tedious as to work. What should be different on the day after a holy day?"
+  },
+  {
+   "id": "psalm-day-which-the-lord-hath-made",
+   "after": "source:AB00048",
+   "responds": [
+    "source:AB00048"
+   ],
+   "relation": "adjacent",
+   "why": "“It is the time for rapture.” The psalm: this is the day which the Lord hath made; we will rejoice and be glad in it."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:BH01151",
+   "responds": [
+    "source:BH01151"
+   ],
+   "relation": "adjacent",
+   "why": "Certain days are honoured as heralds of others. Ecclesiastes: to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:BH09364",
+   "responds": [
+    "source:BH09364"
+   ],
+   "relation": "adjacent",
+   "why": "In the Days of Há all are commanded “to be generous.” Paul: God loveth a cheerful giver."
+  },
+  {
+   "id": "zechariah-fasts-shall-be-joy-and-gladness",
+   "after": "source:BH03908",
+   "responds": [
+    "source:BH03908"
+   ],
+   "relation": "adjacent",
+   "why": "Naw-Rúz is a festival for those who have kept the fast. Zechariah: the fast shall be to the house of Judah joy and gladness, and cheerful feasts."
+  },
+  {
+   "id": "isaiah-great-light",
+   "after": "source:AB10894",
+   "responds": [
+    "source:AB10894"
+   ],
+   "relation": "adjacent",
+   "why": "Naw-Rúz as the day the Sun of the eternal realm shone forth. Isaiah: the people that walked in darkness have seen a great light."
+  },
+  {
+   "id": "genesis-lights-in-the-firmament",
+   "after": "source:ABU1261",
+   "responds": [
+    "source:ABU1261"
+   ],
+   "relation": "adjacent",
+   "why": "The festival falls where the sun stands “in perfect equipoise.” Genesis on what the lights of heaven are for: for signs, and for seasons, and for days, and years."
+  },
+  {
+   "id": "song-winter-is-past",
+   "after": "source:ABU2883",
+   "responds": [
+    "source:ABU2883"
+   ],
+   "relation": "adjacent",
+   "why": "Before the vernal season the earth is as dead; “this season brings life.” The Song of Songs: for, lo, the winter is past, the rain is over and gone; the flowers appear on the earth."
+  },
+  {
+   "id": "genesis-seedtime-and-harvest",
+   "after": "source:ABU2883",
+   "responds": [
+    "source:ABU2883"
+   ],
+   "relation": "adjacent",
+   "why": "The promise after the flood: while the earth remaineth, seedtime and harvest, and summer and winter shall not cease."
+  },
+  {
+   "id": "exodus-this-day-shall-be-for-a-memorial",
+   "after": "source:ABU0881",
+   "responds": [
+    "source:ABU0881"
+   ],
+   "relation": "adjacent",
+   "why": "The day is “the anniversary of many historical events.” Exodus on the first such anniversary: this day shall be unto you for a memorial; ye shall keep it a feast by an ordinance for ever."
+  },
+  {
+   "id": "luke-went-up-to-jerusalem-every-year",
+   "after": "source:ABU0731",
+   "responds": [
+    "source:ABU0731"
+   ],
+   "relation": "adjacent",
+   "why": "In Bahá’u’lláh’s days the new year was kept “with great elaboration and festivity.” The household of Jesus: his parents went to Jerusalem every year at the feast of the passover."
+  },
+  {
+   "id": "ecclesiastes-house-of-mourning",
+   "after": "source:ABU0991",
+   "responds": [
+    "source:ABU0991"
+   ],
+   "relation": "adjacent",
+   "why": "“Our festivals are most magnificent … Likewise, our days of mourning are most intense.” Ecclesiastes gives the second its due: it is better to go to the house of mourning, than to go to the house of feasting."
+  },
+  {
+   "id": "song-i-am-come-into-my-garden",
+   "after": "source:AB02737",
+   "responds": [
+    "source:AB02737"
+   ],
+   "relation": "adjacent",
+   "why": "Riḍván marks the announcement made in a garden. The Song of Songs: I am come into my garden."
+  },
+  {
+   "id": "luke-this-day-fulfilled",
+   "after": "source:BH01673",
+   "responds": [
+    "source:BH01673"
+   ],
+   "relation": "adjacent",
+   "why": "“This is the Day whereon He Who is the Hidden … appeared.” Jesus in the synagogue at Nazareth: this day is this scripture fulfilled in your ears."
+  },
+  {
+   "id": "luke-good-tidings-of-great-joy",
+   "after": "source:BH01459",
+   "responds": [
+    "source:BH01459"
+   ],
+   "relation": "adjacent",
+   "why": "“O joy! This is the Festival of God.” The angel to the shepherds: I bring you good tidings of great joy, which shall be to all people."
+  },
+  {
+   "id": "acts-breaking-bread-with-gladness",
+   "after": "source:AB00948",
+   "responds": [
+    "source:AB00948"
+   ],
+   "relation": "adjacent",
+   "why": "A believer wishes to keep Riḍván with a feast and the reading of Tablets. The first Christians: breaking bread from house to house, they did eat their meat with gladness and singleness of heart."
+  },
+  {
+   "id": "colossians-psalms-and-hymns",
+   "after": "source:BH00991",
+   "responds": [
+    "source:BH00991"
+   ],
+   "relation": "adjacent",
+   "why": "Any of the divine verses may be read on the festivals. Paul: teaching and admonishing one another in psalms and hymns and spiritual songs."
+  },
+  {
+   "id": "psalm-trumpet-and-harp",
+   "after": "source:AB07193",
+   "responds": [
+    "source:AB07193"
+   ],
+   "relation": "adjacent",
+   "why": "“Sing a melody … on this Riḍván Festival.” The last psalm: praise him with the sound of the trumpet: praise him with the psaltery and harp. Praise him with the timbrel and dance."
+  },
+  {
+   "id": "quran-table",
+   "after": "source:AB05782",
+   "responds": [
+    "source:AB05782"
+   ],
+   "relation": "adjacent",
+   "why": "In one city the festival was such that “the heavenly feast descended.” The prayer of Jesus in the Qur’án: send down for us a table spread with food from heaven, that it may be a feast for us, for the first of us and for the last of us."
+  },
+  {
+   "id": "psalm-went-with-them",
+   "after": "source:AB05626",
+   "responds": [
+    "source:AB05626"
+   ],
+   "relation": "adjacent",
+   "why": "A pavilion pitched facing the Shrine, and the friends gathered. The psalmist remembers such days: I went with them to the house of God, with the voice of joy and praise, with a multitude that kept holyday."
+  },
+  {
+   "id": "exodus-six-days-shalt-thou-labour",
+   "after": "source:AB00797",
+   "responds": [
+    "source:AB00797"
+   ],
+   "relation": "adjacent",
+   "why": "Work is forbidden on certain holy days. The commandment that sets the working days apart from the holy one: six days shalt thou labour, and do all thy work."
+  },
+  {
+   "id": "leviticus-feasts-of-the-lord",
+   "after": "source:ABU0220",
+   "responds": [
+    "source:ABU0220"
+   ],
+   "relation": "adjacent",
+   "why": "“In every cycle and dispensation, there are blessed feasts, holidays and workless days.” Leviticus: the feasts of the Lord, which ye shall proclaim to be holy convocations."
+  },
+  {
+   "id": "matthew-sheep-fall-into-a-pit-on-the-sabbath",
+   "after": "source:AB11162",
+   "responds": [
+    "source:AB11162"
+   ],
+   "relation": "adjacent",
+   "why": "Farmers wait a day to irrigate, but shepherds are exempt, “lest the animals go hungry.” Jesus: what man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift it out?"
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:AB11162",
+   "responds": [
+    "source:AB11162"
+   ],
+   "relation": "adjacent",
+   "why": "And the principle: the sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "quran-sun-a-splendour",
+   "after": "source:AB10456",
+   "responds": [
+    "source:AB10456"
+   ],
+   "relation": "adjacent",
+   "why": "Some dates are solar and some lunar. The Qur’án: He it is Who appointed the sun a splendour and the moon a light, and measured for her stages, that ye might know the number of the years, and the reckoning."
+  },
+  {
+   "id": "galatians-ye-observe-days-and-months",
+   "after": "source:ABU0558",
+   "responds": [
+    "source:ABU0558"
+   ],
+   "relation": "contrast",
+   "why": "East and West reckoned the days differently. Paul was impatient with the whole business: ye observe days, and months, and times, and years. I am afraid of you. What is a calendar for, that the readings take such care over it?"
+  },
+  {
+   "id": "romans-fully-persuaded-in-his-own-mind",
+   "after": "source:ABU3407",
+   "responds": [
+    "source:ABU3407"
+   ],
+   "relation": "adjacent",
+   "why": "May America adopt the Persian dates? “If they want to … It is not the request of ‘Abdu’l-Bahá.” Paul: one man esteemeth one day above another: another esteemeth every day alike. Let every man be fully persuaded in his own mind."
+  },
+  {
+   "id": "matthew-wise-as-serpents",
+   "after": "source:BH00215",
+   "responds": [
+    "source:BH00215"
+   ],
+   "relation": "adjacent",
+   "why": "Two holy days are not to be observed openly for the present; “wisdom does not at present permit.” Jesus: be ye therefore wise as serpents, and harmless as doves."
+  },
+  {
+   "id": "quran-number-of-the-months-is-twelve",
+   "after": "source:BB00305",
+   "responds": [
+    "source:BB00305"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb fixed a year of nineteen months of nineteen days. The Qur’án had fixed its own: the number of the months with Allah is twelve months by Allah’s ordinance."
+  },
+  {
+   "id": "psalm-teach-us-to-number",
+   "after": "source:BH01964",
+   "responds": [
+    "source:BH01964"
+   ],
+   "relation": "adjacent",
+   "why": "Days are set aside for giving before the Fast. The psalm of Moses: so teach us to number our days, that we may apply our hearts unto wisdom."
+  },
+  {
+   "id": "augustine-what-then-is-time",
+   "after": "source:ABU0598",
+   "responds": [
+    "source:ABU0598"
+   ],
+   "relation": "complement",
+   "why": "Someone expected marvels from the new division of the year. Augustine on the thing every calendar divides: what, then, is time? If no one ask of me, I know; if I wish to explain to him who asks, I know not. What does a new calendar change, and what does it leave as it was?"
+  },
+  {
+   "id": "deuteronomy-three-times-appear",
+   "after": "source:BH02278",
+   "responds": [
+    "source:BH02278"
+   ],
+   "relation": "adjacent",
+   "why": "Four festivals are ordained “wherein the followers of Bahá should meet and associate with one another.” The law of Moses: three times in a year shall all thy males appear before the Lord, in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles."
+  },
+  {
+   "id": "john-he-must-increase",
+   "after": "source:AB00644",
+   "responds": [
+    "source:AB00644"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá was born on the day of the Báb’s Declaration, and asks that the day be kept for the Báb alone. John the Baptist: he must increase, but I must decrease."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:AB04915",
+   "responds": [
+    "source:AB04915"
+   ],
+   "relation": "adjacent",
+   "why": "On the Báb’s birthday the friends “attained perfect fellowship and joy.” The psalm: behold, how good and how pleasant it is for brethren to dwell together in unity!"
+  },
+  {
+   "id": "isaiah-prince-of-peace",
+   "after": "source:AB07221",
+   "responds": [
+    "source:AB07221"
+   ],
+   "relation": "adjacent",
+   "why": "Congratulations on “the Day of the Birth of the Greatest Name.” Isaiah: for unto us a child is born, unto us a son is given."
+  },
+  {
+   "id": "esther-these-days-should-be-remembered",
+   "after": "source:AB03320",
+   "responds": [
+    "source:AB03320"
+   ],
+   "relation": "adjacent",
+   "why": "A letter written on Naw-Rúz from a gathering in Germany. Esther on how a festival travels: these days should be remembered and kept throughout every generation, every family, every province, and every city."
+  },
+  {
+   "id": "joshua-what-mean-these-stones",
+   "after": "source:AB01131",
+   "responds": [
+    "source:AB01131"
+   ],
+   "relation": "adjacent",
+   "why": "On Naw-Rúz 1909 the remains of the Báb were laid to rest on Carmel after sixty years of concealment. Joshua set up stones so that the story would be asked for: when your children ask their fathers in time to come, saying, What mean ye by these stones?"
+  },
+  {
+   "id": "psalm-i-was-glad",
+   "after": "source:AB00541",
+   "responds": [
+    "source:AB00541"
+   ],
+   "relation": "adjacent",
+   "why": "The Shrine rises “day by day in the intense heat.” The pilgrim psalm: I was glad when they said unto me, Let us go into the house of the Lord."
+  },
+  {
+   "id": "isaiah-excellency-of-carmel-and-sharon",
+   "after": "source:ABU2473",
+   "responds": [
+    "source:ABU2473"
+   ],
+   "relation": "adjacent",
+   "why": "Mount Carmel, where “the Prophets of Israel spent Their nights in prayer.” Isaiah: the excellency of Carmel and Sharon, they shall see the glory of the Lord."
+  },
+  {
+   "id": "luke-bringing-the-spices",
+   "after": "source:ABU0804",
+   "responds": [
+    "source:ABU0804"
+   ],
+   "relation": "adjacent",
+   "why": "The worth of a visit to the Holy Tomb “will become evident.” The first visitors to another tomb: very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared."
+  },
+  {
+   "id": "psalm-rivers-of-babylon",
+   "after": "source:ABU0730",
+   "responds": [
+    "source:ABU0730"
+   ],
+   "relation": "adjacent",
+   "why": "The feast days recall the days of Bahá’u’lláh: “Consider how different it is now!” The exiles: we wept, when we remembered Zion."
+  },
+  {
+   "id": "corinthians-in-remembrance-of-me",
+   "after": "source:AB01010",
+   "responds": [
+    "source:AB01010"
+   ],
+   "relation": "adjacent",
+   "why": "How should the day of His ascension be kept? Paul hands on the first Christian commemoration: this do in remembrance of me."
+  },
+  {
+   "id": "hebrews-cloud-of-witnesses",
+   "after": "source:AB01600",
+   "responds": [
+    "source:AB01600"
+   ],
+   "relation": "adjacent",
+   "why": "On the day of the Báb’s martyrdom, visit the graves of the martyrs. Hebrews: we also are compassed about with so great a cloud of witnesses."
+  },
+  {
+   "id": "exodus-what-mean-ye-by-this-service",
+   "after": "selection:503facd84d4b1ef1f9c35ec9",
+   "responds": [
+    "selection:503facd84d4b1ef1f9c35ec9"
+   ],
+   "relation": "adjacent",
+   "why": "A plain description of the calendar for those new to it. Exodus expects the question: when your children shall say unto you, What mean ye by this service? ye shall say."
+  }
+ ],
+ "shortfall": "Most of the 83 readings are greetings on particular holy days, acknowledgements of reports of celebrations, and rulings on dates and on days when work is suspended, and they repeat one another closely. The guide is read with 49 outside quotations, placed where a parallel or a question is useful; none was added only to reach the number of 88.",
+ "library": {
+  "esther-days-of-feasting-and-joy": {
+   "text": "As the days wherein the Jews rested from their enemies, and the month which was turned unto them from sorrow to joy, and from mourning into a good day: that they should make them days of feasting and joy, and of sending portions one to another, and gifts to the poor",
+   "work": "Esther 9:22",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Esther%209%3A22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "esther-these-days-should-be-remembered": {
+   "text": "And that these days should be remembered and kept throughout every generation, every family, every province, and every city; and that these days of Purim should not fail from among the Jews, nor the memorial of them perish from their seed",
+   "work": "Esther 9:28",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Esther%209%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "leviticus-feasts-of-the-lord": {
+   "text": "Speak unto the children of Israel, and say unto them, Concerning the feasts of the Lord, which ye shall proclaim to be holy convocations, even these are my feasts",
+   "work": "Leviticus 23:2",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2023%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-this-day-shall-be-for-a-memorial": {
+   "text": "And this day shall be unto you for a memorial; and ye shall keep it a feast to the Lord throughout your generations; ye shall keep it a feast by an ordinance for ever",
+   "work": "Exodus 12:14",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2012%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-what-mean-ye-by-this-service": {
+   "text": "And it shall come to pass, when your children shall say unto you, What mean ye by this service? That ye shall say, It is the sacrifice of the Lord's passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped",
+   "work": "Exodus 12:26–27",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2012%3A26-27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-sheep-fall-into-a-pit-on-the-sabbath": {
+   "text": "And he said unto them, What man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift it out? How much then is a man better than a sheep? Wherefore it is lawful to do well on the sabbath days",
+   "work": "Matthew 12:11–12",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A11-12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-ye-observe-days-and-months": {
+   "text": "Ye observe days, and months, and times, and years. I am afraid of you, lest I have bestowed upon you labour in vain",
+   "work": "Galatians 4:10–11",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%204%3A10-11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-number-of-the-months-is-twelve": {
+   "text": "Lo! the number of the months with Allah is twelve months by Allah's ordinance in the day that He created the heavens and the earth. Four of them are sacred: that is the right religion. So wrong not yourselves in them. And wage war on all of the idolaters as they are waging war on all of you. And know that Allah is with those who keep their duty (unto Him).",
+   "work": "Qur’an 9:36",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=9&verse=36",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "shakespeare-if-all-the-year-were-playing-holidays": {
+   "text": "If all the year were playing holidays, / To sport would be as tedious as to work; / But when they seldom come, they wish'd for come, / And nothing pleaseth but rare accidents",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Henry IV, Part 1",
+   "locator": "Act 1, scene 2",
+   "year": "1597",
+   "sortYear": 1597,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/1henryiv/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "published 1598"
+   }
+  }
+ }
+}
