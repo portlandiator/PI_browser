@@ -1,0 +1,877 @@
+{
+ "format": 2,
+ "slug": "selfknowledge",
+ "subject": "3ED3EB2EFEBF43C9A36134E26FDB38EE",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 67,
+ "quotations": 68,
+ "kept": [
+  "source:BH02183",
+  "source:BH03958",
+  "source:BH00308",
+  "source:AB08379",
+  "source:ABU1924",
+  "source:ABU3334",
+  "source:AB10604",
+  "source:AB11285",
+  "source:AB03376",
+  "source:ABU3059",
+  "source:ABU3493",
+  "source:ABU1482",
+  "source:BH11393",
+  "source:BH11778",
+  "source:BH09215",
+  "source:BH00680",
+  "source:BH11229",
+  "source:BH09305",
+  "source:AB01590",
+  "source:ABU0263",
+  "source:ABU3603",
+  "source:BH02382",
+  "source:AB03249",
+  "source:BH00111",
+  "source:AB05049",
+  "source:ABU1509",
+  "source:ABU2176",
+  "source:ABU1414",
+  "source:AB00780",
+  "source:AB01290",
+  "source:BH00210",
+  "source:BH00779",
+  "source:BH00386",
+  "source:BB00008",
+  "source:BH00002",
+  "source:BB00004",
+  "source:ABU1808",
+  "source:AB09643",
+  "source:AB02018",
+  "source:ABU0755",
+  "source:AB09971",
+  "source:AB08722",
+  "source:BH00306",
+  "source:BB00151",
+  "source:BB00297",
+  "source:AB00006",
+  "source:ABU1833",
+  "source:BH00012",
+  "source:BH00652",
+  "source:BH11435",
+  "source:BH05830",
+  "source:BH00640",
+  "source:BH02135",
+  "source:BH00005",
+  "source:BH03289",
+  "selection:ff07be88546adb5105458d3d",
+  "selection:e9fc7329149aed58e4930f1e",
+  "selection:1751954753e44485fc212044",
+  "selection:f77c8371d6629386710830d5",
+  "selection:5e7d69f8e4e29fa7e10b653f",
+  "selection:2f88d0c9aa133f2804809669",
+  "selection:009200edc3aeb0de51943c26",
+  "selection:b7d62cfef53d08e2c353cf20",
+  "selection:92740ca746cdd8954b3b270f",
+  "selection:538031027283612ace449462",
+  "selection:705156a3914600ef0583120e",
+  "selection:64ec46cfd72645fde6514661"
+ ],
+ "introduction": "“True loss,” Bahá’u’lláh says, “is for him whose days have been spent in utter ignorance of his self.” The guide takes the old command to know oneself through four turns: knowing one’s worth, knowing one’s faults, casting away the “insistent self,” and finding that the farthest reach of knowledge returns to signs set within one’s own being, where God is nearer than the life-vein. It already quotes Lao Tzu, Plotinus, Philo and Luke; the company added here includes Socrates, for whom the unexamined life is not worth living, the Dhammapada and Jesus on the faults we see in others, Augustine and Calvin on the knot between knowing oneself and knowing God, and the verses of the Qur’án that the readings cite. Some voices test the readings: Jeremiah doubts that the heart can know itself, Hume looks within and finds no self to catch, Polonius says to be true to the self the readings would cast away, and Feuerbach agrees that the seeker returns to himself and draws a conclusion they refuse.",
+ "questions": [
+  "“Everyone is better informed of the condition of his own soul than the souls of others,” yet the eye is “blind to the sight of his own imperfections,” and Jeremiah calls the heart deceitful. How do you reconcile these, and what helps a person see truly?",
+  "The readings say both “know your own worth” and “cast away thyself.” Emerson says trust thyself and Polonius says be true to thine own self. Which self is to be known, and which left behind?",
+  "Searching for one’s shortcomings is the guard against pride, and Franklin thought he would be proud of his humility. How can self-examination be kept from turning into self-absorption?",
+  "“However high they climb … they ultimately return to their own selves.” Feuerbach makes this the end of theology; Calvin and Augustine make it the beginning. What do the readings make of it?",
+  "The last reading says we find ourselves by searching for God and serving others, and Mill says happiness comes only to those who aim at something else. What have you learned about yourself indirectly that you could not have learned by looking?",
+  "Hume could find no self apart from his perceptions; the Dhammapada says we are what we have thought; the readings call man’s reality his thought. What do you take a self to be?"
+ ],
+ "outside": [
+  {
+   "id": "plato-unexamined-life",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183",
+    "selection:e9fc7329149aed58e4930f1e"
+   ],
+   "relation": "adjacent",
+   "why": "“True loss is for him whose days have been spent in utter ignorance of his self.” Socrates at his trial puts the same judgment on a whole life: the unexamined life is not worth living."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:BH03958",
+   "responds": [
+    "source:BH03958",
+    "source:BH11778"
+   ],
+   "relation": "adjacent",
+   "why": "“Know your own worth and relinquish not your stations.” Emerson’s call has the same confidence, though his ground is the self and theirs a station given: trust thyself; every heart vibrates to that iron string."
+  },
+  {
+   "id": "plato-must-first-know-myself",
+   "after": "source:BH00308",
+   "responds": [
+    "source:BH00308"
+   ],
+   "relation": "adjacent",
+   "why": "The first effulgence is “that man should know his own self.” Socrates gives it as his reason for leaving other inquiries alone: I must first know myself, as the Delphian inscription says."
+  },
+  {
+   "id": "matthew-mote-and-beam",
+   "after": "source:AB08379",
+   "responds": [
+    "source:AB08379"
+   ],
+   "relation": "adjacent",
+   "why": "“Occupied with the faults of others while heedless of his own.” Jesus’s picture of it: the mote in thy brother’s eye, and the beam in thine own."
+  },
+  {
+   "id": "shakespeare-eye-sees-not-itself",
+   "after": "source:ABU1924",
+   "responds": [
+    "source:ABU1924"
+   ],
+   "relation": "adjacent",
+   "why": "The eye is blind to its own imperfections and sharp for those of others. Cassius offers himself to Brutus as a mirror for the same reason: you cannot see yourself so well as by reflection."
+  },
+  {
+   "id": "dhammapada-own-faults",
+   "after": "source:ABU1924",
+   "responds": [
+    "source:ABU1924",
+    "source:AB08379"
+   ],
+   "relation": "adjacent",
+   "why": "Keen-sighted for others, blind for oneself. The Dhammapada: the fault of others is easily perceived, but that of oneself is difficult to perceive."
+  },
+  {
+   "id": "galatians-prove-his-own-work",
+   "after": "source:ABU3334",
+   "responds": [
+    "source:ABU3334"
+   ],
+   "relation": "adjacent",
+   "why": "“Everyone is better informed of the condition of his own soul.” Paul turns that into a duty: let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another."
+  },
+  {
+   "id": "jeremiah-heart-is-deceitful",
+   "after": "source:ABU3334",
+   "responds": [
+    "source:ABU3334"
+   ],
+   "relation": "contrast",
+   "why": "The reading trusts each person’s knowledge of his own soul. Jeremiah doubts it: the heart is deceitful above all things; who can know it? How much of oneself can one see unaided?"
+  },
+  {
+   "id": "analects-examine-myself",
+   "after": "source:AB10604",
+   "responds": [
+    "source:AB10604"
+   ],
+   "relation": "adjacent",
+   "why": "“One must always search for his own shortcomings.” A disciple of Confucius describes the habit: I daily examine myself on three points."
+  },
+  {
+   "id": "franklin-proud-of-my-humility",
+   "after": "source:AB10604",
+   "responds": [
+    "source:AB10604",
+    "source:AB11285"
+   ],
+   "relation": "complement",
+   "why": "Searching for shortcomings is the guard against pride. Franklin, who kept a ledger of his faults, noticed where pride hides next: had he overcome it, he would probably be proud of his humility. Can self-examination itself become vanity?"
+  },
+  {
+   "id": "lamentations-let-us-search-and-try",
+   "after": "source:AB11285",
+   "responds": [
+    "source:AB11285"
+   ],
+   "relation": "adjacent",
+   "why": "Search, “that he may repent at the Threshold of Oneness.” Lamentations: let us search and try our ways, and turn again to the Lord."
+  },
+  {
+   "id": "quran-soul-enjoineth-unto-evil",
+   "after": "source:AB03376",
+   "responds": [
+    "source:AB03376"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá quotes Joseph’s words about the soul. This is the verse in the Qur’án, spoken at the moment Joseph is cleared: I do not exculpate myself."
+  },
+  {
+   "id": "seneca-fire-tries-gold",
+   "after": "source:ABU3059",
+   "responds": [
+    "source:ABU3059"
+   ],
+   "relation": "adjacent",
+   "why": "Tests “reveal the soul to itself,” its strength as well as its weakness. Seneca: fire tries gold, misfortune tries brave men."
+  },
+  {
+   "id": "james-face-in-a-glass",
+   "after": "source:ABU3493",
+   "responds": [
+    "source:ABU3493"
+   ],
+   "relation": "adjacent",
+   "why": "Knowledge is to be tested “within themselves” for whether it is practical. James’s hearer who does nothing with the word is like a man who beholds his face in a glass and straightway forgets what manner of man he was."
+  },
+  {
+   "id": "burns-mans-a-man",
+   "after": "source:BH11393",
+   "responds": [
+    "source:BH11393"
+   ],
+   "relation": "adjacent",
+   "why": "A person is known by courtesy, “not by his wealth … not in your ancestors and garments.” Burns: the rank is but the guinea’s stamp; the man’s the gold for all that."
+  },
+  {
+   "id": "gray-blush-unseen",
+   "after": "source:BH09215",
+   "responds": [
+    "source:BH09215"
+   ],
+   "relation": "adjacent",
+   "why": "Until the sword is drawn “his worth remaineth unknown.” Gray, in a country churchyard, thinks of the worth that never was drawn: full many a flower is born to blush unseen."
+  },
+  {
+   "id": "tennyson-to-rust-unburnished",
+   "after": "source:BH00680",
+   "responds": [
+    "source:BH00680",
+    "source:BH11229"
+   ],
+   "relation": "adjacent",
+   "why": "A sword “sheathed in the scabbard of self.” Tennyson’s Ulysses uses the same blade for a life unused: how dull it is to pause, to rust unburnish’d, not to shine in use."
+  },
+  {
+   "id": "matthew-deny-himself-and-take-up-his-cross",
+   "after": "source:ABU0263",
+   "responds": [
+    "source:ABU0263"
+   ],
+   "relation": "adjacent",
+   "why": "“Cast away thyself, and come.” Jesus’s condition for following him: let him deny himself, and take up his cross."
+  },
+  {
+   "id": "shakespeare-thine-own-self",
+   "after": "source:ABU0263",
+   "responds": [
+    "source:ABU0263",
+    "source:AB01590"
+   ],
+   "relation": "contrast",
+   "why": "“Leave behind this insistent self.” Polonius’s advice to his son runs the other way and is as often quoted: to thine own self be true. Are the two speaking of the same self?"
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:ABU3603",
+   "responds": [
+    "source:ABU3603"
+   ],
+   "relation": "adjacent",
+   "why": "“The pure heart is one that is entirely cut away from self.” The beatitude that gives purity its promise: blessed are the pure in heart, for they shall see God."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:BH02382",
+   "responds": [
+    "source:BH02382"
+   ],
+   "relation": "adjacent",
+   "why": "“Shatter … this idol” of the mortal self. Paul’s sentence for the self after it is shattered: I live; yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "proverbs-wise-in-his-own-conceit",
+   "after": "source:AB03249",
+   "responds": [
+    "source:AB03249"
+   ],
+   "relation": "adjacent",
+   "why": "“Extremely egotistical and self-centered, yet completely unaware.” Proverbs: seest thou a man wise in his own conceit? There is more hope of a fool than of him."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "“The source of crafts, sciences and arts is the power of reflection.” Confucius on the two halves: learning without thought is labour lost; thought without learning is perilous."
+  },
+  {
+   "id": "browning-imprisoned-splendour",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "“All teaching and knowledge are enclosed in the soul of man … to study means to try to bring them to light.” Browning’s Paracelsus: to know consists in opening out a way whence the imprisoned splendour may escape."
+  },
+  {
+   "id": "mencius-all-things-complete-in-us",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "The soul “encompasses everything.” Mencius: all things are already complete in us; there is no greater delight than to be conscious of sincerity on self-examination."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176",
+    "source:AB05049"
+   ],
+   "relation": "contrast",
+   "why": "Knowledge is already enclosed in the soul and has only to be brought out. Locke supposes the mind to be white paper, void of all characters, furnished by experience alone. What would each of them expect a teacher to do?"
+  },
+  {
+   "id": "dhammapada-what-we-have-thought",
+   "after": "source:ABU1414",
+   "responds": [
+    "source:ABU1414"
+   ],
+   "relation": "adjacent",
+   "why": "“The reality of man is his thought, not his material body.” The first verse of the Dhammapada: all that we are is the result of what we have thought."
+  },
+  {
+   "id": "psalm-made-in-secret",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "adjacent",
+   "why": "“Observe within thyself” how every sense exists through the rational soul. The psalmist’s wonder at his own making: I am fearfully and wonderfully made, and that my soul knoweth right well."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "contrast",
+   "why": "The reader is told to look within and observe the soul by which all the senses exist. Hume looked and reported that he never could catch himself without a perception, or observe anything but the perception. What is it that the reading expects us to find?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "A distinction that makes man “worthy of the vesture with which his Creator hath deigned to clothe him.” The eighth psalm: thou hast crowned him with glory and honour."
+  },
+  {
+   "id": "augustine-thou-wert-within",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "“Turn thy sight unto thyself, that thou mayest find Me standing within thee.” Augustine’s confession of how long it took him: thou wert within, and I abroad, and there I searched for thee."
+  },
+  {
+   "id": "calvin-knowledge-of-god-and-of-ourselves",
+   "after": "source:BB00008",
+   "responds": [
+    "source:BB00008",
+    "selection:705156a3914600ef0583120e"
+   ],
+   "relation": "adjacent",
+   "why": "“Know thyself and thou shalt know thy Lord.” Calvin opens his Institutes with the same pair and admits he cannot say which knowledge comes first."
+  },
+  {
+   "id": "chandogya-thou-art-it",
+   "after": "source:BB00008",
+   "responds": [
+    "source:BB00008"
+   ],
+   "relation": "complement",
+   "why": "“Thine inward is Me.” The Chāndogya Upaniṣad says it with no remainder, in a father’s words to his son: that which is the finest essence, that is the Self, and thou art it. How far do the readings go with him?"
+  },
+  {
+   "id": "quran-horizons-and-themselves",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh quotes this verse: signs will be shown on the horizons and within themselves, until it is manifest that it is the Truth."
+  },
+  {
+   "id": "quran-forgot-their-souls",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The third verse Bahá’u’lláh quotes ties the two forgettings together: those who forgot God, and whom he therefore caused to forget their own souls."
+  },
+  {
+   "id": "quran-in-yourselves-can-ye-not-see",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb seeks God’s handiwork within himself. The Qur’án’s brief form of the same search: and also in yourselves; can ye then not see?"
+  },
+  {
+   "id": "pope-proper-study",
+   "after": "source:ABU1808",
+   "responds": [
+    "source:ABU1808"
+   ],
+   "relation": "contrast",
+   "why": "Man is taught to know himself “in order to comprehend the greatness of God.” Pope stops at the first step and forbids the second: know then thyself, presume not God to scan; the proper study of mankind is man."
+  },
+  {
+   "id": "calvin-contemplated-the-face-of-god",
+   "after": "source:AB09643",
+   "responds": [
+    "source:AB09643"
+   ],
+   "relation": "adjacent",
+   "why": "One must “first perceive the light of the sun and by that light observe himself.” Calvin: man never attains to a true self-knowledge until he has first contemplated the face of God, and come down to look into himself."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018"
+   ],
+   "relation": "adjacent",
+   "why": "The human spirit is a polished mirror that still needs light. Proverbs gives the spirit a light of its own, though a lent one: the spirit of man is the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:AB02018",
+   "responds": [
+    "source:AB02018",
+    "source:BH02135"
+   ],
+   "relation": "contrast",
+   "why": "The spirit “cannot become acquainted with the divine mysteries” unless assisted. Kant’s motto for enlightenment refuses assistance as immaturity: have courage to use your own understanding. Does the same reading that asks for one’s “own vision” also limit it?"
+  },
+  {
+   "id": "ephesians-eyes-of-your-understanding",
+   "after": "source:AB09971",
+   "responds": [
+    "source:AB09971"
+   ],
+   "relation": "adjacent",
+   "why": "“One needs eyes,” and the eye meant is a vision that comes from grace. Paul prays for the eyes of your understanding being enlightened."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:AB08722",
+   "responds": [
+    "source:AB08722"
+   ],
+   "relation": "adjacent",
+   "why": "The mysteries of love are “secrets of the heart,” not matters of hearing and sight. Pascal: the heart has its reasons, which reason does not know."
+  },
+  {
+   "id": "quran-soul-at-peace",
+   "after": "source:BH00306",
+   "responds": [
+    "source:BH00306"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh quotes the end of this passage for “the soul that is pleasing unto God.” Here are the lines whole, addressed to the soul at peace."
+  },
+  {
+   "id": "hallaj-i-am-he-whom-i-love",
+   "after": "source:BB00151",
+   "responds": [
+    "source:BB00151"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou art He and He is thou, except that thou art thou and He is He.” Al-Ḥalláj sang the first half without the exception: I am He whom I love, and He whom I love is I."
+  },
+  {
+   "id": "ecclesiastes-words-be-few",
+   "after": "source:BB00151",
+   "responds": [
+    "source:BB00151"
+   ],
+   "relation": "contrast",
+   "why": "The Báb’s sentence brings the self and its Lord very close. The Preacher keeps the distance: God is in heaven, and thou upon earth; therefore let thy words be few. Which half of the Báb’s sentence would he underline?"
+  },
+  {
+   "id": "job-canst-thou-by-searching",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006",
+    "selection:92740ca746cdd8954b3b270f"
+   ],
+   "relation": "adjacent",
+   "why": "Minds read “naught but the letters” of their own book. Zophar to Job: canst thou by searching find out God?"
+  },
+  {
+   "id": "feuerbach-theology-is-anthropology",
+   "after": "source:ABU1833",
+   "responds": [
+    "source:ABU1833"
+   ],
+   "relation": "contrast",
+   "why": "However high they climb, “they ultimately return to their own selves.” Feuerbach said the same and concluded that there is nothing else there: theology is anthropology. Why do the readings not draw his conclusion?"
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "complement",
+   "why": "The seeker reaches only “that abode which hath been raised up within their own hearts.” Tennyson, holding a flower, thinks that to understand one small thing all in all would be to know what God and man is. Is the nearest thing a limit or a door?"
+  },
+  {
+   "id": "shakespeare-quintessence-of-dust",
+   "after": "source:BH11435",
+   "responds": [
+    "source:BH11435"
+   ],
+   "relation": "adjacent",
+   "why": "“Verily I am God!” and “coarser than clay.” Hamlet holds both in one speech: in apprehension how like a god, and yet, to me, what is this quintessence of dust?"
+  },
+  {
+   "id": "genesis-dust-and-ashes",
+   "after": "source:BH11435",
+   "responds": [
+    "source:BH11435"
+   ],
+   "relation": "adjacent",
+   "why": "The second half of the reading. Abraham, bargaining with God for a city: I have taken upon me to speak unto the Lord, which am but dust and ashes."
+  },
+  {
+   "id": "luke-publican",
+   "after": "source:BH05830",
+   "responds": [
+    "source:BH05830"
+   ],
+   "relation": "adjacent",
+   "why": "“Powerlessness and nothingness before His countenance - this indeed is true recognition.” The publican of the parable, who would not lift his eyes, went down to his house justified."
+  },
+  {
+   "id": "ignatius-take-and-receive",
+   "after": "source:BH00640",
+   "responds": [
+    "source:BH00640"
+   ],
+   "relation": "adjacent",
+   "why": "“My self, my being, my essence … belong to God alone.” Ignatius of Loyola’s prayer makes the same surrender item by item: my liberty, my memory, my understanding, and my entire will."
+  },
+  {
+   "id": "romans-we-are-the-lords",
+   "after": "source:BH00640",
+   "responds": [
+    "source:BH00640"
+   ],
+   "relation": "adjacent",
+   "why": "A hundred thousand letters contained in one word of belonging. Paul: none of us liveth to himself; whether we live or die, we are the Lord’s."
+  },
+  {
+   "id": "westminster-chief-end-of-man",
+   "after": "source:BH02135",
+   "responds": [
+    "source:BH02135"
+   ],
+   "relation": "adjacent",
+   "why": "“The purpose of creation hath ever been … the knowledge of God.” The Westminster catechism’s first answer of 1647: man’s chief end is to glorify God, and to enjoy him for ever."
+  },
+  {
+   "id": "buddha-dont-go-by-reports",
+   "after": "source:BH02135",
+   "responds": [
+    "source:BH02135"
+   ],
+   "relation": "adjacent",
+   "why": "“Imitation sufficeth not, whether in acceptance or rejection.” The Buddha to the Kálámas: do not go by reports, by tradition, by hearsay; when you know for yourselves, then accept or abandon."
+  },
+  {
+   "id": "bacon-fear-to-go-in-the-dark",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "A knowledge that lessens fear and “should be taught from childhood.” Bacon traces fear to the same years: men fear death as children fear to go in the dark, and the fear is increased with tales."
+  },
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "contrast",
+   "why": "The reading speaks of a concealed knowledge that removes fear. Lucretius offered Rome one openly: before birth there was nothing for us, and so it will be after death. Which fears can only a different knowledge reach?"
+  },
+  {
+   "id": "job-what-givest-thou-him",
+   "after": "source:BH03289",
+   "responds": [
+    "source:BH03289"
+   ],
+   "relation": "adjacent",
+   "why": "People imagine that the call is meant to heighten God’s glory, when it is for their own remaking. Elihu in Job: if thou be righteous, what givest thou him?"
+  },
+  {
+   "id": "whitman-learnd-astronomer",
+   "after": "selection:1751954753e44485fc212044",
+   "responds": [
+    "selection:1751954753e44485fc212044"
+   ],
+   "relation": "complement",
+   "why": "Philo will not hear lectures on the sun and moon from people who do not know themselves. Whitman, tired of the astronomer’s charts, walks out and looks up in perfect silence at the stars. Is that self-knowledge, or another way round it?"
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "selection:f77c8371d6629386710830d5",
+   "responds": [
+    "selection:f77c8371d6629386710830d5"
+   ],
+   "relation": "adjacent",
+   "why": "Lao Tzu ranks knowing oneself above knowing others. Proverbs ranks ruling oneself above conquest: he that ruleth his spirit is better than he that taketh a city."
+  },
+  {
+   "id": "franklin-moral-perfection",
+   "after": "selection:5e7d69f8e4e29fa7e10b653f",
+   "responds": [
+    "selection:5e7d69f8e4e29fa7e10b653f"
+   ],
+   "relation": "complement",
+   "why": "Plotinus says never cease chiselling your statue. Franklin tried it by method, a virtue a week, and found himself so much fuller of faults than he had imagined. What does the chisel teach besides the statue?"
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "selection:009200edc3aeb0de51943c26",
+   "responds": [
+    "selection:009200edc3aeb0de51943c26"
+   ],
+   "relation": "adjacent",
+   "why": "The soul “loves that Good, moved by it to love from the beginning.” Augustine’s most quoted sentence: thou hast made us for thyself, and our heart is restless until it rest in thee."
+  },
+  {
+   "id": "marcus-look-within",
+   "after": "selection:b7d62cfef53d08e2c353cf20",
+   "responds": [
+    "selection:b7d62cfef53d08e2c353cf20"
+   ],
+   "relation": "adjacent",
+   "why": "“The kingdom of God is within you.” Marcus Aurelius points the Stoic the same way for his own reasons: look within; within is the fountain of good, and it will ever bubble up if thou wilt ever dig."
+  },
+  {
+   "id": "quran-jugular-vein",
+   "after": "selection:538031027283612ace449462",
+   "responds": [
+    "selection:538031027283612ace449462"
+   ],
+   "relation": "adjacent",
+   "why": "“Closer to you than your life-vein” is the Qur’án’s phrase, and this is its verse: We are nearer to him than his jugular vein."
+  },
+  {
+   "id": "tennyson-closer-than-breathing",
+   "after": "selection:538031027283612ace449462",
+   "responds": [
+    "selection:538031027283612ace449462",
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "An ocean “astonishingly near.” Tennyson: closer is He than breathing, and nearer than hands and feet."
+  },
+  {
+   "id": "psalm-search-me-o-god",
+   "after": "selection:705156a3914600ef0583120e",
+   "responds": [
+    "selection:705156a3914600ef0583120e"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer that all may know God and themselves. The psalmist asks to be shown himself: search me, O God, and know my heart; try me, and know my thoughts."
+  },
+  {
+   "id": "matthew-lose-his-life",
+   "after": "selection:64ec46cfd72645fde6514661",
+   "responds": [
+    "selection:64ec46cfd72645fde6514661"
+   ],
+   "relation": "adjacent",
+   "why": "“The more we search for ourselves, the less likely we are to find ourselves.” Jesus: whosoever will save his life shall lose it, and whosoever will lose his life for my sake shall find it."
+  },
+  {
+   "id": "mill-ask-yourself-whether-you-are-happy",
+   "after": "selection:64ec46cfd72645fde6514661",
+   "responds": [
+    "selection:64ec46cfd72645fde6514661"
+   ],
+   "relation": "adjacent",
+   "why": "Self is found sideways, in serving. Mill found the same law for happiness after his own breakdown: ask yourself whether you are happy, and you cease to be so."
+  }
+ ],
+ "library": {
+  "calvin-knowledge-of-god-and-of-ourselves": {
+   "text": "Our wisdom, in so far as it ought to be deemed true and solid Wisdom, consists almost entirely of two parts: the knowledge of God and of ourselves. But as these are connected together by many ties, it is not easy to determine which of the two precedes and gives birth to the other",
+   "author": "John Calvin",
+   "work": "Institutes of the Christian Religion",
+   "locator": "Book 1, chapter 1, section 1",
+   "year": "1559",
+   "sortYear": 1559,
+   "translator": "Henry Beveridge",
+   "translationYear": "1845",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://ccel.org/ccel/calvin/institutes.iii.ii.html",
+    "label": "Christian Classics Ethereal Library",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1863."
+   }
+  },
+  "calvin-contemplated-the-face-of-god": {
+   "text": "it is evident that man never attains to a true self-knowledge until he has previously contemplated the face of God, and come down after such contemplation to look into himself",
+   "author": "John Calvin",
+   "work": "Institutes of the Christian Religion",
+   "locator": "Book 1, chapter 1, section 2",
+   "year": "1559",
+   "sortYear": 1559,
+   "translator": "Henry Beveridge",
+   "translationYear": "1845",
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://ccel.org/ccel/calvin/institutes.iii.ii.html",
+    "label": "Christian Classics Ethereal Library",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1863."
+   }
+  },
+  "plato-must-first-know-myself": {
+   "text": "I must first know myself, as the Delphian inscription says; to be curious about that which is not my concern, while I am still in ignorance of my own self, would be ridiculous",
+   "author": "Plato",
+   "work": "Phaedrus",
+   "locator": "229e–230a",
+   "year": "c. 370 BCE",
+   "sortYear": -370,
+   "translator": "Benjamin Jowett",
+   "translationYear": "1871",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Plato/phaedrus.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-22",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translator d. 1893."
+   }
+  },
+  "corinthians-examine-yourselves": {
+   "text": "Examine yourselves, whether ye be in the faith; prove your own selves",
+   "work": "2 Corinthians 13:5",
+   "year": "c. 55–56 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2013%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-wise-in-his-own-conceit": {
+   "text": "Seest thou a man wise in his own conceit? there is more hope of a fool than of him",
+   "work": "Proverbs 26:12",
+   "year": "c. 6th–4th century BCE",
+   "sortYear": -450,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2026%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-prove-his-own-work": {
+   "text": "For if a man think himself to be something, when he is nothing, he deceiveth himself. But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another",
+   "work": "Galatians 6:3–4",
+   "year": "c. 50–55 CE",
+   "sortYear": 53,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%206%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-we-are-the-lords": {
+   "text": "For none of us liveth to himself, and no man dieth to himself. For whether we live, we live unto the Lord; and whether we die, we die unto the Lord: whether we live therefore, or die, we are the Lord's",
+   "work": "Romans 14:7–8",
+   "year": "c. 57 CE",
+   "sortYear": 57,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%2014%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
