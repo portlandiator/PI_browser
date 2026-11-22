@@ -1,0 +1,548 @@
+{
+ "format": 2,
+ "slug": "manifestationoneness",
+ "subject": "D94FA897F92748119D02B1738E91BD1C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 61,
+ "quotations": 83,
+ "kept": [
+  "source:ABU0196",
+  "source:ABU0149",
+  "source:AB00086",
+  "source:AB00477",
+  "source:BH00248",
+  "source:BH00779",
+  "source:BH00002",
+  "source:BH00048",
+  "source:BH00012",
+  "source:BH00066",
+  "source:ABU0129",
+  "source:BH00409",
+  "source:AB00083",
+  "source:AB00395",
+  "source:AB00940",
+  "source:BH00134",
+  "source:ABU0257",
+  "source:AB01794",
+  "source:ABU1406",
+  "source:ABU1146",
+  "source:ABU1577",
+  "source:ABU0107",
+  "source:ABU0218",
+  "source:ABU1396",
+  "source:ABU2108",
+  "source:ABU1184",
+  "source:ABU0903",
+  "source:ABU2524",
+  "source:ABU0012",
+  "source:ABU0179",
+  "source:ABU0187",
+  "source:ABU0204",
+  "source:BH00358",
+  "source:BH00926",
+  "source:BH10746",
+  "source:BB00003",
+  "source:BB00005",
+  "source:BB00015",
+  "source:BB00066",
+  "source:BH02874",
+  "source:BB00027",
+  "source:BB00030",
+  "source:BB00001",
+  "source:BB00046",
+  "source:BB00094",
+  "source:BB00392",
+  "source:BH08285",
+  "source:BH09422",
+  "source:ABU0022",
+  "source:BH00629",
+  "source:AB00006",
+  "source:BH01828",
+  "source:BB00247",
+  "source:BB00654",
+  "source:BB00662",
+  "source:BH01043",
+  "source:BHU0036",
+  "source:BH01071",
+  "selection:512e99dbd7c3a4f275f880ee",
+  "selection:8b7bb5f0bb0801aadfe1cef5",
+  "selection:1fae7e2a2a987d41b68b5851"
+ ],
+ "introduction": "The readings say, in the figure of one sun rising from many horizons, that the Founders of the religions are one: one light in different lamps, one purpose under different names, each the return of those before and the promise of those to come. The scriptures they speak of say much of this of themselves. The Qur’an refuses to distinguish between the messengers, the Gospels call John the Baptist Elijah, and the Gita has the Lord return from age to age. Beside these stand poets and thinkers who reached a like thought, and voices that resist it: a last prophet, an only way, a plurality that should stay plural.",
+ "questions": [
+  "The Qur’an says “We make no distinction between any of His messengers” and also that some were caused to excel others. How do the readings hold the two statements together?",
+  "Jesus calls John the Baptist Elijah, and John says he is not. What do the readings on “return” make of the two answers?",
+  "Rumi, Ibn ʿArabi, Penn and the Rig Veda each say that what is one goes by many names. How does the unity the readings describe differ from theirs, if it does?",
+  "Gandhi and Vivekananda ask for mutual respect among religions that remain distinct. Is that less than the readings ask, or something else?",
+  "“Seal of the Prophets”, “no man cometh unto the Father, but by me”: how do the readings read the verses on which finality has been built?"
+ ],
+ "outside": [
+  {
+   "id": "cyprian-rays",
+   "after": "source:ABU0196",
+   "responds": [
+    "source:ABU0196"
+   ],
+   "relation": "adjacent",
+   "why": "“Though these mirrors are many, yet the Sun is one.” Cyprian used the figure for the one Church: there are many rays of the sun, but one light."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU0149",
+   "responds": [
+    "source:ABU0149"
+   ],
+   "relation": "adjacent",
+   "why": "A lover of the light, “no matter from what dayspring it may appear”. Rumi: the lamps are different, but the Light is the same; it comes from Beyond."
+  },
+  {
+   "id": "ibn-arabi-every-form",
+   "after": "source:ABU0149",
+   "responds": [
+    "source:ABU0149"
+   ],
+   "relation": "adjacent",
+   "why": "A lover of the rose in whatever soil. Ibn ʿArabi: my heart has become capable of every form, a convent for Christian monks, the tables of the Tora and the book of the Koran; I follow the religion of Love."
+  },
+  {
+   "id": "whitman-greatest-of-faiths-and-least",
+   "after": "source:AB00086",
+   "responds": [
+    "source:AB00086"
+   ],
+   "relation": "complement",
+   "why": "One must love the light “in whatever lamp it may shine”. Whitman’s embrace is as wide and asks for no lamp at all: my faith is the greatest of faiths and the least of faiths, enclosing worship ancient and modern. Is his the love the reading describes, or love without a beloved?"
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:BH00248",
+   "responds": [
+    "source:BH00248"
+   ],
+   "relation": "adjacent",
+   "why": "Each was “the bearer of a specific Message”. The Letter to the Hebrews opens on the same history: God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets."
+  },
+  {
+   "id": "quran-warner-in-every-nation",
+   "after": "source:BH00248",
+   "responds": [
+    "source:BH00248"
+   ],
+   "relation": "adjacent",
+   "why": "Each “entrusted with a divinely revealed Book”. The Qur’an widens the roll beyond those it names: there is not a nation but a warner hath passed among them."
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "“There is no distinction whatsoever among the Bearers of My Message.” The sentence is the creed of the Qur’an’s believers: we make no distinction between any of His messengers."
+  },
+  {
+   "id": "quran-some-we-have-caused-to-excel",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "complement",
+   "why": "The same chapter of the Qur’an says: of those messengers, some of whom We have caused to excel others. The reading knows both verses and goes on to speak of differing intensity of light. In what sense can messengers differ and not be distinguished?"
+  },
+  {
+   "id": "matthew-this-is-elias",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The “mystic return” of the Words of God. Jesus says of John the Baptist: if ye will receive it, this is Elias, which was for to come."
+  },
+  {
+   "id": "john-art-thou-elias",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "complement",
+   "why": "Asked, art thou Elias? John himself says: I am not. The Book of Certitude treats the two answers as both true. What must “return” mean for that to be so?"
+  },
+  {
+   "id": "luke-in-the-spirit-and-power-of-elias",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Luke gives the sense in which the one is the other: he shall go before him in the spirit and power of Elias."
+  },
+  {
+   "id": "quran-revealed-unto-abraham",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Behold them all as “the bearers of one Name”. The Qur’an has the believer profess it: we believe in that which was revealed unto Abraham, and that which Moses and Jesus received."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "“The first among them is the same as the last.” The voice that opens the Revelation of John: I am Alpha and Omega, the beginning and the ending, which is, and which was, and which is to come."
+  },
+  {
+   "id": "quran-same-religion",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "They “have all arisen to proclaim” one Faith. The Qur’an: He hath ordained for you that religion which He commended unto Noah, and unto Abraham and Moses and Jesus; be not divided therein."
+  },
+  {
+   "id": "shelley-many-coloured-glass",
+   "after": "source:ABU0129",
+   "responds": [
+    "source:ABU0129"
+   ],
+   "relation": "adjacent",
+   "why": "One sun, resplendent “in various mirrors”. Shelley’s lines are the best known in English for one light and many colours: life, like a dome of many-coloured glass, stains the white radiance of eternity."
+  },
+  {
+   "id": "quran-one-community",
+   "after": "source:AB00940",
+   "responds": [
+    "source:AB00940"
+   ],
+   "relation": "adjacent",
+   "why": "In the station of distinction each has a mission of his own. The Qur’an: for each We have appointed a divine law and a traced-out way; so vie one with another in good works."
+  },
+  {
+   "id": "matthew-not-to-destroy-but-fulfil",
+   "after": "source:BH00134",
+   "responds": [
+    "source:BH00134"
+   ],
+   "relation": "adjacent",
+   "why": "Religious laws differ in every age and yet “there is no difference among them”. Jesus on his relation to what came before: I am not come to destroy, but to fulfil."
+  },
+  {
+   "id": "quran-abrogate",
+   "after": "source:BH00134",
+   "responds": [
+    "source:BH00134"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an explains change in the law without any break in its source: nothing of our revelation do we abrogate, but we bring one better or the like thereof."
+  },
+  {
+   "id": "rigveda-one-many-names",
+   "after": "source:ABU0257",
+   "responds": [
+    "source:ABU0257"
+   ],
+   "relation": "adjacent",
+   "why": "“Reality is one and cannot be two.” The Rig Veda, perhaps the oldest sentence of its kind: to what is One, sages give many a title."
+  },
+  {
+   "id": "tennyson-broken-lights",
+   "after": "source:ABU1406",
+   "responds": [
+    "source:ABU1406"
+   ],
+   "relation": "adjacent",
+   "why": "“The lamps are different but the light is one.” Tennyson’s prologue: our little systems have their day; they are but broken lights of thee, and thou, O Lord, art more than they."
+  },
+  {
+   "id": "vivekananda-images-crosses-and-crescents",
+   "after": "source:ABU1146",
+   "responds": [
+    "source:ABU1146"
+   ],
+   "relation": "adjacent",
+   "why": "Look at the light and “not be misled by the lamp”. Vivekananda told the Parliament of Religions in 1893 that images, crosses and crescents are so many pegs to hang the spiritual ideas on."
+  },
+  {
+   "id": "luke-old-is-better",
+   "after": "source:ABU1577",
+   "responds": [
+    "source:ABU1577"
+   ],
+   "relation": "adjacent",
+   "why": "“We should not become attached to the chimney.” Jesus knew the attachment: no man having drunk old wine straightway desireth new, for he saith, the old is better."
+  },
+  {
+   "id": "penn-one-religion",
+   "after": "source:ABU0107",
+   "responds": [
+    "source:ABU0107"
+   ],
+   "relation": "adjacent",
+   "why": "The garments differ; the attributes are the same. William Penn says it of the devout of every church: they are everywhere of one religion, though the divers liveries they wear here make them strangers."
+  },
+  {
+   "id": "quran-seal-of-the-prophets",
+   "after": "source:ABU0218",
+   "responds": [
+    "source:ABU0218"
+   ],
+   "relation": "contrast",
+   "why": "The talk lists the Prophets from Adam through Muhammad to the Báb and Bahá’u’lláh. The verse on which most Muslims rest the end of that line: Muhammad is the messenger of God and the Seal of the Prophets. How do the readings on first and last read this title?"
+  },
+  {
+   "id": "quran-no-new-thing-among-messengers",
+   "after": "source:ABU1396",
+   "responds": [
+    "source:ABU1396"
+   ],
+   "relation": "adjacent",
+   "why": "Each “spoke with the same authority”. Muhammad is told to claim no more than that: say, I am no new thing among the messengers."
+  },
+  {
+   "id": "john-had-ye-believed-moses",
+   "after": "source:ABU0903",
+   "responds": [
+    "source:ABU0903"
+   ],
+   "relation": "adjacent",
+   "why": "Had the followers of one comprehended him, they would have accepted the other. Jesus says it of Moses and himself: had ye believed Moses, ye would have believed me."
+  },
+  {
+   "id": "ashoka-other-religions",
+   "after": "source:ABU0903",
+   "responds": [
+    "source:ABU0903"
+   ],
+   "relation": "adjacent",
+   "why": "The followers of Moses and of Zoroaster deny each other’s prophet. The emperor Ashoka had it cut in rock that whoever praises his own religion and condemns others only harms his own."
+  },
+  {
+   "id": "gandhi-not-one-religion",
+   "after": "source:ABU2524",
+   "responds": [
+    "source:ABU2524"
+   ],
+   "relation": "complement",
+   "why": "“Religions are like the branches of one Tree.” Gandhi liked the figure and drew a limit: the need of the moment is not one religion, but mutual respect; not the dead level, but unity in diversity. Do branches of one tree need more than that?"
+  },
+  {
+   "id": "vivekananda-own-law",
+   "after": "source:ABU2524",
+   "responds": [
+    "source:ABU2524"
+   ],
+   "relation": "complement",
+   "why": "Vivekananda at Chicago: the Christian is not to become a Hindu, nor a Hindu a Christian; each must assimilate the spirit of the others and grow according to his own law of growth. What do the readings ask of a believer that he does not?"
+  },
+  {
+   "id": "gibbon-equally-true",
+   "after": "source:ABU0012",
+   "responds": [
+    "source:ABU0012"
+   ],
+   "relation": "contrast",
+   "why": "“Reality is single and does not admit multiplicity.” Gibbon’s Romans made the many religions agree more cheaply: to the people equally true, to the philosopher equally false, to the magistrate equally useful. What separates the oneness of the readings from each of the three?"
+  },
+  {
+   "id": "john-one-fold",
+   "after": "source:ABU0187",
+   "responds": [
+    "source:ABU0187"
+   ],
+   "relation": "adjacent",
+   "why": "Christ gathered scattered flocks, and the Prophets come “to unite the children of men”. The shepherd’s own words: other sheep I have, which are not of this fold; there shall be one fold, and one shepherd."
+  },
+  {
+   "id": "hume-intolerance-of-unity",
+   "after": "source:ABU0187",
+   "responds": [
+    "source:ABU0187"
+   ],
+   "relation": "contrast",
+   "why": "Hume observed the opposite effect: the intolerance of almost all religions which have maintained the unity of God is as remarkable as the contrary principle in polytheists. What turned a message of unity into a ground of exclusion, on the readings’ account?"
+  },
+  {
+   "id": "luke-he-that-heareth-you",
+   "after": "source:ABU0204",
+   "responds": [
+    "source:ABU0204"
+   ],
+   "relation": "adjacent",
+   "why": "“If we deny One of the Manifestations of God, we deny all.” Jesus gives the chain for his own messengers: he that despiseth you despiseth me, and he that despiseth me despiseth him that sent me."
+  },
+  {
+   "id": "acts-why-persecutest-thou-me",
+   "after": "source:ABU0204",
+   "responds": [
+    "source:ABU0204"
+   ],
+   "relation": "adjacent",
+   "why": "“To inflict persecution upon One is to persecute” all. The voice on the Damascus road did not ask Saul why he persecuted the disciples: Saul, Saul, why persecutest thou me?"
+  },
+  {
+   "id": "matthew-killest-the-prophets",
+   "after": "source:BH00358",
+   "responds": [
+    "source:BH00358"
+   ],
+   "relation": "adjacent",
+   "why": "Delivered at one time to Nimrod, at another to Pharaoh: one life persecuted in every age. Jesus, over the city: O Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee."
+  },
+  {
+   "id": "matthew-tombs-of-the-prophets",
+   "after": "source:BH00926",
+   "responds": [
+    "source:BH00926"
+   ],
+   "relation": "adjacent",
+   "why": "Those who honour a past Messenger are told they are about to kill him again. Jesus to those who built the tombs of the prophets and said, had we lived then, we would not have shed their blood: ye are the children of them which killed the prophets."
+  },
+  {
+   "id": "luke-prophets-and-kings-have-desired",
+   "after": "source:BH10746",
+   "responds": [
+    "source:BH10746"
+   ],
+   "relation": "adjacent",
+   "why": "Moses longed for this presence and Muhammad yearned to behold it. Jesus: many prophets and kings have desired to see those things which ye see, and have not seen them."
+  },
+  {
+   "id": "gita-age-after-age",
+   "after": "source:BB00015",
+   "responds": [
+    "source:BB00015"
+   ],
+   "relation": "adjacent",
+   "why": "It is one who “hath been manifest in all the Messengers”. Krishna in the Bhagavad Gita: when Righteousness declines, I rise, from age to age, and take visible shape."
+  },
+  {
+   "id": "quran-covenant-of-the-prophets",
+   "after": "source:BB00066",
+   "responds": [
+    "source:BB00066"
+   ],
+   "relation": "adjacent",
+   "why": "One Cause passes from each Prophet to the next. The Qur’an tells of a covenant God made with the prophets: afterward there will come unto you a messenger, confirming that which ye possess; ye shall believe in him and ye shall help him."
+  },
+  {
+   "id": "deuteronomy-a-prophet-like-unto-me",
+   "after": "source:BH02874",
+   "responds": [
+    "source:BH02874"
+   ],
+   "relation": "adjacent",
+   "why": "Fealty is sworn to the one to come “as well as to those Who shall come after Him”. Moses looked forward in the same way: the Lord thy God will raise up unto thee a Prophet like unto me; unto him ye shall hearken."
+  },
+  {
+   "id": "emerson-as-if-god-were-dead",
+   "after": "source:BH02874",
+   "responds": [
+    "source:BH02874"
+   ],
+   "relation": "adjacent",
+   "why": "Revelation continues “till the end that hath no end”. Emerson complained to the divinity students of Harvard that men speak of the revelation as somewhat long ago given and done, as if God were dead."
+  },
+  {
+   "id": "hebrews-same-yesterday",
+   "after": "source:BB00027",
+   "responds": [
+    "source:BB00027"
+   ],
+   "relation": "adjacent",
+   "why": "“He Who hath appeared is identical with Him Who shall appear.” The Letter to the Hebrews says of Christ what the reading says of the sun: the same yesterday, and to day, and for ever."
+  },
+  {
+   "id": "john-before-abraham-was",
+   "after": "source:BB00046",
+   "responds": [
+    "source:BB00046"
+   ],
+   "relation": "adjacent",
+   "why": "“I am the First Adam.” The claim scandalized hearers once before: before Abraham was, I am."
+  },
+  {
+   "id": "matthew-elias-is-come-already",
+   "after": "source:BB00094",
+   "responds": [
+    "source:BB00094"
+   ],
+   "relation": "adjacent",
+   "why": "The appearance of the Mahdi “is identical with the appearance of Muhammad”. Jesus on a return already past and unnoticed: Elias is come already, and they knew him not."
+  },
+  {
+   "id": "quran-jesus-confirming-the-torah",
+   "after": "source:ABU0022",
+   "responds": [
+    "source:ABU0022"
+   ],
+   "relation": "adjacent",
+   "why": "One dawning-point after another. The Qur’an tells the succession as each confirming the last: We caused Jesus, son of Mary, to follow in their footsteps, confirming that which was before him in the Torah."
+  },
+  {
+   "id": "quran-praised-one",
+   "after": "source:BH00629",
+   "responds": [
+    "source:BH00629"
+   ],
+   "relation": "adjacent",
+   "why": "Each foretold the next, who was hidden in his day. In the Qur’an Jesus brings good tidings of a messenger who cometh after me, whose name is the Praised One."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:BH01043",
+   "responds": [
+    "source:BH01043"
+   ],
+   "relation": "adjacent",
+   "why": "Were a new Manifestation to appear every day, “how could the divine Cause remain firm”? The Preacher’s rule: to every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "matthew-things-new-and-old",
+   "after": "selection:8b7bb5f0bb0801aadfe1cef5",
+   "responds": [
+    "selection:8b7bb5f0bb0801aadfe1cef5"
+   ],
+   "relation": "adjacent",
+   "why": "Each brings the Message “fitted to the age”. Jesus likens the instructed scribe to a householder, which bringeth forth out of his treasure things new and old."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "selection:1fae7e2a2a987d41b68b5851",
+   "responds": [
+    "selection:1fae7e2a2a987d41b68b5851"
+   ],
+   "relation": "contrast",
+   "why": "Shoghi Effendi sums up: the unity of the Messengers, the continuity of their Revelations. The verse most often set against any such summary: I am the way, the truth, and the life; no man cometh unto the Father, but by me. If each Messenger could say it in his day, is it still the claim its readers have taken it to be?"
+  }
+ ],
+ "shortfall": "This guide places 49 outside quotations beside its 83. Some twenty of the readings repeat a single image, one sun and many dawning-places, in nearly the same words, and several others list the stations of one Manifestation in terms that have no near companion elsewhere; they are left to speak for themselves.",
+ "library": {
+  "quran-some-we-have-caused-to-excel": {
+   "text": "Of those messengers, some of whom We have caused to excel others, and of whom there are some unto whom Allah spake, while some of them He exalted (above others) in degree; and We gave Jesus, son of Mary, clear proofs (of Allah's Sovereignty) and We supported him with the holy Spirit. And if Allah had so wiled it, those who followed after them would not have fought one with another after the clear proofs had come unto them. But they differed, some of them believing and some disbelieving. And if Allah had so willed it, they would not have fought one with another; but Allah doeth what He will.",
+   "work": "Qur’an 2:253",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=253",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-22",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
