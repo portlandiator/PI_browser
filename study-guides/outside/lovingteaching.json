@@ -1,0 +1,131 @@
+{
+ "format": 2,
+ "slug": "lovingteaching",
+ "subject": "897DD84096DC4E809E4ED2D3637A0FD0",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:ABU2205",
+  "source:ABU0993",
+  "source:AB00189",
+  "source:ABU2032",
+  "source:AB01338",
+  "source:AB04113",
+  "selection:2eee8e2b48edd6a3353efab6",
+  "selection:9894323a99d885ba8cd7f4f6",
+  "selection:22f0d79b3f357fcebaf294b8",
+  "selection:39e94f0efca101f75e490bd6",
+  "selection:7675faf4787e7a9bc88a5545"
+ ],
+ "introduction": "“The way to broaden the outlook of the very narrow-hearted and prejudiced … was by showing towards them the greatest kindness and love.” These eleven readings make one point about sharing a faith: the listener is reached by affection before argument, and by what the teacher is before what the teacher says. ‘Abdu’l-Bahá asks for fellowship first and for patience with the stubborn; the later letters add that a community’s love for one another is itself the proof people look for. Earlier scriptures say the same of their own beginnings. The Qur’án tells Muhammad that had he been stern they would have left him; Paul was “gentle … as a nurse” among his converts; Jesus made love among his disciples the sign by which they would be known, and Tertullian records that outsiders noticed. Chaucer’s Parson and Whitman add that example convinces where speech does not. No dissenting voice is set beside these few readings; the question they leave is a practical one.",
+ "questions": [
+  "Think of someone whose outlook you find narrow. What would “the greatest kindness and love” toward that person look like this week?",
+  "“If I love you, you know it.” How do people know? What have others known about you without being told?",
+  "“See how they love one another.” What would a visitor conclude from an hour spent in your community?"
+ ],
+ "outside": [
+  {
+   "id": "quran-consult-with-them",
+   "after": "source:ABU2205",
+   "responds": [
+    "source:ABU2205"
+   ],
+   "relation": "adjacent",
+   "why": "The way to open a narrow and prejudiced heart is “the greatest kindness and love.” The Qur’án, to its Prophet: it was by the mercy of Allah that thou wast lenient with them, for if thou hadst been stern and fierce of heart they would have dispersed from round about thee."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:ABU0993",
+   "responds": [
+    "source:ABU0993"
+   ],
+   "relation": "adjacent",
+   "why": "“In this time it is through deeds.” Jesus: let your light so shine before men, that they may see your good works."
+  },
+  {
+   "id": "chaucer-parson",
+   "after": "source:ABU0993",
+   "responds": [
+    "source:ABU0993"
+   ],
+   "relation": "adjacent",
+   "why": "Chaucer’s good priest: this noble ensample to his sheep he yaf, that first he wroghte, and afterward he taughte."
+  },
+  {
+   "id": "thessalonians-labouring-night-and-day",
+   "after": "source:AB00189",
+   "responds": [
+    "source:AB00189"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer for “loving and tender hearts.” Paul on how he had taught: we were gentle among you, even as a nurse cherisheth her children."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU2032",
+   "responds": [
+    "source:ABU2032"
+   ],
+   "relation": "adjacent",
+   "why": "“If I love you, you know it, I need not tell you all the time.” John: let us not love in word, neither in tongue; but in deed and in truth."
+  },
+  {
+   "id": "timothy-in-meekness-instructing",
+   "after": "source:AB01338",
+   "responds": [
+    "source:AB01338"
+   ],
+   "relation": "adjacent",
+   "why": "Guide seekers “with utmost love, kindness, forbearance and gentle speech,” and bear with the stubborn. Paul: the servant of the Lord must be gentle unto all men, patient, in meekness instructing those that oppose themselves."
+  },
+  {
+   "id": "quran-call-with-wisdom",
+   "after": "source:AB04113",
+   "responds": [
+    "source:AB04113"
+   ],
+   "relation": "adjacent",
+   "why": "First fellowship; then, where there is receptivity, the Word. The Qur’án: call unto the way of thy Lord with wisdom and fair exhortation, and reason with them in the better way."
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "selection:2eee8e2b48edd6a3353efab6",
+   "responds": [
+    "selection:2eee8e2b48edd6a3353efab6"
+   ],
+   "relation": "adjacent",
+   "why": "Unsophisticated people “have the same right to know.” Paul: to the weak became I as weak, that I might gain the weak: I am made all things to all men."
+  },
+  {
+   "id": "whitman-convince-by-our-presence",
+   "after": "selection:9894323a99d885ba8cd7f4f6",
+   "responds": [
+    "selection:9894323a99d885ba8cd7f4f6"
+   ],
+   "relation": "adjacent",
+   "why": "Exemplify the spirit of the teachings so that the seeker is drawn of his own accord. Whitman: I and mine do not convince by arguments, similes, rhymes, we convince by our presence."
+  },
+  {
+   "id": "tertullian-how-they-love-one-another",
+   "after": "selection:22f0d79b3f357fcebaf294b8",
+   "responds": [
+    "selection:22f0d79b3f357fcebaf294b8"
+   ],
+   "relation": "adjacent",
+   "why": "Only by “their love for and patience with each other can they hope to attract large numbers.” Tertullian reports what pagans said of the first Christians: see how they love one another."
+  },
+  {
+   "id": "john-by-this-shall-all-men-know",
+   "after": "selection:7675faf4787e7a9bc88a5545",
+   "responds": [
+    "selection:7675faf4787e7a9bc88a5545"
+   ],
+   "relation": "adjacent",
+   "why": "“It is not preaching and rules the world wants, it is love and action.” Jesus: by this shall all men know that ye are my disciples, if ye have love one to another."
+  }
+ ],
+ "library": {}
+}
