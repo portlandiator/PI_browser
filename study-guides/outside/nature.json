@@ -1,0 +1,231 @@
+{
+ "format": 2,
+ "slug": "nature",
+ "subject": "879087898C9746AA88A2BE11CA9F1331",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 18,
+ "quotations": 21,
+ "kept": [
+  "source:BH00223",
+  "source:AB00373",
+  "source:ABU0162",
+  "source:AB00259",
+  "source:AB01029",
+  "source:ABU0007",
+  "source:ABU0170",
+  "source:ABU0024",
+  "source:AB03841",
+  "source:ABU1594",
+  "source:ABU1959",
+  "source:ABU0122",
+  "source:AB01223",
+  "source:ABU0226",
+  "selection:b81fb56d936462d883c13cc7",
+  "selection:892ef0ea7d255b4205666c13",
+  "selection:bac56cd1612aea7d64e48219",
+  "selection:db37350ddc4ef277aaee69a0"
+ ],
+ "introduction": "“Nature is God’s Will,” Bahá’u’lláh writes, “and is its expression in and through the contingent world.” The readings work out both sides of the sentence. Nature is a sign and a creature, the First Cause under another name, intelligible and lawful, worthy of study. It is also without awareness or will, so that the human spirit, which has both, stands above it and is answerable as a stone is not. Browne’s two books, the psalms, Augustine’s questioning of earth and sky, Pope’s “stupendous whole” and Dante’s love that moves the stars keep the readings company. Spinoza and Darwin stand near enough to raise the question of what is being affirmed and what denied; Lucretius denies creation outright; Wordsworth hears in a spring wood all the teaching he needs; and Hume asks what a miracle can mean if reason is not allowed to judge.",
+ "questions": [
+  "“Nature is God’s Will.” Spinoza says all things are in God; Pope makes nature the body and God the soul. Where exactly do the readings stand among these, and what do they mean by “true pantheistic statement”?",
+  "The readings agree “with the materialists” that nature has no will or perception. What do they then add, and does Stephen Crane’s indifferent universe look different once it is added?",
+  "The thirsty traveller infers water from the trees and still has to search for the spring. What is the equivalent search for someone convinced by nature that there is a Creator?",
+  "Wordsworth learns of good and evil from “a vernal wood”; the readings call the worship of nature foolish. Can one take instruction from nature without worshipping it?",
+  "“All phenomena … are also miracles of God.” Compare Whitman’s delight and Hume’s test. What is gained and what is lost when the word miracle is widened to everything?"
+ ],
+ "outside": [
+  {
+   "id": "browne-two-books",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "“In this diversity there are signs for men of discernment.” Thomas Browne, a physician writing in the 1630s, collected his divinity from two books: the written one of God, and that of His servant Nature, the universal and public manuscript."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Nature as “the embodiment of My Name, the Maker.” The nineteenth psalm: the heavens declare the glory of God; and the firmament sheweth his handywork."
+  },
+  {
+   "id": "aquinas-first-efficient-cause",
+   "after": "source:AB00373",
+   "responds": [
+    "source:AB00373"
+   ],
+   "relation": "adjacent",
+   "why": "What the philosophers call Nature is “the First Cause that is the source of all being.” Aquinas’s second way argues from the order of causes to a first efficient cause, to which everyone gives the name of God."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:AB00373",
+   "responds": [
+    "source:AB00373",
+    "source:ABU0024"
+   ],
+   "relation": "complement",
+   "why": "“They … consider Nature as the source of all beings.” Spinoza, the philosopher most often charged with it, wrote that all things which are, are in God, and without him can neither be nor be conceived. Does the reading correct him, or restate him?"
+  },
+  {
+   "id": "luke-unto-whom-much-is-given",
+   "after": "source:ABU0162",
+   "responds": [
+    "source:ABU0162"
+   ],
+   "relation": "adjacent",
+   "why": "“The tree and the stone … are excused. We are not excused.” Jesus: unto whomsoever much is given, of him shall be much required."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "Nature itself “is an intelligible and not a sensible reality.” Plato begins his account of the cosmos by separating the two: what is that which always is and has no becoming, and what is that which is always becoming and never is?"
+  },
+  {
+   "id": "quran-they-float-each-in-an-orbit",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "adjacent",
+   "why": "“The natural movements of all created things are compelled.” The Qur’án on sun, moon, night and day: they float each in an orbit."
+  },
+  {
+   "id": "bacon-knowledge-and-power",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "complement",
+   "why": "Man “is able to resist and oppose nature” because he discovers the natures of things. Bacon put the dependence in the last five words of his aphorism: nature to be commanded must be obeyed."
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU0170",
+   "responds": [
+    "source:ABU0170"
+   ],
+   "relation": "adjacent",
+   "why": "The Primal Will “operates in the element … as attraction.” Dante ends the Divine Comedy on the same force: the love which moves the sun and the other stars."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:ABU0170",
+   "responds": [
+    "source:ABU0170"
+   ],
+   "relation": "complement",
+   "why": "From attraction in the atom to organic, animal and spiritual life. Darwin’s closing sentence follows a like ascent by natural means and still finds grandeur in it: from so simple a beginning endless forms most beautiful have been evolved. Do the two accounts compete, or describe different things?"
+  },
+  {
+   "id": "pope-stupendous-whole",
+   "after": "source:ABU0024",
+   "responds": [
+    "source:ABU0024"
+   ],
+   "relation": "adjacent",
+   "why": "“All things are but manifestations of its energy and bounty.” Pope’s couplet for what the reading calls the true pantheistic statement: all are but parts of one stupendous whole, whose body nature is, and God the soul."
+  },
+  {
+   "id": "romans-worshipped-the-creature",
+   "after": "source:AB03841",
+   "responds": [
+    "source:AB03841"
+   ],
+   "relation": "adjacent",
+   "why": "“These foolish ones worship nature while denying its Creator.” Paul’s charge against the pagan world: they worshipped and served the creature more than the Creator."
+  },
+  {
+   "id": "wordsworth-vernal-wood",
+   "after": "source:AB03841",
+   "responds": [
+    "source:AB03841"
+   ],
+   "relation": "contrast",
+   "why": "Reverence for nature without its Creator is called foolish. Wordsworth asked for no more than nature: one impulse from a vernal wood may teach you more of man, of moral evil and of good, than all the sages can. What does he hear in the wood that the reading says is not there?"
+  },
+  {
+   "id": "augustine-i-asked-the-earth",
+   "after": "source:ABU1594",
+   "responds": [
+    "source:ABU1594"
+   ],
+   "relation": "adjacent",
+   "why": "The lost traveller sees trees, infers water, and still has to find the spring. Augustine questioned earth, sea and sky in turn, and each answered: we are not thy God; he made us."
+  },
+  {
+   "id": "aristotle-law-is-reason",
+   "after": "source:ABU1959",
+   "responds": [
+    "source:ABU1959"
+   ],
+   "relation": "adjacent",
+   "why": "The laws of God are “the resolutions of truth, reason and justice,” not the imposition of will. Aristotle on law as such: he who bids the law rule may be deemed to bid God and Reason alone rule."
+  },
+  {
+   "id": "crane-a-man-said-to-the-universe",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "Nature “is without volition and innate perception. In this statement … we agree with the materialists.” Stephen Crane gives the materialists’ universe a voice, and it has nothing to say to the man who addresses it."
+  },
+  {
+   "id": "proverbs-when-he-prepared-the-heavens",
+   "after": "source:AB01223",
+   "responds": [
+    "source:AB01223"
+   ],
+   "relation": "adjacent",
+   "why": "The will of the Omnipotent in the universe means “the divine laws … essential to the realities of beings.” In Proverbs Wisdom was present when he gave to the sea his decree and appointed the foundations of the earth."
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0226",
+   "responds": [
+    "source:ABU0226"
+   ],
+   "relation": "contrast",
+   "why": "“Nature did not originate of itself … it sprang from a divine act of creation.” Lucretius made the opposite his first principle: nothing from nothing ever yet was born. On what grounds could either claim be settled?"
+  },
+  {
+   "id": "whitman-nothing-else-but-miracles",
+   "after": "selection:892ef0ea7d255b4205666c13",
+   "responds": [
+    "selection:892ef0ea7d255b4205666c13"
+   ],
+   "relation": "adjacent",
+   "why": "“All phenomena … are also miracles of God.” Whitman: why, who makes much of a miracle? As to me I know of nothing else but miracles."
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "selection:892ef0ea7d255b4205666c13",
+   "responds": [
+    "selection:892ef0ea7d255b4205666c13"
+   ],
+   "relation": "contrast",
+   "why": "Those who deny every miracle “should not do so, for human reason is not a sufficient standard.” Hume used reason as the standard and concluded that no testimony is sufficient unless its falsehood would be more miraculous. If everything is a miracle, has Hume been answered or set aside?"
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "selection:db37350ddc4ef277aaee69a0",
+   "responds": [
+    "selection:db37350ddc4ef277aaee69a0"
+   ],
+   "relation": "adjacent",
+   "why": "Ibn al-‘Arabí calls Nature “the breath of the Merciful,” in which all forms appear. A psalm: by the word of the Lord were the heavens made; and all the host of them by the breath of his mouth."
+  }
+ ],
+ "library": {}
+}
