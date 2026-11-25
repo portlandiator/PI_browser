@@ -80,6 +80,22 @@ test('reconciling a single correction preserves its renewed sentence reviews; de
   const deleted=await updateGuides(options);
   assert.equal(deleted.changes.size,2);
 });
+
+test('inserting paragraphs before a reviewed passage moves both ends of its continuation',async()=>{
+  const first='Opening sentence. [A note begins here.',second='The note ends here.] Closing sentence.';
+  const before=Buffer.from([first,second].join('\n\n'));
+  const after=Buffer.from(['First added paragraph.','Second added paragraph.',first,second].join('\n\n'));
+  const {old,next}=approvedTranslation('fixture',before,after);
+  const file='study-guides/sentence-paragraphs.json';
+  const reviews={format:2,reasons:['Keep the note together.'],sources:{
+    fixture:{version:old.version,paragraphs:[[1,textSha(first),0,[2,textSha(second)]]]}
+  }};
+  const result=await planTranslationCorrection({id:'fixture',before,after,
+    read:async name=>name===file?Buffer.from(JSON.stringify(reviews)):null,site:async()=>null});
+  const renewed=JSON.parse(result.changes.get(file));
+  assert.deepEqual(renewed.reasons,reviews.reasons);
+  assert.deepEqual(renewed.sources.fixture,{version:next.version,paragraphs:[[3,textSha(first),0,[4,textSha(second)]]]});
+});
 test('automatic matches and sentence context travel with a correction; rejected decisions stay rejected',async()=>{
   const before='We seek peace today.',after='We seek lasting peace today.';
   const {correction,candidate}=fixture(before,after,[{paragraph:1,start:0,end:before.length,text:before}]);
