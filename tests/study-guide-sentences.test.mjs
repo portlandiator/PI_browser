@@ -1,6 +1,5 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {reviewedEntries} from '../scripts/study-guide-sentences.mjs';
 import {completeSentenceParagraphs,boundaryConcerns,locateSuppliedParagraphs} from '../scripts/study-guide-sentences.mjs';
 const record=(...paragraphs)=>({id:'fixture',en:{paragraphs:paragraphs.map(plain=>({plain}))}});
 const select=(r,n,phrase)=>({number:n,ranges:[{start:r.en.paragraphs[n-1].plain.indexOf(phrase),end:r.en.paragraphs[n-1].plain.indexOf(phrase)+phrase.length}]});
@@ -41,8 +40,7 @@ test('a reviewed dependent clause includes its main statement and refuses stale 
  const paragraph='When the horizon of the East was covered with immense darkness; when dark clouds were predominate, and when all the heavenly stars were concealed to the eye. His Holiness, Baha\'u\'llah, like unto the sun, shone forth from the horizon of the East and with radiating splendor He illumined the Orient.';
  const r=record('Greeting.','Earlier text.','Earlier context.','Another paragraph.','In the journal write thus:',paragraph,'An unrelated paragraph.');
  r.id='AB00481';r.enVersion='72b4be72377aa974028fe7b371a3f013e84faa8c2612271b6389d4ae0af102ef';
- const reviews=reviewedEntries.filter(e=>e.source===r.id&&e.paragraph===6);
- assert.equal(reviews.length,1);
+ const reviews=[{source:r.id,sourceVersion:r.enVersion,paragraph:6,textSha:'b23e17a3fb5a3a72'}];
  const selected=[select(r,6,'heavenly stars')],before=JSON.stringify(r);
  const result=completeSentenceParagraphs(r,selected,reviews);
  assert.deepEqual(texts(r,result),['In the journal write thus:',paragraph]);
@@ -64,20 +62,21 @@ test('both edges expand to complete source sentences and overlapping expansions 
  assert.equal(result.changed,true);assert.deepEqual(result.issues,[]);
 });
 test('reviewed cross-paragraph brackets include their exact continuation and reject changed context',()=>{
- const entry=reviewedEntries.find(e=>e.source==='BB00003'&&e.paragraph===1883);
- // The reviewed table stores checksums; these are the exact reviewed source paragraphs.
+ // Keep the reviewed BB00003 excerpt and its checksums in the same fixture.
+ // Its paragraph numbers in the published edition can change independently.
  const text="Say: Verily God maketh to flow for you the causes - the causes of the heavens and of the earth and of whatsoever lieth between them. Is there any god besides God who is able to create anything? Say: Glorified be God, exalted above what they mention. Say: Verily God is the Causer of every cause. He createth whatsoever He willeth by His command. He is indeed the Powerful, the Mighty, the Sovereign. Say: Verily God causeth the causes to flow without a cause and createth them anew even as He created them the first time. All are subservient unto Him, all worship Him. Say: Verily everything within its bounds is a cause for the creation of the heavens and the earth and whatsoever lieth between them, but ye do not perceive. Were it not for the ink whose splendor...[nothing would exist. How then do ye acquire what is ordained in the heavens and earth and whatsoever lieth between them?",continuation="And by this ye preserve the measures of your religion until the Day of Resurrection.] Say: Verily God loveth to make all that is on earth into one order, all ascending to the dawning-place of oneness and appearing from the horizon of oneness, that ye may on the Day of Resurrection believe in and be assured of Him Whom God shall make manifest. None hath been seen like unto Him in the heavens or on earth or in whatsoever lieth between them. Nothing can be likened unto Him, and verily He is the Mighty, the Best-Beloved. None hath been seen to resemble Him in the heavens or on earth or in whatsoever lieth between them. Nothing can be likened unto Him, and verily He is the All-Compelling, the Self-Subsisting.";
- const paragraphs=Array.from({length:1885},()=> 'Unrelated complete sentence.');
- paragraphs[1882]=text;paragraphs[1883]=continuation;
- const r=record(...paragraphs);r.id=entry.source;r.enVersion=entry.sourceVersion;
- const selected=[select(r,1883,'Were it not for the ink')],before=JSON.stringify({r,selected});
+ const r=record('Earlier context.',text,continuation,'Later context.');
+ r.enVersion='fixture-v1';
+ const entry={source:r.id,sourceVersion:r.enVersion,paragraph:2,textSha:'52d88edd9072bb4f',
+  continuation:{paragraph:3,textSha:'0940362a0a2a5072'}};
+ const selected=[select(r,2,'Were it not for the ink')],before=JSON.stringify({r,selected});
  const result=completeSentenceParagraphs(r,selected,[entry]);
- assert.deepEqual(result.paragraphs.map(p=>p.number),[1883,1884]);
+ assert.deepEqual(result.paragraphs.map(p=>p.number),[2,3]);
  assert.deepEqual(texts(r,result),[text,continuation]);
  assert.ok(!result.issues.some(i=>i.issue==='ending contains an unfinished bracketed note'));
  assert.ok(result.issues.some(i=>i.issue==='supplied omission needs review'));
  assert.equal(JSON.stringify({r,selected}),before);
- const changed=structuredClone(r);changed.en.paragraphs[1883].plain+=' Another sentence.';
+ const changed=structuredClone(r);changed.en.paragraphs[2].plain+=' Another sentence.';
  assert.throws(()=>completeSentenceParagraphs(changed,selected,[entry]),/Stale reviewed sentence continuation/);
  assert.throws(()=>completeSentenceParagraphs({...r,enVersion:'changed'},selected,[entry]),/Stale reviewed/);
 });
