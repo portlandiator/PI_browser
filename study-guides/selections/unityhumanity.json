@@ -8,7 +8,7 @@
   "candidateCount": 1320,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 171,
+  "mandatoryAuthorizedCount": 170,
   "selectionBeforeAnalysis": true,
   "method": "Complete candidate survey followed by individual editorial choices and written reasons. All verified authorized selections included. Priority given to foundational teachings, substantive explanations, necessary qualifications, distinctive applications and thematic breadth. Neither citation count nor source order used as a ranking rule. Imported wording checked separately; version differences remain explicit.",
   "selected": [
@@ -2174,10 +2174,8 @@
       "status": "normalized",
       "reference": "ABU0130",
       "authorization": "Y",
-      "authorizedParagraphs": [
-        3
-      ],
-      "mandatoryAuthorized": true,
+      "authorizedParagraphs": [],
+      "mandatoryAuthorized": false,
       "paragraphs": [
         3
       ],
@@ -2187,9 +2185,7 @@
         "kind": "exact_version_authorized_paragraphs",
         "metadata": "Y",
         "sourceVersion": "e193406a196e340dd82fe40cccdd05282f401bbdb3ba296cdc9de3179fd4625f",
-        "paragraphs": [
-          3
-        ]
+        "paragraphs": []
       }
     },
     {
