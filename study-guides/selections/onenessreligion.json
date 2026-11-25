@@ -8,7 +8,7 @@
   "candidateCount": 303,
   "target": 300,
   "selectedCount": 300,
-  "mandatoryAuthorizedCount": 65,
+  "mandatoryAuthorizedCount": 64,
   "selectionBeforeAnalysis": true,
   "method": "Complete candidate survey followed by individual editorial choices and written reasons, applied to the existing complete guide to keep it within 300 quotations. All verified authorized selections included. Priority given to foundational teachings, substantive explanations, necessary qualifications, distinctive applications, narrative examples and thematic breadth across love shown through deeds and reverence for every Messenger, the common source and purpose of religion, enduring principles and changing laws, images of sunlight, rivers, branches and recurring spring, encounters across communities, religion as fellowship rather than estrangement, and practical fellowship with further inquiry. Neither citation count nor source order used as a ranking rule. Imported wording checked separately; version differences remain explicit. The existing reading arc is retained.",
   "selected": [
@@ -7453,10 +7453,8 @@
       "status": "normalized",
       "reference": "PUP.454",
       "authorization": "Y",
-      "authorizedParagraphs": [
-        5
-      ],
-      "mandatoryAuthorized": true,
+      "authorizedParagraphs": [],
+      "mandatoryAuthorized": false,
       "paragraphs": [
         5
       ],
@@ -7466,9 +7464,7 @@
         "kind": "exact_version_authorized_paragraphs",
         "metadata": "Y",
         "sourceVersion": "e193406a196e340dd82fe40cccdd05282f401bbdb3ba296cdc9de3179fd4625f",
-        "paragraphs": [
-          5
-        ]
+        "paragraphs": []
       }
     },
     {
