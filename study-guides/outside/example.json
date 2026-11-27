@@ -1,0 +1,182 @@
+{
+ "format": 2,
+ "slug": "example",
+ "subject": "DB53ABF4937F457EBF7432583E55A26C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 16,
+ "quotations": 16,
+ "kept": [
+  "source:ABU3333",
+  "source:BHU0058",
+  "source:BBU0013",
+  "source:AB08003",
+  "source:ABU2501",
+  "source:AB06089",
+  "source:AB04124",
+  "source:ABU0142",
+  "source:AB12027",
+  "source:ABU0400",
+  "source:AB06692",
+  "source:BH11778",
+  "source:ABU0144",
+  "selection:93067fcfa8a5a81910db7a00",
+  "selection:3ecb3f378d6473191f5717f7",
+  "selection:da661a2c97585b53f2f5ba81"
+ ],
+ "introduction": "“Let your acts be a guide unto all mankind.” The guide collects what the Bahá’í writings say about teaching by being: the effect of a moral life on those near it, the Báb and ‘Abdu’l-Bahá offering their own conduct to be followed, the knowledge that the world is watching, and, at the end, Shoghi Effendi’s statement that everything depends on whether private character matches public profession. The New Testament says the same in nearly the same words, from “let your light so shine” to “I have given you an example”; Confucius gives the image of the pole star; Chaucer’s parson wrought first and taught afterward. Two cautions come from the same shelf. The Sermon on the Mount forbids goodness done to be seen, and calls the merely outward a whited sepulchre. Thoreau speaks for the person who must find his own step.",
+ "questions": [
+  "“Let your light so shine before men”, and “appear not unto men to fast”. How can conduct be exemplary without being performed?",
+  "Confucius says that seeing a person of worth makes us think of equalling them, and seeing the contrary makes us examine ourselves. Which of these does reading 1 describe?",
+  "Reading 14 rests the triumph of the Cause on “inner life and private character”. Why is the private the test of the public?",
+  "Thoreau would have each step to the music he hears. Is following an example the opposite of that, or one way of learning to hear?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:ABU3333",
+   "responds": [
+    "source:ABU3333"
+   ],
+   "relation": "adjacent",
+   "why": "A moral life “will influence tremendously” those it touches. Let your light so shine before men, that they may see your good works."
+  },
+  {
+   "id": "titus-pattern-of-good-works",
+   "after": "source:BHU0058",
+   "responds": [
+    "source:BHU0058"
+   ],
+   "relation": "adjacent",
+   "why": "“Let your acts be a guide unto all mankind.” In all things shewing thyself a pattern of good works."
+  },
+  {
+   "id": "leviticus-just-balances",
+   "after": "source:BBU0013",
+   "responds": [
+    "source:BBU0013"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb, a merchant, tells his followers to trade as he did. Just balances, just weights shall ye have."
+  },
+  {
+   "id": "john-wash-one-anothers-feet",
+   "after": "source:AB08003",
+   "responds": [
+    "source:AB08003"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast witnessed the conduct … follow that example.” I have given you an example, that ye should do as I have done to you."
+  },
+  {
+   "id": "peter-reviled-not-again",
+   "after": "source:ABU2501",
+   "responds": [
+    "source:ABU2501"
+   ],
+   "relation": "adjacent",
+   "why": "“I must be an example”, resisting difficulties with firmness. Christ also suffered for us, leaving us an example: who, when he was reviled, reviled not again."
+  },
+  {
+   "id": "john-son-can-do-nothing",
+   "after": "source:AB06089",
+   "responds": [
+    "source:AB06089"
+   ],
+   "relation": "adjacent",
+   "why": "A son who follows his father shows “the son is the secret of his father”. The Son can do nothing of himself, but what he seeth the Father do."
+  },
+  {
+   "id": "timothy-be-thou-an-example",
+   "after": "source:AB04124",
+   "responds": [
+    "source:AB04124"
+   ],
+   "relation": "adjacent",
+   "why": "He has made you exemplars to His loved ones. Be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity."
+  },
+  {
+   "id": "corinthians-spectacle-unto-angels",
+   "after": "source:ABU0142",
+   "responds": [
+    "source:ABU0142"
+   ],
+   "relation": "adjacent",
+   "why": "“All eyes of the world are fixed upon us.” We are made a spectacle unto the world, and to angels, and to men."
+  },
+  {
+   "id": "matthew-when-thou-fastest",
+   "after": "source:ABU0142",
+   "responds": [
+    "source:ABU0142"
+   ],
+   "relation": "contrast",
+   "why": "Jesus warns against righteousness done to be seen: appear not unto men to fast. How does a community that knows all eyes are on it keep from acting for the eyes?"
+  },
+  {
+   "id": "analects-north-polar-star",
+   "after": "source:AB12027",
+   "responds": [
+    "source:AB12027"
+   ],
+   "relation": "adjacent",
+   "why": "That goodly character may influence many. Confucius: he who governs by virtue is like the north polar star, which keeps its place and all the stars turn towards it."
+  },
+  {
+   "id": "john-epistle-in-deed",
+   "after": "source:ABU0400",
+   "responds": [
+    "source:ABU0400"
+   ],
+   "relation": "adjacent",
+   "why": "Education by deeds is greater than education by words. Let us not love in word, neither in tongue; but in deed and in truth."
+  },
+  {
+   "id": "chaucer-parson",
+   "after": "source:ABU0400",
+   "responds": [
+    "source:ABU0400"
+   ],
+   "relation": "adjacent",
+   "why": "Chaucer’s parson gave his flock this noble example, that first he wrought, and afterward he taught."
+  },
+  {
+   "id": "analects-men-of-worth",
+   "after": "source:BH11778",
+   "responds": [
+    "source:BH11778"
+   ],
+   "relation": "adjacent",
+   "why": "Others are to follow their example. Confucius on how example works in the observer: when we see men of worth, we should think of equalling them; when we see men of a contrary character, we should turn inwards and examine ourselves."
+  },
+  {
+   "id": "matthew-whited-sepulchres",
+   "after": "selection:93067fcfa8a5a81910db7a00",
+   "responds": [
+    "selection:93067fcfa8a5a81910db7a00"
+   ],
+   "relation": "adjacent",
+   "why": "Triumph depends on how far “our own inner life and private character” mirror the teachings. Whited sepulchres appear beautiful outward, but are within full of dead men’s bones."
+  },
+  {
+   "id": "thoreau-different-drummer",
+   "after": "selection:3ecb3f378d6473191f5717f7",
+   "responds": [
+    "selection:3ecb3f378d6473191f5717f7"
+   ],
+   "relation": "complement",
+   "why": "Example moves hearts more than words. Thoreau: if a man does not keep pace with his companions, perhaps it is because he hears a different drummer; let him step to the music which he hears. What is the difference between being moved by an example and keeping pace with it?"
+  },
+  {
+   "id": "james-be-ye-warmed",
+   "after": "selection:da661a2c97585b53f2f5ba81",
+   "responds": [
+    "selection:da661a2c97585b53f2f5ba81"
+   ],
+   "relation": "adjacent",
+   "why": "The Cause is to be shown “in deed, not merely words”. If one say unto the hungry, Be ye warmed and filled, and give them not those things which are needful, what doth it profit?"
+  }
+ ],
+ "library": {}
+}
