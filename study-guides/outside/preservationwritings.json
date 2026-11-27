@@ -1,0 +1,800 @@
+{
+ "format": 2,
+ "slug": "preservationwritings",
+ "subject": "9A79D4C03ECA48FB9544B12169798732",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 59,
+ "quotations": 61,
+ "kept": [
+  "source:BH11663",
+  "source:BH00196",
+  "source:BB00003",
+  "source:BH00014",
+  "source:AB12228",
+  "source:BH10816",
+  "source:BH05707",
+  "source:AB11825",
+  "source:BH00678",
+  "source:ABU3470",
+  "source:AB01583",
+  "source:BH04591",
+  "source:BH00781",
+  "source:BB00158",
+  "source:BB00004",
+  "source:BB00528",
+  "source:BB00210",
+  "source:AB11870",
+  "source:BH00040",
+  "source:AB02068",
+  "source:BH00467",
+  "source:BH00051",
+  "source:BH00172",
+  "source:BH00146",
+  "source:BH00183",
+  "source:BH00691",
+  "source:BH07960",
+  "source:BH03542",
+  "source:AB10693",
+  "source:BH01477",
+  "source:BH00656",
+  "source:BH01015",
+  "source:BH05063",
+  "source:AB11882",
+  "source:AB12018",
+  "source:BH00553",
+  "source:BH05653",
+  "source:BH00992",
+  "source:AB03118",
+  "source:AB08612",
+  "source:AB12702",
+  "source:AB11143",
+  "source:ABU2755",
+  "source:ABU1162",
+  "source:BH00005",
+  "source:AB00467",
+  "source:BH02400",
+  "source:BH07245",
+  "source:BH11613",
+  "source:AB12349",
+  "source:BH01331",
+  "source:AB09768",
+  "source:BH04996",
+  "source:BH01862",
+  "source:BH01219",
+  "source:BH08517",
+  "source:BH10394",
+  "source:BH08565",
+  "selection:7185bc6204d62ade1f2e9bb1"
+ ],
+ "introduction": "The guide starts from an admission: scribes make mistakes, “for error and mistake have been and will be in human nature”. Everything after it is the practical answer of a community to that fact: copies compared and corrected, a trusted hand named, originals photographed, books gathered, wrapped, hidden from the persecutor, multiplied and sent out, and at the end the confidence that what the Pen has revealed will outlast the visible heaven. Older scriptures were kept by the same labours, and say so. Baruch writes at Jeremiah’s mouth and writes the roll again after a king has burned it; a deed is sealed in an earthen jar to last many days; the men of Hezekiah copy out proverbs; Paul signs with his own hand, warns of a forged letter, orders his letters exchanged between churches, and asks from prison for the parchments. The Qur’an swears by the pen. Other voices question the enterprise. Plato’s Socrates doubts that written words can defend themselves, the Preacher is weary of books, the Gospel denounces scribes, and Shelley’s broken statue still carries its proud inscription.",
+ "questions": [
+  "Jeremiah’s roll is burned and written again “with many like words”. What do the readings about seized and hidden Tablets add to that story, and what do they share with it?",
+  "Paul’s signature “in every epistle” and the scribe whose handwriting guarantees a Tablet are two answers to the same worry. What makes a copy trustworthy, in the readings and now?",
+  "The Sermon on the Mount forbids hiding a lamp and also forbids casting pearls before swine. How do the readings decide between spreading copies and concealing them?",
+  "Plato’s Socrates says written words cannot answer questions. Which practices in the guide, comparison, gathering, reading aloud in the Author’s presence, are replies to him?",
+  "The scribe is praised for “a deed that nothing on earth can equal”, while the Gospel says scribes neglect the weightier matters and Paul calls a congregation his epistle. What would a complete idea of preserving the Word include?"
+ ],
+ "outside": [
+  {
+   "id": "jeremiah-pen-of-the-scribes",
+   "after": "source:BH11663",
+   "responds": [
+    "source:BH11663"
+   ],
+   "relation": "adjacent",
+   "why": "“The scribes make many mistakes.” Jeremiah puts it more harshly of the copyists of his day: the pen of the scribes is in vain. The reading blames human nature; the prophet blames falsehood."
+  },
+  {
+   "id": "plato-writing-silent",
+   "after": "source:BH11663",
+   "responds": [
+    "source:BH11663"
+   ],
+   "relation": "contrast",
+   "why": "Plato’s Socrates distrusts writing altogether: written words seem to talk, but ask them a question and they keep a solemn silence, and cannot defend themselves. If the text cannot correct its own copyists, who must?"
+  },
+  {
+   "id": "jeremiah-baruch-wrote",
+   "after": "source:BH00196",
+   "responds": [
+    "source:BH00196"
+   ],
+   "relation": "adjacent",
+   "why": "The amanuensis describes taking down revelation as it is spoken. Jeremiah’s Baruch is the Bible’s clearest picture of that office: he wrote from the mouth of the prophet all the words upon a roll."
+  },
+  {
+   "id": "quran-teacheth-by-the-pen",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Had the Book not been preserved “upon the leaves of trees”, none would read it now. The Qur’an’s earliest verses already name the instrument: thy Lord, who teacheth by the pen."
+  },
+  {
+   "id": "psalm-written-for-the-generation-to-come",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "“Preserve ye all that hath been revealed.” The psalmist gives the reason in a line: this shall be written for the generation to come."
+  },
+  {
+   "id": "deuteronomy-king-shall-write-a-copy",
+   "after": "source:BH00014",
+   "responds": [
+    "source:BH00014"
+   ],
+   "relation": "adjacent",
+   "why": "Someone “with fine handwriting” is wanted to transcribe and compare. Deuteronomy requires of a king that he write out his own copy of the law from the one kept by the priests, and read in it all his days."
+  },
+  {
+   "id": "luke-set-forth-in-order",
+   "after": "source:AB12228",
+   "responds": [
+    "source:AB12228"
+   ],
+   "relation": "adjacent",
+   "why": "“Strive with utmost care for accuracy.” Luke opens his Gospel with a writer’s account of his own care: perfect understanding of all things from the first, set down in order, that the reader may know the certainty."
+  },
+  {
+   "id": "matthew-one-jot-or-one-tittle",
+   "after": "source:BH10816",
+   "responds": [
+    "source:BH10816"
+   ],
+   "relation": "adjacent",
+   "why": "Every copy must be made “to conform and agree” with the correct reading. Jesus speaks of a law from which not one jot or tittle shall pass."
+  },
+  {
+   "id": "nehemiah-gave-the-sense",
+   "after": "source:BH05707",
+   "responds": [
+    "source:BH05707"
+   ],
+   "relation": "adjacent",
+   "why": "“The purpose is that the servants should understand.” Ezra’s readers in Nehemiah read the book distinctly, gave the sense, and caused the people to understand the reading."
+  },
+  {
+   "id": "revelation-add-unto-these-things",
+   "after": "source:AB11825",
+   "responds": [
+    "source:AB11825"
+   ],
+   "relation": "adjacent",
+   "why": "Erroneous copies are stopped before they are printed, for each letter is weighty. The Apocalypse closes with a curse on whoever adds to or takes from the words of the book."
+  },
+  {
+   "id": "quran-write-with-their-hands",
+   "after": "source:AB11825",
+   "responds": [
+    "source:AB11825"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an’s warning is to those who write the Scripture with their own hands and say “This is from God”. Here the copyists erred in good faith, and are corrected, not cursed."
+  },
+  {
+   "id": "colossians-read-among-you",
+   "after": "source:BH00678",
+   "responds": [
+    "source:BH00678"
+   ],
+   "relation": "adjacent",
+   "why": "A clear copy is sent so that others may copy it and the original reach its owner. Paul already works this way: when this epistle is read among you, cause that it be read also in Laodicea."
+  },
+  {
+   "id": "thessalonians-token-in-every-epistle",
+   "after": "source:ABU3470",
+   "responds": [
+    "source:ABU3470"
+   ],
+   "relation": "adjacent",
+   "why": "“Any Tablet that is in his handwriting is accurate and correct.” Paul signs with his own hand, “which is the token in every epistle: so I write”."
+  },
+  {
+   "id": "thessalonians-letter-as-from-us",
+   "after": "source:AB01583",
+   "responds": [
+    "source:AB01583"
+   ],
+   "relation": "adjacent",
+   "why": "A photograph of the original “will dispel doubts” where accounts differ. Paul’s churches were already troubled by a “letter as from us” that was not his."
+  },
+  {
+   "id": "peter-cunningly-devised-fables",
+   "after": "source:BH04591",
+   "responds": [
+    "source:BH04591"
+   ],
+   "relation": "complement",
+   "why": "A book is attributed to a man who “was never with Us”. Second Peter stakes its authority on the opposite: we have not followed cunningly devised fables, but were eyewitnesses. How is authorship to be settled when both sides claim the witness?"
+  },
+  {
+   "id": "proverbs-men-of-hezekiah-copied-out",
+   "after": "source:BH00781",
+   "responds": [
+    "source:BH00781"
+   ],
+   "relation": "adjacent",
+   "why": "The Hidden Words were revealed at different times, and “it would be best if they were all gathered together”. Proverbs preserves the note of such a gathering: these the men of Hezekiah copied out."
+  },
+  {
+   "id": "deuteronomy-in-the-side-of-the-ark",
+   "after": "source:BB00158",
+   "responds": [
+    "source:BB00158"
+   ],
+   "relation": "adjacent",
+   "why": "“Gather them all together and preserve them with the utmost care.” Moses, having finished writing the law in a book, commands that it be put beside the ark as a witness."
+  },
+  {
+   "id": "deuteronomy-posts-of-thy-house",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "All are to inscribe, gather and preserve. Israel is told to bind the words on the hand and write them upon the posts of the house and on the gates."
+  },
+  {
+   "id": "psalm-pen-of-a-ready-writer",
+   "after": "source:BB00528",
+   "responds": [
+    "source:BB00528"
+   ],
+   "relation": "adjacent",
+   "why": "Five Tablets “in beautiful handwriting”, sent with joy. The psalmist’s heart overflows with a good matter and his tongue is the pen of a ready writer."
+  },
+  {
+   "id": "jeremiah-put-them-in-an-earthen-vessel",
+   "after": "source:BB00210",
+   "responds": [
+    "source:BB00210"
+   ],
+   "relation": "adjacent",
+   "why": "Crystal, then fine stone, then silk and cotton. Jeremiah has a deed of purchase sealed and laid in an earthen vessel, “that they may continue many days”: a humbler jar, with the same thought."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:BB00210",
+   "responds": [
+    "source:BB00210"
+   ],
+   "relation": "complement",
+   "why": "Paul says “we have this treasure in earthen vessels”, that the excellency of the power may be of God. He means the messengers, not the manuscripts. Does a costly casket honour the treasure, or risk being mistaken for it?"
+  },
+  {
+   "id": "kings-found-the-book-of-the-law",
+   "after": "source:AB11870",
+   "responds": [
+    "source:AB11870"
+   ],
+   "relation": "contrast",
+   "why": "Fine paper and illumination are provided for. In Josiah’s day the book of the law had simply been lost in the temple, and was found by workmen during repairs. Which is the greater danger to a scripture: poverty of materials, or neglect?"
+  },
+  {
+   "id": "exodus-hew-thee-two-tables",
+   "after": "source:AB02068",
+   "responds": [
+    "source:AB02068"
+   ],
+   "relation": "adjacent",
+   "why": "“Make multiple copies … so they are not lost.” The tables of the law themselves exist in a second copy: Moses hews two tables like unto the first, which he broke."
+  },
+  {
+   "id": "timothy-keep-that-which-is-committed",
+   "after": "source:BH00467",
+   "responds": [
+    "source:BH00467"
+   ],
+   "relation": "adjacent",
+   "why": "“A secure place must be designated for the divine trusts.” The pastoral letter uses the same word: keep that which is committed to thy trust."
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:BH00051",
+   "responds": [
+    "source:BH00051"
+   ],
+   "relation": "adjacent",
+   "why": "The verses are to be safeguarded “from treacherous eyes and thieving hands”. The Sermon on the Mount has the proverb for it: neither cast ye your pearls before swine, lest they turn again and rend you."
+  },
+  {
+   "id": "jeremiah-cut-it-with-the-penknife",
+   "after": "source:BH00172",
+   "responds": [
+    "source:BH00172"
+   ],
+   "relation": "adjacent",
+   "why": "When friends were seized, “their writings first fell” to their captors. King Jehoiakim hears three or four leaves of Jeremiah’s roll, cuts it with a penknife, and burns it in the brazier."
+  },
+  {
+   "id": "matthew-wise-as-serpents",
+   "after": "source:BH00146",
+   "responds": [
+    "source:BH00146"
+   ],
+   "relation": "adjacent",
+   "why": "Each is to keep the Writings “in a place where no one else has knowledge thereof”. Jesus sends his own out as sheep among wolves: be ye therefore wise as serpents, and harmless as doves."
+  },
+  {
+   "id": "milton-good-book",
+   "after": "source:BH00183",
+   "responds": [
+    "source:BH00183"
+   ],
+   "relation": "adjacent",
+   "why": "Writings are seized with their owners, again and again. Milton, arguing against the licensers, says that who destroys a good book kills reason itself, the precious life-blood of a master spirit."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:BH00183",
+   "responds": [
+    "source:BH00183"
+   ],
+   "relation": "contrast",
+   "why": "“Neither do men light a candle, and put it under a bushel.” The Sermon on the Mount commands display where these letters command hiding. What distinguishes prudence under persecution from the hidden lamp?"
+  },
+  {
+   "id": "jeremiah-many-like-words",
+   "after": "source:BH00691",
+   "responds": [
+    "source:BH00691"
+   ],
+   "relation": "adjacent",
+   "why": "Many verses “have fallen into the hands of the idolaters”. After the king burned the roll, Jeremiah took another, and Baruch wrote in it all the words of the first, “and there were added besides unto them many like words”."
+  },
+  {
+   "id": "psalm-thy-word-have-i-hid",
+   "after": "source:BH07960",
+   "responds": [
+    "source:BH07960"
+   ],
+   "relation": "adjacent",
+   "why": "“Preserve this Tablet as thou wouldst thine eye.” The psalmist names the one hiding-place no searcher reaches: thy word have I hid in mine heart."
+  },
+  {
+   "id": "isaiah-note-it-in-a-book",
+   "after": "source:BH03542",
+   "responds": [
+    "source:BH03542"
+   ],
+   "relation": "adjacent",
+   "why": "Preserve what was revealed to thee, “that it may endure for thee”. Isaiah is told to write it in a table and note it in a book, that it may be for the time to come for ever and ever."
+  },
+  {
+   "id": "colossians-tychicus-declare",
+   "after": "source:AB10693",
+   "responds": [
+    "source:AB10693"
+   ],
+   "relation": "adjacent",
+   "why": "An important letter goes “through a trustworthy person”. Paul names his carriers, Tychicus and Onesimus, a faithful minister and a beloved brother, who will also tell the news."
+  },
+  {
+   "id": "ezra-ready-scribe",
+   "after": "source:BH01477",
+   "responds": [
+    "source:BH01477"
+   ],
+   "relation": "adjacent",
+   "why": "No “swift-penned scribe” is at hand for the mass of verses. Israel’s restoration had one in Ezra, who had prepared his heart to seek the law, to do it and to teach it."
+  },
+  {
+   "id": "timothy-the-cloke-and-the-books",
+   "after": "source:BH00656",
+   "responds": [
+    "source:BH00656"
+   ],
+   "relation": "adjacent",
+   "why": "Tablets are to be delivered and reviewed by a trusted copyist. Paul’s last letter asks for a cloak, the books, “but especially the parchments”: an apostle’s working papers, wanted even in prison."
+  },
+  {
+   "id": "habakkuk-write-the-vision",
+   "after": "source:AB11882",
+   "responds": [
+    "source:AB11882"
+   ],
+   "relation": "adjacent",
+   "why": "Tablets are to be written in fine hand and “an elegant arrangement”. Habakkuk is told to write the vision and make it plain upon tables, that he may run that readeth it."
+  },
+  {
+   "id": "thessalonians-read-unto-all",
+   "after": "source:AB12018",
+   "responds": [
+    "source:AB12018"
+   ],
+   "relation": "adjacent",
+   "why": "“Forty or fifty copies … to various regions.” The oldest of Paul’s letters ends with a charge that it be read unto all the brethren."
+  },
+  {
+   "id": "acts-bereans",
+   "after": "source:BH00553",
+   "responds": [
+    "source:BH00553"
+   ],
+   "relation": "complement",
+   "why": "Copies go out “with utmost discretion”. The Bereans received the word with readiness and then “searched the scriptures daily, whether those things were so”. Circulation is only half of it; what is asked of those who receive a copy?"
+  },
+  {
+   "id": "romans-written-for-our-learning",
+   "after": "source:BH05653",
+   "responds": [
+    "source:BH05653"
+   ],
+   "relation": "adjacent",
+   "why": "Copies are sent “that perchance the people may remember”. Paul says of older scripture that whatsoever was written aforetime was written for our learning."
+  },
+  {
+   "id": "timothy-teach-others-also",
+   "after": "source:BH00992",
+   "responds": [
+    "source:BH00992"
+   ],
+   "relation": "adjacent",
+   "why": "What reached one is to be “dispatched to all lands”. The same chain is in the letter to Timothy: what thou hast heard, commit to faithful men, who shall be able to teach others also."
+  },
+  {
+   "id": "john-bread-of-life",
+   "after": "source:AB03118",
+   "responds": [
+    "source:AB03118"
+   ],
+   "relation": "adjacent",
+   "why": "The meanings of the pages are “the spiritual table” and the means of eternal life. Jesus calls himself the bread of life; here that claim is made for a text passed from hand to hand."
+  },
+  {
+   "id": "isaiah-beautiful-upon-the-mountains",
+   "after": "source:AB08612",
+   "responds": [
+    "source:AB08612"
+   ],
+   "relation": "adjacent",
+   "why": "Two copyists are compared to messengers. Isaiah’s blessing on the messenger: how beautiful upon the mountains are the feet of him that bringeth good tidings."
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:AB12702",
+   "responds": [
+    "source:AB12702"
+   ],
+   "relation": "contrast",
+   "why": "Calligraphy, gilding and binding for the libraries of London and Paris. The Preacher sighs that of making many books there is no end. What distinguishes a book worth the gilding from the many?"
+  },
+  {
+   "id": "quran-we-are-its-guardian",
+   "after": "source:AB11143",
+   "responds": [
+    "source:AB11143"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an was long confined to a few scribes and a few copies. Its own verse says of the Reminder: “We verily are its Guardian.” The history in the reading shows through whose hands that guarding passed."
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "source:ABU2755",
+   "responds": [
+    "source:ABU2755"
+   ],
+   "relation": "adjacent",
+   "why": "A child finds at home a great book of prayers copied by his father. Timothy is reminded that from a child he has known the holy scriptures."
+  },
+  {
+   "id": "analects-transmitter-not-maker",
+   "after": "source:ABU1162",
+   "responds": [
+    "source:ABU1162"
+   ],
+   "relation": "adjacent",
+   "why": "A whole collection transcribed at another’s bidding. Confucius describes his own life’s work as the copyist’s virtue: “A transmitter and not a maker, believing in and loving the ancients.”"
+  },
+  {
+   "id": "jude-once-delivered",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Men are appointed to collect and transcribe the works of the Báb. Jude writes of “the faith which was once delivered”, a deposit to be contended for and handed on entire."
+  },
+  {
+   "id": "shakespeare-not-marble",
+   "after": "source:AB00467",
+   "responds": [
+    "source:AB00467"
+   ],
+   "relation": "adjacent",
+   "why": "His penmanship is found in every city. Shakespeare claims for written lines what the scribe’s life illustrates: “Not marble, nor the gilded monuments / Of princes, shall outlive this powerful rhyme.”"
+  },
+  {
+   "id": "quran-nun-by-the-pen",
+   "after": "source:BH02400",
+   "responds": [
+    "source:BH02400"
+   ],
+   "relation": "adjacent",
+   "why": "To transcribe the verses is “a station which God chose”. A chapter of the Qur’an opens with an oath by the pen and that which they write."
+  },
+  {
+   "id": "matthew-things-new-and-old",
+   "after": "source:BH07245",
+   "responds": [
+    "source:BH07245"
+   ],
+   "relation": "adjacent",
+   "why": "A son occupied with transcribing is doing “a deed that nothing on earth can equal”. Jesus’s one kind word for scribes: the scribe instructed unto the kingdom brings out of his treasure things new and old."
+  },
+  {
+   "id": "matthew-weightier-matters",
+   "after": "source:BH07245",
+   "responds": [
+    "source:BH07245"
+   ],
+   "relation": "contrast",
+   "why": "The same Gospel indicts scribes who tithe mint and cummin and omit judgment, mercy and faith. What keeps the copyist’s exactness from becoming the scribe’s vice?"
+  },
+  {
+   "id": "luke-faithful-in-that-which-is-least",
+   "after": "source:AB12349",
+   "responds": [
+    "source:AB12349"
+   ],
+   "relation": "adjacent",
+   "why": "Copying is called “the greatest of services”. He that is faithful in that which is least, says Luke’s Gospel, is faithful also in much: the scribe’s virtue is fidelity in small strokes."
+  },
+  {
+   "id": "john-world-could-not-contain-the-books",
+   "after": "source:BH01331",
+   "responds": [
+    "source:BH01331"
+   ],
+   "relation": "adjacent",
+   "why": "The amanuensis is “at all times” transcribing and cannot keep up. John’s Gospel ends on the same overflow: if all were written, the world itself could not contain the books."
+  },
+  {
+   "id": "psalm-heart-is-fixed",
+   "after": "source:AB09768",
+   "responds": [
+    "source:AB09768"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer that he may transcribe “as long as he liveth”. Psalm 112 promises the steadfast man that he shall be in everlasting remembrance, his heart fixed."
+  },
+  {
+   "id": "matthew-words-shall-not-pass-away",
+   "after": "source:BH04996",
+   "responds": [
+    "source:BH04996"
+   ],
+   "relation": "adjacent",
+   "why": "“The visible heaven may well be cleft asunder”, yet the mention endures. “Heaven and earth shall pass away, but my words shall not pass away.”"
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:BH01862",
+   "responds": [
+    "source:BH01862"
+   ],
+   "relation": "contrast",
+   "why": "“Look on my Works, ye Mighty, and despair!” Shelley’s traveller reads the boast on a broken pedestal in empty sand. Inscriptions do not endure because they are inscribed. On what does the reading rest its confidence?"
+  },
+  {
+   "id": "psalm-silver-tried-seven-times",
+   "after": "source:BH01219",
+   "responds": [
+    "source:BH01219"
+   ],
+   "relation": "adjacent",
+   "why": "Hidden sweetness “concealed within the divine words”. The psalmist: the words of the Lord are pure words, as silver tried in a furnace of earth, purified seven times."
+  },
+  {
+   "id": "quran-guarded-tablet",
+   "after": "source:BH08517",
+   "responds": [
+    "source:BH08517"
+   ],
+   "relation": "adjacent",
+   "why": "“Preserved in God’s knowledge and concealed from all eyes” until its time. The Qur’an calls itself a glorious Qur’an on a guarded tablet."
+  },
+  {
+   "id": "daniel-sealed-till-the-end",
+   "after": "source:BH10394",
+   "responds": [
+    "source:BH10394"
+   ],
+   "relation": "adjacent",
+   "why": "A Tablet ordaining “the preservation of what was and what will be”. Daniel is told that the words are closed up and sealed till the time of the end."
+  },
+  {
+   "id": "isaiah-word-shall-stand-for-ever",
+   "after": "source:BH08565",
+   "responds": [
+    "source:BH08565"
+   ],
+   "relation": "adjacent",
+   "why": "The world returns to nothingness; what the Pen revealed endures. Isaiah: the grass withereth, the flower fadeth, but the word of our God shall stand for ever."
+  },
+  {
+   "id": "corinthians-epistle-written-in-our-hearts",
+   "after": "selection:7185bc6204d62ade1f2e9bb1",
+   "responds": [
+    "selection:7185bc6204d62ade1f2e9bb1"
+   ],
+   "relation": "complement",
+   "why": "“Guard the Tablets as they guard their eyes.” Paul tells the Corinthians that they are his epistle, written in hearts, known and read of all men. Can the paper be guarded and that other copy neglected?"
+  }
+ ],
+ "library": {
+  "isaiah-word-shall-stand-for-ever": {
+   "text": "The grass withereth, the flower fadeth: but the word of our God shall stand for ever",
+   "work": "Isaiah 40:8",
+   "year": "6th century BCE",
+   "sortYear": -540,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2040%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-written-for-the-generation-to-come": {
+   "text": "This shall be written for the generation to come: and the people which shall be created shall praise the Lord",
+   "work": "Psalm 102:18",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20102%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "jeremiah-put-them-in-an-earthen-vessel": {
+   "text": "Take these evidences, this evidence of the purchase, both which is sealed, and this evidence which is open; and put them in an earthen vessel, that they may continue many days",
+   "work": "Jeremiah 32:14",
+   "year": "6th century BCE",
+   "sortYear": -580,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2032%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-hew-thee-two-tables": {
+   "text": "Hew thee two tables of stone like unto the first: and I will write upon these tables the words that were in the first tables, which thou brakest",
+   "work": "Exodus 34:1",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2034%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ezra-ready-scribe": {
+   "text": "For Ezra had prepared his heart to seek the law of the Lord, and to do it, and to teach in Israel statutes and judgments",
+   "work": "Ezra 7:10",
+   "year": "c. 4th century BCE",
+   "sortYear": -350,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezra%207%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "thessalonians-read-unto-all": {
+   "text": "I charge you by the Lord that this epistle be read unto all the holy brethren",
+   "work": "1 Thessalonians 5:27",
+   "year": "c. 50 CE",
+   "sortYear": 50,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Thessalonians%205%3A27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-write-this-for-a-memorial": {
+   "text": "Write this for a memorial in a book, and rehearse it in the ears of Joshua",
+   "work": "Exodus 17:14",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2017%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
