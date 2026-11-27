@@ -1,0 +1,250 @@
+{
+ "format": 2,
+ "slug": "humanbody",
+ "subject": "61CA06C3639D42A789B6DBF5E2F86E6C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 21,
+ "quotations": 23,
+ "kept": [
+  "source:ABU0825",
+  "source:ABU3045",
+  "source:AB00266",
+  "source:ABU0323",
+  "source:ABU0701",
+  "source:ABU0185",
+  "source:AB01309",
+  "source:AB00020",
+  "source:AB00228",
+  "source:ABU3189",
+  "source:ABU0541",
+  "source:AB00457",
+  "source:BH00210",
+  "source:BH11628",
+  "source:AB00475",
+  "source:ABU1085",
+  "source:AB03551",
+  "source:BH00135",
+  "source:AB07601",
+  "source:BB00001",
+  "selection:18634a8739b1a5018342d49b"
+ ],
+ "introduction": "“The human body is in reality very weak; there is no physical body more delicately constituted.” The guide begins with that fragility and with the body’s unchanging span, then turns to what the body is for: an instrument, a glass for a light it does not make, a kingdom of unlike members under one power, and at the end “the greatest proof of God”, a book and a temple. The Psalms hold both ends, threescore years and ten of labour and a creature fearfully and wonderfully made. Pascal’s thinking reed, the Upanishad’s chariot and Paul’s body of many members are close neighbours. Aristotle’s wax and its shape, Plato’s prison, the Gita’s garments and Marcus Aurelius’s corpse are four other ways of relating soul to body, none of them the readings’ way; Darwin and Shakespeare’s Edmund press on two of its particular claims.",
+ "questions": [
+  "Plato calls the body a prison, the Gita a garment, Aristotle the wax of which the soul is the shape. Which features of the readings’ own image, the glass and the sun, are chosen to avoid each of these?",
+  "Reading 4 says physical evolution ends when the human body is perfected; Darwin says the body carries the stamp of its origin. Can both be held, and what is at stake?",
+  "Paul’s body of many members is an image for a community. How do readings 16 and 17 use the body to think about unity in difference?",
+  "Marcus Aurelius calls himself a little soul bearing a corpse; the last readings call the human form a temple. What practical difference does it make which one believes?"
+ ],
+ "outside": [
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0825",
+   "responds": [
+    "source:ABU0825"
+   ],
+   "relation": "adjacent",
+   "why": "“The human body is in reality very weak”: a mosquito distresses it. Pascal: man is but a reed, the most feeble thing in nature; a vapour, a drop of water suffices to kill him. But he is a thinking reed."
+  },
+  {
+   "id": "psalm-threescore-years-and-ten",
+   "after": "source:ABU3045",
+   "responds": [
+    "source:ABU3045"
+   ],
+   "relation": "adjacent",
+   "why": "“The allotted span of human life does not vary from age to age.” The days of our years are threescore years and ten; and if by reason of strength they be fourscore years, yet is their strength labour and sorrow."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "The body, composed of the elements, is the glass; the spirit is the sun’s bounty in it. The Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life."
+  },
+  {
+   "id": "aristotle-wax-and-its-shape",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "contrast",
+   "why": "Aristotle thought it as needless to ask whether soul and body are one as to ask whether the wax and its shape are one. On his view there is no light apart from the glass. What do the readings need the soul to be that his account does not give?"
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "source:ABU0323",
+   "responds": [
+    "source:ABU0323"
+   ],
+   "relation": "complement",
+   "why": "When the body is perfected, “physical evolution comes to an end”. Darwin closes his book on human descent: man with all his noble qualities still bears in his bodily frame the indelible stamp of his lowly origin. What the reading calls perfected, he calls marked by its history."
+  },
+  {
+   "id": "lavoisier-nothing-is-created",
+   "after": "source:ABU0701",
+   "responds": [
+    "source:ABU0701"
+   ],
+   "relation": "adjacent",
+   "why": "“Existence is the expression and outcome of composition … Nonexistence is … decomposition.” Lavoisier put the chemist’s version: nothing is created; there are only changes and modifications in the combination of elements."
+  },
+  {
+   "id": "psalm-made-in-secret",
+   "after": "source:ABU0185",
+   "responds": [
+    "source:ABU0185"
+   ],
+   "relation": "adjacent",
+   "why": "The soul has “a potential existence before its appearance”, like the tree in the seed. My substance was not hid from thee, when I was made in secret; in thy book all my members were written, when as yet there was none of them."
+  },
+  {
+   "id": "katha-self-in-the-chariot",
+   "after": "source:AB01309",
+   "responds": [
+    "source:AB01309"
+   ],
+   "relation": "adjacent",
+   "why": "The spirit commands every member. The Katha Upanishad: know the Self to be sitting in the chariot, the body to be the chariot, the intellect the charioteer, and the mind the reins."
+  },
+  {
+   "id": "matthew-light-of-the-body",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Mental faculties belong to the soul as rays to the sun; the organs are instruments. The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light."
+  },
+  {
+   "id": "plato-bars-of-a-prison",
+   "after": "source:AB00228",
+   "responds": [
+    "source:AB00228"
+   ],
+   "relation": "contrast",
+   "why": "The spirit “is not contained within the body”. Plato’s Socrates speaks as if it were: the soul is fastened and glued to the body, and views existence through the bars of a prison. The reading rejects ingress and egress alike. What picture replaces the prison?"
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:ABU3189",
+   "responds": [
+    "source:ABU3189"
+   ],
+   "relation": "adjacent",
+   "why": "Old age weakens the instrument, not the one who uses it. Though our outward man perish, yet the inward man is renewed day by day."
+  },
+  {
+   "id": "ecclesiastes-remember-now-thy-creator",
+   "after": "source:ABU3189",
+   "responds": [
+    "source:ABU3189"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher’s picture of the body’s old age: the keepers of the house tremble, the grinders cease because they are few, and those that look out of the windows be darkened."
+  },
+  {
+   "id": "corinthians-earthly-house",
+   "after": "source:ABU0541",
+   "responds": [
+    "source:ABU0541"
+   ],
+   "relation": "adjacent",
+   "why": "The body is in space; the soul has no place. If our earthly house of this tabernacle were dissolved, we have a building of God, an house not made with hands."
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:AB00457",
+   "responds": [
+    "source:AB00457"
+   ],
+   "relation": "contrast",
+   "why": "The soul has “no need to enter or exit”. The Gita’s image is of entering and leaving: as a man casts off worn-out robes and puts on new, so the dweller in the body casts off worn-out bodies and enters others. What in the reading excludes that?"
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:BH00210",
+   "responds": [
+    "source:BH00210"
+   ],
+   "relation": "adjacent",
+   "why": "The rational soul is “a divine trust” that moves all within. The spirit of man is the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "shakespeare-excellent-foppery",
+   "after": "source:AB00475",
+   "responds": [
+    "source:AB00475"
+   ],
+   "relation": "contrast",
+   "why": "The stars are said to exert an influence on the human world. Edmund in King Lear calls it the excellent foppery of the world that we make guilty of our disasters the sun, the moon, and the stars. What kind of influence could survive his scorn?"
+  },
+  {
+   "id": "corinthians-if-the-whole-body-were-an-eye",
+   "after": "source:ABU1085",
+   "responds": [
+    "source:ABU1085"
+   ],
+   "relation": "adjacent",
+   "why": "“The eye is not the ear, the hand is not the foot”, yet one spirit governs. If the whole body were an eye, where were the hearing? But now are they many members, yet but one body."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:BH00135",
+   "responds": [
+    "source:BH00135"
+   ],
+   "relation": "adjacent",
+   "why": "Man is “the greatest index”, holding the representations of all created things. Thou hast made him a little lower than the angels, and hast crowned him with glory and honour."
+  },
+  {
+   "id": "dickinson-brain-wider-than-the-sky",
+   "after": "source:AB07601",
+   "responds": [
+    "source:AB07601"
+   ],
+   "relation": "adjacent",
+   "why": "“Dost thou reckon thyself only a puny form, when within thee the universe is folded?” Emily Dickinson: the brain is wider than the sky, for, put them side by side, the one the other will contain."
+  },
+  {
+   "id": "marcus-little-soul-bearing-a-corpse",
+   "after": "source:AB07601",
+   "responds": [
+    "source:AB07601"
+   ],
+   "relation": "contrast",
+   "why": "Marcus Aurelius, quoting Epictetus: thou art a little soul bearing about a corpse. The reading tells the questioner not to despise the form. Which estimate of the body does more for a person?"
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The outer body is “the throne of that inner body” and is to be honoured. Know ye not that your body is the temple of the Holy Ghost?"
+  },
+  {
+   "id": "psalm-fearfully-and-wonderfully-made",
+   "after": "selection:18634a8739b1a5018342d49b",
+   "responds": [
+    "selection:18634a8739b1a5018342d49b"
+   ],
+   "relation": "adjacent",
+   "why": "“The human form is the greatest proof of God in His creation.” I will praise thee; for I am fearfully and wonderfully made."
+  },
+  {
+   "id": "whitman-if-the-body-were-not-the-soul",
+   "after": "selection:18634a8739b1a5018342d49b",
+   "responds": [
+    "selection:18634a8739b1a5018342d49b"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman: and if the body were not the soul, what is the soul? He will not rank them; the reading calls the form a Book and a Temple, and still distinguishes it from its reader and its guest."
+  }
+ ],
+ "library": {}
+}
