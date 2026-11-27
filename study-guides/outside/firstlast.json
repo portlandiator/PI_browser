@@ -1,0 +1,138 @@
+{
+ "format": 2,
+ "slug": "firstlast",
+ "subject": "BD766C442B19416EA9D42C62C5DA721A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 9,
+ "quotations": 12,
+ "kept": [
+  "source:BH00002",
+  "source:BH04474",
+  "source:BH08265",
+  "source:AB00015",
+  "source:BH02073",
+  "source:BH00932",
+  "source:BB00004",
+  "source:BH00848",
+  "source:BH00047"
+ ],
+ "introduction": "“He is the First and the Last, the Manifest and the Hidden.” The verse is from the Qur’an, and the readings turn it over: the one who is first is the one who is last; what is revealed is what is concealed; and, in the last reading, a man is first to his son and last to his father, so that the names say where we stand and not what He is. Isaiah and the Apocalypse speak the same pair of names; Hebrews applies it to Christ; Heraclitus says the way up and the way down are one. Isaiah also knows a God who hides, Augustine admits that the hiding was his own, and Job, who went forward and backward and found no one, speaks for those to whom “in plain sight” is not how it seems.",
+ "questions": [
+  "Reading 9 explains “first” and “last” by a man who is a father and a son. What does that example suggest about how such names apply to God?",
+  "“Veiled from every eye, yet in plain sight.” Isaiah says God hides; Augustine says he himself was abroad. Where do the readings place the veil?",
+  "Job could not find God before or behind. Is his experience a refutation of these readings, or one of the things they are describing?"
+ ],
+ "outside": [
+  {
+   "id": "quran-first-and-last",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The reading takes its terms from this verse: He is the First and the Last, and the Outward and the Inward; and He is Knower of all things."
+  },
+  {
+   "id": "revelation-alpha-and-omega",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The exponents of “first” and “last” are one. I am Alpha and Omega, the beginning and the ending, saith the Lord."
+  },
+  {
+   "id": "hebrews-same-yesterday",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Applied to the Manifestation: Jesus Christ the same yesterday, and to day, and for ever."
+  },
+  {
+   "id": "isaiah-hidest-thyself",
+   "after": "source:BH04474",
+   "responds": [
+    "source:BH04474"
+   ],
+   "relation": "adjacent",
+   "why": "“Veiled from every eye, yet in plain sight art Thou!” Isaiah: verily thou art a God that hidest thyself, O God of Israel, the Saviour."
+  },
+  {
+   "id": "augustine-thou-wert-within",
+   "after": "source:BH04474",
+   "responds": [
+    "source:BH04474"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine found the hiddenness on his own side: Thou wert within, and I abroad, and there I searched for Thee."
+  },
+  {
+   "id": "quran-whithersoever-ye-turn",
+   "after": "source:BH04474",
+   "responds": [
+    "source:BH04474"
+   ],
+   "relation": "adjacent",
+   "why": "In plain sight everywhere, and seen by none. Unto God belong the East and the West, and whithersoever ye turn, there is God’s countenance."
+  },
+  {
+   "id": "heraclitus-way-up-way-down",
+   "after": "source:BH08265",
+   "responds": [
+    "source:BH08265"
+   ],
+   "relation": "adjacent",
+   "why": "“Thy Lastness which is the same as Thy Firstness.” Heraclitus: the way up and the way down are one and the same."
+  },
+  {
+   "id": "isaiah-first-and-last",
+   "after": "source:AB00015",
+   "responds": [
+    "source:AB00015"
+   ],
+   "relation": "adjacent",
+   "why": "Firstness and Lastness have ever been His. I am the first, and I am the last; and beside me there is no God."
+  },
+  {
+   "id": "matthew-last-shall-be-first",
+   "after": "source:BH02073",
+   "responds": [
+    "source:BH02073"
+   ],
+   "relation": "complement",
+   "why": "The Beginning sent “in the form of the End”. So the last shall be first, and the first last. Jesus uses the pair to overturn rank among people. Is that use related to the readings’, or only the same words?"
+  },
+  {
+   "id": "proverbs-hearing-ear",
+   "after": "source:BH00932",
+   "responds": [
+    "source:BH00932"
+   ],
+   "relation": "adjacent",
+   "why": "Who bestowed the sight, and whence came the ears? The hearing ear, and the seeing eye, the Lord hath made even both of them."
+  },
+  {
+   "id": "psalm-from-everlasting",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "God, First, Last, Manifest and Hidden. Before the mountains were brought forth, even from everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "job-i-go-forward",
+   "after": "source:BH00848",
+   "responds": [
+    "source:BH00848"
+   ],
+   "relation": "contrast",
+   "why": "The prayer finds God’s concealment in a revealed Person. Job found only the concealment: behold, I go forward, but he is not there; and backward, but I cannot perceive him. What would the readings say to Job?"
+  }
+ ],
+ "library": {}
+}
