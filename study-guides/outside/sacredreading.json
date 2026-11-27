@@ -1,0 +1,703 @@
+{
+ "format": 2,
+ "slug": "sacredreading",
+ "subject": "DB9913EDE9DAEFE01D3272B608032691",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 75,
+ "quotations": 75,
+ "kept": [
+  "source:BH00001",
+  "source:BH00079",
+  "source:BH00853",
+  "source:AB08816",
+  "source:BH09815",
+  "source:ABU2749",
+  "source:ABU2171",
+  "source:BH05310",
+  "source:AB12314",
+  "source:BH03076",
+  "source:BH06293",
+  "source:BH07336",
+  "source:ABU1660",
+  "source:BH02333",
+  "source:BH11451",
+  "source:BH05700",
+  "source:BH06550",
+  "source:BH07134",
+  "source:BH08211",
+  "source:BH11886",
+  "source:AB01261",
+  "source:ABU3243",
+  "source:AB01172",
+  "source:ABU1232",
+  "source:ABU3429",
+  "source:AB01219",
+  "source:ABU1417",
+  "source:AB09814",
+  "source:AB07252",
+  "source:AB11868",
+  "source:BH06461",
+  "source:AB08631",
+  "source:AB01926",
+  "source:BH00443",
+  "source:BH00445",
+  "source:AB08701",
+  "source:AB05790",
+  "source:BH01758",
+  "source:BH07379",
+  "source:AB06541",
+  "source:BH04719",
+  "source:BH03787",
+  "source:BB00003",
+  "source:BH06092",
+  "source:BH03621",
+  "source:BH01721",
+  "source:BH08282",
+  "source:BH05792",
+  "source:BH03554",
+  "source:BH03143",
+  "source:BH01979",
+  "source:BH03299",
+  "source:BH02861",
+  "source:BH02941",
+  "source:BH02973",
+  "source:BH00884",
+  "source:BH03193",
+  "source:BH04392",
+  "source:BH09828",
+  "source:BH10469",
+  "source:BH06558",
+  "source:BH05498",
+  "source:BH06928",
+  "source:BH07353",
+  "source:BH07611",
+  "source:BH08088",
+  "source:BH08623",
+  "source:BH09008",
+  "source:BH09927",
+  "source:BH11627",
+  "source:ABU1896",
+  "source:BH05084",
+  "source:BH05918",
+  "source:BH06704",
+  "source:BH00493"
+ ],
+ "introduction": "“Recite ye the verses of God every morn and eventide,” the guide begins, and at once qualifies the command: joy matters more than quantity, understanding is the object, and practice is the proof. The rest is variations: read with melody, ponder, read the Bible and the Qur’an as well, learn the language, memorize, gather to read, and above all act. Israel was told to speak of the words lying down and rising up; the first psalm blesses the one who meditates day and night; the Qur’an asks to be chanted in measure and pondered; James and the rabbis agree that the doing is the chief thing; Augustine was changed by one sentence taken up and read. Others are warier of books. Jesus tells diligent searchers of scripture that their searching has not brought them to him; the Dhammapada compares the reciter who does not act to a cowherd counting another’s cattle; Socrates fears for memory, the Preacher is tired of study, and Emerson and Wordsworth send the reader out of the library.",
+ "questions": [
+  "Joshua is to meditate in the book day and night, and Paul would rather have five words understood than ten thousand not. How do the first readings join regular recitation to joy and understanding?",
+  "“Ye search the scriptures … and ye will not come to me.” What do the readings and their companions suggest about how a devoted reader comes to be veiled by the book?",
+  "Augustine distrusts being moved by the singing more than by what is sung. What place do the readings give to melody and the voice?",
+  "The readings ask Bahá’ís to study the Bible and the Qur’an, and to learn Persian; Pentecost has everyone hear in their own tongue. What is gained by reading another people’s scripture, and by reading one’s own in its first language?",
+  "The cowherd of the Dhammapada counts cattle that are not his. Where in the guide is recitation tied to action, and where is it left to work by itself?",
+  "Emerson and Wordsworth think books can keep a person from seeing for themselves. What sort of reading would answer them?"
+ ],
+ "outside": [
+  {
+   "id": "joshua-meditate-day-and-night",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“Recite ye the verses of God every morn and eventide.” Joshua is given the same rule on taking up his charge: this book of the law shall not depart out of thy mouth; thou shalt meditate therein day and night."
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Israel’s daily recitation has the same two hours in it: thou shalt talk of them when thou liest down, and when thou risest up."
+  },
+  {
+   "id": "corinthians-five-words-with-my-understanding",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The reading (in its fuller form) prefers one verse read with joy to a whole scripture read with lassitude. Paul: I had rather speak five words with my understanding than ten thousand in an unknown tongue."
+  },
+  {
+   "id": "timothy-all-scripture",
+   "after": "source:BH00079",
+   "responds": [
+    "source:BH00079"
+   ],
+   "relation": "adjacent",
+   "why": "“All that hath been revealed” is meant. The pastoral letter makes the same inclusive claim: all scripture is given by inspiration of God, and is profitable."
+  },
+  {
+   "id": "psalm-delight-in-the-law",
+   "after": "source:BH00853",
+   "responds": [
+    "source:BH00853"
+   ],
+   "relation": "adjacent",
+   "why": "“Blessed is he who readeth the verses of God and pondereth them.” The Psalter opens on that beatitude: his delight is in the law, and in it he meditates day and night."
+  },
+  {
+   "id": "bacon-weigh-and-consider",
+   "after": "source:BH00853",
+   "responds": [
+    "source:BH00853"
+   ],
+   "relation": "adjacent",
+   "why": "To draw pearls from the depths. Bacon’s rule for readers: read not to contradict, nor to believe and take for granted, but to weigh and consider."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:AB08816",
+   "responds": [
+    "source:AB08816"
+   ],
+   "relation": "adjacent",
+   "why": "“Strive thou that thou mayest practice each one of these Teachings.” Be ye doers of the word, and not hearers only."
+  },
+  {
+   "id": "avot-not-study-but-actions",
+   "after": "source:AB08816",
+   "responds": [
+    "source:AB08816"
+   ],
+   "relation": "adjacent",
+   "why": "The rabbis put it in six words: not study is the chief thing, but action."
+  },
+  {
+   "id": "john-search-the-scriptures",
+   "after": "source:BH09815",
+   "responds": [
+    "source:BH09815"
+   ],
+   "relation": "contrast",
+   "why": "Many recited scripture night and day and were veiled from its Revealer. Jesus to the students of the Torah: ye search the scriptures, thinking that in them ye have eternal life, and ye will not come to me. Can devotion to a book be what hides its meaning?"
+  },
+  {
+   "id": "quran-ass-carrying-books",
+   "after": "source:BH09815",
+   "responds": [
+    "source:BH09815"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an’s image for the same failure: those entrusted with a scripture who apply it not are like the ass carrying books."
+  },
+  {
+   "id": "acts-understandest-thou",
+   "after": "source:ABU2749",
+   "responds": [
+    "source:ABU2749"
+   ],
+   "relation": "adjacent",
+   "why": "“The object of reading … is to understand.” Philip’s first question to the reader in the chariot: understandest thou what thou readest?"
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:ABU2749",
+   "responds": [
+    "source:ABU2749"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius: learning without thought is labour lost; thought without learning is perilous."
+  },
+  {
+   "id": "psalm-more-to-be-desired-than-gold",
+   "after": "source:ABU2171",
+   "responds": [
+    "source:ABU2171"
+   ],
+   "relation": "adjacent",
+   "why": "Teachings like uncut diamonds that brighten with polishing. The psalmist on the judgments of the Lord: more to be desired are they than gold, yea, than much fine gold."
+  },
+  {
+   "id": "psalm-entrance-of-thy-words",
+   "after": "source:BH05310",
+   "responds": [
+    "source:BH05310"
+   ],
+   "relation": "adjacent",
+   "why": "“That breasts may be illumined thereby.” The entrance of thy words giveth light; it giveth understanding unto the simple."
+  },
+  {
+   "id": "quran-chant-in-measure",
+   "after": "source:AB12314",
+   "responds": [
+    "source:AB12314"
+   ],
+   "relation": "adjacent",
+   "why": "“Read the Tablets … with a good melody.” The Qur’an to its Prophet: chant the Qur’an in measure."
+  },
+  {
+   "id": "augustine-moved-by-the-singing",
+   "after": "source:AB12314",
+   "responds": [
+    "source:AB12314"
+   ],
+   "relation": "complement",
+   "why": "Augustine remembers weeping at the Church’s chanting, and then worries: when the singing moves me more than what is sung, I confess that I sin. What keeps melody the servant of the words?"
+  },
+  {
+   "id": "jeremiah-thy-words-were-found",
+   "after": "source:BH03076",
+   "responds": [
+    "source:BH03076"
+   ],
+   "relation": "adjacent",
+   "why": "“Read ye the verses of God with joy.” Jeremiah: thy words were found, and I did eat them; and thy word was unto me the joy and rejoicing of mine heart."
+  },
+  {
+   "id": "psalm-statutes-my-songs",
+   "after": "source:BH06293",
+   "responds": [
+    "source:BH06293"
+   ],
+   "relation": "adjacent",
+   "why": "A Tablet read “with the most melodious voice”. Thy statutes have been my songs in the house of my pilgrimage."
+  },
+  {
+   "id": "quran-give-ear",
+   "after": "source:BH07336",
+   "responds": [
+    "source:BH07336"
+   ],
+   "relation": "adjacent",
+   "why": "Hearing “was created solely for hearkening unto the blessed Word”. The Qur’an: when the Qur’an is recited, give ear to it and pay heed."
+  },
+  {
+   "id": "amos-famine-of-hearing",
+   "after": "source:BH07336",
+   "responds": [
+    "source:BH07336"
+   ],
+   "relation": "adjacent",
+   "why": "Amos imagines the faculty with nothing to hear: a famine, not of bread, but of hearing the words of the Lord."
+  },
+  {
+   "id": "matthew-house-on-the-rock",
+   "after": "source:ABU1660",
+   "responds": [
+    "source:ABU1660"
+   ],
+   "relation": "adjacent",
+   "why": "“No shelter except under the shade of the Word of God.” Whoever hears these sayings and does them is the man who built his house upon a rock."
+  },
+  {
+   "id": "psalm-o-how-love-i-thy-law",
+   "after": "source:BH02333",
+   "responds": [
+    "source:BH02333"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed is he who ponders the verses “at eventide and at dawn”. O how love I thy law! it is my meditation all the day."
+  },
+  {
+   "id": "revelation-blessed-is-he-that-readeth",
+   "after": "source:BH11451",
+   "responds": [
+    "source:BH11451"
+   ],
+   "relation": "adjacent",
+   "why": "“Blessed is the man who reciteth them and reflecteth.” The Apocalypse opens with the same blessing on reader, hearers and keepers."
+  },
+  {
+   "id": "psalm-seven-times-a-day",
+   "after": "source:BH05700",
+   "responds": [
+    "source:BH05700"
+   ],
+   "relation": "adjacent",
+   "why": "“At all times occupy thyself.” The longest psalm counts: seven times a day do I praise thee because of thy righteous judgments."
+  },
+  {
+   "id": "luke-opened-their-understanding",
+   "after": "source:BH06550",
+   "responds": [
+    "source:BH06550"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed are those who “discover from them that which hath been purposed”. Luke says of the risen Jesus that he opened their understanding, that they might understand the scriptures."
+  },
+  {
+   "id": "quran-locks-on-the-hearts",
+   "after": "source:BH07134",
+   "responds": [
+    "source:BH07134"
+   ],
+   "relation": "adjacent",
+   "why": "“Ponder, O people … then judge with fairness.” The Qur’an asks: will they not meditate on the Qur’an, or are there locks on the hearts?"
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:BH08211",
+   "responds": [
+    "source:BH08211"
+   ],
+   "relation": "adjacent",
+   "why": "Read My verses, and ponder also what “every heedless and veiled one uttereth”. Prove all things; hold fast that which is good."
+  },
+  {
+   "id": "acts-bereans",
+   "after": "source:BH11886",
+   "responds": [
+    "source:BH11886"
+   ],
+   "relation": "adjacent",
+   "why": "If people read one Tablet “with justice and fairness”. The Bereans are praised for exactly that: readiness of mind, and daily searching whether those things were so."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:BH11886",
+   "responds": [
+    "source:BH11886"
+   ],
+   "relation": "contrast",
+   "why": "Paine objects that a revelation is revelation to the first hearer only; to everyone after it is hearsay, which he is not obliged to believe. The reading trusts the page to persuade a fair reader. What does a text have that a report lacks?"
+  },
+  {
+   "id": "quran-revealed-unto-abraham",
+   "after": "source:AB01261",
+   "responds": [
+    "source:AB01261"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an and the Gospel are to be studied by all. The Qur’an commands its people to say: we believe in what was revealed unto Abraham, Moses and Jesus; we make no distinction between any of them."
+  },
+  {
+   "id": "romans-written-for-our-learning",
+   "after": "source:ABU3243",
+   "responds": [
+    "source:ABU3243"
+   ],
+   "relation": "adjacent",
+   "why": "It is a duty to read both Testaments. Paul on the older scriptures: whatsoever things were written aforetime were written for our learning."
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "source:AB01172",
+   "responds": [
+    "source:AB01172"
+   ],
+   "relation": "adjacent",
+   "why": "Children are to drink from this spring and study Torah, Gospel, Qur’an and Bayán. From a child thou hast known the holy scriptures."
+  },
+  {
+   "id": "gandhi-open-windows",
+   "after": "source:ABU1232",
+   "responds": [
+    "source:ABU1232"
+   ],
+   "relation": "adjacent",
+   "why": "The holy books of other religions “must always be studied”. Gandhi wanted the cultures of all lands blown about his house as freely as possible, and refused to be blown off his feet by any."
+  },
+  {
+   "id": "acts-live-and-move",
+   "after": "source:ABU1232",
+   "responds": [
+    "source:ABU1232"
+   ],
+   "relation": "adjacent",
+   "why": "Paul at Athens quotes pagan poets to his purpose: as certain also of your own poets have said."
+  },
+  {
+   "id": "exodus-merciful-and-gracious",
+   "after": "source:ABU3429",
+   "responds": [
+    "source:ABU3429"
+   ],
+   "relation": "complement",
+   "why": "“Where does the great Master Jesus speak of the ‘Wrath of God’?” The God proclaimed to Moses is merciful and gracious, longsuffering, and will by no means clear the guilty. A close reader of the Gospels will find both notes; what is the questioner being taught to look for?"
+  },
+  {
+   "id": "psalm-thy-word-have-i-hid",
+   "after": "source:AB01219",
+   "responds": [
+    "source:AB01219"
+   ],
+   "relation": "adjacent",
+   "why": "He recited the Qur’an carefully and delved into its meanings morning and night. Thy word have I hid in mine heart."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:ABU1417",
+   "responds": [
+    "source:ABU1417"
+   ],
+   "relation": "adjacent",
+   "why": "In prison there was at last time to read the Qur’an through, “with fervor”. Keats on first reading Homer in a version he could follow: then felt I like some watcher of the skies when a new planet swims into his ken."
+  },
+  {
+   "id": "sirach-not-the-same-force",
+   "after": "source:AB09814",
+   "responds": [
+    "source:AB09814"
+   ],
+   "relation": "adjacent",
+   "why": "“Acquire the Persian tongue.” The grandson who translated Sirach warns that things uttered in Hebrew have not the same force when turned into another tongue."
+  },
+  {
+   "id": "acts-parthians-and-medes",
+   "after": "source:AB07252",
+   "responds": [
+    "source:AB07252"
+   ],
+   "relation": "contrast",
+   "why": "At Pentecost each hears “in our own tongue, wherein we were born”, and Christianity has lived by translation since. Is the original language a duty, a privilege, or a help?"
+  },
+  {
+   "id": "proverbs-commandment-is-a-lamp",
+   "after": "source:AB08631",
+   "responds": [
+    "source:AB08631"
+   ],
+   "relation": "adjacent",
+   "why": "It is praiseworthy to memorize. Proverbs: bind them continually upon thine heart; when thou goest, it shall lead thee; when thou sleepest, it shall keep thee."
+  },
+  {
+   "id": "plato-writing-silent",
+   "after": "source:AB08631",
+   "responds": [
+    "source:AB08631"
+   ],
+   "relation": "complement",
+   "why": "Socrates feared that writing would plant forgetfulness, since people would trust the marks and not their memory. The reading asks for both the text and the memory. What does a memorized verse do that a book on the shelf does not?"
+  },
+  {
+   "id": "nehemiah-gave-the-sense",
+   "after": "source:AB01926",
+   "responds": [
+    "source:AB01926"
+   ],
+   "relation": "adjacent",
+   "why": "Read the books in meetings, “and memorize the vital points”. In Nehemiah the law is read aloud to the assembled people, distinctly, with the sense given."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:BH00443",
+   "responds": [
+    "source:BH00443"
+   ],
+   "relation": "adjacent",
+   "why": "“The verses kindle the fire of love.” Did not our heart burn within us, while he opened to us the scriptures?"
+  },
+  {
+   "id": "matthew-two-or-three",
+   "after": "source:BH00443",
+   "responds": [
+    "source:BH00443"
+   ],
+   "relation": "adjacent",
+   "why": "Friends are to gather to read. Where two or three are gathered together in my name, there am I in the midst of them."
+  },
+  {
+   "id": "colossians-read-among-you",
+   "after": "source:BH00445",
+   "responds": [
+    "source:BH00445"
+   ],
+   "relation": "adjacent",
+   "why": "A text to be read at least once a month, together or alone. Paul asks that his letter be read in the church, and passed on."
+  },
+  {
+   "id": "timothy-neglect-not-the-gift",
+   "after": "source:AB08701",
+   "responds": [
+    "source:AB08701"
+   ],
+   "relation": "adjacent",
+   "why": "“Continue attending the study.” Paul to Timothy: give attendance to reading, to exhortation, to doctrine; meditate upon these things."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:AB05790",
+   "responds": [
+    "source:AB05790"
+   ],
+   "relation": "adjacent",
+   "why": "Pursue divine knowledge night and day, and become informed of proofs. Bacon: reading maketh a full man; conference a ready man; and writing an exact man."
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:AB05790",
+   "responds": [
+    "source:AB05790"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher: of making many books there is no end; and much study is a weariness of the flesh. What distinguishes the study the reading wants from the study that wearies?"
+  },
+  {
+   "id": "hosea-lack-of-knowledge",
+   "after": "source:BH01758",
+   "responds": [
+    "source:BH01758"
+   ],
+   "relation": "adjacent",
+   "why": "“It is most strange that your honor hath not seen the divine Tablets.” Hosea: my people are destroyed for lack of knowledge."
+  },
+  {
+   "id": "augustine-take-up-and-read",
+   "after": "source:BH04719",
+   "responds": [
+    "source:BH04719"
+   ],
+   "relation": "adjacent",
+   "why": "“Read thou the Book of God that thou mayest know.” Augustine in the garden hears a child’s voice chanting “Take up and read”, opens the apostle, and reads no further than one sentence."
+  },
+  {
+   "id": "psalm-lamp-unto-my-feet",
+   "after": "source:BH03787",
+   "responds": [
+    "source:BH03787"
+   ],
+   "relation": "adjacent",
+   "why": "What the Pen revealed is “a lamp for the guidance of the servants”. Thy word is a lamp unto my feet, and a light unto my path."
+  },
+  {
+   "id": "quran-fairest-of-statements",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "In the Bayán “ye shall find repose”. The Qur’an describes its own effect: a scripture at which the flesh creeps, and then flesh and hearts soften to the remembrance of God."
+  },
+  {
+   "id": "hebrews-twoedged-sword",
+   "after": "source:BH06092",
+   "responds": [
+    "source:BH06092"
+   ],
+   "relation": "adjacent",
+   "why": "“Every word thereof is the quickener of the dead.” The word of God is quick, and powerful, and sharper than any twoedged sword."
+  },
+  {
+   "id": "matthew-treasure-hid-in-a-field",
+   "after": "source:BH03621",
+   "responds": [
+    "source:BH03621"
+   ],
+   "relation": "adjacent",
+   "why": "A Tablet “that all the treasures of the world cannot equal”. The man who finds treasure hid in a field sells all that he has for it."
+  },
+  {
+   "id": "kempis-wander-much-abroad",
+   "after": "source:BH01721",
+   "responds": [
+    "source:BH01721"
+   ],
+   "relation": "adjacent",
+   "why": "Read it “when you find yourself detached from this world”. Thomas à Kempis commends the cell and the quiet hour over much going abroad."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "source:BH08282",
+   "responds": [
+    "source:BH08282"
+   ],
+   "relation": "adjacent",
+   "why": "The verses “draw the sincere ones unto God”. Isaiah: my word shall not return unto me void, but it shall accomplish that which I please."
+  },
+  {
+   "id": "psalm-sweeter-than-honey",
+   "after": "source:BH03143",
+   "responds": [
+    "source:BH03143"
+   ],
+   "relation": "adjacent",
+   "why": "“Hold fast unto the Book … recite it by night and by day.” How sweet are thy words unto my taste! yea, sweeter than honey to my mouth."
+  },
+  {
+   "id": "james-face-in-a-glass",
+   "after": "source:BH01979",
+   "responds": [
+    "source:BH01979"
+   ],
+   "relation": "adjacent",
+   "why": "Recite it often “lest thou become heedless”. James on the forgetful hearer: he beholds his face in a glass, goes his way, and straightway forgets what manner of man he was."
+  },
+  {
+   "id": "colossians-psalms-and-hymns",
+   "after": "source:BH02861",
+   "responds": [
+    "source:BH02861"
+   ],
+   "relation": "adjacent",
+   "why": "Read, “that the fragrances … may waft between you”. Let the word of Christ dwell in you richly, teaching and admonishing one another."
+  },
+  {
+   "id": "exodus-face-shone",
+   "after": "source:BH04392",
+   "responds": [
+    "source:BH04392"
+   ],
+   "relation": "adjacent",
+   "why": "Recite, “that thy face may be illumined thereby”. Moses came down from the mountain with the tables in his hand, and his face shone."
+  },
+  {
+   "id": "dhammapada-cowherd-counting-the-cows-of-others",
+   "after": "source:BH05498",
+   "responds": [
+    "source:BH05498"
+   ],
+   "relation": "contrast",
+   "why": "Tablet after tablet says: recite morning and evening. The Dhammapada warns that one who recites much and does not act is like a cowherd counting the cows of others. Do the readings ever let recitation stand alone?"
+  },
+  {
+   "id": "emerson-meek-young-men-in-libraries",
+   "after": "source:BH08623",
+   "responds": [
+    "source:BH08623"
+   ],
+   "relation": "contrast",
+   "why": "“Read it again and again.” Emerson worried about meek young men grown up in libraries, believing it their duty to accept the views that Cicero, Locke and Bacon held, forgetting that these were only young men in libraries when they wrote. What kind of rereading escapes his charge?"
+  },
+  {
+   "id": "wordsworth-vernal-wood",
+   "after": "source:BH11627",
+   "responds": [
+    "source:BH11627"
+   ],
+   "relation": "contrast",
+   "why": "Wordsworth tells his bookish friend to come out: one impulse from a vernal wood may teach more of man, of moral evil and of good, than all the sages can. The readings find in one book what he finds in the wood. Are these rivals?"
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:ABU1896",
+   "responds": [
+    "source:ABU1896"
+   ],
+   "relation": "adjacent",
+   "why": "“Study … and live according to His teaching.” The Gospel’s test of any teaching and any student: by their fruits ye shall know them."
+  },
+  {
+   "id": "james-perfect-law-of-liberty",
+   "after": "source:BH05084",
+   "responds": [
+    "source:BH05084"
+   ],
+   "relation": "adjacent",
+   "why": "“Hold fast unto the Book of God, then act.” Whoso looketh into the perfect law of liberty, and continueth therein, being a doer of the work, shall be blessed in his deed."
+  },
+  {
+   "id": "luke-good-ground",
+   "after": "source:BH05918",
+   "responds": [
+    "source:BH05918"
+   ],
+   "relation": "adjacent",
+   "why": "Read, then act: “this is a mighty good”. The seed on good ground are they who, having heard the word, keep it, and bring forth fruit with patience."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:BH06704",
+   "responds": [
+    "source:BH06704"
+   ],
+   "relation": "adjacent",
+   "why": "Remember Him, then follow what He has revealed. Micah’s summary of what all the scriptures require: to do justly, to love mercy, to walk humbly."
+  }
+ ],
+ "shortfall": "Some thirty of the readings (39 to 70) are single sentences from letters to individuals that say, in nearly the same words, “preserve this Tablet and recite it by night and by day”; they were given companions for the distinct things they add (repose, treasure, detachment, forgetfulness, the lit face, the risk of recitation without practice) and not one apiece.",
+ "library": {}
+}
