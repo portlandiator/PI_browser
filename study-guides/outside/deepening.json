@@ -1,0 +1,523 @@
+{
+ "format": 2,
+ "slug": "deepening",
+ "subject": "FAA956A41DDB45EEBE390F1FD8D20C55",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 50,
+ "quotations": 50,
+ "kept": [
+  "source:ABU0523",
+  "source:BH00001",
+  "source:BH04482",
+  "source:AB11282",
+  "source:AB11557",
+  "source:ABU2795",
+  "source:AB00740",
+  "source:ABU2171",
+  "source:BH00737",
+  "source:BH04036",
+  "source:ABU1787",
+  "source:ABU0791",
+  "source:ABU3243",
+  "source:ABU1242",
+  "source:AB01840",
+  "source:AB08514",
+  "source:ABU0638",
+  "source:AB03380",
+  "source:ABU1175",
+  "source:ABU2465",
+  "source:ABU2419",
+  "source:AB07821",
+  "source:BH00443",
+  "source:AB09121",
+  "source:ABU2443",
+  "source:BH06233",
+  "source:BH09972",
+  "source:AB11513",
+  "source:AB11630",
+  "source:AB02124",
+  "source:AB04940",
+  "source:ABU2741",
+  "source:ABU2176",
+  "source:ABU2980",
+  "source:ABU1814",
+  "source:ABU0579",
+  "selection:87bfcbdad5d4e1344fb3f058",
+  "selection:35e691d6d5ac591d65a59c1f",
+  "selection:3d12d0c0d0712fd368d9bdce",
+  "selection:5b0981ddf5617fcbf2f143f9",
+  "selection:47163a8399b3391d2eeb2927",
+  "selection:9dfb39a8c4e955078f447e0b",
+  "selection:d2fa9c192b637439746d4184",
+  "selection:0b9c8ebd7b5d9bffc816f79a",
+  "selection:d992ef350522cd127f8b7c05",
+  "selection:63d6eaa205ac4957823f001a",
+  "selection:fd5c581386d756a7915fa2a9",
+  "selection:607bf5389dca278d3f6f0813",
+  "selection:be7201a4f834dfcc9f47f1bf",
+  "selection:2af90559fa340ea2013e1e97"
+ ],
+ "introduction": "“Immerse yourselves in the ocean of My words, that ye may unravel its secrets.” The guide sets out what such immersion means in practice: which books to begin with, reading the Bible and the Qur’an as well, studying together, memorizing, learning the sciences of the age and relating the teachings to them, and putting what is learned to work in a community. Its companions are the great readers. The Bereans searched daily; the psalmist meditates day and night; Bacon sorts the books to be tasted from those to be digested; Augustine is changed by a sentence; Kant bids us dare to know; Milton thinks disagreement among the eager is knowledge in the making. Its critics come from both sides. Paul says knowledge puffs up and Tertullian wants no Athens in Jerusalem; the Gospel thanks God for what babes receive and the wise miss. From the other side, Mill warns that one who knows only his own case knows little of it, and that truth unexamined becomes dead dogma.",
+ "questions": [
+  "“Knowledge is love”; “knowledge puffeth up, but charity edifieth.” What sort of study would satisfy both sentences?",
+  "Bacon distinguishes books to be tasted from books to be chewed and digested. Which practices in the guide (word by word study, memorizing, reading aloud together) correspond to digestion?",
+  "Mill holds that he who knows only his own side knows little of that. Where do the readings invite study of other scriptures, the sciences and modern thought, and is that the same as what Mill asks?",
+  "Peter and John were “unlearned and ignorant men”; the Qur’an asks whether those who know are equal with those who do not. How does reading 33 sit with the rest of the guide?",
+  "The last reading calls community life a laboratory. What would it mean to treat one’s understanding of a text as something tested there?"
+ ],
+ "outside": [
+  {
+   "id": "acts-bereans",
+   "after": "source:ABU0523",
+   "responds": [
+    "source:ABU0523"
+   ],
+   "relation": "adjacent",
+   "why": "Study the Scriptures “word by word”. The Bereans searched the scriptures daily, whether those things were so."
+  },
+  {
+   "id": "psalm-open-thou-mine-eyes",
+   "after": "source:ABU0523",
+   "responds": [
+    "source:ABU0523"
+   ],
+   "relation": "adjacent",
+   "why": "That you may attain knowledge of the mysteries hidden therein. Open thou mine eyes, that I may behold wondrous things out of thy law."
+  },
+  {
+   "id": "matthew-pearl-of-great-price",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“Immerse yourselves in the ocean of My words” for the pearls in its depths. The merchant seeking goodly pearls finds one of great price and sells all that he has."
+  },
+  {
+   "id": "pope-little-learning",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Pope’s warning to shallow readers has the same water in it: a little learning is a dang’rous thing; drink deep, or taste not the Pierian spring."
+  },
+  {
+   "id": "psalm-delight-in-the-law",
+   "after": "source:BH04482",
+   "responds": [
+    "source:BH04482"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed is he who reads and ponders. His delight is in the law of the Lord; and in his law doth he meditate day and night."
+  },
+  {
+   "id": "quran-increase-me-in-knowledge",
+   "after": "source:AB11282",
+   "responds": [
+    "source:AB11282"
+   ],
+   "relation": "adjacent",
+   "why": "“O thou who art seeking after Knowledge!” The Qur’an gives the seeker a prayer: my Lord! increase me in knowledge."
+  },
+  {
+   "id": "corinthians-knowledge-puffeth-up",
+   "after": "source:AB11557",
+   "responds": [
+    "source:AB11557"
+   ],
+   "relation": "contrast",
+   "why": "“Knowledge is love.” Paul sets them against each other: knowledge puffeth up, but charity edifieth. What kind of knowledge is the reading speaking of, that it can be called love?"
+  },
+  {
+   "id": "luke-good-ground",
+   "after": "source:AB11557",
+   "responds": [
+    "source:AB11557"
+   ],
+   "relation": "adjacent",
+   "why": "“The soil must be fertilized before the seed can be sown.” The seed that bears fruit falls on good ground: an honest and good heart, which keeps the word."
+  },
+  {
+   "id": "isaiah-line-upon-line",
+   "after": "source:ABU2795",
+   "responds": [
+    "source:ABU2795"
+   ],
+   "relation": "adjacent",
+   "why": "A new pupil understands nothing and learns by persisting. Precept upon precept; line upon line; here a little, and there a little."
+  },
+  {
+   "id": "bacon-studies-serve-for-delight",
+   "after": "source:AB00740",
+   "responds": [
+    "source:AB00740"
+   ],
+   "relation": "adjacent",
+   "why": "Asked how to acquire knowledge, ‘Abdu’l-Bahá gives a reading list. Bacon says what reading is for: studies serve for delight, for ornament, and for ability."
+  },
+  {
+   "id": "bacon-weigh-and-consider",
+   "after": "source:ABU2171",
+   "responds": [
+    "source:ABU2171"
+   ],
+   "relation": "adjacent",
+   "why": "Among so many books, some are named as fundamental. Bacon’s sorting: some books are to be tasted, others to be swallowed, and some few to be chewed and digested."
+  },
+  {
+   "id": "romans-renewing-of-your-mind",
+   "after": "source:ABU1787",
+   "responds": [
+    "source:ABU1787"
+   ],
+   "relation": "adjacent",
+   "why": "Read and study, “then thou wilt become spiritual, illumined”. Be ye transformed by the renewing of your mind."
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:ABU0791",
+   "responds": [
+    "source:ABU0791"
+   ],
+   "relation": "adjacent",
+   "why": "“They must always read the holy books.” Israel is to talk of the words sitting in the house and walking by the way, lying down and rising up."
+  },
+  {
+   "id": "romans-written-for-our-learning",
+   "after": "source:ABU3243",
+   "responds": [
+    "source:ABU3243"
+   ],
+   "relation": "adjacent",
+   "why": "It is a duty to read both Testaments. Whatsoever things were written aforetime were written for our learning."
+  },
+  {
+   "id": "keats-watcher-of-the-skies",
+   "after": "source:ABU1242",
+   "responds": [
+    "source:ABU1242"
+   ],
+   "relation": "adjacent",
+   "why": "Two years of confinement gave time to read the Qur’an through “with fervor”. Keats on a first real reading: then felt I like some watcher of the skies when a new planet swims into his ken."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:AB01840",
+   "responds": [
+    "source:AB01840"
+   ],
+   "relation": "adjacent",
+   "why": "Youth are to unravel mysteries and inform themselves of the evidences. Kant’s motto of enlightenment: dare to know; have courage to use your own understanding."
+  },
+  {
+   "id": "peter-reason-of-the-hope",
+   "after": "source:AB08514",
+   "responds": [
+    "source:AB08514"
+   ],
+   "relation": "adjacent",
+   "why": "He studies “that thou mayest present proof and evidence to others”. Be ready always to give an answer to every man that asketh you a reason of the hope that is in you."
+  },
+  {
+   "id": "proverbs-iron-sharpeneth-iron",
+   "after": "source:ABU0638",
+   "responds": [
+    "source:ABU0638"
+   ],
+   "relation": "adjacent",
+   "why": "When believers meet, let them review the proofs together. Iron sharpeneth iron; so a man sharpeneth the countenance of his friend."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:ABU0638",
+   "responds": [
+    "source:ABU0638"
+   ],
+   "relation": "contrast",
+   "why": "The gathering reviews the proofs that uphold the Cause. Mill: he who knows only his own side of the case, knows little of that. Where in the guide are students asked to know the other side?"
+  },
+  {
+   "id": "matthew-mysteries-of-the-kingdom",
+   "after": "source:ABU1175",
+   "responds": [
+    "source:ABU1175"
+   ],
+   "relation": "adjacent",
+   "why": "“Unto you it has been given to know.” Jesus to his disciples: it is given unto you to know the mysteries of the kingdom of heaven."
+  },
+  {
+   "id": "luke-opened-their-understanding",
+   "after": "source:ABU2465",
+   "responds": [
+    "source:ABU2465"
+   ],
+   "relation": "adjacent",
+   "why": "We must endeavour to understand the mysteries of the holy books. Then opened he their understanding, that they might understand the scriptures."
+  },
+  {
+   "id": "psalm-thy-word-have-i-hid",
+   "after": "source:ABU2419",
+   "responds": [
+    "source:ABU2419"
+   ],
+   "relation": "adjacent",
+   "why": "Make them learn some verses by heart. Thy word have I hid in mine heart."
+  },
+  {
+   "id": "exodus-put-off-thy-shoes",
+   "after": "source:AB07821",
+   "responds": [
+    "source:AB07821"
+   ],
+   "relation": "adjacent",
+   "why": "Enter the gathering with purity and humility. Put off thy shoes from off thy feet, for the place whereon thou standest is holy ground."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:BH00443",
+   "responds": [
+    "source:BH00443"
+   ],
+   "relation": "adjacent",
+   "why": "“The verses kindle the fire of love.” Did not our heart burn within us, while he opened to us the scriptures?"
+  },
+  {
+   "id": "colossians-psalms-and-hymns",
+   "after": "source:AB09121",
+   "responds": [
+    "source:AB09121"
+   ],
+   "relation": "adjacent",
+   "why": "In the meeting they teach, pray, read and exhort. Teaching and admonishing one another in psalms and hymns and spiritual songs."
+  },
+  {
+   "id": "nehemiah-gave-the-sense",
+   "after": "source:BH06233",
+   "responds": [
+    "source:BH06233"
+   ],
+   "relation": "adjacent",
+   "why": "“Take thou the Book … then read it unto those multitudes.” Ezra’s readers read in the book distinctly, and gave the sense."
+  },
+  {
+   "id": "hebrews-provoke-unto-love",
+   "after": "source:BH09972",
+   "responds": [
+    "source:BH09972"
+   ],
+   "relation": "adjacent",
+   "why": "Remind the friends of the counsels. Let us consider one another to provoke unto love and to good works."
+  },
+  {
+   "id": "plato-wonder-beginning-of-philosophy",
+   "after": "source:AB11513",
+   "responds": [
+    "source:AB11513"
+   ],
+   "relation": "adjacent",
+   "why": "A student is wished the study of “the meanings of realities”. Socrates: wonder is the feeling of a philosopher, and philosophy begins in wonder."
+  },
+  {
+   "id": "proverbs-wisdom-is-the-principal-thing",
+   "after": "source:AB02124",
+   "responds": [
+    "source:AB02124"
+   ],
+   "relation": "adjacent",
+   "why": "Strive to the utmost in acquiring sciences and arts. Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:ABU2741",
+   "responds": [
+    "source:ABU2741"
+   ],
+   "relation": "adjacent",
+   "why": "Be fully informed of the Teachings, and of science or arts or literature. Reading maketh a full man; conference a ready man; and writing an exact man."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "There are illiterate people “able to guide wise and learned men”. The council perceived that Peter and John were unlearned and ignorant men, and took knowledge of them, that they had been with Jesus."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "adjacent",
+   "why": "Thou hast hid these things from the wise and prudent, and hast revealed them unto babes."
+  },
+  {
+   "id": "quran-those-who-know",
+   "after": "source:ABU2176",
+   "responds": [
+    "source:ABU2176"
+   ],
+   "relation": "contrast",
+   "why": "The Qur’an asks: are those who know equal with those who know not? Most of this guide urges study; this reading honours the unlettered. What is each protecting?"
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:ABU1814",
+   "responds": [
+    "source:ABU1814"
+   ],
+   "relation": "adjacent",
+   "why": "Study, so that “in deed and truth” you become what you are called. Be ye doers of the word, and not hearers only."
+  },
+  {
+   "id": "avot-not-study-but-actions",
+   "after": "source:ABU0579",
+   "responds": [
+    "source:ABU0579"
+   ],
+   "relation": "adjacent",
+   "why": "Read the Tablets, “and act”. The rabbis: not study is the chief thing, but action."
+  },
+  {
+   "id": "augustine-take-up-and-read",
+   "after": "selection:87bfcbdad5d4e1344fb3f058",
+   "responds": [
+    "selection:87bfcbdad5d4e1344fb3f058"
+   ],
+   "relation": "adjacent",
+   "why": "Read with selflessness and care, “and you will discover truths unknown to you before”. Augustine took up the book, read one sentence, and a light of certainty was poured into his heart."
+  },
+  {
+   "id": "milton-knowledge-in-the-making",
+   "after": "selection:35e691d6d5ac591d65a59c1f",
+   "responds": [
+    "selection:35e691d6d5ac591d65a59c1f"
+   ],
+   "relation": "adjacent",
+   "why": "“There is no limit to the study of the Cause.” Milton: where there is much desire to learn, there of necessity will be much arguing, much writing, many opinions; for opinion in good men is but knowledge in the making."
+  },
+  {
+   "id": "milton-heretic-in-the-truth",
+   "after": "selection:3d12d0c0d0712fd368d9bdce",
+   "responds": [
+    "selection:3d12d0c0d0712fd368d9bdce"
+   ],
+   "relation": "complement",
+   "why": "Prove points by the actual words, yet with freedom of expression. Milton warns that a man may be a heretic in the truth, if he believes things only because his pastor says so. How does constant quotation stay one’s own understanding?"
+  },
+  {
+   "id": "browne-two-books",
+   "after": "selection:5b0981ddf5617fcbf2f143f9",
+   "responds": [
+    "selection:5b0981ddf5617fcbf2f143f9"
+   ],
+   "relation": "adjacent",
+   "why": "Students are to correlate the principles of the Faith with modern thought. Sir Thomas Browne had two books from which he collected his divinity: the written one of God, and that universal manuscript, nature."
+  },
+  {
+   "id": "tertullian-athens-and-jerusalem",
+   "after": "selection:47163a8399b3391d2eeb2927",
+   "responds": [
+    "selection:47163a8399b3391d2eeb2927"
+   ],
+   "relation": "contrast",
+   "why": "Should believers know the sciences? Tertullian asked what Athens has to do with Jerusalem, and wanted no curious disputation after Christ. The reading answers him flatly. On what grounds?"
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "selection:9dfb39a8c4e955078f447e0b",
+   "responds": [
+    "selection:9dfb39a8c4e955078f447e0b"
+   ],
+   "relation": "adjacent",
+   "why": "Young Bahá’ís should be well grounded. From a child thou hast known the holy scriptures, which are able to make thee wise."
+  },
+  {
+   "id": "jeremiah-thy-words-were-found",
+   "after": "selection:d2fa9c192b637439746d4184",
+   "responds": [
+    "selection:d2fa9c192b637439746d4184"
+   ],
+   "relation": "adjacent",
+   "why": "Every breast that commits His Words to memory shall be filled. Thy words were found, and I did eat them; and thy word was unto me the joy and rejoicing of mine heart."
+  },
+  {
+   "id": "luke-mary-kept-all-these-things",
+   "after": "selection:0b9c8ebd7b5d9bffc816f79a",
+   "responds": [
+    "selection:0b9c8ebd7b5d9bffc816f79a"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’ís “can and should meditate upon the significances”. Mary kept all these things, and pondered them in her heart."
+  },
+  {
+   "id": "analects-pleasant-to-learn",
+   "after": "selection:d992ef350522cd127f8b7c05",
+   "responds": [
+    "selection:d992ef350522cd127f8b7c05"
+   ],
+   "relation": "adjacent",
+   "why": "To understand more adequately is “the first obligation”. The Analects open: is it not pleasant to learn with a constant perseverance and application?"
+  },
+  {
+   "id": "plato-unexamined-life",
+   "after": "selection:63d6eaa205ac4957823f001a",
+   "responds": [
+    "selection:63d6eaa205ac4957823f001a"
+   ],
+   "relation": "adjacent",
+   "why": "The reading is a list of questions. Socrates: the unexamined life is not worth living."
+  },
+  {
+   "id": "mill-dead-dogma",
+   "after": "selection:fd5c581386d756a7915fa2a9",
+   "responds": [
+    "selection:fd5c581386d756a7915fa2a9"
+   ],
+   "relation": "adjacent",
+   "why": "A firmer grasp of essential verities, a deeper study of history. Mill: however true an opinion may be, if it is not fully, frequently and fearlessly discussed, it will be held as a dead dogma, not a living truth."
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "selection:607bf5389dca278d3f6f0813",
+   "responds": [
+    "selection:607bf5389dca278d3f6f0813"
+   ],
+   "relation": "contrast",
+   "why": "A profound study of history, principles, Covenant, Will. The Preacher: of making many books there is no end; and much study is a weariness of the flesh. What keeps a syllabus like this from wearying?"
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "selection:be7201a4f834dfcc9f47f1bf",
+   "responds": [
+    "selection:be7201a4f834dfcc9f47f1bf"
+   ],
+   "relation": "adjacent",
+   "why": "Peace of mind comes from study centred on the Prophet of God. Ye shall know the truth, and the truth shall make you free."
+  },
+  {
+   "id": "matthew-house-on-the-rock",
+   "after": "selection:2af90559fa340ea2013e1e97",
+   "responds": [
+    "selection:2af90559fa340ea2013e1e97"
+   ],
+   "relation": "adjacent",
+   "why": "Community life is “an indispensable laboratory” for turning principles into action. The wise man is the one who hears these sayings and does them."
+  },
+  {
+   "id": "ecclesiastes-two-are-better-than-one",
+   "after": "selection:2af90559fa340ea2013e1e97",
+   "responds": [
+    "selection:2af90559fa340ea2013e1e97"
+   ],
+   "relation": "adjacent",
+   "why": "And it is done with others. Two are better than one; because they have a good reward for their labour."
+  }
+ ],
+ "library": {}
+}
