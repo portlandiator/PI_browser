@@ -1,0 +1,132 @@
+{
+ "format": 2,
+ "slug": "similitudes",
+ "subject": "4B07E7C749314DBEB8C4158C26A02453",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:AB00482",
+  "source:ABU0033",
+  "source:ABU0114",
+  "source:BH00135",
+  "source:AB02947",
+  "selection:b2ee1f9e6a9f19582643581a",
+  "selection:22f5c61d0ee4a4de967ba99b",
+  "selection:95201194d6ac7e2d40832c7f",
+  "selection:5cd132f24b8b5efefe8a08e0",
+  "selection:f80aa6302b3d0e013b0ffb26",
+  "selection:b789b720720083c3d7ffa8c1"
+ ],
+ "introduction": "The guide begins with a claim about prophetic vision, that it is disclosure and not dreaming, moves through ‘Abdu’l-Bahá’s reflections on sleep, where one sees without eyes and travels without feet, and arrives at a term of Islamic philosophy: the ‘álam-i-mithál, a world of images or similitudes standing between the material and the purely spiritual. Its later readings are scholars’ accounts of that idea. The Bible has the experiences without the theory: Isaiah’s throne, Jacob’s ladder, Pharaoh’s kine, Paul caught up he knows not how; and it has, in Numbers and Hebrews, the beginnings of a ranking of visions and a doctrine of earthly shadows. Plato and Emerson stand near the theory. Aristotle, Hobbes and Prospero look at the same dreams and see coincidence, self-report, and the insubstantiality of everything.",
+ "questions": [
+  "Numbers distinguishes vision and dream from speech “mouth to mouth”. How does reading 1 distinguish the visions of the Prophets from ordinary dreams?",
+  "Reading 3 argues from dreaming to powers of the spirit that need no bodily instrument. How strong is the argument against Aristotle’s “coincidence”?",
+  "Plato has two worlds; the readings have three. What work does an intermediate world of images do that two worlds cannot?",
+  "Prospero says we are such stuff as dreams are made on. Is that a rival conclusion from the experience the readings describe, or a different point?"
+ ],
+ "outside": [
+  {
+   "id": "isaiah-saw-the-lord",
+   "after": "source:AB00482",
+   "responds": [
+    "source:AB00482"
+   ],
+   "relation": "adjacent",
+   "why": "“The visions of the Prophets are not dreams but true spiritual disclosures.” Isaiah dates his: in the year that king Uzziah died I saw the Lord sitting upon a throne, high and lifted up."
+  },
+  {
+   "id": "numbers-mouth-to-mouth",
+   "after": "source:AB00482",
+   "responds": [
+    "source:AB00482"
+   ],
+   "relation": "adjacent",
+   "why": "Scripture itself ranks the kinds: to a prophet I speak in a vision or a dream; with Moses mouth to mouth, even apparently, and not in dark speeches."
+  },
+  {
+   "id": "corinthians-caught-up-to-the-third-heaven",
+   "after": "source:ABU0114",
+   "responds": [
+    "source:ABU0114"
+   ],
+   "relation": "adjacent",
+   "why": "In dreams one “sees without eyes … and travels without moving the feet”. Paul of his own experience: whether in the body, or out of the body, I cannot tell: God knoweth."
+  },
+  {
+   "id": "aristotle-dreams-mere-coincidences",
+   "after": "source:ABU0114",
+   "responds": [
+    "source:ABU0114"
+   ],
+   "relation": "contrast",
+   "why": "Aristotle examined dreams that seem to foretell and concluded that most are mere coincidences, like a man’s mention of a friend just before he appears. The reading takes the dream as evidence of powers that need no body. What would Aristotle ask to be shown?"
+  },
+  {
+   "id": "shakespeare-revels-ended",
+   "after": "source:BH00135",
+   "responds": [
+    "source:BH00135"
+   ],
+   "relation": "complement",
+   "why": "A realm without first or last, seen in sleep. Prospero draws the opposite moral from the same likeness: we are such stuff as dreams are made on, and our little life is rounded with a sleep. Does the dream show another world, or show this one to be as insubstantial?"
+  },
+  {
+   "id": "genesis-jacobs-ladder",
+   "after": "selection:b2ee1f9e6a9f19582643581a",
+   "responds": [
+    "selection:b2ee1f9e6a9f19582643581a"
+   ],
+   "relation": "adjacent",
+   "why": "In meditation a spiritual state becomes visible. Jacob, asleep on a stone, saw a ladder set up on the earth whose top reached to heaven, and the angels of God ascending and descending on it."
+  },
+  {
+   "id": "hebrews-shadow-of-heavenly-things",
+   "after": "selection:22f5c61d0ee4a4de967ba99b",
+   "responds": [
+    "selection:22f5c61d0ee4a4de967ba99b"
+   ],
+   "relation": "adjacent",
+   "why": "The world of similitudes lies between the realm above and this one. Hebrews says of the earthly sanctuary that it serves unto the example and shadow of heavenly things."
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "selection:95201194d6ac7e2d40832c7f",
+   "responds": [
+    "selection:95201194d6ac7e2d40832c7f"
+   ],
+   "relation": "complement",
+   "why": "An intermediate domain between the sensible and the purely spiritual. Plato divided what always is from what is always becoming, and left the two to be joined by likeness. Why did the later tradition feel the need of a third world between them?"
+  },
+  {
+   "id": "emerson-every-natural-fact",
+   "after": "selection:5cd132f24b8b5efefe8a08e0",
+   "responds": [
+    "selection:5cd132f24b8b5efefe8a08e0"
+   ],
+   "relation": "adjacent",
+   "why": "A universe with “an affinity with material substance” and with the intelligible. Emerson: every natural fact is a symbol of some spiritual fact."
+  },
+  {
+   "id": "genesis-seven-good-kine-are-seven-years",
+   "after": "selection:b789b720720083c3d7ffa8c1",
+   "responds": [
+    "selection:b789b720720083c3d7ffa8c1"
+   ],
+   "relation": "adjacent",
+   "why": "The world of images appears undeformed in the veridical dream. Joseph to Pharaoh: the seven good kine are seven years; the dream is one; God hath shewed Pharaoh what he is about to do."
+  },
+  {
+   "id": "hobbes-dreamed-that-god-spake",
+   "after": "selection:b789b720720083c3d7ffa8c1",
+   "responds": [
+    "selection:b789b720720083c3d7ffa8c1"
+   ],
+   "relation": "contrast",
+   "why": "Hobbes: to say that God hath spoken to him in a dream is no more than to say he dreamed that God spake to him. How does one tell the veridical dream from the other kind before it comes true?"
+  }
+ ],
+ "library": {}
+}
