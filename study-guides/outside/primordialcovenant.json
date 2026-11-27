@@ -1,0 +1,347 @@
+{
+ "format": 2,
+ "slug": "primordialcovenant",
+ "subject": "32700D0B9FBB474CA2DF2E334114BC5B",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 25,
+ "quotations": 26,
+ "kept": [
+  "source:BH00113",
+  "source:AB06228",
+  "source:AB05701",
+  "source:BB00366",
+  "source:AB02860",
+  "source:AB09428",
+  "source:BH00007",
+  "source:BH00853",
+  "source:BH06933",
+  "source:AB04250",
+  "source:BH00002",
+  "source:AB01184",
+  "source:AB03257",
+  "source:AB00121",
+  "source:AB09643",
+  "source:AB11387",
+  "source:AB06301",
+  "source:AB02854",
+  "source:AB06500",
+  "source:AB10642",
+  "source:AB07242",
+  "source:AB10346",
+  "source:BH10503",
+  "source:BB00004",
+  "selection:6c9c7418efe6847766cd7b40"
+ ],
+ "introduction": "“Am I not your Lord?” The Qur’an sets the question before time, when the seed of Adam were drawn out and answered “Yea.” These readings take the scene three ways: as a morning we have forgotten; as something that happens again whenever a Messenger appears and people must answer; and as the first link in a chain, each Prophet binding his people to recognize the next. Then they turn practical: the Covenant is what makes a community hold together and act. Israel answered at Sinai for those present and those “not here with us this day”; Paul speaks of a choosing before the foundation of the world and of a law written in the hearts of nations that never heard it; Wordsworth and Plato each have a doctrine of what the soul brings with it and forgets. Locke’s white paper is the plain denial. The companions to the chain of promise are the pledges themselves: a prophet like Moses, Elijah to come, another Comforter.",
+ "questions": [
+  "Wordsworth says we come “not in entire forgetfulness”; Locke says the mind begins as white paper. What in ordinary experience might each appeal to, and which does reading 1 need?",
+  "Reading 4 argues that the question “Am I not your Lord?” presupposes free choice. How can a person be bound by an answer given before he or she can remember?",
+  "Moses makes the covenant “also with him that is not here”. How does reading 3, which identifies the Day of the covenant with each Day of Manifestation, change what a primordial covenant means?",
+  "Paul’s “law written in their hearts” is conscience. Is the covenant of these readings the same thing as conscience, or something added to it?",
+  "The last reading calls the Covenant the instrument that turns belief into constructive deeds. Why should remembering a promise be what makes common action possible?"
+ ],
+ "outside": [
+  {
+   "id": "quran-am-i-not-your-lord",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "“Have ye forgotten that true and radiant morn?” The reading alludes to this verse: when thy Lord brought forth from the children of Adam their seed and made them testify of themselves, saying: Am I not your Lord? They said: Yea, verily."
+  },
+  {
+   "id": "wordsworth-clouds-of-glory",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "Wordsworth’s account of what the soul has forgotten: our birth is but a sleep and a forgetting; not in entire forgetfulness, but trailing clouds of glory do we come."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "contrast",
+   "why": "Locke supposed the mind at birth to be white paper, void of all characters, furnished only by experience. On his view there was no morning to forget. What kind of evidence could decide between him and the reading?"
+  },
+  {
+   "id": "hosea-transgressed-the-covenant",
+   "after": "source:AB06228",
+   "responds": [
+    "source:AB06228"
+   ],
+   "relation": "adjacent",
+   "why": "The covenant was universal, “and yet all forgot it, save for a handful”. Hosea: but they like men have transgressed the covenant."
+  },
+  {
+   "id": "matthew-strait-gate",
+   "after": "source:AB06228",
+   "responds": [
+    "source:AB06228"
+   ],
+   "relation": "adjacent",
+   "why": "The handful who remember are “more scarce than the philosopher’s stone”. Strait is the gate, and narrow is the way, and few there be that find it."
+  },
+  {
+   "id": "deuteronomy-him-that-is-not-here",
+   "after": "source:AB05701",
+   "responds": [
+    "source:AB05701"
+   ],
+   "relation": "adjacent",
+   "why": "“The Day of ‘Am I not?’ is the Day of Manifestation”: the covenant is made again in each age. Moses makes Israel’s covenant with those present and also with him that is not here with us this day."
+  },
+  {
+   "id": "deuteronomy-choose-life",
+   "after": "source:BB00366",
+   "responds": [
+    "source:BB00366"
+   ],
+   "relation": "adjacent",
+   "why": "The question “falls only upon one who has choice”. I have set before you life and death, blessing and cursing: therefore choose life."
+  },
+  {
+   "id": "quran-offered-the-trust",
+   "after": "source:BB00366",
+   "responds": [
+    "source:BB00366"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an’s other image of a primal acceptance: We offered the trust unto the heavens and the earth and the hills, but they shrank from bearing it; and man assumed it."
+  },
+  {
+   "id": "exodus-all-that-the-lord-hath-said",
+   "after": "source:AB02860",
+   "responds": [
+    "source:AB02860"
+   ],
+   "relation": "adjacent",
+   "why": "You “raised the cry of ‘yea’”. Israel at Sinai, hearing the book of the covenant read: all that the Lord hath said will we do, and be obedient."
+  },
+  {
+   "id": "isaiah-here-am-i",
+   "after": "source:AB02860",
+   "responds": [
+    "source:AB02860"
+   ],
+   "relation": "adjacent",
+   "why": "And chanted “here am I”. Isaiah’s answer in the temple: here am I; send me."
+  },
+  {
+   "id": "ecclesiastes-eternity-in-their-heart",
+   "after": "source:AB09428",
+   "responds": [
+    "source:AB09428"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer of thanks for existence and for ears to hear the call. The Preacher: he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end."
+  },
+  {
+   "id": "ephesians-before-the-foundation",
+   "after": "source:BH00007",
+   "responds": [
+    "source:BH00007"
+   ],
+   "relation": "adjacent",
+   "why": "What was covenanted “before the foundation” of the world. Paul: he hath chosen us in him before the foundation of the world."
+  },
+  {
+   "id": "quran-covenant-of-the-prophets",
+   "after": "source:BH00853",
+   "responds": [
+    "source:BH00853"
+   ],
+   "relation": "adjacent",
+   "why": "A covenant taken in each dispensation in turn. The Qur’an: when God made His covenant with the Prophets, that when a messenger comes confirming what ye possess, ye shall believe in him and help him."
+  },
+  {
+   "id": "romans-a-law-unto-themselves",
+   "after": "source:BH06933",
+   "responds": [
+    "source:BH06933"
+   ],
+   "relation": "complement",
+   "why": "The covenant was taken “through the tongues of those Whom We sent”. Paul says the nations without the law show the work of the law written in their hearts, their conscience bearing witness. Is the primordial covenant a memory, a conscience, or a message heard?"
+  },
+  {
+   "id": "deuteronomy-prophet-like-unto-thee",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Every Prophet has foretold another to come after. Moses: I will raise them up a Prophet from among their brethren, like unto thee, and will put my words in his mouth."
+  },
+  {
+   "id": "malachi-send-you-elijah",
+   "after": "source:AB01184",
+   "responds": [
+    "source:AB01184"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham covenanted concerning Moses, Moses concerning the next. The Hebrew prophets end on such a pledge: behold, I will send you Elijah the prophet."
+  },
+  {
+   "id": "john-another-comforter",
+   "after": "source:AB01184",
+   "responds": [
+    "source:AB01184"
+   ],
+   "relation": "adjacent",
+   "why": "And Jesus leaves one: I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever."
+  },
+  {
+   "id": "genesis-my-bow-in-the-cloud",
+   "after": "source:AB03257",
+   "responds": [
+    "source:AB03257"
+   ],
+   "relation": "adjacent",
+   "why": "In every mission God enters a covenant with all believers. The first covenant of Genesis is with every living creature, and its token is the bow in the cloud."
+  },
+  {
+   "id": "jeremiah-law-in-their-inward-parts",
+   "after": "source:AB00121",
+   "responds": [
+    "source:AB00121"
+   ],
+   "relation": "adjacent",
+   "why": "“The lamp of the Covenant is the light of the world.” Jeremiah’s new covenant: I will put my law in their inward parts, and write it in their hearts."
+  },
+  {
+   "id": "hebrews-mediator-of-a-better-covenant",
+   "after": "source:AB09643",
+   "responds": [
+    "source:AB09643"
+   ],
+   "relation": "adjacent",
+   "why": "A covenant recalled from Mount Paran and renewed in the Holy Land. Hebrews speaks of a mediator of a better covenant, established upon better promises."
+  },
+  {
+   "id": "psalm-from-everlasting",
+   "after": "source:AB06301",
+   "responds": [
+    "source:AB06301"
+   ],
+   "relation": "adjacent",
+   "why": "A covenant from the day of “Am I not?” to the endless evening. From everlasting to everlasting, thou art God."
+  },
+  {
+   "id": "matthew-this-is-my-body",
+   "after": "source:AB10642",
+   "responds": [
+    "source:AB10642"
+   ],
+   "relation": "adjacent",
+   "why": "“The brimming cup of the Covenant.” Jesus took the cup: this is my blood of the new testament, which is shed for many."
+  },
+  {
+   "id": "plato-soul-born-many-times",
+   "after": "source:AB10346",
+   "responds": [
+    "source:AB10346"
+   ],
+   "relation": "complement",
+   "why": "Tell of “the trust of the Primordial Day”. Plato’s Socrates holds that the soul has seen all things and that learning is recollection. He draws from it a duty to inquire; the readings draw a duty to be faithful. What does each make of the same intuition?"
+  },
+  {
+   "id": "joshua-choose-you-this-day",
+   "after": "source:BB00004",
+   "responds": [
+    "source:BB00004"
+   ],
+   "relation": "adjacent",
+   "why": "He will gather you and bring you before Him. Joshua’s assembly at Shechem is such a gathering, held to renew a choice: choose you this day whom ye will serve."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "selection:6c9c7418efe6847766cd7b40",
+   "responds": [
+    "selection:6c9c7418efe6847766cd7b40"
+   ],
+   "relation": "adjacent",
+   "why": "The Covenant is the instrument by which belief “is translated into constructive deeds”. Be ye doers of the word, and not hearers only."
+  }
+ ],
+ "shortfall": "Several readings are brief exhortations to firmness in the Covenant whose thought the companions of their neighbours already answer; none was added for them.",
+ "library": {
+  "deuteronomy-him-that-is-not-here": {
+   "text": "Neither with you only do I make this covenant and this oath; But with him that standeth here with us this day before the Lord our God, and also with him that is not here with us this day",
+   "work": "Deuteronomy 29:14–15",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2029%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-all-that-the-lord-hath-said": {
+   "text": "And he took the book of the covenant, and read in the audience of the people: and they said, All that the Lord hath said will we do, and be obedient",
+   "work": "Exodus 24:7",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2024%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ephesians-before-the-foundation": {
+   "text": "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love",
+   "work": "Ephesians 1:4",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ephesians%201%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
