@@ -1,0 +1,306 @@
+{
+ "format": 2,
+ "slug": "imamate",
+ "subject": "A545543411D4E74FDD22583EED5DCD87",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 48,
+ "quotations": 52,
+ "kept": [
+  "source:AB00005",
+  "source:AB11351",
+  "source:BB00010",
+  "source:BB00002",
+  "source:AB08296",
+  "source:ABU2564",
+  "source:AB02537",
+  "source:BBU0012",
+  "source:BB00137",
+  "source:BB00004",
+  "source:BB00677",
+  "source:BB00102",
+  "source:BB00288",
+  "source:BB00521",
+  "source:BB00344",
+  "source:BB00006",
+  "source:BB00014",
+  "source:BH10009",
+  "source:BB00461",
+  "source:BB00090",
+  "source:BB00159",
+  "source:BB00061",
+  "source:AB01067",
+  "source:BB00075",
+  "source:BB00072",
+  "source:BB00307",
+  "source:BB00174",
+  "source:BB00216",
+  "source:BB00134",
+  "source:BB00332",
+  "source:BB00404",
+  "source:BB00386",
+  "source:BB00449",
+  "source:BB00450",
+  "source:BB00438",
+  "source:BB00530",
+  "source:BB00149",
+  "source:BB00493",
+  "source:BB00171",
+  "source:BB00025",
+  "source:ABU2650",
+  "source:AB01034",
+  "source:BB00068",
+  "source:AB04093",
+  "source:BB00001",
+  "source:BB00320",
+  "source:BB00415",
+  "source:BB00514"
+ ],
+ "introduction": "The guide gathers Bábí and Bahá’í texts on the question that divided Islam at its Prophet’s death: who interprets the Book and leads the community. Its first reading states a position: had ‘Alí, “the Interpreter of the Book”, been heeded and the words “Sufficient unto us is the Book of God” not been spoken, the later divisions would not have come. The rest distinguishes the Prophet’s revelation from the Imams’ inspiration, testifies to the Twelve in the devotional language of the Báb’s early writings, reads them into the twelve stars of the Apocalypse, and looks toward their “return”. Other communities know every piece of this. Joshua is commissioned before the congregation, Peter is given keys, a vacancy among the apostles is filled by lot, the rabbis recite a chain of custody, and Israel asks Samuel for a king. Jeremiah’s hope that none will need a teacher, and Paul’s “one mediator”, speak for the many who have thought a book and a direct approach to God enough.",
+ "questions": [
+  "“How can I, except some man should guide me?” and “they shall teach no more every man his neighbour”. What is the case for an authorized interpreter, and what is the case against?",
+  "Numbers distinguishes Moses, who hears “mouth to mouth”, from prophets who dream. How does reading 2 distinguish revelation from inspiration, and why does the difference matter for the Imams’ authority?",
+  "Joshua was designated, Matthias chosen by lot, Saul demanded by the people. How should one think about the Sunni and Shí‘ih accounts of succession in the light of these?",
+  "Peter says “I myself also am a man”; reading 19 asks that the Imams be sanctified above created attributes. Where does veneration of holy persons find its limit in each tradition?",
+  "Elijah’s return was fulfilled, Jesus said, in John. How do readings 44 and 45 use the same idea?"
+ ],
+ "outside": [
+  {
+   "id": "acts-understandest-thou",
+   "after": "source:AB00005",
+   "responds": [
+    "source:AB00005"
+   ],
+   "relation": "adjacent",
+   "why": "Had the Interpreter of the Book been heeded, the reading says, the divisions would not have arisen. The Ethiopian reading Isaiah: how can I understand, except some man should guide me?"
+  },
+  {
+   "id": "jeremiah-law-in-their-inward-parts",
+   "after": "source:AB00005",
+   "responds": [
+    "source:AB00005"
+   ],
+   "relation": "contrast",
+   "why": "Jeremiah looks to a day when they shall teach no more every man his neighbour, for all shall know. “The Book of God is sufficient” has been the cry of many reformers since. What do the readings say a book cannot do for itself?"
+  },
+  {
+   "id": "numbers-mouth-to-mouth",
+   "after": "source:AB11351",
+   "responds": [
+    "source:AB11351"
+   ],
+   "relation": "adjacent",
+   "why": "The Imams were recipients of inspiration; revelation was the Prophet’s alone. Numbers makes the same kind of distinction: to a prophet I speak in a vision or a dream; with Moses I speak mouth to mouth."
+  },
+  {
+   "id": "ephesians-unto-a-perfect-man",
+   "after": "source:BB00010",
+   "responds": [
+    "source:BB00010"
+   ],
+   "relation": "adjacent",
+   "why": "“The Imamate is the reins of religion.” Paul’s account of why offices are given: apostles, prophets, pastors and teachers, for the perfecting of the saints, till we all come in the unity of the faith."
+  },
+  {
+   "id": "numbers-take-thee-joshua",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "A covenant taken “regarding the successorship of His friend”. Moses lays his hands on Joshua before all the congregation."
+  },
+  {
+   "id": "matthew-upon-this-rock",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Christian parallel has been as disputed as this one: thou art Peter, and upon this rock I will build my church; and I will give unto thee the keys."
+  },
+  {
+   "id": "matthew-though-i-should-die-with-thee",
+   "after": "source:AB08296",
+   "responds": [
+    "source:AB08296"
+   ],
+   "relation": "adjacent",
+   "why": "At Ghadír even ‘Umar hailed ‘Alí as his lord. Peter: though I should die with thee, yet will I not deny thee. Likewise also said all the disciples."
+  },
+  {
+   "id": "acts-the-lot-fell-upon-matthias",
+   "after": "source:ABU2564",
+   "responds": [
+    "source:ABU2564"
+   ],
+   "relation": "complement",
+   "why": "The Caliphate was argued from a single word in a verse. The apostles filled a vacancy by prayer and the casting of lots. Communities have chosen leaders by designation, by election, by lot, by descent. What does each method assume about where authority comes from?"
+  },
+  {
+   "id": "samuel-manner-of-the-king",
+   "after": "source:ABU2564",
+   "responds": [
+    "source:ABU2564"
+   ],
+   "relation": "contrast",
+   "why": "When Israel asked for a king like the nations, Samuel warned what a ruler chosen by the people’s wish would take from them. The Sunni tradition honours the community’s choice; the readings mourn it. What can be said for each?"
+  },
+  {
+   "id": "john-art-thou-elias",
+   "after": "source:BBU0012",
+   "responds": [
+    "source:BBU0012"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb refuses to be regarded as representative or gate of the Imam. John the Baptist, asked if he is Elias or that prophet: I am not."
+  },
+  {
+   "id": "revelation-twelve-gates",
+   "after": "source:BB00137",
+   "responds": [
+    "source:BB00137"
+   ],
+   "relation": "adjacent",
+   "why": "Twelve successors, “twelve souls in the Book of God”. John’s city has twelve gates with the names of the twelve tribes, and twelve foundations with the names of the twelve apostles."
+  },
+  {
+   "id": "hebrews-obey-them-that-have-the-rule",
+   "after": "source:BB00521",
+   "responds": [
+    "source:BB00521"
+   ],
+   "relation": "adjacent",
+   "why": "The Imams as guardians, custodians and interpreters. Obey them that have the rule over you: for they watch for your souls."
+  },
+  {
+   "id": "james-faith-without-works",
+   "after": "source:BB00344",
+   "responds": [
+    "source:BB00344"
+   ],
+   "relation": "adjacent",
+   "why": "The confession of unity saves “with its condition”. Faith, if it hath not works, is dead, being alone."
+  },
+  {
+   "id": "proverbs-possessed-me-in-the-beginning",
+   "after": "source:BH10009",
+   "responds": [
+    "source:BH10009"
+   ],
+   "relation": "adjacent",
+   "why": "The Imams received their portion “before creation itself”. Wisdom in Proverbs: the Lord possessed me in the beginning of his way, before his works of old."
+  },
+  {
+   "id": "acts-stand-up-i-myself-also-am-a-man",
+   "after": "source:BB00461",
+   "responds": [
+    "source:BB00461"
+   ],
+   "relation": "adjacent",
+   "why": "“Sanctify your Imams from the description of contingent things.” When Cornelius falls at Peter’s feet, the apostle lifts him: stand up; I myself also am a man. Peter’s refusal and the reading’s exaltation mark the two edges of reverence for holy persons."
+  },
+  {
+   "id": "mark-neither-the-son",
+   "after": "source:BB00307",
+   "responds": [
+    "source:BB00307"
+   ],
+   "relation": "adjacent",
+   "why": "A tradition about the Imams’ knowledge of the unseen is interpreted. Of that day and that hour knoweth no man, no, not the angels, neither the Son, but the Father."
+  },
+  {
+   "id": "avot-chain-of-tradition",
+   "after": "source:BB00216",
+   "responds": [
+    "source:BB00216"
+   ],
+   "relation": "adjacent",
+   "why": "Twelve successors like twelve months. The rabbis open their ethics with a chain of custody: Moses received the Torah from Sinai and delivered it to Joshua, Joshua to the elders, the elders to the prophets."
+  },
+  {
+   "id": "galatians-yet-not-i",
+   "after": "source:BB00530",
+   "responds": [
+    "source:BB00530"
+   ],
+   "relation": "adjacent",
+   "why": "“Muhammad is alive … He is the Wisdom of Fatimih.” Paul’s way of saying that one life lives in another: I live; yet not I, but Christ liveth in me."
+  },
+  {
+   "id": "quran-think-not-as-dead",
+   "after": "source:BB00025",
+   "responds": [
+    "source:BB00025"
+   ],
+   "relation": "adjacent",
+   "why": "After their slaying they are “living in Thy presence”. The Qur’an: think not of those who are slain in the way of God as dead. Nay, they are living; with their Lord they have provision."
+  },
+  {
+   "id": "revelation-woman-clothed-with-the-sun",
+   "after": "source:ABU2650",
+   "responds": [
+    "source:ABU2650"
+   ],
+   "relation": "adjacent",
+   "why": "The reading interprets this verse: a woman clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars."
+  },
+  {
+   "id": "quran-night-of-power",
+   "after": "source:BB00068",
+   "responds": [
+    "source:BB00068"
+   ],
+   "relation": "adjacent",
+   "why": "The reading interprets this verse: the angels and the Spirit descend therein, by the permission of their Lord, with all decrees."
+  },
+  {
+   "id": "malachi-send-you-elijah",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "‘Alí and Ḥasan “returned to the world”. Malachi’s promise is the oldest form of such a hope: behold, I will send you Elijah the prophet."
+  },
+  {
+   "id": "matthew-elias-is-come-already",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "And the Gospel’s reading of it is the pattern for return in another person: Elias is come already, and they knew him not."
+  },
+  {
+   "id": "hebrews-ever-liveth-to-make-intercession",
+   "after": "source:BB00320",
+   "responds": [
+    "source:BB00320"
+   ],
+   "relation": "adjacent",
+   "why": "“Forgive us through their right.” Hebrews of Christ: he ever liveth to make intercession for them."
+  },
+  {
+   "id": "timothy-one-mediator",
+   "after": "source:BB00320",
+   "responds": [
+    "source:BB00320"
+   ],
+   "relation": "contrast",
+   "why": "There is one God, and one mediator between God and men. Sunni Muslims and Protestant Christians both distrust intercession through holy persons. What does the prayer claim for the Imams, and what does it leave to God alone?"
+  },
+  {
+   "id": "gibbon-immortal-hatred-of-persians-and-turks",
+   "after": "source:BB00415",
+   "responds": [
+    "source:BB00415"
+   ],
+   "relation": "complement",
+   "why": "The dispute over the Caliphate outlived everyone who took part in it. Gibbon traced to it the “immortal hatred” of Persians and Turks. What do the later readings of the guide do with that inheritance?"
+  }
+ ],
+ "shortfall": "About half the readings are testimonies and blessings from prayers of the Báb that recite the names and stations of the twelve Imáms in closely similar words, or brief technical expositions; companions were given to the themes they share and not to each.",
+ "library": {}
+}
