@@ -1,0 +1,454 @@
+{
+ "format": 2,
+ "slug": "receptivity",
+ "subject": "E4AA65F7BC3348DEAA1A405FBF359592",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 43,
+ "quotations": 43,
+ "kept": [
+  "source:BH00113",
+  "source:AB00156",
+  "source:BH06762",
+  "source:ABU1846",
+  "source:ABU0353",
+  "source:AB12112",
+  "source:AB02167",
+  "source:ABU3192",
+  "source:BH03944",
+  "source:BH00271",
+  "source:AB00192",
+  "source:BH00124",
+  "source:BH00097",
+  "source:AB11078",
+  "selection:30f4c991afa07f9bf7771fb1",
+  "selection:395b0d14845f7eff9af53e1a",
+  "selection:1a1fc258871aa13711ebed51",
+  "selection:92c572c49ef0385e3974b845",
+  "selection:122a88664e4d1c8a8d2ccf4e",
+  "selection:6f2ad51e324e834aa4f4f999",
+  "selection:48c93b5c53ec40c59738549f",
+  "selection:fd6ba8f3168fae7967a09728",
+  "selection:930fe7c92a24f81f51854f5f",
+  "selection:04114fadd6e6854fbc278e7d",
+  "selection:6bab5bcd66fbecfb6e38a219",
+  "selection:d01661a749bea8a67b60efc9",
+  "selection:f219d401e7755bb63a503d21",
+  "selection:17af6a174e191ff3cbc48ae0",
+  "selection:3cbc7ee175d6ea47a0c8e570",
+  "selection:124bd32013861a6ffe3a86e7",
+  "selection:9a779e3d71a963a6855b956c",
+  "selection:8d5a5602cfd8f68a9492b217",
+  "selection:9e6bce39c37add90649d14aa",
+  "selection:ac07469ca623c8bbfaa3c02d",
+  "selection:bbfad6828b544623d4731d49",
+  "selection:8fcbb4347b619eed21c7d206",
+  "selection:88171443d3d1a75811c71a37",
+  "selection:8beb79afbf3123c101318e6b",
+  "selection:8f4ccfc233fb6ed2886338ec",
+  "selection:36ce6b18042663303a3834f1",
+  "selection:ebfb0bba3673b47d82921dd4",
+  "selection:df3f3588ccd90fcb1b50035d",
+  "selection:d8692ea38cbcd7714f2c88e9"
+ ],
+ "introduction": "“The wise are they that speak not unless they obtain a hearing, even as the cup-bearer, who proffereth not his cup till he findeth a seeker.” The guide begins with that image and spends its length on the judgment it requires: how to measure speech to the hearer, when to name what one believes, how much of the law to ask of a newcomer, whether to seek out the learned and the eminent, and when to stop. The same judgment is asked for elsewhere. Jesus spoke “as they were able to hear it” and kept back what his friends could not yet bear; Paul fed Corinth with milk and began at Athens from the Athenians’ own altar; Confucius would not repeat a lesson to one who was not eager; the council of Jerusalem laid on converts no greater burden than was necessary. The contrary voices are just as old. Isaiah’s crier invites everyone without waiting to be asked; Timothy is told to preach in season and out of season; a lamp is not lit to be hidden; James forbids courting the man with the gold ring; and one verse of Luke, “compel them to come in”, shows what the guide’s last reading rules out.",
+ "questions": [
+  "The cup-bearer waits for a seeker; Isaiah cries “Ho, every one that thirsteth”; Timothy is told to preach “in season, out of season”. How does the guide itself hold waiting and offering together (compare readings 1, 3 and 38)?",
+  "Paul gives milk and not meat, and Hebrews reproaches hearers who still need milk. Who is responsible for a hearer’s growth, on the readings’ account?",
+  "Paul adapts to Athens and yet will not “please men”. Where do the readings draw the line between suiting the message to the hearer and changing it?",
+  "James forbids respect of persons. How do the readings justify a special effort toward people of capacity and prominence, and what safeguards do they add?",
+  "The council of Jerusalem laid “no greater burden”; Jesus tells would-be followers to count the cost. How do readings 31 to 37 combine gentleness about laws with honesty about them?",
+  "“Compel them to come in” was once read as a licence to coerce. What in the last readings makes friendship without insistence a principle and not only a tactic?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "“The wise are they that speak not unless they obtain a hearing.” The Sermon on the Mount puts the same counsel roughly: neither cast ye your pearls before swine."
+  },
+  {
+   "id": "analects-may-be-spoken-with",
+   "after": "source:BH00113",
+   "responds": [
+    "source:BH00113"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius weighs both mistakes: not to speak with one who may be spoken with is to lose the man; to speak with one who may not is to lose one’s words. The wise lose neither."
+  },
+  {
+   "id": "matthew-hunger-and-thirst",
+   "after": "source:AB00156",
+   "responds": [
+    "source:AB00156"
+   ],
+   "relation": "adjacent",
+   "why": "“Thy lovers thirst … they hunger.” Blessed are they which do hunger and thirst after righteousness: for they shall be filled."
+  },
+  {
+   "id": "isaiah-every-one-that-thirsteth",
+   "after": "source:BH06762",
+   "responds": [
+    "source:BH06762"
+   ],
+   "relation": "contrast",
+   "why": "“Until you find thirst, bestow not.” Isaiah’s crier does not wait to be asked: Ho, every one that thirsteth, come ye to the waters. Is an open invitation another thing than an unsought gift?"
+  },
+  {
+   "id": "analects-one-corner",
+   "after": "source:BH06762",
+   "responds": [
+    "source:BH06762"
+   ],
+   "relation": "adjacent",
+   "why": "Confucius kept the same rule as a teacher: I do not open up the truth to one who is not eager; when I have presented one corner and he cannot learn from it the other three, I do not repeat my lesson."
+  },
+  {
+   "id": "plato-art-of-midwifery",
+   "after": "source:ABU1846",
+   "responds": [
+    "source:ABU1846"
+   ],
+   "relation": "adjacent",
+   "why": "A child draws a learned man on by a question until he asks for more. Socrates calls his own art midwifery: he brings to birth what the other is already carrying."
+  },
+  {
+   "id": "acts-feel-after-him",
+   "after": "source:ABU0353",
+   "responds": [
+    "source:ABU0353"
+   ],
+   "relation": "adjacent",
+   "why": "In the West what was spoken was “in consideration of the capacity, inclination, and attitude” of the hearers. Paul on the Areopagus begins from the Athenians’ own altar and their own poets."
+  },
+  {
+   "id": "galatians-any-other-gospel",
+   "after": "source:ABU0353",
+   "responds": [
+    "source:ABU0353"
+   ],
+   "relation": "contrast",
+   "why": "Paul also writes that he does not seek to please men, and curses any other gospel than the one delivered. Where does adaptation to taste and temperament stop?"
+  },
+  {
+   "id": "hosea-door-of-hope",
+   "after": "source:AB12112",
+   "responds": [
+    "source:AB12112"
+   ],
+   "relation": "adjacent",
+   "why": "Upheaval has made souls receptive. Hosea has God lead Israel into the wilderness to speak to her heart, and make the valley of trouble a door of hope."
+  },
+  {
+   "id": "matthew-harvest-truly-is-plenteous",
+   "after": "source:AB02167",
+   "responds": [
+    "source:AB02167"
+   ],
+   "relation": "adjacent",
+   "why": "“Where are the teachers?” The harvest truly is plenteous, but the labourers are few."
+  },
+  {
+   "id": "luke-good-ground",
+   "after": "source:ABU3192",
+   "responds": [
+    "source:ABU3192"
+   ],
+   "relation": "adjacent",
+   "why": "Dry wood, wet wood and stones. The parable of the sower sorts hearers likewise: the wayside, the rock, the thorns, the good ground."
+  },
+  {
+   "id": "mark-without-a-parable",
+   "after": "source:BH03944",
+   "responds": [
+    "source:BH03944"
+   ],
+   "relation": "adjacent",
+   "why": "Impart the Word “according to the hearer’s particular measure”. Mark says of Jesus that he spake the word unto them as they were able to hear it."
+  },
+  {
+   "id": "john-cannot-bear-them-now",
+   "after": "source:BH00271",
+   "responds": [
+    "source:BH00271"
+   ],
+   "relation": "adjacent",
+   "why": "Some meanings cannot be uttered “because their time hath not come”. I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "corinthians-milk-and-not-meat",
+   "after": "source:AB00192",
+   "responds": [
+    "source:AB00192"
+   ],
+   "relation": "adjacent",
+   "why": "Rich food cannot be given to a suckling. Paul uses the same figure to Corinth: I have fed you with milk, and not with meat."
+  },
+  {
+   "id": "hebrews-strong-meat",
+   "after": "source:AB00192",
+   "responds": [
+    "source:AB00192"
+   ],
+   "relation": "complement",
+   "why": "Hebrews turns the figure into a reproach: by now ye ought to be teachers, and ye still need milk. Whose responsibility is it that a hearer stays an infant?"
+  },
+  {
+   "id": "proverbs-word-fitly-spoken",
+   "after": "source:BH00124",
+   "responds": [
+    "source:BH00124"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed is he who gives to drink “without speaking a word that would cause rejection”. A word fitly spoken is like apples of gold in pictures of silver."
+  },
+  {
+   "id": "quran-speak-a-gentle-word",
+   "after": "source:BH00124",
+   "responds": [
+    "source:BH00124"
+   ],
+   "relation": "adjacent",
+   "why": "Even to Pharaoh, Moses and Aaron are told: speak unto him a gentle word, that peradventure he may heed."
+  },
+  {
+   "id": "talmud-language-of-men",
+   "after": "source:BH00097",
+   "responds": [
+    "source:BH00097"
+   ],
+   "relation": "adjacent",
+   "why": "“Speech is measured according to the capacity of minds.” The rabbis said that the Torah speaks in the language of men."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:AB11078",
+   "responds": [
+    "source:AB11078"
+   ],
+   "relation": "adjacent",
+   "why": "“First, one may teach by deeds, then speak the word.” Let your light so shine before men, that they may see your good works."
+  },
+  {
+   "id": "quran-call-with-wisdom",
+   "after": "selection:395b0d14845f7eff9af53e1a",
+   "responds": [
+    "selection:395b0d14845f7eff9af53e1a"
+   ],
+   "relation": "adjacent",
+   "why": "‘Abdu’l-Bahá adapted his presentation “with infinite tact and patience”. The Qur’an’s rule for inviting: call unto the way of thy Lord with wisdom and fair exhortation, and reason with them in the better way."
+  },
+  {
+   "id": "ecclesiastes-time-to-keep-silence",
+   "after": "selection:1a1fc258871aa13711ebed51",
+   "responds": [
+    "selection:1a1fc258871aa13711ebed51"
+   ],
+   "relation": "adjacent",
+   "why": "No rule can be laid down for when to name the Founders. A time to keep silence, and a time to speak."
+  },
+  {
+   "id": "acts-almost-thou-persuadest-me",
+   "after": "selection:122a88664e4d1c8a8d2ccf4e",
+   "responds": [
+    "selection:122a88664e4d1c8a8d2ccf4e"
+   ],
+   "relation": "adjacent",
+   "why": "The teacher may choose the direct method. Paul before King Agrippa is direct, and hears: almost thou persuadest me to be a Christian."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "selection:6f2ad51e324e834aa4f4f999",
+   "responds": [
+    "selection:6f2ad51e324e834aa4f4f999"
+   ],
+   "relation": "adjacent",
+   "why": "Certain knowledge is to be guarded and shown only to those who are ready. Jesus thanks the Father for hiding these things from the wise and prudent and revealing them unto babes."
+  },
+  {
+   "id": "luke-lighted-a-candle",
+   "after": "selection:6f2ad51e324e834aa4f4f999",
+   "responds": [
+    "selection:6f2ad51e324e834aa4f4f999"
+   ],
+   "relation": "contrast",
+   "why": "No man, when he hath lighted a candle, putteth it in a secret place. The reading asks the wayfarer to conceal what he knows. What kind of knowledge is each speaking of?"
+  },
+  {
+   "id": "peter-reason-of-the-hope",
+   "after": "selection:48c93b5c53ec40c59738549f",
+   "responds": [
+    "selection:48c93b5c53ec40c59738549f"
+   ],
+   "relation": "adjacent",
+   "why": "The Cause needs people who can relate its beliefs to current thought. Be ready always to give an answer to every man that asketh you a reason of the hope that is in you, with meekness."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "selection:930fe7c92a24f81f51854f5f",
+   "responds": [
+    "selection:930fe7c92a24f81f51854f5f"
+   ],
+   "relation": "adjacent",
+   "why": "However limited their capacity, believers should teach in intellectual circles with confidence. The council saw that Peter and John were unlearned and ignorant men, and marvelled."
+  },
+  {
+   "id": "james-respect-of-persons",
+   "after": "selection:04114fadd6e6854fbc278e7d",
+   "responds": [
+    "selection:04114fadd6e6854fbc278e7d"
+   ],
+   "relation": "contrast",
+   "why": "The poor must be taught, the reading says, before turning to people of capacity. James forbids giving the man with the gold ring the good seat. How does a community seek out the eminent without the partiality James condemns?"
+  },
+  {
+   "id": "acts-some-mocked-and-others-said",
+   "after": "selection:6bab5bcd66fbecfb6e38a219",
+   "responds": [
+    "selection:6bab5bcd66fbecfb6e38a219"
+   ],
+   "relation": "adjacent",
+   "why": "Teachers are wanted who can speak to “people of rank and eminence”. Paul’s hearing before the philosophers of Athens ends with mockery, postponement, and a few who believe, one a judge of the court."
+  },
+  {
+   "id": "acts-no-greater-burden",
+   "after": "selection:9a779e3d71a963a6855b956c",
+   "responds": [
+    "selection:9a779e3d71a963a6855b956c"
+   ],
+   "relation": "adjacent",
+   "why": "Do not insist at the outset on laws that strain a new faith. The council at Jerusalem decided to lay upon the Gentile converts no greater burden than a few necessary things."
+  },
+  {
+   "id": "matthew-heavy-burdens",
+   "after": "selection:9a779e3d71a963a6855b956c",
+   "responds": [
+    "selection:9a779e3d71a963a6855b956c"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus on teachers who do otherwise: they bind heavy burdens and grievous to be borne, and lay them on men’s shoulders."
+  },
+  {
+   "id": "acts-lydia-whose-heart-the-lord-opened",
+   "after": "selection:8d5a5602cfd8f68a9492b217",
+   "responds": [
+    "selection:8d5a5602cfd8f68a9492b217"
+   ],
+   "relation": "adjacent",
+   "why": "A declarant need not know everything, but must be touched. Lydia, a seller of purple, hears Paul once by a riverside: the Lord opened her heart, and she was baptized."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "selection:ac07469ca623c8bbfaa3c02d",
+   "responds": [
+    "selection:ac07469ca623c8bbfaa3c02d"
+   ],
+   "relation": "adjacent",
+   "why": "Do not start with the hardest point. No man putteth new wine into old bottles, else the bottles break."
+  },
+  {
+   "id": "luke-counteth-the-cost",
+   "after": "selection:bbfad6828b544623d4731d49",
+   "responds": [
+    "selection:bbfad6828b544623d4731d49"
+   ],
+   "relation": "complement",
+   "why": "Seekers may be told that the message “involves great spiritual responsibility”. Which of you, intending to build a tower, sitteth not down first, and counteth the cost? Gentleness about laws is not silence about the cost."
+  },
+  {
+   "id": "mark-first-the-blade",
+   "after": "selection:88171443d3d1a75811c71a37",
+   "responds": [
+    "selection:88171443d3d1a75811c71a37"
+   ],
+   "relation": "adjacent",
+   "why": "Lead them gradually. First the blade, then the ear, after that the full corn in the ear."
+  },
+  {
+   "id": "ecclesiastes-observeth-the-wind",
+   "after": "selection:8beb79afbf3123c101318e6b",
+   "responds": [
+    "selection:8beb79afbf3123c101318e6b"
+   ],
+   "relation": "adjacent",
+   "why": "Give the message even to those who do not seem ready, for no one can judge. He that observeth the wind shall not sow; and he that regardeth the clouds shall not reap."
+  },
+  {
+   "id": "isaiah-word-not-return-void",
+   "after": "selection:8beb79afbf3123c101318e6b",
+   "responds": [
+    "selection:8beb79afbf3123c101318e6b"
+   ],
+   "relation": "adjacent",
+   "why": "The teacher cannot measure what the Word may do. My word shall not return unto me void."
+  },
+  {
+   "id": "timothy-in-season-out-of-season",
+   "after": "selection:8beb79afbf3123c101318e6b",
+   "responds": [
+    "selection:8beb79afbf3123c101318e6b"
+   ],
+   "relation": "contrast",
+   "why": "Preach the word; be instant in season, out of season. The pastoral rule seems to contradict the cup-bearer who waits for a seeker. Does this reading side with Timothy, and what is left of the first reading if it does?"
+  },
+  {
+   "id": "ezekiel-watchman",
+   "after": "selection:8f4ccfc233fb6ed2886338ec",
+   "responds": [
+    "selection:8f4ccfc233fb6ed2886338ec"
+   ],
+   "relation": "adjacent",
+   "why": "The majority must not be deprived “through our failure in obligation”. Ezekiel’s watchman answers for the blood of those he did not warn."
+  },
+  {
+   "id": "john-except-the-father-draw-him",
+   "after": "selection:36ce6b18042663303a3834f1",
+   "responds": [
+    "selection:36ce6b18042663303a3834f1"
+   ],
+   "relation": "adjacent",
+   "why": "Pray that God “may send to you the souls that are ready”. No man can come to me, except the Father which hath sent me draw him."
+  },
+  {
+   "id": "corinthians-god-gave-the-increase",
+   "after": "selection:df3f3588ccd90fcb1b50035d",
+   "responds": [
+    "selection:df3f3588ccd90fcb1b50035d"
+   ],
+   "relation": "adjacent",
+   "why": "The teacher studies, meditates, speaks, and leaves the result. I have planted, Apollos watered; but God gave the increase."
+  },
+  {
+   "id": "matthew-shake-off-the-dust",
+   "after": "selection:d8692ea38cbcd7714f2c88e9",
+   "responds": [
+    "selection:d8692ea38cbcd7714f2c88e9"
+   ],
+   "relation": "adjacent",
+   "why": "“We should never insist.” Whosoever shall not receive you, nor hear your words, depart."
+  },
+  {
+   "id": "revelation-stand-at-the-door",
+   "after": "selection:d8692ea38cbcd7714f2c88e9",
+   "responds": [
+    "selection:d8692ea38cbcd7714f2c88e9"
+   ],
+   "relation": "adjacent",
+   "why": "If a man is not hungry you cannot make him eat. Behold, I stand at the door, and knock: if any man hear my voice, and open."
+  },
+  {
+   "id": "luke-compel-them-to-come-in",
+   "after": "selection:d8692ea38cbcd7714f2c88e9",
+   "responds": [
+    "selection:d8692ea38cbcd7714f2c88e9"
+   ],
+   "relation": "contrast",
+   "why": "The host of the parable says: go out into the highways and hedges, and compel them to come in. The verse was used for centuries to justify coercion. What in these readings forbids that use?"
+  }
+ ],
+ "library": {}
+}
