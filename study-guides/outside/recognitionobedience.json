@@ -1,0 +1,388 @@
+{
+ "format": 2,
+ "slug": "recognitionobedience",
+ "subject": "EF1460687A9249CCAFEDE564FF3B9F06",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 32,
+ "quotations": 37,
+ "kept": [
+  "source:BH11209",
+  "source:BH00779",
+  "source:BH00827",
+  "source:BH00001",
+  "source:AB05486",
+  "source:AB00063",
+  "source:ABU1916",
+  "source:BH02047",
+  "source:BH11237",
+  "source:BH10672",
+  "source:BH07273",
+  "source:BH07543",
+  "source:BH08707",
+  "source:BH03336",
+  "source:AB06848",
+  "source:BB00001",
+  "source:BB00002",
+  "source:BH03974",
+  "source:BH06397",
+  "source:BH09938",
+  "source:BH11016",
+  "source:AB01507",
+  "source:ABU0207",
+  "source:AB00171",
+  "selection:9f46c929fa78354012a88a4d",
+  "selection:74c6690933d875398c187332",
+  "selection:be0aa7065fd0f37dadaec479",
+  "selection:a5e2ec051daf4ef621a3baf5",
+  "selection:210106c85f0bb3f28ab15374",
+  "selection:a312f5afef4af7721a659a7b",
+  "selection:8ce5f64d27434a665c4fe996",
+  "selection:710cdd3383b93d44044839f9"
+ ],
+ "introduction": "“Thou hast created me to know Thee and to worship Thee.” The guide takes the two verbs of that prayer and shows them bound together through some thirty statements: recognition of the Manifestation of God is the first duty, observance of what He ordains the second, and “neither is acceptable without the other”. It is the oldest argument in the religions of the Book, and its parties are here. James says faith without works is dead and Paul that a man is justified by faith without the deeds of the law; the Sermon on the Mount warns those who say “Lord, Lord”; the Preacher sums up the whole duty of man as fearing God and keeping his commandments. The harder companions are those that accept deeds with no recognition at all: Peter’s “in every nation he that worketh righteousness”, the Qur’an’s promise to Jews, Christians and Sabaeans who do right, the sheep of the parable who never knew whom they fed, and Kant’s good will that shines by its own light. Joshua and Moses stand at the end, where the readings place the matter in a free choice.",
+ "questions": [
+  "James and Paul have been read against each other for centuries. Where do the readings place themselves in that dispute, and do they change its terms?",
+  "The righteous in the parable ask, “When saw we thee an hungred?” How do readings 5 and 6 speak to good done by those who have not recognized, and what do they still say is lacking?",
+  "“If any man will do his will, he shall know of the doctrine.” Reading 7 also makes knowledge depend on action. Is the order “first to know, then to do” a sequence in time, or something else?",
+  "Kant’s good will needs no theology; Aristotle’s just man becomes just by practice. What do the readings add to these accounts, and what would they lose without them?",
+  "Joshua says “choose you this day”. Why do the last readings stress that the twin duties are exercised by choice, and what does Paul’s “not of works” add about mercy?"
+ ],
+ "outside": [
+  {
+   "id": "quran-created-to-worship",
+   "after": "source:BH11209",
+   "responds": [
+    "source:BH11209"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast created me to know Thee and to worship Thee.” The Qur’an gives the purpose in God’s voice: I created the jinn and humankind only that they might worship Me."
+  },
+  {
+   "id": "westminster-chief-end-of-man",
+   "after": "source:BH11209",
+   "responds": [
+    "source:BH11209"
+   ],
+   "relation": "adjacent",
+   "why": "The Westminster catechism opens on the same question and nearly the same answer: man’s chief end is to glorify God, and to enjoy him for ever."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:BH00779",
+   "responds": [
+    "source:BH00779"
+   ],
+   "relation": "adjacent",
+   "why": "Man alone is given the capacity “of knowing Him and of reflecting the greatness of His glory”. Genesis: in the image of God created he him."
+  },
+  {
+   "id": "proverbs-beginning-of-wisdom",
+   "after": "source:BH00827",
+   "responds": [
+    "source:BH00827"
+   ],
+   "relation": "adjacent",
+   "why": "Worship “followeth upon His recognition”. Proverbs joins the two the other way round: the fear of the Lord is the beginning of wisdom, and the knowledge of the holy is understanding."
+  },
+  {
+   "id": "john-if-ye-love-me",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Recognition and observance are twin duties, neither “acceptable without the other”. Jesus ties them with one conditional: if ye love me, keep my commandments."
+  },
+  {
+   "id": "james-called-the-friend-of-god",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "James on Abraham: faith wrought with his works, and by works was faith made perfect."
+  },
+  {
+   "id": "romans-justified-by-faith",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Paul concludes that a man is justified by faith without the deeds of the law. The Reformation turned on that sentence. Does the reading stand with Paul, with James, or somewhere the old quarrel does not reach?"
+  },
+  {
+   "id": "acts-no-respecter-of-persons",
+   "after": "source:AB05486",
+   "responds": [
+    "source:AB05486"
+   ],
+   "relation": "contrast",
+   "why": "The reading denies that the veiled are all alike, yet makes recognition the foundation. Peter, in a Roman’s house: in every nation he that feareth God and worketh righteousness is accepted with him. How much does the reading concede to Peter?"
+  },
+  {
+   "id": "quran-whoever-believeth-and-doeth-right",
+   "after": "source:AB05486",
+   "responds": [
+    "source:AB05486"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an names Jews, Christians and Sabaeans beside the believers and says of all: whoever believeth in God and the Last Day and doeth right, no fear shall come upon them."
+  },
+  {
+   "id": "corinthians-body-to-be-burned",
+   "after": "source:AB00063",
+   "responds": [
+    "source:AB00063"
+   ],
+   "relation": "adjacent",
+   "why": "Good deeds are complete only with knowledge and love. Paul: though I bestow all my goods to feed the poor, and give my body to be burned, and have not charity, it profiteth me nothing."
+  },
+  {
+   "id": "matthew-least-of-these",
+   "after": "source:AB00063",
+   "responds": [
+    "source:AB00063"
+   ],
+   "relation": "contrast",
+   "why": "In the parable of the judgment the righteous are astonished: “When saw we thee an hungred, and fed thee?” They are accepted for deeds done without knowing whom they served. What becomes of the requirement of recognition here?"
+  },
+  {
+   "id": "kant-like-a-jewel",
+   "after": "source:AB00063",
+   "responds": [
+    "source:AB00063"
+   ],
+   "relation": "complement",
+   "why": "Kant holds that a good will shines like a jewel by its own light, whatever it achieves and whatever it knows of God. The reading says good deeds without the knowledge of God are imperfect. What exactly is missing from the jewel?"
+  },
+  {
+   "id": "john-do-his-will-shall-know",
+   "after": "source:ABU1916",
+   "responds": [
+    "source:ABU1916"
+   ],
+   "relation": "adjacent",
+   "why": "“Knowledge and recognition are dependent upon acting.” If any man will do his will, he shall know of the doctrine, whether it be of God."
+  },
+  {
+   "id": "matthew-lord-lord",
+   "after": "source:BH02047",
+   "responds": [
+    "source:BH02047"
+   ],
+   "relation": "adjacent",
+   "why": "“Deeds must follow recognition.” Not every one that saith unto me, Lord, Lord, shall enter the kingdom; but he that doeth the will of my Father."
+  },
+  {
+   "id": "luke-why-call-ye-me-lord",
+   "after": "source:BH11237",
+   "responds": [
+    "source:BH11237"
+   ],
+   "relation": "adjacent",
+   "why": "She has attained recognition; now let her act. Why call ye me, Lord, Lord, and do not the things which I say?"
+  },
+  {
+   "id": "matthew-house-on-the-rock",
+   "after": "source:BH10672",
+   "responds": [
+    "source:BH10672"
+   ],
+   "relation": "adjacent",
+   "why": "First recognition, then acting on the Book. The wise builder is the one who hears these sayings and does them."
+  },
+  {
+   "id": "ecclesiastes-whole-duty-of-man",
+   "after": "source:BH07273",
+   "responds": [
+    "source:BH07273"
+   ],
+   "relation": "adjacent",
+   "why": "“Two most great matters.” The Preacher’s conclusion has the same pair: fear God, and keep his commandments: for this is the whole duty of man."
+  },
+  {
+   "id": "corinthians-labour-not-in-vain",
+   "after": "source:BH07543",
+   "responds": [
+    "source:BH07543"
+   ],
+   "relation": "adjacent",
+   "why": "Recognition, then steadfastness. Be ye stedfast, unmoveable, always abounding in the work of the Lord."
+  },
+  {
+   "id": "revelation-faithful-unto-death",
+   "after": "source:BH03336",
+   "responds": [
+    "source:BH03336"
+   ],
+   "relation": "adjacent",
+   "why": "After recognition, steadfastness and observance. Be thou faithful unto death, and I will give thee a crown of life."
+  },
+  {
+   "id": "james-be-ye-warmed",
+   "after": "source:AB06848",
+   "responds": [
+    "source:AB06848"
+   ],
+   "relation": "adjacent",
+   "why": "Faith, certainty, then acting. James’s example of faith alone: saying to the naked and hungry, be ye warmed and filled, and giving them nothing."
+  },
+  {
+   "id": "jeremiah-glory-in-this",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The fruit of every science is the knowledge of God. Let not the wise man glory in his wisdom, but in this, that he understandeth and knoweth me."
+  },
+  {
+   "id": "titus-in-works-deny",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Learning without adherence does not make faith. They profess that they know God; but in works they deny him."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "“God desireth naught from you on this day save obedience.” What doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?"
+  },
+  {
+   "id": "hosea-mercy-not-sacrifice",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Hosea names the two things desired, and they are these readings’ two: mercy, and the knowledge of God, more than burnt offerings."
+  },
+  {
+   "id": "john-life-eternal-know",
+   "after": "source:BH06397",
+   "responds": [
+    "source:BH06397"
+   ],
+   "relation": "adjacent",
+   "why": "All were created for the recognition of the Dawning-Place. This is life eternal, that they might know thee, and Jesus Christ, whom thou hast sent."
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:BH09938",
+   "responds": [
+    "source:BH09938"
+   ],
+   "relation": "adjacent",
+   "why": "“Whoso turneth away hath verily denied God and His Messengers.” The claim has the same shape as the one many Christians hold against it: no man cometh unto the Father, but by me."
+  },
+  {
+   "id": "gandhi-not-one-religion",
+   "after": "source:BH09938",
+   "responds": [
+    "source:BH09938"
+   ],
+   "relation": "contrast",
+   "why": "Gandhi could not accept that any one religion was the sole bearer of truth. Readings like this one say that all Books point to one Cause. What must the claim mean if it is not to be the exclusiveness he refused?"
+  },
+  {
+   "id": "hebrews-without-wavering",
+   "after": "source:BH11016",
+   "responds": [
+    "source:BH11016"
+   ],
+   "relation": "adjacent",
+   "why": "The beginning is faith and the end steadfastness. Let us hold fast the profession of our faith without wavering."
+  },
+  {
+   "id": "matthew-two-sons",
+   "after": "source:ABU0207",
+   "responds": [
+    "source:ABU0207"
+   ],
+   "relation": "adjacent",
+   "why": "“Faith does not consist in belief, it consists in deeds.” One son says “I will not” and goes; the other says “I go, sir” and goes not. Whether of them twain did the will of his father?"
+  },
+  {
+   "id": "carlyle-conviction-into-conduct",
+   "after": "source:ABU0207",
+   "responds": [
+    "source:ABU0207"
+   ],
+   "relation": "adjacent",
+   "why": "Carlyle: conviction, were it never so excellent, is worthless till it convert itself into conduct."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB00171",
+   "responds": [
+    "source:AB00171"
+   ],
+   "relation": "adjacent",
+   "why": "Justify the name “by deeds and not by name”. Ye shall know them by their fruits."
+  },
+  {
+   "id": "aristotle-just-by-doing-just-acts",
+   "after": "source:AB00171",
+   "responds": [
+    "source:AB00171"
+   ],
+   "relation": "complement",
+   "why": "A true Bahá’í “strives by day and by night” to live the teachings. Aristotle explains why striving matters: we become just by doing just acts. On his account the doing makes the person; where, then, does recognition enter?"
+  },
+  {
+   "id": "luke-good-ground",
+   "after": "selection:9f46c929fa78354012a88a4d",
+   "responds": [
+    "selection:9f46c929fa78354012a88a4d"
+   ],
+   "relation": "adjacent",
+   "why": "A twofold obligation: steadfastness, and observance. The seed on good ground are those who keep the word and bring forth fruit with patience."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "selection:210106c85f0bb3f28ab15374",
+   "responds": [
+    "selection:210106c85f0bb3f28ab15374"
+   ],
+   "relation": "adjacent",
+   "why": "“It is first ‘to know’, and then ‘to do’.” Be ye doers of the word, and not hearers only."
+  },
+  {
+   "id": "joshua-choose-you-this-day",
+   "after": "selection:a312f5afef4af7721a659a7b",
+   "responds": [
+    "selection:a312f5afef4af7721a659a7b"
+   ],
+   "relation": "adjacent",
+   "why": "The twin duties are exercised “by one’s own choice”. Joshua to the assembled tribes: choose you this day whom ye will serve."
+  },
+  {
+   "id": "deuteronomy-choose-life",
+   "after": "selection:8ce5f64d27434a665c4fe996",
+   "responds": [
+    "selection:8ce5f64d27434a665c4fe996"
+   ],
+   "relation": "adjacent",
+   "why": "Moses sets life and death before the people and says: therefore choose life."
+  },
+  {
+   "id": "ephesians-not-of-works",
+   "after": "selection:710cdd3383b93d44044839f9",
+   "responds": [
+    "selection:710cdd3383b93d44044839f9"
+   ],
+   "relation": "complement",
+   "why": "Heaven depends on faith and good deeds, “living to the best of our ability”. Paul: by grace are ye saved through faith, not of works, lest any man should boast. The guide’s arc ends in hope of mercy; how do the twin duties leave room for it?"
+  }
+ ],
+ "library": {}
+}
