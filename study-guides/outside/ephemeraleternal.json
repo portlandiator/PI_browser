@@ -1,0 +1,388 @@
+{
+ "format": 2,
+ "slug": "ephemeraleternal",
+ "subject": "B73760379052E56FB65E6087189A0312",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 40,
+ "quotations": 41,
+ "kept": [
+  "source:AB00627",
+  "source:BH02107",
+  "source:ABU3316",
+  "source:ABU1820",
+  "source:BH03210",
+  "source:ABU3308",
+  "source:ABU2945",
+  "source:AB10582",
+  "source:AB12195",
+  "source:AB03332",
+  "source:ABU1870",
+  "source:ABU1380",
+  "source:AB02552",
+  "source:AB04346",
+  "source:AB11036",
+  "source:AB10944",
+  "source:AB04363",
+  "source:AB05669",
+  "source:AB01276",
+  "source:AB12349",
+  "source:BH08164",
+  "source:BH05313",
+  "source:AB06657",
+  "source:ABU0240",
+  "source:BH03171",
+  "source:BH01735",
+  "source:BH08203",
+  "source:ABU3372",
+  "source:AB06933",
+  "source:BH06301",
+  "source:AB05359",
+  "source:AB05927",
+  "source:AB07579",
+  "source:AB10644",
+  "source:AB06112",
+  "source:ABU0524",
+  "source:ABU1139",
+  "source:AB11945",
+  "source:ABU0635",
+  "source:AB00641"
+ ],
+ "introduction": "“Every inhabited and flourishing place will become desolate and every mighty edifice reduced to ruin”; but a sigh breathed for love endures. The guide sets the two beside each other again and again: palaces, crowns and estates on one side, and on the other love, service, and deeds done for the good of all. This is one of the most widely shared themes in human writing. The Preacher called his own great works vanity; Isaiah and James compare life to grass and vapour; the Qur’an says that everything passes save His countenance and that good deeds endure; Shakespeare gives it to Prospero and Hamlet, Shelley to a broken statue, Gray to a churchyard, Marcus Aurelius to Alexander and his groom. Three voices use the same fact differently. Herrick says, therefore gather rosebuds; Macbeth says the play signifies nothing; and the Preacher notices that the poor wise man who saved a city was forgotten.",
+ "questions": [
+  "A cup of cold water, a jar of ointment, a sigh: why do the readings and the Gospels choose such small acts as examples of what lasts?",
+  "Herrick and the readings both begin from “all this will pass”. What decides whether the conclusion is “enjoy it now” or “look past it”?",
+  "Macbeth’s stage has no meaning; reading 7 also calls the world a theatre. What is different about the two theatres?",
+  "The Preacher says no one remembered the poor wise man. If human memory does not keep good deeds, what do readings 19 to 22 mean by their enduring?",
+  "The last reading calls permanence poison and annihilation the antidote. How does this mystical reversal relate to the rest of the guide’s praise of what is permanent?"
+ ],
+ "outside": [
+  {
+   "id": "shakespeare-revels-ended",
+   "after": "source:AB00627",
+   "responds": [
+    "source:AB00627"
+   ],
+   "relation": "adjacent",
+   "why": "“Every mighty edifice” will be “reduced to ruin”. Prospero: the cloud-capp’d towers, the gorgeous palaces, the solemn temples, the great globe itself, shall dissolve, and leave not a rack behind."
+  },
+  {
+   "id": "corinthians-prophecies-shall-fail",
+   "after": "source:AB00627",
+   "responds": [
+    "source:AB00627"
+   ],
+   "relation": "adjacent",
+   "why": "And love outweighs them. Charity never faileth: but whether there be prophecies, they shall fail; whether there be knowledge, it shall vanish away."
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:BH02107",
+   "responds": [
+    "source:BH02107"
+   ],
+   "relation": "adjacent",
+   "why": "Any deed for God’s Cause endures, “even if it be but a sigh”. Whosoever shall give a cup of cold water only shall in no wise lose his reward."
+  },
+  {
+   "id": "mark-memorial-of-her",
+   "after": "source:BH02107",
+   "responds": [
+    "source:BH02107"
+   ],
+   "relation": "adjacent",
+   "why": "One act of love at Bethany: wheresoever this gospel shall be preached throughout the whole world, this also that she hath done shall be spoken of for a memorial of her."
+  },
+  {
+   "id": "revelation-rest-from-their-labours",
+   "after": "source:ABU3316",
+   "responds": [
+    "source:ABU3316"
+   ],
+   "relation": "adjacent",
+   "why": "Efforts for the benefit of all “leave lasting traces”. They rest from their labours; and their works do follow them."
+  },
+  {
+   "id": "ecclesiastes-all-the-works-my-hands",
+   "after": "source:ABU1820",
+   "responds": [
+    "source:ABU1820"
+   ],
+   "relation": "adjacent",
+   "why": "Talent wasted on worldly affairs is like drawing on water. The Preacher, having built and planted and gathered: I looked on all the works that my hands had wrought, and, behold, all was vanity and vexation of spirit."
+  },
+  {
+   "id": "quran-countenance-of-thy-lord-remaineth",
+   "after": "source:BH03210",
+   "responds": [
+    "source:BH03210"
+   ],
+   "relation": "adjacent",
+   "why": "“Whatever thou seest will perish … while that which is with God remaineth.” Every one that is thereon will pass away; there remaineth but the countenance of thy Lord of Might and Glory."
+  },
+  {
+   "id": "herrick-rosebuds",
+   "after": "source:BH03210",
+   "responds": [
+    "source:BH03210"
+   ],
+   "relation": "contrast",
+   "why": "Herrick draws the opposite counsel from the same fact: gather ye rosebuds while ye may, old Time is still a-flying. If everything seen is passing, why close one’s eyes to it sooner?"
+  },
+  {
+   "id": "gita-mourn-not",
+   "after": "source:ABU3308",
+   "responds": [
+    "source:ABU3308"
+   ],
+   "relation": "adjacent",
+   "why": "“Weep not”: joy and sorrow both pass. Krishna to Arjuna: thou grievest where no grief should be; the wise in heart mourn not for those that live, nor those that die."
+  },
+  {
+   "id": "shakespeare-seven-ages",
+   "after": "source:ABU2945",
+   "responds": [
+    "source:ABU2945"
+   ],
+   "relation": "adjacent",
+   "why": "“This world is a theatre.” All the world’s a stage, and all the men and women merely players: they have their exits and their entrances."
+  },
+  {
+   "id": "shakespeare-brief-candle",
+   "after": "source:ABU2945",
+   "responds": [
+    "source:ABU2945"
+   ],
+   "relation": "contrast",
+   "why": "Macbeth’s version of the theatre has no author: life’s but a walking shadow, a poor player that struts and frets his hour upon the stage and then is heard no more; a tale told by an idiot, signifying nothing. What keeps the reading’s stage from being his?"
+  },
+  {
+   "id": "shakespeare-imperious-caesar",
+   "after": "source:AB10582",
+   "responds": [
+    "source:AB10582"
+   ],
+   "relation": "adjacent",
+   "why": "The jewelled crown becomes a coronet of dust. Hamlet in the graveyard: imperious Caesar, dead and turn’d to clay, might stop a hole to keep the wind away."
+  },
+  {
+   "id": "ecclesiastes-vanity-of-vanities",
+   "after": "source:AB12195",
+   "responds": [
+    "source:AB12195"
+   ],
+   "relation": "adjacent",
+   "why": "Every name and trace shall be erased. Vanity of vanities; all is vanity. One generation passeth away, and another generation cometh."
+  },
+  {
+   "id": "marcus-alexander-and-his-groom",
+   "after": "source:AB03332",
+   "responds": [
+    "source:AB03332"
+   ],
+   "relation": "adjacent",
+   "why": "Millions of kings came and were obliterated. Marcus Aurelius, himself an emperor: Alexander the Macedonian and his groom by death were brought to the same state."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:ABU1870",
+   "responds": [
+    "source:ABU1870"
+   ],
+   "relation": "adjacent",
+   "why": "Of the palaces of ancient kings not a stone is left. Nothing beside remains. Round the decay of that colossal wreck the lone and level sands stretch far away."
+  },
+  {
+   "id": "luke-rich-fool",
+   "after": "source:ABU1380",
+   "responds": [
+    "source:ABU1380"
+   ],
+   "relation": "adjacent",
+   "why": "A great builder’s villages and edifices all passed to others. This night thy soul shall be required of thee: then whose shall those things be, which thou hast provided?"
+  },
+  {
+   "id": "gray-paths-of-glory",
+   "after": "source:ABU1380",
+   "responds": [
+    "source:ABU1380"
+   ],
+   "relation": "adjacent",
+   "why": "Gray in a country churchyard: the paths of glory lead but to the grave."
+  },
+  {
+   "id": "matthew-foxes-have-holes",
+   "after": "source:AB04346",
+   "responds": [
+    "source:AB04346"
+   ],
+   "relation": "adjacent",
+   "why": "Christ and the apostles “had no nest whatsoever in this ephemeral world”. The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head."
+  },
+  {
+   "id": "john-kingdom-not-of-this-world",
+   "after": "source:AB11036",
+   "responds": [
+    "source:AB11036"
+   ],
+   "relation": "adjacent",
+   "why": "The sovereigns of this realm have no permanence. My kingdom is not of this world."
+  },
+  {
+   "id": "matthew-whosoever-will-be-great",
+   "after": "source:AB04363",
+   "responds": [
+    "source:AB04363"
+   ],
+   "relation": "adjacent",
+   "why": "Servitude is “an eternal sovereignty”. Whosoever will be chief among you, let him be your servant."
+  },
+  {
+   "id": "psalm-everlasting-remembrance",
+   "after": "source:AB01276",
+   "responds": [
+    "source:AB01276"
+   ],
+   "relation": "adjacent",
+   "why": "The names of the righteous shall endure. The righteous shall be in everlasting remembrance."
+  },
+  {
+   "id": "ecclesiastes-poor-wise-man",
+   "after": "source:AB01276",
+   "responds": [
+    "source:AB01276"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher saw a poor wise man save a city, and no man remembered that same poor man. The readings promise that good names endure. Where, if not in human memory?"
+  },
+  {
+   "id": "quran-good-deeds-endure",
+   "after": "source:AB12349",
+   "responds": [
+    "source:AB12349"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this verse: wealth and children are an ornament of the life of the world; but the good deeds which endure are better in thy Lord’s sight for reward."
+  },
+  {
+   "id": "matthew-treasures-in-heaven",
+   "after": "source:BH08164",
+   "responds": [
+    "source:BH08164"
+   ],
+   "relation": "adjacent",
+   "why": "Deeds that “shed forth the fragrance of eternity”. Lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt."
+  },
+  {
+   "id": "james-life-is-a-vapour",
+   "after": "source:AB06657",
+   "responds": [
+    "source:AB06657"
+   ],
+   "relation": "adjacent",
+   "why": "What pertains to the physical world is “transient reflections”. What is your life? It is even a vapour, that appeareth for a little time, and then vanisheth away."
+  },
+  {
+   "id": "hebrews-no-continuing-city",
+   "after": "source:ABU0240",
+   "responds": [
+    "source:ABU0240"
+   ],
+   "relation": "adjacent",
+   "why": "“This material world is a transient” station; lift your aim. Here have we no continuing city, but we seek one to come."
+  },
+  {
+   "id": "john-epistle-love-not-the-world",
+   "after": "source:BH01735",
+   "responds": [
+    "source:BH01735"
+   ],
+   "relation": "adjacent",
+   "why": "All in the world shall pass, and this station endure. The world passeth away, and the lust thereof: but he that doeth the will of God abideth for ever."
+  },
+  {
+   "id": "john-life-eternal-know",
+   "after": "source:ABU3372",
+   "responds": [
+    "source:ABU3372"
+   ],
+   "relation": "adjacent",
+   "why": "True longevity is living by God’s spiritual laws. This is life eternal, that they might know thee the only true God."
+  },
+  {
+   "id": "heraclitus-same-rivers",
+   "after": "source:AB06933",
+   "responds": [
+    "source:AB06933"
+   ],
+   "relation": "adjacent",
+   "why": "Waves vanish and the ocean stays. Heraclitus saw only the flowing: upon those who step into the same rivers, different and again different waters flow."
+  },
+  {
+   "id": "corinthians-light-affliction",
+   "after": "source:AB05927",
+   "responds": [
+    "source:AB05927"
+   ],
+   "relation": "adjacent",
+   "why": "Do not be grieved; take comfort in eternal life. The things which are seen are temporal; but the things which are not seen are eternal."
+  },
+  {
+   "id": "keats-thing-of-beauty",
+   "after": "source:AB06112",
+   "responds": [
+    "source:AB06112"
+   ],
+   "relation": "complement",
+   "why": "A garden whose spring has no autumn. Keats claimed something like it for earthly loveliness: a thing of beauty is a joy for ever; it will never pass into nothingness. Does anything temporal share in what does not pass?"
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:ABU0524",
+   "responds": [
+    "source:ABU0524"
+   ],
+   "relation": "adjacent",
+   "why": "Two states of existence, the temporal and the eternal. Plato’s first distinction in the Timaeus: that which always is and has no becoming, and that which is always becoming and never is."
+  },
+  {
+   "id": "isaiah-all-flesh-is-grass",
+   "after": "source:AB11945",
+   "responds": [
+    "source:AB11945"
+   ],
+   "relation": "adjacent",
+   "why": "What pertains to creation is ephemeral; what is attributed to God endures. All flesh is grass; the grass withereth, the flower fadeth: but the word of our God shall stand for ever."
+  },
+  {
+   "id": "hebrews-city-which-hath-foundations",
+   "after": "source:ABU0635",
+   "responds": [
+    "source:ABU0635"
+   ],
+   "relation": "adjacent",
+   "why": "“Divine foundations are eternal”: Elijah’s cave is still visited. Abraham looked for a city which hath foundations, whose builder and maker is God."
+  },
+  {
+   "id": "matthew-deny-himself-and-take-up-his-cross",
+   "after": "source:AB00641",
+   "responds": [
+    "source:AB00641"
+   ],
+   "relation": "adjacent",
+   "why": "“Permanence is deadly poison to me while annihilation is a wondrous antidote.” Whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:AB00641",
+   "responds": [
+    "source:AB00641"
+   ],
+   "relation": "adjacent",
+   "why": "Rumi on the same dying: when was I less by dying? Once more I shall die as man, to soar with angels; and when I sacrifice my angel-soul, I shall become what no mind e’er conceived."
+  }
+ ],
+ "shortfall": "Several readings repeat one sentence (all that is in the world shall perish; this station shall endure for thee) to individual correspondents; they share companions.",
+ "library": {}
+}
