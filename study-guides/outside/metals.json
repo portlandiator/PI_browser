@@ -1,0 +1,191 @@
+{
+ "format": 2,
+ "slug": "metals",
+ "subject": "24DDFF54E54FEFEC3C845D83F3A3E0E8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 17,
+ "quotations": 17,
+ "kept": [
+  "source:BH00386",
+  "source:ABU1941",
+  "source:AB00827",
+  "source:ABU3046",
+  "source:AB02911",
+  "source:ABU0064",
+  "source:AB08891",
+  "source:ABU1443",
+  "source:ABU0139",
+  "source:AB00923",
+  "source:BH02654",
+  "source:AB06652",
+  "source:BH00002",
+  "source:BH06094",
+  "source:ABU0389",
+  "source:ABU3373",
+  "source:BH01071"
+ ],
+ "introduction": "“With fire We test the gold, and with gold We test Our servants.” The writings draw constantly on the smith’s and the alchemist’s workshop: gold assayed in the fire, iron that takes on the fire’s heat and light, separate bars that only melting can make one, copper ripening to gold, and the elixir that transmutes base metal, which is the Word of God. The guide gathers these figures. The Hebrew prophets are full of the first of them: the refiner’s fire of Malachi, the furnace of affliction, “I shall come forth as gold”. Herbert and Milton knew the philosopher’s stone as an image; Mary Shelley’s professor speaks for the chemistry that retired it.",
+ "questions": [
+  "Gold is tested by fire, and people by gold. What is the second half of the sentence saying?",
+  "Why can bars of iron not be united by tying? What is the “heat” that reading 4 has in mind for human beings?",
+  "The iron in the fire glows like fire and remains iron. What does the image protect against?",
+  "Alchemy failed as chemistry. Does that affect its use as a picture of spiritual change?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-fining-pot",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "With fire We test the gold, and with gold We test Our servants. The fining pot is for silver, and the furnace for gold: but the Lord trieth the hearts."
+  },
+  {
+   "id": "seneca-fire-tries-gold",
+   "after": "source:BH00386",
+   "responds": [
+    "source:BH00386"
+   ],
+   "relation": "adjacent",
+   "why": "The Stoic version of the same proverb, from Seneca’s essay on providence: fire tries gold, misfortune tries brave men."
+  },
+  {
+   "id": "ezekiel-one-stick-in-thine-hand",
+   "after": "source:ABU1941",
+   "responds": [
+    "source:ABU1941"
+   ],
+   "relation": "adjacent",
+   "why": "Ten bars of iron tied together are not one. Ezekiel was told to take two sticks and join them one to another into one stick, and they shall become one in thine hand."
+  },
+  {
+   "id": "malachi-refiners-fire",
+   "after": "source:ABU3046",
+   "responds": [
+    "source:ABU3046"
+   ],
+   "relation": "adjacent",
+   "why": "Only a crucible and intense heat make one alloy. He is like a refiner’s fire, and he shall sit as a refiner and purifier of silver."
+  },
+  {
+   "id": "job-come-forth-as-gold",
+   "after": "source:AB02911",
+   "responds": [
+    "source:AB02911"
+   ],
+   "relation": "adjacent",
+   "why": "Firm in tests. When he hath tried me, I shall come forth as gold."
+  },
+  {
+   "id": "peter-tried-with-fire",
+   "after": "source:ABU0064",
+   "responds": [
+    "source:ABU0064"
+   ],
+   "relation": "adjacent",
+   "why": "The emancipated soul sees its difficulties with the eye of faith. The trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire."
+  },
+  {
+   "id": "proverbs-iron-sharpeneth-iron",
+   "after": "source:AB08891",
+   "responds": [
+    "source:AB08891"
+   ],
+   "relation": "adjacent",
+   "why": "Iron cast into the fire takes on the fire’s qualities. Iron sharpeneth iron; so a man sharpeneth the countenance of his friend."
+  },
+  {
+   "id": "isaiah-furnace-of-affliction",
+   "after": "source:ABU1443",
+   "responds": [
+    "source:ABU1443"
+   ],
+   "relation": "adjacent",
+   "why": "Cold, solid and black, iron in the fire becomes hot, fluid and bright. I have refined thee, but not with silver; I have chosen thee in the furnace of affliction."
+  },
+  {
+   "id": "zechariah-refine-them-as-silver",
+   "after": "source:AB00923",
+   "responds": [
+    "source:AB00923"
+   ],
+   "relation": "complement",
+   "why": "The Súfís imagined the creature could shed its createdness; the iron takes the fire’s qualities without becoming fire. I will refine them as silver is refined, and will try them as gold is tried. Where does refining stop, in the readings: what remains of the iron?"
+  },
+  {
+   "id": "herbert-famous-stone",
+   "after": "source:BH02654",
+   "responds": [
+    "source:BH02654"
+   ],
+   "relation": "adjacent",
+   "why": "The Most Great Elixir is the Word of Truth. Herbert, of doing all things for God: this is the famous stone that turneth all to gold."
+  },
+  {
+   "id": "shelley-metals-cannot-be-transmuted",
+   "after": "source:AB06652",
+   "responds": [
+    "source:AB06652"
+   ],
+   "relation": "contrast",
+   "why": "Sulphur is the love of God, mercury the knowledge of God. Mary Shelley’s modern chemist: the modern masters know that metals cannot be transmuted, and that the elixir of life is a chimera. The readings keep the alchemists’ vocabulary and move it inward. Is anything lost when a failed science becomes a metaphor?"
+  },
+  {
+   "id": "milton-philosophers-in-vain",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Copper would become gold in seventy years in its mine. Milton names the quest: that stone which here below philosophers in vain so long have sought."
+  },
+  {
+   "id": "ezekiel-heart-of-flesh",
+   "after": "source:ABU3373",
+   "responds": [
+    "source:ABU3373"
+   ],
+   "relation": "adjacent",
+   "why": "To teach one person is to change black stone into diamond. I will take the stony heart out of their flesh, and will give them an heart of flesh."
+  },
+  {
+   "id": "revelation-gold-tried-in-the-fire",
+   "after": "source:BH01071",
+   "responds": [
+    "source:BH01071"
+   ],
+   "relation": "adjacent",
+   "why": "The Divine Elixir. I counsel thee to buy of me gold tried in the fire, that thou mayest be rich."
+  }
+ ],
+ "shortfall": "Readings 3, 9, 14 and 15 apply the same figures to particular communities or to teaching, and were left without a companion.",
+ "library": {
+  "ezekiel-one-stick-in-thine-hand": {
+   "text": "Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim and for all the house of Israel his companions: And join them one to another into one stick; and they shall become one in thine hand",
+   "work": "Ezekiel 37:16–17",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ezekiel%2037%3A16-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
