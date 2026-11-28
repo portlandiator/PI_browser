@@ -1,0 +1,143 @@
+{
+ "format": 2,
+ "slug": "bada",
+ "subject": "B71A5AD3EFDF459695EBD1C1B11C18F6",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 13,
+ "kept": [
+  "source:BH00002",
+  "source:BH00004",
+  "source:AB03482",
+  "source:BB00145",
+  "source:BB00416",
+  "source:BB00021",
+  "source:AB00235",
+  "source:AB00282",
+  "source:BB00001",
+  "selection:7a74b534d1fc8c46712045cb",
+  "selection:a00664cd8d9384bf5e1e59a0",
+  "selection:3a8bb0cf65f195074cac9886"
+ ],
+ "introduction": "Badá’ is the teaching, important in Shí‘ih theology and taken up by the Báb, that God may alter what He has decreed or announced: an expected event does not occur, a named successor dies, a promise is deferred. The passages gathered here explain it by a king’s freedom to change his governor, insist that God’s alteration is not a change of mind like a creature’s, and treat acceptance of it as the truest worship, since it concedes that God does what He wills. The Hebrew Bible knows the idea well: God “repented” of the evil intended for Nineveh, to Jonah’s anger; Hezekiah’s sentence was revoked; the potter remakes the vessel. The Qur’an’s “Allah effaceth what He will” is the proof-text. Balaam’s “God is not a man, that he should repent”, Malachi’s “I change not” and Omar’s Moving Finger state the opposing intuition.",
+ "questions": [
+  "What is the difference between God changing a decree and God changing His mind? Does reading 9 make it clear?",
+  "Jonah was angry when the doom he announced did not fall. Why is a changed decree hard for believers to accept?",
+  "Why would belief in badá’ be called the highest worship?",
+  "Does prayer assume that what is decreed can be altered?"
+ ],
+ "outside": [
+  {
+   "id": "isaiah-my-thoughts-not-your-thoughts",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Meditate, that the secret of things unseen may be revealed. My thoughts are not your thoughts, neither are your ways my ways, saith the Lord."
+  },
+  {
+   "id": "jeremiah-potters-house",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "A king free to appoint and to change his governor. The vessel was marred in the hand of the potter: so he made it again another vessel, as seemed good to the potter to make it."
+  },
+  {
+   "id": "jonah-god-repented",
+   "after": "source:AB03482",
+   "responds": [
+    "source:AB03482"
+   ],
+   "relation": "adjacent",
+   "why": "An expected Imam, and the expectation altered. God repented of the evil, that he had said that he would do unto them; and he did it not."
+  },
+  {
+   "id": "jonah-angry-at-mercy",
+   "after": "source:AB03482",
+   "responds": [
+    "source:AB03482"
+   ],
+   "relation": "adjacent",
+   "why": "The prophet whose announcement was not fulfilled took it badly: it displeased Jonah exceedingly, and he was very angry."
+  },
+  {
+   "id": "quran-effaceth-what-he-will",
+   "after": "source:BB00145",
+   "responds": [
+    "source:BB00145"
+   ],
+   "relation": "adjacent",
+   "why": "“The Mother of the Book” is this verse’s phrase: Allah effaceth what He will, and establisheth what He will, and with Him is the source of ordinance."
+  },
+  {
+   "id": "quran-abrogate",
+   "after": "source:BB00021",
+   "responds": [
+    "source:BB00021"
+   ],
+   "relation": "adjacent",
+   "why": "God is worshipped only as He wills, and His decree may change. Nothing of our revelation do we abrogate or cause be forgotten, but we bring one better or the like thereof."
+  },
+  {
+   "id": "isaiah-add-unto-thy-days-fifteen-years",
+   "after": "source:AB00235",
+   "responds": [
+    "source:AB00235"
+   ],
+   "relation": "adjacent",
+   "why": "A matter that was to be, and was deferred. Hezekiah was told, thou shalt die, and not live; he prayed, and fifteen years were added."
+  },
+  {
+   "id": "numbers-god-is-not-a-man",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "contrast",
+   "why": "God’s alteration is unlike the creature’s. Balaam’s oracle seems to exclude any alteration: God is not a man, that he should lie; neither the son of man, that he should repent: hath he said, and shall he not do it? How does the reading keep Balaam’s point while affirming badá’?"
+  },
+  {
+   "id": "exodus-the-lord-repented",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "And the Lord repented of the evil which he thought to do unto his people."
+  },
+  {
+   "id": "quran-every-day-he-exerciseth",
+   "after": "selection:7a74b534d1fc8c46712045cb",
+   "responds": [
+    "selection:7a74b534d1fc8c46712045cb"
+   ],
+   "relation": "adjacent",
+   "why": "Belief in badá’ is recognition of His power to do what He wills. Every day He exerciseth power."
+  },
+  {
+   "id": "malachi-i-change-not",
+   "after": "selection:7a74b534d1fc8c46712045cb",
+   "responds": [
+    "selection:7a74b534d1fc8c46712045cb"
+   ],
+   "relation": "contrast",
+   "why": "Malachi: I am the Lord, I change not; and James speaks of the Father of lights, with whom is no variableness. Is the freedom the reading praises a perfection, or would these writers call it a defect?"
+  },
+  {
+   "id": "khayyam-moving-finger",
+   "after": "selection:a00664cd8d9384bf5e1e59a0",
+   "responds": [
+    "selection:a00664cd8d9384bf5e1e59a0"
+   ],
+   "relation": "complement",
+   "why": "Seven stages from Will to the Book. FitzGerald’s Omar: the Moving Finger writes; and, having writ, moves on: nor all thy Piety nor Wit shall lure it back to cancel half a Line. Which stage, in the reading’s scheme, can still be altered, and by what?"
+  }
+ ],
+ "shortfall": "Readings 5, 8 and 12 are technical or concern another subject; no fitting companion was found.",
+ "library": {}
+}
