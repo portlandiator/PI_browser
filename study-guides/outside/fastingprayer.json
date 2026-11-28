@@ -1,0 +1,129 @@
+{
+ "format": 2,
+ "slug": "fastingprayer",
+ "subject": "1B02DA4EAB17EE61A864DE2EB70F4D52",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 17,
+ "quotations": 17,
+ "kept": [
+  "source:BH01888",
+  "source:BH00848",
+  "source:BH07657",
+  "source:BH02806",
+  "source:BH01125",
+  "source:BH02411",
+  "source:BH00437",
+  "source:BH10581",
+  "source:BH10127",
+  "source:BH05450",
+  "source:BH05990",
+  "source:BH05849",
+  "source:BB00102",
+  "source:BH01151",
+  "source:BH00154",
+  "source:BH06667",
+  "source:BH00778"
+ ],
+ "introduction": "The Bahá’í fast lasts nineteen days, from sunrise to sunset, and Bahá’u’lláh revealed prayers for its dawns and its evenings. They speak of the hours of the fast as each having a virtue of its own, ask that the fast be accepted, and ask that the body’s abstinence may become the soul’s detachment. The Qur’an prescribes the fast “as it was prescribed for those before you”; Jesus told the faster to wash his face; and the prophets asked the question these prayers ask of themselves: “did ye at all fast unto me?” Isaiah’s chosen fast, which is justice and bread for the hungry, is the measure.",
+ "questions": [
+  "What do these prayers ask the fast to accomplish in the person?",
+  "Zechariah asks whether the people fasted “unto me”. How would one know?",
+  "What is the relation between going without food and the fast Isaiah describes?"
+ ],
+ "outside": [
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:BH01888",
+   "responds": [
+    "source:BH01888"
+   ],
+   "relation": "adjacent",
+   "why": "Every hour of these days has its own virtue. To every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "quran-fasting-is-prescribed-for-you",
+   "after": "source:BH00848",
+   "responds": [
+    "source:BH00848"
+   ],
+   "relation": "adjacent",
+   "why": "A fast enjoined. Fasting is prescribed for you, even as it was prescribed for those before you."
+  },
+  {
+   "id": "matthew-when-thou-fastest",
+   "after": "source:BH07657",
+   "responds": [
+    "source:BH07657"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed is he who fasts wholly for Thy sake. That thou appear not unto men to fast, but unto thy Father which is in secret."
+  },
+  {
+   "id": "luke-pharisee-and-publican",
+   "after": "source:BH07657",
+   "responds": [
+    "source:BH07657"
+   ],
+   "relation": "contrast",
+   "why": "The Pharisee’s prayer listed it: I fast twice in the week. The reading asks for a fast kept “with absolute detachment”. What would a fast kept for its own credit look like?"
+  },
+  {
+   "id": "matthew-not-by-bread-alone",
+   "after": "source:BH02806",
+   "responds": [
+    "source:BH02806"
+   ],
+   "relation": "adjacent",
+   "why": "These servants have fasted by Thy command. Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."
+  },
+  {
+   "id": "isaiah-is-not-this-the-fast",
+   "after": "source:BH01125",
+   "responds": [
+    "source:BH01125"
+   ],
+   "relation": "complement",
+   "why": "By Thy mighty Sign. Isaiah’s fast: is not this the fast that I have chosen? to loose the bands of wickedness, to deal thy bread to the hungry. How do abstaining from food and the fast Isaiah describes belong together?"
+  },
+  {
+   "id": "psalm-hart-panteth",
+   "after": "source:BH02411",
+   "responds": [
+    "source:BH02411"
+   ],
+   "relation": "adjacent",
+   "why": "The very essence of fasting has fasted out of longing. My soul thirsteth for God, for the living God."
+  },
+  {
+   "id": "quran-desireth-for-you-ease",
+   "after": "source:BH00437",
+   "responds": [
+    "source:BH00437"
+   ],
+   "relation": "adjacent",
+   "why": "We have fasted this day by Thy bidding. Allah desireth for you ease; He desireth not hardship for you."
+  },
+  {
+   "id": "zechariah-did-ye-at-all-fast-unto-me",
+   "after": "source:BH10581",
+   "responds": [
+    "source:BH10581"
+   ],
+   "relation": "adjacent",
+   "why": "We have observed the Fast; accept it. When ye fasted and mourned, did ye at all fast unto me, even to me?"
+  },
+  {
+   "id": "joel-rend-your-heart",
+   "after": "source:BH05450",
+   "responds": [
+    "source:BH05450"
+   ],
+   "relation": "adjacent",
+   "why": "Those who clung to the cord of fasting out of love. Rend your heart, and not your garments, and turn unto the Lord your God."
+  }
+ ],
+ "shortfall": "Readings 9 and 11 to 17 repeat the petitions of the dawn and evening prayers.",
+ "library": {}
+}
