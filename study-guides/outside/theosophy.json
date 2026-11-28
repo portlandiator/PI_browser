@@ -1,0 +1,158 @@
+{
+ "format": 2,
+ "slug": "theosophy",
+ "subject": "EE2AA5032CD445FFB209041F23A8D80A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 19,
+ "kept": [
+  "source:ABU0302",
+  "source:AB02265",
+  "source:ABU1744",
+  "source:ABU2049",
+  "source:ABU0836",
+  "source:ABU1997",
+  "source:ABU1703",
+  "source:AB04080",
+  "source:AB09928",
+  "source:AB05279",
+  "source:ABU1457",
+  "source:ABU2837",
+  "source:ABU3698",
+  "source:ABU1486",
+  "source:ABU2003",
+  "source:AB03222",
+  "source:AB10922",
+  "source:ABU2886",
+  "source:ABU0865"
+ ],
+ "introduction": "The Theosophical Society, founded in 1875, was one of the few Western bodies that offered ‘Abdu’l-Bahá a platform, and he spoke to its lodges in London, Paris, New York and elsewhere. He told the Bahá’ís to love the Theosophists and attend their meetings, praised their freedom from inherited prejudice, and disagreed with them plainly on two matters: reincarnation, and their grooming of a boy (Krishnamurti) as the coming World Teacher. The guide gathers both the friendship and the disagreements. Paul at Athens is the model of speaking in another group’s house; the Gítá and Plato are the sources of the doctrine of rebirth; and “believe it not” is the Gospel’s word on announced messiahs.",
+ "questions": [
+  "‘Abdu’l-Bahá combined warm friendship with open disagreement. How is that done?",
+  "What makes reincarnation attractive, and what do the readings put in its place?",
+  "Reading 14 praises “motion”. Luke gently mocks those who love “some new thing”. When is seeking a virtue?"
+ ],
+ "outside": [
+  {
+   "id": "acts-unknown-god",
+   "after": "source:ABU0302",
+   "responds": [
+    "source:ABU0302"
+   ],
+   "relation": "adjacent",
+   "why": "Many opportunities to address the Theosophical Society. Paul at Athens: whom therefore ye ignorantly worship, him declare I unto you."
+  },
+  {
+   "id": "luke-not-against-us-is-for-us",
+   "after": "source:AB02265",
+   "responds": [
+    "source:AB02265"
+   ],
+   "relation": "adjacent",
+   "why": "Show the Theosophists the utmost love and associate with them. He that is not against us is for us."
+  },
+  {
+   "id": "acts-some-new-thing",
+   "after": "source:ABU0836",
+   "responds": [
+    "source:ABU0836"
+   ],
+   "relation": "complement",
+   "why": "They are readier to receive this truth than many others. Luke on the Athenians: they spent their time in nothing else, but either to tell, or to hear some new thing. Is openness to every new teaching a readiness for truth, or a way of never arriving?"
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:ABU1997",
+   "responds": [
+    "source:ABU1997"
+   ],
+   "relation": "adjacent",
+   "why": "A meeting that believes in investigating reality. Prove all things; hold fast that which is good."
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:ABU1703",
+   "responds": [
+    "source:ABU1703"
+   ],
+   "relation": "adjacent",
+   "why": "You have risen to help humanity. Have we not all one father?"
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "source:AB04080",
+   "responds": [
+    "source:AB04080"
+   ],
+   "relation": "adjacent",
+   "why": "Go to Theosophical gatherings and speak. I am made all things to all men."
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:ABU1457",
+   "responds": [
+    "source:ABU1457"
+   ],
+   "relation": "contrast",
+   "why": "Many Theosophists hold that people must return again and again. Their source: as when one layeth his worn-out robes away, and taketh new ones, so putteth by the spirit lightly its garb of flesh. The readings reject rebirth and keep the soul’s progress. What does each account do with the unfairness of unequal lives?"
+  },
+  {
+   "id": "hebrews-once-to-die",
+   "after": "source:ABU1457",
+   "responds": [
+    "source:ABU1457"
+   ],
+   "relation": "adjacent",
+   "why": "It is appointed unto men once to die, but after this the judgment."
+  },
+  {
+   "id": "matthew-false-christs",
+   "after": "source:ABU2837",
+   "responds": [
+    "source:ABU2837"
+   ],
+   "relation": "adjacent",
+   "why": "A boy being educated in Europe as the coming teacher. If any man shall say unto you, lo, here is Christ, or there; believe it not."
+  },
+  {
+   "id": "james-doers-of-the-word",
+   "after": "source:ABU3698",
+   "responds": [
+    "source:ABU3698"
+   ],
+   "relation": "adjacent",
+   "why": "For all their awareness and their quest for peace, something is lacking. Be ye doers of the word, and not hearers only."
+  },
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU1486",
+   "responds": [
+    "source:ABU1486"
+   ],
+   "relation": "adjacent",
+   "why": "The Theosophists at least have motion; they are free from ancestral prejudices. Kant: have courage to use your own understanding."
+  },
+  {
+   "id": "john-one-fold",
+   "after": "source:ABU2003",
+   "responds": [
+    "source:ABU2003"
+   ],
+   "relation": "adjacent",
+   "why": "Tell them they are friends. Other sheep I have, which are not of this fold."
+  },
+  {
+   "id": "plato-soul-born-many-times",
+   "after": "source:ABU2886",
+   "responds": [
+    "source:ABU2886"
+   ],
+   "relation": "contrast",
+   "why": "Whether all will progress to the same stages. Plato’s Socrates on the soul: having been born again many times, and having seen all things, it has knowledge of them all. The oldest Western philosophy sided with the Theosophists on this point. On what do the readings rest their different view?"
+  }
+ ],
+ "shortfall": "Readings 3, 4, 9, 10, 16, 17 and 19 are greetings and passing remarks.",
+ "library": {}
+}
