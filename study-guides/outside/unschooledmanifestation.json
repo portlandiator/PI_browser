@@ -1,0 +1,189 @@
+{
+ "format": 2,
+ "slug": "unschooledmanifestation",
+ "subject": "ABCDEC1823254906B8333F43C16877E4",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 50,
+ "quotations": 54,
+ "kept": [
+  "source:BH00001",
+  "source:BH01223",
+  "source:BH00048",
+  "source:BB00001",
+  "source:BB00002",
+  "source:BB00224",
+  "source:BB00157",
+  "source:BB00073",
+  "source:BB00193",
+  "source:BB00015",
+  "source:BB00091",
+  "source:AB00003",
+  "source:AB01889",
+  "source:BHU0006",
+  "source:ABU0218",
+  "source:ABU0127",
+  "source:ABU3698",
+  "source:ABU0836",
+  "source:AB00855",
+  "source:AB00035",
+  "source:AB03104",
+  "source:ABU0107",
+  "source:BH00005",
+  "source:BH00038",
+  "source:AB00029",
+  "source:AB00304",
+  "source:ABU0123",
+  "source:ABU0497",
+  "source:BH00874",
+  "source:BH01282",
+  "source:BH02046",
+  "source:BH04596",
+  "source:BH11395",
+  "source:BH00333",
+  "source:BH00436",
+  "source:BH00785",
+  "source:BH10779",
+  "source:BH04031",
+  "source:BH09922",
+  "source:BH03010",
+  "source:BH03188",
+  "source:BH04358",
+  "source:BH04796",
+  "source:AB05088",
+  "source:ABU1056",
+  "source:ABU2755",
+  "source:ABU1449",
+  "source:ABU0080",
+  "source:ABU1508",
+  "source:ABU1422"
+ ],
+ "introduction": "“We have not entered any school, nor read any of your dissertations.” Bahá’u’lláh said it to the Shah; the Báb, a young merchant with little schooling, said the same to the clergy who examined him; and ‘Abdu’l-Bahá made it one of his standard proofs: knowledge that astonishes the learned, in one who was never taught, has another source. The argument is as old as the Gospels, “how knoweth this man letters, having never learned?”, and is the Qur’an’s own about its Prophet, who “wast not a reader of any scripture before it”. Amos the herdman and Paul’s “neither was I taught it” belong with it. Locke’s blank paper is the empiricist’s reply.",
+ "questions": [
+  "Why is lack of schooling offered as a proof and not an embarrassment?",
+  "What would a sceptic say about the claim, and how could it be tested?",
+  "Is the argument a reason to think less of education? What do the readings elsewhere suggest?"
+ ],
+ "outside": [
+  {
+   "id": "john-never-learned",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“We have not entered any school.” How knoweth this man letters, having never learned? My doctrine is not mine, but his that sent me."
+  },
+  {
+   "id": "amos-no-prophet",
+   "after": "source:BH01223",
+   "responds": [
+    "source:BH01223"
+   ],
+   "relation": "adjacent",
+   "why": "I was seated when the hand of thy Lord raised me. I was no prophet, neither was I a prophet’s son; but I was an herdman: and the Lord took me as I followed the flock."
+  },
+  {
+   "id": "matthew-carpenters-son",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "One never known for learning, not from among the students. Is not this the carpenter’s son?"
+  },
+  {
+   "id": "quran-not-a-reader-before-it",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "If one devoid of those sciences reveals such verses, that is the proof. Thou wast not a reader of any scripture before it, nor didst thou write it with thy right hand, for then might those have doubted, who follow falsehood."
+  },
+  {
+   "id": "jeremiah-i-am-a-child",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Say not, how can one speak for God who is but twenty-five. Say not, I am a child: for thou shalt go to all that I shall send thee."
+  },
+  {
+   "id": "quran-messenger-among-the-unlettered",
+   "after": "source:BB00224",
+   "responds": [
+    "source:BB00224"
+   ],
+   "relation": "adjacent",
+   "why": "“A non-Arab youth from among the merchants, unlettered.” He it is Who hath sent among the unlettered ones a messenger of their own."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:BB00157",
+   "responds": [
+    "source:BB00157"
+   ],
+   "relation": "adjacent",
+   "why": "I have not studied eloquence from any creature. Who hath made man’s mouth? I will be with thy mouth, and teach thee what thou shalt say."
+  },
+  {
+   "id": "galatians-not-after-man",
+   "after": "source:BB00193",
+   "responds": [
+    "source:BB00193"
+   ],
+   "relation": "adjacent",
+   "why": "I have not learned as ye learn. I neither received it of man, neither was I taught it, but by the revelation of Jesus Christ."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:BB00091",
+   "responds": [
+    "source:BB00091"
+   ],
+   "relation": "adjacent",
+   "why": "Ask the just among you whether He studied. They perceived that they were unlearned and ignorant men, and they marvelled."
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Noted for lack of instruction, which made the proof stronger. They found him in the temple, sitting in the midst of the doctors; and all that heard him were astonished at his understanding."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:ABU0218",
+   "responds": [
+    "source:ABU0218"
+   ],
+   "relation": "contrast",
+   "why": "Geniuses often have astonishing knowledge, acquired or innate. Locke held that no one has any knowledge but from experience: let us suppose the mind to be white paper, void of all characters. What would he make of the claim in the readings, and what would count as evidence either way?"
+  },
+  {
+   "id": "corinthians-world-by-wisdom",
+   "after": "source:ABU0127",
+   "responds": [
+    "source:ABU0127"
+   ],
+   "relation": "adjacent",
+   "why": "The sun does not draw its light from other sources. Hath not God made foolish the wisdom of this world?"
+  },
+  {
+   "id": "plato-i-neither-know-nor-think-that-i-know",
+   "after": "source:ABU3698",
+   "responds": [
+    "source:ABU3698"
+   ],
+   "relation": "complement",
+   "why": "To think the World Teacher needs education is an error. Socrates, the teacher of the Greeks, claimed only: I neither know nor think that I know. Is the knowledge the readings ascribe to the Manifestation the same kind of thing as learning, only more of it, or different in kind?"
+  }
+ ],
+ "shortfall": "Readings 8, 10, 13 and 14 repeat the point or apply it to others.",
+ "library": {}
+}
