@@ -1,0 +1,131 @@
+{
+ "format": 2,
+ "slug": "photographs",
+ "subject": "79B6F204399AE4F22739206947ECBC2A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:AB05261",
+  "source:AB01551",
+  "source:AB08058",
+  "source:ABU1784",
+  "source:ABU0314",
+  "source:AB06032",
+  "source:AB03499",
+  "source:AB07010",
+  "source:AB01626",
+  "source:AB08925",
+  "source:AB05703"
+ ],
+ "introduction": "‘Abdu’l-Bahá lived into the age of the camera, and people wanted his photograph. He gave it, sometimes reluctantly, and laid down a rule that Bahá’ís still keep: a portrait may be kept with respect as a remembrance, but is not to be hung up or made an object of devotion; the photograph of Bahá’u’lláh is not displayed at all; and imaginary pictures of the Manifestations are not to be made. The second commandment and Deuteronomy’s “ye saw no manner of similitude” are the root of that caution; Paul and Barnabas tearing their clothes at Lystra show its motive; and “blessed are they that have not seen” is its consolation. Habakkuk’s scorn of images is set against the long experience of traditions that pray before them.",
+ "questions": [
+  "What is the difference between a portrait kept as a remembrance and one kept as an object of devotion? Can the difference be seen from outside?",
+  "Why would the likeness of the Founder of a religion be withheld from display?",
+  "What do images of holy figures do for people, and what do they risk?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-graven-image",
+   "after": "source:AB05261",
+   "responds": [
+    "source:AB05261"
+   ],
+   "relation": "adjacent",
+   "why": "A question about the picture of “this oppressed one”. Thou shalt not make unto thee any graven image, or any likeness of any thing."
+  },
+  {
+   "id": "peter-having-not-seen-ye-love",
+   "after": "source:AB01551",
+   "responds": [
+    "source:AB01551"
+   ],
+   "relation": "adjacent",
+   "why": "A photograph sent to a distant friend. Whom having not seen, ye love."
+  },
+  {
+   "id": "samuel-seeth-not-as-man-seeth",
+   "after": "source:AB08058",
+   "responds": [
+    "source:AB08058"
+   ],
+   "relation": "adjacent",
+   "why": "He went to the studio twice, for a friend’s sake. Man looketh on the outward appearance, but the Lord looketh on the heart."
+  },
+  {
+   "id": "isaiah-man-of-sorrows",
+   "after": "source:ABU1784",
+   "responds": [
+    "source:ABU1784"
+   ],
+   "relation": "adjacent",
+   "why": "Against imaginary portraits of holy figures. He hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him."
+  },
+  {
+   "id": "acts-gods-come-down",
+   "after": "source:ABU0314",
+   "responds": [
+    "source:ABU0314"
+   ],
+   "relation": "adjacent",
+   "why": "Is this the time for plays about the Faith’s history? At Lystra the crowd cried, the gods are come down to us in the likeness of men; and the apostles rent their clothes: we also are men of like passions with you."
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:AB06032",
+   "responds": [
+    "source:AB06032"
+   ],
+   "relation": "adjacent",
+   "why": "Place the Greatest Name in your dwelling: a word, where others hang a picture. These words shall be in thine heart, and thou shalt talk of them when thou sittest in thine house."
+  },
+  {
+   "id": "deuteronomy-no-similitude",
+   "after": "source:AB03499",
+   "responds": [
+    "source:AB03499"
+   ],
+   "relation": "adjacent",
+   "why": "The photograph is not to be hung in rooms. Ye saw no manner of similitude on the day that the Lord spake unto you: lest ye corrupt yourselves, and make you a graven image."
+  },
+  {
+   "id": "john-not-seen-and-yet-believed",
+   "after": "source:AB07010",
+   "responds": [
+    "source:AB07010"
+   ],
+   "relation": "adjacent",
+   "why": "Friends asking for a likeness. Blessed are they that have not seen, and yet have believed."
+  },
+  {
+   "id": "habakkuk-what-profiteth-the-graven-image",
+   "after": "source:AB01626",
+   "responds": [
+    "source:AB01626"
+   ],
+   "relation": "contrast",
+   "why": "The people of doubt have created an imaginary portrait. Habakkuk’s whole judgment on images: what profiteth the graven image? Christians and Hindus have prayed before images for centuries and found them a help. What do the readings fear from a portrait, and what do they allow it?"
+  },
+  {
+   "id": "numbers-fringes-remember",
+   "after": "source:AB08925",
+   "responds": [
+    "source:AB08925"
+   ],
+   "relation": "adjacent",
+   "why": "Photographs of historic places requested. That ye may look upon it, and remember."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB05703",
+   "responds": [
+    "source:AB05703"
+   ],
+   "relation": "adjacent",
+   "why": "A closing reply on the same matter. Now we see through a glass, darkly; but then face to face."
+  }
+ ],
+ "library": {}
+}
