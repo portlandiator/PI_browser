@@ -1,0 +1,248 @@
+{
+ "format": 2,
+ "slug": "sulaymaniyyih",
+ "subject": "2E0BDF1117A9E8E28B95887851BB65EC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 27,
+ "quotations": 28,
+ "kept": [
+  "source:ABU2838",
+  "source:BHU0002",
+  "source:BH03441",
+  "source:AB00002",
+  "source:ABU0882",
+  "source:ABU1843",
+  "source:ABU3753",
+  "source:ABU2451",
+  "source:AB00097",
+  "source:ABU0576",
+  "source:ABU0711",
+  "source:ABU0455",
+  "source:ABU3147",
+  "source:BH04767",
+  "source:BH00579",
+  "source:ABU2005",
+  "source:AB00003",
+  "source:ABU2412",
+  "source:ABU0047",
+  "source:ABU3479",
+  "source:ABU0787",
+  "source:ABU1828",
+  "source:ABU0254",
+  "source:ABU0223",
+  "source:ABU2325",
+  "source:BH01052",
+  "source:ABU0775"
+ ],
+ "introduction": "In 1854, a year after reaching Baghdad as an exile, Bahá’u’lláh left without a word and lived for two years as a dervish in the mountains of Kurdistan near Sulaymáníyyih. He said afterwards that He went so as not to become “the cause of discord among the faithful”; the Bábí community meanwhile declined, and He was at length found and persuaded to return. These readings give His own account, His family’s memory of the disappearance, and stories of those He met. Withdrawal to the wilderness runs through the lives of the prophets: Elijah’s cave and the “still small voice”, John in camel’s hair, Jesus’s forty days and his solitary prayers. Abram’s “let there be no strife” matches the reason given. Thoreau and Pascal speak for solitude as a way of seeing, and Paul’s “all things to all men” meets the charge in reading 22.",
+ "questions": [
+  "Bahá’u’lláh says He withdrew to avoid being a cause of discord. When is leaving a troubled community the right thing to do, and when is returning?",
+  "What do the wilderness periods of Elijah, Jesus and Bahá’u’lláh have in common, and what followed each?",
+  "He lived among the poor as one of them and drew both the unlettered and the learned. What do the stories suggest attracted people?",
+  "Reading 22 reports a criticism. How would you answer it?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-raiment-of-camels-hair",
+   "after": "source:ABU2838",
+   "responds": [
+    "source:ABU2838"
+   ],
+   "relation": "adjacent",
+   "why": "He returned in a worn coat and cotton headgear. John had his raiment of camel’s hair, and a leathern girdle about his loins."
+  },
+  {
+   "id": "matthew-fasted-forty-days",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "adjacent",
+   "why": "A life of complete solitude on a remote mountain. Then was Jesus led up of the spirit into the wilderness; and when he had fasted forty days and forty nights, he was afterward an hungred."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:BHU0002",
+   "responds": [
+    "source:BHU0002"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah in his cave on Horeb: after the wind, the earthquake and the fire, a still small voice."
+  },
+  {
+   "id": "genesis-let-there-be-no-strife",
+   "after": "source:BH03441",
+   "responds": [
+    "source:BH03441"
+   ],
+   "relation": "adjacent",
+   "why": "He withdrew so as not to be a cause of discord among the faithful. Abram to Lot: let there be no strife, I pray thee, between me and thee; for we be brethren."
+  },
+  {
+   "id": "mark-a-great-while-before-day",
+   "after": "source:BH03441",
+   "responds": [
+    "source:BH03441"
+   ],
+   "relation": "adjacent",
+   "why": "Rising up a great while before day, he went out, and departed into a solitary place, and there prayed."
+  },
+  {
+   "id": "psalm-wings-like-a-dove",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Alone in a cave, with no companion. Oh that I had wings like a dove! Lo, then would I wander far off, and remain in the wilderness."
+  },
+  {
+   "id": "thoreau-live-deliberately",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "complement",
+   "why": "Thoreau’s reason for his own withdrawal: I went to the woods because I wished to live deliberately, to front only the essential facts of life. Bahá’u’lláh’s stated reason was to avoid becoming a source of contention. What different things can solitude be for?"
+  },
+  {
+   "id": "corinthians-for-your-sakes-he-became-poor",
+   "after": "source:ABU0882",
+   "responds": [
+    "source:ABU0882"
+   ],
+   "relation": "adjacent",
+   "why": "He left great wealth and lived two years among the poor. Though he was rich, yet for your sakes he became poor."
+  },
+  {
+   "id": "matthew-poor-in-spirit",
+   "after": "source:ABU1843",
+   "responds": [
+    "source:ABU1843"
+   ],
+   "relation": "adjacent",
+   "why": "He took the title Darvísh, the poor. Blessed are the poor in spirit: for theirs is the kingdom of heaven."
+  },
+  {
+   "id": "saadi-ten-dervishes",
+   "after": "source:ABU1843",
+   "responds": [
+    "source:ABU1843"
+   ],
+   "relation": "adjacent",
+   "why": "Sa‘dí’s proverb about the poor in spirit: ten dervishes may sleep under the same blanket, but one country cannot hold two kings."
+  },
+  {
+   "id": "samuel-absalom-stole-the-hearts",
+   "after": "source:AB00097",
+   "responds": [
+    "source:AB00097"
+   ],
+   "relation": "adjacent",
+   "why": "In His absence a kinsman acted as he pleased. So Absalom stole the hearts of the men of Israel."
+  },
+  {
+   "id": "kings-queen-of-sheba",
+   "after": "source:ABU0576",
+   "responds": [
+    "source:ABU0576"
+   ],
+   "relation": "adjacent",
+   "why": "Kurdish notables who had met Him in the mountains came to Baghdad. She came to prove him with hard questions."
+  },
+  {
+   "id": "luke-about-my-fathers-business",
+   "after": "source:ABU0455",
+   "responds": [
+    "source:ABU0455"
+   ],
+   "relation": "adjacent",
+   "why": "Two were sent to search, and found Him. Thy father and I have sought thee sorrowing. How is it that ye sought me?"
+  },
+  {
+   "id": "pascal-own-chamber",
+   "after": "source:ABU3147",
+   "responds": [
+    "source:ABU3147"
+   ],
+   "relation": "adjacent",
+   "why": "The Hidden Words was revealed after the return. Pascal: all the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber."
+  },
+  {
+   "id": "kings-it-is-enough",
+   "after": "source:BH00579",
+   "responds": [
+    "source:BH00579"
+   ],
+   "relation": "adjacent",
+   "why": "“I roamed the wilderness of resignation.” Elijah went a day’s journey into the wilderness, and sat down under a juniper tree: it is enough; now, O Lord, take away my life."
+  },
+  {
+   "id": "matthew-foxes-have-holes",
+   "after": "source:BH00579",
+   "responds": [
+    "source:BH00579"
+   ],
+   "relation": "adjacent",
+   "why": "Homelessness chosen: the foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head."
+  },
+  {
+   "id": "matthew-brought-little-children",
+   "after": "source:ABU2005",
+   "responds": [
+    "source:ABU2005"
+   ],
+   "relation": "adjacent",
+   "why": "He saw a boy weeping in the street, and what followed drew the learned to Him. Suffer little children, and forbid them not, to come unto me."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The hearts of the Sufis were drawn; the learned were amazed. How knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "corinthians-all-things-to-all-men",
+   "after": "source:ABU1828",
+   "responds": [
+    "source:ABU1828"
+   ],
+   "relation": "contrast",
+   "why": "An enemy charged that He attracted the Kurds by using Sufi and gnostic terms. Paul admitted the method: I am made all things to all men, that I might by all means save some. When is speaking another people’s religious language respect, and when is it the stratagem the critic alleged?"
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:ABU0254",
+   "responds": [
+    "source:ABU0254"
+   ],
+   "relation": "adjacent",
+   "why": "A rugged, illiterate Kurd came to see Him. Thou hast hid these things from the wise and prudent, and hast revealed them unto babes."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:BH01052",
+   "responds": [
+    "source:BH01052"
+   ],
+   "relation": "adjacent",
+   "why": "“If my Beloved were to command me to bear stones from the mountains, this would be dearer.” I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness."
+  },
+  {
+   "id": "luke-prodigal-father-ran",
+   "after": "source:ABU0775",
+   "responds": [
+    "source:ABU0775"
+   ],
+   "relation": "complement",
+   "why": "He returned, opened wide the door, and summoned all. In the parable it is the father who waits at home and the son who comes back from a far country. Here the one who left is the one the community needed. What had to change in those who stayed?"
+  }
+ ],
+ "shortfall": "Readings 7, 8, 11, 14, 18 to 21, 24 and 25 are recollections of circumstance (food, dates, persons) that add to the story without calling for a companion.",
+ "library": {}
+}
