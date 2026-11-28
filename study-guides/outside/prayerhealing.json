@@ -1,0 +1,469 @@
+{
+ "format": 2,
+ "slug": "prayerhealing",
+ "subject": "D0935698C4CEEBA12E206FCBCA340547",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 58,
+ "quotations": 62,
+ "kept": [
+  "source:BH01313",
+  "source:AB00152",
+  "source:AB01651",
+  "source:AB08150",
+  "source:AB02887",
+  "source:AB06421",
+  "source:AB05031",
+  "source:AB01808",
+  "source:BH11738",
+  "source:BH07721",
+  "source:AB09728",
+  "source:AB10208",
+  "source:AB09717",
+  "source:AB03537",
+  "source:AB06676",
+  "source:AB10568",
+  "source:AB02522",
+  "source:BH07105",
+  "source:BH08013",
+  "source:BH00068",
+  "source:BH01727",
+  "source:BH11672",
+  "source:BH08551",
+  "source:BH10703",
+  "source:BH04450",
+  "source:BH07780",
+  "source:BH00290",
+  "source:BH04100",
+  "source:BH04209",
+  "source:AB06553",
+  "source:AB02838",
+  "source:AB10177",
+  "source:BH04990",
+  "source:AB04172",
+  "source:AB00735",
+  "source:BH04475",
+  "source:AB01096",
+  "source:BH10292",
+  "source:AB10331",
+  "source:BH06194",
+  "source:BH09409",
+  "source:BH10705",
+  "source:AB10966",
+  "source:AB01708",
+  "source:BB00615",
+  "source:AB09036",
+  "source:AB09625",
+  "source:BH07997",
+  "source:AB05013",
+  "source:BH03092",
+  "source:AB09941",
+  "source:AB02866",
+  "source:AB07056",
+  "source:BH06414",
+  "source:BH09083",
+  "source:AB02700",
+  "source:BH00870",
+  "source:BH04923"
+ ],
+ "introduction": "“Thy name is my healing, O my God, and remembrance of Thee is my remedy.” The best-known Bahá’í healing prayer opens this guide, and most of what follows are prayers for the sick, for a named man or woman, for oneself, for the eyes, for physicians, and at the end for the world. Two readings explain: the prayers are for spiritual and physical healing alike, and when the sick die despite them the prayers have not failed. The Psalms and Jeremiah pray in the same words, “Heal me, O Lord, and I shall be healed”; the Qur’an’s Abraham says “when I sicken, then He healeth me”; the Gospels supply the leper, the woman in the crowd and the man by the pool. On the hard question there are David and his child and Paul’s unremoved thorn. Ben Sira’s “Honour a physician” and the Hippocratic oath stand with reading 3 on medicine, against the Chronicler’s reproach of a king who went to the doctors. The last reading’s prayer for the world is met by the tree whose leaves are “for the healing of the nations”.",
+ "questions": [
+  "Reading 2 says the healing prayers serve body and spirit. In reading 1, which is being asked for? Can the two requests come apart?",
+  "Reading 8 answers why some die although healing prayers were said. Compare David’s conduct after his child’s death and the answer given to Paul. What is such a prayer for, if not a guaranteed cure?",
+  "Ben Sira honours the physician; the Chronicler blames Asa for consulting one. Where do the readings stand, and why does reading 3 pray for doctors?",
+  "Many of these prayers are for someone else. What does praying for another person’s healing do for the one who prays?",
+  "“Ask God to heal the world.” What are the world’s diseases, and what in this guide suggests their remedy?"
+ ],
+ "outside": [
+  {
+   "id": "jeremiah-heal-me-o-lord",
+   "after": "source:BH01313",
+   "responds": [
+    "source:BH01313"
+   ],
+   "relation": "adjacent",
+   "why": "“Thy name is my healing, O my God, and remembrance of Thee is my remedy.” Heal me, O Lord, and I shall be healed; save me, and I shall be saved: for thou art my praise."
+  },
+  {
+   "id": "quran-when-i-sicken",
+   "after": "source:BH01313",
+   "responds": [
+    "source:BH01313"
+   ],
+   "relation": "adjacent",
+   "why": "Abraham’s confession in the Qur’an: and when I sicken, then He healeth me."
+  },
+  {
+   "id": "john-epistle-prosper-and-be-in-health",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "The healing prayers apply to body and to spirit. I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth."
+  },
+  {
+   "id": "quran-balm-for-the-breasts",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "An exhortation from your Lord, a balm for that which is in the breasts."
+  },
+  {
+   "id": "sirach-honour-a-physician",
+   "after": "source:AB01651",
+   "responds": [
+    "source:AB01651"
+   ],
+   "relation": "adjacent",
+   "why": "Physicians who join the medicine of bodies with that of spirits. Ben Sira: honour a physician, for the Lord hath created him. The Lord hath created medicines out of the earth; and he that is wise will not abhor them."
+  },
+  {
+   "id": "hippocrates-for-the-benefit-of-the-sick",
+   "after": "source:AB01651",
+   "responds": [
+    "source:AB01651"
+   ],
+   "relation": "adjacent",
+   "why": "The physicians’ own oath: into whatever houses I enter, I will go into them for the benefit of the sick."
+  },
+  {
+   "id": "jeremiah-balm-in-gilead",
+   "after": "source:AB08150",
+   "responds": [
+    "source:AB08150"
+   ],
+   "relation": "adjacent",
+   "why": "“O beloved physician! … prescribe a healing medicine, for I am ailing.” Is there no balm in Gilead; is there no physician there?"
+  },
+  {
+   "id": "psalm-healeth-the-broken-in-heart",
+   "after": "source:AB02887",
+   "responds": [
+    "source:AB02887"
+   ],
+   "relation": "adjacent",
+   "why": "“I am wounded - grant me balm.” He healeth the broken in heart, and bindeth up their wounds."
+  },
+  {
+   "id": "mark-suffered-of-many-physicians",
+   "after": "source:AB05031",
+   "responds": [
+    "source:AB05031"
+   ],
+   "relation": "adjacent",
+   "why": "The skill of physicians has failed. A woman had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse."
+  },
+  {
+   "id": "chronicles-sought-to-the-physicians",
+   "after": "source:AB05031",
+   "responds": [
+    "source:AB05031"
+   ],
+   "relation": "contrast",
+   "why": "The Chronicler blames a king who in his disease sought not to the Lord, but to the physicians. The readings never set the two against each other; reading 3 prays for doctors. How should prayer and medicine stand to each other?"
+  },
+  {
+   "id": "samuel-i-shall-go-to-him",
+   "after": "source:AB01808",
+   "responds": [
+    "source:AB01808"
+   ],
+   "relation": "adjacent",
+   "why": "Why some died despite the healing prayers. David fasted and wept for his sick child, and when the child died, rose and ate: can I bring him back again? I shall go to him, but he shall not return to me."
+  },
+  {
+   "id": "corinthians-strength-in-weakness",
+   "after": "source:AB01808",
+   "responds": [
+    "source:AB01808"
+   ],
+   "relation": "adjacent",
+   "why": "Paul asked three times for a thorn to be removed, and was answered: my grace is sufficient for thee: for my strength is made perfect in weakness."
+  },
+  {
+   "id": "john-who-did-sin",
+   "after": "source:AB01808",
+   "responds": [
+    "source:AB01808"
+   ],
+   "relation": "adjacent",
+   "why": "And of a man born blind the disciples asked whose sin it was: neither hath this man sinned, nor his parents."
+  },
+  {
+   "id": "james-prayer-of-faith",
+   "after": "source:BH11738",
+   "responds": [
+    "source:BH11738"
+   ],
+   "relation": "adjacent",
+   "why": "He is the Answerer of the prayers of suppliants. Is any sick among you? let them pray over him; and the prayer of faith shall save the sick."
+  },
+  {
+   "id": "john-wilt-thou-be-made-whole",
+   "after": "source:BH07721",
+   "responds": [
+    "source:BH07721"
+   ],
+   "relation": "adjacent",
+   "why": "Make him whole, and give him constancy and tranquillity. To a man thirty-eight years infirm: wilt thou be made whole?"
+  },
+  {
+   "id": "proverbs-spirit-of-a-man-sustain",
+   "after": "source:AB09728",
+   "responds": [
+    "source:AB09728"
+   ],
+   "relation": "adjacent",
+   "why": "“If I am sick, I gain eternal health.” The spirit of a man will sustain his infirmity; but a wounded spirit who can bear?"
+  },
+  {
+   "id": "matthew-come-unto-me",
+   "after": "source:AB10208",
+   "responds": [
+    "source:AB10208"
+   ],
+   "relation": "adjacent",
+   "why": "A wish that trials be eased. Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+  },
+  {
+   "id": "psalm-healeth-all-thy-diseases",
+   "after": "source:AB09717",
+   "responds": [
+    "source:AB09717"
+   ],
+   "relation": "adjacent",
+   "why": "Whose remembrance is the healing of hearts. Bless the Lord, O my soul: who forgiveth all thine iniquities; who healeth all thy diseases."
+  },
+  {
+   "id": "mark-thy-sins-be-forgiven-thee",
+   "after": "source:AB06676",
+   "responds": [
+    "source:AB06676"
+   ],
+   "relation": "adjacent",
+   "why": "Forgive my sins, provide a shelter, heal. Whether is it easier to say, Thy sins be forgiven thee; or to say, Arise, and take up thy bed, and walk?"
+  },
+  {
+   "id": "luke-thy-faith-hath-made-thee-whole",
+   "after": "source:BH07105",
+   "responds": [
+    "source:BH07105"
+   ],
+   "relation": "adjacent",
+   "why": "“I am sore sick; I have held fast the cord of Thy healing.” The woman who touched his garment in the crowd: daughter, be of good comfort: thy faith hath made thee whole."
+  },
+  {
+   "id": "mark-if-thou-wilt-thou-canst",
+   "after": "source:BH08013",
+   "responds": [
+    "source:BH08013"
+   ],
+   "relation": "adjacent",
+   "why": "“I beg of Thee by the ocean of Thy healing.” A leper, kneeling: if thou wilt, thou canst make me clean. And Jesus, moved with compassion, touched him: I will; be thou clean."
+  },
+  {
+   "id": "kings-wash-in-jordan-seven-times",
+   "after": "source:BH01727",
+   "responds": [
+    "source:BH01727"
+   ],
+   "relation": "adjacent",
+   "why": "Give me to drink from the stream of Thy favour, that it may purify me. Naaman was told only to wash in Jordan seven times, and was angry that so little was asked."
+  },
+  {
+   "id": "malachi-sun-of-righteousness",
+   "after": "source:BH08551",
+   "responds": [
+    "source:BH08551"
+   ],
+   "relation": "adjacent",
+   "why": "May God rain down healing from the heaven of grace. Unto you that fear my name shall the Sun of righteousness arise with healing in his wings."
+  },
+  {
+   "id": "romans-groanings-cannot-be-uttered",
+   "after": "source:BH04100",
+   "responds": [
+    "source:BH04100"
+   ],
+   "relation": "adjacent",
+   "why": "Gazing toward the heaven of grace and waiting. The Spirit also helpeth our infirmities: for we know not what we should pray for as we ought."
+  },
+  {
+   "id": "matthew-freely-give",
+   "after": "source:AB02838",
+   "responds": [
+    "source:AB02838"
+   ],
+   "relation": "adjacent",
+   "why": "Aid this servant to revive spirits and heal bodies. Heal the sick, cleanse the lepers: freely ye have received, freely give."
+  },
+  {
+   "id": "luke-physician-heal-thyself",
+   "after": "source:AB10177",
+   "responds": [
+    "source:AB10177"
+   ],
+   "relation": "complement",
+   "why": "“O thou Spiritual Physician! Turn unto God with a heart beating with His love.” The proverb Jesus expected to hear: physician, heal thyself. What must a healer of spirits have attended to in himself?"
+  },
+  {
+   "id": "psalm-make-all-his-bed-in-his-sickness",
+   "after": "source:BH04475",
+   "responds": [
+    "source:BH04475"
+   ],
+   "relation": "adjacent",
+   "why": "She is sick, and has come under the Tree of Thy healing. The Lord will strengthen him upon the bed of languishing: thou wilt make all his bed in his sickness."
+  },
+  {
+   "id": "psalm-nigh-unto-broken-heart",
+   "after": "source:BH09409",
+   "responds": [
+    "source:BH09409"
+   ],
+   "relation": "adjacent",
+   "why": "Her cries have risen to heaven. The Lord is nigh unto them that are of a broken heart."
+  },
+  {
+   "id": "matthew-whole-need-not-a-physician",
+   "after": "source:AB10966",
+   "responds": [
+    "source:AB10966"
+   ],
+   "relation": "adjacent",
+   "why": "Heal this sick one with heavenly medicine. They that be whole need not a physician, but they that are sick."
+  },
+  {
+   "id": "isaiah-eyes-of-the-blind-opened",
+   "after": "source:AB09036",
+   "responds": [
+    "source:AB09036"
+   ],
+   "relation": "adjacent",
+   "why": "Heal his eyes and illumine his insight; let him hear. Then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped."
+  },
+  {
+   "id": "isaiah-behold-my-servant",
+   "after": "source:AB02866",
+   "responds": [
+    "source:AB02866"
+   ],
+   "relation": "adjacent",
+   "why": "Have mercy on the feeble. A bruised reed shall he not break, and the smoking flax shall he not quench."
+  },
+  {
+   "id": "matthew-art-thou-he",
+   "after": "source:AB07056",
+   "responds": [
+    "source:AB07056"
+   ],
+   "relation": "adjacent",
+   "why": "Make the eyes seeing, the ears hearing; bring the dead to life. The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear."
+  },
+  {
+   "id": "deuteronomy-i-kill-and-i-make-alive",
+   "after": "source:BH00870",
+   "responds": [
+    "source:BH00870"
+   ],
+   "relation": "complement",
+   "why": "“He is the Healer, the Sufficer.” Deuteronomy gives the whole of the claim: I kill, and I make alive; I wound, and I heal. What does it mean to ask healing of the One who is also held to send the sickness?"
+  },
+  {
+   "id": "revelation-healing-of-the-nations",
+   "after": "source:BH04923",
+   "responds": [
+    "source:BH04923"
+   ],
+   "relation": "adjacent",
+   "why": "“Ask God to heal the world and cure it of its diseases.” The tree of life at the end of the Bible: the leaves of the tree were for the healing of the nations."
+  },
+  {
+   "id": "bacon-new-remedies",
+   "after": "source:BH04923",
+   "responds": [
+    "source:BH04923"
+   ],
+   "relation": "complement",
+   "why": "Bacon, of the world’s ills: he that will not apply new remedies must expect new evils. What would healing the world’s diseases require besides prayer, on the readings’ own view of physicians?"
+  }
+ ],
+ "shortfall": "Readings 19 to 30 and 33 to 56 are healing prayers for particular persons that differ chiefly in the names by which God is invoked; companions were given to the distinct notes among them, and the rest were left to speak alike.",
+ "library": {
+  "mark-if-thou-wilt-thou-canst": {
+   "text": "And there came a leper to him, beseeching him, and kneeling down to him, and saying unto him, If thou wilt, thou canst make me clean. And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him, I will; be thou clean",
+   "work": "Mark 1:40–41",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A40-41&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-make-all-his-bed-in-his-sickness": {
+   "text": "The Lord will strengthen him upon the bed of languishing: thou wilt make all his bed in his sickness",
+   "work": "Psalm 41:3",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2041%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "sirach-honour-a-physician": {
+   "text": "Honour a physician with the honour due unto him for the uses which ye may have of him: for the Lord hath created him. For of the most High cometh healing, and he shall receive honour of the king. The skill of the physician shall lift up his head: and in the sight of great men he shall be in admiration. The Lord hath created medicines out of the earth; and he that is wise will not abhor them",
+   "work": "Ecclesiasticus (Sirach) 38:1–4",
+   "year": "c. 2nd century BCE",
+   "sortYear": -180,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiasticus",
+    "label": "Wikisource",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\b\\d+\\s+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
