@@ -1,0 +1,164 @@
+{
+ "format": 2,
+ "slug": "fewness",
+ "subject": "316E9F3A39B1EA9AF16462804C054A9E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 25,
+ "quotations": 25,
+ "kept": [
+  "source:ABU2763",
+  "source:ABU0025",
+  "source:ABU0465",
+  "source:AB02333",
+  "source:AB02652",
+  "source:ABU2897",
+  "source:ABU0090",
+  "source:ABU1897",
+  "source:ABU1939",
+  "source:AB00348",
+  "source:ABU0652",
+  "source:AB01720",
+  "source:AB00956",
+  "source:BH03689",
+  "source:BH00536",
+  "source:BH01462",
+  "source:BH01230",
+  "source:ABU0796",
+  "source:AB00169",
+  "source:AB00663",
+  "source:AB00774",
+  "source:AB04396",
+  "source:AB00898",
+  "source:AB02622",
+  "source:AB04933"
+ ],
+ "introduction": "A reporter asked ‘Abdu’l-Bahá how many followers he had. “We have no statistics,” he said, “and we do not consider this important.” To small groups in Western cities he said it again and again: look at the quality of hearts, remember that the largest meeting in Christ’s lifetime had twelve at the table, and that one lamp can light a thousand. The Bible is full of the theme: Gideon’s three hundred, “by many or by few”, “the fewest of all people”, the mustard seed, the leaven, the little flock, “the day of small things”; and the Qur’an has its little company that overcame a host.",
+ "questions": [
+  "Why do the readings refuse to count?",
+  "What can a small group do that a large one cannot?",
+  "Is there a danger in the idea that the few are the faithful?"
+ ],
+ "outside": [
+  {
+   "id": "samuel-by-many-or-by-few",
+   "after": "source:ABU2763",
+   "responds": [
+    "source:ABU2763"
+   ],
+   "relation": "adjacent",
+   "why": "“We have no statistics.” There is no restraint to the Lord to save by many or by few."
+  },
+  {
+   "id": "judges-by-the-three-hundred",
+   "after": "source:ABU0025",
+   "responds": [
+    "source:ABU0025"
+   ],
+   "relation": "adjacent",
+   "why": "Do not look at your small number. By the three hundred men that lapped will I save you."
+  },
+  {
+   "id": "deuteronomy-not-because-ye-were-more",
+   "after": "source:ABU0465",
+   "responds": [
+    "source:ABU0465"
+   ],
+   "relation": "adjacent",
+   "why": "The purpose is attachment, not numbers. The Lord did not choose you because ye were more in number than any people; for ye were the fewest of all people."
+  },
+  {
+   "id": "luke-fear-not-little-flock",
+   "after": "source:AB02652",
+   "responds": [
+    "source:AB02652"
+   ],
+   "relation": "adjacent",
+   "why": "Look not upon the fewness of numbers; seek out hearts that are pure. Fear not, little flock."
+  },
+  {
+   "id": "matthew-two-or-three-gathered",
+   "after": "source:ABU2897",
+   "responds": [
+    "source:ABU2897"
+   ],
+   "relation": "adjacent",
+   "why": "An assembly of ten. Where two or three are gathered together in my name, there am I in the midst of them."
+  },
+  {
+   "id": "matthew-mustard-seed",
+   "after": "source:ABU0090",
+   "responds": [
+    "source:ABU0090"
+   ],
+   "relation": "adjacent",
+   "why": "In His days a small number were guided. The least of all seeds becometh a tree."
+  },
+  {
+   "id": "matthew-leaven",
+   "after": "source:ABU0652",
+   "responds": [
+    "source:ABU0652"
+   ],
+   "relation": "adjacent",
+   "why": "A movement from a small, inconspicuous beginning. A little leaven, which a woman took, and hid in three measures of meal, till the whole was leavened."
+  },
+  {
+   "id": "zechariah-day-of-small-things",
+   "after": "source:AB01720",
+   "responds": [
+    "source:AB01720"
+   ],
+   "relation": "adjacent",
+   "why": "Look not on the present. Who hath despised the day of small things?"
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:BH03689",
+   "responds": [
+    "source:BH03689"
+   ],
+   "relation": "adjacent",
+   "why": "One lamp lights lamp after lamp. Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house."
+  },
+  {
+   "id": "quran-how-many-a-little-company",
+   "after": "source:BH00536",
+   "responds": [
+    "source:BH00536"
+   ],
+   "relation": "adjacent",
+   "why": "Victory has never depended on outward forces. How many a little company hath overcome a mighty host by Allah’s leave!"
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:BH01230",
+   "responds": [
+    "source:BH01230"
+   ],
+   "relation": "adjacent",
+   "why": "He could through a single soul. God hath chosen the weak things of the world to confound the things which are mighty."
+  },
+  {
+   "id": "shakespeare-happy-few",
+   "after": "source:ABU0796",
+   "responds": [
+    "source:ABU0796"
+   ],
+   "relation": "adjacent",
+   "why": "The hosts of Christ were few. We few, we happy few, we band of brothers."
+  },
+  {
+   "id": "matthew-strait-gate",
+   "after": "source:AB00169",
+   "responds": [
+    "source:AB00169"
+   ],
+   "relation": "complement",
+   "why": "Be not concerned with the smallness of your numbers. Strait is the gate, and narrow is the way, and few there be that find it. The readings expect the few to become many. Does a small community risk taking pride in being few?"
+  }
+ ],
+ "shortfall": "Readings 4, 8, 10, 13, 16 and 20 onward repeat the example of Christ’s few disciples.",
+ "library": {}
+}
