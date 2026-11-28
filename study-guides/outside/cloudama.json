@@ -1,0 +1,269 @@
+{
+ "format": 2,
+ "slug": "cloudama",
+ "subject": "C8C084ECDBD341D0AA2C1FA5716E66E3",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 23,
+ "quotations": 26,
+ "kept": [
+  "source:AB06442",
+  "source:BH05189",
+  "source:BH00476",
+  "source:BH10808",
+  "source:BH09581",
+  "source:BH09880",
+  "source:BH00952",
+  "source:BH07723",
+  "source:ABU0044",
+  "source:BHU0033",
+  "source:BB00651",
+  "source:BB00001",
+  "source:BB00204",
+  "source:BB00007",
+  "source:BH00267",
+  "source:BB00047",
+  "source:BB00002",
+  "source:BH00012",
+  "source:BH00296",
+  "selection:eeb795dd06b17a73b3f85beb",
+  "selection:ac5be9bfcc792e33bf2e741d",
+  "selection:04f52465b91e755351e95333",
+  "selection:ecd3cc3e2025a3d3b4a441d0"
+ ],
+ "introduction": "‘Amá’, “the Cloud”, comes from a saying attributed to Muhammad: asked where God was before He made creation, he answered, “In a cloud, above which was air and below which was air.” Sufi writers made it a name for the unknowable state of the divine before any manifestation, and the Báb and Bahá’u’lláh use it constantly: “the Point of the Cloud”, “the atmosphere of the cloud of unknowing”, “We are from ‘Amá’”. Reading 11 links the word with blindness. Scripture has the same cloud. Moses “drew near unto the thick darkness where God was”; Solomon says God “would dwell in the thick darkness”; the Psalmist sees “clouds and darkness round about him”; the Son of man comes “with the clouds of heaven”. A fourteenth-century English contemplative wrote The Cloud of Unknowing on the theme, and Pascal, Lao Tzu and Plotinus each say in their own terms that the source of things cannot be thought.",
+ "questions": [
+  "What does the image of a cloud, “seen and unseen”, say about God that neither “light” nor “darkness” says alone?",
+  "The Cloud of Unknowing holds that God can be loved but not thought. How does that compare with the readings’ use of the term?",
+  "“Where do You come from?” “We are from ‘Amá’.” What kind of answer is that?",
+  "If the divine Essence is wrapped in a cloud, what is it that revelation reveals?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-thick-darkness-where-god-was",
+   "after": "source:AB06442",
+   "responds": [
+    "source:AB06442"
+   ],
+   "relation": "adjacent",
+   "why": "A subtle cloud that is seen and unseen. And the people stood afar off, and Moses drew near unto the thick darkness where God was."
+  },
+  {
+   "id": "cloud-by-love-not-thought",
+   "after": "source:AB06442",
+   "responds": [
+    "source:AB06442"
+   ],
+   "relation": "adjacent",
+   "why": "An English mystic gave a whole book this name: of God Himself can no man think. He may well be loved, but not thought. By love may He be gotten and holden; but by thought never."
+  },
+  {
+   "id": "psalm-clouds-and-darkness",
+   "after": "source:BH05189",
+   "responds": [
+    "source:BH05189"
+   ],
+   "relation": "adjacent",
+   "why": "An ocean placed above the seas of names. Clouds and darkness are round about him: righteousness and judgment are the habitation of his throne."
+  },
+  {
+   "id": "timothy-light-unapproachable",
+   "after": "source:BH00476",
+   "responds": [
+    "source:BH00476"
+   ],
+   "relation": "adjacent",
+   "why": "The Essence sanctified from every description. Dwelling in the light which no man can approach unto; whom no man hath seen, nor can see."
+  },
+  {
+   "id": "pascal-infinitely-incomprehensible",
+   "after": "source:BH00476",
+   "responds": [
+    "source:BH00476"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal: if there is a God, He is infinitely incomprehensible, since, having neither parts nor limits, He has no affinity to us."
+  },
+  {
+   "id": "exodus-face-shone",
+   "after": "source:BH10808",
+   "responds": [
+    "source:BH10808"
+   ],
+   "relation": "adjacent",
+   "why": "The Beauty of the Unseen lifted the veil. When Moses came down, the skin of his face shone."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:BH09581",
+   "responds": [
+    "source:BH09581"
+   ],
+   "relation": "adjacent",
+   "why": "The Point of the Cloud came to rest upon the throne of utterance. In the beginning was the Word, and the Word was with God."
+  },
+  {
+   "id": "genesis-spirit-moved-upon-the-waters",
+   "after": "source:BH09581",
+   "responds": [
+    "source:BH09581"
+   ],
+   "relation": "adjacent",
+   "why": "Darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+  },
+  {
+   "id": "john-epistle-god-is-light",
+   "after": "source:BH00952",
+   "responds": [
+    "source:BH00952"
+   ],
+   "relation": "adjacent",
+   "why": "In the atmosphere of the cloud: “He is Light”. God is light, and in him is no darkness at all."
+  },
+  {
+   "id": "kings-dwell-in-the-thick-darkness",
+   "after": "source:BH00952",
+   "responds": [
+    "source:BH00952"
+   ],
+   "relation": "complement",
+   "why": "Solomon at the dedication of the Temple said the other half: the Lord said that he would dwell in the thick darkness. Light with no darkness, and a dwelling in darkness: what does the image of a cloud do with the two?"
+  },
+  {
+   "id": "daniel-son-of-man",
+   "after": "source:ABU0044",
+   "responds": [
+    "source:ABU0044"
+   ],
+   "relation": "adjacent",
+   "why": "Christ’s coming “in the clouds”, explained in the Book of Certitude. One like the Son of man came with the clouds of heaven."
+  },
+  {
+   "id": "quran-shadows-of-the-clouds",
+   "after": "source:ABU0044",
+   "responds": [
+    "source:ABU0044"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an’s form of the same expectation: wait they for naught else than that Allah should come unto them in the shadows of the clouds?"
+  },
+  {
+   "id": "acts-cloud-received-him",
+   "after": "source:ABU0044",
+   "responds": [
+    "source:ABU0044"
+   ],
+   "relation": "adjacent",
+   "why": "And the departure that the expected return mirrors: while they beheld, he was taken up; and a cloud received him out of their sight."
+  },
+  {
+   "id": "john-kingdom-not-of-this-world",
+   "after": "source:BHU0033",
+   "responds": [
+    "source:BHU0033"
+   ],
+   "relation": "adjacent",
+   "why": "“Where do You come from?” “We are from ‘Amá’.” My kingdom is not of this world."
+  },
+  {
+   "id": "isaiah-hidest-thyself",
+   "after": "source:BB00651",
+   "responds": [
+    "source:BB00651"
+   ],
+   "relation": "adjacent",
+   "why": "The word is kin to blindness: nothing existed but God, and eyes were blinded from His face. Verily thou art a God that hidest thyself."
+  },
+  {
+   "id": "exodus-pillar-of-fire",
+   "after": "source:BB00204",
+   "responds": [
+    "source:BB00204"
+   ],
+   "relation": "adjacent",
+   "why": "“I was the visible cloud of the Almighty.” The Lord went before them by day in a pillar of a cloud, to lead them the way."
+  },
+  {
+   "id": "tao-existence-sprang-from-non-existence",
+   "after": "source:BB00047",
+   "responds": [
+    "source:BB00047"
+   ],
+   "relation": "complement",
+   "why": "The realm of the pure ‘Amá’, “above it is air and beneath it is air”. Lao Tzu: all things under heaven sprang from It as existing; that existence sprang from It as non-existent. Why do so many traditions place an unknowable before the beginning?"
+  },
+  {
+   "id": "john-before-abraham-was",
+   "after": "source:BH00012",
+   "responds": [
+    "source:BH00012"
+   ],
+   "relation": "adjacent",
+   "why": "All the Prophets are one soul and name. Before Abraham was, I am."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "selection:eeb795dd06b17a73b3f85beb",
+   "responds": [
+    "selection:eeb795dd06b17a73b3f85beb"
+   ],
+   "relation": "adjacent",
+   "why": "Ibn ‘Arabí’s “Sigh of the Compassionate”, from which existence arises. Plotinus: the One is perfect and, in our metaphor, has overflowed, and its exuberance has produced the new."
+  },
+  {
+   "id": "matthew-transfigured-before-them",
+   "after": "selection:ac5be9bfcc792e33bf2e741d",
+   "responds": [
+    "selection:ac5be9bfcc792e33bf2e741d"
+   ],
+   "relation": "adjacent",
+   "why": "The Dove sang on Sinai by the Crimson Tree. On another mountain his face did shine as the sun."
+  },
+  {
+   "id": "exodus-no-man-see-me-and-live",
+   "after": "selection:ecd3cc3e2025a3d3b4a441d0",
+   "responds": [
+    "selection:ecd3cc3e2025a3d3b4a441d0"
+   ],
+   "relation": "adjacent",
+   "why": "From the realm of unknowing Moses heard a voice and saw no one. Thou canst not see my face: for there shall no man see me, and live."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "selection:ecd3cc3e2025a3d3b4a441d0",
+   "responds": [
+    "selection:ecd3cc3e2025a3d3b4a441d0"
+   ],
+   "relation": "adjacent",
+   "why": "For now we see through a glass, darkly; but then face to face."
+  }
+ ],
+ "shortfall": "Readings 6, 8, 12, 14, 15, 17, 19 and 22 are invocations in the same imagery and were left without a companion of their own.",
+ "library": {
+  "kings-dwell-in-the-thick-darkness": {
+   "text": "Then spake Solomon, The Lord said that he would dwell in the thick darkness",
+   "work": "1 Kings 8:12",
+   "year": "c. 8th–5th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%208%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
