@@ -1,0 +1,172 @@
+{
+ "format": 2,
+ "slug": "commerce",
+ "subject": "B8AD755DDAEBE3A45D40D6E7D974637B",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 15,
+ "quotations": 15,
+ "kept": [
+  "source:AB11381",
+  "source:ABU3427",
+  "source:AB00236",
+  "source:AB00004",
+  "source:ABU0644",
+  "source:AB01883",
+  "source:AB00968",
+  "source:AB06630",
+  "source:AB00808",
+  "source:AB11815",
+  "source:AB06412",
+  "source:AB01920",
+  "source:ABU3257",
+  "source:ABU0242",
+  "source:ABU1386"
+ ],
+ "introduction": "‘Abdu’l-Bahá wanted Persia to prosper. These passages, most of them from his treatise on civilization and from letters of the constitutional years, call for companies, industry, technical schools, treaties and trade, and praise wealth that is earned by effort and spent for the common good. Deuteronomy says who gives the power to get wealth; the Qur’an sends the worshipper out to seek God’s bounty and asks that trade be by mutual consent; Sirach says craftsmen maintain the state of the world; Adam Smith explains why trade serves both parties and says that no society is happy while most of its members are poor. The warnings come from the countries that industrialized first: Blake’s dark Satanic mills, Goldsmith’s land where wealth accumulates and men decay. Paul’s “love of money” and Jefferson’s “entangling alliances” mark the two other risks, to the soul and to a weak nation.",
+ "questions": [
+  "Reading 2 praises riches “earned by personal effort … and rightly administered”. Paul warns that the love of money is the root of all evil. What exactly makes the difference?",
+  "Blake and Goldsmith saw what early industry did to people. Which of the readings’ conditions (education, justice, trustworthiness, universal comfort) speak to what they saw?",
+  "Adam Smith grounds commerce in self-interest; the readings ground it in the prosperity of all. Are these two descriptions of one thing?",
+  "Hugo foresaw a united Europe, and reading 15 calls it the next natural step. What has commerce had to do with how far that has come true?"
+ ],
+ "outside": [
+  {
+   "id": "quran-seek-of-allahs-bounty",
+   "after": "source:AB11381",
+   "responds": [
+    "source:AB11381"
+   ],
+   "relation": "adjacent",
+   "why": "Companies for commerce and industry are among the greatest means of a nation’s prosperity. The Qur’an, of the working week after prayer: disperse in the land and seek of God’s bounty."
+  },
+  {
+   "id": "blake-dark-satanic-mills",
+   "after": "source:AB11381",
+   "responds": [
+    "source:AB11381"
+   ],
+   "relation": "contrast",
+   "why": "Blake saw the other face of industry in his own England: and was Jerusalem builded here, among these dark Satanic mills? What does the reading need to add to “companies for commerce, industry” for Blake to be answered?"
+  },
+  {
+   "id": "deuteronomy-power-to-get-wealth",
+   "after": "source:ABU3427",
+   "responds": [
+    "source:ABU3427"
+   ],
+   "relation": "adjacent",
+   "why": "Wealth earned by effort “with divine assistance” and rightly used is praiseworthy. Thou shalt remember the Lord thy God: for it is he that giveth thee power to get wealth."
+  },
+  {
+   "id": "timothy-rich-in-good-works",
+   "after": "source:ABU3427",
+   "responds": [
+    "source:ABU3427"
+   ],
+   "relation": "adjacent",
+   "why": "The condition is its use: charge them that are rich that they do good, that they be rich in good works, ready to distribute, willing to communicate."
+  },
+  {
+   "id": "timothy-love-of-money",
+   "after": "source:ABU3427",
+   "responds": [
+    "source:ABU3427"
+   ],
+   "relation": "contrast",
+   "why": "The same letter warns: they that will be rich fall into temptation and a snare; for the love of money is the root of all evil. How do the reading’s conditions, earned by effort, rightly administered, spent for the public, meet the warning?"
+  },
+  {
+   "id": "sirach-maintain-the-state-of-the-world",
+   "after": "source:AB00236",
+   "responds": [
+    "source:AB00236"
+   ],
+   "relation": "adjacent",
+   "why": "Children not suited to advanced studies should learn a craft. Sirach on smiths, potters and carpenters: without these cannot a city be inhabited; they will maintain the state of the world, and their desire is in the work of their craft."
+  },
+  {
+   "id": "jefferson-entangling-alliances",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "contrast",
+   "why": "Would it be shortsighted to strengthen ties with neighbours and enter treaties with the great powers? Jefferson answered for his young republic: peace, commerce, and honest friendship with all nations, entangling alliances with none. When is a treaty a strength and when a snare for a weak state?"
+  },
+  {
+   "id": "tennyson-argosies-of-magic-sails",
+   "after": "source:ABU0644",
+   "responds": [
+    "source:ABU0644"
+   ],
+   "relation": "adjacent",
+   "why": "New inventions deepen the law of cooperation. Tennyson’s vision: saw the heavens fill with commerce, argosies of magic sails, pilots of the purple twilight, dropping down with costly bales."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:AB00968",
+   "responds": [
+    "source:AB00968"
+   ],
+   "relation": "adjacent",
+   "why": "An association is commended to Americans for its material benefits to both sides. Adam Smith: it is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest."
+  },
+  {
+   "id": "smith-no-society-flourishing-and-happy",
+   "after": "source:AB06630",
+   "responds": [
+    "source:AB06630"
+   ],
+   "relation": "adjacent",
+   "why": "May means be found for “universal comfort”, with justice and equity. Smith again: no society can surely be flourishing and happy, of which the far greater part of the members are poor and miserable."
+  },
+  {
+   "id": "leviticus-just-balances",
+   "after": "source:AB00808",
+   "responds": [
+    "source:AB00808"
+   ],
+   "relation": "adjacent",
+   "why": "A constitution is strengthened by commerce, industry, and “truthfulness and trustworthiness”. Just balances, just weights, a just ephah, and a just hin, shall ye have."
+  },
+  {
+   "id": "quran-trade-by-mutual-consent",
+   "after": "source:AB01920",
+   "responds": [
+    "source:AB01920"
+   ],
+   "relation": "adjacent",
+   "why": "Consider commerce, industry and agriculture the foundation of success, and remove discord. The Qur’an: squander not your wealth among yourselves in vanity, except it be a trade by mutual consent."
+  },
+  {
+   "id": "goldsmith-ill-fares-the-land",
+   "after": "source:ABU3257",
+   "responds": [
+    "source:ABU3257"
+   ],
+   "relation": "contrast",
+   "why": "Progress means spreading education, inventions, industry and trade. Goldsmith’s warning from the age when that progress began: ill fares the land, to hastening ills a prey, where wealth accumulates, and men decay. What measures of progress besides wealth do the readings name?"
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0242",
+   "responds": [
+    "source:ABU0242"
+   ],
+   "relation": "adjacent",
+   "why": "Rivalry among nations needs no war; there are a thousand better means. They shall beat their swords into plowshares, and their spears into pruninghooks."
+  },
+  {
+   "id": "hugo-day-will-come",
+   "after": "source:ABU1386",
+   "responds": [
+    "source:ABU1386"
+   ],
+   "relation": "adjacent",
+   "why": "After a United States of America, a United States of Europe. Victor Hugo, in 1849: a day will come when you, France, you, Russia, you, England, you, Germany, all of you, nations of the Continent, will be blended into a superior unity."
+  }
+ ],
+ "library": {}
+}
