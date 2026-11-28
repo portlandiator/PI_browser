@@ -1,0 +1,645 @@
+{
+ "format": 2,
+ "slug": "prayerforforgiveness",
+ "subject": "0137285CF3DEE3ABF3193E5E857AE7DB",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 100,
+ "quotations": 100,
+ "kept": [
+  "source:BH01752",
+  "source:AB08049",
+  "source:BH00956",
+  "source:ABU1292",
+  "source:AB05409",
+  "source:BH01377",
+  "source:AB08892",
+  "source:BH00598",
+  "source:BH07106",
+  "source:BH00005",
+  "source:BB00026",
+  "source:BH07775",
+  "source:BH01410",
+  "source:BH00528",
+  "source:AB00037",
+  "source:AB10666",
+  "source:AB06005",
+  "source:BB00374",
+  "source:BB00372",
+  "source:AB02467",
+  "source:BH00868",
+  "source:BH00022",
+  "source:BH08596",
+  "source:AB05158",
+  "source:AB07056",
+  "source:AB07159",
+  "source:AB07057",
+  "source:BB00560",
+  "source:BB00593",
+  "source:BH06877",
+  "source:BH07350",
+  "source:BH03584",
+  "source:BH10363",
+  "source:AB10301",
+  "source:BB00050",
+  "source:BB00081",
+  "source:BB00156",
+  "source:BB00547",
+  "source:BH04744",
+  "source:BH02006",
+  "source:BH11873",
+  "source:BH03861",
+  "source:BH10578",
+  "source:BH00627",
+  "source:BH00436",
+  "source:BH00561",
+  "source:BH02402",
+  "source:BH02953",
+  "source:BH01215",
+  "source:BH05581",
+  "source:BH05492",
+  "source:BH01058",
+  "source:BH01164",
+  "source:BB00587",
+  "source:BB00522",
+  "source:BH01051",
+  "source:BH08402",
+  "source:BH02806",
+  "source:BH10581",
+  "source:BH00704",
+  "source:BB00462",
+  "source:BH02411",
+  "source:BH07972",
+  "source:BB00360",
+  "source:BH02728",
+  "source:BH04122",
+  "source:BH01419",
+  "source:AB07980",
+  "source:AB08745",
+  "source:AB09624",
+  "source:AB10811",
+  "source:AB05993",
+  "source:AB06004",
+  "source:AB07230",
+  "source:BH02878",
+  "source:BH03357",
+  "source:AB04514",
+  "source:AB04516",
+  "source:AB08493",
+  "source:AB00630",
+  "source:AB07781",
+  "source:AB07862",
+  "source:AB07981",
+  "source:AB08107",
+  "source:AB08621",
+  "source:AB09133",
+  "source:AB09340",
+  "source:AB09656",
+  "source:AB09668",
+  "source:AB09770",
+  "source:BH05129",
+  "source:BH02331",
+  "source:BH00396",
+  "source:AB01181",
+  "source:AB04313",
+  "source:AB05612",
+  "source:AB06297",
+  "source:AB07683",
+  "source:AB08398",
+  "source:AB08444"
+ ],
+ "introduction": "These are prayers for forgiveness: for oneself, “I am a sinner, O my Lord, and Thou art the Ever-Forgiving”; for the community, “though we are sinners, we place our hopes in Thee”; for those who turned against the Faith; for parents and forebears; and, through three of the ten stretches, for particular people who had died. The penitential Psalms are their nearest kin, with Daniel’s “we have sinned”, the publican’s seven words and the prodigal who “came to himself”. The Qur’an gives Adam and Eve’s “we have wronged ourselves”, “despair not of the mercy of Allah”, and Abraham’s and Noah’s prayers for their parents, in words reading 184 repeats. Donne and Herbert wrote the same prayer as poems. Some texts mark limits the prayers go past: the Qur’an’s verse against praying for idolaters, Hebrews’ “after this the judgment”, set against the Maccabean prayer for the dead. Paul’s “shall we continue in sin, that grace may abound?” and Claudius’s “may one be pardon’d and retain the offence?” are the questions any confident prayer for mercy has to meet.",
+ "questions": [
+  "Read aloud two or three of the shortest prayers. What do they ask for besides pardon? What do they take for granted about God?",
+  "“Thy generosity hath made them bold.” Paul asks whether grace encourages sin. How would you answer from these readings?",
+  "Claudius cannot pray because he will not give up what his sin gained. What part does a changed life play in these prayers? See readings 6, 95 and 279.",
+  "Several prayers ask forgiveness for enemies and for those who turned away. Compare the Qur’an’s verse on praying for idolaters and Jesus’s “Father, forgive them”. Where do the readings stand?",
+  "A third of the guide prays for the dead. What does it mean to ask forgiveness for someone who can no longer ask? What does the practice do for the living?",
+  "The prayers call God the “Concealer of shortcomings”. Is being forgiven different from having one’s faults concealed?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-out-of-the-depths",
+   "after": "source:BH01752",
+   "responds": [
+    "source:BH01752"
+   ],
+   "relation": "adjacent",
+   "why": "Eyes fixed on the horizon of Thy mercy. Out of the depths have I cried unto thee, O Lord. Lord, hear my voice."
+  },
+  {
+   "id": "isaiah-sins-as-scarlet",
+   "after": "source:AB08049",
+   "responds": [
+    "source:AB08049"
+   ],
+   "relation": "adjacent",
+   "why": "Sin is as night, and pardon as rays of light. Though your sins be as scarlet, they shall be as white as snow."
+  },
+  {
+   "id": "luke-came-to-himself",
+   "after": "source:BH00956",
+   "responds": [
+    "source:BH00956"
+   ],
+   "relation": "adjacent",
+   "why": "“May we at least be enabled to know our heedless selves.” The prodigal: and when he came to himself, he said, I will arise and go to my father, and will say unto him, Father, I have sinned."
+  },
+  {
+   "id": "luke-publican",
+   "after": "source:ABU1292",
+   "responds": [
+    "source:ABU1292"
+   ],
+   "relation": "adjacent",
+   "why": "A sick man’s deathbed prayer, taken through many ceremonies. The publican needed seven words: God be merciful to me a sinner."
+  },
+  {
+   "id": "luke-prodigal-father-ran",
+   "after": "source:AB05409",
+   "responds": [
+    "source:AB05409"
+   ],
+   "relation": "adjacent",
+   "why": "Make hopeful the servant covered with shame. When he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him."
+  },
+  {
+   "id": "psalm-enter-not-into-judgment",
+   "after": "source:BH01377",
+   "responds": [
+    "source:BH01377"
+   ],
+   "relation": "adjacent",
+   "why": "Never have a servant’s deeds been worthy of the court of the Lord. Enter not into judgment with thy servant: for in thy sight shall no man living be justified."
+  },
+  {
+   "id": "job-prayed-for-his-friends",
+   "after": "source:AB08892",
+   "responds": [
+    "source:AB08892"
+   ],
+   "relation": "adjacent",
+   "why": "He supplicated for pardon on behalf of others. The Lord turned the captivity of Job, when he prayed for his friends."
+  },
+  {
+   "id": "psalm-against-thee-only",
+   "after": "source:BH00598",
+   "responds": [
+    "source:BH00598"
+   ],
+   "relation": "adjacent",
+   "why": "All my trespasses acknowledged, with soul and tongue. I acknowledge my transgressions: and my sin is ever before me. Against thee, thee only, have I sinned."
+  },
+  {
+   "id": "quran-wronged-ourselves",
+   "after": "source:BH07106",
+   "responds": [
+    "source:BH07106"
+   ],
+   "relation": "adjacent",
+   "why": "“I am a sinner, O my Lord, and Thou art the Ever-Forgiving.” The first prayer of the first pair, in the Qur’an: our Lord! We have wronged ourselves. If thou forgive us not and have not mercy on us, surely we are of the lost!"
+  },
+  {
+   "id": "hosea-torn-and-he-will-heal",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Turn thy face towards Him. Come, and let us return unto the Lord: for he hath torn, and he will heal us."
+  },
+  {
+   "id": "john-epistle-confess-our-sins",
+   "after": "source:BB00026",
+   "responds": [
+    "source:BB00026"
+   ],
+   "relation": "adjacent",
+   "why": "“I seek forgiveness of God, my Lord, and turn unto Him in repentance.” If we confess our sins, he is faithful and just to forgive us our sins."
+  },
+  {
+   "id": "quran-adam-received-words",
+   "after": "source:BH07775",
+   "responds": [
+    "source:BH07775"
+   ],
+   "relation": "adjacent",
+   "why": "“I have turned in repentance unto Thee.” Then Adam received from his Lord words, and He relented toward him. Lo! He is the relenting, the Merciful."
+  },
+  {
+   "id": "quran-soul-not-tasked-beyond",
+   "after": "source:BH01410",
+   "responds": [
+    "source:BH01410"
+   ],
+   "relation": "adjacent",
+   "why": "“Take us not to task for what our hands have wrought.” The close of the Qur’an’s longest chapter: our Lord! Condemn us not if we forget, or miss the mark!"
+  },
+  {
+   "id": "daniel-we-have-sinned",
+   "after": "source:AB00037",
+   "responds": [
+    "source:AB00037"
+   ],
+   "relation": "adjacent",
+   "why": "Brow upon the dust. Daniel in sackcloth: we have sinned, and have committed iniquity, and have done wickedly."
+  },
+  {
+   "id": "quran-soul-enjoineth-unto-evil",
+   "after": "source:AB10666",
+   "responds": [
+    "source:AB10666"
+   ],
+   "relation": "adjacent",
+   "why": "“My shortcomings are many and my righteous deeds are none.” I do not exculpate myself. Lo! the soul enjoineth unto evil, save that whereon my Lord hath mercy."
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:AB06005",
+   "responds": [
+    "source:AB06005"
+   ],
+   "relation": "adjacent",
+   "why": "Despairing of myself, overwhelmed. O wretched man that I am! who shall deliver me from the body of this death?"
+  },
+  {
+   "id": "shakespeare-retain-the-offence",
+   "after": "source:AB06005",
+   "responds": [
+    "source:AB06005"
+   ],
+   "relation": "contrast",
+   "why": "Claudius also despairs of himself, kneeling, and for a reason these prayers do not consider: may one be pardon’d and retain the offence? He will not give up what the sin won him. What do the prayers of this guide assume about the one praying that Claudius lacks?"
+  },
+  {
+   "id": "luke-unprofitable-servants",
+   "after": "source:BB00374",
+   "responds": [
+    "source:BB00374"
+   ],
+   "relation": "adjacent",
+   "why": "No deed have I done to merit beholding Thy face. When ye shall have done all, say, We are unprofitable servants."
+  },
+  {
+   "id": "psalm-remember-not-the-sins-of-my-youth",
+   "after": "source:BB00372",
+   "responds": [
+    "source:BB00372"
+   ],
+   "relation": "adjacent",
+   "why": "Look not upon me with the glance of justice. Remember not the sins of my youth, nor my transgressions: according to thy mercy remember thou me."
+  },
+  {
+   "id": "psalm-not-dealt-with-us",
+   "after": "source:AB02467",
+   "responds": [
+    "source:AB02467"
+   ],
+   "relation": "adjacent",
+   "why": "Do not seize us in our sins. He hath not dealt with us after our sins; nor rewarded us according to our iniquities."
+  },
+  {
+   "id": "matthew-rain-on-the-just",
+   "after": "source:BH00868",
+   "responds": [
+    "source:BH00868"
+   ],
+   "relation": "adjacent",
+   "why": "Rain-clouds of mercy shower on high and low alike. He sendeth rain on the just and on the unjust."
+  },
+  {
+   "id": "psalm-remembereth-we-are-dust",
+   "after": "source:BH00022",
+   "responds": [
+    "source:BH00022"
+   ],
+   "relation": "adjacent",
+   "why": "Though heedless, they are weak. Like as a father pitieth his children, so the Lord pitieth them that fear him. For he knoweth our frame; he remembereth that we are dust."
+  },
+  {
+   "id": "romans-continue-in-sin",
+   "after": "source:BH08596",
+   "responds": [
+    "source:BH08596"
+   ],
+   "relation": "contrast",
+   "why": "“Thy generosity hath made them bold.” Paul saw the danger in that boldness: shall we continue in sin, that grace may abound? God forbid. How do these prayers keep confidence in mercy from becoming licence?"
+  },
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:AB05158",
+   "responds": [
+    "source:AB05158"
+   ],
+   "relation": "adjacent",
+   "why": "Though we are sinners, we place our hopes in Thee. It is of the Lord’s mercies that we are not consumed, because his compassions fail not. They are new every morning."
+  },
+  {
+   "id": "quran-despair-not-of-mercy",
+   "after": "source:AB07056",
+   "responds": [
+    "source:AB07056"
+   ],
+   "relation": "adjacent",
+   "why": "Our errors are many, but the ocean of mercy is boundless. O My slaves who have been prodigal to their own hurt! Despair not of the mercy of Allah, Who forgiveth all sins."
+  },
+  {
+   "id": "psalm-transgression-forgiven",
+   "after": "source:AB07159",
+   "responds": [
+    "source:AB07159"
+   ],
+   "relation": "adjacent",
+   "why": "Forgiver of sins and Concealer of shortcomings. Blessed is he whose transgression is forgiven, whose sin is covered."
+  },
+  {
+   "id": "isaiah-wait-upon-the-lord",
+   "after": "source:AB07057",
+   "responds": [
+    "source:AB07057"
+   ],
+   "relation": "adjacent",
+   "why": "Broken-winged birds, to be given wings. They shall mount up with wings as eagles."
+  },
+  {
+   "id": "psalm-have-mercy-upon-me",
+   "after": "source:BB00593",
+   "responds": [
+    "source:BB00593"
+   ],
+   "relation": "adjacent",
+   "why": "Wash away our sins. Have mercy upon me, O God; wash me throughly from mine iniquity, and cleanse me from my sin."
+  },
+  {
+   "id": "psalm-create-in-me-a-clean-heart",
+   "after": "source:BH06877",
+   "responds": [
+    "source:BH06877"
+   ],
+   "relation": "adjacent",
+   "why": "Wash me, and I shall be whiter than snow. Create in me a clean heart, O God; and renew a right spirit within me."
+  },
+  {
+   "id": "psalm-who-shall-stand",
+   "after": "source:BH07350",
+   "responds": [
+    "source:BH07350"
+   ],
+   "relation": "adjacent",
+   "why": "Look not upon my transgressions but upon Thy bounty. If thou, Lord, shouldest mark iniquities, O Lord, who shall stand? But there is forgiveness with thee."
+  },
+  {
+   "id": "donne-wilt-thou-forgive",
+   "after": "source:BB00050",
+   "responds": [
+    "source:BB00050"
+   ],
+   "relation": "adjacent",
+   "why": "“I seek Thy forgiveness for what I have said and say.” Donne: wilt thou forgive that sin through which I run, and do run still, though still I do deplore?"
+  },
+  {
+   "id": "quran-evil-deeds-to-good",
+   "after": "source:BB00050",
+   "responds": [
+    "source:BB00050"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer that evil be transformed. As for such as repent, Allah will change their evil deeds to good deeds."
+  },
+  {
+   "id": "quran-night-of-power",
+   "after": "source:BB00081",
+   "responds": [
+    "source:BB00081"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer on an exalted night at the end of a holy month. The night of power is better than a thousand months; peace until the rising of the dawn."
+  },
+  {
+   "id": "james-pray-one-for-another",
+   "after": "source:BB00547",
+   "responds": [
+    "source:BB00547"
+   ],
+   "relation": "adjacent",
+   "why": "Forgive the one who asks for prayer. Confess your faults one to another, and pray one for another."
+  },
+  {
+   "id": "micah-delighteth-in-mercy",
+   "after": "source:BH11873",
+   "responds": [
+    "source:BH11873"
+   ],
+   "relation": "adjacent",
+   "why": "By the waves of the ocean of Thy mercy. Who is a God like unto thee, that pardoneth iniquity? Thou wilt cast all their sins into the depths of the sea."
+  },
+  {
+   "id": "luke-father-forgive-them",
+   "after": "source:BH03861",
+   "responds": [
+    "source:BH03861"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer for all who have forsaken Thee. Father, forgive them; for they know not what they do."
+  },
+  {
+   "id": "luke-joy-in-heaven-over-one-sinner",
+   "after": "source:BH00627",
+   "responds": [
+    "source:BH00627"
+   ],
+   "relation": "adjacent",
+   "why": "Guide Thy servants to the court of Thy favour. Joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons."
+  },
+  {
+   "id": "ezekiel-no-pleasure",
+   "after": "source:BH00436",
+   "responds": [
+    "source:BH00436"
+   ],
+   "relation": "adjacent",
+   "why": "Aid those who turned away to return. I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn ye, turn ye."
+  },
+  {
+   "id": "quran-not-for-the-prophet-to-pray",
+   "after": "source:BH02402",
+   "responds": [
+    "source:BH02402"
+   ],
+   "relation": "contrast",
+   "why": "“Seize them … or aid them to return unto Thee.” The Qur’an sets a limit that these prayers do not observe: it is not for the Prophet, and those who believe, to pray for the forgiveness of idolaters, even though they may be near of kin. Readings 122 to 130 ask pardon for opponents. On what ground?"
+  },
+  {
+   "id": "jonah-angry-at-mercy",
+   "after": "source:BH02402",
+   "responds": [
+    "source:BH02402"
+   ],
+   "relation": "complement",
+   "why": "Jonah was angry when his enemies were spared: I knew that thou art a gracious God, and merciful, slow to anger. Reading 127 leaves the choice between wrath and repentance to God. Which outcome does the one praying hope for?"
+  },
+  {
+   "id": "acts-lay-not-this-sin",
+   "after": "source:BH01215",
+   "responds": [
+    "source:BH01215"
+   ],
+   "relation": "adjacent",
+   "why": "Forgive them that were heedless. Stephen, dying: Lord, lay not this sin to their charge."
+  },
+  {
+   "id": "exodus-blot-me-out-of-thy-book",
+   "after": "source:BH01058",
+   "responds": [
+    "source:BH01058"
+   ],
+   "relation": "adjacent",
+   "why": "“Forgive these souls, then forgive me.” Moses for his people: if thou wilt forgive their sin; and if not, blot me, I pray thee, out of thy book."
+  },
+  {
+   "id": "quran-a-crier-calling-unto-faith",
+   "after": "source:BB00522",
+   "responds": [
+    "source:BB00522"
+   ],
+   "relation": "adjacent",
+   "why": "Forgive me and those who have believed. Our Lord! We have heard a crier calling unto Faith. Therefor forgive us our sins, and remit from us our evil deeds."
+  },
+  {
+   "id": "herbert-love-bade-me-welcome",
+   "after": "source:BH01051",
+   "responds": [
+    "source:BH01051"
+   ],
+   "relation": "adjacent",
+   "why": "Standing at the door of Thy grace. Herbert: Love bade me welcome: yet my soul drew back, guilty of dust and sin."
+  },
+  {
+   "id": "quran-forgive-our-brethren-before-us",
+   "after": "source:BH02806",
+   "responds": [
+    "source:BH02806"
+   ],
+   "relation": "adjacent",
+   "why": "Forgive us, and our fathers, and our mothers. Our Lord! Forgive us and our brethren who were before us in the faith."
+  },
+  {
+   "id": "quran-noah-forgive-my-parents",
+   "after": "source:BH10581",
+   "responds": [
+    "source:BH10581"
+   ],
+   "relation": "adjacent",
+   "why": "Noah’s prayer in the Qur’an: my Lord! Forgive me and my parents and him who entereth my house believing."
+  },
+  {
+   "id": "quran-forgive-my-parents",
+   "after": "source:BB00360",
+   "responds": [
+    "source:BB00360"
+   ],
+   "relation": "adjacent",
+   "why": "“Forgive me and my parents.” Abraham’s prayer, in the same words: our Lord! Forgive me and my parents and believers on the day when the account is cast."
+  },
+  {
+   "id": "exodus-honour-thy-father",
+   "after": "source:BH04122",
+   "responds": [
+    "source:BH04122"
+   ],
+   "relation": "complement",
+   "why": "Forgive me and my father and my uncle. Honour thy father and thy mother. Is praying for one’s parents’ forgiveness a way of honouring them, or of judging them?"
+  },
+  {
+   "id": "maccabees-pray-for-the-dead",
+   "after": "source:AB10811",
+   "responds": [
+    "source:AB10811"
+   ],
+   "relation": "adjacent",
+   "why": "Prayers of forgiveness for a woman who has died. The Jewish precedent for prayer for the departed: if he had not hoped that they that were slain should have risen again, it had been superfluous and vain to pray for the dead."
+  },
+  {
+   "id": "psalm-as-far-as-the-east-is-from-the-west",
+   "after": "source:AB04514",
+   "responds": [
+    "source:AB04514"
+   ],
+   "relation": "adjacent",
+   "why": "“Deal not with her according to justice.” As far as the east is from the west, so far hath he removed our transgressions from us."
+  },
+  {
+   "id": "hebrews-once-to-die",
+   "after": "source:AB00630",
+   "responds": [
+    "source:AB00630"
+   ],
+   "relation": "contrast",
+   "why": "Pardon sought for souls who have already died. Hebrews seems to close the account at death: it is appointed unto men once to die, but after this the judgment. Many Protestants concluded that prayer for the dead is vain. What do these prayers assume about the soul’s condition after death?"
+  },
+  {
+   "id": "john-epistle-advocate-with-the-father",
+   "after": "source:AB09133",
+   "responds": [
+    "source:AB09133"
+   ],
+   "relation": "adjacent",
+   "why": "One who fears retribution and seeks mercy. If any man sin, we have an advocate with the Father."
+  },
+  {
+   "id": "samuel-i-shall-go-to-him",
+   "after": "source:AB09668",
+   "responds": [
+    "source:AB09668"
+   ],
+   "relation": "adjacent",
+   "why": "A group of friends have hastened to Thy world. I shall go to him, but he shall not return to me."
+  },
+  {
+   "id": "romans-neither-death-nor-life",
+   "after": "source:BH00396",
+   "responds": [
+    "source:BH00396"
+   ],
+   "relation": "adjacent",
+   "why": "A request for forgiveness for one departed, and a bounty directed toward him. Neither death, nor life, shall be able to separate us from the love of God."
+  },
+  {
+   "id": "quran-two-ends-of-the-day",
+   "after": "source:AB08398",
+   "responds": [
+    "source:AB08398"
+   ],
+   "relation": "adjacent",
+   "why": "Pardon his misdeeds and transform them into good deeds. Lo! good deeds annul ill-deeds."
+  }
+ ],
+ "shortfall": "Readings 86 to 116 and 151 to 190 are petitions of one pattern with varied invocations, and stretches eight to ten are prayers for named persons who had died, differing little but in the names; companions were chosen for each kind and for the distinct notes within it, and no reading was given one merely to reach the number.",
+ "library": {
+  "luke-joy-in-heaven-over-one-sinner": {
+   "text": "I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance",
+   "work": "Luke 15:7",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2015%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
