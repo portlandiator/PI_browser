@@ -1,0 +1,242 @@
+{
+ "format": 2,
+ "slug": "burialbab",
+ "subject": "51F55B9A3EECE5C74C07866CC5F2D02D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 18,
+ "quotations": 18,
+ "kept": [
+  "source:AB01131",
+  "source:ABU2782",
+  "source:ABU0913",
+  "source:AB00864",
+  "source:ABU0244",
+  "source:ABU3679",
+  "source:AB04428",
+  "source:AB12094",
+  "source:AB01477",
+  "source:AB02507",
+  "source:ABU1205",
+  "source:AB01115",
+  "source:AB02047",
+  "source:BH03052",
+  "source:ABU3705",
+  "source:AB08583",
+  "source:AB00194",
+  "source:ABU0131"
+ ],
+ "introduction": "The Báb was shot in Tabríz in 1850. His body was recovered by night and hidden, moved from place to place for half a century, brought secretly out of Persia, and on Naw-Rúz 1909 laid by ‘Abdu’l-Bahá in the Shrine He had built on Mount Carmel. These readings are His announcements of that event and His memories of what it cost. The carrying of Jacob’s body from Egypt to Canaan and of Joseph’s bones through the wilderness to Shechem are the biblical journeys of the same kind; Joseph of Arimathaea and the devout men who buried Stephen are its people; Carmel is Elijah’s mountain and Isaiah’s. Two texts keep the other view in sight: no one knows where Moses lies, and Jesus rebuked those who built the tombs of prophets their fathers had killed.",
+ "questions": [
+  "Why did it matter so much to ‘Abdu’l-Bahá where the Báb’s remains should rest?",
+  "Compare the carrying of Joseph’s bones out of Egypt. What does a people say about itself by bearing its dead to a promised place?",
+  "Moses has no known grave. What are the dangers of a shrine, and how might they be guarded against?"
+ ],
+ "outside": [
+  {
+   "id": "joshua-bones-of-joseph-buried-in-shechem",
+   "after": "source:AB01131",
+   "responds": [
+    "source:AB01131"
+   ],
+   "relation": "adjacent",
+   "why": "The remains, after long concealment, are laid to rest. The bones of Joseph, which the children of Israel brought up out of Egypt, buried they in Shechem."
+  },
+  {
+   "id": "exodus-took-the-bones-of-joseph",
+   "after": "source:ABU2782",
+   "responds": [
+    "source:ABU2782"
+   ],
+   "relation": "adjacent",
+   "why": "To bring the remains from Persia was the most difficult and most triumphal work. Moses took the bones of Joseph with him: for he had straitly sworn the children of Israel, saying, ye shall carry up my bones away hence with you."
+  },
+  {
+   "id": "acts-devout-men-carried-stephen",
+   "after": "source:ABU0913",
+   "responds": [
+    "source:ABU0913"
+   ],
+   "relation": "adjacent",
+   "why": "The body carried away after the execution. Devout men carried Stephen to his burial, and made great lamentation over him."
+  },
+  {
+   "id": "genesis-bury-me-with-my-fathers",
+   "after": "source:AB00864",
+   "responds": [
+    "source:AB00864"
+   ],
+   "relation": "adjacent",
+   "why": "Brought by palanquin with reverence. Jacob charged his sons: bury me with my fathers; and they carried him from Egypt to Canaan."
+  },
+  {
+   "id": "john-in-the-garden-a-new-sepulchre",
+   "after": "source:ABU0244",
+   "responds": [
+    "source:ABU0244"
+   ],
+   "relation": "adjacent",
+   "why": "A marble sarcophagus, inscribed in gold, arrives by sea. In the garden a new sepulchre, wherein was never man yet laid."
+  },
+  {
+   "id": "luke-joseph-of-arimathaea",
+   "after": "source:ABU0244",
+   "responds": [
+    "source:ABU0244"
+   ],
+   "relation": "adjacent",
+   "why": "The one who saw to it: Joseph of Arimathaea went unto Pilate, and begged the body of Jesus."
+  },
+  {
+   "id": "nehemiah-let-us-rise-up-and-build",
+   "after": "source:ABU3679",
+   "responds": [
+    "source:ABU3679"
+   ],
+   "relation": "adjacent",
+   "why": "Help me in raising this Sacred Edifice. Let us rise up and build."
+  },
+  {
+   "id": "psalm-death-of-his-saints",
+   "after": "source:AB04428",
+   "responds": [
+    "source:AB04428"
+   ],
+   "relation": "adjacent",
+   "why": "After sixty years of restlessness. Precious in the sight of the Lord is the death of his saints."
+  },
+  {
+   "id": "isaiah-excellency-of-carmel",
+   "after": "source:AB01477",
+   "responds": [
+    "source:AB01477"
+   ],
+   "relation": "adjacent",
+   "why": "Repose on Mount Carmel. The excellency of Carmel and Sharon, they shall see the glory of the Lord."
+  },
+  {
+   "id": "isaiah-out-of-zion",
+   "after": "source:AB02507",
+   "responds": [
+    "source:AB02507"
+   ],
+   "relation": "adjacent",
+   "why": "On the Mountain of God. The mountain of the Lord’s house shall be established in the top of the mountains, and all nations shall flow unto it."
+  },
+  {
+   "id": "kings-how-long-halt-ye",
+   "after": "source:ABU1205",
+   "responds": [
+    "source:ABU1205"
+   ],
+   "relation": "adjacent",
+   "why": "The air of this Mountain. It was on Carmel that Elijah gathered Israel: how long halt ye between two opinions?"
+  },
+  {
+   "id": "genesis-possession-of-a-buryingplace",
+   "after": "source:AB02047",
+   "responds": [
+    "source:AB02047"
+   ],
+   "relation": "adjacent",
+   "why": "Even the soil associated with Him is honoured. Abraham, a stranger in the land, asked first for a possession of a buryingplace."
+  },
+  {
+   "id": "deuteronomy-moses-died-there",
+   "after": "source:AB02047",
+   "responds": [
+    "source:AB02047"
+   ],
+   "relation": "contrast",
+   "why": "Scripture also has the opposite instinct: Moses was buried in a valley in the land of Moab, but no man knoweth of his sepulchre unto this day. Why might a religion be given no grave to visit, and what does the Shrine on Carmel give this one?"
+  },
+  {
+   "id": "acts-face-of-an-angel",
+   "after": "source:BH03052",
+   "responds": [
+    "source:BH03052"
+   ],
+   "relation": "adjacent",
+   "why": "Neither prison nor hatred could frighten Him. They saw his face as it had been the face of an angel."
+  },
+  {
+   "id": "mark-memorial-of-her",
+   "after": "source:AB00194",
+   "responds": [
+    "source:AB00194"
+   ],
+   "relation": "adjacent",
+   "why": "The news announced to all the friends. Of the woman who anointed him for burial: this that she hath done shall be spoken of for a memorial of her."
+  },
+  {
+   "id": "luke-build-the-sepulchres-of-the-prophets",
+   "after": "source:AB00194",
+   "responds": [
+    "source:AB00194"
+   ],
+   "relation": "contrast",
+   "why": "Jesus’s hard word about shrines: ye build the sepulchres of the prophets, and your fathers killed them. What keeps the honouring of a martyr’s tomb from being that?"
+  },
+  {
+   "id": "pericles-whole-earth-for-their-tomb",
+   "after": "source:ABU0131",
+   "responds": [
+    "source:ABU0131"
+   ],
+   "relation": "complement",
+   "why": "An earlier plan to bury the remains near Baghdad. Pericles over the Athenian dead: heroes have the whole earth for their tomb. Does it matter where the body lies?"
+  }
+ ],
+ "shortfall": "Readings 8, 12, 15 and 16 repeat the announcement in the same words.",
+ "library": {
+  "exodus-took-the-bones-of-joseph": {
+   "text": "And Moses took the bones of Joseph with him: for he had straitly sworn the children of Israel, saying, God will surely visit you; and ye shall carry up my bones away hence with you",
+   "work": "Exodus 13:19",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2013%3A19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "joshua-bones-of-joseph-buried-in-shechem": {
+   "text": "And the bones of Joseph, which the children of Israel brought up out of Egypt, buried they in Shechem, in a parcel of ground which Jacob bought of the sons of Hamor the father of Shechem for an hundred pieces of silver",
+   "work": "Joshua 24:32",
+   "year": "c. 8th–5th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Joshua%2024%3A32&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
