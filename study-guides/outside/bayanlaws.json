@@ -1,0 +1,246 @@
+{
+ "format": 2,
+ "slug": "bayanlaws",
+ "subject": "0C9ECE2BFDC3E344AC68F7EF3A7101F5",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 34,
+ "quotations": 35,
+ "kept": [
+  "source:BH00793",
+  "source:BH00001",
+  "source:BB00525",
+  "source:BH00372",
+  "source:BH03370",
+  "source:BH01041",
+  "source:BB00001",
+  "source:BB00230",
+  "source:BB00326",
+  "source:BB00627",
+  "source:BH00164",
+  "source:BH00004",
+  "source:BH02167",
+  "source:BH02391",
+  "source:BH02236",
+  "source:ABU0345",
+  "source:BH03508",
+  "source:BH10444",
+  "source:BH11125",
+  "source:BH00033",
+  "source:AB01009",
+  "source:AB02199",
+  "source:BH00060",
+  "source:AB06643",
+  "source:AB01323",
+  "source:AB00181",
+  "source:AB12207",
+  "source:AB02696",
+  "source:BH04609",
+  "source:AB00300",
+  "source:AB00648",
+  "source:AB06330",
+  "source:AB12244",
+  "selection:ec1241044cb61084ae4c8a84"
+ ],
+ "introduction": "The Bayán is the Báb’s book of laws. Bahá’u’lláh, whom Bahá’ís hold to be the one it promised, says of it both that “We have not abrogated the Bayán, but rather have been as the morning dew to that which was sown therein” and that the Kitáb-i-Aqdas has replaced its laws except where it repeats them; ‘Abdu’l-Bahá adds that the Bayán contained severe ordinances which were never meant to be carried out by those who rejected its promise. The relation is the one the New Testament describes between Moses and Christ, and the companions are nearly all from there: “I am not come to destroy, but to fulfil”, the Baptist’s “he must increase”, “the law was our schoolmaster”, new wine and old bottles, “had ye believed Moses, ye would have believed me”. The Qur’an’s verse on abrogation states the principle. Deuteronomy’s “ye shall not add … neither shall ye diminish” is the objection that every such claim has met.",
+ "questions": [
+  "How can a later revelation both “not abrogate” an earlier one and replace its laws? Explain with the image of dew on a sown field.",
+  "The Báb called his whole book “a ring upon the hand” of the one to come. What does it mean for a scripture to point so completely beyond itself?",
+  "Reading 30 lists harsh laws of the Bayán. How do the readings account for them, and what do you make of the account?",
+  "Moses said nothing should be added or taken away. How do Christians, Muslims and Bahá’ís each answer that verse?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-not-to-destroy-the-law",
+   "after": "source:BH00793",
+   "responds": [
+    "source:BH00793"
+   ],
+   "relation": "adjacent",
+   "why": "“We have not abrogated the Bayán, but rather have been as the morning dew to that which was sown therein.” Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil."
+  },
+  {
+   "id": "quran-abrogate",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Point of the Bayán asks that other verses be revealed in their stead. Nothing of Our revelation do We abrogate or cause to be forgotten, but We bring one better or the like thereof."
+  },
+  {
+   "id": "john-shoes-latchet",
+   "after": "source:BB00525",
+   "responds": [
+    "source:BB00525"
+   ],
+   "relation": "adjacent",
+   "why": "All that is in the Bayán is as a ring on the hand of Him Whom God shall make manifest. He it is, who coming after me is preferred before me, whose shoe’s latchet I am not worthy to unloose."
+  },
+  {
+   "id": "john-he-must-increase",
+   "after": "source:BH00372",
+   "responds": [
+    "source:BH00372"
+   ],
+   "relation": "adjacent",
+   "why": "“Verily, I am the first to worship Him.” He must increase, but I must decrease."
+  },
+  {
+   "id": "luke-until-john",
+   "after": "source:BH03370",
+   "responds": [
+    "source:BH03370"
+   ],
+   "relation": "adjacent",
+   "why": "The Bayán made a herald. The law and the prophets were until John: since that time the kingdom of God is preached."
+  },
+  {
+   "id": "john-search-the-scriptures",
+   "after": "source:BH01041",
+   "responds": [
+    "source:BH01041"
+   ],
+   "relation": "adjacent",
+   "why": "The Bayán was revealed for His remembrance and recognition. Search the scriptures; they are they which testify of me. And ye will not come to me, that ye might have life."
+  },
+  {
+   "id": "matthew-one-jot-or-one-tittle",
+   "after": "source:BB00326",
+   "responds": [
+    "source:BB00326"
+   ],
+   "relation": "adjacent",
+   "why": "Preserve everyone who preserves the Bayán, “even to a single point”. One jot or one tittle shall in no wise pass from the law, till all be fulfilled."
+  },
+  {
+   "id": "john-cannot-bear-them-now",
+   "after": "source:BB00627",
+   "responds": [
+    "source:BB00627"
+   ],
+   "relation": "adjacent",
+   "why": "The Cause has not yet attained maturity. I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "source:BH00004",
+   "responds": [
+    "source:BH00004"
+   ],
+   "relation": "adjacent",
+   "why": "“You have not yet comprehended the new resurrection, the new spirit, and the new words.” Neither do men put new wine into old bottles."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:BH02167",
+   "responds": [
+    "source:BH02167"
+   ],
+   "relation": "adjacent",
+   "why": "What was revealed in the Bayán does not suffice today except through this Revelation. The law was our schoolmaster to bring us unto Christ; but after that faith is come, we are no longer under a schoolmaster."
+  },
+  {
+   "id": "john-had-ye-believed-moses",
+   "after": "source:BH02391",
+   "responds": [
+    "source:BH02391"
+   ],
+   "relation": "adjacent",
+   "why": "The Bayán was glad tidings; when the Promised One came they turned away. Had ye believed Moses, ye would have believed me: for he wrote of me."
+  },
+  {
+   "id": "quran-confirming-they-disbelieve",
+   "after": "source:BH03508",
+   "responds": [
+    "source:BH03508"
+   ],
+   "relation": "adjacent",
+   "why": "Does it beseem anyone to cling to the Bayán while turning from God? The Qur’an of an earlier people of a book: when there cometh unto them that which they know to be the truth, they disbelieve therein."
+  },
+  {
+   "id": "hebrews-waxeth-old",
+   "after": "source:BH11125",
+   "responds": [
+    "source:BH11125"
+   ],
+   "relation": "adjacent",
+   "why": "One word of the new Revelation is better than all that was in the Bayán. In that he saith, A new covenant, he hath made the first old."
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:BH00033",
+   "responds": [
+    "source:BH00033"
+   ],
+   "relation": "adjacent",
+   "why": "With a word He can reverse whatever the Bayán confirmed. The Son of man is Lord also of the sabbath."
+  },
+  {
+   "id": "jeremiah-law-in-their-inward-parts",
+   "after": "source:AB01009",
+   "responds": [
+    "source:AB01009"
+   ],
+   "relation": "adjacent",
+   "why": "The Most Holy Book abrogates all previous scriptures. I will make a new covenant: I will put my law in their inward parts, and write it in their hearts."
+  },
+  {
+   "id": "deuteronomy-not-add",
+   "after": "source:AB02199",
+   "responds": [
+    "source:AB02199"
+   ],
+   "relation": "contrast",
+   "why": "The Bayán’s laws are no longer in effect, except those repeated in the Aqdas. Moses forbade exactly this: ye shall not add unto the word which I command you, neither shall ye diminish ought from it. Every later revelation has had to answer that verse. How do these readings answer it?"
+  },
+  {
+   "id": "acts-no-greater-burden",
+   "after": "source:AB06643",
+   "responds": [
+    "source:AB06643"
+   ],
+   "relation": "adjacent",
+   "why": "Only the confirmed laws remain. The council at Jerusalem released Gentile converts from the law of Moses: to lay upon you no greater burden than these necessary things."
+  },
+  {
+   "id": "luke-what-manner-of-spirit",
+   "after": "source:AB00300",
+   "responds": [
+    "source:AB00300"
+   ],
+   "relation": "adjacent",
+   "why": "Among the Bayán’s laws were the striking of necks and the burning of books. When disciples wished to call down fire, Jesus rebuked them: ye know not what manner of spirit ye are of."
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:AB00300",
+   "responds": [
+    "source:AB00300"
+   ],
+   "relation": "complement",
+   "why": "Ye have heard that it hath been said, An eye for an eye: but I say unto you. The Bayán was abrogated within twenty years by the one it announced. What is the purpose of a law that is given only to prepare for its own replacement?"
+  },
+  {
+   "id": "kjv-translators-openeth-the-window",
+   "after": "source:AB06330",
+   "responds": [
+    "source:AB06330"
+   ],
+   "relation": "adjacent",
+   "why": "Translating a book whose laws no longer bind. Translation it is that openeth the window, to let in the light."
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "selection:ec1241044cb61084ae4c8a84",
+   "responds": [
+    "selection:ec1241044cb61084ae4c8a84"
+   ],
+   "relation": "adjacent",
+   "why": "The Bayán depends on acceptance of this Revelation. Many prophets and righteous men have desired to see those things which ye see, and have not seen them."
+  }
+ ],
+ "shortfall": "Readings 7, 8, 11, 15, 16, 18, 23, 25 to 29, 31 and 33 restate the abrogation or concern particular provisions and persons.",
+ "library": {}
+}
