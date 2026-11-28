@@ -1,0 +1,386 @@
+{
+ "format": 2,
+ "slug": "burial",
+ "subject": "9D225CE8D12B4E9A839E9EB4935226A2",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 29,
+ "kept": [
+  "source:BH00001",
+  "source:AB08433",
+  "source:BB00001",
+  "source:ABU3301",
+  "source:BH00991",
+  "source:BB00020",
+  "source:AB00949",
+  "source:ABU2001",
+  "source:ABU2899",
+  "source:AB05874",
+  "source:AB02536",
+  "source:AB09288",
+  "source:BH03000",
+  "source:AB03364",
+  "source:AB01806",
+  "source:AB02992",
+  "source:ABU0463",
+  "source:AB00273",
+  "source:AB00178",
+  "source:ABU2547",
+  "source:AB11864",
+  "selection:cc6dca1c2f386cd432c9325f"
+ ],
+ "introduction": "The Bahá’í law of burial is brief: wash and shroud the body, lay it in a good coffin within an hour’s journey of the place of death, and let it return to the earth by degrees. This guide gathers that law and ‘Abdu’l-Bahá’s reasons for it: the body was the throne of the soul and is owed respect; nature made it slowly and should unmake it slowly; and in the meantime believers should be accommodating about cemeteries and customs so as not to be cut off from their neighbours. Burial is among the oldest religious acts, and the companions show it: Abraham bargaining for a cave, the linen and spices of the Gospel, the raven that taught Cain, “thereunto We return you”, Paul’s seed sown. Whitman and Thoreau find the slow return to earth good in itself. Against the readings stand Jacob, who wanted to be carried home; the Gita, for which the body is a cast-off robe and burning the natural rite; and the hard saying, “let the dead bury their dead”.",
+ "questions": [
+  "The body is “the throne of that inner body”, and yet the soul is “sanctified from the conditions of the physical world”. Why then does the body’s treatment matter?",
+  "‘Abdu’l-Bahá argues from the gradualness of nature. The Gita argues from the soul’s independence of the body. Can a person respect both the reasoning for burial and the reasoning for cremation?",
+  "Jacob asked to be buried with his fathers; reading 11 asks for burial where one dies. What idea of home lies behind each?",
+  "Readings 14, 16 and 19 relax or delay rules for the sake of peace with neighbours. What principle decides when a law gives way?",
+  "“Let the dead bury their dead.” How do you understand this saying next to a religion’s careful rites for the dead?"
+ ],
+ "outside": [
+  {
+   "id": "john-manner-of-the-jews-to-bury",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Coffins of crystal or fine wood, a prayer, a ring. The burial of Jesus is told with the same attention to materials: they took the body, and wound it in linen clothes with the spices, as the manner of the Jews is to bury."
+  },
+  {
+   "id": "mark-done-what-she-could",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Care spent on a body is defended in the Gospel: she hath done what she could: she is come aforehand to anoint my body to the burying."
+  },
+  {
+   "id": "matthew-let-the-dead-bury",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "To a man who asked leave first to bury his father, Jesus said: follow me; and let the dead bury their dead. The saying sets the claims of the living Word above the most sacred of family duties. How do these detailed laws of burial stand beside it?"
+  },
+  {
+   "id": "ecclesiastes-dust-return-to-the-earth",
+   "after": "source:AB08433",
+   "responds": [
+    "source:AB08433"
+   ],
+   "relation": "adjacent",
+   "why": "Souls that leave this world are sanctified from physical conditions, yet the body is honoured. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The outer body is “the throne of that inner body”. Know ye not that your body is the temple of the Holy Ghost which is in you?"
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:ABU3301",
+   "responds": [
+    "source:ABU3301"
+   ],
+   "relation": "complement",
+   "why": "“It is even a pity that the dead body of man should be buried under the ground.” Genesis says it without pity: dust thou art, and unto dust shalt thou return. Which is the truer feeling toward a body, the pity or the plainness?"
+  },
+  {
+   "id": "acts-devout-men-carried-stephen",
+   "after": "source:BH00991",
+   "responds": [
+    "source:BH00991"
+   ],
+   "relation": "adjacent",
+   "why": "The shroud and its cloths. Devout men carried Stephen to his burial, and made great lamentation over him."
+  },
+  {
+   "id": "quran-raven-scratching-the-ground",
+   "after": "source:BB00020",
+   "responds": [
+    "source:BB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Wash the dead, shroud them, set a ring on the finger. In the Qur’an the first burial is taught to Cain by a bird: God sent a raven scratching up the ground, to show him how to hide his brother’s naked corpse."
+  },
+  {
+   "id": "corinthians-sown-a-natural-body",
+   "after": "source:AB00949",
+   "responds": [
+    "source:AB00949"
+   ],
+   "relation": "adjacent",
+   "why": "As the body came into being gradually, so it should gradually decompose. Paul uses the image of sowing: it is sown in corruption; it is raised in incorruption; it is sown a natural body; it is raised a spiritual body."
+  },
+  {
+   "id": "quran-thereof-we-created-you",
+   "after": "source:AB00949",
+   "responds": [
+    "source:AB00949"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an of the earth: thereof We created you, and thereunto We return you, and thence We bring you forth a second time."
+  },
+  {
+   "id": "whitman-under-your-boot-soles",
+   "after": "source:ABU2001",
+   "responds": [
+    "source:ABU2001"
+   ],
+   "relation": "adjacent",
+   "why": "The body should return by the slow process that formed it. Whitman chose that return for himself: I bequeath myself to the dirt to grow from the grass I love; if you want me again look for me under your boot-soles."
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:ABU2001",
+   "responds": [
+    "source:ABU2001"
+   ],
+   "relation": "contrast",
+   "why": "The Hindu tradition, which burns its dead, has its own reason: the body is a garment the dweller has put off, as a man casts off worn-out robes. The readings ground burial in nature’s gradualness; the Gita grounds cremation in the soul’s freedom. Is the difference about the body, or about what honours it?"
+  },
+  {
+   "id": "thoreau-vegetable-mould",
+   "after": "source:ABU2899",
+   "responds": [
+    "source:ABU2899"
+   ],
+   "relation": "adjacent",
+   "why": "Why stop the wheels so suddenly? Thoreau was content to think of himself as partly leaves and vegetable mould; the reading asks the same patience with nature’s pace."
+  },
+  {
+   "id": "genesis-possession-of-a-buryingplace",
+   "after": "source:AB05874",
+   "responds": [
+    "source:AB05874"
+   ],
+   "relation": "adjacent",
+   "why": "Build the grave so that it is not exposed to disrespect. Abraham among the Hittites: I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead."
+  },
+  {
+   "id": "genesis-bury-me-with-my-fathers",
+   "after": "source:AB02536",
+   "responds": [
+    "source:AB02536"
+   ],
+   "relation": "contrast",
+   "why": "A believer who died in France “must be interred in that very land”. Jacob, dying in Egypt, charged his sons the other way: bury me with my fathers in the cave that is in the field of Ephron. What does each rule say about where a person belongs?"
+  },
+  {
+   "id": "luke-living-among-the-dead",
+   "after": "source:AB09288",
+   "responds": [
+    "source:AB09288"
+   ],
+   "relation": "adjacent",
+   "why": "It is not necessary to travel far to visit the resting-place of the dead. The angels at the tomb: why seek ye the living among the dead?"
+  },
+  {
+   "id": "romans-live-peaceably",
+   "after": "source:AB03364",
+   "responds": [
+    "source:AB03364"
+   ],
+   "relation": "adjacent",
+   "why": "Graves may follow local practice where the proper orientation would cause alarm. If it be possible, as much as lieth in you, live peaceably with all men."
+  },
+  {
+   "id": "acts-no-greater-burden",
+   "after": "source:AB02992",
+   "responds": [
+    "source:AB02992"
+   ],
+   "relation": "adjacent",
+   "why": "Be as accommodating as you can about the burial ground. The first council’s rule for new converts among old communities: to lay upon you no greater burden than these necessary things."
+  },
+  {
+   "id": "stevenson-home-is-the-sailor",
+   "after": "source:ABU0463",
+   "responds": [
+    "source:ABU0463"
+   ],
+   "relation": "adjacent",
+   "why": "“Bury me between Haifa and Akka in the sands there, for it is the pathway of the loved ones.” Stevenson’s epitaph for himself: here he lies where he longed to be; home is the sailor, home from sea."
+  },
+  {
+   "id": "corinthians-not-quickened-except-it-die",
+   "after": "source:AB00273",
+   "responds": [
+    "source:AB00273"
+   ],
+   "relation": "adjacent",
+   "why": "Composition was by degrees, and so must dispersal be. That which thou sowest is not quickened, except it die."
+  },
+  {
+   "id": "corinthians-greatest-of-these",
+   "after": "source:AB00178",
+   "responds": [
+    "source:AB00178"
+   ],
+   "relation": "complement",
+   "why": "For the present, burial customs should not be changed so as to cut believers off from their neighbours. Paul ranks charity above knowledge and above being right. When should a law wait for the sake of love?"
+  },
+  {
+   "id": "deuteronomy-moses-died-there",
+   "after": "source:ABU2547",
+   "responds": [
+    "source:ABU2547"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah, like Moses, rested on a mountain, “and no one knows his tomb”. Of Moses: he buried him in a valley in the land of Moab; but no man knoweth of his sepulchre unto this day."
+  },
+  {
+   "id": "john-in-the-garden-a-new-sepulchre",
+   "after": "source:AB11864",
+   "responds": [
+    "source:AB11864"
+   ],
+   "relation": "adjacent",
+   "why": "Each grave is to have its own bed of flowers. In the place where he was crucified there was a garden; and in the garden a new sepulchre."
+  },
+  {
+   "id": "gray-blush-unseen",
+   "after": "source:AB11864",
+   "responds": [
+    "source:AB11864"
+   ],
+   "relation": "adjacent",
+   "why": "Gray’s churchyard has the same thought of flowers and the unremembered: full many a flower is born to blush unseen."
+  },
+  {
+   "id": "job-my-redeemer-liveth",
+   "after": "selection:cc6dca1c2f386cd432c9325f",
+   "responds": [
+    "selection:cc6dca1c2f386cd432c9325f"
+   ],
+   "relation": "adjacent",
+   "why": "What is laid in the earth is not the end. Though after my skin worms destroy this body, yet in my flesh shall I see God."
+  }
+ ],
+ "shortfall": "A few readings are rulings on particular questions (expenses, a tower of silence) with no companion worth setting beside them.",
+ "library": {
+  "ecclesiastes-dust-return-to-the-earth": {
+   "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it",
+   "work": "Ecclesiastes 12:7",
+   "year": "c. 5th–2nd century BCE",
+   "sortYear": -300,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%2012%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-possession-of-a-buryingplace": {
+   "text": "And Abraham stood up from before his dead, and spake unto the sons of Heth, saying, I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead out of my sight",
+   "work": "Genesis 23:3–4",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2023%3A3-4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-manner-of-the-jews-to-bury": {
+   "text": "And there came also Nicodemus, which at the first came to Jesus by night, and brought a mixture of myrrh and aloes, about an hundred pound weight. Then took they the body of Jesus, and wound it in linen clothes with the spices, as the manner of the Jews is to bury",
+   "work": "John 19:39–40",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2019%3A39-40&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-raven-scratching-the-ground": {
+   "text": "Then Allah sent a raven scratching up the ground, to show him how to hide his brother's naked corpse. He said: Woe unto me! Am I not able to be as this raven and so hide my brother's naked corpse? And he became repentant.",
+   "work": "Qur’an 5:31",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=31",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-thereof-we-created-you": {
+   "text": "Thereof We created you, and thereunto We return you, and thence We bring you forth a second time.",
+   "work": "Qur’an 20:55",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=20&verse=55",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
