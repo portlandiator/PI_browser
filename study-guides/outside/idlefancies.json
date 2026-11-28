@@ -1,0 +1,346 @@
+{
+ "format": 2,
+ "slug": "idlefancies",
+ "subject": "0336DB4B36D442E99D8E5873DEB6A033",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 43,
+ "quotations": 44,
+ "kept": [
+  "source:BH00385",
+  "source:ABU0324",
+  "source:ABU2846",
+  "source:BH00565",
+  "source:BH00001",
+  "source:BH03699",
+  "source:ABU1102",
+  "source:AB00096",
+  "source:AB05727",
+  "source:AB06080",
+  "source:ABU2648",
+  "source:AB00058",
+  "source:AB00162",
+  "source:AB03879",
+  "source:AB03713",
+  "source:AB03772",
+  "source:AB02423",
+  "source:AB09200",
+  "source:AB06941",
+  "source:AB05312",
+  "source:AB07523",
+  "source:ABU0361",
+  "source:ABU2579",
+  "source:BH03249",
+  "source:BH11522",
+  "source:ABU1667",
+  "source:BH00005",
+  "source:BH03887",
+  "source:BH10063",
+  "source:BH11141",
+  "source:BH07281",
+  "source:BH11055",
+  "source:BH11834",
+  "source:BH02091",
+  "source:AB04910",
+  "source:BH10011",
+  "source:ABU1126",
+  "source:BH08413",
+  "source:ABU1554",
+  "source:BH02418",
+  "source:BH05381",
+  "selection:9f2077f17f3b8fc950583ba1",
+  "selection:070381ff4f3b2cbdf523a232"
+ ],
+ "introduction": "“The world hath been laid waste by vain imaginings.” The guide joins two things the writings condemn together: idle fancy, which hides the truth, and passion, which enslaves the one who follows it. Its first picture is ‘Abdu’l-Bahá’s king who has conquered the world and cannot rule himself; its last is Bahá’u’lláh’s steel whose hidden essence education brings out. Proverbs and the Dhammapada both say the conqueror of self is greater than the taker of cities; Plato and the Kaṭha Upanishad give reason a chariot to drive; Paul finds “another law in my members”; the Qur’an speaks of the one who “maketh his desire his god”. Hume, for whom reason is only “the slave of the passions”, and Blake’s “road of excess” reject the premise.",
+ "questions": [
+  "Why do the readings treat “vain imaginings” and passion together? What have fancy and desire in common?",
+  "Plato’s charioteer manages his horses; Paul cries out to be delivered. Which is nearer the readings’ account of how desire is mastered?",
+  "Hume says reason only serves the passions. What in your experience supports him, and what the readings?",
+  "Reading 8 says the dictates of nature are not sins in the animal. What makes them so in a human being?"
+ ],
+ "outside": [
+  {
+   "id": "ecclesiastes-vanity-of-vanities",
+   "after": "source:BH00385",
+   "responds": [
+    "source:BH00385"
+   ],
+   "relation": "adjacent",
+   "why": "The world laid waste by vain imaginings. Vanity of vanities, saith the Preacher; all is vanity."
+  },
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:ABU0324",
+   "responds": [
+    "source:ABU0324"
+   ],
+   "relation": "adjacent",
+   "why": "A king who has conquered East and West and cannot master himself. He that ruleth his spirit is better than he that taketh a city."
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "source:ABU0324",
+   "responds": [
+    "source:ABU0324"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada: if one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors."
+  },
+  {
+   "id": "genesis-grieved-him-at-his-heart",
+   "after": "source:BH00565",
+   "responds": [
+    "source:BH00565"
+   ],
+   "relation": "adjacent",
+   "why": "The veil of idle imaginations. Every imagination of the thoughts of his heart was only evil continually."
+  },
+  {
+   "id": "quran-soul-enjoineth-unto-evil",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The self “summoneth insistently to wickedness and lust”. The reading echoes Joseph in the Qur’an: the soul enjoineth unto evil, save that whereon my Lord hath mercy."
+  },
+  {
+   "id": "quran-desire-to-be-his-god",
+   "after": "source:BH03699",
+   "responds": [
+    "source:BH03699"
+   ],
+   "relation": "adjacent",
+   "why": "Those gone astray in the valley of desire. Hast thou seen him who maketh his desire his god?"
+  },
+  {
+   "id": "matthew-where-your-treasure-is",
+   "after": "source:ABU1102",
+   "responds": [
+    "source:ABU1102"
+   ],
+   "relation": "adjacent",
+   "why": "Every person is moved by some objective point. Where your treasure is, there will your heart be also."
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:AB00096",
+   "responds": [
+    "source:AB00096"
+   ],
+   "relation": "adjacent",
+   "why": "Sin is prompted by the dictates of nature. Paul: I see another law in my members, warring against the law of my mind."
+  },
+  {
+   "id": "john-servant-of-sin",
+   "after": "source:AB05727",
+   "responds": [
+    "source:AB05727"
+   ],
+   "relation": "adjacent",
+   "why": "Captives of the world of nature. Whosoever committeth sin is the servant of sin."
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:AB06080",
+   "responds": [
+    "source:AB06080"
+   ],
+   "relation": "adjacent",
+   "why": "Man is constantly under the dominion of the commanding self. Plato’s charioteer drives a pair, one noble and one ignoble, and the driving of necessity gives him a great deal of trouble."
+  },
+  {
+   "id": "katha-self-in-the-chariot",
+   "after": "source:AB06080",
+   "responds": [
+    "source:AB06080"
+   ],
+   "relation": "adjacent",
+   "why": "The Kaṭha Upanishad has the same figure: the body the chariot, the intellect the charioteer, the mind the reins."
+  },
+  {
+   "id": "james-drawn-away-of-his-own-lust",
+   "after": "source:ABU2648",
+   "responds": [
+    "source:ABU2648"
+   ],
+   "relation": "adjacent",
+   "why": "The reading is this verse of James, which goes on: when lust hath conceived, it bringeth forth sin."
+  },
+  {
+   "id": "proverbs-glutton-come-to-poverty",
+   "after": "source:AB00162",
+   "responds": [
+    "source:AB00162"
+   ],
+   "relation": "adjacent",
+   "why": "Appetites not content with simple foods. The drunkard and the glutton shall come to poverty."
+  },
+  {
+   "id": "kempis-vanity-except-to-love-god",
+   "after": "source:AB03713",
+   "responds": [
+    "source:AB03713"
+   ],
+   "relation": "adjacent",
+   "why": "Days and nights spent pursuing worldly matters, to end in loss. Thomas à Kempis: vanity of vanities, all is vanity, except to love God, and only to serve Him."
+  },
+  {
+   "id": "dhammapada-thirst-like-a-creeper",
+   "after": "source:AB02423",
+   "responds": [
+    "source:AB02423"
+   ],
+   "relation": "adjacent",
+   "why": "Indulged, desire ends in despair and regret. The thirst of a thoughtless man grows like a creeper; his sufferings increase like the abounding Birana grass."
+  },
+  {
+   "id": "dhammapada-no-fire-like-passion",
+   "after": "source:AB09200",
+   "responds": [
+    "source:AB09200"
+   ],
+   "relation": "adjacent",
+   "why": "Drowned in the whirlpools of this world. There is no fire like passion."
+  },
+  {
+   "id": "blake-road-of-excess",
+   "after": "source:AB09200",
+   "responds": [
+    "source:AB09200"
+   ],
+   "relation": "contrast",
+   "why": "Blake’s proverb of Hell: the road of excess leads to the palace of wisdom. The readings find nothing at the end of that road but regret. Is anything learned from excess that cannot be learned otherwise?"
+  },
+  {
+   "id": "shakespeare-not-passions-slave",
+   "after": "source:AB07523",
+   "responds": [
+    "source:AB07523"
+   ],
+   "relation": "adjacent",
+   "why": "A rational person who casts himself into the abyss of passion proves his unreason. Hamlet: give me that man that is not passion’s slave, and I will wear him in my heart’s core."
+  },
+  {
+   "id": "hume-slave-of-the-passions",
+   "after": "source:ABU0361",
+   "responds": [
+    "source:ABU0361"
+   ],
+   "relation": "contrast",
+   "why": "Not until a man is free of lust and selfishness can he judge what is good in him. Hume denied there was anything else to judge with: reason is, and ought only to be, the slave of the passions. Do the readings think reason can free itself, or does it need help?"
+  },
+  {
+   "id": "matthew-light-of-the-body",
+   "after": "source:ABU0361",
+   "responds": [
+    "source:ABU0361"
+   ],
+   "relation": "adjacent",
+   "why": "If thine eye be single, thy whole body shall be full of light."
+  },
+  {
+   "id": "quran-restrained-his-soul-from-lust",
+   "after": "source:BH03887",
+   "responds": [
+    "source:BH03887"
+   ],
+   "relation": "adjacent",
+   "why": "Enjoin truth, then restrain yourselves from desire. Him who feared to stand before his Lord and restrained his soul from lust."
+  },
+  {
+   "id": "galatians-flesh-against-the-spirit",
+   "after": "source:BH11834",
+   "responds": [
+    "source:BH11834"
+   ],
+   "relation": "adjacent",
+   "why": "Those who follow their passions have no way to God. The flesh lusteth against the Spirit, and the Spirit against the flesh."
+  },
+  {
+   "id": "peter-fleshly-lusts-war-against-the-soul",
+   "after": "source:AB04910",
+   "responds": [
+    "source:AB04910"
+   ],
+   "relation": "adjacent",
+   "why": "Sword, spear and arrows against the forces of passion. Abstain from fleshly lusts, which war against the soul."
+  },
+  {
+   "id": "john-epistle-love-not-the-world",
+   "after": "source:ABU1126",
+   "responds": [
+    "source:ABU1126"
+   ],
+   "relation": "adjacent",
+   "why": "Deliverance from the bondage of self and passion. The lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father."
+  },
+  {
+   "id": "mencius-lost-mind",
+   "after": "selection:9f2077f17f3b8fc950583ba1",
+   "responds": [
+    "selection:9f2077f17f3b8fc950583ba1"
+   ],
+   "relation": "complement",
+   "why": "Man is as steel whose essence is hidden; education brings it out. Mencius thought the good mind was there already and only mislaid: people look for a lost fowl, but not for the lost mind. Is the capacity the readings end with something added by education, or uncovered by it?"
+  },
+  {
+   "id": "colossians-covetousness-which-is-idolatry",
+   "after": "selection:070381ff4f3b2cbdf523a232",
+   "responds": [
+    "selection:070381ff4f3b2cbdf523a232"
+   ],
+   "relation": "adjacent",
+   "why": "Disencumber yourselves of attachment to this world. Mortify therefore your members which are upon the earth."
+  }
+ ],
+ "shortfall": "Readings 3, 12, 14, 16, 19, 20, 23 to 27, 29 to 32, 34, 36 and 38 to 41 are brief prohibitions of vain desire in nearly identical words.",
+ "library": {
+  "peter-fleshly-lusts-war-against-the-soul": {
+   "text": "Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul",
+   "work": "1 Peter 2:11",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Peter%202%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "shakespeare-not-passions-slave": {
+   "text": "Give me that man / That is not passion's slave, and I will wear him / In my heart's core, ay, in my heart of heart, / As I do thee",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act 3, scene 2",
+   "year": "1601",
+   "sortYear": 1601,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  }
+ }
+}
