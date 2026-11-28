@@ -1,0 +1,124 @@
+{
+ "format": 2,
+ "slug": "jurisprudence",
+ "subject": "4EC3B48779BCE95B8D63B0C30835E863",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 12,
+ "kept": [
+  "source:ABU0148",
+  "source:BB00249",
+  "source:ABU3006",
+  "source:ABU2455",
+  "source:ABU1847",
+  "source:ABU3747",
+  "source:ABU1664",
+  "source:BH00423",
+  "source:BB00627",
+  "source:AB11677",
+  "source:BH00004",
+  "source:ABU0771"
+ ],
+ "introduction": "This small guide collects what the Bahá’í writings say about particular rulings of Islamic law, above all marriage. ‘Abdu’l-Bahá’s reading of the Qur’an’s permission of four wives is the centre: the permission is conditioned on justice, the Qur’an itself says such justice is impossible, and so the intention is one wife. Other passages regret that jurists spent themselves on minutiae and explain that laws change from one dispensation to the next. Jesus read the Mosaic law of divorce the same way, as a concession to “the hardness of your hearts”; his sayings about the sabbath, the weightier matters and heavy burdens are the classic criticism of jurisprudence from within; and the Qur’an’s own verse on abrogation is the principle of change.",
+ "questions": [
+  "‘Abdu’l-Bahá reads two Qur’anic verses together to reach monogamy. What kind of interpretation is that, and is it persuasive?",
+  "Jesus said Moses permitted divorce for the hardness of hearts. What does it mean for a divine law to concede?",
+  "What makes a legal scholar lose sight of what the law is for?"
+ ],
+ "outside": [
+  {
+   "id": "mark-sabbath-made-for-man",
+   "after": "source:ABU0148",
+   "responds": [
+    "source:ABU0148"
+   ],
+   "relation": "adjacent",
+   "why": "The Prophet legislated with knowledge of human nature. The sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "matthew-hardness-of-your-hearts",
+   "after": "source:ABU3006",
+   "responds": [
+    "source:ABU3006"
+   ],
+   "relation": "adjacent",
+   "why": "Before Muḥammad polygamy was without limit; he restricted it. Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so. A law may concede what it does not approve."
+  },
+  {
+   "id": "quran-two-or-three-or-four",
+   "after": "source:ABU2455",
+   "responds": [
+    "source:ABU2455"
+   ],
+   "relation": "adjacent",
+   "why": "The reading turns on this verse: if ye fear that ye cannot do justice to so many, then one only."
+  },
+  {
+   "id": "quran-ye-will-not-be-able-to-deal-equally",
+   "after": "source:ABU2455",
+   "responds": [
+    "source:ABU2455"
+   ],
+   "relation": "adjacent",
+   "why": "And on this, later in the same chapter: ye will not be able to deal equally between your wives, however much ye wish to do so. Read together, ‘Abdu’l-Bahá argues, the two verses amount to monogamy."
+  },
+  {
+   "id": "matthew-twain-shall-be-one-flesh",
+   "after": "source:ABU1847",
+   "responds": [
+    "source:ABU1847"
+   ],
+   "relation": "contrast",
+   "why": "Temporary marriage, mentioned in the Qur’an and practised by the Shí‘ihs. Jesus allowed one pattern only: they twain shall be one flesh; what therefore God hath joined together, let not man put asunder. What is each law protecting, and whom does each leave exposed?"
+  },
+  {
+   "id": "matthew-weightier-matters",
+   "after": "source:ABU3747",
+   "responds": [
+    "source:ABU3747"
+   ],
+   "relation": "adjacent",
+   "why": "How much would have been gained had the learned in law turned to its purpose. Ye have omitted the weightier matters of the law, judgment, mercy, and faith."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:ABU1664",
+   "responds": [
+    "source:ABU1664"
+   ],
+   "relation": "adjacent",
+   "why": "Scholars whose foundation is minor points. The letter killeth, but the spirit giveth life."
+  },
+  {
+   "id": "matthew-heavy-burdens",
+   "after": "source:BH00423",
+   "responds": [
+    "source:BH00423"
+   ],
+   "relation": "adjacent",
+   "why": "A parable from the law of Islam. They bind heavy burdens and grievous to be borne, and lay them on men’s shoulders."
+  },
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:BB00627",
+   "responds": [
+    "source:BB00627"
+   ],
+   "relation": "adjacent",
+   "why": "The Cause has not attained maturity, nor the appointed time come. To every thing there is a season."
+  },
+  {
+   "id": "quran-abrogate",
+   "after": "source:AB11677",
+   "responds": [
+    "source:AB11677"
+   ],
+   "relation": "complement",
+   "why": "He should help him understand that institutions change. Nothing of our revelation do we abrogate or cause be forgotten, but we bring one better or the like thereof. If one revelation’s laws may be replaced by the next, what in a religious law is permanent?"
+  }
+ ],
+ "shortfall": "Readings 2, 11 and 12 are a list of prohibitions and two anecdotes, left without companions.",
+ "library": {}
+}
