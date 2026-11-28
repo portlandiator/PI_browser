@@ -1,0 +1,141 @@
+{
+ "format": 2,
+ "slug": "courage",
+ "subject": "91DA577AA068EEADBB6D0F598A93F0CC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 12,
+ "kept": [
+  "source:AB02729",
+  "source:AB09379",
+  "source:AB08638",
+  "source:AB11378",
+  "source:AB02565",
+  "source:ABU1351",
+  "source:AB04502",
+  "source:ABU3079",
+  "source:AB06098",
+  "source:ABU3432",
+  "source:AB10927"
+ ],
+ "introduction": "“Courage is not bloodshed and destruction … Rather, courage lies in victory over self and desire.” The guide’s few readings take the old vocabulary of valour, the lion, the champion, the hero Rustam, the steadfast army, and turn each inward or toward service: the brave are those who master themselves, hold to the truth, and go on, like Mary Magdalene, when others have given up. Proverbs and the Dhammapada said the first of these long ago, in almost the same words. Confucius said that not doing the right one sees is cowardice. Daniel’s three friends before the furnace show the steadfastness. Homer’s Hector stands for the ideal being reinterpreted, at its most humane; and Falstaff, comic and shrewd, asks where courage ends and foolishness begins.",
+ "questions": [
+  "“He that ruleth his spirit [is better] than he that taketh a city.” Why do so many traditions reach for military language to praise self-mastery?",
+  "Hector’s prayer for his son is tender and warlike at once. What in that ideal do the readings carry over into “spiritual valor”?",
+  "Mary Magdalene’s report “seemed to them as idle tales”. What kinds of courage does her story show?",
+  "Falstaff says discretion is the better part of valour. What distinguishes the steadfastness of reading 5 from stubbornness, and prudence from fear?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-ruleth-his-spirit",
+   "after": "source:AB02729",
+   "responds": [
+    "source:AB02729"
+   ],
+   "relation": "adjacent",
+   "why": "“Courage lies in victory over self and desire.” He that is slow to anger is better than the mighty; and he that ruleth his spirit than he that taketh a city."
+  },
+  {
+   "id": "dhammapada-conquer-himself",
+   "after": "source:AB02729",
+   "responds": [
+    "source:AB02729"
+   ],
+   "relation": "adjacent",
+   "why": "The Dhammapada: if one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors."
+  },
+  {
+   "id": "homer-hector-prayer",
+   "after": "source:AB09379",
+   "responds": [
+    "source:AB09379"
+   ],
+   "relation": "contrast",
+   "why": "A man named for the hero Rustam is told to be known for spiritual valour, not physical. Homer’s Hector prays over his infant son that he may be chief among the Trojans and come home from battle with men saying, the son is far better than the father. That is the old ideal in its noblest form. What does the reading keep of it, and what does it refuse?"
+  },
+  {
+   "id": "proverbs-wicked-flee",
+   "after": "source:AB08638",
+   "responds": [
+    "source:AB08638"
+   ],
+   "relation": "adjacent",
+   "why": "A courageous lion who breaks through the ranks of vain imaginings. The righteous are bold as a lion."
+  },
+  {
+   "id": "analects-want-of-courage",
+   "after": "source:AB11378",
+   "responds": [
+    "source:AB11378"
+   ],
+   "relation": "adjacent",
+   "why": "Courage is an attribute of the truthful. Confucius: to see what is right and not to do it is want of courage."
+  },
+  {
+   "id": "john-mary-at-the-tomb",
+   "after": "source:ABU1351",
+   "responds": [
+    "source:ABU1351"
+   ],
+   "relation": "adjacent",
+   "why": "“Be like Mary Magdalene”, whose faith did not waver when Christ was put to death. She stood without at the sepulchre weeping, and stayed when the others had gone."
+  },
+  {
+   "id": "luke-idle-tales",
+   "after": "source:ABU1351",
+   "responds": [
+    "source:ABU1351"
+   ],
+   "relation": "adjacent",
+   "why": "She went to the discouraged disciples. Luke records how her news was received: their words seemed to them as idle tales, and they believed them not. Her courage included not being believed."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:AB04502",
+   "responds": [
+    "source:AB04502"
+   ],
+   "relation": "adjacent",
+   "why": "The cities of hearts are to be conquered by utterance and spirit. Not by might, nor by power, but by my spirit, saith the Lord of hosts."
+  },
+  {
+   "id": "psalm-whom-shall-i-fear",
+   "after": "source:ABU3079",
+   "responds": [
+    "source:ABU3079"
+   ],
+   "relation": "adjacent",
+   "why": "Religion is “the source of all valour”. The Lord is my light and my salvation; whom shall I fear?"
+  },
+  {
+   "id": "shakespeare-better-part-of-valour",
+   "after": "source:ABU3079",
+   "responds": [
+    "source:ABU3079"
+   ],
+   "relation": "complement",
+   "why": "Falstaff, rising from the battlefield where he shammed dead: the better part of valour is discretion; in the which better part I have saved my life. He is a coward and partly right. How does one tell courage from recklessness, and prudence from Falstaff?"
+  },
+  {
+   "id": "joshua-be-strong",
+   "after": "source:ABU3432",
+   "responds": [
+    "source:ABU3432"
+   ],
+   "relation": "adjacent",
+   "why": "He wishes to leave the world assured that there are servants who will arise. Be strong and of a good courage; be not afraid, neither be thou dismayed."
+  },
+  {
+   "id": "daniel-we-will-not-serve-thy-gods",
+   "after": "source:AB10927",
+   "responds": [
+    "source:AB10927"
+   ],
+   "relation": "adjacent",
+   "why": "“Let forth the roar of lions.” Three men before a king’s furnace: our God is able to deliver us; but if not, be it known unto thee, O king, that we will not serve thy gods."
+  }
+ ],
+ "library": {}
+}
