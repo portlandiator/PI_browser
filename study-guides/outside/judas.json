@@ -1,0 +1,293 @@
+{
+ "format": 2,
+ "slug": "judas",
+ "subject": "DC052035304CEABF417ECFC688C5A234",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 15,
+ "quotations": 15,
+ "kept": [
+  "source:AB00208",
+  "source:ABU0285",
+  "source:AB00093",
+  "source:AB00872",
+  "source:AB02183",
+  "source:AB02307",
+  "source:ABU1182",
+  "source:AB06438",
+  "source:ABU1385",
+  "source:ABU0259",
+  "source:AB02679",
+  "source:AB10276",
+  "source:AB10672",
+  "source:AB11246",
+  "source:ABU1559"
+ ],
+ "introduction": "‘Abdu’l-Bahá returns to Judas whenever He speaks of those who broke the Covenant after Bahá’u’lláh’s passing: Judas “was very good in the beginning”, he was “the chief of the apostles”, Christ “did not exercise compulsion” on him, and he fell through envy and pride. The moral He draws is that nearness guarantees nothing, and that no one should feel safe. The Gospels supply the scenes: the bargain for thirty pieces of silver, the money bag, the sop and “it was night”, the kiss, and the question each disciple asked, “Lord, is it I?” Peter’s denial the same night is the natural comparison, and Paul’s conversion the reverse case of the far one brought near. Two passages complicate the readings’ account. John’s letter says of deserters “they were not of us”, as if they never had been; and Matthew reports that Judas repented, returned the money and hanged himself.",
+ "questions": [
+  "The readings insist Judas began well. Why does that matter to the lesson being drawn?",
+  "“Lord, is it I?” What is right about each disciple asking that question, and how does reading 2 ask it of its readers?",
+  "Peter denied and wept; Judas betrayed, repented and despaired. What distinguishes their ends?",
+  "Reading 5 says Christ used no compulsion. What does the freedom to fall imply about the worth of remaining faithful?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-thirty-pieces",
+   "after": "source:AB00208",
+   "responds": [
+    "source:AB00208"
+   ],
+   "relation": "adjacent",
+   "why": "The violation of the Covenant by Judas, of which no trace has remained. The transaction: what will ye give me, and I will deliver him unto you? And they covenanted with him for thirty pieces of silver."
+  },
+  {
+   "id": "corinthians-take-heed-lest-he-fall",
+   "after": "source:ABU0285",
+   "responds": [
+    "source:ABU0285"
+   ],
+   "relation": "adjacent",
+   "why": "Many were pure in the beginning and turned away later, like Judas, who was very good at first. Let him that thinketh he standeth take heed lest he fall."
+  },
+  {
+   "id": "revelation-left-thy-first-love",
+   "after": "source:ABU0285",
+   "responds": [
+    "source:ABU0285"
+   ],
+   "relation": "adjacent",
+   "why": "I have somewhat against thee, because thou hast left thy first love."
+  },
+  {
+   "id": "john-epistle-went-out-from-us",
+   "after": "source:AB00093",
+   "responds": [
+    "source:AB00093"
+   ],
+   "relation": "contrast",
+   "why": "Covenant-breakers are foam on an ocean. John’s first letter says of those who left: they went out from us, but they were not of us; for if they had been of us, they would have continued with us. Reading 2 says Judas “was very good in the beginning”. Which account of falling away is harder to accept, and which do the readings hold?"
+  },
+  {
+   "id": "john-he-had-the-bag",
+   "after": "source:AB00872",
+   "responds": [
+    "source:AB00872"
+   ],
+   "relation": "adjacent",
+   "why": "The readings find the root in envy and in self. John finds it in money: this he said, not that he cared for the poor; but because he was a thief, and had the bag."
+  },
+  {
+   "id": "john-and-it-was-night",
+   "after": "source:AB02183",
+   "responds": [
+    "source:AB02183"
+   ],
+   "relation": "adjacent",
+   "why": "Christ did not compel Judas; he deprived himself. He then having received the sop went immediately out: and it was night."
+  },
+  {
+   "id": "acts-light-from-heaven",
+   "after": "source:AB02307",
+   "responds": [
+    "source:AB02307"
+   ],
+   "relation": "adjacent",
+   "why": "Judas long near and in reality remote; Paul far off and in reality near. Saul, on the road to arrest the disciples: suddenly there shined round about him a light from heaven."
+  },
+  {
+   "id": "luke-peter-wept-bitterly",
+   "after": "source:ABU1182",
+   "responds": [
+    "source:ABU1182"
+   ],
+   "relation": "complement",
+   "why": "Peter and Judas were both sons of the kingdom. Both failed that night: Peter denied him three times, and went out, and wept bitterly. What made the difference between the two failures?"
+  },
+  {
+   "id": "timothy-demas-hath-forsaken",
+   "after": "source:AB06438",
+   "responds": [
+    "source:AB06438"
+   ],
+   "relation": "adjacent",
+   "why": "Had comfort and wealth been offered, sincerity could not have been told from treachery. Paul, in prison: Demas hath forsaken me, having loved this present world."
+  },
+  {
+   "id": "luke-betrayest-with-a-kiss",
+   "after": "source:ABU1385",
+   "responds": [
+    "source:ABU1385"
+   ],
+   "relation": "adjacent",
+   "why": "Twelve disciples, one of whom betrayed Him. Judas, betrayest thou the Son of man with a kiss?"
+  },
+  {
+   "id": "matthew-lord-is-it-i",
+   "after": "source:AB02679",
+   "responds": [
+    "source:AB02679"
+   ],
+   "relation": "adjacent",
+   "why": "Judas was chief of the apostles, and fell: it happens in every age. When Jesus said one of them would betray him, they began every one of them to say unto him, Lord, is it I? No one at the table was sure of himself."
+  },
+  {
+   "id": "isaiah-how-art-thou-fallen",
+   "after": "source:AB10276",
+   "responds": [
+    "source:AB10276"
+   ],
+   "relation": "adjacent",
+   "why": "The head of the disciples and their example, whose feet stumbled. How art thou fallen from heaven, O Lucifer, son of the morning!"
+  },
+  {
+   "id": "matthew-i-have-sinned-innocent-blood",
+   "after": "source:AB10672",
+   "responds": [
+    "source:AB10672"
+   ],
+   "relation": "complement",
+   "why": "He fell until he had a part in shedding innocent blood. Matthew records what came after: Judas repented himself, and brought again the thirty pieces of silver, saying, I have sinned in that I have betrayed the innocent blood; and went and hanged himself. The readings do not mention this remorse. What does it add to the picture, and why was it not enough?"
+  },
+  {
+   "id": "mark-good-were-it-for-that-man",
+   "after": "source:AB11246",
+   "responds": [
+    "source:AB11246"
+   ],
+   "relation": "adjacent",
+   "why": "He who is with Christ abhors the Judases. Woe to that man by whom the Son of man is betrayed! good were it for that man if he had never been born."
+  },
+  {
+   "id": "proverbs-pride-goeth-before-destruction",
+   "after": "source:ABU1559",
+   "responds": [
+    "source:ABU1559"
+   ],
+   "relation": "adjacent",
+   "why": "In every cycle someone has shown pride; in Christ’s time it was Judas. Pride goeth before destruction, and an haughty spirit before a fall."
+  }
+ ],
+ "library": {
+  "matthew-i-have-sinned-innocent-blood": {
+   "text": "Then Judas, which had betrayed him, when he saw that he was condemned, repented himself, and brought again the thirty pieces of silver to the chief priests and elders, Saying, I have sinned in that I have betrayed the innocent blood. And they said, What is that to us? see thou to that. And he cast down the pieces of silver in the temple, and departed, and went and hanged himself",
+   "work": "Matthew 27:3–5",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2027%3A3-5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-he-had-the-bag": {
+   "text": "Then saith one of his disciples, Judas Iscariot, Simon's son, which should betray him, Why was not this ointment sold for three hundred pence, and given to the poor? This he said, not that he cared for the poor; but because he was a thief, and had the bag, and bare what was put therein",
+   "work": "John 12:4–6",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2012%3A4-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "john-and-it-was-night": {
+   "text": "He then having received the sop went immediately out: and it was night",
+   "work": "John 13:30",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2013%3A30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-lord-is-it-i": {
+   "text": "And as they did eat, he said, Verily I say unto you, that one of you shall betray me. And they were exceeding sorrowful, and began every one of them to say unto him, Lord, is it I",
+   "work": "Matthew 26:21–22",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2026%3A21-22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-good-were-it-for-that-man": {
+   "text": "The Son of man indeed goeth, as it is written of him: but woe to that man by whom the Son of man is betrayed! good were it for that man if he had never been born",
+   "work": "Mark 14:21",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%2014%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
