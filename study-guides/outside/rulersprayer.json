@@ -1,0 +1,179 @@
+{
+ "format": 2,
+ "slug": "rulersprayer",
+ "subject": "30C2D59E16E1E7182E7735000387E1F7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 49,
+ "quotations": 49,
+ "kept": [
+  "source:AB06000",
+  "source:BH00662",
+  "source:AB05491",
+  "source:AB10956",
+  "source:BH02816",
+  "source:BH01329",
+  "source:BB00034",
+  "source:BH01118",
+  "source:BH11577",
+  "source:BH01874",
+  "source:BH10434",
+  "source:BH01085",
+  "source:BH01014",
+  "source:BH10577",
+  "source:AB07072",
+  "source:BH00760",
+  "source:BH09810",
+  "source:BH03054",
+  "source:BH04514",
+  "source:BH11609",
+  "source:AB10593",
+  "source:AB01756",
+  "source:AB05795",
+  "source:AB05739",
+  "source:AB04250",
+  "source:AB04239",
+  "source:AB01572",
+  "source:AB00886",
+  "source:AB01526",
+  "source:AB00551",
+  "source:AB00603",
+  "source:BH10422",
+  "source:AB03694",
+  "source:AB09762",
+  "source:AB00293",
+  "source:AB00382",
+  "source:AB11737",
+  "source:AB02771",
+  "source:BH07156",
+  "source:BH06618",
+  "source:BH01338",
+  "source:AB01716",
+  "source:AB02714",
+  "source:AB04682",
+  "source:AB05081",
+  "source:AB07851",
+  "source:BH01807",
+  "source:BH02926",
+  "source:AB12299"
+ ],
+ "introduction": "Bahá’u’lláh wrote prayers for kings to say, and prayers for His followers to say on behalf of kings, among them the Shah and the Sultan who had exiled Him. They ask that the ruler be made just, be protected while he protects, and be brought to see. The practice is old: Jeremiah told the exiles to pray for Babylon, the Psalmist prayed “Give the king thy judgments”, and the first letter to Timothy asks prayers “for kings, and for all that are in authority”. Samuel’s warning about kings and the Psalm’s “put not your trust in princes” stand beside the prayers as they do in the Bible.",
+ "questions": [
+  "What do these prayers ask for rulers? What do they not ask?",
+  "Bahá’u’lláh prayed for the monarchs who persecuted Him. What does that teach about loyalty, and about its limits?",
+  "Should one pray for a government one believes unjust? In what words?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-give-the-king",
+   "after": "source:AB06000",
+   "responds": [
+    "source:AB06000"
+   ],
+   "relation": "adjacent",
+   "why": "Thou Who endowest every just power with abiding glory. Give the king thy judgments, O God: he shall judge the poor of the people, he shall save the children of the needy."
+  },
+  {
+   "id": "kings-understanding-heart",
+   "after": "source:BH00662",
+   "responds": [
+    "source:BH00662"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer put in a king’s mouth: I am but a vassal of Thine. Solomon: give therefore thy servant an understanding heart to judge thy people."
+  },
+  {
+   "id": "timothy-prayers-for-kings",
+   "after": "source:AB05491",
+   "responds": [
+    "source:AB05491"
+   ],
+   "relation": "adjacent",
+   "why": "Protect every protector. Prayers be made for kings, and for all that are in authority; that we may lead a quiet and peaceable life."
+  },
+  {
+   "id": "proverbs-kings-heart",
+   "after": "source:AB10956",
+   "responds": [
+    "source:AB10956"
+   ],
+   "relation": "adjacent",
+   "why": "Aid the kings of the earth to walk in the path of guidance and justice. The king’s heart is in the hand of the Lord: he turneth it whithersoever he will."
+  },
+  {
+   "id": "daniel-removeth-kings",
+   "after": "source:BH02816",
+   "responds": [
+    "source:BH02816"
+   ],
+   "relation": "adjacent",
+   "why": "By the sovereignty of the Names. He removeth kings, and setteth up kings."
+  },
+  {
+   "id": "jeremiah-seek-the-peace-of-the-city",
+   "after": "source:BH01329",
+   "responds": [
+    "source:BH01329"
+   ],
+   "relation": "adjacent",
+   "why": "Prevent not the Sultan from turning to Thy knowledge. Seek the peace of the city whither I have caused you to be carried away captives, and pray unto the Lord for it."
+  },
+  {
+   "id": "psalm-the-earth-is-the-lords",
+   "after": "source:BB00034",
+   "responds": [
+    "source:BB00034"
+   ],
+   "relation": "adjacent",
+   "why": "Thou art the Possessor of the heavens and the earth. The earth is the Lord’s, and the fulness thereof."
+  },
+  {
+   "id": "samuel-god-save-the-king",
+   "after": "source:BH01118",
+   "responds": [
+    "source:BH01118"
+   ],
+   "relation": "adjacent",
+   "why": "That He illumine His Majesty the Shah. And all the people shouted, and said, God save the king."
+  },
+  {
+   "id": "samuel-manner-of-the-king",
+   "after": "source:BH01118",
+   "responds": [
+    "source:BH01118"
+   ],
+   "relation": "contrast",
+   "why": "The same book records what Samuel told the people a king would do: he will take your sons, your fields, the tenth of your sheep; and ye shall cry out in that day. The Shah prayed for here was the one under whom Bahá’ís were killed. What is such a prayer asking?"
+  },
+  {
+   "id": "matthew-pray-for-persecutors",
+   "after": "source:BH11577",
+   "responds": [
+    "source:BH11577"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer by the Manifestation through which the Prophets arose. Pray for them which persecute you."
+  },
+  {
+   "id": "psalm-put-not-your-trust-in-princes",
+   "after": "source:BH01874",
+   "responds": [
+    "source:BH01874"
+   ],
+   "relation": "complement",
+   "why": "That God assist the ruler. Put not your trust in princes. How can one pray earnestly for a ruler and place no trust in him?"
+  },
+  {
+   "id": "romans-higher-powers",
+   "after": "source:BH10434",
+   "responds": [
+    "source:BH10434"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer taught to a subject. The powers that be are ordained of God."
+  }
+ ],
+ "shortfall": "Readings 12 to 49 are prayers for particular sovereigns in the same terms; companions were set to the first eleven.",
+ "library": {}
+}

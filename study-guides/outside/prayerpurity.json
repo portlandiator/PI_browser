@@ -1,0 +1,145 @@
+{
+ "format": 2,
+ "slug": "prayerpurity",
+ "subject": "BDF8B75365C1E9D95EAB6706CE6373DF",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 24,
+ "quotations": 24,
+ "kept": [
+  "source:BH04421",
+  "source:AB11605",
+  "source:AB03040",
+  "source:BH11071",
+  "source:BH03357",
+  "source:BH07783",
+  "source:BH01488",
+  "source:AB09143",
+  "source:BH06687",
+  "source:BH01025",
+  "source:BH07658",
+  "source:BH07302",
+  "source:BH03095",
+  "source:BH08833",
+  "source:BH03192",
+  "source:AB11239",
+  "source:BH06140",
+  "source:BH07114",
+  "source:BH01242",
+  "source:BH09471",
+  "source:BH09449",
+  "source:BH09906",
+  "source:BH09205",
+  "source:BH04530"
+ ],
+ "introduction": "“Create in me a pure heart, O my God.” The first prayer of this guide takes its words from the fifty-first Psalm, and the rest keep to its matter: the heart is clouded by “idle fancies”, by attachment, by heedlessness, and cannot clean itself; so the one praying asks to be washed, sprinkled, given to drink. Some of the prayers accompany ablutions. The Beatitude on the pure in heart, Ezekiel’s clean water, Isaiah’s coal and the washing of the disciples’ feet are the scriptures of this cleansing; and Jesus’s “whited sepulchres” is the warning against a purity that is only outward.",
+ "questions": [
+  "Why is purity of heart asked for and not simply practised?",
+  "What do these prayers name as the things that cloud a heart?",
+  "How are washing the body and purifying the heart related in readings 9 to 11?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-clean-heart",
+   "after": "source:BH04421",
+   "responds": [
+    "source:BH04421"
+   ],
+   "relation": "adjacent",
+   "why": "The reading echoes the Psalm: create in me a clean heart, O God; and renew a right spirit within me."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB11605",
+   "responds": [
+    "source:AB11605"
+   ],
+   "relation": "adjacent",
+   "why": "A pure heart, like unto a pearl. Blessed are the pure in heart: for they shall see God."
+  },
+  {
+   "id": "psalm-clean-hands-and-a-pure-heart",
+   "after": "source:AB03040",
+   "responds": [
+    "source:AB03040"
+   ],
+   "relation": "adjacent",
+   "why": "Humility and contrition before the holy Kingdom. Who shall ascend into the hill of the Lord? He that hath clean hands, and a pure heart."
+  },
+  {
+   "id": "philippians-think-on-these-things",
+   "after": "source:BH11071",
+   "responds": [
+    "source:BH11071"
+   ],
+   "relation": "adjacent",
+   "why": "Make the hearts of Thy servants sanctified. Whatsoever things are pure, whatsoever things are lovely, think on these things."
+  },
+  {
+   "id": "ezekiel-sprinkle-clean-water",
+   "after": "source:BH03357",
+   "responds": [
+    "source:BH03357"
+   ],
+   "relation": "adjacent",
+   "why": "Sprinkle upon her heart from the ocean of Thy remembrance. Then will I sprinkle clean water upon you, and ye shall be clean."
+  },
+  {
+   "id": "isaiah-unclean-lips",
+   "after": "source:BH01488",
+   "responds": [
+    "source:BH01488"
+   ],
+   "relation": "adjacent",
+   "why": "“Sanctify Thy loved ones.” Woe is me! for I am a man of unclean lips; and the seraph touched his mouth with a live coal."
+  },
+  {
+   "id": "john-needeth-not-save-to-wash-his-feet",
+   "after": "source:BH06687",
+   "responds": [
+    "source:BH06687"
+   ],
+   "relation": "adjacent",
+   "why": "Purify me with the living waters of Thy Cause. If I wash thee not, thou hast no part with me."
+  },
+  {
+   "id": "quran-when-ye-rise-up-for-prayer",
+   "after": "source:BH01025",
+   "responds": [
+    "source:BH01025"
+   ],
+   "relation": "adjacent",
+   "why": "Perform ablutions, and while washing say this. The Qur’an on washing before prayer: Allah would not place a burden on you, but He would purify you."
+  },
+  {
+   "id": "psalm-whiter-than-snow",
+   "after": "source:BH07658",
+   "responds": [
+    "source:BH07658"
+   ],
+   "relation": "adjacent",
+   "why": "Cleanse me with the waters of Thy mercy. Wash me, and I shall be whiter than snow."
+  },
+  {
+   "id": "matthew-whited-sepulchres",
+   "after": "source:BH07302",
+   "responds": [
+    "source:BH07302"
+   ],
+   "relation": "contrast",
+   "why": "Purify me from all else. Jesus on purity that stops at the surface: ye make clean the outside of the cup; ye are like unto whited sepulchres. These prayers join an ablution to an inward petition. What keeps the outward washing honest?"
+  },
+  {
+   "id": "mark-from-within",
+   "after": "source:BH08833",
+   "responds": [
+    "source:BH08833"
+   ],
+   "relation": "adjacent",
+   "why": "That all names be transformed. From within, out of the heart of men, proceed evil thoughts: these defile the man."
+  }
+ ],
+ "shortfall": "Readings 15 to 24 repeat the petitions of the first prayers, and companions were set only to those first.",
+ "library": {}
+}

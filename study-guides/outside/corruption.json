@@ -1,0 +1,281 @@
+{
+ "format": 2,
+ "slug": "corruption",
+ "subject": "9F73D0D4B3B142C4AFD0C88C471AA8EA",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 15,
+ "kept": [
+  "source:AB00004",
+  "source:ABU0391",
+  "source:ABU0355",
+  "source:ABU1539",
+  "source:ABU0768",
+  "source:AB06831",
+  "source:AB02483",
+  "source:BH00513",
+  "source:BH03468",
+  "source:ABU0176",
+  "source:ABU0243",
+  "source:AB01301",
+  "selection:546eadff0fb5af076171ef2a",
+  "selection:4a2e07e5003c5c4bd164227f"
+ ],
+ "introduction": "“If bribery and corruption, known today by the pleasant names of gifts and favours, were forever excluded, would this threaten the foundations of justice?” ‘Abdu’l-Bahá asked the question in The Secret of Divine Civilization, addressed to the Persia of his youth, and his talks kept the stories that went with it: the judge offered an Arab horse, the official whose extorted hoard melted away, the governors of ‘Akká who waited in vain for a bribe from him. Later readings ask of Bahá’ís in public service an integrity beyond suspicion. The Hebrew law said it first, “the gift blindeth the wise”, and the prophets repeated it against princes who “love gifts”. Samuel’s “whose ox have I taken?” is the model of clean hands on leaving office; Felix, trembling and postponing, is the other kind. Acton and Madison ask whether integrity can be left to character.",
+ "questions": [
+  "Why does corruption so often go by “pleasant names”? What names does it have now?",
+  "Exodus says a gift blinds even the wise. Is the reading’s remedy to refuse gifts, or to become a person whom gifts do not blind?",
+  "Madison would add institutional precautions to good character. What precautions do readings 5 and 14 imply?",
+  "What would Samuel’s challenge, “whose ox have I taken?”, sound like in a modern office?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-gift-blindeth-the-wise",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Bribery under “the pleasant names of gifts and favours”. Thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous."
+  },
+  {
+   "id": "proverbs-gift-out-of-the-bosom",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "A wicked man taketh a gift out of the bosom to pervert the ways of judgment."
+  },
+  {
+   "id": "quran-hearing-of-the-judges",
+   "after": "source:ABU0391",
+   "responds": [
+    "source:ABU0391"
+   ],
+   "relation": "adjacent",
+   "why": "A horse offered to a judge. Seek not by your property to gain the hearing of the judges, that ye may knowingly devour a portion of the property of others wrongfully."
+  },
+  {
+   "id": "isaiah-how-is-the-faithful-city",
+   "after": "source:ABU0355",
+   "responds": [
+    "source:ABU0355"
+   ],
+   "relation": "adjacent",
+   "why": "An official who extorted money on the flimsiest excuses. Thy princes are companions of thieves: every one loveth gifts, and followeth after rewards."
+  },
+  {
+   "id": "james-go-to-now-ye-rich-men",
+   "after": "source:ABU1539",
+   "responds": [
+    "source:ABU1539"
+   ],
+   "relation": "adjacent",
+   "why": "The hoard deposited at interest came to nothing. Your gold and silver is cankered; and the rust of them shall be a witness against you."
+  },
+  {
+   "id": "luke-content-with-your-wages",
+   "after": "source:ABU0768",
+   "responds": [
+    "source:ABU0768"
+   ],
+   "relation": "adjacent",
+   "why": "Those who serve should be paid from the public funds and take nothing else. The Baptist to the tax-gatherers and soldiers: exact no more than that which is appointed you; be content with your wages."
+  },
+  {
+   "id": "isaiah-shaketh-his-hands-from-bribes",
+   "after": "source:AB06831",
+   "responds": [
+    "source:AB06831"
+   ],
+   "relation": "adjacent",
+   "why": "On no account to defile themselves by receiving bribes. He that despiseth the gain of oppressions, that shaketh his hands from holding of bribes: he shall dwell on high."
+  },
+  {
+   "id": "samuel-whose-ox-have-i-taken",
+   "after": "source:AB02483",
+   "responds": [
+    "source:AB02483"
+   ],
+   "relation": "adjacent",
+   "why": "Nobility lies not in illegitimate wealth. Samuel laying down office: whose ox have I taken? or of whose hand have I received any bribe to blind mine eyes therewith?"
+  },
+  {
+   "id": "job-tabernacles-of-bribery",
+   "after": "source:BH03468",
+   "responds": [
+    "source:BH03468"
+   ],
+   "relation": "adjacent",
+   "why": "Do not cause corruption in the land. Fire shall consume the tabernacles of bribery."
+  },
+  {
+   "id": "acts-felix-trembled",
+   "after": "source:ABU0176",
+   "responds": [
+    "source:ABU0176"
+   ],
+   "relation": "adjacent",
+   "why": "A thousand liras sent to the governor. Felix, the governor who judged Paul, trembled as he reasoned of righteousness and judgment to come, and put him off: when I have a convenient season, I will call for thee."
+  },
+  {
+   "id": "acts-simon-offered-money",
+   "after": "source:ABU0243",
+   "responds": [
+    "source:ABU0243"
+   ],
+   "relation": "adjacent",
+   "why": "Officials who had imagined a bribe would be offered were disappointed. Peter to Simon: thy money perish with thee."
+  },
+  {
+   "id": "acton-power-tends-to-corrupt",
+   "after": "source:AB01301",
+   "responds": [
+    "source:AB01301"
+   ],
+   "relation": "complement",
+   "why": "How base to sully oneself with betrayal of the state. Acton thought it less a matter of base persons than of position: power tends to corrupt, and absolute power corrupts absolutely. Do the readings locate corruption in character or in circumstances?"
+  },
+  {
+   "id": "luke-zacchaeus-fourfold",
+   "after": "selection:546eadff0fb5af076171ef2a",
+   "responds": [
+    "selection:546eadff0fb5af076171ef2a"
+   ],
+   "relation": "adjacent",
+   "why": "Those employed in government to act with entire detachment and integrity. Zacchaeus, chief among the publicans: if I have taken any thing from any man by false accusation, I restore him fourfold."
+  },
+  {
+   "id": "madison-if-men-were-angels",
+   "after": "selection:4a2e07e5003c5c4bd164227f",
+   "responds": [
+    "selection:4a2e07e5003c5c4bd164227f"
+   ],
+   "relation": "contrast",
+   "why": "Bahá’ís to live so that no charge of bribery or fraud can even be brought. Madison built on the opposite assumption: if men were angels, no government would be necessary; a dependence on the people is the primary control, but experience has taught the necessity of auxiliary precautions. Do the readings rely on character alone, or on precautions too?"
+  }
+ ],
+ "shortfall": "Reading 8 speaks of unseemly acts in general; one fewer companion was placed than the guide has quotations.",
+ "library": {
+  "isaiah-shaketh-his-hands-from-bribes": {
+   "text": "He that walketh righteously, and speaketh uprightly; he that despiseth the gain of oppressions, that shaketh his hands from holding of bribes, that stoppeth his ears from hearing of blood, and shutteth his eyes from seeing evil",
+   "work": "Isaiah 33:15",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2033%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "samuel-whose-ox-have-i-taken": {
+   "text": "Behold, here I am: witness against me before the Lord, and before his anointed: whose ox have I taken? or whose ass have I taken? or whom have I defrauded? whom have I oppressed? or of whose hand have I received any bribe to blind mine eyes therewith? and I will restore it you",
+   "work": "1 Samuel 12:3",
+   "year": "c. 8th–5th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2012%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-gift-out-of-the-bosom": {
+   "text": "A wicked man taketh a gift out of the bosom to pervert the ways of judgment",
+   "work": "Proverbs 17:23",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2017%3A23&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "job-tabernacles-of-bribery": {
+   "text": "For the congregation of hypocrites shall be desolate, and fire shall consume the tabernacles of bribery",
+   "work": "Job 15:34",
+   "year": "c. 5th–2nd century BCE",
+   "sortYear": -300,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Job%2015%3A34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-hearing-of-the-judges": {
+   "text": "And eat not up your property among yourselves in vanity, nor seek by it to gain the hearing of the judges that ye may knowingly devour a portion of the property of others wrongfully.",
+   "work": "Qur’an 2:188",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=188",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

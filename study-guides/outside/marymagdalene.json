@@ -1,0 +1,256 @@
+{
+ "format": 2,
+ "slug": "marymagdalene",
+ "subject": "042B3F5C87F541728495F9973A5F53AC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 31,
+ "quotations": 31,
+ "kept": [
+  "source:AB00348",
+  "source:AB00837",
+  "source:ABU0248",
+  "source:ABU1052",
+  "source:ABU1136",
+  "source:ABU1351",
+  "source:ABU0115",
+  "source:ABU0671",
+  "source:ABU2288",
+  "source:ABU1373",
+  "source:ABU1128",
+  "source:ABU2013",
+  "source:ABU2769",
+  "source:ABU1333",
+  "source:AB01577",
+  "source:AB02844",
+  "source:ABU0451",
+  "source:AB04653",
+  "source:ABU0067",
+  "source:AB04965",
+  "source:ABU0465",
+  "source:ABU2603",
+  "source:ABU0930",
+  "source:ABU1395",
+  "source:AB03459",
+  "source:ABU2200",
+  "source:ABU1908",
+  "source:ABU0585",
+  "source:AB06396",
+  "source:ABU1088",
+  "selection:adae0c90be8a6e564114920d"
+ ],
+ "introduction": "‘Abdu’l-Bahá told the story of Mary Magdalene more often than almost any other: a village woman of no standing who, when the disciples were scattered and afraid after the crucifixion, gathered them, reminded them of what Christ had said, and sent them out. He told it to encourage Western women, who had no public standing either, and to show that station depends on steadfastness and not on rank or learning. The Gospels’ own account is briefer and different in tone: she is the first witness of the resurrection, weeping at the tomb, who “came and told the disciples that she had seen the Lord” and was not at first believed. The readings also repeat the medieval identification of her with a repentant prostitute, which the Gospels do not make.",
+ "questions": [
+  "What does ‘Abdu’l-Bahá’s telling add to the Gospel account, and what purpose does the addition serve?",
+  "Why would steadfastness in one person steady a whole group?",
+  "The Gospels say the apostles first took the women’s report for “idle tales”. What does that detail do to the story?",
+  "Tradition made Mary Magdalene a great sinner. Does her example mean more with that past, or without it?"
+ ],
+ "outside": [
+  {
+   "id": "luke-idle-tales",
+   "after": "source:AB00348",
+   "responds": [
+    "source:AB00348"
+   ],
+   "relation": "adjacent",
+   "why": "After the ascension trembling and fear prevailed. When the women told the apostles what they had seen, their words seemed to them as idle tales, and they believed them not."
+  },
+  {
+   "id": "luke-certain-women",
+   "after": "source:AB00837",
+   "responds": [
+    "source:AB00837"
+   ],
+   "relation": "adjacent",
+   "why": "A villager who kept firm. Luke names her among the women who followed Jesus and ministered unto him: Mary called Magdalene, out of whom went seven devils."
+  },
+  {
+   "id": "john-told-the-disciples-she-had-seen-the-lord",
+   "after": "source:ABU0248",
+   "responds": [
+    "source:ABU0248"
+   ],
+   "relation": "adjacent",
+   "why": "She gathered the disciples and addressed them. The Gospel’s version of that address: Mary Magdalene came and told the disciples that she had seen the Lord."
+  },
+  {
+   "id": "john-mary-at-the-tomb",
+   "after": "source:ABU1052",
+   "responds": [
+    "source:ABU1052"
+   ],
+   "relation": "adjacent",
+   "why": "The disciples agitated at the sight of the crucified body. Mary stood without at the sepulchre weeping, when the others had gone away again unto their own home."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:ABU1136",
+   "responds": [
+    "source:ABU1136"
+   ],
+   "relation": "adjacent",
+   "why": "“Matter is gone, and flesh, but the soul of the religion is forever.” The things which are seen are temporal; but the things which are not seen are eternal."
+  },
+  {
+   "id": "luke-prayed-for-thee",
+   "after": "source:ABU0115",
+   "responds": [
+    "source:ABU0115"
+   ],
+   "relation": "adjacent",
+   "why": "The strong are to strengthen the weak, as she did. Jesus to Peter: when thou art converted, strengthen thy brethren."
+  },
+  {
+   "id": "luke-peter-wept-bitterly",
+   "after": "source:ABU0671",
+   "responds": [
+    "source:ABU0671"
+   ],
+   "relation": "adjacent",
+   "why": "Peter denied Him, and Luke records what followed the denial. And Peter went out, and wept bitterly."
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:ABU1373",
+   "responds": [
+    "source:ABU1373"
+   ],
+   "relation": "adjacent",
+   "why": "What apparent capacity did she have? A village woman. God hath chosen the weak things of the world to confound the things which are mighty."
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:ABU1333",
+   "responds": [
+    "source:ABU1333"
+   ],
+   "relation": "adjacent",
+   "why": "Caiaphas knew the Bible by heart and was deprived. Thou hast hid these things from the wise and prudent, and hast revealed them unto babes."
+  },
+  {
+   "id": "john-supposing-him-to-be-the-gardener",
+   "after": "source:ABU0451",
+   "responds": [
+    "source:ABU0451"
+   ],
+   "relation": "complement",
+   "why": "“She was a veritable lioness.” In John she is a woman weeping, who takes the risen Jesus for the gardener and knows him when he says her name. The readings’ Mary exhorts; the Gospel’s Mary recognizes. What does each portrait bring out?"
+  },
+  {
+   "id": "judges-a-mother-in-israel",
+   "after": "source:AB04653",
+   "responds": [
+    "source:AB04653"
+   ],
+   "relation": "adjacent",
+   "why": "Ásíyih in the Mosaic dispensation, Mary in the Christian. Until that I Deborah arose, that I arose a mother in Israel."
+  },
+  {
+   "id": "luke-thy-faith-hath-made-thee-whole",
+   "after": "source:ABU2603",
+   "responds": [
+    "source:ABU2603"
+   ],
+   "relation": "adjacent",
+   "why": "Seven devils means seven evil qualities cast out by teaching. Thy faith hath made thee whole; go in peace."
+  },
+  {
+   "id": "john-neither-do-i-condemn-thee",
+   "after": "source:ABU1395",
+   "responds": [
+    "source:ABU1395"
+   ],
+   "relation": "contrast",
+   "why": "“A woman of the town”, “even an adulteress”: the readings repeat the Western tradition that identified her with the sinner of Luke 7 and the woman taken in adultery. The Gospels say only that seven devils went out of her. Neither do I condemn thee. Does the readings’ point about transformation need the tradition to be true?"
+  },
+  {
+   "id": "ecclesiastes-no-remembrance-of-the-wise",
+   "after": "source:AB03459",
+   "responds": [
+    "source:AB03459"
+   ],
+   "relation": "adjacent",
+   "why": "Empresses have come and gone without trace. There is no remembrance of the wise more than of the fool for ever."
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:ABU2200",
+   "responds": [
+    "source:ABU2200"
+   ],
+   "relation": "adjacent",
+   "why": "Out of the rough fisherman He made Peter, out of the village girl a power in the world. They perceived that they were unlearned and ignorant men, and they marvelled."
+  },
+  {
+   "id": "matthew-publicans-go-before-you",
+   "after": "source:ABU0585",
+   "responds": [
+    "source:ABU0585"
+   ],
+   "relation": "adjacent",
+   "why": "Promoted to a lofty station. The publicans and the harlots go into the kingdom of God before you."
+  },
+  {
+   "id": "matthew-memorial-of-her",
+   "after": "source:ABU1088",
+   "responds": [
+    "source:ABU1088"
+   ],
+   "relation": "adjacent",
+   "why": "He told her story to visiting women. Of another woman Jesus said: wheresoever this gospel shall be preached, there shall also this, that this woman hath done, be told for a memorial of her."
+  }
+ ],
+ "shortfall": "The readings tell one story some thirty times; a companion was set where a telling adds a detail.",
+ "library": {
+  "john-told-the-disciples-she-had-seen-the-lord": {
+   "text": "Mary Magdalene came and told the disciples that she had seen the Lord, and that he had spoken these things unto her",
+   "work": "John 20:18",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%2020%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-memorial-of-her": {
+   "text": "Verily I say unto you, Wheresoever this gospel shall be preached in the whole world, there shall also this, that this woman hath done, be told for a memorial of her",
+   "work": "Matthew 26:13",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2026%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

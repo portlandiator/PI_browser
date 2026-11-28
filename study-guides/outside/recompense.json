@@ -1,0 +1,392 @@
+{
+ "format": 2,
+ "slug": "recompense",
+ "subject": "70243FE151214450B3A87930FD5DF192",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 53,
+ "quotations": 55,
+ "kept": [
+  "source:ABU1880",
+  "source:BH00354",
+  "source:ABU2120",
+  "source:AB00268",
+  "source:BH07558",
+  "source:AB06914",
+  "source:ABU1380",
+  "source:ABU0317",
+  "source:AB04059",
+  "source:AB01223",
+  "source:ABU2845",
+  "source:BH04086",
+  "source:BH10220",
+  "source:BH06821",
+  "source:BH00972",
+  "source:ABU0370",
+  "source:AB01771",
+  "source:AB10534",
+  "source:AB03772",
+  "source:BB00002",
+  "source:BH04546",
+  "source:BH01949",
+  "source:BH06708",
+  "source:BH09543",
+  "source:BH03631",
+  "source:BB00437",
+  "source:BB00467",
+  "source:BB00531",
+  "source:BH09223",
+  "source:BB00003",
+  "source:ABU1743",
+  "source:ABU1302",
+  "source:ABU3087",
+  "source:ABU0747",
+  "source:ABU3091",
+  "source:AB02343",
+  "source:AB04298",
+  "source:BH09014",
+  "source:AB00959",
+  "source:AB04108",
+  "source:AB04704",
+  "source:AB04027",
+  "source:AB06224",
+  "source:AB04585",
+  "source:AB06364",
+  "source:BB00164",
+  "source:BH09823",
+  "source:BH07807",
+  "source:BH06887",
+  "source:AB01880",
+  "source:AB06454",
+  "source:BH02022",
+  "source:AB03966"
+ ],
+ "introduction": "“The reward of the lamp is its own illumination.” The guide begins there, with goodness as its own recompense, and then gathers the many passages that promise more: that every act has its consequence, that no soul’s reward is lost, that the heedless will regret, that suffering borne for God is compensated beyond measure, and that punishment in the next world is “to cure, to redeem, to educate”. Paul’s “whatsoever a man soweth, that shall he also reap”, the cup of cold water, the Qur’an’s atom’s weight of good and its tenfold reward, and the Apocalypse’s “their works do follow them” are close parallels; Kant’s good will shining “like a jewel” and Emerson’s crime and punishment on one stem are philosophy’s version. The doubters are in scripture too: the Psalmist who envied the prosperous wicked, and the Preacher who saw “one event” for all. James presses on the relation of faith to deeds, Dante’s gate stands against punishment that heals, and Rábi‘a asks whether reward should be wanted at all.",
+ "questions": [
+  "Reading 1 says a good life is its own reward; most of the guide promises reward afterwards. Are these two motives or one?",
+  "The Psalmist saw the wicked prosper. What answer do the readings give, and does it satisfy?",
+  "Reading 35 says God’s punishment is “always to cure”. What changes in one’s idea of justice if all punishment is remedial? Compare Dante.",
+  "Readings 22 and 31 appear to weigh faith and deeds differently. How would you reconcile them, with James in mind?",
+  "Rábi‘a wanted neither Paradise nor escape from Hell. Is her prayer a higher form of the readings’ teaching or a rejection of it?"
+ ],
+ "outside": [
+  {
+   "id": "kant-like-a-jewel",
+   "after": "source:ABU1880",
+   "responds": [
+    "source:ABU1880"
+   ],
+   "relation": "adjacent",
+   "why": "“The reward of the lamp is its own illumination.” Kant on the good will that achieves nothing: like a jewel, it would still shine by its own light."
+  },
+  {
+   "id": "matthew-left-hand-know",
+   "after": "source:ABU1880",
+   "responds": [
+    "source:ABU1880"
+   ],
+   "relation": "adjacent",
+   "why": "A life well spent needs no praise. Let not thy left hand know what thy right hand doeth; thy Father which seeth in secret himself shall reward thee openly."
+  },
+  {
+   "id": "galatians-whatsoever-a-man-soweth",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "For every act there is a recompense according to its kind. Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap."
+  },
+  {
+   "id": "emerson-crime-and-punishment-one-stem",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "Emerson: crime and punishment grow out of one stem. Punishment is a fruit that unsuspected ripens within the flower of the pleasure which concealed it."
+  },
+  {
+   "id": "romans-according-to-his-deeds",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "adjacent",
+   "why": "Rewards and punishments of two kinds, here and hereafter. God will render to every man according to his deeds."
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:BH07558",
+   "responds": [
+    "source:BH07558"
+   ],
+   "relation": "adjacent",
+   "why": "No soul’s reward is lost; a single breath for God’s sake has its effect. Whosoever shall give a cup of cold water only, he shall in no wise lose his reward."
+  },
+  {
+   "id": "quran-atoms-weight",
+   "after": "source:BH07558",
+   "responds": [
+    "source:BH07558"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an gives the smallest measure its due on the Day of account: whoso doeth good an atom’s weight will see it then."
+  },
+  {
+   "id": "ecclesiastes-bread-upon-the-waters",
+   "after": "source:AB06914",
+   "responds": [
+    "source:AB06914"
+   ],
+   "relation": "adjacent",
+   "why": "A kindness done to the dead will be repaid. Cast thy bread upon the waters: for thou shalt find it after many days."
+  },
+  {
+   "id": "proverbs-buy-the-truth",
+   "after": "source:ABU0317",
+   "responds": [
+    "source:ABU0317"
+   ],
+   "relation": "adjacent",
+   "why": "Truthfulness that saved a man and made him a minister. Buy the truth, and sell it not."
+  },
+  {
+   "id": "revelation-rest-from-their-labours",
+   "after": "source:AB01223",
+   "responds": [
+    "source:AB01223"
+   ],
+   "relation": "adjacent",
+   "why": "The harvest of conduct is gathered in the heavenly realm. Blessed are the dead which die in the Lord: they rest from their labours; and their works do follow them."
+  },
+  {
+   "id": "proverbs-wealth-gotten-by-vanity",
+   "after": "source:ABU2845",
+   "responds": [
+    "source:ABU2845"
+   ],
+   "relation": "adjacent",
+   "why": "Misconduct brings its own punishment. Wealth gotten by vanity shall be diminished."
+  },
+  {
+   "id": "psalm-prosperity-of-the-wicked",
+   "after": "source:BH10220",
+   "responds": [
+    "source:BH10220"
+   ],
+   "relation": "contrast",
+   "why": "“This is the Day of requital.” The Psalmist almost lost his faith over the evidence: I was envious at the foolish, when I saw the prosperity of the wicked. If reward and punishment are real, why are they so hard to see?"
+  },
+  {
+   "id": "ecclesiastes-one-event",
+   "after": "source:BH10220",
+   "responds": [
+    "source:BH10220"
+   ],
+   "relation": "contrast",
+   "why": "The Preacher is blunter: all things come alike to all: there is one event to the righteous, and to the wicked. What do the readings say to him?"
+  },
+  {
+   "id": "luke-abrahams-bosom",
+   "after": "source:BH00972",
+   "responds": [
+    "source:BH00972"
+   ],
+   "relation": "adjacent",
+   "why": "At death the heedless recognize what they missed. The rich man in torment lifts up his eyes and sees Lazarus afar off."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:ABU0370",
+   "responds": [
+    "source:ABU0370"
+   ],
+   "relation": "adjacent",
+   "why": "A child blind in the womb does not know its lack until it is born. Now we see through a glass, darkly; but then face to face."
+  },
+  {
+   "id": "quran-book-in-his-left-hand",
+   "after": "source:AB10534",
+   "responds": [
+    "source:AB10534"
+   ],
+   "relation": "adjacent",
+   "why": "“Alas for what we neglected!” The Qur’an’s voice of regret: Oh, would that I had not been given my book."
+  },
+  {
+   "id": "quran-as-a-mirage",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "Their deeds like a mirage in the desert. The reading is quoting: their deeds are as a mirage; the thirsty one supposeth it to be water till he cometh unto it and findeth it naught."
+  },
+  {
+   "id": "james-faith-without-works",
+   "after": "source:BH01949",
+   "responds": [
+    "source:BH01949"
+   ],
+   "relation": "contrast",
+   "why": "Recognition without deeds leaves hope of salvation; deeds without recognition do not. James: faith, if it hath not works, is dead, being alone. And the Qur’an verse quoted in reading 31 promises reward to whoever “believeth in Allah and the Last Day and doeth right”. How do readings 22 and 31 stand together?"
+  },
+  {
+   "id": "matthew-well-done",
+   "after": "source:BB00467",
+   "responds": [
+    "source:BB00467"
+   ],
+   "relation": "adjacent",
+   "why": "God will reward them with the best of what they wrought. Well done, thou good and faithful servant: enter thou into the joy of thy lord."
+  },
+  {
+   "id": "matthew-inherit-the-kingdom",
+   "after": "source:BH09223",
+   "responds": [
+    "source:BH09223"
+   ],
+   "relation": "adjacent",
+   "why": "Raised on the Day of Resurrection in a beautiful form. Come, ye blessed of my Father, inherit the kingdom prepared for you."
+  },
+  {
+   "id": "quran-whoever-believeth-and-doeth-right",
+   "after": "source:ABU1743",
+   "responds": [
+    "source:ABU1743"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this verse: those who believe, and those who are Jews, and Christians, and Sabaeans, whoever believeth in Allah and the Last Day and doeth right, surely their reward is with their Lord."
+  },
+  {
+   "id": "corinthians-eye-hath-not-seen",
+   "after": "source:ABU1302",
+   "responds": [
+    "source:ABU1302"
+   ],
+   "relation": "adjacent",
+   "why": "Countless paradises prepared. Eye hath not seen, nor ear heard, the things which God hath prepared for them that love him."
+  },
+  {
+   "id": "dante-all-hope-abandon",
+   "after": "source:ABU0747",
+   "responds": [
+    "source:ABU0747"
+   ],
+   "relation": "contrast",
+   "why": "The evil “will be in a state of torture out of which they must progress”. Dante wrote over the gate of his hell: all hope abandon, ye who enter in. Which picture of punishment is easier to square with justice, and which with mercy?"
+  },
+  {
+   "id": "hebrews-whom-the-lord-loveth",
+   "after": "source:ABU3091",
+   "responds": [
+    "source:ABU3091"
+   ],
+   "relation": "adjacent",
+   "why": "His punishment is always to cure and to educate. Whom the Lord loveth he chasteneth."
+  },
+  {
+   "id": "samuel-seeth-not-as-man-seeth",
+   "after": "source:ABU3091",
+   "responds": [
+    "source:ABU3091"
+   ],
+   "relation": "adjacent",
+   "why": "God looks at the intentions of the heart. Man looketh on the outward appearance, but the Lord looketh on the heart."
+  },
+  {
+   "id": "genesis-whoso-sheddeth-mans-blood",
+   "after": "source:AB02343",
+   "responds": [
+    "source:AB02343"
+   ],
+   "relation": "adjacent",
+   "why": "The murderer must expiate his crime. Whoso sheddeth man’s blood, by man shall his blood be shed."
+  },
+  {
+   "id": "matthew-persecuted-for-righteousness",
+   "after": "source:BH09014",
+   "responds": [
+    "source:BH09014"
+   ],
+   "relation": "adjacent",
+   "why": "Glad tidings to one who bore tribulation. Blessed are they which are persecuted for righteousness’ sake: for theirs is the kingdom of heaven."
+  },
+  {
+   "id": "romans-not-worthy-to-be-compared",
+   "after": "source:AB00959",
+   "responds": [
+    "source:AB00959"
+   ],
+   "relation": "adjacent",
+   "why": "These pains will be compensated beyond comprehension. The sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us."
+  },
+  {
+   "id": "corinthians-light-affliction",
+   "after": "source:AB04108",
+   "responds": [
+    "source:AB04108"
+   ],
+   "relation": "adjacent",
+   "why": "Our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory."
+  },
+  {
+   "id": "genesis-god-will-provide-himself-a-lamb",
+   "after": "source:AB04704",
+   "responds": [
+    "source:AB04704"
+   ],
+   "relation": "adjacent",
+   "why": "The father who sacrificed his son and the son who was offered will remain. My son, God will provide himself a lamb for a burnt offering."
+  },
+  {
+   "id": "revelation-faithful-unto-death",
+   "after": "source:AB04585",
+   "responds": [
+    "source:AB04585"
+   ],
+   "relation": "adjacent",
+   "why": "An everlasting crown. Be thou faithful unto death, and I will give thee a crown of life."
+  },
+  {
+   "id": "quran-good-deed-tenfold",
+   "after": "source:AB06364",
+   "responds": [
+    "source:AB06364"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this verse: whoso bringeth a good deed will receive tenfold the like thereof."
+  },
+  {
+   "id": "mark-we-have-left-all",
+   "after": "source:AB06364",
+   "responds": [
+    "source:AB06364"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus promised a hundredfold now in this time, with persecutions; and in the world to come eternal life."
+  },
+  {
+   "id": "luke-today-in-paradise",
+   "after": "source:BH06887",
+   "responds": [
+    "source:BH06887"
+   ],
+   "relation": "adjacent",
+   "why": "The true believer finds himself in peace after his ascension. Today shalt thou be with me in paradise."
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "source:AB03966",
+   "responds": [
+    "source:AB03966"
+   ],
+   "relation": "complement",
+   "why": "“Offer a hundred thousand thanksgivings.” Rábi‘a asked to be shut out of Paradise if she worshipped in hope of it. The guide begins with the lamp whose reward is its own light and goes on to promise much. Can one hope for reward and still do good for its own sake?"
+  }
+ ],
+ "shortfall": "Readings 12 to 14, 17 to 19, 23 to 30 and 42 to 52 are short promises of reward to believers or of regret to the heedless, alike in wording; they share the companions given to their kind.",
+ "library": {}
+}

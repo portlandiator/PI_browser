@@ -1,0 +1,150 @@
+{
+ "format": 2,
+ "slug": "gatheringprayer",
+ "subject": "4F7E7C7A3965E2CD5F3E4D4F82C1F9A7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 20,
+ "quotations": 21,
+ "kept": [
+  "source:ABU0052",
+  "source:AB01619",
+  "source:AB05109",
+  "source:AB05922",
+  "source:AB07511",
+  "source:AB01023",
+  "source:AB04598",
+  "source:AB05017",
+  "source:AB02814",
+  "source:AB09279",
+  "source:AB02379",
+  "source:AB08622",
+  "source:AB04626",
+  "source:AB01729",
+  "source:AB01147",
+  "source:AB11155",
+  "source:AB01741",
+  "source:AB12156",
+  "source:AB03867",
+  "source:AB04620"
+ ],
+ "introduction": "These are prayers to be said when people meet: at a Feast, at the opening of a Spiritual Assembly’s consultation, at a gathering of friends in a home. They ask that the meeting be made “radiant”, the hearts united, the deliberations wise, and the gathering a light for others. “Where two or three are gathered together in my name”, the church of Acts “with one accord”, the Psalm of brethren dwelling in unity, and Solomon’s prayer for an understanding heart are their scriptural kin. Jesus’s warning against prayer made to be seen is the caution every praying assembly needs.",
+ "questions": [
+  "What do these prayers ask for a meeting before it begins? How would a meeting be different for having asked?",
+  "Reading 6 is a prayer for those about to consult. Which of its requests is hardest to mean?",
+  "When does praying together become performing?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "source:ABU0052",
+   "responds": [
+    "source:ABU0052"
+   ],
+   "relation": "adjacent",
+   "why": "This assemblage of souls has turned to Thee. Behold, how good and how pleasant it is for brethren to dwell together in unity!"
+  },
+  {
+   "id": "psalm-out-of-the-depths",
+   "after": "source:AB01619",
+   "responds": [
+    "source:AB01619"
+   ],
+   "relation": "adjacent",
+   "why": "With every breath I have lifted up my lamentations. Out of the depths have I cried unto thee, O Lord."
+  },
+  {
+   "id": "matthew-two-or-three-gathered",
+   "after": "source:AB05109",
+   "responds": [
+    "source:AB05109"
+   ],
+   "relation": "adjacent",
+   "why": "They have come to this gathering purely out of love. Where two or three are gathered together in my name, there am I in the midst of them."
+  },
+  {
+   "id": "acts-breaking-bread",
+   "after": "source:AB05922",
+   "responds": [
+    "source:AB05922"
+   ],
+   "relation": "adjacent",
+   "why": "This assemblage communes with Thee. They continued daily with one accord, breaking bread from house to house, with gladness and singleness of heart."
+  },
+  {
+   "id": "kings-understanding-heart",
+   "after": "source:AB07511",
+   "responds": [
+    "source:AB07511"
+   ],
+   "relation": "adjacent",
+   "why": "Gathered with humility. Solomon’s prayer on taking up his charge: give therefore thy servant an understanding heart."
+  },
+  {
+   "id": "james-wisdom-from-above",
+   "after": "source:AB01023",
+   "responds": [
+    "source:AB01023"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer for entering the council chamber. The wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated."
+  },
+  {
+   "id": "john-i-pray-for-them",
+   "after": "source:AB04598",
+   "responds": [
+    "source:AB04598"
+   ],
+   "relation": "adjacent",
+   "why": "Servants who have sincerely turned their faces to Thee. That they may be one, as we are."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB02814",
+   "responds": [
+    "source:AB02814"
+   ],
+   "relation": "adjacent",
+   "why": "Make this gathering a light to the world. Ye are the light of the world; a city that is set on an hill cannot be hid."
+  },
+  {
+   "id": "numbers-priestly-blessing",
+   "after": "source:AB09279",
+   "responds": [
+    "source:AB09279"
+   ],
+   "relation": "adjacent",
+   "why": "Make these faces luminous. The Lord make his face shine upon thee, and be gracious unto thee."
+  },
+  {
+   "id": "hebrews-not-forsaking-assembling",
+   "after": "source:AB02379",
+   "responds": [
+    "source:AB02379"
+   ],
+   "relation": "adjacent",
+   "why": "A gathering like a lighted candle. Not forsaking the assembling of ourselves together, but exhorting one another."
+  },
+  {
+   "id": "matthew-enter-into-thy-closet",
+   "after": "source:AB08622",
+   "responds": [
+    "source:AB08622"
+   ],
+   "relation": "contrast",
+   "why": "An Assembly organized for the exaltation of God. Jesus warned against prayer that loves to be seen standing in the synagogues, and sent his hearers to the closet. What keeps a gathering’s prayer from becoming performance?"
+  },
+  {
+   "id": "acts-pentecost",
+   "after": "source:AB04626",
+   "responds": [
+    "source:AB04626"
+   ],
+   "relation": "adjacent",
+   "why": "Strengthen this gathering by Thy power. They were all with one accord in one place; and they were all filled with the Holy Ghost."
+  }
+ ],
+ "shortfall": "Readings 8 and 14 to 20 repeat the requests of the earlier prayers for other gatherings.",
+ "library": {}
+}

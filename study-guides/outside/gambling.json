@@ -1,0 +1,61 @@
+{
+ "format": 2,
+ "slug": "gambling",
+ "subject": "BF0ECD50DBFC42C3A855CE24E0DCAABD",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 4,
+ "quotations": 4,
+ "kept": [
+  "source:ABU3354",
+  "source:ABU2055",
+  "source:BB00002",
+  "source:BH00001"
+ ],
+ "introduction": "Four short passages: a question to ‘Abdu’l-Bahá about whether all games are forbidden (no, innocent ones pursued for recreation are not), his remark that the wise look at the end of a thing, not its first pleasure, and two statements of the prohibition, one from the Báb and one from the Kitáb-i-Aqdas. The Qur’an forbade games of chance together with wine in two steps, first weighing their harm against their use and then calling them Satan’s handiwork; Proverbs warns the one who “maketh haste to be rich”.",
+ "questions": [
+  "Where does recreation end and gambling begin?",
+  "Reading 2 judges a pleasure by its consequences. Is that how you decide what to avoid?",
+  "Why might gambling be forbidden together with wine and opium?"
+ ],
+ "outside": [
+  {
+   "id": "ecclesiastes-a-season",
+   "after": "source:ABU3354",
+   "responds": [
+    "source:ABU3354"
+   ],
+   "relation": "adjacent",
+   "why": "Some games are innocent recreation. To every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "proverbs-haste-to-be-rich",
+   "after": "source:ABU2055",
+   "responds": [
+    "source:ABU2055"
+   ],
+   "relation": "adjacent",
+   "why": "The wise look to consequences, not beginnings. He that maketh haste to be rich shall not be innocent."
+  },
+  {
+   "id": "quran-strong-drink-and-games-of-chance",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The reading follows this verse: strong drink and games of chance and idols and divining arrows are only an infamy of Satan’s handiwork."
+  },
+  {
+   "id": "quran-great-sin-and-some-utility",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "Forbidden with opium. The Qur’an’s earlier verse reasons before it forbids: in both is great sin, and some utility for men; but the sin of them is greater than their usefulness. What utility might be meant, and how does reading 2 weigh it?"
+  }
+ ],
+ "library": {}
+}

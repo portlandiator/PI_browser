@@ -1,0 +1,155 @@
+{
+ "format": 2,
+ "slug": "silence",
+ "subject": "B06717AAA123E08900D241D1781A5E55",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 11,
+ "kept": [
+  "source:BH00990",
+  "source:BH02183",
+  "source:AB06599",
+  "source:BH02558",
+  "source:ABU1714",
+  "source:AB11984",
+  "source:BH11523",
+  "source:AB03943",
+  "source:BH01690",
+  "source:BH02714"
+ ],
+ "introduction": "“The essence of faith is fewness of words and abundance of deeds.” Most of these passages praise restraint in speech: silence is “a mighty fortress”, mystics kept it, the wise speak briefly, and where harm or contention would follow it is better to say nothing. Then reading 9 commands the opposite, “Come forth from the garment of silence”, because silence is praiseworthy “except in My remembrance”. Proverbs, James, the Psalmist’s “set a watch before my mouth”, Confucius’s “does Heaven speak?” and the rabbis’ “speak little, but do much” belong with the first part. The apostles’ “we cannot but speak” and Mordecai’s warning to Esther belong with the second.",
+ "questions": [
+  "What are the different reasons for silence in readings 1 to 6: protection, humility, kindness, prudence? Which do you find most persuasive?",
+  "Reading 9 says silence is praiseworthy except in God’s remembrance. How does a person know which moment they are in?",
+  "“He whose words exceed his deeds, know verily his death is better than his life.” Why so severe?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-multitude-of-words",
+   "after": "source:BH00990",
+   "responds": [
+    "source:BH00990"
+   ],
+   "relation": "adjacent",
+   "why": "Silence is a mighty fortress. In the multitude of words there wanteth not sin: but he that refraineth his lips is wise."
+  },
+  {
+   "id": "proverbs-fool-when-he-holdeth-his-peace",
+   "after": "source:BH00990",
+   "responds": [
+    "source:BH00990"
+   ],
+   "relation": "adjacent",
+   "why": "Even a fool, when he holdeth his peace, is counted wise: and he that shutteth his lips is esteemed a man of understanding."
+  },
+  {
+   "id": "analects-does-heaven-speak",
+   "after": "source:BH00990",
+   "responds": [
+    "source:BH00990"
+   ],
+   "relation": "adjacent",
+   "why": "The mystics kept silence. Confucius: I would prefer not speaking. Does Heaven speak? The four seasons pursue their courses, and all things are continually being produced."
+  },
+  {
+   "id": "analects-modest-in-speech",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "“The essence of faith is fewness of words and abundance of deeds.” The superior man is modest in his speech, but exceeds in his actions."
+  },
+  {
+   "id": "avot-say-little-do-much",
+   "after": "source:BH02183",
+   "responds": [
+    "source:BH02183"
+   ],
+   "relation": "adjacent",
+   "why": "Shammai: speak little, but do much; and receive all men with a pleasant countenance."
+  },
+  {
+   "id": "psalm-set-a-watch-before-my-mouth",
+   "after": "source:AB06599",
+   "responds": [
+    "source:AB06599"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer to close the lips and find the inner life. Set a watch, O Lord, before my mouth; keep the door of my lips."
+  },
+  {
+   "id": "matthew-every-idle-word",
+   "after": "source:ABU1714",
+   "responds": [
+    "source:ABU1714"
+   ],
+   "relation": "adjacent",
+   "why": "Let no one be harmed by speaking. Every idle word that men shall speak, they shall give account thereof in the day of judgment."
+  },
+  {
+   "id": "ecclesiastes-time-to-keep-silence",
+   "after": "source:AB11984",
+   "responds": [
+    "source:AB11984"
+   ],
+   "relation": "adjacent",
+   "why": "Where teaching is forbidden, silence is steadfastness. A time to keep silence, and a time to speak."
+  },
+  {
+   "id": "shakespeare-brevity-is-the-soul-of-wit",
+   "after": "source:AB03943",
+   "responds": [
+    "source:AB03943"
+   ],
+   "relation": "adjacent",
+   "why": "Solomon’s letter to the Queen of Sheba, the most eloquent because the briefest. Since brevity is the soul of wit, I will be brief."
+  },
+  {
+   "id": "acts-cannot-but-speak",
+   "after": "source:BH01690",
+   "responds": [
+    "source:BH01690"
+   ],
+   "relation": "contrast",
+   "why": "“Come forth from the garment of silence.” The guide turns here, and the apostles are with it: we cannot but speak the things which we have seen and heard. When does the praise of silence in readings 1 to 6 stop applying?"
+  },
+  {
+   "id": "esther-such-a-time-as-this",
+   "after": "source:BH01690",
+   "responds": [
+    "source:BH01690"
+   ],
+   "relation": "contrast",
+   "why": "Mordecai to Esther: if thou altogether holdest thy peace at this time, then shall deliverance arise from another place; but thou and thy father’s house shall be destroyed. What kinds of silence are failures?"
+  }
+ ],
+ "library": {
+  "proverbs-fool-when-he-holdeth-his-peace": {
+   "text": "Even a fool, when he holdeth his peace, is counted wise: and he that shutteth his lips is esteemed a man of understanding",
+   "work": "Proverbs 17:28",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2017%3A28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

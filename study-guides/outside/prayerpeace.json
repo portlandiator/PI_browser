@@ -1,0 +1,157 @@
+{
+ "format": 2,
+ "slug": "prayerpeace",
+ "subject": "7D9F01BD2688EBCE4F9DF73ACFC6D66C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 27,
+ "quotations": 27,
+ "kept": [
+  "source:BH10505",
+  "source:AB00172",
+  "source:AB00145",
+  "source:AB00240",
+  "source:AB00170",
+  "source:BH00787",
+  "source:AB00071",
+  "source:ABU0084",
+  "source:ABU0794",
+  "source:ABU1256",
+  "source:AB00914",
+  "source:AB05997",
+  "source:BH02431",
+  "source:ABU0052",
+  "source:AB00644",
+  "source:ABU0049",
+  "source:ABU0607",
+  "source:ABU2550",
+  "source:BH09671",
+  "source:AB05590",
+  "source:AB05196",
+  "source:AB06419",
+  "source:AB05891",
+  "source:AB04517",
+  "source:ABU0137",
+  "source:BH00502",
+  "source:AB00840"
+ ],
+ "introduction": "Many of these prayers were written during the First World War, when ‘Abdu’l-Bahá was confined to Haifa and ‘Akká, famine was near, and the nations he had visited two years before were killing one another. They ask mercy for the orphaned and the old, “and even the grazing animals”; they ask that the factions come to abhor bloodshed; and they tell the Bahá’ís to pray for all sides. Isaiah’s ploughshares, Micah’s vine and fig tree, the angels’ “on earth peace” and God’s pity on Nineveh’s children and cattle are the Bible’s prayers for peace; Jeremiah’s “peace, peace; when there is no peace” is its warning.",
+ "questions": [
+  "For whom do these prayers pray? Is anyone left out?",
+  "What does it mean to pray for the people who are making a war?",
+  "Jeremiah distrusted talk of peace. What would make a prayer for peace honest?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-pray-for-the-peace-of-jerusalem",
+   "after": "source:BH10505",
+   "responds": [
+    "source:BH10505"
+   ],
+   "relation": "adjacent",
+   "why": "Unite the hearts of Thy servants. Pray for the peace of Jerusalem: they shall prosper that love thee."
+  },
+  {
+   "id": "psalm-father-of-the-fatherless",
+   "after": "source:AB00172",
+   "responds": [
+    "source:AB00172"
+   ],
+   "relation": "adjacent",
+   "why": "Have mercy on these orphaned children. A father of the fatherless, and a judge of the widows, is God in his holy habitation."
+  },
+  {
+   "id": "matthew-peacemakers",
+   "after": "source:AB00145",
+   "responds": [
+    "source:AB00145"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer from Mount Carmel. Blessed are the peacemakers: for they shall be called the children of God."
+  },
+  {
+   "id": "psalm-refuge-and-strength",
+   "after": "source:AB00240",
+   "responds": [
+    "source:AB00240"
+   ],
+   "relation": "adjacent",
+   "why": "My Defender, my Help in peril. God is our refuge and strength, a very present help in trouble; therefore will not we fear."
+  },
+  {
+   "id": "jonah-and-also-much-cattle",
+   "after": "source:AB00170",
+   "responds": [
+    "source:AB00170"
+   ],
+   "relation": "adjacent",
+   "why": "Mercy on the infants, the elderly, and even the grazing animals. Should not I spare Nineveh, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?"
+  },
+  {
+   "id": "luke-on-earth-peace",
+   "after": "source:BH00787",
+   "responds": [
+    "source:BH00787"
+   ],
+   "relation": "adjacent",
+   "why": "Though we are unworthy. Glory to God in the highest, and on earth peace, good will toward men."
+  },
+  {
+   "id": "matthew-pray-for-persecutors",
+   "after": "source:AB00071",
+   "responds": [
+    "source:AB00071"
+   ],
+   "relation": "adjacent",
+   "why": "“We pray for all”: that bloodthirsty factions abhor savagery. Pray for them which despitefully use you."
+  },
+  {
+   "id": "jeremiah-peace-when-there-is-no-peace",
+   "after": "source:AB00071",
+   "responds": [
+    "source:AB00071"
+   ],
+   "relation": "contrast",
+   "why": "Jeremiah on easy prayers for peace: they have healed the hurt of my people slightly, saying, peace, peace; when there is no peace. What keeps a prayer for peace from being that?"
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0084",
+   "responds": [
+    "source:ABU0084"
+   ],
+   "relation": "adjacent",
+   "why": "Imploring the Father for the nations. They shall beat their swords into plowshares; nation shall not lift up sword against nation."
+  },
+  {
+   "id": "james-pray-one-for-another",
+   "after": "source:ABU0794",
+   "responds": [
+    "source:ABU0794"
+   ],
+   "relation": "adjacent",
+   "why": "Pray in their behalf. The effectual fervent prayer of a righteous man availeth much."
+  },
+  {
+   "id": "micah-vine-and-fig-tree",
+   "after": "source:ABU1256",
+   "responds": [
+    "source:ABU1256"
+   ],
+   "relation": "adjacent",
+   "why": "That the forces of peace gain ascendancy. They shall sit every man under his vine and under his fig tree; and none shall make them afraid."
+  },
+  {
+   "id": "owen-anthem",
+   "after": "source:AB00914",
+   "responds": [
+    "source:AB00914"
+   ],
+   "relation": "complement",
+   "why": "Help the oppressed to serve humanity. Owen, in the war ‘Abdu’l-Bahá was praying through: no mockeries for them; no prayers nor bells. What can prayer do about a war, in the readings’ own account, and what must be done besides?"
+  }
+ ],
+ "shortfall": "Readings 12 to 27 repeat these petitions; companions were set to the first eleven.",
+ "library": {}
+}

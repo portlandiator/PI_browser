@@ -1,0 +1,136 @@
+{
+ "format": 2,
+ "slug": "adultery",
+ "subject": "64A81CD1014F40F9A26937FA27715202",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 12,
+ "kept": [
+  "source:BH00001",
+  "source:AB09918",
+  "source:BH00069",
+  "source:BB00002",
+  "source:AB00494",
+  "source:AB01161",
+  "source:BH00721",
+  "selection:eab8b7ea8642d5d80a72c005",
+  "selection:1953508d2496fdd4b3136fbe",
+  "selection:6ccde122a0d8143b72efe525"
+ ],
+ "introduction": "These passages state the Bahá’í law of chastity: sexual relations belong within marriage between a man and a woman. They give the text of the Kitáb-i-Aqdas, clarifications of terms and penalties (the penalties are not in force and await future legislation), ‘Abdu’l-Bahá’s retelling of the woman taken in adultery, and letters from Shoghi Effendi and the Universal House of Justice which apply the law to homosexual relations while forbidding prejudice or disdain toward any person. The commandment, the Qur’an’s “come not near”, Jesus’s inward reading of the law and his “neither do I condemn thee” are the scriptures the readings stand among. The subject is one on which people now disagree deeply, inside and outside religious communities, and a study group should expect that.",
+ "questions": [
+  "How do the readings hold together a strict standard of conduct and the command not to condemn?",
+  "Jesus neither condemned the woman nor called the act permitted. What does that scene ask of a community?",
+  "What is the difference between holding a standard for oneself and applying it to others?",
+  "Reading 9 forbids prejudice. What would obeying it look like in a community that also teaches reading 8?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-thou-shalt-not",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Forbidden with murder and backbiting. Thou shalt not kill. Thou shalt not commit adultery."
+  },
+  {
+   "id": "quran-come-not-near-unto-adultery",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "And come not near unto adultery. Lo! it is an abomination and an evil way."
+  },
+  {
+   "id": "matthew-looketh-on-a-woman",
+   "after": "source:AB09918",
+   "responds": [
+    "source:AB09918"
+   ],
+   "relation": "complement",
+   "why": "The reading defines the legal offence narrowly. Jesus moved it inward: whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart. What is the relation between a law about acts and a teaching about the heart?"
+  },
+  {
+   "id": "proverbs-fire-in-his-bosom",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "A penalty laid down. Can a man take fire in his bosom, and his clothes not be burned?"
+  },
+  {
+   "id": "hebrews-marriage-is-honourable",
+   "after": "source:AB00494",
+   "responds": [
+    "source:AB00494"
+   ],
+   "relation": "adjacent",
+   "why": "What the Tablets say of immorality. Marriage is honourable in all, and the bed undefiled."
+  },
+  {
+   "id": "john-neither-do-i-condemn-thee",
+   "after": "source:AB01161",
+   "responds": [
+    "source:AB01161"
+   ],
+   "relation": "adjacent",
+   "why": "The reading retells this scene: he that is without sin among you, let him first cast a stone at her. Neither do I condemn thee: go, and sin no more."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:BH00721",
+   "responds": [
+    "source:BH00721"
+   ],
+   "relation": "adjacent",
+   "why": "Forbidden unto you. Know ye not that your body is the temple of the Holy Ghost, and ye are not your own?"
+  },
+  {
+   "id": "matthew-judge-not",
+   "after": "selection:1953508d2496fdd4b3136fbe",
+   "responds": [
+    "selection:1953508d2496fdd4b3136fbe"
+   ],
+   "relation": "adjacent",
+   "why": "To regard anyone with prejudice and disdain is against the spirit of the teachings. Judge not, that ye be not judged."
+  },
+  {
+   "id": "romans-wherein-thou-judgest-another",
+   "after": "selection:6ccde122a0d8143b72efe525",
+   "responds": [
+    "selection:6ccde122a0d8143b72efe525"
+   ],
+   "relation": "adjacent",
+   "why": "Respect for the dignity of every person. Thou art inexcusable, O man, whosoever thou art that judgest: for wherein thou judgest another, thou condemnest thyself."
+  }
+ ],
+ "shortfall": "Readings 3 and 8 were left without a companion: the first is an unrelated answer, and for the second, on same-sex relations, the readings’ own sequel in 9 and 10 was thought the right company.",
+ "library": {
+  "quran-come-not-near-unto-adultery": {
+   "text": "And come not near unto adultery. Lo! it is an abomination and an evil way.",
+   "work": "Qur’an 17:32",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=32",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

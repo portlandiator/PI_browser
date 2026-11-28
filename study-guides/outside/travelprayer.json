@@ -1,0 +1,131 @@
+{
+ "format": 2,
+ "slug": "travelprayer",
+ "subject": "84FA7180FA61EE9BC41E9406386C89E8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:AB00032",
+  "source:AB01164",
+  "source:AB02262",
+  "source:AB11844",
+  "source:BH00291",
+  "source:BH00114",
+  "source:AB03474",
+  "source:AB03552",
+  "source:AB02629",
+  "source:AB00930",
+  "source:AB01327"
+ ],
+ "introduction": "These are prayers for those who leave home to carry the Faith elsewhere, the “pioneers” and travelling teachers of Bahá’í usage, and some are prayers by them. They ask for companionship in loneliness, protection on the road, confirmation in speech, and the acceptance of the hardship. Abraham, who “went out, not knowing whither he went”, is their ancestor; the disciples sent without purse or scrip, Paul’s journeys and perils, and Ruth’s “thy people shall be my people” are their company. The exiles’ psalm by the rivers of Babylon keeps the cost in view.",
+ "questions": [
+  "What do these prayers ask for the traveller that could not be asked for someone at home?",
+  "Ruth says “thy people shall be my people”. What does it take to mean that in a new country?",
+  "Is chosen exile easier to bear than forced exile?"
+ ],
+ "outside": [
+  {
+   "id": "mark-we-have-left-all",
+   "after": "source:AB00032",
+   "responds": [
+    "source:AB00032"
+   ],
+   "relation": "adjacent",
+   "why": "Those who have left homelands, families and possessions. There is no man that hath left house, or brethren, or lands, for my sake, but he shall receive an hundredfold."
+  },
+  {
+   "id": "genesis-get-thee-out",
+   "after": "source:AB01164",
+   "responds": [
+    "source:AB01164"
+   ],
+   "relation": "adjacent",
+   "why": "Attracted, his heart aflame. Get thee out of thy country, and from thy kindred, unto a land that I will shew thee."
+  },
+  {
+   "id": "isaiah-beautiful-upon-the-mountains",
+   "after": "source:AB02262",
+   "responds": [
+    "source:AB02262"
+   ],
+   "relation": "adjacent",
+   "why": "O Divine Herald! How beautiful upon the mountains are the feet of him that bringeth good tidings."
+  },
+  {
+   "id": "corinthians-in-journeyings-often",
+   "after": "source:BH00291",
+   "responds": [
+    "source:BH00291"
+   ],
+   "relation": "adjacent",
+   "why": "This evanescent servant, occupied in travel. In journeyings often, in perils of waters, in perils of robbers, in perils in the wilderness."
+  },
+  {
+   "id": "psalm-going-out-coming-in",
+   "after": "source:BH00114",
+   "responds": [
+    "source:BH00114"
+   ],
+   "relation": "adjacent",
+   "why": "Assist in all conditions him who has arisen. The Lord shall preserve thy going out and thy coming in."
+  },
+  {
+   "id": "luke-carry-neither-purse",
+   "after": "source:AB03474",
+   "responds": [
+    "source:AB03474"
+   ],
+   "relation": "adjacent",
+   "why": "Aid him to spread the fragrances. Carry neither purse, nor scrip, nor shoes; into whatsoever house ye enter, first say, peace be to this house."
+  },
+  {
+   "id": "acts-come-over-into-macedonia",
+   "after": "source:AB03552",
+   "responds": [
+    "source:AB03552"
+   ],
+   "relation": "adjacent",
+   "why": "Aid Your servant, the teacher. A vision appeared to Paul in the night: come over into Macedonia, and help us."
+  },
+  {
+   "id": "hebrews-abraham-went-out",
+   "after": "source:AB02629",
+   "responds": [
+    "source:AB02629"
+   ],
+   "relation": "adjacent",
+   "why": "He travelled West, leaving his sweet country. He went out, not knowing whither he went."
+  },
+  {
+   "id": "psalm-wings-of-morning",
+   "after": "source:AB00930",
+   "responds": [
+    "source:AB00930"
+   ],
+   "relation": "adjacent",
+   "why": "Attracted hearts. If I take the wings of the morning, and dwell in the uttermost parts of the sea; even there shall thy hand lead me."
+  },
+  {
+   "id": "ruth-whither-thou-goest",
+   "after": "source:AB01327",
+   "responds": [
+    "source:AB01327"
+   ],
+   "relation": "adjacent",
+   "why": "Stranger bondsmen who have left their homes. Whither thou goest, I will go; thy people shall be my people."
+  },
+  {
+   "id": "psalm-rivers-of-babylon",
+   "after": "source:AB01327",
+   "responds": [
+    "source:AB01327"
+   ],
+   "relation": "complement",
+   "why": "The exile’s other voice: how shall we sing the Lord’s song in a strange land? These travellers chose their exile. Does that remove the homesickness, and do the prayers admit it?"
+  }
+ ],
+ "library": {}
+}

@@ -1,0 +1,321 @@
+{
+ "format": 2,
+ "slug": "humanities",
+ "subject": "B596151C89A441D493D3B839D8579C43",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 33,
+ "quotations": 34,
+ "kept": [
+  "source:AB04635",
+  "source:AB06236",
+  "source:AB06345",
+  "source:AB04244",
+  "source:AB08884",
+  "source:AB09795",
+  "source:AB03840",
+  "source:AB03877",
+  "source:AB07617",
+  "source:AB09543",
+  "source:AB06577",
+  "source:AB08771",
+  "source:ABU1603",
+  "source:BH00566",
+  "source:ABU3051",
+  "source:ABU1223",
+  "source:ABU2119",
+  "source:AB07288",
+  "source:AB08279",
+  "source:AB09343",
+  "source:ABU2866",
+  "source:AB01697",
+  "source:ABU3072",
+  "source:ABU3551",
+  "source:ABU0092",
+  "source:ABU0504",
+  "source:ABU2494",
+  "source:ABU0806",
+  "source:AB09320",
+  "source:AB07021",
+  "source:AB08696",
+  "selection:efd733e7c22a11f3bf81be83",
+  "selection:102bbc63dd4c105e146e636c"
+ ],
+ "introduction": "‘Abdu’l-Bahá wrote to poets, calligraphers, painters and actors as He wrote to tailors and physicians, urging each to perfect the art and turn it to praise; these readings add His remarks that poetry moves people more than prose, that drama “has been a great educational power”, that “art is identical with an act of worship”, and the rule that no Manifestation of God is to be portrayed. Shelley’s Defence of Poetry makes the largest claims for the poet, and Plato the most famous objection. Aristotle and Hamlet on what drama is for, Bezaleel the first inspired craftsman, Herbert’s work done “as for Thee” and Keats’s “thing of beauty” stand with the readings. Tolstoy’s suspicion of art’s power over the feelings is the caution; and the second commandment is the ancestor of reading 33, as Christian painting is its opposite.",
+ "questions": [
+  "“Human nature is more affected by poetry than prose.” Why? What follows for how religious truth is conveyed?",
+  "Plato feared poets because they move people without understanding. How do readings 14 to 17 address the fear?",
+  "The readings want theatre to educate. Can art that sets out to improve morals be good art? Think of Hamlet’s “mirror”.",
+  "Why should the founders of religions not be portrayed, when their stories may be dramatized? What does the restriction do for the imagination?"
+ ],
+ "outside": [
+  {
+   "id": "shelley-unacknowledged-legislators",
+   "after": "source:AB04635",
+   "responds": [
+    "source:AB04635"
+   ],
+   "relation": "adjacent",
+   "why": "Human nature is more affected by poetry than prose. Shelley: poets are the trumpets which sing to battle and feel not what they inspire; the unacknowledged legislators of the world."
+  },
+  {
+   "id": "plato-poets-like-diviners",
+   "after": "source:AB04635",
+   "responds": [
+    "source:AB04635"
+   ],
+   "relation": "contrast",
+   "why": "Plato distrusted exactly this power: not by wisdom do poets write poetry, but by a sort of genius and inspiration; they say many fine things, but do not understand the meaning of them. He would have kept them out of his city. What do the readings ask of poets that answers him?"
+  },
+  {
+   "id": "shelley-veil-after-veil",
+   "after": "source:AB06236",
+   "responds": [
+    "source:AB06236"
+   ],
+   "relation": "adjacent",
+   "why": "Show forth new and fresh meanings. All high poetry is infinite; veil after veil may be undrawn, and the inmost naked beauty of the meaning never exposed."
+  },
+  {
+   "id": "aristotle-command-of-metaphor",
+   "after": "source:AB06345",
+   "responds": [
+    "source:AB06345"
+   ],
+   "relation": "adjacent",
+   "why": "Poetry and composition belong to the arts of expression. Aristotle: the greatest thing by far is to have a command of metaphor."
+  },
+  {
+   "id": "psalm-pen-of-a-ready-writer",
+   "after": "source:AB08884",
+   "responds": [
+    "source:AB08884"
+   ],
+   "relation": "adjacent",
+   "why": "Proficiency in writing and fluency of speech. My tongue is the pen of a ready writer."
+  },
+  {
+   "id": "proverbs-word-fitly-spoken",
+   "after": "source:AB09795",
+   "responds": [
+    "source:AB09795"
+   ],
+   "relation": "adjacent",
+   "why": "An elegant setting and a worthy theme. A word fitly spoken is like apples of gold in pictures of silver."
+  },
+  {
+   "id": "keats-thing-of-beauty",
+   "after": "source:AB09543",
+   "responds": [
+    "source:AB09543"
+   ],
+   "relation": "adjacent",
+   "why": "Pearls of gleaming verse. A thing of beauty is a joy for ever: its loveliness increases; it will never pass into nothingness."
+  },
+  {
+   "id": "shakespeare-brevity-is-the-soul-of-wit",
+   "after": "source:ABU1603",
+   "responds": [
+    "source:ABU1603"
+   ],
+   "relation": "adjacent",
+   "why": "A style so simple one imagines one could write it, and cannot. Brevity is the soul of wit."
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:BH00566",
+   "responds": [
+    "source:BH00566"
+   ],
+   "relation": "adjacent",
+   "why": "Intricate verses, riddles and palindromes will profit nothing this Day. Not with enticing words of man’s wisdom."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:ABU3051",
+   "responds": [
+    "source:ABU3051"
+   ],
+   "relation": "adjacent",
+   "why": "The same light, in a poet’s mind poetry, in a painter’s pictures. Bezaleel was filled with the spirit of God, in wisdom, and in all manner of workmanship."
+  },
+  {
+   "id": "kings-still-small-voice",
+   "after": "source:ABU1223",
+   "responds": [
+    "source:ABU1223"
+   ],
+   "relation": "adjacent",
+   "why": "Art without “the still small voice” is dead. The reading’s phrase is from Elijah’s cave: after the fire a still small voice."
+  },
+  {
+   "id": "tolstoy-music-transports-me",
+   "after": "source:ABU1223",
+   "responds": [
+    "source:ABU1223"
+   ],
+   "relation": "contrast",
+   "why": "Art needs spiritual inspiration. Tolstoy’s late hero feared what art does without it: music transports me into a state which is not my own; I seem to feel what I do not feel. Is the power of art over feeling a reason for trust or for caution?"
+  },
+  {
+   "id": "herbert-elixir",
+   "after": "source:ABU2119",
+   "responds": [
+    "source:ABU2119"
+   ],
+   "relation": "adjacent",
+   "why": "Art is identical with an act of worship. Herbert: what I do in anything, to do it as for Thee."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:AB08279",
+   "responds": [
+    "source:AB08279"
+   ],
+   "relation": "adjacent",
+   "why": "Paint upon the canvas of existence. God created man in his own image."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:AB09343",
+   "responds": [
+    "source:AB09343"
+   ],
+   "relation": "adjacent",
+   "why": "The world is an inscribed book. The heavens declare the glory of God; and the firmament sheweth his handywork."
+  },
+  {
+   "id": "hebrews-shadow-of-heavenly-things",
+   "after": "source:ABU2866",
+   "responds": [
+    "source:ABU2866"
+   ],
+   "relation": "adjacent",
+   "why": "Paint the pictures of the ideal world. Make all things according to the pattern shewed to thee in the mount."
+  },
+  {
+   "id": "shakespeare-mirror-up-to-nature",
+   "after": "source:AB01697",
+   "responds": [
+    "source:AB01697"
+   ],
+   "relation": "adjacent",
+   "why": "Theatre within the bounds of propriety, for the improvement of morals. Hamlet to the players: the purpose of playing is to hold, as ’twere, the mirror up to nature; to show virtue her own feature, scorn her own image."
+  },
+  {
+   "id": "aristotle-poetry-more-philosophical",
+   "after": "source:ABU3072",
+   "responds": [
+    "source:ABU3072"
+   ],
+   "relation": "adjacent",
+   "why": "The theatre is like a school. Aristotle: poetry is a more philosophical and a higher thing than history: for poetry tends to express the universal, history the particular."
+  },
+  {
+   "id": "shakespeare-seven-ages",
+   "after": "source:ABU3551",
+   "responds": [
+    "source:ABU3551"
+   ],
+   "relation": "adjacent",
+   "why": "The drama is of the utmost importance. All the world’s a stage, and all the men and women merely players."
+  },
+  {
+   "id": "saadi-limbs",
+   "after": "source:ABU0504",
+   "responds": [
+    "source:ABU0504"
+   ],
+   "relation": "adjacent",
+   "why": "Sa‘dí and Ḥáfiẓ were on men’s lips in Europe and America. The lines of Sa‘dí most often quoted there: the sons of Adam are limbs of each other, having been created of one essence."
+  },
+  {
+   "id": "goethe-foreign-languages",
+   "after": "source:ABU0504",
+   "responds": [
+    "source:ABU0504"
+   ],
+   "relation": "adjacent",
+   "why": "Goethe, who learned from Ḥáfiẓ: a man who has no acquaintance with foreign languages knows nothing of his own."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:ABU2494",
+   "responds": [
+    "source:ABU2494"
+   ],
+   "relation": "complement",
+   "why": "Costly portraits of people who are nothing to their buyers. A sculptor’s work outlasting its subject: look on my works, ye Mighty, and despair! What is a portrait for?"
+  },
+  {
+   "id": "milton-good-book",
+   "after": "selection:efd733e7c22a11f3bf81be83",
+   "responds": [
+    "selection:efd733e7c22a11f3bf81be83"
+   ],
+   "relation": "adjacent",
+   "why": "Dramatizing the history of the Faith is encouraged. Milton: a good book is the precious life-blood of a master spirit, embalmed and treasured up on purpose to a life beyond life."
+  },
+  {
+   "id": "exodus-graven-image",
+   "after": "selection:102bbc63dd4c105e146e636c",
+   "responds": [
+    "selection:102bbc63dd4c105e146e636c"
+   ],
+   "relation": "adjacent",
+   "why": "No Manifestation of God may be represented in painting or on the stage. Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "selection:102bbc63dd4c105e146e636c",
+   "responds": [
+    "selection:102bbc63dd4c105e146e636c"
+   ],
+   "relation": "complement",
+   "why": "Christian art took the opposite course and made the face of Christ its chief subject, on the ground that the only begotten Son hath declared him. What is protected by refusing to picture the holiest persons, and what was gained by picturing them?"
+  }
+ ],
+ "shortfall": "Readings 4, 7 to 9, 11, 12, 18, 25 and 28 to 31 are compliments to particular poets or descriptions of particular works, alike in wording; they share the companions given.",
+ "library": {
+  "shakespeare-mirror-up-to-nature": {
+   "text": "the purpose of playing, whose end, both at the first and now, was and is, to hold, as 'twere, the mirror up to nature; to show virtue her own feature, scorn her own image, and the very age and body of the time his form and pressure",
+   "author": "William Shakespeare",
+   "work": "Hamlet",
+   "locator": "Act III, scene 2",
+   "year": "c. 1600",
+   "sortYear": 1600,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/hamlet/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1603."
+   }
+  },
+  "shelley-unacknowledged-legislators": {
+   "text": "Poets are the hierophants of an unapprehended inspiration; the mirrors of the gigantic shadows which futurity casts upon the present; the words which express what they understand not; the trumpets which sing to battle and feel not what they inspire; the influence which is moved not, but moves. Poets are the unacknowledged legislators of the world",
+   "author": "Percy Bysshe Shelley",
+   "work": "A Defence of Poetry",
+   "year": "1821; published 1840",
+   "sortYear": 1821,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Prose_Works_of_Percy_Bysshe_Shelley/Volume_2/A_Defence_of_Poetry",
+    "label": "Wikisource",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1822."
+   }
+  }
+ }
+}

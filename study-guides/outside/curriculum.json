@@ -1,0 +1,158 @@
+{
+ "format": 2,
+ "slug": "curriculum",
+ "subject": "DA23248649CEE53DD015F93A520C3B49",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 21,
+ "kept": [
+  "source:ABU2054",
+  "source:ABU0517",
+  "source:ABU0326",
+  "source:AB01331",
+  "source:AB00236",
+  "source:AB02191",
+  "source:ABU1166",
+  "source:ABU1650",
+  "source:ABU0376",
+  "source:ABU0225",
+  "source:ABU0568",
+  "source:AB01632",
+  "source:ABU0949",
+  "source:ABU1452",
+  "source:AB11039",
+  "source:AB05039",
+  "source:ABU2358",
+  "source:AB09481",
+  "source:AB00251"
+ ],
+ "introduction": "‘Abdu’l-Bahá left no treatise on education, but his letters and table talk about schools are specific. Teach by conversation and by questions; let children discuss a spiritual topic each day; keep lessons within six hours; let each child follow the bent of his talent; teach a universal language; join moral education to science, since a school that trains the mind alone produces clever people without character. Socrates’s midwifery and the boy asking questions in the temple are the method; Plato and Aristotle on forming character, Milton on the end of learning and Bacon on reading are the tradition; Locke’s blank paper is the modern starting point that the readings supplement.",
+ "questions": [
+  "Why teach by question and answer? What does it do that a lecture cannot?",
+  "Reading 5 lets the child’s inclination choose the subject. What are the limits of that principle?",
+  "What do the readings think is lacking in a purely “material” education? Is it something a school can supply?"
+ ],
+ "outside": [
+  {
+   "id": "plato-art-of-midwifery",
+   "after": "source:ABU2054",
+   "responds": [
+    "source:ABU2054"
+   ],
+   "relation": "adjacent",
+   "why": "Most ideas taught through speech; one child questions another. Socrates called his teaching midwifery: I look after their souls when they are in labour."
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "source:ABU0517",
+   "responds": [
+    "source:ABU0517"
+   ],
+   "relation": "adjacent",
+   "why": "Teaching by question and answer. They found him in the midst of the doctors, both hearing them, and asking them questions."
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:ABU0326",
+   "responds": [
+    "source:ABU0326"
+   ],
+   "relation": "adjacent",
+   "why": "No more than six hours a day. Much study is a weariness of the flesh."
+  },
+  {
+   "id": "deuteronomy-when-thou-risest-up",
+   "after": "source:AB01331",
+   "responds": [
+    "source:AB01331"
+   ],
+   "relation": "adjacent",
+   "why": "One divine topic each day for the children to discuss. Thou shalt talk of them when thou sittest in thine house, and when thou walkest by the way."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:AB00236",
+   "responds": [
+    "source:AB00236"
+   ],
+   "relation": "adjacent",
+   "why": "If a child has a liking for commerce, let him choose commerce. Train up a child in the way he should go."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:AB02191",
+   "responds": [
+    "source:AB02191"
+   ],
+   "relation": "adjacent",
+   "why": "Once they are skilled readers. Bacon: reading maketh a full man; conference a ready man; and writing an exact man."
+  },
+  {
+   "id": "milton-repair-the-ruins",
+   "after": "source:ABU1166",
+   "responds": [
+    "source:ABU1166"
+   ],
+   "relation": "adjacent",
+   "why": "Schools that teach only material subjects. Milton: the end of learning is to repair the ruins of our first parents by regaining to know God aright."
+  },
+  {
+   "id": "locke-white-paper",
+   "after": "source:ABU1166",
+   "responds": [
+    "source:ABU1166"
+   ],
+   "relation": "contrast",
+   "why": "Locke began from the other end: the mind is white paper, void of all characters, and all its materials come from experience. Does an education that starts from experience have room for what reading 7 says is missing?"
+  },
+  {
+   "id": "aristotle-music-forming-the-character",
+   "after": "source:ABU1650",
+   "responds": [
+    "source:ABU1650"
+   ],
+   "relation": "adjacent",
+   "why": "Three cardinal principles for universities. Aristotle: music has a power of forming the character, and should therefore be introduced into the education of the young."
+  },
+  {
+   "id": "plato-young-and-tender-thing",
+   "after": "source:ABU0376",
+   "responds": [
+    "source:ABU0376"
+   ],
+   "relation": "adjacent",
+   "why": "The goal is a citizen of the Kingdom of God. The beginning is the most important part, for that is the time at which the character is being formed."
+  },
+  {
+   "id": "genesis-one-language",
+   "after": "source:ABU0225",
+   "responds": [
+    "source:ABU0225"
+   ],
+   "relation": "adjacent",
+   "why": "A universal language taught in all schools. The whole earth was of one language, and of one speech."
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:AB01632",
+   "responds": [
+    "source:AB01632"
+   ],
+   "relation": "adjacent",
+   "why": "Whatever is undertaken should be carried out with perfection. Whatsoever thy hand findeth to do, do it with thy might."
+  },
+  {
+   "id": "analects-learning-without-thought",
+   "after": "source:ABU0949",
+   "responds": [
+    "source:ABU0949"
+   ],
+   "relation": "adjacent",
+   "why": "Teachers must both educate and teach. Confucius: learning without thought is labour lost; thought without learning is perilous."
+  }
+ ],
+ "shortfall": "Readings 11 and 14 to 19 concern particular schools and plans, for which no companion from outside was sought.",
+ "library": {}
+}

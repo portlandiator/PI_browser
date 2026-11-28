@@ -1,0 +1,135 @@
+{
+ "format": 2,
+ "slug": "siyahchal",
+ "subject": "1F941B251E10EA4F406FDD64819512C9",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 14,
+ "kept": [
+  "source:BHU0004",
+  "source:ABU1852",
+  "source:ABU0166",
+  "source:ABU0221",
+  "source:BHU0022",
+  "source:ABU0571",
+  "source:ABU1887",
+  "source:ABU0915",
+  "source:BH04339",
+  "source:ABU0659",
+  "source:ABU3449",
+  "source:ABU0306",
+  "source:BH00323",
+  "source:BH00005"
+ ],
+ "introduction": "In August 1852, after an attempt on the Shah’s life by two Bábís, Bahá’u’lláh was arrested and held for four months in the Síyáh-Chál, the “Black Pit”, an underground cistern in Tehran used as a dungeon: chained by the neck to other prisoners, in darkness and filth. There, He later wrote, the Revelation first came to Him. The guide gathers ‘Abdu’l-Bahá’s memories as a child of eight who was taken to see his father, the accounts of the prisoners chanting in the dark, and Bahá’u’lláh’s own recollections. Joseph, Jeremiah in the mire, Paul and Silas singing at midnight, and John on Patmos are the prison scenes of scripture; Lovelace and Boethius the prison writers.",
+ "questions": [
+  "What details in these accounts stay with you, and why?",
+  "The prisoners chanted. What does singing do in a place like that?",
+  "Bahá’u’lláh dated His mission from this dungeon. What does it mean for a religion to begin there and not in a garden?"
+ ],
+ "outside": [
+  {
+   "id": "hebrews-world-not-worthy",
+   "after": "source:BHU0004",
+   "responds": [
+    "source:BHU0004"
+   ],
+   "relation": "adjacent",
+   "why": "Those struck down in that year in Ṭihrán. Others had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment."
+  },
+  {
+   "id": "genesis-refused-to-be-comforted",
+   "after": "source:ABU1852",
+   "responds": [
+    "source:ABU1852"
+   ],
+   "relation": "adjacent",
+   "why": "A child insisting on being taken to see his father in prison. Jacob refused to be comforted for his son."
+  },
+  {
+   "id": "genesis-joseph-in-prison",
+   "after": "source:ABU0166",
+   "responds": [
+    "source:ABU0166"
+   ],
+   "relation": "adjacent",
+   "why": "Thrown into the dungeon with many others. Joseph’s master put him into the prison: but the Lord was with Joseph, and shewed him mercy."
+  },
+  {
+   "id": "jeremiah-sunk-in-the-mire",
+   "after": "source:ABU0221",
+   "responds": [
+    "source:ABU0221"
+   ],
+   "relation": "adjacent",
+   "why": "The condition of the place. They let down Jeremiah with cords into the dungeon; and there was no water, but mire: so Jeremiah sunk in the mire."
+  },
+  {
+   "id": "acts-sang-praises-at-midnight",
+   "after": "source:BHU0022",
+   "responds": [
+    "source:BHU0022"
+   ],
+   "relation": "adjacent",
+   "why": "The chained prisoners chanted through the night. At midnight Paul and Silas prayed, and sang praises unto God: and the prisoners heard them."
+  },
+  {
+   "id": "isaiah-man-of-sorrows",
+   "after": "source:ABU1887",
+   "responds": [
+    "source:ABU1887"
+   ],
+   "relation": "adjacent",
+   "why": "Brought up on a bed of down, forced to walk in chains. He is despised and rejected of men; a man of sorrows, and acquainted with grief."
+  },
+  {
+   "id": "kings-it-is-enough",
+   "after": "source:BH04339",
+   "responds": [
+    "source:BH04339"
+   ],
+   "relation": "adjacent",
+   "why": "Two days without food. An angel touched Elijah under the juniper tree, and said, arise and eat."
+  },
+  {
+   "id": "lovelace-stone-walls",
+   "after": "source:ABU3449",
+   "responds": [
+    "source:ABU3449"
+   ],
+   "relation": "adjacent",
+   "why": "A heavy chain about His neck. Lovelace from prison: stone walls do not a prison make, nor iron bars a cage."
+  },
+  {
+   "id": "lamentations-low-dungeon",
+   "after": "source:BH00323",
+   "responds": [
+    "source:BH00323"
+   ],
+   "relation": "adjacent",
+   "why": "“Call to mind the days when We were in the prison of the land of Ṭá.” I called upon thy name, O Lord, out of the low dungeon. Thou drewest near in the day that I called upon thee: thou saidst, fear not."
+  },
+  {
+   "id": "revelation-isle-called-patmos",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "In that dungeon the Revelation came. John, in tribulation on the isle that is called Patmos, was in the Spirit, and heard behind him a great voice."
+  },
+  {
+   "id": "boethius-due-return",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "complement",
+   "why": "Boethius, awaiting execution, wrote in his cell that all things yearn in due time for due return. Why do so many beginnings, religious and philosophical, come out of prisons?"
+  }
+ ],
+ "shortfall": "Readings 6, 8, 10 and 12 repeat the narrative of arrest and chains.",
+ "library": {}
+}

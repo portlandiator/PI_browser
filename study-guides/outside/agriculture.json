@@ -1,0 +1,271 @@
+{
+ "format": 2,
+ "slug": "agriculture",
+ "subject": "BCBBE51E0C534AA7A0EF24D3B5C199CD",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 16,
+ "quotations": 17,
+ "kept": [
+  "source:BH00238",
+  "source:ABU2791",
+  "source:ABU3210",
+  "source:AB12015",
+  "source:ABU0124",
+  "source:ABU0034",
+  "source:AB00808",
+  "source:AB04749",
+  "source:AB06412",
+  "source:ABU3427",
+  "source:AB04977",
+  "source:AB05368",
+  "source:AB11162",
+  "source:AB09347",
+  "source:ABU1467",
+  "source:BH11762"
+ ],
+ "introduction": "“Special regard must be paid to agriculture.” Bahá’u’lláh places it fifth among the principles for the world’s advancement and says it comes before the others in importance; ‘Abdu’l-Bahá, who loved gardens and promised to plough a field with his own hands, builds his plan for a village’s common storehouse on the harvest and praises the farmer’s patience. The Bible’s agricultural law and wisdom run alongside: the corners of the field left for the poor, the husbandman who “hath long patience”, “the king himself is served by the field”. Swift and Voltaire agree from the eighteenth century. Genesis’s “in the sweat of thy face” asks whether the work is a burden or a blessing.",
+ "questions": [
+  "Why might agriculture be said to precede the other principles in importance, although it is named fifth?",
+  "Reading 11 says the true farmer thinks of planting, not harvest. Where else does that apply?",
+  "Genesis calls tillage a curse; the readings call it worship. What changes the character of the same work?",
+  "Leviticus leaves the corners of the field for the poor. How does reading 6 carry that idea further?"
+ ],
+ "outside": [
+  {
+   "id": "ecclesiastes-king-served-by-the-field",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Agriculture precedes the other principles. The profit of the earth is for all: the king himself is served by the field."
+  },
+  {
+   "id": "swift-two-ears-of-corn",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Swift’s king of Brobdingnag: whoever could make two ears of corn grow where only one grew before would deserve better of mankind than the whole race of politicians put together."
+  },
+  {
+   "id": "genesis-planted-a-garden-eastward",
+   "after": "source:ABU2791",
+   "responds": [
+    "source:ABU2791"
+   ],
+   "relation": "adjacent",
+   "why": "“I love it.” The Lord God planted a garden eastward in Eden, and put the man in it to dress it and to keep it."
+  },
+  {
+   "id": "voltaire-take-care-of-our-garden",
+   "after": "source:ABU3210",
+   "responds": [
+    "source:ABU3210"
+   ],
+   "relation": "adjacent",
+   "why": "“I will get a piece of land and cultivate it with my own hand.” Candide’s last word: we must take care of our garden."
+  },
+  {
+   "id": "proverbs-tilleth-his-land",
+   "after": "source:AB12015",
+   "responds": [
+    "source:AB12015"
+   ],
+   "relation": "adjacent",
+   "why": "A noble science, and a means of providing. He that tilleth his land shall be satisfied with bread."
+  },
+  {
+   "id": "leviticus-gleanings-for-the-poor",
+   "after": "source:ABU0034",
+   "responds": [
+    "source:ABU0034"
+   ],
+   "relation": "adjacent",
+   "why": "The readings found the community’s solidarity on the village and its harvest. Thou shalt not wholly reap the corners of thy field; thou shalt leave them for the poor and stranger."
+  },
+  {
+   "id": "timothy-husbandman-first-partaker",
+   "after": "source:AB04749",
+   "responds": [
+    "source:AB04749"
+   ],
+   "relation": "adjacent",
+   "why": "Tea grown on a friend’s farm. The husbandman that laboureth must be first partaker of the fruits."
+  },
+  {
+   "id": "psalm-eat-the-labour-of-thine-hands",
+   "after": "source:ABU3427",
+   "responds": [
+    "source:ABU3427"
+   ],
+   "relation": "adjacent",
+   "why": "Riches earned by personal effort in agriculture are praiseworthy. Thou shalt eat the labour of thine hands: happy shalt thou be."
+  },
+  {
+   "id": "james-husbandman-waiteth",
+   "after": "source:AB04977",
+   "responds": [
+    "source:AB04977"
+   ],
+   "relation": "adjacent",
+   "why": "The true farmer attends to planting and leaves the harvest to its season. The husbandman waiteth for the precious fruit of the earth, and hath long patience for it."
+  },
+  {
+   "id": "ecclesiastes-observeth-the-wind",
+   "after": "source:AB04977",
+   "responds": [
+    "source:AB04977"
+   ],
+   "relation": "adjacent",
+   "why": "He that observeth the wind shall not sow; and he that regardeth the clouds shall not reap."
+  },
+  {
+   "id": "psalm-thou-visitest-the-earth",
+   "after": "source:AB05368",
+   "responds": [
+    "source:AB05368"
+   ],
+   "relation": "adjacent",
+   "why": "When the clouds pour down their bounty. Thou visitest the earth, and waterest it; thou crownest the year with thy goodness."
+  },
+  {
+   "id": "exodus-earing-time-and-harvest",
+   "after": "source:AB11162",
+   "responds": [
+    "source:AB11162"
+   ],
+   "relation": "adjacent",
+   "why": "Irrigation postponed on days when work is forbidden. Six days thou shalt work, but on the seventh day thou shalt rest."
+  },
+  {
+   "id": "corinthians-god-gave-the-increase",
+   "after": "source:AB09347",
+   "responds": [
+    "source:AB09347"
+   ],
+   "relation": "adjacent",
+   "why": "“O divine husbandman!” I have planted, Apollos watered; but God gave the increase."
+  },
+  {
+   "id": "matthew-sower",
+   "after": "source:AB09347",
+   "responds": [
+    "source:AB09347"
+   ],
+   "relation": "adjacent",
+   "why": "A sower went forth to sow; and other fell into good ground, and brought forth fruit, some an hundredfold."
+  },
+  {
+   "id": "genesis-dust-thou-art",
+   "after": "source:BH11762",
+   "responds": [
+    "source:BH11762"
+   ],
+   "relation": "contrast",
+   "why": "Engaging in a profession such as agriculture is obligatory, and counted as worship. In Genesis tillage is part of the sentence passed on Adam: in the sweat of thy face shalt thou eat bread, till thou return unto the ground. How did the same labour come to be read as a curse and as worship?"
+  }
+ ],
+ "shortfall": "Readings 5, 7, 9 and 15 are passing remarks about machinery and visitors, for which no companion was sought.",
+ "library": {
+  "proverbs-tilleth-his-land": {
+   "text": "He that tilleth his land shall be satisfied with bread: but he that followeth vain persons is void of understanding",
+   "work": "Proverbs 12:11",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2012%3A11&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-king-served-by-the-field": {
+   "text": "Moreover the profit of the earth is for all: the king himself is served by the field",
+   "work": "Ecclesiastes 5:9",
+   "year": "c. 5th–2nd century BCE",
+   "sortYear": -300,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%205%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-husbandman-first-partaker": {
+   "text": "The husbandman that laboureth must be first partaker of the fruits",
+   "work": "2 Timothy 2:6",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Timothy%202%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "exodus-earing-time-and-harvest": {
+   "text": "Six days thou shalt work, but on the seventh day thou shalt rest",
+   "work": "Exodus 34:21",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Exodus%2034%3A21&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

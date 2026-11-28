@@ -1,0 +1,147 @@
+{
+ "format": 2,
+ "slug": "reversal",
+ "subject": "370C070CD04CE2B909AA07135BAE9BC3",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 8,
+ "quotations": 8,
+ "kept": [
+  "source:BH01217",
+  "source:BH02735",
+  "source:BH00548",
+  "source:BH01252",
+  "source:ABU3179",
+  "source:BH03555",
+  "source:BH06912",
+  "source:BH03620"
+ ],
+ "introduction": "“The mystery of the Great Reversal” is a phrase from an Islamic tradition which Bahá’u’lláh applies to the coming of every Manifestation: those thought highest, the learned and powerful, fall by rejecting Him, and those thought lowest rise by believing. The songs of Hannah and of Mary say it in nearly the same words; Jesus’s “the last shall be first”, Paul’s “weak things of the world” and the Psalmist’s rejected cornerstone are the same reversal, and reading 6 itself echoes the Qur’an’s promise to “those who were oppressed in the earth”.",
+ "questions": [
+  "Why should the coming of a new revelation turn rankings upside down? What do the high have to lose that the low do not?",
+  "Is the reversal a judgement on the learned and powerful as such, or on something they tend to have?",
+  "Reading 5 applies it within the believing community. Who are “the great among us” who may fall?"
+ ],
+ "outside": [
+  {
+   "id": "luke-exalted-them-of-low-degree",
+   "after": "source:BH01217",
+   "responds": [
+    "source:BH01217"
+   ],
+   "relation": "adjacent",
+   "why": "The exalted abased and the abased exalted. Mary’s song: he hath put down the mighty from their seats, and exalted them of low degree."
+  },
+  {
+   "id": "matthew-first-shall-be-last",
+   "after": "source:BH02735",
+   "responds": [
+    "source:BH02735"
+   ],
+   "relation": "adjacent",
+   "why": "The highest made lowest and the lowest highest. Many that are first shall be last; and the last shall be first."
+  },
+  {
+   "id": "corinthians-weak-things-of-the-world",
+   "after": "source:BH00548",
+   "responds": [
+    "source:BH00548"
+   ],
+   "relation": "adjacent",
+   "why": "At the first appearance of a Manifestation the learned fall and the simple rise. God hath chosen the weak things of the world to confound the things which are mighty."
+  },
+  {
+   "id": "samuel-raiseth-up-the-poor",
+   "after": "source:BH01252",
+   "responds": [
+    "source:BH01252"
+   ],
+   "relation": "adjacent",
+   "why": "The tradition “He maketh their highest to be their lowest”. Hannah’s song: he raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes."
+  },
+  {
+   "id": "james-brother-of-low-degree",
+   "after": "source:ABU3179",
+   "responds": [
+    "source:ABU3179"
+   ],
+   "relation": "adjacent",
+   "why": "In divine tests the great fall and the low rise. Let the brother of low degree rejoice in that he is exalted: but the rich, in that he is made low."
+  },
+  {
+   "id": "quran-favour-unto-those-who-were-oppressed",
+   "after": "source:BH03555",
+   "responds": [
+    "source:BH03555"
+   ],
+   "relation": "adjacent",
+   "why": "The reading’s words are the Qur’an’s: We desired to show favour unto those who were oppressed in the earth, and to make them examples and to make them the inheritors."
+  },
+  {
+   "id": "psalm-stone-builders-refused",
+   "after": "source:BH06912",
+   "responds": [
+    "source:BH06912"
+   ],
+   "relation": "adjacent",
+   "why": "“We shall make their highest ones their lowest.” The stone which the builders refused is become the head stone of the corner."
+  },
+  {
+   "id": "luke-good-tidings-of-great-joy",
+   "after": "source:BH03620",
+   "responds": [
+    "source:BH03620"
+   ],
+   "relation": "adjacent",
+   "why": "The shepherd is mentioned before the Throne, and the owner of treasures forgotten. The angel came to shepherds abiding in the field, keeping watch over their flock by night."
+  }
+ ],
+ "library": {
+  "quran-favour-unto-those-who-were-oppressed": {
+   "text": "And We desired to show favour unto those who were oppressed in the earth, and to make them examples and to make them the inheritors,",
+   "work": "Qur’an 28:5",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=28&verse=5",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "james-brother-of-low-degree": {
+   "text": "Let the brother of low degree rejoice in that he is exalted: But the rich, in that he is made low: because as the flower of the grass he shall pass away",
+   "work": "James 1:9–10",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=James%201%3A9-10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

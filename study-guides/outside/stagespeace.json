@@ -1,0 +1,291 @@
+{
+ "format": 2,
+ "slug": "stagespeace",
+ "subject": "A462380470A140999D0AD4E11BEF52BE",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 33,
+ "quotations": 36,
+ "kept": [
+  "source:BH00662",
+  "source:ABU1720",
+  "source:BH00140",
+  "source:AB00004",
+  "source:BH00021",
+  "source:ABU0566",
+  "source:ABU2929",
+  "source:BH00238",
+  "source:BH00568",
+  "source:BH00111",
+  "source:BH00640",
+  "source:AB06615",
+  "source:AB07766",
+  "source:AB03998",
+  "source:AB01971",
+  "source:AB01146",
+  "source:AB10300",
+  "source:AB06429",
+  "source:ABU0223",
+  "source:BH03808",
+  "source:AB04517",
+  "source:ABU3463",
+  "source:AB00609",
+  "source:ABU0113",
+  "source:AB04819",
+  "selection:b087d129225fada719df08ec",
+  "selection:59d18102ceba1613284f9626",
+  "selection:55fb6059edb1be25995a404a",
+  "selection:6c344f7d7f1c442312c0b272",
+  "selection:24ae6e730c296af58750da15",
+  "selection:dd04e5fd4d48a2ddfb9b6ba8",
+  "selection:f06c521178aaf2d9e44e204e",
+  "selection:9c4a5f2c94ca9f272f1db731"
+ ],
+ "introduction": "Bahá’u’lláh told the kings of His day that, having refused “the Most Great Peace”, they should at least establish “the Lesser Peace”: a binding agreement among governments to settle boundaries, reduce arms and act together against any aggressor. The readings give that proposal, ‘Abdu’l-Bahá’s appeals for a congress of nations before and after the First World War, and later statements that the political peace will come first, in stages, and the fuller peace of united hearts after it. Isaiah’s swords into plowshares and Micah’s vine and fig tree are the vision; the Qur’an’s rule for peacemaking among believers is close to the principle of collective security. Tennyson’s “Parliament of man”, Hugo’s speech of 1849 and Kant’s scheme are the nineteenth-century hopes among which these writings appeared, and Eisenhower spoke for disarmament from experience. Kant also supplies the doubts, about human material and about a single world power, and Jeremiah’s “Peace, peace; when there is no peace” fits reading 25 on the Paris conference.",
+ "questions": [
+  "What is the difference between the Lesser Peace and the Most Great Peace? Why might the lesser come first?",
+  "Reading 3 proposes that all nations act against an aggressor. What has experience since shown about why that is hard?",
+  "Kant feared a single world power and doubted the “crooked material” of humanity. How do the readings answer each doubt?",
+  "Reading 22 says peace follows “great upheavals”. Must it? What would it take to learn without them?",
+  "What is the work of an individual toward a peace that governments must make?"
+ ],
+ "outside": [
+  {
+   "id": "quran-incline-to-peace",
+   "after": "source:BH00662",
+   "responds": [
+    "source:BH00662"
+   ],
+   "relation": "adjacent",
+   "why": "Having refused the Most Great Peace, hold fast to the Lesser. If they incline to peace, incline thou also to it, and trust in Allah."
+  },
+  {
+   "id": "eisenhower-every-gun",
+   "after": "source:ABU1720",
+   "responds": [
+    "source:ABU1720"
+   ],
+   "relation": "adjacent",
+   "why": "The people freed from the burden of military expenditure. Eisenhower, a general and president: every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU1720",
+   "responds": [
+    "source:ABU1720"
+   ],
+   "relation": "adjacent",
+   "why": "They shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up sword against nation."
+  },
+  {
+   "id": "quran-make-peace-between-them",
+   "after": "source:BH00140",
+   "responds": [
+    "source:BH00140"
+   ],
+   "relation": "adjacent",
+   "why": "Should one ruler take up arms against another, all should arise against him. The Qur’an gives the rule for a community of believers: if one party of them doeth wrong to the other, fight ye that which doeth wrong till it return; then make peace between them justly."
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Sovereigns in council, a binding treaty, the limits of every nation fixed. Tennyson, in 1842: till the war-drum throbb’d no longer, and the battle-flags were furl’d in the Parliament of man, the Federation of the world."
+  },
+  {
+   "id": "kant-universal-monarchy",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "complement",
+   "why": "Kant, who first argued for a federation of states to end war, preferred it to a single world power: the fusion of all the States into a Universal Monarchy would be worse, because laws lose their force as the range of a government widens. How do readings 4 and 27 guard against that danger?"
+  },
+  {
+   "id": "james-whence-come-wars",
+   "after": "source:BH00021",
+   "responds": [
+    "source:BH00021"
+   ],
+   "relation": "adjacent",
+   "why": "Compose your differences and reduce your armaments. From whence come wars and fightings among you? come they not hence, even of your lusts?"
+  },
+  {
+   "id": "luke-conditions-of-peace",
+   "after": "source:ABU0566",
+   "responds": [
+    "source:ABU0566"
+   ],
+   "relation": "adjacent",
+   "why": "Disarmament must be by all, not one or two. What king, going to make war, sitteth not down first, and consulteth; or else sendeth an ambassage, and desireth conditions of peace?"
+  },
+  {
+   "id": "hugo-day-will-come",
+   "after": "source:ABU2929",
+   "responds": [
+    "source:ABU2929"
+   ],
+   "relation": "adjacent",
+   "why": "The greatest need of Europe is a European Congress. Victor Hugo to the Paris Peace Congress of 1849: a day will come when you, France, you, Russia, you, Italy, you, England, you, Germany, will be blended into a superior unity."
+  },
+  {
+   "id": "aristotle-virtue-lying-in-a-mean",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "In all matters moderation is desirable. Aristotle: virtue is a state of character lying in a mean."
+  },
+  {
+   "id": "isaiah-prince-of-peace",
+   "after": "source:BH00640",
+   "responds": [
+    "source:BH00640"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer that the Most Great Peace be made manifest. Of the increase of his government and peace there shall be no end."
+  },
+  {
+   "id": "matthew-peacemakers",
+   "after": "source:AB07766",
+   "responds": [
+    "source:AB07766"
+   ],
+   "relation": "adjacent",
+   "why": "To the president of a peace society. Blessed are the peacemakers: for they shall be called the children of God."
+  },
+  {
+   "id": "micah-vine-and-fig-tree",
+   "after": "source:AB01146",
+   "responds": [
+    "source:AB01146"
+   ],
+   "relation": "adjacent",
+   "why": "That the world may find rest and East and West embrace. They shall sit every man under his vine and under his fig tree; and none shall make them afraid."
+  },
+  {
+   "id": "lincoln-better-angels",
+   "after": "source:AB10300",
+   "responds": [
+    "source:AB10300"
+   ],
+   "relation": "adjacent",
+   "why": "May this democracy be the first to found international agreement. Lincoln to a nation on the edge of war: we are not enemies, but friends. We must not be enemies."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:AB06429",
+   "responds": [
+    "source:AB06429"
+   ],
+   "relation": "adjacent",
+   "why": "Strife and carnage will be taken away. The wolf also shall dwell with the lamb, and a little child shall lead them."
+  },
+  {
+   "id": "kant-crooked-material",
+   "after": "source:BH03808",
+   "responds": [
+    "source:BH03808"
+   ],
+   "relation": "contrast",
+   "why": "What conduces to the order of the world. Kant, who drew the plan for perpetual peace, also wrote: out of such crooked material as man is made of, nothing can be hammered quite straight. Is the Most Great Peace a hope for changed institutions or for changed people?"
+  },
+  {
+   "id": "matthew-beginning-of-sorrows",
+   "after": "source:ABU3463",
+   "responds": [
+    "source:ABU3463"
+   ],
+   "relation": "adjacent",
+   "why": "Peace will come after great upheavals. Nation shall rise against nation, and kingdom against kingdom: all these are the beginning of sorrows."
+  },
+  {
+   "id": "owen-the-old-lie",
+   "after": "source:AB00609",
+   "responds": [
+    "source:AB00609"
+   ],
+   "relation": "adjacent",
+   "why": "“They are the cause of death while you are the cause of life.” Wilfred Owen, from the trenches: you would not tell with such high zest to children ardent for some desperate glory, the old Lie: Dulce et decorum est pro patria mori."
+  },
+  {
+   "id": "jeremiah-peace-when-there-is-no-peace",
+   "after": "source:AB04819",
+   "responds": [
+    "source:AB04819"
+   ],
+   "relation": "adjacent",
+   "why": "The governments have assembled in Paris; yet. They have healed the hurt of the daughter of my people slightly, saying, Peace, peace; when there is no peace."
+  },
+  {
+   "id": "luke-on-earth-peace",
+   "after": "selection:b087d129225fada719df08ec",
+   "responds": [
+    "selection:b087d129225fada719df08ec"
+   ],
+   "relation": "adjacent",
+   "why": "Now is the dawn of universal peace. Glory to God in the highest, and on earth peace, good will toward men."
+  },
+  {
+   "id": "kant-discord",
+   "after": "selection:55fb6059edb1be25995a404a",
+   "responds": [
+    "selection:55fb6059edb1be25995a404a"
+   ],
+   "relation": "complement",
+   "why": "The Lesser Peace will be a political unity reached by governments. Kant thought nature would force it: man wishes concord; but Nature knows better what is good for his species, and she will have discord. What, in readings 22 and 28, drives nations to agree?"
+  },
+  {
+   "id": "mark-blade-ear-full-corn",
+   "after": "selection:24ae6e730c296af58750da15",
+   "responds": [
+    "selection:24ae6e730c296af58750da15"
+   ],
+   "relation": "adjacent",
+   "why": "Peace will come in stages. First the blade, then the ear, after that the full corn in the ear."
+  },
+  {
+   "id": "psalm-except-the-lord",
+   "after": "selection:dd04e5fd4d48a2ddfb9b6ba8",
+   "responds": [
+    "selection:dd04e5fd4d48a2ddfb9b6ba8"
+   ],
+   "relation": "adjacent",
+   "why": "No machinery short of the standard of the Revelation will suffice. Except the Lord build the house, they labour in vain that build it."
+  },
+  {
+   "id": "esther-such-a-time-as-this",
+   "after": "selection:f06c521178aaf2d9e44e204e",
+   "responds": [
+    "selection:f06c521178aaf2d9e44e204e"
+   ],
+   "relation": "adjacent",
+   "why": "A generation living at a climax of history. Who knoweth whether thou art come to the kingdom for such a time as this?"
+  },
+  {
+   "id": "acts-one-blood",
+   "after": "selection:9c4a5f2c94ca9f272f1db731",
+   "responds": [
+    "selection:9c4a5f2c94ca9f272f1db731"
+   ],
+   "relation": "adjacent",
+   "why": "Acceptance of the oneness of mankind is the first prerequisite. God hath made of one blood all nations of men for to dwell on all the face of the earth."
+  },
+  {
+   "id": "matthew-sword",
+   "after": "selection:9c4a5f2c94ca9f272f1db731",
+   "responds": [
+    "selection:9c4a5f2c94ca9f272f1db731"
+   ],
+   "relation": "contrast",
+   "why": "Jesus warned against expecting easy peace from religion: think not that I am come to send peace on earth: I came not to send peace, but a sword. What divisions does a call to the oneness of mankind itself provoke?"
+  }
+ ],
+ "shortfall": "Readings 8, 9, 12, 14, 15, 19, 21, 24, 27 and 29 repeat the hope or give administrative detail.",
+ "library": {}
+}

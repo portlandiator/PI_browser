@@ -1,0 +1,142 @@
+{
+ "format": 2,
+ "slug": "fanaticism",
+ "subject": "E5B7CD1735F6E8500A618FCAEDB19771",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 12,
+ "kept": [
+  "source:BH00005",
+  "source:ABU0212",
+  "source:ABU0013",
+  "source:ABU1394",
+  "source:ABU0039",
+  "source:AB12107",
+  "source:ABU3170",
+  "source:ABU1045",
+  "source:AB00652",
+  "source:ABU2352",
+  "source:ABU1796",
+  "source:BH10110"
+ ],
+ "introduction": "“Religious fanaticism and hatred are a world-devouring fire, whose violence none can quench.” Bahá’u’lláh wrote it in Persia; ‘Abdu’l-Bahá repeated it in Europe as the Balkan wars began, naming religious prejudice as their cause. The remedy offered is not less religion but religion freed from “forms and dogmas” and from the idea that God belongs to one people: worship in one another’s temples. Lucretius, Pascal and Swift said the worst about religion and violence, two of them as believers. Jesus rebuked disciples who wanted fire from heaven; Paul diagnosed “zeal … not according to knowledge”; the Qur’an forbade both compulsion and reviling the gods of others.",
+ "questions": [
+  "What is the difference between devotion and fanaticism? Can it be seen from inside?",
+  "Pascal and Swift were devout. Why are believers often religion’s sharpest critics on this point?",
+  "Reading 11 proposes worshipping in each other’s places. What would that cost, and what would it show?",
+  "Is there a secular fanaticism, and do the readings’ remedies apply to it?"
+ ],
+ "outside": [
+  {
+   "id": "lucretius-foul-impieties",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Religious fanaticism is a world-devouring fire. Lucretius: ’tis that same religion oftener far hath bred the foul impieties of men."
+  },
+  {
+   "id": "pascal-religious-conviction",
+   "after": "source:ABU0212",
+   "responds": [
+    "source:ABU0212"
+   ],
+   "relation": "adjacent",
+   "why": "The blood flowing in the Balkans. Pascal: men never do evil so completely and cheerfully as when they do it from religious conviction."
+  },
+  {
+   "id": "john-think-he-doeth-god-service",
+   "after": "source:ABU0013",
+   "responds": [
+    "source:ABU0013"
+   ],
+   "relation": "adjacent",
+   "why": "The cause of the war is religious prejudice. The time cometh, that whosoever killeth you will think that he doeth God service."
+  },
+  {
+   "id": "luke-what-manner-of-spirit",
+   "after": "source:ABU1394",
+   "responds": [
+    "source:ABU1394"
+   ],
+   "relation": "adjacent",
+   "why": "People killed each other over it. The disciples wanted fire from heaven on a village; he rebuked them: ye know not what manner of spirit ye are of."
+  },
+  {
+   "id": "swift-religion-enough",
+   "after": "source:ABU0039",
+   "responds": [
+    "source:ABU0039"
+   ],
+   "relation": "adjacent",
+   "why": "Thousands of wars for religion. Swift: we have just enough religion to make us hate, but not enough to make us love one another."
+  },
+  {
+   "id": "galatians-neither-jew-nor-greek",
+   "after": "source:AB12107",
+   "responds": [
+    "source:AB12107"
+   ],
+   "relation": "adjacent",
+   "why": "Religious, political, racial and national prejudices destroy. There is neither Jew nor Greek, there is neither bond nor free."
+  },
+  {
+   "id": "romans-zeal-not-according-to-knowledge",
+   "after": "source:ABU3170",
+   "responds": [
+    "source:ABU3170"
+   ],
+   "relation": "adjacent",
+   "why": "The most important matter is to be freed from prejudice. They have a zeal of God, but not according to knowledge."
+  },
+  {
+   "id": "matthew-weightier-matters",
+   "after": "source:ABU1045",
+   "responds": [
+    "source:ABU1045"
+   ],
+   "relation": "adjacent",
+   "why": "Religions have clung to forms and dogmas. Ye have omitted the weightier matters of the law, judgment, mercy, and faith."
+  },
+  {
+   "id": "yeats-some-revelation",
+   "after": "source:AB00652",
+   "responds": [
+    "source:AB00652"
+   ],
+   "relation": "contrast",
+   "why": "The beloved of God strive to be polished mirrors. Yeats feared that conviction itself had gone over to the wrong side: the best lack all conviction, while the worst are full of passionate intensity. How do the readings propose to be fervent without being fanatical?"
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:ABU1796",
+   "responds": [
+    "source:ABU1796"
+   ],
+   "relation": "adjacent",
+   "why": "Let them worship in one another’s places of worship. Neither in this mountain, nor yet at Jerusalem."
+  },
+  {
+   "id": "quran-revile-not",
+   "after": "source:BH10110",
+   "responds": [
+    "source:BH10110"
+   ],
+   "relation": "adjacent",
+   "why": "We have commanded all to show love and fellowship. Revile not those unto whom they pray beside Allah, lest they wrongfully revile Allah through ignorance."
+  },
+  {
+   "id": "quran-no-compulsion",
+   "after": "source:BH10110",
+   "responds": [
+    "source:BH10110"
+   ],
+   "relation": "adjacent",
+   "why": "And the Qur’an’s shortest statement of the principle behind such fellowship: there is no compulsion in religion."
+  }
+ ],
+ "library": {}
+}

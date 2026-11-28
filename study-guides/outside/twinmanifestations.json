@@ -1,0 +1,182 @@
+{
+ "format": 2,
+ "slug": "twinmanifestations",
+ "subject": "F115687B598B470AB058ADEDD3C97F66",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 52,
+ "quotations": 55,
+ "kept": [
+  "source:AB00001",
+  "source:BH02736",
+  "source:BH00002",
+  "source:BH11250",
+  "source:BH11435",
+  "source:BH00005",
+  "source:BB00001",
+  "source:BH00690",
+  "source:BH00048",
+  "source:AB00103",
+  "source:AB00477",
+  "source:AB01521",
+  "source:AB05731",
+  "source:BB00003",
+  "source:BH00011",
+  "source:AB00232",
+  "source:AB03326",
+  "source:AB11477",
+  "source:BH00778",
+  "source:BH00421",
+  "source:BH02712",
+  "source:BH02872",
+  "source:BH02033",
+  "source:BH04852",
+  "source:BH05909",
+  "source:BH05170",
+  "source:BH03269",
+  "source:BH04771",
+  "source:BH02901",
+  "source:BH01828",
+  "source:AB00097",
+  "source:AB00906",
+  "source:BH05834",
+  "source:AB00252",
+  "source:AB00465",
+  "source:AB00030",
+  "source:ABU0466",
+  "source:ABU0107",
+  "source:AB02251",
+  "source:AB11448",
+  "source:ABU1181",
+  "source:ABU2363",
+  "source:BH02437",
+  "source:BH02782",
+  "source:AB01545",
+  "source:ABU2798",
+  "source:ABU2096",
+  "source:AB06258",
+  "source:AB04328",
+  "selection:f85e068b0d1bb6541c8cb152",
+  "selection:da30bc047a780d0078e5943a",
+  "selection:747d9bc018a4171ddc888ceb"
+ ],
+ "introduction": "The Bahá’í Faith has two founders. The Báb, who declared himself in 1844 and was executed in 1850, announced a greater one to come; Bahá’u’lláh, in 1863, claimed to be that one. The writings call them twin Manifestations, and this guide gathers the passages that explain how they are related: the Báb is herald and also an independent Messenger; each has a station of unity, in which all the Manifestations are one, and a station of distinction; and Bahá’u’lláh’s language of divinity refers to the light in the mirror, not the glass. The expectation of two is old: Malachi’s messenger and Elijah before the day of the Lord, the two witnesses of the Apocalypse. John the Baptist is the usual comparison, and the Gospel’s “he was not that Light” marks where the comparison stops.",
+ "questions": [
+  "In what sense is the Báb like John the Baptist, and in what sense do the readings say he is more?",
+  "What do “the station of unity” and “the station of distinction” each allow one to say?",
+  "How does the image of the sun in the mirror explain the claims of divinity?"
+ ],
+ "outside": [
+  {
+   "id": "malachi-prepare-the-way",
+   "after": "source:AB00001",
+   "responds": [
+    "source:AB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The foundation of belief: the Báb the Herald, Bahá’u’lláh the One heralded. I will send my messenger, and he shall prepare the way before me."
+  },
+  {
+   "id": "john-not-that-light",
+   "after": "source:BH02736",
+   "responds": [
+    "source:BH02736"
+   ],
+   "relation": "contrast",
+   "why": "“I manifested Myself aforetime under the name of ‘Alí.” The Gospel keeps its herald and its Lord distinct: he was not that Light, but was sent to bear witness of that Light. The readings make the Báb both forerunner and a Manifestation in His own right, one in reality with Bahá’u’lláh. What does that double station change?"
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Two stations to each Luminary: unity and distinction. We make no distinction between any of His messengers."
+  },
+  {
+   "id": "john-i-and-my-father-are-one",
+   "after": "source:BH11250",
+   "responds": [
+    "source:BH11250"
+   ],
+   "relation": "adjacent",
+   "why": "When this Youth turns to His own self He finds it most insignificant; when to the light within, something else. I and my Father are one."
+  },
+  {
+   "id": "john-hath-seen-the-father",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Men have misunderstood the references to Divinity. He that hath seen me hath seen the Father."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "The mirrored Sun may say “I am the Sun”, and “I am not”. Now we see through a glass, darkly."
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:AB00477",
+   "responds": [
+    "source:AB00477"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations are like different mirrors. God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets."
+  },
+  {
+   "id": "matthew-blasphemy-not-forgiven",
+   "after": "source:AB01521",
+   "responds": [
+    "source:AB01521"
+   ],
+   "relation": "adjacent",
+   "why": "The reading explains this saying: all manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "source:AB05731",
+   "responds": [
+    "source:AB05731"
+   ],
+   "relation": "adjacent",
+   "why": "Two stations, the physical and the spiritual. We have this treasure in earthen vessels."
+  },
+  {
+   "id": "malachi-i-will-send-you-elijah",
+   "after": "source:AB00232",
+   "responds": [
+    "source:AB00232"
+   ],
+   "relation": "adjacent",
+   "why": "All nations await two Manifestations. Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord."
+  },
+  {
+   "id": "revelation-forty-two-months",
+   "after": "source:AB00232",
+   "responds": [
+    "source:AB00232"
+   ],
+   "relation": "adjacent",
+   "why": "The Apocalypse also expects a pair before the end: and I will give power unto my two witnesses."
+  },
+  {
+   "id": "luke-dayspring-from-on-high",
+   "after": "source:AB03326",
+   "responds": [
+    "source:AB03326"
+   ],
+   "relation": "adjacent",
+   "why": "Illumined by the glad tidings of the morning. The dayspring from on high hath visited us."
+  }
+ ],
+ "shortfall": "The remaining readings restate the two stations and the relation of the Báb to Bahá’u’lláh.",
+ "library": {}
+}

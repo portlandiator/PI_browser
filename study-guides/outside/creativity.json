@@ -1,0 +1,153 @@
+{
+ "format": 2,
+ "slug": "creativity",
+ "subject": "C607ACD036BEE32B103A75FD10883CF2",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:ABU3051",
+  "source:ABU2791",
+  "source:AB11727",
+  "source:AB08650",
+  "source:AB07288",
+  "source:AB09263",
+  "source:ABU0528",
+  "source:ABU0389",
+  "source:ABU1468",
+  "source:ABU2928",
+  "source:ABU1223"
+ ],
+ "introduction": "“Create, create, my friends. Although the attribute of creation primarily belongs to God, He has bestowed this marvellous gift on man.” These few passages of ‘Abdu’l-Bahá, mostly words to individual artists, poets and children, say that inspiration is one light taking the form of each mind it shines through, that the artist’s inner state shapes the work, and that skill must be laboured for. Exodus describes Bezaleel, the craftsman “filled with the spirit of God”; Paul speaks of “diversities of gifts, but the same Spirit”; and Shakespeare’s Theseus gives the poet’s power its best-known description. Socrates’s remark that poets, like diviners, do not understand what they make, and Keats’s “a thing of beauty is a joy for ever”, are two other accounts of what artists do.",
+ "questions": [
+  "Reading 1 says the same light becomes music in a musician and poetry in a poet. What does that suggest about originality?",
+  "“His outward garden must be a reflection of the inner.” Is it true that an artist’s character shows in the work?",
+  "Socrates thought poets do not know what they are doing. Reading 8 says they share an attribute of God. Can both be true?"
+ ],
+ "outside": [
+  {
+   "id": "shakespeare-airy-nothing",
+   "after": "source:ABU3051",
+   "responds": [
+    "source:ABU3051"
+   ],
+   "relation": "adjacent",
+   "why": "The same light, shining through musician and poet. The poet’s eye, in a fine frenzy rolling, gives to airy nothing a local habitation and a name."
+  },
+  {
+   "id": "corinthians-diversities-of-gifts",
+   "after": "source:ABU3051",
+   "responds": [
+    "source:ABU3051"
+   ],
+   "relation": "adjacent",
+   "why": "Paul on the one source of differing abilities: now there are diversities of gifts, but the same Spirit."
+  },
+  {
+   "id": "luke-good-tree",
+   "after": "source:ABU2791",
+   "responds": [
+    "source:ABU2791"
+   ],
+   "relation": "adjacent",
+   "why": "The gardener’s heart must itself be a garden. A good man out of the good treasure of his heart bringeth forth that which is good."
+  },
+  {
+   "id": "psalm-sing-a-new-song",
+   "after": "source:AB08650",
+   "responds": [
+    "source:AB08650"
+   ],
+   "relation": "adjacent",
+   "why": "A poem praised, and hope for the talent’s advance. Sing unto him a new song; play skilfully with a loud noise."
+  },
+  {
+   "id": "exodus-bezaleel",
+   "after": "source:AB07288",
+   "responds": [
+    "source:AB07288"
+   ],
+   "relation": "adjacent",
+   "why": "To be proficient in drawing one must strive. Bezaleel was filled with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship."
+  },
+  {
+   "id": "ecclesiastes-thy-hand-findeth",
+   "after": "source:AB07288",
+   "responds": [
+    "source:AB07288"
+   ],
+   "relation": "adjacent",
+   "why": "The Preacher’s rule for any craft taken up: whatsoever thy hand findeth to do, do it with thy might."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:AB09263",
+   "responds": [
+    "source:AB09263"
+   ],
+   "relation": "adjacent",
+   "why": "“Be God’s artisan, the Creator’s innovator.” The ground of the thought: so God created man in his own image."
+  },
+  {
+   "id": "plato-poets-like-diviners",
+   "after": "source:ABU0389",
+   "responds": [
+    "source:ABU0389"
+   ],
+   "relation": "contrast",
+   "why": "“Create, create, my friends.” Socrates found that poets write not by wisdom but by a kind of genius and inspiration, like diviners who say fine things without understanding them. The reading treats creating as a gift man shares with God. Is the artist, on each account, the maker of the work?"
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:ABU1468",
+   "responds": [
+    "source:ABU1468"
+   ],
+   "relation": "adjacent",
+   "why": "The old portraits are antiquated; paint new ones. Behold, I make all things new."
+  },
+  {
+   "id": "proverbs-train-up-a-child",
+   "after": "source:ABU2928",
+   "responds": [
+    "source:ABU2928"
+   ],
+   "relation": "adjacent",
+   "why": "Let children study what they love best. Train up a child in the way he should go."
+  },
+  {
+   "id": "keats-thing-of-beauty",
+   "after": "source:ABU1223",
+   "responds": [
+    "source:ABU1223"
+   ],
+   "relation": "complement",
+   "why": "Art perfected is counted as worship. Keats: a thing of beauty is a joy for ever; its loveliness increases. He asks nothing of art but beauty. Does the reading ask something more of the artist?"
+  }
+ ],
+ "library": {
+  "shakespeare-airy-nothing": {
+   "text": "The poet's eye, in fine frenzy rolling, / Doth glance from heaven to earth, from earth to heaven; / And as imagination bodies forth / The forms of things unknown, the poet's pen / Turns them to shapes and gives to airy nothing / A local habitation and a name",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "A Midsummer Night’s Dream",
+   "locator": "Act V, scene 1",
+   "year": "c. 1595",
+   "sortYear": 1595,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/midsummer/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "First printed 1600."
+   }
+  }
+ }
+}

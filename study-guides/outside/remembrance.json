@@ -1,0 +1,131 @@
+{
+ "format": 2,
+ "slug": "remembrance",
+ "subject": "E1B9B332AC67E6035B1C4BC3B01EA8BB",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:BH00001",
+  "source:ABU2535",
+  "source:BB00001",
+  "source:BH00022",
+  "source:AB05753",
+  "source:ABU1268",
+  "source:AB10284",
+  "source:AB11277",
+  "source:ABU2608",
+  "source:AB02696",
+  "selection:96dfff28213cce8b4d49d81f"
+ ],
+ "introduction": "The Kitáb-i-Aqdas asks each believer to wash, sit, turn to God and repeat “Alláh-u-Abhá”, God is Most Glorious, ninety-five times each day; these readings give the law, its roots in the Báb’s writings, and ‘Abdu’l-Bahá’s encouragement to say the Greatest Name on waking, in trouble and at work. Remembrance by repetition of a divine Name is one of the most widespread devotions there is: the Qur’an’s “remember Allah with much remembrance” and “in the remembrance of Allah do hearts find rest”, the Psalmist’s “seven times a day”, Paul’s “pray without ceasing”. Jesus’s warning against “vain repetitions” is the caution every such practice has to answer.",
+ "questions": [
+  "What is the difference between repeating a Name ninety-five times and the “much speaking” Jesus warns against?",
+  "Reading 2 suggests the Name for moments of trouble and of work. How does a fixed daily practice relate to that spontaneous use?",
+  "Why might a religion with almost no ritual keep this one?"
+ ],
+ "outside": [
+  {
+   "id": "quran-remember-with-much-remembrance",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an’s command behind every such practice in Islam and after it: O ye who believe! Remember Allah with much remembrance."
+  },
+  {
+   "id": "psalm-seven-times-a-day",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Each day, having washed, to repeat “Alláh-u-Abhá” ninety-five times. Seven times a day do I praise thee because of thy righteous judgments."
+  },
+  {
+   "id": "matthew-vain-repetitions",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "Jesus warned against a kind of repetition: use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking. What makes a repeated Name of God something other than that?"
+  },
+  {
+   "id": "proverbs-name-of-the-lord-strong-tower",
+   "after": "source:ABU2535",
+   "responds": [
+    "source:ABU2535"
+   ],
+   "relation": "adjacent",
+   "why": "In trouble, under opposition, at work, say the Name. The name of the Lord is a strong tower: the righteous runneth into it, and is safe."
+  },
+  {
+   "id": "psalm-evening-morning-noon",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "From the sun’s rising to its setting. Evening, and morning, and at noon, will I pray."
+  },
+  {
+   "id": "thessalonians-pray-without-ceasing",
+   "after": "source:AB05753",
+   "responds": [
+    "source:AB05753"
+   ],
+   "relation": "adjacent",
+   "why": "“The Greatest Name should be read every day.” Pray without ceasing. In every thing give thanks."
+  },
+  {
+   "id": "matthew-sheeps-clothing",
+   "after": "source:ABU1268",
+   "responds": [
+    "source:ABU1268"
+   ],
+   "relation": "adjacent",
+   "why": "One who would divide the friends begins by seeming devoted to a verse. Beware of false prophets, which come to you in sheep’s clothing."
+  },
+  {
+   "id": "psalm-in-the-morning",
+   "after": "source:AB10284",
+   "responds": [
+    "source:AB10284"
+   ],
+   "relation": "adjacent",
+   "why": "Recite the Greatest Name every morning. My voice shalt thou hear in the morning, O Lord."
+  },
+  {
+   "id": "quran-hearts-find-rest",
+   "after": "source:AB11277",
+   "responds": [
+    "source:AB11277"
+   ],
+   "relation": "adjacent",
+   "why": "Continue in that rejoicing. Verily in the remembrance of Allah do hearts find rest!"
+  },
+  {
+   "id": "habakkuk-keep-silence",
+   "after": "source:ABU2608",
+   "responds": [
+    "source:ABU2608"
+   ],
+   "relation": "adjacent",
+   "why": "A meeting opened by saying the Name in silence. The Lord is in his holy temple: let all the earth keep silence before him."
+  },
+  {
+   "id": "philippians-name-above-every-name",
+   "after": "source:AB02696",
+   "responds": [
+    "source:AB02696"
+   ],
+   "relation": "adjacent",
+   "why": "The blessed Name alone as greeting. A name which is above every name."
+  }
+ ],
+ "library": {}
+}

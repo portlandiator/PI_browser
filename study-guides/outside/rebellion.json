@@ -1,0 +1,124 @@
+{
+ "format": 2,
+ "slug": "rebellion",
+ "subject": "6DBDC002A7C1430CA4C3526C86651659",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:BH00005",
+  "source:BH04228",
+  "source:AB12183",
+  "source:BH00004",
+  "source:BH00871",
+  "source:BH06116",
+  "source:BH08177",
+  "source:BB00113",
+  "source:ABU2970",
+  "source:AB00003",
+  "selection:b2dc7381ac48387a45bbc3fa"
+ ],
+ "introduction": "“It doth not beseem man to become a source of sedition.” Bahá’u’lláh forbade His followers, a persecuted minority suspected of revolution, to rebel, conspire or shed blood, and required obedience to government; ‘Abdu’l-Bahá could tell the authorities that in thirty years no disturbance had come from them. The guide gathers these statements with later guidance. Paul’s “higher powers”, Peter’s “honour the king” and David’s refusal to strike Saul are the scriptural tradition of non-resistance; Jeremiah’s letter to the exiles is its gentlest form. The apostles’ “we ought to obey God rather than men”, Thoreau’s conscience and the Declaration’s right of revolution are the other tradition, and the readings have to be understood against both.",
+ "questions": [
+  "What do the readings forbid: disobedience, violence, conspiracy, or all dissent?",
+  "When a government commands what faith forbids, what do the readings expect a Bahá’í to do?",
+  "The American founders claimed a right to abolish a destructive government. On what grounds do the readings set that right aside?",
+  "How is injustice to be changed, on the readings’ account?"
+ ],
+ "outside": [
+  {
+   "id": "quran-neglect-not-thy-portion",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Spread not disorder in the land. Seek not corruption in the earth; lo! Allah loveth not corrupters."
+  },
+  {
+   "id": "proverbs-fear-the-lord-and-the-king",
+   "after": "source:BH04228",
+   "responds": [
+    "source:BH04228"
+   ],
+   "relation": "adjacent",
+   "why": "It does not beseem man to become a source of sedition. Fear thou the Lord and the king: and meddle not with them that are given to change."
+  },
+  {
+   "id": "jeremiah-seek-the-peace-of-the-city",
+   "after": "source:AB12183",
+   "responds": [
+    "source:AB12183"
+   ],
+   "relation": "adjacent",
+   "why": "Membership in parliament, for the country’s good. Seek the peace of the city, for in the peace thereof shall ye have peace."
+  },
+  {
+   "id": "samuel-david-spares-saul",
+   "after": "source:BH00871",
+   "responds": [
+    "source:BH00871"
+   ],
+   "relation": "adjacent",
+   "why": "The basest of souls are the treacherous. David, with Saul in his power: I will not put forth mine hand against my lord; for he is the Lord’s anointed."
+  },
+  {
+   "id": "romans-higher-powers",
+   "after": "source:BH08177",
+   "responds": [
+    "source:BH08177"
+   ],
+   "relation": "adjacent",
+   "why": "Transgression of bounds brings loss. Let every soul be subject unto the higher powers."
+  },
+  {
+   "id": "peter-honour-the-king",
+   "after": "source:BB00113",
+   "responds": [
+    "source:BB00113"
+   ],
+   "relation": "adjacent",
+   "why": "God has made obedience binding. Honour all men. Love the brotherhood. Fear God. Honour the king."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "source:ABU2970",
+   "responds": [
+    "source:ABU2970"
+   ],
+   "relation": "contrast",
+   "why": "Obedience to government orders is obligatory upon every Bahá’í. Peter before the council: we ought to obey God rather than men. Where do the readings place the limit of obedience, and is it the same limit?"
+  },
+  {
+   "id": "thoreau-men-first-subjects-afterward",
+   "after": "source:ABU2970",
+   "responds": [
+    "source:ABU2970"
+   ],
+   "relation": "contrast",
+   "why": "Thoreau: must the citizen ever for a moment resign his conscience to the legislator? I think that we should be men first, and subjects afterward. What would the readings say to him?"
+  },
+  {
+   "id": "declaration-consent-of-the-governed",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "contrast",
+   "why": "Thirty years without a rumour of rebellion. The Declaration of Independence claims the opposite right: whenever any form of government becomes destructive of these ends, it is the right of the people to alter or to abolish it. Do the readings deny that right, or only decline to exercise it?"
+  },
+  {
+   "id": "burke-means-of-change",
+   "after": "selection:b2dc7381ac48387a45bbc3fa",
+   "responds": [
+    "selection:b2dc7381ac48387a45bbc3fa"
+   ],
+   "relation": "complement",
+   "why": "Shoghi Effendi’s views half a century on. Burke: a state without the means of some change is without the means of its conservation. By what means do the readings expect unjust institutions to change, if not by resistance?"
+  }
+ ],
+ "shortfall": "Readings 4 and 6 repeat the prohibition; one companion fewer was placed than the guide has quotations.",
+ "library": {}
+}

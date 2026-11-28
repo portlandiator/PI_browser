@@ -1,0 +1,122 @@
+{
+ "format": 2,
+ "slug": "deceit",
+ "subject": "9BC3001DE5AA410BA0865211BE374327",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 11,
+ "kept": [
+  "source:AB00117",
+  "source:AB01717",
+  "source:AB09024",
+  "source:ABU0050",
+  "source:BH00857",
+  "source:ABU0917",
+  "source:BH01686",
+  "source:AB00890",
+  "source:BB00287",
+  "selection:c1f5d02f4c45b84fb6b7b7ee"
+ ],
+ "introduction": "“Truthfulness is the foundation of all human virtues,” ‘Abdu’l-Bahá wrote, and its opposite “the worst of all qualities … the foundation of all evils”. This short guide gathers the passages against lying, rumour and saying what one does not do, and then two hard cases: an early counsel of the Báb to conceal one’s faith in prison, and a letter written for Shoghi Effendi on whether one may lie to save another, which answers that one should not, and that there are other ways to protect. Proverbs, Paul and the Sermon on the Mount speak as the first readings do. The Hebrew midwives who deceived Pharaoh, and Naaman in the house of Rimmon, are the scriptural hard cases.",
+ "questions": [
+  "Why would lying be called the foundation of all evils and not merely one of them?",
+  "The midwives lied to save lives and were blessed. What would the last reading have them do?",
+  "Is there a difference between lying and declining to speak? Where does concealment become deceit?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-lying-lips-abomination",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "adjacent",
+   "why": "The worst of qualities, the foundation of all evils, is lying. Lying lips are abomination to the Lord: but they that deal truly are his delight."
+  },
+  {
+   "id": "john-ye-are-of-your-father-the-devil",
+   "after": "source:AB00117",
+   "responds": [
+    "source:AB00117"
+   ],
+   "relation": "adjacent",
+   "why": "Jesus on the origin of the lie: when he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it."
+  },
+  {
+   "id": "ephesians-speak-every-man-truth",
+   "after": "source:AB01717",
+   "responds": [
+    "source:AB01717"
+   ],
+   "relation": "adjacent",
+   "why": "Follow the path of the truthful. Putting away lying, speak every man truth with his neighbour: for we are members one of another."
+  },
+  {
+   "id": "john-truth-shall-make-you-free",
+   "after": "source:AB09024",
+   "responds": [
+    "source:AB09024"
+   ],
+   "relation": "adjacent",
+   "why": "Ignorance and falsehood are themselves torment. Ye shall know the truth, and the truth shall make you free."
+  },
+  {
+   "id": "romans-teachest-thou-not-thyself",
+   "after": "source:ABU0050",
+   "responds": [
+    "source:ABU0050"
+   ],
+   "relation": "adjacent",
+   "why": "Those who command others to righteousness and forget themselves. Thou therefore which teachest another, teachest thou not thyself?"
+  },
+  {
+   "id": "matthew-yea-yea-nay-nay",
+   "after": "source:BH00857",
+   "responds": [
+    "source:BH00857"
+   ],
+   "relation": "adjacent",
+   "why": "Speak forth the truth. Let your communication be, yea, yea; nay, nay."
+  },
+  {
+   "id": "quran-verify-it",
+   "after": "source:ABU0917",
+   "responds": [
+    "source:ABU0917"
+   ],
+   "relation": "adjacent",
+   "why": "It is always rumours, bereft of reason, that cause dissension. If an evil-liver bring you tidings, verify it."
+  },
+  {
+   "id": "zechariah-speak-every-man-the-truth",
+   "after": "source:AB00890",
+   "responds": [
+    "source:AB00890"
+   ],
+   "relation": "adjacent",
+   "why": "The Kingdom is founded on equity and justice. Speak ye every man the truth to his neighbour."
+  },
+  {
+   "id": "kings-house-of-rimmon",
+   "after": "source:BB00287",
+   "responds": [
+    "source:BB00287"
+   ],
+   "relation": "complement",
+   "why": "“Observe the word of dissimulation while thou art imprisoned.” Naaman asked pardon in advance for bowing in the house of Rimmon, and was told, go in peace. How do the readings hold this counsel together with reading 1?"
+  },
+  {
+   "id": "exodus-midwives-feared-god",
+   "after": "selection:c1f5d02f4c45b84fb6b7b7ee",
+   "responds": [
+    "selection:c1f5d02f4c45b84fb6b7b7ee"
+   ],
+   "relation": "contrast",
+   "why": "Is it right to tell an untruth to save another? The Hebrew midwives defied Pharaoh, and then misled him about it, to save the children; scripture says: the midwives feared God, and did not as the king of Egypt commanded them. Reading 10 answers the question more strictly. What is at stake on each side?"
+  }
+ ],
+ "shortfall": "Reading 7 concerns a particular person; one companion fewer was placed than the guide has quotations.",
+ "library": {}
+}

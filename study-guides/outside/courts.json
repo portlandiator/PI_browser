@@ -1,0 +1,91 @@
+{
+ "format": 2,
+ "slug": "courts",
+ "subject": "D91EA8A9A1D8EBDA0B482B71D1923543",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 7,
+ "quotations": 7,
+ "kept": [
+  "source:AB00341",
+  "source:ABU2175",
+  "source:AB00099",
+  "source:AB00004",
+  "source:ABU1098",
+  "source:ABU1480",
+  "source:AB02365"
+ ],
+ "introduction": "These few passages look to public courts for the realization of rights. ‘Abdu’l-Bahá welcomes a Persian decree establishing them, distinguishes the community’s right to punish from private revenge, approves their intervention between owners and workers, and tells stories of judges good and bad. Paul draws the same line between vengeance, forbidden to the person, and the sword, entrusted to the ruler; Deuteronomy states the judge’s duty of impartiality; and Nathan’s “Thou art the man” is the classic scene of the powerful called to account. Paul’s advice to suffer wrong before going to law is the other counsel.",
+ "questions": [
+  "Why may a community punish what an individual must forgive?",
+  "Reading 6 turns on a judge who would not favour a pasha. What makes such impartiality possible, and what destroys it?",
+  "When is it better to “suffer yourselves to be defrauded” than to go to court?"
+ ],
+ "outside": [
+  {
+   "id": "deuteronomy-justice-shalt-thou-follow",
+   "after": "source:AB00341",
+   "responds": [
+    "source:AB00341"
+   ],
+   "relation": "adjacent",
+   "why": "A centre in every city to establish the people’s rights. That which is altogether just shalt thou follow."
+  },
+  {
+   "id": "romans-vengeance-is-mine",
+   "after": "source:ABU2175",
+   "responds": [
+    "source:ABU2175"
+   ],
+   "relation": "adjacent",
+   "why": "You may not break the hand of the one who broke your son’s; the body politic may punish. Avenge not yourselves; vengeance is mine; I will repay, saith the Lord."
+  },
+  {
+   "id": "romans-beareth-not-the-sword-in-vain",
+   "after": "source:ABU2175",
+   "responds": [
+    "source:ABU2175"
+   ],
+   "relation": "adjacent",
+   "why": "The ruler beareth not the sword in vain: for he is the minister of God, a revenger to execute wrath upon him that doeth evil."
+  },
+  {
+   "id": "exodus-not-follow-a-multitude",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Each cleric has handed down decrees as he saw fit. Thou shalt not follow a multitude to do evil; neither shalt thou speak in a cause to decline after many to wrest judgment."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "source:ABU1098",
+   "responds": [
+    "source:ABU1098"
+   ],
+   "relation": "complement",
+   "why": "Foreign lawyers exact about the letter of the law. The letter killeth, but the spirit giveth life. What does a court need besides exactness?"
+  },
+  {
+   "id": "samuel-thou-art-the-man",
+   "after": "source:ABU1480",
+   "responds": [
+    "source:ABU1480"
+   ],
+   "relation": "adjacent",
+   "why": "A pasha who beat his servant was brought before a just judge. Nathan to King David, after the story of the ewe lamb: thou art the man."
+  },
+  {
+   "id": "corinthians-rather-be-defrauded",
+   "after": "source:AB02365",
+   "responds": [
+    "source:AB02365"
+   ],
+   "relation": "contrast",
+   "why": "A court hearing ordered to establish the truth. Paul told believers to keep out of court against each other: why do ye not rather take wrong? why do ye not rather suffer yourselves to be defrauded? How do the readings’ confidence in courts and his advice fit together?"
+  }
+ ],
+ "library": {}
+}

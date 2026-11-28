@@ -1,0 +1,150 @@
+{
+ "format": 2,
+ "slug": "discrepancies",
+ "subject": "A1F5E22D1649ECA14B265BA4AE195779",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 13,
+ "kept": [
+  "source:BH00069",
+  "source:AB11297",
+  "source:AB00003",
+  "source:AB11842",
+  "source:BBU0004",
+  "source:BB00001",
+  "source:ABU2619",
+  "source:BH00781",
+  "source:BB00036",
+  "selection:d2492d05c2b7c611da09f8be",
+  "selection:e010d2b6e69f9f64a2e68602",
+  "selection:d55ffa0b4f87cf1b946b13c6"
+ ],
+ "introduction": "Two kinds of difference are discussed here. One is textual: early tablets went out unchecked, copies vary, reports of a talk disagree. The other is linguistic: the Báb’s Arabic broke the grammarians’ rules, clerics made this their chief objection, and the answer given is that “the Word of God can never be subject to the limitations of His creatures”; the Qur’an itself met the same charge. Jeremiah’s rewritten scroll and Thucydides’s honesty about his speeches are near to the first kind, with the prologue to Sirach and Spinoza on the history of the text. For the second there are the astonishment at Jesus, “having never learned”, Paul’s refusal of “enticing words”, and the Qur’an’s challenge to produce a chapter like it. Humpty Dumpty asks, comically, what limits there are; and “one jot or one tittle” speaks for reverence toward the letter.",
+ "questions": [
+  "Reading 1 admits that early texts were not checked. How should a community treat variant copies of its scripture?",
+  "“These rules are themselves derived from the Word.” State the argument. What would count as a mistake in a revealed text, on this view?",
+  "Why did grammar matter so much to the Báb’s critics? What was really at stake?"
+ ],
+ "outside": [
+  {
+   "id": "jeremiah-many-like-words",
+   "after": "source:BH00069",
+   "responds": [
+    "source:BH00069"
+   ],
+   "relation": "adjacent",
+   "why": "Tablets were dispatched unrevised, and later copies differ. Baruch rewrote the burned scroll, and there were added besides unto them many like words."
+  },
+  {
+   "id": "thucydides-speeches-word-for-word",
+   "after": "source:AB11297",
+   "responds": [
+    "source:AB11297"
+   ],
+   "relation": "adjacent",
+   "why": "Two reports of one talk differ in a detail. Thucydides admitted of his speeches: it was in all cases difficult to carry them word for word in one’s memory."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Learned doctors pressed a mere youth. How knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:AB11842",
+   "responds": [
+    "source:AB11842"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb “freed the Arabic tongue” from its rules. The sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "corinthians-not-with-enticing-words",
+   "after": "source:BBU0004",
+   "responds": [
+    "source:BBU0004"
+   ],
+   "relation": "adjacent",
+   "why": "The Word of God is not subject to men’s conventions. My speech was not with enticing words of man’s wisdom, but in demonstration of the Spirit and of power."
+  },
+  {
+   "id": "quran-produce-a-surah",
+   "after": "source:BBU0004",
+   "responds": [
+    "source:BBU0004"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an’s own challenge to its critics: if ye are in doubt concerning that which We reveal, then produce a surah of the like thereof."
+  },
+  {
+   "id": "carroll-just-what-i-choose-it-to-mean",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "contrast",
+   "why": "Objections from grammar are rejected, since the rules are derived from the Word and not the Word from the rules. Humpty Dumpty said a like thing of himself: when I use a word, it means just what I choose it to mean. What distinguishes a revelation that reshapes a language from a speaker who ignores it?"
+  },
+  {
+   "id": "sirach-not-the-same-force",
+   "after": "source:ABU2619",
+   "responds": [
+    "source:ABU2619"
+   ],
+   "relation": "adjacent",
+   "why": "Three ancient Bibles, one of them translated by the seventy. The translator of Sirach: the law itself, and the prophets, have no small difference, when they are spoken in their own language."
+  },
+  {
+   "id": "spinoza-not-written-by-moses",
+   "after": "source:ABU2619",
+   "responds": [
+    "source:ABU2619"
+   ],
+   "relation": "complement",
+   "why": "Spinoza began the modern study of how scripture came to have the text it has. What does a believer gain, and risk, by knowing the history of a sacred text’s copies?"
+  },
+  {
+   "id": "matthew-weightier-matters",
+   "after": "source:BB00036",
+   "responds": [
+    "source:BB00036"
+   ],
+   "relation": "adjacent",
+   "why": "Complaints about grammar come from ignorance. Ye blind guides, which strain at a gnat, and swallow a camel."
+  },
+  {
+   "id": "corinthians-letter-killeth",
+   "after": "selection:d2492d05c2b7c611da09f8be",
+   "responds": [
+    "selection:d2492d05c2b7c611da09f8be"
+   ],
+   "relation": "adjacent",
+   "why": "Charged with breaking grammar, the Báb cited the Qur’an. The letter killeth, but the spirit giveth life."
+  },
+  {
+   "id": "emerson-foolish-consistency",
+   "after": "selection:e010d2b6e69f9f64a2e68602",
+   "responds": [
+    "selection:e010d2b6e69f9f64a2e68602"
+   ],
+   "relation": "adjacent",
+   "why": "Words altered or contrary to rule, as a test. Emerson: a foolish consistency is the hobgoblin of little minds."
+  },
+  {
+   "id": "matthew-one-jot-or-one-tittle",
+   "after": "selection:d55ffa0b4f87cf1b946b13c6",
+   "responds": [
+    "selection:d55ffa0b4f87cf1b946b13c6"
+   ],
+   "relation": "contrast",
+   "why": "The Báb’s early verses provoked the clerics by their grammar. Jesus spoke with great reverence for the letter: one jot or one tittle shall in no wise pass from the law. Does respect for a scripture require respect for its every letter?"
+  }
+ ],
+ "library": {}
+}

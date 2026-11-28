@@ -1,0 +1,152 @@
+{
+ "format": 2,
+ "slug": "spiritage",
+ "subject": "342F898B5918E013D0EFAF5D187CAC22",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 22,
+ "quotations": 22,
+ "kept": [
+  "source:ABU3749",
+  "source:BH00005",
+  "source:ABU0057",
+  "source:AB02275",
+  "source:AB10953",
+  "source:AB04306",
+  "source:AB10317",
+  "source:AB00903",
+  "source:AB00245",
+  "source:AB07250",
+  "source:BH00238",
+  "source:BH00821",
+  "source:BH01828",
+  "source:ABU0207",
+  "source:ABU0035",
+  "source:ABU0212",
+  "source:ABU0046",
+  "source:ABU0058",
+  "source:BH02699",
+  "source:AB00745",
+  "selection:0bc4594556f2925a4b75f0b2",
+  "selection:badbe055288fd8b1f8a475ff"
+ ],
+ "introduction": "“These teachings are what the world needs in this luminous age.” ‘Abdu’l-Bahá’s constant argument to Western audiences was that every age has a spirit and a need, and that Bahá’u’lláh’s principles, the oneness of humanity, the independent search for truth, the agreement of science and religion, universal peace, are the spirit and the need of this one. The guide gathers the statements. Isaiah’s “new thing”, the new wine and the signs of the times are the Bible’s language for such a turning; Kant’s “dare to know” and Tennyson’s “the old order changeth” are the nineteenth century’s. Ecclesiastes doubts that anything is new, and Arnold describes the interval the readings claim to end.",
+ "questions": [
+  "What does it mean to say that an age has a spirit?",
+  "Which of the principles named in the readings seem to you most plainly needed now, and which most resisted?",
+  "How would you tell the spirit of the age from its fashions?"
+ ],
+ "outside": [
+  {
+   "id": "kant-sapere-aude",
+   "after": "source:ABU3749",
+   "responds": [
+    "source:ABU3749"
+   ],
+   "relation": "adjacent",
+   "why": "This is not an age of blind imitation. Kant’s motto for his own: Sapere aude! Have courage to use your own understanding."
+  },
+  {
+   "id": "isaiah-new-thing",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Revealed as a copious rain. Behold, I will do a new thing; now it shall spring forth; shall ye not know it?"
+  },
+  {
+   "id": "malachi-have-we-not-all-one-father",
+   "after": "source:ABU0057",
+   "responds": [
+    "source:ABU0057"
+   ],
+   "relation": "adjacent",
+   "why": "The first principle proclaimed, the oneness of the world of humanity. Have we not all one father? hath not one God created us?"
+  },
+  {
+   "id": "matthew-signs-of-the-times",
+   "after": "source:AB02275",
+   "responds": [
+    "source:AB02275"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever reads the Tablets will see they are what the time requires. Can ye not discern the signs of the times?"
+  },
+  {
+   "id": "matthew-upon-this-rock",
+   "after": "source:AB10953",
+   "responds": [
+    "source:AB10953"
+   ],
+   "relation": "adjacent",
+   "why": "The teachings are the keys to all the doors. I will give unto thee the keys of the kingdom of heaven."
+  },
+  {
+   "id": "matthew-new-wine-old-bottles",
+   "after": "source:AB00245",
+   "responds": [
+    "source:AB00245"
+   ],
+   "relation": "adjacent",
+   "why": "The fruit of earlier missions was not seen at first. Neither do men put new wine into old bottles."
+  },
+  {
+   "id": "jeremiah-balm-in-gilead",
+   "after": "source:AB07250",
+   "responds": [
+    "source:AB07250"
+   ],
+   "relation": "adjacent",
+   "why": "The supreme antidote for the ills of the world. Is there no balm in Gilead; is there no physician there?"
+  },
+  {
+   "id": "revelation-all-things-new",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "Through the movement of the Pen, new life breathed into every frame. Behold, I make all things new."
+  },
+  {
+   "id": "ecclesiastes-no-new-thing",
+   "after": "source:ABU0207",
+   "responds": [
+    "source:ABU0207"
+   ],
+   "relation": "contrast",
+   "why": "The teachings are the spirit of this cycle. The Preacher doubted there could be such a thing: there is no new thing under the sun. Which of the principles in the readings were new in 1863, and which were old truths newly needed?"
+  },
+  {
+   "id": "tennyson-old-order-changeth",
+   "after": "source:ABU0207",
+   "responds": [
+    "source:ABU0207"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson’s Arthur: the old order changeth, yielding place to new, and God fulfils himself in many ways, lest one good custom should corrupt the world."
+  },
+  {
+   "id": "acts-one-blood",
+   "after": "source:ABU0035",
+   "responds": [
+    "source:ABU0035"
+   ],
+   "relation": "adjacent",
+   "why": "The oneness of humanity declared. God hath made of one blood all nations of men."
+  },
+  {
+   "id": "arnold-between-two-worlds",
+   "after": "source:ABU0212",
+   "responds": [
+    "source:ABU0212"
+   ],
+   "relation": "complement",
+   "why": "Differences among religions come from dogmas and imitations; go back to the foundation. Arnold, in the readings’ own century: wandering between two worlds, one dead, the other powerless to be born. What do the readings say the second world is waiting for?"
+  }
+ ],
+ "shortfall": "Readings 6 to 8, 12 and 17 to 22 repeat the claim that the teachings are the remedy for the age.",
+ "library": {}
+}

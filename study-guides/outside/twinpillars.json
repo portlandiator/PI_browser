@@ -1,0 +1,177 @@
+{
+ "format": 2,
+ "slug": "twinpillars",
+ "subject": "9FA6AD866A4C4579AB7D06AFE744DE67",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 15,
+ "quotations": 15,
+ "kept": [
+  "source:AB00001",
+  "source:BH00223",
+  "source:AB10456",
+  "source:BH00003",
+  "selection:fe0c2bd36ba3f55a93962f02",
+  "selection:15f25924b4826454c7e9f234",
+  "selection:b805ab63da1e28031cc2b3f9",
+  "selection:6a50bff5b69672110d755c27",
+  "selection:651974237be15ac4a10aeece",
+  "selection:adcf8a5b9934d16519b68765",
+  "selection:df86351c6d13c8aeef7f849b",
+  "selection:a11da29e87face55bbcea64d",
+  "selection:ed0103fc9d262ec70228fd43",
+  "selection:d8174fcdf4503c808506703c",
+  "selection:a1ff9063172bc27451d56497"
+ ],
+ "introduction": "‘Abdu’l-Bahá’s Will gave the Bahá’í community two centres of authority: the Guardian, who alone may say what the revealed text means, and the Universal House of Justice, which alone may legislate where the text is silent and may change its own laws. The guide gathers the passages that define the two functions and the difference between them, together with Bahá’u’lláh’s praise of “the rulers and the learned”. Deuteronomy’s provision for hard cases names priest and judge together; the Ethiopian’s “how can I, except some man should guide me?” and Peter’s “no private interpretation” are the New Testament’s case for an interpreter; the council of Jerusalem is its legislature. Jefferson’s claim that law belongs to the living, Montesquieu on separated powers and Jesus’s verdict on those in Moses’ seat test the design.",
+ "questions": [
+  "Why separate the authority to interpret from the authority to legislate? What would go wrong if one body held both?",
+  "Interpretation, in reading 8, is unalterable; legislation can be repealed. What does that division protect?",
+  "Since the Guardian’s death there is no living interpreter. What do readings 6 to 9 imply about how the community reads the text now?",
+  "“They say, and do not.” What keeps a learned class from deserving that?"
+ ],
+ "outside": [
+  {
+   "id": "deuteronomy-matter-too-hard-for-thee",
+   "after": "source:AB00001",
+   "responds": [
+    "source:AB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Guardian and House of Justice. Moses provided two authorities for a matter too hard: the priests the Levites, and the judge that shall be in those days."
+  },
+  {
+   "id": "sirach-honour-a-physician",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "complement",
+   "why": "Abase not the station of the learned, nor of rulers who administer justice. Ben Sira asks the same honour for another kind of learning: honour a physician with the honour due unto him. What is the respect owed to expertise, in religion as elsewhere, and where does it stop?"
+  },
+  {
+   "id": "acts-seemed-good-to-us",
+   "after": "source:AB10456",
+   "responds": [
+    "source:AB10456"
+   ],
+   "relation": "adjacent",
+   "why": "A question not in the text is referred to the House of Justice. The council at Jerusalem: it seemed good to the Holy Ghost, and to us, to lay upon you no greater burden than these necessary things."
+  },
+  {
+   "id": "quran-obey-allah-and-the-messenger",
+   "after": "source:BH00003",
+   "responds": [
+    "source:BH00003"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed are the rulers and the learned in Bahá. Obey Allah, and obey the messenger and those of you who are in authority."
+  },
+  {
+   "id": "acts-understandest-thou",
+   "after": "selection:fe0c2bd36ba3f55a93962f02",
+   "responds": [
+    "selection:fe0c2bd36ba3f55a93962f02"
+   ],
+   "relation": "adjacent",
+   "why": "The Interpreter of the Word is an extension of that centre which is the Word itself. Understandest thou what thou readest? How can I, except some man should guide me?"
+  },
+  {
+   "id": "peter-private-interpretation",
+   "after": "selection:15f25924b4826454c7e9f234",
+   "responds": [
+    "selection:15f25924b4826454c7e9f234"
+   ],
+   "relation": "adjacent",
+   "why": "Authoritative interpretation was the Guardian’s exclusive right. No prophecy of the scripture is of any private interpretation."
+  },
+  {
+   "id": "nehemiah-gave-the-sense",
+   "after": "selection:b805ab63da1e28031cc2b3f9",
+   "responds": [
+    "selection:b805ab63da1e28031cc2b3f9"
+   ],
+   "relation": "adjacent",
+   "why": "Legislation differs from interpretation. They read in the book in the law of God distinctly, and gave the sense, and caused them to understand the reading."
+  },
+  {
+   "id": "matthew-one-jot-or-one-tittle",
+   "after": "selection:6a50bff5b69672110d755c27",
+   "responds": [
+    "selection:6a50bff5b69672110d755c27"
+   ],
+   "relation": "adjacent",
+   "why": "The interpretation states what the Text means and is unalterable. Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law."
+  },
+  {
+   "id": "jefferson-earth-belongs-to-the-living",
+   "after": "selection:651974237be15ac4a10aeece",
+   "responds": [
+    "selection:651974237be15ac4a10aeece"
+   ],
+   "relation": "complement",
+   "why": "Elucidations stem from the legislative function and may be changed by the body that made them. Jefferson wanted every law to lapse with its generation: the earth belongs in usufruct to the living. How do the twin institutions divide what must stay fixed from what the living may change?"
+  },
+  {
+   "id": "matthew-upon-this-rock",
+   "after": "selection:adcf8a5b9934d16519b68765",
+   "responds": [
+    "selection:adcf8a5b9934d16519b68765"
+   ],
+   "relation": "adjacent",
+   "why": "Twin institutions appointed as successors. I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven."
+  },
+  {
+   "id": "montesquieu-legislative-and-executive-united",
+   "after": "selection:a11da29e87face55bbcea64d",
+   "responds": [
+    "selection:a11da29e87face55bbcea64d"
+   ],
+   "relation": "complement",
+   "why": "“Twin Successors”, neither able to usurp the other’s domain. Montesquieu’s principle for states: when powers are united in the same body, there can be no liberty. Is the separation of interpretation from legislation a safeguard of the same kind?"
+  },
+  {
+   "id": "quran-ask-the-followers-of-the-remembrance",
+   "after": "selection:ed0103fc9d262ec70228fd43",
+   "responds": [
+    "selection:ed0103fc9d262ec70228fd43"
+   ],
+   "relation": "adjacent",
+   "why": "The House of Justice works within principles laid down in the Text. Ask the followers of the Remembrance if ye know not!"
+  },
+  {
+   "id": "matthew-they-say-and-do-not",
+   "after": "selection:d8174fcdf4503c808506703c",
+   "responds": [
+    "selection:d8174fcdf4503c808506703c"
+   ],
+   "relation": "contrast",
+   "why": "The “learned” in this cycle are the Hands of the Cause and those who teach. Jesus on the learned of his day: the scribes and the Pharisees sit in Moses’ seat; whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not. What in the readings guards against that?"
+  }
+ ],
+ "shortfall": "Readings 11 and 15 restate the appointment and describe the appointed arm; nothing further was placed.",
+ "library": {
+  "quran-ask-the-followers-of-the-remembrance": {
+   "text": "And We sent not (as Our messengers) before thee other than men whom We inspired - Ask the followers of the Remembrance if ye know not! -",
+   "work": "Qur’an 16:43",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=16&verse=43",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

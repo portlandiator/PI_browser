@@ -1,0 +1,121 @@
+{
+ "format": 2,
+ "slug": "morning",
+ "subject": "39A6111CF5A6EBBD996B089FFCD3EB9C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 10,
+ "kept": [
+  "source:BH00009",
+  "source:AB10088",
+  "source:AB09214",
+  "source:BH10336",
+  "source:AB09240",
+  "source:BB00422",
+  "source:BH00807",
+  "source:BH07650",
+  "source:AB09359",
+  "source:AB06162"
+ ],
+ "introduction": "These are prayers and counsels for the first hour of the day. Bahá’u’lláh’s morning prayer gives thanks for waking and asks that the day be spent under God’s protection; ‘Abdu’l-Bahá advises those who wrote to him to turn to God at dawn before anything else, because the mind is then clearest. Jesus rose “a great while before day” to pray; the Qur’an asks worship “at the two ends of the day”; Lamentations finds God’s mercies “new every morning”. Marcus Aurelius and Thoreau are two who made the morning a philosophical exercise.",
+ "questions": [
+  "Why pray first? What is different about a day begun that way?",
+  "The first prayer gives thanks simply for waking. What would it be to mean that?",
+  "Marcus rises “to the work of a human being”. How is that like and unlike these prayers?"
+ ],
+ "outside": [
+  {
+   "id": "lamentations-new-every-morning",
+   "after": "source:BH00009",
+   "responds": [
+    "source:BH00009"
+   ],
+   "relation": "adjacent",
+   "why": "Praise that Thou hast awakened me out of my sleep. His compassions fail not; they are new every morning."
+  },
+  {
+   "id": "mark-a-great-while-before-day",
+   "after": "source:AB10088",
+   "responds": [
+    "source:AB10088"
+   ],
+   "relation": "adjacent",
+   "why": "Engaged at daybreak in remembrance. In the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed."
+  },
+  {
+   "id": "psalm-day-which-the-lord-hath-made",
+   "after": "source:AB09214",
+   "responds": [
+    "source:AB09214"
+   ],
+   "relation": "adjacent",
+   "why": "At the break of every morn, set thy face toward the Kingdom. This is the day which the Lord hath made; we will rejoice and be glad in it."
+  },
+  {
+   "id": "psalm-evening-morning-noon",
+   "after": "source:BH10336",
+   "responds": [
+    "source:BH10336"
+   ],
+   "relation": "adjacent",
+   "why": "In the evening I remember Thee, and at dawn. Evening, and morning, and at noon, will I pray, and cry aloud."
+  },
+  {
+   "id": "thoreau-only-that-day-dawns",
+   "after": "source:AB09240",
+   "responds": [
+    "source:AB09240"
+   ],
+   "relation": "adjacent",
+   "why": "Strive in prayer at the hour of dawn, to increase alertness. Thoreau: only that day dawns to which we are awake."
+  },
+  {
+   "id": "quran-two-ends-of-the-day",
+   "after": "source:BB00422",
+   "responds": [
+    "source:BB00422"
+   ],
+   "relation": "adjacent",
+   "why": "The prayer of glorification for the morning. Establish worship at the two ends of the day."
+  },
+  {
+   "id": "isaiah-arise-shine",
+   "after": "source:BH00807",
+   "responds": [
+    "source:BH00807"
+   ],
+   "relation": "adjacent",
+   "why": "The gates of mercy opened. Arise, shine; for thy light is come."
+  },
+  {
+   "id": "psalm-joy-in-the-morning",
+   "after": "source:BH07650",
+   "responds": [
+    "source:BH07650"
+   ],
+   "relation": "adjacent",
+   "why": "Commanded to be recited at dawn. Weeping may endure for a night, but joy cometh in the morning."
+  },
+  {
+   "id": "marcus-work-of-a-human-being",
+   "after": "source:AB09359",
+   "responds": [
+    "source:AB09359"
+   ],
+   "relation": "complement",
+   "why": "When at dawn you raise your voices. Marcus Aurelius had another morning exercise: when thou risest unwillingly, let this thought be present: I am rising to the work of a human being. Is a morning prayer a way of beginning the day’s work, or a pause before it?"
+  },
+  {
+   "id": "numbers-priestly-blessing",
+   "after": "source:AB06162",
+   "responds": [
+    "source:AB06162"
+   ],
+   "relation": "adjacent",
+   "why": "At every instant I beg for you a fresh blessing. The Lord bless thee, and keep thee."
+  }
+ ],
+ "library": {}
+}

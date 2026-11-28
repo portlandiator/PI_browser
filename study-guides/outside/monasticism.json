@@ -1,0 +1,246 @@
+{
+ "format": 2,
+ "slug": "monasticism",
+ "subject": "70B67FBB46F446D9835324D644050094",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 34,
+ "quotations": 36,
+ "kept": [
+  "source:AB11082",
+  "source:ABU0725",
+  "source:BH00111",
+  "source:ABU0481",
+  "source:ABU2562",
+  "source:ABU2425",
+  "source:AB02817",
+  "source:ABU0687",
+  "source:ABU1585",
+  "source:BH01791",
+  "source:AB02651",
+  "source:AB04061",
+  "source:AB00660",
+  "source:AB12239",
+  "source:AB06165",
+  "source:ABU2081",
+  "source:ABU0496",
+  "source:ABU2418",
+  "source:BH00334",
+  "source:BH00347",
+  "source:BH00759",
+  "source:BB00186",
+  "source:BH00001",
+  "source:ABU0855",
+  "source:ABU0851",
+  "source:BH00568",
+  "source:ABU1434",
+  "source:ABU2806",
+  "source:ABU1983",
+  "source:BH00963",
+  "selection:309fe29afbd3a449e24a8c6b",
+  "selection:a23064a22f4142bb5d937c58",
+  "selection:b77062eaad280125e3cb7de6",
+  "selection:62f9ab7450003a015bd94789"
+ ],
+ "introduction": "“Living in seclusion or practising asceticism is not acceptable in the presence of God.” Bahá’u’lláh addressed the monks of Christendom with respect for their devotion and told them to come out, marry and work. ‘Abdu’l-Bahá, watching nuns pass in Paris, said the same more sharply, and added counsel against harsh fasting and the neglect of health. The guide joins these with letters asking Bahá’ís not to wear themselves out in service. Paul’s later letters distrust “neglecting of the body” and “forbidding to marry” on the same grounds, and the Buddha mocked matted hair. The monastic tradition has its own witnesses: Anna in the temple, à Kempis in his cell, Isaiah’s promise to those without children; and Thoreau’s two years at Walden are the secular case for withdrawal.",
+ "questions": [
+  "What exactly do the readings object to in the monastic life: solitude, celibacy, austerity, or uselessness to others?",
+  "Reading 26 remembers the monks’ “pious deeds” with honour. How does that qualify the criticism elsewhere?",
+  "Jesus withdrew to pray and told the disciples to “rest a while”. Where is the line between retreat and seclusion?",
+  "Readings 32 to 34 warn against exhausting oneself in service. Is overwork a kind of asceticism?"
+ ],
+ "outside": [
+  {
+   "id": "ecclesiastes-two-are-better-than-one",
+   "after": "source:AB11082",
+   "responds": [
+    "source:AB11082"
+   ],
+   "relation": "adjacent",
+   "why": "People must live for one another, not in seclusion. Two are better than one; woe to him that is alone when he falleth; for he hath not another to help him up."
+  },
+  {
+   "id": "timothy-every-creature-of-god-is-good",
+   "after": "source:ABU0725",
+   "responds": [
+    "source:ABU0725"
+   ],
+   "relation": "adjacent",
+   "why": "To hold enmity with life is ingratitude. Every creature of God is good, and nothing to be refused, if it be received with thanksgiving."
+  },
+  {
+   "id": "genesis-not-good-to-be-alone",
+   "after": "source:BH00111",
+   "responds": [
+    "source:BH00111"
+   ],
+   "relation": "adjacent",
+   "why": "Living in seclusion or practising asceticism is not acceptable. It is not good that the man should be alone."
+  },
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:ABU0481",
+   "responds": [
+    "source:ABU0481"
+   ],
+   "relation": "adjacent",
+   "why": "The way of the Prophets was among the people. A city that is set on an hill cannot be hid; neither do men light a candle, and put it under a bushel."
+  },
+  {
+   "id": "aristotle-beast-or-a-god",
+   "after": "source:ABU2562",
+   "responds": [
+    "source:ABU2562"
+   ],
+   "relation": "adjacent",
+   "why": "Withdrawal does not rectify character. Aristotle: he who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god."
+  },
+  {
+   "id": "kempis-wander-much-abroad",
+   "after": "source:ABU2425",
+   "responds": [
+    "source:ABU2425"
+   ],
+   "relation": "contrast",
+   "why": "Monks who enter alive and exit dead. The monk’s own case, from Thomas à Kempis: they who wander much abroad seldom thereby become holy. What did the cloister know about distraction that the readings’ criticism leaves out?"
+  },
+  {
+   "id": "timothy-exercise-thyself",
+   "after": "source:AB02817",
+   "responds": [
+    "source:AB02817"
+   ],
+   "relation": "adjacent",
+   "why": "Self-perfection does not depend on spiritual exercises and seclusion. Bodily exercise profiteth little: but godliness is profitable unto all things."
+  },
+  {
+   "id": "colossians-neglecting-of-the-body",
+   "after": "source:ABU0687",
+   "responds": [
+    "source:ABU0687"
+   ],
+   "relation": "adjacent",
+   "why": "Physical asceticism atrophies. Paul on “touch not; taste not; handle not”: which things have a shew of wisdom in will worship, and humility, and neglecting of the body."
+  },
+  {
+   "id": "matthew-when-thou-fastest",
+   "after": "source:BH01791",
+   "responds": [
+    "source:BH01791"
+   ],
+   "relation": "adjacent",
+   "why": "Squalid dwellings and dress taken for piety. Be not, as the hypocrites, of a sad countenance: for they disfigure their faces, that they may appear unto men to fast."
+  },
+  {
+   "id": "corinthians-body-to-be-burned",
+   "after": "source:AB04061",
+   "responds": [
+    "source:AB04061"
+   ],
+   "relation": "adjacent",
+   "why": "Myriads of mystics have led ascetic lives without result. Though I give my body to be burned, and have not charity, it profiteth me nothing."
+  },
+  {
+   "id": "luke-anna",
+   "after": "source:ABU2081",
+   "responds": [
+    "source:ABU2081"
+   ],
+   "relation": "contrast",
+   "why": "Girls who give their lives entirely to prayer, the brides of Christ. Luke honours one such life: Anna, a widow of fourscore and four years, departed not from the temple, but served God with fastings and prayers night and day. Is the readings’ objection to the life of prayer itself, or to something about how it was entered?"
+  },
+  {
+   "id": "timothy-forbidding-to-marry",
+   "after": "source:ABU0496",
+   "responds": [
+    "source:ABU0496"
+   ],
+   "relation": "adjacent",
+   "why": "Unsuspecting girls beguiled by pictures of solitude. In the latter times some shall depart from the faith, forbidding to marry, and commanding to abstain from meats."
+  },
+  {
+   "id": "thoreau-live-deliberately",
+   "after": "source:ABU2418",
+   "responds": [
+    "source:ABU2418"
+   ],
+   "relation": "contrast",
+   "why": "“No solitaries and no hermits among the Bahá’ís.” Thoreau went to the woods because he wished to live deliberately, to front only the essential facts of life. He stayed two years and came back. Is there a solitude the readings would allow?"
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "source:BH00334",
+   "responds": [
+    "source:BH00334"
+   ],
+   "relation": "adjacent",
+   "why": "O concourse of monks, come out. Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+  },
+  {
+   "id": "john-keep-them-from-the-evil",
+   "after": "source:BB00186",
+   "responds": [
+    "source:BB00186"
+   ],
+   "relation": "adjacent",
+   "why": "No seclusion in this dispensation. I pray not that thou shouldest take them out of the world, but that thou shouldest keep them from the evil."
+  },
+  {
+   "id": "corinthians-tinkling-cymbal",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Worship in forests and on peaks profits nothing without recognition. Though I have all faith, so that I could remove mountains, and have not charity, I am nothing."
+  },
+  {
+   "id": "isaiah-better-than-sons",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "adjacent",
+   "why": "The pious deeds of monks and priests are remembered; let them now marry and enter the open world. Isaiah to the eunuchs who keep my covenant: I will give them a name better than of sons and of daughters."
+  },
+  {
+   "id": "dhammapada-matted-hair",
+   "after": "source:ABU2806",
+   "responds": [
+    "source:ABU2806"
+   ],
+   "relation": "adjacent",
+   "why": "A soul grows by human virtues, not asceticism. The Buddha: what is the use of platted hair, O fool! what of the raiment of goat-skins? Within thee there is ravening, but the outside thou makest clean."
+  },
+  {
+   "id": "matthew-came-eating-and-drinking",
+   "after": "selection:309fe29afbd3a449e24a8c6b",
+   "responds": [
+    "selection:309fe29afbd3a449e24a8c6b"
+   ],
+   "relation": "adjacent",
+   "why": "Asceticism among the unwarranted practices. The Son of man came eating and drinking, and they say, behold a man gluttonous."
+  },
+  {
+   "id": "mark-no-leisure-so-much-as-to-eat",
+   "after": "selection:b77062eaad280125e3cb7de6",
+   "responds": [
+    "selection:b77062eaad280125e3cb7de6"
+   ],
+   "relation": "adjacent",
+   "why": "Guard against utterly depleting your forces. Come ye yourselves apart into a desert place, and rest a while."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "selection:62f9ab7450003a015bd94789",
+   "responds": [
+    "selection:62f9ab7450003a015bd94789"
+   ],
+   "relation": "adjacent",
+   "why": "The body is the horse that carries the person. Know ye not that your body is the temple of the Holy Ghost?"
+  }
+ ],
+ "shortfall": "Readings 11, 13 to 15, 20, 21, 24, 25, 27, 29, 30 and 32 repeat the contrast between the recluse and the servant; companions were given to each distinct point.",
+ "library": {}
+}

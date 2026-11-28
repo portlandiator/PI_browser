@@ -1,0 +1,71 @@
+{
+ "format": 2,
+ "slug": "table",
+ "subject": "F58FC1908933E457851D1AF37E09301E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 5,
+ "quotations": 5,
+ "kept": [
+  "source:ABU3291",
+  "source:ABU3118",
+  "source:ABU0003",
+  "source:AB05402",
+  "source:ABU1844"
+ ],
+ "introduction": "Five short prayers of ‘Abdu’l-Bahá to be said at meals. They give thanks, ask that those at the table be united and that the food become strength for service, and end by admitting that thanks can never equal the gift. Grace at meals is among the oldest of religious acts: Deuteronomy commands the blessing after eating, the Psalmist sees a table spread by God, and the first Christians “did eat their meat with gladness and singleness of heart”.",
+ "questions": [
+  "Why say a prayer at a meal? What changes at a table where one is said?",
+  "Reading 3 asks, at table, for the removal of discord. Why there?",
+  "“How can we render Thee thanks?” What is the answer the prayers themselves give?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-table-before-me",
+   "after": "source:ABU3291",
+   "responds": [
+    "source:ABU3291"
+   ],
+   "relation": "adjacent",
+   "why": "Gathered around this table, praising Thy bounty. Thou preparest a table before me; my cup runneth over."
+  },
+  {
+   "id": "acts-breaking-bread",
+   "after": "source:ABU3118",
+   "responds": [
+    "source:ABU3118"
+   ],
+   "relation": "adjacent",
+   "why": "Make this food heavenly, and those assembled Thy hosts. Breaking bread from house to house, they did eat their meat with gladness and singleness of heart."
+  },
+  {
+   "id": "proverbs-dinner-of-herbs",
+   "after": "source:ABU0003",
+   "responds": [
+    "source:ABU0003"
+   ],
+   "relation": "adjacent",
+   "why": "Dispel what causes discord. Better is a dinner of herbs where love is, than a stalled ox and hatred therewith."
+  },
+  {
+   "id": "deuteronomy-eaten-and-art-full",
+   "after": "source:AB05402",
+   "responds": [
+    "source:AB05402"
+   ],
+   "relation": "adjacent",
+   "why": "Praise that Thou hast sent down this spiritual table. When thou hast eaten and art full, then thou shalt bless the Lord thy God."
+  },
+  {
+   "id": "psalm-what-shall-i-render",
+   "after": "source:ABU1844",
+   "responds": [
+    "source:ABU1844"
+   ],
+   "relation": "adjacent",
+   "why": "How can we render Thee thanks? What shall I render unto the Lord for all his benefits toward me?"
+  }
+ ],
+ "library": {}
+}

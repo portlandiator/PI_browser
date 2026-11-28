@@ -1,0 +1,93 @@
+{
+ "format": 2,
+ "slug": "books",
+ "subject": "3352E8B99ABAE6574A08BB29E7109D71",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 8,
+ "quotations": 8,
+ "kept": [
+  "source:BH01934",
+  "source:BB00035",
+  "source:AB00300",
+  "source:BH00005",
+  "source:BH00238",
+  "source:BH00001",
+  "source:BH00568",
+  "source:BH00451"
+ ],
+ "introduction": "The Báb’s Bayán contained a severe provision, never carried out, that books other than those written in support of His Cause should be effaced. Bahá’u’lláh abolished it in the Kitáb-i-Aqdas, counted its removal among the gifts of His revelation, and urged the study of every useful science; ‘Abdu’l-Bahá called the burning of books the greatest error in history, “for books are as the eyes” of the world. This small guide records the change. Acts tells without regret of magic books burned at Ephesus, and Jeremiah of a king burning prophecy; the Qur’an begins with “Read”; Milton’s Areopagitica is the classic argument against suppressing any book.",
+ "questions": [
+  "Why would a new revelation first command the effacing of books, and its successor remove the command?",
+  "Is there a difference between converts burning their own books at Ephesus and an authority burning other people’s?",
+  "What does a community lose when it destroys the writings it disagrees with?"
+ ],
+ "outside": [
+  {
+   "id": "acts-burned-their-books",
+   "after": "source:BH01934",
+   "responds": [
+    "source:BH01934"
+   ],
+   "relation": "contrast",
+   "why": "The greatest error in the world was the burning of books. Acts records one with approval: many which used curious arts brought their books together, and burned them before all men. Is there any writing a religion may rightly destroy?"
+  },
+  {
+   "id": "jeremiah-cut-it-with-the-penknife",
+   "after": "source:BH01934",
+   "responds": [
+    "source:BH01934"
+   ],
+   "relation": "adjacent",
+   "why": "A king burned the prophet’s scroll leaf by leaf: he cut it with the penknife, and cast it into the fire that was on the hearth."
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:BB00035",
+   "responds": [
+    "source:BB00035"
+   ],
+   "relation": "adjacent",
+   "why": "The Bayán’s ordinance to efface all books save those written in its support. Of making many books there is no end."
+  },
+  {
+   "id": "quran-read",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "The faithless set their minds on the burning of books. The first word revealed to Muḥammad: Read: in the name of thy Lord."
+  },
+  {
+   "id": "maccabees-founding-a-library",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "God has relieved you of the ordinance concerning the destruction of books. Nehemiah, founding a library, gathered together the acts of the kings, and the prophets."
+  },
+  {
+   "id": "bacon-reading-maketh-a-full-man",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "adjacent",
+   "why": "The law removed as a token of grace. Bacon: reading maketh a full man."
+  },
+  {
+   "id": "milton-truth-and-falsehood-grapple",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "adjacent",
+   "why": "Milton against the licensing of books: let Truth and Falsehood grapple; who ever knew Truth put to the worse, in a free and open encounter?"
+  }
+ ],
+ "shortfall": "Readings 3, 4 and 8 concern the Bayán’s meaning and a particular incident.",
+ "library": {}
+}

@@ -1,0 +1,544 @@
+{
+ "format": 2,
+ "slug": "soulproofs",
+ "subject": "9776E3373AB6EADEF00584AE6CE4505D",
+ "status": "published",
+ "limit": 100,
+ "rule": "stretches",
+ "readings": 62,
+ "quotations": 100,
+ "kept": [
+  "source:AB00268",
+  "source:AB03579",
+  "source:ABU0150",
+  "source:AB00020",
+  "source:ABU0033",
+  "source:AB00336",
+  "source:AB00075",
+  "source:AB00266",
+  "source:BH00060",
+  "source:AB00228",
+  "source:ABU0045",
+  "source:ABU2979",
+  "source:ABU0626",
+  "source:ABU0282",
+  "source:ABU3189",
+  "source:AB02947",
+  "source:AB00567",
+  "source:AB00057",
+  "source:AB00259",
+  "source:AB01029",
+  "source:ABU0145",
+  "source:ABU0405",
+  "source:ABU0122",
+  "source:AB01866",
+  "source:ABU0054",
+  "source:AB00457",
+  "source:AB00345",
+  "source:ABU0078",
+  "source:ABU1868",
+  "source:ABU0004",
+  "source:ABU0096",
+  "source:ABU0138",
+  "source:ABU0070",
+  "source:ABU0179",
+  "source:BH00433",
+  "source:AB00282",
+  "source:ABU0495",
+  "source:ABU0610",
+  "source:BH00047",
+  "source:ABU0114",
+  "source:BH00354",
+  "source:BB00072",
+  "source:BH00135",
+  "source:BH00423",
+  "source:AB00482",
+  "source:AB05049",
+  "source:AB00862",
+  "source:ABU1201",
+  "source:AB00002",
+  "source:BH00009",
+  "source:BH05340",
+  "selection:43a3e5bbf97f5977b5657c9f",
+  "selection:7a77a303bab9a0281b5fea51",
+  "selection:7fac936888b47424abf354f8",
+  "selection:b1d6dc46e5ed356c293a595f",
+  "selection:5e10eefa02ae6095bb3a18d7",
+  "selection:332d38e8716d98582e2649f2",
+  "selection:9e42bd067fb761957ef3aa14",
+  "selection:dc1451d7f52db8fa24a16999",
+  "selection:1dc20a69290d6997a2aee16f",
+  "selection:16de817d8642566d7bc2d183",
+  "selection:ea96c931cdd887b2bce4fcf3"
+ ],
+ "introduction": "‘Abdu’l-Bahá offered Western audiences arguments for the soul’s immortality, and this guide gathers them: the bird that outlives its cage, the “I” that is other than the body, the mind that no dissection finds, the soul’s simplicity (what is not composed cannot decompose), its freedom in dreams, the lasting influence of the dead, and the reply to those who deny what they have not seen. Most are in Plato, whose Socrates argued on his last day that the soul is “uniform, and indissoluble”, a prisoner looking through bars. The Bible, the Qur’an’s verse on sleep, the Gítá and the Wisdom of Solomon affirm what the arguments conclude. The opposition is given a full hearing: Lucretius, for whom death is nothing to us; Ecclesiastes’ “no preeminence above a beast”; Aristotle, who thought soul and body as inseparable as wax and its shape; Hume, who looked within and found no self; Darwin on mind as a difference of degree; and Whitman, content to become grass.",
+ "questions": [
+  "Which of the guide’s arguments do you find strongest, and which weakest? What would its ablest critic say?",
+  "“Who is this I?” Hume says he can never catch it. Does his failure count against the soul or for it?",
+  "Aristotle compares soul and body to a shape and its wax. What in your own experience fits the bird and cage better, and what fits the wax?",
+  "The argument from dreams appears in readings 10 and 42 to 50, with a caution in 66. What exactly do dreams show?",
+  "Socrates faced death calmly without being certain. Whitman did not want personal survival. Is belief in immortality necessary for a good death, or a good life?",
+  "Reading 61 says illness does not touch the soul. How should that be said to someone caring for a person with dementia?"
+ ],
+ "outside": [
+  {
+   "id": "plato-soul-likeness-of-the-divine",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "adjacent",
+   "why": "A rational proof of the spirit’s immortality. Plato’s Socrates, on his last day, argued it first: the soul is in the very likeness of the divine, and immortal, and uniform, and indissoluble; and the body in the likeness of the human, and mortal, and dissoluble."
+  },
+  {
+   "id": "lucretius-nothing-to-us",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "contrast",
+   "why": "The proof is that effects cannot come from what does not exist. Lucretius drew the opposite conclusion from nature: nothing to us was all the time before we had a birth, and Nature holds this like a mirror up of time-to-be when we are dead and gone. What would each say to the other?"
+  },
+  {
+   "id": "ecclesiastes-no-preeminence-above-a-beast",
+   "after": "source:AB00268",
+   "responds": [
+    "source:AB00268"
+   ],
+   "relation": "contrast",
+   "why": "Scripture has the sceptic too: as the one dieth, so dieth the other; yea, they have all one breath; so that a man hath no preeminence above a beast."
+  },
+  {
+   "id": "plato-bars-of-a-prison",
+   "after": "source:AB03579",
+   "responds": [
+    "source:AB03579"
+   ],
+   "relation": "adjacent",
+   "why": "A bird is not destroyed when its cage is broken. Plato: the soul is only able to view existence through the bars of a prison, and not in her own nature."
+  },
+  {
+   "id": "aristotle-wax-and-its-shape",
+   "after": "source:AB03579",
+   "responds": [
+    "source:AB03579"
+   ],
+   "relation": "contrast",
+   "why": "Aristotle would not have the bird and cage at all: to ask whether the soul and the body are one is as meaningless as to ask whether the wax and the shape given to it by the stamp are one. If he is right, what happens to the argument?"
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:ABU0150",
+   "responds": [
+    "source:ABU0150"
+   ],
+   "relation": "adjacent",
+   "why": "As the body develops the spirit must be strengthened. The things which are seen are temporal; but the things which are not seen are eternal."
+  },
+  {
+   "id": "corinthians-inward-man-renewed",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "The intellect weakens and the soul does not change. Though our outward man perish, yet the inward man is renewed day by day."
+  },
+  {
+   "id": "hume-never-catch-myself",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "contrast",
+   "why": "“Who is this I?” It is other than the body. Hume looked for it and reported: when I enter most intimately into what I call myself, I always stumble on some particular perception; I never can catch myself at any time without a perception. Is the “I” of reading 5 something found by looking, or what does the looking?"
+  },
+  {
+   "id": "pascal-thinking-reed",
+   "after": "source:ABU0033",
+   "responds": [
+    "source:ABU0033"
+   ],
+   "relation": "adjacent",
+   "why": "Pascal: by space the universe encompasses and swallows me up like an atom; by thought I comprehend the world."
+  },
+  {
+   "id": "dickinson-brain-wider-than-the-sky",
+   "after": "source:AB00336",
+   "responds": [
+    "source:AB00336"
+   ],
+   "relation": "adjacent",
+   "why": "Where in the body is the mind? Emily Dickinson: the brain is wider than the sky, for, put them side by side, the one the other will include with ease, and you beside."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB00266",
+   "responds": [
+    "source:AB00266"
+   ],
+   "relation": "adjacent",
+   "why": "The body a mirror and the spirit the sun; break the mirror and the sun is unharmed. Now we see through a glass, darkly; but then face to face."
+  },
+  {
+   "id": "corinthians-strength-in-weakness",
+   "after": "source:BH00060",
+   "responds": [
+    "source:BH00060"
+   ],
+   "relation": "adjacent",
+   "why": "Weakness in the sick is from intervening causes, not the spirit. My strength is made perfect in weakness."
+  },
+  {
+   "id": "quran-receiveth-souls-in-sleep",
+   "after": "source:AB00228",
+   "responds": [
+    "source:AB00228"
+   ],
+   "relation": "adjacent",
+   "why": "In sleep the body is as dead and the spirit travels. The Qur’an, which reading 67 quotes: Allah receiveth souls at the time of their death, and that which dieth not yet in its sleep."
+  },
+  {
+   "id": "homer-two-gates-of-dreams",
+   "after": "source:AB00228",
+   "responds": [
+    "source:AB00228"
+   ],
+   "relation": "complement",
+   "why": "Penelope on the evidence of dreams: those that come through the gate of ivory are fatuous, but those from the gate of horn mean something. How much weight can the argument from dreams bear?"
+  },
+  {
+   "id": "matthew-fear-not-them-which-kill",
+   "after": "source:ABU0045",
+   "responds": [
+    "source:ABU0045"
+   ],
+   "relation": "adjacent",
+   "why": "The spirit is not touched by changes in the body. Fear not them which kill the body, but are not able to kill the soul."
+  },
+  {
+   "id": "ecclesiastes-spirit-shall-return",
+   "after": "source:ABU2979",
+   "responds": [
+    "source:ABU2979"
+   ],
+   "relation": "adjacent",
+   "why": "Death is the dispersion of elements; the soul is not composed. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it."
+  },
+  {
+   "id": "acts-some-mocked-and-others-said",
+   "after": "source:ABU0282",
+   "responds": [
+    "source:ABU0282"
+   ],
+   "relation": "adjacent",
+   "why": "A talk to clergy on the permanence of the spirit. When Paul spoke of it at Athens, some mocked: and others said, We will hear thee again of this matter."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:ABU3189",
+   "responds": [
+    "source:ABU3189"
+   ],
+   "relation": "adjacent",
+   "why": "The wick may burn low, but the oil is there. The spirit of man is the candle of the Lord."
+  },
+  {
+   "id": "john-wind-bloweth-where-it-listeth",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "Philosophers say they have found no spirit in the body. Thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "The ether too is known by intellect and not by sense. Faith is the evidence of things not seen."
+  },
+  {
+   "id": "darwin-degree-and-not-of-kind",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "contrast",
+   "why": "Is man only a part of nature? Darwin: the difference in mind between man and the higher animals, great as it is, certainly is one of degree and not of kind. Readings 20 to 23 argue that a part cannot have powers the whole lacks. Does Darwin’s sentence answer that, or pass it by?"
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:ABU0405",
+   "responds": [
+    "source:ABU0405"
+   ],
+   "relation": "adjacent",
+   "why": "Man possesses what nature does not. Thou hast made him a little lower than the angels, and hast put all things under his feet."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "adjacent",
+   "why": "How does a part of the plan come by powers absent from the rest? The Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life."
+  },
+  {
+   "id": "corinthians-not-quickened-except-it-die",
+   "after": "source:AB01866",
+   "responds": [
+    "source:AB01866"
+   ],
+   "relation": "adjacent",
+   "why": "The body is composed and every composition decomposes. That which thou sowest is not quickened, except it die."
+  },
+  {
+   "id": "gita-never-the-spirit-was-born",
+   "after": "source:ABU0054",
+   "responds": [
+    "source:ABU0054"
+   ],
+   "relation": "adjacent",
+   "why": "The soul is one indivisible substance and therefore eternal. The Gítá: never the spirit was born; the spirit shall cease to be never."
+  },
+  {
+   "id": "romans-o-wretched-man",
+   "after": "source:ABU0078",
+   "responds": [
+    "source:ABU0078"
+   ],
+   "relation": "adjacent",
+   "why": "Two realities, bodily and spiritual. I delight in the law of God after the inward man: but I see another law in my members."
+  },
+  {
+   "id": "corinthians-natural-man-receiveth-not",
+   "after": "source:ABU1868",
+   "responds": [
+    "source:ABU1868"
+   ],
+   "relation": "adjacent",
+   "why": "The material man takes his lack of knowledge for proof of non-existence. The natural man receiveth not the things of the Spirit of God: for they are foolishness unto him."
+  },
+  {
+   "id": "shakespeare-seven-ages",
+   "after": "source:ABU0004",
+   "responds": [
+    "source:ABU0004"
+   ],
+   "relation": "adjacent",
+   "why": "The body changes and the spirit remains the same. Jaques’s seven ages end sans teeth, sans eyes, sans taste, sans every thing. Which “thing” do the readings say remains?"
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:ABU0096",
+   "responds": [
+    "source:ABU0096"
+   ],
+   "relation": "adjacent",
+   "why": "When you deliberate you consult something within. Plato pictured it as a charioteer driving a pair, one horse noble and one unruly."
+  },
+  {
+   "id": "corinthians-caught-up-to-the-third-heaven",
+   "after": "source:ABU0138",
+   "responds": [
+    "source:ABU0138"
+   ],
+   "relation": "adjacent",
+   "why": "Perception without instruments. Whether in the body, or out of the body, I cannot tell: God knoweth."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0070",
+   "responds": [
+    "source:ABU0070"
+   ],
+   "relation": "adjacent",
+   "why": "The atom dies to one kingdom and rises in the next. Rumi: I died as a plant and rose again an animal; I died as an animal and arose a man. Why then should I fear to become less by dying?"
+  },
+  {
+   "id": "hebrews-being-dead-yet-speaketh",
+   "after": "source:ABU0179",
+   "responds": [
+    "source:ABU0179"
+   ],
+   "relation": "adjacent",
+   "why": "One appeared two thousand years ago and His effects persist. Of Abel, the first to die: he being dead yet speaketh."
+  },
+  {
+   "id": "corinthians-in-this-life-only",
+   "after": "source:BH00433",
+   "responds": [
+    "source:BH00433"
+   ],
+   "relation": "adjacent",
+   "why": "The Prophets’ lives are evidence of other worlds. If in this life only we have hope in Christ, we are of all men most miserable."
+  },
+  {
+   "id": "plato-death-one-of-two-things",
+   "after": "source:AB00282",
+   "responds": [
+    "source:AB00282"
+   ],
+   "relation": "complement",
+   "why": "What ease did the Holy Ones find here, that they should have wished only this? Socrates before his judges left it open: death is either a state of nothingness, or a change and migration of the soul from this world to another; and either would be gain. Is his calm available to someone who is not sure?"
+  },
+  {
+   "id": "john-be-not-faithless",
+   "after": "source:ABU0610",
+   "responds": [
+    "source:ABU0610"
+   ],
+   "relation": "adjacent",
+   "why": "“O atheist, there is no America, I have not seen it.” Blessed are they that have not seen, and yet have believed."
+  },
+  {
+   "id": "genesis-josephs-dream",
+   "after": "source:BH00047",
+   "responds": [
+    "source:BH00047"
+   ],
+   "relation": "adjacent",
+   "why": "The dream is one of the signs. Joseph dreamed a dream, and told it his brethren."
+  },
+  {
+   "id": "luke-kingdom-of-god-is-within-you",
+   "after": "source:BH00354",
+   "responds": [
+    "source:BH00354"
+   ],
+   "relation": "adjacent",
+   "why": "This world is within thy own self. The kingdom of God is within you."
+  },
+  {
+   "id": "quran-joseph-dream",
+   "after": "source:BH00423",
+   "responds": [
+    "source:BH00423"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an’s account of Joseph’s vision. O my father! Lo! I saw in a dream eleven planets and the sun and the moon; I saw them prostrating themselves unto me."
+  },
+  {
+   "id": "acts-man-of-macedonia",
+   "after": "source:AB05049",
+   "responds": [
+    "source:AB05049"
+   ],
+   "relation": "adjacent",
+   "why": "A vision that later comes to pass. A vision appeared to Paul in the night; and they went."
+  },
+  {
+   "id": "samuel-i-shall-go-to-him",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "adjacent",
+   "why": "A dead friend seen in a dream. I shall go to him, but he shall not return to me."
+  },
+  {
+   "id": "whitman-under-your-boot-soles",
+   "after": "selection:43a3e5bbf97f5977b5657c9f",
+   "responds": [
+    "selection:43a3e5bbf97f5977b5657c9f"
+   ],
+   "relation": "contrast",
+   "why": "How can I have an identity that persists, if my soul is a body in flux? Whitman was content with the flux: I bequeath myself to the dirt to grow from the grass I love; if you want me again look for me under your boot-soles. Is personal survival something to want? What do the readings say is lost without it?"
+  },
+  {
+   "id": "wisdom-souls-of-the-righteous",
+   "after": "selection:7a77a303bab9a0281b5fea51",
+   "responds": [
+    "selection:7a77a303bab9a0281b5fea51"
+   ],
+   "relation": "adjacent",
+   "why": "The spirit is an essence, simple, eternal. The souls of the righteous are in the hand of God; in the sight of the unwise they seemed to die."
+  },
+  {
+   "id": "donne-death-be-not-proud",
+   "after": "selection:b1d6dc46e5ed356c293a595f",
+   "responds": [
+    "selection:b1d6dc46e5ed356c293a595f"
+   ],
+   "relation": "adjacent",
+   "why": "The spirit knows neither dissolution nor change. Donne: one short sleep past, we wake eternally, and death shall be no more; death, thou shalt die."
+  },
+  {
+   "id": "timothy-a-little-wine",
+   "after": "selection:5e10eefa02ae6095bb3a18d7",
+   "responds": [
+    "selection:5e10eefa02ae6095bb3a18d7"
+   ],
+   "relation": "complement",
+   "why": "Physical illness does not touch the soul. Paul to Timothy: use a little wine for thy stomach’s sake and thine often infirmities. How do you square the soul’s independence with the plain fact that illness alters mood and mind?"
+  },
+  {
+   "id": "plato-body-without-the-soul",
+   "after": "selection:dc1451d7f52db8fa24a16999",
+   "responds": [
+    "selection:dc1451d7f52db8fa24a16999"
+   ],
+   "relation": "adjacent",
+   "why": "Spirit and matter, answered philosophically and spiritually. Plato: neither ought you to attempt to cure the body without the soul."
+  },
+  {
+   "id": "sirach-whoso-regardeth-dreams",
+   "after": "selection:16de817d8642566d7bc2d183",
+   "responds": [
+    "selection:16de817d8642566d7bc2d183"
+   ],
+   "relation": "contrast",
+   "why": "Truth is often imparted in dreams; yet dreams are not all to be trusted. Ben Sira: whoso regardeth dreams is like him that catcheth at a shadow, and followeth after the wind."
+  },
+  {
+   "id": "john-lazarus-sleepeth",
+   "after": "selection:ea96c931cdd887b2bce4fcf3",
+   "responds": [
+    "selection:ea96c931cdd887b2bce4fcf3"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes the Qur’an on sleep and death. Our friend Lazarus sleepeth; but I go, that I may awake him out of sleep."
+  },
+  {
+   "id": "tennyson-crossing-the-bar",
+   "after": "selection:ea96c931cdd887b2bce4fcf3",
+   "responds": [
+    "selection:ea96c931cdd887b2bce4fcf3"
+   ],
+   "relation": "adjacent",
+   "why": "Tennyson, old: I hope to see my Pilot face to face when I have crost the bar."
+  }
+ ],
+ "shortfall": "The guide’s hundred quotations are concentrated in sixty-two readings, several of which hold five or more that develop one argument; a companion was given to each argument, and repeated statements of it (stretches three and ten) share them.",
+ "library": {
+  "hebrews-being-dead-yet-speaketh": {
+   "text": "By faith Abel offered unto God a more excellent sacrifice than Cain, by which he obtained witness that he was righteous, God testifying of his gifts: and by it he being dead yet speaketh",
+   "work": "Hebrews 11:4",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2011%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

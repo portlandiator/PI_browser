@@ -1,0 +1,74 @@
+{
+ "format": 2,
+ "slug": "primogeniture",
+ "subject": "DDEEC1B26F36E7A24978B407110501F7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 7,
+ "quotations": 9,
+ "kept": [
+  "source:AB01242",
+  "source:AB12301",
+  "source:AB10156",
+  "source:AB11388",
+  "source:BH00069",
+  "source:AB02532",
+  "source:ABU0699"
+ ],
+ "introduction": "In Bahá’í inheritance law, which applies only when someone dies without a will, the family home passes to the eldest son, who is expected to care for the others. This guide gathers the few passages that explain the provision: ‘Abdu’l-Bahá’s insistence that it is not meant to favour one child or to keep estates undivided, definitions of terms, and a conversation about English entail. The firstborn’s double portion in Deuteronomy and Esau’s birthright are the old law; the daughters of Zelophehad, the elder brother of the parable, and Jefferson, who abolished primogeniture, are the questions any reader will ask.",
+ "questions": [
+  "What reasons do the readings give for the eldest son’s share, and what do they say it is not for?",
+  "Every Bahá’í is told to write a will. How does that change the weight of this provision?",
+  "What would fairness among children look like, on the readings’ principles?"
+ ],
+ "outside": [
+  {
+   "id": "deuteronomy-double-portion-of-the-firstborn",
+   "after": "source:AB01242",
+   "responds": [
+    "source:AB01242"
+   ],
+   "relation": "adjacent",
+   "why": "The purpose is not that restricting inheritance to the eldest is praiseworthy. The Mosaic rule: he shall acknowledge the firstborn, by giving him a double portion of all that he hath."
+  },
+  {
+   "id": "genesis-esau-despised-his-birthright",
+   "after": "source:AB10156",
+   "responds": [
+    "source:AB10156"
+   ],
+   "relation": "adjacent",
+   "why": "“Firstborn” means the eldest surviving son. Esau sold his birthright for bread and pottage of lentiles."
+  },
+  {
+   "id": "numbers-daughters-of-zelophehad-speak-right",
+   "after": "source:AB11388",
+   "responds": [
+    "source:AB11388"
+   ],
+   "relation": "contrast",
+   "why": "The residence belongs to the eldest son. The daughters of Zelophehad asked why their father’s name should be done away because he had no son, and the Lord said: they speak right. What would they say of a rule that names sons only, and how do the readings answer?"
+  },
+  {
+   "id": "luke-musick-and-dancing",
+   "after": "source:BH00069",
+   "responds": [
+    "source:BH00069"
+   ],
+   "relation": "complement",
+   "why": "The house assigned to the male offspring. The elder son in the parable was angry, and would not go in. What does the eldest owe the others, on the readings’ account, for what he receives?"
+  },
+  {
+   "id": "jefferson-earth-belongs-to-the-living",
+   "after": "source:ABU0699",
+   "responds": [
+    "source:ABU0699"
+   ],
+   "relation": "contrast",
+   "why": "A question about entailed estates in England. Jefferson abolished entail and primogeniture in Virginia on this ground: the earth belongs in usufruct to the living; the dead have neither powers nor rights over it. How far do the readings agree?"
+  }
+ ],
+ "shortfall": "Readings 2 and 6 are a disclaimer and an unrelated instruction; and the nine quotations make one small provision, for which five companions were enough.",
+ "library": {}
+}

@@ -1,0 +1,157 @@
+{
+ "format": 2,
+ "slug": "careforhearts",
+ "subject": "F8C2BCC87103ECC20416229ED5DCB87C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:ABU3383",
+  "source:AB00861",
+  "source:ABU1232",
+  "source:BB00001",
+  "source:AB00044",
+  "source:BH05857",
+  "source:AB09128",
+  "source:ABU0025",
+  "source:BB00234",
+  "source:ABU1042",
+  "source:BH02714"
+ ],
+ "introduction": "“Beware, beware of grieving any heart!” These passages make the sadness one causes another person a matter of the first importance: the worst person is the one who causes pain to a heart, no act is more hateful than making someone sad, one must speak and write so that “not a single soul will be offended”, and even admonition should come by hints. Isaiah’s servant who will not break a bruised reed, Proverbs on the good word and the soft answer, Ben Sira on the tongue that breaks bones, and God’s command to speak gently even to Pharaoh say the same. Proverbs also says that “open rebuke is better than secret love”, and Paul knew that telling the truth can cost a friendship; those two are here as the counterweight.",
+ "questions": [
+  "Why do the readings treat hurting someone’s feelings as so grave? What view of the human heart lies behind it?",
+  "“Faithful are the wounds of a friend.” How do you reconcile that proverb with reading 8’s counsel to admonish only by hints?",
+  "Moses was told to speak gently to Pharaoh. What does that example add to the principle?",
+  "Is it possible never to offend anyone and still be truthful? What do the readings seem to think?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-good-word-maketh-it-glad",
+   "after": "source:ABU3383",
+   "responds": [
+    "source:ABU3383"
+   ],
+   "relation": "adjacent",
+   "why": "The best person cheers the broken-hearted; the worst causes pain. Heaviness in the heart of man maketh it stoop: but a good word maketh it glad."
+  },
+  {
+   "id": "isaiah-behold-my-servant",
+   "after": "source:AB00861",
+   "responds": [
+    "source:AB00861"
+   ],
+   "relation": "adjacent",
+   "why": "“Beware, beware of grieving any heart!” A bruised reed shall he not break, and the smoking flax shall he not quench."
+  },
+  {
+   "id": "romans-weep-with-them-that-weep",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "No act more beloved than bringing joy to a heart. Rejoice with them that do rejoice, and weep with them that weep."
+  },
+  {
+   "id": "sirach-stroke-of-the-tongue-breaketh-the-bones",
+   "after": "source:AB00044",
+   "responds": [
+    "source:AB00044"
+   ],
+   "relation": "adjacent",
+   "why": "Wound no one with your words, friend or foe. The stroke of the whip maketh marks in the flesh: but the stroke of the tongue breaketh the bones."
+  },
+  {
+   "id": "exodus-honour-thy-father",
+   "after": "source:BH05857",
+   "responds": [
+    "source:BH05857"
+   ],
+   "relation": "adjacent",
+   "why": "Treat thy father with the utmost love; cause him no grief. Honour thy father and thy mother."
+  },
+  {
+   "id": "galatians-restore-such-an-one",
+   "after": "source:ABU0025",
+   "responds": [
+    "source:ABU0025"
+   ],
+   "relation": "adjacent",
+   "why": "If you must admonish, do it by hints and not harshly. Restore such an one in the spirit of meekness."
+  },
+  {
+   "id": "proverbs-open-rebuke-better-than-secret-love",
+   "after": "source:ABU0025",
+   "responds": [
+    "source:ABU0025"
+   ],
+   "relation": "contrast",
+   "why": "Proverbs prefers plainness: open rebuke is better than secret love. Faithful are the wounds of a friend. When does sparing someone’s feelings fail them?"
+  },
+  {
+   "id": "galatians-because-i-tell-you-the-truth",
+   "after": "source:ABU0025",
+   "responds": [
+    "source:ABU0025"
+   ],
+   "relation": "contrast",
+   "why": "Paul to a church he had offended: am I therefore become your enemy, because I tell you the truth?"
+  },
+  {
+   "id": "quran-speak-a-gentle-word",
+   "after": "source:ABU1042",
+   "responds": [
+    "source:ABU1042"
+   ],
+   "relation": "adjacent",
+   "why": "The reading cites God’s instruction to Moses and Aaron: speak unto him a gentle word, that peradventure he may heed or fear. The hearer was Pharaoh."
+  },
+  {
+   "id": "proverbs-soft-answer",
+   "after": "source:ABU1042",
+   "responds": [
+    "source:ABU1042"
+   ],
+   "relation": "adjacent",
+   "why": "A soft answer turneth away wrath: but grievous words stir up anger."
+  },
+  {
+   "id": "timothy-in-meekness-instructing",
+   "after": "source:BH02714",
+   "responds": [
+    "source:BH02714"
+   ],
+   "relation": "adjacent",
+   "why": "Dispute with no one. The servant of the Lord must not strive; but be gentle unto all men."
+  }
+ ],
+ "library": {
+  "galatians-because-i-tell-you-the-truth": {
+   "text": "Am I therefore become your enemy, because I tell you the truth",
+   "work": "Galatians 4:16",
+   "year": "c. 50–60 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%204%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

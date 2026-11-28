@@ -1,0 +1,289 @@
+{
+ "format": 2,
+ "slug": "diet",
+ "subject": "48621AD544B8E82577AB10138F095714",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 23,
+ "kept": [
+  "source:AB01104",
+  "source:AB01119",
+  "source:ABU2764",
+  "source:AB03552",
+  "source:ABU3478",
+  "source:ABU0371",
+  "source:ABU0714",
+  "source:ABU3299",
+  "source:ABU3680",
+  "source:ABU3023",
+  "source:ABU1819",
+  "source:ABU0006",
+  "source:AB00162",
+  "source:ABU1857",
+  "source:ABU0910",
+  "source:ABU3628",
+  "source:AB03370",
+  "source:ABU0329",
+  "source:ABU3261"
+ ],
+ "introduction": "These passages are mostly ‘Abdu’l-Bahá at table, answering what people asked him about food. The answers are consistent: eat when hungry and give thanks; meat is lawful; yet man’s natural food is fruit and grain, killing is hard on the heart, and as humanity advances meat will gradually be given up; and medicine will one day heal by diet. None of it is made a law. Genesis has the same sequence in two verses, the herb and fruit of Eden and the permission given to Noah; Daniel thrives on pulse and water; Isaiah’s lion eats straw. Paul’s rule for the Roman church, “let not him that eateth despise him that eateth not”, is the readings’ own temper. His “every creature of God is good”, Peter’s vision and Jesus’s “not that which goeth into the mouth” speak for freedom from food rules altogether.",
+ "questions": [
+  "The readings say a meatless diet is better and decline to require it. Why might a teacher hold an ideal and refuse to legislate it?",
+  "Jesus says nothing that enters the mouth defiles. Reading 3 says diet has no effect on the spirit. Why, then, do the readings care what is eaten?",
+  "Reading 7 speaks of how hard it is to kill an animal. Is that an argument, or a feeling to be trusted?",
+  "How should people who eat differently treat each other at one table?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-every-herb-bearing-seed",
+   "after": "source:AB01104",
+   "responds": [
+    "source:AB01104"
+   ],
+   "relation": "adjacent",
+   "why": "In the beginning of creation God determined the food of every living being. I have given you every herb bearing seed, and every tree yielding fruit; to you it shall be for meat."
+  },
+  {
+   "id": "genesis-every-moving-thing-meat",
+   "after": "source:AB01104",
+   "responds": [
+    "source:AB01104"
+   ],
+   "relation": "adjacent",
+   "why": "The later permission, after the flood: every moving thing that liveth shall be meat for you; even as the green herb have I given you all things."
+  },
+  {
+   "id": "corinthians-whether-ye-eat-or-drink",
+   "after": "source:AB01119",
+   "responds": [
+    "source:AB01119"
+   ],
+   "relation": "adjacent",
+   "why": "Eat when hungry, with the utmost thankfulness. Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God."
+  },
+  {
+   "id": "matthew-not-that-which-goeth-into-the-mouth",
+   "after": "source:ABU2764",
+   "responds": [
+    "source:ABU2764"
+   ],
+   "relation": "adjacent",
+   "why": "Vegetable or animal food has no effect on the spirit. Not that which goeth into the mouth defileth a man."
+  },
+  {
+   "id": "romans-not-meat-and-drink",
+   "after": "source:ABU2764",
+   "responds": [
+    "source:ABU2764"
+   ],
+   "relation": "adjacent",
+   "why": "The kingdom of God is not meat and drink; but righteousness, and peace, and joy."
+  },
+  {
+   "id": "quran-lawful-and-wholesome",
+   "after": "source:AB03552",
+   "responds": [
+    "source:AB03552"
+   ],
+   "relation": "adjacent",
+   "why": "Wholesome meats may be eaten. O mankind! Eat of that which is lawful and wholesome in the earth."
+  },
+  {
+   "id": "proverbs-dinner-of-herbs",
+   "after": "source:ABU3478",
+   "responds": [
+    "source:ABU3478"
+   ],
+   "relation": "adjacent",
+   "why": "One or two courses are better for the constitution. Better is a dinner of herbs where love is, than a stalled ox and hatred therewith."
+  },
+  {
+   "id": "daniel-pulse-to-eat",
+   "after": "source:ABU0371",
+   "responds": [
+    "source:ABU0371"
+   ],
+   "relation": "adjacent",
+   "why": "A vegetarian’s nourishing dinner. Daniel asked for pulse to eat and water to drink for ten days, and then let our countenances be looked upon."
+  },
+  {
+   "id": "proverbs-regardeth-the-life-of-his-beast",
+   "after": "source:ABU0714",
+   "responds": [
+    "source:ABU0714"
+   ],
+   "relation": "adjacent",
+   "why": "How difficult it is to kill an animal. A righteous man regardeth the life of his beast."
+  },
+  {
+   "id": "isaiah-lion-shall-eat-straw",
+   "after": "source:ABU3299",
+   "responds": [
+    "source:ABU3299"
+   ],
+   "relation": "adjacent",
+   "why": "It is not befitting for man to be carnivorous, though habit has made it routine. Isaiah’s peaceable kingdom extends the thought to the beasts: the lion shall eat straw like the ox."
+  },
+  {
+   "id": "romans-eateth-herbs",
+   "after": "source:ABU3023",
+   "responds": [
+    "source:ABU3023"
+   ],
+   "relation": "adjacent",
+   "why": "Abstaining is better, but meat is not prohibited. One believeth that he may eat all things: another eateth herbs. Let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth."
+  },
+  {
+   "id": "timothy-every-creature-of-god-is-good",
+   "after": "source:ABU3023",
+   "responds": [
+    "source:ABU3023"
+   ],
+   "relation": "contrast",
+   "why": "Paul put the principle the other way about: every creature of God is good, and nothing to be refused, if it be received with thanksgiving. He treats abstinence as the scruple; the readings treat it as the ideal. Is that a real difference, since both leave the eater free?"
+  },
+  {
+   "id": "sirach-honour-a-physician",
+   "after": "source:AB00162",
+   "responds": [
+    "source:AB00162"
+   ],
+   "relation": "adjacent",
+   "why": "Medicine to be developed until illnesses are healed by foods. The Lord hath created medicines out of the earth; and he that is wise will not abhor them."
+  },
+  {
+   "id": "acts-what-god-hath-cleansed",
+   "after": "source:ABU0910",
+   "responds": [
+    "source:ABU0910"
+   ],
+   "relation": "adjacent",
+   "why": "“Is bread kosher?” Peter, who had never eaten anything common or unclean, heard: what God hath cleansed, that call not thou common."
+  },
+  {
+   "id": "ecclesiastes-garments-be-always-white",
+   "after": "source:ABU3628",
+   "responds": [
+    "source:ABU3628"
+   ],
+   "relation": "adjacent",
+   "why": "Material food sometimes gives spiritual strength. Eat thy bread with joy, and drink thy wine with a merry heart."
+  },
+  {
+   "id": "corinthians-make-my-brother-to-offend",
+   "after": "source:AB03370",
+   "responds": [
+    "source:AB03370"
+   ],
+   "relation": "adjacent",
+   "why": "Meat is not forbidden; one can be strong without it. If meat make my brother to offend, I will eat no flesh while the world standeth."
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:ABU3261",
+   "responds": [
+    "source:ABU3261"
+   ],
+   "relation": "complement",
+   "why": "The time will come when meat is no longer eaten. Adam Smith’s example of how the world is fed: it is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner. What would have to change, besides taste, for the reading’s forecast to come true?"
+  }
+ ],
+ "shortfall": "Readings 9, 11, 12, 14 and 18 repeat the preference for vegetables or are table talk; the count stops at the distinct points.",
+ "library": {
+  "acts-what-god-hath-cleansed": {
+   "text": "And there came a voice to him, Rise, Peter; kill, and eat. But Peter said, Not so, Lord; for I have never eaten any thing that is common or unclean. And the voice spake unto him again the second time, What God hath cleansed, that call not thou common",
+   "work": "Acts 10:13–15",
+   "year": "c. 80–90 CE",
+   "sortYear": 85,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Acts%2010%3A13-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "isaiah-lion-shall-eat-straw": {
+   "text": "And the cow and the bear shall feed; their young ones shall lie down together: and the lion shall eat straw like the ox",
+   "work": "Isaiah 11:7",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%2011%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-whether-ye-eat-or-drink": {
+   "text": "Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God",
+   "work": "1 Corinthians 10:31",
+   "year": "c. 50–60 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2010%3A31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-lawful-and-wholesome": {
+   "text": "O mankind! Eat of that which is lawful and wholesome in the earth, and follow not the footsteps of the devil. Lo! he is an open enemy for you.",
+   "work": "Qur’an 2:168",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=168",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

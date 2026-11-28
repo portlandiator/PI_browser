@@ -1,0 +1,144 @@
+{
+ "format": 2,
+ "slug": "crosstrinity",
+ "subject": "2E899D7A2A2DE9B09ABA9A4160C9D3F8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 13,
+ "quotations": 13,
+ "kept": [
+  "source:ABU2844",
+  "source:AB06817",
+  "source:ABU1760",
+  "source:ABU2625",
+  "source:ABU2649",
+  "source:AB00952",
+  "source:ABU0356",
+  "source:ABU0018",
+  "source:BB00216",
+  "source:BB00301",
+  "source:ABU1300",
+  "source:AB00460",
+  "source:BB00364"
+ ],
+ "introduction": "‘Abdu’l-Bahá was often asked by Christians about the Trinity. His answer keeps the word and changes its sense: God is one and indivisible, as the sun is one; Christ is the perfect mirror in which the sun appears; the Holy Spirit is the light between them. Three realities are named, and the Godhead is not divided. He adds that every dispensation has such a triad. The guide gathers these explanations, with two passages of the Báb. The Shema and the Qur’an’s “say not Three” are the unitarian protest he shares; the Fourth Gospel supplies both “I and my Father are one” and “my Father is greater than I”; Augustine’s analogy of lover, beloved and love is the classic defence, and Paul’s “Christ crucified” is a reminder of what the readings leave to one side.",
+ "questions": [
+  "How does the image of sun, mirror and rays keep the language of the Trinity and remove what the readings find irrational in it?",
+  "Would a Trinitarian Christian accept the readings’ account as a statement of what he believes? Where would he object?",
+  "John’s Gospel says both “one” and “greater than I”. How do the readings hold the two together?",
+  "What place has the cross in these passages, and why might that matter to a Christian reader?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-great-commission",
+   "after": "source:ABU2844",
+   "responds": [
+    "source:ABU2844"
+   ],
+   "relation": "adjacent",
+   "why": "In every dispensation there have been three. Baptizing them in the name of the Father, and of the Son, and of the Holy Ghost."
+  },
+  {
+   "id": "john-hath-seen-the-father",
+   "after": "source:AB06817",
+   "responds": [
+    "source:AB06817"
+   ],
+   "relation": "adjacent",
+   "why": "The Father is the Sun of Reality, the Son the mirror, the Spirit the rays. He that hath seen me hath seen the Father."
+  },
+  {
+   "id": "quran-say-not-three",
+   "after": "source:ABU1760",
+   "responds": [
+    "source:ABU1760"
+   ],
+   "relation": "adjacent",
+   "why": "It is impossible that three be one and one three. The Qur’an to Christians: say not “Three”. Cease! it is better for you! Allah is only One Allah."
+  },
+  {
+   "id": "deuteronomy-shema",
+   "after": "source:ABU1760",
+   "responds": [
+    "source:ABU1760"
+   ],
+   "relation": "adjacent",
+   "why": "The confession that both Jesus and the readings start from: hear, O Israel: the Lord our God is one Lord."
+  },
+  {
+   "id": "augustine-lover-beloved-love",
+   "after": "source:AB00952",
+   "responds": [
+    "source:AB00952"
+   ],
+   "relation": "contrast",
+   "why": "The question of the Trinity has never been explained so as to agree with reason. Augustine tried from within experience: there are three things: he that loves, and that which is loved, and love. Is his an explanation, or an analogy like the readings’ sun and mirror, and does the doctrine need more than analogy?"
+  },
+  {
+   "id": "kempis-reasonings-concerning-the-trinity",
+   "after": "source:ABU0356",
+   "responds": [
+    "source:ABU0356"
+   ],
+   "relation": "adjacent",
+   "why": "None has been able to explain it. Thomas à Kempis: what will it avail thee to engage in reasonings concerning the Trinity, if thou be void of humility?"
+  },
+  {
+   "id": "john-my-father-is-greater-than-i",
+   "after": "source:ABU0018",
+   "responds": [
+    "source:ABU0018"
+   ],
+   "relation": "adjacent",
+   "why": "“The Father is in me” must be reconciled with reason. The same Gospel: my Father is greater than I."
+  },
+  {
+   "id": "john-i-and-my-father-are-one",
+   "after": "source:ABU0018",
+   "responds": [
+    "source:ABU0018"
+   ],
+   "relation": "adjacent",
+   "why": "And: I and my Father are one. The texts themselves pull both ways."
+  },
+  {
+   "id": "quran-he-is-allah-the-one",
+   "after": "source:BB00216",
+   "responds": [
+    "source:BB00216"
+   ],
+   "relation": "adjacent",
+   "why": "Exalted be God above what the anthropomorphists describe. Say: He is Allah, the One! He begetteth not nor was begotten."
+  },
+  {
+   "id": "corinthians-jews-require-a-sign",
+   "after": "source:ABU1300",
+   "responds": [
+    "source:ABU1300"
+   ],
+   "relation": "contrast",
+   "why": "A believer seized a priest by the collar to teach him. What the priest would have preached: Christ crucified, unto the Jews a stumblingblock, and unto the Greeks foolishness. The readings explain the Trinity and say little here of the cross. What does the cross mean to those for whom it is the centre, and what do the readings make of it?"
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "source:AB00460",
+   "responds": [
+    "source:AB00460"
+   ],
+   "relation": "adjacent",
+   "why": "In each cycle the Trinity appears. In the beginning was the Word, and the Word was with God, and the Word was God."
+  },
+  {
+   "id": "justin-form-of-the-cross",
+   "after": "source:BB00364",
+   "responds": [
+    "source:BB00364"
+   ],
+   "relation": "adjacent",
+   "why": "Things fashioned with art. Justin Martyr saw the cross everywhere: consider all the things in the world, whether without this form they could be administered."
+  }
+ ],
+ "shortfall": "Readings 4, 5 and 10 repeat the triad of each dispensation or concern letter symbolism.",
+ "library": {}
+}

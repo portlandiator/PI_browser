@@ -1,0 +1,103 @@
+{
+ "format": 2,
+ "slug": "birthcontrol",
+ "subject": "9F5C99BFEC18E75332DC80B41D791C09",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 6,
+ "quotations": 6,
+ "kept": [
+  "source:AB11370",
+  "selection:8dc774dbcd66f486f474df76",
+  "selection:e02b43ab70682fccc9b4777c",
+  "selection:1d60cfa9c0a35cd4b327cb1d",
+  "selection:3ba5d83789014c5f622c3e46",
+  "selection:2b852f346d5c02de29e79030"
+ ],
+ "introduction": "These six passages show a teaching being worked out. A brief statement of ‘Abdu’l-Bahá says that preventing procreation “is absolutely not permitted”; letters written for Shoghi Effendi say that the Bahá’í teachings imply the purpose of marriage is children but that Bahá’ís can neither condemn birth control nor confirm it; and the Universal House of Justice leaves the choice of whether and how to limit a family to the couple’s conscience, within that purpose. “Be fruitful, and multiply” and the Psalmist’s “children are an heritage of the Lord” are the scriptural ground of the first position; Paul’s “let every man be fully persuaded in his own mind” and “all things are not expedient” are his rules for questions that revelation has left open.",
+ "questions": [
+  "The readings move from a flat prohibition to a matter of conscience. How do you understand the relation between the first reading and the last?",
+  "What does it mean to say the purpose of marriage includes children without making their number a matter of law?",
+  "Why might a religious authority deliberately decline to rule on a question?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-subdue-it",
+   "after": "source:AB11370",
+   "responds": [
+    "source:AB11370"
+   ],
+   "relation": "adjacent",
+   "why": "The prevention of procreation is not permitted. Be fruitful, and multiply, and replenish the earth."
+  },
+  {
+   "id": "quran-slay-not-your-children",
+   "after": "source:AB11370",
+   "responds": [
+    "source:AB11370"
+   ],
+   "relation": "complement",
+   "why": "The Qur’an addresses the fear behind many such decisions, in the context of infanticide: slay not your children, fearing a fall to poverty; We shall provide for them and for you. How far does trust in providence bear on family planning, and where does responsibility begin?"
+  },
+  {
+   "id": "psalm-children-are-an-heritage",
+   "after": "selection:8dc774dbcd66f486f474df76",
+   "responds": [
+    "selection:8dc774dbcd66f486f474df76"
+   ],
+   "relation": "adjacent",
+   "why": "The purpose of marriage includes children. Lo, children are an heritage of the Lord: and the fruit of the womb is his reward."
+  },
+  {
+   "id": "romans-fully-persuaded-in-his-own-mind",
+   "after": "selection:e02b43ab70682fccc9b4777c",
+   "responds": [
+    "selection:e02b43ab70682fccc9b4777c"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’ís are in no position either to condemn or to confirm the practice. Let every man be fully persuaded in his own mind."
+  },
+  {
+   "id": "corinthians-not-all-expedient",
+   "after": "selection:3ba5d83789014c5f622c3e46",
+   "responds": [
+    "selection:3ba5d83789014c5f622c3e46"
+   ],
+   "relation": "adjacent",
+   "why": "The House of Justice may think it untimely to rule. All things are lawful for me, but all things are not expedient."
+  },
+  {
+   "id": "luke-counteth-the-cost",
+   "after": "selection:2b852f346d5c02de29e79030",
+   "responds": [
+    "selection:2b852f346d5c02de29e79030"
+   ],
+   "relation": "adjacent",
+   "why": "Decisions left to the couple’s informed conscience. Which of you, intending to build a tower, sitteth not down first, and counteth the cost?"
+  }
+ ],
+ "library": {
+  "quran-slay-not-your-children": {
+   "text": "Slay not your children, fearing a fall to poverty, We shall provide for them and for you. Lo! the slaying of them is great sin.",
+   "work": "Qur’an 17:31",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=31",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

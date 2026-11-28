@@ -1,0 +1,193 @@
+{
+ "format": 2,
+ "slug": "easternvalues",
+ "subject": "AECD255E0A17E60EF9B3EAFAE4522D5C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 26,
+ "quotations": 29,
+ "kept": [
+  "source:ABU0006",
+  "source:AB00004",
+  "source:AB01437",
+  "source:ABU1267",
+  "source:AB09441",
+  "source:AB01068",
+  "source:AB01424",
+  "source:AB02477",
+  "source:AB08336",
+  "source:AB02897",
+  "source:AB03248",
+  "source:AB09226",
+  "source:ABU0504",
+  "source:ABU3122",
+  "source:ABU1920",
+  "source:ABU1106",
+  "source:ABU0688",
+  "source:ABU0429",
+  "source:ABU3138",
+  "source:ABU2275",
+  "source:AB00146",
+  "source:ABU3306",
+  "source:ABU2385",
+  "source:ABU0515",
+  "source:ABU2319",
+  "selection:c6c09756783c94666681c36a"
+ ],
+ "introduction": "‘Abdu’l-Bahá spent most of his life in exile from Iran and never ceased to praise it: its ancient kings who “prided themselves on justice”, its poets, its customs, of which he would not see even a minor one abandoned. This guide gathers such praise, with his admiration for the simple life of the desert Arab, his remarks on China and Japan, and his constant theme that the East founded spiritual civilization as the West has perfected the material. The Bible remembers Persia as he does, in Cyrus, whom Isaiah calls the Lord’s anointed; Omar Khayyám and Shelley sing the ruin of such glory; Thoreau and Arnold are Westerners who agreed about simplicity and the “sick hurry” of modern life. Kipling’s East and West, and Tagore’s prayer for his country, question the neat division.",
+ "questions": [
+  "What does ‘Abdu’l-Bahá praise in Eastern cultures, and what, in the same passages, does he want changed?",
+  "“East is East, and West is West.” How far do the readings accept the contrast, and where do they dissolve it?",
+  "Why would someone who taught the oneness of humanity be unwilling to see a minor custom of his country abandoned?",
+  "Reading 15 holds up the desert Arab’s simplicity. What could a complicated society actually learn from it?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-wise-men-from-the-east",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Divine civilization was founded in the East. There came wise men from the east to Jerusalem, saying, we have seen his star in the east."
+  },
+  {
+   "id": "kipling-east-west",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "complement",
+   "why": "Kipling’s line is usually quoted for its first half: East is East, and West is West, and never the twain shall meet. It goes on: but there is neither East nor West when two strong men stand face to face. What does each half of the world lack, in the reading, that the other could supply?"
+  },
+  {
+   "id": "ezra-cyrus-king-of-persia",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Persia once honoured by all for her dominion and culture. Thus saith Cyrus king of Persia: the Lord God of heaven hath given me all the kingdoms of the earth; and he hath charged me to build him an house at Jerusalem."
+  },
+  {
+   "id": "khayyam-courts-where-jamshyd-gloried",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "And of what became of it, in a Persian’s lines: they say the Lion and the Lizard keep the courts where Jamshyd gloried and drank deep."
+  },
+  {
+   "id": "isaiah-to-his-anointed-to-cyrus",
+   "after": "source:ABU1267",
+   "responds": [
+    "source:ABU1267"
+   ],
+   "relation": "adjacent",
+   "why": "The ancient kings of Iran prided themselves on justice. Isaiah calls a Persian king the Lord’s anointed: to Cyrus, whose right hand I have holden."
+  },
+  {
+   "id": "shelley-ozymandias",
+   "after": "source:AB09441",
+   "responds": [
+    "source:AB09441"
+   ],
+   "relation": "adjacent",
+   "why": "Farídún’s dominion was a handful of dust and his name a word on the lips. My name is Ozymandias, king of kings: look on my works, ye Mighty, and despair! Nothing beside remains."
+  },
+  {
+   "id": "proverbs-ancient-landmark",
+   "after": "source:AB01068",
+   "responds": [
+    "source:AB01068"
+   ],
+   "relation": "adjacent",
+   "why": "Not content that even a minor Iranian custom be abandoned. Remove not the ancient landmark, which thy fathers have set."
+  },
+  {
+   "id": "thoreau-afford-to-let-alone",
+   "after": "source:ABU1920",
+   "responds": [
+    "source:ABU1920"
+   ],
+   "relation": "adjacent",
+   "why": "The Arab of the desert teaches the simple life. Thoreau: a man is rich in proportion to the number of things which he can afford to let alone."
+  },
+  {
+   "id": "timothy-godliness-with-contentment",
+   "after": "source:ABU1106",
+   "responds": [
+    "source:ABU1106"
+   ],
+   "relation": "adjacent",
+   "why": "Camel’s milk and a few dates. Having food and raiment let us be therewith content."
+  },
+  {
+   "id": "quran-whithersoever-ye-turn",
+   "after": "source:ABU0429",
+   "responds": [
+    "source:ABU0429"
+   ],
+   "relation": "adjacent",
+   "why": "To the Occidental God is remote; to the Oriental near. Unto Allah belong the East and the West, and whithersoever ye turn, there is Allah’s Countenance."
+  },
+  {
+   "id": "tagore-domestic-walls",
+   "after": "source:ABU3138",
+   "responds": [
+    "source:ABU3138"
+   ],
+   "relation": "contrast",
+   "why": "In the East, the reading says, mention of homeland never stirred people as religion did. An Eastern poet of the next generation prayed for exactly that stirring: into that heaven of freedom, my Father, let my country awake. Was the reading describing something permanent in the East, or a moment?"
+  },
+  {
+   "id": "thoreau-improved-means",
+   "after": "source:AB00146",
+   "responds": [
+    "source:AB00146"
+   ],
+   "relation": "adjacent",
+   "why": "Japan’s astonishing physical progress. Thoreau on such progress in general: our inventions are but improved means to an unimproved end."
+  },
+  {
+   "id": "analects-transmitter-not-maker",
+   "after": "source:ABU3306",
+   "responds": [
+    "source:ABU3306"
+   ],
+   "relation": "adjacent",
+   "why": "Chinese civilization is very old. Confucius: a transmitter and not a maker, believing in and loving the ancients."
+  },
+  {
+   "id": "arnold-strange-disease-of-modern-life",
+   "after": "source:ABU2385",
+   "responds": [
+    "source:ABU2385"
+   ],
+   "relation": "adjacent",
+   "why": "Life in the Orient simple and charming, in the Occident complicated. Arnold, from the Occident: this strange disease of modern life, with its sick hurry, its divided aims."
+  },
+  {
+   "id": "goethe-foreign-languages",
+   "after": "source:ABU2319",
+   "responds": [
+    "source:ABU2319"
+   ],
+   "relation": "adjacent",
+   "why": "A visitor hopes for closer ties between Iran and Germany. Goethe, who wrote a whole book of poems after Háfiẓ: a man who has no acquaintance with foreign languages knows nothing of his own."
+  },
+  {
+   "id": "matthew-from-the-east-and-west",
+   "after": "selection:c6c09756783c94666681c36a",
+   "responds": [
+    "selection:c6c09756783c94666681c36a"
+   ],
+   "relation": "adjacent",
+   "why": "Other countries may again draw light from Persia. Many shall come from the east and west, and shall sit down in the kingdom of heaven."
+  }
+ ],
+ "shortfall": "Readings 3, 7 to 14, 17, 20 and 24 praise Iran, its cities and the Zoroastrian friends in terms particular to them; nothing outside was found that would not be decoration.",
+ "library": {}
+}

@@ -1,0 +1,201 @@
+{
+ "format": 2,
+ "slug": "proofsgod",
+ "subject": "41DF1CE89518406AB97E142EE368CE54",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 33,
+ "quotations": 52,
+ "kept": [
+  "source:AB01117",
+  "source:AB00103",
+  "source:ABU0150",
+  "source:ABU3156",
+  "source:ABU2507",
+  "source:AB00815",
+  "source:AB00395",
+  "source:BB00002",
+  "source:BB00003",
+  "source:ABU0122",
+  "source:AB01029",
+  "source:BH00223",
+  "source:BH00328",
+  "source:AB00020",
+  "source:ABU0102",
+  "source:ABU0591",
+  "source:ABU0965",
+  "source:ABU0097",
+  "source:ABU0031",
+  "source:ABU1362",
+  "source:ABU1435",
+  "source:ABU0240",
+  "source:AB00966",
+  "source:AB00268",
+  "source:ABU0744",
+  "source:BB00001",
+  "source:BB00015",
+  "source:BH00476",
+  "source:BB00195",
+  "selection:33ff1717aadea1f82e159ea3",
+  "selection:51592cacd494d07e438d021a",
+  "selection:ab68698a3020de92b161e440",
+  "selection:72ee3bc522381fb082f7091f"
+ ],
+ "introduction": "‘Abdu’l-Bahá offered Western audiences what he called rational proofs of God. The world is contingent and so implies a necessary being; its order cannot be chance; the composition of elements into living forms is neither accidental nor compelled and so must be willed; and as a letter implies a writer, creation implies a maker. He always added that the proofs show that God is, not what God is. Paul’s “clearly seen, being understood by the things that are made” and the Qur’an’s signs in night and day are the scriptural form of the same reasoning; Aristotle and Newton its philosophers. Hume on causation, Lucretius on chance, Darwin on design and Kant on the limits of proof are the classic objections, set here because a study group will raise them.",
+ "questions": [
+  "Which of the arguments in the readings do you find strongest, and which weakest?",
+  "What does Darwin’s account of living forms do to the argument from order?",
+  "The readings say reason can prove that God exists but cannot grasp His essence. Is that distinction stable?",
+  "Kant thought the proofs fail and belief remains reasonable. Would ‘Abdu’l-Bahá have accepted that?",
+  "If the proofs convince no unbeliever, what are they for?"
+ ],
+ "outside": [
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "adjacent",
+   "why": "The Essence is beyond speculation. Newton: much less have we any idea of the substance of God; we know him only by his most wise and excellent contrivances of things."
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "source:AB00103",
+   "responds": [
+    "source:AB00103"
+   ],
+   "relation": "adjacent",
+   "why": "The existence of the Divine Being is established by logical proofs. The invisible things of him from the creation of the world are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:ABU3156",
+   "responds": [
+    "source:ABU3156"
+   ],
+   "relation": "adjacent",
+   "why": "They say that had there been a spiritual world they would have sensed it. The things which are seen are temporal; but the things which are not seen are eternal."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:ABU2507",
+   "responds": [
+    "source:ABU2507"
+   ],
+   "relation": "adjacent",
+   "why": "We know electricity by its effects. Faith is the evidence of things not seen."
+  },
+  {
+   "id": "aristotle-moves-as-being-loved",
+   "after": "source:AB00815",
+   "responds": [
+    "source:AB00815"
+   ],
+   "relation": "adjacent",
+   "why": "The contingent world implies a source of perfection. Aristotle’s first mover produces motion as being loved, while all other things move by being moved."
+  },
+  {
+   "id": "wisdom-maker-of-them-is-seen",
+   "after": "source:AB00395",
+   "responds": [
+    "source:AB00395"
+   ],
+   "relation": "adjacent",
+   "why": "The signs of perfection in the world. By the greatness and beauty of the creatures proportionably the maker of them is seen."
+  },
+  {
+   "id": "quran-creation-of-heavens-and-earth",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The reading takes this verse’s list: in the creation of the heavens and the earth, and the difference of night and day, are signs for people who have sense."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:BB00003",
+   "responds": [
+    "source:BB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Who splits the grain and the date-stone? The heavens declare the glory of God; and the firmament sheweth his handywork."
+  },
+  {
+   "id": "hume-conjoined-but-never-connected",
+   "after": "source:ABU0122",
+   "responds": [
+    "source:ABU0122"
+   ],
+   "relation": "contrast",
+   "why": "A book implies a writer. Hume denied that we ever observe the tie on which such an argument depends: events seem conjoined, but never connected. If causation itself is only habit, what becomes of the argument from the writer?"
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:AB01029",
+   "responds": [
+    "source:AB01029"
+   ],
+   "relation": "contrast",
+   "why": "Can such order be attributed to chance? Darwin showed how an appearance of design can arise without a designer, and still wrote: there is grandeur in this view of life. Does natural selection answer the reading’s question, or move it back a step?"
+  },
+  {
+   "id": "kant-room-for-belief",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "complement",
+   "why": "Man cannot grasp the Essence, but by reasoning can believe. Kant, having criticized the proofs: I must abolish knowledge, to make room for belief. Are the readings offering demonstrations, or reasons that make belief reasonable?"
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "contrast",
+   "why": "Composition is either accidental, necessary or voluntary. Lucretius chose the first and built his poem on it: nothing from nothing ever yet was born. What is the reading’s case against accidental composition?"
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:ABU0591",
+   "responds": [
+    "source:ABU0591"
+   ],
+   "relation": "complement",
+   "why": "Theories held by belief differ from facts established by proof. Pascal: the heart has its reasons, which reason does not know. Is there a knowledge of God that argument cannot give, and do the readings say so?"
+  },
+  {
+   "id": "job-where-wast-thou",
+   "after": "source:ABU1362",
+   "responds": [
+    "source:ABU1362"
+   ],
+   "relation": "adjacent",
+   "why": "Without a mover these interactions would not be. Where wast thou when I laid the foundations of the earth?"
+  },
+  {
+   "id": "psalm-fool-hath-said",
+   "after": "source:ABU0240",
+   "responds": [
+    "source:ABU0240"
+   ],
+   "relation": "adjacent",
+   "why": "“I have brought rational proofs.” The fool hath said in his heart, there is no God."
+  },
+  {
+   "id": "acts-feel-after-him",
+   "after": "source:ABU0240",
+   "responds": [
+    "source:ABU0240"
+   ],
+   "relation": "adjacent",
+   "why": "Paul to the philosophers of Athens: that they should seek the Lord, if haply they might feel after him, and find him, though he be not far from every one of us."
+  }
+ ],
+ "shortfall": "The remaining readings restate the arguments from contingency, order and composition to other audiences; companions and objections were set once to each argument.",
+ "library": {}
+}

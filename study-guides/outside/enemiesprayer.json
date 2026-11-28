@@ -1,0 +1,137 @@
+{
+ "format": 2,
+ "slug": "enemiesprayer",
+ "subject": "406F202A72F6E8F14E1C2FC471A82F70",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 16,
+ "quotations": 16,
+ "kept": [
+  "source:AB01493",
+  "source:BH08947",
+  "source:AB00230",
+  "source:BH01016",
+  "source:BH03131",
+  "source:ABU0679",
+  "source:BH09688",
+  "source:BH06356",
+  "source:AB07349",
+  "source:AB00782",
+  "source:BH00679",
+  "source:BH02952",
+  "source:BH02953",
+  "source:AB04643",
+  "source:BH01221",
+  "source:AB10883"
+ ],
+ "introduction": "These short prayers ask God to forgive, guide and awaken the people who were at the time imprisoning, slandering and killing the ones who prayed. Bahá’u’lláh wrote them from prison; ‘Abdu’l-Bahá taught them to communities under attack. They also ask, in the same breath, for protection: “Protect Thy sheep from the wolves.” Jesus’s “love your enemies” and his prayer from the cross, Stephen’s dying words, Paul’s “overcome evil with good” and the Qur’an’s “repel the evil deed with one which is better” are the same teaching. Jonah’s anger at Nineveh’s pardon, and the cursing psalms, tell the truth about how hard it is.",
+ "questions": [
+  "What do these prayers ask for enemies? Do they ask that the harm stop?",
+  "Is it possible to pray for someone’s forgiveness while still protecting oneself from them?",
+  "Jonah was angry that his enemies were spared. Why is that story in the Bible?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-pray-for-persecutors",
+   "after": "source:AB01493",
+   "responds": [
+    "source:AB01493"
+   ],
+   "relation": "adjacent",
+   "why": "By Thy mercy that embraces the righteous and the sinful. He maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."
+  },
+  {
+   "id": "luke-bless-them-that-curse-you",
+   "after": "source:BH08947",
+   "responds": [
+    "source:BH08947"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer by the stream from the Pen. Bless them that curse you, and pray for them which despitefully use you."
+  },
+  {
+   "id": "luke-father-forgive-them",
+   "after": "source:AB00230",
+   "responds": [
+    "source:AB00230"
+   ],
+   "relation": "adjacent",
+   "why": "Forgive them their sins and punish them not. Father, forgive them; for they know not what they do."
+  },
+  {
+   "id": "acts-stephen-stoned",
+   "after": "source:AB00230",
+   "responds": [
+    "source:AB00230"
+   ],
+   "relation": "adjacent",
+   "why": "Stephen under the stones: Lord, lay not this sin to their charge."
+  },
+  {
+   "id": "matthew-wise-as-serpents",
+   "after": "source:BH01016",
+   "responds": [
+    "source:BH01016"
+   ],
+   "relation": "adjacent",
+   "why": "Protect Thy sheep from the wolves. Behold, I send you forth as sheep in the midst of wolves."
+  },
+  {
+   "id": "quran-repel-with-better",
+   "after": "source:BH03131",
+   "responds": [
+    "source:BH03131"
+   ],
+   "relation": "adjacent",
+   "why": "That the oppressors turn to the gate of pardon. Repel the evil deed with one which is better, then lo! he, between whom and thee there was enmity, will become as though he was a bosom friend."
+  },
+  {
+   "id": "romans-if-thine-enemy-hunger",
+   "after": "source:ABU0679",
+   "responds": [
+    "source:ABU0679"
+   ],
+   "relation": "adjacent",
+   "why": "Pray that God may guide and give mercy. If thine enemy hunger, feed him; be not overcome of evil, but overcome evil with good."
+  },
+  {
+   "id": "jonah-angry-at-mercy",
+   "after": "source:BH09688",
+   "responds": [
+    "source:BH09688"
+   ],
+   "relation": "complement",
+   "why": "That the oppressors turn back and repent. Jonah had exactly that prayer answered, and it displeased him exceedingly. What in us does not want an enemy’s repentance?"
+  },
+  {
+   "id": "proverbs-rejoice-not-when-thine-enemy-falleth",
+   "after": "source:BH06356",
+   "responds": [
+    "source:BH06356"
+   ],
+   "relation": "adjacent",
+   "why": "That God aid the calumniators to truthfulness and the deceivers to honesty. Rejoice not when thine enemy falleth."
+  },
+  {
+   "id": "exodus-thine-enemys-ox",
+   "after": "source:AB07349",
+   "responds": [
+    "source:AB07349"
+   ],
+   "relation": "adjacent",
+   "why": "The heedless count the friend as foe. If thou meet thine enemy’s ox or his ass going astray, thou shalt surely bring it back to him again."
+  },
+  {
+   "id": "psalm-break-their-teeth",
+   "after": "source:BH00679",
+   "responds": [
+    "source:BH00679"
+   ],
+   "relation": "contrast",
+   "why": "Those veiled from the light. The Psalmist against his enemies: break their teeth, O God, in their mouth. Is there anything honest in that prayer that these gentler ones leave unsaid?"
+  }
+ ],
+ "shortfall": "Readings 10 and 12 to 16 repeat the prayer for the guidance of opponents.",
+ "library": {}
+}

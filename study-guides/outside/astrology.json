@@ -1,0 +1,153 @@
+{
+ "format": 2,
+ "slug": "astrology",
+ "subject": "80A27A174ADBEBDDDCB2D427A7812EEC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 14,
+ "kept": [
+  "source:AB00475",
+  "source:AB09885",
+  "source:BH01733",
+  "source:AB01000",
+  "source:ABU0629",
+  "source:ABU3146",
+  "source:AB00767",
+  "source:AB02512",
+  "source:ABU0379",
+  "source:AB01473",
+  "source:AB03340",
+  "source:ABU0259",
+  "source:BH00878",
+  "source:ABU0177"
+ ],
+ "introduction": "Asked about astrology, lucky numbers, geomancy and divination, ‘Abdu’l-Bahá gave a consistent answer: predictions of good and evil from the stars “have absolutely no authority”, lucky and unlucky numbers “are purely imaginary”, and yet creation is so interrelated that the heavenly bodies are not without connection to the earth. The prophets said the first part long ago, Isaiah mocking “the monthly prognosticators”, Jeremiah’s “be not dismayed at the signs of heaven”, Deuteronomy on diviners; Shakespeare gave it to both Cassius and Edmund; Bacon explained why prophecies seem to succeed. Marcus Aurelius’s universe as “one living being” is the second part. The Magi who followed a star are the Gospel’s own awkward case.",
+ "questions": [
+  "What is the difference between saying the stars are connected with earthly life and saying they foretell it?",
+  "Bacon says people remember hits and forget misses. Where else does that habit sustain a belief?",
+  "Why do superstitions about numbers and days persist among people who know better? What need do they serve?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-lights-in-the-firmament",
+   "after": "source:AB00475",
+   "responds": [
+    "source:AB00475"
+   ],
+   "relation": "adjacent",
+   "why": "Not that everything the old astrologers deduced from the stars was baseless. Let there be lights in the firmament; and let them be for signs, and for seasons, and for days, and years."
+  },
+  {
+   "id": "shakespeare-fault-not-in-our-stars",
+   "after": "source:AB09885",
+   "responds": [
+    "source:AB09885"
+   ],
+   "relation": "adjacent",
+   "why": "The influence lies not in the number but in what is numbered. The fault, dear Brutus, is not in our stars, but in ourselves."
+  },
+  {
+   "id": "isaiah-astrologers",
+   "after": "source:AB01000",
+   "responds": [
+    "source:AB01000"
+   ],
+   "relation": "adjacent",
+   "why": "Astrologers’ deductions about good and evil have no authority. Let now the astrologers, the stargazers, the monthly prognosticators, stand up, and save thee."
+  },
+  {
+   "id": "bacon-mark-when-they-hit",
+   "after": "source:AB01000",
+   "responds": [
+    "source:AB01000"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon on why predictions seem to work: men mark when they hit, and never mark when they miss."
+  },
+  {
+   "id": "jeremiah-signs-of-heaven",
+   "after": "source:ABU0629",
+   "responds": [
+    "source:ABU0629"
+   ],
+   "relation": "adjacent",
+   "why": "A christening delayed for a fortunate hour. Be not dismayed at the signs of heaven; for the heathen are dismayed at them."
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:ABU3146",
+   "responds": [
+    "source:ABU3146"
+   ],
+   "relation": "adjacent",
+   "why": "Astrologers are unreliable; yet the whole of creation is interrelated. Marcus Aurelius: constantly regard the universe as one living being, having one substance and one soul."
+  },
+  {
+   "id": "matthew-wise-men-from-the-east",
+   "after": "source:ABU3146",
+   "responds": [
+    "source:ABU3146"
+   ],
+   "relation": "contrast",
+   "why": "Matthew has stargazers who were right: we have seen his star in the east, and are come to worship him. How do the readings’ “interrelated creation” and their rejection of prediction bear on that story?"
+  },
+  {
+   "id": "shakespeare-excellent-foppery",
+   "after": "source:AB00767",
+   "responds": [
+    "source:AB00767"
+   ],
+   "relation": "adjacent",
+   "why": "Deriving future events from the planets. Edmund: this is the excellent foppery of the world, that we make guilty of our disasters the sun, the moon, and the stars: as if we were villains by necessity."
+  },
+  {
+   "id": "job-sweet-influences-of-pleiades",
+   "after": "source:AB02512",
+   "responds": [
+    "source:AB02512"
+   ],
+   "relation": "adjacent",
+   "why": "The ancients thought the planets had rational souls. Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?"
+  },
+  {
+   "id": "deuteronomy-useth-divination",
+   "after": "source:AB01473",
+   "responds": [
+    "source:AB01473"
+   ],
+   "relation": "adjacent",
+   "why": "Fortune-telling and geomancy are imaginary. There shall not be found among you any that useth divination, or an observer of times, or an enchanter."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "source:AB03340",
+   "responds": [
+    "source:AB03340"
+   ],
+   "relation": "complement",
+   "why": "The superstitions of the astrological books are not to be trusted. The heavens declare the glory of God. What is the right use of looking at the stars?"
+  },
+  {
+   "id": "ecclesiastes-time-and-chance",
+   "after": "source:ABU0259",
+   "responds": [
+    "source:ABU0259"
+   ],
+   "relation": "adjacent",
+   "why": "Lucky and unlucky numbers are imaginary. Time and chance happeneth to them all."
+  },
+  {
+   "id": "acts-times-or-the-seasons",
+   "after": "source:BH00878",
+   "responds": [
+    "source:BH00878"
+   ],
+   "relation": "adjacent",
+   "why": "On divination: this is not the day for such questions. It is not for you to know the times or the seasons, which the Father hath put in his own power."
+  }
+ ],
+ "shortfall": "Readings 3, 9 and 14 add details on numerology and the zodiac for which no companion was sought.",
+ "library": {}
+}

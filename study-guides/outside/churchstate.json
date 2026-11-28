@@ -1,0 +1,172 @@
+{
+ "format": 2,
+ "slug": "churchstate",
+ "subject": "75A9D94E0E8246BB9A1ABA6AC13D6E04",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 15,
+ "quotations": 15,
+ "kept": [
+  "source:BH01333",
+  "source:AB00004",
+  "source:AB00011",
+  "source:ABU2109",
+  "source:ABU0130",
+  "source:ABU0834",
+  "selection:d12f4f83526b25204f410170",
+  "selection:31553a5151f7e74eb648c705",
+  "selection:4819496e79024e09f72879de",
+  "selection:b244986c0fe55e0981570e1c",
+  "selection:202b9d76fba0c3fc9eed266b",
+  "selection:73424802e4d4caa1c63baf26",
+  "selection:6da9a622824624078c6e4f27",
+  "selection:f1e647736ee1cbff19d0361a",
+  "selection:23c9211727487482e8c68463"
+ ],
+ "introduction": "These readings hold two things apart and then, cautiously, together. For the present, religion and politics are distinct: God “hath ever gazed upon the hearts” and left the rest to rulers, Bahá’ís obey their governments, take no part in party politics, and “religion has no jurisdiction or involvement in political matters”. For a distant future, the writings foresee institutions in which the two are united, and Shoghi Effendi’s letters say Bahá’ís would govern only where they had become the majority. “Render unto Caesar”, “My kingdom is not of this world” and Paul’s “higher powers” are the Christian texts for the first; Jefferson’s wall and Augustine’s two cities are its classic statements. For the second there are Plato’s philosopher-kings and the Apocalypse’s “kingdoms of this world”. The warnings are Samuel’s about kings, the apostles’ “we ought to obey God rather than men”, and Locke’s insistence that no one lose civil rights for his religion.",
+ "questions": [
+  "What exactly do the readings say religion should stay out of at present, and why?",
+  "“Render unto Caesar” and “we ought to obey God rather than men” are both in the New Testament. How do the readings relate obedience to government and obedience to conscience?",
+  "Reading 5 calls the union of religious and political functions “consummate”; history gives many unhappy examples of such unions. What would have to be different?",
+  "Readings 12 and 13 make a Bahá’í role in government depend on becoming a majority. What would be owed to minorities then? Consider Locke."
+ ],
+ "outside": [
+  {
+   "id": "john-kingdom-not-of-this-world",
+   "after": "source:BH01333",
+   "responds": [
+    "source:BH01333"
+   ],
+   "relation": "adjacent",
+   "why": "God looks to the hearts; the rest He has left to kings and rulers. My kingdom is not of this world: if my kingdom were of this world, then would my servants fight."
+  },
+  {
+   "id": "matthew-render-unto-caesar",
+   "after": "source:BH01333",
+   "responds": [
+    "source:BH01333"
+   ],
+   "relation": "adjacent",
+   "why": "Render therefore unto Caesar the things which are Caesar’s; and unto God the things that are God’s."
+  },
+  {
+   "id": "jefferson-wall-of-separation",
+   "after": "source:AB00004",
+   "responds": [
+    "source:AB00004"
+   ],
+   "relation": "adjacent",
+   "why": "Temporal matters distinguished from religion’s sphere. Jefferson: religion is a matter which lies solely between man and his God; the legislative powers of government reach actions only, and not opinions."
+  },
+  {
+   "id": "augustine-two-cities",
+   "after": "source:AB00011",
+   "responds": [
+    "source:AB00011"
+   ],
+   "relation": "complement",
+   "why": "Religion as the spirit of life and government as the power of salvation. Augustine drew the line more sharply: two cities have been formed by two loves, the earthly by the love of self, the heavenly by the love of God. Are religion and government partners in the readings, or rivals as in Augustine?"
+  },
+  {
+   "id": "matthew-all-ye-are-brethren",
+   "after": "source:ABU2109",
+   "responds": [
+    "source:ABU2109"
+   ],
+   "relation": "adjacent",
+   "why": "“There are no offices in this Cause.” Be not ye called Rabbi: for one is your Master, even Christ; and all ye are brethren."
+  },
+  {
+   "id": "plato-until-philosophers-are-kings",
+   "after": "source:ABU0130",
+   "responds": [
+    "source:ABU0130"
+   ],
+   "relation": "complement",
+   "why": "A House of Justice with a political as well as a religious function, “the consummate union”. Plato’s hope: until philosophers are kings, and political greatness and wisdom meet in one, cities will never have rest from their evils. What are the attractions and the dangers of uniting the two?"
+  },
+  {
+   "id": "romans-higher-powers",
+   "after": "selection:d12f4f83526b25204f410170",
+   "responds": [
+    "selection:d12f4f83526b25204f410170"
+   ],
+   "relation": "adjacent",
+   "why": "Whatever country they live in, obedience to its government. Let every soul be subject unto the higher powers."
+  },
+  {
+   "id": "acts-obey-god-rather-than-men",
+   "after": "selection:d12f4f83526b25204f410170",
+   "responds": [
+    "selection:d12f4f83526b25204f410170"
+   ],
+   "relation": "contrast",
+   "why": "The apostles before the council said the opposite when ordered to be silent: we ought to obey God rather than men. Where do the readings place the limit of obedience to government?"
+  },
+  {
+   "id": "timothy-good-soldier",
+   "after": "selection:4819496e79024e09f72879de",
+   "responds": [
+    "selection:4819496e79024e09f72879de"
+   ],
+   "relation": "adjacent",
+   "why": "Let no impression be given that Bahá’ís are political. No man that warreth entangleth himself with the affairs of this life."
+  },
+  {
+   "id": "luke-who-made-me-a-divider",
+   "after": "selection:b244986c0fe55e0981570e1c",
+   "responds": [
+    "selection:b244986c0fe55e0981570e1c"
+   ],
+   "relation": "adjacent",
+   "why": "Religion has no jurisdiction in political matters. Man, who made me a judge or a divider over you?"
+  },
+  {
+   "id": "samuel-we-will-have-a-king-over-us",
+   "after": "selection:73424802e4d4caa1c63baf26",
+   "responds": [
+    "selection:73424802e4d4caa1c63baf26"
+   ],
+   "relation": "complement",
+   "why": "Bahá’ís will govern only when they are the majority in a country. Israel’s first experiment in joining religion and kingship began with a warning: ye shall cry out in that day because of your king. What safeguards do readings 12 to 15 suggest?"
+  },
+  {
+   "id": "locke-neither-pagan-nor-mahometan",
+   "after": "selection:73424802e4d4caa1c63baf26",
+   "responds": [
+    "selection:73424802e4d4caa1c63baf26"
+   ],
+   "relation": "contrast",
+   "why": "Locke’s condition for any state with an established faith: neither Pagan nor Mahometan, nor Jew, ought to be excluded from the civil rights of the commonwealth because of his religion. What would a Bahá’í majority owe to those who are not Bahá’ís?"
+  },
+  {
+   "id": "jeremiah-seek-the-peace-of-the-city",
+   "after": "selection:6da9a622824624078c6e4f27",
+   "responds": [
+    "selection:6da9a622824624078c6e4f27"
+   ],
+   "relation": "adjacent",
+   "why": "Non-partisan now. Seek the peace of the city whither I have caused you to be carried away captives, and pray unto the Lord for it."
+  },
+  {
+   "id": "revelation-seventh-angel-sounded",
+   "after": "selection:23c9211727487482e8c68463",
+   "responds": [
+    "selection:23c9211727487482e8c68463"
+   ],
+   "relation": "adjacent",
+   "why": "A distant maturity of human government. The kingdoms of this world are become the kingdoms of our Lord."
+  },
+  {
+   "id": "isaiah-wonderful-counsellor",
+   "after": "selection:23c9211727487482e8c68463",
+   "responds": [
+    "selection:23c9211727487482e8c68463"
+   ],
+   "relation": "adjacent",
+   "why": "The government shall be upon his shoulder; of the increase of his government and peace there shall be no end."
+  }
+ ],
+ "library": {}
+}
