@@ -1,0 +1,324 @@
+{
+ "format": 2,
+ "slug": "christbirth",
+ "subject": "B34A98AB07FA4A878A55CB4FA12363CC",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 42,
+ "quotations": 47,
+ "kept": [
+  "source:ABU3491",
+  "source:AB01218",
+  "source:BH00002",
+  "source:BB00002",
+  "source:ABU0028",
+  "source:AB04965",
+  "source:AB04064",
+  "source:AB01520",
+  "source:AB05527",
+  "source:ABU0735",
+  "source:ABU2982",
+  "source:ABU0760",
+  "source:AB00920",
+  "source:AB00353",
+  "source:AB00152",
+  "source:AB10306",
+  "source:ABU0493",
+  "source:ABU1419",
+  "source:ABU3186",
+  "source:ABU1697",
+  "source:AB11309",
+  "source:ABU3627",
+  "source:ABU1627",
+  "source:ABU2503",
+  "source:AB03340",
+  "source:ABU1784",
+  "source:ABU2142",
+  "source:BH01716",
+  "source:AB08259",
+  "selection:2b858633b5eb342ad82c1b43",
+  "selection:f4a664e8feafb50b88c49917",
+  "selection:10df8cb1f43d46e290b23fcd",
+  "selection:ea6d6a55e6adaa3b009c20cd",
+  "selection:37da4ec2623888415e1cbcf5",
+  "selection:4b09e9a3407f43d06b2c7747",
+  "selection:f79c87dadf029bb4f8f430bc",
+  "selection:e270b57d6877e85ae9111c78",
+  "selection:6a9b725040ec509d9ccd9f46",
+  "selection:39d9a50c2b47c1333b452d64",
+  "selection:2ddfe557d3a33ddb5d154aba",
+  "selection:b036677b17df0f27aba177e2",
+  "selection:a7c6e3cf45914d013243677a"
+ ],
+ "introduction": "Was Jesus born of a virgin? The readings give a layered answer. ‘Abdu’l-Bahá tells Western inquirers that it is “not impossible”, that Christ’s greatness lies in His perfections and not in fatherlessness, since Adam had neither father nor mother, and that the point should not be pressed; Shoghi Effendi’s letters state plainly that Bahá’ís accept the virgin birth as a miracle, and that miracles are possible though they are not the proof of a Prophet. Luke’s annunciation and John’s “came down from heaven” are the Gospel sources, with the neighbours’ “is not this the carpenter’s son?”. The Qur’an tells Mary’s ordeal and makes the comparison with Adam that ‘Abdu’l-Bahá uses. Paine and Hume are the two classic objections: that such a revelation is hearsay to everyone but Mary, and that no testimony can establish a miracle.",
+ "questions": [
+  "“The honour and greatness of Christ reside not in His being without a father.” Why does ‘Abdu’l-Bahá move attention away from the manner of the birth?",
+  "Reading 3 asks what Mary could have said to her neighbours. What does the story look like from her side, in Luke and in the Qur’an?",
+  "Reading 17 says faith must agree with reason; later readings affirm a miracle. Is a miracle against reason, or only against custom? Compare Hume.",
+  "Reading 41 says of the virgin birth, “It is true but do not stress it.” Why might a true thing be better left unstressed?"
+ ],
+ "outside": [
+  {
+   "id": "luke-power-of-the-highest",
+   "after": "source:ABU3491",
+   "responds": [
+    "source:ABU3491"
+   ],
+   "relation": "adjacent",
+   "why": "“It is not impossible that He should have been.” How shall this be, seeing I know not a man? The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee."
+  },
+  {
+   "id": "luke-nothing-impossible",
+   "after": "source:ABU3491",
+   "responds": [
+    "source:ABU3491"
+   ],
+   "relation": "adjacent",
+   "why": "For with God nothing shall be impossible. And Mary said, Behold the handmaid of the Lord."
+  },
+  {
+   "id": "john-word-made-flesh",
+   "after": "source:AB01218",
+   "responds": [
+    "source:AB01218"
+   ],
+   "relation": "adjacent",
+   "why": "Christ’s greatness is in His perfections, not in being without a father. The Word was made flesh, and dwelt among us, full of grace and truth."
+  },
+  {
+   "id": "quran-likeness-of-jesus-as-adam",
+   "after": "source:AB01218",
+   "responds": [
+    "source:AB01218"
+   ],
+   "relation": "adjacent",
+   "why": "Were fatherlessness greatness, Adam would be greater. The Qur’an draws the comparison: the likeness of Jesus with Allah is as the likeness of Adam. He created him of dust, then He said unto him: Be! and he is."
+  },
+  {
+   "id": "quran-would-that-i-had-died",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "What answer could Mary give the people around her? In the Qur’an the pangs drove her to the trunk of a palm-tree: oh, would that I had died ere this and had become a thing of naught, forgotten!"
+  },
+  {
+   "id": "quran-vowed-a-fast-unto-the-beneficent",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "And she was told to say nothing: I have vowed a fast unto the Beneficent, and may not speak this day to any mortal."
+  },
+  {
+   "id": "quran-vowed-that-which-is-in-my-belly",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The vow of the wife of ‘Imrán accepted. My Lord! I have vowed unto Thee that which is in my belly as a consecrated offering."
+  },
+  {
+   "id": "quran-word-from-him",
+   "after": "source:ABU0028",
+   "responds": [
+    "source:ABU0028"
+   ],
+   "relation": "adjacent",
+   "why": "In the Qur’an Christ is mentioned with the utmost sanctification. O Mary! Allah giveth thee glad tidings of a word from Him, whose name is the Messiah, Jesus, son of Mary."
+  },
+  {
+   "id": "luke-call-me-blessed",
+   "after": "source:AB04965",
+   "responds": [
+    "source:AB04965"
+   ],
+   "relation": "adjacent",
+   "why": "The gift shining on the face of the Virgin. From henceforth all generations shall call me blessed."
+  },
+  {
+   "id": "paine-hearsay",
+   "after": "source:AB01520",
+   "responds": [
+    "source:AB01520"
+   ],
+   "relation": "contrast",
+   "why": "“I am born of the Holy Spirit” was hard to accept at the time. Paine thought it should remain so: it is revelation to the first person only, and hearsay to every other. On what grounds do the later readings (31 to 41) ask belief in the virgin birth?"
+  },
+  {
+   "id": "john-came-down-from-heaven",
+   "after": "source:AB05527",
+   "responds": [
+    "source:AB05527"
+   ],
+   "relation": "adjacent",
+   "why": "He came from heaven though outwardly from Mary’s womb. No man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven."
+  },
+  {
+   "id": "john-i-came-down-from-heaven",
+   "after": "source:ABU0735",
+   "responds": [
+    "source:ABU0735"
+   ],
+   "relation": "adjacent",
+   "why": "The people’s reply: is not this Jesus, the son of Joseph, whose father and mother we know? how is it then that he saith, I came down from heaven?"
+  },
+  {
+   "id": "john-no-man-knoweth-whence",
+   "after": "source:ABU0760",
+   "responds": [
+    "source:ABU0760"
+   ],
+   "relation": "adjacent",
+   "why": "“This man we know.” We know this man whence he is: but when Christ cometh, no man knoweth whence he is."
+  },
+  {
+   "id": "matthew-carpenters-son",
+   "after": "source:ABU0760",
+   "responds": [
+    "source:ABU0760"
+   ],
+   "relation": "adjacent",
+   "why": "Is not this the carpenter’s son? is not his mother called Mary?"
+  },
+  {
+   "id": "hume-testimony-miracle",
+   "after": "source:AB00920",
+   "responds": [
+    "source:AB00920"
+   ],
+   "relation": "contrast",
+   "why": "The divine philosophers say such a thing is unobserved but not impossible. Hume set the bar for believing any report of it: no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous than the fact. Reading 34 argues from God’s power, not from testimony. Does that meet Hume?"
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:AB00152",
+   "responds": [
+    "source:AB00152"
+   ],
+   "relation": "adjacent",
+   "why": "Did the first human being have a father or mother? God created man in his own image; male and female created he them."
+  },
+  {
+   "id": "hume-proportions-his-belief",
+   "after": "source:ABU0493",
+   "responds": [
+    "source:ABU0493"
+   ],
+   "relation": "complement",
+   "why": "How can one believe what science has shown impossible? Hume: a wise man proportions his belief to the evidence. Reading 17 says belief against reason is superstition; readings 33 to 37 say the birth was a miracle. How do the two fit?"
+  },
+  {
+   "id": "isaiah-a-virgin-shall-conceive",
+   "after": "source:ABU1697",
+   "responds": [
+    "source:ABU1697"
+   ],
+   "relation": "adjacent",
+   "why": "The reading discusses this prophecy: behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel."
+  },
+  {
+   "id": "galatians-fulness-of-the-time",
+   "after": "source:AB11309",
+   "responds": [
+    "source:AB11309"
+   ],
+   "relation": "adjacent",
+   "why": "If asked, say simply that Christ was born of the Holy Spirit. God sent forth his Son, made of a woman, made under the law."
+  },
+  {
+   "id": "matthew-my-brother-and-sister",
+   "after": "source:ABU1627",
+   "responds": [
+    "source:ABU1627"
+   ],
+   "relation": "adjacent",
+   "why": "He said His mother and brothers were those in the Kingdom. Whosoever shall do the will of my Father, the same is my brother, and sister, and mother."
+  },
+  {
+   "id": "luke-good-tidings-of-great-joy",
+   "after": "source:BH01716",
+   "responds": [
+    "source:BH01716"
+   ],
+   "relation": "adjacent",
+   "why": "A night of birth proclaimed from on high. Behold, I bring you good tidings of great joy: for unto you is born this day a Saviour."
+  },
+  {
+   "id": "luke-soul-doth-magnify",
+   "after": "selection:2b858633b5eb342ad82c1b43",
+   "responds": [
+    "selection:2b858633b5eb342ad82c1b43"
+   ],
+   "relation": "adjacent",
+   "why": "Mary sanctified from worldly things. My soul doth magnify the Lord, and my spirit hath rejoiced in God my Saviour."
+  },
+  {
+   "id": "job-words-without-knowledge",
+   "after": "selection:37da4ec2623888415e1cbcf5",
+   "responds": [
+    "selection:37da4ec2623888415e1cbcf5"
+   ],
+   "relation": "adjacent",
+   "why": "God’s power is beyond any limitation. Who is this that darkeneth counsel by words without knowledge?"
+  },
+  {
+   "id": "matthew-seeketh-after-a-sign",
+   "after": "selection:4b09e9a3407f43d06b2c7747",
+   "responds": [
+    "selection:4b09e9a3407f43d06b2c7747"
+   ],
+   "relation": "adjacent",
+   "why": "Miracles are possible but are not the regular channel of proof. An evil and adulterous generation seeketh after a sign."
+  },
+  {
+   "id": "mark-is-not-this-the-carpenter",
+   "after": "selection:6a9b725040ec509d9ccd9f46",
+   "responds": [
+    "selection:6a9b725040ec509d9ccd9f46"
+   ],
+   "relation": "adjacent",
+   "why": "His brothers and sisters were born in the natural way. Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us?"
+  },
+  {
+   "id": "john-god-so-loved-the-world",
+   "after": "selection:a7c6e3cf45914d013243677a",
+   "responds": [
+    "selection:a7c6e3cf45914d013243677a"
+   ],
+   "relation": "adjacent",
+   "why": "The divine origin of Christianity and the Sonship of Jesus are acknowledged. God so loved the world, that he gave his only begotten Son."
+  }
+ ],
+ "shortfall": "Readings 7, 11, 14, 16, 18, 19, 22, 24 to 27, 29, 31 to 33, 36, 37 and 39 to 41 repeat the two main positions (Christ’s greatness is not in His birth; the birth was nonetheless miraculous) or concern other matters.",
+ "library": {
+  "isaiah-a-virgin-shall-conceive": {
+   "text": "Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel",
+   "work": "Isaiah 7:14",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Isaiah%207%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
