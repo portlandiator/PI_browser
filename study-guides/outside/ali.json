@@ -1,0 +1,144 @@
+{
+ "format": 2,
+ "slug": "ali",
+ "subject": "129EDBCF7ED2E0B8513EF2AAE612D9C6",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 14,
+ "kept": [
+  "source:ABU2362",
+  "source:AB00766",
+  "source:AB02462",
+  "source:AB03291",
+  "source:BHU0036",
+  "source:BB00001",
+  "source:ABU1910",
+  "source:BBU0012",
+  "source:AB00005",
+  "source:BB00176",
+  "source:BB00017",
+  "source:AB02587",
+  "source:AB02425",
+  "source:AB04197"
+ ],
+ "introduction": "‘Alí, the Prophet’s cousin and son-in-law, first Imam of the Shí‘ih and fourth caliph, appears in these readings mainly through sayings ‘Abdu’l-Bahá liked to quote: asked how to please God, “be truthful”; challenged to prove his trust by jumping from a height, that the servant may not test his Lord. Other readings touch his station and the dispute over succession, which reading 9 traces to the claim that the Book alone suffices. Paul and Proverbs on truthfulness, Jesus’s answer on the pinnacle of the temple and the Ethiopian’s “How can I, except some man should guide me?” are close parallels. Gibbon, no partisan, called him “a poet, a soldier, and a saint”.",
+ "questions": [
+  "“One thing only: be truthful.” Why might truthfulness be named as the one thing?",
+  "Reading 9 holds that a scripture needs an appointed interpreter. What does history, Muslim and Christian, suggest about communities with and without one?",
+  "What is the difference between trusting God and testing Him, in the story of the roof?"
+ ],
+ "outside": [
+  {
+   "id": "ephesians-speak-every-man-truth",
+   "after": "source:ABU2362",
+   "responds": [
+    "source:ABU2362"
+   ],
+   "relation": "adjacent",
+   "why": "“One thing only: be truthful.” Wherefore putting away lying, speak every man truth with his neighbour."
+  },
+  {
+   "id": "proverbs-lying-lips-abomination",
+   "after": "source:ABU2362",
+   "responds": [
+    "source:ABU2362"
+   ],
+   "relation": "adjacent",
+   "why": "Lying lips are abomination to the Lord: but they that deal truly are his delight."
+  },
+  {
+   "id": "gibbon-ali-poet-soldier-saint",
+   "after": "source:AB00766",
+   "responds": [
+    "source:AB00766"
+   ],
+   "relation": "adjacent",
+   "why": "A story of ‘Alí, “the brilliant star”. Gibbon’s summary of him: he united the qualifications of a poet, a soldier, and a saint."
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:AB02462",
+   "responds": [
+    "source:AB02462"
+   ],
+   "relation": "adjacent",
+   "why": "Someone asked ‘Alí whether God is seen. No man hath seen God at any time."
+  },
+  {
+   "id": "matthew-pure-in-heart",
+   "after": "source:AB02462",
+   "responds": [
+    "source:AB02462"
+   ],
+   "relation": "adjacent",
+   "why": "And the beatitude that seems to say the opposite: blessed are the pure in heart: for they shall see God."
+  },
+  {
+   "id": "matthew-devil-quotes-scripture",
+   "after": "source:AB03291",
+   "responds": [
+    "source:AB03291"
+   ],
+   "relation": "adjacent",
+   "why": "Challenged on a rooftop to throw himself down if he trusted God. Jesus on the pinnacle of the temple: it is written again, Thou shalt not tempt the Lord thy God."
+  },
+  {
+   "id": "john-what-is-truth",
+   "after": "source:ABU1910",
+   "responds": [
+    "source:ABU1910"
+   ],
+   "relation": "adjacent",
+   "why": "Asked “What is truth?” Pilate asked it too, of one who had just said: every one that is of the truth heareth my voice."
+  },
+  {
+   "id": "acts-understandest-thou",
+   "after": "source:AB00005",
+   "responds": [
+    "source:AB00005"
+   ],
+   "relation": "adjacent",
+   "why": "“Sufficient unto us is the Book of God” was the beginning of the trouble. Understandest thou what thou readest? How can I, except some man should guide me?"
+  },
+  {
+   "id": "john-search-the-scriptures",
+   "after": "source:AB00005",
+   "responds": [
+    "source:AB00005"
+   ],
+   "relation": "contrast",
+   "why": "The Protestant reformers took the position the reading attributes to ‘Umar: scripture alone, without an authorized interpreter. Their texts were such as this: search the scriptures. What are the dangers on each side of that old dispute?"
+  },
+  {
+   "id": "psalm-whither-shall-i-go",
+   "after": "source:AB02587",
+   "responds": [
+    "source:AB02587"
+   ],
+   "relation": "adjacent",
+   "why": "‘Alí travelled in spirit through all horizons. If I take the wings of the morning, and dwell in the uttermost parts of the sea; even there shall thy hand lead me."
+  },
+  {
+   "id": "matthew-put-up-thy-sword",
+   "after": "source:AB02425",
+   "responds": [
+    "source:AB02425"
+   ],
+   "relation": "adjacent",
+   "why": "The Khárijites, lacking arguments, took up weapons. All they that take the sword shall perish with the sword."
+  },
+  {
+   "id": "luke-though-one-rose-from-the-dead",
+   "after": "source:AB04197",
+   "responds": [
+    "source:AB04197"
+   ],
+   "relation": "adjacent",
+   "why": "The waverers asked for a leap as proof. Neither will they be persuaded, though one rose from the dead."
+  }
+ ],
+ "shortfall": "Readings 5, 6, 8, 10 and 11 concern doctrines of the Imamate treated in other guides.",
+ "library": {}
+}
