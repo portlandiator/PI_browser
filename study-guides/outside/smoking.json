@@ -1,0 +1,104 @@
+{
+ "format": 2,
+ "slug": "smoking",
+ "subject": "3D34A773F3074B92A5DBA1CCBC9DAE75",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 11,
+ "kept": [
+  "source:AB00109",
+  "source:AB11645",
+  "source:BB00412",
+  "source:AB03683",
+  "source:AB00695",
+  "source:AB01305",
+  "source:AB06945",
+  "selection:c7bc1e7554887721d1a6161b",
+  "selection:e2d1589709f3064f18ab74e3",
+  "selection:8d3e0448b1cf5ca4744a9197"
+ ],
+ "introduction": "‘Abdu’l-Bahá wrote a well-known Tablet urging the Bahá’ís to give up tobacco: it is unclean, harms health by degrees, wastes money and enslaves. But he was careful to say that it is not forbidden, as opium is, and Shoghi Effendi’s letters insist that no one may enforce abstinence or make it a test. The guide is a small case study in how the writings treat a thing discouraged and not prohibited. Paul’s rules for the churches fit it closely: “all things are lawful, … but all things are not expedient”; “I will not be brought under the power of any”; “let not him which eateth not judge him that eateth”.",
+ "questions": [
+  "What is the difference between a law and a strong encouragement? Why keep the difference?",
+  "Paul says he will not be “brought under the power of any”. Is habit a spiritual matter?",
+  "Why would Shoghi Effendi warn against pressing new believers on this point?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-not-all-expedient",
+   "after": "source:AB00109",
+   "responds": [
+    "source:AB00109"
+   ],
+   "relation": "adjacent",
+   "why": "Not specifically forbidden in the Aqdas, yet discouraged. All things are lawful for me, but all things are not expedient."
+  },
+  {
+   "id": "corinthians-body-temple",
+   "after": "source:AB11645",
+   "responds": [
+    "source:AB11645"
+   ],
+   "relation": "adjacent",
+   "why": "Encouraging abstinence is very appropriate. Know ye not that your body is the temple of the Holy Ghost which is in you?"
+  },
+  {
+   "id": "romans-fully-persuaded-in-his-own-mind",
+   "after": "source:BB00412",
+   "responds": [
+    "source:BB00412"
+   ],
+   "relation": "contrast",
+   "why": "“Forbidden to all the peoples of the world”: the Báb’s law, which the Aqdas did not renew. Paul on such differences among believers: let every man be fully persuaded in his own mind. How do the readings treat a practice one revelation forbade and the next only discourages?"
+  },
+  {
+   "id": "corinthians-not-be-brought-under-the-power",
+   "after": "source:AB03683",
+   "responds": [
+    "source:AB03683"
+   ],
+   "relation": "adjacent",
+   "why": "A habit given up brings joy. All things are lawful for me, but I will not be brought under the power of any."
+  },
+  {
+   "id": "matthew-daily-bread",
+   "after": "source:AB06945",
+   "responds": [
+    "source:AB06945"
+   ],
+   "relation": "adjacent",
+   "why": "“O God! Protect Thy servants.” Lead us not into temptation, but deliver us from evil."
+  },
+  {
+   "id": "romans-eateth-herbs",
+   "after": "selection:c7bc1e7554887721d1a6161b",
+   "responds": [
+    "selection:c7bc1e7554887721d1a6161b"
+   ],
+   "relation": "adjacent",
+   "why": "Not forbidden, and no one can enforce its giving up. Let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth."
+  },
+  {
+   "id": "matthew-not-that-which-goeth-into-the-mouth",
+   "after": "selection:e2d1589709f3064f18ab74e3",
+   "responds": [
+    "selection:e2d1589709f3064f18ab74e3"
+   ],
+   "relation": "adjacent",
+   "why": "Smoking has nothing to do with firmness in the Covenant. Not that which goeth into the mouth defileth a man."
+  },
+  {
+   "id": "corinthians-make-my-brother-to-offend",
+   "after": "selection:8d3e0448b1cf5ca4744a9197",
+   "responds": [
+    "selection:8d3e0448b1cf5ca4744a9197"
+   ],
+   "relation": "complement",
+   "why": "Do not stress giving up smoking to new Bahá’ís. Paul’s rule looked the other way, to the weaker brother: if meat make my brother to offend, I will eat no flesh while the world standeth. When should one person’s freedom yield to another’s difficulty, and whose is which here?"
+  }
+ ],
+ "shortfall": "Readings 5 and 6 concern opium and the harm of smoke, for which no companion was placed.",
+ "library": {}
+}
