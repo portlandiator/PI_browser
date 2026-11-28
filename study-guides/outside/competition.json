@@ -1,0 +1,211 @@
+{
+ "format": 2,
+ "slug": "competition",
+ "subject": "4608855BEE32ECCA93D8AEDDC59A08B9",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 18,
+ "quotations": 19,
+ "kept": [
+  "source:AB00158",
+  "source:AB00269",
+  "source:ABU1120",
+  "source:ABU0701",
+  "source:AB01624",
+  "source:AB01283",
+  "source:AB12810",
+  "source:ABU0135",
+  "source:AB00016",
+  "source:ABU0657",
+  "source:ABU1821",
+  "source:ABU1157",
+  "source:ABU0303",
+  "source:AB00446",
+  "source:AB03000",
+  "source:ABU1154",
+  "source:ABU1692",
+  "source:AB11381"
+ ],
+ "introduction": "In ‘Abdu’l-Bahá’s lifetime “the struggle for existence” passed from biology into politics, and was offered as the law of human society. These readings reject that offer. Nature, they grant, is a realm of eaters and eaten; but the human being is meant to be free of nature’s rule, and what marks the human world is the coordination of wills. The scientific argument was already going on. Tennyson had set love against nature “red in tooth and claw”; Huxley, Darwin’s defender, said ethics consists in combating the cosmic process; Kropotkin found mutual aid throughout the animal world; Darwin himself expected human sympathy to widen to all nations. On the other side Heraclitus called war the father of all, Kant held that nature wills discord for our good, and Adam Smith described the competition of merchants as a system from which all gain. Blake’s question to the tiger is the one the readings leave unanswered.",
+ "questions": [
+  "Huxley says ethical progress means combating the cosmic process; Kropotkin says nature itself teaches mutual aid. Which do the readings side with: is cooperation natural, or a victory over nature?",
+  "Readings 5 and 6 call the law of eaters and eaten a means of renewal, and reading 1 calls the struggle for survival a grave error as a social principle. How are these consistent?",
+  "Reading 11 calls commerce warfare; Adam Smith calls it mutual service. What kind of economic competition, if any, would the readings accept?",
+  "Kant thought human talents would sleep without rivalry. What do readings 13 to 18 offer as the motive power of achievement?"
+ ],
+ "outside": [
+  {
+   "id": "tennyson-red-in-tooth-and-claw",
+   "after": "source:AB00158",
+   "responds": [
+    "source:AB00158"
+   ],
+   "relation": "adjacent",
+   "why": "Some call the struggle for survival “the natural foundation of human society”; the reading calls this a grave error. Tennyson, ten years before Darwin, set the same two things against each other: love as creation’s final law, and Nature, red in tooth and claw, shrieking against it."
+  },
+  {
+   "id": "huxley-combating-the-cosmic-process",
+   "after": "source:AB00158",
+   "responds": [
+    "source:AB00158"
+   ],
+   "relation": "adjacent",
+   "why": "Darwin’s own champion said it in 1893: the ethical progress of society depends, not on imitating the cosmic process, still less in running away from it, but in combating it."
+  },
+  {
+   "id": "hobbes-nasty-brutish-and-short",
+   "after": "source:AB00269",
+   "responds": [
+    "source:AB00269"
+   ],
+   "relation": "adjacent",
+   "why": "The struggle for existence is the source of war and hatred. Hobbes described life under it: solitary, poor, nasty, brutish, and short."
+  },
+  {
+   "id": "darwin-sympathies",
+   "after": "source:ABU1120",
+   "responds": [
+    "source:ABU1120"
+   ],
+   "relation": "adjacent",
+   "why": "Cooperation is now seen to produce the greatest welfare. Darwin himself expected it: as man advances in civilisation, the simplest reason would tell each individual that he ought to extend his social instincts and sympathies to all the members of the same nation, and then to the men of all nations and races."
+  },
+  {
+   "id": "kropotkin-mutual-aid",
+   "after": "source:ABU0701",
+   "responds": [
+    "source:ABU0701"
+   ],
+   "relation": "adjacent",
+   "why": "Ferocious animals are solitary; the gentle live together. Kropotkin, a naturalist, read nature’s lesson the same way: don’t compete! Competition is always injurious to the species. Therefore combine; practise mutual aid."
+  },
+  {
+   "id": "isaiah-wolf-and-lamb",
+   "after": "source:ABU0701",
+   "responds": [
+    "source:ABU0701"
+   ],
+   "relation": "adjacent",
+   "why": "The prophet’s picture goes beyond anything in nature: the wolf also shall dwell with the lamb."
+  },
+  {
+   "id": "genesis-every-moving-thing-shall-be-meat",
+   "after": "source:AB01624",
+   "responds": [
+    "source:AB01624"
+   ],
+   "relation": "adjacent",
+   "why": "“All things are eaters and eaten.” After the flood: every moving thing that liveth shall be meat for you; even as the green herb have I given you all things."
+  },
+  {
+   "id": "darwin-entangled-bank",
+   "after": "source:AB01283",
+   "responds": [
+    "source:AB01283"
+   ],
+   "relation": "complement",
+   "why": "The reading calls eating and being eaten the greatest means of the renewal of existence. Darwin ends his book on an entangled bank of plants, birds, insects and worms, produced by laws that include a struggle for life, and finds grandeur in it. Is the struggle condemned in reading 1 the same as the one praised here?"
+  },
+  {
+   "id": "romans-whole-creation-groaneth",
+   "after": "source:AB12810",
+   "responds": [
+    "source:AB12810"
+   ],
+   "relation": "adjacent",
+   "why": "All the atoms of creation are in conflict. Paul: the whole creation groaneth and travaileth in pain together until now."
+  },
+  {
+   "id": "blake-did-he-who-made-the-lamb",
+   "after": "source:AB12810",
+   "responds": [
+    "source:AB12810"
+   ],
+   "relation": "complement",
+   "why": "Animals tear each other apart. Blake asks the tiger’s maker the question the readings leave open: did he who made the Lamb make thee?"
+  },
+  {
+   "id": "romans-carnally-minded",
+   "after": "source:AB00016",
+   "responds": [
+    "source:AB00016"
+   ],
+   "relation": "adjacent",
+   "why": "As long as man is captive to nature he is a ferocious animal. To be carnally minded is death; but to be spiritually minded is life and peace."
+  },
+  {
+   "id": "kant-discord",
+   "after": "source:ABU0657",
+   "responds": [
+    "source:ABU0657"
+   ],
+   "relation": "contrast",
+   "why": "“Strife is an animal tendency.” Kant held that it is also the engine of everything human: man wishes concord; but Nature knows better what is good for his species, and she will have discord. Without rivalry, he thought, all talents would lie hidden. What do the readings put in the place of rivalry as a spur?"
+  },
+  {
+   "id": "smith-butcher",
+   "after": "source:ABU1821",
+   "responds": [
+    "source:ABU1821"
+   ],
+   "relation": "contrast",
+   "why": "“What is commerce but warfare?” Adam Smith saw it as exchange in which both gain: it is from the butcher’s and baker’s regard to their own interest that we get our dinner. Is competition among merchants a war, as the reading says, or a form of cooperation, as Smith says?"
+  },
+  {
+   "id": "heraclitus-war-is-father",
+   "after": "source:ABU1821",
+   "responds": [
+    "source:ABU1821"
+   ],
+   "relation": "adjacent",
+   "why": "The human world is a world of conflict. Heraclitus made a principle of it: war is the father of all and the king of all."
+  },
+  {
+   "id": "hobbes-god-and-wolf",
+   "after": "source:ABU1157",
+   "responds": [
+    "source:ABU1157"
+   ],
+   "relation": "adjacent",
+   "why": "Individuals take their quarrels to court, but nations have none. Hobbes: man to man is an arrant wolf, and man to man is a kind of god; the first is true of cities toward one another."
+  },
+  {
+   "id": "ecclesiastes-two-are-better-than-one",
+   "after": "source:ABU0303",
+   "responds": [
+    "source:ABU0303"
+   ],
+   "relation": "adjacent",
+   "why": "Nothing produces more than the coordination of wills. Two are better than one; and a threefold cord is not quickly broken."
+  },
+  {
+   "id": "corinthians-if-one-member-suffer",
+   "after": "source:AB00446",
+   "responds": [
+    "source:AB00446"
+   ],
+   "relation": "adjacent",
+   "why": "In the human world cooperation and reciprocity appear in their perfection. Whether one member suffer, all the members suffer with it; or one member be honoured, all the members rejoice with it."
+  },
+  {
+   "id": "james-ye-have-not",
+   "after": "source:ABU1692",
+   "responds": [
+    "source:ABU1692"
+   ],
+   "relation": "adjacent",
+   "why": "Aggression is natural: “everyone desires benefit for themselves”. James: from whence come wars and fightings among you? Ye lust, and have not; ye fight and war."
+  },
+  {
+   "id": "aesop-bundle",
+   "after": "source:AB11381",
+   "responds": [
+    "source:AB11381"
+   ],
+   "relation": "adjacent",
+   "why": "What one cannot do, a company can. Aesop’s father gives his sons a bundle of sticks that none can break, and then the sticks one at a time."
+  }
+ ],
+ "library": {}
+}
