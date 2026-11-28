@@ -1,0 +1,61 @@
+{
+ "format": 2,
+ "slug": "ringstone",
+ "subject": "D4AC8AC892DBEE1800F948B10F205B56",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 4,
+ "quotations": 4,
+ "kept": [
+  "source:AB00328",
+  "source:ABU2478",
+  "source:ABU0322",
+  "source:ABU3168"
+ ],
+ "introduction": "Many Bahá’ís wear a ring engraved with a design by ‘Abdu’l-Bahá: the letters of “Bahá” arranged as three horizontal lines joined by one vertical, between two stars. These four passages explain it. The three levels are the world of God, the world of the Manifestations, and the world of creation; the vertical line is the Manifestation who joins them; the stars stand for the Báb and Bahá’u’lláh. And ‘Abdu’l-Bahá adds that the stone is an ordinary stone, worth wearing only as a reminder. The rainbow given to Noah as a “token”, the fringe Israel wore to “look upon it, and remember”, and Paul’s “through a glass, darkly” are scripture’s account of what a sign is for; the prophets’ scorn of the graven image is the caution.",
+ "questions": [
+  "What is the difference between a symbol and an idol?",
+  "Reading 3 calls the ringstone “an ordinary stone”. Why say so?",
+  "What do you carry or wear to remember something, and does it work?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB00328",
+   "responds": [
+    "source:AB00328"
+   ],
+   "relation": "adjacent",
+   "why": "Three lines for the worlds of God, of Command, and of creation. For now we see through a glass, darkly; but then face to face."
+  },
+  {
+   "id": "genesis-my-bow-in-the-cloud",
+   "after": "source:ABU2478",
+   "responds": [
+    "source:ABU2478"
+   ],
+   "relation": "adjacent",
+   "why": "A symbol of the Real Light. I do set my bow in the cloud, and it shall be for a token of a covenant."
+  },
+  {
+   "id": "numbers-fringes-remember",
+   "after": "source:ABU0322",
+   "responds": [
+    "source:ABU0322"
+   ],
+   "relation": "adjacent",
+   "why": "An ordinary stone, valued for what it brings to mind. A fringe on the borders of their garments, that ye may look upon it, and remember all the commandments of the Lord."
+  },
+  {
+   "id": "habakkuk-what-profiteth-the-graven-image",
+   "after": "source:ABU3168",
+   "responds": [
+    "source:ABU3168"
+   ],
+   "relation": "contrast",
+   "why": "Is it good to wear a symbol, such as a cross? The prophets’ suspicion of all such things: what profiteth the graven image that the maker thereof hath graven it? What keeps a symbol worn on the hand from becoming what Habakkuk mocks?"
+  }
+ ],
+ "library": {}
+}
