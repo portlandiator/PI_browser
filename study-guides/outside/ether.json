@@ -1,0 +1,259 @@
+{
+ "format": 2,
+ "slug": "ether",
+ "subject": "1DADF08CF0244AD19C8296CF92A08546",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 18,
+ "quotations": 23,
+ "kept": [
+  "source:AB00259",
+  "source:AB00057",
+  "source:AB00020",
+  "source:ABU2507",
+  "source:AB07435",
+  "source:ABU0041",
+  "source:AB10689",
+  "source:ABU2757",
+  "source:AB10179",
+  "source:AB00105",
+  "source:ABU0647",
+  "source:ABU0205",
+  "source:AB03468",
+  "source:ABU0102",
+  "source:AB00199",
+  "source:AB00023",
+  "source:AB00373",
+  "selection:8383f1526361bd46b0f10bc5"
+ ],
+ "introduction": "‘Abdu’l-Bahá spoke to audiences who had learned at school that light, heat and electricity were waves in an all-pervading ether, a medium no one had seen and physicists thought certain. He used it as the readiest example of a reality known by the intellect and not the senses, “its existence is certain by the effects it produceth”, and as an image of the spirit, present everywhere and luminous only where it is stirred. Maxwell’s article of 1878 shows how confidently the science was held. The form of the argument is much older: Paul’s “invisible things … understood by the things that are made”, the wind in John’s Gospel, Newton’s remark that we know God only by His contrivances. Hume is the standing objection to all such inference. And because the ether was abandoned by physics soon afterwards, Donne’s lament for an earlier cosmology, “new philosophy calls all in doubt”, puts the question a present-day reader must ask: whether the point survives its example.",
+ "questions": [
+  "The argument of readings 1 to 4 is that something unseen can be known by its effects. The ether, the chosen example, is no longer accepted by physics. Does that weaken the argument, illustrate it, or leave it untouched?",
+  "Hume held that we never perceive the tie between cause and effect. What would he say to “we know it by its effect”, and what could be answered?",
+  "Reading 11 says the spirit of faith is everywhere but shines only “in undulation”. What does the analogy explain about why faith appears in some lives and not others, and what does it leave unexplained?",
+  "Which modern example would you choose to make ‘Abdu’l-Bahá’s point to an audience today?"
+ ],
+ "outside": [
+  {
+   "id": "maxwell-not-empty",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "The ether as an intelligible, not a sensible, reality. This is how the foremost physicist of the age wrote of it in 1878: whatever difficulties we may have in forming a consistent idea of the constitution of the aether, there can be no doubt that space is occupied by a material substance, the largest and most uniform body of which we have any knowledge."
+  },
+  {
+   "id": "hebrews-substance-of-things-hoped-for",
+   "after": "source:AB00259",
+   "responds": [
+    "source:AB00259"
+   ],
+   "relation": "adjacent",
+   "why": "Faith is the substance of things hoped for, the evidence of things not seen."
+  },
+  {
+   "id": "corinthians-things-not-seen-are-eternal",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "adjacent",
+   "why": "To deny all that the senses cannot reach is to deny what undoubtedly exists. The things which are seen are temporal; but the things which are not seen are eternal."
+  },
+  {
+   "id": "hume-conjoined-but-never-connected",
+   "after": "source:AB00057",
+   "responds": [
+    "source:AB00057"
+   ],
+   "relation": "contrast",
+   "why": "Hume applied the test of the senses strictly and found even causation missing: events seem conjoined, but never connected. If inference from effects to an unseen cause is habit and not sight, how strong is the argument of readings 2 to 4?"
+  },
+  {
+   "id": "romans-invisible-things-clearly-seen",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "Its nature unknown, its existence certain by its effects. Paul reasons so about God: the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made."
+  },
+  {
+   "id": "john-wind-bloweth-where-it-listeth",
+   "after": "source:AB00020",
+   "responds": [
+    "source:AB00020"
+   ],
+   "relation": "adjacent",
+   "why": "The older example of a thing known only by its effects: the wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh."
+  },
+  {
+   "id": "newton-know-him-only-by",
+   "after": "source:ABU2507",
+   "responds": [
+    "source:ABU2507"
+   ],
+   "relation": "adjacent",
+   "why": "“We do not know the essence of electricity and ether, but we know it by its effect.” Newton, in the same form: we have no idea of the substance of God; we know him only by his most wise and excellent contrivances of things."
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:AB07435",
+   "responds": [
+    "source:AB07435"
+   ],
+   "relation": "adjacent",
+   "why": "Outward light makes objects visible. And God said, Let there be light: and there was light."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "adjacent",
+   "why": "Each atom moves through the kingdoms of life. Rumi: I died as mineral and became a plant, I died as plant and rose to animal."
+  },
+  {
+   "id": "john-darkness-comprehended-it-not",
+   "after": "source:AB10689",
+   "responds": [
+    "source:AB10689"
+   ],
+   "relation": "adjacent",
+   "why": "A ray that crosses space and dispels the darkness. The light shineth in darkness; and the darkness comprehended it not."
+  },
+  {
+   "id": "plato-good-as-the-sun",
+   "after": "source:ABU2757",
+   "responds": [
+    "source:ABU2757"
+   ],
+   "relation": "adjacent",
+   "why": "The sun’s light has one function, to make things manifest. Plato: the sun is the author of visibility in all visible things; so the good is the author of knowledge to all things known."
+  },
+  {
+   "id": "john-epistle-god-is-light",
+   "after": "source:AB10179",
+   "responds": [
+    "source:AB10179"
+   ],
+   "relation": "adjacent",
+   "why": "Light is of two kinds, material and spiritual. God is light, and in him is no darkness at all."
+  },
+  {
+   "id": "matthew-light-of-the-body",
+   "after": "source:AB00105",
+   "responds": [
+    "source:AB00105"
+   ],
+   "relation": "adjacent",
+   "why": "Light is vibration until an eye receives it. The light of the body is the eye."
+  },
+  {
+   "id": "luke-kingdom-of-god-is-within-you",
+   "after": "source:ABU0647",
+   "responds": [
+    "source:ABU0647"
+   ],
+   "relation": "complement",
+   "why": "The spirit of faith is everywhere, like the ether, but light appears only where it is set in motion. The kingdom of God cometh not with observation; it is within you. What sets the medium in motion, on the reading’s analogy?"
+  },
+  {
+   "id": "job-ask-now-the-beasts",
+   "after": "source:ABU0205",
+   "responds": [
+    "source:ABU0205"
+   ],
+   "relation": "complement",
+   "why": "No lower being comprehends a higher. Job turns the ladder round: ask now the beasts, and they shall teach thee. What can the lower teach the higher?"
+  },
+  {
+   "id": "john-no-man-hath-seen-god",
+   "after": "source:AB03468",
+   "responds": [
+    "source:AB03468"
+   ],
+   "relation": "adjacent",
+   "why": "Its essence remains veiled, yet its waves are known. No man hath seen God at any time; the only begotten Son hath declared him."
+  },
+  {
+   "id": "plato-stone-of-heraclea",
+   "after": "source:ABU0102",
+   "responds": [
+    "source:ABU0102"
+   ],
+   "relation": "adjacent",
+   "why": "Attraction cannot be separated from the power that attracts. Plato on the magnet: the stone not only attracts iron rings, but imparts to them a similar power of attracting other rings. He uses it, as the readings use the ether, for inspiration."
+  },
+  {
+   "id": "job-send-lightnings",
+   "after": "source:AB00199",
+   "responds": [
+    "source:AB00199"
+   ],
+   "relation": "adjacent",
+   "why": "Lightning explained as two forces meeting. The Voice from the whirlwind: canst thou send lightnings, that they may go, and say unto thee, Here we are?"
+  },
+  {
+   "id": "psalm-vapours-lightnings-wind",
+   "after": "source:AB00199",
+   "responds": [
+    "source:AB00199"
+   ],
+   "relation": "adjacent",
+   "why": "He maketh lightnings for the rain; he bringeth the wind out of his treasuries."
+  },
+  {
+   "id": "donne-new-philosophy-calls-all-in-doubt",
+   "after": "source:AB00023",
+   "responds": [
+    "source:AB00023"
+   ],
+   "relation": "contrast",
+   "why": "The orbits of the heavens lie within a subtle, fluid, vibrating medium. Donne, when the old crystalline spheres were given up: new philosophy calls all in doubt; the element of fire is quite put out. Within a generation of these readings the ether followed. What becomes of an analogy when its science is withdrawn?"
+  },
+  {
+   "id": "genesis-spirit-moved-upon-the-waters",
+   "after": "source:AB00373",
+   "responds": [
+    "source:AB00373"
+   ],
+   "relation": "adjacent",
+   "why": "The world came to be through the interaction of an active force and its recipient. The earth was without form, and void; and the Spirit of God moved upon the face of the waters."
+  },
+  {
+   "id": "psalm-heavens-declare",
+   "after": "selection:8383f1526361bd46b0f10bc5",
+   "responds": [
+    "selection:8383f1526361bd46b0f10bc5"
+   ],
+   "relation": "complement",
+   "why": "The animal cannot imagine the all-pervading ether. The heavens declare the glory of God; there is no speech nor language, where their voice is not heard. Who, according to the reading, hears it?"
+  }
+ ],
+ "shortfall": "The readings repeat a single argument and a single analogy several times over; companions were chosen for the argument, the analogy and the history of the idea rather than for each repetition.",
+ "library": {
+  "maxwell-not-empty": {
+   "text": "Whatever difficulties we may have in forming a consistent idea of the constitution of the aether, there can be no doubt that the interplanetary and interstellar spaces are not empty, but are occupied by a material substance or body, which is certainly the largest, and probably the most uniform body of which we have any knowledge",
+   "author": "James Clerk Maxwell",
+   "work": "“Ether”, Encyclopædia Britannica, ninth edition",
+   "year": "1878",
+   "sortYear": 1878,
+   "tradition": "European literature and thought",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Encyclop%C3%A6dia_Britannica,_Ninth_Edition/Ether_(2.)",
+    "label": "Wikisource",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Published 1878; author d. 1879."
+   }
+  }
+ }
+}
