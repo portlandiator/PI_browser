@@ -1,0 +1,136 @@
+{
+ "format": 2,
+ "slug": "testinggod",
+ "subject": "68DBD6552521E579B6ED5287D91C6F54",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 9,
+ "quotations": 9,
+ "kept": [
+  "source:AB02886",
+  "source:AB03291",
+  "source:BH00256",
+  "source:AB01531",
+  "source:BH02338",
+  "source:AB04272",
+  "source:BH03123",
+  "source:BH03272",
+  "source:AB04526"
+ ],
+ "introduction": "The first readings tell a story: someone found ‘Alí on a roof and said, if you trust God, throw yourself down; he answered that it is for God to test His servants, not for the servant to test God. The rest apply the saying to those who set conditions for believing in Bahá’u’lláh or ‘Abdu’l-Bahá. Jesus’s temptation on the pinnacle of the temple is the same story with the same answer, “thou shalt not tempt the Lord thy God”, and the Gospels return to the theme in the demand for a sign and the taunt at the cross. Scripture is not all on one side. Gideon tested God with a fleece and was not rebuked; Malachi’s God says “prove me now”; Thomas was given the proof he asked for; and Paul says to “prove all things”. The guide’s question is what separates honest inquiry from a demand that God perform.",
+ "questions": [
+  "What is wrong, in the roof story, with the challenger’s request? Is it the danger, the presumption, or the bargain?",
+  "Gideon and Thomas asked for signs and received them. What makes their asking different from that of those rebuked in readings 3 to 9?",
+  "How do you reconcile “none may test his Lord” with the duty to investigate truth for oneself?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-devil-quotes-scripture",
+   "after": "source:AB02886",
+   "responds": [
+    "source:AB02886"
+   ],
+   "relation": "adjacent",
+   "why": "‘Alí, challenged to prove his trust by throwing himself from a roof. Jesus on the pinnacle of the temple met the same dare: cast thyself down; and answered, thou shalt not tempt the Lord thy God."
+  },
+  {
+   "id": "matthew-seeketh-after-a-sign",
+   "after": "source:BH00256",
+   "responds": [
+    "source:BH00256"
+   ],
+   "relation": "adjacent",
+   "why": "A request for justice toward those who demand proofs on their own terms. An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it."
+  },
+  {
+   "id": "luke-neither-will-they-be-persuaded",
+   "after": "source:BH00256",
+   "responds": [
+    "source:BH00256"
+   ],
+   "relation": "adjacent",
+   "why": "If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead."
+  },
+  {
+   "id": "matthew-come-down-from-the-cross",
+   "after": "source:AB01531",
+   "responds": [
+    "source:AB01531"
+   ],
+   "relation": "adjacent",
+   "why": "“O you who would test ‘Abdu’l-Bahá!” Let him now come down from the cross, and we will believe him."
+  },
+  {
+   "id": "judges-fleece-of-wool",
+   "after": "source:BH02338",
+   "responds": [
+    "source:BH02338"
+   ],
+   "relation": "contrast",
+   "why": "“If ye wish to test …” Gideon tested God twice with a fleece, wet on dry ground and then dry on wet, and was indulged both times. What distinguishes Gideon’s request from the demands these readings refuse?"
+  },
+  {
+   "id": "malachi-windows-of-heaven",
+   "after": "source:BH02338",
+   "responds": [
+    "source:BH02338"
+   ],
+   "relation": "contrast",
+   "why": "And Malachi has God invite a test: prove me now herewith, saith the Lord of hosts, if I will not open you the windows of heaven. How does that sit with “none may test his Lord”?"
+  },
+  {
+   "id": "genesis-abraham-tempted",
+   "after": "source:BH03123",
+   "responds": [
+    "source:BH03123"
+   ],
+   "relation": "adjacent",
+   "why": "God tests whom He wills. And it came to pass after these things, that God did tempt Abraham."
+  },
+  {
+   "id": "john-be-not-faithless",
+   "after": "source:BH03272",
+   "responds": [
+    "source:BH03272"
+   ],
+   "relation": "complement",
+   "why": "None may test God. Thomas set his conditions, the print of the nails, and was met on them: reach hither thy finger; be not faithless, but believing. Blessed are they that have not seen, and yet have believed. Was Thomas testing or seeking?"
+  },
+  {
+   "id": "thessalonians-prove-all-things",
+   "after": "source:AB04526",
+   "responds": [
+    "source:AB04526"
+   ],
+   "relation": "contrast",
+   "why": "Is it permissible for the seeker to test the Sought? Paul: prove all things; hold fast that which is good. The Bahá’í writings elsewhere call for independent investigation. Where is the line between investigating a claim and testing God?"
+  }
+ ],
+ "library": {
+  "judges-fleece-of-wool": {
+   "text": "Behold, I will put a fleece of wool in the floor; and if the dew be on the fleece only, and it be dry upon all the earth beside, then shall I know that thou wilt save Israel by mine hand, as thou hast said",
+   "work": "Judges 6:37",
+   "year": "c. 8th–5th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Judges%206%3A37&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
