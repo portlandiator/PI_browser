@@ -1,0 +1,161 @@
+{
+ "format": 2,
+ "slug": "livingwaters",
+ "subject": "DA0726CDD9B147D4BF61D51E98631079",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 14,
+ "kept": [
+  "source:BH00249",
+  "source:AB08815",
+  "source:BH03550",
+  "source:BH01679",
+  "source:AB00342",
+  "source:AB05294",
+  "source:BH06007",
+  "source:AB12397",
+  "source:AB08866",
+  "source:ABU1468",
+  "source:BH08242",
+  "source:BH00144",
+  "source:BH00238",
+  "selection:11a150925b2ec973a895d753"
+ ],
+ "introduction": "“Obstruct not the luminous spring of thy soul with the thorns and brambles of vain and inordinate affections.” The teacher of the Faith, in these passages, is a channel: a spring to be kept clear, a cup-bearer, a breeze, and finally “a reed through which the Holy Spirit may” sound. Living water is one of the Bible’s great images, Jeremiah’s fountain forsaken for broken cisterns, Isaiah’s “come ye to the waters” and “watered garden”, Jesus at the well and his promise of “rivers of living water” from the believer. Paul’s “God gave the increase” and “earthen vessels”, and Tagore’s reed flute, say with reading 14 that the one who carries the water is not its source.",
+ "questions": [
+  "What are the “thorns and brambles” that block a person’s spring?",
+  "Reading 8 says water does nothing for someone who is not thirsty. What follows for how one shares what one believes?",
+  "“The teacher must become like a reed.” What must a person give up to be an instrument, and what remains theirs?"
+ ],
+ "outside": [
+  {
+   "id": "jeremiah-broken-cisterns",
+   "after": "source:BH00249",
+   "responds": [
+    "source:BH00249"
+   ],
+   "relation": "adjacent",
+   "why": "Do not block the spring of the soul with the thorns of vain affections. They have forsaken me the fountain of living waters, and hewed them out broken cisterns."
+  },
+  {
+   "id": "song-a-garden-inclosed",
+   "after": "source:BH00249",
+   "responds": [
+    "source:BH00249"
+   ],
+   "relation": "adjacent",
+   "why": "The Song of Songs has the image of a source kept from flowing: a spring shut up, a fountain sealed."
+  },
+  {
+   "id": "proverbs-watereth-shall-be-watered",
+   "after": "source:AB08815",
+   "responds": [
+    "source:AB08815"
+   ],
+   "relation": "adjacent",
+   "why": "Drink, and then cause others to drink. He that watereth shall be watered also himself."
+  },
+  {
+   "id": "john-rivers-of-living-water",
+   "after": "source:BH03550",
+   "responds": [
+    "source:BH03550"
+   ],
+   "relation": "adjacent",
+   "why": "From the heart of the detached, the waters of wisdom gush out. He that believeth on me, out of his belly shall flow rivers of living water."
+  },
+  {
+   "id": "proverbs-deep-waters",
+   "after": "source:BH03550",
+   "responds": [
+    "source:BH03550"
+   ],
+   "relation": "adjacent",
+   "why": "The words of a man’s mouth are as deep waters, and the wellspring of wisdom as a flowing brook."
+  },
+  {
+   "id": "john-give-me-to-drink",
+   "after": "source:BH01679",
+   "responds": [
+    "source:BH01679"
+   ],
+   "relation": "adjacent",
+   "why": "Be the cup-bearer of the wine of immortality. If thou knewest the gift of God, and who it is that saith to thee, Give me to drink; thou wouldest have asked of him."
+  },
+  {
+   "id": "isaiah-draw-out-thy-soul",
+   "after": "source:AB05294",
+   "responds": [
+    "source:AB05294"
+   ],
+   "relation": "adjacent",
+   "why": "Find new life in every moment. Thou shalt be like a watered garden, and like a spring of water, whose waters fail not."
+  },
+  {
+   "id": "isaiah-come-to-the-waters",
+   "after": "source:AB12397",
+   "responds": [
+    "source:AB12397"
+   ],
+   "relation": "adjacent",
+   "why": "If a person is not thirsty, the sweetest water does nothing. Ho, every one that thirsteth, come ye to the waters."
+  },
+  {
+   "id": "matthew-freely-ye-have-received",
+   "after": "source:AB08866",
+   "responds": [
+    "source:AB08866"
+   ],
+   "relation": "adjacent",
+   "why": "How happy he who offers the cup freely! Freely ye have received, freely give."
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:AB08866",
+   "responds": [
+    "source:AB08866"
+   ],
+   "relation": "adjacent",
+   "why": "Whosoever shall give to drink a cup of cold water only, he shall in no wise lose his reward."
+  },
+  {
+   "id": "isaiah-blossom-as-the-rose",
+   "after": "source:ABU1468",
+   "responds": [
+    "source:ABU1468"
+   ],
+   "relation": "adjacent",
+   "why": "May you revive that land like the spring breeze. The desert shall rejoice, and blossom as the rose."
+  },
+  {
+   "id": "corinthians-god-gave-the-increase",
+   "after": "source:BH00238",
+   "responds": [
+    "source:BH00238"
+   ],
+   "relation": "adjacent",
+   "why": "The learned who guide others. I have planted, Apollos watered; but God gave the increase."
+  },
+  {
+   "id": "tagore-little-flute",
+   "after": "selection:11a150925b2ec973a895d753",
+   "responds": [
+    "selection:11a150925b2ec973a895d753"
+   ],
+   "relation": "adjacent",
+   "why": "The teacher must become like a reed through which the Spirit plays. Tagore: this little flute of a reed thou hast carried over hills and dales, and hast breathed through it melodies eternally new."
+  },
+  {
+   "id": "corinthians-earthen-vessels",
+   "after": "selection:11a150925b2ec973a895d753",
+   "responds": [
+    "selection:11a150925b2ec973a895d753"
+   ],
+   "relation": "adjacent",
+   "why": "We have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us."
+  }
+ ],
+ "library": {}
+}
