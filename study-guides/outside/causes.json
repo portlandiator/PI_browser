@@ -1,0 +1,136 @@
+{
+ "format": 2,
+ "slug": "causes",
+ "subject": "B4B44DC18C4C4966909308D87AC31945",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 6,
+ "quotations": 7,
+ "kept": [
+  "source:AB00839",
+  "source:ABU0041",
+  "source:BB00014",
+  "source:BB00023",
+  "selection:a6ff6361e257ba09b5dd1629",
+  "selection:daf5e9cf6afe502fe95b10f0"
+ ],
+ "introduction": "“This chair has a creator who is a carpenter, a matter which is wood, a form which is that of a chair, and a purpose which is to serve as a seat.” ‘Abdu’l-Bahá’s example states Aristotle’s doctrine of the four causes, four different answers to the question why a thing is; the other readings show the Báb and the Shaykhí school using the same scheme, matched to the four elements and four “pillars”, to describe creation itself. Two sentences from Aristotle’s Physics are here, with his bronze statue and his man walking for his health. Jeremiah’s potter shows the four at work in a scriptural image, and the Westminster catechism asks the fourth question of humanity. Spinoza’s verdict that final causes are “human figments” is the turn modern thought took, and the reason the fourth cause is now the contested one.",
+ "questions": [
+  "Take any made object in the room and name its four causes. Then try a river, and then yourself. Where does the scheme become hard to apply, and why?",
+  "Spinoza called final causes “human figments”. What is lost if explanations by purpose are given up, and what was gained?",
+  "Reading 2 names knowledge, volition and action as the conditions of any accomplishment. How do these three relate to the four causes?",
+  "The Báb’s writings apply the four causes to creation as a whole. What does it mean to say the world has a final cause?"
+ ],
+ "outside": [
+  {
+   "id": "aristotle-bronze-of-the-statue",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "A chair has a maker, a matter, a form and a purpose. The scheme is Aristotle’s, and his example of matter is as homely: that out of which a thing comes to be and which persists, is called “cause”, e.g. the bronze of the statue."
+  },
+  {
+   "id": "aristotle-for-the-sake-of-which",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "adjacent",
+   "why": "His example of the fourth: “Why is he walking about?” we say. “To be healthy”, and, having said that, we think we have assigned the cause."
+  },
+  {
+   "id": "spinoza-final-causes-human-figments",
+   "after": "source:AB00839",
+   "responds": [
+    "source:AB00839"
+   ],
+   "relation": "contrast",
+   "why": "The purpose of a chair is plain, since someone made it for sitting. Spinoza denied that the question extends to nature: nature has no particular goal in view, and final causes are mere human figments. Modern science largely followed him. Which of the four questions can still be asked of a tree, or of a person?"
+  },
+  {
+   "id": "luke-counteth-the-cost",
+   "after": "source:ABU0041",
+   "responds": [
+    "source:ABU0041"
+   ],
+   "relation": "adjacent",
+   "why": "Knowledge, volition and action: to build a house one must know the ground, find the means, and build. Which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have sufficient to finish it?"
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:BB00014",
+   "responds": [
+    "source:BB00014"
+   ],
+   "relation": "adjacent",
+   "why": "The efficient cause as creation by God of what He wills from nothing. The worlds were framed by the word of God, so that things which are seen were not made of things which do appear."
+  },
+  {
+   "id": "westminster-chief-end-of-man",
+   "after": "selection:a6ff6361e257ba09b5dd1629",
+   "responds": [
+    "selection:a6ff6361e257ba09b5dd1629"
+   ],
+   "relation": "complement",
+   "why": "A final cause, “which is its reason for being”. The Westminster catechism begins by asking it of human beings and answers at once: man’s chief end is to glorify God, and to enjoy him for ever. What would the other three causes of a human being be, on the readings’ scheme?"
+  },
+  {
+   "id": "jeremiah-potters-house",
+   "after": "selection:daf5e9cf6afe502fe95b10f0",
+   "responds": [
+    "selection:daf5e9cf6afe502fe95b10f0"
+   ],
+   "relation": "adjacent",
+   "why": "Maker, substance, form and fruit. Jeremiah watches all four at the wheel: the vessel that he made of clay was marred in the hand of the potter: so he made it again another vessel, as seemed good to the potter to make it."
+  }
+ ],
+ "library": {
+  "aristotle-for-the-sake-of-which": {
+   "text": "in the sense of end or 'that for the sake of which' a thing is done, e.g. health is the cause of walking about. ('Why is he walking about?' we say. 'To be healthy', and, having said that, we think we have assigned the cause",
+   "author": "Aristotle",
+   "work": "Physics",
+   "locator": "Book II, part 3",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "R. P. Hardie and R. K. Gaye",
+   "translationYear": "1930",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/physics.2.ii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translators d. 1942 and 1909."
+   }
+  },
+  "aristotle-bronze-of-the-statue": {
+   "text": "that out of which a thing comes to be and which persists, is called 'cause', e.g. the bronze of the statue",
+   "author": "Aristotle",
+   "work": "Physics",
+   "locator": "Book II, part 3",
+   "year": "c. 350 BCE",
+   "sortYear": -350,
+   "translator": "R. P. Hardie and R. K. Gaye",
+   "translationYear": "1930",
+   "tradition": "Greek and Roman",
+   "kind": "philosophy",
+   "source": {
+    "url": "https://classics.mit.edu/Aristotle/physics.2.ii.html",
+    "label": "Internet Classics Archive",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translators d. 1942 and 1909."
+   }
+  }
+ }
+}
