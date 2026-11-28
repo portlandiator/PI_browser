@@ -1,0 +1,250 @@
+{
+ "format": 2,
+ "slug": "pillars",
+ "subject": "F319A9BB1373EFF520FB12E50FEAA26B",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 11,
+ "quotations": 11,
+ "kept": [
+  "source:ABU2332",
+  "source:BB00010",
+  "source:ABU2478",
+  "source:AB02204",
+  "source:BB00023",
+  "source:ABU0771",
+  "source:BH00998",
+  "source:BB00012",
+  "source:BB00297",
+  "source:BB00008",
+  "source:BH00977"
+ ],
+ "introduction": "The “four pillars” (arkán-i-arba‘ah) are a Shaykhí restatement of the bases of Shí‘ih belief: the unity of God, prophethood, the imamate, and a fourth pillar, the perfect Shí‘ih who mediates the Imam’s guidance. The Báb’s early writings use the scheme, extend it to other fours (four stations, four streams, four supports of the House), and ‘Abdu’l-Bahá mentions it in passing. The guide is short and technical. Scripture has its own fourfold and architectural symbols, which are all that can honestly be set beside it: the river of Eden parted into four heads, the four winds, the four living creatures round the throne, the city that “lieth foursquare”, Wisdom’s seven pillars, and Paul’s apostles “who seemed to be pillars”.",
+ "questions": [
+  "Why do religious traditions arrange their teachings in numbered patterns? What is gained, and what may be forced?",
+  "Paul calls persons pillars; the readings call doctrines pillars; the fourth pillar is again a person. What difference does it make?",
+  "Reading 6 records a scholar’s failure to find the Fourth Pillar in the books. How should a believer treat a doctrine whose origin is uncertain?"
+ ],
+ "outside": [
+  {
+   "id": "revelation-four-beasts-full-of-eyes",
+   "after": "source:ABU2332",
+   "responds": [
+    "source:ABU2332"
+   ],
+   "relation": "adjacent",
+   "why": "Four stations. Round about the throne were four beasts full of eyes: like a lion, a calf, a man, and a flying eagle."
+  },
+  {
+   "id": "genesis-parted-into-four-heads",
+   "after": "source:AB02204",
+   "responds": [
+    "source:AB02204"
+   ],
+   "relation": "adjacent",
+   "why": "“Four streams” are much mentioned by the ancients. A river went out of Eden to water the garden; and from thence it was parted, and became into four heads."
+  },
+  {
+   "id": "ezekiel-breath",
+   "after": "source:AB02204",
+   "responds": [
+    "source:AB02204"
+   ],
+   "relation": "adjacent",
+   "why": "Four directions. Come from the four winds, O breath, and breathe upon these slain."
+  },
+  {
+   "id": "galatians-seemed-to-be-pillars",
+   "after": "source:BB00023",
+   "responds": [
+    "source:BB00023"
+   ],
+   "relation": "adjacent",
+   "why": "This religion has four pillars. Paul uses the word of persons: James, Cephas, and John, who seemed to be pillars."
+  },
+  {
+   "id": "timothy-pillar-and-ground-of-the-truth",
+   "after": "source:BB00023",
+   "responds": [
+    "source:BB00023"
+   ],
+   "relation": "adjacent",
+   "why": "The church of the living God, the pillar and ground of the truth."
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "source:ABU0771",
+   "responds": [
+    "source:ABU0771"
+   ],
+   "relation": "contrast",
+   "why": "A scholar could not find the source of the Fourth Pillar in any book. Of making many books there is no end; and much study is a weariness of the flesh. When a doctrine’s source cannot be found, what follows?"
+  },
+  {
+   "id": "proverbs-seven-pillars",
+   "after": "source:BB00012",
+   "responds": [
+    "source:BB00012"
+   ],
+   "relation": "complement",
+   "why": "True knowledge rests on four pillars. Wisdom hath builded her house, she hath hewn out her seven pillars. Four here, seven there: what do such numbers do for a teaching that a plain list would not?"
+  },
+  {
+   "id": "revelation-city-lieth-foursquare",
+   "after": "source:BB00008",
+   "responds": [
+    "source:BB00008"
+   ],
+   "relation": "adjacent",
+   "why": "“We built the House upon four pillars.” And the city lieth foursquare, and the length is as large as the breadth."
+  }
+ ],
+ "shortfall": "Readings 2, 3, 7, 9 and 11 are technical statements of the Shaykhí doctrine and letter symbolism; the count stops where scripture’s own fourfold patterns end.",
+ "library": {
+  "genesis-parted-into-four-heads": {
+   "text": "And a river went out of Eden to water the garden; and from thence it was parted, and became into four heads",
+   "work": "Genesis 2:10",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%202%3A10&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-seven-pillars": {
+   "text": "Wisdom hath builded her house, she hath hewn out her seven pillars",
+   "work": "Proverbs 9:1",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%209%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-four-beasts-full-of-eyes": {
+   "text": "and in the midst of the throne, and round about the throne, were four beasts full of eyes before and behind. And the first beast was like a lion, and the second beast like a calf, and the third beast had a face as a man, and the fourth beast was like a flying eagle",
+   "work": "Revelation 4:6–7",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%204%3A6-7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-city-lieth-foursquare": {
+   "text": "And the city lieth foursquare, and the length is as large as the breadth",
+   "work": "Revelation 21:16",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2021%3A16&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "galatians-seemed-to-be-pillars": {
+   "text": "And when James, Cephas, and John, who seemed to be pillars, perceived the grace that was given unto me, they gave to me and Barnabas the right hands of fellowship",
+   "work": "Galatians 2:9",
+   "year": "c. 50–60 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Galatians%202%3A9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-pillar-and-ground-of-the-truth": {
+   "text": "the house of God, which is the church of the living God, the pillar and ground of the truth",
+   "work": "1 Timothy 3:15",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%203%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
