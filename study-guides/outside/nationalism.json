@@ -1,0 +1,330 @@
+{
+ "format": 2,
+ "slug": "nationalism",
+ "subject": "E5EFFF9275424573B014771437ACCE2C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 39,
+ "kept": [
+  "source:ABU0032",
+  "source:ABU3361",
+  "source:BH00128",
+  "source:ABU0776",
+  "source:ABU1145",
+  "source:ABU1248",
+  "source:AB00158",
+  "source:ABU0812",
+  "source:ABU2487",
+  "source:ABU0994",
+  "source:AB00406",
+  "source:AB01150",
+  "source:ABU0135",
+  "source:ABU0099",
+  "source:ABU2812",
+  "source:AB00571",
+  "source:AB00983",
+  "source:AB00607",
+  "source:AB00737",
+  "source:ABU1099",
+  "source:ABU1388",
+  "source:ABU3138",
+  "source:ABU3686",
+  "source:ABU1222",
+  "source:ABU1512",
+  "source:ABU3401",
+  "source:BHU0015",
+  "source:AB01180",
+  "source:AB01815",
+  "source:ABU0081",
+  "source:ABU1891",
+  "source:BH00709",
+  "source:ABU1066",
+  "source:ABU1068",
+  "source:ABU1651",
+  "source:ABU0987",
+  "selection:4f3fe874637767327a967afa",
+  "selection:256b11d64cf2175f922d01a9"
+ ],
+ "introduction": "“Glory is not his who loves his country, but his who loves the world.” ‘Abdu’l-Bahá carried the sentence through a Europe where, as he said, every nation was crying “Fatherland!” two years before the war. The guide gathers his remarks, playful and grave, on frontiers as imaginary lines and homeland as dust, with the qualifications: every country’s borders and independence are to be secured, a sane patriotism is not condemned, and one serves one’s country best as a citizen of the world. Diogenes coined that phrase; the Stoics, the letter to Diognetus and Hebrews’ “strangers and pilgrims” are its ancient company, and Wilfred Owen wrote what the fatherland cost. John of Gaunt’s England, Scott’s native land and the exile’s Jerusalem are the love the readings ask people to enlarge.",
+ "questions": [
+  "Bahá’u’lláh’s sentence denies glory to love of country. Does it deny the love?",
+  "Reading 4 wants frontiers fixed and independence secured; reading 1 calls frontiers imaginary. How do the two fit?",
+  "The Qur’an says nations exist “that ye may know one another”. What kind of national feeling would serve that?",
+  "What in your own love of a place could be widened without being lost?",
+  "Owen calls dying for one’s country “the old Lie”. Would the readings go so far?"
+ ],
+ "outside": [
+  {
+   "id": "acts-one-blood",
+   "after": "source:ABU0032",
+   "responds": [
+    "source:ABU0032"
+   ],
+   "relation": "adjacent",
+   "why": "Imaginary lines dividing a single home. God hath made of one blood all nations of men for to dwell on all the face of the earth."
+  },
+  {
+   "id": "diogenes-citizen",
+   "after": "source:ABU3361",
+   "responds": [
+    "source:ABU3361"
+   ],
+   "relation": "adjacent",
+   "why": "Serve your country as a citizen of the world. Diogenes, asked where he came from: I am a citizen of the world."
+  },
+  {
+   "id": "jeremiah-seek-the-peace-of-the-city",
+   "after": "source:ABU3361",
+   "responds": [
+    "source:ABU3361"
+   ],
+   "relation": "adjacent",
+   "why": "Seek the peace of the city whither I have caused you to be carried away, for in the peace thereof shall ye have peace."
+  },
+  {
+   "id": "scott-my-own-my-native-land",
+   "after": "source:BH00128",
+   "responds": [
+    "source:BH00128"
+   ],
+   "relation": "contrast",
+   "why": "“Glory is not his who loves his country, but his who loves the world.” Scott: breathes there the man, with soul so dead, who never to himself hath said, this is my own, my native land? Does Bahá’u’lláh’s sentence call that feeling dead, or only deny it the glory?"
+  },
+  {
+   "id": "proverbs-ancient-landmark",
+   "after": "source:ABU0776",
+   "responds": [
+    "source:ABU0776"
+   ],
+   "relation": "adjacent",
+   "why": "Every country properly delimited, its frontiers marked. Remove not the ancient landmark, which thy fathers have set."
+  },
+  {
+   "id": "shakespeare-this-england",
+   "after": "source:ABU1248",
+   "responds": [
+    "source:ABU1248"
+   ],
+   "relation": "contrast",
+   "why": "Patriotism unifies a people and divides the peoples. Its noblest voice in English: this royal throne of kings, this scepter’d isle, this blessed plot, this earth, this realm, this England. What in John of Gaunt’s love of England would the readings keep?"
+  },
+  {
+   "id": "shakespeare-happy-few",
+   "after": "source:AB00158",
+   "responds": [
+    "source:AB00158"
+   ],
+   "relation": "adjacent",
+   "why": "Beneficial to fellow countrymen, harmful to others. We few, we happy few, we band of brothers, said before a battle with the French."
+  },
+  {
+   "id": "hebrews-strangers-and-pilgrims",
+   "after": "source:ABU0812",
+   "responds": [
+    "source:ABU0812"
+   ],
+   "relation": "adjacent",
+   "why": "The country a cage in which souls are imprisoned. They confessed that they were strangers and pilgrims on the earth; they desire a better country."
+  },
+  {
+   "id": "diognetus-sojourners",
+   "after": "source:ABU2487",
+   "responds": [
+    "source:ABU2487"
+   ],
+   "relation": "adjacent",
+   "why": "A visitor answers with too much fervour where he comes from. An early Christian letter: every foreign land is to them as their native country, and every land of their birth as a land of strangers."
+  },
+  {
+   "id": "quran-know-one-another",
+   "after": "source:ABU0994",
+   "responds": [
+    "source:ABU0994"
+   ],
+   "relation": "complement",
+   "why": "Groups have drawn lines around portions of the earth. The Qur’an gives the division a purpose: We have made you nations and tribes that ye may know one another. Is a world of nations, on that reading, a fault to be overcome or a means to something?"
+  },
+  {
+   "id": "burns-inhumanity-to-man",
+   "after": "source:AB00406",
+   "responds": [
+    "source:AB00406"
+   ],
+   "relation": "adjacent",
+   "why": "The human world an arena of warfare. Burns: man’s inhumanity to man makes countless thousands mourn."
+  },
+  {
+   "id": "owen-the-old-lie",
+   "after": "source:ABU0135",
+   "responds": [
+    "source:ABU0135"
+   ],
+   "relation": "adjacent",
+   "why": "Every nation crying “Fatherland!” A soldier of that war: the old Lie: Dulce et decorum est pro patria mori."
+  },
+  {
+   "id": "zeno-one-polity",
+   "after": "source:ABU0099",
+   "responds": [
+    "source:ABU0099"
+   ],
+   "relation": "adjacent",
+   "why": "These countries are one country, the home of humanity. Zeno’s Republic, as Plutarch reports it: all the inhabitants of this world should not live differentiated into separate cities, but regard all men as fellow citizens."
+  },
+  {
+   "id": "psalm-the-earth-is-the-lords",
+   "after": "source:ABU2812",
+   "responds": [
+    "source:ABU2812"
+   ],
+   "relation": "adjacent",
+   "why": "God made men to dwell in His land. The earth is the Lord’s, and the fulness thereof; the world, and they that dwell therein."
+  },
+  {
+   "id": "ecclesiastes-all-are-of-the-dust",
+   "after": "source:AB00983",
+   "responds": [
+    "source:AB00983"
+   ],
+   "relation": "adjacent",
+   "why": "All this for dust which they call homeland, a temporary foothold and finally a grave. All are of the dust, and all turn to dust again."
+  },
+  {
+   "id": "owen-i-am-the-enemy-you-killed",
+   "after": "source:AB00607",
+   "responds": [
+    "source:AB00607"
+   ],
+   "relation": "adjacent",
+   "why": "Patriotism made a pretext for hatred. Owen’s dead soldier to the man who killed him: I am the enemy you killed, my friend."
+  },
+  {
+   "id": "jeremiah-rachel-weeping",
+   "after": "source:ABU1099",
+   "responds": [
+    "source:ABU1099"
+   ],
+   "relation": "adjacent",
+   "why": "Who will comfort those left behind? Rachel weeping for her children refused to be comforted, because they were not."
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU1388",
+   "responds": [
+    "source:ABU1388"
+   ],
+   "relation": "adjacent",
+   "why": "A regiment passing, ready to fight for the fatherland. Nation shall not lift up sword against nation, neither shall they learn war any more."
+  },
+  {
+   "id": "psalm-if-i-forget-thee",
+   "after": "source:ABU3686",
+   "responds": [
+    "source:ABU3686"
+   ],
+   "relation": "contrast",
+   "why": "A patriot’s verses in praise of his country. The exile’s oath: if I forget thee, O Jerusalem, let my right hand forget her cunning. Is love of a homeland ever a religious duty, and how would the readings regard this psalm?"
+  },
+  {
+   "id": "colossians-neither-greek-nor-jew",
+   "after": "source:ABU1512",
+   "responds": [
+    "source:ABU1512"
+   ],
+   "relation": "adjacent",
+   "why": "Universities open to all nationalities. Where there is neither Greek nor Jew, Barbarian, Scythian, bond nor free."
+  },
+  {
+   "id": "marcus-one-living-being",
+   "after": "source:AB01180",
+   "responds": [
+    "source:AB01180"
+   ],
+   "relation": "adjacent",
+   "why": "Glory is for one who loves the world. Marcus Aurelius: constantly regard the universe as one living being, having one substance and one soul."
+  },
+  {
+   "id": "ephesians-no-more-strangers",
+   "after": "source:ABU1891",
+   "responds": [
+    "source:ABU1891"
+   ],
+   "relation": "adjacent",
+   "why": "God has not divided the lands. Ye are no more strangers and foreigners, but fellowcitizens."
+  },
+  {
+   "id": "washington-religion-and-morality",
+   "after": "source:ABU0987",
+   "responds": [
+    "source:ABU0987"
+   ],
+   "relation": "complement",
+   "why": "Fellow-citizenship unifies only for general benefits. Washington’s farewell made patriotism a moral claim, to be denied the man who subverts religion and morality. Can patriotism be a virtue at all, on the readings’ account, and under what condition?"
+  },
+  {
+   "id": "tennyson-parliament",
+   "after": "selection:256b11d64cf2175f922d01a9",
+   "responds": [
+    "selection:256b11d64cf2175f922d01a9"
+   ],
+   "relation": "adjacent",
+   "why": "Unification of mankind is the hallmark of the coming stage; nation-building has ended. Tennyson: the Parliament of man, the Federation of the world."
+  },
+  {
+   "id": "tagore-domestic-walls",
+   "after": "selection:256b11d64cf2175f922d01a9",
+   "responds": [
+    "selection:256b11d64cf2175f922d01a9"
+   ],
+   "relation": "adjacent",
+   "why": "Tagore’s prayer for his own country was that it wake into a world not broken up into fragments by narrow domestic walls."
+  }
+ ],
+ "shortfall": "Readings 27 to 35 repeat one sentence of Bahá’u’lláh and one image of boundaries; the rest restate points already given a companion.",
+ "library": {
+  "shakespeare-this-england": {
+   "text": "This royal throne of kings, this scepter'd isle, / This earth of majesty, this seat of Mars … This blessed plot, this earth, this realm, this England",
+   "verse": true,
+   "author": "William Shakespeare",
+   "work": "Richard II",
+   "locator": "Act 2, scene 1",
+   "year": "1595",
+   "sortYear": 1595,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://shakespeare.mit.edu/richardii/full.html",
+    "label": "The Complete Works of William Shakespeare (MIT)",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1616."
+   }
+  },
+  "scott-my-own-my-native-land": {
+   "text": "Breathes there the man, with soul so dead, / Who never to himself hath said, / This is my own, my native land",
+   "verse": true,
+   "author": "Walter Scott",
+   "work": "The Lay of the Last Minstrel",
+   "locator": "Canto VI, stanza 1",
+   "year": "1805",
+   "sortYear": 1805,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/The_Lay_of_the_Last_Minstrel/Canto_6",
+    "label": "Wikisource",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1832."
+   }
+  }
+ }
+}
