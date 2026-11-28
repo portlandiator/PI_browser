@@ -1,0 +1,93 @@
+{
+ "format": 2,
+ "slug": "rest",
+ "subject": "11125D8F1B304196A35D82E2DD0EBFBF",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 8,
+ "quotations": 8,
+ "kept": [
+  "source:ABU1524",
+  "source:ABU0208",
+  "source:AB02537",
+  "source:BB00083",
+  "source:BB00001",
+  "source:AB03720",
+  "selection:7bdfecdb49f6c90f9f756be0",
+  "selection:32eead5d2bec72c31f70f4be"
+ ],
+ "introduction": "The Bahá’í writings name Friday as the day of rest, though the provision is not yet applied, and say almost nothing about why. ‘Abdu’l-Bahá’s remarks are relaxed: in ‘Akká “we do not have any Sunday; whenever we get tired we simply withdraw”; each dispensation sets its day according to need; the day is given for “delight”. The fourth commandment and its two reasons, God’s rest and the servant’s, the Qur’an’s Friday prayer, Jesus’s “the sabbath was made for man”, and Paul’s indifference to days are the older teachings among which this light one stands.",
+ "questions": [
+  "The writings name a day of rest and give no reason. What reasons would you give?",
+  "Deuteronomy’s sabbath is for the servant’s sake. Who needs a guaranteed day of rest now?",
+  "Is rest a religious duty, or only a permission?"
+ ],
+ "outside": [
+  {
+   "id": "mark-no-leisure-so-much-as-to-eat",
+   "after": "source:ABU0208",
+   "responds": [
+    "source:ABU0208"
+   ],
+   "relation": "adjacent",
+   "why": "“Whenever we get tired we simply withdraw.” Come ye yourselves apart into a desert place, and rest a while."
+  },
+  {
+   "id": "mark-sabbath-made-for-man",
+   "after": "source:AB02537",
+   "responds": [
+    "source:AB02537"
+   ],
+   "relation": "adjacent",
+   "why": "Special days are designated in each dispensation according to its needs. The sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "romans-fully-persuaded-in-his-own-mind",
+   "after": "source:AB02537",
+   "responds": [
+    "source:AB02537"
+   ],
+   "relation": "adjacent",
+   "why": "One man esteemeth one day above another: another esteemeth every day alike. Let every man be fully persuaded in his own mind."
+  },
+  {
+   "id": "genesis-heavens-finished",
+   "after": "source:BB00083",
+   "responds": [
+    "source:BB00083"
+   ],
+   "relation": "adjacent",
+   "why": "Thursday night and Friday created for His servants’ delight. On the seventh day God ended his work, and he rested."
+  },
+  {
+   "id": "deuteronomy-thy-manservant-may-rest",
+   "after": "source:BB00083",
+   "responds": [
+    "source:BB00083"
+   ],
+   "relation": "adjacent",
+   "why": "The Mosaic reason was social: that thy manservant and thy maidservant may rest as well as thou."
+  },
+  {
+   "id": "quran-day-of-congregation",
+   "after": "source:AB03720",
+   "responds": [
+    "source:AB03720"
+   ],
+   "relation": "adjacent",
+   "why": "The Bahá’ís keep Friday. When the call is heard for the prayer of the day of congregation, haste unto remembrance of Allah and leave your trading."
+  },
+  {
+   "id": "colossians-shadow-of-things",
+   "after": "selection:7bdfecdb49f6c90f9f756be0",
+   "responds": [
+    "selection:7bdfecdb49f6c90f9f756be0"
+   ],
+   "relation": "complement",
+   "why": "No reason is given why Friday was chosen. Let no man judge you in respect of an holyday, or of the sabbath days: which are a shadow of things to come. Does it matter which day, and what would be lost if there were none?"
+  }
+ ],
+ "shortfall": "Readings 1, 5 and 8 concern the calendar, a verse to be recited, and present practice; one companion fewer was placed than the guide has quotations.",
+ "library": {}
+}
