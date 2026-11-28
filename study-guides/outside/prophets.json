@@ -1,0 +1,131 @@
+{
+ "format": 2,
+ "slug": "prophets",
+ "subject": "549FF19A14C34681BDC8A37E58CDEDB8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 12,
+ "kept": [
+  "source:AB06566",
+  "source:ABU0374",
+  "source:AB00206",
+  "source:AB01558",
+  "source:AB00347",
+  "source:BH00532",
+  "source:ABU3530",
+  "source:ABU1858",
+  "source:ABU0280",
+  "source:ABU1695"
+ ],
+ "introduction": "The word “prophet” covers very different figures: Moses and Isaiah, Muḥammad and the unnamed warners sent to every people. In these few passages ‘Abdu’l-Bahá sorts them. There are the universal Manifestations, “even as the sun”, who found a religion and a cycle; there are prophets who follow and promote a Manifestation’s religion, as the prophets of Israel followed Moses; and reported talks add a distinction between those whose influence covers one country and those who move the world. Scripture makes distinctions of its own: the Qur’an says some messengers were made “to excel others” and yet that believers “make no distinction” among them; Deuteronomy sets Moses apart; Jesus places John above all born of women and below the least in the kingdom; and Amos denies being a prophet at all.",
+ "questions": [
+  "What distinguishes a Manifestation from a prophet in these readings: the message, the scope, the Book, or the person?",
+  "The Qur’an both ranks the messengers and forbids distinguishing among them. In what sense might each be meant?",
+  "Moses wished that all the Lord’s people were prophets. Reading 4 says creation has ranks. Do the two conflict?"
+ ],
+ "outside": [
+  {
+   "id": "quran-some-excel-others",
+   "after": "source:AB06566",
+   "responds": [
+    "source:AB06566"
+   ],
+   "relation": "adjacent",
+   "why": "Three kinds of Prophets, the universal Manifestations as the sun. Of those messengers, some of whom We have caused to excel others."
+  },
+  {
+   "id": "deuteronomy-no-prophet-like-moses",
+   "after": "source:AB06566",
+   "responds": [
+    "source:AB06566"
+   ],
+   "relation": "adjacent",
+   "why": "There arose not a prophet since in Israel like unto Moses, whom the Lord knew face to face."
+  },
+  {
+   "id": "matthew-least-in-the-kingdom",
+   "after": "source:ABU0374",
+   "responds": [
+    "source:ABU0374"
+   ],
+   "relation": "adjacent",
+   "why": "Not every prophet is a Manifestation. Among them that are born of women there hath not risen a greater than John the Baptist: notwithstanding he that is least in the kingdom of heaven is greater than he."
+  },
+  {
+   "id": "quran-not-told-thee",
+   "after": "source:AB00206",
+   "responds": [
+    "source:AB00206"
+   ],
+   "relation": "adjacent",
+   "why": "A universal cycle spans countless ages, with Manifestations whose names are lost. Among them those of whom We have told thee, and some of whom We have not told thee."
+  },
+  {
+   "id": "numbers-all-the-lords-people-prophets",
+   "after": "source:AB01558",
+   "responds": [
+    "source:AB01558"
+   ],
+   "relation": "contrast",
+   "why": "All creation cannot attain the station of the Prophets. Moses wished it could: would God that all the Lord’s people were prophets, and that the Lord would put his spirit upon them. What kind of prophecy was he wishing for, and is that kind closed by the reading?"
+  },
+  {
+   "id": "kings-spirit-of-elijah-doth-rest-on-elisha",
+   "after": "source:AB00347",
+   "responds": [
+    "source:AB00347"
+   ],
+   "relation": "adjacent",
+   "why": "Prophets who are followers and promoters, not founders. The spirit of Elijah doth rest on Elisha."
+  },
+  {
+   "id": "hebrews-sundry-times",
+   "after": "source:AB00347",
+   "responds": [
+    "source:AB00347"
+   ],
+   "relation": "adjacent",
+   "why": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, hath in these last days spoken unto us by his Son."
+  },
+  {
+   "id": "quran-no-distinction-between-messengers",
+   "after": "source:BH00532",
+   "responds": [
+    "source:BH00532"
+   ],
+   "relation": "complement",
+   "why": "Some messengers come with a Book, others without. The Qur’an also says: We make no distinction between any of His messengers. How can ranks among the Prophets and “no distinction” both be held?"
+  },
+  {
+   "id": "amos-no-prophet",
+   "after": "source:ABU3530",
+   "responds": [
+    "source:ABU3530"
+   ],
+   "relation": "adjacent",
+   "why": "Local Manifestations like Isaiah. Amos claimed even less: I was no prophet, neither was I a prophet’s son; but I was an herdman, and the Lord took me as I followed the flock."
+  },
+  {
+   "id": "quran-thou-art-a-warner-only",
+   "after": "source:ABU1858",
+   "responds": [
+    "source:ABU1858"
+   ],
+   "relation": "adjacent",
+   "why": "Some sway one country only. Thou art a warner only, and for every folk a guide."
+  },
+  {
+   "id": "matthew-prophet-without-honour",
+   "after": "source:ABU1858",
+   "responds": [
+    "source:ABU1858"
+   ],
+   "relation": "adjacent",
+   "why": "And of the limits a prophet meets even in the one country: a prophet is not without honour, save in his own country."
+  }
+ ],
+ "shortfall": "Readings 9 and 10 distinguish prophets from philosophers and speak of sinlessness; one fewer companion was placed than the guide has quotations.",
+ "library": {}
+}
