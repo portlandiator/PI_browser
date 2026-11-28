@@ -1,0 +1,140 @@
+{
+ "format": 2,
+ "slug": "confession",
+ "subject": "E9ADCFE0C5C74BF7819BA274BBF6D654",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 7,
+ "quotations": 7,
+ "kept": [
+  "source:BH00568",
+  "source:BH00001",
+  "source:BB00001",
+  "source:AB00168",
+  "source:ABU2993",
+  "selection:9d2d2c5ced591d03cfb09a7e",
+  "selection:812a3fea57628fc4b85f9633"
+ ],
+ "introduction": "“Confession of sins and transgressions before human beings is not permissible, as it hath never been nor will ever be conducive to divine forgiveness.” Bahá’u’lláh gave two reasons: only God forgives, and confession to another person humiliates, which God does not wish. Repentance is to be “between yourselves and God”. The Psalms are the model of that repentance, and the scribes’ question in Mark, “who can forgive sins but God only?”, states the principle. The epistle of James and the commission in John’s Gospel are the grounds on which Christians have confessed to one another and to priests; Proverbs warns the one who hides his sins.",
+ "questions": [
+  "What two objections do the readings make to confessing to another person?",
+  "James says mutual confession heals. What might be lost by forbidding it, and how could that be supplied?",
+  "What is the difference between confessing a sin to a person and apologizing to the person one has wronged?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-against-thee-only",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "adjacent",
+   "why": "Confession before human beings is not permissible; it leads to humiliation. David confessed to God: against thee, thee only, have I sinned."
+  },
+  {
+   "id": "james-pray-one-for-another",
+   "after": "source:BH00568",
+   "responds": [
+    "source:BH00568"
+   ],
+   "relation": "contrast",
+   "why": "James advised the practice the reading forbids: confess your faults one to another, and pray one for another, that ye may be healed. What good did he see in it, and what harm do the readings see?"
+  },
+  {
+   "id": "mark-who-can-forgive-sins-but-god",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "To none is it permitted to seek absolution from another soul. Who can forgive sins but God only?"
+  },
+  {
+   "id": "john-whose-soever-sins-ye-remit",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "contrast",
+   "why": "The church’s warrant for absolution is this verse: whose soever sins ye remit, they are remitted unto them. How do the readings understand the claim it was taken to make?"
+  },
+  {
+   "id": "john-epistle-confess-our-sins",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "No one may seek forgiveness from another. If we confess our sins, he is faithful and just to forgive us our sins."
+  },
+  {
+   "id": "luke-publican",
+   "after": "source:AB00168",
+   "responds": [
+    "source:AB00168"
+   ],
+   "relation": "adjacent",
+   "why": "The Prophets themselves confessed in their prayers. The publican would not lift up so much as his eyes unto heaven, but smote upon his breast, saying, God be merciful to me a sinner."
+  },
+  {
+   "id": "proverbs-covereth-his-sins",
+   "after": "selection:9d2d2c5ced591d03cfb09a7e",
+   "responds": [
+    "selection:9d2d2c5ced591d03cfb09a7e"
+   ],
+   "relation": "complement",
+   "why": "We are forbidden to confess to any person. He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy. Without a confessor, what keeps private repentance from becoming concealment?"
+  }
+ ],
+ "library": {
+  "mark-who-can-forgive-sins-but-god": {
+   "text": "Why doth this man thus speak blasphemies? who can forgive sins but God only",
+   "work": "Mark 2:7",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%202%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-covereth-his-sins": {
+   "text": "He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy",
+   "work": "Proverbs 28:13",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2028%3A13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
