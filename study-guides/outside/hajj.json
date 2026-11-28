@@ -1,0 +1,164 @@
+{
+ "format": 2,
+ "slug": "hajj",
+ "subject": "BC1DA81F657CE31747E11326EF6838A7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 16,
+ "quotations": 16,
+ "kept": [
+  "source:ABU1601",
+  "source:BH02075",
+  "source:BH01941",
+  "source:BH05292",
+  "source:BH01421",
+  "source:BB00084",
+  "source:ABU3121",
+  "source:BHU0071",
+  "source:ABU1227",
+  "source:ABU1119",
+  "source:AB01008",
+  "source:AB02821",
+  "source:BH05662",
+  "source:ABU1875",
+  "source:ABU1664",
+  "source:BB00077"
+ ],
+ "introduction": "For Bahá’u’lláh and ‘Abdu’l-Bahá the Muslim pilgrimage is first of all a proof of the power of a prophet’s word: one verse of the Qur’an, and for thirteen centuries multitudes have crossed deserts to a barren valley. They honour it, explain its rites as symbols, and observe that those who run to the House may fail to recognize its Lord when He appears. Jerusalem’s pilgrim psalms, Isaiah’s nations flowing to the mountain, and Chaucer’s April are the same impulse elsewhere. Jesus at the well, “neither in this mountain, nor yet at Jerusalem”, and Kabír’s “neither in Kaaba nor in Kailash” put the question the readings also raise.",
+ "questions": [
+  "What do the readings admire in the pilgrimage, and what do they warn the pilgrim about?",
+  "If God is worshipped “in spirit and in truth”, why do people still travel to holy places, and why do the readings not discourage it?",
+  "Reading 10 distinguishes bowing to a house from bowing toward it. Why does that distinction matter?"
+ ],
+ "outside": [
+  {
+   "id": "quran-pilgrimage-to-the-house",
+   "after": "source:ABU1601",
+   "responds": [
+    "source:ABU1601"
+   ],
+   "relation": "adjacent",
+   "why": "One verse, and millions travel. Pilgrimage to the House is a duty unto Allah for mankind, for him who can find a way thither."
+  },
+  {
+   "id": "quran-proclaim-the-pilgrimage",
+   "after": "source:ABU1601",
+   "responds": [
+    "source:ABU1601"
+   ],
+   "relation": "adjacent",
+   "why": "Proclaim unto mankind the pilgrimage: they will come unto thee on foot and on every lean camel, from every deep ravine."
+  },
+  {
+   "id": "isaiah-out-of-zion",
+   "after": "source:BH02075",
+   "responds": [
+    "source:BH02075"
+   ],
+   "relation": "adjacent",
+   "why": "Thirteen centuries on, the attraction of the Word still draws them. All nations shall flow unto it, and many people shall say, come ye, and let us go up to the mountain of the Lord."
+  },
+  {
+   "id": "chaucer-longen-folk-to-goon-on-pilgrimages",
+   "after": "source:BH01941",
+   "responds": [
+    "source:BH01941"
+   ],
+   "relation": "adjacent",
+   "why": "The power of this blessed word. Chaucer on the same impulse in Christendom: thanne longen folk to goon on pilgrimages."
+  },
+  {
+   "id": "psalm-i-was-glad",
+   "after": "source:BH05292",
+   "responds": [
+    "source:BH05292"
+   ],
+   "relation": "adjacent",
+   "why": "Thou didst visit His House. I was glad when they said unto me, let us go into the house of the Lord."
+  },
+  {
+   "id": "psalm-my-soul-longeth-even-fainteth",
+   "after": "source:BH01421",
+   "responds": [
+    "source:BH01421"
+   ],
+   "relation": "adjacent",
+   "why": "Those who left their homes for His. My soul longeth, yea, even fainteth for the courts of the Lord."
+  },
+  {
+   "id": "quran-their-flesh-reacheth-not-allah",
+   "after": "source:ABU3121",
+   "responds": [
+    "source:ABU3121"
+   ],
+   "relation": "adjacent",
+   "why": "Circumambulation is a symbol. Their flesh and their food reach not Allah, but the devotion from you reacheth Him."
+  },
+  {
+   "id": "quran-first-sanctuary",
+   "after": "source:ABU1227",
+   "responds": [
+    "source:ABU1227"
+   ],
+   "relation": "adjacent",
+   "why": "No soil so unproductive as that valley, and yet the House stands there. The first Sanctuary appointed for mankind was that at Becca, a blessed place."
+  },
+  {
+   "id": "genesis-jacob-set-up-a-pillar",
+   "after": "source:ABU1119",
+   "responds": [
+    "source:ABU1119"
+   ],
+   "relation": "adjacent",
+   "why": "One who bows toward the Ka‘bih bows to God, not to stone. Jacob set up the stone for a pillar, and called the name of that place Beth-el, the house of God."
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:AB01008",
+   "responds": [
+    "source:AB01008"
+   ],
+   "relation": "contrast",
+   "why": "They run a hundred thousand leagues to that Threshold, and miss the One it stands for. Jesus to the Samaritan woman: neither in this mountain, nor yet at Jerusalem; they that worship him must worship him in spirit and in truth. Does his saying leave any place for pilgrimage?"
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "source:AB01008",
+   "responds": [
+    "source:AB01008"
+   ],
+   "relation": "adjacent",
+   "why": "Kabír: O servant, where dost thou seek Me? I am neither in Kaaba nor in Kailash."
+  },
+  {
+   "id": "hebrews-strangers-and-pilgrims",
+   "after": "source:AB02821",
+   "responds": [
+    "source:AB02821"
+   ],
+   "relation": "adjacent",
+   "why": "Blows and hardships on the road to the House. They confessed that they were strangers and pilgrims on the earth."
+  },
+  {
+   "id": "bunyan-wilderness-of-this-world",
+   "after": "source:BH05662",
+   "responds": [
+    "source:BH05662"
+   ],
+   "relation": "complement",
+   "why": "A pilgrim who came on from the House to the Prisoner at ‘Akká. Bunyan’s dream of a pilgrim begins: as I walked through the wilderness of this world. Is the true pilgrimage in these readings a journey to a place, to a person, or neither?"
+  },
+  {
+   "id": "matthew-wise-men-from-the-east",
+   "after": "source:ABU1875",
+   "responds": [
+    "source:ABU1875"
+   ],
+   "relation": "adjacent",
+   "why": "Pilgrims passing through Baghdad met Bahá’u’lláh. There came wise men from the east, saying, where is he?"
+  }
+ ],
+ "shortfall": "Readings 6, 8, 15 and 16 concern dates, other shrines and a sect’s opinions, and have no companion.",
+ "library": {}
+}
