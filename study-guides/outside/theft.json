@@ -1,0 +1,93 @@
+{
+ "format": 2,
+ "slug": "theft",
+ "subject": "ACE872F0F216E74E3C232830B6081C4F",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 8,
+ "quotations": 9,
+ "kept": [
+  "source:BH02224",
+  "source:BH01105",
+  "source:BH02398",
+  "source:BH00005",
+  "source:AB01195",
+  "source:ABU1979",
+  "source:BH00001",
+  "source:BH01476"
+ ],
+ "introduction": "Bahá’u’lláh told His followers, at a time when Bábís’ and Bahá’ís’ goods were being confiscated with the clergy’s blessing, that they might not touch another’s property, an enemy’s included, and that no religious pretext excuses it. ‘Abdu’l-Bahá adds the observation that a man who burns one house is called a criminal and one who devastates a country a conqueror. The guide gathers these passages with the Kitáb-i-Aqdas’s penalty for theft. The eighth commandment, the enemy’s ox to be returned, Naboth’s vineyard and Nathan’s ewe lamb are the Hebrew Bible on the subject; Zacchaeus restores fourfold; and Paul’s rule for the thief is work and generosity.",
+ "questions": [
+  "Why does the first reading single out the property of an enemy?",
+  "Reading 6 compares the thief and the conqueror. What does the comparison expose?",
+  "What should be done with someone who steals: punish, restore, reform? What do the readings and Paul each stress?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-thine-enemys-ox",
+   "after": "source:BH02224",
+   "responds": [
+    "source:BH02224"
+   ],
+   "relation": "adjacent",
+   "why": "Those within God’s tabernacle will not seize even an enemy’s property. If thou meet thine enemy’s ox or his ass going astray, thou shalt surely bring it back to him again."
+  },
+  {
+   "id": "exodus-thou-shalt-not",
+   "after": "source:BH01105",
+   "responds": [
+    "source:BH01105"
+   ],
+   "relation": "adjacent",
+   "why": "All are commanded to be known for trustworthiness. Thou shalt not steal."
+  },
+  {
+   "id": "kings-naboths-vineyard",
+   "after": "source:BH02398",
+   "responds": [
+    "source:BH02398"
+   ],
+   "relation": "adjacent",
+   "why": "God’s curse on him who has usurped your rights. Ahab wanted Naboth’s vineyard, and Naboth said: the Lord forbid it me, that I should give the inheritance of my fathers unto thee."
+  },
+  {
+   "id": "samuel-one-little-ewe-lamb",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Those who lay hands on the property of others. The rich man spared his own flock, and took the poor man’s lamb."
+  },
+  {
+   "id": "luke-zacchaeus-fourfold",
+   "after": "source:AB01195",
+   "responds": [
+    "source:AB01195"
+   ],
+   "relation": "adjacent",
+   "why": "A question about property taken from believers. If I have taken any thing from any man by false accusation, I restore him fourfold."
+  },
+  {
+   "id": "ephesians-working-with-his-hands",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "Exile and imprisonment for the thief, and on the third offence a mark upon his brow. Paul’s whole provision: let him that stole steal no more: but rather let him labour, that he may have to give to him that needeth. The Aqdas penalty awaits a future society’s legislation. What should a penalty for theft aim at?"
+  },
+  {
+   "id": "matthew-treasures-in-heaven",
+   "after": "source:BH01476",
+   "responds": [
+    "source:BH01476"
+   ],
+   "relation": "adjacent",
+   "why": "The possessions of the sincere are under protection. Lay not up for yourselves treasures upon earth, where thieves break through and steal."
+  }
+ ],
+ "shortfall": "No companion was found for reading 6, which compares the thief with the conqueror who plunders a country.",
+ "library": {}
+}
