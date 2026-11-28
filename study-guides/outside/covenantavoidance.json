@@ -1,0 +1,502 @@
+{
+ "format": 2,
+ "slug": "covenantavoidance",
+ "subject": "1A971A1344BAEBC011C3866BFE27B179",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 70,
+ "quotations": 71,
+ "kept": [
+  "source:AB00204",
+  "source:BH06749",
+  "source:AB02368",
+  "source:AB01519",
+  "source:AB00761",
+  "source:AB00492",
+  "source:ABU2638",
+  "source:AB00048",
+  "source:AB05624",
+  "source:ABU1268",
+  "source:AB01628",
+  "source:AB00873",
+  "source:BH03854",
+  "source:BH02089",
+  "source:AB12529",
+  "source:AB02430",
+  "source:AB02463",
+  "source:AB00024",
+  "source:ABU1972",
+  "source:AB02067",
+  "source:BH00903",
+  "source:BH02110",
+  "source:BH02115",
+  "source:BH00837",
+  "source:BH01854",
+  "source:BH02973",
+  "source:BH04187",
+  "source:BH01569",
+  "source:BH06944",
+  "source:BH08369",
+  "source:BH10539",
+  "source:AB00332",
+  "source:BH00853",
+  "source:AB06616",
+  "source:AB02183",
+  "source:AB11246",
+  "source:AB04274",
+  "source:AB03071",
+  "source:AB01082",
+  "source:BH04854",
+  "source:BH07976",
+  "source:BH08454",
+  "source:BH00450",
+  "source:AB02996",
+  "source:AB01055",
+  "source:AB00826",
+  "source:AB00119",
+  "source:ABU0412",
+  "source:AB01037",
+  "source:AB01248",
+  "source:AB03122",
+  "source:AB04584",
+  "source:AB02900",
+  "source:AB00001",
+  "source:AB11122",
+  "source:AB11467",
+  "source:AB11468",
+  "source:AB12757",
+  "source:ABU2073",
+  "source:AB01316",
+  "source:ABU0522",
+  "source:ABU3182",
+  "source:AB04593",
+  "source:AB08760",
+  "source:AB03296",
+  "source:AB05082",
+  "source:AB01455",
+  "source:ABU1634",
+  "source:AB07420",
+  "source:BH06199"
+ ],
+ "introduction": "A Covenant-breaker, in Bahá’í usage, is not someone who leaves the Faith or sins against its laws but one who, claiming to be a believer, sets out to divide the community by opposing the centre to which Bahá’u’lláh’s Covenant directs it. The writings forbid association with such persons, and this guide gathers the instructions: do not molest them, do not argue with them, do not expose them; leave them to themselves, do not receive them, and accept them back if they repent. The disease metaphors are ‘Abdu’l-Bahá’s own. The nearest parallels are in the New Testament’s later letters, and they are close: “mark them which cause divisions … and avoid them”, “receive him not into your house”, “a little leaven”. The Qur’an says “sit not with them”. Jesus’s table with sinners, “love your enemies”, the parable of the tares, Mill on hearing the other side and Frost’s wall are set here because any reader will think of them.",
+ "questions": [
+  "How do the readings distinguish a Covenant-breaker from a sinner, a doubter, or someone who has simply left?",
+  "Reading 2 forbids molesting, and reading 4 forbids exposing. What do these limits protect?",
+  "Jesus ate with sinners, and Paul said to avoid those who cause divisions. Are they talking about the same kind of person?",
+  "Mill argues that a belief which cannot face opposition is held as a prejudice. How might the readings answer him?",
+  "What is the place of repentance in these passages?",
+  "The readings speak of contagion. When is that metaphor apt for ideas, and when dangerous?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-sheeps-clothing",
+   "after": "source:AB00204",
+   "responds": [
+    "source:AB00204"
+   ],
+   "relation": "adjacent",
+   "why": "Let no sweetness of tongue beguile you; consider the motive. Beware of false prophets, which come to you in sheep’s clothing."
+  },
+  {
+   "id": "proverbs-rejoice-not-when-thine-enemy-falleth",
+   "after": "source:BH06749",
+   "responds": [
+    "source:BH06749"
+   ],
+   "relation": "adjacent",
+   "why": "A stern prohibition against molesting the deluded person. Rejoice not when thine enemy falleth."
+  },
+  {
+   "id": "quran-sunder-their-religion-no-concern",
+   "after": "source:AB02368",
+   "responds": [
+    "source:AB02368"
+   ],
+   "relation": "adjacent",
+   "why": "Neither conflict nor association: leave them to themselves. As for those who sunder their religion and become schismatics, no concern at all hast thou with them. Their case will go to Allah."
+  },
+  {
+   "id": "matthew-wheat-and-tares",
+   "after": "source:AB01519",
+   "responds": [
+    "source:AB01519"
+   ],
+   "relation": "adjacent",
+   "why": "Neither follow them nor expose them. Wilt thou that we gather up the tares? Nay; lest ye root up also the wheat with them. Let both grow together until the harvest."
+  },
+  {
+   "id": "proverbs-answer-not-a-fool",
+   "after": "source:AB00761",
+   "responds": [
+    "source:AB00761"
+   ],
+   "relation": "adjacent",
+   "why": "A stone for every barking dog would make stones scarce. Answer not a fool according to his folly, lest thou also be like unto him."
+  },
+  {
+   "id": "john-epistle-went-out-from-us",
+   "after": "source:AB00492",
+   "responds": [
+    "source:AB00492"
+   ],
+   "relation": "adjacent",
+   "why": "Such affairs are foam upon the sea. They went out from us, but they were not of us."
+  },
+  {
+   "id": "titus-heretick-reject",
+   "after": "source:ABU2638",
+   "responds": [
+    "source:ABU2638"
+   ],
+   "relation": "adjacent",
+   "why": "Do not admit her to your meetings; leave her to herself. A man that is an heretick after the first and second admonition reject."
+  },
+  {
+   "id": "thessalonians-admonish-as-a-brother",
+   "after": "source:AB00048",
+   "responds": [
+    "source:AB00048"
+   ],
+   "relation": "complement",
+   "why": "Shun their company, “unless they repent”. Paul: have no company with him, that he may be ashamed; yet count him not as an enemy, but admonish him as a brother. Do the readings keep both halves of Paul’s sentence?"
+  },
+  {
+   "id": "acts-grievous-wolves",
+   "after": "source:AB05624",
+   "responds": [
+    "source:AB05624"
+   ],
+   "relation": "adjacent",
+   "why": "Those who seek to breach the fortress. After my departing shall grievous wolves enter in among you; also of your own selves shall men arise, to draw away disciples after them."
+  },
+  {
+   "id": "galatians-ye-did-run-well",
+   "after": "source:ABU1268",
+   "responds": [
+    "source:ABU1268"
+   ],
+   "relation": "adjacent",
+   "why": "Deviation must be prevented from the very beginning. A little leaven leaveneth the whole lump."
+  },
+  {
+   "id": "bacon-breach-of-unity",
+   "after": "source:ABU1268",
+   "responds": [
+    "source:ABU1268"
+   ],
+   "relation": "adjacent",
+   "why": "Bacon: heresies and schisms are of all others the greatest scandals; a wound or solution of continuity is worse than a corrupt humour."
+  },
+  {
+   "id": "timothy-resurrection-is-past-already",
+   "after": "source:BH03854",
+   "responds": [
+    "source:BH03854"
+   ],
+   "relation": "adjacent",
+   "why": "Preserve the people from whisperings. Shun profane and vain babblings: their word will eat as doth a canker."
+  },
+  {
+   "id": "galatians-any-other-gospel",
+   "after": "source:AB12529",
+   "responds": [
+    "source:AB12529"
+   ],
+   "relation": "adjacent",
+   "why": "Should anyone come secretly and call you to waver. Though we, or an angel from heaven, preach any other gospel unto you, let him be accursed."
+  },
+  {
+   "id": "romans-mark-them-which-cause-divisions",
+   "after": "source:AB02430",
+   "responds": [
+    "source:AB02430"
+   ],
+   "relation": "adjacent",
+   "why": "Avoid those who strive to break the Covenant. Mark them which cause divisions and offences contrary to the doctrine which ye have learned; and avoid them."
+  },
+  {
+   "id": "john-epistle-receive-him-not",
+   "after": "source:AB00024",
+   "responds": [
+    "source:AB00024"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh forbade consorting with violators. If there come any unto you, and bring not this doctrine, receive him not into your house, neither bid him God speed."
+  },
+  {
+   "id": "corinthians-not-to-company",
+   "after": "source:ABU1972",
+   "responds": [
+    "source:ABU1972"
+   ],
+   "relation": "adjacent",
+   "why": "The exhortation is not against all sinners but against Covenant-breakers. Paul made the same distinction: not to company with such inside the church, yet not altogether with the sinners of this world, for then must ye needs go out of the world."
+  },
+  {
+   "id": "proverbs-walketh-with-wise-men",
+   "after": "source:AB02067",
+   "responds": [
+    "source:AB02067"
+   ],
+   "relation": "adjacent",
+   "why": "Associate with the righteous to inhale holy breaths. He that walketh with wise men shall be wise: but a companion of fools shall be destroyed."
+  },
+  {
+   "id": "psalm-counsel-of-the-ungodly",
+   "after": "source:BH00903",
+   "responds": [
+    "source:BH00903"
+   ],
+   "relation": "adjacent",
+   "why": "Sit not with those in whom you perceive malice. Blessed is the man that sitteth not in the seat of the scornful."
+  },
+  {
+   "id": "matthew-tell-it-unto-the-church",
+   "after": "source:BH00837",
+   "responds": [
+    "source:BH00837"
+   ],
+   "relation": "adjacent",
+   "why": "If a brother or sister has turned away, turn away from that one. Jesus prescribed three approaches first; then, let him be unto thee as an heathen man and a publican."
+  },
+  {
+   "id": "luke-receiveth-sinners",
+   "after": "source:BH00837",
+   "responds": [
+    "source:BH00837"
+   ],
+   "relation": "contrast",
+   "why": "Yet publicans were exactly whom Jesus kept company with: this man receiveth sinners, and eateth with them. How is shunning a Covenant-breaker different from what the Pharisees wanted of Jesus?"
+  },
+  {
+   "id": "matthew-pray-for-persecutors",
+   "after": "source:BH01854",
+   "responds": [
+    "source:BH01854"
+   ],
+   "relation": "contrast",
+   "why": "Befriend them not even for an instant. Love your enemies, bless them that curse you. Can one love a person one is forbidden to meet? What would that love consist of?"
+  },
+  {
+   "id": "quran-choose-not-my-enemy-for-friends",
+   "after": "source:BH01569",
+   "responds": [
+    "source:BH01569"
+   ],
+   "relation": "adjacent",
+   "why": "Sit not with Mine enemies. O ye who believe! Choose not My enemy and your enemy for allies."
+  },
+  {
+   "id": "corinthians-unequally-yoked",
+   "after": "source:BH06944",
+   "responds": [
+    "source:BH06944"
+   ],
+   "relation": "adjacent",
+   "why": "Not to deal in a friendly manner with the enemies of God. What communion hath light with darkness?"
+  },
+  {
+   "id": "quran-sit-not-with-them",
+   "after": "source:BH00853",
+   "responds": [
+    "source:BH00853"
+   ],
+   "relation": "adjacent",
+   "why": "Sit not with them, nor draw nigh. When ye hear the revelations of Allah rejected and derided, sit not with them until they engage in some other conversation."
+  },
+  {
+   "id": "acts-if-it-be-of-men",
+   "after": "source:AB02183",
+   "responds": [
+    "source:AB02183"
+   ],
+   "relation": "adjacent",
+   "why": "Doubts are foam; the sea will cast them on the shore. Gamaliel: if this counsel or this work be of men, it will come to nought."
+  },
+  {
+   "id": "corinthians-evil-communications",
+   "after": "source:AB11246",
+   "responds": [
+    "source:AB11246"
+   ],
+   "relation": "adjacent",
+   "why": "He who sits with a leper catches leprosy. Evil communications corrupt good manners."
+  },
+  {
+   "id": "sirach-toucheth-pitch",
+   "after": "source:AB11246",
+   "responds": [
+    "source:AB11246"
+   ],
+   "relation": "adjacent",
+   "why": "Ben Sira has the proverb the reading’s image descends from: he that toucheth pitch shall be defiled therewith."
+  },
+  {
+   "id": "mill-his-own-side-of-the-case",
+   "after": "source:AB04274",
+   "responds": [
+    "source:AB04274"
+   ],
+   "relation": "contrast",
+   "why": "Banish the tubercular one; there is no other remedy. Mill thought it the mark of a living faith that it could hear its opponents: he who knows only his own side of the case knows little of that. The readings distinguish honest doubt from deliberate subversion. Who decides which is which, and what protects the honest doubter?"
+  },
+  {
+   "id": "frost-mending-wall",
+   "after": "source:AB00826",
+   "responds": [
+    "source:AB00826"
+   ],
+   "relation": "complement",
+   "why": "Admit only those bearing a letter of permission. Frost: before I built a wall I’d ask to know what I was walling in or walling out, and to whom I was like to give offence. What do the readings say is being walled in?"
+  },
+  {
+   "id": "luke-betrayest-with-a-kiss",
+   "after": "source:ABU0522",
+   "responds": [
+    "source:ABU0522"
+   ],
+   "relation": "adjacent",
+   "why": "“If a Judas-like person should sell Christ.” Judas, betrayest thou the Son of man with a kiss?"
+  },
+  {
+   "id": "matthew-seventy-times-seven",
+   "after": "source:ABU3182",
+   "responds": [
+    "source:ABU3182"
+   ],
+   "relation": "complement",
+   "why": "No association at all with those against the Centre of the Covenant. How oft shall my brother sin against me, and I forgive him? Until seventy times seven. Reading 8 leaves the door open to repentance. Is forgiving a person compatible with refusing his company?"
+  },
+  {
+   "id": "proverbs-where-no-talebearer-strife-ceaseth",
+   "after": "source:AB08760",
+   "responds": [
+    "source:AB08760"
+   ],
+   "relation": "adjacent",
+   "why": "Such persons should never be mentioned to anyone. Where there is no talebearer, the strife ceaseth."
+  },
+  {
+   "id": "matthew-blind-leaders",
+   "after": "source:AB03296",
+   "responds": [
+    "source:AB03296"
+   ],
+   "relation": "adjacent",
+   "why": "Leave them in their stupefaction. Let them alone: they be blind leaders of the blind."
+  },
+  {
+   "id": "matthew-i-have-sinned-innocent-blood",
+   "after": "source:ABU1634",
+   "responds": [
+    "source:ABU1634"
+   ],
+   "relation": "adjacent",
+   "why": "She begged pardon, and broke her word again. Judas repented himself, and brought again the thirty pieces of silver, saying, I have sinned."
+  },
+  {
+   "id": "psalm-create-in-me-a-clean-heart",
+   "after": "source:BH06199",
+   "responds": [
+    "source:BH06199"
+   ],
+   "relation": "adjacent",
+   "why": "A closing prayer for protection. Create in me a clean heart, O God; and renew a right spirit within me."
+  }
+ ],
+ "shortfall": "Half the readings are messages about particular persons or repeat the instruction to shun in nearly the same words; one companion was given to each distinct instruction.",
+ "library": {
+  "thessalonians-withdraw-yourselves": {
+   "text": "Now we command you, brethren, in the name of our Lord Jesus Christ, that ye withdraw yourselves from every brother that walketh disorderly, and not after the tradition which he received of us",
+   "work": "2 Thessalonians 3:6",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%203%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-receiveth-sinners": {
+   "text": "Then drew near unto him all the publicans and sinners for to hear him. And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them",
+   "work": "Luke 15:1–2",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2015%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-choose-not-my-enemy-for-friends": {
+   "text": "O ye who believe! Choose not My enemy and your enemy for allies. Do ye give them friendship when they disbelieve in that truth which hath come unto you, driving out the messenger and you because ye believe in Allah, your Lord? If ye have come forth to strive in My way and seeking My good pleasure, (show them not friendship). Do ye show friendship unto them in secret, when I am Best Aware of what ye hide and what ye proclaim? And whosoever doeth it among you, he verily hath strayed from the right way. Yusuf Ali: O ye who believe! Take not my enemies and yours as friends (or protectors),- offering them (your) love, even though they have rejected the Truth that has come to you, and have (on the contrary) driven out the Prophet and yourselves (from your homes), (simply) because ye believe in Allah your Lord! If ye have come out to strive in My Way and to seek My Good Pleasure, (take them not as friends), holding secret converse of love (and friendship) with them: for I know full well all that ye conceal and all that ye reveal. And any of you that does this has strayed from the Straight Path. Shakir: O you who believe! do not take My enemy and your enemy for friends",
+   "work": "Qur’an 60:1",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=60&verse=1",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "sirach-toucheth-pitch": {
+   "text": "He that toucheth pitch shall be defiled therewith; and he that hath fellowship with a proud man shall be like unto him",
+   "work": "Ecclesiasticus (Sirach)",
+   "locator": "13:1",
+   "year": "2nd century BCE",
+   "sortYear": -180,
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiasticus",
+    "label": "Wikisource",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\b\\d+\\s+"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "King James Version, 1611."
+   }
+  }
+ }
+}
