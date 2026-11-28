@@ -1,0 +1,422 @@
+{
+ "format": 2,
+ "slug": "mosaicimagery",
+ "subject": "924E29A008BEE398A06D6EE4C7284B14",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 39,
+ "kept": [
+  "source:AB02969",
+  "source:BH04124",
+  "source:AB07580",
+  "source:AB00342",
+  "source:BH03112",
+  "source:ABU2649",
+  "source:BH09796",
+  "source:BH04316",
+  "source:BH06837",
+  "source:BH00505",
+  "source:BH03393",
+  "source:BH03775",
+  "source:BH10360",
+  "source:BH07382",
+  "source:BH04438",
+  "source:AB04926",
+  "source:AB04912",
+  "source:AB07064",
+  "source:BH06106",
+  "source:BH07691",
+  "source:BH07687",
+  "source:AB05365",
+  "source:AB01588",
+  "source:AB08804",
+  "source:ABU3376",
+  "source:BH02218",
+  "source:AB04801",
+  "source:AB05547",
+  "source:AB06091",
+  "source:ABU2948",
+  "source:AB05264",
+  "source:AB04064",
+  "source:AB07160",
+  "source:BH11103",
+  "source:AB02829",
+  "source:AB09601",
+  "source:AB09718",
+  "selection:a6efccaccbf9cd9cfc08e4fa"
+ ],
+ "introduction": "In Bahá’u’lláh’s and ‘Abdu’l-Bahá’s letters the story of Moses is a living vocabulary. A believer has “beheld the burning fire in the Tree”, Sinai “is astir with joy”, a man named Músá is reminded that the name means “drawn from the water”, a chest is “the Ark of the Covenant”, Joseph is sold again and Jacob’s sight restored. This guide collects such passages. Exodus and the Qur’an tell the scenes they draw on, the bush, the call and “Here am I”, the mountain that quaked, the request to see God, the white hand; Deuteronomy’s “the Lord came from Sinai … he shined forth from mount Paran” is the verse behind readings 16 and 17; the Psalm on Aaron’s beard and the Qur’an’s verses on the Ark and on Joseph are the ones the readings quote. Elizabeth Barrett Browning made the bush a figure for all seeing, and Maimonides stated the rule of reading by which these images are applied anew.",
+ "questions": [
+  "Choose three images in the guide (the fire in the tree, Sinai, Jacob’s restored sight) and say what each is used to mean now.",
+  "What is gained by telling someone “thou hast beheld the burning fire” instead of “you have come to believe”?",
+  "Reading 13 speaks of “dwellers of Sinai” who turned away. What does the story of the golden calf add to the Sinai imagery?",
+  "These letters assume readers who know the stories well. What happens to such language when the stories are forgotten?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:AB02969",
+   "responds": [
+    "source:AB02969"
+   ],
+   "relation": "adjacent",
+   "why": "Moses beheld the flame of guidance from the blessed tree. The bush burned with fire, and the bush was not consumed."
+  },
+  {
+   "id": "quran-from-the-tree-o-moses",
+   "after": "source:AB02969",
+   "responds": [
+    "source:AB02969"
+   ],
+   "relation": "adjacent",
+   "why": "He was called from the right side of the valley in the blessed field, from the tree: O Moses! Lo! I, even I, am Allah."
+  },
+  {
+   "id": "exodus-put-off-thy-shoes",
+   "after": "source:BH04124",
+   "responds": [
+    "source:BH04124"
+   ],
+   "relation": "adjacent",
+   "why": "The call that guided Moses on the Mount. Moses, Moses. And he said, Here am I. Put off thy shoes from off thy feet."
+  },
+  {
+   "id": "quran-i-see-a-fire-afar-off",
+   "after": "source:AB07580",
+   "responds": [
+    "source:AB07580"
+   ],
+   "relation": "adjacent",
+   "why": "“Thou hast beheld the burning fire in the Tree of Sanctification.” Lo! I see a fire afar off. Peradventure I may find guidance at the fire."
+  },
+  {
+   "id": "browning-earths-crammed-with-heaven",
+   "after": "source:AB07580",
+   "responds": [
+    "source:AB07580"
+   ],
+   "relation": "adjacent",
+   "why": "Elizabeth Barrett Browning: every common bush afire with God; but only he who sees, takes off his shoes."
+  },
+  {
+   "id": "revelation-golden-reed",
+   "after": "source:AB00342",
+   "responds": [
+    "source:AB00342"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this verse: he that talked with me had a golden reed to measure the city."
+  },
+  {
+   "id": "quran-moses-show-me",
+   "after": "source:BH03112",
+   "responds": [
+    "source:BH03112"
+   ],
+   "relation": "adjacent",
+   "why": "Drawn to the Mount, he attained the vision. My Lord! Show me Thy self, that I may gaze upon Thee. He said: Thou wilt not see Me, but gaze upon the mountain."
+  },
+  {
+   "id": "samuel-speak-lord",
+   "after": "source:BH09796",
+   "responds": [
+    "source:BH09796"
+   ],
+   "relation": "adjacent",
+   "why": "The same call is raised today. Speak, Lord; for thy servant heareth."
+  },
+  {
+   "id": "exodus-i-am-that-i-am",
+   "after": "source:BH04316",
+   "responds": [
+    "source:BH04316"
+   ],
+   "relation": "adjacent",
+   "why": "What the Interlocutor heard on Sinai. And God said unto Moses, I AM THAT I AM."
+  },
+  {
+   "id": "exodus-thunders-and-lightnings",
+   "after": "source:BH00505",
+   "responds": [
+    "source:BH00505"
+   ],
+   "relation": "adjacent",
+   "why": "Mount Sinai is astir with joy. There were thunders and lightnings, and a thick cloud upon the mount, and the whole mount quaked greatly."
+  },
+  {
+   "id": "psalm-fire-and-hail",
+   "after": "source:BH00505",
+   "responds": [
+    "source:BH00505"
+   ],
+   "relation": "adjacent",
+   "why": "A mountain that lifts its voice in praise. Praise the Lord from the earth: mountains, and all hills."
+  },
+  {
+   "id": "kings-chariots-of-fire",
+   "after": "source:BH03775",
+   "responds": [
+    "source:BH03775"
+   ],
+   "relation": "adjacent",
+   "why": "With the inner eyes, behold Sinai. Lord, open his eyes, that he may see."
+  },
+  {
+   "id": "exodus-these-be-thy-gods-o-israel",
+   "after": "source:BH10360",
+   "responds": [
+    "source:BH10360"
+   ],
+   "relation": "adjacent",
+   "why": "Dwellers of Sinai who turned to something else. These be thy gods, O Israel, which brought thee up out of the land of Egypt."
+  },
+  {
+   "id": "deuteronomy-mount-paran",
+   "after": "source:AB04926",
+   "responds": [
+    "source:AB04926"
+   ],
+   "relation": "adjacent",
+   "why": "The chant quotes Moses’s last blessing: the Lord came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran."
+  },
+  {
+   "id": "genesis-lay-not-thine-hand-upon-the-lad",
+   "after": "source:BH06106",
+   "responds": [
+    "source:BH06106"
+   ],
+   "relation": "adjacent",
+   "why": "Crying “Here am I, here am I.” Abraham, Abraham: and he said, Here am I."
+  },
+  {
+   "id": "exodus-let-my-people-go",
+   "after": "source:BH07691",
+   "responds": [
+    "source:BH07691"
+   ],
+   "relation": "adjacent",
+   "why": "Protected from the Pharaoh of the age. Let my people go. And Pharaoh said, Who is the Lord, that I should obey his voice?"
+  },
+  {
+   "id": "quran-white-hand",
+   "after": "source:AB05365",
+   "responds": [
+    "source:AB05365"
+   ],
+   "relation": "adjacent",
+   "why": "A dream of two blistered hands interpreted. The hand of Moses: it will come forth white without hurt."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:AB01588",
+   "responds": [
+    "source:AB01588"
+   ],
+   "relation": "adjacent",
+   "why": "A namesake of Moses, “drawn from the water”. He who was drawn out said: I am slow of speech, and of a slow tongue."
+  },
+  {
+   "id": "quran-ark-wherein-is-peace-of-reassurance",
+   "after": "source:AB08804",
+   "responds": [
+    "source:AB08804"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this verse: the token of his kingdom is that there shall come unto you the ark wherein is peace of reassurance from your Lord."
+  },
+  {
+   "id": "psalm-aarons-beard",
+   "after": "source:ABU3376",
+   "responds": [
+    "source:ABU3376"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this psalm: it is like the precious ointment upon the head, that ran down upon the beard, even Aaron’s beard."
+  },
+  {
+   "id": "quran-sold-him-for-a-low-price",
+   "after": "source:BH02218",
+   "responds": [
+    "source:BH02218"
+   ],
+   "relation": "adjacent",
+   "why": "The Divine Joseph bartered for a paltry price. And they sold him for a low price, a number of silver coins; and they attached no value to him."
+  },
+  {
+   "id": "genesis-hated-him-and-could-not-speak-peaceably",
+   "after": "source:AB04801",
+   "responds": [
+    "source:AB04801"
+   ],
+   "relation": "adjacent",
+   "why": "The brothers’ evening tears. They hated him, and could not speak peaceably unto him."
+  },
+  {
+   "id": "quran-became-a-seer",
+   "after": "source:AB06091",
+   "responds": [
+    "source:AB06091"
+   ],
+   "relation": "adjacent",
+   "why": "Like Jacob, whose eyes were opened by the blessing of the garment. When the bearer of glad tidings came, he laid it on his face and he became a seer once more."
+  },
+  {
+   "id": "kings-queen-of-sheba",
+   "after": "source:AB05264",
+   "responds": [
+    "source:AB05264"
+   ],
+   "relation": "adjacent",
+   "why": "A breeze through the Sheba of Solomon. The queen of Sheba heard of the fame of Solomon, and came to prove him with hard questions."
+  },
+  {
+   "id": "psalm-thy-face-will-i-seek",
+   "after": "source:AB04064",
+   "responds": [
+    "source:AB04064"
+   ],
+   "relation": "adjacent",
+   "why": "Ye who seek His countenance, turn wholly. Thy face, Lord, will I seek."
+  },
+  {
+   "id": "exodus-face-shone",
+   "after": "source:AB07160",
+   "responds": [
+    "source:AB07160"
+   ],
+   "relation": "adjacent",
+   "why": "Like Moses thou hast seen the flame of the Mount. The skin of his face shone, and he wist not."
+  },
+  {
+   "id": "corinthians-last-trump",
+   "after": "source:BH11103",
+   "responds": [
+    "source:BH11103"
+   ],
+   "relation": "adjacent",
+   "why": "The Trumpet has sounded. The trumpet shall sound, and the dead shall be raised incorruptible."
+  },
+  {
+   "id": "psalm-tree-by-the-rivers",
+   "after": "source:AB09718",
+   "responds": [
+    "source:AB09718"
+   ],
+   "relation": "adjacent",
+   "why": "Stand firm like a tree firmly rooted. Like a tree planted by the rivers of water, that bringeth forth his fruit in his season."
+  },
+  {
+   "id": "matthew-prophets-desired-to-see",
+   "after": "selection:a6efccaccbf9cd9cfc08e4fa",
+   "responds": [
+    "selection:a6efccaccbf9cd9cfc08e4fa"
+   ],
+   "relation": "adjacent",
+   "why": "Ears today hear what Moses heard. Many prophets and righteous men have desired to hear those things which ye hear, and have not heard them."
+  },
+  {
+   "id": "maimonides-wolf-is-a-metaphor",
+   "after": "selection:a6efccaccbf9cd9cfc08e4fa",
+   "responds": [
+    "selection:a6efccaccbf9cd9cfc08e4fa"
+   ],
+   "relation": "complement",
+   "why": "The whole guide reads Sinai, the bush, Joseph and the Ark as figures of the present. Maimonides allowed such reading for prophecy: these words are a metaphor and a parable. What does it do to the original stories to read them so?"
+  }
+ ],
+ "shortfall": "Readings 6, 9, 11, 14, 15, 17, 18, 21, 28, 30, 35 and 36 are salutations that repeat the Sinai image or concern persons; they share their neighbours’ companions.",
+ "library": {
+  "psalm-aarons-beard": {
+   "text": "It is like the precious ointment upon the head, that ran down upon the beard, even Aaron's beard: that went down to the skirts of his garments; As the dew of Hermon, and as the dew that descended upon the mountains of Zion: for there the Lord commanded the blessing, even life for evermore",
+   "work": "Psalm 133:2–3",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%20133%3A2-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "revelation-golden-reed": {
+   "text": "And he that talked with me had a golden reed to measure the city, and the gates thereof, and the wall thereof",
+   "work": "Revelation 21:15",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Revelation%2021%3A15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-ark-wherein-is-peace-of-reassurance": {
+   "text": "And their Prophet said unto them: Lo! the token of his kingdom is that there shall come unto you the ark wherein is peace of reassurance from your Lord, and a remnant of that which the house of Moses and the house of Aaron left behind, the angels bearing it. Lo! herein shall be a token for you if (in truth) ye are believers.",
+   "work": "Qur’an 2:248",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=248",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-sold-him-for-a-low-price": {
+   "text": "And they sold him for a low price, a number of silver coins; and they attached no value to him.",
+   "work": "Qur’an 12:20",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=12&verse=20",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}
