@@ -1,0 +1,252 @@
+{
+ "format": 2,
+ "slug": "physicallimits",
+ "subject": "12119CC76EF849FF97AEEF4858C87628",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 13,
+ "quotations": 16,
+ "kept": [
+  "source:ABU0076",
+  "source:BH00002",
+  "source:ABU1656",
+  "source:AB00747",
+  "source:ABU1649",
+  "source:ABU3576",
+  "source:ABU1363",
+  "source:ABU1893",
+  "source:BH00958",
+  "selection:992f1801901cb7cadd49e340",
+  "selection:780ce28e18ac32ab1c9db803",
+  "selection:8b4d030c6c7ac6e2fb95e921",
+  "selection:063deccf50851ecdb8a7fcf7"
+ ],
+ "introduction": "“The people noticed that Jesus Christ was the same as all other men as regards eating, drinking, sleeping, sickness, fatigue.” These readings take up what follows from that: the Manifestation of God has a body and its needs, and the body’s weakness was always a reason people gave for disbelief; the readings distinguish that station from the spirit’s and draw from it a lesson in patience with oneself. The Gospels are frank about it: Jesus hungry, asleep in the boat, tired at the well, sorrowful unto death, thirsting on the cross; Hebrews makes it a ground of trust. The Qur’an records the objection, “he eateth food and walketh in the markets”, and makes the same fact its own argument about Jesus and about Muhammad. Elijah’s “it is enough” is the despair reading 13 remembers, and the bones of Elisha stand for the view of relics that reading 11 declines.",
+ "questions": [
+  "Why should ordinary bodily needs have been an obstacle to belief? What were people expecting?",
+  "The Gospels do not hide that Jesus was weary, hungry and afraid. What would be lost if they had?",
+  "Reading 7 separates the sorrow of the body from the willingness of the spirit. Does the distinction make the suffering less, or explain how it could be borne?",
+  "Reading 13 turns the Prophets’ exhaustion into counsel: be “infinitely patient” with others and with “our own poor selves”. How does that follow?"
+ ],
+ "outside": [
+  {
+   "id": "quran-walketh-in-the-markets",
+   "after": "source:ABU0076",
+   "responds": [
+    "source:ABU0076"
+   ],
+   "relation": "adjacent",
+   "why": "People saw that Jesus ate, drank, slept and tired like other men. The Meccans said of Muhammad: what aileth this messenger that he eateth food and walketh in the markets?"
+  },
+  {
+   "id": "mark-asleep-on-a-pillow",
+   "after": "source:ABU0076",
+   "responds": [
+    "source:ABU0076"
+   ],
+   "relation": "adjacent",
+   "why": "Sleeping is among the things named. In the storm he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish?"
+  },
+  {
+   "id": "philippians-form-of-a-servant",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The immortal Beauty in the image of mortal man. He took upon him the form of a servant, and was made in the likeness of men."
+  },
+  {
+   "id": "quran-messiah-no-other-than-a-messenger",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an uses the same evidence for its own conclusion: the Messiah, son of Mary, was no other than a messenger; and they both used to eat earthly food."
+  },
+  {
+   "id": "matthew-foxes-have-holes",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Poverty among the limitations named. The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head."
+  },
+  {
+   "id": "isaiah-man-of-sorrows",
+   "after": "source:ABU1656",
+   "responds": [
+    "source:ABU1656"
+   ],
+   "relation": "adjacent",
+   "why": "Those who saw the suffering body doubted he could be the Messiah. He is despised and rejected of men; a man of sorrows, and acquainted with grief."
+  },
+  {
+   "id": "hebrews-come-boldly",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "Three stations, the first of them bodily. We have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are."
+  },
+  {
+   "id": "quran-but-a-messenger",
+   "after": "source:AB00747",
+   "responds": [
+    "source:AB00747"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an at the moment the community feared he had been killed: Muhammad is but a messenger, messengers have passed away before him. Will it be that, when he dieth or is slain, ye will turn back?"
+  },
+  {
+   "id": "matthew-afterward-an-hungred",
+   "after": "source:ABU1649",
+   "responds": [
+    "source:ABU1649"
+   ],
+   "relation": "adjacent",
+   "why": "In His last years He hardly ate. When he had fasted forty days and forty nights, he was afterward an hungred."
+  },
+  {
+   "id": "john-cannot-bear-them-now",
+   "after": "source:ABU3576",
+   "responds": [
+    "source:ABU3576"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations are limited only by the capacity of those they address. I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "matthew-exceeding-sorrowful",
+   "after": "source:ABU1363",
+   "responds": [
+    "source:ABU1363"
+   ],
+   "relation": "adjacent",
+   "why": "The reading explains this scene: my soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me."
+  },
+  {
+   "id": "matthew-spirit-willing",
+   "after": "source:ABU1363",
+   "responds": [
+    "source:ABU1363"
+   ],
+   "relation": "adjacent",
+   "why": "And the sentence the reading’s distinction rests on: the spirit indeed is willing, but the flesh is weak."
+  },
+  {
+   "id": "john-i-thirst",
+   "after": "source:ABU1893",
+   "responds": [
+    "source:ABU1893"
+   ],
+   "relation": "adjacent",
+   "why": "Bodily sufferings come and pass away, the reading says, and the spirit remains. The plainest record of the bodily kind, from the cross: I thirst."
+  },
+  {
+   "id": "john-wearied-with-his-journey",
+   "after": "source:BH00958",
+   "responds": [
+    "source:BH00958"
+   ],
+   "relation": "adjacent",
+   "why": "The Manifestations have always appeared without earthly dominion. Jesus therefore, being wearied with his journey, sat thus on the well."
+  },
+  {
+   "id": "kings-bones-of-elisha",
+   "after": "selection:780ce28e18ac32ab1c9db803",
+   "responds": [
+    "selection:780ce28e18ac32ab1c9db803"
+   ],
+   "relation": "contrast",
+   "why": "No physical significance attaches to the remains of the Prophets. A story in Kings supposes otherwise: a dead man let down into the sepulchre of Elisha touched his bones, revived, and stood up on his feet. Deuteronomy, for its part, says of Moses that no man knoweth of his sepulchre. Why do religions both treasure and distrust relics?"
+  },
+  {
+   "id": "kings-it-is-enough",
+   "after": "selection:063deccf50851ecdb8a7fcf7",
+   "responds": [
+    "selection:063deccf50851ecdb8a7fcf7"
+   ],
+   "relation": "adjacent",
+   "why": "Even the Prophets sometimes got tired and cried out in despair. Elijah under the juniper tree: it is enough; now, O Lord, take away my life; for I am not better than my fathers."
+  }
+ ],
+ "library": {
+  "john-wearied-with-his-journey": {
+   "text": "Now Jacob's well was there. Jesus therefore, being wearied with his journey, sat thus on the well: and it was about the sixth hour",
+   "work": "John 4:6",
+   "year": "c. 90–100 CE",
+   "sortYear": 95,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=John%204%3A6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "mark-asleep-on-a-pillow": {
+   "text": "And there arose a great storm of wind, and the waves beat into the ship, so that it was now full. And he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish",
+   "work": "Mark 4:37–38",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%204%3A37-38&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-afterward-an-hungred": {
+   "text": "And when he had fasted forty days and forty nights, he was afterward an hungred",
+   "work": "Matthew 4:2",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
