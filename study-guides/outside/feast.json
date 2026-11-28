@@ -1,0 +1,230 @@
+{
+ "format": 2,
+ "slug": "feast",
+ "subject": "57BF058414414E9B8ADC4026619BDFCB",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 19,
+ "quotations": 21,
+ "kept": [
+  "source:BH00001",
+  "source:ABU1635",
+  "source:ABU0191",
+  "source:AB10951",
+  "source:AB00587",
+  "source:AB03158",
+  "source:AB00285",
+  "source:ABU3071",
+  "source:ABU0392",
+  "source:AB04915",
+  "source:AB10091",
+  "source:AB09344",
+  "source:ABU0003",
+  "source:AB00696",
+  "source:AB04716",
+  "selection:35bd4c1bd13d22c1e7706ce1",
+  "selection:bb94b87cdb27259cac96263f",
+  "selection:30e0947f97b7e39ccd966821",
+  "selection:a6f011af3135bf0e18619da1"
+ ],
+ "introduction": "“It is enjoined upon you to offer a feast, once in every month, though only water be served; for God hath purposed to bind hearts together.” From that verse the Nineteen Day Feast grew: a gathering in a home, with prayers and readings, consultation on the community’s affairs, and food. ‘Abdu’l-Bahá himself linked it to the Lord’s Supper and “the feast of the ancients”, and the kinship is plain in what the early Church did: bread broken from house to house, the meal Tertullian defended, the Sunday that Justin describes with its readings, meal and collection. Israel’s appointed feasts, Nehemiah’s portions sent to the unprovided, and the Qur’an’s table from heaven belong beside it. Proverbs knows why water is enough. Amos knows what a holy gathering becomes when justice is missing, and Emily Dickinson asks whether one needs to go at all.",
+ "questions": [
+  "“Though only water be served.” What does the proverb about the dinner of herbs add to the reading’s reason for so slight a requirement?",
+  "Justin’s Sunday joined reading, prayer, a meal and care for the needy. Why might communities keep finding their way to that combination, and what does the Feast add with its consultation?",
+  "Amos has God despise the feast days. What preparation does reading 13 ask for, and whom does reading 14 say a feast is for?",
+  "Dickinson keeps her Sabbath at home. What do readings 8, 9 and 19 claim happens only when people actually gather?"
+ ],
+ "outside": [
+  {
+   "id": "proverbs-dinner-of-herbs",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "A feast once a month, “though only water be served”, for the purpose is to bind hearts. Better is a dinner of herbs where love is, than a stalled ox and hatred therewith."
+  },
+  {
+   "id": "matthew-cup-of-cold-water",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Gospel dignifies the same smallest hospitality: whosoever shall give to drink a cup of cold water only shall in no wise lose his reward."
+  },
+  {
+   "id": "acts-breaking-bread",
+   "after": "source:ABU1635",
+   "responds": [
+    "source:ABU1635"
+   ],
+   "relation": "adjacent",
+   "why": "Better to hold the Feasts in homes. The first Christians, breaking bread from house to house, did eat their meat with gladness and singleness of heart."
+  },
+  {
+   "id": "deuteronomy-three-times-appear",
+   "after": "source:ABU0191",
+   "responds": [
+    "source:ABU0191"
+   ],
+   "relation": "adjacent",
+   "why": "A general meeting at a fixed interval, however plain the fare. Israel’s calendar set its gatherings by command: three times in a year shall all appear before the Lord."
+  },
+  {
+   "id": "nehemiah-send-portions",
+   "after": "source:AB10951",
+   "responds": [
+    "source:AB10951"
+   ],
+   "relation": "adjacent",
+   "why": "The Feast “rejoiceth mind and heart”. Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for the joy of the Lord is your strength."
+  },
+  {
+   "id": "corinthians-in-remembrance-of-me",
+   "after": "source:AB00587",
+   "responds": [
+    "source:AB00587"
+   ],
+   "relation": "adjacent",
+   "why": "It is to “resurrect the feast of the ancients”, the Lord’s Supper. This do in remembrance of me."
+  },
+  {
+   "id": "tertullian-how-they-love-one-another",
+   "after": "source:AB00587",
+   "responds": [
+    "source:AB00587"
+   ],
+   "relation": "adjacent",
+   "why": "Tertullian defended the Christians’ common meal to the Romans and reported what outsiders said of those who shared it: see how they love one another."
+  },
+  {
+   "id": "matthew-two-or-three",
+   "after": "source:AB03158",
+   "responds": [
+    "source:AB03158"
+   ],
+   "relation": "adjacent",
+   "why": "Any gathering arranged with love, faces turned to God. Where two or three are gathered together in my name, there am I in the midst of them."
+  },
+  {
+   "id": "dickinson-sabbath",
+   "after": "source:AB03158",
+   "responds": [
+    "source:AB03158"
+   ],
+   "relation": "contrast",
+   "why": "Emily Dickinson keeps the Sabbath alone at home, with an orchard for a dome. The reading locates blessing in a gathering. What can happen among people that cannot happen in her orchard?"
+  },
+  {
+   "id": "quran-table",
+   "after": "source:AB00285",
+   "responds": [
+    "source:AB00285"
+   ],
+   "relation": "adjacent",
+   "why": "“All blessings are present and prepared, and the table is infinitely pleasing.” Jesus’s prayer in the Qur’an: O God our Lord! Send down for us a table spread with food from heaven, that it may be a feast for us."
+  },
+  {
+   "id": "luke-breaking-of-bread",
+   "after": "source:ABU3071",
+   "responds": [
+    "source:ABU3071"
+   ],
+   "relation": "adjacent",
+   "why": "The aim of the Feast is concord, that through fellowship hearts become one. At Emmaus he was known of them in breaking of bread."
+  },
+  {
+   "id": "hebrews-provoke-unto-love",
+   "after": "source:ABU0392",
+   "responds": [
+    "source:ABU0392"
+   ],
+   "relation": "adjacent",
+   "why": "“It is not optional.” Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another."
+  },
+  {
+   "id": "isaiah-feast-of-fat-things",
+   "after": "source:AB10091",
+   "responds": [
+    "source:AB10091"
+   ],
+   "relation": "adjacent",
+   "why": "These gatherings “cause the divine table to descend”. In this mountain shall the Lord of hosts make unto all people a feast of fat things."
+  },
+  {
+   "id": "matthew-first-be-reconciled",
+   "after": "source:ABU0003",
+   "responds": [
+    "source:ABU0003"
+   ],
+   "relation": "adjacent",
+   "why": "Before entering, free yourselves from all that you have in your hearts. Leave there thy gift before the altar; first be reconciled to thy brother, and then come."
+  },
+  {
+   "id": "amos-feast-days",
+   "after": "source:ABU0003",
+   "responds": [
+    "source:ABU0003"
+   ],
+   "relation": "complement",
+   "why": "Amos has God say: I hate, I despise your feast days, and I will not smell in your solemn assemblies. A sacred gathering can be an offence. What does the reading require so that this one is not?"
+  },
+  {
+   "id": "luke-call-the-poor",
+   "after": "source:AB00696",
+   "responds": [
+    "source:AB00696"
+   ],
+   "relation": "adjacent",
+   "why": "The feast is “to encourage benevolent pursuits”. When thou makest a feast, call the poor, the maimed, the lame, the blind: and thou shalt be blessed; for they cannot recompense thee."
+  },
+  {
+   "id": "colossians-psalms-and-hymns",
+   "after": "source:AB04716",
+   "responds": [
+    "source:AB04716"
+   ],
+   "relation": "adjacent",
+   "why": "Let them read the holy verses, with courtesy and joy. Teaching and admonishing one another in psalms and hymns and spiritual songs."
+  },
+  {
+   "id": "psalm-dwell-together-in-unity",
+   "after": "selection:35bd4c1bd13d22c1e7706ce1",
+   "responds": [
+    "selection:35bd4c1bd13d22c1e7706ce1"
+   ],
+   "relation": "adjacent",
+   "why": "Friends gathered “in complete attunement and love”. Behold, how good and how pleasant it is for brethren to dwell together in unity!"
+  },
+  {
+   "id": "justin-day-called-sunday",
+   "after": "selection:bb94b87cdb27259cac96263f",
+   "responds": [
+    "selection:bb94b87cdb27259cac96263f"
+   ],
+   "relation": "adjacent",
+   "why": "The Feast has a devotional, an administrative and a social part. Justin Martyr’s account of the Christian Sunday about 155 has the same shape: readings, prayers, a shared meal, and a collection for those in need."
+  },
+  {
+   "id": "aristotle-feast-to-which-many-contribute",
+   "after": "selection:bb94b87cdb27259cac96263f",
+   "responds": [
+    "selection:bb94b87cdb27259cac96263f"
+   ],
+   "relation": "adjacent",
+   "why": "Its consultation gives the whole community a voice. Aristotle: the many, when they meet together, may be better than the few good, just as a feast to which many contribute is better than a dinner provided out of a single purse."
+  },
+  {
+   "id": "acts-of-one-heart-and-of-one-soul",
+   "after": "selection:a6f011af3135bf0e18619da1",
+   "responds": [
+    "selection:a6f011af3135bf0e18619da1"
+   ],
+   "relation": "adjacent",
+   "why": "The Feast is to be “the very heart” of spiritual activity and unity. The multitude of them that believed were of one heart and of one soul."
+  }
+ ],
+ "library": {}
+}

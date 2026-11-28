@@ -1,0 +1,224 @@
+{
+ "format": 2,
+ "slug": "bablife",
+ "subject": "9205A8E9160E4C7B9641A2DB4D58E877",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 21,
+ "quotations": 24,
+ "kept": [
+  "source:AB00003",
+  "source:ABU0858",
+  "source:ABU0296",
+  "source:ABU3669",
+  "source:BB00074",
+  "source:BB00330",
+  "source:ABU0346",
+  "source:BH00376",
+  "source:BB00170",
+  "source:BB00489",
+  "source:ABU0883",
+  "source:AB01889",
+  "source:ABU0345",
+  "source:AB00082",
+  "source:BH00705",
+  "source:BB00128",
+  "source:BBU0005",
+  "source:BBU0011",
+  "source:BB00485",
+  "source:AB00052",
+  "selection:7f4218d0c0fffa26d2952e59"
+ ],
+ "introduction": "The guide tells the Báb’s life as its sources tell it, in pieces: a young merchant of Shiraz writing names on bales and dealing honestly in dye; verses at twenty-five from one who never sat in a school; the claim to be the Gate; persecution, and shelter given by a Christian-born governor; a challenge to the divines to a trial by prayer; the heralding of One to come; a midnight arrest. The Gospels furnish most of the companions, because their story has the same turns: the carpenter whom his town could not credit, the prophet without honour at home and the foreigner who helps, “I am the door”, John the Baptist’s refusals and his “mightier than I”, the reading in the synagogue, the lanterns in the garden. Amos and Elijah stand for the older pattern, and the temptation on the temple roof for the question a trial by ordeal raises.",
+ "questions": [
+  "Nazareth asked “Is not this the carpenter?” What do the readings make of the fact that the Báb was a merchant, and why do they dwell on it?",
+  "The Báb was sheltered by “one born among Christians”. What does Luke’s saying about prophets and foreigners, and the parable of the Samaritan, suggest about where recognition tends to come from?",
+  "Elijah proposed a test by fire; Jesus refused a test by falling. How should the challenge to mutual execration in readings 10 and 11 be understood between these two?",
+  "John the Baptist defines himself by the one who comes after. How does that relation shape the way the Báb’s own mission is described in readings 14 and 15?"
+ ],
+ "outside": [
+  {
+   "id": "mark-is-not-this-the-carpenter",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "“The Bab was a young merchant.” Nazareth could not get past a trade either: is not this the carpenter, the son of Mary?"
+  },
+  {
+   "id": "amos-no-prophet",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "Amos, called from another ordinary occupation: I was an herdman, and a gatherer of sycomore fruit: and the Lord took me as I followed the flock."
+  },
+  {
+   "id": "matthew-fishers-of-men",
+   "after": "source:AB00003",
+   "responds": [
+    "source:AB00003"
+   ],
+   "relation": "adjacent",
+   "why": "The first disciples of Jesus were at their nets when he said: follow me, and I will make you fishers of men."
+  },
+  {
+   "id": "luke-faithful-in-that-which-is-least",
+   "after": "source:ABU0858",
+   "responds": [
+    "source:ABU0858"
+   ],
+   "relation": "adjacent",
+   "why": "As a boy he was set to write the merchants’ names on their goods. He that is faithful in that which is least is faithful also in much."
+  },
+  {
+   "id": "leviticus-just-balances",
+   "after": "source:ABU3669",
+   "responds": [
+    "source:ABU3669"
+   ],
+   "relation": "adjacent",
+   "why": "A story of his dealings as a merchant. Just balances, just weights, a just ephah, and a just hin, shall ye have."
+  },
+  {
+   "id": "luke-no-prophet-accepted",
+   "after": "source:BB00074",
+   "responds": [
+    "source:BB00074"
+   ],
+   "relation": "adjacent",
+   "why": "Driven from his own city, he was received and honoured by “one born among Christians”. No prophet is accepted in his own country; Elijah was sent to a widow of Sidon, and Elisha cleansed a Syrian."
+  },
+  {
+   "id": "luke-good-samaritan",
+   "after": "source:BB00074",
+   "responds": [
+    "source:BB00074"
+   ],
+   "relation": "adjacent",
+   "why": "Help came from the stranger. In the parable it is the Samaritan who shows mercy, when priest and Levite have passed by."
+  },
+  {
+   "id": "john-never-learned",
+   "after": "source:BB00330",
+   "responds": [
+    "source:BB00330"
+   ],
+   "relation": "adjacent",
+   "why": "Raised among Persians, and at twenty-five given verses none can produce. How knoweth this man letters, having never learned?"
+  },
+  {
+   "id": "matthew-flee-into-another",
+   "after": "source:ABU0346",
+   "responds": [
+    "source:ABU0346"
+   ],
+   "relation": "adjacent",
+   "why": "Persecuted in Shiraz, he journeyed to Isfahan. When they persecute you in this city, flee ye into another."
+  },
+  {
+   "id": "john-i-am-the-door",
+   "after": "source:BH00376",
+   "responds": [
+    "source:BH00376"
+   ],
+   "relation": "adjacent",
+   "why": "“I am the Gate of Knowledge.” I am the door: by me if any man enter in, he shall be saved."
+  },
+  {
+   "id": "john-art-thou-elias",
+   "after": "source:BH00376",
+   "responds": [
+    "source:BH00376"
+   ],
+   "relation": "complement",
+   "why": "He first forbade believing more of him than this. John the Baptist, pressed to say who he is, answers three times what he is not. What is gained by a claim that discloses itself by degrees?"
+  },
+  {
+   "id": "kings-elijah-on-mount-carmel",
+   "after": "source:BB00489",
+   "responds": [
+    "source:BB00489"
+   ],
+   "relation": "adjacent",
+   "why": "The divines are summoned to a mutual execration, a trial by prayer. Elijah gathers the prophets of Baal on Carmel: the God that answereth by fire, let him be God."
+  },
+  {
+   "id": "matthew-devil-quotes-scripture",
+   "after": "source:ABU0883",
+   "responds": [
+    "source:ABU0883"
+   ],
+   "relation": "contrast",
+   "why": "An ordeal of prayer in a shrine at night. Jesus refuses the test proposed to him on the temple roof: thou shalt not tempt the Lord thy God. When is a trial of this kind faith, and when is it presumption?"
+  },
+  {
+   "id": "acts-been-with-jesus",
+   "after": "source:AB01889",
+   "responds": [
+    "source:AB01889"
+   ],
+   "relation": "adjacent",
+   "why": "It is acknowledged that he never studied in any school. The council perceived that they were unlearned and ignorant men, and marvelled."
+  },
+  {
+   "id": "luke-spirit-of-the-lord-is-upon-me",
+   "after": "source:ABU0345",
+   "responds": [
+    "source:ABU0345"
+   ],
+   "relation": "adjacent",
+   "why": "The day of his Declaration is kept as “the dawning of the lights of guidance”. Jesus in the synagogue at Nazareth reads from Isaiah and says: this day is this scripture fulfilled in your ears."
+  },
+  {
+   "id": "psalm-day-which-the-lord-hath-made",
+   "after": "source:ABU0345",
+   "responds": [
+    "source:ABU0345"
+   ],
+   "relation": "adjacent",
+   "why": "This is the day which the Lord hath made; we will rejoice and be glad in it."
+  },
+  {
+   "id": "matthew-baptize-with-fire",
+   "after": "source:AB00082",
+   "responds": [
+    "source:AB00082"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb described the Promised One of the Bayán plainly. John: he that cometh after me is mightier than I, whose shoes I am not worthy to bear."
+  },
+  {
+   "id": "isaiah-make-his-paths-straight",
+   "after": "source:BH00705",
+   "responds": [
+    "source:BH00705"
+   ],
+   "relation": "adjacent",
+   "why": "He is called the herald. The voice of him that crieth in the wilderness, Prepare ye the way of the Lord."
+  },
+  {
+   "id": "psalm-made-in-secret",
+   "after": "source:BB00485",
+   "responds": [
+    "source:BB00485"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer of thanks for protection “in the darkness of the womb”. My substance was not hid from thee, when I was made in secret."
+  },
+  {
+   "id": "john-fell-to-the-ground",
+   "after": "selection:7f4218d0c0fffa26d2952e59",
+   "responds": [
+    "selection:7f4218d0c0fffa26d2952e59"
+   ],
+   "relation": "adjacent",
+   "why": "A midnight raid to bring him in chains. The band that came for Jesus with lanterns and weapons went backward and fell to the ground when he said, I am he."
+  }
+ ],
+ "shortfall": "A few readings are notes of dates, journeys and names that were left to stand by themselves.",
+ "library": {}
+}

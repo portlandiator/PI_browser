@@ -1,0 +1,577 @@
+{
+ "format": 2,
+ "slug": "concealment",
+ "subject": "E8BF9EC5D142EF326540C7ED4200001D",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 66,
+ "quotations": 67,
+ "kept": [
+  "source:BH00903",
+  "source:AB07472",
+  "source:BH03917",
+  "source:BH00395",
+  "source:BH01394",
+  "source:BH01208",
+  "source:BH01867",
+  "source:BH10327",
+  "source:BH03326",
+  "source:BH03977",
+  "source:BH03031",
+  "source:BH00898",
+  "source:BH01179",
+  "source:BH01729",
+  "source:BH11210",
+  "source:BH11496",
+  "source:BB00001",
+  "source:BH00248",
+  "source:BH01761",
+  "source:BB00589",
+  "source:AB00029",
+  "source:BH00094",
+  "source:BH00013",
+  "source:BH00950",
+  "source:BH01721",
+  "source:BH02540",
+  "source:BH01249",
+  "source:BH01426",
+  "source:BH02019",
+  "source:BH03096",
+  "source:BH04556",
+  "source:BH09422",
+  "source:BH10386",
+  "source:BH01726",
+  "source:BH01400",
+  "source:BH08058",
+  "source:BH02459",
+  "source:BH04411",
+  "source:BH02345",
+  "source:BH05848",
+  "source:BB00002",
+  "source:BB00324",
+  "source:BB00430",
+  "source:BB00030",
+  "source:BB00363",
+  "source:BB00378",
+  "source:BB00471",
+  "source:BH01052",
+  "source:BHU0005",
+  "source:BH09228",
+  "source:BH03020",
+  "source:AB06382",
+  "source:AB05634",
+  "source:BH09299",
+  "source:AB06890",
+  "source:AB02270",
+  "source:AB03605",
+  "source:BH11282",
+  "source:AB05175",
+  "source:BH11660",
+  "source:BH03731",
+  "source:BH05425",
+  "source:BH07319",
+  "selection:21c366e0b6dbad8af6a9fb92",
+  "selection:07fe4d6d91d76362bdd6d367",
+  "selection:ea94d8b616fb9e14e14b030c"
+ ],
+ "introduction": "“We were among you for years untold and We veiled Our face.” The guide gathers what the Bahá’í writings say about a Manifestation Who lives unrecognized among people: the years in Baghdad, the dervish’s camel-hair cloak in the mountains, the appointed time before which nothing was declared, the Báb’s disclaimers under interrogation, and finally the announcements that the Hidden One has appeared. The Gospels are full of this pattern. The world “knew him not”; his townsmen saw the carpenter; on the Emmaus road “their eyes were holden”; Peter is charged to “tell no man”; “mine hour is not yet come”; the Baptist says “I am not the Christ”. The Qur’an gives Muhammad the words “I say not that I have knowledge of the Unseen”. Joseph, recognized by none of his brothers, is the figure the guide itself ends on. Homer’s Odysseus, home in disguise and known only by his dog, and Jesus’s severe answer about parables raise the question the readings leave open: for whose sake is the concealment?",
+ "questions": [
+  "The readings give several reasons for concealment: protection from enemies, the appointed time, the limits of people’s capacity, humility. Which reasons do the Gospel companions share?",
+  "“Is not this the carpenter?” Why is it hard to recognize greatness in someone met every day, and what in the readings makes recognition possible?",
+  "Under questioning the Báb said he was “but a servant, without learning and without claim”; the Baptist said “I am not the Christ”; the Qur’an has “I am only a mortal like you”. How do you read such disclaimers?",
+  "Jesus says he speaks in parables “because they seeing see not”. Reading 64 says the veil was lifted “to a degree corresponding to the capacity of the people”. Are these the same explanation?",
+  "In Homer the disguised king is recognized by his dog. Who recognizes the concealed one in these readings, and what do they have in common?"
+ ],
+ "outside": [
+  {
+   "id": "john-his-own-received-him-not",
+   "after": "source:BH00903",
+   "responds": [
+    "source:BH00903"
+   ],
+   "relation": "adjacent",
+   "why": "The Beauty of God was among you, yet ye were veiled from Him. He was in the world, and the world was made by him, and the world knew him not."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:AB07472",
+   "responds": [
+    "source:AB07472"
+   ],
+   "relation": "adjacent",
+   "why": "“This curtain and veil are due to the deficiency of our vision.” For now we see through a glass, darkly."
+  },
+  {
+   "id": "isaiah-hidest-thyself",
+   "after": "source:BH03917",
+   "responds": [
+    "source:BH03917"
+   ],
+   "relation": "adjacent",
+   "why": "He concealed His face behind seventy thousand veils. Isaiah: verily thou art a God that hidest thyself, O God of Israel, the Saviour."
+  },
+  {
+   "id": "john-whom-ye-know-not",
+   "after": "source:BH00395",
+   "responds": [
+    "source:BH00395"
+   ],
+   "relation": "adjacent",
+   "why": "“We were among you for years untold.” The Baptist to the crowd: there standeth one among you, whom ye know not."
+  },
+  {
+   "id": "luke-eyes-were-holden",
+   "after": "source:BH01208",
+   "responds": [
+    "source:BH01208"
+   ],
+   "relation": "adjacent",
+   "why": "Even those around Him at all times knew Him not. On the Emmaus road Jesus himself drew near and went with them, but their eyes were holden that they should not know him."
+  },
+  {
+   "id": "john-mary-at-the-tomb",
+   "after": "source:BH10327",
+   "responds": [
+    "source:BH10327"
+   ],
+   "relation": "adjacent",
+   "why": "One attained the presence yet knew Him not. Mary Magdalene, at the tomb, turned and saw Jesus standing, and knew not that it was Jesus, supposing him to be the gardener."
+  },
+  {
+   "id": "genesis-they-knew-not-him",
+   "after": "source:BH03326",
+   "responds": [
+    "source:BH03326"
+   ],
+   "relation": "adjacent",
+   "why": "He walked among you and none recognized Him. The story the guide returns to at its end: Joseph knew his brethren, but they knew not him."
+  },
+  {
+   "id": "homer-argos-wagged-his-tail",
+   "after": "source:BH03977",
+   "responds": [
+    "source:BH03977"
+   ],
+   "relation": "complement",
+   "why": "“We dwelt among the people as one of them.” Odysseus comes home disguised as a beggar and no one in his house knows him, except his old dog, who drops his ears and wags his tail. Homer gives recognition to the humblest and most faithful creature there. Who, in the readings, recognizes?"
+  },
+  {
+   "id": "mark-is-not-this-the-carpenter",
+   "after": "source:BH03977",
+   "responds": [
+    "source:BH03977"
+   ],
+   "relation": "adjacent",
+   "why": "Sitting and walking with them morning and evening. Nazareth’s version of the difficulty: is not this the carpenter, the son of Mary? And they were offended at him."
+  },
+  {
+   "id": "matthew-raiment-of-camels-hair",
+   "after": "source:BH00898",
+   "responds": [
+    "source:BH00898"
+   ],
+   "relation": "adjacent",
+   "why": "A garment of camel’s hair, lest anyone recognize Him. John the Baptist had his raiment of camel’s hair and a leathern girdle; the dress of the wilderness prophet."
+  },
+  {
+   "id": "isaiah-no-beauty",
+   "after": "source:BH01179",
+   "responds": [
+    "source:BH01179"
+   ],
+   "relation": "adjacent",
+   "why": "Though the lights of Revelation encompass the world, He hath veiled Himself. Isaiah’s servant: he hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him."
+  },
+  {
+   "id": "philippians-form-of-a-servant",
+   "after": "source:BH01729",
+   "responds": [
+    "source:BH01729"
+   ],
+   "relation": "adjacent",
+   "why": "The Beauty concealed in rough cloth when none was found worthy. Paul: he made himself of no reputation, and took upon him the form of a servant."
+  },
+  {
+   "id": "exodus-moses-put-a-vail",
+   "after": "source:BH11496",
+   "responds": [
+    "source:BH11496"
+   ],
+   "relation": "adjacent",
+   "why": "“My hair is My Veil.” When Moses came down with his face shining, he put a vail on his face until he went in to speak with the Lord."
+  },
+  {
+   "id": "proverbs-conceal-a-thing",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "Revelation identical with concealment. Proverbs has the paradox as a saying: it is the glory of God to conceal a thing."
+  },
+  {
+   "id": "pascal-wouldst-not-seek-me",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "complement",
+   "why": "Pascal hears his God say: thou wouldst not seek me, if thou hadst not found me. If revealing and concealing are one act, what is seeking?"
+  },
+  {
+   "id": "exodus-no-man-see-me-and-live",
+   "after": "source:BH00248",
+   "responds": [
+    "source:BH00248"
+   ],
+   "relation": "adjacent",
+   "why": "The Countenance wrapped in a thousand veils lest mortal eyes be blinded. Thou canst not see my face: for there shall no man see me, and live."
+  },
+  {
+   "id": "john-he-must-increase",
+   "after": "source:AB00029",
+   "responds": [
+    "source:AB00029"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh pointing to another, and concealing His own station. The Baptist of himself: I am not the Christ; he must increase, but I must decrease."
+  },
+  {
+   "id": "mark-why-callest-thou-me-good",
+   "after": "source:BH00094",
+   "responds": [
+    "source:BH00094"
+   ],
+   "relation": "adjacent",
+   "why": "The humility of the Point of the Bayán is evident throughout. Why callest thou me good? there is none good but one, that is, God."
+  },
+  {
+   "id": "mark-tell-no-man",
+   "after": "source:BH00013",
+   "responds": [
+    "source:BH00013"
+   ],
+   "relation": "adjacent",
+   "why": "Commanded to silence and to veil the Cause. Peter says, Thou art the Christ; and he charged them that they should tell no man of him."
+  },
+  {
+   "id": "jeremiah-fire-in-my-bones",
+   "after": "source:BH00950",
+   "responds": [
+    "source:BH00950"
+   ],
+   "relation": "adjacent",
+   "why": "“I was silent; the Truth made Me speak.” Jeremiah resolved not to speak any more in his name, but his word was in mine heart as a burning fire shut up in my bones, and I could not stay."
+  },
+  {
+   "id": "john-mine-hour-is-not-yet-come",
+   "after": "source:BH01721",
+   "responds": [
+    "source:BH01721"
+   ],
+   "relation": "adjacent",
+   "why": "Concealed until the appointed time. At Cana: mine hour is not yet come."
+  },
+  {
+   "id": "galatians-fulness-of-the-time",
+   "after": "source:BH02540",
+   "responds": [
+    "source:BH02540"
+   ],
+   "relation": "adjacent",
+   "why": "“Until God’s appointed time was fulfilled.” When the fulness of the time was come, God sent forth his Son."
+  },
+  {
+   "id": "john-my-time-is-not-yet-come",
+   "after": "source:BH01249",
+   "responds": [
+    "source:BH01249"
+   ],
+   "relation": "adjacent",
+   "why": "The appointed hour had not been fulfilled. My time is not yet come: but your time is alway ready."
+  },
+  {
+   "id": "john-not-openly",
+   "after": "source:BH01426",
+   "responds": [
+    "source:BH01426"
+   ],
+   "relation": "adjacent",
+   "why": "Veiled lest every deceiver recognize Him. He went up to the feast, not openly, but as it were in secret."
+  },
+  {
+   "id": "corinthians-would-not-have-crucified",
+   "after": "source:BH01726",
+   "responds": [
+    "source:BH01726"
+   ],
+   "relation": "adjacent",
+   "why": "When the ungodly imprisoned Him, He unveiled the Face. Paul on a wisdom hidden from the powers: had they known it, they would not have crucified the Lord of glory."
+  },
+  {
+   "id": "matthew-art-thou-he",
+   "after": "source:BH02459",
+   "responds": [
+    "source:BH02459"
+   ],
+   "relation": "adjacent",
+   "why": "They believed before He made Himself known, and doubted after. John, who had announced him, sends from prison: art thou he that should come, or do we look for another?"
+  },
+  {
+   "id": "matthew-revealed-unto-babes",
+   "after": "source:BH04411",
+   "responds": [
+    "source:BH04411"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed is the one who recognized Him while veiled. Thou hast hid these things from the wise and prudent, and hast revealed them unto babes."
+  },
+  {
+   "id": "john-cannot-bear-them-now",
+   "after": "source:BH05848",
+   "responds": [
+    "source:BH05848"
+   ],
+   "relation": "adjacent",
+   "why": "Most matters concealed from a people too veiled to bear them. I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "“Reveal not a word” of the most hidden secret. Neither cast ye your pearls before swine, lest they trample them under their feet, and turn again and rend you."
+  },
+  {
+   "id": "acts-gods-come-down",
+   "after": "source:BB00324",
+   "responds": [
+    "source:BB00324"
+   ],
+   "relation": "adjacent",
+   "why": "“Turn people away from exaggeration regarding me.” At Lystra the crowd cries that the gods are come down, and Paul and Barnabas rend their clothes: we also are men of like passions with you."
+  },
+  {
+   "id": "quran-nor-knowledge-of-the-unseen",
+   "after": "source:BB00430",
+   "responds": [
+    "source:BB00430"
+   ],
+   "relation": "adjacent",
+   "why": "“I say not unto you that I know the unseen.” The reading speaks in the words the Qur’an gives its Prophet: I say not that I possess the treasures of Allah, nor that I have knowledge of the Unseen, nor that I am an angel. I follow only that which is inspired in me."
+  },
+  {
+   "id": "quran-do-righteous-work",
+   "after": "source:BB00363",
+   "responds": [
+    "source:BB00363"
+   ],
+   "relation": "adjacent",
+   "why": "“I am but a servant, without learning and without claim.” Say: I am only a mortal like you. My Lord inspireth in me that your God is only One God."
+  },
+  {
+   "id": "john-art-thou-elias",
+   "after": "source:BB00471",
+   "responds": [
+    "source:BB00471"
+   ],
+   "relation": "adjacent",
+   "why": "A disclaimer under questioning. The Baptist confessed, and denied not: I am not the Christ. Art thou Elias? I am not. Art thou that prophet? No."
+  },
+  {
+   "id": "matthew-enter-into-thy-closet",
+   "after": "source:BH09299",
+   "responds": [
+    "source:BH09299"
+   ],
+   "relation": "adjacent",
+   "why": "“My wish is to hide Thee from Mine own eyes.” A piety that hides even from itself: enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret."
+  },
+  {
+   "id": "genesis-spirit-of-jacob-revived",
+   "after": "source:AB06890",
+   "responds": [
+    "source:AB06890"
+   ],
+   "relation": "adjacent",
+   "why": "The Joseph of Canaan and the Joseph of the true Egypt. When Jacob learned that the lost son lived, his spirit revived: it is enough; Joseph my son is yet alive."
+  },
+  {
+   "id": "corinthians-hidden-wisdom",
+   "after": "source:BH11282",
+   "responds": [
+    "source:BH11282"
+   ],
+   "relation": "adjacent",
+   "why": "He Who was concealed from eternity hath appeared. The hidden wisdom, which God ordained before the world unto our glory."
+  },
+  {
+   "id": "matthew-without-a-parable",
+   "after": "source:BH11660",
+   "responds": [
+    "source:BH11660"
+   ],
+   "relation": "adjacent",
+   "why": "The concealed Mystery made manifest. I will utter things which have been kept secret from the foundation of the world."
+  },
+  {
+   "id": "isaiah-arise-shine",
+   "after": "source:BH03731",
+   "responds": [
+    "source:BH03731"
+   ],
+   "relation": "adjacent",
+   "why": "Zion cries out that the Hidden One hath appeared. Arise, shine; for thy light is come, and the glory of the Lord is risen upon thee."
+  },
+  {
+   "id": "mark-without-a-parable",
+   "after": "selection:21c366e0b6dbad8af6a9fb92",
+   "responds": [
+    "selection:21c366e0b6dbad8af6a9fb92"
+   ],
+   "relation": "adjacent",
+   "why": "The veil not wholly lifted; revelation in the measure of capacity. He spake the word unto them, as they were able to hear it."
+  },
+  {
+   "id": "matthew-why-parables",
+   "after": "selection:21c366e0b6dbad8af6a9fb92",
+   "responds": [
+    "selection:21c366e0b6dbad8af6a9fb92"
+   ],
+   "relation": "contrast",
+   "why": "Asked why he speaks in parables, Jesus gives the harder reason: because they seeing see not, and hearing they hear not. Is concealment here a mercy, a protection or a judgement? Which is it in the readings?"
+  },
+  {
+   "id": "deuteronomy-secret-things",
+   "after": "selection:07fe4d6d91d76362bdd6d367",
+   "responds": [
+    "selection:07fe4d6d91d76362bdd6d367"
+   ],
+   "relation": "adjacent",
+   "why": "The mystery shrouded and written beyond comprehension. The secret things belong unto the Lord our God: but those things which are revealed belong unto us."
+  }
+ ],
+ "shortfall": "Readings 4 to 11, 25 to 36 and 56 to 63 each repeat one statement many times (concealed among you; until the appointed time; the Hidden One has appeared); one companion was given to each distinct turn rather than a new one to every repetition, and the readings about Mírzá Yaḥyá were left alone.",
+ "library": {
+  "mark-tell-no-man": {
+   "text": "And he saith unto them, But whom say ye that I am? And Peter answereth and saith unto him, Thou art the Christ. And he charged them that they should tell no man of him",
+   "work": "Mark 8:29–30",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Mark%208%3A29-30&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-they-knew-not-him": {
+   "text": "And Joseph knew his brethren, but they knew not him",
+   "work": "Genesis 42:8",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2042%3A8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-raiment-of-camels-hair": {
+   "text": "And the same John had his raiment of camel's hair, and a leathern girdle about his loins; and his meat was locusts and wild honey",
+   "work": "Matthew 3:4",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%203%3A4&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-would-not-have-crucified": {
+   "text": "But we speak the wisdom of God in a mystery, even the hidden wisdom, which God ordained before the world unto our glory: Which none of the princes of this world knew: for had they known it, they would not have crucified the Lord of glory",
+   "work": "1 Corinthians 2:7–8",
+   "year": "c. 50–60 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%202%3A7-8&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-nor-knowledge-of-the-unseen": {
+   "text": "Say (O Muhammad, to the disbelievers): I say not unto you (that) I possess the treasures of Allah, nor that I have knowledge of the Unseen; and I say not unto you: Lo! I am an angel. I follow only that which is inspired in me. Say: Are the blind man and the seer equal? Will ye not then take thought?",
+   "work": "Qur’an 6:50",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=6&verse=50",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

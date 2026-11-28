@@ -1,0 +1,227 @@
+{
+ "format": 2,
+ "slug": "eternalarchetypes",
+ "subject": "5C9B2EC0371C49F7A3566365EC1285B8",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 23,
+ "quotations": 30,
+ "kept": [
+  "source:AB00006",
+  "source:AB03187",
+  "source:AB03551",
+  "source:BB00021",
+  "source:BB00042",
+  "source:AB00153",
+  "source:AB00282",
+  "source:AB00013",
+  "source:BB00064",
+  "source:BH00066",
+  "source:BH00690",
+  "selection:55ab0fc4a67db29c09e55bbc",
+  "selection:693fadd659d5e51164291ed6",
+  "selection:0eefaa5ee74994dc5bf9b6f0",
+  "selection:21d492b5275164d9420ce275",
+  "selection:fb710616e168329c52cde154",
+  "selection:bd2f5708e77d449cf1616005",
+  "selection:17420a58786526c4f3c41731",
+  "selection:c75135ead3debc297e2b5723",
+  "selection:5df0107353cc3f4916223a81",
+  "selection:5041c196016348d2a7cd0df1",
+  "selection:c86ca0eea8931f4451f1044b",
+  "selection:d40c5a41d1a71e230a380bf0"
+ ],
+ "introduction": "The “fixed archetypes” (a‘yán-i-thábitih) are, in the school of Ibn ‘Arabí, the forms of all things as God eternally knows them. The readings explain the idea, with numbers and compass points as examples of what is fixed without existing, and then press the Shaykhí and Bábí objection: to place such forms in the divine Essence introduces multiplicity into God, so they belong to a lower station, that of the Will or of knowledge, and the Essence is not the cause of anything. Bahá’u’lláh’s closing word to Salmán is that defender and critic now “stand in the same degree”. The question is an old one. Plato’s distinction of what “always is” from what is “always becoming”, his maker copying an eternal model, Plotinus’s One that overflows, Wisdom “set up from everlasting”, the tabernacle made after a pattern, and John’s Word through which all things were made are its classical forms. Spinoza and Aquinas speak for positions the readings reject, and Aristotle’s report of those who thought the heavens a number asks whether such fixed things are real.",
+ "questions": [
+  "Reading 6 compares the archetypes to numbers and directions: fixed, but without real existence. What kind of being does a number have? Does the comparison make the doctrine clearer or dissolve it?",
+  "Why does it matter to the readings whether the forms of things are “in the Essence” or in a station below it? What would be lost if Spinoza were right?",
+  "Plato’s craftsman looks to an eternal model; the Qur’an says “Be! and it is”. Are these two pictures of creation compatible?",
+  "Reading 7 says last year’s rose returns in its qualities and not in its identity. What does that imply about what is “eternal” in a thing?",
+  "Bahá’u’lláh tells Salmán that those who occupy themselves with such matters will remain deprived. Why, then, do His writings and ‘Abdu’l-Bahá’s discuss them at such length?"
+ ],
+ "outside": [
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The dispositions of things appear first in God’s knowledge and then in the world. The doctrine descends from Plato’s question: what is that which always is and has no becoming; and what is that which is always becoming and never is?"
+  },
+  {
+   "id": "plato-moving-image-of-eternity",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "Plato’s maker looks to an eternal model: he resolved to have a moving image of eternity, and this image we call time."
+  },
+  {
+   "id": "proverbs-possessed-me-in-the-beginning",
+   "after": "source:AB00006",
+   "responds": [
+    "source:AB00006"
+   ],
+   "relation": "adjacent",
+   "why": "The biblical form of a pattern before creation is Wisdom speaking: the Lord possessed me in the beginning of his way, before his works of old. I was set up from everlasting, or ever the earth was."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:AB03187",
+   "responds": [
+    "source:AB03187"
+   ],
+   "relation": "adjacent",
+   "why": "In the Essence there is no lover and beloved, no distinction at all. Plotinus on how a many comes from such a One: seeking nothing, possessing nothing, lacking nothing, the One is perfect and, in our metaphor, has overflowed."
+  },
+  {
+   "id": "plotinus-light-encircling-the-sun",
+   "after": "source:AB03551",
+   "responds": [
+    "source:AB03551"
+   ],
+   "relation": "adjacent",
+   "why": "A second station, after and dependent on the first, where the attributes are disclosed. Plotinus: a circumradiation from the Supreme unaltering, like the brilliant light encircling the sun."
+  },
+  {
+   "id": "spinoza-all-things-are-in-god",
+   "after": "source:BB00021",
+   "responds": [
+    "source:BB00021"
+   ],
+   "relation": "contrast",
+   "why": "To place archetypes in the Essence is to associate partners with God, since it implies division. Spinoza accepted the consequence the reading refuses: all things which are, are in God, and without him can neither be nor be conceived. What does the reading protect by keeping the Essence free of any inner many?"
+  },
+  {
+   "id": "quran-be-and-it-is",
+   "after": "source:BB00042",
+   "responds": [
+    "source:BB00042"
+   ],
+   "relation": "adjacent",
+   "why": "The philosophers could not grasp how God originated the Will by itself. The Qur’an’s account of making is a word: His command, when He intendeth a thing, is only that He saith unto it: Be! and it is."
+  },
+  {
+   "id": "aristotle-elements-of-numbers",
+   "after": "source:AB00153",
+   "responds": [
+    "source:AB00153"
+   ],
+   "relation": "contrast",
+   "why": "Numbers are fixed yet have no existence of their own; so the archetypes. Aristotle reports the opposite view, of the Pythagoreans: they supposed the elements of numbers to be the elements of all things, and the whole heaven to be a musical scale and a number. Are numbers found or made? Does the answer decide the question of the archetypes?"
+  },
+  {
+   "id": "plato-cave",
+   "after": "source:AB00282",
+   "responds": [
+    "source:AB00282"
+   ],
+   "relation": "complement",
+   "why": "This year’s rose is last year’s in its qualities, not in its individual being. Plato’s prisoners take the shadows of things for the things. Is the particular rose a shadow of roseness, or is “the rose” only our name for what roses share? Which does reading 7 imply?"
+  },
+  {
+   "id": "aquinas-first-efficient-cause",
+   "after": "source:BB00064",
+   "responds": [
+    "source:BB00064"
+   ],
+   "relation": "contrast",
+   "why": "The philosophers are wrong to make the Essence the cause of origination. Aquinas’s second way concludes exactly that: it is necessary to admit a first efficient cause, to which everyone gives the name of God. Why do the readings insert the Will between the Essence and the world?"
+  },
+  {
+   "id": "quran-treasures-with-us",
+   "after": "source:BH00066",
+   "responds": [
+    "source:BH00066"
+   ],
+   "relation": "adjacent",
+   "why": "A mystic says the realities of things exist in His knowledge. The verse such thinkers appealed to: there is not a thing but with Us are the stores thereof; and We send it not down save in appointed measure."
+  },
+  {
+   "id": "romans-calleth-things-which-be-not",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "Out of utter nothingness He created the reality of all things. Paul: God, who quickeneth the dead, and calleth those things which be not as though they were."
+  },
+  {
+   "id": "hebrews-worlds-framed",
+   "after": "source:BH00690",
+   "responds": [
+    "source:BH00690"
+   ],
+   "relation": "adjacent",
+   "why": "Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear."
+  },
+  {
+   "id": "hebrews-shadow-of-heavenly-things",
+   "after": "selection:55ab0fc4a67db29c09e55bbc",
+   "responds": [
+    "selection:55ab0fc4a67db29c09e55bbc"
+   ],
+   "relation": "adjacent",
+   "why": "Things are patterned after archetypes, though the likeness is not that of two similar things. Hebrews reads the tabernacle so: an example and shadow of heavenly things, made according to the pattern shewed in the mount."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "selection:0eefaa5ee74994dc5bf9b6f0",
+   "responds": [
+    "selection:0eefaa5ee74994dc5bf9b6f0"
+   ],
+   "relation": "adjacent",
+   "why": "God wished to see the essences of His Names. In the Qur’an the names are what Adam is taught and the angels do not know."
+  },
+  {
+   "id": "psalm-made-in-secret",
+   "after": "selection:21d492b5275164d9420ce275",
+   "responds": [
+    "selection:21d492b5275164d9420ce275"
+   ],
+   "relation": "adjacent",
+   "why": "The world as God’s revelation in forms that do not exist outside Him. The Psalmist of himself before birth: thine eyes did see my substance, yet being unperfect; and in thy book all my members were written, when as yet there was none of them."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "selection:fb710616e168329c52cde154",
+   "responds": [
+    "selection:fb710616e168329c52cde154"
+   ],
+   "relation": "adjacent",
+   "why": "The Reality of Muhammad as the unifying principle of the archetypes. John’s Logos has the same office: all things were made by him; and without him was not any thing made that was made."
+  },
+  {
+   "id": "quran-not-a-leaf-falleth",
+   "after": "selection:bd2f5708e77d449cf1616005",
+   "responds": [
+    "selection:bd2f5708e77d449cf1616005"
+   ],
+   "relation": "adjacent",
+   "why": "The archetypes belong to the stage of the possible, the treasuries of His knowledge. With Him are the keys of the Invisible; not a leaf falleth but He knoweth it."
+  },
+  {
+   "id": "descartes-conservation-and-creation",
+   "after": "selection:c75135ead3debc297e2b5723",
+   "responds": [
+    "selection:c75135ead3debc297e2b5723"
+   ],
+   "relation": "complement",
+   "why": "God created the Will from nothing through itself, then all things through it. Descartes argued that keeping a thing in being at each moment takes the same power as creating it. If so, is creation an event at the beginning or a standing relation?"
+  },
+  {
+   "id": "ecclesiastes-many-books",
+   "after": "selection:d40c5a41d1a71e230a380bf0",
+   "responds": [
+    "selection:d40c5a41d1a71e230a380bf0"
+   ],
+   "relation": "complement",
+   "why": "In this Day the defender and the repudiator of these theories stand in the same degree, and discussing them is a deprivation. The Preacher, after a book of inquiry: of making many books there is no end; and much study is a weariness of the flesh. Why does the guide end by setting the question aside?"
+  }
+ ],
+ "shortfall": "Readings 8, 13 and 18 to 22 are technical statements in the vocabulary of Islamic philosophy (existence and quiddity, the stages of oneness, the Will and Purpose) that restate one controversy; few sayings in wide circulation meet them at that level, and none was forced.",
+ "library": {}
+}

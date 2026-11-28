@@ -1,0 +1,137 @@
+{
+ "format": 2,
+ "slug": "hermes",
+ "subject": "0E72B50E6B2AE34489CE39A75BE041F5",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 5,
+ "quotations": 5,
+ "kept": [
+  "source:BH00409",
+  "source:AB11513",
+  "source:AB06999",
+  "source:BH00212",
+  "source:BH00223"
+ ],
+ "introduction": "Hermes Trismegistus, “thrice great”, was for the Greek, Islamic and Renaissance worlds the first sage, to whom philosophy, the sciences and alchemy were traced; Muslim writers identified him with the prophet Idrís and with Enoch. Bahá’u’lláh’s Tablet of Wisdom repeats that tradition and praises Balinus (Apollonius of Tyana), who “extracted certain sciences from the Hermetic tablets”; ‘Abdu’l-Bahá uses the name to encourage a student. The Qur’an and Genesis each give the figure a single sentence, which is why so much could be attached to him. Milton’s midnight scholar shows what the name meant in Europe, and Bacon’s fable of the vineyard is the classic verdict on the Hermetic art.",
+ "questions": [
+  "Why would a tradition want a single first teacher of all the sciences, and want him to be a prophet?",
+  "Reading 3 says Hermes combined “prophethood, wisdom and bounty”. What does each add to the other two?",
+  "Bacon says the alchemists found no gold and many useful things. What might a seeker after “the meanings of realities” find that he was not looking for?"
+ ],
+ "outside": [
+  {
+   "id": "quran-idris-a-saint-a-prophet",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "The first philosopher was Idrís, also called Hermes. The Qur’an’s whole notice of him: make mention in the Scripture of Idris. Lo! he was a saint, a prophet."
+  },
+  {
+   "id": "genesis-enoch-walked-with-god",
+   "after": "source:BH00409",
+   "responds": [
+    "source:BH00409"
+   ],
+   "relation": "adjacent",
+   "why": "Muslim writers identified Idrís with the Enoch of Genesis, of whom as little is said: and Enoch walked with God: and he was not; for God took him."
+  },
+  {
+   "id": "proverbs-wisdom-is-the-principal-thing",
+   "after": "source:AB11513",
+   "responds": [
+    "source:AB11513"
+   ],
+   "relation": "adjacent",
+   "why": "Be engaged, like Hermes, in learning the meanings of realities. Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding."
+  },
+  {
+   "id": "milton-thrice-great-hermes",
+   "after": "source:AB06999",
+   "responds": [
+    "source:AB06999"
+   ],
+   "relation": "adjacent",
+   "why": "“They call Hermes ‘thrice great’.” Milton’s scholar keeps his lamp burning at midnight in some high lonely tower to out-watch the Bear with thrice great Hermes."
+  },
+  {
+   "id": "bacon-alchemy-and-the-vineyard",
+   "after": "source:BH00212",
+   "responds": [
+    "source:BH00212"
+   ],
+   "relation": "contrast",
+   "why": "The tablet in Hermes’ hand, with its sun and moon and its one thing from which all come, is the founding text of alchemy. Bacon’s judgement on that art: like the sons who dug the vineyard for buried gold and found none, the alchemists by digging brought to light a great number of good and fruitful inventions. The reading takes the tablet’s secret to be the Word of God. Which reading of the old science is more generous?"
+  }
+ ],
+ "library": {
+  "genesis-enoch-walked-with-god": {
+   "text": "And Enoch walked with God: and he was not; for God took him",
+   "work": "Genesis 5:24",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%205%3A24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-idris-a-saint-a-prophet": {
+   "text": "And make mention in the Scripture of Idris. Lo! he was a saint, a prophet;",
+   "work": "Qur’an 19:56",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=19&verse=56",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "milton-thrice-great-hermes": {
+   "text": "Or let my Lamp at midnight hour, / Be seen in som high lonely Towr, / Where I may oft out-watch the Bear, / With thrice great Hermes, or unsphear / The spirit of Plato to unfold / What Worlds, or what vast Regions hold / The immortal mind that hath forsook / Her mansion in this fleshly nook",
+   "verse": true,
+   "author": "John Milton",
+   "work": "Il Penseroso",
+   "year": "1645",
+   "sortYear": 1645,
+   "tradition": "European literature and thought",
+   "kind": "literature",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Comus_and_other_poems/Il_Penseroso",
+    "label": "Wikisource",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1674."
+   }
+  }
+ }
+}

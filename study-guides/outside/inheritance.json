@@ -1,0 +1,481 @@
+{
+ "format": 2,
+ "slug": "inheritance",
+ "subject": "45F19A41FDE542EAA950F0554A7B175A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 28,
+ "quotations": 40,
+ "kept": [
+  "source:AB00727",
+  "source:AB00494",
+  "source:AB12808",
+  "source:BH01135",
+  "source:ABU0699",
+  "source:AB12274",
+  "source:AB00798",
+  "source:AB06331",
+  "source:BH00001",
+  "source:BH00069",
+  "source:BH01307",
+  "source:BH01964",
+  "source:BB00020",
+  "source:BH00781",
+  "source:BH00984",
+  "source:AB07493",
+  "source:BH00368",
+  "source:AB12301",
+  "source:AB11388",
+  "source:AB02532",
+  "source:BH00464",
+  "source:BH01649",
+  "source:BH00526",
+  "source:BH11613",
+  "source:ABU3325",
+  "source:BB00056",
+  "source:ABU3674",
+  "source:AB06691"
+ ],
+ "introduction": "Bahá’u’lláh’s law of inheritance has two parts that pull in different directions. Every person must write a will and “may divide his wealth as he likes”; and where there is no will the estate is divided among seven classes of heirs in fixed shares, children first, with the residence to the eldest son and any share lacking an heir returning to the House of Justice. The readings set out both, answer questions on particular cases, and end with the spiritual senses of the word. The Qur’an, whose shares the Bahá’í table revises, prescribes a bequest and gives the male twice the female’s portion; Moses heard the daughters of Zelophehad and fixed an order of succession; Deuteronomy gives the firstborn a double share; Job gave his daughters an inheritance among their brothers. Jefferson’s claim that “the earth belongs in usufruct to the living” and Carnegie’s that the man who dies rich dies disgraced are the modern arguments against unlimited bequest; King Lear is the cautionary tale of free disposition; and Jesus declined to be “a divider” at all.",
+ "questions": [
+  "Why would a law both leave a person free to dispose of everything by will and also prescribe a detailed division? What does each half protect?",
+  "Compare the Bahá’í classes of heirs with the Qur’anic and Mosaic rules quoted. What has changed, and what does each change suggest about its purpose?",
+  "Jefferson held that the dead have no rights over the earth; reading 25 foresees limits on what a manufacturer may leave his family. How far should the living generation’s claims limit a will?",
+  "The eldest son receives the residence. What duties might be supposed to accompany it, and how does the freedom of the will bear on the question?",
+  "Reading 28 says inheritance has several meanings. What do “heirs of God” inherit?"
+ ],
+ "outside": [
+  {
+   "id": "quran-bequest-prescribed",
+   "after": "source:AB00727",
+   "responds": [
+    "source:AB00727"
+   ],
+   "relation": "adjacent",
+   "why": "Everyone is free, and bound, to make a will. The Qur’an: it is prescribed for you, when death approacheth one of you, if he leave wealth, that he bequeath unto parents and near relatives in kindness."
+  },
+  {
+   "id": "isaiah-add-unto-thy-days-fifteen-years",
+   "after": "source:AB00727",
+   "responds": [
+    "source:AB00727"
+   ],
+   "relation": "adjacent",
+   "why": "The prophet’s message to a sick king: set thine house in order: for thou shalt die, and not live."
+  },
+  {
+   "id": "proverbs-inheritance-to-his-childrens-children",
+   "after": "source:AB00494",
+   "responds": [
+    "source:AB00494"
+   ],
+   "relation": "adjacent",
+   "why": "The prescribed division applies only when there is no will. A good man leaveth an inheritance to his children’s children."
+  },
+  {
+   "id": "ecclesiastes-leave-it-unto-the-man-after-me",
+   "after": "source:AB12808",
+   "responds": [
+    "source:AB12808"
+   ],
+   "relation": "adjacent",
+   "why": "Consider and specify. The Preacher on what a will cannot control: I should leave it unto the man that shall be after me. And who knoweth whether he shall be a wise man or a fool?"
+  },
+  {
+   "id": "jefferson-earth-belongs-to-the-living",
+   "after": "source:ABU0699",
+   "responds": [
+    "source:ABU0699"
+   ],
+   "relation": "contrast",
+   "why": "A person is not to be interfered with in leaving property; “man may divide his wealth as he likes”. Jefferson reasoned to the opposite pole: the earth belongs in usufruct to the living; the dead have neither powers nor rights over it; what an individual occupied reverts to the society. How do the readings balance the owner’s freedom, the family’s claim and the society’s (see 15, 24 and 25)?"
+  },
+  {
+   "id": "shakespeare-nothing-will-come-of-nothing",
+   "after": "source:ABU0699",
+   "responds": [
+    "source:ABU0699"
+   ],
+   "relation": "complement",
+   "why": "King Lear divides his kingdom as he likes, according to his daughters’ speeches, and tells the one who will not flatter: nothing will come of nothing. What can go wrong with complete freedom of bequest, and what in the readings (reading 3’s “consider”) answers it?"
+  },
+  {
+   "id": "numbers-daughters-of-zelophehad-speak-right",
+   "after": "source:AB06331",
+   "responds": [
+    "source:AB06331"
+   ],
+   "relation": "adjacent",
+   "why": "The first inheritance so distributed in this Cycle. An earlier first: five sisters petition Moses, and the answer comes, the daughters of Zelophehad speak right: thou shalt cause the inheritance of their father to pass unto them."
+  },
+  {
+   "id": "quran-portion-of-two-females",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "Seven categories of heirs with fixed shares. The Qur’an’s law, which the Bahá’í scheme resembles and revises: Allah chargeth you concerning your children: to the male the equivalent of the portion of two females."
+  },
+  {
+   "id": "numbers-if-a-man-die-and-have-no-son",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The Mosaic order of succession: if a man die, and have no son, his inheritance passes unto his daughter; if no daughter, unto his brethren."
+  },
+  {
+   "id": "job-inheritance-among-their-brethren",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "complement",
+   "why": "Job, restored, did what no law required: their father gave his daughters inheritance among their brethren. The readings say the shares apply only where there is no will. What might a will do that the table cannot?"
+  },
+  {
+   "id": "deuteronomy-double-portion-of-the-firstborn",
+   "after": "source:BH00069",
+   "responds": [
+    "source:BH00069"
+   ],
+   "relation": "adjacent",
+   "why": "An estate of 2,520 shares, with distinct portions. Deuteronomy’s arithmetic was simpler: a double portion of all that he hath to the firstborn."
+  },
+  {
+   "id": "quran-wealth-of-orphans",
+   "after": "source:BH01307",
+   "responds": [
+    "source:BH01307"
+   ],
+   "relation": "adjacent",
+   "why": "“When We heard the cries of the children yet unborn, We doubled their portion.” Give unto orphans their wealth; absorb not their wealth into your own."
+  },
+  {
+   "id": "luke-portion-of-goods",
+   "after": "source:BH00781",
+   "responds": [
+    "source:BH00781"
+   ],
+   "relation": "adjacent",
+   "why": "The shares of missing persons held until their fate is known. A son who would not wait: Father, give me the portion of goods that falleth to me. And he divided unto them his living."
+  },
+  {
+   "id": "psalm-the-earth-is-the-lords",
+   "after": "source:BH00984",
+   "responds": [
+    "source:BH00984"
+   ],
+   "relation": "adjacent",
+   "why": "Where an heir is lacking, the share reverts to the House of Justice. The earth is the Lord’s, and the fulness thereof."
+  },
+  {
+   "id": "genesis-esau-despised-his-birthright",
+   "after": "source:AB11388",
+   "responds": [
+    "source:AB11388"
+   ],
+   "relation": "adjacent",
+   "why": "The residence belongs to the eldest son. The Bible’s most famous eldest son sold the privilege for bread and pottage of lentiles: thus Esau despised his birthright."
+  },
+  {
+   "id": "hebrews-no-place-of-repentance",
+   "after": "source:AB02532",
+   "responds": [
+    "source:AB02532"
+   ],
+   "relation": "complement",
+   "why": "Hebrews draws the warning: for one morsel of meat he sold his birthright, and afterward found no place of repentance. A special portion for the eldest is the feature of this law modern readers most question. What responsibilities might be meant to go with the house?"
+  },
+  {
+   "id": "luke-who-made-me-a-divider",
+   "after": "source:BH00464",
+   "responds": [
+    "source:BH00464"
+   ],
+   "relation": "complement",
+   "why": "Questions about to whom an estate should be delivered, and who is guardian. Jesus, asked to settle one: man, who made me a judge or a divider over you? Bahá’u’lláh did legislate on it. What is gained when a religion gives such a law, and what did Jesus avoid?"
+  },
+  {
+   "id": "leviticus-gleanings-for-the-poor",
+   "after": "source:BH11613",
+   "responds": [
+    "source:BH11613"
+   ],
+   "relation": "adjacent",
+   "why": "With no heir, the estate goes through consultation to the poor. The gleanings of the harvest: thou shalt leave them for the poor and stranger."
+  },
+  {
+   "id": "carnegie-dies-thus-rich-dies-disgraced",
+   "after": "source:ABU3325",
+   "responds": [
+    "source:ABU3325"
+   ],
+   "relation": "adjacent",
+   "why": "A manufacturer will not be allowed to leave everything to his own family. Carnegie, of the millionaire who keeps his fortune to the end: the man who dies thus rich dies disgraced."
+  },
+  {
+   "id": "romans-heirs-of-god",
+   "after": "source:AB06691",
+   "responds": [
+    "source:AB06691"
+   ],
+   "relation": "adjacent",
+   "why": "Inheritance has other meanings. If children, then heirs; heirs of God, and joint-heirs with Christ."
+  },
+  {
+   "id": "psalm-portion-of-mine-inheritance",
+   "after": "source:AB06691",
+   "responds": [
+    "source:AB06691"
+   ],
+   "relation": "adjacent",
+   "why": "The Lord is the portion of mine inheritance and of my cup; yea, I have a goodly heritage."
+  },
+  {
+   "id": "matthew-meek-shall-inherit-the-earth",
+   "after": "source:AB06691",
+   "responds": [
+    "source:AB06691"
+   ],
+   "relation": "adjacent",
+   "why": "And the beatitude that promises an estate to those least likely to claim one: blessed are the meek: for they shall inherit the earth."
+  }
+ ],
+ "shortfall": "Many of the readings answer detailed legal questions about particular shares, missing heirs and specific estates; few sayings bear on such details, and companions were chosen for the principles: the duty and freedom of the will, the fixed shares, the eldest son, the absence of heirs and the wider meanings of inheritance.",
+ "library": {
+  "deuteronomy-double-portion-of-the-firstborn": {
+   "text": "But he shall acknowledge the son of the hated for the firstborn, by giving him a double portion of all that he hath: for he is the beginning of his strength; the right of the firstborn is his",
+   "work": "Deuteronomy 21:17",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2021%3A17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "numbers-if-a-man-die-and-have-no-son": {
+   "text": "And thou shalt speak unto the children of Israel, saying, If a man die, and have no son, then ye shall cause his inheritance to pass unto his daughter. And if he have no daughter, then ye shall give his inheritance unto his brethren",
+   "work": "Numbers 27:8–9",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Numbers%2027%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "luke-portion-of-goods": {
+   "text": "And the younger of them said to his father, Father, give me the portion of goods that falleth to me. And he divided unto them his living",
+   "work": "Luke 15:12",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Luke%2015%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-esau-despised-his-birthright": {
+   "text": "And Jacob said, Swear to me this day; and he sware unto him: and he sold his birthright unto Jacob. Then Jacob gave Esau bread and pottage of lentiles; and he did eat and drink, and rose up, and went his way: thus Esau despised his birthright",
+   "work": "Genesis 25:33–34",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2025%3A33-34&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-leave-it-unto-the-man-after-me": {
+   "text": "Yea, I hated all my labour which I had taken under the sun: because I should leave it unto the man that shall be after me. And who knoweth whether he shall be a wise man or a fool? yet shall he have rule over all my labour wherein I have laboured, and wherein I have shewed myself wise under the sun. This is also vanity",
+   "work": "Ecclesiastes 2:18–19",
+   "year": "c. 5th–2nd century BCE",
+   "sortYear": -300,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%202%3A18-19&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "romans-heirs-of-god": {
+   "text": "The Spirit itself beareth witness with our spirit, that we are the children of God: And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together",
+   "work": "Romans 8:16–17",
+   "year": "c. 50–60 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Romans%208%3A16-17&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-portion-of-mine-inheritance": {
+   "text": "The Lord is the portion of mine inheritance and of my cup: thou maintainest my lot. The lines are fallen unto me in pleasant places; yea, I have a goodly heritage",
+   "work": "Psalm 16:5–6",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2016%3A5-6&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-bequest-prescribed": {
+   "text": "It is prescribed for you, when death approacheth one of you, if he leave wealth, that he bequeath unto parents and near relatives in kindness. (This is) a duty for all those who ward off (evil).",
+   "work": "Qur’an 2:180",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=180",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-portion-of-two-females": {
+   "text": "Allah chargeth you concerning (the provision for) your children: to the male the equivalent of the portion of two females",
+   "work": "Qur’an 4:11",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=11",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "jefferson-earth-belongs-to-the-living": {
+   "text": "I set out on this ground which I suppose to be self evident, \"that the earth belongs in usufruct to the living;\" that the dead have neither powers nor rights over it. The portion occupied by an individual ceases to be his when himself ceases to be, and reverts to the society",
+   "author": "Thomas Jefferson",
+   "work": "Letter to James Madison",
+   "locator": "6 September 1789",
+   "year": "1789",
+   "sortYear": 1789,
+   "tradition": "American literature and public life",
+   "kind": "public",
+   "source": {
+    "url": "https://en.wikisource.org/wiki/Letter_to_James_Madison_-_September_6,_1789",
+    "label": "Wikisource",
+    "checked": "2026-11-28",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Author d. 1826."
+   }
+  }
+ }
+}

@@ -1,0 +1,464 @@
+{
+ "format": 2,
+ "slug": "moses",
+ "subject": "39795FE0FF8AE70BF2A0D5EF2720675C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 52,
+ "quotations": 53,
+ "kept": [
+  "source:AB00855",
+  "source:AB10615",
+  "source:ABU1489",
+  "source:ABU1511",
+  "source:ABU1840",
+  "source:BH00794",
+  "source:AB04091",
+  "source:AB02584",
+  "source:AB08898",
+  "source:AB04441",
+  "source:BH04890",
+  "source:BH07827",
+  "source:BH00335",
+  "source:AB08849",
+  "source:AB03869",
+  "source:BH03282",
+  "source:BH02846",
+  "source:BH01342",
+  "source:BH00002",
+  "source:BH01686",
+  "source:BH02051",
+  "source:BH00601",
+  "source:BH00705",
+  "source:BH04942",
+  "source:BH02423",
+  "source:BH07991",
+  "source:ABU3237",
+  "source:BH02221",
+  "source:ABU0168",
+  "source:ABU0032",
+  "source:ABU0272",
+  "source:ABU0280",
+  "source:ABU1159",
+  "source:ABU0333",
+  "source:ABU1031",
+  "source:AB01333",
+  "source:AB01160",
+  "source:ABU0057",
+  "source:ABU0692",
+  "source:ABU1202",
+  "source:ABU1653",
+  "source:ABU0797",
+  "source:ABU0785",
+  "source:AB00168",
+  "source:AB00639",
+  "source:ABU0015",
+  "source:BB00585",
+  "source:BH00377",
+  "source:BH08151",
+  "source:BH01510",
+  "source:BH04654",
+  "source:AB12491"
+ ],
+ "introduction": "“Moses was for a long time a shepherd in the wilderness.” The readings draw three pictures of him: the stammerer, shepherd and fugitive who was nevertheless made to speak before Pharaoh; the one who heard the Voice from the fire in the tree; and, at greatest length in ‘Abdu’l-Bahá’s talks, the educator who raised an enslaved people into a civilization. The two older scriptures tell the same life. Exodus has the killing of the Egyptian, “I am slow of speech”, the bush that was not consumed, “Let my people go”, and the sea; the Qur’an has the prayer to “loose a knot from my tongue”, the fire seen from afar, the white hand, and the command to speak to Pharaoh “a gentle word”. Exodus also keeps what the talks leave out: the golden calf, and Jethro telling Moses he is doing his work badly. Elizabeth Barrett Browning turned the bush into a line of English poetry, and Spinoza began the criticism that asks what of this history can be known.",
+ "questions": [
+  "Why do Exodus, the Qur’an and these readings all insist on Moses’s weakness of speech? What is the point being made about how such a mission succeeds?",
+  "“Many people crossed the desert of Sinai but it was Moses who heard.” What, in the readings and in Browning’s lines, makes the difference between passing a bush and hearing a voice?",
+  "Moses was told to speak to Pharaoh “a gentle word”; reading 27 counsels “moderation”. How does gentleness go together with “Let my people go”?",
+  "The readings credit Moses with educating a nation; Exodus records the calf and the murmuring. Put the two accounts together. What does educating a people involve?",
+  "Reading 46 explains “eye for eye” by the conditions of the wilderness. What principle of reading scripture is at work, and where else do the readings use it?",
+  "Moses died in sight of the land he did not enter. What does that ending say about the work of any founder or teacher?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-slew-the-egyptian",
+   "after": "source:AB00855",
+   "responds": [
+    "source:AB00855"
+   ],
+   "relation": "adjacent",
+   "why": "A shepherd, reared in a tyrant’s house and reputed a murderer. Exodus does not hide it: he spied an Egyptian smiting an Hebrew; he looked this way and that way, and slew the Egyptian, and hid him in the sand."
+  },
+  {
+   "id": "exodus-moses-fled",
+   "after": "source:AB00855",
+   "responds": [
+    "source:AB00855"
+   ],
+   "relation": "adjacent",
+   "why": "Who made thee a prince and a judge over us? And Moses feared, and fled from the face of Pharaoh."
+  },
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:AB10615",
+   "responds": [
+    "source:AB10615"
+   ],
+   "relation": "adjacent",
+   "why": "Despite his impediment, he delivered decisive utterance. O my Lord, I am not eloquent; I am slow of speech, and of a slow tongue. And the Lord said, Who hath made man’s mouth?"
+  },
+  {
+   "id": "quran-moses-loose-knot",
+   "after": "source:ABU1489",
+   "responds": [
+    "source:ABU1489"
+   ],
+   "relation": "adjacent",
+   "why": "He asked for Aaron’s aid. The Qur’an’s form of the prayer: my Lord! relieve my mind and ease my task for me; and loose a knot from my tongue, that they may understand my saying."
+  },
+  {
+   "id": "exodus-a-god-to-pharaoh",
+   "after": "source:ABU1489",
+   "responds": [
+    "source:ABU1489"
+   ],
+   "relation": "adjacent",
+   "why": "See, I have made thee a god to Pharaoh: and Aaron thy brother shall be thy prophet."
+  },
+  {
+   "id": "hebrews-moses-chose-affliction",
+   "after": "source:ABU1511",
+   "responds": [
+    "source:ABU1511"
+   ],
+   "relation": "adjacent",
+   "why": "A shepherd who overcame Pharaoh and his armies. By faith Moses refused to be called the son of Pharaoh’s daughter; choosing rather to suffer affliction with the people of God."
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:ABU1840",
+   "responds": [
+    "source:ABU1840"
+   ],
+   "relation": "adjacent",
+   "why": "Many crossed Sinai; Moses heard. The bush burned with fire, and the bush was not consumed. And Moses said, I will now turn aside, and see this great sight."
+  },
+  {
+   "id": "quran-moses-show-me",
+   "after": "source:BH00794",
+   "responds": [
+    "source:BH00794"
+   ],
+   "relation": "adjacent",
+   "why": "How he implored in this wilderness to attain the vision. My Lord! Show me Thy self, that I may gaze upon Thee. He said: Thou wilt not see Me, but gaze upon the mountain."
+  },
+  {
+   "id": "exodus-no-man-see-me-and-live",
+   "after": "source:BH00794",
+   "responds": [
+    "source:BH00794"
+   ],
+   "relation": "adjacent",
+   "why": "Thou canst not see my face: for there shall no man see me, and live."
+  },
+  {
+   "id": "quran-i-see-a-fire-afar-off",
+   "after": "source:AB04091",
+   "responds": [
+    "source:AB04091"
+   ],
+   "relation": "adjacent",
+   "why": "From the Midian of longing to the Sinai of radiance. Lo! I see a fire afar off. Peradventure I may bring you a brand therefrom or may find guidance at the fire."
+  },
+  {
+   "id": "quran-from-the-tree-o-moses",
+   "after": "source:AB08898",
+   "responds": [
+    "source:AB08898"
+   ],
+   "relation": "adjacent",
+   "why": "He heard the call from the kindled fire in the green tree. The Qur’an: he was called from the right side of the valley in the blessed field, from the tree: O Moses! Lo! I, even I, am Allah."
+  },
+  {
+   "id": "exodus-put-off-thy-shoes",
+   "after": "source:BH00335",
+   "responds": [
+    "source:BH00335"
+   ],
+   "relation": "adjacent",
+   "why": "He covered His face in fear. Draw not nigh hither: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground."
+  },
+  {
+   "id": "exodus-i-am-that-i-am",
+   "after": "source:AB08849",
+   "responds": [
+    "source:AB08849"
+   ],
+   "relation": "adjacent",
+   "why": "He saw the fire and heard a Voice. And God said unto Moses, I AM THAT I AM."
+  },
+  {
+   "id": "browning-earths-crammed-with-heaven",
+   "after": "source:BH01342",
+   "responds": [
+    "source:BH01342"
+   ],
+   "relation": "adjacent",
+   "why": "“When Moses cast off the sandals of allusion.” Elizabeth Barrett Browning: earth’s crammed with heaven, and every common bush afire with God; but only he who sees, takes off his shoes."
+  },
+  {
+   "id": "quran-white-hand",
+   "after": "source:BH01686",
+   "responds": [
+    "source:BH01686"
+   ],
+   "relation": "adjacent",
+   "why": "Sent with the rod of Command and the white hand of knowledge. Thrust thy hand within thine armpit, it will come forth white without hurt."
+  },
+  {
+   "id": "exodus-magicians-did-in-like-manner",
+   "after": "source:BH01686",
+   "responds": [
+    "source:BH01686"
+   ],
+   "relation": "adjacent",
+   "why": "The rod before Pharaoh: the magicians did in like manner with their enchantments, but Aaron’s rod swallowed up their rods."
+  },
+  {
+   "id": "exodus-let-my-people-go",
+   "after": "source:BH00601",
+   "responds": [
+    "source:BH00601"
+   ],
+   "relation": "adjacent",
+   "why": "Sent with clear signs, and the people turned away. Thus saith the Lord God of Israel, Let my people go. And Pharaoh said, Who is the Lord, that I should obey his voice?"
+  },
+  {
+   "id": "quran-pharaoh-exalted-himself",
+   "after": "source:BH00705",
+   "responds": [
+    "source:BH00705"
+   ],
+   "relation": "adjacent",
+   "why": "Sent to Pharaoh and his chiefs. Lo! Pharaoh exalted himself in the earth and made its people castes. A tribe among them he oppressed."
+  },
+  {
+   "id": "exodus-pharaoh-hardened",
+   "after": "source:BH04942",
+   "responds": [
+    "source:BH04942"
+   ],
+   "relation": "adjacent",
+   "why": "Nine clear signs. For this cause have I raised thee up, for to shew in thee my power."
+  },
+  {
+   "id": "quran-would-ye-kill-a-man",
+   "after": "source:BH07991",
+   "responds": [
+    "source:BH07991"
+   ],
+   "relation": "adjacent",
+   "why": "In the early days a strong party secretly supported him. The Qur’an remembers one: a believing man of Pharaoh’s family, who hid his faith, said: would ye kill a man because he saith: my Lord is Allah?"
+  },
+  {
+   "id": "quran-speak-a-gentle-word",
+   "after": "source:ABU3237",
+   "responds": [
+    "source:ABU3237"
+   ],
+   "relation": "adjacent",
+   "why": "“Moderation, moderation”: consider the taste of the public. The instruction given to Moses himself: speak unto him a gentle word, that peradventure he may heed or fear."
+  },
+  {
+   "id": "exodus-stand-still-and-go-forward",
+   "after": "source:BH02221",
+   "responds": [
+    "source:BH02221"
+   ],
+   "relation": "adjacent",
+   "why": "With one staff he struck the kingdom of creation. Fear ye not, stand still, and see the salvation of the Lord. Speak unto the children of Israel, that they go forward."
+  },
+  {
+   "id": "exodus-sea-divided",
+   "after": "source:BH02221",
+   "responds": [
+    "source:BH02221"
+   ],
+   "relation": "adjacent",
+   "why": "And Moses stretched out his hand over the sea; and the waters were divided."
+  },
+  {
+   "id": "exodus-i-have-heard-their-cry",
+   "after": "source:ABU0032",
+   "responds": [
+    "source:ABU0032"
+   ],
+   "relation": "adjacent",
+   "why": "He delivered that people from degradation. I have surely seen the affliction of my people which are in Egypt, and have heard their cry by reason of their taskmasters."
+  },
+  {
+   "id": "exodus-the-more-they-multiplied",
+   "after": "source:ABU0272",
+   "responds": [
+    "source:ABU0272"
+   ],
+   "relation": "adjacent",
+   "why": "The Israelites in Egypt, in the lowest condition. But the more they afflicted them, the more they multiplied and grew."
+  },
+  {
+   "id": "exodus-holy-nation",
+   "after": "source:ABU0280",
+   "responds": [
+    "source:ABU0280"
+   ],
+   "relation": "adjacent",
+   "why": "A universal Teacher who trained a people. Ye shall be unto me a kingdom of priests, and an holy nation."
+  },
+  {
+   "id": "exodus-made-them-a-molten-calf",
+   "after": "source:ABU1159",
+   "responds": [
+    "source:ABU1159"
+   ],
+   "relation": "contrast",
+   "why": "The readings describe the education of Israel as a steady ascent. Exodus is harsher about the pupils: they have turned aside quickly out of the way; they have made them a molten calf. Why might ‘Abdu’l-Bahá’s talks pass over the forty years of murmuring? What does the biblical account add to the idea of a people’s education?"
+  },
+  {
+   "id": "deuteronomy-not-because-ye-were-more",
+   "after": "source:ABU0333",
+   "responds": [
+    "source:ABU0333"
+   ],
+   "relation": "adjacent",
+   "why": "Before Moses they were in bondage. The Lord did not set his love upon you because ye were more in number than any people; for ye were the fewest of all people."
+  },
+  {
+   "id": "exodus-jethro-not-good",
+   "after": "source:ABU1031",
+   "responds": [
+    "source:ABU1031"
+   ],
+   "relation": "complement",
+   "why": "He “nobly educated the people of Israel”. Exodus shows him learning the work: his father-in-law tells him, the thing that thou doest is not good; thou wilt surely wear away; thou art not able to perform it thyself alone. What does it add to the picture that the great educator took advice?"
+  },
+  {
+   "id": "exodus-milk-and-honey",
+   "after": "source:AB01333",
+   "responds": [
+    "source:AB01333"
+   ],
+   "relation": "adjacent",
+   "why": "From Egypt to the Holy Land. To bring them up out of that land unto a good land and a large, unto a land flowing with milk and honey."
+  },
+  {
+   "id": "numbers-moses-very-meek",
+   "after": "source:ABU0057",
+   "responds": [
+    "source:ABU0057"
+   ],
+   "relation": "adjacent",
+   "why": "Single and alone against the nations. Now the man Moses was very meek, above all the men which were upon the face of the earth."
+  },
+  {
+   "id": "deuteronomy-no-prophet-like-moses",
+   "after": "source:ABU0692",
+   "responds": [
+    "source:ABU0692"
+   ],
+   "relation": "adjacent",
+   "why": "“The first Educator of mankind.” There arose not a prophet since in Israel like unto Moses, whom the Lord knew face to face."
+  },
+  {
+   "id": "numbers-all-the-lords-people-prophets",
+   "after": "source:ABU1653",
+   "responds": [
+    "source:ABU1653"
+   ],
+   "relation": "adjacent",
+   "why": "Neither philosopher nor scientist, outwardly a simple shepherd. His own wish for his people: would God that all the Lord’s people were prophets!"
+  },
+  {
+   "id": "spinoza-not-written-by-moses",
+   "after": "source:ABU0797",
+   "responds": [
+    "source:ABU0797"
+   ],
+   "relation": "contrast",
+   "why": "A philosopher held that the Prophets are barriers to progress. Spinoza, earlier, applied criticism to the books themselves: it is as clear as the noonday light that the Pentateuch was not written by Moses, but by one who lived many ages after him. The readings rest much on “generally accepted history”. What in their account of Moses depends on the history, and what would stand without it?"
+  },
+  {
+   "id": "deuteronomy-moses-died-there",
+   "after": "source:ABU0785",
+   "responds": [
+    "source:ABU0785"
+   ],
+   "relation": "adjacent",
+   "why": "After his death the Cause of Moses reached only to Syria. He was shown the land from the mountain and told, thou shalt not go over thither. So Moses the servant of the Lord died there."
+  },
+  {
+   "id": "exodus-blot-me-out-of-thy-book",
+   "after": "source:AB00168",
+   "responds": [
+    "source:AB00168"
+   ],
+   "relation": "adjacent",
+   "why": "The rebuke was in reality addressed to the children of Israel. Moses, after the calf: yet now, if thou wilt forgive their sin; and if not, blot me, I pray thee, out of thy book."
+  },
+  {
+   "id": "deuteronomy-a-prophet-like-unto-me",
+   "after": "source:AB00639",
+   "responds": [
+    "source:AB00639"
+   ],
+   "relation": "adjacent",
+   "why": "The Jewish people were expecting the Messiah. The Lord thy God will raise up unto thee a Prophet from the midst of thee, of thy brethren, like unto me; unto him ye shall hearken."
+  },
+  {
+   "id": "john-had-ye-believed-moses",
+   "after": "source:AB00639",
+   "responds": [
+    "source:AB00639"
+   ],
+   "relation": "adjacent",
+   "why": "Had ye believed Moses, ye would have believed me: for he wrote of me."
+  },
+  {
+   "id": "exodus-eye-for-eye",
+   "after": "source:ABU0015",
+   "responds": [
+    "source:ABU0015"
+   ],
+   "relation": "adjacent",
+   "why": "In the wilderness, with no prison, he said tooth for tooth and eye for eye. Thou shalt give life for life, eye for eye, tooth for tooth."
+  },
+  {
+   "id": "matthew-turn-the-other-cheek",
+   "after": "source:ABU0015",
+   "responds": [
+    "source:ABU0015"
+   ],
+   "relation": "complement",
+   "why": "Ye have heard that it hath been said, An eye for an eye: but I say unto you, That ye resist not evil. The reading explains the older law by its circumstances. Does that explanation honour Moses’s law, or set it aside?"
+  },
+  {
+   "id": "exodus-face-to-face",
+   "after": "source:BH00377",
+   "responds": [
+    "source:BH00377"
+   ],
+   "relation": "adjacent",
+   "why": "God speaking to Moses without veil. The Lord spake unto Moses face to face, as a man speaketh unto his friend."
+  },
+  {
+   "id": "exodus-face-shone",
+   "after": "source:BH01510",
+   "responds": [
+    "source:BH01510"
+   ],
+   "relation": "adjacent",
+   "why": "That cycle has returned and its mystery is unveiled. When he came down from the mount, Moses wist not that the skin of his face shone."
+  },
+  {
+   "id": "exodus-pillar-of-fire",
+   "after": "source:AB12491",
+   "responds": [
+    "source:AB12491"
+   ],
+   "relation": "adjacent",
+   "why": "Follow the example of Moses, who arose to guide mankind. The Lord went before them by day in a pillar of a cloud, and by night in a pillar of fire, to give them light."
+  }
+ ],
+ "shortfall": "Readings 8 to 17 repeat the scene of the fire in the tree in a dozen short salutations, and 29 to 40 repeat the account of Israel’s education; each group shares a few companions, and the poetic allusions of 16, 17 and 51 were left as they are.",
+ "library": {}
+}

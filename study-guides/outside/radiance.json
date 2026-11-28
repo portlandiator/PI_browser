@@ -1,0 +1,742 @@
+{
+ "format": 2,
+ "slug": "radiance",
+ "subject": "5F501A1D6AA54C2E8306ED06B66657A5",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 55,
+ "quotations": 55,
+ "kept": [
+  "source:AB05881",
+  "source:BH07082",
+  "source:AB09596",
+  "source:BH05978",
+  "source:AB00422",
+  "source:ABU0804",
+  "source:AB10600",
+  "source:AB04292",
+  "source:BH06737",
+  "source:BH02364",
+  "source:BH05172",
+  "source:BH10017",
+  "source:AB06721",
+  "source:AB05602",
+  "source:AB07576",
+  "source:AB08773",
+  "source:AB05054",
+  "source:AB09362",
+  "source:AB08145",
+  "source:AB04106",
+  "source:AB06328",
+  "source:AB05273",
+  "source:AB09450",
+  "source:AB10132",
+  "source:AB05458",
+  "source:AB01271",
+  "source:AB07264",
+  "source:AB00297",
+  "source:AB10795",
+  "source:AB03353",
+  "source:AB02446",
+  "source:AB03386",
+  "source:ABU0738",
+  "source:ABU3292",
+  "source:ABU0438",
+  "source:ABU0959",
+  "source:ABU2004",
+  "source:ABU1767",
+  "source:AB00002",
+  "source:BH00002",
+  "source:AB09504",
+  "source:BH05166",
+  "source:BH03185",
+  "source:AB06611",
+  "source:AB06509",
+  "source:AB07384",
+  "source:AB02237",
+  "source:AB08232",
+  "source:AB05607",
+  "source:AB08987",
+  "source:ABU3720",
+  "source:ABU3411",
+  "source:ABU1523",
+  "source:BH02189",
+  "source:ABU3467"
+ ],
+ "introduction": "“The luminous countenance hath no need of ornament.” From that sentence the guide moves through letters and talks that wish one thing for their readers in two images: that a light be seen in their faces, and that a fragrance be carried from their conduct wherever they go. The Sermon on the Mount calls its hearers the light of the world; Moses’s face shone and he did not know it; Paul calls the apostles a sweet savour; the Dhammapada says that the scent of the good travels against the wind; Portia sees how far a little candle throws its beams. Beside these stand cautions from the same sources. The sermon that says “let your light so shine” also forbids piety done to be seen; Samuel, reading a face, chose wrongly; Hamlet knows a smiling villain and Jesus a whited sepulchre; Luke warns that the light in a person may be darkness; and Blake found briars in the garden of love.",
+ "questions": [
+  "“Let your light so shine before men” and “when thou fastest, wash thy face” come from one sermon. How do the readings keep radiance from becoming display?",
+  "Moses “wist not that the skin of his face shone”. Does it matter whether the radiant person knows it?",
+  "Several readings say that hearts can be read in faces; Samuel misjudged by appearance and Hamlet met a smiling villain. What kind of perception are the readings describing?",
+  "The Dhammapada distinguishes the flower with scent from the flower without. What, in the readings, is the difference between character and its fragrance?",
+  "Some asked of Mary’s ointment, “Why was this waste?” What would be lost in a community that was useful and not fragrant?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-light-of-the-world",
+   "after": "source:AB05881",
+   "responds": [
+    "source:AB05881"
+   ],
+   "relation": "adjacent",
+   "why": "“Become embodied light.” The Sermon on the Mount says it to a hillside of ordinary people: ye are the light of the world; a city set on an hill cannot be hid."
+  },
+  {
+   "id": "peter-meek-and-quiet-spirit",
+   "after": "source:BH07082",
+   "responds": [
+    "source:BH07082"
+   ],
+   "relation": "adjacent",
+   "why": "“The luminous countenance hath no need of ornament.” Peter asks the same of the women of his churches: not the outward adorning of gold and apparel, but the hidden man of the heart."
+  },
+  {
+   "id": "numbers-priestly-blessing",
+   "after": "source:AB09596",
+   "responds": [
+    "source:AB09596"
+   ],
+   "relation": "adjacent",
+   "why": "“Your name is Light”, and may your face be the light of God. Israel’s blessing asks that the Lord’s own face shine upon the one blessed."
+  },
+  {
+   "id": "corinthians-sweet-savour-of-christ",
+   "after": "source:BH05978",
+   "responds": [
+    "source:BH05978"
+   ],
+   "relation": "adjacent",
+   "why": "By a praiseworthy character “the fragrance of purity may be wafted over all men”. Paul uses the same figure for the apostles’ lives: a sweet savour, made manifest in every place."
+  },
+  {
+   "id": "matthew-let-your-light-so-shine",
+   "after": "source:ABU0804",
+   "responds": [
+    "source:ABU0804"
+   ],
+   "relation": "adjacent",
+   "why": "Whoever sees your deeds should exclaim that this is a servant of God. Let your light so shine before men, that they may see your good works, and glorify your Father."
+  },
+  {
+   "id": "matthew-when-thou-fastest",
+   "after": "source:ABU0804",
+   "responds": [
+    "source:ABU0804"
+   ],
+   "relation": "contrast",
+   "why": "The same sermon forbids doing righteousness “to be seen of men” and tells the faster to wash his face. How can a life be meant to be noticed and yet not be lived for notice?"
+  },
+  {
+   "id": "philippians-shine-as-lights",
+   "after": "source:AB10600",
+   "responds": [
+    "source:AB10600"
+   ],
+   "relation": "adjacent",
+   "why": "A Bahá’í is one who “like a candle, illumines”. Paul hopes his friends at Philippi will shine as lights in the world, in the midst of a crooked nation."
+  },
+  {
+   "id": "shakespeare-little-candle",
+   "after": "source:AB10600",
+   "responds": [
+    "source:AB10600"
+   ],
+   "relation": "adjacent",
+   "why": "Portia, coming home at night: “How far that little candle throws his beams! So shines a good deed in a naughty world.”"
+  },
+  {
+   "id": "ephesians-children-of-light",
+   "after": "source:AB04292",
+   "responds": [
+    "source:AB04292"
+   ],
+   "relation": "adjacent",
+   "why": "“They cast no shadow, but are rather light from head to foot.” Paul: ye were sometimes darkness, but now are ye light in the Lord: walk as children of light."
+  },
+  {
+   "id": "luke-light-that-is-in-thee",
+   "after": "source:AB04292",
+   "responds": [
+    "source:AB04292"
+   ],
+   "relation": "complement",
+   "why": "Luke adds a caution to the saying about the lamp: take heed that the light which is in thee be not darkness. Who is in a position to say of themselves that they cast no shadow?"
+  },
+  {
+   "id": "dhammapada-flower-without-scent",
+   "after": "source:BH06737",
+   "responds": [
+    "source:BH06737"
+   ],
+   "relation": "adjacent",
+   "why": "“Ye are the flowers of this Garden”: let the fragrance be perceived. The Dhammapada compares fine words that are not acted on to a flower full of colour but without scent."
+  },
+  {
+   "id": "dhammapada-against-the-wind",
+   "after": "source:BH02364",
+   "responds": [
+    "source:BH02364"
+   ],
+   "relation": "adjacent",
+   "why": "People are to inhale from you “the sweet fragrances of your Lord”. The Buddha’s verse: the scent of flowers does not travel against the wind, but the fragrance of good people does."
+  },
+  {
+   "id": "exodus-face-shone",
+   "after": "source:BH05172",
+   "responds": [
+    "source:BH05172"
+   ],
+   "relation": "adjacent",
+   "why": "“From your faces may be witnessed the brightness of your Lord.” Moses came down from Sinai and did not know that the skin of his face shone."
+  },
+  {
+   "id": "psalm-looked-unto-him-and-were-lightened",
+   "after": "source:BH10017",
+   "responds": [
+    "source:BH10017"
+   ],
+   "relation": "adjacent",
+   "why": "Blessed are they whose faces radiate. The psalm gives the cause in half a verse: they looked unto him, and were lightened."
+  },
+  {
+   "id": "ecclesiastes-wisdom-maketh-his-face-to-shine",
+   "after": "source:AB06721",
+   "responds": [
+    "source:AB06721"
+   ],
+   "relation": "adjacent",
+   "why": "“When the light of the love of God shines upon a face” it becomes beautiful. The Preacher says it of wisdom: it maketh a man’s face to shine."
+  },
+  {
+   "id": "plato-beauty-in-the-inward-soul",
+   "after": "source:AB05602",
+   "responds": [
+    "source:AB05602"
+   ],
+   "relation": "adjacent",
+   "why": "Spiritual beauty is evident on the brow. Socrates, an ugly man by all accounts, prays at the end of the Phaedrus for beauty in the inward soul, and that outward and inward be at one."
+  },
+  {
+   "id": "proverbs-merry-heart-cheerful-countenance",
+   "after": "source:AB07576",
+   "responds": [
+    "source:AB07576"
+   ],
+   "relation": "adjacent",
+   "why": "“Thy likeness is made radiant and thy face happy.” The proverb: a merry heart maketh a cheerful countenance."
+  },
+  {
+   "id": "acts-face-of-an-angel",
+   "after": "source:AB08773",
+   "responds": [
+    "source:AB08773"
+   ],
+   "relation": "adjacent",
+   "why": "A face lit by the love of God. The council that tried Stephen, looking steadfastly on him, saw his face as it had been the face of an angel."
+  },
+  {
+   "id": "psalm-light-of-thy-countenance",
+   "after": "source:AB05054",
+   "responds": [
+    "source:AB05054"
+   ],
+   "relation": "adjacent",
+   "why": "A heart ablaze, and so a face “cheerfully beaming”. The psalmist asks for nothing else: Lord, lift thou up the light of thy countenance upon us."
+  },
+  {
+   "id": "shakespeare-smile-and-be-a-villain",
+   "after": "source:AB09362",
+   "responds": [
+    "source:AB09362"
+   ],
+   "relation": "contrast",
+   "why": "‘Abdu’l-Bahá reads certitude in a photograph of two faces. Hamlet writes in his tables that one may smile, and smile, and be a villain. How far can a countenance be trusted, and by whom?"
+  },
+  {
+   "id": "proverbs-shining-light",
+   "after": "source:AB08145",
+   "responds": [
+    "source:AB08145"
+   ],
+   "relation": "adjacent",
+   "why": "Obedience will make the face’s light “day by day increase”. The path of the just is as the shining light, that shineth more and more unto the perfect day."
+  },
+  {
+   "id": "ecclesiastes-good-name-precious-ointment",
+   "after": "source:AB04106",
+   "responds": [
+    "source:AB04106"
+   ],
+   "relation": "adjacent",
+   "why": "Become known for a character that carries a fragrance. The Preacher: a good name is better than precious ointment."
+  },
+  {
+   "id": "corinthians-epistle-written-in-our-hearts",
+   "after": "source:AB06328",
+   "responds": [
+    "source:AB06328"
+   ],
+   "relation": "adjacent",
+   "why": "“Be ye signs of His all subduing proof.” Paul calls his converts his epistle, known and read of all men."
+  },
+  {
+   "id": "song-ointment-poured-forth",
+   "after": "source:AB05273",
+   "responds": [
+    "source:AB05273"
+   ],
+   "relation": "adjacent",
+   "why": "The fragrance of love drifts “to all regions”. The Song of Solomon: thy name is as ointment poured forth."
+  },
+  {
+   "id": "hosea-as-the-dew-unto-israel",
+   "after": "source:AB09450",
+   "responds": [
+    "source:AB09450"
+   ],
+   "relation": "adjacent",
+   "why": "The human flower and its scent. Hosea’s promise to a restored people is all garden: he shall grow as the lily, his branches spread, his smell as Lebanon."
+  },
+  {
+   "id": "song-awake-o-north-wind",
+   "after": "source:AB05458",
+   "responds": [
+    "source:AB05458"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer to be made “as the good land” whose fragrances are carried abroad. The Song: awake, O north wind; blow upon my garden, that the spices thereof may flow out."
+  },
+  {
+   "id": "daniel-shine-as-the-stars",
+   "after": "source:AB01271",
+   "responds": [
+    "source:AB01271"
+   ],
+   "relation": "adjacent",
+   "why": "May each become “a brilliant lamp”. Daniel: they that be wise shall shine as the brightness of the firmament, and they that turn many to righteousness as the stars."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB00297",
+   "responds": [
+    "source:AB00297"
+   ],
+   "relation": "adjacent",
+   "why": "They are to teach heavenly characteristics “in their conduct and behavior”. Jesus’s test: ye shall know them by their fruits."
+  },
+  {
+   "id": "tennyson-flower-in-the-crannied-wall",
+   "after": "source:AB10795",
+   "responds": [
+    "source:AB10795"
+   ],
+   "relation": "complement",
+   "why": "Man should attain “a temperament like unto the rose”. Tennyson, holding a flower plucked from a wall, admits that to understand it, root and all, would be to know what God and man is. Is the rose a model, or a mystery?"
+  },
+  {
+   "id": "proverbs-sweetness-of-a-friend",
+   "after": "source:AB03353",
+   "responds": [
+    "source:AB03353"
+   ],
+   "relation": "adjacent",
+   "why": "News of friends with “radiant faces and merciful hearts” brings joy. Ointment and perfume rejoice the heart: so doth the sweetness of a man’s friend."
+  },
+  {
+   "id": "john-odour-of-the-ointment",
+   "after": "source:AB02446",
+   "responds": [
+    "source:AB02446"
+   ],
+   "relation": "adjacent",
+   "why": "A meeting-place from which “the incense of sanctity” rises. When Mary anointed Jesus’s feet, the house was filled with the odour of the ointment."
+  },
+  {
+   "id": "mark-why-was-this-waste",
+   "after": "source:AB02446",
+   "responds": [
+    "source:AB02446"
+   ],
+   "relation": "contrast",
+   "why": "Some who were present said: why was this waste? The ointment might have been sold and given to the poor. Is a fragrance a good in itself, or must it justify itself by use?"
+  },
+  {
+   "id": "galatians-fruit-of-the-spirit",
+   "after": "source:ABU0738",
+   "responds": [
+    "source:ABU0738"
+   ],
+   "relation": "adjacent",
+   "why": "Conduct that spreads “sanctification and the love of God”. Paul’s list of the Spirit’s fruit begins with love, joy and peace."
+  },
+  {
+   "id": "proverbs-merry-heart",
+   "after": "source:ABU3292",
+   "responds": [
+    "source:ABU3292"
+   ],
+   "relation": "adjacent",
+   "why": "Bahá’u’lláh loved to see “a face wreathed in smiles”. A merry heart doeth good like a medicine: but a broken spirit drieth the bones."
+  },
+  {
+   "id": "whitman-second-or-third-hand",
+   "after": "source:ABU3292",
+   "responds": [
+    "source:ABU3292"
+   ],
+   "relation": "adjacent",
+   "why": "The third quality is to see “with their own eyes and not through the eyes of others”. Whitman promises his reader the same: you shall no longer take things at second or third hand."
+  },
+  {
+   "id": "browning-imprisoned-splendour",
+   "after": "source:ABU0959",
+   "responds": [
+    "source:ABU0959"
+   ],
+   "relation": "adjacent",
+   "why": "Some souls “belong to another realm” while living in this one. Browning’s Paracelsus holds that truth is within us, an imprisoned splendour, and that to know is to open a way out for it."
+  },
+  {
+   "id": "proverbs-candle-of-the-lord",
+   "after": "source:ABU2004",
+   "responds": [
+    "source:ABU2004"
+   ],
+   "relation": "adjacent",
+   "why": "What reigns in the heart is read in the face. The spirit of man is the candle of the Lord, searching all the inward parts."
+  },
+  {
+   "id": "samuel-looketh-on-the-heart",
+   "after": "source:ABU2004",
+   "responds": [
+    "source:ABU2004"
+   ],
+   "relation": "contrast",
+   "why": "“If you have the perceptive power” you can read faces. Samuel, a prophet, looked at Jesse’s eldest son and was wrong: man looketh on the outward appearance. Who has the perceptive power, and how would they know?"
+  },
+  {
+   "id": "keats-thing-of-beauty",
+   "after": "source:ABU1767",
+   "responds": [
+    "source:ABU1767"
+   ],
+   "relation": "adjacent",
+   "why": "A visitor who cannot smell the garden can still see it. Keats: a thing of beauty is a joy for ever; its loveliness increases."
+  },
+  {
+   "id": "matthew-transfigured-before-them",
+   "after": "source:AB00002",
+   "responds": [
+    "source:AB00002"
+   ],
+   "relation": "adjacent",
+   "why": "His face was so luminous that unbelievers spoke of a heavenly light. The Gospels tell of a mountain where Jesus’s face did shine as the sun."
+  },
+  {
+   "id": "matthew-whited-sepulchres",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "contrast",
+   "why": "“The peoples of the world are judged by their countenance.” Jesus says of the most respectable faces of his day that they are whited sepulchres, beautiful outward. What kind of seeing does the reading have in mind?"
+  },
+  {
+   "id": "matthew-judge-not",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "complement",
+   "why": "To know the people of error by their faces is a perilous skill. Judge not, that ye be not judged, the Sermon on the Mount says. Is the reading describing what God sees, or licensing what we may conclude?"
+  },
+  {
+   "id": "matthew-righteous-shine-forth",
+   "after": "source:AB09504",
+   "responds": [
+    "source:AB09504"
+   ],
+   "relation": "adjacent",
+   "why": "The verse quoted is from the Qur’an’s picture of the blessed. Matthew’s is the same: then shall the righteous shine forth as the sun."
+  },
+  {
+   "id": "john-walk-while-ye-have-the-light",
+   "after": "source:BH05166",
+   "responds": [
+    "source:BH05166"
+   ],
+   "relation": "adjacent",
+   "why": "One with a radiant face is to be told, that he may turn toward the Dawn. Jesus: while ye have light, believe in the light, that ye may be the children of light."
+  },
+  {
+   "id": "genesis-smell-of-a-field",
+   "after": "source:AB06611",
+   "responds": [
+    "source:AB06611"
+   ],
+   "relation": "adjacent",
+   "why": "“The keen sense of smell … of Jacob” is needed. The Bible’s own scene of recognition by scent is Jacob’s father, blind Isaac: the smell of my son is as the smell of a field which the Lord hath blessed. And Isaac is deceived by it."
+  },
+  {
+   "id": "genesis-spirit-of-jacob-revived",
+   "after": "source:AB06509",
+   "responds": [
+    "source:AB06509"
+   ],
+   "relation": "adjacent",
+   "why": "Friends who “rejoiced at the coming of the bearer of glad tidings”. In Genesis the tidings that Joseph lives make the spirit of Jacob revive."
+  },
+  {
+   "id": "sirach-wine-is-as-good-as-life",
+   "after": "source:AB02237",
+   "responds": [
+    "source:AB02237"
+   ],
+   "relation": "contrast",
+   "why": "The love of God “cannot be mistaken”, as musk cannot. Yet scents and cheer have other sources; Sirach praises wine as good as life. What distinguishes the fragrance the reading means from mere charm?"
+  },
+  {
+   "id": "timothy-thy-grandmother-lois",
+   "after": "source:AB08232",
+   "responds": [
+    "source:AB08232"
+   ],
+   "relation": "adjacent",
+   "why": "One woman “became the cause of thy life”. Paul traces Timothy’s faith to two: his grandmother Lois and his mother Eunice."
+  },
+  {
+   "id": "isaiah-beautiful-upon-the-mountains",
+   "after": "source:AB05607",
+   "responds": [
+    "source:AB05607"
+   ],
+   "relation": "adjacent",
+   "why": "Joyful tidings are to be imparted “with gladness and delight”. How beautiful upon the mountains are the feet of him that bringeth good tidings."
+  },
+  {
+   "id": "ephesians-followers-of-god",
+   "after": "source:AB08987",
+   "responds": [
+    "source:AB08987"
+   ],
+   "relation": "adjacent",
+   "why": "“Perfumed by the breaths of God’s love.” Paul: walk in love, as Christ gave himself for us, an offering for a sweetsmelling savour."
+  },
+  {
+   "id": "matthew-salt-lost-savour",
+   "after": "source:ABU3720",
+   "responds": [
+    "source:ABU3720"
+   ],
+   "relation": "complement",
+   "why": "“Remain firm … and serve as channels” for the fragrances. Jesus warns that salt can lose its savour. What makes a fragrance last in a person?"
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU3411",
+   "responds": [
+    "source:ABU3411"
+   ],
+   "relation": "adjacent",
+   "why": "Believers alive with one fragrance. Rumi: the lamps are different, but the Light is the same."
+  },
+  {
+   "id": "blake-garden-of-love",
+   "after": "source:ABU1523",
+   "responds": [
+    "source:ABU1523"
+   ],
+   "relation": "contrast",
+   "why": "“They are the flowers of the garden.” Blake went to the Garden of Love and found a chapel built in it, “Thou shalt not” over the door, and priests binding with briars his joys and desires. What keeps a religious garden a garden?"
+  },
+  {
+   "id": "buddha-lamps-unto-yourselves",
+   "after": "source:BH02189",
+   "responds": [
+    "source:BH02189"
+   ],
+   "relation": "complement",
+   "why": "A body like a torch showing paths through the gloom. The Buddha’s last counsel was that his followers be lamps unto themselves. The readings speak of light given for others, and received; what does his saying add?"
+  },
+  {
+   "id": "judges-as-the-sun-in-his-might",
+   "after": "source:ABU3467",
+   "responds": [
+    "source:ABU3467"
+   ],
+   "relation": "adjacent",
+   "why": "“Bright like this star.” The song of Deborah ends: let them that love him be as the sun when he goeth forth in his might."
+  }
+ ],
+ "library": {
+  "corinthians-sweet-savour-of-christ": {
+   "text": "Now thanks be unto God, which always causeth us to triumph in Christ, and maketh manifest the savour of his knowledge by us in every place. For we are unto God a sweet savour of Christ",
+   "work": "2 Corinthians 2:14–15",
+   "year": "c. 50–60 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%202%3A14-15&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "psalm-looked-unto-him-and-were-lightened": {
+   "text": "They looked unto him, and were lightened: and their faces were not ashamed",
+   "work": "Psalm 34:5",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Psalm%2034%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "ecclesiastes-wisdom-maketh-his-face-to-shine": {
+   "text": "a man's wisdom maketh his face to shine, and the boldness of his face shall be changed",
+   "work": "Ecclesiastes 8:1",
+   "year": "c. 5th–2nd century BCE",
+   "sortYear": -300,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Ecclesiastes%208%3A1&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "matthew-righteous-shine-forth": {
+   "text": "Then shall the righteous shine forth as the sun in the kingdom of their Father",
+   "work": "Matthew 13:43",
+   "year": "c. 70–90 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2013%3A43&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "judges-as-the-sun-in-his-might": {
+   "text": "let them that love him be as the sun when he goeth forth in his might",
+   "work": "Judges 5:31",
+   "year": "c. 8th–5th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Judges%205%3A31&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "song-ointment-poured-forth": {
+   "text": "Because of the savour of thy good ointments thy name is as ointment poured forth, therefore do the virgins love thee",
+   "work": "Song of Solomon 1:3",
+   "year": "c. 5th–2nd century BCE",
+   "sortYear": -300,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Song%20of%20Solomon%201%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-smell-of-a-field": {
+   "text": "See, the smell of my son is as the smell of a field which the Lord hath blessed",
+   "work": "Genesis 27:27",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2027%3A27&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

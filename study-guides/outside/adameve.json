@@ -1,0 +1,479 @@
+{
+ "format": 2,
+ "slug": "adameve",
+ "subject": "6B2378895BCC48AEB5D0E7EA6B70D626",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 37,
+ "quotations": 40,
+ "kept": [
+  "source:ABU0403",
+  "source:AB00134",
+  "source:AB00038",
+  "source:AB04692",
+  "source:ABU3083",
+  "source:ABU0810",
+  "source:ABU1184",
+  "source:AB08363",
+  "source:ABU2063",
+  "source:ABU2403",
+  "source:BB00354",
+  "source:BB00002",
+  "source:BB00008",
+  "source:BH07826",
+  "source:BB00098",
+  "source:BB00005",
+  "source:BH00705",
+  "source:BH00227",
+  "source:ABU0217",
+  "source:AB00216",
+  "source:AB10306",
+  "source:ABU1419",
+  "source:AB00328",
+  "source:AB00920",
+  "source:ABU0040",
+  "source:BH02051",
+  "source:AB00100",
+  "source:AB01218",
+  "source:AB03015",
+  "source:ABU2748",
+  "source:ABU3724",
+  "source:AB02153",
+  "source:AB00353",
+  "source:BB00022",
+  "source:ABU2647",
+  "source:ABU1437",
+  "selection:99d0918f935ae2c9ab55df77"
+ ],
+ "introduction": "“These are all symbols beneath which there are wonderful meanings.” The guide reads the garden as something other than a history of two people: Adam as the childhood of the race, reaching for a maturity it could not yet bear; the tree as the Tree of Life; sin as the condition of our lower nature and not a stain passed down; Adam and Eve as spirit and soul, or as two aspects of one reality; and, at the end, masculine and feminine as belonging to bodies and not to souls. Origen read the garden as figure sixteen centuries earlier, and the Qur’an tells the story with a pardon and no inherited guilt. But Western Christianity has mostly followed Paul and Milton: “by one man sin entered into the world”, “man’s first disobedience”; and the pastoral letter used Eve to silence women. Those texts are here as the readings’ real opposition. Genesis itself, quoted closely, turns out to give the pair one name.",
+ "questions": [
+  "Milton and Paul read the garden as an event that changed the human condition. What does the symbolic reading in these guide passages keep of their account, and what does it give up?",
+  "Reading 5 makes Adam “the childhood of the race”. How does that change the moral colour of the reach for the fruit?",
+  "The Qur’an has Adam forgiven at once. What difference does it make to a religion whether its story of the first humans ends in pardon or in an inherited fault?",
+  "“Adam was first formed, then Eve”, says the pastoral letter; “called their name Adam”, says Genesis 5. How do readings 29, 36 and 37 read the pair, and what follows for the equality of women and men?",
+  "Darwin and reading 19 both speak of the “development of man”. Are they talking about the same thing?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-tree-of-knowledge",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "adjacent",
+   "why": "The Bible’s record of the garden is “all symbols”. The text to be read: of every tree of the garden thou mayest freely eat: but of the tree of the knowledge of good and evil, thou shalt not eat of it."
+  },
+  {
+   "id": "origen-without-a-sun",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "adjacent",
+   "why": "Origen asked in the third century who is so foolish as to suppose that God planted a garden like a farmer, with a visible tree of life; these things, he said, indicate mysteries through a history that did not literally happen."
+  },
+  {
+   "id": "milton-first-disobedience",
+   "after": "source:ABU0403",
+   "responds": [
+    "source:ABU0403"
+   ],
+   "relation": "contrast",
+   "why": "Milton took it as the history of the world: of man’s first disobedience, and the fruit of that forbidden tree, whose mortal taste brought death into the world, and all our woe. Western Christianity built its account of sin and redemption on that reading. What becomes of that account if the story is a symbol?"
+  },
+  {
+   "id": "revelation-tree-of-life-paradise-of-god",
+   "after": "source:AB00134",
+   "responds": [
+    "source:AB00134"
+   ],
+   "relation": "adjacent",
+   "why": "The tree “is none other than the Tree of Life”. To him that overcometh will I give to eat of the tree of life, which is in the midst of the paradise of God."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:AB04692",
+   "responds": [
+    "source:AB04692"
+   ],
+   "relation": "adjacent",
+   "why": "Adam wished the world’s maturity to appear in his own age; it could not, as an infant cannot be made a man by wishing. Paul sees the same schooling in the history of law: the law was our schoolmaster; after that faith is come, we are no longer under a schoolmaster."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU3083",
+   "responds": [
+    "source:ABU3083"
+   ],
+   "relation": "adjacent",
+   "why": "“Adam is the symbol of the childhood of the race.” When I was a child, I spake as a child, I understood as a child: but when I became a man, I put away childish things."
+  },
+  {
+   "id": "corinthians-milk-and-not-meat",
+   "after": "source:ABU3083",
+   "responds": [
+    "source:ABU3083"
+   ],
+   "relation": "adjacent",
+   "why": "Childhood had not the capacity for the fruit. I have fed you with milk, and not with meat: for hitherto ye were not able to bear it."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "source:ABU1184",
+   "responds": [
+    "source:ABU1184"
+   ],
+   "relation": "adjacent",
+   "why": "The mirror of Adam was dull, for people were not advanced. For now we see through a glass, darkly."
+  },
+  {
+   "id": "genesis-eyes-shall-be-opened",
+   "after": "source:AB08363",
+   "responds": [
+    "source:AB08363"
+   ],
+   "relation": "adjacent",
+   "why": "A covenant was taken that they not approach the Tree. The serpent’s version of what the tree offers: your eyes shall be opened, and ye shall be as gods, knowing good and evil."
+  },
+  {
+   "id": "genesis-flaming-sword",
+   "after": "source:ABU2063",
+   "responds": [
+    "source:ABU2063"
+   ],
+   "relation": "adjacent",
+   "why": "Transgression deprives humans of the paradise of the soul. Genesis: he drove out the man; and he placed Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life."
+  },
+  {
+   "id": "romans-by-one-man",
+   "after": "source:ABU2403",
+   "responds": [
+    "source:ABU2403"
+   ],
+   "relation": "contrast",
+   "why": "“Sin is the state of man in the world of the baser nature.” Paul: by one man sin entered into the world, and death by sin; and so death passed upon all men. For Paul, and for Augustine after him, sin is an inheritance from an event. The reading makes it a condition of nature. What is at stake in the difference?"
+  },
+  {
+   "id": "corinthians-as-in-adam-all-die",
+   "after": "source:ABU2403",
+   "responds": [
+    "source:ABU2403"
+   ],
+   "relation": "adjacent",
+   "why": "Paul’s own sentence can be read the reading’s way, of two conditions and not two dates: as in Adam all die, even so in Christ shall all be made alive."
+  },
+  {
+   "id": "genesis-brothers-keeper",
+   "after": "source:BB00354",
+   "responds": [
+    "source:BB00354"
+   ],
+   "relation": "adjacent",
+   "why": "Things were perfect “until Adam and Eve left the garden and Cain killed Abel”. Am I my brother’s keeper?"
+  },
+  {
+   "id": "quran-wronged-ourselves",
+   "after": "source:BB00008",
+   "responds": [
+    "source:BB00008"
+   ],
+   "relation": "adjacent",
+   "why": "Adam wept for Paradise forty mornings. The Qur’an gives the pair’s prayer: our Lord! We have wronged ourselves. If Thou forgive us not and have not mercy on us, surely we are of the lost."
+  },
+  {
+   "id": "quran-taught-adam-the-names",
+   "after": "source:BH07826",
+   "responds": [
+    "source:BH07826"
+   ],
+   "relation": "adjacent",
+   "why": "“He … Who taught Adam all the names.” The Qur’an: and He taught Adam all the names, then showed them to the angels, saying: inform Me of the names of these, if ye are truthful."
+  },
+  {
+   "id": "genesis-in-our-image",
+   "after": "source:BH00705",
+   "responds": [
+    "source:BH00705"
+   ],
+   "relation": "adjacent",
+   "why": "The First Creation was made a Word and the father of all. So God created man in his own image, in the image of God created he him; male and female created he them."
+  },
+  {
+   "id": "genesis-breath-of-life",
+   "after": "source:BH00227",
+   "responds": [
+    "source:BH00227"
+   ],
+   "relation": "adjacent",
+   "why": "A handful of clay kneaded by the hand of power. The Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life."
+  },
+  {
+   "id": "darwin-lowly-origin",
+   "after": "source:ABU0217",
+   "responds": [
+    "source:ABU0217"
+   ],
+   "relation": "complement",
+   "why": "The story is “an illustration of the development of man”. Darwin ended his own account of that development with man’s bodily frame bearing the indelible stamp of his lowly origin. The reading reads Genesis as about growth; he reads the bones. Do the two accounts meet anywhere?"
+  },
+  {
+   "id": "luke-power-of-the-highest",
+   "after": "source:AB10306",
+   "responds": [
+    "source:AB10306"
+   ],
+   "relation": "adjacent",
+   "why": "Christ’s birth is compared to Adam’s, who had neither father nor mother. Mary asks, how shall this be? and is told: the power of the Highest shall overshadow thee."
+  },
+  {
+   "id": "psalm-little-lower-than-the-angels",
+   "after": "source:AB00328",
+   "responds": [
+    "source:AB00328"
+   ],
+   "relation": "adjacent",
+   "why": "“Adam” means the reality in which the divine names are comprised. Thou hast made him a little lower than the angels, and hast crowned him with glory and honour."
+  },
+  {
+   "id": "quran-created-you-from-a-single-soul",
+   "after": "source:AB00920",
+   "responds": [
+    "source:AB00920"
+   ],
+   "relation": "adjacent",
+   "why": "The pairing of male and female runs through all things. The Qur’an: your Lord created you from a single soul and from it created its mate, and from them twain hath spread abroad a multitude of men and women."
+  },
+  {
+   "id": "quran-adam-received-words",
+   "after": "source:BH02051",
+   "responds": [
+    "source:BH02051"
+   ],
+   "relation": "adjacent",
+   "why": "God forgave Adam and made him a Prophet. The Qur’an: then Adam received from his Lord words of revelation, and He relented toward him. There is no inherited guilt in this telling."
+  },
+  {
+   "id": "genesis-the-woman-whom-thou-gavest",
+   "after": "source:AB00100",
+   "responds": [
+    "source:AB00100"
+   ],
+   "relation": "adjacent",
+   "why": "The story as the Torah tells it. One of its sharpest moments is the man’s excuse: the woman whom thou gavest to be with me, she gave me of the tree, and I did eat."
+  },
+  {
+   "id": "plato-looking-for-his-other-half",
+   "after": "source:AB01218",
+   "responds": [
+    "source:AB01218"
+   ],
+   "relation": "complement",
+   "why": "Adam, formed of dust and breath, stands for the spirit, and Eve for the soul. Plato’s Aristophanes tells another story of a divided first human, each half seeking the other. Both myths make the pair one being. What does each do with the division?"
+  },
+  {
+   "id": "galatians-neither-jew-nor-greek",
+   "after": "source:AB03015",
+   "responds": [
+    "source:AB03015"
+   ],
+   "relation": "adjacent",
+   "why": "“Masculine and feminine are characteristics of physical bodies and have no connection with the spirit.” There is neither male nor female: for ye are all one in Christ Jesus."
+  },
+  {
+   "id": "timothy-adam-was-first-formed",
+   "after": "source:AB03015",
+   "responds": [
+    "source:AB03015"
+   ],
+   "relation": "contrast",
+   "why": "The pastoral letter draws the opposite lesson from the garden: Adam was first formed, then Eve; and Adam was not deceived, but the woman being deceived was in the transgression. For centuries this reading kept women silent. What in the readings’ symbolic interpretation removes its footing?"
+  },
+  {
+   "id": "matthew-mote-and-beam",
+   "after": "source:ABU2748",
+   "responds": [
+    "source:ABU2748"
+   ],
+   "relation": "adjacent",
+   "why": "A man excuses fault-finding by God’s mention of Adam’s sin. Why beholdest thou the mote that is in thy brother’s eye, but considerest not the beam that is in thine own eye?"
+  },
+  {
+   "id": "genesis-let-there-be-no-strife",
+   "after": "source:AB02153",
+   "responds": [
+    "source:AB02153"
+   ],
+   "relation": "adjacent",
+   "why": "A quarrel in Eden, and all were banished. Abram, wiser, to Lot: let there be no strife, I pray thee, between me and thee; for we be brethren."
+  },
+  {
+   "id": "genesis-called-their-name-adam",
+   "after": "source:ABU1437",
+   "responds": [
+    "source:ABU1437"
+   ],
+   "relation": "adjacent",
+   "why": "Male and female are equal in every kingdom. Genesis gives the two one name: male and female created he them; and blessed them, and called their name Adam, in the day when they were created."
+  },
+  {
+   "id": "seneca-falls-men-and-women",
+   "after": "source:ABU1437",
+   "responds": [
+    "source:ABU1437"
+   ],
+   "relation": "adjacent",
+   "why": "The women of Seneca Falls rewrote a sentence in 1848: we hold these truths to be self-evident: that all men and women are created equal."
+  },
+  {
+   "id": "wollstonecraft-strengthen-the-female-mind",
+   "after": "selection:99d0918f935ae2c9ab55df77",
+   "responds": [
+    "selection:99d0918f935ae2c9ab55df77"
+   ],
+   "relation": "adjacent",
+   "why": "“Adam” and “Eve” name two aspects of one reality. Wollstonecraft, against the education that made Eve’s daughters weak: strengthen the female mind by enlarging it, and there will be an end to blind obedience."
+  }
+ ],
+ "shortfall": "Several readings repeat one point about the symbolic reading of the Genesis story, or answer a particular questioner on details of it; they were read with the companions of the fuller accounts next to them.",
+ "library": {
+  "genesis-flaming-sword": {
+   "text": "Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever: Therefore the Lord God sent him forth from the garden of Eden, to till the ground from whence he was taken. So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life",
+   "work": "Genesis 3:22–24",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A22-24&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-called-their-name-adam": {
+   "text": "In the day that God created man, in the likeness of God made he him; Male and female created he them; and blessed them, and called their name Adam, in the day when they were created",
+   "work": "Genesis 5:1–2",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%205%3A1-2&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "genesis-the-woman-whom-thou-gavest": {
+   "text": "The woman whom thou gavest to be with me, she gave me of the tree, and I did eat",
+   "work": "Genesis 3:12–13",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A12-13&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-adam-was-first-formed": {
+   "text": "For Adam was first formed, then Eve. And Adam was not deceived, but the woman being deceived was in the transgression",
+   "work": "1 Timothy 2:13–14",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%202%3A13-14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-adam-received-words": {
+   "text": "Then Adam received from his Lord words (of revelation), and He relented toward him. Lo! He is the relenting, the Merciful.",
+   "work": "Qur’an 2:37",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=37",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-created-you-from-a-single-soul": {
+   "text": "O mankind! Be careful of your duty to your Lord Who created you from a single soul and from it created its mate and from them twain hath spread abroad a multitude of men and women. Be careful of your duty toward Allah in Whom ye claim (your rights) of one another, and toward the wombs (that bare you). Lo! Allah hath been a watcher over you.",
+   "work": "Qur’an 4:1",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=1",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

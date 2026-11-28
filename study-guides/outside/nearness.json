@@ -1,0 +1,231 @@
+{
+ "format": 2,
+ "slug": "nearness",
+ "subject": "618F635CCD66E2DF15781AE191ACE8AE",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 20,
+ "quotations": 21,
+ "kept": [
+  "source:BH10977",
+  "source:AB00448",
+  "source:ABU1696",
+  "source:ABU2917",
+  "source:AB11885",
+  "source:ABU1896",
+  "source:ABU2622",
+  "source:AB06399",
+  "source:BH03883",
+  "source:AB04556",
+  "source:BH00958",
+  "source:BH10387",
+  "source:BH11737",
+  "source:BH00377",
+  "source:BH11798",
+  "source:BH05073",
+  "source:BH10518",
+  "source:AB09522",
+  "source:BH07185",
+  "source:ABU3103"
+ ],
+ "introduction": "“Verily He is nearer to thee than thou art to thyself.” The guide begins from that statement, explains that divine nearness is not spatial but a matter of knowledge and love, urges striving to draw nearer, warns that “those who are nearest at this feast are given a fuller cup of tribulation”, and ends in prayers. The opening line stands on the Qur’an’s “nearer to him than his jugular vein”, and Augustine’s “You were within, and I without”, Paul’s “in him we live, and move, and have our being” and Tennyson’s “closer is He than breathing” say the same. James and a saying of the Prophet make the drawing near mutual. The Psalmist who cries “why standest thou afar off?” and Isaiah’s God who hides Himself keep the other experience in view, and Kabir asks why one should travel to what is beside one.",
+ "questions": [
+  "If God is “nearer than thou art to thyself”, what is it that a person moves when they “draw near”?",
+  "“Draw nigh to God, and he will draw nigh to you”; “if he comes to Me walking, I go to him running”. Who moves first in the readings?",
+  "Why would those nearest be given “a fuller cup of tribulation”? Compare the answer to James and John.",
+  "The Psalmist cries, “Why standest thou afar off?” How do the readings account for the experience of distance?"
+ ],
+ "outside": [
+  {
+   "id": "quran-jugular-vein",
+   "after": "source:BH10977",
+   "responds": [
+    "source:BH10977"
+   ],
+   "relation": "adjacent",
+   "why": "“Nearer to thee than thou art to thyself.” The reading builds on the Qur’an’s saying: We are nearer to him than his jugular vein."
+  },
+  {
+   "id": "augustine-thou-wert-within",
+   "after": "source:BH10977",
+   "responds": [
+    "source:BH10977"
+   ],
+   "relation": "adjacent",
+   "why": "Augustine found the same and regretted how long it took: You were within, and I without, and there did I seek You."
+  },
+  {
+   "id": "acts-not-far-from-every-one",
+   "after": "source:AB00448",
+   "responds": [
+    "source:AB00448"
+   ],
+   "relation": "adjacent",
+   "why": "A nearness unlimited, not a matter of place. Paul at Athens: he be not far from every one of us: for in him we live, and move, and have our being."
+  },
+  {
+   "id": "psalm-whither-shall-i-go",
+   "after": "source:AB00448",
+   "responds": [
+    "source:AB00448"
+   ],
+   "relation": "adjacent",
+   "why": "Whither shall I go from thy spirit? If I take the wings of the morning, and dwell in the uttermost parts of the sea; even there shall thy hand lead me."
+  },
+  {
+   "id": "psalm-why-standest-thou-afar-off",
+   "after": "source:AB00448",
+   "responds": [
+    "source:AB00448"
+   ],
+   "relation": "contrast",
+   "why": "The Psalmist also knows the opposite experience: why standest thou afar off, O Lord? why hidest thou thyself in times of trouble? If God is nearer than oneself, what is the distance this cry reports?"
+  },
+  {
+   "id": "psalm-good-to-draw-near",
+   "after": "source:ABU1696",
+   "responds": [
+    "source:ABU1696"
+   ],
+   "relation": "adjacent",
+   "why": "Nearness to God is the only real happiness. But it is good for me to draw near to God."
+  },
+  {
+   "id": "tennyson-closer-than-breathing",
+   "after": "source:ABU2917",
+   "responds": [
+    "source:ABU2917"
+   ],
+   "relation": "adjacent",
+   "why": "“You are near to God.” Tennyson: speak to Him thou for He hears; closer is He than breathing, and nearer than hands and feet."
+  },
+  {
+   "id": "james-draw-nigh-to-god",
+   "after": "source:ABU1896",
+   "responds": [
+    "source:ABU1896"
+   ],
+   "relation": "adjacent",
+   "why": "Man must ever be thinking of drawing nearer. Draw nigh to God, and he will draw nigh to you."
+  },
+  {
+   "id": "hadith-draw-near",
+   "after": "source:ABU2622",
+   "responds": [
+    "source:ABU2622"
+   ],
+   "relation": "adjacent",
+   "why": "“Strive that you may be drawn nearer.” A sacred saying of Islam has the striving outrun: if he comes one span nearer to Me, I go one cubit nearer to him; if he comes to Me walking, I go to him running."
+  },
+  {
+   "id": "quran-prostrate-and-draw-near",
+   "after": "source:AB06399",
+   "responds": [
+    "source:AB06399"
+   ],
+   "relation": "adjacent",
+   "why": "The greatest means of drawing nigh. The Qur’an names one: prostrate thyself, and draw near."
+  },
+  {
+   "id": "mark-know-not-what-ye-ask",
+   "after": "source:AB04556",
+   "responds": [
+    "source:AB04556"
+   ],
+   "relation": "adjacent",
+   "why": "Those nearest at the feast are given a fuller cup of tribulation. Two disciples ask for the nearest seats, and are asked: can ye drink of the cup that I drink of?"
+  },
+  {
+   "id": "hebrews-whom-the-lord-loveth",
+   "after": "source:AB04556",
+   "responds": [
+    "source:AB04556"
+   ],
+   "relation": "adjacent",
+   "why": "Hebrews gives the reading’s reason in a line: for whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth."
+  },
+  {
+   "id": "isaiah-graven-upon-the-palms",
+   "after": "source:BH00958",
+   "responds": [
+    "source:BH00958"
+   ],
+   "relation": "adjacent",
+   "why": "A friend ever remembered, whose friendship shall never be forgotten. Isaiah has God say it of His people: yet will I not forget thee; behold, I have graven thee upon the palms of my hands."
+  },
+  {
+   "id": "augustine-restless-heart",
+   "after": "source:BH10387",
+   "responds": [
+    "source:BH10387"
+   ],
+   "relation": "adjacent",
+   "why": "Intimacy with God is the realm of rest. Augustine: our hearts are restless until they rest in You."
+  },
+  {
+   "id": "john-abide-in-me",
+   "after": "source:BH11737",
+   "responds": [
+    "source:BH11737"
+   ],
+   "relation": "adjacent",
+   "why": "In every moment, taste the water of nearness. Abide in me, and I in you."
+  },
+  {
+   "id": "isaiah-hidest-thyself",
+   "after": "source:BH00377",
+   "responds": [
+    "source:BH00377"
+   ],
+   "relation": "complement",
+   "why": "“His remoteness is His nearness and His nearness His remoteness.” Isaiah addresses a God who hides himself and saves, in one verse. What does a tradition gain by refusing to say simply that God is near, or simply that God is far?"
+  },
+  {
+   "id": "revelation-stand-at-the-door",
+   "after": "source:BH11798",
+   "responds": [
+    "source:BH11798"
+   ],
+   "relation": "adjacent",
+   "why": "When ye desire to approach, turn unto Him. Behold, I stand at the door, and knock."
+  },
+  {
+   "id": "psalm-my-soul-thirsteth",
+   "after": "source:BH05073",
+   "responds": [
+    "source:BH05073"
+   ],
+   "relation": "adjacent",
+   "why": "Withhold them not from the shore of Thy nearness. O God, my soul thirsteth for thee in a dry and thirsty land, where no water is."
+  },
+  {
+   "id": "psalm-nigh-unto-all-that-call",
+   "after": "source:AB09522",
+   "responds": [
+    "source:AB09522"
+   ],
+   "relation": "adjacent",
+   "why": "A wish for spiritual nearness always. The Lord is nigh unto all them that call upon him, to all that call upon him in truth."
+  },
+  {
+   "id": "luke-prodigal-father-ran",
+   "after": "source:BH07185",
+   "responds": [
+    "source:BH07185"
+   ],
+   "relation": "adjacent",
+   "why": "Draw nigh, and be not of those who deny. When he was yet a great way off, his father saw him, and had compassion, and ran."
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "source:ABU3103",
+   "responds": [
+    "source:ABU3103"
+   ],
+   "relation": "complement",
+   "why": "Live the life, and trivial things lose their hold. Kabir has God say where He is to be found: neither in temple nor in mosque; I am beside thee. If nearness is already given, what is the “drawing near” the readings urge?"
+  }
+ ],
+ "library": {}
+}

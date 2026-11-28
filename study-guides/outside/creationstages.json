@@ -1,0 +1,264 @@
+{
+ "format": 2,
+ "slug": "creationstages",
+ "subject": "3FF051A223694384AA2AA4EDE96BC144",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 34,
+ "quotations": 37,
+ "kept": [
+  "source:BB00590",
+  "source:BB00019",
+  "source:BB00008",
+  "source:BB00064",
+  "source:BB00029",
+  "source:BB00090",
+  "source:AB04858",
+  "source:BB00002",
+  "source:BB00613",
+  "source:ABU2713",
+  "source:BB00022",
+  "source:BB00037",
+  "source:BB00366",
+  "source:BB00061",
+  "source:BB00364",
+  "source:ABU3148",
+  "source:ABU0806",
+  "source:AB03929",
+  "source:BH00634",
+  "selection:786a1fc9d4462ca5b722b15e",
+  "selection:812df02eb06f058180e59840",
+  "selection:540a556e088175230e1b838d",
+  "selection:b4e2de49c5d7580a74ee1924",
+  "selection:e575887610171180c7a623a6",
+  "selection:d95224632236abd03590510e",
+  "selection:6a60a6ed30498f4312782dcf",
+  "selection:06f7df2832d02e190bb95770",
+  "selection:d8b26b0f7e71c8a78658b747",
+  "selection:fb3838fef621d8ebaac37672",
+  "selection:d32e1149da8b6bb1e0ef7b1f",
+  "selection:a729616f0904770595693227",
+  "selection:d3f229e5575642d43e64303d",
+  "selection:31aa91bfdafc678cce9bd543",
+  "selection:aadb3b447be8612e5974c109"
+ ],
+ "introduction": "The Báb, following the Shaykhí school, taught that nothing comes to be except through seven stages of the divine action: Will, Purpose, Predestination, Fate, Permission, the Fixed Time and the Book. The guide lays out that vocabulary, its symbols, and two other sevenfold readings (the days of creation as kingdoms of nature; the Qur’an’s stages of the embryo), and ends with what it means for fate and human effort. The scriptural companions are few and plain: “he spake, and it was done”, seven heavens, everything created by measure, a book in which the members were written. The philosophical ones are more searching. Plotinus has all things overflow from the One without any will; Lucretius denies creation from nothing; Spinoza denies purpose in nature; the Pythagoreans found number everywhere. On fate, Epictetus, Omar Khayyám and Shakespeare’s Cassius divide the ground between what is written and what is ours.",
+ "questions": [
+  "Plotinus’s One overflows without willing; the Báb’s scheme begins with Will. What does each beginning imply about whether the world might have been otherwise?",
+  "Reading 9 arranges beings in ascending stages, and Darwin tells a history from simple beginnings. What is the difference between a scale and a story, and does the reading need the story?",
+  "The Pythagoreans fitted the heavens to their numbers. How would you test whether “seven aspects” describes things or organizes our speech about them?",
+  "“The Moving Finger writes”; “the fault is not in our stars”. Where do readings 18, 19 and 33 draw the line between what is irrevocable and what can be changed by means and deeds?"
+ ],
+ "outside": [
+  {
+   "id": "isaiah-end-from-the-beginning",
+   "after": "source:BB00590",
+   "responds": [
+    "source:BB00590"
+   ],
+   "relation": "adjacent",
+   "why": "Will, as it relates to God, and Purpose, as it relates to the thing. Isaiah has God declare the end from the beginning: my counsel shall stand, and I will do all my pleasure."
+  },
+  {
+   "id": "psalm-by-the-word-heavens",
+   "after": "source:BB00019",
+   "responds": [
+    "source:BB00019"
+   ],
+   "relation": "adjacent",
+   "why": "God created all things “according to the stages of His action”. By the word of the Lord were the heavens made: he spake, and it was done; he commanded, and it stood fast."
+  },
+  {
+   "id": "quran-seven-heavens-in-two-days",
+   "after": "source:BB00008",
+   "responds": [
+    "source:BB00008"
+   ],
+   "relation": "adjacent",
+   "why": "The reading comments on this verse: He ordained them seven heavens in two Days and inspired in each heaven its mandate."
+  },
+  {
+   "id": "plotinus-has-overflowed",
+   "after": "source:BB00064",
+   "responds": [
+    "source:BB00064"
+   ],
+   "relation": "complement",
+   "why": "Will for existence, Purpose for determination, then Destiny, Decree and the rest. Plotinus described the coming-to-be of all things from the One as an overflowing, without will or deliberation. The Báb’s scheme begins with Will. What turns on that first word?"
+  },
+  {
+   "id": "lucretius-nothing-from-nothing",
+   "after": "source:BB00029",
+   "responds": [
+    "source:BB00029"
+   ],
+   "relation": "contrast",
+   "why": "He “created the Will from naught”. Lucretius took the opposite as the first principle of all sound thinking about nature: nothing can be created from nothing. What does each first principle allow one to explain?"
+  },
+  {
+   "id": "genesis-let-there-be-light",
+   "after": "source:BB00029",
+   "responds": [
+    "source:BB00029"
+   ],
+   "relation": "adjacent",
+   "why": "Genesis, with no scheme of stages, has the bare act: God said, Let there be light: and there was light."
+  },
+  {
+   "id": "rumi-died-as-mineral",
+   "after": "source:AB04858",
+   "responds": [
+    "source:AB04858"
+   ],
+   "relation": "adjacent",
+   "why": "The seven “days” are read as ranks: mineral, plant, animal, human and beyond. Rumi: I died as mineral and became a plant, I died as plant and rose to animal, I died as animal and I was man."
+  },
+  {
+   "id": "quran-product-of-wet-earth",
+   "after": "source:BB00002",
+   "responds": [
+    "source:BB00002"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this passage: We created man from a product of wet earth; then placed him as a drop in a safe lodging; then fashioned We the drop a clot, the clot a little lump, then bones, then clothed the bones with flesh."
+  },
+  {
+   "id": "darwin-grandeur",
+   "after": "source:BB00613",
+   "responds": [
+    "source:BB00613"
+   ],
+   "relation": "complement",
+   "why": "Seven general stages, from the inorganic upward. Darwin closes his book: there is grandeur in this view of life, from so simple a beginning endless forms most beautiful have been, and are being, evolved. He describes a history; the readings describe a hierarchy. Can one be laid over the other?"
+  },
+  {
+   "id": "shakespeare-seven-ages",
+   "after": "source:BB00613",
+   "responds": [
+    "source:BB00613"
+   ],
+   "relation": "adjacent",
+   "why": "A sevenfold scheme of another kind, for one human life: all the world’s a stage, and one man in his time plays many parts, his acts being seven ages."
+  },
+  {
+   "id": "aristotle-elements-of-numbers",
+   "after": "source:BB00022",
+   "responds": [
+    "source:BB00022"
+   ],
+   "relation": "complement",
+   "why": "Everything, the reading says, has seven aspects, no more and no fewer. Aristotle reports that the Pythagoreans supposed the elements of numbers to be the elements of all things, and fitted the heavens to their scheme. What is the difference between finding a number in things and bringing it to them?"
+  },
+  {
+   "id": "plato-always-is-and-has-no-becoming",
+   "after": "source:BB00366",
+   "responds": [
+    "source:BB00366"
+   ],
+   "relation": "adjacent",
+   "why": "A proof that a thing receives existence only through seven aspects. Plato begins his account of the world’s making by distinguishing that which always is and has no becoming from that which is always becoming and never is."
+  },
+  {
+   "id": "proverbs-wisdom-before-his-works",
+   "after": "source:BB00364",
+   "responds": [
+    "source:BB00364"
+   ],
+   "relation": "adjacent",
+   "why": "God fashioned things “by the art of choice”. Wisdom in Proverbs was there as the work was planned: when he appointed the foundations of the earth, then I was by him."
+  },
+  {
+   "id": "epictetus-some-things-are-in-our-control",
+   "after": "source:AB03929",
+   "responds": [
+    "source:AB03929"
+   ],
+   "relation": "adjacent",
+   "why": "Fate and predestination are “the necessary and indispensable relationships” in things. Epictetus begins from the practical form of the question: some things are in our control and others not."
+  },
+  {
+   "id": "khayyam-moving-finger",
+   "after": "source:BH00634",
+   "responds": [
+    "source:BH00634"
+   ],
+   "relation": "contrast",
+   "why": "What is irrevocable cannot be changed; the rest changes “through means and deeds”. FitzGerald’s Omar allows no rest: the Moving Finger writes; and, having writ, moves on: nor all thy piety nor wit shall lure it back to cancel half a line. Where do the readings place the line between the written and the unwritten?"
+  },
+  {
+   "id": "shakespeare-fault-not-in-our-stars",
+   "after": "source:BH00634",
+   "responds": [
+    "source:BH00634"
+   ],
+   "relation": "adjacent",
+   "why": "Cassius takes the other side: the fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings."
+  },
+  {
+   "id": "quran-created-by-measure",
+   "after": "selection:786a1fc9d4462ca5b722b15e",
+   "responds": [
+    "selection:786a1fc9d4462ca5b722b15e"
+   ],
+   "relation": "adjacent",
+   "why": "Nothing exists save through will, purpose, decree, fate, permission, the fixed time and the book. The Qur’an: lo! We have created every thing by measure."
+  },
+  {
+   "id": "psalm-made-in-secret",
+   "after": "selection:540a556e088175230e1b838d",
+   "responds": [
+    "selection:540a556e088175230e1b838d"
+   ],
+   "relation": "adjacent",
+   "why": "The seventh stage is “the book”. The psalmist of his own formation: in thy book all my members were written, which in continuance were fashioned, when as yet there was none of them."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "selection:540a556e088175230e1b838d",
+   "responds": [
+    "selection:540a556e088175230e1b838d"
+   ],
+   "relation": "adjacent",
+   "why": "And the sixth is the fixed time. To every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "john-in-the-beginning",
+   "after": "selection:e575887610171180c7a623a6",
+   "responds": [
+    "selection:e575887610171180c7a623a6"
+   ],
+   "relation": "adjacent",
+   "why": "The Báb reads the grammarian’s “verb” as the first stage of divine action. John names the first act with a word about a word: in the beginning was the Word; all things were made by him."
+  },
+  {
+   "id": "spinoza-final-causes-human-figments",
+   "after": "selection:fb3838fef621d8ebaac37672",
+   "responds": [
+    "selection:fb3838fef621d8ebaac37672"
+   ],
+   "relation": "contrast",
+   "why": "Will, Purpose, Predestination, Fate: the scheme describes creation as intention carried out. Spinoza held that nature has no end set before it and that all final causes are human figments. What would be left of the seven stages on his view?"
+  },
+  {
+   "id": "augustine-give-what-you-command",
+   "after": "selection:31aa91bfdafc678cce9bd543",
+   "responds": [
+    "selection:31aa91bfdafc678cce9bd543"
+   ],
+   "relation": "complement",
+   "why": "What remains potential “can be changed through means and actions”. Augustine prayed: give what Thou commandest. He located even our acting within grace. Do the readings’ “means and actions” fall inside the seven stages or outside them?"
+  },
+  {
+   "id": "deuteronomy-secret-things",
+   "after": "selection:aadb3b447be8612e5974c109",
+   "responds": [
+    "selection:aadb3b447be8612e5974c109"
+   ],
+   "relation": "adjacent",
+   "why": "Recognition of these stages is called a duty. Deuteronomy draws its own boundary for such knowledge: the secret things belong unto the Lord; those which are revealed belong unto us, that we may do."
+  }
+ ],
+ "shortfall": "Many of the readings restate one technical scheme of the Báb’s (Will, Purpose, Predestination, Fate, Permission, Fixed Time, Book) or gloss its symbols of letters and colours; such a vocabulary has few true companions outside its own tradition, and they were not multiplied.",
+ "library": {}
+}

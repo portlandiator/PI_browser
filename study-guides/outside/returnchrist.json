@@ -1,0 +1,262 @@
+{
+ "format": 2,
+ "slug": "returnchrist",
+ "subject": "116AC160B794E2A177E06FB91E766778",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 23,
+ "quotations": 24,
+ "kept": [
+  "source:AB00570",
+  "source:ABU0875",
+  "source:BH00002",
+  "source:AB02473",
+  "source:AB00397",
+  "source:ABU0714",
+  "source:AB05724",
+  "source:ABU0251",
+  "source:ABU1349",
+  "source:ABU0299",
+  "source:AB04541",
+  "source:ABU2958",
+  "source:ABU2375",
+  "source:ABU1773",
+  "source:ABU1688",
+  "source:BH06338",
+  "source:BH09243",
+  "source:BH08117",
+  "source:ABU0466",
+  "source:AB00252",
+  "source:AB00304",
+  "source:AB03051",
+  "source:AB12177"
+ ],
+ "introduction": "The disciples asked, “When shall these things be?” and were given signs: sun and moon darkened, stars falling, the Son of man in the clouds. These readings hold that the signs are symbols, that “from heaven” meant the first time what it means the second (he came from heaven and was born of Mary), that Elijah’s return in John the Baptist is the pattern, and that Christ has returned in this sense in Bahá’u’lláh. The companions give the argument its texts and its opposition from the same pages. For it: the thief in the night, the kingdom that comes “not with observation”, “Elias is come already”, the road to Emmaus. Against it: “this same Jesus shall so come in like manner”, “every eye shall see him”, the lightning from east to west, and John’s own “I am not” when asked if he was Elijah. The Gita is here for the kind of return the readings deny, and Yeats for what the phrase “second coming” had become by 1919.",
+ "questions": [
+  "“Elias is come already”, said Jesus; “I am not”, said John. How do the readings use the first saying, and what do they make of the second?",
+  "Set out the case a Christian would make from Acts 1:11 and Revelation 1:7 for a visible, bodily return. Which of the readings’ arguments is the strongest reply?",
+  "The thief in the night and the lightning from east to west are both sayings about the coming. Can one event answer to both?",
+  "Reading 10 distinguishes the return of “the same spirit” from the return of the same individual. Why is that distinction essential to the whole argument?",
+  "Asked for proof, Jesus pointed to what could be seen and heard. What does reading 21 point to?"
+ ],
+ "outside": [
+  {
+   "id": "matthew-sun-darkened",
+   "after": "source:AB00570",
+   "responds": [
+    "source:AB00570"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes the signs: the sun darkened, the moon not giving her light, the stars falling from heaven, and the Son of man coming in the clouds with power and great glory."
+  },
+  {
+   "id": "daniel-son-of-man",
+   "after": "source:AB00570",
+   "responds": [
+    "source:AB00570"
+   ],
+   "relation": "adjacent",
+   "why": "Behind the Gospel’s clouds stands Daniel’s night vision: one like the Son of man came with the clouds of heaven, and there was given him dominion."
+  },
+  {
+   "id": "john-before-abraham-was",
+   "after": "source:ABU0875",
+   "responds": [
+    "source:ABU0875"
+   ],
+   "relation": "adjacent",
+   "why": "“The real Christ’s spirit has come again.” Before Abraham was, I am: the Christ of John’s Gospel speaks of a being that is not confined to one lifetime."
+  },
+  {
+   "id": "matthew-signs-of-the-times",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "The disciples asked repeatedly when these things would be. Ye can discern the face of the sky; but can ye not discern the signs of the times?"
+  },
+  {
+   "id": "acts-times-or-the-seasons",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Asked again after the resurrection, Jesus answers: it is not for you to know the times or the seasons."
+  },
+  {
+   "id": "acts-cloud-received-him",
+   "after": "source:AB02473",
+   "responds": [
+    "source:AB02473"
+   ],
+   "relation": "contrast",
+   "why": "The reading says the Son of Man has already come upon the clouds. The two men at the ascension say: this same Jesus shall so come in like manner as ye have seen him go into heaven. That is the plain sense the readings set aside. On what grounds?"
+  },
+  {
+   "id": "revelation-every-eye-shall-see",
+   "after": "source:AB02473",
+   "responds": [
+    "source:AB02473"
+   ],
+   "relation": "contrast",
+   "why": "Behold, he cometh with clouds; and every eye shall see him. A coming that most people did not notice is the opposite of this. How do the readings understand “see”?"
+  },
+  {
+   "id": "thessalonians-thief-in-the-night",
+   "after": "source:AB00397",
+   "responds": [
+    "source:AB00397"
+   ],
+   "relation": "adjacent",
+   "why": "The reading cites the Gospel’s thief. Paul writes it to Thessalonica: the day of the Lord so cometh as a thief in the night. A thief is not seen by every eye."
+  },
+  {
+   "id": "john-came-down-from-heaven",
+   "after": "source:ABU0714",
+   "responds": [
+    "source:ABU0714"
+   ],
+   "relation": "adjacent",
+   "why": "The reading relies on this saying: no man hath ascended up to heaven, but he that came down from heaven, even the Son of man. He “came from heaven” and was born of Mary."
+  },
+  {
+   "id": "john-out-of-galilee",
+   "after": "source:AB05724",
+   "responds": [
+    "source:AB05724"
+   ],
+   "relation": "adjacent",
+   "why": "In Christ’s day the nations expected otherwise and were mistaken. Shall Christ come out of Galilee? Hath not the scripture said, That Christ cometh out of Bethlehem?"
+  },
+  {
+   "id": "matthew-elias-is-come-already",
+   "after": "source:ABU1349",
+   "responds": [
+    "source:ABU1349"
+   ],
+   "relation": "adjacent",
+   "why": "Elijah too was expected from heaven. Elias is come already, and they knew him not. Then the disciples understood that he spake unto them of John the Baptist."
+  },
+  {
+   "id": "john-art-thou-elias",
+   "after": "source:ABU1349",
+   "responds": [
+    "source:ABU1349"
+   ],
+   "relation": "complement",
+   "why": "Yet John himself, asked “Art thou Elias?”, said “I am not.” The Gospels hold both. What does that double answer teach about “return”?"
+  },
+  {
+   "id": "gita-worn-out-robes",
+   "after": "source:ABU0299",
+   "responds": [
+    "source:ABU0299"
+   ],
+   "relation": "contrast",
+   "why": "“The same spirit can return”, the reading says, but not the same individual. The Gita teaches that the embodied one puts off worn-out bodies and enters new ones. The reading explicitly denies that. What is the difference between the return of a spirit and the return of a soul?"
+  },
+  {
+   "id": "luke-not-with-observation-lo-here",
+   "after": "source:AB04541",
+   "responds": [
+    "source:AB04541"
+   ],
+   "relation": "adjacent",
+   "why": "His kingdom “is in the world of hearts and spirits”. The kingdom of God cometh not with observation: neither shall they say, Lo here! or, lo there!"
+  },
+  {
+   "id": "john-kingdom-not-of-this-world",
+   "after": "source:AB04541",
+   "responds": [
+    "source:AB04541"
+   ],
+   "relation": "adjacent",
+   "why": "My kingdom is not of this world: if my kingdom were of this world, then would my servants fight."
+  },
+  {
+   "id": "hebrews-same-yesterday",
+   "after": "source:ABU2958",
+   "responds": [
+    "source:ABU2958"
+   ],
+   "relation": "adjacent",
+   "why": "Christ is an expression of a Reality “which hath no beginning or ending”. Jesus Christ the same yesterday, and to day, and for ever."
+  },
+  {
+   "id": "matthew-lightning-east-to-west",
+   "after": "source:ABU2375",
+   "responds": [
+    "source:ABU2375"
+   ],
+   "relation": "contrast",
+   "why": "He has come “in a body just as Jesus did”. Jesus: as the lightning cometh out of the east, and shineth even unto the west, so shall also the coming of the Son of man be. And: if they shall say, Behold, he is in the desert; go not forth. How do the readings meet this warning?"
+  },
+  {
+   "id": "luke-eyes-were-holden",
+   "after": "source:ABU1773",
+   "responds": [
+    "source:ABU1773"
+   ],
+   "relation": "adjacent",
+   "why": "Unbelievers “cannot see Him on account of clouds and veils”. On the road to Emmaus the risen Jesus walked with two disciples, and their eyes were holden that they should not know him."
+  },
+  {
+   "id": "revelation-new-jerusalem",
+   "after": "source:ABU1688",
+   "responds": [
+    "source:ABU1688"
+   ],
+   "relation": "adjacent",
+   "why": "“The New Jerusalem has descended from heaven!” I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband."
+  },
+  {
+   "id": "yeats-rough-beast",
+   "after": "source:BH09243",
+   "responds": [
+    "source:BH09243"
+   ],
+   "relation": "complement",
+   "why": "He has come “upon the crimson clouds”. Yeats, in 1919, could imagine a second coming only with dread: what rough beast, its hour come round at last, slouches towards Bethlehem to be born? What separates the readings’ announcement from his foreboding?"
+  },
+  {
+   "id": "john-another-comforter",
+   "after": "source:ABU0466",
+   "responds": [
+    "source:ABU0466"
+   ],
+   "relation": "adjacent",
+   "why": "The holy books expect “two successive Manifestations”. I will pray the Father, and he shall give you another Comforter."
+  },
+  {
+   "id": "matthew-art-thou-he",
+   "after": "source:AB00304",
+   "responds": [
+    "source:AB00304"
+   ],
+   "relation": "adjacent",
+   "why": "By what proof can this Revelation be known as the promised Kingdom? Jesus gave John’s messengers no argument but what they could see and hear: the blind receive their sight, and the poor have the gospel preached to them."
+  },
+  {
+   "id": "matthew-by-their-fruits",
+   "after": "source:AB00304",
+   "responds": [
+    "source:AB00304"
+   ],
+   "relation": "adjacent",
+   "why": "And he left a test for every later claim: by their fruits ye shall know them."
+  },
+  {
+   "id": "revelation-new-heaven-and-new-earth",
+   "after": "source:AB03051",
+   "responds": [
+    "source:AB03051"
+   ],
+   "relation": "adjacent",
+   "why": "“The new heaven and the new earth are come.” I saw a new heaven and a new earth: and God shall wipe away all tears from their eyes."
+  }
+ ],
+ "library": {}
+}

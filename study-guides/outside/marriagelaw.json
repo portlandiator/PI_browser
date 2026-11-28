@@ -1,0 +1,655 @@
+{
+ "format": 2,
+ "slug": "marriagelaw",
+ "subject": "FE310A28E520E13E6B27445A16249BA5",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 59,
+ "quotations": 66,
+ "kept": [
+  "source:AB01117",
+  "source:AB03299",
+  "source:AB05652",
+  "source:ABU0697",
+  "source:AB04940",
+  "source:BH07008",
+  "source:BH00001",
+  "source:AB11633",
+  "source:BH05929",
+  "source:BH00069",
+  "source:AB02993",
+  "source:AB11953",
+  "source:BB00020",
+  "source:BB00056",
+  "source:BB00276",
+  "source:BH00035",
+  "source:AB08225",
+  "source:BH03181",
+  "source:BH03116",
+  "source:BH01684",
+  "source:AB08236",
+  "source:AB01502",
+  "source:AB01563",
+  "source:AB05537",
+  "source:AB04786",
+  "source:AB06408",
+  "source:AB02418",
+  "source:AB11152",
+  "source:AB00151",
+  "source:AB02992",
+  "source:AB00494",
+  "source:AB11145",
+  "source:ABU3197",
+  "source:ABU3388",
+  "source:ABU1399",
+  "source:ABU2489",
+  "source:AB03541",
+  "source:BH04630",
+  "source:AB00665",
+  "source:AB04113",
+  "source:BH02421",
+  "source:AB05702",
+  "source:ABU1200",
+  "source:BH10796",
+  "source:ABU3006",
+  "source:ABU2455",
+  "source:ABU2190",
+  "source:AB03180",
+  "source:ABU3699",
+  "source:AB00629",
+  "source:AB10397",
+  "source:AB07848",
+  "source:AB11250",
+  "source:AB10410",
+  "source:AB00710",
+  "selection:97adec21db07ce46b18b9d83",
+  "selection:3d03a3675199ea5ba75cee2b",
+  "selection:b028345df90cbbd539c4e7f5",
+  "selection:0cecd1467a2955aea47167c5"
+ ],
+ "introduction": "The readings set out the Bahá’í law of marriage: the couple choose each other and all living parents must consent; a small fixed dowry is paid by the husband; betrothal is short and not before the fifteenth year; marriage with any people or religion is permitted and between races encouraged; and the Kitáb-i-Aqdas, read with ‘Abdu’l-Bahá’s and Shoghi Effendi’s interpretation, prescribes monogamy, the permission of a second wife being conditioned on a justice the texts call unattainable. Genesis gives the oldest company: “one flesh”, Rebekah’s “I will go”, Jacob’s seven years. The Qur’an’s marriage portion, its “two or three or four” and its admission that equal treatment is impossible are the law the readings interpret. Paul’s preference for the single life, Ezra’s command to put away foreign wives and a suitor’s offer of “never so much dowry” are contrary positions; Ruth and Moses’s Ethiopian wife are the biblical cases for marriage across peoples. Jesus on what Moses allowed “because of the hardness of your hearts” is the readings’ own model for reading the provision on plurality.",
+ "questions": [
+  "The law requires the couple’s free choice and the parents’ consent. What does each requirement protect, and what happens when they conflict?",
+  "What social purposes might a small, fixed dowry paid by the husband serve? Compare the bargaining in Genesis.",
+  "Paul thought the unmarried freer to serve God; the readings call marriage “a command of God”. How do the two views of the spiritual life differ?",
+  "Ezra forbade marriage with outsiders; reading 30 permits it with “any group and any religion”. What does each fear, and what does each hope for?",
+  "Trace the argument of readings 45 to 59 on plurality of wives. Why might a law state a permission together with a condition that removes it?",
+  "Which provisions in these readings would have been most surprising in nineteenth-century Persia, and which are most surprising now?"
+ ],
+ "outside": [
+  {
+   "id": "genesis-i-will-go",
+   "after": "source:AB01117",
+   "responds": [
+    "source:AB01117"
+   ],
+   "relation": "adjacent",
+   "why": "First choose one who is pleasing; then the parents’ consent. Rebekah’s family settle the match and then ask her: wilt thou go with this man? And she said, I will go."
+  },
+  {
+   "id": "genesis-one-flesh",
+   "after": "source:AB03299",
+   "responds": [
+    "source:AB03299"
+   ],
+   "relation": "adjacent",
+   "why": "Marriage blends two souls. Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh."
+  },
+  {
+   "id": "quran-love-and-mercy-between-you",
+   "after": "source:AB03299",
+   "responds": [
+    "source:AB03299"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an: He created for you helpmeets from yourselves that ye might find rest in them, and He ordained between you love and mercy."
+  },
+  {
+   "id": "genesis-not-good-to-be-alone",
+   "after": "source:AB05652",
+   "responds": [
+    "source:AB05652"
+   ],
+   "relation": "adjacent",
+   "why": "Marriage enjoined that the generations may succeed one another. It is not good that the man should be alone; I will make him an help meet for him."
+  },
+  {
+   "id": "tobit-wedding-prayer",
+   "after": "source:AB05652",
+   "responds": [
+    "source:AB05652"
+   ],
+   "relation": "adjacent",
+   "why": "A wedding prayer older than the reading’s, from the book of Tobit: thou madest Adam, and gavest him Eve his wife for an helper and stay: of them came mankind."
+  },
+  {
+   "id": "mill-legal-subordination-of-one-sex",
+   "after": "source:ABU0697",
+   "responds": [
+    "source:ABU0697"
+   ],
+   "relation": "adjacent",
+   "why": "The consent of both parties is necessary; no one can compel a couple. Mill: the legal subordination of one sex to the other is wrong in itself, and ought to be replaced by a principle of perfect equality."
+  },
+  {
+   "id": "exodus-honour-thy-father",
+   "after": "source:AB04940",
+   "responds": [
+    "source:AB04940"
+   ],
+   "relation": "adjacent",
+   "why": "Patience until her mother and thy father and mother consent. Honour thy father and thy mother."
+  },
+  {
+   "id": "proverbs-wife-of-thy-youth",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "“Whoso contenteth himself with a single partner … both he and she shall live in tranquillity.” Rejoice with the wife of thy youth."
+  },
+  {
+   "id": "proverbs-findeth-a-wife",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "God hath prescribed matrimony. Whoso findeth a wife findeth a good thing, and obtaineth favour of the Lord."
+  },
+  {
+   "id": "quran-give-women-their-marriage-portions",
+   "after": "source:BH00069",
+   "responds": [
+    "source:BH00069"
+   ],
+   "relation": "adjacent",
+   "why": "The dowry, and contentment with its lowest level. In the Qur’an it is the bride’s own: give unto the women free gift of their marriage portions."
+  },
+  {
+   "id": "genesis-ask-me-never-so-much-dowry",
+   "after": "source:AB02993",
+   "responds": [
+    "source:AB02993"
+   ],
+   "relation": "contrast",
+   "why": "The dowry must not exceed a fixed sum. A suitor in Genesis offers the opposite: ask me never so much dowry and gift, and I will give according as ye shall say unto me: but give me the damsel to wife. What does a low, fixed dowry prevent?"
+  },
+  {
+   "id": "genesis-jacob-served-seven-years",
+   "after": "source:BB00056",
+   "responds": [
+    "source:BB00056"
+   ],
+   "relation": "adjacent",
+   "why": "Nineteen mithqáls of gold in the cities, of silver in the villages. Jacob had nothing to give and paid in labour: he served seven years for Rachel; and they seemed unto him but a few days, for the love he had to her."
+  },
+  {
+   "id": "ruth-thou-art-a-virtuous-woman",
+   "after": "source:AB08225",
+   "responds": [
+    "source:AB08225"
+   ],
+   "relation": "adjacent",
+   "why": "A wife who had been promised eight hundred túmáns accepted the law’s small sum. Boaz to Ruth, who had nothing: all the city of my people doth know that thou art a virtuous woman."
+  },
+  {
+   "id": "john-water-that-was-made-wine",
+   "after": "source:BH03116",
+   "responds": [
+    "source:BH03116"
+   ],
+   "relation": "adjacent",
+   "why": "After the consents, a gathering and a recited verse. At the wedding in Cana the governor of the feast tastes the water that was made wine and calls the bridegroom to compliment him on it."
+  },
+  {
+   "id": "malachi-wife-of-thy-covenant",
+   "after": "source:AB08236",
+   "responds": [
+    "source:AB08236"
+   ],
+   "relation": "adjacent",
+   "why": "A marriage is decided and announced; it is a covenant. The Lord hath been witness between thee and the wife of thy youth: she is thy companion, and the wife of thy covenant."
+  },
+  {
+   "id": "analects-at-fifteen",
+   "after": "source:AB05537",
+   "responds": [
+    "source:AB05537"
+   ],
+   "relation": "adjacent",
+   "why": "No marriage before the fifteenth year. Confucius marks the same age as a threshold of another kind: at fifteen, I had my mind bent on learning."
+  },
+  {
+   "id": "matthew-twain-shall-be-one-flesh",
+   "after": "source:AB04786",
+   "responds": [
+    "source:AB04786"
+   ],
+   "relation": "adjacent",
+   "why": "Arrangements made by parents for young children have no force. They twain shall be one flesh: the two themselves, in the saying, are the subject."
+  },
+  {
+   "id": "romans-tribute-to-whom-tribute",
+   "after": "source:AB11152",
+   "responds": [
+    "source:AB11152"
+   ],
+   "relation": "adjacent",
+   "why": "Marriage and divorce are to be carried out with the knowledge of the government. Render therefore to all their dues."
+  },
+  {
+   "id": "ruth-whither-thou-goest",
+   "after": "source:AB02992",
+   "responds": [
+    "source:AB02992"
+   ],
+   "relation": "adjacent",
+   "why": "Marriage with any group and any religion is permitted. Ruth the Moabite to her Israelite mother-in-law: thy people shall be my people, and thy God my God."
+  },
+  {
+   "id": "ezra-separate-yourselves",
+   "after": "source:AB02992",
+   "responds": [
+    "source:AB02992"
+   ],
+   "relation": "contrast",
+   "why": "Ezra, rebuilding a community after exile, commanded the reverse: separate yourselves from the people of the land, and from the strange wives. Why might a small religious community fear marriage outside itself, and what do the readings set against that fear?"
+  },
+  {
+   "id": "numbers-hath-he-not-spoken-also-by-us",
+   "after": "source:ABU3197",
+   "responds": [
+    "source:ABU3197"
+   ],
+   "relation": "adjacent",
+   "why": "Marriage between the races is encouraged. Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married; the story takes Moses’s side."
+  },
+  {
+   "id": "hebrews-marriage-is-honourable",
+   "after": "source:ABU2489",
+   "responds": [
+    "source:ABU2489"
+   ],
+   "relation": "adjacent",
+   "why": "“Marriage is necessary”, and family life is to be pure. Marriage is honourable in all, and the bed undefiled."
+  },
+  {
+   "id": "deuteronomy-free-at-home-one-year",
+   "after": "source:AB03541",
+   "responds": [
+    "source:AB03541"
+   ],
+   "relation": "adjacent",
+   "why": "Residence and travel settled by mutual consent. A law for the first year: he shall be free at home one year, and shall cheer up his wife which he hath taken."
+  },
+  {
+   "id": "corinthians-unmarried-careth",
+   "after": "source:ABU1200",
+   "responds": [
+    "source:ABU1200"
+   ],
+   "relation": "contrast",
+   "why": "“It makes no difference whether one marries or not”; yet reading 44 says it is not permissible to forgo it. Paul leaned the other way: he that is unmarried careth for the things that belong to the Lord; he that is married, how he may please his wife. Is marriage in the readings a distraction from the spiritual life or a place for it?"
+  },
+  {
+   "id": "corinthians-better-to-marry",
+   "after": "source:BH10796",
+   "responds": [
+    "source:BH10796"
+   ],
+   "relation": "adjacent",
+   "why": "Marriage is among God’s traditions. Paul’s grudging concession: it is good for them if they abide even as I; but it is better to marry than to burn."
+  },
+  {
+   "id": "timothy-forbidding-to-marry",
+   "after": "source:BH10796",
+   "responds": [
+    "source:BH10796"
+   ],
+   "relation": "adjacent",
+   "why": "A later letter in his name lists forbidding to marry among the errors of the latter times."
+  },
+  {
+   "id": "matthew-hardness-of-your-hearts",
+   "after": "source:ABU3006",
+   "responds": [
+    "source:ABU3006"
+   ],
+   "relation": "adjacent",
+   "why": "Polygamy could not be ended among the Arabs at one stroke. Jesus on a Mosaic concession: Moses because of the hardness of your hearts suffered you; but from the beginning it was not so."
+  },
+  {
+   "id": "quran-two-or-three-or-four",
+   "after": "source:ABU2455",
+   "responds": [
+    "source:ABU2455"
+   ],
+   "relation": "adjacent",
+   "why": "The reading explains this verse: marry of the women, who seem good to you, two or three or four; and if ye fear that ye cannot do justice then one only."
+  },
+  {
+   "id": "genesis-keturah",
+   "after": "source:ABU2190",
+   "responds": [
+    "source:ABU2190"
+   ],
+   "relation": "adjacent",
+   "why": "“In the Bible polygamy is not forbidden.” Abraham took a wife, and her name was Keturah; and he had sons of the concubines."
+  },
+  {
+   "id": "timothy-a-bishop-must-be-blameless",
+   "after": "source:ABU2190",
+   "responds": [
+    "source:ABU2190"
+   ],
+   "relation": "adjacent",
+   "why": "The verse of Paul the reading has in mind: a bishop then must be blameless, the husband of one wife."
+  },
+  {
+   "id": "quran-ye-will-not-be-able-to-deal-equally",
+   "after": "source:ABU3699",
+   "responds": [
+    "source:ABU3699"
+   ],
+   "relation": "adjacent",
+   "why": "Two wives are not forbidden, but equal treatment is so difficult that a fair person will not choose it. The argument is taken from the Qur’an, which sets the condition and then says: ye will not be able to deal equally between your wives, however much ye wish."
+  },
+  {
+   "id": "kings-seven-hundred-wives",
+   "after": "source:AB07848",
+   "responds": [
+    "source:AB07848"
+   ],
+   "relation": "adjacent",
+   "why": "A third wife is absolutely forbidden. Solomon is the Bible’s warning: he had seven hundred wives, and three hundred concubines: and his wives turned away his heart."
+  },
+  {
+   "id": "quran-let-not-hatred",
+   "after": "source:AB10410",
+   "responds": [
+    "source:AB10410"
+   ],
+   "relation": "complement",
+   "why": "Justice is the condition of the permission. The Qur’an on justice in general: deal justly, that is nearer to your duty. If a permission depends on a condition that cannot be met, what is the law?"
+  },
+  {
+   "id": "ephesians-children-obey-your-parents",
+   "after": "selection:97adec21db07ce46b18b9d83",
+   "responds": [
+    "selection:97adec21db07ce46b18b9d83"
+   ],
+   "relation": "adjacent",
+   "why": "The consent of all living parents is required. Honour thy father and mother; which is the first commandment with promise."
+  },
+  {
+   "id": "matthew-not-to-destroy-the-law",
+   "after": "selection:0cecd1467a2955aea47167c5",
+   "responds": [
+    "selection:0cecd1467a2955aea47167c5"
+   ],
+   "relation": "complement",
+   "why": "The Aqdas upholds monogamy while appearing to permit two wives, and authoritative interpretation settled it. Jesus on older law: think not that I am come to destroy the law; I am not come to destroy, but to fulfil. How do readings 45 to 59 understand a law that changes while remaining the same law?"
+  }
+ ],
+ "shortfall": "Readings 8 to 23 and 37 to 42 are rulings on dowry amounts, betrothal periods, travel and absence, and readings 48 to 58 repeat one explanation of the plurality provision; companions were given to the principles and to a few particulars, and the remainder left as legal detail.",
+ "library": {
+  "genesis-ask-me-never-so-much-dowry": {
+   "text": "Ask me never so much dowry and gift, and I will give according as ye shall say unto me: but give me the damsel to wife",
+   "work": "Genesis 34:12",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Genesis%2034%3A12&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-findeth-a-wife": {
+   "text": "Whoso findeth a wife findeth a good thing, and obtaineth favour of the Lord",
+   "work": "Proverbs 18:22",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%2018%3A22&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "proverbs-wife-of-thy-youth": {
+   "text": "Let thy fountain be blessed: and rejoice with the wife of thy youth",
+   "work": "Proverbs 5:18",
+   "year": "c. 10th–4th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Proverbs%205%3A18&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "corinthians-better-to-marry": {
+   "text": "I say therefore to the unmarried and widows, it is good for them if they abide even as I. But if they cannot contain, let them marry: for it is better to marry than to burn",
+   "work": "1 Corinthians 7:8–9",
+   "year": "c. 50–60 CE",
+   "sortYear": 55,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%207%3A8-9&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "deuteronomy-free-at-home-one-year": {
+   "text": "When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be free at home one year, and shall cheer up his wife which he hath taken",
+   "work": "Deuteronomy 24:5",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2024%3A5&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "kings-seven-hundred-wives": {
+   "text": "And he had seven hundred wives, princesses, and three hundred concubines: and his wives turned away his heart",
+   "work": "1 Kings 11:3",
+   "year": "c. 8th–5th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Kings%2011%3A3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "malachi-wife-of-thy-covenant": {
+   "text": "Yet ye say, Wherefore? Because the Lord hath been witness between thee and the wife of thy youth, against whom thou hast dealt treacherously: yet is she thy companion, and the wife of thy covenant",
+   "work": "Malachi 2:14",
+   "year": "c. 8th–5th century BCE",
+   "sortYear": -550,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Malachi%202%3A14&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "timothy-forbidding-to-marry": {
+   "text": "Now the Spirit speaketh expressly, that in the latter times some shall depart from the faith, giving heed to seducing spirits, and doctrines of devils; Speaking lies in hypocrisy; having their conscience seared with a hot iron; Forbidding to marry, and commanding to abstain from meats, which God hath created to be received with thanksgiving of them which believe and know the truth",
+   "work": "1 Timothy 4:1–3",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%204%3A1-3&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  },
+  "quran-give-women-their-marriage-portions": {
+   "text": "And give unto the women (whom ye marry) free gift of their marriage portions; but if they of their own accord remit unto you a part thereof, then ye are welcome to absorb it (in your wealth).",
+   "work": "Qur’an 4:4",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=4",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-ye-will-not-be-able-to-deal-equally": {
+   "text": "Ye will not be able to deal equally between (your) wives, however much ye wish",
+   "work": "Qur’an 4:129",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=129",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-two-or-three-or-four": {
+   "text": "marry of the women, who seem good to you, two or three or four; and if ye fear that ye cannot do justice (to so many) then one (only)",
+   "work": "Qur’an 4:3",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=4&verse=3",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  }
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "format": 2,
+ "slug": "noah",
+ "subject": "88066A5833DD4297B92D9E222AC2FDE7",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 12,
+ "kept": [
+  "source:BH00002",
+  "source:BH04696",
+  "source:AB00881",
+  "source:AB02338",
+  "source:AB04721",
+  "source:BH02051",
+  "source:AB03352",
+  "source:ABU0367",
+  "source:AB09698",
+  "source:BH00031",
+  "source:BB00009",
+  "source:BH00705"
+ ],
+ "introduction": "The Noah of these readings is first of all a preacher who was not heard: nine hundred and fifty years of calling, beatings, promises of victory that did not come when announced, and a following reduced to a handful. The readings add that his son was “not of thy family” because kinship is of the spirit, that the laws of his time fitted its capacity, and, in a tablet of Bahá’u’lláh, that angels urged him to mercy before the flood. Genesis gives the just man who walked with God, the ark, the dove and the rainbow; the Qur’an gives the years, the complaint “all my calling doth but add to their repugnance”, the son, and the prayer that none be left. Jesus’s “who is my mother?” is the same redefinition of family. Jonah’s Nineveh, spared for the sake of those who know no better, is scripture’s other answer to a doomed people, and Spinoza anticipates reading 5 on who wrote the story down.",
+ "questions": [
+  "Noah preached for centuries with almost no result. What do the readings want a reader to learn from that: patience, or something about how success is to be measured?",
+  "“He is not of thy family, for his conduct is unrighteous.” What is gained by defining kinship this way, and what could be lost?",
+  "In reading 10 angels ask Noah to have mercy; in the Qur’an he prays that none be left; in Jonah God spares the city. How do these three fit into one picture of divine justice?",
+  "Reading 5 distinguishes the Torah’s laws from its histories. How should a believer read the story of the flood in that light?"
+ ],
+ "outside": [
+  {
+   "id": "hebrews-noah-prepared-an-ark",
+   "after": "source:BH00002",
+   "responds": [
+    "source:BH00002"
+   ],
+   "relation": "adjacent",
+   "why": "Promises of victory that were not fulfilled at the hour named, and followers who fell away. Hebrews makes Noah the model of trust in what cannot yet be seen: being warned of God of things not seen as yet, moved with fear, he prepared an ark."
+  },
+  {
+   "id": "genesis-noah-found-grace",
+   "after": "source:BH04696",
+   "responds": [
+    "source:BH04696"
+   ],
+   "relation": "adjacent",
+   "why": "He called the servants with lamentation and supplication. Noah was a just man and perfect in his generations, and Noah walked with God."
+  },
+  {
+   "id": "quran-thousand-years-save-fifty",
+   "after": "source:AB00881",
+   "responds": [
+    "source:AB00881"
+   ],
+   "relation": "adjacent",
+   "why": "The reading’s nine hundred and fifty years are the Qur’an’s: he continued with them for a thousand years save fifty years."
+  },
+  {
+   "id": "quran-called-my-people-night-and-day",
+   "after": "source:AB00881",
+   "responds": [
+    "source:AB00881"
+   ],
+   "relation": "adjacent",
+   "why": "My Lord! Lo! I have called unto my people night and day, but all my calling doth but add to their repugnance."
+  },
+  {
+   "id": "quran-not-of-thy-household",
+   "after": "source:AB02338",
+   "responds": [
+    "source:AB02338"
+   ],
+   "relation": "adjacent",
+   "why": "The reading explains this verse, spoken when Noah pleaded for his drowning son: O Noah! Lo! he is not of thy household; lo! he is of evil conduct."
+  },
+  {
+   "id": "matthew-my-brother-and-sister",
+   "after": "source:AB02338",
+   "responds": [
+    "source:AB02338"
+   ],
+   "relation": "adjacent",
+   "why": "Kinship by conduct and not by blood. Who is my mother? and who are my brethren? Whosoever shall do the will of my Father, the same is my brother, and sister, and mother."
+  },
+  {
+   "id": "spinoza-not-written-by-moses",
+   "after": "source:AB04721",
+   "responds": [
+    "source:AB04721"
+   ],
+   "relation": "complement",
+   "why": "The Torah’s histories, the story of Noah among them, are said to be from Ezra and not from Moses. Spinoza reached the same conclusion in 1670 and was thought scandalous for it: the Pentateuch was not written by Moses, but by one who lived many ages after him. What difference does it make to the meaning of the flood story who wrote it down?"
+  },
+  {
+   "id": "genesis-every-moving-thing-meat",
+   "after": "source:ABU0367",
+   "responds": [
+    "source:ABU0367"
+   ],
+   "relation": "adjacent",
+   "why": "In Noah’s time all creatures were permitted as food, and later some were forbidden. The grant after the flood: every moving thing that liveth shall be meat for you."
+  },
+  {
+   "id": "genesis-dove-olive-leaf",
+   "after": "source:AB09698",
+   "responds": [
+    "source:AB09698"
+   ],
+   "relation": "adjacent",
+   "why": "A carpenter addressed as of Noah’s own craft, builder of an ark of salvation. The dove came in to him in the evening; and, lo, in her mouth was an olive leaf pluckt off."
+  },
+  {
+   "id": "quran-leave-not-one-of-the-disbelievers",
+   "after": "source:BH00031",
+   "responds": [
+    "source:BH00031"
+   ],
+   "relation": "contrast",
+   "why": "Angels counsel mercy: “deal not with them as they have dealt with thee.” The Qur’an records the prayer Noah finally made: my Lord! Leave not one of the disbelievers in the land. Bahá’u’lláh’s tablet sets a plea for mercy before that prayer. How do you read a prophet’s prayer against his own people?"
+  },
+  {
+   "id": "jonah-and-also-much-cattle",
+   "after": "source:BH00031",
+   "responds": [
+    "source:BH00031"
+   ],
+   "relation": "complement",
+   "why": "God’s question to another prophet who wanted a city destroyed: should not I spare Nineveh, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle? Which side of the flood story does it speak for?"
+  },
+  {
+   "id": "genesis-my-bow-in-the-cloud",
+   "after": "source:BH00705",
+   "responds": [
+    "source:BH00705"
+   ],
+   "relation": "adjacent",
+   "why": "Sent to guide people and give them glad tidings. The story’s end: I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth."
+  }
+ ],
+ "library": {
+  "quran-thousand-years-save-fifty": {
+   "text": "And verily we sent Noah (as Our messenger) unto his folk, and he continued with them for a thousand years save fifty years; and the flood engulfed them, for they were wrong-doers.",
+   "work": "Qur’an 29:14",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=29&verse=14",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-leave-not-one-of-the-disbelievers": {
+   "text": "And Noah said: My Lord! Leave not one of the disbelievers in the land.",
+   "work": "Qur’an 71:26",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=71&verse=26",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "quran-called-my-people-night-and-day": {
+   "text": "He said: My Lord! Lo! I have called unto my people night and day But all my calling doth but add to their repugnance",
+   "work": "Qur’an 71:5–6",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://tanzil.net/trans/en.pickthall",
+    "label": "Tanzil",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\|\\d+\\|"
+    ]
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "hebrews-noah-prepared-an-ark": {
+   "text": "By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark to the saving of his house; by the which he condemned the world, and became heir of the righteousness which is by faith",
+   "work": "Hebrews 11:7",
+   "year": "c. 60–100 CE",
+   "sortYear": 80,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "New Testament",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Hebrews%2011%3A7&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "format": 2,
+ "slug": "sacrifice",
+ "subject": "5AE6D14C9140E489E748811532B8AAE1",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 10,
+ "quotations": 10,
+ "kept": [
+  "source:AB12650",
+  "source:BH04193",
+  "source:AB01153",
+  "source:AB04400",
+  "source:BH07121",
+  "source:AB11170",
+  "source:BH03531",
+  "source:AB09630",
+  "source:AB06736",
+  "source:AB00156"
+ ],
+ "introduction": "These ten prayers ask for what most prayers ask to be spared: “sacrifice in the field of self-surrender”, the cup the Beloved drank, blood shed for the sake of friends. They are set in a frame of good deeds, patience and service, and the guide reads them as the speech of love. Their company knows that speech. Paul calls a whole life a living sacrifice and writes from prison that he is ready to be offered; John’s Gospel names the greatest love; Ignatius gives over liberty, memory and will; the Gita makes an offering of every act. And the same company is afraid of it. Jesus asked that the cup pass; he told two eager disciples that they did not know what they were asking; Paul warns that a body given to be burned may profit nothing; and Wilfred Owen stands for everyone who has watched the praise of dying turned to other uses.",
+ "questions": [
+  "Jesus prays that the cup pass, “nevertheless not as I will”. How do these prayers, which ask for the cup, relate to his?",
+  "Paul says that martyrdom without charity profits nothing. Where in the prayers is the love that he requires made explicit?",
+  "Romans speaks of a living sacrifice and the Gita of every act as an offering. Which of the ten prayers are about dying, and which about a way of living?",
+  "Owen calls the glory of dying for a cause “the old Lie”. What would have to be true of a sacrifice for his objection not to touch it?"
+ ],
+ "outside": [
+  {
+   "id": "romans-living-sacrifice",
+   "after": "source:AB12650",
+   "responds": [
+    "source:AB12650"
+   ],
+   "relation": "adjacent",
+   "why": "“Sacrifice in the field of self-surrender.” Paul asks for bodies presented as a living sacrifice, which he calls reasonable service: the altar is a whole life."
+  },
+  {
+   "id": "gita-all-as-offering",
+   "after": "source:BH04193",
+   "responds": [
+    "source:BH04193"
+   ],
+   "relation": "adjacent",
+   "why": "Deeds that “diffuse the fragrance of Thy good-pleasure”. Krishna to Arjuna: whatever thou doest, eating or sacrificing or giving, do it as an offering to Me."
+  },
+  {
+   "id": "matthew-cup-pass",
+   "after": "source:AB01153",
+   "responds": [
+    "source:AB01153"
+   ],
+   "relation": "contrast",
+   "why": "The prayer asks for “precedence to the field of sacrifice”. In Gethsemane Jesus prays that the cup pass from him, and then: not as I will, but as thou wilt. Is it right to ask for the cup?"
+  },
+  {
+   "id": "mark-know-not-what-ye-ask",
+   "after": "source:AB04400",
+   "responds": [
+    "source:AB04400"
+   ],
+   "relation": "complement",
+   "why": "“Give us to drink from the same cup.” Two disciples ask for places of honour and are answered: ye know not what ye ask; can ye drink of the cup that I drink of?"
+  },
+  {
+   "id": "revelation-faithful-unto-death",
+   "after": "source:BH07121",
+   "responds": [
+    "source:BH07121"
+   ],
+   "relation": "adjacent",
+   "why": "Faithfulness to the point of martyrdom. Be thou faithful unto death, and I will give thee a crown of life."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:AB11170",
+   "responds": [
+    "source:AB11170"
+   ],
+   "relation": "adjacent",
+   "why": "“May my life be sacrificed for Thy lovers!” Greater love hath no man than this, that a man lay down his life for his friends."
+  },
+  {
+   "id": "corinthians-body-to-be-burned",
+   "after": "source:AB11170",
+   "responds": [
+    "source:AB11170"
+   ],
+   "relation": "contrast",
+   "why": "Paul: though I give my body to be burned, and have not charity, it profiteth me nothing. He allows that martyrdom can be loveless. What does this prayer, offered for friends, have that his warning requires?"
+  },
+  {
+   "id": "timothy-ready-to-be-offered",
+   "after": "source:BH03531",
+   "responds": [
+    "source:BH03531"
+   ],
+   "relation": "adjacent",
+   "why": "A prisoner gives thanks for being remembered and asks to be accepted. Paul from his last prison: I am now ready to be offered, and the time of my departure is at hand."
+  },
+  {
+   "id": "ignatius-take-and-receive",
+   "after": "source:AB06736",
+   "responds": [
+    "source:AB06736"
+   ],
+   "relation": "adjacent",
+   "why": "“Make our souls sacrifices unto Thee … enable us to serve.” Ignatius Loyola’s prayer of offering: take, Lord, and receive all my liberty, my memory, my understanding and my entire will."
+  },
+  {
+   "id": "owen-the-old-lie",
+   "after": "source:AB00156",
+   "responds": [
+    "source:AB00156"
+   ],
+   "relation": "contrast",
+   "why": "“Set Thou our heads for ornaments on the points of spears.” Wilfred Owen, who saw men die for a cause, called the sweetness of such death “the old Lie”. He meant the state’s wars and the young who are sent to them. What separates the lover’s prayer from the recruiter’s slogan?"
+  }
+ ],
+ "library": {}
+}

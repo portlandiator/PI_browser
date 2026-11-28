@@ -1,0 +1,187 @@
+{
+ "format": 2,
+ "slug": "preserving",
+ "subject": "503D834854BDEB5CCD97EE019214285C",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 14,
+ "quotations": 14,
+ "kept": [
+  "source:BH00869",
+  "source:BH00005",
+  "source:AB01960",
+  "source:BH00014",
+  "source:AB12085",
+  "source:ABU3031",
+  "source:AB10236",
+  "source:BH01888",
+  "source:BH00385",
+  "source:BH00165",
+  "source:BB00001",
+  "source:BH03636",
+  "selection:a97cb82eb4ccec18130727ca",
+  "selection:f5ce2a03ecb6398541363375"
+ ],
+ "introduction": "“Although much of what was revealed hath been lost and effaced … strive to obtain that which exists.” These readings concern the gathering of Bahá’u’lláh’s and the Báb’s writings: what was lost in exile and persecution, how tablets were copied and sent, the hope that someone would compile the passages on a given theme, the instruction to order the verses, and the promise that “a people will assuredly appear who will eagerly seek out and preserve every single letter”. Every scripture has this second history. Jeremiah’s scroll was burned and written again; the book of the law was found in the Temple after long neglect; Ezra and Nehemiah gathered and taught; Luke set eyewitness accounts “in order”; the Qur’an declares God its Guardian; and the Gospel of John ends by admitting how much was never written. Milton’s defence of books and the translator’s preface to Sirach speak of what preservation is for and of what it loses.",
+ "questions": [
+  "What is the difference between a revelation and a book? Who is responsible for each, according to reading 14?",
+  "Jeremiah’s scroll was rewritten after being burned; the Bahá’í writings are in part irrecoverably lost. How does a religious community live with gaps in its record?",
+  "Reading 11 prescribes an order for the verses. What difference does arrangement make to how a body of scripture is read?",
+  "When the book of the law was found, the king tore his clothes. What would it mean for a community to keep “finding” its own scripture?"
+ ],
+ "outside": [
+  {
+   "id": "john-gather-up-the-fragments",
+   "after": "source:BH00869",
+   "responds": [
+    "source:BH00869"
+   ],
+   "relation": "adjacent",
+   "why": "Much has been lost; strive to obtain what exists. After the feeding of the multitude: gather up the fragments that remain, that nothing be lost."
+  },
+  {
+   "id": "jeremiah-take-thee-again-another-roll",
+   "after": "source:BH00869",
+   "responds": [
+    "source:BH00869"
+   ],
+   "relation": "adjacent",
+   "why": "Lost through the rebellion of enemies. When a king burned Jeremiah’s scroll column by column, the word came: take thee again another roll, and write in it all the former words."
+  },
+  {
+   "id": "john-world-could-not-contain",
+   "after": "source:BH00005",
+   "responds": [
+    "source:BH00005"
+   ],
+   "relation": "adjacent",
+   "why": "Well nigh a hundred volumes sent down, and more uncollected. The fourth Gospel ends on the same abundance: there are also many other things which Jesus did; if they should be written every one, even the world itself could not contain the books."
+  },
+  {
+   "id": "quran-we-are-its-guardian",
+   "after": "source:AB01960",
+   "responds": [
+    "source:AB01960"
+   ],
+   "relation": "adjacent",
+   "why": "All the Tablets have the status of one book, the Preserved Tablet. The Qur’an of itself: We, even We, reveal the Reminder, and lo! We verily are its Guardian."
+  },
+  {
+   "id": "timothy-the-cloke-and-the-books",
+   "after": "source:BH00014",
+   "responds": [
+    "source:BH00014"
+   ],
+   "relation": "adjacent",
+   "why": "Tablets sent separately, in a secretary’s hand, with notes of what is enclosed. Paul’s letters have such practical lines too: bring the cloke that I left at Troas, and the books, but especially the parchments."
+  },
+  {
+   "id": "matthew-words-shall-not-pass-away",
+   "after": "source:AB12085",
+   "responds": [
+    "source:AB12085"
+   ],
+   "relation": "adjacent",
+   "why": "The sun cannot remain hidden by clouds. Heaven and earth shall pass away, but my words shall not pass away."
+  },
+  {
+   "id": "kings-found-the-book-of-the-law",
+   "after": "source:ABU3031",
+   "responds": [
+    "source:ABU3031"
+   ],
+   "relation": "complement",
+   "why": "The teachings are not yet all gathered or known. In Josiah’s reign a priest reports: I have found the book of the law in the house of the Lord, and its reading changes the kingdom. What happens to a community when a text it had not been reading comes into its hands?"
+  },
+  {
+   "id": "luke-write-unto-thee-in-order",
+   "after": "source:AB10236",
+   "responds": [
+    "source:AB10236"
+   ],
+   "relation": "adjacent",
+   "why": "Writing down what eyewitnesses saw of the Ancient Beauty. Luke’s preface describes the same task: it seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, that thou mightest know the certainty of those things."
+  },
+  {
+   "id": "romans-written-for-our-learning",
+   "after": "source:BH00385",
+   "responds": [
+    "source:BH00385"
+   ],
+   "relation": "adjacent",
+   "why": "Gather verses fitted to every situation and share them. Whatsoever things were written aforetime were written for our learning, that we through patience and comfort of the scriptures might have hope."
+  },
+  {
+   "id": "ezra-ready-scribe",
+   "after": "source:BH00165",
+   "responds": [
+    "source:BH00165"
+   ],
+   "relation": "adjacent",
+   "why": "Teachers are to be taught the utterances that kindle souls. Ezra, who brought the law back from exile, had prepared his heart to seek the law of the Lord, and to do it, and to teach."
+  },
+  {
+   "id": "maccabees-founding-a-library",
+   "after": "source:BB00001",
+   "responds": [
+    "source:BB00001"
+   ],
+   "relation": "adjacent",
+   "why": "The verses are to be ordered, chapter by chapter. Nehemiah is remembered for it: founding a library, he gathered together the acts of the kings, and the prophets, and of David."
+  },
+  {
+   "id": "habakkuk-write-the-vision",
+   "after": "source:BH03636",
+   "responds": [
+    "source:BH03636"
+   ],
+   "relation": "adjacent",
+   "why": "A prayer that someone compile what the Pen has written on avoiding conflict. Write the vision, and make it plain upon tables, that he may run that readeth it."
+  },
+  {
+   "id": "milton-good-book",
+   "after": "selection:a97cb82eb4ccec18130727ca",
+   "responds": [
+    "selection:a97cb82eb4ccec18130727ca"
+   ],
+   "relation": "adjacent",
+   "why": "A people will appear who will seek out and preserve every letter. Milton on why: a good book is the precious life-blood of a master spirit, embalmed and treasured up on purpose to a life beyond life."
+  },
+  {
+   "id": "sirach-not-the-same-force",
+   "after": "selection:f5ce2a03ecb6398541363375",
+   "responds": [
+    "selection:f5ce2a03ecb6398541363375"
+   ],
+   "relation": "complement",
+   "why": "It is for God to reveal and for men to spread what is revealed. Ben Sira’s grandson, translating the book into Greek, warns his readers at the outset: the same things uttered in Hebrew, and translated into another tongue, have not the same force in them. What can collecting and arranging preserve, and what can they not?"
+  }
+ ],
+ "library": {
+  "jeremiah-take-thee-again-another-roll": {
+   "text": "Then the word of the Lord came to Jeremiah, after that the king had burned the roll, and the words which Baruch wrote at the mouth of Jeremiah, saying, Take thee again another roll, and write in it all the former words that were in the first roll, which Jehoiakim the king of Judah hath burned",
+   "work": "Jeremiah 36:27–28",
+   "year": "c. 8th–6th century BCE",
+   "sortYear": -600,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Jeremiah%2036%3A27-28&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}

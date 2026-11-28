@@ -1,0 +1,201 @@
+{
+ "format": 2,
+ "slug": "relativity",
+ "subject": "FF9BE206BB4D4228B5B3EB5F00D5E670",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 17,
+ "quotations": 18,
+ "kept": [
+  "source:ABU3480",
+  "source:ABU1957",
+  "source:ABU0877",
+  "source:ABU0035",
+  "source:ABU1484",
+  "source:ABU0161",
+  "source:BH00048",
+  "source:AB00211",
+  "source:ABU2384",
+  "source:ABU0675",
+  "source:BH00001",
+  "source:AB00273",
+  "selection:28fb8862be75cadb1f12feb3",
+  "selection:b2fdef54b01feb07a7374328",
+  "selection:a10377224152aced3cf81632",
+  "selection:3d3e9dd0317819b4cd5905b2",
+  "selection:fcdc38fb7c431f6169a51324"
+ ],
+ "introduction": "“The sun is always the sun. According to the position of the earth we receive its radiation differently.” The guide starts from a teacher’s habit, speaking to hearers according to their capacity, and widens it into a principle about religion itself: laws change with the needs of the age, forms differ with time and place, and revelation is “continuous and progressive”, so that religious truth as humanity holds it is relative to its stage. Teachers in every tradition have known the first half of this. Jesus kept back what his friends could not bear, Paul gave milk before meat and called the law a schoolmaster, the rabbis said the Torah speaks human language, the Qur’an speaks of verses replaced by better and of a law appointed for each people. The second half meets resistance from within the same scriptures: “I am the Lord, I change not”, “no man cometh unto the Father, but by me”, “the faith once delivered”. Rumi, Kabir, Pope and Tennyson stand with the readings on the unity of the light and the brokenness of our lamps.",
+ "questions": [
+  "Jesus withholds what his disciples “cannot bear”, and Paul gives milk before meat. What separates this ordinary practice of teachers from the larger claim of readings 13, 14 and 17?",
+  "“I am the Lord, I change not.” Where exactly do the readings place the change: in God, in the truth, in the law, or in the receiver?",
+  "“No man cometh unto the Father, but by me”; “the faith once delivered”. How might one who holds these sayings dear read the claim that revelation is not final?",
+  "Pope says his can’t be wrong whose life is in the right. Is the relativity the readings teach the same as his indifference to “modes of faith”? What keeps it from that?"
+ ],
+ "outside": [
+  {
+   "id": "talmud-language-of-men",
+   "after": "source:ABU3480",
+   "responds": [
+    "source:ABU3480"
+   ],
+   "relation": "adjacent",
+   "why": "The father gurgles to the infant though he could measure the universe. The rabbis said it of scripture itself: the Torah speaks in the language of men."
+  },
+  {
+   "id": "john-cannot-bear-them-now",
+   "after": "source:ABU3480",
+   "responds": [
+    "source:ABU3480"
+   ],
+   "relation": "adjacent",
+   "why": "“I speak according to … the capacity of my listeners.” Jesus at the last supper: I have yet many things to say unto you, but ye cannot bear them now."
+  },
+  {
+   "id": "rumi-lamps",
+   "after": "source:ABU1957",
+   "responds": [
+    "source:ABU1957"
+   ],
+   "relation": "adjacent",
+   "why": "“The sun is always the sun”; our position changes what we receive. Rumi makes the same point with lamps: the lamps are different, but the Light is the same."
+  },
+  {
+   "id": "corinthians-milk-and-not-meat",
+   "after": "source:ABU0877",
+   "responds": [
+    "source:ABU0877"
+   ],
+   "relation": "adjacent",
+   "why": "Beginners are spoken to gently, as children are not taught geometry. Paul: I have fed you with milk, and not with meat: for hitherto ye were not able to bear it."
+  },
+  {
+   "id": "kabir-one-light",
+   "after": "source:ABU0035",
+   "responds": [
+    "source:ABU0035"
+   ],
+   "relation": "adjacent",
+   "why": "“The foundation underlying all religions is one.” Kabir, claimed by Hindus, Muslims and Sikhs alike: from the one Light the whole universe welled up; who then is good and who is bad?"
+  },
+  {
+   "id": "john-way-truth-life",
+   "after": "source:ABU0035",
+   "responds": [
+    "source:ABU0035"
+   ],
+   "relation": "contrast",
+   "why": "“I am the way, the truth, and the life: no man cometh unto the Father, but by me.” For many Christians this sentence closes the question the reading opens. Can a truth be both the only way and one of a succession?"
+  },
+  {
+   "id": "pope-modes-of-faith",
+   "after": "source:ABU1484",
+   "responds": [
+    "source:ABU1484"
+   ],
+   "relation": "adjacent",
+   "why": "Denominations are closer or looser connections with God, “adorned with additions”. Pope: for modes of faith let graceless zealots fight; his can’t be wrong whose life is in the right."
+  },
+  {
+   "id": "tennyson-broken-lights",
+   "after": "source:ABU0161",
+   "responds": [
+    "source:ABU0161"
+   ],
+   "relation": "adjacent",
+   "why": "Human interpretations differ, and strife follows. Tennyson: our little systems have their day; they are but broken lights of thee, and thou, O Lord, art more than they."
+  },
+  {
+   "id": "quran-abrogate",
+   "after": "source:BH00048",
+   "responds": [
+    "source:BH00048"
+   ],
+   "relation": "adjacent",
+   "why": "“He doeth what He willeth.” The Qur’an on its own changes: such of Our revelations as We abrogate or cause to be forgotten, We bring one better or the like thereof."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:AB00211",
+   "responds": [
+    "source:AB00211"
+   ],
+   "relation": "adjacent",
+   "why": "When times change, earlier commandments “no longer suit”. Paul on the law of Moses: our schoolmaster to bring us unto Christ; after faith is come, we are no longer under a schoolmaster."
+  },
+  {
+   "id": "malachi-i-change-not",
+   "after": "source:AB00211",
+   "responds": [
+    "source:AB00211"
+   ],
+   "relation": "contrast",
+   "why": "“For I am the Lord, I change not.” If God does not change, the reading must locate all change in us and our times. Does it?"
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU2384",
+   "responds": [
+    "source:ABU2384"
+   ],
+   "relation": "adjacent",
+   "why": "What we held supreme as children we see later as relative. When I was a child, I spake as a child; when I became a man, I put away childish things."
+  },
+  {
+   "id": "mark-sabbath-was-made-for-man",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "He may make lawful what was forbidden. Jesus claimed that authority over the sabbath, and gave the reason: the sabbath was made for man, and not man for the sabbath."
+  },
+  {
+   "id": "ecclesiastes-to-every-thing-there-is-a-season",
+   "after": "source:AB00273",
+   "responds": [
+    "source:AB00273"
+   ],
+   "relation": "adjacent",
+   "why": "In an epidemic, hygiene decides what burial law would otherwise forbid. To every thing there is a season, and a time to every purpose under the heaven."
+  },
+  {
+   "id": "corinthians-glass-darkly",
+   "after": "selection:28fb8862be75cadb1f12feb3",
+   "responds": [
+    "selection:28fb8862be75cadb1f12feb3"
+   ],
+   "relation": "adjacent",
+   "why": "“Religious truth is not absolute but relative.” Paul’s admission from inside revelation: now we see through a glass, darkly; now I know in part."
+  },
+  {
+   "id": "jude-once-delivered",
+   "after": "selection:b2fdef54b01feb07a7374328",
+   "responds": [
+    "selection:b2fdef54b01feb07a7374328"
+   ],
+   "relation": "contrast",
+   "why": "Revelation is “progressive and not spasmodic or final”. Jude writes of the faith once delivered unto the saints, and the Qur’an of a Seal of the Prophets. What do the readings ask believers in a final revelation to reconsider, and what do they leave them?"
+  },
+  {
+   "id": "matthew-not-to-destroy-but-fulfil",
+   "after": "selection:a10377224152aced3cf81632",
+   "responds": [
+    "selection:a10377224152aced3cf81632"
+   ],
+   "relation": "adjacent",
+   "why": "The new Revelation “abrogates none of the religions that have preceded it”. Jesus said the same of his relation to the law: not to destroy, but to fulfil."
+  },
+  {
+   "id": "quran-one-community",
+   "after": "selection:fcdc38fb7c431f6169a51324",
+   "responds": [
+    "selection:fcdc38fb7c431f6169a51324"
+   ],
+   "relation": "adjacent",
+   "why": "All the great religions are divine in origin and differ in non-essentials. The Qur’an: for each We have appointed a divine law and a traced-out way; had God willed He could have made you one community; so vie one with another in good works."
+  }
+ ],
+ "library": {}
+}

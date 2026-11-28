@@ -1,0 +1,358 @@
+{
+ "format": 2,
+ "slug": "zoroastrianism",
+ "subject": "8B1D9153E2094E73B802A8F5BA05D083",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 38,
+ "quotations": 39,
+ "kept": [
+  "source:BH01711",
+  "source:AB02420",
+  "source:AB00138",
+  "source:AB01609",
+  "source:AB01960",
+  "source:AB00940",
+  "source:AB01846",
+  "source:AB02722",
+  "source:ABU0201",
+  "source:ABU0202",
+  "source:AB04903",
+  "source:AB00576",
+  "source:AB00767",
+  "source:AB01401",
+  "source:AB02524",
+  "source:AB07302",
+  "source:AB08071",
+  "source:ABU0903",
+  "source:AB01984",
+  "source:AB03233",
+  "source:AB05845",
+  "source:AB08083",
+  "source:AB09226",
+  "source:ABU0650",
+  "source:BH01934",
+  "source:AB03420",
+  "source:AB08336",
+  "source:AB09146",
+  "source:AB02427",
+  "source:ABU0836",
+  "source:ABU1195",
+  "source:AB01395",
+  "source:AB01719",
+  "source:ABU3167",
+  "source:ABU1384",
+  "source:AB01330",
+  "source:AB00200",
+  "source:ABU0006"
+ ],
+ "introduction": "‘Abdu’l-Bahá’s letters to the Zoroastrians of Persia and India honour their Prophet without reserve: “He came from God and summoned mankind to divine guidance.” They explain why earlier Bahá’í books did not name him, read the legends of his age as metaphor, claim that the deliverer their books promise has come, and rejoice that an ancient and long-humiliated people is reviving. The Bible already had a place for Persia: Isaiah calls Cyrus the Lord’s anointed, and the first to seek the child in Matthew are magi from the east. The Qur’an names the Magians and allows for Messengers it has not named. A verse of the Gathas stands first among the companions, so that Zoroaster is heard in his own voice. Nietzsche is here because the West knows the name best through a book that reverses its bearer’s teaching; and Jeremiah’s complaint against scribes raises the question that reading 15 invites about charges of corrupted scripture.",
+ "questions": [
+  "“For decision between the two Beliefs, each man for himself.” How does this verse of the Gathas compare with the Bahá’í principle of independent investigation?",
+  "Isaiah calls a Persian king the Lord’s anointed, and magi come to Bethlehem. What do these suggest about how the Bible itself regards truth among another people?",
+  "Reading 18 observes that each community accepts its own mediator and denies the next. What breaks that pattern, in the readings’ view?",
+  "Reading 15 says priests altered the Zend. How should such a claim about another community’s scripture be handled, given what the Bahá’í writings say elsewhere about charges of textual corruption?",
+  "The later readings speak of a people’s “ancient glory” returning. What is the difference between national revival and the spiritual renewal the readings have in mind?"
+ ],
+ "outside": [
+  {
+   "id": "zoroaster-hear-with-your-ears",
+   "after": "source:BH01711",
+   "responds": [
+    "source:BH01711"
+   ],
+   "relation": "adjacent",
+   "why": "“He came from God and summoned mankind to divine guidance.” The oldest hymns attributed to Zoroaster open on a summons to free judgment: hear with your ears the best things; look upon them with clear-seeing thought, for decision between the two Beliefs, each man for himself."
+  },
+  {
+   "id": "exodus-burning-bush",
+   "after": "source:BH01711",
+   "responds": [
+    "source:BH01711"
+   ],
+   "relation": "adjacent",
+   "why": "“The fire of love was ablaze in His hand.” Moses met a fire that burned and did not consume."
+  },
+  {
+   "id": "quran-magians-and-the-idolaters",
+   "after": "source:AB02420",
+   "responds": [
+    "source:AB02420"
+   ],
+   "relation": "adjacent",
+   "why": "“Mix with the Zoroastrians and establish the foundation of love.” The Qur’an names the Magians once, in a list of communities between whom God, and no one else, will decide."
+  },
+  {
+   "id": "matthew-wise-men-from-the-east",
+   "after": "source:AB00138",
+   "responds": [
+    "source:AB00138"
+   ],
+   "relation": "adjacent",
+   "why": "Parsis have shown devotion in this Dispensation. The first Gentiles to honour the child in Matthew are wise men from the east, magi, who by tradition were of Zoroaster’s priesthood."
+  },
+  {
+   "id": "quran-not-told-thee",
+   "after": "source:AB01960",
+   "responds": [
+    "source:AB01960"
+   ],
+   "relation": "adjacent",
+   "why": "Why is Zoroaster not named in the Book of Certitude? The Qur’an allows for unnamed Messengers: We sent messengers before thee, among them those of whom We have told thee, and some of whom We have not told thee."
+  },
+  {
+   "id": "quran-warner-in-every-nation",
+   "after": "source:AB00940",
+   "responds": [
+    "source:AB00940"
+   ],
+   "relation": "adjacent",
+   "why": "He and Mahabad are said to be alluded to in the Qur’an. There is not a nation but a warner hath passed among them."
+  },
+  {
+   "id": "psalm-ninety-yesterday",
+   "after": "source:AB01846",
+   "responds": [
+    "source:AB01846"
+   ],
+   "relation": "adjacent",
+   "why": "The histories disagree by centuries about his date. A thousand years in thy sight are but as yesterday when it is past, and as a watch in the night."
+  },
+  {
+   "id": "isaiah-to-his-anointed-to-cyrus",
+   "after": "source:AB02722",
+   "responds": [
+    "source:AB02722"
+   ],
+   "relation": "adjacent",
+   "why": "Zoroaster is linked with the prophets of Israel. Isaiah’s own link with Persia is striking: thus saith the Lord to his anointed, to Cyrus, whose right hand I have holden."
+  },
+  {
+   "id": "acts-no-respecter-of-persons",
+   "after": "source:ABU0202",
+   "responds": [
+    "source:ABU0202"
+   ],
+   "relation": "adjacent",
+   "why": "His prophethood is “as clear and evident as the sun”. Peter: in every nation he that feareth him, and worketh righteousness, is accepted with him."
+  },
+  {
+   "id": "ezra-cyrus-king-of-persia",
+   "after": "source:AB04903",
+   "responds": [
+    "source:AB04903"
+   ],
+   "relation": "adjacent",
+   "why": "Kings promoted his teaching. A Persian king enters the Bible as a restorer: the Lord God of heaven hath charged me to build him an house at Jerusalem."
+  },
+  {
+   "id": "maimonides-wolf-is-a-metaphor",
+   "after": "source:AB00576",
+   "responds": [
+    "source:AB00576"
+   ],
+   "relation": "adjacent",
+   "why": "The steed of King Gushtasp “was a metaphor” for a spiritual journey. Maimonides read the marvels of the prophets the same way: the wolf dwelling with the lamb is a figure."
+  },
+  {
+   "id": "matthew-pearls-before-swine",
+   "after": "source:AB01401",
+   "responds": [
+    "source:AB01401"
+   ],
+   "relation": "adjacent",
+   "why": "Do not be grieved by the foolish. Neither cast ye your pearls before swine."
+  },
+  {
+   "id": "jeremiah-pen-of-the-scribes",
+   "after": "source:AB02524",
+   "responds": [
+    "source:AB02524"
+   ],
+   "relation": "complement",
+   "why": "Priests are said to have altered the Zend to remove its glad tidings. Jeremiah makes the same charge in Israel: the pen of the scribes is in vain. Such charges are easy to make of another people’s clergy. What evidence should be asked for?"
+  },
+  {
+   "id": "matthew-seeing-see-not",
+   "after": "source:AB08071",
+   "responds": [
+    "source:AB08071"
+   ],
+   "relation": "adjacent",
+   "why": "“Zoroaster is well-pleased with those who are seeing, not with the blind.” Seeing they see not; and hearing they hear not, neither do they understand."
+  },
+  {
+   "id": "john-jews-have-no-dealings",
+   "after": "source:ABU0903",
+   "responds": [
+    "source:ABU0903"
+   ],
+   "relation": "adjacent",
+   "why": "Each people accepts its own mediator and denies the other’s. The Jews have no dealings with the Samaritans."
+  },
+  {
+   "id": "gandhi-not-one-religion",
+   "after": "source:ABU0903",
+   "responds": [
+    "source:ABU0903"
+   ],
+   "relation": "adjacent",
+   "why": "Gandhi, in 1924, on what such mutual denial calls for: the need of the moment is not one religion, but mutual respect and tolerance of the devotees of the different religions."
+  },
+  {
+   "id": "john-one-soweth-another-reapeth",
+   "after": "source:AB01984",
+   "responds": [
+    "source:AB01984"
+   ],
+   "relation": "adjacent",
+   "why": "The seed Zoroaster scattered has reached harvest. One soweth, and another reapeth: other men laboured, and ye are entered into their labours."
+  },
+  {
+   "id": "malachi-send-you-elijah",
+   "after": "source:AB05845",
+   "responds": [
+    "source:AB05845"
+   ],
+   "relation": "adjacent",
+   "why": "The Zoroastrian books promise deliverers to come, Hushidar and Shah Bahram. Israel’s prophets end on the same kind of promise: behold, I will send you Elijah."
+  },
+  {
+   "id": "nietzsche-rope-over-an-abyss",
+   "after": "source:AB08083",
+   "responds": [
+    "source:AB08083"
+   ],
+   "relation": "contrast",
+   "why": "Friends are told they have found “the Faith of Shah Bahram”, the promised renewer. Nietzsche gave Zoroaster’s name to a prophet of his own, for whom man is a rope stretched between the animal and the Superman, a rope over an abyss. Why did the West’s most famous use of Zarathustra make him teach the opposite of the ancient faith?"
+  },
+  {
+   "id": "luke-prophets-and-kings-have-desired",
+   "after": "source:ABU0650",
+   "responds": [
+    "source:ABU0650"
+   ],
+   "relation": "adjacent",
+   "why": "The prophecies are held to be fulfilled. Blessed are the eyes which see the things that ye see."
+  },
+  {
+   "id": "psalm-like-them-that-dream",
+   "after": "source:BH01934",
+   "responds": [
+    "source:BH01934"
+   ],
+   "relation": "adjacent",
+   "why": "After the Sassanians the Zoroastrians’ star set; now it rises. When the Lord turned again the captivity of Zion, we were like them that dream."
+  },
+  {
+   "id": "ezekiel-open-your-graves",
+   "after": "source:AB03420",
+   "responds": [
+    "source:AB03420"
+   ],
+   "relation": "adjacent",
+   "why": "For a thousand years scattered and lost. Ezekiel to the exiles: I will open your graves, and bring you into the land of Israel."
+  },
+  {
+   "id": "isaiah-arise-shine",
+   "after": "source:AB09146",
+   "responds": [
+    "source:AB09146"
+   ],
+   "relation": "adjacent",
+   "why": "The horizon of Persia was long in darkness, and the Sun has dawned. Arise, shine; for thy light is come."
+  },
+  {
+   "id": "amos-raise-up-the-tabernacle",
+   "after": "source:ABU0836",
+   "responds": [
+    "source:ABU0836"
+   ],
+   "relation": "adjacent",
+   "why": "“Ere long the ancient glory of your native land shall” return. I will raise up the tabernacle of David that is fallen, and I will raise up his ruins."
+  },
+  {
+   "id": "galatians-schoolmaster",
+   "after": "source:ABU1384",
+   "responds": [
+    "source:ABU1384"
+   ],
+   "relation": "adjacent",
+   "why": "The teachings of Moses were seed, Christ the fruit. The law was our schoolmaster to bring us unto Christ."
+  },
+  {
+   "id": "joshua-sun-stand-still",
+   "after": "source:AB01330",
+   "responds": [
+    "source:AB01330"
+   ],
+   "relation": "adjacent",
+   "why": "The Zoroastrian books speak of the sun stopping at the end of the cycle. Joshua: sun, stand thou still upon Gibeon; and the sun stood still, and the moon stayed."
+  },
+  {
+   "id": "matthew-two-commandments",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Religions share an essential part and differ in the later, accidental one. On these two commandments hang all the law and the prophets."
+  },
+  {
+   "id": "micah-what-doth-the-lord-require",
+   "after": "source:ABU0006",
+   "responds": [
+    "source:ABU0006"
+   ],
+   "relation": "adjacent",
+   "why": "Micah’s statement of the essential part: to do justly, and to love mercy, and to walk humbly with thy God."
+  }
+ ],
+ "shortfall": "A number of readings are greetings to Zoroastrian friends, or answers about particular names, places and legends, that were left without companions; and little of the Zoroastrian scripture itself is available in translations that can be checked against a reliable page.",
+ "library": {
+  "quran-magians-and-the-idolaters": {
+   "text": "Lo! those who believe (this revelation), and those who are Jews, and the Sabaeans and the Christians and the Magians and the idolaters - Lo! Allah will decide between them on the Day of Resurrection. Lo! Allah is Witness over all things.",
+   "work": "Qur’an 22:17",
+   "year": "7th century",
+   "sortYear": 630,
+   "translator": "Marmaduke Pickthall",
+   "translationYear": "1930",
+   "tradition": "Qur’an and hadith",
+   "kind": "sacred",
+   "source": {
+    "url": "https://corpus.quran.com/translation.jsp?chapter=22&verse=17",
+    "label": "Quranic Arabic Corpus",
+    "checked": "2026-11-27",
+    "status": "primary",
+    "after": "Pickthall:"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation published 1930; translator d. 1936."
+   }
+  },
+  "zoroaster-hear-with-your-ears": {
+   "text": "Hear with your ears the best things; look upon them with clear-seeing thought, for decision between the two Beliefs, each man for himself before the Great consummation, bethinking you that it be accomplished to our pleasure.",
+   "author": "Zoroaster (Zarathushtra)",
+   "work": "Gathas, Yasna 30.2",
+   "year": "c. 1200–600 BCE",
+   "sortYear": -1000,
+   "translator": "Christian Bartholomae, in the English version given at Avesta.org",
+   "translationYear": "1905; English 1913",
+   "tradition": "Zoroastrian scripture",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.avesta.org/yasna/yasna.htm",
+    "label": "Avesta.org",
+    "checked": "2026-11-27",
+    "status": "primary"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Bartholomae d. 1925; the English follows J. H. Moulton (d. 1917), Early Zoroastrianism, 1913."
+   },
+   "caveat": "The date of Zoroaster is disputed by scholars; the wording is the English form of Bartholomae’s German translation as the site gives it."
+  }
+ }
+}

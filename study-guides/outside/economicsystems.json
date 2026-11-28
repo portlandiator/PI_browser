@@ -1,0 +1,151 @@
+{
+ "format": 2,
+ "slug": "economicsystems",
+ "subject": "E0C67E8BCD98E16FC59F299D4772672E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 12,
+ "quotations": 13,
+ "kept": [
+  "source:ABU3190",
+  "source:AB00546",
+  "source:ABU1216",
+  "source:ABU0001",
+  "source:AB00566",
+  "source:AB11555",
+  "source:ABU1072",
+  "source:ABU0319",
+  "source:AB00796",
+  "selection:5fc44d2c1a1a2a4c773f09c4",
+  "selection:ffc9600356c65fe44bb3ba11",
+  "selection:f3cd5e9409f2e858da329590"
+ ],
+ "introduction": "These readings come mostly from ‘Abdu’l-Bahá’s answers to socialists and about socialism in the years around the First World War, with two later statements that the Bahá’í system is to be identified with none of the existing ones. He grants the aim and disputes the means: “that which the socialists aim to accomplish … will in time be done by the people freely”, seizing and dividing wealth settles nothing, strikes will not solve the question but law made by a world assembly will, workers should share in profits, and equality “effected through force” is the mark of Bolshevism. The companions set this in a long argument. The Jerusalem church that “had all things common” and Paul’s “cheerful giver” are the Christian sources of the voluntary ideal; the Qur’an verse is the one the readings quote. Aristotle made the practical objection to common property twenty-three centuries ago. Marx’s closing summons is the voice being answered; Kropotkin is a socialist who grounded cooperation in nature; and Adam Smith, Ruskin and Carnegie each said from within a commercial society that wealth has duties.",
+ "questions": [
+  "“Not grudgingly, or of necessity.” The readings want sharing to be voluntary, and also want laws that secure workers’ rights and a share of profits. Where is the line between the two?",
+  "Aristotle said what is common to the most people gets the least care. Is that an objection to the Jerusalem community of Acts? Why did it not last, and does that matter?",
+  "The Manifesto ends with “unite!” addressed to one class. To whom are the readings’ appeals addressed?",
+  "Reading 8 would “preserve the various ranks” while holding rights equal. Plato defended ranks with a myth of metals. What, if anything, justifies ranks in an economy?"
+ ],
+ "outside": [
+  {
+   "id": "corinthians-cheerful-giver",
+   "after": "source:ABU3190",
+   "responds": [
+    "source:ABU3190"
+   ],
+   "relation": "adjacent",
+   "why": "What the socialists aim at will be done freely, through faith and love. Paul on giving: every man according as he purposeth in his heart, not grudgingly, or of necessity: for God loveth a cheerful giver."
+  },
+  {
+   "id": "acts-all-things-common",
+   "after": "source:ABU3190",
+   "responds": [
+    "source:ABU3190"
+   ],
+   "relation": "adjacent",
+   "why": "The first Christian community in Jerusalem is the example usually cited: they had all things common; neither was there any among them that lacked."
+  },
+  {
+   "id": "kropotkin-mutual-aid",
+   "after": "source:AB00546",
+   "responds": [
+    "source:AB00546"
+   ],
+   "relation": "complement",
+   "why": "Socialism has one fragrance of the tree; the tree holds every fruit. Kropotkin, a revolutionary and a naturalist, argued from animal life that cooperation is nature’s own tendency: don’t compete; practise mutual aid. He needed no religion for it. Is the reading’s claim that the motive must be religious, or only that it must be willing?"
+  },
+  {
+   "id": "aristotle-common-to-the-greatest-number",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216"
+   ],
+   "relation": "adjacent",
+   "why": "Take the property of the rich and divide it: what after one year? Aristotle’s objection to Plato’s common ownership: that which is common to the greatest number has the least care bestowed upon it."
+  },
+  {
+   "id": "marx-unite",
+   "after": "source:ABU1216",
+   "responds": [
+    "source:ABU1216"
+   ],
+   "relation": "contrast",
+   "why": "The voice the reading answers: the proletarians have nothing to lose but their chains; they have a world to win; working men of all countries, unite! The Manifesto treats the question as one of power between classes; the reading, as one of law and of the heart. What does each see that the other misses?"
+  },
+  {
+   "id": "james-hire-of-the-labourers",
+   "after": "source:ABU0001",
+   "responds": [
+    "source:ABU0001"
+   ],
+   "relation": "adjacent",
+   "why": "The rights of workers are to be secured by law, not by strikes. James speaks for the unpaid: behold, the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth."
+  },
+  {
+   "id": "plutarch-lycurgus-division-of-lands",
+   "after": "source:AB00566",
+   "responds": [
+    "source:AB00566"
+   ],
+   "relation": "complement",
+   "why": "Reformers who became extreme and oppressive. Plutarch tells of Lycurgus, who found Sparta’s wealth centred on a very few and persuaded the citizens to a new division of the land. The ancient world remembered it as a redistribution without terror. What made the difference?"
+  },
+  {
+   "id": "quran-prefer-above-themselves",
+   "after": "source:ABU1072",
+   "responds": [
+    "source:ABU1072"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this verse: they prefer the fugitives above themselves though poverty become their lot."
+  },
+  {
+   "id": "corinthians-that-there-may-be-equality",
+   "after": "source:ABU1072",
+   "responds": [
+    "source:ABU1072"
+   ],
+   "relation": "adjacent",
+   "why": "Sharing done willingly and with spirituality. Paul’s rule for a collection: by an equality, that your abundance may be a supply for their want; he that had gathered much had nothing over."
+  },
+  {
+   "id": "plato-gold-silver-brass",
+   "after": "source:ABU0319",
+   "responds": [
+    "source:ABU0319"
+   ],
+   "relation": "complement",
+   "why": "The oneness of humanity upheld and the various ranks preserved. Plato’s citizens are told: you are brothers, yet God has framed you differently. Plato called this a needful fiction. On what do the readings rest the ranks they would keep?"
+  },
+  {
+   "id": "smith-no-society-flourishing-and-happy",
+   "after": "source:AB00796",
+   "responds": [
+    "source:AB00796"
+   ],
+   "relation": "adjacent",
+   "why": "Wages, and a share of the profits besides. Adam Smith, usually cited for the other side: no society can surely be flourishing and happy, of which the far greater part of the members are poor and miserable."
+  },
+  {
+   "id": "ruskin-no-wealth-but-life",
+   "after": "selection:ffc9600356c65fe44bb3ba11",
+   "responds": [
+    "selection:ffc9600356c65fe44bb3ba11"
+   ],
+   "relation": "adjacent",
+   "why": "Materialism, capitalist or socialist, must give account of its stewardship. Ruskin’s verdict on the economics of his day: there is no wealth but life. That country is the richest which nourishes the greatest number of noble and happy human beings."
+  },
+  {
+   "id": "carnegie-dies-thus-rich-dies-disgraced",
+   "after": "selection:f3cd5e9409f2e858da329590",
+   "responds": [
+    "selection:f3cd5e9409f2e858da329590"
+   ],
+   "relation": "adjacent",
+   "why": "Equality by force set against voluntary sharing. A capitalist’s own statement of the voluntary principle: the man who dies thus rich dies disgraced."
+  }
+ ],
+ "library": {}
+}

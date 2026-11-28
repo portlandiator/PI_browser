@@ -1,0 +1,535 @@
+{
+ "format": 2,
+ "slug": "poweroflove",
+ "subject": "D64346EB795847B3817AB6A1A38C8ED9",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 70,
+ "quotations": 70,
+ "kept": [
+  "source:ABU2256",
+  "source:ABU0652",
+  "source:ABU0113",
+  "source:AB00306",
+  "source:ABU1281",
+  "source:AB05742",
+  "source:AB09478",
+  "source:ABU1586",
+  "source:ABU1701",
+  "source:ABU0135",
+  "source:ABU1487",
+  "source:ABU1866",
+  "source:ABU0099",
+  "source:AB07040",
+  "source:AB03910",
+  "source:ABU1127",
+  "source:AB02258",
+  "source:BH00955",
+  "source:ABU3732",
+  "source:BH00306",
+  "source:BH00615",
+  "source:ABU0190",
+  "source:BB00004",
+  "source:BH00023",
+  "source:BH00825",
+  "source:AB02150",
+  "source:AB05556",
+  "source:BH03689",
+  "source:ABU1391",
+  "source:ABU0691",
+  "source:AB10795",
+  "source:AB03860",
+  "source:ABU2285",
+  "source:ABU3348",
+  "source:BH06478",
+  "source:ABU1793",
+  "source:AB04542",
+  "source:BH11852",
+  "source:BH00944",
+  "source:BH06203",
+  "source:AB08907",
+  "source:AB04595",
+  "source:BH11853",
+  "source:AB11383",
+  "source:ABU2326",
+  "source:AB02716",
+  "source:BH02111",
+  "source:AB03123",
+  "source:BH02249",
+  "source:ABU1600",
+  "source:ABU2122",
+  "source:ABU1731",
+  "source:BH02842",
+  "source:AB01082",
+  "source:AB11888",
+  "source:AB07192",
+  "source:AB02125",
+  "source:BB00489",
+  "source:ABU3113",
+  "source:AB07820",
+  "source:BH02265",
+  "source:AB06690",
+  "source:BH02323",
+  "source:AB01143",
+  "source:AB08092",
+  "source:BH04387",
+  "source:AB05784",
+  "source:AB07024",
+  "source:BH11655",
+  "selection:1d384ee50df1e8bd916d9cc4"
+ ],
+ "introduction": "“It is Love that establishes communication between the hearts of men.” The guide makes three claims for love: that it is what actually gathers people who have no other tie; that it accomplishes what force cannot, Christ against Napoleon; and that it is a fire, which makes burdens light, distances short and the weak strong, and which passes where reason alone does not go. Paul’s chapter on charity is quoted in the readings themselves, and John’s “God is love” stands behind the first of them; the Song of Songs supplies the fire, the Dhammapada the old rule that hatred ceases by love, the Qur’an the leniency without which a people disperses, Dante the love that moves the stars, Augustine and Thomas à Kempis the freedom and lightness. Machiavelli is here because he thought it safer to be feared, and has often been right. Mencius is here because he thought universal love betrayed the nearer loves. Plato’s charioteer and Shakespeare’s Theseus ask whether a lover can be trusted to see.",
+ "questions": [
+  "Machiavelli judged it safer to be feared than loved. What evidence do readings 8 to 13 offer against him, and what would he say of it?",
+  "Mencius held that love for all, without a special claim for one’s own, is inhuman. How do the readings relate love of kin, of friends in faith, and of “creation”?",
+  "Reading 19 calls love the fruit of consummate reason; reading 20 says the reign of intellect is not sufficient. With Plato’s charioteer and Pascal’s heart in view, how do these fit together?",
+  "“Love gilds every object”, and Theseus says the lover sees beauty that is not there. Does love distort, or disclose?",
+  "Jacob’s seven years “seemed unto him but a few days”. What do readings 49 to 52 claim love does to difficulty, and is the claim about feeling or about fact?"
+ ],
+ "outside": [
+  {
+   "id": "john-epistle-loveth-not-knoweth-not",
+   "after": "source:ABU2256",
+   "responds": [
+    "source:ABU2256"
+   ],
+   "relation": "adjacent",
+   "why": "“It is Love that establishes communication between the hearts … that confers eternal life.” John’s letter: every one that loveth is born of God, and knoweth God; he that loveth not knoweth not God; for God is love."
+  },
+  {
+   "id": "corinthians-greatest-of-these",
+   "after": "source:ABU2256",
+   "responds": [
+    "source:ABU2256"
+   ],
+   "relation": "adjacent",
+   "why": "Paul ranks it above faith and hope: the greatest of these is charity."
+  },
+  {
+   "id": "john-by-this-shall-all-men-know",
+   "after": "source:ABU0652",
+   "responds": [
+    "source:ABU0652"
+   ],
+   "relation": "adjacent",
+   "why": "A gathering of many peoples is offered as evidence of the power of the love of God. By this shall all men know that ye are my disciples, if ye have love one to another."
+  },
+  {
+   "id": "john-epistle-loveth-not-his-brother",
+   "after": "source:ABU0113",
+   "responds": [
+    "source:ABU0113"
+   ],
+   "relation": "adjacent",
+   "why": "“Love for creation is love for God.” He that loveth not his brother whom he hath seen, how can he love God whom he hath not seen?"
+  },
+  {
+   "id": "whitman-furlong-without-sympathy",
+   "after": "source:ABU0113",
+   "responds": [
+    "source:ABU0113"
+   ],
+   "relation": "adjacent",
+   "why": "Whitman: whoever walks a furlong without sympathy walks to his own funeral drest in his shroud."
+  },
+  {
+   "id": "quran-consult-with-them",
+   "after": "source:AB00306",
+   "responds": [
+    "source:AB00306"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes this verse: it was by the mercy of God that thou wast lenient with them, for if thou hadst been stern and fierce of heart they would have dispersed from round about thee."
+  },
+  {
+   "id": "aesop-wind-and-sun",
+   "after": "source:AB00306",
+   "responds": [
+    "source:AB00306"
+   ],
+   "relation": "adjacent",
+   "why": "Aesop’s wind cannot blow the traveller’s cloak off; the sun warms him until he takes it off himself. Persuasion is better than force."
+  },
+  {
+   "id": "matthew-who-is-my-mother",
+   "after": "source:AB09478",
+   "responds": [
+    "source:AB09478"
+   ],
+   "relation": "adjacent",
+   "why": "The foreigner became a confidant through love, and the kinsman a stranger through heedlessness. Whosoever shall do the will of my Father, the same is my brother, and sister, and mother."
+  },
+  {
+   "id": "shelley-nothing-is-single",
+   "after": "source:ABU1586",
+   "responds": [
+    "source:ABU1586"
+   ],
+   "relation": "adjacent",
+   "why": "What has assembled us is “not a material but a spiritual force”. Shelley makes a lover’s argument of the same law: nothing in the world is single; all things by a law divine in one spirit meet and mingle."
+  },
+  {
+   "id": "machiavelli-feared-than-loved",
+   "after": "source:ABU1701",
+   "responds": [
+    "source:ABU1701"
+   ],
+   "relation": "contrast",
+   "why": "Earthly sovereignty is organized by domination, the eternal by “the Love Power”. Machiavelli asked whether it is better for a prince to be loved or feared, and answered that, since men love at their own pleasure and fear at the prince’s, it is safer to be feared. He is describing the first kind of sovereignty accurately. Is there a second?"
+  },
+  {
+   "id": "isaiah-swords-into-plowshares",
+   "after": "source:ABU0135",
+   "responds": [
+    "source:ABU0135"
+   ],
+   "relation": "adjacent",
+   "why": "If the effort spent on armaments were spent on fellowship. They shall beat their swords into plowshares, and their spears into pruninghooks."
+  },
+  {
+   "id": "matthew-put-up-thy-sword",
+   "after": "source:ABU1487",
+   "responds": [
+    "source:ABU1487"
+   ],
+   "relation": "adjacent",
+   "why": "Napoleon’s kingdom came by oppression, Christ’s by love. Put up again thy sword into his place: for all they that take the sword shall perish with the sword."
+  },
+  {
+   "id": "zechariah-not-by-might",
+   "after": "source:ABU1487",
+   "responds": [
+    "source:ABU1487"
+   ],
+   "relation": "adjacent",
+   "why": "Not by might, nor by power, but by my spirit, saith the Lord of hosts."
+  },
+  {
+   "id": "dhammapada-hatred-ceases-by-love",
+   "after": "source:ABU0099",
+   "responds": [
+    "source:ABU0099"
+   ],
+   "relation": "adjacent",
+   "why": "The power of love against “the power of hate and Mars”. The Dhammapada: hatred does not cease by hatred at any time; hatred ceases by love; this is an old rule."
+  },
+  {
+   "id": "romans-overcome-evil",
+   "after": "source:ABU0099",
+   "responds": [
+    "source:ABU0099"
+   ],
+   "relation": "adjacent",
+   "why": "If love becomes predominant its effects will exceed those of hate. Be not overcome of evil, but overcome evil with good."
+  },
+  {
+   "id": "mozi-universal-love",
+   "after": "source:AB07040",
+   "responds": [
+    "source:AB07040"
+   ],
+   "relation": "adjacent",
+   "why": "The spirit of this age is “the founder of peace, the spirit of affinity”. Mozi taught in ancient China that the calamities of the world come from want of mutual love, and that universal love would end them."
+  },
+  {
+   "id": "mencius-against-mozi",
+   "after": "source:AB07040",
+   "responds": [
+    "source:AB07040"
+   ],
+   "relation": "contrast",
+   "why": "Mencius objected that Mozi’s universal love acknowledges no special claim of a father, and that this is the state of a beast. Love for all, or love that begins with one’s own: which do the readings teach, and how do they answer Mencius?"
+  },
+  {
+   "id": "song-many-waters-cannot-quench",
+   "after": "source:AB03910",
+   "responds": [
+    "source:AB03910"
+   ],
+   "relation": "adjacent",
+   "why": "An ember that is to “set the world aflame”. Many waters cannot quench love, neither can the floods drown it."
+  },
+  {
+   "id": "acts-full-of-new-wine",
+   "after": "source:AB02258",
+   "responds": [
+    "source:AB02258"
+   ],
+   "relation": "adjacent",
+   "why": "A cup of the love of God that “bestows intoxication”. The onlookers at Pentecost said: these men are full of new wine."
+  },
+  {
+   "id": "song-strong-as-death",
+   "after": "source:BH00955",
+   "responds": [
+    "source:BH00955"
+   ],
+   "relation": "adjacent",
+   "why": "Love’s influence is “more potent than the authority of kings”. Love is strong as death; the coals thereof are coals of fire, which hath a most vehement flame."
+  },
+  {
+   "id": "ephesians-rooted-and-grounded-in-love",
+   "after": "source:ABU3732",
+   "responds": [
+    "source:ABU3732"
+   ],
+   "relation": "adjacent",
+   "why": "This love is “the fruit of consummate reason”. Paul joins the two: being rooted and grounded in love, to comprehend the breadth and length, and to know the love of Christ, which passeth knowledge."
+  },
+  {
+   "id": "pascal-heart-has-its-reasons",
+   "after": "source:BH00306",
+   "responds": [
+    "source:BH00306"
+   ],
+   "relation": "adjacent",
+   "why": "In this station “neither the reign of the intellect is sufficient”. The heart has its reasons, which reason does not know."
+  },
+  {
+   "id": "plato-charioteer-and-two-horses",
+   "after": "source:BH00306",
+   "responds": [
+    "source:BH00306"
+   ],
+   "relation": "contrast",
+   "why": "Plato’s soul is a charioteer with two horses, and love sets the dark one plunging; reason must hold it or the chariot falls. Readings 19 and 20 say that love is reason’s fruit and that it passes beyond reason. Which horse do they trust?"
+  },
+  {
+   "id": "corinthians-charity-suffereth-long",
+   "after": "source:ABU0190",
+   "responds": [
+    "source:ABU0190"
+   ],
+   "relation": "adjacent",
+   "why": "The reading quotes Paul: charity thinketh no evil; beareth all things, believeth all things, hopeth all things, endureth all things."
+  },
+  {
+   "id": "shakespeare-heavenly-alchemy",
+   "after": "source:ABU0190",
+   "responds": [
+    "source:ABU0190"
+   ],
+   "relation": "adjacent",
+   "why": "“Love gilds every object upon which we project it.” Shakespeare’s morning sun does the same, gilding pale streams with heavenly alchemy."
+  },
+  {
+   "id": "shakespeare-lunatic-lover-poet",
+   "after": "source:ABU0190",
+   "responds": [
+    "source:ABU0190"
+   ],
+   "relation": "complement",
+   "why": "Theseus puts the lover with the lunatic and the poet, who all see what is not there: the lover sees Helen’s beauty in a brow of Egypt. If love gilds what it looks at, how does it also see truly?"
+  },
+  {
+   "id": "augustine-love-and-do-what-you-will",
+   "after": "source:BH00023",
+   "responds": [
+    "source:BH00023"
+   ],
+   "relation": "adjacent",
+   "why": "Pure intention and pure deeds all flow from this source. Augustine: love, and do what you will; let the root of love be within, of this root can nothing spring but what is good."
+  },
+  {
+   "id": "kempis-love-is-a-great-thing",
+   "after": "source:BH00825",
+   "responds": [
+    "source:BH00825"
+   ],
+   "relation": "adjacent",
+   "why": "Love is sweet water to the friends. Thomas à Kempis: love is a great thing, a great good indeed, which alone maketh light all that is burdensome."
+  },
+  {
+   "id": "proverbs-love-covereth-all-sins",
+   "after": "source:AB02150",
+   "responds": [
+    "source:AB02150"
+   ],
+   "relation": "adjacent",
+   "why": "Raise waves of love to cast out enmity. Hatred stirreth up strifes: but love covereth all sins."
+  },
+  {
+   "id": "luke-did-not-our-heart-burn",
+   "after": "source:BH03689",
+   "responds": [
+    "source:BH03689"
+   ],
+   "relation": "adjacent",
+   "why": "One heart lit would kindle all hearts. Did not our heart burn within us, while he talked with us by the way?"
+  },
+  {
+   "id": "dante-love-which-moves-the-sun",
+   "after": "source:ABU1391",
+   "responds": [
+    "source:ABU1391"
+   ],
+   "relation": "adjacent",
+   "why": "All atoms are held together by attraction, as hearts by love. Dante ends his poem with the Love that moves the sun and the other stars."
+  },
+  {
+   "id": "hosea-taught-ephraim-to-go",
+   "after": "source:ABU0691",
+   "responds": [
+    "source:ABU0691"
+   ],
+   "relation": "adjacent",
+   "why": "“Love is the real magnet which attracts.” Hosea has God say of Israel: I drew them with cords of a man, with bands of love."
+  },
+  {
+   "id": "john-lighteth-every-man",
+   "after": "source:AB03860",
+   "responds": [
+    "source:AB03860"
+   ],
+   "relation": "adjacent",
+   "why": "“The light of the world is the love of God.” That was the true Light, which lighteth every man that cometh into the world."
+  },
+  {
+   "id": "matthew-pray-for-persecutors",
+   "after": "source:ABU2326",
+   "responds": [
+    "source:ABU2326"
+   ],
+   "relation": "adjacent",
+   "why": "“A love that melts all opposition, a love that conquers all foes.” Love your enemies, bless them that curse you, pray for them which despitefully use you."
+  },
+  {
+   "id": "plato-madness-of-love",
+   "after": "source:AB02716",
+   "responds": [
+    "source:AB02716"
+   ],
+   "relation": "adjacent",
+   "why": "“From the intensity of love, the rational became mad.” Plato’s Socrates argues that there is a madness which is a divine gift, and that the madness of love is the greatest of heaven’s blessings."
+  },
+  {
+   "id": "rumi-reed",
+   "after": "source:BH02111",
+   "responds": [
+    "source:BH02111"
+   ],
+   "relation": "adjacent",
+   "why": "The world’s illumination is from the light of love. Rumi: it is the fire of love that is in the reed, the fervour of love that is in the wine."
+  },
+  {
+   "id": "corinthians-body-to-be-burned",
+   "after": "source:AB03123",
+   "responds": [
+    "source:AB03123"
+   ],
+   "relation": "adjacent",
+   "why": "“Without His love all things are harmful.” Though I give my body to be burned, and have not charity, it profiteth me nothing."
+  },
+  {
+   "id": "genesis-jacob-served-seven-years",
+   "after": "source:BH02249",
+   "responds": [
+    "source:BH02249"
+   ],
+   "relation": "adjacent",
+   "why": "“Every burden has been and is made light through love.” Jacob served seven years for Rachel; and they seemed unto him but a few days, for the love he had to her."
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "source:ABU2122",
+   "responds": [
+    "source:ABU2122"
+   ],
+   "relation": "adjacent",
+   "why": "“Love renders the bitter sweet.” My yoke is easy, and my burden is light."
+  },
+  {
+   "id": "donne-not-a-breach-but-an-expansion",
+   "after": "source:ABU1731",
+   "responds": [
+    "source:ABU1731"
+   ],
+   "relation": "adjacent",
+   "why": "“Love makes the distance short.” Donne: our two souls, which are one, endure not yet a breach, but an expansion, like gold to airy thinness beat."
+  },
+  {
+   "id": "john-my-joy-in-you",
+   "after": "source:AB01082",
+   "responds": [
+    "source:AB01082"
+   ],
+   "relation": "adjacent",
+   "why": "The love of God brings rapture and joy. That my joy might remain in you, and that your joy might be full."
+  },
+  {
+   "id": "john-greater-love",
+   "after": "source:ABU3113",
+   "responds": [
+    "source:ABU3113"
+   ],
+   "relation": "adjacent",
+   "why": "A power that brings people to sacrifice themselves for one another. Greater love hath no man than this."
+  },
+  {
+   "id": "corinthians-strength-made-perfect-in-weakness",
+   "after": "source:AB07820",
+   "responds": [
+    "source:AB07820"
+   ],
+   "relation": "adjacent",
+   "why": "Through love “the weak become mighty”. My strength is made perfect in weakness."
+  },
+  {
+   "id": "romans-neither-death-nor-life",
+   "after": "source:BH02265",
+   "responds": [
+    "source:BH02265"
+   ],
+   "relation": "adjacent",
+   "why": "No created thing having His love can be harmed. Neither death, nor life, nor things present, nor things to come, shall be able to separate us from the love of God."
+  },
+  {
+   "id": "john-epistle-perfect-love-casteth-out-fear",
+   "after": "source:AB06690",
+   "responds": [
+    "source:AB06690"
+   ],
+   "relation": "adjacent",
+   "why": "The love of God is “an impregnable fortress”. There is no fear in love; but perfect love casteth out fear."
+  },
+  {
+   "id": "romans-if-god-be-for-us",
+   "after": "source:BH02323",
+   "responds": [
+    "source:BH02323"
+   ],
+   "relation": "adjacent",
+   "why": "God will render him victorious. If God be for us, who can be against us?"
+  },
+  {
+   "id": "shakespeare-love-is-not-love",
+   "after": "source:BH04387",
+   "responds": [
+    "source:BH04387"
+   ],
+   "relation": "adjacent",
+   "why": "One who stands firm in His love. Love is not love which alters when it alteration finds: it is an ever-fixed mark, that looks on tempests and is never shaken."
+  },
+  {
+   "id": "luke-loved-much",
+   "after": "source:AB07024",
+   "responds": [
+    "source:AB07024"
+   ],
+   "relation": "adjacent",
+   "why": "Ignite love in hearts that are remiss. Her sins, which are many, are forgiven; for she loved much."
+  },
+  {
+   "id": "rabia-thou-art-enough",
+   "after": "selection:1d384ee50df1e8bd916d9cc4",
+   "responds": [
+    "selection:1d384ee50df1e8bd916d9cc4"
+   ],
+   "relation": "adjacent",
+   "why": "“The lover seated within the heart is better than sagacity in motion.” Rabi‘a asked for neither paradise nor safety from the fire, but for God alone."
+  }
+ ],
+ "shortfall": "Some twenty readings (31 to 44, 53 to 58, 64 to 69) are brief wishes that a correspondent be set aflame with the love of God, in closely similar words; a companion was given to the image and not to each letter.",
+ "library": {}
+}
