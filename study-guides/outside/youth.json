@@ -1,0 +1,168 @@
+{
+ "format": 2,
+ "slug": "youth",
+ "subject": "B09DF372555FE0EF51DAE5C0119AD51E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 13,
+ "quotations": 13,
+ "kept": [
+  "source:ABU2634",
+  "source:ABU1782",
+  "source:AB03992",
+  "source:ABU2399",
+  "source:ABU1012",
+  "source:AB02620",
+  "source:ABU1752",
+  "source:ABU0678",
+  "source:ABU0968",
+  "source:ABU1838",
+  "source:ABU3517",
+  "source:ABU1294",
+  "source:ABU2296"
+ ],
+ "introduction": "‘Abdu’l-Bahá was born in Tehran in 1844, saw his father taken to the Síyáh-Chál when he was eight, and grew up in exile in Baghdad. This small guide gathers what he said about those years, mostly at table to pilgrims: a neighbour’s birds, an illness that should have killed him, an errand through hostile streets, his visit to the prison, a hunt he gave up. They are told lightly. The Gospels give one such glimpse of Jesus, a boy among the doctors in the temple; Samuel’s childhood and Timothy’s “from a child” are the other scriptural childhoods; Wordsworth’s line is the modern conviction that such memories matter.",
+ "questions": [
+  "Which of these memories seems to you to have shaped the man?",
+  "Why do religious traditions preserve so little about the childhood of their central figures, and what do the few stories do?",
+  "What did the child see at the prison, and what did he do with it afterwards?"
+ ],
+ "outside": [
+  {
+   "id": "wordsworth-child-is-father",
+   "after": "source:ABU2634",
+   "responds": [
+    "source:ABU2634"
+   ],
+   "relation": "adjacent",
+   "why": "Particulars of earliest childhood stick in the memory. Wordsworth: the Child is father of the Man."
+  },
+  {
+   "id": "matthew-sparrow-shall-not-fall",
+   "after": "source:ABU1782",
+   "responds": [
+    "source:ABU1782"
+   ],
+   "relation": "adjacent",
+   "why": "A neighbour who was a bird fancier. Are not two sparrows sold for a farthing? and one of them shall not fall on the ground without your Father."
+  },
+  {
+   "id": "timothy-from-a-child",
+   "after": "source:ABU2399",
+   "responds": [
+    "source:ABU2399"
+   ],
+   "relation": "adjacent",
+   "why": "“While I nursed with my mother’s milk I received truth.” From a child thou hast known the holy scriptures."
+  },
+  {
+   "id": "luke-child-grew",
+   "after": "source:ABU2399",
+   "responds": [
+    "source:ABU2399"
+   ],
+   "relation": "adjacent",
+   "why": "And the child grew, and waxed strong in spirit, filled with wisdom."
+  },
+  {
+   "id": "samuel-child-samuel-speak",
+   "after": "source:AB02620",
+   "responds": [
+    "source:AB02620"
+   ],
+   "relation": "adjacent",
+   "why": "The days when I came to thee as a child with love. The child Samuel: speak; for thy servant heareth."
+  },
+  {
+   "id": "leviticus-rise-up-before-the-hoary-head",
+   "after": "source:ABU1752",
+   "responds": [
+    "source:ABU1752"
+   ],
+   "relation": "adjacent",
+   "why": "An elderly man who lived near our house. Thou shalt rise up before the hoary head, and honour the face of the old man."
+  },
+  {
+   "id": "isaiah-add-unto-thy-days-fifteen-years",
+   "after": "source:ABU0678",
+   "responds": [
+    "source:ABU0678"
+   ],
+   "relation": "adjacent",
+   "why": "At seven, consumption, and no hope of recovery; and then recovery. I have heard thy prayer, I have seen thy tears: behold, I will add unto thy days."
+  },
+  {
+   "id": "luke-about-my-fathers-business",
+   "after": "source:ABU0968",
+   "responds": [
+    "source:ABU0968"
+   ],
+   "relation": "adjacent",
+   "why": "As a little child, sent to carry a message. Wist ye not that I must be about my Father’s business?"
+  },
+  {
+   "id": "luke-boy-in-the-temple",
+   "after": "source:ABU1838",
+   "responds": [
+    "source:ABU1838"
+   ],
+   "relation": "adjacent",
+   "why": "A small lad in Baghdad, active in the discussions. They found him sitting in the midst of the doctors, both hearing them, and asking them questions."
+  },
+  {
+   "id": "genesis-refused-to-be-comforted",
+   "after": "source:ABU1294",
+   "responds": [
+    "source:ABU1294"
+   ],
+   "relation": "adjacent",
+   "why": "Taken as a child to the prison to see his father. Jacob mourned for his son many days, and refused to be comforted."
+  },
+  {
+   "id": "proverbs-regardeth-the-life-of-his-beast",
+   "after": "source:ABU2296",
+   "responds": [
+    "source:ABU2296"
+   ],
+   "relation": "adjacent",
+   "why": "A youthful wish to hunt, given up. A righteous man regardeth the life of his beast."
+  },
+  {
+   "id": "corinthians-childish-things",
+   "after": "source:ABU2296",
+   "responds": [
+    "source:ABU2296"
+   ],
+   "relation": "complement",
+   "why": "When I was a child, I spake as a child; when I became a man, I put away childish things. ‘Abdu’l-Bahá tells these stories as an old man, with evident pleasure. What does he seem not to have put away?"
+  }
+ ],
+ "shortfall": "Readings 3, 5 and 11 are a greeting, a place of birth and a feat of marksmanship.",
+ "library": {
+  "leviticus-rise-up-before-the-hoary-head": {
+   "text": "Thou shalt rise up before the hoary head, and honour the face of the old man",
+   "work": "Leviticus 19:32",
+   "year": "c. 6th–5th century BCE",
+   "sortYear": -500,
+   "translator": "King James Version",
+   "translationYear": "1611",
+   "tradition": "Hebrew Bible and Apocrypha",
+   "kind": "sacred",
+   "source": {
+    "url": "https://www.biblegateway.com/passage/?search=Leviticus%2019%3A32&version=KJV",
+    "label": "Bible Gateway",
+    "checked": "2026-11-28",
+    "status": "primary",
+    "strip": [
+     "\\d+\\s"
+    ],
+    "after": "Update"
+   },
+   "rights": {
+    "status": "public-domain",
+    "note": "Translation of 1611."
+   }
+  }
+ }
+}
