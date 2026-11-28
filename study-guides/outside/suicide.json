@@ -1,0 +1,101 @@
+{
+ "format": 2,
+ "slug": "suicide",
+ "subject": "9FA2AFFA723749029F6D6AF04C6D117A",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 7,
+ "quotations": 9,
+ "kept": [
+  "source:BH00728",
+  "source:BH00795",
+  "source:AB04032",
+  "source:ABU2539",
+  "source:AB01811",
+  "source:AB12806",
+  "selection:695ca54241aeb3f2867220ce"
+ ],
+ "introduction": "Bahá’u’lláh forbade suicide, and the few passages on it are gentle. The first concerns believers who, in grief at a martyrdom, took their own lives: they were “in grievous error”, and are forgiven. ‘Abdu’l-Bahá writes to someone in despair that hard times pass; and letters written for Shoghi Effendi say that life is God’s to take, that the soul of one who dies so will suffer and yet may be helped by prayer, and that the mercy of God is not to be limited. Scripture has several who asked to die, Elijah, Job, Jonah, and were answered with food, a question, or company. The psalm that asks “Why art thou cast down, O my soul?” is the prayer of someone not yet out of it.",
+ "questions": [
+  "The readings forbid suicide and speak of those who died by it with mercy. How do the two belong together?",
+  "Elijah asked to die and was given bread and sleep. What does that story suggest about how to help?",
+  "“This will soon pass.” When is that a help to hear, and when is it not?"
+ ],
+ "outside": [
+  {
+   "id": "kings-it-is-enough",
+   "after": "source:BH00728",
+   "responds": [
+    "source:BH00728"
+   ],
+   "relation": "adjacent",
+   "why": "He who sacrificed himself by his own hand was in grievous error. Elijah under the juniper tree requested for himself that he might die: it is enough; now, O Lord, take away my life. He was given food, and sent on."
+  },
+  {
+   "id": "job-shall-we-not-receive-evil",
+   "after": "source:BH00795",
+   "responds": [
+    "source:BH00795"
+   ],
+   "relation": "adjacent",
+   "why": "Sorrow after a martyrdom drove some to it. Job’s wife: curse God, and die. But he said, shall we receive good at the hand of God, and shall we not receive evil?"
+  },
+  {
+   "id": "psalm-why-art-thou-cast-down",
+   "after": "source:AB04032",
+   "responds": [
+    "source:AB04032"
+   ],
+   "relation": "adjacent",
+   "why": "Thou hast written of severe calamity. Why art thou cast down, O my soul? hope thou in God: for I shall yet praise him."
+  },
+  {
+   "id": "psalm-joy-in-the-morning",
+   "after": "source:ABU2539",
+   "responds": [
+    "source:ABU2539"
+   ],
+   "relation": "adjacent",
+   "why": "“This will soon pass.” Weeping may endure for a night, but joy cometh in the morning."
+  },
+  {
+   "id": "quran-with-hardship-ease",
+   "after": "source:ABU2539",
+   "responds": [
+    "source:ABU2539"
+   ],
+   "relation": "adjacent",
+   "why": "The Qur’an says the same twice over, for emphasis: but lo! with hardship goeth ease; lo! with hardship goeth ease."
+  },
+  {
+   "id": "shakespeare-to-be-or-not-to-be",
+   "after": "source:AB01811",
+   "responds": [
+    "source:AB01811"
+   ],
+   "relation": "complement",
+   "why": "Ascending deliberately merely to escape what is unbearable. Hamlet weighed it: to be, or not to be, that is the question; whether ’tis nobler in the mind to suffer. What holds him back is fear of what follows. What do the readings offer in place of fear?"
+  },
+  {
+   "id": "job-the-lord-gave",
+   "after": "selection:695ca54241aeb3f2867220ce",
+   "responds": [
+    "selection:695ca54241aeb3f2867220ce"
+   ],
+   "relation": "adjacent",
+   "why": "God, the Author of all life, alone can take it away. The Lord gave, and the Lord hath taken away; blessed be the name of the Lord."
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "selection:695ca54241aeb3f2867220ce",
+   "responds": [
+    "selection:695ca54241aeb3f2867220ce"
+   ],
+   "relation": "adjacent",
+   "why": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+  }
+ ],
+ "shortfall": "No companion was found for reading 6, which compares suicide with murder and speaks of the soul’s state.",
+ "library": {}
+}
