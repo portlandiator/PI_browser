@@ -1,0 +1,223 @@
+{
+ "format": 2,
+ "slug": "pilgrimprayer",
+ "subject": "18CFB0820CB9EDDECA02DE0F382EE721",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 21,
+ "quotations": 21,
+ "kept": [
+  "source:AB00642",
+  "source:AB06556",
+  "source:AB11641",
+  "source:AB07858",
+  "source:BH09853",
+  "source:BH01533",
+  "source:BH01115",
+  "source:BH04099",
+  "source:BH07217",
+  "source:BH07673",
+  "source:AB07103",
+  "source:AB06557",
+  "source:AB00785",
+  "source:BH05603",
+  "source:BH01028",
+  "source:AB07179",
+  "source:AB00140",
+  "source:BH01566",
+  "source:BH09708",
+  "source:AB06785",
+  "source:BH11898"
+ ],
+ "introduction": "These are prayers for those travelling to the holy places of the Bahá’í Faith and for those who have arrived: for safe passage, for acceptance, at the Shrine itself, and for a life that shows the effects afterwards. Pilgrim songs are among the oldest religious poetry. The Psalms of ascent, “I was glad when they said unto me, Let us go into the house of the Lord”, “I will lift up mine eyes unto the hills”, “the Lord shall preserve thy going out and thy coming in”, were sung on the road to Jerusalem; the Qur’an proclaims the pilgrimage to “the first Sanctuary”; Jacob woke at Bethel to say “this is the gate of heaven”. Chaucer and Bunyan made the journey a figure for a life. Jesus’s “neither in this mountain, nor yet at Jerusalem” and Kabir’s “neither in Kaaba nor in Kailash” are the standing objection to all sacred geography.",
+ "questions": [
+  "What do the pilgrims in these prayers want from the journey? What do the prayers ask for them afterwards?",
+  "Jesus and Kabir say God is not to be found in one place more than another. How would a pilgrim answer them?",
+  "Reading 6 is the prayer of someone who may never arrive. What is pilgrimage for such a person?"
+ ],
+ "outside": [
+  {
+   "id": "psalm-longeth-for-the-courts",
+   "after": "source:AB00642",
+   "responds": [
+    "source:AB00642"
+   ],
+   "relation": "adjacent",
+   "why": "Servants drawn toward the holy places. My soul longeth, yea, even fainteth for the courts of the Lord."
+  },
+  {
+   "id": "psalm-wings-like-a-dove",
+   "after": "source:AB06556",
+   "responds": [
+    "source:AB06556"
+   ],
+   "relation": "adjacent",
+   "why": "A bird flown from its homeland nest. Oh that I had wings like a dove! for then would I fly away, and be at rest."
+  },
+  {
+   "id": "psalm-i-was-glad",
+   "after": "source:AB11641",
+   "responds": [
+    "source:AB11641"
+   ],
+   "relation": "adjacent",
+   "why": "Souls that yearned for the luminous spot. I was glad when they said unto me, Let us go into the house of the Lord."
+  },
+  {
+   "id": "chaucer-longen-folk-to-goon-on-pilgrimages",
+   "after": "source:AB11641",
+   "responds": [
+    "source:AB11641"
+   ],
+   "relation": "adjacent",
+   "why": "Chaucer on the season when the longing comes: then longen folk to goon on pilgrimages."
+  },
+  {
+   "id": "psalm-lift-up-mine-eyes",
+   "after": "source:AB07858",
+   "responds": [
+    "source:AB07858"
+   ],
+   "relation": "adjacent",
+   "why": "One who has turned his face and put his trust in Thee. I will lift up mine eyes unto the hills, from whence cometh my help."
+  },
+  {
+   "id": "psalm-going-out-coming-in",
+   "after": "source:BH09853",
+   "responds": [
+    "source:BH09853"
+   ],
+   "relation": "adjacent",
+   "why": "Preserve those who set out to attain Thy presence. The Lord shall preserve thy going out and thy coming in."
+  },
+  {
+   "id": "job-i-would-order-my-cause",
+   "after": "source:BH01533",
+   "responds": [
+    "source:BH01533"
+   ],
+   "relation": "adjacent",
+   "why": "“I know not whether Thou hast ordained” that I arrive. Oh that I knew where I might find him! that I might come even to his seat!"
+  },
+  {
+   "id": "matthew-we-have-forsaken-all",
+   "after": "source:BH01115",
+   "responds": [
+    "source:BH01115"
+   ],
+   "relation": "adjacent",
+   "why": "They have left their homes out of longing to meet Thee. Behold, we have forsaken all, and followed thee."
+  },
+  {
+   "id": "hebrews-strangers-and-pilgrims",
+   "after": "source:BH01115",
+   "responds": [
+    "source:BH01115"
+   ],
+   "relation": "adjacent",
+   "why": "They confessed that they were strangers and pilgrims on the earth; they desire a better country."
+  },
+  {
+   "id": "quran-first-sanctuary",
+   "after": "source:BH04099",
+   "responds": [
+    "source:BH04099"
+   ],
+   "relation": "adjacent",
+   "why": "Turning toward the direction before which all directions bow. The Qur’an on the first house of pilgrimage: the first Sanctuary appointed for mankind was that at Becca, a blessed place."
+  },
+  {
+   "id": "psalm-in-whose-heart-are-the-ways",
+   "after": "source:BH07217",
+   "responds": [
+    "source:BH07217"
+   ],
+   "relation": "adjacent",
+   "why": "Strengthened until the journey was made. Blessed is the man whose strength is in thee; they go from strength to strength, every one of them in Zion appeareth before God."
+  },
+  {
+   "id": "quran-proclaim-the-pilgrimage",
+   "after": "source:AB06557",
+   "responds": [
+    "source:AB06557"
+   ],
+   "relation": "adjacent",
+   "why": "Hastened from the furthest lands to Thy Threshold. Proclaim unto mankind the pilgrimage. They will come unto thee on foot and on every lean camel; they will come from every deep ravine."
+  },
+  {
+   "id": "genesis-i-knew-it-not",
+   "after": "source:AB00785",
+   "responds": [
+    "source:AB00785"
+   ],
+   "relation": "adjacent",
+   "why": "Illumine this blessed ground. Jacob, waking: surely the Lord is in this place; and I knew it not. This is none other but the house of God, and this is the gate of heaven."
+  },
+  {
+   "id": "exodus-put-off-thy-shoes",
+   "after": "source:BH05603",
+   "responds": [
+    "source:BH05603"
+   ],
+   "relation": "adjacent",
+   "why": "By this most pure sepulchre. Put off thy shoes from off thy feet, for the place whereon thou standest is holy ground."
+  },
+  {
+   "id": "psalm-secret-place-of-the-most-high",
+   "after": "source:BH01028",
+   "responds": [
+    "source:BH01028"
+   ],
+   "relation": "adjacent",
+   "why": "Protect him who has entered the fortress of Thy security. He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty."
+  },
+  {
+   "id": "psalm-doorkeeper",
+   "after": "source:AB07179",
+   "responds": [
+    "source:AB07179"
+   ],
+   "relation": "adjacent",
+   "why": "Accept his circling of the Shrine morning and evening. A day in thy courts is better than a thousand."
+  },
+  {
+   "id": "john-in-spirit-and-in-truth",
+   "after": "source:BH01566",
+   "responds": [
+    "source:BH01566"
+   ],
+   "relation": "contrast",
+   "why": "A prayer for “the reward of pilgrimage”. Jesus to a woman who asked which mountain was the right one: the hour cometh, when ye shall neither in this mountain, nor yet at Jerusalem, worship the Father; the true worshippers shall worship in spirit and in truth. What is a holy place for, if God is not more there than elsewhere?"
+  },
+  {
+   "id": "kabir-neither-temple-nor-mosque",
+   "after": "source:BH01566",
+   "responds": [
+    "source:BH01566"
+   ],
+   "relation": "contrast",
+   "why": "Kabir: I am neither in temple nor in mosque, neither in Kaaba nor in Kailash. Lo! I am beside thee."
+  },
+  {
+   "id": "luke-heart-burn",
+   "after": "source:AB06785",
+   "responds": [
+    "source:AB06785"
+   ],
+   "relation": "adjacent",
+   "why": "May the effects of visiting the Shrine appear afterwards. Did not our heart burn within us, while he talked with us by the way?"
+  },
+  {
+   "id": "bunyan-wilderness-of-this-world",
+   "after": "source:BH11898",
+   "responds": [
+    "source:BH11898"
+   ],
+   "relation": "complement",
+   "why": "A prayer to remain what the journey made one. Bunyan turned the whole of life into the journey: as I walked through the wilderness of this world. What does a pilgrim bring home?"
+  }
+ ],
+ "shortfall": "Readings 10, 11, 17 and 19 concern particular pilgrims in the same terms as their neighbours.",
+ "library": {}
+}
