@@ -1,0 +1,145 @@
+{
+ "format": 2,
+ "slug": "strength",
+ "subject": "3FE1E7AD528FE2A75CD3483C385076C4",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 15,
+ "quotations": 15,
+ "kept": [
+  "source:AB00209",
+  "source:BH04111",
+  "source:BH06429",
+  "source:AB03075",
+  "source:BH09966",
+  "source:BH02535",
+  "source:BH08018",
+  "source:ABU0826",
+  "source:AB11758",
+  "source:AB00094",
+  "source:BH00223",
+  "source:AB00184",
+  "source:AB00204",
+  "source:AB05364",
+  "source:BH11603"
+ ],
+ "introduction": "“O Lord! We are weak; strengthen us.” These fifteen prayers ask for strength, and the strength they ask for is specific: to do what one has undertaken, to keep one’s feet under pressure, to speak when the tongue falters, to bear grief. All of them begin from weakness admitted. Isaiah’s “he giveth power to the faint”, Joshua’s “be strong and of a good courage”, Paul’s “my strength is made perfect in weakness”, and Nehemiah’s “the joy of the Lord is your strength” are the same prayer and its answers. Emerson’s “trust thyself” is the modern alternative.",
+ "questions": [
+  "What is the strength these prayers ask for? Is it the same as confidence?",
+  "Why would strength be “made perfect in weakness”?",
+  "When has admitting weakness made you stronger?"
+ ],
+ "outside": [
+  {
+   "id": "exodus-slow-of-speech",
+   "after": "source:AB00209",
+   "responds": [
+    "source:AB00209"
+   ],
+   "relation": "adjacent",
+   "why": "In lowliness and weakness, occupied with the greatest undertaking. Who am I, said Moses; and was told, I will be with thy mouth."
+  },
+  {
+   "id": "ephesians-i-bow-my-knees",
+   "after": "source:BH04111",
+   "responds": [
+    "source:BH04111"
+   ],
+   "relation": "adjacent",
+   "why": "Make me strong through Thy strength. That he would grant you to be strengthened with might by his Spirit in the inner man."
+  },
+  {
+   "id": "psalm-refuge-and-strength",
+   "after": "source:BH06429",
+   "responds": [
+    "source:BH06429"
+   ],
+   "relation": "adjacent",
+   "why": "The Name that turns fear into confidence. God is our refuge and strength; therefore will not we fear, though the earth be removed."
+  },
+  {
+   "id": "joshua-be-strong",
+   "after": "source:AB03075",
+   "responds": [
+    "source:AB03075"
+   ],
+   "relation": "adjacent",
+   "why": "Strengthen my loins with Thy power. Be strong and of a good courage; be not afraid: for the Lord thy God is with thee whithersoever thou goest."
+  },
+  {
+   "id": "philippians-i-can-do-all-things",
+   "after": "source:BH02535",
+   "responds": [
+    "source:BH02535"
+   ],
+   "relation": "adjacent",
+   "why": "Assist me to do what Thou didst will. I can do all things through Christ which strengtheneth me."
+  },
+  {
+   "id": "nehemiah-joy-of-the-lord-is-your-strength",
+   "after": "source:BH08018",
+   "responds": [
+    "source:BH08018"
+   ],
+   "relation": "adjacent",
+   "why": "That which shall make me mighty through Thy might. The joy of the Lord is your strength."
+  },
+  {
+   "id": "isaiah-giveth-power-to-the-faint",
+   "after": "source:ABU0826",
+   "responds": [
+    "source:ABU0826"
+   ],
+   "relation": "adjacent",
+   "why": "We are weak; strengthen us. He giveth power to the faint; they shall run, and not be weary; and they shall walk, and not faint."
+  },
+  {
+   "id": "corinthians-strength-in-weakness",
+   "after": "source:AB00094",
+   "responds": [
+    "source:AB00094"
+   ],
+   "relation": "adjacent",
+   "why": "Thou seest my weakness; nevertheless I have trusted. My grace is sufficient for thee: for my strength is made perfect in weakness."
+  },
+  {
+   "id": "psalm-lift-up-mine-eyes",
+   "after": "source:BH00223",
+   "responds": [
+    "source:BH00223"
+   ],
+   "relation": "adjacent",
+   "why": "Unto Thee have I turned my face. I will lift up mine eyes unto the hills, from whence cometh my help."
+  },
+  {
+   "id": "jeremiah-i-am-a-child",
+   "after": "source:AB00184",
+   "responds": [
+    "source:AB00184"
+   ],
+   "relation": "adjacent",
+   "why": "My tongue falters; suffer me to utter Thy praise. Ah, Lord God! behold, I cannot speak."
+  },
+  {
+   "id": "matthew-heavy-laden",
+   "after": "source:AB00204",
+   "responds": [
+    "source:AB00204"
+   ],
+   "relation": "adjacent",
+   "why": "Pitiful are we; homeless wanderers. Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+  },
+  {
+   "id": "emerson-trust-thyself",
+   "after": "source:AB05364",
+   "responds": [
+    "source:AB05364"
+   ],
+   "relation": "contrast",
+   "why": "We are Thy humble servants. Emerson found strength elsewhere: trust thyself: every heart vibrates to that iron string. Whose strength do these prayers ask for, and is self-reliance its rival or its result?"
+  }
+ ],
+ "shortfall": "Readings 5, 9 and 15 repeat the request for strength already given companions in the prayers before them.",
+ "library": {}
+}
