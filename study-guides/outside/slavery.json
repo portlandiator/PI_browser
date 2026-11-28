@@ -1,0 +1,61 @@
+{
+ "format": 2,
+ "slug": "slavery",
+ "subject": "5270E6EC14D143038B715776C1D3521E",
+ "status": "published",
+ "limit": 100,
+ "rule": "whole",
+ "readings": 4,
+ "quotations": 4,
+ "kept": [
+  "source:BH00001",
+  "source:BH11641",
+  "source:ABU2597",
+  "source:ABU2923"
+ ],
+ "introduction": "“It is forbidden you to trade in slaves, be they men or women.” The Kitáb-i-Aqdas, in 1873, prohibits slavery outright, on the ground that all are servants of one Lord and none may own another. The guide’s four passages are that law, a prayer of Bahá’u’lláh written on freeing a slave, and two reminiscences of ‘Abdu’l-Bahá. Job saw the principle, “did not he that made me in the womb make him?”; Leviticus proclaimed liberty at the jubilee; Paul called a runaway slave “a brother beloved” and sent him back; the Qur’an counted freeing a slave among the highest acts. None forbade the institution.",
+ "questions": [
+  "On what ground does the reading forbid slavery? Why is that ground stronger than kindness?",
+  "Paul called Onesimus a brother and returned him to his owner. What does that show about the distance between a principle and a law?",
+  "What present arrangements might a later age see as we see slavery?"
+ ],
+ "outside": [
+  {
+   "id": "job-did-not-he-that-made-me",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "It is not for him who is himself a servant to buy another of God’s servants. Job, of his own bondservants: did not he that made me in the womb make him?"
+  },
+  {
+   "id": "leviticus-proclaim-liberty",
+   "after": "source:BH00001",
+   "responds": [
+    "source:BH00001"
+   ],
+   "relation": "adjacent",
+   "why": "The jubilee law, later cast on the Liberty Bell: proclaim liberty throughout all the land unto all the inhabitants thereof."
+  },
+  {
+   "id": "philemon-receive-him",
+   "after": "source:BH11641",
+   "responds": [
+    "source:BH11641"
+   ],
+   "relation": "adjacent",
+   "why": "One slave standing at the door of another, seeking his freedom. Paul sending Onesimus back to his master: not now as a servant, but above a servant, a brother beloved."
+  },
+  {
+   "id": "quran-ascent",
+   "after": "source:ABU2597",
+   "responds": [
+    "source:ABU2597"
+   ],
+   "relation": "complement",
+   "why": "The story of Isfandíyár, who stayed and served when he might have gone. The Qur’an names the steep ascent of virtue: it is to free a slave. Paul sent a slave back; the Qur’an commends freeing one; Bahá’u’lláh forbade the trade outright. Why did the earlier scriptures stop short of prohibition?"
+  }
+ ],
+ "library": {}
+}
